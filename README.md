@@ -1,2 +1,2 @@
-# corventa-website
-Corventa — Korean B2B Sourcing Platform
+# teranova-website
+Teranova Group — Korean B2B Sourcing Platform
