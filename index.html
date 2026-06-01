@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Corventa — Korea Sourcing & Procurement Platform</title>
+<meta name="description" content="B2B Korea sourcing and procurement platform. Marine supply, K-Beauty, Medical, Industrial equipment. Direct access to verified Korean manufacturers."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+/* ═══════════════════════════════════════
+   VARIABLES
+═══════════════════════════════════════ */
+:root{
+  --navy:       #080f1e;
+  --navy-m:     #0b1b35;
+  --navy-l:     #132845;
+  --navy-ll:    #1a3a5e;
+  --accent:     #2563d4;
+  --accent-hov: #1b55c0;
+  --accent-lt:  #4d85e8;
+  --steel:      #3a5878;
+  --steel-l:    #5a7d9a;
+  --green:      #18a87e;
+  --white:      #ffffff;
+  --off:        #f2f5fb;
+  --border:     rgba(255,255,255,.08);
+  --border-l:   rgba(255,255,255,.14);
+  --dim:        rgba(255,255,255,.62);
+  --muted:      rgba(255,255,255,.38);
+  --lt-border:  rgba(11,27,53,.10);
+  --lt-text:    #0b1b35;
+  --lt-sub:     #3a5878;
+  --nav-h:      66px;
+  --max:        1180px;
+  --r:          8px;
+  --r-lg:       16px;
+  --r-xl:       24px;
+  --font:       'Noto Sans','Noto Sans KR',sans-serif;
+  --sh-md:      0 4px 24px rgba(0,0,0,.28);
+  --sh-lg:      0 12px 48px rgba(0,0,0,.38);
+  --sh-acc:     0 4px 20px rgba(37,99,212,.32);
+}
+
+/* ═══════════════════════════════════════
+   RESET
+═══════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--font);background:var(--navy);color:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+button{cursor:pointer;font-family:var(--font)}
+input,textarea,select{font-family:var(--font)}
+img{max-width:100%;display:block}
+
+/* ═══════════════════════════════════════
+   UTILITIES
+═══════════════════════════════════════ */
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.sec{padding:88px 0}
+.sec-lt{padding:88px 0;background:var(--off)}
+.fade{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.fade.in{opacity:1;transform:none}
+
+/* ═══════════════════════════════════════
+   NAVIGATION
+═══════════════════════════════════════ */
+.nav{
+  position:fixed;top:0;left:0;right:0;
+  height:var(--nav-h);
+  background:rgba(8,15,30,.88);
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--border);
+  z-index:1000;
+  transition:background .3s,border-color .3s
+}
+.nav.scrolled{background:rgba(5,10,20,.97);border-bottom-color:var(--border-l)}
+.nav-row{
+  height:var(--nav-h);
+  display:flex;align-items:center;justify-content:space-between;gap:20px
+}
+.brand{
+  font-size:1.25rem;font-weight:800;letter-spacing:.06em;
+  flex-shrink:0;color:var(--white)
+}
+.brand em{color:var(--accent-lt);font-style:normal}
+.nav-links{display:flex;align-items:center;gap:2px}
+.nav-links a{
+  font-size:.85rem;font-weight:500;color:var(--dim);
+  padding:6px 13px;border-radius:6px;
+  transition:color .2s,background .2s
+}
+.nav-links a:hover{color:var(--white);background:var(--border)}
+.nav-r{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.langs{
+  display:flex;gap:3px;
+  background:rgba(255,255,255,.06);
+  border:1px solid var(--border);
+  border-radius:7px;padding:3px
+}
+.lb{
+  background:none;border:none;
+  color:var(--muted);font-size:.72rem;font-weight:700;
+  letter-spacing:.06em;padding:4px 9px;border-radius:5px;
+  transition:all .2s
+}
+.lb.on,.lb:hover{background:var(--accent);color:var(--white)}
+.nav-btn{
+  background:var(--accent);color:var(--white);
+  font-size:.8rem;font-weight:700;
+  padding:8px 16px;border:none;border-radius:6px;
+  white-space:nowrap;
+  transition:background .2s,transform .15s
+}
+.nav-btn:hover{background:var(--accent-hov);transform:translateY(-1px)}
+.hbg{
+  display:none;flex-direction:column;gap:5px;
+  background:none;border:none;padding:6px
+}
+.hbg span{
+  display:block;width:22px;height:2px;
+  background:var(--dim);border-radius:2px;transition:all .3s
+}
+.hbg.on span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hbg.on span:nth-child(2){opacity:0}
+.hbg.on span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+
+/* Mobile nav */
+.mnav{
+  display:none;position:fixed;
+  top:var(--nav-h);left:0;right:0;
+  background:rgba(5,10,20,.98);
+  border-bottom:1px solid var(--border-l);
+  padding:16px 24px 20px;z-index:999;
+  flex-direction:column;gap:4px
+}
+.mnav.on{display:flex}
+.mnav a{
+  font-size:.95rem;font-weight:500;color:var(--dim);
+  padding:11px 0;border-bottom:1px solid var(--border);
+  transition:color .2s
+}
+.mnav a:last-of-type{border-bottom:none}
+.mnav a:hover{color:var(--white)}
+.mlang{display:flex;gap:8px;padding-top:14px}
+.mlang .lb{
+  flex:1;text-align:center;padding:9px 6px;
+  border:1px solid var(--border-l);border-radius:7px;font-size:.8rem
+}
+.mlang .lb.on{background:var(--accent);border-color:var(--accent)}
+
+/* ═══════════════════════════════════════
+   HERO
+═══════════════════════════════════════ */
+.hero{
+  min-height:100vh;display:flex;align-items:center;
+  padding-top:var(--nav-h);
+  background:var(--navy);
+  position:relative;overflow:hidden
+}
+/* grid texture */
+.hero::before{
+  content:'';position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(37,99,212,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(37,99,212,.045) 1px,transparent 1px);
+  background-size:56px 56px;
+  mask-image:radial-gradient(ellipse 75% 65% at 65% 38%,black 35%,transparent 100%);
+  pointer-events:none
+}
+/* glow */
+.hero::after{
+  content:'';position:absolute;
+  top:-180px;right:-80px;
+  width:640px;height:640px;
+  background:radial-gradient(circle,rgba(37,99,212,.17) 0%,transparent 70%);
+  pointer-events:none
+}
+.hero-inner{
+  position:relative;z-index:1;
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:60px;align-items:center;
+  width:100%;padding:80px 0
+}
+/* badge */
+.badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(37,99,212,.13);
+  border:1px solid rgba(37,99,212,.28);
+  border-radius:100px;padding:5px 13px;margin-bottom:26px;
+  font-size:.73rem;font-weight:700;letter-spacing:.07em;
+  color:var(--accent-lt);text-transform:uppercase
+}
+.badge::before{
+  content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--green);box-shadow:0 0 7px var(--green);
+  animation:blink 2s infinite
+}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+
+.hero-h1{
+  font-size:clamp(2.3rem,4.8vw,3.7rem);
+  font-weight:800;line-height:1.1;
+  letter-spacing:-.025em;margin-bottom:22px
+}
+.hero-h1 .a{color:var(--accent-lt);display:block}
+.hero-sub{
+  font-size:1.02rem;font-weight:400;
+  color:var(--dim);line-height:1.72;
+  margin-bottom:38px;max-width:510px
+}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.btn-p{
+  background:var(--accent);color:var(--white);
+  font-size:.9rem;font-weight:700;
+  padding:13px 26px;border:none;border-radius:var(--r);
+  box-shadow:var(--sh-acc);
+  transition:background .2s,transform .15s,box-shadow .2s
+}
+.btn-p:hover{background:var(--accent-hov);transform:translateY(-2px);box-shadow:0 6px 28px rgba(37,99,212,.42)}
+.btn-g{
+  background:transparent;color:var(--dim);
+  font-size:.9rem;font-weight:500;
+  padding:13px 22px;border:1px solid var(--border-l);border-radius:var(--r);
+  transition:all .2s
+}
+.btn-g:hover{border-color:rgba(255,255,255,.3);color:var(--white);background:rgba(255,255,255,.04)}
+
+/* stats row */
+.hstats{
+  display:flex;gap:36px;
+  margin-top:48px;padding-top:32px;
+  border-top:1px solid var(--border)
+}
+.hstat-v{
+  font-size:1.55rem;font-weight:800;
+  color:var(--white);line-height:1;margin-bottom:4px
+}
+.hstat-v em{color:var(--accent-lt);font-style:normal}
+.hstat-l{font-size:.73rem;color:var(--muted);font-weight:500;letter-spacing:.03em}
+
+/* hero card */
+.hcard{
+  background:rgba(19,40,69,.75);
+  border:1px solid var(--border-l);
+  border-radius:var(--r-xl);padding:26px;
+  backdrop-filter:blur(20px);
+  box-shadow:var(--sh-lg),inset 0 1px 0 rgba(255,255,255,.07)
+}
+.hcard-top{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:18px
+}
+.hcard-label{
+  font-size:.7rem;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)
+}
+.hcard-status{
+  background:rgba(24,168,126,.15);border:1px solid rgba(24,168,126,.3);
+  color:var(--green);font-size:.68rem;font-weight:700;
+  padding:3px 9px;border-radius:100px
+}
+.hcard-item{
+  display:flex;align-items:center;gap:12px;
+  padding:11px 0;border-bottom:1px solid var(--border)
+}
+.hcard-item:last-of-type{border-bottom:none}
+.hc-icon{
+  width:34px;height:34px;border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;flex-shrink:0
+}
+.ic-m{background:rgba(37,99,212,.22)}
+.ic-b{background:rgba(255,140,175,.14)}
+.ic-h{background:rgba(24,168,126,.14)}
+.ic-i{background:rgba(255,188,100,.14)}
+.hc-name{font-size:.8rem;font-weight:700;color:var(--white);margin-bottom:2px}
+.hc-sub{font-size:.69rem;color:var(--muted)}
+.hc-s{font-size:.68rem;font-weight:700;color:var(--green);margin-left:auto;flex-shrink:0}
+.hcard-foot{
+  margin-top:16px;
+  background:rgba(37,99,212,.13);
+  border:1px solid rgba(37,99,212,.24);
+  border-radius:var(--r);padding:11px 13px;
+  display:flex;align-items:center;gap:9px
+}
+.hcard-foot-t{font-size:.74rem;color:var(--dim)}
+.hcard-foot-t strong{color:var(--white);font-weight:600}
+
+/* ═══════════════════════════════════════
+   TRUST BAR
+═══════════════════════════════════════ */
+.trust{
+  background:var(--navy);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border)
+}
+.trust-row{
+  display:flex;align-items:stretch;
+  overflow-x:auto;scrollbar-width:none
+}
+.trust-row::-webkit-scrollbar{display:none}
+.ti{
+  display:flex;align-items:center;gap:13px;
+  padding:20px 30px;border-right:1px solid var(--border);
+  flex-shrink:0;min-width:196px
+}
+.ti:last-child{border-right:none}
+.ti-ico{font-size:1.3rem;flex-shrink:0}
+.ti-l{font-size:.855rem;font-weight:700;color:var(--white);line-height:1.2;margin-bottom:3px}
+.ti-s{font-size:.72rem;color:var(--muted);font-weight:400}
+
+/* ═══════════════════════════════════════
+   SECTION HEADER
+═══════════════════════════════════════ */
+.sh{text-align:center;margin-bottom:52px}
+.stag{
+  display:inline-block;font-size:.7rem;font-weight:800;
+  letter-spacing:.13em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:11px
+}
+.stag.lt{color:var(--accent-lt)}
+.st{
+  font-size:clamp(1.7rem,3.2vw,2.45rem);font-weight:800;
+  letter-spacing:-.022em;color:var(--lt-text);margin-bottom:13px;line-height:1.15
+}
+.st.w{color:var(--white)}
+.ss{
+  font-size:.975rem;color:var(--lt-sub);
+  max-width:540px;margin:0 auto;line-height:1.68
+}
+.ss.w{color:var(--dim)}
+
+/* ═══════════════════════════════════════
+   CATEGORIES
+═══════════════════════════════════════ */
+.cats-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:18px
+}
+.cat{
+  background:var(--white);border:1px solid var(--lt-border);
+  border-radius:var(--r-lg);padding:30px 26px;
+  transition:transform .22s,box-shadow .22s,border-color .22s
+}
+.cat:hover{
+  transform:translateY(-5px);
+  box-shadow:0 14px 40px rgba(11,27,53,.14);
+  border-color:rgba(37,99,212,.22)
+}
+.cat-ico{font-size:2.1rem;display:block;margin-bottom:16px}
+.cat-t{font-size:1rem;font-weight:800;color:var(--lt-text);margin-bottom:9px}
+.cat-d{font-size:.845rem;color:var(--lt-sub);line-height:1.66;margin-bottom:18px}
+.cat-l{
+  font-size:.78rem;font-weight:800;color:var(--accent);
+  letter-spacing:.02em;cursor:pointer;transition:color .2s
+}
+.cat-l:hover{color:var(--accent-hov)}
+
+/* ═══════════════════════════════════════
+   HOW IT WORKS
+═══════════════════════════════════════ */
+.how{background:var(--navy-m)}
+.steps{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:24px;position:relative
+}
+.steps::before{
+  content:'';position:absolute;
+  top:31px;left:calc(12.5% + 31px);right:calc(12.5% + 31px);
+  height:1px;
+  background:linear-gradient(90deg,var(--border-l),var(--accent) 50%,var(--border-l));
+  pointer-events:none
+}
+.step{display:flex;flex-direction:column;align-items:flex-start}
+.step-n{
+  width:62px;height:62px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;font-weight:800;
+  border:2px solid var(--accent);
+  background:var(--navy);color:var(--accent-lt);
+  margin-bottom:20px;position:relative;z-index:1;flex-shrink:0
+}
+.step-t{font-size:.975rem;font-weight:700;color:var(--white);margin-bottom:9px}
+.step-d{font-size:.845rem;color:var(--dim);line-height:1.66}
+
+/* ═══════════════════════════════════════
+   WHY CORVENTA
+═══════════════════════════════════════ */
+.why-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px
+}
+.wc{
+  background:var(--white);border:1px solid var(--lt-border);
+  border-radius:var(--r-lg);padding:26px;
+  transition:box-shadow .22s,border-color .22s
+}
+.wc:hover{box-shadow:0 8px 32px rgba(11,27,53,.11);border-color:rgba(37,99,212,.18)}
+.wc-ico{font-size:1.65rem;display:block;margin-bottom:13px}
+.wc-t{font-size:.955rem;font-weight:800;color:var(--lt-text);margin-bottom:8px}
+.wc-d{font-size:.835rem;color:var(--lt-sub);line-height:1.66}
+
+/* ═══════════════════════════════════════
+   CONTACT / FORM
+═══════════════════════════════════════ */
+.contact-bg{background:var(--navy)}
+.contact-inner{
+  display:grid;grid-template-columns:1fr 1.75fr;
+  gap:60px;align-items:start
+}
+.cinfo .st{text-align:left}
+.cinfo .ss.w{text-align:left;margin:0 0 32px}
+.cdet{display:flex;align-items:flex-start;gap:11px;margin-bottom:16px}
+.cdet-ico{font-size:1.05rem;margin-top:2px;flex-shrink:0}
+.cdet-lbl{
+  font-size:.68rem;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:3px
+}
+.cdet-v{font-size:.875rem;color:var(--dim)}
+
+/* form box */
+.fbox{
+  background:rgba(19,40,69,.55);
+  border:1px solid var(--border-l);
+  border-radius:var(--r-xl);padding:32px;
+  backdrop-filter:blur(14px)
+}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fgrp{display:flex;flex-direction:column;gap:6px}
+.fgrp.full{grid-column:1/-1}
+.flbl{font-size:.77rem;font-weight:700;color:var(--dim);letter-spacing:.02em}
+.req{color:var(--accent-lt);margin-left:2px}
+.fc{
+  background:rgba(255,255,255,.05);
+  border:1px solid var(--border-l);
+  border-radius:var(--r);padding:10px 13px;
+  font-size:.855rem;color:var(--white);
+  outline:none;width:100%;
+  transition:border-color .2s,background .2s
+}
+.fc::placeholder{color:var(--muted)}
+.fc:focus{border-color:var(--accent);background:rgba(37,99,212,.09)}
+select.fc{
+  appearance:none;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7'%3E%3Cpath d='M1 1l4.5 4.5L10 1' stroke='%235a7d9a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 13px center;
+  padding-right:34px
+}
+select.fc option{background:var(--navy);color:var(--white)}
+textarea.fc{resize:vertical;min-height:96px}
+.fprivacy{
+  font-size:.72rem;color:var(--muted);
+  display:flex;align-items:flex-start;gap:7px;margin-top:6px
+}
+.fprivacy::before{content:'🔒';font-size:.82rem;flex-shrink:0;margin-top:1px}
+.fsub{
+  width:100%;background:var(--accent);color:var(--white);
+  border:none;border-radius:var(--r);
+  padding:13px;font-size:.9rem;font-weight:800;
+  letter-spacing:.02em;box-shadow:var(--sh-acc);
+  transition:background .2s,transform .15s,box-shadow .2s
+}
+.fsub:hover{background:var(--accent-hov);transform:translateY(-1px);box-shadow:0 6px 26px rgba(37,99,212,.42)}
+
+/* success */
+.fsuccess{display:none;text-align:center;padding:44px 20px}
+.fsuccess.on{display:block}
+.fsuccess-ico{font-size:2.8rem;margin-bottom:18px}
+.fsuccess-t{font-size:1.25rem;font-weight:800;color:var(--white);margin-bottom:10px}
+.fsuccess-m{font-size:.875rem;color:var(--dim);line-height:1.68}
+
+/* ═══════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════ */
+.footer{
+  background:var(--navy);
+  border-top:1px solid var(--border);
+  padding:52px 0 28px
+}
+.footer-g{
+  display:grid;grid-template-columns:1.9fr 1fr 1fr;
+  gap:44px;margin-bottom:44px
+}
+.fbrand{font-size:1.2rem;font-weight:800;letter-spacing:.06em;color:var(--white);margin-bottom:12px}
+.fbrand em{color:var(--accent-lt);font-style:normal}
+.fdesc{font-size:.855rem;color:var(--dim);line-height:1.65;max-width:270px}
+.fct{
+  font-size:.7rem;font-weight:800;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:16px
+}
+.flinks{display:flex;flex-direction:column;gap:10px}
+.flinks a{font-size:.855rem;color:var(--dim);transition:color .2s}
+.flinks a:hover{color:var(--white)}
+.fci{display:flex;gap:10px;margin-bottom:11px;font-size:.855rem;color:var(--dim)}
+.fci span:first-child{flex-shrink:0}
+.footer-bot{
+  border-top:1px solid var(--border);padding-top:22px;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:14px;flex-wrap:wrap
+}
+.fcopy{font-size:.775rem;color:var(--muted)}
+.ftag{
+  font-size:.72rem;color:var(--muted);
+  background:rgba(255,255,255,.05);
+  padding:4px 10px;border-radius:100px
+}
+
+/* scroll to top */
+.stt{
+  position:fixed;bottom:26px;right:26px;
+  width:42px;height:42px;
+  background:var(--accent);border:none;border-radius:50%;
+  color:var(--white);font-size:1.1rem;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;opacity:0;transform:translateY(12px);
+  transition:opacity .3s,transform .3s,background .2s;
+  z-index:900;box-shadow:var(--sh-md)
+}
+.stt.on{opacity:1;transform:none}
+.stt:hover{background:var(--accent-hov)}
+
+/* ═══════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════ */
+@media(max-width:1040px){
+  .hero-inner{grid-template-columns:1fr;gap:48px}
+  .hcard-wrap{display:none}
+  .cats-grid{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-inner{grid-template-columns:1fr;gap:40px}
+  .footer-g{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  :root{--nav-h:60px}
+  .sec,.sec-lt{padding:60px 0}
+  .nav-links,.nav-btn{display:none}
+  .hbg{display:flex}
+  .steps{grid-template-columns:1fr 1fr;gap:32px}
+  .steps::before{display:none}
+  .cats-grid{gap:12px}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .fg{grid-template-columns:1fr}
+  .footer-g{grid-template-columns:1fr;gap:28px}
+  .hstats{gap:22px}
+}
+@media(max-width:480px){
+  .wrap{padding:0 16px}
+  .cats-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr}
+  .ctas{flex-direction:column}
+  .hstats{flex-wrap:wrap}
+}
+
+/* Korean font weight fine-tune */
+.lang-ko .hero-h1,.lang-ko .st,.lang-ko .cat-t,.lang-ko .wc-t,.lang-ko .step-t{
+  letter-spacing:-.01em
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <div class="nav-row">
+      <a href="#" class="brand">CORVEN<em>TA</em></a>
+      <ul class="nav-links">
+        <li><a href="#categories" data-i18n="nav.m1">Categories</a></li>
+        <li><a href="#how" data-i18n="nav.m2">How it Works</a></li>
+        <li><a href="#why" data-i18n="nav.m3">Why Corventa</a></li>
+        <li><a href="#contact" data-i18n="nav.m4">Contact</a></li>
+      </ul>
+      <div class="nav-r">
+        <div class="langs">
+          <button class="lb on" data-lang="en">EN</button>
+          <button class="lb" data-lang="ru">RU</button>
+          <button class="lb" data-lang="ko">KO</button>
+        </div>
+        <button class="nav-btn" onclick="goto('contact')" data-i18n="hero.cta">Submit Request</button>
+      </div>
+      <button class="hbg" id="hbg" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile nav -->
+<div class="mnav" id="mnav">
+  <a href="#categories" data-i18n="nav.m1" class="mlink">Categories</a>
+  <a href="#how" data-i18n="nav.m2" class="mlink">How it Works</a>
+  <a href="#why" data-i18n="nav.m3" class="mlink">Why Corventa</a>
+  <a href="#contact" data-i18n="nav.m4" class="mlink">Contact</a>
+  <div class="mlang">
+    <button class="lb on" data-lang="en">EN</button>
+    <button class="lb" data-lang="ru">RU</button>
+    <button class="lb" data-lang="ko">KO</button>
+  </div>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div class="fade">
+        <div class="badge">Korea Sourcing Platform</div>
+        <h1 class="hero-h1">
+          <span data-i18n="hero.l1">Korea Sourcing.</span>
+          <span class="a" data-i18n="hero.l2">Done Right.</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">
+          Direct access to verified Korean manufacturers and suppliers across Marine, Cosmetics, Medical, and Industrial sectors.
+        </p>
+        <div class="ctas">
+          <button class="btn-p" onclick="goto('contact')" data-i18n="hero.cta">Submit Sourcing Request</button>
+          <button class="btn-g" onclick="goto('categories')" data-i18n="hero.cta2">Learn More</button>
+        </div>
+        <div class="hstats">
+          <div>
+            <div class="hstat-v">4<em>+</em></div>
+            <div class="hstat-l" data-i18n="trust.t4">Sectors</div>
+          </div>
+          <div>
+            <div class="hstat-v">&lt;24<em>h</em></div>
+            <div class="hstat-l" data-i18n="trust.t2">Response</div>
+          </div>
+          <div>
+            <div class="hstat-v">EN<em>·</em>RU<em>·</em>KO</div>
+            <div class="hstat-l" data-i18n="trust.t3">Languages</div>
+          </div>
+        </div>
+      </div>
+      <div class="hcard-wrap fade" style="transition-delay:.18s">
+        <div class="hcard">
+          <div class="hcard-top">
+            <span class="hcard-label">Active Requests</span>
+            <span class="hcard-status">● Live</span>
+          </div>
+          <div class="hcard-item">
+            <div class="hc-icon ic-m">⚓</div>
+            <div style="flex:1">
+              <div class="hc-name">Marine Spare Parts</div>
+              <div class="hc-sub">500 units · EU</div>
+            </div>
+            <div class="hc-s">Active</div>
+          </div>
+          <div class="hcard-item">
+            <div class="hc-icon ic-b">💄</div>
+            <div style="flex:1">
+              <div class="hc-name">K-Beauty OEM</div>
+              <div class="hc-sub">10,000 pcs · CIS</div>
+            </div>
+            <div class="hc-s">Active</div>
+          </div>
+          <div class="hcard-item">
+            <div class="hc-icon ic-h">🏥</div>
+            <div style="flex:1">
+              <div class="hc-name">Medical Devices</div>
+              <div class="hc-sub">200 units · Turkey</div>
+            </div>
+            <div class="hc-s">Active</div>
+          </div>
+          <div class="hcard-item">
+            <div class="hc-icon ic-i">⚙️</div>
+            <div style="flex:1">
+              <div class="hc-name">Industrial Parts</div>
+              <div class="hc-sub">Bulk order · Asia</div>
+            </div>
+            <div class="hc-s">Active</div>
+          </div>
+          <div class="hcard-foot">
+            <span>📍</span>
+            <div class="hcard-foot-t"><strong>Seoul, Korea</strong> — direct market access</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TRUST BAR ═══ -->
+<div class="trust">
+  <div class="wrap">
+    <div class="trust-row">
+      <div class="ti"><span class="ti-ico">📍</span><div><div class="ti-l" data-i18n="trust.t1">Based in Korea</div><div class="ti-s" data-i18n="trust.t1s">Seoul, South Korea</div></div></div>
+      <div class="ti"><span class="ti-ico">⚡</span><div><div class="ti-l" data-i18n="trust.t2">Response Time</div><div class="ti-s" data-i18n="trust.t2s">Under 24 hours</div></div></div>
+      <div class="ti"><span class="ti-ico">🌐</span><div><div class="ti-l" data-i18n="trust.t3">Languages</div><div class="ti-s" data-i18n="trust.t3s">EN · RU · KO</div></div></div>
+      <div class="ti"><span class="ti-ico">🏭</span><div><div class="ti-l" data-i18n="trust.t4">Sectors</div><div class="ti-s" data-i18n="trust.t4s">4 Key Industries</div></div></div>
+      <div class="ti"><span class="ti-ico">🤝</span><div><div class="ti-l" data-i18n="trust.t5">Direct Sourcing</div><div class="ti-s" data-i18n="trust.t5s">No middlemen</div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ CATEGORIES ═══ -->
+<section class="sec-lt" id="categories">
+  <div class="wrap">
+    <div class="sh fade">
+      <span class="stag">Sourcing Categories</span>
+      <h2 class="st" data-i18n="cats.title">Sourcing Categories</h2>
+      <p class="ss" data-i18n="cats.sub">Specializing in four high-demand sectors with deep supplier networks in Korea.</p>
+    </div>
+    <div class="cats-grid">
+      <div class="cat fade" style="transition-delay:.05s">
+        <span class="cat-ico">⚓</span>
+        <h3 class="cat-t" data-i18n="cats.c1t">Marine Supply</h3>
+        <p class="cat-d" data-i18n="cats.c1d">Ship spare parts, navigation equipment, safety gear, marine chemicals, and technical components for vessels of all types.</p>
+        <span class="cat-l" data-i18n="cats.c1l" onclick="goto('contact')">Explore →</span>
+      </div>
+      <div class="cat fade" style="transition-delay:.1s">
+        <span class="cat-ico">💄</span>
+        <h3 class="cat-t" data-i18n="cats.c2t">K-Beauty &amp; Cosmetics</h3>
+        <p class="cat-d" data-i18n="cats.c2d">OEM/ODM skincare, haircare, and cosmetics from certified Korean manufacturers for wholesale and private label.</p>
+        <span class="cat-l" data-i18n="cats.c2l" onclick="goto('contact')">Explore →</span>
+      </div>
+      <div class="cat fade" style="transition-delay:.15s">
+        <span class="cat-ico">🏥</span>
+        <h3 class="cat-t" data-i18n="cats.c3t">Medical &amp; Healthcare</h3>
+        <p class="cat-d" data-i18n="cats.c3d">Medical devices, consumables, diagnostic equipment, and healthcare products from licensed Korean producers.</p>
+        <span class="cat-l" data-i18n="cats.c3l" onclick="goto('contact')">Explore →</span>
+      </div>
+      <div class="cat fade" style="transition-delay:.2s">
+        <span class="cat-ico">⚙️</span>
+        <h3 class="cat-t" data-i18n="cats.c4t">Industrial Equipment</h3>
+        <p class="cat-d" data-i18n="cats.c4d">Machinery, components, automation systems, and industrial tools sourced directly from Korean manufacturers.</p>
+        <span class="cat-l" data-i18n="cats.c4l" onclick="goto('contact')">Explore →</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ HOW IT WORKS ═══ -->
+<section class="sec how" id="how">
+  <div class="wrap">
+    <div class="sh fade">
+      <span class="stag lt">Process</span>
+      <h2 class="st w" data-i18n="how.title">How We Work</h2>
+      <p class="ss w" data-i18n="how.sub">A streamlined 4-step process from inquiry to delivery.</p>
+    </div>
+    <div class="steps">
+      <div class="step fade" style="transition-delay:.05s">
+        <div class="step-n">01</div>
+        <h3 class="step-t" data-i18n="how.s1t">Submit Request</h3>
+        <p class="step-d" data-i18n="how.s1d">Tell us what you need: product type, specifications, quantity, target price, and destination.</p>
+      </div>
+      <div class="step fade" style="transition-delay:.1s">
+        <div class="step-n">02</div>
+        <h3 class="step-t" data-i18n="how.s2t">Supplier Search</h3>
+        <p class="step-d" data-i18n="how.s2d">We identify and vet qualified Korean manufacturers and suppliers matching your requirements.</p>
+      </div>
+      <div class="step fade" style="transition-delay:.15s">
+        <div class="step-n">03</div>
+        <h3 class="step-t" data-i18n="how.s3t">Offer &amp; Negotiation</h3>
+        <p class="step-d" data-i18n="how.s3d">You receive verified supplier offers. We handle communication and negotiation on your behalf.</p>
+      </div>
+      <div class="step fade" style="transition-delay:.2s">
+        <div class="step-n">04</div>
+        <h3 class="step-t" data-i18n="how.s4t">Logistics &amp; Delivery</h3>
+        <p class="step-d" data-i18n="how.s4d">Coordination of export documentation, customs, freight, and delivery to your destination.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WHY CORVENTA ═══ -->
+<section class="sec-lt" id="why">
+  <div class="wrap">
+    <div class="sh fade">
+      <span class="stag">Advantages</span>
+      <h2 class="st" data-i18n="why.title">Why Corventa</h2>
+      <p class="ss" data-i18n="why.sub">Built on local knowledge, run on operational discipline.</p>
+    </div>
+    <div class="why-grid">
+      <div class="wc fade" style="transition-delay:.05s">
+        <span class="wc-ico">🇰🇷</span>
+        <h3 class="wc-t" data-i18n="why.w1t">Korea-Based Operations</h3>
+        <p class="wc-d" data-i18n="why.w1d">We operate directly from South Korea — not from a third country. Faster sourcing, real relationships, no delays from distance.</p>
+      </div>
+      <div class="wc fade" style="transition-delay:.1s">
+        <span class="wc-ico">💬</span>
+        <h3 class="wc-t" data-i18n="why.w2t">Trilingual Communication</h3>
+        <p class="wc-d" data-i18n="why.w2d">English, Russian, and Korean — fluent across all three. No lost nuance in critical B2B negotiations.</p>
+      </div>
+      <div class="wc fade" style="transition-delay:.15s">
+        <span class="wc-ico">✅</span>
+        <h3 class="wc-t" data-i18n="why.w3t">Verified Suppliers Only</h3>
+        <p class="wc-d" data-i18n="why.w3d">Every supplier goes through manual verification. We don't list directories — we build relationships.</p>
+      </div>
+      <div class="wc fade" style="transition-delay:.2s">
+        <span class="wc-ico">🔄</span>
+        <h3 class="wc-t" data-i18n="why.w4t">End-to-End Support</h3>
+        <p class="wc-d" data-i18n="why.w4d">From the first inquiry to final delivery, we manage the full workflow so you don't have to coordinate across time zones.</p>
+      </div>
+      <div class="wc fade" style="transition-delay:.25s">
+        <span class="wc-ico">💰</span>
+        <h3 class="wc-t" data-i18n="why.w5t">No Hidden Fees</h3>
+        <p class="wc-d" data-i18n="why.w5d">Clear fee structure before we start. No surprises, no commissions buried in product pricing.</p>
+      </div>
+      <div class="wc fade" style="transition-delay:.3s">
+        <span class="wc-ico">🌏</span>
+        <h3 class="wc-t" data-i18n="why.w6t">Cross-Border Expertise</h3>
+        <p class="wc-d" data-i18n="why.w6d">Deep experience with CIS, EU, Turkey, and Asia — trade routes, compliance, documentation, and logistics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT / FORM ═══ -->
+<section class="sec contact-bg" id="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      <div class="cinfo fade">
+        <span class="stag lt">Get in Touch</span>
+        <h2 class="st w" data-i18n="form.title">Submit a Sourcing Request</h2>
+        <p class="ss w" data-i18n="form.sub">Tell us what you're looking for. We'll respond within 24 hours.</p>
+        <div class="cdet">
+          <span class="cdet-ico">✉️</span>
+          <div>
+            <div class="cdet-lbl">Email</div>
+            <div class="cdet-v">info@corventa.com</div>
+          </div>
+        </div>
+        <div class="cdet">
+          <span class="cdet-ico">📞</span>
+          <div>
+            <div class="cdet-lbl">Phone / WhatsApp</div>
+            <div class="cdet-v">+82-XX-XXXX-XXXX</div>
+          </div>
+        </div>
+        <div class="cdet">
+          <span class="cdet-ico">📍</span>
+          <div>
+            <div class="cdet-lbl">Location</div>
+            <div class="cdet-v" data-i18n="footer.loc">Seoul, South Korea</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade" style="transition-delay:.15s">
+        <div class="fbox">
+          <div id="fform">
+            <div class="fg">
+              <div class="fgrp">
+                <label class="flbl" for="f1"><span data-i18n="form.l1">Company Name</span><span class="req">*</span></label>
+                <input class="fc" id="f1" type="text" data-ph="form.ph1" placeholder="Your company"/>
+              </div>
+              <div class="fgrp">
+                <label class="flbl" for="f2"><span data-i18n="form.l2">Your Name</span><span class="req">*</span></label>
+                <input class="fc" id="f2" type="text" data-ph="form.ph2" placeholder="Full name"/>
+              </div>
+              <div class="fgrp">
+                <label class="flbl" for="f3"><span data-i18n="form.l3">Email</span><span class="req">*</span></label>
+                <input class="fc" id="f3" type="email" data-ph="form.ph3" placeholder="business@email.com"/>
+              </div>
+              <div class="fgrp">
+                <label class="flbl" for="f4"><span data-i18n="form.l4">Phone / WhatsApp</span></label>
+                <input class="fc" id="f4" type="tel" data-ph="form.ph4" placeholder="+1 XXX XXX XXXX"/>
+              </div>
+              <div class="fgrp full">
+                <label class="flbl" for="f5"><span data-i18n="form.l5">Sourcing Category</span><span class="req">*</span></label>
+                <select class="fc" id="f5">
+                  <option value="" data-i18n="form.o0">Select category</option>
+                  <option value="marine" data-i18n="form.o1">Marine Supply</option>
+                  <option value="beauty" data-i18n="form.o2">K-Beauty &amp; Cosmetics</option>
+                  <option value="medical" data-i18n="form.o3">Medical &amp; Healthcare</option>
+                  <option value="industrial" data-i18n="form.o4">Industrial Equipment</option>
+                  <option value="other" data-i18n="form.o5">Other</option>
+                </select>
+              </div>
+              <div class="fgrp full">
+                <label class="flbl" for="f6"><span data-i18n="form.l6">Product Description</span><span class="req">*</span></label>
+                <textarea class="fc" id="f6" rows="3" data-ph="form.ph6" placeholder="Describe the product: specs, standards, brands if any..."></textarea>
+              </div>
+              <div class="fgrp">
+                <label class="flbl" for="f7"><span data-i18n="form.l7">Target Quantity</span><span class="req">*</span></label>
+                <input class="fc" id="f7" type="text" data-ph="form.ph7" placeholder="e.g. 500 units / month"/>
+              </div>
+              <div class="fgrp">
+                <label class="flbl" for="f8"><span data-i18n="form.l8">Destination Country</span><span class="req">*</span></label>
+                <input class="fc" id="f8" type="text" data-ph="form.ph8" placeholder="e.g. Germany, UAE, Russia"/>
+              </div>
+              <div class="fgrp full">
+                <label class="flbl" for="f9"><span data-i18n="form.l9">Additional Notes</span></label>
+                <textarea class="fc" id="f9" rows="2" data-ph="form.ph9" placeholder="Timeline, certification requirements, previous suppliers..."></textarea>
+              </div>
+              <div class="fgrp full" style="gap:11px">
+                <p class="fprivacy" data-i18n="form.priv">Your information is kept strictly confidential and used only to process your sourcing request.</p>
+                <button type="button" class="fsub" id="fsub" data-i18n="form.btn">Send Request</button>
+              </div>
+            </div>
+          </div>
+          <div class="fsuccess" id="fsuccess">
+            <div class="fsuccess-ico">✅</div>
+            <h3 class="fsuccess-t" data-i18n="form.ok_t">Request Received</h3>
+            <p class="fsuccess-m" data-i18n="form.ok_m">Thank you. We will review your request and respond within 24 hours to the email provided.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-g">
+      <div>
+        <div class="fbrand">CORVEN<em>TA</em></div>
+        <p class="fdesc" data-i18n="footer.desc">Korea-based sourcing and procurement platform for international buyers.</p>
+      </div>
+      <div>
+        <div class="fct" data-i18n="footer.nav">Navigation</div>
+        <ul class="flinks">
+          <li><a href="#categories" data-i18n="footer.l1">Categories</a></li>
+          <li><a href="#how" data-i18n="footer.l2">How it Works</a></li>
+          <li><a href="#why" data-i18n="footer.l3">Why Corventa</a></li>
+          <li><a href="#contact" data-i18n="footer.l4">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="fct" data-i18n="footer.contact">Contact</div>
+        <div class="fci"><span>✉️</span><span>info@corventa.com</span></div>
+        <div class="fci"><span>📞</span><span>+82-XX-XXXX-XXXX</span></div>
+        <div class="fci"><span>📍</span><span data-i18n="footer.loc">Seoul, South Korea</span></div>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <span class="fcopy" data-i18n="footer.copy">© 2024 Corventa. All rights reserved.</span>
+      <span class="ftag">Seoul, South Korea</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to top -->
+<button class="stt" id="stt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+<script>
+/* ═══════════════════════════════════════
+   I18N
+═══════════════════════════════════════ */
+const T={
+en:{
+  nav:{m1:"Categories",m2:"How it Works",m3:"Why Corventa",m4:"Contact"},
+  hero:{l1:"Korea Sourcing.",l2:"Done Right.",sub:"Direct access to verified Korean manufacturers and suppliers across Marine, Cosmetics, Medical, and Industrial sectors.",cta:"Submit Sourcing Request",cta2:"Learn More"},
+  trust:{t1:"Based in Korea",t1s:"Seoul, South Korea",t2:"Response Time",t2s:"Under 24 hours",t3:"Languages",t3s:"EN · RU · KO",t4:"Sectors",t4s:"4 Key Industries",t5:"Direct Sourcing",t5s:"No middlemen"},
+  cats:{title:"Sourcing Categories",sub:"Specializing in four high-demand sectors with deep supplier networks in Korea.",c1t:"Marine Supply",c1d:"Ship spare parts, navigation equipment, safety gear, marine chemicals, and technical components for vessels of all types.",c1l:"Explore →",c2t:"K-Beauty & Cosmetics",c2d:"OEM/ODM skincare, haircare, and cosmetics from certified Korean manufacturers for wholesale and private label.",c2l:"Explore →",c3t:"Medical & Healthcare",c3d:"Medical devices, consumables, diagnostic equipment, and healthcare products from licensed Korean producers.",c3l:"Explore →",c4t:"Industrial Equipment",c4d:"Machinery, components, automation systems, and industrial tools sourced directly from Korean manufacturers.",c4l:"Explore →"},
+  how:{title:"How We Work",sub:"A streamlined 4-step process from inquiry to delivery.",s1t:"Submit Request",s1d:"Tell us what you need: product type, specifications, quantity, target price, and destination.",s2t:"Supplier Search",s2d:"We identify and vet qualified Korean manufacturers and suppliers matching your requirements.",s3t:"Offer & Negotiation",s3d:"You receive verified supplier offers. We handle communication and negotiation on your behalf.",s4t:"Logistics & Delivery",s4d:"Coordination of export documentation, customs, freight, and delivery to your destination."},
+  why:{title:"Why Corventa",sub:"Built on local knowledge, run on operational discipline.",w1t:"Korea-Based Operations",w1d:"We operate directly from South Korea — not from a third country. Faster sourcing, real relationships, no delays from distance.",w2t:"Trilingual Communication",w2d:"English, Russian, and Korean — fluent across all three. No lost nuance in critical B2B negotiations.",w3t:"Verified Suppliers Only",w3d:"Every supplier goes through manual verification. We don't list directories — we build relationships.",w4t:"End-to-End Support",w4d:"From the first inquiry to final delivery, we manage the full workflow so you don't have to coordinate across time zones.",w5t:"No Hidden Fees",w5d:"Clear fee structure before we start. No surprises, no commissions buried in product pricing.",w6t:"Cross-Border Expertise",w6d:"Deep experience with CIS, EU, Turkey, and Asia — trade routes, compliance, documentation, and logistics."},
+  form:{title:"Submit a Sourcing Request",sub:"Tell us what you're looking for. We'll respond within 24 hours.",l1:"Company Name",l2:"Your Name",l3:"Email",l4:"Phone / WhatsApp",l5:"Sourcing Category",l6:"Product Description",l7:"Target Quantity & Unit",l8:"Destination Country",l9:"Additional Notes",ph1:"Your company",ph2:"Full name",ph3:"business@email.com",ph4:"+1 XXX XXX XXXX",ph6:"Describe the product: specs, standards, brands if any...",ph7:"e.g. 500 units / month",ph8:"e.g. Germany, UAE, Russia",ph9:"Timeline, certification requirements, previous suppliers...",o0:"Select category",o1:"Marine Supply",o2:"K-Beauty & Cosmetics",o3:"Medical & Healthcare",o4:"Industrial Equipment",o5:"Other",btn:"Send Request",ok_t:"Request Received",ok_m:"Thank you. We will review your request and respond within 24 hours to the email provided.",priv:"Your information is kept strictly confidential and used only to process your sourcing request."},
+  footer:{desc:"Korea-based sourcing and procurement platform for international buyers.",nav:"Navigation",contact:"Contact",l1:"Categories",l2:"How it Works",l3:"Why Corventa",l4:"Contact",loc:"Seoul, South Korea",copy:"© 2024 Corventa. All rights reserved."}
+},
+ru:{
+  nav:{m1:"Категории",m2:"Как мы работаем",m3:"Почему Corventa",m4:"Контакт"},
+  hero:{l1:"Закупки в Корее.",l2:"Без посредников.",sub:"Прямой доступ к проверенным корейским производителям и поставщикам: Marine, косметика, медицина, промышленное оборудование.",cta:"Отправить запрос",cta2:"Узнать больше"},
+  trust:{t1:"Офис в Корее",t1s:"Сеул, Южная Корея",t2:"Время ответа",t2s:"До 24 часов",t3:"Языки",t3s:"EN · RU · KO",t4:"Направления",t4s:"4 отраслевых сектора",t5:"Прямые закупки",t5s:"Без посредников"},
+  cats:{title:"Категории закупок",sub:"Специализация на четырёх ключевых секторах с глубокими связями среди корейских поставщиков.",c1t:"Marine Supply",c1d:"Судовые запчасти, навигационное оборудование, средства безопасности, морская химия и технические компоненты для всех типов судов.",c1l:"Подробнее →",c2t:"K-Beauty и косметика",c2d:"OEM/ODM уход за кожей, волосами и косметика от сертифицированных корейских производителей — оптом и под частным брендом.",c2l:"Подробнее →",c3t:"Медицина и здравоохранение",c3d:"Медицинские приборы, расходники, диагностическое оборудование и медицинские товары от лицензированных корейских производителей.",c3l:"Подробнее →",c4t:"Промышленное оборудование",c4d:"Оборудование, комплектующие, системы автоматизации и промышленные инструменты напрямую от корейских производителей.",c4l:"Подробнее →"},
+  how:{title:"Как мы работаем",sub:"4 шага — от запроса до поставки.",s1t:"Отправьте запрос",s1d:"Опишите, что нужно: тип товара, характеристики, объём, целевая цена, страна назначения.",s2t:"Поиск поставщиков",s2d:"Мы находим и проверяем квалифицированных корейских производителей и поставщиков под ваш запрос.",s3t:"Предложение и переговоры",s3d:"Вы получаете верифицированные предложения. Мы ведём коммуникацию и переговоры от вашего имени.",s4t:"Логистика и доставка",s4d:"Координация экспортной документации, таможни, фрахта и доставки до вашего места назначения."},
+  why:{title:"Почему Corventa",sub:"Локальная экспертиза. Операционная дисциплина.",w1t:"Работаем из Кореи",w1d:"Мы работаем напрямую из Южной Кореи — не из третьей страны. Быстрее, надёжнее, без задержек из-за расстояния.",w2t:"Трёхъязычная коммуникация",w2d:"Английский, русский, корейский — свободно на всех трёх. Никаких потерь смысла в критических B2B-переговорах.",w3t:"Только проверенные поставщики",w3d:"Каждый поставщик проходит ручную проверку. Мы не ведём директории — мы строим отношения.",w4t:"Сопровождение от А до Я",w4d:"От первого запроса до финальной доставки — управляем всем процессом, чтобы вы не координировали через часовые пояса.",w5t:"Прозрачное ценообразование",w5d:"Чёткая структура оплаты до начала работы. Никаких скрытых комиссий и надбавок в цене товара.",w6t:"Кросс-граничная экспертиза",w6d:"Глубокий опыт с СНГ, ЕС, Турцией и Азией — торговые маршруты, комплаенс, документация и логистика."},
+  form:{title:"Запрос на закупку",sub:"Опишите, что вам нужно. Мы ответим в течение 24 часов.",l1:"Название компании",l2:"Ваше имя",l3:"Email",l4:"Телефон / WhatsApp",l5:"Категория закупки",l6:"Описание товара",l7:"Объём и единица измерения",l8:"Страна назначения",l9:"Дополнительные сведения",ph1:"Ваша компания",ph2:"Полное имя",ph3:"business@email.com",ph4:"+7 XXX XXX XXXX",ph6:"Опишите товар: характеристики, стандарты, бренды...",ph7:"напр. 500 ед. / месяц",ph8:"напр. Германия, ОАЭ, Россия",ph9:"Сроки, требования к сертификации...",o0:"Выберите категорию",o1:"Marine Supply",o2:"K-Beauty и косметика",o3:"Медицина и здравоохранение",o4:"Промышленное оборудование",o5:"Другое",btn:"Отправить запрос",ok_t:"Запрос получен",ok_m:"Спасибо. Мы рассмотрим ваш запрос и ответим в течение 24 часов на указанный email.",priv:"Ваши данные строго конфиденциальны и используются исключительно для обработки запроса."},
+  footer:{desc:"Платформа по sourcing и закупкам корейских товаров для международных покупателей.",nav:"Навигация",contact:"Контакты",l1:"Категории",l2:"Как мы работаем",l3:"Почему Corventa",l4:"Контакт",loc:"Сеул, Южная Корея",copy:"© 2024 Corventa. Все права защищены."}
+},
+ko:{
+  nav:{m1:"조달 분야",m2:"업무 방식",m3:"왜 Corventa인가",m4:"문의"},
+  hero:{l1:"한국 조달.",l2:"전문가가 직접.",sub:"선박, 화장품, 의료, 산업 분야에서 검증된 한국 제조업체 및 공급업체에 직접 연결합니다.",cta:"조달 요청 보내기",cta2:"자세히 보기"},
+  trust:{t1:"한국 직영",t1s:"대한민국 서울",t2:"응답 시간",t2s:"24시간 이내",t3:"언어",t3s:"EN · RU · KO",t4:"조달 분야",t4s:"4개 핵심 산업",t5:"직접 조달",t5s:"중간업체 없음"},
+  cats:{title:"조달 분야",sub:"4개 주요 산업 분야에서 한국 공급업체 네트워크를 보유하고 있습니다.",c1t:"해양 용품",c1d:"선박 부품, 항법 장비, 안전 장비, 해양 화학물질 및 모든 유형의 선박용 기술 부품.",c1l:"자세히 →",c2t:"K-뷰티 & 화장품",c2d:"인증된 한국 제조업체의 OEM/ODM 스킨케어, 헤어케어, 화장품 — 도매 및 자체 브랜드.",c2l:"자세히 →",c3t:"의료 & 헬스케어",c3d:"허가된 한국 제조업체의 의료기기, 소모품, 진단 장비 및 의료용품.",c3l:"자세히 →",c4t:"산업 장비",c4d:"한국 제조업체에서 직접 조달하는 기계, 부품, 자동화 시스템 및 산업용 공구.",c4l:"자세히 →"},
+  how:{title:"업무 방식",sub:"문의에서 납품까지 4단계 프로세스.",s1t:"요청 제출",s1d:"필요한 제품 유형, 사양, 수량, 목표 가격, 목적지를 알려주세요.",s2t:"공급업체 탐색",s2d:"요구사항에 맞는 검증된 한국 제조업체 및 공급업체를 찾고 심사합니다.",s3t:"견적 및 협상",s3d:"검증된 공급업체 견적을 받으세요. 저희가 커뮤니케이션과 협상을 대행합니다.",s4t:"물류 및 납품",s4d:"수출 서류, 통관, 화물, 목적지까지의 납품을 조율합니다."},
+  why:{title:"왜 Corventa인가",sub:"현지 전문성. 운영 규율.",w1t:"한국 현지 운영",w1d:"제3국이 아닌 대한민국에서 직접 운영합니다. 빠른 조달, 실질적인 관계, 거리로 인한 지연 없음.",w2t:"3개 언어 소통",w2d:"영어, 러시아어, 한국어 — 세 언어 모두 유창합니다. B2B 협상에서 의미 손실 없음.",w3t:"검증된 공급업체만",w3d:"모든 공급업체는 수동 검증을 거칩니다. 디렉토리가 아닌 실질적 관계를 구축합니다.",w4t:"엔드-투-엔드 지원",w4d:"첫 문의부터 최종 납품까지 전 과정을 관리합니다. 시간대를 넘나드는 조율은 저희가 합니다.",w5t:"투명한 수수료",w5d:"시작 전 명확한 수수료 구조. 숨겨진 수수료나 제품 가격에 포함된 커미션 없음.",w6t:"국경 간 전문성",w6d:"CIS, EU, 터키, 아시아에 대한 깊은 경험 — 무역 경로, 컴플라이언스, 서류, 물류."},
+  form:{title:"조달 요청 보내기",sub:"필요한 것을 알려주세요. 24시간 이내에 답변드립니다.",l1:"회사명",l2:"담당자명",l3:"이메일",l4:"전화 / WhatsApp",l5:"조달 분야",l6:"제품 설명",l7:"목표 수량 및 단위",l8:"목적지 국가",l9:"추가 사항",ph1:"귀사 이름",ph2:"성명",ph3:"business@email.com",ph4:"+82 XXX XXXX XXXX",ph6:"제품 설명: 사양, 규격, 브랜드 등...",ph7:"예: 월 500개",ph8:"예: 독일, UAE, 러시아",ph9:"납기, 인증 요건, 기존 공급업체 등...",o0:"분야 선택",o1:"해양 용품",o2:"K-뷰티 & 화장품",o3:"의료 & 헬스케어",o4:"산업 장비",o5:"기타",btn:"요청 전송",ok_t:"요청이 접수되었습니다",ok_m:"감사합니다. 요청을 검토한 후 기재하신 이메일로 24시간 이내에 답변드리겠습니다.",priv:"귀하의 정보는 엄격히 기밀로 유지되며 조달 요청 처리 목적으로만 사용됩니다."},
+  footer:{desc:"국제 구매자를 위한 한국 조달 및 구매 플랫폼.",nav:"메뉴",contact:"연락처",l1:"조달 분야",l2:"업무 방식",l3:"왜 Corventa인가",l4:"문의",loc:"대한민국 서울",copy:"© 2024 Corventa. All rights reserved."}
+}
+};
+
+let lang='en';
+
+function get(obj,path){
+  return path.split('.').reduce((o,k)=>o&&o[k]!==undefined?o[k]:null,obj);
+}
+
+function setLang(l){
+  lang=l;
+  document.documentElement.lang=l;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const v=get(T[l],el.getAttribute('data-i18n'));
+    if(v!==null) el.textContent=v;
+  });
+  document.querySelectorAll('[data-ph]').forEach(el=>{
+    const v=get(T[l],el.getAttribute('data-ph'));
+    if(v!==null) el.placeholder=v;
+  });
+  document.querySelectorAll('select.fc option[data-i18n]').forEach(o=>{
+    const v=get(T[l],o.getAttribute('data-i18n'));
+    if(v!==null) o.textContent=v;
+  });
+  document.querySelectorAll('[data-lang]').forEach(b=>{
+    b.classList.toggle('on',b.getAttribute('data-lang')===l);
+  });
+  document.body.classList.toggle('lang-ko',l==='ko');
+}
+
+document.querySelectorAll('[data-lang]').forEach(b=>{
+  b.addEventListener('click',()=>{
+    setLang(b.getAttribute('data-lang'));
+    if(window.innerWidth<=768) toggleMnav(false);
+  });
+});
+
+/* ═══ HAMBURGER ═══ */
+const hbg=document.getElementById('hbg');
+const mnav=document.getElementById('mnav');
+
+function toggleMnav(force){
+  const on=force!==undefined?force:!mnav.classList.contains('on');
+  mnav.classList.toggle('on',on);
+  hbg.classList.toggle('on',on);
+}
+hbg.addEventListener('click',()=>toggleMnav());
+document.querySelectorAll('.mlink').forEach(a=>a.addEventListener('click',()=>toggleMnav(false)));
+
+/* ═══ NAV SCROLL + SCROLL-TO-TOP ═══ */
+const navEl=document.getElementById('nav');
+const sttEl=document.getElementById('stt');
+window.addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  navEl.classList.toggle('scrolled',y>50);
+  sttEl.classList.toggle('on',y>380);
+},{passive:true});
+
+/* ═══ FADE-IN OBSERVER ═══ */
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}
+  });
+},{threshold:.1,rootMargin:'0px 0px -36px 0px'});
+document.querySelectorAll('.fade').forEach(el=>obs.observe(el));
+
+/* ═══ SMOOTH GOTO ═══ */
+function goto(id){
+  document.getElementById(id).scrollIntoView({behavior:'smooth'});
+  toggleMnav(false);
+}
+
+/* ═══ FORM ═══ */
+document.getElementById('fsub').addEventListener('click',()=>{
+  const fields=[
+    {id:'f1',v:document.getElementById('f1').value.trim()},
+    {id:'f2',v:document.getElementById('f2').value.trim()},
+    {id:'f3',v:document.getElementById('f3').value.trim()},
+    {id:'f5',v:document.getElementById('f5').value},
+    {id:'f6',v:document.getElementById('f6').value.trim()},
+    {id:'f7',v:document.getElementById('f7').value.trim()},
+    {id:'f8',v:document.getElementById('f8').value.trim()}
+  ];
+  let ok=true;
+  fields.forEach(f=>{
+    const el=document.getElementById(f.id);
+    if(!f.v){
+      ok=false;
+      el.style.borderColor='#e05555';
+      el.addEventListener('input',()=>{el.style.borderColor='';},{once:true});
+    }
+  });
+  if(!ok) return;
+  document.getElementById('fform').style.display='none';
+  document.getElementById('fsuccess').classList.add('on');
+});
+
+/* Init */
+setLang('en');
+</script>
+</body>
+</html>
