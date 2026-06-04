@@ -257,13 +257,14 @@ textarea.fc{resize:vertical;min-height:96px}
 .feat-ic{font-size:1.6rem;display:block;margin-bottom:12px}
 .feat-t{font-size:1rem;font-weight:700;margin-bottom:7px}
 .feat-d{font-size:.875rem;color:var(--sub);line-height:1.6}
-.team{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:8px}
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:8px;align-items:start}
 .tcard{margin:0}
 .tphoto{aspect-ratio:4/5;border-radius:14px;overflow:hidden;background:var(--bg-alt);box-shadow:0 4px 14px rgba(11,27,53,.08)}
 .tphoto img{width:100%;height:100%;object-fit:cover;display:block}
 .tcaption{display:flex;flex-direction:column;gap:4px;margin-top:14px;text-align:center}
 .tname{color:var(--ink);font-weight:700;font-size:17px}
 .trole{color:var(--steel);font-size:14px;line-height:1.35}
+.tbio{color:var(--steel);font-size:14px;line-height:1.5;margin:10px 0;text-align:center}
 .tmail{font-size:13px;font-weight:600;color:var(--accent);word-break:break-all;margin-top:2px}
 @media(max-width:900px){.team{grid-template-columns:repeat(2,1fr);gap:24px}}
 @media(max-width:480px){.team{grid-template-columns:repeat(2,1fr);gap:16px}.tname{font-size:15px}.trole{font-size:13px}}
@@ -1310,6 +1311,7 @@ function viewAbout(){
         <figcaption class="tcaption">
           <span class="tname">${nm}</span>
           <span class="trole">${rl}</span>
+          ${m.bio?`<p class="tbio">${L(m.bio)}</p>`:''}
           ${m.email?`<a class="tmail" href="mailto:${m.email}">${m.email}</a>`:''}
         </figcaption>
       </figure>`;
