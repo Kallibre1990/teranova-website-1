@@ -159,24 +159,28 @@ const DATA = {
   team: [
     {
       name: { ru: "Антон Мадельканов", en: "Anton Madelkanov", ko: "Anton Madelkanov" },
+      photo: "assets/team/anton-madelkanov.jpg",
       role: { ru: "Основатель Teranova Group · CEO AIA Group", en: "Founder, Teranova Group · CEO, AIA Group", ko: "Teranova Group 창업자 · AIA Group 대표" },
       email: "madelkanov@teranovagroup.com",
       bio: { ru: "Основатель и архитектор проекта. Отвечает за стратегию, развитие сети корейских поставщиков и личную верификацию — выезд на производство, встречи с руководством, фотодокументация. Курирует ключевые сделки и международное направление.", en: "Founder and architect of the project. Responsible for strategy, the Korean supplier network and personal verification — production visits, meetings with management, photo documentation. Oversees key deals and the international direction.", ko: "프로젝트의 창업자이자 설계자. 전략, 한국 공급업체 네트워크 개발, 직접 검증(생산 현장 방문, 경영진 면담, 사진 기록)을 담당. 핵심 거래와 국제 부문을 총괄." }
     },
     {
       name: { ru: "Ирина Тутова", en: "Irene Tutova", ko: "Irene Tutova" },
+      photo: "assets/team/irene-tutova.jpg",
       role: { ru: "CEO Teranova Group", en: "CEO, Teranova Group", ko: "Teranova Group 대표" },
       email: "tutova@teranovagroup.com",
       bio: { ru: "Руководит операционной деятельностью компании — управление, развитие, сопровождение клиентов и партнёрских отношений.", en: "Leads the company's operations — management, development, client and partner relations.", ko: "회사의 운영을 총괄 — 관리, 개발, 고객 및 파트너 관계." }
     },
     {
       name: { ru: "Ха Чонсу (Денис) 하정수", en: "Ha Jeong-su (Denis) 하정수", ko: "하정수 (Denis)" },
+      photo: "assets/team/ha-jeong-su.jpg",
       role: { ru: "Менеджер (과장) — поставщики", en: "Manager (과장) — Suppliers", ko: "과장 — 공급업체" },
       email: "ha@teranovagroup.com",
       bio: { ru: "Работа с корейскими поставщиками. Коммуникация на корейском и русском, сопровождение заказов, согласование цен и условий поставки.", en: "Works with Korean suppliers. Communication in Korean and Russian, order support, negotiation of prices and supply terms.", ko: "한국 공급업체 담당. 한국어·러시아어 소통, 주문 지원, 가격 및 공급 조건 협의." }
     },
     {
       name: { ru: "Лариса Ан 안라리사", en: "Larisa An 안라리사", ko: "안라리사" },
+      photo: "assets/team/an-larisa.jpg",
       role: { ru: "Менеджер (과장) — покупатели", en: "Manager (과장) — Buyers", ko: "과장 — 바이어" },
       email: "an@teranovagroup.com",
       bio: { ru: "Работа с покупателями. Приём и координация запросов, сопровождение сделок, коммуникация между сторонами.", en: "Works with buyers. Intake and coordination of requests, deal support, communication between parties.", ko: "바이어 담당. 요청 접수 및 조율, 거래 지원, 양측 간 소통." }

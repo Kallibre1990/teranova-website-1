@@ -257,13 +257,14 @@ textarea.fc{resize:vertical;min-height:96px}
 .feat-ic{font-size:1.6rem;display:block;margin-bottom:12px}
 .feat-t{font-size:1rem;font-weight:700;margin-bottom:7px}
 .feat-d{font-size:.875rem;color:var(--sub);line-height:1.6}
-.team{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.tcard{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:24px;text-align:center}
-.tavatar{width:84px;height:84px;border-radius:50%;background:linear-gradient(135deg,#e8eef6,#d6e0ee);border:1px dashed #c3d0e2;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:.6rem;font-weight:700;letter-spacing:.08em;color:#9aacc4}
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.tcard{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-s);display:flex;flex-direction:column}
+.tphoto{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:var(--bg-alt)}
+.tcard-body{padding:16px 18px 20px;display:flex;flex-direction:column;flex:1}
 .tname{font-size:1rem;font-weight:700;margin-bottom:4px}
-.tname .ph{font-size:.62rem;font-weight:700;color:var(--amber);background:var(--amber-bg);padding:2px 6px;border-radius:5px;margin-left:5px;vertical-align:middle;letter-spacing:.03em}
-.trole{font-size:.82rem;font-weight:600;color:var(--accent);margin-bottom:9px}
-.tbio{font-size:.82rem;color:var(--sub);line-height:1.5}
+.trole{font-size:.82rem;font-weight:600;color:var(--steel);margin-bottom:10px}
+.tbio{font-size:.82rem;color:var(--sub);line-height:1.55;margin-bottom:12px}
+.tmail{margin-top:auto;font-size:.8rem;font-weight:600;color:var(--accent);word-break:break-all}
 
 .faq{max-width:820px}
 .faq-i{border:1px solid var(--line);border-radius:var(--r-lg);margin-bottom:12px;overflow:hidden;background:#fff}
@@ -1298,14 +1299,21 @@ function viewAbout(){
     <p class="about-lead">${a.lead2}</p>
     <div class="feat">${a.feats.map(f=>`<div class="feat-i"><span class="feat-ic">${f.ic}</span><div class="feat-t">${f.t}</div><p class="feat-d">${f.d}</p></div>`).join('')}</div>
     <div class="sec-head"><h2 class="h-sec" style="font-size:1.6rem">${a.team_t}</h2><p class="sub-sec">${a.team_sub}</p></div>
-    <div class="team">${DATA.team.map(m=>`
-      <div class="tcard">
-        <div class="tavatar" style="font-size:1.8rem;font-weight:700;color:var(--accent)">${L(m.name).trim().charAt(0)}</div>
-        <div class="tname">${L(m.name)}</div>
-        <div class="trole">${L(m.role)}</div>
-        <p class="tbio">${L(m.bio)}</p>
-        ${m.email?`<a href="mailto:${m.email}" style="display:inline-block;margin-top:10px;font-size:.8rem;font-weight:600;color:var(--accent);word-break:break-all">${m.email}</a>`:''}
-      </div>`).join('')}</div>
+    <div class="team">${DATA.team.map(m=>{
+      const nm=L(m.name), rl=L(m.role);
+      const photo = m.photo
+        ? `<img class="tphoto" src="${m.photo}" alt="${nm} — ${rl}" width="800" height="1000" loading="lazy"/>`
+        : `<div class="tphoto" style="display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:700;color:var(--accent)">${nm.trim().charAt(0)}</div>`;
+      return `<div class="tcard">
+        ${photo}
+        <div class="tcard-body">
+          <div class="tname">${nm}</div>
+          <div class="trole">${rl}</div>
+          <p class="tbio">${L(m.bio)}</p>
+          ${m.email?`<a class="tmail" href="mailto:${m.email}">${m.email}</a>`:''}
+        </div>
+      </div>`;
+    }).join('')}</div>
     <div style="margin-top:28px;font-size:.9rem;color:var(--sub)">📞 <a href="tel:+821022860969" style="color:var(--accent);font-weight:600">+82-10-2286-0969</a></div>
   </div></div>`;
 }
