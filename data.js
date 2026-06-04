@@ -158,25 +158,28 @@ const DATA = {
   /* ---------- КОМАНДА (демо) ---------- */
   team: [
     {
-      name: { ru: "Имя основателя", en: "Founder Name", ko: "창업자 성명" },
-      placeholder: true,
-      role: { ru: "Основатель и CEO", en: "Founder & CEO", ko: "창업자 겸 대표" },
-      bio: { ru: "Международные сделки, развитие бизнеса, присутствие на земле в Корее.", en: "International deals, business development, on the ground in Korea.", ko: "국제 거래, 사업 개발, 한국 현지 상주." }
+      name: { ru: "Антон Мадельканов", en: "Anton Madelkanov", ko: "Anton Madelkanov" },
+      role: { ru: "Основатель Teranova Group · CEO AIA Group", en: "Founder, Teranova Group · CEO, AIA Group", ko: "Teranova Group 창업자 · AIA Group 대표" },
+      email: "madelkanov@teranovagroup.com",
+      bio: { ru: "Основатель и архитектор проекта. Отвечает за стратегию, развитие сети корейских поставщиков и личную верификацию — выезд на производство, встречи с руководством, фотодокументация. Курирует ключевые сделки и международное направление.", en: "Founder and architect of the project. Responsible for strategy, the Korean supplier network and personal verification — production visits, meetings with management, photo documentation. Oversees key deals and the international direction.", ko: "프로젝트의 창업자이자 설계자. 전략, 한국 공급업체 네트워크 개발, 직접 검증(생산 현장 방문, 경영진 면담, 사진 기록)을 담당. 핵심 거래와 국제 부문을 총괄." }
     },
     {
-      name: { ru: "Anna Kim", en: "Anna Kim", ko: "Anna Kim" },
-      role: { ru: "Руководитель операций в Корее", en: "Korea Operations Lead", ko: "한국 운영 총괄" },
-      bio: { ru: "Билингв KR/RU, координация поставщиков.", en: "KR/RU bilingual, supplier coordination.", ko: "한국어/러시아어 이중언어, 공급업체 조율." }
+      name: { ru: "Ирина Тутова", en: "Irene Tutova", ko: "Irene Tutova" },
+      role: { ru: "CEO Teranova Group", en: "CEO, Teranova Group", ko: "Teranova Group 대표" },
+      email: "tutova@teranovagroup.com",
+      bio: { ru: "Руководит операционной деятельностью компании — управление, развитие, сопровождение клиентов и партнёрских отношений.", en: "Leads the company's operations — management, development, client and partner relations.", ko: "회사의 운영을 총괄 — 관리, 개발, 고객 및 파트너 관계." }
     },
     {
-      name: { ru: "Dmitry Volkov", en: "Dmitry Volkov", ko: "Dmitry Volkov" },
-      role: { ru: "Работа с клиентами СНГ", en: "CIS Client Relations", ko: "CIS 고객 관리" },
-      bio: { ru: "Покупатели СНГ, сопровождение сделок.", en: "CIS buyers, deal support.", ko: "CIS 바이어, 거래 지원." }
+      name: { ru: "Ха Чонсу (Денис) 하정수", en: "Ha Jeong-su (Denis) 하정수", ko: "하정수 (Denis)" },
+      role: { ru: "Менеджер (과장) — поставщики", en: "Manager (과장) — Suppliers", ko: "과장 — 공급업체" },
+      email: "ha@teranovagroup.com",
+      bio: { ru: "Работа с корейскими поставщиками. Коммуникация на корейском и русском, сопровождение заказов, согласование цен и условий поставки.", en: "Works with Korean suppliers. Communication in Korean and Russian, order support, negotiation of prices and supply terms.", ko: "한국 공급업체 담당. 한국어·러시아어 소통, 주문 지원, 가격 및 공급 조건 협의." }
     },
     {
-      name: { ru: "Kang Ji-ho", en: "Kang Ji-ho", ko: "Kang Ji-ho" },
-      role: { ru: "Специалист по проверке поставщиков", en: "Supplier Verification Specialist", ko: "공급업체 검증 담당" },
-      bio: { ru: "Визиты на производство, проверка.", en: "Production visits, checks.", ko: "생산 현장 방문, 점검." }
+      name: { ru: "Лариса Ан 안라리사", en: "Larisa An 안라리사", ko: "안라리사" },
+      role: { ru: "Менеджер (과장) — покупатели", en: "Manager (과장) — Buyers", ko: "과장 — 바이어" },
+      email: "an@teranovagroup.com",
+      bio: { ru: "Работа с покупателями. Приём и координация запросов, сопровождение сделок, коммуникация между сторонами.", en: "Works with buyers. Intake and coordination of requests, deal support, communication between parties.", ko: "바이어 담당. 요청 접수 및 조율, 거래 지원, 양측 간 소통." }
     }
   ],
 

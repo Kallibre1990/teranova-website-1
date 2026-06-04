@@ -349,7 +349,7 @@ textarea.fc{resize:vertical;min-height:96px}
 <body>
 
 <div class="demobar" id="demobar">
-  <span><strong>DEMO</strong> · <span data-i18n="ui.demo_banner">Данные на сайте демонстрационные и будут заменены реальными перед запуском.</span></span>
+  <span><strong>DEMO</strong> · <span data-i18n="ui.demo_banner">Каталог поставщиков — демонстрационный, будет заменён реальными данными. Команда и контакты — реальные.</span></span>
   <button id="demoClose" data-i18n="ui.dismiss">Скрыть</button>
 </div>
 
@@ -359,6 +359,7 @@ textarea.fc{resize:vertical;min-height:96px}
       <a href="#/" class="brand">Teranova<em> Group</em></a>
       <nav class="nav-c">
         <a href="#/catalog" data-i18n="nav.catalog" data-route="catalog">Каталог</a>
+        <a href="#/tenders" data-i18n="nav.tenders" data-route="tenders">Тендеры</a>
         <a href="#/how-we-verify" data-i18n="nav.verify" data-route="verify">Как мы проверяем</a>
         <a href="#/services" data-i18n="nav.services" data-route="services">Услуги</a>
         <a href="#/about" data-i18n="nav.about" data-route="about">О нас</a>
@@ -386,6 +387,7 @@ textarea.fc{resize:vertical;min-height:96px}
   </div>
   <div class="mmenu-links">
     <a href="#/catalog" class="mlink" data-i18n="nav.catalog">Каталог</a>
+    <a href="#/tenders" class="mlink" data-i18n="nav.tenders">Тендеры</a>
     <a href="#/how-we-verify" class="mlink" data-i18n="nav.verify">Как мы проверяем</a>
     <a href="#/services" class="mlink" data-i18n="nav.services">Услуги</a>
     <a href="#/about" class="mlink" data-i18n="nav.about">О нас</a>
@@ -411,12 +413,14 @@ textarea.fc{resize:vertical;min-height:96px}
       <div>
         <div class="fbrand">Teranova<em> Group</em></div>
         <p class="fblurb" data-i18n="footer.about_blurb">Подбор проверенных корейских поставщиков и сопровождение сделок для международных покупателей.</p>
-        <div class="flegal" data-i18n="footer.legal">AIA Group Ltd. (Korea)</div>
+        <div class="flegal" data-i18n="footer.aia_endorse">Проект Teranova Group создан, в том числе, компанией AIA Group Ltd. (Республика Корея).</div>
+        <div class="flegal" data-i18n="footer.aia_addr" style="margin-top:8px">AIA Group Ltd. · #511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003</div>
       </div>
       <div>
         <div class="fct" data-i18n="footer.nav_title">Навигация</div>
         <div class="flinks">
           <a href="#/catalog" data-i18n="nav.catalog">Каталог</a>
+          <a href="#/tenders" data-i18n="nav.tenders">Тендеры</a>
           <a href="#/how-we-verify" data-i18n="nav.verify">Как мы проверяем</a>
           <a href="#/services" data-i18n="nav.services">Услуги</a>
           <a href="#/buyers" data-i18n="nav.buyers">Покупателям</a>
@@ -428,8 +432,8 @@ textarea.fc{resize:vertical;min-height:96px}
       <div>
         <div class="fct" data-i18n="footer.contact_title">Контакты</div>
         <div class="fci"><span>✉️</span><a href="mailto:info@teranovagroup.com">info@teranovagroup.com</a></div>
-        <div class="fci"><span>📞</span><span>+82-XX-XXXX-XXXX</span></div>
-        <div class="fci"><span>📍</span><span data-i18n="footer.loc">Сеул, Южная Корея</span></div>
+        <div class="fci"><span>📞</span><a href="tel:+821022860969">+82-10-2286-0969</a></div>
+        <div class="fci"><span>📍</span><span data-i18n="footer.loc">Бусан, Южная Корея</span></div>
       </div>
     </div>
     <div class="footer-bot">
@@ -455,6 +459,14 @@ textarea.fc{resize:vertical;min-height:96px}
     <textarea name="products"></textarea><input type="text" name="website"/>
     <input name="bot-field"/>
   </form>
+  <form name="tender-request" data-netlify="true" netlify-honeypot="bot-field">
+    <input type="text" name="company"/><input type="text" name="contact"/>
+    <input type="email" name="email"/><input type="text" name="phone"/>
+    <input type="text" name="category"/><input type="text" name="need"/>
+    <input type="text" name="volume"/><input type="text" name="timeline"/>
+    <input type="text" name="destination"/><textarea name="comment"></textarea>
+    <input name="bot-field"/>
+  </form>
 </div>
 
 <script src="data.js"></script>
@@ -473,7 +485,7 @@ ru:{
     contacts:["Контакты — Teranova Group","Свяжитесь с Teranova Group: email, телефон, локация в Корее."]
   },
   nav:{catalog:"Каталог",verify:"Как мы проверяем",services:"Услуги",buyers:"Покупателям",suppliers:"Поставщикам",about:"О нас",faq:"FAQ",contacts:"Контакты"},
-  ui:{demo_banner:"Данные на сайте демонстрационные и будут заменены реальными перед запуском.",dismiss:"Скрыть",view_profile:"Профиль",iam_buyer:"Я покупатель",iam_supplier:"Я поставщик",all:"Все",search_sup:"Поиск по поставщикам и товарам",no_results:"Ничего не найдено. Измените запрос или категорию."},
+  ui:{demo_banner:"Каталог поставщиков — демонстрационный, будет заменён реальными данными. Команда и контакты — реальные.",dismiss:"Скрыть",view_profile:"Профиль",iam_buyer:"Я покупатель",iam_supplier:"Я поставщик",all:"Все",search_sup:"Поиск по поставщикам и товарам",no_results:"Ничего не найдено. Измените запрос или категорию."},
   cats:{
     marine:{name:"Marine supply",blurb:"Судовое оборудование, арматура, насосы, палубная фурнитура, канаты."},
     cosmetics:{name:"Косметика",blurb:"K-beauty, уход, декоративная косметика, OEM/ODM, оптовые поставки."},
@@ -561,7 +573,7 @@ ru:{
   contacts:{
     title:"Контакты",
     intro:"Свяжитесь с нами удобным способом — ответим и обсудим ваш запрос.",
-    email:"Email",phone:"Телефон",kakao:"KakaoTalk",kakao_v:"По запросу",legal:"Юр. лицо",legal_v:"AIA Group Ltd. (Korea)",loc:"Локация",loc_v:"Сеул, Южная Корея"
+    email:"Email",phone:"Телефон",kakao:"KakaoTalk",kakao_v:"По запросу",legal:"Юр. лицо",legal_v:"AIA Group Ltd. (Korea)",loc:"Локация",loc_v:"Бусан, Южная Корея"
   },
   form:{
     company:"Название компании",contact:"Контактное лицо",email:"Email",phone:"Телефон / WhatsApp",
@@ -577,7 +589,7 @@ ru:{
     ph_products:"Что производите, объёмы, сертификаты, экспортный опыт…",ph_website:"https:// или email / телефон",
     cat_select:"Выберите категорию"
   },
-  footer:{about_blurb:"Подбор проверенных корейских поставщиков и сопровождение сделок для международных покупателей.",legal:"AIA Group Ltd. (Korea)",nav_title:"Навигация",contact_title:"Контакты",loc:"Сеул, Южная Корея",disclaimer:"Часть данных на сайте носит демонстрационный характер. Цены — средние ориентировочные (EXW) и не являются офертой. Teranova Group организует и сопровождает сделки через проверенных партнёров и не является производителем.",rights:"© 2025 Teranova Group · AIA Group Ltd."}
+  footer:{about_blurb:"Подбор проверенных корейских поставщиков и сопровождение сделок для международных покупателей.",legal:"AIA Group Ltd. (Korea)",nav_title:"Навигация",contact_title:"Контакты",loc:"Бусан, Южная Корея",disclaimer:"Часть данных на сайте носит демонстрационный характер. Цены — средние ориентировочные (EXW) и не являются офертой. Teranova Group организует и сопровождает сделки через проверенных партнёров и не является производителем.",rights:"© 2025 Teranova Group · AIA Group Ltd."}
 },
 en:{
   meta:{
@@ -592,7 +604,7 @@ en:{
     contacts:["Contacts — Teranova Group","Get in touch with Teranova Group: email, phone, location in Korea."]
   },
   nav:{catalog:"Catalog",verify:"How we verify",services:"Services",buyers:"For buyers",suppliers:"For suppliers",about:"About",faq:"FAQ",contacts:"Contacts"},
-  ui:{demo_banner:"Site data is for demonstration and will be replaced with real data before launch.",dismiss:"Dismiss",view_profile:"View profile",iam_buyer:"I am a buyer",iam_supplier:"I am a supplier",all:"All",search_sup:"Search suppliers and products",no_results:"Nothing found. Try a different query or category."},
+  ui:{demo_banner:"The supplier catalog is for demonstration and will be replaced with real data. Team and contacts are real.",dismiss:"Dismiss",view_profile:"View profile",iam_buyer:"I am a buyer",iam_supplier:"I am a supplier",all:"All",search_sup:"Search suppliers and products",no_results:"Nothing found. Try a different query or category."},
   cats:{
     marine:{name:"Marine supply",blurb:"Marine equipment, valves, pumps, deck hardware, ropes."},
     cosmetics:{name:"Cosmetics",blurb:"K-beauty, skincare, color cosmetics, OEM/ODM, wholesale."},
@@ -680,7 +692,7 @@ en:{
   contacts:{
     title:"Contacts",
     intro:"Reach us in whatever way suits you — we will reply and discuss your request.",
-    email:"Email",phone:"Phone",kakao:"KakaoTalk",kakao_v:"On request",legal:"Legal entity",legal_v:"AIA Group Ltd. (Korea)",loc:"Location",loc_v:"Seoul, South Korea"
+    email:"Email",phone:"Phone",kakao:"KakaoTalk",kakao_v:"On request",legal:"Legal entity",legal_v:"AIA Group Ltd. (Korea)",loc:"Location",loc_v:"Busan, South Korea"
   },
   form:{
     company:"Company name",contact:"Contact person",email:"Email",phone:"Phone / WhatsApp",
@@ -696,7 +708,7 @@ en:{
     ph_products:"What you make, volumes, certificates, export experience…",ph_website:"https:// or email / phone",
     cat_select:"Select category"
   },
-  footer:{about_blurb:"Sourcing of verified Korean suppliers and deal support for international buyers.",legal:"AIA Group Ltd. (Korea)",nav_title:"Navigation",contact_title:"Contacts",loc:"Seoul, South Korea",disclaimer:"Some data on this site is for demonstration. Prices are average indicative (EXW) and are not an offer. Teranova Group organizes and supports deals through trusted partners and is not a manufacturer.",rights:"© 2025 Teranova Group · AIA Group Ltd."}
+  footer:{about_blurb:"Sourcing of verified Korean suppliers and deal support for international buyers.",legal:"AIA Group Ltd. (Korea)",nav_title:"Navigation",contact_title:"Contacts",loc:"Busan, South Korea",disclaimer:"Some data on this site is for demonstration. Prices are average indicative (EXW) and are not an offer. Teranova Group organizes and supports deals through trusted partners and is not a manufacturer.",rights:"© 2025 Teranova Group · AIA Group Ltd."}
 },
 ko:{
   meta:{
@@ -711,7 +723,7 @@ ko:{
     contacts:["연락처 — Teranova Group","Teranova Group에 문의하세요: 이메일, 전화, 한국 소재지."]
   },
   nav:{catalog:"카탈로그",verify:"검증 방식",services:"서비스",buyers:"바이어",suppliers:"공급업체",about:"회사 소개",faq:"FAQ",contacts:"연락처"},
-  ui:{demo_banner:"본 사이트의 데이터는 데모용이며 출시 전 실제 데이터로 교체됩니다.",dismiss:"닫기",view_profile:"프로필 보기",iam_buyer:"바이어입니다",iam_supplier:"공급업체입니다",all:"전체",search_sup:"공급업체·제품 검색",no_results:"검색 결과가 없습니다. 검색어나 분야를 변경해 보세요."},
+  ui:{demo_banner:"공급업체 카탈로그는 데모이며 실제 데이터로 교체됩니다. 팀과 연락처는 실제 정보입니다.",dismiss:"닫기",view_profile:"프로필 보기",iam_buyer:"바이어입니다",iam_supplier:"공급업체입니다",all:"전체",search_sup:"공급업체·제품 검색",no_results:"검색 결과가 없습니다. 검색어나 분야를 변경해 보세요."},
   cats:{
     marine:{name:"선박 용품",blurb:"선박 장비, 밸브, 펌프, 데크 철물, 로프."},
     cosmetics:{name:"화장품",blurb:"K-뷰티, 스킨케어, 색조 화장품, OEM/ODM, 도매."},
@@ -799,7 +811,7 @@ ko:{
   contacts:{
     title:"연락처",
     intro:"편한 방법으로 문의해 주세요 — 답변하고 요청을 논의하겠습니다.",
-    email:"이메일",phone:"전화",kakao:"카카오톡",kakao_v:"요청 시 안내",legal:"법인",legal_v:"AIA Group Ltd. (Korea)",loc:"소재지",loc_v:"대한민국 서울"
+    email:"이메일",phone:"전화",kakao:"카카오톡",kakao_v:"요청 시 안내",legal:"법인",legal_v:"AIA Group Ltd. (Korea)",loc:"소재지",loc_v:"대한민국 부산"
   },
   form:{
     company:"회사명",contact:"담당자",email:"이메일",phone:"전화 / WhatsApp",
@@ -815,9 +827,111 @@ ko:{
     ph_products:"생산 품목, 수량, 인증, 수출 경험…",ph_website:"https:// 또는 이메일 / 전화",
     cat_select:"분야 선택"
   },
-  footer:{about_blurb:"국제 바이어를 위한 검증된 한국 공급업체 소싱 및 거래 지원.",legal:"AIA Group Ltd. (Korea)",nav_title:"메뉴",contact_title:"연락처",loc:"대한민국 서울",disclaimer:"본 사이트의 일부 데이터는 데모용입니다. 가격은 평균 참고가(EXW)이며 청약이 아닙니다. Teranova Group은 검증된 파트너를 통해 거래를 조직·지원하며 제조사가 아닙니다.",rights:"© 2025 Teranova Group · AIA Group Ltd."}
+  footer:{about_blurb:"국제 바이어를 위한 검증된 한국 공급업체 소싱 및 거래 지원.",legal:"AIA Group Ltd. (Korea)",nav_title:"메뉴",contact_title:"연락처",loc:"대한민국 부산",disclaimer:"본 사이트의 일부 데이터는 데모용입니다. 가격은 평균 참고가(EXW)이며 청약이 아닙니다. Teranova Group은 검증된 파트너를 통해 거래를 조직·지원하며 제조사가 아닙니다.",rights:"© 2025 Teranova Group · AIA Group Ltd."}
 }
 };
+
+/* ===== I18N EXTENSION (real data + Tenders) ===== */
+const I18N_EXT = {
+ru:{
+  nav:{tenders:"Тендеры"},
+  meta:{tenders:["Тендеры и управляемый сорсинг — Teranova Group","Проводим закупочные тендеры под ключ: сбор предложений от проверенных корейских поставщиков, рыночные цены, выбор и сопровождение сделки."]},
+  home:{tnd_t:"Тендеры",tnd_d:"Передайте потребность — мы проведём закупочный тендер под ключ: сбор предложений от проверенных поставщиков, рыночные цены, выбор и сопровождение сделки.",tnd_link:"Подробнее о тендерах"},
+  about:{team_sub:"Команда Teranova Group — в Корее, на связи с поставщиками и покупателями."},
+  contacts:{
+    emails_t:"Email",
+    info_t:"Общие вопросы",info_d:"Первая точка контакта: принимаем все обращения и направляем нужному специалисту.",
+    buyers_t:"Для покупателей",buyers_d:"Запросы на подбор товаров, цены, условия поставки, сопровождение.",
+    suppliers_t:"Для поставщиков",suppliers_d:"Регистрация производителей, предложения о сотрудничестве, прайсы и условия.",
+    deals_t:"Сопровождение сделок",deals_d:"Документы, логистика, платежи, статусы активных заказов.",
+    tenders_t:"Тендеры",tenders_d:"Заявки на проведение закупочных тендеров.",
+    aia_t:"Офис (AIA Group Ltd.)",aia_v:"#511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003",
+    loc_v:"Бусан, Южная Корея"
+  },
+  form:{destination:"Пункт назначения",ph_destination:"Например: Алматы, Казахстан",submit_t:"Запросить проведение тендера",tender_need:"Что нужно (номенклатура)"},
+  footer:{aia_endorse:"Проект Teranova Group создан, в том числе, компанией AIA Group Ltd. (Республика Корея).",aia_addr:"AIA Group Ltd. · #511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003",loc:"Бусан, Южная Корея"},
+  tenders:{
+    title:"Тендеры и управляемый сорсинг",
+    subtitle:"Мы организуем и проводим закупочные тендеры под ключ — от сбора предложений до поставки из Кореи.",
+    avail_t:"Доступно сейчас",
+    avail_lead:"Вы передаёте потребность — мы проводим полный тендерный процесс:",
+    avail:["Уточняем требования и формируем тендерное задание","Собираем предложения от нескольких проверенных поставщиков","Выявляем рыночные цены и условия","Помогаем выбрать поставщика по вашим критериям","Сопровождаем сделку: документы, оплата, логистика, таможня, отгрузка"],
+    how_t:"Как это работает",
+    steps:["Заявка заказчика и опрос требований","Сбор коммерческих предложений (этап индикативных цен)","Формирование тендерного задания с условиями и критериями","Сбор твёрдых заявок от квалифицированных поставщиков","Выбор и сопровождение сделки"],
+    soon_badge:"В разработке",
+    soon_t:"Скоро — онлайн-платформа",
+    soon_d:"Мы разрабатываем онлайн-платформу, где заказчики и поставщики смогут проводить тендеры самостоятельно.",
+    form_t:"Запросить проведение тендера",
+    form_note:"Полный опрос требований ведётся индивидуально через tenders@teranovagroup.com."
+  }
+},
+en:{
+  nav:{tenders:"Tenders"},
+  meta:{tenders:["Tenders & Managed Sourcing — Teranova Group","We run turnkey procurement tenders: collecting offers from vetted Korean suppliers, market pricing, selection and deal support."]},
+  home:{tnd_t:"Tenders",tnd_d:"Hand over your requirement — we run a turnkey procurement tender: offers from vetted suppliers, market pricing, selection and deal support.",tnd_link:"More about tenders"},
+  about:{team_sub:"The Teranova Group team — in Korea, connected to suppliers and buyers."},
+  contacts:{
+    emails_t:"Email",
+    info_t:"General enquiries",info_d:"First point of contact: we receive all enquiries and route them to the right specialist.",
+    buyers_t:"For buyers",buyers_d:"Requests to source goods, prices, supply terms, buyer support.",
+    suppliers_t:"For suppliers",suppliers_d:"Manufacturer registration, partnership offers, price lists and terms.",
+    deals_t:"Deal support",deals_d:"Documents, logistics, payments, status of active orders.",
+    tenders_t:"Tenders",tenders_d:"Requests to run procurement tenders.",
+    aia_t:"Office (AIA Group Ltd.)",aia_v:"#511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003",
+    loc_v:"Busan, South Korea"
+  },
+  form:{destination:"Destination",ph_destination:"e.g. Almaty, Kazakhstan",submit_t:"Request a tender",tender_need:"What you need (items)"},
+  footer:{aia_endorse:"A Teranova Group project, co-founded by AIA Group Ltd. (Republic of Korea).",aia_addr:"AIA Group Ltd. · #511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003",loc:"Busan, South Korea"},
+  tenders:{
+    title:"Tenders & Managed Sourcing",
+    subtitle:"We organize and run turnkey procurement tenders — from collecting offers to delivery from Korea.",
+    avail_t:"Available now",
+    avail_lead:"You hand over the requirement — we run the full tender process:",
+    avail:["Clarify requirements and prepare the tender brief","Collect offers from several vetted suppliers","Establish market prices and terms","Help you select a supplier by your criteria","Support the deal: documents, payment, logistics, customs, shipment"],
+    how_t:"How it works",
+    steps:["Buyer request and requirements survey","Collection of commercial offers (indicative pricing stage)","Preparation of the tender brief with terms and criteria","Collection of firm bids from qualified suppliers","Selection and deal support"],
+    soon_badge:"In development",
+    soon_t:"Coming soon — online platform",
+    soon_d:"We are building an online platform where buyers and suppliers will be able to run tenders themselves.",
+    form_t:"Request a tender",
+    form_note:"The full requirements survey is handled individually via tenders@teranovagroup.com."
+  }
+},
+ko:{
+  nav:{tenders:"입찰"},
+  meta:{tenders:["입찰 및 관리형 소싱 — Teranova Group","턴키 조달 입찰을 진행합니다: 검증된 한국 공급업체의 견적 수집, 시장 가격, 선정 및 거래 지원."]},
+  home:{tnd_t:"입찰",tnd_d:"필요 사항을 전달해 주시면 턴키 조달 입찰을 진행합니다: 검증된 공급업체 견적, 시장 가격, 선정 및 거래 지원.",tnd_link:"입찰 자세히 보기"},
+  about:{team_sub:"Teranova Group 팀 — 한국에서 공급업체·바이어와 연결됩니다."},
+  contacts:{
+    emails_t:"이메일",
+    info_t:"일반 문의",info_d:"첫 번째 연락 창구: 모든 문의를 접수하여 담당자에게 연결합니다.",
+    buyers_t:"바이어용",buyers_d:"제품 소싱, 가격, 공급 조건 문의 및 바이어 지원.",
+    suppliers_t:"공급업체용",suppliers_d:"제조업체 등록, 협력 제안, 프라이스 리스트 및 조건.",
+    deals_t:"거래 지원",deals_d:"서류, 물류, 결제, 진행 중인 주문 상태.",
+    tenders_t:"입찰",tenders_d:"조달 입찰 진행 요청.",
+    aia_t:"사무실 (AIA Group Ltd.)",aia_v:"#511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003",
+    loc_v:"대한민국 부산"
+  },
+  form:{destination:"목적지",ph_destination:"예: 카자흐스탄 알마티",submit_t:"입찰 진행 요청",tender_need:"필요 항목 (품목)"},
+  footer:{aia_endorse:"테라노바그룹은 AIA Group Ltd.가 함께 만든 프로젝트입니다.",aia_addr:"AIA Group Ltd. · #511, 5F, 9 Jungang-daero 81beon-gil, Jung-gu, Busan · Fax 051-462-5003",loc:"대한민국 부산"},
+  tenders:{
+    title:"입찰 및 관리형 소싱",
+    subtitle:"견적 수집부터 한국에서의 납품까지, 턴키 조달 입찰을 조직하고 진행합니다.",
+    avail_t:"현재 제공",
+    avail_lead:"필요 사항을 전달해 주시면 전체 입찰 프로세스를 진행합니다:",
+    avail:["요구사항을 확인하고 입찰 사양서를 작성","여러 검증된 공급업체로부터 견적 수집","시장 가격과 조건 파악","귀하의 기준에 따라 공급업체 선정 지원","거래 지원: 서류, 결제, 물류, 통관, 선적"],
+    how_t:"진행 방식",
+    steps:["바이어 요청 및 요구사항 조사","상업 견적 수집 (참고 가격 단계)","조건·기준이 포함된 입찰 사양서 작성","적격 공급업체의 확정 입찰 수집","선정 및 거래 지원"],
+    soon_badge:"개발 중",
+    soon_t:"출시 예정 — 온라인 플랫폼",
+    soon_d:"바이어와 공급업체가 직접 입찰을 진행할 수 있는 온라인 플랫폼을 개발 중입니다.",
+    form_t:"입찰 진행 요청",
+    form_note:"전체 요구사항 조사는 tenders@teranovagroup.com을 통해 개별적으로 진행됩니다."
+  }
+}
+};
+function deepMerge(b,e){for(const k in e){ if(e[k]&&typeof e[k]==='object'&&!Array.isArray(e[k])&&b[k]&&typeof b[k]==='object'&&!Array.isArray(b[k])) deepMerge(b[k],e[k]); else b[k]=e[k]; } return b; }
+['ru','en','ko'].forEach(l=>deepMerge(I18N[l], I18N_EXT[l]));
 
 /* ===== STATE & HELPERS ===== */
 let lang = 'ru';
@@ -900,6 +1014,15 @@ function viewHome(){
     <section class="sec alt"><div class="wrap">
       <div class="sec-head center"><span class="eyebrow">${h.cats_t}</span><h2 class="h-sec">${h.cats_t}</h2><p class="sub-sec">${h.cats_sub}</p></div>
       <div class="cat-grid">${['marine','cosmetics','medical','industrial'].map(catTile).join('')}</div>
+    </div></section>
+
+    <section class="sec"><div class="wrap">
+      <div style="background:var(--navy);color:#fff;border-radius:var(--r-xl);padding:52px 40px;text-align:center">
+        <span class="eyebrow lt">${h.tnd_t}</span>
+        <h2 class="h-sec" style="color:#fff">${h.tnd_t}</h2>
+        <p class="sub-sec" style="color:rgba(255,255,255,.8);margin:0 auto 28px">${h.tnd_d}</p>
+        <a href="#/tenders" class="btn btn-w">${h.tnd_link} →</a>
+      </div>
     </div></section>
 
     <section class="sec"><div class="wrap"><div class="vblock">
@@ -1007,6 +1130,62 @@ function viewSupplier(id){
           <div class="side-row">📞 ${s.contact.phone}</div>
         </div>
       </aside>
+    </div>
+  </div></div>`;
+}
+
+function viewTenders(){
+  const X = I18N[lang].tenders, f = I18N[lang].form;
+  return `
+  <div class="view page" data-view="tenders"><div class="wrap">
+    <div class="page-head"><span class="eyebrow">${t('nav.tenders')}</span><h1>${X.title}</h1><p>${X.subtitle}</p></div>
+
+    <div class="block-t">${X.avail_t}</div>
+    <p class="sub-sec" style="margin-bottom:18px">${X.avail_lead}</p>
+    <div class="vpoints" style="margin:0 0 48px">${X.avail.map(x=>`<div class="vpoint"><span class="vcheck">✓</span><span>${x}</span></div>`).join('')}</div>
+
+    <div class="block-t">${X.how_t}</div>
+    <div class="vsteps" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:48px">${X.steps.map((s,i)=>`<div class="vstep"><div class="vstep-n">${i+1}</div><p class="vstep-d">${s}</p></div>`).join('')}</div>
+
+    <div style="background:var(--bg-alt);border:1px dashed var(--line-d);border-radius:var(--r-lg);padding:28px 26px;margin:0 0 52px">
+      <span class="bdg" style="background:#e7eefb;color:var(--accent);border:1px solid #cfe0fb">${X.soon_badge}</span>
+      <div style="font-size:1.12rem;font-weight:800;margin:12px 0 8px">${X.soon_t}</div>
+      <p style="font-size:.9rem;color:var(--sub);line-height:1.6;max-width:680px;margin:0">${X.soon_d}</p>
+    </div>
+
+    <div class="form-wrap">
+      <div class="form-side">
+        <span class="eyebrow">${X.form_t}</span>
+        <h2>${X.form_t}</h2>
+        <div class="form-note">${X.form_note}</div>
+      </div>
+      <div class="fbox" id="tenderBox">
+        <div class="ferr" id="tenderErr">${f.err}</div>
+        <div class="fg" id="tenderForm">
+          <div class="fgrp"><label class="flbl">${f.company}<span class="req">*</span></label><input class="fc" data-f="company" placeholder="${f.ph_company}"/></div>
+          <div class="fgrp"><label class="flbl">${f.contact}<span class="req">*</span></label><input class="fc" data-f="contact" placeholder="${f.ph_contact}"/></div>
+          <div class="fgrp"><label class="flbl">${f.email}<span class="req">*</span></label><input class="fc" type="email" data-f="email" placeholder="${f.ph_email}"/></div>
+          <div class="fgrp"><label class="flbl">${f.phone}</label><input class="fc" data-f="phone" placeholder="${f.ph_phone}"/></div>
+          <div class="fgrp"><label class="flbl">${f.category}<span class="req">*</span></label>
+            <select class="fc" data-f="category">
+              <option value="">${f.cat_select}</option>
+              <option value="marine">${catName('marine')}</option>
+              <option value="cosmetics">${catName('cosmetics')}</option>
+              <option value="medical">${catName('medical')}</option>
+              <option value="industrial">${catName('industrial')}</option>
+            </select>
+          </div>
+          <div class="fgrp"><label class="flbl">${f.destination}</label><input class="fc" data-f="destination" placeholder="${f.ph_destination}"/></div>
+          <div class="fgrp full"><label class="flbl">${f.tender_need}<span class="req">*</span></label><input class="fc" data-f="need" placeholder="${f.ph_need}"/></div>
+          <div class="fgrp"><label class="flbl">${f.volume}</label><input class="fc" data-f="volume" placeholder="${f.ph_volume}"/></div>
+          <div class="fgrp"><label class="flbl">${f.timeline}</label><input class="fc" data-f="timeline" placeholder="${f.ph_timeline}"/></div>
+          <div class="fgrp full"><label class="flbl">${f.comment}</label><textarea class="fc" data-f="comment" rows="3" placeholder="${f.ph_comment}"></textarea></div>
+          <div class="fgrp full" style="gap:12px">
+            <p class="fprivacy">🔒 ${f.required}</p>
+            <button class="btn btn-p fsub" id="tenderSubmit" data-form="tender-request">${f.submit_t}</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div></div>`;
 }
@@ -1121,11 +1300,13 @@ function viewAbout(){
     <div class="sec-head"><h2 class="h-sec" style="font-size:1.6rem">${a.team_t}</h2><p class="sub-sec">${a.team_sub}</p></div>
     <div class="team">${DATA.team.map(m=>`
       <div class="tcard">
-        <div class="tavatar">DEMO</div>
-        <div class="tname">${L(m.name)}${m.placeholder?'<span class="ph">PLACEHOLDER</span>':''}</div>
+        <div class="tavatar" style="font-size:1.8rem;font-weight:700;color:var(--accent)">${L(m.name).trim().charAt(0)}</div>
+        <div class="tname">${L(m.name)}</div>
         <div class="trole">${L(m.role)}</div>
         <p class="tbio">${L(m.bio)}</p>
+        ${m.email?`<a href="mailto:${m.email}" style="display:inline-block;margin-top:10px;font-size:.8rem;font-weight:600;color:var(--accent);word-break:break-all">${m.email}</a>`:''}
       </div>`).join('')}</div>
+    <div style="margin-top:28px;font-size:.9rem;color:var(--sub)">📞 <a href="tel:+821022860969" style="color:var(--accent);font-weight:600">+82-10-2286-0969</a></div>
   </div></div>`;
 }
 
@@ -1140,14 +1321,19 @@ function viewFaq(){
 
 function viewContacts(){
   const c = I18N[lang].contacts;
+  const mail=(addr,title,desc)=>`<div class="cc"><span class="cc-ic">✉️</span><div><div class="cc-l">${title}</div><div class="cc-v"><a href="mailto:${addr}">${addr}</a></div><div style="font-size:.82rem;color:var(--sub);margin-top:5px;line-height:1.45">${desc}</div></div></div>`;
   return `
   <div class="view page" data-view="contacts"><div class="wrap">
     <div class="page-head"><span class="eyebrow">${t('nav.contacts')}</span><h1>${c.title}</h1><p>${c.intro}</p></div>
     <div class="contact-grid">
-      <div class="cc"><span class="cc-ic">✉️</span><div><div class="cc-l">${c.email}</div><div class="cc-v"><a href="mailto:info@teranovagroup.com">info@teranovagroup.com</a><br><a href="mailto:sales@teranovagroup.com">sales@teranovagroup.com</a></div></div></div>
-      <div class="cc"><span class="cc-ic">📞</span><div><div class="cc-l">${c.phone}</div><div class="cc-v">+82-XX-XXXX-XXXX</div></div></div>
+      ${mail('info@teranovagroup.com',c.info_t,c.info_d)}
+      ${mail('buyers@teranovagroup.com',c.buyers_t,c.buyers_d)}
+      ${mail('suppliers@teranovagroup.com',c.suppliers_t,c.suppliers_d)}
+      ${mail('deals@teranovagroup.com',c.deals_t,c.deals_d)}
+      ${mail('tenders@teranovagroup.com',c.tenders_t,c.tenders_d)}
+      <div class="cc"><span class="cc-ic">📞</span><div><div class="cc-l">${c.phone}</div><div class="cc-v"><a href="tel:+821022860969">+82-10-2286-0969</a></div></div></div>
       <div class="cc"><span class="cc-ic">💬</span><div><div class="cc-l">${c.kakao}</div><div class="cc-v">${c.kakao_v}</div></div></div>
-      <div class="cc"><span class="cc-ic">🏢</span><div><div class="cc-l">${c.legal}</div><div class="cc-v">${c.legal_v}</div></div></div>
+      <div class="cc"><span class="cc-ic">🏢</span><div><div class="cc-l">${c.aia_t}</div><div class="cc-v">${c.aia_v}</div></div></div>
       <div class="cc"><span class="cc-ic">📍</span><div><div class="cc-l">${c.loc}</div><div class="cc-v">${c.loc_v}</div></div></div>
     </div>
     <div style="margin-top:36px"><a href="#/buyers" class="btn btn-p">${t('home.cta_b_btn')}</a></div>
@@ -1171,6 +1357,7 @@ function route(){
   else if(parts[0]==='catalog'){ html=viewCatalog(); metaKey='catalog'; }
   else if(parts[0]==='category' && parts[1]){ html=viewCategory(parts[1]); metaKey='catalog'; }
   else if(parts[0]==='supplier' && parts[1]){ const s=supById(parts[1]); html=viewSupplier(parts[1]); if(s){ setMetaRaw(s.name+' — Teranova Group', L(s.desc)); isSupplier=true; } }
+  else if(parts[0]==='tenders'){ html=viewTenders(); metaKey='tenders'; }
   else if(parts[0]==='how-we-verify'){ html=viewVerify(); metaKey='verify'; }
   else if(parts[0]==='services'){ html=viewServices(); metaKey='services'; }
   else if(parts[0]==='buyers'){ html=viewBuyers(); metaKey='buyers'; }
@@ -1233,6 +1420,9 @@ function afterRender(){
   }
   if(v==='suppliers'){
     wireForm('supForm','supSubmit','supBox','supErr',['company','contact','email','category','products']);
+  }
+  if(v==='tenders'){
+    wireForm('tenderForm','tenderSubmit','tenderBox','tenderErr',['company','contact','email','category','need']);
   }
 }
 
