@@ -26,11 +26,6 @@
   --sh-m:0 4px 20px rgba(11,27,53,.10);
   --sh-l:0 14px 44px rgba(11,27,53,.16);
 }
-:root[data-theme="v2"]{
-  --bg:#eef1f6; --bg-alt:#f6f8fb; --bg-soft:#eef3f9;
-  --surface:#ffffff; --panel:#f6f8fb; --input-bg:#ffffff;
-  --line:#e4e9f1; --line-d:#d6deea;
-}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px;overflow-x:hidden}
 body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -312,10 +307,6 @@ textarea.fc{resize:vertical;min-height:96px}
 .stt.on{opacity:1;transform:none}
 .stt:hover{background:var(--accent-h)}
 .hidden-forms{position:absolute;left:-9999px;height:0;overflow:hidden}
-#themePick{position:fixed;left:14px;bottom:14px;z-index:200;display:flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px 8px;box-shadow:var(--sh-m)}
-#themePick .tpl{font-size:11px;font-weight:700;letter-spacing:.04em;color:var(--steel);padding:0 4px}
-.tpk{background:transparent;border:1px solid var(--line-d);color:var(--steel);font-size:12px;font-weight:700;padding:4px 10px;border-radius:7px;cursor:pointer;transition:all .15s}
-.tpk.on{background:var(--accent);border-color:var(--accent);color:#fff}
 
 @media(max-width:1024px){
   .nav-c{display:none}
@@ -458,12 +449,6 @@ textarea.fc{resize:vertical;min-height:96px}
 </footer>
 
 <button class="stt" id="stt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Top">↑</button>
-
-<div id="themePick" aria-hidden="true">
-  <span class="tpl">ТОН</span>
-  <button class="tpk" data-theme-set="v1">V1</button>
-  <button class="tpk" data-theme-set="v2">V2</button>
-</div>
 
 <div class="hidden-forms" aria-hidden="true">
   <form name="buyer-inquiry" data-netlify="true" netlify-honeypot="bot-field">
@@ -1664,18 +1649,6 @@ document.getElementById('demoClose').addEventListener('click', ()=>{ demobar.cla
 
 const stt=document.getElementById('stt');
 window.addEventListener('scroll', ()=>{ stt.classList.toggle('on', window.scrollY>380); }, {passive:true});
-
-/* theme preview toggle (V1/V2) — temporary, for choosing the silver tone */
-(function(){
-  let th='v1'; try{ const s=localStorage.getItem('tg_theme'); if(s==='v1'||s==='v2') th=s; }catch(e){}
-  function setTheme(v){
-    document.documentElement.setAttribute('data-theme', v);
-    try{ localStorage.setItem('tg_theme', v); }catch(e){}
-    document.querySelectorAll('[data-theme-set]').forEach(b=>b.classList.toggle('on', b.getAttribute('data-theme-set')===v));
-  }
-  document.querySelectorAll('[data-theme-set]').forEach(b=>b.addEventListener('click', ()=>setTheme(b.getAttribute('data-theme-set'))));
-  setTheme(th);
-})();
 
 /* ===== INIT ===== */
 window.addEventListener('hashchange', route);
