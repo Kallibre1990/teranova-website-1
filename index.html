@@ -26,7 +26,7 @@
   --sh-l:0 14px 44px rgba(11,27,53,.16);
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-size:16px}
+html{scroll-behavior:smooth;font-size:16px;overflow-x:hidden}
 body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{text-decoration:none;color:inherit}
 ul{list-style:none}
@@ -310,7 +310,8 @@ textarea.fc{resize:vertical;min-height:96px}
 @media(max-width:1024px){
   .nav-c{display:none}
   .hbg{display:flex}
-  .nbtn.ghost{display:none}
+  .nav-r .langs{display:none}
+  .nav-r .nbtn{display:none}
   .prof{grid-template-columns:1fr;gap:28px}
   .prof-side{position:static}
   .sup-grid{grid-template-columns:repeat(2,1fr)}
@@ -936,6 +937,131 @@ ko:{
 function deepMerge(b,e){for(const k in e){ if(e[k]&&typeof e[k]==='object'&&!Array.isArray(e[k])&&b[k]&&typeof b[k]==='object'&&!Array.isArray(b[k])) deepMerge(b[k],e[k]); else b[k]=e[k]; } return b; }
 ['ru','en','ko'].forEach(l=>deepMerge(I18N[l], I18N_EXT[l]));
 
+/* ===== I18N EXTENSION 2 (buyers/suppliers explainer) ===== */
+const I18N_EXT2 = {
+ru:{
+  buyers:{
+    how_t:"Как это работает",
+    steps:[
+      {t:"Запрос",d:"Описываете, что нужно из Кореи: товар, объём, сроки."},
+      {t:"Подбор",d:"Находим корейских производителей под вашу задачу."},
+      {t:"Проверка",d:"Где нужно, выезжаем на производство лично: фото, документы, реальная мощность.",link:true},
+      {t:"Предложение",d:"Короткий шорт-лист с ориентиром по ценам, MOQ и условиям (EXW)."},
+      {t:"Переговоры",d:"Ведём общение, образцы и торг на корейском, английском, русском."},
+      {t:"Сделка",d:"Контракт, инвойс, условия оплаты."},
+      {t:"Логистика и таможня",d:"Организуем доставку, документы, растаможку."},
+      {t:"До отгрузки",d:"Сопровождаем сделку до получения товара."}
+    ],
+    why_t:"Почему через нас",
+    why:[
+      "Личная проверка производства, а не анкета с маркетплейса — меньше риск брака и обмана.",
+      "Один контакт вместо десятков переписок и языкового барьера.",
+      "Сквозное сопровождение: от запроса до растаможки, без поездок в Корею."
+    ]
+  },
+  suppliers:{
+    how_t:"Как это работает",
+    steps:[
+      {t:"Регистрация",d:"Оставляете компанию и продукцию (сейчас бесплатно)."},
+      {t:"Уточнение",d:"Связываемся, уточняем данные, собираем документы."},
+      {t:"Верификация (по согласованию)",d:"При необходимости приезжаем на производство; получаете статус проверенного.",link:true},
+      {t:"Размещение с вашего согласия",d:"Попадаете в каталог только с вашего согласия; личные контакты не публикуем, запросы идут через нас."},
+      {t:"Запросы",d:"Получаете заявки от международных покупателей (СНГ, Европа, Азия) под вашу продукцию."},
+      {t:"Сделка",d:"Язык, переговоры, оплату, логистику и таможню берём на себя; вы занимаетесь производством."},
+      {t:"Экспорт",d:"Получаете реальный экспортный заказ без собственного отдела ВЭД."}
+    ],
+    why_t:"Почему через нас",
+    why:[
+      "Доступ к иностранным покупателям без отдела экспорта и знания языков.",
+      "Сложную часть — валюту, логистику, таможню — ведём мы.",
+      "Статус «проверен» = преимущество перед анонимными листингами."
+    ],
+    note:"Размещение сейчас бесплатное — мы формируем каталог проверенных производителей. После заявки свяжемся для уточнения данных и, при необходимости, согласуем визит на производство."
+  }
+},
+en:{
+  buyers:{
+    how_t:"How it works",
+    steps:[
+      {t:"Request",d:"Describe what you need from Korea: product, volume, timeline."},
+      {t:"Sourcing",d:"We find Korean manufacturers that fit your task."},
+      {t:"Verification",d:"Where needed, we visit the production site in person: photos, documents, real capacity.",link:true},
+      {t:"Proposal",d:"A short shortlist with indicative prices, MOQ and terms (EXW)."},
+      {t:"Negotiation",d:"We handle communication, samples and bargaining in Korean, English, Russian."},
+      {t:"Deal",d:"Contract, invoice, payment terms."},
+      {t:"Logistics & customs",d:"We arrange delivery, documents and customs clearance."},
+      {t:"Through shipment",d:"We support the deal until you receive the goods."}
+    ],
+    why_t:"Why through us",
+    why:[
+      "Personal production checks, not a marketplace form — less risk of defects and fraud.",
+      "One contact instead of dozens of threads and a language barrier.",
+      "End-to-end support: from request to customs clearance, with no trips to Korea."
+    ]
+  },
+  suppliers:{
+    how_t:"How it works",
+    steps:[
+      {t:"Registration",d:"Submit your company and products (free for now)."},
+      {t:"Clarification",d:"We get in touch, confirm details and collect documents."},
+      {t:"Verification (by agreement)",d:"If needed, we visit your production site; you get verified status.",link:true},
+      {t:"Listing with your consent",d:"You enter the catalog only with your consent; we don't publish personal contacts, requests go through us."},
+      {t:"Requests",d:"You receive inquiries from international buyers (CIS, Europe, Asia) for your products."},
+      {t:"Deal",d:"We take on language, negotiation, payment, logistics and customs; you focus on production."},
+      {t:"Export",d:"You get a real export order without your own foreign-trade department."}
+    ],
+    why_t:"Why through us",
+    why:[
+      "Access to foreign buyers without an export department or language skills.",
+      "We handle the hard part — currency, logistics, customs.",
+      "\u201cVerified\u201d status = an edge over anonymous listings."
+    ],
+    note:"Listing is free for now — we are building a catalog of verified manufacturers. After you apply, we'll get in touch to confirm details and, if needed, arrange a production visit."
+  }
+},
+ko:{
+  buyers:{
+    how_t:"진행 방식",
+    steps:[
+      {t:"요청",d:"한국에서 필요한 것을 알려주세요: 제품, 수량, 일정."},
+      {t:"소싱",d:"귀하의 과제에 맞는 한국 제조업체를 찾습니다."},
+      {t:"검증",d:"필요한 경우 생산 현장을 직접 방문합니다: 사진, 서류, 실제 생산 능력.",link:true},
+      {t:"제안",d:"참고 가격, MOQ, 조건(EXW)이 포함된 간단한 후보 목록."},
+      {t:"협상",d:"한국어·영어·러시아어로 커뮤니케이션, 샘플, 가격 협상을 진행합니다."},
+      {t:"계약",d:"계약서, 인보이스, 결제 조건."},
+      {t:"물류·통관",d:"배송, 서류, 통관을 처리합니다."},
+      {t:"선적까지",d:"제품 수령까지 거래를 지원합니다."}
+    ],
+    why_t:"왜 당사를 통해야 하나",
+    why:[
+      "마켓플레이스 양식이 아닌 직접 생산 점검 — 불량·사기 위험이 적습니다.",
+      "수십 건의 메일과 언어 장벽 대신 하나의 창구.",
+      "요청부터 통관까지 원스톱 지원 — 한국 출장 불필요."
+    ]
+  },
+  suppliers:{
+    how_t:"진행 방식",
+    steps:[
+      {t:"등록",d:"회사와 제품을 등록하세요 (현재 무료)."},
+      {t:"확인",d:"연락하여 정보를 확인하고 서류를 수집합니다."},
+      {t:"검증 (협의 시)",d:"필요 시 생산 현장을 방문하며 검증 상태를 받습니다.",link:true},
+      {t:"동의 후 게재",d:"귀하의 동의가 있을 때만 카탈로그에 등록됩니다; 개인 연락처는 공개하지 않으며 문의는 당사를 통합니다."},
+      {t:"문의",d:"해외 바이어(CIS, 유럽, 아시아)로부터 귀사 제품에 대한 문의를 받습니다."},
+      {t:"거래",d:"언어, 협상, 결제, 물류, 통관은 당사가 맡고 귀사는 생산에 집중합니다."},
+      {t:"수출",d:"자체 무역부서 없이 실제 수출 주문을 받습니다."}
+    ],
+    why_t:"왜 당사를 통해야 하나",
+    why:[
+      "수출부서나 외국어 없이 해외 바이어에 접근.",
+      "통화·물류·통관 등 어려운 부분은 당사가 처리.",
+      "\u201c검증됨\u201d 상태 = 익명 리스팅 대비 강점."
+    ],
+    note:"현재 게재는 무료입니다 — 검증된 제조업체 카탈로그를 구성하고 있습니다. 신청 후 연락하여 정보를 확인하고 필요 시 생산 현장 방문을 협의합니다."
+  }
+}
+};
+['ru','en','ko'].forEach(l=>deepMerge(I18N[l], I18N_EXT2[l]));
+
 /* ===== STATE & HELPERS ===== */
 let lang = 'ru';
 try { const s = localStorage.getItem('tg_lang'); if (s && I18N[s]) lang = s; } catch(e){}
@@ -1222,6 +1348,22 @@ function viewServices(){
 
 function formField(f){ return f; }
 
+function explainer(o){
+  return `
+    <section style="margin-top:60px">
+      <h2 class="block-t" style="font-size:1.35rem;margin-bottom:22px">${o.how_t}</h2>
+      <div class="vsteps" style="grid-template-columns:repeat(auto-fit,minmax(210px,1fr))">
+        ${o.steps.map((s,i)=>`<div class="vstep"><div class="vstep-n">${i+1}</div><div class="vstep-t">${s.t}</div><p class="vstep-d">${s.d}${s.link?` <a href="#/how-we-verify" style="color:var(--accent);font-weight:600">${t('home.vfy_link')} →</a>`:''}</p></div>`).join('')}
+      </div>
+    </section>
+    <section style="margin-top:44px">
+      <h2 class="block-t" style="font-size:1.35rem;margin-bottom:18px">${o.why_t}</h2>
+      <div class="vpoints">
+        ${o.why.map(w=>`<div class="vpoint"><span class="vcheck">✓</span><span>${w}</span></div>`).join('')}
+      </div>
+    </section>`;
+}
+
 function viewBuyers(){
   const b = I18N[lang].buyers, f = I18N[lang].form;
   return `
@@ -1251,6 +1393,7 @@ function viewBuyers(){
         </div>
       </div>
     </div>
+    ${explainer(b)}
   </div></div>`;
 }
 
@@ -1289,6 +1432,7 @@ function viewSuppliers(){
         </div>
       </div>
     </div>
+    ${explainer(s)}
   </div></div>`;
 }
 
