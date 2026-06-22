@@ -37,8 +37,8 @@ function initGlobe(canvas: HTMLCanvasElement) {
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
   let w = 0, h = 0, cx = 0, cy = 0, R = 0;
-  const tilt = -0.33;
-  let a = reduce ? 2.2 : 0, raf = 0, inView = true, last = 0;
+  const tilt = 0.42; // look from slightly above the equator
+  let a = reduce ? 2.4 : 0.9, raf = 0, inView = true, last = 0;
 
   const view = (p: V3) => rotX(rotY(p, a), tilt);
   const px = (p: V3) => ({ x: cx + R * p.x, y: cy - R * p.y, z: p.z });
@@ -49,9 +49,9 @@ function initGlobe(canvas: HTMLCanvasElement) {
     ctx!.clearRect(0, 0, w, h);
 
     // base disc
-    const g = ctx!.createRadialGradient(cx - R * 0.25, cy - R * 0.3, R * 0.1, cx, cy, R);
-    g.addColorStop(0, 'rgba(28,58,104,0.9)');
-    g.addColorStop(1, 'rgba(8,19,40,0.95)');
+    const g = ctx!.createRadialGradient(cx - R * 0.28, cy - R * 0.32, R * 0.1, cx, cy, R);
+    g.addColorStop(0, 'rgba(18,24,40,0.96)');
+    g.addColorStop(1, 'rgba(3,6,12,0.99)');
     ctx!.fillStyle = g;
     ctx!.beginPath(); ctx!.arc(cx, cy, R, 0, 7); ctx!.fill();
 
@@ -65,18 +65,22 @@ function initGlobe(canvas: HTMLCanvasElement) {
         const s = px(p);
         if (!started) { ctx!.moveTo(s.x, s.y); started = true; } else ctx!.lineTo(s.x, s.y);
       }
-      ctx!.strokeStyle = 'rgba(140,166,210,0.22)';
+      ctx!.strokeStyle = 'rgba(206,216,230,0.15)';
       ctx!.stroke();
     }
 
-    // dots
+    // dots — dark-blue (far) to light-blue (near)
     for (const d of DOTS) {
       const p = view(d);
       if (p.z <= 0) continue;
       const s = px(p);
-      ctx!.globalAlpha = 0.25 + 0.7 * p.z;
-      ctx!.fillStyle = '#aebfdf';
-      ctx!.beginPath(); ctx!.arc(s.x, s.y, 0.8 + 1.4 * p.z, 0, 7); ctx!.fill();
+      const m = p.z;
+      const r = Math.round(26 + (111 - 26) * m);
+      const gg = Math.round(56 + (158 - 56) * m);
+      const bl = Math.round(108 + (232 - 108) * m);
+      ctx!.globalAlpha = 0.32 + 0.62 * m;
+      ctx!.fillStyle = `rgb(${r},${gg},${bl})`;
+      ctx!.beginPath(); ctx!.arc(s.x, s.y, 0.85 + 1.55 * m, 0, 7); ctx!.fill();
     }
     ctx!.globalAlpha = 1;
 

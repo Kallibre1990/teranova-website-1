@@ -60,24 +60,6 @@ if (!reduce) {
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true },
     });
   }
-  const heroContent = document.querySelector('.hero__content');
-  if (heroContent) {
-    gsap.to(heroContent, {
-      yPercent: -6,
-      opacity: 0.2,
-      ease: 'none',
-      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true },
-    });
-  }
-  // Background cross-fade during the pinned hero ("falling through" to the next layer).
-  const cross = document.querySelector('[data-hero-cross]');
-  if (cross) {
-    gsap.fromTo(
-      cross,
-      { opacity: 0 },
-      { opacity: 1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } },
-    );
-  }
 
   window.addEventListener('load', () => ScrollTrigger.refresh());
 }
