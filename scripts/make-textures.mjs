@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const out = resolve(dir, '../public/img');
+const out = resolve(dir, '../public/brand');
 
 const W = 1600, H = 1000;
 const svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">
