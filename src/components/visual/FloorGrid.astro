@@ -31,4 +31,7 @@ const { class: cls = '' } = Astro.props;
   }
   @keyframes floor-run { to { transform: translateY(62px); } }
   @media (prefers-reduced-motion: reduce) { .floor__grid { animation: none; } }
+  /* Touch / small screens: hold the grid still — a looping transform on a perspective
+     plane behind everything is costly on phones. The static depth still reads. */
+  @media (hover: none), (max-width: 860px) { .floor__grid { animation: none; } }
 </style>

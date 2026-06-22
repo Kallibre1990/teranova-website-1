@@ -70,4 +70,8 @@ const t = ui[lang];
   .verify__note p { font-size: 0.9rem; color: var(--silver); line-height: 1.6; }
   .verify__more { margin-top: 24px; }
   @media (max-width: 720px) { .verify__grid { grid-template-columns: 1fr; } }
+  /* Touch / small screens: drop backdrop-blur to avoid scroll jank. */
+  @media (hover: none), (max-width: 860px) {
+    .vcard { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(14, 34, 67, 0.7); }
+  }
 </style>

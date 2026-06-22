@@ -1,17 +1,16 @@
-/* Motion island: Lenis smooth scroll + GSAP ScrollTrigger parallax/zoom + reveals.
-   Everything is scrub/transform-based (no layout-changing pins) and fully disabled
-   under prefers-reduced-motion. Works with JS off (content is static HTML). */
+/* Motion island. Heavy motion (Lenis smooth-scroll, GSAP pin/parallax, pointer-parallax,
+   custom cursor) runs ONLY on desktop pointers and only when motion is allowed. On touch /
+   mobile and under prefers-reduced-motion: native scroll + static layers — content fully
+   visible, smooth native swipe, no jank. */
 import Lenis from 'lenis';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const desktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+const allowMotion = !reduce && desktop;
 
-/* Scroll-in text reveal removed by request — content is always visible.
-   Background motion (parallax, hero zoom, globe, cursor) stays. */
-
-/* 2) Smooth scroll + parallax/zoom (skipped entirely under reduced-motion) */
-if (!reduce) {
+if (allowMotion) {
   gsap.registerPlugin(ScrollTrigger);
 
   const lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
@@ -34,8 +33,7 @@ if (!reduce) {
     }
   });
 
-  // Layered parallax for [data-parallax] (drift through their section).
-  // Hero layers are excluded — they're driven by the pinned timeline below.
+  // Parallax for non-hero sections (hero is driven by the pinned timeline below)
   gsap.utils.toArray<HTMLElement>('[data-parallax]').forEach((el) => {
     if (el.closest('.hero')) return;
     const speed = parseFloat(el.dataset.parallax || '0');
@@ -47,8 +45,7 @@ if (!reduce) {
     });
   });
 
-  // HERO — one pinned "fall into the core" moment. ScrollTrigger pin manages
-  // pin-spacing (no layout void); layers diverge at different rates.
+  // Hero — one pinned "fall into the core" moment (pin-spacing => no layout void)
   const hero = document.querySelector<HTMLElement>('.hero');
   if (hero) {
     const diamond = hero.querySelector('[data-hero-art]');
@@ -58,14 +55,12 @@ if (!reduce) {
     const tl = gsap.timeline({
       scrollTrigger: { trigger: hero, start: 'top top', end: '+=85%', pin: true, pinSpacing: true, scrub: 0.6 },
     });
-    if (diamond) tl.to(diamond, { scale: 1.55, yPercent: -4, ease: 'none' }, 0);
+    if (diamond) tl.to(diamond, { scale: 1.5, yPercent: -4, ease: 'none' }, 0);
     if (floor) tl.to(floor, { yPercent: 16, opacity: 0.35, ease: 'none' }, 0);
     if (content) tl.to(content, { yPercent: -24, opacity: 0, ease: 'none' }, 0);
     if (cross) tl.fromTo(cross, { opacity: 0 }, { opacity: 1, ease: 'none' }, 0);
-  }
 
-  // Desktop pointer-parallax: diamond + content drift slightly toward the cursor.
-  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && hero) {
+    // Pointer-parallax: diamond + text drift toward the cursor
     const dia = hero.querySelector('[data-hero-art]');
     const txt = hero.querySelector('[data-hero-content]');
     if (dia) {
@@ -77,51 +72,38 @@ if (!reduce) {
         const r = hero.getBoundingClientRect();
         const nx = (e.clientX - r.left) / r.width - 0.5;
         const ny = (e.clientY - r.top) / r.height - 0.5;
-        dx(nx * 28); dy(ny * 22);
-        if (tx && ty) { tx(nx * -10); ty(ny * -8); }
+        dx(nx * 26); dy(ny * 20);
+        if (tx && ty) { tx(nx * -9); ty(ny * -7); }
       });
       hero.addEventListener('mouseleave', () => { dx(0); dy(0); tx?.(0); ty?.(0); });
     }
   }
 
-  window.addEventListener('load', () => ScrollTrigger.refresh());
-}
-
-/* 3) Custom cursor + magnetic buttons (desktop, fine pointer, motion only) */
-const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-if (!reduce && finePointer) {
+  // Custom cursor + magnetic primary buttons
   const cur = document.getElementById('cursor');
   if (cur) {
     document.documentElement.classList.add('cursor-on');
-    window.addEventListener(
-      'mousemove',
-      (e) => {
-        cur.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-      },
-      { passive: true },
-    );
+    window.addEventListener('mousemove', (e) => { cur.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`; }, { passive: true });
     document.querySelectorAll('a, button, summary, .cat, label, input, textarea, select, [data-magnetic]').forEach((el) => {
       el.addEventListener('mouseenter', () => cur.classList.add('is-hover'));
       el.addEventListener('mouseleave', () => cur.classList.remove('is-hover'));
     });
   }
-
-  // Magnetic pull on primary buttons.
   document.querySelectorAll<HTMLElement>('.btn--primary').forEach((btn) => {
-    const strength = 16;
+    const s = 16;
     btn.addEventListener('mousemove', (e) => {
       const r = btn.getBoundingClientRect();
       const mx = e.clientX - (r.left + r.width / 2);
       const my = e.clientY - (r.top + r.height / 2);
-      btn.style.transform = `translate(${(mx / r.width) * strength}px, ${(my / r.height) * strength}px)`;
+      btn.style.transform = `translate(${(mx / r.width) * s}px, ${(my / r.height) * s}px)`;
     });
-    btn.addEventListener('mouseleave', () => {
-      btn.style.transform = '';
-    });
+    btn.addEventListener('mouseleave', () => { btn.style.transform = ''; });
   });
+
+  window.addEventListener('load', () => ScrollTrigger.refresh());
 }
 
-/* 4) Back-to-top */
+/* Back-to-top — all devices (cheap) */
 const toTop = document.getElementById('toTop');
 if (toTop) {
   const onScroll = () => toTop.classList.toggle('show', window.scrollY > 600);

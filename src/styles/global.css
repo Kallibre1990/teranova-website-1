@@ -90,6 +90,9 @@ img, svg { max-width: 100%; display: block; }
 .section { padding: clamp(64px, 9vw, 116px) 0; position: relative; }
 .section--navy { background: var(--navy); color: #fff; }
 .section--alt { background: var(--bg-alt); }
+/* Native anchor jumps (mobile, where Lenis' scroll offset isn't active) must clear
+   the sticky header. */
+section[id] { scroll-margin-top: calc(var(--nav-h) + 12px); }
 
 /* ---- Eyebrow / headings ---- */
 .eyebrow {

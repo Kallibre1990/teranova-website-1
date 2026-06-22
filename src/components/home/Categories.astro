@@ -74,4 +74,9 @@ const icons: Record<string, string> = {
 
   @media (max-width: 940px) { .cat-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 560px) { .cat-grid { grid-template-columns: 1fr; } }
+  /* Touch / small screens: drop backdrop-blur (a scroll-jank source) — use a solid
+     translucent navy instead so cards stay legible without the per-frame blur cost. */
+  @media (hover: none), (max-width: 860px) {
+    .cat { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(14, 34, 67, 0.66); }
+  }
 </style>
