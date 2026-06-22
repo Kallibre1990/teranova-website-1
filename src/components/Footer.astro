@@ -1,0 +1,80 @@
+---
+import Logo from './Logo.astro';
+import { localizePath } from '../i18n/utils';
+import { ui, type Lang } from '../i18n/ui';
+import { site } from '../data/site';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+
+const nav = [
+  { label: t.nav.catalog, href: localizePath('/catalog', lang) },
+  { label: t.nav.verify, href: localizePath('/how-we-verify', lang) },
+  { label: t.nav.buyers, href: localizePath('/buyers', lang) },
+  { label: t.nav.suppliers, href: localizePath('/suppliers', lang) },
+  { label: t.nav.about, href: localizePath('/about', lang) },
+  { label: t.nav.faq, href: localizePath('/faq', lang) },
+  { label: t.nav.contacts, href: localizePath('/contacts', lang) },
+];
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <Logo lang={lang} variant="light" />
+        <p class="footer__blurb">{t.footer.blurb}</p>
+        <p class="footer__joint">{t.footer.joint_brand}</p>
+      </div>
+
+      <nav class="footer__col" aria-label={t.footer.nav_title}>
+        <h2 class="footer__title">{t.footer.nav_title}</h2>
+        <ul class="footer__links">
+          {nav.map((i) => <li><a href={i.href}>{i.label}</a></li>)}
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <h2 class="footer__title">{t.footer.contact_title}</h2>
+        <ul class="footer__contacts">
+          <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+          <li><a href={`tel:${site.phoneHref}`}>{site.phone}</a></li>
+          <li><span>{t.footer.loc}</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="hairline" />
+    <div class="footer__bottom">
+      <p class="footer__disc">{t.footer.disclaimer}</p>
+      <p class="footer__rights">© {year} Teranova Group · AIA Group Ltd.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer { background: var(--navy); color: #fff; padding: clamp(56px, 7vw, 80px) 0 30px; }
+  .footer__grid { display: grid; grid-template-columns: 2fr 1fr 1.2fr; gap: 48px; margin-bottom: 40px; }
+  .footer__blurb { font-size: 0.9rem; color: var(--silver); line-height: 1.65; max-width: 320px; margin: 18px 0 14px; }
+  .footer__joint { font-size: 0.82rem; color: var(--silver-muted); }
+  .footer__title { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.45); margin-bottom: 16px; }
+  .footer__links, .footer__contacts { display: flex; flex-direction: column; gap: 11px; }
+  .footer__links a, .footer__contacts a, .footer__contacts span { font-size: 0.9rem; color: var(--silver); transition: color .2s; }
+  .footer__links a:hover, .footer__contacts a:hover { color: #fff; }
+  .hairline { margin: 8px 0 24px; }
+  .footer__bottom { display: flex; flex-direction: column; gap: 12px; }
+  .footer__disc { font-size: 0.78rem; color: var(--silver-muted); line-height: 1.6; max-width: 900px; }
+  .footer__rights { font-size: 0.78rem; color: rgba(255, 255, 255, 0.4); }
+
+  @media (max-width: 880px) {
+    .footer__grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .footer__brand { grid-column: 1 / -1; }
+  }
+  @media (max-width: 520px) {
+    .footer__grid { grid-template-columns: 1fr; gap: 28px; }
+  }
+</style>

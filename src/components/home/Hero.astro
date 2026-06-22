@@ -1,0 +1,182 @@
+---
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+---
+
+<section class="hero">
+  <div class="hero__glow" data-parallax="0.16" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <!-- Multi-layer duotone port scene (vector, lightweight) -->
+  <div class="hero__scene" data-parallax="0.07" aria-hidden="true">
+    <svg viewBox="0 0 820 480" preserveAspectRatio="xMaxYMax slice" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="hull" x1="0" y1="300" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#16335a"></stop>
+          <stop offset="1" stop-color="#0c1f3c"></stop>
+        </linearGradient>
+        <linearGradient id="water" x1="0" y1="345" x2="0" y2="480" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#0e2243"></stop>
+          <stop offset="1" stop-color="#0b1b35"></stop>
+        </linearGradient>
+      </defs>
+
+      <!-- distant skyline / cranes -->
+      <g opacity="0.5" stroke="#3a4f73" stroke-width="1.4">
+        <path d="M70 300 V196 M70 196 H150 M150 196 V300" />
+        <path d="M120 196 l34 -26" />
+        <path d="M250 300 V172 M250 172 H338 M338 172 V300" />
+        <path d="M300 172 l36 -26" />
+      </g>
+      <g opacity="0.28" fill="#1b3460">
+        <rect x="420" y="214" width="40" height="86" />
+        <rect x="470" y="186" width="30" height="114" />
+        <rect x="512" y="232" width="46" height="68" />
+        <rect x="690" y="206" width="34" height="94" />
+        <rect x="734" y="174" width="40" height="126" />
+      </g>
+
+      <!-- waterline -->
+      <line x1="0" y1="300" x2="820" y2="300" stroke="#48607d" stroke-width="1.2" opacity="0.6"></line>
+
+      <!-- ship hull -->
+      <path d="M150 304 H712 l-44 46 H206 Z" fill="url(#hull)" stroke="#6b829e" stroke-width="1.2" stroke-opacity="0.5"></path>
+
+      <!-- container stacks on deck -->
+      <g>
+        <rect x="214" y="252" width="58" height="50" fill="#13294e" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="214" y="252" width="58" height="9" fill="#92a0b5" opacity="0.5"></rect>
+        <rect x="278" y="240" width="58" height="62" fill="#162e54" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="278" y="240" width="58" height="9" fill="#3f7ae0" opacity="0.8"></rect>
+        <rect x="342" y="262" width="58" height="40" fill="#13294e" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="342" y="262" width="58" height="9" fill="#cbd4e0" opacity="0.45"></rect>
+        <rect x="406" y="236" width="58" height="66" fill="#162e54" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="406" y="236" width="58" height="9" fill="#2563d4" opacity="0.85"></rect>
+        <rect x="470" y="252" width="58" height="50" fill="#13294e" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="470" y="252" width="58" height="9" fill="#92a0b5" opacity="0.5"></rect>
+        <rect x="534" y="246" width="58" height="56" fill="#162e54" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="534" y="246" width="58" height="9" fill="#3f7ae0" opacity="0.7"></rect>
+        <rect x="598" y="262" width="58" height="40" fill="#13294e" stroke="#5d738f" stroke-width="1"></rect>
+        <rect x="598" y="262" width="58" height="9" fill="#cbd4e0" opacity="0.4"></rect>
+      </g>
+
+      <!-- gantry crane -->
+      <g stroke="#7e93ac" stroke-width="1.6" opacity="0.8">
+        <path d="M250 300 V150 H470 V300" fill="none"></path>
+        <line x1="250" y1="150" x2="250" y2="120"></line>
+        <line x1="470" y1="150" x2="470" y2="120"></line>
+        <line x1="220" y1="150" x2="500" y2="150"></line>
+        <line x1="360" y1="150" x2="360" y2="206"></line>
+      </g>
+
+      <!-- water + reflections -->
+      <rect x="0" y="350" width="820" height="130" fill="url(#water)"></rect>
+      <g stroke="#3a4f73" stroke-width="1" opacity="0.45">
+        <line x1="120" y1="372" x2="300" y2="372"></line>
+        <line x1="360" y1="392" x2="560" y2="392"></line>
+        <line x1="200" y1="414" x2="430" y2="414"></line>
+        <line x1="520" y1="436" x2="700" y2="436"></line>
+      </g>
+    </svg>
+  </div>
+
+  <div class="wrap hero__inner">
+    <span class="hero__badge"><span class="dot" aria-hidden="true"></span>{t.hero.badge}</span>
+    <h1 class="hero__title">
+      <span class="metal">{t.hero.title_metal}</span>
+      <span class="hero__rest">{t.hero.title_rest}</span>
+    </h1>
+    <p class="hero__sub">{t.hero.sub}</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.hero.cta_primary}</a>
+      <a class="btn btn--ghost btn--lg" href={anchorHref('verify', lang)}>{t.hero.cta_secondary}</a>
+    </div>
+
+    <dl class="hero__stats">
+      {
+        t.hero.stats.map((s) => (
+          <div class="hero__stat">
+            <dt class="hero__stat-n metal-cobalt">{s.n}</dt>
+            <dd class="hero__stat-b">
+              <span class="hero__stat-l">{s.l}</span>
+              <span class="hero__stat-s">{s.s}</span>
+            </dd>
+          </div>
+        ))
+      }
+    </dl>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative; overflow: hidden;
+    background: radial-gradient(120% 120% at 80% -10%, #102a52 0%, var(--navy) 46%, var(--navy-deep) 100%);
+    color: #fff;
+    padding: calc(var(--nav-h) + 40px) 0 64px;
+    min-height: min(92vh, 880px);
+    display: flex; align-items: center;
+  }
+  .hero__glow {
+    position: absolute; top: -160px; right: -120px; width: 680px; height: 680px;
+    background: radial-gradient(circle, rgba(37, 99, 212, 0.34) 0%, transparent 68%);
+    pointer-events: none; will-change: transform;
+  }
+  .hero__grid {
+    position: absolute; inset: 0; pointer-events: none; opacity: 0.5;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(120% 90% at 70% 30%, #000 0%, transparent 75%);
+    mask-image: radial-gradient(120% 90% at 70% 30%, #000 0%, transparent 75%);
+  }
+  .hero__scene {
+    position: absolute; right: 0; bottom: 0; width: min(64%, 880px); height: 88%;
+    pointer-events: none; opacity: 0.95; will-change: transform;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 28%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 28%);
+  }
+  .hero__scene svg { width: 100%; height: 100%; }
+
+  .hero__inner { position: relative; z-index: 2; max-width: 680px; }
+  .hero__badge {
+    display: inline-flex; align-items: center; gap: 9px;
+    background: rgba(37, 99, 212, 0.16); border: 1px solid rgba(63, 122, 224, 0.4);
+    border-radius: 100px; padding: 7px 15px; margin-bottom: 26px;
+    font-size: 0.76rem; font-weight: 700; letter-spacing: 0.04em; color: #aecbf6;
+  }
+  .hero__badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--visited); box-shadow: 0 0 8px var(--visited); }
+  .hero__title {
+    font-size: clamp(2.2rem, 5.4vw, 3.7rem); font-weight: 800;
+    line-height: 1.08; letter-spacing: -0.03em; margin-bottom: 22px;
+  }
+  .hero__title .metal { display: block; }
+  .hero__rest { display: block; color: var(--silver); }
+  .hero__sub { font-size: clamp(1.02rem, 1.5vw, 1.18rem); color: var(--silver); line-height: 1.7; max-width: 600px; margin-bottom: 34px; }
+  .hero__cta { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 56px; }
+
+  .hero__stats { display: flex; flex-wrap: wrap; gap: 14px 40px; margin: 0; }
+  .hero__stat { display: flex; align-items: center; gap: 13px; }
+  .hero__stat-n { font-size: 2.5rem; font-weight: 800; line-height: 1; letter-spacing: -0.02em; }
+  .hero__stat-b { margin: 0; display: flex; flex-direction: column; }
+  .hero__stat-l { font-size: 0.92rem; font-weight: 700; color: #fff; line-height: 1.2; }
+  .hero__stat-s { font-size: 0.76rem; color: var(--silver-muted); margin-top: 2px; }
+
+  @media (max-width: 860px) {
+    .hero { min-height: auto; padding-top: calc(var(--nav-h) + 28px); }
+    .hero__scene { opacity: 0.4; width: 92%; height: 60%; }
+    .hero__stats { gap: 18px 32px; }
+    .hero__stat-n { font-size: 2.1rem; }
+  }
+  @media (max-width: 480px) {
+    .hero__cta { flex-direction: column; align-items: stretch; }
+    .hero__cta .btn { width: 100%; }
+  }
+</style>

@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import Home from '../../components/home/Home.astro';
+import { ui } from '../../i18n/ui';
+import { homeJsonLd } from '../../data/jsonld';
+
+const lang = 'en' as const;
+const t = ui[lang];
+---
+
+<Base lang={lang} path="/" title={t.meta.home_title} description={t.meta.home_desc} jsonLd={homeJsonLd(lang)}>
+  <Home lang={lang} />
+</Base>

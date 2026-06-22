@@ -1,0 +1,14 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Teranova Group">
+  <defs>
+    <linearGradient id="tileD" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F7AE0"/>
+      <stop offset="1" stop-color="#0B1B35"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#tileD)"/>
+  <rect x="20.5" y="12" width="4.8" height="24" rx="2.4" fill="#3F7AE0" opacity="0.55" transform="translate(2 1.5)"/>
+  <rect x="11" y="13" width="26" height="4.8" rx="2.4" fill="#EDF1F6"/>
+  <rect x="21.6" y="13" width="4.8" height="23" rx="2.4" fill="#EDF1F6"/>
+  <text x="58" y="27" font-family="Manrope, 'Segoe UI', sans-serif" font-size="19" font-weight="800" letter-spacing="0.5" fill="#0B1B35">TERANOVA</text>
+  <text x="58" y="40" font-family="Manrope, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" letter-spacing="3.2" fill="#45576F">GROUP</text>
+</svg>

@@ -1,0 +1,55 @@
+---
+import '../styles/global.css';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { ui, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  path: string;
+  title: string;
+  description: string;
+  jsonLd?: object | object[];
+  noindex?: boolean;
+}
+const { lang, path, title, description, jsonLd, noindex = false } = Astro.props;
+const t = ui[lang];
+---
+
+<!doctype html>
+<html lang={t.htmlLang}>
+  <head>
+    <BaseHead lang={lang} path={path} title={title} description={description} jsonLd={jsonLd} noindex={noindex} />
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t.common.skip}</a>
+    <Header lang={lang} path={path} />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <button class="to-top" id="toTop" aria-label={t.common.to_top}>↑</button>
+
+    <script>
+      import '../scripts/motion';
+    </script>
+
+    <style>
+      .to-top {
+        position: fixed; right: 22px; bottom: 22px;
+        width: 44px; height: 44px; border-radius: 50%; border: none;
+        background: var(--cobalt); color: #fff; font-size: 1.15rem;
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: var(--sh-m); z-index: 80;
+        opacity: 0; transform: translateY(12px); pointer-events: none;
+        transition: opacity .3s var(--ease), transform .3s var(--ease), background .2s;
+      }
+      .to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+      .to-top:hover { background: var(--cobalt-light); }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+---
+import { localizePath } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { categoryKeys, categoryIcon } from '../../data/site';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+
+const icons: Record<string, string> = {
+  anchor: '<circle cx="12" cy="5" r="2.4"/><path d="M12 7.4V21M5 13a7 7 0 0 0 14 0M3.5 13H7M17 13h3.5"/>',
+  drop: '<path d="M12 3c3.5 4.2 6 7.2 6 10.5a6 6 0 1 1-12 0C6 10.2 8.5 7.2 12 3Z"/><path d="M9.5 14.5a2.6 2.6 0 0 0 2.5 2.2"/>',
+  cross: '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8.5v7M8.5 12h7"/>',
+  gear: '<circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>',
+};
+---
+
+<section class="section section--alt categories" id="categories">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">{t.categories.eyebrow}</span>
+      <h2 class="h-section">{t.categories.title}</h2>
+      <p class="sub-section">{t.categories.sub}</p>
+    </div>
+
+    <div class="cat-grid">
+      {
+        categoryKeys.map((key, i) => (
+          <a class="cat" href={localizePath(`/catalog/${key}`, lang)} data-reveal data-delay={(i % 4) + 1}>
+            <span class="cat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" set:html={icons[categoryIcon[key]]} />
+            </span>
+            <h3 class="cat__name">{t.cats[key].name}</h3>
+            <p class="cat__blurb">{t.cats[key].blurb}</p>
+            <span class="cat__more">
+              {t.categories.link}
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+        ))
+      }
+    </div>
+
+    <p class="cat-demo" data-reveal>{t.categories.demo_note}</p>
+  </div>
+</section>
+
+<style>
+  .cat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .cat {
+    display: flex; flex-direction: column;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--r-lg); padding: 28px 26px 24px;
+    box-shadow: var(--sh-s);
+    transition: transform .25s var(--ease), box-shadow .25s var(--ease), border-color .25s var(--ease);
+  }
+  .cat:hover { transform: translateY(-5px); box-shadow: var(--sh-l); border-color: rgba(37, 99, 212, 0.3); }
+  .cat__icon {
+    width: 54px; height: 54px; border-radius: 14px; margin-bottom: 20px;
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(140deg, #eaf1fc, #dbe6f6); color: var(--cobalt);
+    transition: background .25s var(--ease), color .25s var(--ease);
+  }
+  .cat__icon svg { width: 27px; height: 27px; }
+  .cat:hover .cat__icon { background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light)); color: #fff; }
+  .cat__name { font-size: 1.08rem; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 9px; }
+  .cat__blurb { font-size: 0.88rem; color: var(--sub); line-height: 1.6; flex: 1; margin-bottom: 18px; }
+  .cat__more { display: inline-flex; align-items: center; gap: 6px; font-size: 0.82rem; font-weight: 700; color: var(--cobalt); }
+  .cat__more svg { transition: transform .25s var(--ease); }
+  .cat:hover .cat__more svg { transform: translateX(4px); }
+
+  .cat-demo { margin-top: 26px; font-size: 0.84rem; color: var(--faint); }
+
+  @media (max-width: 940px) { .cat-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .cat-grid { grid-template-columns: 1fr; } }
+</style>

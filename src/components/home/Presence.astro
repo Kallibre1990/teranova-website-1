@@ -1,0 +1,71 @@
+---
+import { ui, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+---
+
+<section class="section presence" id="presence">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">{t.presence.eyebrow}</span>
+      <h2 class="h-section">{t.presence.title}</h2>
+      <p class="sub-section">{t.presence.sub}</p>
+    </div>
+
+    <div class="presence__grid">
+      {
+        t.presence.items.map((item, i) => (
+          <article class:list={['ploc', { 'ploc--base': i === 0 }]} data-reveal data-delay={(i % 4) + 1}>
+            <span class="ploc__pin" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </span>
+            <h3 class="ploc__place">{item.place}</h3>
+            <p class="ploc__note">{item.note}</p>
+            <span class="ploc__tag">{t.presence.on_ground}</span>
+          </article>
+        ))
+      }
+
+      <article class="ploc ploc--request" data-reveal>
+        <span class="ploc__pin ploc__pin--dashed" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" stroke-dasharray="3 3"/><path d="M12 8v8M8 12h8"/></svg>
+        </span>
+        <h3 class="ploc__place">{t.presence.on_request_t}</h3>
+        <p class="ploc__note">{t.presence.on_request_d}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .presence__grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+  .ploc {
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg);
+    padding: 24px 22px; box-shadow: var(--sh-s);
+    transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+  }
+  .ploc:hover { transform: translateY(-4px); box-shadow: var(--sh-m); }
+  .ploc__pin {
+    width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    background: var(--cobalt-soft); color: var(--cobalt); margin-bottom: 16px;
+  }
+  .ploc__pin svg { width: 22px; height: 22px; }
+  .ploc--base .ploc__pin { background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light)); color: #fff; }
+  .ploc__place { font-size: 1.1rem; font-weight: 800; margin-bottom: 5px; }
+  .ploc__note { font-size: 0.84rem; color: var(--sub); line-height: 1.5; margin-bottom: 14px; }
+  .ploc__tag {
+    display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--visited); background: var(--visited-bg); border: 1px solid var(--visited-bd);
+    padding: 3px 9px; border-radius: 100px;
+  }
+  .ploc--request { background: var(--bg-alt); border-style: dashed; border-color: var(--line-2); }
+  .ploc--request .ploc__pin { background: transparent; color: var(--faint); }
+
+  @media (max-width: 980px) { .presence__grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 640px) { .presence__grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 400px) { .presence__grid { grid-template-columns: 1fr; } }
+</style>

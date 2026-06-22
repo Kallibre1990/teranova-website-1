@@ -1,0 +1,49 @@
+---
+import { localizePath } from '../i18n/utils';
+import { languages, ui, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  path: string;
+}
+const { lang, path } = Astro.props;
+const t = ui[lang];
+const items = (Object.keys(languages) as Lang[]).map((l) => ({
+  code: l,
+  label: l.toUpperCase(),
+  href: localizePath(path, l),
+  active: l === lang,
+}));
+---
+
+<div class="langs" role="group" aria-label={t.common.switch_lang}>
+  {
+    items.map((i) => (
+      <a
+        class:list={['lb', { on: i.active }]}
+        href={i.href}
+        hreflang={i.code}
+        lang={i.code}
+        aria-current={i.active ? 'true' : undefined}
+      >
+        {i.label}
+      </a>
+    ))
+  }
+</div>
+
+<style>
+  .langs {
+    display: inline-flex; gap: 2px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 9px; padding: 3px;
+  }
+  .lb {
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.55); padding: 5px 9px; border-radius: 6px;
+    transition: color .2s, background .2s;
+  }
+  .lb:hover { color: #fff; }
+  .lb.on { background: var(--cobalt); color: #fff; }
+</style>
