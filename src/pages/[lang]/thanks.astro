@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import CenteredNotice from '../../components/CenteredNotice.astro';
+import { ui, defaultLang, languages, type Lang } from '../../i18n/ui';
+import { localizePath } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const t = ui[lang];
+---
+
+<Base lang={lang} path="/thanks" title={`${t.thanks.title} — Teranova Group`} description={t.thanks.body} noindex>
+  <CenteredNotice icon="check" title={t.thanks.title} body={t.thanks.body} backHref={localizePath('/', lang)} backLabel={t.thanks.back} />
+</Base>

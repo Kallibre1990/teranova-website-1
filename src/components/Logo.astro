@@ -1,0 +1,23 @@
+---
+import { localizePath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  variant?: 'light' | 'dark';
+  class?: string;
+}
+const { lang, variant = 'light', class: cls = '' } = Astro.props;
+const home = localizePath('/', lang);
+const src = variant === 'light' ? '/brand/teranova-logo-light.svg' : '/brand/teranova-logo-dark.svg';
+---
+
+<a class:list={['logo', cls]} href={home} aria-label="Teranova Group">
+  <img src={src} alt="Teranova Group" width="3258" height="800" />
+</a>
+
+<style>
+  .logo { display: inline-flex; align-items: center; flex-shrink: 0; }
+  .logo img { height: 30px; width: auto; display: block; }
+  @media (max-width: 600px) { .logo img { height: 26px; } }
+</style>

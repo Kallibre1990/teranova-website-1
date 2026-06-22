@@ -1,0 +1,78 @@
+---
+import { localizePath } from '../i18n/utils';
+import { languages, ui, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  path: string;
+}
+const { lang, path } = Astro.props;
+const t = ui[lang];
+const items = (Object.keys(languages) as Lang[]).map((l) => ({
+  code: l,
+  label: languages[l],
+  short: l.toUpperCase(),
+  href: localizePath(path, l),
+  active: l === lang,
+}));
+---
+
+<details class="langswitch">
+  <summary aria-label={t.common.switch_lang}>
+    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
+    <span>{lang.toUpperCase()}</span>
+    <svg class="chev" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+  </summary>
+  <ul class="langmenu" role="list">
+    {
+      items.map((i) => (
+        <li>
+          <a href={i.href} hreflang={i.code} lang={i.code} aria-current={i.active ? 'true' : undefined} class:list={{ on: i.active }}>
+            <span class="lm-short">{i.short}</span>
+            <span class="lm-label">{i.label}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</details>
+
+<style>
+  .langswitch { position: relative; }
+  .langswitch summary {
+    display: inline-flex; align-items: center; gap: 7px; list-style: none; cursor: pointer;
+    font-size: 0.76rem; font-weight: 700; letter-spacing: 0.04em; color: rgba(255, 255, 255, 0.78);
+    padding: 7px 11px; border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 9px;
+    background: rgba(255, 255, 255, 0.06); transition: color .2s, border-color .2s;
+  }
+  .langswitch summary::-webkit-details-marker { display: none; }
+  .langswitch summary:hover { color: #fff; border-color: rgba(255, 255, 255, 0.3); }
+  .langswitch .chev { transition: transform .25s var(--ease); opacity: 0.7; }
+  .langswitch[open] .chev { transform: rotate(180deg); }
+  .langmenu {
+    position: absolute; right: 0; top: calc(100% + 8px); z-index: 200; min-width: 184px;
+    background: var(--navy-2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 12px;
+    padding: 7px; box-shadow: var(--sh-navy); display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+  }
+  .langmenu a {
+    display: flex; align-items: baseline; gap: 8px; padding: 8px 10px; border-radius: 8px;
+    color: rgba(255, 255, 255, 0.72); transition: background .15s, color .15s;
+  }
+  .langmenu a:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+  .langmenu a.on { background: var(--cobalt); color: #fff; }
+  .lm-short { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.04em; min-width: 22px; }
+  .lm-label { font-size: 0.82rem; }
+</style>
+
+<script>
+  // Close any open language dropdown on outside-click or Escape.
+  document.addEventListener('click', (e) => {
+    document.querySelectorAll<HTMLDetailsElement>('details.langswitch[open]').forEach((d) => {
+      if (!d.contains(e.target as Node)) d.removeAttribute('open');
+    });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape')
+      document.querySelectorAll<HTMLDetailsElement>('details.langswitch[open]').forEach((d) => d.removeAttribute('open'));
+  });
+</script>

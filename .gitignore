@@ -1,0 +1,27 @@
+# build output
+dist/
+
+# dependencies
+node_modules/
+
+# astro
+.astro/
+
+# environment
+.env
+.env.production
+.env.local
+
+# logs
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local screenshot helpers (need puppeteer, dev-only)
+scripts/shot.mjs
+scripts/shotglobe.mjs

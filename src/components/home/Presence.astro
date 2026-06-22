@@ -1,0 +1,67 @@
+---
+import Atmosphere from '../visual/Atmosphere.astro';
+import Globe from '../visual/Globe.astro';
+import CountryFlag from '../visual/CountryFlag.astro';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const codes = ['kr', 'jp', 'cn', 'tr'] as const;
+---
+
+<section class="section section--navy presence" id="presence">
+  <Atmosphere variant="dark" />
+  <div class="wrap presence__grid">
+    <div class="presence__text">
+      <span class="sup sup--light">( {t.presence.sup} )</span>
+      <h2 class="h-section">{t.presence.title}</h2>
+      <p class="presence__lead">{t.presence.onsite_lead}</p>
+      <ul class="presence__countries">
+        {
+          t.presence.countries.map((c, i) => (
+            <li>
+              <CountryFlag code={codes[i] ?? 'kr'} title={c} delay={i * 200} />
+              <span>{c}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="presence__other">{t.presence.other}</p>
+
+      <div class="presence__buyers">
+        <span class="presence__buyers-lead">{t.presence.buyers_lead}</span>
+        <ul class="presence__regions">
+          {t.presence.buyers_regions.map((r) => <li>{r}</li>)}
+        </ul>
+      </div>
+    </div>
+
+    <div class="presence__globe">
+      <Globe label={`${t.presence.countries[0]} → ${t.presence.buyers_regions.join(', ')}`} />
+    </div>
+  </div>
+</section>
+
+<style>
+  .presence { position: relative; }
+  .presence__grid { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+  .presence__lead { font-size: 1.05rem; color: var(--silver); line-height: 1.65; max-width: 46ch; margin-top: 16px; }
+  .presence__countries { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 16px; }
+  .presence__countries li {
+    display: inline-flex; align-items: center; gap: 10px; font-size: 1rem; font-weight: 700; color: #fff;
+    background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 100px; padding: 7px 15px 7px 9px;
+  }
+  .presence__other { font-size: 0.9rem; color: var(--silver-muted); }
+  .presence__buyers { margin-top: 26px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .presence__buyers-lead { display: block; font-size: 0.9rem; color: var(--silver); margin-bottom: 12px; }
+  .presence__regions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .presence__regions li { font-size: 0.82rem; font-weight: 700; letter-spacing: 0.03em; color: var(--cobalt-light); background: rgba(37, 99, 212, 0.16); border: 1px solid rgba(63, 122, 224, 0.3); border-radius: 100px; padding: 6px 14px; }
+  .presence__globe { display: flex; justify-content: center; }
+
+  @media (max-width: 880px) {
+    .presence__grid { grid-template-columns: 1fr; gap: 36px; }
+    .presence__globe { order: -1; max-width: 420px; margin: 0 auto; }
+  }
+</style>

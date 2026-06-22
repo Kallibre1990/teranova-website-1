@@ -1,0 +1,27 @@
+---
+import Atmosphere from '../visual/Atmosphere.astro';
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+---
+
+<section class="section section--navy ctaband">
+  <Atmosphere variant="hero" />
+  <div class="wrap ctaband__inner" data-reveal>
+    <span class="sup sup--light">( {t.cta.sup} )</span>
+    <h2 class="ctaband__title" data-reveal="mask"><span class="metal">{t.cta.title}</span></h2>
+    <p class="ctaband__sub">{t.cta.sub}</p>
+    <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.cta.button}</a>
+  </div>
+</section>
+
+<style>
+  .ctaband { position: relative; text-align: center; }
+  .ctaband__inner { position: relative; z-index: 2; max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; }
+  .ctaband__title { font-size: clamp(1.9rem, 4.4vw, 3rem); font-weight: 800; letter-spacing: -0.025em; line-height: 1.1; margin: 6px 0 16px; }
+  .ctaband__sub { font-size: 1.08rem; color: var(--silver); line-height: 1.65; margin-bottom: 30px; max-width: 52ch; }
+</style>

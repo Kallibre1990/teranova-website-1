@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import CenteredNotice from '../components/CenteredNotice.astro';
+import { ui } from '../i18n/ui';
+import { localizePath } from '../i18n/utils';
+
+// Served for any unknown path. Default-locale (ru) chrome.
+const lang = 'ru' as const;
+const t = ui[lang];
+---
+
+<Base lang={lang} path="/404" title="404 — Teranova Group" description={t.notfound.body} noindex>
+  <CenteredNotice icon="soon" title={t.notfound.title} body={t.notfound.body} backHref={localizePath('/', lang)} backLabel={t.notfound.back} />
+</Base>
