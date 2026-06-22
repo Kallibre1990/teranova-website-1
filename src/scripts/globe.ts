@@ -1,6 +1,6 @@
-/* Crisp canvas globe: wireframe sphere (graticule + dots) on a base disc, with
-   animated arcs from Korea to key markets. Vanilla 2D canvas (no WebGL).
-   Always renders (draws on resize), spins while in view, static under reduced-motion. */
+/* Canvas globe: a lit ocean sphere with a procedurally-coloured "dotted Earth"
+   (real coastlines, climate-band colours) + animated arcs from Korea to key markets.
+   Vanilla 2D canvas (no WebGL), no photos. Spins while in view, static under reduced-motion. */
 
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -22,8 +22,21 @@ const slerp = (a: V3, b: V3, t: number): V3 => {
 const KOREA = sphere(36.5, 127.8);
 const DESTS = [[43.2, 76.9], [55.75, 37.6], [41.0, 28.98], [50.1, 8.68], [40.7, -74.0], [25.2, 55.27], [1.35, 103.8]].map(([la, lo]) => sphere(la, lo));
 
-// Continents — a precomputed "dotted Earth" (Natural Earth land sampling), loaded async.
-let LAND: V3[] = [];
+// Continents — a precomputed "dotted Earth" (Natural Earth land sampling), loaded async and
+// coloured procedurally by climate band: ice · taiga · temperate · desert · savanna · forest.
+const BANDS = ['224,233,241', '64,104,84', '78,134,80', '184,160,106', '126,150,76', '44,116,60'];
+const LANDB: V3[][] = BANDS.map(() => []);
+let landReady = false;
+const hash = (a: number, b: number) => { const v = Math.sin(a * 12.9898 + b * 78.233) * 43758.5453; return v - Math.floor(v); };
+const bandOf = (lat: number, lon: number): number => {
+  const a = Math.abs(lat) + (hash(lat, lon) - 0.5) * 7; // jitter so bands aren't hard stripes
+  if (a > 67) return 0;   // polar ice
+  if (a > 55) return 1;   // taiga
+  if (a > 35) return 2;   // temperate green
+  if (a > 18) return 3;   // subtropical desert / steppe
+  if (a > 10) return 4;   // savanna
+  return 5;               // equatorial forest
+};
 // graticule polylines (meridians + parallels)
 const LINES: V3[][] = [];
 for (let lon = -150; lon <= 180; lon += 30) { const l: V3[] = []; for (let lat = -90; lat <= 90; lat += 4) l.push(sphere(lat, lon)); LINES.push(l); }
@@ -44,11 +57,11 @@ function initGlobe(canvas: HTMLCanvasElement) {
     if (!reduce && inView) { const dt = Math.min(48, now - last || 16); last = now; a += dt * 0.00016; }
     ctx!.clearRect(0, 0, w, h);
 
-    // base sphere — a lit platinum→steel silver orb (highlight top-left, terminator lower-right)
+    // base sphere — a lit ocean (sunlit sea top-left → deep water at the terminator)
     const g = ctx!.createRadialGradient(cx - R * 0.28, cy - R * 0.32, R * 0.1, cx, cy, R);
-    g.addColorStop(0, 'rgba(240,243,248,0.99)');
-    g.addColorStop(0.55, 'rgba(184,194,209,0.98)');
-    g.addColorStop(1, 'rgba(120,133,155,0.97)');
+    g.addColorStop(0, 'rgba(118,174,222,0.99)');
+    g.addColorStop(0.5, 'rgba(46,110,184,0.99)');
+    g.addColorStop(1, 'rgba(14,46,100,0.99)');
     ctx!.fillStyle = g;
     ctx!.beginPath(); ctx!.arc(cx, cy, R, 0, 7); ctx!.fill();
 
@@ -62,22 +75,35 @@ function initGlobe(canvas: HTMLCanvasElement) {
         const s = px(p);
         if (!started) { ctx!.moveTo(s.x, s.y); started = true; } else ctx!.lineTo(s.x, s.y);
       }
-      ctx!.strokeStyle = 'rgba(64,80,108,0.16)';
+      ctx!.strokeStyle = 'rgba(206,224,242,0.12)';
       ctx!.stroke();
     }
 
-    // continents — darker steel dots on the silver ocean (denser/clearer toward viewer)
-    ctx!.fillStyle = 'rgb(28,44,70)';
-    for (const d of LAND) {
-      const p = view(d);
-      if (p.z <= 0) continue;
-      const s = px(p);
-      const m = p.z;
-      ctx!.globalAlpha = 0.4 + 0.46 * m;
-      const sz = 1.0 + 1.4 * m;
-      ctx!.fillRect(s.x - sz / 2, s.y - sz / 2, sz, sz);
+    // continents — coloured land dots (forest/desert/ice), depth-shaded toward the limb
+    for (let bi = 0; bi < LANDB.length; bi++) {
+      const bucket = LANDB[bi];
+      if (!bucket.length) continue;
+      ctx!.fillStyle = `rgb(${BANDS[bi]})`;
+      for (const d of bucket) {
+        const p = view(d);
+        if (p.z <= 0) continue;
+        const s = px(p);
+        const m = p.z;
+        ctx!.globalAlpha = 0.5 + 0.5 * m;
+        const sz = 1.15 + 1.5 * m;
+        ctx!.fillRect(s.x - sz / 2, s.y - sz / 2, sz, sz);
+      }
     }
     ctx!.globalAlpha = 1;
+
+    // atmospheric rim — a cyan limb glow that lifts the globe off the dark section
+    const rim = ctx!.createRadialGradient(cx, cy, R * 0.84, cx, cy, R * 1.08);
+    rim.addColorStop(0, 'rgba(128,188,248,0)');
+    rim.addColorStop(0.72, 'rgba(128,188,248,0.2)');
+    rim.addColorStop(0.96, 'rgba(156,204,255,0.5)');
+    rim.addColorStop(1, 'rgba(156,204,255,0)');
+    ctx!.fillStyle = rim;
+    ctx!.beginPath(); ctx!.arc(cx, cy, R * 1.08, 0, 7); ctx!.fill();
 
     // arcs + destination dots
     for (const db of DESTS) {
@@ -90,17 +116,17 @@ function initGlobe(canvas: HTMLCanvasElement) {
         const s = px(p);
         if (!started) { ctx!.moveTo(s.x, s.y); started = true; } else ctx!.lineTo(s.x, s.y);
       }
-      ctx!.strokeStyle = 'rgba(37,99,212,0.6)'; ctx!.lineWidth = 1.3; ctx!.stroke();
+      ctx!.strokeStyle = 'rgba(150,205,255,0.8)'; ctx!.lineWidth = 1.3; ctx!.stroke();
 
       if (!reduce) {
         const tt = (now * 0.00024) % 1;
         const sp = slerp(KOREA, db, tt);
         const lift = 1 + 0.2 * Math.sin(Math.PI * tt);
         const p = view({ x: sp.x * lift, y: sp.y * lift, z: sp.z * lift });
-        if (p.z > 0) { const s = px(p); ctx!.fillStyle = '#2f6fe0'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.2, 0, 7); ctx!.fill(); }
+        if (p.z > 0) { const s = px(p); ctx!.fillStyle = '#eaf6ff'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.2, 0, 7); ctx!.fill(); }
       }
       const pd = view(db);
-      if (pd.z > 0) { const s = px(pd); ctx!.fillStyle = '#2563d4'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.6, 0, 7); ctx!.fill(); }
+      if (pd.z > 0) { const s = px(pd); ctx!.fillStyle = '#f2f9ff'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.6, 0, 7); ctx!.fill(); }
     }
 
     // Korea marker
@@ -108,8 +134,8 @@ function initGlobe(canvas: HTMLCanvasElement) {
     if (kr.z > 0) {
       const s = px(kr);
       const pulse = reduce ? 0 : 0.5 + 0.5 * Math.sin(now * 0.004);
-      ctx!.fillStyle = '#2563d4'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 4, 0, 7); ctx!.fill();
-      ctx!.strokeStyle = `rgba(37,99,212,${0.6 - 0.5 * pulse})`; ctx!.lineWidth = 1.6;
+      ctx!.fillStyle = '#eaf5ff'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 4, 0, 7); ctx!.fill();
+      ctx!.strokeStyle = `rgba(120,190,255,${0.7 - 0.55 * pulse})`; ctx!.lineWidth = 1.6;
       ctx!.beginPath(); ctx!.arc(s.x, s.y, 6 + 9 * pulse, 0, 7); ctx!.stroke();
     }
 
@@ -131,17 +157,16 @@ function initGlobe(canvas: HTMLCanvasElement) {
   new ResizeObserver(resize).observe(canvas);
   requestAnimationFrame(resize);
 
-  // Load the dotted-Earth land data once, then (re)draw so continents appear.
-  if (!LAND.length) {
+  // Load the dotted-Earth land data once, sort into colour bands, then redraw.
+  if (!landReady) {
+    landReady = true;
     fetch('/data/land-dots.json')
       .then((r) => r.json())
       .then((flat: number[]) => {
-        const pts: V3[] = [];
-        for (let i = 0; i + 1 < flat.length; i += 2) pts.push(sphere(flat[i], flat[i + 1]));
-        LAND = pts;
+        for (let i = 0; i + 1 < flat.length; i += 2) LANDB[bandOf(flat[i], flat[i + 1])].push(sphere(flat[i], flat[i + 1]));
         draw(performance.now());
       })
-      .catch(() => {});
+      .catch(() => { landReady = false; });
   }
 
   const io = new IntersectionObserver((es) => {
