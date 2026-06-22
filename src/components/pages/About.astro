@@ -1,0 +1,50 @@
+---
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.about;
+---
+
+<PageHead sup={t.nav.about} title={p.title} sub={p.sub} />
+
+<section class="section section--navy">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="card-grid card-grid--2">
+      <article class="icard">
+        <h2 class="icard__t">{p.who_title}</h2>
+        <p class="icard__d">{p.who_body}</p>
+      </article>
+      <article class="icard">
+        <h2 class="icard__t">{p.onsite_title}</h2>
+        <p class="icard__d">{t.presence.onsite_lead}</p>
+        <ul class="chips">{t.presence.countries.map((c) => <li>{c}</li>)}</ul>
+        <p class="icard__d" style="margin-top:12px">{t.presence.other}</p>
+      </article>
+    </div>
+
+    <div class="markets">
+      <h2 class="icard__t">{p.markets_title}</h2>
+      <ul class="chips chips--cobalt">{t.presence.buyers_regions.map((r) => <li>{r}</li>)}</ul>
+    </div>
+
+    <p class="page-note">{t.footer.joint_brand}</p>
+    <div class="page-cta">
+      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .markets { margin-top: 18px; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 26px 24px; }
+  .markets .icard__t { margin-bottom: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 14px; }
+  .chips li { font-size: 0.88rem; font-weight: 600; color: var(--silver-bright); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 100px; padding: 6px 14px; }
+  .chips--cobalt li { color: var(--cobalt-light); background: rgba(37, 99, 212, 0.14); border-color: rgba(63, 122, 224, 0.3); }
+</style>

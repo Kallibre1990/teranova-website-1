@@ -1,0 +1,41 @@
+---
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.buyers;
+const icons = [
+  '<path d="M12 3l8 4v5c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/>',
+  '<path d="M3 7h13v10H3zM16 10h3l2 3v4h-5"/><circle cx="7.5" cy="17.5" r="1.6"/><circle cx="18" cy="17.5" r="1.6"/>',
+  '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',
+];
+---
+
+<PageHead sup={t.nav.buyers} title={p.title} sub={p.sub} />
+
+<section class="section section--navy">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="card-grid">
+      {
+        p.cards.map((c, i) => (
+          <article class="icard">
+            <span class="icard__ic" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" set:html={icons[i]} />
+            </span>
+            <h2 class="icard__t">{c.t}</h2>
+            <p class="icard__d">{c.d}</p>
+          </article>
+        ))
+      }
+    </div>
+    <div class="page-cta">
+      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+    </div>
+  </div>
+</section>

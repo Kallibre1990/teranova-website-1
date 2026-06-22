@@ -8,8 +8,6 @@ const SITE = 'https://teranovagroup.com';
 // and served noindex until a native speaker reviews them.
 const verified = ['ru', 'en', 'ko'];
 const machine = ['zh', 'ja', 'it', 'de', 'fr', 'tr'];
-// noindex "coming soon" placeholder pages — kept out of the sitemap.
-const placeholder = ['suppliers', 'about', 'faq', 'how-we-verify'];
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,12 +21,10 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      // Sitemap = indexed pages only: drop noindex pages (/thanks, "coming soon"
-      // placeholders) and all machine locales.
+      // Sitemap = indexed pages only: drop noindex /thanks and all machine locales.
       filter: (page) => {
         const segs = new URL(page).pathname.split('/').filter(Boolean);
         if (segs.includes('thanks')) return false;
-        if (segs.some((s) => placeholder.includes(s))) return false;
         return !machine.includes(segs[0]);
       },
       i18n: {

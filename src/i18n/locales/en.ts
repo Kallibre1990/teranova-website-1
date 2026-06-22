@@ -7,8 +7,11 @@ export const en: UIDict = {
 
   nav: {
     catalog: 'Catalog',
+    buyers: 'For buyers',
     verify: 'How we verify',
-    buyers: 'On demand',
+    ondemand: 'On demand',
+    how: 'How we work',
+    presence: 'Where we are',
     suppliers: 'For suppliers',
     about: 'About',
     faq: 'FAQ',
@@ -152,6 +155,84 @@ export const en: UIDict = {
     title: 'This page is coming soon',
     body: 'This section is still in progress. Head back to the home page — that one is ready.',
     back: 'Go home',
+  },
+
+  pages: {
+    catalog: {
+      title: 'Catalog of directions',
+      sub: 'Seven sourcing directions from Korea. Open a direction to see sub-niches and verified suppliers. The catalog is being populated — some cards are demonstration samples.',
+      view: 'View suppliers',
+    },
+    group: {
+      back: 'All directions',
+      subniches: 'Sub-niches',
+      suppliers_title: 'Suppliers in this direction',
+      demo_badge: 'Demo data',
+      demo_note: 'Sample cards — the catalog is being populated with real suppliers.',
+      request: 'Request in this category',
+      sample_a: 'Sample · Supplier A',
+      sample_b: 'Sample · Supplier B',
+      sample_c: 'Sample · Supplier C',
+      role_maker: 'Korea · manufacturer',
+      role_oem: 'Korea · OEM/ODM',
+      role_exporter: 'Korea · exporter',
+    },
+    buyers: {
+      title: 'If you buy from Korea',
+      sub: 'You get one accountable partner on the Korean side. We speak to the factory in its language, check the product and take on what usually breaks a supply.',
+      cards: [
+        { t: 'Verified supplier', d: 'We source factories for your task and verify them — up to a personal visit to the production.' },
+        { t: 'Turnkey deal', d: 'Negotiations, contract, payment, logistics and customs, quality control — we coordinate and support.' },
+        { t: 'A language you understand', d: 'We work in English and Russian and support buyers from the CIS, Europe, Türkiye, the USA and Asia.' },
+      ],
+    },
+    verify: {
+      title: 'How we verify',
+      sub: 'Every supplier has a status — a documented fact, not a promise of outcome. We coordinate and support the deal.',
+      visit_title: 'What a “site visit” means',
+      visit_body: 'The founder comes to the production, meets the management, inspects the line and records the visit with dated photos. The “Verified — site visit” status is backed by fact, not words.',
+      transparency_title: 'Transparent statuses',
+      transparency_body: 'If a visit has not happened yet, the supplier is marked “Company-provided data” — honestly, without overstatement. Quality terms are fixed in the contract. We do not publish suppliers’ personal contacts — all communication goes through Teranova.',
+    },
+    about: {
+      title: 'About the company',
+      sub: 'Teranova Group is a B2B trust partner: we connect verified Korean manufacturers with buyers worldwide and support the entire deal.',
+      who_title: 'Who we are',
+      who_body: 'We find manufacturers in Korea, verify them and run the deal from the first request to receipt of the goods — one accountable partner instead of a chain of middlemen. We coordinate and support; quality terms are fixed in the contract with the supplier.',
+      onsite_title: 'On the ground, where things are made',
+      markets_title: 'Who we support',
+    },
+    suppliers: {
+      title: 'For suppliers',
+      sub: 'Do you manufacture in Korea and want to reach buyers in the CIS, Europe, Türkiye, the USA and Asia? List in the Teranova catalog.',
+      cards: [
+        { t: 'Why list', d: 'Access to verified buyers and deal support in their language — without the middleman chain.' },
+        { t: 'What we provide', d: 'We present your profile to buyers and help with communication, contract and logistics. Requests go through Teranova.' },
+        { t: 'How to join', d: 'Submit a request — we will get in touch, discuss the product and terms. A personal visit for the “Verified” status is possible.' },
+      ],
+      free_note: 'Listing in the catalog is currently free.',
+      cta: 'Become a supplier',
+    },
+    faq: {
+      title: 'Questions and answers',
+      sub: 'A short take on how we work. Didn’t find an answer — write to us.',
+      items: [
+        { q: 'Are you a manufacturer or an intermediary?', a: 'We are a B2B trust partner: we find and verify Korean manufacturers and support the deal. We do not manufacture ourselves.' },
+        { q: 'What do the verification statuses mean?', a: '“Verified — site visit” means the founder was at the factory in person, with photos and a date. “Company-provided data” means a profile from the supplier’s words. It is a documented fact, not a promise of outcome.' },
+        { q: 'What is in the catalog vs on demand?', a: 'The catalog is what we have already verified. If something is missing, we find a factory for your request: source, verify and arrange supply.' },
+        { q: 'Which directions do you cover?', a: 'Marine supply; cosmetics & care (OEM/ODM); medical & aesthetics; industrial equipment; commercial & special vehicles; adjacent sectors; chemicals & materials. Consumer cars are out of scope.' },
+        { q: 'Where are your buyers from?', a: 'We support buyers from the CIS, Europe, Türkiye, the USA and Asia. On the ground we are in Korea, Japan, China and Türkiye; other regions on request.' },
+        { q: 'Do you publish suppliers’ contacts?', a: 'No. We do not publish suppliers’ personal contacts — all communication goes through Teranova. A supplier may agree to publication if they wish.' },
+      ],
+    },
+    contacts: {
+      title: 'Contacts',
+      sub: 'Tell us what you need to find in Korea — we take on sourcing, verification and supply.',
+      email_label: 'Email',
+      phone_label: 'Phone',
+      loc_label: 'Presence',
+      loc_value: 'Korea · Japan · China · Türkiye',
+    },
   },
 
   footer: {

@@ -1,0 +1,24 @@
+---
+import Atmosphere from '../visual/Atmosphere.astro';
+interface Props {
+  sup?: string;
+  title: string;
+  sub?: string;
+}
+const { sup, title, sub } = Astro.props;
+---
+
+<section class="section section--navy page-head">
+  <Atmosphere variant="hero" />
+  <div class="wrap">
+    {sup && <span class="sup sup--light">( {sup} )</span>}
+    <h1 class="h-section">{title}</h1>
+    {sub && <p class="sub-section">{sub}</p>}
+  </div>
+</section>
+
+<style>
+  .page-head { padding-top: clamp(48px, 7vw, 92px); padding-bottom: clamp(40px, 6vw, 72px); }
+  .page-head .h-section { color: #fff; max-width: 22ch; }
+  .page-head .sub-section { max-width: 60ch; }
+</style>

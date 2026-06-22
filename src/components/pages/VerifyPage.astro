@@ -1,0 +1,55 @@
+---
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.verify;
+---
+
+<PageHead sup={t.verify.sup} title={p.title} sub={p.sub} />
+
+<section class="section section--navy">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="vgrid">
+      <article class="vcard vcard--visited">
+        <span class="badge badge--visited"><span class="dot"></span>{t.verify.card_visited_t}</span>
+        <p>{t.verify.card_visited_d}</p>
+      </article>
+      <article class="vcard vcard--provided">
+        <span class="badge badge--provided"><span class="dot"></span>{t.verify.card_provided_t}</span>
+        <p>{t.verify.card_provided_d}</p>
+      </article>
+    </div>
+
+    <div class="card-grid card-grid--2">
+      <article class="icard">
+        <h2 class="icard__t">{p.visit_title}</h2>
+        <p class="icard__d">{p.visit_body}</p>
+      </article>
+      <article class="icard">
+        <h2 class="icard__t">{p.transparency_title}</h2>
+        <p class="icard__d">{p.transparency_body}</p>
+      </article>
+    </div>
+
+    <p class="page-note">{t.verify.note}</p>
+    <div class="page-cta">
+      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .vgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+  .vcard { border-radius: var(--r-xl); padding: 28px; border: 1px solid; }
+  .vcard--visited { background: rgba(21, 145, 108, 0.1); border-color: rgba(21, 145, 108, 0.3); }
+  .vcard--provided { background: rgba(154, 106, 18, 0.1); border-color: rgba(154, 106, 18, 0.32); }
+  .vcard p { font-size: 0.95rem; color: var(--silver); margin-top: 14px; }
+  @media (max-width: 740px) { .vgrid { grid-template-columns: 1fr; } }
+</style>
