@@ -1,0 +1,35 @@
+---
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.suppliers;
+---
+
+<PageHead sup={t.nav.suppliers} title={p.title} sub={p.sub} />
+
+<section class="section section--navy">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="card-grid">
+      {
+        p.cards.map((c, i) => (
+          <article class="icard">
+            <span class="icard__num">{String(i + 1).padStart(2, '0')}</span>
+            <h2 class="icard__t">{c.t}</h2>
+            <p class="icard__d">{c.d}</p>
+          </article>
+        ))
+      }
+    </div>
+    <p class="page-note">{p.free_note}</p>
+    <div class="page-cta">
+      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{p.cta}</a>
+    </div>
+  </div>
+</section>

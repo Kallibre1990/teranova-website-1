@@ -1,0 +1,21 @@
+---
+/* Catalog group page for the non-default locales. */
+import Base from '../../../layouts/Base.astro';
+import CatalogGroup from '../../../components/pages/CatalogGroup.astro';
+import { ui, defaultLang, languages, type Lang } from '../../../i18n/ui';
+import { categoryKeys, type CategoryKey } from '../../../data/site';
+
+export function getStaticPaths() {
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .flatMap((lang) => categoryKeys.map((key) => ({ params: { lang, key }, props: { lang, key } })));
+}
+
+const { lang, key } = Astro.props as { lang: Lang; key: CategoryKey };
+const t = ui[lang];
+const group = t.categories.groups.find((g) => g.key === key)!;
+---
+
+<Base lang={lang} path={`/catalog/${key}`} title={`${group.name} — Teranova Group`} description={group.blurb}>
+  <CatalogGroup lang={lang} groupKey={key} />
+</Base>
