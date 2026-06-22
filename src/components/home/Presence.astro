@@ -1,26 +1,28 @@
 ---
+import CountryFlag from '../visual/CountryFlag.astro';
 import { ui, type Lang } from '../../i18n/ui';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
+const codes = ['kr', 'jp', 'cn', 'tr'] as const;
 ---
 
 <section class="section section--field presence" id="presence">
   <div class="wrap">
     <div class="section-head" data-reveal>
       <span class="sup">( {t.presence.sup} )</span>
-      <h2 class="h-section">{t.presence.title}</h2>
+      <h2 class="h-section" data-reveal="mask">{t.presence.title}</h2>
     </div>
 
     <div class="presence__block" data-reveal>
       <p class="presence__lead">{t.presence.onsite_lead}</p>
       <ul class="presence__countries">
         {
-          t.presence.countries.map((c) => (
+          t.presence.countries.map((c, i) => (
             <li>
-              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <CountryFlag code={codes[i] ?? 'kr'} title={c} delay={i * 220} />
               {c}
             </li>
           ))

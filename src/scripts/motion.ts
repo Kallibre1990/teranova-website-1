@@ -100,7 +100,41 @@ if (!reduce) {
   window.addEventListener('load', () => ScrollTrigger.refresh());
 }
 
-/* 3) Back-to-top */
+/* 3) Custom cursor + magnetic buttons (desktop, fine pointer, motion only) */
+const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+if (!reduce && finePointer) {
+  const cur = document.getElementById('cursor');
+  if (cur) {
+    document.documentElement.classList.add('cursor-on');
+    window.addEventListener(
+      'mousemove',
+      (e) => {
+        cur.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      },
+      { passive: true },
+    );
+    document.querySelectorAll('a, button, summary, .cat, label, input, textarea, select, [data-magnetic]').forEach((el) => {
+      el.addEventListener('mouseenter', () => cur.classList.add('is-hover'));
+      el.addEventListener('mouseleave', () => cur.classList.remove('is-hover'));
+    });
+  }
+
+  // Magnetic pull on primary buttons.
+  document.querySelectorAll<HTMLElement>('.btn--primary').forEach((btn) => {
+    const strength = 16;
+    btn.addEventListener('mousemove', (e) => {
+      const r = btn.getBoundingClientRect();
+      const mx = e.clientX - (r.left + r.width / 2);
+      const my = e.clientY - (r.top + r.height / 2);
+      btn.style.transform = `translate(${(mx / r.width) * strength}px, ${(my / r.height) * strength}px)`;
+    });
+    btn.addEventListener('mouseleave', () => {
+      btn.style.transform = '';
+    });
+  });
+}
+
+/* 4) Back-to-top */
 const toTop = document.getElementById('toTop');
 if (toTop) {
   const onScroll = () => toTop.classList.toggle('show', window.scrollY > 600);

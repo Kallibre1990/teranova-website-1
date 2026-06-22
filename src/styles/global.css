@@ -102,8 +102,8 @@ img, svg { max-width: 100%; display: block; }
   content: ''; width: 26px; height: 1px; background: currentColor; opacity: 0.5;
 }
 .h-section {
-  font-size: clamp(1.7rem, 3.4vw, 2.5rem); font-weight: 800;
-  letter-spacing: -0.025em; line-height: 1.12; color: var(--ink);
+  font-size: clamp(1.95rem, 4.4vw, 3.1rem); font-weight: 800;
+  letter-spacing: -0.028em; line-height: 1.1; color: var(--ink);
 }
 .section--navy .h-section { color: #fff; }
 .sub-section {
@@ -214,8 +214,23 @@ img, svg { max-width: 100%; display: block; }
   background-size: 160px 160px;
 }
 
+/* ---- Mask / curtain reveal (headings) ---- */
+.js [data-reveal="mask"] { opacity: 1; transform: none; clip-path: inset(0 0 110% 0); }
+.js [data-reveal="mask"].is-in { clip-path: inset(0 0 -8% 0); transition: clip-path 1s var(--ease); }
+
+/* ---- Custom cursor (desktop, fine pointer only) ---- */
+.cursor { position: fixed; top: 0; left: 0; z-index: 9000; pointer-events: none; opacity: 0; mix-blend-mode: difference; transition: opacity .3s ease; }
+.cursor__ring { position: absolute; width: 34px; height: 34px; margin: -17px 0 0 -17px; border: 1.5px solid #fff; border-radius: 50%; transition: width .25s var(--ease), height .25s var(--ease), margin .25s var(--ease), background .25s; }
+.cursor__dot { position: absolute; width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px; background: #fff; border-radius: 50%; }
+.cursor.is-hover .cursor__ring { width: 56px; height: 56px; margin: -28px 0 0 -28px; background: rgba(255, 255, 255, 0.14); }
+html.cursor-on .cursor { opacity: 1; }
+html.cursor-on, html.cursor-on a, html.cursor-on button, html.cursor-on summary, html.cursor-on [data-magnetic] { cursor: none; }
+html.cursor-on input, html.cursor-on textarea, html.cursor-on select { cursor: auto; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .js [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .js [data-reveal="mask"] { clip-path: none !important; }
+  .cursor { display: none !important; }
   *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
 }

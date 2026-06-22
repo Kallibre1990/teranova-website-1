@@ -41,17 +41,24 @@ function isPlainObject(v: unknown): v is Record<string, unknown> {
   return typeof v === 'object' && v !== null && !Array.isArray(v);
 }
 
-function deepMerge<T>(base: T, over: DeepPartial<T> | undefined): T {
-  if (over === undefined || over === null) return base;
-  if (!isPlainObject(base)) return (over as unknown as T) ?? base;
-  const out: Record<string, unknown> = { ...(base as Record<string, unknown>) };
-  for (const key of Object.keys(base as Record<string, unknown>)) {
-    const b = (base as Record<string, unknown>)[key];
-    const o = (over as Record<string, unknown>)[key];
-    if (o === undefined) continue;
-    out[key] = isPlainObject(b) ? deepMerge(b, o as DeepPartial<typeof b>) : o;
+/** Merge `over` onto `base`. Arrays merge element-wise (base length governs),
+    so machine locales can translate the items they have and fall back to
+    English for any newly added ones. */
+function mergeValue(b: unknown, o: unknown): unknown {
+  if (o === undefined || o === null) return b;
+  if (Array.isArray(b) && Array.isArray(o)) {
+    return b.map((item, i) => (i < o.length ? mergeValue(item, o[i]) : item));
   }
-  return out as T;
+  if (isPlainObject(b) && isPlainObject(o)) {
+    const out: Record<string, unknown> = { ...b };
+    for (const k of Object.keys(b)) out[k] = mergeValue(b[k], o[k]);
+    return out;
+  }
+  return o;
+}
+
+function deepMerge<T>(base: T, over: DeepPartial<T> | undefined): T {
+  return mergeValue(base, over) as T;
 }
 
 function build(code: Lang, partial: DeepPartial<UIDict>): UIDict {
