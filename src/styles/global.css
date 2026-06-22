@@ -50,7 +50,7 @@
   --sh-l: 0 22px 60px rgba(11, 27, 53, 0.18);
   --sh-navy: 0 24px 70px rgba(3, 10, 24, 0.55);
 
-  --font: 'Manrope', 'Noto Sans KR', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font: 'Manrope Variable', 'Manrope', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 

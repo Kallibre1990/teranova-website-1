@@ -14,10 +14,10 @@ const rings = [120, 230, 340, 450, 560, 680];
 ---
 
 <div class:list={['atmo', `atmo--${variant}`, cls]} aria-hidden="true">
-  <span class="atmo__glow atmo__glow--1" data-parallax="0.12"></span>
-  <span class="atmo__glow atmo__glow--2" data-parallax="0.2"></span>
+  <span class="atmo__glow atmo__glow--1" data-parallax="0.24"></span>
+  <span class="atmo__glow atmo__glow--2" data-parallax="0.38"></span>
 
-  <svg class="atmo__contour" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" data-parallax="0.07">
+  <svg class="atmo__contour" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" data-parallax="0.14">
     <g class="atmo__rings">
       {rings.map((r) => <polygon points={`${cxp},${cyp - r} ${cxp + r},${cyp} ${cxp},${cyp + r} ${cxp - r},${cyp}`} />)}
     </g>

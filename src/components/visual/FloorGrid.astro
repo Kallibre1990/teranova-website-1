@@ -1,0 +1,34 @@
+---
+/* Perspective floor-grid — a CSS 3D plane that gives the hero a Z-axis (depth to a
+   horizon). Cobalt lines, fade-to-horizon mask, lines "run" toward the viewer using
+   transform only. Animation is disabled under reduced-motion. */
+interface Props {
+  class?: string;
+}
+const { class: cls = '' } = Astro.props;
+---
+
+<div class:list={['floor', cls]} aria-hidden="true" data-floor>
+  <div class="floor__plane"><span class="floor__grid"></span></div>
+</div>
+
+<style>
+  .floor {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 62%; z-index: 1;
+    perspective: 340px; perspective-origin: 50% 0%; pointer-events: none; overflow: hidden;
+    -webkit-mask-image: linear-gradient(to top, #000 0%, #000 26%, transparent 88%);
+    mask-image: linear-gradient(to top, #000 0%, #000 26%, transparent 88%);
+  }
+  .floor__plane { position: absolute; left: -50%; bottom: 0; width: 200%; height: 200%; transform-origin: 50% 100%; transform: rotateX(74deg); }
+  .floor__grid {
+    position: absolute; left: 0; right: 0; bottom: -50%; height: 250%;
+    background-image:
+      linear-gradient(rgba(63, 122, 224, 0.30) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(63, 122, 224, 0.18) 1px, transparent 1px);
+    background-size: 62px 62px;
+    animation: floor-run 5.5s linear infinite;
+    will-change: transform;
+  }
+  @keyframes floor-run { to { transform: translateY(62px); } }
+  @media (prefers-reduced-motion: reduce) { .floor__grid { animation: none; } }
+</style>
