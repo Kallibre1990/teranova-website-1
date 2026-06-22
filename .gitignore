@@ -22,5 +22,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# local screenshot helper (needs puppeteer, dev-only)
+# local screenshot helpers (need puppeteer, dev-only)
 scripts/shot.mjs
+scripts/shotglobe.mjs

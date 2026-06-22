@@ -48,10 +48,11 @@ function initGlobe(canvas: HTMLCanvasElement) {
     if (!reduce && inView) { const dt = Math.min(48, now - last || 16); last = now; a += dt * 0.00016; }
     ctx!.clearRect(0, 0, w, h);
 
-    // base disc
+    // base sphere — a lit platinum→steel silver orb (highlight top-left, terminator lower-right)
     const g = ctx!.createRadialGradient(cx - R * 0.28, cy - R * 0.32, R * 0.1, cx, cy, R);
-    g.addColorStop(0, 'rgba(18,24,40,0.96)');
-    g.addColorStop(1, 'rgba(3,6,12,0.99)');
+    g.addColorStop(0, 'rgba(240,243,248,0.99)');
+    g.addColorStop(0.55, 'rgba(184,194,209,0.98)');
+    g.addColorStop(1, 'rgba(120,133,155,0.97)');
     ctx!.fillStyle = g;
     ctx!.beginPath(); ctx!.arc(cx, cy, R, 0, 7); ctx!.fill();
 
@@ -65,22 +66,19 @@ function initGlobe(canvas: HTMLCanvasElement) {
         const s = px(p);
         if (!started) { ctx!.moveTo(s.x, s.y); started = true; } else ctx!.lineTo(s.x, s.y);
       }
-      ctx!.strokeStyle = 'rgba(206,216,230,0.15)';
+      ctx!.strokeStyle = 'rgba(58,74,100,0.28)';
       ctx!.stroke();
     }
 
-    // dots — dark-blue (far) to light-blue (near)
+    // dots — fine steel engraving on the silver surface (clearer toward the viewer)
     for (const d of DOTS) {
       const p = view(d);
       if (p.z <= 0) continue;
       const s = px(p);
       const m = p.z;
-      const r = Math.round(26 + (111 - 26) * m);
-      const gg = Math.round(56 + (158 - 56) * m);
-      const bl = Math.round(108 + (232 - 108) * m);
-      ctx!.globalAlpha = 0.32 + 0.62 * m;
-      ctx!.fillStyle = `rgb(${r},${gg},${bl})`;
-      ctx!.beginPath(); ctx!.arc(s.x, s.y, 0.85 + 1.55 * m, 0, 7); ctx!.fill();
+      ctx!.globalAlpha = 0.14 + 0.32 * m;
+      ctx!.fillStyle = 'rgb(52,68,94)';
+      ctx!.beginPath(); ctx!.arc(s.x, s.y, 0.8 + 1.3 * m, 0, 7); ctx!.fill();
     }
     ctx!.globalAlpha = 1;
 
@@ -95,17 +93,17 @@ function initGlobe(canvas: HTMLCanvasElement) {
         const s = px(p);
         if (!started) { ctx!.moveTo(s.x, s.y); started = true; } else ctx!.lineTo(s.x, s.y);
       }
-      ctx!.strokeStyle = 'rgba(63,122,224,0.7)'; ctx!.lineWidth = 1.4; ctx!.stroke();
+      ctx!.strokeStyle = 'rgba(37,99,212,0.6)'; ctx!.lineWidth = 1.3; ctx!.stroke();
 
       if (!reduce) {
         const tt = (now * 0.00024) % 1;
         const sp = slerp(KOREA, db, tt);
         const lift = 1 + 0.2 * Math.sin(Math.PI * tt);
         const p = view({ x: sp.x * lift, y: sp.y * lift, z: sp.z * lift });
-        if (p.z > 0) { const s = px(p); ctx!.fillStyle = '#bcd4ff'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.2, 0, 7); ctx!.fill(); }
+        if (p.z > 0) { const s = px(p); ctx!.fillStyle = '#2f6fe0'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.2, 0, 7); ctx!.fill(); }
       }
       const pd = view(db);
-      if (pd.z > 0) { const s = px(pd); ctx!.fillStyle = '#eef3fb'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.6, 0, 7); ctx!.fill(); }
+      if (pd.z > 0) { const s = px(pd); ctx!.fillStyle = '#2563d4'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 2.6, 0, 7); ctx!.fill(); }
     }
 
     // Korea marker
@@ -113,8 +111,8 @@ function initGlobe(canvas: HTMLCanvasElement) {
     if (kr.z > 0) {
       const s = px(kr);
       const pulse = reduce ? 0 : 0.5 + 0.5 * Math.sin(now * 0.004);
-      ctx!.fillStyle = '#3f7ae0'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 4, 0, 7); ctx!.fill();
-      ctx!.strokeStyle = `rgba(63,122,224,${0.6 - 0.5 * pulse})`; ctx!.lineWidth = 1.6;
+      ctx!.fillStyle = '#2563d4'; ctx!.beginPath(); ctx!.arc(s.x, s.y, 4, 0, 7); ctx!.fill();
+      ctx!.strokeStyle = `rgba(37,99,212,${0.6 - 0.5 * pulse})`; ctx!.lineWidth = 1.6;
       ctx!.beginPath(); ctx!.arc(s.x, s.y, 6 + 9 * pulse, 0, 7); ctx!.stroke();
     }
 
