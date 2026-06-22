@@ -1,36 +1,31 @@
 ---
-/* Code-drawn atmospheric background for dark sections: deep gradient-light field
-   + parallax glow + faint network/bridge motif + grain. No photos (docs/IMAGERY.md). */
+/* Code-drawn layered backdrop that sits BEHIND section text: gradient-light field
+   + parallax glows + on-brand concentric-diamond contours + grain. No photos.
+   variant: 'hero'|'dark' (navy sections) or 'light' (overlay on light sections). */
 interface Props {
-  variant?: 'hero' | 'dark';
+  variant?: 'hero' | 'dark' | 'light';
   class?: string;
 }
 const { variant = 'dark', class: cls = '' } = Astro.props;
 
-// Deterministic network nodes + links (the "we connect two sides" motif).
-const nodes = [
-  [120, 140], [300, 90], [470, 180], [640, 110], [820, 200], [930, 120],
-  [180, 360], [380, 300], [560, 400], [740, 330], [900, 420],
-  [240, 560], [430, 620], [620, 560], [810, 640], [960, 560],
-];
-const links = [
-  [0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [0, 6], [1, 7], [2, 8], [3, 9], [4, 10],
-  [6, 7], [7, 8], [8, 9], [9, 10], [6, 11], [7, 12], [8, 13], [9, 14], [10, 15],
-  [11, 12], [12, 13], [13, 14], [14, 15],
-];
+// concentric brand diamonds (the "drawing" behind content)
+const cxp = 800, cyp = 320;
+const rings = [120, 230, 340, 450, 560, 680];
 ---
 
 <div class:list={['atmo', `atmo--${variant}`, cls]} aria-hidden="true">
   <span class="atmo__glow atmo__glow--1" data-parallax="0.12"></span>
   <span class="atmo__glow atmo__glow--2" data-parallax="0.2"></span>
-  <svg class="atmo__net" viewBox="0 0 1040 720" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" data-parallax="0.06">
-    <g stroke="#5d76a6" stroke-opacity="0.16" stroke-width="1">
-      {links.map(([a, b]) => <line x1={nodes[a][0]} y1={nodes[a][1]} x2={nodes[b][0]} y2={nodes[b][1]} />)}
+
+  <svg class="atmo__contour" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg" data-parallax="0.07">
+    <g class="atmo__rings">
+      {rings.map((r) => <polygon points={`${cxp},${cyp - r} ${cxp + r},${cyp} ${cxp},${cyp + r} ${cxp - r},${cyp}`} />)}
     </g>
-    <g fill="#9fb6da" fill-opacity="0.4">
-      {nodes.map(([x, y]) => <circle cx={x} cy={y} r="2.4" />)}
+    <g class="atmo__dots">
+      {Array.from({ length: 7 }).map((_, r) => Array.from({ length: 11 }).map((__, c) => <circle cx={60 + c * 92} cy={50 + r * 88} r="1.5" />))}
     </g>
   </svg>
+
   <span class="grain"></span>
 </div>
 
@@ -38,8 +33,20 @@ const links = [
   .atmo { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
   .atmo--hero { background: radial-gradient(120% 110% at 78% -10%, #143257 0%, #0b1b35 46%, #081325 100%); }
   .atmo--dark { background: linear-gradient(180deg, #0b1b35 0%, #0e2243 100%); }
+  .atmo--light { background: transparent; }
+
   .atmo__glow { position: absolute; border-radius: 50%; will-change: transform; }
-  .atmo__glow--1 { top: -160px; right: -120px; width: 620px; height: 620px; background: radial-gradient(circle, rgba(37, 99, 212, 0.34) 0%, transparent 68%); }
-  .atmo__glow--2 { bottom: -200px; left: -140px; width: 560px; height: 560px; background: radial-gradient(circle, rgba(63, 122, 224, 0.18) 0%, transparent 70%); }
-  .atmo__net { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.8; will-change: transform; }
+  .atmo__glow--1 { top: -180px; right: -120px; width: 640px; height: 640px; }
+  .atmo__glow--2 { bottom: -220px; left: -160px; width: 560px; height: 560px; }
+  .atmo--hero .atmo__glow--1, .atmo--dark .atmo__glow--1 { background: radial-gradient(circle, rgba(37, 99, 212, 0.36) 0%, transparent 68%); }
+  .atmo--hero .atmo__glow--2, .atmo--dark .atmo__glow--2 { background: radial-gradient(circle, rgba(63, 122, 224, 0.2) 0%, transparent 70%); }
+  .atmo--light .atmo__glow--1 { background: radial-gradient(circle, rgba(37, 99, 212, 0.12) 0%, transparent 66%); }
+  .atmo--light .atmo__glow--2 { background: radial-gradient(circle, rgba(63, 122, 224, 0.1) 0%, transparent 70%); }
+
+  .atmo__contour { position: absolute; inset: 0; width: 100%; height: 100%; will-change: transform; }
+  .atmo__rings polygon { fill: none; stroke-width: 1.2; }
+  .atmo--hero .atmo__rings polygon, .atmo--dark .atmo__rings polygon { stroke: rgba(120, 147, 188, 0.18); }
+  .atmo--light .atmo__rings polygon { stroke: rgba(37, 99, 212, 0.12); }
+  .atmo--hero .atmo__dots circle, .atmo--dark .atmo__dots circle { fill: rgba(159, 182, 218, 0.16); }
+  .atmo--light .atmo__dots circle { fill: rgba(37, 99, 212, 0.09); }
 </style>

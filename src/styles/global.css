@@ -165,15 +165,8 @@ img, svg { max-width: 100%; display: block; }
 .section--navy .hairline { background: rgba(255, 255, 255, 0.1); }
 
 /* ---- Scroll reveal (progressive enhancement) ---- */
-.js [data-reveal] { opacity: 0; transform: translateY(22px); }
-.js [data-reveal].is-in {
-  opacity: 1; transform: none;
-  transition: opacity .8s var(--ease), transform .8s var(--ease);
-}
-.js [data-reveal][data-delay="1"].is-in { transition-delay: .08s; }
-.js [data-reveal][data-delay="2"].is-in { transition-delay: .16s; }
-.js [data-reveal][data-delay="3"].is-in { transition-delay: .24s; }
-.js [data-reveal][data-delay="4"].is-in { transition-delay: .32s; }
+/* ---- Scroll reveal: DISABLED (text is always visible, no fade-in on scroll) ---- */
+.js [data-reveal], .js [data-reveal].is-in { opacity: 1; transform: none; }
 
 /* ---- Accessibility helpers ---- */
 .visually-hidden {
@@ -214,9 +207,12 @@ img, svg { max-width: 100%; display: block; }
   background-size: 160px 160px;
 }
 
-/* ---- Mask / curtain reveal (headings) ---- */
-.js [data-reveal="mask"] { opacity: 1; transform: none; clip-path: inset(0 0 110% 0); }
-.js [data-reveal="mask"].is-in { clip-path: inset(0 0 -8% 0); transition: clip-path 1s var(--ease); }
+/* ---- Mask / curtain reveal: DISABLED (headings always visible) ---- */
+.js [data-reveal="mask"] { opacity: 1; transform: none; clip-path: none; }
+
+/* ---- Section content sits above its code-drawn backdrop ---- */
+.section { overflow: hidden; }
+.section > .wrap { position: relative; z-index: 1; }
 
 /* ---- Custom cursor (desktop, fine pointer only) ---- */
 .cursor { position: fixed; top: 0; left: 0; z-index: 9000; pointer-events: none; opacity: 0; mix-blend-mode: difference; transition: opacity .3s ease; }
