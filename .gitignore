@@ -21,3 +21,6 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# local screenshot helper (needs puppeteer, dev-only)
+scripts/shot.mjs

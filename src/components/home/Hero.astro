@@ -1,6 +1,7 @@
 ---
 import Atmosphere from '../visual/Atmosphere.astro';
 import Diamond from '../visual/Diamond.astro';
+import IndustryLine from '../visual/IndustryLine.astro';
 import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 
@@ -15,6 +16,7 @@ const t = ui[lang];
   <div class="hero__stage">
     <Atmosphere variant="hero" />
     <span class="hero__cross" data-hero-cross aria-hidden="true"></span>
+    <IndustryLine />
 
     <div class="wrap hero__grid">
       <div class="hero__content">
