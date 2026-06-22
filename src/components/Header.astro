@@ -12,13 +12,13 @@ const { lang, path } = Astro.props;
 const t = ui[lang];
 
 const nav = [
-  { label: t.nav.catalog, href: localizePath('/catalog', lang) },
-  { label: t.nav.verify, href: localizePath('/how-we-verify', lang) },
-  { label: t.nav.buyers, href: localizePath('/buyers', lang) },
+  { label: t.nav.catalog, href: anchorHref('categories', lang) },
+  { label: t.nav.verify, href: anchorHref('verify', lang) },
+  { label: t.nav.buyers, href: anchorHref('ondemand', lang) },
   { label: t.nav.suppliers, href: localizePath('/suppliers', lang) },
   { label: t.nav.about, href: localizePath('/about', lang) },
   { label: t.nav.faq, href: localizePath('/faq', lang) },
-  { label: t.nav.contacts, href: localizePath('/contacts', lang) },
+  { label: t.nav.contacts, href: anchorHref('contacts', lang) },
 ];
 const ctaHref = anchorHref('ondemand', lang);
 ---
