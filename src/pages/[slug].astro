@@ -1,0 +1,27 @@
+---
+/* "Coming soon" placeholder pages (default locale, ru) for nav targets that don't have
+   a real page yet. noindex — reuses the 404 pattern + notfound copy. The detailed pages
+   (suppliers / about / faq / how-we-verify) are a later step. */
+import Base from '../layouts/Base.astro';
+import CenteredNotice from '../components/CenteredNotice.astro';
+import { ui } from '../i18n/ui';
+import { localizePath } from '../i18n/utils';
+
+type Slug = 'suppliers' | 'about' | 'faq' | 'how-we-verify';
+const NAV_KEY: Record<Slug, 'suppliers' | 'about' | 'faq' | 'verify'> = {
+  suppliers: 'suppliers', about: 'about', faq: 'faq', 'how-we-verify': 'verify',
+};
+
+export function getStaticPaths() {
+  return (['suppliers', 'about', 'faq', 'how-we-verify'] as Slug[]).map((slug) => ({ params: { slug }, props: { slug } }));
+}
+
+const { slug } = Astro.props as { slug: Slug };
+const lang = 'ru' as const;
+const t = ui[lang];
+const title = `${t.nav[NAV_KEY[slug]]} — Teranova Group`;
+---
+
+<Base lang={lang} path={`/${slug}`} title={title} description={t.notfound.body} noindex>
+  <CenteredNotice icon="soon" title={t.notfound.title} body={t.notfound.body} backHref={localizePath('/', lang)} backLabel={t.notfound.back} />
+</Base>

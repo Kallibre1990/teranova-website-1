@@ -1,0 +1,28 @@
+---
+/* "Coming soon" placeholder pages for the non-default locales (en, ko + machine locales).
+   Same content as the default-locale [slug].astro; noindex. */
+import Base from '../../layouts/Base.astro';
+import CenteredNotice from '../../components/CenteredNotice.astro';
+import { ui, defaultLang, languages, type Lang } from '../../i18n/ui';
+import { localizePath } from '../../i18n/utils';
+
+type Slug = 'suppliers' | 'about' | 'faq' | 'how-we-verify';
+const NAV_KEY: Record<Slug, 'suppliers' | 'about' | 'faq' | 'verify'> = {
+  suppliers: 'suppliers', about: 'about', faq: 'faq', 'how-we-verify': 'verify',
+};
+
+export function getStaticPaths() {
+  const slugs: Slug[] = ['suppliers', 'about', 'faq', 'how-we-verify'];
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .flatMap((lang) => slugs.map((slug) => ({ params: { lang, slug }, props: { lang, slug } })));
+}
+
+const { lang, slug } = Astro.props as { lang: Lang; slug: Slug };
+const t = ui[lang];
+const title = `${t.nav[NAV_KEY[slug]]} — Teranova Group`;
+---
+
+<Base lang={lang} path={`/${slug}`} title={title} description={t.notfound.body} noindex>
+  <CenteredNotice icon="soon" title={t.notfound.title} body={t.notfound.body} backHref={localizePath('/', lang)} backLabel={t.notfound.back} />
+</Base>
