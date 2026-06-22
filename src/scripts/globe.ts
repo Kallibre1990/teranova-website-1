@@ -22,12 +22,8 @@ const slerp = (a: V3, b: V3, t: number): V3 => {
 const KOREA = sphere(36.5, 127.8);
 const DESTS = [[43.2, 76.9], [55.75, 37.6], [41.0, 28.98], [50.1, 8.68], [40.7, -74.0], [25.2, 55.27], [1.35, 103.8]].map(([la, lo]) => sphere(la, lo));
 
-// dot grid
-const DOTS: V3[] = [];
-for (let lat = -84; lat <= 84; lat += 7) {
-  const step = 7 / Math.max(0.16, Math.cos((lat * Math.PI) / 180));
-  for (let lon = -180; lon < 180; lon += step) DOTS.push(sphere(lat, lon));
-}
+// Continents — a precomputed "dotted Earth" (Natural Earth land sampling), loaded async.
+let LAND: V3[] = [];
 // graticule polylines (meridians + parallels)
 const LINES: V3[][] = [];
 for (let lon = -150; lon <= 180; lon += 30) { const l: V3[] = []; for (let lat = -90; lat <= 90; lat += 4) l.push(sphere(lat, lon)); LINES.push(l); }
@@ -66,19 +62,20 @@ function initGlobe(canvas: HTMLCanvasElement) {
         const s = px(p);
         if (!started) { ctx!.moveTo(s.x, s.y); started = true; } else ctx!.lineTo(s.x, s.y);
       }
-      ctx!.strokeStyle = 'rgba(58,74,100,0.28)';
+      ctx!.strokeStyle = 'rgba(64,80,108,0.16)';
       ctx!.stroke();
     }
 
-    // dots — fine steel engraving on the silver surface (clearer toward the viewer)
-    for (const d of DOTS) {
+    // continents — darker steel dots on the silver ocean (denser/clearer toward viewer)
+    ctx!.fillStyle = 'rgb(28,44,70)';
+    for (const d of LAND) {
       const p = view(d);
       if (p.z <= 0) continue;
       const s = px(p);
       const m = p.z;
-      ctx!.globalAlpha = 0.14 + 0.32 * m;
-      ctx!.fillStyle = 'rgb(52,68,94)';
-      ctx!.beginPath(); ctx!.arc(s.x, s.y, 0.8 + 1.3 * m, 0, 7); ctx!.fill();
+      ctx!.globalAlpha = 0.4 + 0.46 * m;
+      const sz = 1.0 + 1.4 * m;
+      ctx!.fillRect(s.x - sz / 2, s.y - sz / 2, sz, sz);
     }
     ctx!.globalAlpha = 1;
 
@@ -133,6 +130,19 @@ function initGlobe(canvas: HTMLCanvasElement) {
 
   new ResizeObserver(resize).observe(canvas);
   requestAnimationFrame(resize);
+
+  // Load the dotted-Earth land data once, then (re)draw so continents appear.
+  if (!LAND.length) {
+    fetch('/data/land-dots.json')
+      .then((r) => r.json())
+      .then((flat: number[]) => {
+        const pts: V3[] = [];
+        for (let i = 0; i + 1 < flat.length; i += 2) pts.push(sphere(flat[i], flat[i + 1]));
+        LAND = pts;
+        draw(performance.now());
+      })
+      .catch(() => {});
+  }
 
   const io = new IntersectionObserver((es) => {
     for (const e of es) {
