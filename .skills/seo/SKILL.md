@@ -17,19 +17,23 @@ description: SEO + locked content rules for the Teranova site (titles/meta, Open
 
 ## Crawlability
 - `@astrojs/sitemap` → `sitemap-index.xml`. `public/robots.txt` allows all + links the sitemap.
-- Real paths (not hash routing). Ready for Google Search Console + Yandex Webmaster + Naver. (Baidu/China is out of scope here.)
-- Targets: Lighthouse SEO 100, Perf ≥ 90 mobile, A11y ≥ 95. Keep JS minimal, fonts `display=swap`, media lazy.
+- **9 languages, but only ru/en/ko are indexed.** hreflang alternates and sitemap entries
+  cover ru/en/ko only. The 6 machine-translated locales (zh/ja/it/de/fr/tr) are served with
+  `noindex` and excluded from the sitemap until a native speaker proofreads them.
+- Real paths (not hash routing). Ready for Google Search Console + Yandex Webmaster + Naver.
+- Targets: Lighthouse SEO 100, Perf ≥ 85 mobile, A11y ≥ 95. Keep JS minimal, fonts `display=swap`.
 
-## LOCKED content rules — follow to the letter (any language)
-1. The word **“guarantee/гарантия/보증”** is **forbidden**. We **“coordinate and support”** (координируем и сопровождаем) — never guarantee.
-2. Two verification statuses, a **documented fact, not a quality assessment**:
-   “Проверено — личный визит” / “Verified — site visit” and
-   “Данные предоставлены компанией” / “Company-provided data”.
-3. **Demand-first**: keep the “on demand / под заказ” block with a request form.
-4. **Presence** on the ground: **Korea, Japan, China, Türkiye**; other directions **on request**.
-   Do **not** use the word “office” where there is no office (only Korea/Busan is the base).
-5. **Transport**: commercial / passenger transport / special vehicles + parts = in scope.
-   Ordinary consumer passenger cars = **out** of scope.
-6. **Legal / contacts**: Teranova Group, Busan; `info@teranovagroup.com`; `+82-10-2286-0969`.
-   Footer line: **“joint brand of AIA Group Ltd and Teranova Group Ltd.”**
-7. Catalog data is currently **DEMO** — label it as such; prices are average indicative (EXW), not an offer.
+## LOCKED content rules — the binding source is `docs/CONTENT-RULES.md`
+1. The word **“guarantee / гарантия”** (and equivalents in any language) is **forbidden**.
+   We **“coordinate and support”** — verification is a documented fact, not a guarantee.
+2. Two verification statuses (fixed wording): «Проверено — личный визит» /
+   «Данные предоставлены компанией». A documented fact, not a promise of outcome.
+3. **RU = Russian only** — no English words, especially in category names.
+4. **Never mention “Busan”** — just “Korea”. Presence on the ground: Korea · Japan · China ·
+   Türkiye; other regions on request. Buyer markets: CIS · Europe · Türkiye · USA · Asia.
+5. **Transport**: commercial / passenger / special vehicles + parts = yes; consumer cars = never.
+6. **Honesty**: no invented numbers (clients/years/awards), company names, prices, laws, certs.
+7. **Legal / contacts**: `info@teranovagroup.com`, `+82-10-2286-0969`.
+   Footer: **“Teranova Group — joint brand of AIA Group Ltd and Teranova Group Ltd.”**
+8. **Demand-first**: keep the “На заказ / On demand” block with a working form.
+9. No sanctions / export-control / compliance topics on the public site.

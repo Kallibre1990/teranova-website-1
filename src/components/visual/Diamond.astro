@@ -1,0 +1,58 @@
+---
+/* The brand diamond (two triangles = "two sides that meet"), built large and
+   layered for a 3D-ish depth — per docs/IMAGERY.md. Pure SVG/CSS, no photos. */
+interface Props {
+  class?: string;
+}
+const { class: cls = '' } = Astro.props;
+---
+
+<div class:list={['diamond', cls]} aria-hidden="true">
+  <svg viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="d-left" x1="80" y1="200" x2="320" y2="580" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#eef3fa"></stop>
+        <stop offset="1" stop-color="#9fb1ca"></stop>
+      </linearGradient>
+      <linearGradient id="d-right" x1="320" y1="60" x2="560" y2="420" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#3f7ae0"></stop>
+        <stop offset="1" stop-color="#1b439e"></stop>
+      </linearGradient>
+      <radialGradient id="d-glow" cx="50%" cy="46%" r="55%">
+        <stop offset="0%" stop-color="#2563d4" stop-opacity="0.55"></stop>
+        <stop offset="70%" stop-color="#2563d4" stop-opacity="0"></stop>
+      </radialGradient>
+    </defs>
+
+    <!-- glow -->
+    <ellipse class="d-glow" cx="320" cy="300" rx="300" ry="300" fill="url(#d-glow)"></ellipse>
+
+    <!-- depth echoes -->
+    <g class="d-echo" stroke="#6b82a8" stroke-opacity="0.22" stroke-width="1.5" fill="none">
+      <polygon points="320,8 8,320 320,632 632,320"></polygon>
+      <polygon points="320,64 64,320 320,576 576,320"></polygon>
+    </g>
+
+    <!-- drop layer (depth) -->
+    <polygon class="d-drop" points="320,86 104,320 320,554 536,320" fill="#0a1730" opacity="0.55"></polygon>
+
+    <!-- faces -->
+    <polygon class="d-face" points="320,60 80,320 320,580" fill="url(#d-left)"></polygon>
+    <polygon class="d-face" points="320,60 560,320 320,580" fill="url(#d-right)"></polygon>
+
+    <!-- seam + outline + lit edge -->
+    <line x1="320" y1="60" x2="320" y2="580" stroke="#ffffff" stroke-width="5" stroke-opacity="0.9"></line>
+    <polygon points="320,60 80,320 320,580 560,320" stroke="#cbd4e0" stroke-opacity="0.6" stroke-width="2" fill="none"></polygon>
+    <path d="M320 60 L80 320" stroke="#9fc0f0" stroke-width="2.5" stroke-opacity="0.8" fill="none"></path>
+  </svg>
+</div>
+
+<style>
+  .diamond { position: relative; width: 100%; height: 100%; display: grid; place-items: center; }
+  .diamond svg { width: 100%; height: auto; max-width: 100%; overflow: visible; filter: drop-shadow(0 30px 60px rgba(3, 10, 24, 0.5)); }
+  .d-glow { animation: d-pulse 7s ease-in-out infinite; transform-origin: center; }
+  .d-echo { animation: d-spin 60s linear infinite; transform-origin: 320px 320px; }
+  @keyframes d-pulse { 0%, 100% { opacity: 0.85; } 50% { opacity: 1; } }
+  @keyframes d-spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .d-glow, .d-echo { animation: none; } }
+</style>

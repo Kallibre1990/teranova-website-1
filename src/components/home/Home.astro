@@ -1,10 +1,12 @@
 ---
 import Hero from './Hero.astro';
-import Verify from './Verify.astro';
+import Marquee from '../Marquee.astro';
 import Categories from './Categories.astro';
+import Verify from './Verify.astro';
 import OnDemand from './OnDemand.astro';
 import Presence from './Presence.astro';
 import HowItWorks from './HowItWorks.astro';
+import CtaSection from './CtaSection.astro';
 import type { Lang } from '../../i18n/ui';
 
 interface Props {
@@ -14,8 +16,10 @@ const { lang } = Astro.props;
 ---
 
 <Hero lang={lang} />
-<Verify lang={lang} />
+<Marquee lang={lang} />
 <Categories lang={lang} />
+<Verify lang={lang} />
 <OnDemand lang={lang} />
 <Presence lang={lang} />
 <HowItWorks lang={lang} />
+<CtaSection lang={lang} />

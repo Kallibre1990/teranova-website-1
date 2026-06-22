@@ -12,11 +12,10 @@ export function homeJsonLd(lang: Lang) {
       '@type': 'Organization',
       name: 'Teranova Group',
       url: base + '/',
-      logo: base + '/brand/icon-mark.svg',
+      logo: base + '/brand/teranova-icon-dark.svg',
       description: t.meta.home_desc,
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Busan',
         addressCountry: 'KR',
       },
       contactPoint: [

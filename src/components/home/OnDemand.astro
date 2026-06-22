@@ -1,7 +1,7 @@
 ---
+import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-
 interface Props {
   lang: Lang;
 }
@@ -11,10 +11,10 @@ const action = localizePath('/thanks', lang);
 ---
 
 <section class="section section--navy ondemand" id="ondemand">
-  <div class="hairline-top" aria-hidden="true"></div>
+  <Atmosphere variant="dark" />
   <div class="wrap ondemand__grid">
     <div class="ondemand__intro" data-reveal>
-      <span class="eyebrow">{t.ondemand.eyebrow}</span>
+      <span class="sup sup--light">( {t.ondemand.sup} )</span>
       <h2 class="h-section">{t.ondemand.title}</h2>
       <p class="sub-section">{t.ondemand.sub}</p>
       <ul class="ondemand__points">
@@ -31,19 +31,9 @@ const action = localizePath('/thanks', lang);
 
     <div class="ondemand__formwrap" data-reveal data-delay="1">
       <h3 class="ondemand__form-title">{t.ondemand.form_title}</h3>
-      <form
-        class="oform"
-        name="on-demand"
-        method="POST"
-        action={action}
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-      >
+      <form class="oform" name="on-demand" method="POST" action={action} data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="on-demand" />
-        <p class="oform__hp" hidden>
-          <label>Leave this field empty: <input name="bot-field" /></label>
-        </p>
-
+        <p class="oform__hp" hidden><label>Leave empty: <input name="bot-field" /></label></p>
         <div class="oform__grid">
           <div class="fgrp">
             <label for="od-company">{t.form.company}</label>
@@ -78,7 +68,6 @@ const action = localizePath('/thanks', lang);
             <textarea id="od-comment" name="comment" rows="3" placeholder={t.form.ph_comment}></textarea>
           </div>
         </div>
-
         <button class="btn btn--primary oform__submit" type="submit">{t.form.submit}</button>
         <p class="oform__hint">{t.form.required_hint}</p>
       </form>
@@ -88,38 +77,25 @@ const action = localizePath('/thanks', lang);
 
 <style>
   .ondemand { position: relative; }
-  .hairline-top { position: absolute; top: 0; left: 0; right: 0; height: 1px; background: rgba(255, 255, 255, 0.08); }
-  .ondemand__grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: 56px; align-items: start; }
+  .ondemand__grid { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1.05fr; gap: 56px; align-items: start; }
   .ondemand__points { display: flex; flex-direction: column; gap: 13px; margin-top: 28px; }
-  .ondemand__points li { display: flex; gap: 12px; align-items: flex-start; font-size: 0.96rem; color: var(--silver); line-height: 1.5; }
+  .ondemand__points li { display: flex; gap: 12px; align-items: flex-start; font-size: 0.98rem; color: var(--silver); line-height: 1.5; }
   .ondemand__points svg { color: var(--cobalt-light); flex-shrink: 0; margin-top: 2px; }
 
-  .ondemand__formwrap {
-    background: var(--surface); color: var(--ink);
-    border-radius: var(--r-xl); padding: clamp(24px, 3vw, 36px);
-    box-shadow: var(--sh-l);
-  }
+  .ondemand__formwrap { background: var(--surface); color: var(--ink); border-radius: var(--r-xl); padding: clamp(24px, 3vw, 36px); box-shadow: var(--sh-l); }
   .ondemand__form-title { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 22px; }
   .oform__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .fgrp { display: flex; flex-direction: column; gap: 6px; }
   .fgrp--full { grid-column: 1 / -1; }
   .fgrp label { font-size: 0.8rem; font-weight: 700; color: var(--ink); }
   .req { color: var(--cobalt); }
-  .oform input, .oform textarea {
-    border: 1px solid var(--line-2); border-radius: var(--r); background: #fff;
-    padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%;
-    transition: border-color .2s, box-shadow .2s;
-  }
+  .oform input, .oform textarea { border: 1px solid var(--line-2); border-radius: var(--r); background: #fff; padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%; transition: border-color .2s, box-shadow .2s; }
   .oform input::placeholder, .oform textarea::placeholder { color: #a9b6c8; }
   .oform input:focus, .oform textarea:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px var(--cobalt-soft); }
   .oform textarea { resize: vertical; min-height: 84px; }
   .oform__submit { width: 100%; margin-top: 20px; }
   .oform__hint { font-size: 0.78rem; color: var(--faint); line-height: 1.5; margin-top: 12px; }
 
-  @media (max-width: 880px) {
-    .ondemand__grid { grid-template-columns: 1fr; gap: 36px; }
-  }
-  @media (max-width: 460px) {
-    .oform__grid { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 880px) { .ondemand__grid { grid-template-columns: 1fr; gap: 36px; } }
+  @media (max-width: 460px) { .oform__grid { grid-template-columns: 1fr; } }
 </style>

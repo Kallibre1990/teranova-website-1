@@ -34,10 +34,12 @@ Hero / display headings use the silver gradient via `background-clip:text`:
 phrase and large stat numbers — not body copy.
 
 ## Logo
-- Rendered by `src/components/Logo.astro` (inline mark + Manrope wordmark), `variant="light"` on dark, `variant="dark"` on light.
-- Final files go in `/public/brand/`: `teranova-logo-light.svg` (dark bg),
-  `teranova-logo-dark.svg` (light bg), `icon-mark.svg`. Current files are placeholders.
-- **Never** stretch the logo; keep clear space; light-on-dark / dark-on-light only.
+- **Real assets** in `/public/brand/`: `teranova-logo-light.svg` (white wordmark, for dark
+  backgrounds), `teranova-logo-dark.svg` (navy wordmark, for light), `teranova-icon-light/dark.svg`.
+- Rendered by `src/components/Logo.astro` (uses the real SVGs; `variant="light"` on dark, `dark` on light).
+- **Motif:** a **diamond of two triangles** = "two sides that meet" (a bridge/exchange).
+  Used large + layered as a 3D-ish hero element — `src/components/visual/Diamond.astro`.
+- **Never** stretch or recolor the logo; keep clear space; light-on-dark / dark-on-light only.
 
 ## Depth & shape
 - Layered panels, soft shadows (`--sh-s/m/l`), hairline dividers (`.hairline`), rounded radii (`--r`, `--r-lg`, `--r-xl`).

@@ -190,6 +190,30 @@ img, svg { max-width: 100%; display: block; }
 /* Korean: slightly tighten heading tracking */
 :lang(ko) .h-section, :lang(ko) .hero__title { letter-spacing: -0.01em; }
 
+/* ---- Superheading "( … )" ---- */
+.sup {
+  display: inline-block; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--cobalt); margin-bottom: 16px;
+}
+.sup--light, .section--navy .sup { color: var(--cobalt-light); }
+
+/* ---- Living light backgrounds (not flat fills) ---- */
+.section--field {
+  position: relative;
+  background: radial-gradient(78% 60% at 85% -5%, rgba(37, 99, 212, 0.06), transparent 60%), var(--bg);
+}
+.section--alt {
+  position: relative;
+  background: radial-gradient(70% 60% at 12% -5%, rgba(37, 99, 212, 0.05), transparent 55%), var(--bg-alt);
+}
+
+/* ---- Film grain overlay (static, GPU-cheap) ---- */
+.grain {
+  position: absolute; inset: 0; pointer-events: none; opacity: 0.05; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .js [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }

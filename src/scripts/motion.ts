@@ -1,12 +1,13 @@
-/* Motion island: smooth scroll + reveal + light parallax.
-   Loaded as a deferred module. Everything degrades gracefully and
-   fully respects prefers-reduced-motion (no smoothing, no parallax,
-   content shown immediately). */
+/* Motion island: Lenis smooth scroll + GSAP ScrollTrigger parallax/zoom + reveals.
+   Everything is scrub/transform-based (no layout-changing pins) and fully disabled
+   under prefers-reduced-motion. Works with JS off (content is static HTML). */
 import Lenis from 'lenis';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-/* 1) Reveal on scroll ----------------------------------------------------- */
+/* 1) Reveal on scroll — robust IntersectionObserver, independent of GSAP. */
 const revealEls = document.querySelectorAll<HTMLElement>('[data-reveal]');
 if (revealEls.length) {
   if (reduce || !('IntersectionObserver' in window)) {
@@ -14,10 +15,10 @@ if (revealEls.length) {
   } else {
     const io = new IntersectionObserver(
       (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-in');
-            io.unobserve(entry.target);
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-in');
+            io.unobserve(e.target);
           }
         }
       },
@@ -27,50 +28,83 @@ if (revealEls.length) {
   }
 }
 
-/* 2) Hero parallax -------------------------------------------------------- */
-const parallaxEls = Array.from(document.querySelectorAll<HTMLElement>('[data-parallax]'));
-function applyParallax(scroll: number) {
-  for (const el of parallaxEls) {
-    const speed = parseFloat(el.dataset.parallax || '0');
-    el.style.transform = `translate3d(0, ${(scroll * speed).toFixed(2)}px, 0)`;
-  }
-}
-
-/* 3) Smooth scroll (Lenis) ------------------------------------------------ */
+/* 2) Smooth scroll + parallax/zoom (skipped entirely under reduced-motion) */
 if (!reduce) {
-  const lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
-  const raf = (time: number) => {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  };
-  requestAnimationFrame(raf);
-  lenis.on('scroll', (e: { scroll: number }) => applyParallax(e.scroll));
+  gsap.registerPlugin(ScrollTrigger);
 
-  // In-page anchor links -> smooth scroll with header offset
+  const lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add((time) => lenis.raf(time * 1000));
+  gsap.ticker.lagSmoothing(0);
+
+  // In-page anchors -> smooth scroll (skip the a11y skip-link)
   document.querySelectorAll<HTMLAnchorElement>('a[href*="#"]').forEach((a) => {
-    if (a.classList.contains('skip-link')) return; // keep native jump + focus
+    if (a.classList.contains('skip-link')) return;
     const url = new URL(a.href, location.href);
     if (url.pathname === location.pathname && url.hash.length > 1) {
       const target = document.querySelector(url.hash);
       if (!target) return;
       a.addEventListener('click', (ev) => {
         ev.preventDefault();
-        lenis.scrollTo(target as HTMLElement, { offset: -84 });
+        lenis.scrollTo(target as HTMLElement, { offset: -80 });
         history.replaceState(null, '', url.hash);
       });
     }
   });
-} else {
-  applyParallax(0);
+
+  // Layered parallax for [data-parallax] (drift through their section)
+  gsap.utils.toArray<HTMLElement>('[data-parallax]').forEach((el) => {
+    const speed = parseFloat(el.dataset.parallax || '0');
+    if (!speed) return;
+    gsap.to(el, {
+      yPercent: speed * 100,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: el.closest('section') ?? el,
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: true,
+      },
+    });
+  });
+
+  // Hero diamond: gentle zoom + drift; content lifts and softens as you scroll past.
+  const art = document.querySelector('[data-hero-art]');
+  if (art) {
+    gsap.to(art, {
+      scale: 1.16,
+      yPercent: 12,
+      ease: 'none',
+      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true },
+    });
+  }
+  const heroContent = document.querySelector('.hero__content');
+  if (heroContent) {
+    gsap.to(heroContent, {
+      yPercent: -6,
+      opacity: 0.2,
+      ease: 'none',
+      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true },
+    });
+  }
+  // Background cross-fade during the pinned hero ("falling through" to the next layer).
+  const cross = document.querySelector('[data-hero-cross]');
+  if (cross) {
+    gsap.fromTo(
+      cross,
+      { opacity: 0 },
+      { opacity: 1, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } },
+    );
+  }
+
+  window.addEventListener('load', () => ScrollTrigger.refresh());
 }
 
-/* 4) Back-to-top ---------------------------------------------------------- */
+/* 3) Back-to-top */
 const toTop = document.getElementById('toTop');
 if (toTop) {
   const onScroll = () => toTop.classList.toggle('show', window.scrollY > 600);
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
-  toTop.addEventListener('click', () =>
-    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }),
-  );
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }));
 }

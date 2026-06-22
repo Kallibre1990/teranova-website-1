@@ -51,7 +51,7 @@ const year = new Date().getFullYear();
     <hr class="hairline" />
     <div class="footer__bottom">
       <p class="footer__disc">{t.footer.disclaimer}</p>
-      <p class="footer__rights">© {year} Teranova Group · AIA Group Ltd.</p>
+      <p class="footer__rights">© {year} Teranova Group</p>
     </div>
   </div>
 </footer>
@@ -59,7 +59,7 @@ const year = new Date().getFullYear();
 <style>
   .site-footer { background: var(--navy); color: #fff; padding: clamp(56px, 7vw, 80px) 0 30px; }
   .footer__grid { display: grid; grid-template-columns: 2fr 1fr 1.2fr; gap: 48px; margin-bottom: 40px; }
-  .footer__blurb { font-size: 0.9rem; color: var(--silver); line-height: 1.65; max-width: 320px; margin: 18px 0 14px; }
+  .footer__blurb { font-size: 0.9rem; color: var(--silver); line-height: 1.65; max-width: 340px; margin: 18px 0 14px; }
   .footer__joint { font-size: 0.82rem; color: var(--silver-muted); }
   .footer__title { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.45); margin-bottom: 16px; }
   .footer__links, .footer__contacts { display: flex; flex-direction: column; gap: 11px; }
@@ -69,12 +69,6 @@ const year = new Date().getFullYear();
   .footer__bottom { display: flex; flex-direction: column; gap: 12px; }
   .footer__disc { font-size: 0.78rem; color: var(--silver-muted); line-height: 1.6; max-width: 900px; }
   .footer__rights { font-size: 0.78rem; color: rgba(255, 255, 255, 0.4); }
-
-  @media (max-width: 880px) {
-    .footer__grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-    .footer__brand { grid-column: 1 / -1; }
-  }
-  @media (max-width: 520px) {
-    .footer__grid { grid-template-columns: 1fr; gap: 28px; }
-  }
+  @media (max-width: 880px) { .footer__grid { grid-template-columns: 1fr 1fr; gap: 32px; } .footer__brand { grid-column: 1 / -1; } }
+  @media (max-width: 520px) { .footer__grid { grid-template-columns: 1fr; gap: 28px; } }
 </style>
