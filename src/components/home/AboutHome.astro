@@ -1,12 +1,15 @@
 ---
+import { Image } from 'astro:assets';
 import { localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
+import { assetPhoto } from '../../data/assetPhoto';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
 const a = t.about_home;
+const photo = assetPhoto('about', 'about-home');
 ---
 
 <section class="section section--alt abouth" id="about-home">
@@ -22,13 +25,19 @@ const a = t.about_home;
     </div>
 
     <div class="abouth__media">
-      <div class="photo-slot" role="img" aria-label={a.photo_note}>
-        <svg class="photo-slot__glyph" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
-          <path d="M60 8 L112 52 L60 112 L8 52 Z" />
-          <path d="M8 52 H112 M60 8 L42 52 M60 8 L78 52 M60 112 L42 52 M60 112 L78 52" stroke-width="1.4" opacity="0.6" />
-        </svg>
-        <span class="photo-slot__note">{a.photo_note}</span>
-      </div>
+      {
+        photo ? (
+          <Image class="abouth__photo" src={photo} alt={a.photo_note} widths={[480, 960]} sizes="(max-width: 880px) 92vw, 460px" format="webp" loading="lazy" decoding="async" />
+        ) : (
+          <div class="photo-slot" role="img" aria-label={a.photo_note}>
+            <svg class="photo-slot__glyph" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
+              <path d="M60 8 L112 52 L60 112 L8 52 Z" />
+              <path d="M8 52 H112 M60 8 L42 52 M60 8 L78 52 M60 112 L42 52 M60 112 L78 52" stroke-width="1.4" opacity="0.6" />
+            </svg>
+            <span class="photo-slot__note">{a.photo_note}</span>
+          </div>
+        )
+      }
     </div>
   </div>
 </section>
@@ -36,6 +45,8 @@ const a = t.about_home;
 <style>
   .abouth__grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; }
   .abouth__link { margin-top: 22px; }
+
+  .abouth__photo { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r-xl); border: 1px solid var(--navy-3); box-shadow: var(--sh-l); display: block; }
 
   .photo-slot {
     position: relative; aspect-ratio: 4 / 3; border-radius: var(--r-xl); overflow: hidden;
