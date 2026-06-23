@@ -8,6 +8,8 @@ const de: DeepPartial<UIDict> = {
     buyers: "Auf Anfrage",
     suppliers: "Für Lieferanten",
     about: "Über uns",
+    team: "Team",
+    tenders: "Ausschreibungen",
     faq: "FAQ",
     contacts: "Kontakt",
   },
@@ -21,6 +23,8 @@ const de: DeepPartial<UIDict> = {
     switch_lang: "Sprache",
     scroll: "Nach unten scrollen",
     loading: "Wird geladen",
+    prev: "Zurück",
+    next: "Weiter",
   },
 
   meta: {
@@ -53,7 +57,7 @@ const de: DeepPartial<UIDict> = {
     intro:
       "Jeder Lieferant hat einen Status. Das ist eine dokumentierte Tatsache, kein Versprechen eines Ergebnisses — wir koordinieren und begleiten das Geschäft.",
     card_visited_t: "Geprüft — Besuch vor Ort",
-    card_visited_d: "Der Gründer war persönlich im Werk — mit Fotos und Besuchsdatum.",
+    card_visited_d: "Ein Mitarbeiter war persönlich im Werk — mit Fotos und Besuchsdatum.",
     card_provided_t: "Vom Unternehmen bereitgestellte Daten",
     card_provided_d: "Vom Lieferanten bereitgestellte Informationen — ein persönlicher Besuch hat noch nicht stattgefunden.",
     note: "Die Qualitätsbedingungen werden im Vertrag mit dem Lieferanten festgelegt. Persönliche Kontaktdaten der Lieferanten veröffentlichen wir nicht — die gesamte Kommunikation läuft über Teranova.",
@@ -65,6 +69,7 @@ const de: DeepPartial<UIDict> = {
     title: "Was wir aus Korea liefern",
     sub: "Der Katalog enthält das, was wir bereits geprüft haben. Was nicht dabei ist, beschaffen wir auf Anfrage. Nutz-, Personen- und Spezialfahrzeuge sind ein eigener Bereich; Pkw für Endverbraucher liegen außerhalb unseres Profils.",
     demo_note: "Der Katalog wird befüllt — einige Daten dienen derzeit nur zur Veranschaulichung.",
+    more: "Mehr erfahren",
     groups: [
       { key: "marine", name: "Schiffsausrüstung", blurb: "Vollständige Ausrüstung für Schiffe und Werften.", items: ["Motoren & Ersatzteile", "Deckausrüstung", "Propeller, Ruder, Strahlruder", "Navigation & Kommunikation", "Rettungs- & Brandschutztechnik", "Lacke & Beschichtungen"] },
       { key: "cosmetics", name: "Kosmetik & Pflege (OEM/ODM)", blurb: "Koreanische Kosmetik und Auftragsfertigung unter Ihrer Marke.", items: ["Hautpflege", "Seren & Ampullen", "Sonnenschutz (SPF)", "Tuchmasken & Patches", "dekorative Kosmetik", "Kosmetikverpackungen"] },
@@ -72,6 +77,7 @@ const de: DeepPartial<UIDict> = {
       { key: "industrial", name: "Industrieausrüstung", blurb: "Werkzeugmaschinen, Automatisierung und Komponenten für die Fertigung.", items: ["CNC-Maschinen", "Laser- & Plasmaschneiden", "Industrieroboter", "Hydraulik & Pneumatik", "Pumpen & Ventile", "Formen & Werkzeuge"] },
       { key: "transport", name: "Nutz- und Spezialfahrzeuge", blurb: "Fracht-, Personen- und Spezialfahrzeuge samt Teilen.", items: ["Lkw & Sattelzugmaschinen", "Busse", "Baumaschinen", "Landmaschinen", "Spezialfahrzeuge", "Anhänger, Reifen, Batterien"] },
       { key: "adjacent", name: "Angrenzende Branchen", blurb: "Breite Abdeckung von Nischen, in denen Korea stark ist.", items: ["Baustoffe", "Lebensmittel & Verpackung", "Wasseraufbereitung & Ökologie", "Energie & erneuerbare Energien", "Industrieelektronik & LED", "technische Textilien"] },
+      { key: "chemical", name: "Chemie & Materialien", blurb: "Chemische Rohstoffe, Polymere und Industriematerialien.", items: ["chemische Rohstoffe & Reagenzien", "Kunststoffe & Polymere", "Gummi", "Lacke & Beschichtungen", "Klebstoffe & Dichtstoffe", "Düngemittel & Agrochemikalien"] },
     ],
   },
 
@@ -159,6 +165,28 @@ const de: DeepPartial<UIDict> = {
     disclaimer:
       "Der Katalog wird befüllt; einige Daten dienen der Veranschaulichung. Preise sind Richtwerte und stellen kein Angebot dar. Die Teranova Group koordiniert und begleitet Geschäfte über vertrauenswürdige Partner und ist kein Hersteller.",
     rights: "© 2025 Teranova Group",
+  },
+
+  about_home: {
+    sup: "Über uns",
+    title: "Echte Menschen und persönliche Werksbesuche",
+    body: "Teranova findet Hersteller in Korea, prüft sie — bis hin zum persönlichen Besuch vor Ort im Werk — und führt das Geschäft von der ersten Anfrage bis zum Erhalt der Ware. Ein verantwortlicher Partner statt einer Kette von Zwischenhändlern.",
+    photo_note: "Hier kommen echte Fotos hin: das Team und die Werksbesuche.",
+    cta: "Mehr über das Unternehmen",
+  },
+
+  tenders_home: {
+    sup: "Ausschreibungen",
+    title: "Ausschreibungen & Beschaffung schlüsselfertig",
+    body: "Wir beschaffen koreanische Hersteller für Ihre Ausschreibung oder Ihr Angebotsersuchen, helfen bei der Vorbereitung des Angebots und begleiten die Lieferung.",
+    cta: "Ausschreibungsanfrage senden",
+  },
+
+  team_home: {
+    sup: "Team",
+    title: "Hinter jedem Geschäft stehen echte Menschen",
+    body: "Die Geschäftsleitung und die Manager, die sich persönlich um Beschaffung, Prüfung und Lieferung kümmern.",
+    cta: "Das Team kennenlernen",
   },
 };
 

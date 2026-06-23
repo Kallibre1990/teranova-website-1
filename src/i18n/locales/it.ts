@@ -10,6 +10,8 @@ const it: DeepPartial<UIDict> = {
     about: "Chi siamo",
     faq: "FAQ",
     contacts: "Contatti",
+    team: "Team",
+    tenders: "Gare d'appalto",
   },
 
   common: {
@@ -21,6 +23,8 @@ const it: DeepPartial<UIDict> = {
     switch_lang: "Lingua",
     scroll: "Scorri verso il basso",
     loading: "Caricamento",
+    prev: "Precedente",
+    next: "Successivo",
   },
 
   meta: {
@@ -53,7 +57,7 @@ const it: DeepPartial<UIDict> = {
     intro:
       "Ogni fornitore ha uno stato. È un fatto documentato, non una promessa di risultato — coordiniamo e seguiamo la trattativa.",
     card_visited_t: "Verificato — visita in loco",
-    card_visited_d: "Il fondatore è stato di persona in fabbrica — con foto e data della visita.",
+    card_visited_d: "Un membro del team ha visitato di persona la fabbrica — con foto e data della visita.",
     card_provided_t: "Dati forniti dall'azienda",
     card_provided_d: "Informazioni fornite dal fornitore — una visita di persona non è ancora avvenuta.",
     note: "Le condizioni di qualità sono fissate nel contratto con il fornitore. Non pubblichiamo i contatti personali dei fornitori — ogni comunicazione passa attraverso Teranova.",
@@ -65,6 +69,7 @@ const it: DeepPartial<UIDict> = {
     title: "Cosa forniamo dalla Corea",
     sub: "Il catalogo è ciò che abbiamo già verificato. Ciò che non c'è — lo cerchiamo su richiesta. I veicoli commerciali, passeggeri e speciali sono una direzione a parte; le auto di consumo sono fuori ambito.",
     demo_note: "Il catalogo è in fase di popolamento — al momento alcuni dati sono dimostrativi.",
+    more: "Scopri di più",
     groups: [
       { key: "marine", name: "Forniture navali", blurb: "Fornitura completa per navi e cantieri navali.", items: ["motori e ricambi", "attrezzature di coperta", "eliche, timoni, propulsori", "navigazione e comunicazioni", "salvataggio e antincendio", "vernici e rivestimenti"] },
       { key: "cosmetics", name: "Cosmetica e cura (OEM/ODM)", blurb: "Cosmetica coreana e produzione conto terzi con il vostro marchio.", items: ["cura della pelle", "sieri e fiale", "protezione solare (SPF)", "maschere in tessuto e patch", "cosmetica colorata", "packaging cosmetico"] },
@@ -72,6 +77,7 @@ const it: DeepPartial<UIDict> = {
       { key: "industrial", name: "Attrezzature industriali", blurb: "Macchine utensili, automazione e componenti per la produzione.", items: ["macchine CNC", "taglio laser e plasma", "robot industriali", "oleodinamica e pneumatica", "pompe e valvole", "stampi e utensili"] },
       { key: "transport", name: "Veicoli commerciali e speciali", blurb: "Veicoli da trasporto, passeggeri e speciali con ricambi.", items: ["camion e trattori stradali", "autobus", "macchine da cantiere", "macchine agricole", "veicoli speciali", "rimorchi, pneumatici, batterie"] },
       { key: "adjacent", name: "Settori affini", blurb: "Ampia copertura delle nicchie in cui la Corea è forte.", items: ["materiali da costruzione", "alimentare e packaging", "trattamento delle acque ed ecologia", "energia e rinnovabili", "elettronica industriale e LED", "tessili tecnici"] },
+      { key: "chemical", name: "Chimica e materiali", blurb: "Materie prime chimiche, polimeri e materiali industriali.", items: ["materie prime chimiche e reagenti", "plastiche e polimeri", "gomma", "vernici e rivestimenti", "adesivi e sigillanti", "fertilizzanti e agrofarmaci"] },
     ],
   },
 
@@ -159,6 +165,28 @@ const it: DeepPartial<UIDict> = {
     disclaimer:
       "Il catalogo è in fase di popolamento; alcuni dati sono dimostrativi. I prezzi sono indicativi e non costituiscono un'offerta. Teranova Group coordina e segue le trattative tramite partner di fiducia e non è un produttore.",
     rights: "© 2025 Teranova Group",
+  },
+
+  about_home: {
+    sup: "Chi siamo",
+    title: "Persone reali e visite personali alle fabbriche",
+    body: "Teranova trova produttori in Corea, li verifica — fino a una visita personale in loco presso la fabbrica — e segue la trattativa dalla prima richiesta fino alla ricezione della merce. Un unico partner responsabile invece di una catena di intermediari.",
+    photo_note: "Qui andranno foto reali: il team e le visite alle fabbriche.",
+    cta: "Scopri di più sull'azienda",
+  },
+
+  tenders_home: {
+    sup: "Gare d'appalto",
+    title: "Gare d'appalto e approvvigionamento chiavi in mano",
+    body: "Individuiamo produttori coreani per la vostra gara o richiesta di offerta (RFQ), aiutiamo a preparare la proposta e seguiamo la fornitura.",
+    cta: "Invia una richiesta per una gara",
+  },
+
+  team_home: {
+    sup: "Team",
+    title: "Dietro ogni trattativa ci sono persone reali",
+    body: "La direzione e i manager che gestiscono personalmente ricerca, verifica e fornitura.",
+    cta: "Conosci il team",
   },
 };
 

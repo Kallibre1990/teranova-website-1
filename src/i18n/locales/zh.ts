@@ -10,6 +10,8 @@ const zh: DeepPartial<UIDict> = {
     about: "关于我们",
     faq: "常见问题",
     contacts: "联系方式",
+    team: "团队",
+    tenders: "招标采购",
   },
 
   common: {
@@ -21,6 +23,8 @@ const zh: DeepPartial<UIDict> = {
     switch_lang: "语言",
     scroll: "向下滚动",
     loading: "加载中",
+    prev: "上一个",
+    next: "下一个",
   },
 
   meta: {
@@ -53,7 +57,7 @@ const zh: DeepPartial<UIDict> = {
     intro:
       "每一家供应商都有明确的状态。这是有据可查的事实，而非对结果的承诺——我们协调并全程支持交易。",
     card_visited_t: "已核验 — 实地走访",
-    card_visited_d: "创始人亲赴工厂现场——附有照片与走访日期。",
+    card_visited_d: "团队成员亲赴工厂现场——附有照片与走访日期。",
     card_provided_t: "企业提供的资料",
     card_provided_d: "信息由供应商提供——尚未进行实地走访。",
     note: "质量条款在与供应商签订的合同中明确约定。我们不公开供应商的个人联系方式——所有沟通均通过 Teranova 进行。",
@@ -65,6 +69,7 @@ const zh: DeepPartial<UIDict> = {
     title: "我们从韩国供应什么",
     sub: "目录中所列均为我们已核验的内容。目录中没有的——我们按需为您寻源。商用车、乘用车与特种车辆为独立方向；普通消费乘用车不在业务范围内。",
     demo_note: "目录正在完善中——目前部分数据用于演示。",
+    more: "了解更多",
     groups: [
       { key: "marine", name: "船舶补给", blurb: "为船舶与船厂提供全面补给。", items: ["发动机与备件", "甲板设备", "螺旋桨、舵、推进器", "导航与通信", "救生与消防", "涂料与涂层"] },
       { key: "cosmetics", name: "化妆品与护理（OEM/ODM）", blurb: "韩国化妆品及贴牌代工生产。", items: ["护肤品", "精华与安瓶", "防晒（SPF）", "面膜与贴片", "彩妆", "化妆品包装"] },
@@ -72,6 +77,7 @@ const zh: DeepPartial<UIDict> = {
       { key: "industrial", name: "工业设备", blurb: "面向制造业的机床、自动化设备与零部件。", items: ["CNC 机床", "激光与等离子切割", "工业机器人", "液压与气动", "泵与阀门", "模具与工装"] },
       { key: "transport", name: "商用车与特种车辆", blurb: "货运、客运与特种车辆及配件。", items: ["卡车与牵引车", "客车", "工程机械", "农业机械", "特种车辆", "挂车、轮胎、蓄电池"] },
       { key: "adjacent", name: "相关领域", blurb: "广泛覆盖韩国具备优势的细分领域。", items: ["建筑材料", "食品与包装", "水处理与环保", "能源与可再生能源", "工业电子与 LED", "产业用纺织品"] },
+      { key: "chemical", name: "化工与材料", blurb: "化工原料、高分子聚合物与工业材料。", items: ["化工原料与试剂", "塑料与高分子聚合物", "橡胶", "涂料与涂层", "胶粘剂与密封剂", "化肥与农用化学品"] },
     ],
   },
 
@@ -159,6 +165,28 @@ const zh: DeepPartial<UIDict> = {
     disclaimer:
       "目录正在完善中；部分数据用于演示。价格仅供参考，不构成要约。Teranova Group 通过可信赖的合作伙伴协调并支持交易，本身并非制造商。",
     rights: "© 2025 Teranova Group",
+  },
+
+  about_home: {
+    sup: "关于我们",
+    title: "真实的团队与亲赴工厂的实地走访",
+    body: "Teranova 在韩国寻找制造商并对其进行核验——直至亲赴工厂现场实地走访——并从首次需求到收货全程把控交易。一个负责到底的合作伙伴，取代层层中间商。",
+    photo_note: "此处将放置真实照片：团队与工厂走访。",
+    cta: "了解更多关于公司",
+  },
+
+  tenders_home: {
+    sup: "招标采购",
+    title: "招标与采购全流程托管",
+    body: "我们为您的招标或询价（RFQ）寻找韩国制造商，协助准备方案并支持供应。",
+    cta: "提交招标需求",
+  },
+
+  team_home: {
+    sup: "团队",
+    title: "每一笔交易背后都是真实的人",
+    body: "由管理层与经理人亲自负责寻源、核验与供应。",
+    cta: "认识我们的团队",
   },
 };
 

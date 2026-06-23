@@ -10,6 +10,8 @@ const tr: DeepPartial<UIDict> = {
     about: "Hakkımızda",
     faq: "Sıkça sorulanlar",
     contacts: "İletişim",
+    team: "Ekip",
+    tenders: "İhaleler",
   },
 
   common: {
@@ -21,6 +23,8 @@ const tr: DeepPartial<UIDict> = {
     switch_lang: "Dil",
     scroll: "Aşağı kaydırın",
     loading: "Yükleniyor",
+    prev: "Önceki",
+    next: "Sonraki",
   },
 
   meta: {
@@ -53,7 +57,7 @@ const tr: DeepPartial<UIDict> = {
     intro:
       "Her tedarikçinin bir durumu vardır. Bu, bir sonuç vaadi değil, belgelenmiş bir gerçektir — anlaşmayı koordine ediyor ve destekliyoruz.",
     card_visited_t: "Doğrulandı — yerinde ziyaret",
-    card_visited_d: "Kurucu fabrikada bizzat bulundu — fotoğraflar ve ziyaret tarihiyle birlikte.",
+    card_visited_d: "Ekip üyemiz fabrikayı bizzat ziyaret etti — fotoğraflar ve ziyaret tarihiyle birlikte.",
     card_provided_t: "Şirket tarafından sağlanan veriler",
     card_provided_d: "Tedarikçi tarafından sağlanan bilgiler — henüz bizzat ziyaret gerçekleşmedi.",
     note: "Kalite koşulları tedarikçiyle yapılan sözleşmede sabitlenir. Tedarikçilerin kişisel iletişim bilgilerini yayınlamıyoruz — tüm iletişim Teranova üzerinden gerçekleşir.",
@@ -65,6 +69,7 @@ const tr: DeepPartial<UIDict> = {
     title: "Kore'den neler tedarik ediyoruz",
     sub: "Katalog, halihazırda doğruladığımız şeylerdir. Burada olmayanı talep üzerine buluruz. Ticari, binek ve özel araçlar ayrı bir yöndür; tüketici otomobilleri kapsam dışıdır.",
     demo_note: "Katalog dolduruluyor — bazı veriler şu anda gösterim amaçlıdır.",
+    more: "Daha fazla bilgi",
     groups: [
       { key: "marine", name: "Denizcilik tedariki", blurb: "Gemiler ve tersaneler için eksiksiz tedarik.", items: ["motorlar ve yedek parçalar", "güverte ekipmanları", "pervaneler, dümenler, manevra iticileri", "navigasyon ve haberleşme", "can kurtarma ve yangın söndürme", "boyalar ve kaplamalar"] },
       { key: "cosmetics", name: "Kozmetik ve bakım (OEM/ODM)", blurb: "Kore kozmetiği ve kendi markanız altında fason üretim.", items: ["cilt bakımı", "serumlar ve ampuller", "güneş bakımı (SPF)", "kağıt maskeler ve bantlar", "renkli kozmetik", "kozmetik ambalajı"] },
@@ -72,6 +77,7 @@ const tr: DeepPartial<UIDict> = {
       { key: "industrial", name: "Endüstriyel ekipman", blurb: "Üretim için takım tezgahları, otomasyon ve bileşenler.", items: ["CNC tezgahları", "lazer ve plazma kesim", "endüstriyel robotlar", "hidrolik ve pnömatik", "pompalar ve vanalar", "kalıplar ve takımlar"] },
       { key: "transport", name: "Ticari ve özel araçlar", blurb: "Yük, yolcu ve özel araçlar ile parçaları.", items: ["kamyonlar ve çekiciler", "otobüsler", "inşaat makineleri", "tarım makineleri", "özel araçlar", "römorklar, lastikler, aküler"] },
       { key: "adjacent", name: "İlgili sektörler", blurb: "Kore'nin güçlü olduğu nişlerde geniş kapsam.", items: ["yapı malzemeleri", "gıda ve ambalaj", "su arıtma ve ekoloji", "enerji ve yenilenebilir kaynaklar", "endüstriyel elektronik ve LED", "teknik tekstil"] },
+      { key: "chemical", name: "Kimya ve malzemeler", blurb: "Kimyasal ham maddeler, polimerler ve endüstriyel malzemeler.", items: ["kimyasal ham maddeler ve reaktifler", "plastikler ve polimerler", "kauçuk", "boyalar ve kaplamalar", "yapıştırıcılar ve dolgu malzemeleri", "gübreler ve tarım kimyasalları"] },
     ],
   },
 
@@ -159,6 +165,28 @@ const tr: DeepPartial<UIDict> = {
     disclaimer:
       "Katalog dolduruluyor; bazı veriler gösterim amaçlıdır. Fiyatlar yaklaşık değerlerdir ve bir teklif niteliği taşımaz. Teranova Group, güvenilir ortaklar aracılığıyla anlaşmaları koordine eder ve destekler, üretici değildir.",
     rights: "© 2025 Teranova Group",
+  },
+
+  about_home: {
+    sup: "Hakkımızda",
+    title: "Gerçek insanlar ve bizzat fabrika ziyaretleri",
+    body: "Teranova, Kore'deki üreticileri bulur, onları doğrular — fabrikayı bizzat yerinde ziyaret edecek kadar — ve anlaşmayı ilk talepten malların teslim alınmasına kadar yürütür. Bir aracı zinciri yerine sorumluluk üstlenen tek bir ortak.",
+    photo_note: "Gerçek fotoğraflar buraya gelecek: ekip ve fabrika ziyaretleri.",
+    cta: "Şirket hakkında daha fazlası",
+  },
+
+  tenders_home: {
+    sup: "İhaleler",
+    title: "Anahtar teslim ihaleler ve tedarik",
+    body: "İhaleniz veya teklif talebiniz için Koreli üreticileri buluyor, teklifin hazırlanmasına yardımcı oluyor ve tedariki destekliyoruz.",
+    cta: "İhale talebi gönderin",
+  },
+
+  team_home: {
+    sup: "Ekip",
+    title: "Her anlaşmanın arkasında gerçek insanlar var",
+    body: "Tedarik, doğrulama ve teminat işlerini bizzat yürüten yöneticiler ve uzmanlar.",
+    cta: "Ekiple tanışın",
   },
 };
 
