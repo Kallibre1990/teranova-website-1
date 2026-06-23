@@ -10,7 +10,8 @@ interface Props {
 const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.tenders;
-const action = localizePath('/thanks', lang);
+const thanksUrl = new URL(localizePath('/thanks', lang), Astro.site ?? 'https://teranovagroup.com').href;
+const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 ---
 
 <PageHead sup={t.nav.tenders} title={p.title} sub={p.sub} />
@@ -35,9 +36,12 @@ const action = localizePath('/thanks', lang);
     <div class="tenders__formwrap">
       <h2 class="tenders__form-title">{p.form_title}</h2>
       <p class="tenders__form-note">{p.form_note}</p>
-      <form class="oform" name="tender" method="POST" action={action} data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="tender" />
-        <p class="oform__hp" hidden><label>Leave empty: <input name="bot-field" /></label></p>
+      <form class="oform" method="POST" action="https://api.web3forms.com/submit">
+        <input type="hidden" name="access_key" value={w3fKey} />
+        <input type="hidden" name="redirect" value={thanksUrl} />
+        <input type="hidden" name="subject" value="Тендерный запрос — Teranova" />
+        <input type="hidden" name="from_name" value="Teranova — сайт" />
+        <input type="checkbox" name="botcheck" hidden tabindex="-1" autocomplete="off" />
         <div class="oform__grid">
           <div class="fgrp">
             <label for="td-company">{t.form.company}</label>

@@ -7,7 +7,8 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = ui[lang];
-const action = localizePath('/thanks', lang);
+const thanksUrl = new URL(localizePath('/thanks', lang), Astro.site ?? 'https://teranovagroup.com').href;
+const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 ---
 
 <section class="section section--navy ondemand" id="ondemand">
@@ -31,9 +32,12 @@ const action = localizePath('/thanks', lang);
 
     <div class="ondemand__formwrap" data-reveal data-delay="1">
       <h3 class="ondemand__form-title">{t.ondemand.form_title}</h3>
-      <form class="oform" name="on-demand" method="POST" action={action} data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="on-demand" />
-        <p class="oform__hp" hidden><label>Leave empty: <input name="bot-field" /></label></p>
+      <form class="oform" method="POST" action="https://api.web3forms.com/submit">
+        <input type="hidden" name="access_key" value={w3fKey} />
+        <input type="hidden" name="redirect" value={thanksUrl} />
+        <input type="hidden" name="subject" value="Заявка «Под заказ» — Teranova" />
+        <input type="hidden" name="from_name" value="Teranova — сайт" />
+        <input type="checkbox" name="botcheck" hidden tabindex="-1" autocomplete="off" />
         <div class="oform__grid">
           <div class="fgrp">
             <label for="od-company">{t.form.company}</label>

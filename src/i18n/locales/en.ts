@@ -29,6 +29,8 @@ export const en: UIDict = {
     switch_lang: 'Language',
     scroll: 'Scroll down',
     loading: 'Loading',
+    prev: 'Previous',
+    next: 'Next',
   },
 
   meta: {

@@ -34,6 +34,8 @@ export const ru = {
     switch_lang: 'Язык',
     scroll: 'Листайте вниз',
     loading: 'Загрузка',
+    prev: 'Назад',
+    next: 'Вперёд',
   },
 
   meta: {

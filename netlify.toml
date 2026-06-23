@@ -1,8 +1,0 @@
-# Netlify build config for the Astro rebuild (branch deploy previews).
-# Production (main) is unaffected until this branch is merged.
-[build]
-  command = "npm run build"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "22"
