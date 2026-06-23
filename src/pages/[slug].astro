@@ -12,6 +12,7 @@ import Tenders from '../components/pages/Tenders.astro';
 import Faq from '../components/pages/Faq.astro';
 import Contacts from '../components/pages/Contacts.astro';
 import { ui } from '../i18n/ui';
+import { faqJsonLd } from '../data/jsonld';
 
 type Slug = 'catalog' | 'buyers' | 'how-we-verify' | 'about' | 'suppliers' | 'team' | 'tenders' | 'faq' | 'contacts';
 const COMP: Record<Slug, any> = { catalog: Catalog, buyers: Buyers, 'how-we-verify': VerifyPage, about: About, suppliers: Suppliers, team: Team, tenders: Tenders, faq: Faq, contacts: Contacts };
@@ -26,8 +27,9 @@ const lang = 'ru' as const;
 const t = ui[lang];
 const meta = t.pages[PKEY[slug]];
 const Comp = COMP[slug];
+const jsonLd = slug === 'faq' ? faqJsonLd(lang) : undefined;
 ---
 
-<Base lang={lang} path={`/${slug}`} title={`${meta.title} — Teranova Group`} description={meta.sub}>
+<Base lang={lang} path={`/${slug}`} title={`${meta.title} — Teranova Group`} description={meta.sub} jsonLd={jsonLd}>
   <Comp lang={lang} />
 </Base>
