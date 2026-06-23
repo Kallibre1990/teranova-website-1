@@ -1,0 +1,8 @@
+# Security headers for Cloudflare Pages (applied to every response).
+# Conservative set — no strict CSP, so nothing on the static site can break.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
+  Strict-Transport-Security: max-age=31536000
