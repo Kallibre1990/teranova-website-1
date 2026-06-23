@@ -1,14 +1,17 @@
 ---
 import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
+import { Image } from 'astro:assets';
 import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
+import { assetPhoto } from '../../data/assetPhoto';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.verify;
+const visit = assetPhoto('verify', 'site-visit');
 ---
 
 <PageHead sup={t.verify.sup} title={p.title} sub={p.sub} />
@@ -26,6 +29,12 @@ const p = t.pages.verify;
         <p>{t.verify.card_provided_d}</p>
       </article>
     </div>
+
+    {visit && (
+      <figure class="vphoto">
+        <Image src={visit} alt={p.visit_title} widths={[640, 1000, 1200]} sizes="(max-width: 920px) 92vw, 880px" format="webp" loading="lazy" decoding="async" />
+      </figure>
+    )}
 
     <div class="card-grid card-grid--2">
       <article class="icard">
@@ -47,6 +56,8 @@ const p = t.pages.verify;
 
 <style>
   .vgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 18px; }
+  .vphoto { margin: 0 0 18px; }
+  .vphoto :global(img) { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--r-xl); border: 1px solid rgba(255, 255, 255, 0.12); box-shadow: var(--sh-l); display: block; }
   .vcard { border-radius: var(--r-xl); padding: 28px; border: 1px solid; }
   .vcard--visited { background: rgba(21, 145, 108, 0.1); border-color: rgba(21, 145, 108, 0.3); }
   .vcard--provided { background: rgba(154, 106, 18, 0.1); border-color: rgba(154, 106, 18, 0.32); }

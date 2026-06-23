@@ -5,6 +5,7 @@ import { Image } from 'astro:assets';
 import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { teamPhoto } from '../../data/teamPhotos';
+import { assetPhoto } from '../../data/assetPhoto';
 interface Props {
   lang: Lang;
 }
@@ -13,6 +14,7 @@ const t = ui[lang];
 const p = t.pages.about;
 const team = t.pages.team;
 const founder = team.members[0];
+const banner = assetPhoto('about', 'about-hero');
 ---
 
 <PageHead sup={t.nav.about} title={p.title} sub={p.sub} />
@@ -20,6 +22,11 @@ const founder = team.members[0];
 <section class="section section--navy">
   <Atmosphere variant="dark" />
   <div class="wrap">
+    {banner && (
+      <figure class="about-banner">
+        <Image src={banner} alt={p.who_title} widths={[800, 1280, 1600]} sizes="(max-width: 1100px) 92vw, 1040px" format="webp" loading="eager" decoding="async" />
+      </figure>
+    )}
     <div class="about-hero">
       <div class="about-hero__text">
         <h2 class="about-hero__h">{p.who_title}</h2>
@@ -78,6 +85,9 @@ const founder = team.members[0];
 </section>
 
 <style>
+  .about-banner { margin: 0 0 34px; }
+  .about-banner :global(img) { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--r-xl); border: 1px solid rgba(255, 255, 255, 0.14); box-shadow: var(--sh-l); display: block; }
+
   .about-hero { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 44px; align-items: center; margin-bottom: 30px; }
   .about-hero__h { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.01em; color: #fff; margin-bottom: 14px; }
   .about-hero__body { font-size: 1.02rem; color: var(--silver); line-height: 1.7; }
