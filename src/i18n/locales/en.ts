@@ -34,7 +34,7 @@ export const en: UIDict = {
   },
 
   meta: {
-    home_title: 'Teranova Group — verified Korean manufacturers & end-to-end deal support',
+    home_title: 'Teranova Group — verified Korean manufacturers',
     home_desc:
       'We find, verify and support supply from Korean factories to your warehouse: marine supply, cosmetics & care (OEM/ODM), medical & aesthetics, industrial equipment, commercial & special vehicles.',
   },

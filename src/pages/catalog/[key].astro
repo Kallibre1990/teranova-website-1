@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import CatalogGroup from '../../components/pages/CatalogGroup.astro';
 import { ui } from '../../i18n/ui';
 import { categoryKeys, type CategoryKey } from '../../data/site';
+import { breadcrumbJsonLd } from '../../data/jsonld';
 
 export function getStaticPaths() {
   return categoryKeys.map((key) => ({ params: { key }, props: { key } }));
@@ -15,6 +16,6 @@ const t = ui[lang];
 const group = t.categories.groups.find((g) => g.key === key)!;
 ---
 
-<Base lang={lang} path={`/catalog/${key}`} title={`${group.name} — Teranova Group`} description={group.blurb}>
+<Base lang={lang} path={`/catalog/${key}`} title={`${group.name} — Teranova Group`} description={`${group.blurb} · ${group.items.join(', ')}`} jsonLd={breadcrumbJsonLd(lang, group)}>
   <CatalogGroup lang={lang} groupKey={key} />
 </Base>

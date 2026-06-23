@@ -23,6 +23,11 @@ const ogLocale: Record<Lang, string> = {
   ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT', de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES',
 };
 const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+// Keep meta descriptions to ~155 chars (clean word boundary) for SERP snippets.
+const metaDescription =
+  description.length > 160
+    ? description.slice(0, 157).replace(/\s+\S*$/, '').replace(/[\s.,;:—·]+$/, '') + '…'
+    : description;
 ---
 
 <meta charset="utf-8" />
@@ -30,7 +35,7 @@ const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 <meta name="generator" content={Astro.generator} />
 
 <title>{title}</title>
-<meta name="description" content={description} />
+<meta name="description" content={metaDescription} />
 {noindex && <meta name="robots" content="noindex, follow" />}
 <link rel="canonical" href={canonical} />
 
@@ -44,7 +49,7 @@ const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Teranova Group" />
 <meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
+<meta property="og:description" content={metaDescription} />
 <meta property="og:url" content={canonical} />
 <meta property="og:locale" content={ogLocale[lang]} />
 <meta property="og:image" content={ogImage} />
@@ -54,7 +59,7 @@ const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
+<meta name="twitter:description" content={metaDescription} />
 <meta name="twitter:image" content={ogImage} />
 
 <!-- Fonts: Manrope is self-hosted (woff2) via @fontsource-variable/manrope, imported
