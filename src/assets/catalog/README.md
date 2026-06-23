@@ -14,6 +14,9 @@ Accepted: `.jpg` `.jpeg` `.png` `.webp`. Names:
 - `chemical`   — химия и материалы
 - `adjacent`   — смежные направления
 
+`deep/` subfolder — wide "far layer" backgrounds (2400×1350) for the heading of each
+category detail page. Same 7 names (e.g. `deep/marine.jpg`); heavily darkened in code.
+
 Note: the brand rule (docs/IMAGERY.md) is "no stock/AI imagery". Using AI-generated
 or stock pictures here is an explicit owner decision — only add images you are happy
 to publish on a trust-first site.
