@@ -50,15 +50,15 @@ function initGlobe(canvas: HTMLCanvasElement) {
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
   let w = 0, h = 0, cx = 0, cy = 0, R = 0;
-  const tilt = 0.42; // look from slightly above the equator
-  let a = reduce ? 2.4 : 0.9, raf = 0, inView = true, last = 0;
+  let tilt = 0.42; // look from slightly above the equator (adjustable by drag)
+  let a = reduce ? 2.4 : 0.9, raf = 0, inView = true, last = 0, dragging = false;
 
   const view = (p: V3) => rotX(rotY(p, a), tilt);
   const px = (p: V3) => ({ x: cx + R * p.x, y: cy - R * p.y, z: p.z });
 
   function draw(now: number) {
     if (R <= 0) return;
-    if (!reduce && inView) { const dt = Math.min(48, now - last || 16); last = now; a += dt * 0.00016; }
+    if (!reduce && inView && !dragging) { const dt = Math.min(48, now - last || 16); last = now; a += dt * 0.00016; }
     ctx!.clearRect(0, 0, w, h);
 
     // base sphere — a lit ocean (sunlit sea top-left → deep water at the terminator)
@@ -181,6 +181,30 @@ function initGlobe(canvas: HTMLCanvasElement) {
     }
   }, { threshold: 0.02 });
   io.observe(canvas);
+
+  // Drag to rotate — desktop + touch. User-driven, so allowed even under reduced-motion.
+  canvas.style.touchAction = 'none';
+  canvas.style.cursor = 'grab';
+  let px0 = 0, py0 = 0;
+  canvas.addEventListener('pointerdown', (e) => {
+    dragging = true; px0 = e.clientX; py0 = e.clientY;
+    try { canvas.setPointerCapture(e.pointerId); } catch {}
+    canvas.style.cursor = 'grabbing';
+  });
+  canvas.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    a += (e.clientX - px0) * 0.005;
+    tilt = Math.max(-1.2, Math.min(1.2, tilt + (e.clientY - py0) * 0.005));
+    px0 = e.clientX; py0 = e.clientY;
+    draw(performance.now());
+  });
+  const endDrag = () => {
+    if (!dragging) return;
+    dragging = false; canvas.style.cursor = 'grab';
+    if (!reduce && inView) { last = 0; cancelAnimationFrame(raf); raf = requestAnimationFrame(draw); }
+  };
+  canvas.addEventListener('pointerup', endDrag);
+  canvas.addEventListener('pointercancel', endDrag);
 }
 
 document.querySelectorAll<HTMLCanvasElement>('canvas[data-globe]').forEach(initGlobe);

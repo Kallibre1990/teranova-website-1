@@ -29,6 +29,8 @@ export const ko: UIDict = {
     switch_lang: '언어',
     scroll: '아래로 스크롤',
     loading: '로딩 중',
+    prev: '이전',
+    next: '다음',
   },
 
   meta: {
