@@ -11,7 +11,7 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const tt = t.team_home;
 const members = t.pages.team.members;
-const teamHref = localizePath('/team', lang);
+const teamHref = localizePath('/about', lang) + '#team';
 ---
 
 <section class="section section--navy teamt">

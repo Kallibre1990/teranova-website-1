@@ -6,19 +6,18 @@ import Buyers from '../../components/pages/Buyers.astro';
 import VerifyPage from '../../components/pages/VerifyPage.astro';
 import About from '../../components/pages/About.astro';
 import Suppliers from '../../components/pages/Suppliers.astro';
-import Team from '../../components/pages/Team.astro';
 import Tenders from '../../components/pages/Tenders.astro';
 import Faq from '../../components/pages/Faq.astro';
 import Contacts from '../../components/pages/Contacts.astro';
 import { ui, defaultLang, languages, type Lang } from '../../i18n/ui';
 import { faqJsonLd } from '../../data/jsonld';
 
-type Slug = 'catalog' | 'buyers' | 'how-we-verify' | 'about' | 'suppliers' | 'team' | 'tenders' | 'faq' | 'contacts';
-const COMP: Record<Slug, any> = { catalog: Catalog, buyers: Buyers, 'how-we-verify': VerifyPage, about: About, suppliers: Suppliers, team: Team, tenders: Tenders, faq: Faq, contacts: Contacts };
-const PKEY: Record<Slug, 'catalog' | 'buyers' | 'verify' | 'about' | 'suppliers' | 'team' | 'tenders' | 'faq' | 'contacts'> = { catalog: 'catalog', buyers: 'buyers', 'how-we-verify': 'verify', about: 'about', suppliers: 'suppliers', team: 'team', tenders: 'tenders', faq: 'faq', contacts: 'contacts' };
+type Slug = 'catalog' | 'buyers' | 'how-we-verify' | 'about' | 'suppliers' | 'tenders' | 'faq' | 'contacts';
+const COMP: Record<Slug, any> = { catalog: Catalog, buyers: Buyers, 'how-we-verify': VerifyPage, about: About, suppliers: Suppliers, tenders: Tenders, faq: Faq, contacts: Contacts };
+const PKEY: Record<Slug, 'catalog' | 'buyers' | 'verify' | 'about' | 'suppliers' | 'tenders' | 'faq' | 'contacts'> = { catalog: 'catalog', buyers: 'buyers', 'how-we-verify': 'verify', about: 'about', suppliers: 'suppliers', tenders: 'tenders', faq: 'faq', contacts: 'contacts' };
 
 export function getStaticPaths() {
-  const slugs: Slug[] = ['catalog', 'buyers', 'how-we-verify', 'about', 'suppliers', 'team', 'tenders', 'faq', 'contacts'];
+  const slugs: Slug[] = ['catalog', 'buyers', 'how-we-verify', 'about', 'suppliers', 'tenders', 'faq', 'contacts'];
   return (Object.keys(languages) as Lang[])
     .filter((l) => l !== defaultLang)
     .flatMap((lang) => slugs.map((slug) => ({ params: { lang, slug }, props: { lang, slug } })));

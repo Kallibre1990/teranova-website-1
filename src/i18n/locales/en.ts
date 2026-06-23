@@ -263,7 +263,7 @@ export const en: UIDict = {
     },
     team: {
       title: 'Team',
-      sub: 'Behind Teranova are real people. We find production in Korea, verify it and run the deal from the first request to receipt of the goods.',
+      sub: 'Behind every request are specific people: we know the product, the language and the factory, and we run your deal personally.',
       members: [
         { photo: '/img/team/anton-madelkanov.jpg', name: 'Anton Madelkanov', role: 'Founder, Teranova Group · CEO, AIA Group', bio: 'Founder and architect of the project. Responsible for strategy, the Korean supplier network and personal verification — production visits, meetings with management, photo documentation. Oversees key deals and the international direction.' },
         { photo: '/img/team/irene-tutova.jpg', name: 'Irene Tutova', role: 'CEO, Teranova Group', bio: "Leads the company's operations — management, development, client and partner relations." },

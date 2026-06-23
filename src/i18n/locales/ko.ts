@@ -250,7 +250,7 @@ export const ko: UIDict = {
     },
     team: {
       title: '팀',
-      sub: 'Teranova 뒤에는 실제 사람들이 있습니다. 한국에서 제조 현장을 발굴·검증하고 첫 문의부터 화물 수령까지 거래를 진행합니다.',
+      sub: '모든 문의 뒤에는 구체적인 사람이 있습니다: 제품·언어·공장을 알고 귀사의 거래를 직접 진행합니다.',
       members: [
         { photo: '/img/team/anton-madelkanov.jpg', name: 'Anton Madelkanov', role: 'Teranova Group 창업자 · AIA Group 대표', bio: '프로젝트의 창업자이자 설계자. 전략, 한국 공급업체 네트워크 개발, 직접 검증(생산 현장 방문, 경영진 면담, 사진 기록)을 담당. 핵심 거래와 국제 부문을 총괄.' },
         { photo: '/img/team/irene-tutova.jpg', name: 'Irene Tutova', role: 'Teranova Group 대표', bio: '회사의 운영을 총괄 — 관리, 개발, 고객 및 파트너 관계.' },
