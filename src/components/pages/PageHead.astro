@@ -1,15 +1,18 @@
 ---
 import Atmosphere from '../visual/Atmosphere.astro';
+import CategoryDeep from '../visual/CategoryDeep.astro';
 interface Props {
   sup?: string;
   title: string;
   sub?: string;
+  deep?: string;
 }
-const { sup, title, sub } = Astro.props;
+const { sup, title, sub, deep } = Astro.props;
 ---
 
 <section class="section section--navy page-head">
   <Atmosphere variant="hero" />
+  {deep && <CategoryDeep categoryKey={deep} />}
   <div class="wrap">
     {sup && <span class="sup sup--light">( {sup} )</span>}
     <h1 class="h-section">{title}</h1>
