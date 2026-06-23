@@ -51,14 +51,14 @@ function initGlobe(canvas: HTMLCanvasElement) {
   if (!ctx) return;
   let w = 0, h = 0, cx = 0, cy = 0, R = 0;
   let tilt = 0.42; // look from slightly above the equator (adjustable by drag)
-  let a = reduce ? 2.4 : 0.9, raf = 0, inView = true, last = 0, dragging = false;
+  let a = reduce ? 2.4 : 0.9, raf = 0, inView = true, last = 0, dragging = false, gliding = false, vel = 0;
 
   const view = (p: V3) => rotX(rotY(p, a), tilt);
   const px = (p: V3) => ({ x: cx + R * p.x, y: cy - R * p.y, z: p.z });
 
   function draw(now: number) {
     if (R <= 0) return;
-    if (!reduce && inView && !dragging) { const dt = Math.min(48, now - last || 16); last = now; a += dt * 0.00016; }
+    if (!reduce && inView && !dragging && !gliding) { const dt = Math.min(48, now - last || 16); last = now; a += dt * 0.00016; }
     ctx!.clearRect(0, 0, w, h);
 
     // base sphere — a lit ocean (sunlit sea top-left → deep water at the terminator)
@@ -143,7 +143,7 @@ function initGlobe(canvas: HTMLCanvasElement) {
       ctx!.beginPath(); ctx!.arc(s.x, s.y, 6 + 9 * pulse, 0, 7); ctx!.stroke();
     }
 
-    if (!reduce && inView) raf = requestAnimationFrame(draw);
+    if (!reduce && inView && !dragging && !gliding) raf = requestAnimationFrame(draw);
   }
 
   function resize() {
@@ -182,26 +182,34 @@ function initGlobe(canvas: HTMLCanvasElement) {
   }, { threshold: 0.02 });
   io.observe(canvas);
 
-  // Drag to rotate — desktop + touch. User-driven, so allowed even under reduced-motion.
+  // Drag to rotate — desktop + touch. Smooth: low sensitivity + gentle inertia on release.
   canvas.style.touchAction = 'none';
   canvas.style.cursor = 'grab';
+  const SENS = 0.0024;
   let px0 = 0, py0 = 0;
   canvas.addEventListener('pointerdown', (e) => {
-    dragging = true; px0 = e.clientX; py0 = e.clientY;
+    dragging = true; gliding = false; vel = 0; px0 = e.clientX; py0 = e.clientY;
     try { canvas.setPointerCapture(e.pointerId); } catch {}
-    canvas.style.cursor = 'grabbing';
+    canvas.style.cursor = 'grabbing'; cancelAnimationFrame(raf);
   });
   canvas.addEventListener('pointermove', (e) => {
     if (!dragging) return;
-    a += (e.clientX - px0) * 0.005;
-    tilt = Math.max(-1.2, Math.min(1.2, tilt + (e.clientY - py0) * 0.005));
+    const dx = (e.clientX - px0) * SENS;
+    a += dx; vel = dx;
+    tilt = Math.max(-1.2, Math.min(1.2, tilt + (e.clientY - py0) * SENS));
     px0 = e.clientX; py0 = e.clientY;
     draw(performance.now());
   });
   const endDrag = () => {
     if (!dragging) return;
     dragging = false; canvas.style.cursor = 'grab';
-    if (!reduce && inView) { last = 0; cancelAnimationFrame(raf); raf = requestAnimationFrame(draw); }
+    vel = Math.max(-0.035, Math.min(0.035, vel)); // cap fling so it never spins hard
+    gliding = true; cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(function glide(now) {
+      a += vel; vel *= 0.92; draw(now);
+      if (Math.abs(vel) > 0.0005) { raf = requestAnimationFrame(glide); }
+      else { gliding = false; if (!reduce && inView) { last = 0; raf = requestAnimationFrame(draw); } }
+    });
   };
   canvas.addEventListener('pointerup', endDrag);
   canvas.addEventListener('pointercancel', endDrag);

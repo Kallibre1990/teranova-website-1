@@ -30,6 +30,10 @@ const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
           ))
         }
       </ul>
+      <div class="tenders__dev">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z" /><path d="M12 9v4M12 17h.01" /></svg>
+        <p>{p.dev_note}</p>
+      </div>
       <p class="tenders__mail"><a href={`mailto:${site.email}`}>{site.email}</a></p>
     </div>
 
@@ -88,8 +92,11 @@ const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
   .tenders__points { display: flex; flex-direction: column; gap: 13px; }
   .tenders__points li { display: flex; gap: 12px; align-items: flex-start; font-size: 0.98rem; color: var(--silver); line-height: 1.5; }
   .tenders__points svg { color: var(--cobalt-light); flex-shrink: 0; margin-top: 2px; }
-  .tenders__mail { margin-top: 24px; font-size: 0.95rem; color: var(--silver-muted); }
+  .tenders__mail { margin-top: 18px; font-size: 0.95rem; color: var(--silver-muted); }
   .tenders__mail a:hover { color: #fff; }
+  .tenders__dev { display: flex; gap: 12px; align-items: flex-start; margin-top: 22px; padding: 14px 16px; border-radius: var(--r); background: rgba(37, 99, 212, 0.12); border: 1px solid rgba(63, 122, 224, 0.3); }
+  .tenders__dev svg { color: var(--cobalt-light); flex-shrink: 0; margin-top: 1px; }
+  .tenders__dev p { font-size: 0.9rem; color: var(--silver); line-height: 1.55; }
 
   .tenders__formwrap { background: var(--surface); color: var(--ink); border-radius: var(--r-xl); padding: clamp(24px, 3vw, 36px); box-shadow: var(--sh-l); }
   .tenders__form-title { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.01em; }
