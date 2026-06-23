@@ -20,7 +20,7 @@ const p = t.pages.team;
       {
         p.members.map((m) => (
           <article class="icard">
-            <span class="team__avatar" aria-hidden="true">{m.initials}</span>
+            <img class="team__photo" src={m.photo} alt={m.name} width="84" height="84" loading="lazy" decoding="async" />
             <h2 class="team__name">{m.name}</h2>
             <p class="team__role">{m.role}</p>
             <p class="team__bio">{m.bio}</p>
@@ -36,12 +36,10 @@ const p = t.pages.team;
 </section>
 
 <style>
-  .team__avatar {
-    display: flex; align-items: center; justify-content: center;
-    width: 56px; height: 56px; border-radius: 50%;
-    background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light));
-    color: #fff; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.02em;
-    margin-bottom: 18px; box-shadow: 0 8px 20px -8px rgba(37, 99, 212, 0.7);
+  .team__photo {
+    width: 84px; height: 84px; border-radius: 50%; object-fit: cover;
+    margin-bottom: 18px; border: 2px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.6);
   }
   .team__name { font-size: 1.12rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; }
   .team__role { font-size: 0.84rem; font-weight: 700; letter-spacing: 0.04em; color: var(--cobalt-light); margin-top: 4px; }

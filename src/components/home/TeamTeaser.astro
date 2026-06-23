@@ -25,9 +25,8 @@ const teamHref = localizePath('/team', lang);
       {
         members.map((m) => (
           <a class="teamt__member" href={teamHref}>
-            <span class="teamt__avatar" aria-hidden="true">{m.initials}</span>
+            <img class="teamt__photo" src={m.photo} alt={m.name} width="72" height="72" loading="lazy" decoding="async" />
             <span class="teamt__name">{m.name}</span>
-            <span class="teamt__role">{m.role}</span>
           </a>
         ))
       }
@@ -48,14 +47,11 @@ const teamHref = localizePath('/team', lang);
     transition: transform .25s var(--ease), background .25s, border-color .25s;
   }
   .teamt__member:hover { transform: translateY(-4px); background: rgba(37, 99, 212, 0.1); border-color: rgba(63, 122, 224, 0.45); }
-  .teamt__avatar {
-    display: flex; align-items: center; justify-content: center; width: 60px; height: 60px;
-    border-radius: 50%; background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light));
-    color: #fff; font-weight: 800; font-size: 1.15rem; margin-bottom: 6px;
-    box-shadow: 0 8px 20px -8px rgba(37, 99, 212, 0.7);
+  .teamt__photo {
+    width: 72px; height: 72px; border-radius: 50%; object-fit: cover; margin-bottom: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.14); box-shadow: 0 8px 20px -10px rgba(0, 0, 0, 0.6);
   }
   .teamt__name { font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; line-height: 1.3; }
-  .teamt__role { font-size: 0.8rem; font-weight: 700; color: var(--cobalt-light); letter-spacing: 0.03em; }
   @media (max-width: 760px) { .teamt__row { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 420px) { .teamt__row { grid-template-columns: 1fr; } }
 </style>
