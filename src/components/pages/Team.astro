@@ -16,15 +16,19 @@ const p = t.pages.team;
 <section class="section section--navy">
   <Atmosphere variant="dark" />
   <div class="wrap">
-    <div class="card-grid card-grid--2">
+    <div class="team-grid">
       {
         p.members.map((m) => (
-          <article class="icard">
-            <img class="team__photo" src={m.photo} alt={m.name} width="84" height="84" loading="lazy" decoding="async" />
-            <h2 class="team__name">{m.name}</h2>
-            <p class="team__role">{m.role}</p>
-            <p class="team__bio">{m.bio}</p>
-          </article>
+          <figure class="tcard">
+            <div class="tcard__photo">
+              <img src={m.photo} alt={`${m.name} — ${m.role}`} width="800" height="1000" loading="lazy" decoding="async" />
+            </div>
+            <figcaption class="tcard__body">
+              <span class="tcard__name">{m.name}</span>
+              <span class="tcard__role">{m.role}</span>
+              <p class="tcard__bio">{m.bio}</p>
+            </figcaption>
+          </figure>
         ))
       }
     </div>
@@ -36,12 +40,19 @@ const p = t.pages.team;
 </section>
 
 <style>
-  .team__photo {
-    width: 84px; height: 84px; border-radius: 50%; object-fit: cover;
-    margin-bottom: 18px; border: 2px solid rgba(255, 255, 255, 0.14);
-    box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.6);
+  .team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+  .tcard {
+    display: flex; flex-direction: column; overflow: hidden;
+    background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--r-lg);
   }
-  .team__name { font-size: 1.12rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; }
-  .team__role { font-size: 0.84rem; font-weight: 700; letter-spacing: 0.04em; color: var(--cobalt-light); margin-top: 4px; }
-  .team__bio { font-size: 0.95rem; color: var(--silver); line-height: 1.65; margin-top: 14px; }
+  .tcard__photo { aspect-ratio: 4 / 5; background: var(--navy-2); }
+  .tcard__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+  .tcard__body { padding: 18px 18px 22px; display: flex; flex-direction: column; }
+  .tcard__name { font-size: 1.06rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; }
+  .tcard__role { font-size: 0.82rem; font-weight: 700; color: var(--cobalt-light); letter-spacing: 0.02em; margin-top: 4px; }
+  .tcard__bio { font-size: 0.9rem; color: var(--silver); line-height: 1.6; margin-top: 12px; }
+
+  @media (max-width: 920px) { .team-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 460px) { .team-grid { grid-template-columns: 1fr; } }
 </style>
