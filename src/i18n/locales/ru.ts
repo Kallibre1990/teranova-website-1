@@ -230,6 +230,7 @@ export const ru = {
     group: {
       back: 'Все направления',
       subniches: 'Под-ниши',
+      products_title: 'Примеры товаров',
       suppliers_title: 'Поставщики направления',
       demo_badge: 'Демо-данные',
       demo_note: 'Образцы карточек — каталог наполняется реальными поставщиками.',
