@@ -2,7 +2,11 @@
    (real coastlines, climate-band colours) + animated arcs from Korea to key markets.
    Vanilla 2D canvas (no WebGL), no photos. Spins while in view, static under reduced-motion. */
 
-const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Static (no spin) under reduced-motion AND on phones: the globe still renders once,
+// it just doesn't animate — saves battery/CPU on mobile (matches the spec's "static on phone").
+const reduce =
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+  window.matchMedia('(max-width: 760px)').matches;
 
 interface V3 { x: number; y: number; z: number; }
 const sphere = (lat: number, lon: number): V3 => {
