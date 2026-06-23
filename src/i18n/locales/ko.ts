@@ -177,6 +177,7 @@ export const ko: UIDict = {
     group: {
       back: '전체 분야',
       subniches: '세부 분야',
+      products_title: '샘플 제품',
       suppliers_title: '해당 분야 공급업체',
       demo_badge: '데모 데이터',
       demo_note: '샘플 카드입니다 — 카탈로그는 실제 공급업체로 채워지는 중입니다.',

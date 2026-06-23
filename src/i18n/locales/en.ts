@@ -190,6 +190,7 @@ export const en: UIDict = {
     group: {
       back: 'All directions',
       subniches: 'Sub-niches',
+      products_title: 'Sample products',
       suppliers_title: 'Suppliers in this direction',
       demo_badge: 'Demo data',
       demo_note: 'Sample cards — the catalog is being populated with real suppliers.',
