@@ -7,7 +7,7 @@ const SITE = 'https://teranovagroup.com';
 // Indexed locales (get sitemap + hreflang). The other 6 are machine-translated
 // and served noindex until a native speaker reviews them.
 const verified = ['ru', 'en', 'ko'];
-const machine = ['zh', 'ja', 'it', 'de', 'fr', 'tr'];
+const machine = ['zh', 'ja', 'it', 'de', 'fr', 'tr', 'es'];
 
 // https://astro.build/config
 export default defineConfig({
