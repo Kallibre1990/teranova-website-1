@@ -1,0 +1,38 @@
+---
+import { localizePath } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const th = t.tenders_home;
+---
+
+<section class="section section--alt tendersh">
+  <div class="wrap">
+    <div class="tendersh__card">
+      <div class="tendersh__text">
+        <span class="sup">( {th.sup} )</span>
+        <h2 class="tendersh__title">{th.title}</h2>
+        <p class="tendersh__body">{th.body}</p>
+      </div>
+      <a class="btn btn--primary btn--lg tendersh__cta" href={localizePath('/tenders', lang)}>{th.cta}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .tendersh__card {
+    display: flex; align-items: center; justify-content: space-between; gap: 36px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-xl);
+    padding: clamp(28px, 4vw, 44px); box-shadow: var(--sh-m);
+  }
+  .tendersh__title { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; letter-spacing: -0.02em; color: var(--ink); margin: 8px 0 10px; }
+  .tendersh__body { font-size: 1rem; color: var(--sub); line-height: 1.6; max-width: 56ch; }
+  .tendersh__cta { flex-shrink: 0; }
+  @media (max-width: 760px) {
+    .tendersh__card { flex-direction: column; align-items: flex-start; gap: 24px; }
+    .tendersh__cta { width: 100%; }
+  }
+</style>

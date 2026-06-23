@@ -126,6 +126,28 @@ export const en: UIDict = {
     button: 'Get in touch',
   },
 
+  about_home: {
+    sup: 'About us',
+    title: 'Real people and personal factory visits',
+    body: 'Teranova finds manufacturers in Korea, verifies them — up to a personal visit by the founder to the factory — and runs the deal from the first request to receipt of the goods. One accountable partner instead of a chain of middlemen.',
+    photo_note: 'Real photos will go here: the founder, the team, factory visits.',
+    cta: 'More about the company',
+  },
+
+  tenders_home: {
+    sup: 'Tenders',
+    title: 'Turnkey tenders & procurement',
+    body: 'We source Korean manufacturers for your tender or RFQ, help prepare the proposal and support the supply.',
+    cta: 'Send a tender request',
+  },
+
+  team_home: {
+    sup: 'Team',
+    title: 'Behind every deal are real people',
+    body: 'The founder, the lead and the managers who personally handle sourcing, verification and supply.',
+    cta: 'Meet the team',
+  },
+
   form: {
     company: 'Company',
     contact: 'Contact person',

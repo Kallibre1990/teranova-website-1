@@ -1,0 +1,61 @@
+---
+import Atmosphere from '../visual/Atmosphere.astro';
+import { localizePath } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const tt = t.team_home;
+const members = t.pages.team.members;
+const teamHref = localizePath('/team', lang);
+---
+
+<section class="section section--navy teamt">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="section-head">
+      <span class="sup">( {tt.sup} )</span>
+      <h2 class="h-section">{tt.title}</h2>
+      <p class="sub-section">{tt.body}</p>
+    </div>
+
+    <div class="teamt__row">
+      {
+        members.map((m) => (
+          <a class="teamt__member" href={teamHref}>
+            <span class="teamt__avatar" aria-hidden="true">{m.initials}</span>
+            <span class="teamt__name">{m.name}</span>
+            <span class="teamt__role">{m.role}</span>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="page-cta">
+      <a class="btn btn--ghost btn--lg" href={teamHref}>{tt.cta}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .teamt__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .teamt__member {
+    display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
+    padding: 26px 16px; background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg);
+    transition: transform .25s var(--ease), background .25s, border-color .25s;
+  }
+  .teamt__member:hover { transform: translateY(-4px); background: rgba(37, 99, 212, 0.1); border-color: rgba(63, 122, 224, 0.45); }
+  .teamt__avatar {
+    display: flex; align-items: center; justify-content: center; width: 60px; height: 60px;
+    border-radius: 50%; background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light));
+    color: #fff; font-weight: 800; font-size: 1.15rem; margin-bottom: 6px;
+    box-shadow: 0 8px 20px -8px rgba(37, 99, 212, 0.7);
+  }
+  .teamt__name { font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; line-height: 1.3; }
+  .teamt__role { font-size: 0.8rem; font-weight: 700; color: var(--cobalt-light); letter-spacing: 0.03em; }
+  @media (max-width: 760px) { .teamt__row { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 420px) { .teamt__row { grid-template-columns: 1fr; } }
+</style>
