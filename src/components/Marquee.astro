@@ -1,22 +1,25 @@
 ---
+import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
-const items = ui[lang].marquee;
+const groups = ui[lang].categories.groups;
+// «Смежные направления» — последними (как в карточках каталога).
+const ordered = [...groups.filter((g) => g.key !== 'adjacent'), ...groups.filter((g) => g.key === 'adjacent')];
 // Duplicate the sequence so the loop is seamless.
-const loop = [...items, ...items];
+const loop = [...ordered, ...ordered];
 ---
 
 <div class="marquee" aria-hidden="true">
   <div class="marquee__track">
     {
-      loop.map((label) => (
-        <span class="marquee__item">
+      loop.map((g) => (
+        <a class="marquee__item" href={localizePath(`/catalog/${g.key}`, lang)} tabindex="-1">
           <svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><polygon points="12,2 22,12 12,22 2,12" fill="#2563d4" /></svg>
-          {label}
-        </span>
+          {g.name}
+        </a>
       ))
     }
   </div>
@@ -33,7 +36,9 @@ const loop = [...items, ...items];
   .marquee__item {
     display: inline-flex; align-items: center; gap: 16px; padding: 0 30px;
     font-size: 1.02rem; font-weight: 600; letter-spacing: 0.02em; color: var(--silver);
+    transition: color .2s var(--ease);
   }
+  .marquee__item:hover { color: #fff; }
   .marquee__item svg { opacity: 0.9; }
   .marquee:hover .marquee__track { animation-play-state: paused; }
   @keyframes marquee { to { transform: translateX(-50%); } }

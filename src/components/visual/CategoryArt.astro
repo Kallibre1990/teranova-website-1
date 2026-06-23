@@ -1,64 +1,32 @@
 ---
-/* Per-category decorative illustration, drawn in code (SVG) — a "deep" layer at the
-   bottom of a catalog card. Brand rule (docs/IMAGERY.md): visuals are code-drawn,
-   no stock/AI imagery. SAMPLE: marine. Other categories added after style sign-off. */
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+/* Real photo/illustration slot for a catalog card background.
+   We do NOT draw raster here and do NOT use stock/AI by ourselves (brand rule).
+   Drop a file into src/assets/catalog/<key>.(jpg|jpeg|png|webp) — it appears,
+   optimised, as the card background. Nothing renders until a file is provided. */
 interface Props {
   categoryKey: string;
 }
 const { categoryKey } = Astro.props;
+const files = import.meta.glob<{ default: ImageMetadata }>('../../assets/catalog/*.{jpg,jpeg,png,webp}', { eager: true });
+const byKey: Record<string, ImageMetadata> = Object.fromEntries(
+  Object.entries(files).map(([p, m]) => [p.split('/').pop()!.replace(/\.[a-z]+$/i, ''), m.default]),
+);
+const img = byKey[categoryKey];
 ---
 
 {
-  categoryKey === 'marine' && (
+  img && (
     <div class="cat-art" aria-hidden="true">
-      <svg viewBox="0 0 320 132" fill="none" preserveAspectRatio="xMidYMax meet">
-        {/* sea */}
-        <path d="M0 98 q22 -7 44 0 t44 0 t44 0 t44 0 t44 0 t44 0 t44 0 L320 132 L0 132 Z" fill="#2563d4" opacity="0.18" />
-        <path d="M6 104 q26 -5 52 0 t52 0 t52 0 t52 0 t52 0" stroke="#9fc0f0" stroke-width="1" opacity="0.35" />
-
-        {/* container ship */}
-        <g stroke="#9fc0f0" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round">
-          <path d="M58 97 L74 84 L242 84 L260 97 Z" fill="#2563d4" opacity="0.85" />
-          <line x1="66" y1="92" x2="252" y2="92" stroke="#cfe0f8" stroke-width="0.9" opacity="0.5" />
-          <g fill="#2563d4" opacity="0.6" stroke="none">
-            <rect x="84" y="73" width="20" height="11" /><rect x="106" y="73" width="20" height="11" /><rect x="128" y="73" width="20" height="11" /><rect x="150" y="73" width="20" height="11" />
-            <rect x="95" y="62" width="20" height="11" /><rect x="117" y="62" width="20" height="11" /><rect x="139" y="62" width="20" height="11" />
-          </g>
-          <rect x="196" y="56" width="42" height="28" fill="#2563d4" opacity="0.9" />
-          <g fill="#cfe0f8" stroke="none" opacity="0.75"><rect x="201" y="61" width="7" height="5" /><rect x="211" y="61" width="7" height="5" /><rect x="221" y="61" width="7" height="5" /><rect x="231" y="61" width="7" height="5" /></g>
-          <rect x="210" y="42" width="14" height="14" fill="#2563d4" opacity="0.95" />
-          <rect x="210" y="46" width="14" height="3.5" fill="#9fc0f0" stroke="none" />
-          <path d="M118 73 L118 38 L158 50" />
-          <path d="M118 38 L92 50" />
-          <path d="M238 56 L238 38 M232 44 L244 44" />
-          <g fill="#cfe0f8" stroke="none" opacity="0.6"><circle cx="92" cy="89" r="1.5" /><circle cx="108" cy="89" r="1.5" /><circle cx="124" cy="89" r="1.5" /><circle cx="140" cy="89" r="1.5" /><circle cx="156" cy="89" r="1.5" /><circle cx="172" cy="89" r="1.5" /><circle cx="188" cy="89" r="1.5" /></g>
-        </g>
-
-        {/* foreground parts */}
-        <g opacity="0.9">
-          <g transform="translate(36 113)" fill="#2563d4" stroke="#9fc0f0" stroke-width="1.3" stroke-linejoin="round">
-            <path d="M0 0 C 5 -11 14 -10 13 -3 C 9 -4 4 -3 0 0Z" />
-            <path d="M0 0 C 11 3 13 12 6 13 C 5 8 3 4 0 0Z" />
-            <path d="M0 0 C -11 -3 -13 -12 -6 -13 C -5 -8 -3 -4 0 0Z" />
-            <path d="M0 0 C -5 11 -14 10 -13 3 C -9 4 -4 3 0 0Z" />
-            <circle cx="0" cy="0" r="3.2" fill="#9fc0f0" stroke="none" />
-          </g>
-          <g transform="translate(286 104)" stroke="#9fc0f0" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="0" cy="-12" r="3.2" />
-            <line x1="0" y1="-9" x2="0" y2="12" />
-            <line x1="-8" y1="-4" x2="8" y2="-4" />
-            <path d="M-11 4 C -11 13 -5 16 0 16 C 5 16 11 13 11 4" />
-            <path d="M-11 4 L-14 1 M11 4 L14 1" />
-          </g>
-        </g>
-      </svg>
+      <Image src={img} alt="" widths={[320, 640]} sizes="320px" format="webp" loading="lazy" decoding="async" />
     </div>
   )
 }
 
 <style>
-  .cat-art { position: absolute; left: 0; right: 0; bottom: 0; height: 56%; z-index: 0; pointer-events: none; overflow: hidden; }
-  .cat-art svg { position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; }
-  /* fade the top of the illustration into the card so text stays clean */
-  .cat-art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, transparent 38%, rgba(11, 27, 53, 0.5) 86%); }
+  .cat-art { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+  .cat-art :global(img) { width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0.55; }
+  /* darken so the card text stays readable over the image */
+  .cat-art::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(11, 27, 53, 0.55), rgba(11, 27, 53, 0.82) 70%); }
 </style>

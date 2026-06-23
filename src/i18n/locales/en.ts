@@ -63,7 +63,7 @@ export const en: UIDict = {
     intro:
       'Every supplier has a status. It is a documented fact, not a promise of outcome — we coordinate and support the deal.',
     card_visited_t: 'Verified — site visit',
-    card_visited_d: 'The founder was at the factory in person — with photos and the visit date.',
+    card_visited_d: 'A team member visited the factory in person — with photos and the visit date.',
     card_provided_t: 'Company-provided data',
     card_provided_d: 'Information provided by the supplier — a personal visit has not happened yet.',
     note: 'Quality terms are fixed in the contract with the supplier. We do not publish suppliers’ personal contacts — all communication goes through Teranova.',
@@ -131,7 +131,7 @@ export const en: UIDict = {
   about_home: {
     sup: 'About us',
     title: 'Real people and personal factory visits',
-    body: 'Teranova finds manufacturers in Korea, verifies them — up to a personal visit by the founder to the factory — and runs the deal from the first request to receipt of the goods. One accountable partner instead of a chain of middlemen.',
+    body: 'Teranova finds manufacturers in Korea, verifies them — up to a personal on-site visit to the factory — and runs the deal from the first request to receipt of the goods. One accountable partner instead of a chain of middlemen.',
     photo_note: 'Real photos will go here: the founder, the team, factory visits.',
     cta: 'More about the company',
   },
@@ -217,7 +217,7 @@ export const en: UIDict = {
       title: 'How we verify',
       sub: 'Every supplier has a status — a documented fact, not a promise of outcome. We coordinate and support the deal.',
       visit_title: 'What a “site visit” means',
-      visit_body: 'The founder comes to the production, meets the management, inspects the line and records the visit with dated photos. The “Verified — site visit” status is backed by fact, not words.',
+      visit_body: 'Our team member comes to the production, meets the management, inspects the line and records the visit with dated photos. The “Verified — site visit” status is backed by fact, not words.',
       transparency_title: 'Transparent statuses',
       transparency_body: 'If a visit has not happened yet, the supplier is marked “Company-provided data” — honestly, without overstatement. Quality terms are fixed in the contract. We do not publish suppliers’ personal contacts — all communication goes through Teranova.',
     },

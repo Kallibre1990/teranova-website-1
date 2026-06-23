@@ -8,6 +8,8 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = ui[lang];
+// «Смежные направления» — последней карточкой.
+const groups = [...t.categories.groups.filter((g) => g.key !== 'adjacent'), ...t.categories.groups.filter((g) => g.key === 'adjacent')];
 
 const icons: Record<string, string> = {
   marine: '<circle cx="12" cy="5" r="2.4"/><path d="M12 7.4V21M5 13a7 7 0 0 0 14 0M3.5 13H7M17 13h3.5"/>',
@@ -32,7 +34,7 @@ const icons: Record<string, string> = {
     <div class="cat-carousel" data-carousel>
       <div class="cat-track" data-carousel-track>
         {
-          t.categories.groups.map((g, i) => (
+          groups.map((g, i) => (
             <a class="cat" href={localizePath(`/catalog/${g.key}`, lang)}>
               <CategoryArt categoryKey={g.key} />
               <div class="cat__top">
