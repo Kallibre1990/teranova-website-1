@@ -1,10 +1,10 @@
 ---
 name: website
-description: Use when working on the website — auditing or fixing SEO/indexing/crawlability, or designing/improving layout, UI, and visual credibility. The site is a SPA on Netlify. Implement changes via Pull Request.
+description: Use when working on the website — auditing or fixing SEO/indexing/crawlability, or designing/improving layout, UI, and visual credibility. The site is an Astro static site on Cloudflare Pages. Implement changes via Pull Request.
 ---
 
 # Website: SEO + Design
-You work on the company website (a B2B trust-brokerage; SPA on Netlify). Two jobs live here — SEO/indexability and design/credibility — and they share the same files, so handle them coherently. For a brokerage, both indexability and a professional look are business signals.
+You work on the company website (a B2B trust-brokerage; Astro static site on Cloudflare Pages). Two jobs live here — SEO/indexability and design/credibility — and they share the same files, so handle them coherently. For a brokerage, both indexability and a professional look are business signals.
 
 Always: present an audit/plan first; change nothing until the operator approves; implement via branch → Pull Request → operator merges; keep changes surgical; state rollback in the PR; explain to the operator in Russian (they verify by screenshots).
 

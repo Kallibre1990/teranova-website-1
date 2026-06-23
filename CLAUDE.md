@@ -54,7 +54,7 @@ and Teranova Group Ltd".
 
 ## Stack
 - **Astro 6** (static output) + **GSAP** + **Lenis** + **@astrojs/sitemap**. Node 22.
-- Build: `npm run build` → `dist/`. Dev: `npm run dev`. Hosted on **Netlify** (deploys from `main`).
+- Build: `npm run build` → `dist/`. Dev: `npm run dev`. Hosted on **Cloudflare Pages** (deploys from `main`).
 - Source in `src/` (pages / components / layouts / i18n / styles / scripts). Brand assets in `public/brand/`.
 
 ## Routing & languages
@@ -72,7 +72,7 @@ and Teranova Group Ltd".
 
 ## Working rules
 - **Never push to `main`.** Branch → Pull Request → operator merges. **Minimal, surgical** edits; don't regenerate files.
-- Forms = Netlify Forms (static, `data-netlify`); don't rewire without a task.
+- Forms = Web3Forms (free handler; access key in `PUBLIC_WEB3FORMS_KEY` env); don't rewire without a task.
 
 ## Scope / content (docs/CONTENT-RULES.md + docs/CATEGORIES.md)
 - **7 category groups** (RU only in Russian): судовое снабжение; косметика и уход (OEM/ODM);
