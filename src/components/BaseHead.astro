@@ -60,4 +60,4 @@ const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 <!-- Fonts: Manrope is self-hosted (woff2) via @fontsource-variable/manrope, imported
      in Base.astro — no Google Fonts CDN. Korean falls back to system Hangul fonts. -->
 
-{jsonLdList.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data)} />)}
+{jsonLdList.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />)}
