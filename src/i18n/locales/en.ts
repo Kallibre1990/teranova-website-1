@@ -204,6 +204,12 @@ export const en: UIDict = {
       role_maker: 'Korea · manufacturer',
       role_oem: 'Korea · OEM/ODM',
       role_exporter: 'Korea · exporter',
+      blurbs: [
+        'Full-cycle manufacturer — from development to series production.',
+        'OEM/ODM: production under your own brand.',
+        'Exporter experienced in shipping to the CIS, Europe and Asia.',
+        'Supplier of components and consumables.',
+      ],
     },
     buyers: {
       title: 'If you buy from Korea',
