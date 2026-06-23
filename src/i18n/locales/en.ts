@@ -75,6 +75,7 @@ export const en: UIDict = {
     title: 'What we supply from Korea',
     sub: 'The catalog is what we have already verified. What is not there — we source on demand. Commercial, passenger and special vehicles are a separate direction; consumer cars are out of scope.',
     demo_note: 'The catalog is being populated — some data is currently for demonstration.',
+    more: 'Learn more',
     groups: [
       { key: 'marine', name: 'Marine supply', blurb: 'Full supply for ships and shipyards.', items: ['engines & spare parts', 'deck equipment', 'propellers, rudders, thrusters', 'navigation & communications', 'life-saving & firefighting', 'paints & coatings'] },
       { key: 'cosmetics', name: 'Cosmetics & care (OEM/ODM)', blurb: 'Korean cosmetics and contract manufacturing under your brand.', items: ['skincare', 'serums & ampoules', 'sun care (SPF)', 'sheet masks & patches', 'color cosmetics', 'cosmetic packaging'] },
