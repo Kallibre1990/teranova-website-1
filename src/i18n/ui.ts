@@ -14,6 +14,7 @@ import it from './locales/it';
 import de from './locales/de';
 import fr from './locales/fr';
 import tr from './locales/tr';
+import es from './locales/es';
 import type { DeepPartial } from './deep';
 
 export type { UIDict };
@@ -28,6 +29,7 @@ export const languages = {
   de: 'Deutsch',
   fr: 'Français',
   tr: 'Türkçe',
+  es: 'Español',
 } as const;
 
 export type Lang = keyof typeof languages;
@@ -79,4 +81,5 @@ export const ui: Record<Lang, UIDict> = {
   de: build('de', de),
   fr: build('fr', fr),
   tr: build('tr', tr),
+  es: build('es', es),
 };
