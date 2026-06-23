@@ -9,6 +9,19 @@ export const site = {
   city: 'South Korea',
 } as const;
 
+/* Contact channels shown on the Contacts page. Emails are language-neutral and
+   live here (single source); their localized title/description live in i18n at
+   pages.contacts.channels, keyed by the same ids. */
+export const contactEmails = {
+  info: 'info@teranovagroup.com',
+  buyers: 'buyers@teranovagroup.com',
+  suppliers: 'suppliers@teranovagroup.com',
+  deals: 'deals@teranovagroup.com',
+  tenders: 'tenders@teranovagroup.com',
+} as const;
+export const contactOrder = ['info', 'buyers', 'suppliers', 'deals', 'tenders'] as const;
+export type ContactKey = (typeof contactOrder)[number];
+
 /* 7 category groups — full list, matches docs/CATEGORIES.md and the i18n dictionaries. */
 export const categoryKeys = ['marine', 'cosmetics', 'medical', 'industrial', 'transport', 'adjacent', 'chemical'] as const;
 export type CategoryKey = (typeof categoryKeys)[number];

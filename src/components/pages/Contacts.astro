@@ -3,13 +3,14 @@ import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { site } from '../../data/site';
+import { site, contactEmails, contactOrder } from '../../data/site';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.contacts;
+const channels = contactOrder.map((k) => ({ addr: contactEmails[k], ...p.channels[k] }));
 ---
 
 <PageHead sup={t.nav.contacts} title={p.title} sub={p.sub} />
@@ -18,14 +19,27 @@ const p = t.pages.contacts;
   <Atmosphere variant="dark" />
   <div class="wrap">
     <div class="card-grid">
-      <a class="icard icard--link" href={`mailto:${site.email}`}>
-        <span class="icard__label">{p.email_label}</span>
-        <span class="icard__big">{site.email}</span>
-      </a>
+      {
+        channels.map((ch) => (
+          <a class="icard icard--link" href={`mailto:${ch.addr}`}>
+            <span class="icard__label">{ch.t}</span>
+            <span class="icard__big">{ch.addr}</span>
+            <span class="icard__desc">{ch.d}</span>
+          </a>
+        ))
+      }
       <a class="icard icard--link" href={`tel:${site.phoneHref}`}>
         <span class="icard__label">{p.phone_label}</span>
         <span class="icard__big">{site.phone}</span>
       </a>
+      <div class="icard">
+        <span class="icard__label">{p.kakao_label}</span>
+        <span class="icard__big">{p.kakao_value}</span>
+      </div>
+      <div class="icard">
+        <span class="icard__label">{p.legal_label}</span>
+        <span class="icard__big">{p.legal_value}</span>
+      </div>
       <div class="icard">
         <span class="icard__label">{p.loc_label}</span>
         <span class="icard__big">{p.loc_value}</span>
@@ -42,4 +56,5 @@ const p = t.pages.contacts;
   .icard--link:hover { transform: translateY(-4px); border-color: rgba(63, 122, 224, 0.45); background: rgba(37, 99, 212, 0.1); }
   .icard__label { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); }
   .icard__big { font-size: 1.1rem; font-weight: 700; color: #fff; margin-top: 10px; word-break: break-word; }
+  .icard__desc { font-size: 0.85rem; color: var(--silver); line-height: 1.5; margin-top: 8px; }
 </style>
