@@ -4,6 +4,7 @@ import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
+import { demoSuppliers } from '../../data/demoSuppliers';
 interface Props {
   lang: Lang;
   groupKey: CategoryKey;
@@ -14,11 +15,12 @@ const g = t.pages.group;
 const group = t.categories.groups.find((x) => x.key === groupKey)!;
 const subs = group.items;
 
-const demo = [
-  { cls: 'badge--visited', label: t.verify.card_visited_t, nm: g.sample_a, role: g.role_maker, tags: [subs[0], subs[1]] },
-  { cls: 'badge--provided', label: t.verify.card_provided_t, nm: g.sample_b, role: g.role_oem, tags: [subs[2] ?? subs[0]] },
-  { cls: 'badge--provided', label: t.verify.card_provided_t, nm: g.sample_c, role: g.role_exporter, tags: [subs[3] ?? subs[1]] },
-];
+const suppliers = demoSuppliers[groupKey] ?? [];
+const roleLabel = { maker: g.role_maker, oem: g.role_oem, exporter: g.role_exporter } as const;
+const statusInfo = {
+  visited: { cls: 'badge--visited', label: t.verify.card_visited_t },
+  provided: { cls: 'badge--provided', label: t.verify.card_provided_t },
+} as const;
 ---
 
 <PageHead sup={t.categories.sup} title={group.name} sub={group.blurb} />
@@ -54,12 +56,20 @@ const demo = [
     </div>
     <div class="sup-grid">
       {
-        demo.map((s) => (
+        suppliers.map((s) => (
           <article class="scard">
-            <span class={`badge ${s.cls}`}><span class="dot" />{s.label}</span>
-            <h3 class="scard__nm">{s.nm}</h3>
-            <p class="scard__role">{s.role}</p>
-            <div class="scard__tags">{s.tags.map((tag) => <span>{tag}</span>)}</div>
+            <div class="scard__head">
+              <span class="scard__mono" aria-hidden="true">{s.initials}</span>
+              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+            </div>
+            <h3 class="scard__nm">{s.name}</h3>
+            <p class="scard__role">{roleLabel[s.role]} · <span class="scard__demo">{g.demo_badge}</span></p>
+            <p class="scard__blurb">{g.blurbs[s.blurb]}</p>
+            <div class="scard__tags">{s.tags.map((i) => <span>{subs[i]}</span>)}</div>
+            <div class="scard__contacts">
+              <a href={`mailto:${s.email}`}>{s.email}</a>
+              <span>{s.phone}</span>
+            </div>
           </article>
         ))
       }
@@ -81,12 +91,22 @@ const demo = [
   .pcard__ic svg { width: 18px; height: 18px; }
   .pcard__nm { font-size: 0.9rem; font-weight: 600; color: var(--silver-bright); line-height: 1.3; }
   .group__head { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 16px; }
-  .sup-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-  .scard { background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 22px; }
-  .scard__nm { font-size: 1.02rem; font-weight: 800; color: #fff; margin: 4px 0 4px; }
-  .scard__role { font-size: 0.84rem; color: var(--silver-muted); }
+
+  .sup-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .scard { display: flex; flex-direction: column; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 22px; }
+  .scard__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+  .scard__mono { width: 44px; height: 44px; flex: none; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light)); color: #fff; font-weight: 800; font-size: 0.95rem; }
+  .scard__nm { font-size: 1.05rem; font-weight: 800; color: #fff; }
+  .scard__role { font-size: 0.82rem; color: var(--silver-muted); margin-top: 3px; }
+  .scard__demo { color: var(--cobalt-light); font-weight: 700; }
+  .scard__blurb { font-size: 0.9rem; color: var(--silver); line-height: 1.6; margin-top: 12px; }
   .scard__tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
   .scard__tags span { font-size: 0.74rem; font-weight: 600; color: var(--silver-muted); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 100px; padding: 4px 10px; }
+  .scard__contacts { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.08); font-size: 0.82rem; }
+  .scard__contacts a { color: var(--cobalt-light); word-break: break-all; }
+  .scard__contacts a:hover { color: #fff; }
+  .scard__contacts span { color: var(--silver-muted); }
+
   .group__foot { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .group__foot .note { font-size: 0.84rem; color: var(--silver-muted); max-width: 48ch; }
   @media (max-width: 820px) { .sup-grid { grid-template-columns: 1fr; } .prod-grid { grid-template-columns: 1fr 1fr; } }

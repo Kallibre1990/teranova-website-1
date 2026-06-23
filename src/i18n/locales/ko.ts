@@ -191,6 +191,12 @@ export const ko: UIDict = {
       role_maker: '한국 · 제조사',
       role_oem: '한국 · OEM/ODM',
       role_exporter: '한국 · 수출사',
+      blurbs: [
+        '개발부터 양산까지 풀사이클 제조사.',
+        'OEM/ODM: 귀사 브랜드로 생산.',
+        'CIS·유럽·아시아 수출 경험 보유 수출사.',
+        '부품·소모품 공급사.',
+      ],
     },
     buyers: {
       title: '한국에서 구매하신다면',
