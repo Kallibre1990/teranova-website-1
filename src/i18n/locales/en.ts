@@ -252,7 +252,7 @@ export const en: UIDict = {
       sub: 'A short take on how we work. Didn’t find an answer — write to us.',
       items: [
         { q: 'Are you a manufacturer or an intermediary?', a: 'We are a B2B trust partner: we find and verify Korean manufacturers and support the deal. We do not manufacture ourselves.' },
-        { q: 'What do the verification statuses mean?', a: '“Verified — site visit” means the founder was at the factory in person, with photos and a date. “Company-provided data” means a profile from the supplier’s words. It is a documented fact, not a promise of outcome.' },
+        { q: 'What do the verification statuses mean?', a: '“Verified — site visit” means a team member was at the factory in person, with photos and a date. “Company-provided data” means a profile from the supplier’s words. It is a documented fact, not a promise of outcome.' },
         { q: 'What is in the catalog vs on demand?', a: 'The catalog is what we have already verified. If something is missing, we find a factory for your request: source, verify and arrange supply.' },
         { q: 'Which directions do you cover?', a: 'Marine supply; cosmetics & care (OEM/ODM); medical & aesthetics; industrial equipment; commercial & special vehicles; adjacent sectors; chemicals & materials. Consumer cars are out of scope.' },
         { q: 'Where are your buyers from?', a: 'We support buyers from the CIS, Europe, Türkiye, the USA and Asia. On the ground we are in Korea, Japan, China and Türkiye; other regions on request.' },
