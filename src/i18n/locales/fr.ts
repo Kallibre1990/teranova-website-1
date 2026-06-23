@@ -10,6 +10,8 @@ const fr: DeepPartial<UIDict> = {
     about: "À propos",
     faq: "FAQ",
     contacts: "Contacts",
+    team: "Équipe",
+    tenders: "Appels d'offres",
   },
 
   common: {
@@ -21,6 +23,8 @@ const fr: DeepPartial<UIDict> = {
     switch_lang: "Langue",
     scroll: "Faites défiler vers le bas",
     loading: "Chargement",
+    prev: "Précédent",
+    next: "Suivant",
   },
 
   meta: {
@@ -53,7 +57,7 @@ const fr: DeepPartial<UIDict> = {
     intro:
       "Chaque fournisseur dispose d'un statut. Il s'agit d'un fait documenté, et non d'une promesse de résultat — nous coordonnons et accompagnons la transaction.",
     card_visited_t: "Vérifié — visite sur site",
-    card_visited_d: "Le fondateur s'est rendu en personne à l'usine — avec photos et date de la visite.",
+    card_visited_d: "Un collaborateur de l'équipe s'est rendu en personne à l'usine — avec photos et date de la visite.",
     card_provided_t: "Données fournies par l'entreprise",
     card_provided_d: "Informations communiquées par le fournisseur — une visite en personne n'a pas encore eu lieu.",
     note: "Les conditions de qualité sont fixées dans le contrat avec le fournisseur. Nous ne publions pas les coordonnées personnelles des fournisseurs — toute communication passe par Teranova.",
@@ -65,6 +69,7 @@ const fr: DeepPartial<UIDict> = {
     title: "Ce que nous fournissons depuis la Corée",
     sub: "Le catalogue regroupe ce que nous avons déjà vérifié. Ce qui n'y figure pas, nous le sourçons sur demande. Les véhicules commerciaux, de tourisme et spéciaux constituent une activité distincte ; les voitures particulières grand public sont hors de notre périmètre.",
     demo_note: "Le catalogue est en cours d'enrichissement — certaines données sont actuellement présentées à titre de démonstration.",
+    more: "En savoir plus",
     groups: [
       { key: "marine", name: "Avitaillement maritime", blurb: "Avitaillement complet pour navires et chantiers navals.", items: ["moteurs et pièces détachées", "équipements de pont", "hélices, gouvernails, propulseurs", "navigation et communications", "sauvetage et lutte contre l'incendie", "peintures et revêtements"] },
       { key: "cosmetics", name: "Cosmétiques et soins (OEM/ODM)", blurb: "Cosmétiques coréens et fabrication à façon sous votre marque.", items: ["soin de la peau", "sérums et ampoules", "protection solaire (SPF)", "masques en tissu et patchs", "maquillage", "emballages cosmétiques"] },
@@ -72,6 +77,7 @@ const fr: DeepPartial<UIDict> = {
       { key: "industrial", name: "Équipements industriels", blurb: "Machines-outils, automatisation et composants pour la production.", items: ["machines CNC", "découpe laser et plasma", "robots industriels", "hydraulique et pneumatique", "pompes et vannes", "moules et outillage"] },
       { key: "transport", name: "Véhicules commerciaux et spéciaux", blurb: "Véhicules de transport de marchandises, de passagers et spéciaux avec pièces détachées.", items: ["camions et tracteurs routiers", "autobus", "engins de chantier", "machines agricoles", "véhicules spéciaux", "remorques, pneus, batteries"] },
       { key: "adjacent", name: "Secteurs connexes", blurb: "Large couverture des niches où la Corée excelle.", items: ["matériaux de construction", "agroalimentaire et emballage", "traitement de l'eau et écologie", "énergie et énergies renouvelables", "électronique industrielle et LED", "textiles techniques"] },
+      { key: "chemical", name: "Chimie et matériaux", blurb: "Matières premières chimiques, polymères et matériaux industriels.", items: ["matières premières chimiques et réactifs", "plastiques et polymères", "caoutchouc", "peintures et revêtements", "adhésifs et mastics", "engrais et produits agrochimiques"] },
     ],
   },
 
@@ -159,6 +165,28 @@ const fr: DeepPartial<UIDict> = {
     disclaimer:
       "Le catalogue est en cours d'enrichissement ; certaines données sont présentées à titre de démonstration. Les prix sont indicatifs et ne constituent pas une offre. Teranova Group coordonne et accompagne les transactions par l'intermédiaire de partenaires de confiance et n'est pas un fabricant.",
     rights: "© 2025 Teranova Group",
+  },
+
+  about_home: {
+    sup: "À propos de nous",
+    title: "Des personnes réelles et des visites d'usine en personne",
+    body: "Teranova trouve des fabricants en Corée, les vérifie — jusqu'à une visite personnelle sur site à l'usine — et mène la transaction de la première demande jusqu'à la réception des marchandises. Un seul partenaire responsable plutôt qu'une chaîne d'intermédiaires.",
+    photo_note: "De vraies photos seront placées ici : l'équipe et les visites d'usine.",
+    cta: "En savoir plus sur l'entreprise",
+  },
+
+  tenders_home: {
+    sup: "Appels d'offres",
+    title: "Appels d'offres et achats clés en main",
+    body: "Nous sourçons des fabricants coréens pour votre appel d'offres ou votre demande de prix, vous aidons à préparer la proposition et accompagnons l'approvisionnement.",
+    cta: "Envoyer une demande d'appel d'offres",
+  },
+
+  team_home: {
+    sup: "Équipe",
+    title: "Derrière chaque transaction, il y a des personnes réelles",
+    body: "La direction et les responsables qui gèrent personnellement le sourcing, la vérification et l'approvisionnement.",
+    cta: "Rencontrer l'équipe",
   },
 };
 

@@ -34,7 +34,7 @@ export const ko: UIDict = {
   },
 
   meta: {
-    home_title: 'Teranova Group — 검증된 한국 제조사 및 거래 전 과정 지원',
+    home_title: 'Teranova Group — 검증된 한국 제조사 및 거래 지원',
     home_desc:
       '한국 공장에서 귀사 창고까지 공급을 발굴·검증·지원합니다: 선박 용품, 화장품·뷰티(OEM/ODM), 의료·미용, 산업 장비, 상용·특수 차량.',
   },

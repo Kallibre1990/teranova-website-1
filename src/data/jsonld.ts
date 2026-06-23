@@ -55,3 +55,24 @@ export function faqJsonLd(lang: Lang) {
     })),
   };
 }
+
+/** BreadcrumbList for a catalog group page (Home › Catalog › Group). */
+export function breadcrumbJsonLd(lang: Lang, group: { key: string; name: string }) {
+  const base = site.domain;
+  const t = ui[lang];
+  const crumbs = [
+    { name: 'Teranova Group', path: '/' },
+    { name: t.nav.catalog, path: '/catalog' },
+    { name: group.name, path: `/catalog/${group.key}` },
+  ];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: c.name,
+      item: base + localizePath(c.path, lang),
+    })),
+  };
+}
