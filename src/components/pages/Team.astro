@@ -1,0 +1,49 @@
+---
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.team;
+---
+
+<PageHead sup={t.nav.team} title={p.title} sub={p.sub} />
+
+<section class="section section--navy">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="card-grid card-grid--2">
+      {
+        p.members.map((m) => (
+          <article class="icard">
+            <span class="team__avatar" aria-hidden="true">{m.initials}</span>
+            <h2 class="team__name">{m.name}</h2>
+            <p class="team__role">{m.role}</p>
+            <p class="team__bio">{m.bio}</p>
+          </article>
+        ))
+      }
+    </div>
+    <p class="page-note">{p.note}</p>
+    <div class="page-cta">
+      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{p.cta}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .team__avatar {
+    display: flex; align-items: center; justify-content: center;
+    width: 56px; height: 56px; border-radius: 50%;
+    background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light));
+    color: #fff; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.02em;
+    margin-bottom: 18px; box-shadow: 0 8px 20px -8px rgba(37, 99, 212, 0.7);
+  }
+  .team__name { font-size: 1.12rem; font-weight: 800; color: #fff; letter-spacing: -0.01em; }
+  .team__role { font-size: 0.84rem; font-weight: 700; letter-spacing: 0.04em; color: var(--cobalt-light); margin-top: 4px; }
+  .team__bio { font-size: 0.95rem; color: var(--silver); line-height: 1.65; margin-top: 14px; }
+</style>

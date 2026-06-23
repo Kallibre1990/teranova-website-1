@@ -16,6 +16,8 @@ export const en: UIDict = {
     about: 'About',
     faq: 'FAQ',
     contacts: 'Contacts',
+    team: 'Team',
+    tenders: 'Tenders',
   },
 
   common: {
@@ -232,6 +234,31 @@ export const en: UIDict = {
       phone_label: 'Phone',
       loc_label: 'Presence',
       loc_value: 'Korea · Japan · China · Türkiye',
+    },
+    team: {
+      title: 'Team',
+      sub: 'Behind Teranova are real people. We find production in Korea, verify it and run the deal from the first request to receipt of the goods.',
+      members: [
+        { initials: 'AM', name: 'Anton Madelkanov', role: 'Founder', bio: 'Builds the company and personally checks production sites in Korea.' },
+        { initials: 'IT', name: 'Iren Tutova', role: 'CEO', bio: 'Runs operations and deal support.' },
+        { initials: 'D', name: 'Denis (Ha Jeong-su / 하정수)', role: 'Manager', bio: 'Works with suppliers and clients and supports supply.' },
+        { initials: 'L', name: 'Larisa (An / 안라리사)', role: 'Manager', bio: 'Works with suppliers and clients and supports supply.' },
+      ],
+      note: 'We do not publish staff personal addresses — write to us via the form or at info@teranovagroup.com.',
+      cta: 'Contact the team',
+    },
+    tenders: {
+      title: 'Tenders & procurement',
+      sub: 'We help you take part in tenders and procurement with Korean manufacturers: we source factories for the tender requirements or an RFQ, help prepare the proposal and support the supply.',
+      points: [
+        'Sourcing Korean manufacturers for tender requirements or an RFQ',
+        'Help with preparing the commercial proposal and documents',
+        'Agreeing prices, timelines and terms with the factory',
+        'Supply support: payment, logistics, control',
+      ],
+      form_title: 'Send a tender request',
+      form_note: 'Describe the tender subject or your RFQ — we will come back with options from verified factories.',
+      cta: 'Send a tender request',
     },
   },
 
