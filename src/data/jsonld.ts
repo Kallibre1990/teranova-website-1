@@ -41,3 +41,17 @@ export function homeJsonLd(lang: Lang) {
     },
   ];
 }
+
+/** FAQPage structured data — built from the localized FAQ items (for rich results). */
+export function faqJsonLd(lang: Lang) {
+  const t = ui[lang];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: t.pages.faq.items.map((it) => ({
+      '@type': 'Question',
+      name: it.q,
+      acceptedAnswer: { '@type': 'Answer', text: it.a },
+    })),
+  };
+}
