@@ -1,0 +1,107 @@
+---
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { localizePath } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { site } from '../../data/site';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.tenders;
+const action = localizePath('/thanks', lang);
+---
+
+<PageHead sup={t.nav.tenders} title={p.title} sub={p.sub} />
+
+<section class="section section--navy tenders">
+  <Atmosphere variant="dark" />
+  <div class="wrap tenders__grid">
+    <div class="tenders__intro">
+      <ul class="tenders__points">
+        {
+          p.points.map((pt) => (
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>
+              <span>{pt}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="tenders__mail"><a href={`mailto:${site.email}`}>{site.email}</a></p>
+    </div>
+
+    <div class="tenders__formwrap">
+      <h2 class="tenders__form-title">{p.form_title}</h2>
+      <p class="tenders__form-note">{p.form_note}</p>
+      <form class="oform" name="tender" method="POST" action={action} data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="tender" />
+        <p class="oform__hp" hidden><label>Leave empty: <input name="bot-field" /></label></p>
+        <div class="oform__grid">
+          <div class="fgrp">
+            <label for="td-company">{t.form.company}</label>
+            <input id="td-company" name="company" type="text" placeholder={t.form.ph_company} autocomplete="organization" />
+          </div>
+          <div class="fgrp">
+            <label for="td-contact">{t.form.contact} <span class="req">*</span></label>
+            <input id="td-contact" name="contact" type="text" required placeholder={t.form.ph_contact} autocomplete="name" />
+          </div>
+          <div class="fgrp">
+            <label for="td-email">{t.form.email} <span class="req">*</span></label>
+            <input id="td-email" name="email" type="email" required placeholder={t.form.ph_email} autocomplete="email" />
+          </div>
+          <div class="fgrp">
+            <label for="td-phone">{t.form.phone}</label>
+            <input id="td-phone" name="phone" type="text" placeholder={t.form.ph_phone} autocomplete="tel" />
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="td-need">{t.form.need} <span class="req">*</span></label>
+            <input id="td-need" name="need" type="text" required placeholder={t.form.ph_need} />
+          </div>
+          <div class="fgrp">
+            <label for="td-volume">{t.form.volume}</label>
+            <input id="td-volume" name="volume" type="text" placeholder={t.form.ph_volume} />
+          </div>
+          <div class="fgrp">
+            <label for="td-timeline">{t.form.timeline}</label>
+            <input id="td-timeline" name="timeline" type="text" placeholder={t.form.ph_timeline} />
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="td-comment">{t.form.comment}</label>
+            <textarea id="td-comment" name="comment" rows="3" placeholder={t.form.ph_comment}></textarea>
+          </div>
+        </div>
+        <button class="btn btn--primary oform__submit" type="submit">{p.cta}</button>
+        <p class="oform__hint">{t.form.required_hint}</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<style>
+  .tenders__grid { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1.05fr; gap: 56px; align-items: start; }
+  .tenders__points { display: flex; flex-direction: column; gap: 13px; }
+  .tenders__points li { display: flex; gap: 12px; align-items: flex-start; font-size: 0.98rem; color: var(--silver); line-height: 1.5; }
+  .tenders__points svg { color: var(--cobalt-light); flex-shrink: 0; margin-top: 2px; }
+  .tenders__mail { margin-top: 24px; font-size: 0.95rem; color: var(--silver-muted); }
+  .tenders__mail a:hover { color: #fff; }
+
+  .tenders__formwrap { background: var(--surface); color: var(--ink); border-radius: var(--r-xl); padding: clamp(24px, 3vw, 36px); box-shadow: var(--sh-l); }
+  .tenders__form-title { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.01em; }
+  .tenders__form-note { font-size: 0.9rem; color: var(--sub); line-height: 1.6; margin: 8px 0 20px; }
+  .oform__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .fgrp { display: flex; flex-direction: column; gap: 6px; }
+  .fgrp--full { grid-column: 1 / -1; }
+  .fgrp label { font-size: 0.8rem; font-weight: 700; color: var(--ink); }
+  .req { color: var(--cobalt); }
+  .oform input, .oform textarea { border: 1px solid var(--line-2); border-radius: var(--r); background: #fff; padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%; transition: border-color .2s, box-shadow .2s; }
+  .oform input::placeholder, .oform textarea::placeholder { color: #a9b6c8; }
+  .oform input:focus, .oform textarea:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px var(--cobalt-soft); }
+  .oform textarea { resize: vertical; min-height: 84px; }
+  .oform__submit { width: 100%; margin-top: 20px; }
+  .oform__hint { font-size: 0.78rem; color: var(--faint); line-height: 1.5; margin-top: 12px; }
+
+  @media (max-width: 880px) { .tenders__grid { grid-template-columns: 1fr; gap: 36px; } }
+  @media (max-width: 460px) { .oform__grid { grid-template-columns: 1fr; } }
+</style>

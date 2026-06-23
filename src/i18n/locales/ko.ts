@@ -16,6 +16,8 @@ export const ko: UIDict = {
     about: '회사 소개',
     faq: 'FAQ',
     contacts: '연락처',
+    team: '팀',
+    tenders: '입찰',
   },
 
   common: {
@@ -219,6 +221,31 @@ export const ko: UIDict = {
       phone_label: '전화',
       loc_label: '거점',
       loc_value: '한국 · 일본 · 중국 · 튀르키예',
+    },
+    team: {
+      title: '팀',
+      sub: 'Teranova 뒤에는 실제 사람들이 있습니다. 한국에서 제조 현장을 발굴·검증하고 첫 문의부터 화물 수령까지 거래를 진행합니다.',
+      members: [
+        { initials: 'AM', name: 'Anton Madelkanov', role: '창업자', bio: '회사를 이끌고 한국 제조 현장을 직접 점검합니다.' },
+        { initials: 'IT', name: 'Iren Tutova', role: '대표', bio: '운영과 거래 지원을 총괄합니다.' },
+        { initials: '하', name: '하정수 (Denis)', role: '매니저', bio: '공급업체·고객 관리와 공급 지원을 담당합니다.' },
+        { initials: '안', name: '안라리사 (Larisa)', role: '매니저', bio: '공급업체·고객 관리와 공급 지원을 담당합니다.' },
+      ],
+      note: '직원 개인 연락처는 공개하지 않습니다 — 양식 또는 info@teranovagroup.com 으로 문의해 주세요.',
+      cta: '팀에 문의하기',
+    },
+    tenders: {
+      title: '입찰·조달',
+      sub: '한국 제조사와 함께하는 입찰·조달을 지원합니다: 입찰 요건이나 견적 요청(RFQ)에 맞는 공장을 발굴하고, 제안서 준비를 돕고, 공급을 지원합니다.',
+      points: [
+        '입찰 요건 또는 RFQ에 맞는 한국 제조사 발굴',
+        '제안서 및 서류 준비 지원',
+        '공장과 가격·일정·조건 협의',
+        '공급 지원: 결제·물류·검수',
+      ],
+      form_title: '입찰 문의 보내기',
+      form_note: '입찰 대상이나 RFQ를 알려 주세요 — 검증된 공장의 옵션으로 회신드립니다.',
+      cta: '입찰 문의 보내기',
     },
   },
 
