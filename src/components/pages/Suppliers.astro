@@ -1,14 +1,17 @@
 ---
 import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
-import { anchorHref } from '../../i18n/utils';
+import { localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
+import { leadCategoryValues, oemOdmValues } from '../../data/site';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.suppliers;
+const f = t.form;
+const sf = p.form;
 ---
 
 <PageHead sup={t.nav.suppliers} title={p.title} sub={p.sub} />
@@ -28,8 +31,154 @@ const p = t.pages.suppliers;
       }
     </div>
     <p class="page-note">{p.free_note}</p>
-    <div class="page-cta">
-      <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{p.cta}</a>
+
+    <div class="sform-wrap" id="supplier-form">
+      <h2 class="sform-title">{sf.title}</h2>
+      <p class="sform-lead">{sf.lead}</p>
+      <form
+        class="oform"
+        data-lead
+        data-thanks={localizePath('/thanks', lang)}
+        data-required="company,category,products,contact"
+        data-msg-required={f.err_required}
+        data-msg-contact={f.err_contact}
+        data-msg-email={f.err_email}
+        data-msg-phone={f.err_phone}
+        novalidate
+      >
+        <input class="oform__hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <input type="hidden" name="source" value="supplier" />
+        <input type="hidden" name="lang" value={lang} />
+        <input type="hidden" name="page" value={Astro.url.pathname} />
+
+        <p class="sform-sec">{sf.sec_company}</p>
+        <div class="oform__grid">
+          <div class="fgrp">
+            <label for="sp-company">{f.company} <span class="req">*</span></label>
+            <input id="sp-company" name="company" type="text" placeholder={f.ph_company} autocomplete="organization" />
+          </div>
+          <div class="fgrp">
+            <label for="sp-site">{sf.site_url}</label>
+            <input id="sp-site" name="site_url" type="url" placeholder="https://" autocomplete="url" />
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="sp-loc">{sf.country_city}</label>
+            <input id="sp-loc" name="country_city" type="text" />
+          </div>
+        </div>
+
+        <p class="sform-sec">{sf.sec_produce}</p>
+        <div class="oform__grid">
+          <div class="fgrp fgrp--full">
+            <label for="sp-category">{f.category} <span class="req">*</span></label>
+            <select id="sp-category" name="category">
+              <option value="">{f.category_ph}</option>
+              {leadCategoryValues.map((v, i) => <option value={v}>{f.categories[i]}</option>)}
+            </select>
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="sp-products">{sf.products} <span class="req">*</span></label>
+            <textarea id="sp-products" name="products" rows="3"></textarea>
+          </div>
+          <div class="fgrp">
+            <label for="sp-oem">{sf.oem_odm}</label>
+            <select id="sp-oem" name="oem_odm">
+              <option value="">{sf.choose}</option>
+              {oemOdmValues.map((v, i) => <option value={v}>{sf.oem_odm_opts[i]}</option>)}
+            </select>
+          </div>
+          <div class="fgrp">
+            <label for="sp-moq">{sf.moq}</label>
+            <input id="sp-moq" name="moq" type="text" />
+          </div>
+          <div class="fgrp">
+            <label for="sp-capacity">{sf.capacity}</label>
+            <input id="sp-capacity" name="capacity" type="text" />
+          </div>
+          <div class="fgrp">
+            <label for="sp-incoterms">{sf.incoterms}</label>
+            <input id="sp-incoterms" name="incoterms" type="text" />
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="sp-certs">{sf.certifications}</label>
+            <input id="sp-certs" name="certifications" type="text" />
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="sp-export">{sf.export_markets}</label>
+            <input id="sp-export" name="export_markets" type="text" />
+          </div>
+        </div>
+
+        <p class="sform-sec">{sf.sec_contact}</p>
+        <div class="oform__grid">
+          <div class="fgrp">
+            <label for="sp-contact">{f.contact} <span class="req">*</span></label>
+            <input id="sp-contact" name="contact" type="text" placeholder={f.ph_contact} autocomplete="name" />
+          </div>
+          <div class="fgrp">
+            <label for="sp-position">{sf.position}</label>
+            <input id="sp-position" name="position" type="text" autocomplete="organization-title" />
+          </div>
+          <div class="fgrp">
+            <label for="sp-email">{f.email} <span class="req">*</span></label>
+            <input id="sp-email" name="email" type="email" placeholder={f.ph_email} autocomplete="email" />
+          </div>
+          <div class="fgrp">
+            <label for="sp-phone">{sf.phone} <span class="req">*</span></label>
+            <input id="sp-phone" name="phone" type="text" autocomplete="tel" />
+          </div>
+          <div class="fgrp fgrp--full">
+            <label for="sp-comment">{f.comment}</label>
+            <textarea id="sp-comment" name="comment" rows="3" placeholder={f.ph_comment}></textarea>
+          </div>
+          <div class="fgrp fgrp--full">
+            <label class="check">
+              <input type="checkbox" name="visit_ready" value="1" />
+              <span>{sf.visit_ready}</span>
+            </label>
+          </div>
+        </div>
+
+        <p class="oform__err" data-err="msg" hidden></p>
+        <p class="oform__err" data-err="network" hidden>{f.err_network} <a href="mailto:info@teranovagroup.com">info@teranovagroup.com</a></p>
+        <button class="btn btn--primary oform__submit" type="submit">{sf.submit}</button>
+        <p class="oform__hint">{f.required_hint}</p>
+      </form>
     </div>
   </div>
 </section>
+
+<script>
+  import '../../scripts/leadForm';
+</script>
+
+<style>
+  .sform-wrap { background: var(--surface); color: var(--ink); border-radius: var(--r-xl); padding: clamp(24px, 3vw, 40px); box-shadow: var(--sh-l); max-width: 860px; margin: clamp(36px, 5vw, 56px) auto 0; }
+  .sform-title { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.01em; }
+  .sform-lead { font-size: 0.95rem; color: var(--faint); line-height: 1.6; margin: 8px 0 4px; }
+  .sform-sec { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cobalt); margin: 26px 0 12px; }
+
+  .oform__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .fgrp { display: flex; flex-direction: column; gap: 6px; }
+  .fgrp--full { grid-column: 1 / -1; }
+  .fgrp label { font-size: 0.8rem; font-weight: 700; color: var(--ink); }
+  .req { color: var(--cobalt); }
+  .oform input, .oform textarea, .oform select { border: 1px solid var(--line-2); border-radius: var(--r); background: #fff; padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%; transition: border-color .2s, box-shadow .2s; }
+  .oform input::placeholder, .oform textarea::placeholder { color: #a9b6c8; }
+  .oform input:focus, .oform textarea:focus, .oform select:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px var(--cobalt-soft); }
+  .oform .is-error, .oform .is-error:focus { border-color: #d1495b; box-shadow: 0 0 0 3px rgba(209, 73, 91, 0.15); }
+  .oform textarea { resize: vertical; min-height: 84px; }
+  .oform__hp { position: absolute !important; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+  .check { display: flex; flex-direction: row; align-items: flex-start; gap: 10px; cursor: pointer; }
+  .check input { width: auto; margin-top: 3px; flex: none; }
+  .check span { font-size: 0.9rem; font-weight: 600; color: var(--ink); line-height: 1.45; }
+
+  .oform__submit { width: 100%; margin-top: 22px; }
+  .oform__err { font-size: 0.84rem; color: #d1495b; line-height: 1.5; margin-top: 14px; }
+  .oform__err a { color: var(--cobalt); font-weight: 600; }
+  .oform__hint { font-size: 0.78rem; color: var(--faint); line-height: 1.5; margin-top: 12px; }
+
+  @media (max-width: 600px) { .oform input, .oform textarea, .oform select { font-size: 16px; } }
+  @media (max-width: 480px) { .oform__grid { grid-template-columns: 1fr; } }
+</style>

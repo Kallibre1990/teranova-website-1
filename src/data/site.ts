@@ -50,3 +50,7 @@ export const leadCategoryValues = [
   'химическая продукция',
   'Другое — не уверен',
 ] as const;
+
+/* Supplier-form manufacturing type — STABLE values (localized labels live in
+   i18n at pages.suppliers.form.oem_odm_opts, same order). */
+export const oemOdmValues = ['OEM', 'ODM', 'Собственный бренд', 'Не уверен'] as const;

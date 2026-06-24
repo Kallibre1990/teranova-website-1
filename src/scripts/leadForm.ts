@@ -5,10 +5,11 @@
    completion we redirect to the form's /thanks/ page, and on a network error
    we reveal a fallback with a direct email.
 
-   Validation (before sending): need a description, plus at least one VALID
-   contact — a valid email OR a valid phone. A filled-but-invalid email/phone
-   blocks the send and highlights the field. Messages come localized via the
-   form's data-msg-* attributes. */
+   Required fields come from data-required (comma-separated, default "need"), so
+   different forms (buyer / supplier / tender) can demand different fields. On
+   top of that, every form needs at least one VALID contact — a valid email OR a
+   valid phone. A filled-but-invalid email/phone blocks the send and highlights
+   the field. Messages are localized via the form's data-msg-* attributes. */
 const ENDPOINT = import.meta.env.PUBLIC_LEADS_ENDPOINT as string | undefined;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -16,10 +17,13 @@ const PHONE_ALLOWED = /^[+()\d\s-]+$/;
 const isEmail = (v: string) => EMAIL_RE.test(v);
 const isPhone = (v: string) => PHONE_ALLOWED.test(v) && (v.match(/\d/g) || []).length >= 7;
 
-type MsgKey = 'need' | 'contact' | 'email' | 'phone';
+type MsgKey = 'need' | 'required' | 'contact' | 'email' | 'phone';
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 function wire(form: HTMLFormElement) {
   const thanks = form.dataset.thanks || '/thanks/';
+  const required = (form.dataset.required || 'need').split(',').map((s) => s.trim()).filter(Boolean);
+  const watch = Array.from(new Set([...required, 'email', 'phone']));
   const msgEl = form.querySelector<HTMLElement>('[data-err="msg"]');
   const errNetwork = form.querySelector<HTMLElement>('[data-err="network"]');
   const submit = form.querySelector<HTMLButtonElement>('button[type="submit"]');
@@ -27,19 +31,20 @@ function wire(form: HTMLFormElement) {
     form.querySelector<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>(`[name="${n}"]`);
   const val = (n: string) => (field(n)?.value || '').trim();
 
+  const clearField = (n: string) => {
+    const el = field(n);
+    el?.classList.remove('is-error');
+    el?.removeAttribute('aria-invalid');
+  };
   const clearErrors = () => {
     if (msgEl) msgEl.hidden = true;
-    for (const n of ['need', 'email', 'phone']) {
-      const el = field(n);
-      el?.classList.remove('is-error');
-      el?.removeAttribute('aria-invalid');
-    }
+    watch.forEach(clearField);
   };
 
   const fail = (key: MsgKey, highlight: string[]) => {
     if (errNetwork) errNetwork.hidden = true;
     if (msgEl) {
-      msgEl.textContent = form.dataset[`msg${key[0].toUpperCase()}${key.slice(1)}`] || '';
+      msgEl.textContent = form.dataset[`msg${cap(key)}`] || '';
       msgEl.hidden = false;
     }
     let focused = false;
@@ -56,13 +61,14 @@ function wire(form: HTMLFormElement) {
   };
 
   // Clear a field's error state as soon as the visitor edits it.
-  for (const n of ['need', 'email', 'phone']) {
-    field(n)?.addEventListener('input', () => {
-      const el = field(n);
-      el?.classList.remove('is-error');
-      el?.removeAttribute('aria-invalid');
+  for (const n of watch) {
+    const el = field(n);
+    const clear = () => {
+      clearField(n);
       if (msgEl) msgEl.hidden = true;
-    });
+    };
+    el?.addEventListener('input', clear);
+    el?.addEventListener('change', clear);
   }
 
   form.addEventListener('submit', async (e) => {
@@ -73,21 +79,23 @@ function wire(form: HTMLFormElement) {
 
     clearErrors();
 
-    const need = val('need');
+    for (const n of required) {
+      if (!val(n)) return fail(n === 'need' ? 'need' : 'required', [n]);
+    }
     const email = val('email');
     const phone = val('phone');
-
-    if (!need) return fail('need', ['need']);
     if (email && !isEmail(email)) return fail('email', ['email']);
     if (phone && !isPhone(phone)) return fail('phone', ['phone']);
     if (!(isEmail(email) || isPhone(phone))) return fail('contact', ['email', 'phone']);
 
-    // Build urlencoded payload from all named fields except the honeypot.
+    // Build urlencoded payload from named fields (skip honeypot + unchecked boxes).
     const params = new URLSearchParams();
     for (const el of Array.from(form.elements) as Array<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >) {
       if (!el.name || el.name === 'website') continue;
+      const type = (el as HTMLInputElement).type;
+      if ((type === 'checkbox' || type === 'radio') && !(el as HTMLInputElement).checked) continue;
       params.append(el.name, el.value);
     }
     params.set('page', location.pathname);
