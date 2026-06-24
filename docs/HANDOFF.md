@@ -18,7 +18,7 @@
 ## 2. Стек и команды
 - **Astro 6** (статическая сборка) + GSAP + Lenis + @astrojs/sitemap + @fontsource-variable/manrope. **Node 22**.
 - Установка: `npm install` · Разработка: `npm run dev` · Сборка: `npm run build` → `dist/`.
-- **Хостинг:** Cloudflare Pages (деплой из `main`). **Формы:** Web3Forms (см. `docs/FORMS-SETUP.md`).
+- **Хостинг:** Cloudflare Pages (деплой из `main`). **Формы:** Google Apps Script endpoint (см. `docs/FORMS-SETUP.md`).
 - **Правило:** в `main` напрямую не пушим: задача → ветка → Pull Request → оператор мёрджит.
 
 ## 3. Карта репозитория (ключевое)
@@ -70,13 +70,14 @@
 
 ## 6. Хостинг и формы
 - Cloudflare Pages, деплой из `main`. Домен на Cloudflare.
-- Формы: **Web3Forms** (бесплатно). Заявка = главная `#ondemand` (`OnDemand.astro`),
-  тендер = `/tenders` (`Tenders.astro`). Нужна переменная `PUBLIC_WEB3FORMS_KEY` —
-  **подробно в `docs/FORMS-SETUP.md`**.
+- Формы: POST на **Google Apps Script endpoint** (x-www-form-urlencoded, no-cors → редирект на
+  `/thanks/`). Заявка = главная `#ondemand` (`OnDemand.astro`), тендер = `/tenders`
+  (`Tenders.astro`); логика отправки — `src/scripts/leadForm.ts`. Нужна переменная
+  `PUBLIC_LEADS_ENDPOINT` — **подробно в `docs/FORMS-SETUP.md`**.
 - Безопасность: `public/_headers` (nosniff, X-Frame-Options, Referrer-Policy, Permissions-Policy, HSTS).
 
 ## 7. Что сделано (последняя сессия)
-- Переезд хостинга Netlify → Cloudflare Pages; формы Netlify → Web3Forms.
+- Переезд хостинга Netlify → Cloudflare Pages; формы → Google Apps Script endpoint (Sheets).
 - Единое меню; объединили «О компании» + «Команда» в одну страницу `/about` (с командой).
 - Каталог: карусель, кликабельная бегущая строка, пилюля «Подробнее», «Смежные» — последняя
   карточка, демо-компании (по 4 на направление, помечены «Демо»), **реальные фото** (7 карточек
@@ -94,7 +95,7 @@
 - Подробное ТЗ по фото (`docs/IMAGE-BRIEF.md`).
 
 ## 8. Что осталось
-- ⚙️ **Задать `PUBLIC_WEB3FORMS_KEY` в Cloudflare** — без него формы не шлют письма (см. FORMS-SETUP.md).
+- ⚙️ **Задать `PUBLIC_LEADS_ENDPOINT` в Cloudflare** (Production + Preview) — без него формы не отправляют (см. FORMS-SETUP.md).
 - 🔀 **Смержить ветку** `claude/fervent-franklin-qmmzee` в `main`, чтобы всё попало на сайт.
 - 📷 Реальные фото с заводов (about-home, about-hero, site-visit) — слоты готовы.
 - 🏢 Заменить «Демо»-поставщиков на реальных (нужны данные).
