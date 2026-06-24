@@ -38,7 +38,7 @@ const p = t.pages.tenders;
     <div class="tenders__formwrap">
       <h2 class="tenders__form-title">{p.form_title}</h2>
       <p class="tenders__form-note">{p.form_note}</p>
-      <form class="oform" data-lead data-thanks={localizePath('/thanks', lang)} novalidate>
+      <form class="oform" data-lead data-thanks={localizePath('/thanks', lang)} data-msg-need={t.form.err_need} data-msg-contact={t.form.err_contact} data-msg-email={t.form.err_email} data-msg-phone={t.form.err_phone} novalidate>
         <input class="oform__hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
         <input type="hidden" name="lang" value={lang} />
         <input type="hidden" name="page" value={Astro.url.pathname} />
@@ -84,7 +84,7 @@ const p = t.pages.tenders;
             <textarea id="td-comment" name="comment" rows="3" placeholder={t.form.ph_comment}></textarea>
           </div>
         </div>
-        <p class="oform__err" data-err="validation" hidden>{t.form.err_required}</p>
+        <p class="oform__err" data-err="msg" hidden></p>
         <p class="oform__err" data-err="network" hidden>{t.form.err_network} <a href="mailto:info@teranovagroup.com">info@teranovagroup.com</a></p>
         <button class="btn btn--primary oform__submit" type="submit">{p.cta}</button>
         <p class="oform__hint">{t.form.req_note}</p>
@@ -119,6 +119,7 @@ const p = t.pages.tenders;
   .oform input, .oform textarea, .oform select { border: 1px solid var(--line-2); border-radius: var(--r); background: #fff; padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%; transition: border-color .2s, box-shadow .2s; }
   .oform input::placeholder, .oform textarea::placeholder { color: #a9b6c8; }
   .oform input:focus, .oform textarea:focus, .oform select:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px var(--cobalt-soft); }
+  .oform .is-error, .oform .is-error:focus { border-color: #d1495b; box-shadow: 0 0 0 3px rgba(209, 73, 91, 0.15); }
   .oform textarea { resize: vertical; min-height: 84px; }
   .oform__hp { position: absolute !important; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
   .oform__submit { width: 100%; margin-top: 20px; }
