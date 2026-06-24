@@ -72,7 +72,8 @@ and Teranova Group Ltd".
 
 ## Working rules
 - **Never push to `main`.** Branch → Pull Request → operator merges. **Minimal, surgical** edits; don't regenerate files.
-- Forms = Web3Forms (free handler; access key in `PUBLIC_WEB3FORMS_KEY` env); don't rewire without a task.
+- Forms POST to a Google Apps Script endpoint (URL in `PUBLIC_LEADS_ENDPOINT` env; sent as
+  x-www-form-urlencoded, mode no-cors → redirect to /thanks/); don't rewire without a task.
 
 ## Scope / content (docs/CONTENT-RULES.md + docs/CATEGORIES.md)
 - **7 category groups** (RU only in Russian): судовое снабжение; косметика и уход (OEM/ODM);

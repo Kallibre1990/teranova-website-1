@@ -157,6 +157,12 @@ export const ko: UIDict = {
     ph_volume: '예: 50,000개',
     ph_timeline: '예: 6~8주',
     ph_comment: '세부 사항, 요구 조건, 인증…',
+    category: '카테고리',
+    category_ph: '— 카테고리 선택 —',
+    categories: ['선박 용품', 'K-뷰티', '의료·미용', '산업 장비', '상용·특수 차량', '화학 제품', '기타 — 확실하지 않음'],
+    err_required: '‘필요한 것’과 이메일 또는 전화를 입력해 주세요.',
+    err_network: '전송하지 못했습니다. 직접 이메일로 문의해 주세요:',
+    req_note: '필수: 필요한 것과 이메일 또는 전화. 입력하신 정보는 문의 처리에만 사용합니다.',
   },
 
   thanks: {

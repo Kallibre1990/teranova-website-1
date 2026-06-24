@@ -3,15 +3,13 @@ import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { site } from '../../data/site';
+import { site, leadCategoryValues } from '../../data/site';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.tenders;
-const thanksUrl = new URL(localizePath('/thanks', lang), Astro.site ?? 'https://teranovagroup.com').href;
-const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
 ---
 
 <PageHead sup={t.nav.tenders} title={p.title} sub={p.sub} />
@@ -40,32 +38,38 @@ const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
     <div class="tenders__formwrap">
       <h2 class="tenders__form-title">{p.form_title}</h2>
       <p class="tenders__form-note">{p.form_note}</p>
-      <form class="oform" method="POST" action="https://api.web3forms.com/submit">
-        <input type="hidden" name="access_key" value={w3fKey} />
-        <input type="hidden" name="redirect" value={thanksUrl} />
-        <input type="hidden" name="subject" value="Тендерный запрос — Teranova" />
-        <input type="hidden" name="from_name" value="Teranova — сайт" />
-        <input type="checkbox" name="botcheck" hidden tabindex="-1" autocomplete="off" />
+      <form class="oform" data-lead data-thanks={localizePath('/thanks', lang)} novalidate>
+        <input class="oform__hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <input type="hidden" name="lang" value={lang} />
+        <input type="hidden" name="page" value={Astro.url.pathname} />
+        <input type="hidden" name="source" value="tender" />
         <div class="oform__grid">
           <div class="fgrp">
             <label for="td-company">{t.form.company}</label>
             <input id="td-company" name="company" type="text" placeholder={t.form.ph_company} autocomplete="organization" />
           </div>
           <div class="fgrp">
-            <label for="td-contact">{t.form.contact} <span class="req">*</span></label>
-            <input id="td-contact" name="contact" type="text" required placeholder={t.form.ph_contact} autocomplete="name" />
+            <label for="td-contact">{t.form.contact}</label>
+            <input id="td-contact" name="contact" type="text" placeholder={t.form.ph_contact} autocomplete="name" />
           </div>
           <div class="fgrp">
             <label for="td-email">{t.form.email} <span class="req">*</span></label>
-            <input id="td-email" name="email" type="email" required placeholder={t.form.ph_email} autocomplete="email" />
+            <input id="td-email" name="email" type="email" placeholder={t.form.ph_email} autocomplete="email" />
           </div>
           <div class="fgrp">
-            <label for="td-phone">{t.form.phone}</label>
+            <label for="td-phone">{t.form.phone} <span class="req">*</span></label>
             <input id="td-phone" name="phone" type="text" placeholder={t.form.ph_phone} autocomplete="tel" />
           </div>
           <div class="fgrp fgrp--full">
+            <label for="td-category">{t.form.category}</label>
+            <select id="td-category" name="category">
+              <option value="">{t.form.category_ph}</option>
+              {leadCategoryValues.map((v, i) => <option value={v}>{t.form.categories[i]}</option>)}
+            </select>
+          </div>
+          <div class="fgrp fgrp--full">
             <label for="td-need">{t.form.need} <span class="req">*</span></label>
-            <input id="td-need" name="need" type="text" required placeholder={t.form.ph_need} />
+            <input id="td-need" name="need" type="text" placeholder={t.form.ph_need} />
           </div>
           <div class="fgrp">
             <label for="td-volume">{t.form.volume}</label>
@@ -80,12 +84,18 @@ const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
             <textarea id="td-comment" name="comment" rows="3" placeholder={t.form.ph_comment}></textarea>
           </div>
         </div>
+        <p class="oform__err" data-err="validation" hidden>{t.form.err_required}</p>
+        <p class="oform__err" data-err="network" hidden>{t.form.err_network} <a href="mailto:info@teranovagroup.com">info@teranovagroup.com</a></p>
         <button class="btn btn--primary oform__submit" type="submit">{p.cta}</button>
-        <p class="oform__hint">{t.form.required_hint}</p>
+        <p class="oform__hint">{t.form.req_note}</p>
       </form>
     </div>
   </div>
 </section>
+
+<script>
+  import '../../scripts/leadForm';
+</script>
 
 <style>
   .tenders__grid { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1.05fr; gap: 56px; align-items: start; }
@@ -106,11 +116,14 @@ const w3fKey = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
   .fgrp--full { grid-column: 1 / -1; }
   .fgrp label { font-size: 0.8rem; font-weight: 700; color: var(--ink); }
   .req { color: var(--cobalt); }
-  .oform input, .oform textarea { border: 1px solid var(--line-2); border-radius: var(--r); background: #fff; padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%; transition: border-color .2s, box-shadow .2s; }
+  .oform input, .oform textarea, .oform select { border: 1px solid var(--line-2); border-radius: var(--r); background: #fff; padding: 11px 13px; font-size: 0.92rem; color: var(--ink); width: 100%; transition: border-color .2s, box-shadow .2s; }
   .oform input::placeholder, .oform textarea::placeholder { color: #a9b6c8; }
-  .oform input:focus, .oform textarea:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px var(--cobalt-soft); }
+  .oform input:focus, .oform textarea:focus, .oform select:focus { outline: none; border-color: var(--cobalt); box-shadow: 0 0 0 3px var(--cobalt-soft); }
   .oform textarea { resize: vertical; min-height: 84px; }
+  .oform__hp { position: absolute !important; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
   .oform__submit { width: 100%; margin-top: 20px; }
+  .oform__err { font-size: 0.84rem; color: #d1495b; line-height: 1.5; margin-top: 12px; }
+  .oform__err a { color: var(--cobalt); font-weight: 600; }
   .oform__hint { font-size: 0.78rem; color: var(--faint); line-height: 1.5; margin-top: 12px; }
 
   @media (max-width: 880px) { .tenders__grid { grid-template-columns: 1fr; gap: 36px; } }

@@ -37,3 +37,16 @@ export const categoryIcon: Record<CategoryKey, string> = {
   adjacent: 'grid',
   chemical: 'flask',
 };
+
+/* Lead-form category options — STABLE values sent to the leads endpoint, so the
+   spreadsheet stays consistent regardless of the visitor's UI language. The
+   localized labels live in i18n at form.categories (same order). */
+export const leadCategoryValues = [
+  'судовое снабжение',
+  'K-beauty',
+  'медицина и эстетика',
+  'промышленное оборудование',
+  'коммерческий и спецтранспорт',
+  'химическая продукция',
+  'Другое — не уверен',
+] as const;

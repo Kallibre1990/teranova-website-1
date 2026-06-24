@@ -170,6 +170,12 @@ export const en: UIDict = {
     ph_volume: 'e.g. 50,000 units',
     ph_timeline: 'e.g. 6–8 weeks',
     ph_comment: 'Details, requirements, certification…',
+    category: 'Category',
+    category_ph: '— Select a category —',
+    categories: ['Marine supply', 'K-beauty', 'Medical & aesthetics', 'Industrial equipment', 'Commercial & special vehicles', 'Chemical products', 'Other — not sure'],
+    err_required: 'Please fill in “what you need” and an email or phone.',
+    err_network: 'Could not send. Email us directly:',
+    req_note: 'Required: what you need and an email or phone. We use your data only to process your request.',
   },
 
   thanks: {
