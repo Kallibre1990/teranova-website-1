@@ -1,4 +1,4 @@
-import { defaultLang, languages, verifiedLocales, type Lang } from './ui';
+import { defaultLang, languages, verifiedLocales, ui, type Lang } from './ui';
 
 export const locales = Object.keys(languages) as Lang[];
 
@@ -24,6 +24,26 @@ export function localizePath(path: string, lang: Lang): string {
 /** Localized home URL plus an in-page anchor: anchorHref('ondemand','en') -> '/en/#ondemand'. */
 export function anchorHref(hash: string, lang: Lang): string {
   return localizePath('/', lang) + '#' + hash.replace(/^#/, '');
+}
+
+/**
+ * Primary navigation — the SINGLE source for both the header and the footer,
+ * so the two can never drift out of sync (the reason they differed before).
+ * Labels come from the per-language dictionary (ru is the source of truth);
+ * every href points to a real, existing route.
+ */
+export function mainNav(lang: Lang): { label: string; href: string }[] {
+  const t = ui[lang];
+  return [
+    { label: t.nav.catalog, href: localizePath('/catalog', lang) },
+    { label: t.nav.suppliers, href: localizePath('/suppliers', lang) },
+    { label: t.nav.buyers, href: localizePath('/buyers', lang) },
+    { label: t.nav.tenders, href: localizePath('/tenders', lang) },
+    { label: t.nav.verify, href: localizePath('/how-we-verify', lang) },
+    { label: t.nav.faq, href: localizePath('/faq', lang) },
+    { label: t.nav.team, href: localizePath('/about', lang) + '#team' },
+    { label: t.nav.contacts, href: localizePath('/contacts', lang) },
+  ];
 }
 
 /** hreflang alternates — VERIFIED locales only (machine locales are noindex). */
