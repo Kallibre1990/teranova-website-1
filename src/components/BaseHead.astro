@@ -45,6 +45,9 @@ const metaDescription =
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <meta name="theme-color" content="#0b1b35" />
 
+{/* Hero background is the LCP element on the home page — preload the WebP (other browsers fall back to the JPEG <img>). */}
+{path === '/' && <link rel="preload" as="image" href="/brand/hero-bg.webp" type="image/webp" fetchpriority="high" />}
+
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Teranova Group" />
