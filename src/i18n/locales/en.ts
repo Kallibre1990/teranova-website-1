@@ -34,7 +34,7 @@ export const en: UIDict = {
   },
 
   meta: {
-    home_title: 'Teranova Group — verified Korean manufacturers',
+    home_title: 'Verified Korean manufacturers — Teranova Group',
     home_desc:
       'We find, verify and support supply from Korean factories to your warehouse: marine supply, cosmetics & care (OEM/ODM), medical & aesthetics, industrial equipment, commercial & special vehicles.',
   },
@@ -232,14 +232,14 @@ export const en: UIDict = {
     },
     verify: {
       title: 'How we verify',
-      sub: 'Every supplier has a status — a documented fact, not a promise of outcome. We coordinate and support the deal.',
+      sub: 'Every supplier carries one of two verification statuses — a documented fact, not a promise of outcome. We coordinate and support the deal end to end.',
       visit_title: 'What a “site visit” means',
       visit_body: 'Our team member comes to the production, meets the management, inspects the line and records the visit with dated photos. The “Verified — site visit” status is backed by fact, not words.',
       transparency_title: 'Transparent statuses',
       transparency_body: 'If a visit has not happened yet, the supplier is marked “Company-provided data” — honestly, without overstatement. Quality terms are fixed in the contract. We do not publish suppliers’ personal contacts — all communication goes through Teranova.',
     },
     about: {
-      title: 'About the company',
+      title: 'About the company & team',
       sub: 'Teranova Group is a B2B trust partner: we connect verified Korean manufacturers with buyers worldwide and support the entire deal.',
       who_title: 'Who we are',
       who_body: 'We find manufacturers in Korea, verify them and run the deal from the first request to receipt of the goods — one accountable partner instead of a chain of middlemen. We coordinate and support; quality terms are fixed in the contract with the supplier.',
@@ -247,7 +247,7 @@ export const en: UIDict = {
       markets_title: 'Who we support',
     },
     suppliers: {
-      title: 'For suppliers',
+      title: 'For Korean suppliers',
       sub: 'Do you manufacture in Korea and want to reach buyers in the CIS, Europe, Türkiye, the USA and Asia? List in the Teranova catalog.',
       cards: [
         { t: 'Why list', d: 'Access to verified buyers and deal support in their language — without the middleman chain.' },
@@ -281,7 +281,7 @@ export const en: UIDict = {
     },
     faq: {
       title: 'Questions and answers',
-      sub: 'A short take on how we work. Didn’t find an answer — write to us.',
+      sub: 'A short take on how we work: supplier verification, deal support, logistics, documents and payments. Didn’t find an answer — write to us and we’ll help.',
       items: [
         { q: 'Are you a manufacturer or an intermediary?', a: 'We are a B2B trust partner: we find and verify Korean manufacturers and support the deal. We do not manufacture ourselves.' },
         { q: 'What do the verification statuses mean?', a: '“Verified — site visit” means a team member was at the factory in person, with photos and a date. “Company-provided data” means a profile from the supplier’s words. It is a documented fact, not a promise of outcome.' },
@@ -292,8 +292,8 @@ export const en: UIDict = {
       ],
     },
     contacts: {
-      title: 'Contacts',
-      sub: 'Tell us what you need to find in Korea — we take on sourcing, verification and supply.',
+      title: 'Contacts & channels',
+      sub: 'Get in touch with Teranova Group by email, phone or KakaoTalk. Tell us what you need to source in Korea — we take on sourcing, verification and supply.',
       email_label: 'Email',
       phone_label: 'Phone',
       kakao_label: 'KakaoTalk',
