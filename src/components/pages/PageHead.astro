@@ -12,7 +12,7 @@ const { sup, title, sub, deep } = Astro.props;
 
 <section class="section section--navy page-head">
   <Atmosphere variant="hero" />
-  {deep && <CategoryDeep categoryKey={deep} />}
+  {deep && <CategoryDeep categoryKey={deep} alt={title} />}
   <div class="wrap">
     {sup && <span class="sup sup--light">( {sup} )</span>}
     <h1 class="h-section">{title}</h1>

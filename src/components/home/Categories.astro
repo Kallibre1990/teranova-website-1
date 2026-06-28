@@ -36,7 +36,7 @@ const icons: Record<string, string> = {
         {
           groups.map((g, i) => (
             <a class="cat" href={localizePath(`/catalog/${g.key}`, lang)}>
-              <CategoryArt categoryKey={g.key} />
+              <CategoryArt categoryKey={g.key} alt={g.name} />
               <div class="cat__top">
                 <span class="cat__icon" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" set:html={icons[g.key] ?? icons.adjacent} />

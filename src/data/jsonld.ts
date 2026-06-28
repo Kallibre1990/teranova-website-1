@@ -56,6 +56,25 @@ export function faqJsonLd(lang: Lang) {
   };
 }
 
+/** BreadcrumbList for a simple second-level page (Home › Page). */
+export function pageBreadcrumbJsonLd(lang: Lang, name: string, path: string) {
+  const base = site.domain;
+  const crumbs = [
+    { name: 'Teranova Group', path: '/' },
+    { name, path },
+  ];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: c.name,
+      item: base + localizePath(c.path, lang),
+    })),
+  };
+}
+
 /** BreadcrumbList for a catalog group page (Home › Catalog › Group). */
 export function breadcrumbJsonLd(lang: Lang, group: { key: string; name: string }) {
   const base = site.domain;

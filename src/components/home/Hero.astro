@@ -10,13 +10,21 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = ui[lang];
+// Localized alt for the hero backdrop photo — a real content image, so it is
+// exposed (not aria-hidden) for assistive tech and image search. en is the
+// fallback for locales without their own string (Korean copy is left untouched).
+const heroBgAlt: Partial<Record<Lang, string>> = {
+  ru: 'Корейский порт и грузовые суда',
+  en: 'Korean port and cargo ships',
+};
+const bgAlt = heroBgAlt[lang] ?? heroBgAlt.en!;
 ---
 
 <section class="hero" data-hero>
   <div class="hero__stage">
-    <picture class="hero__bg" aria-hidden="true">
+    <picture class="hero__bg">
       <source srcset="/brand/hero-bg.webp" type="image/webp" />
-      <img class="hero__bg-img" src="/brand/hero-bg.jpeg" alt="" width="1672" height="941" fetchpriority="high" decoding="async" />
+      <img class="hero__bg-img" src="/brand/hero-bg.jpeg" alt={bgAlt} width="1672" height="941" fetchpriority="high" decoding="async" />
     </picture>
     <div class="hero__overlay" aria-hidden="true"></div>
 
