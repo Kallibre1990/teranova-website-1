@@ -1,0 +1,180 @@
+---
+/* Cosmetics category — editorial content (blocks B–G from the "Teranova — Косметика"
+   brief). Rendered only on /catalog/cosmetics/ by CatalogGroup, above the demo grids.
+   Styled with the existing dark-section tokens so the global design is unchanged. */
+import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const c = ui[lang].pages.cosmetics;
+---
+
+<section class="section section--navy cos">
+  <div class="wrap">
+    <!-- Block B — how contract manufacturing works -->
+    <div class="cos-block">
+      <h2 class="cos-h">{c.models_title}</h2>
+      <p class="cos-sub">{c.models_sub}</p>
+      <div class="cos-models">
+        {
+          c.models.map((m) => (
+            <article class="cos-model">
+              <span class="cos-model__name">{m.name}</span>
+              {m.full && <span class="cos-model__full">{m.full}</span>}
+              <p class="cos-model__desc">{m.desc}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="cos-block cos-two">
+      <div>
+        <h3 class="cos-lvl">{c.process_title}</h3>
+        <p class="cos-note">{c.process_lead}</p>
+        <ol class="cos-order">
+          {c.process.map((p) => <li>{p}</li>)}
+        </ol>
+      </div>
+      <div class="cos-facts">
+        {
+          c.facts.map((f) => (
+            <div class="cos-fact">
+              <span class="cos-fact__k">{f.k}</span>
+              <p class="cos-fact__v">{f.v}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Block C — specialization -->
+    <div class="cos-block">
+      <h2 class="cos-h">{c.scope_title}</h2>
+      <ul class="cos-scope">
+        {
+          c.scope_items.map((s) => (
+            <li>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7" /></svg>
+              <span>{s}</span>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="cos-note">{c.scope_note}</p>
+    </div>
+
+    <!-- Block D — why a partner on the ground -->
+    <div class="cos-block">
+      <h2 class="cos-h">{c.why_title}</h2>
+      <div class="cos-why">
+        {
+          c.why_points.map((p) => (
+            <article class="cos-why__card">
+              <h3 class="cos-why__t">{p.t}</h3>
+              <p class="cos-why__d">{p.d}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Block E — short process -->
+    <div class="cos-block">
+      <h2 class="cos-h">{c.steps_title}</h2>
+      <ol class="cos-flow">
+        {
+          c.steps.map((s, i) => (
+            <li class="cos-flow__step">
+              <span class="cos-flow__n">{i + 1}</span>
+              <div>
+                <h3 class="cos-flow__t">{s.t}</h3>
+                <p class="cos-flow__d">{s.d}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+
+    <!-- Block F — regulatory & markets -->
+    <div class="cos-block cos-markets">
+      <h2 class="cos-h">{c.markets_title}</h2>
+      <p class="cos-markets__body">{c.markets_body}</p>
+    </div>
+
+    <!-- Block G — CTA -->
+    <div class="cos-ctaband">
+      <h2 class="cos-ctaband__t">{c.cta_title}</h2>
+      <p class="cos-ctaband__d">{c.cta_body}</p>
+      <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>{c.cta_button}</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cos { padding-top: clamp(28px, 4vw, 44px); }
+  .cos-block { margin-bottom: clamp(38px, 6vw, 64px); }
+  .cos-h { font-size: clamp(1.35rem, 2.4vw, 1.85rem); font-weight: 800; letter-spacing: -0.01em; color: #fff; max-width: 26ch; }
+  .cos-sub { font-size: 1rem; color: var(--silver); margin-top: 10px; }
+  .cos-lvl { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); margin-bottom: 8px; }
+  .cos-note { font-size: 0.9rem; color: var(--silver-muted); line-height: 1.6; margin-top: 16px; max-width: 68ch; }
+
+  /* Block B — three models */
+  .cos-models { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+  .cos-model { display: flex; flex-direction: column; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 22px; }
+  .cos-model__name { font-size: 1.1rem; font-weight: 800; color: var(--cobalt-light); }
+  .cos-model__full { font-size: 0.76rem; font-weight: 600; color: var(--silver-muted); margin-top: 4px; }
+  .cos-model__desc { font-size: 0.9rem; color: var(--silver); line-height: 1.6; margin-top: 12px; }
+
+  /* process + facts */
+  .cos-two { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: start; }
+  .cos-order { margin: 12px 0 0; padding: 0; list-style: none; counter-reset: cos; }
+  .cos-order li { position: relative; counter-increment: cos; padding-left: 36px; margin-bottom: 12px; font-size: 0.94rem; color: var(--silver); line-height: 1.5; }
+  .cos-order li::before { content: counter(cos); position: absolute; left: 0; top: -1px; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: 0.78rem; font-weight: 800; color: #fff; background: rgba(37, 99, 212, 0.28); border: 1px solid rgba(63, 122, 224, 0.5); }
+  .cos-facts { display: flex; flex-direction: column; gap: 12px; }
+  .cos-fact { background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r); padding: 16px 18px; }
+  .cos-fact__k { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cobalt-light); }
+  .cos-fact__v { font-size: 0.9rem; color: var(--silver); line-height: 1.6; margin-top: 6px; }
+
+  /* Block C — scope list */
+  .cos-scope { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 28px; margin-top: 22px; }
+  .cos-scope li { display: flex; gap: 12px; align-items: flex-start; font-size: 0.94rem; color: var(--silver); line-height: 1.5; }
+  .cos-scope svg { color: var(--cobalt-light); flex-shrink: 0; margin-top: 2px; }
+
+  /* Block D — why */
+  .cos-why { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+  .cos-why__card { background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 20px; }
+  .cos-why__t { font-size: 1rem; font-weight: 800; color: #fff; }
+  .cos-why__d { font-size: 0.88rem; color: var(--silver); line-height: 1.6; margin-top: 8px; }
+
+  /* Block E — flow */
+  .cos-flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 22px 0 0; padding: 0; list-style: none; }
+  .cos-flow__step { display: flex; gap: 12px; align-items: flex-start; }
+  .cos-flow__n { flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; color: #fff; background: linear-gradient(140deg, var(--cobalt), var(--cobalt-light)); }
+  .cos-flow__t { font-size: 0.95rem; font-weight: 800; color: #fff; }
+  .cos-flow__d { font-size: 0.86rem; color: var(--silver); line-height: 1.55; margin-top: 5px; }
+
+  /* Block F — markets panel */
+  .cos-markets { background: rgba(37, 99, 212, 0.1); border: 1px solid rgba(63, 122, 224, 0.28); border-radius: var(--r-xl); padding: clamp(22px, 3vw, 34px); }
+  .cos-markets__body { font-size: 0.98rem; color: var(--silver-bright); line-height: 1.7; margin-top: 12px; max-width: 82ch; }
+
+  /* Block G — CTA band */
+  .cos-ctaband { text-align: center; padding: clamp(28px, 4vw, 44px) 0 4px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .cos-ctaband__t { font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.01em; color: #fff; max-width: 24ch; margin: 0 auto; }
+  .cos-ctaband__d { font-size: 1rem; color: var(--silver); line-height: 1.6; margin: 14px auto 24px; max-width: 60ch; }
+
+  @media (max-width: 900px) {
+    .cos-two { grid-template-columns: 1fr; }
+    .cos-models { grid-template-columns: 1fr; }
+    .cos-why { grid-template-columns: 1fr 1fr; }
+    .cos-flow { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    .cos-scope { grid-template-columns: 1fr; }
+    .cos-why { grid-template-columns: 1fr; }
+    .cos-flow { grid-template-columns: 1fr; }
+  }
+</style>

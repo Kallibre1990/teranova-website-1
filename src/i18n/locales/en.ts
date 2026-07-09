@@ -108,7 +108,7 @@ export const en: UIDict = {
     countries: ['Korea', 'Japan', 'China', 'Türkiye'],
     other: 'Requests for other regions are taken on request.',
     buyers_lead: 'We support buyers worldwide:',
-    buyers_regions: ['CIS', 'Europe', 'Türkiye', 'USA', 'Asia'],
+    buyers_regions: ['CIS', 'Europe', 'Türkiye', 'USA', 'Asia', 'Latin America'],
   },
 
   how: {
@@ -221,13 +221,75 @@ export const en: UIDict = {
         'Supplier of components and consumables.',
       ],
     },
+    cosmetics: {
+      intro_title: 'Korean cosmetics & care — OEM/ODM under your own brand',
+      intro_body:
+        'Korea is the world hub of cosmetics contract manufacturing. We find the right Korean factory for you, verify it in person and run the whole project: from formula and samples to production, certification and delivery to your warehouse. Whether you want to launch a line under your own brand or buy ready-made K-beauty, we take on sourcing, negotiations and the full support.',
+      models_title: 'How cosmetics contract manufacturing works in Korea',
+      models_sub: 'Three models — we pick the one that fits your goal.',
+      models: [
+        { name: 'ODM', full: 'Original Design Manufacturing', desc: 'The factory has its own ready formulations and developments. You choose a formula, adapt it to your brand and release it under your own label. The fastest, most affordable way to launch a brand without your own lab. Most of the strongest Korean factories work exactly as ODM.' },
+        { name: 'OEM', full: 'Original Equipment Manufacturing', desc: 'The factory produces to your ready formula and specification. A fit when you already have your own formula.' },
+        { name: 'private label', full: '', desc: 'A ready, verified factory product under your label. Minimal lead time.' },
+      ],
+      process_title: 'How a project runs',
+      process_lead: 'Typical stages:',
+      process: [
+        'Brief — what product, volume, market and requirements.',
+        'Factory selection by category, volume and budget.',
+        'Formula — a ready ODM formula or a custom development (OEM).',
+        'Samples and refinement.',
+        'Testing and certification for your market.',
+        'Production and quality control (QC).',
+        'Shipping and logistics to your warehouse.',
+      ],
+      facts: [
+        { k: 'Lead time', v: 'Indicative: a ready ODM formula with minimal tweaks — about 30–60 days after the sample is approved; a fully custom formula — about 90–150 days including testing and certification.' },
+        { k: 'MOQ', v: 'At top factories (Cosmax, Kolmar level) usually 5,000–10,000 units per SKU; at mid-size and boutique makers — from ~500–1,000 units. MOQ and price are often a matter of negotiation — that is one of our jobs.' },
+        { k: 'Certification', v: 'Korean factories work to ISO 22716 (GMP for cosmetics) and CGMP; for Korea — MFDS; release for a specific market is arranged separately.' },
+      ],
+      scope_title: 'What we cover in cosmetics',
+      scope_items: [
+        'Skincare — creams, serums, ampoules, toners, cleansing',
+        'Sun care (SPF) — one of Korea’s strongest categories',
+        'Sheet masks and patches — Korea set the world standard for serum masks',
+        'Cosmeceuticals / functional — anti-age, brightening, problem and sensitive skin',
+        'Color cosmetics — cushions, tints, foundation, makeup',
+        'Hair and body care',
+        'Cosmetic packaging — airless, tubes, jars, dispensers, secondary packaging',
+        'Ingredients and raw materials — on request (adjacent vertical)',
+      ],
+      scope_note: 'We regularly attend Korean industry trade shows and personally select and verify manufacturers across these categories.',
+      why_title: 'Why you need a partner on the ground',
+      why_points: [
+        { t: 'Access', d: 'The strongest Korean factories often ignore cold and foreign enquiries or set a high entry MOQ. We open doors and find a factory ready to work with your volume.' },
+        { t: 'The right match', d: 'There are hundreds of factories, each with its own strength: some in skincare, some in color, some in masks, some in packaging. We know who actually does what — and won’t waste your time on the wrong ones.' },
+        { t: 'Negotiation', d: 'MOQ and price often come down in negotiation — we handle it for you, in Korean.' },
+        { t: 'Language & culture', d: 'The whole dialogue with the factory goes through us — nothing lost in translation.' },
+        { t: 'Verification', d: 'Our team member visits the factory in person (photos, visit date) — the “Verified” status.' },
+        { t: 'One partner for everything', d: 'Sourcing → verification → negotiation → samples → production → payment → logistics → control to your warehouse. One accountable party instead of a chain of middlemen.' },
+      ],
+      steps_title: 'From idea to warehouse — with us',
+      steps: [
+        { t: 'Request', d: 'Describe the product, volume and market.' },
+        { t: 'Sourcing & verification', d: 'We find and personally verify a factory for your task.' },
+        { t: 'Samples & terms', d: 'We agree the formula, price, MOQ and timeline.' },
+        { t: 'Production & supply', d: 'We support production, QC, payment and logistics to your warehouse.' },
+      ],
+      markets_title: 'Preparing your launch for your market',
+      markets_body:
+        'We help prepare documentation for your target market: for the USA — FDA OTC registration (e.g. for SPF products); for the EU — compliance with the EU Cosmetics Regulation (EC No 1223/2009). Some Korean factories already have experience exporting to the USA, the EU and Asia and hold relevant certifications (including halal). The exact set of requirements depends on the product category — we clarify it at the start of the project.',
+      cta_title: 'Launch your cosmetics from Korea',
+      cta_body: 'Tell us what you want to produce or buy — we’ll find the factory, verify it and run the deal. The initial consultation and sourcing are free.',
+      cta_button: 'Submit a request',
+    },
     buyers: {
       title: 'If you buy from Korea',
       sub: 'You get one accountable partner on the Korean side. We speak to the factory in its language, check the product and take on what usually breaks a supply.',
       cards: [
         { t: 'Verified supplier', d: 'We source factories for your task and verify them — up to a personal visit to the production.' },
         { t: 'Turnkey deal', d: 'Negotiations, contract, payment, logistics and customs, quality control — we coordinate and support.' },
-        { t: 'A language you understand', d: 'We work in English and Russian and support buyers from the CIS, Europe, Türkiye, the USA and Asia.' },
+        { t: 'A language you understand', d: 'We work in English and Russian and support buyers from the CIS, Europe, Türkiye, the USA, Latin America and Asia.' },
       ],
     },
     verify: {
@@ -248,7 +310,7 @@ export const en: UIDict = {
     },
     suppliers: {
       title: 'For Korean suppliers',
-      sub: 'Do you manufacture in Korea and want to reach buyers in the CIS, Europe, Türkiye, the USA and Asia? List in the Teranova catalog.',
+      sub: 'Do you manufacture in Korea and want to reach buyers in the CIS, Europe, Türkiye, the USA, Latin America and Asia? List in the Teranova catalog.',
       cards: [
         { t: 'Why list', d: 'Access to verified buyers and deal support in their language — without the middleman chain.' },
         { t: 'What we provide', d: 'We present your profile to buyers and help with communication, contract and logistics. Requests go through Teranova.' },
@@ -287,7 +349,7 @@ export const en: UIDict = {
         { q: 'What do the verification statuses mean?', a: '“Verified — site visit” means a team member was at the factory in person, with photos and a date. “Company-provided data” means a profile from the supplier’s words. It is a documented fact, not a promise of outcome.' },
         { q: 'What is in the catalog vs on demand?', a: 'The catalog is what we have already verified. If something is missing, we find a factory for your request: source, verify and arrange supply.' },
         { q: 'Which directions do you cover?', a: 'Marine supply; cosmetics & care (OEM/ODM); medical & aesthetics; industrial equipment; commercial & special vehicles; adjacent sectors; chemicals & materials. Consumer cars are out of scope.' },
-        { q: 'Where are your buyers from?', a: 'We support buyers from the CIS, Europe, Türkiye, the USA and Asia. On the ground we are in Korea, Japan, China and Türkiye; other regions on request.' },
+        { q: 'Where are your buyers from?', a: 'We support buyers from the CIS, Europe, Türkiye, the USA, Latin America and Asia. On the ground we are in Korea, Japan, China and Türkiye; other regions on request.' },
         { q: 'Do you publish suppliers’ contacts?', a: 'No. We do not publish suppliers’ personal contacts — all communication goes through Teranova. A supplier may agree to publication if they wish.' },
       ],
     },

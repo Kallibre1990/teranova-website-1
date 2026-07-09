@@ -1,5 +1,6 @@
 ---
 import PageHead from './PageHead.astro';
+import CosmeticsContent from './CosmeticsContent.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
@@ -15,6 +16,12 @@ const g = t.pages.group;
 const group = t.categories.groups.find((x) => x.key === groupKey)!;
 const subs = group.items;
 
+// Cosmetics gets an editorial layer (blocks A–G) above the demo grids; block A
+// replaces the short head blurb. Other categories keep the plain head.
+const isCosmetics = groupKey === 'cosmetics';
+const headTitle = isCosmetics ? t.pages.cosmetics.intro_title : group.name;
+const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
+
 const suppliers = demoSuppliers[groupKey] ?? [];
 const roleLabel = { maker: g.role_maker, oem: g.role_oem, exporter: g.role_exporter } as const;
 const statusInfo = {
@@ -23,7 +30,9 @@ const statusInfo = {
 } as const;
 ---
 
-<PageHead sup={t.categories.sup} title={group.name} sub={group.blurb} deep={groupKey} />
+<PageHead sup={t.categories.sup} title={headTitle} sub={headSub} deep={groupKey} />
+
+{isCosmetics && <CosmeticsContent lang={lang} />}
 
 <section class="section section--navy group">
   <Atmosphere variant="dark" />
