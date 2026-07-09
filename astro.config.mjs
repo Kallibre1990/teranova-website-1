@@ -4,10 +4,10 @@ import sitemap from '@astrojs/sitemap';
 
 const SITE = 'https://teranovagroup.com';
 
-// Indexed locales (get sitemap + hreflang). The other 6 are machine-translated
-// and served noindex until a native speaker reviews them.
-const verified = ['ru', 'en', 'ko'];
-const machine = ['zh', 'ja', 'it', 'de', 'fr', 'tr', 'es'];
+// All 10 locales are indexed (index/follow) and get sitemap + hreflang entries —
+// HQ directive to index every language version, including the machine-translated
+// ones. (Keep this list in sync with verifiedLocales in src/i18n/ui.ts.)
+const locales = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es'];
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,20 +16,19 @@ export default defineConfig({
   trailingSlash: 'always',
   i18n: {
     defaultLocale: 'ru',
-    locales: [...verified, ...machine],
+    locales,
     routing: { prefixDefaultLocale: false },
   },
   integrations: [
     sitemap({
-      // Sitemap = indexed pages only: drop noindex /thanks and all machine locales.
-      filter: (page) => {
-        const segs = new URL(page).pathname.split('/').filter(Boolean);
-        if (segs.includes('thanks')) return false;
-        return !machine.includes(segs[0]);
-      },
+      // Sitemap = indexed pages only: drop the noindex /thanks pages.
+      filter: (page) => !new URL(page).pathname.split('/').filter(Boolean).includes('thanks'),
       i18n: {
         defaultLocale: 'ru',
-        locales: { ru: 'ru', en: 'en', ko: 'ko' },
+        locales: {
+          ru: 'ru', en: 'en', ko: 'ko', zh: 'zh', ja: 'ja',
+          it: 'it', de: 'de', fr: 'fr', tr: 'tr', es: 'es',
+        },
       },
     }),
   ],

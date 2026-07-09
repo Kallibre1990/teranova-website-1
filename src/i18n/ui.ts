@@ -1,7 +1,9 @@
 /* ============================================================
-   i18n assembler — 9 languages.
-   Verified/indexed: ru (source), en, ko.
-   Machine-translated (noindex until native review): zh, ja, it, de, fr, tr.
+   i18n assembler — 10 languages.
+   Source of truth: ru. Full dictionaries: ru, en, ko.
+   Machine-translated (merged OVER English): zh, ja, it, de, fr, tr, es.
+   All locales are indexed (index/follow) and get hreflang + sitemap
+   entries — HQ directive to index every language version.
    Each machine locale is merged OVER English, so any missing key
    falls back to English and can never break the build.
    ============================================================ */
@@ -35,8 +37,9 @@ export const languages = {
 export type Lang = keyof typeof languages;
 export const defaultLang: Lang = 'ru';
 
-/** Only these are indexed and get hreflang + sitemap entries. */
-export const verifiedLocales: Lang[] = ['ru', 'en', 'ko'];
+/** Locales that are indexed and get hreflang + sitemap entries — all of them
+    (HQ directive: index every language version, not just the native-reviewed ones). */
+export const verifiedLocales: Lang[] = Object.keys(languages) as Lang[];
 export const isVerified = (l: Lang): boolean => verifiedLocales.includes(l);
 
 function isPlainObject(v: unknown): v is Record<string, unknown> {
