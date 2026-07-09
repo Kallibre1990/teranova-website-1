@@ -102,7 +102,7 @@ const tr: DeepPartial<UIDict> = {
     countries: ["Kore", "Japonya", "Çin", "Türkiye"],
     other: "Diğer bölgelere yönelik talepler istek üzerine alınır.",
     buyers_lead: "Alıcıları dünya çapında destekliyoruz:",
-    buyers_regions: ["BDT", "Avrupa", "Türkiye", "ABD", "Asya"],
+    buyers_regions: ["BDT", "Avrupa", "Türkiye", "ABD", "Asya", "Latin Amerika"],
   },
 
   how: {
@@ -142,6 +142,24 @@ const tr: DeepPartial<UIDict> = {
     ph_volume: "örn. 50.000 adet",
     ph_timeline: "örn. 6–8 hafta",
     ph_comment: "Ayrıntılar, gereksinimler, sertifikasyon…",
+    category: "Kategori",
+    category_ph: "— Bir kategori seçin —",
+    categories: [
+      "Denizcilik tedariki",
+      "K-beauty",
+      "Tıp ve estetik",
+      "Endüstriyel ekipman",
+      "Ticari ve özel araçlar",
+      "Kimya ve malzemeler",
+      "Diğer — emin değilim",
+    ],
+    err_need: "Neye ihtiyacınız olduğunu bize bildirin.",
+    err_contact: "Geçerli bir e-posta veya telefon ekleyin.",
+    err_email: "Geçerli bir e-posta girin.",
+    err_phone: "Geçerli bir telefon girin — en az 7 rakam.",
+    err_required: "Lütfen zorunlu alanları doldurun.",
+    err_network: "Gönderilemedi. Bize doğrudan e-posta gönderin:",
+    req_note: "Zorunlu: neye ihtiyacınız olduğu ve bir e-posta veya telefon. Verilerinizi yalnızca talebinizi işlemek için kullanırız.",
   },
 
   thanks: {
@@ -154,6 +172,71 @@ const tr: DeepPartial<UIDict> = {
     title: "Bu sayfa yakında geliyor",
     body: "Bu bölüm hâlâ hazırlanıyor. Ana sayfaya geri dönün — o sayfa hazır.",
     back: "Ana sayfaya git",
+  },
+
+  pages: {
+    cosmetics: {
+      intro_title: "Kore kozmetiği ve bakım ürünleri — kendi markanız altında OEM/ODM",
+      intro_body:
+        "Kore, kozmetik fason üretiminin dünya merkezidir. Sizin için doğru Koreli fabrikayı buluyor, bizzat yerinde doğruluyor ve projenin tamamını yürütüyoruz: formül ve numunelerden üretime, sertifikasyona ve deponuza teslimata kadar. İster kendi markanız altında bir ürün serisi başlatmak isteyin, ister hazır K-beauty satın almak isteyin, tedariki, müzakereleri ve tüm süreç desteğini üstleniyoruz.",
+      models_title: "Kore'de kozmetik fason üretimi nasıl işler",
+      models_sub: "Üç model — hedefinize uygun olanı seçeriz.",
+      models: [
+        { name: "ODM", full: "Original Design Manufacturing", desc: "Fabrikanın kendi hazır formülasyonları ve geliştirmeleri vardır. Bir formül seçer, markanıza uyarlar ve kendi etiketiniz altında piyasaya sürersiniz. Kendi laboratuvarınız olmadan bir marka başlatmanın en hızlı ve en uygun maliyetli yoludur. En güçlü Koreli fabrikaların çoğu tam olarak ODM olarak çalışır." },
+        { name: "OEM", full: "Original Equipment Manufacturing", desc: "Fabrika, sizin hazır formülünüze ve teknik şartnamenize göre üretim yapar. Halihazırda kendi formülünüz olduğunda uygundur." },
+        { name: "private label", full: "", desc: "Kendi etiketiniz altında hazır, doğrulanmış bir fabrika ürünü. Minimum teslim süresi." },
+      ],
+      process_title: "Bir proje nasıl yürür",
+      process_lead: "Tipik aşamalar:",
+      process: [
+        "Brief — hangi ürün, miktar, pazar ve gereksinimler.",
+        "Kategoriye, miktara ve bütçeye göre fabrika seçimi.",
+        "Formül — hazır bir ODM formülü ya da özel bir geliştirme (OEM).",
+        "Numuneler ve iyileştirme.",
+        "Pazarınız için test ve sertifikasyon.",
+        "Üretim ve kalite kontrol (QC).",
+        "Deponuza kadar sevkiyat ve lojistik.",
+      ],
+      facts: [
+        { k: "Teslim süresi", v: "Tahmini: minimum değişiklikle hazır bir ODM formülü — numune onaylandıktan sonra yaklaşık 30–60 gün; tamamen özel bir formül — test ve sertifikasyon dahil yaklaşık 90–150 gün." },
+        { k: "MOQ", v: "En büyük fabrikalarda (Cosmax, Kolmar seviyesi) genellikle SKU başına 5.000–10.000 adet; orta ölçekli ve butik üreticilerde — ~500–1.000 adetten itibaren. MOQ ve fiyat çoğu zaman müzakere konusudur — bu da bizim işlerimizden biridir." },
+        { k: "Sertifikasyon", v: "Koreli fabrikalar ISO 22716 (kozmetik için GMP) ve CGMP standartlarına göre çalışır; Kore için — MFDS; belirli bir pazar için piyasaya sürüm ayrıca düzenlenir." },
+      ],
+      scope_title: "Kozmetikte neleri kapsıyoruz",
+      scope_items: [
+        "Cilt bakımı — kremler, serumlar, ampuller, tonikler, temizlik",
+        "Güneş bakımı (SPF) — Kore'nin en güçlü kategorilerinden biri",
+        "Kağıt maskeler ve bantlar — serum maskelerde dünya standardını Kore belirledi",
+        "Kozmösötikler / fonksiyonel — anti-age, aydınlatma, problemli ve hassas cilt",
+        "Renkli kozmetik — cushion'lar, tint'ler, fondöten, makyaj",
+        "Saç ve vücut bakımı",
+        "Kozmetik ambalajı — airless, tüpler, kavanozlar, dispenserler, ikincil ambalaj",
+        "İçerikler ve ham maddeler — talep üzerine (ilgili sektör)",
+      ],
+      scope_note: "Kore'deki sektör fuarlarına düzenli olarak katılıyor ve bu kategorilerdeki üreticileri bizzat seçip doğruluyoruz.",
+      why_title: "Neden sahada bir ortağa ihtiyacınız var",
+      why_points: [
+        { t: "Erişim", d: "En güçlü Koreli fabrikalar çoğu zaman soğuk ve yabancı talepleri görmezden gelir ya da yüksek bir giriş MOQ'su belirler. Kapıları açar ve sizin miktarınızla çalışmaya hazır bir fabrika buluruz." },
+        { t: "Doğru eşleşme", d: "Yüzlerce fabrika var ve her birinin kendi gücü var: kimi cilt bakımında, kimi renkli kozmetikte, kimi maskelerde, kimi ambalajda. Kimin gerçekte ne yaptığını biliyoruz — ve yanlış olanlarla vaktinizi harcamayız." },
+        { t: "Müzakere", d: "MOQ ve fiyat çoğu zaman müzakerede düşer — bunu sizin için, Korece olarak yürütürüz." },
+        { t: "Dil ve kültür", d: "Fabrikayla tüm diyalog bizim üzerimizden geçer — çeviride hiçbir şey kaybolmaz." },
+        { t: "Doğrulama", d: "Ekip üyemiz fabrikayı bizzat ziyaret eder (fotoğraflar, ziyaret tarihi) — “Doğrulandı” durumu." },
+        { t: "Her şey için tek ortak", d: "Tedarik → doğrulama → müzakere → numuneler → üretim → ödeme → lojistik → deponuza kadar kontrol. Bir aracı zinciri yerine sorumluluk üstlenen tek bir taraf." },
+      ],
+      steps_title: "Fikirden depoya — bizimle",
+      steps: [
+        { t: "Talep", d: "Ürünü, miktarı ve pazarı tanımlayın." },
+        { t: "Tedarik ve doğrulama", d: "Göreviniz için bir fabrika bulur ve bizzat doğrularız." },
+        { t: "Numuneler ve koşullar", d: "Formülü, fiyatı, MOQ'yu ve zaman planını kararlaştırırız." },
+        { t: "Üretim ve tedarik", d: "Üretimi, QC'yi, ödemeyi ve deponuza kadar lojistiği destekleriz." },
+      ],
+      markets_title: "Lansmanınızı pazarınıza hazırlama",
+      markets_body:
+        "Hedef pazarınız için belgelerin hazırlanmasına yardımcı oluyoruz: ABD için — FDA OTC kaydı (örn. SPF ürünleri için); EU için — EU Cosmetics Regulation (EC No 1223/2009) ile uyumluluk. Bazı Koreli fabrikalar ABD, EU ve Asya'ya ihracat konusunda halihazırda deneyime sahiptir ve ilgili sertifikalara (halal dahil) sahiptir. Tam gereksinim seti ürün kategorisine bağlıdır — bunu projenin başında netleştiririz.",
+      cta_title: "Kozmetiğinizi Kore'den başlatın",
+      cta_body: "Neyi üretmek ya da satın almak istediğinizi bize anlatın — fabrikayı bulur, doğrular ve anlaşmayı yürütürüz. İlk danışmanlık ve tedarik ücretsizdir.",
+      cta_button: "Talep gönderin",
+    },
   },
 
   footer: {

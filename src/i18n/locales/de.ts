@@ -102,7 +102,7 @@ const de: DeepPartial<UIDict> = {
     countries: ["Korea", "Japan", "China", "Türkiye"],
     other: "Anfragen für andere Regionen nehmen wir auf Anfrage an.",
     buyers_lead: "Käufer begleiten wir weltweit:",
-    buyers_regions: ["GUS", "Europa", "Türkiye", "USA", "Asien"],
+    buyers_regions: ["GUS", "Europa", "Türkiye", "USA", "Asien", "Lateinamerika"],
   },
 
   how: {
@@ -142,6 +142,24 @@ const de: DeepPartial<UIDict> = {
     ph_volume: "z. B. 50.000 Stück",
     ph_timeline: "z. B. 6–8 Wochen",
     ph_comment: "Details, Anforderungen, Zertifizierung…",
+    category: "Kategorie",
+    category_ph: "— Kategorie wählen —",
+    categories: [
+      "Schiffsausrüstung",
+      "K-beauty",
+      "Medizin & Ästhetik",
+      "Industrieausrüstung",
+      "Nutz- und Spezialfahrzeuge",
+      "Chemie & Materialien",
+      "Sonstiges — noch unklar",
+    ],
+    err_need: "Bitte teilen Sie uns mit, was Sie benötigen.",
+    err_contact: "Bitte geben Sie eine gültige E-Mail oder Telefonnummer an.",
+    err_email: "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    err_phone: "Bitte geben Sie eine gültige Telefonnummer ein — mindestens 7 Ziffern.",
+    err_required: "Bitte füllen Sie die Pflichtfelder aus.",
+    err_network: "Senden fehlgeschlagen. Schreiben Sie uns direkt:",
+    req_note: "Pflichtangaben: was Sie benötigen sowie eine E-Mail oder Telefonnummer. Ihre Daten verwenden wir ausschließlich zur Bearbeitung Ihrer Anfrage.",
   },
 
   thanks: {
@@ -154,6 +172,71 @@ const de: DeepPartial<UIDict> = {
     title: "Diese Seite ist bald verfügbar",
     body: "Dieser Bereich befindet sich noch in Arbeit. Kehren Sie zur Startseite zurück — diese ist bereits fertig.",
     back: "Zur Startseite",
+  },
+
+  pages: {
+    cosmetics: {
+      intro_title: "Koreanische Kosmetik & Pflege — OEM/ODM unter Ihrer eigenen Marke",
+      intro_body:
+        "Korea ist das weltweite Zentrum der Auftragsfertigung von Kosmetik. Wir finden das passende koreanische Werk für Sie, prüfen es persönlich vor Ort und führen das gesamte Projekt: von Rezeptur und Mustern bis zu Produktion, Zertifizierung und Lieferung bis zu Ihrem Lager. Ob Sie eine Linie unter Ihrer eigenen Marke auf den Markt bringen oder fertige K-beauty einkaufen möchten — wir übernehmen Beschaffung, Verhandlungen und die durchgängige Begleitung.",
+      models_title: "Wie die Auftragsfertigung von Kosmetik in Korea funktioniert",
+      models_sub: "Drei Modelle — wir wählen das passende für Ihr Ziel.",
+      models: [
+        { name: "ODM", full: "Original Design Manufacturing", desc: "Das Werk verfügt über eigene fertige Rezepturen und Entwicklungen. Sie wählen eine Rezeptur, passen sie an Ihre Marke an und bringen sie unter Ihrem eigenen Label heraus. Der schnellste und günstigste Weg, eine Marke ohne eigenes Labor zu starten. Die meisten der stärksten koreanischen Werke arbeiten genau nach dem ODM-Prinzip." },
+        { name: "OEM", full: "Original Equipment Manufacturing", desc: "Das Werk produziert nach Ihrer fertigen Rezeptur und Spezifikation. Passend, wenn Sie bereits eine eigene Rezeptur haben." },
+        { name: "private label", full: "", desc: "Ein fertiges, geprüftes Werksprodukt unter Ihrem Label. Minimale Vorlaufzeit." },
+      ],
+      process_title: "So läuft ein Projekt ab",
+      process_lead: "Typische Phasen:",
+      process: [
+        "Briefing — welches Produkt, Menge, Markt und Anforderungen.",
+        "Werksauswahl nach Kategorie, Menge und Budget.",
+        "Rezeptur — eine fertige ODM-Rezeptur oder eine individuelle Entwicklung (OEM).",
+        "Muster und Feinabstimmung.",
+        "Tests und Zertifizierung für Ihren Markt.",
+        "Produktion und Qualitätskontrolle (QC).",
+        "Versand und Logistik bis zu Ihrem Lager.",
+      ],
+      facts: [
+        { k: "Vorlaufzeit", v: "Richtwert: eine fertige ODM-Rezeptur mit minimalen Anpassungen — etwa 30–60 Tage nach Freigabe des Musters; eine vollständig individuelle Rezeptur — etwa 90–150 Tage einschließlich Tests und Zertifizierung." },
+        { k: "MOQ", v: "Bei Top-Werken (Niveau Cosmax, Kolmar) meist 5.000–10.000 Einheiten pro SKU; bei mittelgroßen und Boutique-Herstellern — ab ca. 500–1.000 Einheiten. MOQ und Preis sind oft Verhandlungssache — das ist eine unserer Aufgaben." },
+        { k: "Zertifizierung", v: "Koreanische Werke arbeiten nach ISO 22716 (GMP für Kosmetik) und CGMP; für Korea — MFDS; die Freigabe für einen bestimmten Markt wird separat organisiert." },
+      ],
+      scope_title: "Was wir im Bereich Kosmetik abdecken",
+      scope_items: [
+        "Hautpflege — Cremes, Seren, Ampullen, Toner, Reinigung",
+        "Sonnenschutz (SPF) — eine der stärksten Kategorien Koreas",
+        "Tuchmasken und Patches — Korea hat den weltweiten Standard für Serum-Masken gesetzt",
+        "Cosmeceuticals / funktionelle Pflege — Anti-Age, Aufhellung, unreine und empfindliche Haut",
+        "Dekorative Kosmetik — Cushions, Tints, Foundation, Make-up",
+        "Haar- und Körperpflege",
+        "Kosmetikverpackungen — Airless, Tuben, Tiegel, Spender, Umverpackung",
+        "Inhaltsstoffe und Rohstoffe — auf Anfrage (angrenzende Branche)",
+      ],
+      scope_note: "Wir besuchen regelmäßig koreanische Branchenmessen und wählen und prüfen die Hersteller in diesen Kategorien persönlich aus.",
+      why_title: "Warum Sie einen Partner vor Ort brauchen",
+      why_points: [
+        { t: "Zugang", d: "Die stärksten koreanischen Werke ignorieren Kalt- und Auslandsanfragen oft oder setzen eine hohe Einstiegs-MOQ an. Wir öffnen Türen und finden ein Werk, das bereit ist, mit Ihrer Menge zu arbeiten." },
+        { t: "Die richtige Auswahl", d: "Es gibt Hunderte von Werken, jedes mit seiner eigenen Stärke: die einen in Hautpflege, die anderen in dekorativer Kosmetik, in Masken oder Verpackungen. Wir wissen, wer was tatsächlich kann — und verschwenden Ihre Zeit nicht mit den falschen." },
+        { t: "Verhandlung", d: "MOQ und Preis sinken in Verhandlungen oft — wir übernehmen das für Sie, auf Koreanisch." },
+        { t: "Sprache & Kultur", d: "Der gesamte Dialog mit dem Werk läuft über uns — nichts geht in der Übersetzung verloren." },
+        { t: "Prüfung", d: "Ein Mitarbeiter unseres Teams besucht das Werk persönlich (Fotos, Besuchsdatum) — der Status „Geprüft“." },
+        { t: "Ein Partner für alles", d: "Beschaffung → Prüfung → Verhandlung → Muster → Produktion → Zahlung → Logistik → Kontrolle bis zu Ihrem Lager. Ein verantwortlicher Partner statt einer Kette von Zwischenhändlern." },
+      ],
+      steps_title: "Von der Idee bis zum Lager — mit uns",
+      steps: [
+        { t: "Anfrage", d: "Beschreiben Sie das Produkt, die Menge und den Markt." },
+        { t: "Beschaffung & Prüfung", d: "Wir finden ein Werk für Ihre Aufgabe und prüfen es persönlich." },
+        { t: "Muster & Konditionen", d: "Wir stimmen Rezeptur, Preis, MOQ und Zeitrahmen ab." },
+        { t: "Produktion & Lieferung", d: "Wir begleiten Produktion, QC, Zahlung und Logistik bis zu Ihrem Lager." },
+      ],
+      markets_title: "Ihren Launch für Ihren Markt vorbereiten",
+      markets_body:
+        "Wir helfen bei der Vorbereitung der Dokumentation für Ihren Zielmarkt: für die USA — die FDA-OTC-Registrierung (z. B. für SPF-Produkte); für die EU — die Konformität mit der EU Cosmetics Regulation (EC No 1223/2009). Einige koreanische Werke verfügen bereits über Exporterfahrung in die USA, die EU und nach Asien und besitzen die entsprechenden Zertifizierungen (einschließlich halal). Der genaue Anforderungsumfang hängt von der Produktkategorie ab — wir klären ihn zu Beginn des Projekts.",
+      cta_title: "Starten Sie Ihre Kosmetik aus Korea",
+      cta_body: "Sagen Sie uns, was Sie produzieren oder einkaufen möchten — wir finden das Werk, prüfen es und führen das Geschäft. Erstberatung und Beschaffung sind kostenlos.",
+      cta_button: "Anfrage senden",
+    },
   },
 
   footer: {

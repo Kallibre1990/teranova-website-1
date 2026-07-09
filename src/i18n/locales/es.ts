@@ -105,7 +105,7 @@ const es: DeepPartial<UIDict> = {
     countries: ["Corea", "Japón", "China", "Türkiye"],
     other: "Las solicitudes para otras regiones se atienden bajo pedido.",
     buyers_lead: "Acompañamos a compradores en todo el mundo:",
-    buyers_regions: ["CEI", "Europa", "Türkiye", "EE. UU.", "Asia"],
+    buyers_regions: ["CEI", "Europa", "Türkiye", "EE. UU.", "Asia", "América Latina"],
   },
 
   how: {
@@ -167,6 +167,24 @@ const es: DeepPartial<UIDict> = {
     ph_volume: "p. ej., 50 000 unidades",
     ph_timeline: "p. ej., 6–8 semanas",
     ph_comment: "Detalles, requisitos, certificación…",
+    category: "Categoría",
+    category_ph: "— Seleccione una categoría —",
+    categories: [
+      "Suministro naval",
+      "K-beauty",
+      "Medicina y estética",
+      "Equipos industriales",
+      "Vehículos comerciales y especiales",
+      "Productos químicos",
+      "Otro — no estoy seguro",
+    ],
+    err_need: "Indíquenos qué necesita.",
+    err_contact: "Añada un correo electrónico o teléfono válido.",
+    err_email: "Introduzca un correo electrónico válido.",
+    err_phone: "Introduzca un teléfono válido — al menos 7 dígitos.",
+    err_required: "Rellene los campos obligatorios.",
+    err_network: "No se pudo enviar. Escríbanos directamente:",
+    req_note: "Obligatorio: qué necesita y un correo electrónico o teléfono. Usamos sus datos únicamente para tramitar su solicitud.",
   },
 
   thanks: {
@@ -179,6 +197,71 @@ const es: DeepPartial<UIDict> = {
     title: "Esta página estará disponible pronto",
     body: "Esta sección aún está en preparación. Vuelva a la página de inicio — esa ya está lista.",
     back: "Ir al inicio",
+  },
+
+  pages: {
+    cosmetics: {
+      intro_title: "Cosmética y cuidado de Corea — OEM/ODM bajo su propia marca",
+      intro_body:
+        "Corea es el centro mundial de la fabricación por contrato de cosmética. Encontramos la fábrica coreana adecuada para usted, la verificamos en persona y dirigimos todo el proyecto: desde la fórmula y las muestras hasta la producción, la certificación y la entrega en su almacén. Tanto si quiere lanzar una línea bajo su propia marca como si prefiere comprar K-beauty ya lista, nos encargamos de la búsqueda de proveedores, las negociaciones y el acompañamiento integral.",
+      models_title: "Cómo funciona la fabricación por contrato de cosmética en Corea",
+      models_sub: "Tres modelos — elegimos el que se ajusta a su objetivo.",
+      models: [
+        { name: "ODM", full: "Original Design Manufacturing", desc: "La fábrica dispone de sus propias formulaciones y desarrollos ya listos. Usted elige una fórmula, la adapta a su marca y la lanza bajo su propia etiqueta. La vía más rápida y asequible para lanzar una marca sin laboratorio propio. La mayoría de las mejores fábricas coreanas trabajan precisamente como ODM." },
+        { name: "OEM", full: "Original Equipment Manufacturing", desc: "La fábrica produce según su fórmula y su especificación ya definidas. La opción idónea cuando usted ya cuenta con su propia fórmula." },
+        { name: "private label", full: "", desc: "Un producto de fábrica ya listo y verificado, con su etiqueta. Plazo de ejecución mínimo." },
+      ],
+      process_title: "Cómo se desarrolla un proyecto",
+      process_lead: "Etapas habituales:",
+      process: [
+        "Brief — qué producto, volumen, mercado y requisitos.",
+        "Selección de fábrica según categoría, volumen y presupuesto.",
+        "Fórmula — una fórmula ODM ya lista o un desarrollo a medida (OEM).",
+        "Muestras y ajustes.",
+        "Pruebas y certificación para su mercado.",
+        "Producción y control de calidad (QC).",
+        "Envío y logística hasta su almacén.",
+      ],
+      facts: [
+        { k: "Plazo de ejecución", v: "Orientativo: una fórmula ODM ya lista con ajustes mínimos — unos 30–60 días desde la aprobación de la muestra; una fórmula totalmente a medida — unos 90–150 días, incluidas las pruebas y la certificación." },
+        { k: "MOQ", v: "En las grandes fábricas (nivel Cosmax, Kolmar) suele ser de 5000–10 000 unidades por SKU; en fabricantes medianos y boutique — desde unas 500–1000 unidades. El MOQ y el precio suelen ser objeto de negociación — y esa es una de nuestras tareas." },
+        { k: "Certificación", v: "Las fábricas coreanas trabajan conforme a ISO 22716 (GMP de cosmética) y CGMP; para Corea — MFDS; la autorización para un mercado concreto se gestiona por separado." },
+      ],
+      scope_title: "Qué abarcamos en cosmética",
+      scope_items: [
+        "Cuidado de la piel — cremas, sérums, ampollas, tónicos, limpieza",
+        "Protección solar (SPF) — una de las categorías más fuertes de Corea",
+        "Mascarillas de tejido y parches — Corea marcó el estándar mundial de las mascarillas con sérum",
+        "Cosmecéutica / funcional — antiedad, iluminadora, piel problemática y sensible",
+        "Cosmética de color — cushions, tints, bases y maquillaje",
+        "Cuidado del cabello y del cuerpo",
+        "Envases cosméticos — airless, tubos, tarros, dispensadores, embalaje secundario",
+        "Ingredientes y materias primas — bajo pedido (sector afín)",
+      ],
+      scope_note: "Asistimos con regularidad a las ferias del sector en Corea y seleccionamos y verificamos personalmente a fabricantes en todas estas categorías.",
+      why_title: "Por qué necesita un socio sobre el terreno",
+      why_points: [
+        { t: "Acceso", d: "Las mejores fábricas coreanas a menudo ignoran las consultas en frío y del extranjero, o fijan un MOQ de entrada elevado. Nosotros abrimos puertas y encontramos una fábrica dispuesta a trabajar con su volumen." },
+        { t: "El encaje adecuado", d: "Hay cientos de fábricas, cada una con su punto fuerte: unas en cuidado de la piel, otras en maquillaje de color, otras en mascarillas, otras en envases. Sabemos quién hace realmente qué — y no le haremos perder el tiempo con las que no encajan." },
+        { t: "Negociación", d: "El MOQ y el precio suelen bajar en la negociación — nos ocupamos de ello por usted, en coreano." },
+        { t: "Idioma y cultura", d: "Todo el diálogo con la fábrica pasa por nosotros — no se pierde nada en la traducción." },
+        { t: "Verificación", d: "Un miembro de nuestro equipo visita la fábrica en persona (fotos, fecha de la visita) — el estado «Verificado»." },
+        { t: "Un único socio para todo", d: "Búsqueda → verificación → negociación → muestras → producción → pago → logística → control hasta su almacén. Un único responsable en lugar de una cadena de intermediarios." },
+      ],
+      steps_title: "De la idea al almacén — con nosotros",
+      steps: [
+        { t: "Solicitud", d: "Describa el producto, el volumen y el mercado." },
+        { t: "Búsqueda y verificación", d: "Encontramos y verificamos personalmente una fábrica para su proyecto." },
+        { t: "Muestras y condiciones", d: "Acordamos la fórmula, el precio, el MOQ y los plazos." },
+        { t: "Producción y suministro", d: "Acompañamos la producción, el QC, el pago y la logística hasta su almacén." },
+      ],
+      markets_title: "Preparamos su lanzamiento para su mercado",
+      markets_body:
+        "Ayudamos a preparar la documentación para su mercado de destino: para EE. UU. — el registro FDA OTC (por ejemplo, para productos con SPF); para la UE — el cumplimiento del EU Cosmetics Regulation (EC No 1223/2009). Algunas fábricas coreanas ya tienen experiencia exportando a EE. UU., la UE y Asia, y cuentan con las certificaciones pertinentes (incluida la halal). El conjunto exacto de requisitos depende de la categoría de producto — lo precisamos al inicio del proyecto.",
+      cta_title: "Lance su cosmética desde Corea",
+      cta_body: "Díganos qué quiere producir o comprar — encontramos la fábrica, la verificamos y gestionamos la operación. La consulta inicial y la búsqueda de proveedores son gratuitas.",
+      cta_button: "Enviar una solicitud",
+    },
   },
 
   footer: {
