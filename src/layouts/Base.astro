@@ -17,7 +17,8 @@ interface Props {
 }
 const { lang, path, title, description, jsonLd, noindex } = Astro.props;
 const t = ui[lang];
-// Machine-translated locales are noindex until a native speaker reviews them.
+// Pages are index/follow by default (every locale is indexed); only pages that
+// explicitly pass noindex (e.g. /thanks, /404) are excluded.
 const noindexResolved = noindex ?? !isVerified(lang);
 ---
 

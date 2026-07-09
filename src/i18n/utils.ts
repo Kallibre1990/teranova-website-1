@@ -46,7 +46,7 @@ export function mainNav(lang: Lang): { label: string; href: string }[] {
   ];
 }
 
-/** hreflang alternates — VERIFIED locales only (machine locales are noindex). */
+/** hreflang alternates — one per indexed locale (all locales are indexed). */
 export function getAlternates(path: string) {
   return verifiedLocales.map((l) => ({ hreflang: l, href: localizePath(path, l) }));
 }
