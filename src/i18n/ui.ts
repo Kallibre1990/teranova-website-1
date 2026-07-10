@@ -1,6 +1,6 @@
 /* ============================================================
-   i18n assembler — 10 languages.
-   Source of truth: ru. Full dictionaries: ru, en, ko.
+   i18n assembler — 11 languages.
+   Source of truth: ru. Full dictionaries: ru, en, ko, pt (used directly).
    Machine-translated (merged OVER English): zh, ja, it, de, fr, tr, es.
    All locales are indexed (index/follow) and get hreflang + sitemap
    entries — HQ directive to index every language version.
@@ -10,6 +10,7 @@
 import { ru, type UIDict } from './locales/ru';
 import { en } from './locales/en';
 import { ko } from './locales/ko';
+import { pt } from './locales/pt';
 import zh from './locales/zh';
 import ja from './locales/ja';
 import it from './locales/it';
@@ -32,6 +33,7 @@ export const languages = {
   fr: 'Français',
   tr: 'Türkçe',
   es: 'Español',
+  pt: 'Português',
 } as const;
 
 export type Lang = keyof typeof languages;
@@ -78,6 +80,7 @@ export const ui: Record<Lang, UIDict> = {
   ru,
   en,
   ko,
+  pt,
   zh: build('zh', zh),
   ja: build('ja', ja),
   it: build('it', it),

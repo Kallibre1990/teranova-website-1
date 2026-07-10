@@ -20,7 +20,7 @@ const alternates = getAlternates(path).map((a) => ({ ...a, abs: siteUrl + a.href
 const xDefault = siteUrl + localizePath(path, defaultLang);
 const ogImage = image.startsWith('http') ? image : siteUrl + image;
 const ogLocale: Record<Lang, string> = {
-  ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT', de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES',
+  ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT', de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES', pt: 'pt_BR',
 };
 const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 // Keep meta descriptions to ~155 chars (clean word boundary) for SERP snippets.
