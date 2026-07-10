@@ -14,8 +14,12 @@ const { key } = Astro.props as { key: CategoryKey };
 const lang = 'ru' as const;
 const t = ui[lang];
 const group = t.categories.groups.find((g) => g.key === key)!;
+// Cosmetics has bespoke, keyword-first SEO meta; other categories use the default.
+const cos = key === 'cosmetics' ? t.pages.cosmetics : null;
+const metaTitle = cos ? cos.seo_title : `${group.name} — Teranova Group`;
+const metaDesc = cos ? cos.seo_desc : `${group.blurb} · ${group.items.join(', ')}`;
 ---
 
-<Base lang={lang} path={`/catalog/${key}`} title={`${group.name} — Teranova Group`} description={`${group.blurb} · ${group.items.join(', ')}`} jsonLd={breadcrumbJsonLd(lang, group)}>
+<Base lang={lang} path={`/catalog/${key}`} title={metaTitle} description={metaDesc} jsonLd={breadcrumbJsonLd(lang, group)}>
   <CatalogGroup lang={lang} groupKey={key} />
 </Base>
