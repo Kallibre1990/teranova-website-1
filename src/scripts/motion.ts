@@ -103,6 +103,36 @@ if (allowMotion) {
   window.addEventListener('load', () => ScrollTrigger.refresh());
 }
 
+/* Section rise-in — subtle fade+lift as each section's content enters the viewport.
+   Runs on all devices (transform/opacity only, no Lenis/GSAP needed); skipped under
+   reduced motion. Content is never hidden if JS is off (`.rise` is JS-added) or if the
+   section is already in view on load. */
+if (!reduce) {
+  const risers = Array.from(document.querySelectorAll<HTMLElement>('main .section:not(.hero) > .wrap'));
+  if (risers.length) {
+    const io = new IntersectionObserver(
+      (entries, obs) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-in');
+            obs.unobserve(e.target);
+          }
+        }
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -6% 0px' },
+    );
+    const fold = window.innerHeight * 0.92;
+    for (const el of risers) {
+      if (el.getBoundingClientRect().top < fold) {
+        el.classList.add('is-in'); // already in view on load — reveal instantly, never hidden
+      } else {
+        el.classList.add('rise');
+        io.observe(el);
+      }
+    }
+  }
+}
+
 /* Back-to-top — all devices (cheap) */
 const toTop = document.getElementById('toTop');
 if (toTop) {
