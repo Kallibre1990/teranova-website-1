@@ -16,9 +16,10 @@ const g = t.pages.group;
 const group = t.categories.groups.find((x) => x.key === groupKey)!;
 const subs = group.items;
 
-// Cosmetics gets an editorial layer (blocks A–G) above the demo grids; block A
-// replaces the short head blurb. Other categories keep the plain head.
+// Cosmetics gets an editorial layer (blocks 1–7) around the demo grids; block 1
+// replaces the short head (sup + title + blurb). Other categories keep the plain head.
 const isCosmetics = groupKey === 'cosmetics';
+const headSup = isCosmetics ? t.pages.cosmetics.intro_sup : t.categories.sup;
 const headTitle = isCosmetics ? t.pages.cosmetics.intro_title : group.name;
 const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 
@@ -30,9 +31,9 @@ const statusInfo = {
 } as const;
 ---
 
-<PageHead sup={t.categories.sup} title={headTitle} sub={headSub} deep={groupKey} />
+<PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />
 
-{isCosmetics && <CosmeticsContent lang={lang} />}
+{isCosmetics && <CosmeticsContent lang={lang} part="body" />}
 
 <section class="section section--navy group">
   <Atmosphere variant="dark" />
@@ -90,6 +91,8 @@ const statusInfo = {
     </div>
   </div>
 </section>
+
+{isCosmetics && <CosmeticsContent lang={lang} part="cta" />}
 
 <style>
   .back { display: inline-flex; align-items: center; gap: 7px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); margin-bottom: 26px; }
