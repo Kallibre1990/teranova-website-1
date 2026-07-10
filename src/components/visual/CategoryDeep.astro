@@ -20,14 +20,16 @@ const img = byKey[categoryKey];
 
 {
   img && (
-    <div class="cat-deep" aria-hidden="true">
+    <div class="cat-deep" aria-hidden="true" data-parallax="0.05">
       <Image src={img} alt={alt} widths={[960, 1440, 2400]} sizes="100vw" format="webp" loading="eager" decoding="async" />
     </div>
   )
 }
 
 <style>
-  .cat-deep { position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+  /* inset extends 7% above/below the section (clipped by .section overflow:hidden) so the
+     subtle scroll parallax on data-parallax can drift without ever revealing an edge. */
+  .cat-deep { position: absolute; inset: -7% 0; z-index: 0; pointer-events: none; overflow: hidden; }
   .cat-deep :global(img) { width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0.55; }
   /* darken (stronger on the left, where the heading sits) so text stays readable */
   .cat-deep::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to right, rgba(11, 27, 53, 0.9) 0%, rgba(11, 27, 53, 0.66) 55%, rgba(11, 27, 53, 0.5) 100%); }

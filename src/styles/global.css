@@ -171,6 +171,13 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 12px); }
 /* ---- Scroll reveal: DISABLED (text is always visible, no fade-in on scroll) ---- */
 .js [data-reveal], .js [data-reveal].is-in { opacity: 1; transform: none; }
 
+/* ---- Section rise-in (subtle depth): each section's content eases up as it
+   enters the viewport. motion.ts adds `.rise` only to below-the-fold sections and
+   only when motion is allowed, so no-JS / above-the-fold / reduced-motion never
+   hide content. transform + opacity only (GPU-friendly). ---- */
+.js .rise { opacity: 0; transform: translate3d(0, 24px, 0); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.js .rise.is-in { opacity: 1; transform: none; }
+
 /* ---- Accessibility helpers ---- */
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -244,6 +251,7 @@ html.cursor-on input, html.cursor-on textarea, html.cursor-on select { cursor: a
   html { scroll-behavior: auto; }
   .js [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }
   .js [data-reveal="mask"] { clip-path: none !important; }
+  .js .rise { opacity: 1 !important; transform: none !important; transition: none !important; }
   .cursor { display: none !important; }
   *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
 }
