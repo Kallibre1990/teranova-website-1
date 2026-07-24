@@ -27,18 +27,28 @@ function initCarousel(root: HTMLElement) {
   update();
 
   // Drag-to-scroll with a mouse/trackpad. Touch uses native scrolling.
+  const DRAG_THRESHOLD = 12;
   let down = false, startX = 0, startLeft = 0, moved = false;
   track.addEventListener('pointerdown', (e) => {
     if (e.pointerType === 'touch') return;
     down = true; moved = false; startX = e.clientX; startLeft = track.scrollLeft;
-    try { track.setPointerCapture(e.pointerId); } catch {}
+    // Захват указателя НЕ ставим здесь: он уводит все последующие события на трек,
+    // и обычный клик по карточке перестаёт доходить до ссылки. Захватываем только
+    // когда пользователь реально начал тащить (см. pointermove).
     track.classList.add('is-grabbing');
   });
   track.addEventListener('pointermove', (e) => {
     if (!down) return;
     const dx = e.clientX - startX;
-    if (Math.abs(dx) > 4) moved = true;
-    track.scrollLeft = startLeft - dx;
+    // Порог 4px был меньше естественного дрожания руки: на трекпаде Mac курсор
+    // почти всегда смещается на несколько пикселей между нажатием и отпусканием,
+    // клик считался перетаскиванием и отменялся — карточки каталога не
+    // открывались вовсе. 12px — сдвиг, который пользователь делает намеренно.
+    if (Math.abs(dx) > DRAG_THRESHOLD && !moved) {
+      moved = true;
+      try { track.setPointerCapture(e.pointerId); } catch {}
+    }
+    if (moved) track.scrollLeft = startLeft - dx;
   });
   const end = () => { down = false; track.classList.remove('is-grabbing'); };
   track.addEventListener('pointerup', end);
