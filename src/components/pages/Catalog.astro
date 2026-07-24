@@ -96,16 +96,25 @@ const arrow = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" strok
   .cat:hover .cat__more { background: var(--cobalt); color: #fff; }
   .cat-demo { margin-top: 22px; font-size: 0.84rem; color: var(--silver-muted); }
 
+  /* Зона нажатия сужена до 30px, круг 46px рисуется псевдоэлементом и клики не
+     перехватывает: по бокам ~34px, вынести кнопку наружу некуда. Вид прежний. */
   .ccar-btn {
     position: absolute; top: 46%; transform: translateY(-50%);
-    width: 46px; height: 46px; border-radius: 50%; background: var(--cobalt); color: #fff;
-    border: none; display: grid; place-items: center; box-shadow: var(--sh-m); z-index: 3;
-    transition: opacity .2s var(--ease), background .2s var(--ease);
+    width: 30px; height: 46px; border-radius: 0; background: transparent; color: #fff;
+    border: none; display: grid; place-items: center; box-shadow: none; z-index: 3;
+    transition: opacity .2s var(--ease);
   }
-  .ccar-btn:hover { background: var(--cobalt-light); }
+  .ccar-btn::before {
+    content: ''; position: absolute; top: 50%; left: 50%;
+    width: 46px; height: 46px; margin: -23px 0 0 -23px; border-radius: 50%;
+    background: var(--cobalt); box-shadow: var(--sh-m); pointer-events: none;
+    transition: background .2s var(--ease);
+  }
+  .ccar-btn svg { position: relative; }
+  .ccar-btn:hover::before { background: var(--cobalt-light); }
   .ccar-btn:disabled { opacity: 0; pointer-events: none; }
-  .ccar-btn--prev { left: -8px; }
-  .ccar-btn--next { right: -8px; }
+  .ccar-btn--prev { left: -20px; }
+  .ccar-btn--next { right: -20px; }
 
   @media (hover: none) { .ccar-btn { display: none; } }
   @media (max-width: 560px) { .cat { flex-basis: 84%; } }
