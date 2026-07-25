@@ -77,6 +77,52 @@ if (allowMotion) {
       });
       hero.addEventListener('mouseleave', () => { dx(0); dy(0); tx?.(0); ty?.(0); });
     }
+
+    // Network-of-light: drifting points + hairlines ("a bridge between two sides").
+    // Pauses when the hero scrolls out of view; gated to desktop + motion by this island.
+    const net = hero.querySelector<HTMLCanvasElement>('[data-hero-net]');
+    if (net) {
+      const ctx = net.getContext('2d');
+      if (ctx) {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        let W = 0, H = 0, pts: { x: number; y: number; vx: number; vy: number }[] = [];
+        const size = () => {
+          W = net.clientWidth; H = net.clientHeight;
+          net.width = W * dpr; net.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+          const n = Math.min(Math.round((W * H) / 26000), 80);
+          pts = Array.from({ length: n }, () => ({
+            x: Math.random() * W, y: Math.random() * H,
+            vx: (Math.random() - 0.5) * 0.18, vy: (Math.random() - 0.5) * 0.18,
+          }));
+        };
+        size();
+        window.addEventListener('resize', size);
+        let vis = true;
+        new IntersectionObserver((es) => { vis = es[0].isIntersecting; }).observe(hero);
+        const draw = () => {
+          if (vis) {
+            ctx.clearRect(0, 0, W, H);
+            for (const p of pts) {
+              p.x += p.vx; p.y += p.vy;
+              if (p.x < 0 || p.x > W) p.vx *= -1;
+              if (p.y < 0 || p.y > H) p.vy *= -1;
+            }
+            for (let i = 0; i < pts.length; i++)
+              for (let j = i + 1; j < pts.length; j++) {
+                const a = pts[i], b = pts[j], dx2 = a.x - b.x, dy2 = a.y - b.y, d = dx2 * dx2 + dy2 * dy2;
+                if (d < 15000) {
+                  ctx.strokeStyle = `rgba(90,150,235,${(1 - d / 15000) * 0.5})`;
+                  ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+                }
+              }
+            ctx.fillStyle = 'rgba(150,190,245,0.7)';
+            for (const p of pts) { ctx.beginPath(); ctx.arc(p.x, p.y, 1.4, 0, 7); ctx.fill(); }
+          }
+          requestAnimationFrame(draw);
+        };
+        requestAnimationFrame(draw);
+      }
+    }
   }
 
   // Custom cursor + magnetic primary buttons
