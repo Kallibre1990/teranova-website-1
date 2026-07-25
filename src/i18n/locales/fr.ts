@@ -65,6 +65,8 @@ const fr: DeepPartial<UIDict> = {
   },
 
   categories: {
+    lead_why_t: 'Pourquoi cette activité passe en premier',
+    lead_why_d: 'La Corée est le centre mondial de la fabrication cosmétique. En 2025, ses exportations ont progressé de 12,3% pour atteindre 11,4 milliards de dollars et ont touché 202 pays — chiffres du ministère coréen de la Sécurité alimentaire et pharmaceutique. Ici, nous menons tout le parcours : choix de l\'usine, formulation, échantillons et documents pour votre marché.',
     sup: "Catalogue",
     title: "Ce que nous fournissons depuis la Corée",
     sub: "Le catalogue regroupe ce que nous avons déjà vérifié. Ce qui n'y figure pas, nous le sourçons sur demande. Les véhicules commerciaux, de tourisme et spéciaux constituent une activité distincte ; les voitures particulières grand public sont hors de notre périmètre.",

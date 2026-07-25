@@ -71,6 +71,8 @@ export const en: UIDict = {
   },
 
   categories: {
+    lead_why_t: 'Why this direction comes first',
+    lead_why_d: 'Korea is the world hub of cosmetics manufacturing. In 2025 its cosmetics exports grew 12.3% to $11.4 billion and reached 202 countries — figures from the Korean Ministry of Food and Drug Safety. Here we run the whole path: factory selection, formulation, samples, paperwork for your market.',
     sup: 'Catalog',
     title: 'What we supply from Korea',
     sub: 'The catalog is what we have already verified. What is not there — we source on demand. Commercial, passenger and special vehicles are a separate direction; consumer cars are out of scope.',

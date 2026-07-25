@@ -65,6 +65,8 @@ const tr: DeepPartial<UIDict> = {
   },
 
   categories: {
+    lead_why_t: 'Bu alan neden ilk sırada',
+    lead_why_d: 'Kore, kozmetik üretiminin dünyadaki merkezidir. 2025’te kozmetik ihracatı %12,3 artarak 11,4 milyar dolara ulaştı ve 202 ülkeye gitti — Kore Gıda ve İlaç Güvenliği Bakanlığı verileri. Bu alanda tüm süreci biz yürütüyoruz: fabrika seçimi, formülasyon, numuneler ve pazarınıza uygun belgeler.',
     sup: "Katalog",
     title: "Kore'den neler tedarik ediyoruz",
     sub: "Katalog, halihazırda doğruladığımız şeylerdir. Burada olmayanı talep üzerine buluruz. Ticari, binek ve özel araçlar ayrı bir yöndür; tüketici otomobilleri kapsam dışıdır.",

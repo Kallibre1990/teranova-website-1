@@ -65,6 +65,8 @@ const de: DeepPartial<UIDict> = {
   },
 
   categories: {
+    lead_why_t: 'Warum dieser Bereich bei uns zuerst steht',
+    lead_why_d: 'Korea ist das weltweite Zentrum der Kosmetikherstellung. 2025 stiegen die Kosmetikexporte um 12,3% auf 11,4 Milliarden US-Dollar und erreichten 202 Länder — Zahlen des koreanischen Ministeriums für Lebensmittel- und Arzneimittelsicherheit. Hier begleiten wir den gesamten Weg: Auswahl des Werks, Rezeptur, Muster und Unterlagen für Ihren Markt.',
     sup: "Katalog",
     title: "Was wir aus Korea liefern",
     sub: "Der Katalog enthält das, was wir bereits geprüft haben. Was nicht dabei ist, beschaffen wir auf Anfrage. Nutz-, Personen- und Spezialfahrzeuge sind ein eigener Bereich; Pkw für Endverbraucher liegen außerhalb unseres Profils.",

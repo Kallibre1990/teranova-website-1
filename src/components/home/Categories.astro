@@ -8,9 +8,11 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = ui[lang];
-// Косметика (K-beauty · OEM/ODM) — первой карточкой; «Смежные направления» — последней.
+// Косметика — приоритет: вынесена ИЗ карусели в отдельную карточку над ней (справа),
+// с пояснением, почему направление первое. Карусель остаётся на всю ширину с
+// остальными шестью направлениями; «Смежные направления» — последними.
+const lead = t.categories.groups.find((g) => g.key === 'cosmetics')!;
 const groups = [
-  ...t.categories.groups.filter((g) => g.key === 'cosmetics'),
   ...t.categories.groups.filter((g) => g.key !== 'cosmetics' && g.key !== 'adjacent'),
   ...t.categories.groups.filter((g) => g.key === 'adjacent'),
 ];
@@ -29,10 +31,27 @@ const icons: Record<string, string> = {
 <section class="section section--navy categories" id="categories">
   <Atmosphere variant="dark" />
   <div class="wrap">
-    <div class="section-head">
-      <span class="sup">( {t.categories.sup} )</span>
-      <h2 class="h-section">{t.categories.title}</h2>
-      <p class="sub-section">{t.categories.sub}</p>
+    <div class="cats-header">
+      <div class="section-head">
+        <span class="sup">( {t.categories.sup} )</span>
+        <h2 class="h-section">{t.categories.title}</h2>
+        <p class="sub-section">{t.categories.sub}</p>
+      </div>
+
+      <a class="lead-feat" href={localizePath(`/catalog/${lead.key}`, lang)}>
+        <span class="lead-feat__eyebrow">
+          <span class="lead-feat__ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" set:html={icons.cosmetics} />
+          </span>
+          {t.pages.cosmetics.intro_sup}
+        </span>
+        <h3 class="lead-feat__t">{lead.name}</h3>
+        <p class="lead-feat__d">{t.categories.lead_why_d}</p>
+        <ul class="lead-feat__tags">
+          {lead.items.map((it) => <li>{it}</li>)}
+        </ul>
+        <span class="lead-feat__cta">{t.pages.cosmetics.cta_primary}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
     </div>
 
     <div class="cat-carousel" data-carousel>
@@ -75,6 +94,45 @@ const icons: Record<string, string> = {
 
 <style>
   .categories { position: relative; }
+
+  /* Шапка блока: слева заголовок, справа — вынесенная косметика (приоритет).
+     Карусель ниже остаётся на всю ширину. На узких экранах — друг под другом. */
+  .cats-header {
+    display: grid; grid-template-columns: 1fr minmax(340px, 420px);
+    gap: 28px; align-items: end; margin-bottom: clamp(32px, 4vw, 48px);
+  }
+  .cats-header .section-head { margin-bottom: 0; }
+
+  .lead-feat {
+    display: flex; flex-direction: column; align-items: flex-start;
+    padding: 24px 26px; border-radius: var(--r-lg);
+    background: linear-gradient(150deg, rgba(37, 99, 212, 0.20), rgba(37, 99, 212, 0.06));
+    border: 1px solid rgba(63, 122, 224, 0.42);
+    box-shadow: 0 18px 44px -20px rgba(37, 99, 212, 0.6);
+    transition: transform .25s var(--ease), border-color .25s var(--ease), box-shadow .25s var(--ease);
+  }
+  .lead-feat:hover { transform: translateY(-4px); border-color: var(--cobalt-light); box-shadow: 0 24px 54px -20px rgba(37, 99, 212, 0.75); }
+  .lead-feat__eyebrow {
+    display: inline-flex; align-items: center; gap: 9px;
+    font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--cobalt-light); margin-bottom: 14px;
+  }
+  .lead-feat__ic {
+    width: 34px; height: 34px; flex: none; border-radius: 9px; display: grid; place-items: center;
+    background: rgba(37, 99, 212, 0.22); border: 1px solid rgba(63, 122, 224, 0.4); color: var(--cobalt-light);
+  }
+  .lead-feat__ic svg { width: 19px; height: 19px; }
+  .lead-feat__t { font-size: 1.18rem; font-weight: 800; letter-spacing: -0.01em; color: #fff; margin-bottom: 10px; }
+  .lead-feat__d { font-size: 0.86rem; color: var(--silver); line-height: 1.62; margin-bottom: 16px; }
+  .lead-feat__tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 18px; }
+  .lead-feat__tags li { font-size: 0.74rem; font-weight: 600; color: var(--silver-muted); background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 100px; padding: 4px 11px; }
+  .lead-feat__cta { display: inline-flex; align-items: center; gap: 7px; font-size: 0.9rem; font-weight: 700; color: var(--cobalt-light); margin-top: auto; }
+  .lead-feat:hover .lead-feat__cta svg { transform: translateX(4px); }
+  .lead-feat__cta svg { transition: transform .25s var(--ease); }
+  @media (max-width: 900px) {
+    .cats-header { grid-template-columns: 1fr; gap: 24px; align-items: start; }
+  }
+
   .cat-carousel { position: relative; }
   .cat-track {
     display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory;
