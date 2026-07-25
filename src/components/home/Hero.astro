@@ -30,6 +30,7 @@ const bgAlt = heroBgAlt[lang] ?? heroBgAlt.en!;
 
     <Atmosphere variant="hero" />
     <FloorGrid />
+    <canvas class="hero__net" data-hero-net aria-hidden="true"></canvas>
     <span class="hero__cross" data-hero-cross aria-hidden="true"></span>
 
     <div class="hero__diamond" data-hero-art aria-hidden="true">
@@ -84,13 +85,31 @@ const bgAlt = heroBgAlt[lang] ?? heroBgAlt.en!;
     width: clamp(340px, 46vw, 600px); z-index: 4; pointer-events: none;
     filter: drop-shadow(0 36px 90px rgba(37, 99, 212, 0.45));
   }
+  /* Network-of-light: the brand metaphor "we connect two sides / a bridge",
+     drawn as drifting points + hairlines. Ambient, behind the diamond. Driven by
+     motion.ts (desktop + motion-allowed only); hidden for touch / reduced-motion. */
+  .hero__net { position: absolute; inset: 0; z-index: 3; pointer-events: none; opacity: 0.55; }
+  @media (hover: none) { .hero__net { display: none; } }
+  @media (prefers-reduced-motion: reduce) { .hero__net { display: none; } }
+
   .hero__cross { position: absolute; inset: 0; z-index: 5; opacity: 0; pointer-events: none; background: radial-gradient(82% 80% at 50% 58%, rgba(8, 18, 38, 0.55), rgba(4, 8, 18, 0.96)); }
 
   .hero__content { position: relative; z-index: 6; max-width: 840px; }
+  /* Soft readability scrim (unchanged role) — keeps white text confident over the photo. */
   .hero__content::before {
-    content: ''; position: absolute; inset: -16% -10%; z-index: -1; pointer-events: none;
-    background: radial-gradient(60% 58% at 50% 52%, rgba(6, 13, 28, 0.74), rgba(6, 13, 28, 0.32) 56%, transparent 78%);
+    content: ''; position: absolute; inset: -16% -10%; z-index: -2; pointer-events: none;
+    background: radial-gradient(60% 58% at 50% 52%, rgba(6, 13, 28, 0.70), rgba(6, 13, 28, 0.30) 56%, transparent 78%);
   }
+  /* Glass panel — the "layers" premium cue from the approved mockup: a frosted card
+     floating over the network + photo, holding the message. */
+  .hero__content::after {
+    content: ''; position: absolute; inset: -34px -46px; z-index: -1; pointer-events: none;
+    border-radius: 30px; background: rgba(9, 20, 40, 0.34);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 34px 90px -34px rgba(0, 0, 0, 0.62), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
+  }
+  @media (hover: none) { .hero__content::after { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(9, 20, 40, 0.5); } }
   .hero__title { font-size: clamp(2.5rem, 6.6vw, 5rem); font-weight: 800; line-height: 1.02; letter-spacing: -0.035em; margin: 8px auto 22px; max-width: 17ch; }
   .hero__sub { font-size: clamp(1.05rem, 1.5vw, 1.22rem); color: var(--silver); line-height: 1.65; max-width: 54ch; margin: 0 auto 32px; }
   .hero__cta { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
