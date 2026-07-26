@@ -1,0 +1,19 @@
+---
+/* Supplier profile: SANTE COSMETICS / Dr.SANTE (default locale, ru).
+   First real supplier page, published with written consent. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('sante')!;
+const c = supplierContent(profile, lang);
+const title = c.seoTitle;
+const description = c.seoDesc;
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={title} description={description} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
