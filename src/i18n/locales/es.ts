@@ -132,7 +132,7 @@ const es: DeepPartial<UIDict> = {
     sup: "Nosotros",
     title: "Personas reales y visitas presenciales a las fábricas",
     body: "Teranova encuentra fabricantes en Corea, los verifica — incluso con una visita presencial a la fábrica — y gestiona la operación desde la primera solicitud hasta la recepción de la mercancía. Un único socio responsable en lugar de una cadena de intermediarios.",
-    photo_note: "Aquí irán fotos reales: el equipo y las visitas a las fábricas.",
+    photo_note: "Aquí irán fotos reales: el fundador, el equipo y las visitas a las fábricas.",
     cta: "Más sobre la empresa",
   },
 
@@ -146,7 +146,7 @@ const es: DeepPartial<UIDict> = {
   team_home: {
     sup: "Equipo",
     title: "Detrás de cada operación hay personas reales",
-    body: "La dirección y los gestores que se encargan personalmente de la búsqueda, la verificación y el suministro.",
+    body: "El fundador, el director y los gestores que se encargan personalmente de la búsqueda, la verificación y el suministro.",
     cta: "Conocer al equipo",
   },
 
@@ -294,7 +294,7 @@ const es: DeepPartial<UIDict> = {
       cta_body: "Díganos qué quiere producir o comprar — encontramos la fábrica, la verificamos y gestionamos la operación. La consulta inicial y la búsqueda de proveedores son gratuitas.",
       seo_title: "Fabricante coreano de cosméticos OEM/ODM para su marca — Teranova",
       seo_desc:
-        "Marca propia (private label), MOQ negociable, apoyo con registro ANVISA/COFEPRIS, fabricación por contrato.",
+        "Fabricación por contrato de cosmética en Corea: marca propia (private label), OEM/ODM bajo su marca, MOQ negociable, apoyo con el registro para su mercado (ANVISA, FDA, UE 1223/2009).",
     },
     buyers: {
       title: "Si compra en Corea",

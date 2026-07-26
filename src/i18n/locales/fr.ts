@@ -170,15 +170,15 @@ const fr: DeepPartial<UIDict> = {
 
   pages: {
     catalog: {
-      title: "Catalogue des directions",
-      sub: "Sept directions de sourcing depuis la Corée. Ouvrez une direction pour découvrir les sous-niches et les fournisseurs vérifiés. Le catalogue est en cours d'enrichissement — certaines fiches sont des échantillons de démonstration.",
+      title: "Catalogue des secteurs",
+      sub: "Sept secteurs de sourcing depuis la Corée. Ouvrez un secteur pour découvrir les sous-niches et les fournisseurs vérifiés. Le catalogue est en cours d'enrichissement — certaines fiches sont des échantillons de démonstration.",
       view: "Voir les fournisseurs",
     },
     group: {
-      back: "Toutes les directions",
+      back: "Tous les secteurs",
       subniches: "Sous-niches",
       products_title: "Exemples de produits",
-      suppliers_title: "Fournisseurs de cette direction",
+      suppliers_title: "Fournisseurs de ce secteur",
       demo_badge: "Données de démonstration",
       demo_note: "Fiches d'exemple — le catalogue est en cours d'enrichissement avec de vrais fournisseurs.",
       request: "Faire une demande dans cette catégorie",
@@ -328,7 +328,7 @@ const fr: DeepPartial<UIDict> = {
         { q: "Êtes-vous fabricant ou intermédiaire ?", a: "Nous sommes un partenaire de confiance B2B : nous trouvons et vérifions des fabricants coréens et accompagnons la transaction. Nous ne fabriquons pas nous-mêmes." },
         { q: "Que signifient les statuts de vérification ?", a: "« Vérifié — visite sur site » signifie qu'un collaborateur de l'équipe s'est rendu à l'usine en personne, avec photos et date. « Données fournies par l'entreprise » signifie un profil établi d'après les déclarations du fournisseur. C'est un fait documenté, et non une promesse de résultat." },
         { q: "Qu'y a-t-il dans le catalogue et qu'est-ce qui est sur demande ?", a: "Le catalogue regroupe ce que nous avons déjà vérifié. Si ce dont vous avez besoin n'y figure pas, nous trouvons une usine adaptée à votre demande : sourcing, vérification et organisation de l'approvisionnement." },
-        { q: "Quelles directions couvrez-vous ?", a: "Avitaillement maritime ; cosmétiques et soins (OEM/ODM) ; médical et esthétique ; équipements industriels ; véhicules commerciaux et spéciaux ; secteurs connexes ; chimie et matériaux. Les voitures particulières grand public sont hors de notre périmètre." },
+        { q: "Quels secteurs couvrez-vous ?", a: "Avitaillement maritime ; cosmétiques et soins (OEM/ODM) ; médical et esthétique ; équipements industriels ; véhicules commerciaux et spéciaux ; secteurs connexes ; chimie et matériaux. Les voitures particulières grand public sont hors de notre périmètre." },
         { q: "D'où viennent vos acheteurs ?", a: "Nous accompagnons les acheteurs de la CEI, d'Europe, de Türkiye, des États-Unis, d'Amérique latine et d'Asie. Sur le terrain, nous sommes présents en Corée, au Japon, en Chine et en Türkiye ; les autres régions sur demande." },
         { q: "Publiez-vous les coordonnées des fournisseurs ?", a: "Non. Nous ne publions pas les coordonnées personnelles des fournisseurs — toute communication passe par Teranova. Un fournisseur peut, s'il le souhaite, accepter la publication." },
       ],
@@ -395,7 +395,7 @@ const fr: DeepPartial<UIDict> = {
     sup: "À propos de nous",
     title: "Des personnes réelles et des visites d'usine en personne",
     body: "Teranova trouve des fabricants en Corée, les vérifie — jusqu'à une visite personnelle sur site à l'usine — et mène la transaction de la première demande jusqu'à la réception des marchandises. Un seul partenaire responsable plutôt qu'une chaîne d'intermédiaires.",
-    photo_note: "De vraies photos seront placées ici : l'équipe et les visites d'usine.",
+    photo_note: "De vraies photos seront placées ici : le fondateur, l'équipe et les visites d'usine.",
     cta: "En savoir plus sur l'entreprise",
   },
 
@@ -409,7 +409,7 @@ const fr: DeepPartial<UIDict> = {
   team_home: {
     sup: "Équipe",
     title: "Derrière chaque transaction, il y a des personnes réelles",
-    body: "La direction et les responsables qui gèrent personnellement le sourcing, la vérification et l'approvisionnement.",
+    body: "Le fondateur, la direction et les responsables qui gèrent personnellement le sourcing, la vérification et l'approvisionnement.",
     cta: "Rencontrer l'équipe",
   },
 };
