@@ -7,6 +7,16 @@ const { label = 'Korea → world' } = Astro.props;
 
 <div class="globe">
   <span class="globe__halo" aria-hidden="true"></span>
+  <svg class="globe__orbit" viewBox="0 0 200 200" aria-hidden="true">
+    <defs>
+      <linearGradient id="globe-orbit" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="rgba(203,212,224,0)" />
+        <stop offset=".5" stop-color="rgba(203,212,224,.5)" />
+        <stop offset="1" stop-color="rgba(203,212,224,0)" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="100" rx="102" ry="36" transform="rotate(-20 100 100)" fill="none" stroke="url(#globe-orbit)" stroke-width="1.1" />
+  </svg>
   <canvas data-globe class="globe__cv" role="img" aria-label={label}></canvas>
 </div>
 
@@ -21,5 +31,9 @@ const { label = 'Korea → world' } = Astro.props;
     background: radial-gradient(circle at 50% 45%, rgba(78, 146, 222, 0.4), transparent 64%);
     filter: blur(6px);
   }
+  /* Silver orbit ring — a slow layer around the planet; its far arc hides behind the sphere. */
+  .globe__orbit { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; transform-origin: 50% 50%; animation: globeOrbit 48s linear infinite; }
+  @keyframes globeOrbit { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .globe__orbit { animation: none; } }
   .globe__cv { position: relative; width: 100%; height: 100%; display: block; }
 </style>

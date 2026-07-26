@@ -40,10 +40,15 @@ const { class: cls = '' } = Astro.props;
     <polygon class="d-face" points="320,60 80,320 320,580" fill="url(#d-left)"></polygon>
     <polygon class="d-face" points="320,60 560,320 320,580" fill="url(#d-right)"></polygon>
 
+    <!-- outer silver halo edge — an extra noble depth layer -->
+    <polygon points="320,40 60,320 320,600 580,320" stroke="#e7eef7" stroke-opacity="0.3" stroke-width="1" fill="none"></polygon>
+
     <!-- seam + outline + lit edge -->
     <line x1="320" y1="60" x2="320" y2="580" stroke="#ffffff" stroke-width="5" stroke-opacity="0.9"></line>
     <polygon points="320,60 80,320 320,580 560,320" stroke="#cbd4e0" stroke-opacity="0.6" stroke-width="2" fill="none"></polygon>
     <path d="M320 60 L80 320" stroke="#9fc0f0" stroke-width="2.5" stroke-opacity="0.8" fill="none"></path>
+    <!-- silver glint down the lit left edge -->
+    <path d="M320 60 L80 320" stroke="#eef3fa" stroke-width="1" stroke-opacity="0.7" fill="none"></path>
   </svg>
 </div>
 
