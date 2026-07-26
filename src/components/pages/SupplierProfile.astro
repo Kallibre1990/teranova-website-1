@@ -27,6 +27,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
+const priceHref = profile.priceFile?.[lang] ?? profile.priceFile?.ru;
 const cat = t.categories.groups.find((g) => g.key === profile.category);
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 ---
@@ -117,11 +118,11 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
                   {grp.items.map((it, ii) => {
                     const note = c.catalog_notes?.[base + ii];
                     return (
-                      <a class="sp-prod" href={it.img} target="_blank" rel="noopener">
+                      <button class="sp-prod" type="button" data-full={it.img} data-name={it.name}>
                         <span class="sp-prod__ph"><img src={it.img} alt={it.name} loading="lazy" decoding="async" /></span>
                         <span class="sp-prod__nm">{it.name}</span>
                         {note && <span class="sp-prod__desc">{note}</span>}
-                      </a>
+                      </button>
                     );
                   })}
                 </div>
@@ -203,12 +204,20 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
             </div>
           ))}
         </dl>
-        {termsHref && (
-          <a class="sp-terms__dl" href={termsHref} download>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-            {c.ui.download_btn}
-          </a>
-        )}
+        <div class="sp-terms__dls">
+          {termsHref && (
+            <a class="sp-terms__dl" href={termsHref} download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+              {c.ui.download_btn}
+            </a>
+          )}
+          {priceHref && c.ui.price_btn && (
+            <a class="sp-terms__dl sp-terms__dl--alt" href={priceHref} download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+              {c.ui.price_btn}
+            </a>
+          )}
+        </div>
         {c.ui.terms_disc && <p class="sp-terms__disc">{c.ui.terms_disc}</p>}
       </div>
     </section>
@@ -226,7 +235,29 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
       <p class="sp-consent">{c.consentNote}</p>
     </div>
   </section>
+
+  <div class="sp-lb" id="spLb" hidden>
+    <button class="sp-lb__x" type="button" aria-label="×">×</button>
+    <figure class="sp-lb__fig">
+      <img id="spLbImg" src="" alt="" />
+      <figcaption id="spLbCap"></figcaption>
+    </figure>
+  </div>
 </article>
+
+<script>
+  const lb = document.getElementById('spLb');
+  if (lb) {
+    const img = document.getElementById('spLbImg');
+    const cap = document.getElementById('spLbCap');
+    const open = (src, name) => { img.setAttribute('src', src); img.setAttribute('alt', name || ''); cap.textContent = name || ''; lb.hidden = false; document.documentElement.style.overflow = 'hidden'; };
+    const close = () => { lb.hidden = true; img.setAttribute('src', ''); document.documentElement.style.overflow = ''; };
+    document.querySelectorAll('.sp-prod').forEach((b) => b.addEventListener('click', () => open(b.getAttribute('data-full'), b.getAttribute('data-name'))));
+    lb.querySelector('.sp-lb__x').addEventListener('click', close);
+    lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !lb.hidden) close(); });
+  }
+</script>
 
 <style>
   .sp { --ds-deep: #12306e; --ds-sky: #4ca6fc; --ds-accent: #ff2552; --ds-bg: #f3f8ff; background: #fff; color: #16233d; }
@@ -295,7 +326,7 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-catgrp__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
   .sp-catgrp__nm::before { content: ''; width: 18px; height: 2px; background: var(--ds-sky); border-radius: 2px; }
   .sp-catgrp__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(146px, 1fr)); gap: 14px; }
-  .sp-prod { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s; }
+  .sp-prod { display: flex; flex-direction: column; text-align: left; width: 100%; font: inherit; cursor: pointer; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s; }
   .sp-prod:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
   .sp-prod__ph { aspect-ratio: 1 / 1; background: #f7fafe; display: grid; place-items: center; padding: 10px; }
   .sp-prod__ph img { width: 100%; height: 100%; object-fit: contain; }
@@ -305,6 +336,15 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-certs { display: flex; flex-wrap: wrap; gap: 9px; }
   .sp-certs li { font-size: 0.88rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); border-radius: 8px; padding: 8px 15px; }
   .sp-certs__note { font-size: 0.82rem; color: #5a6a80; line-height: 1.55; margin-top: 14px; }
+
+  /* lightbox */
+  .sp-lb { position: fixed; inset: 0; z-index: 200; background: rgba(8, 19, 37, 0.9); display: grid; place-items: center; padding: 24px; }
+  .sp-lb[hidden] { display: none; }
+  .sp-lb__fig { margin: 0; max-width: 620px; text-align: center; }
+  .sp-lb__fig img { max-width: 100%; max-height: 78vh; border-radius: 14px; background: #fff; }
+  .sp-lb__fig figcaption { color: #fff; font-size: 0.95rem; font-weight: 600; margin-top: 14px; }
+  .sp-lb__x { position: fixed; top: 20px; right: 24px; width: 44px; height: 44px; border-radius: 50%; border: none; background: rgba(255, 255, 255, 0.15); color: #fff; font-size: 1.7rem; line-height: 1; cursor: pointer; transition: background .2s; }
+  .sp-lb__x:hover { background: rgba(255, 255, 255, 0.32); }
 
   .sp-tech { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .sp-tech__item { border-left: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0 14px 14px 0; padding: 20px 22px; }
@@ -316,8 +356,11 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-terms__row { display: grid; grid-template-columns: 210px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 16%, #e2e8f0); }
   .sp-terms__row dt { font-weight: 700; color: var(--ds-deep); font-size: 0.92rem; }
   .sp-terms__row dd { color: #364357; font-size: 0.96rem; line-height: 1.6; }
-  .sp-terms__dl { display: inline-flex; align-items: center; gap: 9px; margin-top: 24px; padding: 12px 22px; border-radius: 10px; font-weight: 700; font-size: 0.92rem; color: #fff; background: var(--ds-deep); transition: background .2s; }
-  .sp-terms__dl:hover { background: var(--ds-sky); }
+  .sp-terms__dls { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+  .sp-terms__dl { display: inline-flex; align-items: center; gap: 9px; padding: 12px 22px; border-radius: 10px; font-weight: 700; font-size: 0.92rem; color: #fff; background: var(--ds-deep); transition: background .2s, transform .2s; }
+  .sp-terms__dl:hover { background: var(--ds-sky); transform: translateY(-2px); }
+  .sp-terms__dl--alt { background: var(--ds-sky); }
+  .sp-terms__dl--alt:hover { background: var(--ds-deep); }
   .sp-terms__dl svg { width: 17px; height: 17px; }
   .sp-terms__disc { font-size: 0.82rem; color: #5a6a80; line-height: 1.6; margin-top: 16px; }
 
