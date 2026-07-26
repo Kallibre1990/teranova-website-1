@@ -6,6 +6,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
+import { suppliers as realSuppliers } from '../../data/suppliers';
 interface Props {
   lang: Lang;
   groupKey: CategoryKey;
@@ -24,6 +25,7 @@ const headTitle = isCosmetics ? t.pages.cosmetics.intro_title : group.name;
 const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 
 const suppliers = demoSuppliers[groupKey] ?? [];
+const realForCat = realSuppliers.filter((s) => s.category === groupKey);
 const roleLabel = { maker: g.role_maker, oem: g.role_oem, exporter: g.role_exporter } as const;
 const statusInfo = {
   visited: { cls: 'badge--visited', label: t.verify.card_visited_t },
@@ -59,6 +61,24 @@ const statusInfo = {
         ))
       }
     </div>
+
+    {realForCat.length > 0 && (
+      <>
+        <div class="group__head">
+          <h2 class="lvl" style="margin:0">Проверенные поставщики</h2>
+        </div>
+        <div class="sup-grid">
+          {realForCat.map((s) => (
+            <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
+              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+              <h3 class="scard__nm">{s.name}</h3>
+              <p class="scard__role">{s.brand} · {s.descriptor}</p>
+              <span class="scard__more">Открыть профиль →</span>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
 
     <div class="group__head">
       <h2 class="lvl" style="margin:0">{g.suppliers_title}</h2>
@@ -118,6 +138,9 @@ const statusInfo = {
   .scard__contacts a { color: var(--cobalt-light); word-break: break-all; }
   .scard__contacts a:hover { color: #fff; }
   .scard__contacts span { color: var(--silver-muted); }
+  .scard--real { cursor: pointer; text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+  .scard--real:hover { transform: translateY(-3px); border-color: rgba(63, 122, 224, 0.5); box-shadow: 0 14px 34px rgba(3, 10, 24, 0.4); }
+  .scard__more { margin-top: auto; padding-top: 14px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); }
 
   .group__foot { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .group__foot .note { font-size: 0.84rem; color: var(--silver-muted); max-width: 48ch; }

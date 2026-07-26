@@ -1,0 +1,18 @@
+---
+/* Supplier profile: SANTE COSMETICS / Dr.SANTE (default locale, ru).
+   First real supplier page, published with written consent. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('sante')!;
+const title = `${profile.name} (${profile.brand}) — корейская эстетическая косметика · Teranova Group`;
+const description = `${profile.name} (${profile.brand}) — ${profile.descriptor.toLowerCase()}. Линейки ${profile.lines.map((l) => l.name).join(', ')} для чувствительной и проблемной кожи. Поставки и сопровождение сделки через Teranova.`;
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={title} description={description} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
