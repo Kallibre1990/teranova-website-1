@@ -5,7 +5,7 @@ const tr: DeepPartial<UIDict> = {
   nav: {
     catalog: "Katalog",
     verify: "Nasıl doğruluyoruz",
-    buyers: "Talep üzerine",
+    buyers: "Alıcılar için",
     suppliers: "Tedarikçiler için",
     about: "Hakkımızda",
     faq: "Sıkça sorulanlar",
@@ -69,7 +69,7 @@ const tr: DeepPartial<UIDict> = {
     lead_why_d: 'Kore, kozmetik üretiminin dünyadaki merkezidir. 2025’te kozmetik ihracatı %12,3 artarak 11,4 milyar dolara ulaştı ve 202 ülkeye gitti — Kore Gıda ve İlaç Güvenliği Bakanlığı verileri. Bu alanda tüm süreci biz yürütüyoruz: fabrika seçimi, formülasyon, numuneler ve pazarınıza uygun belgeler.',
     sup: "Katalog",
     title: "Kore'den neler tedarik ediyoruz",
-    sub: "Katalog, halihazırda doğruladığımız şeylerdir. Burada olmayanı talep üzerine buluruz. Ticari, binek ve özel araçlar ayrı bir yöndür; tüketici otomobilleri kapsam dışıdır.",
+    sub: "Katalog, halihazırda doğruladığımız şeylerdir. Burada olmayanı talep üzerine buluruz. Ticari, yolcu ve özel araçlar ayrı bir alandır; binek otomobiller kapsam dışıdır.",
     demo_note: "Katalog dolduruluyor — bazı veriler şu anda gösterim amaçlıdır.",
     more: "Daha fazla bilgi",
     groups: [
@@ -417,7 +417,7 @@ const tr: DeepPartial<UIDict> = {
   team_home: {
     sup: "Ekip",
     title: "Her anlaşmanın arkasında gerçek insanlar var",
-    body: "Tedarik, doğrulama ve teminat işlerini bizzat yürüten yöneticiler ve uzmanlar.",
+    body: "Tedarik, doğrulama ve teslimatı bizzat yürüten yöneticiler ve uzmanlar.",
     cta: "Ekiple tanışın",
   },
 };

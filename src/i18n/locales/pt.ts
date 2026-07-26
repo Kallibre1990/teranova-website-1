@@ -71,7 +71,7 @@ export const pt: UIDict = {
   },
 
   categories: {
-    lead_why_t: 'Porque esta área vem primeiro',
+    lead_why_t: 'Por que esta área vem primeiro',
     lead_why_d: 'A Coreia é o centro mundial do fabrico de cosmética. Em 2025 as suas exportações cresceram 12,3%, atingindo 11,4 mil milhões de dólares, e chegaram a 202 países — dados do Ministério da Segurança Alimentar e Farmacêutica da Coreia. Aqui conduzimos todo o percurso: seleção da fábrica, formulação, amostras e documentação para o seu mercado.',
     sup: 'Catálogo',
     title: 'O que fornecemos da Coreia',

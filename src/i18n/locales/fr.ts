@@ -5,7 +5,7 @@ const fr: DeepPartial<UIDict> = {
   nav: {
     catalog: "Catalogue",
     verify: "Notre vérification",
-    buyers: "Sur demande",
+    buyers: "Pour les acheteurs",
     suppliers: "Pour les fournisseurs",
     about: "À propos",
     faq: "FAQ",
@@ -69,7 +69,7 @@ const fr: DeepPartial<UIDict> = {
     lead_why_d: 'La Corée est le centre mondial de la fabrication cosmétique. En 2025, ses exportations ont progressé de 12,3% pour atteindre 11,4 milliards de dollars et ont touché 202 pays — chiffres du ministère coréen de la Sécurité alimentaire et pharmaceutique. Ici, nous menons tout le parcours : choix de l\'usine, formulation, échantillons et documents pour votre marché.',
     sup: "Catalogue",
     title: "Ce que nous fournissons depuis la Corée",
-    sub: "Le catalogue regroupe ce que nous avons déjà vérifié. Ce qui n'y figure pas, nous le sourçons sur demande. Les véhicules commerciaux, de tourisme et spéciaux constituent une activité distincte ; les voitures particulières grand public sont hors de notre périmètre.",
+    sub: "Le catalogue regroupe ce que nous avons déjà vérifié. Ce qui n'y figure pas, nous le sourçons sur demande. Les véhicules commerciaux, de transport de personnes et spéciaux constituent une activité distincte ; les voitures particulières grand public sont hors de notre périmètre.",
     demo_note: "Le catalogue est en cours d'enrichissement — certaines données sont actuellement présentées à titre de démonstration.",
     more: "En savoir plus",
     groups: [

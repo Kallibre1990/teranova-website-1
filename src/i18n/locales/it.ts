@@ -5,7 +5,7 @@ const it: DeepPartial<UIDict> = {
   nav: {
     catalog: "Catalogo",
     verify: "Come verifichiamo",
-    buyers: "Su richiesta",
+    buyers: "Per gli acquirenti",
     suppliers: "Per i fornitori",
     about: "Chi siamo",
     faq: "FAQ",
