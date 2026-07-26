@@ -80,6 +80,29 @@
         "label": "Come funziona",
         "value": "Richiesta → verifica e allineamento Teranova → trattative e campioni → logistica, dogana e pagamento chiavi in mano."
       }
+    ],
+    "catalog_notes": [
+      "Detergente della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Gel della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Tonico della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Detergente della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Lozione della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Prodotto solare della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Maschera crema della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Crema della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Stick in gel della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Maschera della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Maschera modellante della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Fiala concentrata della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Siero della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Spray viso della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Dischetti tonici della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Dischetti tonici della linea Azulene Soother — trattamento lenitivo per pelli sensibili e soggette a irritazioni.",
+      "Tonico della linea Artemisia AKA — trattamento per pelli problematiche e soggette a irritazioni.",
+      "Maschera della linea Artemisia AKA — trattamento per pelli problematiche e soggette a irritazioni.",
+      "Dischetti tonici della linea Artemisia AKA — trattamento per pelli problematiche e soggette a irritazioni.",
+      "Olio della linea Elsol — trattamento nutriente per la pelle.",
+      "Olio della linea Elsol — trattamento nutriente per la pelle."
     ]
   },
   "ui": {
@@ -100,6 +123,8 @@
     "catalog_h": "Catalogo prodotti",
     "terms_h": "Condizioni di collaborazione",
     "download_btn": "Scarica le condizioni (PDF)",
-    "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del produttore non vengono pubblicati. Il presente documento non costituisce un'offerta al pubblico."
+    "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del produttore non vengono pubblicati. Il presente documento non costituisce un'offerta al pubblico.",
+    "certs_h": "Certificazioni e registrazioni",
+    "certs_note": "Dichiarato dall'azienda. Le copie dei documenti giustificativi vengono fornite nella fase di trattativa."
   }
 }

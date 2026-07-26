@@ -80,6 +80,29 @@
         "label": "合作流程",
         "value": "咨询 → Teranova 审核与对接 → 谈判与样品 → 物流、清关与付款一站式。"
       }
+    ],
+    "catalog_notes": [
+      "Azulene Soother 系列 洁面产品 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 凝胶 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 爽肤水 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 洁面产品 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 乳液 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 防晒产品 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 面霜面膜 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 面霜 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 凝胶棒 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 面膜 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 软膜 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 安瓶 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 精华 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 喷雾 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 爽肤棉片 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Azulene Soother 系列 爽肤棉片 — 为敏感、易受刺激肌肤提供的舒缓护理。",
+      "Artemisia AKA 系列 爽肤水 — 为易长问题、易受刺激肌肤提供的护理。",
+      "Artemisia AKA 系列 面膜 — 为易长问题、易受刺激肌肤提供的护理。",
+      "Artemisia AKA 系列 爽肤棉片 — 为易长问题、易受刺激肌肤提供的护理。",
+      "Elsol 系列 护理油 — 滋养肌肤的护理。",
+      "Elsol 系列 护理油 — 滋养肌肤的护理。"
     ]
   },
   "ui": {
@@ -100,6 +123,8 @@
     "catalog_h": "产品目录",
     "terms_h": "合作条件",
     "download_btn": "下载合作条件 (PDF)",
-    "terms_disc": "价格和条件为参考性质，最终在通过 Teranova 的交易阶段确定。不公开制造商的直接联系方式。本文件并非公开要约。"
+    "terms_disc": "价格和条件为参考性质，最终在通过 Teranova 的交易阶段确定。不公开制造商的直接联系方式。本文件并非公开要约。",
+    "certs_h": "认证与注册",
+    "certs_note": "由公司声明。证明文件副本在交易阶段提供。"
   }
 }

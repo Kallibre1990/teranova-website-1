@@ -80,6 +80,29 @@
         "label": "Nasıl işler",
         "value": "Talep → Teranova incelemesi ve mutabakat → görüşmeler ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
       }
+    ],
+    "catalog_notes": [
+      "Azulene Soother serisinden Temizleyici — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Jel — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Tonik — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Temizleyici — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Losyon — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Güneş koruyucu ürün — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Krem maske — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Krem — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Jel stick — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Maske — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Modelleme maskesi — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Ampul — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Serum — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Mist — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Tonik pedleri — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Azulene Soother serisinden Tonik pedleri — hassas ve tahrişe eğilimli ciltler için yatıştırıcı bakım.",
+      "Artemisia AKA serisinden Tonik — sorunlu ve tahrişe eğilimli ciltler için bakım.",
+      "Artemisia AKA serisinden Maske — sorunlu ve tahrişe eğilimli ciltler için bakım.",
+      "Artemisia AKA serisinden Tonik pedleri — sorunlu ve tahrişe eğilimli ciltler için bakım.",
+      "Elsol serisinden Yağ — cilde besleyici bakım.",
+      "Elsol serisinden Yağ — cilde besleyici bakım."
     ]
   },
   "ui": {
@@ -100,6 +123,8 @@
     "catalog_h": "Ürün kataloğu",
     "terms_h": "İş birliği koşulları",
     "download_btn": "Koşulları indir (PDF)",
-    "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve Teranova aracılığıyla işlem aşamasında kesinleşir. Üreticinin doğrudan iletişim bilgileri yayınlanmaz. Bu belge kamuya açık bir icap değildir."
+    "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve Teranova aracılığıyla işlem aşamasında kesinleşir. Üreticinin doğrudan iletişim bilgileri yayınlanmaz. Bu belge kamuya açık bir icap değildir.",
+    "certs_h": "Sertifikalar ve tesciller",
+    "certs_note": "Şirket tarafından beyan edilmiştir. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır."
   }
 }
