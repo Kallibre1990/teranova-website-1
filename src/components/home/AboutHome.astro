@@ -31,6 +31,7 @@ const photo = assetPhoto('about', 'about-home');
         ) : (
           <div class="photo-slot" role="img" aria-label={a.photo_note}>
             <svg class="photo-slot__glyph" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
+              <path d="M60 1 L119 52 L60 119 L1 52 Z" stroke="#cbd4e0" stroke-width="1" opacity="0.28" />
               <path d="M60 8 L112 52 L60 112 L8 52 Z" />
               <path d="M8 52 H112 M60 8 L42 52 M60 8 L78 52 M60 112 L42 52 M60 112 L78 52" stroke-width="1.4" opacity="0.6" />
             </svg>
@@ -51,11 +52,17 @@ const photo = assetPhoto('about', 'about-home');
   .photo-slot {
     position: relative; aspect-ratio: 4 / 3; border-radius: var(--r-xl); overflow: hidden;
     background: linear-gradient(150deg, var(--navy-2), var(--navy-deep));
-    border: 1px solid var(--navy-3); box-shadow: var(--sh-l);
+    border: 1px solid var(--navy-3);
+    box-shadow: inset 0 1px 0 rgba(203, 212, 224, 0.22), var(--sh-l);
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 28px;
   }
   .photo-slot::before { content: ''; position: absolute; inset: 0; background: radial-gradient(60% 50% at 50% 32%, rgba(37, 99, 212, 0.20), transparent 70%); }
-  .photo-slot__glyph { position: relative; width: 92px; height: 92px; color: var(--cobalt-light); }
+  /* thin silver seam along the top — the noble metallic accent */
+  .photo-slot::after {
+    content: ''; position: absolute; left: 0; right: 0; top: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(203, 212, 224, 0.5) 25%, rgba(237, 241, 246, 0.85) 50%, rgba(203, 212, 224, 0.5) 75%, transparent);
+  }
+  .photo-slot__glyph { position: relative; width: 92px; height: 92px; color: var(--cobalt-light); filter: drop-shadow(0 8px 20px rgba(37, 99, 212, 0.4)); }
   .photo-slot__note { position: relative; font-size: 0.82rem; color: var(--silver-muted); text-align: center; max-width: 32ch; line-height: 1.5; }
 
   @media (max-width: 880px) { .abouth__grid { grid-template-columns: 1fr; gap: 32px; } }
