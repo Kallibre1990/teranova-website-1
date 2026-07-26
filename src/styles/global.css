@@ -89,7 +89,20 @@ img, svg { max-width: 100%; display: block; }
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 .section { padding: clamp(64px, 9vw, 116px) 0; position: relative; }
 .section--navy { background: var(--navy); color: #fff; }
+/* Light sections read as a raised, silver-lit layer — depth through restraint:
+   a soft silver glow from the top edge + a thin metallic hairline seam. Not neon. */
 .section--alt { background: var(--bg-alt); }
+.section--alt::before {
+  content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(120% 78% at 50% -14%, rgba(255, 255, 255, 0.92), transparent 56%),
+    radial-gradient(92% 62% at 50% -8%, rgba(174, 188, 207, 0.30), transparent 62%);
+}
+.section--alt::after {
+  content: ''; position: absolute; inset: 0 0 auto 0; height: 1px; z-index: 1; pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(174, 188, 207, 0.85) 22%, #eef3fa 50%, rgba(174, 188, 207, 0.85) 78%, transparent);
+}
+.section--alt > .wrap { position: relative; z-index: 2; }
 /* Native anchor jumps (mobile, where Lenis' scroll offset isn't active) must clear
    the sticky header. */
 section[id] { scroll-margin-top: calc(var(--nav-h) + 12px); }
