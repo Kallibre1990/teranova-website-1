@@ -43,6 +43,7 @@ export interface SupplierUI {
   export_h: string;
   terms_h?: string;
   download_btn?: string;
+  price_btn?: string;
   terms_disc?: string;
   cta_h: string;
   cta_d: string;
@@ -84,6 +85,7 @@ export interface SupplierProfile {
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
   termsFile?: Partial<Record<Lang, string>>;
+  priceFile?: Partial<Record<Lang, string>>;
   i18n: Partial<Record<Lang, SupplierContent>>;
 }
 
@@ -154,6 +156,7 @@ const santeRu: SupplierContent = {
     export_h: 'Экспорт',
     terms_h: 'Условия сотрудничества',
     download_btn: 'Скачать условия (PDF)',
+    price_btn: 'Скачать прайс-лист (PDF)',
     terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются.',
     cta_h: 'Заинтересовал этот производитель?',
     cta_d: 'Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
@@ -188,6 +191,9 @@ export const suppliers: SupplierProfile[] = [
       de: '/docs/sante-terms-de.pdf',
       fr: '/docs/sante-terms-fr.pdf',
       tr: '/docs/sante-terms-tr.pdf',
+    },
+    priceFile: {
+      ru: '/docs/sante-price-ru.pdf', en: '/docs/sante-price-en.pdf', ko: '/docs/sante-price-ko.pdf', zh: '/docs/sante-price-zh.pdf', ja: '/docs/sante-price-ja.pdf', it: '/docs/sante-price-it.pdf', de: '/docs/sante-price-de.pdf', fr: '/docs/sante-price-fr.pdf', tr: '/docs/sante-price-tr.pdf',
     },
     i18n: {
       ru: santeRu,
