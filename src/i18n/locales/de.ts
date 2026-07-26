@@ -5,7 +5,7 @@ const de: DeepPartial<UIDict> = {
   nav: {
     catalog: "Katalog",
     verify: "Wie wir prüfen",
-    buyers: "Auf Anfrage",
+    buyers: "Für Käufer",
     suppliers: "Für Lieferanten",
     about: "Über uns",
     team: "Team",
@@ -298,7 +298,7 @@ const de: DeepPartial<UIDict> = {
     },
     suppliers: {
       title: "Für koreanische Lieferanten",
-      sub: "Produzieren Sie in Korea und möchten Käufer in der GUS, Europa, Türkiye, den USA, Lateinamerika und Asien erreichen? Listen Sie sich im Teranova-Katalog.",
+      sub: "Produzieren Sie in Korea und möchten Käufer in der GUS, Europa, Türkiye, den USA, Lateinamerika und Asien erreichen? Lassen Sie sich in den Teranova-Katalog aufnehmen.",
       cards: [
         { t: "Warum listen", d: "Zugang zu geprüften Käufern und Geschäftsbegleitung in ihrer Sprache — ohne Zwischenhändlerkette." },
         { t: "Was wir bieten", d: "Wir präsentieren Ihr Profil den Käufern und helfen bei Kommunikation, Vertrag und Logistik. Anfragen laufen über Teranova." },
@@ -403,7 +403,7 @@ const de: DeepPartial<UIDict> = {
     sup: "Über uns",
     title: "Echte Menschen und persönliche Werksbesuche",
     body: "Teranova findet Hersteller in Korea, prüft sie — bis hin zum persönlichen Besuch vor Ort im Werk — und führt das Geschäft von der ersten Anfrage bis zum Erhalt der Ware. Ein verantwortlicher Partner statt einer Kette von Zwischenhändlern.",
-    photo_note: "Hier kommen echte Fotos hin: das Team und die Werksbesuche.",
+    photo_note: "Hier kommen echte Fotos hin: der Gründer, das Team und die Werksbesuche.",
     cta: "Mehr über das Unternehmen",
   },
 
@@ -417,7 +417,7 @@ const de: DeepPartial<UIDict> = {
   team_home: {
     sup: "Team",
     title: "Hinter jedem Geschäft stehen echte Menschen",
-    body: "Die Geschäftsleitung und die Manager, die sich persönlich um Beschaffung, Prüfung und Lieferung kümmern.",
+    body: "Der Gründer, die Geschäftsführung und die Manager, die sich persönlich um Beschaffung, Prüfung und Lieferung kümmern.",
     cta: "Das Team kennenlernen",
   },
 };

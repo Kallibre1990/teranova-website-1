@@ -5,7 +5,7 @@ const it: DeepPartial<UIDict> = {
   nav: {
     catalog: "Catalogo",
     verify: "Come verifichiamo",
-    buyers: "Su richiesta",
+    buyers: "Per gli acquirenti",
     suppliers: "Per i fornitori",
     about: "Chi siamo",
     faq: "FAQ",
@@ -69,7 +69,7 @@ const it: DeepPartial<UIDict> = {
     lead_why_d: 'La Corea è il centro mondiale della produzione cosmetica. Nel 2025 le sue esportazioni sono cresciute del 12,3% raggiungendo 11,4 miliardi di dollari e 202 Paesi — dati del Ministero coreano per la Sicurezza Alimentare e Farmaceutica. Qui seguiamo l\'intero percorso: scelta dello stabilimento, formulazione, campioni e documenti per il vostro mercato.',
     sup: "Catalogo",
     title: "Cosa forniamo dalla Corea",
-    sub: "Il catalogo è ciò che abbiamo già verificato. Ciò che non c'è — lo cerchiamo su richiesta. I veicoli commerciali, passeggeri e speciali sono una direzione a parte; le auto di consumo sono fuori ambito.",
+    sub: "Il catalogo è ciò che abbiamo già verificato. Ciò che non c'è — lo cerchiamo su richiesta. I veicoli commerciali, passeggeri e speciali sono una direzione a parte; le auto per privati sono fuori ambito.",
     demo_note: "Il catalogo è in fase di popolamento — al momento alcuni dati sono dimostrativi.",
     more: "Scopri di più",
     groups: [
@@ -336,7 +336,7 @@ const it: DeepPartial<UIDict> = {
         { q: "Siete un produttore o un intermediario?", a: "Siamo un partner B2B di fiducia: troviamo e verifichiamo produttori coreani e seguiamo la trattativa. Non produciamo direttamente." },
         { q: "Cosa significano gli stati di verifica?", a: "«Verificato — visita in loco» significa che un membro del team è stato in fabbrica di persona, con foto e data. «Dati forniti dall'azienda» significa un profilo basato su quanto dichiarato dal fornitore. È un fatto documentato, non una promessa di risultato." },
         { q: "Cosa c'è nel catalogo e cosa su richiesta?", a: "Il catalogo è ciò che abbiamo già verificato. Se manca qualcosa, troviamo una fabbrica per la vostra richiesta: individuiamo, verifichiamo e organizziamo la fornitura." },
-        { q: "Con quali direzioni lavorate?", a: "Forniture navali; cosmetica e cura (OEM/ODM); medicale ed estetica; attrezzature industriali; veicoli commerciali e speciali; settori affini; chimica e materiali. Le auto di consumo sono fuori ambito." },
+        { q: "Con quali direzioni lavorate?", a: "Forniture navali; cosmetica e cura (OEM/ODM); medicale ed estetica; attrezzature industriali; veicoli commerciali e speciali; settori affini; chimica e materiali. Le auto per privati sono fuori ambito." },
         { q: "Da dove vengono i vostri acquirenti?", a: "Seguiamo acquirenti da CSI, Europa, Türkiye, USA, America Latina e Asia. Sul posto siamo in Corea, Giappone, Cina e Türkiye; altre regioni su richiesta." },
         { q: "Pubblicate i contatti dei fornitori?", a: "No. Non pubblichiamo i contatti personali dei fornitori — ogni comunicazione passa attraverso Teranova. Un fornitore può, se lo desidera, acconsentire alla pubblicazione." },
       ],

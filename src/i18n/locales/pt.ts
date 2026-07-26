@@ -71,8 +71,8 @@ export const pt: UIDict = {
   },
 
   categories: {
-    lead_why_t: 'Porque esta área vem primeiro',
-    lead_why_d: 'A Coreia é o centro mundial do fabrico de cosmética. Em 2025 as suas exportações cresceram 12,3%, atingindo 11,4 mil milhões de dólares, e chegaram a 202 países — dados do Ministério da Segurança Alimentar e Farmacêutica da Coreia. Aqui conduzimos todo o percurso: seleção da fábrica, formulação, amostras e documentação para o seu mercado.',
+    lead_why_t: 'Por que esta área vem primeiro',
+    lead_why_d: 'A Coreia é o centro mundial da fabricação de cosméticos. Em 2025, suas exportações cresceram 12,3% e chegaram a US$ 11,4 bilhões, alcançando 202 países — dados do Ministério da Segurança Alimentar e Farmacêutica da Coreia. Aqui conduzimos todo o percurso: seleção da fábrica, formulação, amostras e documentação para o seu mercado.',
     sup: 'Catálogo',
     title: 'O que fornecemos da Coreia',
     sub: 'O catálogo é o que já verificamos. O que não está nele — buscamos sob demanda. Veículos comerciais, de passageiros e especiais são uma frente à parte; automóveis de passeio estão fora do escopo.',
@@ -289,7 +289,7 @@ export const pt: UIDict = {
       cta_body: 'Conte o que você quer produzir ou comprar — encontramos a fábrica, verificamos e conduzimos a operação. A consulta inicial e a busca são gratuitas.',
       seo_title: 'Fabricante coreano de cosméticos OEM/ODM para sua marca — Teranova',
       seo_desc:
-        'Marca própria, MOQ negociável, apoio com registro ANVISA, fabricação por contrato.',
+        'Fabricação de cosméticos por contrato na Coreia: marca própria, OEM/ODM sob a sua marca, MOQ negociável, apoio com registro para o seu mercado (ANVISA, FDA, UE 1223/2009).',
     },
     buyers: {
       title: 'Se você compra da Coreia',

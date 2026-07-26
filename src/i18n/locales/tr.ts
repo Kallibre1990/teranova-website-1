@@ -5,7 +5,7 @@ const tr: DeepPartial<UIDict> = {
   nav: {
     catalog: "Katalog",
     verify: "Nasıl doğruluyoruz",
-    buyers: "Talep üzerine",
+    buyers: "Alıcılar için",
     suppliers: "Tedarikçiler için",
     about: "Hakkımızda",
     faq: "Sıkça sorulanlar",
@@ -69,7 +69,7 @@ const tr: DeepPartial<UIDict> = {
     lead_why_d: 'Kore, kozmetik üretiminin dünyadaki merkezidir. 2025’te kozmetik ihracatı %12,3 artarak 11,4 milyar dolara ulaştı ve 202 ülkeye gitti — Kore Gıda ve İlaç Güvenliği Bakanlığı verileri. Bu alanda tüm süreci biz yürütüyoruz: fabrika seçimi, formülasyon, numuneler ve pazarınıza uygun belgeler.',
     sup: "Katalog",
     title: "Kore'den neler tedarik ediyoruz",
-    sub: "Katalog, halihazırda doğruladığımız şeylerdir. Burada olmayanı talep üzerine buluruz. Ticari, binek ve özel araçlar ayrı bir yöndür; tüketici otomobilleri kapsam dışıdır.",
+    sub: "Katalog, halihazırda doğruladığımız şeylerdir. Burada olmayanı talep üzerine buluruz. Ticari, yolcu ve özel araçlar ayrı bir alandır; binek otomobiller kapsam dışıdır.",
     demo_note: "Katalog dolduruluyor — bazı veriler şu anda gösterim amaçlıdır.",
     more: "Daha fazla bilgi",
     groups: [
@@ -247,14 +247,14 @@ const tr: DeepPartial<UIDict> = {
     },
     catalog: {
       title: "Yönler kataloğu",
-      sub: "Kore'den yedi tedarik yönü. Bir yönü açın — alt nişleri ve doğrulanmış tedarikçileri görün. Katalog dolduruluyor: bazı kartlar gösterim amaçlı örneklerdir.",
+      sub: "Kore'den yedi tedarik alanı. Bir alanı açın — alt nişleri ve doğrulanmış tedarikçileri görün. Katalog dolduruluyor: bazı kartlar gösterim amaçlı örneklerdir.",
       view: "Tedarikçileri görüntüle",
     },
     group: {
-      back: "Tüm yönler",
+      back: "Tüm alanlar",
       subniches: "Alt nişler",
       products_title: "Örnek ürünler",
-      suppliers_title: "Bu yöndeki tedarikçiler",
+      suppliers_title: "Bu alandaki tedarikçiler",
       demo_badge: "Demo veriler",
       demo_note: "Örnek kartlar — katalog gerçek tedarikçilerle dolduruluyor.",
       request: "Bu kategoride talep gönderin",
@@ -336,7 +336,7 @@ const tr: DeepPartial<UIDict> = {
         { q: "Üretici misiniz yoksa aracı mı?", a: "Biz güvene dayalı bir B2B ortağıyız: Koreli üreticileri bulur, doğrular ve anlaşmayı destekleriz. Kendimiz üretim yapmıyoruz." },
         { q: "Doğrulama durumları ne anlama gelir?", a: "“Doğrulandı — yerinde ziyaret”, bir ekip üyesinin fabrikada bizzat bulunduğu anlamına gelir; fotoğraflar ve tarih ile. “Şirket tarafından sağlanan veriler”, tedarikçinin beyanına dayalı bir profildir. Bu, bir sonuç vaadi değil, belgelenmiş bir gerçektir." },
         { q: "Katalogda ne var, talep üzerine ne var?", a: "Katalog, halihazırda doğruladığımız şeydir. Aradığınız yoksa, talebiniz için bir fabrika buluruz: bulur, doğrular ve tedariki düzenleriz." },
-        { q: "Hangi yönlerle çalışıyorsunuz?", a: "Denizcilik tedariki; kozmetik ve bakım (OEM/ODM); tıp ve estetik; endüstriyel ekipman; ticari ve özel araçlar; ilgili sektörler; kimya ve malzemeler. Tüketici otomobilleri kapsam dışıdır." },
+        { q: "Hangi alanlarda çalışıyorsunuz?", a: "Denizcilik tedariki; kozmetik ve bakım (OEM/ODM); tıp ve estetik; endüstriyel ekipman; ticari ve özel araçlar; ilgili sektörler; kimya ve malzemeler. Tüketici otomobilleri kapsam dışıdır." },
         { q: "Alıcılarınız nereden?", a: "BDT, Avrupa, Türkiye, ABD, Latin Amerika ve Asya'daki alıcıları destekliyoruz. Sahada Kore, Japonya, Çin ve Türkiye'deyiz; diğer bölgeler talep üzerine." },
         { q: "Tedarikçilerin iletişim bilgilerini yayınlıyor musunuz?", a: "Hayır. Tedarikçilerin kişisel iletişim bilgilerini yayınlamıyoruz — tüm iletişim Teranova üzerinden gerçekleşir. Bir tedarikçi isterse yayınlanmasını kabul edebilir." },
       ],
@@ -417,7 +417,7 @@ const tr: DeepPartial<UIDict> = {
   team_home: {
     sup: "Ekip",
     title: "Her anlaşmanın arkasında gerçek insanlar var",
-    body: "Tedarik, doğrulama ve teminat işlerini bizzat yürüten yöneticiler ve uzmanlar.",
+    body: "Tedarik, doğrulama ve teslimatı bizzat yürüten yöneticiler ve uzmanlar.",
     cta: "Ekiple tanışın",
   },
 };
