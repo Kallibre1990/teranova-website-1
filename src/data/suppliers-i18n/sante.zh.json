@@ -62,7 +62,25 @@
     "exportNote": "Dr.SANTE 产品已出口海外，包括美国和日本市场。",
     "consentNote": "相关数据与资料由 SANTE COSMETICS 公司提供，并经其书面同意后发布。Teranova 协调并支持本次交易。",
     "seoTitle": "SANTE COSMETICS（Dr.SANTE）— 韩国美学护肤化妆品 · Teranova Group",
-    "seoDesc": "SANTE COSMETICS（Dr.SANTE）— 来自韩国的专业美学护肤化妆品。Azulene Soother、Artemisia AKA、Collagen Leader、Hyalquad Core 系列，专为敏感肌与问题肌肤打造。供货与交易支持由 Teranova 提供。"
+    "seoDesc": "SANTE COSMETICS（Dr.SANTE）— 来自韩国的专业美学护肤化妆品。Azulene Soother、Artemisia AKA、Collagen Leader、Hyalquad Core 系列，专为敏感肌与问题肌肤打造。供货与交易支持由 Teranova 提供。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "成品批发供应；OEM/ODM — 自主研发与生产。"
+      },
+      {
+        "label": "最小起订",
+        "value": "首单约 4,000 美元起；部分单品可小批量。"
+      },
+      {
+        "label": "价格",
+        "value": "参考性 FOB 批发价区间；确切价格在交易阶段按需提供。"
+      },
+      {
+        "label": "合作流程",
+        "value": "咨询 → Teranova 审核与对接 → 谈判与样品 → 物流、清关与付款一站式。"
+      }
+    ]
   },
   "ui": {
     "profile_sup": "供应商简介",
@@ -78,6 +96,10 @@
     "cta_d": "联系我们——Teranova 将安排洽谈、核验并全程支持交易，从首次接洽直至完成供货。",
     "cta_btn": "通过 Teranova 联系",
     "more": "查看简介 →",
-    "verified_suppliers": "已核验供应商"
+    "verified_suppliers": "已核验供应商",
+    "catalog_h": "产品目录",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件 (PDF)",
+    "terms_disc": "价格和条件为参考性质，最终在通过 Teranova 的交易阶段确定。不公开制造商的直接联系方式。本文件并非公开要约。"
   }
 }

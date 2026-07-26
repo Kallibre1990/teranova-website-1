@@ -34,11 +34,15 @@ export interface SupplierUI {
   about_h: string;
   for_whom: string;
   lines_h: string;
+  catalog_h: string;
   tech_h: string;
   products_h: string;
   products_note: string;
   formats_h: string;
   export_h: string;
+  terms_h?: string;
+  download_btn?: string;
+  terms_disc?: string;
   cta_h: string;
   cta_d: string;
   cta_btn: string;
@@ -56,6 +60,7 @@ export interface SupplierContent {
   tech: SupplierTech[];
   formats: string[];
   exportNote: string;
+  terms?: { label: string; value: string }[];
   consentNote: string;
   seoTitle: string;
   seoDesc: string;
@@ -68,6 +73,10 @@ export interface SupplierProfile {
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
   brandColors: { deep: string; sky: string; accent: string; bg: string };
+  /* Real product catalog grouped by line. Language-neutral (brand product names). */
+  catalog?: { line: string; items: string[] }[];
+  /* Downloadable terms sheet (per language, path under /public). */
+  termsFile?: Partial<Record<Lang, string>>;
   i18n: Partial<Record<Lang, SupplierContent>>;
 }
 
@@ -93,6 +102,12 @@ const santeRu: SupplierContent = {
   ],
   formats: ['Ампулы', 'Сыворотки', 'Кремы', 'Маски', 'Тонеры и пэды', 'Очищающие средства', 'Солнцезащита', 'Мисты', 'Масла'],
   exportNote: 'Продукция Dr.SANTE поставляется за рубеж, включая рынки США и Японии.',
+  terms: [
+    { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции; OEM/ODM — собственная разработка и производство.' },
+    { label: 'Минимальный заказ', value: 'Ориентировочно от $4 000 на первый заказ; небольшие партии по отдельным позициям.' },
+    { label: 'Цены', value: 'Ориентировочный оптовый диапазон FOB; точные цены — по запросу на стадии сделки.' },
+    { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
+  ],
   consentNote: 'Данные и материалы предоставлены компанией SANTE COSMETICS и публикуются с её письменного согласия. Teranova координирует и сопровождает сделку.',
   seoTitle: 'SANTE COSMETICS (Dr.SANTE) — корейская эстетическая косметика · Teranova Group',
   seoDesc: 'SANTE COSMETICS (Dr.SANTE) — профессиональная эстетическая косметика из Кореи. Линейки Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core для чувствительной и проблемной кожи. Поставки и сопровождение сделки через Teranova.',
@@ -101,11 +116,15 @@ const santeRu: SupplierContent = {
     about_h: 'О компании',
     for_whom: 'Для кого:',
     lines_h: 'Продуктовые линейки',
+    catalog_h: 'Каталог продукции',
     tech_h: 'Фирменные решения',
     products_h: 'Продукция',
     products_note: 'Профессиональные форматы Dr.SANTE — очищение, тонизирование, ампулы, кремы, маски, солнцезащита и масла. Линейки Azulene Soother и AKA объединены единым визуальным языком бренда.',
     formats_h: 'Форматы продукции',
     export_h: 'Экспорт',
+    terms_h: 'Условия сотрудничества',
+    download_btn: 'Скачать условия (PDF)',
+    terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются.',
     cta_h: 'Заинтересовал этот производитель?',
     cta_d: 'Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
     cta_btn: 'Связаться через Teranova',
@@ -125,6 +144,25 @@ export const suppliers: SupplierProfile[] = [
     brand: 'Dr.SANTE',
     status: 'provided',
     brandColors: { deep: '#12306e', sky: '#4ca6fc', accent: '#ff2552', bg: '#f3f8ff' },
+    catalog: [
+      {
+        line: 'Azulene Soother',
+        items: ['Active Cleansing Soother', 'Azulene Soother Cleansing Milk', 'Azulene Soother Toner', 'Azulene Soother Gel', 'Azulene Soother Lotion', 'Azulene Soother Cream', 'Azulene Soother Cream Mask', 'Azulene Soother Ampoule', 'Azulene Soother Peel Serum', 'Azulene Soother Mist', 'Azulene Soother Sun Essence', 'Azulene Soother Mask', 'Azulene Soother Modeling Pack', 'Azulene Soother Gel Stick', 'Azulene Soother BB Cushion', 'Soother Semi-Gel Toner Pad'],
+      },
+      { line: 'Artemisia AKA', items: ['Artemisia Aka Toner', 'Aka Semi-Gel Mask', 'Aka Toner Gauze Pad'] },
+      { line: 'Elsol', items: ['Elsol Jojoba Oil'] },
+    ],
+    termsFile: {
+      ru: '/docs/sante-terms-ru.pdf',
+      en: '/docs/sante-terms-en.pdf',
+      ko: '/docs/sante-terms-ko.pdf',
+      zh: '/docs/sante-terms-zh.pdf',
+      ja: '/docs/sante-terms-ja.pdf',
+      it: '/docs/sante-terms-it.pdf',
+      de: '/docs/sante-terms-de.pdf',
+      fr: '/docs/sante-terms-fr.pdf',
+      tr: '/docs/sante-terms-tr.pdf',
+    },
     i18n: {
       ru: santeRu,
       en: mk(santeEn),

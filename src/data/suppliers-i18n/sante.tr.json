@@ -62,7 +62,25 @@
     "exportNote": "Dr.SANTE ürünleri, ABD ve Japonya pazarları dahil olmak üzere yurt dışına tedarik edilmektedir.",
     "consentNote": "Veriler ve materyaller SANTE COSMETICS tarafından sağlanmıştır ve şirketin yazılı onayıyla yayımlanmaktadır. Teranova, işlemi koordine eder ve destekler.",
     "seoTitle": "SANTE COSMETICS (Dr.SANTE) — Kore estetik kozmetiği · Teranova Group",
-    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — Kore'den profesyonel estetik kozmetik. Hassas ve problemli cilt için Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core serileri. Tedarik ve işlem takibi Teranova aracılığıyla."
+    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — Kore'den profesyonel estetik kozmetik. Hassas ve problemli cilt için Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core serileri. Tedarik ve işlem takibi Teranova aracılığıyla.",
+    "terms": [
+      {
+        "label": "İş birliği biçimleri",
+        "value": "Bitmiş ürünlerin toptan tedariki; OEM/ODM — kendi geliştirme ve üretimi."
+      },
+      {
+        "label": "Minimum sipariş",
+        "value": "İlk sipariş için yaklaşık 4.000 $'dan itibaren; bazı ürünlerde küçük partiler mümkün."
+      },
+      {
+        "label": "Fiyatlar",
+        "value": "Yaklaşık FOB toptan fiyat aralığı; kesin fiyatlar işlem aşamasında talep üzerine."
+      },
+      {
+        "label": "Nasıl işler",
+        "value": "Talep → Teranova incelemesi ve mutabakat → görüşmeler ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
+      }
+    ]
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",
@@ -78,6 +96,10 @@
     "cta_d": "Bizimle iletişime geçin — Teranova, ilk temastan teslimata kadar müzakereleri, incelemeyi ve işlem takibini organize eder.",
     "cta_btn": "Teranova aracılığıyla iletişime geçin",
     "more": "Profili aç →",
-    "verified_suppliers": "Doğrulanmış tedarikçiler"
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "catalog_h": "Ürün kataloğu",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve Teranova aracılığıyla işlem aşamasında kesinleşir. Üreticinin doğrudan iletişim bilgileri yayınlanmaz. Bu belge kamuya açık bir icap değildir."
   }
 }

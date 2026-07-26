@@ -26,6 +26,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
 };
 const m = media[profile.slug];
+const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
 const cat = t.categories.groups.find((g) => g.key === profile.category);
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 ---
@@ -101,6 +102,23 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     </div>
   </section>
 
+  <!-- PRODUCT CATALOG -->
+  {profile.catalog && profile.catalog.length > 0 && (
+    <section class="sp-sec">
+      <div class="wrap">
+        <span class="sp-lvl">{c.ui.catalog_h}</span>
+        <div class="sp-catalog">
+          {profile.catalog.map((grp) => (
+            <div class="sp-catgrp">
+              <h3 class="sp-catgrp__nm">{grp.line}</h3>
+              <ul class="sp-catgrp__items">{grp.items.map((it) => <li>{it}</li>)}</ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- SIGNATURE TECH -->
   {c.tech?.length > 0 && (
     <section class="sp-sec">
@@ -146,6 +164,30 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
       </div>
     </div>
   </section>
+
+  <!-- TERMS -->
+  {c.terms && c.terms.length > 0 && (
+    <section class="sp-sec sp-sec--tint">
+      <div class="wrap sp-narrow">
+        <span class="sp-lvl">{c.ui.terms_h}</span>
+        <dl class="sp-terms">
+          {c.terms.map((row) => (
+            <div class="sp-terms__row">
+              <dt>{row.label}</dt>
+              <dd>{row.value}</dd>
+            </div>
+          ))}
+        </dl>
+        {termsHref && (
+          <a class="sp-terms__dl" href={termsHref} download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+            {c.ui.download_btn}
+          </a>
+        )}
+        {c.ui.terms_disc && <p class="sp-terms__disc">{c.ui.terms_disc}</p>}
+      </div>
+    </section>
+  )}
 
   <!-- CTA -->
   <section class="sp-cta">
@@ -224,10 +266,26 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-chips-inline { display: flex; flex-wrap: wrap; gap: 8px; }
   .sp-chips-inline li { font-size: 0.84rem; font-weight: 600; color: #45576f; background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #d4dde9); border-radius: 100px; padding: 6px 13px; }
 
+  .sp-catalog { display: flex; flex-direction: column; gap: 24px; }
+  .sp-catgrp__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+  .sp-catgrp__nm::before { content: ''; width: 18px; height: 2px; background: var(--ds-sky); border-radius: 2px; }
+  .sp-catgrp__items { display: flex; flex-wrap: wrap; gap: 8px; }
+  .sp-catgrp__items li { font-size: 0.86rem; font-weight: 500; color: #364357; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-radius: 8px; padding: 7px 13px; }
+
   .sp-tech { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .sp-tech__item { border-left: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0 14px 14px 0; padding: 20px 22px; }
   .sp-tech__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
   .sp-tech__note { font-size: 0.92rem; line-height: 1.6; color: #45576f; margin-top: 7px; }
+
+  /* terms */
+  .sp-terms { display: grid; gap: 2px; }
+  .sp-terms__row { display: grid; grid-template-columns: 210px 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 16%, #e2e8f0); }
+  .sp-terms__row dt { font-weight: 700; color: var(--ds-deep); font-size: 0.92rem; }
+  .sp-terms__row dd { color: #364357; font-size: 0.96rem; line-height: 1.6; }
+  .sp-terms__dl { display: inline-flex; align-items: center; gap: 9px; margin-top: 24px; padding: 12px 22px; border-radius: 10px; font-weight: 700; font-size: 0.92rem; color: #fff; background: var(--ds-deep); transition: background .2s; }
+  .sp-terms__dl:hover { background: var(--ds-sky); }
+  .sp-terms__dl svg { width: 17px; height: 17px; }
+  .sp-terms__disc { font-size: 0.82rem; color: #5a6a80; line-height: 1.6; margin-top: 16px; }
 
   /* lines */
   .sp-lines { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
@@ -264,5 +322,6 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     .sp-cols { grid-template-columns: 1fr; }
     .sp-showcase { grid-template-columns: 1fr; }
     .sp-tech { grid-template-columns: 1fr; }
+    .sp-terms__row { grid-template-columns: 1fr; gap: 4px; }
   }
 </style>
