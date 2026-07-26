@@ -1,0 +1,83 @@
+{
+  "content": {
+    "tagline": "您的成功，就是我们的喜悦",
+    "descriptor": "来自韩国的专业美学护肤化妆品",
+    "origin": "韩国",
+    "about": [
+      "SANTE COSMETICS（Dr.SANTE 品牌）是一家拥有超过20年历史（自2003年起）的韩国美学护肤品牌。公司自主研发并生产专业护肤化妆品，融合多年实践经验、专业知识以及对肌肤健康的关注。",
+      "品牌理念是同时兼顾肌肤的健康与美丽。产品专为专业渠道打造，针对敏感、干燥、受刺激及熟龄肌肤。"
+    ],
+    "facts": [
+      "美学护肤品牌",
+      "自2003年起",
+      "自主研发与生产",
+      "专业渠道",
+      "出口海外"
+    ],
+    "channels": [
+      "医美诊所",
+      "皮肤科诊所",
+      "东方医学诊所",
+      "美容院"
+    ],
+    "lines": [
+      {
+        "name": "Azulene Soother",
+        "note": "以愈创木薁与洋甘菊纯露为核心的舒缓系列：快速缓解刺激、降低肌肤温度并强化屏障，从根源应对敏感肌问题。包含面霜、精华、面膜、乳液、喷雾、凝胶及防晒精华。"
+      },
+      {
+        "name": "Artemisia AKA",
+        "note": "针对问题肌与受刺激肌肤的系列，具有显著的舒缓与抗炎功效：包含安瓶、面霜与面膜，用于修护及屏障护理。"
+      },
+      {
+        "name": "Collagen Leader",
+        "note": "以胶原蛋白为核心的护理，专注于紧致与熟龄肌肤。"
+      },
+      {
+        "name": "Hyalquad Core",
+        "note": "基于透明质酸复合物的强效保湿。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "愈创木薁 + 洋甘菊纯露",
+        "note": "Real Blue Calming Solution — 舒缓受刺激的肌肤，降低肌肤温度并强化保护屏障。"
+      },
+      {
+        "name": "LHASOL™",
+        "note": "第四代专利角质剥脱成分——高浓度稳定型 LHA；帮助问题肌肤恢复至健康的弱酸性 pH 值。"
+      }
+    ],
+    "formats": [
+      "安瓶",
+      "精华",
+      "面霜",
+      "面膜",
+      "爽肤水与棉片",
+      "洁面产品",
+      "防晒产品",
+      "喷雾",
+      "护肤油"
+    ],
+    "exportNote": "Dr.SANTE 产品已出口海外，包括美国和日本市场。",
+    "consentNote": "相关数据与资料由 SANTE COSMETICS 公司提供，并经其书面同意后发布。Teranova 协调并支持本次交易。",
+    "seoTitle": "SANTE COSMETICS（Dr.SANTE）— 韩国美学护肤化妆品 · Teranova Group",
+    "seoDesc": "SANTE COSMETICS（Dr.SANTE）— 来自韩国的专业美学护肤化妆品。Azulene Soother、Artemisia AKA、Collagen Leader、Hyalquad Core 系列，专为敏感肌与问题肌肤打造。供货与交易支持由 Teranova 提供。"
+  },
+  "ui": {
+    "profile_sup": "供应商简介",
+    "about_h": "关于公司",
+    "for_whom": "适用对象：",
+    "lines_h": "产品系列",
+    "tech_h": "专利技术方案",
+    "products_h": "产品",
+    "products_note": "Dr.SANTE 的专业产品形态——洁面、爽肤、安瓶、面霜、面膜、防晒与护肤油。Azulene Soother 与 AKA 系列采用统一的品牌视觉语言。",
+    "formats_h": "产品形态",
+    "export_h": "出口",
+    "cta_h": "对这家制造商感兴趣吗？",
+    "cta_d": "联系我们——Teranova 将安排洽谈、核验并全程支持交易，从首次接洽直至完成供货。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看简介 →",
+    "verified_suppliers": "已核验供应商"
+  }
+}

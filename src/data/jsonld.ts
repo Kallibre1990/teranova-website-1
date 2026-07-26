@@ -1,7 +1,7 @@
 import { site } from './site';
 import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
-import type { SupplierProfile } from './suppliers';
+import { supplierContent, type SupplierProfile } from './suppliers';
 
 /** Organization + WebSite structured data for the home page. */
 export function homeJsonLd(lang: Lang) {
@@ -80,6 +80,7 @@ export function pageBreadcrumbJsonLd(lang: Lang, name: string, path: string) {
 export function supplierJsonLd(lang: Lang, profile: SupplierProfile) {
   const base = site.domain;
   const t = ui[lang];
+  const c = supplierContent(profile, lang);
   const url = base + localizePath(`/catalog/${profile.slug}`, lang);
   const catName = t.categories.groups.find((g) => g.key === profile.category)?.name ?? '';
   return [
@@ -89,10 +90,10 @@ export function supplierJsonLd(lang: Lang, profile: SupplierProfile) {
       name: profile.name,
       alternateName: profile.brand,
       url,
-      description: `${profile.descriptor}. ${profile.about[0] ?? ''}`,
+      description: `${c.descriptor}. ${c.about[0] ?? ''}`,
       address: { '@type': 'PostalAddress', addressCountry: 'KR' },
       brand: { '@type': 'Brand', name: profile.brand },
-      makesOffer: profile.lines.map((l) => ({
+      makesOffer: c.lines.map((l) => ({
         '@type': 'Offer',
         itemOffered: { '@type': 'Product', name: `${profile.brand} ${l.name}`, category: catName, description: l.note },
       })),

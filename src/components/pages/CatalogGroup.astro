@@ -6,7 +6,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
-import { suppliers as realSuppliers } from '../../data/suppliers';
+import { suppliers as realSuppliers, supplierContent } from '../../data/suppliers';
 interface Props {
   lang: Lang;
   groupKey: CategoryKey;
@@ -65,17 +65,20 @@ const statusInfo = {
     {realForCat.length > 0 && (
       <>
         <div class="group__head">
-          <h2 class="lvl" style="margin:0">Проверенные поставщики</h2>
+          <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
         </div>
         <div class="sup-grid">
-          {realForCat.map((s) => (
-            <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
-              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
-              <h3 class="scard__nm">{s.name}</h3>
-              <p class="scard__role">{s.brand} · {s.descriptor}</p>
-              <span class="scard__more">Открыть профиль →</span>
-            </a>
-          ))}
+          {realForCat.map((s) => {
+            const sc = supplierContent(s, lang);
+            return (
+              <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
+                <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+                <h3 class="scard__nm">{s.name}</h3>
+                <p class="scard__role">{s.brand} · {sc.descriptor}</p>
+                <span class="scard__more">{sc.ui.more}</span>
+              </a>
+            );
+          })}
         </div>
       </>
     )}

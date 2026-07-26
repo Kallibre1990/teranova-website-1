@@ -3,13 +3,14 @@
    First real supplier page, published with written consent. */
 import Base from '../../layouts/Base.astro';
 import SupplierProfile from '../../components/pages/SupplierProfile.astro';
-import { supplierBySlug } from '../../data/suppliers';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
 import { supplierJsonLd } from '../../data/jsonld';
 
 const lang = 'ru' as const;
 const profile = supplierBySlug('sante')!;
-const title = `${profile.name} (${profile.brand}) — корейская эстетическая косметика · Teranova Group`;
-const description = `${profile.name} (${profile.brand}) — ${profile.descriptor.toLowerCase()}. Линейки ${profile.lines.map((l) => l.name).join(', ')} для чувствительной и проблемной кожи. Поставки и сопровождение сделки через Teranova.`;
+const c = supplierContent(profile, lang);
+const title = c.seoTitle;
+const description = c.seoDesc;
 const jsonLd = supplierJsonLd(lang, profile);
 ---
 

@@ -1,0 +1,83 @@
+{
+  "content": {
+    "tagline": "Votre succès est notre joie",
+    "descriptor": "Cosmétiques esthétiques professionnels de Corée",
+    "origin": "Corée",
+    "about": [
+      "SANTE COSMETICS (marque Dr.SANTE) est une marque esthétique coréenne forte de plus de 20 ans d'histoire (depuis 2003). L'entreprise développe et fabrique des cosmétiques de soin professionnels, en alliant une longue expérience pratique, un savoir-faire professionnel et une attention particulière à la santé de la peau.",
+      "La philosophie de la marque : la santé et la beauté de la peau à la fois. Les produits sont conçus pour le segment professionnel et destinés aux peaux sensibles, sèches, irritées et matures."
+    ],
+    "facts": [
+      "Marque esthétique",
+      "Depuis 2003",
+      "Développement et fabrication en propre",
+      "Segment professionnel",
+      "Exportation à l'étranger"
+    ],
+    "channels": [
+      "Cliniques esthétiques",
+      "Cliniques dermatologiques",
+      "Cabinets de médecine orientale",
+      "Salons de beauté"
+    ],
+    "lines": [
+      {
+        "name": "Azulene Soother",
+        "note": "Gamme apaisante au guaiazulène et à l'eau de camomille : réduit rapidement les irritations, abaisse la température de la peau et renforce la barrière cutanée, en agissant sur les causes profondes des problèmes des peaux sensibles. Crèmes, sérums, masques, lotions, brumes, gels, essences solaires."
+      },
+      {
+        "name": "Artemisia AKA",
+        "note": "Gamme pour peaux à problèmes et irritées, à l'action apaisante et anti-inflammatoire prononcée : ampoules, crèmes et masques pour la réparation et le soin de la barrière cutanée."
+      },
+      {
+        "name": "Collagen Leader",
+        "note": "Soin au collagène axé sur la fermeté et les peaux matures."
+      },
+      {
+        "name": "Hyalquad Core",
+        "note": "Hydratation intense à base d'un complexe d'acide hyaluronique."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Guaiazulène + eau de camomille",
+        "note": "Real Blue Calming Solution — apaise les peaux irritées, abaisse leur température et renforce la barrière protectrice."
+      },
+      {
+        "name": "LHASOL™",
+        "note": "Ingrédient kératolytique propriétaire de 4e génération — LHA stabilisé à haute concentration ; aide les peaux à problèmes à retrouver un pH légèrement acide et sain."
+      }
+    ],
+    "formats": [
+      "Ampoules",
+      "Sérums",
+      "Crèmes",
+      "Masques",
+      "Toniques et pads",
+      "Nettoyants",
+      "Protection solaire",
+      "Brumes",
+      "Huiles"
+    ],
+    "exportNote": "Les produits Dr.SANTE sont exportés à l'étranger, notamment sur les marchés des États-Unis et du Japon.",
+    "consentNote": "Les données et les documents sont fournis par la société SANTE COSMETICS et publiés avec son consentement écrit. Teranova coordonne et accompagne la transaction.",
+    "seoTitle": "SANTE COSMETICS (Dr.SANTE) — cosmétiques esthétiques coréens · Teranova Group",
+    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — cosmétiques esthétiques professionnels de Corée. Gammes Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core pour les peaux sensibles et à problèmes. Approvisionnement et accompagnement de la transaction via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "À propos de l'entreprise",
+    "for_whom": "Pour qui :",
+    "lines_h": "Gammes de produits",
+    "tech_h": "Solutions propriétaires",
+    "products_h": "Produits",
+    "products_note": "Les formats professionnels Dr.SANTE — nettoyage, tonification, ampoules, crèmes, masques, protection solaire et huiles. Les gammes Azulene Soother et AKA sont réunies par un langage visuel de marque commun.",
+    "formats_h": "Formats de produits",
+    "export_h": "Exportation",
+    "cta_h": "Ce fabricant vous intéresse ?",
+    "cta_d": "Contactez-nous — Teranova organise les négociations, la vérification et l'accompagnement de la transaction, du premier contact jusqu'à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés"
+  }
+}

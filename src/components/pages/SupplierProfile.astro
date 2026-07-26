@@ -2,11 +2,12 @@
 /* Supplier profile page — themed in the supplier's own brand colors on top of the
    Teranova chrome. First use: SANTE COSMETICS / Dr.SANTE. Light, clinical
    dermatology aesthetic (the supplier's identity), distinct from the site's navy.
-   Images/logo used under the supplier's written consent (docs/CONTENT-RULES §7). */
+   Images/logo used under the supplier's written consent (docs/CONTENT-RULES §7).
+   Copy is localized per language via supplierContent(profile, lang). */
 import { Image } from 'astro:assets';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import type { SupplierProfile } from '../../data/suppliers';
+import { supplierContent, type SupplierProfile } from '../../data/suppliers';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
 import santeHero from '../../assets/suppliers/sante/hero-serum.png';
 import santeProducts from '../../assets/suppliers/sante/products.jpg';
@@ -18,6 +19,7 @@ interface Props {
 }
 const { lang, profile } = Astro.props;
 const t = ui[lang];
+const c = supplierContent(profile, lang);
 const logos: Record<string, ImageMetadata> = { sante: santeLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
@@ -33,32 +35,32 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   <section class="sp-hero">
     <div class="wrap">
       <nav class="sp-crumbs" aria-label="breadcrumb">
-        <a href={localizePath('/catalog', lang)}>Каталог</a>
+        <a href={localizePath('/catalog', lang)}>{t.nav.catalog}</a>
         <span aria-hidden="true">/</span>
-        <a href={localizePath('/catalog/cosmetics', lang)}>{cat ? cat.name : 'Косметика и уход'}</a>
+        <a href={localizePath(`/catalog/${profile.category}`, lang)}>{cat?.name}</a>
       </nav>
 
       <div class="sp-hero__grid">
         <div class="sp-hero__main">
-          <span class="sp-eyebrow">Профиль поставщика</span>
+          <span class="sp-eyebrow">{c.ui.profile_sup}</span>
           <figure class="sp-logo">
-            {logo && <Image src={logo} alt={`${profile.brand} — логотип`} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
+            {logo && <Image src={logo} alt={`${profile.brand}`} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
           </figure>
           <h1 class="sp-name">{profile.name}</h1>
-          <p class="sp-tagline">«{profile.tagline}»</p>
-          <p class="sp-descriptor">{profile.descriptor}</p>
+          <p class="sp-tagline">«{c.tagline}»</p>
+          <p class="sp-descriptor">{c.descriptor}</p>
           <div class="sp-meta">
-            <span class="sp-status"><span class="dot" aria-hidden="true"></span>Данные предоставлены компанией</span>
+            <span class="sp-status"><span class="dot" aria-hidden="true"></span>{t.verify.card_provided_t}</span>
             <span class="sp-origin">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
-              {profile.origin}
+              {c.origin}
             </span>
           </div>
         </div>
         {m && (
           <aside class="sp-hero__art">
             <figure class="sp-hero__photo">
-              <Image src={m.hero} alt={`${profile.brand} — профессиональный уход за кожей`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
+              <Image src={m.hero} alt={`${profile.brand} — ${c.descriptor}`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
             </figure>
           </aside>
         )}
@@ -69,13 +71,13 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   <!-- ABOUT -->
   <section class="sp-sec">
     <div class="wrap sp-narrow">
-      <span class="sp-lvl">О компании</span>
-      {profile.about.map((p) => <p class="sp-body">{p}</p>)}
-      <ul class="sp-facts">{profile.facts.map((f) => <li>{f}</li>)}</ul>
-      {profile.channels?.length > 0 && (
+      <span class="sp-lvl">{c.ui.about_h}</span>
+      {c.about.map((p) => <p class="sp-body">{p}</p>)}
+      <ul class="sp-facts">{c.facts.map((f) => <li>{f}</li>)}</ul>
+      {c.channels?.length > 0 && (
         <div class="sp-channels">
-          <span class="sp-channels__lbl">Для кого:</span>
-          <ul class="sp-chips-inline">{profile.channels.map((c) => <li>{c}</li>)}</ul>
+          <span class="sp-channels__lbl">{c.ui.for_whom}</span>
+          <ul class="sp-chips-inline">{c.channels.map((ch) => <li>{ch}</li>)}</ul>
         </div>
       )}
     </div>
@@ -84,9 +86,9 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   <!-- LINES -->
   <section class="sp-sec sp-sec--tint">
     <div class="wrap">
-      <span class="sp-lvl">Продуктовые линейки</span>
+      <span class="sp-lvl">{c.ui.lines_h}</span>
       <div class="sp-lines">
-        {profile.lines.map((l) => (
+        {c.lines.map((l) => (
           <article class="sp-line">
             <span class="sp-line__ic" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
@@ -100,12 +102,12 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   </section>
 
   <!-- SIGNATURE TECH -->
-  {profile.tech?.length > 0 && (
+  {c.tech?.length > 0 && (
     <section class="sp-sec">
       <div class="wrap">
-        <span class="sp-lvl">Фирменные решения</span>
+        <span class="sp-lvl">{c.ui.tech_h}</span>
         <div class="sp-tech">
-          {profile.tech.map((tItem) => (
+          {c.tech.map((tItem) => (
             <article class="sp-tech__item">
               <h3 class="sp-tech__nm">{tItem.name}</h3>
               <p class="sp-tech__note">{tItem.note}</p>
@@ -121,11 +123,11 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     <section class="sp-sec sp-sec--tint">
       <div class="wrap sp-showcase">
         <figure class="sp-showcase__img">
-          <Image src={m.products} alt={`Продукция ${profile.brand}`} widths={[520, 960]} sizes="(max-width: 820px) 92vw, 480px" format="webp" loading="lazy" decoding="async" />
+          <Image src={m.products} alt={`${profile.brand} — ${c.ui.products_h}`} widths={[520, 960]} sizes="(max-width: 820px) 92vw, 480px" format="webp" loading="lazy" decoding="async" />
         </figure>
         <div class="sp-showcase__text">
-          <span class="sp-lvl">Продукция</span>
-          <p class="sp-body">Профессиональные форматы Dr.SANTE — очищение, тонизирование, ампулы, кремы, маски, солнцезащита и масла. Линейки Azulene Soother и AKA объединены единым визуальным языком бренда.</p>
+          <span class="sp-lvl">{c.ui.products_h}</span>
+          <p class="sp-body">{c.ui.products_note}</p>
         </div>
       </div>
     </section>
@@ -135,12 +137,12 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   <section class="sp-sec">
     <div class="wrap sp-cols">
       <div>
-        <span class="sp-lvl">Форматы продукции</span>
-        <ul class="sp-formats">{profile.formats.map((f) => <li>{f}</li>)}</ul>
+        <span class="sp-lvl">{c.ui.formats_h}</span>
+        <ul class="sp-formats">{c.formats.map((f) => <li>{f}</li>)}</ul>
       </div>
       <div>
-        <span class="sp-lvl">Экспорт</span>
-        <p class="sp-body">{profile.exportNote}</p>
+        <span class="sp-lvl">{c.ui.export_h}</span>
+        <p class="sp-body">{c.exportNote}</p>
       </div>
     </div>
   </section>
@@ -150,11 +152,11 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     <div class="wrap">
       <div class="sp-cta__card">
         {m && <Image class="sp-cta__bg" src={m.drops} alt="" widths={[900, 1400]} sizes="100vw" format="webp" loading="lazy" decoding="async" />}
-        <h2 class="sp-cta__h">Заинтересовал этот производитель?</h2>
-        <p class="sp-cta__d">Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.</p>
-        <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>Связаться через Teranova</a>
+        <h2 class="sp-cta__h">{c.ui.cta_h}</h2>
+        <p class="sp-cta__d">{c.ui.cta_d}</p>
+        <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{c.ui.cta_btn}</a>
       </div>
-      <p class="sp-consent">{profile.consentNote}</p>
+      <p class="sp-consent">{c.consentNote}</p>
     </div>
   </section>
 </article>

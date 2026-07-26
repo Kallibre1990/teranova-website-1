@@ -1,0 +1,83 @@
+{
+  "content": {
+    "tagline": "Sizin başarınız bizim mutluluğumuz",
+    "descriptor": "Kore'den profesyonel estetik kozmetik",
+    "origin": "Kore",
+    "about": [
+      "SANTE COSMETICS (Dr.SANTE markası), 20 yılı aşkın geçmişe sahip (2003'ten bu yana) Koreli bir estetik markadır. Şirket, uzun yıllara dayanan pratik deneyimi, profesyonel bilgi birikimini ve cilt sağlığına verdiği önemi bir araya getirerek profesyonel bakım kozmetiği geliştirir ve üretir.",
+      "Markanın felsefesi, cildin sağlığını ve güzelliğini aynı anda sağlamaktır. Ürünler profesyonel segment için geliştirilir ve hassas, kuru, tahriş olmuş ve yaşlanan cilde yöneliktir."
+    ],
+    "facts": [
+      "Estetik marka",
+      "2003'ten bu yana",
+      "Kendi Ar-Ge ve üretimi",
+      "Profesyonel segment",
+      "Yurt dışına ihracat"
+    ],
+    "channels": [
+      "Estetik klinikleri",
+      "Dermatoloji klinikleri",
+      "Doğu tıbbı muayenehaneleri",
+      "Güzellik salonları"
+    ],
+    "lines": [
+      {
+        "name": "Azulene Soother",
+        "note": "Guaiazulen ve papatya suyu içeren yatıştırıcı seri: tahrişi hızla azaltır, cildin ısısını düşürür ve bariyeri güçlendirir; hassas cilt sorunlarının temel nedenleriyle çalışır. Kremler, serumlar, maskeler, losyonlar, mistler, jeller, güneş koruyucu esanslar."
+      },
+      {
+        "name": "Artemisia AKA",
+        "note": "Belirgin yatıştırıcı ve anti-inflamatuar etkiye sahip, problemli ve tahriş olmuş cilt için seri: onarım ve bariyer bakımı için ampuller, kremler ve maskeler."
+      },
+      {
+        "name": "Collagen Leader",
+        "note": "Cildin sıkılığına ve yaşlanan cilde yönelik kolajen bakımı."
+      },
+      {
+        "name": "Hyalquad Core",
+        "note": "Hyaluronik asit kompleksine dayalı yoğun nemlendirme."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Guaiazulen + papatya suyu",
+        "note": "Real Blue Calming Solution — tahriş olmuş cildi yatıştırır, ısısını düşürür ve koruyucu bariyeri güçlendirir."
+      },
+      {
+        "name": "LHASOL™",
+        "note": "4. nesil, markaya özgü keratolitik bileşen — yüksek konsantrasyonda stabilize edilmiş LHA; problemli cildin sağlıklı, hafif asidik pH değerine dönmesine yardımcı olur."
+      }
+    ],
+    "formats": [
+      "Ampuller",
+      "Serumlar",
+      "Kremler",
+      "Maskeler",
+      "Tonerler ve pedler",
+      "Temizleyiciler",
+      "Güneş koruyucular",
+      "Mistler",
+      "Yağlar"
+    ],
+    "exportNote": "Dr.SANTE ürünleri, ABD ve Japonya pazarları dahil olmak üzere yurt dışına tedarik edilmektedir.",
+    "consentNote": "Veriler ve materyaller SANTE COSMETICS tarafından sağlanmıştır ve şirketin yazılı onayıyla yayımlanmaktadır. Teranova, işlemi koordine eder ve destekler.",
+    "seoTitle": "SANTE COSMETICS (Dr.SANTE) — Kore estetik kozmetiği · Teranova Group",
+    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — Kore'den profesyonel estetik kozmetik. Hassas ve problemli cilt için Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core serileri. Tedarik ve işlem takibi Teranova aracılığıyla."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimler için:",
+    "lines_h": "Ürün serileri",
+    "tech_h": "Markaya özgü çözümler",
+    "products_h": "Ürünler",
+    "products_note": "Dr.SANTE'nin profesyonel formatları — temizleme, tonik, ampuller, kremler, maskeler, güneş koruma ve yağlar. Azulene Soother ve AKA serileri, markanın ortak görsel diliyle bir araya getirilmiştir.",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat",
+    "cta_h": "Bu üretici ilginizi çekti mi?",
+    "cta_d": "Bizimle iletişime geçin — Teranova, ilk temastan teslimata kadar müzakereleri, incelemeyi ve işlem takibini organize eder.",
+    "cta_btn": "Teranova aracılığıyla iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler"
+  }
+}
