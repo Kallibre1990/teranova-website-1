@@ -62,7 +62,25 @@
     "exportNote": "Dr.SANTE products are supplied abroad, including the US and Japanese markets.",
     "consentNote": "The data and materials are provided by SANTE COSMETICS and published with its written consent. Teranova coordinates and supports the deal.",
     "seoTitle": "SANTE COSMETICS (Dr.SANTE) — Korean aesthetic cosmetics · Teranova Group",
-    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — professional aesthetic cosmetics from Korea. The Azulene Soother, Artemisia AKA, Collagen Leader and Hyalquad Core lines for sensitive and problem-prone skin. Supply and deal support through Teranova."
+    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — professional aesthetic cosmetics from Korea. The Azulene Soother, Artemisia AKA, Collagen Leader and Hyalquad Core lines for sensitive and problem-prone skin. Supply and deal support through Teranova.",
+    "terms": [
+      {
+        "label": "Cooperation formats",
+        "value": "Wholesale supply of finished products; OEM/ODM — in-house development and manufacturing."
+      },
+      {
+        "label": "Minimum order",
+        "value": "Approximately from $4,000 for the first order; small batches available for select items."
+      },
+      {
+        "label": "Prices",
+        "value": "Indicative wholesale FOB range; exact prices on request at the deal stage."
+      },
+      {
+        "label": "How it works",
+        "value": "Request → Teranova review and alignment → negotiations and samples → logistics, customs and payment, turnkey."
+      }
+    ]
   },
   "ui": {
     "profile_sup": "Supplier profile",
@@ -78,6 +96,10 @@
     "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
     "cta_btn": "Contact via Teranova",
     "more": "Open profile →",
-    "verified_suppliers": "Verified suppliers"
+    "verified_suppliers": "Verified suppliers",
+    "catalog_h": "Product catalog",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The manufacturer's direct contacts are not published. This document is not a public offer."
   }
 }

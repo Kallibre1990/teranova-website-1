@@ -62,7 +62,25 @@
     "exportNote": "Les produits Dr.SANTE sont exportés à l'étranger, notamment sur les marchés des États-Unis et du Japon.",
     "consentNote": "Les données et les documents sont fournis par la société SANTE COSMETICS et publiés avec son consentement écrit. Teranova coordonne et accompagne la transaction.",
     "seoTitle": "SANTE COSMETICS (Dr.SANTE) — cosmétiques esthétiques coréens · Teranova Group",
-    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — cosmétiques esthétiques professionnels de Corée. Gammes Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core pour les peaux sensibles et à problèmes. Approvisionnement et accompagnement de la transaction via Teranova."
+    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — cosmétiques esthétiques professionnels de Corée. Gammes Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core pour les peaux sensibles et à problèmes. Approvisionnement et accompagnement de la transaction via Teranova.",
+    "terms": [
+      {
+        "label": "Formes de coopération",
+        "value": "Fourniture en gros de produits finis ; OEM/ODM — développement et fabrication en propre."
+      },
+      {
+        "label": "Commande minimale",
+        "value": "À titre indicatif à partir de 4 000 $ pour la première commande ; petites quantités possibles pour certains articles."
+      },
+      {
+        "label": "Prix",
+        "value": "Fourchette de gros FOB indicative ; prix exacts sur demande à l'étape de la transaction."
+      },
+      {
+        "label": "Déroulement",
+        "value": "Demande → vérification et cadrage Teranova → négociations et échantillons → logistique, douane et paiement clé en main."
+      }
+    ]
   },
   "ui": {
     "profile_sup": "Profil du fournisseur",
@@ -78,6 +96,10 @@
     "cta_d": "Contactez-nous — Teranova organise les négociations, la vérification et l'accompagnement de la transaction, du premier contact jusqu'à la livraison.",
     "cta_btn": "Contacter via Teranova",
     "more": "Ouvrir le profil →",
-    "verified_suppliers": "Fournisseurs vérifiés"
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "catalog_h": "Catalogue produits",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "terms_disc": "Les prix et conditions sont indicatifs et sont finalisés à l'étape de la transaction via Teranova. Les coordonnées directes du fabricant ne sont pas publiées. Ce document ne constitue pas une offre au public."
   }
 }
