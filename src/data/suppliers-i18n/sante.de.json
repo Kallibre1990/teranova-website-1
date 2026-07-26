@@ -80,6 +80,29 @@
         "label": "Ablauf",
         "value": "Anfrage → Prüfung und Abstimmung durch Teranova → Verhandlungen und Muster → Logistik, Zoll und Zahlung schlüsselfertig."
       }
+    ],
+    "catalog_notes": [
+      "Reinigungsprodukt aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Gel aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Toner aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Reinigungsprodukt aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Lotion aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Sonnenschutzprodukt aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Crememaske aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Creme aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Gel-Stick aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Maske aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Modelliermaske aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Ampulle aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Serum aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Mist aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Toner-Pads aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Toner-Pads aus der Azulene Soother-Linie — beruhigende Pflege für empfindliche, zu Irritationen neigende Haut.",
+      "Toner aus der Artemisia AKA-Linie — Pflege für zu Unreinheiten und Irritationen neigende Haut.",
+      "Maske aus der Artemisia AKA-Linie — Pflege für zu Unreinheiten und Irritationen neigende Haut.",
+      "Toner-Pads aus der Artemisia AKA-Linie — Pflege für zu Unreinheiten und Irritationen neigende Haut.",
+      "Öl aus der Elsol-Linie — nährende Hautpflege.",
+      "Öl aus der Elsol-Linie — nährende Hautpflege."
     ]
   },
   "ui": {
@@ -100,6 +123,8 @@
     "catalog_h": "Produktkatalog",
     "terms_h": "Bedingungen der Zusammenarbeit",
     "download_btn": "Bedingungen herunterladen (PDF)",
-    "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova festgelegt. Die direkten Kontaktdaten des Herstellers werden nicht veröffentlicht. Dieses Dokument stellt kein öffentliches Angebot dar."
+    "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova festgelegt. Die direkten Kontaktdaten des Herstellers werden nicht veröffentlicht. Dieses Dokument stellt kein öffentliches Angebot dar.",
+    "certs_h": "Zertifizierungen und Registrierungen",
+    "certs_note": "Vom Unternehmen angegeben. Kopien der Nachweise werden in der Abschlussphase bereitgestellt."
   }
 }

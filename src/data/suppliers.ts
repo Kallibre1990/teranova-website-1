@@ -20,6 +20,7 @@ import santeIt from './suppliers-i18n/sante.it.json';
 import santeDe from './suppliers-i18n/sante.de.json';
 import santeFr from './suppliers-i18n/sante.fr.json';
 import santeTr from './suppliers-i18n/sante.tr.json';
+import santeCatalog from './suppliers-i18n/sante.catalog.json';
 
 export interface SupplierLine {
   name: string;
@@ -48,6 +49,8 @@ export interface SupplierUI {
   cta_btn: string;
   more: string;
   verified_suppliers: string;
+  certs_h?: string;
+  certs_note?: string;
 }
 export interface SupplierContent {
   tagline: string;
@@ -62,6 +65,8 @@ export interface SupplierContent {
   exportNote: string;
   terms?: { label: string; value: string }[];
   consentNote: string;
+  /* Per-product short notes, aligned by flat index with profile.catalog items. */
+  catalog_notes?: string[];
   seoTitle: string;
   seoDesc: string;
   ui: SupplierUI;
@@ -73,8 +78,10 @@ export interface SupplierProfile {
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
   brandColors: { deep: string; sky: string; accent: string; bg: string };
-  /* Real product catalog grouped by line. Language-neutral (brand product names). */
-  catalog?: { line: string; items: string[] }[];
+  /* Real product catalog grouped by line, with product photos. Language-neutral. */
+  catalog?: { line: string; items: { name: string; img: string }[] }[];
+  /* Certifications/registrations declared by the company (shown with a caveat). */
+  certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
   termsFile?: Partial<Record<Lang, string>>;
   i18n: Partial<Record<Lang, SupplierContent>>;
@@ -109,6 +116,29 @@ const santeRu: SupplierContent = {
     { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
   ],
   consentNote: 'Данные и материалы предоставлены компанией SANTE COSMETICS и публикуются с её письменного согласия. Teranova координирует и сопровождает сделку.',
+  catalog_notes: [
+    'Очищающее средство линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Гель линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Тонер линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Очищающее средство линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Лосьон линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Солнцезащитное средство линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Крем-маска линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Крем линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Гель-стик линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Маска линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Моделирующая маска линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Ампульный концентрат линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Сыворотка линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Мист линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Тонер-пэды линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Тонер-пэды линейки Azulene Soother — успокаивающий уход для чувствительной и склонной к раздражению кожи.',
+    'Тонер линейки Artemisia AKA — уход для проблемной, склонной к воспалениям кожи.',
+    'Маска линейки Artemisia AKA — уход для проблемной, склонной к воспалениям кожи.',
+    'Тонер-пэды линейки Artemisia AKA — уход для проблемной, склонной к воспалениям кожи.',
+    'Масло линейки Elsol — питательный уход за кожей.',
+    'Масло линейки Elsol — питательный уход за кожей.',
+  ],
   seoTitle: 'SANTE COSMETICS (Dr.SANTE) — корейская эстетическая косметика · Teranova Group',
   seoDesc: 'SANTE COSMETICS (Dr.SANTE) — профессиональная эстетическая косметика из Кореи. Линейки Azulene Soother, Artemisia AKA, Collagen Leader, Hyalquad Core для чувствительной и проблемной кожи. Поставки и сопровождение сделки через Teranova.',
   ui: {
@@ -130,6 +160,8 @@ const santeRu: SupplierContent = {
     cta_btn: 'Связаться через Teranova',
     more: 'Открыть профиль →',
     verified_suppliers: 'Проверенные поставщики',
+    certs_h: 'Сертификаты и регистрации',
+    certs_note: 'Заявлено компанией. Копии подтверждающих документов предоставляются на стадии сделки.',
   },
 };
 
@@ -144,14 +176,8 @@ export const suppliers: SupplierProfile[] = [
     brand: 'Dr.SANTE',
     status: 'provided',
     brandColors: { deep: '#12306e', sky: '#4ca6fc', accent: '#ff2552', bg: '#f3f8ff' },
-    catalog: [
-      {
-        line: 'Azulene Soother',
-        items: ['Active Cleansing Soother', 'Azulene Soother Cleansing Milk', 'Azulene Soother Toner', 'Azulene Soother Gel', 'Azulene Soother Lotion', 'Azulene Soother Cream', 'Azulene Soother Cream Mask', 'Azulene Soother Ampoule', 'Azulene Soother Peel Serum', 'Azulene Soother Mist', 'Azulene Soother Sun Essence', 'Azulene Soother Mask', 'Azulene Soother Modeling Pack', 'Azulene Soother Gel Stick', 'Azulene Soother BB Cushion', 'Soother Semi-Gel Toner Pad'],
-      },
-      { line: 'Artemisia AKA', items: ['Artemisia Aka Toner', 'Aka Semi-Gel Mask', 'Aka Toner Gauze Pad'] },
-      { line: 'Elsol', items: ['Elsol Jojoba Oil'] },
-    ],
+    catalog: santeCatalog as { line: string; items: { name: string; img: string }[] }[],
+    certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'MoCRA', 'CPNP', 'HALAL', 'NMPA', 'SCPN', 'DAV'],
     termsFile: {
       ru: '/docs/sante-terms-ru.pdf',
       en: '/docs/sante-terms-en.pdf',

@@ -80,6 +80,29 @@
         "label": "How it works",
         "value": "Request → Teranova review and alignment → negotiations and samples → logistics, customs and payment, turnkey."
       }
+    ],
+    "catalog_notes": [
+      "Cleanser from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Gel from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Toner from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Cleanser from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Lotion from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Sun care product from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Cream mask from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Cream from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Gel stick from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Mask from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Modeling mask from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Ampoule from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Serum from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Mist from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Toner pads from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Toner pads from the Azulene Soother line — soothing care for sensitive, irritation-prone skin.",
+      "Toner from the Artemisia AKA line — care for problem-prone, irritation-sensitive skin.",
+      "Mask from the Artemisia AKA line — care for problem-prone, irritation-sensitive skin.",
+      "Toner pads from the Artemisia AKA line — care for problem-prone, irritation-sensitive skin.",
+      "Oil from the Elsol line — nourishing skin care.",
+      "Oil from the Elsol line — nourishing skin care."
     ]
   },
   "ui": {
@@ -100,6 +123,8 @@
     "catalog_h": "Product catalog",
     "terms_h": "Terms of cooperation",
     "download_btn": "Download terms (PDF)",
-    "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The manufacturer's direct contacts are not published. This document is not a public offer."
+    "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The manufacturer's direct contacts are not published. This document is not a public offer.",
+    "certs_h": "Certifications and registrations",
+    "certs_note": "Declared by the company. Copies of supporting documents are provided at the deal stage."
   }
 }

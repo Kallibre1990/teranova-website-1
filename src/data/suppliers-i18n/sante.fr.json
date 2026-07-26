@@ -80,6 +80,29 @@
         "label": "Déroulement",
         "value": "Demande → vérification et cadrage Teranova → négociations et échantillons → logistique, douane et paiement clé en main."
       }
+    ],
+    "catalog_notes": [
+      "Nettoyant de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Gel de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Tonique de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Nettoyant de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Lotion de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Produit solaire de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Masque-crème de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Crème de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Stick gel de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Masque de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Masque modelant de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Ampoule de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Sérum de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Brume de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Disques toniques de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Disques toniques de la gamme Azulene Soother — soin apaisant pour les peaux sensibles et sujettes aux irritations.",
+      "Tonique de la gamme Artemisia AKA — soin pour les peaux à problèmes et sujettes aux irritations.",
+      "Masque de la gamme Artemisia AKA — soin pour les peaux à problèmes et sujettes aux irritations.",
+      "Disques toniques de la gamme Artemisia AKA — soin pour les peaux à problèmes et sujettes aux irritations.",
+      "Huile de la gamme Elsol — soin nourrissant pour la peau.",
+      "Huile de la gamme Elsol — soin nourrissant pour la peau."
     ]
   },
   "ui": {
@@ -100,6 +123,8 @@
     "catalog_h": "Catalogue produits",
     "terms_h": "Conditions de coopération",
     "download_btn": "Télécharger les conditions (PDF)",
-    "terms_disc": "Les prix et conditions sont indicatifs et sont finalisés à l'étape de la transaction via Teranova. Les coordonnées directes du fabricant ne sont pas publiées. Ce document ne constitue pas une offre au public."
+    "terms_disc": "Les prix et conditions sont indicatifs et sont finalisés à l'étape de la transaction via Teranova. Les coordonnées directes du fabricant ne sont pas publiées. Ce document ne constitue pas une offre au public.",
+    "certs_h": "Certifications et enregistrements",
+    "certs_note": "Déclaré par l'entreprise. Les copies des justificatifs sont fournies à l'étape de la transaction."
   }
 }
