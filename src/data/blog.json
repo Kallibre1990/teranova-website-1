@@ -3565,5 +3565,2787 @@
         ]
       }
     }
+  },
+  {
+    "slug": "sensitive-skin-care",
+    "category": "guide",
+    "date": "2026-07-28",
+    "related": [
+      "sante",
+      "cosmetics",
+      "ondemand"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Чувствительная кожа: как собрать корейскую программу ухода",
+        "excerpt": "Что важно для реактивной кожи и как выстроить мягкий уход: успокаивающие компоненты, деликатное очищение и увлажнение — на примере линеек Dr.SANTE.",
+        "seoTitle": "Уход за чувствительной кожей: корейская программа · Teranova",
+        "seoDesc": "Как выстроить уход за чувствительной и реактивной кожей: успокаивающие ингредиенты, мягкое очищение, увлажнение и защита. Практический гид Teranova на примере линеек Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Чувствительная кожа легко реагирует покраснением, стянутостью и раздражением. Задача ухода — не подавлять симптомы агрессивно, а снизить провокацию и укрепить барьер. Разберём принципы и подходящие корейские решения."
+            ]
+          },
+          {
+            "h": "Мягкое очищение",
+            "p": [
+              "Первый шаг — деликатное очищение со слабокислым pH, близким к здоровому состоянию кожи (около 5.5), без пересушивания. Подойдут молочко или гелевые средства, которые снимают загрязнения и остатки санскрина, оставляя увлажняющий слой.",
+              "У Dr.SANTE это очищающие средства линейки Azulene Soother на ромашковой воде."
+            ]
+          },
+          {
+            "h": "Успокаивающие компоненты",
+            "p": [
+              "Реактивной коже помогают успокаивающие ингредиенты: азулен и гуайазулен, ромашковая вода, пантенол, церамиды. По данным исследований, азулен обладает противовоспалительным действием (данные преимущественно доклинические).",
+              "Основа ухода — тонер, ампула и крем с азуленом. Важно: при аллергии на растения семейства сложноцветных (ромашка, полынь) вводите такие средства осторожно."
+            ]
+          },
+          {
+            "h": "Увлажнение и барьер",
+            "p": [
+              "Обезвоженность усиливает чувствительность. Гиалуроновая кислота удерживает влагу, а церамиды и пантенол поддерживают барьер. Сочетание успокоения и увлажнения работает лучше, чем что-то одно.",
+              "Линейку Azulene Soother логично дополнить увлажняющей Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Собрать программу",
+            "p": [
+              "Базовый набор: мягкое очищение, успокаивающий тонер, ампула или сыворотка, крем, при необходимости солнцезащита. Мягкая эксфолиация (PHA/LHA) — по переносимости, деликатно.",
+              "Все линейки Dr.SANTE и ориентировочные оптовые цены — на странице бренда. Teranova поможет собрать ассортимент под ваш рынок и сопроводит поставку."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Sensitive Skin: How to Build a Korean Skincare Routine",
+        "excerpt": "What matters for reactive skin and how to build a gentle routine: soothing ingredients, delicate cleansing and hydration — using Dr.SANTE lines as an example.",
+        "seoTitle": "Sensitive Skin Care: A Korean Routine · Teranova",
+        "seoDesc": "How to build a routine for sensitive and reactive skin: soothing ingredients, gentle cleansing, hydration and protection. A practical Teranova guide using Dr.SANTE lines as an example.",
+        "sections": [
+          {
+            "p": [
+              "Sensitive skin reacts easily with redness, tightness and irritation. The goal of a routine is not to suppress the symptoms aggressively, but to reduce triggers and strengthen the barrier. Let's go over the principles and the Korean solutions that fit."
+            ]
+          },
+          {
+            "h": "Gentle cleansing",
+            "p": [
+              "The first step is delicate cleansing with a mildly acidic pH close to healthy skin (around 5.5), without over-drying. Milk or gel cleansers work well — they remove impurities and sunscreen residue while leaving a hydrating layer.",
+              "At Dr.SANTE these are the cleansers of the Azulene Soother line, made with chamomile water."
+            ]
+          },
+          {
+            "h": "Soothing ingredients",
+            "p": [
+              "Reactive skin benefits from soothing ingredients: azulene and guaiazulene, chamomile water, panthenol, ceramides. According to research, azulene has an anti-inflammatory effect (the data is mostly preclinical).",
+              "The core of the routine is a toner, an ampoule and a cream with azulene. Important: if you are allergic to plants of the Asteraceae family (chamomile, mugwort), introduce such products with caution."
+            ]
+          },
+          {
+            "h": "Hydration and the barrier",
+            "p": [
+              "Dehydration increases sensitivity. Hyaluronic acid retains moisture, while ceramides and panthenol support the barrier. Combining soothing and hydration works better than either one alone.",
+              "It makes sense to complement the Azulene Soother line with the hydrating Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Building the routine",
+            "p": [
+              "A basic set: gentle cleansing, a soothing toner, an ampoule or serum, a cream, and sun protection if needed. Gentle exfoliation (PHA/LHA) — as tolerated, delicately.",
+              "All Dr.SANTE lines and approximate wholesale prices are on the brand page. Teranova will help you assemble an assortment for your market and support the delivery."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "민감성 피부: 한국식 스킨케어 프로그램 구성법",
+        "excerpt": "예민한 피부에 무엇이 중요하고 부드러운 케어를 어떻게 구성할지: 진정 성분, 순한 클렌징과 수분 공급 — Dr.SANTE 라인을 예로 살펴봅니다.",
+        "seoTitle": "민감성 피부 케어: 한국식 프로그램 · Teranova",
+        "seoDesc": "민감하고 예민한 피부 케어를 구성하는 법: 진정 성분, 순한 클렌징, 수분 공급과 보호. Dr.SANTE 라인을 예로 든 Teranova 실전 가이드.",
+        "sections": [
+          {
+            "p": [
+              "민감성 피부는 붉어짐, 당김, 자극으로 쉽게 반응합니다. 케어의 목표는 증상을 공격적으로 억누르는 것이 아니라 자극 요인을 줄이고 장벽을 강화하는 것입니다. 그 원칙과 적합한 한국 제품을 살펴봅니다."
+            ]
+          },
+          {
+            "h": "순한 클렌징",
+            "p": [
+              "첫 단계는 건강한 피부 상태에 가까운 약산성 pH(약 5.5)의, 과도하게 건조시키지 않는 순한 클렌징입니다. 오염물과 자외선 차단제 잔여물을 제거하면서 수분층을 남기는 밀크 타입이나 젤 타입 제품이 적합합니다.",
+              "Dr.SANTE에서는 카모마일 워터 기반의 Azulene Soother 라인 클렌징 제품이 이에 해당합니다."
+            ]
+          },
+          {
+            "h": "진정 성분",
+            "p": [
+              "예민한 피부에는 진정 성분이 도움이 됩니다: 아줄렌과 구아이아줄렌, 카모마일 워터, 판테놀, 세라마이드. 연구에 따르면 아줄렌은 항염 작용을 지니는 것으로 나타났습니다(주로 전임상 데이터).",
+              "케어의 기본은 아줄렌이 함유된 토너, 앰플, 크림입니다. 주의: 국화과(Asteraceae) 식물(카모마일, 쑥)에 알레르기가 있다면 이러한 제품은 조심스럽게 사용하세요."
+            ]
+          },
+          {
+            "h": "수분 공급과 장벽",
+            "p": [
+              "수분 부족은 민감성을 심화시킵니다. 히알루론산은 수분을 붙잡아 두고, 세라마이드와 판테놀은 장벽을 지지합니다. 진정과 수분 공급의 조합은 어느 한쪽만보다 더 잘 작동합니다.",
+              "Azulene Soother 라인은 수분 공급 라인인 Hyalquad Core로 보완하는 것이 합리적입니다."
+            ]
+          },
+          {
+            "h": "프로그램 구성하기",
+            "p": [
+              "기본 구성: 순한 클렌징, 진정 토너, 앰플 또는 세럼, 크림, 필요 시 자외선 차단. 순한 각질 제거(PHA/LHA)는 피부 내성에 맞춰 조심스럽게.",
+              "모든 Dr.SANTE 라인과 대략적인 도매가는 브랜드 페이지에서 확인할 수 있습니다. Teranova는 귀사의 시장에 맞는 구색 구성을 돕고 공급을 지원합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "敏感肌：如何搭建一套韩式护肤方案",
+        "excerpt": "对易敏（反应性）肌肤而言什么最重要，以及如何构建温和护肤：舒缓成分、温和清洁与保湿——以 Dr.SANTE 系列为例。",
+        "seoTitle": "敏感肌护理：韩式护肤方案 · Teranova",
+        "seoDesc": "如何为敏感、易敏肌肤构建护理：舒缓成分、温和清洁、保湿与防护。Teranova 实用指南，以 Dr.SANTE 系列为例。",
+        "sections": [
+          {
+            "p": [
+              "敏感肌容易出现泛红、紧绷和刺激反应。护理的目标不是用强烈手段压制症状，而是减少刺激诱因、强化肌肤屏障。下面梳理护理原则以及合适的韩式方案。"
+            ]
+          },
+          {
+            "h": "温和清洁",
+            "p": [
+              "第一步是温和清洁，采用接近健康肌肤的弱酸性 pH（约 5.5），且不使肌肤过度干燥。适合选用洁面乳或凝胶质地的产品，既能清除污垢和防晒残留，又能保留一层保湿膜。",
+              "在 Dr.SANTE 中，这类产品是以洋甘菊水为基底的 Azulene Soother 系列洁面产品。"
+            ]
+          },
+          {
+            "h": "舒缓成分",
+            "p": [
+              "对易敏肌肤有帮助的是舒缓成分：薁与愈创薁、洋甘菊水、泛醇、神经酰胺。据研究，薁具有抗炎作用（相关数据主要来自临床前研究）。",
+              "护理的核心是含薁的爽肤水、安瓶和面霜。需要注意：若对菊科植物（洋甘菊、艾蒿）过敏，请谨慎引入这类产品。"
+            ]
+          },
+          {
+            "h": "保湿与屏障",
+            "p": [
+              "缺水会加剧肌肤敏感。透明质酸能锁住水分，神经酰胺和泛醇则支持肌肤屏障。舒缓与保湿相结合，效果优于单一手段。",
+              "可以用保湿的 Hyalquad Core 系列来补充 Azulene Soother 系列，这是合理的搭配。"
+            ]
+          },
+          {
+            "h": "搭建护理方案",
+            "p": [
+              "基础组合：温和清洁、舒缓爽肤水、安瓶或精华、面霜，必要时加上防晒。温和去角质（PHA/LHA）则视肌肤耐受度、轻柔进行。",
+              "全部 Dr.SANTE 系列及参考批发价请见品牌页面。Teranova 将协助您针对所在市场组建产品组合，并全程跟进供货。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "敏感肌：韓国式スキンケアプログラムの組み立て方",
+        "excerpt": "反応しやすい肌に大切なことと、穏やかなケアの組み立て方：鎮静成分、デリケートな洗浄、保湿を、Dr.SANTEのラインを例に解説します。",
+        "seoTitle": "敏感肌のケア：韓国式プログラム · Teranova",
+        "seoDesc": "敏感で反応しやすい肌のケアの組み立て方：鎮静成分、穏やかな洗浄、保湿、そして保護。Dr.SANTEのラインを例にしたTeranovaの実践ガイド。",
+        "sections": [
+          {
+            "p": [
+              "敏感肌は赤み、つっぱり、刺激で反応しやすい肌です。ケアの目的は、症状を強引に抑え込むことではなく、刺激の要因を減らしてバリアを強化することにあります。その原則と、適した韓国式のソリューションを見ていきましょう。"
+            ]
+          },
+          {
+            "h": "穏やかな洗浄",
+            "p": [
+              "最初のステップは、健康な肌の状態に近い弱酸性のpH（およそ5.5）で、過度に乾燥させないデリケートな洗浄です。汚れや日焼け止めの残りを落としつつ、うるおいの層を残すミルクタイプやジェルタイプが適しています。",
+              "Dr.SANTEでは、カモミールウォーターを使ったAzulene Sootherラインの洗浄料がこれにあたります。"
+            ]
+          },
+          {
+            "h": "鎮静成分",
+            "p": [
+              "反応しやすい肌には、鎮静成分が役立ちます：アズレンとグアイアズレン、カモミールウォーター、パンテノール、セラミドなど。研究データによれば、アズレンには抗炎症作用があります（データは主に前臨床のものです）。",
+              "ケアの基本は、アズレン配合のトナー、アンプル、クリームです。注意点：キク科の植物（カモミール、ヨモギ）にアレルギーがある場合は、こうした製品は慎重に取り入れてください。"
+            ]
+          },
+          {
+            "h": "保湿とバリア",
+            "p": [
+              "水分不足は敏感さを強めます。ヒアルロン酸は水分を保ち、セラミドとパンテノールはバリアを支えます。鎮静と保湿の組み合わせは、どちらか一方だけよりもうまく働きます。",
+              "Azulene Sootherラインには、保湿のHyalquad Coreを組み合わせるのが理にかなっています。"
+            ]
+          },
+          {
+            "h": "プログラムを組み立てる",
+            "p": [
+              "基本セット：穏やかな洗浄、鎮静トナー、アンプルまたは美容液、クリーム、必要に応じて日焼け止め。穏やかな角質ケア（PHA/LHA）は、肌の耐性に合わせてデリケートに行います。",
+              "Dr.SANTEの全ラインと参考卸価格は、ブランドページに掲載しています。Teranovaは、貴社の市場に合わせた品揃えの構築をお手伝いし、納品までサポートします。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Pelle sensibile: come costruire una routine di cura coreana",
+        "excerpt": "Cosa conta per la pelle reattiva e come impostare una cura delicata: ingredienti lenitivi, detersione delicata e idratazione — sull'esempio delle linee Dr.SANTE.",
+        "seoTitle": "Cura della pelle sensibile: routine coreana · Teranova",
+        "seoDesc": "Come impostare la cura della pelle sensibile e reattiva: ingredienti lenitivi, detersione delicata, idratazione e protezione. Guida pratica Teranova sull'esempio delle linee Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "La pelle sensibile reagisce facilmente con rossore, sensazione di pelle che tira e irritazione. L'obiettivo della cura non è sopprimere i sintomi in modo aggressivo, ma ridurre la provocazione e rafforzare la barriera. Vediamo i principi e le soluzioni coreane più adatte."
+            ]
+          },
+          {
+            "h": "Detersione delicata",
+            "p": [
+              "Il primo passo è una detersione delicata con pH leggermente acido, vicino allo stato sano della pelle (circa 5.5), senza seccare. Vanno bene latti o prodotti in gel che rimuovono impurità e residui di protezione solare, lasciando uno strato idratante.",
+              "In Dr.SANTE sono i detergenti della linea Azulene Soother a base di acqua di camomilla."
+            ]
+          },
+          {
+            "h": "Componenti lenitivi",
+            "p": [
+              "Alla pelle reattiva giovano gli ingredienti lenitivi: azulene e guaiazulene, acqua di camomilla, pantenolo, ceramidi. Secondo gli studi, l'azulene ha un'azione antinfiammatoria (dati prevalentemente preclinici).",
+              "La base della cura è un tonico, una fiala e una crema con azulene. Importante: in caso di allergia alle piante della famiglia delle Asteraceae (camomilla, artemisia), introduci questi prodotti con cautela."
+            ]
+          },
+          {
+            "h": "Idratazione e barriera",
+            "p": [
+              "La disidratazione aumenta la sensibilità. L'acido ialuronico trattiene l'acqua, mentre le ceramidi e il pantenolo sostengono la barriera. La combinazione di azione lenitiva e idratazione funziona meglio di una sola delle due.",
+              "La linea Azulene Soother si completa logicamente con l'idratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Costruire la routine",
+            "p": [
+              "Kit di base: detersione delicata, tonico lenitivo, fiala o siero, crema e, se necessario, protezione solare. Esfoliazione delicata (PHA/LHA) secondo la tolleranza, con delicatezza.",
+              "Tutte le linee Dr.SANTE e i prezzi all'ingrosso indicativi sono nella pagina del brand. Teranova aiuta a comporre l'assortimento per il tuo mercato e segue la fornitura."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Empfindliche Haut: So stellen Sie eine koreanische Pflegeroutine zusammen",
+        "excerpt": "Was für reaktive Haut wichtig ist und wie man eine sanfte Pflege aufbaut: beruhigende Inhaltsstoffe, milde Reinigung und Feuchtigkeit — am Beispiel der Dr.SANTE Linien.",
+        "seoTitle": "Pflege für empfindliche Haut: koreanische Routine · Teranova",
+        "seoDesc": "Wie Sie die Pflege für empfindliche und reaktive Haut aufbauen: beruhigende Inhaltsstoffe, milde Reinigung, Feuchtigkeit und Schutz. Praktischer Ratgeber von Teranova am Beispiel der Dr.SANTE Linien.",
+        "sections": [
+          {
+            "p": [
+              "Empfindliche Haut reagiert leicht mit Rötungen, Spannungsgefühl und Reizungen. Ziel der Pflege ist nicht, die Symptome aggressiv zu unterdrücken, sondern die Auslöser zu reduzieren und die Hautbarriere zu stärken. Wir erklären die Prinzipien und passende koreanische Lösungen."
+            ]
+          },
+          {
+            "h": "Milde Reinigung",
+            "p": [
+              "Der erste Schritt ist eine sanfte Reinigung mit leicht saurem pH-Wert, nahe am gesunden Hautzustand (etwa 5.5), ohne die Haut auszutrocknen. Geeignet sind Reinigungsmilch oder Gel-Produkte, die Verschmutzungen und Sonnenschutzreste entfernen und dabei eine feuchtigkeitsspendende Schicht hinterlassen.",
+              "Bei Dr.SANTE sind das die Reinigungsprodukte der Azulene Soother Linie auf Basis von Kamillenwasser."
+            ]
+          },
+          {
+            "h": "Beruhigende Inhaltsstoffe",
+            "p": [
+              "Reaktiver Haut helfen beruhigende Inhaltsstoffe: Azulen und Guaiazulen, Kamillenwasser, Panthenol, Ceramide. Studien zufolge wirkt Azulen entzündungshemmend (die Daten sind überwiegend präklinisch).",
+              "Die Basis der Pflege sind Toner, Ampulle und Creme mit Azulen. Wichtig: Bei einer Allergie gegen Korbblütler (Asteraceae — Kamille, Beifuß) sollten solche Produkte vorsichtig eingeführt werden."
+            ]
+          },
+          {
+            "h": "Feuchtigkeit und Hautbarriere",
+            "p": [
+              "Feuchtigkeitsmangel verstärkt die Empfindlichkeit. Hyaluronsäure bindet Feuchtigkeit, während Ceramide und Panthenol die Hautbarriere unterstützen. Die Kombination aus Beruhigung und Feuchtigkeit wirkt besser als jede Maßnahme für sich allein.",
+              "Die Azulene Soother Linie lässt sich sinnvoll mit der feuchtigkeitsspendenden Hyalquad Core ergänzen."
+            ]
+          },
+          {
+            "h": "Die Routine zusammenstellen",
+            "p": [
+              "Basis-Set: milde Reinigung, beruhigender Toner, Ampulle oder Serum, Creme, bei Bedarf Sonnenschutz. Sanfte Exfoliation (PHA/LHA) — nach Verträglichkeit, behutsam.",
+              "Alle Dr.SANTE Linien und ungefähre Großhandelspreise finden Sie auf der Markenseite. Teranova hilft Ihnen, das Sortiment für Ihren Markt zusammenzustellen, und begleitet die Lieferung."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Peau sensible : comment composer une routine de soin coréenne",
+        "excerpt": "Ce qui compte pour une peau réactive et comment construire un soin doux : ingrédients apaisants, nettoyage délicat et hydratation — à travers l'exemple des gammes Dr.SANTE.",
+        "seoTitle": "Soin de la peau sensible : routine coréenne · Teranova",
+        "seoDesc": "Comment construire un soin pour peau sensible et réactive : ingrédients apaisants, nettoyage doux, hydratation et protection. Guide pratique Teranova à travers l'exemple des gammes Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "La peau sensible réagit facilement par des rougeurs, une sensation de tiraillement et des irritations. Le but du soin n'est pas de supprimer les symptômes de façon agressive, mais de réduire les facteurs déclenchants et de renforcer la barrière cutanée. Passons en revue les principes et les solutions coréennes adaptées."
+            ]
+          },
+          {
+            "h": "Nettoyage doux",
+            "p": [
+              "La première étape est un nettoyage délicat au pH légèrement acide, proche de l'état sain de la peau (environ 5.5), sans dessécher. Les laits ou les gels nettoyants conviennent : ils éliminent les impuretés et les résidus de protection solaire tout en laissant un film hydratant.",
+              "Chez Dr.SANTE, ce sont les nettoyants de la gamme Azulene Soother à base d'eau de camomille."
+            ]
+          },
+          {
+            "h": "Ingrédients apaisants",
+            "p": [
+              "La peau réactive bénéficie d'ingrédients apaisants : azulène et guaïazulène, eau de camomille, panthénol, céramides. Selon des études, l'azulène possède une action anti-inflammatoire (données principalement précliniques).",
+              "La base du soin : un tonique, une ampoule et une crème à l'azulène. Important : en cas d'allergie aux plantes de la famille des Astéracées (camomille, armoise), introduisez ces produits avec précaution."
+            ]
+          },
+          {
+            "h": "Hydratation et barrière cutanée",
+            "p": [
+              "La déshydratation accentue la sensibilité. L'acide hyaluronique retient l'eau, tandis que les céramides et le panthénol soutiennent la barrière cutanée. L'association de l'apaisement et de l'hydratation fonctionne mieux que l'un ou l'autre seul.",
+              "Il est logique de compléter la gamme Azulene Soother par la gamme hydratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Composer la routine",
+            "p": [
+              "Kit de base : nettoyage doux, tonique apaisant, ampoule ou sérum, crème, et si besoin protection solaire. Une exfoliation douce (PHA/LHA) — selon la tolérance, en douceur.",
+              "Toutes les gammes Dr.SANTE et les prix de gros indicatifs sont sur la page de la marque. Teranova vous aide à composer un assortiment adapté à votre marché et accompagne la livraison."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Hassas cilt: Kore bakım programı nasıl oluşturulur",
+        "excerpt": "Reaktif cilt için neyin önemli olduğu ve nazik bir bakımın nasıl kurulacağı: yatıştırıcı bileşenler, nazik temizlik ve nemlendirme — Dr.SANTE serileri örneğinde.",
+        "seoTitle": "Hassas cilt bakımı: Kore programı · Teranova",
+        "seoDesc": "Hassas ve reaktif cilt bakımı nasıl kurulur: yatıştırıcı içerikler, nazik temizlik, nemlendirme ve koruma. Dr.SANTE serileri örneğinde Teranova'nın pratik rehberi.",
+        "sections": [
+          {
+            "p": [
+              "Hassas cilt kızarıklık, gerginlik ve tahrişle kolayca tepki verir. Bakımın amacı belirtileri agresif biçimde bastırmak değil, tetikleyicileri azaltmak ve bariyeri güçlendirmektir. İlkeleri ve uygun Kore çözümlerini inceleyelim."
+            ]
+          },
+          {
+            "h": "Nazik temizlik",
+            "p": [
+              "İlk adım, cildin sağlıklı durumuna yakın hafif asidik bir pH ile (yaklaşık 5.5), cildi aşırı kurutmadan yapılan nazik temizliktir. Kirleri ve güneş kremi kalıntılarını temizlerken nemlendirici bir katman bırakan süt veya jel formundaki ürünler uygundur.",
+              "Dr.SANTE'de bunlar, papatya suyu bazlı Azulene Soother serisinin temizleyici ürünleridir."
+            ]
+          },
+          {
+            "h": "Yatıştırıcı bileşenler",
+            "p": [
+              "Reaktif cilde yatıştırıcı içerikler yardımcı olur: azulen ve guaiazulen, papatya suyu, pantenol, seramidler. Araştırmalara göre azulen anti-enflamatuar etkiye sahiptir (veriler ağırlıklı olarak klinik öncesidir).",
+              "Bakımın temeli azulen içeren tonik, ampul ve kremdir. Önemli: papatyagiller (Asteraceae) familyasına (papatya, pelin otu) alerjiniz varsa bu tür ürünleri dikkatlice kullanmaya başlayın."
+            ]
+          },
+          {
+            "h": "Nemlendirme ve bariyer",
+            "p": [
+              "Nem kaybı hassasiyeti artırır. Hyalüronik asit nemi tutar, seramidler ve pantenol ise bariyeri destekler. Yatıştırma ve nemlendirmenin birlikte kullanımı, tek başına birinden daha iyi sonuç verir.",
+              "Azulene Soother serisini nemlendirici Hyalquad Core ile tamamlamak mantıklıdır."
+            ]
+          },
+          {
+            "h": "Programı oluşturmak",
+            "p": [
+              "Temel set: nazik temizlik, yatıştırıcı tonik, ampul veya serum, krem ve gerektiğinde güneş koruması. Nazik eksfoliasyon (PHA/LHA) — toleransa göre, hassas biçimde.",
+              "Tüm Dr.SANTE serileri ve yaklaşık toptan fiyatlar marka sayfasındadır. Teranova, pazarınıza uygun ürün yelpazesini oluşturmanıza yardımcı olur ve tedarik sürecinde eşlik eder."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Piel sensible: cómo armar una rutina coreana de cuidado",
+        "excerpt": "Qué es importante para la piel reactiva y cómo construir un cuidado suave: componentes calmantes, limpieza delicada e hidratación, con las líneas de Dr.SANTE como ejemplo.",
+        "seoTitle": "Cuidado de la piel sensible: rutina coreana · Teranova",
+        "seoDesc": "Cómo construir el cuidado de la piel sensible y reactiva: ingredientes calmantes, limpieza suave, hidratación y protección. Guía práctica de Teranova con las líneas de Dr.SANTE como ejemplo.",
+        "sections": [
+          {
+            "p": [
+              "La piel sensible reacciona con facilidad con enrojecimiento, tirantez e irritación. El objetivo del cuidado no es suprimir los síntomas de forma agresiva, sino reducir la provocación y fortalecer la barrera. Veamos los principios y las soluciones coreanas adecuadas."
+            ]
+          },
+          {
+            "h": "Limpieza suave",
+            "p": [
+              "El primer paso es una limpieza delicada con un pH ligeramente ácido, cercano al estado saludable de la piel (alrededor de 5.5), sin resecarla. Sirven las leches o los productos en gel que retiran la suciedad y los restos de protector solar, dejando una capa hidratante.",
+              "En Dr.SANTE son los limpiadores de la línea Azulene Soother a base de agua de manzanilla."
+            ]
+          },
+          {
+            "h": "Componentes calmantes",
+            "p": [
+              "A la piel reactiva le ayudan los ingredientes calmantes: azuleno y guayazuleno, agua de manzanilla, pantenol, ceramidas. Según estudios, el azuleno tiene acción antiinflamatoria (datos principalmente preclínicos).",
+              "La base del cuidado es un tónico, una ampolla y una crema con azuleno. Importante: en caso de alergia a las plantas de la familia de las asteráceas (manzanilla, artemisa), introduce estos productos con precaución."
+            ]
+          },
+          {
+            "h": "Hidratación y barrera",
+            "p": [
+              "La deshidratación aumenta la sensibilidad. El ácido hialurónico retiene la humedad, y las ceramidas y el pantenol apoyan la barrera. La combinación de calma e hidratación funciona mejor que solo una de las dos.",
+              "Es lógico complementar la línea Azulene Soother con la hidratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Armar la rutina",
+            "p": [
+              "El kit básico: limpieza suave, tónico calmante, ampolla o sérum, crema y, si hace falta, protección solar. Exfoliación suave (PHA/LHA), según la tolerancia y con delicadeza.",
+              "Todas las líneas de Dr.SANTE y los precios mayoristas orientativos están en la página de la marca. Teranova ayuda a armar el surtido para tu mercado y acompaña el suministro."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Pele sensível: como montar uma rotina de cuidados coreana",
+        "excerpt": "O que importa para a pele reativa e como construir um cuidado suave: ativos calmantes, limpeza delicada e hidratação — usando as linhas Dr.SANTE como exemplo.",
+        "seoTitle": "Cuidados com a pele sensível: rotina coreana · Teranova",
+        "seoDesc": "Como construir cuidados para a pele sensível e reativa: ingredientes calmantes, limpeza suave, hidratação e proteção. Guia prático da Teranova usando as linhas Dr.SANTE como exemplo.",
+        "sections": [
+          {
+            "p": [
+              "A pele sensível reage com facilidade a vermelhidão, repuxamento e irritação. O objetivo do cuidado não é suprimir os sintomas de forma agressiva, mas reduzir os gatilhos e fortalecer a barreira. Vamos ver os princípios e as soluções coreanas adequadas."
+            ]
+          },
+          {
+            "h": "Limpeza suave",
+            "p": [
+              "O primeiro passo é uma limpeza delicada com pH levemente ácido, próximo ao estado saudável da pele (cerca de 5.5), sem ressecar. Servem leite de limpeza ou produtos em gel que removem as impurezas e os resíduos de protetor solar, deixando uma camada de hidratação.",
+              "Na Dr.SANTE, são os produtos de limpeza da linha Azulene Soother à base de água de camomila."
+            ]
+          },
+          {
+            "h": "Ativos calmantes",
+            "p": [
+              "A pele reativa se beneficia de ingredientes calmantes: azuleno e guaiazuleno, água de camomila, pantenol, ceramidas. Segundo estudos, o azuleno tem ação anti-inflamatória (dados predominantemente pré-clínicos).",
+              "A base do cuidado é um tônico, uma ampola e um creme com azuleno. Importante: em caso de alergia a plantas da família das asteráceas (camomila, artemísia), introduza esses produtos com cautela."
+            ]
+          },
+          {
+            "h": "Hidratação e barreira",
+            "p": [
+              "A desidratação aumenta a sensibilidade. O ácido hialurônico retém a umidade, enquanto as ceramidas e o pantenol sustentam a barreira. A combinação de ação calmante e hidratação funciona melhor do que apenas um dos dois.",
+              "Faz sentido complementar a linha Azulene Soother com a hidratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Montar a rotina",
+            "p": [
+              "Kit básico: limpeza suave, tônico calmante, ampola ou sérum, creme e, se necessário, proteção solar. Esfoliação suave (PHA/LHA) — conforme a tolerância, com delicadeza.",
+              "Todas as linhas Dr.SANTE e os preços de atacado aproximados estão na página da marca. A Teranova ajuda a montar o sortimento para o seu mercado e acompanha a entrega."
+            ]
+          }
+        ]
+      }
+    },
+    "hero": "/img/suppliers/sante/products/azulene-soother-cream-150g.png"
+  },
+  {
+    "slug": "oily-problem-skin-care",
+    "category": "guide",
+    "date": "2026-07-28",
+    "related": [
+      "sante",
+      "cosmetics",
+      "ondemand"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Жирная и проблемная кожа: уход без пересушивания",
+        "excerpt": "Почему агрессивное обезжиривание вредит и как выстроить баланс: себорегуляция, мягкие кислоты и успокоение — на примере линеек Dr.SANTE.",
+        "seoTitle": "Уход за жирной и проблемной кожей без пересушивания · Teranova",
+        "seoDesc": "Жирная и склонная к несовершенствам кожа: как регулировать себум и работать с порами без пересушивания. Себорегуляция, PHA/LHA, увлажнение — гид Teranova на примере Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Жирную и проблемную кожу часто пересушивают агрессивными средствами — в ответ она вырабатывает ещё больше себума. Правильная стратегия — баланс: регулировать себум, мягко обновлять кожу и успокаивать воспаления."
+            ]
+          },
+          {
+            "h": "Себорегуляция без агрессии",
+            "p": [
+              "Помогают ингредиенты, которые регулируют себум и успокаивают: экстракт полыни (Artemisia), ниацинамид. По данным исследований, экстракты полыни успокаивают раздражение и проявляют антибактериальную активность (клинические данные ограничены).",
+              "У Dr.SANTE это линейка Artemisia AKA на экстракте полыни с фирменными LHA-SOL™ и AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Мягкие кислоты вместо жёстких",
+            "p": [
+              "Для проблемной кожи полезно мягкое обновление. LHA (липогидроксикислота) отшелушивает деликатно, ближе к естественному обновлению кожи, поэтому переносится лучше жёстких кислот. PHA — крупные молекулы, дают мягкую эксфолиацию с увлажнением.",
+              "Это позволяет работать с порами и текстурой без пересушивания."
+            ]
+          },
+          {
+            "h": "Не забывать про увлажнение",
+            "p": [
+              "Даже жирной коже нужна влага. Обезвоженность усиливает жирный блеск и стянутость. Лёгкое увлажнение на гиалуроновой кислоте (Hyalquad Core) балансирует кожу без утяжеления.",
+              "Успокаивающие средства с азуленом помогают при воспалениях."
+            ]
+          },
+          {
+            "h": "Собрать программу",
+            "p": [
+              "Базовый набор: мягкое очищение, себорегулирующий тонер или ампула (Artemisia AKA), лёгкое увлажнение, точечное успокоение, мягкая эксфолиация по переносимости.",
+              "Линейки и ориентировочные цены — на странице Dr.SANTE. Teranova подберёт ассортимент и организует поставку."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Oily and Problem Skin: Care Without Over-Drying",
+        "excerpt": "Why aggressive degreasing is harmful and how to build balance: sebum regulation, gentle acids and soothing — using Dr.SANTE lines as an example.",
+        "seoTitle": "Oily and Problem Skin Care Without Over-Drying · Teranova",
+        "seoDesc": "Oily and blemish-prone skin: how to regulate sebum and work with pores without over-drying. Sebum regulation, PHA/LHA, hydration — a Teranova guide using Dr.SANTE as an example.",
+        "sections": [
+          {
+            "p": [
+              "Oily and problem skin is often over-dried with aggressive products — and in response it produces even more sebum. The right strategy is balance: regulate sebum, gently renew the skin and calm inflammation."
+            ]
+          },
+          {
+            "h": "Sebum regulation without aggression",
+            "p": [
+              "Ingredients that regulate sebum and soothe help here: mugwort (Artemisia) extract, niacinamide. According to research, mugwort extracts soothe irritation and show antibacterial activity (clinical data is limited).",
+              "At Dr.SANTE this is the Artemisia AKA line based on mugwort extract, with the proprietary LHA-SOL™ and AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Gentle acids instead of harsh ones",
+            "p": [
+              "Gentle renewal is useful for problem skin. LHA (lipohydroxy acid) exfoliates delicately, closer to the skin's natural renewal, so it is tolerated better than harsh acids. PHA are large molecules that give gentle exfoliation with hydration.",
+              "This makes it possible to work with pores and texture without over-drying."
+            ]
+          },
+          {
+            "h": "Don't forget hydration",
+            "p": [
+              "Even oily skin needs moisture. Dehydration increases oily shine and tightness. Light hydration based on hyaluronic acid (Hyalquad Core) balances the skin without weighing it down.",
+              "Soothing products with azulene help with inflammation."
+            ]
+          },
+          {
+            "h": "Building the routine",
+            "p": [
+              "A basic set: gentle cleansing, a sebum-regulating toner or ampoule (Artemisia AKA), light hydration, targeted soothing, and gentle exfoliation as tolerated.",
+              "The lines and approximate prices are on the Dr.SANTE page. Teranova will select an assortment and arrange the delivery."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "지성·트러블 피부: 과도한 건조 없는 케어",
+        "excerpt": "공격적인 유분 제거가 왜 해로운지, 그리고 균형을 어떻게 잡을지: 피지 조절, 순한 산과 진정 — Dr.SANTE 라인을 예로 살펴봅니다.",
+        "seoTitle": "지성·트러블 피부, 과도한 건조 없는 케어 · Teranova",
+        "seoDesc": "지성 및 트러블이 생기기 쉬운 피부: 과도한 건조 없이 피지를 조절하고 모공을 관리하는 법. 피지 조절, PHA/LHA, 수분 공급 — Dr.SANTE를 예로 든 Teranova 가이드.",
+        "sections": [
+          {
+            "p": [
+              "지성·트러블 피부는 공격적인 제품으로 과도하게 건조시키는 경우가 많은데, 그 반작용으로 피부는 오히려 더 많은 피지를 만들어 냅니다. 올바른 전략은 균형입니다: 피지를 조절하고, 피부를 부드럽게 재생시키며, 염증을 진정시키는 것."
+            ]
+          },
+          {
+            "h": "자극 없는 피지 조절",
+            "p": [
+              "피지를 조절하고 진정시키는 성분이 도움이 됩니다: 쑥 추출물(Artemisia), 나이아신아마이드. 연구에 따르면 쑥 추출물은 자극을 진정시키고 항균 활성을 나타냅니다(임상 데이터는 제한적).",
+              "Dr.SANTE에서는 쑥 추출물 기반에 독자 성분 LHA-SOL™과 AKA-DERM™을 담은 Artemisia AKA 라인이 이에 해당합니다."
+            ]
+          },
+          {
+            "h": "강한 산 대신 순한 산",
+            "p": [
+              "트러블 피부에는 부드러운 재생이 유익합니다. LHA(리포하이드록시산)는 피부의 자연스러운 재생에 더 가깝게 섬세하게 각질을 제거하므로 강한 산보다 내약성이 좋습니다. PHA는 큰 분자로 수분 공급과 함께 순한 각질 제거를 제공합니다.",
+              "덕분에 과도한 건조 없이 모공과 결을 관리할 수 있습니다."
+            ]
+          },
+          {
+            "h": "수분 공급을 잊지 마세요",
+            "p": [
+              "지성 피부에도 수분은 필요합니다. 수분 부족은 유분기와 당김을 심화시킵니다. 히알루론산 기반의 가벼운 수분 공급(Hyalquad Core)은 무겁지 않게 피부 균형을 잡아 줍니다.",
+              "아줄렌이 함유된 진정 제품은 염증에 도움이 됩니다."
+            ]
+          },
+          {
+            "h": "프로그램 구성하기",
+            "p": [
+              "기본 구성: 순한 클렌징, 피지 조절 토너 또는 앰플(Artemisia AKA), 가벼운 수분 공급, 국소 진정, 내성에 맞춘 순한 각질 제거.",
+              "라인과 대략적인 가격은 Dr.SANTE 페이지에서 확인할 수 있습니다. Teranova가 구색을 선정하고 공급을 준비합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "油性与问题肌肤：不过度干燥的护理",
+        "excerpt": "为什么强力去油会带来伤害，以及如何建立平衡：控油、温和酸类与舒缓——以 Dr.SANTE 系列为例。",
+        "seoTitle": "油性与问题肌肤的不过度干燥护理 · Teranova",
+        "seoDesc": "油性、易长瑕疵的肌肤：如何在不过度干燥的前提下调节皮脂、改善毛孔。控油、PHA/LHA、保湿——Teranova 指南，以 Dr.SANTE 为例。",
+        "sections": [
+          {
+            "p": [
+              "油性和问题肌肤常被强效产品弄得过度干燥——作为回应，肌肤会分泌更多皮脂。正确的策略是平衡：调节皮脂、温和焕新肌肤、舒缓炎症。"
+            ]
+          },
+          {
+            "h": "温和控油，不刺激",
+            "p": [
+              "有帮助的是能调节皮脂并舒缓的成分：艾蒿（Artemisia）提取物、烟酰胺。据研究，艾蒿提取物可舒缓刺激并表现出抗菌活性（临床数据有限）。",
+              "在 Dr.SANTE 中，这就是以艾蒿提取物为基础、含品牌专利 LHA-SOL™ 与 AKA-DERM™ 的 Artemisia AKA 系列。"
+            ]
+          },
+          {
+            "h": "用温和酸类替代强效酸类",
+            "p": [
+              "对问题肌肤而言，温和焕新很有益。LHA（脂羟基酸）去角质温和，更接近肌肤的自然更新，因此比强效酸类更易耐受。PHA 是较大的分子，能在去角质的同时带来保湿。",
+              "这样便能在不过度干燥的情况下改善毛孔和肤质纹理。"
+            ]
+          },
+          {
+            "h": "别忘了保湿",
+            "p": [
+              "即便是油性肌肤也需要水分。缺水会加重油光和紧绷感。以透明质酸为基础的清爽保湿（Hyalquad Core）能在不增加负担的情况下平衡肌肤。",
+              "含薁的舒缓产品有助于应对炎症。"
+            ]
+          },
+          {
+            "h": "搭建护理方案",
+            "p": [
+              "基础组合：温和清洁、控油爽肤水或安瓶（Artemisia AKA）、清爽保湿、局部舒缓、视耐受度进行的温和去角质。",
+              "各系列及参考价格请见 Dr.SANTE 页面。Teranova 将为您甄选产品组合并安排供货。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "脂性肌・トラブル肌：乾燥させないケア",
+        "excerpt": "強い皮脂除去がなぜ逆効果なのか、そしてバランスの整え方：皮脂コントロール、穏やかな酸、鎮静を、Dr.SANTEのラインを例に解説します。",
+        "seoTitle": "脂性肌・トラブル肌の乾燥させないケア · Teranova",
+        "seoDesc": "脂性で肌トラブルが起きやすい肌：皮脂をコントロールし、乾燥させずに毛穴にアプローチする方法。皮脂コントロール、PHA/LHA、保湿を、Dr.SANTEを例にしたTeranovaのガイド。",
+        "sections": [
+          {
+            "p": [
+              "脂性肌・トラブル肌は、強い製品で乾燥させてしまうことが多く、その反動で皮脂がさらに多く分泌されます。正しい戦略はバランスです：皮脂をコントロールし、肌を穏やかにターンオーバーさせ、炎症を鎮めることです。"
+            ]
+          },
+          {
+            "h": "刺激の少ない皮脂コントロール",
+            "p": [
+              "皮脂をコントロールし、鎮静する成分が役立ちます：ヨモギエキス（Artemisia）、ナイアシンアミドなど。研究データによれば、ヨモギエキスは刺激を鎮め、抗菌作用を示します（臨床データは限られています）。",
+              "Dr.SANTEでは、ヨモギエキスを使い、独自のLHA-SOL™とAKA-DERM™を配合したArtemisia AKAラインがこれにあたります。"
+            ]
+          },
+          {
+            "h": "強い酸ではなく穏やかな酸を",
+            "p": [
+              "トラブル肌には、穏やかなターンオーバーが役立ちます。LHA（リポヒドロキシ酸）は、肌の自然なターンオーバーに近い形でデリケートに角質を除去するため、強い酸より肌になじみやすいです。PHAは大きな分子で、保湿しながら穏やかに角質ケアをします。",
+              "これにより、乾燥させることなく毛穴と肌のキメにアプローチできます。"
+            ]
+          },
+          {
+            "h": "保湿を忘れずに",
+            "p": [
+              "脂性肌にも水分は必要です。水分不足は、テカリやつっぱりを強めます。ヒアルロン酸による軽い保湿（Hyalquad Core）は、重さを感じさせずに肌のバランスを整えます。",
+              "アズレン配合の鎮静製品は、炎症のあるときに役立ちます。"
+            ]
+          },
+          {
+            "h": "プログラムを組み立てる",
+            "p": [
+              "基本セット：穏やかな洗浄、皮脂コントロールのトナーまたはアンプル（Artemisia AKA）、軽い保湿、部分的な鎮静、耐性に合わせた穏やかな角質ケア。",
+              "各ラインと参考価格は、Dr.SANTEのページに掲載しています。Teranovaは品揃えを選定し、納品を手配します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Pelle grassa e impura: cura senza seccare",
+        "excerpt": "Perché lo sgrassamento aggressivo è dannoso e come costruire l'equilibrio: seboregolazione, acidi delicati e azione lenitiva — sull'esempio delle linee Dr.SANTE.",
+        "seoTitle": "Cura della pelle grassa e impura senza seccare · Teranova",
+        "seoDesc": "Pelle grassa e a tendenza impura: come regolare il sebo e lavorare sui pori senza seccare. Seboregolazione, PHA/LHA, idratazione — guida Teranova sull'esempio di Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "La pelle grassa e impura viene spesso seccata con prodotti aggressivi e, in risposta, produce ancora più sebo. La strategia giusta è l'equilibrio: regolare il sebo, rinnovare delicatamente la pelle e lenire le infiammazioni."
+            ]
+          },
+          {
+            "h": "Seboregolazione senza aggressività",
+            "p": [
+              "Aiutano gli ingredienti che regolano il sebo e leniscono: estratto di artemisia (Artemisia), niacinamide. Secondo gli studi, gli estratti di artemisia leniscono l'irritazione e mostrano un'attività antibatterica (dati clinici limitati).",
+              "In Dr.SANTE è la linea Artemisia AKA a base di estratto di artemisia con gli esclusivi LHA-SOL™ e AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Acidi delicati al posto di quelli aggressivi",
+            "p": [
+              "Per la pelle impura è utile un rinnovamento delicato. L'LHA (acido lipoidrossilico) esfolia in modo delicato, più vicino al naturale rinnovamento della pelle, quindi è tollerato meglio degli acidi aggressivi. I PHA sono molecole grandi e offrono un'esfoliazione delicata con idratazione.",
+              "Questo permette di lavorare su pori e texture senza seccare."
+            ]
+          },
+          {
+            "h": "Non dimenticare l'idratazione",
+            "p": [
+              "Anche la pelle grassa ha bisogno di acqua. La disidratazione accentua l'effetto lucido e la sensazione di pelle che tira. Un'idratazione leggera a base di acido ialuronico (Hyalquad Core) riequilibra la pelle senza appesantire.",
+              "I prodotti lenitivi con azulene aiutano in caso di infiammazioni."
+            ]
+          },
+          {
+            "h": "Costruire la routine",
+            "p": [
+              "Kit di base: detersione delicata, tonico o fiala a effetto seboregolatore (Artemisia AKA), idratazione leggera, azione lenitiva localizzata, esfoliazione delicata secondo la tolleranza.",
+              "Le linee e i prezzi indicativi sono nella pagina Dr.SANTE. Teranova seleziona l'assortimento e organizza la fornitura."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Fettige und unreine Haut: Pflege ohne Austrocknen",
+        "excerpt": "Warum aggressives Entfetten schadet und wie man Balance schafft: Sebumregulierung, milde Säuren und Beruhigung — am Beispiel der Dr.SANTE Linien.",
+        "seoTitle": "Pflege für fettige und unreine Haut ohne Austrocknen · Teranova",
+        "seoDesc": "Fettige und zu Unreinheiten neigende Haut: wie Sie den Sebum regulieren und Poren pflegen, ohne die Haut auszutrocknen. Sebumregulierung, PHA/LHA, Feuchtigkeit — Ratgeber von Teranova am Beispiel von Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Fettige und unreine Haut wird oft mit aggressiven Produkten ausgetrocknet — als Reaktion produziert sie noch mehr Sebum. Die richtige Strategie ist Balance: den Sebum regulieren, die Haut sanft erneuern und Entzündungen beruhigen."
+            ]
+          },
+          {
+            "h": "Sebumregulierung ohne Aggression",
+            "p": [
+              "Es helfen Inhaltsstoffe, die den Sebum regulieren und beruhigen: Beifuß-Extrakt (Artemisia), Niacinamid. Studien zufolge beruhigen Beifuß-Extrakte Reizungen und zeigen antibakterielle Aktivität (klinische Daten sind begrenzt).",
+              "Bei Dr.SANTE ist das die Artemisia AKA Linie auf Basis von Beifuß-Extrakt mit den markeneigenen LHA-SOL™ und AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Milde Säuren statt aggressiver",
+            "p": [
+              "Für unreine Haut ist eine sanfte Erneuerung sinnvoll. LHA (Lipohydroxysäure) peelt behutsam, näher an der natürlichen Hauterneuerung, und wird daher besser vertragen als aggressive Säuren. PHA sind große Moleküle und bieten eine milde Exfoliation mit Feuchtigkeitspflege.",
+              "So lassen sich Poren und Hautbild bearbeiten, ohne die Haut auszutrocknen."
+            ]
+          },
+          {
+            "h": "Die Feuchtigkeitspflege nicht vergessen",
+            "p": [
+              "Auch fettige Haut braucht Feuchtigkeit. Feuchtigkeitsmangel verstärkt fettigen Glanz und Spannungsgefühl. Eine leichte Feuchtigkeitspflege auf Basis von Hyaluronsäure (Hyalquad Core) bringt die Haut ins Gleichgewicht, ohne sie zu beschweren.",
+              "Beruhigende Produkte mit Azulen helfen bei Entzündungen."
+            ]
+          },
+          {
+            "h": "Die Routine zusammenstellen",
+            "p": [
+              "Basis-Set: milde Reinigung, sebumregulierender Toner oder Ampulle (Artemisia AKA), leichte Feuchtigkeitspflege, punktuelle Beruhigung, sanfte Exfoliation nach Verträglichkeit.",
+              "Die Linien und ungefähren Preise finden Sie auf der Dr.SANTE Seite. Teranova stellt das Sortiment zusammen und organisiert die Lieferung."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Peau grasse et à problèmes : un soin sans dessèchement",
+        "excerpt": "Pourquoi un dégraissage agressif est néfaste et comment trouver l'équilibre : régulation du sébum, acides doux et apaisement — à travers l'exemple des gammes Dr.SANTE.",
+        "seoTitle": "Soin de la peau grasse et à problèmes sans dessèchement · Teranova",
+        "seoDesc": "Peau grasse et sujette aux imperfections : comment réguler le sébum et travailler les pores sans dessécher. Régulation du sébum, PHA/LHA, hydratation — guide Teranova à travers l'exemple de Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "La peau grasse et à problèmes est souvent desséchée par des produits agressifs — en réponse, elle produit encore plus de sébum. La bonne stratégie, c'est l'équilibre : réguler le sébum, renouveler la peau en douceur et apaiser les inflammations."
+            ]
+          },
+          {
+            "h": "Réguler le sébum sans agresser",
+            "p": [
+              "Les ingrédients qui régulent le sébum et apaisent sont utiles : l'extrait d'armoise (Artemisia), le niacinamide. Selon des études, les extraits d'armoise apaisent les irritations et présentent une activité antibactérienne (données cliniques limitées).",
+              "Chez Dr.SANTE, c'est la gamme Artemisia AKA à base d'extrait d'armoise, avec les complexes signature LHA-SOL™ et AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Des acides doux plutôt que des acides forts",
+            "p": [
+              "Pour une peau à problèmes, un renouvellement doux est bénéfique. Le LHA (acide lipo-hydroxylé) exfolie délicatement, au plus près du renouvellement naturel de la peau, il est donc mieux toléré que les acides forts. Les PHA, de grosses molécules, offrent une exfoliation douce avec de l'hydratation.",
+              "Cela permet de travailler les pores et le grain de peau sans dessécher."
+            ]
+          },
+          {
+            "h": "Ne pas oublier l'hydratation",
+            "p": [
+              "Même une peau grasse a besoin d'eau. La déshydratation accentue la brillance et les tiraillements. Une hydratation légère à base d'acide hyaluronique (Hyalquad Core) rééquilibre la peau sans l'alourdir.",
+              "Les produits apaisants à l'azulène aident en cas d'inflammations."
+            ]
+          },
+          {
+            "h": "Composer la routine",
+            "p": [
+              "Kit de base : nettoyage doux, tonique ou ampoule séborégulateurs (Artemisia AKA), hydratation légère, apaisement localisé, exfoliation douce selon la tolérance.",
+              "Les gammes et les prix indicatifs sont sur la page Dr.SANTE. Teranova sélectionne l'assortiment et organise la livraison."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Yağlı ve problemli cilt: aşırı kurutmadan bakım",
+        "excerpt": "Agresif yağ almanın neden zararlı olduğu ve dengenin nasıl kurulacağı: sebum düzenlemesi, nazik asitler ve yatıştırma — Dr.SANTE serileri örneğinde.",
+        "seoTitle": "Yağlı ve problemli cilt bakımı, aşırı kurutmadan · Teranova",
+        "seoDesc": "Yağlı ve kusurlara eğilimli cilt: sebumu nasıl düzenlemeli ve gözeneklerle cildi aşırı kurutmadan nasıl çalışmalı. Sebum düzenlemesi, PHA/LHA, nemlendirme — Dr.SANTE örneğinde Teranova rehberi.",
+        "sections": [
+          {
+            "p": [
+              "Yağlı ve problemli cilt sıklıkla agresif ürünlerle aşırı kurutulur — buna karşılık cilt daha da fazla sebum üretir. Doğru strateji dengedir: sebumu düzenlemek, cildi nazikçe yenilemek ve iltihapları yatıştırmak."
+            ]
+          },
+          {
+            "h": "Agresif olmadan sebum düzenlemesi",
+            "p": [
+              "Sebumu düzenleyen ve yatıştıran içerikler yardımcı olur: pelin otu (Artemisia) ekstresi, niasinamid. Araştırmalara göre pelin otu ekstreleri tahrişi yatıştırır ve antibakteriyel aktivite gösterir (klinik veriler sınırlıdır).",
+              "Dr.SANTE'de bu, özel LHA-SOL™ ve AKA-DERM™ içeren, pelin otu ekstresi bazlı Artemisia AKA serisidir."
+            ]
+          },
+          {
+            "h": "Sert asitler yerine nazik asitler",
+            "p": [
+              "Problemli cilt için nazik yenilenme faydalıdır. LHA (lipohidroksi asit) hassas biçimde, cildin doğal yenilenmesine daha yakın şekilde arındırır, bu nedenle sert asitlere göre daha iyi tolere edilir. PHA — büyük moleküllerdir, nemlendirmeyle birlikte nazik eksfoliasyon sağlar.",
+              "Bu, gözenekler ve cilt dokusuyla cildi aşırı kurutmadan çalışmayı sağlar."
+            ]
+          },
+          {
+            "h": "Nemlendirmeyi unutmamak",
+            "p": [
+              "Yağlı cilt bile neme ihtiyaç duyar. Nem kaybı, yağlı parlaklığı ve gerginliği artırır. Hyalüronik asit bazlı hafif nemlendirme (Hyalquad Core) cildi ağırlaştırmadan dengeler.",
+              "Azulen içeren yatıştırıcı ürünler iltihaplı durumlarda yardımcı olur."
+            ]
+          },
+          {
+            "h": "Programı oluşturmak",
+            "p": [
+              "Temel set: nazik temizlik, sebum düzenleyici tonik veya ampul (Artemisia AKA), hafif nemlendirme, noktasal yatıştırma ve toleransa göre nazik eksfoliasyon.",
+              "Seriler ve yaklaşık fiyatlar Dr.SANTE sayfasındadır. Teranova ürün yelpazesini seçer ve tedariki organize eder."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Piel grasa y con imperfecciones: cuidado sin resecar",
+        "excerpt": "Por qué el desengrasado agresivo perjudica y cómo construir el equilibrio: seborregulación, ácidos suaves y calma, con las líneas de Dr.SANTE como ejemplo.",
+        "seoTitle": "Cuidado de la piel grasa y con imperfecciones sin resecar · Teranova",
+        "seoDesc": "Piel grasa y propensa a las imperfecciones: cómo regular el sebo y trabajar los poros sin resecar. Seborregulación, PHA/LHA, hidratación — guía de Teranova con Dr.SANTE como ejemplo.",
+        "sections": [
+          {
+            "p": [
+              "A la piel grasa y con imperfecciones a menudo la resecan con productos agresivos y, en respuesta, produce aún más sebo. La estrategia correcta es el equilibrio: regular el sebo, renovar la piel con suavidad y calmar las inflamaciones."
+            ]
+          },
+          {
+            "h": "Seborregulación sin agresión",
+            "p": [
+              "Ayudan los ingredientes que regulan el sebo y calman: extracto de artemisa (Artemisia), niacinamida. Según estudios, los extractos de artemisa calman la irritación y muestran actividad antibacteriana (los datos clínicos son limitados).",
+              "En Dr.SANTE es la línea Artemisia AKA a base de extracto de artemisa, con los exclusivos LHA-SOL™ y AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Ácidos suaves en lugar de fuertes",
+            "p": [
+              "Para la piel con imperfecciones es útil una renovación suave. El LHA (ácido lipohidroxi) exfolia con delicadeza, más cerca de la renovación natural de la piel, por eso se tolera mejor que los ácidos fuertes. Los PHA son moléculas grandes que aportan una exfoliación suave con hidratación.",
+              "Esto permite trabajar los poros y la textura sin resecar."
+            ]
+          },
+          {
+            "h": "No olvidar la hidratación",
+            "p": [
+              "Incluso la piel grasa necesita humedad. La deshidratación aumenta el brillo graso y la tirantez. Una hidratación ligera a base de ácido hialurónico (Hyalquad Core) equilibra la piel sin recargarla.",
+              "Los productos calmantes con azuleno ayudan con las inflamaciones."
+            ]
+          },
+          {
+            "h": "Armar la rutina",
+            "p": [
+              "El kit básico: limpieza suave, tónico o ampolla seborreguladores (Artemisia AKA), hidratación ligera, calma localizada y exfoliación suave según la tolerancia.",
+              "Las líneas y los precios orientativos están en la página de Dr.SANTE. Teranova selecciona el surtido y organiza el suministro."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Pele oleosa e problemática: cuidado sem ressecar",
+        "excerpt": "Por que a remoção agressiva da oleosidade prejudica e como construir equilíbrio: seborregulação, ácidos suaves e efeito calmante — usando as linhas Dr.SANTE como exemplo.",
+        "seoTitle": "Cuidados com a pele oleosa e problemática sem ressecar · Teranova",
+        "seoDesc": "Pele oleosa e com tendência a imperfeições: como regular o sebo e trabalhar os poros sem ressecar. Seborregulação, PHA/LHA, hidratação — guia da Teranova usando a Dr.SANTE como exemplo.",
+        "sections": [
+          {
+            "p": [
+              "A pele oleosa e problemática costuma ser ressecada por produtos agressivos — e, em resposta, ela produz ainda mais sebo. A estratégia certa é o equilíbrio: regular o sebo, renovar a pele com suavidade e acalmar as inflamações."
+            ]
+          },
+          {
+            "h": "Seborregulação sem agressão",
+            "p": [
+              "Ajudam os ingredientes que regulam o sebo e acalmam: extrato de artemísia (Artemisia), niacinamida. Segundo estudos, os extratos de artemísia acalmam a irritação e apresentam atividade antibacteriana (os dados clínicos são limitados).",
+              "Na Dr.SANTE, é a linha Artemisia AKA à base de extrato de artemísia, com os exclusivos LHA-SOL™ e AKA-DERM™."
+            ]
+          },
+          {
+            "h": "Ácidos suaves no lugar dos agressivos",
+            "p": [
+              "Para a pele problemática, uma renovação suave é benéfica. O LHA (ácido lipo-hidroxi) esfolia de forma delicada, mais próxima da renovação natural da pele, por isso é mais bem tolerado que os ácidos agressivos. O PHA tem moléculas grandes e proporciona uma esfoliação suave com hidratação.",
+              "Isso permite trabalhar os poros e a textura sem ressecar."
+            ]
+          },
+          {
+            "h": "Não esquecer da hidratação",
+            "p": [
+              "Até a pele oleosa precisa de umidade. A desidratação intensifica o brilho oleoso e o repuxamento. Uma hidratação leve à base de ácido hialurônico (Hyalquad Core) equilibra a pele sem pesar.",
+              "Produtos calmantes com azuleno ajudam nas inflamações."
+            ]
+          },
+          {
+            "h": "Montar a rotina",
+            "p": [
+              "Kit básico: limpeza suave, tônico ou ampola de seborregulação (Artemisia AKA), hidratação leve, ação calmante localizada e esfoliação suave conforme a tolerância.",
+              "As linhas e os preços aproximados estão na página da Dr.SANTE. A Teranova seleciona o sortimento e organiza a entrega."
+            ]
+          }
+        ]
+      }
+    },
+    "hero": "/img/suppliers/sante/products/aka-semi-gel-mask-5ea.png"
+  },
+  {
+    "slug": "anti-age-hydration",
+    "category": "guide",
+    "date": "2026-07-28",
+    "related": [
+      "sante",
+      "cosmetics",
+      "ondemand"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Возрастной уход: упругость и глубокое увлажнение",
+        "excerpt": "Что реально работает в возрастном уходе и как сочетать упругость с увлажнением — честно, на примере линеек Dr.SANTE.",
+        "seoTitle": "Возрастной уход: упругость и увлажнение — честный гид · Teranova",
+        "seoDesc": "Возрастной уход за кожей: что реально дают коллаген и гиалуроновая кислота, как сочетать упругость и глубокое увлажнение. Честный гид Teranova на примере линеек Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Возрастной уход окружён завышенными обещаниями. Разберём честно, что действительно работает в наружной косметике для зрелой кожи, и как сочетать упругость с увлажнением."
+            ]
+          },
+          {
+            "h": "Что реально даёт коллаген",
+            "p": [
+              "Наружный коллаген не проникает в дерму и не достраивает собственный коллаген кожи. На поверхности он работает как плёнкообразователь и увлажнитель: удерживает влагу, временно разглаживает и делает кожу визуально более наполненной. Гидролизованный коллаген (пептиды) используют для увлажнения и текстуры.",
+              "Честный ожидаемый эффект — увлажнение, гладкость и ухоженный вид, а не структурное омоложение. Такие формулировки повышают доверие покупателя."
+            ]
+          },
+          {
+            "h": "Увлажнение как база",
+            "p": [
+              "С возрастом кожа теряет влагу активнее. Гиалуроновая кислота удерживает воду, а комплексы разного молекулярного веса увлажняют на нескольких уровнях (по данным производителей). Хорошо увлажнённая кожа выглядит более упругой и гладкой.",
+              "Линейку Collagen Leader логично сочетать с увлажняющей Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Поддержка барьера",
+            "p": [
+              "Ниацинамид, пантенол и церамиды поддерживают барьер и общее состояние зрелой кожи. Ниацинамид (витамин B3) также работает с тоном и пигментацией.",
+              "Успокаивающие компоненты (азулен) полезны, если зрелая кожа склонна к чувствительности."
+            ]
+          },
+          {
+            "h": "Собрать программу",
+            "p": [
+              "Базовый набор: очищение, увлажняющий тонер, ампула (коллаген или гиалурон), крем, маска-ритуал. Реалистичные ожидания — ключ к довольному клиенту.",
+              "Линейки Collagen Leader и Hyalquad Core и ориентировочные цены — на странице Dr.SANTE. Teranova поможет собрать программу и организует поставку."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Anti-Age Care: Firmness and Deep Hydration",
+        "excerpt": "What really works in anti-age care and how to combine firmness with hydration — honestly, using Dr.SANTE lines as an example.",
+        "seoTitle": "Anti-Age Care: Firmness and Hydration — An Honest Guide · Teranova",
+        "seoDesc": "Anti-age skincare: what collagen and hyaluronic acid really provide, and how to combine firmness with deep hydration. An honest Teranova guide using Dr.SANTE lines as an example.",
+        "sections": [
+          {
+            "p": [
+              "Anti-age care is surrounded by inflated promises. Let's go over honestly what actually works in topical cosmetics for mature skin, and how to combine firmness with hydration."
+            ]
+          },
+          {
+            "h": "What collagen actually provides",
+            "p": [
+              "Topical collagen does not penetrate into the dermis and does not rebuild the skin's own collagen. On the surface it works as a film-former and humectant: it retains moisture, temporarily smooths and makes the skin look visually plumper. Hydrolyzed collagen (peptides) is used for hydration and texture.",
+              "The honest expected effect is hydration, smoothness and a well-groomed look — not structural rejuvenation. Wording like this builds customer trust."
+            ]
+          },
+          {
+            "h": "Hydration as the foundation",
+            "p": [
+              "With age, skin loses moisture more readily. Hyaluronic acid retains water, and complexes of different molecular weights hydrate on several levels (according to manufacturers). Well-hydrated skin looks firmer and smoother.",
+              "It makes sense to combine the Collagen Leader line with the hydrating Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Barrier support",
+            "p": [
+              "Niacinamide, panthenol and ceramides support the barrier and the overall condition of mature skin. Niacinamide (vitamin B3) also works on tone and pigmentation.",
+              "Soothing ingredients (azulene) are useful if mature skin is prone to sensitivity."
+            ]
+          },
+          {
+            "h": "Building the routine",
+            "p": [
+              "A basic set: cleansing, a hydrating toner, an ampoule (collagen or hyaluronic acid), a cream, a mask ritual. Realistic expectations are the key to a satisfied customer.",
+              "The Collagen Leader and Hyalquad Core lines and approximate prices are on the Dr.SANTE page. Teranova will help you assemble the routine and arrange the delivery."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "안티에이징 케어: 탄력과 깊은 수분 공급",
+        "excerpt": "안티에이징 케어에서 실제로 효과가 있는 것은 무엇이고 탄력과 수분 공급을 어떻게 결합할지 — 솔직하게, Dr.SANTE 라인을 예로 살펴봅니다.",
+        "seoTitle": "안티에이징 케어: 탄력과 수분 공급 — 솔직한 가이드 · Teranova",
+        "seoDesc": "안티에이징 스킨케어: 콜라겐과 히알루론산이 실제로 무엇을 주는지, 탄력과 깊은 수분 공급을 어떻게 결합할지. Dr.SANTE 라인을 예로 든 Teranova의 솔직한 가이드.",
+        "sections": [
+          {
+            "p": [
+              "안티에이징 케어는 과장된 약속으로 둘러싸여 있습니다. 성숙한 피부를 위한 바르는 화장품에서 실제로 효과가 있는 것이 무엇인지, 그리고 탄력과 수분 공급을 어떻게 결합할지 솔직하게 살펴봅니다."
+            ]
+          },
+          {
+            "h": "콜라겐이 실제로 주는 것",
+            "p": [
+              "바르는 콜라겐은 진피까지 침투하지 않으며 피부 자체의 콜라겐을 새로 만들어 주지 않습니다. 표면에서는 피막 형성제이자 보습제로 작용합니다: 수분을 붙잡고, 일시적으로 매끈하게 하며, 피부를 시각적으로 더 탱탱해 보이게 합니다. 가수분해 콜라겐(펩타이드)은 수분 공급과 결 개선에 쓰입니다.",
+              "솔직하게 기대할 수 있는 효과는 구조적 회춘이 아니라 수분 공급, 매끄러움, 잘 관리된 인상입니다. 이러한 표현은 구매자의 신뢰를 높여 줍니다."
+            ]
+          },
+          {
+            "h": "기본은 수분 공급",
+            "p": [
+              "나이가 들수록 피부는 수분을 더 빨리 잃습니다. 히알루론산은 수분을 붙잡아 두고, 서로 다른 분자량의 복합체는 여러 층위에서 수분을 공급합니다(제조사 자료에 따름). 수분이 충분한 피부는 더 탄력 있고 매끄러워 보입니다.",
+              "Collagen Leader 라인은 수분 공급 라인인 Hyalquad Core와 조합하는 것이 합리적입니다."
+            ]
+          },
+          {
+            "h": "장벽 지지",
+            "p": [
+              "나이아신아마이드, 판테놀, 세라마이드는 장벽과 성숙한 피부의 전반적인 상태를 지지합니다. 나이아신아마이드(비타민 B3)는 피부 톤과 색소 침착에도 작용합니다.",
+              "진정 성분(아줄렌)은 성숙한 피부가 민감성을 띠기 쉬운 경우에 유용합니다."
+            ]
+          },
+          {
+            "h": "프로그램 구성하기",
+            "p": [
+              "기본 구성: 클렌징, 수분 토너, 앰플(콜라겐 또는 히알루론산), 크림, 마스크 리추얼. 현실적인 기대치는 만족한 고객으로 가는 열쇠입니다.",
+              "Collagen Leader와 Hyalquad Core 라인, 그리고 대략적인 가격은 Dr.SANTE 페이지에서 확인할 수 있습니다. Teranova가 프로그램 구성을 돕고 공급을 준비합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "抗龄护理：紧致与深层保湿",
+        "excerpt": "抗龄护理中真正有效的是什么，以及如何将紧致与保湿结合——如实相告，以 Dr.SANTE 系列为例。",
+        "seoTitle": "抗龄护理：紧致与保湿——诚实指南 · Teranova",
+        "seoDesc": "肌肤抗龄护理：胶原蛋白和透明质酸真正能带来什么，如何兼顾紧致与深层保湿。Teranova 诚实指南，以 Dr.SANTE 系列为例。",
+        "sections": [
+          {
+            "p": [
+              "抗龄护理充斥着夸大的承诺。我们如实来分析：针对成熟肌肤的外用护肤品中，究竟什么真正有效，以及如何将紧致与保湿结合起来。"
+            ]
+          },
+          {
+            "h": "胶原蛋白真正能带来什么",
+            "p": [
+              "外用胶原蛋白无法渗入真皮，也不会补充肌肤自身的胶原蛋白。它在肌肤表面作为成膜剂和保湿成分发挥作用：锁住水分、暂时抚平肌肤，让肌肤在视觉上更显饱满。水解胶原蛋白（肽）则用于保湿和改善肤质纹理。",
+              "如实来说，可预期的效果是保湿、平滑和精致的外观，而非结构性的年轻化。这样的表述能提升顾客的信任。"
+            ]
+          },
+          {
+            "h": "以保湿为基础",
+            "p": [
+              "随着年龄增长，肌肤流失水分的速度加快。透明质酸能锁住水分，不同分子量的复合物可在多个层面提供保湿（据生产商数据）。水分充足的肌肤看起来更紧致、更平滑。",
+              "将 Collagen Leader 系列与保湿的 Hyalquad Core 系列搭配使用，是合理的组合。"
+            ]
+          },
+          {
+            "h": "支持肌肤屏障",
+            "p": [
+              "烟酰胺、泛醇和神经酰胺有助于支持肌肤屏障和成熟肌肤的整体状态。烟酰胺（维生素 B3）还能改善肤色和色素沉着。",
+              "如果成熟肌肤容易敏感，舒缓成分（薁）会很有帮助。"
+            ]
+          },
+          {
+            "h": "搭建护理方案",
+            "p": [
+              "基础组合：清洁、保湿爽肤水、安瓶（胶原蛋白或透明质酸）、面霜、面膜仪式护理。切合实际的预期，是让顾客满意的关键。",
+              "Collagen Leader 和 Hyalquad Core 系列及参考价格请见 Dr.SANTE 页面。Teranova 将协助您搭建护理方案并安排供货。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "エイジングケア：ハリと深い保湿",
+        "excerpt": "エイジングケアで実際に効果があるものと、ハリと保湿を両立させる方法を、Dr.SANTEのラインを例に率直に解説します。",
+        "seoTitle": "エイジングケア：ハリと保湿の率直なガイド · Teranova",
+        "seoDesc": "肌のエイジングケア：コラーゲンとヒアルロン酸が実際に肌にもたらすもの、ハリと深い保湿を両立させる方法。Dr.SANTEのラインを例にしたTeranovaの率直なガイド。",
+        "sections": [
+          {
+            "p": [
+              "エイジングケアは、誇張された約束に囲まれています。成熟した肌向けの外用化粧品で本当に効果があるもの、そしてハリと保湿を両立させる方法を、率直に見ていきましょう。"
+            ]
+          },
+          {
+            "h": "コラーゲンが実際にもたらすもの",
+            "p": [
+              "外用のコラーゲンは真皮まで浸透せず、肌自身のコラーゲンを補うこともありません。表面では皮膜形成剤・保湿剤として働き、水分を保ち、一時的に肌をなめらかにし、見た目にハリのある印象にします。加水分解コラーゲン（ペプチド）は、保湿とテクスチャーのために使われます。",
+              "率直に期待できる効果は、保湿、なめらかさ、手入れの行き届いた見た目であり、構造的な若返りではありません。こうした伝え方は、買い手の信頼を高めます。"
+            ]
+          },
+          {
+            "h": "保湿を土台に",
+            "p": [
+              "年齢とともに、肌は水分をより失いやすくなります。ヒアルロン酸は水分を保ち、分子量の異なる複合体は複数の層で保湿します（メーカーのデータによる）。十分に保湿された肌は、よりハリがあり、なめらかに見えます。",
+              "Collagen Leaderラインは、保湿のHyalquad Coreと組み合わせるのが理にかなっています。"
+            ]
+          },
+          {
+            "h": "バリアのサポート",
+            "p": [
+              "ナイアシンアミド、パンテノール、セラミドは、バリアと成熟した肌の全体的な状態を支えます。ナイアシンアミド（ビタミンB3）は、肌の色ムラや色素沈着にも働きかけます。",
+              "成熟した肌が敏感に傾きやすい場合は、鎮静成分（アズレン）が役立ちます。"
+            ]
+          },
+          {
+            "h": "プログラムを組み立てる",
+            "p": [
+              "基本セット：洗浄、保湿トナー、アンプル（コラーゲンまたはヒアルロン酸）、クリーム、マスクのリチュアル。現実的な期待こそが、満足する顧客への鍵です。",
+              "Collagen LeaderとHyalquad Coreの各ラインと参考価格は、Dr.SANTEのページに掲載しています。Teranovaはプログラムの構築をお手伝いし、納品を手配します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Cura anti-età: compattezza e idratazione profonda",
+        "excerpt": "Cosa funziona davvero nella cura anti-età e come unire compattezza e idratazione — con onestà, sull'esempio delle linee Dr.SANTE.",
+        "seoTitle": "Cura anti-età: compattezza e idratazione — guida onesta · Teranova",
+        "seoDesc": "Cura anti-età della pelle: cosa danno davvero il collagene e l'acido ialuronico, come unire compattezza e idratazione profonda. Guida onesta Teranova sull'esempio delle linee Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "La cura anti-età è circondata da promesse esagerate. Vediamo con onestà cosa funziona davvero nella cosmetica topica per la pelle matura e come unire compattezza e idratazione."
+            ]
+          },
+          {
+            "h": "Cosa dà davvero il collagene",
+            "p": [
+              "Il collagene topico non penetra nel derma e non ricostruisce il collagene proprio della pelle. In superficie agisce da agente filmogeno e idratante: trattiene l'acqua, leviga temporaneamente e rende la pelle visivamente più piena. Il collagene idrolizzato (peptidi) si usa per l'idratazione e la texture.",
+              "L'effetto atteso, in modo onesto, è idratazione, levigatezza e aspetto curato, non un ringiovanimento strutturale. Una comunicazione di questo tipo aumenta la fiducia del cliente."
+            ]
+          },
+          {
+            "h": "L'idratazione come base",
+            "p": [
+              "Con l'età la pelle perde acqua più rapidamente. L'acido ialuronico trattiene l'acqua e i complessi a diverso peso molecolare idratano su più livelli (secondo i produttori). Una pelle ben idratata appare più compatta e liscia.",
+              "La linea Collagen Leader si abbina logicamente all'idratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Sostegno della barriera",
+            "p": [
+              "La niacinamide, il pantenolo e le ceramidi sostengono la barriera e le condizioni generali della pelle matura. La niacinamide (vitamina B3) agisce anche sul tono e sulla pigmentazione.",
+              "I componenti lenitivi (azulene) sono utili se la pelle matura tende alla sensibilità."
+            ]
+          },
+          {
+            "h": "Costruire la routine",
+            "p": [
+              "Kit di base: detersione, tonico idratante, fiala (collagene o acido ialuronico), crema, maschera rituale. Aspettative realistiche: la chiave per un cliente soddisfatto.",
+              "Le linee Collagen Leader e Hyalquad Core e i prezzi indicativi sono nella pagina Dr.SANTE. Teranova aiuta a comporre la routine e organizza la fornitura."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Anti-Aging-Pflege: Festigkeit und intensive Feuchtigkeit",
+        "excerpt": "Was in der Anti-Aging-Pflege wirklich wirkt und wie man Festigkeit mit Feuchtigkeit verbindet — ehrlich, am Beispiel der Dr.SANTE Linien.",
+        "seoTitle": "Anti-Aging-Pflege: Festigkeit und Feuchtigkeit — ehrlicher Ratgeber · Teranova",
+        "seoDesc": "Anti-Aging-Hautpflege: was Kollagen und Hyaluronsäure wirklich leisten, wie Sie Festigkeit und intensive Feuchtigkeit verbinden. Ehrlicher Ratgeber von Teranova am Beispiel der Dr.SANTE Linien.",
+        "sections": [
+          {
+            "p": [
+              "Die Anti-Aging-Pflege ist von überzogenen Versprechen umgeben. Wir erklären ehrlich, was in der äußerlichen Kosmetik für reife Haut wirklich wirkt und wie man Festigkeit mit Feuchtigkeit verbindet."
+            ]
+          },
+          {
+            "h": "Was Kollagen wirklich leistet",
+            "p": [
+              "Äußerlich aufgetragenes Kollagen dringt nicht in die Dermis ein und baut das körpereigene Kollagen der Haut nicht auf. An der Oberfläche wirkt es als Filmbildner und Feuchtigkeitsspender: Es bindet Feuchtigkeit, glättet vorübergehend und lässt die Haut optisch praller wirken. Hydrolysiertes Kollagen (Peptide) wird für Feuchtigkeit und Hautbild verwendet.",
+              "Der ehrlich zu erwartende Effekt ist Feuchtigkeit, Glätte und ein gepflegtes Aussehen — keine strukturelle Verjüngung. Solche Formulierungen stärken das Vertrauen der Kundschaft."
+            ]
+          },
+          {
+            "h": "Feuchtigkeit als Grundlage",
+            "p": [
+              "Mit dem Alter verliert die Haut zunehmend Feuchtigkeit. Hyaluronsäure bindet Wasser, und Komplexe mit unterschiedlichem Molekulargewicht spenden Feuchtigkeit auf mehreren Ebenen (nach Angaben der Hersteller). Gut mit Feuchtigkeit versorgte Haut wirkt praller und glatter.",
+              "Die Collagen Leader Linie lässt sich sinnvoll mit der feuchtigkeitsspendenden Hyalquad Core kombinieren."
+            ]
+          },
+          {
+            "h": "Unterstützung der Hautbarriere",
+            "p": [
+              "Niacinamid, Panthenol und Ceramide unterstützen die Hautbarriere und den allgemeinen Zustand reifer Haut. Niacinamid (Vitamin B3) wirkt außerdem auf Hautton und Pigmentierung.",
+              "Beruhigende Inhaltsstoffe (Azulen) sind sinnvoll, wenn reife Haut zu Empfindlichkeit neigt."
+            ]
+          },
+          {
+            "h": "Die Routine zusammenstellen",
+            "p": [
+              "Basis-Set: Reinigung, feuchtigkeitsspendender Toner, Ampulle (Kollagen oder Hyaluron), Creme, Masken-Ritual. Realistische Erwartungen sind der Schlüssel zu zufriedenen Kundinnen und Kunden.",
+              "Die Linien Collagen Leader und Hyalquad Core sowie ungefähre Preise finden Sie auf der Dr.SANTE Seite. Teranova hilft Ihnen, die Routine zusammenzustellen, und organisiert die Lieferung."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Soin anti-âge : fermeté et hydratation en profondeur",
+        "excerpt": "Ce qui fonctionne réellement dans le soin anti-âge et comment associer fermeté et hydratation — en toute honnêteté, à travers l'exemple des gammes Dr.SANTE.",
+        "seoTitle": "Soin anti-âge : fermeté et hydratation — un guide honnête · Teranova",
+        "seoDesc": "Soin anti-âge de la peau : ce que le collagène et l'acide hyaluronique apportent réellement, comment associer fermeté et hydratation en profondeur. Guide honnête Teranova à travers l'exemple des gammes Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Le soin anti-âge est entouré de promesses exagérées. Voyons honnêtement ce qui fonctionne vraiment dans les cosmétiques topiques pour peau mature, et comment associer fermeté et hydratation."
+            ]
+          },
+          {
+            "h": "Ce que le collagène apporte réellement",
+            "p": [
+              "Le collagène appliqué en surface ne pénètre pas dans le derme et ne reconstitue pas le collagène propre de la peau. En surface, il agit comme filmogène et agent hydratant : il retient l'eau, lisse temporairement et rend la peau visuellement plus repulpée. Le collagène hydrolysé (peptides) est utilisé pour l'hydratation et le grain de peau.",
+              "L'effet attendu, en toute honnêteté, c'est l'hydratation, la douceur et un aspect soigné, et non un rajeunissement structurel. Ce type de formulation renforce la confiance de l'acheteur."
+            ]
+          },
+          {
+            "h": "L'hydratation comme base",
+            "p": [
+              "Avec l'âge, la peau perd l'eau plus rapidement. L'acide hyaluronique retient l'eau, et les complexes de différents poids moléculaires hydratent à plusieurs niveaux (selon les fabricants). Une peau bien hydratée paraît plus ferme et plus lisse.",
+              "Il est logique d'associer la gamme Collagen Leader à la gamme hydratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Soutenir la barrière cutanée",
+            "p": [
+              "Le niacinamide, le panthénol et les céramides soutiennent la barrière cutanée et l'état général de la peau mature. Le niacinamide (vitamine B3) agit aussi sur le teint et la pigmentation.",
+              "Les ingrédients apaisants (azulène) sont utiles si la peau mature a tendance à être sensible."
+            ]
+          },
+          {
+            "h": "Composer la routine",
+            "p": [
+              "Kit de base : nettoyage, tonique hydratant, ampoule (collagène ou acide hyaluronique), crème, masque-rituel. Des attentes réalistes sont la clé d'un client satisfait.",
+              "Les gammes Collagen Leader et Hyalquad Core ainsi que les prix indicatifs sont sur la page Dr.SANTE. Teranova vous aide à composer la routine et organise la livraison."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Yaşa bağlı bakım: sıkılık ve derin nemlendirme",
+        "excerpt": "Yaşa bağlı bakımda gerçekten işe yarayan ne ve sıkılıkla nemlendirme nasıl birleştirilir — dürüstçe, Dr.SANTE serileri örneğinde.",
+        "seoTitle": "Yaşa bağlı bakım: sıkılık ve nemlendirme — dürüst rehber · Teranova",
+        "seoDesc": "Yaşa bağlı cilt bakımı: kolajen ve hyalüronik asit gerçekte ne verir, sıkılık ve derin nemlendirme nasıl birleştirilir. Dr.SANTE serileri örneğinde Teranova'nın dürüst rehberi.",
+        "sections": [
+          {
+            "p": [
+              "Yaşa bağlı bakım abartılı vaatlerle çevrilidir. Olgun cilt için dış kozmetikte gerçekten neyin işe yaradığını ve sıkılıkla nemlendirmenin nasıl birleştirileceğini dürüstçe inceleyelim."
+            ]
+          },
+          {
+            "h": "Kolajen gerçekte ne verir",
+            "p": [
+              "Dıştan uygulanan kolajen dermise nüfuz etmez ve cildin kendi kolajenini yeniden inşa etmez. Yüzeyde film oluşturucu ve nemlendirici olarak çalışır: nemi tutar, geçici olarak pürüzsüzleştirir ve cildi görsel olarak daha dolgun gösterir. Hidrolize kolajen (peptitler) nemlendirme ve doku için kullanılır.",
+              "Dürüst beklenen etki — yapısal gençleşme değil, nemlendirme, pürüzsüzlük ve bakımlı bir görünümdür. Bu tür ifadeler alıcının güvenini artırır."
+            ]
+          },
+          {
+            "h": "Temel olarak nemlendirme",
+            "p": [
+              "Yaşla birlikte cilt nemi daha hızlı kaybeder. Hyalüronik asit suyu tutar, farklı moleküler ağırlıktaki kompleksler ise cildi birkaç seviyede nemlendirir (üretici verilerine göre). İyi nemlendirilmiş cilt daha sıkı ve pürüzsüz görünür.",
+              "Collagen Leader serisini nemlendirici Hyalquad Core ile birleştirmek mantıklıdır."
+            ]
+          },
+          {
+            "h": "Bariyer desteği",
+            "p": [
+              "Niasinamid, pantenol ve seramidler bariyeri ve olgun cildin genel durumunu destekler. Niasinamid (B3 vitamini) ayrıca ton ve pigmentasyon üzerinde de çalışır.",
+              "Yatıştırıcı bileşenler (azulen), olgun cilt hassasiyete eğilimliyse faydalıdır."
+            ]
+          },
+          {
+            "h": "Programı oluşturmak",
+            "p": [
+              "Temel set: temizlik, nemlendirici tonik, ampul (kolajen veya hyalüron), krem ve maske ritüeli. Gerçekçi beklentiler, memnun müşterinin anahtarıdır.",
+              "Collagen Leader ve Hyalquad Core serileri ve yaklaşık fiyatlar Dr.SANTE sayfasındadır. Teranova programı oluşturmaya yardımcı olur ve tedariki organize eder."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Cuidado antiedad: firmeza e hidratación profunda",
+        "excerpt": "Qué funciona de verdad en el cuidado antiedad y cómo combinar firmeza e hidratación, con honestidad y con las líneas de Dr.SANTE como ejemplo.",
+        "seoTitle": "Cuidado antiedad: firmeza e hidratación — guía honesta · Teranova",
+        "seoDesc": "Cuidado antiedad de la piel: qué aportan de verdad el colágeno y el ácido hialurónico, cómo combinar firmeza e hidratación profunda. Guía honesta de Teranova con las líneas de Dr.SANTE como ejemplo.",
+        "sections": [
+          {
+            "p": [
+              "El cuidado antiedad está rodeado de promesas exageradas. Veamos con honestidad qué funciona de verdad en la cosmética tópica para la piel madura y cómo combinar firmeza e hidratación."
+            ]
+          },
+          {
+            "h": "Qué aporta de verdad el colágeno",
+            "p": [
+              "El colágeno tópico no penetra en la dermis ni reconstruye el propio colágeno de la piel. En la superficie actúa como formador de película y agente hidratante: retiene la humedad, alisa de forma temporal y hace que la piel se vea visualmente más rellena. El colágeno hidrolizado (péptidos) se usa para la hidratación y la textura.",
+              "El efecto esperado y honesto es hidratación, suavidad y un aspecto cuidado, no un rejuvenecimiento estructural. Este tipo de formulaciones aumenta la confianza del comprador."
+            ]
+          },
+          {
+            "h": "La hidratación como base",
+            "p": [
+              "Con la edad la piel pierde humedad de forma más activa. El ácido hialurónico retiene el agua, y los complejos de distinto peso molecular hidratan en varios niveles (según los fabricantes). Una piel bien hidratada se ve más firme y suave.",
+              "Es lógico combinar la línea Collagen Leader con la hidratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Apoyo a la barrera",
+            "p": [
+              "La niacinamida, el pantenol y las ceramidas apoyan la barrera y el estado general de la piel madura. La niacinamida (vitamina B3) también actúa sobre el tono y la pigmentación.",
+              "Los componentes calmantes (azuleno) son útiles si la piel madura es propensa a la sensibilidad."
+            ]
+          },
+          {
+            "h": "Armar la rutina",
+            "p": [
+              "El kit básico: limpieza, tónico hidratante, ampolla (colágeno o ácido hialurónico), crema y una mascarilla como ritual. Las expectativas realistas son la clave de un cliente satisfecho.",
+              "Las líneas Collagen Leader y Hyalquad Core y los precios orientativos están en la página de Dr.SANTE. Teranova ayuda a armar la rutina y organiza el suministro."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Cuidado anti-idade: firmeza e hidratação profunda",
+        "excerpt": "O que realmente funciona no cuidado anti-idade e como combinar firmeza com hidratação — com honestidade, usando as linhas Dr.SANTE como exemplo.",
+        "seoTitle": "Cuidado anti-idade: firmeza e hidratação — guia honesto · Teranova",
+        "seoDesc": "Cuidado anti-idade da pele: o que o colágeno e o ácido hialurônico realmente oferecem e como combinar firmeza e hidratação profunda. Guia honesto da Teranova usando as linhas Dr.SANTE como exemplo.",
+        "sections": [
+          {
+            "p": [
+              "O cuidado anti-idade está cercado de promessas exageradas. Vamos analisar com honestidade o que realmente funciona nos cosméticos tópicos para a pele madura e como combinar firmeza com hidratação."
+            ]
+          },
+          {
+            "h": "O que o colágeno realmente oferece",
+            "p": [
+              "O colágeno tópico não penetra na derme nem reconstrói o colágeno próprio da pele. Na superfície, ele atua como formador de película e umectante: retém a umidade, alisa temporariamente e deixa a pele visualmente mais preenchida. O colágeno hidrolisado (peptídeos) é usado para hidratação e textura.",
+              "O efeito honesto que se pode esperar é hidratação, maciez e um aspecto cuidado, não um rejuvenescimento estrutural. Esse tipo de mensagem aumenta a confiança do consumidor."
+            ]
+          },
+          {
+            "h": "Hidratação como base",
+            "p": [
+              "Com a idade, a pele perde umidade mais rapidamente. O ácido hialurônico retém a água, e complexos de diferentes pesos moleculares hidratam em vários níveis (segundo os fabricantes). Uma pele bem hidratada parece mais firme e macia.",
+              "Faz sentido combinar a linha Collagen Leader com a hidratante Hyalquad Core."
+            ]
+          },
+          {
+            "h": "Suporte à barreira",
+            "p": [
+              "A niacinamida, o pantenol e as ceramidas sustentam a barreira e o estado geral da pele madura. A niacinamida (vitamina B3) também atua no tom e na pigmentação.",
+              "Ativos calmantes (azuleno) são úteis se a pele madura tem tendência à sensibilidade."
+            ]
+          },
+          {
+            "h": "Montar a rotina",
+            "p": [
+              "Kit básico: limpeza, tônico hidratante, ampola (colágeno ou ácido hialurônico), creme e máscara ritual. Expectativas realistas são a chave para um cliente satisfeito.",
+              "As linhas Collagen Leader e Hyalquad Core e os preços aproximados estão na página da Dr.SANTE. A Teranova ajuda a montar a rotina e organiza a entrega."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "soothing-ingredients-kbeauty",
+    "category": "overview",
+    "date": "2026-07-28",
+    "related": [
+      "sante",
+      "cosmetics",
+      "faq"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Азулен, ромашка и полынь: успокаивающие ингредиенты K-beauty",
+        "excerpt": "Разбираем три популярных успокаивающих ингредиента корейской косметики — чем они похожи, чем отличаются и кому подходят.",
+        "seoTitle": "Азулен, ромашка, полынь: успокаивающие ингредиенты K-beauty · Teranova",
+        "seoDesc": "Азулен и гуайазулен, ромашковая вода, полынь (Artemisia): как работают успокаивающие ингредиенты корейской косметики, чем отличаются и кому подходят. Обзор Teranova.",
+        "sections": [
+          {
+            "p": [
+              "Корейская косметика славится успокаивающими составами для чувствительной кожи. Разберём три популярных ингредиента — азулен, ромашку и полынь — без маркетинговых преувеличений."
+            ]
+          },
+          {
+            "h": "Азулен и гуайазулен",
+            "p": [
+              "Азулен — синее ароматическое соединение, которое образуется из матрицина при дистилляции ромашки, тысячелистника и полыни; синий цвет — собственный цвет молекулы. Гуайазулен близок к нему и более липофилен. По данным исследований, оба обладают противовоспалительным и антиоксидантным действием (преимущественно доклинические данные).",
+              "Подходят коже, склонной к покраснению и раздражению."
+            ]
+          },
+          {
+            "h": "Ромашка",
+            "p": [
+              "Ромашка (Chamomilla) содержит бисаболол, хамазулен и апигенин — компоненты с успокаивающим и антиоксидантным профилем. Ромашковая вода (гидролат) — мягкая успокаивающая основа, которую в K-beauty используют вместо очищенной воды.",
+              "Хорошо переносится, но возможна аллергия при чувствительности к сложноцветным."
+            ]
+          },
+          {
+            "h": "Полынь (Artemisia)",
+            "p": [
+              "Полынь — популярный успокаивающий ингредиент корейского ухода. По данным исследований, её экстракты успокаивают раздражение, а также проявляют антибактериальную активность и могут снижать себум — поэтому полынь чаще используют для жирной и проблемной кожи (клинические данные ограничены).",
+              "Как и ромашка, относится к сложноцветным — аккуратно при аллергии."
+            ]
+          },
+          {
+            "h": "Как выбрать",
+            "p": [
+              "Для покраснений и реактивности — азулен и ромашка (линейка Azulene Soother). Для жирной и проблемной кожи — полынь (линейка Artemisia AKA). Часто их комбинируют в одной программе ухода.",
+              "Линейки Dr.SANTE на этих ингредиентах — на странице бренда. Teranova подберёт решение под ваш рынок."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Azulene, Chamomile and Mugwort: K-beauty Soothing Ingredients",
+        "excerpt": "We break down three popular soothing ingredients of Korean cosmetics — how they are alike, how they differ and whom they suit.",
+        "seoTitle": "Azulene, Chamomile, Mugwort: K-beauty Soothing Ingredients · Teranova",
+        "seoDesc": "Azulene and guaiazulene, chamomile water, mugwort (Artemisia): how the soothing ingredients of Korean cosmetics work, how they differ and whom they suit. A Teranova overview.",
+        "sections": [
+          {
+            "p": [
+              "Korean cosmetics are known for soothing formulas for sensitive skin. Let's look at three popular ingredients — azulene, chamomile and mugwort — without marketing exaggerations."
+            ]
+          },
+          {
+            "h": "Azulene and guaiazulene",
+            "p": [
+              "Azulene is a blue aromatic compound that forms from matricin during the distillation of chamomile, yarrow and mugwort; the blue color is the molecule's own color. Guaiazulene is close to it and more lipophilic. According to research, both have anti-inflammatory and antioxidant effects (mostly preclinical data).",
+              "They suit skin prone to redness and irritation."
+            ]
+          },
+          {
+            "h": "Chamomile",
+            "p": [
+              "Chamomile (Chamomilla) contains bisabolol, chamazulene and apigenin — components with a soothing and antioxidant profile. Chamomile water (a hydrosol) is a gentle soothing base that K-beauty uses in place of purified water.",
+              "It is well tolerated, but an allergy is possible if you are sensitive to the Asteraceae family."
+            ]
+          },
+          {
+            "h": "Mugwort (Artemisia)",
+            "p": [
+              "Mugwort is a popular soothing ingredient in Korean skincare. According to research, its extracts soothe irritation, and also show antibacterial activity and may reduce sebum — which is why mugwort is used more often for oily and problem skin (clinical data is limited).",
+              "Like chamomile, it belongs to the Asteraceae family — take care if you have an allergy."
+            ]
+          },
+          {
+            "h": "How to choose",
+            "p": [
+              "For redness and reactivity — azulene and chamomile (the Azulene Soother line). For oily and problem skin — mugwort (the Artemisia AKA line). They are often combined within a single routine.",
+              "The Dr.SANTE lines built on these ingredients are on the brand page. Teranova will select a solution for your market."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "아줄렌, 카모마일, 쑥: K-beauty의 진정 성분",
+        "excerpt": "한국 화장품에서 인기 있는 세 가지 진정 성분을 살펴봅니다 — 무엇이 비슷하고, 무엇이 다르며, 누구에게 맞는지.",
+        "seoTitle": "아줄렌, 카모마일, 쑥: K-beauty 진정 성분 · Teranova",
+        "seoDesc": "아줄렌과 구아이아줄렌, 카모마일 워터, 쑥(Artemisia): 한국 화장품의 진정 성분이 어떻게 작용하고, 무엇이 다르며, 누구에게 맞는지. Teranova의 리뷰.",
+        "sections": [
+          {
+            "p": [
+              "한국 화장품은 민감성 피부를 위한 진정 포뮬러로 정평이 나 있습니다. 마케팅 과장 없이 인기 성분 세 가지 — 아줄렌, 카모마일, 쑥 — 을 살펴봅니다."
+            ]
+          },
+          {
+            "h": "아줄렌과 구아이아줄렌",
+            "p": [
+              "아줄렌은 카모마일, 톱풀, 쑥을 증류할 때 마트리신에서 생성되는 파란색 방향족 화합물이며, 파란색은 분자 자체의 색입니다. 구아이아줄렌은 이와 유사하며 더 친유성입니다. 연구에 따르면 둘 다 항염 및 항산화 작용을 지닙니다(주로 전임상 데이터).",
+              "붉어짐과 자극이 생기기 쉬운 피부에 적합합니다."
+            ]
+          },
+          {
+            "h": "카모마일",
+            "p": [
+              "카모마일(Chamomilla)에는 비사보롤, 카마줄렌, 아피게닌이 함유되어 있으며, 이들은 진정 및 항산화 특성을 지닌 성분입니다. 카모마일 워터(하이드로졸)는 순한 진정 베이스로, K-beauty에서 정제수 대신 사용됩니다.",
+              "내약성이 좋지만 국화과(Asteraceae)에 민감한 경우 알레르기가 나타날 수 있습니다."
+            ]
+          },
+          {
+            "h": "쑥(Artemisia)",
+            "p": [
+              "쑥은 한국 스킨케어에서 인기 있는 진정 성분입니다. 연구에 따르면 쑥 추출물은 자극을 진정시키고 항균 활성을 나타내며 피지를 줄일 수 있어, 쑥은 지성·트러블 피부에 더 자주 사용됩니다(임상 데이터는 제한적).",
+              "카모마일과 마찬가지로 국화과(Asteraceae)에 속하므로 알레르기가 있다면 주의하세요."
+            ]
+          },
+          {
+            "h": "어떻게 선택할까",
+            "p": [
+              "붉어짐과 예민함에는 아줄렌과 카모마일(Azulene Soother 라인). 지성·트러블 피부에는 쑥(Artemisia AKA 라인). 이들을 하나의 케어 프로그램에서 함께 조합하는 경우도 많습니다.",
+              "이 성분들을 담은 Dr.SANTE 라인은 브랜드 페이지에서 확인할 수 있습니다. Teranova가 귀사의 시장에 맞는 솔루션을 선정합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "薁、洋甘菊与艾蒿：K-beauty 的舒缓成分",
+        "excerpt": "解析韩国化妆品中三种热门舒缓成分——它们有何相似、有何不同、又适合谁。",
+        "seoTitle": "薁、洋甘菊、艾蒿：K-beauty 的舒缓成分 · Teranova",
+        "seoDesc": "薁与愈创薁、洋甘菊水、艾蒿（Artemisia）：韩国化妆品中的舒缓成分如何发挥作用、有何区别、适合谁。Teranova 评述。",
+        "sections": [
+          {
+            "p": [
+              "韩国化妆品以针对敏感肌的舒缓配方而闻名。我们来解析三种热门成分——薁、洋甘菊和艾蒿——不带营销层面的夸大。"
+            ]
+          },
+          {
+            "h": "薁与愈创薁",
+            "p": [
+              "薁是一种蓝色芳香化合物，在蒸馏洋甘菊、蓍草和艾蒿时由母菊素转化而成；这种蓝色是分子本身的颜色。愈创薁与它相近，且更亲脂。据研究，两者都具有抗炎和抗氧化作用（主要为临床前数据）。",
+              "它们适合易泛红、易受刺激的肌肤。"
+            ]
+          },
+          {
+            "h": "洋甘菊",
+            "p": [
+              "洋甘菊（Chamomilla）含有红没药醇、母菊薁和芹菜素——这些成分具有舒缓和抗氧化的特性。洋甘菊水（纯露）是一种温和的舒缓基底，K-beauty 中常用它替代纯净水。",
+              "它的耐受性良好，但对菊科植物敏感者可能出现过敏。"
+            ]
+          },
+          {
+            "h": "艾蒿（Artemisia）",
+            "p": [
+              "艾蒿是韩式护肤中热门的舒缓成分。据研究，其提取物可舒缓刺激，还表现出抗菌活性，并可能减少皮脂——因此艾蒿更多用于油性和问题肌肤（临床数据有限）。",
+              "与洋甘菊一样，它属于菊科——过敏者需谨慎。"
+            ]
+          },
+          {
+            "h": "如何选择",
+            "p": [
+              "针对泛红和易敏——选薁和洋甘菊（Azulene Soother 系列）。针对油性和问题肌肤——选艾蒿（Artemisia AKA 系列）。它们常在同一套护理方案中搭配使用。",
+              "基于这些成分的 Dr.SANTE 系列请见品牌页面。Teranova 将为您所在的市场甄选合适方案。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "アズレン、カモミール、ヨモギ：K-beautyの鎮静成分",
+        "excerpt": "韓国コスメで人気の3つの鎮静成分を解説します——共通点、違い、そしてどんな人に合うのか。",
+        "seoTitle": "アズレン、カモミール、ヨモギ：K-beautyの鎮静成分 · Teranova",
+        "seoDesc": "アズレンとグアイアズレン、カモミールウォーター、ヨモギ（Artemisia）：韓国コスメの鎮静成分がどう働くのか、何が違い、どんな人に合うのか。Teranovaの解説。",
+        "sections": [
+          {
+            "p": [
+              "韓国コスメは、敏感肌向けの鎮静処方で知られています。人気の3つの成分——アズレン、カモミール、ヨモギ——を、マーケティング上の誇張なしに見ていきましょう。"
+            ]
+          },
+          {
+            "h": "アズレンとグアイアズレン",
+            "p": [
+              "アズレンは、カモミール、セイヨウノコギリソウ、ヨモギを蒸留する際にマトリシンから生成される青い芳香族化合物で、青色はこの分子そのものの色です。グアイアズレンはこれに近く、より親油性が高い成分です。研究データによれば、どちらにも抗炎症作用と抗酸化作用があります（主に前臨床のデータ）。",
+              "赤みや刺激が出やすい肌に適しています。"
+            ]
+          },
+          {
+            "h": "カモミール",
+            "p": [
+              "カモミール（Chamomilla）には、ビサボロール、カマズレン、アピゲニンが含まれ、これらは鎮静・抗酸化の特性を持つ成分です。カモミールウォーター（ハイドロレート）は、穏やかな鎮静のベースで、K-beautyでは精製水の代わりに使われます。",
+              "肌になじみやすい成分ですが、キク科に敏感な場合はアレルギーが起こることがあります。"
+            ]
+          },
+          {
+            "h": "ヨモギ（Artemisia）",
+            "p": [
+              "ヨモギは、韓国式スキンケアで人気の鎮静成分です。研究データによれば、そのエキスは刺激を鎮め、さらに抗菌作用を示し、皮脂を抑える可能性があります——そのため、ヨモギは脂性肌・トラブル肌により多く使われます（臨床データは限られています）。",
+              "カモミールと同様にキク科に属するため、アレルギーがある場合は注意してください。"
+            ]
+          },
+          {
+            "h": "選び方",
+            "p": [
+              "赤みや反応しやすさには、アズレンとカモミール（Azulene Sootherライン）。脂性肌・トラブル肌には、ヨモギ（Artemisia AKAライン）。これらは、1つのケアプログラムの中で組み合わせて使われることも多いです。",
+              "これらの成分を使ったDr.SANTEのラインは、ブランドページに掲載しています。Teranovaは、貴社の市場に合わせたソリューションを選定します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Azulene, camomilla e artemisia: gli ingredienti lenitivi della K-beauty",
+        "excerpt": "Analizziamo tre ingredienti lenitivi popolari della cosmetica coreana: in cosa si assomigliano, in cosa differiscono e a chi sono adatti.",
+        "seoTitle": "Azulene, camomilla, artemisia: ingredienti lenitivi K-beauty · Teranova",
+        "seoDesc": "Azulene e guaiazulene, acqua di camomilla, artemisia (Artemisia): come agiscono gli ingredienti lenitivi della cosmetica coreana, in cosa differiscono e a chi sono adatti. Panoramica Teranova.",
+        "sections": [
+          {
+            "p": [
+              "La cosmetica coreana è nota per le formule lenitive per la pelle sensibile. Analizziamo tre ingredienti popolari — azulene, camomilla e artemisia — senza esagerazioni di marketing."
+            ]
+          },
+          {
+            "h": "Azulene e guaiazulene",
+            "p": [
+              "L'azulene è un composto aromatico blu che si forma dalla matricina durante la distillazione di camomilla, achillea e artemisia; il colore blu è il colore proprio della molecola. Il guaiazulene gli è vicino ed è più lipofilo. Secondo gli studi, entrambi hanno un'azione antinfiammatoria e antiossidante (dati prevalentemente preclinici).",
+              "Sono adatti alla pelle soggetta a rossore e irritazione."
+            ]
+          },
+          {
+            "h": "Camomilla",
+            "p": [
+              "La camomilla (Chamomilla) contiene bisabololo, camazulene e apigenina — componenti dal profilo lenitivo e antiossidante. L'acqua di camomilla (idrolato) è una base lenitiva delicata che nella K-beauty si usa al posto dell'acqua depurata.",
+              "È ben tollerata, ma è possibile un'allergia in caso di sensibilità alle Asteraceae."
+            ]
+          },
+          {
+            "h": "Artemisia",
+            "p": [
+              "L'artemisia è un ingrediente lenitivo popolare della cura coreana. Secondo gli studi, i suoi estratti leniscono l'irritazione, mostrano anche un'attività antibatterica e possono ridurre il sebo — per questo l'artemisia si usa più spesso per la pelle grassa e impura (dati clinici limitati).",
+              "Come la camomilla, appartiene alle Asteraceae — con cautela in caso di allergia."
+            ]
+          },
+          {
+            "h": "Come scegliere",
+            "p": [
+              "Per rossori e reattività: azulene e camomilla (linea Azulene Soother). Per la pelle grassa e impura: artemisia (linea Artemisia AKA). Spesso si combinano in un'unica routine di cura.",
+              "Le linee Dr.SANTE basate su questi ingredienti sono nella pagina del brand. Teranova seleziona la soluzione per il tuo mercato."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Azulen, Kamille und Beifuß: beruhigende Inhaltsstoffe der K-beauty",
+        "excerpt": "Wir erklären drei beliebte beruhigende Inhaltsstoffe der koreanischen Kosmetik — was sie gemeinsam haben, worin sie sich unterscheiden und für wen sie geeignet sind.",
+        "seoTitle": "Azulen, Kamille, Beifuß: beruhigende Inhaltsstoffe der K-beauty · Teranova",
+        "seoDesc": "Azulen und Guaiazulen, Kamillenwasser, Beifuß (Artemisia): wie beruhigende Inhaltsstoffe der koreanischen Kosmetik wirken, worin sie sich unterscheiden und für wen sie geeignet sind. Überblick von Teranova.",
+        "sections": [
+          {
+            "p": [
+              "Koreanische Kosmetik ist für ihre beruhigenden Rezepturen für empfindliche Haut bekannt. Wir betrachten drei beliebte Inhaltsstoffe — Azulen, Kamille und Beifuß — ohne Marketing-Übertreibungen."
+            ]
+          },
+          {
+            "h": "Azulen und Guaiazulen",
+            "p": [
+              "Azulen ist eine blaue aromatische Verbindung, die bei der Destillation von Kamille, Schafgarbe und Beifuß aus Matricin entsteht; die blaue Farbe ist die Eigenfarbe des Moleküls. Guaiazulen ist ihm verwandt und stärker lipophil. Studien zufolge wirken beide entzündungshemmend und antioxidativ (überwiegend präklinische Daten).",
+              "Geeignet für Haut, die zu Rötungen und Reizungen neigt."
+            ]
+          },
+          {
+            "h": "Kamille",
+            "p": [
+              "Kamille (Chamomilla) enthält Bisabolol, Chamazulen und Apigenin — Inhaltsstoffe mit beruhigendem und antioxidativem Profil. Kamillenwasser (Hydrolat) ist eine milde beruhigende Basis, die in der K-beauty anstelle von gereinigtem Wasser verwendet wird.",
+              "Wird gut vertragen, jedoch ist bei einer Empfindlichkeit gegen Korbblütler (Asteraceae) eine Allergie möglich."
+            ]
+          },
+          {
+            "h": "Beifuß (Artemisia)",
+            "p": [
+              "Beifuß ist ein beliebter beruhigender Inhaltsstoff der koreanischen Pflege. Studien zufolge beruhigen seine Extrakte Reizungen, zeigen zudem antibakterielle Aktivität und können den Sebum reduzieren — daher wird Beifuß häufiger für fettige und unreine Haut verwendet (klinische Daten sind begrenzt).",
+              "Wie Kamille gehört er zu den Korbblütlern (Asteraceae) — bei einer Allergie ist Vorsicht geboten."
+            ]
+          },
+          {
+            "h": "Wie man auswählt",
+            "p": [
+              "Bei Rötungen und Reaktivität — Azulen und Kamille (Azulene Soother Linie). Für fettige und unreine Haut — Beifuß (Artemisia AKA Linie). Häufig werden sie in einer Pflegeroutine kombiniert.",
+              "Die Dr.SANTE Linien mit diesen Inhaltsstoffen finden Sie auf der Markenseite. Teranova findet die passende Lösung für Ihren Markt."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Azulène, camomille et armoise : les ingrédients apaisants de la K-beauty",
+        "excerpt": "Analyse de trois ingrédients apaisants populaires de la cosmétique coréenne : ce qui les rapproche, ce qui les distingue et à qui ils conviennent.",
+        "seoTitle": "Azulène, camomille, armoise : les ingrédients apaisants de la K-beauty · Teranova",
+        "seoDesc": "Azulène et guaïazulène, eau de camomille, armoise (Artemisia) : comment agissent les ingrédients apaisants de la cosmétique coréenne, ce qui les distingue et à qui ils conviennent. Aperçu Teranova.",
+        "sections": [
+          {
+            "p": [
+              "La cosmétique coréenne est réputée pour ses formules apaisantes destinées aux peaux sensibles. Analysons trois ingrédients populaires — l'azulène, la camomille et l'armoise — sans exagérations marketing."
+            ]
+          },
+          {
+            "h": "Azulène et guaïazulène",
+            "p": [
+              "L'azulène est un composé aromatique bleu qui se forme à partir de la matricine lors de la distillation de la camomille, de l'achillée millefeuille et de l'armoise ; le bleu est la couleur propre de la molécule. Le guaïazulène lui est proche et plus lipophile. Selon des études, tous deux possèdent une action anti-inflammatoire et antioxydante (données principalement précliniques).",
+              "Ils conviennent aux peaux sujettes aux rougeurs et aux irritations."
+            ]
+          },
+          {
+            "h": "Camomille",
+            "p": [
+              "La camomille (Chamomilla) contient du bisabolol, du chamazulène et de l'apigénine — des composants au profil apaisant et antioxydant. L'eau de camomille (hydrolat) est une base apaisante douce que la K-beauty utilise à la place de l'eau purifiée.",
+              "Elle est bien tolérée, mais une allergie est possible en cas de sensibilité aux Astéracées."
+            ]
+          },
+          {
+            "h": "Armoise (Artemisia)",
+            "p": [
+              "L'armoise est un ingrédient apaisant populaire du soin coréen. Selon des études, ses extraits apaisent les irritations, présentent aussi une activité antibactérienne et peuvent réduire le sébum — c'est pourquoi l'armoise est plus souvent utilisée pour les peaux grasses et à problèmes (données cliniques limitées).",
+              "Comme la camomille, elle appartient aux Astéracées — prudence en cas d'allergie."
+            ]
+          },
+          {
+            "h": "Comment choisir",
+            "p": [
+              "Pour les rougeurs et la réactivité : l'azulène et la camomille (gamme Azulene Soother). Pour les peaux grasses et à problèmes : l'armoise (gamme Artemisia AKA). On les combine souvent dans une même routine de soin.",
+              "Les gammes Dr.SANTE à base de ces ingrédients sont sur la page de la marque. Teranova sélectionne une solution adaptée à votre marché."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Azulen, papatya ve pelin otu: K-beauty'nin yatıştırıcı içerikleri",
+        "excerpt": "Kore kozmetiğinin üç popüler yatıştırıcı içeriğini inceliyoruz — nasıl benzerler, nasıl farklılaşırlar ve kime uygundurlar.",
+        "seoTitle": "Azulen, papatya, pelin otu: K-beauty yatıştırıcı içerikleri · Teranova",
+        "seoDesc": "Azulen ve guaiazulen, papatya suyu, pelin otu (Artemisia): Kore kozmetiğinin yatıştırıcı içerikleri nasıl çalışır, nasıl farklılaşır ve kime uygundur. Teranova incelemesi.",
+        "sections": [
+          {
+            "p": [
+              "Kore kozmetiği, hassas cilt için yatıştırıcı formülleriyle ünlüdür. Üç popüler içeriği — azulen, papatya ve pelin otu — pazarlama abartıları olmadan inceleyelim."
+            ]
+          },
+          {
+            "h": "Azulen ve guaiazulen",
+            "p": [
+              "Azulen — papatya, civanperçemi ve pelin otunun distilasyonu sırasında matrisinden oluşan mavi aromatik bir bileşiktir; mavi renk molekülün kendi rengidir. Guaiazulen ona yakındır ve daha lipofiliktir. Araştırmalara göre her ikisi de anti-enflamatuar ve antioksidan etkiye sahiptir (ağırlıklı olarak klinik öncesi veriler).",
+              "Kızarıklığa ve tahrişe eğilimli cilde uygundur."
+            ]
+          },
+          {
+            "h": "Papatya",
+            "p": [
+              "Papatya (Chamomilla) bisabolol, kamazulen ve apigenin içerir — yatıştırıcı ve antioksidan profile sahip bileşenler. Papatya suyu (hidrolat), K-beauty'de saf su yerine kullanılan yumuşak, yatıştırıcı bir bazdır.",
+              "İyi tolere edilir, ancak papatyagiller (Asteraceae) familyasına duyarlı olanlarda alerji görülebilir."
+            ]
+          },
+          {
+            "h": "Pelin otu (Artemisia)",
+            "p": [
+              "Pelin otu, Kore bakımının popüler yatıştırıcı içeriğidir. Araştırmalara göre ekstreleri tahrişi yatıştırır, ayrıca antibakteriyel aktivite gösterir ve sebumu azaltabilir — bu nedenle pelin otu daha çok yağlı ve problemli cilt için kullanılır (klinik veriler sınırlıdır).",
+              "Papatya gibi, papatyagiller (Asteraceae) familyasındandır — alerjisi olanlar dikkatli olmalı."
+            ]
+          },
+          {
+            "h": "Nasıl seçmeli",
+            "p": [
+              "Kızarıklık ve reaktiflik için — azulen ve papatya (Azulene Soother serisi). Yağlı ve problemli cilt için — pelin otu (Artemisia AKA serisi). Çoğu zaman tek bir bakım programında birleştirilirler.",
+              "Bu içeriklere dayalı Dr.SANTE serileri marka sayfasındadır. Teranova pazarınıza uygun çözümü seçer."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Azuleno, manzanilla y artemisa: ingredientes calmantes del K-beauty",
+        "excerpt": "Analizamos tres ingredientes calmantes populares de la cosmética coreana: en qué se parecen, en qué se diferencian y a quién le convienen.",
+        "seoTitle": "Azuleno, manzanilla, artemisa: ingredientes calmantes del K-beauty · Teranova",
+        "seoDesc": "Azuleno y guayazuleno, agua de manzanilla, artemisa (Artemisia): cómo funcionan los ingredientes calmantes de la cosmética coreana, en qué se diferencian y a quién le convienen. Reseña de Teranova.",
+        "sections": [
+          {
+            "p": [
+              "La cosmética coreana es conocida por sus fórmulas calmantes para la piel sensible. Veamos tres ingredientes populares — azuleno, manzanilla y artemisa — sin exageraciones de marketing."
+            ]
+          },
+          {
+            "h": "Azuleno y guayazuleno",
+            "p": [
+              "El azuleno es un compuesto aromático azul que se forma a partir de la matricina durante la destilación de la manzanilla, la milenrama y la artemisa; el color azul es el color propio de la molécula. El guayazuleno es cercano a él y más lipófilo. Según estudios, ambos tienen acción antiinflamatoria y antioxidante (datos principalmente preclínicos).",
+              "Convienen a la piel propensa al enrojecimiento y la irritación."
+            ]
+          },
+          {
+            "h": "Manzanilla",
+            "p": [
+              "La manzanilla (Chamomilla) contiene bisabolol, camazuleno y apigenina, componentes con un perfil calmante y antioxidante. El agua de manzanilla (hidrolato) es una base calmante suave que en el K-beauty se usa en lugar de agua purificada.",
+              "Se tolera bien, pero es posible una alergia en caso de sensibilidad a las asteráceas."
+            ]
+          },
+          {
+            "h": "Artemisa (Artemisia)",
+            "p": [
+              "La artemisa es un ingrediente calmante popular en el cuidado coreano. Según estudios, sus extractos calman la irritación y también muestran actividad antibacteriana y pueden reducir el sebo — por eso la artemisa se usa con más frecuencia para la piel grasa y con imperfecciones (los datos clínicos son limitados).",
+              "Al igual que la manzanilla, pertenece a las asteráceas — con cuidado en caso de alergia."
+            ]
+          },
+          {
+            "h": "Cómo elegir",
+            "p": [
+              "Para el enrojecimiento y la reactividad — azuleno y manzanilla (línea Azulene Soother). Para la piel grasa y con imperfecciones — artemisa (línea Artemisia AKA). A menudo se combinan en una misma rutina de cuidado.",
+              "Las líneas de Dr.SANTE basadas en estos ingredientes están en la página de la marca. Teranova selecciona la solución para tu mercado."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Azuleno, camomila e artemísia: ingredientes calmantes da K-beauty",
+        "excerpt": "Analisamos três ingredientes calmantes populares da cosmética coreana — em que se parecem, em que diferem e para quem são indicados.",
+        "seoTitle": "Azuleno, camomila, artemísia: ingredientes calmantes da K-beauty · Teranova",
+        "seoDesc": "Azuleno e guaiazuleno, água de camomila, artemísia (Artemisia): como funcionam os ingredientes calmantes da cosmética coreana, em que diferem e para quem são indicados. Análise da Teranova.",
+        "sections": [
+          {
+            "p": [
+              "A cosmética coreana é conhecida por suas formulações calmantes para a pele sensível. Vamos analisar três ingredientes populares — azuleno, camomila e artemísia — sem exageros de marketing."
+            ]
+          },
+          {
+            "h": "Azuleno e guaiazuleno",
+            "p": [
+              "O azuleno é um composto aromático azul que se forma a partir da matricina durante a destilação da camomila, do milefólio e da artemísia; a cor azul é a cor própria da molécula. O guaiazuleno é semelhante a ele e mais lipofílico. Segundo estudos, ambos têm ação anti-inflamatória e antioxidante (dados predominantemente pré-clínicos).",
+              "São indicados para a pele com tendência a vermelhidão e irritação."
+            ]
+          },
+          {
+            "h": "Camomila",
+            "p": [
+              "A camomila (Chamomilla) contém bisabolol, camazuleno e apigenina — componentes com perfil calmante e antioxidante. A água de camomila (hidrolato) é uma base calmante suave que a K-beauty usa no lugar da água purificada.",
+              "É bem tolerada, mas pode haver alergia em quem é sensível às asteráceas."
+            ]
+          },
+          {
+            "h": "Artemísia (Artemisia)",
+            "p": [
+              "A artemísia é um ingrediente calmante popular no cuidado coreano. Segundo estudos, seus extratos acalmam a irritação, além de apresentar atividade antibacteriana e poder reduzir o sebo — por isso a artemísia é mais usada para a pele oleosa e problemática (os dados clínicos são limitados).",
+              "Como a camomila, pertence às asteráceas — cuidado em caso de alergia."
+            ]
+          },
+          {
+            "h": "Como escolher",
+            "p": [
+              "Para vermelhidão e reatividade — azuleno e camomila (linha Azulene Soother). Para a pele oleosa e problemática — artemísia (linha Artemisia AKA). Muitas vezes são combinados em uma mesma rotina de cuidados.",
+              "As linhas Dr.SANTE com esses ingredientes estão na página da marca. A Teranova seleciona a solução para o seu mercado."
+            ]
+          }
+        ]
+      }
+    },
+    "hero": "/img/suppliers/sante/products/azulene-soother-toner-500ml.png"
+  },
+  {
+    "slug": "pha-lha-gentle-acids",
+    "category": "overview",
+    "date": "2026-07-28",
+    "related": [
+      "sante",
+      "cosmetics",
+      "ondemand"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "PHA и LHA: мягкие кислоты для чувствительной кожи",
+        "excerpt": "Чем PHA и LHA отличаются от AHA и BHA и почему их выбирают для деликатного обновления чувствительной кожи.",
+        "seoTitle": "PHA и LHA: мягкие кислоты для чувствительной кожи · Teranova",
+        "seoDesc": "PHA и LHA против AHA/BHA: как работают мягкие кислоты, почему меньше раздражают и кому подходят. Обзор Teranova на примере линеек Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Кислотное обновление кожи не обязательно означает раздражение. PHA и LHA — более деликатные кислоты, которые всё чаще выбирают для чувствительной и реактивной кожи. Разберём отличия."
+            ]
+          },
+          {
+            "h": "AHA и BHA — в чём разница",
+            "p": [
+              "AHA (например, гликолевая, молочная) — мелкие водорастворимые кислоты, работают по всей поверхности, могут повышать чувствительность к солнцу. BHA (салициловая) — жирорастворимая, работает в порах, подходит жирной коже.",
+              "Обе эффективны, но для чувствительной кожи бывают слишком активными."
+            ]
+          },
+          {
+            "h": "PHA — крупнее и мягче",
+            "p": [
+              "PHA (полигидроксикислоты, например глюконолактон) — более крупные молекулы, чем AHA, поэтому проникают медленнее и меньше раздражают. Дают мягкую эксфолиацию плюс увлажняющие и антиоксидантные свойства и меньше повышают фоточувствительность.",
+              "По сравнительным данным, PHA дают эффект, сопоставимый с AHA, но мягче — подходят чувствительной и склонной к розацеа коже."
+            ]
+          },
+          {
+            "h": "LHA — деликатное обновление",
+            "p": [
+              "LHA (липогидроксикислота) — липофильное производное салициловой кислоты. Она отшелушивает деликатно, ближе к естественному обновлению кожи — мягче классической BHA.",
+              "У Dr.SANTE фирменный LHA-SOL™ используется в линейке Artemisia AKA для проблемной кожи; PHA/LHA-компоненты есть и в пилинг-сыворотке Azulene Soother."
+            ]
+          },
+          {
+            "h": "Кому подходит",
+            "p": [
+              "Мягкие кислоты — выбор для тех, кому классические кислоты дают раздражение: чувствительная, реактивная, склонная к покраснениям кожа, а также проблемная кожа, которой нужна деликатная работа с порами.",
+              "Средства Dr.SANTE с мягкими кислотами — на странице бренда. Teranova поможет подобрать и организует поставку."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "PHA and LHA: Gentle Acids for Sensitive Skin",
+        "excerpt": "How PHA and LHA differ from AHA and BHA and why they are chosen for the delicate renewal of sensitive skin.",
+        "seoTitle": "PHA and LHA: Gentle Acids for Sensitive Skin · Teranova",
+        "seoDesc": "PHA and LHA versus AHA/BHA: how gentle acids work, why they irritate less and whom they suit. A Teranova overview using Dr.SANTE lines as an example.",
+        "sections": [
+          {
+            "p": [
+              "Acid renewal of the skin does not have to mean irritation. PHA and LHA are more delicate acids that are increasingly chosen for sensitive and reactive skin. Let's go over the differences."
+            ]
+          },
+          {
+            "h": "AHA and BHA — the difference",
+            "p": [
+              "AHA (for example, glycolic and lactic acid) are small water-soluble acids that work across the whole surface and can increase sensitivity to the sun. BHA (salicylic acid) is oil-soluble, works inside pores and suits oily skin.",
+              "Both are effective, but for sensitive skin they can be too active."
+            ]
+          },
+          {
+            "h": "PHA — larger and gentler",
+            "p": [
+              "PHA (polyhydroxy acids, for example gluconolactone) are larger molecules than AHA, so they penetrate more slowly and irritate less. They give gentle exfoliation plus hydrating and antioxidant properties and raise photosensitivity less.",
+              "According to comparative data, PHA give an effect comparable to AHA but gentler — a fit for sensitive and rosacea-prone skin."
+            ]
+          },
+          {
+            "h": "LHA — delicate renewal",
+            "p": [
+              "LHA (lipohydroxy acid) is a lipophilic derivative of salicylic acid. It exfoliates delicately, closer to the skin's natural renewal — gentler than classic BHA.",
+              "At Dr.SANTE the proprietary LHA-SOL™ is used in the Artemisia AKA line for problem skin; PHA/LHA components are also found in the Azulene Soother peeling serum."
+            ]
+          },
+          {
+            "h": "Whom it suits",
+            "p": [
+              "Gentle acids are the choice for those whom classic acids leave irritated: sensitive, reactive, redness-prone skin, as well as problem skin that needs delicate work with pores.",
+              "Dr.SANTE products with gentle acids are on the brand page. Teranova will help you choose them and arrange the delivery."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "PHA와 LHA: 민감성 피부를 위한 순한 산",
+        "excerpt": "PHA와 LHA가 AHA·BHA와 어떻게 다른지, 그리고 왜 민감성 피부의 섬세한 재생을 위해 이들을 선택하는지.",
+        "seoTitle": "PHA와 LHA: 민감성 피부를 위한 순한 산 · Teranova",
+        "seoDesc": "PHA·LHA 대 AHA/BHA: 순한 산이 어떻게 작용하고, 왜 자극이 덜하며, 누구에게 맞는지. Dr.SANTE 라인을 예로 든 Teranova의 리뷰.",
+        "sections": [
+          {
+            "p": [
+              "산을 이용한 피부 재생이 반드시 자극을 의미하는 것은 아닙니다. PHA와 LHA는 더 섬세한 산으로, 민감하고 예민한 피부를 위해 점점 더 많이 선택되고 있습니다. 그 차이를 살펴봅니다."
+            ]
+          },
+          {
+            "h": "AHA와 BHA — 무엇이 다른가",
+            "p": [
+              "AHA(예: 글리콜산, 락트산)는 수용성의 작은 산으로 표면 전체에 작용하며 햇빛에 대한 민감도를 높일 수 있습니다. BHA(살리실산)는 지용성으로 모공 속에서 작용하며 지성 피부에 적합합니다.",
+              "둘 다 효과적이지만 민감성 피부에는 지나치게 강할 수 있습니다."
+            ]
+          },
+          {
+            "h": "PHA — 더 크고 더 순하게",
+            "p": [
+              "PHA(폴리하이드록시산, 예: 글루코노락톤)는 AHA보다 큰 분자여서 더 천천히 침투하고 자극이 덜합니다. 순한 각질 제거에 더해 수분 공급과 항산화 특성을 제공하며 광민감성을 덜 높입니다.",
+              "비교 데이터에 따르면 PHA는 AHA에 견줄 만한 효과를 내되 더 순해서, 민감하고 주사(rosacea)가 생기기 쉬운 피부에 적합합니다."
+            ]
+          },
+          {
+            "h": "LHA — 섬세한 재생",
+            "p": [
+              "LHA(리포하이드록시산)는 살리실산의 친유성 유도체입니다. 피부의 자연스러운 재생에 더 가깝게 섬세하게 각질을 제거하며, 클래식 BHA보다 순합니다.",
+              "Dr.SANTE에서는 독자 성분 LHA-SOL™이 트러블 피부를 위한 Artemisia AKA 라인에 사용되며, PHA/LHA 성분은 Azulene Soother 필링 세럼에도 들어 있습니다."
+            ]
+          },
+          {
+            "h": "누구에게 맞는가",
+            "p": [
+              "순한 산은 클래식한 산이 자극을 유발하는 사람들을 위한 선택입니다: 민감하고 예민하며 붉어짐이 생기기 쉬운 피부, 그리고 모공을 섬세하게 관리해야 하는 트러블 피부.",
+              "순한 산을 담은 Dr.SANTE 제품은 브랜드 페이지에서 확인할 수 있습니다. Teranova가 선정을 돕고 공급을 준비합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "PHA 与 LHA：适合敏感肌的温和酸类",
+        "excerpt": "PHA 和 LHA 与 AHA、BHA 有何不同，以及为何人们选它们来温和焕新敏感肌肤。",
+        "seoTitle": "PHA 与 LHA：适合敏感肌的温和酸类 · Teranova",
+        "seoDesc": "PHA、LHA 对比 AHA/BHA：温和酸类如何发挥作用、为何刺激更小、适合谁。Teranova 评述，以 Dr.SANTE 系列为例。",
+        "sections": [
+          {
+            "p": [
+              "用酸类焕新肌肤未必意味着刺激。PHA 和 LHA 是更温和的酸类，越来越多地被用于敏感和易敏肌肤。我们来解析其中的区别。"
+            ]
+          },
+          {
+            "h": "AHA 与 BHA——区别在哪",
+            "p": [
+              "AHA（例如乙醇酸、乳酸）是分子较小的水溶性酸类，作用于整个肌肤表面，可能提高肌肤对紫外线的敏感度。BHA（水杨酸）是脂溶性的，作用于毛孔内部，适合油性肌肤。",
+              "两者都有效，但对敏感肌来说有时过于强烈。"
+            ]
+          },
+          {
+            "h": "PHA——分子更大、更温和",
+            "p": [
+              "PHA（多羟基酸，例如葡萄糖酸内酯）的分子比 AHA 更大，因此渗透更慢、刺激更小。它带来温和的去角质，同时具有保湿和抗氧化特性，对光敏感度的提升也更小。",
+              "据对比数据，PHA 的效果与 AHA 相当，但更温和——适合敏感和易长玫瑰痤疮的肌肤。"
+            ]
+          },
+          {
+            "h": "LHA——温和焕新",
+            "p": [
+              "LHA（脂羟基酸）是水杨酸的亲脂性衍生物。它去角质温和，更接近肌肤的自然更新——比传统 BHA 更柔和。",
+              "在 Dr.SANTE 中，品牌专利 LHA-SOL™ 用于针对问题肌肤的 Artemisia AKA 系列；Azulene Soother 的焕肤精华中也含有 PHA/LHA 成分。"
+            ]
+          },
+          {
+            "h": "适合谁",
+            "p": [
+              "温和酸类适合那些用传统酸类会受刺激的人群：敏感、易敏、易泛红的肌肤，以及需要温和改善毛孔的问题肌肤。",
+              "含温和酸类的 Dr.SANTE 产品请见品牌页面。Teranova 将协助您甄选并安排供货。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "PHAとLHA：敏感肌のための穏やかな酸",
+        "excerpt": "PHAとLHAがAHAやBHAとどう違うのか、そしてなぜ敏感肌のデリケートなターンオーバーに選ばれるのか。",
+        "seoTitle": "PHAとLHA：敏感肌のための穏やかな酸 · Teranova",
+        "seoDesc": "PHA・LHA対AHA/BHA：穏やかな酸がどう働くのか、なぜ刺激が少なく、どんな人に合うのか。Dr.SANTEのラインを例にしたTeranovaの解説。",
+        "sections": [
+          {
+            "p": [
+              "酸による肌のターンオーバーが、必ずしも刺激を意味するわけではありません。PHAとLHAは、より穏やかな酸で、敏感で反応しやすい肌のためにますます多く選ばれています。その違いを見ていきましょう。"
+            ]
+          },
+          {
+            "h": "AHAとBHA——その違い",
+            "p": [
+              "AHA（例：グリコール酸、乳酸）は、小さな水溶性の酸で、肌の表面全体に働き、紫外線への感受性を高めることがあります。BHA（サリチル酸）は脂溶性で、毛穴の中で働き、脂性肌に適しています。",
+              "どちらも効果的ですが、敏感肌には作用が強すぎることがあります。"
+            ]
+          },
+          {
+            "h": "PHA——より大きく、より穏やか",
+            "p": [
+              "PHA（ポリヒドロキシ酸、例：グルコノラクトン）は、AHAより大きな分子のため、浸透がゆるやかで刺激が少ないです。穏やかな角質ケアに加え、保湿・抗酸化の特性を持ち、光感受性を高めにくいのが特徴です。",
+              "比較データによれば、PHAはAHAに匹敵する効果をもたらしつつ、より穏やかで——敏感肌や酒さ（ロザセア）が出やすい肌に適しています。"
+            ]
+          },
+          {
+            "h": "LHA——デリケートなターンオーバー",
+            "p": [
+              "LHA（リポヒドロキシ酸）は、サリチル酸の親油性誘導体です。肌の自然なターンオーバーに近い形でデリケートに角質を除去し——従来のBHAよりも穏やかです。",
+              "Dr.SANTEでは、独自のLHA-SOL™がトラブル肌向けのArtemisia AKAラインに使われています。PHA/LHA成分は、Azulene Sootherのピーリング美容液にも配合されています。"
+            ]
+          },
+          {
+            "h": "どんな人に合うか",
+            "p": [
+              "穏やかな酸は、従来の酸で刺激を感じる人のための選択肢です：敏感で、反応しやすく、赤みが出やすい肌、そして毛穴へのデリケートなアプローチが必要なトラブル肌に向いています。",
+              "穏やかな酸を配合したDr.SANTEの製品は、ブランドページに掲載しています。Teranovaは選定をお手伝いし、納品を手配します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "PHA e LHA: acidi delicati per la pelle sensibile",
+        "excerpt": "In cosa PHA e LHA differiscono da AHA e BHA e perché si scelgono per un rinnovamento delicato della pelle sensibile.",
+        "seoTitle": "PHA e LHA: acidi delicati per la pelle sensibile · Teranova",
+        "seoDesc": "PHA e LHA contro AHA/BHA: come agiscono gli acidi delicati, perché irritano meno e a chi sono adatti. Panoramica Teranova sull'esempio delle linee Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Il rinnovamento della pelle con gli acidi non significa necessariamente irritazione. PHA e LHA sono acidi più delicati, scelti sempre più spesso per la pelle sensibile e reattiva. Vediamo le differenze."
+            ]
+          },
+          {
+            "h": "AHA e BHA: qual è la differenza",
+            "p": [
+              "Gli AHA (ad esempio l'acido glicolico, l'acido lattico) sono piccoli acidi idrosolubili, agiscono su tutta la superficie e possono aumentare la sensibilità al sole. Il BHA (acido salicilico) è liposolubile, agisce nei pori ed è adatto alla pelle grassa.",
+              "Entrambi sono efficaci, ma per la pelle sensibile possono risultare troppo attivi."
+            ]
+          },
+          {
+            "h": "PHA: più grandi e più delicati",
+            "p": [
+              "I PHA (poliidrossiacidi, ad esempio il gluconolattone) sono molecole più grandi degli AHA, quindi penetrano più lentamente e irritano meno. Offrono un'esfoliazione delicata oltre a proprietà idratanti e antiossidanti, e aumentano meno la fotosensibilità.",
+              "Secondo i dati comparativi, i PHA danno un effetto paragonabile a quello degli AHA, ma più delicato — adatti alla pelle sensibile e a tendenza rosacea."
+            ]
+          },
+          {
+            "h": "LHA: rinnovamento delicato",
+            "p": [
+              "L'LHA (acido lipoidrossilico) è un derivato lipofilo dell'acido salicilico. Esfolia in modo delicato, più vicino al naturale rinnovamento della pelle — più delicato del BHA classico.",
+              "In Dr.SANTE l'esclusivo LHA-SOL™ è usato nella linea Artemisia AKA per la pelle impura; componenti PHA/LHA sono presenti anche nel siero peeling Azulene Soother."
+            ]
+          },
+          {
+            "h": "A chi è adatto",
+            "p": [
+              "Gli acidi delicati sono la scelta per chi, con gli acidi classici, ha irritazione: pelle sensibile, reattiva, soggetta a rossori, così come la pelle impura che ha bisogno di un lavoro delicato sui pori.",
+              "I prodotti Dr.SANTE con acidi delicati sono nella pagina del brand. Teranova aiuta nella selezione e organizza la fornitura."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "PHA und LHA: milde Säuren für empfindliche Haut",
+        "excerpt": "Wie sich PHA und LHA von AHA und BHA unterscheiden und warum man sie für die sanfte Erneuerung empfindlicher Haut wählt.",
+        "seoTitle": "PHA und LHA: milde Säuren für empfindliche Haut · Teranova",
+        "seoDesc": "PHA und LHA gegen AHA/BHA: wie milde Säuren wirken, warum sie weniger reizen und für wen sie geeignet sind. Überblick von Teranova am Beispiel der Dr.SANTE Linien.",
+        "sections": [
+          {
+            "p": [
+              "Eine Erneuerung der Haut mit Säuren bedeutet nicht zwangsläufig Reizungen. PHA und LHA sind sanftere Säuren, die immer häufiger für empfindliche und reaktive Haut gewählt werden. Wir erklären die Unterschiede."
+            ]
+          },
+          {
+            "h": "AHA und BHA — worin der Unterschied liegt",
+            "p": [
+              "AHA (zum Beispiel Glykolsäure, Milchsäure) sind kleine wasserlösliche Säuren, die an der gesamten Oberfläche wirken und die Empfindlichkeit gegenüber Sonne erhöhen können. BHA (Salicylsäure) ist fettlöslich, wirkt in den Poren und eignet sich für fettige Haut.",
+              "Beide sind wirksam, können für empfindliche Haut jedoch zu aktiv sein."
+            ]
+          },
+          {
+            "h": "PHA — größer und milder",
+            "p": [
+              "PHA (Polyhydroxysäuren, zum Beispiel Gluconolacton) sind größere Moleküle als AHA, dringen daher langsamer ein und reizen weniger. Sie bieten eine milde Exfoliation sowie feuchtigkeitsspendende und antioxidative Eigenschaften und erhöhen die Lichtempfindlichkeit weniger.",
+              "Vergleichenden Daten zufolge erzielen PHA einen mit AHA vergleichbaren Effekt, jedoch milder — geeignet für empfindliche und zu Rosazea neigende Haut."
+            ]
+          },
+          {
+            "h": "LHA — sanfte Erneuerung",
+            "p": [
+              "LHA (Lipohydroxysäure) ist ein lipophiles Derivat der Salicylsäure. Sie peelt behutsam, näher an der natürlichen Hauterneuerung — milder als klassische BHA.",
+              "Bei Dr.SANTE wird das markeneigene LHA-SOL™ in der Artemisia AKA Linie für unreine Haut eingesetzt; PHA/LHA-Komponenten sind auch im Peeling-Serum der Azulene Soother enthalten."
+            ]
+          },
+          {
+            "h": "Für wen es geeignet ist",
+            "p": [
+              "Milde Säuren sind die Wahl für alle, bei denen klassische Säuren Reizungen verursachen: empfindliche, reaktive, zu Rötungen neigende Haut sowie unreine Haut, die eine behutsame Pflege der Poren braucht.",
+              "Die Dr.SANTE Produkte mit milden Säuren finden Sie auf der Markenseite. Teranova hilft bei der Auswahl und organisiert die Lieferung."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "PHA et LHA : des acides doux pour peau sensible",
+        "excerpt": "En quoi les PHA et les LHA se distinguent des AHA et des BHA et pourquoi on les choisit pour un renouvellement délicat de la peau sensible.",
+        "seoTitle": "PHA et LHA : des acides doux pour peau sensible · Teranova",
+        "seoDesc": "PHA et LHA face aux AHA/BHA : comment agissent les acides doux, pourquoi ils irritent moins et à qui ils conviennent. Aperçu Teranova à travers l'exemple des gammes Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Le renouvellement de la peau par les acides ne rime pas forcément avec irritation. Les PHA et les LHA sont des acides plus délicats, de plus en plus choisis pour les peaux sensibles et réactives. Voyons les différences."
+            ]
+          },
+          {
+            "h": "AHA et BHA : quelle différence",
+            "p": [
+              "Les AHA (par exemple l'acide glycolique, l'acide lactique) sont de petits acides hydrosolubles qui agissent sur toute la surface et peuvent augmenter la sensibilité au soleil. Le BHA (acide salicylique) est liposoluble, agit dans les pores et convient aux peaux grasses.",
+              "Les deux sont efficaces, mais peuvent être trop actifs pour une peau sensible."
+            ]
+          },
+          {
+            "h": "PHA : plus gros et plus doux",
+            "p": [
+              "Les PHA (poly-hydroxy-acides, par exemple la gluconolactone) sont des molécules plus grosses que les AHA, elles pénètrent donc plus lentement et irritent moins. Ils offrent une exfoliation douce ainsi que des propriétés hydratantes et antioxydantes, et augmentent moins la photosensibilité.",
+              "Selon des données comparatives, les PHA offrent un effet comparable à celui des AHA, mais en plus doux — ils conviennent aux peaux sensibles et sujettes à la rosacée."
+            ]
+          },
+          {
+            "h": "LHA : un renouvellement délicat",
+            "p": [
+              "Le LHA (acide lipo-hydroxylé) est un dérivé lipophile de l'acide salicylique. Il exfolie délicatement, au plus près du renouvellement naturel de la peau — plus doux que le BHA classique.",
+              "Chez Dr.SANTE, le complexe signature LHA-SOL™ est utilisé dans la gamme Artemisia AKA pour les peaux à problèmes ; des composants PHA/LHA sont aussi présents dans le sérum peeling Azulene Soother."
+            ]
+          },
+          {
+            "h": "À qui cela convient",
+            "p": [
+              "Les acides doux sont le choix idéal pour ceux à qui les acides classiques causent des irritations : peau sensible, réactive, sujette aux rougeurs, ainsi que peau à problèmes qui a besoin d'un travail délicat sur les pores.",
+              "Les produits Dr.SANTE aux acides doux sont sur la page de la marque. Teranova vous aide à faire votre choix et organise la livraison."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "PHA ve LHA: hassas cilt için nazik asitler",
+        "excerpt": "PHA ve LHA'nın AHA ve BHA'dan farkı ve hassas cildin nazik yenilenmesi için neden tercih edildikleri.",
+        "seoTitle": "PHA ve LHA: hassas cilt için nazik asitler · Teranova",
+        "seoDesc": "PHA ve LHA'ya karşı AHA/BHA: nazik asitler nasıl çalışır, neden daha az tahriş eder ve kime uygundur. Dr.SANTE serileri örneğinde Teranova incelemesi.",
+        "sections": [
+          {
+            "p": [
+              "Asitle cilt yenilenmesi mutlaka tahriş anlamına gelmez. PHA ve LHA, hassas ve reaktif cilt için giderek daha çok tercih edilen daha nazik asitlerdir. Farkları inceleyelim."
+            ]
+          },
+          {
+            "h": "AHA ve BHA — fark nedir",
+            "p": [
+              "AHA (örneğin glikolik, laktik) — küçük, suda çözünen asitlerdir, tüm yüzeyde çalışır ve güneşe karşı hassasiyeti artırabilir. BHA (salisilik) — yağda çözünür, gözeneklerde çalışır ve yağlı cilde uygundur.",
+              "Her ikisi de etkilidir, ancak hassas cilt için bazen fazla aktif olabilirler."
+            ]
+          },
+          {
+            "h": "PHA — daha büyük ve daha nazik",
+            "p": [
+              "PHA (polihidroksi asitler, örneğin glukonolakton) — AHA'dan daha büyük moleküllerdir, bu nedenle daha yavaş nüfuz eder ve daha az tahriş eder. Nazik eksfoliasyonun yanı sıra nemlendirici ve antioksidan özellikler sağlar ve ışığa duyarlılığı daha az artırır.",
+              "Karşılaştırmalı verilere göre PHA, AHA ile benzer bir etki sağlar ancak daha naziktir — hassas ve rozaseaya eğilimli cilde uygundur."
+            ]
+          },
+          {
+            "h": "LHA — nazik yenilenme",
+            "p": [
+              "LHA (lipohidroksi asit) — salisilik asidin lipofilik bir türevidir. Cildi hassas biçimde, cildin doğal yenilenmesine daha yakın şekilde arındırır — klasik BHA'dan daha naziktir.",
+              "Dr.SANTE'de özel LHA-SOL™, problemli cilt için Artemisia AKA serisinde kullanılır; PHA/LHA bileşenleri Azulene Soother peeling serumunda da bulunur."
+            ]
+          },
+          {
+            "h": "Kime uygundur",
+            "p": [
+              "Nazik asitler, klasik asitlerin tahrişe yol açtığı kişiler için bir seçenektir: hassas, reaktif, kızarıklığa eğilimli cilt ve ayrıca gözeneklerde nazik çalışma gerektiren problemli cilt.",
+              "Nazik asit içeren Dr.SANTE ürünleri marka sayfasındadır. Teranova seçime yardımcı olur ve tedariki organize eder."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "PHA y LHA: ácidos suaves para la piel sensible",
+        "excerpt": "En qué se diferencian los PHA y LHA de los AHA y BHA y por qué se eligen para la renovación delicada de la piel sensible.",
+        "seoTitle": "PHA y LHA: ácidos suaves para la piel sensible · Teranova",
+        "seoDesc": "PHA y LHA frente a AHA/BHA: cómo funcionan los ácidos suaves, por qué irritan menos y a quién le convienen. Reseña de Teranova con las líneas de Dr.SANTE como ejemplo.",
+        "sections": [
+          {
+            "p": [
+              "La renovación de la piel con ácidos no significa necesariamente irritación. Los PHA y LHA son ácidos más delicados que se eligen cada vez más para la piel sensible y reactiva. Veamos las diferencias."
+            ]
+          },
+          {
+            "h": "AHA y BHA: cuál es la diferencia",
+            "p": [
+              "Los AHA (por ejemplo, el glicólico o el láctico) son ácidos pequeños solubles en agua, actúan en toda la superficie y pueden aumentar la sensibilidad al sol. El BHA (salicílico) es liposoluble, actúa en los poros y conviene a la piel grasa.",
+              "Ambos son eficaces, pero para la piel sensible a veces resultan demasiado activos."
+            ]
+          },
+          {
+            "h": "PHA: más grandes y más suaves",
+            "p": [
+              "Los PHA (polihidroxiácidos, por ejemplo la gluconolactona) son moléculas más grandes que los AHA, por eso penetran más despacio e irritan menos. Aportan una exfoliación suave, además de propiedades hidratantes y antioxidantes, y aumentan menos la fotosensibilidad.",
+              "Según datos comparativos, los PHA dan un efecto comparable al de los AHA, pero más suave — convienen a la piel sensible y propensa a la rosácea."
+            ]
+          },
+          {
+            "h": "LHA: renovación delicada",
+            "p": [
+              "El LHA (ácido lipohidroxi) es un derivado lipófilo del ácido salicílico. Exfolia con delicadeza, más cerca de la renovación natural de la piel — más suave que el BHA clásico.",
+              "En Dr.SANTE el exclusivo LHA-SOL™ se usa en la línea Artemisia AKA para la piel con imperfecciones; los componentes PHA/LHA también están en el sérum exfoliante de Azulene Soother."
+            ]
+          },
+          {
+            "h": "A quién le conviene",
+            "p": [
+              "Los ácidos suaves son la opción para quienes se irritan con los ácidos clásicos: piel sensible, reactiva, propensa al enrojecimiento, así como piel con imperfecciones que necesita un trabajo delicado de los poros.",
+              "Los productos de Dr.SANTE con ácidos suaves están en la página de la marca. Teranova ayuda a seleccionarlos y organiza el suministro."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "PHA e LHA: ácidos suaves para a pele sensível",
+        "excerpt": "Como o PHA e o LHA se diferenciam do AHA e do BHA e por que são escolhidos para a renovação delicada da pele sensível.",
+        "seoTitle": "PHA e LHA: ácidos suaves para a pele sensível · Teranova",
+        "seoDesc": "PHA e LHA versus AHA/BHA: como funcionam os ácidos suaves, por que irritam menos e para quem são indicados. Análise da Teranova usando as linhas Dr.SANTE como exemplo.",
+        "sections": [
+          {
+            "p": [
+              "A renovação da pele com ácidos não significa necessariamente irritação. O PHA e o LHA são ácidos mais delicados, cada vez mais escolhidos para a pele sensível e reativa. Vamos ver as diferenças."
+            ]
+          },
+          {
+            "h": "AHA e BHA — qual é a diferença",
+            "p": [
+              "Os AHA (por exemplo, ácido glicólico, ácido láctico) são ácidos pequenos e solúveis em água, atuam por toda a superfície e podem aumentar a sensibilidade ao sol. O BHA (ácido salicílico) é solúvel em óleo, atua dentro dos poros e é indicado para a pele oleosa.",
+              "Ambos são eficazes, mas para a pele sensível podem ser ativos demais."
+            ]
+          },
+          {
+            "h": "PHA — maiores e mais suaves",
+            "p": [
+              "Os PHA (poli-hidroxiácidos, por exemplo a gluconolactona) têm moléculas maiores que as dos AHA, por isso penetram mais devagar e irritam menos. Proporcionam uma esfoliação suave, além de propriedades hidratantes e antioxidantes, e aumentam menos a fotossensibilidade.",
+              "Segundo dados comparativos, os PHA proporcionam um efeito comparável ao dos AHA, porém mais suave — são indicados para a pele sensível e com tendência à rosácea."
+            ]
+          },
+          {
+            "h": "LHA — renovação delicada",
+            "p": [
+              "O LHA (ácido lipo-hidroxi) é um derivado lipofílico do ácido salicílico. Ele esfolia de forma delicada, mais próxima da renovação natural da pele — mais suave que o BHA clássico.",
+              "Na Dr.SANTE, o exclusivo LHA-SOL™ é usado na linha Artemisia AKA para a pele problemática; componentes PHA/LHA também estão presentes no sérum peeling da Azulene Soother."
+            ]
+          },
+          {
+            "h": "Para quem é indicado",
+            "p": [
+              "Os ácidos suaves são a escolha para quem sente irritação com os ácidos clássicos: pele sensível, reativa, com tendência a vermelhidão, além da pele problemática que precisa de um trabalho delicado nos poros.",
+              "Os produtos Dr.SANTE com ácidos suaves estão na página da marca. A Teranova ajuda a selecionar e organiza a entrega."
+            ]
+          }
+        ]
+      }
+    },
+    "hero": "/img/suppliers/sante/products/azulene-soother-peel-serum-50ml.jpg"
+  },
+  {
+    "slug": "hyaluronic-vs-collagen",
+    "category": "overview",
+    "date": "2026-07-28",
+    "related": [
+      "sante",
+      "cosmetics",
+      "ondemand"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Гиалуроновая кислота и коллаген: в чём разница для кожи",
+        "excerpt": "Два популярных «возрастных» ингредиента — что каждый реально даёт коже и как их правильно сочетать. Честно, без мифов.",
+        "seoTitle": "Гиалуроновая кислота и коллаген: в чём разница · Teranova",
+        "seoDesc": "Гиалуроновая кислота и коллаген в уходе: что каждый реально даёт коже, чем отличаются и как их сочетать. Честный обзор Teranova на примере линеек Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "Гиалуроновую кислоту и коллаген часто ставят рядом как «ингредиенты молодости». На деле они работают по-разному. Разберём честно, что даёт каждый и как их сочетать."
+            ]
+          },
+          {
+            "h": "Гиалуроновая кислота — про влагу",
+            "p": [
+              "Гиалуроновая кислота — гумектант: притягивает и связывает воду, удерживает влагу в коже и снижает её потерю. Высокомолекулярная форма остаётся на поверхности и образует увлажняющую плёнку, низкомолекулярная проникает глубже в эпидермис.",
+              "Это естественный компонент кожи; комплексы разного веса увлажняют на нескольких уровнях (по данным производителей)."
+            ]
+          },
+          {
+            "h": "Коллаген — про поверхность и вид",
+            "p": [
+              "Наружный коллаген не проникает в дерму и не достраивает собственный коллаген. На поверхности он работает как плёнкообразователь и увлажнитель: удерживает влагу, временно разглаживает и визуально наполняет кожу. Гидролизованный коллаген (пептиды) — прежде всего для увлажнения и текстуры.",
+              "Честный эффект — увлажнение и ухоженный вид, а не структурное омоложение."
+            ]
+          },
+          {
+            "h": "Как сочетать",
+            "p": [
+              "Оба ингредиента дополняют друг друга: гиалуроновая кислота даёт увлажнение, коллаген — приятную текстуру и визуальную гладкость. Вместе они хорошо работают в возрастном и увлажняющем уходе.",
+              "У Dr.SANTE это линейки Hyalquad Core (гиалуроновая кислота) и Collagen Leader (коллаген)."
+            ]
+          },
+          {
+            "h": "Что запомнить",
+            "p": [
+              "Гиалуроновая кислота — про удержание влаги; коллаген в наружном уходе — про поверхностное увлажнение и вид. Реалистичные ожидания = довольный клиент и меньше возвратов.",
+              "Обе линейки Dr.SANTE и ориентировочные цены — на странице бренда. Teranova поможет собрать программу и организует поставку."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Hyaluronic Acid and Collagen: What's the Difference for Skin",
+        "excerpt": "Two popular \"anti-age\" ingredients — what each one really gives the skin and how to combine them correctly. Honestly, without the myths.",
+        "seoTitle": "Hyaluronic Acid and Collagen: What's the Difference · Teranova",
+        "seoDesc": "Hyaluronic acid and collagen in skincare: what each one really gives the skin, how they differ and how to combine them. An honest Teranova overview using Dr.SANTE lines as an example.",
+        "sections": [
+          {
+            "p": [
+              "Hyaluronic acid and collagen are often placed side by side as \"ingredients of youth.\" In reality they work differently. Let's go over honestly what each one provides and how to combine them."
+            ]
+          },
+          {
+            "h": "Hyaluronic acid — about moisture",
+            "p": [
+              "Hyaluronic acid is a humectant: it attracts and binds water, retains moisture in the skin and reduces its loss. The high-molecular-weight form stays on the surface and forms a hydrating film, while the low-molecular-weight form penetrates deeper into the epidermis.",
+              "It is a natural component of the skin; complexes of different weights hydrate on several levels (according to manufacturers)."
+            ]
+          },
+          {
+            "h": "Collagen — about the surface and the look",
+            "p": [
+              "Topical collagen does not penetrate into the dermis and does not rebuild the skin's own collagen. On the surface it works as a film-former and humectant: it retains moisture, temporarily smooths and visually plumps the skin. Hydrolyzed collagen (peptides) is first of all for hydration and texture.",
+              "The honest effect is hydration and a well-groomed look — not structural rejuvenation."
+            ]
+          },
+          {
+            "h": "How to combine them",
+            "p": [
+              "The two ingredients complement each other: hyaluronic acid provides hydration, collagen gives a pleasant texture and visual smoothness. Together they work well in anti-age and hydrating care.",
+              "At Dr.SANTE these are the Hyalquad Core (hyaluronic acid) and Collagen Leader (collagen) lines."
+            ]
+          },
+          {
+            "h": "What to remember",
+            "p": [
+              "Hyaluronic acid is about retaining moisture; collagen in topical care is about surface hydration and the look. Realistic expectations = a satisfied customer and fewer returns.",
+              "Both Dr.SANTE lines and approximate prices are on the brand page. Teranova will help you assemble the routine and arrange the delivery."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "히알루론산과 콜라겐: 피부에 어떤 차이가 있을까",
+        "excerpt": "인기 있는 두 가지 '안티에이징' 성분 — 각각이 피부에 실제로 무엇을 주고 어떻게 올바르게 조합할지. 솔직하게, 신화 없이.",
+        "seoTitle": "히알루론산과 콜라겐: 무엇이 다른가 · Teranova",
+        "seoDesc": "스킨케어에서 히알루론산과 콜라겐: 각각이 피부에 실제로 무엇을 주고, 무엇이 다르며, 어떻게 조합할지. Dr.SANTE 라인을 예로 든 Teranova의 솔직한 리뷰.",
+        "sections": [
+          {
+            "p": [
+              "히알루론산과 콜라겐은 흔히 '젊음의 성분'으로 나란히 놓입니다. 실제로는 서로 다르게 작용합니다. 각각이 무엇을 주고 어떻게 조합할지 솔직하게 살펴봅니다."
+            ]
+          },
+          {
+            "h": "히알루론산 — 수분에 관하여",
+            "p": [
+              "히알루론산은 휴멕턴트(보습제)입니다: 물을 끌어당겨 결합하고, 피부에 수분을 붙잡아 두며 수분 손실을 줄입니다. 고분자 형태는 표면에 남아 보습 막을 형성하고, 저분자 형태는 표피 더 깊숙이 침투합니다.",
+              "이는 피부의 천연 구성 성분이며, 서로 다른 분자량의 복합체는 여러 층위에서 수분을 공급합니다(제조사 자료에 따름)."
+            ]
+          },
+          {
+            "h": "콜라겐 — 표면과 겉모습에 관하여",
+            "p": [
+              "바르는 콜라겐은 진피까지 침투하지 않으며 피부 자체의 콜라겐을 새로 만들어 주지 않습니다. 표면에서는 피막 형성제이자 보습제로 작용합니다: 수분을 붙잡고, 일시적으로 매끈하게 하며, 피부를 시각적으로 탱탱하게 채워 줍니다. 가수분해 콜라겐(펩타이드)은 무엇보다 수분 공급과 결을 위한 것입니다.",
+              "솔직한 효과는 구조적 회춘이 아니라 수분 공급과 잘 관리된 인상입니다."
+            ]
+          },
+          {
+            "h": "어떻게 조합할까",
+            "p": [
+              "두 성분은 서로를 보완합니다: 히알루론산은 수분 공급을, 콜라겐은 좋은 사용감과 시각적 매끄러움을 줍니다. 함께 쓰면 안티에이징과 수분 케어에서 잘 어우러집니다.",
+              "Dr.SANTE에서는 Hyalquad Core(히알루론산) 라인과 Collagen Leader(콜라겐) 라인이 이에 해당합니다."
+            ]
+          },
+          {
+            "h": "기억할 점",
+            "p": [
+              "히알루론산은 수분 유지에 관한 것이고, 바르는 케어에서 콜라겐은 표면 수분 공급과 겉모습에 관한 것입니다. 현실적인 기대치 = 만족한 고객과 더 적은 반품.",
+              "두 Dr.SANTE 라인과 대략적인 가격은 브랜드 페이지에서 확인할 수 있습니다. Teranova가 프로그램 구성을 돕고 공급을 준비합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "透明质酸与胶原蛋白：对肌肤而言区别何在",
+        "excerpt": "两种热门的「抗龄」成分——各自真正能为肌肤带来什么，以及如何正确搭配。如实相告，不谈迷思。",
+        "seoTitle": "透明质酸与胶原蛋白：区别何在 · Teranova",
+        "seoDesc": "护肤中的透明质酸与胶原蛋白：各自真正能为肌肤带来什么、有何区别、如何搭配。Teranova 诚实评述，以 Dr.SANTE 系列为例。",
+        "sections": [
+          {
+            "p": [
+              "透明质酸和胶原蛋白常被相提并论，视为「青春成分」。实际上它们的作用方式并不相同。我们如实来分析各自的作用以及如何搭配。"
+            ]
+          },
+          {
+            "h": "透明质酸——关乎水分",
+            "p": [
+              "透明质酸是一种保湿剂（吸湿剂）：能吸附并结合水分，将水分留在肌肤中并减少流失。高分子量形态停留在肌肤表面、形成一层保湿膜，低分子量形态则渗透至表皮更深处。",
+              "它是肌肤本身的天然成分；不同分子量的复合物可在多个层面提供保湿（据生产商数据）。"
+            ]
+          },
+          {
+            "h": "胶原蛋白——关乎表层与外观",
+            "p": [
+              "外用胶原蛋白无法渗入真皮，也不会补充肌肤自身的胶原蛋白。它在肌肤表面作为成膜剂和保湿成分发挥作用：锁住水分、暂时抚平肌肤，并在视觉上让肌肤更显饱满。水解胶原蛋白（肽）主要用于保湿和改善肤质纹理。",
+              "如实来说，其效果是保湿和精致的外观，而非结构性的年轻化。"
+            ]
+          },
+          {
+            "h": "如何搭配",
+            "p": [
+              "两种成分相辅相成：透明质酸带来保湿，胶原蛋白带来宜人的肤感和视觉上的平滑。二者结合，在抗龄和保湿护理中表现出色。",
+              "在 Dr.SANTE 中，这就是 Hyalquad Core（透明质酸）和 Collagen Leader（胶原蛋白）系列。"
+            ]
+          },
+          {
+            "h": "需要记住的要点",
+            "p": [
+              "透明质酸关乎锁住水分；外用护肤中的胶原蛋白关乎表层保湿和外观。切合实际的预期＝满意的顾客和更少的退货。",
+              "两个 Dr.SANTE 系列及参考价格请见品牌页面。Teranova 将协助您搭建护理方案并安排供货。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "ヒアルロン酸とコラーゲン：肌にとっての違い",
+        "excerpt": "人気の2つの「エイジング」成分——それぞれが実際に肌にもたらすものと、正しい組み合わせ方。神話ぬきで、率直に。",
+        "seoTitle": "ヒアルロン酸とコラーゲン：その違い · Teranova",
+        "seoDesc": "スキンケアにおけるヒアルロン酸とコラーゲン：それぞれが実際に肌にもたらすもの、その違い、そして組み合わせ方。Dr.SANTEのラインを例にしたTeranovaの率直な解説。",
+        "sections": [
+          {
+            "p": [
+              "ヒアルロン酸とコラーゲンは、しばしば「若さの成分」として並べて語られます。実際には、両者の働き方は異なります。それぞれが何をもたらし、どう組み合わせるのかを、率直に見ていきましょう。"
+            ]
+          },
+          {
+            "h": "ヒアルロン酸——水分のための成分",
+            "p": [
+              "ヒアルロン酸はヒューメクタント（保湿剤）です：水分を引き寄せて抱え込み、肌に水分を保ち、その損失を抑えます。高分子のものは表面にとどまってうるおいの膜を作り、低分子のものは表皮のより深い層まで浸透します。",
+              "これは肌に本来ある成分で、分子量の異なる複合体は複数の層で保湿します（メーカーのデータによる）。"
+            ]
+          },
+          {
+            "h": "コラーゲン——表面と見た目のための成分",
+            "p": [
+              "外用のコラーゲンは真皮まで浸透せず、肌自身のコラーゲンを補うこともありません。表面では皮膜形成剤・保湿剤として働き、水分を保ち、一時的に肌をなめらかにし、見た目にハリを与えます。加水分解コラーゲン（ペプチド）は、何よりもまず保湿とテクスチャーのためのものです。",
+              "率直に言える効果は、保湿と手入れの行き届いた見た目であり、構造的な若返りではありません。"
+            ]
+          },
+          {
+            "h": "組み合わせ方",
+            "p": [
+              "2つの成分は互いを補い合います：ヒアルロン酸は保湿をもたらし、コラーゲンは心地よいテクスチャーと見た目のなめらかさをもたらします。組み合わせることで、エイジングケアや保湿ケアでうまく働きます。",
+              "Dr.SANTEでは、Hyalquad Core（ヒアルロン酸）とCollagen Leader（コラーゲン）のラインがこれにあたります。"
+            ]
+          },
+          {
+            "h": "覚えておきたいこと",
+            "p": [
+              "ヒアルロン酸は水分を保つための成分、外用ケアにおけるコラーゲンは表面の保湿と見た目のための成分です。現実的な期待＝満足する顧客と、返品の減少につながります。",
+              "Dr.SANTEの両ラインと参考価格は、ブランドページに掲載しています。Teranovaはプログラムの構築をお手伝いし、納品を手配します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Acido ialuronico e collagene: qual è la differenza per la pelle",
+        "excerpt": "Due popolari ingredienti «anti-età»: cosa dà davvero ciascuno alla pelle e come abbinarli correttamente. Con onestà, senza miti.",
+        "seoTitle": "Acido ialuronico e collagene: qual è la differenza · Teranova",
+        "seoDesc": "Acido ialuronico e collagene nella cura della pelle: cosa dà davvero ciascuno, in cosa differiscono e come abbinarli. Panoramica onesta Teranova sull'esempio delle linee Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "L'acido ialuronico e il collagene vengono spesso accostati come «ingredienti della giovinezza». In realtà agiscono in modo diverso. Vediamo con onestà cosa dà ciascuno e come abbinarli."
+            ]
+          },
+          {
+            "h": "Acido ialuronico: questione di idratazione",
+            "p": [
+              "L'acido ialuronico è un umettante: attira e lega l'acqua, trattiene l'idratazione nella pelle e ne riduce la perdita. La forma ad alto peso molecolare resta in superficie e forma una pellicola idratante, quella a basso peso molecolare penetra più in profondità nell'epidermide.",
+              "È un componente naturale della pelle; i complessi a peso diverso idratano su più livelli (secondo i produttori)."
+            ]
+          },
+          {
+            "h": "Collagene: questione di superficie e aspetto",
+            "p": [
+              "Il collagene topico non penetra nel derma e non ricostruisce il collagene proprio. In superficie agisce da agente filmogeno e idratante: trattiene l'acqua, leviga temporaneamente e riempie visivamente la pelle. Il collagene idrolizzato (peptidi) serve soprattutto per l'idratazione e la texture.",
+              "L'effetto onesto è idratazione e aspetto curato, non un ringiovanimento strutturale."
+            ]
+          },
+          {
+            "h": "Come abbinarli",
+            "p": [
+              "I due ingredienti si completano a vicenda: l'acido ialuronico dà idratazione, il collagene una texture piacevole e una levigatezza visiva. Insieme funzionano bene nella cura anti-età e idratante.",
+              "In Dr.SANTE sono le linee Hyalquad Core (acido ialuronico) e Collagen Leader (collagene)."
+            ]
+          },
+          {
+            "h": "Cosa ricordare",
+            "p": [
+              "L'acido ialuronico riguarda la ritenzione dell'acqua; il collagene nella cura topica riguarda l'idratazione superficiale e l'aspetto. Aspettative realistiche = cliente soddisfatto e meno resi.",
+              "Entrambe le linee Dr.SANTE e i prezzi indicativi sono nella pagina del brand. Teranova aiuta a comporre la routine e organizza la fornitura."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Hyaluronsäure und Kollagen: worin der Unterschied für die Haut liegt",
+        "excerpt": "Zwei beliebte „Anti-Aging“-Inhaltsstoffe — was jeder der Haut wirklich gibt und wie man sie richtig kombiniert. Ehrlich, ohne Mythen.",
+        "seoTitle": "Hyaluronsäure und Kollagen: worin der Unterschied liegt · Teranova",
+        "seoDesc": "Hyaluronsäure und Kollagen in der Pflege: was jeder der Haut wirklich gibt, worin sie sich unterscheiden und wie man sie kombiniert. Ehrlicher Überblick von Teranova am Beispiel der Dr.SANTE Linien.",
+        "sections": [
+          {
+            "p": [
+              "Hyaluronsäure und Kollagen werden oft nebeneinander als „Jugend-Inhaltsstoffe“ genannt. Tatsächlich wirken sie unterschiedlich. Wir erklären ehrlich, was jeder gibt und wie man sie kombiniert."
+            ]
+          },
+          {
+            "h": "Hyaluronsäure — für Feuchtigkeit",
+            "p": [
+              "Hyaluronsäure ist ein Humektant: Sie zieht Wasser an und bindet es, hält die Feuchtigkeit in der Haut und verringert deren Verlust. Die hochmolekulare Form bleibt an der Oberfläche und bildet einen feuchtigkeitsspendenden Film, die niedermolekulare dringt tiefer in die Epidermis ein.",
+              "Sie ist ein natürlicher Bestandteil der Haut; Komplexe mit unterschiedlichem Gewicht spenden Feuchtigkeit auf mehreren Ebenen (nach Angaben der Hersteller)."
+            ]
+          },
+          {
+            "h": "Kollagen — für Oberfläche und Aussehen",
+            "p": [
+              "Äußerlich aufgetragenes Kollagen dringt nicht in die Dermis ein und baut das körpereigene Kollagen nicht auf. An der Oberfläche wirkt es als Filmbildner und Feuchtigkeitsspender: Es bindet Feuchtigkeit, glättet vorübergehend und lässt die Haut optisch praller wirken. Hydrolysiertes Kollagen (Peptide) dient vor allem der Feuchtigkeit und dem Hautbild.",
+              "Der ehrliche Effekt ist Feuchtigkeit und ein gepflegtes Aussehen — keine strukturelle Verjüngung."
+            ]
+          },
+          {
+            "h": "Wie man sie kombiniert",
+            "p": [
+              "Beide Inhaltsstoffe ergänzen einander: Hyaluronsäure spendet Feuchtigkeit, Kollagen sorgt für ein angenehmes Hautgefühl und optische Glätte. Zusammen wirken sie gut in der Anti-Aging- und Feuchtigkeitspflege.",
+              "Bei Dr.SANTE sind das die Linien Hyalquad Core (Hyaluronsäure) und Collagen Leader (Kollagen)."
+            ]
+          },
+          {
+            "h": "Was man sich merken sollte",
+            "p": [
+              "Hyaluronsäure steht für das Binden von Feuchtigkeit; Kollagen in der äußerlichen Pflege für oberflächliche Feuchtigkeit und Aussehen. Realistische Erwartungen = zufriedene Kundschaft und weniger Retouren.",
+              "Beide Dr.SANTE Linien und ungefähre Preise finden Sie auf der Markenseite. Teranova hilft Ihnen, die Routine zusammenzustellen, und organisiert die Lieferung."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Acide hyaluronique et collagène : quelle différence pour la peau",
+        "excerpt": "Deux ingrédients « anti-âge » populaires : ce que chacun apporte réellement à la peau et comment bien les associer. En toute honnêteté, sans mythes.",
+        "seoTitle": "Acide hyaluronique et collagène : quelle différence · Teranova",
+        "seoDesc": "L'acide hyaluronique et le collagène dans le soin : ce que chacun apporte réellement à la peau, ce qui les distingue et comment les associer. Aperçu honnête Teranova à travers l'exemple des gammes Dr.SANTE.",
+        "sections": [
+          {
+            "p": [
+              "L'acide hyaluronique et le collagène sont souvent présentés côte à côte comme des « ingrédients de jeunesse ». En réalité, ils agissent différemment. Voyons honnêtement ce que chacun apporte et comment les associer."
+            ]
+          },
+          {
+            "h": "L'acide hyaluronique : une affaire d'hydratation",
+            "p": [
+              "L'acide hyaluronique est un humectant : il attire et lie l'eau, retient l'hydratation dans la peau et réduit sa perte. La forme de haut poids moléculaire reste en surface et forme un film hydratant, tandis que la forme de bas poids moléculaire pénètre plus profondément dans l'épiderme.",
+              "C'est un composant naturel de la peau ; les complexes de différents poids hydratent à plusieurs niveaux (selon les fabricants)."
+            ]
+          },
+          {
+            "h": "Le collagène : une affaire de surface et d'apparence",
+            "p": [
+              "Le collagène appliqué en surface ne pénètre pas dans le derme et ne reconstitue pas le collagène propre de la peau. En surface, il agit comme filmogène et agent hydratant : il retient l'eau, lisse temporairement et repulpe visuellement la peau. Le collagène hydrolysé (peptides) sert avant tout à l'hydratation et au grain de peau.",
+              "L'effet réel, en toute honnêteté, c'est l'hydratation et un aspect soigné, et non un rajeunissement structurel."
+            ]
+          },
+          {
+            "h": "Comment les associer",
+            "p": [
+              "Les deux ingrédients se complètent : l'acide hyaluronique apporte l'hydratation, le collagène une texture agréable et une douceur visuelle. Ensemble, ils fonctionnent bien dans le soin anti-âge et hydratant.",
+              "Chez Dr.SANTE, ce sont les gammes Hyalquad Core (acide hyaluronique) et Collagen Leader (collagène)."
+            ]
+          },
+          {
+            "h": "À retenir",
+            "p": [
+              "L'acide hyaluronique, c'est la rétention d'eau ; le collagène en soin topique, c'est l'hydratation de surface et l'apparence. Des attentes réalistes = un client satisfait et moins de retours.",
+              "Les deux gammes Dr.SANTE et les prix indicatifs sont sur la page de la marque. Teranova vous aide à composer la routine et organise la livraison."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Hyalüronik asit ve kolajen: cilt için fark nedir",
+        "excerpt": "İki popüler «yaşa bağlı» içerik — her biri cilde gerçekte ne verir ve doğru şekilde nasıl birleştirilir. Dürüstçe, mitler olmadan.",
+        "seoTitle": "Hyalüronik asit ve kolajen: fark nedir · Teranova",
+        "seoDesc": "Bakımda hyalüronik asit ve kolajen: her biri cilde gerçekte ne verir, nasıl farklılaşır ve nasıl birleştirilir. Dr.SANTE serileri örneğinde Teranova'nın dürüst incelemesi.",
+        "sections": [
+          {
+            "p": [
+              "Hyalüronik asit ve kolajen sıkça «gençlik içerikleri» olarak bir arada anılır. Aslında farklı şekilde çalışırlar. Her birinin ne verdiğini ve nasıl birleştirileceğini dürüstçe inceleyelim."
+            ]
+          },
+          {
+            "h": "Hyalüronik asit — nem hakkında",
+            "p": [
+              "Hyalüronik asit bir nemlendirici (humektan) maddedir: suyu çeker ve bağlar, cildde nemi tutar ve nem kaybını azaltır. Yüksek moleküler ağırlıklı form yüzeyde kalarak nemlendirici bir film oluşturur, düşük moleküler ağırlıklı form ise epidermise daha derinlemesine nüfuz eder.",
+              "Bu, cildin doğal bir bileşenidir; farklı ağırlıktaki kompleksler cildi birkaç seviyede nemlendirir (üretici verilerine göre)."
+            ]
+          },
+          {
+            "h": "Kolajen — yüzey ve görünüm hakkında",
+            "p": [
+              "Dıştan uygulanan kolajen dermise nüfuz etmez ve cildin kendi kolajenini yeniden inşa etmez. Yüzeyde film oluşturucu ve nemlendirici olarak çalışır: nemi tutar, geçici olarak pürüzsüzleştirir ve cildi görsel olarak dolgunlaştırır. Hidrolize kolajen (peptitler) — öncelikle nemlendirme ve doku içindir.",
+              "Dürüst etki — yapısal gençleşme değil, nemlendirme ve bakımlı bir görünümdür."
+            ]
+          },
+          {
+            "h": "Nasıl birleştirmeli",
+            "p": [
+              "Her iki içerik birbirini tamamlar: hyalüronik asit nemlendirme sağlar, kolajen ise hoş bir doku ve görsel pürüzsüzlük verir. Birlikte, yaşa bağlı ve nemlendirici bakımda iyi çalışırlar.",
+              "Dr.SANTE'de bunlar Hyalquad Core (hyalüronik asit) ve Collagen Leader (kolajen) serileridir."
+            ]
+          },
+          {
+            "h": "Ne hatırlamalı",
+            "p": [
+              "Hyalüronik asit nem tutmayla ilgilidir; dış bakımda kolajen ise yüzeysel nemlendirme ve görünümle ilgilidir. Gerçekçi beklentiler = memnun müşteri ve daha az iade.",
+              "Her iki Dr.SANTE serisi ve yaklaşık fiyatlar marka sayfasındadır. Teranova programı oluşturmaya yardımcı olur ve tedariki organize eder."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Ácido hialurónico y colágeno: cuál es la diferencia para la piel",
+        "excerpt": "Dos ingredientes «antiedad» populares: qué le aporta de verdad cada uno a la piel y cómo combinarlos bien. Con honestidad, sin mitos.",
+        "seoTitle": "Ácido hialurónico y colágeno: cuál es la diferencia · Teranova",
+        "seoDesc": "Ácido hialurónico y colágeno en el cuidado: qué le aporta de verdad cada uno a la piel, en qué se diferencian y cómo combinarlos. Reseña honesta de Teranova con las líneas de Dr.SANTE como ejemplo.",
+        "sections": [
+          {
+            "p": [
+              "El ácido hialurónico y el colágeno a menudo se ponen juntos como «ingredientes de la juventud». En realidad funcionan de forma diferente. Veamos con honestidad qué aporta cada uno y cómo combinarlos."
+            ]
+          },
+          {
+            "h": "El ácido hialurónico: sobre la humedad",
+            "p": [
+              "El ácido hialurónico es un humectante: atrae y liga el agua, retiene la humedad en la piel y reduce su pérdida. La forma de alto peso molecular permanece en la superficie y forma una película hidratante, y la de bajo peso molecular penetra más profundo en la epidermis.",
+              "Es un componente natural de la piel; los complejos de distinto peso hidratan en varios niveles (según los fabricantes)."
+            ]
+          },
+          {
+            "h": "El colágeno: sobre la superficie y el aspecto",
+            "p": [
+              "El colágeno tópico no penetra en la dermis ni reconstruye el propio colágeno. En la superficie actúa como formador de película y agente hidratante: retiene la humedad, alisa de forma temporal y rellena la piel visualmente. El colágeno hidrolizado (péptidos) sirve ante todo para la hidratación y la textura.",
+              "El efecto honesto es hidratación y un aspecto cuidado, no un rejuvenecimiento estructural."
+            ]
+          },
+          {
+            "h": "Cómo combinarlos",
+            "p": [
+              "Ambos ingredientes se complementan: el ácido hialurónico aporta hidratación, y el colágeno, una textura agradable y una suavidad visual. Juntos funcionan bien en el cuidado antiedad e hidratante.",
+              "En Dr.SANTE son las líneas Hyalquad Core (ácido hialurónico) y Collagen Leader (colágeno)."
+            ]
+          },
+          {
+            "h": "Qué recordar",
+            "p": [
+              "El ácido hialurónico es sobre la retención de la humedad; el colágeno en el cuidado tópico es sobre la hidratación superficial y el aspecto. Expectativas realistas = cliente satisfecho y menos devoluciones.",
+              "Ambas líneas de Dr.SANTE y los precios orientativos están en la página de la marca. Teranova ayuda a armar la rutina y organiza el suministro."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Ácido hialurônico e colágeno: qual é a diferença para a pele",
+        "excerpt": "Dois ingredientes 'anti-idade' populares — o que cada um realmente oferece à pele e como combiná-los corretamente. Com honestidade, sem mitos.",
+        "seoTitle": "Ácido hialurônico e colágeno: qual é a diferença · Teranova",
+        "seoDesc": "Ácido hialurônico e colágeno nos cuidados: o que cada um realmente oferece à pele, em que diferem e como combiná-los. Análise honesta da Teranova usando as linhas Dr.SANTE como exemplo.",
+        "sections": [
+          {
+            "p": [
+              "O ácido hialurônico e o colágeno costumam ser colocados lado a lado como 'ingredientes da juventude'. Na prática, eles funcionam de formas diferentes. Vamos analisar com honestidade o que cada um oferece e como combiná-los."
+            ]
+          },
+          {
+            "h": "Ácido hialurônico — questão de umidade",
+            "p": [
+              "O ácido hialurônico é um umectante: atrai e liga a água, retém a umidade na pele e reduz sua perda. A forma de alto peso molecular permanece na superfície e forma uma película hidratante, enquanto a de baixo peso molecular penetra mais fundo na epiderme.",
+              "É um componente natural da pele; complexos de diferentes pesos hidratam em vários níveis (segundo os fabricantes)."
+            ]
+          },
+          {
+            "h": "Colágeno — questão de superfície e aparência",
+            "p": [
+              "O colágeno tópico não penetra na derme nem reconstrói o colágeno próprio. Na superfície, ele atua como formador de película e umectante: retém a umidade, alisa temporariamente e preenche a pele visualmente. O colágeno hidrolisado (peptídeos) serve, antes de tudo, para hidratação e textura.",
+              "O efeito honesto é hidratação e um aspecto cuidado, não um rejuvenescimento estrutural."
+            ]
+          },
+          {
+            "h": "Como combinar",
+            "p": [
+              "Os dois ingredientes se complementam: o ácido hialurônico proporciona hidratação, e o colágeno, uma textura agradável e maciez visual. Juntos, funcionam bem no cuidado anti-idade e hidratante.",
+              "Na Dr.SANTE, são as linhas Hyalquad Core (ácido hialurônico) e Collagen Leader (colágeno)."
+            ]
+          },
+          {
+            "h": "O que memorizar",
+            "p": [
+              "O ácido hialurônico tem a ver com a retenção de umidade; o colágeno no cuidado tópico, com a hidratação superficial e a aparência. Expectativas realistas = cliente satisfeito e menos devoluções.",
+              "As duas linhas Dr.SANTE e os preços aproximados estão na página da marca. A Teranova ajuda a montar a rotina e organiza a entrega."
+            ]
+          }
+        ]
+      }
+    }
   }
 ]
