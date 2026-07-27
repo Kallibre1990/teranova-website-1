@@ -6,6 +6,7 @@ export const pt: UIDict = {
   langName: 'Português',
 
   nav: {
+    blog: "Conteúdos",
     catalog: 'Catálogo',
     buyers: 'Para compradores',
     verify: 'Como verificamos',
@@ -197,6 +198,14 @@ export const pt: UIDict = {
   },
 
   pages: {
+    blog: {
+      title: "Conteúdos e guias",
+      sub: "Material prático sobre o trabalho com fornecedores coreanos: certificação, OEM/ODM, logística e verificação.",
+      cat_guide: "Guia",
+      cat_overview: "Visão geral",
+      read_more: "Ler",
+      related_h: "Relacionados",
+    },
     catalog: {
       title: 'Catálogo de frentes',
       sub: 'Sete frentes de sourcing da Coreia. Abra uma frente para ver os subnichos e os fornecedores verificados. O catálogo está em preenchimento — alguns cards são amostras demonstrativas.',

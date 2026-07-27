@@ -1,0 +1,56 @@
+---
+/* Blog index — listing of articles as cards, Teranova brand style. */
+import PageHead from './PageHead.astro';
+import { localizePath } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { postsByDate, postContent } from '../../data/blog';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.blog;
+const catLabel = (c: string) => (c === 'guide' ? p.cat_guide : p.cat_overview);
+---
+
+<PageHead sup={t.nav.blog} title={p.title} sub={p.sub} />
+
+<section class="section">
+  <div class="wrap">
+    <div class="blog-grid">
+      {
+        postsByDate.map((post) => {
+          const c = postContent(post, lang);
+          return (
+            <a class="blog-card" href={localizePath(`/blog/${post.slug}`, lang)}>
+              <span class="blog-card__cat">{catLabel(post.category)}</span>
+              <h2 class="blog-card__title">{c.title}</h2>
+              <p class="blog-card__excerpt">{c.excerpt}</p>
+              <span class="blog-card__more">{p.read_more} →</span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .blog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .blog-card {
+    display: flex; flex-direction: column;
+    background: #fff; border: 1px solid #e4ebf3; border-radius: var(--r, 14px);
+    padding: 26px 28px; box-shadow: 0 1px 2px rgba(18,48,110,.05);
+    transition: transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s;
+  }
+  .blog-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(18,48,110,.12); border-color: color-mix(in srgb, var(--cobalt) 40%, #e4ebf3); }
+  .blog-card__cat {
+    align-self: flex-start; font-size: 0.68rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--cobalt); background: color-mix(in srgb, var(--cobalt) 9%, #fff);
+    border: 1px solid color-mix(in srgb, var(--cobalt) 22%, transparent); border-radius: 6px; padding: 4px 9px; margin-bottom: 14px;
+  }
+  .blog-card__title { font-size: 1.24rem; font-weight: 800; color: #16233d; line-height: 1.25; letter-spacing: -0.02em; }
+  .blog-card__excerpt { font-size: 0.95rem; color: #45576f; line-height: 1.6; margin-top: 10px; flex: 1; }
+  .blog-card__more { margin-top: 18px; font-weight: 700; color: var(--cobalt); font-size: 0.92rem; }
+  @media (max-width: 720px) { .blog-grid { grid-template-columns: 1fr; } }
+</style>

@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const ja: DeepPartial<UIDict> = {
   nav: {
+    blog: "インサイト",
     catalog: "カタログ",
     verify: "検証の方法",
     buyers: "バイヤー様へ",
@@ -169,6 +170,14 @@ const ja: DeepPartial<UIDict> = {
   },
 
   pages: {
+    blog: {
+      title: "インサイトとガイド",
+      sub: "韓国サプライヤーとの取引に関する実務資料：認証、OEM/ODM、物流、検証。",
+      cat_guide: "ガイド",
+      cat_overview: "概要",
+      read_more: "読む",
+      related_h: "関連記事",
+    },
     cosmetics: {
       intro_sup: "化粧品 · K-BEAUTY",
       intro_title: "韓国コスメ — お客様のブランド、数量、市場に合わせて",

@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const tr: DeepPartial<UIDict> = {
   nav: {
+    blog: "İçerikler",
     catalog: "Katalog",
     verify: "Nasıl doğruluyoruz",
     buyers: "Alıcılar için",
@@ -177,6 +178,14 @@ const tr: DeepPartial<UIDict> = {
   },
 
   pages: {
+    blog: {
+      title: "İçerikler ve rehberler",
+      sub: "Koreli tedarikçilerle çalışma üzerine pratik içerikler: sertifikasyon, OEM/ODM, lojistik ve doğrulama.",
+      cat_guide: "Rehber",
+      cat_overview: "Genel bakış",
+      read_more: "Oku",
+      related_h: "İlgili içerikler",
+    },
     cosmetics: {
       intro_sup: "KOZMETİK · K-BEAUTY",
       intro_title: "Kore kozmetiği — kendi markanız, kendi hacminiz, kendi pazarınız için",

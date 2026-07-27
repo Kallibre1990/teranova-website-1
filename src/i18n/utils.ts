@@ -41,6 +41,7 @@ export function mainNav(lang: Lang): { label: string; href: string }[] {
     { label: t.nav.tenders, href: localizePath('/tenders', lang) },
     { label: t.nav.verify, href: localizePath('/how-we-verify', lang) },
     { label: t.nav.faq, href: localizePath('/faq', lang) },
+    { label: t.nav.blog, href: localizePath('/blog', lang) },
     { label: t.nav.team, href: localizePath('/about', lang) + '#team' },
     { label: t.nav.contacts, href: localizePath('/contacts', lang) },
   ];

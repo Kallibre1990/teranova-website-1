@@ -6,6 +6,7 @@ export const en: UIDict = {
   langName: 'English',
 
   nav: {
+    blog: "Insights",
     catalog: 'Catalog',
     buyers: 'For buyers',
     verify: 'How we verify',
@@ -197,6 +198,14 @@ export const en: UIDict = {
   },
 
   pages: {
+    blog: {
+      title: "Insights & guides",
+      sub: "Practical material on working with Korean suppliers: certification, OEM/ODM, logistics and verification.",
+      cat_guide: "Guide",
+      cat_overview: "Overview",
+      read_more: "Read",
+      related_h: "Related",
+    },
     catalog: {
       title: 'Catalog of directions',
       sub: 'Seven sourcing directions from Korea. Open a direction to see sub-niches and verified suppliers. The catalog is being populated — some cards are demonstration samples.',

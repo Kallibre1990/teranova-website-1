@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const de: DeepPartial<UIDict> = {
   nav: {
+    blog: "Wissen",
     catalog: "Katalog",
     verify: "Wie wir prüfen",
     buyers: "Für Käufer",
@@ -177,6 +178,14 @@ const de: DeepPartial<UIDict> = {
   },
 
   pages: {
+    blog: {
+      title: "Wissen & Leitfäden",
+      sub: "Praxiswissen zur Zusammenarbeit mit koreanischen Lieferanten: Zertifizierung, OEM/ODM, Logistik und Prüfung.",
+      cat_guide: "Leitfaden",
+      cat_overview: "Überblick",
+      read_more: "Lesen",
+      related_h: "Auch interessant",
+    },
     cosmetics: {
       intro_sup: "KOSMETIK · K-BEAUTY",
       intro_title: "Koreanische Kosmetik — unter Ihrer Marke, in Ihrer Menge, für Ihren Markt",

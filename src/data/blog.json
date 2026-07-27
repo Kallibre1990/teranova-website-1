@@ -1,0 +1,1865 @@
+[
+  {
+    "slug": "korean-cosmetics-certifications",
+    "category": "guide",
+    "date": "2026-07-27",
+    "related": [
+      "sante",
+      "cosmetics",
+      "verify"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Сертификаты корейской косметики: CPNP, MoCRA, NMPA, HALAL и другие",
+        "excerpt": "Короткий навигатор по косметическим регистрациям, которые спрашивают импортёры: что означает каждая, для какого рынка нужна и что просить у корейского поставщика.",
+        "seoTitle": "Сертификаты корейской косметики: CPNP, MoCRA, NMPA, HALAL — гид для импорта · Teranova",
+        "seoDesc": "Что означают CPNP, MoCRA, NMPA, HALAL и SCPN, для каких рынков нужны и что запрашивать у корейского производителя косметики. Практический навигатор от Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Когда вы закупаете косметику из Кореи для перепродажи, первый практический вопрос — под какой рынок продукт уже подготовлен по документам. У каждого крупного рынка своя система уведомления или регистрации, и от неё зависит, сможете ли вы легально ввезти и продавать товар.",
+              "Ниже — короткий разбор регистраций, которые чаще всего указывают корейские производители, включая тех, с кем работает Teranova."
+            ]
+          },
+          {
+            "h": "CPNP — Европейский союз",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) — портал уведомления о косметике в ЕС. Уведомление обязательно до вывода продукта на рынок Евросоюза; за ним стоит ответственное лицо (Responsible Person) в ЕС и полное досье о продукте.",
+              "Если позиция уже прошла уведомление CPNP, это заметно упрощает выход на рынки ЕС."
+            ]
+          },
+          {
+            "h": "MoCRA — США",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) — обновлённое косметическое регулирование США. Оно вводит регистрацию предприятий и листинг продукции, требования к безопасности и маркировке.",
+              "Отметка о соответствии MoCRA у поставщика — сигнал, что производитель ориентирован на американский рынок."
+            ]
+          },
+          {
+            "h": "NMPA — Китай",
+            "p": [
+              "NMPA (National Medical Products Administration) — регистрация и нотификация косметики в Китае. Требования Китая одни из самых строгих, поэтому наличие NMPA хотя бы по части ассортимента — заметное преимущество."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL и другие отметки",
+            "p": [
+              "SCPN — уведомление о косметической продукции, применяемое для ряда рынков. HALAL — сертификация халяль для мусульманских рынков (Индонезия, Малайзия, Ближний Восток). Встречаются и другие отметки, например DAV.",
+              "Важно понимать: списки продукции по сертификациям, которые присылает производитель, — это его собственные данные, а не копии официальных свидетельств. Копии подтверждающих документов запрашиваются отдельно на стадии сделки."
+            ]
+          },
+          {
+            "h": "Что просить у поставщика",
+            "p": [
+              "Практический минимум: под какие рынки продукт уже подготовлен (CPNP / MoCRA / NMPA и т.д.), по каким конкретным позициям это подтверждено и какие документы производитель готов предоставить при заключении контракта.",
+              "Teranova собирает эти данные по каждому проверенному поставщику и запрашивает подтверждения, чтобы вы сразу видели, что подходит под ваш рынок. Пример — профиль Dr.SANTE, где регистрации указаны по отдельным позициям."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Korean Cosmetics Certifications: CPNP, MoCRA, NMPA, HALAL and More",
+        "excerpt": "A short guide to the cosmetic registrations importers ask about: what each one means, which market it is needed for, and what to request from a Korean supplier.",
+        "seoTitle": "Korean Cosmetics Certifications: CPNP, MoCRA, NMPA, HALAL — Import Guide · Teranova",
+        "seoDesc": "What CPNP, MoCRA, NMPA, HALAL and SCPN mean, which markets they are needed for, and what to request from a Korean cosmetics manufacturer. A practical guide from Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "When you source cosmetics from Korea for resale, the first practical question is which market the product is already documented for. Each major market has its own notification or registration system, and it determines whether you can legally import and sell the product.",
+              "Below is a short breakdown of the registrations Korean manufacturers most often list, including those Teranova works with."
+            ]
+          },
+          {
+            "h": "CPNP — European Union",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) is the EU cosmetics notification portal. Notification is mandatory before a product is placed on the European Union market; behind it stand a Responsible Person in the EU and a complete product dossier.",
+              "If an item has already completed CPNP notification, it noticeably simplifies entry into EU markets."
+            ]
+          },
+          {
+            "h": "MoCRA — United States",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) is the updated U.S. cosmetics regulation. It introduces facility registration and product listing, along with safety and labeling requirements.",
+              "A MoCRA compliance marker from a supplier is a signal that the manufacturer is oriented toward the American market."
+            ]
+          },
+          {
+            "h": "NMPA — China",
+            "p": [
+              "NMPA (National Medical Products Administration) covers cosmetics registration and notification in China. China's requirements are among the strictest, so having NMPA for at least part of the range is a notable advantage."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL and Other Markers",
+            "p": [
+              "SCPN is a cosmetic product notification used for a number of markets. HALAL is halal certification for Muslim markets (Indonesia, Malaysia, the Middle East). Other markers also appear, for example DAV.",
+              "It is important to understand: the certification-based product lists a manufacturer sends are its own data, not copies of official certificates. Copies of supporting documents are requested separately at the deal stage."
+            ]
+          },
+          {
+            "h": "What to Request From a Supplier",
+            "p": [
+              "The practical minimum: which markets the product is already prepared for (CPNP / MoCRA / NMPA, etc.), for which specific items this is confirmed, and which documents the manufacturer is ready to provide upon signing a contract.",
+              "Teranova collects this data for every vetted supplier and requests confirmations so you can see right away what fits your market. One example is the Dr.SANTE profile, where registrations are listed per individual item."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "한국 화장품 인증: CPNP, MoCRA, NMPA, HALAL 등",
+        "excerpt": "수입업체가 자주 문의하는 화장품 등록 제도에 대한 간단한 안내: 각 제도가 무엇을 의미하는지, 어떤 시장에 필요한지, 그리고 한국 공급업체에 무엇을 요청해야 하는지.",
+        "seoTitle": "한국 화장품 인증 CPNP, MoCRA, NMPA, HALAL — 수입 가이드 · Teranova",
+        "seoDesc": "CPNP, MoCRA, NMPA, HALAL, SCPN의 의미와 필요한 시장, 그리고 한국 화장품 제조사에 요청할 서류. Teranova Group의 실무 가이드.",
+        "sections": [
+          {
+            "p": [
+              "재판매를 위해 한국 화장품을 소싱할 때 가장 먼저 부딪히는 실무적 질문은, 해당 제품이 서류상 어떤 시장에 맞춰 준비되어 있는가입니다. 주요 시장마다 고유의 신고 또는 등록 제도가 있으며, 이에 따라 제품을 합법적으로 수입하고 판매할 수 있는지가 결정됩니다.",
+              "아래에서는 Teranova가 협력하는 제조사를 포함해 한국 제조사들이 가장 자주 언급하는 등록 제도를 간단히 정리합니다."
+            ]
+          },
+          {
+            "h": "CPNP — 유럽연합",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal)는 EU의 화장품 신고 포털입니다. 제품을 유럽연합 시장에 출시하기 전 신고가 의무이며, 그 배경에는 EU 내 책임자(Responsible Person)와 완전한 제품 정보 파일이 있습니다.",
+              "특정 품목이 이미 CPNP 신고를 마쳤다면, EU 시장 진출이 한결 수월해집니다."
+            ]
+          },
+          {
+            "h": "MoCRA — 미국",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act)는 미국의 개정된 화장품 규제입니다. 시설 등록과 제품 리스팅, 안전성 및 라벨링 요건을 도입합니다.",
+              "공급업체가 MoCRA 준수를 표기했다면, 이는 해당 제조사가 미국 시장을 겨냥하고 있다는 신호입니다."
+            ]
+          },
+          {
+            "h": "NMPA — 중국",
+            "p": [
+              "NMPA (National Medical Products Administration)는 중국의 화장품 등록 및 신고 제도입니다. 중국의 요건은 가장 까다로운 편에 속하므로, 일부 품목이라도 NMPA를 갖추고 있다면 뚜렷한 강점이 됩니다."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL 및 기타 인증 표기",
+            "p": [
+              "SCPN은 여러 시장에서 적용되는 화장품 신고 제도입니다. HALAL은 이슬람권 시장(인도네시아, 말레이시아, 중동)을 위한 할랄 인증입니다. 이 밖에 DAV와 같은 표기도 볼 수 있습니다.",
+              "한 가지 유념할 점은, 제조사가 보내오는 인증별 제품 목록은 제조사 자체 데이터일 뿐 공식 증명서 사본이 아니라는 것입니다. 증빙 서류 사본은 거래 단계에서 별도로 요청합니다."
+            ]
+          },
+          {
+            "h": "공급업체에 무엇을 요청할 것인가",
+            "p": [
+              "실무적으로 최소한 다음을 확인하세요: 제품이 이미 어떤 시장에 맞춰 준비되어 있는지(CPNP / MoCRA / NMPA 등), 구체적으로 어떤 품목에 대해 확인되었는지, 그리고 계약 체결 시 제조사가 제공할 수 있는 서류는 무엇인지.",
+              "Teranova는 검증된 공급업체마다 이러한 데이터를 수집하고 증빙을 요청하여, 귀사의 시장에 어떤 제품이 적합한지 바로 확인할 수 있도록 합니다. 예를 들어 Dr.SANTE 프로필에서는 등록 현황이 품목별로 표기되어 있습니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "韩国化妆品认证：CPNP、MoCRA、NMPA、HALAL 及其他",
+        "excerpt": "为进口商梳理常被问及的化妆品注册：每一项的含义、面向哪个市场、以及应向韩国供应商索取哪些资料。",
+        "seoTitle": "韩国化妆品认证：CPNP、MoCRA、NMPA、HALAL 进口指南 · Teranova",
+        "seoDesc": "CPNP、MoCRA、NMPA、HALAL 和 SCPN 分别代表什么、面向哪些市场，以及应向韩国化妆品制造商索取哪些资料。Teranova Group 实用指南。",
+        "sections": [
+          {
+            "p": [
+              "当您从韩国采购化妆品用于转售时，第一个实际问题是：从文件层面看，该产品已针对哪个市场做好准备。每个主要市场都有各自的备案或注册体系，它决定了您能否合法进口并销售该商品。",
+              "以下简要梳理韩国制造商（包括与 Teranova 合作的制造商）最常提及的几类注册。"
+            ]
+          },
+          {
+            "h": "CPNP — 欧盟",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) 是欧盟的化妆品备案门户。产品进入欧盟市场前必须完成备案；其背后需有欧盟境内的责任人（Responsible Person）以及完整的产品档案。",
+              "如果某款产品已完成 CPNP 备案，进入欧盟市场会明显更为顺畅。"
+            ]
+          },
+          {
+            "h": "MoCRA — 美国",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) 是美国更新后的化妆品监管法规。它引入了企业注册与产品列名，以及安全性和标签方面的要求。",
+              "供应商标注符合 MoCRA，表明该制造商面向美国市场。"
+            ]
+          },
+          {
+            "h": "NMPA — 中国",
+            "p": [
+              "NMPA (National Medical Products Administration) 对应中国的化妆品注册与备案。中国的要求属于最为严格的一类，因此哪怕只有部分产品取得 NMPA，也是一项明显的优势。"
+            ]
+          },
+          {
+            "h": "SCPN、HALAL 及其他标注",
+            "p": [
+              "SCPN 是适用于部分市场的化妆品备案。HALAL 是面向穆斯林市场（印度尼西亚、马来西亚、中东）的清真认证。此外也会见到其他标注，例如 DAV。",
+              "需要明确的是：制造商提供的按认证分类的产品清单属于其自行申报的数据，而非官方证书的副本。证明文件的副本需在交易阶段另行索取。"
+            ]
+          },
+          {
+            "h": "应向供应商索取什么",
+            "p": [
+              "实用的最低要求：产品已针对哪些市场做好准备（CPNP / MoCRA / NMPA 等）、具体是哪些产品得到确认，以及制造商在签约时愿意提供哪些文件。",
+              "Teranova 会针对每一家经过核实的供应商收集这些数据并索取证明，让您一目了然地看到哪些产品适合您的市场。以 Dr.SANTE 的资料页为例，其注册信息是按单个产品逐项列出的。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "韓国化粧品の認証:CPNP、MoCRA、NMPA、HALALなど",
+        "excerpt": "輸入業者からよく問い合わせのある化粧品登録の要点をまとめたガイド。それぞれの意味、対象となる市場、そして韓国のサプライヤーに何を求めるべきかを解説します。",
+        "seoTitle": "韓国化粧品の認証:CPNP・MoCRA・NMPA・HALAL 輸入ガイド · Teranova",
+        "seoDesc": "CPNP・MoCRA・NMPA・HALAL・SCPNの意味、対象市場、そして韓国の化粧品メーカーに確認すべき事項を解説。Teranova Groupによる実務ガイドです。",
+        "sections": [
+          {
+            "p": [
+              "韓国から化粧品を仕入れて再販する際、まず実務上問題になるのは、その製品が書類上どの市場向けに準備済みかという点です。主要な市場にはそれぞれ独自の届出・登録制度があり、これによって商品を合法的に輸入・販売できるかどうかが決まります。",
+              "以下では、Teranovaが取引するメーカーを含め、韓国の製造業者が最もよく提示する登録について簡潔に整理します。"
+            ]
+          },
+          {
+            "h": "CPNP — 欧州連合(EU)",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) は、EUにおける化粧品の届出ポータルです。EU市場に製品を投入する前の届出が義務付けられており、その背後にはEU域内の責任者(Responsible Person)と製品に関する完全なドシエ(製品情報ファイル)が必要です。",
+              "ある品目がすでにCPNP届出を完了していれば、EU市場への参入は大幅に容易になります。"
+            ]
+          },
+          {
+            "h": "MoCRA — 米国",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) は、米国の刷新された化粧品規制です。施設登録と製品リスティング、安全性および表示に関する要件を導入しています。",
+              "サプライヤーによるMoCRA適合の表示は、そのメーカーが米国市場を志向していることを示すサインです。"
+            ]
+          },
+          {
+            "h": "NMPA — 中国",
+            "p": [
+              "NMPA (National Medical Products Administration) は、中国における化粧品の登録・届出制度です。中国の要件は最も厳格なものの一つであるため、一部の品目だけでもNMPAを取得していることは大きな強みとなります。"
+            ]
+          },
+          {
+            "h": "SCPN、HALALその他の表示",
+            "p": [
+              "SCPNは、いくつかの市場で用いられる化粧品の届出です。HALALは、イスラム圏市場(インドネシア、マレーシア、中東)向けのハラル認証です。このほかDAVなどの表示も見られます。",
+              "留意すべき点として、メーカーが送付する認証別の製品リストは、あくまでメーカー自身のデータであり、公式な証明書の写しではありません。証明書類の写しは、取引の段階で別途請求します。"
+            ]
+          },
+          {
+            "h": "サプライヤーに確認すべきこと",
+            "p": [
+              "実務上の最低限として、製品がどの市場向けにすでに準備済みか(CPNP / MoCRA / NMPA など)、それが具体的にどの品目で確認されているか、そして契約締結時にメーカーがどの書類を提供できるかを確認します。",
+              "Teranovaは、審査済みの各サプライヤーについてこれらのデータを収集し、裏付けを取得することで、貴社の市場に適した製品をひと目で把握できるようにしています。一例として、登録が品目ごとに記載されているDr.SANTEのプロフィールがあります。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Certificazioni dei cosmetici coreani: CPNP, MoCRA, NMPA, HALAL e altre",
+        "excerpt": "Una breve guida alle registrazioni cosmetiche che gli importatori richiedono: cosa significa ciascuna, per quale mercato serve e cosa chiedere al fornitore coreano.",
+        "seoTitle": "Certificazioni cosmetici coreani: CPNP, MoCRA, NMPA, HALAL — guida all'import · Teranova",
+        "seoDesc": "Cosa significano CPNP, MoCRA, NMPA, HALAL e SCPN, per quali mercati servono e cosa richiedere al produttore coreano di cosmetici. Guida pratica di Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Quando acquistate cosmetici dalla Corea per la rivendita, la prima domanda pratica è per quale mercato il prodotto è già predisposto dal punto di vista documentale. Ogni mercato importante ha il proprio sistema di notifica o registrazione, da cui dipende la possibilità di importare e vendere legalmente la merce.",
+              "Di seguito una breve analisi delle registrazioni che i produttori coreani indicano più spesso, compresi quelli con cui collabora Teranova."
+            ]
+          },
+          {
+            "h": "CPNP — Unione Europea",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) è il portale di notifica dei cosmetici nell'UE. La notifica è obbligatoria prima dell'immissione del prodotto sul mercato dell'Unione Europea; dietro di essa vi sono una persona responsabile (Responsible Person) nell'UE e un dossier completo del prodotto.",
+              "Se un articolo ha già completato la notifica CPNP, l'ingresso sui mercati dell'UE risulta notevolmente più semplice."
+            ]
+          },
+          {
+            "h": "MoCRA — Stati Uniti",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) è la normativa cosmetica aggiornata degli Stati Uniti. Introduce la registrazione degli stabilimenti e l'elenco dei prodotti, oltre a requisiti di sicurezza ed etichettatura.",
+              "L'indicazione di conformità a MoCRA da parte del fornitore è un segnale che il produttore è orientato al mercato statunitense."
+            ]
+          },
+          {
+            "h": "NMPA — Cina",
+            "p": [
+              "NMPA (National Medical Products Administration) è la registrazione e notifica dei cosmetici in Cina. I requisiti cinesi sono tra i più rigorosi, perciò la presenza di NMPA anche solo su una parte dell'assortimento è un vantaggio significativo."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL e altre indicazioni",
+            "p": [
+              "SCPN è una notifica di prodotti cosmetici utilizzata per diversi mercati. HALAL è la certificazione halal per i mercati musulmani (Indonesia, Malesia, Medio Oriente). Si incontrano anche altre indicazioni, ad esempio DAV.",
+              "È importante capire che gli elenchi di prodotti per certificazione forniti dal produttore sono suoi dati propri, non copie di certificati ufficiali. Le copie dei documenti giustificativi si richiedono separatamente in fase di trattativa."
+            ]
+          },
+          {
+            "h": "Cosa chiedere al fornitore",
+            "p": [
+              "Il minimo pratico: per quali mercati il prodotto è già predisposto (CPNP / MoCRA / NMPA ecc.), per quali articoli specifici ciò è documentato e quali documenti il produttore è disposto a fornire alla firma del contratto.",
+              "Teranova raccoglie questi dati per ogni fornitore verificato e richiede i relativi giustificativi, così potete vedere subito cosa è adatto al vostro mercato. Un esempio è il profilo Dr.SANTE, dove le registrazioni sono indicate per singoli articoli."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Zertifikate für koreanische Kosmetik: CPNP, MoCRA, NMPA, HALAL und weitere",
+        "excerpt": "Ein kurzer Wegweiser durch die Kosmetik-Registrierungen, nach denen Importeure fragen: was jede bedeutet, für welchen Markt sie nötig ist und was Sie beim koreanischen Lieferanten anfragen sollten.",
+        "seoTitle": "Zertifikate für koreanische Kosmetik: CPNP, MoCRA, NMPA, HALAL — Leitfaden für den Import · Teranova",
+        "seoDesc": "Was CPNP, MoCRA, NMPA, HALAL und SCPN bedeuten, für welche Märkte sie nötig sind und was Sie beim koreanischen Kosmetikhersteller anfragen sollten. Praktischer Wegweiser von Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Wenn Sie Kosmetik aus Korea für den Weiterverkauf beziehen, lautet die erste praktische Frage: für welchen Markt das Produkt hinsichtlich der Unterlagen bereits vorbereitet ist. Jeder große Markt hat sein eigenes Melde- oder Registrierungssystem, und davon hängt ab, ob Sie die Ware legal einführen und verkaufen können.",
+              "Nachfolgend ein kurzer Überblick über die Registrierungen, die koreanische Hersteller am häufigsten angeben — einschließlich jener, mit denen Teranova zusammenarbeitet."
+            ]
+          },
+          {
+            "h": "CPNP — Europäische Union",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) — das Meldeportal für Kosmetik in der EU. Die Meldung ist vor dem Inverkehrbringen des Produkts auf dem EU-Markt verpflichtend; dahinter stehen eine verantwortliche Person (Responsible Person) in der EU und ein vollständiges Produktdossier.",
+              "Wenn eine Position die CPNP-Meldung bereits durchlaufen hat, erleichtert das den Zugang zu den EU-Märkten spürbar."
+            ]
+          },
+          {
+            "h": "MoCRA — USA",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) — die aktualisierte Kosmetikregulierung der USA. Sie führt die Registrierung von Betrieben und das Listing der Produkte sowie Anforderungen an Sicherheit und Kennzeichnung ein.",
+              "Ein Vermerk zur MoCRA-Konformität beim Lieferanten ist ein Signal dafür, dass der Hersteller auf den US-amerikanischen Markt ausgerichtet ist."
+            ]
+          },
+          {
+            "h": "NMPA — China",
+            "p": [
+              "NMPA (National Medical Products Administration) — Registrierung und Notifizierung von Kosmetik in China. Die chinesischen Anforderungen gehören zu den strengsten, daher ist eine NMPA-Registrierung zumindest für einen Teil des Sortiments ein deutlicher Vorteil."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL und weitere Kennzeichnungen",
+            "p": [
+              "SCPN — eine Meldung für Kosmetikprodukte, die für eine Reihe von Märkten verwendet wird. HALAL — die Halal-Zertifizierung für muslimische Märkte (Indonesien, Malaysia, Naher Osten). Es kommen auch weitere Kennzeichnungen vor, zum Beispiel DAV.",
+              "Wichtig zu verstehen: Die Produktlisten zu den Zertifizierungen, die der Hersteller übermittelt, sind seine eigenen Angaben und keine Kopien offizieller Bescheinigungen. Kopien der Nachweisdokumente werden gesondert in der Phase des Geschäftsabschlusses angefragt."
+            ]
+          },
+          {
+            "h": "Was Sie beim Lieferanten anfragen sollten",
+            "p": [
+              "Das praktische Minimum: für welche Märkte das Produkt bereits vorbereitet ist (CPNP / MoCRA / NMPA usw.), für welche konkreten Positionen dies bestätigt ist und welche Dokumente der Hersteller beim Vertragsabschluss bereitzustellen bereit ist.",
+              "Teranova erfasst diese Angaben für jeden geprüften Lieferanten und fordert Nachweise an, damit Sie sofort erkennen, was zu Ihrem Markt passt. Ein Beispiel ist das Profil von Dr.SANTE, in dem die Registrierungen nach einzelnen Positionen aufgeführt sind."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Certifications des cosmétiques coréens : CPNP, MoCRA, NMPA, HALAL et autres",
+        "excerpt": "Un guide concis des enregistrements cosmétiques que réclament les importateurs : ce que signifie chacun, pour quel marché il est requis et quoi demander à un fournisseur coréen.",
+        "seoTitle": "Certifications cosmétiques coréennes : CPNP, MoCRA, NMPA, HALAL — guide d'import · Teranova",
+        "seoDesc": "Ce que signifient CPNP, MoCRA, NMPA, HALAL et SCPN, pour quels marchés ils sont requis et quoi demander à un fabricant coréen de cosmétiques. Guide pratique de Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Lorsque vous achetez des cosmétiques coréens pour la revente, la première question pratique est celle du marché pour lequel le produit est déjà préparé sur le plan documentaire. Chaque grand marché possède son propre système de notification ou d'enregistrement, dont dépend votre capacité à importer et à vendre légalement le produit.",
+              "Voici un aperçu concis des enregistrements que mentionnent le plus souvent les fabricants coréens, y compris ceux avec lesquels travaille Teranova."
+            ]
+          },
+          {
+            "h": "CPNP — Union européenne",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) est le portail de notification des cosmétiques dans l'UE. La notification est obligatoire avant la mise sur le marché de l'Union européenne ; elle repose sur une personne responsable (Responsible Person) dans l'UE et sur un dossier complet du produit.",
+              "Si une référence a déjà fait l'objet d'une notification CPNP, cela facilite nettement l'accès aux marchés de l'UE."
+            ]
+          },
+          {
+            "h": "MoCRA — États-Unis",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) est la réglementation cosmétique modernisée des États-Unis. Elle instaure l'enregistrement des établissements et le référencement des produits, ainsi que des exigences de sécurité et d'étiquetage.",
+              "Une mention de conformité MoCRA chez un fournisseur indique que le fabricant est orienté vers le marché américain."
+            ]
+          },
+          {
+            "h": "NMPA — Chine",
+            "p": [
+              "NMPA (National Medical Products Administration) désigne l'enregistrement et la notification des cosmétiques en Chine. Les exigences chinoises comptent parmi les plus strictes ; disposer d'un enregistrement NMPA, ne serait-ce que pour une partie de la gamme, constitue donc un avantage notable."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL et autres mentions",
+            "p": [
+              "SCPN est une notification de produits cosmétiques utilisée pour plusieurs marchés. HALAL est la certification halal destinée aux marchés musulmans (Indonésie, Malaisie, Moyen-Orient). On rencontre également d'autres mentions, par exemple DAV.",
+              "Point important : les listes de produits par certification transmises par le fabricant correspondent à ses propres données, et non à des copies de certificats officiels. Les copies des documents justificatifs se demandent séparément, au stade de la transaction."
+            ]
+          },
+          {
+            "h": "Quoi demander à un fournisseur",
+            "p": [
+              "Le minimum pratique : pour quels marchés le produit est déjà préparé (CPNP / MoCRA / NMPA, etc.), pour quelles références précises cela est confirmé et quels documents le fabricant est prêt à fournir à la signature du contrat.",
+              "Teranova rassemble ces données pour chaque fournisseur vérifié et demande les justificatifs, afin que vous voyiez immédiatement ce qui convient à votre marché. Exemple : le profil Dr.SANTE, où les enregistrements sont indiqués référence par référence."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kore kozmetiği sertifikaları: CPNP, MoCRA, NMPA, HALAL ve diğerleri",
+        "excerpt": "İthalatçıların sorduğu kozmetik kayıtlarına kısa bir rehber: her birinin anlamı, hangi pazar için gerekli olduğu ve Koreli tedarikçiden ne istenmesi gerektiği.",
+        "seoTitle": "Kore kozmetiği sertifikaları: CPNP, MoCRA, NMPA, HALAL — ithalat rehberi · Teranova",
+        "seoDesc": "CPNP, MoCRA, NMPA, HALAL ve SCPN ne anlama gelir, hangi pazarlar için gereklidir ve Koreli kozmetik üreticisinden ne talep edilmelidir. Teranova Group'tan pratik bir rehber.",
+        "sections": [
+          {
+            "p": [
+              "Kore'den yeniden satış amacıyla kozmetik satın alırken ilk pratik soru, ürünün belge açısından hangi pazar için hazırlanmış olduğudur. Her büyük pazarın kendi bildirim veya kayıt sistemi vardır ve ürünü yasal olarak ithal edip satabilmeniz buna bağlıdır.",
+              "Aşağıda, Koreli üreticilerin — Teranova'nın çalıştığı üreticiler dahil — en sık belirttiği kayıtların kısa bir açıklaması yer alıyor."
+            ]
+          },
+          {
+            "h": "CPNP — Avrupa Birliği",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal), AB'deki kozmetik bildirim portalıdır. Bildirim, ürün Avrupa Birliği pazarına sürülmeden önce zorunludur; arkasında AB'deki bir sorumlu kişi (Responsible Person) ve ürüne ilişkin eksiksiz bir dosya bulunur.",
+              "Bir ürün CPNP bildirimini halihazırda tamamladıysa, bu, AB pazarlarına girişi belirgin şekilde kolaylaştırır."
+            ]
+          },
+          {
+            "h": "MoCRA — ABD",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act), ABD'nin güncellenmiş kozmetik düzenlemesidir. Tesis kaydı ve ürün listelemesinin yanı sıra güvenlik ve etiketleme gerekliliklerini getirir.",
+              "Tedarikçide MoCRA uygunluğuna dair bir işaret, üreticinin Amerikan pazarına yönelik olduğunun bir göstergesidir."
+            ]
+          },
+          {
+            "h": "NMPA — Çin",
+            "p": [
+              "NMPA (National Medical Products Administration), Çin'de kozmetik kaydı ve bildirimidir. Çin'in gereklilikleri en katı olanlar arasındadır; bu nedenle ürün yelpazesinin en azından bir kısmında NMPA bulunması belirgin bir avantajdır."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL ve diğer işaretler",
+            "p": [
+              "SCPN, bir dizi pazar için kullanılan kozmetik ürün bildirimidir. HALAL, Müslüman pazarları (Endonezya, Malezya, Orta Doğu) için helal sertifikasıdır. DAV gibi başka işaretlere de rastlanır.",
+              "Şunu anlamak önemli: üreticinin gönderdiği, sertifikalara göre düzenlenmiş ürün listeleri, resmi belgelerin kopyaları değil, üreticinin kendi verileridir. Destekleyici belgelerin kopyaları, işlem aşamasında ayrıca talep edilir."
+            ]
+          },
+          {
+            "h": "Tedarikçiden ne istenmeli",
+            "p": [
+              "Pratik asgari: ürünün hangi pazarlar için hazırlandığı (CPNP / MoCRA / NMPA vb.), bunun hangi belirli ürünler için doğrulandığı ve üreticinin sözleşme imzalanırken hangi belgeleri sunmaya hazır olduğu.",
+              "Teranova, bu verileri doğrulanmış her tedarikçi için toplar ve pazarınıza neyin uygun olduğunu hemen görebilmeniz için doğrulama belgelerini talep eder. Örneğin, kayıtların ayrı ürünler bazında belirtildiği Dr.SANTE profili."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Certificaciones de cosmética coreana: CPNP, MoCRA, NMPA, HALAL y otras",
+        "excerpt": "Una guía breve sobre los registros cosméticos que piden los importadores: qué significa cada uno, para qué mercado se necesita y qué solicitar al proveedor coreano.",
+        "seoTitle": "Certificaciones de cosmética coreana: CPNP, MoCRA, NMPA, HALAL — guía de importación · Teranova",
+        "seoDesc": "Qué significan CPNP, MoCRA, NMPA, HALAL y SCPN, para qué mercados se necesitan y qué solicitar al fabricante coreano de cosmética. Guía práctica de Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Cuando compra cosmética de Corea para revenderla, la primera pregunta práctica es para qué mercado está ya preparado el producto en cuanto a documentación. Cada mercado importante tiene su propio sistema de notificación o registro, y de él depende si podrá importar y vender el producto legalmente.",
+              "A continuación, un breve análisis de los registros que con más frecuencia indican los fabricantes coreanos, incluidos aquellos con los que trabaja Teranova."
+            ]
+          },
+          {
+            "h": "CPNP — Unión Europea",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) es el portal de notificación de productos cosméticos en la UE. La notificación es obligatoria antes de comercializar el producto en el mercado de la Unión Europea; detrás de ella hay una persona responsable (Responsible Person) en la UE y un expediente completo del producto.",
+              "Si un producto ya ha pasado la notificación CPNP, esto facilita notablemente la entrada en los mercados de la UE."
+            ]
+          },
+          {
+            "h": "MoCRA — Estados Unidos",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) es la normativa cosmética actualizada de Estados Unidos. Introduce el registro de establecimientos y el listado de productos, así como requisitos de seguridad y etiquetado.",
+              "La indicación de cumplimiento de MoCRA por parte del proveedor es una señal de que el fabricante está orientado al mercado estadounidense."
+            ]
+          },
+          {
+            "h": "NMPA — China",
+            "p": [
+              "NMPA (National Medical Products Administration) es el registro y la notificación de cosmética en China. Los requisitos de China son de los más estrictos, por lo que contar con NMPA aunque sea para parte del surtido supone una ventaja notable."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL y otras indicaciones",
+            "p": [
+              "SCPN es una notificación de productos cosméticos aplicada en varios mercados. HALAL es la certificación halal para los mercados musulmanes (Indonesia, Malasia, Oriente Medio). También se encuentran otras indicaciones, por ejemplo DAV.",
+              "Es importante entender que las listas de productos por certificación que envía el fabricante son sus propios datos, no copias de certificados oficiales. Las copias de los documentos acreditativos se solicitan por separado en la etapa de la transacción."
+            ]
+          },
+          {
+            "h": "Qué pedir al proveedor",
+            "p": [
+              "El mínimo práctico: para qué mercados está ya preparado el producto (CPNP / MoCRA / NMPA, etc.), para qué productos concretos está confirmado y qué documentos está dispuesto a facilitar el fabricante al firmar el contrato.",
+              "Teranova reúne estos datos de cada proveedor verificado y solicita las confirmaciones para que vea de inmediato qué se ajusta a su mercado. Un ejemplo es el perfil de Dr.SANTE, donde los registros se indican por producto individual."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Certificações de cosméticos coreanos: CPNP, MoCRA, NMPA, HALAL e outras",
+        "excerpt": "Um guia rápido sobre os registros de cosméticos que os importadores costumam questionar: o que cada um significa, para qual mercado é necessário e o que solicitar ao fornecedor coreano.",
+        "seoTitle": "Certificações de cosméticos coreanos: CPNP, MoCRA, NMPA, HALAL — guia de importação · Teranova",
+        "seoDesc": "O que significam CPNP, MoCRA, NMPA, HALAL e SCPN, para quais mercados são exigidos e o que solicitar ao fabricante coreano de cosméticos. Guia prático da Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Quando você compra cosméticos da Coreia para revenda, a primeira questão prática é para qual mercado o produto já está preparado em termos de documentação. Cada grande mercado tem seu próprio sistema de notificação ou registro, e é dele que depende se você poderá importar e vender o produto legalmente.",
+              "A seguir, uma análise rápida dos registros que os fabricantes coreanos mais costumam indicar, incluindo aqueles com quem a Teranova trabalha."
+            ]
+          },
+          {
+            "h": "CPNP — União Europeia",
+            "p": [
+              "CPNP (Cosmetic Products Notification Portal) é o portal de notificação de cosméticos na UE. A notificação é obrigatória antes do lançamento do produto no mercado da União Europeia; por trás dela estão a pessoa responsável (Responsible Person) na UE e um dossiê completo sobre o produto.",
+              "Se um item já passou pela notificação CPNP, isso facilita consideravelmente a entrada nos mercados da UE."
+            ]
+          },
+          {
+            "h": "MoCRA — Estados Unidos",
+            "p": [
+              "MoCRA (Modernization of Cosmetics Regulation Act) é a regulamentação de cosméticos atualizada dos Estados Unidos. Ela introduz o registro de estabelecimentos e a listagem de produtos, além de requisitos de segurança e rotulagem.",
+              "A indicação de conformidade com o MoCRA por parte do fornecedor é um sinal de que o fabricante está voltado para o mercado norte-americano."
+            ]
+          },
+          {
+            "h": "NMPA — China",
+            "p": [
+              "NMPA (National Medical Products Administration) é o registro e a notificação de cosméticos na China. As exigências da China estão entre as mais rigorosas, por isso ter o NMPA ao menos para parte do portfólio é uma vantagem notável."
+            ]
+          },
+          {
+            "h": "SCPN, HALAL e outras indicações",
+            "p": [
+              "SCPN é uma notificação de produtos cosméticos aplicada a diversos mercados. HALAL é a certificação halal para mercados muçulmanos (Indonésia, Malásia, Oriente Médio). Também aparecem outras indicações, como o DAV.",
+              "É importante entender: as listas de produtos por certificação que o fabricante envia são dados próprios dele, e não cópias de certificados oficiais. As cópias dos documentos comprobatórios são solicitadas separadamente na etapa da negociação."
+            ]
+          },
+          {
+            "h": "O que solicitar ao fornecedor",
+            "p": [
+              "O mínimo prático: para quais mercados o produto já está preparado (CPNP / MoCRA / NMPA etc.), para quais itens específicos isso está confirmado e quais documentos o fabricante está disposto a fornecer na assinatura do contrato.",
+              "A Teranova reúne esses dados de cada fornecedor verificado e solicita as comprovações, para que você veja de imediato o que se adequa ao seu mercado. Um exemplo é o perfil da Dr.SANTE, onde os registros são indicados por item individual."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "oem-odm-korea-guide",
+    "category": "guide",
+    "date": "2026-07-27",
+    "related": [
+      "cosmetics",
+      "sante",
+      "ondemand"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "OEM и ODM в Корее: как устроен заказ косметики под свой бренд",
+        "excerpt": "Чем отличаются OEM и ODM, что такое MOQ и FOB, из каких этапов складывается заказ и на что смотреть в прайсе корейского производителя.",
+        "seoTitle": "OEM/ODM косметика из Кореи: MOQ, FOB и этапы заказа · Teranova",
+        "seoDesc": "Как заказать косметику OEM/ODM в Корее: разница OEM и ODM, минимальный заказ (MOQ), условия FOB и этапы от заявки до поставки. Практический гид Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Корея — один из мировых центров контрактного производства косметики. Если вы хотите выпускать продукт под своим брендом или закупать готовые линейки оптом, разберём базовые понятия и порядок работы."
+            ]
+          },
+          {
+            "h": "OEM или ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer) — производитель выпускает продукт по вашей рецептуре и спецификации под вашим брендом. ODM (Original Design Manufacturer) — вы берёте готовую разработку производителя (формулу, часто и упаковку) и выпускаете под своим брендом.",
+              "ODM быстрее и дешевле на старте; OEM даёт больше контроля над продуктом и его отличием от аналогов."
+            ]
+          },
+          {
+            "h": "MOQ — минимальный заказ",
+            "p": [
+              "MOQ (Minimum Order Quantity) — минимальная партия. Часто задаётся по каждой позиции (например, кратно коробке) и/или минимальной суммой первого заказа. Для ориентира: у ряда производителей минимальная сумма первого заказа начинается примерно от нескольких тысяч долларов.",
+              "MOQ напрямую влияет на стартовый бюджет, поэтому его уточняют одним из первых."
+            ]
+          },
+          {
+            "h": "FOB и базис поставки (Инкотермс)",
+            "p": [
+              "Экспортные прайсы обычно указывают в USD на условиях FOB (Free On Board): цена включает доставку до порта отгрузки в Корее и погрузку на судно, а дальше морской фрахт, страховку, ввозную таможню и доставку до склада берёт на себя покупатель — либо всё это организуется отдельно.",
+              "Понимание базиса поставки помогает сравнивать предложения честно: цена FOB и цена с доставкой до вашего склада — это разные суммы."
+            ]
+          },
+          {
+            "h": "Этапы заказа",
+            "p": [
+              "Обычный порядок такой: заявка и подбор позиций → согласование условий и образцы → контракт и оплата → производство → логистика, таможня и доставка. На каждом шаге уточняются цены, сроки и требования вашего рынка.",
+              "Teranova ведёт эту цепочку под ключ: подбор проверенного производителя, переговоры, образцы, логистика, таможня и оплата — от первого контакта до поставки. Прямые контакты производителя раскрываются покупателю на стадии сделки."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "OEM and ODM in Korea: How Ordering Private-Label Cosmetics Works",
+        "excerpt": "How OEM and ODM differ, what MOQ and FOB mean, which stages an order consists of, and what to look at in a Korean manufacturer's price list.",
+        "seoTitle": "OEM/ODM Cosmetics From Korea: MOQ, FOB and Order Stages · Teranova",
+        "seoDesc": "How to order OEM/ODM cosmetics in Korea: the difference between OEM and ODM, minimum order (MOQ), FOB terms, and the stages from inquiry to delivery. A practical guide from Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Korea is one of the world's centers of contract cosmetics manufacturing. If you want to produce a product under your own brand or buy ready-made lines wholesale, let's go through the basic concepts and the order of work."
+            ]
+          },
+          {
+            "h": "OEM or ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer) means the manufacturer produces the product to your formulation and specification under your brand. ODM (Original Design Manufacturer) means you take the manufacturer's ready-made development (the formula, and often the packaging) and release it under your own brand.",
+              "ODM is faster and cheaper at the start; OEM gives more control over the product and how it stands apart from comparable products."
+            ]
+          },
+          {
+            "h": "MOQ — Minimum Order",
+            "p": [
+              "MOQ (Minimum Order Quantity) is the minimum batch. It is often set per item (for example, in multiples of a box) and/or as a minimum first-order amount. As a reference point: at a number of manufacturers the minimum first-order amount starts at roughly a few thousand dollars.",
+              "MOQ directly affects the starting budget, so it is one of the first things to clarify."
+            ]
+          },
+          {
+            "h": "FOB and Delivery Terms (Incoterms)",
+            "p": [
+              "Export price lists are usually quoted in USD on FOB (Free On Board) terms: the price includes delivery to the port of shipment in Korea and loading onto the vessel, while ocean freight, insurance, import customs, and delivery to the warehouse are then handled by the buyer — or all of this is arranged separately.",
+              "Understanding the delivery terms helps compare offers fairly: an FOB price and a price with delivery to your warehouse are different amounts."
+            ]
+          },
+          {
+            "h": "Order Stages",
+            "p": [
+              "The usual sequence is: inquiry and item selection → agreeing terms and samples → contract and payment → production → logistics, customs, and delivery. At each step, prices, timelines, and your market's requirements are clarified.",
+              "Teranova manages this chain end-to-end: selecting a vetted manufacturer, negotiations, samples, logistics, customs, and payment — from first contact to delivery. The manufacturer's direct contacts are disclosed to the buyer at the deal stage."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "한국의 OEM과 ODM: 자체 브랜드 화장품 주문은 어떻게 이루어지는가",
+        "excerpt": "OEM과 ODM의 차이, MOQ와 FOB의 의미, 주문이 어떤 단계로 구성되는지, 그리고 한국 제조사 견적서에서 무엇을 살펴봐야 하는지.",
+        "seoTitle": "한국 OEM/ODM 화장품: MOQ, FOB와 주문 단계 · Teranova",
+        "seoDesc": "한국에서 OEM/ODM 화장품을 주문하는 방법: OEM과 ODM의 차이, 최소 주문 수량(MOQ), FOB 조건, 그리고 문의부터 납품까지의 단계. Teranova Group의 실무 가이드.",
+        "sections": [
+          {
+            "p": [
+              "한국은 세계적인 화장품 위탁생산 중심지 중 하나입니다. 자체 브랜드로 제품을 출시하거나 완제품 라인을 대량으로 소싱하고자 한다면, 기본 개념과 진행 절차를 정리해 보겠습니다."
+            ]
+          },
+          {
+            "h": "OEM 또는 ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer)은 제조사가 귀사의 처방과 사양에 따라 귀사 브랜드로 제품을 생산하는 방식입니다. ODM (Original Design Manufacturer)은 제조사가 이미 개발해 둔 결과물(처방, 종종 용기까지)을 가져와 자체 브랜드로 출시하는 방식입니다.",
+              "ODM은 초기 진행이 더 빠르고 비용이 낮으며, OEM은 제품과 유사 제품과의 차별성에 대해 더 큰 통제력을 제공합니다."
+            ]
+          },
+          {
+            "h": "MOQ — 최소 주문 수량",
+            "p": [
+              "MOQ (Minimum Order Quantity)는 최소 발주 물량을 뜻합니다. 흔히 품목별로(예: 박스 단위) 설정되거나, 첫 주문의 최소 금액으로 정해지기도 합니다. 참고로 일부 제조사의 경우 첫 주문 최소 금액이 대략 수천 달러부터 시작합니다.",
+              "MOQ는 초기 예산에 직접적인 영향을 미치므로 가장 먼저 확인하는 항목 중 하나입니다."
+            ]
+          },
+          {
+            "h": "FOB와 인도조건 (인코텀즈)",
+            "p": [
+              "수출 견적은 보통 FOB (Free On Board) 조건의 USD로 표시됩니다. 이 가격에는 한국 내 선적항까지의 운송과 선적 비용이 포함되며, 이후의 해상 운임, 보험, 수입 통관, 창고까지의 운송은 구매자가 부담하거나 별도로 수배합니다.",
+              "인도조건을 이해하면 제안을 공정하게 비교할 수 있습니다. FOB 가격과 귀사 창고까지의 운송을 포함한 가격은 서로 다른 금액입니다."
+            ]
+          },
+          {
+            "h": "주문 단계",
+            "p": [
+              "일반적인 순서는 다음과 같습니다: 문의 및 품목 선정 → 조건 협의와 샘플 → 계약과 결제 → 생산 → 물류, 통관 및 배송. 각 단계에서 가격, 납기, 그리고 귀사 시장의 요건을 구체화합니다.",
+              "Teranova는 이 전 과정을 턴키로 진행합니다. 검증된 제조사 선정, 협상, 샘플, 물류, 통관, 결제까지 — 첫 접촉부터 납품에 이르기까지 담당합니다. 제조사의 직접 연락처는 거래 단계에서 구매자에게 공개됩니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "韩国的 OEM 与 ODM：如何以自有品牌定制化妆品",
+        "excerpt": "OEM 与 ODM 有何区别，MOQ 和 FOB 是什么，一笔订单由哪些环节构成，以及在阅读韩国制造商报价时应关注什么。",
+        "seoTitle": "韩国 OEM/ODM 化妆品：MOQ、FOB 与下单流程 · Teranova",
+        "seoDesc": "如何在韩国下单 OEM/ODM 化妆品：OEM 与 ODM 的区别、最小起订量（MOQ）、FOB 条款，以及从询单到交货的各个环节。Teranova Group 实用指南。",
+        "sections": [
+          {
+            "p": [
+              "韩国是全球化妆品代工生产的中心之一。如果您希望以自有品牌推出产品，或批量采购现成产品线，本文将梳理基本概念与合作流程。"
+            ]
+          },
+          {
+            "h": "OEM 还是 ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer)：制造商按照您的配方和规格、以您的品牌生产产品。ODM (Original Design Manufacturer)：您采用制造商现成的开发成果（配方，通常还包括包装），并以自有品牌推出。",
+              "ODM 在起步阶段更快、成本更低；OEM 则让您对产品及其与同类产品的差异化拥有更多掌控。"
+            ]
+          },
+          {
+            "h": "MOQ — 最小起订量",
+            "p": [
+              "MOQ (Minimum Order Quantity) 即最小批量。通常按每款产品设定（例如以整箱为单位），和/或以首单最低金额来设定。作为参考：部分制造商的首单最低金额大致从数千美元起。",
+              "MOQ 直接影响启动预算，因此通常会最先确认这一项。"
+            ]
+          },
+          {
+            "h": "FOB 与交货条件（Incoterms）",
+            "p": [
+              "出口报价通常以 USD 计价，采用 FOB (Free On Board) 条件：价格包含运至韩国装运港并装船的费用，此后的海运运费、保险、进口清关及运至仓库则由买方承担——或另行安排。",
+              "理解交货条件有助于公平地比较报价：FOB 价格与含运至您仓库的价格是两个不同的金额。"
+            ]
+          },
+          {
+            "h": "下单流程",
+            "p": [
+              "通常的顺序如下：询单与产品选型 → 条款商定与样品 → 签约与付款 → 生产 → 物流、清关与交货。每个环节都会进一步明确价格、周期以及您所在市场的要求。",
+              "Teranova 全程负责这条链路：从筛选经过核实的制造商、谈判、样品、物流、清关到付款——从初次接触直至交货。制造商的直接联系方式将在交易阶段向买方披露。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "韓国のOEM・ODM:自社ブランド化粧品の発注の仕組み",
+        "excerpt": "OEMとODMの違い、MOQとFOBとは何か、発注はどのような工程で構成され、韓国メーカーの価格表で何を見るべきかを解説します。",
+        "seoTitle": "韓国のOEM/ODM化粧品:MOQ・FOBと発注の流れ · Teranova",
+        "seoDesc": "韓国でOEM/ODM化粧品を発注する方法:OEMとODMの違い、最小発注数量(MOQ)、FOB条件、そして問い合わせから納品までの流れ。Teranova Groupの実務ガイド。",
+        "sections": [
+          {
+            "p": [
+              "韓国は、化粧品の受託製造における世界的な拠点の一つです。自社ブランドで製品を展開したい場合や、完成済みのラインを卸で仕入れたい場合に向けて、基本的な用語と進め方を整理します。"
+            ]
+          },
+          {
+            "h": "OEMかODMか",
+            "p": [
+              "OEM (Original Equipment Manufacturer) では、メーカーが貴社の処方と仕様に基づき、貴社ブランドで製品を製造します。ODM (Original Design Manufacturer) では、メーカーの既存の開発内容(処方、多くの場合は容器・包装も含む)を採用し、自社ブランドで展開します。",
+              "ODMは立ち上げが速く、コストも抑えられます。OEMは製品や他社との差別化に対してより高い管理性をもたらします。"
+            ]
+          },
+          {
+            "h": "MOQ — 最小発注数量",
+            "p": [
+              "MOQ (Minimum Order Quantity) は、最小の発注ロットです。品目ごとに(例えば箱単位で)設定されることが多く、初回発注の最低金額と併せて定められる場合もあります。目安として、一部のメーカーでは初回発注の最低金額が数千ドル程度から始まります。",
+              "MOQは初期予算に直接影響するため、最初に確認する項目の一つとなります。"
+            ]
+          },
+          {
+            "h": "FOBと引渡条件(インコタームズ)",
+            "p": [
+              "輸出価格は通常、FOB (Free On Board) 条件のUSD建てで提示されます。価格には韓国の船積み港までの搬送と本船への積み込みが含まれ、それ以降の海上運賃、保険、輸入通関、倉庫までの配送は買い手が負担するか、別途手配することになります。",
+              "引渡条件を理解しておくと、見積もりを公正に比較できます。FOB価格と貴社倉庫までの配送を含む価格は、異なる金額だからです。"
+            ]
+          },
+          {
+            "h": "発注の工程",
+            "p": [
+              "一般的な流れは次のとおりです。問い合わせと品目の選定 → 条件の調整とサンプル → 契約と支払い → 製造 → 物流・通関・配送。各段階で価格、納期、そして貴社の市場の要件を確認していきます。",
+              "Teranovaはこの一連の流れをワンストップで担います。審査済みメーカーの選定、交渉、サンプル、物流、通関、支払いまで、最初の接触から納品までを一貫して対応します。メーカーの直接の連絡先は、取引の段階で買い手に開示されます。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "OEM e ODM in Corea: come funziona l'ordine di cosmetici a proprio marchio",
+        "excerpt": "Quali sono le differenze tra OEM e ODM, cosa sono MOQ e FOB, da quali fasi si compone un ordine e a cosa prestare attenzione nel listino di un produttore coreano.",
+        "seoTitle": "Cosmetici OEM/ODM dalla Corea: MOQ, FOB e fasi dell'ordine · Teranova",
+        "seoDesc": "Come ordinare cosmetici OEM/ODM in Corea: differenza tra OEM e ODM, ordine minimo (MOQ), condizioni FOB e fasi dalla richiesta alla consegna. Guida pratica di Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "La Corea è uno dei centri mondiali della produzione conto terzi di cosmetici. Se volete realizzare un prodotto a proprio marchio o acquistare linee già pronte all'ingrosso, vediamo i concetti di base e le modalità di lavoro."
+            ]
+          },
+          {
+            "h": "OEM o ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer): il produttore realizza il prodotto secondo la vostra formulazione e specifica, con il vostro marchio. ODM (Original Design Manufacturer): prendete uno sviluppo già pronto del produttore (la formula, spesso anche il packaging) e lo commercializzate con il vostro marchio.",
+              "ODM è più rapido ed economico all'avvio; OEM offre maggiore controllo sul prodotto e sulla sua differenziazione dai concorrenti."
+            ]
+          },
+          {
+            "h": "MOQ — ordine minimo",
+            "p": [
+              "MOQ (Minimum Order Quantity) è il lotto minimo. Spesso è definito per ogni articolo (ad esempio a multipli di cartone) e/o come importo minimo del primo ordine. Per orientarsi: presso alcuni produttori l'importo minimo del primo ordine parte all'incirca da qualche migliaio di dollari.",
+              "Il MOQ incide direttamente sul budget iniziale, perciò è uno dei primi aspetti da chiarire."
+            ]
+          },
+          {
+            "h": "FOB e resa di consegna (Incoterms)",
+            "p": [
+              "I listini per l'export sono di norma espressi in USD alle condizioni FOB (Free On Board): il prezzo comprende il trasporto fino al porto di imbarco in Corea e il carico sulla nave, mentre il nolo marittimo, l'assicurazione, i dazi doganali all'importazione e la consegna al magazzino restano a carico dell'acquirente, oppure vengono organizzati separatamente.",
+              "Comprendere la resa di consegna aiuta a confrontare le offerte in modo corretto: il prezzo FOB e il prezzo con consegna al vostro magazzino sono importi diversi."
+            ]
+          },
+          {
+            "h": "Le fasi dell'ordine",
+            "p": [
+              "Lo svolgimento tipico è il seguente: richiesta e selezione degli articoli → definizione delle condizioni e campioni → contratto e pagamento → produzione → logistica, dogana e consegna. A ogni passaggio si precisano prezzi, tempi e requisiti del vostro mercato.",
+              "Teranova gestisce l'intera catena chiavi in mano: selezione di un produttore verificato, trattative, campioni, logistica, dogana e pagamento — dal primo contatto alla consegna. I contatti diretti del produttore vengono comunicati all'acquirente in fase di trattativa."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "OEM und ODM in Korea: Wie die Bestellung von Kosmetik unter der eigenen Marke abläuft",
+        "excerpt": "Worin sich OEM und ODM unterscheiden, was MOQ und FOB bedeuten, aus welchen Schritten sich eine Bestellung zusammensetzt und worauf Sie in der Preisliste eines koreanischen Herstellers achten sollten.",
+        "seoTitle": "OEM/ODM-Kosmetik aus Korea: MOQ, FOB und die Schritte der Bestellung · Teranova",
+        "seoDesc": "Wie Sie OEM/ODM-Kosmetik in Korea bestellen: Unterschied zwischen OEM und ODM, Mindestbestellmenge (MOQ), FOB-Bedingungen und die Schritte von der Anfrage bis zur Lieferung. Praktischer Leitfaden von Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Korea ist eines der weltweiten Zentren der Auftragsfertigung von Kosmetik. Wenn Sie ein Produkt unter Ihrer eigenen Marke herstellen oder fertige Serien im Großhandel beziehen möchten, betrachten wir die grundlegenden Begriffe und den Ablauf der Zusammenarbeit."
+            ]
+          },
+          {
+            "h": "OEM oder ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer) — der Hersteller produziert das Produkt nach Ihrer Rezeptur und Spezifikation unter Ihrer Marke. ODM (Original Design Manufacturer) — Sie übernehmen eine fertige Entwicklung des Herstellers (die Formel, häufig auch die Verpackung) und bringen sie unter Ihrer eigenen Marke heraus.",
+              "ODM ist zu Beginn schneller und günstiger; OEM bietet mehr Kontrolle über das Produkt und seine Abgrenzung von vergleichbaren Angeboten."
+            ]
+          },
+          {
+            "h": "MOQ — die Mindestbestellmenge",
+            "p": [
+              "MOQ (Minimum Order Quantity) — die Mindestcharge. Sie wird häufig je Position festgelegt (zum Beispiel als Vielfaches einer Kartoneinheit) und/oder über einen Mindestbetrag der Erstbestellung. Zur Orientierung: Bei einigen Herstellern beginnt der Mindestbetrag der Erstbestellung etwa bei einigen tausend Dollar.",
+              "Die MOQ wirkt sich unmittelbar auf das Startbudget aus, daher wird sie als eine der ersten Fragen geklärt."
+            ]
+          },
+          {
+            "h": "FOB und die Lieferbedingung (Incoterms)",
+            "p": [
+              "Exportpreise werden üblicherweise in USD zu FOB-Bedingungen (Free On Board) angegeben: Der Preis umfasst den Transport bis zum Verschiffungshafen in Korea und die Verladung auf das Schiff; die Seefracht, die Versicherung, den Einfuhrzoll und den Transport bis zum Lager übernimmt anschließend der Käufer — oder all dies wird gesondert organisiert.",
+              "Das Verständnis der Lieferbedingung hilft, Angebote fair zu vergleichen: Der FOB-Preis und der Preis inklusive Lieferung bis zu Ihrem Lager sind unterschiedliche Beträge."
+            ]
+          },
+          {
+            "h": "Die Schritte einer Bestellung",
+            "p": [
+              "Der übliche Ablauf ist folgender: Anfrage und Auswahl der Positionen → Abstimmung der Bedingungen und Muster → Vertrag und Zahlung → Produktion → Logistik, Zoll und Lieferung. Bei jedem Schritt werden Preise, Fristen und die Anforderungen Ihres Marktes konkretisiert.",
+              "Teranova betreut diese Kette schlüsselfertig: Auswahl eines geprüften Herstellers, Verhandlungen, Muster, Logistik, Zoll und Zahlung — vom ersten Kontakt bis zur Lieferung. Die direkten Kontaktdaten des Herstellers werden dem Käufer in der Phase des Geschäftsabschlusses offengelegt."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "OEM et ODM en Corée : comment fonctionne la commande de cosmétiques en marque propre",
+        "excerpt": "En quoi diffèrent OEM et ODM, ce que sont le MOQ et le FOB, quelles étapes composent une commande et à quoi prêter attention dans le tarif d'un fabricant coréen.",
+        "seoTitle": "Cosmétiques OEM/ODM de Corée : MOQ, FOB et étapes de commande · Teranova",
+        "seoDesc": "Comment commander des cosmétiques OEM/ODM en Corée : différence entre OEM et ODM, commande minimale (MOQ), conditions FOB et étapes de la demande à la livraison. Guide pratique de Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "La Corée est l'un des centres mondiaux de la production à façon de cosmétiques. Si vous souhaitez fabriquer un produit en marque propre ou acheter des gammes prêtes à l'emploi en gros, examinons les notions de base et le déroulement du travail."
+            ]
+          },
+          {
+            "h": "OEM ou ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer) : le fabricant produit selon votre formule et votre cahier des charges, sous votre marque. ODM (Original Design Manufacturer) : vous reprenez un développement existant du fabricant (la formule, souvent aussi le conditionnement) et le commercialisez sous votre marque.",
+              "L'ODM est plus rapide et moins coûteux au démarrage ; l'OEM offre davantage de contrôle sur le produit et sur ce qui le distingue des produits concurrents."
+            ]
+          },
+          {
+            "h": "MOQ — commande minimale",
+            "p": [
+              "MOQ (Minimum Order Quantity) désigne le lot minimal. Il se définit souvent par référence (par exemple, par multiples d'un carton) et/ou par un montant minimal de première commande. À titre indicatif : chez plusieurs fabricants, le montant minimal de la première commande démarre autour de quelques milliers de dollars.",
+              "Le MOQ influe directement sur le budget de départ ; on le précise donc parmi les tout premiers points."
+            ]
+          },
+          {
+            "h": "FOB et conditions de livraison (Incoterms)",
+            "p": [
+              "Les tarifs export sont généralement libellés en USD aux conditions FOB (Free On Board) : le prix comprend l'acheminement jusqu'au port d'embarquement en Corée et le chargement à bord du navire ; ensuite, le fret maritime, l'assurance, les droits de douane à l'import et la livraison jusqu'à l'entrepôt sont à la charge de l'acheteur — ou bien organisés séparément.",
+              "Comprendre les conditions de livraison permet de comparer les offres de façon équitable : le prix FOB et le prix livraison comprise jusqu'à votre entrepôt ne représentent pas les mêmes montants."
+            ]
+          },
+          {
+            "h": "Les étapes d'une commande",
+            "p": [
+              "Le déroulement habituel est le suivant : demande et sélection des références → validation des conditions et échantillons → contrat et paiement → production → logistique, douane et livraison. À chaque étape, on précise les prix, les délais et les exigences de votre marché.",
+              "Teranova pilote cette chaîne clés en main : sélection d'un fabricant vérifié, négociations, échantillons, logistique, douane et paiement — du premier contact à la livraison. Les coordonnées directes du fabricant sont communiquées à l'acheteur au stade de la transaction."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kore'de OEM ve ODM: kendi markanız için kozmetik siparişi nasıl işler",
+        "excerpt": "OEM ve ODM arasındaki fark, MOQ ve FOB nedir, sipariş hangi aşamalardan oluşur ve Koreli üreticinin fiyat listesinde nelere dikkat edilmelidir.",
+        "seoTitle": "Kore'den OEM/ODM kozmetik: MOQ, FOB ve sipariş aşamaları · Teranova",
+        "seoDesc": "Kore'de OEM/ODM kozmetik nasıl sipariş edilir: OEM ve ODM farkı, minimum sipariş (MOQ), FOB koşulları ve talepten teslimata kadar aşamalar. Teranova Group'un pratik rehberi.",
+        "sections": [
+          {
+            "p": [
+              "Kore, dünyanın kozmetik fason üretim merkezlerinden biridir. Ürünü kendi markanız altında üretmek veya hazır ürün serilerini toptan satın almak istiyorsanız, temel kavramları ve çalışma düzenini ele alalım."
+            ]
+          },
+          {
+            "h": "OEM mi ODM mi",
+            "p": [
+              "OEM (Original Equipment Manufacturer) — üretici, ürünü sizin formülünüze ve spesifikasyonunuza göre, sizin markanız altında üretir. ODM (Original Design Manufacturer) — üreticinin hazır geliştirmesini (formülü, çoğu zaman ambalajı da) alıp kendi markanız altında piyasaya sürersiniz.",
+              "ODM başlangıçta daha hızlı ve daha ucuzdur; OEM ise ürün üzerinde ve ürünün benzerlerinden farklılaşması üzerinde daha fazla kontrol sağlar."
+            ]
+          },
+          {
+            "h": "MOQ — minimum sipariş",
+            "p": [
+              "MOQ (Minimum Order Quantity) — minimum parti miktarıdır. Genellikle her ürün bazında (örneğin koli katları halinde) ve/veya ilk siparişin minimum tutarı olarak belirlenir. Bir fikir vermesi açısından: bazı üreticilerde ilk siparişin minimum tutarı yaklaşık birkaç bin dolardan başlar.",
+              "MOQ, başlangıç bütçesini doğrudan etkiler; bu nedenle ilk netleştirilen konulardan biridir."
+            ]
+          },
+          {
+            "h": "FOB ve teslim şekli (Incoterms)",
+            "p": [
+              "İhracat fiyat listeleri genellikle USD cinsinden ve FOB (Free On Board) koşuluyla belirtilir: fiyat, Kore'deki yükleme limanına kadar taşımayı ve gemiye yüklemeyi kapsar; bundan sonraki deniz navlunu, sigorta, ithalat gümrüğü ve depoya kadar teslimat ise alıcıya aittir ya da bunların tümü ayrıca organize edilir.",
+              "Teslim şeklini anlamak, teklifleri dürüst biçimde karşılaştırmaya yardımcı olur: FOB fiyatı ile deponuza kadar teslimatı içeren fiyat farklı tutarlardır."
+            ]
+          },
+          {
+            "h": "Sipariş aşamaları",
+            "p": [
+              "Olağan sıra şöyledir: talep ve ürün seçimi → koşulların mutabakatı ve numuneler → sözleşme ve ödeme → üretim → lojistik, gümrük ve teslimat. Her adımda fiyatlar, süreler ve pazarınızın gereklilikleri netleştirilir.",
+              "Teranova bu zinciri anahtar teslim yürütür: doğrulanmış üreticinin seçimi, müzakereler, numuneler, lojistik, gümrük ve ödeme — ilk temastan teslimata kadar. Üreticinin doğrudan iletişim bilgileri alıcıya işlem aşamasında açıklanır."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "OEM y ODM en Corea: cómo funciona el pedido de cosmética de marca propia",
+        "excerpt": "En qué se diferencian OEM y ODM, qué son MOQ y FOB, de qué etapas se compone un pedido y en qué fijarse en la lista de precios de un fabricante coreano.",
+        "seoTitle": "Cosmética OEM/ODM de Corea: MOQ, FOB y etapas del pedido · Teranova",
+        "seoDesc": "Cómo pedir cosmética OEM/ODM en Corea: diferencia entre OEM y ODM, pedido mínimo (MOQ), condiciones FOB y etapas desde la solicitud hasta la entrega. Guía práctica de Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "Corea es uno de los centros mundiales de la fabricación por contrato de cosmética. Si desea lanzar un producto de marca propia o comprar líneas ya listas al por mayor, veamos los conceptos básicos y el modo de trabajo."
+            ]
+          },
+          {
+            "h": "OEM u ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer): el fabricante produce el producto según su fórmula y especificación bajo su marca. ODM (Original Design Manufacturer): usted toma un desarrollo ya listo del fabricante (la fórmula y, a menudo, también el envase) y lo lanza bajo su propia marca.",
+              "ODM es más rápido y económico al inicio; OEM ofrece más control sobre el producto y su diferenciación frente a productos similares."
+            ]
+          },
+          {
+            "h": "MOQ — pedido mínimo",
+            "p": [
+              "MOQ (Minimum Order Quantity) es el lote mínimo. A menudo se establece por cada producto (por ejemplo, en múltiplos de una caja) o mediante un importe mínimo del primer pedido. Como orientación: en varios fabricantes el importe mínimo del primer pedido comienza aproximadamente a partir de varios miles de dólares.",
+              "El MOQ influye directamente en el presupuesto inicial, por lo que es de lo primero que se aclara."
+            ]
+          },
+          {
+            "h": "FOB y las condiciones de entrega (Incoterms)",
+            "p": [
+              "Las listas de precios de exportación suelen indicarse en USD en condiciones FOB (Free On Board): el precio incluye el transporte hasta el puerto de embarque en Corea y la carga en el buque, mientras que el flete marítimo, el seguro, la aduana de importación y la entrega hasta el almacén corren a cargo del comprador, o bien todo ello se organiza por separado.",
+              "Entender las condiciones de entrega ayuda a comparar las ofertas de forma justa: el precio FOB y el precio con entrega hasta su almacén son importes distintos."
+            ]
+          },
+          {
+            "h": "Etapas del pedido",
+            "p": [
+              "El orden habitual es el siguiente: solicitud y selección de productos → acuerdo de condiciones y muestras → contrato y pago → producción → logística, aduana y entrega. En cada paso se aclaran precios, plazos y los requisitos de su mercado.",
+              "Teranova gestiona toda esta cadena llave en mano: selección de un fabricante verificado, negociaciones, muestras, logística, aduana y pago, desde el primer contacto hasta la entrega. Los contactos directos del fabricante se revelan al comprador en la etapa de la transacción."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "OEM e ODM na Coreia: como funciona o pedido de cosméticos para marca própria",
+        "excerpt": "Quais são as diferenças entre OEM e ODM, o que são MOQ e FOB, de quais etapas se compõe o pedido e a que prestar atenção na tabela de preços do fabricante coreano.",
+        "seoTitle": "Cosméticos OEM/ODM da Coreia: MOQ, FOB e etapas do pedido · Teranova",
+        "seoDesc": "Como encomendar cosméticos OEM/ODM na Coreia: diferença entre OEM e ODM, pedido mínimo (MOQ), condições FOB e etapas da solicitação à entrega. Guia prático da Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "A Coreia é um dos centros mundiais de fabricação terceirizada de cosméticos. Se você quer lançar um produto sob sua própria marca ou comprar linhas prontas no atacado, vamos esclarecer os conceitos básicos e o fluxo de trabalho."
+            ]
+          },
+          {
+            "h": "OEM ou ODM",
+            "p": [
+              "OEM (Original Equipment Manufacturer): o fabricante produz o produto conforme a sua fórmula e especificação, sob a sua marca. ODM (Original Design Manufacturer): você adota um desenvolvimento pronto do fabricante (a fórmula e, muitas vezes, também a embalagem) e o lança sob a sua própria marca.",
+              "O ODM é mais rápido e mais barato no início; o OEM oferece mais controle sobre o produto e sobre sua diferenciação em relação aos concorrentes."
+            ]
+          },
+          {
+            "h": "MOQ — pedido mínimo",
+            "p": [
+              "MOQ (Minimum Order Quantity) é o lote mínimo. Costuma ser definido por item (por exemplo, em múltiplos de uma caixa) e/ou por um valor mínimo do primeiro pedido. Para referência: em vários fabricantes, o valor mínimo do primeiro pedido começa em torno de alguns milhares de dólares.",
+              "O MOQ afeta diretamente o orçamento inicial, por isso é um dos primeiros pontos a esclarecer."
+            ]
+          },
+          {
+            "h": "FOB e a condição de entrega (Incoterms)",
+            "p": [
+              "As tabelas de preços de exportação costumam ser expressas em USD na condição FOB (Free On Board): o preço inclui o transporte até o porto de embarque na Coreia e o carregamento no navio, enquanto o frete marítimo, o seguro, o desembaraço aduaneiro de importação e a entrega até o armazém ficam por conta do comprador — ou tudo isso é organizado à parte.",
+              "Entender a condição de entrega ajuda a comparar as propostas de forma justa: o preço FOB e o preço com entrega até o seu armazém são valores diferentes."
+            ]
+          },
+          {
+            "h": "Etapas do pedido",
+            "p": [
+              "A ordem habitual é a seguinte: solicitação e seleção de itens → acerto das condições e amostras → contrato e pagamento → produção → logística, alfândega e entrega. Em cada etapa são definidos os preços, os prazos e os requisitos do seu mercado.",
+              "A Teranova conduz toda essa cadeia no modelo chave na mão: seleção de um fabricante verificado, negociações, amostras, logística, alfândega e pagamento — do primeiro contato à entrega. Os contatos diretos do fabricante são revelados ao comprador na etapa da negociação."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "why-korea-kbeauty",
+    "category": "overview",
+    "date": "2026-07-27",
+    "related": [
+      "cosmetics",
+      "sante",
+      "catalog"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Почему Корея — центр K-beauty и контрактного производства",
+        "excerpt": "Что делает Корею одним из мировых центров разработки и производства косметики: R&D, скорость вывода новинок, культура ухода и экспортная зрелость.",
+        "seoTitle": "Почему Корея — центр K-beauty и контрактного производства косметики · Teranova",
+        "seoDesc": "R&D, скорость новинок, культура профессионального ухода и экспортная зрелость — почему Корея стала мировым центром K-beauty и OEM/ODM-производства косметики. Обзор Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "«K-beauty» давно вышла за пределы моды и стала зрелой индустрией. Разберём, почему Корея удерживает позиции одного из мировых центров косметики."
+            ]
+          },
+          {
+            "h": "R&D и работа с активами",
+            "p": [
+              "Корейские компании вкладываются в исследования и активно работают с ингредиентами — от успокаивающих составов (например, азулен и ромашковая вода в линейках для чувствительной кожи) до кислот, пептидов и растительных экстрактов. Это даёт широкий и технологичный ассортимент."
+            ]
+          },
+          {
+            "h": "Скорость вывода новинок",
+            "p": [
+              "Короткий цикл разработки и высокая конкуренция на внутреннем рынке приучили индустрию быстро выпускать и обновлять продукты. Для бренда-заказчика это возможность держать ассортимент свежим."
+            ]
+          },
+          {
+            "h": "Культура профессионального ухода",
+            "p": [
+              "Развитая эстетическая культура — клиники, салоны, дерматология — сформировала сильный профессиональный сегмент: линейки для чувствительной, проблемной и возрастной кожи, рассчитанные и на кабинетный, и на домашний уход."
+            ]
+          },
+          {
+            "h": "Экспортная зрелость",
+            "p": [
+              "Многие производители уже готовят продукцию под требования зарубежных рынков (CPNP, MoCRA, NMPA и т.д.) и имеют опыт поставок за рубеж. Это снижает порог входа для импортёра.",
+              "В каталоге Teranova корейские производители представлены проверенными карточками — например, эстетический бренд Dr.SANTE с линейками успокаивающего и себорегулирующего ухода."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Why Korea Is the Center of K-beauty and Contract Manufacturing",
+        "excerpt": "What makes Korea one of the world's centers of cosmetics development and manufacturing: R&D, speed of launching new products, a culture of skincare, and export maturity.",
+        "seoTitle": "Why Korea Is the Center of K-beauty and Contract Cosmetics Manufacturing · Teranova",
+        "seoDesc": "R&D, speed of new products, a culture of professional skincare, and export maturity — why Korea has become the global center of K-beauty and OEM/ODM cosmetics manufacturing. An overview from Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "K-beauty has long moved beyond a trend and become a mature industry. Let's look at why Korea holds its position as one of the world's cosmetics centers."
+            ]
+          },
+          {
+            "h": "R&D and Active Ingredients",
+            "p": [
+              "Korean companies invest in research and actively work with ingredients — from soothing formulations (for example, azulene and chamomile water in lines for sensitive skin) to acids, peptides, and plant extracts. This produces a broad and technologically advanced range."
+            ]
+          },
+          {
+            "h": "Speed of Launching New Products",
+            "p": [
+              "A short development cycle and intense competition in the domestic market have trained the industry to release and update products quickly. For a client brand, this is an opportunity to keep the range fresh."
+            ]
+          },
+          {
+            "h": "A Culture of Professional Skincare",
+            "p": [
+              "A developed aesthetic culture — clinics, salons, dermatology — has shaped a strong professional segment: lines for sensitive, problem, and mature skin, designed for both in-clinic and at-home care."
+            ]
+          },
+          {
+            "h": "Export Maturity",
+            "p": [
+              "Many manufacturers already prepare their products to meet the requirements of foreign markets (CPNP, MoCRA, NMPA, etc.) and have experience with exports. This lowers the barrier to entry for an importer.",
+              "In the Teranova catalog, Korean manufacturers are presented as vetted profiles — for example, the aesthetic brand Dr.SANTE with lines of soothing and sebum-regulating care."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "한국이 K-beauty와 위탁생산의 중심지인 이유",
+        "excerpt": "한국을 세계적인 화장품 개발·생산 중심지 중 하나로 만든 요소: R&D, 신제품 출시 속도, 스킨케어 문화, 그리고 성숙한 수출 역량.",
+        "seoTitle": "한국이 K-beauty와 화장품 위탁생산의 중심지인 이유 · Teranova",
+        "seoDesc": "R&D, 신제품 출시 속도, 전문 스킨케어 문화, 성숙한 수출 역량 — 한국이 K-beauty와 화장품 OEM/ODM 생산의 세계적 중심지가 된 이유. Teranova Group의 개괄.",
+        "sections": [
+          {
+            "p": [
+              "'K-beauty'는 이미 오래전에 유행의 차원을 넘어 성숙한 산업으로 자리 잡았습니다. 한국이 세계적인 화장품 중심지 중 하나의 위치를 유지하는 이유를 살펴보겠습니다."
+            ]
+          },
+          {
+            "h": "R&D와 유효성분 활용",
+            "p": [
+              "한국 기업들은 연구에 투자하고 성분을 적극적으로 활용합니다 — 진정 성분(예: 민감성 피부 라인의 아줄렌과 캐모마일 워터)부터 산, 펩타이드, 식물 추출물에 이르기까지. 이를 통해 폭넓고 기술력 있는 제품군이 만들어집니다."
+            ]
+          },
+          {
+            "h": "신제품 출시 속도",
+            "p": [
+              "짧은 개발 주기와 치열한 내수 시장 경쟁은 업계가 제품을 빠르게 출시하고 갱신하도록 만들었습니다. 발주 브랜드 입장에서는 제품군을 늘 새롭게 유지할 수 있는 기회입니다."
+            ]
+          },
+          {
+            "h": "전문 스킨케어 문화",
+            "p": [
+              "발달한 에스테틱 문화 — 클리닉, 살롱, 피부과 — 는 강력한 전문가용 세그먼트를 형성했습니다. 민감성, 트러블성, 노화 피부를 위한 라인들이 시술실용과 홈케어용 모두를 겨냥해 만들어졌습니다."
+            ]
+          },
+          {
+            "h": "성숙한 수출 역량",
+            "p": [
+              "많은 제조사가 이미 해외 시장의 요건(CPNP, MoCRA, NMPA 등)에 맞춰 제품을 준비하고 있으며 해외 공급 경험을 갖추고 있습니다. 이는 수입업체의 진입 장벽을 낮춰 줍니다.",
+              "Teranova 카탈로그에서 한국 제조사들은 검증된 프로필로 소개됩니다 — 예를 들어 진정 및 피지 조절 케어 라인을 갖춘 에스테틱 브랜드 Dr.SANTE가 있습니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "为什么韩国是 K-beauty 与代工生产的中心",
+        "excerpt": "是什么让韩国成为全球化妆品研发与生产中心之一：R&D、新品推出速度、护肤文化以及出口成熟度。",
+        "seoTitle": "为什么韩国是 K-beauty 与化妆品代工生产的中心 · Teranova",
+        "seoDesc": "R&D、新品速度、专业护肤文化与出口成熟度——韩国为何成为 K-beauty 及化妆品 OEM/ODM 生产的全球中心。Teranova Group 概览。",
+        "sections": [
+          {
+            "p": [
+              "「K-beauty」早已超越潮流，成长为一个成熟的产业。本文将分析韩国为何能稳居全球化妆品中心之一。"
+            ]
+          },
+          {
+            "h": "R&D 与活性成分的运用",
+            "p": [
+              "韩国企业注重研发投入，并积极运用各类成分——从舒缓类配方（例如敏感肌产品线中的甘菊蓝和洋甘菊纯露）到各种酸类、肽和植物提取物。由此形成了品类广泛且技术含量高的产品阵容。"
+            ]
+          },
+          {
+            "h": "新品推出速度",
+            "p": [
+              "较短的研发周期和激烈的本土市场竞争，使该产业习惯于快速推出和更新产品。对于品牌委托方而言，这意味着能够保持产品线的新鲜度。"
+            ]
+          },
+          {
+            "h": "专业护肤文化",
+            "p": [
+              "成熟的美容文化——诊所、美容院、皮肤科——培育出强大的专业细分市场：面向敏感肌、问题肌和熟龄肌的产品线，兼顾院线护理与居家护理。"
+            ]
+          },
+          {
+            "h": "出口成熟度",
+            "p": [
+              "许多制造商已按照海外市场的要求（CPNP、MoCRA、NMPA 等）准备产品，并具备出口供货经验。这降低了进口商的准入门槛。",
+              "在 Teranova 的目录中，韩国制造商以经过核实的资料卡形式呈现——例如美容品牌 Dr.SANTE，其产品线涵盖舒缓护理与皮脂调节护理。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "なぜ韓国がK-beautyと受託製造の中心地なのか",
+        "excerpt": "R&D、新製品を送り出すスピード、スキンケア文化、そして輸出面での成熟——韓国を化粧品の開発・製造における世界的拠点の一つにしている要素を解説します。",
+        "seoTitle": "なぜ韓国はK-beautyと化粧品受託製造の中心地なのか · Teranova",
+        "seoDesc": "R&D、新製品のスピード、プロフェッショナルなスキンケア文化、輸出面での成熟——韓国がK-beautyとOEM/ODM化粧品製造の世界的拠点となった理由。Teranova Groupによる概説。",
+        "sections": [
+          {
+            "p": [
+              "「K-beauty」はとうにブームの域を超え、成熟した産業となっています。韓国が化粧品の世界的拠点の一つであり続けている理由を見ていきます。"
+            ]
+          },
+          {
+            "h": "R&Dと有効成分の活用",
+            "p": [
+              "韓国企業は研究開発に投資し、成分の活用に積極的です。鎮静成分(例えば敏感肌向けラインのアズレンやカモミールウォーター)から、酸、ペプチド、植物エキスまで幅広く扱っています。これにより、多彩で技術力の高い品揃えが生まれています。"
+            ]
+          },
+          {
+            "h": "新製品を送り出すスピード",
+            "p": [
+              "短い開発サイクルと国内市場での激しい競争が、業界に製品を素早く発売・刷新する習慣を根付かせてきました。発注側のブランドにとっては、品揃えを常に新鮮に保てる機会となります。"
+            ]
+          },
+          {
+            "h": "プロフェッショナルなスキンケア文化",
+            "p": [
+              "クリニック、サロン、皮膚科学といった発達した美容文化が、強力なプロフェッショナル領域を形成してきました。敏感肌、トラブル肌、エイジングケア向けのラインは、施術用とホームケア用の両方を想定して設計されています。"
+            ]
+          },
+          {
+            "h": "輸出面での成熟",
+            "p": [
+              "多くのメーカーはすでに海外市場の要件(CPNP、MoCRA、NMPAなど)に合わせて製品を準備しており、海外への供給実績も持っています。これは輸入業者にとっての参入障壁を下げます。",
+              "Teranovaのカタログでは、韓国メーカーが審査済みのプロフィールとして掲載されています。例えば、鎮静ケアと皮脂コントロールケアのラインを持つエステティックブランドDr.SANTEがあります。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Perché la Corea è il centro della K-beauty e della produzione conto terzi",
+        "excerpt": "Cosa rende la Corea uno dei centri mondiali dello sviluppo e della produzione di cosmetici: R&D, velocità di lancio delle novità, cultura della cura e maturità export.",
+        "seoTitle": "Perché la Corea è il centro della K-beauty e della produzione conto terzi di cosmetici · Teranova",
+        "seoDesc": "R&D, velocità delle novità, cultura della cura professionale e maturità export: perché la Corea è diventata il centro mondiale della K-beauty e della produzione OEM/ODM di cosmetici. Panoramica di Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "La «K-beauty» ha superato da tempo la dimensione della moda ed è diventata un'industria matura. Vediamo perché la Corea mantiene la posizione di uno dei centri mondiali della cosmetica."
+            ]
+          },
+          {
+            "h": "R&D e lavoro con i principi attivi",
+            "p": [
+              "Le aziende coreane investono nella ricerca e lavorano intensamente sugli ingredienti — dalle formulazioni lenitive (ad esempio azulene e acqua di camomilla nelle linee per pelli sensibili) fino ad acidi, peptidi ed estratti vegetali. Ne deriva un assortimento ampio e tecnologico."
+            ]
+          },
+          {
+            "h": "Velocità di lancio delle novità",
+            "p": [
+              "Il ciclo di sviluppo breve e l'elevata concorrenza sul mercato interno hanno abituato l'industria a lanciare e rinnovare rapidamente i prodotti. Per il brand committente è l'opportunità di mantenere l'assortimento sempre aggiornato."
+            ]
+          },
+          {
+            "h": "La cultura della cura professionale",
+            "p": [
+              "Una cultura estetica sviluppata — cliniche, saloni, dermatologia — ha dato vita a un solido segmento professionale: linee per pelli sensibili, impure e mature, pensate sia per il trattamento in cabina sia per la cura domiciliare."
+            ]
+          },
+          {
+            "h": "Maturità export",
+            "p": [
+              "Molti produttori predispongono già i prodotti secondo i requisiti dei mercati esteri (CPNP, MoCRA, NMPA ecc.) e hanno esperienza di forniture all'estero. Ciò abbassa la soglia d'ingresso per l'importatore.",
+              "Nel catalogo di Teranova i produttori coreani sono presentati con schede verificate — ad esempio il brand estetico Dr.SANTE con linee di trattamento lenitivo e seboregolatore."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Warum Korea das Zentrum von K-beauty und der Auftragsfertigung ist",
+        "excerpt": "Was Korea zu einem der weltweiten Zentren für Entwicklung und Produktion von Kosmetik macht: R&D, das Tempo bei der Einführung von Neuheiten, die Pflegekultur und die Exportreife.",
+        "seoTitle": "Warum Korea das Zentrum von K-beauty und der Auftragsfertigung von Kosmetik ist · Teranova",
+        "seoDesc": "R&D, das Tempo bei Neuheiten, die Kultur der professionellen Pflege und die Exportreife — warum Korea zum weltweiten Zentrum von K-beauty und der OEM/ODM-Produktion von Kosmetik wurde. Ein Überblick von Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "„K-beauty“ ist längst über den Status eines Modetrends hinausgewachsen und zu einer reifen Industrie geworden. Betrachten wir, warum Korea seine Position als eines der weltweiten Zentren der Kosmetik behauptet."
+            ]
+          },
+          {
+            "h": "R&D und die Arbeit mit Wirkstoffen",
+            "p": [
+              "Koreanische Unternehmen investieren in Forschung und arbeiten aktiv mit Inhaltsstoffen — von beruhigenden Rezepturen (zum Beispiel Azulen und Kamillenwasser in Serien für empfindliche Haut) bis zu Säuren, Peptiden und Pflanzenextrakten. Das ergibt ein breites und technologisch anspruchsvolles Sortiment."
+            ]
+          },
+          {
+            "h": "Das Tempo bei der Einführung von Neuheiten",
+            "p": [
+              "Ein kurzer Entwicklungszyklus und der starke Wettbewerb auf dem Binnenmarkt haben die Industrie daran gewöhnt, Produkte schnell einzuführen und zu erneuern. Für die auftraggebende Marke ist das die Möglichkeit, das Sortiment aktuell zu halten."
+            ]
+          },
+          {
+            "h": "Die Kultur der professionellen Pflege",
+            "p": [
+              "Eine ausgeprägte ästhetische Kultur — Kliniken, Salons, Dermatologie — hat ein starkes professionelles Segment hervorgebracht: Serien für empfindliche, zu Unreinheiten neigende und reife Haut, die sowohl für die professionelle Anwendung in der Kabine als auch für die häusliche Pflege ausgelegt sind."
+            ]
+          },
+          {
+            "h": "Exportreife",
+            "p": [
+              "Viele Hersteller bereiten ihre Produkte bereits auf die Anforderungen ausländischer Märkte vor (CPNP, MoCRA, NMPA usw.) und verfügen über Erfahrung mit Lieferungen ins Ausland. Das senkt die Einstiegshürde für den Importeur.",
+              "Im Katalog von Teranova sind koreanische Hersteller mit geprüften Profilen vertreten — zum Beispiel die Ästhetik-Marke Dr.SANTE mit Serien für beruhigende und sebumregulierende Pflege."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Pourquoi la Corée est le centre de la K-beauty et de la production à façon",
+        "excerpt": "Ce qui fait de la Corée l'un des centres mondiaux de la conception et de la production de cosmétiques : R&D, rapidité de lancement des nouveautés, culture du soin et maturité à l'export.",
+        "seoTitle": "Pourquoi la Corée est le centre de la K-beauty et de la production cosmétique à façon · Teranova",
+        "seoDesc": "R&D, rapidité des nouveautés, culture du soin professionnel et maturité à l'export : pourquoi la Corée est devenue le centre mondial de la K-beauty et de la production cosmétique OEM/ODM. Analyse de Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "La « K-beauty » a depuis longtemps dépassé le simple effet de mode pour devenir une industrie mature. Voyons pourquoi la Corée conserve sa place parmi les centres mondiaux de la cosmétique."
+            ]
+          },
+          {
+            "h": "R&D et travail sur les actifs",
+            "p": [
+              "Les entreprises coréennes investissent dans la recherche et travaillent activement les ingrédients — des compositions apaisantes (par exemple l'azulène et l'eau de camomille dans les gammes pour peaux sensibles) aux acides, peptides et extraits végétaux. Il en résulte un assortiment large et technologique."
+            ]
+          },
+          {
+            "h": "La rapidité de lancement des nouveautés",
+            "p": [
+              "Un cycle de développement court et une forte concurrence sur le marché intérieur ont habitué l'industrie à lancer et à renouveler rapidement les produits. Pour la marque cliente, c'est l'occasion de maintenir un assortiment renouvelé."
+            ]
+          },
+          {
+            "h": "La culture du soin professionnel",
+            "p": [
+              "Une culture esthétique développée — cliniques, instituts, dermatologie — a façonné un segment professionnel solide : des gammes pour peaux sensibles, à problèmes et matures, conçues aussi bien pour le soin en cabine que pour le soin à domicile."
+            ]
+          },
+          {
+            "h": "La maturité à l'export",
+            "p": [
+              "De nombreux fabricants préparent déjà leurs produits selon les exigences des marchés étrangers (CPNP, MoCRA, NMPA, etc.) et possèdent une expérience de l'export. Cela abaisse le seuil d'entrée pour l'importateur.",
+              "Dans le catalogue Teranova, les fabricants coréens sont présentés sous forme de fiches vérifiées — par exemple la marque esthétique Dr.SANTE, avec ses gammes de soin apaisant et séborégulateur."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kore neden K-beauty ve fason üretimin merkezi",
+        "excerpt": "Kore'yi dünyanın kozmetik geliştirme ve üretim merkezlerinden biri yapan nedir: R&D, yeni ürün çıkarma hızı, bakım kültürü ve ihracat olgunluğu.",
+        "seoTitle": "Kore neden K-beauty ve kozmetik fason üretiminin merkezi · Teranova",
+        "seoDesc": "R&D, yeni ürün hızı, profesyonel bakım kültürü ve ihracat olgunluğu — Kore'nin neden dünyanın K-beauty ve OEM/ODM kozmetik üretimi merkezi haline geldiği. Teranova Group incelemesi.",
+        "sections": [
+          {
+            "p": [
+              "«K-beauty» çoktan bir moda olmanın ötesine geçerek olgun bir sektöre dönüştü. Kore'nin dünyanın kozmetik merkezlerinden biri olarak konumunu neden koruduğunu ele alalım."
+            ]
+          },
+          {
+            "h": "R&D ve aktif bileşenlerle çalışma",
+            "p": [
+              "Koreli şirketler araştırmaya yatırım yapar ve içeriklerle aktif biçimde çalışır — yatıştırıcı formüllerden (örneğin, hassas cilt serilerinde azulen ve papatya suyu) asitlere, peptitlere ve bitkisel özlere kadar. Bu da geniş ve teknolojik bir ürün yelpazesi sağlar."
+            ]
+          },
+          {
+            "h": "Yeni ürün çıkarma hızı",
+            "p": [
+              "Kısa geliştirme döngüsü ve iç pazardaki yüksek rekabet, sektörü ürünleri hızla çıkarmaya ve yenilemeye alıştırdı. Sipariş veren marka için bu, ürün yelpazesini güncel tutma imkânıdır."
+            ]
+          },
+          {
+            "h": "Profesyonel bakım kültürü",
+            "p": [
+              "Gelişmiş estetik kültürü — klinikler, salonlar, dermatoloji — güçlü bir profesyonel segment oluşturdu: hem klinik hem de evde bakım için tasarlanmış hassas, sorunlu ve yaşlanan cilt serileri."
+            ]
+          },
+          {
+            "h": "İhracat olgunluğu",
+            "p": [
+              "Birçok üretici, ürünlerini halihazırda yurt dışı pazarların gerekliliklerine (CPNP, MoCRA, NMPA vb.) göre hazırlıyor ve yurt dışına tedarik deneyimine sahip. Bu da ithalatçı için giriş eşiğini düşürür.",
+              "Teranova kataloğunda Koreli üreticiler doğrulanmış profillerle yer alır — örneğin, yatıştırıcı ve sebum düzenleyici bakım serilerine sahip estetik marka Dr.SANTE."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Por qué Corea es el centro del K-beauty y de la fabricación por contrato",
+        "excerpt": "Qué hace de Corea uno de los centros mundiales de desarrollo y fabricación de cosmética: R&D, velocidad de lanzamiento de novedades, cultura del cuidado y madurez exportadora.",
+        "seoTitle": "Por qué Corea es el centro del K-beauty y de la fabricación por contrato de cosmética · Teranova",
+        "seoDesc": "R&D, velocidad de novedades, cultura del cuidado profesional y madurez exportadora: por qué Corea se ha convertido en el centro mundial del K-beauty y de la fabricación OEM/ODM de cosmética. Análisis de Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "El «K-beauty» hace tiempo que dejó de ser una moda y se convirtió en una industria madura. Veamos por qué Corea mantiene su posición como uno de los centros mundiales de la cosmética."
+            ]
+          },
+          {
+            "h": "R&D y trabajo con activos",
+            "p": [
+              "Las empresas coreanas invierten en investigación y trabajan activamente con los ingredientes: desde composiciones calmantes (por ejemplo, azuleno y agua de manzanilla en las líneas para pieles sensibles) hasta ácidos, péptidos y extractos vegetales. Esto da lugar a un surtido amplio y tecnológico."
+            ]
+          },
+          {
+            "h": "Velocidad de lanzamiento de novedades",
+            "p": [
+              "Un ciclo de desarrollo corto y una alta competencia en el mercado interno han acostumbrado a la industria a lanzar y renovar productos con rapidez. Para la marca cliente, es la oportunidad de mantener el surtido siempre actualizado."
+            ]
+          },
+          {
+            "h": "Cultura del cuidado profesional",
+            "p": [
+              "Una cultura estética desarrollada —clínicas, salones, dermatología— ha configurado un sólido segmento profesional: líneas para pieles sensibles, con imperfecciones y maduras, pensadas tanto para el cuidado en cabina como en casa."
+            ]
+          },
+          {
+            "h": "Madurez exportadora",
+            "p": [
+              "Muchos fabricantes ya preparan sus productos según los requisitos de los mercados extranjeros (CPNP, MoCRA, NMPA, etc.) y tienen experiencia en exportación. Esto reduce la barrera de entrada para el importador.",
+              "En el catálogo de Teranova, los fabricantes coreanos se presentan mediante fichas verificadas; por ejemplo, la marca estética Dr.SANTE, con líneas de cuidado calmante y seborregulador."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Por que a Coreia é o centro da K-beauty e da fabricação terceirizada",
+        "excerpt": "O que torna a Coreia um dos centros mundiais de desenvolvimento e produção de cosméticos: R&D, velocidade de lançamento de novidades, cultura de cuidados com a pele e maturidade exportadora.",
+        "seoTitle": "Por que a Coreia é o centro da K-beauty e da fabricação terceirizada de cosméticos · Teranova",
+        "seoDesc": "R&D, velocidade de novidades, cultura de cuidados profissionais e maturidade exportadora — por que a Coreia se tornou o centro mundial da K-beauty e da produção OEM/ODM de cosméticos. Panorama da Teranova Group.",
+        "sections": [
+          {
+            "p": [
+              "A «K-beauty» há muito deixou de ser apenas moda e se tornou uma indústria madura. Vamos analisar por que a Coreia mantém a posição de um dos centros mundiais de cosméticos."
+            ]
+          },
+          {
+            "h": "R&D e trabalho com ativos",
+            "p": [
+              "As empresas coreanas investem em pesquisa e trabalham ativamente com ingredientes — de composições calmantes (por exemplo, azuleno e água de camomila em linhas para pele sensível) a ácidos, peptídeos e extratos vegetais. Isso resulta em um portfólio amplo e tecnológico."
+            ]
+          },
+          {
+            "h": "Velocidade de lançamento de novidades",
+            "p": [
+              "O ciclo curto de desenvolvimento e a forte concorrência no mercado interno acostumaram a indústria a lançar e renovar produtos com rapidez. Para a marca contratante, é a oportunidade de manter o portfólio sempre atualizado."
+            ]
+          },
+          {
+            "h": "Cultura de cuidados profissionais",
+            "p": [
+              "Uma cultura estética desenvolvida — clínicas, salões, dermatologia — formou um segmento profissional forte: linhas para pele sensível, acneica e madura, pensadas tanto para procedimentos em cabine quanto para o cuidado em casa."
+            ]
+          },
+          {
+            "h": "Maturidade exportadora",
+            "p": [
+              "Muitos fabricantes já preparam seus produtos conforme as exigências dos mercados estrangeiros (CPNP, MoCRA, NMPA etc.) e têm experiência em exportação. Isso reduz a barreira de entrada para o importador.",
+              "No catálogo da Teranova, os fabricantes coreanos são apresentados em perfis verificados — por exemplo, a marca estética Dr.SANTE, com linhas de cuidado calmante e seborregulador."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "how-teranova-verifies-suppliers",
+    "category": "overview",
+    "date": "2026-07-27",
+    "related": [
+      "verify",
+      "sante",
+      "suppliers"
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Как Teranova проверяет и сопровождает поставщиков",
+        "excerpt": "Два честных статуса вместо обещаний, личные визиты и сопровождение сделки целиком — как устроена работа Teranova с корейскими производителями.",
+        "seoTitle": "Как Teranova проверяет и сопровождает корейских поставщиков · Teranova",
+        "seoDesc": "Два статуса проверки, личные визиты на производство и сопровождение сделки от первого контакта до поставки — как Teranova снижает риски работы с корейскими поставщиками.",
+        "sections": [
+          {
+            "p": [
+              "Работа с зарубежным поставщиком — это всегда вопрос доверия: тот ли это производитель, за кого себя выдаёт, и что будет, если что-то пойдёт не так. Teranova выстроена вокруг того, чтобы снижать этот риск честно и проверяемо."
+            ]
+          },
+          {
+            "h": "Два статуса вместо обещаний",
+            "p": [
+              "Мы используем ровно два статуса. «Проверено — личный визит»: основатель лично посетил офис или производство, встретил руководство и сделал фото с датой. «Информация предоставлена компанией»: данные и материалы переданы самим поставщиком и опубликованы с его письменного согласия.",
+              "Это задокументированный факт о происхождении данных, а не обещание результата. Мы сопровождаем и содействуем сделке, но не берём на себя обещаний за поставщика."
+            ]
+          },
+          {
+            "h": "Публикация — только по согласию",
+            "p": [
+              "Карточка поставщика выходит только с письменного согласия компании. Прямые контакты производителя мы не публикуем: на этапе подбора общение идёт через Teranova, а контакты раскрываются покупателю на стадии сделки."
+            ]
+          },
+          {
+            "h": "Сопровождение сделки целиком",
+            "p": [
+              "Teranova ведёт сделку от первого контакта до поставки: подбор производителя, переговоры, образцы, логистика, таможня и оплата. Единая точка ответственности снижает операционные риски для обеих сторон."
+            ]
+          },
+          {
+            "h": "Пример: Dr.SANTE",
+            "p": [
+              "Первый профиль, собранный по этой модели, — эстетический бренд Dr.SANTE (SANTE COSMETICS): фирменная страница, каталог линеек с составами и регистрациями по позициям, условия и прайс со статусом «информация предоставлена компанией»."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "How Teranova Vets and Supports Suppliers",
+        "excerpt": "Two honest statuses instead of promises, personal visits, and support across the entire deal — how Teranova works with Korean manufacturers.",
+        "seoTitle": "How Teranova Vets and Supports Korean Suppliers · Teranova",
+        "seoDesc": "Two verification statuses, personal visits to the facility, and deal support from first contact to delivery — how Teranova reduces the risks of working with Korean suppliers.",
+        "sections": [
+          {
+            "p": [
+              "Working with a foreign supplier is always a matter of trust: is this the manufacturer it claims to be, and what happens if something goes wrong. Teranova is built around reducing that risk honestly and verifiably."
+            ]
+          },
+          {
+            "h": "Two Statuses Instead of Promises",
+            "p": [
+              "We use exactly two statuses. \"Verified — personal visit\": the founder personally visited the office or facility, met the management, and took dated photos. \"Information provided by the company\": the data and materials were supplied by the supplier itself and published with its written consent.",
+              "This is a documented fact about the origin of the data, not a promise of a result. We support and facilitate the deal, but we do not take on promises on the supplier's behalf."
+            ]
+          },
+          {
+            "h": "Publication — Only With Consent",
+            "p": [
+              "A supplier profile is published only with the company's written consent. We do not publish the manufacturer's direct contacts: during the selection stage, communication goes through Teranova, and contacts are disclosed to the buyer at the deal stage."
+            ]
+          },
+          {
+            "h": "Support Across the Entire Deal",
+            "p": [
+              "Teranova manages the deal from first contact to delivery: manufacturer selection, negotiations, samples, logistics, customs, and payment. A single point of responsibility reduces operational risks for both parties."
+            ]
+          },
+          {
+            "h": "Example: Dr.SANTE",
+            "p": [
+              "The first profile built on this model is the aesthetic brand Dr.SANTE (SANTE COSMETICS): a branded page, a catalog of lines with compositions and per-item registrations, terms and a price list with the \"information provided by the company\" status."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "Teranova는 공급업체를 어떻게 검증하고 지원하는가",
+        "excerpt": "약속 대신 두 가지 정직한 상태 표기, 직접 방문, 그리고 거래 전 과정 지원 — Teranova가 한국 제조사와 협력하는 방식.",
+        "seoTitle": "Teranova가 한국 공급업체를 검증하고 지원하는 방법 · Teranova",
+        "seoDesc": "두 가지 검증 상태 표기, 생산 현장 직접 방문, 첫 접촉부터 납품까지의 거래 지원 — Teranova가 한국 공급업체와의 협력 리스크를 낮추는 방법.",
+        "sections": [
+          {
+            "p": [
+              "해외 공급업체와의 협력은 언제나 신뢰의 문제입니다. 스스로 내세우는 그 제조사가 맞는지, 그리고 문제가 생기면 어떻게 되는지가 관건입니다. Teranova는 이 리스크를 정직하고 검증 가능한 방식으로 낮추는 데 초점을 맞춰 설계되었습니다."
+            ]
+          },
+          {
+            "h": "약속 대신 두 가지 상태 표기",
+            "p": [
+              "우리는 정확히 두 가지 상태만 사용합니다. '검증됨 — 직접 방문': 창립자가 사무실 또는 생산 현장을 직접 방문하고 경영진을 만나 날짜가 기록된 사진을 촬영했습니다. '업체 제공 정보': 데이터와 자료를 공급업체가 직접 전달했으며 서면 동의를 받아 공개되었습니다.",
+              "이는 데이터 출처에 관한 문서화된 사실이며 결과에 대한 약속이 아닙니다. 우리는 거래를 지원하고 돕지만, 공급업체를 대신해 약속을 떠맡지는 않습니다."
+            ]
+          },
+          {
+            "h": "공개는 오직 동의 하에",
+            "p": [
+              "공급업체 프로필은 오직 해당 업체의 서면 동의가 있을 때만 게시됩니다. 제조사의 직접 연락처는 공개하지 않습니다. 선정 단계에서는 모든 소통이 Teranova를 통해 이루어지며, 연락처는 거래 단계에서 구매자에게 공개됩니다."
+            ]
+          },
+          {
+            "h": "거래 전 과정 지원",
+            "p": [
+              "Teranova는 첫 접촉부터 납품까지 거래를 이끕니다. 제조사 선정, 협상, 샘플, 물류, 통관, 결제까지 포함합니다. 단일 책임 창구는 양측 모두의 운영 리스크를 낮춰 줍니다."
+            ]
+          },
+          {
+            "h": "사례: Dr.SANTE",
+            "p": [
+              "이 방식에 따라 처음으로 구성된 프로필은 에스테틱 브랜드 Dr.SANTE (SANTE COSMETICS)입니다: 전용 브랜드 페이지, 성분과 품목별 등록 현황을 담은 라인 카탈로그, 그리고 '업체 제공 정보' 상태로 표기된 조건과 견적."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "Teranova 如何核实供应商并提供全程陪同",
+        "excerpt": "以两种诚实的状态取代承诺、亲自实地走访、并全程陪同整笔交易——这就是 Teranova 与韩国制造商合作的方式。",
+        "seoTitle": "Teranova 如何核实韩国供应商并全程陪同 · Teranova",
+        "seoDesc": "两种核实状态、亲赴生产现场走访，以及从初次接触到交货的全程陪同——Teranova 如何降低与韩国供应商合作的风险。",
+        "sections": [
+          {
+            "p": [
+              "与海外供应商合作，归根结底是信任问题：对方是否如其所声称的那样是真正的制造商，以及一旦出现问题会怎样。Teranova 的整套做法正是围绕以诚实、可核查的方式降低这一风险而构建的。"
+            ]
+          },
+          {
+            "h": "以两种状态取代承诺",
+            "p": [
+              "我们只使用两种状态。「已核实——亲自走访」：创始人亲自到访办公室或生产现场，会见了管理层，并拍摄了带日期的照片。「信息由公司提供」：数据和资料由供应商本人提供，并在其书面同意下发布。",
+              "这是关于数据来源、有据可查的事实，而非对结果的承诺。我们陪同并协助交易，但不代供应商作出任何承诺。"
+            ]
+          },
+          {
+            "h": "发布——仅在获得同意的前提下",
+            "p": [
+              "供应商资料卡仅在获得公司书面同意后才会发布。我们不公开制造商的直接联系方式：在选型阶段，沟通通过 Teranova 进行，联系方式则在交易阶段向买方披露。"
+            ]
+          },
+          {
+            "h": "全程陪同整笔交易",
+            "p": [
+              "Teranova 全程主导交易，从初次接触到交货：制造商选型、谈判、样品、物流、清关与付款。单一的责任对接点可降低双方的运营风险。"
+            ]
+          },
+          {
+            "h": "案例：Dr.SANTE",
+            "p": [
+              "按此模式建立的第一份资料，是美容品牌 Dr.SANTE (SANTE COSMETICS)：包含品牌专页、附有成分与逐项注册信息的产品线目录，以及标注「信息由公司提供」状态的条款与报价。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "Teranovaによるサプライヤーの審査と取引サポートの進め方",
+        "excerpt": "約束の代わりに2つの誠実なステータス、現地への訪問、そして取引全体のサポート——Teranovaが韓国メーカーとどのように取り組んでいるかを紹介します。",
+        "seoTitle": "Teranovaが韓国のサプライヤーを審査し取引をサポートする方法 · Teranova",
+        "seoDesc": "2つの審査ステータス、製造現場への訪問、そして最初の接触から納品までの取引サポート——Teranovaが韓国サプライヤーとの取引リスクをどのように低減するかを解説します。",
+        "sections": [
+          {
+            "p": [
+              "海外サプライヤーとの取引は、常に信頼の問題を伴います。相手が名乗るとおりのメーカーなのか、そして何か問題が起きたらどうなるのか、という点です。Teranovaは、このリスクを誠実かつ検証可能な形で低減することを軸に構築されています。"
+            ]
+          },
+          {
+            "h": "約束ではなく2つのステータス",
+            "p": [
+              "当社が用いるのは、ちょうど2つのステータスです。「確認済み — 現地訪問」:創業者が事務所または製造現場を自ら訪れ、経営陣と面会し、日付入りの写真を撮影したことを意味します。「企業提供情報」:データと資料がサプライヤー自身から提供され、その書面による同意のもとで公開されたことを意味します。",
+              "これはデータの出所に関する記録された事実であり、結果を約束するものではありません。当社は取引をサポートし後押ししますが、サプライヤーに代わって何かを約束することはありません。"
+            ]
+          },
+          {
+            "h": "公開は同意がある場合のみ",
+            "p": [
+              "サプライヤーのプロフィールは、企業の書面による同意がある場合にのみ公開されます。メーカーの直接の連絡先は公開しません。選定段階のやり取りはTeranovaを通じて行われ、連絡先は取引の段階で買い手に開示されます。"
+            ]
+          },
+          {
+            "h": "取引全体のサポート",
+            "p": [
+              "Teranovaは、最初の接触から納品まで取引を担います。メーカーの選定、交渉、サンプル、物流、通関、支払いまでを対応します。責任の窓口が一本化されることで、双方にとっての運用リスクが低減します。"
+            ]
+          },
+          {
+            "h": "事例:Dr.SANTE",
+            "p": [
+              "このモデルに基づいて最初に作成されたプロフィールが、エステティックブランドのDr.SANTE (SANTE COSMETICS) です。ブランド専用ページ、成分と品目別の登録情報を掲載したライン一覧、そして「企業提供情報」ステータス付きの取引条件と価格表を備えています。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Come Teranova verifica e accompagna i fornitori",
+        "excerpt": "Due status trasparenti al posto delle promesse, visite di persona e accompagnamento dell'intera operazione: come funziona il lavoro di Teranova con i produttori coreani.",
+        "seoTitle": "Come Teranova verifica e accompagna i fornitori coreani · Teranova",
+        "seoDesc": "Due status di verifica, visite di persona in stabilimento e accompagnamento dell'operazione dal primo contatto alla consegna: come Teranova riduce i rischi nel lavoro con i fornitori coreani.",
+        "sections": [
+          {
+            "p": [
+              "Lavorare con un fornitore estero è sempre una questione di fiducia: è davvero il produttore che dichiara di essere e cosa succede se qualcosa va storto. Teranova è costruita attorno all'obiettivo di ridurre questo rischio in modo onesto e verificabile."
+            ]
+          },
+          {
+            "h": "Due status al posto delle promesse",
+            "p": [
+              "Utilizziamo esattamente due status. «Verificato — visita di persona»: il fondatore ha visitato personalmente l'ufficio o lo stabilimento, ha incontrato la direzione e ha scattato foto con data. «Informazioni fornite dall'azienda»: i dati e i materiali sono trasmessi dal fornitore stesso e pubblicati con il suo consenso scritto.",
+              "Si tratta di un fatto documentato sull'origine dei dati, non di una promessa di risultato. Accompagniamo e agevoliamo l'operazione, ma non ci assumiamo promesse al posto del fornitore."
+            ]
+          },
+          {
+            "h": "Pubblicazione solo previo consenso",
+            "p": [
+              "La scheda del fornitore viene pubblicata solo con il consenso scritto dell'azienda. Non pubblichiamo i contatti diretti del produttore: in fase di selezione la comunicazione passa attraverso Teranova, mentre i contatti vengono comunicati all'acquirente in fase di trattativa."
+            ]
+          },
+          {
+            "h": "Accompagnamento dell'intera operazione",
+            "p": [
+              "Teranova segue l'operazione dal primo contatto alla consegna: selezione del produttore, trattative, campioni, logistica, dogana e pagamento. Un unico punto di responsabilità riduce i rischi operativi per entrambe le parti."
+            ]
+          },
+          {
+            "h": "Esempio: Dr.SANTE",
+            "p": [
+              "Il primo profilo realizzato secondo questo modello è il brand estetico Dr.SANTE (SANTE COSMETICS): pagina dedicata, catalogo delle linee con composizioni e registrazioni per articolo, condizioni e listino con lo status «informazioni fornite dall'azienda»."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Wie Teranova Lieferanten prüft und begleitet",
+        "excerpt": "Zwei ehrliche Statusangaben statt Versprechen, persönliche Besuche und die vollständige Begleitung des Geschäfts — wie die Arbeit von Teranova mit koreanischen Herstellern funktioniert.",
+        "seoTitle": "Wie Teranova koreanische Lieferanten prüft und begleitet · Teranova",
+        "seoDesc": "Zwei Prüfstatus, persönliche Besuche in der Produktion und die Begleitung des Geschäfts vom ersten Kontakt bis zur Lieferung — wie Teranova die Risiken der Zusammenarbeit mit koreanischen Lieferanten senkt.",
+        "sections": [
+          {
+            "p": [
+              "Die Zusammenarbeit mit einem ausländischen Lieferanten ist immer eine Frage des Vertrauens: Ist es tatsächlich der Hersteller, für den er sich ausgibt, und was geschieht, wenn etwas schiefläuft. Teranova ist darauf ausgerichtet, dieses Risiko ehrlich und nachprüfbar zu senken."
+            ]
+          },
+          {
+            "h": "Zwei Statusangaben statt Versprechen",
+            "p": [
+              "Wir verwenden genau zwei Statusangaben. „Geprüft — persönlicher Besuch“: Der Gründer hat das Büro oder die Produktion persönlich besucht, die Geschäftsleitung getroffen und ein datiertes Foto gemacht. „Informationen vom Unternehmen bereitgestellt“: Die Angaben und Materialien wurden vom Lieferanten selbst übermittelt und mit seiner schriftlichen Zustimmung veröffentlicht.",
+              "Das ist eine dokumentierte Tatsache über die Herkunft der Daten und kein Versprechen eines Ergebnisses. Wir begleiten und unterstützen das Geschäft, übernehmen jedoch keine Versprechen anstelle des Lieferanten."
+            ]
+          },
+          {
+            "h": "Veröffentlichung — nur mit Zustimmung",
+            "p": [
+              "Das Lieferantenprofil wird nur mit schriftlicher Zustimmung des Unternehmens veröffentlicht. Die direkten Kontaktdaten des Herstellers veröffentlichen wir nicht: In der Auswahlphase läuft die Kommunikation über Teranova, und die Kontaktdaten werden dem Käufer in der Phase des Geschäftsabschlusses offengelegt."
+            ]
+          },
+          {
+            "h": "Vollständige Begleitung des Geschäfts",
+            "p": [
+              "Teranova betreut das Geschäft vom ersten Kontakt bis zur Lieferung: Auswahl des Herstellers, Verhandlungen, Muster, Logistik, Zoll und Zahlung. Eine einzige verantwortliche Anlaufstelle senkt die operativen Risiken für beide Seiten."
+            ]
+          },
+          {
+            "h": "Beispiel: Dr.SANTE",
+            "p": [
+              "Das erste nach diesem Modell erstellte Profil ist die Ästhetik-Marke Dr.SANTE (SANTE COSMETICS): eine eigene Markenseite, ein Katalog der Serien mit Zusammensetzungen und Registrierungen je Position sowie Konditionen und Preisliste mit dem Status „Informationen vom Unternehmen bereitgestellt“."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Comment Teranova vérifie et accompagne ses fournisseurs",
+        "excerpt": "Deux statuts honnêtes plutôt que des promesses, des visites en personne et l'accompagnement de la transaction de bout en bout : comment Teranova travaille avec les fabricants coréens.",
+        "seoTitle": "Comment Teranova vérifie et accompagne les fournisseurs coréens · Teranova",
+        "seoDesc": "Deux statuts de vérification, des visites en personne sur les sites de production et l'accompagnement de la transaction du premier contact à la livraison : comment Teranova réduit les risques liés aux fournisseurs coréens.",
+        "sections": [
+          {
+            "p": [
+              "Travailler avec un fournisseur étranger est toujours une question de confiance : ce fabricant est-il bien celui qu'il prétend être, et que se passera-t-il si quelque chose tourne mal ? Teranova est conçue pour réduire ce risque de manière honnête et vérifiable."
+            ]
+          },
+          {
+            "h": "Deux statuts plutôt que des promesses",
+            "p": [
+              "Nous utilisons exactement deux statuts. « Vérifié — visite en personne » : le fondateur s'est rendu personnellement au bureau ou sur le site de production, a rencontré la direction et pris des photos datées. « Informations fournies par l'entreprise » : les données et documents ont été transmis par le fournisseur lui-même et publiés avec son accord écrit.",
+              "Il s'agit d'un fait documenté sur l'origine des données, et non d'une promesse de résultat. Nous accompagnons et facilitons la transaction, sans nous engager à la place du fournisseur."
+            ]
+          },
+          {
+            "h": "Publication — uniquement avec accord",
+            "p": [
+              "La fiche d'un fournisseur n'est publiée qu'avec l'accord écrit de l'entreprise. Nous ne publions pas les coordonnées directes du fabricant : au stade de la sélection, les échanges passent par Teranova, et les coordonnées sont communiquées à l'acheteur au stade de la transaction."
+            ]
+          },
+          {
+            "h": "Accompagnement de la transaction de bout en bout",
+            "p": [
+              "Teranova pilote la transaction du premier contact à la livraison : sélection du fabricant, négociations, échantillons, logistique, douane et paiement. Un point de responsabilité unique réduit les risques opérationnels pour les deux parties."
+            ]
+          },
+          {
+            "h": "Exemple : Dr.SANTE",
+            "p": [
+              "Le premier profil constitué selon ce modèle est celui de la marque esthétique Dr.SANTE (SANTE COSMETICS) : page dédiée, catalogue de gammes avec compositions et enregistrements par référence, conditions et tarif au statut « informations fournies par l'entreprise »."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Teranova tedarikçileri nasıl doğrular ve sürece nasıl eşlik eder",
+        "excerpt": "Vaatler yerine iki dürüst durum, yerinde ziyaretler ve işlemin baştan sona takibi — Teranova'nın Koreli üreticilerle çalışma biçimi.",
+        "seoTitle": "Teranova Koreli tedarikçileri nasıl doğrular ve sürece nasıl eşlik eder · Teranova",
+        "seoDesc": "İki doğrulama durumu, üretim tesisine yerinde ziyaretler ve işlemin ilk temastan teslimata kadar takibi — Teranova, Koreli tedarikçilerle çalışmanın risklerini nasıl azaltır.",
+        "sections": [
+          {
+            "p": [
+              "Yurt dışındaki bir tedarikçiyle çalışmak her zaman bir güven meselesidir: bu üretici gerçekten iddia ettiği firma mı ve bir şeyler ters giderse ne olur. Teranova, bu riski dürüst ve doğrulanabilir biçimde azaltmak üzere kurgulanmıştır."
+            ]
+          },
+          {
+            "h": "Vaatler yerine iki durum",
+            "p": [
+              "Tam olarak iki durum kullanıyoruz. «Doğrulandı — yerinde ziyaret»: kurucu, ofisi veya üretim tesisini bizzat ziyaret etti, yönetimle görüştü ve tarihli fotoğraf çekti. «Bilgiler şirket tarafından sağlandı»: veriler ve materyaller tedarikçinin kendisi tarafından iletildi ve yazılı onayıyla yayımlandı.",
+              "Bu, bir sonuç vaadi değil, verilerin kaynağına ilişkin belgelenmiş bir olgudur. İşleme eşlik eder ve destek oluruz, ancak tedarikçi adına herhangi bir vaatte bulunmayız."
+            ]
+          },
+          {
+            "h": "Yayımlama — yalnızca onayla",
+            "p": [
+              "Tedarikçi profili yalnızca şirketin yazılı onayıyla yayımlanır. Üreticinin doğrudan iletişim bilgilerini yayımlamayız: seçim aşamasında iletişim Teranova üzerinden yürür, iletişim bilgileri ise alıcıya işlem aşamasında açıklanır."
+            ]
+          },
+          {
+            "h": "İşlemin baştan sona takibi",
+            "p": [
+              "Teranova, işlemi ilk temastan teslimata kadar yürütür: üretici seçimi, müzakereler, numuneler, lojistik, gümrük ve ödeme. Tek bir sorumluluk noktası, her iki taraf için de operasyonel riskleri azaltır."
+            ]
+          },
+          {
+            "h": "Örnek: Dr.SANTE",
+            "p": [
+              "Bu modele göre hazırlanan ilk profil, estetik marka Dr.SANTE (SANTE COSMETICS): kurumsal sayfa, içerikleri ve ürün bazında kayıtları bulunan seri kataloğu, «bilgiler şirket tarafından sağlandı» durumuna sahip koşullar ve fiyat listesi."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Cómo Teranova verifica y acompaña a los proveedores",
+        "excerpt": "Dos estatus honestos en lugar de promesas, visitas presenciales y acompañamiento de toda la transacción: así funciona el trabajo de Teranova con los fabricantes coreanos.",
+        "seoTitle": "Cómo Teranova verifica y acompaña a los proveedores coreanos · Teranova",
+        "seoDesc": "Dos estatus de verificación, visitas presenciales a la fábrica y acompañamiento de la transacción desde el primer contacto hasta la entrega: cómo Teranova reduce los riesgos de trabajar con proveedores coreanos.",
+        "sections": [
+          {
+            "p": [
+              "Trabajar con un proveedor extranjero siempre es una cuestión de confianza: si el fabricante es quien dice ser y qué ocurrirá si algo sale mal. Teranova está construida en torno a reducir ese riesgo de forma honesta y verificable."
+            ]
+          },
+          {
+            "h": "Dos estatus en lugar de promesas",
+            "p": [
+              "Usamos exactamente dos estatus. «Verificado — visita presencial»: el fundador visitó en persona la oficina o la fábrica, se reunió con la dirección y tomó fotografías con fecha. «Información facilitada por la empresa»: los datos y materiales fueron entregados por el propio proveedor y publicados con su consentimiento por escrito.",
+              "Es un hecho documentado sobre el origen de los datos, no una promesa de resultado. Acompañamos y facilitamos la transacción, pero no asumimos promesas en nombre del proveedor."
+            ]
+          },
+          {
+            "h": "Publicación solo con consentimiento",
+            "p": [
+              "La ficha del proveedor se publica únicamente con el consentimiento por escrito de la empresa. No publicamos los contactos directos del fabricante: en la etapa de selección la comunicación se realiza a través de Teranova, y los contactos se revelan al comprador en la etapa de la transacción."
+            ]
+          },
+          {
+            "h": "Acompañamiento de toda la transacción",
+            "p": [
+              "Teranova gestiona la transacción desde el primer contacto hasta la entrega: selección del fabricante, negociaciones, muestras, logística, aduana y pago. Un único punto de responsabilidad reduce los riesgos operativos para ambas partes."
+            ]
+          },
+          {
+            "h": "Ejemplo: Dr.SANTE",
+            "p": [
+              "El primer perfil elaborado con este modelo es la marca estética Dr.SANTE (SANTE COSMETICS): página de marca, catálogo de líneas con composiciones y registros por producto, condiciones y lista de precios con el estatus «información facilitada por la empresa»."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Como a Teranova verifica e acompanha os fornecedores",
+        "excerpt": "Dois status honestos em vez de promessas, visitas presenciais e o acompanhamento integral da negociação — como funciona o trabalho da Teranova com os fabricantes coreanos.",
+        "seoTitle": "Como a Teranova verifica e acompanha fornecedores coreanos · Teranova",
+        "seoDesc": "Dois status de verificação, visitas presenciais à fábrica e acompanhamento da negociação do primeiro contato à entrega — como a Teranova reduz os riscos de trabalhar com fornecedores coreanos.",
+        "sections": [
+          {
+            "p": [
+              "Trabalhar com um fornecedor estrangeiro é sempre uma questão de confiança: se o fabricante é de fato quem afirma ser e o que acontece se algo der errado. A Teranova foi estruturada em torno de reduzir esse risco de forma honesta e verificável."
+            ]
+          },
+          {
+            "h": "Dois status em vez de promessas",
+            "p": [
+              "Usamos exatamente dois status. «Verificado — visita presencial»: o fundador visitou pessoalmente o escritório ou a fábrica, encontrou a direção e tirou fotos datadas. «Informações fornecidas pela empresa»: os dados e materiais foram enviados pelo próprio fornecedor e publicados com o seu consentimento por escrito.",
+              "Trata-se de um fato documentado sobre a origem dos dados, e não de uma promessa de resultado. Nós acompanhamos e apoiamos a negociação, mas não assumimos promessas no lugar do fornecedor."
+            ]
+          },
+          {
+            "h": "Publicação — somente com consentimento",
+            "p": [
+              "O perfil do fornecedor é publicado apenas com o consentimento por escrito da empresa. Não divulgamos os contatos diretos do fabricante: na fase de seleção, a comunicação passa pela Teranova, e os contatos são revelados ao comprador na etapa da negociação."
+            ]
+          },
+          {
+            "h": "Acompanhamento integral da negociação",
+            "p": [
+              "A Teranova conduz a negociação do primeiro contato à entrega: seleção do fabricante, negociações, amostras, logística, alfândega e pagamento. Um único ponto de responsabilidade reduz os riscos operacionais para ambas as partes."
+            ]
+          },
+          {
+            "h": "Exemplo: Dr.SANTE",
+            "p": [
+              "O primeiro perfil montado segundo esse modelo é a marca estética Dr.SANTE (SANTE COSMETICS): página própria da marca, catálogo de linhas com composições e registros por item, condições e tabela de preços com o status «informações fornecidas pela empresa»."
+            ]
+          }
+        ]
+      }
+    }
+  }
+]
