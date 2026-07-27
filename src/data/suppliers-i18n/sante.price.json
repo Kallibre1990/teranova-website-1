@@ -1,0 +1,302 @@
+[
+  {
+    "line": "Azulene Soother",
+    "items": [
+      {
+        "name": "Active Cleansing Soother",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Active Cleansing Soother",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "Azulene Soother Cleansing Milk",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Azulene Soother Cleansing Milk",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "Azulene Soother Toner",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Azulene Soother Toner",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "Azulene Soother Gel",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Azulene Soother Gel",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "Azulene Soother Gel Stick",
+        "volume": "5 ml x 20",
+        "price": "4.78"
+      },
+      {
+        "name": "Azulene Soother Lotion",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Azulene Soother Lotion",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "Azulene Soother Mask",
+        "volume": "33 g x 10",
+        "price": "7.97"
+      },
+      {
+        "name": "Azulene Soother Semi-gel Mask",
+        "volume": "33 g x 10",
+        "price": "7.97"
+      },
+      {
+        "name": "Azulene Soother Ampoule",
+        "volume": "100 ml",
+        "price": "12.75"
+      },
+      {
+        "name": "Azulene Soother Ampoule",
+        "volume": "50 ml",
+        "price": "6.52"
+      },
+      {
+        "name": "Azulene Soother Cream",
+        "volume": "150 g",
+        "price": "9.57"
+      },
+      {
+        "name": "Azulene Soother Cream",
+        "volume": "50 g",
+        "price": "4.35"
+      },
+      {
+        "name": "Azulene Soother Cream Mask",
+        "volume": "150 g",
+        "price": "9.57"
+      },
+      {
+        "name": "Azulene Soother Cream Mask",
+        "volume": "50 g",
+        "price": "4.35"
+      },
+      {
+        "name": "Azulene Soother Peel Serum",
+        "volume": "50 ml",
+        "price": "6.38"
+      },
+      {
+        "name": "Azulene Soother BB Cushion",
+        "volume": "15 g",
+        "price": "7.97"
+      },
+      {
+        "name": "Azulene Soother BB Cushion Reﬁll",
+        "volume": "15 g",
+        "price": "6.38"
+      },
+      {
+        "name": "Azulene Soother Mist",
+        "volume": "100 ml",
+        "price": "4.78"
+      },
+      {
+        "name": "Azulene Soother Sun Essence",
+        "volume": "75 g",
+        "price": "5.58"
+      },
+      {
+        "name": "Azulene Soother Massage Cream",
+        "volume": "1000 ml",
+        "price": "12.75"
+      },
+      {
+        "name": "Azulene Soother Modeling Pack",
+        "volume": "8 g x 10 + 80 g",
+        "price": "8.77"
+      },
+      {
+        "name": "Soother Semi-Gel Toner Pad",
+        "volume": "80 sheets",
+        "price": "4.35"
+      },
+      {
+        "name": "Soother Semi-Gel Toner Pad Reﬁll",
+        "volume": "500 sheets",
+        "price": "13.62"
+      },
+      {
+        "name": "Soother BB Cream",
+        "volume": "35 g",
+        "price": "5.58"
+      }
+    ]
+  },
+  {
+    "line": "Artemisia AKA",
+    "items": [
+      {
+        "name": "Artemisia AKA Toner",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Artemisia AKA Toner",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "AKA Toner Gauze Pad",
+        "volume": "200 sheets",
+        "price": "4.35"
+      },
+      {
+        "name": "Artemisia AKA Ampoule",
+        "volume": "50 ml",
+        "price": "6.52"
+      },
+      {
+        "name": "Artemisia AKA Ampoule",
+        "volume": "100 ml",
+        "price": "12.75"
+      },
+      {
+        "name": "Artemisia AKA Cream",
+        "volume": "50 g",
+        "price": "4.35"
+      },
+      {
+        "name": "Artemisia AKA Cream",
+        "volume": "150 g",
+        "price": "9.57"
+      },
+      {
+        "name": "AKA Semi-Gel Mask",
+        "volume": "40 g x 5",
+        "price": "3.62"
+      },
+      {
+        "name": "Artemisia AKA BB Cream",
+        "volume": "35 g",
+        "price": "5.58"
+      }
+    ]
+  },
+  {
+    "line": "Collagen Leader",
+    "items": [
+      {
+        "name": "Collagen Leader Ampoule",
+        "volume": "100 ml",
+        "price": "12.75"
+      },
+      {
+        "name": "Collagen Leader Cream",
+        "volume": "150 g",
+        "price": "9.57"
+      },
+      {
+        "name": "Collagen Leader Mask",
+        "volume": "10 sheets",
+        "price": "11.96"
+      },
+      {
+        "name": "Collagen Leader Toner",
+        "volume": "500 ml",
+        "price": "8.99"
+      },
+      {
+        "name": "Collagen Leader Toner",
+        "volume": "200 ml",
+        "price": "5.07"
+      },
+      {
+        "name": "Collagen Leader Bubble Toner",
+        "volume": "100 ml",
+        "price": "3.62"
+      }
+    ]
+  },
+  {
+    "line": "Hyalquad Core",
+    "items": [
+      {
+        "name": "Hyalquad Core Ampoule",
+        "volume": "100 ml",
+        "price": "7.97"
+      },
+      {
+        "name": "Hyalquad Core Cream",
+        "volume": "200 g",
+        "price": "7.97"
+      },
+      {
+        "name": "Hyalquad Core Cream",
+        "volume": "50 g",
+        "price": "3.98"
+      }
+    ]
+  },
+  {
+    "line": "Elsol",
+    "items": [
+      {
+        "name": "Elsol Boosting Oil (Jojoba)",
+        "volume": "500 ml",
+        "price": "31.88"
+      },
+      {
+        "name": "Elsol Boosting Oil (Jojoba)",
+        "volume": "50 ml",
+        "price": "6.38"
+      },
+      {
+        "name": "Perfume Hand Cream",
+        "volume": "55 ml",
+        "price": "2.39"
+      }
+    ]
+  },
+  {
+    "line": "Hair Care",
+    "items": [
+      {
+        "name": "Azulene Soother Shampoo",
+        "volume": "500 ml",
+        "price": "6.38"
+      },
+      {
+        "name": "Azulene Soother Treatment",
+        "volume": "500 ml",
+        "price": "7.17"
+      },
+      {
+        "name": "Azulene Soother Shampoo & Treatment Stick",
+        "volume": "5 ml x 20",
+        "price": "4.78"
+      },
+      {
+        "name": "Amour Perfume Diﬀuser",
+        "volume": "500 ml",
+        "price": "7.97"
+      }
+    ]
+  }
+]
