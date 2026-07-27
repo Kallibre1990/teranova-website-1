@@ -120,8 +120,14 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
                     return (
                       <button class="sp-prod" type="button" data-full={it.img} data-name={it.name}>
                         <span class="sp-prod__ph"><img src={it.img} alt={it.name} loading="lazy" decoding="async" /></span>
-                        <span class="sp-prod__nm">{it.name}</span>
-                        {note && <span class="sp-prod__desc">{note}</span>}
+                        <span class="sp-prod__body">
+                          <span class="sp-prod__nm">{it.name}{it.volume && <span class="sp-prod__vol"> · {it.volume}</span>}</span>
+                          {note && <span class="sp-prod__desc">{note}</span>}
+                          {it.certs && it.certs.length > 0 && (
+                            <span class="sp-prod__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>
+                          )}
+                          {it.price && <span class="sp-prod__price">≈ ${it.price} · FOB</span>}
+                        </span>
                       </button>
                     );
                   })}
@@ -330,8 +336,13 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-prod:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
   .sp-prod__ph { aspect-ratio: 1 / 1; background: #f7fafe; display: grid; place-items: center; padding: 10px; }
   .sp-prod__ph img { width: 100%; height: 100%; object-fit: contain; }
-  .sp-prod__nm { padding: 10px 12px 5px; font-size: 0.82rem; font-weight: 700; color: var(--ds-deep); line-height: 1.3; }
-  .sp-prod__desc { padding: 0 12px 14px; font-size: 0.75rem; color: #5a6a80; line-height: 1.45; }
+  .sp-prod__body { display: flex; flex-direction: column; padding: 12px 13px 14px; }
+  .sp-prod__nm { font-size: 0.84rem; font-weight: 700; color: var(--ds-deep); line-height: 1.3; }
+  .sp-prod__vol { font-weight: 500; color: #7c8aa0; }
+  .sp-prod__desc { font-size: 0.75rem; color: #5a6a80; line-height: 1.45; margin-top: 6px; }
+  .sp-prod__certs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 9px; }
+  .sp-prod__certs span { font-size: 0.62rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 2px 6px; }
+  .sp-prod__price { margin-top: 10px; font-size: 0.82rem; font-weight: 800; color: var(--ds-sky); }
 
   .sp-certs { display: flex; flex-wrap: wrap; gap: 9px; }
   .sp-certs li { font-size: 0.88rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); border-radius: 8px; padding: 8px 15px; }
