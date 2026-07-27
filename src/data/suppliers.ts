@@ -20,6 +20,8 @@ import santeIt from './suppliers-i18n/sante.it.json';
 import santeDe from './suppliers-i18n/sante.de.json';
 import santeFr from './suppliers-i18n/sante.fr.json';
 import santeTr from './suppliers-i18n/sante.tr.json';
+import santeEs from './suppliers-i18n/sante.es.json';
+import santePt from './suppliers-i18n/sante.pt.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 
@@ -192,9 +194,11 @@ export const suppliers: SupplierProfile[] = [
       de: '/docs/sante-terms-de.pdf',
       fr: '/docs/sante-terms-fr.pdf',
       tr: '/docs/sante-terms-tr.pdf',
+      es: '/docs/sante-terms-es.pdf',
+      pt: '/docs/sante-terms-pt.pdf',
     },
     priceFile: {
-      ru: '/docs/sante-price-ru.pdf', en: '/docs/sante-price-en.pdf', ko: '/docs/sante-price-ko.pdf', zh: '/docs/sante-price-zh.pdf', ja: '/docs/sante-price-ja.pdf', it: '/docs/sante-price-it.pdf', de: '/docs/sante-price-de.pdf', fr: '/docs/sante-price-fr.pdf', tr: '/docs/sante-price-tr.pdf',
+      ru: '/docs/sante-price-ru.pdf', en: '/docs/sante-price-en.pdf', ko: '/docs/sante-price-ko.pdf', zh: '/docs/sante-price-zh.pdf', ja: '/docs/sante-price-ja.pdf', it: '/docs/sante-price-it.pdf', de: '/docs/sante-price-de.pdf', fr: '/docs/sante-price-fr.pdf', tr: '/docs/sante-price-tr.pdf', es: '/docs/sante-price-es.pdf', pt: '/docs/sante-price-pt.pdf',
     },
     i18n: {
       ru: santeRu,
@@ -206,6 +210,8 @@ export const suppliers: SupplierProfile[] = [
       de: mk(santeDe),
       fr: mk(santeFr),
       tr: mk(santeTr),
+      es: mk(santeEs),
+      pt: mk(santePt),
     },
   },
 ];
