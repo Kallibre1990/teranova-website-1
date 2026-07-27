@@ -8,6 +8,7 @@ import { Image } from 'astro:assets';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
+import { postsBySupplier, postContent } from '../../data/blog';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
 import santeHero from '../../assets/suppliers/sante/hero-serum.png';
 import santeProducts from '../../assets/suppliers/sante/products.jpg';
@@ -34,6 +35,7 @@ const lineHref = (nm: string): string | null => {
   return slug && linePages.some((p) => p.supplierSlug === profile.slug && p.slug === slug) ? localizePath(`/catalog/${profile.slug}/${slug}`, lang) : null;
 };
 const cat = t.categories.groups.find((g) => g.key === profile.category);
+const articles = [...postsBySupplier(profile.slug)].sort((a, b) => (a.hero ? 0 : 1) - (b.hero ? 0 : 1));
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 ---
 
@@ -239,6 +241,33 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     </section>
   )}
 
+  {articles.length > 0 && (
+    <section class="sp-sec">
+      <div class="wrap">
+        <span class="sp-lvl">{t.pages.blog.supplier_articles_h}</span>
+        <div class="sp-articles">
+          {articles.map((post) => {
+            const ac = postContent(post, lang);
+            return (
+              <a class="sp-article" href={localizePath(`/blog/${post.slug}`, lang)}>
+                <span class="sp-article__img">
+                  {post.hero
+                    ? <img src={post.hero} alt={ac.title} loading="lazy" decoding="async" />
+                    : <svg class="sp-article__ph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>}
+                </span>
+                <span class="sp-article__txt">
+                  <span class="sp-article__cat">{post.category === 'guide' ? t.pages.blog.cat_guide : t.pages.blog.cat_overview}</span>
+                  <span class="sp-article__title">{ac.title}</span>
+                  <span class="sp-article__more">{t.pages.blog.read_more} →</span>
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- CTA -->
   <section class="sp-cta">
     <div class="wrap">
@@ -357,6 +386,18 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-certs { display: flex; flex-wrap: wrap; gap: 9px; }
   .sp-certs li { font-size: 0.88rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); border-radius: 8px; padding: 8px 15px; }
   .sp-certs__note { font-size: 0.82rem; color: #5a6a80; line-height: 1.55; margin-top: 14px; }
+
+  .sp-articles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 8px; }
+  .sp-article { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
+  .sp-article:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 14%, transparent); }
+  .sp-article__img { display: flex; justify-content: center; align-items: center; background: linear-gradient(160deg, color-mix(in srgb, var(--ds-sky) 14%, #fff), #fff 80%); padding: 20px; min-height: 160px; }
+  .sp-article__img img { max-height: 160px; max-width: 100%; width: auto; object-fit: contain; }
+  .sp-article__ph { width: 56px; height: 56px; color: color-mix(in srgb, var(--ds-sky) 58%, #fff); }
+  .sp-article__txt { display: flex; flex-direction: column; padding: 18px 20px 20px; flex: 1; }
+  .sp-article__cat { align-self: flex-start; font-size: 0.64rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 3px 8px; margin-bottom: 10px; }
+  .sp-article__title { font-size: 1.04rem; font-weight: 800; color: var(--ds-deep); line-height: 1.28; letter-spacing: -0.01em; flex: 1; }
+  .sp-article__more { margin-top: 12px; font-weight: 700; color: var(--ds-sky); font-size: 0.88rem; }
+  @media (max-width: 720px) { .sp-articles { grid-template-columns: 1fr; } }
 
   /* lightbox */
   .sp-lb { position: fixed; inset: 0; z-index: 200; background: rgba(8, 19, 37, 0.9); display: grid; place-items: center; padding: 24px; }
