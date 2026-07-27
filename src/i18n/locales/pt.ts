@@ -205,6 +205,7 @@ export const pt: UIDict = {
       cat_overview: "Visão geral",
       read_more: "Ler",
       related_h: "Relacionados",
+      supplier_articles_h: "Artigos úteis",
     },
     catalog: {
       title: 'Catálogo de frentes',

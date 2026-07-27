@@ -185,6 +185,7 @@ const de: DeepPartial<UIDict> = {
       cat_overview: "Überblick",
       read_more: "Lesen",
       related_h: "Auch interessant",
+      supplier_articles_h: "Nützliche Artikel",
     },
     cosmetics: {
       intro_sup: "KOSMETIK · K-BEAUTY",

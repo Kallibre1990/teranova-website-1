@@ -185,6 +185,7 @@ const zh: DeepPartial<UIDict> = {
       cat_overview: "概览",
       read_more: "阅读",
       related_h: "相关内容",
+      supplier_articles_h: "实用文章",
     },
     catalog: {
       title: "业务方向目录",

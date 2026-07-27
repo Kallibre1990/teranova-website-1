@@ -205,6 +205,7 @@ export const en: UIDict = {
       cat_overview: "Overview",
       read_more: "Read",
       related_h: "Related",
+      supplier_articles_h: "Useful articles",
     },
     catalog: {
       title: 'Catalog of directions',

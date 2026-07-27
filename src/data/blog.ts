@@ -31,6 +31,10 @@ export interface BlogPost {
   /** ISO date (yyyy-mm-dd), language-neutral. */
   date: string;
   related: BlogRelated[];
+  /** Optional supplier slug this article is tied to (shown on that supplier's profile). */
+  supplier?: string;
+  /** Optional hero image (path under /public), language-neutral. */
+  hero?: string;
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 
@@ -39,3 +43,5 @@ export const postBySlug = (slug: string): BlogPost | undefined => posts.find((p)
 export const postContent = (p: BlogPost, lang: Lang): BlogPostContent => p.i18n[lang] ?? p.i18n.ru!;
 /** Newest first, for the index listing. */
 export const postsByDate: BlogPost[] = [...posts].sort((a, b) => (a.date < b.date ? 1 : -1));
+/** Articles tied to a given supplier (for the "useful articles" block on the profile). */
+export const postsBySupplier = (slug: string): BlogPost[] => postsByDate.filter((p) => p.supplier === slug);
