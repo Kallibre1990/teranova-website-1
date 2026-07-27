@@ -7,7 +7,7 @@
 import { Image } from 'astro:assets';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { supplierContent, type SupplierProfile } from '../../data/suppliers';
+import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
 import santeHero from '../../assets/suppliers/sante/hero-serum.png';
 import santeProducts from '../../assets/suppliers/sante/products.jpg';
@@ -28,6 +28,11 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
 const priceHref = profile.priceFile?.[lang] ?? profile.priceFile?.ru;
+const lineSlugMap: Record<string, string> = { 'Collagen Leader': 'collagen-leader', 'Hyalquad Core': 'hyalquad-core' };
+const lineHref = (nm: string): string | null => {
+  const slug = lineSlugMap[nm];
+  return slug && linePages.some((p) => p.supplierSlug === profile.slug && p.slug === slug) ? localizePath(`/catalog/${profile.slug}/${slug}`, lang) : null;
+};
 const cat = t.categories.groups.find((g) => g.key === profile.category);
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 ---
@@ -90,15 +95,20 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     <div class="wrap">
       <span class="sp-lvl">{c.ui.lines_h}</span>
       <div class="sp-lines">
-        {c.lines.map((l) => (
-          <article class="sp-line">
-            <span class="sp-line__ic" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
-            </span>
-            <h3 class="sp-line__nm">{l.name}</h3>
-            <p class="sp-line__note">{l.note}</p>
-          </article>
-        ))}
+        {c.lines.map((l) => {
+          const href = lineHref(l.name);
+          const El = href ? 'a' : 'article';
+          return (
+            <El class:list={['sp-line', href && 'sp-line--link']} href={href ?? undefined}>
+              <span class="sp-line__ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
+              </span>
+              <h3 class="sp-line__nm">{l.name}</h3>
+              <p class="sp-line__note">{l.note}</p>
+              {href && <span class="sp-line__more">{c.ui.more}</span>}
+            </El>
+          );
+        })}
       </div>
     </div>
   </section>
@@ -379,6 +389,9 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-lines { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .sp-line { background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #e2e8f0); border-radius: 16px; padding: 24px; box-shadow: 0 1px 2px rgba(11, 27, 53, 0.04); transition: transform .2s var(--ease), box-shadow .2s; }
   .sp-line:hover { transform: translateY(-3px); box-shadow: 0 14px 34px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
+  .sp-line--link { cursor: pointer; }
+  .sp-line--link:hover { border-color: color-mix(in srgb, var(--ds-sky) 55%, transparent); }
+  .sp-line__more { margin-top: 12px; font-size: 0.82rem; font-weight: 700; color: var(--ds-sky); }
   .sp-line__ic { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; color: var(--ds-sky); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); margin-bottom: 14px; }
   .sp-line__ic svg { width: 22px; height: 22px; }
   .sp-line__nm { font-size: 1.12rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }

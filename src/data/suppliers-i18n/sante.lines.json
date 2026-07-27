@@ -1,0 +1,336 @@
+[
+  {
+    "slug": "collagen-leader",
+    "supplierSlug": "sante",
+    "category": "cosmetics",
+    "items": [
+      {
+        "name": "Collagen Leader Ampoule",
+        "volume": "100 ml",
+        "price": "12.75",
+        "certs": [
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Collagen Leader Cream",
+        "volume": "150 g",
+        "price": "9.57",
+        "certs": [
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Collagen Leader Mask",
+        "volume": "10 sheets",
+        "price": "11.96",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "SCPN"
+        ]
+      },
+      {
+        "name": "Collagen Leader Toner",
+        "volume": "500 ml",
+        "price": "8.99",
+        "certs": []
+      },
+      {
+        "name": "Collagen Leader Bubble Toner",
+        "volume": "100 ml",
+        "price": "3.62",
+        "certs": [
+          "CPNP"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — коллагеновый уход из Кореи · Teranova Group",
+        "seoDesc": "Линейка Collagen Leader от Dr.SANTE — коллагеновый уход для упругости и возрастной кожи: ампула, крем, маска, тонеры. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Коллагеновый уход для упругости и возрастной кожи",
+        "about": [
+          "Collagen Leader — коллагеновая линейка Dr.SANTE для упругости, работы с возрастными изменениями и сияния кожи. Возвращает коже плотность и эластичность, поддерживая естественное обновление и восстановление.",
+          "Линейка ориентирована на профессиональный эстетический уход и подходит для программ по возрастной коже."
+        ],
+        "itemNotes": [
+          "Ампула для упругости: возвращает жизненную силу и увлажнение теряющей эластичность коже, подтягивает и стимулирует обновление.",
+          "Крем для упругости: питает и увлажняет, помогает восстановить плотность и здоровье кожи.",
+          "Коллагеновая тканевая маска для упругости и сияния кожи.",
+          "Коллагеновый тонер для упругости и увлажнения.",
+          "Пузырьковый коллагеновый тонер для мягкого тонизирования и увлажнения."
+        ]
+      },
+      "en": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — collagen skincare from Korea · Teranova Group",
+        "seoDesc": "The Collagen Leader line by Dr.SANTE — collagen care for firmness and mature skin: ampoule, cream, mask, toners. Wholesale from Korea with deal support via Teranova.",
+        "tagline": "Collagen care for firmness and mature skin",
+        "about": [
+          "Collagen Leader is Dr.SANTE's collagen line for firmness, anti-aging and skin glow. It restores density and elasticity while supporting the skin's natural renewal and recovery.",
+          "The line is aimed at professional aesthetic care and suits mature-skin programs."
+        ],
+        "itemNotes": [
+          "Firmness ampoule: restores vitality and moisture to skin losing its elasticity, tightens and promotes renewal.",
+          "Firmness cream: nourishes and moisturizes, helping restore skin density and health.",
+          "Collagen sheet mask for firmness and glow.",
+          "Collagen toner for firmness and hydration.",
+          "Bubble collagen toner for gentle toning and hydration."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — 한국산 콜라겐 스킨케어 · Teranova Group",
+        "seoDesc": "Dr.SANTE의 Collagen Leader 라인 — 탄력과 성숙 피부를 위한 콜라겐 케어: 앰플, 크림, 마스크, 토너. Teranova를 통한 거래 지원과 함께 한국에서 도매로 공급합니다.",
+        "tagline": "탄력과 성숙 피부를 위한 콜라겐 케어",
+        "about": [
+          "Collagen Leader는 탄력, 안티에이징, 피부 광채를 위한 Dr.SANTE의 콜라겐 라인입니다. 피부의 자연스러운 재생과 회복을 도우면서 밀도와 탄력을 되살립니다.",
+          "이 라인은 전문적인 에스테틱 케어를 지향하며 성숙 피부 프로그램에 적합합니다."
+        ],
+        "itemNotes": [
+          "탄력 앰플: 탄력을 잃어가는 피부에 활력과 수분을 되살리고, 조여주며 재생을 촉진합니다.",
+          "탄력 크림: 영양과 수분을 공급하여 피부의 밀도와 건강을 되살리는 데 도움을 줍니다.",
+          "탄력과 광채를 위한 콜라겐 시트 마스크.",
+          "탄력과 수분 공급을 위한 콜라겐 토너.",
+          "부드러운 토닝과 수분 공급을 위한 버블 콜라겐 토너."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — 来自韩国的胶原蛋白护肤 · Teranova Group",
+        "seoDesc": "Dr.SANTE 旗下 Collagen Leader 系列 — 针对紧致与熟龄肌肤的胶原蛋白护理：安瓶、面霜、面膜、爽肤水。韩国货源批发，由 Teranova 提供交易支持。",
+        "tagline": "针对紧致与熟龄肌肤的胶原蛋白护理",
+        "about": [
+          "Collagen Leader 是 Dr.SANTE 的胶原蛋白系列，专注于紧致、抗衰老与肌肤光泽。它帮助恢复肌肤的紧实度与弹性，同时支持肌肤的自然更新与修护。",
+          "该系列面向专业的美容护理，适用于熟龄肌肤护理方案。"
+        ],
+        "itemNotes": [
+          "紧致安瓶：为逐渐失去弹性的肌肤重塑活力与水润，收紧肌肤并促进更新。",
+          "紧致面霜：滋养并保湿，帮助恢复肌肤的紧实度与健康状态。",
+          "胶原蛋白片状面膜，带来紧致与光泽。",
+          "胶原蛋白爽肤水，兼顾紧致与保湿。",
+          "泡泡胶原蛋白爽肤水，温和调理肌肤并补水保湿。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Collagen Leader（Dr.SANTE）— 韓国発のコラーゲンスキンケア · Teranova Group",
+        "seoDesc": "Dr.SANTEのCollagen Leaderライン — ハリと年齢肌のためのコラーゲンケア：アンプル、クリーム、マスク、トナー。Teranovaによる取引サポート付きで韓国から卸売。",
+        "tagline": "ハリと年齢肌のためのコラーゲンケア",
+        "about": [
+          "Collagen Leaderは、ハリ、エイジングケア、肌のツヤのためのDr.SANTEのコラーゲンラインです。肌本来の生まれ変わりと回復をサポートしながら、密度と弾力を取り戻します。",
+          "このラインはプロフェッショナルなエステティックケアを目的とし、年齢肌向けのプログラムに適しています。"
+        ],
+        "itemNotes": [
+          "ハリアンプル：弾力を失いつつある肌に活力とうるおいを取り戻し、引き締めて生まれ変わりを促します。",
+          "ハリクリーム：肌に栄養とうるおいを与え、肌の密度と健やかさを取り戻すのを助けます。",
+          "ハリとツヤのためのコラーゲンシートマスク。",
+          "ハリと保湿のためのコラーゲントナー。",
+          "やさしいトーニングと保湿のためのバブルコラーゲントナー。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — skincare al collagene dalla Corea · Teranova Group",
+        "seoDesc": "La linea Collagen Leader di Dr.SANTE — cura al collagene per compattezza e pelle matura: fiala, crema, maschera, tonici. Vendita all'ingrosso dalla Corea con supporto alle trattative tramite Teranova.",
+        "tagline": "Cura al collagene per compattezza e pelle matura",
+        "about": [
+          "Collagen Leader è la linea al collagene di Dr.SANTE per compattezza, anti-età e luminosità della pelle. Ripristina densità ed elasticità sostenendo il naturale rinnovamento e recupero della pelle.",
+          "La linea è pensata per la cura estetica professionale ed è adatta ai programmi per pelli mature."
+        ],
+        "itemNotes": [
+          "Fiala compattezza: restituisce vitalità e idratazione alla pelle che perde elasticità, rassoda e favorisce il rinnovamento.",
+          "Crema compattezza: nutre e idrata, aiutando a ripristinare densità e salute della pelle.",
+          "Maschera in tessuto al collagene per compattezza e luminosità.",
+          "Tonico al collagene per compattezza e idratazione.",
+          "Tonico bubble al collagene per una tonificazione delicata e idratazione."
+        ]
+      },
+      "de": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — Kollagenpflege aus Korea · Teranova Group",
+        "seoDesc": "Die Collagen Leader-Linie von Dr.SANTE — Kollagenpflege für Straffheit und reife Haut: Ampulle, Creme, Maske, Toner. Großhandel aus Korea mit Unterstützung bei der Abwicklung über Teranova.",
+        "tagline": "Kollagenpflege für Straffheit und reife Haut",
+        "about": [
+          "Collagen Leader ist die Kollagenlinie von Dr.SANTE für Straffheit, Anti-Aging und strahlende Haut. Sie stellt Dichte und Elastizität wieder her und unterstützt die natürliche Erneuerung und Regeneration der Haut.",
+          "Die Linie ist auf professionelle ästhetische Pflege ausgerichtet und eignet sich für Programme für reife Haut."
+        ],
+        "itemNotes": [
+          "Straffheits-Ampulle: gibt Haut, die an Elastizität verliert, Vitalität und Feuchtigkeit zurück, strafft und fördert die Erneuerung.",
+          "Straffheits-Creme: nährt und spendet Feuchtigkeit, unterstützt die Wiederherstellung von Hautdichte und -gesundheit.",
+          "Kollagen-Tuchmaske für Straffheit und Strahlkraft.",
+          "Kollagen-Toner für Straffheit und Feuchtigkeit.",
+          "Kollagen-Bubble-Toner für sanfte Tonisierung und Feuchtigkeit."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — soin au collagène venu de Corée · Teranova Group",
+        "seoDesc": "La gamme Collagen Leader de Dr.SANTE — soin au collagène pour la fermeté et les peaux matures : ampoule, crème, masque, toniques. Vente en gros depuis la Corée avec accompagnement des transactions par Teranova.",
+        "tagline": "Soin au collagène pour la fermeté et les peaux matures",
+        "about": [
+          "Collagen Leader est la gamme au collagène de Dr.SANTE dédiée à la fermeté, à l'anti-âge et à l'éclat de la peau. Elle restaure la densité et l'élasticité tout en soutenant le renouvellement et la récupération naturels de la peau.",
+          "La gamme s'adresse au soin esthétique professionnel et convient aux programmes pour peaux matures."
+        ],
+        "itemNotes": [
+          "Ampoule fermeté : redonne vitalité et hydratation aux peaux qui perdent leur élasticité, raffermit et favorise le renouvellement.",
+          "Crème fermeté : nourrit et hydrate, aidant à restaurer la densité et la santé de la peau.",
+          "Masque en tissu au collagène pour la fermeté et l'éclat.",
+          "Tonique au collagène pour la fermeté et l'hydratation.",
+          "Tonique moussant au collagène pour une tonification douce et une hydratation."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Collagen Leader (Dr.SANTE) — Kore'den kolajen cilt bakımı · Teranova Group",
+        "seoDesc": "Dr.SANTE imzalı Collagen Leader serisi — sıkılık ve olgun ciltler için kolajen bakımı: ampul, krem, maske, tonikler. Teranova aracılığıyla anlaşma desteğiyle Kore'den toptan.",
+        "tagline": "Sıkılık ve olgun ciltler için kolajen bakımı",
+        "about": [
+          "Collagen Leader, sıkılık, yaşlanma karşıtı bakım ve cilt ışıltısı için Dr.SANTE'nin kolajen serisidir. Cildin doğal yenilenmesini ve onarımını desteklerken yoğunluğu ve elastikiyeti geri kazandırır.",
+          "Seri, profesyonel estetik bakıma yöneliktir ve olgun cilt programları için uygundur."
+        ],
+        "itemNotes": [
+          "Sıkılaştırıcı ampul: elastikiyetini kaybeden cilde canlılık ve nem kazandırır, sıkılaştırır ve yenilenmeyi destekler.",
+          "Sıkılaştırıcı krem: besler ve nemlendirir, cildin yoğunluğunu ve sağlığını geri kazanmasına yardımcı olur.",
+          "Sıkılık ve ışıltı için kolajen kağıt maske.",
+          "Sıkılık ve nemlendirme için kolajen tonik.",
+          "Nazik tonlama ve nemlendirme için köpük kolajen tonik."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "hyalquad-core",
+    "supplierSlug": "sante",
+    "category": "cosmetics",
+    "items": [
+      {
+        "name": "Hyalquad Core Ampoule",
+        "volume": "100 ml",
+        "price": "7.97",
+        "certs": [
+          "CPNP",
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Hyalquad Core Cream",
+        "volume": "200 g",
+        "price": "7.97",
+        "certs": []
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — увлажнение на гиалуроновой кислоте · Teranova",
+        "seoDesc": "Линейка Hyalquad Core от Dr.SANTE — интенсивное увлажнение на комплексе гиалуроновой кислоты: ампула и крем. Оптовые поставки из Кореи через Teranova.",
+        "tagline": "Интенсивное увлажнение на гиалуроновой кислоте",
+        "about": [
+          "Hyalquad Core — линейка Dr.SANTE для интенсивного и длительного увлажнения на комплексе гиалуроновой кислоты. Глубоко насыщает кожу влагой и поддерживает защитный барьер.",
+          "Подходит для обезвоженной и нуждающейся в интенсивном увлажнении кожи."
+        ],
+        "itemNotes": [
+          "Увлажняющая ампула на комплексе гиалуроновой кислоты для глубокого насыщения кожи влагой.",
+          "Увлажняющий крем на комплексе гиалуроновой кислоты для длительного удержания влаги."
+        ]
+      },
+      "en": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — hyaluronic hydration line · Teranova",
+        "seoDesc": "The Hyalquad Core line by Dr.SANTE — intensive hydration on a hyaluronic acid complex: ampoule and cream. Wholesale from Korea via Teranova.",
+        "tagline": "Intensive hydration on a hyaluronic acid complex",
+        "about": [
+          "Hyalquad Core is Dr.SANTE's line for intensive, long-lasting hydration on a hyaluronic acid complex. It deeply saturates the skin with moisture and supports the protective barrier.",
+          "Suited to dehydrated skin that needs intensive moisture."
+        ],
+        "itemNotes": [
+          "Hydrating ampoule on a hyaluronic acid complex for deep moisture saturation.",
+          "Hydrating cream on a hyaluronic acid complex for long-lasting moisture retention."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — 히알루론산 수분 공급 라인 · Teranova",
+        "seoDesc": "Dr.SANTE의 Hyalquad Core 라인 — 히알루론산 콤플렉스 기반의 집중 수분 공급: 앰플과 크림. Teranova를 통해 한국에서 도매로 공급합니다.",
+        "tagline": "히알루론산 콤플렉스 기반의 집중 수분 공급",
+        "about": [
+          "Hyalquad Core는 히알루론산 콤플렉스 기반의 집중적이고 오래 지속되는 수분 공급을 위한 Dr.SANTE의 라인입니다. 피부에 수분을 깊이 채워주고 보호 장벽을 지지합니다.",
+          "집중적인 수분이 필요한 건조한 피부에 적합합니다."
+        ],
+        "itemNotes": [
+          "깊은 수분 충전을 위한 히알루론산 콤플렉스 기반의 수분 앰플.",
+          "오래 지속되는 수분 유지를 위한 히알루론산 콤플렉스 기반의 수분 크림."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — 透明质酸保湿系列 · Teranova",
+        "seoDesc": "Dr.SANTE 旗下 Hyalquad Core 系列 — 基于透明质酸复合物的强效保湿：安瓶与面霜。韩国货源批发，由 Teranova 提供。",
+        "tagline": "基于透明质酸复合物的强效保湿",
+        "about": [
+          "Hyalquad Core 是 Dr.SANTE 基于透明质酸复合物打造的系列，带来强效而持久的保湿。它为肌肤深层注入水分，并支持肌肤的保护屏障。",
+          "适合需要强效补水的缺水肌肤。"
+        ],
+        "itemNotes": [
+          "基于透明质酸复合物的保湿安瓶，为肌肤深层注入水分。",
+          "基于透明质酸复合物的保湿面霜，长效锁住水分。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Hyalquad Core（Dr.SANTE）— ヒアルロン酸保湿ライン · Teranova",
+        "seoDesc": "Dr.SANTEのHyalquad Coreライン — ヒアルロン酸複合体による集中保湿：アンプルとクリーム。Teranovaを通じて韓国から卸売。",
+        "tagline": "ヒアルロン酸複合体による集中保湿",
+        "about": [
+          "Hyalquad Coreは、ヒアルロン酸複合体による集中的で長時間持続する保湿のためのDr.SANTEのラインです。肌の奥までうるおいで満たし、保護バリアをサポートします。",
+          "集中的なうるおいを必要とする乾燥した肌に適しています。"
+        ],
+        "itemNotes": [
+          "肌の奥までうるおいで満たす、ヒアルロン酸複合体配合の保湿アンプル。",
+          "長時間うるおいをキープする、ヒアルロン酸複合体配合の保湿クリーム。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — linea di idratazione all'acido ialuronico · Teranova",
+        "seoDesc": "La linea Hyalquad Core di Dr.SANTE — idratazione intensiva a base di un complesso di acido ialuronico: fiala e crema. Vendita all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Idratazione intensiva a base di un complesso di acido ialuronico",
+        "about": [
+          "Hyalquad Core è la linea di Dr.SANTE per un'idratazione intensiva e duratura a base di un complesso di acido ialuronico. Satura in profondità la pelle di idratazione e sostiene la barriera protettiva.",
+          "Adatta alle pelli disidratate che necessitano di idratazione intensiva."
+        ],
+        "itemNotes": [
+          "Fiala idratante a base di complesso di acido ialuronico per una profonda saturazione di idratazione.",
+          "Crema idratante a base di complesso di acido ialuronico per trattenere a lungo l'idratazione."
+        ]
+      },
+      "de": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — Hyaluron-Feuchtigkeitslinie · Teranova",
+        "seoDesc": "Die Hyalquad Core-Linie von Dr.SANTE — intensive Feuchtigkeit auf Basis eines Hyaluronsäure-Komplexes: Ampulle und Creme. Großhandel aus Korea über Teranova.",
+        "tagline": "Intensive Feuchtigkeit auf Basis eines Hyaluronsäure-Komplexes",
+        "about": [
+          "Hyalquad Core ist die Linie von Dr.SANTE für intensive, langanhaltende Feuchtigkeit auf Basis eines Hyaluronsäure-Komplexes. Sie versorgt die Haut tief mit Feuchtigkeit und unterstützt die Schutzbarriere.",
+          "Geeignet für dehydrierte Haut, die intensive Feuchtigkeit benötigt."
+        ],
+        "itemNotes": [
+          "Feuchtigkeitsspendende Ampulle auf Basis eines Hyaluronsäure-Komplexes für tiefe Feuchtigkeitsversorgung.",
+          "Feuchtigkeitsspendende Creme auf Basis eines Hyaluronsäure-Komplexes für langanhaltende Feuchtigkeitsbindung."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — gamme hydratation à l'acide hyaluronique · Teranova",
+        "seoDesc": "La gamme Hyalquad Core de Dr.SANTE — hydratation intensive sur un complexe d'acide hyaluronique : ampoule et crème. Vente en gros depuis la Corée via Teranova.",
+        "tagline": "Hydratation intensive sur un complexe d'acide hyaluronique",
+        "about": [
+          "Hyalquad Core est la gamme de Dr.SANTE pour une hydratation intensive et durable, sur un complexe d'acide hyaluronique. Elle sature la peau d'hydratation en profondeur et soutient la barrière protectrice.",
+          "Convient aux peaux déshydratées qui ont besoin d'une hydratation intensive."
+        ],
+        "itemNotes": [
+          "Ampoule hydratante sur un complexe d'acide hyaluronique pour une saturation profonde en hydratation.",
+          "Crème hydratante sur un complexe d'acide hyaluronique pour une rétention d'hydratation durable."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Hyalquad Core (Dr.SANTE) — hyaluronik nemlendirme serisi · Teranova",
+        "seoDesc": "Dr.SANTE imzalı Hyalquad Core serisi — hyaluronik asit kompleksiyle yoğun nemlendirme: ampul ve krem. Teranova aracılığıyla Kore'den toptan.",
+        "tagline": "Hyaluronik asit kompleksiyle yoğun nemlendirme",
+        "about": [
+          "Hyalquad Core, hyaluronik asit kompleksiyle yoğun ve uzun süreli nemlendirme için Dr.SANTE'nin serisidir. Cildi nemle derinlemesine doyurur ve koruyucu bariyeri destekler.",
+          "Yoğun neme ihtiyaç duyan nem kaybetmiş ciltler için uygundur."
+        ],
+        "itemNotes": [
+          "Derinlemesine nem doygunluğu için hyaluronik asit kompleksiyle nemlendirici ampul.",
+          "Uzun süreli nem tutulması için hyaluronik asit kompleksiyle nemlendirici krem."
+        ]
+      }
+    }
+  }
+]
