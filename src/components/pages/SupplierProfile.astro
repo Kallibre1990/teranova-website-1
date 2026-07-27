@@ -28,7 +28,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
 const priceHref = profile.priceFile?.[lang] ?? profile.priceFile?.ru;
-const lineSlugMap: Record<string, string> = { 'Collagen Leader': 'collagen-leader', 'Hyalquad Core': 'hyalquad-core' };
+const lineSlugMap: Record<string, string> = { 'Azulene Soother': 'azulene-soother', 'Artemisia AKA': 'artemisia-aka', 'Collagen Leader': 'collagen-leader', 'Hyalquad Core': 'hyalquad-core' };
 const lineHref = (nm: string): string | null => {
   const slug = lineSlugMap[nm];
   return slug && linePages.some((p) => p.supplierSlug === profile.slug && p.slug === slug) ? localizePath(`/catalog/${profile.slug}/${slug}`, lang) : null;

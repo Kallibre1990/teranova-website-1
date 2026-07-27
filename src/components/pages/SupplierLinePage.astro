@@ -12,6 +12,8 @@ interface Props {
 const { lang, page } = Astro.props;
 const t = ui[lang];
 const c = linePageContent(page, lang);
+const LINE_NAMES: Record<string, string> = { 'azulene-soother': 'Azulene Soother', 'artemisia-aka': 'Artemisia AKA', 'collagen-leader': 'Collagen Leader', 'hyalquad-core': 'Hyalquad Core' };
+const lineName = LINE_NAMES[page.slug] ?? page.slug;
 const supplier = supplierBySlug(page.supplierSlug);
 const brand = supplier?.brand ?? '';
 const name = supplier?.name ?? '';
@@ -32,7 +34,7 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
         <a href={localizePath(`/catalog/${page.supplierSlug}`, lang)}>{brand}</a>
       </nav>
       <span class="sl-eyebrow">{name} · {brand}</span>
-      <h1 class="sl-h1">{page.slug === 'collagen-leader' ? 'Collagen Leader' : page.slug === 'hyalquad-core' ? 'Hyalquad Core' : page.slug}</h1>
+      <h1 class="sl-h1">{lineName}</h1>
       <p class="sl-tagline">{c.tagline}</p>
       {c.about.map((p) => <p class="sl-about">{p}</p>)}
     </div>
