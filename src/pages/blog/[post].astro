@@ -1,0 +1,19 @@
+---
+/* Blog article (default locale, ru). */
+import Base from '../../layouts/Base.astro';
+import BlogPostView from '../../components/pages/BlogPost.astro';
+import { posts, postContent, type BlogPost } from '../../data/blog';
+import { blogPostJsonLd } from '../../data/jsonld';
+
+export function getStaticPaths() {
+  return posts.map((post) => ({ params: { post: post.slug }, props: { post } }));
+}
+
+const lang = 'ru' as const;
+const { post } = Astro.props as { post: BlogPost };
+const c = postContent(post, lang);
+---
+
+<Base lang={lang} path={`/blog/${post.slug}`} title={c.seoTitle} description={c.seoDesc} jsonLd={blogPostJsonLd(lang, post)}>
+  <BlogPostView lang={lang} post={post} />
+</Base>

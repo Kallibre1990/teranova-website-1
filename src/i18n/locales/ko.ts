@@ -6,6 +6,7 @@ export const ko: UIDict = {
   langName: '한국어',
 
   nav: {
+    blog: "인사이트",
     catalog: '카탈로그',
     buyers: '바이어 안내',
     verify: '검증 방식',
@@ -184,6 +185,14 @@ export const ko: UIDict = {
   },
 
   pages: {
+    blog: {
+      title: "인사이트와 가이드",
+      sub: "한국 공급업체와의 협업에 대한 실무 자료: 인증, OEM/ODM, 물류, 검증.",
+      cat_guide: "가이드",
+      cat_overview: "개요",
+      read_more: "읽기",
+      related_h: "관련 글",
+    },
     catalog: {
       title: '분야 카탈로그',
       sub: '한국 소싱 7개 분야. 분야를 열면 세부 분야와 검증된 공급업체가 보입니다. 카탈로그는 준비 중이며 일부 카드는 데모 샘플입니다.',

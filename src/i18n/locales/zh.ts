@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const zh: DeepPartial<UIDict> = {
   nav: {
+    blog: "洞察",
     catalog: "产品目录",
     verify: "我们如何核验",
     buyers: "面向买家",
@@ -177,6 +178,14 @@ const zh: DeepPartial<UIDict> = {
   },
 
   pages: {
+    blog: {
+      title: "洞察与指南",
+      sub: "与韩国供应商合作的实用内容：认证、OEM/ODM、物流与核验。",
+      cat_guide: "指南",
+      cat_overview: "概览",
+      read_more: "阅读",
+      related_h: "相关内容",
+    },
     catalog: {
       title: "业务方向目录",
       sub: "来自韩国的七大寻源方向。打开任一方向，即可查看细分领域与经核验的供应商。目录正在完善中——部分卡片为演示样例。",

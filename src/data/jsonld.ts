@@ -2,6 +2,7 @@ import { site } from './site';
 import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
 import { supplierContent, linePageContent, type SupplierProfile, type SupplierLinePage } from './suppliers';
+import { postContent, postsByDate, type BlogPost } from './blog';
 
 /** Organization + WebSite structured data for the home page. */
 export function homeJsonLd(lang: Lang) {
@@ -138,6 +139,67 @@ export function supplierLineJsonLd(lang: Lang, page: SupplierLinePage) {
       description: c.seoDesc,
       url: base + localizePath(`/catalog/${page.supplierSlug}/${page.slug}`, lang),
       hasPart: page.items.map((it) => ({ '@type': 'Product', name: it.name, brand: { '@type': 'Brand', name: 'Dr.SANTE' }, category: catName })),
+    },
+  ];
+}
+
+/** Blog index: Blog + BreadcrumbList. */
+export function blogJsonLd(lang: Lang) {
+  const base = site.domain;
+  const t = ui[lang];
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Blog',
+      name: t.pages.blog.title,
+      description: t.pages.blog.sub,
+      url: base + localizePath('/blog', lang),
+      inLanguage: t.htmlLang,
+      publisher: { '@type': 'Organization', name: 'Teranova Group' },
+      blogPost: postsByDate.map((post) => {
+        const c = postContent(post, lang);
+        return { '@type': 'BlogPosting', headline: c.title, url: base + localizePath(`/blog/${post.slug}`, lang), datePublished: post.date };
+      }),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { name: 'Teranova Group', path: '/' },
+        { name: t.nav.blog, path: '/blog' },
+      ].map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: base + localizePath(c.path, lang) })),
+    },
+  ];
+}
+
+/** Blog article: BlogPosting + BreadcrumbList. */
+export function blogPostJsonLd(lang: Lang, post: BlogPost) {
+  const base = site.domain;
+  const t = ui[lang];
+  const c = postContent(post, lang);
+  const url = base + localizePath(`/blog/${post.slug}`, lang);
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: c.title,
+      description: c.seoDesc,
+      datePublished: post.date,
+      dateModified: post.date,
+      inLanguage: t.htmlLang,
+      url,
+      mainEntityOfPage: url,
+      author: { '@type': 'Organization', name: 'Teranova Group' },
+      publisher: { '@type': 'Organization', name: 'Teranova Group', logo: { '@type': 'ImageObject', url: base + '/brand/teranova-icon-dark.svg' } },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { name: 'Teranova Group', path: '/' },
+        { name: t.nav.blog, path: '/blog' },
+        { name: c.title, path: `/blog/${post.slug}` },
+      ].map((cr, i) => ({ '@type': 'ListItem', position: i + 1, name: cr.name, item: base + localizePath(cr.path, lang) })),
     },
   ];
 }

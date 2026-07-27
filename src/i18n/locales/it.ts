@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const it: DeepPartial<UIDict> = {
   nav: {
+    blog: "Approfondimenti",
     catalog: "Catalogo",
     verify: "Come verifichiamo",
     buyers: "Per gli acquirenti",
@@ -177,6 +178,14 @@ const it: DeepPartial<UIDict> = {
   },
 
   pages: {
+    blog: {
+      title: "Approfondimenti e guide",
+      sub: "Materiali pratici sul lavoro con i fornitori coreani: certificazioni, OEM/ODM, logistica e verifica.",
+      cat_guide: "Guida",
+      cat_overview: "Panoramica",
+      read_more: "Leggi",
+      related_h: "Correlati",
+    },
     catalog: {
       title: "Catalogo delle direzioni",
       sub: "Sette direzioni di sourcing dalla Corea. Aprite una direzione per vedere le sotto-nicchie e i fornitori verificati. Il catalogo è in fase di popolamento — alcune schede sono campioni dimostrativi.",

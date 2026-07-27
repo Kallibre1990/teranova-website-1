@@ -1,0 +1,97 @@
+---
+/* Blog article — readable long-form in Teranova brand style, with a related-links
+   block (internal linking) and a request CTA. */
+import { localizePath, anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { postContent, type BlogPost } from '../../data/blog';
+interface Props {
+  lang: Lang;
+  post: BlogPost;
+}
+const { lang, post } = Astro.props;
+const t = ui[lang];
+const p = t.pages.blog;
+const c = postContent(post, lang);
+const cosmeticsName = (t as any).categories?.groups?.find((g: any) => g.key === 'cosmetics')?.name ?? 'Cosmetics';
+const REL: Record<string, { href: string; label: string }> = {
+  catalog: { href: localizePath('/catalog', lang), label: t.nav.catalog },
+  cosmetics: { href: localizePath('/catalog/cosmetics', lang), label: cosmeticsName },
+  sante: { href: localizePath('/catalog/sante', lang), label: 'SANTE COSMETICS · Dr.SANTE' },
+  verify: { href: localizePath('/how-we-verify', lang), label: t.nav.verify },
+  faq: { href: localizePath('/faq', lang), label: t.nav.faq },
+  ondemand: { href: anchorHref('ondemand', lang), label: t.nav.ondemand },
+  suppliers: { href: localizePath('/suppliers', lang), label: t.nav.suppliers },
+  buyers: { href: localizePath('/buyers', lang), label: t.nav.buyers },
+};
+const rels = post.related.map((r) => REL[r]).filter(Boolean);
+const catLabel = post.category === 'guide' ? p.cat_guide : p.cat_overview;
+---
+
+<article class="bp">
+  <section class="section">
+    <div class="wrap bp__wrap">
+      <nav class="bp__crumbs" aria-label="breadcrumb">
+        <a href={localizePath('/blog', lang)}>{t.nav.blog}</a>
+        <span aria-hidden="true">/</span>
+        <span>{catLabel}</span>
+      </nav>
+      <h1 class="bp__title">{c.title}</h1>
+      <p class="bp__lead">{c.excerpt}</p>
+
+      <div class="bp__body">
+        {
+          c.sections.map((s) => (
+            <div class="bp__sec">
+              {s.h && <h2 class="bp__h">{s.h}</h2>}
+              {s.p.map((par) => (
+                <p class="bp__p">{par}</p>
+              ))}
+            </div>
+          ))
+        }
+      </div>
+
+      <div class="bp__cta">
+        <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+      </div>
+
+      {
+        rels.length > 0 && (
+          <aside class="bp__related">
+            <h3 class="bp__related-h">{p.related_h}</h3>
+            <ul class="bp__related-list">
+              {rels.map((r) => (
+                <li>
+                  <a href={r.href}>
+                    <span>{r.label}</span>
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" /></svg>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )
+      }
+    </div>
+  </section>
+</article>
+
+<style>
+  .bp__wrap { max-width: 760px; }
+  .bp__crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; font-size: 0.84rem; font-weight: 600; color: #5a6a80; margin-bottom: 18px; }
+  .bp__crumbs a { color: var(--cobalt); }
+  .bp__crumbs span[aria-hidden] { opacity: 0.5; }
+  .bp__title { font-size: clamp(1.9rem, 4.2vw, 2.9rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.08; color: #12306e; }
+  .bp__lead { font-size: 1.12rem; line-height: 1.6; color: #45576f; margin-top: 16px; font-weight: 500; }
+  .bp__body { margin-top: 34px; }
+  .bp__sec { margin-bottom: 26px; }
+  .bp__h { font-size: 1.3rem; font-weight: 800; color: #12306e; letter-spacing: -0.01em; margin-bottom: 10px; }
+  .bp__p { font-size: 1.03rem; line-height: 1.78; color: #364357; margin-bottom: 12px; }
+  .bp__cta { margin: 34px 0; }
+  .bp__related { border-top: 1px solid #e4ebf3; padding-top: 24px; }
+  .bp__related-h { font-size: 0.78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #7c8aa0; margin-bottom: 14px; }
+  .bp__related-list { display: grid; gap: 10px; list-style: none; padding: 0; }
+  .bp__related-list a { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--cobalt); font-size: 1rem; }
+  .bp__related-list a:hover { color: #12306e; }
+  .bp__related-list svg { opacity: 0.7; }
+</style>

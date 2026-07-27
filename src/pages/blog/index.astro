@@ -1,0 +1,13 @@
+---
+/* Blog index (default locale, ru). */
+import Base from '../../layouts/Base.astro';
+import BlogIndex from '../../components/pages/BlogIndex.astro';
+import { ui } from '../../i18n/ui';
+import { blogJsonLd } from '../../data/jsonld';
+const lang = 'ru' as const;
+const p = ui[lang].pages.blog;
+---
+
+<Base lang={lang} path="/blog" title={`${p.title} — Teranova Group`} description={p.sub} jsonLd={blogJsonLd(lang)}>
+  <BlogIndex lang={lang} />
+</Base>
