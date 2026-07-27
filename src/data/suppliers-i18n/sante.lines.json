@@ -1,5 +1,674 @@
 [
   {
+    "slug": "azulene-soother",
+    "supplierSlug": "sante",
+    "category": "cosmetics",
+    "items": [
+      {
+        "name": "Active Cleansing Soother",
+        "volume": "500 / 200 ml",
+        "price": "8.99",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Cleansing Milk",
+        "volume": "500 / 200 ml",
+        "price": "8.99",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Toner",
+        "volume": "500 / 200 ml",
+        "price": "8.99",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "NMPA",
+          "HALAL",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Gel",
+        "volume": "500 / 200 ml",
+        "price": "8.99",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Gel Stick",
+        "volume": "5 ml × 20",
+        "price": "4.78",
+        "certs": [
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Azulene Soother Lotion",
+        "volume": "500 / 200 ml",
+        "price": "8.99",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Mask",
+        "volume": "33 g × 10",
+        "price": "7.97",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "SCPN",
+          "NMPA",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Semi-gel Mask",
+        "volume": "33 g × 10",
+        "price": "7.97",
+        "certs": [
+          "SCPN"
+        ]
+      },
+      {
+        "name": "Azulene Soother Ampoule",
+        "volume": "100 / 50 ml",
+        "price": "12.75",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "NMPA",
+          "HALAL",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Cream",
+        "volume": "150 / 50 g",
+        "price": "9.57",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "NMPA",
+          "HALAL",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Cream Mask",
+        "volume": "150 / 50 g",
+        "price": "9.57",
+        "certs": [
+          "CPNP",
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Azulene Soother Peel Serum",
+        "volume": "50 ml",
+        "price": "6.38",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "HALAL",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother BB Cushion",
+        "volume": "15 g (+ refill)",
+        "price": "7.97",
+        "certs": [
+          "CPNP"
+        ]
+      },
+      {
+        "name": "Azulene Soother Mist",
+        "volume": "100 ml",
+        "price": "4.78",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "HALAL",
+          "DAV"
+        ]
+      },
+      {
+        "name": "Azulene Soother Sun Essence",
+        "volume": "75 g",
+        "price": "5.58",
+        "certs": [
+          "CPNP"
+        ]
+      },
+      {
+        "name": "Azulene Soother Massage Cream",
+        "volume": "1000 ml",
+        "price": "12.75",
+        "certs": [
+          "CPNP"
+        ]
+      },
+      {
+        "name": "Azulene Soother Modeling Pack",
+        "volume": "8 g × 10 + 80 g",
+        "price": "8.77",
+        "certs": []
+      },
+      {
+        "name": "Soother Semi-Gel Toner Pad",
+        "volume": "80 / 500 sheets",
+        "price": "4.35",
+        "certs": []
+      },
+      {
+        "name": "Soother BB Cream",
+        "volume": "35 g",
+        "price": "5.58",
+        "certs": []
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — успокаивающий уход для чувствительной кожи из Кореи · Teranova Group",
+        "seoDesc": "Линейка Azulene Soother от Dr.SANTE — успокаивающий уход с гуайазуленом и ромашковой водой для чувствительной и раздражённой кожи: очищение, тонеры, ампулы, кремы, маски, солнцезащита, мисты. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Успокаивающий уход с гуайазуленом и ромашковой водой",
+        "about": [
+          "Azulene Soother — самая большая и знаковая линейка Dr.SANTE для чувствительной и раздражённой кожи. В основе — настоящий синий гуайазулен и ромашковая вода вместо очищенной воды: сочетание быстро снижает раздражение, понижает температуру кожи и укрепляет защитный барьер (Real Blue Calming Solution).",
+          "Линейка охватывает весь уход: очищение, тонизирование, ампулы и сыворотки, кремы и маски, солнцезащиту, мисты и профессиональные форматы — от домашнего ухода до кабинетных процедур."
+        ],
+        "itemNotes": [
+          "Очищающее средство со слабокислым pH 5.5, близким к состоянию здоровой кожи; гипоаллергенное, увлажняет, успокаивает и укрепляет барьер кожи.",
+          "Мягко кислотное гипоаллергенное очищающее молочко (pH 5.5), снимает дневной макияж и даже солнцезащиту, оставляя увлажняющий барьер без стянутости.",
+          "Тонер на основе экстракта ромашки и азулена вместо очищенной воды, с 50 000 ppm экстракта мяты горы Чирисан для успокоения и увлажнения; технология Aquaporin для глубокого увлажнения.",
+          "Гель на основе ромашковой воды. Быстро успокаивает, охлаждает и увлажняет кожу, раздражённую улицей, солнцем, УФ, отоплением или кондиционером.",
+          "Успокаивающий уход Azulene Soother в компактном формате стика.",
+          "Лосьон с настоящим синим азуленом на ромашковой воде. Содержит пантенол и церамид NP; прошёл гипоаллергенные тесты для чувствительной и детской кожи.",
+          "Тканевая маска из биоцеллюлозы, эссенция на 87% ромашковой воде для быстрого успокоения и увлажнения. Восстанавливающий лист 4-го поколения плотно прилегает и доставляет активные компоненты.",
+          "Полугелевая тканевая маска для лица и шеи на 87% ромашковой воде: лист из натурального бамбукового волокна превращён в гель добавлением H2O — мягко прилегает, предотвращает испарение влаги и создаёт эффект обёртывания, удерживая увлажнение весь день.",
+          "Ампула для чувствительной кожи с высоким содержанием азулена (известна среди эстетических брендов). Сильное успокоение, удержание влаги и защита.",
+          "Крем натурального синего цвета азулена без искусственных красителей. Сильное успокоение, удержание влаги и защита, баланс воды и себума для здоровья кожи.",
+          "Смываемая крем-маска на ромашковой воде с 1 000 ppm гуайазулена, 20 000 ppm дэкспантенола и 8 видами гиалуроновой кислоты. Увлажняет, успокаивает и смягчает кожу.",
+          "Сыворотка-эксфолиант с PHA и LHA на ромашковой воде. Мягко удаляет ороговевшие клетки без раздражения, увлажняет и придаёт сияние.",
+          "Кушон с настоящим синим азуленом на ромашковой воде; пантенол и церамид NP защищают кожу. Гигиеничный airless-контейнер и пуховка rubycell для плотного покрытия; нейтральный тон естественно ложится на любую кожу. Доступен сменный блок.",
+          "Мист-спрей для успокоения, расслабления, увлажнения и питания уставшей и раздражённой кожи.",
+          "Солнцезащитная эссенция на ромашковой воде с 11 видами гиалуроновой кислоты; увлажняет весь день и защищает от УФ. Экстракт софоры успокаивает и удерживает влагу.",
+          "Массажный крем с оливковым маслом, маслом зародышей пшеницы с мощным антиоксидантным действием и маслом ши — делает кожу мягче и эластичнее. Профессиональный формат 1000 мл.",
+          "Несохнущая гелевая моделирующая маска с 79% ромашковой воды и азуленом. Мгновенно успокаивает разогретую кожу и укрепляет барьер влаги.",
+          "Тонер-пэды из гелифицированного натурального бамбукового волокна. Мягко прилегают, предотвращают потерю влаги и доставляют активные компоненты весь день с эффектом обёртывания. Доступен сменный блок 500 шт.",
+          "BB-крем линейки Azulene Soother с успокаивающим уходом на основе ромашковой воды."
+        ]
+      },
+      "en": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — soothing care for sensitive skin from Korea · Teranova Group",
+        "seoDesc": "The Azulene Soother line by Dr.SANTE — soothing care with guaiazulene and chamomile water for sensitive, irritated skin: cleansing, toners, ampoules, creams, masks, sun protection, mists. Wholesale from Korea with deal support via Teranova.",
+        "tagline": "Soothing care with guaiazulene and chamomile water",
+        "about": [
+          "Azulene Soother is Dr.SANTE's largest and signature line for sensitive and irritated skin. At its core are real blue guaiazulene and chamomile water instead of purified water: together they quickly reduce irritation, lower the skin's temperature and reinforce the protective barrier (Real Blue Calming Solution).",
+          "The line covers the full routine: cleansing, toning, ampoules and serums, creams and masks, sun protection, mists and professional formats — from home care to in-clinic treatments."
+        ],
+        "itemNotes": [
+          "A cleanser maintaining a mildly acidic pH 5.5 close to the healthiest skin state; hypoallergenic, moisturizing, soothing and reinforcing the skin barrier.",
+          "Mildly acidic, hypoallergenic cleansing milk (pH 5.5) that removes daily makeup and even sunscreen, leaving a moisture barrier without tightness.",
+          "Toner based on Chamomile flower extract and azulene instead of purified water, with 50,000 ppm Mt. Jirisan mint extract to soothe and hydrate; Aquaporin processing for deeper hydration.",
+          "Gel product on a Chamomile flower water base. Quickly calms, cools and hydrates skin irritated by outdoor activity, sunlight, UV, heating or air conditioning.",
+          "Soothing Azulene Soother care in a compact stick format.",
+          "Lotion with real blue azulene on a Chamomile flower water base. Contains panthenol and ceramide NP; passed hypoallergenic tests for sensitive, infant and children skin.",
+          "Biocellulose sheet mask, essence on 87% Chamomile flower water for quick soothing and hydration. 4th-generation restorative sheet adheres tightly and delivers active ingredients.",
+          "Semi-gel sheet mask for face and neck on 87% Chamomile flower water: a natural bamboo-fiber sheet turned into a gel with H2O — it adheres gently, prevents moisture evaporation and creates a wrapping effect that keeps skin hydrated all day.",
+          "Ampoule for sensitive skin with a high azulene content well known among aesthetic brands. Strong soothing, moisture retention and protection.",
+          "Cream in the natural deep-blue azulene color with no artificial dyes. Strong soothing, moisture retention and protection, balancing water and oil for healthier skin.",
+          "Wash-off cream mask on Chamomile flower water with 1,000 ppm guaiazulene, 20,000 ppm dexpanthenol and 8 types of hyaluronic acid. Moisturizes, soothes and softens the skin.",
+          "Peeling serum with PHA and LHA on a Chamomile flower water base. Gently removes dead skin cells without irritation, moisturizes and adds glow.",
+          "Cushion with real blue azulene on a Chamomile flower water base; panthenol and ceramide NP protect the skin. A hygienic airless container and a rubycell puff give dense coverage; the neutral tone sits naturally on any skin tone. A refill is available.",
+          "Mist spray for genuine calming, relaxing, moisturizing and nourishing of tired and irritated skin.",
+          "Sun essence on a Chamomile flower water base with 11 types of hyaluronic acid; hydrates all day while protecting from UV. Sophora root extract soothes and preserves moisture.",
+          "Massage cream with olive oil, antioxidant-rich wheat germ oil and shea butter to make skin softer and more supple. Professional 1000 ml format.",
+          "Non-drying gel modeling pack with 79% Chamomile flower water and azulene. Instantly soothes heated skin and reinforces the moisture barrier.",
+          "Toner pads of gelated natural bamboo fiber. Gently adhere, prevent moisture loss and deliver active ingredients all day with a wrapping effect. A 500-sheet refill is available.",
+          "BB cream from the Azulene Soother line with soothing Chamomile-water-based care."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — 민감성 피부를 위한 한국산 진정 케어 · Teranova Group",
+        "seoDesc": "Dr.SANTE의 Azulene Soother 라인 — 구아이아줄렌과 캐모마일 워터로 민감하고 자극받은 피부를 위한 진정 케어: 클렌징, 토너, 앰플, 크림, 마스크, 선케어, 미스트. 한국발 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "구아이아줄렌과 캐모마일 워터로 완성한 진정 케어",
+        "about": [
+          "Azulene Soother는 민감하고 자극받은 피부를 위한 Dr.SANTE의 가장 크고 상징적인 라인입니다. 정제수 대신 진짜 블루 구아이아줄렌과 캐모마일 워터를 기반으로 하여, 자극을 빠르게 완화하고 피부 온도를 낮추며 보호막을 강화합니다 (Real Blue Calming Solution).",
+          "이 라인은 클렌징, 토닝, 앰플과 세럼, 크림과 마스크, 선케어, 미스트부터 전문가용 포맷까지 아우르며, 홈케어부터 에스테틱 시술까지 전 단계를 커버합니다."
+        ],
+        "itemNotes": [
+          "건강한 피부에 가까운 약산성 pH 5.5의 클렌저로, 저자극성이며 피부를 촉촉하게 하고 진정시키며 장벽을 강화합니다.",
+          "약산성 저자극 클렌징 밀크(pH 5.5)로, 데일리 메이크업은 물론 선케어까지 지워내며 당김 없이 촉촉한 보습 장벽을 남깁니다.",
+          "정제수 대신 캐모마일 추출물과 아줄렌을 기반으로 한 토너로, 지리산 민트 추출물 50,000ppm이 진정과 보습을 돕고 Aquaporin 기술로 깊은 보습을 제공합니다.",
+          "캐모마일 워터를 기반으로 한 젤로, 외부 환경·햇빛·자외선·난방·냉방으로 자극받은 피부를 빠르게 진정시키고 쿨링하며 보습합니다.",
+          "컴팩트한 스틱 포맷의 Azulene Soother 진정 케어.",
+          "캐모마일 워터에 진짜 블루 아줄렌을 담은 로션. 판테놀과 세라마이드 NP를 함유하며, 민감성 피부와 유아용 저자극 테스트를 완료했습니다.",
+          "바이오셀룰로오스 시트 마스크로, 87% 캐모마일 워터 에센스가 빠른 진정과 보습을 제공합니다. 4세대 리커버리 시트가 밀착되어 유효 성분을 전달합니다.",
+          "87% 캐모마일 워터를 담은 얼굴·목용 세미젤 시트 마스크: 천연 대나무 섬유 시트에 H2O를 더해 젤화하여 부드럽게 밀착되고, 수분 증발을 막으며 랩핑 효과로 하루 종일 보습을 유지합니다.",
+          "아줄렌을 고함량으로 담은 민감성 피부용 앰플(에스테틱 브랜드 사이에서 잘 알려짐). 강력한 진정과 수분 유지, 보호를 제공합니다.",
+          "인공 색소 없이 아줄렌 본연의 블루 컬러를 지닌 크림. 강력한 진정과 수분 유지, 보호는 물론 수분·유분 밸런스로 피부 건강을 돕습니다.",
+          "캐모마일 워터에 구아이아줄렌 1,000ppm, 덱스판테놀 20,000ppm, 8종 히알루론산을 담은 워시오프 크림 마스크. 피부를 보습하고 진정시키며 부드럽게 가꿔줍니다.",
+          "캐모마일 워터에 PHA와 LHA를 담은 필링 세럼. 자극 없이 각질을 부드럽게 제거하고 보습하며 광채를 더합니다.",
+          "캐모마일 워터에 진짜 블루 아줄렌을 담은 쿠션으로, 판테놀과 세라마이드 NP가 피부를 보호합니다. 위생적인 에어리스 용기와 루비셀 퍼프로 밀착 커버하며, 뉴트럴 톤이 어떤 피부에도 자연스럽게 어우러집니다. 리필 구성이 제공됩니다.",
+          "지치고 자극받은 피부를 진정·이완시키고 보습·영양을 공급하는 미스트 스프레이.",
+          "캐모마일 워터에 11종 히알루론산을 담은 선 에센스로, 하루 종일 보습하며 자외선을 차단합니다. 소포라 추출물이 진정하고 수분을 잡아줍니다.",
+          "올리브 오일, 강력한 항산화 작용의 밀 배아 오일, 시어버터를 담은 마사지 크림으로, 피부를 한층 부드럽고 탄력 있게 가꿔줍니다. 전문가용 1000ml 포맷.",
+          "79% 캐모마일 워터와 아줄렌을 담은 마르지 않는 젤 모델링 마스크. 열오른 피부를 즉각 진정시키고 수분 장벽을 강화합니다.",
+          "젤화한 천연 대나무 섬유로 만든 토너 패드. 부드럽게 밀착되어 수분 손실을 막고 랩핑 효과로 하루 종일 유효 성분을 전달합니다. 500매 리필 구성이 제공됩니다.",
+          "캐모마일 워터 기반 진정 케어를 담은 Azulene Soother 라인의 BB 크림."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Azulene Soother (Dr.SANTE)——韩国敏感肌舒缓护理系列 · Teranova Group",
+        "seoDesc": "Dr.SANTE 旗下 Azulene Soother 系列——以愈创木薁与洋甘菊水打造的舒缓护理，专为敏感及受刺激肌肤设计：涵盖洁面、爽肤水、安瓶、面霜、面膜、防晒与喷雾。韩国批发供货，Teranova 全程交易支持。",
+        "tagline": "以愈创木薁与洋甘菊水打造的舒缓护理",
+        "about": [
+          "Azulene Soother 是 Dr.SANTE 旗下规模最大、最具代表性的敏感及受刺激肌肤护理系列。核心成分为真正的蓝色愈创木薁与洋甘菊水（替代纯净水）：这一组合可快速缓解刺激、降低肌肤温度并强化防护屏障（Real Blue Calming Solution）。",
+          "系列覆盖全流程护理：洁面、爽肤、安瓶与精华、面霜与面膜、防晒、喷雾以及专业规格产品——从居家护理到院线专业护理一应俱全。"
+        ],
+        "itemNotes": [
+          "弱酸性 pH 5.5 洁面产品，接近健康肌肤状态；低敏配方，在保湿、舒缓的同时强化肌肤屏障。",
+          "弱酸性低敏卸妆洁面乳（pH 5.5），可卸除日常妆容乃至防晒，洁面后留下保湿屏障，不紧绷。",
+          "以洋甘菊提取物与薁替代纯净水的爽肤水，添加 50,000 ppm 智异山薄荷提取物舒缓保湿；采用 Aquaporin 技术实现深层补水。",
+          "以洋甘菊水为基底的凝胶。快速舒缓、降温并保湿因外界环境、日晒、紫外线、暖气或空调而受刺激的肌肤。",
+          "Azulene Soother 舒缓护理，便携棒状规格。",
+          "以洋甘菊水为基底、含真正蓝色薁的乳液。添加泛醇与神经酰胺NP；通过针对敏感肌与婴幼儿肌肤的低敏测试。",
+          "生物纤维素面贴膜，精华含 87% 洋甘菊水，快速舒缓与保湿。第4代修护膜布贴合紧密，高效输送活性成分。",
+          "面部与颈部通用的半凝胶面贴膜，含 87% 洋甘菊水：天然竹纤维膜布通过添加 H2O 转化为凝胶质地——温和贴合，防止水分蒸发并形成包裹效果，全天锁住水分。",
+          "高含量薁的敏感肌安瓶（在专业美容品牌中广受认可）。强效舒缓、锁水与防护。",
+          "呈薁天然蓝色、不含人工色素的面霜。强效舒缓、锁水与防护，平衡水油以维持肌肤健康。",
+          "以洋甘菊水为基底的可洗式膏状面膜，含 1,000 ppm 愈创木薁、20,000 ppm 右泛醇及 8 种透明质酸。保湿、舒缓并软化肌肤。",
+          "以洋甘菊水为基底、含 PHA 与 LHA 的去角质精华。温和去除老化角质而不刺激，保湿并提亮肤色。",
+          "以洋甘菊水为基底、含真正蓝色薁的气垫；泛醇与神经酰胺NP 呵护肌肤。卫生的真空（airless）容器搭配 rubycell 粉扑，妆效服帖；中性色调自然贴合各种肤色。另有替换装可选。",
+          "喷雾，为疲惫及受刺激的肌肤带来舒缓、放松、保湿与滋养。",
+          "以洋甘菊水为基底、含 11 种透明质酸的防晒精华；全天保湿并防护紫外线。苦参提取物舒缓并锁住水分。",
+          "按摩膏，含橄榄油、抗氧化功效强劲的小麦胚芽油与乳木果油——令肌肤更柔软、更富弹性。专业规格 1000 ml。",
+          "不易干的凝胶软膜，含 79% 洋甘菊水与薁。即刻舒缓发热肌肤并强化水分屏障。",
+          "由凝胶化天然竹纤维制成的爽肤水棉片。温和贴合，防止水分流失，并以包裹效果全天输送活性成分。另有 500 片替换装可选。",
+          "Azulene Soother 系列 BB霜，以洋甘菊水为基底提供舒缓护理。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — 韓国発、敏感肌のための鎮静スキンケア · Teranova Group",
+        "seoDesc": "Dr.SANTE の Azulene Soother シリーズ — グアイアズレンとカモミールウォーターを配合し、敏感肌・荒れた肌を鎮静するスキンケア。クレンジング、トナー、アンプル、クリーム、マスク、日焼け止め、ミストまで揃う。韓国からの卸売供給、Teranova が取引をサポート。",
+        "tagline": "グアイアズレンとカモミールウォーターによる鎮静スキンケア",
+        "about": [
+          "Azulene Soother は、敏感肌・荒れた肌に向けた Dr.SANTE の最大かつ代表的なシリーズです。精製水の代わりに、本物のブルーのグアイアズレンとカモミールウォーターをベースに採用。刺激を素早く抑え、肌の温度を下げ、保護バリアを強化します(Real Blue Calming Solution)。",
+          "シリーズはスキンケア全体をカバーします:クレンジング、トナー、アンプルや美容液、クリームやマスク、日焼け止め、ミスト、プロ向けフォーマットまで — ホームケアからサロン施術まで対応します。"
+        ],
+        "itemNotes": [
+          "健康な肌に近い弱酸性 pH 5.5 のクレンジング料。低刺激性で、うるおいを与えながら肌を鎮静し、バリアを強化します。",
+          "弱酸性・低刺激性のクレンジングミルク(pH 5.5)。日中のメイクや日焼け止めまで落としながら、つっぱり感なくうるおいバリアを残します。",
+          "精製水の代わりにカモミールエキスとアズレンをベースにしたトナー。鎮静と保湿のために智異山(チリサン)産ミントエキスを 50,000 ppm 配合し、Aquaporin テクノロジーで深いうるおいを届けます。",
+          "カモミールウォーターをベースにしたジェル。外気、日差し、UV、暖房やエアコンで荒れた肌を素早く鎮静し、クールダウンして保湿します。",
+          "Azulene Soother の鎮静ケアを、コンパクトなスティックタイプで。",
+          "カモミールウォーターに本物のブルーのアズレンを配合したローション。パンテノールとセラミド NP を含み、敏感肌・ベビー肌向けの低刺激性テスト済み。",
+          "バイオセルロース製のシートマスク。87% カモミールウォーターのエッセンスで素早く鎮静・保湿します。第4世代のリペアシートが肌に密着し、有効成分を届けます。",
+          "87% カモミールウォーターを使った、顔・首用のセミジェルシートマスク。天然の竹繊維シートに H2O を加えてジェル化 — やわらかく密着し、水分の蒸発を防ぎ、ラッピング効果で一日中うるおいを保ちます。",
+          "アズレンを高濃度で配合した敏感肌向けアンプル(エステティックブランドの間で知られる存在)。高い鎮静力、水分保持、そして保護を実現します。",
+          "人工着色料を使わず、アズレン本来のブルーの色合いのクリーム。高い鎮静力、水分保持、保護に加え、水分と皮脂のバランスを整えて肌の健康を支えます。",
+          "カモミールウォーターをベースにした洗い流すクリームマスク。グアイアズレン 1,000 ppm、デクスパンテノール 20,000 ppm、8 種のヒアルロン酸を配合。肌にうるおいを与え、鎮静し、やわらげます。",
+          "カモミールウォーターをベースにした、PHA と LHA 配合の角質ケア美容液。刺激なく古い角質をやさしく除去し、うるおいとツヤを与えます。",
+          "カモミールウォーターに本物のブルーのアズレンを配合したクッション。パンテノールとセラミド NP が肌を守ります。衛生的なエアレス容器と、密着カバーを叶える rubycell パフを採用。ニュートラルな色味がどんな肌にも自然になじみます。リフィルもご用意。",
+          "疲れた肌・荒れた肌を鎮静し、リラックスさせ、うるおいと栄養を与えるミストスプレー。",
+          "カモミールウォーターをベースにした、11 種のヒアルロン酸配合の日焼け止めエッセンス。一日中うるおいを保ち、UV から肌を守ります。ソフォラエキスが肌を鎮静し、水分を保持します。",
+          "オリーブオイル、強い抗酸化作用をもつ小麦胚芽油、シアバターを配合したマッサージクリーム。肌をよりやわらかく、弾力のある状態へ導きます。プロ向けの 1000 ml サイズ。",
+          "乾かない、79% カモミールウォーターとアズレンを配合したジェルモデリングマスク。ほてった肌を瞬時に鎮静し、うるおいバリアを強化します。",
+          "ジェル化した天然竹繊維のトナーパッド。やわらかく密着し、水分の損失を防ぎ、ラッピング効果で一日中有効成分を届けます。500 枚入りのリフィルもご用意。",
+          "カモミールウォーターをベースにした鎮静ケアを備えた、Azulene Soother シリーズの BB クリーム。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — trattamento lenitivo per pelli sensibili dalla Corea · Teranova Group",
+        "seoDesc": "La linea Azulene Soother di Dr.SANTE — trattamento lenitivo con guaiazulene e acqua di camomilla per pelli sensibili e irritate: detersione, tonici, fiale, creme, maschere, protezione solare, mist. Forniture all'ingrosso dalla Corea e assistenza alla trattativa con Teranova.",
+        "tagline": "Trattamento lenitivo con guaiazulene e acqua di camomilla",
+        "about": [
+          "Azulene Soother è la linea più ampia e iconica di Dr.SANTE per pelli sensibili e irritate. Alla base ci sono il vero guaiazulene blu e l'acqua di camomilla al posto dell'acqua depurata: la combinazione riduce rapidamente l'irritazione, abbassa la temperatura della pelle e rafforza la barriera protettiva (Real Blue Calming Solution).",
+          "La linea copre l'intera routine: detersione, tonificazione, fiale e sieri, creme e maschere, protezione solare, mist e formati professionali — dalla cura domiciliare ai trattamenti in cabina."
+        ],
+        "itemNotes": [
+          "Detergente a pH leggermente acido 5.5, vicino a quello della pelle sana; ipoallergenico, idrata, lenisce e rafforza la barriera cutanea.",
+          "Latte detergente ipoallergenico a pH leggermente acido (pH 5.5), rimuove il trucco della giornata e persino la protezione solare, lasciando una barriera idratante senza sensazione di pelle che tira.",
+          "Tonico a base di estratto di camomilla e azulene al posto dell'acqua depurata, con 50 000 ppm di estratto di menta del monte Jirisan per lenire e idratare; tecnologia Aquaporin per un'idratazione profonda.",
+          "Gel a base di acqua di camomilla. Lenisce, rinfresca e idrata rapidamente la pelle irritata dagli agenti esterni, dal sole, dai raggi UV, dal riscaldamento o dall'aria condizionata.",
+          "Il trattamento lenitivo Azulene Soother in un pratico formato stick.",
+          "Lozione con vero azulene blu su base di acqua di camomilla. Contiene pantenolo e ceramide NP; ha superato test ipoallergenici per pelli sensibili e dei bambini.",
+          "Maschera in tessuto di biocellulosa, essenza composta all'87% da acqua di camomilla per lenire e idratare rapidamente. Il foglio riparatore di 4ª generazione aderisce perfettamente e veicola i principi attivi.",
+          "Maschera in tessuto semi-gel per viso e collo all'87% di acqua di camomilla: il foglio in fibra di bambù naturale è trasformato in gel con l'aggiunta di H2O — aderisce delicatamente, previene l'evaporazione dell'acqua e crea un effetto avvolgente, mantenendo l'idratazione per tutto il giorno.",
+          "Fiala per pelli sensibili ad alto contenuto di azulene (apprezzata dai brand professionali di estetica). Forte azione lenitiva, ritenzione dell'idratazione e protezione.",
+          "Crema dal colore blu naturale dell'azulene, senza coloranti artificiali. Forte azione lenitiva, ritenzione dell'idratazione e protezione, equilibrio tra acqua e sebo per una pelle sana.",
+          "Maschera-crema da risciacquo a base di acqua di camomilla con 1 000 ppm di guaiazulene, 20 000 ppm di dexpantenolo e 8 tipi di acido ialuronico. Idrata, lenisce e ammorbidisce la pelle.",
+          "Siero esfoliante con PHA e LHA a base di acqua di camomilla. Rimuove delicatamente le cellule morte senza irritazione, idrata e dona luminosità.",
+          "Cushion con vero azulene blu su base di acqua di camomilla; pantenolo e ceramide NP proteggono la pelle. Contenitore airless igienico e puff in rubycell per una copertura coprente; il tono neutro si adatta con naturalezza a ogni incarnato. Disponibile la ricarica.",
+          "Mist spray per lenire, rilassare, idratare e nutrire la pelle stanca e irritata.",
+          "Essenza solare a base di acqua di camomilla con 11 tipi di acido ialuronico; idrata tutto il giorno e protegge dai raggi UV. L'estratto di sofora lenisce e trattiene l'idratazione.",
+          "Crema da massaggio con olio d'oliva, olio di germe di grano dalla potente azione antiossidante e burro di karité — rende la pelle più morbida ed elastica. Formato professionale da 1000 ml.",
+          "Maschera modellante in gel che non si secca, con 79% di acqua di camomilla e azulene. Lenisce all'istante la pelle surriscaldata e rafforza la barriera idratante.",
+          "Dischetti tonici in fibra di bambù naturale gelificata. Aderiscono delicatamente, prevengono la perdita di idratazione e veicolano i principi attivi tutto il giorno con un effetto avvolgente. Disponibile la ricarica da 500 pezzi.",
+          "BB cream della linea Azulene Soother con trattamento lenitivo a base di acqua di camomilla."
+        ]
+      },
+      "de": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — beruhigende Pflege für empfindliche Haut aus Korea · Teranova Group",
+        "seoDesc": "Die Azulene Soother-Serie von Dr.SANTE — beruhigende Pflege mit Guaiazulen und Kamillenwasser für empfindliche und gereizte Haut: Reinigung, Toner, Ampullen, Cremes, Masken, Sonnenschutz, Mists. Großhandelslieferungen aus Korea und Abwicklung über Teranova.",
+        "tagline": "Beruhigende Pflege mit Guaiazulen und Kamillenwasser",
+        "about": [
+          "Azulene Soother ist die größte und markanteste Serie von Dr.SANTE für empfindliche und gereizte Haut. Die Basis bildet echtes blaues Guaiazulen und Kamillenwasser anstelle von gereinigtem Wasser: Diese Kombination lindert Reizungen schnell, senkt die Hauttemperatur und stärkt die Schutzbarriere (Real Blue Calming Solution).",
+          "Die Serie deckt die gesamte Pflege ab: Reinigung, Tonisierung, Ampullen und Seren, Cremes und Masken, Sonnenschutz, Mists und professionelle Formate — von der Heimpflege bis zur Kabinenbehandlung."
+        ],
+        "itemNotes": [
+          "Reinigungsprodukt mit schwach saurem pH 5.5, nah am Zustand gesunder Haut; hypoallergen, spendet Feuchtigkeit, beruhigt und stärkt die Hautbarriere.",
+          "Mild saure, hypoallergene Reinigungsmilch (pH 5.5), entfernt Tages-Make-up und sogar Sonnenschutz und hinterlässt eine feuchtigkeitsspendende Barriere ohne Spannungsgefühl.",
+          "Toner auf Basis von Kamillenextrakt und Azulen anstelle von gereinigtem Wasser, mit 50 000 ppm Minzextrakt vom Berg Jirisan zur Beruhigung und Feuchtigkeitspflege; Aquaporin-Technologie für intensive Feuchtigkeit.",
+          "Gel auf Basis von Kamillenwasser. Beruhigt, kühlt und befeuchtet schnell die durch Außenluft, Sonne, UV, Heizung oder Klimaanlage gereizte Haut.",
+          "Beruhigende Azulene Soother-Pflege im kompakten Stick-Format.",
+          "Lotion mit echtem blauem Azulen auf Kamillenwasser. Enthält Panthenol und Ceramid NP; hypoallergen getestet für empfindliche und Kinderhaut.",
+          "Tuchmaske aus Biozellulose, Essenz mit 87% Kamillenwasser für schnelle Beruhigung und Feuchtigkeit. Das regenerierende Tuch der 4. Generation liegt eng an und transportiert die Wirkstoffe.",
+          "Halbgel-Tuchmaske für Gesicht und Hals mit 87% Kamillenwasser: Das Tuch aus natürlicher Bambusfaser wird durch Zugabe von H2O in ein Gel verwandelt — es liegt sanft an, verhindert das Verdunsten von Feuchtigkeit und erzeugt einen Wrapping-Effekt, der die Feuchtigkeit den ganzen Tag bewahrt.",
+          "Ampulle für empfindliche Haut mit hohem Azulen-Gehalt (in der professionellen Kosmetik bekannt). Starke Beruhigung, Feuchtigkeitsbindung und Schutz.",
+          "Creme in natürlichem Azulen-Blau ohne künstliche Farbstoffe. Starke Beruhigung, Feuchtigkeitsbindung und Schutz, Balance von Wasser und Sebum für gesunde Haut.",
+          "Abwaschbare Crememaske auf Kamillenwasser mit 1 000 ppm Guaiazulen, 20 000 ppm Dexpanthenol und 8 Arten von Hyaluronsäure. Spendet Feuchtigkeit, beruhigt und macht die Haut geschmeidig.",
+          "Peeling-Serum mit PHA und LHA auf Kamillenwasser. Entfernt sanft abgestorbene Hautzellen ohne Reizung, spendet Feuchtigkeit und verleiht Strahlkraft.",
+          "Cushion mit echtem blauem Azulen auf Kamillenwasser; Panthenol und Ceramid NP schützen die Haut. Hygienischer Airless-Behälter und Rubycell-Puff für deckende Abdeckung; der neutrale Ton fügt sich natürlich in jeden Hautton ein. Nachfüllpack erhältlich.",
+          "Mist-Spray zur Beruhigung, Entspannung, Feuchtigkeitsversorgung und Pflege müder und gereizter Haut.",
+          "Sonnenschutz-Essenz auf Kamillenwasser mit 11 Arten von Hyaluronsäure; spendet den ganzen Tag Feuchtigkeit und schützt vor UV. Sophora-Extrakt beruhigt und bindet Feuchtigkeit.",
+          "Massagecreme mit Olivenöl, Weizenkeimöl mit starker antioxidativer Wirkung und Sheabutter — macht die Haut weicher und elastischer. Professionelles Format 1000 ml.",
+          "Nicht austrocknende Gel-Modelliermaske mit 79% Kamillenwasser und Azulen. Beruhigt sofort erhitzte Haut und stärkt die Feuchtigkeitsbarriere.",
+          "Toner-Pads aus gelierter natürlicher Bambusfaser. Sie liegen sanft an, verhindern Feuchtigkeitsverlust und transportieren die Wirkstoffe den ganzen Tag mit einem Wrapping-Effekt. Nachfüllpack mit 500 Stück erhältlich.",
+          "BB-Creme der Azulene Soother-Serie mit beruhigender Pflege auf Basis von Kamillenwasser."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — soin apaisant pour peaux sensibles de Corée · Teranova Group",
+        "seoDesc": "La gamme Azulene Soother de Dr.SANTE — soin apaisant au guaïazulène et à l'eau de camomille pour peaux sensibles et irritées : nettoyage, toniques, ampoules, crèmes, masques, protection solaire, brumes. Approvisionnement en gros depuis la Corée et accompagnement de la transaction avec Teranova.",
+        "tagline": "Soin apaisant au guaïazulène et à l'eau de camomille",
+        "about": [
+          "Azulene Soother est la gamme la plus vaste et emblématique de Dr.SANTE pour les peaux sensibles et irritées. Elle repose sur du véritable guaïazulène bleu et de l'eau de camomille en remplacement de l'eau purifiée : cette association réduit rapidement les irritations, abaisse la température de la peau et renforce la barrière protectrice (Real Blue Calming Solution).",
+          "La gamme couvre l'ensemble du rituel : nettoyage, tonification, ampoules et sérums, crèmes et masques, protection solaire, brumes et formats professionnels — du soin à domicile aux protocoles en institut."
+        ],
+        "itemNotes": [
+          "Nettoyant au pH légèrement acide de 5.5, proche de celui d'une peau saine ; hypoallergénique, il hydrate, apaise et renforce la barrière cutanée.",
+          "Lait nettoyant hypoallergénique légèrement acide (pH 5.5) : il élimine le maquillage de la journée et même la protection solaire, tout en laissant une barrière hydratante sans sensation de tiraillement.",
+          "Tonique à base d'extrait de camomille et d'azulène en remplacement de l'eau purifiée, avec 50 000 ppm d'extrait de menthe du mont Jirisan pour apaiser et hydrater ; technologie Aquaporin pour une hydratation en profondeur.",
+          "Gel à base d'eau de camomille. Il apaise, rafraîchit et hydrate rapidement la peau irritée par l'extérieur, le soleil, les UV, le chauffage ou la climatisation.",
+          "Le soin apaisant Azulene Soother dans un format stick compact.",
+          "Lotion au véritable azulène bleu sur base d'eau de camomille. Elle contient du panthénol et du céramide NP ; testée hypoallergénique pour les peaux sensibles et celles des enfants.",
+          "Masque tissu en biocellulose, essence composée à 87 % d'eau de camomille pour apaiser et hydrater rapidement. La feuille réparatrice de 4e génération épouse parfaitement le visage et délivre les actifs.",
+          "Masque tissu semi-gel pour le visage et le cou à 87 % d'eau de camomille : la feuille en fibre de bambou naturelle est transformée en gel par ajout de H2O — elle épouse la peau en douceur, empêche l'évaporation de l'eau et crée un effet enveloppant qui maintient l'hydratation toute la journée.",
+          "Ampoule pour peaux sensibles à haute teneur en azulène (reconnue parmi les marques esthétiques). Apaisement intense, rétention d'eau et protection.",
+          "Crème d'une couleur bleue naturelle issue de l'azulène, sans colorants artificiels. Apaisement intense, rétention d'eau et protection, équilibre entre eau et sébum pour une peau saine.",
+          "Masque-crème à rincer sur base d'eau de camomille avec 1 000 ppm de guaïazulène, 20 000 ppm de dexpanthénol et 8 types d'acide hyaluronique. Il hydrate, apaise et adoucit la peau.",
+          "Sérum exfoliant au PHA et au LHA sur base d'eau de camomille. Il élimine en douceur les cellules mortes sans irritation, hydrate et apporte de l'éclat.",
+          "Cushion au véritable azulène bleu sur base d'eau de camomille ; le panthénol et le céramide NP protègent la peau. Contenant airless hygiénique et houppette rubycell pour une couvrance dense ; la teinte neutre se fond naturellement sur toutes les peaux. Recharge disponible.",
+          "Brume en spray pour apaiser, détendre, hydrater et nourrir les peaux fatiguées et irritées.",
+          "Essence solaire sur base d'eau de camomille avec 11 types d'acide hyaluronique ; elle hydrate toute la journée et protège des UV. L'extrait de sophora apaise et retient l'eau.",
+          "Crème de massage à l'huile d'olive, à l'huile de germe de blé au puissant effet antioxydant et au beurre de karité — elle rend la peau plus douce et plus souple. Format professionnel 1000 ml.",
+          "Masque modelant en gel non séchant avec 79 % d'eau de camomille et de l'azulène. Il apaise instantanément la peau échauffée et renforce la barrière hydrique.",
+          "Pads toniques en fibre de bambou naturelle gélifiée. Ils épousent la peau en douceur, préviennent la perte d'eau et délivrent les actifs toute la journée avec un effet enveloppant. Recharge de 500 unités disponible.",
+          "BB crème de la gamme Azulene Soother, au soin apaisant à base d'eau de camomille."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Azulene Soother (Dr.SANTE) — Kore'den hassas ciltler için yatıştırıcı bakım · Teranova Group",
+        "seoDesc": "Dr.SANTE'nin Azulene Soother serisi — hassas ve tahriş olmuş ciltler için guaiazulen ve papatya suyu içeren yatıştırıcı bakım: temizleme, tonikler, ampuller, kremler, maskeler, güneş koruması, mistler. Kore'den toptan tedarik ve Teranova üzerinden işlem takibi.",
+        "tagline": "Guaiazulen ve papatya suyu ile yatıştırıcı bakım",
+        "about": [
+          "Azulene Soother, Dr.SANTE'nin hassas ve tahriş olmuş ciltler için en geniş ve simgesel serisidir. Temelinde arıtılmış su yerine gerçek mavi guaiazulen ve papatya suyu bulunur: bu bileşim tahrişi hızla azaltır, cilt sıcaklığını düşürür ve koruyucu bariyeri güçlendirir (Real Blue Calming Solution).",
+          "Seri, bakımın tamamını kapsar: temizleme, tonlama, ampuller ve serumlar, kremler ve maskeler, güneş koruması, mistler ve profesyonel formatlar — ev bakımından salon uygulamalarına kadar."
+        ],
+        "itemNotes": [
+          "Sağlıklı cilt durumuna yakın, hafif asidik pH 5.5 değerine sahip temizleyici; hipoalerjenik, nemlendirir, yatıştırır ve cilt bariyerini güçlendirir.",
+          "Hafif asidik, hipoalerjenik temizleme sütü (pH 5.5); gündüz makyajını, hatta güneş koruyucuyu bile temizler, gerginlik bırakmadan nemlendirici bir bariyer sağlar.",
+          "Arıtılmış su yerine papatya özü ve azulen bazlı tonik; yatıştırma ve nemlendirme için 50.000 ppm Jirisan Dağı nane özü içerir; derin nemlendirme için Aquaporin teknolojisi.",
+          "Papatya suyu bazlı jel. Dış ortam, güneş, UV, kalorifer veya klimadan tahriş olmuş cildi hızla yatıştırır, serinletir ve nemlendirir.",
+          "Kompakt stick formatında Azulene Soother yatıştırıcı bakım.",
+          "Papatya suyu içinde gerçek mavi azulen bulunan losyon. Pantenol ve seramid NP içerir; hassas ve bebek ciltleri için hipoalerjenik testlerden geçmiştir.",
+          "Biyoselüloz kumaş maske; hızlı yatıştırma ve nemlendirme için %87 papatya suyu bazlı esans. 4. nesil onarıcı yaprak cilde sıkıca oturur ve aktif bileşenleri iletir.",
+          "Yüz ve boyun için %87 papatya suyu bazlı yarı jel kumaş maske: doğal bambu lifinden yaprak, H2O eklenerek jele dönüştürülmüştür — cilde nazikçe oturur, nem buharlaşmasını önler ve sarma etkisi yaratarak nemi gün boyu korur.",
+          "Yüksek azulen içerikli, hassas ciltler için ampul (estetik markalar arasında bilinir). Güçlü yatıştırma, nem tutma ve koruma.",
+          "Yapay boya içermeyen, doğal mavi azulen renginde krem. Güçlü yatıştırma, nem tutma ve koruma; cilt sağlığı için su ve sebum dengesi.",
+          "Papatya suyu bazlı, durulanan krem maske; 1.000 ppm guaiazulen, 20.000 ppm dekspantenol ve 8 çeşit hyaluronik asit içerir. Cildi nemlendirir, yatıştırır ve yumuşatır.",
+          "Papatya suyu bazlı, PHA ve LHA içeren peeling serumu. Ölü hücreleri tahriş etmeden nazikçe uzaklaştırır, nemlendirir ve ışıltı verir.",
+          "Papatya suyu içinde gerçek mavi azulen bulunan cushion; pantenol ve seramid NP cildi korur. Hijyenik airless kap ve yoğun kapsama için rubycell puf; nötr ton her cilde doğal biçimde oturur. Yedek dolum mevcuttur.",
+          "Yorgun ve tahriş olmuş cildi yatıştırmak, rahatlatmak, nemlendirmek ve beslemek için mist sprey.",
+          "Papatya suyu bazlı, 11 çeşit hyaluronik asit içeren güneş koruyucu esans; gün boyu nemlendirir ve UV'ye karşı korur. Sophora özü yatıştırır ve nemi korur.",
+          "Zeytinyağı, güçlü antioksidan etkili buğday tohumu yağı ve shea yağı içeren masaj kremi — cildi daha yumuşak ve esnek kılar. Profesyonel 1000 ml format.",
+          "Kurumayan, %79 papatya suyu ve azulen içeren jel modelaj maske. Isınmış cildi anında yatıştırır ve nem bariyerini güçlendirir.",
+          "Jelleştirilmiş doğal bambu lifinden tonik pedleri. Cilde nazikçe oturur, nem kaybını önler ve sarma etkisiyle aktif bileşenleri gün boyu iletir. 500 adetlik yedek dolum mevcuttur.",
+          "Papatya suyu bazlı yatıştırıcı bakım sunan Azulene Soother serisi BB krem."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "artemisia-aka",
+    "supplierSlug": "sante",
+    "category": "cosmetics",
+    "items": [
+      {
+        "name": "Artemisia AKA Toner",
+        "volume": "500 / 200 ml",
+        "price": "8.99",
+        "certs": [
+          "CPNP",
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Artemisia AKA Ampoule",
+        "volume": "100 / 50 ml",
+        "price": "12.75",
+        "certs": [
+          "CPNP",
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "Artemisia AKA Cream",
+        "volume": "150 / 50 g",
+        "price": "9.57",
+        "certs": [
+          "CPNP",
+          "MoCRA"
+        ]
+      },
+      {
+        "name": "AKA Semi-Gel Mask",
+        "volume": "40 g × 5",
+        "price": "3.62",
+        "certs": [
+          "CPNP",
+          "MoCRA",
+          "SCPN",
+          "HALAL",
+          "DAV"
+        ]
+      },
+      {
+        "name": "AKA Toner Gauze Pad",
+        "volume": "200 sheets",
+        "price": "4.35",
+        "certs": []
+      },
+      {
+        "name": "Artemisia AKA BB Cream",
+        "volume": "35 g",
+        "price": "5.58",
+        "certs": []
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — уход для проблемной и жирной кожи из Кореи · Teranova Group",
+        "seoDesc": "Линейка Artemisia AKA от Dr.SANTE — себорегулирующий уход на экстракте полыни (67–72%) с фирменными LHA-SOL™ и AKA-DERM™ для жирной и проблемной кожи: тонер, ампула, крем, маска. Оптовые поставки из Кореи через Teranova.",
+        "tagline": "Себорегулирующий уход для проблемной кожи на экстракте полыни",
+        "about": [
+          "Artemisia AKA — линейка Dr.SANTE для жирной, проблемной и склонной к несовершенствам кожи. В основе — высокая концентрация экстракта полыни обыкновенной (Artemisia Capillaris, 67–72%), которая успокаивает кожу и снижает её температуру.",
+          "Фирменные ингредиенты LHA-SOL™ (стабилизированный LHA 4-го поколения) и AKA-DERM™ вместе с ниацинамидом контролируют избыток себума и помогают порам, возвращая кожу к здоровому слабокислому pH. Подходит для ежедневного ухода даже за чувствительной кожей."
+        ],
+        "itemNotes": [
+          "Слабокислый успокаивающий тонер: контролирует избыток себума и улучшает поры, подходит для ежедневного ухода даже за чувствительной кожей.",
+          "Ампула с 67% экстракта полыни обыкновенной (Artemisia Capillaris), успокаивает кожу и снижает её температуру. Фирменные LHA-SOL™, AKA-DERM™ и ниацинамид контролируют избыток себума — поросужающий успокаивающий уход для ежедневного применения.",
+          "Крем с 72% экстракта полыни (Artemisia Capillaris) для успокоения и снижения температуры кожи. LHA-SOL™ и AKA-DERM™ контролируют избыток себума — поросужающий успокаивающий крем на каждый день.",
+          "Полугелевая маска для лица и шеи с выраженным антибактериальным и противовоспалительным действием: быстро успокаивает кожу и помогает при несовершенствах.",
+          "Веганский марлевый пэд из экологичных материалов (хлопок и Tencel): не рвётся и не растягивается, прилегает без раздражения и впитывает тонер в кожу.",
+          "BB-крем линейки Artemisia AKA с себорегулирующим уходом для проблемной кожи."
+        ]
+      },
+      "en": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — care for problem-prone and oily skin from Korea · Teranova Group",
+        "seoDesc": "The Artemisia AKA line by Dr.SANTE — sebum-balancing care on Artemisia extract (67–72%) with proprietary LHA-SOL™ and AKA-DERM™ for oily, problem-prone skin: toner, ampoule, cream, mask. Wholesale from Korea via Teranova.",
+        "tagline": "Sebum-balancing care for problem-prone skin on Artemisia extract",
+        "about": [
+          "Artemisia AKA is Dr.SANTE's line for oily, problem-prone and blemish-prone skin. At its core is a high concentration of Artemisia Capillaris extract (67–72%), which soothes the skin and lowers its temperature.",
+          "The proprietary LHA-SOL™ (a stabilized 4th-generation LHA) and AKA-DERM™, together with niacinamide, control excess sebum and support the pores, returning skin to a healthy, mildly acidic pH. Suitable for daily use even on sensitive skin."
+        ],
+        "itemNotes": [
+          "Weakly acidic soothing toner that controls excess sebum and improves pores; suitable for daily use even on sensitive skin.",
+          "Ampoule with 67% Artemisia Capillaris extract that soothes the skin and lowers its temperature. The proprietary LHA-SOL™ and AKA-DERM™ plus niacinamide control excess sebum — a pore-refining, soothing care for daily use even on sensitive skin.",
+          "Cream with 72% Artemisia Capillaris extract to soothe skin and lower its temperature. LHA-SOL™ and AKA-DERM™ control excess sebum — a pore-refining, soothing daily cream.",
+          "Face & neck semi-gel mask with strong anti-bacterial and anti-inflammatory action; quickly soothes skin and manages troubles.",
+          "Vegan pad from eco-friendly cotton and Tencel. Does not tear or stretch, adheres without irritation and absorbs toner into the skin.",
+          "BB cream from the Artemisia AKA line with sebum-balancing care for problem-prone skin."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — 트러블·지성 피부를 위한 한국산 케어 · Teranova Group",
+        "seoDesc": "Dr.SANTE의 Artemisia AKA 라인 — 쑥 추출물(67~72%)과 독자 성분 LHA-SOL™·AKA-DERM™로 완성한 지성·트러블 피부용 피지 조절 케어: 토너, 앰플, 크림, 마스크. Teranova를 통한 한국발 도매 공급.",
+        "tagline": "쑥 추출물로 완성한 트러블 피부용 피지 조절 케어",
+        "about": [
+          "Artemisia AKA는 지성·트러블·잡티가 생기기 쉬운 피부를 위한 Dr.SANTE 라인입니다. 쑥(Artemisia Capillaris) 추출물을 67~72% 고농도로 담아 피부를 진정시키고 피부 온도를 낮춰줍니다.",
+          "독자 성분 LHA-SOL™(4세대 안정화 LHA)과 AKA-DERM™이 나이아신아마이드와 함께 과도한 피지를 조절하고 모공을 케어하여 피부를 건강한 약산성 pH로 되돌립니다. 민감성 피부도 매일 사용할 수 있습니다."
+        ],
+        "itemNotes": [
+          "약산성 진정 토너: 과도한 피지를 조절하고 모공을 개선하며, 민감성 피부도 매일 사용할 수 있습니다.",
+          "쑥(Artemisia Capillaris) 추출물 67%를 담은 앰플로, 피부를 진정시키고 온도를 낮춰줍니다. 독자 성분 LHA-SOL™, AKA-DERM™과 나이아신아마이드가 과도한 피지를 조절하는, 모공을 좁혀주는 데일리 진정 케어입니다.",
+          "쑥(Artemisia Capillaris) 추출물 72%를 담아 피부를 진정시키고 온도를 낮춰주는 크림. LHA-SOL™과 AKA-DERM™이 과도한 피지를 조절하는, 모공을 좁혀주는 데일리 진정 크림입니다.",
+          "뛰어난 항균·항염 작용의 얼굴·목용 세미젤 마스크: 피부를 빠르게 진정시키고 트러블 관리에 도움을 줍니다.",
+          "친환경 소재(코튼과 Tencel)로 만든 비건 거즈 패드: 찢어지거나 늘어나지 않고 자극 없이 밀착되어 토너를 피부에 흡수시킵니다.",
+          "트러블 피부를 위한 피지 조절 케어를 담은 Artemisia AKA 라인의 BB 크림."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE)——韩国油性与问题肌肤护理系列 · Teranova Group",
+        "seoDesc": "Dr.SANTE 旗下 Artemisia AKA 系列——以艾草提取物（67–72%）为核心的控油护理，搭配专利成分 LHA-SOL™ 与 AKA-DERM™，专为油性及问题肌肤打造：爽肤水、安瓶、面霜、面膜。经 Teranova 从韩国批发供货。",
+        "tagline": "以艾草提取物打造、针对问题肌肤的控油护理",
+        "about": [
+          "Artemisia AKA 是 Dr.SANTE 专为油性、问题及易生瑕疵肌肤打造的系列。核心为高浓度艾草提取物（Artemisia Capillaris，67–72%），可舒缓肌肤并降低其温度。",
+          "专利成分 LHA-SOL™（第4代稳定型 LHA）与 AKA-DERM™ 搭配烟酰胺，控制多余皮脂并改善毛孔，使肌肤回归健康的弱酸性 pH。即使敏感肌也适合日常使用。"
+        ],
+        "itemNotes": [
+          "弱酸性舒缓爽肤水：控制多余皮脂、改善毛孔，即使敏感肌也适合日常护理。",
+          "含 67% 艾草提取物（Artemisia Capillaris）的安瓶，舒缓肌肤并降低其温度。专利成分 LHA-SOL™、AKA-DERM™ 与烟酰胺控制多余皮脂——收缩毛孔的舒缓护理，可每日使用。",
+          "含 72% 艾草提取物（Artemisia Capillaris）的面霜，舒缓肌肤并降低其温度。LHA-SOL™ 与 AKA-DERM™ 控制多余皮脂——收缩毛孔的舒缓面霜，适合每日使用。",
+          "面部与颈部通用的半凝胶面膜，具有显著的抗菌与抗炎作用：快速舒缓肌肤，改善瑕疵。",
+          "采用环保材质（棉与 Tencel）的纯素纱布棉片：不易破、不变形，贴合肌肤不刺激，助爽肤水渗入肌肤。",
+          "Artemisia AKA 系列 BB霜，为问题肌肤提供控油护理。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — 韓国発、脂性肌・トラブル肌向けスキンケア · Teranova Group",
+        "seoDesc": "Dr.SANTE の Artemisia AKA シリーズ — ヨモギエキス(67〜72%)をベースに、独自成分 LHA-SOL™ と AKA-DERM™ を配合した、脂性肌・トラブル肌向けの皮脂コントロールスキンケア。トナー、アンプル、クリーム、マスク。Teranova を通じた韓国からの卸売供給。",
+        "tagline": "ヨモギエキス配合、トラブル肌のための皮脂コントロールケア",
+        "about": [
+          "Artemisia AKA は、脂性肌・トラブル肌・肌荒れしやすい肌のための Dr.SANTE のシリーズです。ベースには高濃度のヨモギ(Artemisia Capillaris、67〜72%)エキスを採用し、肌を鎮静して温度を下げます。",
+          "独自成分の LHA-SOL™(第4世代の安定化 LHA)と AKA-DERM™ が、ナイアシンアミドとともに余分な皮脂をコントロールし、毛穴をケアしながら、肌を健やかな弱酸性 pH へ導きます。敏感肌でも毎日のケアに使えます。"
+        ],
+        "itemNotes": [
+          "弱酸性の鎮静トナー。余分な皮脂をコントロールし、毛穴を整えます。敏感肌でも毎日のケアに使えます。",
+          "ヨモギ(Artemisia Capillaris)エキスを 67% 配合したアンプル。肌を鎮静し、温度を下げます。独自成分の LHA-SOL™、AKA-DERM™、ナイアシンアミドが余分な皮脂をコントロール — 毛穴を引き締める鎮静ケアを毎日に。",
+          "ヨモギ(Artemisia Capillaris)エキスを 72% 配合したクリーム。肌を鎮静し、温度を下げます。LHA-SOL™ と AKA-DERM™ が余分な皮脂をコントロール — 毛穴を引き締める、毎日使える鎮静クリーム。",
+          "顔・首用のセミジェルマスク。すぐれた抗菌・抗炎症作用で、肌を素早く鎮静し、肌トラブルをケアします。",
+          "環境に配慮した素材(コットンと Tencel)を使ったヴィーガンのガーゼパッド。破れず伸びず、刺激なく肌に密着し、トナーを肌へなじませます。",
+          "トラブル肌向けの皮脂コントロールケアを備えた、Artemisia AKA シリーズの BB クリーム。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — trattamento per pelli impure e grasse dalla Corea · Teranova Group",
+        "seoDesc": "La linea Artemisia AKA di Dr.SANTE — trattamento seboregolatore a base di estratto di artemisia (67–72%) con gli esclusivi LHA-SOL™ e AKA-DERM™ per pelli grasse e impure: tonico, fiala, crema, maschera. Forniture all'ingrosso dalla Corea con Teranova.",
+        "tagline": "Trattamento seboregolatore per pelli impure a base di estratto di artemisia",
+        "about": [
+          "Artemisia AKA è la linea Dr.SANTE per pelli grasse, impure e a tendenza acneica. Alla base c'è un'elevata concentrazione di estratto di artemisia comune (Artemisia Capillaris, 67–72%), che lenisce la pelle e ne abbassa la temperatura.",
+          "Gli ingredienti esclusivi LHA-SOL™ (LHA stabilizzato di 4ª generazione) e AKA-DERM™ insieme alla niacinamide controllano l'eccesso di sebo e migliorano l'aspetto dei pori, riportando la pelle a un pH sano e leggermente acido. Adatta all'uso quotidiano anche sulle pelli sensibili."
+        ],
+        "itemNotes": [
+          "Tonico lenitivo a pH leggermente acido: controlla l'eccesso di sebo e migliora l'aspetto dei pori, adatto all'uso quotidiano anche sulle pelli sensibili.",
+          "Fiala con 67% di estratto di artemisia comune (Artemisia Capillaris), lenisce la pelle e ne abbassa la temperatura. Gli esclusivi LHA-SOL™, AKA-DERM™ e la niacinamide controllano l'eccesso di sebo — un trattamento lenitivo che affina i pori, per l'uso quotidiano.",
+          "Crema con 72% di estratto di artemisia (Artemisia Capillaris) per lenire e abbassare la temperatura della pelle. LHA-SOL™ e AKA-DERM™ controllano l'eccesso di sebo — una crema lenitiva che affina i pori, per ogni giorno.",
+          "Maschera semi-gel per viso e collo con una marcata azione antibatterica e antinfiammatoria: lenisce rapidamente la pelle e aiuta in caso di imperfezioni.",
+          "Dischetto in garza vegano realizzato con materiali ecologici (cotone e Tencel): non si strappa né si deforma, aderisce senza irritare e fa penetrare il tonico nella pelle.",
+          "BB cream della linea Artemisia AKA con trattamento seboregolatore per pelli impure."
+        ]
+      },
+      "de": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — Pflege für unreine und fettige Haut aus Korea · Teranova Group",
+        "seoDesc": "Die Artemisia AKA-Serie von Dr.SANTE — sebumregulierende Pflege mit Beifußextrakt (67–72%) und den markeneigenen LHA-SOL™ und AKA-DERM™ für fettige und unreine Haut: Toner, Ampulle, Creme, Maske. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Sebumregulierende Pflege für unreine Haut mit Beifußextrakt",
+        "about": [
+          "Artemisia AKA ist die Dr.SANTE-Serie für fettige, unreine und zu Unreinheiten neigende Haut. Die Basis bildet eine hohe Konzentration an Beifußextrakt (Artemisia Capillaris, 67–72%), der die Haut beruhigt und ihre Temperatur senkt.",
+          "Die markeneigenen Wirkstoffe LHA-SOL™ (stabilisiertes LHA der 4. Generation) und AKA-DERM™ regulieren gemeinsam mit Niacinamid überschüssiges Sebum und unterstützen die Poren, wodurch die Haut zu einem gesunden, schwach sauren pH zurückfindet. Geeignet für die tägliche Pflege selbst empfindlicher Haut."
+        ],
+        "itemNotes": [
+          "Schwach saurer, beruhigender Toner: reguliert überschüssiges Sebum und verfeinert die Poren, geeignet für die tägliche Pflege selbst empfindlicher Haut.",
+          "Ampulle mit 67% Beifußextrakt (Artemisia Capillaris), beruhigt die Haut und senkt ihre Temperatur. Die markeneigenen LHA-SOL™, AKA-DERM™ und Niacinamid regulieren überschüssiges Sebum — porenverfeinernde, beruhigende Pflege für die tägliche Anwendung.",
+          "Creme mit 72% Beifußextrakt (Artemisia Capillaris) zur Beruhigung und Senkung der Hauttemperatur. LHA-SOL™ und AKA-DERM™ regulieren überschüssiges Sebum — porenverfeinernde, beruhigende Creme für jeden Tag.",
+          "Halbgel-Maske für Gesicht und Hals mit ausgeprägter antibakterieller und entzündungshemmender Wirkung: beruhigt die Haut schnell und hilft bei Unreinheiten.",
+          "Veganes Gaze-Pad aus umweltfreundlichen Materialien (Baumwolle und Tencel): reißt und dehnt sich nicht, liegt reizfrei an und lässt den Toner in die Haut einziehen.",
+          "BB-Creme der Artemisia AKA-Serie mit sebumregulierender Pflege für unreine Haut."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — soin pour peaux grasses et à imperfections de Corée · Teranova Group",
+        "seoDesc": "La gamme Artemisia AKA de Dr.SANTE — soin séborégulateur à l'extrait d'armoise (67–72 %) avec les actifs signature LHA-SOL™ et AKA-DERM™ pour peaux grasses et à imperfections : tonique, ampoule, crème, masque. Approvisionnement en gros depuis la Corée avec Teranova.",
+        "tagline": "Soin séborégulateur à l'extrait d'armoise pour peaux à imperfections",
+        "about": [
+          "Artemisia AKA est la gamme de Dr.SANTE dédiée aux peaux grasses, à problèmes et sujettes aux imperfections. Elle repose sur une forte concentration d'extrait d'armoise (Artemisia Capillaris, 67–72 %), qui apaise la peau et abaisse sa température.",
+          "Les ingrédients signature LHA-SOL™ (LHA stabilisé de 4e génération) et AKA-DERM™, associés au niacinamide, contrôlent l'excès de sébum et aident les pores, ramenant la peau à un pH sain légèrement acide. Convient à un soin quotidien, même pour les peaux sensibles."
+        ],
+        "itemNotes": [
+          "Tonique apaisant légèrement acide : il contrôle l'excès de sébum et améliore l'aspect des pores, et convient à un soin quotidien même pour les peaux sensibles.",
+          "Ampoule à 67 % d'extrait d'armoise (Artemisia Capillaris) : elle apaise la peau et abaisse sa température. Les actifs signature LHA-SOL™, AKA-DERM™ et le niacinamide contrôlent l'excès de sébum — un soin apaisant resserrant les pores pour un usage quotidien.",
+          "Crème à 72 % d'extrait d'armoise (Artemisia Capillaris) pour apaiser et abaisser la température de la peau. LHA-SOL™ et AKA-DERM™ contrôlent l'excès de sébum — une crème apaisante resserrant les pores pour tous les jours.",
+          "Masque semi-gel pour le visage et le cou à l'action antibactérienne et anti-inflammatoire marquée : il apaise rapidement la peau et aide en cas d'imperfections.",
+          "Pad en gaze végane en matériaux écologiques (coton et Tencel) : il ne se déchire ni ne se déforme, épouse la peau sans irritation et fait pénétrer le tonique dans la peau.",
+          "BB crème de la gamme Artemisia AKA, au soin séborégulateur pour peaux à imperfections."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Artemisia AKA (Dr.SANTE) — Kore'den problemli ve yağlı ciltler için bakım · Teranova Group",
+        "seoDesc": "Dr.SANTE'nin Artemisia AKA serisi — yağlı ve problemli ciltler için pelin özü (%67–72) bazlı, özel LHA-SOL™ ve AKA-DERM™ içeren sebum dengeleyici bakım: tonik, ampul, krem, maske. Kore'den Teranova üzerinden toptan tedarik.",
+        "tagline": "Pelin özü bazlı, problemli ciltler için sebum dengeleyici bakım",
+        "about": [
+          "Artemisia AKA, Dr.SANTE'nin yağlı, problemli ve kusurlara eğilimli ciltler için serisidir. Temelinde, cildi yatıştıran ve sıcaklığını düşüren yüksek konsantrasyonlu pelin özü (Artemisia Capillaris, %67–72) bulunur.",
+          "Özel bileşenler LHA-SOL™ (4. nesil stabilize LHA) ve AKA-DERM™, niasinamid ile birlikte fazla sebumu kontrol eder ve gözeneklere yardımcı olarak cildi sağlıklı, hafif asidik pH'a döndürür. Hassas ciltlerde bile günlük bakım için uygundur."
+        ],
+        "itemNotes": [
+          "Hafif asidik yatıştırıcı tonik: fazla sebumu kontrol eder ve gözenekleri iyileştirir, hassas ciltlerde bile günlük bakım için uygundur.",
+          "%67 pelin özü (Artemisia Capillaris) içeren ampul; cildi yatıştırır ve sıcaklığını düşürür. Özel LHA-SOL™, AKA-DERM™ ve niasinamid fazla sebumu kontrol eder — gözenekleri sıkılaştıran, günlük kullanım için yatıştırıcı bakım.",
+          "Cildi yatıştırmak ve sıcaklığını düşürmek için %72 pelin özü (Artemisia Capillaris) içeren krem. LHA-SOL™ ve AKA-DERM™ fazla sebumu kontrol eder — her gün için gözenekleri sıkılaştıran yatıştırıcı krem.",
+          "Belirgin antibakteriyel ve iltihap önleyici etkiye sahip, yüz ve boyun için yarı jel maske: cildi hızla yatıştırır ve kusurlara yardımcı olur.",
+          "Çevre dostu malzemelerden (pamuk ve Tencel) üretilen vegan gazlı ped: yırtılmaz ve esnemez, tahriş etmeden cilde oturur ve toniği cilde emdirir.",
+          "Problemli ciltler için sebum dengeleyici bakım sunan Artemisia AKA serisi BB krem."
+        ]
+      }
+    }
+  },
+  {
     "slug": "collagen-leader",
     "supplierSlug": "sante",
     "category": "cosmetics",
@@ -32,9 +701,11 @@
       },
       {
         "name": "Collagen Leader Toner",
-        "volume": "500 ml",
+        "volume": "500 / 200 ml",
         "price": "8.99",
-        "certs": []
+        "certs": [
+          "CPNP"
+        ]
       },
       {
         "name": "Collagen Leader Bubble Toner",
@@ -208,7 +879,7 @@
       },
       {
         "name": "Hyalquad Core Cream",
-        "volume": "200 g",
+        "volume": "200 / 50 g",
         "price": "7.97",
         "certs": []
       }

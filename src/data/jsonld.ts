@@ -117,7 +117,8 @@ export function supplierLineJsonLd(lang: Lang, page: SupplierLinePage) {
   const t = ui[lang];
   const c = linePageContent(page, lang);
   const catName = t.categories.groups.find((g) => g.key === page.category)?.name ?? '';
-  const lineName = page.slug === 'collagen-leader' ? 'Collagen Leader' : page.slug === 'hyalquad-core' ? 'Hyalquad Core' : page.slug;
+  const lineNames: Record<string, string> = { 'azulene-soother': 'Azulene Soother', 'artemisia-aka': 'Artemisia AKA', 'collagen-leader': 'Collagen Leader', 'hyalquad-core': 'Hyalquad Core' };
+  const lineName = lineNames[page.slug] ?? page.slug;
   return [
     {
       '@context': 'https://schema.org',
