@@ -1,0 +1,19 @@
+---
+/* Supplier profile: DREAMCOS — head company of a Korean cosmetics group
+   (default locale, ru). Published with written consent for LatAm markets. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('dreamcos')!;
+const c = supplierContent(profile, lang);
+const title = c.seoTitle;
+const description = c.seoDesc;
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={title} description={description} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
