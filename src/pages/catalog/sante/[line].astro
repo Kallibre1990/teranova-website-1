@@ -1,0 +1,19 @@
+---
+/* SANTE product-line pages (default locale, ru) — SEO landing per line. */
+import Base from '../../../layouts/Base.astro';
+import SupplierLinePage from '../../../components/pages/SupplierLinePage.astro';
+import { linePages, linePageContent, type SupplierLinePage as SLP } from '../../../data/suppliers';
+import { supplierLineJsonLd } from '../../../data/jsonld';
+
+export function getStaticPaths() {
+  return linePages.filter((p) => p.supplierSlug === 'sante').map((p) => ({ params: { line: p.slug }, props: { page: p } }));
+}
+
+const lang = 'ru' as const;
+const { page } = Astro.props as { page: SLP };
+const c = linePageContent(page, lang);
+---
+
+<Base lang={lang} path={`/catalog/sante/${page.slug}`} title={c.seoTitle} description={c.seoDesc} jsonLd={supplierLineJsonLd(lang, page)}>
+  <SupplierLinePage lang={lang} page={page} />
+</Base>

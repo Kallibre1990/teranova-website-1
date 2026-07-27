@@ -21,6 +21,7 @@ import santeDe from './suppliers-i18n/sante.de.json';
 import santeFr from './suppliers-i18n/sante.fr.json';
 import santeTr from './suppliers-i18n/sante.tr.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
+import santeLines from './suppliers-i18n/sante.lines.json';
 
 export interface SupplierLine {
   name: string;
@@ -209,7 +210,34 @@ export const suppliers: SupplierProfile[] = [
   },
 ];
 
+/* Dedicated, indexable line pages (SEO): one per important product line. */
+export interface SupplierLineItem {
+  name: string;
+  volume?: string;
+  price?: string;
+  certs?: string[];
+}
+export interface SupplierLineContent {
+  seoTitle: string;
+  seoDesc: string;
+  tagline: string;
+  about: string[];
+  itemNotes: string[];
+}
+export interface SupplierLinePage {
+  slug: string;
+  supplierSlug: string;
+  category: CategoryKey;
+  items: SupplierLineItem[];
+  i18n: Partial<Record<Lang, SupplierLineContent>>;
+}
+export const linePageContent = (p: SupplierLinePage, lang: Lang): SupplierLineContent => p.i18n[lang] ?? p.i18n.ru!;
+
 export const supplierBySlug = (slug: string): SupplierProfile | undefined => suppliers.find((s) => s.slug === slug);
 export const supplierSlugs = suppliers.map((s) => s.slug);
+
+export const linePages: SupplierLinePage[] = santeLines as SupplierLinePage[];
+export const linePageBySlug = (supplierSlug: string, slug: string): SupplierLinePage | undefined =>
+  linePages.find((p) => p.supplierSlug === supplierSlug && p.slug === slug);
 /** Localized content with ru fallback. */
 export const supplierContent = (p: SupplierProfile, lang: Lang): SupplierContent => p.i18n[lang] ?? p.i18n.ru!;

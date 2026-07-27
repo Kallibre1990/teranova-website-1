@@ -1,0 +1,108 @@
+---
+/* Dedicated, indexable product-line page (SEO). Themed in the supplier's brand.
+   Products shown as text info-cards (no photos available for these lines). */
+import { localizePath, anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { linePageContent, supplierBySlug, type SupplierLinePage } from '../../data/suppliers';
+
+interface Props {
+  lang: Lang;
+  page: SupplierLinePage;
+}
+const { lang, page } = Astro.props;
+const t = ui[lang];
+const c = linePageContent(page, lang);
+const supplier = supplierBySlug(page.supplierSlug);
+const brand = supplier?.brand ?? '';
+const name = supplier?.name ?? '';
+const cat = t.categories.groups.find((g) => g.key === page.category);
+const bc = supplier?.brandColors ?? { deep: '#12306e', sky: '#4ca6fc', accent: '#ff2552', bg: '#f3f8ff' };
+const brandStyle = `--ds-deep:${bc.deep};--ds-sky:${bc.sky};--ds-accent:${bc.accent};--ds-bg:${bc.bg};`;
+const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
+---
+
+<article class="sl" style={brandStyle}>
+  <section class="sl-hero">
+    <div class="wrap">
+      <nav class="sl-crumbs" aria-label="breadcrumb">
+        <a href={localizePath('/catalog', lang)}>{t.nav.catalog}</a>
+        <span aria-hidden="true">/</span>
+        <a href={localizePath(`/catalog/${page.category}`, lang)}>{cat?.name}</a>
+        <span aria-hidden="true">/</span>
+        <a href={localizePath(`/catalog/${page.supplierSlug}`, lang)}>{brand}</a>
+      </nav>
+      <span class="sl-eyebrow">{name} · {brand}</span>
+      <h1 class="sl-h1">{page.slug === 'collagen-leader' ? 'Collagen Leader' : page.slug === 'hyalquad-core' ? 'Hyalquad Core' : page.slug}</h1>
+      <p class="sl-tagline">{c.tagline}</p>
+      {c.about.map((p) => <p class="sl-about">{p}</p>)}
+    </div>
+  </section>
+
+  <section class="sl-sec">
+    <div class="wrap">
+      <div class="sl-grid">
+        {page.items.map((it, i) => (
+          <article class="sl-card">
+            <div class="sl-card__head">
+              <h2 class="sl-card__nm">{it.name}</h2>
+              {it.volume && <span class="sl-card__vol">{it.volume}</span>}
+            </div>
+            {c.itemNotes?.[i] && <p class="sl-card__note">{c.itemNotes[i]}</p>}
+            <div class="sl-card__foot">
+              {it.certs && it.certs.length > 0 && (
+                <span class="sl-card__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>
+              )}
+              {it.price && <span class="sl-card__price">≈ ${it.price} · FOB</span>}
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <div class="sl-cta">
+        <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{supplier ? supplierBySlug(page.supplierSlug)!.i18n[lang]?.ui.cta_btn ?? 'Связаться через Teranova' : 'Связаться через Teranova'}</a>
+        {priceHref && supplier?.i18n[lang]?.ui.price_btn && (
+          <a class="sl-dl" href={priceHref} download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+            {supplier.i18n[lang]!.ui.price_btn}
+          </a>
+        )}
+      </div>
+    </div>
+  </section>
+</article>
+
+<style>
+  .sl { --ds-deep: #12306e; --ds-sky: #4ca6fc; --ds-accent: #ff2552; --ds-bg: #f3f8ff; background: #fff; color: #16233d; }
+  .sl-hero {
+    padding: clamp(30px, 6vw, 60px) 0 clamp(28px, 4vw, 44px);
+    background: radial-gradient(120% 90% at 82% -10%, color-mix(in srgb, var(--ds-sky) 20%, transparent), transparent 60%), linear-gradient(180deg, var(--ds-bg), #fff 82%);
+    border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0);
+  }
+  .sl-crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; font-size: 0.84rem; font-weight: 600; color: #5a6a80; margin-bottom: clamp(18px, 3vw, 30px); }
+  .sl-crumbs a { color: var(--ds-deep); }
+  .sl-crumbs a:hover { color: var(--ds-sky); }
+  .sl-crumbs span { opacity: 0.5; }
+  .sl-eyebrow { display: inline-block; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ds-sky); margin-bottom: 12px; }
+  .sl-h1 { font-size: clamp(1.9rem, 4.4vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; color: var(--ds-deep); }
+  .sl-tagline { font-size: clamp(1.05rem, 2vw, 1.25rem); font-weight: 600; font-style: italic; color: var(--ds-sky); margin-top: 12px; }
+  .sl-about { font-size: 1.02rem; line-height: 1.75; color: #364357; max-width: 68ch; margin-top: 12px; }
+
+  .sl-sec { padding: clamp(36px, 5vw, 64px) 0; }
+  .sl-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .sl-card { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-left: 3px solid var(--ds-sky); border-radius: 0 14px 14px 0; padding: 20px 22px; }
+  .sl-card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .sl-card__nm { font-size: 1.08rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
+  .sl-card__vol { font-size: 0.82rem; font-weight: 600; color: #7c8aa0; white-space: nowrap; }
+  .sl-card__note { font-size: 0.92rem; line-height: 1.6; color: #45576f; margin-top: 8px; }
+  .sl-card__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: 14px; }
+  .sl-card__certs { display: flex; flex-wrap: wrap; gap: 4px; }
+  .sl-card__certs span { font-size: 0.62rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 2px 6px; }
+  .sl-card__price { font-size: 0.86rem; font-weight: 800; color: var(--ds-sky); }
+
+  .sl-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .sl-dl { display: inline-flex; align-items: center; gap: 9px; padding: 12px 22px; border-radius: 10px; font-weight: 700; font-size: 0.92rem; color: #fff; background: var(--ds-sky); transition: background .2s; }
+  .sl-dl:hover { background: var(--ds-deep); }
+  .sl-dl svg { width: 17px; height: 17px; }
+
+  @media (max-width: 720px) { .sl-grid { grid-template-columns: 1fr; } }
+</style>
