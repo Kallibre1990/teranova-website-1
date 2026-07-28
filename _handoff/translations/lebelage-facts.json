@@ -1,0 +1,565 @@
+{
+  "categories": [
+    {
+      "name": "MAKE-UP",
+      "count": 51,
+      "examples_ru": [
+        "LEBELAGE Тинт для губ и щёк TAKE ME COZY PEBBLE [LC01]",
+        "LEBELAGE Тинт для губ и щёк TAKE ME COZY PEBBLE [LC02]",
+        "LEBELAGE Тинт для губ и щёк TAKE ME COZY PEBBLE [LC03]"
+      ],
+      "supply_min_krw": 1000,
+      "supply_max_krw": 7000
+    },
+    {
+      "name": "MASK PACK",
+      "count": 42,
+      "examples_ru": [
+        "Тканевая маска SOLUTION с цикой",
+        "Тканевая маска SOLUTION с мадекассосидом",
+        "Тканевая маска SOLUTION с гранатом"
+      ],
+      "supply_min_krw": 900,
+      "supply_max_krw": 5350
+    },
+    {
+      "name": "CREAM",
+      "count": 39,
+      "examples_ru": [
+        "Серум TRULY с ретинолом",
+        "Серум TRULY с пантенолом",
+        "Серум TRULY с PDRN"
+      ],
+      "supply_min_krw": 2200,
+      "supply_max_krw": 8000
+    },
+    {
+      "name": "FOAM",
+      "count": 32,
+      "examples_ru": [
+        "Пузырьковая пенка BUBBLE CHEWY витамин С + куркума",
+        "Пузырьковая пенка BUBBLE CHEWY с алоэ",
+        "Пузырьковая пенка BUBBLE CHEWY с глутатионом"
+      ],
+      "supply_min_krw": 1050,
+      "supply_max_krw": 4250
+    },
+    {
+      "name": "AMPOULE",
+      "count": 25,
+      "examples_ru": [
+        "Ампула с ниацинамидом 20%",
+        "Ампула с волюфилином 5%",
+        "Ампула с пантенолом 7%"
+      ],
+      "supply_min_krw": 720,
+      "supply_max_krw": 9750
+    },
+    {
+      "name": "TONER",
+      "count": 22,
+      "examples_ru": [
+        "Пузырьковый тонер TRULY 10 SECOND с глутатионом",
+        "Пузырьковый тонер TRULY 10 SECOND с ретинолом",
+        "Пузырьковый тонер TRULY 10 SECOND с центеллой"
+      ],
+      "supply_min_krw": 670,
+      "supply_max_krw": 5500
+    },
+    {
+      "name": "SUN CARE",
+      "count": 21,
+      "examples_ru": [
+        "Солнцезащитное средство ALL DAY SHIELD TO-GO с защитой на весь день",
+        "Компактное водостойкое солнцезащитное средство WATERPROOF TO-GO",
+        "Себорегулирующий солнцезащитный крем HIGH PROTECTION"
+      ],
+      "supply_min_krw": 130,
+      "supply_max_krw": 6750
+    },
+    {
+      "name": "SOOTHING GEL",
+      "count": 14,
+      "examples_ru": [
+        "Успокаивающий гель с медом",
+        "Успокаивающий гель с углем",
+        "Успокаивающий гель с улиткой"
+      ],
+      "supply_min_krw": 950,
+      "supply_max_krw": 1350
+    },
+    {
+      "name": "HAND CREAM",
+      "count": 14,
+      "examples_ru": [
+        "Крем для рук MOISTURIZING с аква",
+        "Крем для рук MOISTURIZING с авокадо",
+        "Крем для рук MOISTURIZING с медом"
+      ],
+      "supply_min_krw": 550,
+      "supply_max_krw": 1100
+    },
+    {
+      "name": "HAIR CARE",
+      "count": 12,
+      "examples_ru": [
+        "Шампунь с кератином 1000мл",
+        "Ополаскиватель с кератином 1000мл",
+        "Охлаждающий шампунь и ополаскиватель 2в1 AQUA COOL 1000мл"
+      ],
+      "supply_min_krw": 2300,
+      "supply_max_krw": 4750
+    },
+    {
+      "name": "EYE CREAM",
+      "count": 10,
+      "examples_ru": [
+        "Крем для глаз Dr. DERMA с муцином улитки",
+        "Крем для глаз Dr. DERMA с коллагеном",
+        "Крем для глаз Dr. DERMA с пептидами"
+      ],
+      "supply_min_krw": 1450,
+      "supply_max_krw": 2000
+    },
+    {
+      "name": "BODY CARE",
+      "count": 10,
+      "examples_ru": [
+        "Пузырьковое средство для интимной гигиены DAILY FEMININE FOAMING WASH",
+        "Гель для душа с лимоном и каламанси 1000мл",
+        "Гель для душа с персиком и манго 1000мл"
+      ],
+      "supply_min_krw": 2200,
+      "supply_max_krw": 4200
+    },
+    {
+      "name": "LOTION",
+      "count": 9,
+      "examples_ru": [
+        "Лосьон с коллагеном и экстрактом зеленого чая",
+        "Лосьон с коллагеном и экстрактом зеленого чая 30ml",
+        "Лосьон DERMA с коллагеном"
+      ],
+      "supply_min_krw": 670,
+      "supply_max_krw": 4250
+    },
+    {
+      "name": "SET",
+      "count": 8,
+      "examples_ru": [
+        "Набор VITAMIN C PURE с витамином С",
+        "Набор с цикой и мадекассосидом",
+        "Набор с коллагеном и зеленым чаем"
+      ],
+      "supply_min_krw": 1100,
+      "supply_max_krw": 27500
+    },
+    {
+      "name": "PERFUME",
+      "count": 6,
+      "examples_ru": [
+        "LEBELAGE Парфюм NATURAL PERFUME 01",
+        "LEBELAGE Парфюм NATURAL PERFUME 02",
+        "LEBELAGE Парфюм NATURAL PERFUME 03"
+      ],
+      "supply_min_krw": 1000,
+      "supply_max_krw": 1000
+    },
+    {
+      "name": "ETC",
+      "count": 5,
+      "examples_ru": [
+        "Брелок-держатель TO-GO_оранжевый (ПРОДАЕТСЯ ОТДЕЛЬНО)",
+        "Брелок-держатель TO-GO_синий (ПРОДАЕТСЯ ОТДЕЛЬНО)",
+        "Ватные подушечки обычные"
+      ],
+      "supply_min_krw": 300,
+      "supply_max_krw": 2800
+    },
+    {
+      "name": "TONER PAD",
+      "count": 5,
+      "examples_ru": [
+        "Тонер-пэды TRULY с глутатионом",
+        "Тонер-пэды TRULY с ретинолом",
+        "Тонер-пэды TRULY с центеллой"
+      ],
+      "supply_min_krw": 4350,
+      "supply_max_krw": 4350
+    },
+    {
+      "name": "EMULSION",
+      "count": 4,
+      "examples_ru": [
+        "Эмульсия VITAMIN C PURE с витамином С",
+        "Эмульсия с цикой и мадекассосидом",
+        "Эмульсия с муцином улитки и церамидами"
+      ],
+      "supply_min_krw": 3500,
+      "supply_max_krw": 5500
+    },
+    {
+      "name": "FOAM PACK 2IN1",
+      "count": 4,
+      "examples_ru": [
+        "Глиняная маска-пенка 2-в-1 с клейким рисом",
+        "Глиняная маска-пенка 2-в-1 с древесным углем",
+        "Глиняная маска-пенка 2-в-1 с полынью"
+      ],
+      "supply_min_krw": 2900,
+      "supply_max_krw": 2900
+    },
+    {
+      "name": "EYE PATCH",
+      "count": 4,
+      "examples_ru": [
+        "Гидрогелевые патчи для глаз с 24-каратным золотом",
+        "Гидрогелевые патчи для глаз с коллагеном",
+        "Гидрогелевые патчи для глаз с витамином"
+      ],
+      "supply_min_krw": 3900,
+      "supply_max_krw": 4750
+    },
+    {
+      "name": "FOR MAN",
+      "count": 3,
+      "examples_ru": [
+        "Средство все в одном для мужчин MILD BLACK",
+        "Увлажняющий набор для мужчин AQUA HOMME 2 SET",
+        "Тонер мужской Dr. HOMME"
+      ],
+      "supply_min_krw": 2800,
+      "supply_max_krw": 5500
+    },
+    {
+      "name": "MIST",
+      "count": 3,
+      "examples_ru": [
+        "Мист для лица с коллагеном и гиалуроновой кислотой",
+        "Мист для лица с улиткой и церамидами",
+        "Мист для лица с цикой"
+      ],
+      "supply_min_krw": 1900,
+      "supply_max_krw": 1900
+    },
+    {
+      "name": "ESSENCE",
+      "count": 2,
+      "examples_ru": [
+        "Эссенция Хи Юль с золотом",
+        "Мини-набор Хи Юль из 2 эссенций с золотом"
+      ],
+      "supply_min_krw": 3400,
+      "supply_max_krw": 5800
+    },
+    {
+      "name": "FOOT CREAM",
+      "count": 2,
+      "examples_ru": [
+        "Крем для ног DAILY с витамином",
+        "Крем для ног DAILY с коллагеном"
+      ],
+      "supply_min_krw": 670,
+      "supply_max_krw": 670
+    },
+    {
+      "name": "CLEANSING TISSUE",
+      "count": 2,
+      "examples_ru": [
+        "Очищающие салфетки с витамином С (30шт)",
+        "Очищающие салфетки с витамином С (100шт)"
+      ],
+      "supply_min_krw": 900,
+      "supply_max_krw": 2200
+    },
+    {
+      "name": "AMPOULE ESSENCE",
+      "count": 2,
+      "examples_ru": [
+        "Ампульная эссенция с муцином улитки и церамидами",
+        "Ампульная эссенция с коллагеном и гиалуроновой кислотой"
+      ],
+      "supply_min_krw": 4500,
+      "supply_max_krw": 6750
+    },
+    {
+      "name": "PEEL OFF MASK",
+      "count": 1,
+      "examples_ru": [
+        "Маска-пленка Хи Юль с золотом"
+      ],
+      "supply_min_krw": 4650,
+      "supply_max_krw": 4650
+    },
+    {
+      "name": "HAND WASH",
+      "count": 1,
+      "examples_ru": [
+        "Мыло-пенка для рук LOVELY с дозатором-сердцем"
+      ],
+      "supply_min_krw": 2900,
+      "supply_max_krw": 2900
+    },
+    {
+      "name": "SPOT PATCH",
+      "count": 1,
+      "examples_ru": [
+        "Точечные патчи CICA DERMA SPOT PATCH"
+      ],
+      "supply_min_krw": 1200,
+      "supply_max_krw": 1200
+    },
+    {
+      "name": "TONE UP CREAM",
+      "count": 1,
+      "examples_ru": [
+        "Тонирующий крем REAL SENSATION PINK TONE UP CREAM"
+      ],
+      "supply_min_krw": 2600,
+      "supply_max_krw": 2600
+    }
+  ],
+  "total_items": 355,
+  "price_summary": {
+    "supply_min_krw": 130,
+    "supply_max_krw": 27500,
+    "retail_min_krw": 1000,
+    "retail_max_krw": 320000
+  },
+  "registrations": {
+    "mocra_count": 240,
+    "cpnp_count": 77,
+    "scpn_count": 76
+  },
+  "product_lines": [
+    "Collagen",
+    "Cica",
+    "Truly",
+    "Vitamin",
+    "Aqua",
+    "Snail",
+    "Hyaluronic",
+    "Bubble",
+    "Gold",
+    "Centella",
+    "Green Tea",
+    "PDRN",
+    "Madecassoside",
+    "Glutathione",
+    "Panthenol",
+    "Ceramide",
+    "Avocado",
+    "Retinol",
+    "Peptide",
+    "Charcoal",
+    "Tea Tree",
+    "Yuja",
+    "Volufiline",
+    "Honey",
+    "Keratin"
+  ],
+  "top_categories_by_count": [
+    {
+      "name": "MAKE-UP",
+      "count": 51
+    },
+    {
+      "name": "MASK PACK",
+      "count": 42
+    },
+    {
+      "name": "CREAM",
+      "count": 39
+    },
+    {
+      "name": "FOAM",
+      "count": 32
+    },
+    {
+      "name": "AMPOULE",
+      "count": 25
+    },
+    {
+      "name": "TONER",
+      "count": 22
+    },
+    {
+      "name": "SUN CARE",
+      "count": 21
+    },
+    {
+      "name": "SOOTHING GEL",
+      "count": 14
+    },
+    {
+      "name": "HAND CREAM",
+      "count": 14
+    },
+    {
+      "name": "HAIR CARE",
+      "count": 12
+    }
+  ],
+  "sample_products": [
+    {
+      "name_ru": "LEBELAGE Тинт для губ и щёк TAKE ME COZY PEBBLE [LC01]",
+      "name_en": "LEBELAGE TAKE ME COZY PEBBLE LIP & CHEEK [ LC 01 ]",
+      "category": "MAKE-UP",
+      "volume": "4g",
+      "supply_krw": 4480,
+      "retail_krw": 16000
+    },
+    {
+      "name_ru": "Тканевая маска SOLUTION с цикой",
+      "name_en": "LEBELAGE CICA SOLUTION MASK PACK",
+      "category": "MASK PACK",
+      "volume": "25g * 10pcs",
+      "supply_krw": 1700,
+      "retail_krw": 10000
+    },
+    {
+      "name_ru": "Серум TRULY с ретинолом",
+      "name_en": "LEBELAGE TRULY RETINOL SERUM",
+      "category": "CREAM",
+      "volume": "35ml",
+      "supply_krw": 3350,
+      "retail_krw": 48000
+    },
+    {
+      "name_ru": "Пузырьковая пенка BUBBLE CHEWY витамин С + куркума",
+      "name_en": "LEBELAGE VITAMIN C + TUMERIC BUBBLE CHEWY FOAM",
+      "category": "FOAM",
+      "volume": "200mL / 6.76 fl. Oz.",
+      "supply_krw": 4250,
+      "retail_krw": 29900
+    },
+    {
+      "name_ru": "Ампула с ниацинамидом 20%",
+      "name_en": "LEBELAGE NIACINAMIDE 20% AMPOULE",
+      "category": "AMPOULE",
+      "volume": "30 mL / 1.01 fl. oz.",
+      "supply_krw": 5200,
+      "retail_krw": 55000
+    },
+    {
+      "name_ru": "Пузырьковый тонер TRULY 10 SECOND с глутатионом",
+      "name_en": "LEBELAGE TRULY GLUTATHIONE 10 SECOND BUBBLE MASK LIQUID",
+      "category": "TONER",
+      "volume": "150 g / 5.29 oz.",
+      "supply_krw": 3900,
+      "retail_krw": 25000
+    },
+    {
+      "name_ru": "Солнцезащитное средство ALL DAY SHIELD TO-GO с защитой на весь день",
+      "name_en": "LEBELAGE ALL DAY SHIELD TO-GO SUN CARE",
+      "category": "SUN CARE",
+      "volume": "40ml / 1.35 fl. oz.",
+      "supply_krw": 2500,
+      "retail_krw": 35000
+    },
+    {
+      "name_ru": "Успокаивающий гель с медом",
+      "name_en": "LEBELAGE MOISTURE HONEY SOOTHING GEL 300ml",
+      "category": "SOOTHING GEL",
+      "volume": "300ml",
+      "supply_krw": 1350,
+      "retail_krw": 5500
+    },
+    {
+      "name_ru": "Крем для рук MOISTURIZING с аква",
+      "name_en": "LEBELAGE AQUA MOISTURIZING HAND CREAM",
+      "category": "HAND CREAM",
+      "volume": "100ml",
+      "supply_krw": 550,
+      "retail_krw": 2800
+    },
+    {
+      "name_ru": "Шампунь с кератином 1000мл",
+      "name_en": "LEBELAGE KERATIN HAIR SHAMPOO",
+      "category": "HAIR CARE",
+      "volume": "1000ml",
+      "supply_krw": 4200,
+      "retail_krw": 25000
+    },
+    {
+      "name_ru": "Крем для глаз Dr. DERMA с муцином улитки",
+      "name_en": "LEBELAGE Dr. SNAIL DERMA EYE CREAM",
+      "category": "EYE CREAM",
+      "volume": "40ml",
+      "supply_krw": 1450,
+      "retail_krw": 25000
+    },
+    {
+      "name_ru": "Пузырьковое средство для интимной гигиены DAILY FEMININE FOAMING WASH",
+      "name_en": "LEBELAGE DAILY FEMININE FOAMING WASH",
+      "category": "BODY CARE",
+      "volume": "150ml 5.07 fl.oz.",
+      "supply_krw": 3650,
+      "retail_krw": 25000
+    },
+    {
+      "name_ru": "Лосьон с коллагеном и экстрактом зеленого чая",
+      "name_en": "LEBELAGE COLLAGEN+GREEN TEA MOISTURE LOTION",
+      "category": "LOTION",
+      "volume": "150ml",
+      "supply_krw": 2850,
+      "retail_krw": 10000
+    },
+    {
+      "name_ru": "Набор VITAMIN C PURE с витамином С",
+      "name_en": "LEBELAGE VITAMIN C PURE 4 SET",
+      "category": "SET",
+      "volume": "Toner 120ml Emulsion 120ml Ampoule 35ml Cream 55ml",
+      "supply_krw": 27500,
+      "retail_krw": 320000
+    },
+    {
+      "name_ru": "LEBELAGE Парфюм NATURAL PERFUME 01",
+      "name_en": "LEBELAGE NATURAL PERFUME 01 HUGO WOMAN TYPE",
+      "category": "PERFUME",
+      "volume": "15ml",
+      "supply_krw": 1000,
+      "retail_krw": 4800
+    },
+    {
+      "name_ru": "Ватные подушечки обычные",
+      "name_en": "LEBELAGE COTTON PUFF PURE COTTON",
+      "category": "ETC",
+      "volume": "100pcs",
+      "supply_krw": 950,
+      "retail_krw": 4000
+    },
+    {
+      "name_ru": "Тонер-пэды TRULY с глутатионом",
+      "name_en": "LEBELAGE TRULY GLUTATHIONE TONER PAD",
+      "category": "TONER PAD",
+      "volume": "160 mL / 5.41 fl. oz. (60pads)",
+      "supply_krw": 4350,
+      "retail_krw": 25000
+    },
+    {
+      "name_ru": "Эмульсия VITAMIN C PURE с витамином С",
+      "name_en": "LEBELAGE VITAMIN C PURE EMULSION",
+      "category": "EMULSION",
+      "volume": "120ml",
+      "supply_krw": 5500,
+      "retail_krw": 78000
+    },
+    {
+      "name_ru": "Глиняная маска-пенка 2-в-1 с клейким рисом",
+      "name_en": "LEBELAGE GLUTINOUS RICE CLAY 2IN1 PACK FOAM",
+      "category": "FOAM PACK 2IN1",
+      "volume": "120ml / 4.05 fl. oz.",
+      "supply_krw": 2900,
+      "retail_krw": 25000
+    },
+    {
+      "name_ru": "Гидрогелевые патчи для глаз с 24-каратным золотом",
+      "name_en": "LEBELAGE Dr.24K GOLD HYDROGEL EYE PATCH",
+      "category": "EYE PATCH",
+      "volume": "90g / 60Sheet",
+      "supply_krw": 4750,
+      "retail_krw": 25000
+    }
+  ]
+}

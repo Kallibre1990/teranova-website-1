@@ -1,0 +1,107 @@
+{
+  "content": {
+    "tagline": "Breites Sortiment koreanischer Kosmetik unter zwei eigenen Marken",
+    "descriptor": "Koreanisches Kosmetikunternehmen: Marken LEBELAGE und HEEYUL",
+    "origin": "Korea",
+    "about": [
+      "DONGDONGGURIMOO CO., LTD. ist ein koreanisches Kosmetikunternehmen aus Seoul und Eigentümer der Marken LEBELAGE und HEEYUL. LEBELAGE ist eine Marke für Hautpflege und dekorative Kosmetik mit Schwerpunkt auf natürlichen und funktionalen Rezepturen. HEEYUL ist eine spezialisierte Haarpflegemarke, darunter eine Linie gegen Haarausfall.",
+      "Das Sortiment deckt den gesamten Pflegezyklus ab: Reinigung, Toner, Essenzen und Ampullen, Cremes und Seren, Tuchmasken und Patches, Sonnenschutz, Körper- und Handpflege sowie dekorative Kosmetik und Parfums. Die aktuelle Preisliste umfasst 355 Artikel in 30 Kategorien.",
+      "Nach Angaben des Unternehmens wird die Produktion in ausländische Märkte geliefert, darunter Russland und Länder Südostasiens. Für einen Teil der Artikel sind Registrierungsnummern nach MoCRA (USA), EU CPNP und UK SCPN angegeben."
+    ],
+    "facts": [
+      "Zwei eigene Marken: LEBELAGE und HEEYUL",
+      "355 Artikel in 30 Kategorien",
+      "Registrierungen MoCRA · CPNP · SCPN (für einen Teil der Artikel)",
+      "Pflege, Make-up, Sonnenschutz und Haarpflege",
+      "Exporterfahrung – nach Angaben des Unternehmens"
+    ],
+    "channels": [
+      "Importeure und Vertriebspartner für Kosmetik",
+      "Einzelhandels- und Drogerieketten",
+      "Marktplätze und E-Commerce",
+      "Salons und Fachgeschäfte"
+    ],
+    "lines": [
+      {
+        "name": "LEBELAGE",
+        "note": "Die Hauptmarke des Unternehmens: Hautpflege und dekorative Kosmetik. Reinigung, Toner, Essenzen, Ampullen, Seren, Cremes, Tuchmasken und Patches, Sonnenschutz, Körper- und Handpflege, Make-up und Parfums."
+      },
+      {
+        "name": "HEEYUL",
+        "note": "Spezialisierte Marke für Haar- und Kopfhautpflege: eine Linie gegen Haarausfall (Shampoo, Conditioner, Tonikum, Ampulle) sowie Pflegesets in der Tradition der koreanischen Phytotherapie."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Funktionale Wirkstoffe in den Rezepturen",
+        "note": "Die Linien basieren auf bekannten kosmetischen Wirkstoffen: Kollagen, Centella (Cica), Vitamin C, Hyaluronsäure, PDRN, Glutathion, Retinol, Peptide, Panthenol, Ceramide, Niacinamid, Schneckenschleim, Teebaum."
+      },
+      {
+        "name": "Breite Produktmatrix",
+        "note": "Die größten Kategorien der Preisliste sind dekorative Kosmetik (51 Artikel), Tuchmasken (42), Cremes (39), Reinigungsschäume (32) und Ampullen (25): Damit lässt sich ein Startsortiment für einen bestimmten Vertriebskanal zusammenstellen."
+      },
+      {
+        "name": "Registrierungen für Exportmärkte",
+        "note": "In der Preisliste sind Registrierungsnummern angegeben: MoCRA (USA) für 240 Artikel, EU CPNP für 77 und UK SCPN für 76. Die Aktualität wird durch Unterlagen in der Verhandlungsphase bestätigt."
+      }
+    ],
+    "formats": [
+      "Reinigung und Schäume",
+      "Toner und Mists",
+      "Essenzen und Ampullen",
+      "Seren und Cremes",
+      "Tuchmasken und Patches",
+      "Sonnenschutz",
+      "Haarpflege",
+      "Körper- und Handpflege",
+      "Dekorative Kosmetik",
+      "Parfums"
+    ],
+    "exportNote": "Nach Angaben des Unternehmens wird die Markenproduktion in ausländische Märkte geliefert, darunter Russland und Länder Südostasiens. Konkrete Gebiete, aktuelle Vertriebspartner und mögliche Einschränkungen werden in der Verhandlungsphase über Teranova geklärt.",
+    "terms": [
+      {
+        "label": "Kooperationsformen",
+        "value": "Großhandelslieferungen fertiger Produkte der Marken LEBELAGE und HEEYUL."
+      },
+      {
+        "label": "Mindestbestellmenge",
+        "value": "Wird je Artikel und Menge in der Verhandlungsphase geklärt; die Preisliste enthält Kartonstaffeln und Palettenlogistik."
+      },
+      {
+        "label": "Preise",
+        "value": "Ungefähre Großhandelsspanne (Supply Price, Juli 2026); genaue Preise und Lieferbasis auf Anfrage."
+      },
+      {
+        "label": "Ablauf der Zusammenarbeit",
+        "value": "Anfrage → Prüfung und Abstimmung durch Teranova → Verhandlungen und Muster → Logistik, Zoll und Zahlung als Komplettservice."
+      }
+    ],
+    "consentNote": "Die Angaben und Materialien wurden von DONGDONGGURIMOO CO., LTD. bereitgestellt und werden mit ihrer Zustimmung veröffentlicht. Direkte Kontaktdaten des Herstellers werden nicht offengelegt. Teranova koordiniert und begleitet die Transaktion.",
+    "seoTitle": "LEBELAGE & HEEYUL – koreanische Kosmetik · Teranova",
+    "seoDesc": "DONGDONGGURIMOO: koreanische Kosmetik der Marken LEBELAGE und HEEYUL – Hautpflege, Masken, Sonnenschutz, Make-up, Haarpflege. 355 Artikel. Lieferung über Teranova."
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen:",
+    "lines_h": "Marken des Unternehmens",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Möglichkeiten und Sortiment",
+    "products_h": "Produkte",
+    "products_note": "Die Marken LEBELAGE und HEEYUL umfassen Hautpflege, dekorative Kosmetik, Sonnenschutz und Haarpflege.",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Kooperationsbedingungen",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "price_btn": "Preisliste herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Preise und Bedingungen sind unverbindlich und werden in der Verhandlungsphase über Teranova geklärt. Direkte Kontaktdaten des Herstellers werden nicht veröffentlicht.",
+    "cta_h": "Interesse an diesem Hersteller?",
+    "cta_d": "Kontaktieren Sie uns – Teranova organisiert Verhandlungen, Prüfung und Begleitung der Transaktion vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifikate und Registrierungen",
+    "certs_note": "Angaben des Unternehmens. Die Registrierungsnummern MoCRA, CPNP und SCPN sind in der Preisliste für einen Teil der Artikel angegeben; Kopien der Nachweisdokumente werden in der Verhandlungsphase bereitgestellt. Eine Registrierung oder Listung stellt keine behördliche Zulassung dar."
+  }
+}

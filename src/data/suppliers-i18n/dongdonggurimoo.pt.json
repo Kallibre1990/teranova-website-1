@@ -1,0 +1,107 @@
+{
+  "content": {
+    "tagline": "Ampla linha de cosméticos coreanos sob duas marcas próprias",
+    "descriptor": "Empresa coreana de cosméticos: marcas LEBELAGE e HEEYUL",
+    "origin": "Coreia",
+    "about": [
+      "DONGDONGGURIMOO CO., LTD. é uma empresa coreana de cosméticos sediada em Seul, proprietária das marcas LEBELAGE e HEEYUL. LEBELAGE é uma marca de skincare e maquiagem com foco em fórmulas naturais e funcionais. HEEYUL é uma marca especializada em cuidados capilares, incluindo uma linha anticaída.",
+      "O portfólio cobre o ciclo completo de cuidados: limpeza, tônicos, essências e ampolas, cremes e séruns, máscaras faciais e patches, protetor solar, cuidados corporais e das mãos, além de maquiagem e perfumaria. A tabela de preços vigente inclui 355 itens em 30 categorias.",
+      "Segundo a empresa, os produtos são fornecidos para mercados internacionais, incluindo Rússia e países do Sudeste Asiático. Para parte dos itens constam números de registro MoCRA (EUA), CPNP (UE) e SCPN (Reino Unido)."
+    ],
+    "facts": [
+      "Duas marcas próprias: LEBELAGE e HEEYUL",
+      "355 itens em 30 categorias",
+      "Registros MoCRA · CPNP · SCPN (para parte dos itens)",
+      "Skincare, maquiagem, protetor solar e cuidados capilares",
+      "Experiência de exportação — segundo a empresa"
+    ],
+    "channels": [
+      "Importadores e distribuidores de cosméticos",
+      "Redes de varejo e drogarias",
+      "Marketplaces e e-commerce",
+      "Salões e lojas especializadas"
+    ],
+    "lines": [
+      {
+        "name": "LEBELAGE",
+        "note": "Marca principal da empresa: skincare e maquiagem. Limpeza, tônicos, essências, ampolas, séruns, cremes, máscaras faciais e patches, protetor solar, cuidados corporais e das mãos, maquiagem e perfumaria."
+      },
+      {
+        "name": "HEEYUL",
+        "note": "Marca especializada em cuidados para couro cabeludo e cabelo: linha anticaída (shampoo, condicionador, tônico, ampola), além de kits de cuidado inspirados na fitoterapia coreana."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Ativos funcionais nas fórmulas",
+        "note": "As linhas são construídas em torno de ativos cosméticos consagrados: colágeno, centella (Cica), vitamina C, ácido hialurônico, PDRN, glutationa, retinol, peptídeos, pantenol, ceramidas, niacinamida, muco de caramujo e melaleuca (tea tree)."
+      },
+      {
+        "name": "Matriz ampla de produtos",
+        "note": "As maiores categorias da tabela de preços são maquiagem (51 itens), máscaras faciais (42), cremes (39), espumas de limpeza (32) e ampolas (25): é possível montar um sortimento inicial voltado ao canal de vendas."
+      },
+      {
+        "name": "Registros para mercados de exportação",
+        "note": "A tabela de preços indica números de registro: MoCRA (EUA) em 240 itens, EU CPNP em 77, UK SCPN em 76. A validade é confirmada por documentos na etapa de negociação."
+      }
+    ],
+    "formats": [
+      "Limpeza e espumas",
+      "Tônicos e mists",
+      "Essências e ampolas",
+      "Séruns e cremes",
+      "Máscaras faciais e patches",
+      "Protetor solar",
+      "Cuidados capilares",
+      "Cuidados corporais e das mãos",
+      "Maquiagem",
+      "Perfumaria"
+    ],
+    "exportNote": "Segundo a empresa, os produtos das marcas são fornecidos para mercados internacionais, incluindo Rússia e países do Sudeste Asiático. Territórios específicos, distribuidores atuais e possíveis restrições são esclarecidos na etapa de negociação por meio da Teranova.",
+    "terms": [
+      {
+        "label": "Formatos de parceria",
+        "value": "Fornecimento no atacado de produtos acabados das marcas LEBELAGE e HEEYUL."
+      },
+      {
+        "label": "Pedido mínimo",
+        "value": "A confirmar por item e volume na etapa de negociação; a tabela de preços indica múltiplos de caixa e logística paletizada."
+      },
+      {
+        "label": "Preços",
+        "value": "Faixa indicativa de preço no atacado (Supply Price, julho de 2026); preços exatos e condições de entrega sob consulta."
+      },
+      {
+        "label": "Como funciona o processo",
+        "value": "Solicitação → verificação e alinhamento pela Teranova → negociação e amostras → logística, alfândega e pagamento de ponta a ponta."
+      }
+    ],
+    "consentNote": "Dados e materiais fornecidos pela empresa DONGDONGGURIMOO CO., LTD. e publicados com seu consentimento. Contatos diretos do fabricante não são divulgados. A Teranova coordena e acompanha a negociação.",
+    "seoTitle": "Cosméticos coreanos LEBELAGE e HEEYUL · Teranova",
+    "seoDesc": "DONGDONGGURIMOO: cosméticos coreanos das marcas LEBELAGE e HEEYUL — skincare, maquiagem, protetor solar e cuidados capilares. 355 itens, fornecimento pela Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem:",
+    "lines_h": "Marcas da empresa",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Capacidades e sortimento",
+    "products_h": "Produtos",
+    "products_note": "As marcas LEBELAGE e HEEYUL abrangem skincare, maquiagem, protetor solar e cuidados capilares.",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de parceria",
+    "download_btn": "Baixar condições (PDF)",
+    "price_btn": "Baixar tabela de preços (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Preços e condições são indicativos e confirmados na etapa de negociação por meio da Teranova. Contatos diretos do fabricante não são divulgados.",
+    "cta_h": "Interessado neste fabricante?",
+    "cta_d": "Fale conosco — a Teranova organiza as negociações, a verificação e o acompanhamento da negociação, do primeiro contato até a entrega.",
+    "cta_btn": "Falar com a Teranova",
+    "more": "Ver perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificados e registros",
+    "certs_note": "Declarado pela empresa. Os números de registro MoCRA, CPNP e SCPN constam na tabela de preços para parte dos itens; cópias dos documentos comprobatórios são fornecidas na etapa de negociação. Registro ou listagem não constitui aprovação regulatória."
+  }
+}

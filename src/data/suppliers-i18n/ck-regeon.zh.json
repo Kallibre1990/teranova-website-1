@@ -1,0 +1,102 @@
+{
+  "content": {
+    "tagline": "以科学为基础的头皮与头发护理",
+    "descriptor": "韩国生物科技企业:旗下品牌 HAIRREGEON 与 HERIBON",
+    "origin": "韩国",
+    "about": [
+      "CK Regeon Inc. 是一家韩国生物科技企业,于2016年在首尔(Yonsei Engineering Research Park)创立,由 Kang-Yell Choi 教授领导——他从事 Wnt 信号通路研究已超过二十年。公司旗下美妆品牌统一归属于 DermaRegeon 品牌体系之下。",
+      "产品围绕公司自主研发的“WNT ON”技术打造:核心成分 KY19382 与橙皮苷,以及多肽 PTD-DBM,通过 CXXC5 蛋白调节 Wnt/β-catenin 信号通路。相关作用机制发表于同行评审学术期刊——Journal of Investigative Dermatology(2017年)与 British Journal of Pharmacology(2021年)。",
+      "需特别说明:已发表的研究均属于临床前阶段(细胞培养、离体实验及动物模型),仅描述相关成分的作用机制,并不代表已验证成品的临床功效。相关产品定位为头皮与头发的化妆品级护理产品。"
+    ],
+    "facts": [
+      "生物科技企业,成立于2016年",
+      "“WNT ON”技术(CXXC5 / Wnt信号通路)",
+      "研究成果发表于JID(2017年)与BJP(2021年)",
+      "两大品牌:HAIRREGEON 与 HERIBON",
+      "美妆品牌于2025年正式推出"
+    ],
+    "channels": [
+      "美妆产品进口商与经销商",
+      "药妆及专业连锁渠道",
+      "美容院及毛发护理机构",
+      "电商平台与线上零售"
+    ],
+    "lines": [
+      {
+        "name": "HAIRREGEON",
+        "note": "专业密集型头皮护理系列。旗舰产品为 PTD-DBM Hair Booster:双组分套装(冻干粉末与溶剂),每盒5套装。"
+      },
+      {
+        "name": "HERIBON",
+        "note": "居家日常护理系列“WNT ON”,四步护理:洗发水(500毫升)、头皮去角质产品(300毫升)、护发膜(250毫升)及头皮精华水(50毫升)。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "“WNT ON”技术",
+        "note": "公司自主研发技术,基于 KY19382 与橙皮苷成分,通过 CXXC5 蛋白调节 Wnt/β-catenin 信号通路。"
+      },
+      {
+        "name": "PTD-DBM 多肽",
+        "note": "HAIRREGEON 专业系列核心成分。其与 CXXC5 竞争性结合的作用机制已在 Journal of Investigative Dermatology(2017年)发表的临床前研究中描述。"
+      },
+      {
+        "name": "科学依据",
+        "note": "作用机制研究已发表于同行评审期刊:Journal of Investigative Dermatology(2017年)与 British Journal of Pharmacology(2021年)。相关实验基于细胞培养、离体实验及动物模型完成。"
+      }
+    ],
+    "formats": [
+      "安瓶与强化精华",
+      "洗发水",
+      "头皮去角质产品(头皮焕肤)",
+      "护发膜与护发产品",
+      "头皮精华水"
+    ],
+    "exportNote": "公司正积极拓展2025年推出的美妆品牌的国际分销网络,并参加亚洲地区行业展会。具体地区、现有经销商及各市场合作条件将在通过 Teranova 达成交易时进一步确认。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "批量供应 HAIRREGEON 与 HERIBON 品牌成品。"
+      },
+      {
+        "label": "最小起订量",
+        "value": "HAIRREGEON——5套装起订。HERIBON——按各单品包装倍数起订(洗发水20件起,去角质产品与护发膜25件起,精华水100件起)。"
+      },
+      {
+        "label": "价格",
+        "value": "参考批发价区间;HERIBON按EXW/FOB Korea条件报价,起订金额10 000美元;HAIRREGEON按FCA条件报价。具体价格可应要求提供。"
+      },
+      {
+        "label": "合作流程",
+        "value": "提交需求 → Teranova 审核确认 → 谈判与样品 → 物流、清关及付款一站式服务。"
+      }
+    ],
+    "consentNote": "本页数据及资料由 CK Regeon Inc. 提供,并经其书面同意按原始内容发布。厂商直接联系方式不予公开,交易由 Teranova 统一协调与跟进。",
+    "seoTitle": "CK Regeon韩国头皮护理 · Teranova",
+    "seoDesc": "CK Regeon(DermaRegeon)是一家韩国生物科技企业,由Kang-Yell Choi教授于2016年在首尔创立,旗下品牌HAIRREGEON与HERIBON采用自主研发的WNT ON技术,提供头皮与头发的化妆品级护理产品,相关研究已发表于国际学术期刊,可通过Teranova安排采购对接与交易跟进。"
+  },
+  "ui": {
+    "profile_sup": "供应商简介",
+    "about_h": "公司简介",
+    "for_whom": "适合对象:",
+    "lines_h": "公司品牌",
+    "catalog_h": "产品目录",
+    "tech_h": "技术与科学依据",
+    "products_h": "产品",
+    "products_note": "HAIRREGEON 与 HERIBON 品牌提供头皮与头发的化妆品级护理产品。",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件(PDF)",
+    "price_btn": "下载价目表(PDF)",
+    "pres_btn": "下载企业介绍(PDF)",
+    "terms_disc": "价格及条款仅供参考,具体以通过 Teranova 达成交易时确认为准。厂商直接联系方式不予公开。相关产品定位为化妆品;所述研究仅涉及成分作用机制,且属于临床前阶段。",
+    "cta_h": "对该供应商感兴趣?",
+    "cta_d": "请与我们联系——Teranova 将从首次接洽到最终交付,全程安排谈判、审核并跟进交易。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看详情 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "证书与注册信息",
+    "certs_note": "由公司自行声明。相关证明文件及注册资料副本将在交易阶段提供。注册或备案并不代表监管机构的批准。"
+  }
+}

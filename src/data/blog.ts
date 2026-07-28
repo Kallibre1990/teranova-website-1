@@ -24,7 +24,7 @@ export interface BlogPostContent {
   sections: BlogSection[];
 }
 /** Predefined internal link targets for the "related" block (language-neutral). */
-export type BlogRelated = 'catalog' | 'cosmetics' | 'sante' | 'dreamcos' | 'verify' | 'faq' | 'ondemand' | 'suppliers' | 'buyers';
+export type BlogRelated = 'catalog' | 'cosmetics' | 'sante' | 'dreamcos' | 'dongdonggurimoo' | 'ck-regeon' | 'verify' | 'faq' | 'ondemand' | 'suppliers' | 'buyers';
 export interface BlogPost {
   slug: string;
   category: 'guide' | 'overview';

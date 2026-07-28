@@ -1,0 +1,17 @@
+Read /tmp/new-articles-ru.json — six Russian B2B blog articles for the Teranova website (trusted brokerage of Korean cosmetics). Keys are article slugs; each value has {title, excerpt, seoTitle, seoDesc, sections:[{h?,p:[]}]}.
+
+Translate ALL SIX into <<LANGNAME>> (<<LANGCODE>>) as a NATIVE speaker — professional B2B tone, natural, not literal.
+
+Return ONLY valid JSON (no markdown fence), keyed by the SAME slugs:
+{ "<slug>": {"title":"...","excerpt":"...","seoTitle":"...","seoDesc":"...","sections":[{"p":["..."]},{"h":"...","p":["..."]}]}, ... }
+
+RULES:
+- Keep EXACT same section count and paragraph count per section as the source. Translate each "h" heading; keep "p" arrays.
+- Keep UNCHANGED (Latin): LEBELAGE, HEEYUL, DONGDONGGURIMOO, CK Regeon, DermaRegeon, HAIRREGEON, HERIBON, Teranova, PTD-DBM, KY19382, CXXC5, WNT ON, Wnt/β-catenin, MoCRA, EU CPNP, UK SCPN, PDRN, Cica, Kang-Yell Choi, Yonsei Engineering Research Park, Journal of Investigative Dermatology, British Journal of Pharmacology, EXW, FOB, FCA, Korea, SPF.
+- "seoTitle": ≤58 characters TOTAL, MUST end with " · Teranova".
+- "seoDesc": 140–165 characters.
+- No word meaning "guarantee" anywhere. Teranova "coordinates and supports" the deal.
+- Keep ALL numbers identical (42, 355, 30, 47, 21, 39, 32, 25, 22, 12, 240/77/76, 500/300/250/50 ml, 200 mg, 5 ml, MOQ 5/20/25/100, prices $11/$9.75/$7.50/$160/$22/$19.5/$15, 10 000 USD, years 2016/2017/2021/2025/2026).
+- CRITICAL for the CK Regeon articles (wnt-cxxc5-scalp-science, heribon-four-step-routine, professional-scalp-boosters): products are COSMETICS. Never claim treatment/cure of hair loss or alopecia, never "FDA approved", never mention injectable/mesotherapy/MTS use as something the product does. IMPORTANT NUANCE: where the Russian text lists such phrasings as EXAMPLES OF WHAT MUST NOT BE CLAIMED (regulatory-risk sections), translate them faithfully as examples — that context must be preserved, not deleted. Keep the explicit statement that the research is PRECLINICAL (cells, ex vivo, animal models).
+
+Write the result to <<OUTFILE>> using the Write tool. Reply with: number of slugs, and the seoTitle character count for each.

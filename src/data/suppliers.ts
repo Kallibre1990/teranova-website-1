@@ -34,6 +34,26 @@ import dreamcosFr from './suppliers-i18n/dreamcos.fr.json';
 import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
 import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
+import dongEn from './suppliers-i18n/dongdonggurimoo.en.json';
+import dongKo from './suppliers-i18n/dongdonggurimoo.ko.json';
+import dongZh from './suppliers-i18n/dongdonggurimoo.zh.json';
+import dongJa from './suppliers-i18n/dongdonggurimoo.ja.json';
+import dongIt from './suppliers-i18n/dongdonggurimoo.it.json';
+import dongDe from './suppliers-i18n/dongdonggurimoo.de.json';
+import dongFr from './suppliers-i18n/dongdonggurimoo.fr.json';
+import dongTr from './suppliers-i18n/dongdonggurimoo.tr.json';
+import dongEs from './suppliers-i18n/dongdonggurimoo.es.json';
+import dongPt from './suppliers-i18n/dongdonggurimoo.pt.json';
+import ckrEn from './suppliers-i18n/ck-regeon.en.json';
+import ckrKo from './suppliers-i18n/ck-regeon.ko.json';
+import ckrZh from './suppliers-i18n/ck-regeon.zh.json';
+import ckrJa from './suppliers-i18n/ck-regeon.ja.json';
+import ckrIt from './suppliers-i18n/ck-regeon.it.json';
+import ckrDe from './suppliers-i18n/ck-regeon.de.json';
+import ckrFr from './suppliers-i18n/ck-regeon.fr.json';
+import ckrTr from './suppliers-i18n/ck-regeon.tr.json';
+import ckrEs from './suppliers-i18n/ck-regeon.es.json';
+import ckrPt from './suppliers-i18n/ck-regeon.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -253,6 +273,123 @@ const dreamcosRu: SupplierContent = {
   },
 };
 
+const dongdongguriRu: SupplierContent = {
+  tagline: 'Широкая линейка корейской косметики под двумя собственными брендами',
+  descriptor: 'Корейская косметическая компания: бренды LEBELAGE и HEEYUL',
+  origin: 'Корея',
+  about: [
+    'DONGDONGGURIMOO CO., LTD. — корейская косметическая компания из Сеула, владелец брендов LEBELAGE и HEEYUL. LEBELAGE — бренд ухода за кожей и декоративной косметики с акцентом на натуральные и функциональные составы. HEEYUL — специализированный бренд по уходу за волосами, включая линию против выпадения.',
+    'Ассортимент охватывает полный цикл ухода: очищение, тонеры, эссенции и ампулы, кремы и сыворотки, тканевые маски и патчи, солнцезащиту, уход за телом и руками, а также декоративную косметику и парфюмерию. Действующий прайс включает 355 товарных позиций в 30 категориях.',
+    'По данным компании, продукция поставляется на зарубежные рынки, включая Россию и страны Юго-Восточной Азии. Для части позиций указаны регистрационные номера MoCRA (США), CPNP (ЕС) и SCPN (Великобритания).',
+  ],
+  facts: ['Два собственных бренда: LEBELAGE и HEEYUL', '355 позиций в 30 категориях', 'Регистрации MoCRA · CPNP · SCPN (по части позиций)', 'Уход, макияж, солнцезащита и уход за волосами', 'Экспортный опыт — по данным компании'],
+  channels: ['Импортёры и дистрибьюторы косметики', 'Розничные и дрогери-сети', 'Маркетплейсы и e-commerce', 'Салоны и специализированные магазины'],
+  lines: [
+    { name: 'LEBELAGE', note: 'Основной бренд компании: уход за кожей и декоративная косметика. Очищение, тонеры, эссенции, ампулы, сыворотки, кремы, тканевые маски и патчи, солнцезащита, уход за телом и руками, макияж и парфюмерия.' },
+    { name: 'HEEYUL', note: 'Специализированный бренд по уходу за волосами и кожей головы: линия против выпадения волос (шампунь, кондиционер, тоник, ампула), а также наборы ухода в традициях корейской фитотерапии.' },
+  ],
+  tech: [
+    { name: 'Функциональные активы в составах', note: 'Линейки построены вокруг известных косметических активов: коллаген, центелла (Cica), витамин C, гиалуроновая кислота, PDRN, глутатион, ретинол, пептиды, пантенол, керамиды, ниацинамид, муцин улитки, чайное дерево.' },
+    { name: 'Широкая продуктовая матрица', note: 'Крупнейшие категории прайса — декоративная косметика (51 позиция), тканевые маски (42), кремы (39), пенки для умывания (32) и ампулы (25): можно собрать стартовый ассортимент под конкретный канал продаж.' },
+    { name: 'Регистрации для экспортных рынков', note: 'В прайсе указаны номера регистраций: MoCRA (США) — по 240 позициям, EU CPNP — по 77, UK SCPN — по 76. Актуальность подтверждается документами на стадии сделки.' },
+  ],
+  formats: ['Очищение и пенки', 'Тонеры и мисты', 'Эссенции и ампулы', 'Сыворотки и кремы', 'Тканевые маски и патчи', 'Солнцезащита', 'Уход за волосами', 'Уход за телом и руками', 'Декоративная косметика', 'Парфюмерия'],
+  exportNote: 'По данным компании, продукция брендов поставляется на зарубежные рынки, включая Россию и страны Юго-Восточной Азии. Конкретные территории, действующие дистрибьюторы и возможные ограничения уточняются на стадии сделки через Teranova.',
+  terms: [
+    { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции брендов LEBELAGE и HEEYUL.' },
+    { label: 'Минимальный заказ', value: 'Уточняется по позиции и объёму на стадии сделки; в прайсе указаны кратность короба и паллетная логистика.' },
+    { label: 'Цены', value: 'Ориентировочный оптовый диапазон (Supply Price, июль 2026); точные цены и базис поставки — по запросу.' },
+    { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
+  ],
+  consentNote: 'Данные и материалы предоставлены компанией DONGDONGGURIMOO CO., LTD. и публикуются с её согласия. Прямые контакты производителя не раскрываются. Teranova координирует и сопровождает сделку.',
+  seoTitle: 'LEBELAGE и HEEYUL — корейская косметика оптом · Teranova',
+  seoDesc: 'DONGDONGGURIMOO — корейская косметическая компания, бренды LEBELAGE и HEEYUL: уход, маски, солнцезащита, макияж, уход за волосами. 355 позиций. Поставки и сопровождение сделки через Teranova.',
+  ui: {
+    profile_sup: 'Профиль поставщика',
+    about_h: 'О компании',
+    for_whom: 'Для кого:',
+    lines_h: 'Бренды компании',
+    catalog_h: 'Каталог продукции',
+    tech_h: 'Возможности и ассортимент',
+    products_h: 'Продукция',
+    products_note: 'Бренды LEBELAGE и HEEYUL охватывают уход за кожей, декоративную косметику, солнцезащиту и уход за волосами.',
+    formats_h: 'Форматы продукции',
+    export_h: 'Экспорт и рынки',
+    terms_h: 'Условия сотрудничества',
+    download_btn: 'Скачать условия (PDF)',
+    price_btn: 'Скачать прайс-лист (PDF)',
+    pres_btn: 'Скачать презентацию (PDF)',
+    terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются.',
+    cta_h: 'Заинтересовал этот производитель?',
+    cta_d: 'Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
+    cta_btn: 'Связаться через Teranova',
+    more: 'Открыть профиль →',
+    verified_suppliers: 'Проверенные поставщики',
+    certs_h: 'Сертификаты и регистрации',
+    certs_note: 'Заявлено компанией. Регистрационные номера MoCRA, CPNP и SCPN указаны в прайс-листе по части позиций; копии подтверждающих документов предоставляются на стадии сделки. Регистрация или листинг не является одобрением регулятора.',
+  },
+};
+
+/* CK Regeon — cosmetics only. Regulatory guardrails (journal D-210): never "FDA approved"
+   (MoCRA listing is not FDA approval), no claims of treating hair loss, no injectable/MTS
+   use, and the published research is preclinical (cells, ex vivo, animal models). */
+const ckRegeonRu: SupplierContent = {
+  tagline: 'Косметический уход за кожей головы и волосами на научной основе',
+  descriptor: 'Корейская биотех-компания: бренды HAIRREGEON и HERIBON',
+  origin: 'Корея',
+  about: [
+    'CK Regeon Inc. — корейская биотехнологическая компания, основанная в 2016 году в Сеуле (Yonsei Engineering Research Park). Компанию возглавляет профессор Kang-Yell Choi — исследователь сигнального пути Wnt с более чем двадцатилетним научным стажем. Бренд-портфель компании в косметике объединён под именем DermaRegeon.',
+    'Продукты построены вокруг собственной технологии «WNT ON»: компоненты KY19382 и гесперидин, а также пептид PTD-DBM, направленные на модуляцию сигнального пути Wnt/β-catenin через белок CXXC5. Механизм описан в рецензируемых научных публикациях — Journal of Investigative Dermatology (2017) и British Journal of Pharmacology (2021).',
+    'Важно для корректной коммуникации: опубликованные исследования носят доклинический характер (клеточные культуры, ex vivo и модели на животных) и описывают механизм действия компонентов, а не подтверждают клиническую эффективность готовых продуктов. Продукция позиционируется как косметический уход за кожей головы и волосами.',
+  ],
+  facts: ['Биотех-компания, основана в 2016 году', 'Технология «WNT ON» (CXXC5 / Wnt-сигналинг)', 'Публикации в JID (2017) и BJP (2021)', 'Два бренда: HAIRREGEON и HERIBON', 'Запуск косметических брендов — 2025 год'],
+  channels: ['Импортёры и дистрибьюторы косметики', 'Аптечные и специализированные сети', 'Салоны и трихологические студии', 'Маркетплейсы и e-commerce'],
+  lines: [
+    { name: 'HAIRREGEON', note: 'Профессиональная интенсивная линия ухода за кожей головы. Флагман — PTD-DBM Hair Booster: двухкомпонентный набор (лиофилизированный порошок и растворитель), упаковка из пяти наборов.' },
+    { name: 'HERIBON', note: 'Домашняя линия ежедневного ухода «WNT ON» из четырёх шагов: шампунь (500 мл), скальп-скалер (300 мл), маска-уход для волос (250 мл) и тоник для кожи головы (50 мл).' },
+  ],
+  tech: [
+    { name: 'Технология «WNT ON»', note: 'Собственная разработка компании на основе компонентов KY19382 и гесперидина, направленных на модуляцию сигнального пути Wnt/β-catenin через белок CXXC5.' },
+    { name: 'Пептид PTD-DBM', note: 'Компонент профессиональной линии HAIRREGEON. Механизм конкурентного связывания CXXC5 описан в публикации Journal of Investigative Dermatology (2017) на доклиническом уровне.' },
+    { name: 'Научная база', note: 'Исследования механизма опубликованы в рецензируемых журналах: Journal of Investigative Dermatology (2017) и British Journal of Pharmacology (2021). Работы выполнены на клеточных культурах, ex vivo и моделях на животных.' },
+  ],
+  formats: ['Ампулы и бустеры', 'Шампуни', 'Скальп-скалеры (пилинг кожи головы)', 'Маски и уход для волос', 'Тоники для кожи головы'],
+  exportNote: 'Компания развивает международную дистрибуцию косметических брендов, запущенных в 2025 году, и участвует в отраслевых выставках в Азии. Территории, действующие дистрибьюторы и условия по рынкам уточняются на стадии сделки через Teranova.',
+  terms: [
+    { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции брендов HAIRREGEON и HERIBON.' },
+    { label: 'Минимальный заказ', value: 'HAIRREGEON — от 5 упаковок. HERIBON — кратно упаковке по каждой позиции (шампунь от 20 шт., скалер и маска от 25 шт., тоник от 100 шт.).' },
+    { label: 'Цены', value: 'Ориентировочный оптовый диапазон; HERIBON — на условиях EXW/FOB Korea при заказе от 10 000 USD, HAIRREGEON — FCA. Точные цены — по запросу.' },
+    { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
+  ],
+  consentNote: 'Данные и материалы предоставлены компанией CK Regeon Inc. и публикуются с её письменного согласия с сохранением исходного содержания. Прямые контакты производителя не раскрываются. Teranova координирует и сопровождает сделку.',
+  seoTitle: 'CK Regeon — уход за кожей головы из Кореи · Teranova',
+  seoDesc: 'CK Regeon (DermaRegeon) — корейская биотех-компания: бренды HAIRREGEON и HERIBON, технология WNT ON. Косметический уход за кожей головы и волосами. Поставки через Teranova.',
+  ui: {
+    profile_sup: 'Профиль поставщика',
+    about_h: 'О компании',
+    for_whom: 'Для кого:',
+    lines_h: 'Бренды компании',
+    catalog_h: 'Каталог продукции',
+    tech_h: 'Технология и научная база',
+    products_h: 'Продукция',
+    products_note: 'Бренды HAIRREGEON и HERIBON — косметический уход за кожей головы и волосами.',
+    formats_h: 'Форматы продукции',
+    export_h: 'Экспорт и рынки',
+    terms_h: 'Условия сотрудничества',
+    download_btn: 'Скачать условия (PDF)',
+    price_btn: 'Скачать прайс-лист (PDF)',
+    pres_btn: 'Скачать презентацию (PDF)',
+    terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются. Продукция представлена как косметические средства; описанные исследования относятся к механизму действия компонентов и носят доклинический характер.',
+    cta_h: 'Заинтересовал этот производитель?',
+    cta_d: 'Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
+    cta_btn: 'Связаться через Teranova',
+    more: 'Открыть профиль →',
+    verified_suppliers: 'Проверенные поставщики',
+    certs_h: 'Сертификаты и регистрации',
+    certs_note: 'Заявлено компанией. Копии подтверждающих документов и регистраций предоставляются на стадии сделки. Регистрация или листинг не является одобрением регулятора.',
+  },
+};
+
 /* Translator agents return { content: {...}, ui: {...} }; flatten to SupplierContent. */
 const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => ({ ...(j.content as unknown as Omit<SupplierContent, 'ui'>), ui: j.ui });
 
@@ -334,6 +471,127 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(dreamcosTr),
       es: mk(dreamcosEs),
       pt: mk(dreamcosPt),
+    },
+  },
+  {
+    slug: 'dongdonggurimoo',
+    category: 'cosmetics',
+    name: 'DONGDONGGURIMOO',
+    brand: 'LEBELAGE · HEEYUL',
+    status: 'provided',
+    brandColors: { deep: '#1f5945', sky: '#4e9c7f', accent: '#d4a373', bg: '#f2f7f4' },
+    certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
+    termsFile: {
+      ru: '/docs/dongdonggurimoo-terms-ru.pdf',
+      en: '/docs/dongdonggurimoo-terms-en.pdf',
+      ko: '/docs/dongdonggurimoo-terms-ko.pdf',
+      zh: '/docs/dongdonggurimoo-terms-zh.pdf',
+      ja: '/docs/dongdonggurimoo-terms-ja.pdf',
+      it: '/docs/dongdonggurimoo-terms-it.pdf',
+      de: '/docs/dongdonggurimoo-terms-de.pdf',
+      fr: '/docs/dongdonggurimoo-terms-fr.pdf',
+      tr: '/docs/dongdonggurimoo-terms-tr.pdf',
+      es: '/docs/dongdonggurimoo-terms-es.pdf',
+      pt: '/docs/dongdonggurimoo-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/dongdonggurimoo-price-ru.pdf',
+      en: '/docs/dongdonggurimoo-price-en.pdf',
+      ko: '/docs/dongdonggurimoo-price-ko.pdf',
+      zh: '/docs/dongdonggurimoo-price-zh.pdf',
+      ja: '/docs/dongdonggurimoo-price-ja.pdf',
+      it: '/docs/dongdonggurimoo-price-it.pdf',
+      de: '/docs/dongdonggurimoo-price-de.pdf',
+      fr: '/docs/dongdonggurimoo-price-fr.pdf',
+      tr: '/docs/dongdonggurimoo-price-tr.pdf',
+      es: '/docs/dongdonggurimoo-price-es.pdf',
+      pt: '/docs/dongdonggurimoo-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/dongdonggurimoo-presentation-ru.pdf',
+      en: '/docs/dongdonggurimoo-presentation-en.pdf',
+      ko: '/docs/dongdonggurimoo-presentation-ko.pdf',
+      zh: '/docs/dongdonggurimoo-presentation-zh.pdf',
+      ja: '/docs/dongdonggurimoo-presentation-ja.pdf',
+      it: '/docs/dongdonggurimoo-presentation-it.pdf',
+      de: '/docs/dongdonggurimoo-presentation-de.pdf',
+      fr: '/docs/dongdonggurimoo-presentation-fr.pdf',
+      tr: '/docs/dongdonggurimoo-presentation-tr.pdf',
+      es: '/docs/dongdonggurimoo-presentation-es.pdf',
+      pt: '/docs/dongdonggurimoo-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: dongdongguriRu,
+      en: mk(dongEn as any),
+      ko: mk(dongKo as any),
+      zh: mk(dongZh as any),
+      ja: mk(dongJa as any),
+      it: mk(dongIt as any),
+      de: mk(dongDe as any),
+      fr: mk(dongFr as any),
+      tr: mk(dongTr as any),
+      es: mk(dongEs as any),
+      pt: mk(dongPt as any),
+    },
+  },
+  {
+    slug: 'ck-regeon',
+    category: 'cosmetics',
+    name: 'CK REGEON',
+    brand: 'DermaRegeon',
+    status: 'provided',
+    brandColors: { deep: '#10353f', sky: '#2e7d8f', accent: '#4fbfae', bg: '#eff7f7' },
+    termsFile: {
+      ru: '/docs/ck-regeon-terms-ru.pdf',
+      en: '/docs/ck-regeon-terms-en.pdf',
+      ko: '/docs/ck-regeon-terms-ko.pdf',
+      zh: '/docs/ck-regeon-terms-zh.pdf',
+      ja: '/docs/ck-regeon-terms-ja.pdf',
+      it: '/docs/ck-regeon-terms-it.pdf',
+      de: '/docs/ck-regeon-terms-de.pdf',
+      fr: '/docs/ck-regeon-terms-fr.pdf',
+      tr: '/docs/ck-regeon-terms-tr.pdf',
+      es: '/docs/ck-regeon-terms-es.pdf',
+      pt: '/docs/ck-regeon-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/ck-regeon-price-ru.pdf',
+      en: '/docs/ck-regeon-price-en.pdf',
+      ko: '/docs/ck-regeon-price-ko.pdf',
+      zh: '/docs/ck-regeon-price-zh.pdf',
+      ja: '/docs/ck-regeon-price-ja.pdf',
+      it: '/docs/ck-regeon-price-it.pdf',
+      de: '/docs/ck-regeon-price-de.pdf',
+      fr: '/docs/ck-regeon-price-fr.pdf',
+      tr: '/docs/ck-regeon-price-tr.pdf',
+      es: '/docs/ck-regeon-price-es.pdf',
+      pt: '/docs/ck-regeon-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/ck-regeon-presentation-ru.pdf',
+      en: '/docs/ck-regeon-presentation-en.pdf',
+      ko: '/docs/ck-regeon-presentation-ko.pdf',
+      zh: '/docs/ck-regeon-presentation-zh.pdf',
+      ja: '/docs/ck-regeon-presentation-ja.pdf',
+      it: '/docs/ck-regeon-presentation-it.pdf',
+      de: '/docs/ck-regeon-presentation-de.pdf',
+      fr: '/docs/ck-regeon-presentation-fr.pdf',
+      tr: '/docs/ck-regeon-presentation-tr.pdf',
+      es: '/docs/ck-regeon-presentation-es.pdf',
+      pt: '/docs/ck-regeon-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: ckRegeonRu,
+      en: mk(ckrEn as any),
+      ko: mk(ckrKo as any),
+      zh: mk(ckrZh as any),
+      ja: mk(ckrJa as any),
+      it: mk(ckrIt as any),
+      de: mk(ckrDe as any),
+      fr: mk(ckrFr as any),
+      tr: mk(ckrTr as any),
+      es: mk(ckrEs as any),
+      pt: mk(ckrPt as any),
     },
   },
 ];

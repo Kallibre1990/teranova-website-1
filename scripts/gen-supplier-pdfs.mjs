@@ -100,6 +100,21 @@ const SUPPLIERS = [
       ],
     },
   },
+  /* Newer suppliers ship their ru copy as <slug>.ru.json, so no inline ruTerms/ruPres. */
+  {
+    id: 'dongdonggurimoo', json: 'dongdonggurimoo', supplier: 'DONGDONGGURIMOO', brand: 'LEBELAGE · HEEYUL',
+    basis: 'Supply Price · ₩1,480 = $1',
+    colors: { deep: '#1f5945', sky: '#4e9c7f', bg: '#eef4f0', line: '#dde8e2' },
+    pres: true,
+    certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
+  },
+  {
+    id: 'ck-regeon', json: 'ck-regeon', supplier: 'CK REGEON', brand: 'DermaRegeon',
+    basis: 'EXW/FCA Korea',
+    colors: { deep: '#10353f', sky: '#2e7d8f', bg: '#eaf4f4', line: '#d5e6e6' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
@@ -123,7 +138,9 @@ const PRICE_H = {
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 function termsData(cfg, lang) {
-  if (lang === 'ru') return cfg.ruTerms;
+  /* Older suppliers keep their ru copy inline (ruTerms); newer ones ship a <slug>.ru.json
+     alongside the other locales, so every language reads the same way. */
+  if (lang === 'ru' && cfg.ruTerms) return cfg.ruTerms;
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   return { descriptor: j.content.descriptor, terms: j.content.terms, terms_h: j.ui.terms_h, terms_disc: j.ui.terms_disc };
 }
@@ -205,7 +222,7 @@ function priceHTML(cfg, lang, priceLines) {
 }
 
 function presData(cfg, lang) {
-  if (lang === 'ru') { const p = cfg.ruPres; return { ...p, certs: cfg.certs }; }
+  if (lang === 'ru' && cfg.ruPres) { const p = cfg.ruPres; return { ...p, certs: cfg.certs }; }
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   const c = j.content, u = j.ui;
   return {
@@ -248,7 +265,7 @@ function presHTML(cfg, lang) {
     <h2>${esc(d.ui.tech_h)}</h2>
     ${tech}
     <h2>${esc(d.ui.certs_h)}</h2>
-    <div>${tags(d.certs)}</div>
+    ${d.certs && d.certs.length ? `<div>${tags(d.certs)}</div>` : ''}
     <div class="note">${esc(d.certs_note)}</div>
     <h2>${esc(d.ui.formats_h)}</h2>
     <div>${tags(d.formats)}</div>
