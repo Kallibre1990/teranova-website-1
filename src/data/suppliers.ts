@@ -24,6 +24,16 @@ import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
+import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
+import dreamcosKo from './suppliers-i18n/dreamcos.ko.json';
+import dreamcosZh from './suppliers-i18n/dreamcos.zh.json';
+import dreamcosJa from './suppliers-i18n/dreamcos.ja.json';
+import dreamcosIt from './suppliers-i18n/dreamcos.it.json';
+import dreamcosDe from './suppliers-i18n/dreamcos.de.json';
+import dreamcosFr from './suppliers-i18n/dreamcos.fr.json';
+import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
+import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
+import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -292,6 +302,16 @@ export const suppliers: SupplierProfile[] = [
     certs: ['ISO 9001', 'ISO 22716 (GMP)', 'CPNP', 'CPSR', 'FSC'],
     i18n: {
       ru: dreamcosRu,
+      en: mk(dreamcosEn),
+      ko: mk(dreamcosKo),
+      zh: mk(dreamcosZh),
+      ja: mk(dreamcosJa),
+      it: mk(dreamcosIt),
+      de: mk(dreamcosDe),
+      fr: mk(dreamcosFr),
+      tr: mk(dreamcosTr),
+      es: mk(dreamcosEs),
+      pt: mk(dreamcosPt),
     },
   },
 ];
