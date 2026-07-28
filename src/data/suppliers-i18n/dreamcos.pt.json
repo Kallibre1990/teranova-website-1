@@ -1,0 +1,125 @@
+{
+  "content": {
+    "tagline": "Parceiro para levar sua marca de cosméticos ao mercado mundial",
+    "descriptor": "Grupo cosmético coreano: produção OEM/ODM e marcas próprias",
+    "origin": "Coreia",
+    "about": [
+      "A DREAMCOS é a empresa-mãe de um grupo cosmético coreano que reúne desenvolvimento, produção e lançamento de marcas no mercado internacional. O grupo inclui a fábrica OEM/ODM própria Atoz International e as divisões de marcas General Brands e Celebritykorea, cada uma com seu próprio portfólio de marcas.",
+      "O grupo opera como uma plataforma de ciclo completo: do desenvolvimento da fórmula e da amostra até a produção, embalagem, exportação e marketing. Os produtos são fornecidos a países da Ásia, América do Norte e Europa por meio de redes de varejo e marketplaces.",
+      "A empresa é reconhecida como exportadora em nível nacional e está entre as empresas promissoras da República da Coreia."
+    ],
+    "facts": [
+      "Grupo cosmético de ciclo completo",
+      "Fábrica OEM/ODM própria (Atoz International)",
+      "ISO 9001 · ISO 22716 (GMP)",
+      "Portfólio de 7 marcas",
+      "Exportação para Ásia, América e Europa"
+    ],
+    "channels": [
+      "Importadores e distribuidores de cosméticos",
+      "Redes de varejo e farmácias",
+      "Marketplaces e e-commerce",
+      "Lojas próprias e multimarcas"
+    ],
+    "lines": [
+      {
+        "name": "DUFT&DOFT",
+        "note": "Marca principal do grupo: cuidados perfumados para corpo, mãos e cabelo e perfumaria de nicho. Amplamente presente no varejo coreano (rede Olive Young)."
+      },
+      {
+        "name": "SALMON:LAB",
+        "note": "Cuidados regeneradores premium com PDRN à base de DNA de salmão: ampolas, séruns e cremes da linha VGENE, sistema de cuidados em cinco etapas."
+      },
+      {
+        "name": "RUDIA",
+        "note": "Cuidados funcionais para pele sensível com fórmulas ativas (glutationa, retinol, bakuchiol): séruns e cremes nutritivos. Relançamento da marca em 2026."
+      },
+      {
+        "name": "LOVELYCC",
+        "note": "Maquiagem acessível e proteção solar para o público jovem: CC creams, cushions, tints, sombras. Marca própria principal do grupo."
+      },
+      {
+        "name": "LADYBIZ",
+        "note": "Maquiagem: lip tints, sombras, cushion corretivos. Maquiagem estilosa e prática para o dia a dia."
+      },
+      {
+        "name": "NOLIE",
+        "note": "Cuidados corporais premium e produtos de higiene pessoal para o público jovem."
+      },
+      {
+        "name": "CAMIHOUSE",
+        "note": "Plataforma de varejo e aceleração do grupo para levar marcas de cosméticos a mercados internacionais, incluindo lojas físicas principais."
+      }
+    ],
+    "tech": [
+      {
+        "name": "OEM/ODM de ciclo completo",
+        "note": "Fábrica própria do grupo, Atoz International (Sejong): desenvolvimento, produção, embalagem. Amostras em 7–10 dias, até ~20 toneladas de produtos por dia, 7 linhas de embalagem."
+      },
+      {
+        "name": "PDRN de DNA de salmão",
+        "note": "Cosméticos regeneradores premium da marca SALMON:LAB (linha VGENE) à base de PDRN — polinucleotídeos derivados de DNA de salmão."
+      },
+      {
+        "name": "Desenvolvimento de perfumaria",
+        "note": "Expertise própria em cuidados perfumados para corpo e cabelo e em perfumaria de nicho (marcas DUFT&DOFT, NOLIE)."
+      }
+    ],
+    "formats": [
+      "Séruns e ampolas",
+      "Cremes e emulsões",
+      "Máscaras",
+      "CC creams e cushions",
+      "Tints, sombras, corretivos",
+      "Proteção solar",
+      "Perfume e brumas corporais",
+      "Cuidados capilares",
+      "Produtos de higiene"
+    ],
+    "exportNote": "Os produtos das marcas do grupo são fornecidos a países da Ásia, do Sudeste Asiático, da América do Norte e da Europa por meio de redes de varejo e marketplaces (incluindo Olive Young, Tmall, Amazon, iHerb, Qoo10, Shopee). Para os mercados da América Latina, os materiais são publicados por meio da Teranova.",
+    "terms": [
+      {
+        "label": "Formatos de cooperação",
+        "value": "Fornecimento no atacado de produtos acabados por marca; OEM/ODM — desenvolvimento e produção sob a marca do cliente."
+      },
+      {
+        "label": "Pedido mínimo",
+        "value": "A confirmar por marca e item na etapa do negócio."
+      },
+      {
+        "label": "Preços",
+        "value": "Faixa indicativa de atacado: SALMON:LAB em condições FOB, as demais marcas em condições EXW; preços exatos sob consulta."
+      },
+      {
+        "label": "Como funciona",
+        "value": "Solicitação → verificação e alinhamento pela Teranova → negociações e amostras → logística, alfândega e pagamento, chave na mão."
+      }
+    ],
+    "consentNote": "Os dados e materiais são fornecidos pelas empresas do grupo Dreamcos (General Brands, Inc. e Celebritykorea Corporation) e publicados com seu consentimento por escrito para os mercados da América Latina. Os contatos diretos do fabricante não são divulgados. A Teranova coordena e apoia o negócio.",
+    "seoTitle": "DREAMCOS — grupo cosmético coreano (OEM/ODM e marcas) · Teranova Group",
+    "seoDesc": "DREAMCOS é a empresa-mãe de um grupo cosmético coreano: fábrica OEM/ODM própria e as marcas DUFT&DOFT, SALMON:LAB, RUDIA, LOVELYCC, LADYBIZ, NOLIE. Fornecimento e apoio ao negócio através da Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem é:",
+    "lines_h": "Marcas do grupo",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Capacidades e tecnologias",
+    "products_h": "Produtos",
+    "products_note": "As marcas do grupo Dreamcos abrangem cuidados com a pele, maquiagem, proteção solar e cuidados perfumados para o corpo.",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "price_btn": "Baixar lista de preços (PDF)",
+    "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa do negócio via Teranova. Os contatos diretos do fabricante não são publicados.",
+    "cta_h": "Interessado neste fabricante?",
+    "cta_d": "Entre em contato — a Teranova organiza negociações, verificação e apoio ao negócio do primeiro contato até a entrega.",
+    "cta_btn": "Contato via Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações e registros",
+    "certs_note": "Declarado pela empresa. ISO 9001 e ISO 22716 (GMP) são registrados para a produção do grupo (Atoz International). Cópias dos documentos comprobatórios são fornecidas na etapa do negócio."
+  }
+}
