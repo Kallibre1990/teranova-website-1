@@ -1,0 +1,102 @@
+{
+  "content": {
+    "tagline": "Wissenschaftlich fundierte kosmetische Kopfhaut- und Haarpflege",
+    "descriptor": "Koreanisches Biotech-Unternehmen: Marken HAIRREGEON und HERIBON",
+    "origin": "Korea",
+    "about": [
+      "CK Regeon Inc. ist ein koreanisches Biotechnologieunternehmen, das 2016 in Seoul (Yonsei Engineering Research Park) gegründet wurde. Geleitet wird das Unternehmen von Professor Kang-Yell Choi, einem Wnt-Signalweg-Forscher mit über zwanzig Jahren wissenschaftlicher Erfahrung. Das kosmetische Markenportfolio des Unternehmens ist unter dem Namen DermaRegeon zusammengefasst.",
+      "Die Produkte basieren auf der unternehmenseigenen Technologie »WNT ON«: den Komponenten KY19382 und Hesperidin sowie dem Peptid PTD-DBM, die auf die Modulation des Wnt/β-catenin-Signalwegs über das Protein CXXC5 abzielen. Der Mechanismus ist in peer-reviewten wissenschaftlichen Publikationen beschrieben – im Journal of Investigative Dermatology (2017) und im British Journal of Pharmacology (2021).",
+      "Wichtig für eine korrekte Kommunikation: Die veröffentlichten Studien sind präklinischer Natur (Zellkulturen, ex vivo und Tiermodelle) und beschreiben den Wirkmechanismus der Komponenten, belegen jedoch nicht die klinische Wirksamkeit der fertigen Produkte. Die Produkte werden als kosmetische Kopfhaut- und Haarpflege positioniert."
+    ],
+    "facts": [
+      "Biotech-Unternehmen, gegründet 2016",
+      "Technologie »WNT ON« (CXXC5 / Wnt-Signalweg)",
+      "Publikationen in JID (2017) und BJP (2021)",
+      "Zwei Marken: HAIRREGEON und HERIBON",
+      "Markteinführung der Kosmetikmarken – 2025"
+    ],
+    "channels": [
+      "Importeure und Vertriebspartner für Kosmetik",
+      "Apotheken- und Fachhandelsketten",
+      "Salons und trichologische Studios",
+      "Marktplätze und E-Commerce"
+    ],
+    "lines": [
+      {
+        "name": "HAIRREGEON",
+        "note": "Professionelle Intensivpflegelinie für die Kopfhaut. Flaggschiff ist der PTD-DBM Hair Booster: ein Zweikomponenten-Set (lyophilisiertes Pulver und Lösungsmittel), Packung mit fünf Sets."
+      },
+      {
+        "name": "HERIBON",
+        "note": "Vierstufige »WNT ON«-Pflegelinie für die tägliche Anwendung zu Hause: Shampoo (500 ml), Scalp Scaler (300 ml), Haarpflegemaske (250 ml) und Kopfhauttonikum (50 ml)."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Technologie »WNT ON«",
+        "note": "Eigenentwicklung des Unternehmens auf Basis der Komponenten KY19382 und Hesperidin, die auf die Modulation des Wnt/β-catenin-Signalwegs über das Protein CXXC5 abzielen."
+      },
+      {
+        "name": "Peptid PTD-DBM",
+        "note": "Komponente der professionellen HAIRREGEON-Linie. Der Mechanismus der kompetitiven CXXC5-Bindung ist in der Publikation Journal of Investigative Dermatology (2017) auf präklinischer Ebene beschrieben."
+      },
+      {
+        "name": "Wissenschaftliche Basis",
+        "note": "Die Mechanismusstudien wurden in peer-reviewten Fachzeitschriften veröffentlicht: Journal of Investigative Dermatology (2017) und British Journal of Pharmacology (2021). Die Arbeiten wurden an Zellkulturen, ex vivo und Tiermodellen durchgeführt."
+      }
+    ],
+    "formats": [
+      "Ampullen und Booster",
+      "Shampoos",
+      "Scalp Scaler (Kopfhautpeeling)",
+      "Masken und Haarpflege",
+      "Kopfhauttonika"
+    ],
+    "exportNote": "Das Unternehmen baut den internationalen Vertrieb der 2025 eingeführten Kosmetikmarken aus und nimmt an Branchenmessen in Asien teil. Gebiete, aktuelle Vertriebspartner und Marktbedingungen werden in der Verhandlungsphase über Teranova geklärt.",
+    "terms": [
+      {
+        "label": "Kooperationsformen",
+        "value": "Großhandelslieferungen fertiger Produkte der Marken HAIRREGEON und HERIBON."
+      },
+      {
+        "label": "Mindestbestellmenge",
+        "value": "HAIRREGEON – ab 5 Packungen. HERIBON – in Packungseinheiten je Artikel (Shampoo ab 20 Stück, Scaler und Maske ab 25 Stück, Tonikum ab 100 Stück)."
+      },
+      {
+        "label": "Preise",
+        "value": "Ungefähre Großhandelsspanne; HERIBON zu EXW/FOB Korea ab einer Bestellung von 10 000 USD, HAIRREGEON zu FCA. Genaue Preise auf Anfrage."
+      },
+      {
+        "label": "Ablauf der Zusammenarbeit",
+        "value": "Anfrage → Prüfung und Abstimmung durch Teranova → Verhandlungen und Muster → Logistik, Zoll und Zahlung als Komplettservice."
+      }
+    ],
+    "consentNote": "Die Angaben und Materialien wurden von CK Regeon Inc. bereitgestellt und werden mit ihrer schriftlichen Zustimmung unter Beibehaltung des ursprünglichen Inhalts veröffentlicht. Direkte Kontaktdaten des Herstellers werden nicht offengelegt. Teranova koordiniert und begleitet die Transaktion.",
+    "seoTitle": "CK Regeon – koreanische Kopfhautpflege · Teranova",
+    "seoDesc": "CK Regeon (DermaRegeon): koreanisches Biotech-Unternehmen, Marken HAIRREGEON und HERIBON, Technologie WNT ON – Kopfhaut- und Haarpflege. Lieferung über Teranova."
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen:",
+    "lines_h": "Marken des Unternehmens",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie und wissenschaftliche Basis",
+    "products_h": "Produkte",
+    "products_note": "Die Marken HAIRREGEON und HERIBON bieten kosmetische Kopfhaut- und Haarpflege.",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Kooperationsbedingungen",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "price_btn": "Preisliste herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Preise und Bedingungen sind unverbindlich und werden in der Verhandlungsphase über Teranova geklärt. Direkte Kontaktdaten des Herstellers werden nicht veröffentlicht. Die Produkte werden als kosmetische Mittel angeboten; die beschriebenen Studien betreffen den Wirkmechanismus der Komponenten und sind präklinischer Natur.",
+    "cta_h": "Interesse an diesem Hersteller?",
+    "cta_d": "Kontaktieren Sie uns – Teranova organisiert Verhandlungen, Prüfung und Begleitung der Transaktion vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifikate und Registrierungen",
+    "certs_note": "Angaben des Unternehmens. Kopien der Nachweisdokumente und Registrierungen werden in der Verhandlungsphase bereitgestellt. Eine Registrierung oder Listung stellt keine behördliche Zulassung dar."
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "line": "HAIRREGEON",
+    "items": [
+      { "name": "PTD-DBM Hair Booster (5 sets: Vial 1 powder 200 mg + Vial 2 diluent 5 ml)", "volume": "5 sets", "price": "160.00" }
+    ]
+  },
+  {
+    "line": "HERIBON (WNT ON)",
+    "items": [
+      { "name": "HERIBON WNT ON Shampoo", "volume": "500 ml", "price": "11.00" },
+      { "name": "HERIBON WNT ON Scalp Scaler", "volume": "300 ml", "price": "9.75" },
+      { "name": "HERIBON WNT ON Hair Treatment", "volume": "250 ml", "price": "9.75" },
+      { "name": "HERIBON WNT ON Hair Tonic", "volume": "50 ml", "price": "7.50" }
+    ]
+  }
+]

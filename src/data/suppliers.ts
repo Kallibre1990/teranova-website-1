@@ -34,6 +34,26 @@ import dreamcosFr from './suppliers-i18n/dreamcos.fr.json';
 import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
 import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
+import dongEn from './suppliers-i18n/dongdonggurimoo.en.json';
+import dongKo from './suppliers-i18n/dongdonggurimoo.ko.json';
+import dongZh from './suppliers-i18n/dongdonggurimoo.zh.json';
+import dongJa from './suppliers-i18n/dongdonggurimoo.ja.json';
+import dongIt from './suppliers-i18n/dongdonggurimoo.it.json';
+import dongDe from './suppliers-i18n/dongdonggurimoo.de.json';
+import dongFr from './suppliers-i18n/dongdonggurimoo.fr.json';
+import dongTr from './suppliers-i18n/dongdonggurimoo.tr.json';
+import dongEs from './suppliers-i18n/dongdonggurimoo.es.json';
+import dongPt from './suppliers-i18n/dongdonggurimoo.pt.json';
+import ckrEn from './suppliers-i18n/ck-regeon.en.json';
+import ckrKo from './suppliers-i18n/ck-regeon.ko.json';
+import ckrZh from './suppliers-i18n/ck-regeon.zh.json';
+import ckrJa from './suppliers-i18n/ck-regeon.ja.json';
+import ckrIt from './suppliers-i18n/ck-regeon.it.json';
+import ckrDe from './suppliers-i18n/ck-regeon.de.json';
+import ckrFr from './suppliers-i18n/ck-regeon.fr.json';
+import ckrTr from './suppliers-i18n/ck-regeon.tr.json';
+import ckrEs from './suppliers-i18n/ck-regeon.es.json';
+import ckrPt from './suppliers-i18n/ck-regeon.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -461,8 +481,57 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#1f5945', sky: '#4e9c7f', accent: '#d4a373', bg: '#f2f7f4' },
     certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
+    termsFile: {
+      ru: '/docs/dongdonggurimoo-terms-ru.pdf',
+      en: '/docs/dongdonggurimoo-terms-en.pdf',
+      ko: '/docs/dongdonggurimoo-terms-ko.pdf',
+      zh: '/docs/dongdonggurimoo-terms-zh.pdf',
+      ja: '/docs/dongdonggurimoo-terms-ja.pdf',
+      it: '/docs/dongdonggurimoo-terms-it.pdf',
+      de: '/docs/dongdonggurimoo-terms-de.pdf',
+      fr: '/docs/dongdonggurimoo-terms-fr.pdf',
+      tr: '/docs/dongdonggurimoo-terms-tr.pdf',
+      es: '/docs/dongdonggurimoo-terms-es.pdf',
+      pt: '/docs/dongdonggurimoo-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/dongdonggurimoo-price-ru.pdf',
+      en: '/docs/dongdonggurimoo-price-en.pdf',
+      ko: '/docs/dongdonggurimoo-price-ko.pdf',
+      zh: '/docs/dongdonggurimoo-price-zh.pdf',
+      ja: '/docs/dongdonggurimoo-price-ja.pdf',
+      it: '/docs/dongdonggurimoo-price-it.pdf',
+      de: '/docs/dongdonggurimoo-price-de.pdf',
+      fr: '/docs/dongdonggurimoo-price-fr.pdf',
+      tr: '/docs/dongdonggurimoo-price-tr.pdf',
+      es: '/docs/dongdonggurimoo-price-es.pdf',
+      pt: '/docs/dongdonggurimoo-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/dongdonggurimoo-presentation-ru.pdf',
+      en: '/docs/dongdonggurimoo-presentation-en.pdf',
+      ko: '/docs/dongdonggurimoo-presentation-ko.pdf',
+      zh: '/docs/dongdonggurimoo-presentation-zh.pdf',
+      ja: '/docs/dongdonggurimoo-presentation-ja.pdf',
+      it: '/docs/dongdonggurimoo-presentation-it.pdf',
+      de: '/docs/dongdonggurimoo-presentation-de.pdf',
+      fr: '/docs/dongdonggurimoo-presentation-fr.pdf',
+      tr: '/docs/dongdonggurimoo-presentation-tr.pdf',
+      es: '/docs/dongdonggurimoo-presentation-es.pdf',
+      pt: '/docs/dongdonggurimoo-presentation-pt.pdf',
+    },
     i18n: {
       ru: dongdongguriRu,
+      en: mk(dongEn as any),
+      ko: mk(dongKo as any),
+      zh: mk(dongZh as any),
+      ja: mk(dongJa as any),
+      it: mk(dongIt as any),
+      de: mk(dongDe as any),
+      fr: mk(dongFr as any),
+      tr: mk(dongTr as any),
+      es: mk(dongEs as any),
+      pt: mk(dongPt as any),
     },
   },
   {
@@ -472,8 +541,57 @@ export const suppliers: SupplierProfile[] = [
     brand: 'DermaRegeon',
     status: 'provided',
     brandColors: { deep: '#10353f', sky: '#2e7d8f', accent: '#4fbfae', bg: '#eff7f7' },
+    termsFile: {
+      ru: '/docs/ck-regeon-terms-ru.pdf',
+      en: '/docs/ck-regeon-terms-en.pdf',
+      ko: '/docs/ck-regeon-terms-ko.pdf',
+      zh: '/docs/ck-regeon-terms-zh.pdf',
+      ja: '/docs/ck-regeon-terms-ja.pdf',
+      it: '/docs/ck-regeon-terms-it.pdf',
+      de: '/docs/ck-regeon-terms-de.pdf',
+      fr: '/docs/ck-regeon-terms-fr.pdf',
+      tr: '/docs/ck-regeon-terms-tr.pdf',
+      es: '/docs/ck-regeon-terms-es.pdf',
+      pt: '/docs/ck-regeon-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/ck-regeon-price-ru.pdf',
+      en: '/docs/ck-regeon-price-en.pdf',
+      ko: '/docs/ck-regeon-price-ko.pdf',
+      zh: '/docs/ck-regeon-price-zh.pdf',
+      ja: '/docs/ck-regeon-price-ja.pdf',
+      it: '/docs/ck-regeon-price-it.pdf',
+      de: '/docs/ck-regeon-price-de.pdf',
+      fr: '/docs/ck-regeon-price-fr.pdf',
+      tr: '/docs/ck-regeon-price-tr.pdf',
+      es: '/docs/ck-regeon-price-es.pdf',
+      pt: '/docs/ck-regeon-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/ck-regeon-presentation-ru.pdf',
+      en: '/docs/ck-regeon-presentation-en.pdf',
+      ko: '/docs/ck-regeon-presentation-ko.pdf',
+      zh: '/docs/ck-regeon-presentation-zh.pdf',
+      ja: '/docs/ck-regeon-presentation-ja.pdf',
+      it: '/docs/ck-regeon-presentation-it.pdf',
+      de: '/docs/ck-regeon-presentation-de.pdf',
+      fr: '/docs/ck-regeon-presentation-fr.pdf',
+      tr: '/docs/ck-regeon-presentation-tr.pdf',
+      es: '/docs/ck-regeon-presentation-es.pdf',
+      pt: '/docs/ck-regeon-presentation-pt.pdf',
+    },
     i18n: {
       ru: ckRegeonRu,
+      en: mk(ckrEn as any),
+      ko: mk(ckrKo as any),
+      zh: mk(ckrZh as any),
+      ja: mk(ckrJa as any),
+      it: mk(ckrIt as any),
+      de: mk(ckrDe as any),
+      fr: mk(ckrFr as any),
+      tr: mk(ckrTr as any),
+      es: mk(ckrEs as any),
+      pt: mk(ckrPt as any),
     },
   },
 ];

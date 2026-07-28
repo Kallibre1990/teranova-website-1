@@ -81,6 +81,8 @@ const CATS = {
 const SUPPLIERS = {
   sante: { eyebrow: 'Supplier profile', title: 'SANTE COSMETICS · Dr.SANTE — Korean aesthetic skincare' },
   dreamcos: { eyebrow: 'Supplier profile', title: 'DREAMCOS — Korean K-beauty group (OEM/ODM & brands)', accent: '#c9a15f' },
+  dongdonggurimoo: { eyebrow: 'Supplier profile', title: 'LEBELAGE & HEEYUL — Korean cosmetics by DONGDONGGURIMOO', accent: '#4e9c7f' },
+  'ck-regeon': { eyebrow: 'Supplier profile', title: 'CK REGEON — Korean scalp & hair care science', accent: '#4fbfae' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
