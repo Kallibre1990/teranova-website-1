@@ -298,7 +298,7 @@ export const suppliers: SupplierProfile[] = [
     name: 'DREAMCOS',
     brand: 'Dreamcos Group',
     status: 'provided',
-    brandColors: { deep: '#9d2b63', sky: '#e56aa0', accent: '#ffa63d', bg: '#fdf2f7' },
+    brandColors: { deep: '#23232b', sky: '#3a3a44', accent: '#c9a15f', bg: '#f7f5f2' },
     certs: ['ISO 9001', 'ISO 22716 (GMP)', 'CPNP', 'CPSR', 'FSC'],
     i18n: {
       ru: dreamcosRu,
