@@ -35,7 +35,7 @@ export const en: UIDict = {
   },
 
   meta: {
-    home_title: 'Verified Korean manufacturers — Teranova Group',
+    home_title: 'Verified Korean manufacturers · Teranova',
     home_desc:
       'We find, verify and support supply from Korean factories to your warehouse: cosmetics & care (OEM/ODM), medical & aesthetics, marine supply, industrial equipment, commercial & special vehicles.',
   },
@@ -297,7 +297,7 @@ export const en: UIDict = {
       ],
       cta_title: 'Launch your cosmetics from Korea',
       cta_body: 'Tell us what you want to produce or buy — we’ll find the factory, verify it and run the deal. The initial consultation and sourcing are free.',
-      seo_title: 'Korean cosmetics manufacturer — OEM/ODM private label for your brand — Teranova',
+      seo_title: 'Korean cosmetics manufacturer OEM/ODM · Teranova',
       seo_desc:
         'Contract cosmetics manufacturing in Korea: private label, OEM/ODM under your brand, negotiable MOQ, support with registration for your market (ANVISA, FDA, EU 1223/2009).',
     },

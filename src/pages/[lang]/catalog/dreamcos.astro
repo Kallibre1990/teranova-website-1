@@ -18,6 +18,6 @@ const c = supplierContent(profile, lang);
 const jsonLd = supplierJsonLd(lang, profile);
 ---
 
-<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} jsonLd={jsonLd}>
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
   <SupplierProfile lang={lang} profile={profile} />
 </Base>

@@ -29,7 +29,7 @@ const fr: DeepPartial<UIDict> = {
   },
 
   meta: {
-    home_title: "Teranova Group — fabricants coréens vérifiés et accompagnement complet des transactions",
+    home_title: "Fabricants coréens vérifiés · Teranova",
     home_desc:
       "Nous trouvons, vérifions et accompagnons les approvisionnements depuis les usines coréennes jusqu'à votre entrepôt : cosmétiques et soins (OEM/ODM), médical et esthétique, avitaillement maritime, équipements industriels, véhicules commerciaux et spéciaux.",
   },
@@ -269,7 +269,7 @@ const fr: DeepPartial<UIDict> = {
       ],
       cta_title: "Lancez vos cosmétiques depuis la Corée",
       cta_body: "Décrivez ce que vous souhaitez produire ou acheter — nous trouvons l'usine, la vérifions et menons la transaction. La consultation initiale et le sourcing sont gratuits.",
-      seo_title: "Fabricant coréen de cosmétiques — OEM/ODM private label sous votre marque — Teranova",
+      seo_title: "Fabricant coréen de cosmétiques OEM/ODM · Teranova",
       seo_desc:
         "Fabrication à façon de cosmétiques en Corée : private label, OEM/ODM sous votre marque, MOQ négociable, accompagnement de l'enregistrement pour votre marché (ANVISA, FDA, EU 1223/2009).",
     },

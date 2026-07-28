@@ -14,6 +14,6 @@ const { lang } = Astro.props as { lang: Lang };
 const t = ui[lang];
 ---
 
-<Base lang={lang} path="/thanks" title={`${t.thanks.title} — Teranova Group`} description={t.thanks.body} noindex>
+<Base lang={lang} path="/thanks" title={`${t.thanks.title} · Teranova`} description={t.thanks.body} noindex>
   <CenteredNotice icon="check" title={t.thanks.title} body={t.thanks.body} backHref={localizePath('/', lang)} backLabel={t.thanks.back} />
 </Base>

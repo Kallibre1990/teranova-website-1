@@ -13,6 +13,6 @@ const { lang } = Astro.props as { lang: Lang };
 const p = ui[lang].pages.blog;
 ---
 
-<Base lang={lang} path="/blog" title={`${p.title} — Teranova Group`} description={p.sub} jsonLd={blogJsonLd(lang)}>
+<Base lang={lang} path="/blog" title={`${p.title} · Teranova`} description={p.sub} jsonLd={blogJsonLd(lang)}>
   <BlogIndex lang={lang} />
 </Base>

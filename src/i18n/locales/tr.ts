@@ -29,7 +29,7 @@ const tr: DeepPartial<UIDict> = {
   },
 
   meta: {
-    home_title: "Teranova Group — doğrulanmış Koreli üreticiler ve uçtan uca tedarik desteği",
+    home_title: "Doğrulanmış Koreli üreticiler · Teranova",
     home_desc:
       "Koreli fabrikalardan deponuza kadar tedariki buluyor, doğruluyor ve destekliyoruz: kozmetik ve bakım (OEM/ODM), tıp ve estetik, denizcilik tedariki, endüstriyel ekipman, ticari ve özel araçlar.",
   },
@@ -251,7 +251,7 @@ const tr: DeepPartial<UIDict> = {
       ],
       cta_title: "Kozmetiğinizi Kore'den başlatın",
       cta_body: "Neyi üretmek ya da satın almak istediğinizi bize anlatın — fabrikayı bulur, doğrular ve anlaşmayı yürütürüz. İlk danışmanlık ve tedarik ücretsizdir.",
-      seo_title: "Koreli kozmetik üreticisi — kendi markanız için OEM/ODM private label — Teranova",
+      seo_title: "Koreli kozmetik üreticisi OEM/ODM · Teranova",
       seo_desc:
         "Kore'de kozmetik fason üretimi: private label, kendi markanız altında OEM/ODM, müzakere edilebilir MOQ, pazarınıza kayıt için destek (ANVISA, FDA, EU 1223/2009).",
     },

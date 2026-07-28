@@ -14,6 +14,6 @@ const description = c.seoDesc;
 const jsonLd = supplierJsonLd(lang, profile);
 ---
 
-<Base lang={lang} path={`/catalog/${profile.slug}`} title={title} description={description} jsonLd={jsonLd}>
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={title} description={description} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
   <SupplierProfile lang={lang} profile={profile} />
 </Base>

@@ -16,6 +16,6 @@ const { lang, post } = Astro.props as { lang: Lang; post: BlogPost };
 const c = postContent(post, lang);
 ---
 
-<Base lang={lang} path={`/blog/${post.slug}`} title={c.seoTitle} description={c.seoDesc} jsonLd={blogPostJsonLd(lang, post)}>
+<Base lang={lang} path={`/blog/${post.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-blog-${post.slug}.png`} jsonLd={blogPostJsonLd(lang, post)}>
   <BlogPostView lang={lang} post={post} />
 </Base>

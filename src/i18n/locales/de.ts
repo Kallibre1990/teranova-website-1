@@ -29,7 +29,7 @@ const de: DeepPartial<UIDict> = {
   },
 
   meta: {
-    home_title: "Teranova Group — geprüfte koreanische Hersteller und durchgängige Begleitung Ihrer Lieferungen",
+    home_title: "Geprüfte koreanische Hersteller · Teranova",
     home_desc:
       "Wir finden, prüfen und begleiten Lieferungen von koreanischen Werken bis zu Ihrem Lager: Kosmetik & Pflege (OEM/ODM), Medizin & Ästhetik, Schiffsausrüstung, Industrieausrüstung, Nutz- und Spezialfahrzeuge.",
   },
@@ -251,7 +251,7 @@ const de: DeepPartial<UIDict> = {
       ],
       cta_title: "Starten Sie Ihre Kosmetik aus Korea",
       cta_body: "Sagen Sie uns, was Sie produzieren oder einkaufen möchten — wir finden das Werk, prüfen es und führen das Geschäft. Erstberatung und Beschaffung sind kostenlos.",
-      seo_title: "Koreanischer Kosmetikhersteller — OEM/ODM private label für Ihre Marke — Teranova",
+      seo_title: "Koreanischer Kosmetikhersteller OEM/ODM · Teranova",
       seo_desc:
         "Auftragsfertigung von Kosmetik in Korea: private label, OEM/ODM unter Ihrer Marke, verhandelbare MOQ, Unterstützung bei der Registrierung für Ihren Markt (ANVISA, FDA, EU 1223/2009).",
     },

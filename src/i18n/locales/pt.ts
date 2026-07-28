@@ -35,7 +35,7 @@ export const pt: UIDict = {
   },
 
   meta: {
-    home_title: 'Fabricantes coreanos verificados — Teranova Group',
+    home_title: 'Fabricantes coreanos verificados · Teranova',
     home_desc:
       'Encontramos, verificamos e acompanhamos o fornecimento das fábricas coreanas até o seu armazém: cosméticos e cuidados (OEM/ODM), medicina e estética, suprimento naval, equipamentos industriais, veículos comerciais e especiais.',
   },
@@ -297,7 +297,7 @@ export const pt: UIDict = {
       ],
       cta_title: 'Lance os seus cosméticos a partir da Coreia',
       cta_body: 'Conte o que você quer produzir ou comprar — encontramos a fábrica, verificamos e conduzimos a operação. A consulta inicial e a busca são gratuitas.',
-      seo_title: 'Fabricante coreano de cosméticos OEM/ODM para sua marca — Teranova',
+      seo_title: 'Fabricante coreano de cosméticos OEM/ODM · Teranova',
       seo_desc:
         'Fabricação de cosméticos por contrato na Coreia: marca própria, OEM/ODM sob a sua marca, MOQ negociável, apoio com registro para o seu mercado (ANVISA, FDA, UE 1223/2009).',
     },

@@ -12,10 +12,11 @@ interface Props {
   path: string;
   title: string;
   description: string;
+  image?: string;
   jsonLd?: object | object[];
   noindex?: boolean;
 }
-const { lang, path, title, description, jsonLd, noindex } = Astro.props;
+const { lang, path, title, description, image, jsonLd, noindex } = Astro.props;
 const t = ui[lang];
 // Pages are index/follow by default (every locale is indexed); only pages that
 // explicitly pass noindex (e.g. /thanks, /404) are excluded.
@@ -25,7 +26,7 @@ const noindexResolved = noindex ?? !isVerified(lang);
 <!doctype html>
 <html lang={t.htmlLang}>
   <head>
-    <BaseHead lang={lang} path={path} title={title} description={description} jsonLd={jsonLd} noindex={noindexResolved} />
+    <BaseHead lang={lang} path={path} title={title} description={description} image={image} jsonLd={jsonLd} noindex={noindexResolved} />
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>

@@ -16,6 +16,6 @@ const { lang, page } = Astro.props as { lang: Lang; page: SLP };
 const c = linePageContent(page, lang);
 ---
 
-<Base lang={lang} path={`/catalog/sante/${page.slug}`} title={c.seoTitle} description={c.seoDesc} jsonLd={supplierLineJsonLd(lang, page)}>
+<Base lang={lang} path={`/catalog/sante/${page.slug}`} title={c.seoTitle} description={c.seoDesc} image="/brand/og-sante.png" jsonLd={supplierLineJsonLd(lang, page)}>
   <SupplierLinePage lang={lang} page={page} />
 </Base>
