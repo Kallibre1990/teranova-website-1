@@ -69,3 +69,6 @@ const metaDescription =
      in Base.astro — no Google Fonts CDN. Korean falls back to system Hangul fonts. -->
 
 {jsonLdList.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />)}
+
+{/* Cloudflare Web Analytics — privacy-first, cookieless; token for teranovagroup.com. */}
+<script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "3d8966ff00d34174af6da18473789f80"}'></script>
