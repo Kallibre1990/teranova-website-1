@@ -688,5 +688,25 @@
         "price": "5.07"
       }
     ]
+  },
+  {
+    "line": "NOLIE",
+    "items": [
+      {
+        "name": "Body & wellness care",
+        "volume": "",
+        "price": "REQUEST"
+      },
+      {
+        "name": "Personal & intimate hygiene",
+        "volume": "",
+        "price": "REQUEST"
+      },
+      {
+        "name": "Perfumed body mist",
+        "volume": "",
+        "price": "REQUEST"
+      }
+    ]
   }
 ]

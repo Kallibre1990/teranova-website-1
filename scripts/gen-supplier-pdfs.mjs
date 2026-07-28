@@ -175,7 +175,9 @@ function priceHTML(cfg, lang, priceLines) {
   for (const grp of priceLines) {
     body += `<tr class="grp"><td colspan="3">${esc(grp.line)}</td></tr>`;
     for (const it of grp.items) {
-      body += `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume)}</td><td class="pr">$${esc(it.price)}</td></tr>`;
+      const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta' };
+      const priceCell = it.price === 'REQUEST' ? `<span class="req">${esc(REQ[lang])}</span>` : `$${esc(it.price)}`;
+      body += `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume)}</td><td class="pr">${priceCell}</td></tr>`;
     }
   }
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
@@ -187,6 +189,7 @@ function priceHTML(cfg, lang, priceLines) {
     td.nm { color: #222b38; }
     td.vol { color: #5b6675; white-space: nowrap; }
     td.pr { text-align: right; color: ${C.deep}; font-weight: 700; white-space: nowrap; }
+    td.pr .req { font-weight: 600; font-size: 10px; color: #8a8a8a; font-style: italic; }
   </style></head><body>
     <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${cfg.supplier} · ${cfg.brand} · ${cfg.basis}</span></div>
     <hr class="top">

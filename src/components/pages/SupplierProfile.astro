@@ -10,6 +10,7 @@ import { ui, type Lang } from '../../i18n/ui';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import { postsBySupplier, postContent } from '../../data/blog';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
+import dreamcosLogo from '../../assets/suppliers/dreamcos-logo.png';
 import santeHero from '../../assets/suppliers/sante/hero-serum.png';
 import santeProducts from '../../assets/suppliers/sante/products.jpg';
 import santeDrops from '../../assets/suppliers/sante/drops.jpg';
@@ -21,7 +22,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { sante: santeLogo };
+const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
