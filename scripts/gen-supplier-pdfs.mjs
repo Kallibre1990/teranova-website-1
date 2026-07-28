@@ -31,25 +31,46 @@ const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
 const LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt'];
 
-/* Language-neutral brand bits */
-const SUPPLIER = 'SANTE COSMETICS';
-const BRAND = 'Dr.SANTE';
 const SIGN = 'Teranova Group · info@teranovagroup.com · teranovagroup.com · 2026';
-const COLORS = { deep: '#12306e', sky: '#4ca6fc', bg: '#f3f8ff', line: '#e6ebf3' };
 
-/* ru terms — mirror of src/data/suppliers.ts `santeRu` (keep in sync). */
-const RU_TERMS = {
-  descriptor: 'Профессиональная эстетическая косметика из Кореи',
-  terms_h: 'Условия сотрудничества',
-  terms_disc:
-    'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются. Документ не является публичной офертой.',
-  terms: [
-    { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции; OEM/ODM — собственная разработка и производство.' },
-    { label: 'Минимальный заказ', value: 'Ориентировочно от $4 000 на первый заказ; небольшие партии по отдельным позициям.' },
-    { label: 'Цены', value: 'Ориентировочный оптовый диапазон FOB; точные цены — по запросу на стадии сделки.' },
-    { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
-  ],
-};
+/* Per-supplier config. `id` = file prefix (public/docs/<id>-<terms|price>-<lang>.pdf),
+   `json` = data prefix in suppliers-i18n (<json>.<lang>.json + <json>.price.json).
+   ru terms mirror src/data/suppliers.ts <slug>Ru (keep in sync). Run one supplier with
+   `node scripts/gen-supplier-pdfs.mjs <id>`, or all when no arg. */
+const SUPPLIERS = [
+  {
+    id: 'sante', json: 'sante', supplier: 'SANTE COSMETICS', brand: 'Dr.SANTE', basis: 'FOB Korea',
+    colors: { deep: '#12306e', sky: '#4ca6fc', bg: '#f3f8ff', line: '#e6ebf3' },
+    ruTerms: {
+      descriptor: 'Профессиональная эстетическая косметика из Кореи',
+      terms_h: 'Условия сотрудничества',
+      terms_disc:
+        'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются. Документ не является публичной офертой.',
+      terms: [
+        { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции; OEM/ODM — собственная разработка и производство.' },
+        { label: 'Минимальный заказ', value: 'Ориентировочно от $4 000 на первый заказ; небольшие партии по отдельным позициям.' },
+        { label: 'Цены', value: 'Ориентировочный оптовый диапазон FOB; точные цены — по запросу на стадии сделки.' },
+        { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
+      ],
+    },
+  },
+  {
+    id: 'dreamcos', json: 'dreamcos', supplier: 'DREAMCOS', brand: 'K-beauty', basis: 'EXW/FOB Korea',
+    colors: { deep: '#23232b', sky: '#a9843f', bg: '#f4f1ec', line: '#e7e2d9' },
+    ruTerms: {
+      descriptor: 'Корейская косметическая группа: OEM/ODM-производство и собственные бренды',
+      terms_h: 'Условия сотрудничества',
+      terms_disc:
+        'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются. Документ не является публичной офертой.',
+      terms: [
+        { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции по брендам; OEM/ODM — разработка и производство под маркой заказчика.' },
+        { label: 'Минимальный заказ', value: 'Уточняется по бренду и позиции на стадии сделки.' },
+        { label: 'Цены', value: 'Ориентировочный оптовый диапазон: SALMON:LAB — на условиях FOB, остальные бренды — EXW; точные цены по запросу.' },
+        { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
+      ],
+    },
+  },
+];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
    good PDFs; ja/zh headings are restored to the intended standard terms (the old PDFs
@@ -69,47 +90,46 @@ const PRICE_H = {
   pt: { title: 'Lista de preços indicativa', product: 'Produto', volume: 'Volume', price: 'Atacado' },
 };
 
-const priceLines = JSON.parse(fs.readFileSync(path.join(DATA, 'sante.price.json'), 'utf8'));
-
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-function termsData(lang) {
-  if (lang === 'ru') return RU_TERMS;
-  const j = JSON.parse(fs.readFileSync(path.join(DATA, `sante.${lang}.json`), 'utf8'));
+function termsData(cfg, lang) {
+  if (lang === 'ru') return cfg.ruTerms;
+  const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   return { descriptor: j.content.descriptor, terms: j.content.terms, terms_h: j.ui.terms_h, terms_disc: j.ui.terms_disc };
 }
 
 const FONT = "'Noto Sans CJK JP','Noto Sans CJK SC','Noto Sans CJK KR','Hiragino Sans','PingFang SC','Apple SD Gothic Neo','Helvetica Neue',Arial,sans-serif";
 
-const baseCSS = `
+const baseCSS = (C) => `
   @page { size: A4; margin: 16mm 16mm 14mm; }
   * { box-sizing: border-box; }
   body { font-family: ${FONT}; color: #1c2430; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .hd { display: flex; justify-content: space-between; align-items: baseline; }
-  .hd .b { font-weight: 800; letter-spacing: .06em; color: ${COLORS.deep}; font-size: 15px; }
-  .hd .r { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: ${COLORS.sky}; font-weight: 700; }
-  hr.top { border: 0; border-top: 2px solid ${COLORS.deep}; margin: 8px 0 20px; }
-  h1 { color: ${COLORS.deep}; font-size: 25px; font-weight: 800; margin: 0 0 4px; }
+  .hd .b { font-weight: 800; letter-spacing: .06em; color: ${C.deep}; font-size: 15px; }
+  .hd .r { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: ${C.sky}; font-weight: 700; }
+  hr.top { border: 0; border-top: 2px solid ${C.deep}; margin: 8px 0 20px; }
+  h1 { color: ${C.deep}; font-size: 25px; font-weight: 800; margin: 0 0 4px; }
   .sub { color: #6b7583; font-size: 12px; margin: 0 0 20px; }
   .disc { color: #98a1ad; font-size: 10px; line-height: 1.55; margin-top: 16px; }
   .sign { color: #6b7583; font-size: 10px; font-weight: 700; margin-top: 8px; }
 `;
 
-function termsHTML(lang) {
-  const d = termsData(lang);
+function termsHTML(cfg, lang) {
+  const C = cfg.colors;
+  const d = termsData(cfg, lang);
   const rows = d.terms
     .map(
       (t) => `<div class="row"><div class="lab">${esc(t.label)}</div><div class="val">${esc(t.value)}</div></div>`
     )
     .join('');
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS}
-    .row { display: grid; grid-template-columns: 32% 1fr; gap: 18px; padding: 12px 0; border-bottom: 1px solid ${COLORS.line}; }
-    .lab { font-weight: 700; color: ${COLORS.deep}; font-size: 12.5px; }
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+    .row { display: grid; grid-template-columns: 32% 1fr; gap: 18px; padding: 12px 0; border-bottom: 1px solid ${C.line}; }
+    .lab { font-weight: 700; color: ${C.deep}; font-size: 12.5px; }
     .val { color: #2c3542; font-size: 12.5px; line-height: 1.5; }
   </style></head><body>
     <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${esc(d.terms_h)}</span></div>
     <hr class="top">
-    <h1>${SUPPLIER} · ${BRAND}</h1>
+    <h1>${cfg.supplier} · ${cfg.brand}</h1>
     <div class="sub">${esc(d.descriptor)}</div>
     ${rows}
     <div class="disc">${esc(d.terms_disc)}</div>
@@ -117,9 +137,10 @@ function termsHTML(lang) {
   </body></html>`;
 }
 
-function priceHTML(lang) {
+function priceHTML(cfg, lang, priceLines) {
+  const C = cfg.colors;
   const h = PRICE_H[lang];
-  const disc = termsData(lang).terms_disc;
+  const disc = termsData(cfg, lang).terms_disc;
   let body = '';
   for (const grp of priceLines) {
     body += `<tr class="grp"><td colspan="3">${esc(grp.line)}</td></tr>`;
@@ -127,20 +148,20 @@ function priceHTML(lang) {
       body += `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume)}</td><td class="pr">$${esc(it.price)}</td></tr>`;
     }
   }
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS}
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
     table { width: 100%; border-collapse: collapse; }
-    thead th { background: ${COLORS.bg}; color: ${COLORS.deep}; font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; font-weight: 700; text-align: left; padding: 9px 10px; }
+    thead th { background: ${C.bg}; color: ${C.deep}; font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; font-weight: 700; text-align: left; padding: 9px 10px; }
     thead th.pr { text-align: right; }
-    tr.grp td { background: #eef4ff; color: ${COLORS.deep}; font-weight: 800; font-size: 12px; padding: 8px 10px; border-top: 1px solid ${COLORS.line}; }
+    tr.grp td { background: ${C.bg}; color: ${C.deep}; font-weight: 800; font-size: 12px; padding: 8px 10px; border-top: 1px solid ${C.line}; }
     tbody td { font-size: 11px; padding: 6px 10px; border-bottom: 1px solid #eef1f6; }
     td.nm { color: #222b38; }
     td.vol { color: #5b6675; white-space: nowrap; }
-    td.pr { text-align: right; color: ${COLORS.deep}; font-weight: 700; white-space: nowrap; }
+    td.pr { text-align: right; color: ${C.deep}; font-weight: 700; white-space: nowrap; }
   </style></head><body>
-    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${SUPPLIER} · ${BRAND} · FOB Korea</span></div>
+    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${cfg.supplier} · ${cfg.brand} · ${cfg.basis}</span></div>
     <hr class="top">
     <h1>${esc(h.title)}</h1>
-    <div class="sub">${SUPPLIER} · ${BRAND}</div>
+    <div class="sub">${cfg.supplier} · ${cfg.brand}</div>
     <table>
       <thead><tr><th>${esc(h.product)}</th><th>${esc(h.volume)}</th><th class="pr">${esc(h.price)}, USD</th></tr></thead>
       <tbody>${body}</tbody>
@@ -181,12 +202,20 @@ async function toPDF(html, outfile) {
 }
 function hash(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return h; }
 
+const only = process.argv[2]; // optional supplier id filter
+const targets = only ? SUPPLIERS.filter((s) => s.id === only) : SUPPLIERS;
+if (only && targets.length === 0) { console.error(`Unknown supplier id: ${only}`); process.exit(1); }
+
 let n = 0;
-for (const lang of LANGS) {
-  await toPDF(termsHTML(lang), path.join(OUT, `sante-terms-${lang}.pdf`));
-  await toPDF(priceHTML(lang), path.join(OUT, `sante-price-${lang}.pdf`));
-  n += 2;
-  process.stdout.write(`  ${lang} `);
+for (const cfg of targets) {
+  const priceLines = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.price.json`), 'utf8'));
+  process.stdout.write(`\n${cfg.id}:`);
+  for (const lang of LANGS) {
+    await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
+    await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
+    n += 2;
+    process.stdout.write(` ${lang}`);
+  }
 }
 fs.rmSync(PROF, { recursive: true, force: true });
 console.log(`\nГотово: ${n} PDF в ${path.relative(ROOT, OUT)}/`);

@@ -300,6 +300,18 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#23232b', sky: '#3a3a44', accent: '#c9a15f', bg: '#f7f5f2' },
     certs: ['ISO 9001', 'ISO 22716 (GMP)', 'CPNP', 'CPSR', 'FSC'],
+    termsFile: {
+      ru: '/docs/dreamcos-terms-ru.pdf', en: '/docs/dreamcos-terms-en.pdf', ko: '/docs/dreamcos-terms-ko.pdf',
+      zh: '/docs/dreamcos-terms-zh.pdf', ja: '/docs/dreamcos-terms-ja.pdf', it: '/docs/dreamcos-terms-it.pdf',
+      de: '/docs/dreamcos-terms-de.pdf', fr: '/docs/dreamcos-terms-fr.pdf', tr: '/docs/dreamcos-terms-tr.pdf',
+      es: '/docs/dreamcos-terms-es.pdf', pt: '/docs/dreamcos-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/dreamcos-price-ru.pdf', en: '/docs/dreamcos-price-en.pdf', ko: '/docs/dreamcos-price-ko.pdf',
+      zh: '/docs/dreamcos-price-zh.pdf', ja: '/docs/dreamcos-price-ja.pdf', it: '/docs/dreamcos-price-it.pdf',
+      de: '/docs/dreamcos-price-de.pdf', fr: '/docs/dreamcos-price-fr.pdf', tr: '/docs/dreamcos-price-tr.pdf',
+      es: '/docs/dreamcos-price-es.pdf', pt: '/docs/dreamcos-price-pt.pdf',
+    },
     i18n: {
       ru: dreamcosRu,
       en: mk(dreamcosEn),
