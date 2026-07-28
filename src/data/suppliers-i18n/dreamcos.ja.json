@@ -120,6 +120,7 @@
     "more": "プロフィールを開く →",
     "verified_suppliers": "検証済みサプライヤー",
     "certs_h": "認証・登録",
-    "certs_note": "会社提供の情報です。ISO 9001およびISO 22716(GMP)はグループの生産拠点(Atoz International)に対して取得されています。証明書類の写しは取引段階で提供されます。"
+    "certs_note": "会社提供の情報です。ISO 9001およびISO 22716(GMP)はグループの生産拠点(Atoz International)に対して取得されています。証明書類の写しは取引段階で提供されます。",
+    "pres_btn": "会社案内をダウンロード (PDF)"
   }
 }

@@ -57,6 +57,7 @@ export interface SupplierUI {
   terms_h?: string;
   download_btn?: string;
   price_btn?: string;
+  pres_btn?: string;
   terms_disc?: string;
   cta_h: string;
   cta_d: string;
@@ -99,6 +100,7 @@ export interface SupplierProfile {
   /* Downloadable terms sheet (per language, path under /public). */
   termsFile?: Partial<Record<Lang, string>>;
   priceFile?: Partial<Record<Lang, string>>;
+  presFile?: Partial<Record<Lang, string>>;
   i18n: Partial<Record<Lang, SupplierContent>>;
 }
 
@@ -170,6 +172,7 @@ const santeRu: SupplierContent = {
     terms_h: 'Условия сотрудничества',
     download_btn: 'Скачать условия (PDF)',
     price_btn: 'Скачать прайс-лист (PDF)',
+    pres_btn: 'Скачать презентацию (PDF)',
     terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются.',
     cta_h: 'Заинтересовал этот производитель?',
     cta_d: 'Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
@@ -238,6 +241,7 @@ const dreamcosRu: SupplierContent = {
     terms_h: 'Условия сотрудничества',
     download_btn: 'Скачать условия (PDF)',
     price_btn: 'Скачать прайс-лист (PDF)',
+    pres_btn: 'Скачать презентацию (PDF)',
     terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются.',
     cta_h: 'Заинтересовал этот производитель?',
     cta_d: 'Свяжитесь с нами — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
@@ -311,6 +315,12 @@ export const suppliers: SupplierProfile[] = [
       zh: '/docs/dreamcos-price-zh.pdf', ja: '/docs/dreamcos-price-ja.pdf', it: '/docs/dreamcos-price-it.pdf',
       de: '/docs/dreamcos-price-de.pdf', fr: '/docs/dreamcos-price-fr.pdf', tr: '/docs/dreamcos-price-tr.pdf',
       es: '/docs/dreamcos-price-es.pdf', pt: '/docs/dreamcos-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/dreamcos-presentation-ru.pdf', en: '/docs/dreamcos-presentation-en.pdf', ko: '/docs/dreamcos-presentation-ko.pdf',
+      zh: '/docs/dreamcos-presentation-zh.pdf', ja: '/docs/dreamcos-presentation-ja.pdf', it: '/docs/dreamcos-presentation-it.pdf',
+      de: '/docs/dreamcos-presentation-de.pdf', fr: '/docs/dreamcos-presentation-fr.pdf', tr: '/docs/dreamcos-presentation-tr.pdf',
+      es: '/docs/dreamcos-presentation-es.pdf', pt: '/docs/dreamcos-presentation-pt.pdf',
     },
     i18n: {
       ru: dreamcosRu,

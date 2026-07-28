@@ -29,6 +29,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
 const priceHref = profile.priceFile?.[lang] ?? profile.priceFile?.ru;
+const presHref = profile.presFile?.[lang] ?? profile.presFile?.ru;
 const lineSlugMap: Record<string, string> = { 'Azulene Soother': 'azulene-soother', 'Artemisia AKA': 'artemisia-aka', 'Collagen Leader': 'collagen-leader', 'Hyalquad Core': 'hyalquad-core' };
 const lineHref = (nm: string): string | null => {
   const slug = lineSlugMap[nm];
@@ -233,6 +234,12 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
             <a class="sp-terms__dl sp-terms__dl--alt" href={priceHref} download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
               {c.ui.price_btn}
+            </a>
+          )}
+          {presHref && c.ui.pres_btn && (
+            <a class="sp-terms__dl sp-terms__dl--alt" href={presHref} download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+              {c.ui.pres_btn}
             </a>
           )}
         </div>

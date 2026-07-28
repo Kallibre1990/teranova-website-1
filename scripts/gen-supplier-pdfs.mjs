@@ -57,6 +57,36 @@ const SUPPLIERS = [
   {
     id: 'dreamcos', json: 'dreamcos', supplier: 'DREAMCOS', brand: 'K-beauty', basis: 'EXW/FOB Korea',
     colors: { deep: '#23232b', sky: '#a9843f', bg: '#f4f1ec', line: '#e7e2d9' },
+    pres: true,
+    certs: ['ISO 9001', 'ISO 22716 (GMP)', 'CPNP', 'CPSR', 'FSC'],
+    ruPres: {
+      tagline: 'Партнёр для вывода косметического бренда на мировой рынок',
+      descriptor: 'Корейская косметическая группа: OEM/ODM-производство и собственные бренды',
+      about: [
+        'DREAMCOS — головная компания корейской косметической группы, которая объединяет разработку, производство и вывод брендов на международный рынок. В группу входят собственный OEM/ODM-завод Atoz International и бренд-подразделения General Brands и Celebritykorea, каждое со своим портфелем марок.',
+        'Группа работает как платформа полного цикла: от разработки формулы и образца до производства, упаковки, экспорта и маркетинга. Продукция поставляется в страны Азии, Северной Америки и Европы через розничные сети и маркетплейсы.',
+        'Компания отмечена как экспортёр на национальном уровне и входит в число перспективных предприятий Республики Корея.',
+      ],
+      facts: ['Косметическая группа полного цикла', 'Собственный OEM/ODM-завод (Atoz International)', 'ISO 9001 · ISO 22716 (GMP)', 'Портфель из 7 брендов', 'Экспорт в Азию, Америку и Европу'],
+      lines: [
+        { name: 'DUFT&DOFT', note: 'Флагманский бренд группы: парфюмированный уход за телом, руками и волосами и нишевый парфюм. Широко представлен в корейской рознице (сеть Olive Young).' },
+        { name: 'SALMON:LAB', note: 'Премиальный восстанавливающий уход с PDRN на основе ДНК лосося: ампулы, сыворотки и кремы линии VGENE, пятиступенчатая система ухода.' },
+        { name: 'RUDIA', note: 'Функциональный уход для чувствительной кожи с активными формулами (глутатион, ретинол, бакучиол): сыворотки и питательные кремы. Перезапуск бренда в 2026 году.' },
+        { name: 'LOVELYCC', note: 'Доступная декоративная косметика и солнцезащита для молодой аудитории: CC-кремы, кушоны, тинты, тени. Флагманский собственный бренд группы.' },
+        { name: 'LADYBIZ', note: 'Декоративная косметика: лип-тинты, тени, кушон-консилеры. Стильный и практичный макияж на каждый день.' },
+        { name: 'NOLIE', note: 'Премиальный уход за телом и средства личной гигиены для молодой аудитории.' },
+        { name: 'CAMIHOUSE', note: 'Розничная и акселерирующая платформа группы для вывода косметических брендов на зарубежные рынки, включая флагманские офлайн-магазины.' },
+      ],
+      tech: [
+        { name: 'OEM/ODM полного цикла', note: 'Собственный завод группы Atoz International (Седжон): разработка, производство, упаковка. Образцы за 7–10 дней, до ~20 тонн продукции в сутки, 7 линий упаковки.' },
+        { name: 'PDRN на ДНК лосося', note: 'Премиальная восстанавливающая косметика бренда SALMON:LAB (линия VGENE) на основе PDRN — полинуклеотидов из ДНК лосося.' },
+        { name: 'Парфюмерная разработка', note: 'Собственная экспертиза в парфюмированном уходе за телом и волосами и нишевом парфюме (бренды DUFT&DOFT, NOLIE).' },
+      ],
+      formats: ['Сыворотки и ампулы', 'Кремы и эмульсии', 'Маски', 'CC-кремы и кушоны', 'Тинты, тени, консилеры', 'Солнцезащита', 'Парфюм и мисты для тела', 'Уход за волосами', 'Средства гигиены'],
+      exportNote: 'Продукция брендов группы поставляется в страны Азии, Юго-Восточной Азии, Северной Америки и Европы через розничные сети и маркетплейсы (в том числе Olive Young, Tmall, Amazon, iHerb, Qoo10, Shopee). Для рынков Латинской Америки материалы публикуются через Teranova.',
+      certs_note: 'Заявлено компанией. ISO 9001 и ISO 22716 (GMP) оформлены на производство группы (Atoz International). Копии подтверждающих документов предоставляются на стадии сделки.',
+      ui: { about_h: 'О компании', lines_h: 'Бренды группы', tech_h: 'Возможности и технологии', formats_h: 'Форматы продукции', export_h: 'Экспорт и рынки', certs_h: 'Сертификаты и регистрации' },
+    },
     ruTerms: {
       descriptor: 'Корейская косметическая группа: OEM/ODM-производство и собственные бренды',
       terms_h: 'Условия сотрудничества',
@@ -171,6 +201,61 @@ function priceHTML(cfg, lang, priceLines) {
   </body></html>`;
 }
 
+function presData(cfg, lang) {
+  if (lang === 'ru') { const p = cfg.ruPres; return { ...p, certs: cfg.certs }; }
+  const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
+  const c = j.content, u = j.ui;
+  return {
+    tagline: c.tagline, descriptor: c.descriptor, about: c.about, facts: c.facts, lines: c.lines,
+    tech: c.tech, formats: c.formats, exportNote: c.exportNote, certs: cfg.certs, certs_note: u.certs_note,
+    ui: { about_h: u.about_h, lines_h: u.lines_h, tech_h: u.tech_h, formats_h: u.formats_h, export_h: u.export_h, certs_h: u.certs_h },
+  };
+}
+
+function presHTML(cfg, lang) {
+  const C = cfg.colors;
+  const d = presData(cfg, lang);
+  const disc = termsData(cfg, lang).terms_disc;
+  const tags = (arr) => arr.map((t) => `<span class="tag">${esc(t)}</span>`).join('');
+  const about = d.about.map((p) => `<p>${esc(p)}</p>`).join('');
+  const lines = d.lines.map((l) => `<div class="card"><div class="cn">${esc(l.name)}</div><div class="cd">${esc(l.note)}</div></div>`).join('');
+  const tech = d.tech.map((t) => `<div class="trow"><div class="tn">${esc(t.name)}</div><div class="td">${esc(t.note)}</div></div>`).join('');
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+    h2 { color: ${C.deep}; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; margin: 18px 0 8px; padding-bottom: 4px; border-bottom: 1px solid ${C.line}; }
+    p { margin: 5px 0; font-size: 11.5px; line-height: 1.55; color: #2c3542; }
+    .tag { display: inline-block; background: ${C.bg}; color: ${C.deep}; font-weight: 700; font-size: 10px; padding: 3px 10px; border-radius: 20px; margin: 0 5px 5px 0; }
+    .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 4px; }
+    .card { border: 1px solid ${C.line}; border-radius: 7px; padding: 9px 11px; break-inside: avoid; }
+    .cn { font-weight: 800; color: ${C.deep}; font-size: 12px; letter-spacing: .02em; margin-bottom: 3px; }
+    .cd { font-size: 10px; color: #444d5a; line-height: 1.45; }
+    .trow { padding: 7px 0; border-bottom: 1px solid ${C.line}; break-inside: avoid; }
+    .tn { font-weight: 700; color: ${C.deep}; font-size: 11.5px; }
+    .td { font-size: 10.5px; color: #444d5a; line-height: 1.45; }
+    .note { color: #98a1ad; font-size: 9.5px; line-height: 1.5; margin-top: 5px; }
+  </style></head><body>
+    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${cfg.supplier} · ${cfg.brand}</span></div>
+    <hr class="top">
+    <h1>${cfg.supplier}</h1>
+    <div class="sub"><i>${esc(d.tagline)}</i> — ${esc(d.descriptor)}</div>
+    <div>${tags(d.facts)}</div>
+    <h2>${esc(d.ui.about_h)}</h2>
+    ${about}
+    <h2>${esc(d.ui.lines_h)}</h2>
+    <div class="cards">${lines}</div>
+    <h2>${esc(d.ui.tech_h)}</h2>
+    ${tech}
+    <h2>${esc(d.ui.certs_h)}</h2>
+    <div>${tags(d.certs)}</div>
+    <div class="note">${esc(d.certs_note)}</div>
+    <h2>${esc(d.ui.formats_h)}</h2>
+    <div>${tags(d.formats)}</div>
+    <h2>${esc(d.ui.export_h)}</h2>
+    <p>${esc(d.exportNote)}</p>
+    <div class="disc">${esc(disc)}</div>
+    <div class="sign">${SIGN}</div>
+  </body></html>`;
+}
+
 const PROF = fs.mkdtempSync(path.join(os.tmpdir(), 'spdf-prof-'));
 const CHROME_ARGS = [
   '--headless', '--disable-gpu', '--no-pdf-header-footer', '--no-first-run',
@@ -214,6 +299,7 @@ for (const cfg of targets) {
     await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
     await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
     n += 2;
+    if (cfg.pres) { await toPDF(presHTML(cfg, lang), path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`)); n += 1; }
     process.stdout.write(` ${lang}`);
   }
 }
