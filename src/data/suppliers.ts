@@ -24,6 +24,7 @@ import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
+import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
 import dreamcosKo from './suppliers-i18n/dreamcos.ko.json';
@@ -338,6 +339,7 @@ const dongdongguriRu: SupplierContent = {
    (MoCRA listing is not FDA approval), no claims of treating hair loss, no injectable/MTS
    use, and the published research is preclinical (cells, ex vivo, animal models). */
 const ckRegeonRu: SupplierContent = {
+  catalog_notes: ["Профессиональный двухкомпонентный набор для интенсивного косметического ухода за кожей головы: флакон с лиофилизированным порошком и флакон-растворитель на основе пептида PTD-DBM. Помогает поддерживать ощущение плотности и ухоженности волос. Упаковка — 5 наборов.", "Ежедневный шампунь линии «WNT ON» для бережного очищения кожи головы и волос. Освежает, поддерживает ощущение чистоты и лёгкости. Объём 500 мл.", "Скальп-скалер (пилинг) для глубокого очищения кожи головы от загрязнений и излишков себума перед основным уходом. Объём 300 мл.", "Уход-маска для волос линии «WNT ON»: смягчает, увлажняет и облегчает расчёсывание, придаёт волосам ощущение плотности. Объём 250 мл.", "Несмываемый тоник для кожи головы линии «WNT ON» в удобном флаконе-капельнице для ежедневного ухода. Освежает и увлажняет кожу головы. Объём 50 мл."],
   tagline: 'Косметический уход за кожей головы и волосами на научной основе',
   descriptor: 'Корейская биотех-компания: бренды HAIRREGEON и HERIBON',
   origin: 'Корея',
@@ -547,6 +549,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'DermaRegeon',
     status: 'provided',
     brandColors: { deep: '#10353f', sky: '#2e7d8f', accent: '#4fbfae', bg: '#eff7f7' },
+    catalog: ckRegeonCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/ck-regeon-terms-ru.pdf',
       en: '/docs/ck-regeon-terms-en.pdf',

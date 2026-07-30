@@ -17,6 +17,9 @@ import santeDrops from '../../assets/suppliers/sante/drops.jpg';
 import ddgHero from '../../assets/suppliers/dongdonggurimoo/hero.jpg';
 import ddgProducts from '../../assets/suppliers/dongdonggurimoo/products.jpg';
 import ddgDrops from '../../assets/suppliers/dongdonggurimoo/drops.jpg';
+import ckrHero from '../../assets/suppliers/ck-regeon/hero.jpg';
+import ckrProducts from '../../assets/suppliers/ck-regeon/products.jpg';
+import ckrDrops from '../../assets/suppliers/ck-regeon/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -30,6 +33,7 @@ const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
   dongdonggurimoo: { hero: ddgHero, products: ddgProducts, drops: ddgDrops },
+  'ck-regeon': { hero: ckrHero, products: ckrProducts, drops: ckrDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
