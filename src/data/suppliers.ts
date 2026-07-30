@@ -23,6 +23,7 @@ import santeTr from './suppliers-i18n/sante.tr.json';
 import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
+import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
 import dreamcosKo from './suppliers-i18n/dreamcos.ko.json';
@@ -274,6 +275,8 @@ const dreamcosRu: SupplierContent = {
 };
 
 const dongdongguriRu: SupplierContent = {
+  catalog_notes: ["Ампула с коллагеном для упругости и увлажнения кожи, 30 мл.", "Ампула с керамидами для укрепления защитного барьера и увлажнения кожи, 30 мл.", "Ампула с центеллой (CICA) для успокоения чувствительной кожи, 30 мл.", "Ампула с витамином C для сияния и выравнивания тона кожи, 30 мл.", "Концентрированная ампула с центеллой и мадекассосидом для успокоения и тонуса кожи, 35 мл.", "Питательный крем с центеллой и мадекассосидом для смягчения и восстановления кожи, 55 мл.", "Тонер с центеллой и мадекассосидом для очищения и увлажнения кожи, 120 мл.", "Ампула с прополисом, миррой и центеллой для питания и увлажнения кожи, 15 мл.", "Сыворотка с липосомным комплексом центеллы (80 000 ppm) для успокоения кожи, 35 мл.", "Сыворотка с липосомным ретинолом (10 000 ppm) для обновления и упругости кожи, 35 мл.", "Сыворотка с пантенолом (100 000 ppm) для увлажнения и восстановления кожи, 35 мл.", "Сыворотка с липосомным глутатионом (80 000 ppm) для сияния кожи, 35 мл.", "Компактный солнцезащитный крем SPF50+ PA++++ в удобном дорожном формате, 40 мл.", "Солнцезащитный стик SPF50 широкого спектра UVA+UVB, 20 г.", "Очищающая пенка с муцином улитки для мягкого ежедневного умывания, 100 мл.", "Набор ухода с центеллой: тонер, эмульсия, ампула и крем.", "Набор из 10 ампул с прополисом и центеллой, по 15 мл каждая."],
+
   tagline: 'Широкая линейка корейской косметики под двумя собственными брендами',
   descriptor: 'Корейская косметическая компания: бренды LEBELAGE и HEEYUL',
   origin: 'Корея',
@@ -480,6 +483,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'LEBELAGE · HEEYUL',
     status: 'provided',
     brandColors: { deep: '#1f5945', sky: '#4e9c7f', accent: '#d4a373', bg: '#f2f7f4' },
+    catalog: dongdonggurimooCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
     termsFile: {
       ru: '/docs/dongdonggurimoo-terms-ru.pdf',
