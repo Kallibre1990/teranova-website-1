@@ -65,7 +65,7 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
           <p class="sp-tagline">«{c.tagline}»</p>
           <p class="sp-descriptor">{c.descriptor}</p>
           <div class="sp-meta">
-            <span class="sp-status"><span class="dot" aria-hidden="true"></span>{t.verify.card_provided_t}</span>
+            <span class={`sp-status${profile.status === 'visited' ? ' sp-status--visited' : ''}`}><span class="dot" aria-hidden="true"></span>{profile.status === 'visited' ? t.verify.card_visited_t : t.verify.card_provided_t}{profile.status === 'visited' && profile.visitDate ? ` · ${profile.visitDate}` : ''}</span>
             <span class="sp-origin">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
               {c.origin}
@@ -364,6 +364,8 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     color: #9a6a12; background: #f7efd9; border: 1px solid #e9d8ad; border-radius: 100px; padding: 6px 14px;
   }
   .sp-status .dot { width: 7px; height: 7px; border-radius: 50%; background: #9a6a12; }
+  .sp-status--visited { color: #0f6a4f; background: #e6f5ef; border-color: #bce3d4; }
+  .sp-status--visited .dot { background: #15916c; }
   .sp-origin { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; font-weight: 600; color: #45576f; }
 
   .sp-hero__art { display: grid; place-items: center; }
