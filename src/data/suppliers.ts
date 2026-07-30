@@ -24,6 +24,8 @@ import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
+import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
+import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
 import dreamcosKo from './suppliers-i18n/dreamcos.ko.json';
@@ -214,6 +216,7 @@ const santeRu: SupplierContent = {
    (own OEM/ODM factory, ISO 9001 / ISO 22716 GMP). No product photos yet — the
    profile runs on text blocks; catalog(photos) intentionally omitted. */
 const dreamcosRu: SupplierContent = {
+  catalog_notes: ["Парфюмированный крем для рук флагманского бренда группы DUFT&DOFT; 6 ароматов на выбор.", "Парфюмированный крем для рук с укреплением водного барьера кожи; 6 ароматов.", "Парфюмированный мист для тела; 7 ароматов на выбор.", "Ароматический мист для волос и тела линии Fine Fragrance; 4 аромата.", "Парфюмированный лосьон для тела; 5 ароматов на выбор.", "Парфюмированный гель для душа; 4 аромата на выбор.", "Расслабляющий спа-гель для душа; 3 аромата на выбор.", "Парфюмированный скраб для тела линии Signature; 4 аромата.", "Парфюмированный пилинг-мист для тела с ароматом Apple Sophy.", "Парфюмированный шампунь для волос линии Enriched Perfume.", "Парфюмированный кондиционер для волос с ароматом Sophy Sophy.", "Парфюмированный тоник для кожи головы с кофеином линии Signature.", "Сыворотка с глутатионом для сияния и выравнивания тона кожи.", "Восстанавливающая сыворотка с бакучиолом (растительная альтернатива ретинолу).", "Очищающая сыворотка для ухода за порами.", "Сыворотка с экстрактом свёклы и ягод для свежести кожи; лимитированный выпуск.", "Питательный крем с пантенолом линии Crown для интенсивного питания кожи.", "Витаминная ампула с морковью линии Crown для сияния кожи.", "Успокаивающая ампула с мадекассосидом (центелла) линии Crown.", "Восстанавливающая ампула с коллагеном и EGF-комплексом линии Crown.", "Солнцезащитный кушон с эссенцией и эффектом тон-ап, SPF50+ PA+++.", "CC-крем с покрытием и солнцезащитой SPF50+ PA+++.", "Палетка теней для век на 9 оттенков.", "Консилер для маскировки несовершенств.", "Компактные румяна Sweet Candy.", "Ухаживающее масло для губ; 3 оттенка на выбор.", "Кушон-консилер с солнцезащитой SPF50+ PA+++ линии City Girl.", "Солнцезащитный крем с эффектом тон-ап и PDRN, SPF50+ PA++++.", "Глянцевый тинт для губ линии City Girl.", "Ароматизированный гель для душа линии Fresh Flash.", "Средство для интимной гигиены с ампульным концентратом; 2 варианта.", "Твёрдый парфюмированный бальзам для тела."],
   tagline: 'Партнёр для вывода косметического бренда на мировой рынок',
   descriptor: 'Корейская косметическая группа: OEM/ODM-производство и собственные бренды',
   origin: 'Корея',
@@ -338,6 +341,7 @@ const dongdongguriRu: SupplierContent = {
    (MoCRA listing is not FDA approval), no claims of treating hair loss, no injectable/MTS
    use, and the published research is preclinical (cells, ex vivo, animal models). */
 const ckRegeonRu: SupplierContent = {
+  catalog_notes: ["Профессиональный двухкомпонентный набор для интенсивного косметического ухода за кожей головы: флакон с лиофилизированным порошком и флакон-растворитель на основе пептида PTD-DBM. Помогает поддерживать ощущение плотности и ухоженности волос. Упаковка — 5 наборов.", "Ежедневный шампунь линии «WNT ON» для бережного очищения кожи головы и волос. Освежает, поддерживает ощущение чистоты и лёгкости. Объём 500 мл.", "Скальп-скалер (пилинг) для глубокого очищения кожи головы от загрязнений и излишков себума перед основным уходом. Объём 300 мл.", "Уход-маска для волос линии «WNT ON»: смягчает, увлажняет и облегчает расчёсывание, придаёт волосам ощущение плотности. Объём 250 мл.", "Несмываемый тоник для кожи головы линии «WNT ON» в удобном флаконе-капельнице для ежедневного ухода. Освежает и увлажняет кожу головы. Объём 50 мл."],
   tagline: 'Косметический уход за кожей головы и волосами на научной основе',
   descriptor: 'Корейская биотех-компания: бренды HAIRREGEON и HERIBON',
   origin: 'Корея',
@@ -444,6 +448,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'Dreamcos Group',
     status: 'provided',
     brandColors: { deep: '#23232b', sky: '#3a3a44', accent: '#c9a15f', bg: '#f7f5f2' },
+    catalog: dreamcosCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['ISO 9001', 'ISO 22716 (GMP)', 'CPNP', 'CPSR', 'FSC'],
     termsFile: {
       ru: '/docs/dreamcos-terms-ru.pdf', en: '/docs/dreamcos-terms-en.pdf', ko: '/docs/dreamcos-terms-ko.pdf',
@@ -547,6 +552,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'DermaRegeon',
     status: 'provided',
     brandColors: { deep: '#10353f', sky: '#2e7d8f', accent: '#4fbfae', bg: '#eff7f7' },
+    catalog: ckRegeonCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/ck-regeon-terms-ru.pdf',
       en: '/docs/ck-regeon-terms-en.pdf',

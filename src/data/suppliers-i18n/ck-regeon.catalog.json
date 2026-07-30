@@ -1,0 +1,47 @@
+[
+  {
+    "line": "HAIRREGEON",
+    "items": [
+      {
+        "name": "PTD-DBM Hair Booster",
+        "img": "/img/suppliers/ck-regeon/products/ptd-dbm-hair-booster.jpg",
+        "volume": "5 sets (Vial 1 powder 200 mg + Vial 2 diluent 5 ml)",
+        "price": "160.00",
+        "certs": []
+      }
+    ]
+  },
+  {
+    "line": "HERIBON (WNT ON)",
+    "items": [
+      {
+        "name": "HERIBON WNT ON Shampoo",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-shampoo.jpg",
+        "volume": "500 ml",
+        "price": "11.00",
+        "certs": []
+      },
+      {
+        "name": "HERIBON WNT ON Scalp Scaler",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-scalp-scaler.jpg",
+        "volume": "300 ml",
+        "price": "9.75",
+        "certs": []
+      },
+      {
+        "name": "HERIBON WNT ON Hair Treatment",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-hair-treatment.jpg",
+        "volume": "250 ml",
+        "price": "9.75",
+        "certs": []
+      },
+      {
+        "name": "HERIBON WNT ON Hair Tonic",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-hair-tonic.jpg",
+        "volume": "50 ml",
+        "price": "7.50",
+        "certs": []
+      }
+    ]
+  }
+]
