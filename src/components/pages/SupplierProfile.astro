@@ -131,7 +131,13 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
             const base = profile.catalog!.slice(0, gi).reduce((s, g) => s + g.items.length, 0);
             return (
               <div class="sp-catgrp">
-                <h3 class="sp-catgrp__nm">{grp.line}</h3>
+                <div class="sp-catgrp__head">
+                  <h3 class="sp-catgrp__nm">{grp.line}</h3>
+                  <div class="sp-catnav">
+                    <button class="sp-catnav__b" type="button" data-dir="-1" aria-label="Назад">‹</button>
+                    <button class="sp-catnav__b" type="button" data-dir="1" aria-label="Вперёд">›</button>
+                  </div>
+                </div>
                 <div class="sp-catgrp__grid">
                   {grp.items.map((it, ii) => {
                     const note = c.catalog_notes?.[base + ii];
@@ -314,6 +320,14 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !lb.hidden) close(); });
   }
+  document.querySelectorAll('.sp-catnav__b').forEach((b) => b.addEventListener('click', () => {
+    const grp = b.closest('.sp-catgrp');
+    const row = grp && grp.querySelector('.sp-catgrp__grid');
+    if (!row) return;
+    const card = row.querySelector('.sp-prod');
+    const step = card ? (card.getBoundingClientRect().width + 14) * 2 : row.clientWidth * 0.8;
+    row.scrollBy({ left: Number(b.getAttribute('data-dir')) * step, behavior: 'smooth' });
+  }));
 </script>
 
 <style>
@@ -380,10 +394,16 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-chips-inline li { font-size: 0.84rem; font-weight: 600; color: #45576f; background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #d4dde9); border-radius: 100px; padding: 6px 13px; }
 
   .sp-catalog { display: flex; flex-direction: column; gap: 24px; }
-  .sp-catgrp__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+  .sp-catgrp__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+  .sp-catgrp__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); margin: 0; display: flex; align-items: center; gap: 10px; }
   .sp-catgrp__nm::before { content: ''; width: 18px; height: 2px; background: var(--ds-sky); border-radius: 2px; }
-  .sp-catgrp__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(146px, 1fr)); gap: 14px; }
-  .sp-prod { display: flex; flex-direction: column; text-align: left; width: 100%; font: inherit; cursor: pointer; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s; }
+  .sp-catnav { display: flex; gap: 8px; flex: none; }
+  .sp-catnav__b { width: 34px; height: 34px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); background: #fff; color: var(--ds-deep); font-size: 1.25rem; line-height: 1; cursor: pointer; display: grid; place-items: center; transition: background .2s, transform .1s; }
+  .sp-catnav__b:hover { background: color-mix(in srgb, var(--ds-sky) 12%, #fff); }
+  .sp-catnav__b:active { transform: scale(0.92); }
+  .sp-catgrp__grid { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .sp-catgrp__grid::-webkit-scrollbar { display: none; }
+  .sp-prod { display: flex; flex-direction: column; text-align: left; flex: 0 0 clamp(190px, 58vw, 216px); scroll-snap-align: start; font: inherit; cursor: pointer; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s; }
   .sp-prod:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
   .sp-prod__ph { aspect-ratio: 1 / 1; background: #f7fafe; display: grid; place-items: center; padding: 10px; }
   .sp-prod__ph img { width: 100%; height: 100%; object-fit: contain; }
