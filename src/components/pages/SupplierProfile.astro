@@ -91,6 +91,22 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     </div>
   </section>
 
+  {profile.status === 'visited' && profile.visitGallery && profile.visitGallery.length > 0 && (
+    <section class="sp-sec sp-sec--tint">
+      <div class="wrap">
+        <span class="sp-lvl sp-lvl--visited">{t.verify.card_visited_t}{profile.visitDate ? ` · ${profile.visitDate}` : ''}</span>
+        <p class="sp-visit__note">{t.verify.card_visited_d}</p>
+        <div class="sp-visit">
+          {profile.visitGallery.map((src, i) => (
+            <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${t.verify.card_visited_t}`}>
+              <img src={src} alt={`${profile.name} — ${t.verify.card_visited_t} ${i + 1}`} loading="lazy" decoding="async" />
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- ABOUT -->
   <section class="sp-sec">
     <div class="wrap sp-narrow">
@@ -323,7 +339,7 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
     const cap = document.getElementById('spLbCap');
     const open = (src, name) => { img.setAttribute('src', src); img.setAttribute('alt', name || ''); cap.textContent = name || ''; lb.hidden = false; document.documentElement.style.overflow = 'hidden'; };
     const close = () => { lb.hidden = true; img.setAttribute('src', ''); document.documentElement.style.overflow = ''; };
-    document.querySelectorAll('.sp-prod').forEach((b) => b.addEventListener('click', () => open(b.getAttribute('data-full'), b.getAttribute('data-name'))));
+    document.querySelectorAll('.sp-prod, .sp-visit__i').forEach((b) => b.addEventListener('click', () => open(b.getAttribute('data-full'), b.getAttribute('data-name'))));
     lb.querySelector('.sp-lb__x').addEventListener('click', close);
     lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !lb.hidden) close(); });
@@ -424,6 +440,14 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-prod__certs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 9px; }
   .sp-prod__certs span { font-size: 0.62rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 2px 6px; }
   .sp-prod__price { margin-top: 10px; font-size: 0.82rem; font-weight: 800; color: var(--ds-sky); }
+
+  .sp-lvl--visited { color: #0f6a4f; }
+  .sp-visit__note { font-size: 0.92rem; color: #5a6a80; max-width: 74ch; margin: 6px 0 4px; line-height: 1.55; }
+  .sp-visit { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 14px; }
+  .sp-visit__i { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 14px; overflow: hidden; aspect-ratio: 4 / 3; box-shadow: 0 6px 18px color-mix(in srgb, var(--ds-deep) 14%, transparent); transition: transform .2s var(--ease); }
+  .sp-visit__i:hover { transform: translateY(-3px); }
+  .sp-visit__i img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  @media (max-width: 820px) { .sp-visit { grid-template-columns: repeat(2, 1fr); } }
 
   .sp-certs { display: flex; flex-wrap: wrap; gap: 9px; }
   .sp-certs li { font-size: 0.88rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); border-radius: 8px; padding: 8px 15px; }

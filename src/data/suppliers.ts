@@ -116,6 +116,7 @@ export interface SupplierProfile {
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
   visitDate?: string;
+  visitGallery?: string[];
   brandColors: { deep: string; sky: string; accent: string; bg: string };
   /* Real product catalog grouped by line, with photos, volume, price, certs. Language-neutral. */
   catalog?: { line: string; items: { name: string; img: string; volume?: string; price?: string; certs?: string[] }[] }[];
@@ -489,6 +490,16 @@ export const suppliers: SupplierProfile[] = [
     brand: 'LEBELAGE · HEEYUL',
     status: 'visited',
     visitDate: '2026-07-30',
+    visitGallery: [
+      '/img/suppliers/dongdonggurimoo/visit/visit-1.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-2.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-3.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-4.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-5.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-6.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-7.jpg',
+      '/img/suppliers/dongdonggurimoo/visit/visit-8.jpg',
+    ],
     brandColors: { deep: '#1f5945', sky: '#4e9c7f', accent: '#d4a373', bg: '#f2f7f4' },
     catalog: dongdonggurimooCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
