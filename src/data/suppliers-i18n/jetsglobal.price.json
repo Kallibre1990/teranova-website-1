@@ -1,0 +1,53 @@
+[
+  {
+    "line": "Professional Ampoule Line",
+    "items": [
+      { "name": "N20 Pigment Ampoule", "volume": "50 ml", "price": "12.07" },
+      { "name": "Niacinamide 20% Bright Shot Ampoule", "volume": "5 ml x 5", "price": "32.50" },
+      { "name": "Ectoin Calming Ampoule", "volume": "1 ml x 20", "price": "18.57" },
+      { "name": "Tenseloid Ampoule", "volume": "30 ml", "price": "12.07" },
+      { "name": "Tensioneal Solution Kit", "volume": "30 ml x 1 + 5 ml x 10 + 20 ml x 1 + roller", "price": "46.43" },
+      { "name": "La-Ma Peel Solution", "volume": "2 ml x 21", "price": "37.14" }
+    ]
+  },
+  {
+    "line": "Plant Placenta & Vita Care",
+    "items": [
+      { "name": "C5 Placenta Essence", "volume": "145 ml", "price": "13.93" },
+      { "name": "Placenta-Vita12 Intensive Cream Mask", "volume": "28 ml x 10", "price": "13.93" },
+      { "name": "Placenta 2X Intensive Cream", "volume": "50 ml", "price": "13.93" },
+      { "name": "Placenta V15 Shiny Ampoule", "volume": "5 ml x 10", "price": "27.86" }
+    ]
+  },
+  {
+    "line": "Concentrated Serums",
+    "items": [
+      { "name": "Brightening X5 Serum", "volume": "", "price": "REQUEST" },
+      { "name": "Whitening X5 Serum", "volume": "50 ml", "price": "13.93" },
+      { "name": "Stem Cell R5 Serum", "volume": "50 ml", "price": "13.93" },
+      { "name": "Retinol 3X Serum", "volume": "10 ml", "price": "10.21" },
+      { "name": "Retinol 3X Expert Duo Set", "volume": "30 ml x 1 + 10 ml x 2", "price": "29.71" }
+    ]
+  },
+  {
+    "line": "Creams & Everyday Care",
+    "items": [
+      { "name": "Tenseloid Cream", "volume": "20 ml", "price": "7.43" },
+      { "name": "Arbutin Triple Action Cream", "volume": "50 ml", "price": "REQUEST" },
+      { "name": "S7 Repair Cream", "volume": "100 ml", "price": "15.79" },
+      { "name": "W7 Whitening Cream", "volume": "100 ml", "price": "13.93" },
+      { "name": "Retinol 3X Cream", "volume": "30 ml", "price": "10.21" },
+      { "name": "Soothing Soft Milk Cleansing", "volume": "200 ml", "price": "12.07" },
+      { "name": "Antandea Mild Sun Cream", "volume": "50 g", "price": "9.29" }
+    ]
+  },
+  {
+    "line": "Mists & Body Care",
+    "items": [
+      { "name": "Repair Ampoule Cream Mist", "volume": "100 ml", "price": "12.07" },
+      { "name": "O2 Repair Ampoule Mist", "volume": "", "price": "REQUEST" },
+      { "name": "In Shower Tone-Up Body Cream", "volume": "200 ml", "price": "12.07" },
+      { "name": "In Shower Shining Tone-Up Body Cream", "volume": "300 ml", "price": "REQUEST" }
+    ]
+  }
+]

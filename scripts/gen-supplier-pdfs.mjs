@@ -115,6 +115,22 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* pres:false — the image-rich presentation is built separately (gen_pres_supplier.py);
+       this script only makes the branded terms + price sheets. */
+    id: 'jetsglobal', json: 'jetsglobal', supplier: 'JETSGLOBAL', brand: 'TOM-TIT-TOT',
+    basis: 'EXW Korea · order ≥ $3,000',
+    colors: { deep: '#2b2e3a', sky: '#8a6f45', bg: '#f5f3ef', line: '#e6e2da' },
+    pres: false,
+    certs: [],
+  },
+  {
+    id: 'pineworld', json: 'pineworld', supplier: 'PINE WORLD', brand: 'RAVIEL',
+    basis: 'FOB Korea',
+    colors: { deep: '#3d2c39', sky: '#9a6f85', bg: '#f8f2f5', line: '#ece1e6' },
+    pres: false,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
