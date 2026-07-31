@@ -649,6 +649,12 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#2b2e3a', sky: '#7a7f95', accent: '#c19a5b', bg: '#f5f3ef' },
     catalog: jetsglobalCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/jetsglobal-terms-ru.pdf', en: '/docs/jetsglobal-terms-en.pdf', ko: '/docs/jetsglobal-terms-ko.pdf', zh: '/docs/jetsglobal-terms-zh.pdf', ja: '/docs/jetsglobal-terms-ja.pdf', it: '/docs/jetsglobal-terms-it.pdf', de: '/docs/jetsglobal-terms-de.pdf', fr: '/docs/jetsglobal-terms-fr.pdf', tr: '/docs/jetsglobal-terms-tr.pdf', es: '/docs/jetsglobal-terms-es.pdf', pt: '/docs/jetsglobal-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/jetsglobal-price-ru.pdf', en: '/docs/jetsglobal-price-en.pdf', ko: '/docs/jetsglobal-price-ko.pdf', zh: '/docs/jetsglobal-price-zh.pdf', ja: '/docs/jetsglobal-price-ja.pdf', it: '/docs/jetsglobal-price-it.pdf', de: '/docs/jetsglobal-price-de.pdf', fr: '/docs/jetsglobal-price-fr.pdf', tr: '/docs/jetsglobal-price-tr.pdf', es: '/docs/jetsglobal-price-es.pdf', pt: '/docs/jetsglobal-price-pt.pdf',
+    },
     presFile: {
       ru: '/docs/jetsglobal-presentation-ru.pdf',
       en: '/docs/jetsglobal-presentation-en.pdf',
@@ -685,6 +691,12 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#3d2c39', sky: '#9a8290', accent: '#c68aa6', bg: '#f8f2f5' },
     catalog: pineworldCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/pineworld-terms-ru.pdf', en: '/docs/pineworld-terms-en.pdf', ko: '/docs/pineworld-terms-ko.pdf', zh: '/docs/pineworld-terms-zh.pdf', ja: '/docs/pineworld-terms-ja.pdf', it: '/docs/pineworld-terms-it.pdf', de: '/docs/pineworld-terms-de.pdf', fr: '/docs/pineworld-terms-fr.pdf', tr: '/docs/pineworld-terms-tr.pdf', es: '/docs/pineworld-terms-es.pdf', pt: '/docs/pineworld-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/pineworld-price-ru.pdf', en: '/docs/pineworld-price-en.pdf', ko: '/docs/pineworld-price-ko.pdf', zh: '/docs/pineworld-price-zh.pdf', ja: '/docs/pineworld-price-ja.pdf', it: '/docs/pineworld-price-it.pdf', de: '/docs/pineworld-price-de.pdf', fr: '/docs/pineworld-price-fr.pdf', tr: '/docs/pineworld-price-tr.pdf', es: '/docs/pineworld-price-es.pdf', pt: '/docs/pineworld-price-pt.pdf',
+    },
     presFile: {
       ru: '/docs/pineworld-presentation-ru.pdf',
       en: '/docs/pineworld-presentation-en.pdf',
