@@ -25,6 +25,7 @@ import santePt from './suppliers-i18n/sante.pt.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
 import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
+import jetsglobalCatalog from './suppliers-i18n/jetsglobal.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
@@ -57,6 +58,17 @@ import ckrFr from './suppliers-i18n/ck-regeon.fr.json';
 import ckrTr from './suppliers-i18n/ck-regeon.tr.json';
 import ckrEs from './suppliers-i18n/ck-regeon.es.json';
 import ckrPt from './suppliers-i18n/ck-regeon.pt.json';
+import jetsRu from './suppliers-i18n/jetsglobal.ru.json';
+import jetsEn from './suppliers-i18n/jetsglobal.en.json';
+import jetsKo from './suppliers-i18n/jetsglobal.ko.json';
+import jetsZh from './suppliers-i18n/jetsglobal.zh.json';
+import jetsJa from './suppliers-i18n/jetsglobal.ja.json';
+import jetsIt from './suppliers-i18n/jetsglobal.it.json';
+import jetsDe from './suppliers-i18n/jetsglobal.de.json';
+import jetsFr from './suppliers-i18n/jetsglobal.fr.json';
+import jetsTr from './suppliers-i18n/jetsglobal.tr.json';
+import jetsEs from './suppliers-i18n/jetsglobal.es.json';
+import jetsPt from './suppliers-i18n/jetsglobal.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -615,6 +627,42 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(ckrTr as any),
       es: mk(ckrEs as any),
       pt: mk(ckrPt as any),
+    },
+  },
+  {
+    slug: 'jetsglobal',
+    category: 'cosmetics',
+    name: 'JETSGLOBAL',
+    brand: 'TOM-TIT-TOT',
+    status: 'provided',
+    brandColors: { deep: '#2b2e3a', sky: '#7a7f95', accent: '#c19a5b', bg: '#f5f3ef' },
+    catalog: jetsglobalCatalog as { line: string; items: { name: string; img: string }[] }[],
+    presFile: {
+      ru: '/docs/jetsglobal-presentation-ru.pdf',
+      en: '/docs/jetsglobal-presentation-en.pdf',
+      ko: '/docs/jetsglobal-presentation-ko.pdf',
+      zh: '/docs/jetsglobal-presentation-zh.pdf',
+      ja: '/docs/jetsglobal-presentation-ja.pdf',
+      it: '/docs/jetsglobal-presentation-it.pdf',
+      de: '/docs/jetsglobal-presentation-de.pdf',
+      fr: '/docs/jetsglobal-presentation-fr.pdf',
+      tr: '/docs/jetsglobal-presentation-tr.pdf',
+      es: '/docs/jetsglobal-presentation-es.pdf',
+      pt: '/docs/jetsglobal-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(jetsRu as any),
+      en: mk(jetsEn as any),
+      ko: mk(jetsKo as any),
+      zh: mk(jetsZh as any),
+      ja: mk(jetsJa as any),
+      it: mk(jetsIt as any),
+      de: mk(jetsDe as any),
+      fr: mk(jetsFr as any),
+      tr: mk(jetsTr as any),
+      es: mk(jetsEs as any),
+      pt: mk(jetsPt as any),
     },
   },
 ];
