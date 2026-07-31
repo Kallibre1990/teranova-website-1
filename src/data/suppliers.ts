@@ -26,6 +26,7 @@ import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
 import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
 import jetsglobalCatalog from './suppliers-i18n/jetsglobal.catalog.json';
+import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
@@ -69,6 +70,17 @@ import jetsFr from './suppliers-i18n/jetsglobal.fr.json';
 import jetsTr from './suppliers-i18n/jetsglobal.tr.json';
 import jetsEs from './suppliers-i18n/jetsglobal.es.json';
 import jetsPt from './suppliers-i18n/jetsglobal.pt.json';
+import pineRu from './suppliers-i18n/pineworld.ru.json';
+import pineEn from './suppliers-i18n/pineworld.en.json';
+import pineKo from './suppliers-i18n/pineworld.ko.json';
+import pineZh from './suppliers-i18n/pineworld.zh.json';
+import pineJa from './suppliers-i18n/pineworld.ja.json';
+import pineIt from './suppliers-i18n/pineworld.it.json';
+import pineDe from './suppliers-i18n/pineworld.de.json';
+import pineFr from './suppliers-i18n/pineworld.fr.json';
+import pineTr from './suppliers-i18n/pineworld.tr.json';
+import pineEs from './suppliers-i18n/pineworld.es.json';
+import pinePt from './suppliers-i18n/pineworld.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -663,6 +675,42 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(jetsTr as any),
       es: mk(jetsEs as any),
       pt: mk(jetsPt as any),
+    },
+  },
+  {
+    slug: 'pineworld',
+    category: 'cosmetics',
+    name: 'PINE WORLD',
+    brand: 'RAVIEL',
+    status: 'provided',
+    brandColors: { deep: '#3d2c39', sky: '#9a8290', accent: '#c68aa6', bg: '#f8f2f5' },
+    catalog: pineworldCatalog as { line: string; items: { name: string; img: string }[] }[],
+    presFile: {
+      ru: '/docs/pineworld-presentation-ru.pdf',
+      en: '/docs/pineworld-presentation-en.pdf',
+      ko: '/docs/pineworld-presentation-ko.pdf',
+      zh: '/docs/pineworld-presentation-zh.pdf',
+      ja: '/docs/pineworld-presentation-ja.pdf',
+      it: '/docs/pineworld-presentation-it.pdf',
+      de: '/docs/pineworld-presentation-de.pdf',
+      fr: '/docs/pineworld-presentation-fr.pdf',
+      tr: '/docs/pineworld-presentation-tr.pdf',
+      es: '/docs/pineworld-presentation-es.pdf',
+      pt: '/docs/pineworld-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(pineRu as any),
+      en: mk(pineEn as any),
+      ko: mk(pineKo as any),
+      zh: mk(pineZh as any),
+      ja: mk(pineJa as any),
+      it: mk(pineIt as any),
+      de: mk(pineDe as any),
+      fr: mk(pineFr as any),
+      tr: mk(pineTr as any),
+      es: mk(pineEs as any),
+      pt: mk(pinePt as any),
     },
   },
 ];

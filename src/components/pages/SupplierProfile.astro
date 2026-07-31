@@ -26,6 +26,9 @@ import dcDrops from '../../assets/suppliers/dreamcos/drops.jpg';
 import jetsHero from '../../assets/suppliers/jetsglobal/hero.jpg';
 import jetsProducts from '../../assets/suppliers/jetsglobal/products.jpg';
 import jetsDrops from '../../assets/suppliers/jetsglobal/drops.jpg';
+import pineHero from '../../assets/suppliers/pineworld/hero.jpg';
+import pineProducts from '../../assets/suppliers/pineworld/products.jpg';
+import pineDrops from '../../assets/suppliers/pineworld/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -42,6 +45,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   'ck-regeon': { hero: ckrHero, products: ckrProducts, drops: ckrDrops },
   dreamcos: { hero: dcHero, products: dcProducts, drops: dcDrops },
   jetsglobal: { hero: jetsHero, products: jetsProducts, drops: jetsDrops },
+  pineworld: { hero: pineHero, products: pineProducts, drops: pineDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
