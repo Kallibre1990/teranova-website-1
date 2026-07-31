@@ -27,6 +27,12 @@
         "name": "Tensioneal Solution Kit",
         "img": "/img/suppliers/jetsglobal/products/tensioneal-solution-kit.jpg",
         "certs": []
+      },
+      {
+        "name": "La-Ma Peel Solution",
+        "img": "/img/suppliers/jetsglobal/products/la-ma-peel-solution.jpg",
+        "volume": "2 ml x 21",
+        "certs": []
       }
     ]
   },
@@ -41,6 +47,18 @@
       {
         "name": "Placenta-Vita12 Intensive Cream Mask",
         "img": "/img/suppliers/jetsglobal/products/placenta-vita12-intensive-cream-mask.jpg",
+        "certs": []
+      },
+      {
+        "name": "Placenta 2X Intensive Cream",
+        "img": "/img/suppliers/jetsglobal/products/placenta-2x-intensive-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Placenta V15 Shiny Ampoule",
+        "img": "/img/suppliers/jetsglobal/products/placenta-v15-shiny-ampoule.jpg",
+        "volume": "5 ml x 10",
         "certs": []
       }
     ]
@@ -87,6 +105,36 @@
         "name": "Arbutin Triple Action Cream",
         "img": "/img/suppliers/jetsglobal/products/arbutin-triple-action-cream.jpg",
         "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "S7 Repair Cream",
+        "img": "/img/suppliers/jetsglobal/products/s7-repair-cream.jpg",
+        "volume": "100 ml",
+        "certs": []
+      },
+      {
+        "name": "W7 Whitening Cream",
+        "img": "/img/suppliers/jetsglobal/products/w7-whitening-cream.jpg",
+        "volume": "100 ml",
+        "certs": []
+      },
+      {
+        "name": "Retinol 3X Cream",
+        "img": "/img/suppliers/jetsglobal/products/retinol-3x-cream.jpg",
+        "volume": "30 ml",
+        "certs": []
+      },
+      {
+        "name": "Soothing Soft Milk Cleansing",
+        "img": "/img/suppliers/jetsglobal/products/soothing-soft-milk-cleansing.jpg",
+        "volume": "200 ml",
+        "certs": []
+      },
+      {
+        "name": "Antandea Mild Sun Cream",
+        "img": "/img/suppliers/jetsglobal/products/antandea-mild-sun-cream.jpg",
+        "volume": "50 g",
         "certs": []
       }
     ]
