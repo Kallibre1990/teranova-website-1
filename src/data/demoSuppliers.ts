@@ -25,12 +25,9 @@ export const demoSuppliers: Record<CategoryKey, DemoSupplier[]> = {
     { name: 'Saebit Deck Co.', initials: 'SD', role: 'maker', status: 'provided', blurb: 3, tags: [1, 4], email: 'demo@saebit-deck.example', phone: p('1013') },
     { name: 'Nara Propulsion', initials: 'NP', role: 'maker', status: 'visited', blurb: 1, tags: [2, 5], email: 'demo@nara-propulsion.example', phone: p('1014') },
   ],
-  cosmetics: [
-    { name: 'Sodam Cosmetic', initials: 'SC', role: 'oem', status: 'visited', blurb: 1, tags: [0, 1], email: 'demo@sodam-cosmetic.example', phone: p('2011') },
-    { name: 'Yeon Lab', initials: 'YL', role: 'oem', status: 'provided', blurb: 1, tags: [1, 2], email: 'demo@yeon-lab.example', phone: p('2012') },
-    { name: 'Pureun Beauty', initials: 'PB', role: 'maker', status: 'provided', blurb: 0, tags: [3, 4], email: 'demo@pureun-beauty.example', phone: p('2013') },
-    { name: 'Maru Skincare', initials: 'MS', role: 'exporter', status: 'visited', blurb: 2, tags: [0, 5], email: 'demo@maru-skincare.example', phone: p('2014') },
-  ],
+  /* Cosmetics now has real verified suppliers (see suppliers.ts) — no demo
+     placeholders in this segment. */
+  cosmetics: [],
   medical: [
     { name: 'Mirae Medi', initials: 'MM', role: 'maker', status: 'visited', blurb: 0, tags: [0, 3], email: 'demo@mirae-medi.example', phone: p('3011') },
     { name: 'Sumi Aesthetics', initials: 'SA', role: 'exporter', status: 'provided', blurb: 2, tags: [0, 1], email: 'demo@sumi-aesthetics.example', phone: p('3012') },

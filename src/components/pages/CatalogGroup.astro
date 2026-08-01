@@ -47,7 +47,7 @@ const statusInfo = {
 
     <div class="group__head">
       <h2 class="lvl" style="margin:0">{g.products_title}</h2>
-      <span class="badge badge--provided">{g.demo_badge}</span>
+      {!isCosmetics && <span class="badge badge--provided">{g.demo_badge}</span>}
     </div>
     <div class="prod-grid">
       {
@@ -83,33 +83,37 @@ const statusInfo = {
       </>
     )}
 
-    <div class="group__head">
-      <h2 class="lvl" style="margin:0">{g.suppliers_title}</h2>
-      <span class="badge badge--provided">{g.demo_badge}</span>
-    </div>
-    <div class="sup-grid">
-      {
-        suppliers.map((s) => (
-          <article class="scard">
-            <div class="scard__head">
-              <span class="scard__mono" aria-hidden="true">{s.initials}</span>
-              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
-            </div>
-            <h3 class="scard__nm">{s.name}</h3>
-            <p class="scard__role">{roleLabel[s.role]} · <span class="scard__demo">{g.demo_badge}</span></p>
-            <p class="scard__blurb">{g.blurbs[s.blurb]}</p>
-            <div class="scard__tags">{s.tags.map((i) => <span>{subs[i]}</span>)}</div>
-            <div class="scard__contacts">
-              <a href={`mailto:${s.email}`}>{s.email}</a>
-              <span>{s.phone}</span>
-            </div>
-          </article>
-        ))
-      }
-    </div>
+    {suppliers.length > 0 && (
+      <>
+        <div class="group__head">
+          <h2 class="lvl" style="margin:0">{g.suppliers_title}</h2>
+          <span class="badge badge--provided">{g.demo_badge}</span>
+        </div>
+        <div class="sup-grid">
+          {
+            suppliers.map((s) => (
+              <article class="scard">
+                <div class="scard__head">
+                  <span class="scard__mono" aria-hidden="true">{s.initials}</span>
+                  <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+                </div>
+                <h3 class="scard__nm">{s.name}</h3>
+                <p class="scard__role">{roleLabel[s.role]} · <span class="scard__demo">{g.demo_badge}</span></p>
+                <p class="scard__blurb">{g.blurbs[s.blurb]}</p>
+                <div class="scard__tags">{s.tags.map((i) => <span>{subs[i]}</span>)}</div>
+                <div class="scard__contacts">
+                  <a href={`mailto:${s.email}`}>{s.email}</a>
+                  <span>{s.phone}</span>
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      </>
+    )}
 
     <div class="group__foot">
-      <span class="note">{g.demo_note}</span>
+      {suppliers.length > 0 && <span class="note">{g.demo_note}</span>}
       <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>{g.request}</a>
     </div>
   </div>
