@@ -27,6 +27,7 @@ import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.jso
 import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
 import jetsglobalCatalog from './suppliers-i18n/jetsglobal.catalog.json';
 import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
+import kiftCatalog from './suppliers-i18n/kift.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
@@ -81,6 +82,17 @@ import pineFr from './suppliers-i18n/pineworld.fr.json';
 import pineTr from './suppliers-i18n/pineworld.tr.json';
 import pineEs from './suppliers-i18n/pineworld.es.json';
 import pinePt from './suppliers-i18n/pineworld.pt.json';
+import kiftRu from './suppliers-i18n/kift.ru.json';
+import kiftEn from './suppliers-i18n/kift.en.json';
+import kiftKo from './suppliers-i18n/kift.ko.json';
+import kiftZh from './suppliers-i18n/kift.zh.json';
+import kiftJa from './suppliers-i18n/kift.ja.json';
+import kiftIt from './suppliers-i18n/kift.it.json';
+import kiftDe from './suppliers-i18n/kift.de.json';
+import kiftFr from './suppliers-i18n/kift.fr.json';
+import kiftTr from './suppliers-i18n/kift.tr.json';
+import kiftEs from './suppliers-i18n/kift.es.json';
+import kiftPt from './suppliers-i18n/kift.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -734,6 +746,38 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(pineTr as any),
       es: mk(pineEs as any),
       pt: mk(pinePt as any),
+    },
+  },
+  {
+    slug: 'kift',
+    category: 'cosmetics',
+    name: 'KIFT COMPANY',
+    brand: 'KIFT',
+    status: 'provided',
+    brandColors: { deep: '#14294d', sky: '#5b7fb0', accent: '#2f6fb0', bg: '#f1f6fb' },
+    catalog: kiftCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/kift-terms-ru.pdf', en: '/docs/kift-terms-en.pdf', ko: '/docs/kift-terms-ko.pdf', zh: '/docs/kift-terms-zh.pdf', ja: '/docs/kift-terms-ja.pdf', it: '/docs/kift-terms-it.pdf', de: '/docs/kift-terms-de.pdf', fr: '/docs/kift-terms-fr.pdf', tr: '/docs/kift-terms-tr.pdf', es: '/docs/kift-terms-es.pdf', pt: '/docs/kift-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/kift-price-ru.pdf', en: '/docs/kift-price-en.pdf', ko: '/docs/kift-price-ko.pdf', zh: '/docs/kift-price-zh.pdf', ja: '/docs/kift-price-ja.pdf', it: '/docs/kift-price-it.pdf', de: '/docs/kift-price-de.pdf', fr: '/docs/kift-price-fr.pdf', tr: '/docs/kift-price-tr.pdf', es: '/docs/kift-price-es.pdf', pt: '/docs/kift-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/kift-presentation-ru.pdf', en: '/docs/kift-presentation-en.pdf', ko: '/docs/kift-presentation-ko.pdf', zh: '/docs/kift-presentation-zh.pdf', ja: '/docs/kift-presentation-ja.pdf', it: '/docs/kift-presentation-it.pdf', de: '/docs/kift-presentation-de.pdf', fr: '/docs/kift-presentation-fr.pdf', tr: '/docs/kift-presentation-tr.pdf', es: '/docs/kift-presentation-es.pdf', pt: '/docs/kift-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(kiftRu as any),
+      en: mk(kiftEn as any),
+      ko: mk(kiftKo as any),
+      zh: mk(kiftZh as any),
+      ja: mk(kiftJa as any),
+      it: mk(kiftIt as any),
+      de: mk(kiftDe as any),
+      fr: mk(kiftFr as any),
+      tr: mk(kiftTr as any),
+      es: mk(kiftEs as any),
+      pt: mk(kiftPt as any),
     },
   },
 ];

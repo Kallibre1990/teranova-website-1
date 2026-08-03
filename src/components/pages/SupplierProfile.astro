@@ -29,6 +29,9 @@ import jetsDrops from '../../assets/suppliers/jetsglobal/drops.jpg';
 import pineHero from '../../assets/suppliers/pineworld/hero.jpg';
 import pineProducts from '../../assets/suppliers/pineworld/products.jpg';
 import pineDrops from '../../assets/suppliers/pineworld/drops.jpg';
+import kiftHero from '../../assets/suppliers/kift/hero.jpg';
+import kiftProducts from '../../assets/suppliers/kift/products.jpg';
+import kiftDrops from '../../assets/suppliers/kift/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -46,6 +49,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   dreamcos: { hero: dcHero, products: dcProducts, drops: dcDrops },
   jetsglobal: { hero: jetsHero, products: jetsProducts, drops: jetsDrops },
   pineworld: { hero: pineHero, products: pineProducts, drops: pineDrops },
+  kift: { hero: kiftHero, products: kiftProducts, drops: kiftDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;

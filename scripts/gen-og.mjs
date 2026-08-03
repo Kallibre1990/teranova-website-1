@@ -85,6 +85,7 @@ const SUPPLIERS = {
   'ck-regeon': { eyebrow: 'Supplier profile', title: 'CK REGEON — Korean scalp & hair care science', accent: '#4fbfae' },
   jetsglobal: { eyebrow: 'Supplier profile', title: 'TOM-TIT-TOT by JETSGLOBAL — Korean aesthetic skincare', accent: '#c19a5b' },
   pineworld: { eyebrow: 'Supplier profile', title: 'RAVIEL by PINE WORLD — Korean skincare (brightening, firmness, hydration)', accent: '#c68aa6' },
+  kift: { eyebrow: 'Supplier profile', title: 'KIFT — Korean all-in-one high-efficiency skincare', accent: '#2f6fb0' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
