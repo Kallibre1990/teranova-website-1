@@ -35,6 +35,33 @@ const statusInfo = {
 
 <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />
 
+{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
+
+{/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
+{isCosmetics && realForCat.length > 0 && (
+  <section class="section section--navy">
+    <Atmosphere variant="dark" />
+    <div class="wrap">
+      <div class="group__head">
+        <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
+      </div>
+      <div class="sup-grid">
+        {realForCat.map((s) => {
+          const sc = supplierContent(s, lang);
+          return (
+            <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
+              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+              <h3 class="scard__nm">{s.name}</h3>
+              <p class="scard__role">{s.brand} · {sc.descriptor}</p>
+              <span class="scard__more">{sc.ui.more}</span>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+)}
+
 {isCosmetics && <CosmeticsContent lang={lang} part="body" />}
 
 <section class="section section--navy group">
@@ -62,7 +89,7 @@ const statusInfo = {
       }
     </div>
 
-    {realForCat.length > 0 && (
+    {!isCosmetics && realForCat.length > 0 && (
       <>
         <div class="group__head">
           <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>

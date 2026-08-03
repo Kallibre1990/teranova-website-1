@@ -8,7 +8,7 @@ import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 interface Props {
   lang: Lang;
-  part?: 'body' | 'cta';
+  part?: 'intro' | 'body' | 'cta';
 }
 const { lang, part = 'body' } = Astro.props;
 const c = ui[lang].pages.cosmetics;
@@ -33,7 +33,7 @@ const ondemand = anchorHref('ondemand', lang);
 }
 
 {
-  part === 'body' && (
+  part === 'intro' && (
     <section class="section section--navy cos">
       <div class="wrap">
         <div class="cos-btns cos-btns--top">
@@ -52,7 +52,15 @@ const ondemand = anchorHref('ondemand', lang);
             ))}
           </div>
         </div>
+      </div>
+    </section>
+  )
+}
 
+{
+  part === 'body' && (
+    <section class="section section--navy cos">
+      <div class="wrap">
         <div class="cos-block">
           <h2 class="cos-h">{c.models_title}</h2>
           <p class="cos-sub">{c.models_sub}</p>
