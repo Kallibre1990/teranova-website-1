@@ -1,0 +1,59 @@
+[
+  {
+    "line": "Multi-Solution Line",
+    "items": [
+      {
+        "name": "Multi-Solution Face & Eye Serum",
+        "img": "/img/suppliers/kift/products/multi-solution-face-eye-serum.jpg",
+        "volume": "30 ml",
+        "certs": []
+      },
+      {
+        "name": "Multi-Solution Miracle Mask Cream",
+        "img": "/img/suppliers/kift/products/multi-solution-miracle-mask-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Multi-Solution Air Glow Cream",
+        "img": "/img/suppliers/kift/products/multi-solution-air-glow-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      }
+    ]
+  },
+  {
+    "line": "Super Bubble Mask",
+    "items": [
+      {
+        "name": "Super Bubble Mask All-In-One",
+        "img": "/img/suppliers/kift/products/super-bubble-mask-all-in-one-100ml.jpg",
+        "volume": "100 ml",
+        "certs": []
+      }
+    ]
+  },
+  {
+    "line": "Multi-Solution Face & Body Soap",
+    "items": [
+      {
+        "name": "Multi-Solution Face & Body Soap – Original",
+        "img": "/img/suppliers/kift/products/multi-solution-face-body-soap-original.jpg",
+        "volume": "85 g",
+        "certs": []
+      },
+      {
+        "name": "Multi-Solution Face & Body Soap – Deep",
+        "img": "/img/suppliers/kift/products/multi-solution-face-body-soap-deep.jpg",
+        "volume": "85 g",
+        "certs": []
+      },
+      {
+        "name": "Multi-Solution Face & Body Soap – Discovery Kit",
+        "img": "/img/suppliers/kift/products/multi-solution-face-body-soap-discovery-kit.jpg",
+        "volume": "20 g x 2",
+        "certs": []
+      }
+    ]
+  }
+]

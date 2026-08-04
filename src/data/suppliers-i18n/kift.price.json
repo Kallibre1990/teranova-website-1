@@ -1,0 +1,52 @@
+[
+  {
+    "line": "Multi-Solution Line",
+    "items": [
+      {
+        "name": "Multi-Solution Face & Eye Serum",
+        "volume": "30 ml",
+        "price": "6.78"
+      },
+      {
+        "name": "Multi-Solution Miracle Mask Cream",
+        "volume": "50 ml",
+        "price": "13.57"
+      },
+      {
+        "name": "Multi-Solution Air Glow Cream",
+        "volume": "50 ml",
+        "price": "13.57"
+      }
+    ]
+  },
+  {
+    "line": "Super Bubble Mask",
+    "items": [
+      {
+        "name": "Super Bubble Mask All-In-One",
+        "volume": "100 ml",
+        "price": "8.47"
+      }
+    ]
+  },
+  {
+    "line": "Multi-Solution Face & Body Soap",
+    "items": [
+      {
+        "name": "Multi-Solution Face & Body Soap – Original",
+        "volume": "85 g",
+        "price": "6.10"
+      },
+      {
+        "name": "Multi-Solution Face & Body Soap – Deep",
+        "volume": "85 g",
+        "price": "6.10"
+      },
+      {
+        "name": "Multi-Solution Face & Body Soap – Discovery Kit",
+        "volume": "20 g x 2",
+        "price": "3.39"
+      }
+    ]
+  }
+]

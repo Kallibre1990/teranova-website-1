@@ -131,6 +131,13 @@ const SUPPLIERS = [
     pres: false,
     certs: [],
   },
+  {
+    id: 'kift', json: 'kift', supplier: 'KIFT COMPANY', brand: 'KIFT',
+    basis: 'EXW Suwon, Korea',
+    colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
+    pres: false,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
