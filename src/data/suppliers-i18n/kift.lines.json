@@ -1,0 +1,514 @@
+[
+ {
+  "slug": "multi-solution-line",
+  "supplierSlug": "kift",
+  "category": "cosmetics",
+  "lineName": "Multi-Solution Line",
+  "items": [
+   {
+    "name": "Multi-Solution Face & Eye Serum",
+    "img": "/img/suppliers/kift/products/multi-solution-face-eye-serum.jpg",
+    "volume": "30 ml",
+    "certs": []
+   },
+   {
+    "name": "Multi-Solution Miracle Mask Cream",
+    "img": "/img/suppliers/kift/products/multi-solution-miracle-mask-cream.jpg",
+    "volume": "50 ml",
+    "certs": []
+   },
+   {
+    "name": "Multi-Solution Air Glow Cream",
+    "img": "/img/suppliers/kift/products/multi-solution-air-glow-cream.jpg",
+    "volume": "50 ml",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Multi-Solution Line (KIFT) — уход «всё в одном» · Teranova",
+    "seoDesc": "Multi-Solution Line от KIFT — многофункциональный уход «всё в одном»: сыворотка на берёзовом соке, барьерный крем-маска с 5 керамидами и лёгкий крем с ферментным фильтратом. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Сыворотка и кремы «всё в одном» для ежедневного ухода",
+    "about": [
+     "Multi-Solution Line — базовая линейка бренда KIFT, построенная на идее «всё в одном»: одно средство закрывает сразу несколько задач ухода и сокращает многоступенчатую рутину до одного шага. Рецептуры собраны из увлажняющих, барьерных и осветляющих косметических активов, чтобы упростить ежедневный ритуал без потери насыщенности состава.",
+     "В линейке три позиции: сыворотка для лица и век на берёзовом соке (67%) с бакучиолом, аденозином и ниацинамидом; крем-маска с комплексом из 5 керамидов, пантенолом и пептидом красного женьшеня; лёгкий крем с 57% фильтрата фермента галактомисис. Компактный набор из трёх SKU в объёмах 30 и 50 мл удобен импортёру как стартовый ассортимент."
+    ],
+    "itemNotes": [
+     "Многофункциональная сыворотка «всё в одном» для лица и век на берёзовом соке (67%) с бакучиолом, аденозином, ниацинамидом, глутатионом и гиалуроновой кислотой; увлажнение, сияние и уход за упругостью кожи в один шаг, 30 мл.",
+     "Многофункциональный крем-маска для восстановления защитного барьера с комплексом из 5 керамидов, гиалуроновой кислотой, пантенолом, пептидом красного женьшеня и бакучиолом; глубокое увлажнение и питание кожи, 50 мл.",
+     "Лёгкий крем «всё в одном» с 57% фильтрата фермента галактомисис, ниацинамидом, бакучиолом и комплексом из 5 керамидов; невесомое увлажнение, уход за защитным барьером и естественное сияние кожи, 50 мл."
+    ]
+   },
+   "en": {
+    "seoTitle": "Multi-Solution Line (KIFT) — all-in-one care · Teranova",
+    "seoDesc": "The Multi-Solution Line by KIFT — multifunctional all-in-one care: a birch sap serum, a barrier mask cream with 5 ceramides and a light cream with a ferment filtrate. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "An all-in-one serum and creams for daily care",
+    "about": [
+     "Multi-Solution Line is the basic range of the KIFT brand, built on the all-in-one idea: a single product covers several care tasks at once and shortens a multi-step routine to one step. The formulations are assembled from hydrating, barrier and brightening cosmetic actives to simplify the daily ritual without losing richness of composition.",
+     "The range has three items: a face and eye serum on birch sap (67%) with bakuchiol, adenosine and niacinamide; a mask cream with a complex of 5 ceramides, panthenol and red ginseng peptide; and a light cream with 57% Galactomyces ferment filtrate. A compact set of three SKUs in 30 and 50 ml volumes is convenient for an importer as a starter assortment."
+    ],
+    "itemNotes": [
+     "A multifunctional all-in-one serum for face and eyes on birch sap (67%) with bakuchiol, adenosine, niacinamide, glutathione and hyaluronic acid; hydration, radiance and firmness care in a single step, 30 ml.",
+     "A multifunctional mask cream for restoring the protective barrier with a 5-ceramide complex, hyaluronic acid, panthenol, red ginseng peptide and bakuchiol; deep hydration and skin nourishment, 50 ml.",
+     "A lightweight all-in-one cream with 57% Galactomyces ferment filtrate, niacinamide, bakuchiol and a 5-ceramide complex; weightless hydration, protective barrier care and a natural skin glow, 50 ml."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Multi-Solution Line (KIFT) — 올인원 케어 · Teranova",
+    "seoDesc": "KIFT 브랜드의 Multi-Solution Line — 다기능 올인원 케어: 자작나무 수액 67%를 담은 페이스·아이 세럼, 5종 세라마이드를 담은 장벽 크림 마스크, 발효 여과물 57%를 담은 가벼운 크림. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "데일리 케어를 위한 올인원 세럼과 크림",
+    "about": [
+     "Multi-Solution Line은 하나로 끝내는 올인원 아이디어를 바탕으로 한 KIFT 브랜드의 기본 라인입니다: 한 제품이 여러 케어 과제를 동시에 해결해 다단계 루틴을 한 단계로 줄여줍니다. 처방은 보습, 장벽, 브라이트닝 화장품 활성 성분으로 구성되어 성분의 풍부함을 잃지 않으면서 매일의 리추얼을 단순하게 만듭니다.",
+     "라인은 세 품목입니다: 자작나무 수액(67%)에 바쿠치올, 아데노신, 나이아신아마이드를 담은 페이스·아이 세럼; 5종 세라마이드 콤플렉스, 판테놀, 홍삼 펩타이드를 담은 크림 마스크; 갈락토미세스 발효 여과물 57%를 담은 가벼운 크림. 30ml과 50ml 용량의 컴팩트한 3 SKU 구성은 수입업체의 시작 구색으로 적합합니다."
+    ],
+    "itemNotes": [
+     "자작나무 수액(67%)에 바쿠치올, 아데노신, 나이아신아마이드, 글루타치온, 히알루론산을 담은 페이스·아이용 다기능 올인원 세럼; 수분, 광채, 탄력 케어를 한 단계로, 30 ml.",
+     "5종 세라마이드 복합체, 히알루론산, 판테놀, 홍삼 펩타이드, 바쿠치올을 담아 보호 장벽을 회복시키는 다기능 마스크 크림; 깊은 수분과 피부 영양, 50 ml.",
+     "갈락토미세스 발효 여과물 57%, 나이아신아마이드, 바쿠치올, 5종 세라마이드 복합체를 담은 가벼운 올인원 크림; 산뜻한 수분, 보호 장벽 케어, 자연스러운 피부 광채, 50 ml."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Multi-Solution Line (KIFT) — 全合一护理 · Teranova",
+    "seoDesc": "KIFT 旗下 Multi-Solution Line — 多功能「全合一」护理：以桦树汁为基底的精华、含 5 种神经酰胺的屏障面膜霜，以及含发酵滤液的轻盈面霜。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "日常护理的「全合一」精华与面霜",
+    "about": [
+     "Multi-Solution Line 是 KIFT 品牌的基础系列，建立在「全合一」的想法上：一件产品同时应对多项护理需求，把多步骤的日常流程简化为一步。配方由保湿、屏障与提亮类的化妆品活性成分组成，在不牺牲配方丰富度的前提下简化每天的仪式。",
+     "系列有三个品项：以桦树汁（67%）为基底、含补骨脂酚、腺苷与烟酰胺的面部与眼部精华；含 5 种神经酰胺复合物、泛醇与红参肽的面膜霜；含 57% Galactomyces 发酵滤液的轻盈面霜。三个 SKU、30 与 50 毫升的紧凑组合，适合进口商作为起步品类。"
+    ],
+    "itemNotes": [
+     "以桦树汁（67%）为基底的面部与眼部多功能全合一精华，含补骨脂酚、腺苷、烟酰胺、谷胱甘肽及透明质酸；一步完成保湿、焕亮及肌肤紧致护理，30 毫升。",
+     "修护防护屏障的多功能面膜霜，含 5 种神经酰胺复合物、透明质酸、泛醇、红参肽及补骨脂酚；深度保湿并滋养肌肤，50 毫升。",
+     "轻盈全合一面霜，含 57% Galactomyces 发酵滤液、烟酰胺、补骨脂酚及 5 种神经酰胺复合物；轻盈保湿、护理防护屏障并焕发自然光彩，50 毫升。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Multi-Solution Line (KIFT) — オールインワンケア · Teranova",
+    "seoDesc": "KIFT の Multi-Solution Line — 多機能な「オールインワン」ケア：白樺樹液ベースの美容液、5 種のセラミド配合バリアマスククリーム、発酵ろ過液配合の軽やかなクリーム。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "毎日のケアのための「オールインワン」美容液とクリーム",
+    "about": [
+     "Multi-Solution Line は、「オールインワン」という発想に基づく KIFT ブランドの基本ラインです：一つの製品で複数のケアの課題に同時に対応し、多段階のルーティンを一つのステップにまとめます。処方はうるおい、バリア、明るさに関わる化粧品成分で構成され、内容の充実さを損なわずに毎日のリチュアルを簡略化します。",
+     "ラインは3品目です：白樺樹液(67%)をベースに、バクチオール、アデノシン、ナイアシンアミドを配合したフェイス＆アイ美容液。5 種のセラミド複合体、パンテノール、紅参ペプチドを配合したマスククリーム。Galactomyces 発酵ろ過液 57% を配合した軽やかなクリーム。30 mL と 50 mL、3 SKU のコンパクトな構成は、輸入業者のスタート品揃えとして扱いやすいものです。"
+    ],
+    "itemNotes": [
+     "白樺樹液（67%）をベースとしたフェイス＆アイ用の多機能オールインワン美容液。バクチオール、アデノシン、ナイアシンアミド、グルタチオン、ヒアルロン酸を配合。うるおい、輝き、肌のハリケアを一つのステップで、30 mL。",
+     "5 種のセラミド複合体、ヒアルロン酸、パンテノール、紅参ペプチド、バクチオールを配合し、防御バリアを修復する多機能マスククリーム。肌に深いうるおいと栄養を、50 mL。",
+     "57% の Galactomyces 発酵ろ過液、ナイアシンアミド、バクチオール、5 種のセラミド複合体を配合した軽やかなオールインワンクリーム。軽い着け心地のうるおい、防御バリアのケア、肌本来の輝きに、50 mL。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Multi-Solution Line (KIFT) — all-in-one · Teranova",
+    "seoDesc": "Multi-Solution Line di KIFT — cura multifunzionale all-in-one: siero alla linfa di betulla, crema-maschera barriera con 5 ceramidi e crema leggera con filtrato di fermento. Forniture all'ingrosso dalla Corea tramite Teranova.",
+    "tagline": "Siero e creme «tutto in uno» per la cura quotidiana",
+    "about": [
+     "Multi-Solution Line è la linea base del brand KIFT, costruita sull'idea del «tutto in uno»: un solo prodotto copre più obiettivi di cura e riduce la routine a più passaggi a un unico gesto. Le formule uniscono attivi cosmetici idratanti, barriera e illuminanti, per semplificare il rituale quotidiano senza perdere ricchezza nella composizione.",
+     "La linea conta tre referenze: un siero per viso e contorno occhi alla linfa di betulla (67%) con bakuchiol, adenosina e niacinamide; una crema-maschera con un complesso di 5 ceramidi, pantenolo e peptide di ginseng rosso; una crema leggera con il 57% di filtrato di fermento di Galactomyces. Il set compatto di tre SKU nei formati da 30 e 50 ml è comodo per l'importatore come assortimento di partenza."
+    ],
+    "itemNotes": [
+     "Siero multifunzione «tutto in uno» per viso e contorno occhi a base di linfa di betulla (67%) con bakuchiol, adenosina, niacinamide, glutatione e acido ialuronico; idratazione, luminosità e cura dell'elasticità della pelle in un unico passaggio, 30 ml.",
+     "Crema-maschera multifunzione per il ripristino della barriera protettiva con complesso di 5 ceramidi, acido ialuronico, pantenolo, peptide di ginseng rosso e bakuchiol; idratazione profonda e nutrimento della pelle, 50 ml.",
+     "Crema leggera «tutto in uno» con 57% di filtrato fermentato Galactomyces, niacinamide, bakuchiol e complesso di 5 ceramidi; idratazione impalpabile, cura della barriera protettiva e luminosità naturale della pelle, 50 ml."
+    ]
+   },
+   "de": {
+    "seoTitle": "Multi-Solution Line (KIFT) — All-in-one · Teranova",
+    "seoDesc": "Multi-Solution Line von KIFT — multifunktionale All-in-one-Pflege: Serum auf Birkensaft, Barriere-Crememaske mit 5 Ceramiden und leichte Creme mit Fermentfiltrat. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Serum und Cremes «alles in einem» für die tägliche Pflege",
+    "about": [
+     "Multi-Solution Line ist die Basisserie der Marke KIFT, aufgebaut auf der Idee «alles in einem»: Ein Produkt deckt mehrere Pflegeaufgaben zugleich ab und verkürzt die mehrstufige Routine auf einen Schritt. Die Rezepturen bestehen aus feuchtigkeitsspendenden, barrierestärkenden und aufhellenden kosmetischen Wirkstoffen, um das tägliche Ritual zu vereinfachen, ohne an Reichhaltigkeit der Zusammensetzung zu verlieren.",
+     "Die Serie umfasst drei Positionen: ein Serum für Gesicht und Augenpartie auf Birkensaft (67 %) mit Bakuchiol, Adenosin und Niacinamid; eine Crememaske mit einem Komplex aus 5 Ceramiden, Panthenol und Peptid des Roten Ginsengs; eine leichte Creme mit 57 % Galactomyces-Fermentfiltrat. Das kompakte Set aus drei SKU in den Volumen 30 und 50 ml eignet sich für den Importeur als Startsortiment."
+    ],
+    "itemNotes": [
+     "Multifunktionales All-in-one-Serum für Gesicht und Augen auf Basis von Birkensaft (67%) mit Bakuchiol, Adenosin, Niacinamid, Glutathion und Hyaluronsäure; Feuchtigkeit, Strahlkraft und Pflege der Hautelastizität in einem Schritt, 30 ml.",
+     "Multifunktionale Crememaske zur Wiederherstellung der Schutzbarriere mit einem Komplex aus 5 Ceramiden, Hyaluronsäure, Panthenol, Rotginseng-Peptid und Bakuchiol; intensive Feuchtigkeit und Nährstoffversorgung der Haut, 50 ml.",
+     "Leichte All-in-one-Creme mit 57% Galactomyces-Fermentfiltrat, Niacinamid, Bakuchiol und einem Komplex aus 5 Ceramiden; schwereloser Feuchtigkeitsschub, Pflege der Schutzbarriere und natürliche Strahlkraft der Haut, 50 ml."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Multi-Solution Line (KIFT) — tout-en-un · Teranova",
+    "seoDesc": "Multi-Solution Line de KIFT — soin multifonction tout-en-un : sérum à la sève de bouleau, masque-crème barrière à 5 céramides et crème légère au filtrat de ferment. Approvisionnement en gros depuis la Corée via Teranova.",
+    "tagline": "Sérum et crèmes tout-en-un pour le soin quotidien",
+    "about": [
+     "Multi-Solution Line est la gamme de base de la marque KIFT, construite sur l'idée du « tout-en-un » : un seul produit répond à plusieurs besoins de soin et réduit la routine en plusieurs étapes à une seule. Les formules réunissent des actifs cosmétiques hydratants, barrière et éclaircissants, afin de simplifier le rituel quotidien sans perdre en richesse de composition.",
+     "La gamme compte trois références : un sérum visage et yeux à la sève de bouleau (67 %) au bakuchiol, à l'adénosine et au niacinamide ; un masque-crème au complexe de 5 céramides, au panthénol et au peptide de ginseng rouge ; une crème légère à 57 % de filtrat de ferment de galactomyces. Cet ensemble compact de trois références en 30 et 50 ml convient à l'importateur comme assortiment de départ."
+    ],
+    "itemNotes": [
+     "Sérum multifonction « tout-en-un » pour le visage et le contour des yeux à base de sève de bouleau (67 %) avec bakuchiol, adénosine, niacinamide, glutathion et acide hyaluronique ; hydratation, éclat et soin de la fermeté de la peau en une seule étape, 30 ml.",
+     "Crème-masque multifonction pour la restauration de la barrière protectrice avec un complexe de 5 céramides, acide hyaluronique, panthénol, peptide de ginseng rouge et bakuchiol ; hydratation profonde et nutrition de la peau, 50 ml.",
+     "Crème légère « tout-en-un » avec 57 % de filtrat de ferment galactomyces, niacinamide, bakuchiol et un complexe de 5 céramides ; hydratation légère, soin de la barrière protectrice et éclat naturel de la peau, 50 ml."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Multi-Solution Line (KIFT) — hepsi bir arada · Teranova",
+    "seoDesc": "KIFT imzalı Multi-Solution Line — hepsi bir arada çok işlevli bakım: huş özsuyu bazlı serum, 5 seramidli bariyer krem maske ve ferment filtratlı hafif krem. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Günlük bakım için «hepsi bir arada» serum ve kremler",
+    "about": [
+     "Multi-Solution Line, KIFT markasının «hepsi bir arada» fikri üzerine kurulu temel serisidir: tek bir ürün aynı anda birkaç bakım görevini üstlenir ve çok adımlı rutini tek adıma indirir. Formüller nemlendirici, bariyer destekleyici ve aydınlatıcı kozmetik aktiflerden oluşur; böylece günlük ritüel içerik zenginliğinden ödün vermeden sadeleşir.",
+     "Seride üç ürün yer alır: bakuchiol, adenozin ve niasinamid içeren, %67 huş özsuyu bazlı yüz ve göz çevresi serumu; 5 seramid kompleksi, pantenol ve kırmızı ginseng peptidi içeren krem maske; %57 Galactomyces ferment filtratı içeren hafif krem. 30 ve 50 ml hacimlerdeki üç SKU'luk kompakt set, ithalatçı için başlangıç ürün yelpazesi olarak elverişlidir."
+    ],
+    "itemNotes": [
+     "Yüz ve göz çevresi için huş özsuyu (%67) bazlı, bakuchiol, adenozin, niasinamid, glutatyon ve hyaluronik asit içeren çok işlevli «hepsi bir arada» serum; tek adımda nemlendirme, ışıltı ve cilt sıkılığı bakımı, 30 ml.",
+     "5 seramid kompleksi, hyaluronik asit, pantenol, kırmızı ginseng peptidi ve bakuchiol içeren, koruyucu bariyeri onaran çok işlevli krem-maske; cildin derin nemlendirilmesi ve beslenmesi, 50 ml.",
+     "%57 galaktomyces ferment filtratı, niasinamid, bakuchiol ve 5 seramid kompleksi içeren hafif «hepsi bir arada» krem; hafif nemlendirme, koruyucu bariyer bakımı ve cildin doğal ışıltısı, 50 ml."
+    ]
+   },
+   "es": {
+    "seoTitle": "Multi-Solution Line (KIFT) — todo en uno · Teranova",
+    "seoDesc": "Multi-Solution Line de KIFT — cuidado multifuncional «todo en uno»: sérum a base de savia de abedul, crema-mascarilla barrera con 5 ceramidas y crema ligera con filtrado fermentado. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Sérum y cremas «todo en uno» para el cuidado diario",
+    "about": [
+     "Multi-Solution Line es la línea básica de la marca KIFT, construida sobre la idea del «todo en uno»: un solo producto cubre varias necesidades de cuidado y reduce la rutina de varios pasos a un único gesto. Las fórmulas reúnen activos cosméticos hidratantes, de barrera y de luminosidad, para simplificar el ritual diario sin perder densidad de composición.",
+     "La línea tiene tres referencias: sérum para rostro y contorno de ojos a base de savia de abedul (67%) con bakuchiol, adenosina y niacinamida; crema-mascarilla con un complejo de 5 ceramidas, pantenol y péptido de ginseng rojo; y crema ligera con 57% de filtrado del fermento de galactomyces. Un conjunto compacto de tres referencias en volúmenes de 30 y 50 ml resulta cómodo para el importador como surtido inicial."
+    ],
+    "itemNotes": [
+     "Sérum multifuncional «todo en uno» para rostro y contorno de ojos a base de savia de abedul (67%) con bakuchiol, adenosina, niacinamida, glutatión y ácido hialurónico; hidratación, luminosidad y cuidado de la firmeza de la piel en un solo paso, 30 ml.",
+     "Crema-mascarilla multifuncional para la recuperación de la barrera protectora con un complejo de 5 ceramidas, ácido hialurónico, pantenol, péptido de ginseng rojo y bakuchiol; hidratación profunda y nutrición de la piel, 50 ml.",
+     "Crema ligera «todo en uno» con 57% de filtrado del fermento galactomyces, niacinamida, bakuchiol y un complejo de 5 ceramidas; hidratación ligera, cuidado de la barrera protectora y luminosidad natural de la piel, 50 ml."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Multi-Solution Line (KIFT) — tudo em um · Teranova",
+    "seoDesc": "Multi-Solution Line da KIFT — cuidado multifuncional «tudo em um»: sérum de seiva de bétula, creme-máscara de barreira com 5 ceramidas e creme leve com filtrado fermentado. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Sérum e cremes «tudo em um» para a rotina de todo dia",
+    "about": [
+     "Multi-Solution Line é a linha básica da marca KIFT, erguida sobre a ideia do «tudo em um»: um produto só resolve várias frentes do cuidado e encurta a rotina de vários passos a um gesto único. As fórmulas juntam ativos cosméticos de hidratação, de barreira e de luminosidade para simplificar o ritual diário sem esvaziar a composição.",
+     "São três itens na linha: sérum para rosto e área dos olhos com seiva de bétula (67%), bakuchiol, adenosina e niacinamida; creme-máscara com complexo de 5 ceramidas, pantenol e peptídeo de ginseng vermelho; e creme leve com 57% de filtrado do fermento de galactomyces. Um conjunto enxuto de três SKUs, nos volumes de 30 e 50 ml, cai bem para o importador como sortimento de partida."
+    ],
+    "itemNotes": [
+     "Sérum multifuncional «tudo em um» para rosto e área dos olhos à base de seiva de bétula (67%) com bakuchiol, adenosina, niacinamida, glutationa e ácido hialurônico; hidratação, luminosidade e cuidado da firmeza da pele em um único passo, 30 ml.",
+     "Creme-máscara multifuncional para a recuperação da barreira protetora com um complexo de 5 ceramidas, ácido hialurônico, pantenol, peptídeo de ginseng vermelho e bakuchiol; hidratação profunda e nutrição da pele, 50 ml.",
+     "Creme leve «tudo em um» com 57% de filtrado do fermento galactomyces, niacinamida, bakuchiol e um complexo de 5 ceramidas; hidratação leve, cuidado da barreira protetora e luminosidade natural da pele, 50 ml."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "super-bubble-mask",
+  "supplierSlug": "kift",
+  "category": "cosmetics",
+  "lineName": "Super Bubble Mask",
+  "items": [
+   {
+    "name": "Super Bubble Mask All-In-One",
+    "img": "/img/suppliers/kift/products/super-bubble-mask-all-in-one-100ml.jpg",
+    "volume": "100 ml",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Super Bubble Mask (KIFT) — ночная маска-уход · Teranova",
+    "seoDesc": "Super Bubble Mask от KIFT — несмываемая пузырьковая маска «всё в одном» для ночного ухода: ниацинамид, транексамовая кислота, аденозин и 11-комплекс гиалуроновой кислоты, 100 мл. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Несмываемая пузырьковая маска для ночного ухода",
+    "about": [
+     "Super Bubble Mask All-In-One — несмываемая пузырьковая маска-уход бренда KIFT для вечернего применения. Работает как маска-пак без тканевой основы: наносится на очищенную кожу и остаётся на ночь, помогая поддерживать увлажнённость и свежий вид кожи без дополнительных шагов рутины.",
+     "Формула объединяет ниацинамид, транексамовую кислоту, аденозин, пантенол и 11-комплекс гиалуроновой кислоты — увлажнение, сияние и косметическое выравнивание тона в одном средстве. Основной формат линейки — 100 мл, есть и пробный объём: удобно для сэмплинга, промо и тестовых отгрузок на новом рынке."
+    ],
+    "itemNotes": [
+     "Пузырьковая ночная маска «всё в одном» с ниацинамидом, транексамовой кислотой, аденозином, пантенолом и 11-комплексом гиалуроновой кислоты; увлажнение, сияние и косметическое выравнивание тона кожи за ночь, 100 мл."
+    ]
+   },
+   "en": {
+    "seoTitle": "Super Bubble Mask (KIFT) — overnight care · Teranova",
+    "seoDesc": "Super Bubble Mask by KIFT — a leave-on all-in-one bubble mask for overnight care: niacinamide, tranexamic acid, adenosine and an 11-hyaluronic acid complex, 100 ml. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "A leave-on bubble mask for overnight care",
+    "about": [
+     "Super Bubble Mask All-In-One is a leave-on bubble care mask by the KIFT brand for evening use. It works like a mask pack without a sheet base: applied to cleansed skin and left overnight, it helps keep the skin hydrated and looking fresh without extra steps in the routine.",
+     "The formula combines niacinamide, tranexamic acid, adenosine, panthenol and an 11-hyaluronic acid complex — hydration, radiance and cosmetic tone evening in a single product. The main format of the range is 100 ml, and there is also a trial volume: convenient for sampling, promos and test shipments in a new market."
+    ],
+    "itemNotes": [
+     "An all-in-one bubble overnight mask with niacinamide, tranexamic acid, adenosine, panthenol and an 11-complex of hyaluronic acid; overnight hydration, radiance and cosmetic tone evening, 100 ml."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Super Bubble Mask (KIFT) — 나이트 마스크 케어 · Teranova",
+    "seoDesc": "KIFT 브랜드의 Super Bubble Mask — 나이트 케어를 위한 씻어내지 않는 올인원 버블 마스크: 나이아신아마이드, 트라넥사믹애씨드, 아데노신, 판테놀, 11종 히알루론산 콤플렉스를 담은 100ml 포맷. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "나이트 케어를 위한 씻어내지 않는 버블 마스크",
+    "about": [
+     "Super Bubble Mask All-In-One은 저녁 사용을 위한 KIFT 브랜드의 씻어내지 않는 버블 케어 마스크입니다. 시트 없이 마스크 팩처럼 작동합니다: 세안 후 피부에 바르고 밤새 두어, 루틴에 단계를 더하지 않고도 피부의 수분감과 산뜻한 컨디션을 유지하도록 돕습니다.",
+     "처방은 나이아신아마이드, 트라넥사믹애씨드, 아데노신, 판테놀, 11종 히알루론산 콤플렉스를 결합해 보습, 광채, 화장품적 톤 정돈을 한 제품에 담았습니다. 라인의 기본 포맷은 100ml이며 체험용 용량도 있습니다: 샘플링, 프로모션, 신규 시장 테스트 출고에 편리합니다."
+    ],
+    "itemNotes": [
+     "나이아신아마이드, 트라넥삼산, 아데노신, 판테놀, 11종 히알루론산 복합체를 담은 올인원 버블 나이트 마스크; 밤 사이 수분, 광채, 피부 톤의 화장품적 정돈, 100 ml."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Super Bubble Mask (KIFT) — 夜间护理面膜 · Teranova",
+    "seoDesc": "KIFT 旗下 Super Bubble Mask — 夜间护理的免洗「全合一」气泡面膜：烟酰胺、氨甲环酸、腺苷与 11 重透明质酸复合物，100 毫升。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "夜间护理的免洗气泡面膜",
+    "about": [
+     "Super Bubble Mask All-In-One 是 KIFT 品牌用于晚间的免洗气泡护理面膜。它像没有织物基底的面膜贴一样工作：涂在清洁后的肌肤上并留置过夜，帮助维持肌肤的水润与清爽状态，无需额外的护理步骤。",
+     "配方将烟酰胺、氨甲环酸、腺苷、泛醇与 11 重透明质酸复合物合在一起——保湿、光泽与化妆品意义上的肤色均匀，集于一件产品。系列的主规格为 100 毫升，另有试用容量：便于取样、促销与新市场的试销发货。"
+    ],
+    "itemNotes": [
+     "全合一气泡夜间面膜，含烟酰胺、氨甲环酸、腺苷、泛醇及 11 重透明质酸复合物；一夜之间保湿、焕亮并均匀肤色，100 毫升。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Super Bubble Mask (KIFT) — 夜用ケアマスク · Teranova",
+    "seoDesc": "KIFT の Super Bubble Mask — 夜のケアのための洗い流さない「オールインワン」バブルマスク：ナイアシンアミド、トラネキサム酸、アデノシン、11 種のヒアルロン酸複合体、100 mL。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "夜のケアのための洗い流さないバブルマスク",
+    "about": [
+     "Super Bubble Mask All-In-One は、夜の使用に向けた KIFT ブランドの洗い流さないバブルケアマスクです。シート基材のないマスクパックのように働きます：洗顔後の肌に塗り、そのまま一晩おくことで、余分なステップなしに、うるおいと肌の澄んだ印象を保つのを助けます。",
+     "処方はナイアシンアミド、トラネキサム酸、アデノシン、パンテノール、11 種のヒアルロン酸複合体をまとめています——うるおい、ツヤ、化粧品としての肌色の均一さを一つの製品で。ラインの主要規格は 100 mL で、トライアル容量もあります：サンプリング、プロモーション、新市場でのテスト出荷に便利です。"
+    ],
+    "itemNotes": [
+     "ナイアシンアミド、トラネキサム酸、アデノシン、パンテノール、11 種のヒアルロン酸複合体を配合したオールインワンのバブルナイトマスク。一晩でうるおい、輝き、肌トーンの化粧的な均一化を、100 mL。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Super Bubble Mask (KIFT) — cura notturna · Teranova",
+    "seoDesc": "Super Bubble Mask di KIFT — maschera bubble all-in-one senza risciacquo per la cura notturna: niacinamide, acido tranexamico, adenosina e complesso di 11 tipi di acido ialuronico, 100 ml. Forniture all'ingrosso dalla Corea tramite Teranova.",
+    "tagline": "Maschera bubble senza risciacquo per la cura notturna",
+    "about": [
+     "Super Bubble Mask All-In-One è la maschera bubble senza risciacquo del brand KIFT per l'uso serale. Funziona come un pack senza supporto in tessuto: si applica sulla pelle detersa e resta per la notte, aiutando a mantenere l'idratazione e un aspetto fresco della pelle senza passaggi aggiuntivi nella routine.",
+     "La formula unisce niacinamide, acido tranexamico, adenosina, pantenolo e un complesso di 11 tipi di acido ialuronico — idratazione, luminosità e tono uniforme in senso cosmetico in un solo prodotto. Il formato principale della linea è da 100 ml, ed esiste anche un volume di prova: comodo per il sampling, le promozioni e le spedizioni di test su un nuovo mercato."
+    ],
+    "itemNotes": [
+     "Maschera notte a bolle «tutto in uno» con niacinamide, acido tranexamico, adenosina, pantenolo e complesso di 11 acidi ialuronici; idratazione, luminosità e uniformità cosmetica dell'incarnato durante la notte, 100 ml."
+    ]
+   },
+   "de": {
+    "seoTitle": "Super Bubble Mask (KIFT) — Nachtpflege · Teranova",
+    "seoDesc": "Super Bubble Mask von KIFT — Bubble-Pflegemaske «alles in einem» ohne Abspülen für die Nachtpflege: Niacinamid, Tranexamsäure, Adenosin und 11-Komplex Hyaluronsäure, 100 ml. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Bubble-Pflegemaske ohne Abspülen für die Nachtpflege",
+    "about": [
+     "Super Bubble Mask All-In-One ist die Bubble-Pflegemaske ohne Abspülen der Marke KIFT für die abendliche Anwendung. Sie funktioniert wie ein Maskenpack ohne Tuchbasis: Sie wird auf die gereinigte Haut aufgetragen und bleibt über Nacht, um die Feuchtigkeit und ein frisches Aussehen der Haut ohne zusätzliche Schritte der Routine zu unterstützen.",
+     "Die Formel vereint Niacinamid, Tranexamsäure, Adenosin, Panthenol und einen 11-Komplex Hyaluronsäure — Feuchtigkeit, Strahlkraft und kosmetisch ebenmäßigen Ton in einem Produkt. Das Hauptformat der Serie sind 100 ml, es gibt auch ein Probevolumen: praktisch für Sampling, Promotionen und Testlieferungen auf einem neuen Markt."
+    ],
+    "itemNotes": [
+     "Bubble-Nachtmaske «alles in einem» mit Niacinamid, Tranexamsäure, Adenosin, Panthenol und einem 11-fach-Hyaluronsäure-Komplex; Feuchtigkeit, Strahlkraft und kosmetische Vereinheitlichung des Hauttons über Nacht, 100 ml."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Super Bubble Mask (KIFT) — masque de nuit · Teranova",
+    "seoDesc": "Super Bubble Mask de KIFT — masque-soin à bulles sans rinçage, tout-en-un, pour la nuit : niacinamide, acide tranexamique, adénosine et complexe de 11 acides hyaluroniques, 100 ml. Approvisionnement en gros via Teranova.",
+    "tagline": "Masque à bulles sans rinçage pour le soin de nuit",
+    "about": [
+     "Super Bubble Mask All-In-One est le masque-soin à bulles sans rinçage de la marque KIFT, pour une application le soir. Il fonctionne comme un masque sans support tissu : il s'applique sur peau nettoyée et reste toute la nuit, aidant à maintenir l'hydratation et l'aspect frais de la peau sans étape supplémentaire dans la routine.",
+     "La formule associe niacinamide, acide tranexamique, adénosine, panthénol et un complexe de 11 acides hyaluroniques — hydratation, éclat et uniformité cosmétique du teint dans un seul produit. Le format principal de la gamme est 100 ml, et il existe aussi un volume d'essai : pratique pour l'échantillonnage, les promotions et les envois test sur un nouveau marché."
+    ],
+    "itemNotes": [
+     "Masque de nuit à bulles « tout-en-un » avec niacinamide, acide tranexamique, adénosine, panthénol et un complexe de 11 acides hyaluroniques ; hydratation, éclat et uniformisation cosmétique du teint pendant la nuit, 100 ml."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Super Bubble Mask (KIFT) — gece bakımı · Teranova",
+    "seoDesc": "KIFT imzalı Super Bubble Mask — gece bakımı için durulanmayan, hepsi bir arada baloncuklu maske: niasinamid, traneksamik asit, adenozin ve 11'li hyaluronik asit kompleksi, 100 ml. Kore'den toptan tedarik Teranova aracılığıyla.",
+    "tagline": "Gece bakımı için durulanmayan baloncuklu maske",
+    "about": [
+     "Super Bubble Mask All-In-One, KIFT markasının akşam kullanımına yönelik durulanmayan baloncuklu bakım maskesidir. Kumaş taban olmadan bir maske pak gibi çalışır: temizlenmiş cilde uygulanır ve gece boyunca kalır; rutine ek adım katmadan nemi ve cildin taze görünümünü korumaya yardımcı olur.",
+     "Formül niasinamid, traneksamik asit, adenozin, pantenol ve 11'li hyaluronik asit kompleksini bir araya getirir — tek üründe nemlendirme, ışıltı ve kozmetik anlamda eşit ton. Serinin ana formatı 100 ml'dir; deneme hacmi de vardır: örnekleme, promosyon ve yeni pazarda test sevkiyatları için elverişlidir."
+    ],
+    "itemNotes": [
+     "Niasinamid, traneksamik asit, adenozin, pantenol ve 11'li hyaluronik asit kompleksi içeren «hepsi bir arada» kabarcıklı gece maskesi; gece boyunca nemlendirme, ışıltı ve cilt tonunun kozmetik olarak eşitlenmesi, 100 ml."
+    ]
+   },
+   "es": {
+    "seoTitle": "Super Bubble Mask (KIFT) — mascarilla de noche · Teranova",
+    "seoDesc": "Super Bubble Mask de KIFT — mascarilla de burbujas sin aclarado «todo en uno» para la noche: niacinamida, ácido tranexámico, adenosina y complejo de 11 ácidos hialurónicos, 100 ml. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Mascarilla de burbujas sin aclarado para el cuidado de noche",
+    "about": [
+     "Super Bubble Mask All-In-One es la mascarilla de burbujas sin aclarado de la marca KIFT, pensada para la noche. Funciona como una mascarilla-pack sin soporte de tejido: se aplica sobre la piel limpia y permanece durante el descanso, ayudando a mantener la hidratación y el aspecto fresco de la piel sin añadir pasos a la rutina.",
+     "La fórmula reúne niacinamida, ácido tranexámico, adenosina, pantenol y un complejo de 11 ácidos hialurónicos: hidratación, luminosidad y un tono más uniforme a nivel cosmético en un mismo producto. El formato principal de la línea es de 100 ml, y existe además un tamaño de prueba, cómodo para muestreo, promociones y envíos de tanteo en un mercado nuevo."
+    ],
+    "itemNotes": [
+     "Mascarilla nocturna de burbujas «todo en uno» con niacinamida, ácido tranexámico, adenosina, pantenol y un complejo de 11 ácidos hialurónicos; hidratación, luminosidad y uniformización cosmética del tono de la piel durante la noche, 100 ml."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Super Bubble Mask (KIFT) — máscara noturna · Teranova",
+    "seoDesc": "Super Bubble Mask da KIFT — máscara de bolhas sem enxágue «tudo em um» para a noite: niacinamida, ácido tranexâmico, adenosina e complexo de 11 ácidos hialurônicos, 100 ml. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Máscara de bolhas sem enxágue para o cuidado da noite",
+    "about": [
+     "Super Bubble Mask All-In-One é a máscara de bolhas sem enxágue da marca KIFT, feita para o uso à noite. Ela age como um pack de máscara sem base de tecido: aplica-se na pele limpa e permanece durante o sono, ajudando a manter a hidratação e o aspecto descansado da pele sem acrescentar etapas à rotina.",
+     "A fórmula combina niacinamida, ácido tranexâmico, adenosina, pantenol e um complexo de 11 ácidos hialurônicos — hidratação, viço e uniformização cosmética do tom num produto só. O formato principal da linha é o de 100 ml, e há também uma versão de prova: prática para sampling, ações promocionais e remessas de teste num mercado novo."
+    ],
+    "itemNotes": [
+     "Máscara noturna de bolhas «tudo em um» com niacinamida, ácido tranexâmico, adenosina, pantenol e um complexo de 11 ácidos hialurônicos; hidratação, luminosidade e uniformização cosmética do tom da pele durante a noite, 100 ml."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "multi-solution-face-and-body-soap",
+  "supplierSlug": "kift",
+  "category": "cosmetics",
+  "lineName": "Multi-Solution Face & Body Soap",
+  "items": [
+   {
+    "name": "Multi-Solution Face & Body Soap – Original",
+    "img": "/img/suppliers/kift/products/multi-solution-face-body-soap-original.jpg",
+    "volume": "85 g",
+    "certs": []
+   },
+   {
+    "name": "Multi-Solution Face & Body Soap – Deep",
+    "img": "/img/suppliers/kift/products/multi-solution-face-body-soap-deep.jpg",
+    "volume": "85 g",
+    "certs": []
+   },
+   {
+    "name": "Multi-Solution Face & Body Soap – Discovery Kit",
+    "img": "/img/suppliers/kift/products/multi-solution-face-body-soap-discovery-kit.jpg",
+    "volume": "20 g x 2",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — бар для лица и тела · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap от KIFT — очищающий бар для лица и тела с 20% французской глины, серой и танинами: версии Original и Deep по 85 г и набор 20 г × 2. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Очищающий бар с французской глиной для лица и тела",
+    "about": [
+     "Multi-Solution Face & Body Soap — очищающий бар бренда KIFT для лица и тела на основе 20% французской глины с серой и танинами. Идея та же, что и у всей марки: одно средство вместо нескольких — очищение, уход в духе глиняной маски и мягкое отшелушивание в один шаг, для лица и для тела одновременно.",
+     "В линейке три позиции: базовая версия Original и версия Deep для более глубокого очищения — обе по 85 г, — и Discovery Kit из двух брусков по 20 г для знакомства с продуктом. Растительные масла жожоба, оливы и авокадо смягчают формулу, а малый формат набора удобен ретейлу как пробник и промо-инструмент."
+    ],
+    "itemNotes": [
+     "Многофункциональное мыло для лица и тела с 20% французской глины, серой, танинами и растительными маслами (жожоба, оливы, авокадо); очищение, уход как у глиняной маски и мягкое отшелушивание, 85 г.",
+     "Многофункциональное мыло для лица и тела в версии Deep для более глубокого очищения — с 20% французской глины, серой, танинами и растительными маслами; очищение, глиняный уход и отшелушивание, 85 г.",
+     "Набор-знакомство с многофункциональным мылом для лица и тела: два бруска на основе 20% французской глины с серой, танинами и растительными маслами для очищения и глиняного ухода, 20 г x 2."
+    ]
+   },
+   "en": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — cleansing bar · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap by KIFT — a cleansing bar for face and body with 20% French clay, sulphur and tannins: Original and Deep versions of 85 g and a 20 g × 2 kit. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "A cleansing bar with French clay for face and body",
+    "about": [
+     "Multi-Solution Face & Body Soap is a cleansing bar by the KIFT brand for face and body, based on 20% French clay with sulphur and tannins. The idea is the same as across the whole brand: one product instead of several — cleansing, clay-mask-style care and gentle exfoliation in a single step, for the face and the body at once.",
+     "The range has three items: the basic Original version and the Deep version for more thorough cleansing — both 85 g — and a Discovery Kit of two 20 g bars for getting to know the product. Plant oils of jojoba, olive and avocado soften the formula, while the small kit format is convenient for retail as a tester and a promo tool."
+    ],
+    "itemNotes": [
+     "A multifunctional face and body soap with 20% French clay, sulfur, tannins and plant oils (jojoba, olive, avocado); cleansing, clay-mask-like care and gentle exfoliation, 85 g.",
+     "A multifunctional face and body soap in the Deep version for deeper cleansing — with 20% French clay, sulfur, tannins and plant oils; cleansing, clay care and exfoliation, 85 g.",
+     "A discovery set with the multifunctional face and body soap: two bars based on 20% French clay with sulfur, tannins and plant oils for cleansing and clay care, 20 g x 2."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — 페이스·바디 바 · Teranova",
+    "seoDesc": "KIFT의 Multi-Solution Face & Body Soap — 프랑스 클레이 20%에 유황과 타닌을 담은 페이스·바디 클렌징 바: 85g Original과 Deep 버전, 20g × 2 구성의 Discovery Kit. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "프랑스 클레이를 담은 페이스·바디 클렌징 바",
+    "about": [
+     "Multi-Solution Face & Body Soap은 유황과 타닌을 더한 프랑스 클레이 20%를 기반으로 한 KIFT 브랜드의 페이스·바디 클렌징 바입니다. 브랜드 전체와 같은 아이디어입니다: 여러 제품 대신 하나로 — 세정, 클레이 마스크 같은 케어, 부드러운 각질 정돈을 한 단계에, 얼굴과 몸에 동시에.",
+     "라인은 세 품목입니다: 기본 Original 버전과 더 깊은 세정을 위한 Deep 버전 — 둘 다 85g — 그리고 제품을 처음 경험해 볼 수 있는 20g 바 두 개의 Discovery Kit. 호호바, 올리브, 아보카도 식물성 오일이 처방을 부드럽게 하며, 작은 키트 포맷은 리테일에서 체험용이자 프로모션 도구로 쓰기 좋습니다."
+    ],
+    "itemNotes": [
+     "프랑스 클레이 20%, 유황, 타닌, 식물성 오일(호호바, 올리브, 아보카도)을 담은 페이스·바디용 다기능 비누; 세정, 클레이 마스크 같은 케어, 부드러운 각질 정돈, 85 g.",
+     "더 깊은 세정을 위한 Deep 버전의 페이스·바디용 다기능 비누 — 프랑스 클레이 20%, 유황, 타닌, 식물성 오일 함유; 세정, 클레이 케어, 각질 정돈, 85 g.",
+     "페이스·바디용 다기능 비누 체험 세트: 세정과 클레이 케어를 위한 유황, 타닌, 식물성 오일이 담긴 프랑스 클레이 20% 기반 비누 두 개, 20 g x 2."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — 面部与身体洁净皂 · Teranova",
+    "seoDesc": "KIFT 旗下 Multi-Solution Face & Body Soap — 含 20% 法国黏土、硫与单宁的面部与身体洁净皂：Original 与 Deep 版本各 85 克，以及 20 克 × 2 套装。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "含法国黏土的面部与身体洁净皂",
+    "about": [
+     "Multi-Solution Face & Body Soap 是 KIFT 品牌的面部与身体洁净皂，以 20% 法国黏土为基础，并含硫与单宁。想法与整个品牌一致：一件产品代替数件——清洁、黏土面膜式的护理与温和去角质在一个步骤完成，面部与身体同时适用。",
+     "系列有三个品项：基础的 Original 版本与用于更深层清洁的 Deep 版本，均为 85 克；以及由两块 20 克组成的 Discovery Kit，用于初次尝试。荷荷巴、橄榄与牛油果植物油让配方更柔和，小规格套装则便于零售作为试用与促销工具。"
+    ],
+    "itemNotes": [
+     "含 20% 法国黏土、硫磺、单宁及植物油（荷荷巴、橄榄、牛油果）的面部与身体多功能皂；兼具清洁、黏土面膜般的护理及温和去角质，85 克。",
+     "面部与身体多功能皂的 Deep 版本，用于更深层清洁——含 20% 法国黏土、硫磺、单宁及植物油；清洁、黏土护理与去角质，85 克。",
+     "面部与身体多功能皂的入门套装：两块以 20% 法国黏土为基底、含硫磺、单宁及植物油的皂块，用于清洁与黏土护理，20 克 x 2。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — 洗浄バー · Teranova",
+    "seoDesc": "KIFT の Multi-Solution Face & Body Soap — フレンチクレイ 20%、硫黄、タンニンを配合したフェイス＆ボディ用洗浄バー：Original と Deep の各 85 g、20 g × 2 のセット。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "フレンチクレイ配合のフェイス＆ボディ用洗浄バー",
+    "about": [
+     "Multi-Solution Face & Body Soap は、フレンチクレイ 20% をベースに硫黄とタンニンを配合した、KIFT ブランドのフェイス＆ボディ用洗浄バーです。発想はブランド全体と同じ：いくつもの製品の代わりに一つで——洗浄、クレイマスクのようなケア、やさしい角質ケアを一つのステップで、顔にも体にも。",
+     "ラインは3品目です：ベーシックな Original と、より深い洗浄のための Deep(いずれも 85 g)、そしてお試し用に 20 g のバー 2 個を組んだ Discovery Kit。ホホバ、オリーブ、アボカドの植物オイルが処方をやわらげ、小さなセットは小売のサンプルやプロモーションのツールとして使いやすいものです。"
+    ],
+    "itemNotes": [
+     "20% のフレンチクレイ、硫黄、タンニン、植物油（ホホバ、オリーブ、アボカド）を配合したフェイス＆ボディ用多機能ソープ。洗浄、クレイマスクのようなケア、やさしい角質ケアを、85 g。",
+     "より深い洗浄のためのフェイス＆ボディ用多機能ソープの Deep バージョン——20% のフレンチクレイ、硫黄、タンニン、植物油を配合。洗浄、クレイケア、角質ケアを、85 g。",
+     "フェイス＆ボディ用多機能ソープの入門セット：20% のフレンチクレイをベースに硫黄、タンニン、植物油を配合した二つのバーで、洗浄とクレイケアを、20 g x 2。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — viso e corpo · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap di KIFT — panetto detergente viso e corpo con 20% di argilla francese, zolfo e tannini: versioni Original e Deep da 85 g e set 20 g × 2. Forniture all'ingrosso dalla Corea tramite Teranova.",
+    "tagline": "Panetto detergente all'argilla francese per viso e corpo",
+    "about": [
+     "Multi-Solution Face & Body Soap è il panetto detergente del brand KIFT per viso e corpo, a base di argilla francese al 20% con zolfo e tannini. L'idea è la stessa di tutto il marchio: un prodotto al posto di più — detersione, cura nello spirito di una maschera all'argilla ed esfoliazione delicata in un unico passaggio, per il viso e per il corpo insieme.",
+     "La linea conta tre referenze: la versione base Original e la versione Deep per una detersione più profonda — entrambe da 85 g — e il Discovery Kit con due panetti da 20 g per conoscere il prodotto. Gli oli vegetali di jojoba, oliva e avocado ammorbidiscono la formula, mentre il piccolo formato del set è comodo per il retail come campione e strumento promozionale."
+    ],
+    "itemNotes": [
+     "Sapone multifunzione per viso e corpo con 20% di argilla francese, zolfo, tannini e oli vegetali (jojoba, oliva, avocado); detersione, trattamento tipo maschera all'argilla ed esfoliazione delicata, 85 g.",
+     "Sapone multifunzione per viso e corpo nella versione Deep per una detersione più profonda — con 20% di argilla francese, zolfo, tannini e oli vegetali; detersione, trattamento all'argilla ed esfoliazione, 85 g.",
+     "Set di prova del sapone multifunzione per viso e corpo: due panetti a base di 20% di argilla francese con zolfo, tannini e oli vegetali per detersione e trattamento all'argilla, 20 g x 2."
+    ]
+   },
+   "de": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — Reinigungsstück · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap von KIFT — Reinigungsstück für Gesicht und Körper mit 20 % französischer Tonerde, Schwefel und Tanninen: Original und Deep à 85 g, Set 20 g × 2. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Reinigungsstück mit französischer Tonerde für Gesicht und Körper",
+    "about": [
+     "Multi-Solution Face & Body Soap ist das Reinigungsstück der Marke KIFT für Gesicht und Körper auf Basis von 20 % französischer Tonerde mit Schwefel und Tanninen. Die Idee ist dieselbe wie bei der ganzen Marke: ein Produkt statt mehrerer — Reinigung, Pflege im Geist einer Tonerdemaske und sanftes Peeling in einem Schritt, für Gesicht und Körper zugleich.",
+     "Die Serie umfasst drei Positionen: die Basisversion Original und die Version Deep für eine gründlichere Reinigung — beide zu je 85 g — sowie das Discovery Kit aus zwei Stücken zu je 20 g zum Kennenlernen des Produkts. Pflanzliche Öle aus Jojoba, Olive und Avocado machen die Rezeptur milder, und das kleine Format des Sets ist für den Einzelhandel als Probe und Promo-Instrument praktisch."
+    ],
+    "itemNotes": [
+     "Multifunktionale Seife für Gesicht und Körper mit 20% französischer Tonerde, Schwefel, Tanninen und pflanzlichen Ölen (Jojoba, Olive, Avocado); Reinigung, Pflege wie bei einer Tonerdemaske und sanftes Peeling, 85 g.",
+     "Multifunktionale Seife für Gesicht und Körper in der Version Deep für eine tiefere Reinigung — mit 20% französischer Tonerde, Schwefel, Tanninen und pflanzlichen Ölen; Reinigung, Tonerde-Pflege und Peeling, 85 g.",
+     "Kennenlern-Set der multifunktionalen Seife für Gesicht und Körper: zwei Stücke auf Basis von 20% französischer Tonerde mit Schwefel, Tanninen und pflanzlichen Ölen für Reinigung und Tonerde-Pflege, 20 g x 2."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — pain nettoyant · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap de KIFT — pain nettoyant visage et corps à 20 % d'argile française, soufre et tanins : versions Original et Deep de 85 g et set 20 g × 2. Approvisionnement en gros via Teranova.",
+    "tagline": "Pain nettoyant à l'argile française pour le visage et le corps",
+    "about": [
+     "Multi-Solution Face & Body Soap est le pain nettoyant de la marque KIFT pour le visage et le corps, à base de 20 % d'argile française avec soufre et tanins. L'idée est la même que pour toute la marque : un produit au lieu de plusieurs — nettoyage, soin dans l'esprit d'un masque à l'argile et exfoliation douce en une seule étape, pour le visage et le corps à la fois.",
+     "La gamme compte trois références : la version de base Original et la version Deep pour un nettoyage plus profond — toutes deux de 85 g — et le Discovery Kit de deux pains de 20 g pour découvrir le produit. Les huiles végétales de jojoba, d'olive et d'avocat adoucissent la formule, et le petit format du set est pratique pour le retail comme échantillon et outil promotionnel."
+    ],
+    "itemNotes": [
+     "Savon multifonction pour le visage et le corps avec 20 % d'argile française, soufre, tanins et huiles végétales (jojoba, olive, avocat) ; nettoyage, soin façon masque à l'argile et exfoliation douce, 85 g.",
+     "Savon multifonction pour le visage et le corps en version Deep pour un nettoyage plus en profondeur — avec 20 % d'argile française, soufre, tanins et huiles végétales ; nettoyage, soin à l'argile et exfoliation, 85 g.",
+     "Coffret découverte du savon multifonction pour le visage et le corps : deux pains à base de 20 % d'argile française avec soufre, tanins et huiles végétales pour le nettoyage et le soin à l'argile, 20 g x 2."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — yüz ve vücut · Teranova",
+    "seoDesc": "KIFT imzalı Multi-Solution Face & Body Soap — %20 Fransız kili, kükürt ve tanen içeren yüz ve vücut temizleme kalıbı: 85 g Original ve Deep versiyonları ile 20 g × 2 set. Kore'den toptan tedarik Teranova aracılığıyla.",
+    "tagline": "Yüz ve vücut için Fransız killi temizleme kalıbı",
+    "about": [
+     "Multi-Solution Face & Body Soap, KIFT markasının %20 Fransız kili, kükürt ve tanen bazlı yüz ve vücut temizleme kalıbıdır. Fikir markanın genelindekiyle aynı: birkaç ürün yerine tek ürün — temizleme, kil maskesi ruhunda bakım ve nazik peeling tek adımda, hem yüz hem vücut için.",
+     "Seride üç ürün yer alır: temel Original versiyonu ve daha derin temizlik için Deep versiyonu — ikisi de 85 g — ve ürünle tanışmak için 20 g'lık iki kalıptan oluşan Discovery Kit. Jojoba, zeytin ve avokado bitkisel yağları formülü yumuşatır; setin küçük formatı ise perakende için numune ve promosyon aracı olarak elverişlidir."
+    ],
+    "itemNotes": [
+     "%20 Fransız kili, kükürt, tanenler ve bitkisel yağlar (jojoba, zeytin, avokado) içeren yüz ve vücut için çok işlevli sabun; temizlik, kil maskesi benzeri bakım ve yumuşak peeling, 85 g.",
+     "Daha derin temizlik için Deep versiyonunda yüz ve vücut için çok işlevli sabun — %20 Fransız kili, kükürt, tanenler ve bitkisel yağlar içerir; temizlik, kil bakımı ve peeling, 85 g.",
+     "Yüz ve vücut için çok işlevli sabunun tanışma seti: temizlik ve kil bakımı için kükürt, tanenler ve bitkisel yağlarla %20 Fransız kili bazlı iki kalıp, 20 g x 2."
+    ]
+   },
+   "es": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — barra limpiadora · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap de KIFT — barra limpiadora para rostro y cuerpo con 20% de arcilla francesa, azufre y taninos: versiones Original y Deep de 85 g y estuche de 20 g × 2. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Barra limpiadora con arcilla francesa para rostro y cuerpo",
+    "about": [
+     "Multi-Solution Face & Body Soap es la barra limpiadora de la marca KIFT para rostro y cuerpo, formulada con un 20% de arcilla francesa junto a azufre y taninos. La idea es la misma que recorre toda la marca: un producto en lugar de varios — limpieza, cuidado en clave de mascarilla de arcilla y exfoliación suave en un solo paso, para el rostro y el cuerpo a la vez.",
+     "La línea reúne tres referencias: la versión base Original y la versión Deep para una limpieza más a fondo, ambas de 85 g, y el Discovery Kit con dos pastillas de 20 g para conocer el producto. Los aceites vegetales de jojoba, oliva y aguacate suavizan la fórmula, y el formato pequeño del estuche le sirve al comercio minorista como muestra y como herramienta promocional."
+    ],
+    "itemNotes": [
+     "Jabón multifuncional para rostro y cuerpo con 20% de arcilla francesa, azufre, taninos y aceites vegetales (jojoba, oliva, aguacate); limpieza, cuidado tipo mascarilla de arcilla y exfoliación suave, 85 g.",
+     "Jabón multifuncional para rostro y cuerpo en versión Deep para una limpieza más profunda — con 20% de arcilla francesa, azufre, taninos y aceites vegetales; limpieza, cuidado con arcilla y exfoliación, 85 g.",
+     "Set de iniciación con el jabón multifuncional para rostro y cuerpo: dos barras a base de 20% de arcilla francesa con azufre, taninos y aceites vegetales para la limpieza y el cuidado con arcilla, 20 g x 2."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Multi-Solution Soap (KIFT) — barra de limpeza · Teranova",
+    "seoDesc": "Multi-Solution Face & Body Soap da KIFT — barra de limpeza para rosto e corpo com 20% de argila francesa, enxofre e taninos: versões Original e Deep de 85 g e kit de 20 g × 2. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Barra de limpeza com argila francesa para rosto e corpo",
+    "about": [
+     "Multi-Solution Face & Body Soap é a barra de limpeza da marca KIFT para rosto e corpo, formulada com 20% de argila francesa, enxofre e taninos. A ideia é a mesma que atravessa toda a marca: um produto no lugar de vários — limpeza, cuidado no espírito de uma máscara de argila e esfoliação suave numa etapa só, para o rosto e o corpo ao mesmo tempo.",
+     "São três itens na linha: a versão base Original e a versão Deep, para uma limpeza mais profunda, ambas de 85 g, e o Discovery Kit com duas barras de 20 g para conhecer o produto. Os óleos vegetais de jojoba, oliva e abacate suavizam a fórmula, e o formato pequeno do kit serve ao varejo como amostra e como ferramenta de promoção."
+    ],
+    "itemNotes": [
+     "Sabonete multifuncional para rosto e corpo com 20% de argila francesa, enxofre, taninos e óleos vegetais (jojoba, oliva, abacate); limpeza, cuidado tipo máscara de argila e esfoliação suave, 85 g.",
+     "Sabonete multifuncional para rosto e corpo na versão Deep para uma limpeza mais profunda — com 20% de argila francesa, enxofre, taninos e óleos vegetais; limpeza, cuidado com argila e esfoliação, 85 g.",
+     "Kit de iniciação com o sabonete multifuncional para rosto e corpo: duas barras à base de 20% de argila francesa com enxofre, taninos e óleos vegetais para a limpeza e o cuidado com argila, 20 g x 2."
+    ]
+   }
+  }
+ }
+]

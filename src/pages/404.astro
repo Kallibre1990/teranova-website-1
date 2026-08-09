@@ -1,14 +1,38 @@
 ---
 import Base from '../layouts/Base.astro';
 import CenteredNotice from '../components/CenteredNotice.astro';
-import { ui } from '../i18n/ui';
+import { ui, languages, defaultLang, type Lang } from '../i18n/ui';
 import { localizePath } from '../i18n/utils';
 
-// Served for any unknown path. Default-locale (ru) chrome.
+// Served for any unknown path. The host returns this single file for every
+// locale, so the shell is rendered in ru and re-localized on load from the URL
+// prefix — otherwise a Korean visitor hitting a dead link lands in Russian.
 const lang = 'ru' as const;
 const t = ui[lang];
+const strings = Object.fromEntries(
+  (Object.keys(languages) as Lang[]).map((l) => [
+    l,
+    { ...ui[l].notfound, home: localizePath('/', l) },
+  ]),
+);
 ---
 
 <Base lang={lang} path="/404" title="404 · Teranova" description={t.notfound.body} noindex>
   <CenteredNotice icon="soon" title={t.notfound.title} body={t.notfound.body} backHref={localizePath('/', lang)} backLabel={t.notfound.back} />
 </Base>
+
+<script is:inline define:vars={{ strings, defaultLang }}>
+  (() => {
+    const seg = location.pathname.split('/').filter(Boolean)[0];
+    const lang = Object.prototype.hasOwnProperty.call(strings, seg) ? seg : defaultLang;
+    if (lang === defaultLang) return;
+    const s = strings[lang];
+    document.documentElement.lang = lang;
+    const title = document.querySelector('.notice__title');
+    const body = document.querySelector('.notice__body');
+    const back = document.querySelector('.notice__inner a');
+    if (title) title.textContent = s.title;
+    if (body) body.textContent = s.body;
+    if (back) { back.textContent = s.back; back.setAttribute('href', s.home); }
+  })();
+</script>

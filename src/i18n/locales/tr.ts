@@ -13,6 +13,7 @@ const tr: DeepPartial<UIDict> = {
     contacts: "İletişim",
     team: "Ekip",
     tenders: "İhaleler",
+    ondemand: "Talep üzerine",
   },
 
   common: {

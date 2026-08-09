@@ -30,6 +30,12 @@ import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
 import kiftCatalog from './suppliers-i18n/kift.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
+import dongdonggurimooLines from './suppliers-i18n/dongdonggurimoo.lines.json';
+import pineworldLines from './suppliers-i18n/pineworld.lines.json';
+import dreamcosLines from './suppliers-i18n/dreamcos.lines.json';
+import jetsglobalLines from './suppliers-i18n/jetsglobal.lines.json';
+import kiftLines from './suppliers-i18n/kift.lines.json';
+import ckRegeonLines from './suppliers-i18n/ck-regeon.lines.json';
 import dreamcosEn from './suppliers-i18n/dreamcos.en.json';
 import dreamcosKo from './suppliers-i18n/dreamcos.ko.json';
 import dreamcosZh from './suppliers-i18n/dreamcos.zh.json';
@@ -785,6 +791,7 @@ export const suppliers: SupplierProfile[] = [
 /* Dedicated, indexable line pages (SEO): one per important product line. */
 export interface SupplierLineItem {
   name: string;
+  img?: string;
   volume?: string;
   price?: string;
   certs?: string[];
@@ -800,6 +807,8 @@ export interface SupplierLinePage {
   slug: string;
   supplierSlug: string;
   category: CategoryKey;
+  /** Display name of the line, e.g. "Azulene Soother". */
+  lineName?: string;
   items: SupplierLineItem[];
   i18n: Partial<Record<Lang, SupplierLineContent>>;
 }
@@ -808,7 +817,13 @@ export const linePageContent = (p: SupplierLinePage, lang: Lang): SupplierLineCo
 export const supplierBySlug = (slug: string): SupplierProfile | undefined => suppliers.find((s) => s.slug === slug);
 export const supplierSlugs = suppliers.map((s) => s.slug);
 
-export const linePages: SupplierLinePage[] = santeLines as SupplierLinePage[];
+export const linePages: SupplierLinePage[] = [
+  ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
+  ...jetsglobalLines, ...kiftLines, ...ckRegeonLines,
+] as SupplierLinePage[];
+/** Lines of one supplier, in catalog order — used to link them from the profile. */
+export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>
+  linePages.filter((p) => p.supplierSlug === slug);
 export const linePageBySlug = (supplierSlug: string, slug: string): SupplierLinePage | undefined =>
   linePages.find((p) => p.supplierSlug === supplierSlug && p.slug === slug);
 /** Localized content with ru fallback. */

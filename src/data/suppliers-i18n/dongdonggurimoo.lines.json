@@ -1,0 +1,1819 @@
+[
+ {
+  "slug": "dr-derma-line",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Dr. Derma Line",
+  "items": [
+   {
+    "name": "Dr. Collagen Derma Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-collagen-derma-ampoule.jpg",
+    "volume": "30 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Ceramide Derma Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-ceramide-derma-ampoule.jpg",
+    "volume": "30 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Cica Derma Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-cica-derma-ampoule.jpg",
+    "volume": "30 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Vitamin C Derma Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-vitamin-c-derma-ampoule.jpg",
+    "volume": "30 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Cica Cure Cream",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-cica-cure-cream.jpg",
+    "volume": "70 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Ceramide Cure Cream",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-ceramide-cure-cream.jpg",
+    "volume": "70 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Snail Cure Cream",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-snail-cure-cream.jpg",
+    "volume": "70 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Dr. Collagen Hydrogel Eye Patch",
+    "img": "/img/suppliers/dongdonggurimoo/products/dr-collagen-hydrogel-eye-patch.jpg",
+    "volume": "90 g / 60 sheets",
+    "price": "3.21",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — ампулы и кремы · Teranova",
+    "seoDesc": "Линейка Dr. Derma Line от LEBELAGE — базовый уход на коллагене, керамидах, центелле и витамине C: ампулы 30 мл, кремы 70 мл и гидрогелевые патчи. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Ампулы и кремы на коллагене, керамидах и центелле",
+    "about": [
+     "Dr. Derma Line — «дерма»-линейка LEBELAGE, собранная вокруг четырёх понятных активов: коллагена, керамидов, центеллы (Cica) и витамина C. Каждый актив закрыт отдельной ампулой, поэтому уход легко подобрать под задачу — увлажнение и упругость, поддержка защитного барьера, комфорт чувствительной кожи или ровный тон.",
+     "В линейку входят четыре ампулы по 30 мл, три крема по 70 мл — с центеллой, керамидами и муцином улитки — и гидрогелевые патчи с коллагеном, 60 штук в банке. Компактный набор SKU в едином оформлении закрывает базовый уход без пересечений между позициями: удобно ставить на полку дрогери-сети, в маркетплейс или в стартовый заказ импортёра."
+    ],
+    "itemNotes": [
+     "Ампула с коллагеном для упругости и увлажнения кожи, 30 мл.",
+     "Ампула с керамидами для укрепления защитного барьера и увлажнения кожи, 30 мл.",
+     "Ампула с центеллой (CICA) для успокоения чувствительной кожи, 30 мл.",
+     "Ампула с витамином C для сияния и выравнивания тона кожи, 30 мл.",
+     "Восстанавливающий крем с центеллой для успокоения и защиты кожи, 70 мл.",
+     "Восстанавливающий крем с керамидами для укрепления барьера кожи, 70 мл.",
+     "Восстанавливающий крем с муцином улитки для питания и регенерации кожи, 70 мл.",
+     "Гидрогелевые патчи с коллагеном для упругости и увлажнения кожи вокруг глаз, 60 шт."
+    ]
+   },
+   "en": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — ampoules · Teranova",
+    "seoDesc": "The Dr. Derma Line range by LEBELAGE — basic care with collagen, ceramides, centella and vitamin C: 30 ml ampoules, 70 ml creams and hydrogel patches. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "Ampoules and creams with collagen, ceramides and centella",
+    "about": [
+     "Dr. Derma Line is LEBELAGE's “derma” range, assembled around four clear actives: collagen, ceramides, centella (Cica) and vitamin C. Each active has its own ampoule, so the care is easy to match to a task — hydration and firmness, support for the protective barrier, comfort for sensitive skin or an even tone.",
+     "The range includes four 30 ml ampoules, three 70 ml creams — with centella, ceramides and snail mucin — and hydrogel patches with collagen, 60 pieces per jar. A compact set of SKUs in unified packaging covers basic care with no overlap between items: convenient to place on the shelf of a drugstore chain, on a marketplace or in an importer's starter order."
+    ],
+    "itemNotes": [
+     "Collagen ampoule for firmer, hydrated skin, 30 ml.",
+     "Ceramide ampoule that strengthens the protective barrier and hydrates the skin, 30 ml.",
+     "Cica (Centella) ampoule to soothe sensitive skin, 30 ml.",
+     "Vitamin C ampoule for radiance and a more even skin tone, 30 ml.",
+     "Restorative Centella cream to soothe and protect the skin, 70 ml.",
+     "Restorative Ceramide cream that strengthens the skin barrier, 70 ml.",
+     "Restorative Snail mucin cream to nourish and renew the skin, 70 ml.",
+     "Collagen hydrogel patches for firmer, hydrated skin around the eyes, 60 pcs."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — 앰플과 크림 · Teranova",
+    "seoDesc": "LEBELAGE의 Dr. Derma Line 라인 — 콜라겐, 세라마이드, 센텔라(Cica), 비타민 C를 담은 베이직 케어: 30ml 앰플 4종, 70ml 크림 3종, 한 통에 60매가 든 콜라겐 하이드로겔 패치. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "콜라겐, 세라마이드, 센텔라를 담은 앰플과 크림",
+    "about": [
+     "Dr. Derma Line은 콜라겐, 세라마이드, 센텔라(Cica), 비타민 C라는 네 가지 명확한 활성 성분을 중심으로 구성한 LEBELAGE의 “더마” 라인입니다. 성분마다 별도의 앰플이 있어 보습과 탄력, 보호 장벽 지지, 민감한 피부의 편안함, 균일한 톤 등 목적에 맞춰 케어를 고르기 쉽습니다.",
+     "라인에는 30ml 앰플 4종, 센텔라·세라마이드·달팽이 뮤신을 담은 70ml 크림 3종, 그리고 한 통에 60매가 든 콜라겐 하이드로겔 패치가 포함됩니다. 통일된 디자인의 컴팩트한 SKU 구성은 품목 간 중복 없이 베이직 케어를 커버하여 드러그스토어 체인 매대, 마켓플레이스, 수입업체의 첫 주문에 올리기 좋습니다."
+    ],
+    "itemNotes": [
+     "피부 탄력과 수분을 위한 Collagen 앰플, 30 ml.",
+     "피부 보호 장벽 강화와 수분 공급을 위한 Ceramide 앰플, 30 ml.",
+     "민감한 피부를 진정시키는 Cica(Centella) 앰플, 30 ml.",
+     "피부 광채와 톤 정돈을 위한 Vitamin C 앰플, 30 ml.",
+     "피부 진정과 보호를 위한 Centella 리페어 크림, 70 ml.",
+     "피부 장벽 강화를 위한 Ceramide 리페어 크림, 70 ml.",
+     "피부 영양과 재생을 위한 Snail 뮤신 리페어 크림, 70 ml.",
+     "눈가 피부의 탄력과 수분을 위한 Collagen 하이드로겔 패치, 60매."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — 安瓶与面霜 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Dr. Derma Line 系列 — 以胶原蛋白、神经酰胺、积雪草与维生素 C 为核心的基础护理：30 毫升安瓶、70 毫升面霜与水凝胶眼膜。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "以胶原蛋白、神经酰胺与积雪草打造的安瓶与面霜",
+    "about": [
+     "Dr. Derma Line 是 LEBELAGE 的「derma」系列，围绕四种清晰的活性成分构建：胶原蛋白、神经酰胺、积雪草（Cica）与维生素 C。每种成分都对应一支单独的安瓶，因此可以按需求挑选护理——保湿与紧致、防护屏障的支持、敏感肌的舒适感，或均匀的肤色。",
+     "系列包含四款 30 毫升安瓶、三款 70 毫升面霜（积雪草、神经酰胺与蜗牛黏液），以及每罐 60 片的胶原蛋白水凝胶眼膜。统一设计的紧凑 SKU 组合覆盖基础护理，品项之间互不重叠：适合放进日化连锁的货架、电商平台，或进口商的首单。"
+    ],
+    "itemNotes": [
+     "蕴含Collagen的安瓶，赋予肌肤弹性并深层保湿，30ml。",
+     "蕴含Ceramide的安瓶，强化肌肤屏障并保湿，30ml。",
+     "蕴含Centella（Cica）的安瓶，舒缓敏感肌肤，30ml。",
+     "蕴含Vitamin C的安瓶，提亮并均匀肤色，30ml。",
+     "含Centella的修护面霜，舒缓并保护肌肤，70ml。",
+     "含Ceramide的修护面霜，强化肌肤屏障，70ml。",
+     "含Snail蜗牛黏液的修护面霜，滋养并修护肌肤，70ml。",
+     "含Collagen的水凝胶眼膜，紧致并滋润眼周肌肤，60片。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — アンプルとクリーム · Teranova",
+    "seoDesc": "LEBELAGE の Dr. Derma Line — コラーゲン、セラミド、ツボクサ、ビタミン C を軸としたベーシックケア：アンプル 30 mL、クリーム 70 mL、ハイドロゲルパッチ。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "コラーゲン、セラミド、ツボクサのアンプルとクリーム",
+    "about": [
+     "Dr. Derma Line は、コラーゲン、セラミド、ツボクサ(Cica)、ビタミン C という四つの分かりやすい有効成分を軸にまとめた LEBELAGE の「ダーマ」ラインです。それぞれの成分に個別のアンプルが用意されているため、目的に合わせてケアを選べます——うるおいとハリ、保護バリアのサポート、敏感肌の心地よさ、均一な肌色。",
+     "ラインには 30 mL のアンプル4種、70 mL のクリーム3種(ツボクサ、セラミド、カタツムリ粘液)、そしてコラーゲン配合のハイドロゲルパッチ(1瓶 60 枚)が含まれます。統一デザインのコンパクトな SKU 構成は、品目どうしが重ならずベーシックケアをカバーします：ドラッグストアチェーンの棚、マーケットプレイス、輸入業者の初回注文に置きやすい構成です。"
+    ],
+    "itemNotes": [
+     "Collagen配合のアンプルで、肌にハリと潤いを与えます、30ml。",
+     "Ceramide配合のアンプルで、肌のバリア機能を高め潤いを与えます、30ml。",
+     "Centella（Cica）配合のアンプルで、敏感な肌をやさしく整えます、30ml。",
+     "Vitamin C配合のアンプルで、肌に透明感を与え均一に整えます、30ml。",
+     "Centella配合の補修クリームで、肌を鎮静し保護します、70ml。",
+     "Ceramide配合の補修クリームで、肌のバリアを強化します、70ml。",
+     "Snail（カタツムリ粘液）配合の補修クリームで、肌に栄養を与え整えます、70ml。",
+     "Collagen配合のハイドロゲルアイパッチで、目もとの肌にハリと潤いを与えます、60枚。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — fiale e creme · Teranova",
+    "seoDesc": "La linea Dr. Derma Line di LEBELAGE — cura base con collagene, ceramidi, centella e vitamina C: fiale da 30 ml, creme da 70 ml e patch in idrogel. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+    "tagline": "Fiale e creme con collagene, ceramidi e centella",
+    "about": [
+     "Dr. Derma Line è la linea «derma» di LEBELAGE, costruita attorno a quattro attivi riconoscibili: collagene, ceramidi, centella (Cica) e vitamina C. Ogni attivo ha la sua fiala dedicata, così la routine si compone facilmente in base all'esigenza — idratazione e compattezza, sostegno della barriera protettiva, comfort delle pelli sensibili o incarnato uniforme.",
+     "La linea comprende quattro fiale da 30 ml, tre creme da 70 ml — con centella, ceramidi e mucina di lumaca — e patch in idrogel al collagene, 60 pezzi per vasetto. Un set compatto di SKU con un design unitario copre la cura di base senza sovrapposizioni tra le referenze: comodo da mettere a scaffale nelle catene drugstore, sui marketplace o in un primo ordine dell'importatore."
+    ],
+    "itemNotes": [
+     "Fiala con Collagen per l'elasticità e l'idratazione della pelle, 30 ml.",
+     "Fiala con Ceramide per rafforzare la barriera protettiva e idratare la pelle, 30 ml.",
+     "Fiala con Centella (Cica) per lenire la pelle sensibile, 30 ml.",
+     "Fiala con Vitamin C per la luminosità e l'uniformità del tono della pelle, 30 ml.",
+     "Crema riparatrice con Centella per lenire e proteggere la pelle, 70 ml.",
+     "Crema riparatrice con Ceramide per rafforzare la barriera cutanea, 70 ml.",
+     "Crema riparatrice con mucina di Snail per nutrire e rigenerare la pelle, 70 ml.",
+     "Patch in idrogel con Collagen per l'elasticità e l'idratazione del contorno occhi, 60 pz."
+    ]
+   },
+   "de": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — Ampullen & Cremes · Teranova",
+    "seoDesc": "Die Serie Dr. Derma Line von LEBELAGE — Basispflege mit Kollagen, Ceramiden, Centella und Vitamin C: Ampullen 30 ml, Cremes 70 ml und Hydrogel-Patches. Großhandelslieferungen aus Korea und Begleitung der Transaktion über Teranova.",
+    "tagline": "Ampullen und Cremes mit Kollagen, Ceramiden und Centella",
+    "about": [
+     "Dr. Derma Line ist die «Derma»-Serie von LEBELAGE, zusammengestellt rund um vier verständliche Wirkstoffe: Kollagen, Ceramide, Centella (Cica) und Vitamin C. Jeder Wirkstoff hat seine eigene Ampulle, deshalb lässt sich die Pflege leicht nach Bedarf auswählen — Feuchtigkeit und Elastizität, Unterstützung der Schutzbarriere, Komfort für empfindliche Haut oder ein ebenmäßiger Teint.",
+     "Zur Serie gehören vier Ampullen zu je 30 ml, drei Cremes zu je 70 ml — mit Centella, Ceramiden und Schneckensekretfiltrat — sowie Hydrogel-Patches mit Kollagen, 60 Stück im Tiegel. Das kompakte SKU-Set in einheitlicher Gestaltung deckt die Basispflege ohne Überschneidungen zwischen den Positionen ab: bequem für Drogerieketten, für Marktplätze oder für die Erstbestellung eines Importeurs."
+    ],
+    "itemNotes": [
+     "Ampulle mit Collagen für Elastizität und Feuchtigkeit der Haut, 30 ml.",
+     "Ampulle mit Ceramide zur Stärkung der Schutzbarriere und Feuchtigkeit der Haut, 30 ml.",
+     "Ampulle mit Centella (Cica) zur Beruhigung empfindlicher Haut, 30 ml.",
+     "Ampulle mit Vitamin C für Strahlkraft und einen ebenmäßigen Hautton, 30 ml.",
+     "Regenerierende Creme mit Centella zur Beruhigung und zum Schutz der Haut, 70 ml.",
+     "Regenerierende Creme mit Ceramide zur Stärkung der Hautbarriere, 70 ml.",
+     "Regenerierende Creme mit Snail-Mucin zur Pflege und Regeneration der Haut, 70 ml.",
+     "Hydrogel-Augenpatches mit Collagen für Elastizität und Feuchtigkeit der Augenpartie, 60 Stück."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — ampoules et crèmes · Teranova",
+    "seoDesc": "La gamme Dr. Derma Line de LEBELAGE — soin de base au collagène, aux céramides, à la centella et à la vitamine C : ampoules 30 ml, crèmes 70 ml et patchs hydrogel. Approvisionnement en gros depuis la Corée via Teranova.",
+    "tagline": "Ampoules et crèmes au collagène, céramides et centella",
+    "about": [
+     "Dr. Derma Line est la gamme « derma » de LEBELAGE, réunie autour de quatre actifs lisibles : collagène, céramides, centella (Cica) et vitamine C. Chaque actif dispose de sa propre ampoule, ce qui permet de composer facilement le soin selon le besoin — hydratation et fermeté, soutien de la barrière protectrice, confort des peaux sensibles ou uniformité du teint.",
+     "La gamme comprend quatre ampoules de 30 ml, trois crèmes de 70 ml — à la centella, aux céramides et au filtrat de bave d'escargot — et des patchs hydrogel au collagène, 60 unités par pot. Cet ensemble compact de références au design unifié couvre le soin de base sans recoupements entre les produits : pratique pour les chaînes de drogueries, pour les marketplaces ou pour la première commande d'un importateur."
+    ],
+    "itemNotes": [
+     "Ampoule au Collagen pour la fermeté et l'hydratation de la peau, 30 ml.",
+     "Ampoule aux Ceramide pour renforcer la barrière protectrice et hydrater la peau, 30 ml.",
+     "Ampoule à la Centella (Cica) pour apaiser les peaux sensibles, 30 ml.",
+     "Ampoule à la Vitamin C pour l'éclat et l'uniformité du teint, 30 ml.",
+     "Crème réparatrice à la Centella pour apaiser et protéger la peau, 70 ml.",
+     "Crème réparatrice aux Ceramide pour renforcer la barrière cutanée, 70 ml.",
+     "Crème réparatrice à la bave d'escargot (Snail) pour nourrir et régénérer la peau, 70 ml.",
+     "Patchs hydrogel au Collagen pour la fermeté et l'hydratation du contour des yeux, 60 pièces."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — ampul ve krem · Teranova",
+    "seoDesc": "LEBELAGE imzalı Dr. Derma Line — kolajen, seramid, centella ve C vitamini ile temel bakım: 30 ml ampuller, 70 ml kremler ve hidrojel bantlar. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Kolajen, seramid ve centella içeren ampuller ve kremler",
+    "about": [
+     "Dr. Derma Line, LEBELAGE'ın dört anlaşılır aktif etrafında topladığı «derma» serisidir: kolajen, seramid, centella (Cica) ve C vitamini. Her aktif için ayrı bir ampul bulunur; böylece bakım ihtiyaca göre kolayca seçilir — nemlendirme ve sıkılık, koruyucu bariyerin desteklenmesi, hassas ciltte konfor veya eşit ton.",
+     "Seride 30 ml'lik dört ampul, centella, seramid ve salyangoz müsini içeren 70 ml'lik üç krem ve kavanozda 60 adet kolajenli hidrojel bant yer alır. Tek tasarımda toplanmış kompakt SKU seti, ürünler arasında çakışma olmadan temel bakımı kapatır: drogeri zincirlerinin rafına, pazar yerlerine veya ithalatçının başlangıç siparişine koymak kolaydır."
+    ],
+    "itemNotes": [
+     "Cildin sıkılığı ve nemlendirilmesi için Collagen içeren ampul, 30 ml.",
+     "Koruyucu bariyeri güçlendirmek ve cildi nemlendirmek için Ceramide içeren ampul, 30 ml.",
+     "Hassas cildi yatıştırmak için Centella (Cica) içeren ampul, 30 ml.",
+     "Cilt tonunu aydınlatmak ve eşitlemek için Vitamin C içeren ampul, 30 ml.",
+     "Cildi yatıştırmak ve korumak için Centella içeren onarıcı krem, 70 ml.",
+     "Cilt bariyerini güçlendirmek için Ceramide içeren onarıcı krem, 70 ml.",
+     "Cildi beslemek ve yenilemek için salyangoz mukini (Snail) içeren onarıcı krem, 70 ml.",
+     "Göz çevresinin sıkılığı ve nemlendirilmesi için Collagen içeren hidrojel patchler, 60 adet."
+    ]
+   },
+   "es": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — ampollas y cremas · Teranova",
+    "seoDesc": "La línea Dr. Derma Line de LEBELAGE — cuidado básico con colágeno, ceramidas, centella y vitamina C: ampollas de 30 ml, cremas de 70 ml y parches de hidrogel. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
+    "tagline": "Ampollas y cremas con colágeno, ceramidas y centella",
+    "about": [
+     "Dr. Derma Line es la línea «derma» de LEBELAGE, organizada alrededor de cuatro activos reconocibles: colágeno, ceramidas, centella (Cica) y vitamina C. Cada activo tiene su propia ampolla, de modo que el cuidado se elige según la necesidad: hidratación y firmeza, apoyo de la barrera protectora, confort de la piel sensible o tono uniforme.",
+     "La línea reúne cuatro ampollas de 30 ml, tres cremas de 70 ml —con centella, ceramidas y mucina de caracol— y parches de hidrogel con colágeno, 60 unidades por tarro. Un conjunto compacto de referencias con un diseño único cubre el cuidado básico sin solaparse entre sí: cómodo de colocar en cadenas de droguería, en marketplaces o en el primer pedido de un importador."
+    ],
+    "itemNotes": [
+     "Ampolla con Collagen para la firmeza e hidratación de la piel, 30 ml.",
+     "Ampolla con Ceramide para reforzar la barrera protectora e hidratar la piel, 30 ml.",
+     "Ampolla con Centella (Cica) para calmar la piel sensible, 30 ml.",
+     "Ampolla con Vitamin C para la luminosidad y uniformidad del tono de la piel, 30 ml.",
+     "Crema reparadora con Centella para calmar y proteger la piel, 70 ml.",
+     "Crema reparadora con Ceramide para reforzar la barrera de la piel, 70 ml.",
+     "Crema reparadora con mucina de Snail para nutrir y regenerar la piel, 70 ml.",
+     "Parches de hidrogel con Collagen para la firmeza e hidratación del contorno de ojos, 60 uds."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Dr. Derma Line (LEBELAGE) — ampolas e cremes · Teranova",
+    "seoDesc": "Linha Dr. Derma Line da LEBELAGE — cuidado básico com colágeno, ceramidas, centela e vitamina C: ampolas de 30 ml, cremes de 70 ml e adesivos de hidrogel. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
+    "tagline": "Ampolas e cremes com colágeno, ceramidas e centela",
+    "about": [
+     "Dr. Derma Line é a linha «derma» da LEBELAGE, montada em torno de quatro ativos fáceis de explicar: colágeno, ceramidas, centela (Cica) e vitamina C. Cada ativo ganhou a sua própria ampola, então o cuidado se escolhe pela necessidade — hidratação e firmeza, apoio à barreira protetora, conforto da pele sensível ou tom uniforme.",
+     "Fazem parte da linha quatro ampolas de 30 ml, três cremes de 70 ml — com centela, ceramidas e mucina de caracol — e adesivos de hidrogel com colágeno, 60 unidades por pote. Um conjunto enxuto de SKUs com identidade visual única cobre o cuidado básico sem sobreposição entre os itens: fácil de colocar em redes de drogaria, em marketplace ou no pedido inicial do importador."
+    ],
+    "itemNotes": [
+     "Ampola com Collagen para a firmeza e hidratação da pele, 30 ml.",
+     "Ampola com Ceramide para reforçar a barreira protetora e hidratar a pele, 30 ml.",
+     "Ampola com Centella (Cica) para acalmar a pele sensível, 30 ml.",
+     "Ampola com Vitamin C para a luminosidade e uniformidade do tom da pele, 30 ml.",
+     "Creme reparador com Centella para acalmar e proteger a pele, 70 ml.",
+     "Creme reparador com Ceramide para reforçar a barreira da pele, 70 ml.",
+     "Creme reparador com mucina de Snail para nutrir e regenerar a pele, 70 ml.",
+     "Patches de hidrogel com Collagen para a firmeza e hidratação do contorno dos olhos, 60 un."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "cica-and-centella-care",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Cica & Centella Care",
+  "items": [
+   {
+    "name": "Cica Madecassoside Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-madecassoside-ampoule.jpg",
+    "volume": "35 ml",
+    "price": "3.72",
+    "certs": []
+   },
+   {
+    "name": "Cica Madecassoside Cream",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-madecassoside-cream.jpg",
+    "volume": "55 ml",
+    "price": "3.72",
+    "certs": []
+   },
+   {
+    "name": "Cica Madecassoside Toner",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-madecassoside-toner.jpg",
+    "volume": "120 ml",
+    "price": "3.72",
+    "certs": []
+   },
+   {
+    "name": "Cica Propolis Myrrh Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-propolis-myrrh-ampoule.jpg",
+    "volume": "15 ml",
+    "price": "1.28",
+    "certs": []
+   },
+   {
+    "name": "Deep Cica Facial Mist",
+    "img": "/img/suppliers/dongdonggurimoo/products/deep-cica-facial-mist.jpg",
+    "volume": "120 ml",
+    "price": "1.28",
+    "certs": []
+   },
+   {
+    "name": "Centella Moisture Skin",
+    "img": "/img/suppliers/dongdonggurimoo/products/centella-moisture-skin.jpg",
+    "volume": "150 ml",
+    "price": "1.93",
+    "certs": []
+   },
+   {
+    "name": "Centella Moisture Lotion",
+    "img": "/img/suppliers/dongdonggurimoo/products/centella-moisture-lotion.jpg",
+    "volume": "150 ml",
+    "price": "1.93",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — центелла · Teranova",
+    "seoDesc": "Линейка Cica & Centella Care от LEBELAGE — успокаивающий уход на центелле, мадекассосиде и прополисе: тонеры, эмульсия, ампулы, крем и мист. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Полный цикл ухода на центелле и мадекассосиде",
+    "about": [
+     "Cica & Centella Care — линейка LEBELAGE вокруг центеллы азиатской и её очищенной фракции, мадекассосида. Это классическое корейское направление ухода за чувствительной, склонной к покраснениям и уставшей кожей: составы работают мягко, на успокоение и комфорт, и рассчитаны на ежедневное применение круглый год.",
+     "Линейка построена по полному циклу: тонеры Cica Madecassoside 120 мл и Centella Moisture 150 мл, эмульсия 150 мл, крем 55 мл, концентрированная ампула 35 мл, ампула с прополисом и миррой 15 мл и успокаивающий мист 120 мл. Cica — один из самых узнаваемых запросов в рознице и на маркетплейсах, поэтому линейку удобно брать целиком, как готовую полку."
+    ],
+    "itemNotes": [
+     "Концентрированная ампула с центеллой и мадекассосидом для успокоения и тонуса кожи, 35 мл.",
+     "Питательный крем с центеллой и мадекассосидом для смягчения и восстановления кожи, 55 мл.",
+     "Тонер с центеллой и мадекассосидом для очищения и увлажнения кожи, 120 мл.",
+     "Ампула с прополисом, миррой и центеллой для питания и увлажнения кожи, 15 мл.",
+     "Успокаивающий мист с центеллой для увлажнения и освежения кожи в течение дня, 120 мл.",
+     "Увлажняющий тонер с центеллой для смягчения и подготовки кожи к уходу, 150 мл.",
+     "Увлажняющая эмульсия с центеллой для смягчения и питания кожи, 150 мл."
+    ]
+   },
+   "en": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — wholesale · Teranova",
+    "seoDesc": "The Cica & Centella Care range by LEBELAGE — soothing care with centella, madecassoside and propolis: toners, an emulsion, ampoules, a cream and a mist. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "A full care cycle with centella and madecassoside",
+    "about": [
+     "Cica & Centella Care is LEBELAGE's range around Centella asiatica and its purified fraction, madecassoside. This is a classic Korean direction of care for sensitive, redness-prone and tired skin: the formulas work gently, for soothing and comfort, and are designed for daily use all year round.",
+     "The range is built as a full cycle: Cica Madecassoside 120 ml and Centella Moisture 150 ml toners, a 150 ml emulsion, a 55 ml cream, a 35 ml concentrated ampoule, a 15 ml ampoule with propolis and myrrh and a 120 ml soothing mist. Cica is one of the most recognizable requests in retail and on marketplaces, so the range is convenient to take as a whole, as a ready-made shelf."
+    ],
+    "itemNotes": [
+     "Concentrated Cica and Madecassoside ampoule to soothe and tone the skin, 35 ml.",
+     "Nourishing Cica and Madecassoside cream to soften and restore the skin, 55 ml.",
+     "Cica and Madecassoside toner to cleanse and hydrate the skin, 120 ml.",
+     "Propolis, Myrrh and Centella ampoule to nourish and hydrate the skin, 15 ml.",
+     "Soothing Centella mist to hydrate and refresh the skin throughout the day, 120 ml.",
+     "Hydrating Centella toner to soften and prepare the skin for care, 150 ml.",
+     "Hydrating Centella emulsion to soften and nourish the skin, 150 ml."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — 센텔라 · Teranova",
+    "seoDesc": "LEBELAGE의 Cica & Centella Care 라인 — 병풀(센텔라 아시아티카), 마데카소사이드, 프로폴리스를 담은 민감 피부용 진정 케어: 토너 2종, 에멀전, 앰플 2종, 크림, 진정 미스트로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "센텔라와 마데카소사이드로 완성하는 풀 케어 사이클",
+    "about": [
+     "Cica & Centella Care는 병풀(센텔라 아시아티카)과 그 정제 분획인 마데카소사이드를 중심으로 한 LEBELAGE의 라인입니다. 민감하고 붉어지기 쉬우며 지친 피부를 위한 한국의 대표적인 케어 방향으로, 처방은 진정과 편안함에 초점을 맞춰 부드럽게 작용하며 사계절 데일리 사용을 염두에 두고 있습니다.",
+     "라인은 풀 사이클로 구성됩니다: Cica Madecassoside 토너 120ml와 Centella Moisture 토너 150ml, 에멀전 150ml, 크림 55ml, 고농축 앰플 35ml, 프로폴리스와 미르를 담은 앰플 15ml, 진정 미스트 120ml. Cica는 리테일과 마켓플레이스에서 가장 잘 알려진 키워드 중 하나여서, 라인을 통째로 들여와 완성된 매대로 활용하기 좋습니다."
+    ],
+    "itemNotes": [
+     "피부 진정과 탄력을 위한 고농축 Cica·Madecassoside 앰플, 35 ml.",
+     "피부 유연과 회복을 위한 영양 Cica·Madecassoside 크림, 55 ml.",
+     "피부 정돈과 수분 공급을 위한 Cica·Madecassoside 토너, 120 ml.",
+     "피부 영양과 수분을 위한 Propolis·Myrrh·Centella 앰플, 15 ml.",
+     "하루 종일 피부에 수분과 생기를 더하는 Centella 진정 미스트, 120 ml.",
+     "피부를 유연하게 하고 다음 케어 단계를 준비하는 Centella 수분 토너, 150 ml.",
+     "피부를 유연하게 하고 영양을 공급하는 Centella 수분 에멀전, 150 ml."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — 积雪草 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Cica & Centella Care 系列 — 以积雪草、羟基积雪草苷与蜂胶打造的舒缓护理：爽肤水、乳液、安瓶、面霜与喷雾。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "以积雪草与羟基积雪草苷打造的全流程护理",
+    "about": [
+     "Cica & Centella Care 是 LEBELAGE 围绕积雪草及其纯化成分羟基积雪草苷打造的系列。这是韩国经典的护理方向，面向敏感、易泛红与疲惫的肌肤：配方作用温和，以舒缓与舒适为目标，可全年每日使用。",
+     "系列按完整流程构建：Cica Madecassoside 爽肤水 120 毫升与 Centella Moisture 爽肤水 150 毫升、乳液 150 毫升、面霜 55 毫升、浓缩安瓶 35 毫升、蜂胶与没药安瓶 15 毫升，以及舒缓喷雾 120 毫升。Cica 是零售与电商平台上最具辨识度的需求之一，因此整条系列可以作为现成的货架一次性引入。"
+    ],
+    "itemNotes": [
+     "含Centella与Madecassoside的高浓度安瓶，舒缓并紧致肌肤，35ml。",
+     "含Centella与Madecassoside的滋养面霜，柔嫩并修护肌肤，55ml。",
+     "含Centella与Madecassoside的爽肤水，洁净并保湿肌肤，120ml。",
+     "含Propolis蜂胶、Myrrh没药与Centella的安瓶，滋养并保湿肌肤，15ml。",
+     "含Centella的舒缓喷雾，全天保湿并焕活肌肤，120ml。",
+     "含Centella的保湿化妆水，柔嫩肌肤并为后续护理打底，150ml。",
+     "含Centella的保湿乳液，柔嫩并滋养肌肤，150ml。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — ツボクサ · Teranova",
+    "seoDesc": "LEBELAGE の Cica & Centella Care — ツボクサ、マデカッソシド、プロポリスによる鎮静ケア：トナー、エマルジョン、アンプル、クリーム、ミスト。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "ツボクサとマデカッソシドによるフルステップケア",
+    "about": [
+     "Cica & Centella Care は、ツボクサとその精製成分であるマデカッソシドを中心にまとめた LEBELAGE のラインです。敏感で赤みが出やすく、疲れた肌のための韓国の定番ケア分野：処方はおだやかに働き、鎮静と心地よさを目的とし、一年を通じた毎日の使用を想定しています。",
+     "ラインはフルステップで構成されます：Cica Madecassoside トナー 120 mL と Centella Moisture トナー 150 mL、エマルジョン 150 mL、クリーム 55 mL、濃縮アンプル 35 mL、プロポリスとミルラのアンプル 15 mL、鎮静ミスト 120 mL。Cica は小売やマーケットプレイスで最も分かりやすいニーズの一つであり、ライン全体を出来合いの棚としてまとめて仕入れやすい構成です。"
+    ],
+    "itemNotes": [
+     "CentellaとMadecassoside配合の高濃度アンプルで、肌を鎮静しハリを与えます、35ml。",
+     "CentellaとMadecassoside配合の栄養クリームで、肌をやわらげ整えます、55ml。",
+     "CentellaとMadecassoside配合のトナーで、肌を清潔にし潤いを与えます、120ml。",
+     "Propolis、Myrrh、Centella配合のアンプルで、肌に栄養と潤いを与えます、15ml。",
+     "Centella配合の鎮静ミストで、日中の肌に潤いとリフレッシュを与えます、120ml。",
+     "Centella配合の保湿トナーで、肌をやわらげ次のケアへ整えます、150ml。",
+     "Centella配合の保湿エマルジョンで、肌をやわらげ栄養を与えます、150ml。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — centella ingrosso · Teranova",
+    "seoDesc": "La linea Cica & Centella Care di LEBELAGE — trattamento lenitivo con centella, madecassoside e propoli: tonici, emulsione, fiale, crema e mist. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+    "tagline": "Routine completa con centella e madecassoside",
+    "about": [
+     "Cica & Centella Care è la linea LEBELAGE dedicata alla Centella asiatica e alla sua frazione purificata, il madecassoside. È una direzione classica della cosmetica coreana per pelli sensibili, con tendenza ai rossori e affaticate: le formule agiscono in modo delicato, per lenire e dare comfort, e sono pensate per l'uso quotidiano tutto l'anno.",
+     "La linea segue la routine completa: tonici Cica Madecassoside da 120 ml e Centella Moisture da 150 ml, emulsione da 150 ml, crema da 55 ml, fiala concentrata da 35 ml, fiala con propoli e mirra da 15 ml e mist lenitivo da 120 ml. Cica è una delle richieste più riconoscibili nel retail e sui marketplace, perciò la linea si presta a essere presa per intero, come uno scaffale già pronto."
+    ],
+    "itemNotes": [
+     "Fiala concentrata con Centella e Madecassoside per lenire e tonificare la pelle, 35 ml.",
+     "Crema nutriente con Centella e Madecassoside per ammorbidire e rigenerare la pelle, 55 ml.",
+     "Toner con Centella e Madecassoside per detergere e idratare la pelle, 120 ml.",
+     "Fiala con propoli, mirra e Centella per nutrire e idratare la pelle, 15 ml.",
+     "Mist lenitivo con Centella per idratare e rinfrescare la pelle durante il giorno, 120 ml.",
+     "Toner idratante con Centella per ammorbidire e preparare la pelle al trattamento, 150 ml.",
+     "Emulsione idratante con Centella per ammorbidire e nutrire la pelle, 150 ml."
+    ]
+   },
+   "de": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — Centella · Teranova",
+    "seoDesc": "Die Serie Cica & Centella Care von LEBELAGE — beruhigende Pflege mit Centella, Madecassosid und Propolis: Toner, Emulsion, Ampullen, Creme und Mist. Großhandelslieferungen aus Korea und Begleitung der Transaktion über Teranova.",
+    "tagline": "Vollständiger Pflegezyklus mit Centella und Madecassosid",
+    "about": [
+     "Cica & Centella Care ist die Serie von LEBELAGE rund um Centella asiatica und ihre gereinigte Fraktion Madecassosid. Das ist eine klassische koreanische Pflegerichtung für empfindliche, zu Rötungen neigende und müde Haut: Die Rezepturen wirken mild, auf Beruhigung und Komfort, und sind für die tägliche Anwendung das ganze Jahr über gedacht.",
+     "Die Serie ist als vollständiger Zyklus aufgebaut: Toner Cica Madecassoside 120 ml und Centella Moisture 150 ml, Emulsion 150 ml, Creme 55 ml, konzentrierte Ampulle 35 ml, Ampulle mit Propolis und Myrrhe 15 ml und beruhigender Mist 120 ml. Cica ist eine der bekanntesten Anfragen im Einzelhandel und auf Marktplätzen, deshalb lässt sich die Serie bequem komplett übernehmen — als fertiges Regal."
+    ],
+    "itemNotes": [
+     "Konzentrierte Ampulle mit Centella und Madecassoside zur Beruhigung und Straffung der Haut, 35 ml.",
+     "Nährende Creme mit Centella und Madecassoside zum Geschmeidigmachen und Regenerieren der Haut, 55 ml.",
+     "Toner mit Centella und Madecassoside zur Reinigung und Feuchtigkeit der Haut, 120 ml.",
+     "Ampulle mit Propolis, Myrrhe und Centella zur Pflege und Feuchtigkeit der Haut, 15 ml.",
+     "Beruhigender Mist mit Centella zur Feuchtigkeit und Erfrischung der Haut im Laufe des Tages, 120 ml.",
+     "Feuchtigkeitsspendender Toner mit Centella zum Geschmeidigmachen und Vorbereiten der Haut auf die Pflege, 150 ml.",
+     "Feuchtigkeitsspendende Emulsion mit Centella zum Geschmeidigmachen und Pflegen der Haut, 150 ml."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — centella en gros · Teranova",
+    "seoDesc": "La gamme Cica & Centella Care de LEBELAGE — soin apaisant à la centella, au madécassoside et à la propolis : toniques, émulsion, ampoules, crème et brume. Approvisionnement en gros depuis la Corée via Teranova.",
+    "tagline": "Cycle de soin complet à la centella et au madécassoside",
+    "about": [
+     "Cica & Centella Care est la gamme de LEBELAGE construite autour de la centella asiatica et de sa fraction purifiée, le madécassoside. C'est une direction coréenne classique du soin des peaux sensibles, sujettes aux rougeurs et fatiguées : les formules agissent en douceur, sur l'apaisement et le confort, et sont pensées pour un usage quotidien toute l'année.",
+     "La gamme suit un cycle complet : toniques Cica Madecassoside 120 ml et Centella Moisture 150 ml, émulsion 150 ml, crème 55 ml, ampoule concentrée 35 ml, ampoule à la propolis et à la myrrhe 15 ml et brume apaisante 120 ml. La Cica est l'une des demandes les plus reconnues en magasin et sur les marketplaces, ce qui rend la gamme facile à prendre en entier, comme un linéaire prêt à l'emploi."
+    ],
+    "itemNotes": [
+     "Ampoule concentrée à la Centella et au Madecassoside pour apaiser et tonifier la peau, 35 ml.",
+     "Crème nourrissante à la Centella et au Madecassoside pour adoucir et restaurer la peau, 55 ml.",
+     "Tonique à la Centella et au Madecassoside pour purifier et hydrater la peau, 120 ml.",
+     "Ampoule à la propolis, à la myrrhe et à la Centella pour nourrir et hydrater la peau, 15 ml.",
+     "Brume apaisante à la Centella pour hydrater et rafraîchir la peau tout au long de la journée, 120 ml.",
+     "Tonique hydratant à la Centella pour adoucir et préparer la peau aux soins, 150 ml.",
+     "Émulsion hydratante à la Centella pour adoucir et nourrir la peau, 150 ml."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — centella toptan · Teranova",
+    "seoDesc": "LEBELAGE imzalı Cica & Centella Care — centella, madekassosid ve propolis içeren yatıştırıcı bakım: tonikler, emülsiyon, ampuller, krem ve mist. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Centella ve madekassosid ile tam bakım döngüsü",
+    "about": [
+     "Cica & Centella Care, LEBELAGE'ın Centella asiatica ve onun saflaştırılmış fraksiyonu madekassosid etrafında kurduğu seridir. Bu, hassas, kızarmaya eğilimli ve yorgun ciltler için klasik bir Kore bakım yönüdür: formüller yatıştırma ve konfor için nazik çalışır ve yıl boyu günlük kullanıma göre tasarlanmıştır.",
+     "Seri tam döngü üzerine kuruludur: 120 ml Cica Madecassoside ve 150 ml Centella Moisture tonikleri, 150 ml emülsiyon, 55 ml krem, 35 ml konsantre ampul, 15 ml propolis ve mür içeren ampul ve 120 ml yatıştırıcı mist. Cica, perakendede ve pazar yerlerinde en tanınan taleplerden biridir; bu nedenle seriyi hazır bir raf gibi bütün olarak almak kolaydır."
+    ],
+    "itemNotes": [
+     "Cildi yatıştırmak ve tonlamak için Centella ve Madecassoside içeren konsantre ampul, 35 ml.",
+     "Cildi yumuşatmak ve onarmak için Centella ve Madecassoside içeren besleyici krem, 55 ml.",
+     "Cildi temizlemek ve nemlendirmek için Centella ve Madecassoside içeren tonik, 120 ml.",
+     "Cildi beslemek ve nemlendirmek için propolis, mür ve Centella içeren ampul, 15 ml.",
+     "Gün boyunca cildi nemlendirmek ve tazelemek için Centella içeren yatıştırıcı mist, 120 ml.",
+     "Cildi yumuşatmak ve bakıma hazırlamak için Centella içeren nemlendirici tonik, 150 ml.",
+     "Cildi yumuşatmak ve beslemek için Centella içeren nemlendirici emülsiyon, 150 ml."
+    ]
+   },
+   "es": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — mayorista · Teranova",
+    "seoDesc": "La línea Cica & Centella Care de LEBELAGE — cuidado calmante con centella, madecasósido y propóleo: tónicos, emulsión, ampollas, crema y bruma. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
+    "tagline": "Ciclo completo de cuidado con centella y madecasósido",
+    "about": [
+     "Cica & Centella Care es la línea de LEBELAGE construida alrededor de la centella asiática y de su fracción purificada, el madecasósido. Es una dirección clásica del cuidado coreano para la piel sensible, cansada y propensa al enrojecimiento: fórmulas suaves, orientadas a calmar y dar confort, pensadas para el uso diario durante todo el año.",
+     "La línea sigue un ciclo completo: tónicos Cica Madecassoside de 120 ml y Centella Moisture de 150 ml, emulsión de 150 ml, crema de 55 ml, ampolla concentrada de 35 ml, ampolla con propóleo y mirra de 15 ml y bruma calmante de 120 ml. Cica es una de las búsquedas más reconocibles en la venta minorista y en los marketplaces, así que la línea resulta cómoda de tomar entera, como un lineal ya montado."
+    ],
+    "itemNotes": [
+     "Ampolla concentrada con Centella y Madecassoside para calmar y tonificar la piel, 35 ml.",
+     "Crema nutritiva con Centella y Madecassoside para suavizar y reparar la piel, 55 ml.",
+     "Tónico con Centella y Madecassoside para limpiar e hidratar la piel, 120 ml.",
+     "Ampolla con propóleo, mirra y Centella para nutrir e hidratar la piel, 15 ml.",
+     "Bruma calmante con Centella para hidratar y refrescar la piel durante el día, 120 ml.",
+     "Tónico hidratante con Centella para suavizar y preparar la piel para el cuidado, 150 ml.",
+     "Emulsión hidratante con Centella para suavizar y nutrir la piel, 150 ml."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Cica & Centella Care (LEBELAGE) — centela · Teranova",
+    "seoDesc": "Linha Cica & Centella Care da LEBELAGE — cuidado calmante com centela, madecassosídeo e própolis: tônicos, emulsão, ampolas, creme e bruma. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
+    "tagline": "Ciclo completo de cuidado com centela e madecassosídeo",
+    "about": [
+     "Cica & Centella Care é a linha da LEBELAGE em torno da centela asiática e da sua fração purificada, o madecassosídeo. Trata-se de uma vertente clássica do cuidado coreano para a pele sensível, cansada e propensa à vermelhidão: as fórmulas agem com delicadeza, voltadas ao alívio e ao conforto, e servem para o uso diário o ano inteiro.",
+     "A linha foi montada como um ciclo completo: tônicos Cica Madecassoside de 120 ml e Centella Moisture de 150 ml, emulsão de 150 ml, creme de 55 ml, ampola concentrada de 35 ml, ampola com própolis e mirra de 15 ml e bruma calmante de 120 ml. Cica está entre as buscas mais reconhecidas no varejo e nos marketplaces, por isso vale levar a linha inteira, como uma prateleira pronta."
+    ],
+    "itemNotes": [
+     "Ampola concentrada com Centella e Madecassoside para acalmar e tonificar a pele, 35 ml.",
+     "Creme nutritivo com Centella e Madecassoside para suavizar e reparar a pele, 55 ml.",
+     "Tônico com Centella e Madecassoside para limpar e hidratar a pele, 120 ml.",
+     "Ampola com própolis, mirra e Centella para nutrir e hidratar a pele, 15 ml.",
+     "Bruma calmante com Centella para hidratar e refrescar a pele ao longo do dia, 120 ml.",
+     "Tônico hidratante com Centella para suavizar e preparar a pele para o cuidado, 150 ml.",
+     "Emulsão hidratante com Centella para suavizar e nutrir a pele, 150 ml."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "truly-active-serums-and-pads",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Truly Active Serums & Pads",
+  "items": [
+   {
+    "name": "Truly Centella Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-centella-serum.jpg",
+    "volume": "35 ml",
+    "price": "2.26",
+    "certs": []
+   },
+   {
+    "name": "Truly Retinol Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-retinol-serum.jpg",
+    "volume": "35 ml",
+    "price": "2.26",
+    "certs": []
+   },
+   {
+    "name": "Truly Panthenol Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-panthenol-serum.jpg",
+    "volume": "35 ml",
+    "price": "2.26",
+    "certs": []
+   },
+   {
+    "name": "Truly Glutathione Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-glutathione-serum.jpg",
+    "volume": "35 ml",
+    "price": "2.26",
+    "certs": []
+   },
+   {
+    "name": "Truly Centella Toner Pad",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-centella-toner-pad.jpg",
+    "volume": "160 ml / 60 pads",
+    "price": "2.94",
+    "certs": []
+   },
+   {
+    "name": "Truly Retinol Toner Pad",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-retinol-toner-pad.jpg",
+    "volume": "160 ml / 60 pads",
+    "price": "2.94",
+    "certs": []
+   },
+   {
+    "name": "Truly Glutathione Toner Pad",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-glutathione-toner-pad.jpg",
+    "volume": "160 ml / 60 pads",
+    "price": "2.94",
+    "certs": []
+   },
+   {
+    "name": "Truly Panthenol Toner Pad",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-panthenol-toner-pad.jpg",
+    "volume": "160 ml / 60 pads",
+    "price": "2.94",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Truly Active (LEBELAGE) — сыворотки и пэды · Teranova",
+    "seoDesc": "Линейка Truly Active от LEBELAGE — сыворотки 35 мл и пропитанные тонер-пэды по 60 штук с центеллой, ретинолом, глутатионом и пантенолом, концентрации заявлены в ppm. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Липосомные сыворотки и тонер-пэды с активами в ppm",
+    "about": [
+     "Truly Active — активная линейка LEBELAGE, где концентрация вынесена прямо на упаковку: липосомный комплекс центеллы 80 000 ppm, липосомный ретинол 10 000 ppm, пантенол 100 000 ppm и липосомный глутатион 80 000 ppm. Липосомная подача делает формулы мягче, поэтому линейка рассчитана на покупателя, который читает состав и выбирает по цифрам.",
+     "Ассортимент собран парами: четыре сыворотки по 35 мл и четыре набора пропитанных пэдов 160 мл / 60 штук с теми же активами. Такая логика даёт кросс-продажи внутри одной полки — сыворотка вечером, пэды утром. Формат тонер-пэдов остаётся одним из самых заметных в корейском уходе, что делает линейку удобной для e-commerce и бьюти-ритейла."
+    ],
+    "itemNotes": [
+     "Сыворотка с липосомным комплексом центеллы (80 000 ppm) для успокоения кожи, 35 мл.",
+     "Сыворотка с липосомным ретинолом (10 000 ppm) для обновления и упругости кожи, 35 мл.",
+     "Сыворотка с пантенолом (100 000 ppm) для увлажнения и восстановления кожи, 35 мл.",
+     "Сыворотка с липосомным глутатионом (80 000 ppm) для сияния кожи, 35 мл.",
+     "Пропитанные пэды с центеллой для успокоения и мягкого тонизирования кожи, 60 шт.",
+     "Пропитанные пэды с ретинолом для обновления и выравнивания текстуры кожи, 60 шт.",
+     "Пропитанные пэды с глутатионом для сияния и тонизирования кожи, 60 шт.",
+     "Пропитанные пэды с пантенолом для увлажнения и восстановления кожи, 60 шт."
+    ]
+   },
+   "en": {
+    "seoTitle": "Truly Active (LEBELAGE) — serums and pads · Teranova",
+    "seoDesc": "The Truly Active range by LEBELAGE — 35 ml serums and jars of 60 soaked toner pads with centella, retinol, glutathione and panthenol, with concentrations stated in ppm. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "Liposomal serums and toner pads with actives in ppm",
+    "about": [
+     "Truly Active is LEBELAGE's active range, where the concentration is printed right on the pack: liposomal centella complex 80,000 ppm, liposomal retinol 10,000 ppm, panthenol 100,000 ppm and liposomal glutathione 80,000 ppm. Liposomal delivery makes the formulas milder, so the range is aimed at a shopper who reads the ingredient list and chooses by the numbers.",
+     "The assortment is put together in pairs: four 35 ml serums and four sets of soaked pads, 160 ml / 60 pieces, with the same actives. This logic creates cross-selling within a single shelf — a serum in the evening, pads in the morning. The toner pad format remains one of the most visible in Korean care, which makes the range convenient for e-commerce and beauty retail."
+    ],
+    "itemNotes": [
+     "Serum with a liposomal Centella complex (80 000 ppm) to soothe the skin, 35 ml.",
+     "Serum with liposomal Retinol (10 000 ppm) for skin renewal and firmness, 35 ml.",
+     "Serum with Panthenol (100 000 ppm) to hydrate and restore the skin, 35 ml.",
+     "Serum with liposomal Glutathione (80 000 ppm) for radiant skin, 35 ml.",
+     "Centella-infused pads to soothe and gently tone the skin, 60 pcs.",
+     "Retinol-infused pads to renew and even out skin texture, 60 pcs.",
+     "Glutathione-infused pads for radiance and toning, 60 pcs.",
+     "Panthenol-infused pads to hydrate and restore the skin, 60 pcs."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Truly Active (LEBELAGE) — 세럼과 패드 · Teranova",
+    "seoDesc": "LEBELAGE의 Truly Active 라인 — 센텔라, 레티놀, 글루타티온, 판테놀을 담은 35ml 리포좀 세럼 4종과 160ml / 60매입 토너 패드 4종으로, 활성 성분 함량을 ppm으로 표기했습니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "활성 성분 함량을 ppm으로 표기한 리포좀 세럼과 토너 패드",
+    "about": [
+     "Truly Active는 함량을 패키지 전면에 그대로 표기한 LEBELAGE의 액티브 라인입니다: 리포좀 센텔라 콤플렉스 80,000ppm, 리포좀 레티놀 10,000ppm, 판테놀 100,000ppm, 리포좀 글루타티온 80,000ppm. 리포좀 전달 방식은 처방을 한층 부드럽게 하여, 성분표를 읽고 수치로 고르는 소비자를 겨냥합니다.",
+     "구성은 짝을 이룹니다: 35ml 세럼 4종과 동일한 성분의 토너 패드 4종(160ml / 60매). 이런 구성은 하나의 매대 안에서 교차 판매를 만들어 냅니다 — 저녁에는 세럼, 아침에는 패드. 토너 패드 포맷은 한국 스킨케어에서 가장 눈에 띄는 형태 중 하나로, 이커머스와 뷰티 리테일에 적합합니다."
+    ],
+    "itemNotes": [
+     "피부 진정을 위한 리포좀 Centella 콤플렉스(80 000 ppm) 세럼, 35 ml.",
+     "피부 재생과 탄력을 위한 리포좀 Retinol(10 000 ppm) 세럼, 35 ml.",
+     "피부 수분과 회복을 위한 Panthenol(100 000 ppm) 세럼, 35 ml.",
+     "피부 광채를 위한 리포좀 Glutathione(80 000 ppm) 세럼, 35 ml.",
+     "피부를 진정시키고 부드럽게 정돈하는 Centella 토너 패드, 60매.",
+     "피부 결을 리뉴얼하고 정돈하는 Retinol 토너 패드, 60매.",
+     "피부 광채와 정돈을 위한 Glutathione 토너 패드, 60매.",
+     "피부 수분과 회복을 위한 Panthenol 토너 패드, 60매."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Truly Active (LEBELAGE) — 精华与爽肤棉片 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Truly Active 系列 — 35 毫升精华与每盒 60 片的浸润式爽肤棉片，含积雪草、视黄醇、谷胱甘肽与泛醇，浓度以 ppm 标示。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "以 ppm 标示活性成分的脂质体精华与爽肤棉片",
+    "about": [
+     "Truly Active 是 LEBELAGE 的活性系列，浓度直接标在包装上：脂质体积雪草复合物 80 000 ppm、脂质体视黄醇 10 000 ppm、泛醇 100 000 ppm 与脂质体谷胱甘肽 80 000 ppm。脂质体形式让配方更温和，因此这条系列面向会看成分表、按数字选择的消费者。",
+     "产品成对组合：四款 35 毫升精华与四套含相同成分的浸润棉片 160 毫升 / 60 片。这样的逻辑在同一货架内形成交叉销售——晚上用精华，早上用棉片。爽肤棉片仍是韩国护肤中最受关注的形态之一，这让该系列很适合电商与美妆零售。"
+    ],
+    "itemNotes": [
+     "含Centella脂质体复合物（80,000ppm）的精华，舒缓肌肤，35ml。",
+     "含脂质体Retinol（10,000ppm）的精华，焕新并紧致肌肤，35ml。",
+     "含Panthenol（100,000ppm）的精华，保湿并修护肌肤，35ml。",
+     "含脂质体Glutathione（80,000ppm）的精华，提亮肌肤，35ml。",
+     "浸润Centella的爽肤棉片，舒缓并温和调理肌肤，60片。",
+     "浸润Retinol的爽肤棉片，焕新并均匀肌肤纹理，60片。",
+     "浸润Glutathione的爽肤棉片，提亮并调理肌肤，60片。",
+     "浸润Panthenol的爽肤棉片，保湿并修护肌肤，60片。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Truly Active (LEBELAGE) — 美容液とトナーパッド · Teranova",
+    "seoDesc": "LEBELAGE の Truly Active — 35 mL の美容液と 60 枚入りの含浸トナーパッド。ツボクサ、レチノール、グルタチオン、パンテノールを配合し、濃度は ppm で表示。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "有効成分を ppm で示すリポソーム美容液とトナーパッド",
+    "about": [
+     "Truly Active は、濃度をパッケージに直接記載した LEBELAGE のアクティブラインです：リポソームツボクサ複合体 80,000 ppm、リポソームレチノール 10,000 ppm、パンテノール 100,000 ppm、リポソームグルタチオン 80,000 ppm。リポソーム化により処方はよりおだやかになり、成分表を読み、数字で選ぶ購入者に向いています。",
+     "品揃えはペアで構成されています：35 mL の美容液4種と、同じ成分の含浸パッド 160 mL / 60 枚のセット4種。この組み立てにより、同じ棚の中でクロスセルが生まれます——夜は美容液、朝はパッド。トナーパッドという形態は韓国のスキンケアで今も最も目立つものの一つで、EC やビューティー小売に適したラインです。"
+    ],
+    "itemNotes": [
+     "Centellaリポソーム複合体（80,000ppm）配合の美容液で、肌を鎮静します、35ml。",
+     "リポソームRetinol（10,000ppm）配合の美容液で、肌を生まれ変わらせハリを与えます、35ml。",
+     "Panthenol（100,000ppm）配合の美容液で、肌に潤いを与え整えます、35ml。",
+     "リポソームGlutathione（80,000ppm）配合の美容液で、肌に透明感を与えます、35ml。",
+     "Centellaを含ませたトナーパッドで、肌を鎮静しやさしく整えます、60枚。",
+     "Retinolを含ませたトナーパッドで、肌を生まれ変わらせキメを整えます、60枚。",
+     "Glutathioneを含ませたトナーパッドで、肌に透明感を与え整えます、60枚。",
+     "Panthenolを含ませたトナーパッドで、肌に潤いを与え整えます、60枚。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Truly Active (LEBELAGE) — sieri e dischetti · Teranova",
+    "seoDesc": "La linea Truly Active di LEBELAGE — sieri da 35 ml e dischetti tonici imbevuti da 60 pezzi con centella, retinolo, glutatione e pantenolo, concentrazioni in ppm. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+    "tagline": "Sieri liposomiali e dischetti tonici con attivi in ppm",
+    "about": [
+     "Truly Active è la linea attiva di LEBELAGE, dove la concentrazione è indicata direttamente sulla confezione: complesso liposomiale di centella 80 000 ppm, retinolo liposomiale 10 000 ppm, pantenolo 100 000 ppm e glutatione liposomiale 80 000 ppm. La veicolazione liposomiale rende le formule più delicate, quindi la linea si rivolge a chi legge l'elenco degli ingredienti e sceglie guardando i numeri.",
+     "L'assortimento è costruito a coppie: quattro sieri da 35 ml e quattro confezioni di dischetti imbevuti da 160 ml / 60 pezzi con gli stessi attivi. Questa logica genera cross-selling all'interno dello stesso scaffale — siero la sera, dischetti la mattina. Il formato toner pad resta tra i più visibili nella cosmetica coreana, il che rende la linea comoda per e-commerce e beauty retail."
+    ],
+    "itemNotes": [
+     "Siero con complesso liposomiale di Centella (80 000 ppm) per lenire la pelle, 35 ml.",
+     "Siero con Retinol liposomiale (10 000 ppm) per il rinnovamento e l'elasticità della pelle, 35 ml.",
+     "Siero con Panthenol (100 000 ppm) per idratare e rigenerare la pelle, 35 ml.",
+     "Siero con Glutathione liposomiale (80 000 ppm) per la luminosità della pelle, 35 ml.",
+     "Dischetti imbevuti con Centella per lenire e tonificare delicatamente la pelle, 60 pz.",
+     "Dischetti imbevuti con Retinol per rinnovare e uniformare la texture della pelle, 60 pz.",
+     "Dischetti imbevuti con Glutathione per la luminosità e la tonicità della pelle, 60 pz.",
+     "Dischetti imbevuti con Panthenol per idratare e rigenerare la pelle, 60 pz."
+    ]
+   },
+   "de": {
+    "seoTitle": "Truly Active (LEBELAGE) — Seren & Toner-Pads · Teranova",
+    "seoDesc": "Die Serie Truly Active von LEBELAGE — Seren 35 ml und getränkte Toner-Pads à 60 Stück mit Centella, Retinol, Glutathion und Panthenol, Konzentrationen in ppm angegeben. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Liposomale Seren und Toner-Pads mit Wirkstoffen in ppm",
+    "about": [
+     "Truly Active ist die aktive Serie von LEBELAGE, bei der die Konzentration direkt auf der Verpackung steht: liposomaler Centella-Komplex 80 000 ppm, liposomales Retinol 10 000 ppm, Panthenol 100 000 ppm und liposomales Glutathion 80 000 ppm. Die liposomale Trägerform macht die Formeln milder, deshalb richtet sich die Serie an Käufer, die die Inhaltsstoffe lesen und nach Zahlen auswählen.",
+     "Das Sortiment ist paarweise zusammengestellt: vier Seren zu je 35 ml und vier Sets getränkter Pads 160 ml / 60 Stück mit denselben Wirkstoffen. Diese Logik ermöglicht Cross-Selling innerhalb eines Regals — Serum am Abend, Pads am Morgen. Das Format der Toner-Pads bleibt eines der auffälligsten in der koreanischen Pflege, was die Serie für E-Commerce und Beauty-Retail praktisch macht."
+    ],
+    "itemNotes": [
+     "Serum mit liposomalem Centella-Komplex (80 000 ppm) zur Beruhigung der Haut, 35 ml.",
+     "Serum mit liposomalem Retinol (10 000 ppm) für Hauterneuerung und Elastizität, 35 ml.",
+     "Serum mit Panthenol (100 000 ppm) zur Feuchtigkeit und Regeneration der Haut, 35 ml.",
+     "Serum mit liposomalem Glutathione (80 000 ppm) für strahlende Haut, 35 ml.",
+     "Getränkte Pads mit Centella zur Beruhigung und sanften Tonisierung der Haut, 60 Stück.",
+     "Getränkte Pads mit Retinol zur Erneuerung und Verfeinerung der Hauttextur, 60 Stück.",
+     "Getränkte Pads mit Glutathione für Strahlkraft und Tonisierung der Haut, 60 Stück.",
+     "Getränkte Pads mit Panthenol zur Feuchtigkeit und Regeneration der Haut, 60 Stück."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Truly Active (LEBELAGE) — sérums et pads · Teranova",
+    "seoDesc": "La gamme Truly Active de LEBELAGE — sérums 35 ml et pads toniques imprégnés par 60 unités à la centella, au rétinol, au glutathion et au panthénol, concentrations indiquées en ppm. Approvisionnement en gros via Teranova.",
+    "tagline": "Sérums liposomaux et pads toniques avec actifs en ppm",
+    "about": [
+     "Truly Active est la gamme active de LEBELAGE, où la concentration est affichée directement sur l'emballage : complexe liposomal de centella 80 000 ppm, rétinol liposomal 10 000 ppm, panthénol 100 000 ppm et glutathion liposomal 80 000 ppm. La forme liposomale rend les formules plus douces ; la gamme s'adresse donc à l'acheteur qui lit la composition et choisit par les chiffres.",
+     "L'assortiment est composé par paires : quatre sérums de 35 ml et quatre sets de pads imprégnés 160 ml / 60 unités avec les mêmes actifs. Cette logique crée des ventes croisées au sein d'un même linéaire — le sérum le soir, les pads le matin. Le format des pads toniques reste l'un des plus visibles du soin coréen, ce qui rend la gamme pratique pour l'e-commerce et le retail beauté."
+    ],
+    "itemNotes": [
+     "Sérum au complexe liposomal de Centella (80 000 ppm) pour apaiser la peau, 35 ml.",
+     "Sérum au Retinol liposomal (10 000 ppm) pour le renouvellement et la fermeté de la peau, 35 ml.",
+     "Sérum au Panthenol (100 000 ppm) pour hydrater et restaurer la peau, 35 ml.",
+     "Sérum au Glutathione liposomal (80 000 ppm) pour l'éclat de la peau, 35 ml.",
+     "Pads imprégnés à la Centella pour apaiser et tonifier délicatement la peau, 60 pièces.",
+     "Pads imprégnés au Retinol pour renouveler et lisser la texture de la peau, 60 pièces.",
+     "Pads imprégnés au Glutathione pour l'éclat et la tonification de la peau, 60 pièces.",
+     "Pads imprégnés au Panthenol pour hydrater et restaurer la peau, 60 pièces."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Truly Active (LEBELAGE) — serum ve pedler · Teranova",
+    "seoDesc": "LEBELAGE imzalı Truly Active — centella, retinol, glutatyon ve pantenol içeren 35 ml serumlar ve 60 adetlik emdirilmiş toner pedleri; konsantrasyonlar ppm olarak belirtilir. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Lipozomal serumlar ve ppm değerli toner pedleri",
+    "about": [
+     "Truly Active, LEBELAGE'ın konsantrasyonu doğrudan ambalajın üzerine taşıdığı aktif serisidir: 80.000 ppm lipozomal centella kompleksi, 10.000 ppm lipozomal retinol, 100.000 ppm pantenol ve 80.000 ppm lipozomal glutatyon. Lipozomal iletim formülleri daha yumuşak kılar; bu nedenle seri, içerik listesini okuyan ve rakamlara bakarak seçen tüketiciye göre kurgulanmıştır.",
+     "Ürünler çiftler hâlinde toplanmıştır: 35 ml'lik dört serum ve aynı aktifleri içeren 160 ml / 60 adetlik dört emdirilmiş ped seti. Bu kurgu tek rafın içinde çapraz satış sağlar — akşam serum, sabah ped. Toner ped formatı Kore bakımının en görünür formatlarından biri olmayı sürdürür; bu da seriyi e-ticaret ve güzellik perakendesi için elverişli kılar."
+    ],
+    "itemNotes": [
+     "Cildi yatıştırmak için lipozomal Centella kompleksi (80 000 ppm) içeren serum, 35 ml.",
+     "Cildin yenilenmesi ve sıkılığı için lipozomal Retinol (10 000 ppm) içeren serum, 35 ml.",
+     "Cildi nemlendirmek ve onarmak için Panthenol (100 000 ppm) içeren serum, 35 ml.",
+     "Cilde ışıltı kazandırmak için lipozomal Glutathione (80 000 ppm) içeren serum, 35 ml.",
+     "Cildi yatıştırmak ve hafifçe tonlamak için Centella emdirilmiş pedler, 60 adet.",
+     "Cilt dokusunu yenilemek ve eşitlemek için Retinol emdirilmiş pedler, 60 adet.",
+     "Cilde ışıltı ve tonlama için Glutathione emdirilmiş pedler, 60 adet.",
+     "Cildi nemlendirmek ve onarmak için Panthenol emdirilmiş pedler, 60 adet."
+    ]
+   },
+   "es": {
+    "seoTitle": "Truly Active (LEBELAGE) — sérums y pads · Teranova",
+    "seoDesc": "La línea Truly Active de LEBELAGE — sérums de 35 ml y discos de tónico impregnados de 60 unidades con centella, retinol, glutatión y pantenol, con las concentraciones indicadas en ppm. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Sérums liposomados y discos de tónico con activos en ppm",
+    "about": [
+     "Truly Active es la línea activa de LEBELAGE, donde la concentración está impresa en el propio envase: complejo liposomado de centella 80 000 ppm, retinol liposomado 10 000 ppm, pantenol 100 000 ppm y glutatión liposomado 80 000 ppm. La forma liposomada hace las fórmulas más suaves, así que la línea se dirige a quien lee la composición y elige por cifras.",
+     "El surtido está montado por parejas: cuatro sérums de 35 ml y cuatro estuches de discos impregnados de 160 ml y 60 unidades con los mismos activos. Esa lógica genera venta cruzada dentro del mismo lineal: sérum por la noche, discos por la mañana. El formato de disco de tónico sigue siendo uno de los más visibles del cuidado coreano, lo que hace la línea cómoda para el comercio electrónico y la venta minorista de belleza."
+    ],
+    "itemNotes": [
+     "Sérum con complejo liposomal de Centella (80 000 ppm) para calmar la piel, 35 ml.",
+     "Sérum con Retinol liposomal (10 000 ppm) para renovar y reafirmar la piel, 35 ml.",
+     "Sérum con Panthenol (100 000 ppm) para hidratar y reparar la piel, 35 ml.",
+     "Sérum con Glutathione liposomal (80 000 ppm) para la luminosidad de la piel, 35 ml.",
+     "Discos impregnados con Centella para calmar y tonificar suavemente la piel, 60 uds.",
+     "Discos impregnados con Retinol para renovar y uniformar la textura de la piel, 60 uds.",
+     "Discos impregnados con Glutathione para la luminosidad y tonificación de la piel, 60 uds.",
+     "Discos impregnados con Panthenol para hidratar y reparar la piel, 60 uds."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Truly Active (LEBELAGE) — séruns e discos · Teranova",
+    "seoDesc": "Linha Truly Active da LEBELAGE — séruns de 35 ml e discos de tônico embebidos com 60 unidades, com centela, retinol, glutationa e pantenol, e concentrações declaradas em ppm. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Séruns lipossomados e discos de tônico com ativos em ppm",
+    "about": [
+     "Truly Active é a linha ativa da LEBELAGE, em que a concentração vem estampada na embalagem: complexo lipossomado de centela 80 000 ppm, retinol lipossomado 10 000 ppm, pantenol 100 000 ppm e glutationa lipossomada 80 000 ppm. A veiculação lipossomada deixa as fórmulas mais suaves, e por isso a linha fala com o consumidor que lê o rótulo e escolhe pelos números.",
+     "O sortimento vem em duplas: quatro séruns de 35 ml e quatro potes de discos embebidos de 160 ml com 60 unidades, com os mesmos ativos. Essa lógica cria venda cruzada dentro da mesma prateleira — sérum à noite, discos pela manhã. O formato de disco de tônico segue entre os mais visíveis do cuidado coreano, o que torna a linha prática para e-commerce e varejo de beleza."
+    ],
+    "itemNotes": [
+     "Sérum com complexo lipossomal de Centella (80 000 ppm) para acalmar a pele, 35 ml.",
+     "Sérum com Retinol lipossomal (10 000 ppm) para renovar e firmar a pele, 35 ml.",
+     "Sérum com Panthenol (100 000 ppm) para hidratar e reparar a pele, 35 ml.",
+     "Sérum com Glutathione lipossomal (80 000 ppm) para a luminosidade da pele, 35 ml.",
+     "Discos impregnados com Centella para acalmar e tonificar suavemente a pele, 60 un.",
+     "Discos impregnados com Retinol para renovar e uniformizar a textura da pele, 60 un.",
+     "Discos impregnados com Glutathione para a luminosidade e tonificação da pele, 60 un.",
+     "Discos impregnados com Panthenol para hidratar e reparar a pele, 60 un."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "concentrated-ampoules-and-serums",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Concentrated Ampoules & Serums",
+  "items": [
+   {
+    "name": "Hyaluronic 5% Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/hyaluronic-5-ampoule.jpg",
+    "volume": "30 ml",
+    "price": "3.51",
+    "certs": []
+   },
+   {
+    "name": "Panthenol 7% Ampoule",
+    "img": "/img/suppliers/dongdonggurimoo/products/panthenol-7-ampoule.jpg",
+    "volume": "30 ml",
+    "price": "3.51",
+    "certs": []
+   },
+   {
+    "name": "Truly Centella High Concentration Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-centella-hc-serum.jpg",
+    "volume": "20 g",
+    "price": "0.49",
+    "certs": []
+   },
+   {
+    "name": "Truly Glutathione High Concentration Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-glutathione-hc-serum.jpg",
+    "volume": "20 g",
+    "price": "0.49",
+    "certs": []
+   },
+   {
+    "name": "Truly PDRN High Concentration Serum",
+    "img": "/img/suppliers/dongdonggurimoo/products/truly-pdrn-hc-serum.jpg",
+    "volume": "20 g",
+    "price": "0.49",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — концентраты · Teranova",
+    "seoDesc": "Линейка Concentrated Ampoules & Serums от LEBELAGE — ампулы 30 мл с 5% гиалуроновой кислоты и 7% пантенола и сыворотки 20 г с центеллой, глутатионом и PDRN. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Высокие концентрации активов в малом объёме",
+    "about": [
+     "Concentrated Ampoules & Serums — концентратная часть ассортимента LEBELAGE. Процент активного вещества здесь указан в самом названии: ампула с 5% гиалуроновой кислоты для глубокого увлажнения и ампула с 7% пантенола для увлажнения и комфорта кожи, обе по 30 мл. Это позиции для тех, кто добавляет к базовому уходу один усиленный шаг.",
+     "Вторая часть линейки — высококонцентрированные сыворотки по 20 г с центеллой, глутатионом и PDRN. Компактный объём и невысокая цена за штуку делают их удобными для пробников, промо-наборов и импульсной полки. Небольшое число SKU позволяет добавить линейку к основному заказу как усиление ассортимента, не расширяя выкладку."
+    ],
+    "itemNotes": [
+     "Ампула с 5% гиалуроновой кислоты для глубокого увлажнения кожи, 30 мл.",
+     "Ампула с 7% пантенола для увлажнения и восстановления кожи, 30 мл.",
+     "Высококонцентрированная сыворотка с центеллой для интенсивного успокоения кожи, 20 г.",
+     "Высококонцентрированная сыворотка с глутатионом для сияния кожи, 20 г.",
+     "Высококонцентрированная сыворотка с PDRN для упругости и восстановления кожи, 20 г."
+    ]
+   },
+   "en": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — concentrates · Teranova",
+    "seoDesc": "The Concentrated Ampoules & Serums range by LEBELAGE — 30 ml ampoules with 5% hyaluronic acid and 7% panthenol, plus 20 g serums with centella, glutathione and PDRN. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "High concentrations of actives in a small volume",
+    "about": [
+     "Concentrated Ampoules & Serums is the concentrate part of the LEBELAGE assortment. The percentage of the active is stated in the name itself: an ampoule with 5% hyaluronic acid for deep hydration and an ampoule with 7% panthenol for hydration and skin comfort, both 30 ml. These are items for those who add one reinforced step to their basic care.",
+     "The second part of the range is highly concentrated 20 g serums with centella, glutathione and PDRN. The compact volume and low unit price make them convenient for testers, promo sets and the impulse shelf. The small number of SKUs makes it possible to add the range to a main order as an assortment booster without expanding the display."
+    ],
+    "itemNotes": [
+     "Ampoule with 5% Hyaluronic acid for deep skin hydration, 30 ml.",
+     "Ampoule with 7% Panthenol to hydrate and restore the skin, 30 ml.",
+     "High-concentration Centella serum for intensive skin soothing, 20 g.",
+     "High-concentration Glutathione serum for radiant skin, 20 g.",
+     "High-concentration PDRN serum for firmer, revitalized skin, 20 g."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — 고농축 · Teranova",
+    "seoDesc": "LEBELAGE의 Concentrated Ampoules & Serums 라인 — 히알루론산 5%와 판테놀 7%를 담은 30ml 앰플, 그리고 센텔라·글루타티온·PDRN을 담은 20g 고농축 세럼으로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "작은 용량에 담은 높은 활성 성분 함량",
+    "about": [
+     "Concentrated Ampoules & Serums는 LEBELAGE 구색 중 고농축 파트입니다. 활성 성분의 함량이 제품명에 그대로 드러납니다: 깊은 보습을 위한 히알루론산 5% 앰플과 보습·피부 편안함을 위한 판테놀 7% 앰플, 둘 다 30ml입니다. 베이직 케어에 강화 단계 하나를 더하고 싶은 소비자를 위한 품목입니다.",
+     "라인의 두 번째 파트는 센텔라, 글루타티온, PDRN을 담은 20g 고농축 세럼입니다. 작은 용량과 낮은 개당 가격 덕분에 체험용, 프로모션 세트, 충동구매 매대에 활용하기 좋습니다. SKU 수가 적어 진열을 늘리지 않고도 본 주문에 구색 강화용으로 덧붙일 수 있습니다."
+    ],
+    "itemNotes": [
+     "피부 집중 수분을 위한 5% Hyaluronic acid 앰플, 30 ml.",
+     "피부 수분과 회복을 위한 7% Panthenol 앰플, 30 ml.",
+     "피부 집중 진정을 위한 고농축 Centella 세럼, 20 g.",
+     "피부 광채를 위한 고농축 Glutathione 세럼, 20 g.",
+     "피부 탄력과 회복을 위한 고농축 PDRN 세럼, 20 g."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — 浓缩系列 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Concentrated Ampoules & Serums 系列 — 含 5% 透明质酸与 7% 泛醇的 30 毫升安瓶，以及含积雪草、谷胱甘肽与 PDRN 的 20 克精华。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "小容量中的高浓度活性成分",
+    "about": [
+     "Concentrated Ampoules & Serums 是 LEBELAGE 产品线中的浓缩部分。活性物质的百分比直接写在名称里：用于深层保湿的 5% 透明质酸安瓶，以及用于保湿与肌肤舒适感的 7% 泛醇安瓶，均为 30 毫升。这是为想在基础护理上加一个强化步骤的人准备的品项。",
+     "系列的第二部分是 20 克的高浓度精华，含积雪草、谷胱甘肽与 PDRN。小容量与不高的单件价格，使它们适合做试用装、促销套装与冲动购买的货架。SKU 数量不多，因此可以作为品类补强加进主订单，而不必扩大陈列面积。"
+    ],
+    "itemNotes": [
+     "含5% Hyaluronic酸的安瓶，深层保湿肌肤，30ml。",
+     "含7% Panthenol的安瓶，保湿并修护肌肤，30ml。",
+     "高浓度Centella精华，深度舒缓肌肤，20g。",
+     "高浓度Glutathione精华，提亮肌肤，20g。",
+     "高浓度PDRN精华，紧致并修护肌肤，20g。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — 濃縮ライン · Teranova",
+    "seoDesc": "LEBELAGE の Concentrated Ampoules & Serums — ヒアルロン酸 5%、パンテノール 7% を配合した 30 mL のアンプルと、ツボクサ、グルタチオン、PDRN 配合の 20 g 美容液。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "少量に凝縮した高濃度の有効成分",
+    "about": [
+     "Concentrated Ampoules & Serums は、LEBELAGE の品揃えのうち濃縮タイプにあたる部分です。有効成分の割合は名称にそのまま示されています：深いうるおいのためのヒアルロン酸 5% アンプルと、うるおいと肌の心地よさのためのパンテノール 7% アンプル、いずれも 30 mL。ベーシックケアに一段強めのステップを足したい人向けの品目です。",
+     "ラインのもう一方は、ツボクサ、グルタチオン、PDRN を配合した 20 g の高濃度美容液です。コンパクトな容量と手頃な単価により、サンプル、プロモセット、衝動購入の棚に向いています。SKU 数が少ないため、陳列を広げずに品揃えの強化としてメインの注文に追加できます。"
+    ],
+    "itemNotes": [
+     "5% Hyaluronic酸配合のアンプルで、肌にうるおいを与えます、30ml。",
+     "7% Panthenol配合のアンプルで、肌に潤いを与え整えます、30ml。",
+     "高濃度Centella美容液で、肌を深く鎮静します、20g。",
+     "高濃度Glutathione美容液で、肌に透明感を与えます、20g。",
+     "高濃度PDRN美容液で、肌にハリを与え整えます、20g。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — concentrati · Teranova",
+    "seoDesc": "La linea Concentrated Ampoules & Serums di LEBELAGE — fiale da 30 ml con 5% di acido ialuronico e 7% di pantenolo e sieri da 20 g con centella, glutatione e PDRN. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+    "tagline": "Alte concentrazioni di attivi in piccoli formati",
+    "about": [
+     "Concentrated Ampoules & Serums è la parte concentrata dell'assortimento LEBELAGE. Qui la percentuale di attivo è indicata già nel nome: la fiala con 5% di acido ialuronico per un'idratazione profonda e la fiala con 7% di pantenolo per idratazione e comfort della pelle, entrambe da 30 ml. Sono referenze per chi aggiunge alla routine di base un passaggio più intenso.",
+     "La seconda parte della linea sono i sieri altamente concentrati da 20 g con centella, glutatione e PDRN. Il formato compatto e il prezzo unitario contenuto li rendono comodi per campioni, kit promozionali e scaffale d'impulso. Il numero ridotto di SKU permette di aggiungere la linea all'ordine principale come rinforzo dell'assortimento, senza allargare l'esposizione."
+    ],
+    "itemNotes": [
+     "Fiala con 5% di Hyaluronic acid per un'idratazione profonda della pelle, 30 ml.",
+     "Fiala con 7% di Panthenol per idratare e rigenerare la pelle, 30 ml.",
+     "Siero altamente concentrato con Centella per un'intensa azione lenitiva sulla pelle, 20 g.",
+     "Siero altamente concentrato con Glutathione per la luminosità della pelle, 20 g.",
+     "Siero altamente concentrato con PDRN per l'elasticità e la rigenerazione della pelle, 20 g."
+    ]
+   },
+   "de": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — Konzentrate · Teranova",
+    "seoDesc": "Die Serie Concentrated Ampoules & Serums von LEBELAGE — Ampullen 30 ml mit 5 % Hyaluronsäure und 7 % Panthenol sowie Seren 20 g mit Centella, Glutathion und PDRN. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Hohe Wirkstoffkonzentrationen in kleinem Volumen",
+    "about": [
+     "Concentrated Ampoules & Serums ist der Konzentrat-Teil des LEBELAGE-Sortiments. Der Anteil des Wirkstoffs steht hier schon im Namen: eine Ampulle mit 5 % Hyaluronsäure für intensive Feuchtigkeit und eine Ampulle mit 7 % Panthenol für Feuchtigkeit und Hautkomfort, beide zu 30 ml. Das sind Positionen für alle, die der Basispflege einen verstärkten Schritt hinzufügen.",
+     "Der zweite Teil der Serie sind hochkonzentrierte Seren zu je 20 g mit Centella, Glutathion und PDRN. Das kompakte Volumen und der niedrige Stückpreis machen sie praktisch für Proben, Promo-Sets und das Impulsregal. Die geringe Zahl an SKU erlaubt es, die Serie der Hauptbestellung als Sortimentsverstärkung hinzuzufügen, ohne die Auslage zu vergrößern."
+    ],
+    "itemNotes": [
+     "Ampulle mit 5% Hyaluronic Acid für intensive Feuchtigkeit der Haut, 30 ml.",
+     "Ampulle mit 7% Panthenol zur Feuchtigkeit und Regeneration der Haut, 30 ml.",
+     "Hochkonzentriertes Serum mit Centella zur intensiven Beruhigung der Haut, 20 g.",
+     "Hochkonzentriertes Serum mit Glutathione für strahlende Haut, 20 g.",
+     "Hochkonzentriertes Serum mit PDRN für Elastizität und Regeneration der Haut, 20 g."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — concentrés · Teranova",
+    "seoDesc": "La gamme Concentrated Ampoules & Serums de LEBELAGE — ampoules 30 ml à 5 % d'acide hyaluronique et à 7 % de panthénol et sérums 20 g à la centella, au glutathion et au PDRN. Approvisionnement en gros via Teranova.",
+    "tagline": "Fortes concentrations d'actifs en petit volume",
+    "about": [
+     "Concentrated Ampoules & Serums est la partie concentrés de l'assortiment LEBELAGE. Le pourcentage d'actif figure ici dans le nom même : une ampoule à 5 % d'acide hyaluronique pour une hydratation en profondeur et une ampoule à 7 % de panthénol pour l'hydratation et le confort de la peau, toutes deux de 30 ml. Ce sont des références pour ceux qui ajoutent une étape renforcée au soin de base.",
+     "La seconde partie de la gamme réunit des sérums très concentrés de 20 g à la centella, au glutathion et au PDRN. Le volume compact et le prix unitaire modéré les rendent pratiques pour les échantillons, les coffrets promo et le linéaire d'impulsion. Le petit nombre de références permet d'ajouter la gamme à la commande principale comme renfort d'assortiment, sans élargir la présentation."
+    ],
+    "itemNotes": [
+     "Ampoule à 5% d'acide Hyaluronic pour une hydratation intense de la peau, 30 ml.",
+     "Ampoule à 7% de Panthenol pour hydrater et restaurer la peau, 30 ml.",
+     "Sérum hautement concentré à la Centella pour un apaisement intense de la peau, 20 g.",
+     "Sérum hautement concentré au Glutathione pour l'éclat de la peau, 20 g.",
+     "Sérum hautement concentré au PDRN pour la fermeté et la régénération de la peau, 20 g."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — konsantreler · Teranova",
+    "seoDesc": "LEBELAGE imzalı Concentrated Ampoules & Serums — %5 hyaluronik asit ve %7 pantenol içeren 30 ml ampuller ile centella, glutatyon ve PDRN içeren 20 g serumlar. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Küçük hacimde yüksek aktif konsantrasyonları",
+    "about": [
+     "Concentrated Ampoules & Serums, LEBELAGE ürün yelpazesinin konsantre bölümüdür. Aktif madde yüzdesi burada doğrudan ürün adında yer alır: derin nemlendirme için %5 hyaluronik asit içeren ampul ve nemlendirme ile cilt konforu için %7 pantenol içeren ampul, her ikisi de 30 ml. Bunlar, temel bakımına güçlendirilmiş tek bir adım eklemek isteyenler içindir.",
+     "Serinin ikinci bölümü centella, glutatyon ve PDRN içeren 20 g'lık yüksek konsantrasyonlu serumlardır. Kompakt hacim ve düşük birim fiyat, bu ürünleri numuneler, promosyon setleri ve impuls rafı için elverişli kılar. SKU sayısının az olması, seriyi teşhiri genişletmeden ana siparişe bir güçlendirme olarak eklemeye imkân verir."
+    ],
+    "itemNotes": [
+     "Cildin yoğun nemlendirilmesi için %5 Hyaluronic asit içeren ampul, 30 ml.",
+     "Cildi nemlendirmek ve onarmak için %7 Panthenol içeren ampul, 30 ml.",
+     "Cildin yoğun yatıştırılması için yüksek konsantrasyonlu Centella serumu, 20 g.",
+     "Cilde ışıltı kazandırmak için yüksek konsantrasyonlu Glutathione serumu, 20 g.",
+     "Cildin sıkılığı ve yenilenmesi için yüksek konsantrasyonlu PDRN serumu, 20 g."
+    ]
+   },
+   "es": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — concentrados · Teranova",
+    "seoDesc": "La línea Concentrated Ampoules & Serums de LEBELAGE — ampollas de 30 ml con 5% de ácido hialurónico y 7% de pantenol, y sérums de 20 g con centella, glutatión y PDRN. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Altas concentraciones de activos en poco volumen",
+    "about": [
+     "Concentrated Ampoules & Serums es la parte concentrada del surtido de LEBELAGE. Aquí el porcentaje de activo aparece en el propio nombre: una ampolla con 5% de ácido hialurónico para una hidratación profunda y otra con 7% de pantenol para hidratación y confort de la piel, ambas de 30 ml. Son referencias para quien suma un paso reforzado al cuidado básico.",
+     "La segunda parte de la línea son sérums muy concentrados de 20 g con centella, glutatión y PDRN. El volumen compacto y el precio contenido por unidad los hacen cómodos para muestras, packs promocionales y compra por impulso. El número reducido de referencias permite añadir la línea al pedido principal como refuerzo del surtido, sin ampliar la exposición."
+    ],
+    "itemNotes": [
+     "Ampolla con 5% de Hyaluronic para una hidratación profunda de la piel, 30 ml.",
+     "Ampolla con 7% de Panthenol para hidratar y reparar la piel, 30 ml.",
+     "Sérum de alta concentración con Centella para calmar intensamente la piel, 20 g.",
+     "Sérum de alta concentración con Glutathione para la luminosidad de la piel, 20 g.",
+     "Sérum de alta concentración con PDRN para la firmeza y reparación de la piel, 20 g."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Concentrated Ampoules (LEBELAGE) — ampolas · Teranova",
+    "seoDesc": "Linha Concentrated Ampoules & Serums da LEBELAGE — ampolas de 30 ml com 5% de ácido hialurônico e 7% de pantenol e séruns de 20 g com centela, glutationa e PDRN. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Ativos em alta concentração num volume pequeno",
+    "about": [
+     "Concentrated Ampoules & Serums é a parte concentrada do sortimento da LEBELAGE. O percentual do ativo aparece no próprio nome: ampola com 5% de ácido hialurônico para hidratação profunda e ampola com 7% de pantenol para hidratação e conforto da pele, ambas de 30 ml. São itens para quem acrescenta um passo reforçado ao cuidado básico.",
+     "A segunda parte da linha são séruns altamente concentrados de 20 g com centela, glutationa e PDRN. O volume pequeno e o preço baixo por unidade deixam esses itens convenientes para amostras, kits promocionais e prateleira de impulso. Como são poucos SKUs, dá para somar a linha ao pedido principal como reforço de sortimento, sem ampliar a exposição."
+    ],
+    "itemNotes": [
+     "Ampola com 5% de Hyaluronic para uma hidratação profunda da pele, 30 ml.",
+     "Ampola com 7% de Panthenol para hidratar e reparar a pele, 30 ml.",
+     "Sérum de alta concentração com Centella para acalmar intensamente a pele, 20 g.",
+     "Sérum de alta concentração com Glutathione para a luminosidade da pele, 20 g.",
+     "Sérum de alta concentração com PDRN para a firmeza e reparação da pele, 20 g."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "sheet-and-gel-masks",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Sheet & Gel Masks",
+  "items": [
+   {
+    "name": "Cica Solution Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-solution-mask-pack.jpg",
+    "volume": "25 g x 10",
+    "price": "1.15",
+    "certs": []
+   },
+   {
+    "name": "Madecassoside Solution Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/madecassoside-solution-mask-pack.jpg",
+    "volume": "25 g x 10",
+    "price": "1.15",
+    "certs": []
+   },
+   {
+    "name": "Snail Solution Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/snail-solution-mask-pack.jpg",
+    "volume": "25 g x 10",
+    "price": "1.15",
+    "certs": []
+   },
+   {
+    "name": "Green Tea Solution Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/green-tea-solution-mask-pack.jpg",
+    "volume": "25 g x 10",
+    "price": "1.15",
+    "certs": []
+   },
+   {
+    "name": "Vitamin Solution Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/vitamin-solution-mask-pack.jpg",
+    "volume": "25 g x 10",
+    "price": "1.15",
+    "certs": []
+   },
+   {
+    "name": "Aloe Solution Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/aloe-solution-mask-pack.jpg",
+    "volume": "25 g x 10",
+    "price": "1.15",
+    "certs": []
+   },
+   {
+    "name": "Capsule Cica Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/capsule-cica-mask-pack.jpg",
+    "volume": "28 ml x 10",
+    "price": "1.82",
+    "certs": []
+   },
+   {
+    "name": "Everyday Vitamin Mask Pack",
+    "img": "/img/suppliers/dongdonggurimoo/products/everyday-vitamin-mask-pack.jpg",
+    "volume": "30 sheets",
+    "price": "3.61",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — тканевые маски · Teranova",
+    "seoDesc": "Линейка Sheet & Gel Masks от LEBELAGE — тканевые маски по 10 штук с центеллой, мадекассосидом, муцином улитки, зелёным чаем, витаминами и алоэ плюс набор на 30 масок. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Тканевые маски с центеллой, улиткой и витаминами",
+    "about": [
+     "Sheet & Gel Masks — масочная линейка LEBELAGE: шесть вариантов Solution Mask по 25 г, ампульные Capsule Cica по 28 мл и ежедневный формат Everyday Vitamin. Активы закрывают базовые запросы — успокоение (центелла и мадекассосид), питание (муцин улитки), баланс (зелёный чай), сияние (витамины) и увлажнение (алоэ).",
+     "Маски идут наборами: по 10 штук в пачке у Solution и Capsule и 30 масок в упаковке Everyday Vitamin. Тканевые маски — одна из крупнейших категорий прайса компании и классический «первый заказ» импортёра: невысокая цена за штуку, понятный покупателю ассортимент и быстрая оборачиваемость на маркетплейсах, в дрогери и в подарочных наборах."
+    ],
+    "itemNotes": [
+     "Тканевые маски с центеллой для успокоения кожи, 10 шт.",
+     "Тканевые маски с мадекассосидом для восстановления и тонуса кожи, 10 шт.",
+     "Тканевые маски с муцином улитки для питания и регенерации кожи, 10 шт.",
+     "Тканевые маски с зелёным чаем для очищения и баланса кожи, 10 шт.",
+     "Тканевые маски с витаминами для сияния и тонуса кожи, 10 шт.",
+     "Тканевые маски с алоэ для увлажнения и успокоения кожи, 10 шт.",
+     "Ампульные тканевые маски с центеллой для интенсивного успокоения кожи, 10 шт.",
+     "Ежедневные тканевые маски с витаминами для сияния кожи, 30 шт."
+    ]
+   },
+   "en": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — sheet masks · Teranova",
+    "seoDesc": "The Sheet & Gel Masks range by LEBELAGE — sheet masks in packs of 10 with centella, madecassoside, snail mucin, green tea, vitamins and aloe, plus a 30-mask set. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "Sheet masks with centella, snail mucin and vitamins",
+    "about": [
+     "Sheet & Gel Masks is LEBELAGE's mask range: six Solution Mask variants of 25 g, ampoule-based Capsule Cica of 28 ml and the daily Everyday Vitamin format. The actives cover the basic requests — soothing (centella and madecassoside), nourishment (snail mucin), balance (green tea), radiance (vitamins) and hydration (aloe).",
+     "The masks come in sets: 10 pieces per pack for Solution and Capsule and 30 masks per pack for Everyday Vitamin. Sheet masks are one of the largest categories in the company's price list and a classic importer's “first order”: a low unit price, an assortment the shopper understands and fast turnover on marketplaces, in drugstores and in gift sets."
+    ],
+    "itemNotes": [
+     "Centella sheet masks to soothe the skin, 10 pcs.",
+     "Madecassoside sheet masks to restore and tone the skin, 10 pcs.",
+     "Snail mucin sheet masks to nourish and renew the skin, 10 pcs.",
+     "Green Tea sheet masks to purify and balance the skin, 10 pcs.",
+     "Vitamin sheet masks for radiance and tone, 10 pcs.",
+     "Aloe sheet masks to hydrate and soothe the skin, 10 pcs.",
+     "Ampoule Centella sheet masks for intensive skin soothing, 10 pcs.",
+     "Daily Vitamin sheet masks for radiant skin, 30 pcs."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — 시트 마스크 · Teranova",
+    "seoDesc": "LEBELAGE의 Sheet & Gel Masks 라인 — 센텔라, 마데카소사이드, 달팽이 뮤신, 녹차, 비타민, 알로에를 담은 10매입 시트 마스크 여러 종과 30매입 Everyday Vitamin 세트. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "센텔라, 달팽이, 비타민을 담은 시트 마스크",
+    "about": [
+     "Sheet & Gel Masks는 LEBELAGE의 마스크 라인입니다: 25g Solution Mask 6종, 28ml 앰플 타입 Capsule Cica, 데일리 포맷 Everyday Vitamin. 활성 성분은 기본적인 니즈를 커버합니다 — 진정(센텔라와 마데카소사이드), 영양(달팽이 뮤신), 밸런스(녹차), 광채(비타민), 보습(알로에).",
+     "마스크는 세트로 제공됩니다: Solution과 Capsule은 한 팩에 10매, Everyday Vitamin은 한 패키지에 30매입니다. 시트 마스크는 회사 가격표에서 가장 큰 카테고리 중 하나이자 수입업체의 전형적인 “첫 주문” 품목입니다: 낮은 개당 가격, 소비자가 이해하기 쉬운 구색, 마켓플레이스·드러그스토어·기프트 세트에서의 빠른 회전."
+    ],
+    "itemNotes": [
+     "피부 진정을 위한 Centella 시트 마스크, 10매.",
+     "피부 회복과 정돈을 위한 Madecassoside 시트 마스크, 10매.",
+     "피부 영양과 재생을 위한 Snail 뮤신 시트 마스크, 10매.",
+     "피부 정화와 밸런스를 위한 Green Tea 시트 마스크, 10매.",
+     "피부 광채와 정돈을 위한 Vitamin 시트 마스크, 10매.",
+     "피부 수분과 진정을 위한 Aloe 시트 마스크, 10매.",
+     "피부 집중 진정을 위한 앰플 Centella 시트 마스크, 10매.",
+     "피부 광채를 위한 데일리 Vitamin 시트 마스크, 30매."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — 面膜系列 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Sheet & Gel Masks 系列 — 每盒 10 片的面膜，含积雪草、羟基积雪草苷、蜗牛黏液、绿茶、维生素与芦荟，另有 30 片装。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "含积雪草、蜗牛与维生素的面膜",
+    "about": [
+     "Sheet & Gel Masks 是 LEBELAGE 的面膜系列：六款 25 克 Solution Mask、28 毫升的安瓶型 Capsule Cica，以及日常规格 Everyday Vitamin。成分覆盖基础需求——舒缓（积雪草与羟基积雪草苷）、滋养（蜗牛黏液）、平衡（绿茶）、光泽（维生素）与保湿（芦荟）。",
+     "面膜按套装出售：Solution 与 Capsule 每包 10 片，Everyday Vitamin 每盒 30 片。面膜是公司价目表中最大的品类之一，也是进口商经典的「首单」：单片价格低、消费者一看就懂，在电商平台、日化店与礼盒中周转很快。"
+    ],
+    "itemNotes": [
+     "含Centella的面膜，舒缓肌肤，10片。",
+     "含Madecassoside的面膜，修护并紧致肌肤，10片。",
+     "含Snail蜗牛黏液的面膜，滋养并修护肌肤，10片。",
+     "含Green Tea绿茶的面膜，洁净并平衡肌肤，10片。",
+     "含Vitamin的面膜，提亮并紧致肌肤，10片。",
+     "含Aloe芦荟的面膜，保湿并舒缓肌肤，10片。",
+     "含Centella的安瓶精华面膜，深度舒缓肌肤，10片。",
+     "每日Vitamin面膜，提亮肌肤，30片。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — シートマスク · Teranova",
+    "seoDesc": "LEBELAGE の Sheet & Gel Masks — 10 枚入りのシートマスク。ツボクサ、マデカッソシド、カタツムリ粘液、緑茶、ビタミン、アロエを配合し、30 枚入りのセットもあり。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "ツボクサ、カタツムリ、ビタミンのシートマスク",
+    "about": [
+     "Sheet & Gel Masks は LEBELAGE のマスクラインです：25 g の Solution Mask 6種、28 mL のアンプルタイプ Capsule Cica、そして毎日使える Everyday Vitamin。成分は基本的なニーズをカバーします——鎮静(ツボクサとマデカッソシド)、栄養(カタツムリ粘液)、バランス(緑茶)、ツヤ(ビタミン)、うるおい(アロエ)。",
+     "マスクはセット単位です：Solution と Capsule は 1 パック 10 枚、Everyday Vitamin は 1 箱 30 枚。シートマスクは同社の価格表で最大級のカテゴリーであり、輸入業者にとって定番の「最初の注文」でもあります：1 枚あたりの価格が低く、購入者に分かりやすい品揃えで、マーケットプレイスやドラッグストア、ギフトセットで回転が速い商材です。"
+    ],
+    "itemNotes": [
+     "Centella配合のシートマスクで、肌を鎮静します、10枚。",
+     "Madecassoside配合のシートマスクで、肌を整えハリを与えます、10枚。",
+     "Snail（カタツムリ粘液）配合のシートマスクで、肌に栄養を与え整えます、10枚。",
+     "Green Tea配合のシートマスクで、肌を清潔にしバランスを整えます、10枚。",
+     "Vitamin配合のシートマスクで、肌に透明感とハリを与えます、10枚。",
+     "Aloe配合のシートマスクで、肌に潤いを与え鎮静します、10枚。",
+     "Centella配合のアンプルシートマスクで、肌を集中的に鎮静します、10枚。",
+     "毎日使えるVitaminシートマスクで、肌に透明感を与えます、30枚。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — maschere viso · Teranova",
+    "seoDesc": "La linea Sheet & Gel Masks di LEBELAGE — maschere in tessuto da 10 pezzi con centella, madecassoside, mucina di lumaca, tè verde, vitamine e aloe, più un set da 30 maschere. Forniture all'ingrosso dalla Corea tramite Teranova.",
+    "tagline": "Maschere in tessuto con centella, lumaca e vitamine",
+    "about": [
+     "Sheet & Gel Masks è la linea di maschere LEBELAGE: sei varianti Solution Mask da 25 g, le Capsule Cica in fiala da 28 ml e il formato quotidiano Everyday Vitamin. Gli attivi coprono le esigenze di base — lenire (centella e madecassoside), nutrire (mucina di lumaca), equilibrio (tè verde), luminosità (vitamine) e idratazione (aloe).",
+     "Le maschere sono vendute in set: 10 pezzi per confezione nelle Solution e nelle Capsule e 30 maschere nella confezione Everyday Vitamin. Le maschere in tessuto sono una delle categorie più ampie del listino dell'azienda e il classico «primo ordine» dell'importatore: prezzo unitario contenuto, assortimento chiaro per il cliente e rotazione rapida sui marketplace, nei drugstore e nei cofanetti regalo."
+    ],
+    "itemNotes": [
+     "Maschere in tessuto con Centella per lenire la pelle, 10 pz.",
+     "Maschere in tessuto con Madecassoside per rigenerare e tonificare la pelle, 10 pz.",
+     "Maschere in tessuto con mucina di Snail per nutrire e rigenerare la pelle, 10 pz.",
+     "Maschere in tessuto al tè verde per detergere e riequilibrare la pelle, 10 pz.",
+     "Maschere in tessuto con vitamine per la luminosità e la tonicità della pelle, 10 pz.",
+     "Maschere in tessuto all'aloe per idratare e lenire la pelle, 10 pz.",
+     "Maschere in tessuto con siero concentrato di Centella per un'intensa azione lenitiva sulla pelle, 10 pz.",
+     "Maschere in tessuto quotidiane con vitamine per la luminosità della pelle, 30 pz."
+    ]
+   },
+   "de": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — Tuchmasken · Teranova",
+    "seoDesc": "Die Serie Sheet & Gel Masks von LEBELAGE — Tuchmasken à 10 Stück mit Centella, Madecassosid, Schneckensekret, Grüntee, Vitaminen und Aloe sowie ein Set mit 30 Masken. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Tuchmasken mit Centella, Schneckensekret und Vitaminen",
+    "about": [
+     "Sheet & Gel Masks ist die Maskenserie von LEBELAGE: sechs Varianten Solution Mask zu je 25 g, die Ampullenmasken Capsule Cica zu 28 ml und das Alltagsformat Everyday Vitamin. Die Wirkstoffe decken die Grundbedürfnisse ab — Beruhigung (Centella und Madecassosid), Nährstoffe (Schneckensekretfiltrat), Balance (Grüntee), Strahlkraft (Vitamine) und Feuchtigkeit (Aloe).",
+     "Die Masken kommen im Set: je 10 Stück pro Packung bei Solution und Capsule und 30 Masken in der Packung Everyday Vitamin. Tuchmasken sind eine der größten Kategorien der Preisliste des Unternehmens und die klassische «erste Bestellung» eines Importeurs: niedriger Stückpreis, ein für den Käufer verständliches Sortiment und schneller Umschlag auf Marktplätzen, in Drogerien und in Geschenksets."
+    ],
+    "itemNotes": [
+     "Tuchmasken mit Centella zur Beruhigung der Haut, 10 Stück.",
+     "Tuchmasken mit Madecassoside zur Regeneration und Straffung der Haut, 10 Stück.",
+     "Tuchmasken mit Snail-Mucin zur Pflege und Regeneration der Haut, 10 Stück.",
+     "Tuchmasken mit Grüntee zur Reinigung und Balance der Haut, 10 Stück.",
+     "Tuchmasken mit Vitaminen für Strahlkraft und Tonus der Haut, 10 Stück.",
+     "Tuchmasken mit Aloe zur Feuchtigkeit und Beruhigung der Haut, 10 Stück.",
+     "Ampullen-Tuchmasken mit Centella zur intensiven Beruhigung der Haut, 10 Stück.",
+     "Tägliche Tuchmasken mit Vitaminen für strahlende Haut, 30 Stück."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — masques tissu · Teranova",
+    "seoDesc": "La gamme Sheet & Gel Masks de LEBELAGE — masques tissu par 10 unités à la centella, au madécassoside, à la bave d'escargot, au thé vert et à l'aloès, plus un set de 30. Approvisionnement en gros depuis la Corée via Teranova.",
+    "tagline": "Masques tissu à la centella, à l'escargot et aux vitamines",
+    "about": [
+     "Sheet & Gel Masks est la gamme de masques de LEBELAGE : six variantes de Solution Mask de 25 g, les masques à ampoule Capsule Cica de 28 ml et le format quotidien Everyday Vitamin. Les actifs couvrent les besoins de base — apaisement (centella et madécassoside), nutrition (filtrat de bave d'escargot), équilibre (thé vert), éclat (vitamines) et hydratation (aloès).",
+     "Les masques sont vendus par sets : 10 unités par paquet pour Solution et Capsule et 30 masques dans l'emballage Everyday Vitamin. Les masques tissu forment l'une des plus grandes catégories du tarif de l'entreprise et la « première commande » classique d'un importateur : prix unitaire bas, assortiment compréhensible pour l'acheteur et rotation rapide sur les marketplaces, en drogueries et en coffrets cadeaux."
+    ],
+    "itemNotes": [
+     "Masques en tissu à la Centella pour apaiser la peau, 10 pièces.",
+     "Masques en tissu au Madecassoside pour restaurer et tonifier la peau, 10 pièces.",
+     "Masques en tissu à la bave d'escargot (Snail) pour nourrir et régénérer la peau, 10 pièces.",
+     "Masques en tissu au thé vert pour purifier et équilibrer la peau, 10 pièces.",
+     "Masques en tissu aux vitamines pour l'éclat et la tonification de la peau, 10 pièces.",
+     "Masques en tissu à l'aloès pour hydrater et apaiser la peau, 10 pièces.",
+     "Masques en tissu ampoule à la Centella pour un apaisement intense de la peau, 10 pièces.",
+     "Masques en tissu quotidiens aux vitamines pour l'éclat de la peau, 30 pièces."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — kumaş maskeler · Teranova",
+    "seoDesc": "LEBELAGE imzalı Sheet & Gel Masks — centella, madekassosid, salyangoz müsini, yeşil çay, vitaminler ve aloe içeren 10'lu kumaş maskeler ve 30 maskelik set. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Centella, salyangoz ve vitaminli kumaş maskeler",
+    "about": [
+     "Sheet & Gel Masks, LEBELAGE'ın maske serisidir: 25 g'lık altı Solution Mask çeşidi, 28 ml'lik ampullü Capsule Cica ve günlük format Everyday Vitamin. Aktifler temel talepleri karşılar — yatıştırma (centella ve madekassosid), besleme (salyangoz müsini), denge (yeşil çay), ışıltı (vitaminler) ve nemlendirme (aloe).",
+     "Maskeler setler hâlinde sunulur: Solution ve Capsule'de pakette 10 adet, Everyday Vitamin ambalajında 30 maske. Kumaş maskeler şirketin fiyat listesindeki en büyük kategorilerden biri ve ithalatçının klasik «ilk siparişi»: düşük birim fiyat, müşteri için anlaşılır bir yelpaze ve pazar yerlerinde, drogeride ve hediye setlerinde hızlı devir."
+    ],
+    "itemNotes": [
+     "Cildi yatıştırmak için Centella içeren kağıt maskeler, 10 adet.",
+     "Cildi onarmak ve tonlamak için Madecassoside içeren kağıt maskeler, 10 adet.",
+     "Cildi beslemek ve yenilemek için salyangoz mukini (Snail) içeren kağıt maskeler, 10 adet.",
+     "Cildi temizlemek ve dengelemek için yeşil çay içeren kağıt maskeler, 10 adet.",
+     "Cilde ışıltı ve tonlama için vitamin içeren kağıt maskeler, 10 adet.",
+     "Cildi nemlendirmek ve yatıştırmak için aloe içeren kağıt maskeler, 10 adet.",
+     "Cildin yoğun yatıştırılması için Centella içeren ampul kağıt maskeler, 10 adet.",
+     "Cilde ışıltı kazandırmak için günlük vitamin içeren kağıt maskeler, 30 adet."
+    ]
+   },
+   "es": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — mascarillas · Teranova",
+    "seoDesc": "La línea Sheet & Gel Masks de LEBELAGE — mascarillas de tejido en packs de 10 con centella, madecasósido, mucina de caracol, té verde, vitaminas y aloe, más un estuche de 30. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Mascarillas de tejido con centella, caracol y vitaminas",
+    "about": [
+     "Sheet & Gel Masks es la línea de mascarillas de LEBELAGE: seis variantes de Solution Mask de 25 g, las Capsule Cica en ampolla de 28 ml y el formato diario Everyday Vitamin. Los activos cubren las necesidades básicas: calmar (centella y madecasósido), nutrir (mucina de caracol), equilibrar (té verde), iluminar (vitaminas) e hidratar (aloe).",
+     "Las mascarillas se venden en packs: 10 unidades por caja en Solution y Capsule, y 30 unidades en el estuche de Everyday Vitamin. Las mascarillas de tejido son una de las mayores categorías de la lista de precios de la empresa y el clásico «primer pedido» del importador: precio bajo por unidad, surtido comprensible para el comprador y rotación rápida en marketplaces, droguerías y packs de regalo."
+    ],
+    "itemNotes": [
+     "Mascarillas de tela con Centella para calmar la piel, 10 uds.",
+     "Mascarillas de tela con Madecassoside para reparar y tonificar la piel, 10 uds.",
+     "Mascarillas de tela con mucina de Snail para nutrir y regenerar la piel, 10 uds.",
+     "Mascarillas de tela con té verde para limpiar y equilibrar la piel, 10 uds.",
+     "Mascarillas de tela con vitaminas para la luminosidad y tonicidad de la piel, 10 uds.",
+     "Mascarillas de tela con aloe para hidratar y calmar la piel, 10 uds.",
+     "Mascarillas de tela tipo ampolla con Centella para calmar intensamente la piel, 10 uds.",
+     "Mascarillas de tela diarias con vitaminas para la luminosidad de la piel, 30 uds."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Sheet & Gel Masks (LEBELAGE) — máscaras faciais · Teranova",
+    "seoDesc": "Linha Sheet & Gel Masks da LEBELAGE — máscaras de tecido em caixas de 10 com centela, madecassosídeo, mucina de caracol, chá verde, vitaminas e aloe, além de um kit com 30 unidades. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Máscaras de tecido com centela, caracol e vitaminas",
+    "about": [
+     "Sheet & Gel Masks é a linha de máscaras da LEBELAGE: seis versões da Solution Mask de 25 g, a Capsule Cica em ampola de 28 ml e o formato diário Everyday Vitamin. Os ativos dão conta das demandas básicas — alívio (centela e madecassosídeo), nutrição (mucina de caracol), equilíbrio (chá verde), viço (vitaminas) e hidratação (aloe).",
+     "As máscaras vêm em kits: 10 unidades por caixa nas linhas Solution e Capsule e 30 unidades na embalagem Everyday Vitamin. As máscaras de tecido formam uma das maiores categorias da tabela de preços da empresa e são o clássico «primeiro pedido» do importador: preço baixo por unidade, sortimento que o consumidor entende sozinho e giro rápido em marketplaces, drogarias e kits de presente."
+    ],
+    "itemNotes": [
+     "Máscaras de tecido com Centella para acalmar a pele, 10 un.",
+     "Máscaras de tecido com Madecassoside para reparar e tonificar a pele, 10 un.",
+     "Máscaras de tecido com mucina de Snail para nutrir e regenerar a pele, 10 un.",
+     "Máscaras de tecido com chá verde para limpar e equilibrar a pele, 10 un.",
+     "Máscaras de tecido com vitaminas para a luminosidade e tonicidade da pele, 10 un.",
+     "Máscaras de tecido com aloe para hidratar e acalmar a pele, 10 un.",
+     "Máscaras de tecido tipo ampola com Centella para acalmar intensamente a pele, 10 un.",
+     "Máscaras de tecido diárias com vitaminas para a luminosidade da pele, 30 un."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "sun-care-and-cleansing",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Sun Care & Cleansing",
+  "items": [
+   {
+    "name": "All Day Shield To-Go Sun Care",
+    "img": "/img/suppliers/dongdonggurimoo/products/all-day-shield-to-go-sun-care.jpg",
+    "volume": "40 ml",
+    "price": "1.69",
+    "certs": []
+   },
+   {
+    "name": "UV Sun Ultra Shield Sun Stick",
+    "img": "/img/suppliers/dongdonggurimoo/products/uv-sun-ultra-shield-sun-stick.jpg",
+    "volume": "20 g",
+    "price": "3.89",
+    "certs": []
+   },
+   {
+    "name": "Snail Cleansing Foam",
+    "img": "/img/suppliers/dongdonggurimoo/products/snail-cleansing-foam.jpg",
+    "volume": "100 ml",
+    "price": "0.71",
+    "certs": []
+   },
+   {
+    "name": "Waterproof To-Go Sun Care",
+    "img": "/img/suppliers/dongdonggurimoo/products/waterproof-to-go-sun-care.jpg",
+    "volume": "40 ml",
+    "price": "1.69",
+    "certs": []
+   },
+   {
+    "name": "Perfect Care Cica Soothing Sun",
+    "img": "/img/suppliers/dongdonggurimoo/products/perfect-care-cica-soothing-sun.jpg",
+    "volume": "50 g",
+    "price": "1.99",
+    "certs": []
+   },
+   {
+    "name": "Mega Cooling Sun Cushion",
+    "img": "/img/suppliers/dongdonggurimoo/products/mega-cooling-sun-cushion.jpg",
+    "volume": "20 g",
+    "price": "4.56",
+    "certs": []
+   },
+   {
+    "name": "Green Tea Cleansing Foam",
+    "img": "/img/suppliers/dongdonggurimoo/products/green-tea-cleansing-foam.jpg",
+    "volume": "100 ml",
+    "price": "0.71",
+    "certs": []
+   },
+   {
+    "name": "Charcoal Pore Clay Cleansing Foam",
+    "img": "/img/suppliers/dongdonggurimoo/products/charcoal-pore-clay-cleansing-foam.jpg",
+    "volume": "180 ml",
+    "price": "1.42",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF и пенки · Teranova",
+    "seoDesc": "Линейка Sun Care & Cleansing от LEBELAGE — солнцезащита SPF50+ PA++++ в форматах крема, стика и кушона и очищающие пенки с улиткой, зелёным чаем и углём. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Солнцезащита SPF50+ и пенки для ежедневного умывания",
+    "about": [
+     "Sun Care & Cleansing — линейка LEBELAGE для двух ежедневных шагов: защиты от солнца и очищения. Солнцезащитная часть, по данным компании, заявлена как SPF50+ PA++++ и собрана в разных форматах: дорожные крема по 40 мл, включая водостойкий, крем с центеллой 50 г, стик 20 г широкого спектра UVA+UVB и охлаждающий кушон 20 г.",
+     "Очищение представлено пенками: муцин улитки и зелёный чай по 100 мл для мягкого ежедневного умывания и глиняная пенка с углём 180 мл для глубокого очищения пор. Солнцезащита и умывалки — расходные позиции с высокой повторной покупкой, а сезонный спрос на SPF и разнообразие форматов делают линейку удобной для сетевой розницы и маркетплейсов."
+    ],
+    "itemNotes": [
+     "Компактный солнцезащитный крем SPF50+ PA++++ в удобном дорожном формате, 40 мл.",
+     "Солнцезащитный стик SPF50 широкого спектра UVA+UVB, 20 г.",
+     "Очищающая пенка с муцином улитки для мягкого ежедневного умывания, 100 мл.",
+     "Водостойкий солнцезащитный крем SPF50+ PA++++ в дорожном формате, 40 мл.",
+     "Успокаивающий солнцезащитный крем с центеллой SPF50+ PA++++, 50 г.",
+     "Охлаждающий солнцезащитный кушон SPF50+ PA++++ для удобного нанесения, 20 г.",
+     "Очищающая пенка с зелёным чаем для мягкого умывания и баланса кожи, 100 мл.",
+     "Глиняная очищающая пенка с углём для глубокого очищения пор, 180 мл."
+    ]
+   },
+   "en": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF · Teranova",
+    "seoDesc": "The Sun Care & Cleansing range by LEBELAGE — SPF50+ PA++++ sun protection in cream, stick and cushion formats, plus cleansing foams with snail mucin, green tea and charcoal. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "SPF50+ sun protection and foams for daily washing",
+    "about": [
+     "Sun Care & Cleansing is LEBELAGE's range for two daily steps: sun protection and cleansing. The sun care part, per company data, is stated as SPF50+ PA++++ and comes in different formats: 40 ml travel creams, including a water-resistant one, a 50 g cream with centella, a 20 g broad-spectrum UVA+UVB stick and a 20 g cooling cushion.",
+     "Cleansing is represented by foams: snail mucin and green tea, 100 ml each, for gentle daily washing, and a 180 ml clay foam with charcoal for deep pore cleansing. Sun care and cleansers are consumable items with high repeat purchase, while seasonal demand for SPF and the variety of formats make the range convenient for chain retail and marketplaces."
+    ],
+    "itemNotes": [
+     "Compact SPF50+ PA++++ sunscreen in a convenient travel format, 40 ml.",
+     "Broad-spectrum UVA+UVB sun stick, SPF50, 20 g.",
+     "Snail mucin cleansing foam for gentle daily washing, 100 ml.",
+     "Waterproof SPF50+ PA++++ sunscreen in a travel format, 40 ml.",
+     "Soothing Centella sunscreen, SPF50+ PA++++, 50 g.",
+     "Cooling sun cushion SPF50+ PA++++ for easy application, 20 g.",
+     "Green Tea cleansing foam for gentle washing and balanced skin, 100 ml.",
+     "Charcoal clay cleansing foam for deep pore cleansing, 180 ml."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF와 폼 · Teranova",
+    "seoDesc": "LEBELAGE의 Sun Care & Cleansing 라인 — 크림, 스틱, 쿠션 포맷의 SPF50+ PA++++ 선케어(회사 자료 기준)와 달팽이 뮤신, 녹차, 차콜을 담은 클렌징 폼. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "SPF50+ 선케어와 매일 쓰는 클렌징 폼",
+    "about": [
+     "Sun Care & Cleansing은 자외선 차단과 세정이라는 두 가지 데일리 단계를 위한 LEBELAGE의 라인입니다. 선케어 파트는 회사 자료 기준 SPF50+ PA++++로 표기되며 다양한 포맷으로 구성됩니다: 워터프루프 제품을 포함한 40ml 트래블 크림, 센텔라를 담은 50g 크림, UVA+UVB 광범위 차단 20g 스틱, 쿨링 쿠션 20g.",
+     "세정은 폼으로 구성됩니다: 부드러운 데일리 세안을 위한 달팽이 뮤신과 녹차 각 100ml, 모공 딥클렌징을 위한 차콜 클레이 폼 180ml. 선케어와 클렌저는 재구매율이 높은 소모성 품목이며, SPF의 계절 수요와 다양한 포맷은 이 라인을 체인 리테일과 마켓플레이스에 적합하게 만듭니다."
+    ],
+    "itemNotes": [
+     "휴대하기 편한 컴팩트 SPF50+ PA++++ 선크림, 40 ml.",
+     "UVA+UVB 광범위 차단 SPF50 선스틱, 20 g.",
+     "순한 데일리 클렌징을 위한 Snail 뮤신 클렌징 폼, 100 ml.",
+     "휴대용 포맷의 워터프루프 SPF50+ PA++++ 선크림, 40 ml.",
+     "피부를 진정시키는 Centella SPF50+ PA++++ 선크림, 50 g.",
+     "간편한 발림을 위한 쿨링 선쿠션 SPF50+ PA++++, 20 g.",
+     "순한 세정과 피부 밸런스를 위한 Green Tea 클렌징 폼, 100 ml.",
+     "모공 속 깊은 세정을 위한 Charcoal 클레이 클렌징 폼, 180 ml."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — 防晒与洁面 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Sun Care & Cleansing 系列 — SPF50+ PA++++ 防晒的面霜、防晒棒与气垫形态，以及含蜗牛、绿茶与炭的洁面泡沫。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "SPF50+ 防晒与每日洁面泡沫",
+    "about": [
+     "Sun Care & Cleansing 是 LEBELAGE 面向两个日常步骤的系列：防晒与清洁。据公司资料，防晒部分标示为 SPF50+ PA++++，并有多种形态：40 毫升旅行装面霜（含防水款）、50 克积雪草防晒霜、20 克广谱 UVA+UVB 防晒棒，以及 20 克清凉气垫。",
+     "清洁部分为洁面泡沫：100 毫升的蜗牛黏液款与绿茶款用于温和的日常洗脸，180 毫升的炭泥洁面用于毛孔深层清洁。防晒与洁面属于复购率高的消耗品，加上 SPF 的季节性需求与形态的多样性，让这条系列很适合连锁零售与电商平台。"
+    ],
+    "itemNotes": [
+     "SPF50+ PA++++轻便旅行装防晒霜，40ml。",
+     "SPF50广谱UVA+UVB防晒棒，20g。",
+     "含Snail蜗牛黏液的洁面泡沫，温和日常洁净，100ml。",
+     "SPF50+ PA++++防水旅行装防晒霜，40ml。",
+     "含Centella的舒缓防晒霜 SPF50+ PA++++，50g。",
+     "SPF50+ PA++++清凉防晒气垫，便捷上妆，20g。",
+     "含Green Tea绿茶的洁面泡沫，温和洁净并平衡肌肤，100ml。",
+     "含Charcoal活性炭的黏土洁面泡沫，深层清洁毛孔，180ml。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — 日焼け止めと洗顔 · Teranova",
+    "seoDesc": "LEBELAGE の Sun Care & Cleansing — SPF50+ PA++++ の日焼け止めをクリーム、スティック、クッションの形態で、さらにカタツムリ、緑茶、チャコール配合の洗顔フォーム。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "SPF50+ の日焼け止めと毎日の洗顔フォーム",
+    "about": [
+     "Sun Care & Cleansing は、日焼け止めと洗浄という毎日の二つのステップに向けた LEBELAGE のラインです。会社提供の情報によると、日焼け止め部分は SPF50+ PA++++ と表示され、複数の形態で構成されています：ウォータープルーフを含む 40 mL のトラベルクリーム、ツボクサ配合クリーム 50 g、UVA+UVB 広域スペクトルのスティック 20 g、ひんやりとしたクッション 20 g。",
+     "洗浄は洗顔フォームで構成されます：やさしい毎日の洗顔のためにカタツムリ粘液と緑茶の各 100 mL、毛穴のディープクレンジングのためにチャコール配合のクレイフォーム 180 mL。日焼け止めと洗顔料はリピート率の高い消耗品であり、SPF の季節需要と形態の豊富さから、チェーン小売やマーケットプレイスに適したラインです。"
+    ],
+    "itemNotes": [
+     "SPF50+ PA++++のコンパクトなトラベル用日焼け止め、40ml。",
+     "SPF50広範囲UVA+UVBの日焼け止めスティック、20g。",
+     "Snail（カタツムリ粘液）配合の洗顔フォームで、毎日やさしく洗い上げます、100ml。",
+     "SPF50+ PA++++のウォータープルーフトラベル用日焼け止め、40ml。",
+     "Centella配合の鎮静日焼け止め SPF50+ PA++++、50g。",
+     "SPF50+ PA++++のクーリング日焼け止めクッションで、手軽に塗布できます、20g。",
+     "Green Tea配合の洗顔フォームで、やさしく洗い肌のバランスを整えます、100ml。",
+     "Charcoal配合のクレイ洗顔フォームで、毛穴を深く洗浄します、180ml。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF50+ ingrosso · Teranova",
+    "seoDesc": "La linea Sun Care & Cleansing di LEBELAGE — protezione solare SPF50+ PA++++ in crema, stick e cushion e mousse detergenti con lumaca, tè verde e carbone. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+    "tagline": "Protezione solare SPF50+ e detergenti quotidiani",
+    "about": [
+     "Sun Care & Cleansing è la linea LEBELAGE per due passaggi quotidiani: protezione dal sole e detersione. La parte solare, secondo i dati dell'azienda, è dichiarata SPF50+ PA++++ ed è declinata in formati diversi: creme da viaggio da 40 ml, inclusa una versione resistente all'acqua, crema alla centella da 50 g, stick da 20 g ad ampio spettro UVA+UVB e cushion rinfrescante da 20 g.",
+     "La detersione è affidata alle mousse: mucina di lumaca e tè verde da 100 ml per il lavaggio quotidiano delicato e mousse all'argilla con carbone da 180 ml per la pulizia profonda dei pori. Solari e detergenti sono referenze di consumo con alto tasso di riacquisto, mentre la stagionalità dell'SPF e la varietà dei formati rendono la linea comoda per il retail organizzato e i marketplace."
+    ],
+    "itemNotes": [
+     "Crema solare compatta SPF50+ PA++++ in pratico formato da viaggio, 40 ml.",
+     "Stick solare SPF50 ad ampio spettro UVA+UVB, 20 g.",
+     "Schiuma detergente con mucina di Snail per una detersione quotidiana delicata, 100 ml.",
+     "Crema solare resistente all'acqua SPF50+ PA++++ in formato da viaggio, 40 ml.",
+     "Crema solare lenitiva con Centella SPF50+ PA++++, 50 g.",
+     "Cushion solare rinfrescante SPF50+ PA++++ per un'applicazione comoda, 20 g.",
+     "Schiuma detergente al tè verde per una detersione delicata e il riequilibrio della pelle, 100 ml.",
+     "Schiuma detergente all'argilla con carbone per una detersione profonda dei pori, 180 ml."
+    ]
+   },
+   "de": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF & Schaum · Teranova",
+    "seoDesc": "Die Serie Sun Care & Cleansing von LEBELAGE — Sonnenschutz SPF50+ PA++++ als Creme, Stick und Cushion sowie Reinigungsschäume mit Schneckensekret, Grüntee und Aktivkohle. Großhandelslieferungen aus Korea über Teranova.",
+    "tagline": "Sonnenschutz SPF50+ und Schäume für die tägliche Reinigung",
+    "about": [
+     "Sun Care & Cleansing ist die Serie von LEBELAGE für zwei tägliche Schritte: Schutz vor der Sonne und Reinigung. Der Sonnenschutz-Teil ist laut Unternehmensangaben mit SPF50+ PA++++ ausgewiesen und in verschiedenen Formaten zusammengestellt: Reisecremes zu je 40 ml, darunter eine wasserfeste, Creme mit Centella 50 g, Stick 20 g mit breitem UVA+UVB-Spektrum und ein kühlendes Cushion 20 g.",
+     "Die Reinigung ist mit Schäumen vertreten: Schneckensekretfiltrat und Grüntee zu je 100 ml für die sanfte tägliche Wäsche und ein Tonerde-Schaum mit Aktivkohle 180 ml für die Tiefenreinigung der Poren. Sonnenschutz und Reinigungsschäume sind Verbrauchspositionen mit hoher Wiederkaufrate, und die saisonale Nachfrage nach SPF sowie die Formatvielfalt machen die Serie für den Filialhandel und Marktplätze praktisch."
+    ],
+    "itemNotes": [
+     "Kompakte Sonnencreme SPF50+ PA++++ im praktischen Reiseformat, 40 ml.",
+     "Sonnenstick SPF50 mit Breitbandschutz UVA+UVB, 20 g.",
+     "Reinigungsschaum mit Snail-Mucin für eine sanfte tägliche Reinigung, 100 ml.",
+     "Wasserfeste Sonnencreme SPF50+ PA++++ im Reiseformat, 40 ml.",
+     "Beruhigende Sonnencreme mit Centella SPF50+ PA++++, 50 g.",
+     "Kühlendes Sonnen-Cushion SPF50+ PA++++ für eine bequeme Anwendung, 20 g.",
+     "Reinigungsschaum mit Grüntee für eine sanfte Reinigung und Balance der Haut, 100 ml.",
+     "Reinigungsschaum mit Tonerde und Aktivkohle zur Tiefenreinigung der Poren, 180 ml."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF 50+ · Teranova",
+    "seoDesc": "La gamme Sun Care & Cleansing de LEBELAGE — protection solaire SPF50+ PA++++ en crème, stick et cushion et mousses nettoyantes à l'escargot, au thé vert et au charbon. Approvisionnement en gros depuis la Corée via Teranova.",
+    "tagline": "Protection solaire SPF50+ et mousses pour le nettoyage quotidien",
+    "about": [
+     "Sun Care & Cleansing est la gamme de LEBELAGE pour deux étapes quotidiennes : la protection contre le soleil et le nettoyage. La partie solaire est annoncée, selon les données de l'entreprise, en SPF50+ PA++++ et réunie en plusieurs formats : crèmes de voyage de 40 ml, dont une résistante à l'eau, crème à la centella 50 g, stick 20 g à large spectre UVA+UVB et cushion rafraîchissant 20 g.",
+     "Le nettoyage est représenté par des mousses : filtrat de bave d'escargot et thé vert de 100 ml pour une toilette quotidienne douce et une mousse à l'argile et au charbon de 180 ml pour le nettoyage en profondeur des pores. Les solaires et les mousses sont des produits d'usage courant à fort réachat, et la demande saisonnière de SPF comme la variété des formats rendent la gamme pratique pour le retail de réseau et les marketplaces."
+    ],
+    "itemNotes": [
+     "Crème solaire compacte SPF50+ PA++++ au format voyage pratique, 40 ml.",
+     "Stick solaire SPF50 à large spectre UVA+UVB, 20 g.",
+     "Mousse nettoyante à la bave d'escargot (Snail) pour un nettoyage quotidien doux, 100 ml.",
+     "Crème solaire waterproof SPF50+ PA++++ au format voyage, 40 ml.",
+     "Crème solaire apaisante à la Centella SPF50+ PA++++, 50 g.",
+     "Coussin solaire rafraîchissant SPF50+ PA++++ pour une application pratique, 20 g.",
+     "Mousse nettoyante au thé vert pour un nettoyage doux et l'équilibre de la peau, 100 ml.",
+     "Mousse nettoyante à l'argile et au charbon pour un nettoyage en profondeur des pores, 180 ml."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF50+ toptan · Teranova",
+    "seoDesc": "LEBELAGE imzalı Sun Care & Cleansing — krem, stick ve cushion formatlarında SPF50+ PA++++ güneş koruması ve salyangoz, yeşil çay ve kömürlü temizleme köpükleri. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "SPF50+ güneş koruması ve günlük temizleme köpükleri",
+    "about": [
+     "Sun Care & Cleansing, LEBELAGE'ın iki günlük adıma yönelik serisidir: güneşten korunma ve temizlik. Güneş koruma bölümü, şirket verilerine göre SPF50+ PA++++ olarak beyan edilmiştir ve farklı formatlarda toplanmıştır: suya dayanıklı olan dahil 40 ml'lik seyahat kremleri, 50 g centella kremi, UVA+UVB geniş spektrumlu 20 g stick ve 20 g serinletici cushion.",
+     "Temizlik köpüklerle sunulur: nazik günlük yıkama için 100 ml salyangoz müsini ve yeşil çay, gözeneklerin derin temizliği için 180 ml kömürlü kil köpüğü. Güneş koruyucular ve yıkama ürünleri tekrar satın alımı yüksek sarf ürünleridir; SPF'e mevsimsel talep ve format çeşitliliği seriyi zincir perakende ve pazar yerleri için elverişli kılar."
+    ],
+    "itemNotes": [
+     "Pratik seyahat boyutunda kompakt güneş koruyucu krem SPF50+ PA++++, 40 ml.",
+     "Geniş spektrumlu UVA+UVB koruması sağlayan güneş koruyucu stick SPF50, 20 g.",
+     "Nazik günlük temizlik için salyangoz mukini (Snail) içeren temizleme köpüğü, 100 ml.",
+     "Seyahat boyutunda suya dayanıklı güneş koruyucu krem SPF50+ PA++++, 40 ml.",
+     "Centella içeren yatıştırıcı güneş koruyucu krem SPF50+ PA++++, 50 g.",
+     "Pratik uygulama için serinletici güneş koruyucu cushion SPF50+ PA++++, 20 g.",
+     "Nazik temizlik ve cilt dengesi için yeşil çay içeren temizleme köpüğü, 100 ml.",
+     "Gözeneklerin derin temizliği için kömür içeren kil temizleme köpüğü, 180 ml."
+    ]
+   },
+   "es": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — SPF50+ mayorista · Teranova",
+    "seoDesc": "La línea Sun Care & Cleansing de LEBELAGE — protección solar SPF50+ PA++++ en crema, stick y cushion, y espumas limpiadoras con caracol, té verde y carbón. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Protección solar SPF50+ y espumas para el lavado diario",
+    "about": [
+     "Sun Care & Cleansing es la línea de LEBELAGE para dos pasos diarios: la protección solar y la limpieza. La parte solar, según datos de la empresa, se declara como SPF50+ PA++++ y se ofrece en varios formatos: cremas de viaje de 40 ml, una de ellas resistente al agua, crema con centella de 50 g, stick de 20 g de amplio espectro UVA+UVB y cushion refrescante de 20 g.",
+     "La limpieza se resuelve con espumas: mucina de caracol y té verde de 100 ml para el lavado diario suave, y espuma de arcilla con carbón de 180 ml para una limpieza profunda de los poros. Solares y limpiadoras son referencias de consumo con alta recompra, y la estacionalidad del SPF junto con la variedad de formatos hacen la línea cómoda para la venta minorista en cadena y los marketplaces."
+    ],
+    "itemNotes": [
+     "Protector solar compacto SPF50+ PA++++ en práctico formato de viaje, 40 ml.",
+     "Stick solar SPF50 de amplio espectro UVA+UVB, 20 g.",
+     "Espuma limpiadora con mucina de Snail para una limpieza diaria suave, 100 ml.",
+     "Protector solar resistente al agua SPF50+ PA++++ en formato de viaje, 40 ml.",
+     "Protector solar calmante con Centella SPF50+ PA++++, 50 g.",
+     "Cojín solar refrescante SPF50+ PA++++ para una aplicación cómoda, 20 g.",
+     "Espuma limpiadora con té verde para una limpieza suave y el equilibrio de la piel, 100 ml.",
+     "Espuma limpiadora de arcilla con carbón para una limpieza profunda de los poros, 180 ml."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Sun Care & Cleansing (LEBELAGE) — limpeza e SPF · Teranova",
+    "seoDesc": "Linha Sun Care & Cleansing da LEBELAGE — proteção solar SPF50+ PA++++ em creme, bastão e cushion e espumas de limpeza com caracol, chá verde e carvão. Fornecimento por atacado da Coreia pela Teranova.",
+    "tagline": "Proteção solar SPF50+ e espumas para lavar o rosto todo dia",
+    "about": [
+     "Sun Care & Cleansing é a linha da LEBELAGE para dois passos diários: proteger do sol e limpar. A parte solar, segundo dados da empresa, é declarada como SPF50+ PA++++ e vem em formatos variados: cremes de viagem de 40 ml, inclusive um resistente à água, creme com centela de 50 g, bastão de 20 g de amplo espectro UVA+UVB e cushion refrescante de 20 g.",
+     "A limpeza fica por conta das espumas: mucina de caracol e chá verde de 100 ml para a lavagem diária delicada e espuma de argila com carvão de 180 ml para a limpeza profunda dos poros. Solares e sabonetes de limpeza são itens de consumo com recompra alta, e a sazonalidade do SPF somada à variedade de formatos torna a linha atraente para o varejo em rede e os marketplaces."
+    ],
+    "itemNotes": [
+     "Protetor solar compacto SPF50+ PA++++ em prático formato de viagem, 40 ml.",
+     "Stick solar SPF50 de amplo espectro UVA+UVB, 20 g.",
+     "Espuma de limpeza com mucina de Snail para uma limpeza diária suave, 100 ml.",
+     "Protetor solar resistente à água SPF50+ PA++++ em formato de viagem, 40 ml.",
+     "Protetor solar calmante com Centella SPF50+ PA++++, 50 g.",
+     "Cushion solar refrescante SPF50+ PA++++ para uma aplicação confortável, 20 g.",
+     "Espuma de limpeza com chá verde para uma limpeza suave e o equilíbrio da pele, 100 ml.",
+     "Espuma de limpeza de argila com carvão para uma limpeza profunda dos poros, 180 ml."
+    ]
+   }
+  }
+ },
+ {
+  "slug": "value-sets-and-make-up",
+  "supplierSlug": "dongdonggurimoo",
+  "category": "cosmetics",
+  "lineName": "Value Sets & Make-up",
+  "items": [
+   {
+    "name": "Collagen No Sebum Foundation",
+    "img": "/img/suppliers/dongdonggurimoo/products/collagen-no-sebum-foundation.jpg",
+    "volume": "100 ml",
+    "price": "2.30",
+    "certs": []
+   },
+   {
+    "name": "Centella Moisture Set of 2",
+    "img": "/img/suppliers/dongdonggurimoo/products/centella-moisture-set-of-2.jpg",
+    "volume": "Skin 150 ml + Lotion 150 ml (+ minis)",
+    "price": "4.90",
+    "certs": []
+   },
+   {
+    "name": "Super Aqua Moisture Set of 2",
+    "img": "/img/suppliers/dongdonggurimoo/products/super-aqua-moisture-set-of-2.jpg",
+    "volume": "Skin 150 ml + Lotion 150 ml (+ minis)",
+    "price": "4.90",
+    "certs": []
+   },
+   {
+    "name": "I'm Hand Cream Set of 3",
+    "img": "/img/suppliers/dongdonggurimoo/products/im-hand-cream-set-of-3.jpg",
+    "volume": "30 g x 3",
+    "price": "1.28",
+    "certs": []
+   },
+   {
+    "name": "Cica Madecassoside Set of 4",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-madecassoside-set-of-4.jpg",
+    "volume": "Toner 120 ml + Emulsion 120 ml + Ampoule 35 ml + Cream 55 ml",
+    "price": "18.58",
+    "certs": []
+   },
+   {
+    "name": "Cica Propolis Myrrh Ampoule Set",
+    "img": "/img/suppliers/dongdonggurimoo/products/cica-propolis-myrrh-ampoule-set.jpg",
+    "volume": "15 ml x 10",
+    "price": "12.84",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — наборы · Teranova",
+    "seoDesc": "Линейка Value Sets & Make-up от LEBELAGE — готовые наборы ухода с центеллой и Super Aqua, набор кремов для рук и тональная основа с коллагеном. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "tagline": "Готовые наборы ухода и тональная основа с коллагеном",
+    "about": [
+     "Value Sets & Make-up — часть ассортимента LEBELAGE, собранная в готовые комплекты. Сюда входят наборы Centella Moisture и Super Aqua из тонера и эмульсии по 150 мл с миниатюрами, четырёхшаговый набор Cica Madecassoside — тонер, эмульсия, ампула и крем — и набор из десяти ампул с прополисом и миррой по 15 мл.",
+     "Отдельно в линейке — набор из трёх кремов для рук по 30 г с ароматами ши, сандала и франжипани и тональная основа с коллагеном 100 мл в оттенке Natural Beige с матирующим эффектом. Готовые наборы удобны для подарочных полок, сезонных промо и маркетплейсов: одна упаковка, выше средний чек и меньше работы с подбором ассортимента."
+    ],
+    "itemNotes": [
+     "Тональная основа с коллагеном и матирующим эффектом, оттенок Natural Beige, 100 мл.",
+     "Набор ухода с центеллой: тонер и эмульсия для увлажнения кожи.",
+     "Набор глубокого увлажнения Super Aqua: тонер и эмульсия.",
+     "Набор из 3 кремов для рук с ароматами ши, сандала и франжипани, по 30 г.",
+     "Набор ухода с центеллой: тонер, эмульсия, ампула и крем.",
+     "Набор из 10 ампул с прополисом и центеллой, по 15 мл каждая."
+    ]
+   },
+   "en": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — sets · Teranova",
+    "seoDesc": "The Value Sets & Make-up range by LEBELAGE — ready-made care sets with centella and Super Aqua, a hand cream set and a foundation with collagen. Wholesale supply from Korea and deal support through Teranova.",
+    "tagline": "Ready-made care sets and a foundation with collagen",
+    "about": [
+     "Value Sets & Make-up is the part of the LEBELAGE assortment put together into ready-made kits. It includes the Centella Moisture and Super Aqua sets of a 150 ml toner and emulsion with miniatures, the four-step Cica Madecassoside set — toner, emulsion, ampoule and cream — and a set of ten 15 ml ampoules with propolis and myrrh.",
+     "Separately, the range has a set of three 30 g hand creams with shea, sandalwood and frangipani scents and a 100 ml foundation with collagen in the Natural Beige shade with a mattifying effect. Ready-made sets are convenient for gift shelves, seasonal promos and marketplaces: one pack, a higher average check and less work on assortment selection."
+    ],
+    "itemNotes": [
+     "Collagen foundation with a matte finish, shade Natural Beige, 100 ml.",
+     "Centella care set: toner and emulsion for skin hydration.",
+     "Super Aqua deep-hydration set: toner and emulsion.",
+     "Set of 3 hand creams scented with shea, sandalwood and frangipani, 30 g each.",
+     "Centella care set: toner, emulsion, ampoule and cream.",
+     "Set of 10 Propolis and Centella ampoules, 15 ml each."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — 기획 세트 · Teranova",
+    "seoDesc": "LEBELAGE의 Value Sets & Make-up 라인 — 센텔라와 Super Aqua를 담은 토너·에멀전 기획 케어 세트, 4단계 Cica Madecassoside 세트, 핸드크림 3종 세트, 콜라겐 파운데이션. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "tagline": "완성된 케어 세트와 콜라겐 파운데이션",
+    "about": [
+     "Value Sets & Make-up은 완성된 세트로 묶은 LEBELAGE 구색의 한 부분입니다. 미니어처가 포함된 150ml 토너와 에멀전으로 구성된 Centella Moisture, Super Aqua 세트, 토너·에멀전·앰플·크림의 4단계 Cica Madecassoside 세트, 그리고 프로폴리스와 미르를 담은 15ml 앰플 10개 세트가 여기에 들어갑니다.",
+     "라인에는 시어, 샌달우드, 프란지파니 향의 30g 핸드크림 3종 세트와 매트 마무리의 Natural Beige 컬러 콜라겐 파운데이션 100ml도 별도로 있습니다. 완성된 세트는 기프트 매대, 시즌 프로모션, 마켓플레이스에 편리합니다: 하나의 패키지, 높아지는 객단가, 그리고 구색을 고르는 수고가 줄어듭니다."
+    ],
+    "itemNotes": [
+     "매트한 마무리의 Collagen 파운데이션, Natural Beige 색상, 100 ml.",
+     "피부 수분을 위한 Centella 케어 세트: 토너와 에멀전.",
+     "Super Aqua 집중 수분 세트: 토너와 에멀전.",
+     "시어·샌달우드·프랑지파니 향의 핸드크림 3종 세트, 각 30 g.",
+     "Centella 케어 세트: 토너, 에멀전, 앰플, 크림.",
+     "Propolis와 Centella 앰플 10개 세트, 각 15 ml."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — 套装 · Teranova",
+    "seoDesc": "LEBELAGE 旗下 Value Sets & Make-up 系列 — 含积雪草与 Super Aqua 的现成护理套装、护手霜套装，以及含胶原蛋白的粉底液。韩国批发供应，通过 Teranova 提供交易支持。",
+    "tagline": "现成护理套装与含胶原蛋白的粉底液",
+    "about": [
+     "Value Sets & Make-up 是 LEBELAGE 中以现成套装形式组合的部分。其中包括 Centella Moisture 与 Super Aqua 套装（各含 150 毫升爽肤水与乳液，并附小样）、四步 Cica Madecassoside 套装（爽肤水、乳液、安瓶与面霜），以及十支装的蜂胶与没药安瓶 15 毫升。",
+     "系列中还单独有一套三支 30 克护手霜，香型为乳木果、檀香与鸡蛋花，以及 100 毫升含胶原蛋白的粉底液，色号 Natural Beige，带控油效果。现成套装适合礼品货架、季节性促销与电商平台：一个包装，客单价更高，也省去挑选品类的工作。"
+    ],
+    "itemNotes": [
+     "含Collagen的控油粉底液，Natural Beige色号，100ml。",
+     "Centella护肤套装：化妆水与乳液，保湿肌肤。",
+     "Super Aqua深层保湿套装：化妆水与乳液。",
+     "3支装护手霜套装，含乳木果、檀香与鸡蛋花香型，每支30g。",
+     "Centella护肤四件套：化妆水、乳液、安瓶与面霜。",
+     "10支装Propolis蜂胶与Centella安瓶套装，每支15ml。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — セット · Teranova",
+    "seoDesc": "LEBELAGE の Value Sets & Make-up — ツボクサや Super Aqua のスキンケアセット、ハンドクリームのセット、コラーゲン配合のファンデーション。韓国からの卸売供給、Teranova による取引サポート。",
+    "tagline": "そのまま使えるケアセットとコラーゲン配合ファンデーション",
+    "about": [
+     "Value Sets & Make-up は、そのまま使えるセットにまとめた LEBELAGE の品揃えの一部です。Centella Moisture と Super Aqua のセット(各 150 mL のトナーとエマルジョン、ミニチュア付き)、4ステップの Cica Madecassoside セット(トナー、エマルジョン、アンプル、クリーム)、プロポリスとミルラのアンプル 15 mL を 10 本まとめたセットが含まれます。",
+     "このラインには別途、シアバター、サンダルウッド、プルメリアの香りの 30 g ハンドクリーム3本セットと、Natural Beige の色味でマット仕上げの、コラーゲン配合ファンデーション 100 mL があります。出来合いのセットはギフト棚、季節のプロモーション、マーケットプレイスに向いています：一つのパッケージで客単価が上がり、品揃えを選ぶ手間も減ります。"
+    ],
+    "itemNotes": [
+     "Collagen配合のマットな仕上がりのファンデーション、Natural Beige、100ml。",
+     "Centellaケアセット：トナーとエマルジョンで肌にうるおいを。",
+     "Super Aqua ディープモイスチャーセット：トナーとエマルジョン。",
+     "シアバター、サンダルウッド、フランジパニの香りのハンドクリーム3本セット、各30g。",
+     "Centellaケア4点セット：トナー、エマルジョン、アンプル、クリーム。",
+     "PropolisとCentella配合のアンプル10本セット、各15ml。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — cofanetti · Teranova",
+    "seoDesc": "La linea Value Sets & Make-up di LEBELAGE — set pronti alla centella e Super Aqua, trio di creme mani e fondotinta al collagene. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+    "tagline": "Set pronti per la routine e fondotinta al collagene",
+    "about": [
+     "Value Sets & Make-up è la parte dell'assortimento LEBELAGE raccolta in kit già pronti. Ne fanno parte i set Centella Moisture e Super Aqua con tonico ed emulsione da 150 ml e le rispettive miniature, il set in quattro passaggi Cica Madecassoside — tonico, emulsione, fiala e crema — e la confezione da dieci fiale con propoli e mirra da 15 ml.",
+     "A parte, nella linea, ci sono il set di tre creme mani da 30 g alle note di karité, sandalo e frangipani e il fondotinta al collagene da 100 ml nella tonalità Natural Beige con effetto opacizzante. I set pronti sono comodi per gli scaffali regalo, le promozioni stagionali e i marketplace: una sola confezione, scontrino medio più alto e meno lavoro nella scelta dell'assortimento."
+    ],
+    "itemNotes": [
+     "Fondotinta con Collagen ed effetto opacizzante, tonalità Natural Beige, 100 ml.",
+     "Set trattamento con Centella: toner ed emulsione per idratare la pelle.",
+     "Set idratante intenso Super Aqua: toner ed emulsione.",
+     "Set di 3 creme mani ai profumi di karité, sandalo e frangipani, da 30 g ciascuna.",
+     "Set trattamento con Centella: toner, emulsione, fiala e crema.",
+     "Set di 10 fiale con propoli e Centella, da 15 ml ciascuna."
+    ]
+   },
+   "de": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — Sets · Teranova",
+    "seoDesc": "Die Serie Value Sets & Make-up von LEBELAGE — fertige Pflegesets mit Centella und Super Aqua, ein Set Handcremes und eine Foundation mit Kollagen. Großhandelslieferungen aus Korea und Begleitung der Transaktion über Teranova.",
+    "tagline": "Fertige Pflegesets und Foundation mit Kollagen",
+    "about": [
+     "Value Sets & Make-up ist der Teil des LEBELAGE-Sortiments, der in fertigen Sets zusammengestellt ist. Dazu gehören die Sets Centella Moisture und Super Aqua aus Toner und Emulsion zu je 150 ml mit Miniaturen, das Vier-Schritt-Set Cica Madecassoside — Toner, Emulsion, Ampulle und Creme — sowie ein Set aus zehn Ampullen mit Propolis und Myrrhe zu je 15 ml.",
+     "Separat steht in der Serie ein Set aus drei Handcremes zu je 30 g mit den Düften Sheabutter, Sandelholz und Frangipani sowie eine Foundation mit Kollagen 100 ml im Farbton Natural Beige mit mattierendem Effekt. Fertige Sets eignen sich für Geschenkregale, saisonale Promotionen und Marktplätze: eine Verpackung, ein höherer Durchschnittsbon und weniger Aufwand bei der Sortimentsauswahl."
+    ],
+    "itemNotes": [
+     "Foundation mit Collagen und mattierendem Effekt, Farbton Natural Beige, 100 ml.",
+     "Pflegeset mit Centella: Toner und Emulsion zur Feuchtigkeit der Haut.",
+     "Intensiv-Feuchtigkeitsset Super Aqua: Toner und Emulsion.",
+     "Set aus 3 Handcremes mit den Düften Shea, Sandelholz und Frangipani, je 30 g.",
+     "Pflegeset mit Centella: Toner, Emulsion, Ampulle und Creme.",
+     "Set aus 10 Ampullen mit Propolis und Centella, je 15 ml."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — coffrets · Teranova",
+    "seoDesc": "La gamme Value Sets & Make-up de LEBELAGE — coffrets de soin prêts à l'emploi à la centella et Super Aqua, set de crèmes mains et fond de teint au collagène. Approvisionnement en gros depuis la Corée via Teranova.",
+    "tagline": "Coffrets de soin prêts à l'emploi et fond de teint au collagène",
+    "about": [
+     "Value Sets & Make-up est la partie de l'assortiment LEBELAGE réunie en coffrets prêts à l'emploi. On y trouve les sets Centella Moisture et Super Aqua composés d'un tonique et d'une émulsion de 150 ml avec des miniatures, le coffret en quatre étapes Cica Madecassoside — tonique, émulsion, ampoule et crème — et un set de dix ampoules à la propolis et à la myrrhe de 15 ml.",
+     "À part, la gamme propose un set de trois crèmes mains de 30 g aux parfums de karité, santal et frangipanier et un fond de teint au collagène de 100 ml dans la teinte Natural Beige à effet matifiant. Les coffrets prêts à l'emploi conviennent aux linéaires cadeaux, aux promotions saisonnières et aux marketplaces : un seul emballage, un panier moyen plus élevé et moins de travail sur le choix de l'assortiment."
+    ],
+    "itemNotes": [
+     "Fond de teint au Collagen à effet matifiant, teinte Natural Beige, 100 ml.",
+     "Coffret de soin à la Centella : tonique et émulsion pour hydrater la peau.",
+     "Coffret d'hydratation intense Super Aqua : tonique et émulsion.",
+     "Coffret de 3 crèmes pour les mains aux parfums de karité, de santal et de frangipanier, 30 g chacune.",
+     "Coffret de soin à la Centella : tonique, émulsion, ampoule et crème.",
+     "Coffret de 10 ampoules à la propolis et à la Centella, 15 ml chacune."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — setler · Teranova",
+    "seoDesc": "LEBELAGE imzalı Value Sets & Make-up — centella ve Super Aqua içeren hazır bakım setleri, el kremi seti ve kolajenli fondöten. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+    "tagline": "Hazır bakım setleri ve kolajenli fondöten",
+    "about": [
+     "Value Sets & Make-up, LEBELAGE ürün yelpazesinin hazır setler hâlinde toplanmış bölümüdür. İçinde 150 ml tonik ve emülsiyon ile minyatürlerden oluşan Centella Moisture ve Super Aqua setleri, dört adımlı Cica Madecassoside seti — tonik, emülsiyon, ampul ve krem — ve 15 ml'lik propolis ve mür içeren on ampulden oluşan set yer alır.",
+     "Seride ayrıca shea, sandal ağacı ve frangipani kokulu 30 g'lık üç el kreminden oluşan set ve matlaştırıcı etkili, Natural Beige tonunda 100 ml kolajenli fondöten bulunur. Hazır setler hediye rafları, mevsimsel promosyonlar ve pazar yerleri için elverişlidir: tek ambalaj, daha yüksek sepet ortalaması ve ürün seçiminde daha az iş."
+    ],
+    "itemNotes": [
+     "Matlaştırıcı etkili Collagen içeren fondöten, Natural Beige tonu, 100 ml.",
+     "Cildi nemlendirmek için Centella bakım seti: tonik ve emülsiyon.",
+     "Yoğun nemlendirme seti Super Aqua: tonik ve emülsiyon.",
+     "Shea, sandal ağacı ve frangipani kokulu 3 el kremi seti, her biri 30 g.",
+     "Centella içeren bakım seti: tonik, emülsiyon, ampul ve krem.",
+     "Propolis ve Centella içeren 10 ampullük set, her biri 15 ml."
+    ]
+   },
+   "es": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — kits · Teranova",
+    "seoDesc": "La línea Value Sets & Make-up de LEBELAGE — kits de cuidado listos con centella y Super Aqua, estuche de cremas de manos y base de maquillaje con colágeno. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
+    "tagline": "Kits de cuidado listos y base de maquillaje con colágeno",
+    "about": [
+     "Value Sets & Make-up es la parte del surtido de LEBELAGE reunida en conjuntos listos. Incluye los kits Centella Moisture y Super Aqua, con tónico y emulsión de 150 ml más miniaturas, el kit de cuatro pasos Cica Madecassoside —tónico, emulsión, ampolla y crema— y el estuche de diez ampollas con propóleo y mirra de 15 ml.",
+     "Aparte figuran en la línea un estuche de tres cremas de manos de 30 g con aromas de karité, sándalo y frangipani, y una base de maquillaje con colágeno de 100 ml en el tono Natural Beige con efecto matificante. Los kits listos van bien en lineales de regalo, promociones de temporada y marketplaces: un solo envase, mayor ticket medio y menos trabajo de selección de surtido."
+    ],
+    "itemNotes": [
+     "Base de maquillaje con Collagen y efecto matificante, tono Natural Beige, 100 ml.",
+     "Set de cuidado con Centella: tónico y emulsión para hidratar la piel.",
+     "Set de hidratación profunda Super Aqua: tónico y emulsión.",
+     "Set de 3 cremas de manos con aromas de karité, sándalo y frangipani, de 30 g cada una.",
+     "Set de cuidado con Centella: tónico, emulsión, ampolla y crema.",
+     "Set de 10 ampollas con propóleo y Centella, de 15 ml cada una."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Value Sets & Make-up (LEBELAGE) — conjuntos · Teranova",
+    "seoDesc": "Linha Value Sets & Make-up da LEBELAGE — conjuntos de cuidado prontos com centela e Super Aqua, kit de cremes para as mãos e base facial com colágeno. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
+    "tagline": "Conjuntos de cuidado prontos e base facial com colágeno",
+    "about": [
+     "Value Sets & Make-up é a fatia do sortimento da LEBELAGE organizada em conjuntos prontos. Entram aí os kits Centella Moisture e Super Aqua, com tônico e emulsão de 150 ml mais miniaturas, o kit de quatro etapas Cica Madecassoside — tônico, emulsão, ampola e creme — e a caixa com dez ampolas de própolis e mirra de 15 ml.",
+     "À parte, a linha traz um kit de três cremes para as mãos de 30 g com fragrâncias de karité, sândalo e frangipani e uma base facial com colágeno de 100 ml no tom Natural Beige, de efeito matte. Conjuntos prontos funcionam bem em prateleiras de presente, promoções sazonais e marketplaces: uma embalagem só, ticket médio maior e menos trabalho na montagem do sortimento."
+    ],
+    "itemNotes": [
+     "Base de maquiagem com Collagen e efeito matificante, tom Natural Beige, 100 ml.",
+     "Kit de cuidado com Centella: tônico e emulsão para hidratar a pele.",
+     "Kit de hidratação profunda Super Aqua: tônico e emulsão.",
+     "Kit de 3 cremes de mãos com aromas de karité, sândalo e frangipani, de 30 g cada.",
+     "Kit de cuidado com Centella: tônico, emulsão, ampola e creme.",
+     "Kit de 10 ampolas com própolis e Centella, de 15 ml cada."
+    ]
+   }
+  }
+ }
+]

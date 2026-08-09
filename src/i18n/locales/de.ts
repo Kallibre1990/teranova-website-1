@@ -13,6 +13,7 @@ const de: DeepPartial<UIDict> = {
     tenders: "Ausschreibungen",
     faq: "FAQ",
     contacts: "Kontakt",
+    ondemand: "Auf Anfrage",
   },
 
   common: {

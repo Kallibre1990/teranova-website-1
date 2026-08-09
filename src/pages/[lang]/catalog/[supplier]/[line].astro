@@ -1,5 +1,5 @@
 ---
-/* SANTE product-line pages — non-default locales. */
+/* Supplier product-line pages — non-default locales. */
 import Base from '../../../../layouts/Base.astro';
 import SupplierLinePage from '../../../../components/pages/SupplierLinePage.astro';
 import { linePages, linePageContent, type SupplierLinePage as SLP } from '../../../../data/suppliers';
@@ -9,13 +9,14 @@ import { defaultLang, languages, type Lang } from '../../../../i18n/ui';
 export function getStaticPaths() {
   return (Object.keys(languages) as Lang[])
     .filter((l) => l !== defaultLang)
-    .flatMap((lang) => linePages.filter((p) => p.supplierSlug === 'sante').map((p) => ({ params: { lang, line: p.slug }, props: { lang, page: p } })));
+    .flatMap((lang) => linePages.map((p) => ({ params: { lang, supplier: p.supplierSlug, line: p.slug }, props: { lang, page: p } })));
 }
 
 const { lang, page } = Astro.props as { lang: Lang; page: SLP };
 const c = linePageContent(page, lang);
+const og = `/brand/og-${page.supplierSlug}.png`;
 ---
 
-<Base lang={lang} path={`/catalog/sante/${page.slug}`} title={c.seoTitle} description={c.seoDesc} image="/brand/og-sante.png" jsonLd={supplierLineJsonLd(lang, page)}>
+<Base lang={lang} path={`/catalog/${page.supplierSlug}/${page.slug}`} title={c.seoTitle} description={c.seoDesc} image={og} jsonLd={supplierLineJsonLd(lang, page)}>
   <SupplierLinePage lang={lang} page={page} />
 </Base>

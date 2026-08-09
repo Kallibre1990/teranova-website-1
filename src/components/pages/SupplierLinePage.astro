@@ -1,6 +1,6 @@
 ---
 /* Dedicated, indexable product-line page (SEO). Themed in the supplier's brand.
-   Products shown as text info-cards (no photos available for these lines). */
+   Products shown as cards; a photo is rendered when the item has one. */
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { linePageContent, supplierBySlug, type SupplierLinePage } from '../../data/suppliers';
@@ -12,8 +12,7 @@ interface Props {
 const { lang, page } = Astro.props;
 const t = ui[lang];
 const c = linePageContent(page, lang);
-const LINE_NAMES: Record<string, string> = { 'azulene-soother': 'Azulene Soother', 'artemisia-aka': 'Artemisia AKA', 'collagen-leader': 'Collagen Leader', 'hyalquad-core': 'Hyalquad Core' };
-const lineName = LINE_NAMES[page.slug] ?? page.slug;
+const lineName = page.lineName ?? page.slug;
 const supplier = supplierBySlug(page.supplierSlug);
 const brand = supplier?.brand ?? '';
 const name = supplier?.name ?? '';
@@ -44,7 +43,12 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
     <div class="wrap">
       <div class="sl-grid">
         {page.items.map((it, i) => (
-          <article class="sl-card">
+          <article class:list={['sl-card', it.img && 'sl-card--ph']}>
+            {it.img && (
+              <div class="sl-card__ph">
+                <img src={it.img} alt={it.name} width="800" height="800" loading="lazy" decoding="async" />
+              </div>
+            )}
             <div class="sl-card__head">
               <h2 class="sl-card__nm">{it.name}</h2>
               {it.volume && <span class="sl-card__vol">{it.volume}</span>}
@@ -54,7 +58,7 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
               {it.certs && it.certs.length > 0 && (
                 <span class="sl-card__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>
               )}
-              {it.price && <span class="sl-card__price">≈ ${it.price} · FOB</span>}
+              {it.price && <span class="sl-card__price">≈ ${it.price}</span>}
             </div>
           </article>
         ))}
@@ -92,6 +96,9 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
   .sl-sec { padding: clamp(36px, 5vw, 64px) 0; }
   .sl-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .sl-card { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-left: 3px solid var(--ds-sky); border-radius: 0 14px 14px 0; padding: 20px 22px; }
+  .sl-card--ph { padding-top: 0; overflow: hidden; }
+  .sl-card__ph { margin: 0 -22px 16px; aspect-ratio: 4 / 3; background: color-mix(in srgb, var(--ds-bg) 70%, #fff); display: flex; align-items: center; justify-content: center; border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 16%, #e2e8f0); }
+  .sl-card__ph img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
   .sl-card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
   .sl-card__nm { font-size: 1.08rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
   .sl-card__vol { font-size: 0.82rem; font-weight: 600; color: #7c8aa0; white-space: nowrap; }
