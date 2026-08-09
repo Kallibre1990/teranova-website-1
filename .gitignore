@@ -25,3 +25,6 @@ Thumbs.db
 # local screenshot helpers (need puppeteer, dev-only)
 scripts/shot.mjs
 scripts/shotglobe.mjs
+
+# one-off content pipeline scratch (agent drafts); the keeper is scripts/gen-blog-art.mjs
+scripts_build/

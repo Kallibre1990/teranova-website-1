@@ -13,6 +13,7 @@ const zh: DeepPartial<UIDict> = {
     contacts: "联系方式",
     team: "团队",
     tenders: "招标采购",
+    ondemand: "按需寻源",
   },
 
   common: {

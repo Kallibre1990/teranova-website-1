@@ -13,6 +13,7 @@ const ja: DeepPartial<UIDict> = {
     contacts: "お問い合わせ",
     team: "チーム",
     tenders: "入札・調達",
+    ondemand: "オーダーメイド調達",
   },
 
   common: {
