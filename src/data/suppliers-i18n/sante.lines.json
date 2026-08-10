@@ -1177,5 +1177,172 @@
    }
   },
   "lineName": "Hyalquad Core"
+ },
+ {
+  "slug": "elsol",
+  "supplierSlug": "sante",
+  "category": "cosmetics",
+  "items": [
+   {
+    "name": "Elsol Boosting Oil (Jojoba)",
+    "img": "/img/suppliers/sante/products/elsol-jojoba-oil-500ml.png",
+    "volume": "500 ml",
+    "price": "31.88",
+    "certs": []
+   },
+   {
+    "name": "Elsol Boosting Oil (Jojoba)",
+    "img": "/img/suppliers/sante/products/elsol-jojoba-oil-50ml.png",
+    "volume": "50 ml",
+    "price": "6.38",
+    "certs": []
+   }
+  ],
+  "i18n": {
+   "ru": {
+    "seoTitle": "Elsol (Dr.SANTE) — масло жожоба холодного отжима · Teranova",
+    "seoDesc": "Линейка Elsol от Dr.SANTE — масло-бустер на нерафинированном масле жожоба холодного отжима из Израиля; по данным компании, сырьё имеет сертификат USDA. Два формата: 500 и 50 мл. Оптовые поставки из Кореи через Teranova.",
+    "tagline": "Масло-бустер жожоба холодного отжима для ухода за барьером кожи",
+    "about": [
+     "Elsol — масляная линейка Dr.SANTE, построенная вокруг одного ингредиента: нерафинированного масла жожоба высшего сорта из Израиля, полученного холодным отжимом. По данным компании, сырьё имеет сертификат USDA, а отказ от рафинирования сохраняет больше антиоксидантных компонентов исходного масла.",
+     "В линейке один продукт в двух форматах — Elsol Boosting Oil (Jojoba) на 500 мл для профессиональной работы и на 50 мл для розницы и пробных партий. Структура жожоба близка к липидному барьеру кожи, поэтому масло применяют как бустер поверх базового ухода. Импортёру это простая позиция: один товар, две упаковки, прозрачный состав."
+    ],
+    "itemNotes": [
+     "Надёжное масло жожоба из Израиля высшего сорта, сертификат USDA. Нерафинированное холодного отжима — выше антиоксидантный эффект; структура близка к барьеру кожи, помогает восстановить и укрепить его.",
+     "Надёжное масло жожоба из Израиля высшего сорта, сертификат USDA. Нерафинированное холодного отжима — выше антиоксидантный эффект; структура близка к барьеру кожи, помогает восстановить и укрепить его."
+    ]
+   },
+   "en": {
+    "seoTitle": "Elsol (Dr.SANTE) — cold-pressed jojoba oil · Teranova",
+    "seoDesc": "The Elsol line by Dr.SANTE — a booster oil of unrefined, cold-pressed jojoba from Israel; the company states the raw material carries a USDA certificate. Two formats: 500 ml and 50 ml. Wholesale from Korea via Teranova.",
+    "tagline": "Cold-pressed jojoba booster oil for the skin barrier",
+    "about": [
+     "Elsol is Dr.SANTE's oil line built around a single ingredient: top-grade jojoba oil from Israel, unrefined and obtained by cold pressing. The company states that the raw material carries a USDA certificate, and skipping refinement keeps more of the antioxidant components of the original oil.",
+     "The line is one product in two formats — Elsol Boosting Oil (Jojoba) in 500 ml for professional work and in 50 ml for retail and trial orders. Jojoba's structure is close to the skin's lipid barrier, so the oil is used as a booster over basic care. For an importer it is a simple listing: one product, two packs, a transparent composition."
+    ],
+    "itemNotes": [
+     "Reliable top-grade jojoba oil from Israel, USDA-certified. Unrefined cold-pressed for higher antioxidant effect; its structure is close to the skin barrier and helps rebuild and reinforce it.",
+     "Reliable top-grade jojoba oil from Israel, USDA-certified. Unrefined cold-pressed for higher antioxidant effect; its structure is close to the skin barrier and helps rebuild and reinforce it."
+    ]
+   },
+   "ko": {
+    "seoTitle": "Elsol (Dr.SANTE) — 콜드프레스 호호바 오일 · Teranova",
+    "seoDesc": "Dr.SANTE의 Elsol 라인 — 이스라엘산 미정제 호호바 오일을 콜드프레스로 짜낸 부스팅 오일입니다. 회사 자료에 따르면 원료는 USDA 인증을 받았으며, 500ml와 50ml 두 가지 용량으로 제공됩니다. Teranova가 한국발 도매 공급과 거래 진행을 함께 조율합니다.",
+    "tagline": "피부 장벽을 위한 콜드프레스 호호바 부스팅 오일",
+    "about": [
+     "Elsol은 하나의 원료에 집중한 Dr.SANTE의 오일 라인입니다. 이스라엘산 최고급 호호바 오일을 정제하지 않고 콜드프레스 방식으로 얻었습니다. 회사 자료에 따르면 원료는 USDA 인증을 받았으며, 정제를 거치지 않아 원유가 지닌 항산화 성분이 더 많이 남습니다.",
+     "라인은 같은 제품을 두 가지 용량으로 구성합니다. 전문가용 500ml와 리테일·샘플 주문에 적합한 50ml입니다. 호호바는 구조가 피부의 지질 장벽과 가까워 기본 케어 위에 더하는 부스터로 사용됩니다. 수입사 입장에서는 한 품목, 두 가지 포장의 단순한 구성입니다."
+    ],
+    "itemNotes": [
+     "USDA 인증을 받은 이스라엘산 믿을 수 있는 최고급 호호바 오일입니다. 정제하지 않은 콜드프레스 방식으로 항산화 효과를 높였으며, 그 구조가 피부 장벽과 유사해 장벽을 재건하고 강화하는 데 도움을 줍니다.",
+     "USDA 인증을 받은 이스라엘산 믿을 수 있는 최고급 호호바 오일입니다. 정제하지 않은 콜드프레스 방식으로 항산화 효과를 높였으며, 그 구조가 피부 장벽과 유사해 장벽을 재건하고 강화하는 데 도움을 줍니다."
+    ]
+   },
+   "zh": {
+    "seoTitle": "Elsol（Dr.SANTE）— 冷压荷荷巴油 · Teranova",
+    "seoDesc": "Dr.SANTE 旗下 Elsol 系列 — 以以色列产未精炼荷荷巴油冷压而成的精华基底油。据公司资料，该原料持有 USDA 证书，提供 500 毫升与 50 毫升两种规格。韩国货源批发，由 Teranova 协调并陪同整个交易过程。",
+    "tagline": "呵护肌肤屏障的冷压荷荷巴精华基底油",
+    "about": [
+     "Elsol 是 Dr.SANTE 围绕单一原料打造的油类系列：以色列产顶级荷荷巴油，未经精炼，采用冷压工艺压榨。据公司资料，该原料持有 USDA 证书；不做精炼，因此保留了更多原油自带的抗氧化成分。",
+     "系列为同一产品的两种规格 — 供专业院线使用的 500 毫升装，以及适合零售与试单的 50 毫升装。荷荷巴的结构接近肌肤的脂质屏障，因此常叠加在基础护理之上作为精华基底油使用。对进口商而言，这是一个品项、两种包装的简单组合。"
+    ],
+    "itemNotes": [
+     "来自以色列、经 USDA 认证的可靠顶级荷荷巴油。未精炼冷压，抗氧化效果更佳；其结构接近肌肤屏障，有助于重建并强化屏障。",
+     "来自以色列、经 USDA 认证的可靠顶级荷荷巴油。未精炼冷压，抗氧化效果更佳；其结构接近肌肤屏障，有助于重建并强化屏障。"
+    ]
+   },
+   "ja": {
+    "seoTitle": "Elsol（Dr.SANTE）— コールドプレスのホホバオイル · Teranova",
+    "seoDesc": "Dr.SANTEのElsolライン — イスラエル産の未精製ホホバオイルをコールドプレスで搾ったブースティングオイルです。同社によれば原料はUSDA認証を受けており、500mlと50mlの2サイズ。Teranovaが韓国からの卸売と取引の進行を伴走します。",
+    "tagline": "肌バリアのためのコールドプレス ホホバブースティングオイル",
+    "about": [
+     "Elsolは、ひとつの原料に絞り込んだDr.SANTEのオイルラインです。イスラエル産の最高級ホホバオイルを精製せず、コールドプレスで搾油しています。同社によれば原料はUSDA認証を受けており、精製しないぶん原油由来の抗酸化成分がより多く残ります。",
+     "ラインは同じ製品の2サイズ構成です。プロの施術向けの500mlと、リテールやトライアル発注に向く50ml。ホホバは構造が肌の脂質バリアに近く、基本ケアに重ねるブースターとして使われます。輸入側から見れば、1品目・2パッケージのシンプルな構成です。"
+    ],
+    "itemNotes": [
+     "イスラエル産、USDA認証の信頼できる最高級ホホバオイル。未精製のコールドプレス製法で、より高い抗酸化効果を発揮します。その構造は肌バリアに近く、バリアの再生と強化を助けます。",
+     "イスラエル産、USDA認証の信頼できる最高級ホホバオイル。未精製のコールドプレス製法で、より高い抗酸化効果を発揮します。その構造は肌バリアに近く、バリアの再生と強化を助けます。"
+    ]
+   },
+   "it": {
+    "seoTitle": "Elsol (Dr.SANTE) — olio di jojoba a freddo · Teranova",
+    "seoDesc": "La linea Elsol di Dr.SANTE — olio booster di jojoba non raffinato e spremuto a freddo, da Israele; secondo l'azienda la materia prima dispone di un certificato USDA. Due formati: 500 ml e 50 ml. Vendita all'ingrosso dalla Corea tramite Teranova.",
+    "tagline": "Olio booster di jojoba a freddo per la barriera cutanea",
+    "about": [
+     "Elsol è la linea di oli di Dr.SANTE costruita attorno a un solo ingrediente: olio di jojoba di altissima qualità proveniente da Israele, non raffinato e spremuto a freddo. Secondo l'azienda la materia prima dispone di un certificato USDA e la rinuncia alla raffinazione conserva più componenti antiossidanti dell'olio di partenza.",
+     "La linea è un unico prodotto in due formati: Elsol Boosting Oil (Jojoba) da 500 ml per il lavoro professionale e da 50 ml per il retail e gli ordini di prova. La struttura della jojoba è affine alla barriera lipidica della pelle, per questo l'olio si usa come booster sopra la cura di base. Per l'importatore è una referenza semplice: un prodotto, due confezioni."
+    ],
+    "itemNotes": [
+     "Affidabile olio di jojoba di altissima qualità proveniente da Israele, certificato USDA. Non raffinato e spremuto a freddo per un maggiore effetto antiossidante; la sua struttura è affine alla barriera cutanea e aiuta a ricostruirla e a rinforzarla.",
+     "Affidabile olio di jojoba di altissima qualità proveniente da Israele, certificato USDA. Non raffinato e spremuto a freddo per un maggiore effetto antiossidante; la sua struttura è affine alla barriera cutanea e aiuta a ricostruirla e a rinforzarla."
+    ]
+   },
+   "de": {
+    "seoTitle": "Elsol (Dr.SANTE) — kaltgepresstes Jojobaöl · Teranova",
+    "seoDesc": "Die Elsol-Linie von Dr.SANTE — ein Booster-Öl aus unraffiniertem, kaltgepresstem Jojobaöl aus Israel; nach Angaben des Unternehmens verfügt der Rohstoff über ein USDA-Zertifikat. Zwei Formate: 500 ml und 50 ml. Großhandel aus Korea über Teranova.",
+    "tagline": "Kaltgepresstes Jojoba-Booster-Öl für die Hautbarriere",
+    "about": [
+     "Elsol ist die Öl-Linie von Dr.SANTE, die um einen einzigen Rohstoff herum aufgebaut ist: erstklassiges Jojobaöl aus Israel, unraffiniert und kalt gepresst. Nach Angaben des Unternehmens verfügt der Rohstoff über ein USDA-Zertifikat; der Verzicht auf Raffination erhält mehr antioxidative Bestandteile des Ausgangsöls.",
+     "Die Linie ist ein Produkt in zwei Formaten: Elsol Boosting Oil (Jojoba) mit 500 ml für die professionelle Anwendung und mit 50 ml für Retail und Probeaufträge. Die Struktur von Jojoba ist der Lipidbarriere der Haut ähnlich, daher wird das Öl als Booster über der Basispflege eingesetzt. Für den Importeur eine einfache Position: ein Produkt, zwei Packungen."
+    ],
+    "itemNotes": [
+     "Zuverlässiges erstklassiges Jojobaöl aus Israel, USDA-zertifiziert. Unraffiniert und kaltgepresst für eine höhere antioxidative Wirkung; seine Struktur ist der Hautbarriere ähnlich und hilft, sie wiederaufzubauen und zu stärken.",
+     "Zuverlässiges erstklassiges Jojobaöl aus Israel, USDA-zertifiziert. Unraffiniert und kaltgepresst für eine höhere antioxidative Wirkung; seine Struktur ist der Hautbarriere ähnlich und hilft, sie wiederaufzubauen und zu stärken."
+    ]
+   },
+   "fr": {
+    "seoTitle": "Elsol (Dr.SANTE) — huile de jojoba à froid · Teranova",
+    "seoDesc": "La gamme Elsol de Dr.SANTE — une huile booster de jojoba non raffinée et pressée à froid, d'Israël ; selon l'entreprise, la matière première dispose d'un certificat USDA. Deux formats : 500 ml et 50 ml. Vente en gros depuis la Corée via Teranova.",
+    "tagline": "Huile booster de jojoba à froid pour la barrière cutanée",
+    "about": [
+     "Elsol est la gamme d'huiles de Dr.SANTE construite autour d'un seul ingrédient : une huile de jojoba de qualité supérieure venue d'Israël, non raffinée et pressée à froid. Selon l'entreprise, la matière première dispose d'un certificat USDA, et l'absence de raffinage préserve davantage de composants antioxydants de l'huile d'origine.",
+     "La gamme se compose d'un seul produit en deux formats : Elsol Boosting Oil (Jojoba) en 500 ml pour le travail professionnel et en 50 ml pour le retail et les commandes d'essai. La structure du jojoba est proche de la barrière lipidique de la peau : l'huile s'utilise donc comme booster par-dessus les soins de base. Pour l'importateur, une référence simple."
+    ],
+    "itemNotes": [
+     "Huile de jojoba de qualité supérieure et fiable, en provenance d'Israël, certifiée USDA. Non raffinée et pressée à froid pour un effet antioxydant supérieur ; sa structure est proche de la barrière cutanée et aide à la reconstruire et à la renforcer.",
+     "Huile de jojoba de qualité supérieure et fiable, en provenance d'Israël, certifiée USDA. Non raffinée et pressée à froid pour un effet antioxydant supérieur ; sa structure est proche de la barrière cutanée et aide à la reconstruire et à la renforcer."
+    ]
+   },
+   "tr": {
+    "seoTitle": "Elsol (Dr.SANTE) — soğuk sıkım jojoba yağı · Teranova",
+    "seoDesc": "Dr.SANTE imzalı Elsol serisi — İsrail'den gelen, rafine edilmemiş soğuk sıkım jojoba yağıyla hazırlanan booster yağ; şirketin bildirdiğine göre hammadde USDA sertifikasına sahip. İki boy: 500 ml ve 50 ml. Teranova aracılığıyla Kore'den toptan.",
+    "tagline": "Cilt bariyeri için soğuk sıkım jojoba booster yağı",
+    "about": [
+     "Elsol, Dr.SANTE'nin tek bir hammadde çevresinde kurduğu yağ serisidir: İsrail'den gelen üstün kalite jojoba yağı, rafine edilmeden soğuk sıkım yöntemiyle elde edilir. Şirketin bildirdiğine göre hammadde USDA sertifikasına sahiptir; rafinasyondan kaçınmak, yağın kendi antioksidan bileşenlerinin daha fazlasını korur.",
+     "Seri, aynı ürünün iki boyundan oluşur: profesyonel kullanım için 500 ml Elsol Boosting Oil (Jojoba) ve perakende ile deneme siparişleri için 50 ml. Jojobanın yapısı cildin lipit bariyerine yakındır, bu nedenle yağ temel bakımın üzerine booster olarak kullanılır. İthalatçı için sade bir kalem: tek ürün, iki ambalaj."
+    ],
+    "itemNotes": [
+     "İsrail'den, USDA sertifikalı, güvenilir üstün kalite jojoba yağı. Daha yüksek antioksidan etki için rafine edilmemiş, soğuk sıkım; yapısı cilt bariyerine yakındır, bariyeri onarmaya ve güçlendirmeye yardımcı olur.",
+     "İsrail'den, USDA sertifikalı, güvenilir üstün kalite jojoba yağı. Daha yüksek antioksidan etki için rafine edilmemiş, soğuk sıkım; yapısı cilt bariyerine yakındır, bariyeri onarmaya ve güçlendirmeye yardımcı olur."
+    ]
+   },
+   "es": {
+    "seoTitle": "Elsol (Dr.SANTE) — aceite de jojoba en frío · Teranova",
+    "seoDesc": "La línea Elsol de Dr.SANTE — aceite booster de jojoba sin refinar y prensado en frío, de Israel; según la empresa, la materia prima cuenta con un certificado USDA. Dos formatos: 500 ml y 50 ml. Suministro mayorista desde Corea a través de Teranova.",
+    "tagline": "Aceite booster de jojoba en frío para la barrera cutánea",
+    "about": [
+     "Elsol es la línea de aceites de Dr.SANTE construida en torno a un único ingrediente: aceite de jojoba de primera calidad procedente de Israel, sin refinar y prensado en frío. Según la empresa, la materia prima cuenta con un certificado USDA, y prescindir del refinado conserva más componentes antioxidantes del aceite de partida.",
+     "La línea es un mismo producto en dos formatos: Elsol Boosting Oil (Jojoba) de 500 ml para el trabajo profesional y de 50 ml para el retail y los pedidos de prueba. La estructura de la jojoba es similar a la barrera lipídica de la piel, por eso el aceite se usa como booster sobre el cuidado básico. Para el importador, una referencia sencilla."
+    ],
+    "itemNotes": [
+     "Aceite de jojoba fiable de primera calidad procedente de Israel, certificado USDA. Sin refinar y prensado en frío para un mayor efecto antioxidante; su estructura es similar a la de la barrera cutánea y ayuda a reconstruirla y reforzarla.",
+     "Aceite de jojoba fiable de primera calidad procedente de Israel, certificado USDA. Sin refinar y prensado en frío para un mayor efecto antioxidante; su estructura es similar a la de la barrera cutánea y ayuda a reconstruirla y reforzarla."
+    ]
+   },
+   "pt": {
+    "seoTitle": "Elsol (Dr.SANTE) — óleo de jojoba prensado a frio · Teranova",
+    "seoDesc": "Linha Elsol da Dr.SANTE — óleo booster de jojoba não refinado, prensado a frio e vindo de Israel; conforme a empresa, a matéria-prima possui certificado USDA. Disponível em 500 ml e 50 ml. Fornecimento no atacado da Coreia pela Teranova.",
+    "tagline": "Óleo booster de jojoba a frio para a barreira cutânea",
+    "about": [
+     "A Elsol é a linha de óleos da Dr.SANTE erguida sobre um único ingrediente: óleo de jojoba de qualidade superior vindo de Israel, não refinado e prensado a frio. Conforme informa a empresa, a matéria-prima possui certificado USDA; ao dispensar a refinação, o óleo mantém mais dos seus próprios componentes antioxidantes.",
+     "A linha traz o mesmo produto em duas embalagens: o Elsol Boosting Oil (Jojoba) de 500 ml para o trabalho profissional e o de 50 ml para o varejo e os pedidos de teste. Como a estrutura da jojoba se aproxima da barreira lipídica da pele, o óleo entra como booster por cima do cuidado básico. Para o importador, é um item simples de girar."
+    ],
+    "itemNotes": [
+     "Óleo de jojoba de qualidade superior e confiável, de Israel, certificado USDA. Prensado a frio e não refinado para maior efeito antioxidante; sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e reforçá-la.",
+     "Óleo de jojoba de qualidade superior e confiável, de Israel, certificado USDA. Prensado a frio e não refinado para maior efeito antioxidante; sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e reforçá-la."
+    ]
+   }
+  },
+  "lineName": "Elsol"
  }
 ]

@@ -43,12 +43,20 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
     <div class="wrap">
       <div class="sl-grid">
         {page.items.map((it, i) => (
-          <article class:list={['sl-card', it.img && 'sl-card--ph']}>
-            {it.img && (
-              <div class="sl-card__ph">
+          <article class="sl-card sl-card--ph">
+            <div class="sl-card__ph">
+              {it.img ? (
                 <img src={it.img} alt={it.name} width="800" height="800" loading="lazy" decoding="async" />
-              </div>
-            )}
+              ) : (
+                /* No supplier photo for this SKU yet — a drawn placeholder keeps the
+                   grid even; it is plainly graphic, never a stand-in for a real photo. */
+                <svg class="sl-card__noph" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                  <path d="M26 6h12v7a5 5 0 0 0 1.4 3.5l3.2 3.3A9 9 0 0 1 45 26v27a5 5 0 0 1-5 5H24a5 5 0 0 1-5-5V26a9 9 0 0 1 2.4-6.2l3.2-3.3A5 5 0 0 0 26 13V6Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+                  <path d="M19 36h26" stroke="currentColor" stroke-width="2.2" opacity=".55"/>
+                  <path d="M26 6h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+              )}
+            </div>
             <div class="sl-card__head">
               <h2 class="sl-card__nm">{it.name}</h2>
               {it.volume && <span class="sl-card__vol">{it.volume}</span>}
@@ -99,6 +107,7 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
   .sl-card--ph { padding-top: 0; overflow: hidden; }
   .sl-card__ph { margin: 0 -22px 16px; aspect-ratio: 4 / 3; background: color-mix(in srgb, var(--ds-bg) 70%, #fff); display: flex; align-items: center; justify-content: center; border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 16%, #e2e8f0); }
   .sl-card__ph img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
+  .sl-card__noph { width: 46px; height: 46px; color: var(--ds-sky); opacity: 0.4; }
   .sl-card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
   .sl-card__nm { font-size: 1.08rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
   .sl-card__vol { font-size: 0.82rem; font-weight: 600; color: #7c8aa0; white-space: nowrap; }

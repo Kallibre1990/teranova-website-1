@@ -56,9 +56,19 @@ const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
 const priceHref = profile.priceFile?.[lang] ?? profile.priceFile?.ru;
 const presHref = profile.presFile?.[lang] ?? profile.presFile?.ru;
 /* A line gets its own indexable page when we have content for it; matched by the
-   display name so both the "product lines" block and the catalog groups link to it. */
+   display name so both the "product lines" block and the catalog groups link to it.
+   The lines block often uses a short brand name ("Acerola") where the catalog group
+   spells it out ("Acerola Dark Spot & Blemish Care"), so fall back to a prefix match
+   — but only when it resolves to exactly one page, to avoid linking the wrong line. */
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 const lineHref = (nm: string): string | null => {
-  const page = linePages.find((p) => p.supplierSlug === profile.slug && (p.lineName === nm || p.slug === nm));
+  const own = linePages.filter((p) => p.supplierSlug === profile.slug);
+  const key = norm(nm);
+  let page = own.find((p) => norm(p.lineName ?? '') === key || p.slug === nm);
+  if (!page && key) {
+    const near = own.filter((p) => norm(p.lineName ?? '').startsWith(key));
+    if (near.length === 1) page = near[0];
+  }
   return page ? localizePath(`/catalog/${profile.slug}/${page.slug}`, lang) : null;
 };
 const cat = t.categories.groups.find((g) => g.key === profile.category);
