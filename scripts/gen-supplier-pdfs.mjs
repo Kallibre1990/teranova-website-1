@@ -152,6 +152,13 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    id: 'licorne', json: 'licorne', supplier: 'Limetree Co., Ltd.', brand: 'LICORNE Cosmetics',
+    basis: 'FOB Korea',
+    colors: { deep: '#2f5d3a', sky: '#4e9c6b', bg: '#eef7f0', line: '#d5e9db' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

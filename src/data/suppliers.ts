@@ -30,6 +30,7 @@ import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
 import kiftCatalog from './suppliers-i18n/kift.catalog.json';
 import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
 import tdlCatalog from './suppliers-i18n/three-days-love.catalog.json';
+import licorneCatalog from './suppliers-i18n/licorne.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dongdonggurimooLines from './suppliers-i18n/dongdonggurimoo.lines.json';
@@ -123,6 +124,17 @@ import tdlFr from './suppliers-i18n/three-days-love.fr.json';
 import tdlTr from './suppliers-i18n/three-days-love.tr.json';
 import tdlEs from './suppliers-i18n/three-days-love.es.json';
 import tdlPt from './suppliers-i18n/three-days-love.pt.json';
+import licorneRu from './suppliers-i18n/licorne.ru.json';
+import licorneEn from './suppliers-i18n/licorne.en.json';
+import licorneKo from './suppliers-i18n/licorne.ko.json';
+import licorneZh from './suppliers-i18n/licorne.zh.json';
+import licorneJa from './suppliers-i18n/licorne.ja.json';
+import licorneIt from './suppliers-i18n/licorne.it.json';
+import licorneDe from './suppliers-i18n/licorne.de.json';
+import licorneFr from './suppliers-i18n/licorne.fr.json';
+import licorneTr from './suppliers-i18n/licorne.tr.json';
+import licorneEs from './suppliers-i18n/licorne.es.json';
+import licornePt from './suppliers-i18n/licorne.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -872,6 +884,38 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(tdlTr as any),
       es: mk(tdlEs as any),
       pt: mk(tdlPt as any),
+    },
+  },
+  {
+    slug: 'licorne',
+    category: 'cosmetics',
+    name: 'Limetree Co., Ltd.',
+    brand: 'LICORNE Cosmetics',
+    status: 'provided',
+    brandColors: { deep: '#2f5d3a', sky: '#a9d4b5', accent: '#4e9c6b', bg: '#eef7f0' },
+    catalog: licorneCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/licorne-terms-ru.pdf', en: '/docs/licorne-terms-en.pdf', ko: '/docs/licorne-terms-ko.pdf', zh: '/docs/licorne-terms-zh.pdf', ja: '/docs/licorne-terms-ja.pdf', it: '/docs/licorne-terms-it.pdf', de: '/docs/licorne-terms-de.pdf', fr: '/docs/licorne-terms-fr.pdf', tr: '/docs/licorne-terms-tr.pdf', es: '/docs/licorne-terms-es.pdf', pt: '/docs/licorne-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/licorne-price-ru.pdf', en: '/docs/licorne-price-en.pdf', ko: '/docs/licorne-price-ko.pdf', zh: '/docs/licorne-price-zh.pdf', ja: '/docs/licorne-price-ja.pdf', it: '/docs/licorne-price-it.pdf', de: '/docs/licorne-price-de.pdf', fr: '/docs/licorne-price-fr.pdf', tr: '/docs/licorne-price-tr.pdf', es: '/docs/licorne-price-es.pdf', pt: '/docs/licorne-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/licorne-presentation-ru.pdf', en: '/docs/licorne-presentation-en.pdf', ko: '/docs/licorne-presentation-ko.pdf', zh: '/docs/licorne-presentation-zh.pdf', ja: '/docs/licorne-presentation-ja.pdf', it: '/docs/licorne-presentation-it.pdf', de: '/docs/licorne-presentation-de.pdf', fr: '/docs/licorne-presentation-fr.pdf', tr: '/docs/licorne-presentation-tr.pdf', es: '/docs/licorne-presentation-es.pdf', pt: '/docs/licorne-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(licorneRu as any),
+      en: mk(licorneEn as any),
+      ko: mk(licorneKo as any),
+      zh: mk(licorneZh as any),
+      ja: mk(licorneJa as any),
+      it: mk(licorneIt as any),
+      de: mk(licorneDe as any),
+      fr: mk(licorneFr as any),
+      tr: mk(licorneTr as any),
+      es: mk(licorneEs as any),
+      pt: mk(licornePt as any),
     },
   },
 ];
