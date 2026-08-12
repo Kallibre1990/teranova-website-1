@@ -28,6 +28,7 @@ import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
 import jetsglobalCatalog from './suppliers-i18n/jetsglobal.catalog.json';
 import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
 import kiftCatalog from './suppliers-i18n/kift.catalog.json';
+import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dongdonggurimooLines from './suppliers-i18n/dongdonggurimoo.lines.json';
@@ -99,6 +100,17 @@ import kiftFr from './suppliers-i18n/kift.fr.json';
 import kiftTr from './suppliers-i18n/kift.tr.json';
 import kiftEs from './suppliers-i18n/kift.es.json';
 import kiftPt from './suppliers-i18n/kift.pt.json';
+import icelmediRu from './suppliers-i18n/icelmedi.ru.json';
+import icelmediEn from './suppliers-i18n/icelmedi.en.json';
+import icelmediKo from './suppliers-i18n/icelmedi.ko.json';
+import icelmediZh from './suppliers-i18n/icelmedi.zh.json';
+import icelmediJa from './suppliers-i18n/icelmedi.ja.json';
+import icelmediIt from './suppliers-i18n/icelmedi.it.json';
+import icelmediDe from './suppliers-i18n/icelmedi.de.json';
+import icelmediFr from './suppliers-i18n/icelmedi.fr.json';
+import icelmediTr from './suppliers-i18n/icelmedi.tr.json';
+import icelmediEs from './suppliers-i18n/icelmedi.es.json';
+import icelmediPt from './suppliers-i18n/icelmedi.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -784,6 +796,38 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(kiftTr as any),
       es: mk(kiftEs as any),
       pt: mk(kiftPt as any),
+    },
+  },
+  {
+    slug: 'icelmedi',
+    category: 'cosmetics',
+    name: 'iCELmedi Co., Ltd.',
+    brand: 'cellmedics · KERASON',
+    status: 'provided',
+    brandColors: { deep: '#0e3b4a', sky: '#3c93a8', accent: '#17788f', bg: '#eef6f9' },
+    catalog: icelmediCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/icelmedi-terms-ru.pdf', en: '/docs/icelmedi-terms-en.pdf', ko: '/docs/icelmedi-terms-ko.pdf', zh: '/docs/icelmedi-terms-zh.pdf', ja: '/docs/icelmedi-terms-ja.pdf', it: '/docs/icelmedi-terms-it.pdf', de: '/docs/icelmedi-terms-de.pdf', fr: '/docs/icelmedi-terms-fr.pdf', tr: '/docs/icelmedi-terms-tr.pdf', es: '/docs/icelmedi-terms-es.pdf', pt: '/docs/icelmedi-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/icelmedi-price-ru.pdf', en: '/docs/icelmedi-price-en.pdf', ko: '/docs/icelmedi-price-ko.pdf', zh: '/docs/icelmedi-price-zh.pdf', ja: '/docs/icelmedi-price-ja.pdf', it: '/docs/icelmedi-price-it.pdf', de: '/docs/icelmedi-price-de.pdf', fr: '/docs/icelmedi-price-fr.pdf', tr: '/docs/icelmedi-price-tr.pdf', es: '/docs/icelmedi-price-es.pdf', pt: '/docs/icelmedi-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/icelmedi-presentation-ru.pdf', en: '/docs/icelmedi-presentation-en.pdf', ko: '/docs/icelmedi-presentation-ko.pdf', zh: '/docs/icelmedi-presentation-zh.pdf', ja: '/docs/icelmedi-presentation-ja.pdf', it: '/docs/icelmedi-presentation-it.pdf', de: '/docs/icelmedi-presentation-de.pdf', fr: '/docs/icelmedi-presentation-fr.pdf', tr: '/docs/icelmedi-presentation-tr.pdf', es: '/docs/icelmedi-presentation-es.pdf', pt: '/docs/icelmedi-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(icelmediRu as any),
+      en: mk(icelmediEn as any),
+      ko: mk(icelmediKo as any),
+      zh: mk(icelmediZh as any),
+      ja: mk(icelmediJa as any),
+      it: mk(icelmediIt as any),
+      de: mk(icelmediDe as any),
+      fr: mk(icelmediFr as any),
+      tr: mk(icelmediTr as any),
+      es: mk(icelmediEs as any),
+      pt: mk(icelmediPt as any),
     },
   },
 ];
