@@ -1,0 +1,19 @@
+---
+/* Supplier profile: licorne (default locale, ru).
+   Published with the company's consent for presentation on the platform (Aug 2026). */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('licorne')!;
+const c = supplierContent(profile, lang);
+const title = c.seoTitle;
+const description = c.seoDesc;
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={title} description={description} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

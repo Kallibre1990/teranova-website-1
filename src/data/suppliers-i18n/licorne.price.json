@@ -1,0 +1,197 @@
+[
+  {
+    "line": "Vegan Cactus",
+    "items": [
+      {
+        "name": "Vegan Cactus Deep Moist Mist",
+        "volume": "100 ml",
+        "price": "3.93"
+      },
+      {
+        "name": "Vegan Cactus Deep Moist Lotion",
+        "volume": "100 ml",
+        "price": "4.76"
+      },
+      {
+        "name": "Vegan Cactus Deep Moist Serum",
+        "volume": "45 ml",
+        "price": "4.29"
+      },
+      {
+        "name": "Vegan Cactus Deep Moist Facial Cream",
+        "volume": "50 ml",
+        "price": "4.34"
+      }
+    ]
+  },
+  {
+    "line": "Vegan Rice",
+    "items": [
+      {
+        "name": "Vegan Rice Toner",
+        "volume": "100 ml",
+        "price": "4.46"
+      },
+      {
+        "name": "Vegan Rice Serum",
+        "volume": "45 ml",
+        "price": "4.50"
+      },
+      {
+        "name": "Vegan Rice Ampoule",
+        "volume": "45 ml",
+        "price": "4.39"
+      },
+      {
+        "name": "Vegan Rice Facial Cream",
+        "volume": "50 ml",
+        "price": "4.45"
+      },
+      {
+        "name": "Vegan Rice Eye Cream",
+        "volume": "30 ml",
+        "price": "4.19"
+      },
+      {
+        "name": "Vegan Rice Sun Essence",
+        "volume": "50 ml",
+        "price": "4.29"
+      },
+      {
+        "name": "Vegan Rice Enzyme Deep Cleanser",
+        "volume": "100 ml",
+        "price": "4.11"
+      }
+    ]
+  },
+  {
+    "line": "Vegan Jeju Matcha",
+    "items": [
+      {
+        "name": "Vegan Jeju Matcha Tone-Up Cream",
+        "volume": "40 ml",
+        "price": "5.88"
+      },
+      {
+        "name": "Vegan Jeju Matcha Wash-Off Pack",
+        "volume": "100 ml",
+        "price": "4.77"
+      },
+      {
+        "name": "Vegan Jeju Matcha Brightening Cream",
+        "volume": "50 ml",
+        "price": "4.90"
+      }
+    ]
+  },
+  {
+    "line": "Collagen Snail",
+    "items": [
+      {
+        "name": "Collagen Snail Serum",
+        "volume": "40 ml",
+        "price": "4.48"
+      },
+      {
+        "name": "Collagen Snail Cream",
+        "volume": "50 ml",
+        "price": "5.02"
+      }
+    ]
+  },
+  {
+    "line": "Derma & Vita",
+    "items": [
+      {
+        "name": "Azulene Derma Cleansing",
+        "volume": "200 ml",
+        "price": "7.32"
+      },
+      {
+        "name": "Glow Vita Cream",
+        "volume": "50 ml",
+        "price": "7.33"
+      }
+    ]
+  },
+  {
+    "line": "Salmon DNA",
+    "items": [
+      {
+        "name": "Salmon DNA Fluid Sun",
+        "volume": "50 ml",
+        "price": "7.10"
+      },
+      {
+        "name": "Salmon Vita Water Essence",
+        "volume": "100 ml",
+        "price": "6.75"
+      },
+      {
+        "name": "Salmon DNA Toning Pad",
+        "volume": "230 g",
+        "price": "7.27"
+      },
+      {
+        "name": "Salmon DNA Ampoule",
+        "volume": "30 ml",
+        "price": "6.26"
+      }
+    ]
+  },
+  {
+    "line": "Vitafill",
+    "items": [
+      {
+        "name": "Vitafill Toning Pad",
+        "volume": "230 g",
+        "price": "7.01"
+      },
+      {
+        "name": "Vitafill Ampoule",
+        "volume": "30 ml",
+        "price": "6.35"
+      }
+    ]
+  },
+  {
+    "line": "Intensive Repair",
+    "items": [
+      {
+        "name": "Intensive Repair Double Effector",
+        "volume": "60 ml",
+        "price": "11.31"
+      }
+    ]
+  },
+  {
+    "line": "Dr. MOSSEA Jinjung",
+    "items": [
+      {
+        "name": "Jinjung Foaming Cleanser",
+        "volume": "150 ml",
+        "price": "4.86"
+      },
+      {
+        "name": "Jinjung Balance Toner",
+        "volume": "300 ml",
+        "price": "5.01"
+      },
+      {
+        "name": "Jinjung Balance Cream",
+        "volume": "150 ml",
+        "price": "5.63"
+      }
+    ]
+  },
+  {
+    "line": "Microshot",
+    "items": [
+      {
+        "name": "Hyaluronic Microshot Patch",
+        "volume": "12 patches",
+        "price": "2.05"
+      }
+    ]
+  }
+]

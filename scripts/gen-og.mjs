@@ -88,6 +88,7 @@ const SUPPLIERS = {
   kift: { eyebrow: 'Supplier profile', title: 'KIFT — Korean all-in-one high-efficiency skincare', accent: '#2f6fb0' },
   icelmedi: { eyebrow: 'Supplier profile', title: 'iCELmedi — cellmedics cosmeceuticals & KERASON devices', accent: '#17788f' },
   'three-days-love': { eyebrow: 'Supplier profile', title: 'THREE DAYS LOVE — K-beauty cosmeceuticals · SPICUS® & EXOMERE', accent: '#e0562e' },
+  licorne: { eyebrow: 'Supplier profile', title: 'LICORNE by Limetree — Korean vegan skincare for sensitive skin', accent: '#4e9c6b' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
