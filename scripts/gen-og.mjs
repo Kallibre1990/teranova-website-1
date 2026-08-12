@@ -87,6 +87,7 @@ const SUPPLIERS = {
   pineworld: { eyebrow: 'Supplier profile', title: 'RAVIEL by PINE WORLD — Korean skincare (brightening, firmness, hydration)', accent: '#c68aa6' },
   kift: { eyebrow: 'Supplier profile', title: 'KIFT — Korean all-in-one high-efficiency skincare', accent: '#2f6fb0' },
   icelmedi: { eyebrow: 'Supplier profile', title: 'iCELmedi — cellmedics cosmeceuticals & KERASON devices', accent: '#17788f' },
+  'three-days-love': { eyebrow: 'Supplier profile', title: 'THREE DAYS LOVE — K-beauty cosmeceuticals · SPICUS® & EXOMERE', accent: '#e0562e' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

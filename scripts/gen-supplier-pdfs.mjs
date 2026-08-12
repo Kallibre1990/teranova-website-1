@@ -145,6 +145,13 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    id: 'three-days-love', json: 'three-days-love', supplier: 'THREE DAYS LOVE CO., LTD.', brand: 'ThreeDaysLove · RETURN 10 · TIME 72 · EXOMERE',
+    basis: 'FOB Korea',
+    colors: { deep: '#7a2415', sky: '#e0562e', bg: '#fdf0ea', line: '#f4dacd' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

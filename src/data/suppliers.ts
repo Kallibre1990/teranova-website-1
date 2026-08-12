@@ -29,6 +29,7 @@ import jetsglobalCatalog from './suppliers-i18n/jetsglobal.catalog.json';
 import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
 import kiftCatalog from './suppliers-i18n/kift.catalog.json';
 import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
+import tdlCatalog from './suppliers-i18n/three-days-love.catalog.json';
 import dreamcosCatalog from './suppliers-i18n/dreamcos.catalog.json';
 import santeLines from './suppliers-i18n/sante.lines.json';
 import dongdonggurimooLines from './suppliers-i18n/dongdonggurimoo.lines.json';
@@ -111,6 +112,17 @@ import icelmediFr from './suppliers-i18n/icelmedi.fr.json';
 import icelmediTr from './suppliers-i18n/icelmedi.tr.json';
 import icelmediEs from './suppliers-i18n/icelmedi.es.json';
 import icelmediPt from './suppliers-i18n/icelmedi.pt.json';
+import tdlRu from './suppliers-i18n/three-days-love.ru.json';
+import tdlEn from './suppliers-i18n/three-days-love.en.json';
+import tdlKo from './suppliers-i18n/three-days-love.ko.json';
+import tdlZh from './suppliers-i18n/three-days-love.zh.json';
+import tdlJa from './suppliers-i18n/three-days-love.ja.json';
+import tdlIt from './suppliers-i18n/three-days-love.it.json';
+import tdlDe from './suppliers-i18n/three-days-love.de.json';
+import tdlFr from './suppliers-i18n/three-days-love.fr.json';
+import tdlTr from './suppliers-i18n/three-days-love.tr.json';
+import tdlEs from './suppliers-i18n/three-days-love.es.json';
+import tdlPt from './suppliers-i18n/three-days-love.pt.json';
 
 export interface SupplierLine {
   name: string;
@@ -828,6 +840,38 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(icelmediTr as any),
       es: mk(icelmediEs as any),
       pt: mk(icelmediPt as any),
+    },
+  },
+  {
+    slug: 'three-days-love',
+    category: 'cosmetics',
+    name: 'THREE DAYS LOVE CO., LTD.',
+    brand: 'ThreeDaysLove · RETURN 10 · TIME 72 · EXOMERE',
+    status: 'provided',
+    brandColors: { deep: '#7a2415', sky: '#f0a184', accent: '#e0562e', bg: '#fdf0ea' },
+    catalog: tdlCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/three-days-love-terms-ru.pdf', en: '/docs/three-days-love-terms-en.pdf', ko: '/docs/three-days-love-terms-ko.pdf', zh: '/docs/three-days-love-terms-zh.pdf', ja: '/docs/three-days-love-terms-ja.pdf', it: '/docs/three-days-love-terms-it.pdf', de: '/docs/three-days-love-terms-de.pdf', fr: '/docs/three-days-love-terms-fr.pdf', tr: '/docs/three-days-love-terms-tr.pdf', es: '/docs/three-days-love-terms-es.pdf', pt: '/docs/three-days-love-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/three-days-love-price-ru.pdf', en: '/docs/three-days-love-price-en.pdf', ko: '/docs/three-days-love-price-ko.pdf', zh: '/docs/three-days-love-price-zh.pdf', ja: '/docs/three-days-love-price-ja.pdf', it: '/docs/three-days-love-price-it.pdf', de: '/docs/three-days-love-price-de.pdf', fr: '/docs/three-days-love-price-fr.pdf', tr: '/docs/three-days-love-price-tr.pdf', es: '/docs/three-days-love-price-es.pdf', pt: '/docs/three-days-love-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/three-days-love-presentation-ru.pdf', en: '/docs/three-days-love-presentation-en.pdf', ko: '/docs/three-days-love-presentation-ko.pdf', zh: '/docs/three-days-love-presentation-zh.pdf', ja: '/docs/three-days-love-presentation-ja.pdf', it: '/docs/three-days-love-presentation-it.pdf', de: '/docs/three-days-love-presentation-de.pdf', fr: '/docs/three-days-love-presentation-fr.pdf', tr: '/docs/three-days-love-presentation-tr.pdf', es: '/docs/three-days-love-presentation-es.pdf', pt: '/docs/three-days-love-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(tdlRu as any),
+      en: mk(tdlEn as any),
+      ko: mk(tdlKo as any),
+      zh: mk(tdlZh as any),
+      ja: mk(tdlJa as any),
+      it: mk(tdlIt as any),
+      de: mk(tdlDe as any),
+      fr: mk(tdlFr as any),
+      tr: mk(tdlTr as any),
+      es: mk(tdlEs as any),
+      pt: mk(tdlPt as any),
     },
   },
 ];
