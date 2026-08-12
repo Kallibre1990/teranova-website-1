@@ -35,6 +35,9 @@ import kiftDrops from '../../assets/suppliers/kift/drops.jpg';
 import icelmediHero from '../../assets/suppliers/icelmedi/hero.jpg';
 import icelmediProducts from '../../assets/suppliers/icelmedi/products.jpg';
 import icelmediDrops from '../../assets/suppliers/icelmedi/drops.jpg';
+import tdlHero from '../../assets/suppliers/three-days-love/hero.jpg';
+import tdlProducts from '../../assets/suppliers/three-days-love/products.jpg';
+import tdlDrops from '../../assets/suppliers/three-days-love/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -54,6 +57,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   pineworld: { hero: pineHero, products: pineProducts, drops: pineDrops },
   kift: { hero: kiftHero, products: kiftProducts, drops: kiftDrops },
   icelmedi: { hero: icelmediHero, products: icelmediProducts, drops: icelmediDrops },
+  'three-days-love': { hero: tdlHero, products: tdlProducts, drops: tdlDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
