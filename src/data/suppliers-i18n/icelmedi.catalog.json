@@ -1,0 +1,68 @@
+[
+  {
+    "line": "cellmedics · Cleansing",
+    "items": [
+      { "name": "Revitalizing Cleansing Milk", "img": "/img/suppliers/icelmedi/products/revitalizing-cleansing-milk.jpg", "volume": "1 000 ml", "certs": [] },
+      { "name": "Revitalizing Cleansing Gel", "img": "/img/suppliers/icelmedi/products/revitalizing-cleansing-gel.jpg", "volume": "1 000 ml", "certs": [] },
+      { "name": "Soft Easy Bubble Cleanser", "img": "/img/suppliers/icelmedi/products/soft-easy-bubble-cleanser.jpg", "volume": "300 ml", "certs": [] },
+      { "name": "Deep Pore Sponge Mask", "img": "/img/suppliers/icelmedi/products/deep-pore-sponge-mask.jpg", "volume": "200 g", "certs": [] }
+    ]
+  },
+  {
+    "line": "cellmedics · Toner",
+    "items": [
+      { "name": "Hydrating Soothing Toner", "img": "/img/suppliers/icelmedi/products/hydrating-soothing-toner.jpg", "volume": "1 000 ml", "certs": [] },
+      { "name": "Cica Clear Toner", "img": "/img/suppliers/icelmedi/products/cica-clear-toner.jpg", "volume": "1 000 ml", "certs": [] },
+      { "name": "Biocell Multi Toner", "img": "/img/suppliers/icelmedi/products/biocell-multi-toner.jpg", "volume": "1 000 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "cellmedics · Serum",
+    "items": [
+      { "name": "Hydrating Soothing Serum", "img": "/img/suppliers/icelmedi/products/hydrating-soothing-serum.jpg", "volume": "500 ml", "certs": [] },
+      { "name": "Cica Clear Serum", "img": "/img/suppliers/icelmedi/products/cica-clear-serum.jpg", "volume": "500 ml", "certs": [] },
+      { "name": "Biocell Multi Serum", "img": "/img/suppliers/icelmedi/products/biocell-multi-serum.jpg", "volume": "500 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "cellmedics · Ampoule",
+    "items": [
+      { "name": "Hydrating Soothing Ampoule", "img": "/img/suppliers/icelmedi/products/hydrating-soothing-ampoule.jpg", "volume": "100 ml", "certs": [] },
+      { "name": "Cica Clear Ampoule", "img": "/img/suppliers/icelmedi/products/cica-clear-ampoule.jpg", "volume": "100 ml", "certs": [] },
+      { "name": "Whitening Tone-Up Ampoule", "img": "/img/suppliers/icelmedi/products/whitening-tone-up-ampoule.jpg", "volume": "100 ml", "certs": [] },
+      { "name": "Biocell Return Ampoule", "img": "/img/suppliers/icelmedi/products/biocell-return-ampoule.jpg", "volume": "100 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "cellmedics · Emulsion & Cream",
+    "items": [
+      { "name": "All-in-One Moisturizing Emulsion", "img": "/img/suppliers/icelmedi/products/all-in-one-moisturizing-emulsion.jpg", "volume": "500 ml", "certs": [] },
+      { "name": "Hydrating Soothing Cream", "img": "/img/suppliers/icelmedi/products/hydrating-soothing-cream.jpg", "volume": "250 g", "certs": [] },
+      { "name": "Cica Clear Cream", "img": "/img/suppliers/icelmedi/products/cica-clear-cream.jpg", "volume": "250 g", "certs": [] },
+      { "name": "Biocell Multi Cream", "img": "/img/suppliers/icelmedi/products/biocell-multi-cream.jpg", "volume": "250 g", "certs": [] },
+      { "name": "MGF Return Cream", "img": "/img/suppliers/icelmedi/products/mgf-return-cream.jpg", "volume": "70 ml", "certs": [] },
+      { "name": "Multi Effect K Cream", "img": "/img/suppliers/icelmedi/products/multi-effect-k-cream.jpg", "volume": "20 ml", "certs": [] },
+      { "name": "AC Clear Spot Booster", "img": "/img/suppliers/icelmedi/products/ac-clear-spot-booster.jpg", "volume": "20 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "cellmedics · Mask",
+    "items": [
+      { "name": "Intensive Multi Care Mask", "img": "/img/suppliers/icelmedi/products/intensive-multi-care-mask.jpg", "volume": "28 g × 5", "certs": [] },
+      { "name": "Cool Modeling Mask", "img": "/img/suppliers/icelmedi/products/cool-modeling-mask.jpg", "volume": "1 kg", "certs": [] },
+      { "name": "Chlorella Modeling Mask", "img": "/img/suppliers/icelmedi/products/chlorella-modeling-mask.jpg", "volume": "1 kg", "certs": [] },
+      { "name": "Vitamin C Modeling Mask", "img": "/img/suppliers/icelmedi/products/vitamin-c-modeling-mask.jpg", "volume": "1 kg", "certs": [] },
+      { "name": "Collagen Modeling Mask", "img": "/img/suppliers/icelmedi/products/collagen-modeling-mask.jpg", "volume": "1 kg", "certs": [] },
+      { "name": "Spirulina Powder Gel Modeling", "img": "/img/suppliers/icelmedi/products/spirulina-powder-gel-modeling.jpg", "volume": "1 kg", "certs": [] },
+      { "name": "Fucoidan Powder Gel Modeling", "img": "/img/suppliers/icelmedi/products/fucoidan-powder-gel-modeling.jpg", "volume": "1 kg", "certs": [] }
+    ]
+  },
+  {
+    "line": "KERASON · Device & Activators",
+    "items": [
+      { "name": "KERASON PRIME", "img": "/img/suppliers/icelmedi/products/kerason-prime.jpg", "volume": "1 set", "certs": [] },
+      { "name": "KERASON Pure AT Ampoule", "img": "/img/suppliers/icelmedi/products/kerason-pure-at-ampoule.jpg", "volume": "100 ml", "certs": [] },
+      { "name": "KERASON Pure ST Ampoule", "img": "/img/suppliers/icelmedi/products/kerason-pure-st-ampoule.jpg", "volume": "100 ml", "certs": [] }
+    ]
+  }
+]
