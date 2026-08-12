@@ -138,6 +138,13 @@ const SUPPLIERS = [
     pres: false,
     certs: [],
   },
+  {
+    id: 'icelmedi', json: 'icelmedi', supplier: 'iCELmedi Co., Ltd.', brand: 'cellmedics · KERASON',
+    basis: 'FOB Korea',
+    colors: { deep: '#0e3b4a', sky: '#3c93a8', bg: '#eef6f9', line: '#d9e8ee' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
