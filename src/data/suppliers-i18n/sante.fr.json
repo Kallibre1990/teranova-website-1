@@ -126,6 +126,7 @@
     "terms_disc": "Les prix et conditions sont indicatifs et sont finalisés à l'étape de la transaction via Teranova. Les coordonnées directes du fabricant ne sont pas publiées. Ce document ne constitue pas une offre au public.",
     "certs_h": "Certifications et enregistrements",
     "certs_note": "Déclaré par l'entreprise. Les copies des justificatifs sont fournies à l'étape de la transaction.",
-    "price_btn": "Télécharger la liste de prix (PDF)"
+    "price_btn": "Télécharger la liste de prix (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)"
   }
 }

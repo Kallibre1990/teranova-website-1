@@ -126,6 +126,7 @@
     "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve Teranova aracılığıyla işlem aşamasında kesinleşir. Üreticinin doğrudan iletişim bilgileri yayınlanmaz. Bu belge kamuya açık bir icap değildir.",
     "certs_h": "Sertifikalar ve tesciller",
     "certs_note": "Şirket tarafından beyan edilmiştir. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır.",
-    "price_btn": "Fiyat listesini indir (PDF)"
+    "price_btn": "Fiyat listesini indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)"
   }
 }
