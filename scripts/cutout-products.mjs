@@ -195,6 +195,12 @@ const REJECT = new Set([
   'licorne/vegan-cactus-cream.webp', // white plinth + neighbouring caption fused to the jar
   'icelmedi/kerason-prime.webp', // salon machine shot in a room, not a packshot
   'three-days-love/time72-exomere-time-lock-kit.webp', // open presentation case; the lid tears at the frame edge
+  'licorne/collagen-snail-serum.webp', // red caption from the next pack fused to the bottle through its shadow
+  'licorne/vegan-cactus-lotion.webp', // same — a stray "ST" rides along
+  'licorne/salmon-dna-toning-pad.webp', // styled shot: the pink ground only partly washes out
+  'licorne/salmon-vita-water-essence.webp', // neighbouring red caption survives above the bottle
+  'licorne/salmon-dna-ampoule.webp', // peach ground of the styled shot clings to the bottle
+  'licorne/vegan-cactus-mist.webp', // same pink ground, thinner but visible on a coloured cover
 ]);
 
 const only = process.argv.slice(2);
@@ -229,6 +235,9 @@ for (const slug of slugs) {
         continue;
       }
       made++;
+      if (process.env.CUT_STATS) {
+        console.log(`   ${slug}/${name} keptShare=${r.keptShare?.toFixed(3)} paleEdge=${r.paleEdge?.toFixed(2)} clean=${r.clean !== false}`);
+      }
       if (r.clean === false || REJECT.has(`${slug}/${name}`)) dirty++;
       else clean.push(name);
     } catch (e) {
