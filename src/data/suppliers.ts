@@ -208,6 +208,11 @@ export interface SupplierProfile {
        pop      — colour-block, fragrance (DUFT&DOFT / Dreamcos group)
        minimal  — white space, serif, monogram (tom-tit-tot) */
   voice?: 'clinical' | 'natural' | 'soft' | 'playful' | 'premium' | 'pop' | 'minimal';
+  /* Photo for a product line that has no products in the photo catalog — the
+     line is sold (it is in the price list) but the supplier sent no packshots
+     for it. Keyed by the line name as written in i18n.lines. Real photographs
+     from the brand's own materials only; never a drawing (docs/IMAGERY.md). */
+  lineShots?: Record<string, string>;
   /* Real product catalog grouped by line, with photos, volume, price, certs. Language-neutral. */
   catalog?: { line: string; items: { name: string; img: string; volume?: string; price?: string; certs?: string[] }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
@@ -503,6 +508,13 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#12306e', sky: '#4ca6fc', accent: '#ff2552', bg: '#f3f8ff' },
     voice: 'clinical',
+    /* Collagen Leader, Hyalquad Core and Hair Care are in the price list but had
+       no photos at all; these are the brand's own shots from santeshop.co.kr. */
+    lineShots: {
+      'Collagen Leader': '/img/suppliers/sante/lines/collagen-leader-toner.webp',
+      'Hyalquad Core': '/img/suppliers/sante/lines/hyalquad-core-cream.webp',
+      'Hair Care': '/img/suppliers/sante/lines/sante-amour-perfume-diffuser.webp',
+    },
     catalog: santeCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'MoCRA', 'CPNP', 'HALAL', 'NMPA', 'SCPN', 'DAV'],
     termsFile: {
@@ -610,6 +622,13 @@ export const suppliers: SupplierProfile[] = [
     ],
     brandColors: { deep: '#1f5945', sky: '#4e9c7f', accent: '#d4a373', bg: '#f2f7f4' },
     voice: 'natural',
+    lineShots: {
+      /* LEBELAGE is the flagship skincare brand — its name is printed on the
+         packs in the catalog. HEEYUL is hair and scalp care, and none of its
+         products are in our photo set, so its card stays without a photo rather
+         than borrowing a LEBELAGE bottle. */
+      LEBELAGE: '/img/suppliers/dongdonggurimoo/products/dr-ceramide-cure-cream.jpg',
+    },
     catalog: dongdonggurimooCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
     termsFile: {
@@ -735,6 +754,12 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#26282f', sky: '#9aa0ad', accent: '#f2621f', bg: '#f6f4f0' },
     voice: 'minimal',
+    /* The lines block names lines by positioning, the catalog by product family —
+       so the pairing is stated here rather than guessed. */
+    lineShots: {
+      'Aesthetic Premium': '/img/suppliers/jetsglobal/products/n20-pigment-ampoule.jpg',
+      'Daily Skincare': '/img/suppliers/jetsglobal/products/s7-repair-cream.jpg',
+    },
     catalog: jetsglobalCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/jetsglobal-terms-ru.pdf', en: '/docs/jetsglobal-terms-en.pdf', ko: '/docs/jetsglobal-terms-ko.pdf', zh: '/docs/jetsglobal-terms-zh.pdf', ja: '/docs/jetsglobal-terms-ja.pdf', it: '/docs/jetsglobal-terms-it.pdf', de: '/docs/jetsglobal-terms-de.pdf', fr: '/docs/jetsglobal-terms-fr.pdf', tr: '/docs/jetsglobal-terms-tr.pdf', es: '/docs/jetsglobal-terms-es.pdf', pt: '/docs/jetsglobal-terms-pt.pdf',
@@ -778,6 +803,11 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#4a3350', sky: '#b48fc4', accent: '#e08bb0', bg: '#f9f3f8' },
     voice: 'soft',
+    lineShots: {
+      /* "Base products" = the vitamin / panthenol basics group in the catalog. */
+      'Базовые продукты': '/img/suppliers/pineworld/products/multi-vitamin-dark-spot-serum.jpg',
+      'Base products': '/img/suppliers/pineworld/products/multi-vitamin-dark-spot-serum.jpg',
+    },
     catalog: pineworldCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/pineworld-terms-ru.pdf', en: '/docs/pineworld-terms-en.pdf', ko: '/docs/pineworld-terms-ko.pdf', zh: '/docs/pineworld-terms-zh.pdf', ja: '/docs/pineworld-terms-ja.pdf', it: '/docs/pineworld-terms-it.pdf', de: '/docs/pineworld-terms-de.pdf', fr: '/docs/pineworld-terms-fr.pdf', tr: '/docs/pineworld-terms-tr.pdf', es: '/docs/pineworld-terms-es.pdf', pt: '/docs/pineworld-terms-pt.pdf',
@@ -920,6 +950,11 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#2f5d3a', sky: '#a9d4b5', accent: '#4e9c6b', bg: '#eef7f0' },
     voice: 'natural',
+    lineShots: {
+      /* "Targeted & premium care" — the Vitafill ampoule stands for it. */
+      'Таргетированный и премиум-уход': '/img/suppliers/licorne/products/vitafill-ampoule.jpg',
+      'Targeted & premium care': '/img/suppliers/licorne/products/vitafill-ampoule.jpg',
+    },
     catalog: licorneCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/licorne-terms-ru.pdf', en: '/docs/licorne-terms-en.pdf', ko: '/docs/licorne-terms-ko.pdf', zh: '/docs/licorne-terms-zh.pdf', ja: '/docs/licorne-terms-ja.pdf', it: '/docs/licorne-terms-it.pdf', de: '/docs/licorne-terms-de.pdf', fr: '/docs/licorne-terms-fr.pdf', tr: '/docs/licorne-terms-tr.pdf', es: '/docs/licorne-terms-es.pdf', pt: '/docs/licorne-terms-pt.pdf',

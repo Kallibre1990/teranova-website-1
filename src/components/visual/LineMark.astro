@@ -1,0 +1,66 @@
+---
+/* Drawn mark for a product line we have no photograph of.
+
+   Deliberately NOT a picture of a product: docs/IMAGERY.md draws the line
+   between illustration and evidence, and a drawn jar would be a fake photo of
+   goods. This is a typographic mark — the line's initials on the brand's own
+   colours — so it reads as a label, never as a product shot.
+
+   Used where the supplier sent no packshots for a line that is nonetheless
+   real (HEEYUL hair care, SALMON:LAB, CAMIHOUSE). */
+interface Props {
+  name: string;
+  voice?: 'clinical' | 'natural' | 'soft' | 'playful' | 'premium' | 'pop' | 'minimal';
+}
+const { name, voice = 'clinical' } = Astro.props;
+
+/* Initials: first letters of up to two words, or the first two letters of a
+   single word. "SALMON:LAB" → "SL", "HEEYUL" → "HE". */
+const words = name
+  .replace(/[^\p{L}\p{N}\s:&-]/gu, ' ')
+  .split(/[\s:&-]+/)
+  .filter(Boolean);
+const initials = (words.length > 1 ? words[0][0] + words[1][0] : (words[0] ?? '?').slice(0, 2)).toUpperCase();
+const serif = voice === 'minimal' || voice === 'premium';
+---
+
+<span class={`lmk${serif ? ' lmk--serif' : ''}`} aria-hidden="true">
+  <span class="lmk__t">{initials}</span>
+</span>
+
+<style>
+  .lmk {
+    display: grid;
+    place-items: center;
+    width: 84px;
+    height: 84px;
+    margin-bottom: 14px;
+    border-radius: calc(var(--ds-r) * 0.8);
+    background:
+      radial-gradient(120% 120% at 26% 20%, color-mix(in srgb, #fff 55%, var(--ds-sky)), transparent 62%),
+      linear-gradient(140deg, var(--ds-sky), color-mix(in srgb, var(--ds-deep) 78%, var(--ds-sky)));
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, #fff 24%, transparent);
+    overflow: hidden;
+    position: relative;
+  }
+  /* a single hairline arc, the same quiet motif the covers use */
+  .lmk::after {
+    content: '';
+    position: absolute;
+    width: 130%;
+    aspect-ratio: 1;
+    left: -46%;
+    bottom: -70%;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #fff 30%, transparent);
+  }
+  .lmk__t {
+    position: relative;
+    font-size: 1.62rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-shadow: 0 1px 10px color-mix(in srgb, var(--ds-deep) 55%, transparent);
+  }
+  .lmk--serif .lmk__t { font-family: Georgia, 'Times New Roman', serif; letter-spacing: 0.06em; }
+</style>

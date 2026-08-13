@@ -10,6 +10,7 @@ import { ui, type Lang } from '../../i18n/ui';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import { postsBySupplier, postContent } from '../../data/blog';
 import BrandField from '../visual/BrandField.astro';
+import LineMark from '../visual/LineMark.astro';
 import { coverProductsForShelf, coverPlan } from '../../data/cutouts';
 import BrandCover from '../visual/BrandCover.astro';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
@@ -97,6 +98,12 @@ const articleCovers = new Map(
     return [post.slug, coverPlan(profile.slug, post.slug, post.hero, text)];
   }),
 );
+/* Line names are translated, product names are not — so matching a line to a
+   photo has to run on one fixed language or the cards fill differently in each.
+   Russian is the source of truth for content, and the lines array is 1:1 across
+   translations, so the Russian name at the same index is the stable key. */
+const ruLines = supplierContent(profile, 'ru').lines ?? [];
+
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 /* The brand's own manner on top of our layout — motif, shapes, serif headings. */
 const voice = profile.voice ?? 'clinical';
@@ -110,6 +117,10 @@ const shelf = coverProductsForShelf(profile.slug);
    Spot & Blemish Care"), so widen the search step by step and stop at the first
    hit: the group, then any product whose own name carries the line. */
 function lineShot(name: string): string | undefined {
+  /* Explicit photo for a line the photo catalog does not cover at all. */
+  const given = profile.lineShots?.[name];
+  if (given) return given;
+
   const groups = profile.catalog ?? [];
   const key = norm(name);
   if (!key) return undefined;
@@ -237,21 +248,22 @@ function lineShot(name: string): string | undefined {
     <div class="wrap">
       <span class="sp-lvl">{c.ui.lines_h}</span>
       <div class="sp-lines">
-        {c.lines.map((l) => {
+        {c.lines.map((l, i) => {
           const href = lineHref(l.name);
+          const shot = lineShot(ruLines[i]?.name ?? l.name);
           const El = href ? 'a' : 'article';
           return (
             <El class:list={['sp-line', href && 'sp-line--link']} href={href ?? undefined}>
-              {lineShot(l.name) ? (
+              {shot ? (
                 /* A real product from that very line — the card stops being a
                    generic droplet icon and starts showing what is being sold. */
                 <span class="sp-line__shot" aria-hidden="true">
-                  <img src={lineShot(l.name)} alt="" loading="lazy" decoding="async" />
+                  <img src={shot} alt="" loading="lazy" decoding="async" />
                 </span>
               ) : (
-                <span class="sp-line__ic" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
-                </span>
+                /* No photograph exists for this line — a drawn mark, not a drawn
+                   product (docs/IMAGERY.md). */
+                <LineMark name={l.name} voice={voice} />
               )}
               <h3 class="sp-line__nm">{l.name}</h3>
               <p class="sp-line__note">{l.note}</p>
