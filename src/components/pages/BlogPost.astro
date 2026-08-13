@@ -4,6 +4,7 @@
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { postContent, type BlogPost } from '../../data/blog';
+import { supplierBySlug } from '../../data/suppliers';
 import BlogHeroArt from '../visual/BlogHeroArt.astro';
 interface Props {
   lang: Lang;
@@ -13,6 +14,9 @@ const { lang, post } = Astro.props;
 const t = ui[lang];
 const p = t.pages.blog;
 const c = postContent(post, lang);
+/* Supplier-tied articles get a drawn cover in the brand's palette (no product
+   photo) — code-only visual per docs/IMAGERY.md. */
+const supBrand = post.supplier ? supplierBySlug(post.supplier)?.brandColors : undefined;
 const cosmeticsName = (t as any).categories?.groups?.find((g: any) => g.key === 'cosmetics')?.name ?? 'Cosmetics';
 const REL: Record<string, { href: string; label: string }> = {
   catalog: { href: localizePath('/catalog', lang), label: t.nav.catalog },
@@ -42,7 +46,11 @@ const catLabel = post.category === 'guide' ? p.cat_guide : p.cat_overview;
       <h1 class="bp__title">{c.title}</h1>
       <p class="bp__lead">{c.excerpt}</p>
 
-      {post.hero ? (
+      {supBrand ? (
+        <figure class="bp__hero bp__hero--art">
+          <BlogHeroArt slug={post.slug} variant={post.category} deep={supBrand.deep} sky={supBrand.sky} accent={supBrand.accent} />
+        </figure>
+      ) : post.hero ? (
         <figure class="bp__hero">
           <img src={post.hero} alt={c.title} loading="eager" decoding="async" />
         </figure>
