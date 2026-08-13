@@ -77,11 +77,11 @@
       },
       {
         "label": "Währungen",
-        "value": "Preisliste ausgestellt in KRW, EUR und USD; Preise in Fremdwährung zu einem variablen Wechselkurs, der in der Deal-Phase fixiert wird"
+        "value": "Die indikativen Preise werden in USD veröffentlicht. Die eigene Preisliste des Lieferanten wird in KRW, EUR und USD ausgestellt; Abrechnungswährung und Wechselkurs werden in der Deal-Phase fixiert"
       },
       {
         "label": "Preisgestaltung",
-        "value": "Großhandelspreisliste mit Mengenstufen (von unter 100 Einheiten bis über 5.000 Einheiten je Artikel); die zutreffende Stufe und die MOQ werden über Teranova bestätigt"
+        "value": "Die Großhandelspreise sind nach Mengenstufen gestaffelt (von unter 100 Einheiten bis über 5.000 Einheiten je Artikel). Die veröffentlichten indikativen Werte entsprechen der Stufe ab 1.000 Einheiten; die zutreffende Stufe und die MOQ werden über Teranova bestätigt"
       },
       {
         "label": "OEM/ODM",

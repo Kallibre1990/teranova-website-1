@@ -20,6 +20,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
+import { deckHTML } from './pres-deck.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -29,9 +30,22 @@ const DATA = path.join(ROOT, 'src/data/suppliers-i18n');
 const OUT = process.env.PDF_OUT || path.join(ROOT, 'public/docs');
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
-const LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt'];
+/* PDF_LANGS=tr,de — пересобрать только эти языки (точечная починка без полного прогона). */
+const ALL_LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt'];
+const LANGS = process.env.PDF_LANGS ? process.env.PDF_LANGS.split(',').filter((l) => ALL_LANGS.includes(l)) : ALL_LANGS;
 
 const SIGN = 'Teranova Group · info@teranovagroup.com · teranovagroup.com · 2026';
+
+/* Русские подписи дека для поставщиков, у которых ru-копия лежит inline
+   (sante, dreamcos) — в их ruPres.ui есть только заголовки разделов. */
+const RU_UI = {
+  profile_sup: 'Профиль поставщика',
+  about_h: 'О компании', lines_h: 'Линейки продукции', tech_h: 'Подход и производство',
+  catalog_h: 'Каталог продукции', products_h: 'Продукция', formats_h: 'Форматы продукции',
+  export_h: 'Экспорт и рынки', certs_h: 'Сертификаты и регистрации',
+  cta_h: 'Заинтересовал поставщик?',
+  cta_d: 'Напишите нам — Teranova организует переговоры, проверку и сопровождение сделки от первого контакта до поставки.',
+};
 
 /* Per-supplier config. `id` = file prefix (public/docs/<id>-<terms|price>-<lang>.pdf),
    `json` = data prefix in suppliers-i18n (<json>.<lang>.json + <json>.price.json).
@@ -53,13 +67,15 @@ const SUPPLIERS = [
       facts: ['Эстетический бренд', 'С 2003 года', 'Собственная разработка и производство', 'Профессиональный сегмент', 'Экспорт за рубеж'],
       lines: [
         { name: 'Azulene Soother', note: 'Успокаивающая линейка с гуайазуленом и ромашковой водой: быстро снижает раздражение, понижает температуру кожи и укрепляет барьер, работая с первопричинами проблем чувствительной кожи. Кремы, сыворотки, маски, лосьоны, мисты, гели, солнцезащитные эссенции.' },
-        { name: 'Artemisia AKA', note: 'Линейка для проблемной и раздражённой кожи с выраженным успокаивающим и противовоспалительным действием: ампулы, кремы и маски для восстановления и барьерного ухода.' },
+        { name: 'Artemisia AKA', note: 'Линейка для проблемной и раздражённой кожи: по данным компании, оказывает выраженное успокаивающее действие и помогает визуально уменьшить признаки раздражения. Ампулы, кремы и маски для восстановления и барьерного ухода.' },
         { name: 'Collagen Leader', note: 'Коллагеновый уход, ориентированный на упругость и возрастную кожу.' },
         { name: 'Hyalquad Core', note: 'Интенсивное увлажнение на комплексе гиалуроновой кислоты.' },
+        { name: 'Elsol', note: 'Линейка растительных масел на основе премиального израильского масла жожоба с сертификатом USDA — нерафинированного, холодного отжима. По данным компании, его структура близка к барьеру кожи и помогает восстановить и укрепить его.' },
+        { name: 'Hair Care', note: 'Линейка ухода за волосами и кожей головы. Состав и полный ассортимент уточняются на стадии сделки.' },
       ],
       tech: [
         { name: 'Гуайазулен + ромашковая вода', note: 'Real Blue Calming Solution — успокаивает раздражённую кожу, снижает её температуру и укрепляет защитный барьер.' },
-        { name: 'LHASOL™', note: 'Фирменный кератолитический ингредиент 4-го поколения — стабилизированный LHA в высокой концентрации; помогает проблемной коже вернуться к здоровому слабокислому pH.' },
+        { name: 'LHASOL™', note: 'Фирменный ингредиент 4-го поколения — стабилизированный LHA в высокой концентрации. По данным компании, оказывает отшелушивающее действие на ороговевшие клетки и помогает проблемной коже вернуться к здоровому слабокислому pH.' },
       ],
       formats: ['Ампулы', 'Сыворотки', 'Кремы', 'Маски', 'Тонеры и пэды', 'Очищающие средства', 'Солнцезащита', 'Мисты', 'Масла'],
       exportNote: 'Продукция Dr.SANTE поставляется за рубеж, включая рынки США и Японии.',
@@ -222,7 +238,9 @@ const baseCSS = (C) => `
   body { font-family: ${FONT}; color: #1c2430; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .hd { display: flex; justify-content: space-between; align-items: baseline; }
   .hd .b { font-weight: 800; letter-spacing: .06em; color: ${C.deep}; font-size: 15px; }
-  .hd .r { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: ${C.sky}; font-weight: 700; }
+  /* Без uppercase: в турецкой локали заглавные превращают i в İ и коверкают
+     названия брендов (Limetree -> LİMETREE, Cosmetics -> COSMETİCS). */
+  .hd .r { font-size: 10px; letter-spacing: .14em; color: ${C.sky}; font-weight: 700; }
   hr.top { border: 0; border-top: 2px solid ${C.deep}; margin: 8px 0 20px; }
   h1 { color: ${C.deep}; font-size: 25px; font-weight: 800; margin: 0 0 4px; }
   .sub { color: #6b7583; font-size: 12px; margin: 0 0 20px; }
@@ -291,13 +309,18 @@ function priceHTML(cfg, lang, priceLines) {
 }
 
 function presData(cfg, lang) {
-  if (lang === 'ru' && cfg.ruPres) { const p = cfg.ruPres; return { ...p, certs: cfg.certs }; }
+  /* Дек берёт заголовки из ui целиком; у «старых» поставщиков ru лежит inline,
+     там certs_note хранится на верхнем уровне — доносим его в ui. */
+  if (lang === 'ru' && cfg.ruPres) {
+    const p = cfg.ruPres;
+    return { ...p, certs: cfg.certs, ui: { ...RU_UI, ...(p.ui || {}), certs_note: p.certs_note } };
+  }
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   const c = j.content, u = j.ui;
   return {
     tagline: c.tagline, descriptor: c.descriptor, about: c.about, facts: c.facts, lines: c.lines,
     tech: c.tech, formats: c.formats, exportNote: c.exportNote, certs: cfg.certs, certs_note: u.certs_note,
-    ui: { about_h: u.about_h, lines_h: u.lines_h, tech_h: u.tech_h, formats_h: u.formats_h, export_h: u.export_h, certs_h: u.certs_h },
+    ui: u,
   };
 }
 
@@ -354,6 +377,32 @@ const CHROME_ARGS = [
 /* Chrome (new headless) prints the PDF fine but sometimes never exits, so instead of
    waiting for the process we poll until the output file is written and its size is
    stable, then kill Chrome. */
+/* Обложечное фото: у поставщиков оно называется по-разному (у SANTE — PNG
+   с другим именем), поэтому перебираем известные варианты. */
+function heroOf(cfg) {
+  const dir = path.join(ROOT, 'src/assets/suppliers', cfg.id);
+  for (const n of ['hero.jpg', 'hero.png', 'hero-serum.png', 'products.jpg', 'products.png']) {
+    const p = path.join(dir, n);
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
+
+/* Каталог для страницы с фото: к каждой позиции добавляем абсолютный путь —
+   Chrome читает картинки с диска по file://. */
+function catalogOf(cfg) {
+  const f = path.join(DATA, `${cfg.json}.catalog.json`);
+  if (!fs.existsSync(f)) return null;
+  const cat = JSON.parse(fs.readFileSync(f, 'utf8'));
+  for (const g of cat) {
+    for (const it of g.items) {
+      const abs = path.join(ROOT, 'public', it.img.replace(/^\//, ''));
+      it.abs = fs.existsSync(abs) ? abs : null;
+    }
+  }
+  return cat;
+}
+
 async function toPDF(html, outfile) {
   const tmp = path.join(os.tmpdir(), `spdf-${Math.abs(hash(outfile))}.html`);
   fs.writeFileSync(tmp, html);
@@ -388,7 +437,9 @@ for (const cfg of targets) {
     await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
     await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
     n += 2;
-    if (cfg.pres) { await toPDF(presHTML(cfg, lang), path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`)); n += 1; }
+    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg), heroOf(cfg)),
+      path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`));
+    n += 1;
     process.stdout.write(` ${lang}`);
   }
 }

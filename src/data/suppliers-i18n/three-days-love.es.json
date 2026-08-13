@@ -77,11 +77,11 @@
       },
       {
         "label": "Monedas",
-        "value": "Lista de precios emitida en KRW, EUR y USD; los precios en moneda extranjera a un tipo de cambio flotante fijado en la fase de la operación"
+        "value": "Los precios orientativos se publican en USD. La lista de precios propia del proveedor se emite en KRW, EUR y USD; la moneda de liquidación y el tipo de cambio se fijan en la fase de la operación"
       },
       {
         "label": "Precios",
-        "value": "Lista de precios mayorista con niveles por volumen (desde menos de 100 unidades hasta más de 5.000 unidades por artículo); el nivel aplicable y el MOQ se confirman a través de Teranova"
+        "value": "Los precios mayoristas tienen niveles por volumen (desde menos de 100 unidades hasta más de 5.000 unidades por artículo). Las cifras orientativas publicadas corresponden al nivel a partir de 1.000 unidades; el nivel aplicable y el MOQ se confirman a través de Teranova"
       },
       {
         "label": "OEM/ODM",

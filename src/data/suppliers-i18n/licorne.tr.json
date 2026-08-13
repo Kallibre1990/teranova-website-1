@@ -81,7 +81,7 @@
       },
       {
         "label": "Fiyatlandırma",
-        "value": "KRW ve USD cinsinden FOB fiyat listesi; ürüne ve hacme bağlı olarak ürün başına yaklaşık USD 2 ile USD 12 arası gösterge FOB"
+        "value": "Gösterge FOB fiyatlar USD cinsinden yayımlanır; ürüne ve hacme bağlı olarak ürün başına yaklaşık USD 2 ile USD 12 arasındadır. Tedarikçinin fiyat listesi KRW ve USD cinsinden düzenlenir; ödeme para birimi anlaşma aşamasında sabitlenir"
       },
       {
         "label": "Tesciller",
