@@ -506,6 +506,9 @@ export const suppliers: SupplierProfile[] = [
     priceFile: {
       ru: '/docs/sante-price-ru.pdf', en: '/docs/sante-price-en.pdf', ko: '/docs/sante-price-ko.pdf', zh: '/docs/sante-price-zh.pdf', ja: '/docs/sante-price-ja.pdf', it: '/docs/sante-price-it.pdf', de: '/docs/sante-price-de.pdf', fr: '/docs/sante-price-fr.pdf', tr: '/docs/sante-price-tr.pdf', es: '/docs/sante-price-es.pdf', pt: '/docs/sante-price-pt.pdf',
     },
+    presFile: {
+      ru: '/docs/sante-presentation-ru.pdf', en: '/docs/sante-presentation-en.pdf', ko: '/docs/sante-presentation-ko.pdf', zh: '/docs/sante-presentation-zh.pdf', ja: '/docs/sante-presentation-ja.pdf', it: '/docs/sante-presentation-it.pdf', de: '/docs/sante-presentation-de.pdf', fr: '/docs/sante-presentation-fr.pdf', tr: '/docs/sante-presentation-tr.pdf', es: '/docs/sante-presentation-es.pdf', pt: '/docs/sante-presentation-pt.pdf',
+    },
     i18n: {
       ru: santeRu,
       en: mk(santeEn),
