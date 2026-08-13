@@ -54,21 +54,29 @@ def strip_old(doc):
 
 
 def stamp(doc, lang):
+    """Знак и подвал — под содержимым страницы.
+
+    Центральный знак чисто латинский, поэтому рисуем базовым шрифтом Helvetica:
+    он не вшивается в файл. Подвал локализован (кириллица, CJK) и требует
+    Unicode-шрифта; чтобы файл не раздувался на десятки мегабайт, вшитый шрифт
+    затем урезается до реально использованных символов (subset_fonts)."""
     foot = f'© Teranova Group · teranovagroup.com · {ORIGINAL[lang]}'
     for page in doc:
         r = page.rect
-        # Центральный знак — ПОД текстом (overlay=False).
         page.insert_textbox(
             fitz.Rect(r.x0, r.y0 + r.height * 0.44, r.x1, r.y0 + r.height * 0.56),
-            CENTER, fontsize=CENTER_SIZE, fontfile=FONT, fontname='AUni',
+            CENTER, fontsize=CENTER_SIZE, fontname='helv',
             color=CENTER_GRAY, align=fitz.TEXT_ALIGN_CENTER, overlay=False,
         )
-        # Подвал — в нижнем поле, там текста нет, но тоже кладём под содержимое.
         page.insert_textbox(
             fitz.Rect(r.x0, r.y1 - 26, r.x1, r.y1 - 8),
             foot, fontsize=FOOT_SIZE, fontfile=FONT, fontname='AUni',
             color=FOOT_GRAY, align=fitz.TEXT_ALIGN_CENTER, overlay=False,
         )
+    try:
+        doc.subset_fonts(verbose=False)
+    except Exception:
+        pass  # старые сборки PyMuPDF — файл просто останется крупнее
 
 
 def words(doc):
@@ -92,10 +100,11 @@ def process(path):
         doc.close()
         return f'ПРОПУЩЕН (снятие задело текст: {lost[:5]})'
     stamp(doc, lang_of(path))
-    doc.saveIncr() if doc.can_save_incrementally() else doc.save(path + '.tmp')
-    if os.path.exists(path + '.tmp'):
-        os.replace(path + '.tmp', path)
+    # Полное пересохранение со сборкой мусора и сжатием: после урезания шрифтов
+    # инкрементальная запись только добавила бы объём.
+    doc.save(path + '.tmp', garbage=4, deflate=True, clean=True)
     doc.close()
+    os.replace(path + '.tmp', path)
     return 'ok'
 
 
