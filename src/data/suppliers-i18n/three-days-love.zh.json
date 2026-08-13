@@ -1,15 +1,15 @@
 {
   "content": {
-    "tagline": "基于专利微针与外泌体递送技术打造的专业韩妆药妆——面向诊所、美容院与经销商",
-    "descriptor": "THREE DAYS LOVE CO., LTD.，一家韩国药妆公司，专注于外用微针（SPICUS®）与外泌体递送技术；旗下品牌线包括 ThreeDaysLove、RETURN 10、TIME 72 以及 EXOMERE 系列",
+    "tagline": "基于专利微针与外泌体递送技术打造的专业韩国专业护肤——面向诊所、美容院与经销商",
+    "descriptor": "THREE DAYS LOVE CO., LTD.，一家韩国功能性护肤品公司，专注于外用微针（SPICUS®）与外泌体递送技术；旗下品牌线包括 ThreeDaysLove、RETURN 10、TIME 72 以及 EXOMERE 系列",
     "origin": "韩国",
     "about": [
-      "THREE DAYS LOVE CO., LTD.（주식회사 3일애）是一家韩国药妆公司，据公司称，自2001年起专注于外用「肌肤植入」递送技术。其总部位于首尔（松坡区），并在京畿道城南设有原料加工与研发设施。公司在多个自有品牌线下开发并供应专业护肤产品——ThreeDaysLove、RETURN 10 与 TIME 72——同时也以客户自有品牌提供 OEM/ODM 代工制造。",
-      "公司的定位建立在其自主研发的递送技术之上，据其披露，这些技术拥有韩国专利：SPICUS®——一种植物胶原蛋白包覆的生物微针，用于将有效成分外用递送至皮肤，无需注射（专利号 10-2767202）；EXOMERE Halla®——一种源自济州汉拿峰的外泌体复合物（专利号 10-2677780）；以及 EXO-AG®——一种黑蒜与芦荟外泌体复合物（专利号 10-2534286）。据公司称，这些技术旨在改善活性成分的递送、稳定性与功效。产品被定位为专业药妆，而非医疗器械或药品。",
+      "THREE DAYS LOVE CO., LTD.（주식회사 3일애）是一家韩国功能性护肤品公司，据公司称，自2001年起专注于外用「肌肤植入」递送技术。其总部位于首尔（松坡区），并在京畿道城南设有原料加工与研发设施。公司在多个自有品牌线下开发并供应专业护肤产品——ThreeDaysLove、RETURN 10 与 TIME 72——同时也以客户自有品牌提供 OEM/ODM 代工制造。",
+      "公司的定位建立在其自主研发的递送技术之上，据其披露，这些技术拥有韩国专利：SPICUS®——一种植物胶原蛋白包覆的生物微针，用于将有效成分外用递送至皮肤，无需注射（专利号 10-2767202）；EXOMERE Halla®——一种源自济州汉拿峰的外泌体复合物（专利号 10-2677780）；以及 EXO-AG®——一种黑蒜与芦荟外泌体复合物（专利号 10-2534286）。据公司称，这些技术旨在改善活性成分的递送、稳定性与功效。产品被定位为专业护肤品，而非医疗器械或药品。",
       "据公司陈述，其质量在 ISO 22716（化妆品 GMP）、ISO 9001 与 ISO 14001 体系下管理，产品系列在多个市场取得认证或注册——包括 US MoCRA、EU CPNP 与 Switzerland PIF。另有一条独立品牌线 EXOMERE 出现在公司自己的价目表中；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，两家公司之间的关系未经独立核实——在本展示页面中，两个品牌并未合并为同一法律实体。"
     ],
     "facts": [
-      "韩国药妆研发商；据公司称，自2001年起从事外用微针递送领域",
+      "韩国功能性护肤品研发商；据公司称，自2001年起从事外用微针递送领域",
       "拥有公司披露之韩国专利的自主技术：SPICUS® 生物微针、EXOMERE Halla® 与 EXO-AG® 外泌体复合物",
       "品牌线包括 ThreeDaysLove、RETURN 10 与 TIME 72，以及 EXOMERE 系列；可提供 OEM/ODM",
       "据公司声明，质量在 ISO 22716（GMP）、ISO 9001 与 ISO 14001 体系下管理",
@@ -19,7 +19,7 @@
       "专业化妆品的经销商与批发商",
       "美容诊所、护肤与美容工作室",
       "美容院、水疗中心与护肤门店",
-      "寻找韩国 OEM/ODM 药妆合作伙伴的品牌方"
+      "寻找韩国 OEM/ODM 护肤品合作伙伴的品牌方"
     ],
     "lines": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "name": "RETURN 10 — home MTS and peptide care",
-        "note": "围绕 MTS（微针）精华液、肽面霜与安瓶、修护膏粉饼及面膜的药妆品牌线——专业护理的居家配套。据公司称，RETURN 10 已在中国完成 NMPA 注册。"
+        "note": "围绕 MTS（微针）精华液、肽面霜与安瓶、修护膏粉饼及面膜的专业护肤品牌线——专业护理的居家配套。据公司称，RETURN 10 已在中国完成 NMPA 注册。"
       },
       {
         "name": "TIME 72 — recovery and healing",
@@ -77,11 +77,11 @@
       },
       {
         "label": "结算货币",
-        "value": "价目表以 KRW、EUR 与 USD 出具；外币价格按交易阶段锁定的浮动汇率计算"
+        "value": "指示性价格以 USD 公布。供应商自有价目表以 KRW、EUR 与 USD 出具；结算货币与汇率在交易阶段确定"
       },
       {
         "label": "定价",
-        "value": "含数量阶梯的批发价目表（每种单品从100件以下至5,000件以上）；适用等级与 MOQ 通过 Teranova 确认"
+        "value": "批发价格设有数量阶梯（每种单品从100件以下至5,000件以上）。已公布的指示性价格对应1,000件及以上的阶梯；适用等级与 MOQ 通过 Teranova 确认"
       },
       {
         "label": "OEM/ODM",
@@ -92,9 +92,9 @@
         "value": "在交易阶段的合同中最终确定"
       }
     ],
-    "consentNote": "相关数据与资料由 THREE DAYS LOVE CO., LTD.（Global Sales, Allen Chung）提供，并经公司同意用于共同编制本档案（2026年8月）而发布。有关技术、专利、认证与注册的信息为公司陈述，须在交易阶段以文件确认。有关微针（「肌肤植入」）、外泌体与针晶技术的说法均按公司声明呈现；产品被定位为外用药妆，而非医疗器械或药品。EXOMERE 在公司价目表中作为品牌线展示；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，其关系未经独立核实。",
-    "seoTitle": "THREE DAYS LOVE — 韩妆药妆 · SPICUS® 与 EXOMERE · Teranova",
-    "seoDesc": "THREE DAYS LOVE 是一家韩国药妆研发商：SPICUS® 微针与 EXOMERE® 外泌体技术，覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线。OEM/ODM，FOB Korea。交易通过 Teranova 进行。",
+    "consentNote": "相关数据与资料由 THREE DAYS LOVE CO., LTD.（Global Sales, Allen Chung）提供，并经公司同意用于共同编制本档案（2026年8月）而发布。有关技术、专利、认证与注册的信息为公司陈述，须在交易阶段以文件确认。有关微针（「肌肤植入」）、外泌体与针晶技术的说法均按公司声明呈现；产品被定位为外用护肤品，而非医疗器械或药品。EXOMERE 在公司价目表中作为品牌线展示；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，其关系未经独立核实。",
+    "seoTitle": "THREE DAYS LOVE — 韩国专业护肤 · SPICUS® 与 EXOMERE · Teranova",
+    "seoDesc": "THREE DAYS LOVE 是一家韩国功能性护肤品研发商：SPICUS® 微针与 EXOMERE® 外泌体技术，覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线。OEM/ODM，FOB Korea。交易通过 Teranova 进行。",
     "catalog_notes": [
       "一款基于 EXOMERE® 外泌体与 SPICUS® 理念打造的再生安瓶套装，用于强效修护护理。",
       "一款采用 SPICUS® 微针理念的亮白植入面霜，用于均匀肤色与提亮。",
@@ -144,7 +144,7 @@
     "catalog_h": "产品目录",
     "tech_h": "技术与生产",
     "products_h": "产品",
-    "products_note": "覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线的专业韩妆药妆：修护膏、植入面霜、安瓶与 MTS 精华液、喷雾与精华、面膜、洁面产品，以及身体与头皮护理——基于 SPICUS® 微针与 EXOMERE® 外泌体技术打造。",
+    "products_note": "覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线的专业韩国专业护肤：修护膏、植入面霜、安瓶与 MTS 精华液、喷雾与精华、面膜、洁面产品，以及身体与头皮护理——基于 SPICUS® 微针与 EXOMERE® 外泌体技术打造。",
     "formats_h": "产品规格",
     "export_h": "出口与市场",
     "terms_h": "合作条款",

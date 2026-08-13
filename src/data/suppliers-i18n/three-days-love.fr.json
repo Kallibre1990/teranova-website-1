@@ -77,11 +77,11 @@
       },
       {
         "label": "Devises",
-        "value": "Liste de prix émise en KRW, EUR et USD ; prix en devises étrangères à un taux de change flottant fixé au stade de la transaction"
+        "value": "Les prix indicatifs sont publiés en USD. La liste de prix propre du fournisseur est émise en KRW, EUR et USD ; la devise de règlement et le taux de change sont fixés au stade de la transaction"
       },
       {
         "label": "Tarification",
-        "value": "Liste de prix de gros avec paliers de volume (de moins de 100 unités jusqu'à 5 000+ unités par article) ; le palier applicable et le MOQ sont confirmés via Teranova"
+        "value": "Les prix de gros comportent des paliers de volume (de moins de 100 unités à 5 000+ unités par article). Les montants indicatifs publiés correspondent au palier à partir de 1 000 unités ; le palier applicable et le MOQ sont confirmés via Teranova"
       },
       {
         "label": "OEM/ODM",

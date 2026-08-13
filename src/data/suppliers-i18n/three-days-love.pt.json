@@ -77,11 +77,11 @@
       },
       {
         "label": "Moedas",
-        "value": "Lista de preços emitida em KRW, EUR e USD; preços em moeda estrangeira a uma taxa de câmbio flutuante fixada na fase da transação"
+        "value": "Os preços indicativos são publicados em USD. A lista de preços do próprio fornecedor é emitida em KRW, EUR e USD; a moeda de liquidação e a taxa de câmbio são fixadas na fase da transação"
       },
       {
         "label": "Preços",
-        "value": "Lista de preços de grosso com escalões por volume (de menos de 100 unidades até mais de 5.000 unidades por item); o nível aplicável e o MOQ são confirmados através da Teranova"
+        "value": "Os preços de grosso têm escalões por volume (de menos de 100 unidades até mais de 5.000 unidades por item). Os valores indicativos publicados correspondem ao escalão a partir de 1.000 unidades; o escalão aplicável e o MOQ são confirmados através da Teranova"
       },
       {
         "label": "OEM/ODM",

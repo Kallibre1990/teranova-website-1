@@ -77,11 +77,11 @@
       },
       {
         "label": "Currencies",
-        "value": "Price list issued in KRW, EUR and USD; foreign-currency prices at a floating exchange rate fixed at the deal stage"
+        "value": "Indicative prices are published in USD. The supplier's own price list is issued in KRW, EUR and USD; the settlement currency and the exchange rate are fixed at the deal stage"
       },
       {
         "label": "Pricing",
-        "value": "Wholesale price list with volume tiers (from under 100 units up to 5,000+ units per item); the applicable level and MOQ are confirmed via Teranova"
+        "value": "Wholesale pricing has volume tiers (from under 100 units to 5,000+ units per item). The published indicative figures correspond to the tier of 1,000 units and above; the applicable tier and MOQ are confirmed via Teranova"
       },
       {
         "label": "OEM/ODM",

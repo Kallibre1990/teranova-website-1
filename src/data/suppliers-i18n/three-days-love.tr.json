@@ -77,11 +77,11 @@
       },
       {
         "label": "Para birimleri",
-        "value": "Fiyat listesi KRW, EUR ve USD cinsinden düzenlenmiştir; döviz cinsinden fiyatlar anlaşma aşamasında sabitlenen değişken bir kurdan geçerlidir"
+        "value": "Gösterge fiyatlar USD cinsinden yayımlanır. Tedarikçinin kendi fiyat listesi KRW, EUR ve USD cinsinden düzenlenir; ödeme para birimi ve kur anlaşma aşamasında sabitlenir"
       },
       {
         "label": "Fiyatlandırma",
-        "value": "Hacim kademeli toptan fiyat listesi (ürün başına 100 adetin altından 5.000+ adete kadar); geçerli seviye ve MOQ Teranova aracılığıyla teyit edilir"
+        "value": "Toptan fiyatlandırma hacim kademelerinden oluşur (ürün başına 100 adetin altından 5.000+ adete kadar). Yayımlanan gösterge fiyatlar 1.000 adet ve üzeri kademeye karşılık gelir; geçerli kademe ve MOQ Teranova aracılığıyla teyit edilir"
       },
       {
         "label": "OEM/ODM",

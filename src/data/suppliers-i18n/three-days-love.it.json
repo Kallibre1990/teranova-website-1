@@ -77,11 +77,11 @@
       },
       {
         "label": "Valute",
-        "value": "Listino prezzi emesso in KRW, EUR e USD; i prezzi in valuta estera a tasso di cambio variabile fissato in fase di trattativa"
+        "value": "I prezzi indicativi sono pubblicati in USD. Il listino prezzi del fornitore è emesso in KRW, EUR e USD; la valuta di regolamento e il tasso di cambio sono fissati in fase di trattativa"
       },
       {
         "label": "Prezzi",
-        "value": "Listino prezzi all'ingrosso con fasce di volume (da meno di 100 unità fino a oltre 5.000 unità per articolo); il livello applicabile e il MOQ sono confermati tramite Teranova"
+        "value": "I prezzi all'ingrosso prevedono fasce di volume (da meno di 100 unità a oltre 5.000 unità per articolo). Le cifre indicative pubblicate corrispondono alla fascia da 1.000 unità in su; la fascia applicabile e il MOQ sono confermati tramite Teranova"
       },
       {
         "label": "OEM/ODM",
