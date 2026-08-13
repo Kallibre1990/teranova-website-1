@@ -6,6 +6,8 @@ import { ui, type Lang } from '../../i18n/ui';
 import { postContent, type BlogPost } from '../../data/blog';
 import { supplierBySlug } from '../../data/suppliers';
 import BlogHeroArt from '../visual/BlogHeroArt.astro';
+import BrandCover from '../visual/BrandCover.astro';
+import { coverPlan } from '../../data/cutouts';
 interface Props {
   lang: Lang;
   post: BlogPost;
@@ -14,9 +16,20 @@ const { lang, post } = Astro.props;
 const t = ui[lang];
 const p = t.pages.blog;
 const c = postContent(post, lang);
-/* Supplier-tied articles get a drawn cover in the brand's palette (no product
-   photo) — code-only visual per docs/IMAGERY.md. */
-const supBrand = post.supplier ? supplierBySlug(post.supplier)?.brandColors : undefined;
+/* Supplier-tied articles get a cover built from that supplier's own products on
+   a set drawn in its brand colours; where we have no clean cut-outs, the drawn
+   cover stands in. Both are ours — see docs/IMAGERY.md. */
+const sup = post.supplier ? supplierBySlug(post.supplier) : undefined;
+const supBrand = sup?.brandColors;
+/* Pick the products from the Russian text in every language: product names are
+   Latin script everywhere, so the cover stays identical across the 11 versions. */
+const ruText = sup
+  ? (() => {
+      const r = postContent(post, 'ru');
+      return [r.title, r.excerpt, ...r.sections.flatMap((s) => [s.h ?? '', ...s.p])].join(' ');
+    })()
+  : '';
+const cover = sup ? coverPlan(sup.slug, post.slug, post.hero, ruText) : undefined;
 const cosmeticsName = (t as any).categories?.groups?.find((g: any) => g.key === 'cosmetics')?.name ?? 'Cosmetics';
 const REL: Record<string, { href: string; label: string }> = {
   catalog: { href: localizePath('/catalog', lang), label: t.nav.catalog },
@@ -46,7 +59,21 @@ const catLabel = post.category === 'guide' ? p.cat_guide : p.cat_overview;
       <h1 class="bp__title">{c.title}</h1>
       <p class="bp__lead">{c.excerpt}</p>
 
-      {supBrand ? (
+      {supBrand && cover && cover.products.length ? (
+        <figure class="bp__hero bp__hero--art">
+          <BrandCover
+            products={cover.products}
+            mode={cover.mode === 'cards' ? 'cards' : 'float'}
+            seed={post.slug}
+            deep={supBrand.deep}
+            sky={supBrand.sky}
+            accent={supBrand.accent}
+            bg={supBrand.bg}
+            label={sup?.brand}
+            eager
+          />
+        </figure>
+      ) : supBrand ? (
         <figure class="bp__hero bp__hero--art">
           <BlogHeroArt slug={post.slug} variant={post.category} deep={supBrand.deep} sky={supBrand.sky} accent={supBrand.accent} />
         </figure>

@@ -1,0 +1,131 @@
+---
+/* Background field for a supplier page, drawn in that brand's own manner.
+
+   The page layout is ours and identical for every supplier — this is the layer
+   that makes it read as *their* page: the shape language and motif taken from
+   the brand's own site and packaging (see `voice` in src/data/suppliers.ts).
+   Drawn in code, no imagery of its own (docs/IMAGERY.md). */
+interface Props {
+  voice?: 'clinical' | 'natural' | 'soft' | 'playful' | 'premium' | 'pop' | 'minimal';
+  seed?: string;
+}
+const { voice = 'clinical', seed = 'x' } = Astro.props;
+let h = 0;
+for (const ch of seed) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+const uid = `bf${(h % 100000).toString(36)}`;
+---
+
+<div class={`bfd bfd--${voice}`} aria-hidden="true">
+  <svg viewBox="0 0 1440 620" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id={`${uid}-g`} x1="0" y1="0" x2="1440" y2="620" gradientUnits="userSpaceOnUse">
+        <stop stop-color="var(--ds-bg)"></stop>
+        <stop offset="1" stop-color="#fff"></stop>
+      </linearGradient>
+      <pattern id={`${uid}-grid`} width="48" height="48" patternUnits="userSpaceOnUse">
+        <path d="M48 0H0V48" fill="none" stroke="var(--ds-sky)" stroke-opacity="0.16" stroke-width="1"></path>
+      </pattern>
+      <radialGradient id={`${uid}-glow`} cx="78%" cy="6%" r="60%">
+        <stop offset="0%" stop-color="var(--ds-sky)" stop-opacity="0.34"></stop>
+        <stop offset="100%" stop-color="var(--ds-sky)" stop-opacity="0"></stop>
+      </radialGradient>
+    </defs>
+
+    <rect width="1440" height="620" fill={`url(#${uid}-g)`}></rect>
+    <rect width="1440" height="620" fill={`url(#${uid}-glow)`}></rect>
+
+    {/* clinical — measured grid and the medical cross: lab, protocol, precision */}
+    {
+      voice === 'clinical' && (
+        <g>
+          <rect width="1440" height="620" fill={`url(#${uid}-grid)`} opacity="0.7" />
+          <g stroke="var(--ds-sky)" stroke-opacity="0.3" fill="none" stroke-width="2">
+            <path d="M1180 96h64M1212 64v64" />
+            <circle cx="1212" cy="96" r="54" stroke-opacity="0.18" />
+          </g>
+          <path d="M0 560h1440" stroke="var(--ds-sky)" stroke-opacity="0.22" stroke-width="1" />
+        </g>
+      )
+    }
+
+    {/* natural — soft organic blobs, the plant/cica register */}
+    {
+      voice === 'natural' && (
+        <g fill="var(--ds-sky)">
+          <path
+            d="M1120 40c120-30 250 40 264 150 14 110-84 210-200 214-116 4-214-70-226-168-12-98 42-166 162-196Z"
+            opacity="0.22"
+          />
+          <path d="M120 470c90-70 190-40 214 30 24 70-40 140-130 134-90-6-134-64-84-164Z" opacity="0.12" />
+          <path
+            d="M1290 470c-40-60-8-120 60-126 68-6 110 46 96 106-14 60-116 80-156 20Z"
+            opacity="0.16"
+          />
+        </g>
+      )
+    }
+
+    {/* soft — pastel haze, home care */}
+    {
+      voice === 'soft' && (
+        <g>
+          <circle cx="1180" cy="120" r="230" fill="var(--ds-sky)" opacity="0.16" />
+          <circle cx="1330" cy="330" r="150" fill="var(--ds-accent)" opacity="0.12" />
+          <circle cx="150" cy="520" r="180" fill="var(--ds-sky)" opacity="0.1" />
+        </g>
+      )
+    }
+
+    {/* playful — bubbles, the young bright shelf */}
+    {
+      voice === 'playful' && (
+        <g>
+          <circle cx="1210" cy="130" r="180" fill="var(--ds-sky)" opacity="0.2" />
+          <circle cx="1050" cy="330" r="52" fill="var(--ds-accent)" opacity="0.5" />
+          <circle cx="1320" cy="400" r="30" fill="var(--ds-accent)" opacity="0.35" />
+          <circle cx="960" cy="120" r="20" fill="var(--ds-sky)" opacity="0.5" />
+          <circle cx="220" cy="500" r="70" fill="var(--ds-sky)" opacity="0.16" />
+        </g>
+      )
+    }
+
+    {/* premium — thin arcs, aesthetic clinic */}
+    {
+      voice === 'premium' && (
+        <g fill="none" stroke="var(--ds-accent)" stroke-opacity="0.3">
+          <circle cx="1240" cy="120" r="240" stroke-width="1.5" />
+          <circle cx="1240" cy="120" r="170" stroke-width="1" stroke-opacity="0.22" />
+          <path d="M0 540c260-90 520-90 780 0s420 90 660 0" stroke-width="1" stroke-opacity="0.18" />
+        </g>
+      )
+    }
+
+    {/* pop — colour blocks, the fragrance palette */}
+    {
+      voice === 'pop' && (
+        <g>
+          <rect x="1140" y="0" width="300" height="230" fill="var(--ds-sky)" opacity="0.32" />
+          <circle cx="1030" cy="300" r="96" fill="var(--ds-accent)" opacity="0.22" />
+          <rect x="0" y="500" width="220" height="120" fill="var(--ds-sky)" opacity="0.14" />
+          <circle cx="300" cy="80" r="42" fill="var(--ds-accent)" opacity="0.16" />
+        </g>
+      )
+    }
+
+    {/* minimal — near-empty field, one hairline, one monogram ring */}
+    {
+      voice === 'minimal' && (
+        <g>
+          <circle cx="1250" cy="150" r="118" fill="none" stroke="var(--ds-deep)" stroke-opacity="0.22" stroke-width="1.5" />
+          <path d="M1192 150h116M1250 92v116" stroke="var(--ds-deep)" stroke-opacity="0.14" stroke-width="1" />
+          <path d="M0 566h1440" stroke="var(--ds-accent)" stroke-opacity="0.5" stroke-width="2" />
+        </g>
+      )
+    }
+  </svg>
+</div>
+
+<style>
+  .bfd { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+  .bfd svg { width: 100%; height: 100%; display: block; }
+</style>

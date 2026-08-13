@@ -9,6 +9,9 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import { postsBySupplier, postContent } from '../../data/blog';
+import BrandField from '../visual/BrandField.astro';
+import { coverProductsForShelf, coverPlan } from '../../data/cutouts';
+import BrandCover from '../visual/BrandCover.astro';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
 import dreamcosLogo from '../../assets/suppliers/dreamcos-logo.png';
 import santeHero from '../../assets/suppliers/sante/hero-serum.png';
@@ -85,12 +88,40 @@ const lineHref = (nm: string): string | null => {
 };
 const cat = t.categories.groups.find((g) => g.key === profile.category);
 const articles = [...postsBySupplier(profile.slug)].sort((a, b) => (a.hero ? 0 : 1) - (b.hero ? 0 : 1));
+/* Same covers as the blog listing, so an article looks identical wherever it is
+   shown. Product choice is driven by the Russian text in every language. */
+const articleCovers = new Map(
+  articles.map((post) => {
+    const r = postContent(post, 'ru');
+    const text = [r.title, r.excerpt, ...r.sections.flatMap((x) => [x.h ?? '', ...x.p])].join(' ');
+    return [post.slug, coverPlan(profile.slug, post.slug, post.hero, text)];
+  }),
+);
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
+/* The brand's own manner on top of our layout — motif, shapes, serif headings. */
+const voice = profile.voice ?? 'clinical';
+/* Up to four of the brand's own products for the hero shelf — cut-outs when we
+   have clean ones, otherwise nothing (a ragged edge would cheapen the header). */
+const shelf = coverProductsForShelf(profile.slug);
+
+/* One product photo per product line, matched to the catalog group by name — the
+   same loose match the line pages use, since the lines block often shortens the
+   name ("Acerola" vs "Acerola Dark Spot & Blemish Care"). */
+function lineShot(name: string): string | undefined {
+  const groups = profile.catalog ?? [];
+  const key = norm(name);
+  if (!key) return undefined;
+  const g =
+    groups.find((x) => norm(x.line) === key) ??
+    groups.find((x) => norm(x.line).startsWith(key) || key.startsWith(norm(x.line)));
+  return g?.items.find((i) => i.img)?.img;
+}
 ---
 
-<article class="sp" style={brandStyle}>
+<article class={`sp sp--${voice}`} style={brandStyle}>
   <!-- HERO -->
   <section class="sp-hero">
+    <BrandField voice={voice} seed={profile.slug} />
     <div class="wrap">
       <nav class="sp-crumbs" aria-label="breadcrumb">
         <a href={localizePath('/catalog', lang)}>{t.nav.catalog}</a>
@@ -120,6 +151,19 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
             <figure class="sp-hero__photo">
               <Image src={m.hero} alt={`${profile.brand} — ${c.descriptor}`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
             </figure>
+            {shelf.length > 0 && (
+              /* A short shelf of the brand's own products under the photo: the
+                 page says "supplier profile" in words and shows it at a glance. */
+              <div class="sp-hero__shelf" aria-hidden="true">
+                {shelf.map((src) => (
+                  /* sized inline: the tag comes from an expression, so neither the
+                     scoped rule nor the global img rule reaches it reliably */
+                  <span class="sp-hero__item">
+                    <img src={src} alt="" loading="eager" decoding="async" />
+                  </span>
+                ))}
+              </div>
+            )}
           </aside>
         )}
       </div>
@@ -167,9 +211,17 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
           const El = href ? 'a' : 'article';
           return (
             <El class:list={['sp-line', href && 'sp-line--link']} href={href ?? undefined}>
-              <span class="sp-line__ic" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
-              </span>
+              {lineShot(l.name) ? (
+                /* A real product from that very line — the card stops being a
+                   generic droplet icon and starts showing what is being sold. */
+                <span class="sp-line__shot" aria-hidden="true">
+                  <img src={lineShot(l.name)} alt="" loading="lazy" decoding="async" />
+                </span>
+              ) : (
+                <span class="sp-line__ic" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
+                </span>
+              )}
               <h3 class="sp-line__nm">{l.name}</h3>
               <p class="sp-line__note">{l.note}</p>
               {href && <span class="sp-line__more">{c.ui.more}</span>}
@@ -330,9 +382,21 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
             return (
               <a class="sp-article" href={localizePath(`/blog/${post.slug}`, lang)}>
                 <span class="sp-article__img">
-                  {post.hero
-                    ? <img src={post.hero} alt={ac.title} loading="lazy" decoding="async" />
-                    : <svg class="sp-article__ph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>}
+                  {articleCovers.get(post.slug)?.products.length ? (
+                    <BrandCover
+                      products={articleCovers.get(post.slug)!.products}
+                      mode={articleCovers.get(post.slug)!.mode === 'cards' ? 'cards' : 'float'}
+                      seed={post.slug}
+                      deep={profile.brandColors.deep}
+                      sky={profile.brandColors.sky}
+                      accent={profile.brandColors.accent}
+                      bg={profile.brandColors.bg}
+                    />
+                  ) : post.hero ? (
+                    <img src={post.hero} alt={ac.title} loading="lazy" decoding="async" />
+                  ) : (
+                    <svg class="sp-article__ph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5s6 6.8 6 11.2A6 6 0 0 1 6 13.7C6 9.3 12 2.5 12 2.5Z"/></svg>
+                  )}
                 </span>
                 <span class="sp-article__txt">
                   <span class="sp-article__cat">{post.category === 'guide' ? t.pages.blog.cat_guide : t.pages.blog.cat_overview}</span>
@@ -394,14 +458,26 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
 <style>
   .sp { --ds-deep: #12306e; --ds-sky: #4ca6fc; --ds-accent: #ff2552; --ds-bg: #f3f8ff; background: #fff; color: #16233d; }
 
+  /* ---- the brand's manner ----
+     One layout, seven registers. Each supplier's page borrows the shape
+     language of its own brand: rounder or squarer cards, serif or grotesque
+     headings, a quieter or louder accent. Values, not new components. */
+  .sp { --ds-r: 14px; --ds-head: inherit; --ds-track: -0.03em; }
+  .sp--natural { --ds-r: 22px; }
+  .sp--soft { --ds-r: 26px; }
+  .sp--playful { --ds-r: 24px; }
+  .sp--premium { --ds-r: 4px; --ds-head: Georgia, 'Times New Roman', serif; --ds-track: -0.01em; }
+  .sp--minimal { --ds-r: 2px; --ds-head: Georgia, 'Times New Roman', serif; --ds-track: 0; }
+  .sp--pop { --ds-r: 18px; --ds-track: -0.04em; }
+
   /* ---- HERO ---- */
   .sp-hero {
     position: relative; padding: clamp(30px, 6vw, 60px) 0 clamp(40px, 6vw, 72px);
-    background:
-      radial-gradient(120% 90% at 82% -10%, color-mix(in srgb, var(--ds-sky) 22%, transparent), transparent 60%),
-      linear-gradient(180deg, var(--ds-bg), #fff 78%);
+    background: linear-gradient(180deg, var(--ds-bg), #fff 82%);
     border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0);
   }
+  /* the drawn field sits under the content, never over it */
+  .sp-hero > .wrap { position: relative; z-index: 1; }
   .sp-crumbs { display: flex; align-items: center; gap: 9px; font-size: 0.84rem; font-weight: 600; color: #5a6a80; margin-bottom: clamp(20px, 3vw, 34px); }
   .sp-crumbs a { color: var(--ds-deep); }
   .sp-crumbs a:hover { color: var(--ds-sky); }
@@ -415,7 +491,7 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-eyebrow::before { content: ''; width: 24px; height: 2px; background: currentColor; border-radius: 2px; }
   .sp-logo { margin: 0 0 20px; }
   .sp-logo :global(img) { width: auto; height: clamp(52px, 7vw, 74px); }
-  .sp-name { font-size: clamp(1.9rem, 4.4vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; color: var(--ds-deep); }
+  .sp-name { font-family: var(--ds-head); font-size: clamp(1.9rem, 4.4vw, 3rem); font-weight: 800; letter-spacing: var(--ds-track); line-height: 1.05; color: var(--ds-deep); }
   .sp-tagline { font-size: clamp(1.05rem, 2vw, 1.28rem); font-weight: 600; font-style: italic; color: var(--ds-sky); margin-top: 12px; }
   .sp-descriptor { font-size: 1.02rem; color: #45576f; margin-top: 8px; }
 
@@ -429,7 +505,18 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-status--visited .dot { background: #15916c; }
   .sp-origin { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; font-weight: 600; color: #45576f; }
 
-  .sp-hero__art { display: grid; place-items: center; }
+  /* The art column must not grow past the photo, or the shelf squeezes the
+     headline into a narrow ribbon on mid-width screens. */
+  .sp-hero__art { display: grid; place-items: center; gap: 18px; width: min(440px, 42vw); }
+  .sp-hero__shelf { display: flex; align-items: flex-end; justify-content: center; gap: clamp(8px, 1.6vw, 18px); width: 100%; }
+  .sp-hero__item { display: grid; place-items: center; }
+  /* Height set directly, not as a percentage: the shelf has no fixed-height
+     ancestor to resolve a percentage against, so `height: 100%` fell back to the
+     image's natural 800px and punched through the section below. */
+  .sp-hero__item :global(img) {
+    height: clamp(56px, 7.4vw, 96px); width: auto; max-width: none; object-fit: contain;
+    filter: drop-shadow(0 8px 12px color-mix(in srgb, var(--ds-deep) 26%, transparent));
+  }
   .sp-hero__photo { margin: 0; }
   .sp-hero__photo :global(img) {
     width: clamp(300px, 34vw, 440px); height: auto; border-radius: 22px;
@@ -493,7 +580,7 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
   .sp-certs__note { font-size: 0.82rem; color: #5a6a80; line-height: 1.55; margin-top: 14px; }
 
   .sp-articles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 8px; }
-  .sp-article { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
+  .sp-article { border-radius: var(--ds-r); display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
   .sp-article:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 14%, transparent); }
   .sp-article__img { display: flex; justify-content: center; align-items: center; background: linear-gradient(160deg, color-mix(in srgb, var(--ds-sky) 14%, #fff), #fff 80%); padding: 20px; min-height: 160px; }
   .sp-article__img img { max-height: 160px; max-width: 100%; width: auto; object-fit: contain; }
@@ -533,11 +620,18 @@ const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.bra
 
   /* lines */
   .sp-lines { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  .sp-line { background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #e2e8f0); border-radius: 16px; padding: 24px; box-shadow: 0 1px 2px rgba(11, 27, 53, 0.04); transition: transform .2s var(--ease), box-shadow .2s; }
+  .sp-line { border-radius: var(--ds-r); background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #e2e8f0); border-radius: 16px; padding: 24px; box-shadow: 0 1px 2px rgba(11, 27, 53, 0.04); transition: transform .2s var(--ease), box-shadow .2s; }
   .sp-line:hover { transform: translateY(-3px); box-shadow: 0 14px 34px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
   .sp-line--link { cursor: pointer; }
   .sp-line--link:hover { border-color: color-mix(in srgb, var(--ds-sky) 55%, transparent); }
   .sp-line__more { margin-top: 12px; font-size: 0.82rem; font-weight: 700; color: var(--ds-sky); }
+  .sp-line__shot {
+    display: grid; place-items: center; width: 84px; height: 84px; margin-bottom: 14px;
+    border-radius: calc(var(--ds-r) * 0.8);
+    background: radial-gradient(circle at 40% 30%, #fff, color-mix(in srgb, var(--ds-bg) 88%, #fff));
+    border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, transparent);
+  }
+  .sp-line__shot img { width: 86%; height: 86%; object-fit: contain; mix-blend-mode: multiply; }
   .sp-line__ic { width: 40px; height: 40px; border-radius: 11px; display: grid; place-items: center; color: var(--ds-sky); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); margin-bottom: 14px; }
   .sp-line__ic svg { width: 22px; height: 22px; }
   .sp-line__nm { font-size: 1.12rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }

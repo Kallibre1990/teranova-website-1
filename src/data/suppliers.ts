@@ -196,6 +196,18 @@ export interface SupplierProfile {
   visitDate?: string;
   visitGallery?: string[];
   brandColors: { deep: string; sky: string; accent: string; bg: string };
+  /* How the brand carries itself, taken from its own site and packaging. Our
+     layout stays the same everywhere; this decides the accents on top of it —
+     shape language, background motif, and whether headings run serif. So a
+     buyer arriving from the brand's own site recognises it on our page.
+       clinical — professional / lab (Dr.SANTE, DermaRegeon, cellmedics)
+       natural  — plant, cica, vegan (LEBELAGE, LICORNE)
+       soft     — home care, pastel (RAVIEL)
+       playful  — young, bright (KIFT)
+       premium  — warm, gold, aesthetic (THREE DAYS LOVE)
+       pop      — colour-block, fragrance (DUFT&DOFT / Dreamcos group)
+       minimal  — white space, serif, monogram (tom-tit-tot) */
+  voice?: 'clinical' | 'natural' | 'soft' | 'playful' | 'premium' | 'pop' | 'minimal';
   /* Real product catalog grouped by line, with photos, volume, price, certs. Language-neutral. */
   catalog?: { line: string; items: { name: string; img: string; volume?: string; price?: string; certs?: string[] }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
@@ -490,6 +502,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'Dr.SANTE',
     status: 'provided',
     brandColors: { deep: '#12306e', sky: '#4ca6fc', accent: '#ff2552', bg: '#f3f8ff' },
+    voice: 'clinical',
     catalog: santeCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'MoCRA', 'CPNP', 'HALAL', 'NMPA', 'SCPN', 'DAV'],
     termsFile: {
@@ -542,7 +555,8 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/dreamcos/visit/visit-7.jpg',
       '/img/suppliers/dreamcos/visit/visit-8.jpg',
     ],
-    brandColors: { deep: '#23232b', sky: '#3a3a44', accent: '#c9a15f', bg: '#f7f5f2' },
+    brandColors: { deep: '#1c1c22', sky: '#f2c500', accent: '#ff4d8d', bg: '#fdf7e6' },
+    voice: 'pop',
     catalog: dreamcosCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['ISO 9001', 'ISO 22716 (GMP)', 'CPNP', 'CPSR', 'FSC'],
     termsFile: {
@@ -595,6 +609,7 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/dongdonggurimoo/visit/visit-8.jpg',
     ],
     brandColors: { deep: '#1f5945', sky: '#4e9c7f', accent: '#d4a373', bg: '#f2f7f4' },
+    voice: 'natural',
     catalog: dongdonggurimooCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: ['MoCRA', 'EU CPNP', 'UK SCPN', 'NMPA'],
     termsFile: {
@@ -657,6 +672,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'DermaRegeon',
     status: 'provided',
     brandColors: { deep: '#10353f', sky: '#2e7d8f', accent: '#4fbfae', bg: '#eff7f7' },
+    voice: 'clinical',
     catalog: ckRegeonCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/ck-regeon-terms-ru.pdf',
@@ -717,7 +733,8 @@ export const suppliers: SupplierProfile[] = [
     name: 'JETSGLOBAL',
     brand: 'TOM-TIT-TOT',
     status: 'provided',
-    brandColors: { deep: '#2b2e3a', sky: '#7a7f95', accent: '#c19a5b', bg: '#f5f3ef' },
+    brandColors: { deep: '#26282f', sky: '#9aa0ad', accent: '#f2621f', bg: '#f6f4f0' },
+    voice: 'minimal',
     catalog: jetsglobalCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/jetsglobal-terms-ru.pdf', en: '/docs/jetsglobal-terms-en.pdf', ko: '/docs/jetsglobal-terms-ko.pdf', zh: '/docs/jetsglobal-terms-zh.pdf', ja: '/docs/jetsglobal-terms-ja.pdf', it: '/docs/jetsglobal-terms-it.pdf', de: '/docs/jetsglobal-terms-de.pdf', fr: '/docs/jetsglobal-terms-fr.pdf', tr: '/docs/jetsglobal-terms-tr.pdf', es: '/docs/jetsglobal-terms-es.pdf', pt: '/docs/jetsglobal-terms-pt.pdf',
@@ -759,7 +776,8 @@ export const suppliers: SupplierProfile[] = [
     name: 'PINE WORLD',
     brand: 'RAVIEL',
     status: 'provided',
-    brandColors: { deep: '#3d2c39', sky: '#9a8290', accent: '#c68aa6', bg: '#f8f2f5' },
+    brandColors: { deep: '#4a3350', sky: '#b48fc4', accent: '#e08bb0', bg: '#f9f3f8' },
+    voice: 'soft',
     catalog: pineworldCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/pineworld-terms-ru.pdf', en: '/docs/pineworld-terms-en.pdf', ko: '/docs/pineworld-terms-ko.pdf', zh: '/docs/pineworld-terms-zh.pdf', ja: '/docs/pineworld-terms-ja.pdf', it: '/docs/pineworld-terms-it.pdf', de: '/docs/pineworld-terms-de.pdf', fr: '/docs/pineworld-terms-fr.pdf', tr: '/docs/pineworld-terms-tr.pdf', es: '/docs/pineworld-terms-es.pdf', pt: '/docs/pineworld-terms-pt.pdf',
@@ -801,7 +819,8 @@ export const suppliers: SupplierProfile[] = [
     name: 'KIFT COMPANY',
     brand: 'KIFT',
     status: 'provided',
-    brandColors: { deep: '#14294d', sky: '#5b7fb0', accent: '#2f6fb0', bg: '#f1f6fb' },
+    brandColors: { deep: '#2a2350', sky: '#8f86e0', accent: '#f5c518', bg: '#f4f2fd' },
+    voice: 'playful',
     catalog: kiftCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/kift-terms-ru.pdf', en: '/docs/kift-terms-en.pdf', ko: '/docs/kift-terms-ko.pdf', zh: '/docs/kift-terms-zh.pdf', ja: '/docs/kift-terms-ja.pdf', it: '/docs/kift-terms-it.pdf', de: '/docs/kift-terms-de.pdf', fr: '/docs/kift-terms-fr.pdf', tr: '/docs/kift-terms-tr.pdf', es: '/docs/kift-terms-es.pdf', pt: '/docs/kift-terms-pt.pdf',
@@ -834,6 +853,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'cellmedics · KERASON',
     status: 'provided',
     brandColors: { deep: '#0e3b4a', sky: '#3c93a8', accent: '#17788f', bg: '#eef6f9' },
+    voice: 'clinical',
     catalog: icelmediCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/icelmedi-terms-ru.pdf', en: '/docs/icelmedi-terms-en.pdf', ko: '/docs/icelmedi-terms-ko.pdf', zh: '/docs/icelmedi-terms-zh.pdf', ja: '/docs/icelmedi-terms-ja.pdf', it: '/docs/icelmedi-terms-it.pdf', de: '/docs/icelmedi-terms-de.pdf', fr: '/docs/icelmedi-terms-fr.pdf', tr: '/docs/icelmedi-terms-tr.pdf', es: '/docs/icelmedi-terms-es.pdf', pt: '/docs/icelmedi-terms-pt.pdf',
@@ -866,6 +886,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'ThreeDaysLove · RETURN 10 · TIME 72 · EXOMERE',
     status: 'provided',
     brandColors: { deep: '#7a2415', sky: '#f0a184', accent: '#e0562e', bg: '#fdf0ea' },
+    voice: 'premium',
     catalog: tdlCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/three-days-love-terms-ru.pdf', en: '/docs/three-days-love-terms-en.pdf', ko: '/docs/three-days-love-terms-ko.pdf', zh: '/docs/three-days-love-terms-zh.pdf', ja: '/docs/three-days-love-terms-ja.pdf', it: '/docs/three-days-love-terms-it.pdf', de: '/docs/three-days-love-terms-de.pdf', fr: '/docs/three-days-love-terms-fr.pdf', tr: '/docs/three-days-love-terms-tr.pdf', es: '/docs/three-days-love-terms-es.pdf', pt: '/docs/three-days-love-terms-pt.pdf',
@@ -898,6 +919,7 @@ export const suppliers: SupplierProfile[] = [
     brand: 'LICORNE Cosmetics',
     status: 'provided',
     brandColors: { deep: '#2f5d3a', sky: '#a9d4b5', accent: '#4e9c6b', bg: '#eef7f0' },
+    voice: 'natural',
     catalog: licorneCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/licorne-terms-ru.pdf', en: '/docs/licorne-terms-en.pdf', ko: '/docs/licorne-terms-ko.pdf', zh: '/docs/licorne-terms-zh.pdf', ja: '/docs/licorne-terms-ja.pdf', it: '/docs/licorne-terms-it.pdf', de: '/docs/licorne-terms-de.pdf', fr: '/docs/licorne-terms-fr.pdf', tr: '/docs/licorne-terms-tr.pdf', es: '/docs/licorne-terms-es.pdf', pt: '/docs/licorne-terms-pt.pdf',

@@ -36,6 +36,22 @@ const LANGS = process.env.PDF_LANGS ? process.env.PDF_LANGS.split(',').filter((l
 
 const SIGN = 'Teranova Group · info@teranovagroup.com · teranovagroup.com · 2026';
 
+/* Brand colours and manner come from the site data, not from a second copy here:
+   the audit (D-404) already caught what happens when the same fact lives in two
+   files. Read src/data/suppliers.ts and let it win; the `colors` below survive
+   only as a fallback (they also carry `line`, which the site does not need). */
+function brandFromSite() {
+  const src = fs.readFileSync(path.join(ROOT, 'src/data/suppliers.ts'), 'utf8');
+  const re =
+    /slug: '([^']+)',[\s\S]{0,4000}?brandColors: \{ deep: '([^']+)', sky: '([^']+)', accent: '([^']+)', bg: '([^']+)' \},(?:\s*voice: '([^']+)',)?/g;
+  const out = {};
+  for (const [, slug, deep, sky, accent, bg, voice] of src.matchAll(re)) {
+    out[slug] = { deep, sky, accent, bg, voice };
+  }
+  return out;
+}
+const SITE_BRAND = brandFromSite();
+
 /* Русские подписи дека для поставщиков, у которых ru-копия лежит inline
    (sante, dreamcos) — в их ruPres.ui есть только заголовки разделов. */
 const RU_UI = {
@@ -431,6 +447,12 @@ if (only && targets.length === 0) { console.error(`Unknown supplier id: ${only}`
 
 let n = 0;
 for (const cfg of targets) {
+  /* Site palette wins, so a colour changed on the website reaches the PDFs too. */
+  const site = SITE_BRAND[cfg.id];
+  if (site) {
+    cfg.colors = { ...cfg.colors, deep: site.deep, sky: site.sky, accent: site.accent, bg: site.bg };
+    cfg.voice = site.voice;
+  }
   const priceLines = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.price.json`), 'utf8'));
   process.stdout.write(`\n${cfg.id}:`);
   for (const lang of LANGS) {

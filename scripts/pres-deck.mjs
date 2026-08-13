@@ -22,11 +22,63 @@ function shade(hex, f) {
 const chips = (arr, cls = 'chip') =>
   (arr || []).map((t) => `<span class="${cls}">${esc(t)}</span>`).join('');
 
-function deckCSS(C) {
+/* Мотив обложки в манере самого бренда — тот же язык форм, что и на его странице
+   сайта (см. voice в src/data/suppliers.ts и BrandField.astro). Рисуется поверх
+   фирменного градиента, поэтому дек узнаётся как принадлежащий этому бренду. */
+function coverArt(voice, sky, accent) {
+  const g = (inner) =>
+    `<svg class="cover__art" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">${inner}</svg>`;
+  switch (voice) {
+    case 'natural':
+      return g(
+        `<path d="M600 -40c90-20 180 40 190 120 10 80-60 150-145 155-85 5-155-50-163-120-8-70 28-135 118-155Z" fill="${sky}" opacity=".22"/>` +
+          `<path d="M40 430c60-46 130-28 146 20 16 48-28 96-89 92-61-4-91-44-57-112Z" fill="${sky}" opacity=".12"/>`,
+      );
+    case 'soft':
+      return g(
+        `<circle cx="640" cy="70" r="170" fill="${sky}" opacity=".2"/><circle cx="740" cy="250" r="105" fill="${accent}" opacity=".16"/>`,
+      );
+    case 'playful':
+      return g(
+        `<circle cx="660" cy="80" r="140" fill="${sky}" opacity=".24"/><circle cx="540" cy="240" r="38" fill="${accent}" opacity=".5"/>` +
+          `<circle cx="742" cy="300" r="22" fill="${accent}" opacity=".35"/>`,
+      );
+    case 'premium':
+      return g(
+        `<g fill="none" stroke="${accent}" stroke-opacity=".38"><circle cx="660" cy="70" r="180" stroke-width="1.4"/>` +
+          `<circle cx="660" cy="70" r="126" stroke-width="1" stroke-opacity=".26"/></g>`,
+      );
+    case 'pop':
+      return g(
+        `<rect x="600" y="0" width="200" height="150" fill="${sky}" opacity=".4"/><circle cx="560" cy="210" r="70" fill="${accent}" opacity=".3"/>`,
+      );
+    case 'minimal':
+      return g(
+        `<circle cx="660" cy="86" r="76" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="1.4"/>` +
+          `<path d="M622 86h76M660 48v76" stroke="#fff" stroke-opacity=".2" stroke-width="1"/>`,
+      );
+    default: // clinical — сетка и крест
+      return g(
+        `<defs><pattern id="pg" width="40" height="40" patternUnits="userSpaceOnUse">` +
+          `<path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1"/></pattern></defs>` +
+          `<rect width="800" height="520" fill="url(#pg)"/>` +
+          `<g stroke="#fff" stroke-opacity=".22" fill="none" stroke-width="1.6"><path d="M636 74h44M658 52v44"/>` +
+          `<circle cx="658" cy="74" r="38" stroke-opacity=".14"/></g>`,
+      );
+  }
+}
+
+function deckCSS(C, voice) {
   const deep = C.deep || '#12306e';
   const sky = C.sky || '#4ca6fc';
   const bg = C.bg || '#f4f7fb';
   const line = C.line || '#e6ebf3';
+  const accent = C.accent || sky;
+  /* Та же логика, что на сайте: минимализм и премиум идут с засечным заголовком
+     и почти прямым углом, органика и «поп» — с крупным скруглением. */
+  const serif = voice === 'minimal' || voice === 'premium';
+  const headFont = serif ? `Georgia, "Times New Roman", serif` : 'inherit';
+  const radius = voice === 'minimal' ? '0.6mm' : voice === 'premium' ? '1mm' : voice === 'soft' || voice === 'natural' ? '5mm' : '3mm';
   return `
   @page { size: A4; margin: 0; }
   * { box-sizing: border-box; }
@@ -89,6 +141,13 @@ function deckCSS(C) {
   .cta .d { font-size: 9.5pt; color: #48525f; margin-top: 2mm; line-height: 1.55; }
   .foot { margin-top: auto; padding-top: 5mm; display: flex; justify-content: space-between;
           font-size: 7.5pt; color: #98a1ad; border-top: 1px solid ${line}; }
+
+  /* ── манера бренда: идёт последней, поэтому перекрывает базовые правила ── */
+  .cover__art { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .cover__t, .cover__ph { position: relative; z-index: 1; }
+  .cover h1, h2 { font-family: ${headFont}; }
+  .card, .prod__ph { border-radius: ${radius}; }
+  .rule { background: ${accent}; }
 `;
 }
 
@@ -118,6 +177,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
   /* 1. Обложка */
   P.push(`
   <div class="page cover">
+    ${coverArt(cfg.voice, cfg.colors?.sky || '#4ca6fc', cfg.colors?.accent || '#ffffff')}
     <div class="cover__t">
       <div class="eyebrow">Teranova · ${esc(u.profile_sup || 'Supplier profile')}</div>
       <h1>${esc(cfg.brand)}</h1>
@@ -177,5 +237,5 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
        <div class="d" style="font-weight:700">Teranova Group · info@teranovagroup.com · teranovagroup.com</div></div>`));
 
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8">
-    <style>${deckCSS(cfg.colors || {})}</style></head><body>${P.join('')}</body></html>`;
+    <style>${deckCSS(cfg.colors || {}, cfg.voice)}</style></head><body>${P.join('')}</body></html>`;
 }

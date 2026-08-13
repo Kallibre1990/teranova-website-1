@@ -1,9 +1,16 @@
 ---
-/* Blog index — listing of articles as cards, Teranova brand style. */
+/* Blog index — listing of articles as cards, Teranova brand style.
+   Each card leads with its cover: the supplier's own products staged in the
+   brand's colours (BrandCover), or the drawn cover when we have no clean
+   cut-outs for that supplier. A wall of text does not get opened. */
 import PageHead from './PageHead.astro';
 import { localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { postsByDate, postContent } from '../../data/blog';
+import { supplierBySlug } from '../../data/suppliers';
+import { coverPlan, type CoverPlan } from '../../data/cutouts';
+import BrandCover from '../visual/BrandCover.astro';
+import BlogHeroArt from '../visual/BlogHeroArt.astro';
 interface Props {
   lang: Lang;
 }
@@ -11,6 +18,16 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.blog;
 const catLabel = (c: string) => (c === 'guide' ? p.cat_guide : p.cat_overview);
+
+/* Same choice of products as the article page, so the card and the page agree. */
+const covers = new Map<string, { sup: ReturnType<typeof supplierBySlug>; plan: CoverPlan }>();
+for (const post of postsByDate) {
+  const sup = post.supplier ? supplierBySlug(post.supplier) : undefined;
+  if (!sup) continue;
+  const r = postContent(post, 'ru');
+  const text = [r.title, r.excerpt, ...r.sections.flatMap((s) => [s.h ?? '', ...s.p])].join(' ');
+  covers.set(post.slug, { sup, plan: coverPlan(sup.slug, post.slug, post.hero, text) });
+}
 ---
 
 <PageHead sup={t.nav.blog} title={p.title} sub={p.sub} />
@@ -21,12 +38,34 @@ const catLabel = (c: string) => (c === 'guide' ? p.cat_guide : p.cat_overview);
       {
         postsByDate.map((post) => {
           const c = postContent(post, lang);
+          const cover = covers.get(post.slug);
+          const b = cover?.sup?.brandColors;
           return (
             <a class="blog-card" href={localizePath(`/blog/${post.slug}`, lang)}>
-              <span class="blog-card__cat">{catLabel(post.category)}</span>
-              <h2 class="blog-card__title">{c.title}</h2>
-              <p class="blog-card__excerpt">{c.excerpt}</p>
-              <span class="blog-card__more">{p.read_more} →</span>
+              <span class="blog-card__cover">
+                {b && cover!.plan.products.length ? (
+                  <BrandCover
+                    products={cover!.plan.products}
+                    mode={cover!.plan.mode === 'cards' ? 'cards' : 'float'}
+                    seed={post.slug}
+                    deep={b.deep}
+                    sky={b.sky}
+                    accent={b.accent}
+                    bg={b.bg}
+                    label={cover!.sup!.brand}
+                  />
+                ) : b ? (
+                  <BlogHeroArt slug={post.slug} variant={post.category} deep={b.deep} sky={b.sky} accent={b.accent} />
+                ) : (
+                  <BlogHeroArt slug={post.slug} variant={post.category} />
+                )}
+              </span>
+              <span class="blog-card__body">
+                <span class="blog-card__cat">{catLabel(post.category)}</span>
+                <h2 class="blog-card__title">{c.title}</h2>
+                <p class="blog-card__excerpt">{c.excerpt}</p>
+                <span class="blog-card__more">{p.read_more} →</span>
+              </span>
             </a>
           );
         })
@@ -38,12 +77,17 @@ const catLabel = (c: string) => (c === 'guide' ? p.cat_guide : p.cat_overview);
 <style>
   .blog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .blog-card {
-    display: flex; flex-direction: column;
+    display: flex; flex-direction: column; overflow: hidden;
     background: #fff; border: 1px solid #e4ebf3; border-radius: var(--r, 14px);
-    padding: 26px 28px; box-shadow: 0 1px 2px rgba(18,48,110,.05);
+    box-shadow: 0 1px 2px rgba(18,48,110,.05);
     transition: transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s;
   }
   .blog-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(18,48,110,.12); border-color: color-mix(in srgb, var(--cobalt) 40%, #e4ebf3); }
+  /* The cover sits flush with the card edges; its own rounding is squared off at
+     the top so it reads as one object with the card. */
+  .blog-card__cover { display: block; }
+  .blog-card__cover :global(> *) { border-radius: 0; }
+  .blog-card__body { display: flex; flex-direction: column; flex: 1; padding: 22px 26px 24px; }
   .blog-card__cat {
     align-self: flex-start; font-size: 0.68rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
     color: var(--cobalt); background: color-mix(in srgb, var(--cobalt) 9%, #fff);
