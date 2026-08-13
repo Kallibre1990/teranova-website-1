@@ -104,17 +104,48 @@ const voice = profile.voice ?? 'clinical';
    have clean ones, otherwise nothing (a ragged edge would cheapen the header). */
 const shelf = coverProductsForShelf(profile.slug);
 
-/* One product photo per product line, matched to the catalog group by name — the
-   same loose match the line pages use, since the lines block often shortens the
-   name ("Acerola" vs "Acerola Dark Spot & Blemish Care"). */
+/* One product photo per product line. The lines block and the catalog groups
+   name the same line differently often enough that an exact match leaves cards
+   empty ("Multi-Solution" vs "Multi-Solution Line", "Acerola" vs "Acerola Dark
+   Spot & Blemish Care"), so widen the search step by step and stop at the first
+   hit: the group, then any product whose own name carries the line. */
 function lineShot(name: string): string | undefined {
   const groups = profile.catalog ?? [];
   const key = norm(name);
   if (!key) return undefined;
-  const g =
+
+  const byGroup =
     groups.find((x) => norm(x.line) === key) ??
-    groups.find((x) => norm(x.line).startsWith(key) || key.startsWith(norm(x.line)));
-  return g?.items.find((i) => i.img)?.img;
+    groups.find((x) => norm(x.line).includes(key) || key.includes(norm(x.line)));
+  const own = byGroup?.items.find((i) => i.img)?.img;
+  if (own) return own;
+
+  /* No group by that name — the line may still be present as products. */
+  for (const g of groups) {
+    const hit = g.items.find((i) => i.img && norm(i.name).includes(key));
+    if (hit) return hit.img;
+  }
+
+  /* Last resort: match on the words that carry meaning. KIFT lists its lines as
+     "All-in-One Serum / Cream / Mask / Soap" while the catalog spells the same
+     products out as "Multi-Solution Face & Eye Serum" — one shared word is
+     enough to show the right kind of product. A line named after a brand
+     (LEBELAGE, HEEYUL) matches nothing here on purpose: we do not know which
+     bottle belongs to which brand, and guessing would put a wrong product under
+     a brand name. */
+  const GENERIC = new Set(['all', 'one', 'line', 'care', 'the', 'and', 'for', 'skin', 'premium', 'daily']);
+  const words = key.split(' ').filter((w) => w.length > 2 && !GENERIC.has(w));
+  if (!words.length) return undefined;
+  let best: { img: string; score: number } | undefined;
+  for (const g of groups) {
+    for (const i of g.items) {
+      if (!i.img) continue;
+      const hay = `${norm(g.line)} ${norm(i.name)}`;
+      const score = words.filter((w) => hay.includes(w)).length;
+      if (score && (!best || score > best.score)) best = { img: i.img, score };
+    }
+  }
+  return best?.img;
 }
 ---
 
