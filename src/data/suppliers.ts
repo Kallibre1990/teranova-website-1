@@ -10,7 +10,7 @@
    visit); origin "Korea" only (no city); no invented metrics or unverified certs;
    no supplier personal contacts (contact via Teranova). All copy from the supplier's
    own site/catalog. */
-import type { CategoryKey } from './site';
+import type { CategoryKey, CountryKey } from './site';
 import type { Lang } from '../i18n/ui';
 import santeEn from './suppliers-i18n/sante.en.json';
 import santeKo from './suppliers-i18n/sante.ko.json';
@@ -190,6 +190,10 @@ export interface SupplierContent {
 export interface SupplierProfile {
   slug: string;
   category: CategoryKey;
+  /* Where the supplier manufactures. The catalog splits by country before it
+     splits by category. Omitted means Korea — that is where the platform
+     started and where every supplier published before August 2026 sits. */
+  country?: CountryKey;
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';

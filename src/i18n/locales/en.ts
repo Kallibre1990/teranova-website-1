@@ -71,6 +71,25 @@ export const en: UIDict = {
     link: 'How we verify',
   },
 
+  countries: {
+    sup: 'Countries',
+    title: 'Where we source from',
+    sub: 'We work where we stand. Korea from the start; China opened in August 2026.',
+    open: 'Open this origin',
+    empty: 'This origin is open — the first suppliers will appear here.',
+    list: [
+      {
+        key: 'kr',
+        name: 'Korea',
+        blurb: 'Cosmetics and OEM/ODM, medical and aesthetics, marine supply. Here we run the whole path: choosing the factory, the formula, samples and the paperwork for your market.',
+      },
+      {
+        key: 'cn',
+        name: 'China',
+        blurb: 'Industrial equipment and machinery. Opened in August 2026: we check these factories the way we check Korean ones, and we carry the deal through to delivery.',
+      },
+    ],
+  },
   categories: {
     lead_why_t: 'Why this direction comes first',
     lead_why_d: 'Korea is the world hub of cosmetics manufacturing. In 2025 its cosmetics exports grew 12.3% to $11.4 billion and reached 202 countries — figures from the Korean Ministry of Food and Drug Safety. Here we run the whole path: factory selection, formulation, samples, paperwork for your market.',

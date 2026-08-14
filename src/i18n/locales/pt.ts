@@ -71,6 +71,25 @@ export const pt: UIDict = {
     link: 'Como verificamos',
   },
 
+  countries: {
+    sup: 'Países',
+    title: 'De onde fornecemos',
+    sub: 'Trabalhamos onde estamos presentes. Coreia desde o início; China aberta em agosto de 2026.',
+    open: 'Abrir esta origem',
+    empty: 'Origem aberta — os primeiros fornecedores aparecerão aqui.',
+    list: [
+      {
+        key: 'kr',
+        name: 'Coreia',
+        blurb: 'Cosméticos e OEM/ODM, medicina e estética, suprimento naval. Aqui conduzimos todo o caminho: escolha da fábrica, formulação, amostras e documentos para o seu mercado.',
+      },
+      {
+        key: 'cn',
+        name: 'China',
+        blurb: 'Equipamentos e máquinas industriais. Aberta em agosto de 2026: verificamos essas fábricas como verificamos as coreanas e acompanhamos a operação até a entrega.',
+      },
+    ],
+  },
   categories: {
     lead_why_t: 'Por que esta área vem primeiro',
     lead_why_d: 'A Coreia é o centro mundial da fabricação de cosméticos. Em 2025, suas exportações cresceram 12,3% e chegaram a US$ 11,4 bilhões, alcançando 202 países — dados do Ministério da Segurança Alimentar e Farmacêutica da Coreia. Aqui conduzimos todo o percurso: seleção da fábrica, formulação, amostras e documentação para o seu mercado.',
