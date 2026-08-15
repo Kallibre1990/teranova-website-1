@@ -238,6 +238,14 @@ const PRICE_H = {
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+/* Цена на коммерческом документе печатается с двумя знаками: «3.00», а не «3.0»
+   и не «23». В данных лежит и «9.75», и «3.6», и «23» — все три верны по смыслу,
+   но в одной таблице выглядят неряшливо. Правим только чистые числа: значения
+   вроде «US$ 7.50 EXW» или «REQUEST» отдаём как есть. */
+const money = (v) => (/^\d+(\.\d+)?$/.test(String(v).trim())
+  ? Number(String(v).trim()).toFixed(2)
+  : String(v));
+
 function termsData(cfg, lang) {
   /* Older suppliers keep their ru copy inline (ruTerms); newer ones ship a <slug>.ru.json
      alongside the other locales, so every language reads the same way. */
@@ -296,7 +304,7 @@ function priceHTML(cfg, lang, priceLines) {
     body += `<tr class="grp"><td colspan="3">${esc(grp.line)}</td></tr>`;
     for (const it of grp.items) {
       const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta' };
-      const priceCell = it.price === 'REQUEST' ? `<span class="req">${esc(REQ[lang])}</span>` : `$${esc(it.price)}`;
+      const priceCell = it.price === 'REQUEST' ? `<span class="req">${esc(REQ[lang])}</span>` : `$${esc(money(it.price))}`;
       body += `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume)}</td><td class="pr">${priceCell}</td></tr>`;
     }
   }
@@ -423,7 +431,13 @@ async function toPDF(html, outfile) {
   const tmp = path.join(os.tmpdir(), `spdf-${Math.abs(hash(outfile))}.html`);
   fs.writeFileSync(tmp, html);
   try { fs.unlinkSync(outfile); } catch { /* first run */ }
-  const ch = spawn(CHROME, [...CHROME_ARGS, `--print-to-pdf=${outfile}`, `file://${tmp}`], { stdio: 'ignore' });
+  /* detached: свой process group, чтобы ниже убить Chrome со всеми его
+     потомками. Прежде SIGKILL уходил только родителю, а вспомогательные
+     процессы оставались жить: один такой провисел двое суток и продолжал
+     дописывать PDF, из-за чего часть документов оставалась без водяного знака
+     и с чужими свойствами — правки выглядели как случайно откатившиеся. */
+  const ch = spawn(CHROME, [...CHROME_ARGS, `--print-to-pdf=${outfile}`, `file://${tmp}`],
+    { stdio: 'ignore', detached: true });
   const t0 = Date.now();
   let last = -1, stable = 0, ok = false;
   while (Date.now() - t0 < 25000) {
@@ -434,6 +448,7 @@ async function toPDF(html, outfile) {
       last = sz;
     }
   }
+  try { process.kill(-ch.pid, 'SIGKILL'); } catch { /* группа уже мертва */ }
   try { ch.kill('SIGKILL'); } catch { /* already gone */ }
   await sleep(120);
   fs.unlinkSync(tmp);
@@ -467,3 +482,17 @@ for (const cfg of targets) {
 }
 fs.rmSync(PROF, { recursive: true, force: true });
 console.log(`\nГотово: ${n} PDF в ${path.relative(ROOT, OUT)}/`);
+
+/* Водяной знак — обязательная часть конвейера, а не отдельный шаг «на потом».
+   Chrome печатает документ без знака и с грязными свойствами; забыть второй шаг
+   значит выложить прайс без знака и заново засорить историю репозитория
+   меняющейся датой. Поэтому вызываем сами. Скрипт идемпотентен: повторный
+   прогон не двоит знак. */
+await new Promise((resolve, reject) => {
+  const args = ['scripts/watermark_pdfs.py', ...(only ? [only] : [])];
+  const wm = spawn('python3', args, { cwd: ROOT, stdio: 'inherit' });
+  wm.on('exit', (code) => (code === 0
+    ? resolve()
+    : reject(new Error(`watermark_pdfs.py вышел с кодом ${code} — PDF остались без знака`))));
+  wm.on('error', reject);
+});

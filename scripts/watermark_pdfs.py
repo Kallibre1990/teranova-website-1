@@ -12,7 +12,7 @@
     python3 scripts/watermark_pdfs.py                 # все PDF в public/docs
     python3 scripts/watermark_pdfs.py licorne sante   # только эти slug'и
 """
-import sys, os, glob, re
+import sys, os, glob, re, hashlib
 
 import fitz  # PyMuPDF
 
@@ -36,6 +36,71 @@ ORIGINAL = {
 def lang_of(path):
     m = re.search(r'-([a-z]{2})\.pdf$', os.path.basename(path))
     return m.group(1) if m and m.group(1) in ORIGINAL else 'en'
+
+
+KIND = {'terms': 'Terms of cooperation', 'price': 'Price list', 'presentation': 'Presentation'}
+
+
+def clean_meta(doc, path):
+    """Свойства документа: осмысленные и одинаковые от прогона к прогону.
+
+    Что чинит. Первое — вид: Chrome оставлял в заголовке имя своего временного
+    файла («spdf-1969458932.html»), в авторе — HeadlessChrome. Покупатель,
+    открывший свойства нашего прайса, видел кухню.
+
+    Второе, и это важнее. Chrome ставит дату печати, поэтому две сборки одного
+    и того же документа отличались ровно на 73 байта даты — и git считал
+    изменившимися все 330 файлов при каждой пересборке, даже когда не менялось
+    ничего. Так история репозитория доросла до 12 ГБ. Без дат одинаковый
+    документ даёт байт-в-байт одинаковый файл, и в историю попадает только
+    то, что действительно изменилось.
+
+    Дата документа здесь ничего не значит: прайсы ориентировочные, срок
+    действия оговорён в тексте условий.
+    """
+    base = os.path.basename(path)[:-4]
+    m = re.match(r'^(.+)-(terms|price|presentation)-([a-z]{2})$', base)
+    if m:
+        supplier = m.group(1).replace('-', ' ').upper()
+        title = f'Teranova Group · {supplier} · {KIND[m.group(2)]} ({m.group(3).upper()})'
+    else:
+        title = 'Teranova Group'
+    doc.set_metadata({
+        'title': title, 'author': 'Teranova Group', 'subject': '',
+        'keywords': '', 'creator': 'Teranova Group', 'producer': 'Teranova Group',
+        'creationDate': '', 'modDate': '',
+    })
+
+
+def stable_id(path):
+    """Сделать идентификатор файла производным от его содержимого.
+
+    В трейлере PDF лежит /ID[<A><B>]: A — идентификатор документа, B — версии.
+    Оба генерируются случайно при каждом сохранении, поэтому даже с убранными
+    датами две сборки одного и того же прайса давали разные байты, а git считал
+    файл изменившимся. Здесь оба значения заменяются хешем самого документа:
+    одинаковый документ — одинаковый идентификатор, изменённый — новый.
+
+    Длина строго сохраняется: /ID стоит после таблицы xref, но сдвиг байтов
+    сломал бы смещение startxref, поэтому подставляем ровно столько же символов.
+    """
+    raw = open(path, 'rb').read()
+    m = None
+    for m in re.finditer(rb'/ID\s*\[\s*<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>\s*\]', raw):
+        pass  # нужен последний — тот, что в трейлере
+    if not m:
+        return False
+    # хеш считаем от документа с обнулённым /ID, иначе он зависел бы сам от себя
+    blank = raw[:m.start(1)] + b'0' * len(m.group(1)) + raw[m.end(1):m.start(2)] \
+        + b'0' * len(m.group(2)) + raw[m.end(2):]
+    digest = hashlib.sha256(blank).hexdigest().upper()
+    a = (digest * ((len(m.group(1)) // len(digest)) + 1))[:len(m.group(1))].encode()
+    b = (digest * ((len(m.group(2)) // len(digest)) + 1))[:len(m.group(2))].encode()
+    fixed = raw[:m.start(1)] + a + raw[m.end(1):m.start(2)] + b + raw[m.end(2):]
+    if len(fixed) != len(raw):
+        return False
+    open(path, 'wb').write(fixed)
+    return True
 
 
 def strip_old(doc):
@@ -100,10 +165,12 @@ def process(path):
         doc.close()
         return f'ПРОПУЩЕН (снятие задело текст: {lost[:5]})'
     stamp(doc, lang_of(path))
+    clean_meta(doc, path)
     # Полное пересохранение со сборкой мусора и сжатием: после урезания шрифтов
     # инкрементальная запись только добавила бы объём.
     doc.save(path + '.tmp', garbage=4, deflate=True, clean=True)
     doc.close()
+    stable_id(path + '.tmp')
     os.replace(path + '.tmp', path)
     return 'ok'
 
