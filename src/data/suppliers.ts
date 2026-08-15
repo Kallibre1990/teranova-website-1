@@ -11,6 +11,17 @@
    no supplier personal contacts (contact via Teranova). All copy from the supplier's
    own site/catalog. */
 import type { CategoryKey, CountryKey } from './site';
+import doobomRu from './suppliers-i18n/doobom.ru.json';
+import doobomEn from './suppliers-i18n/doobom.en.json';
+import doobomKo from './suppliers-i18n/doobom.ko.json';
+import doobomZh from './suppliers-i18n/doobom.zh.json';
+import doobomJa from './suppliers-i18n/doobom.ja.json';
+import doobomIt from './suppliers-i18n/doobom.it.json';
+import doobomDe from './suppliers-i18n/doobom.de.json';
+import doobomFr from './suppliers-i18n/doobom.fr.json';
+import doobomTr from './suppliers-i18n/doobom.tr.json';
+import doobomEs from './suppliers-i18n/doobom.es.json';
+import doobomPt from './suppliers-i18n/doobom.pt.json';
 import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
 import cubecapRu from './suppliers-i18n/cubecap.ru.json';
 import cubecapEn from './suppliers-i18n/cubecap.en.json';
@@ -1020,6 +1031,31 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(cubecapTr as any),
       es: mk(cubecapEs as any),
       pt: mk(cubecapPt as any),
+    },
+  },
+  {
+    slug: 'doobom',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'DOOBOM Co., Ltd.',
+    brand: 'DOOBOM',
+    status: 'provided',
+    /* Мятно-бирюзовый — с их презентации бренда. */
+    brandColors: { deep: '#14504a', sky: '#5cc2b1', accent: '#2f9c8a', bg: '#eef7f5' },
+    voice: 'clinical',
+    certs: [],
+    i18n: {
+      ru: mk(doobomRu as any),
+      en: mk(doobomEn as any),
+      ko: mk(doobomKo as any),
+      zh: mk(doobomZh as any),
+      ja: mk(doobomJa as any),
+      it: mk(doobomIt as any),
+      de: mk(doobomDe as any),
+      fr: mk(doobomFr as any),
+      tr: mk(doobomTr as any),
+      es: mk(doobomEs as any),
+      pt: mk(doobomPt as any),
     },
   },
 ];
