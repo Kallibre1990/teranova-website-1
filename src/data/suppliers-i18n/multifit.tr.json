@@ -1,0 +1,110 @@
+{
+  "content": {
+    "tagline": "Kirli bir panel üretiminin üçte ikisine kadarını kaybeder. Robot onu geri getirir",
+    "descriptor": "Güneş paneli temizleme robotları ve fırçaları üreten Çinli firma; kendi fabrikası, ulusal yüksek teknoloji işletmesi",
+    "origin": "Çin",
+    "about": [
+      "BeiJing Multifit Electrical Technology Co., Ltd. güneş paneli temizleme ekipmanları üretir. Merkezi Pekin'de, fabrikası Guangdong'un Shantou kentinde; Shenzhen ve Sichuan'da şubeleri var. Şirket ulusal yüksek teknoloji işletmesi statüsüne sahiptir ve MULTIFIT markasıyla çalışır.",
+      "Bu ekipmanın çözdüğü sorun parayla ölçülür. Toz, kuş dışkısı ve pas parçacıkları panelin üretimini nominalin %20–36'sına düşürür; temizlikten sonra verim %90–95'e döner ve bakım durursa yeniden geriler. Üretim kaybının ötesinde kirlenme fiziksel olarak da tehlikelidir: gölgelenen bölge aşırı ısınır, sıcak noktalar oluşur, panel bozulur ve yanabilir. Yani temizlik makyaj değil, santralin ömrünü uzatan bir iştir.",
+      "Ürün grubu ikiye ayrılır. Robotlar: tek ve çift sıra paneller için MR-G serisi, MR-T1 ve MR-T2 serileri ve robotu sıralar arasında taşıyan MR-AR arabası. MULR fırçaları — elle kullanılan modellerden su tahrikli sürüme kadar — robotun fazla geleceği noktaları kapatır. Şirket her model için performans hesabı verir: saatte temizlenen alan, günlük kapasite ve belirli büyüklükteki bir dizi için gereken süre."
+    ],
+    "facts": [
+      "Ulusal yüksek teknoloji işletmesi; merkez Pekin, Shantou'da kendi fabrikası",
+      "MR-G, MR-T1 ve MR-T2 robotları ile sıralar arası taşıma için MR-AR arabası",
+      "Su tahrikli model dâhil MULR fırça serisi",
+      "Kirlenme panel üretimini %20–36'ya düşürür; temizlikten sonra verim %90–95'e döner",
+      "Her model kendi hesabıyla gelir: saatte m², günlük kapasite, belirli dizi için süre"
+    ],
+    "channels": [
+      "Güneş santrali sahipleri ve işletmecileri",
+      "İşletme ve bakım (O&M) yüklenicileri",
+      "EPC yüklenicileri ve güneş enerjisi entegratörleri",
+      "Enerji ekipmanı distribütörleri"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — panel sıraları için robotlar",
+        "note": "Tek sıra ve çift sıra sürümleriyle temel seri. İlerleme hızı yaklaşık 12 m/dak; kapasite ve günlük iş miktarı somut diziye göre hesaplanır."
+      },
+      {
+        "name": "MR-T1 / MR-T2",
+        "note": "Farklı santral yapıları için robot serileri. Çalışma genişliği ve çalışma biçimi farklıdır; dizinin geometrisine göre seçilir."
+      },
+      {
+        "name": "MR-AR — taşıma arabası",
+        "note": "Robotu panel sıraları arasında taşır ve elle yer değiştirmeyi ortadan kaldırır. Sıraların çok ve aralıklı olduğu sahalarda gerekir."
+      },
+      {
+        "name": "MULR — temizleme fırçaları",
+        "note": "Elle kullanılandan su tahrikli sürüme uzanan fırça serisi. Robotun fazla geldiği ya da ulaşamadığı bölgeler için çözüm."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Kendi üretimi",
+        "note": "Guangdong Shantou'da fabrika; Pekin'de merkez, Shenzhen ve Sichuan'da şubeler. Ulusal yüksek teknoloji işletmesi statüsü."
+      },
+      {
+        "name": "Somut santrale göre hesap",
+        "note": "Şirket soyut teknik veriler değil, müşterinin dizisi üzerindeki kapasiteyi verir: saatte alan, günlük iş miktarı, tam temizlik döngüsünün süresi."
+      },
+      {
+        "name": "Test raporları ve sertifikalar",
+        "note": "Şirketin materyallerinde test raporları ve sertifikalar bulunur; kesin liste anlaşma aşamasında talep üzerine verilir."
+      }
+    ],
+    "formats": [
+      "Güneş paneli temizleme robotları",
+      "Sıralar arası taşıma arabaları",
+      "Elle ve yarı otomatik temizleme fırçaları",
+      "Yedek parça ve sarf malzemeleri",
+      "Test için demo cihazlar"
+    ],
+    "exportNote": "Şirket ihracat yapar ve her model için ayrıntılı teklif verir. Teslim şekli EXW veya FOB; lojistik, gümrük ve işlemin takibi Teranova tarafından koordine edilir. Test için demo cihaz ayrıca görüşülür.",
+    "terms": [
+      {
+        "label": "Çalışma biçimleri",
+        "value": "Ekipman tedariki; santral yapısına göre model seçimi; yedek parça ve sarf malzemesi"
+      },
+      {
+        "label": "Teslim şartları",
+        "value": "EXW veya FOB; lojistik ve gümrük Teranova tarafından koordine edilir"
+      },
+      {
+        "label": "Belgeler",
+        "value": "Faaliyet belgesi, yeterlilik broşürü, test raporları — şirket tarafından sağlandı"
+      },
+      {
+        "label": "Materyaller",
+        "value": "Robot ve fırça katalogları ile model bazında teklifler Haziran 2026'da üreticiden alındı"
+      }
+    ],
+    "consentNote": "Veriler ve materyaller BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT) tarafından sağlanmıştır. Verim rakamları şirketin materyallerine göre aktarılmıştır. Fiyat ve koşullar Teranova üzerinden anlaşma aşamasında teyit edilir.",
+    "seoTitle": "MULTIFIT — Çin'den güneş paneli temizleme robotları · Teranova",
+    "seoDesc": "BeiJing Multifit, güneş paneli temizliği için MR-G, MR-T1, MR-T2 robotları ve MULR fırçaları üreten Çinli firmadır. Kendi fabrikası, dizinize göre hesaplanan kapasite, Teranova üzerinden EXW/FOB tedarik.",
+    "catalog_notes": []
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimler için:",
+    "lines_h": "Ürün serileri",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Yetkinlikler ve üretim",
+    "products_h": "Ürünler",
+    "products_note": "KIFT markası — Kore menşeli yüksek etkili hepsi bir arada bakım: serum, kremler, kabarcıklı maske ve temizleyici sabun.",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "price_btn": "Fiyat listesini indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar tahminidir ve işlem aşamasında Teranova aracılığıyla netleştirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz. Kayıt referansları (EU CPNP, US MoCRA) şirket verilerine göre belirtilmiştir ve düzenleyici onayı değildir.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bizimle iletişime geçin — Teranova ilk temastan teslimata kadar müzakereyi, doğrulamayı ve işlemin takibini düzenler.",
+    "cta_btn": "Teranova aracılığıyla iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar ve kayıtlar"
+  }
+}

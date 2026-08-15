@@ -22,6 +22,17 @@ import doobomFr from './suppliers-i18n/doobom.fr.json';
 import doobomTr from './suppliers-i18n/doobom.tr.json';
 import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
+import multifitRu from './suppliers-i18n/multifit.ru.json';
+import multifitEn from './suppliers-i18n/multifit.en.json';
+import multifitKo from './suppliers-i18n/multifit.ko.json';
+import multifitZh from './suppliers-i18n/multifit.zh.json';
+import multifitJa from './suppliers-i18n/multifit.ja.json';
+import multifitIt from './suppliers-i18n/multifit.it.json';
+import multifitDe from './suppliers-i18n/multifit.de.json';
+import multifitFr from './suppliers-i18n/multifit.fr.json';
+import multifitTr from './suppliers-i18n/multifit.tr.json';
+import multifitEs from './suppliers-i18n/multifit.es.json';
+import multifitPt from './suppliers-i18n/multifit.pt.json';
 import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
 import cubecapRu from './suppliers-i18n/cubecap.ru.json';
 import cubecapEn from './suppliers-i18n/cubecap.en.json';
@@ -1056,6 +1067,31 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(doobomTr as any),
       es: mk(doobomEs as any),
       pt: mk(doobomPt as any),
+    },
+  },
+  {
+    slug: 'multifit',
+    category: 'industrial',
+    country: 'cn',
+    name: 'BeiJing Multifit Electrical Technology Co., Ltd.',
+    brand: 'MULTIFIT',
+    status: 'provided',
+    /* Синий и жёлтый — с их каталогов: солнце и панель. */
+    brandColors: { deep: '#123a63', sky: '#4f8fce', accent: '#f2b21c', bg: '#eef4fa' },
+    voice: 'clinical',
+    certs: [],
+    i18n: {
+      ru: mk(multifitRu as any),
+      en: mk(multifitEn as any),
+      ko: mk(multifitKo as any),
+      zh: mk(multifitZh as any),
+      ja: mk(multifitJa as any),
+      it: mk(multifitIt as any),
+      de: mk(multifitDe as any),
+      fr: mk(multifitFr as any),
+      tr: mk(multifitTr as any),
+      es: mk(multifitEs as any),
+      pt: mk(multifitPt as any),
     },
   },
 ];

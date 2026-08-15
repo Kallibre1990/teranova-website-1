@@ -1,0 +1,110 @@
+{
+  "content": {
+    "tagline": "Un panel sucio pierde hasta dos tercios de su producción. El robot se la devuelve",
+    "descriptor": "Fabricante chino de robots y cepillos para limpieza de paneles solares; planta propia, empresa nacional de alta tecnología",
+    "origin": "China",
+    "about": [
+      "BeiJing Multifit Electrical Technology Co., Ltd. fabrica equipos de limpieza para paneles solares. Sede en Pekín, planta en Shantou (Guangdong), sucursales en Shenzhen y Sichuan. La empresa tiene el estatus nacional de alta tecnología y opera bajo la marca MULTIFIT.",
+      "El problema que resuelve este equipo se mide en dinero. El polvo, los excrementos de aves y las partículas de óxido reducen la producción del panel al 20–36% de lo nominal; tras la limpieza la eficiencia vuelve al 90–95% y cae de nuevo si no hay mantenimiento. Además de la pérdida de producción, la suciedad es peligrosa físicamente: la zona sombreada se sobrecalienta, aparecen puntos calientes, el panel se degrada y puede quemarse. Limpiar no es cosmética: alarga la vida de la planta.",
+      "La gama se divide en dos. Robots: la serie MR-G para filas simples y dobles de paneles, las series MR-T1 y MR-T2, y el carro de transporte MR-AR, que mueve el robot entre filas. Los cepillos MULR — desde modelos manuales hasta una versión accionada por agua — cubren los puntos donde el robot sobra. Para cada modelo la empresa entrega un cálculo de rendimiento: superficie limpiada por hora, ritmo diario y tiempo necesario para un campo de tamaño dado."
+    ],
+    "facts": [
+      "Empresa nacional de alta tecnología; sede en Pekín, planta propia en Shantou",
+      "Robots MR-G, MR-T1 y MR-T2 más el carro MR-AR para desplazarse entre filas",
+      "Gama de cepillos MULR, incluida una versión accionada por agua",
+      "La suciedad baja la producción del panel al 20–36%; tras la limpieza la eficiencia vuelve al 90–95%",
+      "Cada modelo llega con su cálculo: m² por hora, ritmo diario y tiempo para un campo concreto"
+    ],
+    "channels": [
+      "Propietarios y operadores de plantas solares",
+      "Contratistas de operación y mantenimiento (O&M)",
+      "Contratistas EPC e integradores solares",
+      "Distribuidores de equipos para energía"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — robots para filas de paneles",
+        "note": "La serie base, en versiones de fila simple y doble. Velocidad de desplazamiento en torno a 12 m/min; el rendimiento y el ritmo diario se calculan para el campo concreto."
+      },
+      {
+        "name": "MR-T1 / MR-T2",
+        "note": "Series de robots para otras configuraciones de planta, con distinto ancho de trabajo y modo de operación; se eligen por la geometría del campo."
+      },
+      {
+        "name": "MR-AR — carro de transporte",
+        "note": "Lleva el robot de una fila a otra y elimina el traslado manual. Necesario donde hay muchas filas y están separadas."
+      },
+      {
+        "name": "MULR — cepillos de limpieza",
+        "note": "Gama de cepillos, del modelo manual a la versión accionada por agua. La respuesta para zonas donde el robot es excesivo o no llega."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Fabricación propia",
+        "note": "Planta en Shantou, Guangdong; sede en Pekín y sucursales en Shenzhen y Sichuan. Estatus nacional de alta tecnología."
+      },
+      {
+        "name": "Cálculo para la planta concreta",
+        "note": "La empresa no da especificaciones en abstracto, sino rendimiento sobre el campo del cliente: superficie por hora, ritmo diario, tiempo del ciclo completo."
+      },
+      {
+        "name": "Informes de ensayo y certificados",
+        "note": "Los materiales de la empresa incluyen informes de ensayo y certificados; el listado exacto se entrega a petición en la fase de negociación."
+      }
+    ],
+    "formats": [
+      "Robots de limpieza de paneles solares",
+      "Carros de transporte entre filas",
+      "Cepillos de limpieza manual y semiautomática",
+      "Repuestos y consumibles",
+      "Unidades de demostración para pruebas"
+    ],
+    "exportNote": "La empresa exporta y entrega cotizaciones completas por modelo. Entrega en condiciones EXW o FOB; logística, aduana y acompañamiento de la operación los coordina Teranova. La unidad de demostración para pruebas se acuerda aparte.",
+    "terms": [
+      {
+        "label": "Formas de trabajo",
+        "value": "Suministro de equipos; elección del modelo según la configuración de la planta; repuestos y consumibles"
+      },
+      {
+        "label": "Condiciones de entrega",
+        "value": "EXW o FOB; logística y aduana coordinadas por Teranova"
+      },
+      {
+        "label": "Documentos",
+        "value": "Licencia de actividad, folleto de cualificaciones, informes de ensayo — facilitados por la empresa"
+      },
+      {
+        "label": "Materiales",
+        "value": "Catálogos de robots y cepillos y cotizaciones por modelo recibidos del fabricante en junio de 2026"
+      }
+    ],
+    "consentNote": "Datos y materiales facilitados por BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Las cifras de eficiencia se recogen según los materiales de la empresa. Precios y condiciones se confirman en la fase de negociación a través de Teranova.",
+    "seoTitle": "MULTIFIT — robots de limpieza de paneles solares desde China · Teranova",
+    "seoDesc": "BeiJing Multifit es un fabricante chino de robots MR-G, MR-T1 y MR-T2 y cepillos MULR para limpieza de paneles solares. Planta propia, rendimiento calculado para su campo, suministro EXW/FOB a través de Teranova.",
+    "catalog_notes": []
+  },
+  "ui": {
+    "profile_sup": "Perfil del proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "Para quién es:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Capacidades y producción",
+    "products_h": "Productos",
+    "products_note": "La marca KIFT — cuidado coreano de alta eficacia «todo en uno»: sérum, cremas, mascarilla de burbujas y barra limpiadora.",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "price_btn": "Descargar lista de precios (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Los precios y las condiciones son indicativos y se concretan en la etapa de la operación a través de Teranova. Los contactos directos del proveedor no se publican. Las referencias de registro (EU CPNP, US MoCRA) se indican según datos de la empresa y no constituyen una aprobación del regulador.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Póngase en contacto — Teranova organiza las negociaciones, la verificación y el acompañamiento de la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones y registros"
+  }
+}

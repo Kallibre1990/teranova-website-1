@@ -88,7 +88,8 @@ const arrow =
   .sup:hover { border-color: rgba(16, 32, 56, .32); transform: translateY(-2px); }
   .sup:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
   .sup__brand { font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; opacity: .55; }
-  .sup__name { margin: 0; font-size: 1.12rem; }
-  .sup__tag { margin: 0; font-size: .93rem; line-height: 1.5; color: var(--muted, #4b5563); }
+  .sup__name { margin: 0; font-size: 1.12rem; letter-spacing: normal; }
+  /* карточки на витрине идут капсом; для таглайна это нечитаемо — возвращаем обычный регистр */
+  .sup__tag { margin: 0; font-size: .93rem; line-height: 1.5; color: var(--muted, #4b5563); text-transform: none; letter-spacing: normal; }
   .sup__more { margin-top: 4px; font-weight: 600; font-size: .9rem; }
 </style>
