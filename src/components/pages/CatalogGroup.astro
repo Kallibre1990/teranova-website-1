@@ -26,6 +26,10 @@ const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 
 const suppliers = demoSuppliers[groupKey] ?? [];
 const realForCat = realSuppliers.filter((s) => s.category === groupKey);
+/* Страна производства — меткой на карточке. Каталог общий: корейские и
+   китайские поставщики лежат в одних категориях, страна их различает. */
+const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳' };
+const countryName = (key: string) => t.countries.list.find((c) => c.key === key)?.name ?? '';
 const roleLabel = { maker: g.role_maker, oem: g.role_oem, exporter: g.role_exporter } as const;
 const statusInfo = {
   visited: { cls: 'badge--visited', label: t.verify.card_visited_t },
@@ -53,7 +57,10 @@ const statusInfo = {
               <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
               <h3 class="scard__nm">{s.name}</h3>
               <p class="scard__role">{s.brand} · {sc.descriptor}</p>
-              <span class="scard__more">{sc.ui.more}</span>
+              <span class="scard__foot">
+                <span class="scard__more">{sc.ui.more}</span>
+                <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
+              </span>
             </a>
           );
         })}
@@ -102,7 +109,10 @@ const statusInfo = {
                 <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
                 <h3 class="scard__nm">{s.name}</h3>
                 <p class="scard__role">{s.brand} · {sc.descriptor}</p>
-                <span class="scard__more">{sc.ui.more}</span>
+                <span class="scard__foot">
+                  <span class="scard__more">{sc.ui.more}</span>
+                  <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
+                </span>
               </a>
             );
           })}
@@ -165,6 +175,9 @@ const statusInfo = {
   .scard__nm { font-size: 1.05rem; font-weight: 800; color: #fff; }
   .scard__role { font-size: 0.82rem; color: var(--silver-muted); margin-top: 3px; }
   .scard__demo { color: var(--cobalt-light); font-weight: 700; }
+  /* низ карточки: «открыть профиль» слева, страна производства справа */
+  .scard__foot { margin-top: auto; padding-top: 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .scard__origin { font-size: .78rem; color: var(--silver-muted); white-space: nowrap; letter-spacing: .02em; }
   .scard__blurb { font-size: 0.9rem; color: var(--silver); line-height: 1.6; margin-top: 12px; }
   .scard__tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
   .scard__tags span { font-size: 0.74rem; font-weight: 600; color: var(--silver-muted); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 100px; padding: 4px 10px; }
