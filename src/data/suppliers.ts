@@ -11,6 +11,7 @@
    no supplier personal contacts (contact via Teranova). All copy from the supplier's
    own site/catalog. */
 import type { CategoryKey, CountryKey } from './site';
+import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
 import cubecapRu from './suppliers-i18n/cubecap.ru.json';
 import cubecapEn from './suppliers-i18n/cubecap.en.json';
 import cubecapKo from './suppliers-i18n/cubecap.ko.json';
@@ -1005,6 +1006,7 @@ export const suppliers: SupplierProfile[] = [
     /* Фиолетовый — с их собственной упаковки COCAPS; синий — из логотипа. */
     brandColors: { deep: '#3b2a63', sky: '#8b7ac0', accent: '#1f7ec4', bg: '#f3f0f9' },
     voice: 'clinical',
+    catalog: cubecapCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: [],
     i18n: {
       ru: mk(cubecapRu as any),

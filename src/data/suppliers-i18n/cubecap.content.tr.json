@@ -61,21 +61,33 @@
   ],
   "exportNote": "Şirket tüm döngüyü kapsıyor: kılıf hammaddesinden paketlenmiş bitmiş ürüne kadar. Teslim şekli EXW; fiyat listesindeki rakamlar EXW'dir ve anlaşma aşamasında teyit edilir. Açık pazarlar için materyaller Teranova üzerinden yayımlanır; müzakere, doğrulama ve işlemin takibi bizim üzerimizden yürür.",
   "terms": [
-    { "label": "Çalışma biçimleri", "value": "COCAPS bitmiş ürününün toptan tedariki; OEM/ODM fason üretim; markaya özel kapsül biçimi geliştirme" },
-    { "label": "Asgari sipariş", "value": "100 şişeden (30 kapsül) ve 400 blisterden (7 kapsül) itibaren" },
-    { "label": "Teslim şartları", "value": "EXW; lojistik ve gümrük Teranova tarafından koordine edilir" },
-    { "label": "Raf ömrü", "value": "3 yıl" },
-    { "label": "Ambalaj", "value": "30 kapsüllük şişe — koli başına 100 adet (540×300×205 mm, 11 kg plastik / 18 kg cam); 7 kapsüllük blister — koli başına 400 adet (460×350×345 mm, 6,5 kg)" }
+    {
+      "label": "Çalışma biçimleri",
+      "value": "COCAPS bitmiş ürününün toptan tedariki; OEM/ODM fason üretim; markaya özel kapsül biçimi geliştirme"
+    },
+    {
+      "label": "Asgari sipariş",
+      "value": "100 şişeden (30 kapsül) ve 400 blisterden (7 kapsül) itibaren"
+    },
+    {
+      "label": "Teslim şartları",
+      "value": "EXW; lojistik ve gümrük Teranova tarafından koordine edilir"
+    },
+    {
+      "label": "Raf ömrü",
+      "value": "3 yıl"
+    },
+    {
+      "label": "Ambalaj",
+      "value": "30 kapsüllük şişe — koli başına 100 adet (540×300×205 mm, 11 kg plastik / 18 kg cam); 7 kapsüllük blister — koli başına 400 adet (460×350×345 mm, 6,5 kg)"
+    }
   ],
   "consentNote": "Veriler ve materyaller CUBE CAP CO., LTD. (COCAPS markası) tarafından sağlanmış ve yazılı onayıyla yayımlanmıştır. Fiyat ve koşullar yaklaşıktır; Teranova üzerinden anlaşma aşamasında teyit edilir.",
   "seoTitle": "CUBE CAP (COCAPS) — Kore kapsül serumları, OEM/ODM · Teranova",
   "seoDesc": "CUBE CAP, bitkisel yumuşak kapsülde COCAPS kozmetiği üreten bir Kore firmasıdır: retinol, C vitamini, seramit. Kendi fabrikası ve kapsülleme makineleri, markanızın biçiminde kapsüller, OEM/ODM, 100 şişeden EXW.",
   "catalog_notes": [
-    "Bitkisel kapsülde retinol serumu: kullanım başına tek doz, açılana kadar aktif oksitlenmez. 30 kapsüllük şişe.",
-    "Bitkisel kapsülde C vitamini serumu — kararsız bir aktifi havadan koruyan format. 30 kapsüllük şişe.",
-    "Cilt bariyerini onarmak için seramit serumu. 30 kapsüllük şişe.",
-    "Cam şişede Retinol Glow — temel formülün premium sunumu. 30 kapsül.",
-    "Cam şişede Vitamin C Glow. 30 kapsül.",
-    "7 kapsüllük blister — numune, seyahat formatı ve tanıtım. Retinol, C vitamini ve seramitli seçenekler."
+    "Bitkisel kapsülde retinol serumu: kullanım başına tek doz, açılana kadar aktif oksitlenmez. 30 kapsüllük şişe. Retinol 3000 ppm · 0.4 ml",
+    "Bitkisel kapsülde C vitamini serumu — kararsız bir aktifi havadan koruyan format. 30 kapsüllük şişe. Vitamin C 3300 ppm · 0.4 ml",
+    "Cilt bariyerini onarmak için seramit serumu. 30 kapsüllük şişe. Ceramide 3000 ppm · 0.4 ml"
   ]
 }

@@ -61,21 +61,33 @@
   ],
   "exportNote": "L'azienda copre il ciclo completo: dalla materia prima dell'involucro al prodotto finito confezionato. Resa EXW; i prezzi di listino si intendono EXW e vengono confermati in fase di trattativa. Per i mercati aperti i materiali sono pubblicati tramite Teranova; trattativa, verifica e accompagnamento dell'operazione passano da noi.",
   "terms": [
-    { "label": "Forme di collaborazione", "value": "Fornitura all'ingrosso del prodotto finito COCAPS; produzione conto terzi OEM/ODM; sviluppo di una capsula con forma dedicata al marchio" },
-    { "label": "Ordine minimo", "value": "da 100 flaconi (30 capsule) e da 400 blister (7 capsule)" },
-    { "label": "Rese", "value": "EXW; logistica e dogana coordinate da Teranova" },
-    { "label": "Validità", "value": "3 anni" },
-    { "label": "Imballo", "value": "flacone da 30 capsule — 100 per cartone (540×300×205 mm, 11 kg plastica / 18 kg vetro); blister da 7 capsule — 400 per cartone (460×350×345 mm, 6,5 kg)" }
+    {
+      "label": "Forme di collaborazione",
+      "value": "Fornitura all'ingrosso del prodotto finito COCAPS; produzione conto terzi OEM/ODM; sviluppo di una capsula con forma dedicata al marchio"
+    },
+    {
+      "label": "Ordine minimo",
+      "value": "da 100 flaconi (30 capsule) e da 400 blister (7 capsule)"
+    },
+    {
+      "label": "Rese",
+      "value": "EXW; logistica e dogana coordinate da Teranova"
+    },
+    {
+      "label": "Validità",
+      "value": "3 anni"
+    },
+    {
+      "label": "Imballo",
+      "value": "flacone da 30 capsule — 100 per cartone (540×300×205 mm, 11 kg plastica / 18 kg vetro); blister da 7 capsule — 400 per cartone (460×350×345 mm, 6,5 kg)"
+    }
   ],
   "consentNote": "Dati e materiali forniti da CUBE CAP CO., LTD. (marchio COCAPS) e pubblicati con il suo consenso scritto. Prezzi e condizioni indicativi, confermati in fase di trattativa tramite Teranova.",
   "seoTitle": "CUBE CAP (COCAPS) — sieri coreani in capsula, OEM/ODM · Teranova",
   "seoDesc": "CUBE CAP è un produttore coreano di cosmetica in capsule molli vegetali COCAPS: retinolo, vitamina C, ceramidi. Stabilimento e macchine di incapsulamento propri, capsule nella forma del vostro marchio, OEM/ODM, EXW da 100 flaconi.",
   "catalog_notes": [
-    "Siero al retinolo in capsula vegetale: una dose per applicazione, l'attivo non si ossida prima dell'apertura. Flacone da 30 capsule.",
-    "Siero alla vitamina C in capsula vegetale — il formato che protegge dall'aria un attivo instabile. Flacone da 30 capsule.",
-    "Siero alle ceramidi per ripristinare la barriera cutanea. Flacone da 30 capsule.",
-    "Retinol Glow in flacone di vetro — presentazione premium della formula base. 30 capsule.",
-    "Vitamin C Glow in flacone di vetro. 30 capsule.",
-    "Blister da 7 capsule — campione, formato viaggio e promozione. Disponibile con retinolo, vitamina C e ceramidi."
+    "Siero al retinolo in capsula vegetale: una dose per applicazione, l'attivo non si ossida prima dell'apertura. Flacone da 30 capsule. Retinol 3000 ppm · 0.4 ml",
+    "Siero alla vitamina C in capsula vegetale — il formato che protegge dall'aria un attivo instabile. Flacone da 30 capsule. Vitamin C 3300 ppm · 0.4 ml",
+    "Siero alle ceramidi per ripristinare la barriera cutanea. Flacone da 30 capsule. Ceramide 3000 ppm · 0.4 ml"
   ]
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "line": "COCAPS Capsule Serum",
+    "items": [
+      {
+        "name": "COCAPS Retinol Capsule Serum",
+        "img": "/img/suppliers/cubecap/products/cocaps-retinol-capsule-serum.jpg",
+        "volume": "0.4 ml × 30 capsules",
+        "price": "US$ 7.50 EXW",
+        "certs": []
+      },
+      {
+        "name": "COCAPS Vitamin C Capsule Serum",
+        "img": "/img/suppliers/cubecap/products/cocaps-vitamin-c-capsule-serum.jpg",
+        "volume": "0.4 ml × 30 capsules",
+        "price": "US$ 7.35 EXW",
+        "certs": []
+      },
+      {
+        "name": "COCAPS Ceramide Capsule Serum",
+        "img": "/img/suppliers/cubecap/products/cocaps-ceramide-capsule-serum.jpg",
+        "volume": "0.4 ml × 30 capsules",
+        "price": "US$ 7.40 EXW",
+        "certs": []
+      }
+    ]
+  }
+]

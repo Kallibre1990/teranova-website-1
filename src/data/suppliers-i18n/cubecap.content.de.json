@@ -61,21 +61,33 @@
   ],
   "exportNote": "Das Unternehmen deckt den gesamten Zyklus ab: vom Hüllenrohstoff bis zur fertig verpackten Ware. Lieferbedingung ist EXW; die Preise der Liste verstehen sich EXW und werden in der Abschlussphase bestätigt. Für offene Märkte werden die Unterlagen über Teranova veröffentlicht; Verhandlung, Prüfung und Begleitung des Geschäfts laufen über uns.",
   "terms": [
-    { "label": "Formen der Zusammenarbeit", "value": "Großhandelslieferung der Fertigware COCAPS; OEM/ODM-Lohnfertigung; Entwicklung einer markeneigenen Kapselform" },
-    { "label": "Mindestmenge", "value": "ab 100 Flaschen (30 Kapseln) und ab 400 Blistern (7 Kapseln)" },
-    { "label": "Lieferbedingungen", "value": "EXW; Logistik und Zoll koordiniert Teranova" },
-    { "label": "Haltbarkeit", "value": "3 Jahre" },
-    { "label": "Verpackung", "value": "Flasche mit 30 Kapseln — 100 je Karton (540×300×205 mm, 11 kg Kunststoff / 18 kg Glas); Blister mit 7 Kapseln — 400 je Karton (460×350×345 mm, 6,5 kg)" }
+    {
+      "label": "Formen der Zusammenarbeit",
+      "value": "Großhandelslieferung der Fertigware COCAPS; OEM/ODM-Lohnfertigung; Entwicklung einer markeneigenen Kapselform"
+    },
+    {
+      "label": "Mindestmenge",
+      "value": "ab 100 Flaschen (30 Kapseln) und ab 400 Blistern (7 Kapseln)"
+    },
+    {
+      "label": "Lieferbedingungen",
+      "value": "EXW; Logistik und Zoll koordiniert Teranova"
+    },
+    {
+      "label": "Haltbarkeit",
+      "value": "3 Jahre"
+    },
+    {
+      "label": "Verpackung",
+      "value": "Flasche mit 30 Kapseln — 100 je Karton (540×300×205 mm, 11 kg Kunststoff / 18 kg Glas); Blister mit 7 Kapseln — 400 je Karton (460×350×345 mm, 6,5 kg)"
+    }
   ],
   "consentNote": "Daten und Unterlagen wurden von CUBE CAP CO., LTD. (Marke COCAPS) bereitgestellt und werden mit deren schriftlicher Zustimmung veröffentlicht. Preise und Konditionen sind Richtwerte und werden in der Abschlussphase über Teranova bestätigt.",
   "seoTitle": "CUBE CAP (COCAPS) — koreanische Kapselseren, OEM/ODM · Teranova",
   "seoDesc": "CUBE CAP ist ein koreanischer Hersteller von Kosmetik in pflanzlichen Weichkapseln COCAPS: Retinol, Vitamin C, Ceramide. Eigenes Werk und eigene Verkapselungsmaschinen, Kapseln in Ihrer Markenform, OEM/ODM, EXW ab 100 Flaschen.",
   "catalog_notes": [
-    "Retinol-Serum in der pflanzlichen Kapsel: eine Dosis je Anwendung, der Wirkstoff oxidiert vor dem Öffnen nicht. Flasche mit 30 Kapseln.",
-    "Vitamin-C-Serum in der pflanzlichen Kapsel — das Format, das einen instabilen Wirkstoff vor Luft schützt. Flasche mit 30 Kapseln.",
-    "Ceramid-Serum für den Aufbau der Hautbarriere. Flasche mit 30 Kapseln.",
-    "Retinol Glow in der Glasflasche — gehobene Aufmachung der Basisrezeptur. 30 Kapseln.",
-    "Vitamin C Glow in der Glasflasche. 30 Kapseln.",
-    "Blister mit 7 Kapseln — Probe, Reiseformat und Promotion. Mit Retinol, Vitamin C und Ceramiden erhältlich."
+    "Retinol-Serum in der pflanzlichen Kapsel: eine Dosis je Anwendung, der Wirkstoff oxidiert vor dem Öffnen nicht. Flasche mit 30 Kapseln. Retinol 3000 ppm · 0.4 ml",
+    "Vitamin-C-Serum in der pflanzlichen Kapsel — das Format, das einen instabilen Wirkstoff vor Luft schützt. Flasche mit 30 Kapseln. Vitamin C 3300 ppm · 0.4 ml",
+    "Ceramid-Serum für den Aufbau der Hautbarriere. Flasche mit 30 Kapseln. Ceramide 3000 ppm · 0.4 ml"
   ]
 }
