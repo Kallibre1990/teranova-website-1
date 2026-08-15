@@ -10,7 +10,19 @@
    visit); origin "Korea" only (no city); no invented metrics or unverified certs;
    no supplier personal contacts (contact via Teranova). All copy from the supplier's
    own site/catalog. */
-import type { CategoryKey } from './site';
+import type { CategoryKey, CountryKey } from './site';
+import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
+import cubecapRu from './suppliers-i18n/cubecap.ru.json';
+import cubecapEn from './suppliers-i18n/cubecap.en.json';
+import cubecapKo from './suppliers-i18n/cubecap.ko.json';
+import cubecapZh from './suppliers-i18n/cubecap.zh.json';
+import cubecapJa from './suppliers-i18n/cubecap.ja.json';
+import cubecapIt from './suppliers-i18n/cubecap.it.json';
+import cubecapDe from './suppliers-i18n/cubecap.de.json';
+import cubecapFr from './suppliers-i18n/cubecap.fr.json';
+import cubecapTr from './suppliers-i18n/cubecap.tr.json';
+import cubecapEs from './suppliers-i18n/cubecap.es.json';
+import cubecapPt from './suppliers-i18n/cubecap.pt.json';
 import type { Lang } from '../i18n/ui';
 import santeEn from './suppliers-i18n/sante.en.json';
 import santeKo from './suppliers-i18n/sante.ko.json';
@@ -190,6 +202,10 @@ export interface SupplierContent {
 export interface SupplierProfile {
   slug: string;
   category: CategoryKey;
+  /* Where the supplier manufactures. The catalog splits by country before it
+     splits by category. Omitted means Korea — that is where the platform
+     started and where every supplier published before August 2026 sits. */
+  country?: CountryKey;
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
@@ -978,6 +994,32 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(licorneTr as any),
       es: mk(licorneEs as any),
       pt: mk(licornePt as any),
+    },
+  },
+  {
+    slug: 'cubecap',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'CUBE CAP CO., LTD.',
+    brand: 'COCAPS',
+    status: 'provided',
+    /* Фиолетовый — с их собственной упаковки COCAPS; синий — из логотипа. */
+    brandColors: { deep: '#3b2a63', sky: '#8b7ac0', accent: '#1f7ec4', bg: '#f3f0f9' },
+    voice: 'clinical',
+    catalog: cubecapCatalog as { line: string; items: { name: string; img: string }[] }[],
+    certs: [],
+    i18n: {
+      ru: mk(cubecapRu as any),
+      en: mk(cubecapEn as any),
+      ko: mk(cubecapKo as any),
+      zh: mk(cubecapZh as any),
+      ja: mk(cubecapJa as any),
+      it: mk(cubecapIt as any),
+      de: mk(cubecapDe as any),
+      fr: mk(cubecapFr as any),
+      tr: mk(cubecapTr as any),
+      es: mk(cubecapEs as any),
+      pt: mk(cubecapPt as any),
     },
   },
 ];

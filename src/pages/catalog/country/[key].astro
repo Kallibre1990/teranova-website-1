@@ -1,0 +1,20 @@
+---
+/* Каталог по стране производства (локаль по умолчанию, ru). */
+import Base from '../../../layouts/Base.astro';
+import CountryPage from '../../../components/pages/CountryPage.astro';
+import { ui } from '../../../i18n/ui';
+import { countryKeys, type CountryKey } from '../../../data/site';
+
+export function getStaticPaths() {
+  return countryKeys.map((key) => ({ params: { key }, props: { key } }));
+}
+
+const { key } = Astro.props as { key: CountryKey };
+const lang = 'ru' as const;
+const t = ui[lang];
+const meta = t.countries.list.find((c) => c.key === key)!;
+---
+
+<Base lang={lang} path={`/catalog/country/${key}`} title={`${meta.name} · ${t.countries.title} · Teranova`} description={meta.blurb}>
+  <CountryPage lang={lang} country={key} />
+</Base>

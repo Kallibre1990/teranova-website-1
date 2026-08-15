@@ -26,6 +26,14 @@ export type ContactKey = (typeof contactOrder)[number];
 export const categoryKeys = ['marine', 'cosmetics', 'medical', 'industrial', 'transport', 'adjacent', 'chemical'] as const;
 export type CategoryKey = (typeof categoryKeys)[number];
 
+/* Sourcing countries. The catalog splits by country first: a buyer looking for
+   Korean cosmetics and a buyer looking for Chinese industrial equipment are two
+   different conversations. Korea is where we started and where most suppliers
+   are; China opened in August 2026. New countries are added here — the catalog
+   picks them up from this list. */
+export const countryKeys = ['kr', 'cn'] as const;
+export type CountryKey = (typeof countryKeys)[number];
+
 /* Icon id per category. The actual line-SVGs are drawn in the Categories section
    (src/components/home/Categories.astro), keyed by these category keys. */
 export const categoryIcon: Record<CategoryKey, string> = {
