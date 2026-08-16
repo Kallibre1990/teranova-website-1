@@ -213,6 +213,9 @@ export interface SupplierContent {
   tech: SupplierTech[];
   formats: string[];
   exportNote: string;
+  /* Optional band under the hero: one dated fact about the brand (a retail
+     launch, an award) plus the slug of the article that unpacks it. */
+  spotlight?: { label: string; title: string; text: string; cta: string; post: string };
   terms?: { label: string; value: string }[];
   consentNote: string;
   /* Per-product short notes, aligned by flat index with profile.catalog items. */
@@ -1003,7 +1006,9 @@ export const suppliers: SupplierProfile[] = [
     presFile: {
       ru: '/docs/licorne-presentation-ru.pdf', en: '/docs/licorne-presentation-en.pdf', ko: '/docs/licorne-presentation-ko.pdf', zh: '/docs/licorne-presentation-zh.pdf', ja: '/docs/licorne-presentation-ja.pdf', it: '/docs/licorne-presentation-it.pdf', de: '/docs/licorne-presentation-de.pdf', fr: '/docs/licorne-presentation-fr.pdf', tr: '/docs/licorne-presentation-tr.pdf', es: '/docs/licorne-presentation-es.pdf', pt: '/docs/licorne-presentation-pt.pdf',
     },
-    certs: [],
+    /* Markets where copies of the registration documents are on file with us
+       (handed over by Limetree in August 2026), newest archive first. */
+    certs: ['EU CPNP', 'EU CPSR', 'MoCRA', 'PMDA', 'NMPA', 'HSA', 'NPRA', 'TFDA', 'EAC'],
     i18n: {
       ru: mk(licorneRu as any),
       en: mk(licorneEn as any),

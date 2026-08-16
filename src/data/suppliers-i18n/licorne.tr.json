@@ -69,7 +69,7 @@
       "Temizleyiciler ve wash-off pack'ler, 100–200 ml",
       "Microshot hidrojel patch'ler"
     ],
-    "exportNote": "Şirketin belirttiği üzere LICORNE ürünleri çeşitli ihracat pazarlarında beyan edilmiş tescillere sahiptir — US MoCRA, EU CPNP, Japan PMDA, Malaysia NPRA, Russia EAC, China NMPA ve Thailand TFDA — ve pazar bazında durum anlaşma aşamasında teyit edilir. Kore'de LICORNE, Hyundai Department Store Pangyo'da bir marka pop-up'ı düzenlemiştir (Ağustos 2026). Teslimat esası FOB Korea'dır.",
+    "exportNote": "LICORNE'un tescilleri, Ağustos 2026'da Teranova'ya teslim edilen belge kopyalarına dayanır. Avrupa Birliği'nde 15 ürün için CPNP bildirimi ve 11 ürün için CPSR güvenlilik raporu, Japonya'da 9 ürün için başvurular ile Japonca etiketler ve tam içerik listeleri bulunur. Singapur'da 10 ürün Mayıs 2027'ye kadar, Malezya'da 5 ürün Kasım 2027'ye kadar bildirimlidir. Çin'de ithal kozmetik için 6 NMPA kaydı, Tayland'da 4 FDA kaydı, Rusya'da TR CU 009/2011 uyarınca 7 uygunluk beyanı vardır ve ABD için firma MoCRA listelemesini iletmiştir. Vietnam ve Filipinler tescilleri süresi dolmuş olarak işaretlidir, geçerli tescillerin bir bölümü ise yerel hak sahipleri adınadır; bu nedenle yeni bir iş ortağına devir işlem aşamasında kontrol edilir. 11–23 Ağustos 2026 tarihlerinde marka, Hyundai Department Store Pangyo'da kendi köşesini işletmektedir. Teslimat esası FOB Korea'dır.",
     "terms": [
       {
         "label": "Teslimat esası",
@@ -125,7 +125,14 @@
       "Hassas cildi sakinleştirip yeniden dengelemek için bir Jinjung balance tonik.",
       "Yatıştırıcı günlük nem için bir Jinjung balance krem.",
       "Hedefe yönelik, yoğun nemlendirme için bir hyaluronic microshot patch."
-    ]
+    ],
+    "spotlight": {
+      "label": "Perakende · Ağustos 2026",
+      "title": "Hyundai Department Store Pangyo'da LICORNE",
+      "text": "11–23 Ağustos 2026 tarihlerinde marka, Seul yakınlarındaki premium bir mağazada kendi köşesini işletiyor. Bu adımın rafa hazırlık hakkında ne söylediğini ve tescillerin hangi belgelere dayandığını inceliyoruz.",
+      "cta": "İncelemeyi okuyun",
+      "post": "licorne-hyundai-pangyo-offline-retail"
+    }
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",
@@ -149,6 +156,6 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Sertifikalar ve tesciller",
-    "certs_note": "Şirket tarafından beyan edilmiştir. LICORNE'un (Limetree Co., Ltd.) belirttiği üzere marka bir vegan sertifikasına sahiptir ve CGMP / ISO 22716 kapsamında üretim yapmaktadır; ürün tescilleri US MoCRA, EU CPNP, Japan PMDA, Malaysia NPRA, Russia EAC, China NMPA ve Thailand TFDA genelinde beyan edilmektedir. Pazar bazında durum değişebilir ve bazı tesciller sürüyor olabilir. Belge kopyaları anlaşma aşamasında talep edilip doğrulanır."
+    "certs_note": "Tescil belgelerinin kopyaları Ağustos 2026'da Limetree Co., Ltd. tarafından Teranova'ya teslim edilmiş olup tarafımızda saklanmaktadır. Vegan sertifikası ve CGMP / ISO 22716 kapsamındaki üretim, firmanın beyanıdır. Pazar bazında güncel durum ve tescilin yeni bir iş ortağına devredilebilmesi işlem aşamasında teyit edilir."
   }
 }

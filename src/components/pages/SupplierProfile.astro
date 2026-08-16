@@ -212,6 +212,20 @@ function lineShot(name: string): string | undefined {
     </div>
   </section>
 
+  <!-- SPOTLIGHT — one dated fact about the brand, linked to the article -->
+  {c.spotlight && (
+    <section class="sp-spot">
+      <div class="wrap">
+        <a class="sp-spot__card" href={localizePath(`/blog/${c.spotlight.post}`, lang)}>
+          <span class="sp-spot__lbl">{c.spotlight.label}</span>
+          <h2 class="sp-spot__h">{c.spotlight.title}</h2>
+          <p class="sp-spot__p">{c.spotlight.text}</p>
+          <span class="sp-spot__cta">{c.spotlight.cta} →</span>
+        </a>
+      </div>
+    </section>
+  )}
+
   {profile.status === 'visited' && profile.visitGallery && profile.visitGallery.length > 0 && (
     <section class="sp-sec sp-sec--tint">
       <div class="wrap">
@@ -577,6 +591,32 @@ function lineShot(name: string): string | undefined {
   .sp-lvl { display: block; font-size: 0.74rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ds-sky); margin-bottom: 16px; }
   .sp-body { font-size: 1.02rem; line-height: 1.75; color: #364357; }
   .sp-body + .sp-body { margin-top: 14px; }
+
+  /* ---- SPOTLIGHT ----
+     One dated fact about the brand right under the hero — a retail launch, an
+     award — carrying the reader into the article that unpacks it. The band
+     appears only for suppliers whose content has `spotlight`. */
+  .sp-spot { padding: clamp(22px, 3vw, 32px) 0 0; }
+  .sp-spot__card {
+    display: block; position: relative; border-radius: var(--ds-r);
+    padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 32px);
+    background: linear-gradient(115deg, color-mix(in srgb, var(--ds-bg) 92%, #fff), #fff 78%);
+    border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #e2e8f0);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+  /* the brand's own gradient as a thin rule, so the band reads as a marker
+     rather than as one more section */
+  .sp-spot__card::before {
+    content: ''; position: absolute; inset: 14px auto 14px 0; width: 3px; border-radius: 0 3px 3px 0;
+    background: linear-gradient(180deg, var(--ds-sky), var(--ds-accent));
+  }
+  .sp-spot__card:hover { border-color: color-mix(in srgb, var(--ds-sky) 55%, #e2e8f0); box-shadow: 0 8px 26px rgba(16, 32, 64, 0.08); transform: translateY(-1px); }
+  .sp-spot__lbl { display: inline-flex; align-items: center; gap: 8px; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ds-accent); }
+  .sp-spot__lbl::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .sp-spot__h { font-family: var(--ds-head); font-size: clamp(1.14rem, 2.2vw, 1.5rem); font-weight: 800; letter-spacing: var(--ds-track); line-height: 1.25; color: var(--ds-deep); margin-top: 10px; }
+  .sp-spot__p { font-size: 0.98rem; line-height: 1.7; color: #45576f; margin-top: 10px; max-width: 76ch; }
+  .sp-spot__cta { display: inline-block; margin-top: 14px; font-size: 0.88rem; font-weight: 700; color: var(--ds-sky); }
+  .sp-spot__card:hover .sp-spot__cta { color: var(--ds-deep); }
 
   .sp-facts { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 22px; }
   .sp-facts li { font-size: 0.85rem; font-weight: 600; color: var(--ds-deep); background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); border-radius: 100px; padding: 7px 15px; }

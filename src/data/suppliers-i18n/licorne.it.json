@@ -69,7 +69,7 @@
       "Detergenti e wash-off pack, 100–200 ml",
       "Patch idrogel microshot"
     ],
-    "exportNote": "Come dichiarato dall'azienda, i prodotti LICORNE sono dotati di registrazioni dichiarate in diversi mercati di esportazione — US MoCRA, EU CPNP, Japan PMDA, Malaysia NPRA, Russia EAC, China NMPA e Thailand TFDA — con lo stato per singolo mercato confermato in fase di trattativa. In Corea, LICORNE ha realizzato un pop-up del marchio presso l'Hyundai Department Store di Pangyo (agosto 2026). La base di consegna è FOB Korea.",
+    "exportNote": "Le registrazioni di LICORNE sono sostenute da copie di documenti consegnate a Teranova nell'agosto 2026. Nell'Unione Europea risultano notifiche CPNP per 15 prodotti e relazioni di sicurezza CPSR per 11, in Giappone pratiche per 9 prodotti insieme alle etichette giapponesi e alle liste complete degli ingredienti. A Singapore sono notificate 10 referenze con validità fino a maggio 2027, in Malaysia 5 referenze fino a novembre 2027. La Cina conta 6 registrazioni NMPA per cosmetici importati, la Thailandia 4 registrazioni FDA, la Russia 7 dichiarazioni di conformità al TR CU 009/2011, e per gli Stati Uniti l'azienda ha fornito il listing MoCRA. Le registrazioni di Vietnam e Filippine sono contrassegnate come scadute e una parte di quelle attive è intestata a titolari locali, quindi il trasferimento a un nuovo partner si verifica in fase di trattativa. Dall'11 al 23 agosto 2026 il marchio gestisce un proprio corner all'Hyundai Department Store di Pangyo. La base di consegna è FOB Korea.",
     "terms": [
       {
         "label": "Base di consegna",
@@ -125,7 +125,14 @@
       "Un tonico balance Jinjung per calmare e riequilibrare la pelle sensibile.",
       "Una crema balance Jinjung per un'idratazione quotidiana lenitiva.",
       "Un patch microshot all'acido ialuronico per un'idratazione mirata e intensiva."
-    ]
+    ],
+    "spotlight": {
+      "label": "Retail · agosto 2026",
+      "title": "LICORNE all'Hyundai Department Store Pangyo",
+      "text": "Dall'11 al 23 agosto 2026 il marchio gestisce un proprio corner in un grande magazzino premium vicino a Seul. Vediamo cosa dice questo passaggio sulla sua maturità retail e quali documenti sostengono le sue registrazioni.",
+      "cta": "Leggi l'analisi",
+      "post": "licorne-hyundai-pangyo-offline-retail"
+    }
   },
   "ui": {
     "profile_sup": "Profilo del fornitore",
@@ -149,6 +156,6 @@
     "more": "Apri il profilo →",
     "verified_suppliers": "Fornitori verificati",
     "certs_h": "Certificazioni e registrazioni",
-    "certs_note": "Dichiarato dall'azienda. Come dichiarato da LICORNE (Limetree Co., Ltd.), il marchio è dotato di una certificazione vegana e produce secondo CGMP / ISO 22716; le registrazioni dei prodotti sono dichiarate in US MoCRA, EU CPNP, Japan PMDA, Malaysia NPRA, Russia EAC, China NMPA e Thailand TFDA. Lo stato per singolo mercato può variare e alcune registrazioni potrebbero essere in corso. Le copie dei documenti sono richieste e verificate in fase di trattativa."
+    "certs_note": "Le copie dei documenti di registrazione sono state consegnate a Teranova da Limetree Co., Ltd. nell'agosto 2026 e sono conservate presso di noi. La certificazione vegana e la produzione secondo CGMP / ISO 22716 sono dichiarate dall'azienda. Lo stato di validità per singolo mercato e la possibilità di intestare la registrazione a un nuovo partner si confermano in fase di trattativa."
   }
 }
