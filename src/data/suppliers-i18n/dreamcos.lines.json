@@ -359,12 +359,6 @@
     "certs": []
    },
    {
-    "name": "RUDIA Very Berry Beet Serum",
-    "img": "/img/suppliers/dreamcos/products/rudia-very-berry-beet-serum.jpg",
-    "volume": "55 ml",
-    "certs": []
-   },
-   {
     "name": "RUDIA Crown Panthenol Nutrition Cream",
     "img": "/img/suppliers/dreamcos/products/rudia-crown-panthenol-cream.jpg",
     "certs": []
@@ -376,8 +370,8 @@
     "certs": []
    },
    {
-    "name": "RUDIA Crown Madecassoside Ampoule",
-    "img": "/img/suppliers/dreamcos/products/rudia-crown-madecassoside-ampoule.jpg",
+    "name": "RUDIA Crown Master Benone Ampoule",
+    "img": "/img/suppliers/dreamcos/products/rudia-crown-master-benone-ampoule.jpg",
     "volume": "30 ml",
     "certs": []
    },
@@ -391,210 +385,199 @@
   "i18n": {
    "ru": {
     "seoTitle": "RUDIA (DREAMCOS) — сыворотки и ампулы · Teranova",
-    "seoDesc": "RUDIA — бренд функционального ухода группы DREAMCOS с активными формулами: глутатион, бакучиол, пантенол, мадекассосид, коллаген с EGF. Сыворотки 50–55 мл и ампулы 30 мл линии Crown. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+    "seoDesc": "RUDIA — бренд функционального ухода группы DREAMCOS с активными формулами: глутатион, бакучиол, пантенол, идебенон, коллаген с EGF. Сыворотки 50 мл и ампулы 30 мл линии Crown. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
     "tagline": "Активные формулы в сыворотках и ампулах для ухода",
     "about": [
      "RUDIA — бренд функционального ухода в портфеле корейской группы DREAMCOS, ориентированный на чувствительную кожу и построенный вокруг узнаваемых активных компонентов: глутатион, ретинол и бакучиол. По данным компании, бренд проходит перезапуск в 2026 году с обновлённым ассортиментом сывороток, ампул и кремов.",
-     "Линейка делится на два блока. Сыворотки 50–55 мл: с глутатионом для сияния и ровного тона, с бакучиолом (растительная альтернатива ретинолу), для ухода за порами и лимитированная со свёклой и ягодами. Линия Crown — ампулы 30 мл с морковью, мадекассосидом и коллагеном с EGF и питательный крем с пантенолом. Набор удобен для бьюти-ретейла, аптечного канала и e-commerce; оптовые поставки из Кореи."
+     "Линейка делится на два блока. Сыворотки 50 мл: с глутатионом для сияния и ровного тона, с бакучиолом (растительная альтернатива ретинолу) и для ухода за порами. Линия Crown — ампулы 30 мл с морковью, идебеноном (Benone) и коллагеном с EGF и питательный крем с пантенолом. Набор удобен для бьюти-ретейла, аптечного канала и e-commerce; оптовые поставки из Кореи."
     ],
     "itemNotes": [
      "Сыворотка с глутатионом для сияния и выравнивания тона кожи.",
      "Восстанавливающая сыворотка с бакучиолом (растительная альтернатива ретинолу).",
      "Очищающая сыворотка для ухода за порами.",
-     "Сыворотка с экстрактом свёклы и ягод для свежести кожи; лимитированный выпуск.",
      "Питательный крем с пантенолом линии Crown для интенсивного питания кожи.",
      "Витаминная ампула с морковью линии Crown для сияния кожи.",
-     "Успокаивающая ампула с мадекассосидом (центелла) линии Crown.",
+     "Ампула Master Benone линии Crown с идебеноном и коллагеном; по данным компании, работает с пигментацией и следами постакне.",
      "Восстанавливающая ампула с коллагеном и EGF-комплексом линии Crown."
     ]
    },
    "en": {
     "seoTitle": "RUDIA (DREAMCOS) — serums and ampoules · Teranova",
-    "seoDesc": "RUDIA is the functional care brand of the DREAMCOS group with active formulas: glutathione, bakuchiol, panthenol, madecassoside, EGF collagen. 50–55 ml serums and 30 ml Crown ampoules. Wholesale supply from Korea and deal support through Teranova.",
+    "seoDesc": "RUDIA is the functional care brand of the DREAMCOS group with active formulas: glutathione, bakuchiol, panthenol, idebenone, EGF collagen. 50 ml serums and 30 ml Crown ampoules. Wholesale supply from Korea and deal support through Teranova.",
     "tagline": "Active formulas in serums and ampoules for skin care",
     "about": [
      "RUDIA is a functional care brand in the portfolio of the Korean group DREAMCOS, aimed at sensitive skin and built around recognizable active ingredients: glutathione, retinol and bakuchiol. Per company data, the brand is going through a relaunch in 2026 with an updated assortment of serums, ampoules and creams.",
-     "The range is split into two blocks. Serums of 50–55 ml: with glutathione for radiance and an even tone, with bakuchiol (a plant-based alternative to retinol), for pore care and a limited edition with beetroot and berries. The Crown line comprises 30 ml ampoules with carrot, madecassoside and collagen with EGF plus a nourishing cream with panthenol. The set suits beauty retail, the pharmacy channel and e-commerce; wholesale supply from Korea."
+     "The range is split into two blocks. Serums of 50 ml: with glutathione for radiance and an even tone, with bakuchiol (a plant-based alternative to retinol) and for pore care. The Crown line comprises 30 ml ampoules with carrot, idebenone (Benone) and collagen with EGF plus a nourishing cream with panthenol. The set suits beauty retail, the pharmacy channel and e-commerce; wholesale supply from Korea."
     ],
     "itemNotes": [
      "Glutathione serum for radiance and a more even skin tone.",
      "Repairing serum with Bakuchiol, a plant-based alternative to retinol.",
      "Purifying serum for pore care.",
-     "Serum with beet and berry extracts for fresh-looking skin; limited edition.",
      "Nourishing Panthenol cream from the Crown line for intensive skin nourishment.",
      "Vitamin ampoule with carrot from the Crown line for radiant skin.",
-     "Soothing Madecassoside (Centella) ampoule from the Crown line.",
+     "Master Benone ampoule from the Crown line with idebenone and collagen; according to the company, it works on pigmentation and post-acne marks.",
      "Repairing ampoule with Collagen and an EGF complex from the Crown line."
     ]
    },
    "ko": {
     "seoTitle": "RUDIA (DREAMCOS) — 세럼과 앰플 · Teranova",
-    "seoDesc": "RUDIA는 DREAMCOS 그룹의 기능성 케어 브랜드로 글루타티온, 바쿠치올, 판테놀, 마데카소사이드, EGF 콜라겐 등 액티브 처방을 담았습니다. 50~55ml 세럼과 Crown 라인 30ml 앰플로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+    "seoDesc": "RUDIA는 DREAMCOS 그룹의 기능성 케어 브랜드로 글루타티온, 바쿠치올, 판테놀, 이데베논, EGF 콜라겐 등 액티브 처방을 담았습니다. 50ml 세럼과 Crown 라인 30ml 앰플로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
     "tagline": "세럼과 앰플에 담은 액티브 케어 처방",
     "about": [
      "RUDIA는 한국 그룹 DREAMCOS 포트폴리오에 속한 기능성 케어 브랜드로, 민감한 피부를 겨냥하며 글루타티온, 레티놀, 바쿠치올 등 널리 알려진 활성 성분을 중심으로 구성됩니다. 회사 자료 기준 브랜드는 2026년 세럼, 앰플, 크림 구색을 새롭게 하여 리론칭을 진행하고 있습니다.",
-     "라인은 두 블록으로 나뉩니다. 50~55ml 세럼: 광채와 균일한 톤을 위한 글루타티온, 바쿠치올(레티놀의 식물성 대안), 모공 케어용, 그리고 비트와 베리를 담은 리미티드. Crown 라인은 당근, 마데카소사이드, EGF 콜라겐을 담은 30ml 앰플과 판테놀 영양 크림으로 구성됩니다. 뷰티 리테일, 약국 채널, 이커머스에 적합하며 한국에서의 도매 공급으로 진행됩니다."
+     "라인은 두 블록으로 나뉩니다. 50ml 세럼: 광채와 균일한 톤을 위한 글루타티온, 바쿠치올(레티놀의 식물성 대안), 모공 케어용. Crown 라인은 당근, 이데베논(Benone), EGF 콜라겐을 담은 30ml 앰플과 판테놀 영양 크림으로 구성됩니다. 뷰티 리테일, 약국 채널, 이커머스에 적합하며 한국에서의 도매 공급으로 진행됩니다."
     ],
     "itemNotes": [
      "피부 광채와 톤 정돈을 위한 Glutathione 세럼.",
      "레티놀의 식물성 대안인 Bakuchiol이 함유된 리페어 세럼.",
      "모공 케어를 위한 퓨리파잉 세럼.",
-     "생기 있는 피부를 위한 비트·베리 추출물 세럼; 한정판.",
      "집중 영양을 위한 Crown 라인의 Panthenol 영양 크림.",
      "피부 광채를 위한 Crown 라인의 당근 비타민 앰플.",
-     "Crown 라인의 진정 Madecassoside(센텔라) 앰플.",
+     "Crown 라인의 Master Benone 앰플. 이데베논과 콜라겐 함유로, 회사에 따르면 색소침착과 여드름 자국 관리에 사용됩니다.",
      "Crown 라인의 Collagen·EGF 복합 리커버리 앰플."
     ]
    },
    "zh": {
     "seoTitle": "RUDIA (DREAMCOS) — 精华与安瓶 · Teranova",
-    "seoDesc": "RUDIA 是 DREAMCOS 集团的功能性护理品牌，配方活性成分鲜明：谷胱甘肽、补骨脂酚、泛醇、羟基积雪草苷、含 EGF 的胶原蛋白。50–55 毫升精华与 Crown 线 30 毫升安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
+    "seoDesc": "RUDIA 是 DREAMCOS 集团的功能性护理品牌，配方活性成分鲜明：谷胱甘肽、补骨脂酚、泛醇、艾地苯、含 EGF 的胶原蛋白。50 毫升精华与 Crown 线 30 毫升安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
     "tagline": "精华与安瓶中的活性配方",
     "about": [
      "RUDIA 是韩国 DREAMCOS 集团旗下的功能性护理品牌，面向敏感肌，围绕辨识度高的活性成分构建：谷胱甘肽、视黄醇与补骨脂酚。据公司资料，品牌将在 2026 年重新启动，并更新精华、安瓶与面霜的产品阵容。",
-     "系列分为两个部分。50–55 毫升精华：含谷胱甘肽用于光泽与均匀肤色、含补骨脂酚（视黄醇的植物替代成分）、毛孔护理款，以及甜菜与浆果的限定款。Crown 线为 30 毫升安瓶——胡萝卜、羟基积雪草苷、含 EGF 的胶原蛋白——以及含泛醇的滋养面霜。这一组合适合美妆零售、药妆渠道与电商；韩国批发供应。"
+     "系列分为两个部分。50 毫升精华：含谷胱甘肽用于光泽与均匀肤色、含补骨脂酚（视黄醇的植物替代成分）、毛孔护理款。Crown 线为 30 毫升安瓶——胡萝卜、艾地苯、含 EGF 的胶原蛋白——以及含泛醇的滋养面霜。这一组合适合美妆零售、药妆渠道与电商；韩国批发供应。"
     ],
     "itemNotes": [
      "含谷胱甘肽的精华液，提亮并均匀肤色。",
      "含 Bakuchiol（补骨脂酚，视黄醇的植物替代成分）的修护精华液。",
      "呵护毛孔的净化精华液。",
-     "含甜菜与浆果提取物的清新肌肤精华液，限量发售。",
      "Crown 系列含泛醇的滋养面霜，深度滋润肌肤。",
      "Crown 系列含胡萝卜的维生素安瓶，令肌肤焕发光彩。",
-     "Crown 系列含 Madecassoside（积雪草苷）的舒缓安瓶。",
+     "Crown 系列的 Master Benone 安瓶，含艾地苯与胶原蛋白；据该公司介绍，针对色素沉着与痘印。",
      "Crown 系列含胶原蛋白与 EGF 复合成分的修护安瓶。"
     ]
    },
    "ja": {
     "seoTitle": "RUDIA (DREAMCOS) — 美容液とアンプル · Teranova",
-    "seoDesc": "RUDIA は DREAMCOS グループの機能性ケアブランド：グルタチオン、バクチオール、パンテノール、マデカッソシド、EGF 配合コラーゲン。50〜55 mL の美容液と Crown ラインの 30 mL アンプル。韓国からの卸売供給、Teranova による取引サポート。",
+    "seoDesc": "RUDIA は DREAMCOS グループの機能性ケアブランド：グルタチオン、バクチオール、パンテノール、イデベノン、EGF 配合コラーゲン。50 mL の美容液と Crown ラインの 30 mL アンプル。韓国からの卸売供給、Teranova による取引サポート。",
     "tagline": "美容液とアンプルのアクティブ処方",
     "about": [
      "RUDIA は韓国の DREAMCOS グループのポートフォリオにある機能性ケアブランドで、敏感肌に向け、分かりやすい有効成分——グルタチオン、レチノール、バクチオール——を軸に構成されています。会社提供の情報によると、ブランドは 2026 年にリニューアルされ、美容液、アンプル、クリームの品揃えが刷新されます。",
-     "ラインは二つのブロックに分かれます。50〜55 mL の美容液：ツヤと均一な肌色のためのグルタチオン配合、バクチオール配合(レチノールの植物由来の代替成分)、毛穴ケア用、そしてビーツとベリーの限定品。Crown ラインは 30 mL のアンプル——ニンジン、マデカッソシド、EGF 配合コラーゲン——と、パンテノール配合の栄養クリームです。ビューティー小売、ドラッグストアチャネル、EC に扱いやすい構成で、韓国からの卸売供給となります。"
+     "ラインは二つのブロックに分かれます。50 mL の美容液：ツヤと均一な肌色のためのグルタチオン配合、バクチオール配合(レチノールの植物由来の代替成分)、毛穴ケア用。Crown ラインは 30 mL のアンプル——ニンジン、イデベノン、EGF 配合コラーゲン——と、パンテノール配合の栄養クリームです。ビューティー小売、ドラッグストアチャネル、EC に扱いやすい構成で、韓国からの卸売供給となります。"
     ],
     "itemNotes": [
      "グルタチオン配合で肌にツヤを与え、トーンを整える美容液。",
      "Bakuchiol（バクチオール、レチノールの植物由来代替成分）配合の修復美容液。",
      "毛穴ケアのための浄化美容液。",
-     "ビーツとベリーエキス配合で肌に爽やかさを与える美容液、数量限定。",
      "Crown ラインのパンテノール配合栄養クリーム、肌を集中的に保湿。",
      "Crown ラインのにんじん配合ビタミンアンプル、肌にツヤを与える。",
-     "Crown ラインの Madecassoside（ツボクサ由来）配合の鎮静アンプル。",
+     "Crown ラインの Master Benone アンプル。イデベノンとコラーゲン配合で、同社によると色素沈着とニキビ跡にアプローチします。",
      "Crown ラインのコラーゲンと EGF 複合成分配合の修復アンプル。"
     ]
    },
    "it": {
     "seoTitle": "RUDIA (DREAMCOS) — sieri e fiale · Teranova",
-    "seoDesc": "RUDIA — brand di cura funzionale del gruppo DREAMCOS con formule attive: glutatione, bakuchiol, pantenolo, madecassoside, collagene con EGF. Sieri da 50–55 ml e fiale da 30 ml della linea Crown. Forniture all'ingrosso dalla Corea tramite Teranova.",
+    "seoDesc": "RUDIA — brand di cura funzionale del gruppo DREAMCOS con formule attive: glutatione, bakuchiol, pantenolo, idebenone, collagene con EGF. Sieri da 50 ml e fiale da 30 ml della linea Crown. Forniture all'ingrosso dalla Corea tramite Teranova.",
     "tagline": "Formule attive in sieri e fiale per la routine",
     "about": [
      "RUDIA è il brand di cura funzionale nel portafoglio del gruppo coreano DREAMCOS, orientato alle pelli sensibili e costruito attorno ad attivi riconoscibili: glutatione, retinolo e bakuchiol. Secondo i dati dell'azienda, il brand è in fase di rilancio nel 2026 con un assortimento rinnovato di sieri, fiale e creme.",
-     "La linea si divide in due blocchi. Sieri da 50–55 ml: con glutatione per luminosità e incarnato uniforme, con bakuchiol (alternativa vegetale al retinolo), per la cura dei pori e uno in edizione limitata con barbabietola e frutti di bosco. La linea Crown comprende fiale da 30 ml con carota, madecassoside e collagene con EGF e una crema nutriente al pantenolo. L'insieme è comodo per beauty retail, canale farmacia ed e-commerce; forniture all'ingrosso dalla Corea."
+     "La linea si divide in due blocchi. Sieri da 50 ml: con glutatione per luminosità e incarnato uniforme, con bakuchiol (alternativa vegetale al retinolo) e per la cura dei pori. La linea Crown comprende fiale da 30 ml con carota, idebenone (Benone) e collagene con EGF e una crema nutriente al pantenolo. L'insieme è comodo per beauty retail, canale farmacia ed e-commerce; forniture all'ingrosso dalla Corea."
     ],
     "itemNotes": [
      "Siero al glutatione per la luminosità e l'uniformità dell'incarnato.",
      "Siero riparatore al bakuchiol (alternativa vegetale al retinolo).",
      "Siero purificante per la cura dei pori.",
-     "Siero con estratto di barbabietola e frutti di bosco per la freschezza della pelle; edizione limitata.",
      "Crema nutriente al pantenolo della linea Crown per un nutrimento intensivo della pelle.",
      "Fiala vitaminica alla carota della linea Crown per la luminosità della pelle.",
-     "Fiala lenitiva al madecassoside (centella) della linea Crown.",
+     "Fiala Master Benone della linea Crown con idebenone e collagene; secondo l’azienda agisce su iperpigmentazione e segni post-acne.",
      "Fiala riparatrice con collagene e complesso EGF della linea Crown."
     ]
    },
    "de": {
     "seoTitle": "RUDIA (DREAMCOS) — Seren und Ampullen · Teranova",
-    "seoDesc": "RUDIA — Marke funktioneller Pflege der Gruppe DREAMCOS mit aktiven Formeln: Glutathion, Bakuchiol, Panthenol, Madecassosid, Kollagen mit EGF. Seren 50–55 ml und Ampullen 30 ml der Linie Crown. Großhandelslieferungen aus Korea über Teranova.",
+    "seoDesc": "RUDIA — Marke funktioneller Pflege der Gruppe DREAMCOS mit aktiven Formeln: Glutathion, Bakuchiol, Panthenol, Idebenon, Kollagen mit EGF. Seren 50 ml und Ampullen 30 ml der Linie Crown. Großhandelslieferungen aus Korea über Teranova.",
     "tagline": "Aktive Formeln in Seren und Ampullen für die Pflege",
     "about": [
      "RUDIA ist eine Marke funktioneller Pflege im Portfolio der koreanischen Gruppe DREAMCOS, ausgerichtet auf empfindliche Haut und aufgebaut rund um bekannte aktive Komponenten: Glutathion, Retinol und Bakuchiol. Laut Unternehmensangaben durchläuft die Marke 2026 einen Relaunch mit einem erneuerten Sortiment an Seren, Ampullen und Cremes.",
-     "Die Serie gliedert sich in zwei Blöcke. Seren zu 50–55 ml: mit Glutathion für Strahlkraft und einen ebenmäßigen Teint, mit Bakuchiol (pflanzliche Alternative zu Retinol), zur Pflege der Poren und eine limitierte Variante mit Rote Bete und Beeren. Die Linie Crown umfasst Ampullen zu 30 ml mit Karotte, Madecassosid und Kollagen mit EGF sowie eine nährende Creme mit Panthenol. Das Set eignet sich für Beauty-Retail, den Apothekenkanal und E-Commerce; Großhandelslieferungen aus Korea."
+     "Die Serie gliedert sich in zwei Blöcke. Seren zu 50 ml: mit Glutathion für Strahlkraft und einen ebenmäßigen Teint, mit Bakuchiol (pflanzliche Alternative zu Retinol) und zur Pflege der Poren. Die Linie Crown umfasst Ampullen zu 30 ml mit Karotte, Idebenon (Benone) und Kollagen mit EGF sowie eine nährende Creme mit Panthenol. Das Set eignet sich für Beauty-Retail, den Apothekenkanal und E-Commerce; Großhandelslieferungen aus Korea."
     ],
     "itemNotes": [
      "Serum mit Glutathion für Strahlkraft und einen ebenmäßigen Hautton.",
      "Regenerierendes Serum mit Bakuchiol (pflanzliche Alternative zu Retinol).",
      "Klärendes Serum zur Porenpflege.",
-     "Serum mit Rote-Bete- und Beerenextrakt für frische Haut; limitierte Edition.",
      "Pflegende Creme mit Panthenol der Crown Linie für intensive Hautpflege.",
      "Vitamin-Ampulle mit Karotte der Crown Linie für strahlende Haut.",
-     "Beruhigende Ampulle mit Madecassosid (Centella) der Crown Linie.",
+     "Master-Benone-Ampulle der Crown-Linie mit Idebenon und Kollagen; nach Angaben des Unternehmens gegen Pigmentflecken und Post-Akne-Spuren.",
      "Regenerierende Ampulle mit Kollagen und EGF-Komplex der Crown Linie."
     ]
    },
    "fr": {
     "seoTitle": "RUDIA (DREAMCOS) — sérums et ampoules · Teranova",
-    "seoDesc": "RUDIA — marque de soin fonctionnel du groupe DREAMCOS aux formules actives : glutathion, bakuchiol, panthénol, madécassoside, collagène avec EGF. Sérums 50–55 ml et ampoules 30 ml de la ligne Crown. Approvisionnement en gros via Teranova.",
+    "seoDesc": "RUDIA — marque de soin fonctionnel du groupe DREAMCOS aux formules actives : glutathion, bakuchiol, panthénol, idébénone, collagène avec EGF. Sérums 50 ml et ampoules 30 ml de la ligne Crown. Approvisionnement en gros via Teranova.",
     "tagline": "Formules actives en sérums et ampoules pour le soin",
     "about": [
      "RUDIA est une marque de soin fonctionnel du portefeuille du groupe coréen DREAMCOS, orientée vers les peaux sensibles et construite autour d'actifs reconnaissables : glutathion, rétinol et bakuchiol. Selon les données de l'entreprise, la marque connaît un relancement en 2026 avec un assortiment renouvelé de sérums, d'ampoules et de crèmes.",
-     "La gamme se divise en deux blocs. Les sérums de 50 à 55 ml : au glutathion pour l'éclat et l'uniformité du teint, au bakuchiol (alternative végétale au rétinol), pour le soin des pores et une édition limitée à la betterave et aux baies. La ligne Crown réunit des ampoules de 30 ml à la carotte, au madécassoside et au collagène avec EGF ainsi qu'une crème nourrissante au panthénol. Cet ensemble convient au retail beauté, au canal pharmaceutique et à l'e-commerce ; approvisionnement en gros depuis la Corée."
+     "La gamme se divise en deux blocs. Les sérums de 50 ml : au glutathion pour l'éclat et l'uniformité du teint, au bakuchiol (alternative végétale au rétinol) et pour le soin des pores. La ligne Crown réunit des ampoules de 30 ml à la carotte, à l’idébénone (Benone) et au collagène avec EGF ainsi qu'une crème nourrissante au panthénol. Cet ensemble convient au retail beauté, au canal pharmaceutique et à l'e-commerce ; approvisionnement en gros depuis la Corée."
     ],
     "itemNotes": [
      "Sérum au glutathion pour l'éclat et l'uniformité du teint.",
      "Sérum réparateur au bakuchiol (alternative végétale au rétinol).",
      "Sérum purifiant pour le soin des pores.",
-     "Sérum à l'extrait de betterave et de baies pour la fraîcheur de la peau ; édition limitée.",
      "Crème nourrissante au panthénol de la ligne Crown pour une nutrition intense de la peau.",
      "Ampoule vitaminée à la carotte de la ligne Crown pour l'éclat de la peau.",
-     "Ampoule apaisante au madécassoside (centella) de la ligne Crown.",
+     "Ampoule Master Benone de la ligne Crown à l’idébénone et au collagène ; selon l’entreprise, elle agit sur la pigmentation et les marques post-acné.",
      "Ampoule réparatrice au collagène et au complexe EGF de la ligne Crown."
     ]
    },
    "tr": {
     "seoTitle": "RUDIA (DREAMCOS) — serum ve ampuller · Teranova",
-    "seoDesc": "RUDIA — DREAMCOS grubunun aktif formüllü işlevsel bakım markası: glutatyon, bakuchiol, pantenol, madekassosid, EGF içeren kolajen. 50–55 ml serumlar ve Crown serisinin 30 ml ampulleri. Kore'den toptan tedarik Teranova aracılığıyla.",
+    "seoDesc": "RUDIA — DREAMCOS grubunun aktif formüllü işlevsel bakım markası: glutatyon, bakuchiol, pantenol, idebenon, EGF içeren kolajen. 50 ml serumlar ve Crown serisinin 30 ml ampulleri. Kore'den toptan tedarik Teranova aracılığıyla.",
     "tagline": "Serum ve ampullerde aktif bakım formülleri",
     "about": [
      "RUDIA, Kore menşeli DREAMCOS grubunun portföyünde yer alan, hassas cilde yönelik ve tanınan aktif bileşenler etrafında kurulu işlevsel bakım markasıdır: glutatyon, retinol ve bakuchiol. Şirket verilerine göre marka, yenilenmiş serum, ampul ve krem yelpazesiyle 2026'da yeniden lansmandan geçiyor.",
-     "Seri iki bölüme ayrılır. 50–55 ml serumlar: ışıltı ve eşit ton için glutatyonlu, bakuchiollü (retinolün bitkisel alternatifi), gözenek bakımı için olan ve pancar ile orman meyveli limitli seçenek. Crown serisi ise havuç, madekassosid ve EGF içeren kolajenli 30 ml ampuller ile pantenollü besleyici kremden oluşur. Bu set güzellik perakendesi, eczane kanalı ve e-ticaret için elverişlidir; Kore'den toptan tedarik."
+     "Seri iki bölüme ayrılır. 50 ml serumlar: ışıltı ve eşit ton için glutatyonlu, bakuchiollü (retinolün bitkisel alternatifi) ve gözenek bakımı için olan. Crown serisi ise havuç, idebenon (Benone) ve EGF içeren kolajenli 30 ml ampuller ile pantenollü besleyici kremden oluşur. Bu set güzellik perakendesi, eczane kanalı ve e-ticaret için elverişlidir; Kore'den toptan tedarik."
     ],
     "itemNotes": [
      "Cilde ışıltı ve ton eşitliği kazandıran glutatyonlu serum.",
      "Bakuchiol içeren onarıcı serum (retinole bitkisel alternatif).",
      "Gözenek bakımı için arındırıcı serum.",
-     "Cilde tazelik veren pancar ve meyve özlü serum; sınırlı üretim.",
      "Cildi yoğun besleyen Crown serisi pantenollü besleyici krem.",
      "Cilde ışıltı veren Crown serisi havuçlu vitamin ampulü.",
-     "Crown serisi madekassositli (centella) yatıştırıcı ampul.",
+     "Crown serisinin Master Benone ampulü; idebenon ve kolajen içerir, şirketin verdiği bilgiye göre pigmentasyon ve akne izlerine yöneliktir.",
      "Crown serisi kolajen ve EGF kompleksli onarıcı ampul."
     ]
    },
    "es": {
     "seoTitle": "RUDIA (DREAMCOS) — sérums y ampollas · Teranova",
-    "seoDesc": "RUDIA es la marca de cuidado funcional del grupo DREAMCOS, con fórmulas activas: glutatión, bakuchiol, madecasósido y colágeno con EGF. Sérums de 50–55 ml y ampollas de 30 ml de la línea Crown. Suministro mayorista desde Corea a través de Teranova.",
+    "seoDesc": "RUDIA es la marca de cuidado funcional del grupo DREAMCOS, con fórmulas activas: glutatión, bakuchiol, idebenona y colágeno con EGF. Sérums de 50 ml y ampollas de 30 ml de la línea Crown. Suministro mayorista desde Corea a través de Teranova.",
     "tagline": "Fórmulas activas en sérums y ampollas de cuidado",
     "about": [
      "RUDIA es la marca de cuidado funcional dentro del portafolio del grupo coreano DREAMCOS, orientada a la piel sensible y construida alrededor de activos muy reconocibles: glutatión, retinol y bakuchiol. Según datos de la empresa, la marca atraviesa un relanzamiento en 2026 con un surtido renovado de sérums, ampollas y cremas.",
-     "La línea se divide en dos bloques. Sérums de 50–55 ml: con glutatión para la luminosidad y el tono uniforme, con bakuchiol (alternativa vegetal al retinol), para el cuidado de los poros y una edición limitada con remolacha y frutos rojos. La línea Crown reúne ampollas de 30 ml con zanahoria, madecasósido y colágeno con EGF, y una crema nutritiva con pantenol. El conjunto encaja en retail de belleza, canal farmacéutico y comercio electrónico; suministro mayorista desde Corea."
+     "La línea se divide en dos bloques. Sérums de 50 ml: con glutatión para la luminosidad y el tono uniforme, con bakuchiol (alternativa vegetal al retinol) y para el cuidado de los poros. La línea Crown reúne ampollas de 30 ml con zanahoria, idebenona (Benone) y colágeno con EGF, y una crema nutritiva con pantenol. El conjunto encaja en retail de belleza, canal farmacéutico y comercio electrónico; suministro mayorista desde Corea."
     ],
     "itemNotes": [
      "Sérum con glutatión para la luminosidad y la uniformidad del tono de la piel.",
      "Sérum reparador con bakuchiol (alternativa vegetal al retinol).",
      "Sérum purificante para el cuidado de los poros.",
-     "Sérum con extracto de remolacha y frutos rojos para la frescura de la piel; edición limitada.",
      "Crema nutritiva con pantenol de la línea Crown para una nutrición intensiva de la piel.",
      "Ampolla vitamínica con zanahoria de la línea Crown para la luminosidad de la piel.",
-     "Ampolla calmante con madecassósido (centella) de la línea Crown.",
+     "Ampolla Master Benone de la línea Crown con idebenona y colágeno; según la empresa, actúa sobre la pigmentación y las marcas post-acné.",
      "Ampolla reparadora con colágeno y complejo EGF de la línea Crown."
     ]
    },
    "pt": {
     "seoTitle": "RUDIA (DREAMCOS) — séruns e ampolas · Teranova",
-    "seoDesc": "RUDIA é a marca de cuidado funcional do grupo DREAMCOS, com fórmulas ativas: glutationa, bakuchiol, pantenol, madecassosídeo e colágeno com EGF. Séruns de 50–55 ml e ampolas de 30 ml da linha Crown. Fornecimento por atacado da Coreia pela Teranova.",
+    "seoDesc": "RUDIA é a marca de cuidado funcional do grupo DREAMCOS, com fórmulas ativas: glutationa, bakuchiol, pantenol, idebenona e colágeno com EGF. Séruns de 50 ml e ampolas de 30 ml da linha Crown. Fornecimento por atacado da Coreia pela Teranova.",
     "tagline": "Fórmulas ativas em séruns e ampolas de tratamento",
     "about": [
      "A RUDIA é a marca de cuidado funcional no portfólio do grupo coreano DREAMCOS, voltada à pele sensível e organizada em torno de ativos bem conhecidos: glutationa, retinol e bakuchiol. Segundo dados da empresa, a marca passa por um relançamento em 2026, com sortimento renovado de séruns, ampolas e cremes.",
-     "A linha se divide em dois blocos. Séruns de 50–55 ml: com glutationa para viço e tom uniforme, com bakuchiol (alternativa vegetal ao retinol), para o cuidado dos poros e uma edição limitada com beterraba e frutas vermelhas. Já a linha Crown traz ampolas de 30 ml com cenoura, madecassosídeo e colágeno com EGF, além de um creme nutritivo com pantenol. O conjunto serve ao varejo de beleza, ao canal farmacêutico e ao e-commerce; fornecimento por atacado da Coreia."
+     "A linha se divide em dois blocos. Séruns de 50 ml: com glutationa para viço e tom uniforme, com bakuchiol (alternativa vegetal ao retinol) e para o cuidado dos poros. Já a linha Crown traz ampolas de 30 ml com cenoura, idebenona (Benone) e colagénio com EGF, além de um creme nutritivo com pantenol. O conjunto serve ao varejo de beleza, ao canal farmacêutico e ao e-commerce; fornecimento por atacado da Coreia."
     ],
     "itemNotes": [
      "Sérum com glutationa para a luminosidade e uniformidade do tom da pele.",
      "Sérum reparador com bakuchiol (alternativa vegetal ao retinol).",
      "Sérum purificante para o cuidado dos poros.",
-     "Sérum com extrato de beterraba e frutos vermelhos para a frescura da pele; edição limitada.",
      "Creme nutritivo com pantenol da linha Crown para uma nutrição intensiva da pele.",
      "Ampola vitamínica com cenoura da linha Crown para a luminosidade da pele.",
-     "Ampola calmante com madecassósido (centella) da linha Crown.",
+     "Ampola Master Benone da linha Crown com idebenona e colagénio; segundo a empresa, atua na pigmentação e nas marcas pós-acne.",
      "Ampola reparadora com colágeno e complexo EGF da linha Crown."
     ]
    }
