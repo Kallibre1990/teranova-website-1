@@ -69,7 +69,9 @@ const RU_UI = {
    `node scripts/gen-supplier-pdfs.mjs <id>`, or all when no arg. */
 const SUPPLIERS = [
   {
-    id: 'sante', json: 'sante', supplier: 'SANTE COSMETICS', brand: 'Dr.SANTE', basis: 'FOB Korea',
+    /* noPrice: SANTE COSMETICS 18.08.2026 письменно попросила не публиковать экспортный
+       прайс — он закрытый. Прайс-PDF для этого поставщика не собираем. */
+    id: 'sante', json: 'sante', supplier: 'SANTE COSMETICS', brand: 'Dr.SANTE', basis: 'FOB Korea', noPrice: true,
     colors: { deep: '#12306e', sky: '#4ca6fc', bg: '#f3f8ff', line: '#e6ebf3' },
     pres: true,
     certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'MoCRA', 'CPNP', 'HALAL', 'NMPA', 'SCPN', 'DAV'],
@@ -106,7 +108,7 @@ const SUPPLIERS = [
       terms: [
         { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции; OEM/ODM — собственная разработка и производство.' },
         { label: 'Минимальный заказ', value: 'Ориентировочно от $4 000 на первый заказ; небольшие партии по отдельным позициям.' },
-        { label: 'Цены', value: 'Ориентировочный оптовый диапазон FOB; точные цены — по запросу на стадии сделки.' },
+        { label: 'Цены', value: 'Цены по запросу. Экспортный прайс-лист не публикуем — актуальные цены и базис поставки покупатель получает на стадии сделки через Teranova.' },
         { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
       ],
     },
@@ -468,12 +470,17 @@ for (const cfg of targets) {
     cfg.colors = { ...cfg.colors, deep: site.deep, sky: site.sky, accent: site.accent, bg: site.bg };
     cfg.voice = site.voice;
   }
-  const priceLines = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.price.json`), 'utf8'));
+  const priceLines = cfg.noPrice
+    ? null
+    : JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.price.json`), 'utf8'));
   process.stdout.write(`\n${cfg.id}:`);
   for (const lang of LANGS) {
     await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
-    await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
-    n += 2;
+    n += 1;
+    if (priceLines) {
+      await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
+      n += 1;
+    }
     await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg), heroOf(cfg)),
       path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`));
     n += 1;

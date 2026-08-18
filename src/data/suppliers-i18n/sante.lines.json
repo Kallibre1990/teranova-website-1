@@ -7,7 +7,6 @@
    {
     "name": "Active Cleansing Soother",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -18,7 +17,6 @@
    {
     "name": "Azulene Soother Cleansing Milk",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -29,7 +27,6 @@
    {
     "name": "Azulene Soother Toner",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -42,7 +39,6 @@
    {
     "name": "Azulene Soother Gel",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -53,7 +49,6 @@
    {
     "name": "Azulene Soother Gel Stick",
     "volume": "5 ml × 20",
-    "price": "4.78",
     "certs": [
      "MoCRA"
     ],
@@ -62,7 +57,6 @@
    {
     "name": "Azulene Soother Lotion",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -73,7 +67,6 @@
    {
     "name": "Azulene Soother Mask",
     "volume": "33 g × 10",
-    "price": "7.97",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -86,7 +79,6 @@
    {
     "name": "Azulene Soother Semi-gel Mask",
     "volume": "33 g × 10",
-    "price": "7.97",
     "certs": [
      "SCPN"
     ]
@@ -94,7 +86,6 @@
    {
     "name": "Azulene Soother Ampoule",
     "volume": "100 / 50 ml",
-    "price": "12.75",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -107,7 +98,6 @@
    {
     "name": "Azulene Soother Cream",
     "volume": "150 / 50 g",
-    "price": "9.57",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -120,7 +110,6 @@
    {
     "name": "Azulene Soother Cream Mask",
     "volume": "150 / 50 g",
-    "price": "9.57",
     "certs": [
      "CPNP",
      "MoCRA"
@@ -130,7 +119,6 @@
    {
     "name": "Azulene Soother Peel Serum",
     "volume": "50 ml",
-    "price": "6.38",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -142,7 +130,6 @@
    {
     "name": "Azulene Soother BB Cushion",
     "volume": "15 g (+ refill)",
-    "price": "7.97",
     "certs": [
      "CPNP"
     ]
@@ -150,7 +137,6 @@
    {
     "name": "Azulene Soother Mist",
     "volume": "100 ml",
-    "price": "4.78",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -162,7 +148,6 @@
    {
     "name": "Azulene Soother Sun Essence",
     "volume": "75 g",
-    "price": "5.58",
     "certs": [
      "CPNP"
     ],
@@ -171,7 +156,6 @@
    {
     "name": "Azulene Soother Massage Cream",
     "volume": "1000 ml",
-    "price": "12.75",
     "certs": [
      "CPNP"
     ]
@@ -179,21 +163,18 @@
    {
     "name": "Azulene Soother Modeling Pack",
     "volume": "8 g × 10 + 80 g",
-    "price": "8.77",
     "certs": [],
     "img": "/img/suppliers/sante/products/azulene-soother-modeling-pack.png"
    },
    {
     "name": "Soother Semi-Gel Toner Pad",
     "volume": "80 / 500 sheets",
-    "price": "4.35",
     "certs": [],
     "img": "/img/suppliers/sante/products/soother-semi-gel-toner-pad.png"
    },
    {
     "name": "Soother BB Cream",
     "volume": "35 g",
-    "price": "5.58",
     "certs": []
    }
   ],
@@ -539,7 +520,6 @@
    {
     "name": "Artemisia AKA Toner",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP",
      "MoCRA"
@@ -549,7 +529,6 @@
    {
     "name": "Artemisia AKA Ampoule",
     "volume": "100 / 50 ml",
-    "price": "12.75",
     "certs": [
      "CPNP",
      "MoCRA"
@@ -558,7 +537,6 @@
    {
     "name": "Artemisia AKA Cream",
     "volume": "150 / 50 g",
-    "price": "9.57",
     "certs": [
      "CPNP",
      "MoCRA"
@@ -567,7 +545,6 @@
    {
     "name": "AKA Semi-Gel Mask",
     "volume": "40 g × 5",
-    "price": "3.62",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -580,14 +557,12 @@
    {
     "name": "AKA Toner Gauze Pad",
     "volume": "200 sheets",
-    "price": "4.35",
     "certs": [],
     "img": "/img/suppliers/sante/products/aka-toner-gauze-pad.png"
    },
    {
     "name": "Artemisia AKA BB Cream",
     "volume": "35 g",
-    "price": "5.58",
     "certs": []
    }
   ],
@@ -790,7 +765,6 @@
    {
     "name": "Collagen Leader Ampoule",
     "volume": "100 ml",
-    "price": "12.75",
     "certs": [
      "MoCRA"
     ]
@@ -798,7 +772,6 @@
    {
     "name": "Collagen Leader Cream",
     "volume": "150 g",
-    "price": "9.57",
     "certs": [
      "MoCRA"
     ]
@@ -806,7 +779,6 @@
    {
     "name": "Collagen Leader Mask",
     "volume": "10 sheets",
-    "price": "11.96",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -816,7 +788,6 @@
    {
     "name": "Collagen Leader Toner",
     "volume": "500 / 200 ml",
-    "price": "8.99",
     "certs": [
      "CPNP"
     ]
@@ -824,7 +795,6 @@
    {
     "name": "Collagen Leader Bubble Toner",
     "volume": "100 ml",
-    "price": "3.62",
     "certs": [
      "CPNP"
     ]
@@ -1018,7 +988,6 @@
    {
     "name": "Hyalquad Core Ampoule",
     "volume": "100 ml",
-    "price": "7.97",
     "certs": [
      "CPNP",
      "MoCRA"
@@ -1027,7 +996,6 @@
    {
     "name": "Hyalquad Core Cream",
     "volume": "200 / 50 g",
-    "price": "7.97",
     "certs": []
    }
   ],
@@ -1187,14 +1155,12 @@
     "name": "Elsol Boosting Oil (Jojoba)",
     "img": "/img/suppliers/sante/products/elsol-jojoba-oil-500ml.png",
     "volume": "500 ml",
-    "price": "31.88",
     "certs": []
    },
    {
     "name": "Elsol Boosting Oil (Jojoba)",
     "img": "/img/suppliers/sante/products/elsol-jojoba-oil-50ml.png",
     "volume": "50 ml",
-    "price": "6.38",
     "certs": []
    }
   ],

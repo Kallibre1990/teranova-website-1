@@ -1,140 +1,139 @@
 {
-  "content": {
-    "tagline": "O seu sucesso é a nossa alegria",
-    "descriptor": "Cosméticos estéticos profissionais da Coreia",
-    "origin": "Coreia",
-    "about": [
-      "A SANTE COSMETICS (a marca Dr.SANTE) é uma marca estética coreana com mais de 20 anos de história (desde 2003). A empresa desenvolve e fabrica cosméticos profissionais para cuidados com a pele, combinando anos de experiência prática, conhecimento profissional e foco na saúde da pele.",
-      "A filosofia da marca é saúde e beleza da pele ao mesmo tempo. Os produtos são criados para o segmento profissional e desenvolvidos para peles sensíveis, secas, irritadas e maduras."
-    ],
-    "facts": [
-      "Marca estética",
-      "Desde 2003",
-      "Desenvolvimento e fabricação próprios",
-      "Segmento profissional",
-      "Exportado para o exterior"
-    ],
-    "channels": [
-      "Clínicas de estética",
-      "Clínicas de dermatologia",
-      "Consultórios de medicina oriental",
-      "Salões de beleza"
-    ],
-    "lines": [
-      {
-        "name": "Azulene Soother",
-        "note": "Uma linha calmante com guaiazuleno e água de camomila: reduz rapidamente a irritação, diminui a temperatura da pele e fortalece a barreira, atuando na raiz dos problemas da pele sensível. Cremes, séruns, máscaras, loções, brumas, géis e essências de proteção solar."
-      },
-      {
-        "name": "Artemisia AKA",
-        "note": "Uma linha para peles com tendência a problemas e irritadas: segundo informações da empresa, oferece ação calmante pronunciada e ajuda a reduzir o aspecto irritado da pele. Ampolas, cremes e máscaras para reparação e cuidado da barreira."
-      },
-      {
-        "name": "Collagen Leader",
-        "note": "Cuidado à base de colágeno com foco em firmeza e peles maduras."
-      },
-      {
-        "name": "Hyalquad Core",
-        "note": "Hidratação intensiva à base de um complexo de ácido hialurônico."
-      },
-      {
-        "name": "Elsol",
-        "note": "Linha de óleos botânicos construída em torno de um óleo de jojoba israelense de qualidade superior, certificado USDA, não refinado e prensado a frio. Segundo informações da empresa, sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e a reforçá-la."
-      },
-      {
-        "name": "Hair Care",
-        "note": "Linha de cuidados com os cabelos e o couro cabeludo. Composição e sortimento completo são confirmados na etapa da negociação."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Guaiazuleno + água de camomila",
-        "note": "Real Blue Calming Solution — acalma a pele irritada, diminui sua temperatura e fortalece a barreira protetora."
-      },
-      {
-        "name": "LHASOL™",
-        "note": "Um ingrediente proprietário de 4ª geração — LHA estabilizado em alta concentração. Segundo informações da empresa, exerce ação esfoliante sobre as células queratinizadas e ajuda a pele com tendência a problemas a retornar a um pH saudável, levemente ácido."
-      }
-    ],
-    "formats": [
-      "Ampolas",
-      "Séruns",
-      "Cremes",
-      "Máscaras",
-      "Tônicos e discos",
-      "Produtos de limpeza",
-      "Proteção solar",
-      "Brumas",
-      "Óleos"
-    ],
-    "exportNote": "Os produtos Dr.SANTE são fornecidos ao exterior, incluindo os mercados dos EUA e do Japão.",
-    "consentNote": "Os dados e materiais são fornecidos pela SANTE COSMETICS e publicados com seu consentimento por escrito. A Teranova coordena e apoia o negócio.",
-    "seoTitle": "SANTE COSMETICS (Dr.SANTE) — cosméticos coreanos · Teranova",
-    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — cosméticos estéticos profissionais da Coreia. As linhas Azulene Soother, Artemisia AKA, Collagen Leader e Hyalquad Core para peles sensíveis e com tendência a problemas. Fornecimento e apoio ao negócio através da Teranova.",
-    "terms": [
-      {
-        "label": "Formatos de cooperação",
-        "value": "Fornecimento no atacado de produtos acabados; OEM/ODM — desenvolvimento e fabricação próprios."
-      },
-      {
-        "label": "Pedido mínimo",
-        "value": "Aproximadamente a partir de $4,000 para o primeiro pedido; pequenos lotes disponíveis para itens selecionados."
-      },
-      {
-        "label": "Preços",
-        "value": "Faixa indicativa de atacado FOB; preços exatos sob consulta na etapa do negócio."
-      },
-      {
-        "label": "Como funciona",
-        "value": "Solicitação → análise e alinhamento pela Teranova → negociações e amostras → logística, alfândega e pagamento, chave na mão."
-      }
-    ],
-    "catalog_notes": [
-      "Um produto de limpeza que mantém um pH levemente ácido de 5.5, próximo do estado mais saudável da pele; hipoalergênico, hidratante, calmante e que reforça a barreira cutânea.",
-      "Produto em gel à base de água de flor de camomila. Acalma, refresca e hidrata rapidamente a pele irritada por atividades ao ar livre, luz solar, UV, aquecimento ou ar-condicionado.",
-      "Tônico à base de extrato de flor de camomila e azuleno em vez de água purificada, com 50,000 ppm de extrato de menta do Monte Jirisan para acalmar e hidratar; processamento Aquaporin para hidratação mais profunda.",
-      "Leite de limpeza levemente ácido e hipoalergênico (pH 5.5) que remove a maquiagem diária e até o protetor solar, deixando uma barreira de hidratação sem repuxar.",
-      "Loção com azuleno azul real à base de água de flor de camomila. Contém pantenol e ceramida NP; aprovada em testes hipoalergênicos para peles sensíveis, de bebês e de crianças.",
-      "Essência solar à base de água de flor de camomila com 11 tipos de ácido hialurônico; hidrata o dia todo enquanto protege dos raios UV. O extrato de raiz de Sophora acalma e preserva a hidratação.",
-      "Máscara cremosa de enxágue à base de água de flor de camomila com 1,000 ppm de guaiazuleno, 20,000 ppm de dexpantenol e 8 tipos de ácido hialurônico. Hidrata, acalma e amacia a pele.",
-      "Creme na cor azul-escuro natural do azuleno, sem corantes artificiais. Forte ação calmante, retenção de hidratação e proteção, equilibrando água e óleo para uma pele mais saudável.",
-      "Cuidado calmante Azulene Soother em formato compacto de bastão.",
-      "Máscara facial de biocelulose, essência com 87% de água de flor de camomila para acalmar e hidratar rapidamente. A folha reparadora de 4ª geração adere firmemente e libera os ingredientes ativos.",
-      "Máscara modeladora em gel que não resseca, com 79% de água de flor de camomila e azuleno. Acalma instantaneamente a pele aquecida e reforça a barreira de hidratação.",
-      "Ampola para pele sensível com alto teor de azuleno, bem conhecida entre as marcas estéticas. Forte ação calmante, retenção de hidratação e proteção.",
-      "Sérum de peeling com PHA e LHA à base de água de flor de camomila. Remove suavemente as células mortas sem irritação, hidrata e adiciona luminosidade.",
-      "Bruma em spray para acalmar, relaxar, hidratar e nutrir de verdade a pele cansada e irritada.",
-      "Discos de tônico de fibra natural de bambu gelificada. Aderem suavemente, evitam a perda de hidratação e liberam os ingredientes ativos o dia todo com efeito envolvente.",
-      "Refil para o Azulene Soother Semi-Gel Toner Pad.",
-      "Tônico calmante levemente ácido que controla o excesso de sebo e melhora os poros; adequado para uso diário mesmo em peles sensíveis.",
-      "Máscara semi-gel para rosto e pescoço: segundo informações da empresa, ajuda a manter a pele limpa e confortável, acalma rapidamente e melhora o aspecto das imperfeições.",
-      "Disco vegano de algodão ecológico e Tencel. Não rasga nem estica, adere sem irritação e leva o tônico à pele.",
-      "Óleo de jojoba de qualidade superior e confiável, de Israel, certificado USDA. Prensado a frio e não refinado para maior efeito antioxidante; sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e reforçá-la.",
-      "Óleo de jojoba de qualidade superior e confiável, de Israel, certificado USDA. Prensado a frio e não refinado para maior efeito antioxidante; sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e reforçá-la."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Perfil do fornecedor",
-    "about_h": "Sobre a empresa",
-    "for_whom": "Para quem é:",
-    "lines_h": "Linhas de produtos",
-    "tech_h": "Soluções proprietárias",
-    "products_h": "Produtos",
-    "products_note": "Formatos profissionais Dr.SANTE — limpeza, tonificação, ampolas, cremes, máscaras, proteção solar e óleos. As linhas Azulene Soother e AKA compartilham uma única linguagem visual da marca.",
-    "formats_h": "Formatos de produto",
-    "export_h": "Exportação",
-    "cta_h": "Interessado neste fabricante?",
-    "cta_d": "Entre em contato — a Teranova organiza negociações, due diligence e apoio ao negócio do primeiro contato até a entrega.",
-    "cta_btn": "Contato via Teranova",
-    "more": "Abrir perfil →",
-    "verified_suppliers": "Fornecedores verificados",
-    "catalog_h": "Catálogo de produtos",
-    "terms_h": "Condições de cooperação",
-    "download_btn": "Baixar condições (PDF)",
-    "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa do negócio via Teranova. Os contatos diretos do fabricante não são publicados. Este documento não é uma oferta pública.",
-    "certs_h": "Certificações e registros",
-    "certs_note": "Declarado pela empresa. Cópias dos documentos comprobatórios são fornecidas na etapa do negócio.",
-    "price_btn": "Baixar lista de preços (PDF)",
-    "pres_btn": "Baixar apresentação (PDF)"
-  }
+ "content": {
+  "tagline": "O seu sucesso é a nossa alegria",
+  "descriptor": "Cosméticos estéticos profissionais da Coreia",
+  "origin": "Coreia",
+  "about": [
+   "A SANTE COSMETICS (a marca Dr.SANTE) é uma marca estética coreana com mais de 20 anos de história (desde 2003). A empresa desenvolve e fabrica cosméticos profissionais para cuidados com a pele, combinando anos de experiência prática, conhecimento profissional e foco na saúde da pele.",
+   "A filosofia da marca é saúde e beleza da pele ao mesmo tempo. Os produtos são criados para o segmento profissional e desenvolvidos para peles sensíveis, secas, irritadas e maduras."
+  ],
+  "facts": [
+   "Marca estética",
+   "Desde 2003",
+   "Desenvolvimento e fabricação próprios",
+   "Segmento profissional",
+   "Exportado para o exterior"
+  ],
+  "channels": [
+   "Clínicas de estética",
+   "Clínicas de dermatologia",
+   "Consultórios de medicina oriental",
+   "Salões de beleza"
+  ],
+  "lines": [
+   {
+    "name": "Azulene Soother",
+    "note": "Uma linha calmante com guaiazuleno e água de camomila: reduz rapidamente a irritação, diminui a temperatura da pele e fortalece a barreira, atuando na raiz dos problemas da pele sensível. Cremes, séruns, máscaras, loções, brumas, géis e essências de proteção solar."
+   },
+   {
+    "name": "Artemisia AKA",
+    "note": "Uma linha para peles com tendência a problemas e irritadas: segundo informações da empresa, oferece ação calmante pronunciada e ajuda a reduzir o aspecto irritado da pele. Ampolas, cremes e máscaras para reparação e cuidado da barreira."
+   },
+   {
+    "name": "Collagen Leader",
+    "note": "Cuidado à base de colágeno com foco em firmeza e peles maduras."
+   },
+   {
+    "name": "Hyalquad Core",
+    "note": "Hidratação intensiva à base de um complexo de ácido hialurônico."
+   },
+   {
+    "name": "Elsol",
+    "note": "Linha de óleos botânicos construída em torno de um óleo de jojoba israelense de qualidade superior, certificado USDA, não refinado e prensado a frio. Segundo informações da empresa, sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e a reforçá-la."
+   },
+   {
+    "name": "Hair Care",
+    "note": "Linha de cuidados com os cabelos e o couro cabeludo. Composição e sortimento completo são confirmados na etapa da negociação."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Guaiazuleno + água de camomila",
+    "note": "Real Blue Calming Solution — acalma a pele irritada, diminui sua temperatura e fortalece a barreira protetora."
+   },
+   {
+    "name": "LHASOL™",
+    "note": "Um ingrediente proprietário de 4ª geração — LHA estabilizado em alta concentração. Segundo informações da empresa, exerce ação esfoliante sobre as células queratinizadas e ajuda a pele com tendência a problemas a retornar a um pH saudável, levemente ácido."
+   }
+  ],
+  "formats": [
+   "Ampolas",
+   "Séruns",
+   "Cremes",
+   "Máscaras",
+   "Tônicos e discos",
+   "Produtos de limpeza",
+   "Proteção solar",
+   "Brumas",
+   "Óleos"
+  ],
+  "exportNote": "Os produtos Dr.SANTE são fornecidos ao exterior, incluindo os mercados dos EUA e do Japão.",
+  "consentNote": "Os dados e materiais são fornecidos pela SANTE COSMETICS e publicados com seu consentimento por escrito. A Teranova coordena e apoia o negócio.",
+  "seoTitle": "SANTE COSMETICS (Dr.SANTE) — cosméticos coreanos · Teranova",
+  "seoDesc": "SANTE COSMETICS (Dr.SANTE) — cosméticos estéticos profissionais da Coreia. As linhas Azulene Soother, Artemisia AKA, Collagen Leader e Hyalquad Core para peles sensíveis e com tendência a problemas. Fornecimento e apoio ao negócio através da Teranova.",
+  "terms": [
+   {
+    "label": "Formatos de cooperação",
+    "value": "Fornecimento no atacado de produtos acabados; OEM/ODM — desenvolvimento e fabricação próprios."
+   },
+   {
+    "label": "Pedido mínimo",
+    "value": "Aproximadamente a partir de $4,000 para o primeiro pedido; pequenos lotes disponíveis para itens selecionados."
+   },
+   {
+    "label": "Preços",
+    "value": "Preços sob consulta. A lista de preços de exportação não é publicada: os preços atuais e a base de entrega são fornecidos ao comprador na fase da negociação através da Teranova."
+   },
+   {
+    "label": "Como funciona",
+    "value": "Solicitação → análise e alinhamento pela Teranova → negociações e amostras → logística, alfândega e pagamento, chave na mão."
+   }
+  ],
+  "catalog_notes": [
+   "Um produto de limpeza que mantém um pH levemente ácido de 5.5, próximo do estado mais saudável da pele; hipoalergênico, hidratante, calmante e que reforça a barreira cutânea.",
+   "Produto em gel à base de água de flor de camomila. Acalma, refresca e hidrata rapidamente a pele irritada por atividades ao ar livre, luz solar, UV, aquecimento ou ar-condicionado.",
+   "Tônico à base de extrato de flor de camomila e azuleno em vez de água purificada, com 50,000 ppm de extrato de menta do Monte Jirisan para acalmar e hidratar; processamento Aquaporin para hidratação mais profunda.",
+   "Leite de limpeza levemente ácido e hipoalergênico (pH 5.5) que remove a maquiagem diária e até o protetor solar, deixando uma barreira de hidratação sem repuxar.",
+   "Loção com azuleno azul real à base de água de flor de camomila. Contém pantenol e ceramida NP; aprovada em testes hipoalergênicos para peles sensíveis, de bebês e de crianças.",
+   "Essência solar à base de água de flor de camomila com 11 tipos de ácido hialurônico; hidrata o dia todo enquanto protege dos raios UV. O extrato de raiz de Sophora acalma e preserva a hidratação.",
+   "Máscara cremosa de enxágue à base de água de flor de camomila com 1,000 ppm de guaiazuleno, 20,000 ppm de dexpantenol e 8 tipos de ácido hialurônico. Hidrata, acalma e amacia a pele.",
+   "Creme na cor azul-escuro natural do azuleno, sem corantes artificiais. Forte ação calmante, retenção de hidratação e proteção, equilibrando água e óleo para uma pele mais saudável.",
+   "Cuidado calmante Azulene Soother em formato compacto de bastão.",
+   "Máscara facial de biocelulose, essência com 87% de água de flor de camomila para acalmar e hidratar rapidamente. A folha reparadora de 4ª geração adere firmemente e libera os ingredientes ativos.",
+   "Máscara modeladora em gel que não resseca, com 79% de água de flor de camomila e azuleno. Acalma instantaneamente a pele aquecida e reforça a barreira de hidratação.",
+   "Ampola para pele sensível com alto teor de azuleno, bem conhecida entre as marcas estéticas. Forte ação calmante, retenção de hidratação e proteção.",
+   "Sérum de peeling com PHA e LHA à base de água de flor de camomila. Remove suavemente as células mortas sem irritação, hidrata e adiciona luminosidade.",
+   "Bruma em spray para acalmar, relaxar, hidratar e nutrir de verdade a pele cansada e irritada.",
+   "Discos de tônico de fibra natural de bambu gelificada. Aderem suavemente, evitam a perda de hidratação e liberam os ingredientes ativos o dia todo com efeito envolvente.",
+   "Refil para o Azulene Soother Semi-Gel Toner Pad.",
+   "Tônico calmante levemente ácido que controla o excesso de sebo e melhora os poros; adequado para uso diário mesmo em peles sensíveis.",
+   "Máscara semi-gel para rosto e pescoço: segundo informações da empresa, ajuda a manter a pele limpa e confortável, acalma rapidamente e melhora o aspecto das imperfeições.",
+   "Disco vegano de algodão ecológico e Tencel. Não rasga nem estica, adere sem irritação e leva o tônico à pele.",
+   "Óleo de jojoba de qualidade superior e confiável, de Israel, certificado USDA. Prensado a frio e não refinado para maior efeito antioxidante; sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e reforçá-la.",
+   "Óleo de jojoba de qualidade superior e confiável, de Israel, certificado USDA. Prensado a frio e não refinado para maior efeito antioxidante; sua estrutura é próxima da barreira cutânea e ajuda a reconstruí-la e reforçá-la."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Perfil do fornecedor",
+  "about_h": "Sobre a empresa",
+  "for_whom": "Para quem é:",
+  "lines_h": "Linhas de produtos",
+  "tech_h": "Soluções proprietárias",
+  "products_h": "Produtos",
+  "products_note": "Formatos profissionais Dr.SANTE — limpeza, tonificação, ampolas, cremes, máscaras, proteção solar e óleos. As linhas Azulene Soother e AKA compartilham uma única linguagem visual da marca.",
+  "formats_h": "Formatos de produto",
+  "export_h": "Exportação",
+  "cta_h": "Interessado neste fabricante?",
+  "cta_d": "Entre em contato — a Teranova organiza negociações, due diligence e apoio ao negócio do primeiro contato até a entrega.",
+  "cta_btn": "Contato via Teranova",
+  "more": "Abrir perfil →",
+  "verified_suppliers": "Fornecedores verificados",
+  "catalog_h": "Catálogo de produtos",
+  "terms_h": "Condições de cooperação",
+  "download_btn": "Baixar condições (PDF)",
+  "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa do negócio via Teranova. Os contatos diretos do fabricante não são publicados. Este documento não é uma oferta pública.",
+  "certs_h": "Certificações e registros",
+  "certs_note": "Declarado pela empresa. Cópias dos documentos comprobatórios são fornecidas na etapa do negócio.",
+  "pres_btn": "Baixar apresentação (PDF)"
+ }
 }

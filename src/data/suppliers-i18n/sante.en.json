@@ -1,140 +1,139 @@
 {
-  "content": {
-    "tagline": "Your success is our joy",
-    "descriptor": "Professional aesthetic cosmetics from Korea",
-    "origin": "Korea",
-    "about": [
-      "SANTE COSMETICS (the Dr.SANTE brand) is a Korean aesthetic brand with more than 20 years of history (since 2003). The company develops and manufactures professional skincare cosmetics, combining years of hands-on experience, professional expertise and a focus on skin health.",
-      "The brand's philosophy is skin health and beauty at the same time. The products are created for the professional segment and are designed for sensitive, dry, irritated and mature skin."
-    ],
-    "facts": [
-      "Aesthetic brand",
-      "Since 2003",
-      "In-house development and manufacturing",
-      "Professional segment",
-      "Exported abroad"
-    ],
-    "channels": [
-      "Aesthetic clinics",
-      "Dermatology clinics",
-      "Oriental medicine practices",
-      "Beauty salons"
-    ],
-    "lines": [
-      {
-        "name": "Azulene Soother",
-        "note": "A soothing line with guaiazulene and chamomile water: it quickly reduces irritation, lowers skin temperature and strengthens the barrier, addressing the root causes of sensitive-skin concerns. Creams, serums, masks, lotions, mists, gels and sun-protection essences."
-      },
-      {
-        "name": "Artemisia AKA",
-        "note": "A line for problem-prone and irritated skin: as stated by the company, it has a pronounced soothing effect and helps reduce the look of irritation. Ampoules, creams and masks for repair and barrier care."
-      },
-      {
-        "name": "Collagen Leader",
-        "note": "Collagen-based care focused on firmness and mature skin."
-      },
-      {
-        "name": "Hyalquad Core",
-        "note": "Intensive hydration based on a hyaluronic acid complex."
-      },
-      {
-        "name": "Elsol",
-        "note": "A botanical oils line built around premium Israeli jojoba oil, USDA-certified, unrefined and cold-pressed. As stated by the company, its structure is close to that of the skin barrier, which helps restore and strengthen it."
-      },
-      {
-        "name": "Hair Care",
-        "note": "A hair and scalp care line. Composition and the full range are confirmed at the deal stage."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Guaiazulene + chamomile water",
-        "note": "Real Blue Calming Solution — soothes irritated skin, lowers its temperature and strengthens the protective barrier."
-      },
-      {
-        "name": "LHASOL™",
-        "note": "A proprietary 4th-generation ingredient — stabilized LHA in high concentration. As stated by the company, it has an exfoliating action on keratinised cells and helps problem-prone skin return to a healthy, slightly acidic pH."
-      }
-    ],
-    "formats": [
-      "Ampoules",
-      "Serums",
-      "Creams",
-      "Masks",
-      "Toners and pads",
-      "Cleansers",
-      "Sun protection",
-      "Mists",
-      "Oils"
-    ],
-    "exportNote": "Dr.SANTE products are supplied abroad, including the US and Japanese markets.",
-    "consentNote": "The data and materials are provided by SANTE COSMETICS and published with its written consent. Teranova coordinates and supports the deal.",
-    "seoTitle": "SANTE COSMETICS (Dr.SANTE) — Korean cosmetics · Teranova",
-    "seoDesc": "SANTE COSMETICS (Dr.SANTE) — professional aesthetic cosmetics from Korea. The Azulene Soother, Artemisia AKA, Collagen Leader and Hyalquad Core lines for sensitive and problem-prone skin. Supply and deal support through Teranova.",
-    "terms": [
-      {
-        "label": "Cooperation formats",
-        "value": "Wholesale supply of finished products; OEM/ODM — in-house development and manufacturing."
-      },
-      {
-        "label": "Minimum order",
-        "value": "Approximately from $4,000 for the first order; small batches available for select items."
-      },
-      {
-        "label": "Prices",
-        "value": "Indicative wholesale FOB range; exact prices on request at the deal stage."
-      },
-      {
-        "label": "How it works",
-        "value": "Request → Teranova review and alignment → negotiations and samples → logistics, customs and payment, turnkey."
-      }
-    ],
-    "catalog_notes": [
-      "A cleanser maintaining a mildly acidic pH 5.5 close to the healthiest skin state; hypoallergenic, moisturizing, soothing and reinforcing the skin barrier.",
-      "Gel product on a Chamomile flower water base. Quickly calms, cools and hydrates skin irritated by outdoor activity, sunlight, UV, heating or air conditioning.",
-      "Toner based on Chamomile flower extract and azulene instead of purified water, with 50,000 ppm Mt. Jirisan mint extract to soothe and hydrate; Aquaporin processing for deeper hydration.",
-      "Mildly acidic, hypoallergenic cleansing milk (pH 5.5) that removes daily makeup and even sunscreen, leaving a moisture barrier without tightness.",
-      "Lotion with real blue azulene on a Chamomile flower water base. Contains panthenol and ceramide NP; passed hypoallergenic tests for sensitive, infant and children skin.",
-      "Sun essence on a Chamomile flower water base with 11 types of hyaluronic acid; hydrates all day while protecting from UV. Sophora root extract soothes and preserves moisture.",
-      "Wash-off cream mask on Chamomile flower water with 1,000 ppm guaiazulene, 20,000 ppm dexpanthenol and 8 types of hyaluronic acid. Moisturizes, soothes and softens the skin.",
-      "Cream in the natural deep-blue azulene color with no artificial dyes. Strong soothing, moisture retention and protection, balancing water and oil for healthier skin.",
-      "Soothing Azulene Soother care in a compact stick format.",
-      "Biocellulose sheet mask, essence on 87% Chamomile flower water for quick soothing and hydration. 4th-generation restorative sheet adheres tightly and delivers active ingredients.",
-      "Non-drying gel modeling pack with 79% Chamomile flower water and azulene. Instantly soothes heated skin and reinforces the moisture barrier.",
-      "Ampoule for sensitive skin with a high azulene content well known among aesthetic brands. Strong soothing, moisture retention and protection.",
-      "Peeling serum with PHA and LHA on a Chamomile flower water base. Gently removes dead skin cells without irritation, moisturizes and adds glow.",
-      "Mist spray for genuine calming, relaxing, moisturizing and nourishing of tired and irritated skin.",
-      "Toner pads of gelated natural bamboo fiber. Gently adhere, prevent moisture loss and deliver active ingredients all day with a wrapping effect.",
-      "Refill for the Azulene Soother Semi-Gel Toner Pad.",
-      "Weakly acidic soothing toner that controls excess sebum and improves pores; suitable for daily use even on sensitive skin.",
-      "Face & neck semi-gel mask: as stated by the company, it helps keep the skin clean and comfortable, soothes it quickly and improves the look of blemishes.",
-      "Vegan pad from eco-friendly cotton and Tencel. Does not tear or stretch, adheres without irritation and absorbs toner into the skin.",
-      "Reliable top-grade jojoba oil from Israel, USDA-certified. Unrefined cold-pressed for higher antioxidant effect; its structure is close to the skin barrier and helps rebuild and reinforce it.",
-      "Reliable top-grade jojoba oil from Israel, USDA-certified. Unrefined cold-pressed for higher antioxidant effect; its structure is close to the skin barrier and helps rebuild and reinforce it."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Supplier profile",
-    "about_h": "About the company",
-    "for_whom": "Who it's for:",
-    "lines_h": "Product lines",
-    "tech_h": "Proprietary solutions",
-    "products_h": "Products",
-    "products_note": "Professional Dr.SANTE formats — cleansing, toning, ampoules, creams, masks, sun protection and oils. The Azulene Soother and AKA lines share a single brand visual language.",
-    "formats_h": "Product formats",
-    "export_h": "Export",
-    "cta_h": "Interested in this manufacturer?",
-    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
-    "cta_btn": "Contact via Teranova",
-    "more": "Open profile →",
-    "verified_suppliers": "Verified suppliers",
-    "catalog_h": "Product catalog",
-    "terms_h": "Terms of cooperation",
-    "download_btn": "Download terms (PDF)",
-    "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The manufacturer's direct contacts are not published. This document is not a public offer.",
-    "certs_h": "Certifications and registrations",
-    "certs_note": "Declared by the company. Copies of supporting documents are provided at the deal stage.",
-    "price_btn": "Download price list (PDF)",
-    "pres_btn": "Download presentation (PDF)"
-  }
+ "content": {
+  "tagline": "Your success is our joy",
+  "descriptor": "Professional aesthetic cosmetics from Korea",
+  "origin": "Korea",
+  "about": [
+   "SANTE COSMETICS (the Dr.SANTE brand) is a Korean aesthetic brand with more than 20 years of history (since 2003). The company develops and manufactures professional skincare cosmetics, combining years of hands-on experience, professional expertise and a focus on skin health.",
+   "The brand's philosophy is skin health and beauty at the same time. The products are created for the professional segment and are designed for sensitive, dry, irritated and mature skin."
+  ],
+  "facts": [
+   "Aesthetic brand",
+   "Since 2003",
+   "In-house development and manufacturing",
+   "Professional segment",
+   "Exported abroad"
+  ],
+  "channels": [
+   "Aesthetic clinics",
+   "Dermatology clinics",
+   "Oriental medicine practices",
+   "Beauty salons"
+  ],
+  "lines": [
+   {
+    "name": "Azulene Soother",
+    "note": "A soothing line with guaiazulene and chamomile water: it quickly reduces irritation, lowers skin temperature and strengthens the barrier, addressing the root causes of sensitive-skin concerns. Creams, serums, masks, lotions, mists, gels and sun-protection essences."
+   },
+   {
+    "name": "Artemisia AKA",
+    "note": "A line for problem-prone and irritated skin: as stated by the company, it has a pronounced soothing effect and helps reduce the look of irritation. Ampoules, creams and masks for repair and barrier care."
+   },
+   {
+    "name": "Collagen Leader",
+    "note": "Collagen-based care focused on firmness and mature skin."
+   },
+   {
+    "name": "Hyalquad Core",
+    "note": "Intensive hydration based on a hyaluronic acid complex."
+   },
+   {
+    "name": "Elsol",
+    "note": "A botanical oils line built around premium Israeli jojoba oil, USDA-certified, unrefined and cold-pressed. As stated by the company, its structure is close to that of the skin barrier, which helps restore and strengthen it."
+   },
+   {
+    "name": "Hair Care",
+    "note": "A hair and scalp care line. Composition and the full range are confirmed at the deal stage."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Guaiazulene + chamomile water",
+    "note": "Real Blue Calming Solution — soothes irritated skin, lowers its temperature and strengthens the protective barrier."
+   },
+   {
+    "name": "LHASOL™",
+    "note": "A proprietary 4th-generation ingredient — stabilized LHA in high concentration. As stated by the company, it has an exfoliating action on keratinised cells and helps problem-prone skin return to a healthy, slightly acidic pH."
+   }
+  ],
+  "formats": [
+   "Ampoules",
+   "Serums",
+   "Creams",
+   "Masks",
+   "Toners and pads",
+   "Cleansers",
+   "Sun protection",
+   "Mists",
+   "Oils"
+  ],
+  "exportNote": "Dr.SANTE products are supplied abroad, including the US and Japanese markets.",
+  "consentNote": "The data and materials are provided by SANTE COSMETICS and published with its written consent. Teranova coordinates and supports the deal.",
+  "seoTitle": "SANTE COSMETICS (Dr.SANTE) — Korean cosmetics · Teranova",
+  "seoDesc": "SANTE COSMETICS (Dr.SANTE) — professional aesthetic cosmetics from Korea. The Azulene Soother, Artemisia AKA, Collagen Leader and Hyalquad Core lines for sensitive and problem-prone skin. Supply and deal support through Teranova.",
+  "terms": [
+   {
+    "label": "Cooperation formats",
+    "value": "Wholesale supply of finished products; OEM/ODM — in-house development and manufacturing."
+   },
+   {
+    "label": "Minimum order",
+    "value": "Approximately from $4,000 for the first order; small batches available for select items."
+   },
+   {
+    "label": "Prices",
+    "value": "Prices on request. The export price list is not published — current prices and the delivery basis are provided to the buyer at the deal stage through Teranova."
+   },
+   {
+    "label": "How it works",
+    "value": "Request → Teranova review and alignment → negotiations and samples → logistics, customs and payment, turnkey."
+   }
+  ],
+  "catalog_notes": [
+   "A cleanser maintaining a mildly acidic pH 5.5 close to the healthiest skin state; hypoallergenic, moisturizing, soothing and reinforcing the skin barrier.",
+   "Gel product on a Chamomile flower water base. Quickly calms, cools and hydrates skin irritated by outdoor activity, sunlight, UV, heating or air conditioning.",
+   "Toner based on Chamomile flower extract and azulene instead of purified water, with 50,000 ppm Mt. Jirisan mint extract to soothe and hydrate; Aquaporin processing for deeper hydration.",
+   "Mildly acidic, hypoallergenic cleansing milk (pH 5.5) that removes daily makeup and even sunscreen, leaving a moisture barrier without tightness.",
+   "Lotion with real blue azulene on a Chamomile flower water base. Contains panthenol and ceramide NP; passed hypoallergenic tests for sensitive, infant and children skin.",
+   "Sun essence on a Chamomile flower water base with 11 types of hyaluronic acid; hydrates all day while protecting from UV. Sophora root extract soothes and preserves moisture.",
+   "Wash-off cream mask on Chamomile flower water with 1,000 ppm guaiazulene, 20,000 ppm dexpanthenol and 8 types of hyaluronic acid. Moisturizes, soothes and softens the skin.",
+   "Cream in the natural deep-blue azulene color with no artificial dyes. Strong soothing, moisture retention and protection, balancing water and oil for healthier skin.",
+   "Soothing Azulene Soother care in a compact stick format.",
+   "Biocellulose sheet mask, essence on 87% Chamomile flower water for quick soothing and hydration. 4th-generation restorative sheet adheres tightly and delivers active ingredients.",
+   "Non-drying gel modeling pack with 79% Chamomile flower water and azulene. Instantly soothes heated skin and reinforces the moisture barrier.",
+   "Ampoule for sensitive skin with a high azulene content well known among aesthetic brands. Strong soothing, moisture retention and protection.",
+   "Peeling serum with PHA and LHA on a Chamomile flower water base. Gently removes dead skin cells without irritation, moisturizes and adds glow.",
+   "Mist spray for genuine calming, relaxing, moisturizing and nourishing of tired and irritated skin.",
+   "Toner pads of gelated natural bamboo fiber. Gently adhere, prevent moisture loss and deliver active ingredients all day with a wrapping effect.",
+   "Refill for the Azulene Soother Semi-Gel Toner Pad.",
+   "Weakly acidic soothing toner that controls excess sebum and improves pores; suitable for daily use even on sensitive skin.",
+   "Face & neck semi-gel mask: as stated by the company, it helps keep the skin clean and comfortable, soothes it quickly and improves the look of blemishes.",
+   "Vegan pad from eco-friendly cotton and Tencel. Does not tear or stretch, adheres without irritation and absorbs toner into the skin.",
+   "Reliable top-grade jojoba oil from Israel, USDA-certified. Unrefined cold-pressed for higher antioxidant effect; its structure is close to the skin barrier and helps rebuild and reinforce it.",
+   "Reliable top-grade jojoba oil from Israel, USDA-certified. Unrefined cold-pressed for higher antioxidant effect; its structure is close to the skin barrier and helps rebuild and reinforce it."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Supplier profile",
+  "about_h": "About the company",
+  "for_whom": "Who it's for:",
+  "lines_h": "Product lines",
+  "tech_h": "Proprietary solutions",
+  "products_h": "Products",
+  "products_note": "Professional Dr.SANTE formats — cleansing, toning, ampoules, creams, masks, sun protection and oils. The Azulene Soother and AKA lines share a single brand visual language.",
+  "formats_h": "Product formats",
+  "export_h": "Export",
+  "cta_h": "Interested in this manufacturer?",
+  "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+  "cta_btn": "Contact via Teranova",
+  "more": "Open profile →",
+  "verified_suppliers": "Verified suppliers",
+  "catalog_h": "Product catalog",
+  "terms_h": "Terms of cooperation",
+  "download_btn": "Download terms (PDF)",
+  "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The manufacturer's direct contacts are not published. This document is not a public offer.",
+  "certs_h": "Certifications and registrations",
+  "certs_note": "Declared by the company. Copies of supporting documents are provided at the deal stage.",
+  "pres_btn": "Download presentation (PDF)"
+ }
 }
