@@ -1,92 +1,107 @@
 [
-  {
-    "line": "Acerola Dark Spot & Blemish Care",
-    "items": [
-      {
-        "name": "Acerola Dark Spot & Blemish Care Cream",
-        "volume": "50 ml",
-        "price": "3.6"
-      },
-      {
-        "name": "Acerola Dark Spot & Blemish Care Ampoule",
-        "volume": "30 ml",
-        "price": "3.6"
-      },
-      {
-        "name": "Acerola Dark Spot & Blemish Care Toner",
-        "volume": "150 ml",
-        "price": "3.6"
-      }
-    ]
-  },
-  {
-    "line": "Bakuchiol Mela Free — Firmness & Tone",
-    "items": [
-      {
-        "name": "Bakuchiol Mela Free Cream",
-        "volume": "50 ml",
-        "price": "3.6"
-      },
-      {
-        "name": "Bakuchiol Mela Free Serum",
-        "volume": "30 ml",
-        "price": "3.6"
-      }
-    ]
-  },
-  {
-    "line": "Biome 8X Hyaluronic — Hydration & Pores",
-    "items": [
-      {
-        "name": "Biome 8X Hyaluronic Cream",
-        "volume": "80 ml",
-        "price": "3.6"
-      },
-      {
-        "name": "Biome 8X Hyaluronic Ampoule",
-        "volume": "30 ml",
-        "price": "3.6"
-      }
-    ]
-  },
-  {
-    "line": "Retinol 10X Peptide — Texture & Elasticity",
-    "items": [
-      {
-        "name": "Retinol 10X Peptide Ampoule",
-        "volume": "30 ml",
-        "price": "3.6"
-      }
-    ]
-  },
-  {
-    "line": "Vitamin & Panthenol Basics",
-    "items": [
-      {
-        "name": "Multi Vitamin Dark Spot & Blemish Care Serum",
-        "volume": "50 ml",
-        "price": "3.0"
-      },
-      {
-        "name": "Panthenol Dark Spot & Blemish Spot Cream",
-        "volume": "15 ml x 2",
-        "price": "3.0"
-      }
-    ]
-  },
-  {
-    "line": "Cica Calming Care",
-    "items": [
-      {
-        "name": "Cica Panthenol Calming Ampoule",
-        "volume": "30 ml",
-        "price": "REQUEST"
-      },
-      {
-        "name": "Birch Cica Calming Toner",
-        "volume": "150 ml",
-        "price": "REQUEST"
-      }
-    ]
-  }
+ {
+  "line": "Acerola Dark Spot & Blemish Care",
+  "items": [
+   {
+    "name": "Acerola Dark Spot & Blemish Care Cream",
+    "volume": "50 ml",
+    "price": "3.6"
+   },
+   {
+    "name": "Acerola Dark Spot & Blemish Care Cream",
+    "volume": "80 ml",
+    "price": "4.7"
+   },
+   {
+    "name": "Acerola Dark Spot & Blemish Care Cream",
+    "volume": "10 ml",
+    "price": "1.0"
+   },
+   {
+    "name": "Acerola Dark Spot & Blemish Care Ampoule",
+    "volume": "30 ml",
+    "price": "3.6"
+   },
+   {
+    "name": "Acerola Dark Spot & Blemish Care Toner",
+    "volume": "150 ml",
+    "price": "3.6"
+   },
+   {
+    "name": "Acerola Set — shopping bag",
+    "volume": "1 pc",
+    "price": "0.5"
+   }
+  ]
+ },
+ {
+  "line": "Bakuchiol Mela Free — Firmness & Tone",
+  "items": [
+   {
+    "name": "Bakuchiol Mela Free Cream",
+    "volume": "50 ml",
+    "price": "3.6"
+   },
+   {
+    "name": "Bakuchiol Mela Free Serum",
+    "volume": "30 ml",
+    "price": "3.6"
+   }
+  ]
+ },
+ {
+  "line": "Biome 8X Hyaluronic — Hydration & Pores",
+  "items": [
+   {
+    "name": "Biome 8X Hyaluronic Cream",
+    "volume": "80 ml",
+    "price": "3.6"
+   },
+   {
+    "name": "Biome 8X Hyaluronic Ampoule",
+    "volume": "30 ml",
+    "price": "3.6"
+   }
+  ]
+ },
+ {
+  "line": "Retinol 10X Peptide — Texture & Elasticity",
+  "items": [
+   {
+    "name": "Retinol 10X Peptide Ampoule",
+    "volume": "30 ml",
+    "price": "3.6"
+   }
+  ]
+ },
+ {
+  "line": "Vitamin & Panthenol Basics",
+  "items": [
+   {
+    "name": "Multi Vitamin Dark Spot & Blemish Care Serum",
+    "volume": "50 ml",
+    "price": "3.0"
+   },
+   {
+    "name": "Panthenol Dark Spot & Blemish Spot Cream",
+    "volume": "15 ml x 2",
+    "price": "3.0"
+   }
+  ]
+ },
+ {
+  "line": "Cica Calming Care",
+  "items": [
+   {
+    "name": "Cica Panthenol Calming Ampoule",
+    "volume": "30 ml",
+    "price": "REQUEST"
+   },
+   {
+    "name": "Birch Cica Calming Toner",
+    "volume": "150 ml",
+    "price": "REQUEST"
+   }
+  ]
+ }
 ]
