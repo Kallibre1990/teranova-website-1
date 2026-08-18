@@ -1,161 +1,170 @@
 {
-  "content": {
-    "tagline": "Hassas ciltler için vegan, nazik K-beauty — iyileştirme ve yatıştırıcı bakım üzerine kurulu bir ev-estetiği markası",
-    "descriptor": "Limetree Co., Ltd. tarafından üretilen LICORNE Cosmetics, bir Kore vegan cilt bakımı markası: 29 SKU boyunca nemlendirme, aydınlatma, PDRN esinli onarım ve yatıştırıcı derma bakımı",
-    "origin": "Kore",
-    "about": [
-      "LICORNE, Gyeonggi Eyaleti Suwon merkezli Limetree Co., Ltd. (주식회사 라임트리) tarafından üretilen bir Kore vegan cilt bakımı markasıdır. LICORNE adı Fransızca'da “tek boynuzlu at” anlamına gelir; tek boynuzlu atın boynuzunun iyileştirme gücüne sahip olduğu efsanesinden ilham alan marka, iyileştirme ve yatıştırıcı bakımı felsefesinin merkezine yerleştirir — dış ve çevresel stres altında hassaslaşan cildi sakinleştirip onarmayı amaçlar.",
-      "“Cilde özel kişisel bir reçete” fikrinden yola çıkan LICORNE, kendini bir ev-estetiği markası olarak konumlandırır: evde günlük kullanım için tasarlanmış profesyonel tarzda bakım. Formülleri, şirket tarafından nazik ve vegan olarak tanımlanır — bitki bazlı bileşenler üzerine kurulu, hassas ciltlere uygun ve hafif, düşük tahrişli günlük bakım için formüle edilmiştir.",
-      "Ürün yelpazesi birkaç yönü kapsar: vegan nemlendirme (Vegan Cactus ve Vegan Rice), aydınlatma (Vegan Jeju Matcha), PDRN esinli onarım (Salmon DNA serisi), yatıştırıcı derma bakımı (Dr. MOSSEA Jinjung serisi) ve hedefe yönelik premium bakım (Intensive Repair, Collagen Snail, Vitafill ve Hyaluronic Microshot Patch). Şirketin belirttiği üzere ürünler vegan sertifikasına sahiptir ve CGMP / ISO 22716 kalite sistemleri kapsamında üretilmektedir; ayrıca çeşitli ihracat pazarlarında tesciller beyan edilmektedir."
-    ],
-    "facts": [
-      "Limetree Co., Ltd. tarafından üretilen Kore vegan cilt bakımı markası LICORNE; ev-estetiği konumlandırması",
-      "Şirketin belirttiği üzere: hassas ciltler için nazik, bitki bazlı vegan formüller ve bir vegan sertifikası",
-      "Nemlendirme, aydınlatma, PDRN esinli onarım ve yatıştırıcı derma bakımı serilerinde 29 SKU",
-      "Şirketin beyan ettiği üzere CGMP / ISO 22716 kapsamında üretim (partner tesislerinde)",
-      "İhracat pazarlarında beyan edilen tesciller — US MoCRA, EU CPNP, Japan PMDA, Malaysia NPRA, Russia EAC, China NMPA ve Thailand TFDA"
-    ],
-    "channels": [
-      "K-beauty ve vegan cilt bakımı distribütörleri ve toptancıları",
-      "Perakende zincirleri, mağazalar ve güzellik pop-up'ları",
-      "Çevrimiçi pazar yerleri ve e-ticaret markaları",
-      "Cilt bakımı stüdyoları ve temiz güzellik perakendecileri"
-    ],
-    "lines": [
-      {
-        "name": "Vegan Cactus & Vegan Rice — vegan nemlendirme",
-        "note": "Kaktüs ve pirinç özleri üzerine kurulu günlük vegan nemlendirme: mistler, tonikler, serumlar, ampuller, losyonlar, kremler, göz bakımı, bir güneş esansı ve bir enzim temizleyici. Bitki bazlı ve hassas ciltler için formüle edilmiştir."
-      },
-      {
-        "name": "Vegan Jeju Matcha — aydınlatma",
-        "note": "Jeju matcha içeren aydınlatıcı bir vegan seri: ton-up krem, wash-off pack ve aydınlatıcı krem."
-      },
-      {
-        "name": "Salmon DNA — PDRN esinli onarım",
-        "note": "PDRN esinli bir onarım serisi (somon kaynaklı konsept): sıkılık ve canlılık bakımı için fluid güneş ürünü, water essence, toning pad ve ampul. Tıbbi ürün olarak değil, kozmetik bakım olarak sunulmaktadır."
-      },
-      {
-        "name": "Dr. MOSSEA Jinjung — yatıştırıcı derma bakımı",
-        "note": "Yatıştırıcı bir derma bakımı alt serisi: hassas, reaktif cildi sakinleştirmek için köpük temizleyici, balance tonik ve balance krem."
-      },
-      {
-        "name": "Hedefe yönelik ve premium bakım",
-        "note": "Yoğun, hedefe yönelik bakım için Collagen Snail, Azulene Derma Cleansing, Glow Vita, Vitafill toning pad ve ampuller, Intensive Repair Double Effector ve Hyaluronic Microshot Patch."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Vegan, bitki bazlı formülasyon",
-        "note": "Şirketin belirttiği üzere formüller, bir vegan sertifikasıyla birlikte bitki bazlı bileşenler üzerine kuruludur ve hassas ciltler için hafif, düşük tahrişli bakıma yöneliktir."
-      },
-      {
-        "name": "PDRN esinli onarım (Salmon DNA)",
-        "note": "Salmon DNA serisi, PDRN esinli bir onarım konsepti üzerine kuruludur; şirket tarafından tıbbi veya enjekte edilebilir bir ürün olarak değil, sıkılık ve canlılık için kozmetik bakım olarak sunulmaktadır."
-      },
-      {
-        "name": "Ev-estetiği konsepti",
-        "note": "Ürünler, klinik içi işlemler yerine evde profesyonel tarzda rutinler için tasarlanmıştır — basit, hızlı günlük bakım."
-      },
-      {
-        "name": "Kalite ve tesciller",
-        "note": "CGMP / ISO 22716 kapsamında üretim ve pazar tescilleri (MoCRA, CPNP, PMDA, NPRA, EAC, NMPA, TFDA) şirket tarafından beyan edilmektedir; kopyalar ve pazar bazında durum anlaşma aşamasında doğrulanır."
-      }
-    ],
-    "formats": [
-      "Mistler, tonikler ve esanslar, 50–300 ml",
-      "Serumlar ve ampuller, 30–45 ml",
-      "Kremler ve göz kremleri, 30–60 ml",
-      "Toning pad'ler, 230 g",
-      "Temizleyiciler ve wash-off pack'ler, 100–200 ml",
-      "Microshot hidrojel patch'ler"
-    ],
-    "exportNote": "LICORNE'un tescilleri, Ağustos 2026'da Teranova'ya teslim edilen belge kopyalarına dayanır. Avrupa Birliği'nde 15 ürün için CPNP bildirimi ve 11 ürün için CPSR güvenlilik raporu, Japonya'da 9 ürün için başvurular ile Japonca etiketler ve tam içerik listeleri bulunur. Singapur'da 10 ürün Mayıs 2027'ye kadar, Malezya'da 5 ürün Kasım 2027'ye kadar bildirimlidir. Çin'de ithal kozmetik için 6 NMPA kaydı, Tayland'da 4 FDA kaydı, Rusya'da TR CU 009/2011 uyarınca 7 uygunluk beyanı vardır ve ABD için firma MoCRA listelemesini iletmiştir. Vietnam ve Filipinler tescilleri süresi dolmuş olarak işaretlidir, geçerli tescillerin bir bölümü ise yerel hak sahipleri adınadır; bu nedenle yeni bir iş ortağına devir işlem aşamasında kontrol edilir. 11–23 Ağustos 2026 tarihlerinde marka, Hyundai Department Store Pangyo'da kendi köşesini işletmektedir. Teslimat esası FOB Korea'dır.",
-    "terms": [
-      {
-        "label": "Teslimat esası",
-        "value": "FOB Korea"
-      },
-      {
-        "label": "Minimum sipariş",
-        "value": "Ürün başına MOQ 3.000 adet (tüp ambalajlı ürünler — 5.000 adet)"
-      },
-      {
-        "label": "Fiyatlandırma",
-        "value": "Gösterge FOB fiyatlar USD cinsinden yayımlanır; ürüne ve hacme bağlı olarak ürün başına yaklaşık USD 2 ile USD 12 arasındadır. Tedarikçinin fiyat listesi KRW ve USD cinsinden düzenlenir; ödeme para birimi anlaşma aşamasında sabitlenir"
-      },
-      {
-        "label": "Tesciller",
-        "value": "ABD, AB, Japonya, Malezya, Rusya, Çin ve Tayland'da beyan edilmiştir; pazar bazında durum ve belgeler anlaşma aşamasında doğrulanır"
-      },
-      {
-        "label": "Ödeme ve teslim süresi",
-        "value": "Anlaşma aşamasında sözleşmede nihai hale getirilir"
-      }
-    ],
-    "consentNote": "Veriler ve materyaller Limetree Co., Ltd. (LICORNE, iletişim Mi Hyeon Oh) tarafından sağlanmış ve Teranova platformunda sunulmak üzere şirketin onayıyla yayımlanmıştır (Ağustos 2026). Vegan sertifikası, CGMP / ISO 22716 üretimi ve pazar tescilleri hakkındaki bilgiler şirket tarafından beyan edilmiş olup anlaşma aşamasında belgeyle doğrulanmaya tabidir; pazar bazında tescil durumu değişebilir ve bazı tesciller sürüyor olabilir. Ürünler, tıbbi cihaz veya ilaç olarak değil, topikal kullanım için kozmetik olarak konumlandırılmaktadır.",
-    "seoTitle": "LICORNE (Limetree) — Kore vegan cilt bakımı · Teranova",
-    "seoDesc": "Limetree Co., Ltd. tarafından üretilen LICORNE — hassas ciltler için Kore vegan, nazik cilt bakımı: nemlendirme, aydınlatma, PDRN esinli onarım, yatıştırıcı derma bakımı. 29 SKU, FOB Korea. Anlaşmalar Teranova aracılığıyla.",
-    "catalog_notes": [
-      "Hassas ciltte anında nemlendirme ve rahatlık için bir vegan kaktüs mist.",
-      "Günlük nem için hafif bir vegan kaktüs losyonu.",
-      "Derin, kalıcı nemlendirme için bir vegan kaktüs serumu.",
-      "Nemi cilde hapseden bir vegan kaktüs yüz kremi.",
-      "İlk kat nemlendirme ve ışıltı için bir vegan pirinç tonik.",
-      "Aydınlatıcı, nemli bir cilt için bir vegan pirinç serumu.",
-      "Yoğun besleme için konsantre bir vegan pirinç ampulü.",
-      "Yumuşak, beslenmiş bir cilt için bir vegan pirinç yüz kremi.",
-      "Hassas göz çevresi için bir vegan pirinç göz kremi.",
-      "Bir vegan pirinç güneş esansı — hafif günlük güneş bakımı.",
-      "Nazik günlük temizlik için bir vegan pirinç enzim derin temizleyici.",
-      "Anında eşit bir ışıltı için bir vegan Jeju matcha ton-up krem.",
-      "Ferah, arınmış bir his için bir vegan Jeju matcha wash-off pack.",
-      "Eşit ton için bir vegan Jeju matcha aydınlatıcı krem.",
-      "Sıkılık ve onarım için bir collagen snail serumu.",
-      "Beslenmiş, dirençli bir cilt için bir collagen snail kremi.",
-      "Temizlerken yatıştıran bir azulene derma temizleyici.",
-      "Işıltılı, vitamin dolu bir cilt için bir Glow Vita krem.",
-      "Hafif günlük güneş bakımı için bir Salmon DNA fluid güneş ürünü.",
-      "Nemlendirme ve canlılık için bir Salmon Vita water essence.",
-      "Günlük tonlama bakımı için Salmon DNA toning pad'ler.",
-      "Konsantre onarım bakımı için bir Salmon DNA ampulü.",
-      "Vitamin açısından zengin günlük tonlama için Vitafill toning pad'ler.",
-      "Konsantre bir vitamin desteği için bir Vitafill ampulü.",
-      "Intensive Repair Double Effector — premium hedefe yönelik yaşlanma karşıtı bakım.",
-      "Nazik, yatıştırıcı temizlik için bir Jinjung köpük temizleyici.",
-      "Hassas cildi sakinleştirip yeniden dengelemek için bir Jinjung balance tonik.",
-      "Yatıştırıcı günlük nem için bir Jinjung balance krem.",
-      "Hedefe yönelik, yoğun nemlendirme için bir hyaluronic microshot patch."
-    ],
-    "spotlight": {
-      "label": "Perakende · Ağustos 2026",
-      "title": "Hyundai Department Store Pangyo'da LICORNE",
-      "text": "11–23 Ağustos 2026 tarihlerinde marka, Seul yakınlarındaki premium bir mağazada kendi köşesini işletiyor. Bu adımın rafa hazırlık hakkında ne söylediğini ve tescillerin hangi belgelere dayandığını inceliyoruz.",
-      "cta": "İncelemeyi okuyun",
-      "post": "licorne-hyundai-pangyo-offline-retail"
-    }
-  },
-  "ui": {
-    "profile_sup": "Tedarikçi profili",
-    "about_h": "Şirket hakkında",
-    "for_whom": "Kimler için:",
-    "lines_h": "Ürün serileri",
-    "catalog_h": "Ürün kataloğu",
-    "tech_h": "Yaklaşım ve üretim",
-    "products_h": "Ürünler",
-    "products_note": "Vegan Cactus, Vegan Rice, Vegan Jeju Matcha, Salmon DNA, Dr. MOSSEA Jinjung ve premium serilerinde vegan K-beauty cilt bakımı: mistler, tonikler, serumlar, ampuller, kremler, toning pad'ler, temizleyiciler ve hidrojel patch'ler — hassas ciltler için nazik, bitki bazlı bakım.",
-    "formats_h": "Ürün formatları",
-    "export_h": "İhracat ve pazarlar",
-    "terms_h": "İşbirliği koşulları",
-    "download_btn": "Koşulları indir (PDF)",
-    "price_btn": "Fiyat listesini indir (PDF)",
-    "pres_btn": "Sunumu indir (PDF)",
-    "terms_disc": "Fiyatlar ve koşullar göstergeseldir ve anlaşma aşamasında Teranova aracılığıyla nihai hale getirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz: Teranova Group müzakereleri, durum tespitini ve teslimat desteğini yürütür.",
-    "cta_h": "Bu tedarikçiyle ilgileniyor musunuz?",
-    "cta_d": "İletişime geçin — Teranova, ilk temastan teslimata kadar müzakereleri, durum tespitini ve anlaşma desteğini düzenler.",
-    "cta_btn": "Teranova aracılığıyla iletişime geçin",
-    "more": "Profili aç →",
-    "verified_suppliers": "Doğrulanmış tedarikçiler",
-    "certs_h": "Sertifikalar ve tesciller",
-    "certs_note": "Tescil belgelerinin kopyaları Ağustos 2026'da Limetree Co., Ltd. tarafından Teranova'ya teslim edilmiş olup tarafımızda saklanmaktadır. Vegan sertifikası ve CGMP / ISO 22716 kapsamındaki üretim, firmanın beyanıdır. Pazar bazında güncel durum ve tescilin yeni bir iş ortağına devredilebilmesi işlem aşamasında teyit edilir."
+ "content": {
+  "tagline": "Hassas ciltler için vegan, nazik K-beauty — iyileştirme ve yatıştırıcı bakım üzerine kurulu bir ev-estetiği markası",
+  "descriptor": "Limetree Co., Ltd. tarafından üretilen LICORNE Cosmetics, bir Kore vegan cilt bakımı markası: 29 SKU boyunca nemlendirme, aydınlatma, PDRN esinli onarım ve yatıştırıcı derma bakımı",
+  "origin": "Kore",
+  "about": [
+   "LICORNE, Gyeonggi Eyaleti Suwon merkezli Limetree Co., Ltd. (주식회사 라임트리) tarafından üretilen bir Kore vegan cilt bakımı markasıdır. LICORNE adı Fransızca'da “tek boynuzlu at” anlamına gelir; tek boynuzlu atın boynuzunun iyileştirme gücüne sahip olduğu efsanesinden ilham alan marka, iyileştirme ve yatıştırıcı bakımı felsefesinin merkezine yerleştirir — dış ve çevresel stres altında hassaslaşan cildi sakinleştirip onarmayı amaçlar.",
+   "“Cilde özel kişisel bir reçete” fikrinden yola çıkan LICORNE, kendini bir ev-estetiği markası olarak konumlandırır: evde günlük kullanım için tasarlanmış profesyonel tarzda bakım. Formülleri, şirket tarafından nazik ve vegan olarak tanımlanır — bitki bazlı bileşenler üzerine kurulu, hassas ciltlere uygun ve hafif, düşük tahrişli günlük bakım için formüle edilmiştir.",
+   "Ürün yelpazesi birkaç yönü kapsar: vegan nemlendirme (Vegan Cactus ve Vegan Rice), aydınlatma (Vegan Jeju Matcha), PDRN esinli onarım (Salmon DNA serisi), yatıştırıcı derma bakımı (Dr. MOSSEA Jinjung serisi) ve hedefe yönelik premium bakım (Intensive Repair, Collagen Snail, Vitafill ve Hyaluronic Microshot Patch). Şirketin belirttiği üzere ürünler vegan sertifikasına sahiptir ve CGMP / ISO 22716 kalite sistemleri kapsamında üretilmektedir; ayrıca çeşitli ihracat pazarlarında tesciller beyan edilmektedir."
+  ],
+  "facts": [
+   "Limetree Co., Ltd. tarafından üretilen Kore vegan cilt bakımı markası LICORNE; ev-estetiği konumlandırması",
+   "Şirketin belirttiği üzere: hassas ciltler için nazik, bitki bazlı vegan formüller ve bir vegan sertifikası",
+   "Şirketin verdiği bilgiye göre ürün alıcıya göre uyarlanıyor: ambalaj, şişe ve formüldeki tek tek bileşenlerin konsantrasyonu",
+   "Nemlendirme, aydınlatma, PDRN esinli onarım ve yatıştırıcı derma bakımı serilerinde 29 SKU",
+   "Şirketin beyan ettiği üzere CGMP / ISO 22716 kapsamında üretim (partner tesislerinde)",
+   "İhracat pazarlarında beyan edilen tesciller — US MoCRA, EU CPNP, Japan PMDA, Malaysia NPRA, Russia EAC, China NMPA ve Thailand TFDA"
+  ],
+  "channels": [
+   "K-beauty ve vegan cilt bakımı distribütörleri ve toptancıları",
+   "Perakende zincirleri, mağazalar ve güzellik pop-up'ları",
+   "Çevrimiçi pazar yerleri ve e-ticaret markaları",
+   "Cilt bakımı stüdyoları ve temiz güzellik perakendecileri"
+  ],
+  "lines": [
+   {
+    "name": "Vegan Cactus & Vegan Rice — vegan nemlendirme",
+    "note": "Kaktüs ve pirinç özleri üzerine kurulu günlük vegan nemlendirme: mistler, tonikler, serumlar, ampuller, losyonlar, kremler, göz bakımı, bir güneş esansı ve bir enzim temizleyici. Bitki bazlı ve hassas ciltler için formüle edilmiştir."
+   },
+   {
+    "name": "Vegan Jeju Matcha — aydınlatma",
+    "note": "Jeju matcha içeren aydınlatıcı bir vegan seri: ton-up krem, wash-off pack ve aydınlatıcı krem."
+   },
+   {
+    "name": "Salmon DNA — PDRN esinli onarım",
+    "note": "PDRN esinli bir onarım serisi (somon kaynaklı konsept): sıkılık ve canlılık bakımı için fluid güneş ürünü, water essence, toning pad ve ampul. Tıbbi ürün olarak değil, kozmetik bakım olarak sunulmaktadır."
+   },
+   {
+    "name": "Dr. MOSSEA Jinjung — yatıştırıcı derma bakımı",
+    "note": "Yatıştırıcı bir derma bakımı alt serisi: hassas, reaktif cildi sakinleştirmek için köpük temizleyici, balance tonik ve balance krem."
+   },
+   {
+    "name": "Hedefe yönelik ve premium bakım",
+    "note": "Yoğun, hedefe yönelik bakım için Collagen Snail, Azulene Derma Cleansing, Glow Vita, Vitafill toning pad ve ampuller, Intensive Repair Double Effector ve Hyaluronic Microshot Patch."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Alıcıya göre ürün özelleştirme",
+    "note": "Şirketin verdiği bilgiye göre LICORNE ürünü alıcının taleplerine göre uyarlıyor: yalnızca ambalaj ve şişe değil, formülün kendisi de, tek tek bileşenlerin konsantrasyonu dahil. Şirket örnek olarak, bir alıcının talebi üzerine hyalüronik asit oranının düşürülmesini veriyor. Parti büyüklüğü, süre ve maliyet işlem aşamasında kararlaştırılır."
+   },
+   {
+    "name": "Vegan, bitki bazlı formülasyon",
+    "note": "Şirketin belirttiği üzere formüller, bir vegan sertifikasıyla birlikte bitki bazlı bileşenler üzerine kuruludur ve hassas ciltler için hafif, düşük tahrişli bakıma yöneliktir."
+   },
+   {
+    "name": "PDRN esinli onarım (Salmon DNA)",
+    "note": "Salmon DNA serisi, PDRN esinli bir onarım konsepti üzerine kuruludur; şirket tarafından tıbbi veya enjekte edilebilir bir ürün olarak değil, sıkılık ve canlılık için kozmetik bakım olarak sunulmaktadır."
+   },
+   {
+    "name": "Ev-estetiği konsepti",
+    "note": "Ürünler, klinik içi işlemler yerine evde profesyonel tarzda rutinler için tasarlanmıştır — basit, hızlı günlük bakım."
+   },
+   {
+    "name": "Kalite ve tesciller",
+    "note": "CGMP / ISO 22716 kapsamında üretim ve pazar tescilleri (MoCRA, CPNP, PMDA, NPRA, EAC, NMPA, TFDA) şirket tarafından beyan edilmektedir; kopyalar ve pazar bazında durum anlaşma aşamasında doğrulanır."
+   }
+  ],
+  "formats": [
+   "Mistler, tonikler ve esanslar, 50–300 ml",
+   "Serumlar ve ampuller, 30–45 ml",
+   "Kremler ve göz kremleri, 30–60 ml",
+   "Toning pad'ler, 230 g",
+   "Temizleyiciler ve wash-off pack'ler, 100–200 ml",
+   "Microshot hidrojel patch'ler"
+  ],
+  "exportNote": "LICORNE'un tescilleri, Ağustos 2026'da Teranova'ya teslim edilen belge kopyalarına dayanır. Avrupa Birliği'nde 15 ürün için CPNP bildirimi ve 11 ürün için CPSR güvenlilik raporu, Japonya'da 9 ürün için başvurular ile Japonca etiketler ve tam içerik listeleri bulunur. Singapur'da 10 ürün Mayıs 2027'ye kadar, Malezya'da 5 ürün Kasım 2027'ye kadar bildirimlidir. Çin'de ithal kozmetik için 6 NMPA kaydı, Tayland'da 4 FDA kaydı, Rusya'da TR CU 009/2011 uyarınca 7 uygunluk beyanı vardır ve ABD için firma MoCRA listelemesini iletmiştir. Vietnam ve Filipinler tescilleri süresi dolmuş olarak işaretlidir, geçerli tescillerin bir bölümü ise yerel hak sahipleri adınadır; bu nedenle yeni bir iş ortağına devir işlem aşamasında kontrol edilir. 11–23 Ağustos 2026 tarihlerinde marka, Hyundai Department Store Pangyo'da kendi köşesini işletmektedir. Teslimat esası FOB Korea'dır.",
+  "terms": [
+   {
+    "label": "Teslimat esası",
+    "value": "FOB Korea"
+   },
+   {
+    "label": "Minimum sipariş",
+    "value": "Ürün başına MOQ 3.000 adet (tüp ambalajlı ürünler — 5.000 adet)"
+   },
+   {
+    "label": "Özelleştirme",
+    "value": "Şirketin verdiği bilgiye göre alıcıya göre uyarlama mümkündür: ambalaj ve şişe, ayrıca formüldeki tek tek bileşenlerin konsantrasyonu. Asgari parti ve süre dahil koşullar işlem aşamasında kararlaştırılır."
+   },
+   {
+    "label": "Fiyatlandırma",
+    "value": "Gösterge FOB fiyatlar USD cinsinden yayımlanır; ürüne ve hacme bağlı olarak ürün başına yaklaşık USD 2 ile USD 12 arasındadır. Tedarikçinin fiyat listesi KRW ve USD cinsinden düzenlenir; ödeme para birimi anlaşma aşamasında sabitlenir"
+   },
+   {
+    "label": "Tesciller",
+    "value": "ABD, AB, Japonya, Malezya, Rusya, Çin ve Tayland'da beyan edilmiştir; pazar bazında durum ve belgeler anlaşma aşamasında doğrulanır"
+   },
+   {
+    "label": "Ödeme ve teslim süresi",
+    "value": "Anlaşma aşamasında sözleşmede nihai hale getirilir"
+   }
+  ],
+  "consentNote": "Veriler ve materyaller Limetree Co., Ltd. (LICORNE, iletişim Mi Hyeon Oh) tarafından sağlanmış ve Teranova platformunda sunulmak üzere şirketin onayıyla yayımlanmıştır (Ağustos 2026). Vegan sertifikası, CGMP / ISO 22716 üretimi ve pazar tescilleri hakkındaki bilgiler şirket tarafından beyan edilmiş olup anlaşma aşamasında belgeyle doğrulanmaya tabidir; pazar bazında tescil durumu değişebilir ve bazı tesciller sürüyor olabilir. Ürünler, tıbbi cihaz veya ilaç olarak değil, topikal kullanım için kozmetik olarak konumlandırılmaktadır.",
+  "seoTitle": "LICORNE (Limetree) — Kore vegan cilt bakımı · Teranova",
+  "seoDesc": "Limetree Co., Ltd. tarafından üretilen LICORNE — hassas ciltler için Kore vegan, nazik cilt bakımı: nemlendirme, aydınlatma, PDRN esinli onarım, yatıştırıcı derma bakımı. 29 SKU, FOB Korea. Anlaşmalar Teranova aracılığıyla.",
+  "catalog_notes": [
+   "Hassas ciltte anında nemlendirme ve rahatlık için bir vegan kaktüs mist.",
+   "Günlük nem için hafif bir vegan kaktüs losyonu.",
+   "Derin, kalıcı nemlendirme için bir vegan kaktüs serumu.",
+   "Nemi cilde hapseden bir vegan kaktüs yüz kremi.",
+   "İlk kat nemlendirme ve ışıltı için bir vegan pirinç tonik.",
+   "Aydınlatıcı, nemli bir cilt için bir vegan pirinç serumu.",
+   "Yoğun besleme için konsantre bir vegan pirinç ampulü.",
+   "Yumuşak, beslenmiş bir cilt için bir vegan pirinç yüz kremi.",
+   "Hassas göz çevresi için bir vegan pirinç göz kremi.",
+   "Bir vegan pirinç güneş esansı — hafif günlük güneş bakımı.",
+   "Nazik günlük temizlik için bir vegan pirinç enzim derin temizleyici.",
+   "Anında eşit bir ışıltı için bir vegan Jeju matcha ton-up krem.",
+   "Ferah, arınmış bir his için bir vegan Jeju matcha wash-off pack.",
+   "Eşit ton için bir vegan Jeju matcha aydınlatıcı krem.",
+   "Sıkılık ve onarım için bir collagen snail serumu.",
+   "Beslenmiş, dirençli bir cilt için bir collagen snail kremi.",
+   "Temizlerken yatıştıran bir azulene derma temizleyici.",
+   "Işıltılı, vitamin dolu bir cilt için bir Glow Vita krem.",
+   "Hafif günlük güneş bakımı için bir Salmon DNA fluid güneş ürünü.",
+   "Nemlendirme ve canlılık için bir Salmon Vita water essence.",
+   "Günlük tonlama bakımı için Salmon DNA toning pad'ler.",
+   "Konsantre onarım bakımı için bir Salmon DNA ampulü.",
+   "Vitamin açısından zengin günlük tonlama için Vitafill toning pad'ler.",
+   "Konsantre bir vitamin desteği için bir Vitafill ampulü.",
+   "Intensive Repair Double Effector — premium hedefe yönelik yaşlanma karşıtı bakım.",
+   "Nazik, yatıştırıcı temizlik için bir Jinjung köpük temizleyici.",
+   "Hassas cildi sakinleştirip yeniden dengelemek için bir Jinjung balance tonik.",
+   "Yatıştırıcı günlük nem için bir Jinjung balance krem.",
+   "Hedefe yönelik, yoğun nemlendirme için bir hyaluronic microshot patch."
+  ],
+  "spotlight": {
+   "label": "Perakende · Ağustos 2026",
+   "title": "Hyundai Department Store Pangyo'da LICORNE",
+   "text": "11–23 Ağustos 2026 tarihlerinde marka, Seul yakınlarındaki premium bir mağazada kendi köşesini işletiyor. Bu adımın rafa hazırlık hakkında ne söylediğini ve tescillerin hangi belgelere dayandığını inceliyoruz.",
+   "cta": "İncelemeyi okuyun",
+   "post": "licorne-hyundai-pangyo-offline-retail"
   }
+ },
+ "ui": {
+  "profile_sup": "Tedarikçi profili",
+  "about_h": "Şirket hakkında",
+  "for_whom": "Kimler için:",
+  "lines_h": "Ürün serileri",
+  "catalog_h": "Ürün kataloğu",
+  "tech_h": "Yaklaşım ve üretim",
+  "products_h": "Ürünler",
+  "products_note": "Vegan Cactus, Vegan Rice, Vegan Jeju Matcha, Salmon DNA, Dr. MOSSEA Jinjung ve premium serilerinde vegan K-beauty cilt bakımı: mistler, tonikler, serumlar, ampuller, kremler, toning pad'ler, temizleyiciler ve hidrojel patch'ler — hassas ciltler için nazik, bitki bazlı bakım.",
+  "formats_h": "Ürün formatları",
+  "export_h": "İhracat ve pazarlar",
+  "terms_h": "İşbirliği koşulları",
+  "download_btn": "Koşulları indir (PDF)",
+  "price_btn": "Fiyat listesini indir (PDF)",
+  "pres_btn": "Sunumu indir (PDF)",
+  "terms_disc": "Fiyatlar ve koşullar göstergeseldir ve anlaşma aşamasında Teranova aracılığıyla nihai hale getirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz: Teranova Group müzakereleri, durum tespitini ve teslimat desteğini yürütür.",
+  "cta_h": "Bu tedarikçiyle ilgileniyor musunuz?",
+  "cta_d": "İletişime geçin — Teranova, ilk temastan teslimata kadar müzakereleri, durum tespitini ve anlaşma desteğini düzenler.",
+  "cta_btn": "Teranova aracılığıyla iletişime geçin",
+  "more": "Profili aç →",
+  "verified_suppliers": "Doğrulanmış tedarikçiler",
+  "certs_h": "Sertifikalar ve tesciller",
+  "certs_note": "Tescil belgelerinin kopyaları Ağustos 2026'da Limetree Co., Ltd. tarafından Teranova'ya teslim edilmiş olup tarafımızda saklanmaktadır. Vegan sertifikası ve CGMP / ISO 22716 kapsamındaki üretim, firmanın beyanıdır. Pazar bazında güncel durum ve tescilin yeni bir iş ortağına devredilebilmesi işlem aşamasında teyit edilir."
+ }
 }
