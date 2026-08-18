@@ -292,7 +292,7 @@ const santeRu: SupplierContent = {
   terms: [
     { label: 'Форматы сотрудничества', value: 'Оптовые поставки готовой продукции; OEM/ODM — собственная разработка и производство.' },
     { label: 'Минимальный заказ', value: 'Ориентировочно от $4 000 на первый заказ; небольшие партии по отдельным позициям.' },
-    { label: 'Цены', value: 'Ориентировочный оптовый диапазон FOB; точные цены — по запросу на стадии сделки.' },
+    { label: 'Цены', value: 'Цены по запросу. Экспортный прайс-лист не публикуем — актуальные цены и базис поставки покупатель получает на стадии сделки через Teranova.' },
     { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
   ],
   consentNote: 'Данные и материалы предоставлены компанией SANTE COSMETICS и публикуются с её письменного согласия. Teranova координирует и сопровождает сделку.',
@@ -334,7 +334,6 @@ const santeRu: SupplierContent = {
     export_h: 'Экспорт',
     terms_h: 'Условия сотрудничества',
     download_btn: 'Скачать условия (PDF)',
-    price_btn: 'Скачать прайс-лист (PDF)',
     pres_btn: 'Скачать презентацию (PDF)',
     terms_disc: 'Цены и условия ориентировочные и уточняются на стадии сделки через Teranova. Прямые контакты производителя не публикуются.',
     cta_h: 'Заинтересовал этот производитель?',
@@ -571,9 +570,8 @@ export const suppliers: SupplierProfile[] = [
       es: '/docs/sante-terms-es.pdf',
       pt: '/docs/sante-terms-pt.pdf',
     },
-    priceFile: {
-      ru: '/docs/sante-price-ru.pdf', en: '/docs/sante-price-en.pdf', ko: '/docs/sante-price-ko.pdf', zh: '/docs/sante-price-zh.pdf', ja: '/docs/sante-price-ja.pdf', it: '/docs/sante-price-it.pdf', de: '/docs/sante-price-de.pdf', fr: '/docs/sante-price-fr.pdf', tr: '/docs/sante-price-tr.pdf', es: '/docs/sante-price-es.pdf', pt: '/docs/sante-price-pt.pdf',
-    },
+    /* Прайс не публикуется: SANTE COSMETICS 18.08.2026 письменно попросила снять
+       экспортные цены — прайс закрытый. Цены — по запросу на стадии сделки. */
     presFile: {
       ru: '/docs/sante-presentation-ru.pdf', en: '/docs/sante-presentation-en.pdf', ko: '/docs/sante-presentation-ko.pdf', zh: '/docs/sante-presentation-zh.pdf', ja: '/docs/sante-presentation-ja.pdf', it: '/docs/sante-presentation-it.pdf', de: '/docs/sante-presentation-de.pdf', fr: '/docs/sante-presentation-fr.pdf', tr: '/docs/sante-presentation-tr.pdf', es: '/docs/sante-presentation-es.pdf', pt: '/docs/sante-presentation-pt.pdf',
     },
