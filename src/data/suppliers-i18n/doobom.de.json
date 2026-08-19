@@ -1,114 +1,137 @@
 {
-  "content": {
-    "tagline": "Professionelle Ästhetik: keine Stunde Feuchtigkeit, sondern eine neu aufgebaute Hautstruktur",
-    "descriptor": "Koreanische Profipflege für Kabinen; Rezepturen auf Wildsojawasser, Exosomen und PDRN",
-    "origin": "Korea",
-    "about": [
-      "DOOBOM Co., Ltd. ist eine koreanische Profipflegemarke, die aus dem Behandlungsraum kommt und nicht aus dem Marketing. Das Unternehmen sammelt Daten aus Partnersalons — womit Kundinnen tatsächlich kommen und was während der Behandlung sichtbar wirkt — und baut daraus seine Rezepturen. Es versteht sich als F&E-getriebene Marke, bei der Inhaltsstoffe, Transporttechnologie und belegtes Ergebnis an erster Stelle stehen.",
-      "Der Unterschied beginnt an der Basis der Rezeptur. Statt gereinigtem Wasser verwendet Doobom einen Extrakt aus koreanischer Wildsoja. Diese Basis trägt eigene Wirkstoffe, das Produkt startet also von einem nützlichen Fundament und nicht von einem bloßen Träger. Erklärtes Ziel ist keine kurzfristige Feuchtigkeit und keine momentane Straffung, sondern Arbeit an der Struktur der Haut — von der Barriere bis in tiefere Schichten.",
-      "Der Wirkstoffteil ruht auf vier Gruppen: aus Ginseng gewonnene Exosomen und PDRN für Regeneration und Ausstrahlung; patentierte, hochgereinigte natürliche Spikulae, deren feine Kanalstruktur Wirkstoffe tiefer trägt; ein schnell wirkendes Peptid für Kollagen, Elastin und weichere Mimikfalten; und ein aufhellender Komplex — Koffein, Vitamin K, Niacinamid, Vitamin C und Derivate, Arbutin, Hyaluronsäure. Die Produkte werden zu fertigen Kabinenprogrammen zusammengestellt, nicht als lose Tiegel verkauft."
-    ],
-    "facts": [
-      "Die Marke kommt aus der professionellen Ästhetik: Rezepturen entstehen aus Daten der Partnerkabinen",
-      "Rezepturbasis ist ein Extrakt aus koreanischer Wildsoja statt gereinigtem Wasser",
-      "Aus Ginseng gewonnene Exosomen und PDRN — Regeneration, Ausstrahlung, Augenpartie",
-      "Patentierte, hochgereinigte natürliche Spikulae: Kanalstruktur verbessert die Aufnahme der Wirkstoffe",
-      "Schnell wirkendes Peptid für Kollagen und Elastin; aufhellender Komplex mit Niacinamid, Arbutin und Vitamin C"
-    ],
-    "channels": [
-      "Distributoren für professionelle Kosmetik",
-      "Kosmetikinstitute, Behandlungsräume und Spas",
-      "Ästhetische Kliniken — Pflege nach der Behandlung",
-      "Schulungszentren und Kosmetikschulen"
-    ],
-    "lines": [
-      {
-        "name": "Ampoule & Booster",
-        "note": "Ampullenkonzentrate für die Behandlung und die Fortsetzung zu Hause, darunter ein Niacinamid-Booster für Talg, Poren und Hautbild."
-      },
-      {
-        "name": "Exosome & PDRN",
-        "note": "Die Regenerationslinie: aus Ginseng gewonnene Exosomen und PDRN. Ziel ist, der Haut ihre eigene Aktivität zurückzugeben, die Ausstrahlung zu heben und die Augenpartie zu behandeln."
-      },
-      {
-        "name": "Spicule MTS",
-        "note": "Produkte mit hochgereinigten natürlichen Spikulae. Ihre Mikrokanalstruktur erhöht die Durchlässigkeit der Haut für Wirkstoffe — die Technik, die Kosmetikerinnen von MTS kennen."
-      },
-      {
-        "name": "Salon Programs",
-        "note": "Fertige Kabinenprotokolle: eine Abfolge von Produkten für ein konkretes Kundenanliegen statt einzelner Artikel. Zusammengestellt aus den Daten der Partnersalons."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Entwicklung aus Praxisdaten",
-        "note": "Die Marke arbeitet mit professionellen Salons und sammelt echte Statistik zu Anliegen und Ergebnissen. Eine Rezeptur entsteht als Antwort auf ein Problem, dem die Kabine immer wieder begegnet."
-      },
-      {
-        "name": "Wildsoja-Basis statt Wasser",
-        "note": "Die Rezepturen basieren auf koreanischem Wildsoja-Extrakt, damit die Basis selbst Wirkstoffe trägt und nicht nur Lösungsmittel ist."
-      },
-      {
-        "name": "Transport über Spikulae",
-        "note": "Natürliche Spikulae durchlaufen eine mehrstufige Reinigung und wirken als Transportsystem: eine feine Kanalstruktur bringt Wirkstoffe tiefer als das bloße Auftragen."
-      },
-      {
-        "name": "Wirkstoffbasis",
-        "note": "Ginseng-Exosomen, PDRN, schnell wirkende Peptide, Niacinamid, Arbutin, Vitamin C und K, Koffein, Hyaluronsäure."
-      }
-    ],
-    "formats": [
-      "Ampullen und Booster",
-      "Spikulae-Produkte (MTS)",
-      "Cremes und Pflege nach der Behandlung",
-      "Fertige Kabinenprogramme",
-      "Profigrößen für den Behandlungsraum"
-    ],
-    "exportNote": "Die Marke ist auf den Profikanal ausgelegt: Institute, Kliniken und die Distributoren, die sie beliefern. Konditionen, Mengen und Preise werden in der Abschlussphase über Teranova bestätigt; die Unterlagen werden mit schriftlicher Zustimmung des Unternehmens veröffentlicht.",
-    "terms": [
-      {
-        "label": "Formen der Zusammenarbeit",
-        "value": "Großhandelslieferung der Profilinie; Distribution für ein Gebiet; Belieferung für Kabinenprogramme"
-      },
-      {
-        "label": "Kanal",
-        "value": "Professionell: Kosmetikinstitute, Behandlungsräume, Kliniken"
-      },
-      {
-        "label": "Lieferbedingungen",
-        "value": "Werden in der Abschlussphase bestätigt; Logistik und Zoll koordiniert Teranova"
-      },
-      {
-        "label": "Unterlagen",
-        "value": "Unternehmensprofil und Markenpräsentation im August 2026 vom Hersteller erhalten"
-      }
-    ],
-    "consentNote": "Daten und Unterlagen von DOOBOM Co., Ltd. bereitgestellt und mit deren schriftlicher Zustimmung veröffentlicht. Eigenschaften der Inhaltsstoffe nach Angaben des Unternehmens; Preise und Konditionen werden in der Abschlussphase über Teranova bestätigt.",
-    "seoTitle": "DOOBOM — koreanische Profi-Ästhetik: Exosomen, PDRN, Spikulae · Teranova",
-    "seoDesc": "DOOBOM ist eine koreanische Profipflegemarke für Kosmetikkabinen: Wildsoja-Basis, Ginseng-Exosomen, PDRN, patentierte Spikulae, Peptide. Kabinenprogramme und Großhandelslieferung über Teranova.",
-    "catalog_notes": []
-  },
-  "ui": {
-    "profile_sup": "Lieferantenprofil",
-    "about_h": "Über das Unternehmen",
-    "for_whom": "Für wen:",
-    "lines_h": "Produktlinien",
-    "catalog_h": "Produktkatalog",
-    "tech_h": "Kompetenzen und Produktion",
-    "products_h": "Produkte",
-    "products_note": "Die Marke KIFT steht für hochwirksame koreanische All-in-one-Pflege: Serum, Cremes, Bubble-Maske und Reinigungsstück.",
-    "formats_h": "Produktformate",
-    "export_h": "Export und Märkte",
-    "terms_h": "Bedingungen der Zusammenarbeit",
-    "download_btn": "Bedingungen herunterladen (PDF)",
-    "price_btn": "Preisliste herunterladen (PDF)",
-    "pres_btn": "Präsentation herunterladen (PDF)",
-    "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova präzisiert. Direkte Kontakte des Lieferanten werden nicht veröffentlicht. Die Registrierungsnachweise (EU CPNP, US MoCRA) sind nach Angaben des Unternehmens aufgeführt und stellen keine Zulassung der Behörde dar.",
-    "cta_h": "Ist dieser Lieferant für Sie interessant?",
-    "cta_d": "Kontaktieren Sie uns — Teranova organisiert Verhandlungen, Prüfung und Begleitung der Transaktion, vom ersten Kontakt bis zur Lieferung.",
-    "cta_btn": "Über Teranova kontaktieren",
-    "more": "Profil öffnen →",
-    "verified_suppliers": "Geprüfte Lieferanten",
-    "certs_h": "Zertifikate und Registrierungen"
-  }
+ "content": {
+  "tagline": "Professionelle Ästhetik: keine Stunde Feuchtigkeit, sondern eine neu aufgebaute Hautstruktur",
+  "descriptor": "Koreanische Profipflege für Kabinen; Rezepturen auf Wildsojawasser, Exosomen und PDRN",
+  "origin": "Korea",
+  "about": [
+   "DOOBOM Co., Ltd. ist eine koreanische Profipflegemarke, die aus dem Behandlungsraum kommt und nicht aus dem Marketing. Das Unternehmen sammelt Daten aus Partnersalons — womit Kundinnen tatsächlich kommen und was während der Behandlung sichtbar wirkt — und baut daraus seine Rezepturen. Es versteht sich als F&E-getriebene Marke, bei der Inhaltsstoffe, Transporttechnologie und belegtes Ergebnis an erster Stelle stehen.",
+   "Der Unterschied beginnt an der Basis der Rezeptur. Statt gereinigtem Wasser verwendet Doobom einen Extrakt aus koreanischer Wildsoja. Diese Basis trägt eigene Wirkstoffe, das Produkt startet also von einem nützlichen Fundament und nicht von einem bloßen Träger. Erklärtes Ziel ist keine kurzfristige Feuchtigkeit und keine momentane Straffung, sondern Arbeit an der Struktur der Haut — von der Barriere bis in tiefere Schichten.",
+   "Der Wirkstoffteil ruht auf vier Gruppen: aus Ginseng gewonnene Exosomen und PDRN für Regeneration und Ausstrahlung; patentierte, hochgereinigte natürliche Spikulae, deren feine Kanalstruktur Wirkstoffe tiefer trägt; ein schnell wirkendes Peptid für Kollagen, Elastin und weichere Mimikfalten; und ein aufhellender Komplex — Koffein, Vitamin K, Niacinamid, Vitamin C und Derivate, Arbutin, Hyaluronsäure. Die Produkte werden zu fertigen Kabinenprogrammen zusammengestellt, nicht als lose Tiegel verkauft."
+  ],
+  "facts": [
+   "Die Marke kommt aus der professionellen Ästhetik: Rezepturen entstehen aus Daten der Partnerkabinen",
+   "Rezepturbasis ist ein Extrakt aus koreanischer Wildsoja statt gereinigtem Wasser",
+   "Aus Ginseng gewonnene Exosomen und PDRN — Regeneration, Ausstrahlung, Augenpartie",
+   "Patentierte, hochgereinigte natürliche Spikulae: Kanalstruktur verbessert die Aufnahme der Wirkstoffe",
+   "Schnell wirkendes Peptid für Kollagen und Elastin; aufhellender Komplex mit Niacinamid, Arbutin und Vitamin C"
+  ],
+  "channels": [
+   "Distributoren für professionelle Kosmetik",
+   "Kosmetikinstitute, Behandlungsräume und Spas",
+   "Ästhetische Kliniken — Pflege nach der Behandlung",
+   "Schulungszentren und Kosmetikschulen"
+  ],
+  "lines": [
+   {
+    "name": "Ampoule & Booster",
+    "note": "Ampullenkonzentrate für die Behandlung und die Fortsetzung zu Hause, darunter ein Niacinamid-Booster für Talg, Poren und Hautbild."
+   },
+   {
+    "name": "Exosome & PDRN",
+    "note": "Die Regenerationslinie: aus Ginseng gewonnene Exosomen und PDRN. Ziel ist, der Haut ihre eigene Aktivität zurückzugeben, die Ausstrahlung zu heben und die Augenpartie zu behandeln."
+   },
+   {
+    "name": "Spicule MTS",
+    "note": "Produkte mit hochgereinigten natürlichen Spikulae. Ihre Mikrokanalstruktur erhöht die Durchlässigkeit der Haut für Wirkstoffe — die Technik, die Kosmetikerinnen von MTS kennen."
+   },
+   {
+    "name": "Salon Programs",
+    "note": "Fertige Kabinenprotokolle: eine Abfolge von Produkten für ein konkretes Kundenanliegen statt einzelner Artikel. Zusammengestellt aus den Daten der Partnersalons."
+   },
+   {
+    "name": "Geräteprogramme",
+    "note": "Kabinengeräte und die zugehörigen Protokolle: Vol-New-Up für Gesicht und Dekolleté, Slim Ultra Max für den Körper. Das Gerät ist mit der Pflegelinie verknüpft, sodass die Behandlung in der Kabine und zu Hause weitergeführt wird."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Entwicklung aus Praxisdaten",
+    "note": "Die Marke arbeitet mit professionellen Salons und sammelt echte Statistik zu Anliegen und Ergebnissen. Eine Rezeptur entsteht als Antwort auf ein Problem, dem die Kabine immer wieder begegnet."
+   },
+   {
+    "name": "Wildsoja-Basis statt Wasser",
+    "note": "Die Rezepturen basieren auf koreanischem Wildsoja-Extrakt, damit die Basis selbst Wirkstoffe trägt und nicht nur Lösungsmittel ist."
+   },
+   {
+    "name": "Transport über Spikulae",
+    "note": "Natürliche Spikulae durchlaufen eine mehrstufige Reinigung und wirken als Transportsystem: eine feine Kanalstruktur bringt Wirkstoffe tiefer als das bloße Auftragen."
+   },
+   {
+    "name": "Wirkstoffbasis",
+    "note": "Ginseng-Exosomen, PDRN, schnell wirkende Peptide, Niacinamid, Arbutin, Vitamin C und K, Koffein, Hyaluronsäure."
+   }
+  ],
+  "formats": [
+   "Ampullen und Booster",
+   "Spikulae-Produkte (MTS)",
+   "Cremes und Pflege nach der Behandlung",
+   "Fertige Kabinenprogramme",
+   "Profigrößen für den Behandlungsraum"
+  ],
+  "exportNote": "Die Marke ist auf den Profikanal ausgelegt: Institute, Kliniken und die Distributoren, die sie beliefern. Konditionen, Mengen und Preise werden in der Abschlussphase über Teranova bestätigt; die Unterlagen werden mit schriftlicher Zustimmung des Unternehmens veröffentlicht.",
+  "terms": [
+   {
+    "label": "Lieferumfang",
+    "value": "Profikosmetik, Kabinengeräte, Mitarbeiterschulung und Betriebsprogramme für das Institut"
+   },
+   {
+    "label": "Formen der Zusammenarbeit",
+    "value": "Großhandelslieferung der Profilinie; Distribution für ein Gebiet; Belieferung für Kabinenprogramme"
+   },
+   {
+    "label": "Kanal",
+    "value": "Professionell: Kosmetikinstitute, Behandlungsräume, Kliniken"
+   },
+   {
+    "label": "Lieferbedingungen",
+    "value": "Werden in der Abschlussphase bestätigt; Logistik und Zoll koordiniert Teranova"
+   },
+   {
+    "label": "Unterlagen",
+    "value": "Unternehmensprofil und Markenpräsentation im August 2026 vom Hersteller erhalten"
+   }
+  ],
+  "consentNote": "Daten und Unterlagen von DOOBOM Co., Ltd. bereitgestellt und mit deren schriftlicher Zustimmung veröffentlicht. Eigenschaften der Inhaltsstoffe nach Angaben des Unternehmens; Preise und Konditionen werden in der Abschlussphase über Teranova bestätigt.",
+  "seoTitle": "DOOBOM — koreanische Profi-Ästhetik: Exosomen, PDRN, Spikulae · Teranova",
+  "seoDesc": "DOOBOM ist eine koreanische Profipflegemarke für Kosmetikkabinen: Wildsoja-Basis, Ginseng-Exosomen, PDRN, patentierte Spikulae, Peptide. Kabinenprogramme und Großhandelslieferung über Teranova.",
+  "catalog_notes": [
+   "PDRN-Ampulle im Set mit zehn Fläschchen: Hautregeneration, Barrierepflege und Festigkeit. Das Format ist auf eine Kabinenkur ausgelegt.",
+   "Zellulose-Tuchmaske mit Exosomen, zur Beruhigung der Haut nach der Behandlung. Fünf Stück je Packung.",
+   "Regenerationscreme in der 60-ml-Tube mit EGF und Exosomen: Barriere, Hautbild und Festigkeit.",
+   "Regenerationscreme im 100-ml-Tiegel. Nach Angaben des Unternehmens unterstützt sie Dichte und Elastizität der Haut und wirkt antioxidativ.",
+   "Ampullen mit natürlichen Spikulen für Poren- und Texturpflege. Drei Fläschchen für einen Drei-Tage-Zyklus.",
+   "Ampulle mit 15 % Niacinamid für einen gleichmäßigen Teint und die Pflege von Pigmentflecken.",
+   "Booster für Ausstrahlung und Barrierepflege, formuliert mit Ginseng-Exosomen.",
+   "Creme für die Augenpartie und die mittlere Gesichtszone, 20 ml. Der Mikrostrom-Applikator hilft beim Verteilen.",
+   "Beruhigendes Gel mit Exosomen: Kühlung, Rötungspflege und Feuchtigkeitsbalance. 180 ml.",
+   "Dasselbe beruhigende Gel im Profiformat mit 500 ml.",
+   "Cremiges Sojaprotein-Spray mit Jojobaöl, 100 ml. Feuchtigkeit und Glow über den Tag.",
+   "Schwach saurer Schaumreiniger für zu Unreinheiten neigende Haut, 150 ml. Sanfte Reinigung, Poren- und Sebumpflege.",
+   "Schwach alkalischer Schaumreiniger für zu Unreinheiten neigende Haut, 150 ml. Tiefere Reinigung vor der Hauptpflege.",
+   "Reiseset aus vier Produkten: Schaumreiniger, beruhigendes Gel, Booster und Regenerationscreme. Menge für eine Wochenkur."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Lieferantenprofil",
+  "about_h": "Über das Unternehmen",
+  "for_whom": "Für wen:",
+  "lines_h": "Produktlinien",
+  "catalog_h": "Produktkatalog",
+  "tech_h": "Kompetenzen und Produktion",
+  "products_h": "Produkte",
+  "products_note": "Die DOOBOM-Profilinie für Kosmetikinstitute: Ampullen mit PDRN und Spikulen, eine Exosomen-Regenerationslinie, beruhigende Produkte und Reiniger. Kabinengrößen mit häuslicher Fortsetzung der Kur.",
+  "formats_h": "Produktformate",
+  "export_h": "Export und Märkte",
+  "terms_h": "Bedingungen der Zusammenarbeit",
+  "download_btn": "Bedingungen herunterladen (PDF)",
+  "price_btn": "Preisliste herunterladen (PDF)",
+  "pres_btn": "Präsentation herunterladen (PDF)",
+  "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova präzisiert. Direkte Kontakte des Lieferanten werden nicht veröffentlicht. Die Registrierungsnachweise (EU CPNP, US MoCRA) sind nach Angaben des Unternehmens aufgeführt und stellen keine Zulassung der Behörde dar.",
+  "cta_h": "Ist dieser Lieferant für Sie interessant?",
+  "cta_d": "Kontaktieren Sie uns — Teranova organisiert Verhandlungen, Prüfung und Begleitung der Transaktion, vom ersten Kontakt bis zur Lieferung.",
+  "cta_btn": "Über Teranova kontaktieren",
+  "more": "Profil öffnen →",
+  "verified_suppliers": "Geprüfte Lieferanten",
+  "certs_h": "Zertifikate und Registrierungen"
+ }
 }

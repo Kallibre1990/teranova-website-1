@@ -1,114 +1,137 @@
 {
-  "content": {
-    "tagline": "Professional aesthetics: not an hour of hydration, but a rebuilt skin structure",
-    "descriptor": "Korean professional skincare brand for aesthetic rooms; formulas built on wild soybean water, exosomes and PDRN",
-    "origin": "Korea",
-    "about": [
-      "DOOBOM Co., Ltd. is a Korean professional skincare brand that grew out of treatment rooms rather than marketing. The company collects data from partner salons — what clients actually come in with and what visibly works during a treatment — and builds its formulas from that. It describes itself as an R&D-led brand where ingredients, delivery technology and proven results come first.",
-      "The difference starts at the base of the formula. Instead of purified water, Doobom uses an extract of Korean wild soybean. That base carries its own actives, so the product starts working from a useful foundation rather than from a carrier. The stated goal is not short-term hydration or a momentary firming effect, but work on the structure of the skin — from the barrier down to deeper layers.",
-      "The active side rests on four groups: ginseng-derived exosomes and PDRN for recovery and radiance; patented natural spicules, highly refined, whose fine channel structure carries actives deeper; a fast-acting peptide for collagen, elastin and softer expression lines; and a brightening complex — caffeine, vitamin K, niacinamide, vitamin C and derivatives, arbutin, hyaluronic acid. Products are assembled into ready salon programmes rather than sold as a set of unrelated jars."
-    ],
-    "facts": [
-      "The brand comes from professional aesthetics: formulas are built on data from partner treatment rooms",
-      "Formula base is an extract of Korean wild soybean instead of purified water",
-      "Ginseng-derived exosomes and PDRN — recovery, radiance, work around the eye area",
-      "Patented, highly refined natural spicules: a channel structure that improves penetration of actives",
-      "Fast-acting peptide for collagen and elastin; brightening complex on niacinamide, arbutin and vitamin C"
-    ],
-    "channels": [
-      "Distributors of professional skincare",
-      "Aesthetic salons, treatment rooms and spas",
-      "Aesthetic clinics — post-procedure care",
-      "Training centres and cosmetology schools"
-    ],
-    "lines": [
-      {
-        "name": "Ampoule & Booster",
-        "note": "Ampoule concentrates for the treatment itself and for continuing the course at home, including a niacinamide booster for sebum, pores and skin texture."
-      },
-      {
-        "name": "Exosome & PDRN",
-        "note": "The recovery line: exosomes derived from ginseng, plus PDRN. The aim is to bring back the skin's own activity, lift radiance and work on the eye area."
-      },
-      {
-        "name": "Spicule MTS",
-        "note": "Products with highly refined natural spicules. Their micro-channel structure raises the skin's permeability to actives — the technique aestheticians know from MTS treatments."
-      },
-      {
-        "name": "Salon Programs",
-        "note": "Ready in-room protocols: a sequence of products for a specific client concern rather than separate items. Assembled from partner salon data."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Development from field data",
-        "note": "The brand works with professional salons and collects real statistics on client concerns and outcomes. A formula appears as the answer to a problem the room keeps meeting."
-      },
-      {
-        "name": "Wild soybean base instead of water",
-        "note": "Formulas are based on an extract of Korean wild soybean, so the base itself carries active substances rather than acting only as a solvent."
-      },
-      {
-        "name": "Delivery through spicules",
-        "note": "Natural spicules go through multi-stage refining and work as a delivery system: a fine channel structure carries actives deeper than plain application would."
-      },
-      {
-        "name": "Ingredient base",
-        "note": "Ginseng exosomes, PDRN, fast-acting peptides, niacinamide, arbutin, vitamins C and K, caffeine, hyaluronic acid."
-      }
-    ],
-    "formats": [
-      "Ampoules and boosters",
-      "Spicule (MTS) products",
-      "Creams and post-procedure care",
-      "Ready salon programmes",
-      "Professional sizes for treatment rooms"
-    ],
-    "exportNote": "The brand is built for the professional channel: salons, clinics and the distributors who serve them. Terms, volumes and prices are confirmed at the deal stage through Teranova; materials are published with the company's written consent.",
-    "terms": [
-      {
-        "label": "Ways of working",
-        "value": "Wholesale supply of the professional range; territory distribution; supply behind salon programmes"
-      },
-      {
-        "label": "Channel",
-        "value": "Professional: aesthetic salons, treatment rooms, clinics"
-      },
-      {
-        "label": "Delivery terms",
-        "value": "Confirmed at the deal stage; logistics and customs coordinated by Teranova"
-      },
-      {
-        "label": "Materials",
-        "value": "Company profile and brand presentation received from the manufacturer in August 2026"
-      }
-    ],
-    "consentNote": "Data and materials provided by DOOBOM Co., Ltd. and published with their written consent. Ingredient properties are stated per the company's materials; prices and terms are confirmed at the deal stage through Teranova.",
-    "seoTitle": "DOOBOM — Korean professional aesthetics: exosomes, PDRN, spicules · Teranova",
-    "seoDesc": "DOOBOM is a Korean professional skincare brand for aesthetic rooms: wild soybean base, ginseng exosomes, PDRN, patented spicules, peptides. Salon programmes, wholesale supply through Teranova.",
-    "catalog_notes": []
-  },
-  "ui": {
-    "profile_sup": "Supplier profile",
-    "about_h": "About the company",
-    "for_whom": "Who it's for:",
-    "lines_h": "Product lines",
-    "catalog_h": "Product catalog",
-    "tech_h": "Capabilities and manufacturing",
-    "products_h": "Products",
-    "products_note": "KIFT is a Korean high-performance all-in-one care brand: a serum, creams, a bubble mask and a cleansing bar.",
-    "formats_h": "Product formats",
-    "export_h": "Export and markets",
-    "terms_h": "Terms of cooperation",
-    "download_btn": "Download terms (PDF)",
-    "price_btn": "Download price list (PDF)",
-    "pres_btn": "Download presentation (PDF)",
-    "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The supplier's direct contacts are not published. Registration references (EU CPNP, US MoCRA) are stated per company data and do not constitute regulatory approval.",
-    "cta_h": "Interested in this supplier?",
-    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
-    "cta_btn": "Contact via Teranova",
-    "more": "Open profile →",
-    "verified_suppliers": "Verified suppliers",
-    "certs_h": "Certifications and registrations"
-  }
+ "content": {
+  "tagline": "Professional aesthetics: not an hour of hydration, but a rebuilt skin structure",
+  "descriptor": "Korean professional skincare brand for aesthetic rooms; formulas built on wild soybean water, exosomes and PDRN",
+  "origin": "Korea",
+  "about": [
+   "DOOBOM Co., Ltd. is a Korean professional skincare brand that grew out of treatment rooms rather than marketing. The company collects data from partner salons — what clients actually come in with and what visibly works during a treatment — and builds its formulas from that. It describes itself as an R&D-led brand where ingredients, delivery technology and proven results come first.",
+   "The difference starts at the base of the formula. Instead of purified water, Doobom uses an extract of Korean wild soybean. That base carries its own actives, so the product starts working from a useful foundation rather than from a carrier. The stated goal is not short-term hydration or a momentary firming effect, but work on the structure of the skin — from the barrier down to deeper layers.",
+   "The active side rests on four groups: ginseng-derived exosomes and PDRN for recovery and radiance; patented natural spicules, highly refined, whose fine channel structure carries actives deeper; a fast-acting peptide for collagen, elastin and softer expression lines; and a brightening complex — caffeine, vitamin K, niacinamide, vitamin C and derivatives, arbutin, hyaluronic acid. Products are assembled into ready salon programmes rather than sold as a set of unrelated jars."
+  ],
+  "facts": [
+   "The brand comes from professional aesthetics: formulas are built on data from partner treatment rooms",
+   "Formula base is an extract of Korean wild soybean instead of purified water",
+   "Ginseng-derived exosomes and PDRN — recovery, radiance, work around the eye area",
+   "Patented, highly refined natural spicules: a channel structure that improves penetration of actives",
+   "Fast-acting peptide for collagen and elastin; brightening complex on niacinamide, arbutin and vitamin C"
+  ],
+  "channels": [
+   "Distributors of professional skincare",
+   "Aesthetic salons, treatment rooms and spas",
+   "Aesthetic clinics — post-procedure care",
+   "Training centres and cosmetology schools"
+  ],
+  "lines": [
+   {
+    "name": "Ampoule & Booster",
+    "note": "Ampoule concentrates for the treatment itself and for continuing the course at home, including a niacinamide booster for sebum, pores and skin texture."
+   },
+   {
+    "name": "Exosome & PDRN",
+    "note": "The recovery line: exosomes derived from ginseng, plus PDRN. The aim is to bring back the skin's own activity, lift radiance and work on the eye area."
+   },
+   {
+    "name": "Spicule MTS",
+    "note": "Products with highly refined natural spicules. Their micro-channel structure raises the skin's permeability to actives — the technique aestheticians know from MTS treatments."
+   },
+   {
+    "name": "Salon Programs",
+    "note": "Ready in-room protocols: a sequence of products for a specific client concern rather than separate items. Assembled from partner salon data."
+   },
+   {
+    "name": "Device Programs",
+    "note": "Salon devices and the protocols that come with them: Vol-New-Up for the face and décolleté, Slim Ultra Max for the body. The device is tied to the skincare range, so a treatment continues with products in the cabin and at home."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Development from field data",
+    "note": "The brand works with professional salons and collects real statistics on client concerns and outcomes. A formula appears as the answer to a problem the room keeps meeting."
+   },
+   {
+    "name": "Wild soybean base instead of water",
+    "note": "Formulas are based on an extract of Korean wild soybean, so the base itself carries active substances rather than acting only as a solvent."
+   },
+   {
+    "name": "Delivery through spicules",
+    "note": "Natural spicules go through multi-stage refining and work as a delivery system: a fine channel structure carries actives deeper than plain application would."
+   },
+   {
+    "name": "Ingredient base",
+    "note": "Ginseng exosomes, PDRN, fast-acting peptides, niacinamide, arbutin, vitamins C and K, caffeine, hyaluronic acid."
+   }
+  ],
+  "formats": [
+   "Ampoules and boosters",
+   "Spicule (MTS) products",
+   "Creams and post-procedure care",
+   "Ready salon programmes",
+   "Professional sizes for treatment rooms"
+  ],
+  "exportNote": "The brand is built for the professional channel: salons, clinics and the distributors who serve them. Terms, volumes and prices are confirmed at the deal stage through Teranova; materials are published with the company's written consent.",
+  "terms": [
+   {
+    "label": "What is supplied",
+    "value": "Professional skincare, salon devices, staff training and salon business programs"
+   },
+   {
+    "label": "Ways of working",
+    "value": "Wholesale supply of the professional range; territory distribution; supply behind salon programmes"
+   },
+   {
+    "label": "Channel",
+    "value": "Professional: aesthetic salons, treatment rooms, clinics"
+   },
+   {
+    "label": "Delivery terms",
+    "value": "Confirmed at the deal stage; logistics and customs coordinated by Teranova"
+   },
+   {
+    "label": "Materials",
+    "value": "Company profile and brand presentation received from the manufacturer in August 2026"
+   }
+  ],
+  "consentNote": "Data and materials provided by DOOBOM Co., Ltd. and published with their written consent. Ingredient properties are stated per the company's materials; prices and terms are confirmed at the deal stage through Teranova.",
+  "seoTitle": "DOOBOM — Korean professional aesthetics: exosomes, PDRN, spicules · Teranova",
+  "seoDesc": "DOOBOM is a Korean professional skincare brand for aesthetic rooms: wild soybean base, ginseng exosomes, PDRN, patented spicules, peptides. Salon programmes, wholesale supply through Teranova.",
+  "catalog_notes": [
+   "PDRN ampoule in a set of ten vials: skin recovery, barrier support and firmness. The format is built for a salon course.",
+   "Cellulose sheet mask with exosomes, used after a treatment to calm the skin. Five pieces per box.",
+   "Recovery cream in a 60 ml tube with EGF and exosomes: barrier, skin texture and firmness.",
+   "Recovery cream in a 100 ml jar. According to the company it supports skin density and elasticity and works as an antioxidant.",
+   "Ampoules with natural spicules for pore and skin-texture care. Three vials for a three-day cycle.",
+   "Ampoule with 15% niacinamide for even tone and pigmentation care.",
+   "Booster for radiance and barrier support, formulated with ginseng exosomes.",
+   "Cream for the eye area and mid-face, 20 ml. The micro-current applicator helps spread the product.",
+   "Soothing gel with exosomes: cooling, redness care and moisture balance. 180 ml.",
+   "The same soothing gel in a 500 ml professional size.",
+   "Soy-protein cream mist with jojoba oil, 100 ml. Hydration and radiance through the day.",
+   "Weakly acidic foam wash for blemish-prone skin, 150 ml. Gentle cleansing, pore and sebum care.",
+   "Weakly alkaline foam wash for blemish-prone skin, 150 ml. Deeper cleansing before the main routine.",
+   "Travel set of four products: foam wash, soothing gel, booster and recovery cream. Sized for a week-long course."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Supplier profile",
+  "about_h": "About the company",
+  "for_whom": "Who it's for:",
+  "lines_h": "Product lines",
+  "catalog_h": "Product catalog",
+  "tech_h": "Capabilities and manufacturing",
+  "products_h": "Products",
+  "products_note": "The DOOBOM professional range for aesthetic salons: PDRN and spicule ampoules, an exosome recovery line, soothing products and cleansers. Salon sizes with a homecare continuation of the course.",
+  "formats_h": "Product formats",
+  "export_h": "Export and markets",
+  "terms_h": "Terms of cooperation",
+  "download_btn": "Download terms (PDF)",
+  "price_btn": "Download price list (PDF)",
+  "pres_btn": "Download presentation (PDF)",
+  "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The supplier's direct contacts are not published. Registration references (EU CPNP, US MoCRA) are stated per company data and do not constitute regulatory approval.",
+  "cta_h": "Interested in this supplier?",
+  "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+  "cta_btn": "Contact via Teranova",
+  "more": "Open profile →",
+  "verified_suppliers": "Verified suppliers",
+  "certs_h": "Certifications and registrations"
+ }
 }

@@ -22,6 +22,7 @@ import doobomFr from './suppliers-i18n/doobom.fr.json';
 import doobomTr from './suppliers-i18n/doobom.tr.json';
 import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
+import doobomCatalog from './suppliers-i18n/doobom.catalog.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
 import multifitKo from './suppliers-i18n/multifit.ko.json';
@@ -1057,7 +1058,8 @@ export const suppliers: SupplierProfile[] = [
     /* Мятно-бирюзовый — с их презентации бренда. */
     brandColors: { deep: '#14504a', sky: '#5cc2b1', accent: '#2f9c8a', bg: '#eef7f5' },
     voice: 'clinical',
-    certs: [],
+    certs: ['FDA', 'EU CPNP', 'MoCRA'],
+    catalog: doobomCatalog as { line: string; items: { name: string; img: string }[] }[],
     i18n: {
       ru: mk(doobomRu as any),
       en: mk(doobomEn as any),
