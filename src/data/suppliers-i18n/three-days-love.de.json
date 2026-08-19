@@ -1,163 +1,164 @@
 {
-  "content": {
-    "tagline": "Professionelle K-Beauty-Cosmeceuticals auf Basis patentierter Mikronadel- und Exosomen-Verabreichung — für Kliniken, Salons und Distributoren",
-    "descriptor": "THREE DAYS LOVE CO., LTD., ein koreanisches Cosmeceutical-Unternehmen, spezialisiert auf topische Mikronadel- (SPICUS®) und Exosomen-Verabreichung; Markenlinien ThreeDaysLove, RETURN 10, TIME 72 und die EXOMERE-Linie",
-    "origin": "Korea",
-    "about": [
-      "THREE DAYS LOVE CO., LTD. (주식회사 3일애) ist ein koreanisches Cosmeceutical-Unternehmen, das sich nach eigenen Angaben seit 2001 auf topische „Skin-Implant“-Verabreichungstechnologie spezialisiert hat. Der Hauptsitz befindet sich in Seoul (Songpa-gu), mit Anlagen für Rohstoffverarbeitung und F&E in Seongnam, Provinz Gyeonggi. Das Unternehmen entwickelt und liefert professionelle Hautpflege unter mehreren eigenen Markenlinien — ThreeDaysLove, RETURN 10 und TIME 72 — und bietet zudem OEM/ODM-Fertigung unter der eigenen Marke des Kunden an.",
-      "Die Positionierung des Unternehmens baut auf firmeneigenen Verabreichungstechnologien auf, für die es koreanische Patente angibt: SPICUS® — eine mit Pflanzenkollagen beschichtete Bio-Mikronadel zur topischen Verabreichung von Wirkstoffen in die Haut, ohne Injektion (Patent Nr. 10-2767202); EXOMERE Halla® — ein Exosomen-Komplex aus Jeju-Hallabong (Patent Nr. 10-2677780); und EXO-AG® — ein Exosomen-Komplex aus schwarzem Knoblauch und Aloe vera (Patent Nr. 10-2534286). Nach Angaben des Unternehmens sollen diese Technologien die Verabreichung, Stabilität und Wirksamkeit aktiver Inhaltsstoffe verbessern. Die Produkte sind als professionelle Cosmeceuticals positioniert, nicht als Medizinprodukte oder Arzneimittel.",
-      "Nach Darstellung des Unternehmens wird die Qualität gemäß ISO 22716 (Kosmetik-GMP), ISO 9001 und ISO 14001 gesteuert, und das Sortiment ist in mehreren Märkten zertifiziert oder registriert — darunter US MoCRA, EU CPNP und Switzerland PIF. Eine separate Markenlinie, EXOMERE, erscheint in der eigenen Preisliste des Unternehmens; laut öffentlichen Daten ist EXOMERE CO., LTD. eine eigenständige juristische Person, und die Beziehung zwischen den beiden Unternehmen ist nicht unabhängig bestätigt — in dieser Präsentation werden die Marken nicht zu einer einzigen juristischen Person zusammengeführt."
-    ],
-    "facts": [
-      "Koreanischer Cosmeceutical-Entwickler; nach Angaben des Unternehmens seit 2001 im Bereich der topischen Mikronadel-Verabreichung tätig",
-      "Firmeneigene Technologien mit vom Unternehmen angegebenen koreanischen Patenten: SPICUS®-Bio-Mikronadel, EXOMERE Halla®- und EXO-AG®-Exosomen-Komplexe",
-      "Markenlinien ThreeDaysLove, RETURN 10 und TIME 72 sowie die EXOMERE-Linie; OEM/ODM verfügbar",
-      "Qualität gesteuert gemäß ISO 22716 (GMP), ISO 9001 und ISO 14001, wie vom Unternehmen erklärt",
-      "Nach Angaben des Unternehmens in mehreren Märkten zertifiziert oder registriert — US MoCRA, EU CPNP, Switzerland PIF und weitere"
-    ],
-    "channels": [
-      "Distributoren und Großhändler professioneller Kosmetik",
-      "Ästhetische Kliniken, Hautpflege- und Kosmetikstudios",
-      "Schönheitssalons, Spas und Hautpflegegeschäfte",
-      "Markeninhaber auf der Suche nach einem koreanischen OEM/ODM-Cosmeceutical-Partner"
-    ],
-    "lines": [
-      {
-        "name": "ThreeDaysLove — Flaggschiff-Cosmeceuticals",
-        "note": "Die zentrale Profi-Linie: Recovery Balms, Ampullen, Implant-Cremes und gezielte Pflege auf Basis des SPICUS®-Mikronadel-Verabreichungskonzepts. Umfasst Recovery Balm, die Whimela Shining- und Derma-Serie, Phytobiome und Kopfhautpflege."
-      },
-      {
-        "name": "RETURN 10 — Home-MTS und Peptidpflege",
-        "note": "Eine Cosmeceutical-Linie rund um MTS- (Mikronadel-) Solutions, Peptidcremes und Ampullen, Recovery-Balm-Kompakte und Maskenpacks — ein Home-Care-Begleiter zur professionellen Behandlung. RETURN 10 ist nach Angaben des Unternehmens für China NMPA-registriert."
-      },
-      {
-        "name": "TIME 72 — Recovery und Healing",
-        "note": "Eine kompakte Linie mit Fokus auf Regeneration und Beruhigung nach der Behandlung: AC Miracle Healer und Miracle Spongliia sowie das Programm-Kit TIME 72 EXOMERE Time Lock."
-      },
-      {
-        "name": "EXOMERE / EXOMERE G — Exosomen-Linie",
-        "note": "Eine exosomenbasierte Markenlinie in der Preisliste des Unternehmens: Implant Solutions, Recovery Balms, Glutathion- und Ceramidpflege, Mists, Körper- und Augenpflege. Präsentiert als Markenlinie; laut öffentlichen Daten ist EXOMERE CO., LTD. eine eigenständige juristische Person, und die Verbindung ist nicht unabhängig bestätigt."
-      },
-      {
-        "name": "SPICUS® — patentierte Wirkstofftechnologie",
-        "note": "Die mit Pflanzenkollagen beschichtete Bio-Mikronadel im Zentrum des Sortiments; nach Angaben des Unternehmens verabreicht sie Wirkstoffe topisch in die Haut, ohne Injektion, um Regeneration und Elastizität zu unterstützen."
-      }
-    ],
-    "tech": [
-      {
-        "name": "SPICUS®-Bio-Mikronadel-Verabreichung",
-        "note": "Eine mit Pflanzenkollagen beschichtete Mikronadel- (Spicule-) Technologie; nach Angaben des Unternehmens (Patent Nr. 10-2767202) verabreicht sie aktive Inhaltsstoffe topisch in die Haut — ein nicht-injektiver Weg — bei gleichzeitig reduzierter Reizung."
-      },
-      {
-        "name": "EXOMERE Halla®- und EXO-AG®-Exosomen",
-        "note": "Exosomen-Komplexe aus Jeju-Hallabong (Patent Nr. 10-2677780) sowie aus schwarzem Knoblauch und Aloe vera (Patent Nr. 10-2534286), wie vom Unternehmen angegeben, eingesetzt zur Unterstützung der Hautregeneration und -festigkeit."
-      },
-      {
-        "name": "Qualitätssysteme",
-        "note": "Fertigung gesteuert gemäß ISO 22716 (Kosmetik-GMP), ISO 9001 und ISO 14001, wie vom Unternehmen erklärt; Kopien der Zertifikate werden in der Deal-Phase angefordert und geprüft."
-      },
-      {
-        "name": "OEM/ODM im Vollzyklus",
-        "note": "Produktplanung, Formulierung, Verpackung und Fertigung unter der eigenen Marke des Kunden, mit Exportunterstützung. Konditionen und Mindestmengen werden über Teranova bestätigt."
-      }
-    ],
-    "formats": [
-      "Balms und Cremes, 15–100 g",
-      "Ampullen und MTS-Solutions, Sets und Einzeleinheiten",
-      "Mists und Seren, 45–300 g / ml",
-      "Maskenpacks und Reiniger",
-      "Programm-Kits und Sets",
-      "Körper- und Kopfhautpflege"
-    ],
-    "exportNote": "Nach Angaben des Unternehmens ist das Sortiment in mehreren Märkten zertifiziert oder registriert — darunter US MoCRA, EU CPNP und Switzerland PIF — und die RETURN 10-Linie ist für China NMPA-registriert; das Unternehmen beschreibt sich selbst als in acht Ländern zertifiziert. Die Lieferbasis ist FOB Korea. Der endgültige Registrierungsstatus für einen bestimmten Markt wird in der Deal-Phase bestätigt.",
-    "terms": [
-      {
-        "label": "Lieferbasis",
-        "value": "FOB Korea"
-      },
-      {
-        "label": "Währungen",
-        "value": "Die indikativen Preise werden in USD veröffentlicht. Die eigene Preisliste des Lieferanten wird in KRW, EUR und USD ausgestellt; Abrechnungswährung und Wechselkurs werden in der Deal-Phase fixiert"
-      },
-      {
-        "label": "Preisgestaltung",
-        "value": "Die Großhandelspreise sind nach Mengenstufen gestaffelt (von unter 100 Einheiten bis über 5.000 Einheiten je Artikel). Die veröffentlichten indikativen Werte entsprechen der Stufe ab 1.000 Einheiten; die zutreffende Stufe und die MOQ werden über Teranova bestätigt"
-      },
-      {
-        "label": "OEM/ODM",
-        "value": "Verfügbar unter der eigenen Marke des Kunden; Mindestmengen und Konditionen werden je Projekt besprochen"
-      },
-      {
-        "label": "Zahlung und Lieferzeit",
-        "value": "Im Vertrag in der Deal-Phase festgelegt"
-      }
-    ],
-    "consentNote": "Die Daten und Materialien werden von THREE DAYS LOVE CO., LTD. (Global Sales, Allen Chung) bereitgestellt und mit Einwilligung des Unternehmens zur gemeinsamen Erstellung des Profils veröffentlicht (August 2026). Angaben zu Technologien, Patenten, Zertifizierungen und Registrierungen stammen vom Unternehmen und unterliegen der dokumentarischen Bestätigung in der Deal-Phase. Aussagen zu Mikronadel- („Skin-Implant“), Exosomen- und Spicule-Technologien werden so dargestellt, wie sie vom Unternehmen erklärt wurden; die Produkte sind als Cosmeceuticals zur topischen Anwendung positioniert, nicht als Medizinprodukte oder Arzneimittel. EXOMERE wird als Markenlinie in der Preisliste des Unternehmens gezeigt; laut öffentlichen Daten ist EXOMERE CO., LTD. eine eigenständige juristische Person, und die Beziehung ist nicht unabhängig bestätigt.",
-    "seoTitle": "THREE DAYS LOVE — K-Beauty-Cosmeceuticals · SPICUS® & EXOMERE · Teranova",
-    "seoDesc": "THREE DAYS LOVE ist ein koreanischer Cosmeceutical-Entwickler: SPICUS®-Mikronadel- und EXOMERE®-Exosomen-Technologien über die Linien ThreeDaysLove, RETURN 10, TIME 72 und EXOMERE. OEM/ODM, FOB Korea. Deals über Teranova.",
-    "catalog_notes": [
-      "Ein Recell-Ampullen-Set auf Basis der EXOMERE®-Exosomen- und SPICUS®-Konzepte für intensive Regenerationspflege.",
-      "Eine aufhellende Implant-Creme mit dem SPICUS®-Mikronadel-Konzept für ebenmäßigen Ton und Strahlkraft.",
-      "Eine reichhaltige Derma-Creme für Komfort und Regeneration gestresster Haut.",
-      "Eine aufhellende Pflegecreme, formuliert für Männerhaut.",
-      "Ein konzentrierter Derma-Serum-Schritt für gezielte Regenerationspflege.",
-      "Ein beruhigender Derma-Schritt zur Beruhigung und Unterstützung der Hautbarriere.",
-      "Der charakteristische Recovery Balm für intensive Beruhigung und Komfort nach der Behandlung.",
-      "Eine After-Care-Creme zur Unterstützung der Haut nach professioneller Behandlung.",
-      "Eine Phytobiome-Creme (Typ A) mit pflanzlichen Wirkstoffen für ausgewogene Pflege.",
-      "Eine Massagecreme mit Edelweiß für Salon-Massage und Beruhigung.",
-      "Ein gezielter Healer für zu Unreinheiten neigende Haut, Teil der TIME 72-Linie.",
-      "Ein Spongilla-basierter Booster für Erneuerung, Teil der TIME 72-Linie.",
-      "Ein MTS- (Mikronadel-) Solution-Set, Hard-Typ, für intensive Erneuerungspflege zu Hause.",
-      "Ein Recovery Balm im Kompaktformat für bequeme Beruhigungspflege.",
-      "Ein zweistufiges Rose-Garden-Maskenpack für Feuchtigkeit und Komfort.",
-      "Ein Tea Tree Cleanser zur täglichen Reinigung öliger und zu Unreinheiten neigender Haut.",
-      "Ein Luxury-Peptide-Dreier-Set (Typ A) für Festigkeit und Anti-Age-Pflege.",
-      "Ein Luxury-Peptide-Dreier-Set (Typ B) für Festigkeit und Anti-Age-Pflege.",
-      "Ein Hanfsamen-Mist-Serum, größeres Format, für leichte Feuchtigkeitspflege.",
-      "Eine charakteristische Peptid-Ampulle für konzentrierte Festigkeitspflege.",
-      "Eine intensive Peptidcreme für Festigkeit und Regeneration.",
-      "Eine MTS-Creme als Begleiter zur Mikronadel-Routine.",
-      "Ein Time-Lock-Programm-Kit auf Basis der EXOMERE®-Exosomenpflege für eine komplette Regenerationsroutine.",
-      "Ein Implant-Solution-Set, das das SPICUS®-Konzept mit EXOMERE®-Exosomen anwendet.",
-      "Eine Implant Solution mit EXOMERE®-Exosomen für intensive Regenerationspflege.",
-      "Ein Lifting-Shot-Beruhigungsgel für festigende und beruhigende Pflege.",
-      "Ein verbesserter Recovery Balm mit EXOMERE®-Exosomen zur Beruhigung nach der Behandlung.",
-      "Eine Glutathion-Melashot-Solution für Aufhellung und ebenmäßigen Ton.",
-      "Eine Ceramid-Recell-Creme zur Stärkung der Barriere und Unterstützung der Regeneration.",
-      "Ein Aroma-Healing-Mist für erfrischende Feuchtigkeit und Komfort.",
-      "Ein Refill für den EXOMERE Aroma Healing Mist.",
-      "Eine Edelweiß-Creme für beruhigende und feuchtigkeitsspendende Pflege.",
-      "Ein Tea Tree Bubble Cleanser für sanfte tägliche Reinigung.",
-      "Eine Recell-Ampulle mit PDRN oder EGF und dem SPICUS®-Konzept zur Regeneration.",
-      "Ein Body Concentrator, der das Lifting-Shot-Konzept für festigende Körperpflege anwendet.",
-      "Ein Botanical V Serum für festigende und konturierende Pflege des Körpers.",
-      "Eine Augencreme, die das Shot-Konzept auf die Augenpartie anwendet.",
-      "Ein SPICUS®-Shot-Augencreme-Set für gezielte Pflege der Augenpartie."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Lieferantenprofil",
-    "about_h": "Über das Unternehmen",
-    "for_whom": "Für wen:",
-    "lines_h": "Produktlinien",
-    "catalog_h": "Produktkatalog",
-    "tech_h": "Technologie und Fertigung",
-    "products_h": "Produkte",
-    "products_note": "Professionelle K-Beauty-Cosmeceuticals über die Linien ThreeDaysLove, RETURN 10, TIME 72 und EXOMERE: Recovery Balms, Implant-Cremes, Ampullen und MTS-Solutions, Mists und Seren, Maskenpacks, Reiniger sowie Körper- und Kopfhautpflege — auf Basis der SPICUS®-Mikronadel- und EXOMERE®-Exosomen-Technologien.",
-    "formats_h": "Produktformate",
-    "export_h": "Export und Märkte",
-    "terms_h": "Kooperationsbedingungen",
-    "download_btn": "Bedingungen herunterladen (PDF)",
-    "price_btn": "Preisliste herunterladen (PDF)",
-    "pres_btn": "Präsentation herunterladen (PDF)",
-    "terms_disc": "Preise und Konditionen sind Richtwerte und werden in der Deal-Phase über Teranova festgelegt. Die direkten Kontakte des Lieferanten werden nicht veröffentlicht: Teranova Group übernimmt Verhandlungen, Due Diligence und Lieferunterstützung.",
-    "cta_h": "Interesse an diesem Lieferanten?",
-    "cta_d": "Nehmen Sie Kontakt auf — Teranova organisiert Verhandlungen, Due Diligence und Deal-Unterstützung vom ersten Kontakt bis zur Lieferung.",
-    "cta_btn": "Kontakt über Teranova",
-    "more": "Profil öffnen →",
-    "verified_suppliers": "Verifizierte Lieferanten",
-    "certs_h": "Zertifizierungen und Registrierungen",
-    "certs_note": "Vom Unternehmen erklärt. Nach Angaben von THREE DAYS LOVE wird die Qualität gemäß ISO 22716 (GMP), ISO 9001 und ISO 14001 gesteuert; das Sortiment ist in Märkten wie US MoCRA, EU CPNP und Switzerland PIF zertifiziert oder registriert, wobei die RETURN 10-Linie für China NMPA-registriert ist. Das Unternehmen gibt außerdem koreanische Patente für seine SPICUS®-, EXOMERE Halla®- und EXO-AG®-Technologien an. Kopien der Dokumente werden in der Deal-Phase angefordert und geprüft."
-  }
+ "content": {
+  "tagline": "Professionelle K-Beauty-Cosmeceuticals auf Basis patentierter Mikronadel- und Exosomen-Verabreichung — für Kliniken, Salons und Distributoren",
+  "descriptor": "THREE DAYS LOVE CO., LTD., ein koreanisches Cosmeceutical-Unternehmen, spezialisiert auf topische Mikronadel- (SPICUS®) und Exosomen-Verabreichung; Markenlinien ThreeDaysLove, RETURN 10, TIME 72 und die EXOMERE-Linie",
+  "origin": "Korea",
+  "about": [
+   "THREE DAYS LOVE CO., LTD. (주식회사 3일애) ist ein koreanisches Cosmeceutical-Unternehmen, das sich nach eigenen Angaben seit 2001 auf topische „Skin-Implant“-Verabreichungstechnologie spezialisiert hat. Der Hauptsitz befindet sich in Seoul (Songpa-gu), mit Anlagen für Rohstoffverarbeitung und F&E in Seongnam, Provinz Gyeonggi. Das Unternehmen entwickelt und liefert professionelle Hautpflege unter mehreren eigenen Markenlinien — ThreeDaysLove, RETURN 10 und TIME 72 — und bietet zudem OEM/ODM-Fertigung unter der eigenen Marke des Kunden an.",
+   "Die Positionierung des Unternehmens baut auf firmeneigenen Verabreichungstechnologien auf, für die es koreanische Patente angibt: SPICUS® — eine mit Pflanzenkollagen beschichtete Bio-Mikronadel zur topischen Verabreichung von Wirkstoffen in die Haut, ohne Injektion (Patent Nr. 10-2767202); EXOMERE Halla® — ein Exosomen-Komplex aus Jeju-Hallabong (Patent Nr. 10-2677780); und EXO-AG® — ein Exosomen-Komplex aus schwarzem Knoblauch und Aloe vera (Patent Nr. 10-2534286). Nach Angaben des Unternehmens sollen diese Technologien die Verabreichung, Stabilität und Wirksamkeit aktiver Inhaltsstoffe verbessern. Die Produkte sind als professionelle Cosmeceuticals positioniert, nicht als Medizinprodukte oder Arzneimittel.",
+   "Nach Darstellung des Unternehmens wird die Qualität gemäß ISO 22716 (Kosmetik-GMP), ISO 9001 und ISO 14001 gesteuert, und das Sortiment ist in mehreren Märkten zertifiziert oder registriert — darunter US MoCRA, EU CPNP und Switzerland PIF. Eine separate Markenlinie, EXOMERE, erscheint in der eigenen Preisliste des Unternehmens; laut öffentlichen Daten ist EXOMERE CO., LTD. eine eigenständige juristische Person, und die Beziehung zwischen den beiden Unternehmen ist nicht unabhängig bestätigt — in dieser Präsentation werden die Marken nicht zu einer einzigen juristischen Person zusammengeführt."
+  ],
+  "facts": [
+   "Koreanischer Cosmeceutical-Entwickler; nach Angaben des Unternehmens seit 2001 im Bereich der topischen Mikronadel-Verabreichung tätig",
+   "Firmeneigene Technologien mit vom Unternehmen angegebenen koreanischen Patenten: SPICUS®-Bio-Mikronadel, EXOMERE Halla®- und EXO-AG®-Exosomen-Komplexe",
+   "Markenlinien ThreeDaysLove, RETURN 10 und TIME 72 sowie die EXOMERE-Linie; OEM/ODM verfügbar",
+   "Qualität gesteuert gemäß ISO 22716 (GMP), ISO 9001 und ISO 14001, wie vom Unternehmen erklärt",
+   "Nach Angaben des Unternehmens in mehreren Märkten zertifiziert oder registriert — US MoCRA, EU CPNP, Switzerland PIF und weitere"
+  ],
+  "channels": [
+   "Distributoren und Großhändler professioneller Kosmetik",
+   "Ästhetische Kliniken, Hautpflege- und Kosmetikstudios",
+   "Schönheitssalons, Spas und Hautpflegegeschäfte",
+   "Markeninhaber auf der Suche nach einem koreanischen OEM/ODM-Cosmeceutical-Partner"
+  ],
+  "lines": [
+   {
+    "name": "EXOMERE — die Exosomen-Linie",
+    "note": "Die jüngste Marke des Unternehmens und seine wichtigste Exosomen-Linie: Implant-Lösungen, Recovery-Balms, Pflege mit Glutathion und Ceramiden, Mists, Körper- und Augenpflege."
+   },
+   {
+    "name": "EXOMERE G — die Linie für den Onlinehandel",
+    "note": "Eine eigene EXOMERE-Linie für Online-Retail-Kanäle: der Cushion Spicus V Shot Recovery Balm und gezielte Augenpflege."
+   },
+   {
+    "name": "RETURN 10 — Home-MTS und Peptidpflege",
+    "note": "Eine Cosmeceutical-Linie rund um MTS- (Mikronadel-) Solutions, Peptidcremes und Ampullen, Recovery-Balm-Kompakte und Maskenpacks — ein Home-Care-Begleiter zur professionellen Behandlung. RETURN 10 ist nach Angaben des Unternehmens für China NMPA-registriert."
+   },
+   {
+    "name": "ThreeDaysLove — Flaggschiff-Cosmeceuticals",
+    "note": "Die zentrale Profi-Linie: Recovery Balms, Ampullen, Implant-Cremes und gezielte Pflege auf Basis des SPICUS®-Mikronadel-Verabreichungskonzepts. Umfasst Recovery Balm, die Whimela Shining- und Derma-Serie, Phytobiome und Kopfhautpflege."
+   },
+   {
+    "name": "TIME 72 — Recovery und Healing",
+    "note": "Eine kompakte Linie mit Fokus auf Regeneration und Beruhigung nach der Behandlung: AC Miracle Healer und Miracle Spongliia sowie das Programm-Kit TIME 72 EXOMERE Time Lock."
+   }
+  ],
+  "tech": [
+   {
+    "name": "SPICUS®-Bio-Mikronadel-Verabreichung",
+    "note": "Eine mit Pflanzenkollagen beschichtete Mikronadel- (Spicule-) Technologie; nach Angaben des Unternehmens (Patent Nr. 10-2767202) verabreicht sie aktive Inhaltsstoffe topisch in die Haut — ein nicht-injektiver Weg — bei gleichzeitig reduzierter Reizung."
+   },
+   {
+    "name": "EXOMERE Halla®- und EXO-AG®-Exosomen",
+    "note": "Exosomen-Komplexe aus Jeju-Hallabong (Patent Nr. 10-2677780) sowie aus schwarzem Knoblauch und Aloe vera (Patent Nr. 10-2534286), wie vom Unternehmen angegeben, eingesetzt zur Unterstützung der Hautregeneration und -festigkeit."
+   },
+   {
+    "name": "Qualitätssysteme",
+    "note": "Fertigung gesteuert gemäß ISO 22716 (Kosmetik-GMP), ISO 9001 und ISO 14001, wie vom Unternehmen erklärt; Kopien der Zertifikate werden in der Deal-Phase angefordert und geprüft."
+   },
+   {
+    "name": "OEM/ODM im Vollzyklus",
+    "note": "Produktplanung, Formulierung, Verpackung und Fertigung unter der eigenen Marke des Kunden, mit Exportunterstützung. Konditionen und Mindestmengen werden über Teranova bestätigt."
+   }
+  ],
+  "formats": [
+   "Balms und Cremes, 15–100 g",
+   "Ampullen und MTS-Solutions, Sets und Einzeleinheiten",
+   "Mists und Seren, 45–300 g / ml",
+   "Maskenpacks und Reiniger",
+   "Programm-Kits und Sets",
+   "Körper- und Kopfhautpflege"
+  ],
+  "exportNote": "Nach Angaben des Unternehmens ist das Sortiment in mehreren Märkten zertifiziert oder registriert — darunter US MoCRA, EU CPNP und Switzerland PIF — und die RETURN 10-Linie ist für China NMPA-registriert; das Unternehmen beschreibt sich selbst als in acht Ländern zertifiziert. Die Lieferbasis ist FOB Korea. Der endgültige Registrierungsstatus für einen bestimmten Markt wird in der Deal-Phase bestätigt.",
+  "terms": [
+   {
+    "label": "Lieferbasis",
+    "value": "FOB Korea"
+   },
+   {
+    "label": "Währungen",
+    "value": "Die indikativen Preise werden in USD veröffentlicht. Die eigene Preisliste des Lieferanten wird in KRW, EUR und USD ausgestellt; Abrechnungswährung und Wechselkurs werden in der Deal-Phase fixiert"
+   },
+   {
+    "label": "Preisgestaltung",
+    "value": "Die Großhandelspreise sind nach Mengenstufen gestaffelt (von unter 100 Einheiten bis über 5.000 Einheiten je Artikel). Die veröffentlichten indikativen Werte entsprechen der Stufe ab 1.000 Einheiten; die zutreffende Stufe und die MOQ werden über Teranova bestätigt"
+   },
+   {
+    "label": "OEM/ODM",
+    "value": "Verfügbar unter der eigenen Marke des Kunden; Mindestmengen und Konditionen werden je Projekt besprochen"
+   },
+   {
+    "label": "Zahlung und Lieferzeit",
+    "value": "Im Vertrag in der Deal-Phase festgelegt"
+   }
+  ],
+  "consentNote": "Die Daten und Materialien werden von THREE DAYS LOVE CO., LTD. (Global Sales, Allen Chung) bereitgestellt und mit Einwilligung des Unternehmens zur gemeinsamen Erstellung des Profils veröffentlicht (August 2026). Angaben zu Technologien, Patenten, Zertifizierungen und Registrierungen stammen vom Unternehmen und unterliegen der dokumentarischen Bestätigung in der Deal-Phase. Aussagen zu Mikronadel- („Skin-Implant“), Exosomen- und Spicule-Technologien werden so dargestellt, wie sie vom Unternehmen erklärt wurden; die Produkte sind als Cosmeceuticals zur topischen Anwendung positioniert, nicht als Medizinprodukte oder Arzneimittel. EXOMERE wird als Markenlinie in der Preisliste des Unternehmens gezeigt; laut öffentlichen Daten ist EXOMERE CO., LTD. eine eigenständige juristische Person, und die Beziehung ist nicht unabhängig bestätigt.",
+  "seoTitle": "THREE DAYS LOVE — K-Beauty-Cosmeceuticals · SPICUS® & EXOMERE · Teranova",
+  "seoDesc": "THREE DAYS LOVE ist ein koreanischer Cosmeceutical-Entwickler: SPICUS®-Mikronadel- und EXOMERE®-Exosomen-Technologien über die Linien ThreeDaysLove, RETURN 10, TIME 72 und EXOMERE. OEM/ODM, FOB Korea. Deals über Teranova.",
+  "catalog_notes": [
+   "Ein Time-Lock-Programm-Kit auf Basis der EXOMERE®-Exosomenpflege für eine komplette Regenerationsroutine.",
+   "Ein Implant-Solution-Set, das das SPICUS®-Konzept mit EXOMERE®-Exosomen anwendet.",
+   "Eine Implant Solution mit EXOMERE®-Exosomen für intensive Regenerationspflege.",
+   "Ein Lifting-Shot-Beruhigungsgel für festigende und beruhigende Pflege.",
+   "Ein verbesserter Recovery Balm mit EXOMERE®-Exosomen zur Beruhigung nach der Behandlung.",
+   "Eine Glutathion-Melashot-Solution für Aufhellung und ebenmäßigen Ton.",
+   "Eine Ceramid-Recell-Creme zur Stärkung der Barriere und Unterstützung der Regeneration.",
+   "Ein Aroma-Healing-Mist für erfrischende Feuchtigkeit und Komfort.",
+   "Ein Refill für den EXOMERE Aroma Healing Mist.",
+   "Eine Edelweiß-Creme für beruhigende und feuchtigkeitsspendende Pflege.",
+   "Ein Tea Tree Bubble Cleanser für sanfte tägliche Reinigung.",
+   "Eine Recell-Ampulle mit PDRN oder EGF und dem SPICUS®-Konzept zur Regeneration.",
+   "Ein Body Concentrator, der das Lifting-Shot-Konzept für festigende Körperpflege anwendet.",
+   "Ein Botanical V Serum für festigende und konturierende Pflege des Körpers.",
+   "EXOMERE-G-Cushion-Balm mit Hallabong-Exosomen und kollagenbeschichteten Spikulen, 72 Stunden Kaltfermentation. Drei Nuancen.",
+   "Eine Augencreme, die das Shot-Konzept auf die Augenpartie anwendet.",
+   "Ein SPICUS®-Shot-Augencreme-Set für gezielte Pflege der Augenpartie.",
+   "Ein MTS- (Mikronadel-) Solution-Set, Hard-Typ, für intensive Erneuerungspflege zu Hause.",
+   "Ein Recovery Balm im Kompaktformat für bequeme Beruhigungspflege.",
+   "Ein zweistufiges Rose-Garden-Maskenpack für Feuchtigkeit und Komfort.",
+   "Ein Tea Tree Cleanser zur täglichen Reinigung öliger und zu Unreinheiten neigender Haut.",
+   "Ein Luxury-Peptide-Dreier-Set (Typ A) für Festigkeit und Anti-Age-Pflege.",
+   "Ein Luxury-Peptide-Dreier-Set (Typ B) für Festigkeit und Anti-Age-Pflege.",
+   "Ein Hanfsamen-Mist-Serum, größeres Format, für leichte Feuchtigkeitspflege.",
+   "Eine charakteristische Peptid-Ampulle für konzentrierte Festigkeitspflege.",
+   "Eine intensive Peptidcreme für Festigkeit und Regeneration.",
+   "Eine MTS-Creme als Begleiter zur Mikronadel-Routine.",
+   "Set aus Recell-Ampullen auf Basis des Exosomen-Komplexes EXO-AG® aus Aloe und schwarzem Knoblauch, für intensive Regeneration.",
+   "Eine aufhellende Implant-Creme mit dem SPICUS®-Mikronadel-Konzept für ebenmäßigen Ton und Strahlkraft.",
+   "Eine reichhaltige Derma-Creme für Komfort und Regeneration gestresster Haut.",
+   "Eine aufhellende Pflegecreme, formuliert für Männerhaut.",
+   "Ein konzentrierter Derma-Serum-Schritt für gezielte Regenerationspflege.",
+   "Ein beruhigender Derma-Schritt zur Beruhigung und Unterstützung der Hautbarriere.",
+   "Der charakteristische Recovery Balm für intensive Beruhigung und Komfort nach der Behandlung.",
+   "Eine After-Care-Creme zur Unterstützung der Haut nach professioneller Behandlung.",
+   "Eine Phytobiome-Creme (Typ A) mit pflanzlichen Wirkstoffen für ausgewogene Pflege.",
+   "Eine Massagecreme mit Edelweiß für Salon-Massage und Beruhigung.",
+   "Ein gezielter Healer für zu Unreinheiten neigende Haut, Teil der TIME 72-Linie.",
+   "Ein Spongilla-basierter Booster für Erneuerung, Teil der TIME 72-Linie."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Lieferantenprofil",
+  "about_h": "Über das Unternehmen",
+  "for_whom": "Für wen:",
+  "lines_h": "Produktlinien",
+  "catalog_h": "Produktkatalog",
+  "tech_h": "Technologie und Fertigung",
+  "products_h": "Produkte",
+  "products_note": "Professionelle K-Beauty-Cosmeceuticals über die Linien ThreeDaysLove, RETURN 10, TIME 72 und EXOMERE: Recovery Balms, Implant-Cremes, Ampullen und MTS-Solutions, Mists und Seren, Maskenpacks, Reiniger sowie Körper- und Kopfhautpflege — auf Basis der SPICUS®-Mikronadel- und EXOMERE®-Exosomen-Technologien.",
+  "formats_h": "Produktformate",
+  "export_h": "Export und Märkte",
+  "terms_h": "Kooperationsbedingungen",
+  "download_btn": "Bedingungen herunterladen (PDF)",
+  "price_btn": "Preisliste herunterladen (PDF)",
+  "pres_btn": "Präsentation herunterladen (PDF)",
+  "terms_disc": "Preise und Konditionen sind Richtwerte und werden in der Deal-Phase über Teranova festgelegt. Die direkten Kontakte des Lieferanten werden nicht veröffentlicht: Teranova Group übernimmt Verhandlungen, Due Diligence und Lieferunterstützung.",
+  "cta_h": "Interesse an diesem Lieferanten?",
+  "cta_d": "Nehmen Sie Kontakt auf — Teranova organisiert Verhandlungen, Due Diligence und Deal-Unterstützung vom ersten Kontakt bis zur Lieferung.",
+  "cta_btn": "Kontakt über Teranova",
+  "more": "Profil öffnen →",
+  "verified_suppliers": "Verifizierte Lieferanten",
+  "certs_h": "Zertifizierungen und Registrierungen",
+  "certs_note": "Vom Unternehmen erklärt. Nach Angaben von THREE DAYS LOVE wird die Qualität gemäß ISO 22716 (GMP), ISO 9001 und ISO 14001 gesteuert; das Sortiment ist in Märkten wie US MoCRA, EU CPNP und Switzerland PIF zertifiziert oder registriert, wobei die RETURN 10-Linie für China NMPA-registriert ist. Das Unternehmen gibt außerdem koreanische Patente für seine SPICUS®-, EXOMERE Halla®- und EXO-AG®-Technologien an. Kopien der Dokumente werden in der Deal-Phase angefordert und geprüft."
+ }
 }
