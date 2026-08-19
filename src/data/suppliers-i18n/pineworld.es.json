@@ -1,133 +1,131 @@
 {
-  "content": {
-    "tagline": "Cuidado coreano de la piel: de la pigmentación a la firmeza, la hidratación y los poros",
-    "descriptor": "Marca coreana de cuidado de la piel RAVIEL; OEM/ODM a través de socios certificados",
-    "origin": "Corea",
-    "about": [
-      "PINE WORLD es propietaria y desarrolladora de la marca coreana de cuidado de la piel RAVIEL. Las líneas de producto están diseñadas para necesidades concretas de la piel: pigmentación y unificación del tono (aclarado), firmeza, hidratación y cuidado de los poros. La empresa se posiciona como propietaria de la marca, desarrolladora y operadora comercial y de distribución, no como planta de producción propia.",
-      "La marca RAVIEL se construye en torno a su propio concepto de liberación de activos SILK (Skin-Ingredient Link Key), un enfoque de marca sobre cómo el ingrediente activo se retiene y actúa en la piel. Sobre esta base se desarrollan las líneas especializadas: Acerola, Bakuchiol Mela Free, Biome 8X Hyaluronic y Retinol 10X Peptide, además de los productos básicos.",
-      "Además de su marca propia, PINE WORLD ofrece OEM/ODM directo: desarrollo y fabricación bajo la marca del cliente a través de socios de producción coreanos certificados. Los productos RAVIEL están presentes en la venta minorista coreana, en el canal farmacéutico y de duty-free, y en marketplaces internacionales en línea."
-    ],
-    "facts": [
-      "Propietaria y desarrolladora de la marca de cuidado de la piel RAVIEL",
-      "Enfoque: pigmentación · aclarado del tono · firmeza · hidratación · poros",
-      "Concepto propio de liberación de activos SILK (Skin-Ingredient Link Key)",
-      "OEM/ODM — a través de socios de producción coreanos certificados",
-      "Referencias de registro EU CPNP / US MoCRA — según datos de la empresa"
-    ],
-    "channels": [
-      "Importadores y distribuidores de cosmética",
-      "Cadenas farmacéuticas y de belleza, droguerías, duty-free",
-      "Marketplaces y comercio electrónico",
-      "Clientes OEM/ODM — fabricación bajo marca propia"
-    ],
-    "lines": [
-      {
-        "name": "Acerola",
-        "note": "Cuidado de la pigmentación y unificación del tono (aclarado, a nivel cosmético): crema, ampolla y tónico con extracto de Acerola, niacinamida y extracto de Houttuynia."
-      },
-      {
-        "name": "Bakuchiol Mela Free",
-        "note": "Cuidado de la firmeza y el tono con bakuchiol —alternativa cosmética vegetal al retinol—: crema y sérum, orientación slow-aging."
-      },
-      {
-        "name": "Biome 8X Hyaluronic",
-        "note": "Hidratación y cuidado de los poros y del exceso de grasa de la piel: crema y ampolla con un complejo de ocho ácidos hialurónicos, ceramidas y complejo probiótico."
-      },
-      {
-        "name": "Retinol 10X Peptide",
-        "note": "Cuidado de la textura y la firmeza de la piel: ampolla con retinol y complejo de péptidos, orientación slow-aging."
-      },
-      {
-        "name": "Productos básicos",
-        "note": "Cuidado localizado y vitamínico: sérum multivitamínico para el tono y crema localizada con pantenol para el cuidado puntual de la pigmentación."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Especialización en el cuidado de la piel",
-        "note": "Líneas especializadas para necesidades concretas —pigmentación, firmeza, hidratación, poros— sobre la base del concepto propio de liberación de activos SILK. Los materiales clínicos y de marketing los facilita la empresa tras el contrato; en el sitio no se reproducen como confirmados de forma independiente."
-      },
-      {
-        "name": "OEM/ODM a través de socios",
-        "note": "OEM/ODM directo: desarrollo y fabricación bajo la marca del cliente a través de socios de producción coreanos certificados. No se declara como hecho la existencia de una planta propia."
-      },
-      {
-        "name": "Registros y estándares",
-        "note": "Según datos de la empresa: referencias de registro EU CPNP y US MoCRA, fabricación en instalaciones con estándar cGMP, así como declaraciones vegana y EWG. Se trata de datos de la empresa y referencias de registro, no de una aprobación del regulador; las copias de los documentos justificativos se facilitan en la etapa de la operación."
-      }
-    ],
-    "formats": [
-      "Cremas",
-      "Sérums",
-      "Ampollas",
-      "Tónicos",
-      "Cremas localizadas (spot)",
-      "Sets"
-    ],
-    "exportNote": "Los productos de la marca RAVIEL están presentes en la venta minorista coreana (incluido Olive Young), en el canal farmacéutico y de duty-free, así como en marketplaces internacionales en línea; según datos de la empresa, la exportación abarca los mercados de Asia, América del Norte y Europa. Para los destinos abiertos, incluidas América Latina y América del Norte, los materiales se publican a través de Teranova.",
-    "terms": [
-      {
-        "label": "Formatos de cooperación",
-        "value": "Suministro mayorista de producto terminado de la marca RAVIEL; OEM/ODM — desarrollo y fabricación bajo la marca del cliente a través de socios de producción coreanos certificados."
-      },
-      {
-        "label": "Pedido mínimo",
-        "value": "Según la lista de precios vigente — desde una caja por SKU (orientativamente 54–150 unidades en las principales referencias de tamaño completo; algunas referencias tienen lotes distintos); un pedido inferior a una caja lleva recargo. El MOQ exacto se concreta en la etapa de la operación."
-      },
-      {
-        "label": "Precios",
-        "value": "FOB Korea, a solicitud / a concretar. Vigencia de la oferta: 60 días. Pago anticipado: pedidos de hasta 10 000 USD — 100%; a partir de 10 000 USD — 70% de anticipo y 30% antes del envío; EXW se negocia para pedidos de mayor volumen."
-      },
-      {
-        "label": "Plazos",
-        "value": "Desde almacén — es posible el envío inmediato; fabricación — orientativamente 45 días. Las condiciones de entrega dependen del país de destino y del modo de transporte; las muestras se acuerdan por separado."
-      },
-      {
-        "label": "Cómo funciona",
-        "value": "Solicitud → verificación y coordinación de Teranova → negociaciones y muestras → logística, aduanas y pago, llave en mano."
-      }
-    ],
-    "consentNote": "Los datos y materiales son proporcionados por PINE WORLD CO., LTD. (marca RAVIEL) y se publican con su consentimiento por escrito del 31/07/2026. Los contactos directos del fabricante no se revelan. Teranova coordina y acompaña la operación.",
-    "seoTitle": "PINE WORLD (RAVIEL) — cuidado coreano de la piel · Teranova",
-    "seoDesc": "PINE WORLD es propietaria de la marca coreana RAVIEL: cuidado de la piel para pigmentación, firmeza, hidratación y poros. OEM/ODM a través de socios. Operaciones a través de Teranova.",
-    "catalog_notes": [
-      "Crema de la línea Acerola (extracto de Acerola, rica en vitamina C, + Houttuynia) para el cuidado de la pigmentación y el aclarado del tono. Volumen 50 ml.",
-      "Ampolla concentrada de la línea Acerola para el cuidado de las manchas y el tono desigual. Volumen 30 ml.",
-      "Tónico-crema de la línea Acerola (agitar antes de usar) para un cuidado aclarante. Volumen 150 ml.",
-      "Crema con bakuchiol (alternativa vegetal al retinol) e idebenona para el cuidado de la firmeza y el tono. Volumen 50 ml.",
-      "Sérum con bakuchiol para un cuidado antiedad y aclarante. Volumen 30 ml.",
-      "Crema hidratante con un complejo de 8 ácidos hialurónicos, probióticos/postbióticos y ceramidas; cuidado de los poros y del sebo. Volumen 80 ml.",
-      "Ampolla con 8 tipos de ácido hialurónico y complejo biome para la hidratación y el cuidado de los poros. Volumen 30 ml.",
-      "Ampolla con retinol BASF (Alemania) y 10 péptidos para el cuidado de la textura y la firmeza de la piel. Volumen 30 ml.",
-      "Sérum vitamínico (complejo VITA-BIOSOME, ácido ascórbico) para un cuidado aclarante y antioxidante. Volumen 50 ml.",
-      "Crema localizada con alto contenido de pantenol (50 000 ppm) para el cuidado de manchas puntuales. Set 15 ml x 2.",
-      "Ampolla calmante con centella (cica) y pantenol para piel sensible y refuerzo de la barrera. Volumen 30 ml.",
-      "Tónico calmante con savia de abedul y centella (cica) para piel sensible. Volumen 150 ml."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Perfil del proveedor",
-    "about_h": "Sobre la empresa",
-    "for_whom": "Para quién es:",
-    "lines_h": "Líneas de producto",
-    "catalog_h": "Catálogo de productos",
-    "tech_h": "Capacidades y producción",
-    "products_h": "Productos",
-    "products_note": "La marca RAVIEL — cuidado coreano de la piel para pigmentación, firmeza, hidratación y poros.",
-    "formats_h": "Formatos de producto",
-    "export_h": "Exportación y mercados",
-    "terms_h": "Condiciones de cooperación",
-    "download_btn": "Descargar condiciones (PDF)",
-    "price_btn": "Descargar lista de precios (PDF)",
-    "pres_btn": "Descargar presentación (PDF)",
-    "terms_disc": "Los precios y las condiciones son indicativos y se concretan en la etapa de la operación a través de Teranova. Los contactos directos del proveedor no se publican. Las referencias de registro (EU CPNP, US MoCRA) se indican según datos de la empresa y no constituyen una aprobación del regulador.",
-    "cta_h": "¿Le interesa este proveedor?",
-    "cta_d": "Póngase en contacto — Teranova organiza las negociaciones, la verificación y el acompañamiento de la operación desde el primer contacto hasta la entrega.",
-    "cta_btn": "Contactar a través de Teranova",
-    "more": "Abrir perfil →",
-    "verified_suppliers": "Proveedores verificados",
-    "certs_h": "Certificaciones y registros",
-    "certs_note": "Declarado por la empresa. Las copias de los documentos justificativos y los registros se facilitan en la etapa de la operación. Un registro o listado no constituye una aprobación del regulador."
-  }
+ "content": {
+  "tagline": "Cuidado coreano de la piel: de la pigmentación a la firmeza, la hidratación y los poros",
+  "descriptor": "Marca coreana de cuidado de la piel RAVIEL; OEM/ODM a través de socios certificados",
+  "origin": "Corea",
+  "about": [
+   "PINE WORLD es propietaria y desarrolladora de la marca coreana de cuidado de la piel RAVIEL. Las líneas de producto están diseñadas para necesidades concretas de la piel: pigmentación y unificación del tono (aclarado), firmeza, hidratación y cuidado de los poros. La empresa se posiciona como propietaria de la marca, desarrolladora y operadora comercial y de distribución, no como planta de producción propia.",
+   "La marca RAVIEL se construye en torno a su propio concepto de liberación de activos SILK (Skin-Ingredient Link Key), un enfoque de marca sobre cómo el ingrediente activo se retiene y actúa en la piel. Sobre esta base se desarrollan las líneas especializadas: Acerola, Bakuchiol Mela Free, Biome 8X Hyaluronic y Retinol 10X Peptide, además de los productos básicos.",
+   "Además de su marca propia, PINE WORLD ofrece OEM/ODM directo: desarrollo y fabricación bajo la marca del cliente a través de socios de producción coreanos certificados. Los productos RAVIEL están presentes en la venta minorista coreana, en el canal farmacéutico y de duty-free, y en marketplaces internacionales en línea."
+  ],
+  "facts": [
+   "Propietaria y desarrolladora de la marca de cuidado de la piel RAVIEL",
+   "Enfoque: pigmentación · aclarado del tono · firmeza · hidratación · poros",
+   "Concepto propio de liberación de activos SILK (Skin-Ingredient Link Key)",
+   "OEM/ODM — a través de socios de producción coreanos certificados",
+   "Referencias de registro EU CPNP / US MoCRA — según datos de la empresa"
+  ],
+  "channels": [
+   "Importadores y distribuidores de cosmética",
+   "Cadenas farmacéuticas y de belleza, droguerías, duty-free",
+   "Marketplaces y comercio electrónico",
+   "Clientes OEM/ODM — fabricación bajo marca propia"
+  ],
+  "lines": [
+   {
+    "name": "Acerola",
+    "note": "Cuidado de la pigmentación y unificación del tono (aclarado, a nivel cosmético): crema, ampolla y tónico con extracto de Acerola, niacinamida y extracto de Houttuynia."
+   },
+   {
+    "name": "Bakuchiol Mela Free",
+    "note": "Cuidado de la firmeza y el tono con bakuchiol —alternativa cosmética vegetal al retinol—: crema y sérum, orientación slow-aging."
+   },
+   {
+    "name": "Biome 8X Hyaluronic",
+    "note": "Hidratación y cuidado de los poros y del exceso de grasa de la piel: crema y ampolla con un complejo de ocho ácidos hialurónicos, ceramidas y complejo probiótico."
+   },
+   {
+    "name": "Retinol 10X Peptide",
+    "note": "Cuidado de la textura y la firmeza de la piel: ampolla con retinol y complejo de péptidos, orientación slow-aging."
+   },
+   {
+    "name": "Productos básicos",
+    "note": "Cuidado localizado y vitamínico: sérum multivitamínico para el tono y crema localizada con pantenol para el cuidado puntual de la pigmentación."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Especialización en el cuidado de la piel",
+    "note": "Líneas especializadas para necesidades concretas —pigmentación, firmeza, hidratación, poros— sobre la base del concepto propio de liberación de activos SILK. Los materiales clínicos y de marketing los facilita la empresa tras el contrato; en el sitio no se reproducen como confirmados de forma independiente."
+   },
+   {
+    "name": "OEM/ODM a través de socios",
+    "note": "OEM/ODM directo: desarrollo y fabricación bajo la marca del cliente a través de socios de producción coreanos certificados. No se declara como hecho la existencia de una planta propia."
+   },
+   {
+    "name": "Registros y estándares",
+    "note": "Según datos de la empresa: referencias de registro EU CPNP y US MoCRA, fabricación en instalaciones con estándar cGMP, así como declaraciones vegana y EWG. Se trata de datos de la empresa y referencias de registro, no de una aprobación del regulador; las copias de los documentos justificativos se facilitan en la etapa de la operación."
+   }
+  ],
+  "formats": [
+   "Cremas",
+   "Sérums",
+   "Ampollas",
+   "Tónicos",
+   "Cremas localizadas (spot)",
+   "Sets"
+  ],
+  "exportNote": "Los productos de la marca RAVIEL están presentes en la venta minorista coreana (incluido Olive Young), en el canal farmacéutico y de duty-free, así como en marketplaces internacionales en línea; según datos de la empresa, la exportación abarca los mercados de Asia, América del Norte y Europa. Para los destinos abiertos, incluidas América Latina y América del Norte, los materiales se publican a través de Teranova.",
+  "terms": [
+   {
+    "label": "Formatos de cooperación",
+    "value": "Suministro mayorista de producto terminado de la marca RAVIEL; OEM/ODM — desarrollo y fabricación bajo la marca del cliente a través de socios de producción coreanos certificados."
+   },
+   {
+    "label": "Pedido mínimo",
+    "value": "Según la lista de precios vigente — desde una caja por SKU (orientativamente 54–150 unidades en las principales referencias de tamaño completo; algunas referencias tienen lotes distintos); un pedido inferior a una caja lleva recargo. El MOQ exacto se concreta en la etapa de la operación."
+   },
+   {
+    "label": "Precios",
+    "value": "FOB Korea, a solicitud / a concretar. Vigencia de la oferta: 60 días. Pago anticipado: pedidos de hasta 10 000 USD — 100%; a partir de 10 000 USD — 70% de anticipo y 30% antes del envío; EXW se negocia para pedidos de mayor volumen."
+   },
+   {
+    "label": "Plazos",
+    "value": "Desde almacén — es posible el envío inmediato; fabricación — orientativamente 45 días. Las condiciones de entrega dependen del país de destino y del modo de transporte; las muestras se acuerdan por separado."
+   },
+   {
+    "label": "Cómo funciona",
+    "value": "Solicitud → verificación y coordinación de Teranova → negociaciones y muestras → logística, aduanas y pago, llave en mano."
+   }
+  ],
+  "consentNote": "Los datos y materiales son proporcionados por PINE WORLD CO., LTD. (marca RAVIEL) y se publican con su consentimiento por escrito del 31/07/2026. Los contactos directos del fabricante no se revelan. Teranova coordina y acompaña la operación.",
+  "seoTitle": "PINE WORLD (RAVIEL) — cuidado coreano de la piel · Teranova",
+  "seoDesc": "PINE WORLD es propietaria de la marca coreana RAVIEL: cuidado de la piel para pigmentación, firmeza, hidratación y poros. OEM/ODM a través de socios. Operaciones a través de Teranova.",
+  "catalog_notes": [
+   "Crema de la línea Acerola (extracto de Acerola, rica en vitamina C, + Houttuynia) para el cuidado de la pigmentación y el aclarado del tono. Volumen 50 ml.",
+   "Ampolla concentrada de la línea Acerola para el cuidado de las manchas y el tono desigual. Volumen 30 ml.",
+   "Tónico-crema de la línea Acerola (agitar antes de usar) para un cuidado aclarante. Volumen 150 ml.",
+   "Crema con bakuchiol (alternativa vegetal al retinol) e idebenona para el cuidado de la firmeza y el tono. Volumen 50 ml.",
+   "Sérum con bakuchiol para un cuidado antiedad y aclarante. Volumen 30 ml.",
+   "Crema hidratante con un complejo de 8 ácidos hialurónicos, probióticos/postbióticos y ceramidas; cuidado de los poros y del sebo. Volumen 80 ml.",
+   "Ampolla con 8 tipos de ácido hialurónico y complejo biome para la hidratación y el cuidado de los poros. Volumen 30 ml.",
+   "Ampolla con retinol BASF (Alemania) y 10 péptidos para el cuidado de la textura y la firmeza de la piel. Volumen 30 ml.",
+   "Sérum vitamínico (complejo VITA-BIOSOME, ácido ascórbico) para un cuidado aclarante y antioxidante. Volumen 50 ml.",
+   "Crema localizada con alto contenido de pantenol (50 000 ppm) para el cuidado de manchas puntuales. Set 15 ml x 2."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Perfil del proveedor",
+  "about_h": "Sobre la empresa",
+  "for_whom": "Para quién es:",
+  "lines_h": "Líneas de producto",
+  "catalog_h": "Catálogo de productos",
+  "tech_h": "Capacidades y producción",
+  "products_h": "Productos",
+  "products_note": "La marca RAVIEL — cuidado coreano de la piel para pigmentación, firmeza, hidratación y poros.",
+  "formats_h": "Formatos de producto",
+  "export_h": "Exportación y mercados",
+  "terms_h": "Condiciones de cooperación",
+  "download_btn": "Descargar condiciones (PDF)",
+  "price_btn": "Descargar lista de precios (PDF)",
+  "pres_btn": "Descargar presentación (PDF)",
+  "terms_disc": "Los precios y las condiciones son indicativos y se concretan en la etapa de la operación a través de Teranova. Los contactos directos del proveedor no se publican. Las referencias de registro (EU CPNP, US MoCRA) se indican según datos de la empresa y no constituyen una aprobación del regulador.",
+  "cta_h": "¿Le interesa este proveedor?",
+  "cta_d": "Póngase en contacto — Teranova organiza las negociaciones, la verificación y el acompañamiento de la operación desde el primer contacto hasta la entrega.",
+  "cta_btn": "Contactar a través de Teranova",
+  "more": "Abrir perfil →",
+  "verified_suppliers": "Proveedores verificados",
+  "certs_h": "Certificaciones y registros",
+  "certs_note": "Declarado por la empresa. Las copias de los documentos justificativos y los registros se facilitan en la etapa de la operación. Un registro o listado no constituye una aprobación del regulador."
+ }
 }
