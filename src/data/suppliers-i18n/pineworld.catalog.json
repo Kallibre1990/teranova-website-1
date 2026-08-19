@@ -83,22 +83,5 @@
     "certs": []
    }
   ]
- },
- {
-  "line": "Cica Calming Care",
-  "items": [
-   {
-    "name": "Cica Panthenol Calming Ampoule",
-    "img": "/img/suppliers/pineworld/products/cica-panthenol-calming-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   },
-   {
-    "name": "Birch Cica Calming Toner",
-    "img": "/img/suppliers/pineworld/products/birch-cica-calming-toner.jpg",
-    "volume": "150 ml",
-    "certs": []
-   }
-  ]
  }
 ]
