@@ -23,6 +23,17 @@ import doobomTr from './suppliers-i18n/doobom.tr.json';
 import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
 import doobomCatalog from './suppliers-i18n/doobom.catalog.json';
+import cocoRu from './suppliers-i18n/cocospack.ru.json';
+import cocoEn from './suppliers-i18n/cocospack.en.json';
+import cocoKo from './suppliers-i18n/cocospack.ko.json';
+import cocoZh from './suppliers-i18n/cocospack.zh.json';
+import cocoJa from './suppliers-i18n/cocospack.ja.json';
+import cocoIt from './suppliers-i18n/cocospack.it.json';
+import cocoDe from './suppliers-i18n/cocospack.de.json';
+import cocoFr from './suppliers-i18n/cocospack.fr.json';
+import cocoTr from './suppliers-i18n/cocospack.tr.json';
+import cocoEs from './suppliers-i18n/cocospack.es.json';
+import cocoPt from './suppliers-i18n/cocospack.pt.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
 import multifitKo from './suppliers-i18n/multifit.ko.json';
@@ -1072,6 +1083,31 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(doobomTr as any),
       es: mk(doobomEs as any),
       pt: mk(doobomPt as any),
+    },
+  },
+  {
+    slug: 'cocospack',
+    category: 'adjacent',
+    country: 'kr',
+    name: 'COCOSPACK Co., Ltd.',
+    brand: 'COCOSPACK',
+    status: 'provided',
+    /* Индиго — точный цвет их логотипа. */
+    brandColors: { deep: '#0c0060', sky: '#5b5bd6', accent: '#2d2da8', bg: '#eeeefc' },
+    voice: 'clinical',
+    certs: ['ISO 9001', 'ISO 14001', 'ISO 22716', 'ISO 15378'],
+    i18n: {
+      ru: mk(cocoRu as any),
+      en: mk(cocoEn as any),
+      ko: mk(cocoKo as any),
+      zh: mk(cocoZh as any),
+      ja: mk(cocoJa as any),
+      it: mk(cocoIt as any),
+      de: mk(cocoDe as any),
+      fr: mk(cocoFr as any),
+      tr: mk(cocoTr as any),
+      es: mk(cocoEs as any),
+      pt: mk(cocoPt as any),
     },
   },
   {
