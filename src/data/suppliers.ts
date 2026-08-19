@@ -24,6 +24,7 @@ import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
 import doobomCatalog from './suppliers-i18n/doobom.catalog.json';
 import cocoRu from './suppliers-i18n/cocospack.ru.json';
+import cocoCatalog from './suppliers-i18n/cocospack.catalog.json';
 import cocoEn from './suppliers-i18n/cocospack.en.json';
 import cocoKo from './suppliers-i18n/cocospack.ko.json';
 import cocoZh from './suppliers-i18n/cocospack.zh.json';
@@ -1045,6 +1046,13 @@ export const suppliers: SupplierProfile[] = [
     voice: 'clinical',
     catalog: cubecapCatalog as { line: string; items: { name: string; img: string }[] }[],
     certs: [],
+    /* Прайс не публикуется: цены COCAPS на витрину не передавались, по запросу. */
+    termsFile: {
+      ru: '/docs/cubecap-terms-ru.pdf', en: '/docs/cubecap-terms-en.pdf', ko: '/docs/cubecap-terms-ko.pdf', zh: '/docs/cubecap-terms-zh.pdf', ja: '/docs/cubecap-terms-ja.pdf', it: '/docs/cubecap-terms-it.pdf', de: '/docs/cubecap-terms-de.pdf', fr: '/docs/cubecap-terms-fr.pdf', tr: '/docs/cubecap-terms-tr.pdf', es: '/docs/cubecap-terms-es.pdf', pt: '/docs/cubecap-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/cubecap-presentation-ru.pdf', en: '/docs/cubecap-presentation-en.pdf', ko: '/docs/cubecap-presentation-ko.pdf', zh: '/docs/cubecap-presentation-zh.pdf', ja: '/docs/cubecap-presentation-ja.pdf', it: '/docs/cubecap-presentation-it.pdf', de: '/docs/cubecap-presentation-de.pdf', fr: '/docs/cubecap-presentation-fr.pdf', tr: '/docs/cubecap-presentation-tr.pdf', es: '/docs/cubecap-presentation-es.pdf', pt: '/docs/cubecap-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(cubecapRu as any),
       en: mk(cubecapEn as any),
@@ -1071,6 +1079,13 @@ export const suppliers: SupplierProfile[] = [
     voice: 'clinical',
     certs: ['FDA', 'EU CPNP', 'MoCRA'],
     catalog: doobomCatalog as { line: string; items: { name: string; img: string }[] }[],
+    /* Прайс не публикуется: экспортный прайс DOOBOM не передавала, цены — по запросу. */
+    termsFile: {
+      ru: '/docs/doobom-terms-ru.pdf', en: '/docs/doobom-terms-en.pdf', ko: '/docs/doobom-terms-ko.pdf', zh: '/docs/doobom-terms-zh.pdf', ja: '/docs/doobom-terms-ja.pdf', it: '/docs/doobom-terms-it.pdf', de: '/docs/doobom-terms-de.pdf', fr: '/docs/doobom-terms-fr.pdf', tr: '/docs/doobom-terms-tr.pdf', es: '/docs/doobom-terms-es.pdf', pt: '/docs/doobom-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/doobom-presentation-ru.pdf', en: '/docs/doobom-presentation-en.pdf', ko: '/docs/doobom-presentation-ko.pdf', zh: '/docs/doobom-presentation-zh.pdf', ja: '/docs/doobom-presentation-ja.pdf', it: '/docs/doobom-presentation-it.pdf', de: '/docs/doobom-presentation-de.pdf', fr: '/docs/doobom-presentation-fr.pdf', tr: '/docs/doobom-presentation-tr.pdf', es: '/docs/doobom-presentation-es.pdf', pt: '/docs/doobom-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(doobomRu as any),
       en: mk(doobomEn as any),
@@ -1096,6 +1111,15 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#0c0060', sky: '#5b5bd6', accent: '#2d2da8', bg: '#eeeefc' },
     voice: 'clinical',
     certs: ['ISO 9001', 'ISO 14001', 'ISO 22716', 'ISO 15378'],
+    /* Каталог собран по их «Product Catalogue 2021»: серия = карточка, объёмы из таблиц. */
+    catalog: cocoCatalog as { line: string; items: { name: string; img: string; volume?: string }[] }[],
+    /* Прайс не публикуется: упаковка считается по проекту, цены — по запросу. */
+    termsFile: {
+      ru: '/docs/cocospack-terms-ru.pdf', en: '/docs/cocospack-terms-en.pdf', ko: '/docs/cocospack-terms-ko.pdf', zh: '/docs/cocospack-terms-zh.pdf', ja: '/docs/cocospack-terms-ja.pdf', it: '/docs/cocospack-terms-it.pdf', de: '/docs/cocospack-terms-de.pdf', fr: '/docs/cocospack-terms-fr.pdf', tr: '/docs/cocospack-terms-tr.pdf', es: '/docs/cocospack-terms-es.pdf', pt: '/docs/cocospack-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/cocospack-presentation-ru.pdf', en: '/docs/cocospack-presentation-en.pdf', ko: '/docs/cocospack-presentation-ko.pdf', zh: '/docs/cocospack-presentation-zh.pdf', ja: '/docs/cocospack-presentation-ja.pdf', it: '/docs/cocospack-presentation-it.pdf', de: '/docs/cocospack-presentation-de.pdf', fr: '/docs/cocospack-presentation-fr.pdf', tr: '/docs/cocospack-presentation-tr.pdf', es: '/docs/cocospack-presentation-es.pdf', pt: '/docs/cocospack-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(cocoRu as any),
       en: mk(cocoEn as any),
@@ -1121,6 +1145,13 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#123a63', sky: '#4f8fce', accent: '#f2b21c', bg: '#eef4fa' },
     voice: 'clinical',
     certs: [],
+    /* Прайс не публикуется: техника считается по конфигурации, цены — по запросу. */
+    termsFile: {
+      ru: '/docs/multifit-terms-ru.pdf', en: '/docs/multifit-terms-en.pdf', ko: '/docs/multifit-terms-ko.pdf', zh: '/docs/multifit-terms-zh.pdf', ja: '/docs/multifit-terms-ja.pdf', it: '/docs/multifit-terms-it.pdf', de: '/docs/multifit-terms-de.pdf', fr: '/docs/multifit-terms-fr.pdf', tr: '/docs/multifit-terms-tr.pdf', es: '/docs/multifit-terms-es.pdf', pt: '/docs/multifit-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/multifit-presentation-ru.pdf', en: '/docs/multifit-presentation-en.pdf', ko: '/docs/multifit-presentation-ko.pdf', zh: '/docs/multifit-presentation-zh.pdf', ja: '/docs/multifit-presentation-ja.pdf', it: '/docs/multifit-presentation-it.pdf', de: '/docs/multifit-presentation-de.pdf', fr: '/docs/multifit-presentation-fr.pdf', tr: '/docs/multifit-presentation-tr.pdf', es: '/docs/multifit-presentation-es.pdf', pt: '/docs/multifit-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(multifitRu as any),
       en: mk(multifitEn as any),

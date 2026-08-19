@@ -218,6 +218,32 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  /* noPrice у всех четырёх ниже: экспортный прайс эти компании не передавали,
+     цены на сайте не публикуются — печатать нечего, придумывать нельзя. */
+  {
+    id: 'cubecap', json: 'cubecap', supplier: 'CUBE CAP CO., LTD.', brand: 'COCAPS', noPrice: true,
+    colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
+    pres: true,
+    certs: [],
+  },
+  {
+    id: 'doobom', json: 'doobom', supplier: 'DOOBOM Co., Ltd.', brand: 'DOOBOM', noPrice: true,
+    colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
+    pres: true,
+    certs: ['FDA', 'EU CPNP', 'MoCRA'],
+  },
+  {
+    id: 'cocospack', json: 'cocospack', supplier: 'COCOSPACK Co., Ltd.', brand: 'COCOSPACK', noPrice: true,
+    colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
+    pres: true,
+    certs: ['ISO 9001', 'ISO 14001', 'ISO 22716', 'ISO 15378'],
+  },
+  {
+    id: 'multifit', json: 'multifit', supplier: 'BeiJing Multifit Electrical Technology Co., Ltd.', brand: 'MULTIFIT', noPrice: true,
+    colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

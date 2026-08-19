@@ -17,7 +17,9 @@ const strings = Object.fromEntries(
 );
 ---
 
-<Base lang={lang} path="/404" title="404 · Teranova" description={t.notfound.body} noindex>
+{/* path="/" — переключатель языков и hreflang ведут на главные страницы языков:
+    страниц /404/ не существует, и клик по языку раньше оставлял посетителя на 404. */}
+<Base lang={lang} path="/" title="404 · Teranova" description={t.notfound.body} noindex>
   <CenteredNotice icon="soon" title={t.notfound.title} body={t.notfound.body} backHref={localizePath('/', lang)} backLabel={t.notfound.back} />
 </Base>
 

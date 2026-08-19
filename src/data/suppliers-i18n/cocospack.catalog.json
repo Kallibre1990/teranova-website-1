@@ -1,0 +1,172 @@
+[
+ {
+  "line": "Skin Care Series",
+  "items": [
+   {
+    "name": "HIE Slim Series",
+    "img": "/img/suppliers/cocospack/products/hie-slim.jpg",
+    "volume": "30–145 ml"
+   },
+   {
+    "name": "HIE Wide Series",
+    "img": "/img/suppliers/cocospack/products/hie-wide.jpg",
+    "volume": "30–200 ml"
+   },
+   {
+    "name": "HIO Series",
+    "img": "/img/suppliers/cocospack/products/hio.jpg",
+    "volume": "30–135 ml"
+   },
+   {
+    "name": "HIS Series",
+    "img": "/img/suppliers/cocospack/products/his.jpg",
+    "volume": "30–120 ml"
+   },
+   {
+    "name": "HIR Series",
+    "img": "/img/suppliers/cocospack/products/hir.jpg",
+    "volume": "30–180 ml"
+   },
+   {
+    "name": "CKR Series",
+    "img": "/img/suppliers/cocospack/products/ckr.jpg",
+    "volume": "30–150 ml"
+   },
+   {
+    "name": "IO Series",
+    "img": "/img/suppliers/cocospack/products/io.jpg",
+    "volume": "30–200 ml"
+   },
+   {
+    "name": "AL Series",
+    "img": "/img/suppliers/cocospack/products/al.jpg",
+    "volume": "30–120 ml"
+   },
+   {
+    "name": "C1 Series",
+    "img": "/img/suppliers/cocospack/products/c1.jpg",
+    "volume": "50–150 ml"
+   },
+   {
+    "name": "C4 Series",
+    "img": "/img/suppliers/cocospack/products/c4.jpg",
+    "volume": "50–120 ml"
+   },
+   {
+    "name": "C5 Series",
+    "img": "/img/suppliers/cocospack/products/c5.jpg",
+    "volume": "50–120 ml"
+   },
+   {
+    "name": "S3 Series",
+    "img": "/img/suppliers/cocospack/products/s3.jpg",
+    "volume": "50–100 ml"
+   }
+  ]
+ },
+ {
+  "line": "Single Bottle & Jars",
+  "items": [
+   {
+    "name": "CR Jar Series",
+    "img": "/img/suppliers/cocospack/products/cr-jars.jpg",
+    "volume": "5–220 ml"
+   },
+   {
+    "name": "TY & IE Jar Series",
+    "img": "/img/suppliers/cocospack/products/ty-ie-jars.jpg",
+    "volume": "50–300 ml"
+   },
+   {
+    "name": "Briogio Series",
+    "img": "/img/suppliers/cocospack/products/briogio.jpg",
+    "volume": "7–50 ml"
+   },
+   {
+    "name": "Travel Series",
+    "img": "/img/suppliers/cocospack/products/travel.jpg",
+    "volume": "5–30 ml"
+   }
+  ]
+ },
+ {
+  "line": "Functionality",
+  "items": [
+   {
+    "name": "HIE Dropper Series",
+    "img": "/img/suppliers/cocospack/products/hie-droppers.jpg",
+    "volume": "30–50 ml"
+   },
+   {
+    "name": "C6 Series",
+    "img": "/img/suppliers/cocospack/products/c6.jpg",
+    "volume": "15–50 ml"
+   },
+   {
+    "name": "HIWD Series",
+    "img": "/img/suppliers/cocospack/products/hiwd.jpg",
+    "volume": "20–50 ml"
+   },
+   {
+    "name": "Spuit Series",
+    "img": "/img/suppliers/cocospack/products/spuit.jpg",
+    "volume": "7–30 ml"
+   },
+   {
+    "name": "SRG Series",
+    "img": "/img/suppliers/cocospack/products/srg.jpg",
+    "volume": "1–10 ml"
+   }
+  ]
+ },
+ {
+  "line": "Mist Product",
+  "items": [
+   {
+    "name": "MV Mist Series",
+    "img": "/img/suppliers/cocospack/products/mv-mist.jpg",
+    "volume": "50–150 ml"
+   },
+   {
+    "name": "IO Mist Series",
+    "img": "/img/suppliers/cocospack/products/io-mist.jpg",
+    "volume": "30–200 ml"
+   },
+   {
+    "name": "Card Mist",
+    "img": "/img/suppliers/cocospack/products/card-mist.jpg",
+    "volume": "40–50 ml"
+   }
+  ]
+ },
+ {
+  "line": "Make-up",
+  "items": [
+   {
+    "name": "Cushion Compact",
+    "img": "/img/suppliers/cocospack/products/cushion.jpg"
+   },
+   {
+    "name": "Powder Compacts",
+    "img": "/img/suppliers/cocospack/products/compacts.jpg"
+   },
+   {
+    "name": "Foundation Stick",
+    "img": "/img/suppliers/cocospack/products/foundation-stick.jpg"
+   },
+   {
+    "name": "Blush Stick",
+    "img": "/img/suppliers/cocospack/products/blush-stick.jpg"
+   }
+  ]
+ },
+ {
+  "line": "Sun Product",
+  "items": [
+   {
+    "name": "Sun Stick",
+    "img": "/img/suppliers/cocospack/products/sun-stick.jpg"
+   }
+  ]
+ }
+]
