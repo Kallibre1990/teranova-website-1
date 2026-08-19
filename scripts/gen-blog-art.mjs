@@ -168,6 +168,14 @@ const strands = (cx, cy) => `
 /* ---- one composition per article --------------------------------------- */
 
 const ART = {
+  /* Три активных вещества как три капли: абстракция, не фото продукта. */
+  'rudia-active-ingredients-2026': shell(`
+    ${drop(330, 214, 1.45, 0.9)}
+    ${drop(600, 188, 1.95, 1)}
+    ${drop(870, 214, 1.45, 0.9)}
+    <g opacity="0.75">${hexMesh(600, 392, 16, 7, 2)}</g>
+  `, '50% 14%'),
+
   /* Registrations and dossiers: sheets with check-seals. */
   'korean-cosmetics-certifications': shell(`
     ${sheet(300, 96, 190, 268, -7, true)}
