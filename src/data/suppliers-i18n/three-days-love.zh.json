@@ -1,163 +1,164 @@
 {
-  "content": {
-    "tagline": "基于专利微针与外泌体递送技术打造的专业韩国专业护肤——面向诊所、美容院与经销商",
-    "descriptor": "THREE DAYS LOVE CO., LTD.，一家韩国功能性护肤品公司，专注于外用微针（SPICUS®）与外泌体递送技术；旗下品牌线包括 ThreeDaysLove、RETURN 10、TIME 72 以及 EXOMERE 系列",
-    "origin": "韩国",
-    "about": [
-      "THREE DAYS LOVE CO., LTD.（주식회사 3일애）是一家韩国功能性护肤品公司，据公司称，自2001年起专注于外用「肌肤植入」递送技术。其总部位于首尔（松坡区），并在京畿道城南设有原料加工与研发设施。公司在多个自有品牌线下开发并供应专业护肤产品——ThreeDaysLove、RETURN 10 与 TIME 72——同时也以客户自有品牌提供 OEM/ODM 代工制造。",
-      "公司的定位建立在其自主研发的递送技术之上，据其披露，这些技术拥有韩国专利：SPICUS®——一种植物胶原蛋白包覆的生物微针，用于将有效成分外用递送至皮肤，无需注射（专利号 10-2767202）；EXOMERE Halla®——一种源自济州汉拿峰的外泌体复合物（专利号 10-2677780）；以及 EXO-AG®——一种黑蒜与芦荟外泌体复合物（专利号 10-2534286）。据公司称，这些技术旨在改善活性成分的递送、稳定性与功效。产品被定位为专业护肤品，而非医疗器械或药品。",
-      "据公司陈述，其质量在 ISO 22716（化妆品 GMP）、ISO 9001 与 ISO 14001 体系下管理，产品系列在多个市场取得认证或注册——包括 US MoCRA、EU CPNP 与 Switzerland PIF。另有一条独立品牌线 EXOMERE 出现在公司自己的价目表中；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，两家公司之间的关系未经独立核实——在本展示页面中，两个品牌并未合并为同一法律实体。"
-    ],
-    "facts": [
-      "韩国功能性护肤品研发商；据公司称，自2001年起从事外用微针递送领域",
-      "拥有公司披露之韩国专利的自主技术：SPICUS® 生物微针、EXOMERE Halla® 与 EXO-AG® 外泌体复合物",
-      "品牌线包括 ThreeDaysLove、RETURN 10 与 TIME 72，以及 EXOMERE 系列；可提供 OEM/ODM",
-      "据公司声明，质量在 ISO 22716（GMP）、ISO 9001 与 ISO 14001 体系下管理",
-      "据公司称，产品在多个市场取得认证或注册——US MoCRA、EU CPNP、Switzerland PIF 等"
-    ],
-    "channels": [
-      "专业化妆品的经销商与批发商",
-      "美容诊所、护肤与美容工作室",
-      "美容院、水疗中心与护肤门店",
-      "寻找韩国 OEM/ODM 护肤品合作伙伴的品牌方"
-    ],
-    "lines": [
-      {
-        "name": "ThreeDaysLove — flagship cosmeceuticals",
-        "note": "核心专业品牌线：修护膏、安瓶、植入面霜及基于 SPICUS® 微针递送理念的靶向护理产品。包括 Recovery Balm、Whimela Shining 与 Derma 系列、Phytobiome 以及头皮护理。"
-      },
-      {
-        "name": "RETURN 10 — home MTS and peptide care",
-        "note": "围绕 MTS（微针）精华液、肽面霜与安瓶、修护膏粉饼及面膜的专业护肤品牌线——专业护理的居家配套。据公司称，RETURN 10 已在中国完成 NMPA 注册。"
-      },
-      {
-        "name": "TIME 72 — recovery and healing",
-        "note": "一条专注于护理后修护与舒缓的精简品牌线：AC Miracle Healer 与 Miracle Spongliia，以及 TIME 72 EXOMERE Time Lock 项目套装。"
-      },
-      {
-        "name": "EXOMERE / EXOMERE G — exosome line",
-        "note": "一条出现在公司价目表中、以外泌体为基础的品牌线：植入精华液、修护膏、谷胱甘肽与神经酰胺护理、喷雾、身体与眼部护理。作为品牌线呈现；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，其关联未经独立核实。"
-      },
-      {
-        "name": "SPICUS® — patented ingredient technology",
-        "note": "位于整个产品系列核心的植物胶原蛋白包覆生物微针；据公司称，它将活性成分外用递送至皮肤，无需注射，以支持再生与弹性。"
-      }
-    ],
-    "tech": [
-      {
-        "name": "SPICUS® bio micro-needle delivery",
-        "note": "一种植物胶原蛋白包覆的微针（针晶）技术；据公司称（专利号 10-2767202），它将活性成分外用递送至皮肤——一种非注射途径——同时减少刺激。"
-      },
-      {
-        "name": "EXOMERE Halla® and EXO-AG® exosomes",
-        "note": "源自济州汉拿峰（专利号 10-2677780）以及黑蒜与芦荟（专利号 10-2534286）的外泌体复合物，据公司披露，用于支持皮肤修护与紧致。"
-      },
-      {
-        "name": "Quality systems",
-        "note": "据公司声明，生产在 ISO 22716（化妆品 GMP）、ISO 9001 与 ISO 14001 体系下管理；证书副本在交易阶段索取并核实。"
-      },
-      {
-        "name": "Full-cycle OEM/ODM",
-        "note": "在客户自有品牌下进行产品策划、配方、包装与制造，并提供出口支持。条款与起订量通过 Teranova 确认。"
-      }
-    ],
-    "formats": [
-      "膏霜类，15–100 g",
-      "安瓶与 MTS 精华液，套装与单支",
-      "喷雾与精华，45–300 g / ml",
-      "面膜与洁面产品",
-      "项目套装与组合",
-      "身体与头皮护理"
-    ],
-    "exportNote": "据公司称，产品系列在多个市场取得认证或注册——包括 US MoCRA、EU CPNP 与 Switzerland PIF——且 RETURN 10 品牌线已在中国完成 NMPA 注册；公司称自己已在八个国家取得认证。交付基础为 FOB Korea。任何特定市场的最终注册状态在交易阶段确认。",
-    "terms": [
-      {
-        "label": "交付基础",
-        "value": "FOB Korea"
-      },
-      {
-        "label": "结算货币",
-        "value": "指示性价格以 USD 公布。供应商自有价目表以 KRW、EUR 与 USD 出具；结算货币与汇率在交易阶段确定"
-      },
-      {
-        "label": "定价",
-        "value": "批发价格设有数量阶梯（每种单品从100件以下至5,000件以上）。已公布的指示性价格对应1,000件及以上的阶梯；适用等级与 MOQ 通过 Teranova 确认"
-      },
-      {
-        "label": "OEM/ODM",
-        "value": "可在客户自有品牌下提供；起订量与条款按项目商定"
-      },
-      {
-        "label": "付款与交期",
-        "value": "在交易阶段的合同中最终确定"
-      }
-    ],
-    "consentNote": "相关数据与资料由 THREE DAYS LOVE CO., LTD.（Global Sales, Allen Chung）提供，并经公司同意用于共同编制本档案（2026年8月）而发布。有关技术、专利、认证与注册的信息为公司陈述，须在交易阶段以文件确认。有关微针（「肌肤植入」）、外泌体与针晶技术的说法均按公司声明呈现；产品被定位为外用护肤品，而非医疗器械或药品。EXOMERE 在公司价目表中作为品牌线展示；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，其关系未经独立核实。",
-    "seoTitle": "THREE DAYS LOVE — 韩国专业护肤 · SPICUS® 与 EXOMERE · Teranova",
-    "seoDesc": "THREE DAYS LOVE 是一家韩国功能性护肤品研发商：SPICUS® 微针与 EXOMERE® 外泌体技术，覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线。OEM/ODM，FOB Korea。交易通过 Teranova 进行。",
-    "catalog_notes": [
-      "一款基于 EXOMERE® 外泌体与 SPICUS® 理念打造的再生安瓶套装，用于强效修护护理。",
-      "一款采用 SPICUS® 微针理念的亮白植入面霜，用于均匀肤色与提亮。",
-      "一款丰润的 derma 面霜，为受压肌肤带来舒适与修护。",
-      "一款专为男士肌肤配制的亮白护理面霜。",
-      "一款高浓度 derma 精华步骤，用于靶向修护护理。",
-      "一款舒缓 derma 步骤，用于镇静并支持肌肤屏障。",
-      "标志性修护膏，用于护理后的强效舒缓与舒适。",
-      "一款护理后面霜，用于在专业护理后支持肌肤。",
-      "一款 phytobiome 面霜（Type A），含植物来源活性成分，带来平衡护理。",
-      "一款含雪绒花的按摩霜，用于美容院按摩与舒缓。",
-      "一款靶向修护产品，用于易生瑕疵的肌肤，属于 TIME 72 品牌线。",
-      "一款以海绵为基础的焕活精华，用于更新，属于 TIME 72 品牌线。",
-      "一款 MTS（微针）精华液套装，Hard type，用于强效居家更新护理。",
-      "一款紧凑规格的修护膏，带来便捷的舒缓护理。",
-      "一款两步式玫瑰花园面膜，用于补水与舒适。",
-      "一款茶树洁面产品，用于油性与易生瑕疵肌肤的日常清洁。",
-      "一款奢华三支肽套装（Type A），用于紧致与抗龄护理。",
-      "一款奢华三支肽套装（Type B），用于紧致与抗龄护理。",
-      "一款大规格火麻籽喷雾精华，用于轻盈补水。",
-      "一款标志性肽安瓶，用于高浓度紧致护理。",
-      "一款强效肽面霜，用于紧致与修护。",
-      "一款 MTS 面霜，与微针护理程序搭配使用。",
-      "一款基于 EXOMERE® 外泌体护理打造的 Time Lock 项目套装，实现完整修护程序。",
-      "一款应用 SPICUS® 理念并结合 EXOMERE® 外泌体的植入精华液套装。",
-      "一款含 EXOMERE® 外泌体的植入精华液，用于强效修护护理。",
-      "一款提拉针舒缓凝胶，用于紧致与镇静护理。",
-      "一款含 EXOMERE® 外泌体的加强型修护膏，用于护理后舒缓。",
-      "一款谷胱甘肽亮白精华液，用于提亮与均匀肤色。",
-      "一款神经酰胺再生面霜，用于强化屏障并支持修护。",
-      "一款芳香修护喷雾，带来清新补水与舒适。",
-      "EXOMERE Aroma Healing Mist 的补充装。",
-      "一款雪绒花面霜，用于舒缓与保湿护理。",
-      "一款茶树泡沫洁面，用于温和的日常清洁。",
-      "一款含 PDRN 或 EGF 并结合 SPICUS® 理念的再生安瓶，用于修护。",
-      "一款身体紧致精华，应用提拉针理念，用于紧致身体护理。",
-      "一款植物 V 精华，用于身体的紧致与轮廓护理。",
-      "一款应用 shot 理念的眼霜，用于眼周。",
-      "一款 SPICUS® shot 眼霜套装，用于靶向眼周护理。"
-    ]
-  },
-  "ui": {
-    "profile_sup": "供应商档案",
-    "about_h": "公司简介",
-    "for_whom": "适用对象：",
-    "lines_h": "产品线",
-    "catalog_h": "产品目录",
-    "tech_h": "技术与生产",
-    "products_h": "产品",
-    "products_note": "覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线的专业韩国专业护肤：修护膏、植入面霜、安瓶与 MTS 精华液、喷雾与精华、面膜、洁面产品，以及身体与头皮护理——基于 SPICUS® 微针与 EXOMERE® 外泌体技术打造。",
-    "formats_h": "产品规格",
-    "export_h": "出口与市场",
-    "terms_h": "合作条款",
-    "download_btn": "下载条款（PDF）",
-    "price_btn": "下载价目表（PDF）",
-    "pres_btn": "下载演示文稿（PDF）",
-    "terms_disc": "价格与条款为指示性内容，最终在交易阶段通过 Teranova 确定。不公开供应商的直接联系方式：Teranova Group 负责谈判、尽职调查与交付支持。",
-    "cta_h": "对该供应商感兴趣？",
-    "cta_d": "与我们联系——Teranova 从首次接触到交付，全程安排谈判、尽职调查与交易支持。",
-    "cta_btn": "通过 Teranova 联系",
-    "more": "打开档案 →",
-    "verified_suppliers": "已核实供应商",
-    "certs_h": "认证与注册",
-    "certs_note": "由公司声明。据 THREE DAYS LOVE 称，其质量在 ISO 22716（GMP）、ISO 9001 与 ISO 14001 体系下管理；产品系列在包括 US MoCRA、EU CPNP 与 Switzerland PIF 在内的多个市场取得认证或注册，且 RETURN 10 品牌线已在中国完成 NMPA 注册。公司还披露其 SPICUS®、EXOMERE Halla® 与 EXO-AG® 技术拥有韩国专利。文件副本在交易阶段索取并核实。"
-  }
+ "content": {
+  "tagline": "基于专利微针与外泌体递送技术打造的专业韩国专业护肤——面向诊所、美容院与经销商",
+  "descriptor": "THREE DAYS LOVE CO., LTD.，一家韩国功能性护肤品公司，专注于外用微针（SPICUS®）与外泌体递送技术；旗下品牌线包括 ThreeDaysLove、RETURN 10、TIME 72 以及 EXOMERE 系列",
+  "origin": "韩国",
+  "about": [
+   "THREE DAYS LOVE CO., LTD.（주식회사 3일애）是一家韩国功能性护肤品公司，据公司称，自2001年起专注于外用「肌肤植入」递送技术。其总部位于首尔（松坡区），并在京畿道城南设有原料加工与研发设施。公司在多个自有品牌线下开发并供应专业护肤产品——ThreeDaysLove、RETURN 10 与 TIME 72——同时也以客户自有品牌提供 OEM/ODM 代工制造。",
+   "公司的定位建立在其自主研发的递送技术之上，据其披露，这些技术拥有韩国专利：SPICUS®——一种植物胶原蛋白包覆的生物微针，用于将有效成分外用递送至皮肤，无需注射（专利号 10-2767202）；EXOMERE Halla®——一种源自济州汉拿峰的外泌体复合物（专利号 10-2677780）；以及 EXO-AG®——一种黑蒜与芦荟外泌体复合物（专利号 10-2534286）。据公司称，这些技术旨在改善活性成分的递送、稳定性与功效。产品被定位为专业护肤品，而非医疗器械或药品。",
+   "据公司陈述，其质量在 ISO 22716（化妆品 GMP）、ISO 9001 与 ISO 14001 体系下管理，产品系列在多个市场取得认证或注册——包括 US MoCRA、EU CPNP 与 Switzerland PIF。另有一条独立品牌线 EXOMERE 出现在公司自己的价目表中；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，两家公司之间的关系未经独立核实——在本展示页面中，两个品牌并未合并为同一法律实体。"
+  ],
+  "facts": [
+   "韩国功能性护肤品研发商；据公司称，自2001年起从事外用微针递送领域",
+   "拥有公司披露之韩国专利的自主技术：SPICUS® 生物微针、EXOMERE Halla® 与 EXO-AG® 外泌体复合物",
+   "品牌线包括 ThreeDaysLove、RETURN 10 与 TIME 72，以及 EXOMERE 系列；可提供 OEM/ODM",
+   "据公司声明，质量在 ISO 22716（GMP）、ISO 9001 与 ISO 14001 体系下管理",
+   "据公司称，产品在多个市场取得认证或注册——US MoCRA、EU CPNP、Switzerland PIF 等"
+  ],
+  "channels": [
+   "专业化妆品的经销商与批发商",
+   "美容诊所、护肤与美容工作室",
+   "美容院、水疗中心与护肤门店",
+   "寻找韩国 OEM/ODM 护肤品合作伙伴的品牌方"
+  ],
+  "lines": [
+   {
+    "name": "EXOMERE — 外泌体产品线",
+    "note": "公司最新的品牌，也是其核心外泌体产品线：植入型精华、修护膏霜、含谷胱甘肽与神经酰胺的护理、喷雾以及身体和眼部护理。"
+   },
+   {
+    "name": "EXOMERE G — 线上销售产品线",
+    "note": "为线上零售渠道单独组建的 EXOMERE 产品线：Spicus V Shot Recovery Balm 气垫霜与眼部专项护理。"
+   },
+   {
+    "name": "RETURN 10 — home MTS and peptide care",
+    "note": "围绕 MTS（微针）精华液、肽面霜与安瓶、修护膏粉饼及面膜的专业护肤品牌线——专业护理的居家配套。据公司称，RETURN 10 已在中国完成 NMPA 注册。"
+   },
+   {
+    "name": "ThreeDaysLove — flagship cosmeceuticals",
+    "note": "核心专业品牌线：修护膏、安瓶、植入面霜及基于 SPICUS® 微针递送理念的靶向护理产品。包括 Recovery Balm、Whimela Shining 与 Derma 系列、Phytobiome 以及头皮护理。"
+   },
+   {
+    "name": "TIME 72 — recovery and healing",
+    "note": "一条专注于护理后修护与舒缓的精简品牌线：AC Miracle Healer 与 Miracle Spongliia，以及 TIME 72 EXOMERE Time Lock 项目套装。"
+   }
+  ],
+  "tech": [
+   {
+    "name": "SPICUS® bio micro-needle delivery",
+    "note": "一种植物胶原蛋白包覆的微针（针晶）技术；据公司称（专利号 10-2767202），它将活性成分外用递送至皮肤——一种非注射途径——同时减少刺激。"
+   },
+   {
+    "name": "EXOMERE Halla® and EXO-AG® exosomes",
+    "note": "源自济州汉拿峰（专利号 10-2677780）以及黑蒜与芦荟（专利号 10-2534286）的外泌体复合物，据公司披露，用于支持皮肤修护与紧致。"
+   },
+   {
+    "name": "Quality systems",
+    "note": "据公司声明，生产在 ISO 22716（化妆品 GMP）、ISO 9001 与 ISO 14001 体系下管理；证书副本在交易阶段索取并核实。"
+   },
+   {
+    "name": "Full-cycle OEM/ODM",
+    "note": "在客户自有品牌下进行产品策划、配方、包装与制造，并提供出口支持。条款与起订量通过 Teranova 确认。"
+   }
+  ],
+  "formats": [
+   "膏霜类，15–100 g",
+   "安瓶与 MTS 精华液，套装与单支",
+   "喷雾与精华，45–300 g / ml",
+   "面膜与洁面产品",
+   "项目套装与组合",
+   "身体与头皮护理"
+  ],
+  "exportNote": "据公司称，产品系列在多个市场取得认证或注册——包括 US MoCRA、EU CPNP 与 Switzerland PIF——且 RETURN 10 品牌线已在中国完成 NMPA 注册；公司称自己已在八个国家取得认证。交付基础为 FOB Korea。任何特定市场的最终注册状态在交易阶段确认。",
+  "terms": [
+   {
+    "label": "交付基础",
+    "value": "FOB Korea"
+   },
+   {
+    "label": "结算货币",
+    "value": "指示性价格以 USD 公布。供应商自有价目表以 KRW、EUR 与 USD 出具；结算货币与汇率在交易阶段确定"
+   },
+   {
+    "label": "定价",
+    "value": "批发价格设有数量阶梯（每种单品从100件以下至5,000件以上）。已公布的指示性价格对应1,000件及以上的阶梯；适用等级与 MOQ 通过 Teranova 确认"
+   },
+   {
+    "label": "OEM/ODM",
+    "value": "可在客户自有品牌下提供；起订量与条款按项目商定"
+   },
+   {
+    "label": "付款与交期",
+    "value": "在交易阶段的合同中最终确定"
+   }
+  ],
+  "consentNote": "相关数据与资料由 THREE DAYS LOVE CO., LTD.（Global Sales, Allen Chung）提供，并经公司同意用于共同编制本档案（2026年8月）而发布。有关技术、专利、认证与注册的信息为公司陈述，须在交易阶段以文件确认。有关微针（「肌肤植入」）、外泌体与针晶技术的说法均按公司声明呈现；产品被定位为外用护肤品，而非医疗器械或药品。EXOMERE 在公司价目表中作为品牌线展示；根据公开数据，EXOMERE CO., LTD. 是一家独立法律实体，其关系未经独立核实。",
+  "seoTitle": "THREE DAYS LOVE — 韩国专业护肤 · SPICUS® 与 EXOMERE · Teranova",
+  "seoDesc": "THREE DAYS LOVE 是一家韩国功能性护肤品研发商：SPICUS® 微针与 EXOMERE® 外泌体技术，覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线。OEM/ODM，FOB Korea。交易通过 Teranova 进行。",
+  "catalog_notes": [
+   "一款基于 EXOMERE® 外泌体护理打造的 Time Lock 项目套装，实现完整修护程序。",
+   "一款应用 SPICUS® 理念并结合 EXOMERE® 外泌体的植入精华液套装。",
+   "一款含 EXOMERE® 外泌体的植入精华液，用于强效修护护理。",
+   "一款提拉针舒缓凝胶，用于紧致与镇静护理。",
+   "一款含 EXOMERE® 外泌体的加强型修护膏，用于护理后舒缓。",
+   "一款谷胱甘肽亮白精华液，用于提亮与均匀肤色。",
+   "一款神经酰胺再生面霜，用于强化屏障并支持修护。",
+   "一款芳香修护喷雾，带来清新补水与舒适。",
+   "EXOMERE Aroma Healing Mist 的补充装。",
+   "一款雪绒花面霜，用于舒缓与保湿护理。",
+   "一款茶树泡沫洁面，用于温和的日常清洁。",
+   "一款含 PDRN 或 EGF 并结合 SPICUS® 理念的再生安瓶，用于修护。",
+   "一款身体紧致精华，应用提拉针理念，用于紧致身体护理。",
+   "一款植物 V 精华，用于身体的紧致与轮廓护理。",
+   "EXOMERE G 气垫霜：含汉拿峰外泌体与胶原包覆微针，72 小时低温发酵。三种色号。",
+   "一款应用 shot 理念的眼霜，用于眼周。",
+   "一款 SPICUS® shot 眼霜套装，用于靶向眼周护理。",
+   "一款 MTS（微针）精华液套装，Hard type，用于强效居家更新护理。",
+   "一款紧凑规格的修护膏，带来便捷的舒缓护理。",
+   "一款两步式玫瑰花园面膜，用于补水与舒适。",
+   "一款茶树洁面产品，用于油性与易生瑕疵肌肤的日常清洁。",
+   "一款奢华三支肽套装（Type A），用于紧致与抗龄护理。",
+   "一款奢华三支肽套装（Type B），用于紧致与抗龄护理。",
+   "一款大规格火麻籽喷雾精华，用于轻盈补水。",
+   "一款标志性肽安瓶，用于高浓度紧致护理。",
+   "一款强效肽面霜，用于紧致与修护。",
+   "一款 MTS 面霜，与微针护理程序搭配使用。",
+   "以芦荟与黑蒜来源的 EXO-AG® 外泌体复合物为基础的 recell 安瓶套装，用于强化修护。",
+   "一款采用 SPICUS® 微针理念的亮白植入面霜，用于均匀肤色与提亮。",
+   "一款丰润的 derma 面霜，为受压肌肤带来舒适与修护。",
+   "一款专为男士肌肤配制的亮白护理面霜。",
+   "一款高浓度 derma 精华步骤，用于靶向修护护理。",
+   "一款舒缓 derma 步骤，用于镇静并支持肌肤屏障。",
+   "标志性修护膏，用于护理后的强效舒缓与舒适。",
+   "一款护理后面霜，用于在专业护理后支持肌肤。",
+   "一款 phytobiome 面霜（Type A），含植物来源活性成分，带来平衡护理。",
+   "一款含雪绒花的按摩霜，用于美容院按摩与舒缓。",
+   "一款靶向修护产品，用于易生瑕疵的肌肤，属于 TIME 72 品牌线。",
+   "一款以海绵为基础的焕活精华，用于更新，属于 TIME 72 品牌线。"
+  ]
+ },
+ "ui": {
+  "profile_sup": "供应商档案",
+  "about_h": "公司简介",
+  "for_whom": "适用对象：",
+  "lines_h": "产品线",
+  "catalog_h": "产品目录",
+  "tech_h": "技术与生产",
+  "products_h": "产品",
+  "products_note": "覆盖 ThreeDaysLove、RETURN 10、TIME 72 与 EXOMERE 品牌线的专业韩国专业护肤：修护膏、植入面霜、安瓶与 MTS 精华液、喷雾与精华、面膜、洁面产品，以及身体与头皮护理——基于 SPICUS® 微针与 EXOMERE® 外泌体技术打造。",
+  "formats_h": "产品规格",
+  "export_h": "出口与市场",
+  "terms_h": "合作条款",
+  "download_btn": "下载条款（PDF）",
+  "price_btn": "下载价目表（PDF）",
+  "pres_btn": "下载演示文稿（PDF）",
+  "terms_disc": "价格与条款为指示性内容，最终在交易阶段通过 Teranova 确定。不公开供应商的直接联系方式：Teranova Group 负责谈判、尽职调查与交付支持。",
+  "cta_h": "对该供应商感兴趣？",
+  "cta_d": "与我们联系——Teranova 从首次接触到交付，全程安排谈判、尽职调查与交易支持。",
+  "cta_btn": "通过 Teranova 联系",
+  "more": "打开档案 →",
+  "verified_suppliers": "已核实供应商",
+  "certs_h": "认证与注册",
+  "certs_note": "由公司声明。据 THREE DAYS LOVE 称，其质量在 ISO 22716（GMP）、ISO 9001 与 ISO 14001 体系下管理；产品系列在包括 US MoCRA、EU CPNP 与 Switzerland PIF 在内的多个市场取得认证或注册，且 RETURN 10 品牌线已在中国完成 NMPA 注册。公司还披露其 SPICUS®、EXOMERE Halla® 与 EXO-AG® 技术拥有韩国专利。文件副本在交易阶段索取并核实。"
+ }
 }

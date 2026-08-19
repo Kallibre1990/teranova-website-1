@@ -1,163 +1,164 @@
 {
-  "content": {
-    "tagline": "Cosméceutiques K-beauty professionnels fondés sur une délivrance brevetée par micro-aiguilles et exosomes — pour cliniques, salons et distributeurs",
-    "descriptor": "THREE DAYS LOVE CO., LTD., une entreprise cosméceutique coréenne spécialisée dans la délivrance topique par micro-aiguilles (SPICUS®) et par exosomes ; lignes de marque ThreeDaysLove, RETURN 10, TIME 72 et la ligne EXOMERE",
-    "origin": "Corée",
-    "about": [
-      "THREE DAYS LOVE CO., LTD. (주식회사 3일애) est une entreprise cosméceutique coréenne qui, selon les déclarations de la société, se spécialise depuis 2001 dans la technologie de délivrance topique dite « skin-implant » (implant cutané). Son siège social se trouve à Séoul (Songpa-gu), avec des installations de traitement des matières premières et de R&D à Seongnam, dans la province du Gyeonggi. L'entreprise développe et fournit des soins professionnels sous plusieurs de ses propres lignes de marque — ThreeDaysLove, RETURN 10 et TIME 72 — et propose également la fabrication OEM/ODM sous la marque propre du client.",
-      "Le positionnement de l'entreprise repose sur des technologies de délivrance propriétaires pour lesquelles elle déclare des brevets coréens : SPICUS® — une bio micro-aiguille enrobée de collagène végétal pour délivrer les actifs dans la peau par voie topique, sans injection (brevet n° 10-2767202) ; EXOMERE Halla® — un complexe d'exosomes issu du Hallabong de Jeju (brevet n° 10-2677780) ; et EXO-AG® — un complexe d'exosomes d'ail noir et d'aloe vera (brevet n° 10-2534286). Selon les déclarations de la société, ces technologies visent à améliorer la délivrance, la stabilité et l'efficacité des ingrédients actifs. Les produits sont positionnés comme des cosméceutiques professionnels, non comme des dispositifs médicaux ou des médicaments.",
-      "D'après l'entreprise, la qualité est gérée selon les normes ISO 22716 (BPF cosmétiques), ISO 9001 et ISO 14001, et la gamme est certifiée ou enregistrée sur plusieurs marchés — notamment US MoCRA, EU CPNP et Switzerland PIF. Une ligne de marque distincte, EXOMERE, figure dans la propre liste de prix de la société ; d'après les données publiques, EXOMERE CO., LTD. est une entité juridique distincte, et la relation entre les deux entreprises n'est pas confirmée de manière indépendante — dans cette vitrine, les marques ne sont pas fusionnées en une seule entité juridique."
-    ],
-    "facts": [
-      "Développeur cosméceutique coréen ; selon les déclarations de la société, actif dans la délivrance topique par micro-aiguilles depuis 2001",
-      "Technologies propriétaires avec brevets coréens déclarés par l'entreprise : bio micro-aiguille SPICUS®, complexes d'exosomes EXOMERE Halla® et EXO-AG®",
-      "Lignes de marque ThreeDaysLove, RETURN 10 et TIME 72, ainsi que la ligne EXOMERE ; OEM/ODM disponible",
-      "Qualité gérée selon les normes ISO 22716 (BPF), ISO 9001 et ISO 14001, telle que déclarée par la société",
-      "Selon les déclarations de la société, certifiée ou enregistrée sur plusieurs marchés — US MoCRA, EU CPNP, Switzerland PIF et autres"
-    ],
-    "channels": [
-      "Distributeurs et grossistes de cosmétiques professionnels",
-      "Cliniques esthétiques, studios de soins de la peau et de cosmétologie",
-      "Salons de beauté, spas et boutiques de soins de la peau",
-      "Propriétaires de marques à la recherche d'un partenaire cosméceutique coréen OEM/ODM"
-    ],
-    "lines": [
-      {
-        "name": "ThreeDaysLove — cosméceutiques phares",
-        "note": "La ligne professionnelle centrale : baumes réparateurs, ampoules, crèmes-implants et soins ciblés fondés sur le concept de délivrance par micro-aiguilles SPICUS®. Comprend Recovery Balm, les séries Whimela Shining et Derma, Phytobiome et le soin du cuir chevelu."
-      },
-      {
-        "name": "RETURN 10 — MTS à domicile et soins peptidiques",
-        "note": "Une ligne cosméceutique autour des solutions MTS (micro-aiguilles), des crèmes et ampoules peptidiques, des compacts baume réparateur et des masques — un complément de soin à domicile au traitement professionnel. RETURN 10, selon l'entreprise, est enregistrée auprès de la NMPA pour la Chine."
-      },
-      {
-        "name": "TIME 72 — récupération et apaisement",
-        "note": "Une ligne compacte axée sur la récupération post-soin et l'apaisement : AC Miracle Healer et Miracle Spongliia, ainsi que le kit du programme TIME 72 EXOMERE Time Lock."
-      },
-      {
-        "name": "EXOMERE / EXOMERE G — ligne exosomes",
-        "note": "Une ligne de marque à base d'exosomes présente dans la liste de prix de la société : solutions d'implant, baumes réparateurs, soins au glutathion et à la céramide, brumes, soins du corps et du contour des yeux. Présentée comme une ligne de marque ; d'après les données publiques, EXOMERE CO., LTD. est une entité juridique distincte, et le lien n'est pas confirmé de manière indépendante."
-      },
-      {
-        "name": "SPICUS® — technologie d'ingrédient brevetée",
-        "note": "La bio micro-aiguille enrobée de collagène végétal au cœur de la gamme ; selon l'entreprise, elle délivre les actifs dans la peau par voie topique, sans injection, pour soutenir la régénération et l'élasticité."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Délivrance par bio micro-aiguille SPICUS®",
-        "note": "Une technologie de micro-aiguille (spicule) enrobée de collagène végétal ; selon l'entreprise (brevet n° 10-2767202), elle délivre les ingrédients actifs dans la peau par voie topique — une voie sans injection — tout en réduisant l'irritation."
-      },
-      {
-        "name": "Exosomes EXOMERE Halla® et EXO-AG®",
-        "note": "Des complexes d'exosomes issus du Hallabong de Jeju (brevet n° 10-2677780) ainsi que de l'ail noir et de l'aloe vera (brevet n° 10-2534286), tels que déclarés par l'entreprise, utilisés pour soutenir la récupération et la fermeté de la peau."
-      },
-      {
-        "name": "Systèmes qualité",
-        "note": "Fabrication gérée selon les normes ISO 22716 (BPF cosmétiques), ISO 9001 et ISO 14001, telle que déclarée par la société ; des copies des certificats sont demandées et vérifiées au stade de la transaction."
-      },
-      {
-        "name": "OEM/ODM en cycle complet",
-        "note": "Planification de produit, formulation, conditionnement et fabrication sous la marque propre du client, avec accompagnement à l'export. Les conditions et les quantités minimales sont confirmées via Teranova."
-      }
-    ],
-    "formats": [
-      "Baumes et crèmes, 15–100 g",
-      "Ampoules et solutions MTS, coffrets et unités individuelles",
-      "Brumes et sérums, 45–300 g / ml",
-      "Masques et nettoyants",
-      "Kits de programme et coffrets",
-      "Soins du corps et du cuir chevelu"
-    ],
-    "exportNote": "Selon les déclarations de la société, la gamme est certifiée ou enregistrée sur plusieurs marchés — notamment US MoCRA, EU CPNP et Switzerland PIF — et la ligne RETURN 10 est enregistrée auprès de la NMPA pour la Chine ; l'entreprise se décrit comme certifiée dans huit pays. La base de livraison est FOB Korea. Le statut d'enregistrement final pour tout marché spécifique est confirmé au stade de la transaction.",
-    "terms": [
-      {
-        "label": "Base de livraison",
-        "value": "FOB Korea"
-      },
-      {
-        "label": "Devises",
-        "value": "Les prix indicatifs sont publiés en USD. La liste de prix propre du fournisseur est émise en KRW, EUR et USD ; la devise de règlement et le taux de change sont fixés au stade de la transaction"
-      },
-      {
-        "label": "Tarification",
-        "value": "Les prix de gros comportent des paliers de volume (de moins de 100 unités à 5 000+ unités par article). Les montants indicatifs publiés correspondent au palier à partir de 1 000 unités ; le palier applicable et le MOQ sont confirmés via Teranova"
-      },
-      {
-        "label": "OEM/ODM",
-        "value": "Disponible sous la marque propre du client ; quantités minimales et conditions discutées par projet"
-      },
-      {
-        "label": "Paiement et délai",
-        "value": "Finalisés dans le contrat au stade de la transaction"
-      }
-    ],
-    "consentNote": "Les données et les documents sont fournis par THREE DAYS LOVE CO., LTD. (Global Sales, Allen Chung) et publiés avec le consentement de la société pour la préparation conjointe du profil (août 2026). Les informations relatives aux technologies, brevets, certifications et enregistrements sont déclarées par l'entreprise et sont soumises à confirmation documentaire au stade de la transaction. Les affirmations concernant les technologies de micro-aiguilles (« skin-implant »), d'exosomes et de spicules sont présentées telles que déclarées par la société ; les produits sont positionnés comme des cosméceutiques à usage topique, non comme des dispositifs médicaux ou des médicaments. EXOMERE est présentée comme une ligne de marque dans la liste de prix de la société ; d'après les données publiques, EXOMERE CO., LTD. est une entité juridique distincte et la relation n'est pas confirmée de manière indépendante.",
-    "seoTitle": "THREE DAYS LOVE — cosméceutiques K-beauty · SPICUS® & EXOMERE · Teranova",
-    "seoDesc": "THREE DAYS LOVE est un développeur cosméceutique coréen : technologies de micro-aiguilles SPICUS® et d'exosomes EXOMERE® à travers les lignes ThreeDaysLove, RETURN 10, TIME 72 et EXOMERE. OEM/ODM, FOB Korea. Transactions via Teranova.",
-    "catalog_notes": [
-      "Un coffret d'ampoules recell fondé sur les concepts d'exosomes EXOMERE® et SPICUS® pour un soin réparateur intensif.",
-      "Une crème-implant éclaircissante avec le concept de micro-aiguille SPICUS® pour un teint uniforme et un éclat lumineux.",
-      "Une crème derma riche pour le confort et la récupération des peaux stressées.",
-      "Une crème de soin éclaircissante formulée pour la peau des hommes.",
-      "Une étape de sérum derma concentré pour un soin réparateur ciblé.",
-      "Une étape derma apaisante pour calmer et soutenir la barrière cutanée.",
-      "Le baume réparateur signature pour un apaisement et un confort post-soin intensifs.",
-      "Une crème post-soin pour soutenir la peau après un traitement professionnel.",
-      "Une crème phytobiome (Type A) aux actifs d'origine végétale pour un soin équilibré.",
-      "Une crème de massage à l'edelweiss pour le massage en salon et l'apaisement.",
-      "Un soin ciblé pour les peaux sujettes aux imperfections, faisant partie de la ligne TIME 72.",
-      "Un booster à base de spongille pour le renouvellement, faisant partie de la ligne TIME 72.",
-      "Un coffret de solution MTS (micro-aiguilles), type Hard, pour un soin de renouvellement intensif à domicile.",
-      "Un baume réparateur au format compact pour un soin apaisant pratique.",
-      "Un masque en deux étapes rose garden pour l'hydratation et le confort.",
-      "Un nettoyant au tea tree pour le nettoyage quotidien des peaux grasses et sujettes aux imperfections.",
-      "Un coffret luxe de trois peptides (Type A) pour la fermeté et le soin anti-âge.",
-      "Un coffret luxe de trois peptides (Type B) pour la fermeté et le soin anti-âge.",
-      "Un sérum-brume à la graine de chanvre, grand format, pour une hydratation légère.",
-      "Une ampoule peptidique signature pour un soin de fermeté concentré.",
-      "Une crème peptidique intensive pour la fermeté et la récupération.",
-      "Une crème MTS à associer à la routine micro-aiguilles.",
-      "Un kit du programme Time Lock fondé sur le soin aux exosomes EXOMERE® pour une routine de récupération complète.",
-      "Un coffret de solution d'implant appliquant le concept SPICUS® avec les exosomes EXOMERE®.",
-      "Une solution d'implant aux exosomes EXOMERE® pour un soin réparateur intensif.",
-      "Un gel apaisant lifting-shot pour un soin raffermissant et apaisant.",
-      "Un baume réparateur enrichi aux exosomes EXOMERE® pour un apaisement post-soin.",
-      "Une solution melashot au glutathion pour l'éclaircissement et l'uniformité du teint.",
-      "Une crème recell à la céramide pour renforcer la barrière et soutenir la récupération.",
-      "Une brume aroma healing pour une hydratation rafraîchissante et du confort.",
-      "Une recharge pour la Brume EXOMERE Aroma Healing.",
-      "Une crème à l'edelweiss pour un soin apaisant et hydratant.",
-      "Un nettoyant moussant au tea tree pour un nettoyage quotidien doux.",
-      "Une ampoule recell avec PDRN ou EGF et le concept SPICUS® pour la récupération.",
-      "Un concentrateur corps appliquant le concept lifting-shot pour un soin raffermissant du corps.",
-      "Un sérum botanical V pour le raffermissement et le soin du contour du corps.",
-      "Une crème contour des yeux appliquant le concept shot pour la zone du regard.",
-      "Un coffret de crème contour des yeux SPICUS® shot pour un soin ciblé de la zone du regard."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Profil du fournisseur",
-    "about_h": "À propos de l'entreprise",
-    "for_whom": "Pour qui :",
-    "lines_h": "Lignes de produits",
-    "catalog_h": "Catalogue des produits",
-    "tech_h": "Technologie et fabrication",
-    "products_h": "Produits",
-    "products_note": "Cosméceutiques K-beauty professionnels à travers les lignes ThreeDaysLove, RETURN 10, TIME 72 et EXOMERE : baumes réparateurs, crèmes-implants, ampoules et solutions MTS, brumes et sérums, masques, nettoyants, ainsi que soins du corps et du cuir chevelu — fondés sur les technologies de micro-aiguilles SPICUS® et d'exosomes EXOMERE®.",
-    "formats_h": "Formats des produits",
-    "export_h": "Export et marchés",
-    "terms_h": "Conditions de coopération",
-    "download_btn": "Télécharger les conditions (PDF)",
-    "price_btn": "Télécharger la liste de prix (PDF)",
-    "pres_btn": "Télécharger la présentation (PDF)",
-    "terms_disc": "Les prix et les conditions sont indicatifs et sont finalisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés : Teranova Group gère les négociations, la due diligence et l'accompagnement de la livraison.",
-    "cta_h": "Ce fournisseur vous intéresse ?",
-    "cta_d": "Contactez-nous — Teranova organise les négociations, la due diligence et l'accompagnement de la transaction, du premier contact à la livraison.",
-    "cta_btn": "Contacter via Teranova",
-    "more": "Ouvrir le profil →",
-    "verified_suppliers": "Fournisseurs vérifiés",
-    "certs_h": "Certifications et enregistrements",
-    "certs_note": "Déclarés par l'entreprise. Selon THREE DAYS LOVE, la qualité est gérée selon les normes ISO 22716 (BPF), ISO 9001 et ISO 14001 ; la gamme est certifiée ou enregistrée sur des marchés incluant US MoCRA, EU CPNP et Switzerland PIF, la ligne RETURN 10 étant enregistrée auprès de la NMPA pour la Chine. L'entreprise déclare également des brevets coréens pour ses technologies SPICUS®, EXOMERE Halla® et EXO-AG®. Des copies des documents sont demandées et vérifiées au stade de la transaction."
-  }
+ "content": {
+  "tagline": "Cosméceutiques K-beauty professionnels fondés sur une délivrance brevetée par micro-aiguilles et exosomes — pour cliniques, salons et distributeurs",
+  "descriptor": "THREE DAYS LOVE CO., LTD., une entreprise cosméceutique coréenne spécialisée dans la délivrance topique par micro-aiguilles (SPICUS®) et par exosomes ; lignes de marque ThreeDaysLove, RETURN 10, TIME 72 et la ligne EXOMERE",
+  "origin": "Corée",
+  "about": [
+   "THREE DAYS LOVE CO., LTD. (주식회사 3일애) est une entreprise cosméceutique coréenne qui, selon les déclarations de la société, se spécialise depuis 2001 dans la technologie de délivrance topique dite « skin-implant » (implant cutané). Son siège social se trouve à Séoul (Songpa-gu), avec des installations de traitement des matières premières et de R&D à Seongnam, dans la province du Gyeonggi. L'entreprise développe et fournit des soins professionnels sous plusieurs de ses propres lignes de marque — ThreeDaysLove, RETURN 10 et TIME 72 — et propose également la fabrication OEM/ODM sous la marque propre du client.",
+   "Le positionnement de l'entreprise repose sur des technologies de délivrance propriétaires pour lesquelles elle déclare des brevets coréens : SPICUS® — une bio micro-aiguille enrobée de collagène végétal pour délivrer les actifs dans la peau par voie topique, sans injection (brevet n° 10-2767202) ; EXOMERE Halla® — un complexe d'exosomes issu du Hallabong de Jeju (brevet n° 10-2677780) ; et EXO-AG® — un complexe d'exosomes d'ail noir et d'aloe vera (brevet n° 10-2534286). Selon les déclarations de la société, ces technologies visent à améliorer la délivrance, la stabilité et l'efficacité des ingrédients actifs. Les produits sont positionnés comme des cosméceutiques professionnels, non comme des dispositifs médicaux ou des médicaments.",
+   "D'après l'entreprise, la qualité est gérée selon les normes ISO 22716 (BPF cosmétiques), ISO 9001 et ISO 14001, et la gamme est certifiée ou enregistrée sur plusieurs marchés — notamment US MoCRA, EU CPNP et Switzerland PIF. Une ligne de marque distincte, EXOMERE, figure dans la propre liste de prix de la société ; d'après les données publiques, EXOMERE CO., LTD. est une entité juridique distincte, et la relation entre les deux entreprises n'est pas confirmée de manière indépendante — dans cette vitrine, les marques ne sont pas fusionnées en une seule entité juridique."
+  ],
+  "facts": [
+   "Développeur cosméceutique coréen ; selon les déclarations de la société, actif dans la délivrance topique par micro-aiguilles depuis 2001",
+   "Technologies propriétaires avec brevets coréens déclarés par l'entreprise : bio micro-aiguille SPICUS®, complexes d'exosomes EXOMERE Halla® et EXO-AG®",
+   "Lignes de marque ThreeDaysLove, RETURN 10 et TIME 72, ainsi que la ligne EXOMERE ; OEM/ODM disponible",
+   "Qualité gérée selon les normes ISO 22716 (BPF), ISO 9001 et ISO 14001, telle que déclarée par la société",
+   "Selon les déclarations de la société, certifiée ou enregistrée sur plusieurs marchés — US MoCRA, EU CPNP, Switzerland PIF et autres"
+  ],
+  "channels": [
+   "Distributeurs et grossistes de cosmétiques professionnels",
+   "Cliniques esthétiques, studios de soins de la peau et de cosmétologie",
+   "Salons de beauté, spas et boutiques de soins de la peau",
+   "Propriétaires de marques à la recherche d'un partenaire cosméceutique coréen OEM/ODM"
+  ],
+  "lines": [
+   {
+    "name": "EXOMERE — la ligne aux exosomes",
+    "note": "La marque la plus récente de l'entreprise et sa principale ligne aux exosomes : solutions implant, baumes réparateurs, soins au glutathion et aux céramides, brumes, soins du corps et du contour des yeux."
+   },
+   {
+    "name": "EXOMERE G — la ligne pour la vente en ligne",
+    "note": "Une ligne EXOMERE distincte, conçue pour les canaux de vente en ligne : le cushion Spicus V Shot Recovery Balm et le soin ciblé du contour des yeux."
+   },
+   {
+    "name": "RETURN 10 — MTS à domicile et soins peptidiques",
+    "note": "Une ligne cosméceutique autour des solutions MTS (micro-aiguilles), des crèmes et ampoules peptidiques, des compacts baume réparateur et des masques — un complément de soin à domicile au traitement professionnel. RETURN 10, selon l'entreprise, est enregistrée auprès de la NMPA pour la Chine."
+   },
+   {
+    "name": "ThreeDaysLove — cosméceutiques phares",
+    "note": "La ligne professionnelle centrale : baumes réparateurs, ampoules, crèmes-implants et soins ciblés fondés sur le concept de délivrance par micro-aiguilles SPICUS®. Comprend Recovery Balm, les séries Whimela Shining et Derma, Phytobiome et le soin du cuir chevelu."
+   },
+   {
+    "name": "TIME 72 — récupération et apaisement",
+    "note": "Une ligne compacte axée sur la récupération post-soin et l'apaisement : AC Miracle Healer et Miracle Spongliia, ainsi que le kit du programme TIME 72 EXOMERE Time Lock."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Délivrance par bio micro-aiguille SPICUS®",
+    "note": "Une technologie de micro-aiguille (spicule) enrobée de collagène végétal ; selon l'entreprise (brevet n° 10-2767202), elle délivre les ingrédients actifs dans la peau par voie topique — une voie sans injection — tout en réduisant l'irritation."
+   },
+   {
+    "name": "Exosomes EXOMERE Halla® et EXO-AG®",
+    "note": "Des complexes d'exosomes issus du Hallabong de Jeju (brevet n° 10-2677780) ainsi que de l'ail noir et de l'aloe vera (brevet n° 10-2534286), tels que déclarés par l'entreprise, utilisés pour soutenir la récupération et la fermeté de la peau."
+   },
+   {
+    "name": "Systèmes qualité",
+    "note": "Fabrication gérée selon les normes ISO 22716 (BPF cosmétiques), ISO 9001 et ISO 14001, telle que déclarée par la société ; des copies des certificats sont demandées et vérifiées au stade de la transaction."
+   },
+   {
+    "name": "OEM/ODM en cycle complet",
+    "note": "Planification de produit, formulation, conditionnement et fabrication sous la marque propre du client, avec accompagnement à l'export. Les conditions et les quantités minimales sont confirmées via Teranova."
+   }
+  ],
+  "formats": [
+   "Baumes et crèmes, 15–100 g",
+   "Ampoules et solutions MTS, coffrets et unités individuelles",
+   "Brumes et sérums, 45–300 g / ml",
+   "Masques et nettoyants",
+   "Kits de programme et coffrets",
+   "Soins du corps et du cuir chevelu"
+  ],
+  "exportNote": "Selon les déclarations de la société, la gamme est certifiée ou enregistrée sur plusieurs marchés — notamment US MoCRA, EU CPNP et Switzerland PIF — et la ligne RETURN 10 est enregistrée auprès de la NMPA pour la Chine ; l'entreprise se décrit comme certifiée dans huit pays. La base de livraison est FOB Korea. Le statut d'enregistrement final pour tout marché spécifique est confirmé au stade de la transaction.",
+  "terms": [
+   {
+    "label": "Base de livraison",
+    "value": "FOB Korea"
+   },
+   {
+    "label": "Devises",
+    "value": "Les prix indicatifs sont publiés en USD. La liste de prix propre du fournisseur est émise en KRW, EUR et USD ; la devise de règlement et le taux de change sont fixés au stade de la transaction"
+   },
+   {
+    "label": "Tarification",
+    "value": "Les prix de gros comportent des paliers de volume (de moins de 100 unités à 5 000+ unités par article). Les montants indicatifs publiés correspondent au palier à partir de 1 000 unités ; le palier applicable et le MOQ sont confirmés via Teranova"
+   },
+   {
+    "label": "OEM/ODM",
+    "value": "Disponible sous la marque propre du client ; quantités minimales et conditions discutées par projet"
+   },
+   {
+    "label": "Paiement et délai",
+    "value": "Finalisés dans le contrat au stade de la transaction"
+   }
+  ],
+  "consentNote": "Les données et les documents sont fournis par THREE DAYS LOVE CO., LTD. (Global Sales, Allen Chung) et publiés avec le consentement de la société pour la préparation conjointe du profil (août 2026). Les informations relatives aux technologies, brevets, certifications et enregistrements sont déclarées par l'entreprise et sont soumises à confirmation documentaire au stade de la transaction. Les affirmations concernant les technologies de micro-aiguilles (« skin-implant »), d'exosomes et de spicules sont présentées telles que déclarées par la société ; les produits sont positionnés comme des cosméceutiques à usage topique, non comme des dispositifs médicaux ou des médicaments. EXOMERE est présentée comme une ligne de marque dans la liste de prix de la société ; d'après les données publiques, EXOMERE CO., LTD. est une entité juridique distincte et la relation n'est pas confirmée de manière indépendante.",
+  "seoTitle": "THREE DAYS LOVE — cosméceutiques K-beauty · SPICUS® & EXOMERE · Teranova",
+  "seoDesc": "THREE DAYS LOVE est un développeur cosméceutique coréen : technologies de micro-aiguilles SPICUS® et d'exosomes EXOMERE® à travers les lignes ThreeDaysLove, RETURN 10, TIME 72 et EXOMERE. OEM/ODM, FOB Korea. Transactions via Teranova.",
+  "catalog_notes": [
+   "Un kit du programme Time Lock fondé sur le soin aux exosomes EXOMERE® pour une routine de récupération complète.",
+   "Un coffret de solution d'implant appliquant le concept SPICUS® avec les exosomes EXOMERE®.",
+   "Une solution d'implant aux exosomes EXOMERE® pour un soin réparateur intensif.",
+   "Un gel apaisant lifting-shot pour un soin raffermissant et apaisant.",
+   "Un baume réparateur enrichi aux exosomes EXOMERE® pour un apaisement post-soin.",
+   "Une solution melashot au glutathion pour l'éclaircissement et l'uniformité du teint.",
+   "Une crème recell à la céramide pour renforcer la barrière et soutenir la récupération.",
+   "Une brume aroma healing pour une hydratation rafraîchissante et du confort.",
+   "Une recharge pour la Brume EXOMERE Aroma Healing.",
+   "Une crème à l'edelweiss pour un soin apaisant et hydratant.",
+   "Un nettoyant moussant au tea tree pour un nettoyage quotidien doux.",
+   "Une ampoule recell avec PDRN ou EGF et le concept SPICUS® pour la récupération.",
+   "Un concentrateur corps appliquant le concept lifting-shot pour un soin raffermissant du corps.",
+   "Un sérum botanical V pour le raffermissement et le soin du contour du corps.",
+   "Baume cushion EXOMERE G aux exosomes de hallabong et spicules enrobées de collagène, fermentation à basse température pendant 72 heures. Trois teintes.",
+   "Une crème contour des yeux appliquant le concept shot pour la zone du regard.",
+   "Un coffret de crème contour des yeux SPICUS® shot pour un soin ciblé de la zone du regard.",
+   "Un coffret de solution MTS (micro-aiguilles), type Hard, pour un soin de renouvellement intensif à domicile.",
+   "Un baume réparateur au format compact pour un soin apaisant pratique.",
+   "Un masque en deux étapes rose garden pour l'hydratation et le confort.",
+   "Un nettoyant au tea tree pour le nettoyage quotidien des peaux grasses et sujettes aux imperfections.",
+   "Un coffret luxe de trois peptides (Type A) pour la fermeté et le soin anti-âge.",
+   "Un coffret luxe de trois peptides (Type B) pour la fermeté et le soin anti-âge.",
+   "Un sérum-brume à la graine de chanvre, grand format, pour une hydratation légère.",
+   "Une ampoule peptidique signature pour un soin de fermeté concentré.",
+   "Une crème peptidique intensive pour la fermeté et la récupération.",
+   "Une crème MTS à associer à la routine micro-aiguilles.",
+   "Coffret d'ampoules recell à base du complexe d'exosomes EXO-AG® d'aloès et d'ail noir, pour une récupération intensive.",
+   "Une crème-implant éclaircissante avec le concept de micro-aiguille SPICUS® pour un teint uniforme et un éclat lumineux.",
+   "Une crème derma riche pour le confort et la récupération des peaux stressées.",
+   "Une crème de soin éclaircissante formulée pour la peau des hommes.",
+   "Une étape de sérum derma concentré pour un soin réparateur ciblé.",
+   "Une étape derma apaisante pour calmer et soutenir la barrière cutanée.",
+   "Le baume réparateur signature pour un apaisement et un confort post-soin intensifs.",
+   "Une crème post-soin pour soutenir la peau après un traitement professionnel.",
+   "Une crème phytobiome (Type A) aux actifs d'origine végétale pour un soin équilibré.",
+   "Une crème de massage à l'edelweiss pour le massage en salon et l'apaisement.",
+   "Un soin ciblé pour les peaux sujettes aux imperfections, faisant partie de la ligne TIME 72.",
+   "Un booster à base de spongille pour le renouvellement, faisant partie de la ligne TIME 72."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Profil du fournisseur",
+  "about_h": "À propos de l'entreprise",
+  "for_whom": "Pour qui :",
+  "lines_h": "Lignes de produits",
+  "catalog_h": "Catalogue des produits",
+  "tech_h": "Technologie et fabrication",
+  "products_h": "Produits",
+  "products_note": "Cosméceutiques K-beauty professionnels à travers les lignes ThreeDaysLove, RETURN 10, TIME 72 et EXOMERE : baumes réparateurs, crèmes-implants, ampoules et solutions MTS, brumes et sérums, masques, nettoyants, ainsi que soins du corps et du cuir chevelu — fondés sur les technologies de micro-aiguilles SPICUS® et d'exosomes EXOMERE®.",
+  "formats_h": "Formats des produits",
+  "export_h": "Export et marchés",
+  "terms_h": "Conditions de coopération",
+  "download_btn": "Télécharger les conditions (PDF)",
+  "price_btn": "Télécharger la liste de prix (PDF)",
+  "pres_btn": "Télécharger la présentation (PDF)",
+  "terms_disc": "Les prix et les conditions sont indicatifs et sont finalisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés : Teranova Group gère les négociations, la due diligence et l'accompagnement de la livraison.",
+  "cta_h": "Ce fournisseur vous intéresse ?",
+  "cta_d": "Contactez-nous — Teranova organise les négociations, la due diligence et l'accompagnement de la transaction, du premier contact à la livraison.",
+  "cta_btn": "Contacter via Teranova",
+  "more": "Ouvrir le profil →",
+  "verified_suppliers": "Fournisseurs vérifiés",
+  "certs_h": "Certifications et enregistrements",
+  "certs_note": "Déclarés par l'entreprise. Selon THREE DAYS LOVE, la qualité est gérée selon les normes ISO 22716 (BPF), ISO 9001 et ISO 14001 ; la gamme est certifiée ou enregistrée sur des marchés incluant US MoCRA, EU CPNP et Switzerland PIF, la ligne RETURN 10 étant enregistrée auprès de la NMPA pour la Chine. L'entreprise déclare également des brevets coréens pour ses technologies SPICUS®, EXOMERE Halla® et EXO-AG®. Des copies des documents sont demandées et vérifiées au stade de la transaction."
+ }
 }
