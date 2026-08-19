@@ -1,0 +1,87 @@
+[
+ {
+  "line": "Solar Cleaning Robots",
+  "items": [
+   {
+    "name": "MR-G2 Simple Version",
+    "volume": "panel 990–2384 mm",
+    "price": "1015–1643"
+   },
+   {
+    "name": "MR-G2",
+    "volume": "panel 990–2384 mm",
+    "price": "1472–2290"
+   },
+   {
+    "name": "MR-G3",
+    "volume": "panel 990–2384 mm",
+    "price": "1559–2546"
+   },
+   {
+    "name": "MR-T1 (remote control)",
+    "volume": "brush 1 m",
+    "price": "3735"
+   },
+   {
+    "name": "MR-T1 AUT (AI, visual recognition)",
+    "volume": "brush 1 m",
+    "price": "6592"
+   },
+   {
+    "name": "MR-T1(S)",
+    "volume": "brush 1 m",
+    "price": "2118"
+   },
+   {
+    "name": "MR-T2 (full-automatic AI)",
+    "volume": "brush 1 m",
+    "price": "10390"
+   },
+   {
+    "name": "MR-AR1 Transfer Vehicle",
+    "volume": "single/double panel",
+    "price": "4951–6536"
+   }
+  ]
+ },
+ {
+  "line": "Solar Cleaning Brushes MULR",
+  "items": [
+   {
+    "name": "MULR-A Scraper Brush",
+    "volume": "rod 3.5–7.5 m",
+    "price": "43–117"
+   },
+   {
+    "name": "MULR-B Single-Head Brush",
+    "volume": "rod 3.5–12 m",
+    "price": "281–459"
+   },
+   {
+    "name": "MULR-C Double-Head Brush",
+    "volume": "rod 3.5–12 m",
+    "price": "317–672"
+   },
+   {
+    "name": "MULR-C Pro Double-Head Brush",
+    "volume": "rod 3.5–12 m",
+    "price": "435–887"
+   },
+   {
+    "name": "MULR-D Rolling Brush",
+    "volume": "roller 650 mm",
+    "price": "362–627"
+   },
+   {
+    "name": "MULR-D Pro Rolling Brush",
+    "volume": "roller 650 mm",
+    "price": "448–775"
+   },
+   {
+    "name": "MULR-E Water-Driven Brush",
+    "volume": "incl. water pump",
+    "price": "1036"
+   }
+  ]
+ }
+]

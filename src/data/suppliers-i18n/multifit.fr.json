@@ -82,7 +82,23 @@
   "consentNote": "Données et documents fournis par BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Les chiffres de rendement sont repris des documents de l'entreprise. Prix et conditions se confirment au stade de la transaction via Teranova.",
   "seoTitle": "MULTIFIT — robots de nettoyage de panneaux solaires depuis la Chine · Teranova",
   "seoDesc": "BeiJing Multifit est un fabricant chinois de robots MR-G, MR-T1 et MR-T2 et de brosses MULR pour le nettoyage de panneaux solaires. Usine en propre, débit calculé pour votre champ, fourniture EXW/FOB via Teranova.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "Robot de première génération circulant le long de la rangée : corps en aluminium, écarts jusqu'à 20 mm, pentes jusqu'à 8°.",
+   "Deuxième génération : huit roues motrices, corps anticorrosion amovible, batterie LFP de 4 000 cycles ; écarts 20 mm, pente 8°, panneaux 990–2384 mm.",
+   "Troisième génération : corps en inox, écarts jusqu'à 50 mm, pentes jusqu'à 20°, tête oscillante et traction intégrale ; télécommande jusqu'à 400 m.",
+   "Variante à double brosse rouleau : nettoie le bord de la rangée PV et convient aux champs assemblés en plusieurs rangées.",
+   "Robot chenillé pour rangées sans ponts : brosse d'un mètre, nettoyage à sec et à l'eau, joints jusqu'à 60 mm, pentes jusqu'à 25°, télécommande 400 m.",
+   "La version entièrement automatique du MR-T1 : algorithmes d'IA et reconnaissance visuelle, planification du trajet et correction d'assiette.",
+   "Robot à course verticale pour champs multirangées jusqu'à 10 m de large ; 8–12 m/min, commande à distance.",
+   "Véhicule de transfert sur rail : déplace le robot d'une rangée à l'autre en deux à trois minutes, environ dix fois plus vite qu'à la main.",
+   "Brosse-raclette manuelle sur perche télescopique de 3,5–7,5 m : deux sorties d'eau, tête à angle réglable ; panneaux, façades vitrées, neige.",
+   "Brosse électrique à tête simple pour petits champs : poils souples, angle de tête ajusté à la pente du panneau.",
+   "Brosse électrique à double tête : deux moteurs, pulvérisation d'eau, disques de 280 mm ; secteur ou batterie, 4–6 heures d'autonomie.",
+   "Deuxième génération de la double tête : moteurs brushless de 170 W, batterie 25,6 V 25 Ah, perches carbone de 3,5–7,5 m.",
+   "Brosse électrique à rouleau : rouleau de 650 mm et 130 mm de diamètre, 400 tr/min, trois sorties d'eau, brosse pare-eau.",
+   "Brosse à rouleau de deuxième génération : 200 W, 420 tr/min, rotation réversible, corps en polycarbonate.",
+   "Brosse hydraulique : fonctionne à la pression du réseau jusqu'à 7 MPa sans électricité ; disques de 125 ou 350 mm, pompe optionnelle de 2,2 kW."
+  ]
  },
  "ui": {
   "profile_sup": "Profil du fournisseur",
@@ -99,7 +115,7 @@
   "download_btn": "Télécharger les conditions (PDF)",
   "price_btn": "Télécharger la liste de prix (PDF)",
   "pres_btn": "Télécharger la présentation (PDF)",
-  "terms_disc": "Les prix et conditions sont indicatifs et précisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés. Les références réglementaires (EU CPNP, US MoCRA) sont indiquées selon les données de l'entreprise et ne constituent pas une approbation du régulateur.",
+  "terms_disc": "Les prix et conditions sont indicatifs et précisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés.",
   "cta_h": "Ce fournisseur vous intéresse ?",
   "cta_d": "Contactez-nous — Teranova organise la négociation, la vérification et l'accompagnement de la transaction du premier contact à la livraison.",
   "cta_btn": "Contacter via Teranova",

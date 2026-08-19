@@ -82,7 +82,23 @@
   "consentNote": "Veriler ve materyaller BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT) tarafından sağlanmıştır. Verim rakamları şirketin materyallerine göre aktarılmıştır. Fiyat ve koşullar Teranova üzerinden anlaşma aşamasında teyit edilir.",
   "seoTitle": "MULTIFIT — Çin'den güneş paneli temizleme robotları · Teranova",
   "seoDesc": "BeiJing Multifit, güneş paneli temizliği için MR-G, MR-T1, MR-T2 robotları ve MULR fırçaları üreten Çinli firmadır. Kendi fabrikası, dizinize göre hesaplanan kapasite, Teranova üzerinden EXW/FOB tedarik.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "Panel sırası boyunca ilerleyen birinci nesil robot: alüminyum gövde, 20 mm'ye kadar boşluk, 8°'ye kadar eğim.",
+   "İkinci nesil: sekiz yürüyüş tekeri, sökülebilir korozyon korumalı gövde, 4.000 çevrimlik LFP batarya; 20 mm boşluk, 8° eğim, 990–2384 mm panel.",
+   "Üçüncü nesil: paslanmaz çelik gövde, 50 mm'ye kadar boşluk, 20°'ye kadar eğim, salınımlı kafa ve tüm tekerlerden çekiş; 400 m kumanda menzili.",
+   "Çift silindir fırçalı versiyon: FV sırasının kenarını da temizler, birkaç sıradan oluşan dizilere uygundur.",
+   "Köprüsüz sıralar için paletli robot: 1 metrelik fırça, kuru ve sulu yıkama, 60 mm'ye kadar derz, 25° eğim, 400 m kumanda.",
+   "MR-T1'in tam otomatik sürümü: yapay zekâ algoritmaları ve görsel tanıma, rota planlama ve konum düzeltme.",
+   "10 m genişliğe kadar çok sıralı diziler için dikey hareketli robot; 8–12 m/dk hız, uzaktan kumanda.",
+   "Raylı taşıma aracı: robotu iki-üç dakikada sonraki sıraya taşır — elle taşımadan yaklaşık on kat hızlı.",
+   "3,5–7,5 m teleskopik saplı manuel sıyırıcı fırça: iki su çıkışı, ayarlanabilir kafa açısı; paneller, cam cepheler, kar.",
+   "Küçük diziler için tek kafalı elektrikli fırça: yumuşak kıllar, kafa açısı panel eğimine uyarlanır.",
+   "Çift kafalı elektrikli fırça: iki motor, su püskürtme, 280 mm diskler; şebeke veya batarya, 4–6 saat çalışma.",
+   "Çift kafalının ikinci nesli: 170 W fırçasız motorlar, 25,6 V 25 Ah batarya, 3,5–7,5 m karbon saplar.",
+   "Silindirli elektrikli fırça: 130 mm çapında 650 mm silindir, 400 dev/dk, üç su çıkışı, su tutucu fırça.",
+   "İkinci nesil silindirli fırça: 200 W, 420 dev/dk, ileri-geri dönüş, polikarbonat gövde.",
+   "Su tahrikli fırça: 7 MPa'ya kadar hat basıncıyla elektriksiz çalışır; 125 veya 350 mm diskler, opsiyonel 2,2 kW pompa."
+  ]
  },
  "ui": {
   "profile_sup": "Tedarikçi profili",
@@ -99,7 +115,7 @@
   "download_btn": "Koşulları indir (PDF)",
   "price_btn": "Fiyat listesini indir (PDF)",
   "pres_btn": "Sunumu indir (PDF)",
-  "terms_disc": "Fiyatlar ve koşullar tahminidir ve işlem aşamasında Teranova aracılığıyla netleştirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz. Kayıt referansları (EU CPNP, US MoCRA) şirket verilerine göre belirtilmiştir ve düzenleyici onayı değildir.",
+  "terms_disc": "Fiyatlar ve koşullar tahminidir ve işlem aşamasında Teranova aracılığıyla netleştirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz.",
   "cta_h": "Bu tedarikçi ilginizi çekti mi?",
   "cta_d": "Bizimle iletişime geçin — Teranova ilk temastan teslimata kadar müzakereyi, doğrulamayı ve işlemin takibini düzenler.",
   "cta_btn": "Teranova aracılığıyla iletişime geçin",

@@ -82,7 +82,23 @@
   "consentNote": "Datos y materiales facilitados por BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Las cifras de eficiencia se recogen según los materiales de la empresa. Precios y condiciones se confirman en la fase de negociación a través de Teranova.",
   "seoTitle": "MULTIFIT — robots de limpieza de paneles solares desde China · Teranova",
   "seoDesc": "BeiJing Multifit es un fabricante chino de robots MR-G, MR-T1 y MR-T2 y cepillos MULR para limpieza de paneles solares. Planta propia, rendimiento calculado para su campo, suministro EXW/FOB a través de Teranova.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "Robot de primera generación que recorre la fila de paneles: cuerpo de aluminio, desniveles de hasta 20 mm, pendientes de hasta 8°.",
+   "Segunda generación: ocho ruedas motrices, cuerpo anticorrosión desmontable, batería LFP de 4.000 ciclos; desniveles de 20 mm, pendiente de 8°, paneles de 990–2384 mm.",
+   "Tercera generación: cuerpo de acero inoxidable, desniveles de hasta 50 mm, pendientes de hasta 20°, cabezal oscilante y tracción total; mando a 400 m.",
+   "Variante con doble cepillo de rodillo: remata el borde de la fila FV y sirve para campos montados en varias filas.",
+   "Robot de orugas para filas sin puentes: cepillo de un metro, limpieza en seco y con agua, juntas de hasta 60 mm, pendientes de hasta 25°, mando a 400 m.",
+   "La versión totalmente automática del MR-T1: algoritmos de IA y reconocimiento visual, planificación de ruta y corrección de postura.",
+   "Robot de recorrido vertical para campos multifila de hasta 10 m de ancho; 8–12 m/min, control remoto.",
+   "Vehículo de transferencia sobre raíles: traslada el robot entre filas en dos o tres minutos, unas diez veces más rápido que a mano.",
+   "Cepillo rascador manual con pértiga telescópica de 3,5–7,5 m: dos salidas de agua, cabezal de ángulo regulable; paneles, fachadas de vidrio, nieve.",
+   "Cepillo eléctrico de cabezal único para campos pequeños: cerdas suaves, ángulo del cabezal ajustado a la pendiente del panel.",
+   "Cepillo eléctrico de doble cabezal: dos motores, pulverización de agua, discos de 280 mm; red o batería, 4–6 horas de trabajo.",
+   "Segunda generación del doble cabezal: motores sin escobillas de 170 W, batería de 25,6 V y 25 Ah, pértigas de carbono de 3,5–7,5 m.",
+   "Cepillo eléctrico de rodillo: rodillo de 650 mm y 130 mm de diámetro, 400 rpm, tres salidas de agua, cepillo antisalpicaduras.",
+   "Cepillo de rodillo de segunda generación: 200 W, 420 rpm, giro reversible, carcasa de policarbonato.",
+   "Cepillo accionado por agua: funciona con presión de línea de hasta 7 MPa sin electricidad; discos de 125 o 350 mm, bomba opcional de 2,2 kW."
+  ]
  },
  "ui": {
   "profile_sup": "Perfil del proveedor",
@@ -99,7 +115,7 @@
   "download_btn": "Descargar condiciones (PDF)",
   "price_btn": "Descargar lista de precios (PDF)",
   "pres_btn": "Descargar presentación (PDF)",
-  "terms_disc": "Los precios y las condiciones son indicativos y se concretan en la etapa de la operación a través de Teranova. Los contactos directos del proveedor no se publican. Las referencias de registro (EU CPNP, US MoCRA) se indican según datos de la empresa y no constituyen una aprobación del regulador.",
+  "terms_disc": "Los precios y las condiciones son indicativos y se concretan en la etapa de la operación a través de Teranova. Los contactos directos del proveedor no se publican.",
   "cta_h": "¿Le interesa este proveedor?",
   "cta_d": "Póngase en contacto — Teranova organiza las negociaciones, la verificación y el acompañamiento de la operación desde el primer contacto hasta la entrega.",
   "cta_btn": "Contactar a través de Teranova",

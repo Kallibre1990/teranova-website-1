@@ -82,7 +82,23 @@
   "consentNote": "Dati e materiali forniti da BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). I valori di efficienza sono riportati secondo i materiali dell'azienda. Prezzi e condizioni si confermano in fase di trattativa tramite Teranova.",
   "seoTitle": "MULTIFIT — robot per la pulizia di pannelli solari dalla Cina · Teranova",
   "seoDesc": "BeiJing Multifit è un produttore cinese di robot MR-G, MR-T1 e MR-T2 e spazzole MULR per la pulizia di pannelli solari. Stabilimento proprio, resa calcolata sul vostro campo, fornitura EXW/FOB tramite Teranova.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "Robot di prima generazione che percorre la fila di pannelli: corpo in alluminio, dislivelli fino a 20 mm, pendenze fino a 8°.",
+   "Seconda generazione: otto ruote motrici, corpo anticorrosione rimovibile, batteria LFP da 4.000 cicli; dislivelli 20 mm, pendenze 8°, pannelli 990–2384 mm.",
+   "Terza generazione: corpo in acciaio inox, dislivelli fino a 50 mm, pendenze fino a 20°, testa oscillante e trazione integrale; telecomando fino a 400 m.",
+   "Variante con doppia spazzola a rullo: pulisce il bordo della fila FV e si adatta agli array composti da più file.",
+   "Robot cingolato per file senza ponti: spazzola da 1 metro, pulizia a secco e a umido, giunti fino a 60 mm, pendenze fino a 25°, telecomando 400 m.",
+   "La versione completamente automatica di MR-T1: algoritmi IA e riconoscimento visivo, pianificazione del percorso e correzione dell'assetto.",
+   "Robot a corsa verticale per array multifila larghi fino a 10 m; velocità 8–12 m/min, controllo remoto.",
+   "Veicolo di trasferimento su rotaia: sposta il robot tra le file in due-tre minuti, circa dieci volte più rapido della movimentazione manuale.",
+   "Spazzola raschiante manuale su asta telescopica di 3,5–7,5 m: due uscite d'acqua, testa ad angolo regolabile; pannelli, facciate in vetro, neve.",
+   "Spazzola elettrica a testa singola per array piccoli: setole morbide, angolo della testa regolabile sulla pendenza del pannello.",
+   "Spazzola elettrica a doppia testa: due motori, spruzzo d'acqua, dischi da 280 mm; alimentazione da rete o batteria, 4–6 ore di lavoro.",
+   "Seconda generazione della doppia testa: motori brushless da 170 W, batteria 25,6 V 25 Ah, aste in carbonio da 3,5–7,5 m.",
+   "Spazzola elettrica a rullo: rullo di 650 mm e diametro 130 mm, 400 giri/min, tre uscite d'acqua, spazzola paraspruzzi.",
+   "Spazzola a rullo di seconda generazione: 200 W, 420 giri/min, rotazione reversibile, corpo in policarbonato.",
+   "Spazzola ad azionamento idraulico: funziona con pressione di linea fino a 7 MPa senza elettricità; dischi da 125 o 350 mm, pompa opzionale da 2,2 kW."
+  ]
  },
  "ui": {
   "profile_sup": "Profilo del fornitore",
@@ -99,7 +115,7 @@
   "download_btn": "Scarica le condizioni (PDF)",
   "price_btn": "Scarica il listino (PDF)",
   "pres_btn": "Scarica la presentazione (PDF)",
-  "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del fornitore non vengono pubblicati. I riferimenti di registrazione (EU CPNP, US MoCRA) sono forniti secondo i dati dell'azienda e non costituiscono un'approvazione da parte dell'autorità.",
+  "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del fornitore non vengono pubblicati.",
   "cta_h": "Questo fornitore vi interessa?",
   "cta_d": "Contattateci — Teranova organizza le trattative, la verifica e l'assistenza alla transazione, dal primo contatto alla fornitura.",
   "cta_btn": "Contattare tramite Teranova",

@@ -82,7 +82,23 @@
   "consentNote": "Daten und Unterlagen bereitgestellt von BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Die Effizienzangaben folgen den Unterlagen des Unternehmens. Preise und Konditionen werden in der Abschlussphase über Teranova bestätigt.",
   "seoTitle": "MULTIFIT — Reinigungsroboter für Solarmodule aus China · Teranova",
   "seoDesc": "BeiJing Multifit ist ein chinesischer Hersteller der Roboter MR-G, MR-T1 und MR-T2 sowie der MULR-Bürsten zur Solarmodulreinigung. Eigenes Werk, Leistung für Ihr Feld berechnet, Lieferung EXW/FOB über Teranova.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "Roboter der ersten Generation für die Fahrt entlang der Modulreihe: Aluminiumgehäuse, Spalten bis 20 mm, Neigungen bis 8°.",
+   "Zweite Generation: acht Laufräder, abnehmbares Korrosionsschutzgehäuse, LFP-Batterie mit 4.000 Zyklen; Spalten 20 mm, Neigung 8°, Module 990–2384 mm.",
+   "Dritte Generation: Edelstahlgehäuse, Spalten bis 50 mm, Neigungen bis 20°, Schwenkkopf und Allradantrieb; Fernbedienung bis 400 m.",
+   "Variante mit doppelter Rollenbürste: reinigt den Rand der PV-Reihe und eignet sich für Arrays aus mehreren Modulreihen.",
+   "Kettenroboter für Reihen ohne Brückenverbindung: 1-Meter-Bürste, Trocken- und Nassreinigung, Fugen bis 60 mm, Neigungen bis 25°, Fernbedienung 400 m.",
+   "Die vollautomatische Version des MR-T1: KI-Algorithmen und visuelle Erkennung, Routenplanung und Lagekorrektur.",
+   "Auf-und-ab-Roboter für mehrreihige Arrays bis 10 m Breite; 8–12 m/min, Fernsteuerung.",
+   "Schienen-Transferfahrzeug: bringt den Roboter in zwei bis drei Minuten zur nächsten Reihe — rund zehnmal schneller als von Hand.",
+   "Manuelle Schaberbürste an einer Teleskopstange von 3,5–7,5 m: zwei Wasserauslässe, verstellbarer Kopfwinkel; Module, Glasfassaden, Schnee.",
+   "Einkopf-Elektrobürste für kleinere Arrays: weiche Borsten, Kopfwinkel passt sich der Modulneigung an.",
+   "Doppelkopf-Elektrobürste: zwei Motoren, Wassersprühung, 280-mm-Scheiben; Netz- oder Batteriebetrieb, 4–6 Stunden Laufzeit.",
+   "Zweite Generation der Doppelkopfbürste: bürstenlose 170-W-Motoren, 25,6-V-Batterie mit 25 Ah, Karbonstangen von 3,5–7,5 m.",
+   "Elektrische Rollenbürste: Walze 650 mm bei 130 mm Durchmesser, 400 U/min, drei Wasserauslässe, Wasserabweisbürste.",
+   "Rollenbürste der zweiten Generation: 200 W, 420 U/min, Vor- und Rücklauf, Polycarbonatgehäuse.",
+   "Wasserbetriebene Bürste: arbeitet mit Leitungsdruck bis 7 MPa ganz ohne Strom; Scheiben 125 oder 350 mm, optionale 2,2-kW-Pumpe."
+  ]
  },
  "ui": {
   "profile_sup": "Lieferantenprofil",
@@ -99,7 +115,7 @@
   "download_btn": "Bedingungen herunterladen (PDF)",
   "price_btn": "Preisliste herunterladen (PDF)",
   "pres_btn": "Präsentation herunterladen (PDF)",
-  "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova präzisiert. Direkte Kontakte des Lieferanten werden nicht veröffentlicht. Die Registrierungsnachweise (EU CPNP, US MoCRA) sind nach Angaben des Unternehmens aufgeführt und stellen keine Zulassung der Behörde dar.",
+  "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova präzisiert. Direkte Kontakte des Lieferanten werden nicht veröffentlicht.",
   "cta_h": "Ist dieser Lieferant für Sie interessant?",
   "cta_d": "Kontaktieren Sie uns — Teranova organisiert Verhandlungen, Prüfung und Begleitung der Transaktion, vom ersten Kontakt bis zur Lieferung.",
   "cta_btn": "Über Teranova kontaktieren",

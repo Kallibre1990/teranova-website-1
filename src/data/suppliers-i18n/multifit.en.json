@@ -82,7 +82,23 @@
   "consentNote": "Data and materials provided by BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Efficiency figures are stated per the company's materials. Prices and terms are confirmed at the deal stage through Teranova.",
   "seoTitle": "MULTIFIT — solar panel cleaning robots from China · Teranova",
   "seoDesc": "BeiJing Multifit is a Chinese maker of MR-G, MR-T1 and MR-T2 robots and MULR brushes for solar panel cleaning. Own plant, throughput calculated for your array, EXW/FOB supply through Teranova.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "First-generation robot travelling along the panel row: aluminium body, gaps up to 20 mm, slopes up to 8°.",
+   "Second generation: eight running wheels, removable anti-corrosion body, LFP battery rated for 4,000 cycles; 20 mm gaps, slopes up to 8°, panels 990–2384 mm.",
+   "Third generation: stainless-steel body, gaps up to 50 mm, slopes up to 20°, swinging head and all-wheel drive; remote range up to 400 m.",
+   "Double-roller-brush variant: finishes the edge of the PV row and suits arrays assembled from several panel rows.",
+   "Tracked robot for rows without bridge connections: 1-metre brush, dry and wet cleaning, joints up to 60 mm, slopes up to 25°, remote up to 400 m.",
+   "The fully automatic version of MR-T1: AI algorithms and visual recognition, path planning and posture correction.",
+   "Up-and-down robot for multi-row arrays up to 10 m wide; 8–12 m/min speed, remote control.",
+   "Rail-type transfer vehicle: moves the robot between rows in two to three minutes — roughly ten times faster than manual handling.",
+   "Manual scraper brush on a 3.5–7.5 m telescopic rod: two water outlets, adjustable head angle; panels, glass facades, snow.",
+   "Single-head electric brush for smaller arrays: soft bristles, head angle adjusts to the panel slope.",
+   "Double-head electric brush: two motors, water spray, 280 mm discs; grid or battery power, 4–6 hours of work.",
+   "Second generation of the double-head brush: 170 W brushless motors, 25.6 V 25 Ah battery, carbon-fibre rods of 3.5–7.5 m.",
+   "Rolling electric brush: 650 mm roller of 130 mm diameter, 400 rpm, three water outlets, water-blocking brush.",
+   "Second-generation rolling brush: 200 W, 420 rpm, forward/reverse rotation, polycarbonate housing.",
+   "Water-driven brush: powered by line pressure up to 7 MPa with no electricity; 125 or 350 mm discs, optional 2.2 kW pump."
+  ]
  },
  "ui": {
   "profile_sup": "Supplier profile",
@@ -99,7 +115,7 @@
   "download_btn": "Download terms (PDF)",
   "price_btn": "Download price list (PDF)",
   "pres_btn": "Download presentation (PDF)",
-  "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The supplier's direct contacts are not published. Registration references (EU CPNP, US MoCRA) are stated per company data and do not constitute regulatory approval.",
+  "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The supplier's direct contacts are not published.",
   "cta_h": "Interested in this supplier?",
   "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
   "cta_btn": "Contact via Teranova",

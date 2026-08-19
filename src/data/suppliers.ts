@@ -36,6 +36,7 @@ import cocoTr from './suppliers-i18n/cocospack.tr.json';
 import cocoEs from './suppliers-i18n/cocospack.es.json';
 import cocoPt from './suppliers-i18n/cocospack.pt.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
+import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
 import multifitKo from './suppliers-i18n/multifit.ko.json';
 import multifitZh from './suppliers-i18n/multifit.zh.json';
@@ -1144,10 +1145,15 @@ export const suppliers: SupplierProfile[] = [
     /* Синий и жёлтый — с их каталогов: солнце и панель. */
     brandColors: { deep: '#123a63', sky: '#4f8fce', accent: '#f2b21c', bg: '#eef4fa' },
     voice: 'clinical',
-    certs: [],
-    /* Прайс не публикуется: техника считается по конфигурации, цены — по запросу. */
+    certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'CE'],
+    /* Каталог и прайс собраны из их материалов 12.06.2026: два каталога 2026 года
+       и полные квотации XLS по всем моделям (EXW Shantou, ярус от 10 шт). */
+    catalog: multifitCatalog as { line: string; items: { name: string; img: string; volume?: string }[] }[],
     termsFile: {
       ru: '/docs/multifit-terms-ru.pdf', en: '/docs/multifit-terms-en.pdf', ko: '/docs/multifit-terms-ko.pdf', zh: '/docs/multifit-terms-zh.pdf', ja: '/docs/multifit-terms-ja.pdf', it: '/docs/multifit-terms-it.pdf', de: '/docs/multifit-terms-de.pdf', fr: '/docs/multifit-terms-fr.pdf', tr: '/docs/multifit-terms-tr.pdf', es: '/docs/multifit-terms-es.pdf', pt: '/docs/multifit-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/multifit-price-ru.pdf', en: '/docs/multifit-price-en.pdf', ko: '/docs/multifit-price-ko.pdf', zh: '/docs/multifit-price-zh.pdf', ja: '/docs/multifit-price-ja.pdf', it: '/docs/multifit-price-it.pdf', de: '/docs/multifit-price-de.pdf', fr: '/docs/multifit-price-fr.pdf', tr: '/docs/multifit-price-tr.pdf', es: '/docs/multifit-price-es.pdf', pt: '/docs/multifit-price-pt.pdf',
     },
     presFile: {
       ru: '/docs/multifit-presentation-ru.pdf', en: '/docs/multifit-presentation-en.pdf', ko: '/docs/multifit-presentation-ko.pdf', zh: '/docs/multifit-presentation-zh.pdf', ja: '/docs/multifit-presentation-ja.pdf', it: '/docs/multifit-presentation-it.pdf', de: '/docs/multifit-presentation-de.pdf', fr: '/docs/multifit-presentation-fr.pdf', tr: '/docs/multifit-presentation-tr.pdf', es: '/docs/multifit-presentation-es.pdf', pt: '/docs/multifit-presentation-pt.pdf',

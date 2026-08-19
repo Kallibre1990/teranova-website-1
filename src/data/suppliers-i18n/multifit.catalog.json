@@ -1,0 +1,83 @@
+[
+ {
+  "line": "Solar Cleaning Robots",
+  "items": [
+   {
+    "name": "MR-G1",
+    "img": "/img/suppliers/multifit/products/mr-g1.jpg",
+    "volume": "Gen 1"
+   },
+   {
+    "name": "MR-G2",
+    "img": "/img/suppliers/multifit/products/mr-g2.jpg",
+    "volume": "Gen 2"
+   },
+   {
+    "name": "MR-G3",
+    "img": "/img/suppliers/multifit/products/mr-g3.jpg",
+    "volume": "Gen 3"
+   },
+   {
+    "name": "MR-G-D Double Brush",
+    "img": "/img/suppliers/multifit/products/mr-g-d.jpg"
+   },
+   {
+    "name": "MR-T1",
+    "img": "/img/suppliers/multifit/products/mr-t1.jpg",
+    "volume": "brush 1 m"
+   },
+   {
+    "name": "MR-T1 AUT",
+    "img": "/img/suppliers/multifit/products/mr-t1-aut.jpg",
+    "volume": "brush 1 m"
+   },
+   {
+    "name": "MR-XY",
+    "img": "/img/suppliers/multifit/products/mr-xy.jpg",
+    "volume": "array up to 10 m"
+   },
+   {
+    "name": "MR-AR Transfer Vehicle",
+    "img": "/img/suppliers/multifit/products/mr-ar.jpg"
+   }
+  ]
+ },
+ {
+  "line": "Solar Cleaning Brushes MULR",
+  "items": [
+   {
+    "name": "MULR-A Scraper Brush",
+    "img": "/img/suppliers/multifit/products/mulr-a.jpg",
+    "volume": "rod 3.5–7.5 m"
+   },
+   {
+    "name": "MULR-B Single-Head",
+    "img": "/img/suppliers/multifit/products/mulr-b.jpg"
+   },
+   {
+    "name": "MULR-C Double-Head",
+    "img": "/img/suppliers/multifit/products/mulr-c.jpg",
+    "volume": "Gen 1"
+   },
+   {
+    "name": "MULR-C Pro Double-Head",
+    "img": "/img/suppliers/multifit/products/mulr-c-pro.jpg",
+    "volume": "Gen 2"
+   },
+   {
+    "name": "MULR-D Rolling Brush",
+    "img": "/img/suppliers/multifit/products/mulr-d.jpg",
+    "volume": "roller 650 mm"
+   },
+   {
+    "name": "MULR-D Pro Rolling Brush",
+    "img": "/img/suppliers/multifit/products/mulr-d-pro.jpg",
+    "volume": "roller 650 mm"
+   },
+   {
+    "name": "MULR-E Water-Driven",
+    "img": "/img/suppliers/multifit/products/mulr-e.jpg"
+   }
+  ]
+ }
+]

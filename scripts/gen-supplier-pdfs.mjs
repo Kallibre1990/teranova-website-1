@@ -239,10 +239,12 @@ const SUPPLIERS = [
     certs: ['ISO 9001', 'ISO 14001', 'ISO 22716', 'ISO 15378'],
   },
   {
-    id: 'multifit', json: 'multifit', supplier: 'BeiJing Multifit Electrical Technology Co., Ltd.', brand: 'MULTIFIT', noPrice: true,
+    /* Прайс — из квотаций Виктора от 12.06.2026 (XLS по всем моделям), ярус MOQ 10+. */
+    id: 'multifit', json: 'multifit', supplier: 'BeiJing Multifit Electrical Technology Co., Ltd.', brand: 'MULTIFIT',
+    basis: 'EXW Shantou',
     colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
     pres: true,
-    certs: [],
+    certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'CE'],
   },
 ];
 

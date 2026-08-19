@@ -82,7 +82,23 @@
   "consentNote": "Dados e materiais fornecidos pela BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Os números de eficiência seguem os materiais da empresa. Preços e condições são confirmados na fase da negociação através da Teranova.",
   "seoTitle": "MULTIFIT — robôs de limpeza de painéis solares da China · Teranova",
   "seoDesc": "A BeiJing Multifit é uma fabricante chinesa de robôs MR-G, MR-T1 e MR-T2 e escovas MULR para limpeza de painéis solares. Fábrica própria, capacidade calculada para o seu campo, fornecimento EXW/FOB pela Teranova.",
-  "catalog_notes": []
+  "catalog_notes": [
+   "Robô de primeira geração que percorre a fileira de painéis: corpo de alumínio, desníveis de até 20 mm, inclinações de até 8°.",
+   "Segunda geração: oito rodas motrizes, corpo anticorrosão removível, bateria LFP de 4.000 ciclos; desníveis de 20 mm, inclinação de 8°, painéis de 990–2384 mm.",
+   "Terceira geração: corpo de aço inox, desníveis de até 50 mm, inclinações de até 20°, cabeça oscilante e tração total; controle a 400 m.",
+   "Variante com escova de rolo dupla: limpa a borda da fileira FV e serve para conjuntos montados em várias fileiras.",
+   "Robô de esteiras para fileiras sem pontes: escova de um metro, limpeza a seco e com água, juntas de até 60 mm, inclinações de até 25°, controle a 400 m.",
+   "A versão totalmente automática do MR-T1: algoritmos de IA e reconhecimento visual, planejamento de rota e correção de postura.",
+   "Robô de percurso vertical para conjuntos multifileira de até 10 m de largura; 8–12 m/min, controle remoto.",
+   "Veículo de transferência sobre trilhos: leva o robô entre fileiras em dois a três minutos — cerca de dez vezes mais rápido que à mão.",
+   "Escova raspadora manual em haste telescópica de 3,5–7,5 m: duas saídas de água, cabeça de ângulo regulável; painéis, fachadas de vidro, neve.",
+   "Escova elétrica de cabeça única para conjuntos menores: cerdas macias, ângulo da cabeça ajustado à inclinação do painel.",
+   "Escova elétrica de cabeça dupla: dois motores, aspersão de água, discos de 280 mm; rede ou bateria, 4–6 horas de trabalho.",
+   "Segunda geração da cabeça dupla: motores sem escovas de 170 W, bateria de 25,6 V e 25 Ah, hastes de carbono de 3,5–7,5 m.",
+   "Escova elétrica de rolo: rolo de 650 mm com 130 mm de diâmetro, 400 rpm, três saídas de água, escova anti-respingos.",
+   "Escova de rolo de segunda geração: 200 W, 420 rpm, rotação reversível, corpo de policarbonato.",
+   "Escova movida a água: funciona com pressão de linha de até 7 MPa sem eletricidade; discos de 125 ou 350 mm, bomba opcional de 2,2 kW."
+  ]
  },
  "ui": {
   "profile_sup": "Perfil do fornecedor",
@@ -99,7 +115,7 @@
   "download_btn": "Baixar condições (PDF)",
   "price_btn": "Baixar tabela de preços (PDF)",
   "pres_btn": "Baixar apresentação (PDF)",
-  "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa da operação por meio da Teranova. Os contatos diretos do fornecedor não são publicados. As referências de registro (EU CPNP, US MoCRA) são indicadas conforme dados da empresa e não constituem aprovação do regulador.",
+  "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa da operação por meio da Teranova. Os contatos diretos do fornecedor não são publicados.",
   "cta_h": "Interessou-se por este fornecedor?",
   "cta_d": "Entre em contato — a Teranova organiza as negociações, a verificação e o acompanhamento da operação desde o primeiro contato até a entrega.",
   "cta_btn": "Entrar em contato pela Teranova",
