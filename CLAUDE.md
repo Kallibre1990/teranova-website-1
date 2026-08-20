@@ -2,6 +2,11 @@
 # Claude-«мозг» = стратегия и проверка; Claude Code = код по этим правилам; оператор = решения, мёрджи, проверка по скриншотам.
 # Приоритет: правильность и обратимость важнее скорости. В спорном случае — выбери безопасный путь и спроси.
 
+Если репозиторий открыт внутри общего workspace Teranova, до начала работы прочитать
+`../AI_COORDINATION/00_PROTOCOL.md`, карточку активной задачи и статусы Claude/Codex.
+Без успешной локальной блокировки задачи не менять код. Ревью другого агента
+оформлять отдельным аргументированным предложением, а не молчаливой правкой.
+
 ## RU
 1. Думай до кода. Допущения проговаривай явно; при неоднозначности покажи варианты и спроси, не угадывай; непонятное/противоречие — остановись и скажи.
 2. Простота. Минимум кода под задачу, без лишних абстракций и фич, которых не просили.
@@ -55,6 +60,7 @@ and Teranova Group Ltd".
 ## Stack
 - **Astro 6** (static output) + **GSAP** + **Lenis** + **@astrojs/sitemap**. Node 22.
 - Build: `npm run build` → `dist/`. Dev: `npm run dev`. Hosted on **Cloudflare Pages** (deploys from `main`).
+- **Netlify retired:** it does not work and is not used. Do not configure, reconnect, or propose it.
 - Source in `src/` (pages / components / layouts / i18n / styles / scripts). Brand assets in `public/brand/`.
 
 ## Routing & languages
