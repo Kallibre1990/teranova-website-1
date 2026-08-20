@@ -70,5 +70,8 @@ const metaDescription =
 
 {jsonLdList.map((data) => <script is:inline type="application/ld+json" set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />)}
 
-{/* Cloudflare Web Analytics — privacy-first, cookieless; token for teranovagroup.com. */}
-<script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "3d8966ff00d34174af6da18473789f80"}'></script>
+{/* Cloudflare Web Analytics injects its own beacon at the edge (auto_install).
+    Do NOT add the script by hand: a manual tag suppresses edge injection, and the
+    hand-written config lacks the server-side fields, so the beacon reports
+    cross-origin to cloudflareinsights.com and every report is rejected.
+    That is what silently killed analytics from 2026-07-30 onwards. */}
