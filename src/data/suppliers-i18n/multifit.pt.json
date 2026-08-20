@@ -6,11 +6,11 @@
   "about": [
    "A BeiJing Multifit Electrical Technology Co., Ltd. fabrica equipamentos de limpeza para painéis solares. Sede em Pequim, fábrica em Shantou (Guangdong), filiais em Shenzhen e Sichuan. A empresa tem status nacional de alta tecnologia e atua sob a marca MULTIFIT.",
    "O problema que esse equipamento resolve se mede em dinheiro. Poeira, fezes de aves e partículas de ferrugem reduzem a geração do painel a 20–36% do nominal; após a limpeza a eficiência volta a 90–95% e cai de novo se a manutenção parar. Além da perda de geração, a sujeira é fisicamente perigosa: a área sombreada superaquece, formam-se pontos quentes, o painel degrada e pode queimar. Limpar não é cosmético — prolonga a vida da usina.",
-   "A linha se divide em duas. Robôs: a série MR-G para fileiras simples e duplas de painéis, as séries MR-T1 e MR-T2, e o carro de transporte MR-AR, que leva o robô de uma fileira a outra. As escovas MULR — do modelo manual à versão acionada por água — cobrem os pontos em que o robô é excessivo. Para cada modelo a empresa entrega um cálculo de desempenho: área limpa por hora, ritmo diário e tempo necessário para um campo de determinado tamanho."
+   "A linha se divide em duas. Robôs: a série MR-G para fileiras simples e duplas de painéis, as séries MR-T1 e MR-XY, e o carro de transporte MR-AR, que leva o robô de uma fileira a outra. As escovas MULR — do modelo manual à versão acionada por água — cobrem os pontos em que o robô é excessivo. Para cada modelo a empresa entrega um cálculo de desempenho: área limpa por hora, ritmo diário e tempo necessário para um campo de determinado tamanho."
   ],
   "facts": [
    "Empresa nacional de alta tecnologia; sede em Pequim, fábrica própria em Shantou",
-   "Robôs MR-G, MR-T1 e MR-T2 mais o carro MR-AR para deslocamento entre fileiras",
+   "Robôs MR-G, MR-T1 e MR-XY mais o carro MR-AR para deslocamento entre fileiras",
    "Linha de escovas MULR, incluindo versão acionada por água",
    "A sujeira reduz a geração do painel a 20–36%; após a limpeza a eficiência volta a 90–95%",
    "Cada modelo vem com cálculo: m² por hora, ritmo diário e tempo para um campo específico"
@@ -27,7 +27,7 @@
     "note": "A série base, em versões de fileira simples e dupla. Velocidade de deslocamento em torno de 12 m/min; capacidade e ritmo diário calculados para o campo específico."
    },
    {
-    "name": "MR-T1 / MR-T2",
+    "name": "MR-T1 / MR-XY",
     "note": "Séries de robôs para outras configurações de usina, com largura de trabalho e modo de operação distintos; escolhidos pela geometria do campo."
    },
    {
@@ -81,7 +81,7 @@
   ],
   "consentNote": "Dados e materiais fornecidos pela BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Os números de eficiência seguem os materiais da empresa. Preços e condições são confirmados na fase da negociação através da Teranova.",
   "seoTitle": "MULTIFIT — robôs de limpeza de painéis solares da China · Teranova",
-  "seoDesc": "A BeiJing Multifit é uma fabricante chinesa de robôs MR-G, MR-T1 e MR-T2 e escovas MULR para limpeza de painéis solares. Fábrica própria, capacidade calculada para o seu campo, fornecimento EXW/FOB pela Teranova.",
+  "seoDesc": "A BeiJing Multifit é uma fabricante chinesa de robôs MR-G, MR-T1 e MR-XY e escovas MULR para limpeza de painéis solares. Fábrica própria, capacidade calculada para o seu campo, fornecimento EXW/FOB pela Teranova.",
   "catalog_notes": [
    "Robô de primeira geração que percorre a fileira de painéis: corpo de alumínio, desníveis de até 20 mm, inclinações de até 8°.",
    "Segunda geração: oito rodas motrizes, corpo anticorrosão removível, bateria LFP de 4.000 ciclos; desníveis de 20 mm, inclinação de 8°, painéis de 990–2384 mm.",

@@ -23,8 +23,11 @@ export interface BlogPostContent {
   seoDesc: string;
   sections: BlogSection[];
 }
-/** Predefined internal link targets for the "related" block (language-neutral). */
-export type BlogRelated = 'catalog' | 'cosmetics' | 'sante' | 'dreamcos' | 'dongdonggurimoo' | 'ck-regeon' | 'verify' | 'faq' | 'ondemand' | 'suppliers' | 'buyers';
+/** Internal link targets for the "related" block (language-neutral): a fixed page
+    key ('catalog' | 'verify' | 'faq' | 'ondemand' | 'suppliers' | 'buyers'), any
+    category group key ('cosmetics', 'industrial', 'adjacent', …) or any published
+    supplier slug — BlogPost.astro resolves all of them from the data. */
+export type BlogRelated = string;
 export interface BlogPost {
   slug: string;
   category: 'guide' | 'overview';

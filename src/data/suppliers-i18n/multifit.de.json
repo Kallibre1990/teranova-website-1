@@ -6,11 +6,11 @@
   "about": [
    "BeiJing Multifit Electrical Technology Co., Ltd. fertigt Reinigungstechnik für Solarmodule. Hauptsitz in Peking, Werk in Shantou (Guangdong), Niederlassungen in Shenzhen und Sichuan. Das Unternehmen trägt den nationalen Hightech-Status und tritt unter der Marke MULTIFIT auf.",
    "Das Problem, das diese Technik löst, rechnet sich in Geld. Staub, Vogelkot und Rostpartikel drücken den Ertrag eines Moduls auf 20–36% des Nennwerts; nach der Reinigung kehrt der Wirkungsgrad auf 90–95% zurück und fällt erneut, wenn die Wartung ausbleibt. Neben dem Ertragsverlust ist Verschmutzung physisch gefährlich: Der verschattete Bereich überhitzt, es entstehen Hotspots, das Modul altert schneller und kann durchbrennen. Reinigung ist also keine Kosmetik, sondern verlängert die Lebensdauer der Anlage.",
-   "Das Programm teilt sich in zwei Teile. Roboter: die Serie MR-G für einfache und doppelte Modulreihen, die Serien MR-T1 und MR-T2 sowie der Transportwagen MR-AR, der den Roboter zwischen den Reihen versetzt. MULR-Bürsten — von Handmodellen bis zur wasserbetriebenen Ausführung — decken die Stellen ab, an denen ein Roboter zu viel ist. Zu jedem Modell liefert das Unternehmen eine Leistungsrechnung: Reinigungsfläche pro Stunde, Tagesleistung und Zeitbedarf für ein Feld gegebener Größe."
+   "Das Programm teilt sich in zwei Teile. Roboter: die Serie MR-G für einfache und doppelte Modulreihen, die Serien MR-T1 und MR-XY sowie der Transportwagen MR-AR, der den Roboter zwischen den Reihen versetzt. MULR-Bürsten — von Handmodellen bis zur wasserbetriebenen Ausführung — decken die Stellen ab, an denen ein Roboter zu viel ist. Zu jedem Modell liefert das Unternehmen eine Leistungsrechnung: Reinigungsfläche pro Stunde, Tagesleistung und Zeitbedarf für ein Feld gegebener Größe."
   ],
   "facts": [
    "Nationaler Hightech-Status; Hauptsitz Peking, eigenes Werk in Shantou",
-   "Roboter MR-G, MR-T1 und MR-T2 sowie der Wagen MR-AR für den Reihenwechsel",
+   "Roboter MR-G, MR-T1 und MR-XY sowie der Wagen MR-AR für den Reihenwechsel",
    "MULR-Bürstenprogramm, einschließlich einer wasserbetriebenen Ausführung",
    "Verschmutzung senkt den Modulertrag auf 20–36%; nach der Reinigung kehrt der Wirkungsgrad auf 90–95% zurück",
    "Zu jedem Modell gehört eine Rechnung: m² pro Stunde, Tagesleistung und Zeit für ein konkretes Feld"
@@ -27,7 +27,7 @@
     "note": "Die Basisserie, in Ausführungen für einfache und doppelte Reihen. Fahrgeschwindigkeit etwa 12 m/min; Leistung und Tagesleistung werden für das konkrete Feld berechnet."
    },
    {
-    "name": "MR-T1 / MR-T2",
+    "name": "MR-T1 / MR-XY",
     "note": "Roboterserien für andere Anlagenkonfigurationen, mit abweichender Arbeitsbreite und Betriebsart; die Auswahl richtet sich nach der Geometrie des Feldes."
    },
    {
@@ -81,7 +81,7 @@
   ],
   "consentNote": "Daten und Unterlagen bereitgestellt von BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Die Effizienzangaben folgen den Unterlagen des Unternehmens. Preise und Konditionen werden in der Abschlussphase über Teranova bestätigt.",
   "seoTitle": "MULTIFIT — Reinigungsroboter für Solarmodule aus China · Teranova",
-  "seoDesc": "BeiJing Multifit ist ein chinesischer Hersteller der Roboter MR-G, MR-T1 und MR-T2 sowie der MULR-Bürsten zur Solarmodulreinigung. Eigenes Werk, Leistung für Ihr Feld berechnet, Lieferung EXW/FOB über Teranova.",
+  "seoDesc": "BeiJing Multifit ist ein chinesischer Hersteller der Roboter MR-G, MR-T1 und MR-XY sowie der MULR-Bürsten zur Solarmodulreinigung. Eigenes Werk, Leistung für Ihr Feld berechnet, Lieferung EXW/FOB über Teranova.",
   "catalog_notes": [
    "Roboter der ersten Generation für die Fahrt entlang der Modulreihe: Aluminiumgehäuse, Spalten bis 20 mm, Neigungen bis 8°.",
    "Zweite Generation: acht Laufräder, abnehmbares Korrosionsschutzgehäuse, LFP-Batterie mit 4.000 Zyklen; Spalten 20 mm, Neigung 8°, Module 990–2384 mm.",

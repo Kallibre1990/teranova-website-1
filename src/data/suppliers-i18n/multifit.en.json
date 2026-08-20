@@ -6,11 +6,11 @@
   "about": [
    "BeiJing Multifit Electrical Technology Co., Ltd. manufactures cleaning equipment for solar panels. Headquarters in Beijing, plant in Shantou (Guangdong), branches in Shenzhen and Sichuan. The company holds national high-tech enterprise status and trades under the MULTIFIT name.",
    "The problem this equipment solves is measured in money. Dust, bird droppings and rust particles cut a panel's output to 20–36% of nominal; after cleaning, efficiency returns to 90–95% and falls again if maintenance stops. Beyond lost output, soiling is physically dangerous: a shaded section overheats, hot spots form, the panel degrades and can burn out. Cleaning is therefore not cosmetic — it extends the life of the plant.",
-   "The range splits in two. Robots: the MR-G series for single and double panel rows, the MR-T1 and MR-T2 series, and the MR-AR transport trolley that moves a robot between rows. MULR brushes — from hand models to a water-driven version — cover the places where a robot is overkill. For every model the company provides a performance calculation: cleaning area per hour, daily rate, and the time needed for an array of a given size."
+   "The range splits in two. Robots: the MR-G series for single and double panel rows, the MR-T1 and MR-XY series, and the MR-AR transport trolley that moves a robot between rows. MULR brushes — from hand models to a water-driven version — cover the places where a robot is overkill. For every model the company provides a performance calculation: cleaning area per hour, daily rate, and the time needed for an array of a given size."
   ],
   "facts": [
    "National high-tech enterprise; headquarters in Beijing, own plant in Shantou",
-   "MR-G, MR-T1 and MR-T2 robots plus the MR-AR trolley for moving between rows",
+   "MR-G, MR-T1 and MR-XY robots plus the MR-AR trolley for moving between rows",
    "MULR brush range, including a water-driven model",
    "Soiling cuts panel output to 20–36%; after cleaning efficiency returns to 90–95%",
    "Each model comes with a calculation: m² per hour, daily rate, and time for a given array"
@@ -27,7 +27,7 @@
     "note": "The core series, in single-row and double-row versions. Travel speed around 12 m/min; throughput and daily rate are calculated for the specific array."
    },
    {
-    "name": "MR-T1 / MR-T2",
+    "name": "MR-T1 / MR-XY",
     "note": "Robot series for other plant configurations, differing in working width and operating mode; chosen by the geometry of the array."
    },
    {
@@ -81,7 +81,7 @@
   ],
   "consentNote": "Data and materials provided by BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Efficiency figures are stated per the company's materials. Prices and terms are confirmed at the deal stage through Teranova.",
   "seoTitle": "MULTIFIT — solar panel cleaning robots from China · Teranova",
-  "seoDesc": "BeiJing Multifit is a Chinese maker of MR-G, MR-T1 and MR-T2 robots and MULR brushes for solar panel cleaning. Own plant, throughput calculated for your array, EXW/FOB supply through Teranova.",
+  "seoDesc": "BeiJing Multifit is a Chinese maker of MR-G, MR-T1 and MR-XY robots and MULR brushes for solar panel cleaning. Own plant, throughput calculated for your array, EXW/FOB supply through Teranova.",
   "catalog_notes": [
    "First-generation robot travelling along the panel row: aluminium body, gaps up to 20 mm, slopes up to 8°.",
    "Second generation: eight running wheels, removable anti-corrosion body, LFP battery rated for 4,000 cycles; 20 mm gaps, slopes up to 8°, panels 990–2384 mm.",

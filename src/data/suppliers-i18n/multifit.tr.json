@@ -6,11 +6,11 @@
   "about": [
    "BeiJing Multifit Electrical Technology Co., Ltd. güneş paneli temizleme ekipmanları üretir. Merkezi Pekin'de, fabrikası Guangdong'un Shantou kentinde; Shenzhen ve Sichuan'da şubeleri var. Şirket ulusal yüksek teknoloji işletmesi statüsüne sahiptir ve MULTIFIT markasıyla çalışır.",
    "Bu ekipmanın çözdüğü sorun parayla ölçülür. Toz, kuş dışkısı ve pas parçacıkları panelin üretimini nominalin %20–36'sına düşürür; temizlikten sonra verim %90–95'e döner ve bakım durursa yeniden geriler. Üretim kaybının ötesinde kirlenme fiziksel olarak da tehlikelidir: gölgelenen bölge aşırı ısınır, sıcak noktalar oluşur, panel bozulur ve yanabilir. Yani temizlik makyaj değil, santralin ömrünü uzatan bir iştir.",
-   "Ürün grubu ikiye ayrılır. Robotlar: tek ve çift sıra paneller için MR-G serisi, MR-T1 ve MR-T2 serileri ve robotu sıralar arasında taşıyan MR-AR arabası. MULR fırçaları — elle kullanılan modellerden su tahrikli sürüme kadar — robotun fazla geleceği noktaları kapatır. Şirket her model için performans hesabı verir: saatte temizlenen alan, günlük kapasite ve belirli büyüklükteki bir dizi için gereken süre."
+   "Ürün grubu ikiye ayrılır. Robotlar: tek ve çift sıra paneller için MR-G serisi, MR-T1 ve MR-XY serileri ve robotu sıralar arasında taşıyan MR-AR arabası. MULR fırçaları — elle kullanılan modellerden su tahrikli sürüme kadar — robotun fazla geleceği noktaları kapatır. Şirket her model için performans hesabı verir: saatte temizlenen alan, günlük kapasite ve belirli büyüklükteki bir dizi için gereken süre."
   ],
   "facts": [
    "Ulusal yüksek teknoloji işletmesi; merkez Pekin, Shantou'da kendi fabrikası",
-   "MR-G, MR-T1 ve MR-T2 robotları ile sıralar arası taşıma için MR-AR arabası",
+   "MR-G, MR-T1 ve MR-XY robotları ile sıralar arası taşıma için MR-AR arabası",
    "Su tahrikli model dâhil MULR fırça serisi",
    "Kirlenme panel üretimini %20–36'ya düşürür; temizlikten sonra verim %90–95'e döner",
    "Her model kendi hesabıyla gelir: saatte m², günlük kapasite, belirli dizi için süre"
@@ -27,7 +27,7 @@
     "note": "Tek sıra ve çift sıra sürümleriyle temel seri. İlerleme hızı yaklaşık 12 m/dak; kapasite ve günlük iş miktarı somut diziye göre hesaplanır."
    },
    {
-    "name": "MR-T1 / MR-T2",
+    "name": "MR-T1 / MR-XY",
     "note": "Farklı santral yapıları için robot serileri. Çalışma genişliği ve çalışma biçimi farklıdır; dizinin geometrisine göre seçilir."
    },
    {
@@ -81,7 +81,7 @@
   ],
   "consentNote": "Veriler ve materyaller BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT) tarafından sağlanmıştır. Verim rakamları şirketin materyallerine göre aktarılmıştır. Fiyat ve koşullar Teranova üzerinden anlaşma aşamasında teyit edilir.",
   "seoTitle": "MULTIFIT — Çin'den güneş paneli temizleme robotları · Teranova",
-  "seoDesc": "BeiJing Multifit, güneş paneli temizliği için MR-G, MR-T1, MR-T2 robotları ve MULR fırçaları üreten Çinli firmadır. Kendi fabrikası, dizinize göre hesaplanan kapasite, Teranova üzerinden EXW/FOB tedarik.",
+  "seoDesc": "BeiJing Multifit, güneş paneli temizliği için MR-G, MR-T1, MR-XY robotları ve MULR fırçaları üreten Çinli firmadır. Kendi fabrikası, dizinize göre hesaplanan kapasite, Teranova üzerinden EXW/FOB tedarik.",
   "catalog_notes": [
    "Panel sırası boyunca ilerleyen birinci nesil robot: alüminyum gövde, 20 mm'ye kadar boşluk, 8°'ye kadar eğim.",
    "İkinci nesil: sekiz yürüyüş tekeri, sökülebilir korozyon korumalı gövde, 4.000 çevrimlik LFP batarya; 20 mm boşluk, 8° eğim, 990–2384 mm panel.",

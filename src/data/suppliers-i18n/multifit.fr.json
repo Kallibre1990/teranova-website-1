@@ -6,11 +6,11 @@
   "about": [
    "BeiJing Multifit Electrical Technology Co., Ltd. fabrique des équipements de nettoyage pour panneaux solaires. Siège à Pékin, usine à Shantou (Guangdong), filiales à Shenzhen et au Sichuan. L'entreprise détient le statut national de haute technologie et opère sous la marque MULTIFIT.",
    "Le problème que règle cet équipement se mesure en argent. Poussière, fientes d'oiseaux et particules de rouille ramènent la production d'un panneau à 20–36 % du nominal ; après nettoyage, le rendement revient à 90–95 % et redescend si l'entretien s'arrête. Au-delà de la production perdue, l'encrassement est dangereux physiquement : la zone ombrée surchauffe, des points chauds apparaissent, le panneau se dégrade et peut brûler. Nettoyer n'est donc pas cosmétique : cela prolonge la vie de la centrale.",
-   "La gamme se divise en deux. Robots : la série MR-G pour rangées simples et doubles, les séries MR-T1 et MR-T2, et le chariot de transport MR-AR qui déplace le robot d'une rangée à l'autre. Les brosses MULR — du modèle manuel à la version entraînée par l'eau — couvrent les endroits où le robot est de trop. Pour chaque modèle, l'entreprise fournit un calcul de rendement : surface nettoyée par heure, cadence journalière et temps nécessaire pour un champ de taille donnée."
+   "La gamme se divise en deux. Robots : la série MR-G pour rangées simples et doubles, les séries MR-T1 et MR-XY, et le chariot de transport MR-AR qui déplace le robot d'une rangée à l'autre. Les brosses MULR — du modèle manuel à la version entraînée par l'eau — couvrent les endroits où le robot est de trop. Pour chaque modèle, l'entreprise fournit un calcul de rendement : surface nettoyée par heure, cadence journalière et temps nécessaire pour un champ de taille donnée."
   ],
   "facts": [
    "Statut national de haute technologie ; siège à Pékin, usine en propre à Shantou",
-   "Robots MR-G, MR-T1 et MR-T2, plus le chariot MR-AR pour passer d'une rangée à l'autre",
+   "Robots MR-G, MR-T1 et MR-XY, plus le chariot MR-AR pour passer d'une rangée à l'autre",
    "Gamme de brosses MULR, dont une version entraînée par l'eau",
    "L'encrassement ramène la production du panneau à 20–36 % ; après nettoyage le rendement revient à 90–95 %",
    "Chaque modèle est livré avec son calcul : m² par heure, cadence journalière, temps pour un champ donné"
@@ -27,7 +27,7 @@
     "note": "La série de base, en versions rangée simple et rangée double. Vitesse de déplacement d'environ 12 m/min ; débit et cadence journalière calculés pour le champ concerné."
    },
    {
-    "name": "MR-T1 / MR-T2",
+    "name": "MR-T1 / MR-XY",
     "note": "Séries de robots pour d'autres configurations de centrale, avec largeur de travail et mode de fonctionnement différents ; le choix suit la géométrie du champ."
    },
    {
@@ -81,7 +81,7 @@
   ],
   "consentNote": "Données et documents fournis par BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Les chiffres de rendement sont repris des documents de l'entreprise. Prix et conditions se confirment au stade de la transaction via Teranova.",
   "seoTitle": "MULTIFIT — robots de nettoyage de panneaux solaires depuis la Chine · Teranova",
-  "seoDesc": "BeiJing Multifit est un fabricant chinois de robots MR-G, MR-T1 et MR-T2 et de brosses MULR pour le nettoyage de panneaux solaires. Usine en propre, débit calculé pour votre champ, fourniture EXW/FOB via Teranova.",
+  "seoDesc": "BeiJing Multifit est un fabricant chinois de robots MR-G, MR-T1 et MR-XY et de brosses MULR pour le nettoyage de panneaux solaires. Usine en propre, débit calculé pour votre champ, fourniture EXW/FOB via Teranova.",
   "catalog_notes": [
    "Robot de première génération circulant le long de la rangée : corps en aluminium, écarts jusqu'à 20 mm, pentes jusqu'à 8°.",
    "Deuxième génération : huit roues motrices, corps anticorrosion amovible, batterie LFP de 4 000 cycles ; écarts 20 mm, pente 8°, panneaux 990–2384 mm.",

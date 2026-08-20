@@ -89,6 +89,10 @@ const SUPPLIERS = {
   icelmedi: { eyebrow: 'Supplier profile', title: 'iCELmedi — cellmedics cosmeceuticals & KERASON devices', accent: '#17788f' },
   'three-days-love': { eyebrow: 'Supplier profile', title: 'THREE DAYS LOVE — K-beauty cosmeceuticals · SPICUS® & EXOMERE', accent: '#e0562e' },
   licorne: { eyebrow: 'Supplier profile', title: 'LICORNE by Limetree — Korean vegan skincare for sensitive skin', accent: '#4e9c6b' },
+  cubecap: { eyebrow: 'Supplier profile', title: 'COCAPS by CUBE CAP — Korean single-dose cosmetic capsules', accent: '#1f7ec4' },
+  doobom: { eyebrow: 'Supplier profile', title: 'DOOBOM — Korean professional aesthetic skincare & device programs', accent: '#2f9c8a' },
+  cocospack: { eyebrow: 'Supplier profile', title: 'COCOSPACK — Korean cosmetic packaging (full in-house cycle)', accent: '#2d2da8' },
+  multifit: { eyebrow: 'Supplier profile', title: 'MULTIFIT — pipe-cutting robots & industrial brushes', accent: '#f2b21c' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

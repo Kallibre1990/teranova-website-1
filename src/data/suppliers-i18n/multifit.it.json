@@ -6,11 +6,11 @@
   "about": [
    "BeiJing Multifit Electrical Technology Co., Ltd. produce attrezzature per la pulizia di pannelli solari. Sede a Pechino, stabilimento a Shantou (Guangdong), filiali a Shenzhen e nel Sichuan. L'azienda ha lo status nazionale di impresa hi-tech e opera con il marchio MULTIFIT.",
    "Il problema che questa attrezzatura risolve si misura in denaro. Polvere, guano e particelle di ruggine riducono la resa del pannello al 20–36% del nominale; dopo la pulizia l'efficienza torna al 90–95% e scende di nuovo se la manutenzione si ferma. Oltre alla produzione persa, lo sporco è pericoloso fisicamente: la zona in ombra si surriscalda, si formano punti caldi, il pannello si degrada e può bruciare. Pulire non è estetica: allunga la vita dell'impianto.",
-   "La gamma si divide in due. Robot: la serie MR-G per file singole e doppie di pannelli, le serie MR-T1 e MR-T2 e il carrello di trasporto MR-AR, che sposta il robot da una fila all'altra. Le spazzole MULR — dai modelli manuali alla versione azionata ad acqua — coprono i punti in cui il robot è eccessivo. Per ogni modello l'azienda fornisce un calcolo di resa: superficie pulita all'ora, ritmo giornaliero e tempo necessario per un campo di dimensioni date."
+   "La gamma si divide in due. Robot: la serie MR-G per file singole e doppie di pannelli, le serie MR-T1 e MR-XY e il carrello di trasporto MR-AR, che sposta il robot da una fila all'altra. Le spazzole MULR — dai modelli manuali alla versione azionata ad acqua — coprono i punti in cui il robot è eccessivo. Per ogni modello l'azienda fornisce un calcolo di resa: superficie pulita all'ora, ritmo giornaliero e tempo necessario per un campo di dimensioni date."
   ],
   "facts": [
    "Impresa nazionale hi-tech; sede a Pechino, stabilimento di proprietà a Shantou",
-   "Robot MR-G, MR-T1 e MR-T2 più il carrello MR-AR per lo spostamento tra le file",
+   "Robot MR-G, MR-T1 e MR-XY più il carrello MR-AR per lo spostamento tra le file",
    "Gamma di spazzole MULR, inclusa una versione azionata ad acqua",
    "Lo sporco porta la resa del pannello al 20–36%; dopo la pulizia l'efficienza torna al 90–95%",
    "Ogni modello arriva con il proprio calcolo: m² all'ora, ritmo giornaliero, tempo per un campo dato"
@@ -27,7 +27,7 @@
     "note": "La serie base, in versione a fila singola e doppia. Velocità di avanzamento intorno ai 12 m/min; resa e ritmo giornaliero si calcolano sul campo concreto."
    },
    {
-    "name": "MR-T1 / MR-T2",
+    "name": "MR-T1 / MR-XY",
     "note": "Serie di robot per altre configurazioni di impianto, con larghezza di lavoro e modo operativo diversi; si scelgono in base alla geometria del campo."
    },
    {
@@ -81,7 +81,7 @@
   ],
   "consentNote": "Dati e materiali forniti da BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). I valori di efficienza sono riportati secondo i materiali dell'azienda. Prezzi e condizioni si confermano in fase di trattativa tramite Teranova.",
   "seoTitle": "MULTIFIT — robot per la pulizia di pannelli solari dalla Cina · Teranova",
-  "seoDesc": "BeiJing Multifit è un produttore cinese di robot MR-G, MR-T1 e MR-T2 e spazzole MULR per la pulizia di pannelli solari. Stabilimento proprio, resa calcolata sul vostro campo, fornitura EXW/FOB tramite Teranova.",
+  "seoDesc": "BeiJing Multifit è un produttore cinese di robot MR-G, MR-T1 e MR-XY e spazzole MULR per la pulizia di pannelli solari. Stabilimento proprio, resa calcolata sul vostro campo, fornitura EXW/FOB tramite Teranova.",
   "catalog_notes": [
    "Robot di prima generazione che percorre la fila di pannelli: corpo in alluminio, dislivelli fino a 20 mm, pendenze fino a 8°.",
    "Seconda generazione: otto ruote motrici, corpo anticorrosione rimovibile, batteria LFP da 4.000 cicli; dislivelli 20 mm, pendenze 8°, pannelli 990–2384 mm.",

@@ -4,7 +4,7 @@
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { postContent, type BlogPost } from '../../data/blog';
-import { supplierBySlug } from '../../data/suppliers';
+import { supplierBySlug, suppliers } from '../../data/suppliers';
 import BlogHeroArt from '../visual/BlogHeroArt.astro';
 import BrandCover from '../visual/BrandCover.astro';
 import { coverPlan } from '../../data/cutouts';
@@ -44,6 +44,19 @@ const REL: Record<string, { href: string; label: string }> = {
   suppliers: { href: localizePath('/suppliers', lang), label: t.nav.suppliers },
   buyers: { href: localizePath('/buyers', lang), label: t.nav.buyers },
 };
+/* Category groups beyond cosmetics resolve the same way (industrial, adjacent, …). */
+for (const g of ((t as any).categories?.groups ?? []) as { key: string; name: string }[]) {
+  if (!REL[g.key]) REL[g.key] = { href: localizePath(`/catalog/${g.key}`, lang), label: g.name };
+}
+/* Every published supplier is a valid related target; labels come from the data,
+   so new profiles never silently drop out of the related list again. */
+for (const s of suppliers) {
+  if (!REL[s.slug])
+    REL[s.slug] = {
+      href: localizePath(`/catalog/${s.slug}`, lang),
+      label: s.brand && s.brand !== s.name ? `${s.name} · ${s.brand}` : s.name,
+    };
+}
 const rels = post.related.map((r) => REL[r]).filter(Boolean);
 const catLabel = post.category === 'guide' ? p.cat_guide : p.cat_overview;
 ---
