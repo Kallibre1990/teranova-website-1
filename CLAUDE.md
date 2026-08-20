@@ -60,6 +60,7 @@ and Teranova Group Ltd".
 ## Stack
 - **Astro 6** (static output) + **GSAP** + **Lenis** + **@astrojs/sitemap**. Node 22.
 - Build: `npm run build` → `dist/`. Dev: `npm run dev`. Hosted on **Cloudflare Pages** (deploys from `main`).
+- **Netlify retired:** it does not work and is not used. Do not configure, reconnect, or propose it.
 - Source in `src/` (pages / components / layouts / i18n / styles / scripts). Brand assets in `public/brand/`.
 
 ## Routing & languages
