@@ -149,7 +149,13 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 12px); }
   font-size: 0.94rem; font-weight: 700; letter-spacing: 0.005em;
   padding: 14px 26px; border: 1px solid transparent; border-radius: var(--r);
   transition: background .2s var(--ease), transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s var(--ease);
-  white-space: nowrap;
+  white-space: nowrap; max-width: 100%;
+}
+/* На самых узких экранах длинная надпись переносится внутри кнопки, а не уезжает
+   за правый край: «Связаться через Teranova» на 320 точках не помещалась в строку. */
+@media (max-width: 400px) {
+  .btn { white-space: normal; text-align: center; }
+  .btn--lg { padding: 15px 22px; }
 }
 .btn svg { width: 1.05em; height: 1.05em; }
 .btn--primary { background: var(--cobalt); color: #fff; box-shadow: 0 10px 24px -8px rgba(37, 99, 212, 0.6); }
