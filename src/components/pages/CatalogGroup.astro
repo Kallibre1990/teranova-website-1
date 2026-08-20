@@ -24,8 +24,15 @@ const headSup = isCosmetics ? t.pages.cosmetics.intro_sup : t.categories.sup;
 const headTitle = isCosmetics ? t.pages.cosmetics.intro_title : group.name;
 const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 
-const suppliers = demoSuppliers[groupKey] ?? [];
 const realForCat = realSuppliers.filter((s) => s.category === groupKey);
+/* Решение Антона 20.08.2026: демонстрационные карточки живут в группе только
+   пока она пустая. Как только в направлении набирается три настоящих
+   поставщика, выдуманные компании рядом с ними уже не заполняют витрину, а
+   подрывают доверие покупателя — и группа переходит на реальные карточки сама,
+   без правки кода. */
+const DEMO_HIDE_AT = 3;
+const showDemo = realForCat.length < DEMO_HIDE_AT;
+const suppliers = showDemo ? demoSuppliers[groupKey] ?? [] : [];
 /* Страна производства — меткой на карточке. Каталог общий: корейские и
    китайские поставщики лежат в одних категориях, страна их различает. */
 const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳' };
@@ -81,7 +88,7 @@ const statusInfo = {
 
     <div class="group__head">
       <h2 class="lvl" style="margin:0">{g.products_title}</h2>
-      {!isCosmetics && <span class="badge badge--provided">{g.demo_badge}</span>}
+      {showDemo && <span class="badge badge--provided">{g.demo_badge}</span>}
     </div>
     <div class="prod-grid">
       {
