@@ -9,7 +9,7 @@
    сами. Заглавные буквы к названиям брендов не применяем — турецкая локаль
    ломает на них i → İ (LICORNE → LİCORNE). */
 
-const esc = (s) =>
+export const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 /* Затемнить/осветлить фирменный цвет — из него строим фон обложки. */
@@ -19,13 +19,13 @@ function shade(hex, f) {
   return '#' + c.map((x) => x.toString(16).padStart(2, '0')).join('');
 }
 
-const chips = (arr, cls = 'chip') =>
+export const chips = (arr, cls = 'chip') =>
   (arr || []).map((t) => `<span class="${cls}">${esc(t)}</span>`).join('');
 
 /* Мотив обложки в манере самого бренда — тот же язык форм, что и на его странице
    сайта (см. voice в src/data/suppliers.ts и BrandField.astro). Рисуется поверх
    фирменного градиента, поэтому дек узнаётся как принадлежащий этому бренду. */
-function coverArt(voice, sky, accent) {
+export function coverArt(voice, sky, accent) {
   const g = (inner) =>
     `<svg class="cover__art" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">${inner}</svg>`;
   switch (voice) {
@@ -68,7 +68,7 @@ function coverArt(voice, sky, accent) {
   }
 }
 
-function deckCSS(C, voice) {
+export function deckCSS(C, voice) {
   const deep = C.deep || '#12306e';
   const sky = C.sky || '#4ca6fc';
   const bg = C.bg || '#f4f7fb';
