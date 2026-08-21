@@ -5,7 +5,7 @@
    {
     "name": "Active Cleansing Soother",
     "img": "/img/suppliers/sante/products/active-cleansing-soother-500ml.png",
-    "volume": "500 ml",
+    "volume": "200 / 500 ml",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -13,9 +13,9 @@
     ]
    },
    {
-    "name": "Azulene Soother Gel",
-    "img": "/img/suppliers/sante/products/azulene-soother-gel-500ml.png",
-    "volume": "500 ml",
+    "name": "Azulene Soother Cleansing Milk",
+    "img": "/img/suppliers/sante/products/azulene-soother-cleansing-milk-500ml.png",
+    "volume": "200 / 500 ml",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -25,7 +25,7 @@
    {
     "name": "Azulene Soother Toner",
     "img": "/img/suppliers/sante/products/azulene-soother-toner-500ml.png",
-    "volume": "500 ml",
+    "volume": "200 / 500 ml",
     "certs": [
      "CPNP",
      "MoCRA",
@@ -35,51 +35,12 @@
     ]
    },
    {
-    "name": "Azulene Soother Cleansing Milk",
-    "img": "/img/suppliers/sante/products/azulene-soother-cleansing-milk-500ml.png",
-    "volume": "500 ml",
+    "name": "Azulene Soother Gel",
+    "img": "/img/suppliers/sante/products/azulene-soother-gel-500ml.png",
+    "volume": "200 / 500 ml",
     "certs": [
      "CPNP",
      "MoCRA",
-     "DAV"
-    ]
-   },
-   {
-    "name": "Azulene Soother Lotion",
-    "img": "/img/suppliers/sante/products/azulene-soother-lotion-500ml.png",
-    "volume": "500 ml",
-    "certs": [
-     "CPNP",
-     "MoCRA",
-     "DAV"
-    ]
-   },
-   {
-    "name": "Azulene Soother Sun Essence",
-    "img": "/img/suppliers/sante/products/azulene-soother-sun-essence-75g.png",
-    "volume": "75 g",
-    "certs": [
-     "CPNP"
-    ]
-   },
-   {
-    "name": "Azulene Soother Cream Mask",
-    "img": "/img/suppliers/sante/products/azulene-soother-cream-mask-150g.png",
-    "volume": "150 g",
-    "certs": [
-     "CPNP",
-     "MoCRA"
-    ]
-   },
-   {
-    "name": "Azulene Soother Cream",
-    "img": "/img/suppliers/sante/products/azulene-soother-cream-150g.png",
-    "volume": "150 g",
-    "certs": [
-     "CPNP",
-     "MoCRA",
-     "NMPA",
-     "HALAL",
      "DAV"
     ]
    },
@@ -92,33 +53,46 @@
     ]
    },
    {
-    "name": "Azulene Soother Mask",
-    "img": "/img/suppliers/sante/products/azulene-soother-mask-10ea.png",
-    "volume": "33 g × 10",
+    "name": "Azulene Soother Lotion",
+    "img": "/img/suppliers/sante/products/azulene-soother-lotion-500ml.png",
+    "volume": "200 / 500 ml",
     "certs": [
      "CPNP",
      "MoCRA",
-     "SCPN",
-     "NMPA",
      "DAV"
     ]
    },
    {
-    "name": "Azulene Soother Modeling Pack",
-    "img": "/img/suppliers/sante/products/azulene-soother-modeling-pack.png",
-    "volume": "8 g × 10 + 80 g",
-    "certs": []
-   },
-   {
     "name": "Azulene Soother Ampoule",
     "img": "/img/suppliers/sante/products/azulene-soother-ampoule-100ml.png",
-    "volume": "100 ml",
+    "volume": "50 / 100 ml",
     "certs": [
      "CPNP",
      "MoCRA",
      "NMPA",
      "HALAL",
      "DAV"
+    ]
+   },
+   {
+    "name": "Azulene Soother Cream",
+    "img": "/img/suppliers/sante/products/azulene-soother-cream-150g.png",
+    "volume": "50 / 150 g",
+    "certs": [
+     "CPNP",
+     "MoCRA",
+     "NMPA",
+     "HALAL",
+     "DAV"
+    ]
+   },
+   {
+    "name": "Azulene Soother Cream Mask",
+    "img": "/img/suppliers/sante/products/azulene-soother-cream-mask-150g.png",
+    "volume": "50 / 150 g",
+    "certs": [
+     "CPNP",
+     "MoCRA"
     ]
    },
    {
@@ -133,6 +107,31 @@
     ]
    },
    {
+    "name": "Azulene Soother Mask",
+    "img": "/img/suppliers/sante/products/azulene-soother-mask-10ea.png",
+    "volume": "33 g × 10",
+    "certs": [
+     "CPNP",
+     "MoCRA",
+     "NMPA",
+     "SCPN",
+     "DAV"
+    ]
+   },
+   {
+    "name": "Azulene Soother Semi-Gel Mask",
+    "img": "/img/suppliers/sante/products/azulene-soother-semi-gel-mask.png",
+    "volume": "33 g × 10",
+    "certs": [
+     "SCPN"
+    ]
+   },
+   {
+    "name": "Azulene Soother Modeling Pack",
+    "img": "/img/suppliers/sante/products/azulene-soother-modeling-pack.png",
+    "volume": "8 g × 10 + 80 g"
+   },
+   {
     "name": "Azulene Soother Mist",
     "img": "/img/suppliers/sante/products/azulene-soother-mist-100ml.png",
     "volume": "100 ml",
@@ -144,16 +143,43 @@
     ]
    },
    {
+    "name": "Azulene Soother Sun Essence",
+    "img": "/img/suppliers/sante/products/azulene-soother-sun-essence-75g.png",
+    "volume": "75 g",
+    "certs": [
+     "CPNP"
+    ]
+   },
+   {
+    "name": "Azulene Soother BB Cushion",
+    "img": "/img/suppliers/sante/products/azulene-soother-bb-cushion.png",
+    "volume": "15 g + refill 15 g",
+    "certs": [
+     "CPNP"
+    ]
+   },
+   {
+    "name": "Azulene Soother BB Cream",
+    "img": "/img/suppliers/sante/products/azulene-soother-bb-cream.png",
+    "volume": "35 g"
+   },
+   {
+    "name": "Azulene Soother Massage Cream",
+    "img": "/img/suppliers/sante/products/azulene-soother-massage-cream.png",
+    "volume": "1 000 ml",
+    "certs": [
+     "CPNP"
+    ]
+   },
+   {
     "name": "Soother Semi-Gel Toner Pad",
     "img": "/img/suppliers/sante/products/soother-semi-gel-toner-pad.png",
-    "volume": "80 sheets",
-    "certs": []
+    "volume": "80 pads"
    },
    {
     "name": "Soother Semi-Gel Toner Pad Refill",
     "img": "/img/suppliers/sante/products/soother-semi-gel-toner-pad-refill.png",
-    "volume": "500 sheets",
-    "certs": []
+    "volume": "500 pads"
    }
   ]
  },
@@ -163,7 +189,27 @@
    {
     "name": "Artemisia AKA Toner",
     "img": "/img/suppliers/sante/products/artemisia-aka-toner-500ml.png",
-    "volume": "500 ml",
+    "volume": "200 / 500 ml",
+    "certs": [
+     "CPNP",
+     "MoCRA",
+     "HALAL",
+     "DAV"
+    ]
+   },
+   {
+    "name": "Artemisia AKA Ampoule",
+    "img": "/img/suppliers/sante/products/artemisia-aka-ampoule.png",
+    "volume": "50 / 100 ml",
+    "certs": [
+     "CPNP",
+     "MoCRA"
+    ]
+   },
+   {
+    "name": "Artemisia AKA Cream",
+    "img": "/img/suppliers/sante/products/artemisia-aka-cream.png",
+    "volume": "50 / 150 g",
     "certs": [
      "CPNP",
      "MoCRA"
@@ -184,8 +230,70 @@
    {
     "name": "AKA Toner Gauze Pad",
     "img": "/img/suppliers/sante/products/aka-toner-gauze-pad.png",
-    "volume": "200 sheets",
-    "certs": []
+    "volume": "200 pads"
+   },
+   {
+    "name": "Artemisia AKA BB Cream",
+    "img": "/img/suppliers/sante/products/artemisia-aka-bb-cream.png",
+    "volume": "35 g"
+   }
+  ]
+ },
+ {
+  "line": "Collagen Leader",
+  "items": [
+   {
+    "name": "Collagen Leader Toner",
+    "img": "/img/suppliers/sante/products/collagen-leader-toner.png",
+    "volume": "100 / 200 / 500 ml",
+    "certs": [
+     "CPNP"
+    ]
+   },
+   {
+    "name": "Collagen Leader Ampoule",
+    "img": "/img/suppliers/sante/products/collagen-leader-ampoule.png",
+    "volume": "100 ml",
+    "certs": [
+     "MoCRA"
+    ]
+   },
+   {
+    "name": "Collagen Leader Cream",
+    "img": "/img/suppliers/sante/products/collagen-leader-cream.png",
+    "volume": "150 g",
+    "certs": [
+     "MoCRA"
+    ]
+   },
+   {
+    "name": "Collagen Leader Mask",
+    "img": "/img/suppliers/sante/products/collagen-leader-mask.png",
+    "volume": "10 sheets",
+    "certs": [
+     "CPNP",
+     "MoCRA",
+     "SCPN"
+    ]
+   }
+  ]
+ },
+ {
+  "line": "Hyalquad Core",
+  "items": [
+   {
+    "name": "Hyalquad Core Ampoule",
+    "img": "/img/suppliers/sante/products/hyalquad-core-ampoule.png",
+    "volume": "100 ml",
+    "certs": [
+     "CPNP",
+     "MoCRA"
+    ]
+   },
+   {
+    "name": "Hyalquad Core Cream",
+    "img": "/img/suppliers/sante/products/hyalquad-core-cream.png",
+    "volume": "50 / 200 g"
    }
   ]
  },
@@ -195,14 +303,37 @@
    {
     "name": "Elsol Boosting Oil (Jojoba)",
     "img": "/img/suppliers/sante/products/elsol-jojoba-oil-500ml.png",
-    "volume": "500 ml",
-    "certs": []
+    "volume": "500 ml"
    },
    {
     "name": "Elsol Boosting Oil (Jojoba)",
     "img": "/img/suppliers/sante/products/elsol-jojoba-oil-50ml.png",
-    "volume": "50 ml",
-    "certs": []
+    "volume": "50 ml"
+   }
+  ]
+ },
+ {
+  "line": "Hair Care",
+  "items": [
+   {
+    "name": "Azulene Soother Shampoo",
+    "img": "/img/suppliers/sante/products/azulene-soother-shampoo.png",
+    "volume": "500 ml · stick 5 ml × 10"
+   },
+   {
+    "name": "Azulene Soother Treatment",
+    "img": "/img/suppliers/sante/products/azulene-soother-treatment.png",
+    "volume": "500 ml · stick 5 ml × 10"
+   }
+  ]
+ },
+ {
+  "line": "Perfume Hand Cream",
+  "items": [
+   {
+    "name": "Dr.SANTE Perfume Hand Cream",
+    "img": "/img/suppliers/sante/products/perfume-hand-cream.png",
+    "volume": "55 ml"
    }
   ]
  }
