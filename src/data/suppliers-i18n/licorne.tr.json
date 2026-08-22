@@ -98,7 +98,19 @@
    },
    {
     "label": "Ödeme ve teslim süresi",
-    "value": "Anlaşma aşamasında sözleşmede nihai hale getirilir"
+    "value": "Ödeme koşulları sözleşmede belirlenir. Şirketin beyanına göre özelleştirilmiş bir parti, tüm ayrıntılar netleştikten sonra en az iki ay sürer."
+   },
+   {
+    "label": "Private label",
+    "value": "Şirketin beyanına göre alıcının kendi markasıyla üretim mümkündür. Bu durumda ürün kaydı marka sahibinde, yani alıcıda kalır."
+   },
+   {
+    "label": "Formül değişikliği ve kayıtlar",
+    "value": "İhracat için formül değişirse yeniden kayıt marka sahibine düşer: LICORNE ürünlerinde şirket, private label ürünlerde alıcı yürütür."
+   },
+   {
+    "label": "Tanıtım materyalleri",
+    "value": "Şirket on sekiz uluslararası içerik üreticisinin incelemelerini iletti ve ikincil kullanım haklarının alındığını teyit etti. Liste, işlem aşamasında alıcıya verilir."
    }
   ],
   "consentNote": "Veriler ve materyaller Limetree Co., Ltd. (LICORNE, iletişim Mi Hyeon Oh) tarafından sağlanmış ve Teranova platformunda sunulmak üzere şirketin onayıyla yayımlanmıştır (Ağustos 2026). Vegan sertifikası, CGMP / ISO 22716 üretimi ve pazar tescilleri hakkındaki bilgiler şirket tarafından beyan edilmiş olup anlaşma aşamasında belgeyle doğrulanmaya tabidir; pazar bazında tescil durumu değişebilir ve bazı tesciller sürüyor olabilir. Ürünler, tıbbi cihaz veya ilaç olarak değil, topikal kullanım için kozmetik olarak konumlandırılmaktadır.",

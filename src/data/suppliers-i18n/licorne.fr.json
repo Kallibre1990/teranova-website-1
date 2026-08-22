@@ -98,7 +98,19 @@
    },
    {
     "label": "Paiement et délai",
-    "value": "Finalisés dans le contrat au stade de la transaction"
+    "value": "Le paiement est fixé dans le contrat. Selon l'entreprise, un lot personnalisé demande au minimum deux mois à compter du moment où tous les détails sont arrêtés."
+   },
+   {
+    "label": "Marque de distributeur",
+    "value": "Selon l'entreprise, la fabrication sous la marque propre de l'acheteur est possible. L'enregistrement du produit reste alors au titulaire de la marque, c'est-à-dire à l'acheteur."
+   },
+   {
+    "label": "Formule modifiée et enregistrements",
+    "value": "Si la formule est modifiée pour l'export, le réenregistrement revient au titulaire de la marque : pour les produits LICORNE l'entreprise s'en charge, pour la marque de distributeur c'est l'acheteur."
+   },
+   {
+    "label": "Supports de promotion",
+    "value": "L'entreprise a transmis les avis de dix-huit créateurs internationaux et confirmé détenir les droits de réutilisation. La liste est remise à l'acheteur au stade de la transaction."
    }
   ],
   "consentNote": "Les données et les documents sont fournis par Limetree Co., Ltd. (LICORNE, contact Mi Hyeon Oh) et publiés avec le consentement de la société pour une présentation sur la plateforme Teranova (août 2026). Les informations relatives à la certification vegan, à la fabrication CGMP / ISO 22716 et aux enregistrements sur les marchés sont déclarées par la société et sont soumises à confirmation documentaire au stade de la transaction ; le statut d'enregistrement par marché peut varier et certains enregistrements peuvent être en cours. Les produits sont positionnés comme des cosmétiques à usage topique, non comme des dispositifs médicaux ou des médicaments.",

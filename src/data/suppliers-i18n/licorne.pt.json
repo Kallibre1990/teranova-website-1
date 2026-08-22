@@ -98,7 +98,19 @@
    },
    {
     "label": "Pagamento e prazo de entrega",
-    "value": "Finalizados no contrato na etapa do negócio"
+    "value": "O pagamento é definido no contrato. Segundo a empresa, um lote personalizado leva no mínimo dois meses a partir do momento em que todos os detalhes são acertados."
+   },
+   {
+    "label": "Marca própria",
+    "value": "Segundo a empresa, é possível produzir sob a marca própria do comprador. Nesse caso, o registro do produto permanece com o titular da marca, ou seja, com o comprador."
+   },
+   {
+    "label": "Fórmula alterada e registros",
+    "value": "Se a fórmula for alterada para exportação, o novo registro cabe ao titular da marca: nos produtos LICORNE a empresa cuida disso; na marca própria, o comprador."
+   },
+   {
+    "label": "Materiais de divulgação",
+    "value": "A empresa forneceu avaliações de dezoito criadores internacionais e confirmou possuir os direitos de uso secundário. A lista é entregue ao comprador na fase da negociação."
    }
   ],
   "consentNote": "Os dados e materiais são fornecidos pela Limetree Co., Ltd. (LICORNE, contato Mi Hyeon Oh) e publicados com o consentimento da empresa para apresentação na plataforma Teranova (agosto de 2026). As informações sobre a certificação vegana, a fabricação sob CGMP / ISO 22716 e os registros de mercado são declaradas pela empresa e estão sujeitas a confirmação documental na etapa do negócio; o status de registro por mercado pode variar e alguns registros podem estar em andamento. Os produtos são posicionados como cosméticos para uso tópico, não como dispositivos médicos ou medicamentos.",
