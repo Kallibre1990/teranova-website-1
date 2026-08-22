@@ -247,7 +247,7 @@ export function companyDeckHTML(T, shotDataUri) {
   P.push(page(T.shot_lbl, T.shot_h,
     `<div class="shot">
        <div class="shot__bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>
-         <span class="shot__url">teranovagroup.com/catalog/dreamcos/</span></div>
+         <span class="shot__url">${esc(T.shot_url || 'teranovagroup.com/catalog/dreamcos/')}</span></div>
        <img src="${shotDataUri}" alt=""/>
      </div>
      <div class="cap">${esc(T.shot_cap)}</div>`));

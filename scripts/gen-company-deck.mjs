@@ -17,7 +17,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'public/docs');
-const SHOT = path.join(ROOT, 'public/img/deck/showcase.png');
+const SHOT_DIR = path.join(ROOT, 'public/img/deck');
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const PROF = fs.mkdtempSync(path.join(os.tmpdir(), 'cdeck-prof-'));
 const ARGS = ['--headless', '--disable-gpu', '--no-pdf-header-footer', '--no-first-run',
@@ -66,11 +66,16 @@ async function toPDF(html, outfile) {
   if (!ok) throw new Error(`PDF не собран: ${outfile}`);
 }
 
-if (!fs.existsSync(SHOT)) {
-  console.error(`нет снимка витрины: ${path.relative(ROOT, SHOT)}`);
+/* Снимок берём на языке дека, если он есть: английскому читателю показывать
+   русскую страницу — мелкая неряшливость, которую он заметит первой. */
+function shotFor(lang) {
+  for (const f of [`showcase-${lang}.png`, 'showcase.png']) {
+    const p = path.join(SHOT_DIR, f);
+    if (fs.existsSync(p)) return 'data:image/png;base64,' + fs.readFileSync(p).toString('base64');
+  }
+  console.error(`нет снимка витрины в ${path.relative(ROOT, SHOT_DIR)}`);
   process.exit(1);
 }
-const shotUri = 'data:image/png;base64,' + fs.readFileSync(SHOT).toString('base64');
 
 const asked = process.argv.slice(2).filter((l) => TEXTS[l]);
 const targets = asked.length ? asked : Object.keys(TEXTS);
@@ -79,7 +84,7 @@ console.log(`витрина: производителей ${s.total} (корей
 for (const lang of targets) {
   const T = TEXTS[lang](s);
   const file = path.join(OUT, `teranova-company-${lang}.pdf`);
-  await toPDF(companyDeckHTML(T, shotUri), file);
+  await toPDF(companyDeckHTML(T, shotFor(lang)), file);
   console.log(`  ${lang} → ${path.relative(ROOT, file)} (${Math.round(fs.statSync(file).size / 1024)} КБ)`);
 }
 fs.rmSync(PROF, { recursive: true, force: true });

@@ -78,6 +78,7 @@ export const TEXTS = {
     /* 6. Экран витрины */
     shot_lbl: 'Как это выглядит',
     shot_h: 'Страница производителя на витрине',
+    shot_url: 'teranovagroup.com/catalog/dreamcos/',
     shot_cap: 'Профиль корейской косметической группы: фотографии с личного визита, каталог продукции, статьи и документы — всё на одиннадцати языках.',
 
     /* 7. Два статуса */
@@ -154,5 +155,129 @@ export const TEXTS = {
     cta_mail: 'info@teranovagroup.com',
     cta_site: 'teranovagroup.com',
     cta_note: 'Teranova Group — совместный бренд AIA Group Ltd и Teranova Group Ltd.',
+  }),
+
+  en: (s) => ({
+    lang: 'en',
+    eyebrow: 'Teranova Group · company presentation',
+    h1: 'Teranova Group',
+    tagline: 'Korean manufacturing, taken to buyers worldwide',
+    descriptor: 'A B2B platform and full deal support · Korea',
+    coverFoot: 'AIA Group Ltd. · Republic of Korea',
+    coverMail: 'info@teranovagroup.com · teranovagroup.com',
+
+    claim_lbl: 'What we do',
+    claim: 'We connect a Korean manufacturer with a buyer abroad and carry the deal to the end — not to the introduction.',
+    claim_sub: 'Teranova Group is registered in Korea; the legal entity is AIA Group Ltd. We work on the buyer\u2019s side: he brings a requirement, we find the manufacturer who genuinely fits it, and from there we run the negotiation, the documents, the logistics, the customs clearance and the translation.',
+    claim_facts: ['Registered in Korea', 'No stock, no resale', 'Paid on a completed deal', 'Eleven languages'],
+
+    kinds_lbl: 'What people come to us with',
+    kinds_h: 'Three kinds of request',
+    kinds_lead: 'Three different tasks and three different buyers. We work with all three, and it helps a manufacturer to know in which of them we may bring him a client.',
+    kinds: [
+      { i: 'box', n: 'Finished product',
+        d: 'A distributor, a pharmacy chain, a marketplace or a clinic is looking for a Korean product for their market. We select the manufacturer, put the two sides together and run the shipment.' },
+      { i: 'flask', n: 'Contract manufacturing, OEM and ODM',
+        d: 'A brand owner has the market and the idea but no factory. He arrives with a specification, we find the production that can meet it, and we accompany the project from samples to shipment. We have live requests of this kind now, and it is a direction we are deliberately developing.' },
+      { i: 'drop', n: 'Raw materials, components and packaging',
+        d: 'A manufacturer abroad needs a Korean ingredient, an active compound or a packaging solution. The request is not for a finished product but for a part of one — and for a materials supplier that is a separate and far steadier sales channel.' },
+    ],
+
+    nums_lbl: 'The platform today',
+    nums_h: 'Figures you can check',
+    nums_lead: 'Everything below is taken from the platform itself on the day this file was built. We do not publish deal counts: the company is young, and we are not going to invent a history for ourselves.',
+    nums: [
+      { v: String(s.total), l: 'manufacturers published' },
+      { v: String(s.korea), l: 'of them Korean' },
+      { v: '11', l: 'languages for every profile' },
+      { v: String(s.pages), l: 'pages on the site' },
+      { v: String(s.posts), l: 'articles on products and technology' },
+      { v: String(s.pdfs), l: 'PDF documents for buyers' },
+    ],
+    nums_note: 'A profile and its product pages are built from the materials the manufacturer sent us, and published only after his written consent.',
+
+    listing_lbl: 'For the manufacturer',
+    listing_h: 'What a listing gives you',
+    listing_lead: 'Publication is free and creates no obligation.',
+    listing: [
+      { n: 'A profile in eleven languages', d: 'Company page and product pages in English, Korean, Chinese, Japanese, Russian, Spanish, Portuguese, German, French, Italian and Turkish. A buyer reads about you in his own language.' },
+      { n: 'Documents built from your data', d: 'A terms sheet and a presentation, generated from the same data as the page. A buyer downloads them and circulates them inside his company.' },
+      { n: 'A story, not a card', d: 'We write about the technology behind the products, so that a buyer who has never heard of you understands what makes you different.' },
+      { n: 'Your contacts stay closed', d: 'We do not publish a manufacturer\u2019s direct contacts. Enquiries reach us first; we qualify them and pass them on with figures and terms attached.' },
+    ],
+    listing_note: 'Prices are published only if you ask for it. By default the pages say \u201cprice on request\u201d.',
+
+    shot_lbl: 'How it looks',
+    shot_h: 'A manufacturer page on the platform',
+    shot_url: 'teranovagroup.com/en/catalog/dreamcos/',
+    shot_cap: 'The profile of a Korean cosmetics group: photographs from a personal visit, a product catalogue, articles and documents — all in eleven languages.',
+
+    verify_lbl: 'Honesty',
+    verify_h: 'Two statuses and nothing in between',
+    verify_lead: 'A buyer needs to know where every fact came from. So we use exactly two statuses and never blur the line between them.',
+    verify: [
+      { n: 'Verified — personal visit', d: 'We have been to the office or the plant, met management and taken photographs. The page carries the date and the photographs. A meeting at a trade show does not count as a visit.' },
+      { n: 'Information provided by the company', d: 'The default. Everything on the page comes from the manufacturer\u2019s own materials, and the page says so plainly rather than in small print at the bottom.' },
+    ],
+    verify_note: 'Certificates and registrations are shown as stated by the company. Copies go to a buyer at the deal stage; they are not published on the platform.',
+
+    deal_lbl: 'How it works',
+    deal_h: 'The path of a deal',
+    deal: [
+      { n: 'Enquiry', d: 'A buyer comes to us. We check the country, the sales channel, the volume and whether he is able to import the goods at all.' },
+      { n: 'A brief', d: 'We bring the manufacturer a request with figures and terms, not a company name. If an enquiry does not hold up, he never hears about it.' },
+      { n: 'Introduction', d: 'When it becomes concrete, both sides sit at one table with us present. We hold nothing back at that point.' },
+      { n: 'Contract', d: 'Tripartite: buyer, manufacturer and Teranova. Payment for the goods goes to the manufacturer directly; our commission is a separate line in the same contract.' },
+      { n: 'Execution', d: 'Logistics, documents, customs clearance and translation. The contract states which of these we take on for that particular deal.' },
+    ],
+
+    cost_lbl: 'Money',
+    cost_big: 'Zero until a deal',
+    cost_lead: 'Listing is free. Until a deal is done, the manufacturer pays nothing.',
+    cost: [
+      { n: 'Publication and updates', d: 'Free. New products, certifications and company news are added to your profile as you send them.' },
+      { n: 'Commission', d: 'Paid on a completed deal and written into the tripartite contract. It is not a margin on your price and not a hidden fee. The rate depends on the deal and is agreed before anything is signed.' },
+      { n: 'Logistics and brokerage', d: 'Quoted separately and shown in full on the invoice, line by line.' },
+    ],
+
+    markets_lbl: 'Geography',
+    markets_h: 'Markets and channels',
+    markets_groups: [
+      { n: 'Latin America', v: 'Mexico · Brazil · Argentina · Chile · Colombia · Peru · Uruguay · Paraguay' },
+      { n: 'Europe and the CIS', v: 'European Union · T\u00fcrkiye · Russia and the CIS countries' },
+      { n: 'On the ground', v: 'Korea · Japan · China · T\u00fcrkiye' },
+    ],
+    channels_h: 'Channels',
+    channels: ['Importers and distributors', 'Pharmacy and specialty retail', 'Clinics and salons', 'Marketplaces and e-commerce', 'Brand owners and contract manufacturing'],
+    markets_note: 'We do not approach a market where you already have an official partner. Tell us which territories are closed and they stay closed.',
+
+    cats_lbl: 'Sectors',
+    cats_h: 'What we work with',
+    cats: [
+      { n: 'Cosmetics and skincare', d: 'Finished brands, OEM and ODM' },
+      { n: 'Medical and aesthetics', d: 'Devices, consumables, injectable lines' },
+      { n: 'Chemicals and materials', d: 'Raw materials, actives, packaging' },
+      { n: 'Industrial equipment', d: 'Compressors, lifting and cleaning machinery' },
+      { n: 'Marine supply', d: 'Spare parts and supply for fleets' },
+      { n: 'Commercial vehicles', d: 'Special vehicles and spare parts' },
+    ],
+    cats_note: 'Passenger cars and their parts are outside our scope.',
+
+    need_lbl: 'First step',
+    need_h: 'What we need to publish you',
+    need_lead: 'Five things, and none of them are documents you would hesitate to share at this stage.',
+    need: [
+      { n: 'Written consent', d: 'One line in an email confirming we may use your materials.' },
+      { n: 'Catalogue and images', d: 'Product photographs and a catalogue. Names and volumes as they appear on the label: we check the page against the label.' },
+      { n: 'Your certifications', d: 'Which ones you hold and what they cover. Copies are needed only at the deal stage.' },
+      { n: 'Closed territories', d: 'Countries where you already have an official partner.' },
+      { n: 'Prices — optional', d: 'If you would rather not publish them, the page shows \u201cprice on request\u201d.' },
+    ],
+
+    cta_h: 'Let us talk',
+    cta_d: 'Reply to this letter and we will build the profile from your materials, send you the live link, and make any change you ask for the same day. If you would rather discuss first, we can meet at your office, at ours, or online.',
+    cta_mail: 'info@teranovagroup.com',
+    cta_site: 'teranovagroup.com',
+    cta_note: 'Teranova Group is a joint brand of AIA Group Ltd and Teranova Group Ltd.',
   }),
 };
