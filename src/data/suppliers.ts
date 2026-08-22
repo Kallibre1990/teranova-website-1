@@ -215,6 +215,8 @@ export interface SupplierUI {
   verified_suppliers: string;
   certs_h?: string;
   certs_note?: string;
+  gallery_h?: string;
+  gallery_note?: string;
 }
 export interface SupplierContent {
   tagline: string;
@@ -250,6 +252,11 @@ export interface SupplierProfile {
   status: 'visited' | 'provided';
   visitDate?: string;
   visitGallery?: string[];
+  /* Фотографии объектов и оборудования в работе, присланные самим поставщиком.
+     Отдельно от visitGallery: тот блок подписан «Проверено — личный визит» и
+     говорит о том, что мы видели своими глазами. Здесь — материалы компании,
+     и подпись это называет прямо (устав, два статуса и ничего между ними). */
+  gallery?: string[];
   brandColors: { deep: string; sky: string; accent: string; bg: string };
   /* How the brand carries itself, taken from its own site and packaging. Our
      layout stays the same everywhere; this decides the accents on top of it —
@@ -1168,6 +1175,18 @@ export const suppliers: SupplierProfile[] = [
     presFile: {
       ru: '/docs/multifit-presentation-ru.pdf', en: '/docs/multifit-presentation-en.pdf', ko: '/docs/multifit-presentation-ko.pdf', zh: '/docs/multifit-presentation-zh.pdf', ja: '/docs/multifit-presentation-ja.pdf', it: '/docs/multifit-presentation-it.pdf', de: '/docs/multifit-presentation-de.pdf', fr: '/docs/multifit-presentation-fr.pdf', tr: '/docs/multifit-presentation-tr.pdf', es: '/docs/multifit-presentation-es.pdf', pt: '/docs/multifit-presentation-pt.pdf',
     },
+    gallery: [
+      '/img/suppliers/multifit/gallery/robot-rooftop-array.jpg',
+      '/img/suppliers/multifit/gallery/robot-industrial-roof.jpg',
+      '/img/suppliers/multifit/gallery/g2-rooftop-fleet.jpg',
+      '/img/suppliers/multifit/gallery/g2-ground-array.jpg',
+      '/img/suppliers/multifit/gallery/g2-desert-array.jpg',
+      '/img/suppliers/multifit/gallery/t1-rooftop.jpg',
+      '/img/suppliers/multifit/gallery/t1-long-rows.jpg',
+      '/img/suppliers/multifit/gallery/brush-c-rooftop.jpg',
+      '/img/suppliers/multifit/gallery/brush-d-operator.jpg',
+      '/img/suppliers/multifit/gallery/brush-e-panel.jpg',
+    ],
     i18n: {
       ru: mk(multifitRu as any),
       en: mk(multifitEn as any),

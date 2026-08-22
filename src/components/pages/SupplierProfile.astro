@@ -242,6 +242,22 @@ function lineShot(name: string): string | undefined {
     </section>
   )}
 
+  {profile.gallery && profile.gallery.length > 0 && c.ui.gallery_h && (
+    <section class="sp-sec sp-sec--tint">
+      <div class="wrap">
+        <span class="sp-lvl">{c.ui.gallery_h}</span>
+        <div class="sp-visit">
+          {profile.gallery.map((src, i) => (
+            <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${c.ui.gallery_h}`}>
+              <img src={src} alt={`${profile.name} — ${c.ui.gallery_h} ${i + 1}`} loading="lazy" decoding="async" />
+            </button>
+          ))}
+        </div>
+        {c.ui.gallery_note && <p class="sp-visit__note" style="margin-top:14px">{c.ui.gallery_note}</p>}
+      </div>
+    </section>
+  )}
+
   <!-- ABOUT -->
   <section class="sp-sec">
     <div class="wrap sp-narrow">
