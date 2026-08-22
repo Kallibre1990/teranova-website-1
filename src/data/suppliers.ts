@@ -217,6 +217,8 @@ export interface SupplierUI {
   certs_note?: string;
   gallery_h?: string;
   gallery_note?: string;
+  video_h?: string;
+  video_note?: string;
 }
 export interface SupplierContent {
   tagline: string;
@@ -257,6 +259,13 @@ export interface SupplierProfile {
      говорит о том, что мы видели своими глазами. Здесь — материалы компании,
      и подпись это называет прямо (устав, два статуса и ничего между ними). */
   gallery?: string[];
+  /* Ролики самого поставщика, лежащие на нашем домене. Не встраиваем чужой
+     плеер: он приносит на страницу имя канала, кнопку «смотреть там» и витрину
+     остальных роликов производителя — то есть прямой канал к нему, а прямые
+     каналы поставщика мы не публикуем (CONTENT-RULES, §7). Файл отдаётся нами,
+     играет в карточке и до нажатия не грузится вовсе. Названия латиницей —
+     это коды моделей, они одинаковы во всех одиннадцати языках. */
+  videos?: { src: string; poster: string; name: string }[];
   brandColors: { deep: string; sky: string; accent: string; bg: string };
   /* How the brand carries itself, taken from its own site and packaging. Our
      layout stays the same everywhere; this decides the accents on top of it —
@@ -1202,6 +1211,12 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/multifit/gallery/brush-c-rooftop.jpg',
       '/img/suppliers/multifit/gallery/brush-d-operator.jpg',
       '/img/suppliers/multifit/gallery/brush-e-panel.jpg',
+    ],
+    videos: [
+      { src: '/video/multifit/mulr-d-pro.mp4', poster: '/video/multifit/mulr-d-pro.jpg', name: 'MULR-D Pro' },
+      { src: '/video/multifit/mulr-e.mp4', poster: '/video/multifit/mulr-e.jpg', name: 'MULR-E' },
+      { src: '/video/multifit/mr-t1.mp4', poster: '/video/multifit/mr-t1.jpg', name: 'MR-T1' },
+      { src: '/video/multifit/mr-g3.mp4', poster: '/video/multifit/mr-g3.jpg', name: 'MR-G3' },
     ],
     i18n: {
       ru: mk(multifitRu as any),
