@@ -401,5 +401,40 @@
    "whimela-shining-implant-cream.jpg",
    "whimela-shining-man.jpg"
   ]
+ },
+ "multifit": {
+  "clean": [
+   "mr-g-d.webp",
+   "mr-g1.webp",
+   "mr-g2.webp",
+   "mr-g3.webp",
+   "mr-t1-aut.webp",
+   "mr-t1.webp",
+   "mr-xy.webp",
+   "mulr-a.webp",
+   "mulr-b.webp",
+   "mulr-c-pro.webp",
+   "mulr-c.webp",
+   "mulr-d-pro.webp",
+   "mulr-d.webp",
+   "mulr-e.webp"
+  ],
+  "all": [
+   "mr-ar.jpg",
+   "mr-g-d.jpg",
+   "mr-g1.jpg",
+   "mr-g2.jpg",
+   "mr-g3.jpg",
+   "mr-t1-aut.jpg",
+   "mr-t1.jpg",
+   "mr-xy.jpg",
+   "mulr-a.jpg",
+   "mulr-b.jpg",
+   "mulr-c-pro.jpg",
+   "mulr-c.jpg",
+   "mulr-d-pro.jpg",
+   "mulr-d.jpg",
+   "mulr-e.jpg"
+  ]
  }
 }
