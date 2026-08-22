@@ -206,13 +206,13 @@
    {
     "name": "Derma Concentrator",
     "img": "/img/suppliers/three-days-love/products/derma-concentrator.jpg",
-    "volume": "50 g",
+    "volume": "50 ml",
     "certs": []
    },
    {
     "name": "Derma Healer",
     "img": "/img/suppliers/three-days-love/products/derma-healer.jpg",
-    "volume": "50 g",
+    "volume": "50 ml",
     "certs": []
    },
    {
@@ -236,19 +236,24 @@
    {
     "name": "Edelweiss Snow Massage Cream",
     "img": "/img/suppliers/three-days-love/products/edelweiss-snow-massage-cream.jpg",
-    "volume": "100 ml",
+    "volume": "100 g",
+    "certs": []
+   }
+  ]
+ },
+ {
+  "line": "TIME 72",
+  "items": [
+   {
+    "name": "Time72 Miracle Spongliia",
+    "img": "/img/suppliers/three-days-love/products/time72-miracle-spongliia.jpg",
+    "volume": "4.3 ml",
     "certs": []
    },
    {
     "name": "Time72 AC Miracle Healer",
     "img": "/img/suppliers/three-days-love/products/time72-ac-miracle-healer.jpg",
     "volume": "40 ml",
-    "certs": []
-   },
-   {
-    "name": "Time72 Miracle Spongliia",
-    "img": "/img/suppliers/three-days-love/products/time72-miracle-spongliia.jpg",
-    "volume": "4.3 ml",
     "certs": []
    }
   ]

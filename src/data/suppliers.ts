@@ -987,6 +987,22 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#7a2415', sky: '#f0a184', accent: '#e0562e', bg: '#fdf0ea' },
     voice: 'premium',
+    /* Карточку линии RETURN 10 поставщик 20.08.2026 попросил показывать
+       снимком Return 10 Peptide 3 Types MTS Set — файл взят с их же магазина
+       по ссылке, которую они прислали. Ключи на все языки: имя линии в блоке
+       lines у каждого языка своё, а lineShot ищет по нему. */
+    lineShots: {
+      'RETURN 10 — Home-MTS und Peptidpflege': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — MTS domiciliare e cura con peptidi': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — MTS domiciliario y cuidado con péptidos': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — MTS doméstico e cuidado com péptidos': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — MTS à domicile et soins peptidiques': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — evde MTS ve peptit bakımı': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — home MTS and peptide care': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — домашний MTS и пептидный уход': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — ホームMTSおよびペプチドケア': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — 홈 MTS 및 펩타이드 케어': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+    },
     catalog: tdlCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/three-days-love-terms-ru.pdf', en: '/docs/three-days-love-terms-en.pdf', ko: '/docs/three-days-love-terms-ko.pdf', zh: '/docs/three-days-love-terms-zh.pdf', ja: '/docs/three-days-love-terms-ja.pdf', it: '/docs/three-days-love-terms-it.pdf', de: '/docs/three-days-love-terms-de.pdf', fr: '/docs/three-days-love-terms-fr.pdf', tr: '/docs/three-days-love-terms-tr.pdf', es: '/docs/three-days-love-terms-es.pdf', pt: '/docs/three-days-love-terms-pt.pdf',
