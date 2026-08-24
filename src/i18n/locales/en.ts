@@ -74,7 +74,7 @@ export const en: UIDict = {
   countries: {
     sup: 'Countries',
     title: 'Where we source from',
-    sub: 'We work where we stand. Korea from the start; China opened in August 2026.',
+    sub: 'We work where we stand. Korea from the start; China and India opened in August 2026.',
     open: 'Open this origin',
     empty: 'This origin is open — the first suppliers will appear here.',
     list: [
@@ -87,6 +87,11 @@ export const en: UIDict = {
         key: 'cn',
         name: 'China',
         blurb: 'Industrial equipment and machinery. Opened in August 2026: we check these factories the way we check Korean ones, and we carry the deal through to delivery.',
+      },
+      {
+        key: 'in',
+        name: 'India',
+        blurb: 'Cosmetic raw materials: standardised botanical extracts and actives for formulation. Opened in August 2026 — we check the manufacturer the way we check Korean ones, and we carry the deal through to delivery.',
       },
     ],
   },

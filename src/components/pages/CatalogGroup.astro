@@ -35,7 +35,7 @@ const showDemo = realForCat.length < DEMO_HIDE_AT;
 const suppliers = showDemo ? demoSuppliers[groupKey] ?? [] : [];
 /* Страна производства — меткой на карточке. Каталог общий: корейские и
    китайские поставщики лежат в одних категориях, страна их различает. */
-const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳' };
+const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in: '🇮🇳' };
 const countryName = (key: string) => t.countries.list.find((c) => c.key === key)?.name ?? '';
 const roleLabel = { maker: g.role_maker, oem: g.role_oem, exporter: g.role_exporter } as const;
 const statusInfo = {

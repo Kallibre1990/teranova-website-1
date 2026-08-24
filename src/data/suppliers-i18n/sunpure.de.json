@@ -1,0 +1,153 @@
+{
+ "content": {
+  "tagline": "Wer formuliert, braucht keinen Extrakt, sondern die ausgewiesene Konzentration des Wirkstoffs",
+  "descriptor": "Indischer Hersteller kosmetischer Rohstoffe: standardisierte Pflanzenextrakte und bioaktive Verbindungen für Haut- und Haarpflegeformulierungen",
+  "origin": "Indien",
+  "about": [
+   "Sunpure Extracts Pvt. Ltd. ist ein indischer Hersteller natürlicher Kosmetikrohstoffe. Das Unternehmen ist in Delhi eingetragen, der Hauptsitz liegt in Ghaziabad (Uttar Pradesh), die Produktionsstätte in Sikandrabad im selben Bundesstaat. Die indische Regierung hat dem Unternehmen den Status Star Export House verliehen; die Forschung übernimmt das eigene Sunpure Research Incubation Centre.",
+   "Hergestellt wird hier keine fertige Kosmetik, sondern der Rohstoff für alle, die formulieren. Der Unterschied zwischen «Süßholzextrakt» und «Glabridin 95%» ist der Kern dieses Geschäfts: Bei einem standardisierten Wirkstoff ist die Konzentration ausgewiesen und von Charge zu Charge reproduzierbar, dadurch lässt sich die Rezeptur berechnen und die Auslobung auf dem Etikett begründen. Standardisiert wird gegen eine Markersubstanz, nach Arzneibuch- oder hauseigenen Methoden, und die Konzentration richtet sich nach der Vorgabe des Kunden.",
+   "Das Portfolio deckt die wichtigsten Claims moderner Pflege ab. Aufhellung und Pigmentflecken: Glabridin in drei Reinheitsgraden und Tetrahydrocurcumin. Retinol-Alternative: Bakuchiol 99%. Regeneration und Barriere: Centella asiatica und ihre gereinigten Derivate. Schutz vor oxidativem Stress: Grüner Tee, Pterostilben, Rosmarinextrakte und Vitamin E. Eine eigene Linie umfasst rund fünfundzwanzig ätherische und kaltgepresste Öle. Nach Angaben des Unternehmens stehen hinter dem Portfolio fünf Patente und zwanzig bei der USFDA eingereichte US-DMF-Dossiers."
+  ],
+  "facts": [
+   "Produktion in Sikandrabad, Uttar Pradesh; Hauptsitz in Ghaziabad",
+   "Status Star Export House, verliehen von der indischen Regierung",
+   "Eigene Forschungseinheit — Sunpure Research Incubation Centre (SRIC)",
+   "Fünf Patente und zwanzig US-DMF-Dossiers bei der USFDA, nach Angaben des Unternehmens",
+   "Jede Charge wird auf Pestizidrückstände, Schwermetalle, mikrobiologische Grenzwerte und Restlösemittel geprüft",
+   "Produktionszeit 2–3 Wochen ab bestätigter Bestellung, je nach Position und Menge",
+   "Erfahrung mit der Lieferung von Centella-Derivaten an Kunden in Korea"
+  ],
+  "channels": [
+   "Lohnhersteller von Kosmetik (OEM/ODM)",
+   "Formulierer und Markenlabore",
+   "Marken für Haut- und Haarpflege",
+   "Hersteller von Nutrikosmetik und Nahrungsergänzung",
+   "Händler kosmetischer Rohstoffe"
+  ],
+  "lines": [
+   {
+    "name": "Glabridin 40 / 90 / 95%",
+    "note": "Flavonoid aus der Süßholzwurzel; INCI Glycyrrhiza Glabra (Licorice) Root Extract, Glabridin. Nach Angaben des Unternehmens hemmt es Tyrosinase und Melaninsynthese und wird deshalb in Seren gegen Pigmentflecken, in der Augenpflege und in Anti-Aging-Rezepturen eingesetzt. Das Unternehmen bietet es als nicht reizende Alternative zu Hydrochinon an. Drei Reinheitsgrade erlauben es, die Konzentration auf die Zielkosten der Rezeptur abzustimmen."
+   },
+   {
+    "name": "Bakuchiol 99% (BAKUCHIpure™)",
+    "note": "Meroterpen-Phenol aus dem Samen von Psoralea corylifolia. Das Unternehmen nennt die Anregung der Kollagensynthese, die Arbeit an feinen Linien und Hautbild sowie eine antimikrobielle und entzündungshemmende Wirkung für zu Unreinheiten neigende Haut. Entscheidend für die Formulierung ist die Photostabilität: Der Wirkstoff eignet sich für Tages- und Nachtprodukte, und genau das macht ihn zum pflanzlichen Ersatz für Retinol."
+   },
+   {
+    "name": "Pongamol 95%",
+    "note": "Flavonoid aus dem Samen des Karanjabaums (Pongamia pinnata). Das Unternehmen beschreibt es als natürlichen UV-Filter: Nach seinen Angaben absorbiert die Verbindung UVA- und UVB-Strahlen und unterstützt SPF-Rezepturen, wirkt zugleich antioxidativ und beruhigend. Welche Rolle Pongamol im einzelnen Produkt spielen darf, hängt jedoch vom Markt ab: Die Listen zugelassener UV-Filter sind geschlossen, deshalb wird der regulatorische Status für jeden Zielmarkt gesondert geprüft. Für den Stoff wurde ein eigenes US DMF eingereicht."
+   },
+   {
+    "name": "Tetrahydrocurcumin 95% (TetraBeauty®)",
+    "note": "Farbloses Curcumin-Derivat aus dem Kurkuma-Rhizom. Das Unternehmen nennt eine hohe antioxidative Aktivität, eine aufhellende und entzündungshemmende Wirkung sowie Schutz vor UV-bedingten Schäden. Der praktische Vorteil gegenüber Curcumin: Es färbt nicht, der Wirkstoff funktioniert also auch in klaren und hellen Texturen."
+   },
+   {
+    "name": "CENTpure® — Centella und ihre Derivate",
+    "note": "Extrakte aus Centella asiatica, standardisiert auf die zentralen Triterpene: Asiaticosid 95%, Madecassosid 95%, Asiatsäure 95%, TECA 95% und Triterpene 95%. Eingesetzt in beruhigenden Cremes, Produkten zur Barriereregeneration, Pflege für empfindliche und reaktive Haut sowie in Produkten gegen Aknemale. Für Madecassosid und Centella liegen eigene US-DMF-Dossiers vor."
+   },
+   {
+    "name": "Grüner Tee und natürliches Koffein",
+    "note": "Camellia Sinensis Leaf Extract in mehreren Standardisierungen: EGCG 45%, Catechine 70%, Polyphenole 95% und natürliches Koffein 99%. Das Unternehmen empfiehlt diese Gruppe für Anti-Aging-Seren, Produkte zur Talgregulierung und Pflege unreiner Haut sowie für Sonnenschutz und After-Sun."
+   },
+   {
+    "name": "Pterocarpus marsupium (PTERObright™)",
+    "note": "Rindenextrakt des indischen Kinobaums mit Pterostilben. Nach Angaben des Unternehmens verbindet er antioxidative und entzündungshemmende Wirkung mit Unterstützung der Kollagensynthese, arbeitet an Hautton und Festigkeit und bietet natürlichen UV-Schutz. Das Unternehmen positioniert ihn für Clean-Beauty-Rezepturen."
+   },
+   {
+    "name": "Vitamin E, Phytosterole, Rosmarin und Lecithin",
+    "note": "Natürliche gemischte Tocopherole in Öl mit 50, 70 und 90%, d-alpha-Tocopherol und dessen Acetat in IE-Graden, Vitamin E TPGS. Phytosterole 90 und 95% als Pulver und Granulat, Phytosterolester 97%. Aus Rosmarin: Carnosolsäure von 5 bis 50%, Ursolsäure 25–40% und Rosmarinsäure 6%. Diese Gruppe deckt den antioxidativen Schutz und die Stabilität der Rezeptur selbst ab."
+   },
+   {
+    "name": "Ätherische und kaltgepresste Öle",
+    "note": "Rund fünfundzwanzig Positionen mit INCI-Bezeichnung: Teebaum, Lavendel, Pfefferminze, Rosmarin, Weihrauch, Kamille, Eukalyptus, Neem, Moringa, Hagebutte, Rose, Zitronengras, Bergamotte, Karanja, Ashwagandha, Nelke, Kardamom, Muskatnuss, Kurkuma, Zeder, Vetiver, Luffa und Jojoba. Gesondert: Walnussschalenpulver als natürliches Peelingmittel."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Standardisierung auf einen Marker",
+    "note": "Das Unternehmen standardisiert den Wirkstoff nicht «im Groben», sondern auf einen konkreten Gehalt der Aktivsubstanz: nach Arzneibuch- oder hauseigenen Methoden, innerhalb eines vereinbarten Konzentrationsbereichs und mit Blick darauf, was die spätere Rezeptur an Farbe, Löslichkeit und Geruch verlangt."
+   },
+   {
+    "name": "Extrakt nach Vorgabe",
+    "note": "Volle Entwicklungsflexibilität wird zugesagt: Wahl des Pflanzenteils (Blatt, Blüte, Wurzel, Samen, Frucht), Extraktion mit Lösemittel, lösemittelfrei oder mit überkritischem CO₂, Wildsammlung oder Anbau, mit oder ohne natürliche Konservierung sowie pH-Optimierung für eine bestimmte Formulierung."
+   },
+   {
+    "name": "Prüfung jeder Charge",
+    "note": "Nach Angaben des Unternehmens werden alle kosmetischen Wirkstoffe auf Pestizidrückstände, Schwermetalle, mikrobiologische Grenzwerte und Restlösemittel analysiert — entsprechend den internationalen Sicherheitsvorgaben."
+   },
+   {
+    "name": "Die Unterlagen für die Registrierung",
+    "note": "Das Unternehmen liefert COA, MSDS/SDS, INCI, Allergendeklaration, Schwermetalldaten, Angaben zu Restlösemitteln und mikrobiologische Analysen. Genau dieses Paket klärt die Fragen der Produktregistrierung im Zielmarkt."
+   },
+   {
+    "name": "Eigene Forschung",
+    "note": "Die Forschung verantwortet das Sunpure Research Incubation Centre. Nach Angaben des Unternehmens hält das Zentrum fünf Patente und zwanzig US-DMF-Dossiers bei der USFDA; Links zu den veröffentlichten Dossiers werden offen weitergegeben."
+   }
+  ],
+  "formats": [
+   "Pulverextrakte",
+   "Flüssige Extrakte",
+   "Ätherische und kaltgepresste Öle",
+   "Tocopherole in Öl und als Pulver",
+   "Phytosterole: Pulver, Granulat, Flüssigkeit",
+   "Rohstoffe für Nutrikosmetik: Kapseln, Pulver, Gummies, Getränke"
+  ],
+  "exportNote": "Das Unternehmen arbeitet exportorientiert und trägt den von der indischen Regierung verliehenen Status Star Export House. Nach eigenen Angaben wurden Centella-Derivate bereits an Kunden in Korea geliefert, das Team kennt die Anforderungen dieses Marktes also. Die zwanzig bei der USFDA eingereichten US-DMF-Dossiers sind öffentlich, die Links werden auf Anfrage weitergegeben. Die Produktionsstätten sind nach Angaben des Unternehmens GMP- und ISO-zertifiziert, HALAL- und FSSAI-Registrierungen liegen vor.",
+  "terms": [
+   {
+    "label": "Formen der Zusammenarbeit",
+    "value": "Lieferung standardisierter Wirkstoffe aus dem Portfolio; Entwicklung eines maßgeschneiderten Extrakts für die Rezeptur des Kunden — Pflanzenteil, Extraktionsverfahren und Standardisierungsgrad werden gemeinsam festgelegt."
+   },
+   {
+    "label": "Mindestbestellmenge",
+    "value": "Die Mindestmengen hängen von der Position ab. Das Unternehmen erstellt indikative Exportpreise und MOQ für eine konkrete Wirkstoffliste — die Anfrage läuft über Teranova."
+   },
+   {
+    "label": "Produktionszeit",
+    "value": "Etwa 2–3 Wochen ab bestätigter Bestellung und Zahlung, je nach Position und Menge."
+   },
+   {
+    "label": "Verpackung",
+    "value": "Standardverpackung sind HDPE-Fässer mit doppeltem Polyethylen-Innenbeutel."
+   },
+   {
+    "label": "Dokumente zur Lieferung",
+    "value": "COA, MSDS/SDS, INCI, Allergendeklaration, Schwermetalldaten, Angaben zu Restlösemitteln und mikrobiologische Analyse."
+   },
+   {
+    "label": "Preise",
+    "value": "Preise auf Anfrage. Die Exportpreisliste veröffentlichen wir nicht: Aktuelle Preise und Lieferbedingungen erhält der Käufer in der Abschlussphase über Teranova."
+   },
+   {
+    "label": "Wie die Arbeit läuft",
+    "value": "Anfrage → Prüfung und Abstimmung durch Teranova → Muster und technische Beratung zur Rezeptur → Logistik, Zoll und Zahlung aus einer Hand."
+   }
+  ],
+  "consentNote": "Daten und Materialien wurden von Sunpure Extracts Pvt. Ltd. bereitgestellt und werden mit deren schriftlicher Zustimmung vom 24. August 2026 veröffentlicht. Teranova koordiniert und begleitet das Geschäft.",
+  "seoTitle": "Sunpure Extracts — Kosmetikwirkstoffe aus Indien: Glabridin, Bakuchiol, Centella · Teranova",
+  "seoDesc": "Sunpure Extracts (Indien) — standardisierte pflanzliche Wirkstoffe für Kosmetik: Glabridin 40/90/95%, Bakuchiol 99%, Pongamol 95%, Tetrahydrocurcumin 95%, Centella CENTpure, Grüner Tee, Vitamin E und ätherische Öle. Lieferung und vollständige Abwicklung über Teranova."
+ },
+ "ui": {
+  "profile_sup": "Lieferantenprofil",
+  "about_h": "Über das Unternehmen",
+  "for_whom": "Für wen:",
+  "lines_h": "Wirkstoffgruppen",
+  "catalog_h": "Produktkatalog",
+  "tech_h": "Wie hier mit dem Rohstoff gearbeitet wird",
+  "products_h": "Produkte",
+  "products_note": "Standardisierte pflanzliche Wirkstoffe, Vitamin E und Phytosterole, ätherische und kaltgepresste Öle. Jede Position wird mit ausgewiesenem Wirkstoffgehalt und vollständigem Dokumentenpaket geliefert.",
+  "formats_h": "Lieferformen",
+  "export_h": "Export und Zertifizierung",
+  "terms_h": "Bedingungen der Zusammenarbeit",
+  "download_btn": "Bedingungen herunterladen (PDF)",
+  "pres_btn": "Präsentation herunterladen (PDF)",
+  "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova bestätigt. Direkte Kontakte des Herstellers werden nicht veröffentlicht.",
+  "cta_h": "Brauchen Sie diesen Wirkstoff in Ihrer Rezeptur?",
+  "cta_d": "Schreiben Sie uns — Teranova fragt Preise und Mindestmengen ab, organisiert Muster und führt das Geschäft vom ersten Kontakt bis zur Lieferung.",
+  "cta_btn": "Über Teranova anfragen",
+  "more": "Profil öffnen →",
+  "verified_suppliers": "Geprüfte Lieferanten",
+  "certs_h": "Zertifikate und Registrierungen",
+  "certs_note": "Angaben des Unternehmens. Kopien der Nachweise werden in der Abschlussphase bereitgestellt."
+ }
+}

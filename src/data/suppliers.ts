@@ -35,6 +35,17 @@ import cocoFr from './suppliers-i18n/cocospack.fr.json';
 import cocoTr from './suppliers-i18n/cocospack.tr.json';
 import cocoEs from './suppliers-i18n/cocospack.es.json';
 import cocoPt from './suppliers-i18n/cocospack.pt.json';
+import sunpureRu from './suppliers-i18n/sunpure.ru.json';
+import sunpureEn from './suppliers-i18n/sunpure.en.json';
+import sunpureKo from './suppliers-i18n/sunpure.ko.json';
+import sunpureZh from './suppliers-i18n/sunpure.zh.json';
+import sunpureJa from './suppliers-i18n/sunpure.ja.json';
+import sunpureIt from './suppliers-i18n/sunpure.it.json';
+import sunpureDe from './suppliers-i18n/sunpure.de.json';
+import sunpureFr from './suppliers-i18n/sunpure.fr.json';
+import sunpureTr from './suppliers-i18n/sunpure.tr.json';
+import sunpureEs from './suppliers-i18n/sunpure.es.json';
+import sunpurePt from './suppliers-i18n/sunpure.pt.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1230,6 +1241,40 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(multifitTr as any),
       es: mk(multifitEs as any),
       pt: mk(multifitPt as any),
+    },
+  },
+{
+    slug: 'sunpure',
+    category: 'chemical',
+    country: 'in',
+    name: 'Sunpure Extracts Pvt. Ltd.',
+    brand: 'Sunpure',
+    status: 'provided',
+    /* Зелень листа и тёплое золото куркумы — гамма их собственной брошюры. */
+    brandColors: { deep: '#1d4a2b', sky: '#4e9a5f', accent: '#d9a441', bg: '#eef5ee' },
+    voice: 'natural',
+    /* Перечень со страницы сертификатов их брошюры; статус Star Export House
+       присвоен правительством Индии. Копии — на стадии сделки. */
+    certs: ['ISO 9001:2015', 'GMP', 'HALAL', 'FSSAI', 'Star Export House', 'DUNS', 'FIEO', 'Spices Board India', 'AYUSHEXCIL'],
+    /* Прайса нет: компания обещала индикативные цены и MOQ — придут, добавим priceFile. */
+    termsFile: {
+      ru: '/docs/sunpure-terms-ru.pdf', en: '/docs/sunpure-terms-en.pdf', ko: '/docs/sunpure-terms-ko.pdf', zh: '/docs/sunpure-terms-zh.pdf', ja: '/docs/sunpure-terms-ja.pdf', it: '/docs/sunpure-terms-it.pdf', de: '/docs/sunpure-terms-de.pdf', fr: '/docs/sunpure-terms-fr.pdf', tr: '/docs/sunpure-terms-tr.pdf', es: '/docs/sunpure-terms-es.pdf', pt: '/docs/sunpure-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/sunpure-presentation-ru.pdf', en: '/docs/sunpure-presentation-en.pdf', ko: '/docs/sunpure-presentation-ko.pdf', zh: '/docs/sunpure-presentation-zh.pdf', ja: '/docs/sunpure-presentation-ja.pdf', it: '/docs/sunpure-presentation-it.pdf', de: '/docs/sunpure-presentation-de.pdf', fr: '/docs/sunpure-presentation-fr.pdf', tr: '/docs/sunpure-presentation-tr.pdf', es: '/docs/sunpure-presentation-es.pdf', pt: '/docs/sunpure-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(sunpureRu as any),
+      en: mk(sunpureEn as any),
+      ko: mk(sunpureKo as any),
+      zh: mk(sunpureZh as any),
+      ja: mk(sunpureJa as any),
+      it: mk(sunpureIt as any),
+      de: mk(sunpureDe as any),
+      fr: mk(sunpureFr as any),
+      tr: mk(sunpureTr as any),
+      es: mk(sunpureEs as any),
+      pt: mk(sunpurePt as any),
     },
   },
 ];
