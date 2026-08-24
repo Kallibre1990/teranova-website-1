@@ -74,7 +74,7 @@ export const pt: UIDict = {
   countries: {
     sup: 'Países',
     title: 'De onde fornecemos',
-    sub: 'Trabalhamos onde estamos presentes. Coreia desde o início; China aberta em agosto de 2026.',
+    sub: 'Trabalhamos onde estamos presentes. Coreia desde o início; China e Índia abertas em agosto de 2026.',
     open: 'Abrir esta origem',
     empty: 'Origem aberta — os primeiros fornecedores aparecerão aqui.',
     list: [
@@ -87,6 +87,11 @@ export const pt: UIDict = {
         key: 'cn',
         name: 'China',
         blurb: 'Equipamentos e máquinas industriais. Aberta em agosto de 2026: verificamos essas fábricas como verificamos as coreanas e acompanhamos a operação até a entrega.',
+      },
+      {
+        key: 'in',
+        name: 'Índia',
+        blurb: 'Matérias-primas cosméticas: extratos botânicos padronizados e ativos para formulação. Aberta em agosto de 2026 — verificamos o fabricante como verificamos os coreanos e acompanhamos a operação até a entrega.',
       },
     ],
   },

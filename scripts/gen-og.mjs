@@ -93,6 +93,7 @@ const SUPPLIERS = {
   doobom: { eyebrow: 'Supplier profile', title: 'DOOBOM — Korean professional aesthetic skincare & device programs', accent: '#2f9c8a' },
   cocospack: { eyebrow: 'Supplier profile', title: 'COCOSPACK — Korean cosmetic packaging (full in-house cycle)', accent: '#2d2da8' },
   multifit: { eyebrow: 'Supplier profile', title: 'MULTIFIT — pipe-cutting robots & industrial brushes', accent: '#f2b21c' },
+  sunpure: { eyebrow: 'Supplier profile', title: 'Sunpure Extracts — standardised botanical actives from India', accent: '#4e9a5f' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

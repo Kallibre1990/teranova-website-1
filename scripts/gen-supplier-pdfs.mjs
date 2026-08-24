@@ -249,6 +249,15 @@ const SUPPLIERS = [
     pres: true,
     certs: ['ISO 9001', 'ISO 14001', 'ISO 45001', 'CE'],
   },
+  {
+    /* noPrice: у Sunpure на 24.08.2026 прайса ещё нет — компания обещала прислать
+       индикативные экспортные цены и MOQ. Появятся — добавим sunpure.price.json. */
+    id: 'sunpure', json: 'sunpure', supplier: 'Sunpure Extracts Pvt. Ltd.', brand: 'Sunpure',
+    basis: 'FOB India', noPrice: true,
+    colors: { deep: '#1d4a2b', sky: '#4e9a5f', bg: '#eef5ee', line: '#dde9dd' },
+    pres: true,
+    certs: ['ISO 9001:2015', 'GMP', 'HALAL', 'FSSAI', 'Star Export House', 'DUNS', 'FIEO', 'Spices Board India', 'AYUSHEXCIL'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
