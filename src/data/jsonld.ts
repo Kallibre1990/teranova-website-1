@@ -4,36 +4,55 @@ import { ui, type Lang } from '../i18n/ui';
 import { supplierContent, linePageContent, type SupplierProfile, type SupplierLinePage } from './suppliers';
 import { postContent, postsByDate, type BlogPost } from './blog';
 
+/** Stable identifier for the one Teranova Organization node, referenced by
+    `{'@id': ORG_ID}` from blog authorship/publisher so search/AI systems can
+    resolve every page back to the same verified entity instead of a repeated,
+    disconnected name string. Legal name and address come from the charter
+    (устав) — 사업자등록번호 750-86-03426, AIA Group Ltd. */
+export const ORG_ID = `${site.domain}/#organization`;
+
+/** Full Organization node — embedded (not just referenced) on every page that
+    needs authorship/publisher, so the entity is self-contained per page and
+    still merges across pages via the shared `@id`. */
+export function organizationNode(lang: Lang) {
+  const t = ui[lang];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': ORG_ID,
+    name: 'Teranova Group',
+    legalName: 'AIA Group Ltd.',
+    url: site.domain + '/',
+    logo: site.domain + '/brand/teranova-icon-dark.svg',
+    description: t.meta.home_desc,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '5F #511, 9 Jungang-daero 81beon-gil, Jung-gu',
+      addressLocality: 'Busan',
+      addressCountry: 'KR',
+    },
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        contactType: 'sales',
+        email: site.email,
+        telephone: site.phone,
+        availableLanguage: ['Russian', 'English', 'Korean'],
+      },
+    ],
+    brand: [
+      { '@type': 'Brand', name: 'Teranova Group' },
+      { '@type': 'Brand', name: 'AIA Group Ltd' },
+    ],
+  };
+}
+
 /** Organization + WebSite structured data for the home page. */
 export function homeJsonLd(lang: Lang) {
   const base = site.domain;
   const t = ui[lang];
   return [
-    {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      name: 'Teranova Group',
-      url: base + '/',
-      logo: base + '/brand/teranova-icon-dark.svg',
-      description: t.meta.home_desc,
-      address: {
-        '@type': 'PostalAddress',
-        addressCountry: 'KR',
-      },
-      contactPoint: [
-        {
-          '@type': 'ContactPoint',
-          contactType: 'sales',
-          email: site.email,
-          telephone: site.phone,
-          availableLanguage: ['Russian', 'English', 'Korean'],
-        },
-      ],
-      brand: [
-        { '@type': 'Brand', name: 'Teranova Group' },
-        { '@type': 'Brand', name: 'AIA Group Ltd' },
-      ],
-    },
+    organizationNode(lang),
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
@@ -148,6 +167,7 @@ export function blogJsonLd(lang: Lang) {
   const base = site.domain;
   const t = ui[lang];
   return [
+    organizationNode(lang),
     {
       '@context': 'https://schema.org',
       '@type': 'Blog',
@@ -155,7 +175,7 @@ export function blogJsonLd(lang: Lang) {
       description: t.pages.blog.sub,
       url: base + localizePath('/blog', lang),
       inLanguage: t.htmlLang,
-      publisher: { '@type': 'Organization', name: 'Teranova Group' },
+      publisher: { '@id': ORG_ID },
       blogPost: postsByDate.map((post) => {
         const c = postContent(post, lang);
         return { '@type': 'BlogPosting', headline: c.title, url: base + localizePath(`/blog/${post.slug}`, lang), datePublished: post.date };
@@ -179,6 +199,7 @@ export function blogPostJsonLd(lang: Lang, post: BlogPost) {
   const c = postContent(post, lang);
   const url = base + localizePath(`/blog/${post.slug}`, lang);
   return [
+    organizationNode(lang),
     {
       '@context': 'https://schema.org',
       '@type': 'BlogPosting',
@@ -189,8 +210,9 @@ export function blogPostJsonLd(lang: Lang, post: BlogPost) {
       inLanguage: t.htmlLang,
       url,
       mainEntityOfPage: url,
-      author: { '@type': 'Organization', name: 'Teranova Group' },
-      publisher: { '@type': 'Organization', name: 'Teranova Group', logo: { '@type': 'ImageObject', url: base + '/brand/teranova-icon-dark.svg' } },
+      ...(post.hero ? { image: base + post.hero } : {}),
+      author: { '@id': ORG_ID },
+      publisher: { '@id': ORG_ID },
     },
     {
       '@context': 'https://schema.org',

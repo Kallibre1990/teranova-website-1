@@ -11,8 +11,24 @@ interface Props {
   image?: string;
   jsonLd?: object | object[];
   noindex?: boolean;
+  /** 'article' for blog posts (og:type + article: dates); 'website' for everything else. */
+  ogType?: 'website' | 'article';
+  /** ISO date (yyyy-mm-dd) — required when ogType is 'article'. */
+  articlePublished?: string;
+  articleModified?: string;
 }
-const { lang, path, title, description, image = '/brand/og-default.png', jsonLd, noindex = false } = Astro.props;
+const {
+  lang,
+  path,
+  title,
+  description,
+  image = '/brand/og-default.png',
+  jsonLd,
+  noindex = false,
+  ogType = 'website',
+  articlePublished,
+  articleModified,
+} = Astro.props;
 
 const siteUrl = (Astro.site?.toString() ?? 'https://teranovagroup.com/').replace(/\/$/, '');
 const canonical = siteUrl + localizePath(path, lang);
@@ -49,7 +65,7 @@ const metaDescription =
 {path === '/' && <link rel="preload" as="image" href="/brand/hero-bg.webp" type="image/webp" fetchpriority="high" />}
 
 <!-- Open Graph -->
-<meta property="og:type" content="website" />
+<meta property="og:type" content={ogType} />
 <meta property="og:site_name" content="Teranova Group" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={metaDescription} />
@@ -58,6 +74,8 @@ const metaDescription =
 <meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+{ogType === 'article' && articlePublished && <meta property="article:published_time" content={articlePublished} />}
+{ogType === 'article' && articleModified && <meta property="article:modified_time" content={articleModified} />}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
