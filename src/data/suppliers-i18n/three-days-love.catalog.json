@@ -6,7 +6,9 @@
     "name": "Time Lock Program Kit",
     "img": "/img/suppliers/three-days-love/products/time72-exomere-time-lock-kit.jpg",
     "volume": "set",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Implant Solution Set",
@@ -18,37 +20,49 @@
     "name": "Implant Solution",
     "img": "/img/suppliers/three-days-love/products/exomere-implant-solution.jpg",
     "volume": "10 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Lifting Shot Soothing Gel",
     "img": "/img/suppliers/three-days-love/products/exomere-lifting-shot-soothing-gel.jpg",
     "volume": "100 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Recovery Balm Plus",
     "img": "/img/suppliers/three-days-love/products/exomere-recovery-balm-plus.jpg",
     "volume": "50 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Glutathione Melashot Solution",
     "img": "/img/suppliers/three-days-love/products/exomere-glutathione-melashot-solution.jpg",
     "volume": "50 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Ceramide Recell Cream",
     "img": "/img/suppliers/three-days-love/products/exomere-ceramide-recell-cream.jpg",
     "volume": "50 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Aroma Healing Mist",
     "img": "/img/suppliers/three-days-love/products/exomere-aroma-healing-mist.jpg",
     "volume": "50 ml",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Aroma Healing Mist (Refill)",
@@ -60,7 +74,9 @@
     "name": "Edelweiss Snow Cream",
     "img": "/img/suppliers/three-days-love/products/exomere-edelweiss-snow-cream.jpg",
     "volume": "100 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Tea Tree Bubble Cleanser",
@@ -101,7 +117,9 @@
     "name": "Eyeron Shot Cream",
     "img": "/img/suppliers/three-days-love/products/exomere-g-eyeron-shot-cream.jpg",
     "volume": "15 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Spicus Shot Eyecream",
@@ -124,13 +142,17 @@
     "name": "Recovery Balm Compact",
     "img": "/img/suppliers/three-days-love/products/return10-recovery-balm-compact.jpg",
     "volume": "50 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Rose Garden Mask Pack (2-Step)",
     "img": "/img/suppliers/three-days-love/products/return10-rose-garden-mask-pack.jpg",
     "volume": "50 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Tea Tree Cleanser",
@@ -160,19 +182,25 @@
     "name": "T-Signature Ampoule",
     "img": "/img/suppliers/three-days-love/products/return10-t-signature-ampoule.jpg",
     "volume": "100 ml",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Intensive Peptide Cream",
     "img": "/img/suppliers/three-days-love/products/return10-intensive-peptide-cream.jpg",
     "volume": "40 ml",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "MTS Cream",
     "img": "/img/suppliers/three-days-love/products/return10-mts-cream.jpg",
     "volume": "4.3 ml",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    }
   ]
  },
@@ -183,7 +211,9 @@
     "name": "EXO-AG Recell Solution",
     "img": "/img/suppliers/three-days-love/products/exosome-recell-solution.jpg",
     "volume": "set · 5 ml×4 / 10 ml×4",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Whimela Shining Implant Cream",
@@ -225,7 +255,9 @@
     "name": "Implaheal PO Cream",
     "img": "/img/suppliers/three-days-love/products/implaheal-po-cream.jpg",
     "volume": "80 g",
-    "certs": []
+    "certs": [
+     "MoCRA"
+    ]
    },
    {
     "name": "Phytobiome (Type A)",
