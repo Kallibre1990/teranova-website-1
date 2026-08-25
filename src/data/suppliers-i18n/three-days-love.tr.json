@@ -5,6 +5,7 @@
   "origin": "Kore",
   "about": [
    "THREE DAYS LOVE CO., LTD. (주식회사 3일애), şirketin belirttiği üzere 2001 yılından bu yana topikal “cilt-implant” iletim teknolojisinde uzmanlaşmış bir Kore kozmösotik şirketidir. Merkez ofisi Seul'de (Songpa-gu), hammadde işleme ve Ar-Ge tesisleri ise Gyeonggi Eyaleti'ndeki Seongnam'da bulunmaktadır. Şirket, kendi marka serileri olan ThreeDaysLove, RETURN 10 ve TIME 72 altında profesyonel cilt bakımı geliştirip tedarik etmekte, ayrıca müşterinin kendi markası altında OEM/ODM üretimi de sunmaktadır.",
+   "Şirketin adı kendi konumlandırmasını açıklıyor. THREE DAYS LOVE’a göre cildin doğal yenilenme döngüsü yaklaşık 28 gün sürüyor; şirketin harici mikro iğne uygulaması ise görünür yanıtı yaklaşık üç güne indirmeyi hedefliyor ve addaki üç gün buradan geliyor. Şirket hedef kitlesini cilt sıkılığına önem veren kırk yaş üstü kişiler, kanallarını ise estetik merkezleri, bakım salonları, toptan, drogeri ve çevrimiçi mağazalar olarak tanımlıyor. Bu, şirketin kendi ürününü anlatımıdır; tıbbi bir iddia ya da sonuç vaadi değildir.",
    "Şirketin konumlandırması, Kore patentleri bildirdiği tescilli iletim teknolojileri etrafında kuruludur: SPICUS® — aktif maddeleri enjeksiyonsuz, topikal olarak cilde iletmek için bitki-kolajen kaplı biyo mikro-iğne (patent No. 10-2767202); EXOMERE Halla® — Jeju Hallabong'dan elde edilen bir eksozom kompleksi (patent No. 10-2677780); ve EXO-AG® — siyah sarımsak ve aloe vera eksozom kompleksi (patent No. 10-2534286). Şirketin belirttiği üzere bu teknolojiler, aktif bileşenlerin iletimini, stabilitesini ve etkinliğini iyileştirmeyi amaçlamaktadır. Ürünler, tıbbi cihaz veya ilaç olarak değil, profesyonel kozmösotikler olarak konumlandırılmaktadır.",
    "Şirketin beyanına göre kalite, ISO 22716 (kozmetik GMP), ISO 9001 ve ISO 14001 kapsamında yönetilmekte ve ürün yelpazesi bir dizi pazarda — US MoCRA, EU CPNP ve Switzerland PIF dahil — sertifikalı veya tescillidir. Ayrı bir marka serisi olan EXOMERE, şirketin kendi fiyat listesinde yer almaktadır; kamuya açık verilere göre EXOMERE CO., LTD. ayrı bir tüzel kişiliktir ve iki şirket arasındaki ilişki bağımsız olarak doğrulanmamıştır — bu vitrinde markalar tek bir tüzel kişilik altında birleştirilmemektedir."
   ],
@@ -135,7 +136,14 @@
    "Salon masajı ve yatıştırma için edelweiss içeren bir masaj kremi.",
    "TIME 72 serisinin bir parçası olan, yenilenme için spongilla bazlı bir booster.",
    "TIME 72 serisinin bir parçası olan, sivilceye eğilimli cilt için hedefe yönelik bir healer."
-  ]
+  ],
+  "spotlight": {
+   "label": "Format · Ağustos 2026",
+   "title": "Kremin yerine cushion: makyaj formatına dönüşen işlem sonrası bakım",
+   "text": "EXOMERE G serisindeki Spicus V Shot Recovery Balm, kapatıcılık ile bakımı tek adımda birleştiriyor. Bu formatın kliniğe, merkeze ve distribütöre ne kazandırdığına bakıyoruz.",
+   "cta": "İncelemeyi oku",
+   "post": "tdl-exomere-g-cushion-postcare"
+  }
  },
  "ui": {
   "profile_sup": "Tedarikçi profili",

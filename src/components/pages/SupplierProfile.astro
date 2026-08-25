@@ -357,6 +357,9 @@ function lineShot(name: string): string | undefined {
                           {it.certs && it.certs.length > 0 && (
                             <span class="sp-prod__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>
                           )}
+                          {it.actives && it.actives.length > 0 && (
+                            <span class="sp-prod__act">{it.actives.map((a) => <span>{a}</span>)}</span>
+                          )}
                           {it.price && <span class="sp-prod__price">≈ ${it.price}</span>}
                         </span>
                       </button>
@@ -705,6 +708,8 @@ function lineShot(name: string): string | undefined {
   .sp-prod__desc { font-size: 0.75rem; color: #5a6a80; line-height: 1.45; margin-top: 6px; }
   .sp-prod__certs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 9px; }
   .sp-prod__certs span { font-size: 0.62rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 2px 6px; }
+  .sp-prod__act { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .sp-prod__act span { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.02em; color: color-mix(in srgb, var(--ds-deep) 78%, #000); background: color-mix(in srgb, var(--ds-deep) 7%, #fff); border: 1px solid color-mix(in srgb, var(--ds-deep) 18%, transparent); border-radius: 999px; padding: 2px 8px; }
   .sp-prod__price { margin-top: 10px; font-size: 0.82rem; font-weight: 800; color: var(--ds-sky); }
 
   .sp-lvl--visited { color: #0f6a4f; }

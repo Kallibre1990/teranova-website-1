@@ -66,6 +66,9 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
               {it.certs && it.certs.length > 0 && (
                 <span class="sl-card__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>
               )}
+              {it.actives && it.actives.length > 0 && (
+                <span class="sl-card__act">{it.actives.map((a) => <span>{a}</span>)}</span>
+              )}
               {it.price && <span class="sl-card__price">≈ ${it.price}</span>}
             </div>
           </article>
@@ -115,6 +118,8 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
   .sl-card__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: 14px; }
   .sl-card__certs { display: flex; flex-wrap: wrap; gap: 4px; }
   .sl-card__certs span { font-size: 0.62rem; font-weight: 700; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 2px 6px; }
+  .sl-card__act { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .sl-card__act span { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.02em; color: color-mix(in srgb, var(--ds-deep) 78%, #000); background: color-mix(in srgb, var(--ds-deep) 7%, #fff); border: 1px solid color-mix(in srgb, var(--ds-deep) 18%, transparent); border-radius: 999px; padding: 2px 8px; }
   .sl-card__price { font-size: 0.86rem; font-weight: 800; color: var(--ds-sky); }
 
   .sl-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }

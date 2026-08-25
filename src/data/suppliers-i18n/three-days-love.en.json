@@ -5,6 +5,7 @@
   "origin": "Korea",
   "about": [
    "THREE DAYS LOVE CO., LTD. (주식회사 3일애) is a Korean cosmeceutical company that, as stated by the company, has specialised in topical “skin-implant” delivery technology since 2001. Its head office is in Seoul (Songpa-gu) with raw-material processing and R&D facilities in Seongnam, Gyeonggi Province. The company develops and supplies professional skincare under several of its own brand lines — ThreeDaysLove, RETURN 10 and TIME 72 — and also offers OEM/ODM manufacturing under a customer's own brand.",
+   "The company name explains its own positioning. According to THREE DAYS LOVE, the natural skin renewal cycle takes about 28 days, and its topical microneedle delivery is intended to shorten the visible response to roughly three, which is where the three days in the name comes from. The company describes its audience as people over forty who care about skin firmness, and its channels as aesthetic practices, skincare salons, wholesale, drugstores and online shops. This is the company describing its own product, not a medical statement or a promise of results.",
    "The company's positioning is built around proprietary delivery technologies for which it reports Korean patents: SPICUS® — a plant-collagen-coated bio micro-needle for delivering actives into the skin topically, without injection (patent No. 10-2767202); EXOMERE Halla® — an exosome complex derived from Jeju Hallabong (patent No. 10-2677780); and EXO-AG® — a black-garlic and aloe-vera exosome complex (patent No. 10-2534286). As stated by the company, these technologies are intended to improve the delivery, stability and efficacy of active ingredients. The products are positioned as professional cosmeceuticals, not as medical devices or medicines.",
    "By the company's account, quality is managed under ISO 22716 (cosmetics GMP), ISO 9001 and ISO 14001, and the range is certified or registered across a number of markets — including US MoCRA, EU CPNP and Switzerland PIF. A separate brand line, EXOMERE, appears in the company's own price list; per public data EXOMERE CO., LTD. is a distinct legal entity, and the relationship between the two companies is not independently confirmed — on this showcase the brands are not merged into a single legal entity."
   ],
@@ -135,7 +136,14 @@
    "A massage cream with edelweiss for salon massage and soothing.",
    "A spongilla-based booster for renewal, part of the TIME 72 line.",
    "A targeted healer for blemish-prone skin, part of the TIME 72 line."
-  ]
+  ],
+  "spotlight": {
+   "label": "Format · August 2026",
+   "title": "A cushion instead of a cream: post-procedure care as a make-up format",
+   "text": "The Spicus V Shot Recovery Balm from the EXOMERE G line puts coverage and care in a single step. We look at what the format gives a clinic, a salon and a distributor.",
+   "cta": "Read the analysis",
+   "post": "tdl-exomere-g-cushion-postcare"
+  }
  },
  "ui": {
   "profile_sup": "Supplier profile",

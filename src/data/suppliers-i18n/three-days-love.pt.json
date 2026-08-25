@@ -5,6 +5,7 @@
   "origin": "Coreia",
   "about": [
    "THREE DAYS LOVE CO., LTD. (주식회사 3일애) é uma empresa coreana de cosméticos dermatológicos que, segundo declarado pela empresa, se especializou na tecnologia tópica de entrega por “implante cutâneo” desde 2001. A sua sede está em Seul (Songpa-gu), com instalações de processamento de matérias-primas e de I&D em Seongnam, província de Gyeonggi. A empresa desenvolve e fornece cuidados profissionais para a pele sob várias das suas próprias linhas de marca — ThreeDaysLove, RETURN 10 e TIME 72 — e também oferece fabrico OEM/ODM sob a marca própria do cliente.",
+   "O nome da empresa explica o seu próprio posicionamento. Segundo a THREE DAYS LOVE, o ciclo natural de renovação da pele dura cerca de 28 dias, ao passo que a sua administração tópica com microagulhas procura reduzir a resposta visível para cerca de três: daí os três dias no nome. A empresa descreve o seu público como pessoas com mais de quarenta anos atentas à firmeza da pele, e os seus canais como consultórios de estética, centros de cuidado, grosso, drogarias e lojas online. Trata-se da descrição que a empresa faz do seu próprio produto, não de uma afirmação médica nem de uma promessa de resultados.",
    "O posicionamento da empresa assenta em tecnologias de entrega proprietárias para as quais reporta patentes coreanas: SPICUS® — uma biomicroagulha revestida de colagénio vegetal para entregar ativos na pele de forma tópica, sem injeção (patente n.º 10-2767202); EXOMERE Halla® — um complexo de exossomas derivado do Hallabong de Jeju (patente n.º 10-2677780); e EXO-AG® — um complexo de exossomas de alho preto e aloé vera (patente n.º 10-2534286). Segundo declarado pela empresa, estas tecnologias destinam-se a melhorar a entrega, a estabilidade e a eficácia dos ingredientes ativos. Os produtos são posicionados como cosméticos dermatológicos profissionais, não como dispositivos médicos ou medicamentos.",
    "Segundo a empresa, a qualidade é gerida sob ISO 22716 (GMP de cosméticos), ISO 9001 e ISO 14001, e a gama está certificada ou registada em vários mercados — incluindo US MoCRA, EU CPNP e Switzerland PIF. Uma linha de marca separada, EXOMERE, surge na própria lista de preços da empresa; segundo dados públicos, a EXOMERE CO., LTD. é uma entidade jurídica distinta, e a relação entre as duas empresas não está confirmada de forma independente — nesta vitrine as marcas não são fundidas numa única entidade jurídica."
   ],
@@ -135,7 +136,14 @@
    "Um creme de massagem com edelvais para massagem de salão e alívio.",
    "Um booster à base de spongilla para renovação, parte da linha TIME 72.",
    "Um healer direcionado para pele com tendência a imperfeições, parte da linha TIME 72."
-  ]
+  ],
+  "spotlight": {
+   "label": "Formato · agosto de 2026",
+   "title": "Uma cushion em vez de creme: o pós-procedimento como formato de maquilhagem",
+   "text": "O Spicus V Shot Recovery Balm da linha EXOMERE G junta cobertura e cuidado num só passo. Vemos o que o formato traz a uma clínica, a um centro e a um distribuidor.",
+   "cta": "Ler a análise",
+   "post": "tdl-exomere-g-cushion-postcare"
+  }
  },
  "ui": {
   "profile_sup": "Perfil do fornecedor",
