@@ -47,7 +47,7 @@
   "tech": [
    {
     "name": "Produktanpassung für den Käufer",
-    "note": "Nach Angaben des Unternehmens passt LICORNE das Produkt an die Anforderungen des Käufers an: nicht nur Verpackung und Behälter, sondern auch die Rezeptur selbst, einschließlich der Konzentration einzelner Inhaltsstoffe. Als Beispiel nennt das Unternehmen die Reduzierung des Hyaluronsäuregehalts auf Wunsch eines Käufers. Losgröße, Vorlaufzeit und Kosten dieser Arbeit werden in der Abschlussphase vereinbart."
+    "note": "Nach Angaben des Unternehmens passt LICORNE das Produkt an die Anforderungen des Käufers an: nicht nur Verpackung und Behälter, sondern auch die Rezeptur selbst, einschließlich der Konzentration einzelner Inhaltsstoffe. Als Beispiel nennt das Unternehmen die Reduzierung des Hyaluronsäuregehalts auf Wunsch eines Käufers. Bei einer angepassten Rezeptur beginnt die Mindestbestellmenge bei 5.000 Stück pro Artikel und kann höher ausfallen, je nach Rezeptur, Verpackung und Umfang der Arbeit. Vorlaufzeit und Kosten werden in der Abschlussphase vereinbart."
    },
    {
     "name": "Vegane, pflanzenbasierte Formulierung",
@@ -86,7 +86,7 @@
    },
    {
     "label": "Anpassung",
-    "value": "Nach Angaben des Unternehmens ist eine Anpassung für den Käufer möglich: Verpackung und Behälter sowie die Konzentration einzelner Inhaltsstoffe in der Rezeptur. Die Bedingungen, einschließlich Mindestmenge und Vorlaufzeit, werden in der Abschlussphase vereinbart."
+    "value": "Nach Angaben des Unternehmens ist eine Anpassung für den Käufer möglich: Verpackung und Behälter sowie die Konzentration einzelner Inhaltsstoffe in der Rezeptur. Bei einer angepassten Rezeptur beginnt die Mindestbestellmenge bei 5.000 Stück pro Artikel und kann je nach Rezeptur, Verpackung und Umfang der Arbeit höher ausfallen. Die Vorlaufzeit wird in der Abschlussphase vereinbart."
    },
    {
     "label": "Preisgestaltung",

@@ -47,7 +47,7 @@
   "tech": [
    {
     "name": "Alıcıya göre ürün özelleştirme",
-    "note": "Şirketin verdiği bilgiye göre LICORNE ürünü alıcının taleplerine göre uyarlıyor: yalnızca ambalaj ve şişe değil, formülün kendisi de, tek tek bileşenlerin konsantrasyonu dahil. Şirket örnek olarak, bir alıcının talebi üzerine hyalüronik asit oranının düşürülmesini veriyor. Parti büyüklüğü, süre ve maliyet işlem aşamasında kararlaştırılır."
+    "note": "Şirketin verdiği bilgiye göre LICORNE ürünü alıcının taleplerine göre uyarlıyor: yalnızca ambalaj ve şişe değil, formülün kendisi de, tek tek bileşenlerin konsantrasyonu dahil. Şirket örnek olarak, bir alıcının talebi üzerine hyalüronik asit oranının düşürülmesini veriyor. Formülün değiştirildiği durumlarda asgari sipariş ürün başına 5.000 adetten başlar ve formüle, ambalaja ve çalışmanın kapsamına göre daha yüksek olabilir. Süre ve maliyet işlem aşamasında kararlaştırılır."
    },
    {
     "name": "Vegan, bitki bazlı formülasyon",
@@ -86,7 +86,7 @@
    },
    {
     "label": "Özelleştirme",
-    "value": "Şirketin verdiği bilgiye göre alıcıya göre uyarlama mümkündür: ambalaj ve şişe, ayrıca formüldeki tek tek bileşenlerin konsantrasyonu. Asgari parti ve süre dahil koşullar işlem aşamasında kararlaştırılır."
+    "value": "Şirketin verdiği bilgiye göre alıcıya göre uyarlama mümkündür: ambalaj ve şişe, ayrıca formüldeki tek tek bileşenlerin konsantrasyonu. Formülün değiştirildiği durumlarda asgari sipariş ürün başına 5.000 adetten başlar ve formüle, ambalaja ve çalışmanın kapsamına göre daha yüksek olabilir. Süre işlem aşamasında kararlaştırılır."
    },
    {
     "label": "Fiyatlandırma",
