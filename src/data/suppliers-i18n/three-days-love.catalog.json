@@ -14,7 +14,11 @@
     "name": "Implant Solution Set",
     "img": "/img/suppliers/three-days-love/products/exomere-implant-solution-set.jpg",
     "volume": "set · 3 g×6",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
+    ]
    },
    {
     "name": "Implant Solution",
@@ -22,6 +26,10 @@
     "volume": "10 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
     ]
    },
    {
@@ -30,6 +38,10 @@
     "volume": "100 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
     ]
    },
    {
@@ -38,6 +50,9 @@
     "volume": "50 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®"
     ]
    },
    {
@@ -46,6 +61,10 @@
     "volume": "50 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
     ]
    },
    {
@@ -54,6 +73,10 @@
     "volume": "50 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
     ]
    },
    {
@@ -62,13 +85,19 @@
     "volume": "50 ml",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®"
     ]
    },
    {
     "name": "Aroma Healing Mist (Refill)",
     "img": "/img/suppliers/three-days-love/products/exomere-aroma-healing-mist-refill.jpg",
     "volume": "150 ml",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®"
+    ]
    },
    {
     "name": "Edelweiss Snow Cream",
@@ -76,31 +105,49 @@
     "volume": "100 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®"
     ]
    },
    {
     "name": "Tea Tree Bubble Cleanser",
     "img": "/img/suppliers/three-days-love/products/exomere-tea-tree-bubble-cleanser.jpg",
     "volume": "100 g",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®"
+    ]
    },
    {
     "name": "PDRN / EGF Recell Spicus Ampoule",
     "img": "/img/suppliers/three-days-love/products/exomere-recell-spicus-ampoule.jpg",
     "volume": "10 ml×2",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
+    ]
    },
    {
     "name": "Lifting Shot S Body Concentrator",
     "img": "/img/suppliers/three-days-love/products/exomere-lifting-shot-s-body.jpg",
     "volume": "300 g",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
+    ]
    },
    {
     "name": "Lifting Shot Botani V Serum",
     "img": "/img/suppliers/three-days-love/products/exomere-lifting-shot-botani-v-serum.jpg",
     "volume": "300 g",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
+    ]
    }
   ]
  },
@@ -111,7 +158,11 @@
     "name": "Spicus V Shot Recovery Balm",
     "img": "/img/suppliers/three-days-love/products/exomere-g-spicus-v-shot-recovery-balm.jpg",
     "volume": "cushion · 3 shades",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
+    ]
    },
    {
     "name": "Eyeron Shot Cream",
@@ -119,13 +170,21 @@
     "volume": "15 g",
     "certs": [
      "MoCRA"
+    ],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
     ]
    },
    {
     "name": "Spicus Shot Eyecream",
     "img": "/img/suppliers/three-days-love/products/exomere-g-spicus-shot-eyecream.jpg",
     "volume": "set · 4 g×2",
-    "certs": []
+    "certs": [],
+    "actives": [
+     "EXOMERE®",
+     "SPICUS®"
+    ]
    }
   ]
  },
