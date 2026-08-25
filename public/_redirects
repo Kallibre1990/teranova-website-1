@@ -1,3 +1,0 @@
-# Canonical host is the apex domain. www must not serve a duplicate copy of
-# the site — it splits external/AI-crawler signals between two versions.
-https://www.teranovagroup.com/* https://teranovagroup.com/:splat 301!
