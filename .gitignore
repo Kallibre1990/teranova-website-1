@@ -28,3 +28,6 @@ scripts/shotglobe.mjs
 
 # one-off content pipeline scratch (agent drafts); the keeper is scripts/gen-blog-art.mjs
 scripts_build/
+
+# Локальный кэш wrangler (pages dev) — артефакт разработки
+.wrangler/
