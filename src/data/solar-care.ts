@@ -13,6 +13,34 @@ export interface SolarStep {
   body: string;
 }
 
+export interface SolarForm {
+  title: string;
+  lead: string;
+  company: string;
+  contact: string;
+  email: string;
+  phone: string;
+  need: string;
+  volume: string;
+  timeline: string;
+  comment: string;
+  ph_company: string;
+  ph_contact: string;
+  ph_email: string;
+  ph_phone: string;
+  ph_need: string;
+  ph_volume: string;
+  ph_timeline: string;
+  ph_comment: string;
+  submit: string;
+  note: string;
+  err_need: string;
+  err_contact: string;
+  err_email: string;
+  err_phone: string;
+  err_network: string;
+}
+
 export interface SolarCopy {
   meta: { title: string; description: string };
   hero: { kicker: string; title: string; lead: string; cta: string };
@@ -21,6 +49,7 @@ export interface SolarCopy {
   honest: { title: string; body: string[] };
   equipment: { title: string; body: string; captions: string[] };
   cta: { title: string; body: string; button: string };
+  form: SolarForm;
   back: string;
   footer: string;
 }
@@ -91,6 +120,33 @@ export const solarCopy: Record<SolarLang, SolarCopy> = {
       body: 'Напишите мощность станции, тип конструкции и регион. Мы ответим, какие данные нужны для расчёта и что имеет смысл проверить на пилоте.',
       button: 'Написать нам',
     },
+    form: {
+      title: 'Заявка с площадки',
+      lead: 'Ответим, какие данные нужны для расчёта и что имеет смысл проверить на пилоте.',
+      company: 'Компания',
+      contact: 'Имя',
+      email: 'Почта',
+      phone: 'Телефон или мессенджер',
+      need: 'Что за станция и что нужно',
+      volume: 'Мощность, МВт',
+      timeline: 'Сроки',
+      comment: 'Комментарий',
+      ph_company: 'Название компании',
+      ph_contact: 'Как к вам обращаться',
+      ph_email: 'name@company.com',
+      ph_phone: 'Телефон, WhatsApp или Telegram',
+      ph_need: 'Например: наземная станция на трекерах, нужна очистка модулей',
+      ph_volume: 'Например: 120',
+      ph_timeline: 'Например: пилот в этом квартале',
+      ph_comment: 'Что важно знать заранее',
+      submit: 'Отправить заявку',
+      note: 'Обязательно описание задачи и хотя бы один способ связи: почта или телефон.',
+      err_need: 'Напишите, что за станция и что нужно',
+      err_contact: 'Оставьте почту или телефон, иначе мы не сможем ответить',
+      err_email: 'Проверьте адрес почты',
+      err_phone: 'Проверьте номер телефона',
+      err_network: 'Не удалось отправить. Напишите нам на',
+    },
     back: 'Teranova Group',
     footer: 'Solar Care — направление Teranova Group. Корея.',
   },
@@ -158,6 +214,33 @@ export const solarCopy: Record<SolarLang, SolarCopy> = {
       title: 'Tell us about your site',
       body: 'Send us the plant capacity, the structure type and the region. We will reply with the data needed for the calculation and what is worth proving on a pilot.',
       button: 'Write to us',
+    },
+    form: {
+      title: 'Tell us about your site',
+      lead: 'We will reply with the data needed for the calculation and what is worth proving on a pilot.',
+      company: 'Company',
+      contact: 'Name',
+      email: 'Email',
+      phone: 'Phone or messenger',
+      need: 'The plant and what you need',
+      volume: 'Capacity, MW',
+      timeline: 'Timing',
+      comment: 'Comment',
+      ph_company: 'Company name',
+      ph_contact: 'How to address you',
+      ph_email: 'name@company.com',
+      ph_phone: 'Phone, WhatsApp or Telegram',
+      ph_need: 'For example: ground-mounted plant on trackers, module cleaning needed',
+      ph_volume: 'For example: 120',
+      ph_timeline: 'For example: pilot this quarter',
+      ph_comment: 'Anything we should know up front',
+      submit: 'Send request',
+      note: 'The task description is required, along with at least one way to reach you: email or phone.',
+      err_need: 'Please describe the plant and what you need',
+      err_contact: 'Leave an email or a phone number so we can reply',
+      err_email: 'Please check the email address',
+      err_phone: 'Please check the phone number',
+      err_network: 'Sending failed. Write to us at',
     },
     back: 'Teranova Group',
     footer: 'Solar Care is a business line of Teranova Group. Korea.',

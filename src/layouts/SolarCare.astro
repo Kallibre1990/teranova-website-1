@@ -178,6 +178,35 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
       .solar__cta p { color: #ded3c0; max-width: 620px; font-size: 18px; }
       .solar__cta .solar__btn { margin-top: 26px; }
 
+
+      /* --- форма заявки --- */
+      .solar__formgrid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 48px; align-items: start; }
+      .solar__formintro p { color: #ded3c0; max-width: 420px; font-size: 18px; margin: 18px 0 0; }
+      .solar__form { background: var(--sand); color: var(--ink); border-radius: 8px; padding: 28px; }
+      .solar__fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .solar__fgrp { display: flex; flex-direction: column; gap: 6px; }
+      .solar__fgrp--full { grid-column: 1 / -1; }
+      .solar__fgrp label { font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+      .solar__req { color: var(--amber-deep); }
+      .solar__form input, .solar__form textarea {
+        width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #fff;
+        padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink);
+        transition: border-color 0.18s ease, box-shadow 0.18s ease;
+      }
+      .solar__form input::placeholder, .solar__form textarea::placeholder { color: #a89a80; }
+      .solar__form input:focus, .solar__form textarea:focus {
+        outline: none; border-color: var(--amber); box-shadow: 0 0 0 3px rgba(201, 118, 26, 0.16);
+      }
+      .solar__form .is-error, .solar__form .is-error:focus {
+        border-color: #b8452f; box-shadow: 0 0 0 3px rgba(184, 69, 47, 0.15);
+      }
+      .solar__form .oform__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+      .solar__err { color: #b8452f; font-size: 14px; margin: 16px 0 0; }
+      .solar__err a { color: var(--amber-deep); }
+      .solar__submit { margin-top: 20px; border: 0; cursor: pointer; font: inherit; font-size: 16px; }
+      .solar__submit:disabled { opacity: 0.6; cursor: default; }
+      .solar__hint { font-size: 13.5px; color: var(--ink-soft); margin: 14px 0 0; }
+
       /* --- подвал --- */
       .solar__foot {
         max-width: 1080px; margin: 0 auto; padding: 30px 24px 46px;
@@ -194,6 +223,9 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
         .solar__section { padding: 58px 0; }
         .solar__steps { grid-template-columns: 1fr; }
         .solar__gallery { grid-template-columns: 1fr; }
+        .solar__formgrid { grid-template-columns: 1fr; gap: 30px; }
+        .solar__fgrid { grid-template-columns: 1fr; }
+        .solar__form { padding: 20px; }
       }
     </style>
   </body>
