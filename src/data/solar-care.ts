@@ -42,7 +42,7 @@ export const solarCopy: Record<SolarLang, SolarCopy> = {
       title: 'Что мы делаем',
       body: [
         'Солнечная станция теряет выработку из-за пыли и налёта на модулях. Технику для очистки продают многие, но заказчик остаётся один на один с вопросом, что именно изменится на его площадке и за какой срок.',
-        'Мы собираем это в сервис. Подбираем технику корейских производителей под конструкцию и климат конкретной станции, организуем поставку и ввод в работу, а вокруг оборудования выстраиваем измерение: что делается, сколько времени занимает цикл и что происходит с выработкой.',
+        'Мы собираем это в сервис. Технику подбираем под конструкцию и климат конкретной станции, а не под страну происхождения: важно, чтобы машина подходила площадке. Дальше организуем поставку и ввод в работу, а вокруг оборудования выстраиваем измерение: что делается, сколько времени занимает цикл и что происходит с выработкой.',
       ],
     },
     how: {
@@ -110,7 +110,7 @@ export const solarCopy: Record<SolarLang, SolarCopy> = {
       title: 'What we do',
       body: [
         'A solar plant loses output because dust and soiling settle on the modules. Many companies sell cleaning equipment, yet the owner is left alone with the real question: what exactly will change on this site, and how soon.',
-        'We turn that into a service. We select equipment from Korean manufacturers to match the structure and climate of your plant, arrange delivery and commissioning, and build measurement around the machines: what is done, how long a cycle takes and what happens to output.',
+        'We turn that into a service. Equipment is selected to match the structure and climate of your plant rather than to match a country of origin: what matters is that the machine fits the site. We then arrange delivery and commissioning and build measurement around the machines: what is done, how long a cycle takes and what happens to output.',
       ],
     },
     how: {
