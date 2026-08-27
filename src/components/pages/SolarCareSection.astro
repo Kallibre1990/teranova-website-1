@@ -1,0 +1,85 @@
+---
+/* Содержимое раздела Solar Care. Разметка одна, тексты приходят параметром,
+   поэтому русская и английская страницы не могут разъехаться по структуре. */
+import { localizePath } from '../../i18n/utils';
+import type { SolarCopy, SolarLang } from '../../data/solar-care';
+
+interface Props {
+  lang: SolarLang;
+  copy: SolarCopy;
+}
+const { lang, copy } = Astro.props;
+
+const shots = [
+  '/img/suppliers/multifit/gallery/g2-desert-array.jpg',
+  '/img/suppliers/multifit/gallery/t1-long-rows.jpg',
+  '/img/suppliers/multifit/gallery/robot-rooftop-array.jpg',
+];
+const contacts = localizePath('/contacts', lang);
+---
+
+<section class="solar__hero">
+  <div class="solar__hero-media">
+    <img src={shots[0]} alt="" loading="eager" fetchpriority="high" width="1600" height="900" />
+  </div>
+  <div class="solar__hero-inner">
+    <p class="solar__kicker">{copy.hero.kicker}</p>
+    <h1>{copy.hero.title}</h1>
+    <p class="solar__lead">{copy.hero.lead}</p>
+    <a class="solar__btn" href={contacts}>{copy.hero.cta}</a>
+  </div>
+</section>
+
+<section class="solar__section">
+  <div class="solar__wrap solar__prose">
+    <h2>{copy.intro.title}</h2>
+    {copy.intro.body.map((p) => <p>{p}</p>)}
+  </div>
+</section>
+
+<section class="solar__section">
+  <div class="solar__wrap">
+    <h2>{copy.how.title}</h2>
+    <div class="solar__steps">
+      {copy.how.steps.map((s) => (
+        <article class="solar__step">
+          <span class="solar__step-n">{s.n}</span>
+          <h3>{s.title}</h3>
+          <p>{s.body}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="solar__section solar__honest">
+  <div class="solar__wrap solar__prose">
+    <h2>{copy.honest.title}</h2>
+    {copy.honest.body.map((p) => <p>{p}</p>)}
+  </div>
+</section>
+
+<section class="solar__section">
+  <div class="solar__wrap solar__prose">
+    <h2>{copy.equipment.title}</h2>
+    <p>{copy.equipment.body}</p>
+    <div class="solar__gallery">
+      {shots.map((src, i) => (
+        <div class="solar__shot">
+          <figure>
+            <img src={src} alt={copy.equipment.captions[i]} loading="lazy" width="800" height="600" />
+            <figcaption>{copy.equipment.captions[i]}</figcaption>
+          </figure>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<section class="solar__section solar__cta">
+  <div class="solar__wrap">
+    <h2>{copy.cta.title}</h2>
+    <p>{copy.cta.body}</p>
+    <a class="solar__btn" href={contacts}>{copy.cta.button}</a>
+  </div>
+</section>

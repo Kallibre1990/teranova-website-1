@@ -36,6 +36,13 @@ export function mainNav(lang: Lang): { label: string; href: string }[] {
   const t = ui[lang];
   return [
     { label: t.nav.catalog, href: localizePath('/catalog', lang) },
+    // Solar Care — отдельное направление со своим разделом. Страница существует
+    // только на русском и английском, поэтому на остальных локалях ссылки нет:
+    // ссылка на несуществующую страницу вредит ровно тому поиску, ради которого
+    // сайт сводили к одному домену. Название бренда не переводится.
+    ...(lang === 'ru' || lang === 'en'
+      ? [{ label: 'Solar Care', href: localizePath('/solar-care', lang) }]
+      : []),
     { label: t.nav.suppliers, href: localizePath('/suppliers', lang) },
     { label: t.nav.buyers, href: localizePath('/buyers', lang) },
     { label: t.nav.tenders, href: localizePath('/tenders', lang) },
