@@ -201,8 +201,13 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
         border-color: #b8452f; box-shadow: 0 0 0 3px rgba(184, 69, 47, 0.15);
       }
       .solar__form .oform__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
-      .solar__err { color: #b8452f; font-size: 14px; margin: 16px 0 0; }
-      .solar__err a { color: var(--amber-deep); }
+      /* Внутри светлой карточки формы цвета задаём с большей специфичностью, чем
+         `.solar__cta p`: иначе правило тёмной секции перекрашивает подсказку и
+         ошибку в почти белый и контраст падает до 1.32:1 (ревью Codex 27.08).
+         Речь не о красоте: посетитель перестаёт видеть, почему заявка не ушла. */
+      .solar__form .solar__err { color: #a8341f; font-size: 14px; margin: 16px 0 0; }
+      .solar__form .solar__err a { color: var(--amber-deep); }
+      .solar__form .solar__hint { color: var(--ink-soft); }
       .solar__submit { margin-top: 20px; border: 0; cursor: pointer; font: inherit; font-size: 16px; }
       .solar__submit:disabled { opacity: 0.6; cursor: default; }
       .solar__hint { font-size: 13.5px; color: var(--ink-soft); margin: 14px 0 0; }
