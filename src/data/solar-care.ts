@@ -82,7 +82,7 @@ export const solarCopy: Record<SolarLang, SolarCopy> = {
       body: 'Работаем с сухими и влажными системами очистки для наземных станций с трекерами и для крышных массивов. Конкретная модель выбирается под площадку, поэтому мы начинаем с данных, а не с каталога.',
       captions: [
         'Наземный массив в пустынном климате',
-        'Длинные ряды на трекерах',
+        'Механизированная очистка',
         'Крышный массив',
       ],
     },
@@ -150,7 +150,7 @@ export const solarCopy: Record<SolarLang, SolarCopy> = {
       body: 'We work with dry and wet cleaning systems for ground-mounted plants on trackers and for rooftop arrays. The model is chosen for the site, which is why we start with data rather than with a catalogue.',
       captions: [
         'Ground-mounted array in a desert climate',
-        'Long rows on trackers',
+        'Mechanised cleaning',
         'Rooftop array',
       ],
     },
