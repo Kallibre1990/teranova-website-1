@@ -1243,6 +1243,17 @@ export const suppliers: SupplierProfile[] = [
       { src: '/video/multifit/mulr-e.mp4', poster: '/video/multifit/mulr-e.jpg', name: 'MULR-E' },
       { src: '/video/multifit/mr-t1.mp4', poster: '/video/multifit/mr-t1.jpg', name: 'MR-T1' },
       { src: '/video/multifit/mr-g3.mp4', poster: '/video/multifit/mr-g3.jpg', name: 'MR-G3' },
+      /* Проектные кейсы, присланные MULTIFIT 28.08.2026 после нашей просьбы о
+         материалах приличного качества. Названия — страны объектов, они
+         одинаково читаются во всех одиннадцати языках. Ливанский ролик несёт
+         в кадре собственную подпись объекта: 300 kW, Триполи, модель MR-G2.
+         Ролики из США и Ливана сняты вертикально; чтобы сетка не ломалась,
+         они вписаны в кадр 1280×720 с размытой подложкой, без обрезки. */
+      { src: '/video/multifit/case-lebanon.mp4', poster: '/video/multifit/case-lebanon.jpg', name: 'Lebanon · MR-G2' },
+      { src: '/video/multifit/case-malta.mp4', poster: '/video/multifit/case-malta.jpg', name: 'Malta' },
+      { src: '/video/multifit/case-malaysia.mp4', poster: '/video/multifit/case-malaysia.jpg', name: 'Malaysia' },
+      { src: '/video/multifit/case-pakistan.mp4', poster: '/video/multifit/case-pakistan.jpg', name: 'Pakistan' },
+      { src: '/video/multifit/case-usa.mp4', poster: '/video/multifit/case-usa.jpg', name: 'USA' },
     ],
     i18n: {
       ru: mk(multifitRu as any),

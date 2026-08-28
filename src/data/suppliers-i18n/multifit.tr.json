@@ -13,7 +13,8 @@
    "MR-G, MR-T1 ve MR-XY robotları ile sıralar arası taşıma için MR-AR arabası",
    "Su tahrikli model dâhil MULR fırça serisi",
    "Kirlenme panel üretimini %20–36'ya düşürür; temizlikten sonra verim %90–95'e döner",
-   "Her model kendi hesabıyla gelir: saatte m², günlük kapasite, belirli dizi için süre"
+   "Her model kendi hesabıyla gelir: saatte m², günlük kapasite, belirli dizi için süre",
+   "Lübnan, Malta, Malezya, Pakistan ve ABD'de çalışan tesisler — görüntüleri bu sayfada"
   ],
   "channels": [
    "Güneş santrali sahipleri ve işletmecileri",
@@ -60,7 +61,7 @@
    "Yedek parça ve sarf malzemeleri",
    "Test için demo cihazlar"
   ],
-  "exportNote": "Şirket ihracat yapar ve her model için ayrıntılı teklif verir. Teslim şekli EXW veya FOB; lojistik, gümrük ve işlemin takibi Teranova tarafından koordine edilir. Test için demo cihaz ayrıca görüşülür.",
+  "exportNote": "Şirket ihracat yapar ve her model için ayrıntılı teklif verir. Teslim şekli EXW veya FOB; lojistik, gümrük ve işlemin takibi Teranova tarafından koordine edilir. Test için demo cihaz ayrıca görüşülür. Şirketin materyalleri arasında kesin rakamları olan bir proje var: Lübnan'ın Trablus kentinde 300 kW çatı santrali, MR-G2 robotuyla temizleniyor — rakamlar kendi videolarındaki altyazıdan alınmıştır.",
   "terms": [
    {
     "label": "Çalışma biçimleri",
@@ -125,6 +126,6 @@
   "gallery_h": "Sahada ekipman",
   "gallery_note": "Saha ve ekipman fotoğrafları MULTIFIT tarafından sağlanmıştır. Bizim ziyaretimizden değildir: bu tedarikçinin durumu «Firma tarafından sağlanan bilgi» şeklindedir.",
   "video_h": "Üreticinin videoları",
-  "video_note": "MULTIFIT tarafından çekilmiş ve izinleriyle yayımlanmıştır. Görüntüdeki altyazılar İngilizcedir."
+  "video_note": "MULTIFIT tarafından çekilmiş ve izinleriyle yayımlanmıştır. Görüntüdeki altyazılar İngilizcedir. Ürün videolarının altında, çalışan sahalarda çekilmiş beş proje örneği var: Lübnan, Malta, Malezya, Pakistan ve ABD. Bunlardan ikisi dikey çekilmiş ve kırpılmadan ortak kadraja yerleştirilmiştir. ABD örneği yedi buçuk dakikalık tek bir kesintisiz çekimdir; sayfada ilk 75 saniyesi gösteriliyor."
  }
 }
