@@ -1227,6 +1227,14 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/multifit-presentation-ru.pdf', en: '/docs/multifit-presentation-en.pdf', ko: '/docs/multifit-presentation-ko.pdf', zh: '/docs/multifit-presentation-zh.pdf', ja: '/docs/multifit-presentation-ja.pdf', it: '/docs/multifit-presentation-it.pdf', de: '/docs/multifit-presentation-de.pdf', fr: '/docs/multifit-presentation-fr.pdf', tr: '/docs/multifit-presentation-tr.pdf', es: '/docs/multifit-presentation-es.pdf', pt: '/docs/multifit-presentation-pt.pdf',
     },
     gallery: [
+      /* Первые четыре — кадры из проектных роликов, присланных 28.08.2026.
+         Это единственные снимки с названных объектов, и единственные, где
+         виден масштаб рядом с человеком и управление с телефона. Стоят первыми
+         намеренно: их видит покупатель, который дальше первой строки не идёт. */
+      '/img/suppliers/multifit/gallery/case-malaysia-operator.jpg',
+      '/img/suppliers/multifit/gallery/case-pakistan-app-control.jpg',
+      '/img/suppliers/multifit/gallery/case-lebanon-tripoli.jpg',
+      '/img/suppliers/multifit/gallery/case-usa-ground-array.jpg',
       '/img/suppliers/multifit/gallery/robot-rooftop-array.jpg',
       '/img/suppliers/multifit/gallery/robot-industrial-roof.jpg',
       '/img/suppliers/multifit/gallery/g2-rooftop-fleet.jpg',
