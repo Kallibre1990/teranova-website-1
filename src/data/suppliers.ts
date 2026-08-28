@@ -46,6 +46,17 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import bioptRu from './suppliers-i18n/biopt.ru.json';
+import bioptEn from './suppliers-i18n/biopt.en.json';
+import bioptKo from './suppliers-i18n/biopt.ko.json';
+import bioptZh from './suppliers-i18n/biopt.zh.json';
+import bioptJa from './suppliers-i18n/biopt.ja.json';
+import bioptIt from './suppliers-i18n/biopt.it.json';
+import bioptDe from './suppliers-i18n/biopt.de.json';
+import bioptFr from './suppliers-i18n/biopt.fr.json';
+import bioptTr from './suppliers-i18n/biopt.tr.json';
+import bioptEs from './suppliers-i18n/biopt.es.json';
+import bioptPt from './suppliers-i18n/biopt.pt.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1275,6 +1286,59 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(sunpureTr as any),
       es: mk(sunpureEs as any),
       pt: mk(sunpurePt as any),
+    },
+  },
+  {
+    slug: 'biopt',
+    category: 'cosmetics',
+    name: 'BIOPT Co., Ltd.',
+    brand: 'VENDERMA',
+    status: 'visited',
+    visitDate: '2026-08-13',
+    visitGallery: [
+      '/img/suppliers/biopt/visit/visit-1.jpg',
+      '/img/suppliers/biopt/visit/visit-2.jpg',
+      '/img/suppliers/biopt/visit/visit-3.jpg',
+      '/img/suppliers/biopt/visit/visit-4.jpg',
+      '/img/suppliers/biopt/visit/visit-5.jpg',
+      '/img/suppliers/biopt/visit/visit-6.jpg',
+      '/img/suppliers/biopt/visit/visit-7.jpg',
+    ],
+    /* Красный акцент Red Calming и тёплое золото EXO REJUVA — обе гаммы взяты
+       из их собственной презентации и упаковки. */
+    brandColors: { deep: '#2b2b2f', sky: '#e8b7b0', accent: '#c0392b', bg: '#f7f1ee' },
+    voice: 'clinical',
+    /* Каталога по позициям нет: пакшотов на белом фоне поставщик не присылал,
+       в презентации они врезаны в таблицы по 163 px. Линии показаны своими
+       фотографиями из их же материалов; названия линий латиницей и одинаковы
+       во всех одиннадцати языках, поэтому ключ здесь один на линию. */
+    lineShots: {
+      'Red Calming Cica Exosome': '/img/suppliers/biopt/lines/red-calming.jpg',
+      'EXO REJUVA Ultra Lifting': '/img/suppliers/biopt/lines/exo-rejuva.jpg',
+      'EXO REJUVA Mela-C': '/img/suppliers/biopt/lines/mela-c.jpg',
+      'ERI-Pro': '/img/suppliers/biopt/lines/eri-pro.jpg',
+    },
+    /* Прайс не публикуется: условие письменного согласия BIOPT от 18.08.2026 —
+       экспортные цены в открытом доступе не размещаются. Отсюда нет priceFile. */
+    certs: ['ISO 9001'],
+    termsFile: {
+      ru: '/docs/biopt-terms-ru.pdf', en: '/docs/biopt-terms-en.pdf', ko: '/docs/biopt-terms-ko.pdf', zh: '/docs/biopt-terms-zh.pdf', ja: '/docs/biopt-terms-ja.pdf', it: '/docs/biopt-terms-it.pdf', de: '/docs/biopt-terms-de.pdf', fr: '/docs/biopt-terms-fr.pdf', tr: '/docs/biopt-terms-tr.pdf', es: '/docs/biopt-terms-es.pdf', pt: '/docs/biopt-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/biopt-presentation-ru.pdf', en: '/docs/biopt-presentation-en.pdf', ko: '/docs/biopt-presentation-ko.pdf', zh: '/docs/biopt-presentation-zh.pdf', ja: '/docs/biopt-presentation-ja.pdf', it: '/docs/biopt-presentation-it.pdf', de: '/docs/biopt-presentation-de.pdf', fr: '/docs/biopt-presentation-fr.pdf', tr: '/docs/biopt-presentation-tr.pdf', es: '/docs/biopt-presentation-es.pdf', pt: '/docs/biopt-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(bioptRu as any),
+      en: mk(bioptEn as any),
+      ko: mk(bioptKo as any),
+      zh: mk(bioptZh as any),
+      ja: mk(bioptJa as any),
+      it: mk(bioptIt as any),
+      de: mk(bioptDe as any),
+      fr: mk(bioptFr as any),
+      tr: mk(bioptTr as any),
+      es: mk(bioptEs as any),
+      pt: mk(bioptPt as any),
     },
   },
 ];

@@ -258,6 +258,16 @@ const SUPPLIERS = [
     pres: true,
     certs: ['ISO 9001:2015', 'GMP', 'HALAL', 'FSSAI', 'Star Export House', 'DUNS', 'FIEO', 'Spices Board India', 'AYUSHEXCIL'],
   },
+  {
+    /* noPrice здесь не «прайса пока нет», а условие письменного согласия BIOPT
+       от 18.08.2026: экспортные цены в открытом доступе не размещаются. Прайс
+       не публикуем ни на странице, ни в PDF — ни сейчас, ни позже. */
+    id: 'biopt', json: 'biopt', supplier: 'BIOPT Co., Ltd.', brand: 'VENDERMA',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#2b2b2f', sky: '#c0392b', bg: '#f7f1ee', line: '#ecdedb' },
+    pres: true,
+    certs: ['ISO 9001'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
