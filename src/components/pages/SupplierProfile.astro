@@ -230,7 +230,7 @@ function lineShot(name: string): string | undefined {
     <section class="sp-sec sp-sec--tint">
       <div class="wrap">
         <span class="sp-lvl sp-lvl--visited">{t.verify.card_visited_t}{profile.visitDate ? ` · ${profile.visitDate}` : ''}</span>
-        <p class="sp-visit__note">{t.verify.card_visited_d}</p>
+        <p class="sp-visit__note">{c.visitNote ?? t.verify.card_visited_d}</p>
         <div class="sp-visit">
           {profile.visitGallery.map((src, i) => (
             <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${t.verify.card_visited_t}`}>
