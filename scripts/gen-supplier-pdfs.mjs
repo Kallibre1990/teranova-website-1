@@ -268,6 +268,16 @@ const SUPPLIERS = [
     pres: true,
     certs: ['ISO 9001'],
   },
+  {
+    /* noPrice — пункт 5 письменного согласия SEUNGGUN COSMETICS от 18.08.2026:
+       прайс EXW считается конфиденциальной коммерческой информацией и не
+       публикуется ни на площадке, ни в любом другом открытом канале. */
+    id: 'loobee', json: 'loobee', supplier: 'SEUNGGUN COSMETICS CO., LTD.', brand: 'LOOBEE',
+    basis: 'EXW Korea', noPrice: true,
+    colors: { deep: '#1f5f45', sky: '#3e9b72', bg: '#edf6f1', line: '#dbe9e1' },
+    pres: true,
+    certs: ['Vegan', 'Dermatest® EXCELLENT'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

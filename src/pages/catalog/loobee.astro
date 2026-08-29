@@ -1,0 +1,20 @@
+---
+/* Supplier profile: loobee (default locale, ru). LOOBEE by SEUNGGUN COSMETICS —
+   published under the company's signed Letter of Authorization of 18 August 2026.
+   Its clause 5 makes the EXW price list confidential, so there is no priceFile
+   and the page shows "price on request" only. Clause 8 forbids publishing the
+   personal contact details of their staff — none appear anywhere on the page. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('loobee')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

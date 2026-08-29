@@ -95,6 +95,7 @@ const SUPPLIERS = {
   multifit: { eyebrow: 'Supplier profile', title: 'MULTIFIT — solar panel cleaning robots & brushes', accent: '#f2b21c' },
   sunpure: { eyebrow: 'Supplier profile', title: 'Sunpure Extracts — standardised botanical actives from India', accent: '#4e9a5f' },
   biopt: { eyebrow: 'Supplier profile', title: 'VENDERMA by BIOPT — Korean exosome derma skincare', accent: '#c0392b' },
+  loobee: { eyebrow: 'Supplier profile', title: 'LOOBEE by SEUNGGUN COSMETICS — Korean vegan skincare', accent: '#3e9b72' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

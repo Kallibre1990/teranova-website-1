@@ -57,6 +57,18 @@ import bioptFr from './suppliers-i18n/biopt.fr.json';
 import bioptTr from './suppliers-i18n/biopt.tr.json';
 import bioptEs from './suppliers-i18n/biopt.es.json';
 import bioptPt from './suppliers-i18n/biopt.pt.json';
+import loobeeRu from './suppliers-i18n/loobee.ru.json';
+import loobeeEn from './suppliers-i18n/loobee.en.json';
+import loobeeKo from './suppliers-i18n/loobee.ko.json';
+import loobeeZh from './suppliers-i18n/loobee.zh.json';
+import loobeeJa from './suppliers-i18n/loobee.ja.json';
+import loobeeIt from './suppliers-i18n/loobee.it.json';
+import loobeeDe from './suppliers-i18n/loobee.de.json';
+import loobeeFr from './suppliers-i18n/loobee.fr.json';
+import loobeeTr from './suppliers-i18n/loobee.tr.json';
+import loobeeEs from './suppliers-i18n/loobee.es.json';
+import loobeePt from './suppliers-i18n/loobee.pt.json';
+import loobeeCatalog from './suppliers-i18n/loobee.catalog.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1362,6 +1374,43 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(bioptTr as any),
       es: mk(bioptEs as any),
       pt: mk(bioptPt as any),
+    },
+  },
+  {
+    slug: 'loobee',
+    category: 'cosmetics',
+    name: 'SEUNGGUN COSMETICS CO., LTD.',
+    brand: 'LOOBEE',
+    status: 'provided',
+    /* Мягкая зелень с их собственного каталога: бренд подан как clean beauty. */
+    brandColors: { deep: '#1f5f45', sky: '#8fc7ac', accent: '#3e9b72', bg: '#edf6f1' },
+    voice: 'natural',
+    catalog: loobeeCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Знаки с их материалов, оба нейтральны к языку страницы. Протоколы —
+       на стадии сделки: в согласии от 18.08.2026 они этого не запрещают, но и
+       копий не прикладывали. */
+    certs: ['Vegan', 'Dermatest® EXCELLENT'],
+    /* priceFile нет и не будет: пункт 5 письменного согласия — экспортный
+       прайс EXW конфиденциален и не публикуется ни на площадке, ни в любом
+       другом открытом канале. */
+    termsFile: {
+      ru: '/docs/loobee-terms-ru.pdf', en: '/docs/loobee-terms-en.pdf', ko: '/docs/loobee-terms-ko.pdf', zh: '/docs/loobee-terms-zh.pdf', ja: '/docs/loobee-terms-ja.pdf', it: '/docs/loobee-terms-it.pdf', de: '/docs/loobee-terms-de.pdf', fr: '/docs/loobee-terms-fr.pdf', tr: '/docs/loobee-terms-tr.pdf', es: '/docs/loobee-terms-es.pdf', pt: '/docs/loobee-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/loobee-presentation-ru.pdf', en: '/docs/loobee-presentation-en.pdf', ko: '/docs/loobee-presentation-ko.pdf', zh: '/docs/loobee-presentation-zh.pdf', ja: '/docs/loobee-presentation-ja.pdf', it: '/docs/loobee-presentation-it.pdf', de: '/docs/loobee-presentation-de.pdf', fr: '/docs/loobee-presentation-fr.pdf', tr: '/docs/loobee-presentation-tr.pdf', es: '/docs/loobee-presentation-es.pdf', pt: '/docs/loobee-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(loobeeRu as any),
+      en: mk(loobeeEn as any),
+      ko: mk(loobeeKo as any),
+      zh: mk(loobeeZh as any),
+      ja: mk(loobeeJa as any),
+      it: mk(loobeeIt as any),
+      de: mk(loobeeDe as any),
+      fr: mk(loobeeFr as any),
+      tr: mk(loobeeTr as any),
+      es: mk(loobeeEs as any),
+      pt: mk(loobeePt as any),
     },
   },
 ];
