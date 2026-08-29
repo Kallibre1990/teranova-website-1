@@ -90,7 +90,7 @@
       },
       {
         "label": "Minimum order",
-        "value": "The minimum batch depends on the item and is confirmed by the company against a specific list."
+        "value": "The minimum batch has not been provided; we are requesting it from TeamPass for a specific item list."
       },
       {
         "label": "How the work runs",

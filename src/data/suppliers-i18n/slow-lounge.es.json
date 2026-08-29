@@ -90,7 +90,7 @@
       },
       {
         "label": "Pedido mínimo",
-        "value": "El lote mínimo depende de la referencia y lo confirma la empresa sobre una lista concreta."
+        "value": "El lote mínimo no ha sido proporcionado; lo estamos solicitando a TeamPass para una lista concreta de artículos."
       },
       {
         "label": "Cómo se trabaja",
