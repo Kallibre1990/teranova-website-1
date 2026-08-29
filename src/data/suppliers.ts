@@ -69,6 +69,18 @@ import loobeeTr from './suppliers-i18n/loobee.tr.json';
 import loobeeEs from './suppliers-i18n/loobee.es.json';
 import loobeePt from './suppliers-i18n/loobee.pt.json';
 import loobeeCatalog from './suppliers-i18n/loobee.catalog.json';
+import slRu from './suppliers-i18n/slow-lounge.ru.json';
+import slEn from './suppliers-i18n/slow-lounge.en.json';
+import slKo from './suppliers-i18n/slow-lounge.ko.json';
+import slZh from './suppliers-i18n/slow-lounge.zh.json';
+import slJa from './suppliers-i18n/slow-lounge.ja.json';
+import slIt from './suppliers-i18n/slow-lounge.it.json';
+import slDe from './suppliers-i18n/slow-lounge.de.json';
+import slFr from './suppliers-i18n/slow-lounge.fr.json';
+import slTr from './suppliers-i18n/slow-lounge.tr.json';
+import slEs from './suppliers-i18n/slow-lounge.es.json';
+import slPt from './suppliers-i18n/slow-lounge.pt.json';
+import slCatalog from './suppliers-i18n/slow-lounge.catalog.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1411,6 +1423,55 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(loobeeTr as any),
       es: mk(loobeeEs as any),
       pt: mk(loobeePt as any),
+    },
+  },
+  {
+    slug: 'slow-lounge',
+    category: 'cosmetics',
+    name: 'TeamPass',
+    brand: 'SLOW LOUNGE',
+    status: 'provided',
+    /* Тёплый гриж с их бренд-буклета, тёмно-коричневый с этикетки Stressfree и
+       охра, которой у них набраны подзаголовки. */
+    brandColors: { deep: '#3E3128', sky: '#CBBBA6', accent: '#B8823C', bg: '#EFEFE9' },
+    /* Серифная подача, много воздуха, монограмма — их буклет построен ровно так. */
+    voice: 'minimal',
+    catalog: slCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Предметные раскладки из их же бренд-буклета: страница «#What's in my bag».
+       Кадры с лицами людей со страницы «#OOTD» не берём — прав на изображения
+       этих людей у нас нет, запрошены письмом. */
+    gallery: [
+      '/img/suppliers/slow-lounge/lifestyle/keyring-on-bag.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/airpods-flatlay.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/glasses-flatlay.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/desk-flatlay.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/bag-charm.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/waterdrop-robe.jpg',
+    ],
+    /* Знаки с их бренд-буклета. Копий протоколов нам не присылали, поэтому в
+       тексте они везде идут как заявленные компанией. */
+    certs: ['Vegan', 'EWG Green', 'Dermatologist Tested'],
+    /* priceFile нет. Пометки «конфиденциально» на их прайсе не стоит, но в нём
+       отпускные цены в 25–30 % от розницы: публикация такой цифры уничтожает
+       розницу бренда во всех странах сразу. На витрине «цена по запросу». */
+    termsFile: {
+      ru: '/docs/slow-lounge-terms-ru.pdf', en: '/docs/slow-lounge-terms-en.pdf', ko: '/docs/slow-lounge-terms-ko.pdf', zh: '/docs/slow-lounge-terms-zh.pdf', ja: '/docs/slow-lounge-terms-ja.pdf', it: '/docs/slow-lounge-terms-it.pdf', de: '/docs/slow-lounge-terms-de.pdf', fr: '/docs/slow-lounge-terms-fr.pdf', tr: '/docs/slow-lounge-terms-tr.pdf', es: '/docs/slow-lounge-terms-es.pdf', pt: '/docs/slow-lounge-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/slow-lounge-presentation-ru.pdf', en: '/docs/slow-lounge-presentation-en.pdf', ko: '/docs/slow-lounge-presentation-ko.pdf', zh: '/docs/slow-lounge-presentation-zh.pdf', ja: '/docs/slow-lounge-presentation-ja.pdf', it: '/docs/slow-lounge-presentation-it.pdf', de: '/docs/slow-lounge-presentation-de.pdf', fr: '/docs/slow-lounge-presentation-fr.pdf', tr: '/docs/slow-lounge-presentation-tr.pdf', es: '/docs/slow-lounge-presentation-es.pdf', pt: '/docs/slow-lounge-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(slRu as any),
+      en: mk(slEn as any),
+      ko: mk(slKo as any),
+      zh: mk(slZh as any),
+      ja: mk(slJa as any),
+      it: mk(slIt as any),
+      de: mk(slDe as any),
+      fr: mk(slFr as any),
+      tr: mk(slTr as any),
+      es: mk(slEs as any),
+      pt: mk(slPt as any),
     },
   },
 ];

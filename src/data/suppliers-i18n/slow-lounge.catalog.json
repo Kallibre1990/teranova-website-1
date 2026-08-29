@@ -1,0 +1,31 @@
+[
+  {
+    "line": "Stressfree",
+    "items": [
+      { "name": "Balm for Hand, Stressfree", "img": "/img/suppliers/slow-lounge/products/balm-hand-stressfree.jpg", "volume": "45 ml", "certs": ["Vegan"] },
+      { "name": "Balm for Body, Stressfree", "img": "/img/suppliers/slow-lounge/products/balm-body-stressfree.jpg", "volume": "200 ml" },
+      { "name": "Wash for Body, Stressfree", "img": "/img/suppliers/slow-lounge/products/wash-body-stressfree.jpg", "volume": "200 ml" }
+    ]
+  },
+  {
+    "line": "Waterdrop",
+    "items": [
+      { "name": "Balm for Hand, Waterdrop", "img": "/img/suppliers/slow-lounge/products/balm-hand-waterdrop.jpg", "volume": "45 ml", "certs": ["EWG Green"] },
+      { "name": "Balm for Body, Waterdrop", "img": "/img/suppliers/slow-lounge/products/balm-body-waterdrop.jpg", "volume": "200 ml" },
+      { "name": "Wash for Body, Waterdrop", "img": "/img/suppliers/slow-lounge/products/wash-body-waterdrop.jpg", "volume": "200 ml" }
+    ]
+  },
+  {
+    "line": "Sun Off",
+    "items": [
+      { "name": "Balm for Hand, Sun Off", "img": "/img/suppliers/slow-lounge/products/balm-hand-sunoff.jpg", "volume": "45 ml", "certs": ["SPF 15 PA++"] },
+      { "name": "Balm for Lip, Sun Off", "img": "/img/suppliers/slow-lounge/products/balm-lip-sunoff.jpg", "certs": ["SPF 10 PA++"] }
+    ]
+  },
+  {
+    "line": "Nude",
+    "items": [
+      { "name": "Balm for Lip, Nude", "img": "/img/suppliers/slow-lounge/products/balm-lip-nude.jpg", "volume": "7 g" }
+    ]
+  }
+]

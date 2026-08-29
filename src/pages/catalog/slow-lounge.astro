@@ -1,0 +1,22 @@
+---
+/* Supplier profile: slow-lounge (default locale, ru). SLOW LOUNGE by TeamPass —
+   published on the company's written authorization of 28 August 2026, given by
+   its CEO in reply to our proposal. The export price list carries no
+   confidentiality marking, but it holds supply prices at 25–30 % of retail, so
+   there is no priceFile and the page shows "price on request" only. The
+   gallery uses the company's still-life photographs; the #OOTD page of its
+   brand book shows identifiable people and is deliberately left out. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('slow-lounge')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

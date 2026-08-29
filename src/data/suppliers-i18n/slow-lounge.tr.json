@@ -1,0 +1,140 @@
+{
+  "content": {
+    "tagline": "Parmak uçlarında sakinlik",
+    "descriptor": "Kore yapımı el, vücut ve dudak bakımı: çantanın dışında taşınan zincirli el balmı ve üç formül — Stressfree, Waterdrop ve Sun Off",
+    "origin": "Kore",
+    "about": [
+      "SLOW LOUNGE, el, vücut ve dudak bakımı yapan bir Kore markasıdır. Markayı Seul merkezli TeamPass şirketi yürütür ve marka Ocak 2026'da piyasaya çıktı.",
+      "Şirket markayı işlev listesi üzerine değil, kullanım anındaki his üzerine kuruyor. Kendi marka kitapçığında da açıkça yazıyor: günün temposunu bir anlığına yavaşlatmak ve sakinliği eller yoluyla geri bulmak.",
+      "Seride en çok tanınan ürün, kilitli zincire takılı el balmıdır. İnsanlar onu çantaya, telefona ya da termosa takıyor, böylece krem normalde bulunmadığı yerde elin altında oluyor. Şirket bu biçimi keyring hand cream olarak adlandırıyor ve markanın hem kısa videoda hem rafta görünür olmasının nedeni budur.",
+      "Aynı düşünceyle yapılmış ikinci ürün, şirketin telefon tutucusuyla birlikte sunduğu kare dudak balmıdır. Fark, müşteri içerik listesini okumadan önce rafta görülüyor."
+    ],
+    "facts": [
+      "Marka Ocak 2026'da çıktı, işleten şirket Seul merkezli TeamPass",
+      "Üç temel formül: patentli B-Circadin™ ile Stressfree, İtalyan termal suyu ve seramitlerle Waterdrop, Yeni Zelanda manuka balı ve SPF ile Sun Off",
+      "Anahtarlık biçimi: kilit ve zincirle çantaya, telefona ya da termosa takılır",
+      "Şirkete göre Stressfree serisi yedi parametrede klinik testleri tamamladı",
+      "Şirkete göre Stressfree ve Waterdrop serilerinin tahriş indeksi 0,00",
+      "Şirket vegan formül ve Waterdrop serisi için EWG Green derecesi bildiriyor"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Perakende zincirleri ve güzellik mağazaları",
+      "Çevrimiçi pazar yerleri ve e-ticaret",
+      "Hediyelik, aksesuar ve yaşam tarzı mağazaları",
+      "Rafta göze çarpan ürün arayan satın almacılar"
+    ],
+    "lines": [
+      {
+        "name": "Stressfree",
+        "note": "Markanın ana serisi. İçinde patentli bileşen B-Circadin™, yani çalı yoncası özütü, yüzde 3 oranında bulunuyor; yanına NAD+, NMN, adenozin ve niasinamid ekleniyor. Şirket stres altındaki cildin bakımını, mavi ışığa karşı korumayı ve cildin günlük ritmine desteği anlatıyor. Seride el balmı, vücut balmı ve duş jeli var; vücut kokusu aromatik odunsu olarak tanımlanıyor."
+      },
+      {
+        "name": "Waterdrop",
+        "note": "İtalyan termal suyu, beş seramitli kompleks ve nem kapsülleri üzerine kurulu nemlendirici seri. Doku, sürüldüğünde suya dönüşen bir jöle olarak anlatılıyor. Şirket aktifleri kararlı tutmanın yolu olarak mikroakışkan kapsülleme gösteriyor. Seride el balmı, vücut balmı ve duş jeli var; vücut kokusu suda müge."
+      },
+      {
+        "name": "Sun Off",
+        "note": "Günlük güneş koruması serisi: eller için SPF 15 PA++, dudaklar için SPF 10 PA++. İçinde UMF 20+ Yeni Zelanda manuka balı ve aynı B-Circadin™ var. Şirket yüz saatlik bir süreci anlatıyor: elli saat fermantasyon ve elli saat düşük sıcaklıkta dinlendirme."
+      },
+      {
+        "name": "Nude",
+        "note": "Kare kavanozda renkli dudak balmı. Doğal bir renk veriyor ve şirketin anlatımına göre dudak tonunu eşitlemeye çalışıyor. Markanın telefon tutucusuyla birlikte sunduğu biçim tam olarak budur."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Patentli bileşen B-Circadin™",
+        "note": "Şirketin Stressfree ve Sun Off serilerinde yüzde 3 oranında kullandığı çalı yoncası özütü. Şirket verilerine göre stres altındaki cildin bakımına, mavi ışığa karşı korumaya ve cildin günlük ritmine destek olmaya çalışıyor."
+      },
+      {
+        "name": "İtalyan termal suyu ve beş seramit",
+        "note": "Waterdrop serisinin temeli. Şirket mineralce zengin termal suyu, beş seramitli kompleksi, doğal nemlendirici faktörleri ve kendi verilerine göre kendi ağırlığının altı bin katına kadar su tutan hyaluronik asidi gösteriyor."
+      },
+      {
+        "name": "Mikroakışkan kapsüller",
+        "note": "Şirketin Waterdrop serisinde belirttiği iletim yöntemi. Kapsüller sürüldüğünde açılıyor ve doku jöleden suya geçiyor."
+      },
+      {
+        "name": "UMF 20+ manuka balı",
+        "note": "Sun Off serisinin bileşeni. Şirket üretimin yüzde birinden azından seçilmiş Yeni Zelanda balını ve yüz saatlik süreci belirtiyor: maya ve probiyotiklerle elli saat fermantasyon, ardından düşük sıcaklıkta elli saat dinlendirme."
+      },
+      {
+        "name": "Ambalaj ürünün parçası",
+        "note": "El balmında kilit ve zincir, dudak balmında kare kavanoz ve ayrı satılan telefon tutucusu. Şirket bu biçimleri çantanın içinde değil dışında taşınacak şekilde tasarlıyor."
+      }
+    ],
+    "formats": [
+      "45 ml el balmları",
+      "Kare kavanozda dudak balmları",
+      "200 ml vücut balmları",
+      "200 ml duş jelleri",
+      "Renkli dudak balmı",
+      "El ve dudak için SPF'li ürünler",
+      "Balmın aksesuarı olarak telefon tutucusu",
+      "Hediye setleri ve mevsimlik teşhir düzenleri"
+    ],
+    "exportNote": "Şirket yurt dışı dağıtımını genişletiyor ve 26 Ağustos 2026 tarihli mektubunda Güney Amerika'ya ilgisini doğrudan belirtti. Bugün hangi ülkelere ihracat yaptığını bize söylemedi, bu yüzden burada hiçbirini saymıyoruz. Teranova Latin Amerika ve Kuzey Amerika'da çalışıyor ve marka için anahtarlık biçiminin uzun açıklama olmadan hemen anlaşıldığı ülkeleri ve kanalları arıyor.",
+    "terms": [
+      {
+        "label": "İş birliği biçimleri",
+        "value": "SLOW LOUNGE markalı bitmiş ürünlerin toptan tedariki. Şirket ithalatçılar, distribütörler, perakende ve profesyonel satış kanallarıyla çalışmaya açık."
+      },
+      {
+        "label": "Coğrafya",
+        "value": "Şirketin önceliği yeni dış pazarlara girmek ve Güney Amerika'ya ilgisini ayrıca belirtti. Yayın izni münhasır değildir: Teranova şirketin acentesi ya da distribütörü değildir."
+      },
+      {
+        "label": "Fiyatlar",
+        "value": "Fiyat talep üzerine. Şirketin ihracat fiyat listesini yayımlamıyoruz: tedarik fiyatları açığa çıktığında markanın diğer ülkelerdeki perakende fiyatı çöker. Gerçek koşullar işlem aşamasında Teranova üzerinden iletilir ve kendi hizmet bedelimizden ayrı bir satırda gösterilir."
+      },
+      {
+        "label": "Asgari sipariş",
+        "value": "Asgari parti ürüne göre değişir ve belirli bir liste üzerinden şirket tarafından onaylanır."
+      },
+      {
+        "label": "Süreç nasıl işler",
+        "value": "Talep → Teranova'nın kontrolü ve mutabakatı → görüşme ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
+      }
+    ],
+    "consentNote": "Veriler, görseller ve materyaller SLOW LOUNGE markasının sahibi TeamPass tarafından sağlanmış olup 28 Ağustos 2026 tarihli yazılı izniyle yayımlanmaktadır. Belirtilen özellikler, formüller ve test sonuçları şirketin verilerine göre aktarılmıştır.",
+    "seoTitle": "SLOW LOUNGE (TeamPass) — Kore yapımı el, vücut ve dudak bakımı · Teranova",
+    "seoDesc": "TeamPass markası SLOW LOUNGE: çantanın dışında taşınan zincirli Kore el balmı, Stressfree, Waterdrop ve Sun Off serileri, vücut ve dudak bakımı. Teranova üzerinden toptan tedarik ve ihracat.",
+    "catalog_notes": [
+      "Balm for Hand, Stressfree — işte o anahtarlık balmı: kilit ve zincir sayesinde çantanın dışında taşınıyor. Yoğun balm dokusu, içinde yüzde 3 B-Circadin™, NAD+, NMN, adenozin ve niasinamid. Şirket yedi parametrede klinik test bildiriyor.",
+      "Balm for Body, Stressfree — aynı patentli bileşenle yapılmış vücut balmı. Şirket kokuyu aromatik odunsu olarak tanımlıyor.",
+      "Wash for Body, Stressfree — aynı serinin duş jeli, jelden köpüğe geçiyor. Koku, balmda olduğu gibi aromatik odunsu.",
+      "Balm for Hand, Waterdrop — nemlendirici serinin anahtarlık balmı. Doku, sürüldüğünde suya dönüşen jöle olarak anlatılıyor; içinde İtalyan termal suyu, beş seramit ve nem kapsülleri var.",
+      "Balm for Body, Waterdrop — aynı su dokusuna sahip vücut balmı. Şirket kokuyu suda müge olarak tanımlıyor.",
+      "Wash for Body, Waterdrop — Waterdrop serisinin duş jeli, jelden köpüğe geçiyor. Koku suda müge.",
+      "Balm for Hand, Sun Off — SPF 15 PA++ günlük güneş korumalı anahtarlık balmı. İçinde UMF 20+ Yeni Zelanda manuka balı ve B-Circadin™ var.",
+      "Balm for Lip, Sun Off — SPF 10 PA++ kare dudak balmı. Şirket bunu plaj ürünü olarak değil, günlük dudak koruması olarak konumluyor.",
+      "Balm for Lip, Nude — kare kavanozda renkli balm: doğal renk ve bakım bir arada. Markanın telefon tutucusuyla birlikte sunduğu biçim budur."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün serileri",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Formül ve yaklaşım",
+    "products_h": "Ürünler",
+    "products_note": "Dört formülde el, vücut ve dudak bakımı. Stressfree patentli B-Circadin™ üzerine kurulu, Waterdrop termal su ve seramitlere dayanıyor, Sun Off SPF ve manuka balı ekliyor, Nude dudaklara doğal renk veriyor. Fiyat talep üzerine.",
+    "formats_h": "Ürün biçimleri",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve işlem aşamasında Teranova üzerinden kesinleşir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz: görüşmeyi, kontrolü ve teslimatı Teranova Group yürütür.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — ilk temastan teslimata kadar görüşmeyi, kontrolleri ve işin tamamını Teranova düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Bildirilen işaretler",
+    "certs_note": "İşaretler şirketin kendi materyallerinden alındı: vegan formül, EWG Green derecesi ve dermatolojik test. Rapor kopyaları bize gönderilmediği için işaretler şirketin beyanı olarak veriliyor.",
+    "gallery_h": "Nasıl taşınıyor",
+    "gallery_note": "Ürün fotoğrafları TeamPass tarafından sağlandı. Anahtarlık biçiminin ne işe yaradığını gösteriyorlar: balm çantanın dibinde kalmak yerine kulaklık ve gözlüğün yanında asılı duruyor. Bunlar şirketin kendi materyalleri, bizim fabrika ziyaretimiz değil: tedarikçi durumu «Bilgi şirket tarafından sağlandı»."
+  }
+}

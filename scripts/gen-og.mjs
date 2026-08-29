@@ -96,6 +96,7 @@ const SUPPLIERS = {
   sunpure: { eyebrow: 'Supplier profile', title: 'Sunpure Extracts — standardised botanical actives from India', accent: '#4e9a5f' },
   biopt: { eyebrow: 'Supplier profile', title: 'VENDERMA by BIOPT — Korean exosome derma skincare', accent: '#c0392b' },
   loobee: { eyebrow: 'Supplier profile', title: 'LOOBEE by SEUNGGUN COSMETICS — Korean vegan skincare', accent: '#3e9b72' },
+  'slow-lounge': { eyebrow: 'Supplier profile', title: 'SLOW LOUNGE by TeamPass — Korean hand, body and lip care', accent: '#B8823C' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

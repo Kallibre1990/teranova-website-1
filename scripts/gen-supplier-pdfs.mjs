@@ -278,6 +278,17 @@ const SUPPLIERS = [
     pres: true,
     certs: ['Vegan', 'Dermatest® EXCELLENT'],
   },
+  {
+    /* noPrice — экспортный прайс TeamPass пометки «конфиденциально» не несёт,
+       но содержит отпускные цены в 25–30 % от розницы. Публикация такой цифры
+       уничтожает розничную цену бренда во всех странах сразу, поэтому на
+       витрине и в документах стоит «цена по запросу». */
+    id: 'slow-lounge', json: 'slow-lounge', supplier: 'TeamPass', brand: 'SLOW LOUNGE',
+    basis: 'EXW Korea', noPrice: true,
+    colors: { deep: '#3E3128', sky: '#B8823C', bg: '#EFEFE9', line: '#E2E0D6' },
+    pres: true,
+    certs: ['Vegan', 'EWG Green', 'Dermatologist Tested'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
