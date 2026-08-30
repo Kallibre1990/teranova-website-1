@@ -1,159 +1,159 @@
 {
- "content": {
-  "tagline": "Kozmetik markanızı dünya pazarına taşıyan ortak",
-  "descriptor": "Koreli kozmetik grubu: OEM/ODM üretim ve kendi markaları",
-  "origin": "Kore",
-  "about": [
-   "DREAMCOS, geliştirme, üretim ve markaların uluslararası pazara taşınmasını bir araya getiren Koreli kozmetik grubunun ana şirketidir. Gruba, kendi OEM/ODM fabrikası Atoz International ile her biri kendi marka portföyüne sahip General Brands ve Celebritykorea marka bölümleri dahildir.",
-   "Grup, formül ve numune geliştirmeden üretim, ambalaj, ihracat ve pazarlamaya kadar uzanan uçtan uca bir platform olarak çalışır. Ürünler, perakende zincirleri ve pazaryerleri aracılığıyla Asya, Kuzey Amerika ve Avrupa ülkelerine tedarik edilmektedir.",
-   "Şirket, ulusal düzeyde ihracatçı olarak öne çıkmakta ve Kore Cumhuriyeti'nin gelecek vadeden işletmeleri arasında yer almaktadır."
-  ],
-  "facts": [
-   "Uçtan uca kozmetik grubu",
-   "Kendi OEM/ODM fabrikası (Atoz International)",
-   "ISO 9001 · ISO 22716 (GMP)",
-   "7 markadan oluşan portföy",
-   "Asya, Amerika ve Avrupa'ya ihracat"
-  ],
-  "channels": [
-   "Kozmetik ithalatçıları ve distribütörleri",
-   "Perakende ve eczane zincirleri",
-   "Pazaryerleri ve e-ticaret",
-   "Kendi mağazalar ve çok markalı mağazalar"
-  ],
-  "lines": [
-   {
-    "name": "DUFT&DOFT",
-    "note": "Grubun amiral gemisi markası: parfümlü vücut, el ve saç bakımı ile niş parfüm. Kore perakende sektöründe (Olive Young zinciri) geniş yer almaktadır."
-   },
-   {
-    "name": "SALMON:LAB",
-    "note": "Somon DNA'sından elde edilen PDRN ile premium onarıcı bakım: VGENE serisi ampuller, serumlar ve kremler, beş aşamalı bakım sistemi."
-   },
-   {
-    "name": "RUDIA",
-    "note": "Aktif formüllerle (glutatyon, niasinamid, bakuçiol) hassas ciltler için fonksiyonel bakım: serumlar ve besleyici kremler. Markanın 2026'da yeniden lansmanı."
-   },
-   {
-    "name": "LOVELYCC",
-    "note": "Genç kitle için uygun fiyatlı makyaj ürünleri ve güneş koruma: CC kremler, kuşonlar, tintler, far. Grubun amiral gemisi kendi markası."
-   },
-   {
-    "name": "LADYBIZ",
-    "note": "Makyaj ürünleri: dudak tintleri, far, kuşon kapatıcılar. Her gün için şık ve pratik makyaj."
-   },
-   {
-    "name": "NOLIE",
-    "note": "Genç kitle için premium vücut bakımı ve kişisel bakım ürünleri."
-   },
-   {
-    "name": "CAMIHOUSE",
-    "note": "Kozmetik markalarını yurt dışı pazarlara taşımak için grubun perakende ve hızlandırma platformu; amiral gemisi mağazaları da dahildir."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Uçtan uca OEM/ODM",
-    "note": "Grubun kendi fabrikası Atoz International (Sejong): geliştirme, üretim, ambalajlama. 7-10 günde numune, günde yaklaşık 20 tona kadar üretim kapasitesi, 7 ambalaj hattı."
-   },
-   {
-    "name": "Somon DNA'sından PDRN",
-    "note": "SALMON:LAB markasının (VGENE serisi) somon DNA'sından elde edilen polinükleotidler — PDRN — bazlı premium onarıcı kozmetiği."
-   },
-   {
-    "name": "Parfüm geliştirme",
-    "note": "Parfümlü vücut ve saç bakımı ile niş parfüm alanında kendi uzmanlığı (DUFT&DOFT, NOLIE markaları)."
-   }
-  ],
-  "formats": [
-   "Serumlar ve ampuller",
-   "Kremler ve emülsiyonlar",
-   "Maskeler",
-   "CC kremler ve kuşonlar",
-   "Tintler, far, kapatıcılar",
-   "Güneş koruma",
-   "Parfüm ve vücut mistleri",
-   "Saç bakımı",
-   "Kişisel bakım ürünleri"
-  ],
-  "exportNote": "Grup markalarının ürünleri, perakende zincirleri ve pazaryerleri (Olive Young, Tmall, Amazon, iHerb, Qoo10, Shopee dahil) aracılığıyla Asya, Güneydoğu Asya, Kuzey Amerika ve Avrupa ülkelerine tedarik edilmektedir. Latin Amerika pazarları için materyaller Teranova aracılığıyla yayımlanmaktadır.",
-  "terms": [
-   {
-    "label": "İş birliği biçimleri",
-    "value": "Markalara göre bitmiş ürünlerin toptan tedariki; OEM/ODM — müşteri markası altında geliştirme ve üretim."
-   },
-   {
-    "label": "Minimum sipariş",
-    "value": "İşlem aşamasında marka ve ürün kalemine göre netleştirilir."
-   },
-   {
-    "label": "Fiyatlar",
-    "value": "Yaklaşık toptan fiyat aralığı: SALMON:LAB — FOB şartlarıyla, diğer markalar — EXW; kesin fiyatlar talep üzerine."
-   },
-   {
-    "label": "Nasıl işler",
-    "value": "Talep → Teranova incelemesi ve mutabakat → görüşmeler ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
-   }
-  ],
-  "consentNote": "Veriler ve materyaller Dreamcos grubu şirketleri (General Brands, Inc. ve Celebritykorea Corporation) tarafından sağlanmıştır ve Latin Amerika pazarları için şirketlerin yazılı onayıyla yayımlanmaktadır. Üreticinin doğrudan iletişim bilgileri paylaşılmamaktadır. Teranova işlemi koordine eder ve destekler.",
-  "seoTitle": "DREAMCOS — Koreli kozmetik grubu · Teranova",
-  "seoDesc": "DREAMCOS, Koreli kozmetik grubunun ana şirketidir: kendi OEM/ODM fabrikası ve DUFT&DOFT, SALMON:LAB, RUDIA, LOVELYCC, LADYBIZ, NOLIE markaları. Tedarik ve işlem takibi Teranova aracılığıyla.",
-  "catalog_notes": [
-   "DUFT&DOFT grubunun amiral markasının parfümlü el kremi; 6 koku seçeneği.",
-   "Cildin su bariyerini güçlendiren parfümlü el kremi; 6 koku.",
-   "Parfümlü vücut misti; 7 koku seçeneği.",
-   "Fine Fragrance serisi saç ve vücut misti; 4 koku.",
-   "Parfümlü vücut losyonu; 5 koku seçeneği.",
-   "Parfümlü duş jeli; 4 koku seçeneği.",
-   "Rahatlatıcı spa duş jeli; 3 koku seçeneği.",
-   "Signature serisi parfümlü vücut peelingi; 4 koku.",
-   "Apple Sophy kokulu parfümlü vücut peeling misti.",
-   "Enriched Perfume serisi parfümlü saç şampuanı.",
-   "Sophy Sophy kokulu parfümlü saç kremi.",
-   "Signature serisi kafeinli parfümlü saç derisi toniği.",
-   "Cilde ışıltı ve ton eşitliği kazandıran glutatyonlu serum.",
-   "Bakuchiol içeren onarıcı serum (retinole bitkisel alternatif).",
-   "Gözenek bakımı için arındırıcı serum.",
-   "Cildi yoğun besleyen Crown serisi pantenollü besleyici krem.",
-   "Cilde ışıltı veren Crown serisi havuçlu vitamin ampulü.",
-   "Crown serisinin Master Benone ampulü; idebenon ve kolajen içerir, şirketin verdiği bilgiye göre pigmentasyon ve akne izlerine yöneliktir.",
-   "Crown serisi kolajen ve EGF kompleksli onarıcı ampul.",
-   "Ton açıcı etkili esanslı güneş koruyucu cushion, SPF50+ PA+++.",
-   "Kapatıcılık sağlayan güneş korumalı CC krem, SPF50+ PA+++.",
-   "9 tonluk göz farı paleti.",
-   "Kusurları kapatan konsiler.",
-   "Sweet Candy kompakt allık.",
-   "Bakım sağlayan dudak yağı; 3 ton seçeneği.",
-   "City Girl serisi güneş korumalı kapatıcı cushion, SPF50+ PA+++.",
-   "Ton açıcı etkili PDRN içeren güneş koruyucu krem, SPF50+ PA++++.",
-   "City Girl serisi parlak dudak tinti.",
-   "Fresh Flash serisi kokulu duş jeli.",
-   "Ampul konsantreli intim hijyen ürünü; 2 çeşit.",
-   "Katı parfümlü vücut balmı."
-  ]
- },
- "ui": {
-  "profile_sup": "Tedarikçi profili",
-  "about_h": "Şirket hakkında",
-  "for_whom": "Kimler için:",
-  "lines_h": "Grubun markaları",
-  "catalog_h": "Ürün kataloğu",
-  "tech_h": "Yetenekler ve teknolojiler",
-  "products_h": "Ürünler",
-  "products_note": "Dreamcos grubunun markaları cilt bakımı, makyaj, güneş koruma ve parfümlü vücut bakımını kapsar.",
-  "formats_h": "Ürün formatları",
-  "export_h": "İhracat ve pazarlar",
-  "terms_h": "İş birliği koşulları",
-  "download_btn": "Koşulları indir (PDF)",
-  "price_btn": "Fiyat listesini indir (PDF)",
-  "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve Teranova aracılığıyla işlem aşamasında kesinleşir. Üreticinin doğrudan iletişim bilgileri yayınlanmaz.",
-  "cta_h": "Bu üretici ilginizi çekti mi?",
-  "cta_d": "Bizimle iletişime geçin — Teranova, ilk temastan teslimata kadar müzakereleri, incelemeyi ve işlem takibini organize eder.",
-  "cta_btn": "Teranova aracılığıyla iletişime geçin",
-  "more": "Profili aç →",
-  "verified_suppliers": "Doğrulanmış tedarikçiler",
-  "certs_h": "Sertifikalar ve tesciller",
-  "certs_note": "Şirket tarafından beyan edilmiştir. ISO 9001 ve ISO 22716 (GMP), grubun üretim tesisi (Atoz International) adına düzenlenmiştir. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır.",
-  "pres_btn": "Sunumu indir (PDF)"
- }
+  "content": {
+    "tagline": "Kozmetik markanızı dünya pazarına taşıyan ortak",
+    "descriptor": "Koreli kozmetik grubu: OEM/ODM üretim ve kendi markaları",
+    "origin": "Kore",
+    "about": [
+      "DREAMCOS, geliştirme, üretim ve markaların uluslararası pazara taşınmasını bir araya getiren Koreli kozmetik grubunun ana şirketidir. Gruba, kendi OEM/ODM fabrikası Atoz International ile her biri kendi marka portföyüne sahip General Brands ve Celebritykorea marka bölümleri dahildir.",
+      "Grup, formül ve numune geliştirmeden üretim, ambalaj, ihracat ve pazarlamaya kadar uzanan uçtan uca bir platform olarak çalışır. Ürünler, perakende zincirleri ve pazaryerleri aracılığıyla Asya, Kuzey Amerika ve Avrupa ülkelerine tedarik edilmektedir.",
+      "Şirket, ulusal düzeyde ihracatçı olarak öne çıkmakta ve Kore Cumhuriyeti'nin gelecek vadeden işletmeleri arasında yer almaktadır."
+    ],
+    "facts": [
+      "Uçtan uca kozmetik grubu",
+      "Kendi OEM/ODM fabrikası (Atoz International)",
+      "ISO 9001 · ISO 22716 (GMP)",
+      "7 markadan oluşan portföy",
+      "Asya, Amerika ve Avrupa'ya ihracat"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Perakende ve eczane zincirleri",
+      "Pazaryerleri ve e-ticaret",
+      "Kendi mağazalar ve çok markalı mağazalar"
+    ],
+    "lines": [
+      {
+        "name": "DUFT&DOFT",
+        "note": "Grubun amiral gemisi markası: parfümlü vücut, el ve saç bakımı ile niş parfüm. Kore perakende sektöründe (Olive Young zinciri) geniş yer almaktadır."
+      },
+      {
+        "name": "SALMON:LAB",
+        "note": "Somon DNA'sından elde edilen PDRN ile premium onarıcı bakım: VGENE serisi ampuller, serumlar ve kremler, beş aşamalı bakım sistemi."
+      },
+      {
+        "name": "RUDIA",
+        "note": "Aktif formüllerle (glutatyon, niasinamid, bakuçiol) hassas ciltler için fonksiyonel bakım: serumlar ve besleyici kremler. Markanın 2026'da yeniden lansmanı."
+      },
+      {
+        "name": "LOVELYCC",
+        "note": "Genç kitle için uygun fiyatlı makyaj ürünleri ve güneş koruma: CC kremler, kuşonlar, tintler, far. Grubun amiral gemisi kendi markası."
+      },
+      {
+        "name": "LADYBIZ",
+        "note": "Makyaj ürünleri: dudak tintleri, far, kuşon kapatıcılar. Her gün için şık ve pratik makyaj."
+      },
+      {
+        "name": "NOLIE",
+        "note": "Genç kitle için premium vücut bakımı ve kişisel bakım ürünleri."
+      },
+      {
+        "name": "CAMIHOUSE",
+        "note": "Kozmetik markalarını yurt dışı pazarlara taşımak için grubun perakende ve hızlandırma platformu; amiral gemisi mağazaları da dahildir."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Uçtan uca OEM/ODM",
+        "note": "Grubun kendi fabrikası Atoz International (Sejong): geliştirme, üretim, ambalajlama. 7-10 günde numune, günde yaklaşık 20 tona kadar üretim kapasitesi, 7 ambalaj hattı."
+      },
+      {
+        "name": "Somon DNA'sından PDRN",
+        "note": "SALMON:LAB markasının (VGENE serisi) somon DNA'sından elde edilen polinükleotidler — PDRN — bazlı premium onarıcı kozmetiği."
+      },
+      {
+        "name": "Parfüm geliştirme",
+        "note": "Parfümlü vücut ve saç bakımı ile niş parfüm alanında kendi uzmanlığı (DUFT&DOFT, NOLIE markaları)."
+      }
+    ],
+    "formats": [
+      "Serumlar ve ampuller",
+      "Kremler ve emülsiyonlar",
+      "Maskeler",
+      "CC kremler ve kuşonlar",
+      "Tintler, far, kapatıcılar",
+      "Güneş koruma",
+      "Parfüm ve vücut mistleri",
+      "Saç bakımı",
+      "Kişisel bakım ürünleri"
+    ],
+    "exportNote": "Grup markalarının ürünleri, perakende zincirleri ve pazaryerleri (Olive Young, Tmall, Amazon, iHerb, Qoo10, Shopee dahil) aracılığıyla Asya, Güneydoğu Asya, Kuzey Amerika ve Avrupa ülkelerine tedarik edilmektedir. Latin Amerika pazarları için materyaller Teranova aracılığıyla yayımlanmaktadır.",
+    "terms": [
+      {
+        "label": "İş birliği biçimleri",
+        "value": "Markalara göre bitmiş ürünlerin toptan tedariki; OEM/ODM — müşteri markası altında geliştirme ve üretim."
+      },
+      {
+        "label": "Minimum sipariş",
+        "value": "İşlem aşamasında marka ve ürün kalemine göre netleştirilir."
+      },
+      {
+        "label": "Fiyatlar",
+        "value": "Yaklaşık toptan fiyat aralığı: SALMON:LAB — FOB şartlarıyla, diğer markalar — EXW; kesin fiyatlar talep üzerine."
+      },
+      {
+        "label": "Nasıl işler",
+        "value": "Talep → Teranova incelemesi ve mutabakat → görüşmeler ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
+      }
+    ],
+    "consentNote": "Veriler ve materyaller Dreamcos grubu şirketleri (General Brands, Inc. ve Celebritykorea Corporation) tarafından sağlanmıştır ve Latin Amerika pazarları için şirketlerin yazılı onayıyla yayımlanmaktadır. Üreticinin doğrudan iletişim bilgileri paylaşılmamaktadır. Teranova işlemi koordine eder ve destekler.",
+    "seoTitle": "DREAMCOS — Koreli kozmetik grubu · Teranova",
+    "seoDesc": "DREAMCOS, Koreli kozmetik grubunun ana şirketidir: kendi OEM/ODM fabrikası ve DUFT&DOFT, SALMON:LAB, RUDIA, LOVELYCC, LADYBIZ, NOLIE markaları.",
+    "catalog_notes": [
+      "DUFT&DOFT grubunun amiral markasının parfümlü el kremi; 6 koku seçeneği.",
+      "Cildin su bariyerini güçlendiren parfümlü el kremi; 6 koku.",
+      "Parfümlü vücut misti; 7 koku seçeneği.",
+      "Fine Fragrance serisi saç ve vücut misti; 4 koku.",
+      "Parfümlü vücut losyonu; 5 koku seçeneği.",
+      "Parfümlü duş jeli; 4 koku seçeneği.",
+      "Rahatlatıcı spa duş jeli; 3 koku seçeneği.",
+      "Signature serisi parfümlü vücut peelingi; 4 koku.",
+      "Apple Sophy kokulu parfümlü vücut peeling misti.",
+      "Enriched Perfume serisi parfümlü saç şampuanı.",
+      "Sophy Sophy kokulu parfümlü saç kremi.",
+      "Signature serisi kafeinli parfümlü saç derisi toniği.",
+      "Cilde ışıltı ve ton eşitliği kazandıran glutatyonlu serum.",
+      "Bakuchiol içeren onarıcı serum (retinole bitkisel alternatif).",
+      "Gözenek bakımı için arındırıcı serum.",
+      "Cildi yoğun besleyen Crown serisi pantenollü besleyici krem.",
+      "Cilde ışıltı veren Crown serisi havuçlu vitamin ampulü.",
+      "Crown serisinin Master Benone ampulü; idebenon ve kolajen içerir, şirketin verdiği bilgiye göre pigmentasyon ve akne izlerine yöneliktir.",
+      "Crown serisi kolajen ve EGF kompleksli onarıcı ampul.",
+      "Ton açıcı etkili esanslı güneş koruyucu cushion, SPF50+ PA+++.",
+      "Kapatıcılık sağlayan güneş korumalı CC krem, SPF50+ PA+++.",
+      "9 tonluk göz farı paleti.",
+      "Kusurları kapatan konsiler.",
+      "Sweet Candy kompakt allık.",
+      "Bakım sağlayan dudak yağı; 3 ton seçeneği.",
+      "City Girl serisi güneş korumalı kapatıcı cushion, SPF50+ PA+++.",
+      "Ton açıcı etkili PDRN içeren güneş koruyucu krem, SPF50+ PA++++.",
+      "City Girl serisi parlak dudak tinti.",
+      "Fresh Flash serisi kokulu duş jeli.",
+      "Ampul konsantreli intim hijyen ürünü; 2 çeşit.",
+      "Katı parfümlü vücut balmı."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimler için:",
+    "lines_h": "Grubun markaları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Yetenekler ve teknolojiler",
+    "products_h": "Ürünler",
+    "products_note": "Dreamcos grubunun markaları cilt bakımı, makyaj, güneş koruma ve parfümlü vücut bakımını kapsar.",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "price_btn": "Fiyat listesini indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve Teranova aracılığıyla işlem aşamasında kesinleşir. Üreticinin doğrudan iletişim bilgileri yayınlanmaz.",
+    "cta_h": "Bu üretici ilginizi çekti mi?",
+    "cta_d": "Bizimle iletişime geçin — Teranova, ilk temastan teslimata kadar müzakereleri, incelemeyi ve işlem takibini organize eder.",
+    "cta_btn": "Teranova aracılığıyla iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar ve tesciller",
+    "certs_note": "Şirket tarafından beyan edilmiştir. ISO 9001 ve ISO 22716 (GMP), grubun üretim tesisi (Atoz International) adına düzenlenmiştir. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır.",
+    "pres_btn": "Sunumu indir (PDF)"
+  }
 }

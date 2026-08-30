@@ -22,16 +22,40 @@
       "Brand owners looking for a Korean OEM/ODM partner"
     ],
     "lines": [
-      { "name": "cellmedics — professional care", "note": "Cosmeceuticals for salon and home use: cleansing, toning, serums, ampoules, creams and masks. Large formats (500–1,000 ml, 1 kg) are intended for treatment-room work, compact ones for home care and retail." },
-      { "name": "Cica Clear — for sensitive and problem skin", "note": "A line based on Centella asiatica: toner, serum, ampoule and cream for skin prone to redness and breakouts. Combines into a complete care protocol." },
-      { "name": "Biocell Multi — recovery and firmness", "note": "A multifunctional line with chitosan and a growth factor complex: toner, serum, ampoule and cream. Stated by the company as dual-function functional cosmetics — brightening and wrinkle care." },
-      { "name": "KERASON — device-based care", "note": "The KERASON PRIME device based on high-power ultrasound and electric vibration, three handpiece types for different tasks and two professional activators, Pure AT and Pure ST. Per the company's documentation, the unit falls into the household and salon category and is not a medical device." }
+      {
+        "name": "cellmedics — professional care",
+        "note": "Cosmeceuticals for salon and home use: cleansing, toning, serums, ampoules, creams and masks. Large formats (500–1,000 ml, 1 kg) are intended for treatment-room work, compact ones for home care and retail."
+      },
+      {
+        "name": "Cica Clear — for sensitive and problem skin",
+        "note": "A line based on Centella asiatica: toner, serum, ampoule and cream for skin prone to redness and breakouts. Combines into a complete care protocol."
+      },
+      {
+        "name": "Biocell Multi — recovery and firmness",
+        "note": "A multifunctional line with chitosan and a growth factor complex: toner, serum, ampoule and cream. Stated by the company as dual-function functional cosmetics — brightening and wrinkle care."
+      },
+      {
+        "name": "KERASON — device-based care",
+        "note": "The KERASON PRIME device based on high-power ultrasound and electric vibration, three handpiece types for different tasks and two professional activators, Pure AT and Pure ST. Per the company's documentation, the unit falls into the household and salon category and is not a medical device."
+      }
     ],
     "tech": [
-      { "name": "Growth factors and protein recombination", "note": "The company's in-house competency in obtaining and stabilising protein complexes; the Biocell Multi line and the recovery creams are built on it." },
-      { "name": "Biomimetic peptides and plant callus", "note": "Synthesis of peptides that replicate structures natural to the skin, and cultivation of plant cells to obtain active extracts." },
-      { "name": "High-power ultrasound, 20–32 kHz", "note": "The KERASON technology: low-frequency ultrasonic waves are converted into high-power waves and delivered into the skin together with electric vibration. The patent for KERASON PRIME was registered in Korea in 2026 (as stated by the company)." },
-      { "name": "Full-cycle OEM/ODM", "note": "Product planning, formulation development, packaging design, manufacturing at a partner facility and export support. The minimum OEM/ODM batch is from 3,000 units." }
+      {
+        "name": "Growth factors and protein recombination",
+        "note": "The company's in-house competency in obtaining and stabilising protein complexes; the Biocell Multi line and the recovery creams are built on it."
+      },
+      {
+        "name": "Biomimetic peptides and plant callus",
+        "note": "Synthesis of peptides that replicate structures natural to the skin, and cultivation of plant cells to obtain active extracts."
+      },
+      {
+        "name": "High-power ultrasound, 20–32 kHz",
+        "note": "The KERASON technology: low-frequency ultrasonic waves are converted into high-power waves and delivered into the skin together with electric vibration. The patent for KERASON PRIME was registered in Korea in 2026 (as stated by the company)."
+      },
+      {
+        "name": "Full-cycle OEM/ODM",
+        "note": "Product planning, formulation development, packaging design, manufacturing at a partner facility and export support. The minimum OEM/ODM batch is from 3,000 units."
+      }
     ],
     "formats": [
       "Toners and serums, 500–1,000 ml",
@@ -43,15 +67,30 @@
     ],
     "exportNote": "As stated by the company, its products are supplied to the USA, Hong Kong, Australia, Vietnam, the UK and Thailand; an exclusive distributor operates in Indonesia. For a number of markets — China, Malaysia, the UK, the USA and Dubai — the company reports signed memoranda of understanding; final agreements are still under negotiation, so these territories are not considered closed. The delivery basis is FOB Korea. The company's priority directions are China, Japan, the UK, the USA, France and Taiwan.",
     "terms": [
-      { "label": "Delivery basis", "value": "FOB Korea" },
-      { "label": "Minimum order", "value": "From 100 units per item (modelling masks — from 30); OEM/ODM — from 3,000 units" },
-      { "label": "Prices", "value": "Wholesale and distributor levels; separate terms apply to the KERASON PRIME device, including exclusive terms at a volume of 50 units or more per year" },
-      { "label": "Payment", "value": "100% T/T; terms are discussed in the contract" },
-      { "label": "Production lead time", "value": "50–60 days after order confirmation; delivery times depend on the market and registration requirements" }
+      {
+        "label": "Delivery basis",
+        "value": "FOB Korea"
+      },
+      {
+        "label": "Minimum order",
+        "value": "From 100 units per item (modelling masks — from 30); OEM/ODM — from 3,000 units"
+      },
+      {
+        "label": "Prices",
+        "value": "Wholesale and distributor levels; separate terms apply to the KERASON PRIME device, including exclusive terms at a volume of 50 units or more per year"
+      },
+      {
+        "label": "Payment",
+        "value": "100% T/T; terms are discussed in the contract"
+      },
+      {
+        "label": "Production lead time",
+        "value": "50–60 days after order confirmation; delivery times depend on the market and registration requirements"
+      }
     ],
     "consentNote": "The data and materials are provided by iCELmedi Co., Ltd. and published with its written consent dated 5 August 2026. Information on certifications, registrations and the manufacturing model is stated by the company and is subject to documentary confirmation at the deal stage. Professional preparations for injection and mesotherapy use are not featured in the showcase.",
     "seoTitle": "iCELmedi — cellmedics cosmeceuticals & KERASON · Teranova",
-    "seoDesc": "iCELmedi is a Korean developer of cellmedics cosmeceuticals and KERASON ultrasound devices: toners, serums, ampoules, creams, masks. OEM/ODM, FOB Korea. Deals via Teranova.",
+    "seoDesc": "iCELmedi is a Korean developer of cellmedics cosmeceuticals and KERASON ultrasound devices: toners, serums, ampoules, creams, masks. OEM/ODM, FOB Korea.",
     "catalog_notes": [
       "A first-step cleansing milk: gently removes make-up and impurities without over-drying the skin. 1-litre treatment-room format.",
       "A cleansing gel with a dense foam for the second cleansing step; suits combination and oily skin.",
