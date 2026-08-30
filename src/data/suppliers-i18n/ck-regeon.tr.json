@@ -1,112 +1,112 @@
 {
- "content": {
-  "tagline": "Saç derisi ve saç dengesini yeniden kuran bilim",
-  "descriptor": "Kore biyoteknoloji şirketi: HAIRREGEON ve HERIBON markaları",
-  "origin": "Kore",
-  "about": [
-   "CK Regeon Inc., 2016 yılında Seul'de (Yonsei Engineering Research Park) kurulmuş Koreli bir biyoteknoloji şirketidir. Şirketi, rejeneratif bilimde yirmi yılı aşkın deneyime sahip Wnt sinyal yolağı araştırmacısı Profesör Kang-Yell Choi yönetmektedir. Şirketin kozmetik portföyü DermaRegeon adı altında toplanmıştır ve iki seriden oluşur: profesyonel kanal için HAIRREGEON ve günlük ev bakımı için HERIBON.",
-   "Her iki serinin arkasında on yıllık Wnt sinyal araştırması, ABD, AB, Kore ve Çin'de beş patent ve şirketin beyanına göre dokuz ülkede alınmış düzenleyici bildirimler bulunuyor. «WNT ON» teknolojisi CXXC5 proteini üzerinden çalışır: PTD-DBM ve KY19382, bu proteinin Dishevelled ile bağlanmasını engelleyerek saç derisi hücrelerinde baskılanmış Wnt/β-katenin sinyalini yeniden kurar. Mekanizma hakemli dergilerde tanımlanmıştır: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 ve 2021), Cells (2023) ve Journal of Experimental Medicine (2015).",
-   "Doğru iletişim için önemli: yayımlanan çalışmalar bileşenlerin etki mekanizmasını klinik öncesi düzeyde — hücre kültürü, ex vivo ve pilot gözlemler — tanımlar; bitmiş ürünlerin klinik etkinliğini kanıtlamaz. HAIRREGEON ve HERIBON tıbbi cihaz olarak değil kozmetik ürün olarak üretilir ve satılır, alopesi tedavisi olarak konumlandırılmaz."
-  ],
-  "facts": [
-   "Biyoteknoloji şirketi, 2016 kuruluşu",
-   "5 patent: ABD, AB, Kore, Çin",
-   "JID, BJP, Cells ve JEM yayınları",
-   "9 ülkede kayıt ve bildirim",
-   "İki marka: HAIRREGEON ve HERIBON"
-  ],
-  "channels": [
-   "Kozmetik ithalatçıları ve distribütörleri",
-   "Eczane ve uzman perakende zincirleri",
-   "Salonlar, dermatoloji klinikleri ve trikoloji stüdyoları",
-   "Pazar yerleri ve e-ticaret"
-  ],
-  "lines": [
-   {
-    "name": "HAIRREGEON",
-    "note": "Klinikler, salonlar ve trikoloji stüdyoları için profesyonel yoğun saç derisi bakım serisi. Amiral ürün PTD-DBM Hair Booster: 200 mg liyofilize toz içeren flakon ile 5 ml çözücü flakondan oluşan iki bileşenli set, kutuda beş set. Seanstan hemen önce karıştırılır; şirket 0,5–1,5 mm MTS mikro iğneleme ile iki hafta arayla birlikte kullanılmasını önerir ve görünür sonucun genellikle on iki haftalık kürden sonra gözlendiğini belirtir. ISO 22716'ya göre üretim, raf ömrü 36 ay."
-   },
-   {
-    "name": "HERIBON",
-    "note": "«WNT ON» günlük ev bakımı serisi, kullanım sırasına göre dört adım: saç derisi peelingi 300 ml, şampuan 500 ml, saç bakım maskesi 250 ml ve durulanmayan tonik 50 ml. Hassas, yağlı ve kuru dahil tüm saç derisi tipleri için uygundur; paraben, sülfat ve yapay renklendirici içermez. Açılmamış raf ömrü 36 ay; açıldıktan sonra şirket 12 ay içinde kullanılmasını önerir."
-   }
-  ],
-  "tech": [
-   {
-    "name": "«WNT ON» teknolojisi",
-    "note": "Şirketin kendi geliştirmesi. PTD-DBM ve KY19382, şirketin saç dökülmesinin temel etkeni olarak tanımladığı CXXC5'i baskılar ve saç derisi hücrelerinde bastırılmış Wnt/β-katenin sinyalini yeniden kurarak yolağı «WNT OFF» durumundan «WNT ON» durumuna geçirir."
-   },
-   {
-    "name": "PTD-DBM peptidi",
-    "note": "Profesyonel HAIRREGEON serisinin etkin bileşeni. CXXC5'e rekabetçi bağlanma mekanizması Journal of Investigative Dermatology (2017) yayınında klinik öncesi düzeyde tanımlanmıştır."
-   },
-   {
-    "name": "MetaAct ve KY19382",
-    "note": "PKM2 aktivatörü MetaAct, HAIRREGEON içinde PTD-DBM ile birlikte çalışarak Wnt yolağının aktivasyonunu güçlendirir. KY19382, HERIBON'un etkin bileşenidir; ABD, AB, Kore ve Çin'de patentlidir. HERIBON ürünlerindeki kırmızımsı ton renklendiriciden değil, doğrudan KY19382'den gelir."
-   },
-   {
-    "name": "Patentler ve yayınlar",
-    "note": "ABD, AB, Kore ve Çin'de tescilli beş patent — WNT Hair bileşimini ve PTD-DBM peptidinin kendisini kapsar. Mekanizma dört hakemli dergide tanımlanmıştır: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 ve 2021), Cells (2023) ve Journal of Experimental Medicine (2015)."
-   }
-  ],
-  "formats": [
-   "Ampuller ve boosterlar",
-   "Şampuanlar",
-   "Saç derisi peeling ürünleri",
-   "Saç maskeleri ve bakım ürünleri",
-   "Saç derisi tonikleri"
-  ],
-  "exportNote": "Şirketin kozmetik markaları 2025'te piyasaya çıktı; şirket uluslararası sektör fuarlarına katılıyor ve dağıtımını genişletiyor. Şirketin beyanına göre Güneydoğu Asya, Avrupa ve BDT'de bazı pazarlar hâlihazırda münhasır ve koşullu münhasır anlaşmalarla kapatılmış durumda. Açık bölgeler ve pazara özgü koşullar Teranova üzerinden talep aşamasında teyit edilir.",
-  "terms": [
-   {
-    "label": "İşbirliği biçimleri",
-    "value": "HAIRREGEON ve HERIBON markalı bitmiş ürünlerin toptan tedariki. OEM/ODM talep üzerine görüşülür."
-   },
-   {
-    "label": "Bölgeler",
-    "value": "Bazı pazarlar münhasır ve koşullu münhasır anlaşmalarla kapalıdır. Açık bölgeler talep aşamasında teyit edilir."
-   },
-   {
-    "label": "Miktar ve fiyatlar",
-    "value": "Asgari miktarlar ve fiyatlar talep aşamasında teyit edilir. Fiyat listesi yayımlanmaz."
-   },
-   {
-    "label": "Süreç nasıl işler",
-    "value": "Talep → Teranova incelemesi ve mutabakat → müzakere ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
-   }
-  ],
-  "consentNote": "Veriler ve materyaller CK Regeon Inc. tarafından sağlanmış olup, özgün içerik korunarak şirketin yazılı onayıyla yayımlanmaktadır. Fiyat listesi yayımlanmaz. Üreticinin doğrudan iletişim bilgileri paylaşılmaz. Teranova işlemi koordine eder ve baştan sona destekler.",
-  "seoTitle": "CK Regeon (DermaRegeon) — Kore'den saç derisi bakımı · Teranova",
-  "seoDesc": "CK Regeon — HAIRREGEON ve HERIBON markalarının arkasındaki Koreli biyoteknoloji şirketi: WNT ON teknolojisi, ABD, AB, Kore ve Çin'de beş patent, MoCRA, CPNP, SCPN ve Dermatest kayıtları. Teranova üzerinden toptan tedarik ve işlem desteği.",
-  "catalog_notes": [
-   "Yoğun saç derisi bakımı için profesyonel iki bileşenli set: 200 mg liyofilize PTD-DBM tozu içeren flakon ve 5 ml çözücü flakon. İkinci flakonun içeriği seanstan hemen önce birinciye aktarılır ve tamamen çözülür. Şirket protokolüne göre klinikte standart doz seans başına yaklaşık 5 ml mezoterapidir; yaygın ya da bölgesel dökülmeye ve saç derisi hassasiyetine göre ayarlanır. Şirketin belirttiği kontrendikasyonlar: bileşenlere alerji; saç derisinde aktif enfeksiyon, sedef, egzama veya açık yara; önlem olarak gebelik ve emzirme. 5 setlik paket.",
-   "Günlük «WNT ON» şampuanı — peelingden sonra dört adımlı bakımın ikinci basamağı. Saç derisini ve saçı nazikçe temizler, temiz ve hafif bir his bırakır. Paraben, sülfat ve yapay renklendirici içermez. 500 ml.",
-   "Saç derisi peelingi ilk adımdır: 2–3 dakika masaj yapılır ve durulanır; asıl bakımdan önce ölü hücreleri ve fazla sebumu temizler. 300 ml.",
-   "«WNT ON» saç bakım maskesi üçüncü adımdır: yumuşatır, nemlendirir, taranmayı kolaylaştırır ve saça daha dolgun bir his verir. 250 ml.",
-   "Durulanmayan saç derisi toniği bakımın son adımıdır, haftada 2–3 kez kullanılır. Eşit şekilde uygulanır, durulanmaz ve yapışkanlık bırakmaz. 50 ml."
-  ]
- },
- "ui": {
-  "profile_sup": "Tedarikçi profili",
-  "about_h": "Şirket hakkında",
-  "for_whom": "Kimler için:",
-  "lines_h": "Şirket markaları",
-  "catalog_h": "Ürün kataloğu",
-  "tech_h": "Teknoloji ve bilimsel temel",
-  "products_h": "Ürünler",
-  "products_note": "HAIRREGEON ve HERIBON markaları — saç derisi ve saç için kozmetik bakım ürünleridir.",
-  "formats_h": "Ürün formatları",
-  "export_h": "İhracat ve pazarlar",
-  "terms_h": "İşbirliği koşulları",
-  "download_btn": "Koşulları indir (PDF)",
-  "pres_btn": "Sunumu indir (PDF)",
-  "terms_disc": "Miktar ve koşullar Teranova üzerinden talep aşamasında teyit edilir. Fiyat listesi yayımlanmaz, üreticinin doğrudan iletişim bilgileri paylaşılmaz. Ürünler kozmetik olarak sunulmaktadır; anlatılan araştırmalar bileşenlerin etki mekanizmasına ilişkindir ve klinik öncesi niteliktedir.",
-  "cta_h": "Bu üretici ilginizi mi çekti?",
-  "cta_d": "Bizimle iletişime geçin — Teranova, ilk temastan tedarike kadar görüşmeleri, incelemeyi ve işlem sürecini organize eder.",
-  "cta_btn": "Teranova üzerinden iletişime geçin",
-  "more": "Profili aç →",
-  "verified_suppliers": "Doğrulanmış tedarikçiler",
-  "certs_h": "Sertifikalar ve tesciller",
-  "certs_note": "Şirket tarafından beyan edilmiştir. Destekleyici belgelerin ve tescillerin kopyaları anlaşma aşamasında sunulur. Tescil veya listeleme, düzenleyici kurum onayı anlamına gelmez."
- }
+  "content": {
+    "tagline": "Saç derisi ve saç dengesini yeniden kuran bilim",
+    "descriptor": "Kore biyoteknoloji şirketi: HAIRREGEON ve HERIBON markaları",
+    "origin": "Kore",
+    "about": [
+      "CK Regeon Inc., 2016 yılında Seul'de (Yonsei Engineering Research Park) kurulmuş Koreli bir biyoteknoloji şirketidir. Şirketi, rejeneratif bilimde yirmi yılı aşkın deneyime sahip Wnt sinyal yolağı araştırmacısı Profesör Kang-Yell Choi yönetmektedir. Şirketin kozmetik portföyü DermaRegeon adı altında toplanmıştır ve iki seriden oluşur: profesyonel kanal için HAIRREGEON ve günlük ev bakımı için HERIBON.",
+      "Her iki serinin arkasında on yıllık Wnt sinyal araştırması, ABD, AB, Kore ve Çin'de beş patent ve şirketin beyanına göre dokuz ülkede alınmış düzenleyici bildirimler bulunuyor. «WNT ON» teknolojisi CXXC5 proteini üzerinden çalışır: PTD-DBM ve KY19382, bu proteinin Dishevelled ile bağlanmasını engelleyerek saç derisi hücrelerinde baskılanmış Wnt/β-katenin sinyalini yeniden kurar. Mekanizma hakemli dergilerde tanımlanmıştır: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 ve 2021), Cells (2023) ve Journal of Experimental Medicine (2015).",
+      "Doğru iletişim için önemli: yayımlanan çalışmalar bileşenlerin etki mekanizmasını klinik öncesi düzeyde — hücre kültürü, ex vivo ve pilot gözlemler — tanımlar; bitmiş ürünlerin klinik etkinliğini kanıtlamaz. HAIRREGEON ve HERIBON tıbbi cihaz olarak değil kozmetik ürün olarak üretilir ve satılır, alopesi tedavisi olarak konumlandırılmaz."
+    ],
+    "facts": [
+      "Biyoteknoloji şirketi, 2016 kuruluşu",
+      "5 patent: ABD, AB, Kore, Çin",
+      "JID, BJP, Cells ve JEM yayınları",
+      "9 ülkede kayıt ve bildirim",
+      "İki marka: HAIRREGEON ve HERIBON"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Eczane ve uzman perakende zincirleri",
+      "Salonlar, dermatoloji klinikleri ve trikoloji stüdyoları",
+      "Pazar yerleri ve e-ticaret"
+    ],
+    "lines": [
+      {
+        "name": "HAIRREGEON",
+        "note": "Klinikler, salonlar ve trikoloji stüdyoları için profesyonel yoğun saç derisi bakım serisi. Amiral ürün PTD-DBM Hair Booster: 200 mg liyofilize toz içeren flakon ile 5 ml çözücü flakondan oluşan iki bileşenli set, kutuda beş set. Seanstan hemen önce karıştırılır; şirket 0,5–1,5 mm MTS mikro iğneleme ile iki hafta arayla birlikte kullanılmasını önerir ve görünür sonucun genellikle on iki haftalık kürden sonra gözlendiğini belirtir. ISO 22716'ya göre üretim, raf ömrü 36 ay."
+      },
+      {
+        "name": "HERIBON",
+        "note": "«WNT ON» günlük ev bakımı serisi, kullanım sırasına göre dört adım: saç derisi peelingi 300 ml, şampuan 500 ml, saç bakım maskesi 250 ml ve durulanmayan tonik 50 ml. Hassas, yağlı ve kuru dahil tüm saç derisi tipleri için uygundur; paraben, sülfat ve yapay renklendirici içermez. Açılmamış raf ömrü 36 ay; açıldıktan sonra şirket 12 ay içinde kullanılmasını önerir."
+      }
+    ],
+    "tech": [
+      {
+        "name": "«WNT ON» teknolojisi",
+        "note": "Şirketin kendi geliştirmesi. PTD-DBM ve KY19382, şirketin saç dökülmesinin temel etkeni olarak tanımladığı CXXC5'i baskılar ve saç derisi hücrelerinde bastırılmış Wnt/β-katenin sinyalini yeniden kurarak yolağı «WNT OFF» durumundan «WNT ON» durumuna geçirir."
+      },
+      {
+        "name": "PTD-DBM peptidi",
+        "note": "Profesyonel HAIRREGEON serisinin etkin bileşeni. CXXC5'e rekabetçi bağlanma mekanizması Journal of Investigative Dermatology (2017) yayınında klinik öncesi düzeyde tanımlanmıştır."
+      },
+      {
+        "name": "MetaAct ve KY19382",
+        "note": "PKM2 aktivatörü MetaAct, HAIRREGEON içinde PTD-DBM ile birlikte çalışarak Wnt yolağının aktivasyonunu güçlendirir. KY19382, HERIBON'un etkin bileşenidir; ABD, AB, Kore ve Çin'de patentlidir. HERIBON ürünlerindeki kırmızımsı ton renklendiriciden değil, doğrudan KY19382'den gelir."
+      },
+      {
+        "name": "Patentler ve yayınlar",
+        "note": "ABD, AB, Kore ve Çin'de tescilli beş patent — WNT Hair bileşimini ve PTD-DBM peptidinin kendisini kapsar. Mekanizma dört hakemli dergide tanımlanmıştır: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 ve 2021), Cells (2023) ve Journal of Experimental Medicine (2015)."
+      }
+    ],
+    "formats": [
+      "Ampuller ve boosterlar",
+      "Şampuanlar",
+      "Saç derisi peeling ürünleri",
+      "Saç maskeleri ve bakım ürünleri",
+      "Saç derisi tonikleri"
+    ],
+    "exportNote": "Şirketin kozmetik markaları 2025'te piyasaya çıktı; şirket uluslararası sektör fuarlarına katılıyor ve dağıtımını genişletiyor. Şirketin beyanına göre Güneydoğu Asya, Avrupa ve BDT'de bazı pazarlar hâlihazırda münhasır ve koşullu münhasır anlaşmalarla kapatılmış durumda. Açık bölgeler ve pazara özgü koşullar Teranova üzerinden talep aşamasında teyit edilir.",
+    "terms": [
+      {
+        "label": "İşbirliği biçimleri",
+        "value": "HAIRREGEON ve HERIBON markalı bitmiş ürünlerin toptan tedariki. OEM/ODM talep üzerine görüşülür."
+      },
+      {
+        "label": "Bölgeler",
+        "value": "Bazı pazarlar münhasır ve koşullu münhasır anlaşmalarla kapalıdır. Açık bölgeler talep aşamasında teyit edilir."
+      },
+      {
+        "label": "Miktar ve fiyatlar",
+        "value": "Asgari miktarlar ve fiyatlar talep aşamasında teyit edilir. Fiyat listesi yayımlanmaz."
+      },
+      {
+        "label": "Süreç nasıl işler",
+        "value": "Talep → Teranova incelemesi ve mutabakat → müzakere ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
+      }
+    ],
+    "consentNote": "Veriler ve materyaller CK Regeon Inc. tarafından sağlanmış olup, özgün içerik korunarak şirketin yazılı onayıyla yayımlanmaktadır. Fiyat listesi yayımlanmaz. Üreticinin doğrudan iletişim bilgileri paylaşılmaz. Teranova işlemi koordine eder ve baştan sona destekler.",
+    "seoTitle": "CK Regeon (DermaRegeon) — Kore saç derisi bakımı · Teranova",
+    "seoDesc": "CK Regeon — HAIRREGEON ve HERIBON markalarının arkasındaki Koreli biyoteknoloji şirketi: WNT ON teknolojisi, ABD, AB, Kore ve Çin'de beş patent, MoCRA, CPNP.",
+    "catalog_notes": [
+      "Yoğun saç derisi bakımı için profesyonel iki bileşenli set: 200 mg liyofilize PTD-DBM tozu içeren flakon ve 5 ml çözücü flakon. İkinci flakonun içeriği seanstan hemen önce birinciye aktarılır ve tamamen çözülür. Şirket protokolüne göre klinikte standart doz seans başına yaklaşık 5 ml mezoterapidir; yaygın ya da bölgesel dökülmeye ve saç derisi hassasiyetine göre ayarlanır. Şirketin belirttiği kontrendikasyonlar: bileşenlere alerji; saç derisinde aktif enfeksiyon, sedef, egzama veya açık yara; önlem olarak gebelik ve emzirme. 5 setlik paket.",
+      "Günlük «WNT ON» şampuanı — peelingden sonra dört adımlı bakımın ikinci basamağı. Saç derisini ve saçı nazikçe temizler, temiz ve hafif bir his bırakır. Paraben, sülfat ve yapay renklendirici içermez. 500 ml.",
+      "Saç derisi peelingi ilk adımdır: 2–3 dakika masaj yapılır ve durulanır; asıl bakımdan önce ölü hücreleri ve fazla sebumu temizler. 300 ml.",
+      "«WNT ON» saç bakım maskesi üçüncü adımdır: yumuşatır, nemlendirir, taranmayı kolaylaştırır ve saça daha dolgun bir his verir. 250 ml.",
+      "Durulanmayan saç derisi toniği bakımın son adımıdır, haftada 2–3 kez kullanılır. Eşit şekilde uygulanır, durulanmaz ve yapışkanlık bırakmaz. 50 ml."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimler için:",
+    "lines_h": "Şirket markaları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji ve bilimsel temel",
+    "products_h": "Ürünler",
+    "products_note": "HAIRREGEON ve HERIBON markaları — saç derisi ve saç için kozmetik bakım ürünleridir.",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İşbirliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Miktar ve koşullar Teranova üzerinden talep aşamasında teyit edilir. Fiyat listesi yayımlanmaz, üreticinin doğrudan iletişim bilgileri paylaşılmaz. Ürünler kozmetik olarak sunulmaktadır; anlatılan araştırmalar bileşenlerin etki mekanizmasına ilişkindir ve klinik öncesi niteliktedir.",
+    "cta_h": "Bu üretici ilginizi mi çekti?",
+    "cta_d": "Bizimle iletişime geçin — Teranova, ilk temastan tedarike kadar görüşmeleri, incelemeyi ve işlem sürecini organize eder.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar ve tesciller",
+    "certs_note": "Şirket tarafından beyan edilmiştir. Destekleyici belgelerin ve tescillerin kopyaları anlaşma aşamasında sunulur. Tescil veya listeleme, düzenleyici kurum onayı anlamına gelmez."
+  }
 }
