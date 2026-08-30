@@ -37064,5 +37064,946 @@
         ]
       }
     }
+  },
+  {
+    "slug": "bakuchiol-what-to-specify-when-buying",
+    "category": "guide",
+    "date": "2026-08-30",
+    "related": [
+      "sunpure",
+      "cosmetics",
+      "verify"
+    ],
+    "supplier": "sunpure",
+    "hero": "/brand/og-sunpure.png",
+    "i18n": {
+      "ru": {
+        "title": "Бакучиол: что уточнять при закупке сырья",
+        "excerpt": "Бакучиол продают как мягкую замену ретинолу. Покупатель при этом покупает не обещание, а партию сырья, и там всё решают цифра чистоты и метод её измерения.",
+        "seoTitle": "Бакучиол: что уточнять при закупке сырья · Teranova",
+        "seoDesc": "Что такое бакучиол, почему цифра чистоты важнее самого слова на этикетке и какие документы запросить у производителя сырья до заказа партии.",
+        "sections": [
+          {
+            "p": [
+              "Бакучиол попал в описания почти всех «чистых» линеек как мягкая замена ретинолу. Но закупщик покупает не формулировку с упаковки, а партию сырья. Дальше всё решают цифра чистоты, метод, которым её измерили, и документы на партию."
+            ]
+          },
+          {
+            "h": "Что это такое на самом деле",
+            "p": [
+              "Бакучиол получают из семян Psoralea corylifolia, растения, известного как бабчи. По химии это меротерпеновый фенол, INCI-название совпадает с бытовым: Bakuchiol. Ретиноидом он не является, поэтому «замена ретинола» описывает ожидаемый эффект в маркетинге, а не химическое родство.",
+              "Цифра 99% рядом с названием означает степень стандартизации: доля собственно бакучиола в сырье. Это не марка качества и не сертификат, а показатель, который должен подтверждаться протоколом анализа партии."
+            ]
+          },
+          {
+            "h": "Почему цифра чистоты важнее самого слова",
+            "p": [
+              "Слово «бакучиол» в спецификации не говорит ничего о концентрации. Под одним названием продаются и очищенный актив, и разбавленный масляный раствор с долей действующего вещества в несколько процентов. Разница в дозировке получается кратной, а вместе с ней меняется и себестоимость рецептуры.",
+              "Поэтому в спецификации пишут не «бакучиол», а «бакучиол, не менее 99%, метод такой-то». Без метода цифра остаётся словом: два разных метода на одной партии дают разные результаты."
+            ]
+          },
+          {
+            "h": "Что запросить у поставщика",
+            "p": [
+              "Протокол анализа на конкретную партию, а не типовой образец. В нём должны быть содержание действующего вещества, метод измерения и номер партии.",
+              "Отдельно запрашивают результаты по остаточным растворителям, тяжёлым металлам, пестицидам и микробиологии. Для растительного сырья это не формальность: пестициды приходят с полем, а растворители с процессом экстракции.",
+              "Третье — данные по стабильности. Фотостабильность бакучиола компании называют его преимуществом перед ретинолом, и если этот довод пойдёт в описание вашего продукта, под ним должен лежать документ, а не строка из брошюры."
+            ]
+          },
+          {
+            "h": "Что решает не химик, а юрист",
+            "p": [
+              "Формулировки на упаковке регулируются страной продажи, а не брошюрой поставщика. Сравнение с ретинолом, слова о разглаживании морщин и обещания эффекта в одних странах допустимы, в других требуют подтверждения испытаниями.",
+              "Поэтому список заявлений согласуют до старта производства, а не после печати упаковки. Поставщик отвечает за сырьё и его документы, а за то, что написано на коробке, отвечаете вы."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Bakuchiol: what to specify when buying the raw material",
+        "excerpt": "Bakuchiol sells as a gentle retinol alternative. A buyer, though, is not buying the claim but a batch of raw material, and there the purity figure and the assay method decide everything.",
+        "seoTitle": "Bakuchiol: what to specify when buying · Teranova",
+        "seoDesc": "What bakuchiol is, why the purity figure matters more than the word on the label and which documents to request from the producer before ordering.",
+        "sections": [
+          {
+            "p": [
+              "Bakuchiol has entered the description of almost every clean-beauty line as a gentle retinol alternative. A buyer, however, purchases a batch of raw material rather than a phrase from a pack. From there the purity figure, the method used to measure it and the batch paperwork decide everything."
+            ]
+          },
+          {
+            "h": "What it actually is",
+            "p": [
+              "Bakuchiol is obtained from the seeds of Psoralea corylifolia, the plant known as babchi. Chemically it is a meroterpene phenol, and the INCI name matches the common one: Bakuchiol. It is not a retinoid, so \"retinol alternative\" describes an expected marketing effect rather than a chemical relationship.",
+              "The figure 99% next to the name is a standardisation level: the share of bakuchiol itself in the material. It is not a quality mark or a certificate but a value that has to be confirmed by a batch analysis report."
+            ]
+          },
+          {
+            "h": "Why the purity figure matters more than the word",
+            "p": [
+              "The word bakuchiol in a specification says nothing about concentration. The same name covers both a purified active and a diluted oil solution carrying a few per cent of it. The dosing differs several times over, and so does the cost of the formula.",
+              "A specification therefore reads not \"bakuchiol\" but \"bakuchiol, minimum 99%, method such and such\". Without the method the figure stays a word: two different methods run on one batch return different results."
+            ]
+          },
+          {
+            "h": "What to request from the supplier",
+            "p": [
+              "A certificate of analysis for the actual batch, not a typical sample. It has to carry the active content, the method of measurement and the batch number.",
+              "Ask separately for residual solvents, heavy metals, pesticides and microbiology. For plant material this is not a formality: pesticides arrive with the field and solvents with the extraction process.",
+              "Third, stability data. Companies name the photostability of bakuchiol as its advantage over retinol, and if that argument is going into your product description, a document has to sit under it rather than a line from a brochure."
+            ]
+          },
+          {
+            "h": "What a lawyer decides, not a chemist",
+            "p": [
+              "Wording on a pack is governed by the country of sale, not by the supplier's brochure. Comparisons with retinol, wrinkle-smoothing wording and efficacy promises are acceptable in some countries and require test evidence in others.",
+              "So the list of claims is agreed before production starts, not after the packaging is printed. The supplier answers for the material and its documents; what is written on the box is your responsibility."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "바쿠치올: 원료를 구매할 때 확인할 것",
+        "excerpt": "바쿠치올은 부드러운 레티놀 대안으로 팔립니다. 그러나 구매자가 사는 것은 문구가 아니라 원료 한 배치이며, 거기서는 순도 수치와 그 측정 방법이 모든 것을 결정합니다.",
+        "seoTitle": "바쿠치올: 원료 구매 시 확인할 것 · Teranova",
+        "seoDesc": "바쿠치올이 무엇인지, 왜 라벨의 단어보다 순도 수치가 중요한지, 발주 전에 원료 제조사에 어떤 서류를 요청해야 하는지 정리했습니다.",
+        "sections": [
+          {
+            "p": [
+              "바쿠치올은 거의 모든 클린 뷰티 라인의 설명에 부드러운 레티놀 대안으로 등장했습니다. 그러나 구매자가 사는 것은 패키지의 문구가 아니라 원료 한 배치입니다. 그다음부터는 순도 수치, 그것을 측정한 방법, 그리고 배치 서류가 모든 것을 결정합니다."
+            ]
+          },
+          {
+            "h": "실제로 무엇인가",
+            "p": [
+              "바쿠치올은 밥치라고 불리는 식물 Psoralea corylifolia의 씨앗에서 얻습니다. 화학적으로는 메로테르펜 페놀이며 INCI 명칭도 일반 명칭과 같은 Bakuchiol입니다. 레티노이드가 아니므로 레티놀 대안이라는 표현은 화학적 유연관계가 아니라 마케팅상 기대되는 효과를 가리킵니다.",
+              "이름 옆의 99%는 표준화 수준, 즉 원료 중 바쿠치올 자체의 비율입니다. 품질 마크나 인증서가 아니라 배치 시험성적서로 확인되어야 하는 값입니다."
+            ]
+          },
+          {
+            "h": "왜 단어보다 순도 수치가 중요한가",
+            "p": [
+              "규격서의 바쿠치올이라는 단어는 농도에 대해 아무것도 말해 주지 않습니다. 같은 이름으로 정제된 활성물과 수 퍼센트만 함유한 희석 오일 용액이 모두 유통됩니다. 투입량은 몇 배씩 달라지고 처방 원가도 함께 달라집니다.",
+              "그래서 규격서에는 바쿠치올이 아니라 바쿠치올 99% 이상, 시험법 명시라고 씁니다. 방법이 없으면 수치는 말에 그칩니다. 같은 배치라도 시험법이 다르면 결과가 달라집니다."
+            ]
+          },
+          {
+            "h": "공급사에 요청할 것",
+            "p": [
+              "표준 견본이 아니라 실제 배치의 시험성적서를 요청합니다. 유효성분 함량, 측정 방법, 배치 번호가 들어 있어야 합니다.",
+              "잔류 용매, 중금속, 잔류 농약, 미생물 결과는 별도로 요청합니다. 식물 원료에서 이것은 형식이 아닙니다. 농약은 밭에서, 용매는 추출 공정에서 따라옵니다.",
+              "세 번째는 안정성 자료입니다. 여러 회사가 바쿠치올의 광안정성을 레티놀 대비 장점으로 제시하는데, 그 주장을 제품 설명에 쓸 것이라면 그 아래에는 브로슈어의 한 줄이 아니라 문서가 있어야 합니다."
+            ]
+          },
+          {
+            "h": "화학자가 아니라 법무가 정하는 부분",
+            "p": [
+              "패키지 문구는 공급사의 브로슈어가 아니라 판매 국가의 규정을 따릅니다. 레티놀과의 비교, 주름 개선 표현, 효능 약속은 어떤 나라에서는 허용되고 어떤 나라에서는 시험 자료를 요구합니다.",
+              "따라서 표시 문구 목록은 포장 인쇄 후가 아니라 생산 시작 전에 확정합니다. 공급사는 원료와 그 서류에 대해 책임지고, 상자에 적힌 내용은 귀사의 책임입니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "补骨脂酚：采购原料时要确认什么",
+        "excerpt": "补骨脂酚常被当作温和的视黄醇替代物出售。但买家买到的不是一句宣传，而是一批原料，而在那里，纯度数字和它的检测方法决定一切。",
+        "seoTitle": "补骨脂酚：采购原料时要确认什么 · Teranova",
+        "seoDesc": "补骨脂酚是什么，为什么纯度数字比标签上的名称更重要，以及下单前应向原料生产商索取哪些文件。",
+        "sections": [
+          {
+            "p": [
+              "补骨脂酚几乎进入了所有「纯净美妆」产品线的描述，被称作温和的视黄醇替代物。但采购方买到的不是包装上的措辞，而是一批原料。此后，纯度数字、测定它的方法以及批次文件决定一切。"
+            ]
+          },
+          {
+            "h": "它究竟是什么",
+            "p": [
+              "补骨脂酚提取自被称为巴布奇的植物 Psoralea corylifolia 的种子。化学上它是一种类萜酚，INCI 名称与通用名一致：Bakuchiol。它不是视黄醇类化合物，因此「视黄醇替代物」描述的是营销上的预期效果，而非化学亲缘。",
+              "名称旁的 99% 是标准化水平，即原料中补骨脂酚本身的占比。它不是质量标志，也不是证书，而是必须由批次检验报告确认的数值。"
+            ]
+          },
+          {
+            "h": "为什么纯度数字比名称更重要",
+            "p": [
+              "规格书上的「补骨脂酚」四个字对浓度只字未提。同一名称下既有纯化活性物，也有仅含百分之几的稀释油溶液。投料量相差数倍，配方成本也随之改变。",
+              "因此规格书写的不是「补骨脂酚」，而是「补骨脂酚，不低于 99%，检测方法为某某」。没有方法，数字只是一个词：同一批料用两种方法会得出不同结果。"
+            ]
+          },
+          {
+            "h": "应向供应商索取什么",
+            "p": [
+              "针对实际批次的检验报告，而非典型样品报告。其中应包含有效成分含量、测定方法和批号。",
+              "另行索取残留溶剂、重金属、农药残留与微生物结果。对植物原料而言这不是形式：农药随田地而来，溶剂随提取工艺而来。",
+              "第三是稳定性数据。企业将补骨脂酚的光稳定性列为其相对视黄醇的优势，如果这一论据要写进您的产品描述，其下必须是文件，而不是宣传册上的一行字。"
+            ]
+          },
+          {
+            "h": "由法务而非化学家决定的部分",
+            "p": [
+              "包装上的措辞受销售国法规约束，而非供应商的宣传册。与视黄醇的比较、抚平皱纹的表述以及功效承诺，在一些国家可以使用，在另一些国家则需要试验证据。",
+              "因此宣称清单应在生产开始前确定，而不是在包装印刷之后。供应商对原料及其文件负责，包装盒上写了什么则由您负责。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "バクチオール：原料を仕入れるとき確認すること",
+        "excerpt": "バクチオールは穏やかなレチノール代替として売られます。しかし買い手が買うのは謳い文句ではなく原料のロットであり、そこでは純度の数字とその測定法がすべてを決めます。",
+        "seoTitle": "バクチオール：原料仕入れで確認すること · Teranova",
+        "seoDesc": "バクチオールとは何か、なぜラベルの語より純度の数字が重要なのか、発注前に原料メーカーへ求めるべき書類をまとめました。",
+        "sections": [
+          {
+            "p": [
+              "バクチオールは、ほぼすべてのクリーンビューティのラインで穏やかなレチノール代替として説明に登場します。しかし買い手が買うのはパッケージの言い回しではなく、原料のロットです。その先は純度の数字、それを測った方法、そしてロットの書類がすべてを決めます。"
+            ]
+          },
+          {
+            "h": "実際には何なのか",
+            "p": [
+              "バクチオールはバブチと呼ばれる植物 Psoralea corylifolia の種子から得られます。化学的にはメロテルペンフェノールで、INCI 名も一般名と同じ Bakuchiol です。レチノイドではないため、レチノール代替という表現は化学的な近縁関係ではなく、マーケティング上の期待効果を指します。",
+              "名称の隣の 99% は標準化のレベル、すなわち原料中のバクチオールそのものの割合です。品質マークでも証明書でもなく、ロットの分析報告で裏づけられるべき数値です。"
+            ]
+          },
+          {
+            "h": "なぜ語より純度の数字が重要か",
+            "p": [
+              "規格書のバクチオールという語は濃度について何も語りません。同じ名称で、精製された活性物も、数パーセントしか含まない希釈油溶液も流通しています。配合量は数倍変わり、処方原価も一緒に変わります。",
+              "したがって規格書には「バクチオール」ではなく「バクチオール 99% 以上、試験法は何々」と書きます。方法がなければ数字は言葉のままです。同じロットでも試験法が違えば結果が変わります。"
+            ]
+          },
+          {
+            "h": "サプライヤーに求めるもの",
+            "p": [
+              "標準見本ではなく、実際のロットの分析証明書を求めます。有効成分含量、測定方法、ロット番号が入っている必要があります。",
+              "残留溶媒、重金属、残留農薬、微生物の結果は別に求めます。植物原料ではこれは形式ではありません。農薬は畑から、溶媒は抽出工程から付いてきます。",
+              "三つ目は安定性データです。バクチオールの光安定性をレチノールに対する利点として挙げる会社は多く、その主張を自社製品の説明に使うなら、その下にはパンフレットの一行ではなく文書が必要です。"
+            ]
+          },
+          {
+            "h": "化学者ではなく法務が決める部分",
+            "p": [
+              "パッケージの表現はサプライヤーのパンフレットではなく、販売国の規制に従います。レチノールとの比較、しわを伸ばすという表現、効果の約束は、ある国では認められ、別の国では試験による裏づけを求められます。",
+              "ですから表示文言の一覧は、包装を刷った後ではなく生産開始前に確定します。サプライヤーは原料とその書類に責任を持ち、箱に書かれた内容の責任は御社にあります。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Bakuchiol: cosa specificare quando si acquista la materia prima",
+        "excerpt": "Il bakuchiol si vende come alternativa delicata al retinolo. L'acquirente però non compra la promessa ma un lotto di materia prima, e lì decidono tutto la cifra di purezza e il metodo con cui è stata misurata.",
+        "seoTitle": "Bakuchiol: cosa specificare all'acquisto · Teranova",
+        "seoDesc": "Che cos'è il bakuchiol, perché la cifra di purezza conta più della parola in etichetta e quali documenti chiedere al produttore prima di ordinare un lotto.",
+        "sections": [
+          {
+            "p": [
+              "Il bakuchiol è entrato nella descrizione di quasi tutte le linee clean beauty come alternativa delicata al retinolo. L'acquirente però compra un lotto di materia prima, non una formula scritta sulla confezione. Da lì in poi decidono tutto la cifra di purezza, il metodo con cui è stata misurata e i documenti del lotto."
+            ]
+          },
+          {
+            "h": "Che cos'è davvero",
+            "p": [
+              "Il bakuchiol si ottiene dai semi di Psoralea corylifolia, la pianta nota come babchi. Chimicamente è un fenolo meroterpenico e il nome INCI coincide con quello comune: Bakuchiol. Non è un retinoide, quindi «alternativa al retinolo» descrive un effetto atteso sul piano commerciale, non una parentela chimica.",
+              "La cifra 99% accanto al nome indica il livello di standardizzazione, cioè la quota di bakuchiol nella materia prima. Non è un marchio di qualità né un certificato, ma un valore che va confermato dal rapporto di analisi del lotto."
+            ]
+          },
+          {
+            "h": "Perché la cifra conta più della parola",
+            "p": [
+              "La parola bakuchiol in una specifica non dice nulla sulla concentrazione. Sotto lo stesso nome si vendono sia l'attivo purificato sia una soluzione oleosa diluita con qualche punto percentuale. Il dosaggio cambia di diverse volte e con esso il costo della formula.",
+              "Per questo nella specifica non si scrive «bakuchiol» ma «bakuchiol, minimo 99%, metodo tale». Senza il metodo la cifra resta una parola: due metodi diversi sullo stesso lotto danno risultati diversi."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere al fornitore",
+            "p": [
+              "Il certificato di analisi del lotto reale, non di un campione tipo. Deve riportare il contenuto di attivo, il metodo di misura e il numero di lotto.",
+              "A parte si chiedono i risultati su solventi residui, metalli pesanti, pesticidi e microbiologia. Per una materia prima vegetale non è una formalità: i pesticidi arrivano dal campo e i solventi dal processo di estrazione.",
+              "Terzo, i dati di stabilità. La fotostabilità del bakuchiol viene indicata dalle aziende come vantaggio rispetto al retinolo, e se quell'argomento finirà nella descrizione del vostro prodotto, sotto deve esserci un documento e non una riga di brochure."
+            ]
+          },
+          {
+            "h": "Quello che decide il legale, non il chimico",
+            "p": [
+              "Le diciture in confezione sono regolate dal paese di vendita, non dalla brochure del fornitore. Il confronto con il retinolo, le formule sulle rughe e le promesse di efficacia sono ammessi in alcuni paesi e richiedono prove in altri.",
+              "L'elenco dei claim si concorda quindi prima di avviare la produzione, non dopo aver stampato l'astuccio. Il fornitore risponde della materia prima e dei suoi documenti; di ciò che è scritto sulla scatola rispondete voi."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Bakuchiol: was beim Einkauf des Rohstoffs festzulegen ist",
+        "excerpt": "Bakuchiol wird als sanfte Retinol-Alternative verkauft. Der Käufer erwirbt jedoch kein Versprechen, sondern eine Rohstoffcharge, und dort entscheiden die Reinheitszahl und die Methode ihrer Messung.",
+        "seoTitle": "Bakuchiol: was beim Einkauf festzulegen ist · Teranova",
+        "seoDesc": "Was Bakuchiol ist, warum die Reinheitszahl mehr zählt als das Wort auf dem Etikett und welche Unterlagen man beim Hersteller vor der Bestellung anfordert.",
+        "sections": [
+          {
+            "p": [
+              "Bakuchiol steht inzwischen in der Beschreibung fast jeder Clean-Beauty-Linie als sanfte Retinol-Alternative. Der Einkäufer kauft jedoch eine Rohstoffcharge und keine Formulierung von der Packung. Danach entscheiden die Reinheitszahl, die Methode ihrer Messung und die Chargenunterlagen."
+            ]
+          },
+          {
+            "h": "Was es tatsächlich ist",
+            "p": [
+              "Bakuchiol wird aus den Samen von Psoralea corylifolia gewonnen, der als Babchi bekannten Pflanze. Chemisch ist es ein Meroterpen-Phenol, der INCI-Name entspricht dem gebräuchlichen: Bakuchiol. Ein Retinoid ist es nicht, deshalb beschreibt «Retinol-Alternative» eine erwartete Wirkung im Marketing und keine chemische Verwandtschaft.",
+              "Die Zahl 99% neben dem Namen bezeichnet den Standardisierungsgrad, also den Anteil des Bakuchiols im Rohstoff. Sie ist kein Gütezeichen und kein Zertifikat, sondern ein Wert, den das Analysenzertifikat der Charge bestätigen muss."
+            ]
+          },
+          {
+            "h": "Warum die Reinheitszahl mehr zählt als das Wort",
+            "p": [
+              "Das Wort Bakuchiol in einer Spezifikation sagt nichts über die Konzentration. Unter demselben Namen werden sowohl der gereinigte Wirkstoff als auch eine verdünnte ölige Lösung mit wenigen Prozent verkauft. Die Dosierung unterscheidet sich um ein Vielfaches, und mit ihr die Rezepturkosten.",
+              "Deshalb steht in der Spezifikation nicht «Bakuchiol», sondern «Bakuchiol, mindestens 99%, Methode soundso». Ohne Methode bleibt die Zahl ein Wort: Zwei verschiedene Methoden liefern an derselben Charge verschiedene Ergebnisse."
+            ]
+          },
+          {
+            "h": "Was beim Lieferanten anzufordern ist",
+            "p": [
+              "Das Analysenzertifikat der konkreten Charge, nicht eines Typmusters. Es muss den Wirkstoffgehalt, die Messmethode und die Chargennummer enthalten.",
+              "Gesondert fordert man Ergebnisse zu Restlösemitteln, Schwermetallen, Pestiziden und Mikrobiologie an. Bei pflanzlichem Rohstoff ist das keine Formsache: Pestizide kommen vom Feld, Lösemittel aus dem Extraktionsprozess.",
+              "Drittens Stabilitätsdaten. Die Fotostabilität von Bakuchiol nennen Unternehmen als Vorteil gegenüber Retinol, und wenn dieses Argument in Ihre Produktbeschreibung wandert, muss darunter ein Dokument liegen und keine Zeile aus einer Broschüre."
+            ]
+          },
+          {
+            "h": "Was der Jurist entscheidet und nicht der Chemiker",
+            "p": [
+              "Die Angaben auf der Packung regelt das Verkaufsland, nicht die Broschüre des Lieferanten. Vergleiche mit Retinol, Formulierungen zu Falten und Wirkversprechen sind in einigen Ländern zulässig und verlangen in anderen einen Nachweis durch Studien.",
+              "Die Liste der Auslobungen wird deshalb vor Produktionsstart abgestimmt und nicht nach dem Druck der Faltschachtel. Der Lieferant haftet für den Rohstoff und seine Unterlagen; für den Text auf der Schachtel haften Sie."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Bakuchiol : ce qu'il faut préciser à l'achat de la matière première",
+        "excerpt": "Le bakuchiol se vend comme une alternative douce au rétinol. L'acheteur, lui, n'achète pas une promesse mais un lot de matière première, et là tout se joue sur le chiffre de pureté et la méthode qui l'a mesuré.",
+        "seoTitle": "Bakuchiol : ce qu'il faut préciser à l'achat · Teranova",
+        "seoDesc": "Ce qu'est le bakuchiol, pourquoi le chiffre de pureté compte plus que le mot sur l'étiquette et quels documents demander au producteur avant de commander.",
+        "sections": [
+          {
+            "p": [
+              "Le bakuchiol figure désormais dans la description de presque toutes les lignes clean beauty comme alternative douce au rétinol. L'acheteur, pourtant, achète un lot de matière première et non une formule inscrite sur un emballage. Ensuite, tout se joue sur le chiffre de pureté, la méthode qui l'a mesuré et les documents du lot."
+            ]
+          },
+          {
+            "h": "Ce que c'est réellement",
+            "p": [
+              "Le bakuchiol est obtenu des graines de Psoralea corylifolia, la plante connue sous le nom de babchi. Chimiquement c'est un phénol méroterpénique, et le nom INCI coïncide avec le nom courant : Bakuchiol. Ce n'est pas un rétinoïde, donc « alternative au rétinol » décrit un effet attendu sur le plan commercial et non une parenté chimique.",
+              "Le chiffre 99% à côté du nom indique le niveau de standardisation, c'est-à-dire la part de bakuchiol dans la matière. Ce n'est ni une marque de qualité ni un certificat, mais une valeur que le rapport d'analyse du lot doit confirmer."
+            ]
+          },
+          {
+            "h": "Pourquoi le chiffre compte plus que le mot",
+            "p": [
+              "Le mot bakuchiol dans une spécification ne dit rien de la concentration. Sous le même nom se vendent l'actif purifié et une solution huileuse diluée à quelques pour cent. Le dosage varie plusieurs fois, et avec lui le coût de la formule.",
+              "La spécification indique donc non pas « bakuchiol » mais « bakuchiol, minimum 99%, méthode untel ». Sans la méthode, le chiffre reste un mot : deux méthodes différentes sur un même lot donnent des résultats différents."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander au fournisseur",
+            "p": [
+              "Le certificat d'analyse du lot réel, et non d'un échantillon type. Il doit porter la teneur en actif, la méthode de mesure et le numéro de lot.",
+              "On demande séparément les résultats sur les solvants résiduels, les métaux lourds, les pesticides et la microbiologie. Pour une matière végétale ce n'est pas une formalité : les pesticides viennent du champ et les solvants du procédé d'extraction.",
+              "Troisièmement, les données de stabilité. Les entreprises citent la photostabilité du bakuchiol comme avantage face au rétinol, et si cet argument doit entrer dans la description de votre produit, un document doit se trouver dessous, pas une ligne de brochure."
+            ]
+          },
+          {
+            "h": "Ce que tranche le juriste et non le chimiste",
+            "p": [
+              "Les mentions portées sur l'emballage relèvent du pays de vente, pas de la brochure du fournisseur. La comparaison avec le rétinol, les formules sur les rides et les promesses d'efficacité sont admises dans certains pays et exigent des essais dans d'autres.",
+              "La liste des allégations se valide donc avant le lancement de la production, et non après l'impression de l'étui. Le fournisseur répond de la matière et de ses documents ; de ce qui est écrit sur la boîte, c'est vous qui répondez."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Bakuçiol: hammadde alırken neyi belirtmeli",
+        "excerpt": "Bakuçiol yumuşak bir retinol alternatifi olarak satılıyor. Oysa alıcı bir vaadi değil bir hammadde partisini satın alır ve orada her şeyi saflık rakamı ile onun ölçüm yöntemi belirler.",
+        "seoTitle": "Bakuçiol: hammadde alırken neyi belirtmeli · Teranova",
+        "seoDesc": "Bakuçiol nedir, neden etiketteki kelimeden çok saflık rakamı önemlidir ve parti siparişinden önce hammadde üreticisinden hangi belgeler istenmelidir.",
+        "sections": [
+          {
+            "p": [
+              "Bakuçiol artık neredeyse her temiz kozmetik serisinin tanıtımında yumuşak bir retinol alternatifi olarak geçiyor. Ancak satın almacı ambalajdaki bir ifadeyi değil, bir hammadde partisini alır. Bundan sonrasını saflık rakamı, onu ölçen yöntem ve parti belgeleri belirler."
+            ]
+          },
+          {
+            "h": "Aslında nedir",
+            "p": [
+              "Bakuçiol, babçi adıyla bilinen Psoralea corylifolia bitkisinin tohumlarından elde edilir. Kimyasal olarak bir meroterpen fenoldür ve INCI adı yaygın adla aynıdır: Bakuchiol. Retinoid değildir, bu yüzden retinol alternatifi ifadesi kimyasal bir yakınlığı değil, pazarlamada beklenen etkiyi anlatır.",
+              "Adın yanındaki %99 standardizasyon düzeyidir, yani hammaddedeki bakuçiolün kendi payıdır. Bir kalite işareti ya da sertifika değil, parti analiz raporuyla doğrulanması gereken bir değerdir."
+            ]
+          },
+          {
+            "h": "Neden rakam kelimeden önemli",
+            "p": [
+              "Şartnamedeki bakuçiol kelimesi derişim hakkında hiçbir şey söylemez. Aynı ad altında hem saflaştırılmış aktif hem de yüzde birkaçlık seyreltik yağ çözeltisi satılır. Kullanım miktarı kat kat değişir, formülün maliyeti de onunla birlikte.",
+              "Bu nedenle şartnameye bakuçiol değil, en az %99 bakuçiol ve şu yöntem yazılır. Yöntem olmadan rakam kelime olarak kalır: aynı partide iki farklı yöntem farklı sonuç verir."
+            ]
+          },
+          {
+            "h": "Tedarikçiden istenecekler",
+            "p": [
+              "Tip numunenin değil, gerçek partinin analiz sertifikası. İçinde etkin madde içeriği, ölçüm yöntemi ve parti numarası bulunmalıdır.",
+              "Kalıntı çözücü, ağır metal, pestisit ve mikrobiyoloji sonuçları ayrıca istenir. Bitkisel hammaddede bu bir formalite değildir: pestisit tarladan, çözücü ekstraksiyon sürecinden gelir.",
+              "Üçüncüsü stabilite verileri. Şirketler bakuçiolün ışığa dayanıklılığını retinole karşı üstünlük olarak anıyor; bu gerekçe ürün tanıtımınıza girecekse altında broşürden bir satır değil bir belge olmalıdır."
+            ]
+          },
+          {
+            "h": "Kimyagerin değil hukukçunun karar verdiği kısım",
+            "p": [
+              "Ambalaj üzerindeki ifadeleri tedarikçinin broşürü değil, satış yapılan ülke düzenler. Retinolle karşılaştırma, kırışıklıklara dair ifadeler ve etki vaatleri bazı ülkelerde serbesttir, bazılarında test kanıtı ister.",
+              "Bu yüzden iddia listesi ambalaj basıldıktan sonra değil, üretim başlamadan önce mutabık kalınır. Tedarikçi hammaddeden ve belgelerinden sorumludur; kutunun üzerinde yazandan siz sorumlusunuz."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Bakuchiol: qué precisar al comprar la materia prima",
+        "excerpt": "El bakuchiol se vende como alternativa suave al retinol. Pero el comprador no adquiere una promesa sino un lote de materia prima, y allí lo deciden todo la cifra de pureza y el método con que se midió.",
+        "seoTitle": "Bakuchiol: qué precisar al comprar la materia prima · Teranova",
+        "seoDesc": "Qué es el bakuchiol, por qué la cifra de pureza importa más que la palabra de la etiqueta y qué documentos pedir al fabricante antes de encargar un lote.",
+        "sections": [
+          {
+            "p": [
+              "El bakuchiol ha entrado en la descripción de casi todas las líneas de clean beauty como alternativa suave al retinol. El comprador, sin embargo, adquiere un lote de materia prima y no una frase del envase. A partir de ahí lo deciden todo la cifra de pureza, el método con que se midió y los documentos del lote."
+            ]
+          },
+          {
+            "h": "Qué es en realidad",
+            "p": [
+              "El bakuchiol se obtiene de las semillas de Psoralea corylifolia, la planta conocida como babchi. Químicamente es un fenol meroterpénico y el nombre INCI coincide con el común: Bakuchiol. No es un retinoide, así que «alternativa al retinol» describe un efecto esperado en el plano comercial y no un parentesco químico.",
+              "La cifra 99% junto al nombre indica el nivel de estandarización, es decir, la proporción de bakuchiol en la materia prima. No es un sello de calidad ni un certificado, sino un valor que debe confirmar el informe de análisis del lote."
+            ]
+          },
+          {
+            "h": "Por qué la cifra importa más que la palabra",
+            "p": [
+              "La palabra bakuchiol en una especificación no dice nada sobre la concentración. Bajo el mismo nombre se venden tanto el activo purificado como una solución oleosa diluida con un pequeño porcentaje. La dosificación cambia varias veces y con ella el coste de la fórmula.",
+              "Por eso en la especificación no se escribe «bakuchiol» sino «bakuchiol, mínimo 99%, método tal». Sin el método la cifra sigue siendo una palabra: dos métodos distintos sobre un mismo lote dan resultados distintos."
+            ]
+          },
+          {
+            "h": "Qué pedir al proveedor",
+            "p": [
+              "El certificado de análisis del lote real, no de una muestra tipo. Debe llevar el contenido de activo, el método de medida y el número de lote.",
+              "Por separado se piden los resultados de disolventes residuales, metales pesados, pesticidas y microbiología. En materia prima vegetal no es un trámite: los pesticidas llegan del campo y los disolventes del proceso de extracción.",
+              "Tercero, los datos de estabilidad. Las empresas señalan la fotoestabilidad del bakuchiol como ventaja frente al retinol, y si ese argumento va a la descripción de su producto, debajo debe haber un documento y no una línea de folleto."
+            ]
+          },
+          {
+            "h": "Lo que decide el jurista y no el químico",
+            "p": [
+              "Las menciones del envase las regula el país de venta, no el folleto del proveedor. La comparación con el retinol, las fórmulas sobre arrugas y las promesas de eficacia se admiten en unos países y exigen ensayos en otros.",
+              "La lista de reclamos se acuerda por eso antes de arrancar la producción, no después de imprimir el estuche. El proveedor responde de la materia prima y de sus documentos; de lo escrito en la caja responde usted."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Bakuchiol: o que especificar ao comprar a matéria-prima",
+        "excerpt": "O bakuchiol vende-se como alternativa suave ao retinol. Mas o comprador não adquire uma promessa e sim um lote de matéria-prima, e aí decidem tudo a cifra de pureza e o método com que foi medida.",
+        "seoTitle": "Bakuchiol: o que especificar na compra · Teranova",
+        "seoDesc": "O que é o bakuchiol, por que a cifra de pureza pesa mais do que a palavra no rótulo e que documentos pedir ao fabricante antes de encomendar um lote.",
+        "sections": [
+          {
+            "p": [
+              "O bakuchiol entrou na descrição de quase todas as linhas de clean beauty como alternativa suave ao retinol. O comprador, porém, adquire um lote de matéria-prima e não uma frase da embalagem. Daí em diante decidem tudo a cifra de pureza, o método com que foi medida e os documentos do lote."
+            ]
+          },
+          {
+            "h": "O que é na realidade",
+            "p": [
+              "O bakuchiol obtém-se das sementes de Psoralea corylifolia, a planta conhecida como babchi. Quimicamente é um fenol meroterpénico e o nome INCI coincide com o comum: Bakuchiol. Não é um retinoide, por isso «alternativa ao retinol» descreve um efeito esperado no plano comercial e não um parentesco químico.",
+              "A cifra 99% ao lado do nome indica o nível de padronização, ou seja, a proporção de bakuchiol na matéria-prima. Não é um selo de qualidade nem um certificado, mas um valor que o relatório de análise do lote tem de confirmar."
+            ]
+          },
+          {
+            "h": "Por que a cifra pesa mais do que a palavra",
+            "p": [
+              "A palavra bakuchiol numa especificação nada diz sobre a concentração. Sob o mesmo nome vendem-se tanto o ativo purificado como uma solução oleosa diluída com poucos por cento. A dosagem varia várias vezes e com ela o custo da fórmula.",
+              "Por isso na especificação não se escreve «bakuchiol» mas «bakuchiol, mínimo 99%, método tal». Sem o método a cifra continua a ser uma palavra: dois métodos diferentes no mesmo lote dão resultados diferentes."
+            ]
+          },
+          {
+            "h": "O que pedir ao fornecedor",
+            "p": [
+              "O certificado de análise do lote real, não de uma amostra tipo. Tem de trazer o teor de ativo, o método de medição e o número de lote.",
+              "À parte pedem-se os resultados de solventes residuais, metais pesados, pesticidas e microbiologia. Em matéria-prima vegetal isto não é uma formalidade: os pesticidas chegam do campo e os solventes do processo de extração.",
+              "Terceiro, os dados de estabilidade. As empresas apontam a fotoestabilidade do bakuchiol como vantagem face ao retinol, e se esse argumento for para a descrição do seu produto, por baixo tem de estar um documento e não uma linha de brochura."
+            ]
+          },
+          {
+            "h": "O que decide o jurista e não o químico",
+            "p": [
+              "As menções da embalagem são reguladas pelo país de venda, não pela brochura do fornecedor. A comparação com o retinol, as fórmulas sobre rugas e as promessas de eficácia são admitidas nuns países e exigem ensaios noutros.",
+              "A lista de alegações acorda-se por isso antes de arrancar a produção, e não depois de impressa a cartonagem. O fornecedor responde pela matéria-prima e pelos seus documentos; pelo que está escrito na caixa responde você."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "centella-derivatives-which-one-to-specify",
+    "category": "guide",
+    "date": "2026-08-30",
+    "related": [
+      "sunpure",
+      "cosmetics",
+      "verify"
+    ],
+    "supplier": "sunpure",
+    "hero": "/brand/og-sunpure.png",
+    "i18n": {
+      "ru": {
+        "title": "Центелла: какой именно дериват писать в спецификации",
+        "excerpt": "Слово «центелла» в спецификации не описывает сырьё. Под одним растением продаются пять разных позиций с разной ценой и разной дозировкой, и выбор между ними делают до расчёта себестоимости.",
+        "seoTitle": "Центелла: какой дериват писать в спецификации · Teranova",
+        "seoDesc": "Чем отличаются азиатикозид, мадекассозид, азиатовая кислота и TECA, что означает титрование 95% и что писать в спецификации на сырьё.",
+        "sections": [
+          {
+            "p": [
+              "«Экстракт центеллы» в спецификации выглядит как понятная позиция, но описывает целое семейство сырья с разной ценой за килограмм и разной рабочей дозировкой. Два поставщика могут честно назвать свой продукт центеллой и прислать совершенно разные вещи."
+            ]
+          },
+          {
+            "h": "Под одним растением пять разных позиций",
+            "p": [
+              "Из Centella asiatica делают, во-первых, сам экстракт, стандартизованный по сумме ключевых тритерпенов. Во-вторых, выделенные вещества по отдельности: азиатикозид, мадекассозид и азиатовую кислоту, обычно с чистотой около 95%.",
+              "Отдельно стоят титрованный экстракт TECA и позиция «тритерпены 95%». Это не синонимы: они различаются составом и тем, за что именно вы платите."
+            ]
+          },
+          {
+            "h": "Что означает TECA",
+            "p": [
+              "TECA расшифровывается как титрованный экстракт центеллы. Он собран не под один компонент, а под заданное соотношение трёх: азиатикозида, азиатовой и мадекассовой кислот, суммарно титрованных до 95%.",
+              "Соотношение при этом задано. Например, Sunpure стандартизует свой TECA 95% по азиатикозиду в диапазоне 36–44% и по сумме генинов, то есть азиатовой и мадекассовой кислот, в диапазоне 54–66%. Именно это отличает TECA от экстракта «по центелле вообще»: у него есть внутренняя структура, которую можно проверить."
+            ]
+          },
+          {
+            "h": "Как выбор влияет на дозировку и цену",
+            "p": [
+              "Очищенное вещество стоит дороже за килограмм, но вводится в меньшей доле. Экстракт дешевле, но содержание действующих веществ в нём ниже, и без указания этого содержания сравнивать предложения невозможно.",
+              "Отсюда частая ошибка при сравнении поставщиков: цены сопоставляют за килограмм сырья, а не за килограмм действующего вещества. При таком счёте более дешёвое предложение регулярно оказывается дороже в пересчёте на готовую рецептуру."
+            ]
+          },
+          {
+            "h": "Что писать в спецификации и что запросить",
+            "p": [
+              "В спецификации называют конкретный дериват, цифру стандартизации и метод её определения. «Экстракт центеллы» без этих трёх позиций оставляет поставщику право прислать то, что он считает центеллой.",
+              "У производителя запрашивают протокол анализа на партию, результаты по остаточным растворителям, тяжёлым металлам, пестицидам и микробиологии, а также номер регуляторного досье, если оно подано. Номер полезен тем, что его существование можно проверить самостоятельно: например, у Sunpure это USDMF-033156 на центеллу и USDMF-040257 на мадекассозид."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Centella: which derivative to name in the specification",
+        "excerpt": "The word centella in a specification does not describe a raw material. One plant yields five different items at different prices and different dose levels, and the choice is made before the cost calculation.",
+        "seoTitle": "Centella: which derivative to name in the spec · Teranova",
+        "seoDesc": "How asiaticoside, madecassoside, asiatic acid and TECA differ, what titration to 95% means and what to write in a raw-material specification.",
+        "sections": [
+          {
+            "p": [
+              "\"Centella extract\" reads like a clear line item in a specification, yet it describes a whole family of materials with different prices per kilogram and different working doses. Two suppliers can both honestly call their product centella and send you entirely different things."
+            ]
+          },
+          {
+            "h": "One plant, five different items",
+            "p": [
+              "Centella asiatica yields, first, the extract itself, standardised to the sum of the key triterpenes. Second, the isolated compounds on their own: asiaticoside, madecassoside and asiatic acid, usually at around 95% purity.",
+              "TECA, the titrated extract, and the item labelled triterpenes 95% stand apart. These are not synonyms: they differ in composition and in what exactly you are paying for."
+            ]
+          },
+          {
+            "h": "What TECA means",
+            "p": [
+              "TECA stands for titrated extract of Centella asiatica. It is built not around a single compound but around a set ratio of three: asiaticoside, asiatic acid and madecassic acid, titrated together to 95%.",
+              "That ratio is defined. Sunpure, for instance, standardises its TECA 95% to asiaticoside in the 36–44% range and to total genins, meaning asiatic and madecassic acid, in the 54–66% range. This is what separates TECA from an extract sold as centella in general: it has an internal structure you can verify."
+            ]
+          },
+          {
+            "h": "How the choice affects dosing and price",
+            "p": [
+              "A purified compound costs more per kilogram but goes in at a lower share. An extract is cheaper, yet its active content is lower, and without that content stated the offers cannot be compared at all.",
+              "Hence a frequent mistake when comparing suppliers: prices are set side by side per kilogram of material rather than per kilogram of active. Counted that way, the cheaper offer regularly turns out to be the more expensive one in the finished formula."
+            ]
+          },
+          {
+            "h": "What to write and what to request",
+            "p": [
+              "A specification names the exact derivative, the standardisation figure and the method used to determine it. \"Centella extract\" without those three leaves the supplier free to send whatever it considers centella.",
+              "From the producer, request the batch certificate of analysis, results for residual solvents, heavy metals, pesticides and microbiology, and the regulatory dossier number where one has been filed. The number is useful because its existence can be checked independently: at Sunpure, for example, it is USDMF-033156 for centella and USDMF-040257 for madecassoside."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "병풀: 규격서에 어떤 유도체를 적을 것인가",
+        "excerpt": "규격서의 병풀이라는 단어는 원료를 설명하지 않습니다. 한 식물에서 가격과 사용량이 다른 다섯 가지 품목이 나오며, 그 선택은 원가 계산 전에 이루어집니다.",
+        "seoTitle": "병풀: 규격서에 어떤 유도체를 적을 것인가 · Teranova",
+        "seoDesc": "아시아티코사이드, 마데카소사이드, 아시아틱애씨드, TECA의 차이와 95% 적정의 의미, 원료 규격서에 무엇을 적어야 하는지 정리했습니다.",
+        "sections": [
+          {
+            "p": [
+              "규격서의 병풀 추출물은 명확한 항목처럼 보이지만, 킬로그램당 가격도 사용 농도도 서로 다른 원료군 전체를 가리킵니다. 두 공급사가 모두 정직하게 자사 제품을 병풀이라 부르면서 전혀 다른 물건을 보낼 수 있습니다."
+            ]
+          },
+          {
+            "h": "한 식물에서 나오는 다섯 가지 품목",
+            "p": [
+              "Centella asiatica에서는 우선 주요 트리테르펜 합계로 표준화한 추출물이 나옵니다. 다음으로 개별 분리 성분이 있습니다. 아시아티코사이드, 마데카소사이드, 아시아틱애씨드이며 보통 순도는 95% 안팎입니다.",
+              "적정 추출물인 TECA와 트리테르펜 95%라는 품목은 별개입니다. 동의어가 아니며 조성이 다르고, 무엇에 값을 치르는지가 다릅니다."
+            ]
+          },
+          {
+            "h": "TECA가 뜻하는 것",
+            "p": [
+              "TECA는 병풀의 적정 추출물을 뜻합니다. 단일 성분이 아니라 세 가지의 정해진 비율, 즉 아시아티코사이드와 아시아틱애씨드, 마데카식애씨드를 합쳐 95%로 적정한 것입니다.",
+              "그 비율은 정해져 있습니다. 예를 들어 Sunpure는 자사 TECA 95%를 아시아티코사이드 36~44%, 총 제닌 즉 아시아틱애씨드와 마데카식애씨드 합계 54~66%로 표준화합니다. 이것이 막연히 병풀이라고 파는 추출물과 TECA를 가르는 지점입니다. 검증할 수 있는 내부 구조가 있습니다."
+            ]
+          },
+          {
+            "h": "선택이 사용량과 가격에 미치는 영향",
+            "p": [
+              "정제된 성분은 킬로그램당 비싸지만 배합 비율은 낮습니다. 추출물은 저렴하지만 유효성분 함량이 낮고, 그 함량이 명시되지 않으면 견적 자체를 비교할 수 없습니다.",
+              "여기서 흔한 실수가 나옵니다. 원료 킬로그램당 가격을 비교하고 유효성분 킬로그램당 가격을 비교하지 않는 것입니다. 그렇게 계산하면 더 싼 제안이 완제품 처방 기준으로는 더 비싸지는 일이 자주 있습니다."
+            ]
+          },
+          {
+            "h": "규격서에 적을 것과 요청할 것",
+            "p": [
+              "규격서에는 정확한 유도체, 표준화 수치, 그 측정 방법을 적습니다. 이 셋이 없는 병풀 추출물이라는 표기는 공급사가 병풀이라 여기는 것을 보낼 권리를 남깁니다.",
+              "제조사에는 배치 시험성적서, 잔류 용매와 중금속, 잔류 농약, 미생물 결과, 그리고 제출된 경우 규제 등록 번호를 요청합니다. 번호가 유용한 이유는 존재 여부를 직접 확인할 수 있기 때문입니다. 예컨대 Sunpure의 경우 병풀은 USDMF-033156, 마데카소사이드는 USDMF-040257입니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "积雪草：规格书里该写哪一种衍生物",
+        "excerpt": "规格书里的「积雪草」并不描述原料。同一种植物产出五种价格与用量都不同的品项，而这个选择要在成本核算之前做出。",
+        "seoTitle": "积雪草：规格书里该写哪一种衍生物 · Teranova",
+        "seoDesc": "积雪草苷、羟基积雪草苷、积雪草酸与 TECA 有何不同，滴定至 95% 是什么意思，以及原料规格书里应当写什么。",
+        "sections": [
+          {
+            "p": [
+              "规格书上的「积雪草提取物」看似是一个清晰的条目，实际上指的是一整族原料，每公斤价格不同，工作用量也不同。两家供应商都可以诚实地称自己的产品为积雪草，却寄来完全不同的东西。"
+            ]
+          },
+          {
+            "h": "一种植物，五个不同品项",
+            "p": [
+              "Centella asiatica 首先产出按主要三萜总量标准化的提取物。其次是单独分离的成分：积雪草苷、羟基积雪草苷与积雪草酸，纯度通常在 95% 左右。",
+              "滴定提取物 TECA 与标注为「三萜 95%」的品项另当别论。它们不是同义词，组成不同，您所支付的对象也不同。"
+            ]
+          },
+          {
+            "h": "TECA 的含义",
+            "p": [
+              "TECA 是积雪草滴定提取物的缩写。它不是围绕单一成分构建的，而是围绕三者的既定比例：积雪草苷、积雪草酸与羟基积雪草酸，合计滴定至 95%。",
+              "这一比例是规定好的。例如 Sunpure 将其 TECA 95% 标准化为积雪草苷 36–44%、总苷元即积雪草酸与羟基积雪草酸合计 54–66%。这正是 TECA 与笼统称作积雪草的提取物之间的分界：它具有可以核验的内部结构。"
+            ]
+          },
+          {
+            "h": "选择如何影响用量与价格",
+            "p": [
+              "纯化成分每公斤更贵，但投料比例更低。提取物更便宜，但活性成分含量更低；若不注明该含量，报价根本无法比较。",
+              "由此产生一个常见错误：比较供应商时按原料每公斤计价，而不是按活性成分每公斤计价。这样算下来，看似更便宜的报价换算到成品配方后往往更贵。"
+            ]
+          },
+          {
+            "h": "规格书写什么、索取什么",
+            "p": [
+              "规格书应写明确切的衍生物、标准化数值及其测定方法。缺少这三项的「积雪草提取物」等于把「什么算积雪草」的决定权留给了供应商。",
+              "向生产商索取批次检验报告，残留溶剂、重金属、农药残留与微生物结果，以及已提交时的法规备案编号。编号之所以有用，是因为可以自行核实其存在：例如 Sunpure 的积雪草为 USDMF-033156，羟基积雪草苷为 USDMF-040257。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "ツボクサ：規格書にどの誘導体を書くか",
+        "excerpt": "規格書の「ツボクサ」という語は原料を説明しません。一つの植物から価格も配合量も異なる五つの品目が生まれ、その選択は原価計算の前に行われます。",
+        "seoTitle": "ツボクサ：規格書にどの誘導体を書くか · Teranova",
+        "seoDesc": "アジアチコシド、マデカッソシド、アジアチン酸、TECA の違い、95% 滴定の意味、原料規格書に何を書くべきかをまとめました。",
+        "sections": [
+          {
+            "p": [
+              "規格書の「ツボクサエキス」は明確な項目に見えますが、実際にはキログラム単価も使用量も異なる原料の一群を指します。二社がともに自社製品を正直にツボクサと呼びながら、まったく違うものを送ってくることがあり得ます。"
+            ]
+          },
+          {
+            "h": "一つの植物から五つの品目",
+            "p": [
+              "Centella asiatica からはまず、主要トリテルペンの合計で標準化したエキスが得られます。次に単離成分そのもの、すなわちアジアチコシド、マデカッソシド、アジアチン酸で、純度はおおむね 95% 前後です。",
+              "滴定エキスの TECA と「トリテルペン 95%」という品目は別枠です。同義語ではなく、組成が異なり、何に対価を払っているかも異なります。"
+            ]
+          },
+          {
+            "h": "TECA が意味するもの",
+            "p": [
+              "TECA はツボクサの滴定エキスを指します。単一成分ではなく、三つの定められた比率、すなわちアジアチコシド、アジアチン酸、マデカッシン酸を合計 95% に滴定したものです。",
+              "その比率は定められています。たとえば Sunpure は自社の TECA 95% をアジアチコシド 36〜44%、ゲニン合計すなわちアジアチン酸とマデカッシン酸の合計 54〜66% に標準化しています。漠然とツボクサとして売られるエキスと TECA を分けるのはこの点です。検証できる内部構造があります。"
+            ]
+          },
+          {
+            "h": "選択が配合量と価格に与える影響",
+            "p": [
+              "精製された成分はキログラム単価が高い一方、配合比率は低くなります。エキスは安価ですが有効成分の含量が低く、その含量が示されなければ見積の比較そのものができません。",
+              "ここからよくある誤りが生じます。供給者を比べるとき、有効成分あたりではなく原料あたりのキログラム単価で並べてしまうことです。その計算では、安く見えた提案が完成処方に換算すると高くつく例が繰り返し出てきます。"
+            ]
+          },
+          {
+            "h": "規格書に書くことと求めること",
+            "p": [
+              "規格書には具体的な誘導体、標準化の数値、その測定方法を書きます。この三つがない「ツボクサエキス」は、何をツボクサと見なすかの判断をサプライヤーに委ねることになります。",
+              "メーカーには、ロットの分析証明書、残留溶媒と重金属、残留農薬、微生物の結果、そして提出済みであれば規制当局への登録番号を求めます。番号が有用なのは、その存在を自分で確認できるからです。たとえば Sunpure ではツボクサが USDMF-033156、マデカッソシドが USDMF-040257 です。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Centella: quale derivato indicare nella specifica",
+        "excerpt": "La parola centella in una specifica non descrive una materia prima. Da una sola pianta escono cinque voci diverse per prezzo e per dosaggio, e la scelta si fa prima del calcolo dei costi.",
+        "seoTitle": "Centella: quale derivato indicare nella specifica · Teranova",
+        "seoDesc": "In che cosa differiscono asiaticoside, madecassoside, acido asiatico e TECA, cosa significa la titolazione al 95% e cosa scrivere nella specifica.",
+        "sections": [
+          {
+            "p": [
+              "«Estratto di centella» sembra una voce chiara in una specifica, eppure descrive un'intera famiglia di materie prime con prezzi al chilogrammo e dosaggi di lavoro diversi. Due fornitori possono chiamare onestamente centella il proprio prodotto e mandarvi cose del tutto diverse."
+            ]
+          },
+          {
+            "h": "Una pianta, cinque voci diverse",
+            "p": [
+              "Dalla Centella asiatica si ricava anzitutto l'estratto, standardizzato sulla somma dei triterpeni principali. Poi i composti isolati singolarmente: asiaticoside, madecassoside e acido asiatico, di norma con purezza attorno al 95%.",
+              "A parte stanno l'estratto titolato TECA e la voce «triterpeni 95%». Non sono sinonimi: cambiano la composizione e cambia ciò per cui state pagando."
+            ]
+          },
+          {
+            "h": "Che cosa significa TECA",
+            "p": [
+              "TECA sta per estratto titolato di Centella asiatica. Non è costruito attorno a un singolo composto ma attorno a un rapporto fissato fra tre: asiaticoside, acido asiatico e acido madecassico, titolati insieme al 95%.",
+              "Il rapporto è definito. Sunpure, per esempio, standardizza il suo TECA 95% sull'asiaticoside nell'intervallo 36–44% e sulle genine totali, cioè acido asiatico e madecassico, nell'intervallo 54–66%. È questo che separa il TECA da un estratto venduto come centella in generale: ha una struttura interna verificabile."
+            ]
+          },
+          {
+            "h": "Come la scelta incide su dosaggio e prezzo",
+            "p": [
+              "Il composto purificato costa di più al chilogrammo ma entra in percentuale minore. L'estratto costa meno, però il contenuto di attivo è più basso, e senza quel dato le offerte non sono confrontabili.",
+              "Da qui un errore frequente nel confronto fra fornitori: i prezzi si affiancano al chilogrammo di materia e non al chilogrammo di attivo. Contata così, l'offerta più economica risulta con regolarità la più cara sulla formula finita."
+            ]
+          },
+          {
+            "h": "Che cosa scrivere e che cosa chiedere",
+            "p": [
+              "La specifica indica il derivato preciso, la cifra di standardizzazione e il metodo con cui è determinata. «Estratto di centella» senza queste tre voci lascia al fornitore la libertà di mandare ciò che considera centella.",
+              "Al produttore si chiedono il certificato di analisi del lotto, i risultati su solventi residui, metalli pesanti, pesticidi e microbiologia, e il numero del dossier regolatorio dove sia stato depositato. Il numero è utile perché la sua esistenza si verifica da soli: in Sunpure, per esempio, è USDMF-033156 per la centella e USDMF-040257 per il madecassoside."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Centella: welches Derivat in die Spezifikation gehört",
+        "excerpt": "Das Wort Centella in einer Spezifikation beschreibt keinen Rohstoff. Aus einer Pflanze entstehen fünf verschiedene Positionen mit unterschiedlichem Preis und unterschiedlicher Dosierung, und die Wahl fällt vor der Kalkulation.",
+        "seoTitle": "Centella: welches Derivat in die Spezifikation · Teranova",
+        "seoDesc": "Worin sich Asiaticosid, Madecassosid, Asiatsäure und TECA unterscheiden, was die Titrierung auf 95% bedeutet und was in die Rohstoffspezifikation gehört.",
+        "sections": [
+          {
+            "p": [
+              "«Centella-Extrakt» wirkt in einer Spezifikation wie eine klare Position, beschreibt aber eine ganze Rohstofffamilie mit unterschiedlichen Kilopreisen und unterschiedlichen Einsatzmengen. Zwei Lieferanten können ihr Produkt beide ehrlich Centella nennen und völlig verschiedene Dinge schicken."
+            ]
+          },
+          {
+            "h": "Eine Pflanze, fünf verschiedene Positionen",
+            "p": [
+              "Aus Centella asiatica entsteht zunächst der Extrakt selbst, standardisiert auf die Summe der wichtigsten Triterpene. Dann die einzeln isolierten Verbindungen: Asiaticosid, Madecassosid und Asiatsäure, meist mit einer Reinheit um 95%.",
+              "Gesondert stehen der titrierte Extrakt TECA und die Position «Triterpene 95%». Das sind keine Synonyme: Zusammensetzung und Gegenwert Ihres Geldes unterscheiden sich."
+            ]
+          },
+          {
+            "h": "Was TECA bedeutet",
+            "p": [
+              "TECA steht für titrierter Extrakt aus Centella asiatica. Er ist nicht um eine einzelne Verbindung gebaut, sondern um ein festgelegtes Verhältnis von dreien: Asiaticosid, Asiatsäure und Madecassinsäure, gemeinsam auf 95% titriert.",
+              "Dieses Verhältnis ist definiert. Sunpure etwa standardisiert sein TECA 95% auf Asiaticosid im Bereich 36–44% und auf Gesamtgenine, also Asiat- und Madecassinsäure, im Bereich 54–66%. Genau das trennt TECA von einem Extrakt, der pauschal als Centella verkauft wird: Er hat eine prüfbare innere Struktur."
+            ]
+          },
+          {
+            "h": "Wie die Wahl Dosierung und Preis verändert",
+            "p": [
+              "Die gereinigte Verbindung kostet je Kilogramm mehr, geht aber in geringerem Anteil ein. Der Extrakt ist billiger, sein Wirkstoffgehalt jedoch niedriger, und ohne diese Angabe lassen sich Angebote gar nicht vergleichen.",
+              "Daher ein häufiger Fehler im Lieferantenvergleich: Preise werden je Kilogramm Rohstoff nebeneinandergelegt und nicht je Kilogramm Wirkstoff. So gerechnet erweist sich das billigere Angebot regelmäßig als das teurere in der fertigen Rezeptur."
+            ]
+          },
+          {
+            "h": "Was hineingehört und was anzufordern ist",
+            "p": [
+              "Die Spezifikation nennt das genaue Derivat, die Standardisierungszahl und die Methode ihrer Bestimmung. «Centella-Extrakt» ohne diese drei Angaben überlässt dem Lieferanten die Entscheidung, was als Centella gilt.",
+              "Beim Hersteller fordert man das Chargenanalysenzertifikat an, dazu Ergebnisse zu Restlösemitteln, Schwermetallen, Pestiziden und Mikrobiologie sowie die Nummer des Regulierungsdossiers, sofern eines eingereicht wurde. Die Nummer nützt, weil sich ihre Existenz selbst prüfen lässt: bei Sunpure etwa USDMF-033156 für Centella und USDMF-040257 für Madecassosid."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Centella : quel dérivé inscrire dans la spécification",
+        "excerpt": "Le mot centella dans une spécification ne décrit pas une matière première. Une même plante donne cinq postes différents par le prix et par le dosage, et le choix se fait avant le calcul du coût.",
+        "seoTitle": "Centella : quel dérivé inscrire en spécification · Teranova",
+        "seoDesc": "Ce qui distingue l'asiaticoside, le madécassoside, l'acide asiatique et le TECA, ce que signifie la titration à 95% et quoi écrire dans la spécification.",
+        "sections": [
+          {
+            "p": [
+              "« Extrait de centella » ressemble à un poste clair dans une spécification, mais désigne toute une famille de matières premières aux prix au kilogramme et aux dosages de travail différents. Deux fournisseurs peuvent honnêtement appeler leur produit centella et vous envoyer des choses totalement différentes."
+            ]
+          },
+          {
+            "h": "Une plante, cinq postes différents",
+            "p": [
+              "De la Centella asiatica on tire d'abord l'extrait lui-même, standardisé sur la somme des triterpènes principaux. Ensuite les composés isolés séparément : asiaticoside, madécassoside et acide asiatique, en général autour de 95% de pureté.",
+              "À part se tiennent l'extrait titré TECA et le poste « triterpènes 95% ». Ce ne sont pas des synonymes : la composition diffère, et ce que vous payez aussi."
+            ]
+          },
+          {
+            "h": "Ce que signifie TECA",
+            "p": [
+              "TECA désigne l'extrait titré de Centella asiatica. Il n'est pas bâti autour d'un composé unique mais autour d'un rapport fixé entre trois : asiaticoside, acide asiatique et acide madécassique, titrés ensemble à 95%.",
+              "Ce rapport est défini. Sunpure, par exemple, standardise son TECA 95% sur l'asiaticoside dans une fourchette de 36–44% et sur les génines totales, c'est-à-dire les acides asiatique et madécassique, dans une fourchette de 54–66%. C'est ce qui sépare le TECA d'un extrait vendu comme centella en général : il possède une structure interne vérifiable."
+            ]
+          },
+          {
+            "h": "Comment le choix change le dosage et le prix",
+            "p": [
+              "Le composé purifié coûte plus cher au kilogramme mais entre à une part plus faible. L'extrait coûte moins cher, mais sa teneur en actif est plus basse, et sans cette teneur les offres ne sont tout simplement pas comparables.",
+              "D'où une erreur fréquente dans la comparaison des fournisseurs : les prix sont mis côte à côte au kilogramme de matière et non au kilogramme d'actif. Ainsi comptée, l'offre la moins chère se révèle régulièrement la plus chère une fois ramenée à la formule finie."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut écrire et ce qu'il faut demander",
+            "p": [
+              "La spécification nomme le dérivé précis, le chiffre de standardisation et la méthode qui le détermine. « Extrait de centella » sans ces trois éléments laisse au fournisseur le soin de décider ce qui est de la centella.",
+              "Au producteur, on demande le certificat d'analyse du lot, les résultats sur solvants résiduels, métaux lourds, pesticides et microbiologie, ainsi que le numéro du dossier réglementaire lorsqu'il a été déposé. Ce numéro est utile parce que son existence se vérifie soi-même : chez Sunpure, par exemple, USDMF-033156 pour la centella et USDMF-040257 pour le madécassoside."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Centella: şartnameye hangi türev yazılmalı",
+        "excerpt": "Şartnamedeki centella kelimesi bir hammaddeyi tarif etmez. Tek bitkiden fiyatı ve kullanım oranı farklı beş ayrı kalem çıkar ve bu seçim maliyet hesabından önce yapılır.",
+        "seoTitle": "Centella: şartnameye hangi türev yazılmalı · Teranova",
+        "seoDesc": "Asiatikozit, madekassozit, asiatik asit ve TECA arasındaki fark, %95 titrasyonun anlamı ve hammadde şartnamesine ne yazılması gerektiği.",
+        "sections": [
+          {
+            "p": [
+              "Şartnamedeki centella ekstresi net bir kalem gibi görünür, oysa kilogram fiyatı ve çalışma dozu farklı bir hammadde ailesini tarif eder. İki tedarikçi de ürününe dürüstçe centella diyebilir ve size tamamen farklı şeyler gönderebilir."
+            ]
+          },
+          {
+            "h": "Tek bitki, beş ayrı kalem",
+            "p": [
+              "Centella asiatica'dan önce başlıca triterpenlerin toplamına göre standartlaştırılmış ekstrenin kendisi elde edilir. Sonra ayrı ayrı izole bileşikler gelir: asiatikozit, madekassozit ve asiatik asit, genellikle %95 dolayında saflıkta.",
+              "Titre edilmiş ekstre TECA ile triterpen %95 kalemi ayrı durur. Bunlar eş anlamlı değildir: bileşim de, parasını ödediğiniz şey de farklıdır."
+            ]
+          },
+          {
+            "h": "TECA ne demek",
+            "p": [
+              "TECA, Centella asiatica'nın titre edilmiş ekstresi demektir. Tek bir bileşen etrafında değil, üç bileşenin belirlenmiş oranı etrafında kurulur: asiatikozit, asiatik asit ve madekassik asit, birlikte %95'e titre edilir.",
+              "Bu oran tanımlıdır. Örneğin Sunpure kendi TECA 95% ürününü asiatikozit için %36–44, toplam geninler yani asiatik ve madekassik asit için %54–66 aralığında standartlaştırır. TECA'yı genel olarak centella diye satılan ekstreden ayıran budur: doğrulanabilir bir iç yapısı vardır."
+            ]
+          },
+          {
+            "h": "Seçim dozu ve fiyatı nasıl değiştirir",
+            "p": [
+              "Saflaştırılmış bileşik kilogram başına daha pahalıdır ama daha düşük oranda girer. Ekstre daha ucuzdur, ancak etkin madde içeriği daha düşüktür ve bu içerik belirtilmeden teklifler hiç karşılaştırılamaz.",
+              "Buradan sık yapılan bir hata doğar: tedarikçiler karşılaştırılırken fiyatlar etkin madde kilogramı yerine hammadde kilogramı üzerinden yan yana konur. Böyle sayıldığında daha ucuz görünen teklif, bitmiş formüle çevrildiğinde düzenli olarak daha pahalı çıkar."
+            ]
+          },
+          {
+            "h": "Şartnameye ne yazılır, ne istenir",
+            "p": [
+              "Şartnamede tam türev adı, standardizasyon rakamı ve onu belirleyen yöntem yazılır. Bu üçü olmadan centella ekstresi ifadesi, neyin centella sayılacağına karar verme hakkını tedarikçiye bırakır.",
+              "Üreticiden parti analiz sertifikası, kalıntı çözücü, ağır metal, pestisit ve mikrobiyoloji sonuçları ile sunulmuşsa mevzuat dosya numarası istenir. Numaranın faydası varlığının kendiniz doğrulanabilmesidir: örneğin Sunpure'da centella için USDMF-033156, madekassozit için USDMF-040257."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Centella: qué derivado indicar en la especificación",
+        "excerpt": "La palabra centella en una especificación no describe una materia prima. De una misma planta salen cinco partidas distintas en precio y en dosis, y la elección se hace antes del cálculo de costes.",
+        "seoTitle": "Centella: qué derivado indicar en la especificación · Teranova",
+        "seoDesc": "En qué se diferencian asiaticósido, madecasósido, ácido asiático y TECA, qué significa la titulación al 95% y qué escribir en la especificación.",
+        "sections": [
+          {
+            "p": [
+              "«Extracto de centella» parece una partida clara en una especificación, pero describe toda una familia de materias primas con precios por kilogramo y dosis de trabajo distintos. Dos proveedores pueden llamar honestamente centella a su producto y enviarle cosas completamente diferentes."
+            ]
+          },
+          {
+            "h": "Una planta, cinco partidas distintas",
+            "p": [
+              "De la Centella asiatica se obtiene, primero, el extracto en sí, estandarizado sobre la suma de los triterpenos principales. Luego los compuestos aislados por separado: asiaticósido, madecasósido y ácido asiático, por lo general con una pureza cercana al 95%.",
+              "Aparte quedan el extracto titulado TECA y la partida «triterpenos 95%». No son sinónimos: cambia la composición y cambia aquello por lo que usted paga."
+            ]
+          },
+          {
+            "h": "Qué significa TECA",
+            "p": [
+              "TECA significa extracto titulado de Centella asiatica. No se construye en torno a un único compuesto sino a una proporción fijada entre tres: asiaticósido, ácido asiático y ácido madecásico, titulados en conjunto al 95%.",
+              "Esa proporción está definida. Sunpure, por ejemplo, estandariza su TECA 95% sobre asiaticósido en el rango 36–44% y sobre geninas totales, es decir ácidos asiático y madecásico, en el rango 54–66%. Eso separa al TECA de un extracto vendido como centella en general: tiene una estructura interna que se puede verificar."
+            ]
+          },
+          {
+            "h": "Cómo influye la elección en la dosis y el precio",
+            "p": [
+              "El compuesto purificado cuesta más por kilogramo pero entra en menor proporción. El extracto es más barato, aunque su contenido de activo es menor, y sin ese dato las ofertas no se pueden comparar.",
+              "De ahí un error frecuente al comparar proveedores: los precios se ponen uno al lado del otro por kilogramo de materia y no por kilogramo de activo. Contada así, la oferta más barata resulta con regularidad la más cara en la fórmula terminada."
+            ]
+          },
+          {
+            "h": "Qué escribir y qué solicitar",
+            "p": [
+              "La especificación nombra el derivado exacto, la cifra de estandarización y el método con que se determina. «Extracto de centella» sin esos tres datos deja al proveedor la libertad de enviar lo que considere centella.",
+              "Al fabricante se le piden el certificado de análisis del lote, los resultados de disolventes residuales, metales pesados, pesticidas y microbiología, y el número del expediente regulatorio si se ha presentado. El número sirve porque su existencia se comprueba por cuenta propia: en Sunpure, por ejemplo, USDMF-033156 para la centella y USDMF-040257 para el madecasósido."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Centella: que derivado indicar na especificação",
+        "excerpt": "A palavra centella numa especificação não descreve uma matéria-prima. De uma mesma planta saem cinco rubricas diferentes em preço e em dose, e a escolha faz-se antes do cálculo de custos.",
+        "seoTitle": "Centella: que derivado indicar na especificação · Teranova",
+        "seoDesc": "Em que diferem asiaticosídeo, madecassosídeo, ácido asiático e TECA, o que significa a titulação a 95% e o que escrever na especificação.",
+        "sections": [
+          {
+            "p": [
+              "«Extrato de centella» parece uma rubrica clara numa especificação, mas descreve toda uma família de matérias-primas com preços por quilograma e doses de trabalho diferentes. Dois fornecedores podem chamar honestamente centella ao seu produto e enviar-lhe coisas completamente distintas."
+            ]
+          },
+          {
+            "h": "Uma planta, cinco rubricas diferentes",
+            "p": [
+              "Da Centella asiatica obtém-se, primeiro, o próprio extrato, padronizado pela soma dos triterpenos principais. Depois os compostos isolados separadamente: asiaticosídeo, madecassosídeo e ácido asiático, em geral com pureza próxima dos 95%.",
+              "À parte ficam o extrato titulado TECA e a rubrica «triterpenos 95%». Não são sinónimos: muda a composição e muda aquilo por que está a pagar."
+            ]
+          },
+          {
+            "h": "O que significa TECA",
+            "p": [
+              "TECA designa o extrato titulado de Centella asiatica. Não é construído em torno de um único composto mas de uma proporção fixada entre três: asiaticosídeo, ácido asiático e ácido madecássico, titulados em conjunto a 95%.",
+              "Essa proporção está definida. A Sunpure, por exemplo, padroniza o seu TECA 95% em asiaticosídeo no intervalo 36–44% e em geninas totais, isto é ácidos asiático e madecássico, no intervalo 54–66%. É isso que separa o TECA de um extrato vendido como centella em geral: tem uma estrutura interna verificável."
+            ]
+          },
+          {
+            "h": "Como a escolha muda a dose e o preço",
+            "p": [
+              "O composto purificado custa mais por quilograma mas entra em menor proporção. O extrato é mais barato, embora o seu teor de ativo seja menor, e sem esse dado as propostas não são comparáveis.",
+              "Daí um erro frequente na comparação de fornecedores: os preços são colocados lado a lado por quilograma de matéria e não por quilograma de ativo. Contada assim, a proposta mais barata revela-se com regularidade a mais cara na fórmula acabada."
+            ]
+          },
+          {
+            "h": "O que escrever e o que pedir",
+            "p": [
+              "A especificação nomeia o derivado exato, a cifra de padronização e o método com que é determinada. «Extrato de centella» sem estes três elementos deixa ao fornecedor a liberdade de enviar o que considera centella.",
+              "Ao produtor pedem-se o certificado de análise do lote, os resultados de solventes residuais, metais pesados, pesticidas e microbiologia, e o número do dossiê regulamentar caso tenha sido submetido. O número é útil porque a sua existência se verifica por conta própria: na Sunpure, por exemplo, USDMF-033156 para a centella e USDMF-040257 para o madecassosídeo."
+            ]
+          }
+        ]
+      }
+    }
   }
 ]
