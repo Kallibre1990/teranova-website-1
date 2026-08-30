@@ -22,16 +22,40 @@
       "Titolari di marchi alla ricerca di un partner OEM/ODM coreano"
     ],
     "lines": [
-      { "name": "cellmedics — cura professionale", "note": "Cosmeceutica per l'uso in cabina e domiciliare: detersione, tonificazione, sieri, fiale, creme e maschere. I formati grandi (500–1 000 ml, 1 kg) sono pensati per il lavoro in cabina, quelli compatti per la cura domiciliare e il retail." },
-      { "name": "Cica Clear — per pelli sensibili e con imperfezioni", "note": "Linea a base di centella asiatica: tonico, siero, fiala e crema per pelli soggette a rossori e imperfezioni. Si compone in un protocollo di cura completo." },
-      { "name": "Biocell Multi — recupero ed elasticità", "note": "Linea multifunzione con chitosano e complesso di fattori di crescita: tonico, siero, fiala e crema. Dichiarata dall'azienda come cosmetico funzionale a doppia azione — illuminante e correttore delle rughe." },
-      { "name": "KERASON — trattamenti con apparecchiature", "note": "L'apparecchio KERASON PRIME si basa su ultrasuoni ad alta potenza ed elettrovibrazione, con tre tipi di manipoli per esigenze diverse e due attivatori professionali Pure AT e Pure ST. Secondo la documentazione dell'azienda si tratta di un dispositivo di categoria domestica e per centri estetici, non di un dispositivo medico." }
+      {
+        "name": "cellmedics — cura professionale",
+        "note": "Cosmeceutica per l'uso in cabina e domiciliare: detersione, tonificazione, sieri, fiale, creme e maschere. I formati grandi (500–1 000 ml, 1 kg) sono pensati per il lavoro in cabina, quelli compatti per la cura domiciliare e il retail."
+      },
+      {
+        "name": "Cica Clear — per pelli sensibili e con imperfezioni",
+        "note": "Linea a base di centella asiatica: tonico, siero, fiala e crema per pelli soggette a rossori e imperfezioni. Si compone in un protocollo di cura completo."
+      },
+      {
+        "name": "Biocell Multi — recupero ed elasticità",
+        "note": "Linea multifunzione con chitosano e complesso di fattori di crescita: tonico, siero, fiala e crema. Dichiarata dall'azienda come cosmetico funzionale a doppia azione — illuminante e correttore delle rughe."
+      },
+      {
+        "name": "KERASON — trattamenti con apparecchiature",
+        "note": "L'apparecchio KERASON PRIME si basa su ultrasuoni ad alta potenza ed elettrovibrazione, con tre tipi di manipoli per esigenze diverse e due attivatori professionali Pure AT e Pure ST. Secondo la documentazione dell'azienda si tratta di un dispositivo di categoria domestica e per centri estetici, non di un dispositivo medico."
+      }
     ],
     "tech": [
-      { "name": "Fattori di crescita e ricombinazione proteica", "note": "Competenza interna dell'azienda nell'ottenimento e nella stabilizzazione di complessi proteici; su di essa sono costruite la linea Biocell Multi e le creme riparatrici." },
-      { "name": "Peptidi biomimetici e callo vegetale", "note": "Sintesi di peptidi che riproducono strutture naturalmente presenti nella pelle e coltura di cellule vegetali per l'ottenimento di estratti attivi." },
-      { "name": "Ultrasuoni ad alta potenza 20–32 kHz", "note": "Tecnologia KERASON: le onde ultrasoniche a bassa frequenza vengono convertite in onde ad alta potenza e trasmesse alla pelle insieme all'elettrovibrazione. Il brevetto su KERASON PRIME è stato registrato in Corea nel 2026 (secondo quanto dichiarato dall'azienda)." },
-      { "name": "OEM/ODM a ciclo completo", "note": "Pianificazione del prodotto, sviluppo della formula, design del packaging, produzione presso il sito partner e assistenza all'esportazione. Il lotto minimo per OEM/ODM parte da 3 000 unità." }
+      {
+        "name": "Fattori di crescita e ricombinazione proteica",
+        "note": "Competenza interna dell'azienda nell'ottenimento e nella stabilizzazione di complessi proteici; su di essa sono costruite la linea Biocell Multi e le creme riparatrici."
+      },
+      {
+        "name": "Peptidi biomimetici e callo vegetale",
+        "note": "Sintesi di peptidi che riproducono strutture naturalmente presenti nella pelle e coltura di cellule vegetali per l'ottenimento di estratti attivi."
+      },
+      {
+        "name": "Ultrasuoni ad alta potenza 20–32 kHz",
+        "note": "Tecnologia KERASON: le onde ultrasoniche a bassa frequenza vengono convertite in onde ad alta potenza e trasmesse alla pelle insieme all'elettrovibrazione. Il brevetto su KERASON PRIME è stato registrato in Corea nel 2026 (secondo quanto dichiarato dall'azienda)."
+      },
+      {
+        "name": "OEM/ODM a ciclo completo",
+        "note": "Pianificazione del prodotto, sviluppo della formula, design del packaging, produzione presso il sito partner e assistenza all'esportazione. Il lotto minimo per OEM/ODM parte da 3 000 unità."
+      }
     ],
     "formats": [
       "Tonici e sieri 500–1 000 ml",
@@ -43,15 +67,30 @@
     ],
     "exportNote": "Secondo quanto dichiarato dall'azienda, i prodotti vengono forniti a USA, Hong Kong, Australia, Vietnam, Regno Unito e Thailandia; in Indonesia opera un distributore esclusivo. Per alcuni mercati — Cina, Malesia, Regno Unito, USA, Dubai — l'azienda segnala memorandum d'intesa firmati; gli accordi definitivi sono in fase di trattativa, perciò questi territori non sono considerati chiusi. Resa di consegna: FOB Korea. Le destinazioni prioritarie per l'azienda sono Cina, Giappone, Regno Unito, USA, Francia e Taiwan.",
     "terms": [
-      { "label": "Resa di consegna", "value": "FOB Korea" },
-      { "label": "Ordine minimo", "value": "da 100 unità per referenza (maschere modellanti — da 30); OEM/ODM — da 3 000 unità" },
-      { "label": "Prezzi", "value": "Livelli all'ingrosso e per distributori; per l'apparecchio KERASON PRIME sono previste condizioni dedicate, incluse quelle in esclusiva a partire da 50 unità l'anno" },
-      { "label": "Pagamento", "value": "100% T/T; le condizioni vengono definite nel contratto" },
-      { "label": "Tempi di produzione", "value": "50–60 giorni dalla conferma dell'ordine; i tempi di consegna dipendono dal mercato e dai requisiti di registrazione" }
+      {
+        "label": "Resa di consegna",
+        "value": "FOB Korea"
+      },
+      {
+        "label": "Ordine minimo",
+        "value": "da 100 unità per referenza (maschere modellanti — da 30); OEM/ODM — da 3 000 unità"
+      },
+      {
+        "label": "Prezzi",
+        "value": "Livelli all'ingrosso e per distributori; per l'apparecchio KERASON PRIME sono previste condizioni dedicate, incluse quelle in esclusiva a partire da 50 unità l'anno"
+      },
+      {
+        "label": "Pagamento",
+        "value": "100% T/T; le condizioni vengono definite nel contratto"
+      },
+      {
+        "label": "Tempi di produzione",
+        "value": "50–60 giorni dalla conferma dell'ordine; i tempi di consegna dipendono dal mercato e dai requisiti di registrazione"
+      }
     ],
     "consentNote": "I dati e i materiali sono forniti dall'azienda iCELmedi Co., Ltd. e pubblicati con il suo consenso scritto del 5 agosto 2026. Le informazioni su certificazioni, registrazioni e modello produttivo sono riportate secondo quanto dichiarato dall'azienda e sono soggette a conferma documentale nella fase di trattativa. I preparati professionali per uso iniettivo e mesoterapico non sono presentati in vetrina.",
-    "seoTitle": "iCELmedi — cosmeceutica coreana cellmedics e apparecchi KERASON · Teranova",
-    "seoDesc": "iCELmedi: cosmeceutica professionale cellmedics e apparecchi a ultrasuoni KERASON dalla Corea. Tonici, sieri, fiale, creme, maschere. OEM/ODM, FOB Korea, tramite Teranova.",
+    "seoTitle": "iCELmedi — cosmeceutica coreana cellmedics · Teranova",
+    "seoDesc": "iCELmedi: cosmeceutica professionale cellmedics e apparecchi a ultrasuoni KERASON dalla Corea. Tonici, sieri, fiale, creme, maschere.",
     "catalog_notes": [
       "Latte per la prima fase di detersione: rimuove delicatamente trucco e impurità senza seccare la pelle. Formato cabina da 1 litro.",
       "Gel detergente con schiuma densa per la seconda fase di detersione; adatto a pelli miste e grasse.",

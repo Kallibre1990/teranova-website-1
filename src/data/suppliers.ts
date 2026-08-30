@@ -46,6 +46,53 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import bioptRu from './suppliers-i18n/biopt.ru.json';
+import bioptEn from './suppliers-i18n/biopt.en.json';
+import bioptKo from './suppliers-i18n/biopt.ko.json';
+import bioptZh from './suppliers-i18n/biopt.zh.json';
+import bioptJa from './suppliers-i18n/biopt.ja.json';
+import bioptIt from './suppliers-i18n/biopt.it.json';
+import bioptDe from './suppliers-i18n/biopt.de.json';
+import bioptFr from './suppliers-i18n/biopt.fr.json';
+import bioptTr from './suppliers-i18n/biopt.tr.json';
+import bioptEs from './suppliers-i18n/biopt.es.json';
+import bioptPt from './suppliers-i18n/biopt.pt.json';
+import loobeeRu from './suppliers-i18n/loobee.ru.json';
+import loobeeEn from './suppliers-i18n/loobee.en.json';
+import loobeeKo from './suppliers-i18n/loobee.ko.json';
+import loobeeZh from './suppliers-i18n/loobee.zh.json';
+import loobeeJa from './suppliers-i18n/loobee.ja.json';
+import loobeeIt from './suppliers-i18n/loobee.it.json';
+import loobeeDe from './suppliers-i18n/loobee.de.json';
+import loobeeFr from './suppliers-i18n/loobee.fr.json';
+import loobeeTr from './suppliers-i18n/loobee.tr.json';
+import loobeeEs from './suppliers-i18n/loobee.es.json';
+import loobeePt from './suppliers-i18n/loobee.pt.json';
+import loobeeCatalog from './suppliers-i18n/loobee.catalog.json';
+import slRu from './suppliers-i18n/slow-lounge.ru.json';
+import slEn from './suppliers-i18n/slow-lounge.en.json';
+import slKo from './suppliers-i18n/slow-lounge.ko.json';
+import slZh from './suppliers-i18n/slow-lounge.zh.json';
+import slJa from './suppliers-i18n/slow-lounge.ja.json';
+import slIt from './suppliers-i18n/slow-lounge.it.json';
+import slDe from './suppliers-i18n/slow-lounge.de.json';
+import slFr from './suppliers-i18n/slow-lounge.fr.json';
+import slTr from './suppliers-i18n/slow-lounge.tr.json';
+import slEs from './suppliers-i18n/slow-lounge.es.json';
+import slPt from './suppliers-i18n/slow-lounge.pt.json';
+import slCatalog from './suppliers-i18n/slow-lounge.catalog.json';
+import abRu from './suppliers-i18n/aberede.ru.json';
+import abEn from './suppliers-i18n/aberede.en.json';
+import abKo from './suppliers-i18n/aberede.ko.json';
+import abZh from './suppliers-i18n/aberede.zh.json';
+import abJa from './suppliers-i18n/aberede.ja.json';
+import abIt from './suppliers-i18n/aberede.it.json';
+import abDe from './suppliers-i18n/aberede.de.json';
+import abFr from './suppliers-i18n/aberede.fr.json';
+import abTr from './suppliers-i18n/aberede.tr.json';
+import abEs from './suppliers-i18n/aberede.es.json';
+import abPt from './suppliers-i18n/aberede.pt.json';
+import abCatalog from './suppliers-i18n/aberede.catalog.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -246,6 +293,10 @@ export interface SupplierContent {
      launch, an award) plus the slug of the article that unpacks it. */
   spotlight?: { label: string; title: string; text: string; cta: string; post: string };
   terms?: { label: string; value: string }[];
+  /* Подпись под блоком личного визита. Общая строка card_visited_d говорит
+     «был на заводе», и для производителей это верно. У BIOPT визит был в офис
+     компании, поэтому подпись задаётся здесь и перекрывает общую. */
+  visitNote?: string;
   consentNote: string;
   /* Per-product short notes, aligned by flat index with profile.catalog items. */
   catalog_notes?: string[];
@@ -572,7 +623,7 @@ const ckRegeonRu: SupplierContent = {
     { label: 'Как идёт работа', value: 'Заявка → проверка и согласование Teranova → переговоры и образцы → логистика, таможня и оплата под ключ.' },
   ],
   consentNote: 'Данные и материалы предоставлены компанией CK Regeon Inc. и публикуются с её письменного согласия с сохранением исходного содержания. Прайс-лист не публикуется. Прямые контакты производителя не раскрываются. Teranova координирует и сопровождает сделку.',
-  seoTitle: 'CK Regeon (DermaRegeon) — уход за кожей головы из Кореи · Teranova',
+  seoTitle: 'CK Regeon (DermaRegeon) — уход за кожей головы · Teranova',
   seoDesc: 'CK Regeon — корейская биотех-компания: бренды HAIRREGEON и HERIBON, технология WNT ON, пять патентов в США, ЕС, Корее и Китае, регистрации MoCRA, CPNP, SCPN и Dermatest. Оптовые поставки и сопровождение сделки через Teranova.',
   ui: {
     profile_sup: 'Профиль поставщика',
@@ -1212,6 +1263,14 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/multifit-presentation-ru.pdf', en: '/docs/multifit-presentation-en.pdf', ko: '/docs/multifit-presentation-ko.pdf', zh: '/docs/multifit-presentation-zh.pdf', ja: '/docs/multifit-presentation-ja.pdf', it: '/docs/multifit-presentation-it.pdf', de: '/docs/multifit-presentation-de.pdf', fr: '/docs/multifit-presentation-fr.pdf', tr: '/docs/multifit-presentation-tr.pdf', es: '/docs/multifit-presentation-es.pdf', pt: '/docs/multifit-presentation-pt.pdf',
     },
     gallery: [
+      /* Первые четыре — кадры из проектных роликов, присланных 28.08.2026.
+         Это единственные снимки с названных объектов, и единственные, где
+         виден масштаб рядом с человеком и управление с телефона. Стоят первыми
+         намеренно: их видит покупатель, который дальше первой строки не идёт. */
+      '/img/suppliers/multifit/gallery/case-malaysia-operator.jpg',
+      '/img/suppliers/multifit/gallery/case-pakistan-app-control.jpg',
+      '/img/suppliers/multifit/gallery/case-lebanon-tripoli.jpg',
+      '/img/suppliers/multifit/gallery/case-usa-ground-array.jpg',
       '/img/suppliers/multifit/gallery/robot-rooftop-array.jpg',
       '/img/suppliers/multifit/gallery/robot-industrial-roof.jpg',
       '/img/suppliers/multifit/gallery/g2-rooftop-fleet.jpg',
@@ -1228,6 +1287,17 @@ export const suppliers: SupplierProfile[] = [
       { src: '/video/multifit/mulr-e.mp4', poster: '/video/multifit/mulr-e.jpg', name: 'MULR-E' },
       { src: '/video/multifit/mr-t1.mp4', poster: '/video/multifit/mr-t1.jpg', name: 'MR-T1' },
       { src: '/video/multifit/mr-g3.mp4', poster: '/video/multifit/mr-g3.jpg', name: 'MR-G3' },
+      /* Проектные кейсы, присланные MULTIFIT 28.08.2026 после нашей просьбы о
+         материалах приличного качества. Названия — страны объектов, они
+         одинаково читаются во всех одиннадцати языках. Ливанский ролик несёт
+         в кадре собственную подпись объекта: 300 kW, Триполи, модель MR-G2.
+         Ролики из США и Ливана сняты вертикально; чтобы сетка не ломалась,
+         они вписаны в кадр 1280×720 с размытой подложкой, без обрезки. */
+      { src: '/video/multifit/case-lebanon.mp4', poster: '/video/multifit/case-lebanon.jpg', name: 'Lebanon · MR-G2' },
+      { src: '/video/multifit/case-malta.mp4', poster: '/video/multifit/case-malta.jpg', name: 'Malta' },
+      { src: '/video/multifit/case-malaysia.mp4', poster: '/video/multifit/case-malaysia.jpg', name: 'Malaysia' },
+      { src: '/video/multifit/case-pakistan.mp4', poster: '/video/multifit/case-pakistan.jpg', name: 'Pakistan' },
+      { src: '/video/multifit/case-usa.mp4', poster: '/video/multifit/case-usa.jpg', name: 'USA' },
     ],
     i18n: {
       ru: mk(multifitRu as any),
@@ -1275,6 +1345,191 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(sunpureTr as any),
       es: mk(sunpureEs as any),
       pt: mk(sunpurePt as any),
+    },
+  },
+  {
+    slug: 'biopt',
+    category: 'cosmetics',
+    name: 'BIOPT Co., Ltd.',
+    brand: 'VENDERMA',
+    status: 'visited',
+    visitDate: '2026-08-13',
+    visitGallery: [
+      '/img/suppliers/biopt/visit/visit-1.jpg',
+      '/img/suppliers/biopt/visit/visit-2.jpg',
+      '/img/suppliers/biopt/visit/visit-3.jpg',
+      '/img/suppliers/biopt/visit/visit-4.jpg',
+      '/img/suppliers/biopt/visit/visit-5.jpg',
+      '/img/suppliers/biopt/visit/visit-6.jpg',
+      '/img/suppliers/biopt/visit/visit-7.jpg',
+    ],
+    /* Красный акцент Red Calming и тёплое золото EXO REJUVA — обе гаммы взяты
+       из их собственной презентации и упаковки. */
+    brandColors: { deep: '#2b2b2f', sky: '#e8b7b0', accent: '#c0392b', bg: '#f7f1ee' },
+    voice: 'clinical',
+    /* Каталога по позициям нет: пакшотов на белом фоне поставщик не присылал,
+       в презентации они врезаны в таблицы по 163 px. Линии показаны своими
+       фотографиями из их же материалов; названия линий латиницей и одинаковы
+       во всех одиннадцати языках, поэтому ключ здесь один на линию. */
+    lineShots: {
+      'Red Calming Cica Exosome': '/img/suppliers/biopt/lines/red-calming.jpg',
+      'EXO REJUVA Ultra Lifting': '/img/suppliers/biopt/lines/exo-rejuva.jpg',
+      'EXO REJUVA Mela-C': '/img/suppliers/biopt/lines/mela-c.jpg',
+      'ERI-Pro': '/img/suppliers/biopt/lines/eri-pro.jpg',
+    },
+    /* Прайс не публикуется: условие письменного согласия BIOPT от 18.08.2026 —
+       экспортные цены в открытом доступе не размещаются. Отсюда нет priceFile. */
+    certs: ['ISO 9001'],
+    termsFile: {
+      ru: '/docs/biopt-terms-ru.pdf', en: '/docs/biopt-terms-en.pdf', ko: '/docs/biopt-terms-ko.pdf', zh: '/docs/biopt-terms-zh.pdf', ja: '/docs/biopt-terms-ja.pdf', it: '/docs/biopt-terms-it.pdf', de: '/docs/biopt-terms-de.pdf', fr: '/docs/biopt-terms-fr.pdf', tr: '/docs/biopt-terms-tr.pdf', es: '/docs/biopt-terms-es.pdf', pt: '/docs/biopt-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/biopt-presentation-ru.pdf', en: '/docs/biopt-presentation-en.pdf', ko: '/docs/biopt-presentation-ko.pdf', zh: '/docs/biopt-presentation-zh.pdf', ja: '/docs/biopt-presentation-ja.pdf', it: '/docs/biopt-presentation-it.pdf', de: '/docs/biopt-presentation-de.pdf', fr: '/docs/biopt-presentation-fr.pdf', tr: '/docs/biopt-presentation-tr.pdf', es: '/docs/biopt-presentation-es.pdf', pt: '/docs/biopt-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(bioptRu as any),
+      en: mk(bioptEn as any),
+      ko: mk(bioptKo as any),
+      zh: mk(bioptZh as any),
+      ja: mk(bioptJa as any),
+      it: mk(bioptIt as any),
+      de: mk(bioptDe as any),
+      fr: mk(bioptFr as any),
+      tr: mk(bioptTr as any),
+      es: mk(bioptEs as any),
+      pt: mk(bioptPt as any),
+    },
+  },
+  {
+    slug: 'loobee',
+    category: 'cosmetics',
+    name: 'SEUNGGUN COSMETICS CO., LTD.',
+    brand: 'LOOBEE',
+    status: 'provided',
+    /* Мягкая зелень с их собственного каталога: бренд подан как clean beauty. */
+    brandColors: { deep: '#1f5f45', sky: '#8fc7ac', accent: '#3e9b72', bg: '#edf6f1' },
+    voice: 'natural',
+    catalog: loobeeCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Знаки с их материалов, оба нейтральны к языку страницы. Протоколы —
+       на стадии сделки: в согласии от 18.08.2026 они этого не запрещают, но и
+       копий не прикладывали. */
+    certs: ['Vegan', 'Dermatest® EXCELLENT'],
+    /* priceFile нет и не будет: пункт 5 письменного согласия — экспортный
+       прайс EXW конфиденциален и не публикуется ни на площадке, ни в любом
+       другом открытом канале. */
+    termsFile: {
+      ru: '/docs/loobee-terms-ru.pdf', en: '/docs/loobee-terms-en.pdf', ko: '/docs/loobee-terms-ko.pdf', zh: '/docs/loobee-terms-zh.pdf', ja: '/docs/loobee-terms-ja.pdf', it: '/docs/loobee-terms-it.pdf', de: '/docs/loobee-terms-de.pdf', fr: '/docs/loobee-terms-fr.pdf', tr: '/docs/loobee-terms-tr.pdf', es: '/docs/loobee-terms-es.pdf', pt: '/docs/loobee-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/loobee-presentation-ru.pdf', en: '/docs/loobee-presentation-en.pdf', ko: '/docs/loobee-presentation-ko.pdf', zh: '/docs/loobee-presentation-zh.pdf', ja: '/docs/loobee-presentation-ja.pdf', it: '/docs/loobee-presentation-it.pdf', de: '/docs/loobee-presentation-de.pdf', fr: '/docs/loobee-presentation-fr.pdf', tr: '/docs/loobee-presentation-tr.pdf', es: '/docs/loobee-presentation-es.pdf', pt: '/docs/loobee-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(loobeeRu as any),
+      en: mk(loobeeEn as any),
+      ko: mk(loobeeKo as any),
+      zh: mk(loobeeZh as any),
+      ja: mk(loobeeJa as any),
+      it: mk(loobeeIt as any),
+      de: mk(loobeeDe as any),
+      fr: mk(loobeeFr as any),
+      tr: mk(loobeeTr as any),
+      es: mk(loobeeEs as any),
+      pt: mk(loobeePt as any),
+    },
+  },
+  {
+    slug: 'slow-lounge',
+    category: 'cosmetics',
+    name: 'TeamPass',
+    brand: 'SLOW LOUNGE',
+    status: 'provided',
+    /* Тёплый гриж с их бренд-буклета, тёмно-коричневый с этикетки Stressfree и
+       охра, которой у них набраны подзаголовки. */
+    brandColors: { deep: '#3E3128', sky: '#CBBBA6', accent: '#B8823C', bg: '#EFEFE9' },
+    /* Серифная подача, много воздуха, монограмма — их буклет построен ровно так. */
+    voice: 'minimal',
+    catalog: slCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Предметные раскладки из их же бренд-буклета: страница «#What's in my bag».
+       Кадры с лицами людей со страницы «#OOTD» не берём — прав на изображения
+       этих людей у нас нет, запрошены письмом. */
+    gallery: [
+      '/img/suppliers/slow-lounge/lifestyle/keyring-on-bag.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/airpods-flatlay.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/glasses-flatlay.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/desk-flatlay.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/bag-charm.jpg',
+      '/img/suppliers/slow-lounge/lifestyle/waterdrop-robe.jpg',
+    ],
+    /* Знаки с их бренд-буклета. Копий протоколов нам не присылали, поэтому в
+       тексте они везде идут как заявленные компанией. */
+    certs: ['Vegan', 'EWG Green', 'Dermatologist Tested'],
+    /* priceFile нет. Пометки «конфиденциально» на их прайсе не стоит, но в нём
+       отпускные цены в 25–30 % от розницы: публикация такой цифры уничтожает
+       розницу бренда во всех странах сразу. На витрине «цена по запросу». */
+    termsFile: {
+      ru: '/docs/slow-lounge-terms-ru.pdf', en: '/docs/slow-lounge-terms-en.pdf', ko: '/docs/slow-lounge-terms-ko.pdf', zh: '/docs/slow-lounge-terms-zh.pdf', ja: '/docs/slow-lounge-terms-ja.pdf', it: '/docs/slow-lounge-terms-it.pdf', de: '/docs/slow-lounge-terms-de.pdf', fr: '/docs/slow-lounge-terms-fr.pdf', tr: '/docs/slow-lounge-terms-tr.pdf', es: '/docs/slow-lounge-terms-es.pdf', pt: '/docs/slow-lounge-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/slow-lounge-presentation-ru.pdf', en: '/docs/slow-lounge-presentation-en.pdf', ko: '/docs/slow-lounge-presentation-ko.pdf', zh: '/docs/slow-lounge-presentation-zh.pdf', ja: '/docs/slow-lounge-presentation-ja.pdf', it: '/docs/slow-lounge-presentation-it.pdf', de: '/docs/slow-lounge-presentation-de.pdf', fr: '/docs/slow-lounge-presentation-fr.pdf', tr: '/docs/slow-lounge-presentation-tr.pdf', es: '/docs/slow-lounge-presentation-es.pdf', pt: '/docs/slow-lounge-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(slRu as any),
+      en: mk(slEn as any),
+      ko: mk(slKo as any),
+      zh: mk(slZh as any),
+      ja: mk(slJa as any),
+      it: mk(slIt as any),
+      de: mk(slDe as any),
+      fr: mk(slFr as any),
+      tr: mk(slTr as any),
+      es: mk(slEs as any),
+      pt: mk(slPt as any),
+    },
+  },
+  {
+    slug: 'aberede',
+    category: 'cosmetics',
+    name: 'Lubedecacorn Global Co., Ltd.',
+    brand: 'ABEREDE',
+    status: 'provided',
+    /* Красный знак с их логотипа и упаковки, тёплый белый фон бренд-буклета. */
+    brandColors: { deep: '#A8272C', sky: '#E3B7B4', accent: '#CE3A32', bg: '#FBF6F4' },
+    /* Дерма-косметика с патентами и протоколами испытаний — подача лабораторная. */
+    voice: 'clinical',
+    catalog: abCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Студийные кадры и часть кампейн-съёмки на Чеджу из их же папки материалов.
+       Портретные кадры, где лицо модели — главный объект, не берём: права на
+       изображения людей письмом пока не подтверждены. */
+    gallery: [
+      '/img/suppliers/aberede/gallery/jeju-serum-coast.jpg',
+      '/img/suppliers/aberede/gallery/cicapine-in-hand.jpg',
+      '/img/suppliers/aberede/gallery/dark-spot-gel-still.jpg',
+      '/img/suppliers/aberede/gallery/eye-cream-still.jpg',
+      '/img/suppliers/aberede/gallery/lip-mask-texture.jpg',
+      '/img/suppliers/aberede/gallery/principle-cream-texture.jpg',
+      '/img/suppliers/aberede/gallery/pine-ampoule-drop.jpg',
+      '/img/suppliers/aberede/gallery/sun-care-outdoors.jpg',
+      '/img/suppliers/aberede/gallery/cicapine-serum-still.jpg',
+      '/img/suppliers/aberede/gallery/jeju-cream-hands.jpg',
+    ],
+    /* 0,00 — индекс раздражения из подписанных протоколов лаборатории на три
+       продукта линии PRINCIPLE, копии у нас. Остальное заявлено компанией. */
+    /* Cruelty-free снят из блока знаков: знак рядом с 0,00 обещает документ,
+       а копии подтверждения у компании ещё не запрошены и не получены.
+       В тексте статус остаётся как заявление компании, с атрибуцией. */
+    certs: ['Vegan', '0,00'],
+    /* priceFile нет: прайс компании с минимальными партиями у нас есть, но в
+       открытый доступ он не идёт. */
+    termsFile: {
+      ru: '/docs/aberede-terms-ru.pdf', en: '/docs/aberede-terms-en.pdf', ko: '/docs/aberede-terms-ko.pdf', zh: '/docs/aberede-terms-zh.pdf', ja: '/docs/aberede-terms-ja.pdf', it: '/docs/aberede-terms-it.pdf', de: '/docs/aberede-terms-de.pdf', fr: '/docs/aberede-terms-fr.pdf', tr: '/docs/aberede-terms-tr.pdf', es: '/docs/aberede-terms-es.pdf', pt: '/docs/aberede-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/aberede-presentation-ru.pdf', en: '/docs/aberede-presentation-en.pdf', ko: '/docs/aberede-presentation-ko.pdf', zh: '/docs/aberede-presentation-zh.pdf', ja: '/docs/aberede-presentation-ja.pdf', it: '/docs/aberede-presentation-it.pdf', de: '/docs/aberede-presentation-de.pdf', fr: '/docs/aberede-presentation-fr.pdf', tr: '/docs/aberede-presentation-tr.pdf', es: '/docs/aberede-presentation-es.pdf', pt: '/docs/aberede-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(abRu as any), en: mk(abEn as any), ko: mk(abKo as any), zh: mk(abZh as any),
+      ja: mk(abJa as any), it: mk(abIt as any), de: mk(abDe as any), fr: mk(abFr as any),
+      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any),
     },
   },
 ];

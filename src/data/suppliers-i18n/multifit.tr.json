@@ -1,130 +1,131 @@
 {
- "content": {
-  "tagline": "Kirli bir panel üretiminin üçte ikisine kadarını kaybeder. Robot onu geri getirir",
-  "descriptor": "Güneş paneli temizleme robotları ve fırçaları üreten Çinli firma; kendi fabrikası, ulusal yüksek teknoloji işletmesi",
-  "origin": "Çin",
-  "about": [
-   "BeiJing Multifit Electrical Technology Co., Ltd. güneş paneli temizleme ekipmanları üretir. Merkezi Pekin'de, fabrikası Guangdong'un Shantou kentinde; Shenzhen ve Sichuan'da şubeleri var. Şirket ulusal yüksek teknoloji işletmesi statüsüne sahiptir ve MULTIFIT markasıyla çalışır.",
-   "Bu ekipmanın çözdüğü sorun parayla ölçülür. Toz, kuş dışkısı ve pas parçacıkları panelin üretimini nominalin %20–36'sına düşürür; temizlikten sonra verim %90–95'e döner ve bakım durursa yeniden geriler. Üretim kaybının ötesinde kirlenme fiziksel olarak da tehlikelidir: gölgelenen bölge aşırı ısınır, sıcak noktalar oluşur, panel bozulur ve yanabilir. Yani temizlik makyaj değil, santralin ömrünü uzatan bir iştir.",
-   "Ürün grubu ikiye ayrılır. Robotlar: tek ve çift sıra paneller için MR-G serisi, MR-T1 ve MR-XY serileri ve robotu sıralar arasında taşıyan MR-AR arabası. MULR fırçaları — elle kullanılan modellerden su tahrikli sürüme kadar — robotun fazla geleceği noktaları kapatır. Şirket her model için performans hesabı verir: saatte temizlenen alan, günlük kapasite ve belirli büyüklükteki bir dizi için gereken süre."
-  ],
-  "facts": [
-   "Ulusal yüksek teknoloji işletmesi; merkez Pekin, Shantou'da kendi fabrikası",
-   "MR-G, MR-T1 ve MR-XY robotları ile sıralar arası taşıma için MR-AR arabası",
-   "Su tahrikli model dâhil MULR fırça serisi",
-   "Kirlenme panel üretimini %20–36'ya düşürür; temizlikten sonra verim %90–95'e döner",
-   "Her model kendi hesabıyla gelir: saatte m², günlük kapasite, belirli dizi için süre"
-  ],
-  "channels": [
-   "Güneş santrali sahipleri ve işletmecileri",
-   "İşletme ve bakım (O&M) yüklenicileri",
-   "EPC yüklenicileri ve güneş enerjisi entegratörleri",
-   "Enerji ekipmanı distribütörleri"
-  ],
-  "lines": [
-   {
-    "name": "MR-G — panel sıraları için robotlar",
-    "note": "Tek sıra ve çift sıra sürümleriyle temel seri. İlerleme hızı yaklaşık 12 m/dak; kapasite ve günlük iş miktarı somut diziye göre hesaplanır."
-   },
-   {
-    "name": "MR-T1 / MR-XY",
-    "note": "Farklı santral yapıları için robot serileri. Çalışma genişliği ve çalışma biçimi farklıdır; dizinin geometrisine göre seçilir."
-   },
-   {
-    "name": "MR-AR — taşıma arabası",
-    "note": "Robotu panel sıraları arasında taşır ve elle yer değiştirmeyi ortadan kaldırır. Sıraların çok ve aralıklı olduğu sahalarda gerekir."
-   },
-   {
-    "name": "MULR — temizleme fırçaları",
-    "note": "Elle kullanılandan su tahrikli sürüme uzanan fırça serisi. Robotun fazla geldiği ya da ulaşamadığı bölgeler için çözüm."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Kendi üretimi",
-    "note": "Guangdong Shantou'da fabrika; Pekin'de merkez, Shenzhen ve Sichuan'da şubeler. Ulusal yüksek teknoloji işletmesi statüsü."
-   },
-   {
-    "name": "Somut santrale göre hesap",
-    "note": "Şirket soyut teknik veriler değil, müşterinin dizisi üzerindeki kapasiteyi verir: saatte alan, günlük iş miktarı, tam temizlik döngüsünün süresi."
-   },
-   {
-    "name": "Test raporları ve sertifikalar",
-    "note": "Şirketin materyallerinde test raporları ve sertifikalar bulunur; kesin liste anlaşma aşamasında talep üzerine verilir."
-   }
-  ],
-  "formats": [
-   "Güneş paneli temizleme robotları",
-   "Sıralar arası taşıma arabaları",
-   "Elle ve yarı otomatik temizleme fırçaları",
-   "Yedek parça ve sarf malzemeleri",
-   "Test için demo cihazlar"
-  ],
-  "exportNote": "Şirket ihracat yapar ve her model için ayrıntılı teklif verir. Teslim şekli EXW veya FOB; lojistik, gümrük ve işlemin takibi Teranova tarafından koordine edilir. Test için demo cihaz ayrıca görüşülür.",
-  "terms": [
-   {
-    "label": "Çalışma biçimleri",
-    "value": "Ekipman tedariki; santral yapısına göre model seçimi; yedek parça ve sarf malzemesi"
-   },
-   {
-    "label": "Teslim şartları",
-    "value": "EXW veya FOB; lojistik ve gümrük Teranova tarafından koordine edilir"
-   },
-   {
-    "label": "Belgeler",
-    "value": "Faaliyet belgesi, yeterlilik broşürü, test raporları — şirket tarafından sağlandı"
-   },
-   {
-    "label": "Materyaller",
-    "value": "Robot ve fırça katalogları ile model bazında teklifler Haziran 2026'da üreticiden alındı"
-   }
-  ],
-  "consentNote": "Veriler ve materyaller BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT) tarafından sağlanmıştır. Verim rakamları şirketin materyallerine göre aktarılmıştır. Fiyat ve koşullar Teranova üzerinden anlaşma aşamasında teyit edilir.",
-  "seoTitle": "MULTIFIT — Çin'den güneş paneli temizleme robotları · Teranova",
-  "seoDesc": "BeiJing Multifit, güneş paneli temizliği için MR-G, MR-T1, MR-XY robotları ve MULR fırçaları üreten Çinli firmadır. Kendi fabrikası, dizinize göre hesaplanan kapasite, Teranova üzerinden EXW/FOB tedarik.",
-  "catalog_notes": [
-   "Panel sırası boyunca ilerleyen birinci nesil robot: alüminyum gövde, 20 mm'ye kadar boşluk, 8°'ye kadar eğim.",
-   "İkinci nesil: sekiz yürüyüş tekeri, sökülebilir korozyon korumalı gövde, 4.000 çevrimlik LFP batarya; 20 mm boşluk, 8° eğim, 990–2384 mm panel.",
-   "Üçüncü nesil: paslanmaz çelik gövde, 50 mm'ye kadar boşluk, 20°'ye kadar eğim, salınımlı kafa ve tüm tekerlerden çekiş; 400 m kumanda menzili.",
-   "Çift silindir fırçalı versiyon: FV sırasının kenarını da temizler, birkaç sıradan oluşan dizilere uygundur.",
-   "Köprüsüz sıralar için paletli robot: 1 metrelik fırça, kuru ve sulu yıkama, 60 mm'ye kadar derz, 25° eğim, 400 m kumanda.",
-   "MR-T1'in tam otomatik sürümü: yapay zekâ algoritmaları ve görsel tanıma, rota planlama ve konum düzeltme.",
-   "10 m genişliğe kadar çok sıralı diziler için dikey hareketli robot; 8–12 m/dk hız, uzaktan kumanda.",
-   "Raylı taşıma aracı: robotu iki-üç dakikada sonraki sıraya taşır — elle taşımadan yaklaşık on kat hızlı.",
-   "3,5–7,5 m teleskopik saplı manuel sıyırıcı fırça: iki su çıkışı, ayarlanabilir kafa açısı; paneller, cam cepheler, kar.",
-   "Küçük diziler için tek kafalı elektrikli fırça: yumuşak kıllar, kafa açısı panel eğimine uyarlanır.",
-   "Çift kafalı elektrikli fırça: iki motor, su püskürtme, 280 mm diskler; şebeke veya batarya, 4–6 saat çalışma.",
-   "Çift kafalının ikinci nesli: 170 W fırçasız motorlar, 25,6 V 25 Ah batarya, 3,5–7,5 m karbon saplar.",
-   "Silindirli elektrikli fırça: 130 mm çapında 650 mm silindir, 400 dev/dk, üç su çıkışı, su tutucu fırça.",
-   "İkinci nesil silindirli fırça: 200 W, 420 dev/dk, ileri-geri dönüş, polikarbonat gövde.",
-   "Su tahrikli fırça: 7 MPa'ya kadar hat basıncıyla elektriksiz çalışır; 125 veya 350 mm diskler, opsiyonel 2,2 kW pompa."
-  ]
- },
- "ui": {
-  "profile_sup": "Tedarikçi profili",
-  "about_h": "Şirket hakkında",
-  "for_whom": "Kimler için:",
-  "lines_h": "Ürün serileri",
-  "catalog_h": "Ürün kataloğu",
-  "tech_h": "Yetkinlikler ve üretim",
-  "products_h": "Ürünler",
-  "products_note": "MULTIFIT güneş paneli temizliği için robot ve fırça üretiyor: santraller ve bakım şirketleri için ekipman.",
-  "formats_h": "Ürün formatları",
-  "export_h": "İhracat ve pazarlar",
-  "terms_h": "İş birliği koşulları",
-  "download_btn": "Koşulları indir (PDF)",
-  "price_btn": "Fiyat listesini indir (PDF)",
-  "pres_btn": "Sunumu indir (PDF)",
-  "terms_disc": "Fiyatlar ve koşullar tahminidir ve işlem aşamasında Teranova aracılığıyla netleştirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz.",
-  "cta_h": "Bu tedarikçi ilginizi çekti mi?",
-  "cta_d": "Bizimle iletişime geçin — Teranova ilk temastan teslimata kadar müzakereyi, doğrulamayı ve işlemin takibini düzenler.",
-  "cta_btn": "Teranova aracılığıyla iletişime geçin",
-  "more": "Profili aç →",
-  "verified_suppliers": "Doğrulanmış tedarikçiler",
-  "certs_h": "Sertifikalar ve kayıtlar",
-  "gallery_h": "Sahada ekipman",
-  "gallery_note": "Saha ve ekipman fotoğrafları MULTIFIT tarafından sağlanmıştır. Bizim ziyaretimizden değildir: bu tedarikçinin durumu «Firma tarafından sağlanan bilgi» şeklindedir.",
-  "video_h": "Üreticinin videoları",
-  "video_note": "MULTIFIT tarafından çekilmiş ve izinleriyle yayımlanmıştır. Görüntüdeki altyazılar İngilizcedir."
- }
+  "content": {
+    "tagline": "Kirli bir panel üretiminin üçte ikisine kadarını kaybeder. Robot onu geri getirir",
+    "descriptor": "Güneş paneli temizleme robotları ve fırçaları üreten Çinli firma; kendi fabrikası, ulusal yüksek teknoloji işletmesi",
+    "origin": "Çin",
+    "about": [
+      "BeiJing Multifit Electrical Technology Co., Ltd. güneş paneli temizleme ekipmanları üretir. Merkezi Pekin'de, fabrikası Guangdong'un Shantou kentinde; Shenzhen ve Sichuan'da şubeleri var. Şirket ulusal yüksek teknoloji işletmesi statüsüne sahiptir ve MULTIFIT markasıyla çalışır.",
+      "Bu ekipmanın çözdüğü sorun parayla ölçülür. Toz, kuş dışkısı ve pas parçacıkları panelin üretimini nominalin %20–36'sına düşürür; temizlikten sonra verim %90–95'e döner ve bakım durursa yeniden geriler. Üretim kaybının ötesinde kirlenme fiziksel olarak da tehlikelidir: gölgelenen bölge aşırı ısınır, sıcak noktalar oluşur, panel bozulur ve yanabilir. Yani temizlik makyaj değil, santralin ömrünü uzatan bir iştir.",
+      "Ürün grubu ikiye ayrılır. Robotlar: tek ve çift sıra paneller için MR-G serisi, MR-T1 ve MR-XY serileri ve robotu sıralar arasında taşıyan MR-AR arabası. MULR fırçaları — elle kullanılan modellerden su tahrikli sürüme kadar — robotun fazla geleceği noktaları kapatır. Şirket her model için performans hesabı verir: saatte temizlenen alan, günlük kapasite ve belirli büyüklükteki bir dizi için gereken süre."
+    ],
+    "facts": [
+      "Ulusal yüksek teknoloji işletmesi; merkez Pekin, Shantou'da kendi fabrikası",
+      "MR-G, MR-T1 ve MR-XY robotları ile sıralar arası taşıma için MR-AR arabası",
+      "Su tahrikli model dâhil MULR fırça serisi",
+      "Kirlenme panel üretimini %20–36'ya düşürür; temizlikten sonra verim %90–95'e döner",
+      "Her model kendi hesabıyla gelir: saatte m², günlük kapasite, belirli dizi için süre",
+      "Lübnan, Malta, Malezya, Pakistan ve ABD'de çalışan tesisler — görüntüleri bu sayfada"
+    ],
+    "channels": [
+      "Güneş santrali sahipleri ve işletmecileri",
+      "İşletme ve bakım (O&M) yüklenicileri",
+      "EPC yüklenicileri ve güneş enerjisi entegratörleri",
+      "Enerji ekipmanı distribütörleri"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — panel sıraları için robotlar",
+        "note": "Tek sıra ve çift sıra sürümleriyle temel seri. İlerleme hızı yaklaşık 12 m/dak; kapasite ve günlük iş miktarı somut diziye göre hesaplanır."
+      },
+      {
+        "name": "MR-T1 / MR-XY",
+        "note": "Farklı santral yapıları için robot serileri. Çalışma genişliği ve çalışma biçimi farklıdır; dizinin geometrisine göre seçilir."
+      },
+      {
+        "name": "MR-AR — taşıma arabası",
+        "note": "Robotu panel sıraları arasında taşır ve elle yer değiştirmeyi ortadan kaldırır. Sıraların çok ve aralıklı olduğu sahalarda gerekir."
+      },
+      {
+        "name": "MULR — temizleme fırçaları",
+        "note": "Elle kullanılandan su tahrikli sürüme uzanan fırça serisi. Robotun fazla geldiği ya da ulaşamadığı bölgeler için çözüm."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Kendi üretimi",
+        "note": "Guangdong Shantou'da fabrika; Pekin'de merkez, Shenzhen ve Sichuan'da şubeler. Ulusal yüksek teknoloji işletmesi statüsü."
+      },
+      {
+        "name": "Somut santrale göre hesap",
+        "note": "Şirket soyut teknik veriler değil, müşterinin dizisi üzerindeki kapasiteyi verir: saatte alan, günlük iş miktarı, tam temizlik döngüsünün süresi."
+      },
+      {
+        "name": "Test raporları ve sertifikalar",
+        "note": "Şirketin materyallerinde test raporları ve sertifikalar bulunur; kesin liste anlaşma aşamasında talep üzerine verilir."
+      }
+    ],
+    "formats": [
+      "Güneş paneli temizleme robotları",
+      "Sıralar arası taşıma arabaları",
+      "Elle ve yarı otomatik temizleme fırçaları",
+      "Yedek parça ve sarf malzemeleri",
+      "Test için demo cihazlar"
+    ],
+    "exportNote": "Şirket ihracat yapar ve her model için ayrıntılı teklif verir. Teslim şekli EXW veya FOB; lojistik, gümrük ve işlemin takibi Teranova tarafından koordine edilir. Test için demo cihaz ayrıca görüşülür. Şirketin materyalleri arasında kesin rakamları olan bir proje var: Lübnan'ın Trablus kentinde 300 kW çatı santrali, MR-G2 robotuyla temizleniyor — rakamlar kendi videolarındaki altyazıdan alınmıştır.",
+    "terms": [
+      {
+        "label": "Çalışma biçimleri",
+        "value": "Ekipman tedariki; santral yapısına göre model seçimi; yedek parça ve sarf malzemesi"
+      },
+      {
+        "label": "Teslim şartları",
+        "value": "EXW veya FOB; lojistik ve gümrük Teranova tarafından koordine edilir"
+      },
+      {
+        "label": "Belgeler",
+        "value": "Faaliyet belgesi, yeterlilik broşürü, test raporları — şirket tarafından sağlandı"
+      },
+      {
+        "label": "Materyaller",
+        "value": "Robot ve fırça katalogları ile model bazında teklifler Haziran 2026'da üreticiden alındı"
+      }
+    ],
+    "consentNote": "Veriler ve materyaller BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT) tarafından sağlanmıştır. Verim rakamları şirketin materyallerine göre aktarılmıştır. Fiyat ve koşullar Teranova üzerinden anlaşma aşamasında teyit edilir.",
+    "seoTitle": "MULTIFIT — Çin'den güneş paneli temizleme robotları · Teranova",
+    "seoDesc": "BeiJing Multifit, güneş paneli temizliği için MR-G, MR-T1, MR-XY robotları ve MULR fırçaları üreten Çinli firmadır.",
+    "catalog_notes": [
+      "Panel sırası boyunca ilerleyen birinci nesil robot: alüminyum gövde, 20 mm'ye kadar boşluk, 8°'ye kadar eğim.",
+      "İkinci nesil: sekiz yürüyüş tekeri, sökülebilir korozyon korumalı gövde, 4.000 çevrimlik LFP batarya; 20 mm boşluk, 8° eğim, 990–2384 mm panel.",
+      "Üçüncü nesil: paslanmaz çelik gövde, 50 mm'ye kadar boşluk, 20°'ye kadar eğim, salınımlı kafa ve tüm tekerlerden çekiş; 400 m kumanda menzili.",
+      "Çift silindir fırçalı versiyon: FV sırasının kenarını da temizler, birkaç sıradan oluşan dizilere uygundur.",
+      "Köprüsüz sıralar için paletli robot: 1 metrelik fırça, kuru ve sulu yıkama, 60 mm'ye kadar derz, 25° eğim, 400 m kumanda.",
+      "MR-T1'in tam otomatik sürümü: yapay zekâ algoritmaları ve görsel tanıma, rota planlama ve konum düzeltme.",
+      "10 m genişliğe kadar çok sıralı diziler için dikey hareketli robot; 8–12 m/dk hız, uzaktan kumanda.",
+      "Raylı taşıma aracı: robotu iki-üç dakikada sonraki sıraya taşır — elle taşımadan yaklaşık on kat hızlı.",
+      "3,5–7,5 m teleskopik saplı manuel sıyırıcı fırça: iki su çıkışı, ayarlanabilir kafa açısı; paneller, cam cepheler, kar.",
+      "Küçük diziler için tek kafalı elektrikli fırça: yumuşak kıllar, kafa açısı panel eğimine uyarlanır.",
+      "Çift kafalı elektrikli fırça: iki motor, su püskürtme, 280 mm diskler; şebeke veya batarya, 4–6 saat çalışma.",
+      "Çift kafalının ikinci nesli: 170 W fırçasız motorlar, 25,6 V 25 Ah batarya, 3,5–7,5 m karbon saplar.",
+      "Silindirli elektrikli fırça: 130 mm çapında 650 mm silindir, 400 dev/dk, üç su çıkışı, su tutucu fırça.",
+      "İkinci nesil silindirli fırça: 200 W, 420 dev/dk, ileri-geri dönüş, polikarbonat gövde.",
+      "Su tahrikli fırça: 7 MPa'ya kadar hat basıncıyla elektriksiz çalışır; 125 veya 350 mm diskler, opsiyonel 2,2 kW pompa."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimler için:",
+    "lines_h": "Ürün serileri",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Yetkinlikler ve üretim",
+    "products_h": "Ürünler",
+    "products_note": "MULTIFIT güneş paneli temizliği için robot ve fırça üretiyor: santraller ve bakım şirketleri için ekipman.",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "price_btn": "Fiyat listesini indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar tahminidir ve işlem aşamasında Teranova aracılığıyla netleştirilir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bizimle iletişime geçin — Teranova ilk temastan teslimata kadar müzakereyi, doğrulamayı ve işlemin takibini düzenler.",
+    "cta_btn": "Teranova aracılığıyla iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar ve kayıtlar",
+    "gallery_h": "Sahada ekipman",
+    "gallery_note": "Saha ve ekipman fotoğrafları MULTIFIT tarafından sağlanmıştır. İlk dördü, çalışan tesislerde çekilmiş kendi videolarından alınan karelerdir; bunların arasında Lübnan'ın Trablus kentindeki 300 kW çatı santrali de var. Bu bizim fabrika ziyaretimiz değildir: tedarikçinin durumu «Şirket tarafından sağlanan bilgi».",
+    "video_h": "Üreticinin videoları",
+    "video_note": "MULTIFIT tarafından çekilmiş ve izinleriyle yayımlanmıştır. Görüntüdeki altyazılar İngilizcedir. Ürün videolarının altında, çalışan sahalarda çekilmiş beş proje örneği var: Lübnan, Malta, Malezya, Pakistan ve ABD. Bunlardan ikisi dikey çekilmiş ve kırpılmadan ortak kadraja yerleştirilmiştir. ABD örneği yedi buçuk dakikalık tek bir kesintisiz çekimdir; sayfada ilk 75 saniyesi gösteriliyor."
+  }
 }

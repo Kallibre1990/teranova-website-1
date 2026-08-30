@@ -1,0 +1,104 @@
+[
+  {
+    "line": "PRINCIPLE",
+    "items": [
+      {
+        "name": "Principle Natural Rich Hydrated Toner",
+        "img": "/img/suppliers/aberede/products/principle-toner.jpg",
+        "volume": "150 ml",
+        "certs": [
+          "0,00"
+        ]
+      },
+      {
+        "name": "Principle Natural Rich Hydrated Serum",
+        "img": "/img/suppliers/aberede/products/principle-serum.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "0,00"
+        ]
+      },
+      {
+        "name": "Principle Natural Rich Hydrated Cream",
+        "img": "/img/suppliers/aberede/products/principle-cream.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "0,00"
+        ]
+      }
+    ]
+  },
+  {
+    "line": "CICAPINE™",
+    "items": [
+      {
+        "name": "CicaPine Forest Needle Energy Serum",
+        "img": "/img/suppliers/aberede/products/cicapine-serum.jpg",
+        "volume": "50 ml"
+      },
+      {
+        "name": "CicaPine Calming & Pore Repair Balancing Gel Cream",
+        "img": "/img/suppliers/aberede/products/cicapine-cream.jpg",
+        "volume": "60 ml"
+      },
+      {
+        "name": "CicaPine Micellar Acne Foam Cleanser",
+        "img": "/img/suppliers/aberede/products/cicapine-cleanser.jpg",
+        "volume": "120 ml"
+      }
+    ]
+  },
+  {
+    "line": "Ampoules",
+    "items": [
+      {
+        "name": "NIA 10% Gluta Blemish Ampoule",
+        "img": "/img/suppliers/aberede/products/ampoule-nia-gluta.jpg",
+        "volume": "30 ml"
+      },
+      {
+        "name": "VOR Peptide Revervity Ampoule",
+        "img": "/img/suppliers/aberede/products/ampoule-vor-peptide.jpg",
+        "volume": "30 ml"
+      },
+      {
+        "name": "HYA Vitamin E Antioxi Ampoule",
+        "img": "/img/suppliers/aberede/products/ampoule-hya-vitamin-e.jpg",
+        "volume": "30 ml"
+      }
+    ]
+  },
+  {
+    "line": "Targeted care",
+    "items": [
+      {
+        "name": "COLLAGEN 70 Gluta Glow Peel-Off Mask",
+        "img": "/img/suppliers/aberede/products/collagen70-mask.jpg",
+        "volume": "80 ml"
+      },
+      {
+        "name": "PCL NMN Lifting Eye Cream",
+        "img": "/img/suppliers/aberede/products/pcl-nmn-eye-cream.jpg",
+        "volume": "15 ml"
+      },
+      {
+        "name": "NAD PDRN Jelly Lip Mask",
+        "img": "/img/suppliers/aberede/products/nad-pdrn-lip-mask.jpg",
+        "volume": "11 g"
+      },
+      {
+        "name": "PDRN Dark Spot Gel",
+        "img": "/img/suppliers/aberede/products/pdrn-dark-spot-gel.jpg",
+        "volume": "100 ml"
+      },
+      {
+        "name": "White Vita Aqua Shield Sun Screen",
+        "img": "/img/suppliers/aberede/products/sun-screen-spf50.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "SPF50 PA++++"
+        ]
+      }
+    ]
+  }
+]

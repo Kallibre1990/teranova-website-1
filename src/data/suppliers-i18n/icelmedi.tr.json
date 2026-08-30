@@ -22,16 +22,40 @@
       "Koreli bir OEM/ODM iş ortağına ihtiyaç duyan marka sahipleri"
     ],
     "lines": [
-      { "name": "cellmedics — profesyonel bakım", "note": "Kabin ve ev kullanımı için kozmesötik: temizleme, tonikleme, serumlar, ampuller, kremler ve maskeler. Büyük formatlar (500–1 000 ml, 1 kg) kabin çalışmasına, kompakt formatlar ise ev bakımına ve perakendeye yöneliktir." },
-      { "name": "Cica Clear — hassas ve sorunlu ciltler için", "note": "Centella asiatica bazlı seri: kızarıklığa ve sivilcelenmeye eğilimli ciltler için tonik, serum, ampul ve krem. Eksiksiz bir bakım protokolü oluşturur." },
-      { "name": "Biocell Multi — onarım ve sıkılık", "note": "Kitosan ve büyüme faktörü kompleksi içeren çok işlevli seri: tonik, serum, ampul ve krem. Şirket tarafından çift etkili fonksiyonel kozmetik olarak beyan edilmiştir — aydınlatma ve kırışıklık bakımı." },
-      { "name": "KERASON — cihazlı bakım", "note": "KERASON PRIME cihazı yüksek güçlü ultrason ve elektrovibrasyon esasına dayanır; farklı ihtiyaçlar için üç tip başlık ve iki profesyonel aktivatör olan Pure AT ile Pure ST sunar. Şirketin belgelerine göre ev ve salon kategorisinde bir cihazdır, tıbbi cihaz değildir." }
+      {
+        "name": "cellmedics — profesyonel bakım",
+        "note": "Kabin ve ev kullanımı için kozmesötik: temizleme, tonikleme, serumlar, ampuller, kremler ve maskeler. Büyük formatlar (500–1 000 ml, 1 kg) kabin çalışmasına, kompakt formatlar ise ev bakımına ve perakendeye yöneliktir."
+      },
+      {
+        "name": "Cica Clear — hassas ve sorunlu ciltler için",
+        "note": "Centella asiatica bazlı seri: kızarıklığa ve sivilcelenmeye eğilimli ciltler için tonik, serum, ampul ve krem. Eksiksiz bir bakım protokolü oluşturur."
+      },
+      {
+        "name": "Biocell Multi — onarım ve sıkılık",
+        "note": "Kitosan ve büyüme faktörü kompleksi içeren çok işlevli seri: tonik, serum, ampul ve krem. Şirket tarafından çift etkili fonksiyonel kozmetik olarak beyan edilmiştir — aydınlatma ve kırışıklık bakımı."
+      },
+      {
+        "name": "KERASON — cihazlı bakım",
+        "note": "KERASON PRIME cihazı yüksek güçlü ultrason ve elektrovibrasyon esasına dayanır; farklı ihtiyaçlar için üç tip başlık ve iki profesyonel aktivatör olan Pure AT ile Pure ST sunar. Şirketin belgelerine göre ev ve salon kategorisinde bir cihazdır, tıbbi cihaz değildir."
+      }
     ],
     "tech": [
-      { "name": "Büyüme faktörleri ve protein rekombinasyonu", "note": "Şirketin protein komplekslerinin elde edilmesi ve stabilizasyonundaki kendi yetkinliği; Biocell Multi serisi ve onarıcı kremler bunun üzerine kuruludur." },
-      { "name": "Biyomimetik peptitler ve bitkisel kallus", "note": "Cilde özgü yapıları tekrarlayan peptitlerin sentezi ve aktif ekstraktlar elde etmek için bitki hücresi kültürü." },
-      { "name": "Yüksek güçlü ultrason 20–32 kHz", "note": "KERASON teknolojisi: düşük frekanslı ultrason dalgaları yüksek güçlü dalgalara dönüştürülür ve elektrovibrasyonla birlikte cilde iletilir. KERASON PRIME patenti 2026 yılında Kore'de tescil edilmiştir (şirket beyanına göre)." },
-      { "name": "Tam döngü OEM/ODM", "note": "Ürün planlama, formül geliştirme, ambalaj tasarımı, iş ortağı tesiste üretim ve ihracat desteği. OEM/ODM için minimum parti 3 000 adetten başlar." }
+      {
+        "name": "Büyüme faktörleri ve protein rekombinasyonu",
+        "note": "Şirketin protein komplekslerinin elde edilmesi ve stabilizasyonundaki kendi yetkinliği; Biocell Multi serisi ve onarıcı kremler bunun üzerine kuruludur."
+      },
+      {
+        "name": "Biyomimetik peptitler ve bitkisel kallus",
+        "note": "Cilde özgü yapıları tekrarlayan peptitlerin sentezi ve aktif ekstraktlar elde etmek için bitki hücresi kültürü."
+      },
+      {
+        "name": "Yüksek güçlü ultrason 20–32 kHz",
+        "note": "KERASON teknolojisi: düşük frekanslı ultrason dalgaları yüksek güçlü dalgalara dönüştürülür ve elektrovibrasyonla birlikte cilde iletilir. KERASON PRIME patenti 2026 yılında Kore'de tescil edilmiştir (şirket beyanına göre)."
+      },
+      {
+        "name": "Tam döngü OEM/ODM",
+        "note": "Ürün planlama, formül geliştirme, ambalaj tasarımı, iş ortağı tesiste üretim ve ihracat desteği. OEM/ODM için minimum parti 3 000 adetten başlar."
+      }
     ],
     "formats": [
       "Tonikler ve serumlar 500–1 000 ml",
@@ -43,15 +67,30 @@
     ],
     "exportNote": "Şirket beyanına göre ürünler ABD, Hong Kong, Avustralya, Vietnam, Birleşik Krallık ve Tayland'a tedarik edilmektedir; Endonezya'da münhasır bir distribütör çalışmaktadır. Çin, Malezya, Birleşik Krallık, ABD ve Dubai gibi bazı pazarlar için şirket imzalanmış niyet mutabakatları bulunduğunu bildirmektedir; nihai anlaşmalar müzakere aşamasında olduğundan bu bölgeler kapanmış sayılmaz. Teslim şekli — FOB Korea. Şirketin öncelikli hedef pazarları: Çin, Japonya, Birleşik Krallık, ABD, Fransa, Tayvan.",
     "terms": [
-      { "label": "Teslim şekli", "value": "FOB Korea" },
-      { "label": "Minimum sipariş", "value": "Ürün başına 100 adetten (modelaj maskeleri — 30 adetten); OEM/ODM — 3 000 adetten" },
-      { "label": "Fiyatlar", "value": "Toptan ve distribütör seviyeleri; KERASON PRIME cihazı için yılda 50 adetten itibaren münhasırlık dahil ayrı koşullar öngörülmüştür" },
-      { "label": "Ödeme", "value": "%100 T/T; koşullar sözleşmede görüşülür" },
-      { "label": "Üretim süresi", "value": "Sipariş onayından sonra 50–60 gün; teslimat süreleri pazara ve kayıt gerekliliklerine bağlıdır" }
+      {
+        "label": "Teslim şekli",
+        "value": "FOB Korea"
+      },
+      {
+        "label": "Minimum sipariş",
+        "value": "Ürün başına 100 adetten (modelaj maskeleri — 30 adetten); OEM/ODM — 3 000 adetten"
+      },
+      {
+        "label": "Fiyatlar",
+        "value": "Toptan ve distribütör seviyeleri; KERASON PRIME cihazı için yılda 50 adetten itibaren münhasırlık dahil ayrı koşullar öngörülmüştür"
+      },
+      {
+        "label": "Ödeme",
+        "value": "%100 T/T; koşullar sözleşmede görüşülür"
+      },
+      {
+        "label": "Üretim süresi",
+        "value": "Sipariş onayından sonra 50–60 gün; teslimat süreleri pazara ve kayıt gerekliliklerine bağlıdır"
+      }
     ],
     "consentNote": "Bilgiler ve materyaller iCELmedi Co., Ltd. tarafından sağlanmış olup 5 Ağustos 2026 tarihli yazılı onayıyla yayımlanmaktadır. Sertifikalara, kayıtlara ve üretim modeline ilişkin veriler şirket beyanına göre aktarılmıştır ve işlem aşamasında belgeyle teyit edilmesi gerekir. Enjeksiyon ve mezoterapi uygulamalarına yönelik profesyonel preparatlar vitrinde yer almamaktadır.",
-    "seoTitle": "iCELmedi — Kore menşeli cellmedics kozmesötiği ve KERASON cihazları · Teranova",
-    "seoDesc": "iCELmedi — profesyonel cellmedics kozmesötiğinin ve KERASON ultrason cihazlarının Koreli geliştiricisi: tonikler, serumlar, ampuller, kremler, maskeler. OEM/ODM, FOB Korea.",
+    "seoTitle": "iCELmedi — Kore menşeli cellmedics kozmesötiği · Teranova",
+    "seoDesc": "iCELmedi — profesyonel cellmedics kozmesötiğinin ve KERASON ultrason cihazlarının Koreli geliştiricisi: tonikler, serumlar, ampuller, kremler, maskeler.",
     "catalog_notes": [
       "İlk temizleme aşaması için süt: makyajı ve kirleri cildi kurutmadan nazikçe temizler. 1 litrelik kabin formatı.",
       "İkinci temizleme aşaması için yoğun köpüklü temizleme jeli; karma ve yağlı ciltler için uygundur.",

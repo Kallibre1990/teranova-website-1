@@ -1,130 +1,131 @@
 {
- "content": {
-  "tagline": "A dirty panel loses up to two thirds of its output. A robot brings it back",
-  "descriptor": "Chinese maker of robots and brushes for solar panel cleaning; own plant, national high-tech enterprise status",
-  "origin": "China",
-  "about": [
-   "BeiJing Multifit Electrical Technology Co., Ltd. manufactures cleaning equipment for solar panels. Headquarters in Beijing, plant in Shantou (Guangdong), branches in Shenzhen and Sichuan. The company holds national high-tech enterprise status and trades under the MULTIFIT name.",
-   "The problem this equipment solves is measured in money. Dust, bird droppings and rust particles cut a panel's output to 20–36% of nominal; after cleaning, efficiency returns to 90–95% and falls again if maintenance stops. Beyond lost output, soiling is physically dangerous: a shaded section overheats, hot spots form, the panel degrades and can burn out. Cleaning is therefore not cosmetic — it extends the life of the plant.",
-   "The range splits in two. Robots: the MR-G series for single and double panel rows, the MR-T1 and MR-XY series, and the MR-AR transport trolley that moves a robot between rows. MULR brushes — from hand models to a water-driven version — cover the places where a robot is overkill. For every model the company provides a performance calculation: cleaning area per hour, daily rate, and the time needed for an array of a given size."
-  ],
-  "facts": [
-   "National high-tech enterprise; headquarters in Beijing, own plant in Shantou",
-   "MR-G, MR-T1 and MR-XY robots plus the MR-AR trolley for moving between rows",
-   "MULR brush range, including a water-driven model",
-   "Soiling cuts panel output to 20–36%; after cleaning efficiency returns to 90–95%",
-   "Each model comes with a calculation: m² per hour, daily rate, and time for a given array"
-  ],
-  "channels": [
-   "Owners and operators of solar plants",
-   "O&M contractors",
-   "EPC contractors and solar integrators",
-   "Distributors of energy equipment"
-  ],
-  "lines": [
-   {
-    "name": "MR-G — robots for panel rows",
-    "note": "The core series, in single-row and double-row versions. Travel speed around 12 m/min; throughput and daily rate are calculated for the specific array."
-   },
-   {
-    "name": "MR-T1 / MR-XY",
-    "note": "Robot series for other plant configurations, differing in working width and operating mode; chosen by the geometry of the array."
-   },
-   {
-    "name": "MR-AR — transport trolley",
-    "note": "Carries a robot between panel rows and removes the manual repositioning step. Needed where rows are many and set apart."
-   },
-   {
-    "name": "MULR — cleaning brushes",
-    "note": "A brush range from hand models to a water-driven version. The answer for spots where a robot is excessive or cannot reach."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Own manufacturing",
-    "note": "Plant in Shantou, Guangdong; headquarters in Beijing, branches in Shenzhen and Sichuan. National high-tech enterprise status."
-   },
-   {
-    "name": "Calculation for the specific plant",
-    "note": "The company does not quote specifications in the abstract but throughput on the customer's array: area per hour, daily rate, full cleaning cycle time."
-   },
-   {
-    "name": "Test reports and certificates",
-    "note": "The company's materials include test reports and certificates; the exact list is provided on request at the deal stage."
-   }
-  ],
-  "formats": [
-   "Solar panel cleaning robots",
-   "Transport trolleys for moving between rows",
-   "Brushes for manual and semi-automatic cleaning",
-   "Spare parts and consumables",
-   "Demo units for testing"
-  ],
-  "exportNote": "The company exports and provides full quotations per model. Delivery on EXW or FOB terms; logistics, customs and support of the deal are coordinated by Teranova. A demo unit for testing is discussed separately.",
-  "terms": [
-   {
-    "label": "Ways of working",
-    "value": "Equipment supply; model selection for the plant configuration; spare parts and consumables"
-   },
-   {
-    "label": "Delivery terms",
-    "value": "EXW or FOB; logistics and customs coordinated by Teranova"
-   },
-   {
-    "label": "Documents",
-    "value": "Business licence, qualifications brochure, test reports — provided by the company"
-   },
-   {
-    "label": "Materials",
-    "value": "Robot and brush catalogues and per-model quotations received from the manufacturer in June 2026"
-   }
-  ],
-  "consentNote": "Data and materials provided by BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Efficiency figures are stated per the company's materials. Prices and terms are confirmed at the deal stage through Teranova.",
-  "seoTitle": "MULTIFIT — solar panel cleaning robots from China · Teranova",
-  "seoDesc": "BeiJing Multifit is a Chinese maker of MR-G, MR-T1 and MR-XY robots and MULR brushes for solar panel cleaning. Own plant, throughput calculated for your array, EXW/FOB supply through Teranova.",
-  "catalog_notes": [
-   "First-generation robot travelling along the panel row: aluminium body, gaps up to 20 mm, slopes up to 8°.",
-   "Second generation: eight running wheels, removable anti-corrosion body, LFP battery rated for 4,000 cycles; 20 mm gaps, slopes up to 8°, panels 990–2384 mm.",
-   "Third generation: stainless-steel body, gaps up to 50 mm, slopes up to 20°, swinging head and all-wheel drive; remote range up to 400 m.",
-   "Double-roller-brush variant: finishes the edge of the PV row and suits arrays assembled from several panel rows.",
-   "Tracked robot for rows without bridge connections: 1-metre brush, dry and wet cleaning, joints up to 60 mm, slopes up to 25°, remote up to 400 m.",
-   "The fully automatic version of MR-T1: AI algorithms and visual recognition, path planning and posture correction.",
-   "Up-and-down robot for multi-row arrays up to 10 m wide; 8–12 m/min speed, remote control.",
-   "Rail-type transfer vehicle: moves the robot between rows in two to three minutes — roughly ten times faster than manual handling.",
-   "Manual scraper brush on a 3.5–7.5 m telescopic rod: two water outlets, adjustable head angle; panels, glass facades, snow.",
-   "Single-head electric brush for smaller arrays: soft bristles, head angle adjusts to the panel slope.",
-   "Double-head electric brush: two motors, water spray, 280 mm discs; grid or battery power, 4–6 hours of work.",
-   "Second generation of the double-head brush: 170 W brushless motors, 25.6 V 25 Ah battery, carbon-fibre rods of 3.5–7.5 m.",
-   "Rolling electric brush: 650 mm roller of 130 mm diameter, 400 rpm, three water outlets, water-blocking brush.",
-   "Second-generation rolling brush: 200 W, 420 rpm, forward/reverse rotation, polycarbonate housing.",
-   "Water-driven brush: powered by line pressure up to 7 MPa with no electricity; 125 or 350 mm discs, optional 2.2 kW pump."
-  ]
- },
- "ui": {
-  "profile_sup": "Supplier profile",
-  "about_h": "About the company",
-  "for_whom": "Who it's for:",
-  "lines_h": "Product lines",
-  "catalog_h": "Product catalog",
-  "tech_h": "Capabilities and manufacturing",
-  "products_h": "Products",
-  "products_note": "MULTIFIT makes robots and brushes for solar panel cleaning: equipment for power plants and the companies that service them.",
-  "formats_h": "Product formats",
-  "export_h": "Export and markets",
-  "terms_h": "Terms of cooperation",
-  "download_btn": "Download terms (PDF)",
-  "price_btn": "Download price list (PDF)",
-  "pres_btn": "Download presentation (PDF)",
-  "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The supplier's direct contacts are not published.",
-  "cta_h": "Interested in this supplier?",
-  "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
-  "cta_btn": "Contact via Teranova",
-  "more": "Open profile →",
-  "verified_suppliers": "Verified suppliers",
-  "certs_h": "Certifications and registrations",
-  "gallery_h": "Equipment at work",
-  "gallery_note": "Photographs of installations and equipment provided by MULTIFIT. These are not from a visit of ours: the supplier status is “Information provided by the company”.",
-  "video_h": "Video from the company",
-  "video_note": "Filmed by MULTIFIT and published with their permission. On-screen captions are in English."
- }
+  "content": {
+    "tagline": "A dirty panel loses up to two thirds of its output. A robot brings it back",
+    "descriptor": "Chinese maker of robots and brushes for solar panel cleaning; own plant, national high-tech enterprise status",
+    "origin": "China",
+    "about": [
+      "BeiJing Multifit Electrical Technology Co., Ltd. manufactures cleaning equipment for solar panels. Headquarters in Beijing, plant in Shantou (Guangdong), branches in Shenzhen and Sichuan. The company holds national high-tech enterprise status and trades under the MULTIFIT name.",
+      "The problem this equipment solves is measured in money. Dust, bird droppings and rust particles cut a panel's output to 20–36% of nominal; after cleaning, efficiency returns to 90–95% and falls again if maintenance stops. Beyond lost output, soiling is physically dangerous: a shaded section overheats, hot spots form, the panel degrades and can burn out. Cleaning is therefore not cosmetic — it extends the life of the plant.",
+      "The range splits in two. Robots: the MR-G series for single and double panel rows, the MR-T1 and MR-XY series, and the MR-AR transport trolley that moves a robot between rows. MULR brushes — from hand models to a water-driven version — cover the places where a robot is overkill. For every model the company provides a performance calculation: cleaning area per hour, daily rate, and the time needed for an array of a given size."
+    ],
+    "facts": [
+      "National high-tech enterprise; headquarters in Beijing, own plant in Shantou",
+      "MR-G, MR-T1 and MR-XY robots plus the MR-AR trolley for moving between rows",
+      "MULR brush range, including a water-driven model",
+      "Soiling cuts panel output to 20–36%; after cleaning efficiency returns to 90–95%",
+      "Each model comes with a calculation: m² per hour, daily rate, and time for a given array",
+      "Working installations in Lebanon, Malta, Malaysia, Pakistan and the USA — footage from each on this page"
+    ],
+    "channels": [
+      "Owners and operators of solar plants",
+      "O&M contractors",
+      "EPC contractors and solar integrators",
+      "Distributors of energy equipment"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — robots for panel rows",
+        "note": "The core series, in single-row and double-row versions. Travel speed around 12 m/min; throughput and daily rate are calculated for the specific array."
+      },
+      {
+        "name": "MR-T1 / MR-XY",
+        "note": "Robot series for other plant configurations, differing in working width and operating mode; chosen by the geometry of the array."
+      },
+      {
+        "name": "MR-AR — transport trolley",
+        "note": "Carries a robot between panel rows and removes the manual repositioning step. Needed where rows are many and set apart."
+      },
+      {
+        "name": "MULR — cleaning brushes",
+        "note": "A brush range from hand models to a water-driven version. The answer for spots where a robot is excessive or cannot reach."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Own manufacturing",
+        "note": "Plant in Shantou, Guangdong; headquarters in Beijing, branches in Shenzhen and Sichuan. National high-tech enterprise status."
+      },
+      {
+        "name": "Calculation for the specific plant",
+        "note": "The company does not quote specifications in the abstract but throughput on the customer's array: area per hour, daily rate, full cleaning cycle time."
+      },
+      {
+        "name": "Test reports and certificates",
+        "note": "The company's materials include test reports and certificates; the exact list is provided on request at the deal stage."
+      }
+    ],
+    "formats": [
+      "Solar panel cleaning robots",
+      "Transport trolleys for moving between rows",
+      "Brushes for manual and semi-automatic cleaning",
+      "Spare parts and consumables",
+      "Demo units for testing"
+    ],
+    "exportNote": "The company exports and provides full quotations per model. Delivery on EXW or FOB terms; logistics, customs and support of the deal are coordinated by Teranova. A demo unit for testing is discussed separately. One project in the company's materials comes with exact figures: a 300 kW rooftop plant in Tripoli, Lebanon, served by the MR-G2 robot — the numbers are taken from the caption in their own video.",
+    "terms": [
+      {
+        "label": "Ways of working",
+        "value": "Equipment supply; model selection for the plant configuration; spare parts and consumables"
+      },
+      {
+        "label": "Delivery terms",
+        "value": "EXW or FOB; logistics and customs coordinated by Teranova"
+      },
+      {
+        "label": "Documents",
+        "value": "Business licence, qualifications brochure, test reports — provided by the company"
+      },
+      {
+        "label": "Materials",
+        "value": "Robot and brush catalogues and per-model quotations received from the manufacturer in June 2026"
+      }
+    ],
+    "consentNote": "Data and materials provided by BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Efficiency figures are stated per the company's materials. Prices and terms are confirmed at the deal stage through Teranova.",
+    "seoTitle": "MULTIFIT — solar panel cleaning robots from China · Teranova",
+    "seoDesc": "BeiJing Multifit is a Chinese maker of MR-G, MR-T1 and MR-XY robots and MULR brushes for solar panel cleaning.",
+    "catalog_notes": [
+      "First-generation robot travelling along the panel row: aluminium body, gaps up to 20 mm, slopes up to 8°.",
+      "Second generation: eight running wheels, removable anti-corrosion body, LFP battery rated for 4,000 cycles; 20 mm gaps, slopes up to 8°, panels 990–2384 mm.",
+      "Third generation: stainless-steel body, gaps up to 50 mm, slopes up to 20°, swinging head and all-wheel drive; remote range up to 400 m.",
+      "Double-roller-brush variant: finishes the edge of the PV row and suits arrays assembled from several panel rows.",
+      "Tracked robot for rows without bridge connections: 1-metre brush, dry and wet cleaning, joints up to 60 mm, slopes up to 25°, remote up to 400 m.",
+      "The fully automatic version of MR-T1: AI algorithms and visual recognition, path planning and posture correction.",
+      "Up-and-down robot for multi-row arrays up to 10 m wide; 8–12 m/min speed, remote control.",
+      "Rail-type transfer vehicle: moves the robot between rows in two to three minutes — roughly ten times faster than manual handling.",
+      "Manual scraper brush on a 3.5–7.5 m telescopic rod: two water outlets, adjustable head angle; panels, glass facades, snow.",
+      "Single-head electric brush for smaller arrays: soft bristles, head angle adjusts to the panel slope.",
+      "Double-head electric brush: two motors, water spray, 280 mm discs; grid or battery power, 4–6 hours of work.",
+      "Second generation of the double-head brush: 170 W brushless motors, 25.6 V 25 Ah battery, carbon-fibre rods of 3.5–7.5 m.",
+      "Rolling electric brush: 650 mm roller of 130 mm diameter, 400 rpm, three water outlets, water-blocking brush.",
+      "Second-generation rolling brush: 200 W, 420 rpm, forward/reverse rotation, polycarbonate housing.",
+      "Water-driven brush: powered by line pressure up to 7 MPa with no electricity; 125 or 350 mm discs, optional 2.2 kW pump."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product lines",
+    "catalog_h": "Product catalog",
+    "tech_h": "Capabilities and manufacturing",
+    "products_h": "Products",
+    "products_note": "MULTIFIT makes robots and brushes for solar panel cleaning: equipment for power plants and the companies that service them.",
+    "formats_h": "Product formats",
+    "export_h": "Export and markets",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "price_btn": "Download price list (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "Prices and terms are indicative and are finalized at the deal stage via Teranova. The supplier's direct contacts are not published.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications and registrations",
+    "gallery_h": "Equipment at work",
+    "gallery_note": "Site and equipment photographs were provided by MULTIFIT. The first four are frames from its own footage of working installations, including the 300 kW rooftop plant in Tripoli, Lebanon. This is not our own factory visit: the supplier's status is “Information provided by the company”.",
+    "video_h": "Video from the company",
+    "video_note": "Filmed by MULTIFIT and published with their permission. On-screen captions are in English. Below the product videos are five project cases from working sites: Lebanon, Malta, Malaysia, Pakistan and the USA. Two were shot vertically and are fitted into the common frame without cropping. The US case is a single unbroken take of seven and a half minutes; the page shows its first 75 seconds."
+  }
 }

@@ -152,6 +152,24 @@ export function deckCSS(C, voice) {
 }
 
 /** Одна внутренняя страница. */
+/* Разбиение длинного раздела на несколько страниц.
+   Страница дека имеет фиксированный размер 210×297 мм и `overflow: hidden`,
+   а `.cta` и `.foot` оба стоят на `margin-top: auto`. Когда содержимого больше,
+   чем помещается, эти блоки просто выдавливаются за нижний край и обрезаются —
+   так у sunpure на третьей странице пропадала строка «Essential and cold pressed
+   oils», а у licorne на последней уезжал подвал. Считаем не количество, а объём
+   текста: длинное описание занимает столько же места, сколько три коротких. */
+const chunkBy = (items, budget, maxCount, weigh) => {
+  const out = []; let cur = []; let w = 0;
+  for (const it of items) {
+    const iw = weigh(it);
+    if (cur.length && (w + iw > budget || cur.length >= maxCount)) { out.push(cur); cur = []; w = 0; }
+    cur.push(it); w += iw;
+  }
+  if (cur.length) out.push(cur);
+  return out;
+};
+
 const page = (cfg, lbl, title, body, extra = '') => `
   <div class="page"><div class="pad">
     <div class="lbl">${esc(lbl)}</div>
@@ -192,29 +210,39 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     (d.about || []).map((p) => `<p>${esc(p)}</p>`).join('') +
     `<div class="chips">${chips(d.facts)}</div>`));
 
-  /* 3. Линейки */
+  /* 3. Линейки — при большом объёме разносятся на несколько страниц */
   if ((d.lines || []).length) {
-    P.push(page(cfg, cfg.supplier, u.lines_h || 'Product lines',
-      `<div class="cards">${d.lines.map((l) => `<div class="card"><div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`));
+    const groups = chunkBy(d.lines, 1150, 7, (l) => (l.name || '').length + (l.note || '').length);
+    groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
+      (u.lines_h || 'Product lines') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
+      `<div class="cards">${g.map((l) => `<div class="card"><div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`)));
   }
 
-  /* 4. Подход и производство */
+  /* 4. Подход и производство — то же разбиение по объёму */
   if ((d.tech || []).length) {
-    P.push(page(cfg, cfg.supplier, u.tech_h || 'Approach and manufacturing',
-      `<div class="rows">${d.tech.map((x) => `<div class="row"><div class="n">${esc(x.name)}</div><div class="d">${esc(x.note)}</div></div>`).join('')}</div>`));
+    const groups = chunkBy(d.tech, 1250, 5, (x) => (x.name || '').length + (x.note || '').length);
+    groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
+      (u.tech_h || 'Approach and manufacturing') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
+      `<div class="rows">${g.map((x) => `<div class="row"><div class="n">${esc(x.name)}</div><div class="d">${esc(x.note)}</div></div>`).join('')}</div>`)));
   }
 
-  /* 5. Каталог — до 9 позиций с фото */
+  /* 5. Каталог — по 12 позиций с фото на страницу.
+     Здесь стоял slice(0, 12): всё, что не помещалось на одну страницу,
+     молча исчезало из презентации. У крупных поставщиков так терялось
+     до трёх четвертей ассортимента. Теперь каталог разбивается на
+     страницы, как разделы выше. Пояснение печатаем только на первой,
+     иначе оно съедает место под товары на каждой. */
   if (cat && cat.length) {
-    const items = cat.flatMap((g) => g.items).slice(0, 12);
-    P.push(page(cfg, cfg.supplier, u.catalog_h || u.products_h || 'Product catalog',
-      (u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
+    const pages = chunkBy(cat.flatMap((g) => g.items), Infinity, 12, () => 1);
+    pages.forEach((items, i) => P.push(page(cfg, cfg.supplier,
+      (u.catalog_h || u.products_h || 'Product catalog') + (pages.length > 1 ? ` (${i + 1}/${pages.length})` : ''),
+      (i === 0 && u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
       `<div class="grid">${items.map((it) => `
         <div class="prod">
           <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : ''}</div>
           <div class="n">${esc(it.name)}</div>
           ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
-        </div>`).join('')}</div>`));
+        </div>`).join('')}</div>`)));
   }
 
   /* 6. Сертификаты, форматы, экспорт */
@@ -229,12 +257,20 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     `<p>${esc(d.exportNote)}</p>${certsBlock}${formatsBlock}`));
 
   /* 7. Условия и контакт */
-  P.push(page(cfg, cfg.supplier, t.terms_h || 'Terms of cooperation',
-    `<div class="terms">${(t.terms || []).map((x) => `<div class="row"><div class="lab">${esc(x.label)}</div><div class="val">${esc(x.value)}</div></div>`).join('')}</div>
-     <div class="disc">${esc(t.terms_disc)}</div>`,
-    `<div class="cta"><div class="h">${esc(u.cta_h || 'Interested in this supplier?')}</div>
+  {
+    const rows = t.terms || [];
+    const groups = chunkBy(rows, 1150, 6, (x) => (x.label || '').length + (x.value || '').length);
+    groups.forEach((g, i) => {
+      const last = i === groups.length - 1;
+      P.push(page(cfg, cfg.supplier,
+        (t.terms_h || 'Terms of cooperation') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
+        `<div class="terms">${g.map((x) => `<div class="row"><div class="lab">${esc(x.label)}</div><div class="val">${esc(x.value)}</div></div>`).join('')}</div>` +
+        (last ? `<div class="disc">${esc(t.terms_disc)}</div>` : ''),
+        last ? `<div class="cta"><div class="h">${esc(u.cta_h || 'Interested in this supplier?')}</div>
        <div class="d">${esc(u.cta_d || '')}</div>
-       <div class="d" style="font-weight:700">Teranova Group · info@teranovagroup.com · teranovagroup.com</div></div>`));
+       <div class="d" style="font-weight:700">Teranova Group · info@teranovagroup.com · teranovagroup.com</div></div>` : ''));
+    });
+  }
 
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8">
     <style>${deckCSS(cfg.colors || {}, cfg.voice)}</style></head><body>${P.join('')}</body></html>`;

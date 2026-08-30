@@ -258,6 +258,46 @@ const SUPPLIERS = [
     pres: true,
     certs: ['ISO 9001:2015', 'GMP', 'HALAL', 'FSSAI', 'Star Export House', 'DUNS', 'FIEO', 'Spices Board India', 'AYUSHEXCIL'],
   },
+  {
+    /* noPrice здесь не «прайса пока нет», а условие письменного согласия BIOPT
+       от 18.08.2026: экспортные цены в открытом доступе не размещаются. Прайс
+       не публикуем ни на странице, ни в PDF — ни сейчас, ни позже. */
+    id: 'biopt', json: 'biopt', supplier: 'BIOPT Co., Ltd.', brand: 'VENDERMA',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#2b2b2f', sky: '#c0392b', bg: '#f7f1ee', line: '#ecdedb' },
+    pres: true,
+    certs: ['ISO 9001'],
+  },
+  {
+    /* noPrice — пункт 5 письменного согласия SEUNGGUN COSMETICS от 18.08.2026:
+       прайс EXW считается конфиденциальной коммерческой информацией и не
+       публикуется ни на площадке, ни в любом другом открытом канале. */
+    id: 'loobee', json: 'loobee', supplier: 'SEUNGGUN COSMETICS CO., LTD.', brand: 'LOOBEE',
+    basis: 'EXW Korea', noPrice: true,
+    colors: { deep: '#1f5f45', sky: '#3e9b72', bg: '#edf6f1', line: '#dbe9e1' },
+    pres: true,
+    certs: ['Vegan', 'Dermatest® EXCELLENT'],
+  },
+  {
+    /* noPrice — экспортный прайс TeamPass пометки «конфиденциально» не несёт,
+       но содержит отпускные цены в 25–30 % от розницы. Публикация такой цифры
+       уничтожает розничную цену бренда во всех странах сразу, поэтому на
+       витрине и в документах стоит «цена по запросу». */
+    id: 'slow-lounge', json: 'slow-lounge', supplier: 'TeamPass', brand: 'SLOW LOUNGE',
+    basis: 'EXW Korea', noPrice: true,
+    colors: { deep: '#3E3128', sky: '#B8823C', bg: '#EFEFE9', line: '#E2E0D6' },
+    pres: true,
+    certs: ['Vegan', 'EWG Green', 'Dermatologist Tested'],
+  },
+  {
+    /* noPrice — прайс Lubedecacorn Global с минимальными партиями у нас есть,
+       но в открытый доступ не идёт: это коммерческий документ поставщика. */
+    id: 'aberede', json: 'aberede', supplier: 'Lubedecacorn Global Co., Ltd.', brand: 'ABEREDE',
+    basis: 'EXW Korea', noPrice: true,
+    colors: { deep: '#A8272C', sky: '#CE3A32', bg: '#FBF6F4', line: '#EDDDD9' },
+    pres: true,
+    certs: ['Vegan', 'Cruelty-free', '0,00'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

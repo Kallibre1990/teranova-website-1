@@ -22,16 +22,40 @@
       "Propriétaires de marques à la recherche d'un partenaire OEM/ODM coréen"
     ],
     "lines": [
-      { "name": "cellmedics — soin professionnel", "note": "Cosméceutique pour l'usage en cabine et à domicile : nettoyage, tonification, sérums, ampoules, crèmes et masques. Les grands formats (500–1 000 ml, 1 kg) sont conçus pour le travail en cabine, les formats compacts pour le soin à domicile et le retail." },
-      { "name": "Cica Clear — peaux sensibles et à imperfections", "note": "Gamme à base de centella asiatica : tonique, sérum, ampoule et crème pour les peaux sujettes aux rougeurs et aux imperfections. Elle se compose en un protocole de soin complet." },
-      { "name": "Biocell Multi — récupération et fermeté", "note": "Gamme multifonction au chitosane et au complexe de facteurs de croissance : tonique, sérum, ampoule et crème. Déclarée par la société comme cosmétique fonctionnelle à double action — éclaircissement et correction des rides." },
-      { "name": "KERASON — soin par appareil", "note": "L'appareil KERASON PRIME repose sur l'ultrason de haute puissance et l'électrovibration, avec trois types d'embouts pour différents usages et deux activateurs professionnels Pure AT et Pure ST. Selon les documents de la société, il relève de la catégorie domestique et institut et n'est pas un dispositif médical." }
+      {
+        "name": "cellmedics — soin professionnel",
+        "note": "Cosméceutique pour l'usage en cabine et à domicile : nettoyage, tonification, sérums, ampoules, crèmes et masques. Les grands formats (500–1 000 ml, 1 kg) sont conçus pour le travail en cabine, les formats compacts pour le soin à domicile et le retail."
+      },
+      {
+        "name": "Cica Clear — peaux sensibles et à imperfections",
+        "note": "Gamme à base de centella asiatica : tonique, sérum, ampoule et crème pour les peaux sujettes aux rougeurs et aux imperfections. Elle se compose en un protocole de soin complet."
+      },
+      {
+        "name": "Biocell Multi — récupération et fermeté",
+        "note": "Gamme multifonction au chitosane et au complexe de facteurs de croissance : tonique, sérum, ampoule et crème. Déclarée par la société comme cosmétique fonctionnelle à double action — éclaircissement et correction des rides."
+      },
+      {
+        "name": "KERASON — soin par appareil",
+        "note": "L'appareil KERASON PRIME repose sur l'ultrason de haute puissance et l'électrovibration, avec trois types d'embouts pour différents usages et deux activateurs professionnels Pure AT et Pure ST. Selon les documents de la société, il relève de la catégorie domestique et institut et n'est pas un dispositif médical."
+      }
     ],
     "tech": [
-      { "name": "Facteurs de croissance et recombinaison de protéines", "note": "Compétence propre de la société dans l'obtention et la stabilisation de complexes protéiques ; c'est sur elle que reposent la gamme Biocell Multi et les crèmes réparatrices." },
-      { "name": "Peptides biomimétiques et cals végétaux", "note": "Synthèse de peptides reproduisant des structures naturellement présentes dans la peau, et culture de cellules végétales pour obtenir des extraits actifs." },
-      { "name": "Ultrason de haute puissance 20–32 kHz", "note": "Technologie KERASON : les ondes ultrasonores de basse fréquence sont converties en ondes de haute puissance et transmises à la peau avec une électrovibration. Le brevet sur KERASON PRIME a été enregistré en Corée en 2026 (selon les informations de la société)." },
-      { "name": "OEM/ODM complet", "note": "Planification du produit, développement de la formule, design de l'emballage, fabrication chez le partenaire et accompagnement à l'export. Lot minimum en OEM/ODM — à partir de 3 000 unités." }
+      {
+        "name": "Facteurs de croissance et recombinaison de protéines",
+        "note": "Compétence propre de la société dans l'obtention et la stabilisation de complexes protéiques ; c'est sur elle que reposent la gamme Biocell Multi et les crèmes réparatrices."
+      },
+      {
+        "name": "Peptides biomimétiques et cals végétaux",
+        "note": "Synthèse de peptides reproduisant des structures naturellement présentes dans la peau, et culture de cellules végétales pour obtenir des extraits actifs."
+      },
+      {
+        "name": "Ultrason de haute puissance 20–32 kHz",
+        "note": "Technologie KERASON : les ondes ultrasonores de basse fréquence sont converties en ondes de haute puissance et transmises à la peau avec une électrovibration. Le brevet sur KERASON PRIME a été enregistré en Corée en 2026 (selon les informations de la société)."
+      },
+      {
+        "name": "OEM/ODM complet",
+        "note": "Planification du produit, développement de la formule, design de l'emballage, fabrication chez le partenaire et accompagnement à l'export. Lot minimum en OEM/ODM — à partir de 3 000 unités."
+      }
     ],
     "formats": [
       "Toniques et sérums 500–1 000 ml",
@@ -43,15 +67,30 @@
     ],
     "exportNote": "Selon les informations de la société, les produits sont livrés aux États-Unis, à Hong Kong, en Australie, au Vietnam, au Royaume-Uni et en Thaïlande ; un distributeur exclusif travaille en Indonésie. Pour plusieurs marchés — Chine, Malaisie, Royaume-Uni, États-Unis, Dubaï — la société fait état de protocoles d'intention signés ; les accords définitifs sont en cours de négociation, ces territoires ne sont donc pas considérés comme fermés. Base de livraison — FOB Korea. Directions prioritaires pour la société : Chine, Japon, Royaume-Uni, États-Unis, France, Taïwan.",
     "terms": [
-      { "label": "Base de livraison", "value": "FOB Korea" },
-      { "label": "Commande minimale", "value": "à partir de 100 unités par référence (masques modelants — à partir de 30) ; OEM/ODM — à partir de 3 000 unités" },
-      { "label": "Prix", "value": "Niveaux grossiste et distributeur ; des conditions distinctes sont prévues pour l'appareil KERASON PRIME, y compris des conditions d'exclusivité à partir de 50 unités par an" },
-      { "label": "Paiement", "value": "100% T/T ; les conditions sont discutées dans le contrat" },
-      { "label": "Délai de production", "value": "50–60 jours après confirmation de la commande ; les délais de livraison dépendent du marché et des exigences d'enregistrement" }
+      {
+        "label": "Base de livraison",
+        "value": "FOB Korea"
+      },
+      {
+        "label": "Commande minimale",
+        "value": "à partir de 100 unités par référence (masques modelants — à partir de 30) ; OEM/ODM — à partir de 3 000 unités"
+      },
+      {
+        "label": "Prix",
+        "value": "Niveaux grossiste et distributeur ; des conditions distinctes sont prévues pour l'appareil KERASON PRIME, y compris des conditions d'exclusivité à partir de 50 unités par an"
+      },
+      {
+        "label": "Paiement",
+        "value": "100% T/T ; les conditions sont discutées dans le contrat"
+      },
+      {
+        "label": "Délai de production",
+        "value": "50–60 jours après confirmation de la commande ; les délais de livraison dépendent du marché et des exigences d'enregistrement"
+      }
     ],
     "consentNote": "Les informations et supports sont fournis par iCELmedi Co., Ltd. et publiés avec son accord écrit du 5 août 2026. Les données relatives aux certificats, aux enregistrements et au modèle de production sont indiquées selon les déclarations de la société et doivent être confirmées par documents au stade de la transaction. Les préparations professionnelles destinées à l'usage injectable et à la mésothérapie ne figurent pas dans cette présentation.",
-    "seoTitle": "iCELmedi — cosméceutique coréenne cellmedics et appareils KERASON · Teranova",
-    "seoDesc": "iCELmedi conçoit la cosméceutique coréenne cellmedics et les appareils KERASON : toniques, sérums, ampoules, crèmes, masques modelants. OEM/ODM, FOB Korea, via Teranova.",
+    "seoTitle": "iCELmedi — cosméceutique coréenne cellmedics · Teranova",
+    "seoDesc": "iCELmedi conçoit la cosméceutique coréenne cellmedics et les appareils KERASON : toniques, sérums, ampoules, crèmes, masques modelants.",
     "catalog_notes": [
       "Lait pour la première étape du nettoyage : retire en douceur le maquillage et les impuretés sans dessécher la peau. Format cabine 1 litre.",
       "Gel nettoyant à mousse dense pour la deuxième étape du nettoyage ; convient aux peaux mixtes et grasses.",

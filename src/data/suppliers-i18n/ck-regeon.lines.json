@@ -1,349 +1,349 @@
 [
- {
-  "slug": "hairregeon",
-  "supplierSlug": "ck-regeon",
-  "category": "cosmetics",
-  "lineName": "HAIRREGEON",
-  "items": [
-   {
-    "name": "PTD-DBM Hair Booster",
-    "img": "/img/suppliers/ck-regeon/products/ptd-dbm-hair-booster.jpg",
-    "volume": "5 sets (Vial 1 powder 200 mg + Vial 2 diluent 5 ml)",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — уход за кожей головы · Teranova",
-    "seoDesc": "HAIRREGEON от CK Regeon — профессиональная линия косметического ухода за кожей головы на пептиде PTD-DBM. Флагман — двухкомпонентный набор: флакон с порошком и флакон-растворитель. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Профессиональный двухкомпонентный уход за кожей головы",
-    "about": [
-     "HAIRREGEON — профессиональная линия CK Regeon для интенсивного косметического ухода за кожей головы. Она построена вокруг пептида PTD-DBM и собственной технологии «WNT ON». Доклинические исследования описывают механизм действия компонентов, а не подтверждают клиническую эффективность готовых продуктов. Задача линии — ежедневный наружный уход и ощущение плотности и ухоженности волос.",
-     "В линии одна позиция — PTD-DBM Hair Booster: упаковка из пяти наборов, в каждом флакон с лиофилизированным порошком 200 мг и отдельный флакон-растворитель 5 мл. Разделение на два флакона — инженерное решение по стабильности состава. Формат рассчитан на салоны и студии трихологии; импортёру это компактная позиция с высокой ценой единицы и понятной научной историей бренда."
+  {
+    "slug": "hairregeon",
+    "supplierSlug": "ck-regeon",
+    "category": "cosmetics",
+    "lineName": "HAIRREGEON",
+    "items": [
+      {
+        "name": "PTD-DBM Hair Booster",
+        "img": "/img/suppliers/ck-regeon/products/ptd-dbm-hair-booster.jpg",
+        "volume": "5 sets (Vial 1 powder 200 mg + Vial 2 diluent 5 ml)",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Профессиональный двухкомпонентный набор для интенсивного косметического ухода за кожей головы: флакон с лиофилизированным порошком и флакон-растворитель на основе пептида PTD-DBM. Помогает поддерживать ощущение плотности и ухоженности волос. Упаковка — 5 наборов."
-    ]
-   },
-   "en": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — scalp care · Teranova",
-    "seoDesc": "HAIRREGEON by CK Regeon — a professional line of cosmetic scalp care built on the PTD-DBM peptide. The flagship is a two-part set: a powder vial and a separate solvent vial. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Professional two-part scalp care",
-    "about": [
-     "HAIRREGEON is CK Regeon's professional line for intensive cosmetic scalp care. It is built around the PTD-DBM peptide and the company's own “WNT ON” technology. Preclinical studies describe the mechanism of action of the ingredients rather than confirming the clinical efficacy of the finished products. The purpose of the line is daily topical care and a feeling of density and well-groomed hair.",
-     "The line has a single item — PTD-DBM Hair Booster: a pack of five sets, each with a vial of 200 mg lyophilized powder and a separate 5 ml solvent vial. Splitting it into two vials is an engineering decision for formula stability. The format is designed for salons and trichology studios; for an importer it is a compact item with a high unit price and a clear scientific story behind the brand."
+    "i18n": {
+      "ru": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — уход за кожей головы · Teranova",
+        "seoDesc": "HAIRREGEON от CK Regeon — профессиональная линия косметического ухода за кожей головы на пептиде PTD-DBM. Флагман — двухкомпонентный набор: флакон с порошком и флакон-растворитель. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Профессиональный двухкомпонентный уход за кожей головы",
+        "about": [
+          "HAIRREGEON — профессиональная линия CK Regeon для интенсивного косметического ухода за кожей головы. Она построена вокруг пептида PTD-DBM и собственной технологии «WNT ON». Доклинические исследования описывают механизм действия компонентов, а не подтверждают клиническую эффективность готовых продуктов. Задача линии — ежедневный наружный уход и ощущение плотности и ухоженности волос.",
+          "В линии одна позиция — PTD-DBM Hair Booster: упаковка из пяти наборов, в каждом флакон с лиофилизированным порошком 200 мг и отдельный флакон-растворитель 5 мл. Разделение на два флакона — инженерное решение по стабильности состава. Формат рассчитан на салоны и студии трихологии; импортёру это компактная позиция с высокой ценой единицы и понятной научной историей бренда."
+        ],
+        "itemNotes": [
+          "Профессиональный двухкомпонентный набор для интенсивного косметического ухода за кожей головы: флакон с лиофилизированным порошком и флакон-растворитель на основе пептида PTD-DBM. Помогает поддерживать ощущение плотности и ухоженности волос. Упаковка — 5 наборов."
+        ]
+      },
+      "en": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — scalp care · Teranova",
+        "seoDesc": "HAIRREGEON by CK Regeon — a professional line of cosmetic scalp care built on the PTD-DBM peptide. The flagship is a two-part set: a powder vial and a separate solvent vial. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Professional two-part scalp care",
+        "about": [
+          "HAIRREGEON is CK Regeon's professional line for intensive cosmetic scalp care. It is built around the PTD-DBM peptide and the company's own “WNT ON” technology. Preclinical studies describe the mechanism of action of the ingredients rather than confirming the clinical efficacy of the finished products. The purpose of the line is daily topical care and a feeling of density and well-groomed hair.",
+          "The line has a single item — PTD-DBM Hair Booster: a pack of five sets, each with a vial of 200 mg lyophilized powder and a separate 5 ml solvent vial. Splitting it into two vials is an engineering decision for formula stability. The format is designed for salons and trichology studios; for an importer it is a compact item with a high unit price and a clear scientific story behind the brand."
+        ],
+        "itemNotes": [
+          "Professional two-part kit for intensive cosmetic scalp care: a vial of lyophilized PTD-DBM peptide powder and a solvent vial, helping to maintain the feeling of denser, well-groomed hair. Pack of 5 sets."
+        ]
+      },
+      "ko": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — 두피 케어 · Teranova",
+        "seoDesc": "CK Regeon의 HAIRREGEON — PTD-DBM 펩타이드와 자체 기술 “WNT ON”을 기반으로 한 전문가용 두피 화장품 케어 라인입니다. 플래그십은 파우더 바이알과 별도의 용해액 바이알로 구성된 2제형 세트입니다. 한국에서의 도매 공급은 Teranova를 통해.",
+        "tagline": "전문가용 2제형 두피 케어",
+        "about": [
+          "HAIRREGEON은 집중적인 두피 화장품 케어를 위한 CK Regeon의 전문가용 라인입니다. PTD-DBM 펩타이드와 자체 기술 “WNT ON”을 중심으로 구성되었습니다. 전임상 연구는 성분의 작용 메커니즘을 설명할 뿐, 완제품의 임상적 유효성을 확인해 주지는 않습니다. 이 라인의 목표는 매일의 외용 케어와 모발의 밀도감·정돈된 느낌입니다.",
+          "라인은 한 가지 품목, PTD-DBM Hair Booster로 구성됩니다. 다섯 세트가 든 패키지이며 각 세트에는 동결건조 파우더 200mg 바이알과 별도의 용해액 5ml 바이알이 들어 있습니다. 두 개의 바이알로 나눈 것은 제형 안정성을 위한 엔지니어링 결정입니다. 이 포맷은 살롱과 두피 전문 스튜디오를 겨냥하며, 수입업체에게는 단가가 높고 브랜드의 과학적 스토리가 분명한 컴팩트한 품목입니다."
+        ],
+        "itemNotes": [
+          "두피 집중 코스메틱 케어를 위한 전문가용 2제형 세트: PTD-DBM 펩타이드 기반 동결건조 분말 바이알과 용해액 바이알로 구성되어 모발의 밀도감과 정돈된 느낌을 유지하는 데 도움을 줍니다. 5세트 구성."
+        ]
+      },
+      "zh": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — 头皮护理 · Teranova",
+        "seoDesc": "CK Regeon 旗下 HAIRREGEON — 以 PTD-DBM 肽为核心的专业头皮护理化妆品系列。主打产品为双剂型套装：一瓶粉末与一瓶溶剂。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "专业双剂型头皮护理",
+        "about": [
+          "HAIRREGEON 是 CK Regeon 面向头皮集中化妆品护理的专业系列，围绕 PTD-DBM 肽与自有技术「WNT ON」构建。现有研究仅说明成分的作用机制，并不构成对成品实际效果的确认。该系列的目标是日常外用护理，以及带来头发丰盈、整洁的感受。",
+          "系列目前只有一个品项 PTD-DBM Hair Booster：每盒五套，每套包含一瓶 200 毫克冻干粉与一瓶 5 毫升溶剂。分成两瓶是出于配方稳定性的工程考量。该规格面向沙龙与毛发护理工作室；对进口商而言，这是一款体积紧凑、单价较高、品牌科研故事清晰的产品。"
+        ],
+        "itemNotes": [
+          "专业双剂型头皮密集护理套装：含PTD-DBM肽冻干粉瓶与溶解液瓶，有助于维持秀发的丰盈感与整洁感。5套装。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — 頭皮ケア · Teranova",
+        "seoDesc": "CK Regeon の HAIRREGEON — PTD-DBM ペプチドを軸としたプロフェッショナルな頭皮ケア化粧品ライン。主力は、粉末のバイアルと溶解液のバイアルからなる2剤式セット。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "プロ仕様の2剤式頭皮ケア",
+        "about": [
+          "HAIRREGEON は、頭皮の集中的な化粧品ケアに向けた CK Regeon のプロフェッショナルラインです。PTD-DBM ペプチドと独自技術「WNT ON」を軸に構成されています。既存の研究は成分の作用メカニズムを説明するものであり、完成品の効果を裏づけるものではありません。ラインの目的は、日々の外用ケアと、髪のボリューム感や整った印象です。",
+          "ラインの品目は PTD-DBM Hair Booster の1点です：5セット入りのパッケージで、各セットに凍結乾燥パウダー 200 mg のバイアルと、別添の溶解液 5 mL のバイアルが入ります。2本に分ける構成は、処方の安定性を考えた設計上の判断です。サロンや毛髪ケア専門スタジオ向けのフォーマットで、輸入業者にとってはコンパクトで単価が高く、ブランドの研究ストーリーが分かりやすい品目です。"
+        ],
+        "itemNotes": [
+          "頭皮を集中的にコスメティックケアするプロ仕様の2剤タイプセット。PTD-DBMペプチド配合の凍結乾燥パウダーと溶解液のバイアルで、髪のハリ感と整った印象をサポートします。5セット入り。"
+        ]
+      },
+      "it": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — cuoio capelluto · Teranova",
+        "seoDesc": "HAIRREGEON di CK Regeon — linea professionale di cura cosmetica del cuoio capelluto con peptide PTD-DBM. Kit bifasico: flacone con polvere e flacone solvente. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+        "tagline": "Cura professionale bifasica del cuoio capelluto",
+        "about": [
+          "HAIRREGEON è la linea professionale di CK Regeon per una cura cosmetica intensiva del cuoio capelluto. È costruita attorno al peptide PTD-DBM e alla tecnologia proprietaria «WNT ON». Gli studi preclinici descrivono il meccanismo d'azione dei componenti e non confermano l'efficacia clinica dei prodotti finiti. L'obiettivo della linea è la cura esterna quotidiana e una sensazione di capelli più corposi e ben tenuti.",
+          "La linea comprende un'unica referenza — PTD-DBM Hair Booster: una confezione da cinque kit, ciascuno con un flacone di polvere liofilizzata da 200 mg e un flacone solvente separato da 5 ml. La suddivisione in due flaconi è una scelta tecnica legata alla stabilità della formula. Il formato è pensato per saloni e studi di tricologia; per l'importatore è una referenza compatta, con prezzo unitario elevato e una storia scientifica del brand facile da raccontare."
+        ],
+        "itemNotes": [
+          "Kit professionale bifasico per un'intensa cura cosmetica del cuoio capelluto: un flacone di polvere liofilizzata a base di peptide PTD-DBM e un flacone di solvente, per mantenere la sensazione di capelli più densi e curati. Confezione da 5 set."
+        ]
+      },
+      "de": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — Kopfhautpflege · Teranova",
+        "seoDesc": "HAIRREGEON von CK Regeon — professionelle Serie kosmetischer Kopfhautpflege mit dem Peptid PTD-DBM. Flaggschiff ist das Zwei-Komponenten-Set: Pulverfläschchen und Lösungsmittelfläschchen. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Professionelle Zwei-Komponenten-Pflege für die Kopfhaut",
+        "about": [
+          "HAIRREGEON ist die professionelle Serie von CK Regeon für die intensive kosmetische Pflege der Kopfhaut. Sie ist um das Peptid PTD-DBM und die eigene Technologie «WNT ON» herum aufgebaut. Präklinische Studien beschreiben den Wirkmechanismus der Komponenten und bestätigen nicht die klinische Wirksamkeit der fertigen Produkte. Aufgabe der Serie sind die tägliche äußerliche Pflege und ein Gefühl von Fülle und gepflegtem Haar.",
+          "Die Serie umfasst eine Position — PTD-DBM Hair Booster: eine Packung mit fünf Sets, in jedem ein Fläschchen mit 200 mg lyophilisiertem Pulver und ein separates Lösungsmittelfläschchen mit 5 ml. Die Aufteilung auf zwei Fläschchen ist eine technische Entscheidung zur Stabilität der Rezeptur. Das Format richtet sich an Salons und trichologische Studios; für den Importeur ist es eine kompakte Position mit hohem Stückpreis und einer nachvollziehbaren wissenschaftlichen Markengeschichte."
+        ],
+        "itemNotes": [
+          "Professionelles Zwei-Komponenten-Set für die intensive kosmetische Kopfhautpflege: ein Fläschchen mit lyophilisiertem Pulver auf Basis des PTD-DBM-Peptids und ein Lösungsfläschchen, das für ein Gefühl von dichterem, gepflegtem Haar sorgt. Packung mit 5 Sets."
+        ]
+      },
+      "fr": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — soin du cuir chevelu · Teranova",
+        "seoDesc": "HAIRREGEON de CK Regeon — gamme professionnelle de soin cosmétique du cuir chevelu au peptide PTD-DBM. Produit phare : le coffret bicomposant, flacon de poudre et flacon de solvant. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Soin professionnel bicomposant du cuir chevelu",
+        "about": [
+          "HAIRREGEON est la gamme professionnelle de CK Regeon pour le soin cosmétique intensif du cuir chevelu. Elle est construite autour du peptide PTD-DBM et de la technologie propriétaire « WNT ON ». Les études précliniques décrivent le mécanisme d'action des composants et ne confirment pas l'efficacité clinique des produits finis. L'objectif de la gamme est le soin externe quotidien et une sensation de densité et de cheveux soignés.",
+          "La gamme compte une référence — PTD-DBM Hair Booster : un emballage de cinq coffrets, chacun avec un flacon de poudre lyophilisée de 200 mg et un flacon de solvant séparé de 5 ml. La séparation en deux flacons est un choix technique lié à la stabilité de la formule. Le format s'adresse aux salons et aux studios de trichologie ; pour l'importateur, c'est une référence compacte, au prix unitaire élevé et à l'histoire scientifique claire."
+        ],
+        "itemNotes": [
+          "Kit professionnel bi-composant pour un soin cosmétique intensif du cuir chevelu : un flacon de poudre lyophilisée à base de peptide PTD-DBM et un flacon de solvant, aidant à maintenir une sensation de cheveux plus denses et soignés. Lot de 5 coffrets."
+        ]
+      },
+      "tr": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — saç derisi bakımı · Teranova",
+        "seoDesc": "CK Regeon imzalı HAIRREGEON — PTD-DBM peptidi bazlı profesyonel saç derisi bakım serisi. Amiral ürün iki bileşenli set: toz flakonu ve çözücü flakonu. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "İki bileşenli profesyonel saç derisi bakımı",
+        "about": [
+          "HAIRREGEON, CK Regeon'un yoğun kozmetik saç derisi bakımı için profesyonel serisidir. Seri, PTD-DBM peptidi ve markanın kendi «WNT ON» teknolojisi etrafında kurulmuştur. Klinik öncesi çalışmalar bileşenlerin etki mekanizmasını tanımlar, bitmiş ürünlerin klinik etkinliğini doğrulamaz. Serinin amacı günlük harici bakım ile saçlarda dolgunluk ve bakımlı bir görünüm hissidir.",
+          "Seride tek bir ürün yer alır — PTD-DBM Hair Booster: beş setlik ambalaj; her sette 200 mg liyofilize toz içeren bir flakon ve ayrı bir 5 ml çözücü flakonu bulunur. İki flakona ayırma, formül stabilitesine yönelik teknik bir çözümdür. Format salonlar ve trikoloji stüdyoları için tasarlanmıştır; ithalatçı için birim fiyatı yüksek, markanın bilimsel hikâyesi anlaşılır, kompakt bir üründür."
+        ],
+        "itemNotes": [
+          "Saç derisinin yoğun kozmetik bakımı için profesyonel iki bileşenli set: PTD-DBM peptit bazlı liyofilize toz şişesi ve çözücü şişesi ile saçlarda dolgunluk ve bakımlı bir his sürdürmeye yardımcı olur. 5 setlik paket."
+        ]
+      },
+      "es": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — cuero cabelludo · Teranova",
+        "seoDesc": "HAIRREGEON de CK Regeon es una línea cosmética profesional para el cuidado del cuero cabelludo con el péptido PTD-DBM. Su producto insignia es un kit de dos frascos: polvo y disolvente. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Cuidado profesional del cuero cabelludo en dos frascos",
+        "about": [
+          "HAIRREGEON es la línea profesional de CK Regeon para un cuidado cosmético intensivo del cuero cabelludo. Se construye en torno al péptido PTD-DBM y a la tecnología propia «WNT ON». Los estudios preclínicos describen el mecanismo de acción de los componentes, no la eficacia de los productos terminados. El objetivo de la línea es el cuidado externo diario y la sensación de densidad y de un cabello bien cuidado.",
+          "La línea tiene una sola referencia: PTD-DBM Hair Booster, un envase con cinco kits; cada uno incluye un frasco con 200 mg de polvo liofilizado y un frasco disolvente aparte de 5 ml. La separación en dos frascos es una solución de ingeniería para la estabilidad de la fórmula. El formato está pensado para salones y estudios de tricología; para el importador es una referencia compacta, con alto precio unitario y una historia científica de marca fácil de explicar."
+        ],
+        "itemNotes": [
+          "Kit profesional de dos componentes para un cuidado cosmético intensivo del cuero cabelludo: un vial de polvo liofilizado a base de péptido PTD-DBM y un vial de disolvente, que ayuda a mantener la sensación de un cabello más denso y cuidado. Paquete de 5 sets."
+        ]
+      },
+      "pt": {
+        "seoTitle": "HAIRREGEON (CK Regeon) — couro cabeludo · Teranova",
+        "seoDesc": "HAIRREGEON, da CK Regeon, é uma linha cosmética profissional para o cuidado do couro cabeludo com o peptídeo PTD-DBM. O carro-chefe é um kit de dois frascos: pó e diluente. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Cuidado profissional do couro cabeludo em dois frascos",
+        "about": [
+          "HAIRREGEON é a linha profissional da CK Regeon para o cuidado cosmético intensivo do couro cabeludo. Ela se apoia no peptídeo PTD-DBM e na tecnologia própria «WNT ON». Os estudos pré-clínicos descrevem o mecanismo de ação dos componentes, e não a eficácia dos produtos acabados. A proposta da linha é o cuidado externo diário e a sensação de densidade e de cabelo bem tratado.",
+          "A linha tem apenas um item: o PTD-DBM Hair Booster, uma embalagem com cinco kits, cada um com um frasco de 200 mg de pó liofilizado e um frasco diluente separado de 5 ml. A divisão em dois frascos é uma decisão de engenharia ligada à estabilidade da fórmula. O formato foi pensado para salões e estúdios de tricologia; para o importador, trata-se de um item compacto, de alto preço unitário e com uma história científica de marca fácil de contar."
+        ],
+        "itemNotes": [
+          "Kit profissional de dois componentes para um cuidado cosmético intensivo do couro cabeludo: um frasco de pó liofilizado à base do peptídeo PTD-DBM e um frasco de solvente, ajudando a manter a sensação de cabelos mais densos e cuidados. Embalagem com 5 conjuntos."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "heribon-wnt-on",
+    "supplierSlug": "ck-regeon",
+    "category": "cosmetics",
+    "lineName": "HERIBON (WNT ON)",
+    "items": [
+      {
+        "name": "HERIBON WNT ON Shampoo",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-shampoo.jpg",
+        "volume": "500 ml",
+        "certs": []
+      },
+      {
+        "name": "HERIBON WNT ON Scalp Scaler",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-scalp-scaler.jpg",
+        "volume": "300 ml",
+        "certs": []
+      },
+      {
+        "name": "HERIBON WNT ON Hair Treatment",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-hair-treatment.jpg",
+        "volume": "250 ml",
+        "certs": []
+      },
+      {
+        "name": "HERIBON WNT ON Hair Tonic",
+        "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-hair-tonic.jpg",
+        "volume": "50 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Professional two-part kit for intensive cosmetic scalp care: a vial of lyophilized PTD-DBM peptide powder and a solvent vial, helping to maintain the feeling of denser, well-groomed hair. Pack of 5 sets."
-    ]
-   },
-   "ko": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — 두피 케어 · Teranova",
-    "seoDesc": "CK Regeon의 HAIRREGEON — PTD-DBM 펩타이드와 자체 기술 “WNT ON”을 기반으로 한 전문가용 두피 화장품 케어 라인입니다. 플래그십은 파우더 바이알과 별도의 용해액 바이알로 구성된 2제형 세트입니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "전문가용 2제형 두피 케어",
-    "about": [
-     "HAIRREGEON은 집중적인 두피 화장품 케어를 위한 CK Regeon의 전문가용 라인입니다. PTD-DBM 펩타이드와 자체 기술 “WNT ON”을 중심으로 구성되었습니다. 전임상 연구는 성분의 작용 메커니즘을 설명할 뿐, 완제품의 임상적 유효성을 확인해 주지는 않습니다. 이 라인의 목표는 매일의 외용 케어와 모발의 밀도감·정돈된 느낌입니다.",
-     "라인은 한 가지 품목, PTD-DBM Hair Booster로 구성됩니다. 다섯 세트가 든 패키지이며 각 세트에는 동결건조 파우더 200mg 바이알과 별도의 용해액 5ml 바이알이 들어 있습니다. 두 개의 바이알로 나눈 것은 제형 안정성을 위한 엔지니어링 결정입니다. 이 포맷은 살롱과 두피 전문 스튜디오를 겨냥하며, 수입업체에게는 단가가 높고 브랜드의 과학적 스토리가 분명한 컴팩트한 품목입니다."
-    ],
-    "itemNotes": [
-     "두피 집중 코스메틱 케어를 위한 전문가용 2제형 세트: PTD-DBM 펩타이드 기반 동결건조 분말 바이알과 용해액 바이알로 구성되어 모발의 밀도감과 정돈된 느낌을 유지하는 데 도움을 줍니다. 5세트 구성."
-    ]
-   },
-   "zh": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — 头皮护理 · Teranova",
-    "seoDesc": "CK Regeon 旗下 HAIRREGEON — 以 PTD-DBM 肽为核心的专业头皮护理化妆品系列。主打产品为双剂型套装：一瓶粉末与一瓶溶剂。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "专业双剂型头皮护理",
-    "about": [
-     "HAIRREGEON 是 CK Regeon 面向头皮集中化妆品护理的专业系列，围绕 PTD-DBM 肽与自有技术「WNT ON」构建。现有研究仅说明成分的作用机制，并不构成对成品实际效果的确认。该系列的目标是日常外用护理，以及带来头发丰盈、整洁的感受。",
-     "系列目前只有一个品项 PTD-DBM Hair Booster：每盒五套，每套包含一瓶 200 毫克冻干粉与一瓶 5 毫升溶剂。分成两瓶是出于配方稳定性的工程考量。该规格面向沙龙与毛发护理工作室；对进口商而言，这是一款体积紧凑、单价较高、品牌科研故事清晰的产品。"
-    ],
-    "itemNotes": [
-     "专业双剂型头皮密集护理套装：含PTD-DBM肽冻干粉瓶与溶解液瓶，有助于维持秀发的丰盈感与整洁感。5套装。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — 頭皮ケア · Teranova",
-    "seoDesc": "CK Regeon の HAIRREGEON — PTD-DBM ペプチドを軸としたプロフェッショナルな頭皮ケア化粧品ライン。主力は、粉末のバイアルと溶解液のバイアルからなる2剤式セット。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "プロ仕様の2剤式頭皮ケア",
-    "about": [
-     "HAIRREGEON は、頭皮の集中的な化粧品ケアに向けた CK Regeon のプロフェッショナルラインです。PTD-DBM ペプチドと独自技術「WNT ON」を軸に構成されています。既存の研究は成分の作用メカニズムを説明するものであり、完成品の効果を裏づけるものではありません。ラインの目的は、日々の外用ケアと、髪のボリューム感や整った印象です。",
-     "ラインの品目は PTD-DBM Hair Booster の1点です：5セット入りのパッケージで、各セットに凍結乾燥パウダー 200 mg のバイアルと、別添の溶解液 5 mL のバイアルが入ります。2本に分ける構成は、処方の安定性を考えた設計上の判断です。サロンや毛髪ケア専門スタジオ向けのフォーマットで、輸入業者にとってはコンパクトで単価が高く、ブランドの研究ストーリーが分かりやすい品目です。"
-    ],
-    "itemNotes": [
-     "頭皮を集中的にコスメティックケアするプロ仕様の2剤タイプセット。PTD-DBMペプチド配合の凍結乾燥パウダーと溶解液のバイアルで、髪のハリ感と整った印象をサポートします。5セット入り。"
-    ]
-   },
-   "it": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — cuoio capelluto · Teranova",
-    "seoDesc": "HAIRREGEON di CK Regeon — linea professionale di cura cosmetica del cuoio capelluto con peptide PTD-DBM. Kit bifasico: flacone con polvere e flacone solvente. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
-    "tagline": "Cura professionale bifasica del cuoio capelluto",
-    "about": [
-     "HAIRREGEON è la linea professionale di CK Regeon per una cura cosmetica intensiva del cuoio capelluto. È costruita attorno al peptide PTD-DBM e alla tecnologia proprietaria «WNT ON». Gli studi preclinici descrivono il meccanismo d'azione dei componenti e non confermano l'efficacia clinica dei prodotti finiti. L'obiettivo della linea è la cura esterna quotidiana e una sensazione di capelli più corposi e ben tenuti.",
-     "La linea comprende un'unica referenza — PTD-DBM Hair Booster: una confezione da cinque kit, ciascuno con un flacone di polvere liofilizzata da 200 mg e un flacone solvente separato da 5 ml. La suddivisione in due flaconi è una scelta tecnica legata alla stabilità della formula. Il formato è pensato per saloni e studi di tricologia; per l'importatore è una referenza compatta, con prezzo unitario elevato e una storia scientifica del brand facile da raccontare."
-    ],
-    "itemNotes": [
-     "Kit professionale bifasico per un'intensa cura cosmetica del cuoio capelluto: un flacone di polvere liofilizzata a base di peptide PTD-DBM e un flacone di solvente, per mantenere la sensazione di capelli più densi e curati. Confezione da 5 set."
-    ]
-   },
-   "de": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — Kopfhautpflege · Teranova",
-    "seoDesc": "HAIRREGEON von CK Regeon — professionelle Serie kosmetischer Kopfhautpflege mit dem Peptid PTD-DBM. Flaggschiff ist das Zwei-Komponenten-Set: Pulverfläschchen und Lösungsmittelfläschchen. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Professionelle Zwei-Komponenten-Pflege für die Kopfhaut",
-    "about": [
-     "HAIRREGEON ist die professionelle Serie von CK Regeon für die intensive kosmetische Pflege der Kopfhaut. Sie ist um das Peptid PTD-DBM und die eigene Technologie «WNT ON» herum aufgebaut. Präklinische Studien beschreiben den Wirkmechanismus der Komponenten und bestätigen nicht die klinische Wirksamkeit der fertigen Produkte. Aufgabe der Serie sind die tägliche äußerliche Pflege und ein Gefühl von Fülle und gepflegtem Haar.",
-     "Die Serie umfasst eine Position — PTD-DBM Hair Booster: eine Packung mit fünf Sets, in jedem ein Fläschchen mit 200 mg lyophilisiertem Pulver und ein separates Lösungsmittelfläschchen mit 5 ml. Die Aufteilung auf zwei Fläschchen ist eine technische Entscheidung zur Stabilität der Rezeptur. Das Format richtet sich an Salons und trichologische Studios; für den Importeur ist es eine kompakte Position mit hohem Stückpreis und einer nachvollziehbaren wissenschaftlichen Markengeschichte."
-    ],
-    "itemNotes": [
-     "Professionelles Zwei-Komponenten-Set für die intensive kosmetische Kopfhautpflege: ein Fläschchen mit lyophilisiertem Pulver auf Basis des PTD-DBM-Peptids und ein Lösungsfläschchen, das für ein Gefühl von dichterem, gepflegtem Haar sorgt. Packung mit 5 Sets."
-    ]
-   },
-   "fr": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — soin du cuir chevelu · Teranova",
-    "seoDesc": "HAIRREGEON de CK Regeon — gamme professionnelle de soin cosmétique du cuir chevelu au peptide PTD-DBM. Produit phare : le coffret bicomposant, flacon de poudre et flacon de solvant. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Soin professionnel bicomposant du cuir chevelu",
-    "about": [
-     "HAIRREGEON est la gamme professionnelle de CK Regeon pour le soin cosmétique intensif du cuir chevelu. Elle est construite autour du peptide PTD-DBM et de la technologie propriétaire « WNT ON ». Les études précliniques décrivent le mécanisme d'action des composants et ne confirment pas l'efficacité clinique des produits finis. L'objectif de la gamme est le soin externe quotidien et une sensation de densité et de cheveux soignés.",
-     "La gamme compte une référence — PTD-DBM Hair Booster : un emballage de cinq coffrets, chacun avec un flacon de poudre lyophilisée de 200 mg et un flacon de solvant séparé de 5 ml. La séparation en deux flacons est un choix technique lié à la stabilité de la formule. Le format s'adresse aux salons et aux studios de trichologie ; pour l'importateur, c'est une référence compacte, au prix unitaire élevé et à l'histoire scientifique claire."
-    ],
-    "itemNotes": [
-     "Kit professionnel bi-composant pour un soin cosmétique intensif du cuir chevelu : un flacon de poudre lyophilisée à base de peptide PTD-DBM et un flacon de solvant, aidant à maintenir une sensation de cheveux plus denses et soignés. Lot de 5 coffrets."
-    ]
-   },
-   "tr": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — saç derisi bakımı · Teranova",
-    "seoDesc": "CK Regeon imzalı HAIRREGEON — PTD-DBM peptidi bazlı profesyonel saç derisi bakım serisi. Amiral ürün iki bileşenli set: toz flakonu ve çözücü flakonu. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "İki bileşenli profesyonel saç derisi bakımı",
-    "about": [
-     "HAIRREGEON, CK Regeon'un yoğun kozmetik saç derisi bakımı için profesyonel serisidir. Seri, PTD-DBM peptidi ve markanın kendi «WNT ON» teknolojisi etrafında kurulmuştur. Klinik öncesi çalışmalar bileşenlerin etki mekanizmasını tanımlar, bitmiş ürünlerin klinik etkinliğini doğrulamaz. Serinin amacı günlük harici bakım ile saçlarda dolgunluk ve bakımlı bir görünüm hissidir.",
-     "Seride tek bir ürün yer alır — PTD-DBM Hair Booster: beş setlik ambalaj; her sette 200 mg liyofilize toz içeren bir flakon ve ayrı bir 5 ml çözücü flakonu bulunur. İki flakona ayırma, formül stabilitesine yönelik teknik bir çözümdür. Format salonlar ve trikoloji stüdyoları için tasarlanmıştır; ithalatçı için birim fiyatı yüksek, markanın bilimsel hikâyesi anlaşılır, kompakt bir üründür."
-    ],
-    "itemNotes": [
-     "Saç derisinin yoğun kozmetik bakımı için profesyonel iki bileşenli set: PTD-DBM peptit bazlı liyofilize toz şişesi ve çözücü şişesi ile saçlarda dolgunluk ve bakımlı bir his sürdürmeye yardımcı olur. 5 setlik paket."
-    ]
-   },
-   "es": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — cuero cabelludo · Teranova",
-    "seoDesc": "HAIRREGEON de CK Regeon es una línea cosmética profesional para el cuidado del cuero cabelludo con el péptido PTD-DBM. Su producto insignia es un kit de dos frascos: polvo y disolvente. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Cuidado profesional del cuero cabelludo en dos frascos",
-    "about": [
-     "HAIRREGEON es la línea profesional de CK Regeon para un cuidado cosmético intensivo del cuero cabelludo. Se construye en torno al péptido PTD-DBM y a la tecnología propia «WNT ON». Los estudios preclínicos describen el mecanismo de acción de los componentes, no la eficacia de los productos terminados. El objetivo de la línea es el cuidado externo diario y la sensación de densidad y de un cabello bien cuidado.",
-     "La línea tiene una sola referencia: PTD-DBM Hair Booster, un envase con cinco kits; cada uno incluye un frasco con 200 mg de polvo liofilizado y un frasco disolvente aparte de 5 ml. La separación en dos frascos es una solución de ingeniería para la estabilidad de la fórmula. El formato está pensado para salones y estudios de tricología; para el importador es una referencia compacta, con alto precio unitario y una historia científica de marca fácil de explicar."
-    ],
-    "itemNotes": [
-     "Kit profesional de dos componentes para un cuidado cosmético intensivo del cuero cabelludo: un vial de polvo liofilizado a base de péptido PTD-DBM y un vial de disolvente, que ayuda a mantener la sensación de un cabello más denso y cuidado. Paquete de 5 sets."
-    ]
-   },
-   "pt": {
-    "seoTitle": "HAIRREGEON (CK Regeon) — couro cabeludo · Teranova",
-    "seoDesc": "HAIRREGEON, da CK Regeon, é uma linha cosmética profissional para o cuidado do couro cabeludo com o peptídeo PTD-DBM. O carro-chefe é um kit de dois frascos: pó e diluente. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Cuidado profissional do couro cabeludo em dois frascos",
-    "about": [
-     "HAIRREGEON é a linha profissional da CK Regeon para o cuidado cosmético intensivo do couro cabeludo. Ela se apoia no peptídeo PTD-DBM e na tecnologia própria «WNT ON». Os estudos pré-clínicos descrevem o mecanismo de ação dos componentes, e não a eficácia dos produtos acabados. A proposta da linha é o cuidado externo diário e a sensação de densidade e de cabelo bem tratado.",
-     "A linha tem apenas um item: o PTD-DBM Hair Booster, uma embalagem com cinco kits, cada um com um frasco de 200 mg de pó liofilizado e um frasco diluente separado de 5 ml. A divisão em dois frascos é uma decisão de engenharia ligada à estabilidade da fórmula. O formato foi pensado para salões e estúdios de tricologia; para o importador, trata-se de um item compacto, de alto preço unitário e com uma história científica de marca fácil de contar."
-    ],
-    "itemNotes": [
-     "Kit profissional de dois componentes para um cuidado cosmético intensivo do couro cabeludo: um frasco de pó liofilizado à base do peptídeo PTD-DBM e um frasco de solvente, ajudando a manter a sensação de cabelos mais densos e cuidados. Embalagem com 5 conjuntos."
-    ]
-   }
+    "i18n": {
+      "ru": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — ежедневный уход · Teranova",
+        "seoDesc": "HERIBON (WNT ON) от CK Regeon — домашняя линия ежедневного ухода за кожей головы на технологии «WNT ON» с KY19382 и гесперидином: шампунь, скальп-скалер, маска-уход и тоник. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Домашний уход за кожей головы в четыре шага",
+        "about": [
+          "HERIBON — домашняя линия ежедневного ухода CK Regeon, построенная на собственной технологии «WNT ON» с компонентами KY19382 и гесперидином. Она рассчитана на регулярный наружный уход за кожей головы и волосами: очищение, обновление и увлажнение. Доклинические исследования описывают механизм действия компонентов, а не подтверждают клиническую эффективность готовых продуктов.",
+          "Линия собрана в четыре шага: шампунь 500 мл для бережного очищения, скальп-скалер 300 мл для глубокого очищения кожи головы, маска-уход для волос 250 мл и несмываемый тоник 50 мл во флаконе-капельнице. Такой набор закрывает полку целиком и подходит аптечным и специализированным сетям, салонам и студиям трихологии, маркетплейсам и e-commerce."
+        ],
+        "itemNotes": [
+          "Ежедневный шампунь линии «WNT ON» для бережного очищения кожи головы и волос. Освежает, поддерживает ощущение чистоты и лёгкости. Объём 500 мл.",
+          "Скальп-скалер (пилинг) для глубокого очищения кожи головы от загрязнений и излишков себума перед основным уходом. Объём 300 мл.",
+          "Уход-маска для волос линии «WNT ON»: смягчает, увлажняет и облегчает расчёсывание, придаёт волосам ощущение плотности. Объём 250 мл.",
+          "Несмываемый тоник для кожи головы линии «WNT ON» в удобном флаконе-капельнице для ежедневного ухода. Освежает и увлажняет кожу головы. Объём 50 мл."
+        ]
+      },
+      "en": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — daily care · Teranova",
+        "seoDesc": "HERIBON (WNT ON) by CK Regeon — a home line of daily scalp care on the “WNT ON” technology with KY19382 and hesperidin: shampoo, scalp scaler, hair mask and tonic. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Home scalp care in four steps",
+        "about": [
+          "HERIBON is CK Regeon's home line of daily care, built on the company's own “WNT ON” technology with KY19382 and hesperidin. It is designed for regular topical care of the scalp and hair: cleansing, renewal and hydration. Preclinical studies describe the mechanism of action of the ingredients rather than confirming the clinical efficacy of the finished products.",
+          "The line is assembled in four steps: a 500 ml shampoo for gentle cleansing, a 300 ml scalp scaler for deep scalp cleansing, a 250 ml hair mask and a 50 ml leave-in tonic in a dropper bottle. Such a set covers a whole shelf and suits pharmacy and specialist chains, salons and trichology studios, marketplaces and e-commerce."
+        ],
+        "itemNotes": [
+          "Daily WNT ON shampoo for gentle cleansing of the scalp and hair, refreshing and leaving a clean, lightweight feel. Volume 500 ml.",
+          "Scalp scaler (exfoliating peel) for deep cleansing of the scalp from impurities and excess sebum before the main care routine. Volume 300 ml.",
+          "WNT ON hair treatment mask that softens, hydrates and eases combing while giving hair a fuller feel. Volume 250 ml.",
+          "Leave-in WNT ON scalp tonic in a convenient dropper bottle for daily care, refreshing and hydrating the scalp. Volume 50 ml."
+        ]
+      },
+      "ko": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — 데일리 케어 · Teranova",
+        "seoDesc": "CK Regeon의 HERIBON (WNT ON) — KY19382와 헤스페리딘을 담은 “WNT ON” 기술 기반의 홈 데일리 두피 케어 라인: 샴푸 500ml, 스칼프 스케일러 300ml, 헤어 마스크 250ml, 리브온 토닉 50ml. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "네 단계로 완성하는 홈 두피 케어",
+        "about": [
+          "HERIBON은 KY19382와 헤스페리딘을 담은 자체 기술 “WNT ON”을 기반으로 한 CK Regeon의 홈 데일리 케어 라인입니다. 두피와 모발의 꾸준한 외용 케어 — 세정, 리뉴얼, 보습 — 를 위해 설계되었습니다. 전임상 연구는 성분의 작용 메커니즘을 설명할 뿐, 완제품의 임상적 유효성을 확인해 주지는 않습니다.",
+          "라인은 네 단계로 구성됩니다: 부드러운 세정을 위한 샴푸 500ml, 두피 딥클렌징용 스칼프 스케일러 300ml, 헤어 마스크 250ml, 그리고 드로퍼 보틀에 담긴 리브온 토닉 50ml. 이 구성은 매대를 통째로 채울 수 있어 약국·전문 체인, 살롱과 두피 전문 스튜디오, 마켓플레이스와 이커머스에 적합합니다."
+        ],
+        "itemNotes": [
+          "두피와 모발을 부드럽게 세정하는 WNT ON 데일리 샴푸로, 상쾌하게 헹구어 깨끗하고 가벼운 느낌을 남깁니다. 용량 500 ml.",
+          "본격 케어 전 두피의 노폐물과 과잉 피지를 깊이 세정하는 스캘프 스케일러（필링）입니다. 용량 300 ml.",
+          "모발을 부드럽게 하고 수분을 공급하며 빗질을 돕고 밀도감을 부여하는 WNT ON 헤어 트리트먼트 마스크. 용량 250 ml.",
+          "간편한 드로퍼 용기에 담긴 WNT ON 리브인 두피 토닉으로, 두피에 수분을 공급하고 상쾌하게 가꾸는 데일리 케어 제품입니다. 용량 50 ml."
+        ]
+      },
+      "zh": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — 日常头皮护理 · Teranova",
+        "seoDesc": "CK Regeon 旗下 HERIBON (WNT ON) — 采用「WNT ON」技术、含 KY19382 与橙皮苷的家用日常头皮护理系列：洗发水、头皮去角质、发膜与头皮水。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "四步完成的家用头皮护理",
+        "about": [
+          "HERIBON 是 CK Regeon 的家用日常护理系列，基于含 KY19382 与橙皮苷的自有技术「WNT ON」。它面向头皮与头发的日常外用护理：清洁、焕新与保湿。现有研究仅说明成分的作用机制，并不构成对成品实际效果的确认。",
+          "系列按四个步骤组合：500 毫升洗发水用于温和清洁，300 毫升头皮去角质用于头皮深层清洁，250 毫升发膜，以及 50 毫升免洗头皮水（滴管瓶）。这样一套可以覆盖整个货架，适合药妆与专业连锁、沙龙与毛发护理工作室，以及电商平台与线上零售。"
+        ],
+        "itemNotes": [
+          "WNT ON日常洗发露，温和清洁头皮与发丝，令头皮清爽，保持洁净轻盈的感受。容量500 ml。",
+          "头皮清洁磨砂（去角质）产品，在正式护理前深层清洁头皮的污垢与多余油脂。容量300 ml。",
+          "WNT ON护发发膜，柔顺、滋润并易于梳理，赋予秀发丰盈感受。容量250 ml。",
+          "采用便捷滴管瓶的WNT ON免洗头皮爽肤液，日常清爽并滋润头皮。容量50 ml。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — 毎日の頭皮ケア · Teranova",
+        "seoDesc": "CK Regeon の HERIBON (WNT ON) — KY19382 とヘスペリジンを配合した独自技術「WNT ON」による、ホームケア向けの毎日の頭皮ケアライン：シャンプー、スカルプスケーラー、ヘアマスク、トナー。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "4ステップのホーム頭皮ケア",
+        "about": [
+          "HERIBON は、KY19382 とヘスペリジンを配合した独自技術「WNT ON」に基づく CK Regeon のホームケア向け日常ラインです。頭皮と髪の日々の外用ケア——洗浄、リフレッシュ、うるおい——を想定しています。既存の研究は成分の作用メカニズムを説明するものであり、完成品の効果を裏づけるものではありません。",
+          "ラインは4ステップで構成されます：やさしい洗浄のためのシャンプー 500 mL、頭皮のディープクレンジング用スカルプスケーラー 300 mL、ヘアマスク 250 mL、そしてスポイトボトル入りの洗い流さないトナー 50 mL。この構成で棚を丸ごとカバーでき、ドラッグストアや専門チェーン、サロンや毛髪ケア専門スタジオ、マーケットプレイスや EC に適しています。"
+        ],
+        "itemNotes": [
+          "頭皮と髪をやさしく洗い上げるWNT ONデイリーシャンプー。すっきりと洗い流し、清潔で軽やかな感触を保ちます。容量500 ml。",
+          "本格ケアの前に、頭皮の汚れや余分な皮脂を深く洗浄するスカルプスケーラー（ピーリング）。容量300 ml。",
+          "髪をやわらかく整え、うるおいを与え、指通りをなめらかにし、ハリ感を与えるWNT ONヘアトリートメントマスク。容量250 ml。",
+          "使いやすいドロッパーボトル入りのWNT ON洗い流さないスカルプトニック。頭皮にうるおいを与え、爽やかに整えるデイリーケア。容量50 ml。"
+        ]
+      },
+      "it": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — uso quotidiano · Teranova",
+        "seoDesc": "HERIBON (WNT ON) di CK Regeon — linea home care quotidiana per il cuoio capelluto con «WNT ON», KY19382 ed esperidina: shampoo, scaler, maschera e tonico. Forniture all'ingrosso dalla Corea con accompagnamento della trattativa tramite Teranova.",
+        "tagline": "Cura domiciliare del cuoio capelluto in quattro passaggi",
+        "about": [
+          "HERIBON è la linea home care quotidiana di CK Regeon, costruita sulla tecnologia proprietaria «WNT ON» con i componenti KY19382 ed esperidina. È pensata per una cura esterna regolare del cuoio capelluto e dei capelli: detersione, rinnovamento e idratazione. Gli studi preclinici descrivono il meccanismo d'azione dei componenti e non confermano l'efficacia clinica dei prodotti finiti.",
+          "La linea è organizzata in quattro passaggi: shampoo da 500 ml per una detersione delicata, scalp scaler da 300 ml per la detersione profonda del cuoio capelluto, maschera per capelli da 250 ml e tonico no-rinse da 50 ml in flacone contagocce. Un assortimento del genere copre l'intero scaffale ed è adatto a catene farmaceutiche e specializzate, saloni e studi di tricologia, marketplace ed e-commerce."
+        ],
+        "itemNotes": [
+          "Shampoo quotidiano WNT ON per una detersione delicata di cuoio capelluto e capelli, che rinfresca e lascia una sensazione di pulizia e leggerezza. Volume 500 ml.",
+          "Scrub esfoliante (peeling) per il cuoio capelluto, per una detersione profonda da impurità e sebo in eccesso prima del trattamento principale. Volume 300 ml.",
+          "Maschera trattante WNT ON che ammorbidisce, idrata e facilita la pettinabilità, donando ai capelli una sensazione di corposità. Volume 250 ml.",
+          "Tonico leave-in per il cuoio capelluto WNT ON in pratico flacone con contagocce per la cura quotidiana, che rinfresca e idrata il cuoio capelluto. Volume 50 ml."
+        ]
+      },
+      "de": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — tägliche Pflege · Teranova",
+        "seoDesc": "HERIBON (WNT ON) von CK Regeon — Heimserie für die tägliche Kopfhautpflege mit der Technologie «WNT ON», KY19382 und Hesperidin: Shampoo, Scalp Scaler, Haarmaske und Tonikum. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Kopfhautpflege für zu Hause in vier Schritten",
+        "about": [
+          "HERIBON ist die Heimserie von CK Regeon für die tägliche Pflege, aufgebaut auf der eigenen Technologie «WNT ON» mit den Komponenten KY19382 und Hesperidin. Sie ist auf die regelmäßige äußerliche Pflege von Kopfhaut und Haar ausgelegt: Reinigung, Erneuerung und Feuchtigkeit. Präklinische Studien beschreiben den Wirkmechanismus der Komponenten und bestätigen nicht die klinische Wirksamkeit der fertigen Produkte.",
+          "Die Serie ist in vier Schritten aufgebaut: Shampoo 500 ml für die sanfte Reinigung, Scalp Scaler 300 ml für die Tiefenreinigung der Kopfhaut, Haarpflegemaske 250 ml und ein Leave-in-Tonikum 50 ml in der Tropfflasche. Ein solches Set deckt das Regal vollständig ab und passt zu Apotheken- und Fachhandelsketten, zu Salons und trichologischen Studios, zu Marktplätzen und E-Commerce."
+        ],
+        "itemNotes": [
+          "Tägliches WNT ON Shampoo zur sanften Reinigung von Kopfhaut und Haar, das erfrischt und ein sauberes, leichtes Gefühl hinterlässt. Volumen 500 ml.",
+          "Scalp Scaler (Peeling) zur Tiefenreinigung der Kopfhaut von Verunreinigungen und überschüssigem Talg vor der eigentlichen Pflege. Volumen 300 ml.",
+          "WNT ON Haarpflegemaske, die das Haar geschmeidig macht, mit Feuchtigkeit versorgt, die Kämmbarkeit erleichtert und ein Gefühl von Fülle verleiht. Volumen 250 ml.",
+          "Leave-in Kopfhaut-Tonikum WNT ON in einer praktischen Tropfflasche für die tägliche Pflege, das die Kopfhaut erfrischt und mit Feuchtigkeit versorgt. Volumen 50 ml."
+        ]
+      },
+      "fr": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — soin quotidien · Teranova",
+        "seoDesc": "HERIBON (WNT ON) de CK Regeon — gamme maison de soin quotidien du cuir chevelu sur la technologie « WNT ON » avec KY19382 et hespéridine : shampooing, scalp scaler, masque et tonique. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Soin du cuir chevelu à domicile en quatre étapes",
+        "about": [
+          "HERIBON est la gamme maison de soin quotidien de CK Regeon, construite sur la technologie propriétaire « WNT ON » avec les composants KY19382 et hespéridine. Elle est pensée pour le soin externe régulier du cuir chevelu et des cheveux : nettoyage, renouvellement et hydratation. Les études précliniques décrivent le mécanisme d'action des composants et ne confirment pas l'efficacité clinique des produits finis.",
+          "La gamme s'organise en quatre étapes : shampooing 500 ml pour un nettoyage doux, scalp scaler 300 ml pour le nettoyage en profondeur du cuir chevelu, masque soin cheveux 250 ml et tonique sans rinçage 50 ml en flacon compte-gouttes. Cet ensemble couvre le linéaire en entier et convient aux réseaux de pharmacies et de magasins spécialisés, aux salons et studios de trichologie, aux marketplaces et à l'e-commerce."
+        ],
+        "itemNotes": [
+          "Shampooing quotidien WNT ON pour un nettoyage doux du cuir chevelu et des cheveux, qui rafraîchit et laisse une sensation de propreté et de légèreté. Volume 500 ml.",
+          "Gommage exfoliant (peeling) du cuir chevelu pour un nettoyage en profondeur des impuretés et de l'excès de sébum avant le soin principal. Volume 300 ml.",
+          "Masque soin WNT ON qui assouplit, hydrate et facilite le démêlage tout en apportant aux cheveux une sensation de densité. Volume 250 ml.",
+          "Tonique sans rinçage pour cuir chevelu WNT ON en flacon compte-gouttes pratique pour un soin quotidien, qui rafraîchit et hydrate le cuir chevelu. Volume 50 ml."
+        ]
+      },
+      "tr": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — günlük bakım · Teranova",
+        "seoDesc": "CK Regeon imzalı HERIBON (WNT ON) — KY19382 ve hesperidin içeren «WNT ON» teknolojisiyle günlük ev tipi saç derisi bakım serisi: şampuan, skalp skaler, saç maskesi ve tonik. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Dört adımda ev tipi saç derisi bakımı",
+        "about": [
+          "HERIBON, CK Regeon'un KY19382 ve hesperidin bileşenli kendi «WNT ON» teknolojisi üzerine kurulu günlük ev tipi bakım serisidir. Saç derisi ve saçlar için düzenli harici bakıma yöneliktir: temizleme, yenileme ve nemlendirme. Klinik öncesi çalışmalar bileşenlerin etki mekanizmasını tanımlar, bitmiş ürünlerin klinik etkinliğini doğrulamaz.",
+          "Seri dört adımdan oluşur: nazik temizlik için 500 ml şampuan, saç derisinin derin temizliği için 300 ml skalp skaler, 250 ml saç bakım maskesi ve damlalıklı şişede 50 ml durulanmayan tonik. Bu set rafın tamamını kapatır; eczane ve ihtisas zincirleri, salonlar ve trikoloji stüdyoları, pazar yerleri ve e-ticaret için uygundur."
+        ],
+        "itemNotes": [
+          "Saç derisini ve saçları nazikçe temizleyen, ferahlatan ve temiz, hafif bir his bırakan WNT ON günlük şampuanı. Hacim 500 ml.",
+          "Asıl bakımdan önce saç derisini kir ve fazla sebumdan derinlemesine temizleyen saç derisi peelingi (scaler). Hacim 300 ml.",
+          "Saçı yumuşatan, nemlendiren, taranmasını kolaylaştıran ve dolgunluk hissi veren WNT ON saç bakım maskesi. Hacim 250 ml.",
+          "Günlük bakım için pratik damlalıklı şişede sunulan, saç derisini ferahlatan ve nemlendiren WNT ON durulanmayan saç derisi toniği. Hacim 50 ml."
+        ]
+      },
+      "es": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — cuidado diario · Teranova",
+        "seoDesc": "HERIBON (WNT ON) de CK Regeon es la línea de uso doméstico para el cuidado diario del cuero cabelludo con KY19382 y hesperidina: champú, exfoliante, mascarilla y tónico. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Cuidado del cuero cabelludo en casa, en cuatro pasos",
+        "about": [
+          "HERIBON es la línea de uso doméstico de CK Regeon, basada en la tecnología propia «WNT ON» con los componentes KY19382 y hesperidina. Está pensada para el cuidado externo regular del cuero cabelludo y del cabello: limpieza, renovación e hidratación. Los estudios preclínicos describen el mecanismo de acción de los componentes, no la eficacia de los productos terminados.",
+          "La línea se organiza en cuatro pasos: champú de 500 ml para una limpieza suave, exfoliante capilar de 300 ml para una limpieza profunda del cuero cabelludo, mascarilla de tratamiento de 250 ml y tónico sin aclarado de 50 ml en frasco con cuentagotas. Un conjunto así cubre el lineal entero y encaja en cadenas de farmacia y especializadas, salones y estudios de tricología, marketplaces y comercio electrónico."
+        ],
+        "itemNotes": [
+          "Champú diario WNT ON para una limpieza suave del cuero cabelludo y el cabello, que refresca y deja una sensación de limpieza y ligereza. Volumen 500 ml.",
+          "Exfoliante (peeling) para el cuero cabelludo que limpia en profundidad las impurezas y el exceso de sebo antes del cuidado principal. Volumen 300 ml.",
+          "Mascarilla de tratamiento WNT ON que suaviza, hidrata y facilita el peinado, aportando al cabello una sensación de densidad. Volumen 250 ml.",
+          "Tónico sin aclarado para el cuero cabelludo WNT ON en un práctico frasco con cuentagotas para el cuidado diario, que refresca e hidrata el cuero cabelludo. Volumen 50 ml."
+        ]
+      },
+      "pt": {
+        "seoTitle": "HERIBON WNT ON (CK Regeon) — rotina diária · Teranova",
+        "seoDesc": "HERIBON (WNT ON), da CK Regeon, é a linha caseira de cuidado diário do couro cabeludo com KY19382 e hesperidina: xampu, esfoliante, máscara de tratamento e tônico. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Rotina caseira para o couro cabeludo em quatro etapas",
+        "about": [
+          "HERIBON é a linha caseira de cuidado diário da CK Regeon, apoiada na tecnologia própria «WNT ON», com os componentes KY19382 e hesperidina. Foi pensada para o cuidado externo regular do couro cabeludo e dos fios: limpeza, renovação e hidratação. Os estudos pré-clínicos descrevem o mecanismo de ação dos componentes, e não a eficácia dos produtos acabados.",
+          "A linha está montada em quatro etapas: xampu de 500 ml para uma limpeza delicada, esfoliante de 300 ml para a limpeza profunda do couro cabeludo, máscara de tratamento de 250 ml e tônico sem enxágue de 50 ml em frasco conta-gotas. Esse conjunto ocupa a prateleira inteira e serve a redes de farmácia e lojas especializadas, salões e estúdios de tricologia, marketplaces e e-commerce."
+        ],
+        "itemNotes": [
+          "Shampoo diário WNT ON para uma limpeza suave do couro cabeludo e dos cabelos, que refresca e deixa uma sensação de limpeza e leveza. Volume 500 ml.",
+          "Esfoliante (peeling) para o couro cabeludo que limpa profundamente as impurezas e o excesso de sebo antes do cuidado principal. Volume 300 ml.",
+          "Máscara de tratamento WNT ON que amacia, hidrata e facilita o pentear, proporcionando aos cabelos uma sensação de densidade. Volume 250 ml.",
+          "Tônico leave-in para o couro cabeludo WNT ON em um prático frasco conta-gotas para o cuidado diário, que refresca e hidrata o couro cabeludo. Volume 50 ml."
+        ]
+      }
+    }
   }
- },
- {
-  "slug": "heribon-wnt-on",
-  "supplierSlug": "ck-regeon",
-  "category": "cosmetics",
-  "lineName": "HERIBON (WNT ON)",
-  "items": [
-   {
-    "name": "HERIBON WNT ON Shampoo",
-    "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-shampoo.jpg",
-    "volume": "500 ml",
-    "certs": []
-   },
-   {
-    "name": "HERIBON WNT ON Scalp Scaler",
-    "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-scalp-scaler.jpg",
-    "volume": "300 ml",
-    "certs": []
-   },
-   {
-    "name": "HERIBON WNT ON Hair Treatment",
-    "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-hair-treatment.jpg",
-    "volume": "250 ml",
-    "certs": []
-   },
-   {
-    "name": "HERIBON WNT ON Hair Tonic",
-    "img": "/img/suppliers/ck-regeon/products/heribon-wnt-on-hair-tonic.jpg",
-    "volume": "50 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — ежедневный уход · Teranova",
-    "seoDesc": "HERIBON (WNT ON) от CK Regeon — домашняя линия ежедневного ухода за кожей головы на технологии «WNT ON» с KY19382 и гесперидином: шампунь, скальп-скалер, маска-уход и тоник. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Домашний уход за кожей головы в четыре шага",
-    "about": [
-     "HERIBON — домашняя линия ежедневного ухода CK Regeon, построенная на собственной технологии «WNT ON» с компонентами KY19382 и гесперидином. Она рассчитана на регулярный наружный уход за кожей головы и волосами: очищение, обновление и увлажнение. Доклинические исследования описывают механизм действия компонентов, а не подтверждают клиническую эффективность готовых продуктов.",
-     "Линия собрана в четыре шага: шампунь 500 мл для бережного очищения, скальп-скалер 300 мл для глубокого очищения кожи головы, маска-уход для волос 250 мл и несмываемый тоник 50 мл во флаконе-капельнице. Такой набор закрывает полку целиком и подходит аптечным и специализированным сетям, салонам и студиям трихологии, маркетплейсам и e-commerce."
-    ],
-    "itemNotes": [
-     "Ежедневный шампунь линии «WNT ON» для бережного очищения кожи головы и волос. Освежает, поддерживает ощущение чистоты и лёгкости. Объём 500 мл.",
-     "Скальп-скалер (пилинг) для глубокого очищения кожи головы от загрязнений и излишков себума перед основным уходом. Объём 300 мл.",
-     "Уход-маска для волос линии «WNT ON»: смягчает, увлажняет и облегчает расчёсывание, придаёт волосам ощущение плотности. Объём 250 мл.",
-     "Несмываемый тоник для кожи головы линии «WNT ON» в удобном флаконе-капельнице для ежедневного ухода. Освежает и увлажняет кожу головы. Объём 50 мл."
-    ]
-   },
-   "en": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — daily care · Teranova",
-    "seoDesc": "HERIBON (WNT ON) by CK Regeon — a home line of daily scalp care on the “WNT ON” technology with KY19382 and hesperidin: shampoo, scalp scaler, hair mask and tonic. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Home scalp care in four steps",
-    "about": [
-     "HERIBON is CK Regeon's home line of daily care, built on the company's own “WNT ON” technology with KY19382 and hesperidin. It is designed for regular topical care of the scalp and hair: cleansing, renewal and hydration. Preclinical studies describe the mechanism of action of the ingredients rather than confirming the clinical efficacy of the finished products.",
-     "The line is assembled in four steps: a 500 ml shampoo for gentle cleansing, a 300 ml scalp scaler for deep scalp cleansing, a 250 ml hair mask and a 50 ml leave-in tonic in a dropper bottle. Such a set covers a whole shelf and suits pharmacy and specialist chains, salons and trichology studios, marketplaces and e-commerce."
-    ],
-    "itemNotes": [
-     "Daily WNT ON shampoo for gentle cleansing of the scalp and hair, refreshing and leaving a clean, lightweight feel. Volume 500 ml.",
-     "Scalp scaler (exfoliating peel) for deep cleansing of the scalp from impurities and excess sebum before the main care routine. Volume 300 ml.",
-     "WNT ON hair treatment mask that softens, hydrates and eases combing while giving hair a fuller feel. Volume 250 ml.",
-     "Leave-in WNT ON scalp tonic in a convenient dropper bottle for daily care, refreshing and hydrating the scalp. Volume 50 ml."
-    ]
-   },
-   "ko": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — 데일리 케어 · Teranova",
-    "seoDesc": "CK Regeon의 HERIBON (WNT ON) — KY19382와 헤스페리딘을 담은 “WNT ON” 기술 기반의 홈 데일리 두피 케어 라인: 샴푸 500ml, 스칼프 스케일러 300ml, 헤어 마스크 250ml, 리브온 토닉 50ml. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "네 단계로 완성하는 홈 두피 케어",
-    "about": [
-     "HERIBON은 KY19382와 헤스페리딘을 담은 자체 기술 “WNT ON”을 기반으로 한 CK Regeon의 홈 데일리 케어 라인입니다. 두피와 모발의 꾸준한 외용 케어 — 세정, 리뉴얼, 보습 — 를 위해 설계되었습니다. 전임상 연구는 성분의 작용 메커니즘을 설명할 뿐, 완제품의 임상적 유효성을 확인해 주지는 않습니다.",
-     "라인은 네 단계로 구성됩니다: 부드러운 세정을 위한 샴푸 500ml, 두피 딥클렌징용 스칼프 스케일러 300ml, 헤어 마스크 250ml, 그리고 드로퍼 보틀에 담긴 리브온 토닉 50ml. 이 구성은 매대를 통째로 채울 수 있어 약국·전문 체인, 살롱과 두피 전문 스튜디오, 마켓플레이스와 이커머스에 적합합니다."
-    ],
-    "itemNotes": [
-     "두피와 모발을 부드럽게 세정하는 WNT ON 데일리 샴푸로, 상쾌하게 헹구어 깨끗하고 가벼운 느낌을 남깁니다. 용량 500 ml.",
-     "본격 케어 전 두피의 노폐물과 과잉 피지를 깊이 세정하는 스캘프 스케일러（필링）입니다. 용량 300 ml.",
-     "모발을 부드럽게 하고 수분을 공급하며 빗질을 돕고 밀도감을 부여하는 WNT ON 헤어 트리트먼트 마스크. 용량 250 ml.",
-     "간편한 드로퍼 용기에 담긴 WNT ON 리브인 두피 토닉으로, 두피에 수분을 공급하고 상쾌하게 가꾸는 데일리 케어 제품입니다. 용량 50 ml."
-    ]
-   },
-   "zh": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — 日常头皮护理 · Teranova",
-    "seoDesc": "CK Regeon 旗下 HERIBON (WNT ON) — 采用「WNT ON」技术、含 KY19382 与橙皮苷的家用日常头皮护理系列：洗发水、头皮去角质、发膜与头皮水。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "四步完成的家用头皮护理",
-    "about": [
-     "HERIBON 是 CK Regeon 的家用日常护理系列，基于含 KY19382 与橙皮苷的自有技术「WNT ON」。它面向头皮与头发的日常外用护理：清洁、焕新与保湿。现有研究仅说明成分的作用机制，并不构成对成品实际效果的确认。",
-     "系列按四个步骤组合：500 毫升洗发水用于温和清洁，300 毫升头皮去角质用于头皮深层清洁，250 毫升发膜，以及 50 毫升免洗头皮水（滴管瓶）。这样一套可以覆盖整个货架，适合药妆与专业连锁、沙龙与毛发护理工作室，以及电商平台与线上零售。"
-    ],
-    "itemNotes": [
-     "WNT ON日常洗发露，温和清洁头皮与发丝，令头皮清爽，保持洁净轻盈的感受。容量500 ml。",
-     "头皮清洁磨砂（去角质）产品，在正式护理前深层清洁头皮的污垢与多余油脂。容量300 ml。",
-     "WNT ON护发发膜，柔顺、滋润并易于梳理，赋予秀发丰盈感受。容量250 ml。",
-     "采用便捷滴管瓶的WNT ON免洗头皮爽肤液，日常清爽并滋润头皮。容量50 ml。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — 毎日の頭皮ケア · Teranova",
-    "seoDesc": "CK Regeon の HERIBON (WNT ON) — KY19382 とヘスペリジンを配合した独自技術「WNT ON」による、ホームケア向けの毎日の頭皮ケアライン：シャンプー、スカルプスケーラー、ヘアマスク、トナー。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "4ステップのホーム頭皮ケア",
-    "about": [
-     "HERIBON は、KY19382 とヘスペリジンを配合した独自技術「WNT ON」に基づく CK Regeon のホームケア向け日常ラインです。頭皮と髪の日々の外用ケア——洗浄、リフレッシュ、うるおい——を想定しています。既存の研究は成分の作用メカニズムを説明するものであり、完成品の効果を裏づけるものではありません。",
-     "ラインは4ステップで構成されます：やさしい洗浄のためのシャンプー 500 mL、頭皮のディープクレンジング用スカルプスケーラー 300 mL、ヘアマスク 250 mL、そしてスポイトボトル入りの洗い流さないトナー 50 mL。この構成で棚を丸ごとカバーでき、ドラッグストアや専門チェーン、サロンや毛髪ケア専門スタジオ、マーケットプレイスや EC に適しています。"
-    ],
-    "itemNotes": [
-     "頭皮と髪をやさしく洗い上げるWNT ONデイリーシャンプー。すっきりと洗い流し、清潔で軽やかな感触を保ちます。容量500 ml。",
-     "本格ケアの前に、頭皮の汚れや余分な皮脂を深く洗浄するスカルプスケーラー（ピーリング）。容量300 ml。",
-     "髪をやわらかく整え、うるおいを与え、指通りをなめらかにし、ハリ感を与えるWNT ONヘアトリートメントマスク。容量250 ml。",
-     "使いやすいドロッパーボトル入りのWNT ON洗い流さないスカルプトニック。頭皮にうるおいを与え、爽やかに整えるデイリーケア。容量50 ml。"
-    ]
-   },
-   "it": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — uso quotidiano · Teranova",
-    "seoDesc": "HERIBON (WNT ON) di CK Regeon — linea home care quotidiana per il cuoio capelluto con «WNT ON», KY19382 ed esperidina: shampoo, scaler, maschera e tonico. Forniture all'ingrosso dalla Corea con accompagnamento della trattativa tramite Teranova.",
-    "tagline": "Cura domiciliare del cuoio capelluto in quattro passaggi",
-    "about": [
-     "HERIBON è la linea home care quotidiana di CK Regeon, costruita sulla tecnologia proprietaria «WNT ON» con i componenti KY19382 ed esperidina. È pensata per una cura esterna regolare del cuoio capelluto e dei capelli: detersione, rinnovamento e idratazione. Gli studi preclinici descrivono il meccanismo d'azione dei componenti e non confermano l'efficacia clinica dei prodotti finiti.",
-     "La linea è organizzata in quattro passaggi: shampoo da 500 ml per una detersione delicata, scalp scaler da 300 ml per la detersione profonda del cuoio capelluto, maschera per capelli da 250 ml e tonico no-rinse da 50 ml in flacone contagocce. Un assortimento del genere copre l'intero scaffale ed è adatto a catene farmaceutiche e specializzate, saloni e studi di tricologia, marketplace ed e-commerce."
-    ],
-    "itemNotes": [
-     "Shampoo quotidiano WNT ON per una detersione delicata di cuoio capelluto e capelli, che rinfresca e lascia una sensazione di pulizia e leggerezza. Volume 500 ml.",
-     "Scrub esfoliante (peeling) per il cuoio capelluto, per una detersione profonda da impurità e sebo in eccesso prima del trattamento principale. Volume 300 ml.",
-     "Maschera trattante WNT ON che ammorbidisce, idrata e facilita la pettinabilità, donando ai capelli una sensazione di corposità. Volume 250 ml.",
-     "Tonico leave-in per il cuoio capelluto WNT ON in pratico flacone con contagocce per la cura quotidiana, che rinfresca e idrata il cuoio capelluto. Volume 50 ml."
-    ]
-   },
-   "de": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — tägliche Pflege · Teranova",
-    "seoDesc": "HERIBON (WNT ON) von CK Regeon — Heimserie für die tägliche Kopfhautpflege mit der Technologie «WNT ON», KY19382 und Hesperidin: Shampoo, Scalp Scaler, Haarmaske und Tonikum. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Kopfhautpflege für zu Hause in vier Schritten",
-    "about": [
-     "HERIBON ist die Heimserie von CK Regeon für die tägliche Pflege, aufgebaut auf der eigenen Technologie «WNT ON» mit den Komponenten KY19382 und Hesperidin. Sie ist auf die regelmäßige äußerliche Pflege von Kopfhaut und Haar ausgelegt: Reinigung, Erneuerung und Feuchtigkeit. Präklinische Studien beschreiben den Wirkmechanismus der Komponenten und bestätigen nicht die klinische Wirksamkeit der fertigen Produkte.",
-     "Die Serie ist in vier Schritten aufgebaut: Shampoo 500 ml für die sanfte Reinigung, Scalp Scaler 300 ml für die Tiefenreinigung der Kopfhaut, Haarpflegemaske 250 ml und ein Leave-in-Tonikum 50 ml in der Tropfflasche. Ein solches Set deckt das Regal vollständig ab und passt zu Apotheken- und Fachhandelsketten, zu Salons und trichologischen Studios, zu Marktplätzen und E-Commerce."
-    ],
-    "itemNotes": [
-     "Tägliches WNT ON Shampoo zur sanften Reinigung von Kopfhaut und Haar, das erfrischt und ein sauberes, leichtes Gefühl hinterlässt. Volumen 500 ml.",
-     "Scalp Scaler (Peeling) zur Tiefenreinigung der Kopfhaut von Verunreinigungen und überschüssigem Talg vor der eigentlichen Pflege. Volumen 300 ml.",
-     "WNT ON Haarpflegemaske, die das Haar geschmeidig macht, mit Feuchtigkeit versorgt, die Kämmbarkeit erleichtert und ein Gefühl von Fülle verleiht. Volumen 250 ml.",
-     "Leave-in Kopfhaut-Tonikum WNT ON in einer praktischen Tropfflasche für die tägliche Pflege, das die Kopfhaut erfrischt und mit Feuchtigkeit versorgt. Volumen 50 ml."
-    ]
-   },
-   "fr": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — soin quotidien · Teranova",
-    "seoDesc": "HERIBON (WNT ON) de CK Regeon — gamme maison de soin quotidien du cuir chevelu sur la technologie « WNT ON » avec KY19382 et hespéridine : shampooing, scalp scaler, masque et tonique. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Soin du cuir chevelu à domicile en quatre étapes",
-    "about": [
-     "HERIBON est la gamme maison de soin quotidien de CK Regeon, construite sur la technologie propriétaire « WNT ON » avec les composants KY19382 et hespéridine. Elle est pensée pour le soin externe régulier du cuir chevelu et des cheveux : nettoyage, renouvellement et hydratation. Les études précliniques décrivent le mécanisme d'action des composants et ne confirment pas l'efficacité clinique des produits finis.",
-     "La gamme s'organise en quatre étapes : shampooing 500 ml pour un nettoyage doux, scalp scaler 300 ml pour le nettoyage en profondeur du cuir chevelu, masque soin cheveux 250 ml et tonique sans rinçage 50 ml en flacon compte-gouttes. Cet ensemble couvre le linéaire en entier et convient aux réseaux de pharmacies et de magasins spécialisés, aux salons et studios de trichologie, aux marketplaces et à l'e-commerce."
-    ],
-    "itemNotes": [
-     "Shampooing quotidien WNT ON pour un nettoyage doux du cuir chevelu et des cheveux, qui rafraîchit et laisse une sensation de propreté et de légèreté. Volume 500 ml.",
-     "Gommage exfoliant (peeling) du cuir chevelu pour un nettoyage en profondeur des impuretés et de l'excès de sébum avant le soin principal. Volume 300 ml.",
-     "Masque soin WNT ON qui assouplit, hydrate et facilite le démêlage tout en apportant aux cheveux une sensation de densité. Volume 250 ml.",
-     "Tonique sans rinçage pour cuir chevelu WNT ON en flacon compte-gouttes pratique pour un soin quotidien, qui rafraîchit et hydrate le cuir chevelu. Volume 50 ml."
-    ]
-   },
-   "tr": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — günlük bakım · Teranova",
-    "seoDesc": "CK Regeon imzalı HERIBON (WNT ON) — KY19382 ve hesperidin içeren «WNT ON» teknolojisiyle günlük ev tipi saç derisi bakım serisi: şampuan, skalp skaler, saç maskesi ve tonik. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Dört adımda ev tipi saç derisi bakımı",
-    "about": [
-     "HERIBON, CK Regeon'un KY19382 ve hesperidin bileşenli kendi «WNT ON» teknolojisi üzerine kurulu günlük ev tipi bakım serisidir. Saç derisi ve saçlar için düzenli harici bakıma yöneliktir: temizleme, yenileme ve nemlendirme. Klinik öncesi çalışmalar bileşenlerin etki mekanizmasını tanımlar, bitmiş ürünlerin klinik etkinliğini doğrulamaz.",
-     "Seri dört adımdan oluşur: nazik temizlik için 500 ml şampuan, saç derisinin derin temizliği için 300 ml skalp skaler, 250 ml saç bakım maskesi ve damlalıklı şişede 50 ml durulanmayan tonik. Bu set rafın tamamını kapatır; eczane ve ihtisas zincirleri, salonlar ve trikoloji stüdyoları, pazar yerleri ve e-ticaret için uygundur."
-    ],
-    "itemNotes": [
-     "Saç derisini ve saçları nazikçe temizleyen, ferahlatan ve temiz, hafif bir his bırakan WNT ON günlük şampuanı. Hacim 500 ml.",
-     "Asıl bakımdan önce saç derisini kir ve fazla sebumdan derinlemesine temizleyen saç derisi peelingi (scaler). Hacim 300 ml.",
-     "Saçı yumuşatan, nemlendiren, taranmasını kolaylaştıran ve dolgunluk hissi veren WNT ON saç bakım maskesi. Hacim 250 ml.",
-     "Günlük bakım için pratik damlalıklı şişede sunulan, saç derisini ferahlatan ve nemlendiren WNT ON durulanmayan saç derisi toniği. Hacim 50 ml."
-    ]
-   },
-   "es": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — cuidado diario · Teranova",
-    "seoDesc": "HERIBON (WNT ON) de CK Regeon es la línea de uso doméstico para el cuidado diario del cuero cabelludo con KY19382 y hesperidina: champú, exfoliante, mascarilla y tónico. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Cuidado del cuero cabelludo en casa, en cuatro pasos",
-    "about": [
-     "HERIBON es la línea de uso doméstico de CK Regeon, basada en la tecnología propia «WNT ON» con los componentes KY19382 y hesperidina. Está pensada para el cuidado externo regular del cuero cabelludo y del cabello: limpieza, renovación e hidratación. Los estudios preclínicos describen el mecanismo de acción de los componentes, no la eficacia de los productos terminados.",
-     "La línea se organiza en cuatro pasos: champú de 500 ml para una limpieza suave, exfoliante capilar de 300 ml para una limpieza profunda del cuero cabelludo, mascarilla de tratamiento de 250 ml y tónico sin aclarado de 50 ml en frasco con cuentagotas. Un conjunto así cubre el lineal entero y encaja en cadenas de farmacia y especializadas, salones y estudios de tricología, marketplaces y comercio electrónico."
-    ],
-    "itemNotes": [
-     "Champú diario WNT ON para una limpieza suave del cuero cabelludo y el cabello, que refresca y deja una sensación de limpieza y ligereza. Volumen 500 ml.",
-     "Exfoliante (peeling) para el cuero cabelludo que limpia en profundidad las impurezas y el exceso de sebo antes del cuidado principal. Volumen 300 ml.",
-     "Mascarilla de tratamiento WNT ON que suaviza, hidrata y facilita el peinado, aportando al cabello una sensación de densidad. Volumen 250 ml.",
-     "Tónico sin aclarado para el cuero cabelludo WNT ON en un práctico frasco con cuentagotas para el cuidado diario, que refresca e hidrata el cuero cabelludo. Volumen 50 ml."
-    ]
-   },
-   "pt": {
-    "seoTitle": "HERIBON WNT ON (CK Regeon) — rotina diária · Teranova",
-    "seoDesc": "HERIBON (WNT ON), da CK Regeon, é a linha caseira de cuidado diário do couro cabeludo com KY19382 e hesperidina: xampu, esfoliante, máscara de tratamento e tônico. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Rotina caseira para o couro cabeludo em quatro etapas",
-    "about": [
-     "HERIBON é a linha caseira de cuidado diário da CK Regeon, apoiada na tecnologia própria «WNT ON», com os componentes KY19382 e hesperidina. Foi pensada para o cuidado externo regular do couro cabeludo e dos fios: limpeza, renovação e hidratação. Os estudos pré-clínicos descrevem o mecanismo de ação dos componentes, e não a eficácia dos produtos acabados.",
-     "A linha está montada em quatro etapas: xampu de 500 ml para uma limpeza delicada, esfoliante de 300 ml para a limpeza profunda do couro cabeludo, máscara de tratamento de 250 ml e tônico sem enxágue de 50 ml em frasco conta-gotas. Esse conjunto ocupa a prateleira inteira e serve a redes de farmácia e lojas especializadas, salões e estúdios de tricologia, marketplaces e e-commerce."
-    ],
-    "itemNotes": [
-     "Shampoo diário WNT ON para uma limpeza suave do couro cabeludo e dos cabelos, que refresca e deixa uma sensação de limpeza e leveza. Volume 500 ml.",
-     "Esfoliante (peeling) para o couro cabeludo que limpa profundamente as impurezas e o excesso de sebo antes do cuidado principal. Volume 300 ml.",
-     "Máscara de tratamento WNT ON que amacia, hidrata e facilita o pentear, proporcionando aos cabelos uma sensação de densidade. Volume 250 ml.",
-     "Tônico leave-in para o couro cabeludo WNT ON em um prático frasco conta-gotas para o cuidado diário, que refresca e hidrata o couro cabeludo. Volume 50 ml."
-    ]
-   }
-  }
- }
 ]

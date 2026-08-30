@@ -1,0 +1,19 @@
+---
+/* Supplier profile: biopt (default locale, ru). VENDERMA by BIOPT Co., Ltd. —
+   published with the company's written consent of 18 August 2026. Personal
+   visit to the office on 13 August 2026, hence status 'visited'. The export
+   price list is confidential by that same consent and is never published. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('biopt')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

@@ -1,130 +1,131 @@
 {
- "content": {
-  "tagline": "Un panneau sale perd jusqu'aux deux tiers de sa production. Le robot la rend",
-  "descriptor": "Fabricant chinois de robots et de brosses pour le nettoyage de panneaux solaires ; usine en propre, statut national de haute technologie",
-  "origin": "Chine",
-  "about": [
-   "BeiJing Multifit Electrical Technology Co., Ltd. fabrique des équipements de nettoyage pour panneaux solaires. Siège à Pékin, usine à Shantou (Guangdong), filiales à Shenzhen et au Sichuan. L'entreprise détient le statut national de haute technologie et opère sous la marque MULTIFIT.",
-   "Le problème que règle cet équipement se mesure en argent. Poussière, fientes d'oiseaux et particules de rouille ramènent la production d'un panneau à 20–36 % du nominal ; après nettoyage, le rendement revient à 90–95 % et redescend si l'entretien s'arrête. Au-delà de la production perdue, l'encrassement est dangereux physiquement : la zone ombrée surchauffe, des points chauds apparaissent, le panneau se dégrade et peut brûler. Nettoyer n'est donc pas cosmétique : cela prolonge la vie de la centrale.",
-   "La gamme se divise en deux. Robots : la série MR-G pour rangées simples et doubles, les séries MR-T1 et MR-XY, et le chariot de transport MR-AR qui déplace le robot d'une rangée à l'autre. Les brosses MULR — du modèle manuel à la version entraînée par l'eau — couvrent les endroits où le robot est de trop. Pour chaque modèle, l'entreprise fournit un calcul de rendement : surface nettoyée par heure, cadence journalière et temps nécessaire pour un champ de taille donnée."
-  ],
-  "facts": [
-   "Statut national de haute technologie ; siège à Pékin, usine en propre à Shantou",
-   "Robots MR-G, MR-T1 et MR-XY, plus le chariot MR-AR pour passer d'une rangée à l'autre",
-   "Gamme de brosses MULR, dont une version entraînée par l'eau",
-   "L'encrassement ramène la production du panneau à 20–36 % ; après nettoyage le rendement revient à 90–95 %",
-   "Chaque modèle est livré avec son calcul : m² par heure, cadence journalière, temps pour un champ donné"
-  ],
-  "channels": [
-   "Propriétaires et exploitants de centrales solaires",
-   "Prestataires d'exploitation et de maintenance (O&M)",
-   "Entreprises EPC et intégrateurs solaires",
-   "Distributeurs d'équipements pour l'énergie"
-  ],
-  "lines": [
-   {
-    "name": "MR-G — robots pour rangées de panneaux",
-    "note": "La série de base, en versions rangée simple et rangée double. Vitesse de déplacement d'environ 12 m/min ; débit et cadence journalière calculés pour le champ concerné."
-   },
-   {
-    "name": "MR-T1 / MR-XY",
-    "note": "Séries de robots pour d'autres configurations de centrale, avec largeur de travail et mode de fonctionnement différents ; le choix suit la géométrie du champ."
-   },
-   {
-    "name": "MR-AR — chariot de transport",
-    "note": "Transporte le robot entre les rangées et supprime le repositionnement manuel. Utile là où les rangées sont nombreuses et éloignées."
-   },
-   {
-    "name": "MULR — brosses de nettoyage",
-    "note": "Gamme de brosses, du modèle manuel à la version entraînée par l'eau. La réponse pour les zones où le robot est excessif ou n'accède pas."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Fabrication en propre",
-    "note": "Usine à Shantou, Guangdong ; siège à Pékin, filiales à Shenzhen et au Sichuan. Statut national de haute technologie."
-   },
-   {
-    "name": "Calcul pour la centrale concernée",
-    "note": "L'entreprise ne donne pas de caractéristiques dans l'abstrait mais un débit sur le champ du client : surface par heure, cadence journalière, durée d'un cycle complet."
-   },
-   {
-    "name": "Rapports d'essai et certificats",
-    "note": "Les documents de l'entreprise comprennent des rapports d'essai et des certificats ; la liste exacte est fournie sur demande au stade de la transaction."
-   }
-  ],
-  "formats": [
-   "Robots de nettoyage de panneaux solaires",
-   "Chariots de transport entre rangées",
-   "Brosses de nettoyage manuel et semi-automatique",
-   "Pièces de rechange et consommables",
-   "Unités de démonstration pour essais"
-  ],
-  "exportNote": "L'entreprise exporte et fournit des cotations complètes par modèle. Livraison en EXW ou FOB ; logistique, douane et accompagnement de l'opération coordonnés par Teranova. L'unité de démonstration se discute à part.",
-  "terms": [
-   {
-    "label": "Formes de coopération",
-    "value": "Fourniture d'équipements ; choix du modèle selon la configuration de la centrale ; pièces et consommables"
-   },
-   {
-    "label": "Conditions de livraison",
-    "value": "EXW ou FOB ; logistique et douane coordonnées par Teranova"
-   },
-   {
-    "label": "Documents",
-    "value": "Licence d'exploitation, brochure de qualifications, rapports d'essai — fournis par l'entreprise"
-   },
-   {
-    "label": "Matériaux",
-    "value": "Catalogues robots et brosses et cotations par modèle reçus du fabricant en juin 2026"
-   }
-  ],
-  "consentNote": "Données et documents fournis par BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Les chiffres de rendement sont repris des documents de l'entreprise. Prix et conditions se confirment au stade de la transaction via Teranova.",
-  "seoTitle": "MULTIFIT — robots de nettoyage de panneaux solaires depuis la Chine · Teranova",
-  "seoDesc": "BeiJing Multifit est un fabricant chinois de robots MR-G, MR-T1 et MR-XY et de brosses MULR pour le nettoyage de panneaux solaires. Usine en propre, débit calculé pour votre champ, fourniture EXW/FOB via Teranova.",
-  "catalog_notes": [
-   "Robot de première génération circulant le long de la rangée : corps en aluminium, écarts jusqu'à 20 mm, pentes jusqu'à 8°.",
-   "Deuxième génération : huit roues motrices, corps anticorrosion amovible, batterie LFP de 4 000 cycles ; écarts 20 mm, pente 8°, panneaux 990–2384 mm.",
-   "Troisième génération : corps en inox, écarts jusqu'à 50 mm, pentes jusqu'à 20°, tête oscillante et traction intégrale ; télécommande jusqu'à 400 m.",
-   "Variante à double brosse rouleau : nettoie le bord de la rangée PV et convient aux champs assemblés en plusieurs rangées.",
-   "Robot chenillé pour rangées sans ponts : brosse d'un mètre, nettoyage à sec et à l'eau, joints jusqu'à 60 mm, pentes jusqu'à 25°, télécommande 400 m.",
-   "La version entièrement automatique du MR-T1 : algorithmes d'IA et reconnaissance visuelle, planification du trajet et correction d'assiette.",
-   "Robot à course verticale pour champs multirangées jusqu'à 10 m de large ; 8–12 m/min, commande à distance.",
-   "Véhicule de transfert sur rail : déplace le robot d'une rangée à l'autre en deux à trois minutes, environ dix fois plus vite qu'à la main.",
-   "Brosse-raclette manuelle sur perche télescopique de 3,5–7,5 m : deux sorties d'eau, tête à angle réglable ; panneaux, façades vitrées, neige.",
-   "Brosse électrique à tête simple pour petits champs : poils souples, angle de tête ajusté à la pente du panneau.",
-   "Brosse électrique à double tête : deux moteurs, pulvérisation d'eau, disques de 280 mm ; secteur ou batterie, 4–6 heures d'autonomie.",
-   "Deuxième génération de la double tête : moteurs brushless de 170 W, batterie 25,6 V 25 Ah, perches carbone de 3,5–7,5 m.",
-   "Brosse électrique à rouleau : rouleau de 650 mm et 130 mm de diamètre, 400 tr/min, trois sorties d'eau, brosse pare-eau.",
-   "Brosse à rouleau de deuxième génération : 200 W, 420 tr/min, rotation réversible, corps en polycarbonate.",
-   "Brosse hydraulique : fonctionne à la pression du réseau jusqu'à 7 MPa sans électricité ; disques de 125 ou 350 mm, pompe optionnelle de 2,2 kW."
-  ]
- },
- "ui": {
-  "profile_sup": "Profil du fournisseur",
-  "about_h": "À propos de l'entreprise",
-  "for_whom": "Pour qui :",
-  "lines_h": "Gammes de produits",
-  "catalog_h": "Catalogue de produits",
-  "tech_h": "Capacités et production",
-  "products_h": "Produits",
-  "products_note": "MULTIFIT fabrique des robots et des brosses pour le nettoyage des panneaux solaires : matériel pour les centrales et leurs prestataires.",
-  "formats_h": "Formats de produits",
-  "export_h": "Export et marchés",
-  "terms_h": "Conditions de collaboration",
-  "download_btn": "Télécharger les conditions (PDF)",
-  "price_btn": "Télécharger la liste de prix (PDF)",
-  "pres_btn": "Télécharger la présentation (PDF)",
-  "terms_disc": "Les prix et conditions sont indicatifs et précisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés.",
-  "cta_h": "Ce fournisseur vous intéresse ?",
-  "cta_d": "Contactez-nous — Teranova organise la négociation, la vérification et l'accompagnement de la transaction du premier contact à la livraison.",
-  "cta_btn": "Contacter via Teranova",
-  "more": "Ouvrir le profil →",
-  "verified_suppliers": "Fournisseurs vérifiés",
-  "certs_h": "Certificats et enregistrements",
-  "gallery_h": "Le matériel au travail",
-  "gallery_note": "Les photographies des installations et du matériel sont fournies par MULTIFIT. Elles ne proviennent pas d’une visite de notre part : le statut de ce fournisseur est « Informations fournies par l’entreprise ».",
-  "video_h": "Vidéos de l'entreprise",
-  "video_note": "Filmées par MULTIFIT et publiées avec leur autorisation. Les sous-titres à l'écran sont en anglais."
- }
+  "content": {
+    "tagline": "Un panneau sale perd jusqu'aux deux tiers de sa production. Le robot la rend",
+    "descriptor": "Fabricant chinois de robots et de brosses pour le nettoyage de panneaux solaires ; usine en propre, statut national de haute technologie",
+    "origin": "Chine",
+    "about": [
+      "BeiJing Multifit Electrical Technology Co., Ltd. fabrique des équipements de nettoyage pour panneaux solaires. Siège à Pékin, usine à Shantou (Guangdong), filiales à Shenzhen et au Sichuan. L'entreprise détient le statut national de haute technologie et opère sous la marque MULTIFIT.",
+      "Le problème que règle cet équipement se mesure en argent. Poussière, fientes d'oiseaux et particules de rouille ramènent la production d'un panneau à 20–36 % du nominal ; après nettoyage, le rendement revient à 90–95 % et redescend si l'entretien s'arrête. Au-delà de la production perdue, l'encrassement est dangereux physiquement : la zone ombrée surchauffe, des points chauds apparaissent, le panneau se dégrade et peut brûler. Nettoyer n'est donc pas cosmétique : cela prolonge la vie de la centrale.",
+      "La gamme se divise en deux. Robots : la série MR-G pour rangées simples et doubles, les séries MR-T1 et MR-XY, et le chariot de transport MR-AR qui déplace le robot d'une rangée à l'autre. Les brosses MULR — du modèle manuel à la version entraînée par l'eau — couvrent les endroits où le robot est de trop. Pour chaque modèle, l'entreprise fournit un calcul de rendement : surface nettoyée par heure, cadence journalière et temps nécessaire pour un champ de taille donnée."
+    ],
+    "facts": [
+      "Statut national de haute technologie ; siège à Pékin, usine en propre à Shantou",
+      "Robots MR-G, MR-T1 et MR-XY, plus le chariot MR-AR pour passer d'une rangée à l'autre",
+      "Gamme de brosses MULR, dont une version entraînée par l'eau",
+      "L'encrassement ramène la production du panneau à 20–36 % ; après nettoyage le rendement revient à 90–95 %",
+      "Chaque modèle est livré avec son calcul : m² par heure, cadence journalière, temps pour un champ donné",
+      "Installations en service au Liban, à Malte, en Malaisie, au Pakistan et aux États-Unis — les vidéos sont sur cette page"
+    ],
+    "channels": [
+      "Propriétaires et exploitants de centrales solaires",
+      "Prestataires d'exploitation et de maintenance (O&M)",
+      "Entreprises EPC et intégrateurs solaires",
+      "Distributeurs d'équipements pour l'énergie"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — robots pour rangées de panneaux",
+        "note": "La série de base, en versions rangée simple et rangée double. Vitesse de déplacement d'environ 12 m/min ; débit et cadence journalière calculés pour le champ concerné."
+      },
+      {
+        "name": "MR-T1 / MR-XY",
+        "note": "Séries de robots pour d'autres configurations de centrale, avec largeur de travail et mode de fonctionnement différents ; le choix suit la géométrie du champ."
+      },
+      {
+        "name": "MR-AR — chariot de transport",
+        "note": "Transporte le robot entre les rangées et supprime le repositionnement manuel. Utile là où les rangées sont nombreuses et éloignées."
+      },
+      {
+        "name": "MULR — brosses de nettoyage",
+        "note": "Gamme de brosses, du modèle manuel à la version entraînée par l'eau. La réponse pour les zones où le robot est excessif ou n'accède pas."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Fabrication en propre",
+        "note": "Usine à Shantou, Guangdong ; siège à Pékin, filiales à Shenzhen et au Sichuan. Statut national de haute technologie."
+      },
+      {
+        "name": "Calcul pour la centrale concernée",
+        "note": "L'entreprise ne donne pas de caractéristiques dans l'abstrait mais un débit sur le champ du client : surface par heure, cadence journalière, durée d'un cycle complet."
+      },
+      {
+        "name": "Rapports d'essai et certificats",
+        "note": "Les documents de l'entreprise comprennent des rapports d'essai et des certificats ; la liste exacte est fournie sur demande au stade de la transaction."
+      }
+    ],
+    "formats": [
+      "Robots de nettoyage de panneaux solaires",
+      "Chariots de transport entre rangées",
+      "Brosses de nettoyage manuel et semi-automatique",
+      "Pièces de rechange et consommables",
+      "Unités de démonstration pour essais"
+    ],
+    "exportNote": "L'entreprise exporte et fournit des cotations complètes par modèle. Livraison en EXW ou FOB ; logistique, douane et accompagnement de l'opération coordonnés par Teranova. L'unité de démonstration se discute à part. Parmi les documents de l'entreprise, un projet porte des chiffres précis : une centrale en toiture de 300 kW à Tripoli, au Liban, desservie par le robot MR-G2 — les chiffres proviennent du bandeau de leur propre vidéo.",
+    "terms": [
+      {
+        "label": "Formes de coopération",
+        "value": "Fourniture d'équipements ; choix du modèle selon la configuration de la centrale ; pièces et consommables"
+      },
+      {
+        "label": "Conditions de livraison",
+        "value": "EXW ou FOB ; logistique et douane coordonnées par Teranova"
+      },
+      {
+        "label": "Documents",
+        "value": "Licence d'exploitation, brochure de qualifications, rapports d'essai — fournis par l'entreprise"
+      },
+      {
+        "label": "Matériaux",
+        "value": "Catalogues robots et brosses et cotations par modèle reçus du fabricant en juin 2026"
+      }
+    ],
+    "consentNote": "Données et documents fournis par BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Les chiffres de rendement sont repris des documents de l'entreprise. Prix et conditions se confirment au stade de la transaction via Teranova.",
+    "seoTitle": "MULTIFIT — robots de nettoyage de panneaux solaires · Teranova",
+    "seoDesc": "BeiJing Multifit est un fabricant chinois de robots MR-G, MR-T1 et MR-XY et de brosses MULR pour le nettoyage de panneaux solaires.",
+    "catalog_notes": [
+      "Robot de première génération circulant le long de la rangée : corps en aluminium, écarts jusqu'à 20 mm, pentes jusqu'à 8°.",
+      "Deuxième génération : huit roues motrices, corps anticorrosion amovible, batterie LFP de 4 000 cycles ; écarts 20 mm, pente 8°, panneaux 990–2384 mm.",
+      "Troisième génération : corps en inox, écarts jusqu'à 50 mm, pentes jusqu'à 20°, tête oscillante et traction intégrale ; télécommande jusqu'à 400 m.",
+      "Variante à double brosse rouleau : nettoie le bord de la rangée PV et convient aux champs assemblés en plusieurs rangées.",
+      "Robot chenillé pour rangées sans ponts : brosse d'un mètre, nettoyage à sec et à l'eau, joints jusqu'à 60 mm, pentes jusqu'à 25°, télécommande 400 m.",
+      "La version entièrement automatique du MR-T1 : algorithmes d'IA et reconnaissance visuelle, planification du trajet et correction d'assiette.",
+      "Robot à course verticale pour champs multirangées jusqu'à 10 m de large ; 8–12 m/min, commande à distance.",
+      "Véhicule de transfert sur rail : déplace le robot d'une rangée à l'autre en deux à trois minutes, environ dix fois plus vite qu'à la main.",
+      "Brosse-raclette manuelle sur perche télescopique de 3,5–7,5 m : deux sorties d'eau, tête à angle réglable ; panneaux, façades vitrées, neige.",
+      "Brosse électrique à tête simple pour petits champs : poils souples, angle de tête ajusté à la pente du panneau.",
+      "Brosse électrique à double tête : deux moteurs, pulvérisation d'eau, disques de 280 mm ; secteur ou batterie, 4–6 heures d'autonomie.",
+      "Deuxième génération de la double tête : moteurs brushless de 170 W, batterie 25,6 V 25 Ah, perches carbone de 3,5–7,5 m.",
+      "Brosse électrique à rouleau : rouleau de 650 mm et 130 mm de diamètre, 400 tr/min, trois sorties d'eau, brosse pare-eau.",
+      "Brosse à rouleau de deuxième génération : 200 W, 420 tr/min, rotation réversible, corps en polycarbonate.",
+      "Brosse hydraulique : fonctionne à la pression du réseau jusqu'à 7 MPa sans électricité ; disques de 125 ou 350 mm, pompe optionnelle de 2,2 kW."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "À propos de l'entreprise",
+    "for_whom": "Pour qui :",
+    "lines_h": "Gammes de produits",
+    "catalog_h": "Catalogue de produits",
+    "tech_h": "Capacités et production",
+    "products_h": "Produits",
+    "products_note": "MULTIFIT fabrique des robots et des brosses pour le nettoyage des panneaux solaires : matériel pour les centrales et leurs prestataires.",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de collaboration",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "price_btn": "Télécharger la liste de prix (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Les prix et conditions sont indicatifs et précisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Contactez-nous — Teranova organise la négociation, la vérification et l'accompagnement de la transaction du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certificats et enregistrements",
+    "gallery_h": "Le matériel au travail",
+    "gallery_note": "Les photographies des sites et des équipements ont été fournies par MULTIFIT. Les quatre premières sont des images tirées de ses propres vidéos d'installations en service, dont la centrale en toiture de 300 kW à Tripoli, au Liban. Il ne s'agit pas d'une visite d'usine de notre part : le statut du fournisseur est « Informations fournies par l'entreprise ».",
+    "video_h": "Vidéos de l'entreprise",
+    "video_note": "Filmées par MULTIFIT et publiées avec leur autorisation. Les sous-titres à l'écran sont en anglais. Sous les vidéos produit se trouvent cinq cas de projets sur des sites en service : Liban, Malte, Malaisie, Pakistan et États-Unis. Deux ont été tournées à la verticale et sont intégrées au format commun sans recadrage. Le cas américain est une seule prise continue de sept minutes et demie ; la page en montre les 75 premières secondes."
+  }
 }
