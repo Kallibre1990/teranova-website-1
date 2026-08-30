@@ -1,112 +1,112 @@
 {
- "content": {
-  "tagline": "A ciência que devolve o equilíbrio ao couro cabeludo e aos cabelos",
-  "descriptor": "Empresa coreana de biotecnologia: marcas HAIRREGEON e HERIBON",
-  "origin": "Coreia",
-  "about": [
-   "A CK Regeon Inc. é uma empresa de biotecnologia coreana fundada em 2016 em Seul (Yonsei Engineering Research Park). É dirigida pelo professor Kang-Yell Choi, pesquisador da via de sinalização Wnt com mais de vinte anos de experiência em ciência regenerativa. O portfólio cosmético da empresa está reunido sob o nome DermaRegeon e é formado por duas linhas: HAIRREGEON para o canal profissional e HERIBON para o cuidado diário em casa.",
-   "Por trás das duas linhas estão dez anos de pesquisa sobre a sinalização Wnt, cinco patentes nos Estados Unidos, na União Europeia, na Coreia e na China e, segundo a empresa, notificações regulatórias obtidas em nove países. A tecnologia «WNT ON» atua por meio da proteína CXXC5: PTD-DBM e KY19382 interferem em sua ligação com a Dishevelled e restauram a sinalização Wnt/β-catenina suprimida nas células do couro cabeludo. O mecanismo está descrito em revistas com revisão por pares: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 e 2021), Cells (2023) e Journal of Experimental Medicine (2015).",
-   "Importante para uma comunicação correta: os estudos publicados descrevem o mecanismo de ação dos componentes em nível pré-clínico — culturas celulares, ex vivo e observações piloto — e não comprovam a eficácia clínica dos produtos acabados. HAIRREGEON e HERIBON são fabricados e vendidos como cosméticos, não como dispositivos médicos, e não são apresentados como tratamento da alopecia."
-  ],
-  "facts": [
-   "Empresa de biotecnologia, fundada em 2016",
-   "5 patentes: EUA, UE, Coreia, China",
-   "Publicações em JID, BJP, Cells e JEM",
-   "Registros e notificações em 9 países",
-   "Duas marcas: HAIRREGEON e HERIBON"
-  ],
-  "channels": [
-   "Importadores e distribuidores de cosméticos",
-   "Farmácias e redes especializadas",
-   "Salões, clínicas dermatológicas e estúdios de tricologia",
-   "Marketplaces e e-commerce"
-  ],
-  "lines": [
-   {
-    "name": "HAIRREGEON",
-    "note": "Linha profissional de cuidado intensivo do couro cabeludo, para clínicas, salões e estúdios de tricologia. O carro-chefe é o PTD-DBM Hair Booster: um conjunto de dois componentes com um frasco de 200 mg de pó liofilizado e um frasco de diluente de 5 ml, cinco conjuntos por caixa. É misturado imediatamente antes da sessão; a empresa recomenda combiná-lo com microagulhamento MTS de 0,5 a 1,5 mm a cada duas semanas e indica que um resultado visível costuma ser observado após doze semanas de tratamento. Produção conforme a ISO 22716, validade de 36 meses."
-   },
-   {
-    "name": "HERIBON",
-    "note": "Linha «WNT ON» de cuidado diário em casa em quatro etapas, na ordem de uso: esfoliante para o couro cabeludo 300 ml, shampoo 500 ml, tratamento capilar 250 ml e tônico sem enxágue 50 ml. Adequada a todos os tipos de couro cabeludo — sensível, oleoso e seco; sem parabenos, sulfatos e corantes artificiais. Validade de 36 meses fechado; após aberto, a empresa recomenda o uso em 12 meses."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Tecnologia «WNT ON»",
-    "note": "Desenvolvimento próprio da empresa. PTD-DBM e KY19382 inibem a CXXC5, apontada pela empresa como fator central da queda de cabelo, e restauram a sinalização Wnt/β-catenina suprimida nas células do couro cabeludo, levando a via de «WNT OFF» para «WNT ON»."
-   },
-   {
-    "name": "Peptídeo PTD-DBM",
-    "note": "Componente ativo da linha profissional HAIRREGEON. Seu mecanismo de ligação competitiva à CXXC5 está descrito em nível pré-clínico em publicação do Journal of Investigative Dermatology (2017)."
-   },
-   {
-    "name": "MetaAct e KY19382",
-    "note": "O MetaAct, ativador da PKM2, atua no HAIRREGEON ao lado do PTD-DBM e amplifica a ativação da via Wnt. O KY19382 é o componente ativo do HERIBON, patenteado nos EUA, na UE, na Coreia e na China; o tom avermelhado dos produtos HERIBON vem do próprio KY19382, e não de corante."
-   },
-   {
-    "name": "Patentes e publicações",
-    "note": "Cinco patentes registradas nos EUA, na UE, na Coreia e na China, cobrindo a composição WNT Hair e o próprio peptídeo PTD-DBM. O mecanismo está descrito em quatro revistas com revisão por pares: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 e 2021), Cells (2023) e Journal of Experimental Medicine (2015)."
-   }
-  ],
-  "formats": [
-   "Ampolas e boosters",
-   "Shampoos",
-   "Esfoliantes para couro cabeludo (peeling)",
-   "Máscaras e tratamentos capilares",
-   "Tônicos para couro cabeludo"
-  ],
-  "exportNote": "As marcas cosméticas da empresa foram lançadas em 2025; a companhia participa de feiras internacionais do setor e amplia sua distribuição. Segundo a empresa, alguns mercados já estão cobertos por acordos exclusivos e de exclusividade condicionada — no Sudeste Asiático, na Europa e na CEI. Os territórios disponíveis e as condições por mercado são confirmados na fase de consulta, por meio da Teranova.",
-  "terms": [
-   {
-    "label": "Formas de cooperação",
-    "value": "Fornecimento no atacado dos produtos acabados das marcas HAIRREGEON e HERIBON. OEM/ODM sob consulta."
-   },
-   {
-    "label": "Territórios",
-    "value": "Alguns mercados estão cobertos por acordos exclusivos e de exclusividade condicionada. Os territórios disponíveis são confirmados na fase de consulta."
-   },
-   {
-    "label": "Volumes e preços",
-    "value": "Volumes mínimos e preços são confirmados na fase de consulta. A tabela de preços não é publicada."
-   },
-   {
-    "label": "Como funciona",
-    "value": "Consulta → verificação e alinhamento da Teranova → negociação e amostras → logística, alfândega e pagamento chave na mão."
-   }
-  ],
-  "consentNote": "Os dados e materiais foram fornecidos pela CK Regeon Inc. e são publicados com seu consentimento por escrito, preservando o conteúdo original. A tabela de preços não é publicada. Os contatos diretos do fabricante não são divulgados. A Teranova coordena e acompanha a operação.",
-  "seoTitle": "CK Regeon (DermaRegeon) — cuidado do couro cabeludo da Coreia · Teranova",
-  "seoDesc": "CK Regeon — empresa de biotecnologia coreana das marcas HAIRREGEON e HERIBON: tecnologia WNT ON, cinco patentes nos EUA, UE, Coreia e China, registros MoCRA, CPNP, SCPN e Dermatest. Fornecimento no atacado e acompanhamento pela Teranova.",
-  "catalog_notes": [
-   "Conjunto profissional de dois componentes para o cuidado intensivo do couro cabeludo: um frasco com 200 mg de pó liofilizado de PTD-DBM e um frasco de diluente de 5 ml. O conteúdo do segundo frasco é transferido para o primeiro e dissolvido por completo imediatamente antes da sessão. Pelo protocolo da empresa, a dose padrão em cabine é de cerca de 5 ml por sessão por mesoterapia, ajustada conforme a queda difusa ou localizada e a sensibilidade do couro cabeludo. A empresa indica como contraindicações: alergia conhecida aos componentes; infecção ativa do couro cabeludo, psoríase, eczema ou feridas abertas; gravidez e amamentação por precaução. Caixa com 5 conjuntos.",
-   "Shampoo diário «WNT ON» — segunda etapa da rotina de quatro passos, após o esfoliante. Limpa suavemente o couro cabeludo e os fios, deixando uma sensação limpa e leve. Sem parabenos, sulfatos e corantes artificiais. 500 ml.",
-   "O esfoliante para o couro cabeludo é a primeira etapa: massageia-se por 2 a 3 minutos e enxágua, removendo células mortas e excesso de sebo antes do cuidado principal. 300 ml.",
-   "Máscara-tratamento «WNT ON» — terceira etapa: amacia, hidrata, facilita o pentear e dá aos fios uma sensação mais encorpada. 250 ml.",
-   "Tônico capilar sem enxágue — etapa final da rotina, usado 2 a 3 vezes por semana. Aplica-se de modo uniforme, não se enxágua e não deixa sensação pegajosa. 50 ml."
-  ]
- },
- "ui": {
-  "profile_sup": "Perfil do fornecedor",
-  "about_h": "Sobre a empresa",
-  "for_whom": "Para quem:",
-  "lines_h": "Marcas da empresa",
-  "catalog_h": "Catálogo de produtos",
-  "tech_h": "Tecnologia e base científica",
-  "products_h": "Produtos",
-  "products_note": "As marcas HAIRREGEON e HERIBON oferecem cuidados cosméticos para couro cabeludo e cabelo.",
-  "formats_h": "Formatos de produto",
-  "export_h": "Exportação e mercados",
-  "terms_h": "Condições de parceria",
-  "download_btn": "Baixar condições (PDF)",
-  "pres_btn": "Baixar apresentação (PDF)",
-  "terms_disc": "Volumes e condições são confirmados na fase de consulta, por meio da Teranova. A tabela de preços não é publicada e os contatos diretos do fabricante não são divulgados. Os produtos são apresentados como cosméticos; a pesquisa descrita refere-se ao mecanismo de ação dos componentes e é de natureza pré-clínica.",
-  "cta_h": "Interessado neste fabricante?",
-  "cta_d": "Fale conosco — a Teranova organiza as negociações, a verificação e o acompanhamento da negociação, do primeiro contato até a entrega.",
-  "cta_btn": "Falar com a Teranova",
-  "more": "Ver perfil →",
-  "verified_suppliers": "Fornecedores verificados",
-  "certs_h": "Certificados e registros",
-  "certs_note": "Declarado pela empresa. Cópias dos documentos comprobatórios e dos registros são fornecidas na etapa de negociação. Registro ou listagem não constitui aprovação regulatória."
- }
+  "content": {
+    "tagline": "A ciência que devolve o equilíbrio ao couro cabeludo e aos cabelos",
+    "descriptor": "Empresa coreana de biotecnologia: marcas HAIRREGEON e HERIBON",
+    "origin": "Coreia",
+    "about": [
+      "A CK Regeon Inc. é uma empresa de biotecnologia coreana fundada em 2016 em Seul (Yonsei Engineering Research Park). É dirigida pelo professor Kang-Yell Choi, pesquisador da via de sinalização Wnt com mais de vinte anos de experiência em ciência regenerativa. O portfólio cosmético da empresa está reunido sob o nome DermaRegeon e é formado por duas linhas: HAIRREGEON para o canal profissional e HERIBON para o cuidado diário em casa.",
+      "Por trás das duas linhas estão dez anos de pesquisa sobre a sinalização Wnt, cinco patentes nos Estados Unidos, na União Europeia, na Coreia e na China e, segundo a empresa, notificações regulatórias obtidas em nove países. A tecnologia «WNT ON» atua por meio da proteína CXXC5: PTD-DBM e KY19382 interferem em sua ligação com a Dishevelled e restauram a sinalização Wnt/β-catenina suprimida nas células do couro cabeludo. O mecanismo está descrito em revistas com revisão por pares: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 e 2021), Cells (2023) e Journal of Experimental Medicine (2015).",
+      "Importante para uma comunicação correta: os estudos publicados descrevem o mecanismo de ação dos componentes em nível pré-clínico — culturas celulares, ex vivo e observações piloto — e não comprovam a eficácia clínica dos produtos acabados. HAIRREGEON e HERIBON são fabricados e vendidos como cosméticos, não como dispositivos médicos, e não são apresentados como tratamento da alopecia."
+    ],
+    "facts": [
+      "Empresa de biotecnologia, fundada em 2016",
+      "5 patentes: EUA, UE, Coreia, China",
+      "Publicações em JID, BJP, Cells e JEM",
+      "Registros e notificações em 9 países",
+      "Duas marcas: HAIRREGEON e HERIBON"
+    ],
+    "channels": [
+      "Importadores e distribuidores de cosméticos",
+      "Farmácias e redes especializadas",
+      "Salões, clínicas dermatológicas e estúdios de tricologia",
+      "Marketplaces e e-commerce"
+    ],
+    "lines": [
+      {
+        "name": "HAIRREGEON",
+        "note": "Linha profissional de cuidado intensivo do couro cabeludo, para clínicas, salões e estúdios de tricologia. O carro-chefe é o PTD-DBM Hair Booster: um conjunto de dois componentes com um frasco de 200 mg de pó liofilizado e um frasco de diluente de 5 ml, cinco conjuntos por caixa. É misturado imediatamente antes da sessão; a empresa recomenda combiná-lo com microagulhamento MTS de 0,5 a 1,5 mm a cada duas semanas e indica que um resultado visível costuma ser observado após doze semanas de tratamento. Produção conforme a ISO 22716, validade de 36 meses."
+      },
+      {
+        "name": "HERIBON",
+        "note": "Linha «WNT ON» de cuidado diário em casa em quatro etapas, na ordem de uso: esfoliante para o couro cabeludo 300 ml, shampoo 500 ml, tratamento capilar 250 ml e tônico sem enxágue 50 ml. Adequada a todos os tipos de couro cabeludo — sensível, oleoso e seco; sem parabenos, sulfatos e corantes artificiais. Validade de 36 meses fechado; após aberto, a empresa recomenda o uso em 12 meses."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Tecnologia «WNT ON»",
+        "note": "Desenvolvimento próprio da empresa. PTD-DBM e KY19382 inibem a CXXC5, apontada pela empresa como fator central da queda de cabelo, e restauram a sinalização Wnt/β-catenina suprimida nas células do couro cabeludo, levando a via de «WNT OFF» para «WNT ON»."
+      },
+      {
+        "name": "Peptídeo PTD-DBM",
+        "note": "Componente ativo da linha profissional HAIRREGEON. Seu mecanismo de ligação competitiva à CXXC5 está descrito em nível pré-clínico em publicação do Journal of Investigative Dermatology (2017)."
+      },
+      {
+        "name": "MetaAct e KY19382",
+        "note": "O MetaAct, ativador da PKM2, atua no HAIRREGEON ao lado do PTD-DBM e amplifica a ativação da via Wnt. O KY19382 é o componente ativo do HERIBON, patenteado nos EUA, na UE, na Coreia e na China; o tom avermelhado dos produtos HERIBON vem do próprio KY19382, e não de corante."
+      },
+      {
+        "name": "Patentes e publicações",
+        "note": "Cinco patentes registradas nos EUA, na UE, na Coreia e na China, cobrindo a composição WNT Hair e o próprio peptídeo PTD-DBM. O mecanismo está descrito em quatro revistas com revisão por pares: Journal of Investigative Dermatology (2017), British Journal of Pharmacology (2020 e 2021), Cells (2023) e Journal of Experimental Medicine (2015)."
+      }
+    ],
+    "formats": [
+      "Ampolas e boosters",
+      "Shampoos",
+      "Esfoliantes para couro cabeludo (peeling)",
+      "Máscaras e tratamentos capilares",
+      "Tônicos para couro cabeludo"
+    ],
+    "exportNote": "As marcas cosméticas da empresa foram lançadas em 2025; a companhia participa de feiras internacionais do setor e amplia sua distribuição. Segundo a empresa, alguns mercados já estão cobertos por acordos exclusivos e de exclusividade condicionada — no Sudeste Asiático, na Europa e na CEI. Os territórios disponíveis e as condições por mercado são confirmados na fase de consulta, por meio da Teranova.",
+    "terms": [
+      {
+        "label": "Formas de cooperação",
+        "value": "Fornecimento no atacado dos produtos acabados das marcas HAIRREGEON e HERIBON. OEM/ODM sob consulta."
+      },
+      {
+        "label": "Territórios",
+        "value": "Alguns mercados estão cobertos por acordos exclusivos e de exclusividade condicionada. Os territórios disponíveis são confirmados na fase de consulta."
+      },
+      {
+        "label": "Volumes e preços",
+        "value": "Volumes mínimos e preços são confirmados na fase de consulta. A tabela de preços não é publicada."
+      },
+      {
+        "label": "Como funciona",
+        "value": "Consulta → verificação e alinhamento da Teranova → negociação e amostras → logística, alfândega e pagamento chave na mão."
+      }
+    ],
+    "consentNote": "Os dados e materiais foram fornecidos pela CK Regeon Inc. e são publicados com seu consentimento por escrito, preservando o conteúdo original. A tabela de preços não é publicada. Os contatos diretos do fabricante não são divulgados. A Teranova coordena e acompanha a operação.",
+    "seoTitle": "CK Regeon — cuidado do couro cabeludo da Coreia · Teranova",
+    "seoDesc": "CK Regeon — empresa de biotecnologia coreana das marcas HAIRREGEON e HERIBON: tecnologia WNT ON, cinco patentes nos EUA, UE, Coreia e China, registros MoCRA, CPNP, SCPN e Dermatest. Fornecimento no atacado e acompanhamento pela Teranova.",
+    "catalog_notes": [
+      "Conjunto profissional de dois componentes para o cuidado intensivo do couro cabeludo: um frasco com 200 mg de pó liofilizado de PTD-DBM e um frasco de diluente de 5 ml. O conteúdo do segundo frasco é transferido para o primeiro e dissolvido por completo imediatamente antes da sessão. Pelo protocolo da empresa, a dose padrão em cabine é de cerca de 5 ml por sessão por mesoterapia, ajustada conforme a queda difusa ou localizada e a sensibilidade do couro cabeludo. A empresa indica como contraindicações: alergia conhecida aos componentes; infecção ativa do couro cabeludo, psoríase, eczema ou feridas abertas; gravidez e amamentação por precaução. Caixa com 5 conjuntos.",
+      "Shampoo diário «WNT ON» — segunda etapa da rotina de quatro passos, após o esfoliante. Limpa suavemente o couro cabeludo e os fios, deixando uma sensação limpa e leve. Sem parabenos, sulfatos e corantes artificiais. 500 ml.",
+      "O esfoliante para o couro cabeludo é a primeira etapa: massageia-se por 2 a 3 minutos e enxágua, removendo células mortas e excesso de sebo antes do cuidado principal. 300 ml.",
+      "Máscara-tratamento «WNT ON» — terceira etapa: amacia, hidrata, facilita o pentear e dá aos fios uma sensação mais encorpada. 250 ml.",
+      "Tônico capilar sem enxágue — etapa final da rotina, usado 2 a 3 vezes por semana. Aplica-se de modo uniforme, não se enxágua e não deixa sensação pegajosa. 50 ml."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem:",
+    "lines_h": "Marcas da empresa",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Tecnologia e base científica",
+    "products_h": "Produtos",
+    "products_note": "As marcas HAIRREGEON e HERIBON oferecem cuidados cosméticos para couro cabeludo e cabelo.",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de parceria",
+    "download_btn": "Baixar condições (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Volumes e condições são confirmados na fase de consulta, por meio da Teranova. A tabela de preços não é publicada e os contatos diretos do fabricante não são divulgados. Os produtos são apresentados como cosméticos; a pesquisa descrita refere-se ao mecanismo de ação dos componentes e é de natureza pré-clínica.",
+    "cta_h": "Interessado neste fabricante?",
+    "cta_d": "Fale conosco — a Teranova organiza as negociações, a verificação e o acompanhamento da negociação, do primeiro contato até a entrega.",
+    "cta_btn": "Falar com a Teranova",
+    "more": "Ver perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificados e registros",
+    "certs_note": "Declarado pela empresa. Cópias dos documentos comprobatórios e dos registros são fornecidas na etapa de negociação. Registro ou listagem não constitui aprovação regulatória."
+  }
 }

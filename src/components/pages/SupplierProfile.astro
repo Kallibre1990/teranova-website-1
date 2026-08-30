@@ -524,7 +524,11 @@ function lineShot(name: string): string | undefined {
   <div class="sp-lb" id="spLb" hidden>
     <button class="sp-lb__x" type="button" aria-label="×">×</button>
     <figure class="sp-lb__fig">
-      <img id="spLbImg" src="" alt="" />
+      {/* Без атрибута src: пустой src браузер разрешает в адрес текущей
+          страницы и повторно запрашивает HTML как изображение. На 209
+          языковых страницах профилей это лишний запрос на каждое открытие.
+          Адрес ставится при открытии лайтбокса и снимается при закрытии. */}
+      <img id="spLbImg" alt="" />
       <figcaption id="spLbCap"></figcaption>
     </figure>
   </div>
@@ -536,7 +540,7 @@ function lineShot(name: string): string | undefined {
     const img = document.getElementById('spLbImg');
     const cap = document.getElementById('spLbCap');
     const open = (src, name) => { img.setAttribute('src', src); img.setAttribute('alt', name || ''); cap.textContent = name || ''; lb.hidden = false; document.documentElement.style.overflow = 'hidden'; };
-    const close = () => { lb.hidden = true; img.setAttribute('src', ''); document.documentElement.style.overflow = ''; };
+    const close = () => { lb.hidden = true; img.removeAttribute('src'); document.documentElement.style.overflow = ''; };
     document.querySelectorAll('.sp-prod, .sp-visit__i').forEach((b) => b.addEventListener('click', () => open(b.getAttribute('data-full'), b.getAttribute('data-name'))));
     lb.querySelector('.sp-lb__x').addEventListener('click', close);
     lb.addEventListener('click', (e) => { if (e.target === lb) close(); });

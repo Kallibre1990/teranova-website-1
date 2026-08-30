@@ -1,153 +1,153 @@
 {
- "content": {
-  "tagline": "Formülasyoncunun ihtiyacı ekstre değil, aktif maddenin beyan edilen konsantrasyonudur",
-  "descriptor": "Hindistanlı kozmetik hammadde üreticisi: cilt ve saç bakımı formülasyonları için standardize bitkisel ekstreler ve biyoaktif bileşenler",
-  "origin": "Hindistan",
-  "about": [
-   "Sunpure Extracts Pvt. Ltd., doğal kozmetik hammaddeleri üreten bir Hindistan firmasıdır. Şirket Delhi'de kayıtlı, merkez ofisi Uttar Pradesh eyaletindeki Ghaziabad'da, üretim tesisi ise aynı eyaletteki Sikandrabad'dadır. Hindistan hükûmeti şirkete Star Export House statüsü vermiştir; araştırma tarafını kendi bünyesindeki Sunpure Research Incubation Centre yürütür.",
-   "Burada üretilen şey bitmiş kozmetik değil, formülasyon yapanlar için hammaddedir. «Meyan kökü ekstresi» ile «glabridin %95» arasındaki fark bu işin özüdür: standardize bir aktifte konsantrasyon beyan edilir ve partiden partiye tekrarlanır, böylece formül hesaplanabilir ve etiketteki iddia gerekçelendirilebilir. Şirket aktifleri farmakope yöntemleriyle veya kendi analiz yöntemleriyle bir gösterge bileşene göre standardize eder ve konsantrasyonu müşterinin talebine göre belirler.",
-   "Portföy, güncel bakımın başlıca iddialarını kapsar. Aydınlatma ve leke: üç saflıkta glabridin ve tetrahidrokurkumin. Retinol alternatifi: %99 bakuchiol. Onarım ve bariyer: Centella asiatica ve saflaştırılmış türevleri. Oksidatif strese karşı savunma: yeşil çay, pterostilben, biberiye ekstreleri ve E vitamini. Ayrı bir seride yaklaşık yirmi beş uçucu ve soğuk pres yağ bulunur. Şirketin verdiği bilgiye göre portföyün arkasında beş patent ve USFDA'ya sunulmuş yirmi US DMF dosyası vardır."
-  ],
-  "facts": [
-   "Üretim Uttar Pradesh eyaleti Sikandrabad'da; merkez ofis Ghaziabad'da",
-   "Hindistan hükûmetinin verdiği Star Export House statüsü",
-   "Kendi araştırma birimi — Sunpure Research Incubation Centre (SRIC)",
-   "Şirket beyanına göre beş patent ve USFDA'ya sunulmuş yirmi US DMF dosyası",
-   "Her parti pestisit kalıntısı, ağır metal, mikrobiyolojik limitler ve kalıntı çözücü açısından analiz edilir",
-   "Üretim süresi onaylı siparişten itibaren 2–3 hafta; ürüne ve miktara göre değişir",
-   "Centella türevlerini Kore'deki müşterilere tedarik deneyimi"
-  ],
-  "channels": [
-   "Kozmetik fason üreticileri (OEM/ODM)",
-   "Formülasyon uzmanları ve marka laboratuvarları",
-   "Cilt ve saç bakımı markaları",
-   "Nutrikozmetik ve takviye üreticileri",
-   "Kozmetik hammadde distribütörleri"
-  ],
-  "lines": [
-   {
-    "name": "Glabridin %40 / %90 / %95",
-    "note": "Meyan kökünden elde edilen bir flavonoid; INCI adı Glycyrrhiza Glabra (Licorice) Root Extract, Glabridin. Şirketin bilgisine göre tirozinazı ve melanin sentezini baskılar, bu nedenle leke karşıtı serumlarda, göz çevresi bakımında ve yaşlanma karşıtı formüllerde kullanılır. Şirket bunu hidrokinona kıyasla tahriş etmeyen bir alternatif olarak sunar. Üç saflık seçeneği, konsantrasyonu formülün hedef maliyetine göre ayarlamaya imkân verir."
-   },
-   {
-    "name": "Bakuchiol %99 (BAKUCHIpure™)",
-    "note": "Psoralea corylifolia tohumundan elde edilen meroterpen fenol. Şirket kolajen sentezinin desteklenmesini, ince çizgiler ve cilt dokusu üzerindeki etkiyi, ayrıca akneye eğilimli cilt için antimikrobiyal ve antienflamatuvar etkiyi belirtir. Formülasyonda belirleyici özellik fotostabilitedir: aktif hem gündüz hem gece ürünlerine uygundur ve onu retinolün bitkisel alternatifi yapan da budur."
-   },
-   {
-    "name": "Pongamol %95",
-    "note": "Karanja (Pongamia pinnata) tohumundan elde edilen flavonoid. Şirket bunu doğal bir UV filtresi olarak tanımlar: kendi verilerine göre bileşen UVA ve UVB ışınlarını soğurur, SPF formüllerini destekler, ayrıca antioksidan ve yatıştırıcı olarak çalışır. Ancak pongamolün belirli bir üründeki rolü pazara göre değişir: izin verilen güneş filtreleri listeleri kapalıdır, bu nedenle mevzuattaki durumu her hedef pazar için ayrıca doğrulanır. Bu bileşen için ayrı bir US DMF sunulmuştur."
-   },
-   {
-    "name": "Tetrahidrokurkumin %95 (TetraBeauty®)",
-    "note": "Zerdeçal kökünden elde edilen renksiz kurkumin türevi. Şirket güçlü antioksidan aktivite, aydınlatıcı ve antienflamatuvar etki ile UV kaynaklı hasara karşı koruma bildirir. Kurkumine göre pratik avantajı leke bırakmamasıdır; böylece aktif şeffaf ve açık renkli dokularda da çalışır."
-   },
-   {
-    "name": "CENTpure® — Centella ve türevleri",
-    "note": "Temel triterpenlere göre standardize edilmiş Centella asiatica ekstreleri: asiatikozit %95, madekassozit %95, asiatik asit %95, TECA %95 ve triterpenler %95. Yatıştırıcı kremlerde, bariyer onarım ürünlerinde, hassas ve reaktif cilt bakımında ve akne izlerine yönelik ürünlerde kullanılır. Madekassozit ve Centella için ayrı US DMF dosyaları sunulmuştur."
-   },
-   {
-    "name": "Yeşil çay ve doğal kafein",
-    "note": "Camellia Sinensis Leaf Extract birkaç standardizasyonda sunulur: EGCG %45, kateşinler %70, polifenoller %95 ve doğal kafein %99. Şirket bu grubu yaşlanma karşıtı serumlar, sebum kontrolü ve akneli cilt bakımı ile güneş ve güneş sonrası ürünler için önerir."
-   },
-   {
-    "name": "Pterocarpus marsupium (PTERObright™)",
-    "note": "Pterostilben içeren Hint kino ağacı kabuğu ekstresi. Şirketin bilgisine göre antioksidan ve antienflamatuvar etkiyi kolajen sentezinin desteklenmesiyle birleştirir, cilt tonu ve sıkılığı üzerinde çalışır ve doğal UV koruması sağlar. Şirket bunu clean beauty formülleri için konumlandırır."
-   },
-   {
-    "name": "E vitamini, fitosteroller, biberiye ve lesitin",
-    "note": "Doğal karışık tokoferoller yağda %50, %70 ve %90; d-alfa-tokoferol ve asetatı IU derecelerinde; E vitamini TPGS. Fitosteroller %90 ve %95 toz ve granül, fitosterol esterleri %97. Biberiyeden: karnosik asit %5–50, ursolik asit %25–40 ve rosmarinik asit %6. Bu grup hem antioksidan korumayı hem de formülün kendi stabilitesini üstlenir."
-   },
-   {
-    "name": "Uçucu ve soğuk pres yağlar",
-    "note": "INCI adlarıyla birlikte yaklaşık yirmi beş kalem: çay ağacı, lavanta, nane, biberiye, günlük, papatya, okaliptüs, neem, moringa, kuşburnu, gül, limon otu, bergamot, karanja, ashwagandha, karanfil, kakule, muskat, zerdeçal, sedir, vetiver, lif kabağı ve jojoba. Ayrıca doğal peeling hammaddesi olarak ceviz kabuğu tozu."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Gösterge bileşene göre standardizasyon",
-    "note": "Şirket aktifi «kabaca» değil, aktif maddenin belirli bir düzeyine göre standardize eder: farmakope veya kendi yöntemleriyle, üzerinde anlaşılan konsantrasyon aralığında ve gelecekteki formülün renk, çözünürlük ve koku gereksinimlerini gözeterek."
-   },
-   {
-    "name": "Talebe göre özel ekstraksiyon",
-    "note": "Geliştirmede tam esneklik sunulur: bitkinin kullanılacak kısmının seçimi (yaprak, çiçek, kök, tohum, meyve), çözücülü, çözücüsüz veya süperkritik CO₂ ekstraksiyonu, doğadan toplanan veya kültür hammadde, doğal koruyuculu ya da koruyucusuz bileşim ve belirli bir formül için pH optimizasyonu."
-   },
-   {
-    "name": "Her partide kalite kontrolü",
-    "note": "Şirketin bilgisine göre tüm kozmetik aktifler, uluslararası güvenlik mevzuatına uygun olarak pestisit kalıntısı, ağır metal, mikrobiyolojik limitler ve kalıntı çözücü açısından analiz edilir."
-   },
-   {
-    "name": "Kayıt için gereken belge seti",
-    "note": "Şirket COA, MSDS/SDS, INCI, alerjen beyanı, ağır metal verileri, kalıntı çözücü bilgisi ve mikrobiyolojik analiz sağlar. Hedef pazarda ürün kaydına ilişkin soruları çözen de tam olarak bu belge setidir."
-   },
-   {
-    "name": "Kendi araştırması",
-    "note": "Araştırmayı Sunpure Research Incubation Centre yürütür. Şirketin bilgisine göre merkezin beş patenti ve USFDA'ya sunulmuş yirmi US DMF dosyası vardır; yayımlanmış dosyaların bağlantıları açıkça paylaşılır."
-   }
-  ],
-  "formats": [
-   "Toz ekstreler",
-   "Sıvı ekstreler",
-   "Uçucu ve soğuk pres yağlar",
-   "Yağ ve toz formunda tokoferoller",
-   "Fitosteroller: toz, granül, sıvı",
-   "Nutrikozmetik hammaddeleri: kapsül, toz, jel şeker, içecek"
-  ],
-  "exportNote": "Şirket ihracata dönük çalışır ve Hindistan hükûmetinin verdiği Star Export House statüsüne sahiptir. Kendi bilgisine göre Centella türevleri Kore'deki müşterilere daha önce tedarik edilmiştir, dolayısıyla ekip bu pazarın gerekliliklerini bilmektedir. USFDA'ya sunulan yirmi US DMF dosyası açıktır ve bağlantıları talep üzerine paylaşılır. Üretim tesisleri, şirket beyanına göre GMP ve ISO sertifikalıdır; HALAL ve FSSAI kayıtları mevcuttur.",
-  "terms": [
-   {
-    "label": "İş birliği biçimleri",
-    "value": "Portföydeki standardize aktiflerin tedariki; müşterinin formülüne özel ekstre geliştirme — bitkinin kısmı, ekstraksiyon yöntemi ve standardizasyon düzeyi birlikte belirlenir."
-   },
-   {
-    "label": "Minimum sipariş",
-    "value": "Minimum miktarlar ürüne göre değişir. Şirket belirli bir aktif listesi için gösterge ihracat fiyatlarını ve MOQ değerlerini hazırlar; talep Teranova üzerinden iletilir."
-   },
-   {
-    "label": "Üretim süresi",
-    "value": "Onaylı sipariş ve ödemeden sonra yaklaşık 2–3 hafta; ürüne ve miktara göre değişir."
-   },
-   {
-    "label": "Ambalaj",
-    "value": "Standart ambalaj, çift polietilen iç torbalı HDPE varillerdir."
-   },
-   {
-    "label": "Sevkiyat belgeleri",
-    "value": "COA, MSDS/SDS, INCI, alerjen beyanı, ağır metal verileri, kalıntı çözücü bilgisi ve mikrobiyolojik analiz."
-   },
-   {
-    "label": "Fiyatlar",
-    "value": "Fiyatlar talep üzerine verilir. İhracat fiyat listesini yayımlamıyoruz: güncel fiyatlar ve teslim şekli, işlem aşamasında Teranova aracılığıyla alıcıya iletilir."
-   },
-   {
-    "label": "Süreç nasıl işler",
-    "value": "Talep → Teranova tarafından doğrulama ve mutabakat → numuneler ve formülasyona teknik destek → lojistik, gümrük ve ödemenin uçtan uca yürütülmesi."
-   }
-  ],
-  "consentNote": "Veriler ve materyaller Sunpure Extracts Pvt. Ltd. tarafından sağlanmış olup 24 Ağustos 2026 tarihli yazılı onayıyla yayımlanmaktadır. Teranova işlemi koordine eder ve baştan sona takip eder.",
-  "seoTitle": "Sunpure Extracts — Hindistan'dan kozmetik aktifler: glabridin, bakuchiol, Centella · Teranova",
-  "seoDesc": "Sunpure Extracts (Hindistan) — kozmetik için standardize bitkisel aktifler: glabridin %40/90/95, bakuchiol %99, pongamol %95, tetrahidrokurkumin %95, Centella CENTpure, yeşil çay, E vitamini ve uçucu yağlar. Tedarik ve sürecin tamamı Teranova ile."
- },
- "ui": {
-  "profile_sup": "Tedarikçi profili",
-  "about_h": "Şirket hakkında",
-  "for_whom": "Kimler için:",
-  "lines_h": "Aktif grupları",
-  "catalog_h": "Ürün kataloğu",
-  "tech_h": "Hammadde burada nasıl işleniyor",
-  "products_h": "Ürünler",
-  "products_note": "Standardize bitkisel aktifler, E vitamini ve fitosteroller, uçucu ve soğuk pres yağlar. Her kalem, aktif madde içeriği beyan edilmiş biçimde ve eksiksiz belge setiyle tedarik edilir.",
-  "formats_h": "Tedarik biçimleri",
-  "export_h": "İhracat ve sertifikasyon",
-  "terms_h": "İş birliği koşulları",
-  "download_btn": "Koşulları indir (PDF)",
-  "pres_btn": "Sunumu indir (PDF)",
-  "terms_disc": "Fiyatlar ve koşullar gösterge niteliğindedir ve işlem aşamasında Teranova aracılığıyla kesinleşir. Üreticinin doğrudan iletişim bilgileri yayımlanmaz.",
-  "cta_h": "Bu aktif formülünüz için mi gerekiyor?",
-  "cta_d": "Bize yazın — Teranova fiyatları ve minimum miktarları sorar, numuneleri organize eder ve işlemi ilk temastan teslimata kadar yürütür.",
-  "cta_btn": "Teranova üzerinden iletişime geçin",
-  "more": "Profili aç →",
-  "verified_suppliers": "Doğrulanmış tedarikçiler",
-  "certs_h": "Sertifikalar ve kayıtlar",
-  "certs_note": "Şirket beyanıdır. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır."
- }
+  "content": {
+    "tagline": "Formülasyoncunun ihtiyacı ekstre değil, aktif maddenin beyan edilen konsantrasyonudur",
+    "descriptor": "Hindistanlı kozmetik hammadde üreticisi: cilt ve saç bakımı formülasyonları için standardize bitkisel ekstreler ve biyoaktif bileşenler",
+    "origin": "Hindistan",
+    "about": [
+      "Sunpure Extracts Pvt. Ltd., doğal kozmetik hammaddeleri üreten bir Hindistan firmasıdır. Şirket Delhi'de kayıtlı, merkez ofisi Uttar Pradesh eyaletindeki Ghaziabad'da, üretim tesisi ise aynı eyaletteki Sikandrabad'dadır. Hindistan hükûmeti şirkete Star Export House statüsü vermiştir; araştırma tarafını kendi bünyesindeki Sunpure Research Incubation Centre yürütür.",
+      "Burada üretilen şey bitmiş kozmetik değil, formülasyon yapanlar için hammaddedir. «Meyan kökü ekstresi» ile «glabridin %95» arasındaki fark bu işin özüdür: standardize bir aktifte konsantrasyon beyan edilir ve partiden partiye tekrarlanır, böylece formül hesaplanabilir ve etiketteki iddia gerekçelendirilebilir. Şirket aktifleri farmakope yöntemleriyle veya kendi analiz yöntemleriyle bir gösterge bileşene göre standardize eder ve konsantrasyonu müşterinin talebine göre belirler.",
+      "Portföy, güncel bakımın başlıca iddialarını kapsar. Aydınlatma ve leke: üç saflıkta glabridin ve tetrahidrokurkumin. Retinol alternatifi: %99 bakuchiol. Onarım ve bariyer: Centella asiatica ve saflaştırılmış türevleri. Oksidatif strese karşı savunma: yeşil çay, pterostilben, biberiye ekstreleri ve E vitamini. Ayrı bir seride yaklaşık yirmi beş uçucu ve soğuk pres yağ bulunur. Şirketin verdiği bilgiye göre portföyün arkasında beş patent ve USFDA'ya sunulmuş yirmi US DMF dosyası vardır."
+    ],
+    "facts": [
+      "Üretim Uttar Pradesh eyaleti Sikandrabad'da; merkez ofis Ghaziabad'da",
+      "Hindistan hükûmetinin verdiği Star Export House statüsü",
+      "Kendi araştırma birimi — Sunpure Research Incubation Centre (SRIC)",
+      "Şirket beyanına göre beş patent ve USFDA'ya sunulmuş yirmi US DMF dosyası",
+      "Her parti pestisit kalıntısı, ağır metal, mikrobiyolojik limitler ve kalıntı çözücü açısından analiz edilir",
+      "Üretim süresi onaylı siparişten itibaren 2–3 hafta; ürüne ve miktara göre değişir",
+      "Centella türevlerini Kore'deki müşterilere tedarik deneyimi"
+    ],
+    "channels": [
+      "Kozmetik fason üreticileri (OEM/ODM)",
+      "Formülasyon uzmanları ve marka laboratuvarları",
+      "Cilt ve saç bakımı markaları",
+      "Nutrikozmetik ve takviye üreticileri",
+      "Kozmetik hammadde distribütörleri"
+    ],
+    "lines": [
+      {
+        "name": "Glabridin %40 / %90 / %95",
+        "note": "Meyan kökünden elde edilen bir flavonoid; INCI adı Glycyrrhiza Glabra (Licorice) Root Extract, Glabridin. Şirketin bilgisine göre tirozinazı ve melanin sentezini baskılar, bu nedenle leke karşıtı serumlarda, göz çevresi bakımında ve yaşlanma karşıtı formüllerde kullanılır. Şirket bunu hidrokinona kıyasla tahriş etmeyen bir alternatif olarak sunar. Üç saflık seçeneği, konsantrasyonu formülün hedef maliyetine göre ayarlamaya imkân verir."
+      },
+      {
+        "name": "Bakuchiol %99 (BAKUCHIpure™)",
+        "note": "Psoralea corylifolia tohumundan elde edilen meroterpen fenol. Şirket kolajen sentezinin desteklenmesini, ince çizgiler ve cilt dokusu üzerindeki etkiyi, ayrıca akneye eğilimli cilt için antimikrobiyal ve antienflamatuvar etkiyi belirtir. Formülasyonda belirleyici özellik fotostabilitedir: aktif hem gündüz hem gece ürünlerine uygundur ve onu retinolün bitkisel alternatifi yapan da budur."
+      },
+      {
+        "name": "Pongamol %95",
+        "note": "Karanja (Pongamia pinnata) tohumundan elde edilen flavonoid. Şirket bunu doğal bir UV filtresi olarak tanımlar: kendi verilerine göre bileşen UVA ve UVB ışınlarını soğurur, SPF formüllerini destekler, ayrıca antioksidan ve yatıştırıcı olarak çalışır. Ancak pongamolün belirli bir üründeki rolü pazara göre değişir: izin verilen güneş filtreleri listeleri kapalıdır, bu nedenle mevzuattaki durumu her hedef pazar için ayrıca doğrulanır. Bu bileşen için ayrı bir US DMF sunulmuştur."
+      },
+      {
+        "name": "Tetrahidrokurkumin %95 (TetraBeauty®)",
+        "note": "Zerdeçal kökünden elde edilen renksiz kurkumin türevi. Şirket güçlü antioksidan aktivite, aydınlatıcı ve antienflamatuvar etki ile UV kaynaklı hasara karşı koruma bildirir. Kurkumine göre pratik avantajı leke bırakmamasıdır; böylece aktif şeffaf ve açık renkli dokularda da çalışır."
+      },
+      {
+        "name": "CENTpure® — Centella ve türevleri",
+        "note": "Temel triterpenlere göre standardize edilmiş Centella asiatica ekstreleri: asiatikozit %95, madekassozit %95, asiatik asit %95, TECA %95 ve triterpenler %95. Yatıştırıcı kremlerde, bariyer onarım ürünlerinde, hassas ve reaktif cilt bakımında ve akne izlerine yönelik ürünlerde kullanılır. Madekassozit ve Centella için ayrı US DMF dosyaları sunulmuştur."
+      },
+      {
+        "name": "Yeşil çay ve doğal kafein",
+        "note": "Camellia Sinensis Leaf Extract birkaç standardizasyonda sunulur: EGCG %45, kateşinler %70, polifenoller %95 ve doğal kafein %99. Şirket bu grubu yaşlanma karşıtı serumlar, sebum kontrolü ve akneli cilt bakımı ile güneş ve güneş sonrası ürünler için önerir."
+      },
+      {
+        "name": "Pterocarpus marsupium (PTERObright™)",
+        "note": "Pterostilben içeren Hint kino ağacı kabuğu ekstresi. Şirketin bilgisine göre antioksidan ve antienflamatuvar etkiyi kolajen sentezinin desteklenmesiyle birleştirir, cilt tonu ve sıkılığı üzerinde çalışır ve doğal UV koruması sağlar. Şirket bunu clean beauty formülleri için konumlandırır."
+      },
+      {
+        "name": "E vitamini, fitosteroller, biberiye ve lesitin",
+        "note": "Doğal karışık tokoferoller yağda %50, %70 ve %90; d-alfa-tokoferol ve asetatı IU derecelerinde; E vitamini TPGS. Fitosteroller %90 ve %95 toz ve granül, fitosterol esterleri %97. Biberiyeden: karnosik asit %5–50, ursolik asit %25–40 ve rosmarinik asit %6. Bu grup hem antioksidan korumayı hem de formülün kendi stabilitesini üstlenir."
+      },
+      {
+        "name": "Uçucu ve soğuk pres yağlar",
+        "note": "INCI adlarıyla birlikte yaklaşık yirmi beş kalem: çay ağacı, lavanta, nane, biberiye, günlük, papatya, okaliptüs, neem, moringa, kuşburnu, gül, limon otu, bergamot, karanja, ashwagandha, karanfil, kakule, muskat, zerdeçal, sedir, vetiver, lif kabağı ve jojoba. Ayrıca doğal peeling hammaddesi olarak ceviz kabuğu tozu."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Gösterge bileşene göre standardizasyon",
+        "note": "Şirket aktifi «kabaca» değil, aktif maddenin belirli bir düzeyine göre standardize eder: farmakope veya kendi yöntemleriyle, üzerinde anlaşılan konsantrasyon aralığında ve gelecekteki formülün renk, çözünürlük ve koku gereksinimlerini gözeterek."
+      },
+      {
+        "name": "Talebe göre özel ekstraksiyon",
+        "note": "Geliştirmede tam esneklik sunulur: bitkinin kullanılacak kısmının seçimi (yaprak, çiçek, kök, tohum, meyve), çözücülü, çözücüsüz veya süperkritik CO₂ ekstraksiyonu, doğadan toplanan veya kültür hammadde, doğal koruyuculu ya da koruyucusuz bileşim ve belirli bir formül için pH optimizasyonu."
+      },
+      {
+        "name": "Her partide kalite kontrolü",
+        "note": "Şirketin bilgisine göre tüm kozmetik aktifler, uluslararası güvenlik mevzuatına uygun olarak pestisit kalıntısı, ağır metal, mikrobiyolojik limitler ve kalıntı çözücü açısından analiz edilir."
+      },
+      {
+        "name": "Kayıt için gereken belge seti",
+        "note": "Şirket COA, MSDS/SDS, INCI, alerjen beyanı, ağır metal verileri, kalıntı çözücü bilgisi ve mikrobiyolojik analiz sağlar. Hedef pazarda ürün kaydına ilişkin soruları çözen de tam olarak bu belge setidir."
+      },
+      {
+        "name": "Kendi araştırması",
+        "note": "Araştırmayı Sunpure Research Incubation Centre yürütür. Şirketin bilgisine göre merkezin beş patenti ve USFDA'ya sunulmuş yirmi US DMF dosyası vardır; yayımlanmış dosyaların bağlantıları açıkça paylaşılır."
+      }
+    ],
+    "formats": [
+      "Toz ekstreler",
+      "Sıvı ekstreler",
+      "Uçucu ve soğuk pres yağlar",
+      "Yağ ve toz formunda tokoferoller",
+      "Fitosteroller: toz, granül, sıvı",
+      "Nutrikozmetik hammaddeleri: kapsül, toz, jel şeker, içecek"
+    ],
+    "exportNote": "Şirket ihracata dönük çalışır ve Hindistan hükûmetinin verdiği Star Export House statüsüne sahiptir. Kendi bilgisine göre Centella türevleri Kore'deki müşterilere daha önce tedarik edilmiştir, dolayısıyla ekip bu pazarın gerekliliklerini bilmektedir. USFDA'ya sunulan yirmi US DMF dosyası açıktır ve bağlantıları talep üzerine paylaşılır. Üretim tesisleri, şirket beyanına göre GMP ve ISO sertifikalıdır; HALAL ve FSSAI kayıtları mevcuttur.",
+    "terms": [
+      {
+        "label": "İş birliği biçimleri",
+        "value": "Portföydeki standardize aktiflerin tedariki; müşterinin formülüne özel ekstre geliştirme — bitkinin kısmı, ekstraksiyon yöntemi ve standardizasyon düzeyi birlikte belirlenir."
+      },
+      {
+        "label": "Minimum sipariş",
+        "value": "Minimum miktarlar ürüne göre değişir. Şirket belirli bir aktif listesi için gösterge ihracat fiyatlarını ve MOQ değerlerini hazırlar; talep Teranova üzerinden iletilir."
+      },
+      {
+        "label": "Üretim süresi",
+        "value": "Onaylı sipariş ve ödemeden sonra yaklaşık 2–3 hafta; ürüne ve miktara göre değişir."
+      },
+      {
+        "label": "Ambalaj",
+        "value": "Standart ambalaj, çift polietilen iç torbalı HDPE varillerdir."
+      },
+      {
+        "label": "Sevkiyat belgeleri",
+        "value": "COA, MSDS/SDS, INCI, alerjen beyanı, ağır metal verileri, kalıntı çözücü bilgisi ve mikrobiyolojik analiz."
+      },
+      {
+        "label": "Fiyatlar",
+        "value": "Fiyatlar talep üzerine verilir. İhracat fiyat listesini yayımlamıyoruz: güncel fiyatlar ve teslim şekli, işlem aşamasında Teranova aracılığıyla alıcıya iletilir."
+      },
+      {
+        "label": "Süreç nasıl işler",
+        "value": "Talep → Teranova tarafından doğrulama ve mutabakat → numuneler ve formülasyona teknik destek → lojistik, gümrük ve ödemenin uçtan uca yürütülmesi."
+      }
+    ],
+    "consentNote": "Veriler ve materyaller Sunpure Extracts Pvt. Ltd. tarafından sağlanmış olup 24 Ağustos 2026 tarihli yazılı onayıyla yayımlanmaktadır. Teranova işlemi koordine eder ve baştan sona takip eder.",
+    "seoTitle": "Sunpure Extracts — Hindistan'dan kozmetik aktifler · Teranova",
+    "seoDesc": "Sunpure Extracts (Hindistan) — kozmetik için standardize bitkisel aktifler: glabridin %40/90/95, bakuchiol %99, pongamol %95, tetrahidrokurkumin %95, Centella CENTpure, yeşil çay, E vitamini ve uçucu yağlar. Tedarik ve sürecin tamamı Teranova ile."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimler için:",
+    "lines_h": "Aktif grupları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Hammadde burada nasıl işleniyor",
+    "products_h": "Ürünler",
+    "products_note": "Standardize bitkisel aktifler, E vitamini ve fitosteroller, uçucu ve soğuk pres yağlar. Her kalem, aktif madde içeriği beyan edilmiş biçimde ve eksiksiz belge setiyle tedarik edilir.",
+    "formats_h": "Tedarik biçimleri",
+    "export_h": "İhracat ve sertifikasyon",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar gösterge niteliğindedir ve işlem aşamasında Teranova aracılığıyla kesinleşir. Üreticinin doğrudan iletişim bilgileri yayımlanmaz.",
+    "cta_h": "Bu aktif formülünüz için mi gerekiyor?",
+    "cta_d": "Bize yazın — Teranova fiyatları ve minimum miktarları sorar, numuneleri organize eder ve işlemi ilk temastan teslimata kadar yürütür.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar ve kayıtlar",
+    "certs_note": "Şirket beyanıdır. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır."
+  }
 }

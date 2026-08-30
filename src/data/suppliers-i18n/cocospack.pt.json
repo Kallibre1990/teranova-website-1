@@ -1,148 +1,148 @@
 {
- "content": {
-  "tagline": "A embalagem é a primeira coisa em que o cliente toca. Aqui faz-se em três meses, não em seis",
-  "descriptor": "Fabricante coreano de embalagem cosmética de ciclo completo: moldes, injecção, sopro, impressão e montagem sob o mesmo tecto",
-  "origin": "Coreia",
-  "about": [
-   "A COCOSPACK Co., Ltd. fabrica embalagem para cosmética e farmacêutica desde 2010. A empresa não se apresenta como fornecedora de recipientes mas como parceira da marca: a filosofia «CO-» significa que o desenvolvimento avança em conjunto com o cliente, do primeiro esboço ao lote pronto a expedir. Hoje são mais de 160 colaboradores e três instalações: a fábrica principal em Hwaseong, uma segunda fábrica em Ujeong e um centro comercial com I&D própria em Gwacheon.",
-   "A diferença está em todo o ciclo permanecer dentro da empresa. Planeamento, desenho estrutural, fabrico de moldes, injecção, sopro, impressão, montagem e controlo de qualidade fazem-se com equipamento próprio. Por isso o caminho do esboço ao lote vendável leva dois a três meses em vez dos cinco ou seis habituais no sector, e do custo desaparecem a subcontratação e a logística entre oficinas.",
-   "O parque de máquinas: 47 injectoras de 110 a 380 toneladas, 22 sopradoras, 30 sistemas de impressão, 16 linhas de rotulagem, 47 robôs de extracção e 16 zonas de montagem, incluindo oito linhas de tapete. A empresa detém patentes de embalagem funcional — pulverizadores de névoa fina, boiões de dupla câmara para mistura, aplicadores vibratórios, stick líquido — e trabalha com plástico reciclado PCR, bioplástico PLA e monomateriais recicláveis."
-  ],
-  "facts": [
-   "Em actividade desde 2010: mais de 160 colaboradores e três instalações na Coreia",
-   "Ciclo completo interno: moldes, injecção, sopro, impressão, montagem, controlo de qualidade",
-   "Do projecto ao lote vendável em dois a três meses, contra cinco ou seis no sector",
-   "Mais de 220 marcas clientes; entre as que a empresa refere estão a TIRTIR e a APR",
-   "Patentes de embalagem funcional: pulverizadores de névoa fina, boiões de dupla câmara, aplicadores vibratórios"
-  ],
-  "channels": [
-   "Marcas cosméticas que lançam uma nova linha",
-   "Fabricantes por contrato que precisam de embalagem para um projecto",
-   "Distribuidores e empresas de comércio que constroem um produto de marca própria",
-   "Empresas farmacêuticas: embalagem segundo a norma ISO 15378"
-  ],
-  "lines": [
-   {
-    "name": "Bombas e doseadores",
-    "note": "Bombas de espuma, pulverizadores faciais de névoa fina, bombas airless, conta-gotas automáticos. Desenvolvidos internamente e já montados em produtos de marcas globais."
-   },
-   {
-    "name": "Frascos e boiões",
-    "note": "Injecção e sopro de cerca de 5 a 300 ml, incluindo boiões de dupla câmara onde duas fórmulas se misturam mesmo antes da aplicação."
-   },
-   {
-    "name": "Sticks e aplicadores",
-    "note": "Stick líquido, aplicador vibratório para base, stick de ampola. Os mecanismos estão patenteados pela empresa."
-   },
-   {
-    "name": "Embalagem sustentável",
-    "note": "Monomateriais recicláveis, plástico reciclado PCR e bioplástico PLA, estruturas aligeiradas que reduzem o consumo de plástico."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Moldes fabricados internamente",
-    "note": "Uma equipa de ferramentaria própria desenha e corrige os moldes no local. Geometrias complexas e alterações resolvem-se sem subcontratação e sem esperas."
-   },
-   {
-    "name": "Injecção e sopro",
-    "note": "47 injectoras de 110 a 380 toneladas e 22 sopradoras, com sopro em duas fases e injecção-sopro em molde: é o que torna possíveis formas de frasco fora do padrão."
-   },
-   {
-    "name": "Impressão e acabamento",
-    "note": "22 máquinas de impressão UV e 8 de estampagem a quente, 16 linhas de rotulagem, sistemas antiestáticos na fábrica."
-   },
-   {
-    "name": "Controlo de qualidade",
-    "note": "Ensaios de compatibilidade com a fórmula, de estanquidade e de durabilidade da bomba. Três bancadas de estanquidade; a produção passa as auditorias das grandes marcas."
-   }
-  ],
-  "formats": [
-   "Frascos e boiões de cerca de 5 a 300 ml",
-   "Bombas, pulverizadores e sistemas airless",
-   "Sticks e aplicadores",
-   "Embalagem em PCR, PLA e monomateriais",
-   "Desenvolvimento à medida: do esboço ao molde"
-  ],
-  "exportNote": "A empresa fornece embalagem a marcas nos Estados Unidos, no Japão, no Sudeste Asiático e na Europa. A encomenda mínima é de 10 000 unidades e negocia-se conforme o desenho. Preços, volumes e prazos confirmam-se na fase de negociação através da Teranova.",
-  "terms": [
-   {
-    "label": "O que é fornecido",
-    "value": "Desenho estrutural, fabrico de moldes, produção e montagem da embalagem"
-   },
-   {
-    "label": "Encomenda mínima",
-    "value": "10 000 unidades; negociável conforme o artigo"
-   },
-   {
-    "label": "Prazo",
-    "value": "Dois a três meses do projecto ao lote vendável"
-   },
-   {
-    "label": "Certificações",
-    "value": "ISO 9001, ISO 14001, ISO 22716, ISO 15378"
-   },
-   {
-    "label": "Materiais",
-    "value": "Perfil da empresa e catálogo de produtos recebidos do fabricante em Julho de 2026"
-   }
-  ],
-  "consentNote": "Os dados e materiais foram fornecidos pela COCOSPACK Co., Ltd. e são publicados com o consentimento escrito da empresa de 13 de Julho de 2026. As características técnicas seguem os materiais da empresa; preços, volumes e prazos confirmam-se na fase de negociação através da Teranova.",
-  "seoTitle": "COCOSPACK — embalagem cosmética coreana: moldes, injecção, bombas · Teranova",
-  "seoDesc": "A COCOSPACK é um fabricante coreano de embalagem cosmética de ciclo completo desde 2010: ferramentaria própria, 47 injectoras, bombas e pulverizadores, embalagem em PCR e PLA. Prazo de dois a três meses, mínimo 10 000 unidades. Condições através da Teranova.",
-  "catalog_notes": [
-   "Frascos finos de 30 a 145 ml mais pote de creme de 50 ml; dois tipos de bomba e opção com bico.",
-   "A versão larga da linha: frascos de 30 a 200 ml mais pote de 50 ml; mesmas opções de bomba.",
-   "Frascos alongados de 30 a 135 ml com bomba ou tampa de rosca.",
-   "Frascos de 30 a 120 ml e potes de 30/50 ml com acabamento degradê profundo.",
-   "Frascos de 30 a 180 ml com tampa ou bomba; a série inclui potes de 35, 55 e 100 ml.",
-   "Frascos de 50 a 150 ml e potes de 30/50 ml com detalhes dourados.",
-   "Frascos de 30 a 200 ml com dois tipos de bomba e pote de creme de 50 ml.",
-   "Frascos de 30 a 120 ml e potes de 30/50 ml em acabamento ouro rosé.",
-   "Frascos de 55 a 150 ml com base afunilada e pote de creme de 50 ml.",
-   "Frascos de 50 a 120 ml e pote de 50 ml; acabamento metalizado espelhado, conta-gotas opcional.",
-   "Frascos de 50 a 120 ml e pote de 50 ml; conta-gotas opcional.",
-   "Frascos quadrados de 50 e 100 ml e pote de creme de 50 ml.",
-   "Potes de creme em nove tamanhos — de 5 a 220 ml.",
-   "Potes TY de 50 a 200 ml e IE de 200 a 300 ml; versões para patches com tampa interna.",
-   "Minifrascos de 7, 30 e 50 ml para ampolas e amostras.",
-   "Formato de viagem: frascos de 20 a 30 ml e potes de 5 a 10 ml.",
-   "Frascos de 30–50 ml com conta-gotas ou bico.",
-   "Conta-gotas e frascos com bomba de 15 a 50 ml com detalhes dourados.",
-   "Frascos moldados de 20 a 50 ml com bomba ou conta-gotas.",
-   "Minifrascos conta-gotas de 7 a 30 ml para ampolas e amostras.",
-   "Dispensadores tipo seringa e ampolas cosméticas de 1 a 10 ml.",
-   "Frascos de bruma de 50 a 150 ml com borrifo fino.",
-   "A versão em bruma da série IO: frascos de 30 a 200 ml.",
-   "Bruma de bolso plana em formato cartão, de 40 e 50 ml.",
-   "Estojo cushion com espelho.",
-   "Estojos de pó com espelho; disponível versão com pincel integrado.",
-   "Stick para base e produtos de base.",
-   "Stick para blush e texturas cremosas.",
-   "Stick solar em estojo moldado."
-  ]
- },
- "ui": {
-  "profile_sup": "Perfil do fornecedor",
-  "about_h": "Sobre a empresa",
-  "for_whom": "Para quem é:",
-  "lines_h": "Linhas de produtos",
-  "catalog_h": "Catálogo de produtos",
-  "tech_h": "Capacidades e produção",
-  "products_h": "Produtos",
-  "products_note": "A COCOSPACK faz embalagem de ciclo completo para cosmética e farmacêutica: bombas e pulverizadores, frascos e boiões, sticks e aplicadores, e soluções em materiais reciclados e de origem biológica.",
-  "formats_h": "Formatos de produto",
-  "export_h": "Exportação e mercados",
-  "terms_h": "Condições de cooperação",
-  "download_btn": "Baixar condições (PDF)",
-  "price_btn": "Baixar tabela de preços (PDF)",
-  "pres_btn": "Baixar apresentação (PDF)",
-  "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa da operação por meio da Teranova. Os contatos diretos do fornecedor não são publicados. As referências de registro (EU CPNP, US MoCRA) são indicadas conforme dados da empresa e não constituem aprovação do regulador.",
-  "cta_h": "Interessou-se por este fornecedor?",
-  "cta_d": "Entre em contato — a Teranova organiza as negociações, a verificação e o acompanhamento da operação desde o primeiro contato até a entrega.",
-  "cta_btn": "Entrar em contato pela Teranova",
-  "more": "Abrir perfil →",
-  "verified_suppliers": "Fornecedores verificados",
-  "certs_h": "Certificações e registros"
- }
+  "content": {
+    "tagline": "A embalagem é a primeira coisa em que o cliente toca. Aqui faz-se em três meses, não em seis",
+    "descriptor": "Fabricante coreano de embalagem cosmética de ciclo completo: moldes, injecção, sopro, impressão e montagem sob o mesmo tecto",
+    "origin": "Coreia",
+    "about": [
+      "A COCOSPACK Co., Ltd. fabrica embalagem para cosmética e farmacêutica desde 2010. A empresa não se apresenta como fornecedora de recipientes mas como parceira da marca: a filosofia «CO-» significa que o desenvolvimento avança em conjunto com o cliente, do primeiro esboço ao lote pronto a expedir. Hoje são mais de 160 colaboradores e três instalações: a fábrica principal em Hwaseong, uma segunda fábrica em Ujeong e um centro comercial com I&D própria em Gwacheon.",
+      "A diferença está em todo o ciclo permanecer dentro da empresa. Planeamento, desenho estrutural, fabrico de moldes, injecção, sopro, impressão, montagem e controlo de qualidade fazem-se com equipamento próprio. Por isso o caminho do esboço ao lote vendável leva dois a três meses em vez dos cinco ou seis habituais no sector, e do custo desaparecem a subcontratação e a logística entre oficinas.",
+      "O parque de máquinas: 47 injectoras de 110 a 380 toneladas, 22 sopradoras, 30 sistemas de impressão, 16 linhas de rotulagem, 47 robôs de extracção e 16 zonas de montagem, incluindo oito linhas de tapete. A empresa detém patentes de embalagem funcional — pulverizadores de névoa fina, boiões de dupla câmara para mistura, aplicadores vibratórios, stick líquido — e trabalha com plástico reciclado PCR, bioplástico PLA e monomateriais recicláveis."
+    ],
+    "facts": [
+      "Em actividade desde 2010: mais de 160 colaboradores e três instalações na Coreia",
+      "Ciclo completo interno: moldes, injecção, sopro, impressão, montagem, controlo de qualidade",
+      "Do projecto ao lote vendável em dois a três meses, contra cinco ou seis no sector",
+      "Mais de 220 marcas clientes; entre as que a empresa refere estão a TIRTIR e a APR",
+      "Patentes de embalagem funcional: pulverizadores de névoa fina, boiões de dupla câmara, aplicadores vibratórios"
+    ],
+    "channels": [
+      "Marcas cosméticas que lançam uma nova linha",
+      "Fabricantes por contrato que precisam de embalagem para um projecto",
+      "Distribuidores e empresas de comércio que constroem um produto de marca própria",
+      "Empresas farmacêuticas: embalagem segundo a norma ISO 15378"
+    ],
+    "lines": [
+      {
+        "name": "Bombas e doseadores",
+        "note": "Bombas de espuma, pulverizadores faciais de névoa fina, bombas airless, conta-gotas automáticos. Desenvolvidos internamente e já montados em produtos de marcas globais."
+      },
+      {
+        "name": "Frascos e boiões",
+        "note": "Injecção e sopro de cerca de 5 a 300 ml, incluindo boiões de dupla câmara onde duas fórmulas se misturam mesmo antes da aplicação."
+      },
+      {
+        "name": "Sticks e aplicadores",
+        "note": "Stick líquido, aplicador vibratório para base, stick de ampola. Os mecanismos estão patenteados pela empresa."
+      },
+      {
+        "name": "Embalagem sustentável",
+        "note": "Monomateriais recicláveis, plástico reciclado PCR e bioplástico PLA, estruturas aligeiradas que reduzem o consumo de plástico."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Moldes fabricados internamente",
+        "note": "Uma equipa de ferramentaria própria desenha e corrige os moldes no local. Geometrias complexas e alterações resolvem-se sem subcontratação e sem esperas."
+      },
+      {
+        "name": "Injecção e sopro",
+        "note": "47 injectoras de 110 a 380 toneladas e 22 sopradoras, com sopro em duas fases e injecção-sopro em molde: é o que torna possíveis formas de frasco fora do padrão."
+      },
+      {
+        "name": "Impressão e acabamento",
+        "note": "22 máquinas de impressão UV e 8 de estampagem a quente, 16 linhas de rotulagem, sistemas antiestáticos na fábrica."
+      },
+      {
+        "name": "Controlo de qualidade",
+        "note": "Ensaios de compatibilidade com a fórmula, de estanquidade e de durabilidade da bomba. Três bancadas de estanquidade; a produção passa as auditorias das grandes marcas."
+      }
+    ],
+    "formats": [
+      "Frascos e boiões de cerca de 5 a 300 ml",
+      "Bombas, pulverizadores e sistemas airless",
+      "Sticks e aplicadores",
+      "Embalagem em PCR, PLA e monomateriais",
+      "Desenvolvimento à medida: do esboço ao molde"
+    ],
+    "exportNote": "A empresa fornece embalagem a marcas nos Estados Unidos, no Japão, no Sudeste Asiático e na Europa. A encomenda mínima é de 10 000 unidades e negocia-se conforme o desenho. Preços, volumes e prazos confirmam-se na fase de negociação através da Teranova.",
+    "terms": [
+      {
+        "label": "O que é fornecido",
+        "value": "Desenho estrutural, fabrico de moldes, produção e montagem da embalagem"
+      },
+      {
+        "label": "Encomenda mínima",
+        "value": "10 000 unidades; negociável conforme o artigo"
+      },
+      {
+        "label": "Prazo",
+        "value": "Dois a três meses do projecto ao lote vendável"
+      },
+      {
+        "label": "Certificações",
+        "value": "ISO 9001, ISO 14001, ISO 22716, ISO 15378"
+      },
+      {
+        "label": "Materiais",
+        "value": "Perfil da empresa e catálogo de produtos recebidos do fabricante em Julho de 2026"
+      }
+    ],
+    "consentNote": "Os dados e materiais foram fornecidos pela COCOSPACK Co., Ltd. e são publicados com o consentimento escrito da empresa de 13 de Julho de 2026. As características técnicas seguem os materiais da empresa; preços, volumes e prazos confirmam-se na fase de negociação através da Teranova.",
+    "seoTitle": "COCOSPACK — embalagem cosmética coreana · Teranova",
+    "seoDesc": "A COCOSPACK é um fabricante coreano de embalagem cosmética de ciclo completo desde 2010: ferramentaria própria, 47 injectoras, bombas e pulverizadores, embalagem em PCR e PLA. Prazo de dois a três meses, mínimo 10 000 unidades. Condições através da Teranova.",
+    "catalog_notes": [
+      "Frascos finos de 30 a 145 ml mais pote de creme de 50 ml; dois tipos de bomba e opção com bico.",
+      "A versão larga da linha: frascos de 30 a 200 ml mais pote de 50 ml; mesmas opções de bomba.",
+      "Frascos alongados de 30 a 135 ml com bomba ou tampa de rosca.",
+      "Frascos de 30 a 120 ml e potes de 30/50 ml com acabamento degradê profundo.",
+      "Frascos de 30 a 180 ml com tampa ou bomba; a série inclui potes de 35, 55 e 100 ml.",
+      "Frascos de 50 a 150 ml e potes de 30/50 ml com detalhes dourados.",
+      "Frascos de 30 a 200 ml com dois tipos de bomba e pote de creme de 50 ml.",
+      "Frascos de 30 a 120 ml e potes de 30/50 ml em acabamento ouro rosé.",
+      "Frascos de 55 a 150 ml com base afunilada e pote de creme de 50 ml.",
+      "Frascos de 50 a 120 ml e pote de 50 ml; acabamento metalizado espelhado, conta-gotas opcional.",
+      "Frascos de 50 a 120 ml e pote de 50 ml; conta-gotas opcional.",
+      "Frascos quadrados de 50 e 100 ml e pote de creme de 50 ml.",
+      "Potes de creme em nove tamanhos — de 5 a 220 ml.",
+      "Potes TY de 50 a 200 ml e IE de 200 a 300 ml; versões para patches com tampa interna.",
+      "Minifrascos de 7, 30 e 50 ml para ampolas e amostras.",
+      "Formato de viagem: frascos de 20 a 30 ml e potes de 5 a 10 ml.",
+      "Frascos de 30–50 ml com conta-gotas ou bico.",
+      "Conta-gotas e frascos com bomba de 15 a 50 ml com detalhes dourados.",
+      "Frascos moldados de 20 a 50 ml com bomba ou conta-gotas.",
+      "Minifrascos conta-gotas de 7 a 30 ml para ampolas e amostras.",
+      "Dispensadores tipo seringa e ampolas cosméticas de 1 a 10 ml.",
+      "Frascos de bruma de 50 a 150 ml com borrifo fino.",
+      "A versão em bruma da série IO: frascos de 30 a 200 ml.",
+      "Bruma de bolso plana em formato cartão, de 40 e 50 ml.",
+      "Estojo cushion com espelho.",
+      "Estojos de pó com espelho; disponível versão com pincel integrado.",
+      "Stick para base e produtos de base.",
+      "Stick para blush e texturas cremosas.",
+      "Stick solar em estojo moldado."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem é:",
+    "lines_h": "Linhas de produtos",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Capacidades e produção",
+    "products_h": "Produtos",
+    "products_note": "A COCOSPACK faz embalagem de ciclo completo para cosmética e farmacêutica: bombas e pulverizadores, frascos e boiões, sticks e aplicadores, e soluções em materiais reciclados e de origem biológica.",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "price_btn": "Baixar tabela de preços (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa da operação por meio da Teranova. Os contatos diretos do fornecedor não são publicados. As referências de registro (EU CPNP, US MoCRA) são indicadas conforme dados da empresa e não constituem aprovação do regulador.",
+    "cta_h": "Interessou-se por este fornecedor?",
+    "cta_d": "Entre em contato — a Teranova organiza as negociações, a verificação e o acompanhamento da operação desde o primeiro contato até a entrega.",
+    "cta_btn": "Entrar em contato pela Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações e registros"
+  }
 }

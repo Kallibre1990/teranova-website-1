@@ -1,131 +1,131 @@
 {
- "content": {
-  "tagline": "Un pannello sporco perde fino a due terzi della produzione. Il robot la restituisce",
-  "descriptor": "Produttore cinese di robot e spazzole per la pulizia di pannelli solari; stabilimento di proprietà, impresa nazionale hi-tech",
-  "origin": "Cina",
-  "about": [
-   "BeiJing Multifit Electrical Technology Co., Ltd. produce attrezzature per la pulizia di pannelli solari. Sede a Pechino, stabilimento a Shantou (Guangdong), filiali a Shenzhen e nel Sichuan. L'azienda ha lo status nazionale di impresa hi-tech e opera con il marchio MULTIFIT.",
-   "Il problema che questa attrezzatura risolve si misura in denaro. Polvere, guano e particelle di ruggine riducono la resa del pannello al 20–36% del nominale; dopo la pulizia l'efficienza torna al 90–95% e scende di nuovo se la manutenzione si ferma. Oltre alla produzione persa, lo sporco è pericoloso fisicamente: la zona in ombra si surriscalda, si formano punti caldi, il pannello si degrada e può bruciare. Pulire non è estetica: allunga la vita dell'impianto.",
-   "La gamma si divide in due. Robot: la serie MR-G per file singole e doppie di pannelli, le serie MR-T1 e MR-XY e il carrello di trasporto MR-AR, che sposta il robot da una fila all'altra. Le spazzole MULR — dai modelli manuali alla versione azionata ad acqua — coprono i punti in cui il robot è eccessivo. Per ogni modello l'azienda fornisce un calcolo di resa: superficie pulita all'ora, ritmo giornaliero e tempo necessario per un campo di dimensioni date."
-  ],
-  "facts": [
-   "Impresa nazionale hi-tech; sede a Pechino, stabilimento di proprietà a Shantou",
-   "Robot MR-G, MR-T1 e MR-XY più il carrello MR-AR per lo spostamento tra le file",
-   "Gamma di spazzole MULR, inclusa una versione azionata ad acqua",
-   "Lo sporco porta la resa del pannello al 20–36%; dopo la pulizia l'efficienza torna al 90–95%",
-   "Ogni modello arriva con il proprio calcolo: m² all'ora, ritmo giornaliero, tempo per un campo dato",
-   "Impianti in funzione in Libano, Malta, Malesia, Pakistan e Stati Uniti — i filmati sono in questa pagina"
-  ],
-  "channels": [
-   "Proprietari e gestori di impianti solari",
-   "Operatori di esercizio e manutenzione (O&M)",
-   "Imprese EPC e integratori solari",
-   "Distributori di attrezzature per l'energia"
-  ],
-  "lines": [
-   {
-    "name": "MR-G — robot per file di pannelli",
-    "note": "La serie base, in versione a fila singola e doppia. Velocità di avanzamento intorno ai 12 m/min; resa e ritmo giornaliero si calcolano sul campo concreto."
-   },
-   {
-    "name": "MR-T1 / MR-XY",
-    "note": "Serie di robot per altre configurazioni di impianto, con larghezza di lavoro e modo operativo diversi; si scelgono in base alla geometria del campo."
-   },
-   {
-    "name": "MR-AR — carrello di trasporto",
-    "note": "Porta il robot da una fila all'altra ed elimina lo spostamento manuale. Serve dove le file sono molte e distanti."
-   },
-   {
-    "name": "MULR — spazzole per la pulizia",
-    "note": "Gamma di spazzole dal modello manuale alla versione azionata ad acqua. La risposta per i tratti in cui il robot è eccessivo o non arriva."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Produzione propria",
-    "note": "Stabilimento a Shantou, Guangdong; sede a Pechino, filiali a Shenzhen e nel Sichuan. Status nazionale di impresa hi-tech."
-   },
-   {
-    "name": "Calcolo per l'impianto concreto",
-    "note": "L'azienda non dà specifiche in astratto ma la resa sul campo del cliente: superficie all'ora, ritmo giornaliero, durata del ciclo completo di pulizia."
-   },
-   {
-    "name": "Rapporti di prova e certificati",
-    "note": "I materiali dell'azienda includono rapporti di prova e certificati; l'elenco preciso viene fornito su richiesta in fase di trattativa."
-   }
-  ],
-  "formats": [
-   "Robot per la pulizia di pannelli solari",
-   "Carrelli di trasporto tra le file",
-   "Spazzole per pulizia manuale e semiautomatica",
-   "Ricambi e materiali di consumo",
-   "Unità dimostrative per prove"
-  ],
-  "exportNote": "L'azienda esporta e fornisce quotazioni complete per ciascun modello. Consegna in EXW o FOB; logistica, dogana e accompagnamento dell'operazione sono coordinati da Teranova. L'unità dimostrativa per le prove si concorda a parte. Tra i materiali dell'azienda un progetto riporta cifre precise: un impianto in copertura da 300 kW a Tripoli, in Libano, servito dal robot MR-G2 — i numeri sono presi dalla didascalia del loro stesso video.",
-  "terms": [
-   {
-    "label": "Forme di collaborazione",
-    "value": "Fornitura di attrezzature; scelta del modello secondo la configurazione dell'impianto; ricambi e consumabili"
-   },
-   {
-    "label": "Rese",
-    "value": "EXW o FOB; logistica e dogana coordinate da Teranova"
-   },
-   {
-    "label": "Documenti",
-    "value": "Licenza d'impresa, brochure delle qualifiche, rapporti di prova — forniti dall'azienda"
-   },
-   {
-    "label": "Materiali",
-    "value": "Cataloghi di robot e spazzole e quotazioni per modello ricevuti dal produttore in giugno 2026"
-   }
-  ],
-  "consentNote": "Dati e materiali forniti da BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). I valori di efficienza sono riportati secondo i materiali dell'azienda. Prezzi e condizioni si confermano in fase di trattativa tramite Teranova.",
-  "seoTitle": "MULTIFIT — robot per la pulizia di pannelli solari dalla Cina · Teranova",
-  "seoDesc": "BeiJing Multifit è un produttore cinese di robot MR-G, MR-T1 e MR-XY e spazzole MULR per la pulizia di pannelli solari. Stabilimento proprio, resa calcolata sul vostro campo, fornitura EXW/FOB tramite Teranova.",
-  "catalog_notes": [
-   "Robot di prima generazione che percorre la fila di pannelli: corpo in alluminio, dislivelli fino a 20 mm, pendenze fino a 8°.",
-   "Seconda generazione: otto ruote motrici, corpo anticorrosione rimovibile, batteria LFP da 4.000 cicli; dislivelli 20 mm, pendenze 8°, pannelli 990–2384 mm.",
-   "Terza generazione: corpo in acciaio inox, dislivelli fino a 50 mm, pendenze fino a 20°, testa oscillante e trazione integrale; telecomando fino a 400 m.",
-   "Variante con doppia spazzola a rullo: pulisce il bordo della fila FV e si adatta agli array composti da più file.",
-   "Robot cingolato per file senza ponti: spazzola da 1 metro, pulizia a secco e a umido, giunti fino a 60 mm, pendenze fino a 25°, telecomando 400 m.",
-   "La versione completamente automatica di MR-T1: algoritmi IA e riconoscimento visivo, pianificazione del percorso e correzione dell'assetto.",
-   "Robot a corsa verticale per array multifila larghi fino a 10 m; velocità 8–12 m/min, controllo remoto.",
-   "Veicolo di trasferimento su rotaia: sposta il robot tra le file in due-tre minuti, circa dieci volte più rapido della movimentazione manuale.",
-   "Spazzola raschiante manuale su asta telescopica di 3,5–7,5 m: due uscite d'acqua, testa ad angolo regolabile; pannelli, facciate in vetro, neve.",
-   "Spazzola elettrica a testa singola per array piccoli: setole morbide, angolo della testa regolabile sulla pendenza del pannello.",
-   "Spazzola elettrica a doppia testa: due motori, spruzzo d'acqua, dischi da 280 mm; alimentazione da rete o batteria, 4–6 ore di lavoro.",
-   "Seconda generazione della doppia testa: motori brushless da 170 W, batteria 25,6 V 25 Ah, aste in carbonio da 3,5–7,5 m.",
-   "Spazzola elettrica a rullo: rullo di 650 mm e diametro 130 mm, 400 giri/min, tre uscite d'acqua, spazzola paraspruzzi.",
-   "Spazzola a rullo di seconda generazione: 200 W, 420 giri/min, rotazione reversibile, corpo in policarbonato.",
-   "Spazzola ad azionamento idraulico: funziona con pressione di linea fino a 7 MPa senza elettricità; dischi da 125 o 350 mm, pompa opzionale da 2,2 kW."
-  ]
- },
- "ui": {
-  "profile_sup": "Profilo del fornitore",
-  "about_h": "L'azienda",
-  "for_whom": "Per chi:",
-  "lines_h": "Linee di prodotto",
-  "catalog_h": "Catalogo prodotti",
-  "tech_h": "Competenze e produzione",
-  "products_h": "Prodotti",
-  "products_note": "MULTIFIT produce robot e spazzole per la pulizia dei pannelli solari: attrezzature per impianti e per chi li manutiene.",
-  "formats_h": "Formati dei prodotti",
-  "export_h": "Esportazione e mercati",
-  "terms_h": "Condizioni di collaborazione",
-  "download_btn": "Scarica le condizioni (PDF)",
-  "price_btn": "Scarica il listino (PDF)",
-  "pres_btn": "Scarica la presentazione (PDF)",
-  "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del fornitore non vengono pubblicati.",
-  "cta_h": "Questo fornitore vi interessa?",
-  "cta_d": "Contattateci — Teranova organizza le trattative, la verifica e l'assistenza alla transazione, dal primo contatto alla fornitura.",
-  "cta_btn": "Contattare tramite Teranova",
-  "more": "Apri il profilo →",
-  "verified_suppliers": "Fornitori verificati",
-  "certs_h": "Certificazioni e registrazioni",
-  "gallery_h": "Le macchine al lavoro",
-  "gallery_note": "Le fotografie dei siti e delle attrezzature sono state fornite da MULTIFIT. Le prime quattro sono fotogrammi tratti dai suoi filmati di impianti in funzione, fra cui la centrale in copertura da 300 kW a Tripoli, in Libano. Non si tratta di una nostra visita in fabbrica: lo stato del fornitore è «Informazioni fornite dall'azienda».",
-  "video_h": "Video dell'azienda",
-  "video_note": "Girati da MULTIFIT e pubblicati con il loro consenso. I sottotitoli nel video sono in inglese. Sotto i video di prodotto ci sono cinque casi di progetto da impianti in funzione: Libano, Malta, Malesia, Pakistan e Stati Uniti. Due sono stati ripresi in verticale e sono inseriti nel formato comune senza ritagli. Il caso statunitense è una sola ripresa continua di sette minuti e mezzo; la pagina ne mostra i primi 75 secondi."
- }
+  "content": {
+    "tagline": "Un pannello sporco perde fino a due terzi della produzione. Il robot la restituisce",
+    "descriptor": "Produttore cinese di robot e spazzole per la pulizia di pannelli solari; stabilimento di proprietà, impresa nazionale hi-tech",
+    "origin": "Cina",
+    "about": [
+      "BeiJing Multifit Electrical Technology Co., Ltd. produce attrezzature per la pulizia di pannelli solari. Sede a Pechino, stabilimento a Shantou (Guangdong), filiali a Shenzhen e nel Sichuan. L'azienda ha lo status nazionale di impresa hi-tech e opera con il marchio MULTIFIT.",
+      "Il problema che questa attrezzatura risolve si misura in denaro. Polvere, guano e particelle di ruggine riducono la resa del pannello al 20–36% del nominale; dopo la pulizia l'efficienza torna al 90–95% e scende di nuovo se la manutenzione si ferma. Oltre alla produzione persa, lo sporco è pericoloso fisicamente: la zona in ombra si surriscalda, si formano punti caldi, il pannello si degrada e può bruciare. Pulire non è estetica: allunga la vita dell'impianto.",
+      "La gamma si divide in due. Robot: la serie MR-G per file singole e doppie di pannelli, le serie MR-T1 e MR-XY e il carrello di trasporto MR-AR, che sposta il robot da una fila all'altra. Le spazzole MULR — dai modelli manuali alla versione azionata ad acqua — coprono i punti in cui il robot è eccessivo. Per ogni modello l'azienda fornisce un calcolo di resa: superficie pulita all'ora, ritmo giornaliero e tempo necessario per un campo di dimensioni date."
+    ],
+    "facts": [
+      "Impresa nazionale hi-tech; sede a Pechino, stabilimento di proprietà a Shantou",
+      "Robot MR-G, MR-T1 e MR-XY più il carrello MR-AR per lo spostamento tra le file",
+      "Gamma di spazzole MULR, inclusa una versione azionata ad acqua",
+      "Lo sporco porta la resa del pannello al 20–36%; dopo la pulizia l'efficienza torna al 90–95%",
+      "Ogni modello arriva con il proprio calcolo: m² all'ora, ritmo giornaliero, tempo per un campo dato",
+      "Impianti in funzione in Libano, Malta, Malesia, Pakistan e Stati Uniti — i filmati sono in questa pagina"
+    ],
+    "channels": [
+      "Proprietari e gestori di impianti solari",
+      "Operatori di esercizio e manutenzione (O&M)",
+      "Imprese EPC e integratori solari",
+      "Distributori di attrezzature per l'energia"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — robot per file di pannelli",
+        "note": "La serie base, in versione a fila singola e doppia. Velocità di avanzamento intorno ai 12 m/min; resa e ritmo giornaliero si calcolano sul campo concreto."
+      },
+      {
+        "name": "MR-T1 / MR-XY",
+        "note": "Serie di robot per altre configurazioni di impianto, con larghezza di lavoro e modo operativo diversi; si scelgono in base alla geometria del campo."
+      },
+      {
+        "name": "MR-AR — carrello di trasporto",
+        "note": "Porta il robot da una fila all'altra ed elimina lo spostamento manuale. Serve dove le file sono molte e distanti."
+      },
+      {
+        "name": "MULR — spazzole per la pulizia",
+        "note": "Gamma di spazzole dal modello manuale alla versione azionata ad acqua. La risposta per i tratti in cui il robot è eccessivo o non arriva."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Produzione propria",
+        "note": "Stabilimento a Shantou, Guangdong; sede a Pechino, filiali a Shenzhen e nel Sichuan. Status nazionale di impresa hi-tech."
+      },
+      {
+        "name": "Calcolo per l'impianto concreto",
+        "note": "L'azienda non dà specifiche in astratto ma la resa sul campo del cliente: superficie all'ora, ritmo giornaliero, durata del ciclo completo di pulizia."
+      },
+      {
+        "name": "Rapporti di prova e certificati",
+        "note": "I materiali dell'azienda includono rapporti di prova e certificati; l'elenco preciso viene fornito su richiesta in fase di trattativa."
+      }
+    ],
+    "formats": [
+      "Robot per la pulizia di pannelli solari",
+      "Carrelli di trasporto tra le file",
+      "Spazzole per pulizia manuale e semiautomatica",
+      "Ricambi e materiali di consumo",
+      "Unità dimostrative per prove"
+    ],
+    "exportNote": "L'azienda esporta e fornisce quotazioni complete per ciascun modello. Consegna in EXW o FOB; logistica, dogana e accompagnamento dell'operazione sono coordinati da Teranova. L'unità dimostrativa per le prove si concorda a parte. Tra i materiali dell'azienda un progetto riporta cifre precise: un impianto in copertura da 300 kW a Tripoli, in Libano, servito dal robot MR-G2 — i numeri sono presi dalla didascalia del loro stesso video.",
+    "terms": [
+      {
+        "label": "Forme di collaborazione",
+        "value": "Fornitura di attrezzature; scelta del modello secondo la configurazione dell'impianto; ricambi e consumabili"
+      },
+      {
+        "label": "Rese",
+        "value": "EXW o FOB; logistica e dogana coordinate da Teranova"
+      },
+      {
+        "label": "Documenti",
+        "value": "Licenza d'impresa, brochure delle qualifiche, rapporti di prova — forniti dall'azienda"
+      },
+      {
+        "label": "Materiali",
+        "value": "Cataloghi di robot e spazzole e quotazioni per modello ricevuti dal produttore in giugno 2026"
+      }
+    ],
+    "consentNote": "Dati e materiali forniti da BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). I valori di efficienza sono riportati secondo i materiali dell'azienda. Prezzi e condizioni si confermano in fase di trattativa tramite Teranova.",
+    "seoTitle": "MULTIFIT — robot per la pulizia di pannelli solari · Teranova",
+    "seoDesc": "BeiJing Multifit è un produttore cinese di robot MR-G, MR-T1 e MR-XY e spazzole MULR per la pulizia di pannelli solari. Stabilimento proprio, resa calcolata sul vostro campo, fornitura EXW/FOB tramite Teranova.",
+    "catalog_notes": [
+      "Robot di prima generazione che percorre la fila di pannelli: corpo in alluminio, dislivelli fino a 20 mm, pendenze fino a 8°.",
+      "Seconda generazione: otto ruote motrici, corpo anticorrosione rimovibile, batteria LFP da 4.000 cicli; dislivelli 20 mm, pendenze 8°, pannelli 990–2384 mm.",
+      "Terza generazione: corpo in acciaio inox, dislivelli fino a 50 mm, pendenze fino a 20°, testa oscillante e trazione integrale; telecomando fino a 400 m.",
+      "Variante con doppia spazzola a rullo: pulisce il bordo della fila FV e si adatta agli array composti da più file.",
+      "Robot cingolato per file senza ponti: spazzola da 1 metro, pulizia a secco e a umido, giunti fino a 60 mm, pendenze fino a 25°, telecomando 400 m.",
+      "La versione completamente automatica di MR-T1: algoritmi IA e riconoscimento visivo, pianificazione del percorso e correzione dell'assetto.",
+      "Robot a corsa verticale per array multifila larghi fino a 10 m; velocità 8–12 m/min, controllo remoto.",
+      "Veicolo di trasferimento su rotaia: sposta il robot tra le file in due-tre minuti, circa dieci volte più rapido della movimentazione manuale.",
+      "Spazzola raschiante manuale su asta telescopica di 3,5–7,5 m: due uscite d'acqua, testa ad angolo regolabile; pannelli, facciate in vetro, neve.",
+      "Spazzola elettrica a testa singola per array piccoli: setole morbide, angolo della testa regolabile sulla pendenza del pannello.",
+      "Spazzola elettrica a doppia testa: due motori, spruzzo d'acqua, dischi da 280 mm; alimentazione da rete o batteria, 4–6 ore di lavoro.",
+      "Seconda generazione della doppia testa: motori brushless da 170 W, batteria 25,6 V 25 Ah, aste in carbonio da 3,5–7,5 m.",
+      "Spazzola elettrica a rullo: rullo di 650 mm e diametro 130 mm, 400 giri/min, tre uscite d'acqua, spazzola paraspruzzi.",
+      "Spazzola a rullo di seconda generazione: 200 W, 420 giri/min, rotazione reversibile, corpo in policarbonato.",
+      "Spazzola ad azionamento idraulico: funziona con pressione di linea fino a 7 MPa senza elettricità; dischi da 125 o 350 mm, pompa opzionale da 2,2 kW."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Profilo del fornitore",
+    "about_h": "L'azienda",
+    "for_whom": "Per chi:",
+    "lines_h": "Linee di prodotto",
+    "catalog_h": "Catalogo prodotti",
+    "tech_h": "Competenze e produzione",
+    "products_h": "Prodotti",
+    "products_note": "MULTIFIT produce robot e spazzole per la pulizia dei pannelli solari: attrezzature per impianti e per chi li manutiene.",
+    "formats_h": "Formati dei prodotti",
+    "export_h": "Esportazione e mercati",
+    "terms_h": "Condizioni di collaborazione",
+    "download_btn": "Scarica le condizioni (PDF)",
+    "price_btn": "Scarica il listino (PDF)",
+    "pres_btn": "Scarica la presentazione (PDF)",
+    "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del fornitore non vengono pubblicati.",
+    "cta_h": "Questo fornitore vi interessa?",
+    "cta_d": "Contattateci — Teranova organizza le trattative, la verifica e l'assistenza alla transazione, dal primo contatto alla fornitura.",
+    "cta_btn": "Contattare tramite Teranova",
+    "more": "Apri il profilo →",
+    "verified_suppliers": "Fornitori verificati",
+    "certs_h": "Certificazioni e registrazioni",
+    "gallery_h": "Le macchine al lavoro",
+    "gallery_note": "Le fotografie dei siti e delle attrezzature sono state fornite da MULTIFIT. Le prime quattro sono fotogrammi tratti dai suoi filmati di impianti in funzione, fra cui la centrale in copertura da 300 kW a Tripoli, in Libano. Non si tratta di una nostra visita in fabbrica: lo stato del fornitore è «Informazioni fornite dall'azienda».",
+    "video_h": "Video dell'azienda",
+    "video_note": "Girati da MULTIFIT e pubblicati con il loro consenso. I sottotitoli nel video sono in inglese. Sotto i video di prodotto ci sono cinque casi di progetto da impianti in funzione: Libano, Malta, Malesia, Pakistan e Stati Uniti. Due sono stati ripresi in verticale e sono inseriti nel formato comune senza ritagli. Il caso statunitense è una sola ripresa continua di sette minuti e mezzo; la pagina ne mostra i primi 75 secondi."
+  }
 }

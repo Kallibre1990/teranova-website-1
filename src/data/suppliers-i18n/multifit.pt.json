@@ -1,131 +1,131 @@
 {
- "content": {
-  "tagline": "Um painel sujo perde até dois terços da geração. O robô devolve isso",
-  "descriptor": "Fabricante chinês de robôs e escovas para limpeza de painéis solares; fábrica própria, empresa nacional de alta tecnologia",
-  "origin": "China",
-  "about": [
-   "A BeiJing Multifit Electrical Technology Co., Ltd. fabrica equipamentos de limpeza para painéis solares. Sede em Pequim, fábrica em Shantou (Guangdong), filiais em Shenzhen e Sichuan. A empresa tem status nacional de alta tecnologia e atua sob a marca MULTIFIT.",
-   "O problema que esse equipamento resolve se mede em dinheiro. Poeira, fezes de aves e partículas de ferrugem reduzem a geração do painel a 20–36% do nominal; após a limpeza a eficiência volta a 90–95% e cai de novo se a manutenção parar. Além da perda de geração, a sujeira é fisicamente perigosa: a área sombreada superaquece, formam-se pontos quentes, o painel degrada e pode queimar. Limpar não é cosmético — prolonga a vida da usina.",
-   "A linha se divide em duas. Robôs: a série MR-G para fileiras simples e duplas de painéis, as séries MR-T1 e MR-XY, e o carro de transporte MR-AR, que leva o robô de uma fileira a outra. As escovas MULR — do modelo manual à versão acionada por água — cobrem os pontos em que o robô é excessivo. Para cada modelo a empresa entrega um cálculo de desempenho: área limpa por hora, ritmo diário e tempo necessário para um campo de determinado tamanho."
-  ],
-  "facts": [
-   "Empresa nacional de alta tecnologia; sede em Pequim, fábrica própria em Shantou",
-   "Robôs MR-G, MR-T1 e MR-XY mais o carro MR-AR para deslocamento entre fileiras",
-   "Linha de escovas MULR, incluindo versão acionada por água",
-   "A sujeira reduz a geração do painel a 20–36%; após a limpeza a eficiência volta a 90–95%",
-   "Cada modelo vem com cálculo: m² por hora, ritmo diário e tempo para um campo específico",
-   "Instalações em funcionamento no Líbano, Malta, Malásia, Paquistão e Estados Unidos — os vídeos estão nesta página"
-  ],
-  "channels": [
-   "Proprietários e operadores de usinas solares",
-   "Empresas de operação e manutenção (O&M)",
-   "Contratantes EPC e integradores solares",
-   "Distribuidores de equipamentos para energia"
-  ],
-  "lines": [
-   {
-    "name": "MR-G — robôs para fileiras de painéis",
-    "note": "A série base, em versões de fileira simples e dupla. Velocidade de deslocamento em torno de 12 m/min; capacidade e ritmo diário calculados para o campo específico."
-   },
-   {
-    "name": "MR-T1 / MR-XY",
-    "note": "Séries de robôs para outras configurações de usina, com largura de trabalho e modo de operação distintos; escolhidos pela geometria do campo."
-   },
-   {
-    "name": "MR-AR — carro de transporte",
-    "note": "Leva o robô entre fileiras de painéis e elimina o deslocamento manual. Necessário onde há muitas fileiras e elas ficam distantes."
-   },
-   {
-    "name": "MULR — escovas de limpeza",
-    "note": "Linha de escovas, do modelo manual à versão acionada por água. Solução para trechos em que o robô é excessivo ou não alcança."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Fabricação própria",
-    "note": "Fábrica em Shantou, Guangdong; sede em Pequim e filiais em Shenzhen e Sichuan. Status nacional de alta tecnologia."
-   },
-   {
-    "name": "Cálculo para a usina específica",
-    "note": "A empresa não apresenta especificações no abstrato, e sim capacidade sobre o campo do cliente: área por hora, ritmo diário, tempo do ciclo completo."
-   },
-   {
-    "name": "Relatórios de ensaio e certificados",
-    "note": "Os materiais da empresa incluem relatórios de ensaio e certificados; a lista exata é fornecida mediante pedido na fase da negociação."
-   }
-  ],
-  "formats": [
-   "Robôs de limpeza de painéis solares",
-   "Carros de transporte entre fileiras",
-   "Escovas de limpeza manual e semiautomática",
-   "Peças de reposição e consumíveis",
-   "Unidades de demonstração para testes"
-  ],
-  "exportNote": "A empresa exporta e fornece cotações completas por modelo. Entrega em condições EXW ou FOB; logística, alfândega e acompanhamento da operação são coordenados pela Teranova. A unidade de demonstração para testes é tratada à parte. Entre os materiais da empresa há um projeto com números exatos: uma central em cobertura de 300 kW em Trípoli, no Líbano, servida pelo robô MR-G2 — os números foram retirados da legenda do próprio vídeo.",
-  "terms": [
-   {
-    "label": "Formas de trabalho",
-    "value": "Fornecimento de equipamentos; seleção de modelo conforme a configuração da usina; peças e consumíveis"
-   },
-   {
-    "label": "Condições de entrega",
-    "value": "EXW ou FOB; logística e alfândega coordenadas pela Teranova"
-   },
-   {
-    "label": "Documentos",
-    "value": "Licença de funcionamento, folheto de qualificações, relatórios de ensaio — fornecidos pela empresa"
-   },
-   {
-    "label": "Materiais",
-    "value": "Catálogos de robôs e escovas e cotações por modelo recebidos do fabricante em junho de 2026"
-   }
-  ],
-  "consentNote": "Dados e materiais fornecidos pela BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Os números de eficiência seguem os materiais da empresa. Preços e condições são confirmados na fase da negociação através da Teranova.",
-  "seoTitle": "MULTIFIT — robôs de limpeza de painéis solares da China · Teranova",
-  "seoDesc": "A BeiJing Multifit é uma fabricante chinesa de robôs MR-G, MR-T1 e MR-XY e escovas MULR para limpeza de painéis solares. Fábrica própria, capacidade calculada para o seu campo, fornecimento EXW/FOB pela Teranova.",
-  "catalog_notes": [
-   "Robô de primeira geração que percorre a fileira de painéis: corpo de alumínio, desníveis de até 20 mm, inclinações de até 8°.",
-   "Segunda geração: oito rodas motrizes, corpo anticorrosão removível, bateria LFP de 4.000 ciclos; desníveis de 20 mm, inclinação de 8°, painéis de 990–2384 mm.",
-   "Terceira geração: corpo de aço inox, desníveis de até 50 mm, inclinações de até 20°, cabeça oscilante e tração total; controle a 400 m.",
-   "Variante com escova de rolo dupla: limpa a borda da fileira FV e serve para conjuntos montados em várias fileiras.",
-   "Robô de esteiras para fileiras sem pontes: escova de um metro, limpeza a seco e com água, juntas de até 60 mm, inclinações de até 25°, controle a 400 m.",
-   "A versão totalmente automática do MR-T1: algoritmos de IA e reconhecimento visual, planejamento de rota e correção de postura.",
-   "Robô de percurso vertical para conjuntos multifileira de até 10 m de largura; 8–12 m/min, controle remoto.",
-   "Veículo de transferência sobre trilhos: leva o robô entre fileiras em dois a três minutos — cerca de dez vezes mais rápido que à mão.",
-   "Escova raspadora manual em haste telescópica de 3,5–7,5 m: duas saídas de água, cabeça de ângulo regulável; painéis, fachadas de vidro, neve.",
-   "Escova elétrica de cabeça única para conjuntos menores: cerdas macias, ângulo da cabeça ajustado à inclinação do painel.",
-   "Escova elétrica de cabeça dupla: dois motores, aspersão de água, discos de 280 mm; rede ou bateria, 4–6 horas de trabalho.",
-   "Segunda geração da cabeça dupla: motores sem escovas de 170 W, bateria de 25,6 V e 25 Ah, hastes de carbono de 3,5–7,5 m.",
-   "Escova elétrica de rolo: rolo de 650 mm com 130 mm de diâmetro, 400 rpm, três saídas de água, escova anti-respingos.",
-   "Escova de rolo de segunda geração: 200 W, 420 rpm, rotação reversível, corpo de policarbonato.",
-   "Escova movida a água: funciona com pressão de linha de até 7 MPa sem eletricidade; discos de 125 ou 350 mm, bomba opcional de 2,2 kW."
-  ]
- },
- "ui": {
-  "profile_sup": "Perfil do fornecedor",
-  "about_h": "Sobre a empresa",
-  "for_whom": "Para quem é:",
-  "lines_h": "Linhas de produtos",
-  "catalog_h": "Catálogo de produtos",
-  "tech_h": "Capacidades e produção",
-  "products_h": "Produtos",
-  "products_note": "MULTIFIT fabrica robôs e escovas para a limpeza de painéis solares: equipamento para centrais e para quem as mantém.",
-  "formats_h": "Formatos de produto",
-  "export_h": "Exportação e mercados",
-  "terms_h": "Condições de cooperação",
-  "download_btn": "Baixar condições (PDF)",
-  "price_btn": "Baixar tabela de preços (PDF)",
-  "pres_btn": "Baixar apresentação (PDF)",
-  "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa da operação por meio da Teranova. Os contatos diretos do fornecedor não são publicados.",
-  "cta_h": "Interessou-se por este fornecedor?",
-  "cta_d": "Entre em contato — a Teranova organiza as negociações, a verificação e o acompanhamento da operação desde o primeiro contato até a entrega.",
-  "cta_btn": "Entrar em contato pela Teranova",
-  "more": "Abrir perfil →",
-  "verified_suppliers": "Fornecedores verificados",
-  "certs_h": "Certificações e registros",
-  "gallery_h": "Os equipamentos em operação",
-  "gallery_note": "As fotografias das instalações e do equipamento foram fornecidas pela MULTIFIT. As quatro primeiras são fotogramas dos seus próprios vídeos de instalações em funcionamento, incluindo a central em cobertura de 300 kW em Trípoli, no Líbano. Não se trata de uma visita nossa à fábrica: o estado do fornecedor é «Informação fornecida pela empresa».",
-  "video_h": "Vídeos da empresa",
-  "video_note": "Gravados pela MULTIFIT e publicados com a sua autorização. As legendas no vídeo estão em inglês. Abaixo dos vídeos de produto há cinco casos de projeto em instalações em funcionamento: Líbano, Malta, Malásia, Paquistão e Estados Unidos. Dois foram gravados na vertical e estão encaixados no formato comum sem cortes. O caso norte-americano é uma única filmagem contínua de sete minutos e meio; a página mostra os primeiros 75 segundos."
- }
+  "content": {
+    "tagline": "Um painel sujo perde até dois terços da geração. O robô devolve isso",
+    "descriptor": "Fabricante chinês de robôs e escovas para limpeza de painéis solares; fábrica própria, empresa nacional de alta tecnologia",
+    "origin": "China",
+    "about": [
+      "A BeiJing Multifit Electrical Technology Co., Ltd. fabrica equipamentos de limpeza para painéis solares. Sede em Pequim, fábrica em Shantou (Guangdong), filiais em Shenzhen e Sichuan. A empresa tem status nacional de alta tecnologia e atua sob a marca MULTIFIT.",
+      "O problema que esse equipamento resolve se mede em dinheiro. Poeira, fezes de aves e partículas de ferrugem reduzem a geração do painel a 20–36% do nominal; após a limpeza a eficiência volta a 90–95% e cai de novo se a manutenção parar. Além da perda de geração, a sujeira é fisicamente perigosa: a área sombreada superaquece, formam-se pontos quentes, o painel degrada e pode queimar. Limpar não é cosmético — prolonga a vida da usina.",
+      "A linha se divide em duas. Robôs: a série MR-G para fileiras simples e duplas de painéis, as séries MR-T1 e MR-XY, e o carro de transporte MR-AR, que leva o robô de uma fileira a outra. As escovas MULR — do modelo manual à versão acionada por água — cobrem os pontos em que o robô é excessivo. Para cada modelo a empresa entrega um cálculo de desempenho: área limpa por hora, ritmo diário e tempo necessário para um campo de determinado tamanho."
+    ],
+    "facts": [
+      "Empresa nacional de alta tecnologia; sede em Pequim, fábrica própria em Shantou",
+      "Robôs MR-G, MR-T1 e MR-XY mais o carro MR-AR para deslocamento entre fileiras",
+      "Linha de escovas MULR, incluindo versão acionada por água",
+      "A sujeira reduz a geração do painel a 20–36%; após a limpeza a eficiência volta a 90–95%",
+      "Cada modelo vem com cálculo: m² por hora, ritmo diário e tempo para um campo específico",
+      "Instalações em funcionamento no Líbano, Malta, Malásia, Paquistão e Estados Unidos — os vídeos estão nesta página"
+    ],
+    "channels": [
+      "Proprietários e operadores de usinas solares",
+      "Empresas de operação e manutenção (O&M)",
+      "Contratantes EPC e integradores solares",
+      "Distribuidores de equipamentos para energia"
+    ],
+    "lines": [
+      {
+        "name": "MR-G — robôs para fileiras de painéis",
+        "note": "A série base, em versões de fileira simples e dupla. Velocidade de deslocamento em torno de 12 m/min; capacidade e ritmo diário calculados para o campo específico."
+      },
+      {
+        "name": "MR-T1 / MR-XY",
+        "note": "Séries de robôs para outras configurações de usina, com largura de trabalho e modo de operação distintos; escolhidos pela geometria do campo."
+      },
+      {
+        "name": "MR-AR — carro de transporte",
+        "note": "Leva o robô entre fileiras de painéis e elimina o deslocamento manual. Necessário onde há muitas fileiras e elas ficam distantes."
+      },
+      {
+        "name": "MULR — escovas de limpeza",
+        "note": "Linha de escovas, do modelo manual à versão acionada por água. Solução para trechos em que o robô é excessivo ou não alcança."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Fabricação própria",
+        "note": "Fábrica em Shantou, Guangdong; sede em Pequim e filiais em Shenzhen e Sichuan. Status nacional de alta tecnologia."
+      },
+      {
+        "name": "Cálculo para a usina específica",
+        "note": "A empresa não apresenta especificações no abstrato, e sim capacidade sobre o campo do cliente: área por hora, ritmo diário, tempo do ciclo completo."
+      },
+      {
+        "name": "Relatórios de ensaio e certificados",
+        "note": "Os materiais da empresa incluem relatórios de ensaio e certificados; a lista exata é fornecida mediante pedido na fase da negociação."
+      }
+    ],
+    "formats": [
+      "Robôs de limpeza de painéis solares",
+      "Carros de transporte entre fileiras",
+      "Escovas de limpeza manual e semiautomática",
+      "Peças de reposição e consumíveis",
+      "Unidades de demonstração para testes"
+    ],
+    "exportNote": "A empresa exporta e fornece cotações completas por modelo. Entrega em condições EXW ou FOB; logística, alfândega e acompanhamento da operação são coordenados pela Teranova. A unidade de demonstração para testes é tratada à parte. Entre os materiais da empresa há um projeto com números exatos: uma central em cobertura de 300 kW em Trípoli, no Líbano, servida pelo robô MR-G2 — os números foram retirados da legenda do próprio vídeo.",
+    "terms": [
+      {
+        "label": "Formas de trabalho",
+        "value": "Fornecimento de equipamentos; seleção de modelo conforme a configuração da usina; peças e consumíveis"
+      },
+      {
+        "label": "Condições de entrega",
+        "value": "EXW ou FOB; logística e alfândega coordenadas pela Teranova"
+      },
+      {
+        "label": "Documentos",
+        "value": "Licença de funcionamento, folheto de qualificações, relatórios de ensaio — fornecidos pela empresa"
+      },
+      {
+        "label": "Materiais",
+        "value": "Catálogos de robôs e escovas e cotações por modelo recebidos do fabricante em junho de 2026"
+      }
+    ],
+    "consentNote": "Dados e materiais fornecidos pela BeiJing Multifit Electrical Technology Co., Ltd. (MULTIFIT). Os números de eficiência seguem os materiais da empresa. Preços e condições são confirmados na fase da negociação através da Teranova.",
+    "seoTitle": "MULTIFIT — robôs de limpeza de painéis solares · Teranova",
+    "seoDesc": "A BeiJing Multifit é uma fabricante chinesa de robôs MR-G, MR-T1 e MR-XY e escovas MULR para limpeza de painéis solares. Fábrica própria, capacidade calculada para o seu campo, fornecimento EXW/FOB pela Teranova.",
+    "catalog_notes": [
+      "Robô de primeira geração que percorre a fileira de painéis: corpo de alumínio, desníveis de até 20 mm, inclinações de até 8°.",
+      "Segunda geração: oito rodas motrizes, corpo anticorrosão removível, bateria LFP de 4.000 ciclos; desníveis de 20 mm, inclinação de 8°, painéis de 990–2384 mm.",
+      "Terceira geração: corpo de aço inox, desníveis de até 50 mm, inclinações de até 20°, cabeça oscilante e tração total; controle a 400 m.",
+      "Variante com escova de rolo dupla: limpa a borda da fileira FV e serve para conjuntos montados em várias fileiras.",
+      "Robô de esteiras para fileiras sem pontes: escova de um metro, limpeza a seco e com água, juntas de até 60 mm, inclinações de até 25°, controle a 400 m.",
+      "A versão totalmente automática do MR-T1: algoritmos de IA e reconhecimento visual, planejamento de rota e correção de postura.",
+      "Robô de percurso vertical para conjuntos multifileira de até 10 m de largura; 8–12 m/min, controle remoto.",
+      "Veículo de transferência sobre trilhos: leva o robô entre fileiras em dois a três minutos — cerca de dez vezes mais rápido que à mão.",
+      "Escova raspadora manual em haste telescópica de 3,5–7,5 m: duas saídas de água, cabeça de ângulo regulável; painéis, fachadas de vidro, neve.",
+      "Escova elétrica de cabeça única para conjuntos menores: cerdas macias, ângulo da cabeça ajustado à inclinação do painel.",
+      "Escova elétrica de cabeça dupla: dois motores, aspersão de água, discos de 280 mm; rede ou bateria, 4–6 horas de trabalho.",
+      "Segunda geração da cabeça dupla: motores sem escovas de 170 W, bateria de 25,6 V e 25 Ah, hastes de carbono de 3,5–7,5 m.",
+      "Escova elétrica de rolo: rolo de 650 mm com 130 mm de diâmetro, 400 rpm, três saídas de água, escova anti-respingos.",
+      "Escova de rolo de segunda geração: 200 W, 420 rpm, rotação reversível, corpo de policarbonato.",
+      "Escova movida a água: funciona com pressão de linha de até 7 MPa sem eletricidade; discos de 125 ou 350 mm, bomba opcional de 2,2 kW."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem é:",
+    "lines_h": "Linhas de produtos",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Capacidades e produção",
+    "products_h": "Produtos",
+    "products_note": "MULTIFIT fabrica robôs e escovas para a limpeza de painéis solares: equipamento para centrais e para quem as mantém.",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "price_btn": "Baixar tabela de preços (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Os preços e as condições são indicativos e são definidos na etapa da operação por meio da Teranova. Os contatos diretos do fornecedor não são publicados.",
+    "cta_h": "Interessou-se por este fornecedor?",
+    "cta_d": "Entre em contato — a Teranova organiza as negociações, a verificação e o acompanhamento da operação desde o primeiro contato até a entrega.",
+    "cta_btn": "Entrar em contato pela Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações e registros",
+    "gallery_h": "Os equipamentos em operação",
+    "gallery_note": "As fotografias das instalações e do equipamento foram fornecidas pela MULTIFIT. As quatro primeiras são fotogramas dos seus próprios vídeos de instalações em funcionamento, incluindo a central em cobertura de 300 kW em Trípoli, no Líbano. Não se trata de uma visita nossa à fábrica: o estado do fornecedor é «Informação fornecida pela empresa».",
+    "video_h": "Vídeos da empresa",
+    "video_note": "Gravados pela MULTIFIT e publicados com a sua autorização. As legendas no vídeo estão em inglês. Abaixo dos vídeos de produto há cinco casos de projeto em instalações em funcionamento: Líbano, Malta, Malásia, Paquistão e Estados Unidos. Dois foram gravados na vertical e estão encaixados no formato comum sem cortes. O caso norte-americano é uma única filmagem contínua de sete minutos e meio; a página mostra os primeiros 75 segundos."
+  }
 }

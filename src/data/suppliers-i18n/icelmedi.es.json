@@ -22,16 +22,40 @@
       "Propietarios de marcas que buscan un socio coreano de OEM/ODM"
     ],
     "lines": [
-      { "name": "cellmedics — cuidado profesional", "note": "Cosmecéutica para uso en cabina y en casa: limpieza, tonificación, sérums, ampollas, cremas y mascarillas. Los formatos grandes (500–1 000 ml, 1 kg) están pensados para el trabajo en cabina; los compactos, para el cuidado en casa y el canal minorista." },
-      { "name": "Cica Clear — para piel sensible y con imperfecciones", "note": "Línea a base de Centella asiatica: tónico, sérum, ampolla y crema para la piel con tendencia a las rojeces y las imperfecciones. Se combina en un protocolo de cuidado completo." },
-      { "name": "Biocell Multi — recuperación y firmeza", "note": "Línea multifuncional con quitosano y un complejo de factores de crecimiento: tónico, sérum, ampolla y crema. Declarada por la empresa como cosmética funcional de doble acción — iluminación del tono y corrección de arrugas." },
-      { "name": "KERASON — aparatología estética", "note": "El equipo KERASON PRIME se basa en ultrasonido de alta potencia y electrovibración, con tres tipos de cabezales para distintas tareas y dos activadores profesionales, Pure AT y Pure ST. Según la documentación de la empresa, es un dispositivo de categoría doméstica y de salón, no un producto sanitario." }
+      {
+        "name": "cellmedics — cuidado profesional",
+        "note": "Cosmecéutica para uso en cabina y en casa: limpieza, tonificación, sérums, ampollas, cremas y mascarillas. Los formatos grandes (500–1 000 ml, 1 kg) están pensados para el trabajo en cabina; los compactos, para el cuidado en casa y el canal minorista."
+      },
+      {
+        "name": "Cica Clear — para piel sensible y con imperfecciones",
+        "note": "Línea a base de Centella asiatica: tónico, sérum, ampolla y crema para la piel con tendencia a las rojeces y las imperfecciones. Se combina en un protocolo de cuidado completo."
+      },
+      {
+        "name": "Biocell Multi — recuperación y firmeza",
+        "note": "Línea multifuncional con quitosano y un complejo de factores de crecimiento: tónico, sérum, ampolla y crema. Declarada por la empresa como cosmética funcional de doble acción — iluminación del tono y corrección de arrugas."
+      },
+      {
+        "name": "KERASON — aparatología estética",
+        "note": "El equipo KERASON PRIME se basa en ultrasonido de alta potencia y electrovibración, con tres tipos de cabezales para distintas tareas y dos activadores profesionales, Pure AT y Pure ST. Según la documentación de la empresa, es un dispositivo de categoría doméstica y de salón, no un producto sanitario."
+      }
     ],
     "tech": [
-      { "name": "Factores de crecimiento y recombinación de proteínas", "note": "Competencia propia de la empresa en la obtención y la estabilización de complejos proteicos; sobre ella se construyen la línea Biocell Multi y las cremas reparadoras." },
-      { "name": "Péptidos biomiméticos y callo vegetal", "note": "Síntesis de péptidos que reproducen estructuras naturales de la piel y cultivo de células vegetales para obtener extractos activos." },
-      { "name": "Ultrasonido de alta potencia de 20–32 kHz", "note": "Tecnología KERASON: las ondas ultrasónicas de baja frecuencia se convierten en ondas de alta potencia y se transmiten a la piel junto con electrovibración. La patente de KERASON PRIME está registrada en Corea en 2026 (según información de la empresa)." },
-      { "name": "OEM/ODM de ciclo completo", "note": "Planificación del producto, desarrollo de la fórmula, diseño del envase, producción en la planta asociada y acompañamiento de la exportación. El pedido mínimo para OEM/ODM es desde 3 000 unidades." }
+      {
+        "name": "Factores de crecimiento y recombinación de proteínas",
+        "note": "Competencia propia de la empresa en la obtención y la estabilización de complejos proteicos; sobre ella se construyen la línea Biocell Multi y las cremas reparadoras."
+      },
+      {
+        "name": "Péptidos biomiméticos y callo vegetal",
+        "note": "Síntesis de péptidos que reproducen estructuras naturales de la piel y cultivo de células vegetales para obtener extractos activos."
+      },
+      {
+        "name": "Ultrasonido de alta potencia de 20–32 kHz",
+        "note": "Tecnología KERASON: las ondas ultrasónicas de baja frecuencia se convierten en ondas de alta potencia y se transmiten a la piel junto con electrovibración. La patente de KERASON PRIME está registrada en Corea en 2026 (según información de la empresa)."
+      },
+      {
+        "name": "OEM/ODM de ciclo completo",
+        "note": "Planificación del producto, desarrollo de la fórmula, diseño del envase, producción en la planta asociada y acompañamiento de la exportación. El pedido mínimo para OEM/ODM es desde 3 000 unidades."
+      }
     ],
     "formats": [
       "Tónicos y sérums de 500–1 000 ml",
@@ -43,14 +67,29 @@
     ],
     "exportNote": "Según información de la empresa, los productos se suministran a EE. UU., Hong Kong, Australia, Vietnam, Reino Unido y Tailandia; en Indonesia trabaja un distribuidor exclusivo. En varios mercados —China, Malasia, Reino Unido, EE. UU. y Dubái— la empresa informa de memorandos de entendimiento firmados; los acuerdos finales están en fase de negociación, por lo que esos territorios no se consideran cerrados. La base de entrega es FOB Korea. Destinos prioritarios para la empresa: China, Japón, Reino Unido, EE. UU., Francia y Taiwán.",
     "terms": [
-      { "label": "Condición de entrega", "value": "FOB Korea" },
-      { "label": "Pedido mínimo", "value": "desde 100 unidades por referencia (mascarillas modeladoras — desde 30); OEM/ODM — desde 3 000 unidades" },
-      { "label": "Precios", "value": "Niveles mayorista y de distribución; para el equipo KERASON PRIME se prevén condiciones aparte, incluidas condiciones de exclusividad a partir de 50 unidades al año" },
-      { "label": "Pago", "value": "100% T/T; las condiciones se acuerdan en el contrato" },
-      { "label": "Plazo de producción", "value": "50–60 días tras la confirmación del pedido; los plazos de entrega dependen del mercado y de los requisitos de registro" }
+      {
+        "label": "Condición de entrega",
+        "value": "FOB Korea"
+      },
+      {
+        "label": "Pedido mínimo",
+        "value": "desde 100 unidades por referencia (mascarillas modeladoras — desde 30); OEM/ODM — desde 3 000 unidades"
+      },
+      {
+        "label": "Precios",
+        "value": "Niveles mayorista y de distribución; para el equipo KERASON PRIME se prevén condiciones aparte, incluidas condiciones de exclusividad a partir de 50 unidades al año"
+      },
+      {
+        "label": "Pago",
+        "value": "100% T/T; las condiciones se acuerdan en el contrato"
+      },
+      {
+        "label": "Plazo de producción",
+        "value": "50–60 días tras la confirmación del pedido; los plazos de entrega dependen del mercado y de los requisitos de registro"
+      }
     ],
     "consentNote": "Los datos y materiales han sido facilitados por iCELmedi Co., Ltd. y se publican con su consentimiento por escrito del 5 de agosto de 2026. La información sobre certificaciones, registros y el modelo de producción se indica según información de la empresa y está sujeta a confirmación documental en la etapa de la operación. Los productos profesionales de aplicación inyectable y de mesoterapia no se presentan en el escaparate.",
-    "seoTitle": "iCELmedi — cosmecéutica coreana cellmedics y equipos KERASON · Teranova",
+    "seoTitle": "iCELmedi — cosmecéutica coreana cellmedics · Teranova",
     "seoDesc": "iCELmedi — desarrollador coreano de cosmecéutica profesional cellmedics y de los equipos KERASON: tónicos, sérums, ampollas, cremas y mascarillas. OEM/ODM, FOB Korea, vía Teranova.",
     "catalog_notes": [
       "Leche limpiadora para la primera fase de la limpieza: retira con suavidad el maquillaje y las impurezas sin resecar la piel. Formato de cabina de 1 litro.",

@@ -1,137 +1,137 @@
 {
- "content": {
-  "tagline": "Esthétique professionnelle : pas une heure d'hydratation, mais une structure de peau reconstruite",
-  "descriptor": "Marque coréenne de soin professionnel pour cabines ; formules à base d'eau de soja sauvage, exosomes et PDRN",
-  "origin": "Corée",
-  "about": [
-   "DOOBOM Co., Ltd. est une marque coréenne de soin professionnel née en cabine, et non au marketing. L'entreprise recueille les données de ses salons partenaires — ce avec quoi les clientes arrivent réellement et ce qui donne un résultat visible pendant le soin — et bâtit ses formules à partir de là. Elle se définit comme une marque portée par la R&D, où les ingrédients, la technologie de pénétration et le résultat démontré passent avant tout.",
-   "La différence commence à la base de la formule. Au lieu d'eau purifiée, Doobom utilise un extrait de soja sauvage coréen. Cette base porte ses propres actifs : le produit part donc d'un fondement utile et non d'un simple véhicule. L'objectif affiché n'est ni l'hydratation passagère ni la fermeté d'un instant, mais un travail sur la structure de la peau — de la barrière jusqu'aux couches plus profondes.",
-   "La partie active repose sur quatre groupes : exosomes issus du ginseng et PDRN pour la récupération et l'éclat ; spicules naturelles brevetées, hautement raffinées, dont la fine structure en canaux emmène les actifs plus loin ; un peptide à action rapide pour le collagène, l'élastine et les ridules d'expression ; et un complexe éclaircissant — caféine, vitamine K, niacinamide, vitamine C et dérivés, arbutine, acide hyaluronique. Les produits sont réunis en programmes de cabine complets, et non vendus en pots isolés."
-  ],
-  "facts": [
-   "La marque vient de l'esthétique professionnelle : les formules naissent des données des cabines partenaires",
-   "La base des formules est un extrait de soja sauvage coréen à la place de l'eau purifiée",
-   "Exosomes issus du ginseng et PDRN — récupération, éclat, contour de l'œil",
-   "Spicules naturelles brevetées et hautement raffinées : une structure en canaux qui améliore la pénétration des actifs",
-   "Peptide à action rapide pour le collagène et l'élastine ; complexe éclaircissant à la niacinamide, l'arbutine et la vitamine C"
-  ],
-  "channels": [
-   "Distributeurs de cosmétique professionnelle",
-   "Instituts d'esthétique, cabines et spas",
-   "Cliniques esthétiques — soin post-acte",
-   "Centres de formation et écoles d'esthétique"
-  ],
-  "lines": [
-   {
-    "name": "Ampoule & Booster",
-    "note": "Concentrés en ampoule pour le soin en cabine et la poursuite à domicile, dont un booster à la niacinamide pour le sébum, les pores et le grain de peau."
-   },
-   {
-    "name": "Exosome & PDRN",
-    "note": "La ligne récupération : exosomes issus du ginseng et PDRN. L'objectif est de rendre à la peau sa propre activité, relever l'éclat et travailler le contour de l'œil."
-   },
-   {
-    "name": "Spicule MTS",
-    "note": "Produits aux spicules naturelles hautement raffinées. Leur microstructure en canaux augmente la perméabilité de la peau aux actifs — la technique que les esthéticiennes connaissent du MTS."
-   },
-   {
-    "name": "Salon Programs",
-    "note": "Protocoles de cabine prêts : une séquence de produits pour une préoccupation précise, plutôt que des articles séparés. Composés à partir des données des salons partenaires."
-   },
-   {
-    "name": "Programmes avec appareils",
-    "note": "Appareils de cabine et protocoles associés : Vol-New-Up pour le visage et le décolleté, Slim Ultra Max pour le corps. L'appareil est relié à la gamme de soins : le traitement se poursuit en cabine puis à domicile."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Développement à partir du terrain",
-    "note": "La marque travaille avec des salons professionnels et recueille des statistiques réelles sur les demandes et les résultats. Une formule apparaît en réponse à un problème que la cabine rencontre sans cesse."
-   },
-   {
-    "name": "Base de soja sauvage plutôt que d'eau",
-    "note": "Les formules reposent sur un extrait de soja sauvage coréen : la base porte elle-même des substances actives au lieu de n'être qu'un solvant."
-   },
-   {
-    "name": "Pénétration par les spicules",
-    "note": "Les spicules naturelles passent par un raffinage en plusieurs étapes et fonctionnent comme un système de délivrance : une fine structure en canaux conduit les actifs plus profondément qu'une simple application."
-   },
-   {
-    "name": "Base d'ingrédients",
-    "note": "Exosomes de ginseng, PDRN, peptides à action rapide, niacinamide, arbutine, vitamines C et K, caféine, acide hyaluronique."
-   }
-  ],
-  "formats": [
-   "Ampoules et boosters",
-   "Produits aux spicules (MTS)",
-   "Crèmes et soin post-acte",
-   "Programmes de cabine complets",
-   "Formats professionnels pour cabine"
-  ],
-  "exportNote": "La marque est pensée pour le canal professionnel : instituts, cliniques et distributeurs qui les servent. Conditions, volumes et prix se confirment au stade de la transaction via Teranova ; les documents sont publiés avec l'accord écrit de l'entreprise.",
-  "terms": [
-   {
-    "label": "Ce qui est fourni",
-    "value": "Cosmétique professionnelle, appareils de cabine, formation du personnel et programmes de gestion de l'institut"
-   },
-   {
-    "label": "Formes de coopération",
-    "value": "Fourniture en gros de la ligne professionnelle ; distribution sur un territoire ; approvisionnement des programmes de cabine"
-   },
-   {
-    "label": "Canal",
-    "value": "Professionnel : instituts d'esthétique, cabines, cliniques"
-   },
-   {
-    "label": "Conditions de livraison",
-    "value": "Confirmées au stade de la transaction ; logistique et douane coordonnées par Teranova"
-   },
-   {
-    "label": "Documents",
-    "value": "Profil de l'entreprise et présentation de la marque reçus du fabricant en août 2026"
-   }
-  ],
-  "consentNote": "Données et documents fournis par DOOBOM Co., Ltd. et publiés avec son accord écrit. Les propriétés des ingrédients sont reprises des documents de l'entreprise ; prix et conditions se confirment au stade de la transaction via Teranova.",
-  "seoTitle": "DOOBOM — esthétique professionnelle coréenne : exosomes, PDRN, spicules · Teranova",
-  "seoDesc": "DOOBOM est une marque coréenne de soin professionnel pour cabines : base de soja sauvage, exosomes de ginseng, PDRN, spicules brevetées, peptides. Programmes de cabine et fourniture en gros via Teranova.",
-  "catalog_notes": [
-   "Ampoule de PDRN en coffret de dix flacons : récupération cutanée, soutien de la barrière et fermeté. Le format est pensé pour une cure en cabine.",
-   "Masque tissu en cellulose aux exosomes, utilisé après le soin pour apaiser la peau. Cinq pièces par boîte.",
-   "Crème réparatrice en tube de 60 ml avec EGF et exosomes : barrière, texture de la peau et fermeté.",
-   "Crème réparatrice en pot de 100 ml. Selon la société, elle soutient la densité et l'élasticité de la peau et agit comme antioxydant.",
-   "Ampoules aux spicules naturelles pour le soin des pores et de la texture. Trois flacons pour un cycle de trois jours.",
-   "Ampoule au niacinamide à 15 % pour unifier le teint et traiter les taches.",
-   "Booster d'éclat et de soutien de la barrière, formulé avec des exosomes de ginseng.",
-   "Crème pour le contour des yeux et le milieu du visage, 20 ml. L'applicateur à micro-courant aide à répartir le produit.",
-   "Gel apaisant aux exosomes : fraîcheur, soin des rougeurs et équilibre hydrique. 180 ml.",
-   "Le même gel apaisant au format professionnel de 500 ml.",
-   "Brume crémeuse aux protéines de soja et huile de jojoba, 100 ml. Hydratation et éclat au fil de la journée.",
-   "Mousse nettoyante légèrement acide pour peaux à imperfections, 150 ml. Nettoyage doux, soin des pores et du sébum.",
-   "Mousse nettoyante légèrement alcaline pour peaux à imperfections, 150 ml. Nettoyage plus profond avant le soin principal.",
-   "Coffret de voyage de quatre produits : mousse nettoyante, gel apaisant, booster et crème réparatrice. Format pour une cure d'une semaine."
-  ]
- },
- "ui": {
-  "profile_sup": "Profil du fournisseur",
-  "about_h": "À propos de l'entreprise",
-  "for_whom": "Pour qui :",
-  "lines_h": "Gammes de produits",
-  "catalog_h": "Catalogue de produits",
-  "tech_h": "Capacités et production",
-  "products_h": "Produits",
-  "products_note": "La gamme professionnelle DOOBOM pour les instituts : ampoules au PDRN et aux spicules, ligne réparatrice aux exosomes, produits apaisants et nettoyants. Formats cabine avec la poursuite de la cure à domicile.",
-  "formats_h": "Formats de produits",
-  "export_h": "Export et marchés",
-  "terms_h": "Conditions de collaboration",
-  "download_btn": "Télécharger les conditions (PDF)",
-  "price_btn": "Télécharger la liste de prix (PDF)",
-  "pres_btn": "Télécharger la présentation (PDF)",
-  "terms_disc": "Les prix et conditions sont indicatifs et précisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés. Les références réglementaires (EU CPNP, US MoCRA) sont indiquées selon les données de l'entreprise et ne constituent pas une approbation du régulateur.",
-  "cta_h": "Ce fournisseur vous intéresse ?",
-  "cta_d": "Contactez-nous — Teranova organise la négociation, la vérification et l'accompagnement de la transaction du premier contact à la livraison.",
-  "cta_btn": "Contacter via Teranova",
-  "more": "Ouvrir le profil →",
-  "verified_suppliers": "Fournisseurs vérifiés",
-  "certs_h": "Certificats et enregistrements"
- }
+  "content": {
+    "tagline": "Esthétique professionnelle : pas une heure d'hydratation, mais une structure de peau reconstruite",
+    "descriptor": "Marque coréenne de soin professionnel pour cabines ; formules à base d'eau de soja sauvage, exosomes et PDRN",
+    "origin": "Corée",
+    "about": [
+      "DOOBOM Co., Ltd. est une marque coréenne de soin professionnel née en cabine, et non au marketing. L'entreprise recueille les données de ses salons partenaires — ce avec quoi les clientes arrivent réellement et ce qui donne un résultat visible pendant le soin — et bâtit ses formules à partir de là. Elle se définit comme une marque portée par la R&D, où les ingrédients, la technologie de pénétration et le résultat démontré passent avant tout.",
+      "La différence commence à la base de la formule. Au lieu d'eau purifiée, Doobom utilise un extrait de soja sauvage coréen. Cette base porte ses propres actifs : le produit part donc d'un fondement utile et non d'un simple véhicule. L'objectif affiché n'est ni l'hydratation passagère ni la fermeté d'un instant, mais un travail sur la structure de la peau — de la barrière jusqu'aux couches plus profondes.",
+      "La partie active repose sur quatre groupes : exosomes issus du ginseng et PDRN pour la récupération et l'éclat ; spicules naturelles brevetées, hautement raffinées, dont la fine structure en canaux emmène les actifs plus loin ; un peptide à action rapide pour le collagène, l'élastine et les ridules d'expression ; et un complexe éclaircissant — caféine, vitamine K, niacinamide, vitamine C et dérivés, arbutine, acide hyaluronique. Les produits sont réunis en programmes de cabine complets, et non vendus en pots isolés."
+    ],
+    "facts": [
+      "La marque vient de l'esthétique professionnelle : les formules naissent des données des cabines partenaires",
+      "La base des formules est un extrait de soja sauvage coréen à la place de l'eau purifiée",
+      "Exosomes issus du ginseng et PDRN — récupération, éclat, contour de l'œil",
+      "Spicules naturelles brevetées et hautement raffinées : une structure en canaux qui améliore la pénétration des actifs",
+      "Peptide à action rapide pour le collagène et l'élastine ; complexe éclaircissant à la niacinamide, l'arbutine et la vitamine C"
+    ],
+    "channels": [
+      "Distributeurs de cosmétique professionnelle",
+      "Instituts d'esthétique, cabines et spas",
+      "Cliniques esthétiques — soin post-acte",
+      "Centres de formation et écoles d'esthétique"
+    ],
+    "lines": [
+      {
+        "name": "Ampoule & Booster",
+        "note": "Concentrés en ampoule pour le soin en cabine et la poursuite à domicile, dont un booster à la niacinamide pour le sébum, les pores et le grain de peau."
+      },
+      {
+        "name": "Exosome & PDRN",
+        "note": "La ligne récupération : exosomes issus du ginseng et PDRN. L'objectif est de rendre à la peau sa propre activité, relever l'éclat et travailler le contour de l'œil."
+      },
+      {
+        "name": "Spicule MTS",
+        "note": "Produits aux spicules naturelles hautement raffinées. Leur microstructure en canaux augmente la perméabilité de la peau aux actifs — la technique que les esthéticiennes connaissent du MTS."
+      },
+      {
+        "name": "Salon Programs",
+        "note": "Protocoles de cabine prêts : une séquence de produits pour une préoccupation précise, plutôt que des articles séparés. Composés à partir des données des salons partenaires."
+      },
+      {
+        "name": "Programmes avec appareils",
+        "note": "Appareils de cabine et protocoles associés : Vol-New-Up pour le visage et le décolleté, Slim Ultra Max pour le corps. L'appareil est relié à la gamme de soins : le traitement se poursuit en cabine puis à domicile."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Développement à partir du terrain",
+        "note": "La marque travaille avec des salons professionnels et recueille des statistiques réelles sur les demandes et les résultats. Une formule apparaît en réponse à un problème que la cabine rencontre sans cesse."
+      },
+      {
+        "name": "Base de soja sauvage plutôt que d'eau",
+        "note": "Les formules reposent sur un extrait de soja sauvage coréen : la base porte elle-même des substances actives au lieu de n'être qu'un solvant."
+      },
+      {
+        "name": "Pénétration par les spicules",
+        "note": "Les spicules naturelles passent par un raffinage en plusieurs étapes et fonctionnent comme un système de délivrance : une fine structure en canaux conduit les actifs plus profondément qu'une simple application."
+      },
+      {
+        "name": "Base d'ingrédients",
+        "note": "Exosomes de ginseng, PDRN, peptides à action rapide, niacinamide, arbutine, vitamines C et K, caféine, acide hyaluronique."
+      }
+    ],
+    "formats": [
+      "Ampoules et boosters",
+      "Produits aux spicules (MTS)",
+      "Crèmes et soin post-acte",
+      "Programmes de cabine complets",
+      "Formats professionnels pour cabine"
+    ],
+    "exportNote": "La marque est pensée pour le canal professionnel : instituts, cliniques et distributeurs qui les servent. Conditions, volumes et prix se confirment au stade de la transaction via Teranova ; les documents sont publiés avec l'accord écrit de l'entreprise.",
+    "terms": [
+      {
+        "label": "Ce qui est fourni",
+        "value": "Cosmétique professionnelle, appareils de cabine, formation du personnel et programmes de gestion de l'institut"
+      },
+      {
+        "label": "Formes de coopération",
+        "value": "Fourniture en gros de la ligne professionnelle ; distribution sur un territoire ; approvisionnement des programmes de cabine"
+      },
+      {
+        "label": "Canal",
+        "value": "Professionnel : instituts d'esthétique, cabines, cliniques"
+      },
+      {
+        "label": "Conditions de livraison",
+        "value": "Confirmées au stade de la transaction ; logistique et douane coordonnées par Teranova"
+      },
+      {
+        "label": "Documents",
+        "value": "Profil de l'entreprise et présentation de la marque reçus du fabricant en août 2026"
+      }
+    ],
+    "consentNote": "Données et documents fournis par DOOBOM Co., Ltd. et publiés avec son accord écrit. Les propriétés des ingrédients sont reprises des documents de l'entreprise ; prix et conditions se confirment au stade de la transaction via Teranova.",
+    "seoTitle": "DOOBOM — esthétique professionnelle coréenne  · Teranova",
+    "seoDesc": "DOOBOM est une marque coréenne de soin professionnel pour cabines : base de soja sauvage, exosomes de ginseng, PDRN, spicules brevetées, peptides. Programmes de cabine et fourniture en gros via Teranova.",
+    "catalog_notes": [
+      "Ampoule de PDRN en coffret de dix flacons : récupération cutanée, soutien de la barrière et fermeté. Le format est pensé pour une cure en cabine.",
+      "Masque tissu en cellulose aux exosomes, utilisé après le soin pour apaiser la peau. Cinq pièces par boîte.",
+      "Crème réparatrice en tube de 60 ml avec EGF et exosomes : barrière, texture de la peau et fermeté.",
+      "Crème réparatrice en pot de 100 ml. Selon la société, elle soutient la densité et l'élasticité de la peau et agit comme antioxydant.",
+      "Ampoules aux spicules naturelles pour le soin des pores et de la texture. Trois flacons pour un cycle de trois jours.",
+      "Ampoule au niacinamide à 15 % pour unifier le teint et traiter les taches.",
+      "Booster d'éclat et de soutien de la barrière, formulé avec des exosomes de ginseng.",
+      "Crème pour le contour des yeux et le milieu du visage, 20 ml. L'applicateur à micro-courant aide à répartir le produit.",
+      "Gel apaisant aux exosomes : fraîcheur, soin des rougeurs et équilibre hydrique. 180 ml.",
+      "Le même gel apaisant au format professionnel de 500 ml.",
+      "Brume crémeuse aux protéines de soja et huile de jojoba, 100 ml. Hydratation et éclat au fil de la journée.",
+      "Mousse nettoyante légèrement acide pour peaux à imperfections, 150 ml. Nettoyage doux, soin des pores et du sébum.",
+      "Mousse nettoyante légèrement alcaline pour peaux à imperfections, 150 ml. Nettoyage plus profond avant le soin principal.",
+      "Coffret de voyage de quatre produits : mousse nettoyante, gel apaisant, booster et crème réparatrice. Format pour une cure d'une semaine."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "À propos de l'entreprise",
+    "for_whom": "Pour qui :",
+    "lines_h": "Gammes de produits",
+    "catalog_h": "Catalogue de produits",
+    "tech_h": "Capacités et production",
+    "products_h": "Produits",
+    "products_note": "La gamme professionnelle DOOBOM pour les instituts : ampoules au PDRN et aux spicules, ligne réparatrice aux exosomes, produits apaisants et nettoyants. Formats cabine avec la poursuite de la cure à domicile.",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de collaboration",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "price_btn": "Télécharger la liste de prix (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Les prix et conditions sont indicatifs et précisés au stade de la transaction via Teranova. Les contacts directs du fournisseur ne sont pas publiés. Les références réglementaires (EU CPNP, US MoCRA) sont indiquées selon les données de l'entreprise et ne constituent pas une approbation du régulateur.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Contactez-nous — Teranova organise la négociation, la vérification et l'accompagnement de la transaction du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certificats et enregistrements"
+  }
 }
