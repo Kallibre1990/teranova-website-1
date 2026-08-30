@@ -36588,5 +36588,481 @@
         ]
       }
     }
+  },
+  {
+    "slug": "certified-exporter-status-what-it-gives-a-buyer",
+    "category": "guide",
+    "date": "2026-08-30",
+    "related": [
+      "aberede",
+      "cosmetics",
+      "verify"
+    ],
+    "supplier": "aberede",
+    "hero": "/img/suppliers/aberede/gallery/jeju-serum-coast.jpg",
+    "i18n": {
+      "ru": {
+        "title": "Сертифицированный экспортёр: что даёт этот статус покупателю",
+        "excerpt": "Строку про сертифицированного экспортёра пролистывают как формальность. На деле это одна из немногих строк в презентации завода, которая меняет конечную цену партии на вашем складе.",
+        "seoTitle": "Сертифицированный экспортёр: что даёт статус · Teranova",
+        "seoDesc": "Что подтверждает сертификат происхождения, чем статус сертифицированного экспортёра отличается от обычной справки и что спросить у поставщика.",
+        "sections": [
+          {
+            "p": [
+              "В презентациях корейских заводов часто встречается строка «сертифицированный экспортёр». Покупатели пролистывают её как формальность, хотя это одна из немногих строк, которая способна изменить конечную цену партии на складе."
+            ]
+          },
+          {
+            "h": "Что подтверждает сертификат происхождения",
+            "p": [
+              "Происхождение товара в таможенном смысле — это не порт отгрузки и не адрес офиса продавца. Это страна, в которой товар произведён или достаточно переработан по правилам конкретного торгового соглашения. Один и тот же груз может выйти из корейского порта и при этом не считаться корейским по происхождению, если сырьё и переработка не отвечают этим правилам.",
+              "Сертификат происхождения подтверждает именно это. Если между Кореей и страной ввоза действует соглашение о свободной торговле, документ позволяет ввезти товар по сниженной или нулевой ставке пошлины. Без него ставка будет обычной, даже когда товар действительно корейский."
+            ]
+          },
+          {
+            "h": "Чем статус отличается от обычной справки",
+            "p": [
+              "Обычный порядок выглядит так: под каждую отгрузку экспортёр получает сертификат происхождения в уполномоченном органе. Это занимает время и повторяется от партии к партии.",
+              "Сертифицированный экспортёр вправе заявлять происхождение сам — декларацией прямо в инвойсе. Статус выдают не всем: компания должна доказать, что умеет документально обосновать происхождение и хранит эти материалы. Для покупателя отсюда два практических следствия. Бумаги перед отгрузкой готовятся быстрее, и вы понимаете, что у поставщика выстроен учёт по сырью и составу."
+            ]
+          },
+          {
+            "h": "Когда это действительно снижает пошлину",
+            "p": [
+              "Сам по себе статус льготы не даёт. Льгота возникает при двух условиях сразу: между Кореей и вашей страной действует соглашение, и ваш конкретный товар отвечает правилам происхождения по своему коду ТН ВЭД.",
+              "Правила при этом различаются. Где-то достаточно смены кода после переработки, где-то нужна доля местной стоимости. Косметика по этому признаку не однородна, потому что многое зависит от того, откуда пришло сырьё. Поэтому экономию считает ваш таможенный брокер по вашему коду и вашей стране, а не поставщик."
+            ]
+          },
+          {
+            "h": "Что спросить у поставщика до заказа",
+            "p": [
+              "Вопросов четыре. Первый: есть ли у компании статус сертифицированного экспортёра и действует ли он сейчас. Второй: готова ли она оформить декларацию о происхождении под соглашение именно вашей страны.",
+              "Третий: какой код ТН ВЭД компания указывает в отгрузочных документах. Он должен совпадать с тем, по которому ваш брокер считает ставку, иначе на таможне возникнет расхождение. Четвёртый: как стороны поступают, если в льготе откажут. Кто несёт разницу и записано ли это в контракте.",
+              "Если поставщик отвечает на все четыре вопроса без пауз и присылает подтверждения, это хороший признак. Если ответы расплывчаты, закладывайте в расчёт обычную ставку и не считайте льготу заранее."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Certified exporter status: what it gives a buyer",
+        "excerpt": "Buyers skim past the certified-exporter line as boilerplate. It is in fact one of the few lines in a factory deck that can change the landed cost of your shipment.",
+        "seoTitle": "Certified exporter status: what it gives a buyer · Teranova",
+        "seoDesc": "What a certificate of origin proves, how approved-exporter status differs from a per-shipment certificate and what to ask a Korean supplier before ordering.",
+        "sections": [
+          {
+            "p": [
+              "Korean factory decks often carry a line about certified exporter status. Buyers skim past it as boilerplate, although it is one of the few lines that can change what a shipment finally costs you at the warehouse."
+            ]
+          },
+          {
+            "h": "What a certificate of origin actually proves",
+            "p": [
+              "In customs terms, origin is not the port of loading and not the seller's office address. It is the country where the goods were made or sufficiently processed under the rules of a particular trade agreement. The same shipment can leave a Korean port and still not count as Korean in origin if the raw materials and processing do not meet those rules.",
+              "A certificate of origin is what proves it. If a free trade agreement is in force between Korea and the importing country, that document allows the goods in at a reduced or zero duty rate. Without it the standard rate applies, even when the goods really are Korean."
+            ]
+          },
+          {
+            "h": "How the status differs from a per-shipment certificate",
+            "p": [
+              "The usual procedure works like this: for every shipment the exporter obtains a certificate of origin from an authorised body. That takes time and repeats with each batch.",
+              "A certified exporter may declare origin itself, by a declaration placed directly on the invoice. The status is not given to everyone: a company has to prove it can document origin and that it keeps those records. For a buyer this has two practical consequences. Paperwork before each shipment moves faster, and you know the supplier keeps proper records of its raw materials and formulas."
+            ]
+          },
+          {
+            "h": "When it actually lowers the duty",
+            "p": [
+              "The status alone grants no preference. A preference arises when two conditions hold at once: an agreement is in force between Korea and your country, and your particular product meets the origin rules for its HS code.",
+              "Those rules differ. In some cases a change of tariff heading after processing is enough, in others a share of local value is required. Cosmetics are not uniform on this point, because much depends on where the raw materials came from. So the saving is calculated by your customs broker, for your code and your country, not by the supplier."
+            ]
+          },
+          {
+            "h": "What to ask the supplier before ordering",
+            "p": [
+              "There are four questions. First: does the company hold certified exporter status, and is it currently valid. Second: is it ready to issue an origin declaration under the agreement that covers your country specifically.",
+              "Third: which HS code the company puts on shipping documents. It has to match the one your broker uses to calculate the rate, otherwise customs will find a discrepancy. Fourth: what the parties do if the preference is refused. Who carries the difference, and whether that is written into the contract.",
+              "If the supplier answers all four without hesitation and sends confirmations, that is a good sign. If the answers are vague, budget for the standard rate and do not count the preference in advance."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "인증수출자 지위가 구매자에게 주는 것",
+        "excerpt": "인증수출자라는 줄은 형식적인 문구처럼 넘겨지기 쉽습니다. 그러나 공장 자료에서 창고 도착 가격을 실제로 바꿀 수 있는 몇 안 되는 항목입니다.",
+        "seoTitle": "인증수출자 지위가 구매자에게 주는 것 · Teranova",
+        "seoDesc": "원산지증명서가 무엇을 증명하는지, 인증수출자 지위가 건별 증명서와 어떻게 다른지, 주문 전에 한국 공급사에 무엇을 물어야 하는지 정리했습니다.",
+        "sections": [
+          {
+            "p": [
+              "한국 공장 자료에는 인증수출자라는 항목이 자주 등장합니다. 구매자는 형식적인 문구로 넘기지만, 창고에 도착한 화물의 최종 원가를 바꿀 수 있는 몇 안 되는 항목입니다."
+            ]
+          },
+          {
+            "h": "원산지증명서가 증명하는 것",
+            "p": [
+              "관세에서 말하는 원산지는 선적항도 아니고 판매자 사무실 주소도 아닙니다. 특정 무역협정의 기준에 따라 물품이 생산되었거나 충분히 가공된 나라를 뜻합니다. 같은 화물이 한국 항구에서 출발해도 원료와 가공이 그 기준을 충족하지 않으면 한국산으로 인정되지 않습니다.",
+              "원산지증명서는 바로 그 점을 증명합니다. 한국과 수입국 사이에 자유무역협정이 발효되어 있다면 이 서류로 인하 또는 무관세 세율을 적용받을 수 있습니다. 서류가 없으면 실제로 한국산이더라도 일반 세율이 적용됩니다."
+            ]
+          },
+          {
+            "h": "건별 증명서와 무엇이 다른가",
+            "p": [
+              "일반적인 절차는 이렇습니다. 수출자가 선적할 때마다 권한 있는 기관에서 원산지증명서를 발급받습니다. 시간이 걸리고 매 건 반복됩니다.",
+              "인증수출자는 원산지를 스스로 신고할 수 있습니다. 인보이스에 원산지신고문구를 직접 기재하는 방식입니다. 이 지위는 누구에게나 주어지지 않습니다. 원산지를 서류로 입증할 수 있고 그 자료를 보관한다는 점을 증명해야 합니다. 구매자에게는 두 가지 실익이 있습니다. 선적 전 서류 처리가 빨라지고, 공급사가 원료와 처방 관리 체계를 갖추고 있다는 것을 알 수 있습니다."
+            ]
+          },
+          {
+            "h": "실제로 관세가 낮아지는 조건",
+            "p": [
+              "지위 자체가 특혜를 주지는 않습니다. 두 조건이 동시에 성립해야 합니다. 한국과 귀사의 국가 사이에 협정이 발효 중이어야 하고, 해당 품목이 자신의 HS 코드 기준 원산지 규정을 충족해야 합니다.",
+              "규정은 서로 다릅니다. 가공 후 세번변경만으로 충분한 경우도 있고, 역내 부가가치 비율을 요구하는 경우도 있습니다. 화장품은 이 점에서 균일하지 않은데, 원료를 어디서 들여왔는지에 크게 좌우되기 때문입니다. 따라서 절감액은 공급사가 아니라 귀사의 관세사가 귀사의 코드와 국가 기준으로 계산합니다."
+            ]
+          },
+          {
+            "h": "주문 전에 공급사에 물어볼 것",
+            "p": [
+              "질문은 네 가지입니다. 첫째, 회사가 인증수출자 지위를 보유하고 있으며 현재 유효한지. 둘째, 귀사의 국가에 적용되는 협정에 맞춰 원산지신고서를 발급할 준비가 되어 있는지.",
+              "셋째, 선적서류에 어떤 HS 코드를 기재하는지. 관세사가 세율을 계산하는 코드와 일치해야 하며, 그렇지 않으면 통관에서 불일치가 생깁니다. 넷째, 특혜가 거부되었을 때 당사자들이 어떻게 처리하는지. 차액을 누가 부담하며 계약서에 명시되어 있는지 확인하십시오.",
+              "네 가지 모두 지체 없이 답하고 증빙을 보내온다면 좋은 신호입니다. 답이 모호하다면 일반 세율을 기준으로 계산하고 특혜를 미리 반영하지 마십시오."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "认证出口商资格对买家意味着什么",
+        "excerpt": "买家往往把「认证出口商」一行当作套话跳过。事实上，这是工厂资料中少数能真正改变到仓成本的内容之一。",
+        "seoTitle": "认证出口商资格对买家意味着什么 · Teranova",
+        "seoDesc": "原产地证书证明什么，认证出口商资格与逐票签发的证书有何不同，下单前应向韩国供应商询问哪些问题。",
+        "sections": [
+          {
+            "p": [
+              "韩国工厂的资料中常见「认证出口商」一行。买家把它当作套话跳过，但它是少数能改变货物到仓最终成本的内容之一。"
+            ]
+          },
+          {
+            "h": "原产地证书究竟证明什么",
+            "p": [
+              "在海关意义上，原产地既不是装货港，也不是卖方办公地址，而是依据某项贸易协定的规则、货物被生产或充分加工的国家。同一批货可以从韩国港口发出，但如果原料与加工不符合这些规则，仍不被认定为韩国原产。",
+              "原产地证书证明的正是这一点。如果韩国与进口国之间的自由贸易协定生效，该文件可使货物以减免或零关税税率进口。没有它，即使货物确实产自韩国，也按普通税率征收。"
+            ]
+          },
+          {
+            "h": "该资格与逐票证书的区别",
+            "p": [
+              "通常的流程是这样的：出口商在每次发货时向授权机构申领原产地证书。这需要时间，并且每批重复一次。",
+              "认证出口商可以自行申报原产地，直接在发票上作出原产地声明。该资格并非人人可得：企业必须证明自己能够以文件支持原产地，并保存这些资料。对买家而言有两项实际好处：发货前的文件处理更快，并且可以确认供应商在原料与配方方面已建立记录。"
+            ]
+          },
+          {
+            "h": "什么情况下真正降低关税",
+            "p": [
+              "资格本身不带来优惠。优惠需要同时满足两个条件：韩国与贵国之间有生效的协定，并且贵方具体产品符合其 HS 编码对应的原产地规则。",
+              "规则各不相同。有的只需加工后税则归类改变，有的则要求一定比例的当地价值成分。化妆品在这一点上并不统一，因为很大程度取决于原料来自何处。因此节省金额由贵方的报关行按贵方的编码和国家计算，而不是由供应商计算。"
+            ]
+          },
+          {
+            "h": "下单前应向供应商询问什么",
+            "p": [
+              "共四个问题。第一，企业是否持有认证出口商资格，目前是否有效。第二，是否愿意按适用于贵国的协定出具原产地声明。",
+              "第三，企业在装运单据上使用哪个 HS 编码。它必须与报关行计算税率所用的编码一致，否则通关时会出现不符。第四，若优惠被拒，双方如何处理：差额由谁承担，合同中是否写明。",
+              "如果供应商对四个问题都能毫不迟疑地回答并提供证明，这是好迹象。如果答复含糊，请按普通税率测算，不要预先计入优惠。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "認定輸出者の資格が買い手にもたらすもの",
+        "excerpt": "「認定輸出者」の一行は定型文として読み飛ばされがちです。しかし工場資料の中で、倉庫着の原価を実際に動かしうる数少ない項目です。",
+        "seoTitle": "認定輸出者の資格が買い手にもたらすもの · Teranova",
+        "seoDesc": "原産地証明書が証明する内容、認定輸出者の資格と出荷ごとの証明書との違い、発注前に韓国のメーカーへ確認すべきことをまとめました。",
+        "sections": [
+          {
+            "p": [
+              "韓国メーカーの資料には「認定輸出者」という一行がよく登場します。定型文として読み飛ばされますが、倉庫に届いた貨物の最終原価を動かしうる数少ない項目です。"
+            ]
+          },
+          {
+            "h": "原産地証明書が証明するもの",
+            "p": [
+              "関税上の原産地は、船積港でも売主の事務所所在地でもありません。特定の貿易協定の規則に従って産品が生産され、または十分な加工を受けた国を指します。同じ貨物が韓国の港を出ても、原料と加工がその規則を満たさなければ韓国原産とは認められません。",
+              "原産地証明書はまさにその点を証明します。韓国と輸入国との間に自由貿易協定が発効していれば、この書類によって軽減税率または無税での輸入が可能になります。書類がなければ、実際に韓国産であっても通常の税率が適用されます。"
+            ]
+          },
+          {
+            "h": "出荷ごとの証明書との違い",
+            "p": [
+              "通常の手続きはこうです。輸出者は出荷のたびに権限のある機関から原産地証明書の発給を受けます。時間がかかり、ロットごとに繰り返されます。",
+              "認定輸出者は原産地を自ら申告できます。インボイス上に原産地申告文を記載する方式です。この資格は誰にでも与えられるものではなく、原産地を書類で裏づけられること、その資料を保管していることを証明する必要があります。買い手にとっての実益は二つです。出荷前の書類が速く整い、供給元が原料と処方の記録を整えていると分かります。"
+            ]
+          },
+          {
+            "h": "実際に関税が下がる条件",
+            "p": [
+              "資格そのものが特恵を与えるわけではありません。特恵は二つの条件が同時に成り立つときに生じます。韓国と貴社の国との間に協定が発効していること、そして当該産品が自らの HS コードに対応する原産地規則を満たしていることです。",
+              "規則は一様ではありません。加工後の関税分類変更で足りる場合もあれば、域内付加価値の比率が求められる場合もあります。化粧品はこの点で均一ではなく、原料の調達先に大きく左右されます。したがって削減額は供給元ではなく、貴社の通関業者が貴社のコードと国に基づいて算出します。"
+            ]
+          },
+          {
+            "h": "発注前にメーカーへ確認すること",
+            "p": [
+              "確認は四点です。第一に、会社が認定輸出者の資格を保有し、現在有効かどうか。第二に、貴社の国に適用される協定に沿って原産地申告書を作成する用意があるかどうか。",
+              "第三に、船積書類にどの HS コードを記載するか。通関業者が税率を計算するコードと一致している必要があり、そうでなければ税関で不一致が生じます。第四に、特恵が認められなかった場合に当事者がどうするか。差額を誰が負担し、契約に明記されているかを確認してください。",
+              "四点すべてに滞りなく答え、裏づけを送ってくるなら良い兆候です。回答が曖昧なら通常税率で試算し、特恵を先に見込まないでください。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Esportatore autorizzato: cosa dà questo status all'acquirente",
+        "excerpt": "La riga sull'esportatore autorizzato viene saltata come una formula di rito. In realtà è una delle poche voci di una presentazione di fabbrica capace di cambiare il costo finale a magazzino.",
+        "seoTitle": "Esportatore autorizzato: cosa dà all'acquirente · Teranova",
+        "seoDesc": "Che cosa prova un certificato di origine, in che cosa lo status di esportatore autorizzato differisce dal certificato ordinario e cosa chiedere al fornitore.",
+        "sections": [
+          {
+            "p": [
+              "Nelle presentazioni delle fabbriche coreane compare spesso la voce «esportatore autorizzato». Gli acquirenti la saltano come una formula di rito, eppure è una delle poche voci che può cambiare quanto la merce vi costa davvero a magazzino."
+            ]
+          },
+          {
+            "h": "Che cosa prova davvero un certificato di origine",
+            "p": [
+              "In dogana l'origine non è il porto di imbarco e non è l'indirizzo dell'ufficio del venditore. È il paese in cui la merce è stata prodotta o sufficientemente lavorata secondo le regole di un determinato accordo commerciale. La stessa spedizione può lasciare un porto coreano e non essere comunque considerata di origine coreana, se materie prime e lavorazione non rispettano quelle regole.",
+              "Il certificato di origine prova esattamente questo. Se tra la Corea e il paese di importazione è in vigore un accordo di libero scambio, il documento consente l'ingresso della merce a dazio ridotto o nullo. Senza di esso si applica l'aliquota ordinaria, anche quando la merce è davvero coreana."
+            ]
+          },
+          {
+            "h": "In che cosa lo status differisce dal certificato ordinario",
+            "p": [
+              "La procedura consueta è questa: per ogni spedizione l'esportatore ottiene il certificato di origine da un organismo autorizzato. Richiede tempo e si ripete lotto dopo lotto.",
+              "L'esportatore autorizzato può dichiarare l'origine da sé, con una dichiarazione riportata direttamente in fattura. Lo status non viene concesso a tutti: l'azienda deve dimostrare di saper documentare l'origine e di conservare quei materiali. Per l'acquirente ne derivano due vantaggi pratici. I documenti prima di ogni spedizione si preparano più in fretta e voi sapete che il fornitore tiene una contabilità ordinata di materie prime e formule."
+            ]
+          },
+          {
+            "h": "Quando abbassa davvero il dazio",
+            "p": [
+              "Lo status di per sé non dà alcuna preferenza. La preferenza nasce quando due condizioni valgono insieme: tra la Corea e il vostro paese è in vigore un accordo e il vostro prodotto specifico rispetta le regole di origine previste per il suo codice SA.",
+              "Le regole però variano. In alcuni casi basta il cambio di voce doganale dopo la lavorazione, in altri serve una quota di valore locale. La cosmetica non è uniforme su questo punto, perché molto dipende da dove arrivano le materie prime. Il risparmio quindi lo calcola il vostro spedizioniere doganale, sul vostro codice e sul vostro paese, non il fornitore."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere al fornitore prima di ordinare",
+            "p": [
+              "Le domande sono quattro. Primo: l'azienda possiede lo status di esportatore autorizzato ed è valido adesso. Secondo: è pronta a rilasciare la dichiarazione di origine per l'accordo che riguarda proprio il vostro paese.",
+              "Terzo: quale codice SA indica nei documenti di spedizione. Deve coincidere con quello su cui il vostro spedizioniere calcola l'aliquota, altrimenti in dogana emerge una discordanza. Quarto: come si comportano le parti se la preferenza viene negata. Chi sostiene la differenza e se questo è scritto nel contratto.",
+              "Se il fornitore risponde a tutte e quattro senza esitazioni e invia le conferme, è un buon segno. Se le risposte sono vaghe, calcolate con l'aliquota ordinaria e non date la preferenza per acquisita."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Ermächtigter Ausführer: was dieser Status dem Käufer bringt",
+        "excerpt": "Die Zeile zum ermächtigten Ausführer wird als Formsache überblättert. Tatsächlich ist sie eine der wenigen Angaben in einer Werkspräsentation, die den Endpreis der Ware im Lager verändert.",
+        "seoTitle": "Ermächtigter Ausführer: was das dem Käufer bringt · Teranova",
+        "seoDesc": "Was ein Ursprungszeugnis belegt, worin sich der Status des ermächtigten Ausführers vom Einzelnachweis unterscheidet und was man den Hersteller vorher fragt.",
+        "sections": [
+          {
+            "p": [
+              "In Präsentationen koreanischer Werke steht häufig die Zeile «ermächtigter Ausführer». Käufer überblättern sie als Formsache, dabei ist sie eine der wenigen Angaben, die verändern kann, was eine Sendung im Lager am Ende kostet."
+            ]
+          },
+          {
+            "h": "Was ein Ursprungszeugnis tatsächlich belegt",
+            "p": [
+              "Zollrechtlich ist der Ursprung weder der Verladehafen noch die Büroanschrift des Verkäufers. Es ist das Land, in dem die Ware nach den Regeln eines bestimmten Handelsabkommens hergestellt oder ausreichend be- oder verarbeitet wurde. Dieselbe Sendung kann einen koreanischen Hafen verlassen und trotzdem nicht als koreanischen Ursprungs gelten, wenn Rohstoffe und Verarbeitung diesen Regeln nicht entsprechen.",
+              "Genau das belegt ein Ursprungszeugnis. Besteht zwischen Korea und dem Einfuhrland ein Freihandelsabkommen, ermöglicht das Dokument die Einfuhr zu ermäßigtem oder null Zollsatz. Ohne es gilt der Regelsatz, auch wenn die Ware wirklich koreanisch ist."
+            ]
+          },
+          {
+            "h": "Worin sich der Status vom Einzelnachweis unterscheidet",
+            "p": [
+              "Der übliche Ablauf sieht so aus: Für jede Sendung holt der Ausführer bei einer befugten Stelle ein Ursprungszeugnis ein. Das kostet Zeit und wiederholt sich von Charge zu Charge.",
+              "Ein ermächtigter Ausführer darf den Ursprung selbst erklären, mit einer Erklärung direkt auf der Rechnung. Den Status bekommt nicht jeder: Das Unternehmen muss nachweisen, dass es den Ursprung belegen kann und diese Unterlagen aufbewahrt. Für den Käufer folgen daraus zwei praktische Vorteile. Die Papiere vor jeder Sendung sind schneller fertig, und Sie wissen, dass der Lieferant Rohstoffe und Rezepturen sauber dokumentiert."
+            ]
+          },
+          {
+            "h": "Wann der Zoll wirklich sinkt",
+            "p": [
+              "Der Status allein bringt keine Präferenz. Sie entsteht erst, wenn zwei Bedingungen zugleich erfüllt sind: Zwischen Korea und Ihrem Land gilt ein Abkommen, und Ihr konkretes Produkt erfüllt die Ursprungsregeln für seine HS-Position.",
+              "Diese Regeln fallen unterschiedlich aus. Mal genügt ein Positionswechsel nach der Verarbeitung, mal ist ein Anteil lokaler Wertschöpfung nötig. Kosmetik ist in diesem Punkt nicht einheitlich, weil vieles davon abhängt, woher die Rohstoffe stammen. Die Ersparnis rechnet deshalb Ihr Zollagent für Ihren Code und Ihr Land aus, nicht der Lieferant."
+            ]
+          },
+          {
+            "h": "Was Sie den Lieferanten vor der Bestellung fragen",
+            "p": [
+              "Es sind vier Fragen. Erstens: Hat das Unternehmen den Status des ermächtigten Ausführers und ist er derzeit gültig. Zweitens: Ist es bereit, die Ursprungserklärung für das Abkommen auszustellen, das gerade Ihr Land betrifft.",
+              "Drittens: Welche HS-Position trägt das Unternehmen in die Versandpapiere ein. Sie muss mit der übereinstimmen, nach der Ihr Zollagent den Satz berechnet, sonst entsteht beim Zoll eine Abweichung. Viertens: Wie gehen die Parteien vor, wenn die Präferenz versagt wird. Wer trägt die Differenz und steht das im Vertrag.",
+              "Beantwortet der Lieferant alle vier Fragen ohne Zögern und schickt Belege, ist das ein gutes Zeichen. Bleiben die Antworten vage, kalkulieren Sie mit dem Regelsatz und setzen die Präferenz nicht im Voraus an."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Exportateur agréé : ce que ce statut apporte à l'acheteur",
+        "excerpt": "La ligne sur l'exportateur agréé se saute comme une formule d'usage. C'est pourtant l'une des rares mentions d'une présentation d'usine capable de changer le prix rendu entrepôt.",
+        "seoTitle": "Exportateur agréé : ce que ce statut apporte · Teranova",
+        "seoDesc": "Ce que prouve un certificat d'origine, en quoi le statut d'exportateur agréé diffère du certificat ordinaire et quoi demander au fabricant.",
+        "sections": [
+          {
+            "p": [
+              "Les présentations des usines coréennes comportent souvent une ligne sur l'exportateur agréé. Les acheteurs la sautent comme une formule d'usage, alors qu'elle fait partie des rares mentions capables de changer ce que la marchandise vous coûte réellement à l'entrepôt."
+            ]
+          },
+          {
+            "h": "Ce que prouve réellement un certificat d'origine",
+            "p": [
+              "En douane, l'origine n'est ni le port d'embarquement ni l'adresse du bureau du vendeur. C'est le pays où la marchandise a été produite ou suffisamment transformée selon les règles d'un accord commercial donné. Une même expédition peut quitter un port coréen sans être considérée d'origine coréenne, si les matières premières et la transformation ne répondent pas à ces règles.",
+              "Le certificat d'origine prouve exactement cela. Si un accord de libre-échange est en vigueur entre la Corée et le pays d'importation, ce document permet d'importer à droit réduit ou nul. Sans lui, le taux ordinaire s'applique, même quand la marchandise est bien coréenne."
+            ]
+          },
+          {
+            "h": "En quoi le statut diffère du certificat ordinaire",
+            "p": [
+              "La procédure habituelle est la suivante : pour chaque expédition, l'exportateur obtient un certificat d'origine auprès d'un organisme habilité. Cela prend du temps et se répète à chaque lot.",
+              "Un exportateur agréé peut déclarer l'origine lui-même, par une déclaration portée directement sur la facture. Ce statut n'est pas accordé à tous : l'entreprise doit prouver qu'elle sait justifier l'origine par des documents et qu'elle les conserve. Pour l'acheteur, il en découle deux avantages pratiques. Les papiers se préparent plus vite avant chaque expédition, et vous savez que le fournisseur tient une comptabilité propre de ses matières premières et de ses formules."
+            ]
+          },
+          {
+            "h": "Quand cela réduit vraiment le droit de douane",
+            "p": [
+              "Le statut à lui seul n'ouvre aucune préférence. Elle naît lorsque deux conditions sont réunies : un accord est en vigueur entre la Corée et votre pays, et votre produit précis respecte les règles d'origine attachées à sa position SH.",
+              "Ces règles varient. Il suffit parfois d'un changement de position après transformation, ailleurs une part de valeur locale est exigée. La cosmétique n'est pas homogène sur ce point, car beaucoup dépend de la provenance des matières premières. L'économie se calcule donc par votre commissionnaire en douane, sur votre code et votre pays, et non par le fournisseur."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander au fournisseur avant de commander",
+            "p": [
+              "Il y a quatre questions. Premièrement : l'entreprise détient-elle le statut d'exportateur agréé et est-il valide aujourd'hui. Deuxièmement : est-elle prête à établir la déclaration d'origine au titre de l'accord qui concerne précisément votre pays.",
+              "Troisièmement : quelle position SH l'entreprise inscrit sur les documents d'expédition. Elle doit correspondre à celle sur laquelle votre commissionnaire calcule le taux, sinon la douane relèvera une discordance. Quatrièmement : comment les parties procèdent si la préférence est refusée. Qui supporte la différence et si cela figure au contrat.",
+              "Si le fournisseur répond aux quatre questions sans hésiter et envoie les justificatifs, c'est bon signe. Si les réponses restent vagues, calculez au taux ordinaire et ne comptez pas la préférence à l'avance."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Onaylanmış ihracatçı statüsü alıcıya ne sağlar",
+        "excerpt": "Onaylanmış ihracatçı satırı bir kalıp gibi atlanır. Oysa fabrika sunumunda malın depoya varan nihai maliyetini değiştirebilecek birkaç satırdan biridir.",
+        "seoTitle": "Onaylanmış ihracatçı statüsü alıcıya ne sağlar · Teranova",
+        "seoDesc": "Menşe şahadetnamesi neyi kanıtlar, onaylanmış ihracatçı statüsü sevkiyat başına belgeden nasıl ayrılır ve sipariş öncesi üreticiye ne sorulmalı.",
+        "sections": [
+          {
+            "p": [
+              "Kore fabrikalarının sunumlarında sık sık «onaylanmış ihracatçı» satırı geçer. Alıcılar bunu bir kalıp gibi atlar, oysa malın depoya varan nihai maliyetini değiştirebilecek birkaç satırdan biridir."
+            ]
+          },
+          {
+            "h": "Menşe şahadetnamesi aslında neyi kanıtlar",
+            "p": [
+              "Gümrük anlamında menşe, yükleme limanı da satıcının ofis adresi de değildir. Belirli bir ticaret anlaşmasının kurallarına göre malın üretildiği ya da yeterince işlendiği ülkedir. Aynı sevkiyat bir Kore limanından çıkabilir ve hammadde ile işleme o kuralları karşılamıyorsa yine de Kore menşeli sayılmaz.",
+              "Menşe şahadetnamesi tam olarak bunu kanıtlar. Kore ile ithalatçı ülke arasında bir serbest ticaret anlaşması yürürlükteyse bu belge malın indirimli ya da sıfır vergiyle girmesini sağlar. Belge yoksa mal gerçekten Kore menşeli olsa bile normal oran uygulanır."
+            ]
+          },
+          {
+            "h": "Statü sıradan belgeden nasıl ayrılır",
+            "p": [
+              "Olağan usul şöyledir: ihracatçı her sevkiyat için yetkili kurumdan menşe şahadetnamesi alır. Bu zaman alır ve her partide tekrarlanır.",
+              "Onaylanmış ihracatçı menşei kendisi beyan edebilir, beyanı doğrudan faturaya yazar. Bu statü herkese verilmez: şirket menşei belgelerle gerekçelendirebildiğini ve bu kayıtları sakladığını kanıtlamak zorundadır. Alıcı için bunun iki pratik sonucu vardır. Her sevkiyat öncesi evrak daha hızlı hazırlanır ve tedarikçinin hammadde ile formül kayıtlarını düzenli tuttuğunu bilirsiniz."
+            ]
+          },
+          {
+            "h": "Vergiyi gerçekten ne zaman düşürür",
+            "p": [
+              "Statünün kendisi bir tercih sağlamaz. Tercih iki koşul birlikte gerçekleştiğinde doğar: Kore ile ülkeniz arasında yürürlükte bir anlaşma bulunmalı ve ürününüz kendi GTİP kodu için menşe kurallarını karşılamalıdır.",
+              "Kurallar birbirinden farklıdır. Bazı durumlarda işlemeden sonra tarife pozisyonunun değişmesi yeterlidir, bazılarında yerli katma değer payı aranır. Kozmetik bu noktada tek tip değildir, çünkü çoğu şey hammaddenin nereden geldiğine bağlıdır. Bu nedenle tasarrufu tedarikçi değil, sizin gümrük müşaviriniz kendi kodunuz ve ülkeniz üzerinden hesaplar."
+            ]
+          },
+          {
+            "h": "Sipariş öncesi tedarikçiye sorulacaklar",
+            "p": [
+              "Dört soru var. Birincisi: şirketin onaylanmış ihracatçı statüsü var mı ve şu anda geçerli mi. İkincisi: tam olarak sizin ülkenizi kapsayan anlaşmaya göre menşe beyanı düzenlemeye hazır mı.",
+              "Üçüncüsü: sevk belgelerine hangi GTİP kodunu yazıyor. Bu kod, müşavirinizin oranı hesapladığı kodla aynı olmalıdır, aksi halde gümrükte uyumsuzluk çıkar. Dördüncüsü: tercih reddedilirse taraflar ne yapıyor. Farkı kim üstleniyor ve bu sözleşmede yazılı mı.",
+              "Tedarikçi dört soruya da duraksamadan yanıt verip belgeleri gönderiyorsa bu iyi bir işarettir. Yanıtlar belirsizse hesabı normal oranla yapın ve tercihi önceden saymayın."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Exportador autorizado: qué aporta ese estatus al comprador",
+        "excerpt": "La línea sobre el exportador autorizado se salta como una fórmula de rigor. En realidad es una de las pocas menciones de una presentación de fábrica capaz de cambiar el precio puesto en almacén.",
+        "seoTitle": "Exportador autorizado: qué aporta al comprador · Teranova",
+        "seoDesc": "Qué prueba un certificado de origen, en qué se diferencia el estatus de exportador autorizado del certificado por envío y qué preguntar al fabricante coreano.",
+        "sections": [
+          {
+            "p": [
+              "En las presentaciones de las fábricas coreanas aparece a menudo la línea «exportador autorizado». Los compradores la saltan como una fórmula de rigor, y sin embargo es una de las pocas menciones capaces de cambiar lo que la mercancía cuesta de verdad en su almacén."
+            ]
+          },
+          {
+            "h": "Qué prueba realmente un certificado de origen",
+            "p": [
+              "En aduana, el origen no es el puerto de embarque ni la dirección de la oficina del vendedor. Es el país donde la mercancía se produjo o se transformó de manera suficiente según las reglas de un acuerdo comercial concreto. Un mismo envío puede salir de un puerto coreano y aun así no considerarse de origen coreano, si las materias primas y la transformación no cumplen esas reglas.",
+              "El certificado de origen prueba exactamente eso. Si entre Corea y el país de importación está en vigor un acuerdo de libre comercio, el documento permite importar con arancel reducido o nulo. Sin él se aplica el tipo ordinario, incluso cuando la mercancía es realmente coreana."
+            ]
+          },
+          {
+            "h": "En qué se diferencia el estatus del certificado corriente",
+            "p": [
+              "El procedimiento habitual es este: para cada envío el exportador obtiene un certificado de origen ante un organismo habilitado. Eso lleva tiempo y se repite lote tras lote.",
+              "El exportador autorizado puede declarar el origen por sí mismo, con una declaración incluida directamente en la factura. El estatus no se concede a todos: la empresa debe demostrar que sabe justificar el origen con documentos y que los conserva. Para el comprador se derivan dos ventajas prácticas. Los papeles se preparan más rápido antes de cada envío y usted sabe que el proveedor lleva un registro ordenado de materias primas y fórmulas."
+            ]
+          },
+          {
+            "h": "Cuándo rebaja de verdad el arancel",
+            "p": [
+              "El estatus por sí solo no da preferencia. La preferencia surge cuando se cumplen dos condiciones a la vez: entre Corea y su país hay un acuerdo en vigor, y su producto concreto cumple las reglas de origen previstas para su partida SA.",
+              "Esas reglas varían. A veces basta un cambio de partida tras la transformación, en otros casos se exige una parte de valor local. La cosmética no es homogénea en este punto, porque mucho depende de dónde llegan las materias primas. Por eso el ahorro lo calcula su agente de aduanas, sobre su código y su país, y no el proveedor."
+            ]
+          },
+          {
+            "h": "Qué preguntar al proveedor antes de pedir",
+            "p": [
+              "Son cuatro preguntas. Primera: si la empresa tiene el estatus de exportador autorizado y si está vigente ahora. Segunda: si está dispuesta a emitir la declaración de origen para el acuerdo que cubre precisamente a su país.",
+              "Tercera: qué partida SA indica la empresa en los documentos de embarque. Debe coincidir con aquella sobre la que su agente calcula el tipo, o en aduana aparecerá una discrepancia. Cuarta: cómo actúan las partes si se deniega la preferencia. Quién asume la diferencia y si eso figura en el contrato.",
+              "Si el proveedor responde a las cuatro sin titubear y envía los justificantes, es buena señal. Si las respuestas son vagas, calcule con el tipo ordinario y no dé la preferencia por hecha."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Exportador autorizado: o que esse estatuto dá ao comprador",
+        "excerpt": "A linha sobre o exportador autorizado é saltada como uma fórmula de praxe. Na verdade é uma das poucas menções de uma apresentação de fábrica capaz de mudar o preço posto em armazém.",
+        "seoTitle": "Exportador autorizado: o que dá ao comprador · Teranova",
+        "seoDesc": "O que prova um certificado de origem, em que difere o estatuto de exportador autorizado do certificado por expedição e o que perguntar ao fabricante coreano.",
+        "sections": [
+          {
+            "p": [
+              "Nas apresentações das fábricas coreanas aparece muitas vezes a linha «exportador autorizado». Os compradores saltam-na como uma fórmula de praxe, e no entanto é uma das poucas menções capazes de mudar o que a mercadoria custa realmente no seu armazém."
+            ]
+          },
+          {
+            "h": "O que um certificado de origem prova de facto",
+            "p": [
+              "Na alfândega, a origem não é o porto de embarque nem a morada do escritório do vendedor. É o país onde a mercadoria foi produzida ou suficientemente transformada segundo as regras de um determinado acordo comercial. A mesma expedição pode sair de um porto coreano e ainda assim não ser considerada de origem coreana, se as matérias-primas e a transformação não cumprirem essas regras.",
+              "O certificado de origem prova exatamente isso. Se entre a Coreia e o país de importação estiver em vigor um acordo de comércio livre, o documento permite importar com direito reduzido ou nulo. Sem ele aplica-se a taxa normal, mesmo quando a mercadoria é realmente coreana."
+            ]
+          },
+          {
+            "h": "Em que difere o estatuto do certificado corrente",
+            "p": [
+              "O procedimento habitual é este: para cada expedição o exportador obtém um certificado de origem junto de um organismo habilitado. Isso demora e repete-se lote após lote.",
+              "O exportador autorizado pode declarar a origem por si próprio, com uma declaração inscrita diretamente na fatura. O estatuto não é concedido a todos: a empresa tem de provar que sabe justificar a origem com documentos e que os conserva. Para o comprador daí resultam duas vantagens práticas. Os papéis ficam prontos mais depressa antes de cada expedição e o comprador sabe que o fornecedor mantém registos organizados de matérias-primas e fórmulas."
+            ]
+          },
+          {
+            "h": "Quando baixa mesmo o direito aduaneiro",
+            "p": [
+              "O estatuto por si só não dá preferência. A preferência surge quando duas condições se verificam ao mesmo tempo: entre a Coreia e o seu país vigora um acordo, e o seu produto concreto cumpre as regras de origem previstas para a sua posição SH.",
+              "Essas regras variam. Por vezes basta a mudança de posição após a transformação, noutros casos exige-se uma parcela de valor local. A cosmética não é homogénea neste ponto, porque muito depende de onde vêm as matérias-primas. Por isso a poupança é calculada pelo seu despachante, sobre o seu código e o seu país, e não pelo fornecedor."
+            ]
+          },
+          {
+            "h": "O que perguntar ao fornecedor antes de encomendar",
+            "p": [
+              "São quatro perguntas. Primeira: se a empresa tem o estatuto de exportador autorizado e se está válido agora. Segunda: se está pronta a emitir a declaração de origem ao abrigo do acordo que cobre precisamente o seu país.",
+              "Terceira: que posição SH a empresa indica nos documentos de expedição. Tem de coincidir com aquela sobre a qual o seu despachante calcula a taxa, caso contrário surge uma divergência na alfândega. Quarta: como procedem as partes se a preferência for recusada. Quem suporta a diferença e se isso está escrito no contrato.",
+              "Se o fornecedor responder às quatro sem hesitar e enviar os comprovativos, é bom sinal. Se as respostas forem vagas, calcule com a taxa normal e não conte a preferência de antemão."
+            ]
+          }
+        ]
+      }
+    }
   }
 ]

@@ -226,17 +226,23 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
       `<div class="rows">${g.map((x) => `<div class="row"><div class="n">${esc(x.name)}</div><div class="d">${esc(x.note)}</div></div>`).join('')}</div>`)));
   }
 
-  /* 5. Каталог — до 9 позиций с фото */
+  /* 5. Каталог — по 12 позиций с фото на страницу.
+     Здесь стоял slice(0, 12): всё, что не помещалось на одну страницу,
+     молча исчезало из презентации. У крупных поставщиков так терялось
+     до трёх четвертей ассортимента. Теперь каталог разбивается на
+     страницы, как разделы выше. Пояснение печатаем только на первой,
+     иначе оно съедает место под товары на каждой. */
   if (cat && cat.length) {
-    const items = cat.flatMap((g) => g.items).slice(0, 12);
-    P.push(page(cfg, cfg.supplier, u.catalog_h || u.products_h || 'Product catalog',
-      (u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
+    const pages = chunkBy(cat.flatMap((g) => g.items), Infinity, 12, () => 1);
+    pages.forEach((items, i) => P.push(page(cfg, cfg.supplier,
+      (u.catalog_h || u.products_h || 'Product catalog') + (pages.length > 1 ? ` (${i + 1}/${pages.length})` : ''),
+      (i === 0 && u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
       `<div class="grid">${items.map((it) => `
         <div class="prod">
           <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : ''}</div>
           <div class="n">${esc(it.name)}</div>
           ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
-        </div>`).join('')}</div>`));
+        </div>`).join('')}</div>`)));
   }
 
   /* 6. Сертификаты, форматы, экспорт */

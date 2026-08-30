@@ -1,827 +1,827 @@
 [
- {
-  "slug": "acerola-dark-spot-and-blemish-care",
-  "supplierSlug": "pineworld",
-  "category": "cosmetics",
-  "lineName": "Acerola Dark Spot & Blemish Care",
-  "items": [
-   {
-    "name": "Acerola Dark Spot & Blemish Care Cream",
-    "img": "/img/suppliers/pineworld/products/acerola-dark-spot-cream.jpg",
-    "volume": "50 / 80 / 10 ml",
-    "certs": []
-   },
-   {
-    "name": "Acerola Dark Spot & Blemish Care Ampoule",
-    "img": "/img/suppliers/pineworld/products/acerola-dark-spot-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   },
-   {
-    "name": "Acerola Dark Spot & Blemish Care Toner",
-    "img": "/img/suppliers/pineworld/products/acerola-dark-spot-toner.jpg",
-    "volume": "150 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — уход за тоном · Teranova",
-    "seoDesc": "Линейка Acerola Dark Spot & Blemish Care бренда RAVIEL — уход за пигментацией и ровным тоном на экстракте ацеролы и хауттюйнии: крем, ампула и тонер. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Уход за пигментацией и ровным тоном на ацероле",
-    "about": [
-     "Acerola Dark Spot & Blemish Care — линейка бренда RAVIEL для ухода за пигментацией и выравнивания тона кожи. В основе — экстракт ацеролы, богатой витамином C, и экстракт хауттюйнии (хартлиф). Линейка построена на фирменной концепции доставки активов SILK (Skin-Ingredient Link Key), заявленной компанией, и собрана под задачу ровного тона в ежедневном уходе.",
-     "В линейке три формата: крем 50 мл, концентрированная ампула 30 мл и тонер-крем 150 мл, который взбалтывают перед применением. Такой набор закрывает полный шаг ухода — от тонизирования до финального крема — и позволяет импортёру заводить линейку целиком, а не отдельной позицией. Оптовые поставки из Кореи, сделку координирует и сопровождает Teranova."
+  {
+    "slug": "acerola-dark-spot-and-blemish-care",
+    "supplierSlug": "pineworld",
+    "category": "cosmetics",
+    "lineName": "Acerola Dark Spot & Blemish Care",
+    "items": [
+      {
+        "name": "Acerola Dark Spot & Blemish Care Cream",
+        "img": "/img/suppliers/pineworld/products/acerola-dark-spot-cream.jpg",
+        "volume": "50 / 80 / 10 ml",
+        "certs": []
+      },
+      {
+        "name": "Acerola Dark Spot & Blemish Care Ampoule",
+        "img": "/img/suppliers/pineworld/products/acerola-dark-spot-ampoule.jpg",
+        "volume": "30 ml",
+        "certs": []
+      },
+      {
+        "name": "Acerola Dark Spot & Blemish Care Toner",
+        "img": "/img/suppliers/pineworld/products/acerola-dark-spot-toner.jpg",
+        "volume": "150 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Крем линии Acerola (экстракт ацеролы, богатой витамином C, + хартлиф) для ухода за пигментацией и осветления тона. Объём 50 мл.",
-     "Концентрированная ампула линии Acerola для ухода за пятнами и неровным тоном. Объём 30 мл.",
-     "Тонер-крем линии Acerola (взбалтывать перед применением) для осветляющего ухода. Объём 150 мл."
-    ]
-   },
-   "en": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — tone care · Teranova",
-    "seoDesc": "The Acerola Dark Spot & Blemish Care range by RAVIEL — care for pigmentation and an even tone with acerola and houttuynia extracts: a cream, an ampoule and a toner. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Care for pigmentation and an even tone with acerola",
-    "about": [
-     "Acerola Dark Spot & Blemish Care is a RAVIEL range for caring for pigmentation and evening out the skin tone. At its base are the extract of acerola, rich in vitamin C, and houttuynia (heartleaf) extract. The range is built on the brand's SILK (Skin-Ingredient Link Key) active delivery concept stated by the company, and is assembled for the even-tone task in daily care.",
-     "The range has three formats: a 50 ml cream, a 30 ml concentrated ampoule and a 150 ml toner cream that is shaken before use. Such a set covers the full care step — from toning to the final cream — and lets an importer bring in the whole range rather than a single item. Wholesale supply from Korea; Teranova coordinates and supports the deal."
+    "i18n": {
+      "ru": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — уход за тоном · Teranova",
+        "seoDesc": "Линейка Acerola Dark Spot & Blemish Care бренда RAVIEL — уход за пигментацией и ровным тоном на экстракте ацеролы и хауттюйнии: крем, ампула и тонер. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Уход за пигментацией и ровным тоном на ацероле",
+        "about": [
+          "Acerola Dark Spot & Blemish Care — линейка бренда RAVIEL для ухода за пигментацией и выравнивания тона кожи. В основе — экстракт ацеролы, богатой витамином C, и экстракт хауттюйнии (хартлиф). Линейка построена на фирменной концепции доставки активов SILK (Skin-Ingredient Link Key), заявленной компанией, и собрана под задачу ровного тона в ежедневном уходе.",
+          "В линейке три формата: крем 50 мл, концентрированная ампула 30 мл и тонер-крем 150 мл, который взбалтывают перед применением. Такой набор закрывает полный шаг ухода — от тонизирования до финального крема — и позволяет импортёру заводить линейку целиком, а не отдельной позицией. Оптовые поставки из Кореи, сделку координирует и сопровождает Teranova."
+        ],
+        "itemNotes": [
+          "Крем линии Acerola (экстракт ацеролы, богатой витамином C, + хартлиф) для ухода за пигментацией и осветления тона. Объём 50 мл.",
+          "Концентрированная ампула линии Acerola для ухода за пятнами и неровным тоном. Объём 30 мл.",
+          "Тонер-крем линии Acerola (взбалтывать перед применением) для осветляющего ухода. Объём 150 мл."
+        ]
+      },
+      "en": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — tone care · Teranova",
+        "seoDesc": "The Acerola Dark Spot & Blemish Care range by RAVIEL — care for pigmentation and an even tone with acerola and houttuynia extracts: a cream, an ampoule and a toner. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Care for pigmentation and an even tone with acerola",
+        "about": [
+          "Acerola Dark Spot & Blemish Care is a RAVIEL range for caring for pigmentation and evening out the skin tone. At its base are the extract of acerola, rich in vitamin C, and houttuynia (heartleaf) extract. The range is built on the brand's SILK (Skin-Ingredient Link Key) active delivery concept stated by the company, and is assembled for the even-tone task in daily care.",
+          "The range has three formats: a 50 ml cream, a 30 ml concentrated ampoule and a 150 ml toner cream that is shaken before use. Such a set covers the full care step — from toning to the final cream — and lets an importer bring in the whole range rather than a single item. Wholesale supply from Korea; Teranova coordinates and supports the deal."
+        ],
+        "itemNotes": [
+          "A cream from the Acerola line (vitamin-C-rich acerola extract + heartleaf) for pigmentation care and tone brightening. Volume 50 ml.",
+          "A concentrated ampoule from the Acerola line for the care of spots and uneven tone. Volume 30 ml.",
+          "A toner-cream from the Acerola line (shake before use) for brightening care. Volume 150 ml."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — 톤 케어 · Teranova",
+        "seoDesc": "RAVIEL 브랜드의 Acerola Dark Spot & Blemish Care 라인 — 비타민 C가 풍부한 아세로라와 어성초 추출물을 담은 색소 침착·균일한 톤 케어: 크림 50ml, 앰플 30ml, 토너 크림 150ml. 한국에서의 도매 공급은 Teranova를 통해.",
+        "tagline": "아세로라를 담은 색소 침착·균일한 톤 케어",
+        "about": [
+          "Acerola Dark Spot & Blemish Care는 색소 침착 관리와 피부 톤 정돈을 위한 RAVIEL 브랜드의 라인입니다. 비타민 C가 풍부한 아세로라 추출물과 어성초(하트리프) 추출물이 바탕입니다. 라인은 회사가 밝힌 자체 활성 성분 전달 개념 SILK(Skin-Ingredient Link Key)를 기반으로 하며, 매일의 케어에서 균일한 톤이라는 과제에 맞춰 구성되었습니다.",
+          "라인은 세 가지 포맷입니다: 크림 50ml, 고농축 앰플 30ml, 사용 전에 흔들어 쓰는 토너 크림 150ml. 이 구성은 토닝부터 마무리 크림까지 케어 단계를 모두 커버하여, 수입업체가 단품이 아니라 라인 전체를 들여올 수 있게 합니다. 한국에서의 도매 공급이며, 거래는 Teranova가 조정하고 지원합니다."
+        ],
+        "itemNotes": [
+          "색소 침착 케어 및 톤 브라이트닝을 위한 Acerola 라인 크림(비타민 C가 풍부한 아세로라 추출물 + 어성초). 용량 50 ml.",
+          "잡티와 고르지 않은 톤 케어를 위한 Acerola 라인 고농축 앰플. 용량 30 ml.",
+          "브라이트닝 케어를 위한 Acerola 라인 토너-크림(사용 전 흔들어 사용). 용량 150 ml."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — 肤色护理 · Teranova",
+        "seoDesc": "RAVIEL 品牌的 Acerola Dark Spot & Blemish Care 系列 — 以针叶樱桃与鱼腥草提取物打造、针对色斑与均匀肤色的护理：面霜、安瓶与爽肤水。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "以针叶樱桃打造、针对色斑与均匀肤色的护理",
+        "about": [
+          "Acerola Dark Spot & Blemish Care 是 RAVIEL 品牌针对色斑与均匀肤色的护理系列。核心是富含维生素 C 的针叶樱桃提取物与鱼腥草提取物。系列建立在公司提出的专属成分递送概念 SILK（Skin-Ingredient Link Key）之上，并围绕日常护理中的均匀肤色需求组合而成。",
+          "系列有三种形态：50 毫升面霜、30 毫升浓缩安瓶，以及使用前需摇匀的 150 毫升爽肤霜。这样一套覆盖完整的护理步骤——从爽肤到最后的面霜——让进口商可以整条引进，而不是只上一个单品。韩国批发供应，交易由 Teranova 协调并提供支持。"
+        ],
+        "itemNotes": [
+          "Acerola 产品线面霜（富含维生素 C 的针叶樱桃提取物 + 鱼腥草），用于色素沉着护理和肤色提亮。容量 50 ml。",
+          "Acerola 产品线浓缩安瓶，用于斑点和肤色不均护理。容量 30 ml。",
+          "Acerola 产品线爽肤霜（使用前摇匀），用于提亮护理。容量 150 ml。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — 肌色のケア · Teranova",
+        "seoDesc": "RAVIEL の Acerola Dark Spot & Blemish Care ライン — アセロラとドクダミのエキスを軸にした、シミの気になる肌と均一な肌色のためのケア：クリーム、アンプル、トナー。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "アセロラによる、シミの気になる肌と均一な肌色のケア",
+        "about": [
+          "Acerola Dark Spot & Blemish Care は、シミの気になる肌のケアと、肌色を均一に整えるための RAVIEL のラインです。ベースにあるのは、ビタミン C を豊富に含むアセロラのエキスと、ドクダミ(ハートリーフ)のエキス。会社が掲げる独自の成分デリバリー概念 SILK(Skin-Ingredient Link Key)に基づき、日々のケアでの均一な肌色という目的にまとめられています。",
+          "ラインは3つのフォーマットです：クリーム 50 mL、濃縮アンプル 30 mL、そして使用前に振って使うトナークリーム 150 mL。この構成でトナーから仕上げのクリームまでケアの流れをひと通りカバーでき、輸入業者は単品ではなくライン全体で導入できます。韓国からの卸売供給で、取引は Teranova が調整しサポートします。"
+        ],
+        "itemNotes": [
+          "Acerola ライン クリーム（ビタミン C 豊富なアセロラエキス + ドクダミ）、色素沈着ケアとトーンの明るさケア向け。容量 50 ml。",
+          "Acerola ライン 濃縮アンプル、シミとトーンの不均一ケア向け。容量 30 ml。",
+          "Acerola ライン トナークリーム（使用前に振る）、明るさケア向け。容量 150 ml。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — cura del tono · Teranova",
+        "seoDesc": "La linea Acerola Dark Spot & Blemish Care di RAVIEL — cura delle macchie scure e dell'incarnato uniforme con estratto di acerola e di houttuynia: crema, fiala e tonico. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Cura delle macchie scure e dell'incarnato uniforme con acerola",
+        "about": [
+          "Acerola Dark Spot & Blemish Care è la linea del brand RAVIEL per la cura delle macchie scure e per uniformare il tono della pelle. Alla base ci sono l'estratto di acerola, ricco di vitamina C, e l'estratto di houttuynia (hartleaf). La linea è costruita sulla concezione proprietaria di veicolazione degli attivi SILK (Skin-Ingredient Link Key), dichiarata dall'azienda, ed è pensata per l'obiettivo dell'incarnato uniforme nella cura quotidiana.",
+          "La linea propone tre formati: crema da 50 ml, fiala concentrata da 30 ml e tonico-crema da 150 ml, da agitare prima dell'uso. Un set del genere copre l'intero passaggio di cura — dalla tonificazione alla crema finale — e permette all'importatore di introdurre la linea per intero, non come singola referenza. Forniture all'ingrosso dalla Corea; la trattativa è coordinata e accompagnata da Teranova."
+        ],
+        "itemNotes": [
+          "Crema della linea Acerola (estratto di acerola, ricco di vitamina C, + houttuynia) per la cura della pigmentazione e la schiaritura dell'incarnato. Formato 50 ml.",
+          "Fiala concentrata della linea Acerola per la cura delle macchie e dell'incarnato non uniforme. Formato 30 ml.",
+          "Tonico-crema della linea Acerola (agitare prima dell'uso) per un trattamento schiarente. Formato 150 ml."
+        ]
+      },
+      "de": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — Teint-Pflege · Teranova",
+        "seoDesc": "Die Serie Acerola Dark Spot & Blemish Care der Marke RAVIEL — Pflege bei Pigmentflecken und für einen ebenmäßigen Teint mit Acerola- und Houttuynia-Extrakt: Creme, Ampulle und Toner. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Pflege bei Pigmentflecken und für ebenmäßigen Teint mit Acerola",
+        "about": [
+          "Acerola Dark Spot & Blemish Care ist die Serie der Marke RAVIEL für die Pflege bei Pigmentflecken und für einen ebenmäßigen Hautton. Die Basis bilden der Extrakt der vitamin-C-reichen Acerola und der Extrakt von Houttuynia (Heartleaf). Die Serie beruht auf dem vom Unternehmen angegebenen firmeneigenen Konzept des Wirkstofftransports SILK (Skin-Ingredient Link Key) und ist auf die Aufgabe eines ebenmäßigen Teints in der täglichen Pflege ausgerichtet.",
+          "Die Serie umfasst drei Formate: Creme 50 ml, konzentrierte Ampulle 30 ml und Toner-Creme 150 ml, die vor der Anwendung geschüttelt wird. Ein solches Set deckt den vollständigen Pflegeschritt ab — von der Tonisierung bis zur abschließenden Creme — und erlaubt es dem Importeur, die Serie komplett zu führen statt einzelner Positionen. Großhandelslieferungen aus Korea, die Transaktion koordiniert und begleitet Teranova."
+        ],
+        "itemNotes": [
+          "Creme der Linie Acerola (Acerola-Extrakt, reich an Vitamin C, + Houttuynia) zur Pflege bei Pigmentierung und zur Aufhellung des Hauttons. Volumen 50 ml.",
+          "Konzentrierte Ampulle der Linie Acerola zur Pflege bei Flecken und ungleichmäßigem Hautton. Volumen 30 ml.",
+          "Toner-Creme der Linie Acerola (vor Gebrauch schütteln) für aufhellende Pflege. Volumen 150 ml."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — soin du teint · Teranova",
+        "seoDesc": "La gamme Acerola Dark Spot & Blemish Care de RAVIEL — soin de la pigmentation et de l'uniformité du teint à l'extrait d'acérola et de houttuynia : crème, ampoule et tonique. Approvisionnement en gros via Teranova.",
+        "tagline": "Soin de la pigmentation et du teint uniforme à l'acérola",
+        "about": [
+          "Acerola Dark Spot & Blemish Care est la gamme de la marque RAVIEL pour le soin de la pigmentation et l'uniformité du teint. À la base : l'extrait d'acérola, riche en vitamine C, et l'extrait de houttuynia (heartleaf). La gamme repose sur le concept propriétaire de transport des actifs SILK (Skin-Ingredient Link Key), annoncé par l'entreprise, et vise l'uniformité du teint dans le soin quotidien.",
+          "La gamme comprend trois formats : crème 50 ml, ampoule concentrée 30 ml et tonique-crème 150 ml, à agiter avant l'emploi. Cet ensemble couvre l'étape de soin complète — de la tonification à la crème finale — et permet à l'importateur de référencer la gamme entière plutôt qu'un produit isolé. Approvisionnement en gros depuis la Corée ; la transaction est coordonnée et accompagnée par Teranova."
+        ],
+        "itemNotes": [
+          "Crème de la ligne Acerola (extrait d'acérola riche en vitamine C + houttuynia) pour le soin de la pigmentation et l'éclaircissement du teint. Volume 50 ml.",
+          "Ampoule concentrée de la ligne Acerola pour le soin des taches et du teint irrégulier. Volume 30 ml.",
+          "Tonique-crème de la ligne Acerola (à agiter avant emploi) pour un soin éclaircissant. Volume 150 ml."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — ton bakımı · Teranova",
+        "seoDesc": "RAVIEL markasının Acerola Dark Spot & Blemish Care serisi — acerola ve houttuynia özü bazlı koyu leke ve eşit ton bakımı: krem, ampul ve tonik. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Acerola ile koyu leke ve eşit ton bakımı",
+        "about": [
+          "Acerola Dark Spot & Blemish Care, RAVIEL markasının koyu leke bakımı ve cilt tonunu eşitleme serisidir. Temelinde C vitamini bakımından zengin acerola özü ile houttuynia (hartleaf) özü bulunur. Seri, şirketin belirttiği kendi aktif taşıma konsepti SILK (Skin-Ingredient Link Key) üzerine kurulmuştur ve günlük bakımda eşit ton hedefine göre derlenmiştir.",
+          "Seride üç format var: 50 ml krem, 30 ml konsantre ampul ve kullanımdan önce çalkalanan 150 ml tonik krem. Bu set bakımın tüm adımını kapsar — tonlamadan son kreme kadar — ve ithalatçının seriyi tek ürün olarak değil, bütün hâlinde listelemesine imkân verir. Kore'den toptan tedarik; işlemi Teranova koordine eder ve destekler."
+        ],
+        "itemNotes": [
+          "Pigmentasyon bakımı ve ton aydınlatması için Acerola serisi krem (C vitamini açısından zengin acerola özütü + houttuynia). Hacim 50 ml.",
+          "Lekelerin ve düzensiz tonun bakımı için Acerola serisi konsantre ampul. Hacim 30 ml.",
+          "Aydınlatıcı bakım için Acerola serisi tonik-krem (kullanmadan önce çalkalayın). Hacim 150 ml."
+        ]
+      },
+      "es": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — tono uniforme · Teranova",
+        "seoDesc": "La línea Acerola Dark Spot & Blemish Care de la marca RAVIEL — cuidado de la pigmentación y del tono uniforme con extracto de acerola y de houttuynia: crema, ampolla y tónico. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Cuidado de la pigmentación y del tono uniforme con acerola",
+        "about": [
+          "Acerola Dark Spot & Blemish Care es la línea de la marca RAVIEL dedicada al cuidado de la pigmentación y a unificar el tono de la piel. Su base son el extracto de acerola, rica en vitamina C, y el extracto de houttuynia (hierba corazón). La línea se apoya en el concepto propio de vehiculación de activos SILK (Skin-Ingredient Link Key), declarado por la empresa, y está pensada para el tono uniforme en el cuidado diario.",
+          "La línea ofrece tres formatos: crema de 50 ml, ampolla concentrada de 30 ml y tónico en crema de 150 ml, que se agita antes de usar. Un conjunto así cubre el paso de cuidado completo —de la tonificación a la crema final— y permite al importador introducir la línea entera y no una referencia suelta. Suministro mayorista desde Corea; Teranova coordina y acompaña la operación."
+        ],
+        "itemNotes": [
+          "Crema de la línea Acerola (extracto de Acerola, rica en vitamina C, + Houttuynia) para el cuidado de la pigmentación y el aclarado del tono. Volumen 50 ml.",
+          "Ampolla concentrada de la línea Acerola para el cuidado de las manchas y el tono desigual. Volumen 30 ml.",
+          "Tónico-crema de la línea Acerola (agitar antes de usar) para un cuidado aclarante. Volumen 150 ml."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Acerola Dark Spot (RAVIEL) — manchas e tom · Teranova",
+        "seoDesc": "Linha Acerola Dark Spot & Blemish Care da marca RAVIEL — cuidado das manchas e do tom uniforme com extrato de acerola e de houttuynia: creme, ampola e tônico. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Cuidado das manchas e do tom uniforme com acerola",
+        "about": [
+          "Acerola Dark Spot & Blemish Care é a linha da marca RAVIEL voltada ao cuidado das manchas e à uniformização do tom da pele. Na base estão o extrato de acerola, rica em vitamina C, e o extrato de houttuynia (erva-de-coração). A linha se apoia no conceito próprio de veiculação de ativos SILK (Skin-Ingredient Link Key), declarado pela empresa, e foi montada em torno do tom uniforme na rotina diária.",
+          "São três formatos na linha: creme de 50 ml, ampola concentrada de 30 ml e tônico cremoso de 150 ml, que se agita antes de usar. Esse conjunto fecha a etapa completa do cuidado — da tonificação ao creme final — e permite ao importador trazer a linha inteira, e não um item isolado. Fornecimento por atacado da Coreia; a Teranova coordena e acompanha a negociação."
+        ],
+        "itemNotes": [
+          "Creme da linha Acerola (extrato de Acerola, rica em vitamina C, + Houttuynia) para o cuidado da pigmentação e o clareamento do tom. Volume 50 ml.",
+          "Ampola concentrada da linha Acerola para o cuidado das manchas e do tom desigual. Volume 30 ml.",
+          "Tônico-creme da linha Acerola (agitar antes de usar) para um cuidado clareador. Volume 150 ml."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "bakuchiol-mela-free-firmness-and-tone",
+    "supplierSlug": "pineworld",
+    "category": "cosmetics",
+    "lineName": "Bakuchiol Mela Free — Firmness & Tone",
+    "items": [
+      {
+        "name": "Bakuchiol Mela Free Cream",
+        "img": "/img/suppliers/pineworld/products/bakuchiol-mela-free-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Bakuchiol Mela Free Serum",
+        "img": "/img/suppliers/pineworld/products/bakuchiol-mela-free-serum.jpg",
+        "volume": "30 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "A cream from the Acerola line (vitamin-C-rich acerola extract + heartleaf) for pigmentation care and tone brightening. Volume 50 ml.",
-     "A concentrated ampoule from the Acerola line for the care of spots and uneven tone. Volume 30 ml.",
-     "A toner-cream from the Acerola line (shake before use) for brightening care. Volume 150 ml."
-    ]
-   },
-   "ko": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — 톤 케어 · Teranova",
-    "seoDesc": "RAVIEL 브랜드의 Acerola Dark Spot & Blemish Care 라인 — 비타민 C가 풍부한 아세로라와 어성초 추출물을 담은 색소 침착·균일한 톤 케어: 크림 50ml, 앰플 30ml, 토너 크림 150ml. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "아세로라를 담은 색소 침착·균일한 톤 케어",
-    "about": [
-     "Acerola Dark Spot & Blemish Care는 색소 침착 관리와 피부 톤 정돈을 위한 RAVIEL 브랜드의 라인입니다. 비타민 C가 풍부한 아세로라 추출물과 어성초(하트리프) 추출물이 바탕입니다. 라인은 회사가 밝힌 자체 활성 성분 전달 개념 SILK(Skin-Ingredient Link Key)를 기반으로 하며, 매일의 케어에서 균일한 톤이라는 과제에 맞춰 구성되었습니다.",
-     "라인은 세 가지 포맷입니다: 크림 50ml, 고농축 앰플 30ml, 사용 전에 흔들어 쓰는 토너 크림 150ml. 이 구성은 토닝부터 마무리 크림까지 케어 단계를 모두 커버하여, 수입업체가 단품이 아니라 라인 전체를 들여올 수 있게 합니다. 한국에서의 도매 공급이며, 거래는 Teranova가 조정하고 지원합니다."
+    "i18n": {
+      "ru": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — упругость · Teranova",
+        "seoDesc": "Линейка Bakuchiol Mela Free бренда RAVIEL — уход за упругостью и тоном на бакучиоле, растительной альтернативе ретинолу, и идебеноне: крем и сыворотка. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Упругость и тон с бакучиолом — растительной альтернативой ретинолу",
+        "about": [
+          "Bakuchiol Mela Free — линейка бренда RAVIEL в направлении slow-aging: уход за упругостью и ровным тоном кожи. Построена на бакучиоле, растительной косметической альтернативе ретинолу, в сочетании с идебеноном. Направление адресовано тем, кто ищет мягкий возрастной уход без ретинола в составе.",
+          "Линейка компактна: крем 50 мл и сыворотка 30 мл. Оба продукта работают в связке — сыворотка на этапе концентрата, крем как финальный шаг. Для импортёра это короткий и легко объяснимый набор с понятным маркетинговым сюжетом: бакучиол сегодня один из самых узнаваемых запросов в категории slow-aging. Сделку координирует и сопровождает Teranova."
+        ],
+        "itemNotes": [
+          "Крем с бакучиолом (растительная альтернатива ретинолу) и идебеноном для ухода за упругостью и тоном. Объём 50 мл.",
+          "Сыворотка с бакучиолом для антивозрастного и осветляющего ухода. Объём 30 мл."
+        ]
+      },
+      "en": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — firmness · Teranova",
+        "seoDesc": "The Bakuchiol Mela Free range by RAVIEL — care for firmness and tone with bakuchiol, a plant-based alternative to retinol, and idebenone: a cream and a serum. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Firmness and tone with bakuchiol, a plant-based alternative to retinol",
+        "about": [
+          "Bakuchiol Mela Free is a RAVIEL range in the slow-aging direction: care for the firmness and even tone of the skin. It is built on bakuchiol, a plant-based cosmetic alternative to retinol, combined with idebenone. The direction is addressed to those looking for gentle age care without retinol in the formula.",
+          "The range is compact: a 50 ml cream and a 30 ml serum. Both products work together — the serum at the concentrate stage, the cream as the final step. For an importer this is a short, easily explained set with a clear marketing story: bakuchiol is today one of the most recognizable requests in the slow-aging category. Teranova coordinates and supports the deal."
+        ],
+        "itemNotes": [
+          "A cream with bakuchiol (a plant-based alternative to retinol) and idebenone for firmness and tone care. Volume 50 ml.",
+          "A serum with bakuchiol for anti-aging and brightening care. Volume 30 ml."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — 탄력 · Teranova",
+        "seoDesc": "RAVIEL 브랜드의 Bakuchiol Mela Free 라인 — 레티놀의 식물성 대안인 바쿠치올과 이데베논을 담은 슬로우 에이징 방향의 탄력·톤 케어: 크림 50ml와 세럼 30ml, 두 품목으로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "레티놀의 식물성 대안 바쿠치올로 완성하는 탄력과 톤",
+        "about": [
+          "Bakuchiol Mela Free는 슬로우 에이징 방향의 RAVIEL 브랜드 라인으로, 피부의 탄력과 균일한 톤을 케어합니다. 레티놀의 식물성 화장품 대안인 바쿠치올과 이데베논의 조합을 기반으로 합니다. 처방에 레티놀 없이 부드러운 연령 케어를 찾는 소비자를 위한 방향입니다.",
+          "라인은 컴팩트합니다: 크림 50ml와 세럼 30ml. 두 제품은 함께 작동합니다 — 세럼은 농축 단계에서, 크림은 마무리 단계에서. 수입업체에게는 설명하기 쉬운 짧은 구성이며 마케팅 스토리도 분명합니다: 바쿠치올은 오늘날 슬로우 에이징 카테고리에서 가장 잘 알려진 키워드 중 하나입니다. 거래는 Teranova가 조정하고 지원합니다."
+        ],
+        "itemNotes": [
+          "탄력·톤 케어를 위한 바쿠치올(레티놀의 식물성 대안)과 이데베논 함유 크림. 용량 50 ml.",
+          "안티에이징 및 브라이트닝 케어를 위한 바쿠치올 세럼. 용량 30 ml."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — 紧致 · Teranova",
+        "seoDesc": "RAVIEL 品牌的 Bakuchiol Mela Free 系列 — 以补骨脂酚（视黄醇的植物替代成分）与艾地苯打造的紧致与肤色护理：面霜与精华。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "以补骨脂酚打造的紧致与肤色护理——视黄醇的植物替代成分",
+        "about": [
+          "Bakuchiol Mela Free 是 RAVIEL 品牌在 slow-aging 方向上的系列：针对肌肤紧致与均匀肤色的护理。它建立在补骨脂酚——视黄醇的植物性化妆品替代成分——与艾地苯的组合之上。这一方向面向想要温和年龄护理、又不希望配方中含视黄醇的人。",
+          "系列很精简：50 毫升面霜与 30 毫升精华。两者配合使用——精华作为浓缩步骤，面霜作为最后一步。对进口商而言，这是一个短小且容易解释的组合，营销故事清晰：补骨脂酚如今是 slow-aging 品类中最具辨识度的需求之一。交易由 Teranova 协调并提供支持。"
+        ],
+        "itemNotes": [
+          "含补骨脂酚（视黄醇的植物替代成分）和艾地苯的面霜，用于紧致与肤色护理。容量 50 ml。",
+          "含补骨脂酚的精华，用于抗龄和提亮护理。容量 30 ml。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — ハリ · Teranova",
+        "seoDesc": "RAVIEL の Bakuchiol Mela Free ライン — レチノールの植物由来の代替成分であるバクチオールとイデベノンによる、ハリと肌色のケア：クリームと美容液。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "レチノールの植物由来代替成分バクチオールによるハリと肌色のケア",
+        "about": [
+          "Bakuchiol Mela Free は、slow-aging 方向における RAVIEL のラインで、肌のハリと均一な肌色のためのケアです。レチノールの植物由来の化粧品代替成分であるバクチオールと、イデベノンの組み合わせを軸にしています。処方にレチノールを含まない、おだやかなエイジングケアを求める人に向けた方向性です。",
+          "ラインはコンパクトです：クリーム 50 mL と美容液 30 mL。二つは組み合わせて働きます——美容液は濃縮のステップとして、クリームは仕上げのステップとして。輸入業者にとっては短くて説明しやすい構成で、マーケティングの筋書きも明快です：バクチオールは今日、slow-aging カテゴリーで最も分かりやすいニーズの一つです。取引は Teranova が調整しサポートします。"
+        ],
+        "itemNotes": [
+          "バクチオール（レチノールの植物代替成分）とイデベノン配合のクリーム、ハリとトーンのケア向け。容量 50 ml。",
+          "バクチオール配合の美容液、エイジングケアと明るさケア向け。容量 30 ml。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — compattezza · Teranova",
+        "seoDesc": "La linea Bakuchiol Mela Free di RAVIEL — cura di compattezza e tono con il bakuchiol, alternativa vegetale al retinolo, e l'idebenone: crema e siero. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
+        "tagline": "Compattezza e tono con il bakuchiol, alternativa vegetale al retinolo",
+        "about": [
+          "Bakuchiol Mela Free è la linea del brand RAVIEL nella direzione slow-aging: cura della compattezza e dell'uniformità del tono della pelle. È costruita sul bakuchiol, alternativa cosmetica vegetale al retinolo, in combinazione con l'idebenone. La direzione si rivolge a chi cerca una cura età-matura delicata, senza retinolo nella formula.",
+          "La linea è compatta: crema da 50 ml e siero da 30 ml. I due prodotti lavorano in coppia — il siero nella fase di concentrato, la crema come passaggio finale. Per l'importatore è un set breve e facile da spiegare, con una storia di marketing chiara: il bakuchiol è oggi una delle richieste più riconoscibili nella categoria slow-aging. La trattativa è coordinata e accompagnata da Teranova."
+        ],
+        "itemNotes": [
+          "Crema con bakuchiol (alternativa vegetale al retinolo) e idebenone per la cura dell'elasticità e dell'incarnato. Formato 50 ml.",
+          "Siero con bakuchiol per un trattamento anti-età e schiarente. Formato 30 ml."
+        ]
+      },
+      "de": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — Elastizität · Teranova",
+        "seoDesc": "Die Serie Bakuchiol Mela Free der Marke RAVIEL — Pflege für Elastizität und Teint mit Bakuchiol, der pflanzlichen Alternative zu Retinol, und Idebenon: Creme und Serum. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Elastizität und Teint mit Bakuchiol, der pflanzlichen Alternative zu Retinol",
+        "about": [
+          "Bakuchiol Mela Free ist die Serie der Marke RAVIEL in der Richtung Slow Aging: Pflege für Elastizität und einen ebenmäßigen Hautton. Sie ist auf Bakuchiol aufgebaut, der pflanzlichen kosmetischen Alternative zu Retinol, in Kombination mit Idebenon. Die Richtung wendet sich an alle, die eine milde Alterspflege ohne Retinol in der Zusammensetzung suchen.",
+          "Die Serie ist kompakt: Creme 50 ml und Serum 30 ml. Beide Produkte wirken im Verbund — das Serum in der Konzentratstufe, die Creme als abschließender Schritt. Für den Importeur ist das ein kurzes und leicht erklärbares Set mit einer klaren Marketinggeschichte: Bakuchiol ist heute eine der bekanntesten Anfragen in der Kategorie Slow Aging. Die Transaktion koordiniert und begleitet Teranova."
+        ],
+        "itemNotes": [
+          "Creme mit Bakuchiol (pflanzliche Alternative zu Retinol) und Idebenon zur Pflege von Festigkeit und Hautton. Volumen 50 ml.",
+          "Serum mit Bakuchiol für Anti-Aging- und aufhellende Pflege. Volumen 30 ml."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — fermeté · Teranova",
+        "seoDesc": "La gamme Bakuchiol Mela Free de RAVIEL — soin de la fermeté et du teint au bakuchiol, alternative végétale au rétinol, et à l'idébénone : crème et sérum. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Fermeté et teint avec le bakuchiol, alternative végétale au rétinol",
+        "about": [
+          "Bakuchiol Mela Free est la gamme de la marque RAVIEL dans la direction slow-aging : soin de la fermeté et de l'uniformité du teint. Elle repose sur le bakuchiol, alternative cosmétique végétale au rétinol, associé à l'idébénone. Cette direction s'adresse à ceux qui cherchent un soin de l'âge en douceur, sans rétinol dans la composition.",
+          "La gamme est compacte : crème 50 ml et sérum 30 ml. Les deux produits fonctionnent ensemble — le sérum à l'étape du concentré, la crème comme étape finale. Pour l'importateur, c'est un ensemble court et facile à expliquer, au récit marketing clair : le bakuchiol est aujourd'hui l'une des demandes les plus reconnues de la catégorie slow-aging. La transaction est coordonnée et accompagnée par Teranova."
+        ],
+        "itemNotes": [
+          "Crème au bakuchiol (alternative végétale au rétinol) et à l'idébénone pour le soin de la fermeté et du teint. Volume 50 ml.",
+          "Sérum au bakuchiol pour un soin anti-âge et éclaircissant. Volume 30 ml."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — sıkılık · Teranova",
+        "seoDesc": "RAVIEL markasının Bakuchiol Mela Free serisi — retinolün bitkisel alternatifi bakuchiol ve idebenon ile sıkılık ve ton bakımı: krem ve serum. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Retinolün bitkisel alternatifi bakuchiol ile sıkılık ve ton",
+        "about": [
+          "Bakuchiol Mela Free, RAVIEL markasının slow-aging yönündeki serisidir: cildin sıkılığı ve eşit tonu için bakım. Retinolün bitkisel kozmetik alternatifi olan bakuchiol ile idebenonun birleşimi üzerine kurulmuştur. Bu yön, içeriğinde retinol olmadan nazik bir yaş bakımı arayanlara hitap eder.",
+          "Seri kompakttır: 50 ml krem ve 30 ml serum. İki ürün birlikte çalışır — serum konsantre adımında, krem ise son adımda. İthalatçı için bu, anlaşılır bir pazarlama hikâyesi olan kısa ve kolay anlatılan bir settir: bakuchiol bugün slow-aging kategorisinin en tanınan taleplerinden biridir. İşlemi Teranova koordine eder ve destekler."
+        ],
+        "itemNotes": [
+          "Sıkılık ve ton bakımı için bakuchiol (retinole bitkisel alternatif) ve idebenon içeren krem. Hacim 50 ml.",
+          "Yaşlanma karşıtı ve aydınlatıcı bakım için bakuchiol içeren serum. Hacim 30 ml."
+        ]
+      },
+      "es": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — firmeza · Teranova",
+        "seoDesc": "La línea Bakuchiol Mela Free de la marca RAVIEL — cuidado de la firmeza y el tono con bakuchiol, alternativa vegetal al retinol, e idebenona: crema y sérum. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
+        "tagline": "Firmeza y tono con bakuchiol, la alternativa vegetal al retinol",
+        "about": [
+          "Bakuchiol Mela Free es la línea de la marca RAVIEL en la dirección slow-aging: cuidado de la firmeza y del tono uniforme de la piel. Está construida sobre el bakuchiol, alternativa cosmética vegetal al retinol, en combinación con la idebenona. La propuesta se dirige a quien busca un cuidado de la edad suave, sin retinol en la composición.",
+          "La línea es compacta: crema de 50 ml y sérum de 30 ml. Ambos productos trabajan en pareja — el sérum como paso de concentrado y la crema como cierre. Para el importador es un conjunto corto y fácil de explicar, con un relato de marketing claro: el bakuchiol es hoy una de las búsquedas más reconocibles de la categoría slow-aging. Teranova coordina y acompaña la operación."
+        ],
+        "itemNotes": [
+          "Crema con bakuchiol (alternativa vegetal al retinol) e idebenona para el cuidado de la firmeza y el tono. Volumen 50 ml.",
+          "Sérum con bakuchiol para un cuidado antiedad y aclarante. Volumen 30 ml."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Bakuchiol Mela Free (RAVIEL) — firmeza e tom · Teranova",
+        "seoDesc": "Linha Bakuchiol Mela Free da marca RAVIEL — cuidado da firmeza e do tom com bakuchiol, alternativa vegetal ao retinol, e idebenona: creme e sérum. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
+        "tagline": "Firmeza e tom com bakuchiol, alternativa vegetal ao retinol",
+        "about": [
+          "Bakuchiol Mela Free é a linha da marca RAVIEL na vertente slow-aging: cuidado da firmeza e da uniformidade do tom da pele. Ela se apoia no bakuchiol, alternativa cosmética vegetal ao retinol, combinado com a idebenona. A proposta fala com quem procura um cuidado da idade delicado, sem retinol na composição.",
+          "A linha é enxuta: creme de 50 ml e sérum de 30 ml. Os dois produtos atuam em dupla — o sérum na etapa de concentrado, o creme como passo final. Para o importador, é um conjunto curto e fácil de apresentar, com um enredo de marketing claro: o bakuchiol está hoje entre as buscas mais reconhecidas da categoria slow-aging. A Teranova coordena e acompanha a negociação."
+        ],
+        "itemNotes": [
+          "Creme com bakuchiol (alternativa vegetal ao retinol) e idebenona para o cuidado da firmeza e do tom. Volume 50 ml.",
+          "Sérum com bakuchiol para um cuidado antienvelhecimento e clareador. Volume 30 ml."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "biome-8x-hyaluronic-hydration-and-pores",
+    "supplierSlug": "pineworld",
+    "category": "cosmetics",
+    "lineName": "Biome 8X Hyaluronic — Hydration & Pores",
+    "items": [
+      {
+        "name": "Biome 8X Hyaluronic Cream",
+        "img": "/img/suppliers/pineworld/products/biome-8x-hyaluronic-cream.jpg",
+        "volume": "80 ml",
+        "certs": []
+      },
+      {
+        "name": "Biome 8X Hyaluronic Ampoule",
+        "img": "/img/suppliers/pineworld/products/biome-8x-hyaluronic-ampoule.jpg",
+        "volume": "30 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "색소 침착 케어 및 톤 브라이트닝을 위한 Acerola 라인 크림(비타민 C가 풍부한 아세로라 추출물 + 어성초). 용량 50 ml.",
-     "잡티와 고르지 않은 톤 케어를 위한 Acerola 라인 고농축 앰플. 용량 30 ml.",
-     "브라이트닝 케어를 위한 Acerola 라인 토너-크림(사용 전 흔들어 사용). 용량 150 ml."
-    ]
-   },
-   "zh": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — 肤色护理 · Teranova",
-    "seoDesc": "RAVIEL 品牌的 Acerola Dark Spot & Blemish Care 系列 — 以针叶樱桃与鱼腥草提取物打造、针对色斑与均匀肤色的护理：面霜、安瓶与爽肤水。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "以针叶樱桃打造、针对色斑与均匀肤色的护理",
-    "about": [
-     "Acerola Dark Spot & Blemish Care 是 RAVIEL 品牌针对色斑与均匀肤色的护理系列。核心是富含维生素 C 的针叶樱桃提取物与鱼腥草提取物。系列建立在公司提出的专属成分递送概念 SILK（Skin-Ingredient Link Key）之上，并围绕日常护理中的均匀肤色需求组合而成。",
-     "系列有三种形态：50 毫升面霜、30 毫升浓缩安瓶，以及使用前需摇匀的 150 毫升爽肤霜。这样一套覆盖完整的护理步骤——从爽肤到最后的面霜——让进口商可以整条引进，而不是只上一个单品。韩国批发供应，交易由 Teranova 协调并提供支持。"
+    "i18n": {
+      "ru": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — увлажнение · Teranova",
+        "seoDesc": "Линейка Biome 8X Hyaluronic бренда RAVIEL — увлажнение и уход за порами: крем и ампула с комплексом из восьми гиалуроновых кислот, керамидами и про- и постбиотиками. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Увлажнение и уход за порами на восьми гиалуроновых кислотах",
+        "about": [
+          "Biome 8X Hyaluronic — линейка бренда RAVIEL для увлажнения и ухода за порами и жирностью кожи. По данным компании, в основе состава — комплекс из восьми гиалуроновых кислот, керамиды, а также пробиотический и постбиотический комплекс, который помогает поддерживать баланс кожи и работать с избытком себума.",
+          "В линейке два формата: крем 80 мл и ампула 30 мл. Увлажнение и уход за порами — самая массовая задача в корейской косметике, поэтому линейка одинаково уместна в рознице, в дрогери и на маркетплейсах. Оптовые поставки из Кореи, проверку поставщика и сопровождение сделки берёт на себя Teranova."
+        ],
+        "itemNotes": [
+          "Увлажняющий крем с комплексом из 8 гиалуроновых кислот, пробиотиками/постбиотиками и керамидами; уход за порами и себумом. Объём 80 мл.",
+          "Ампула с 8 видами гиалуроновой кислоты и биом-комплексом для увлажнения и ухода за порами. Объём 30 мл."
+        ]
+      },
+      "en": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — hydration · Teranova",
+        "seoDesc": "The Biome 8X Hyaluronic range by RAVIEL — hydration and pore care: a cream and an ampoule with a complex of eight hyaluronic acids, ceramides and pro- and postbiotics. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Hydration and pore care with eight hyaluronic acids",
+        "about": [
+          "Biome 8X Hyaluronic is a RAVIEL range for hydration and care for pores and skin oiliness. Per company data, the formula is based on a complex of eight hyaluronic acids, ceramides and a probiotic and postbiotic complex that helps maintain skin balance and work with excess sebum.",
+          "The range has two formats: an 80 ml cream and a 30 ml ampoule. Hydration and pore care are the most mass-market task in Korean cosmetics, so the range is equally at home in retail, in drugstores and on marketplaces. Wholesale supply from Korea; Teranova takes on supplier verification and deal support."
+        ],
+        "itemNotes": [
+          "A hydrating cream with a complex of 8 hyaluronic acids, probiotics/postbiotics and ceramides; pore and sebum care. Volume 80 ml.",
+          "An ampoule with 8 types of hyaluronic acid and a biome complex for hydration and pore care. Volume 30 ml."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — 보습 · Teranova",
+        "seoDesc": "RAVIEL 브랜드의 Biome 8X Hyaluronic 라인 — 보습과 모공·피지 케어: 회사 자료 기준 8종 히알루론산 콤플렉스, 세라마이드, 프로바이오틱·포스트바이오틱을 담은 크림 80ml와 앰플 30ml. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "8종 히알루론산으로 완성하는 보습과 모공 케어",
+        "about": [
+          "Biome 8X Hyaluronic은 보습과 모공·피지 케어를 위한 RAVIEL 브랜드의 라인입니다. 회사 자료 기준 처방의 바탕은 8종 히알루론산 콤플렉스, 세라마이드, 그리고 피부 밸런스를 유지하고 과잉 피지를 관리하도록 돕는 프로바이오틱·포스트바이오틱 콤플렉스입니다.",
+          "라인은 두 가지 포맷입니다: 크림 80ml와 앰플 30ml. 보습과 모공 케어는 한국 화장품에서 가장 대중적인 과제여서, 이 라인은 리테일, 드러그스토어, 마켓플레이스 어디에나 잘 맞습니다. 한국에서의 도매 공급이며, 공급업체 검증과 거래 지원은 Teranova가 맡습니다."
+        ],
+        "itemNotes": [
+          "8종 히알루론산 복합체, 프로바이오틱스/포스트바이오틱스, 세라마이드를 담은 수분 크림; 모공·피지 케어. 용량 80 ml.",
+          "수분 공급 및 모공 케어를 위한 8종 히알루론산과 바이옴 복합체 함유 앰플. 용량 30 ml."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — 保湿 · Teranova",
+        "seoDesc": "RAVIEL 品牌的 Biome 8X Hyaluronic 系列 — 保湿与毛孔护理：含八种透明质酸复合物、神经酰胺以及益生菌与后生元复合物的面霜与安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "以八种透明质酸打造的保湿与毛孔护理",
+        "about": [
+          "Biome 8X Hyaluronic 是 RAVIEL 品牌针对保湿以及毛孔与油光护理的系列。据公司资料，配方核心是八种透明质酸的复合物、神经酰胺，以及益生菌与后生元复合物，帮助维持肌肤的平衡并应对多余的皮脂。",
+          "系列有两种形态：80 毫升面霜与 30 毫升安瓶。保湿与毛孔护理是韩国化妆品中最大众的需求，因此这条系列在零售、日化店与电商平台上同样合适。韩国批发供应，供应商核验与交易支持由 Teranova 负责。"
+        ],
+        "itemNotes": [
+          "含 8 种透明质酸复合物、益生菌/后生元和神经酰胺的保湿面霜；毛孔与皮脂护理。容量 80 ml。",
+          "含 8 种透明质酸和微生态复合物的安瓶，用于保湿和毛孔护理。容量 30 ml。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — うるおい · Teranova",
+        "seoDesc": "RAVIEL の Biome 8X Hyaluronic ライン — うるおいと毛穴のケア：8 種のヒアルロン酸複合体、セラミド、プロバイオティクスとポストバイオティクスを配合したクリームとアンプル。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "8 種のヒアルロン酸によるうるおいと毛穴ケア",
+        "about": [
+          "Biome 8X Hyaluronic は、うるおいと、毛穴や皮脂のケアのための RAVIEL のラインです。会社提供の情報によると、処方の中心は 8 種のヒアルロン酸の複合体、セラミド、そしてプロバイオティクスとポストバイオティクスの複合体で、肌のバランスを保ち、余分な皮脂に向き合うのを助けます。",
+          "ラインは2つのフォーマットです：クリーム 80 mL とアンプル 30 mL。うるおいと毛穴のケアは韓国コスメで最も広いニーズであり、このラインは小売、ドラッグストア、マーケットプレイスのいずれにもなじみます。韓国からの卸売供給で、サプライヤーの確認と取引のサポートは Teranova が担当します。"
+        ],
+        "itemNotes": [
+          "8 種のヒアルロン酸複合体、プロバイオティクス/ポストバイオティクス、セラミド配合の保湿クリーム；毛穴と皮脂のケア。容量 80 ml。",
+          "8 種のヒアルロン酸とバイオーム複合体配合のアンプル、保湿と毛穴ケア向け。容量 30 ml。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — idratazione · Teranova",
+        "seoDesc": "La linea Biome 8X Hyaluronic di RAVIEL — idratazione e cura dei pori: crema e fiala con un complesso di otto acidi ialuronici, ceramidi e un complesso pro- e postbiotico. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Idratazione e cura dei pori con otto acidi ialuronici",
+        "about": [
+          "Biome 8X Hyaluronic è la linea del brand RAVIEL per l'idratazione e la cura dei pori e della pelle grassa. Secondo i dati dell'azienda, alla base della formula ci sono un complesso di otto acidi ialuronici, i ceramidi e un complesso probiotico e postbiotico, che aiuta a mantenere l'equilibrio della pelle e a lavorare con l'eccesso di sebo.",
+          "La linea propone due formati: crema da 80 ml e fiala da 30 ml. Idratazione e cura dei pori sono l'obiettivo più diffuso nella cosmetica coreana, perciò la linea è ugualmente adatta al retail, ai drugstore e ai marketplace. Forniture all'ingrosso dalla Corea; della verifica del fornitore e dell'accompagnamento della trattativa si occupa Teranova."
+        ],
+        "itemNotes": [
+          "Crema idratante con complesso di 8 acidi ialuronici, probiotici/postbiotici e ceramidi; cura dei pori e del sebo. Formato 80 ml.",
+          "Fiala con 8 tipi di acido ialuronico e complesso biome per l'idratazione e la cura dei pori. Formato 30 ml."
+        ]
+      },
+      "de": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — Feuchtigkeit · Teranova",
+        "seoDesc": "Die Serie Biome 8X Hyaluronic der Marke RAVIEL — Feuchtigkeit und Porenpflege: Creme und Ampulle mit einem Komplex aus acht Hyaluronsäuren, Ceramiden sowie Pro- und Postbiotika. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Feuchtigkeit und Porenpflege auf acht Hyaluronsäuren",
+        "about": [
+          "Biome 8X Hyaluronic ist die Serie der Marke RAVIEL für Feuchtigkeit und die Pflege von Poren und fettiger Haut. Laut Unternehmensangaben bilden ein Komplex aus acht Hyaluronsäuren, Ceramide sowie ein probiotischer und postbiotischer Komplex die Basis der Zusammensetzung, der hilft, die Balance der Haut zu unterstützen und mit überschüssigem Sebum zu arbeiten.",
+          "Die Serie umfasst zwei Formate: Creme 80 ml und Ampulle 30 ml. Feuchtigkeit und Porenpflege sind die massentauglichste Aufgabe in der koreanischen Kosmetik, deshalb passt die Serie gleichermaßen in den Einzelhandel, in Drogerien und auf Marktplätze. Großhandelslieferungen aus Korea; die Prüfung des Lieferanten und die Begleitung der Transaktion übernimmt Teranova."
+        ],
+        "itemNotes": [
+          "Feuchtigkeitscreme mit einem Komplex aus 8 Hyaluronsäuren, Probiotika/Postbiotika und Ceramiden; Poren- und Sebumpflege. Volumen 80 ml.",
+          "Ampulle mit 8 Arten von Hyaluronsäure und Biome-Komplex zur Feuchtigkeitsversorgung und Porenpflege. Volumen 30 ml."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — hydratation · Teranova",
+        "seoDesc": "La gamme Biome 8X Hyaluronic de RAVIEL — hydratation et soin des pores : crème et ampoule au complexe de huit acides hyaluroniques, céramides, pro- et postbiotiques. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Hydratation et soin des pores à huit acides hyaluroniques",
+        "about": [
+          "Biome 8X Hyaluronic est la gamme de la marque RAVIEL pour l'hydratation et le soin des pores et des peaux grasses. Selon les données de l'entreprise, la composition repose sur un complexe de huit acides hyaluroniques, des céramides ainsi qu'un complexe probiotique et postbiotique qui aide à maintenir l'équilibre de la peau et à travailler sur l'excès de sébum.",
+          "La gamme compte deux formats : crème 80 ml et ampoule 30 ml. L'hydratation et le soin des pores sont le besoin le plus universel de la cosmétique coréenne, ce qui rend la gamme pertinente aussi bien en magasin qu'en drogueries et sur les marketplaces. Approvisionnement en gros depuis la Corée ; la vérification du fournisseur et l'accompagnement de la transaction relèvent de Teranova."
+        ],
+        "itemNotes": [
+          "Crème hydratante avec un complexe de 8 acides hyaluroniques, des probiotiques/postbiotiques et des céramides ; soin des pores et du sébum. Volume 80 ml.",
+          "Ampoule avec 8 types d'acide hyaluronique et un complexe biome pour l'hydratation et le soin des pores. Volume 30 ml."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — nemlendirme · Teranova",
+        "seoDesc": "RAVIEL markasının Biome 8X Hyaluronic serisi — nemlendirme ve gözenek bakımı: sekiz hyaluronik asit kompleksi, seramidler ve pro- ile postbiyotik kompleks içeren krem ve ampul. Kore'den toptan tedarik Teranova aracılığıyla.",
+        "tagline": "Sekiz hyaluronik asitle nemlendirme ve gözenek bakımı",
+        "about": [
+          "Biome 8X Hyaluronic, RAVIEL markasının nemlendirme ile gözenek ve yağlanma bakımı için serisidir. Şirket verilerine göre formülün temelinde sekiz hyaluronik asitten oluşan bir kompleks, seramidler ve cildin dengesini korumaya ve fazla sebumla çalışmaya yardımcı olan probiyotik ile postbiyotik kompleks yer alır.",
+          "Seride iki format var: 80 ml krem ve 30 ml ampul. Nemlendirme ve gözenek bakımı Kore kozmetiğinin en yaygın görevidir; bu nedenle seri perakendede, drogeride ve pazar yerlerinde aynı ölçüde yerinde durur. Kore'den toptan tedarik; tedarikçi kontrolünü ve işlem desteğini Teranova üstlenir."
+        ],
+        "itemNotes": [
+          "8 hyaluronik asit kompleksi, probiyotik/postbiyotik ve seramid içeren nemlendirici krem; gözenek ve sebum bakımı. Hacim 80 ml.",
+          "Nemlendirme ve gözenek bakımı için 8 çeşit hyaluronik asit ve biyom kompleksi içeren ampul. Hacim 30 ml."
+        ]
+      },
+      "es": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — hidratación · Teranova",
+        "seoDesc": "La línea Biome 8X Hyaluronic de la marca RAVIEL — hidratación y cuidado de los poros: crema y ampolla con un complejo de ocho ácidos hialurónicos, ceramidas y probióticos y posbióticos. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Hidratación y cuidado de los poros con ocho hialurónicos",
+        "about": [
+          "Biome 8X Hyaluronic es la línea de la marca RAVIEL para la hidratación y el cuidado de los poros y de la piel grasa. Según datos de la empresa, la composición se apoya en un complejo de ocho ácidos hialurónicos, ceramidas y un complejo probiótico y posbiótico que ayuda a mantener el equilibrio de la piel y a trabajar con el exceso de sebo.",
+          "La línea ofrece dos formatos: crema de 80 ml y ampolla de 30 ml. La hidratación y el cuidado de los poros son la necesidad más masiva de la cosmética coreana, así que la línea funciona igual de bien en la venta minorista, en droguería y en marketplaces. Suministro mayorista desde Corea; Teranova se encarga de la verificación del proveedor y del acompañamiento de la operación."
+        ],
+        "itemNotes": [
+          "Crema hidratante con un complejo de 8 ácidos hialurónicos, probióticos/postbióticos y ceramidas; cuidado de los poros y del sebo. Volumen 80 ml.",
+          "Ampolla con 8 tipos de ácido hialurónico y complejo biome para la hidratación y el cuidado de los poros. Volumen 30 ml."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — poros · Teranova",
+        "seoDesc": "Linha Biome 8X Hyaluronic da marca RAVIEL — hidratação e cuidado dos poros: creme e ampola com complexo de oito ácidos hialurônicos, ceramidas e complexo pró e pós-biótico. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Hidratação e cuidado dos poros com oito hialurônicos",
+        "about": [
+          "Biome 8X Hyaluronic é a linha da marca RAVIEL para hidratação e cuidado dos poros e da oleosidade da pele. Segundo dados da empresa, a composição se apoia num complexo de oito ácidos hialurônicos, em ceramidas e num complexo probiótico e pós-biótico que ajuda a manter o equilíbrio da pele e a lidar com o excesso de sebo.",
+          "A linha tem dois formatos: creme de 80 ml e ampola de 30 ml. Hidratação e cuidado dos poros formam a demanda mais ampla da cosmética coreana, por isso a linha se encaixa igualmente bem no varejo, na drogaria e nos marketplaces. Fornecimento por atacado da Coreia; a verificação do fornecedor e o acompanhamento da negociação ficam a cargo da Teranova."
+        ],
+        "itemNotes": [
+          "Creme hidratante com um complexo de 8 ácidos hialurônicos, probióticos/pós-bióticos e ceramidas; cuidado dos poros e do sebo. Volume 80 ml.",
+          "Ampola com 8 tipos de ácido hialurônico e complexo biome para a hidratação e o cuidado dos poros. Volume 30 ml."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "retinol-10x-peptide-texture-and-elasticity",
+    "supplierSlug": "pineworld",
+    "category": "cosmetics",
+    "lineName": "Retinol 10X Peptide — Texture & Elasticity",
+    "items": [
+      {
+        "name": "Retinol 10X Peptide Ampoule",
+        "img": "/img/suppliers/pineworld/products/retinol-10x-peptide-ampoule.jpg",
+        "volume": "30 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Acerola 产品线面霜（富含维生素 C 的针叶樱桃提取物 + 鱼腥草），用于色素沉着护理和肤色提亮。容量 50 ml。",
-     "Acerola 产品线浓缩安瓶，用于斑点和肤色不均护理。容量 30 ml。",
-     "Acerola 产品线爽肤霜（使用前摇匀），用于提亮护理。容量 150 ml。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — 肌色のケア · Teranova",
-    "seoDesc": "RAVIEL の Acerola Dark Spot & Blemish Care ライン — アセロラとドクダミのエキスを軸にした、シミの気になる肌と均一な肌色のためのケア：クリーム、アンプル、トナー。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "アセロラによる、シミの気になる肌と均一な肌色のケア",
-    "about": [
-     "Acerola Dark Spot & Blemish Care は、シミの気になる肌のケアと、肌色を均一に整えるための RAVIEL のラインです。ベースにあるのは、ビタミン C を豊富に含むアセロラのエキスと、ドクダミ(ハートリーフ)のエキス。会社が掲げる独自の成分デリバリー概念 SILK(Skin-Ingredient Link Key)に基づき、日々のケアでの均一な肌色という目的にまとめられています。",
-     "ラインは3つのフォーマットです：クリーム 50 mL、濃縮アンプル 30 mL、そして使用前に振って使うトナークリーム 150 mL。この構成でトナーから仕上げのクリームまでケアの流れをひと通りカバーでき、輸入業者は単品ではなくライン全体で導入できます。韓国からの卸売供給で、取引は Teranova が調整しサポートします。"
+    "i18n": {
+      "ru": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — текстура кожи · Teranova",
+        "seoDesc": "Линейка Retinol 10X Peptide бренда RAVIEL — уход за текстурой и упругостью кожи: ампула 30 мл с ретинолом BASF (Германия) и комплексом из десяти пептидов. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Ретинол и десять пептидов для текстуры и упругости",
+        "about": [
+          "Retinol 10X Peptide — линейка бренда RAVIEL в направлении slow-aging: уход за текстурой и упругостью кожи. Построена на ретиноле производства BASF (Германия) и комплексе из десяти пептидов; за удержание и работу активов, по заявлению компании, отвечает фирменная концепция доставки SILK (Skin-Ingredient Link Key).",
+          "Сегодня линейка представлена одной позицией — ампулой 30 мл. Это концентрат-флагман: узкая позиция с сильной историей ингредиента, которую удобно ставить в ассортимент точечно или добавлять к базовым линейкам как продукт с высокой маржой. Оптовые поставки из Кореи, сделку координирует и сопровождает Teranova."
+        ],
+        "itemNotes": [
+          "Ампула с ретинолом BASF (Германия) и 10 пептидами для ухода за текстурой и упругостью кожи. Объём 30 мл."
+        ]
+      },
+      "en": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — skin texture · Teranova",
+        "seoDesc": "The Retinol 10X Peptide range by RAVIEL — care for skin texture and firmness: a 30 ml ampoule with BASF retinol (Germany) and a complex of ten peptides. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Retinol and ten peptides for texture and firmness",
+        "about": [
+          "Retinol 10X Peptide is a RAVIEL range in the slow-aging direction: care for skin texture and firmness. It is built on retinol produced by BASF (Germany) and a complex of ten peptides; as the company states, the brand's SILK (Skin-Ingredient Link Key) delivery concept is responsible for holding and working the actives.",
+          "Today the range is represented by a single item — a 30 ml ampoule. This is a flagship concentrate: a narrow item with a strong ingredient story, convenient to place in the assortment selectively or to add to the basic ranges as a high-margin product. Wholesale supply from Korea; Teranova coordinates and supports the deal."
+        ],
+        "itemNotes": [
+          "An ampoule with BASF (Germany) retinol and 10 peptides for skin texture and firmness care. Volume 30 ml."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — 피부 결 · Teranova",
+        "seoDesc": "RAVIEL 브랜드의 Retinol 10X Peptide 라인 — 슬로우 에이징 방향의 피부 결과 탄력 케어: BASF(독일) 레티놀과 10종 펩타이드 콤플렉스를 담은 30ml 고농축 앰플 한 품목으로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "결과 탄력을 위한 레티놀과 10종 펩타이드",
+        "about": [
+          "Retinol 10X Peptide는 슬로우 에이징 방향의 RAVIEL 브랜드 라인으로, 피부 결과 탄력을 케어합니다. BASF(독일)가 생산한 레티놀과 10종 펩타이드 콤플렉스를 기반으로 하며, 회사에 따르면 활성 성분의 유지와 작용은 자체 전달 개념 SILK(Skin-Ingredient Link Key)가 담당합니다.",
+          "현재 라인은 30ml 앰플 한 품목으로 구성됩니다. 성분 스토리가 강한 플래그십 농축 제품으로, 구색에 선별적으로 넣거나 마진이 높은 제품으로 기본 라인에 더하기 좋습니다. 한국에서의 도매 공급이며, 거래는 Teranova가 조정하고 지원합니다."
+        ],
+        "itemNotes": [
+          "피부 결·탄력 케어를 위한 BASF(독일) 레티놀과 10종 펩타이드 함유 앰플. 용량 30 ml."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — 肌肤质感 · Teranova",
+        "seoDesc": "RAVIEL 品牌的 Retinol 10X Peptide 系列 — 针对肌肤质感与紧致的护理：含 BASF（德国）视黄醇与十肽复合物的 30 毫升安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "视黄醇与十种肽，针对质感与紧致",
+        "about": [
+          "Retinol 10X Peptide 是 RAVIEL 品牌在 slow-aging 方向上的系列：针对肌肤质感与紧致的护理。它建立在 BASF（德国）生产的视黄醇与十种肽的复合物之上；据公司声明，成分的留存与作用由品牌专属的递送概念 SILK（Skin-Ingredient Link Key）负责。",
+          "目前系列只有一个品项——30 毫升安瓶。这是一款浓缩旗舰：定位窄但成分故事强，既可以有针对性地放进品类，也可以作为高毛利产品加到基础系列旁边。韩国批发供应，交易由 Teranova 协调并提供支持。"
+        ],
+        "itemNotes": [
+          "含 BASF（德国）视黄醇和 10 种肽的安瓶，用于肌肤纹理与紧致护理。容量 30 ml。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — 肌のキメ · Teranova",
+        "seoDesc": "RAVIEL の Retinol 10X Peptide ライン — 肌のキメとハリのためのケア：BASF(ドイツ)のレチノールと 10 種のペプチド複合体を配合した 30 mL のアンプル。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "レチノールと 10 種のペプチドで、キメとハリに",
+        "about": [
+          "Retinol 10X Peptide は、slow-aging 方向における RAVIEL のラインで、肌のキメとハリのためのケアです。BASF(ドイツ)製のレチノールと 10 種のペプチド複合体を軸にしています。会社の説明によると、成分の保持と働きは独自のデリバリー概念 SILK(Skin-Ingredient Link Key)が担います。",
+          "現在のラインは 30 mL のアンプル 1 点のみです。原料のストーリーが強い、絞り込んだ濃縮フラッグシップで、品揃えにピンポイントで加えることも、利益率の高い製品としてベーシックなラインに足すこともできます。韓国からの卸売供給で、取引は Teranova が調整しサポートします。"
+        ],
+        "itemNotes": [
+          "BASF（ドイツ）のレチノールと 10 種のペプチド配合のアンプル、肌のキメとハリのケア向け。容量 30 ml。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — texture · Teranova",
+        "seoDesc": "La linea Retinol 10X Peptide di RAVIEL — cura della texture e della compattezza della pelle: fiala da 30 ml con retinolo BASF (Germania) e un complesso di dieci peptidi. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Retinolo e dieci peptidi per texture e compattezza",
+        "about": [
+          "Retinol 10X Peptide è la linea del brand RAVIEL nella direzione slow-aging: cura della texture e della compattezza della pelle. È costruita sul retinolo prodotto da BASF (Germania) e su un complesso di dieci peptidi; della ritenzione e del lavoro degli attivi, secondo quanto dichiarato dall'azienda, si occupa la concezione proprietaria di veicolazione SILK (Skin-Ingredient Link Key).",
+          "Oggi la linea è rappresentata da un'unica referenza — la fiala da 30 ml. È un concentrato di punta: una posizione stretta con una forte storia dell'ingrediente, comoda da inserire in assortimento in modo puntuale o da aggiungere alle linee base come prodotto ad alta marginalità. Forniture all'ingrosso dalla Corea; la trattativa è coordinata e accompagnata da Teranova."
+        ],
+        "itemNotes": [
+          "Fiala con retinolo BASF (Germania) e 10 peptidi per la cura della texture e dell'elasticità della pelle. Formato 30 ml."
+        ]
+      },
+      "de": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — Hauttextur · Teranova",
+        "seoDesc": "Die Serie Retinol 10X Peptide der Marke RAVIEL — Pflege für Textur und Elastizität der Haut: Ampulle 30 ml mit Retinol von BASF (Deutschland) und einem Komplex aus zehn Peptiden. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Retinol und zehn Peptide für Textur und Elastizität",
+        "about": [
+          "Retinol 10X Peptide ist die Serie der Marke RAVIEL in der Richtung Slow Aging: Pflege für Textur und Elastizität der Haut. Sie ist auf Retinol aus der Produktion von BASF (Deutschland) und einem Komplex aus zehn Peptiden aufgebaut; für die Bindung und die Wirkung der Aktivstoffe ist laut Unternehmensangaben das firmeneigene Konzept des Wirkstofftransports SILK (Skin-Ingredient Link Key) zuständig.",
+          "Heute ist die Serie mit einer Position vertreten — der Ampulle 30 ml. Das ist das Konzentrat-Flaggschiff: eine schmale Position mit einer starken Zutatengeschichte, die sich punktuell ins Sortiment stellen oder den Basisserien als Produkt mit hoher Marge hinzufügen lässt. Großhandelslieferungen aus Korea, die Transaktion koordiniert und begleitet Teranova."
+        ],
+        "itemNotes": [
+          "Ampulle mit Retinol BASF (Deutschland) und 10 Peptiden zur Pflege von Hauttextur und Festigkeit. Volumen 30 ml."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — texture de peau · Teranova",
+        "seoDesc": "La gamme Retinol 10X Peptide de RAVIEL — soin de la texture et de la fermeté de la peau : ampoule 30 ml au rétinol BASF (Allemagne) et au complexe de dix peptides. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Rétinol et dix peptides pour la texture et la fermeté",
+        "about": [
+          "Retinol 10X Peptide est la gamme de la marque RAVIEL dans la direction slow-aging : soin de la texture et de la fermeté de la peau. Elle repose sur du rétinol produit par BASF (Allemagne) et sur un complexe de dix peptides ; la rétention et l'action des actifs relèvent, selon l'entreprise, du concept propriétaire de transport SILK (Skin-Ingredient Link Key).",
+          "Aujourd'hui, la gamme se compose d'une seule référence — l'ampoule de 30 ml. C'est un concentré phare : une référence étroite au récit d'ingrédient fort, facile à placer ponctuellement dans l'assortiment ou à ajouter aux gammes de base comme produit à forte marge. Approvisionnement en gros depuis la Corée ; la transaction est coordonnée et accompagnée par Teranova."
+        ],
+        "itemNotes": [
+          "Ampoule au rétinol BASF (Allemagne) et à 10 peptides pour le soin de la texture et de la fermeté de la peau. Volume 30 ml."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — cilt dokusu · Teranova",
+        "seoDesc": "RAVIEL markasının Retinol 10X Peptide serisi — cilt dokusu ve sıkılık bakımı: BASF (Almanya) üretimi retinol ve on peptitlik kompleks içeren 30 ml ampul. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Doku ve sıkılık için retinol ve on peptit",
+        "about": [
+          "Retinol 10X Peptide, RAVIEL markasının slow-aging yönündeki serisidir: cilt dokusu ve sıkılığı için bakım. BASF (Almanya) üretimi retinol ile on peptitten oluşan kompleks üzerine kurulmuştur; şirketin belirttiğine göre aktiflerin tutulması ve çalışması markanın kendi taşıma konsepti SILK (Skin-Ingredient Link Key) ile sağlanır.",
+          "Seri bugün tek ürünle temsil ediliyor — 30 ml ampul. Bu bir amiral konsantre: bileşen hikâyesi güçlü, dar bir ürün; ürün yelpazesine noktasal olarak koymak ya da temel serilere yüksek marjlı bir ürün olarak eklemek elverişlidir. Kore'den toptan tedarik; işlemi Teranova koordine eder ve destekler."
+        ],
+        "itemNotes": [
+          "Cilt dokusu ve sıkılığı bakımı için BASF (Almanya) retinol ve 10 peptit içeren ampul. Hacim 30 ml."
+        ]
+      },
+      "es": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — textura · Teranova",
+        "seoDesc": "La línea Retinol 10X Peptide de la marca RAVIEL — cuidado de la textura y la firmeza de la piel: ampolla de 30 ml con retinol de BASF (Alemania) y un complejo de diez péptidos. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Retinol y diez péptidos para la textura y la firmeza",
+        "about": [
+          "Retinol 10X Peptide es la línea de la marca RAVIEL en la dirección slow-aging: cuidado de la textura y de la firmeza de la piel. Está construida sobre retinol producido por BASF (Alemania) y un complejo de diez péptidos; de la retención y el trabajo de los activos se ocupa, según declara la empresa, el concepto propio de vehiculación SILK (Skin-Ingredient Link Key).",
+          "Hoy la línea se presenta con una sola referencia: la ampolla de 30 ml. Es un concentrado insignia: una referencia estrecha con una historia de ingrediente potente, cómoda de colocar en el surtido de forma puntual o de añadir a las líneas básicas como producto de alto margen. Suministro mayorista desde Corea; Teranova coordina y acompaña la operación."
+        ],
+        "itemNotes": [
+          "Ampolla con retinol BASF (Alemania) y 10 péptidos para el cuidado de la textura y la firmeza de la piel. Volumen 30 ml."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Retinol 10X Peptide (RAVIEL) — textura da pele · Teranova",
+        "seoDesc": "Linha Retinol 10X Peptide da marca RAVIEL — cuidado da textura e da firmeza da pele: ampola de 30 ml com retinol da BASF (Alemanha) e complexo de dez peptídeos. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Retinol e dez peptídeos para textura e firmeza",
+        "about": [
+          "Retinol 10X Peptide é a linha da marca RAVIEL na vertente slow-aging: cuidado da textura e da firmeza da pele. Ela se apoia em retinol produzido pela BASF (Alemanha) e num complexo de dez peptídeos; pela retenção e pelo desempenho dos ativos responde, conforme declara a empresa, o conceito próprio de veiculação SILK (Skin-Ingredient Link Key).",
+          "Hoje a linha aparece com um único item: a ampola de 30 ml. É um concentrado carro-chefe — um item estreito, com uma história de ingrediente forte, fácil de colocar no sortimento de forma pontual ou de somar às linhas básicas como produto de margem alta. Fornecimento por atacado da Coreia; a Teranova coordena e acompanha a negociação."
+        ],
+        "itemNotes": [
+          "Ampola com retinol BASF (Alemanha) e 10 peptídeos para o cuidado da textura e da firmeza da pele. Volume 30 ml."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "vitamin-and-panthenol-basics",
+    "supplierSlug": "pineworld",
+    "category": "cosmetics",
+    "lineName": "Vitamin & Panthenol Basics",
+    "items": [
+      {
+        "name": "Multi Vitamin Dark Spot & Blemish Care Serum",
+        "img": "/img/suppliers/pineworld/products/multi-vitamin-dark-spot-serum.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Panthenol Dark Spot & Blemish Spot Cream",
+        "img": "/img/suppliers/pineworld/products/panthenol-dark-spot-spot-cream.jpg",
+        "volume": "15 ml x 2",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Acerola ライン クリーム（ビタミン C 豊富なアセロラエキス + ドクダミ）、色素沈着ケアとトーンの明るさケア向け。容量 50 ml。",
-     "Acerola ライン 濃縮アンプル、シミとトーンの不均一ケア向け。容量 30 ml。",
-     "Acerola ライン トナークリーム（使用前に振る）、明るさケア向け。容量 150 ml。"
-    ]
-   },
-   "it": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — cura del tono · Teranova",
-    "seoDesc": "La linea Acerola Dark Spot & Blemish Care di RAVIEL — cura delle macchie scure e dell'incarnato uniforme con estratto di acerola e di houttuynia: crema, fiala e tonico. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Cura delle macchie scure e dell'incarnato uniforme con acerola",
-    "about": [
-     "Acerola Dark Spot & Blemish Care è la linea del brand RAVIEL per la cura delle macchie scure e per uniformare il tono della pelle. Alla base ci sono l'estratto di acerola, ricco di vitamina C, e l'estratto di houttuynia (hartleaf). La linea è costruita sulla concezione proprietaria di veicolazione degli attivi SILK (Skin-Ingredient Link Key), dichiarata dall'azienda, ed è pensata per l'obiettivo dell'incarnato uniforme nella cura quotidiana.",
-     "La linea propone tre formati: crema da 50 ml, fiala concentrata da 30 ml e tonico-crema da 150 ml, da agitare prima dell'uso. Un set del genere copre l'intero passaggio di cura — dalla tonificazione alla crema finale — e permette all'importatore di introdurre la linea per intero, non come singola referenza. Forniture all'ingrosso dalla Corea; la trattativa è coordinata e accompagnata da Teranova."
-    ],
-    "itemNotes": [
-     "Crema della linea Acerola (estratto di acerola, ricco di vitamina C, + houttuynia) per la cura della pigmentazione e la schiaritura dell'incarnato. Formato 50 ml.",
-     "Fiala concentrata della linea Acerola per la cura delle macchie e dell'incarnato non uniforme. Formato 30 ml.",
-     "Tonico-crema della linea Acerola (agitare prima dell'uso) per un trattamento schiarente. Formato 150 ml."
-    ]
-   },
-   "de": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — Teint-Pflege · Teranova",
-    "seoDesc": "Die Serie Acerola Dark Spot & Blemish Care der Marke RAVIEL — Pflege bei Pigmentflecken und für einen ebenmäßigen Teint mit Acerola- und Houttuynia-Extrakt: Creme, Ampulle und Toner. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Pflege bei Pigmentflecken und für ebenmäßigen Teint mit Acerola",
-    "about": [
-     "Acerola Dark Spot & Blemish Care ist die Serie der Marke RAVIEL für die Pflege bei Pigmentflecken und für einen ebenmäßigen Hautton. Die Basis bilden der Extrakt der vitamin-C-reichen Acerola und der Extrakt von Houttuynia (Heartleaf). Die Serie beruht auf dem vom Unternehmen angegebenen firmeneigenen Konzept des Wirkstofftransports SILK (Skin-Ingredient Link Key) und ist auf die Aufgabe eines ebenmäßigen Teints in der täglichen Pflege ausgerichtet.",
-     "Die Serie umfasst drei Formate: Creme 50 ml, konzentrierte Ampulle 30 ml und Toner-Creme 150 ml, die vor der Anwendung geschüttelt wird. Ein solches Set deckt den vollständigen Pflegeschritt ab — von der Tonisierung bis zur abschließenden Creme — und erlaubt es dem Importeur, die Serie komplett zu führen statt einzelner Positionen. Großhandelslieferungen aus Korea, die Transaktion koordiniert und begleitet Teranova."
-    ],
-    "itemNotes": [
-     "Creme der Linie Acerola (Acerola-Extrakt, reich an Vitamin C, + Houttuynia) zur Pflege bei Pigmentierung und zur Aufhellung des Hauttons. Volumen 50 ml.",
-     "Konzentrierte Ampulle der Linie Acerola zur Pflege bei Flecken und ungleichmäßigem Hautton. Volumen 30 ml.",
-     "Toner-Creme der Linie Acerola (vor Gebrauch schütteln) für aufhellende Pflege. Volumen 150 ml."
-    ]
-   },
-   "fr": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — soin du teint · Teranova",
-    "seoDesc": "La gamme Acerola Dark Spot & Blemish Care de RAVIEL — soin de la pigmentation et de l'uniformité du teint à l'extrait d'acérola et de houttuynia : crème, ampoule et tonique. Approvisionnement en gros via Teranova.",
-    "tagline": "Soin de la pigmentation et du teint uniforme à l'acérola",
-    "about": [
-     "Acerola Dark Spot & Blemish Care est la gamme de la marque RAVIEL pour le soin de la pigmentation et l'uniformité du teint. À la base : l'extrait d'acérola, riche en vitamine C, et l'extrait de houttuynia (heartleaf). La gamme repose sur le concept propriétaire de transport des actifs SILK (Skin-Ingredient Link Key), annoncé par l'entreprise, et vise l'uniformité du teint dans le soin quotidien.",
-     "La gamme comprend trois formats : crème 50 ml, ampoule concentrée 30 ml et tonique-crème 150 ml, à agiter avant l'emploi. Cet ensemble couvre l'étape de soin complète — de la tonification à la crème finale — et permet à l'importateur de référencer la gamme entière plutôt qu'un produit isolé. Approvisionnement en gros depuis la Corée ; la transaction est coordonnée et accompagnée par Teranova."
-    ],
-    "itemNotes": [
-     "Crème de la ligne Acerola (extrait d'acérola riche en vitamine C + houttuynia) pour le soin de la pigmentation et l'éclaircissement du teint. Volume 50 ml.",
-     "Ampoule concentrée de la ligne Acerola pour le soin des taches et du teint irrégulier. Volume 30 ml.",
-     "Tonique-crème de la ligne Acerola (à agiter avant emploi) pour un soin éclaircissant. Volume 150 ml."
-    ]
-   },
-   "tr": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — ton bakımı · Teranova",
-    "seoDesc": "RAVIEL markasının Acerola Dark Spot & Blemish Care serisi — acerola ve houttuynia özü bazlı koyu leke ve eşit ton bakımı: krem, ampul ve tonik. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Acerola ile koyu leke ve eşit ton bakımı",
-    "about": [
-     "Acerola Dark Spot & Blemish Care, RAVIEL markasının koyu leke bakımı ve cilt tonunu eşitleme serisidir. Temelinde C vitamini bakımından zengin acerola özü ile houttuynia (hartleaf) özü bulunur. Seri, şirketin belirttiği kendi aktif taşıma konsepti SILK (Skin-Ingredient Link Key) üzerine kurulmuştur ve günlük bakımda eşit ton hedefine göre derlenmiştir.",
-     "Seride üç format var: 50 ml krem, 30 ml konsantre ampul ve kullanımdan önce çalkalanan 150 ml tonik krem. Bu set bakımın tüm adımını kapsar — tonlamadan son kreme kadar — ve ithalatçının seriyi tek ürün olarak değil, bütün hâlinde listelemesine imkân verir. Kore'den toptan tedarik; işlemi Teranova koordine eder ve destekler."
-    ],
-    "itemNotes": [
-     "Pigmentasyon bakımı ve ton aydınlatması için Acerola serisi krem (C vitamini açısından zengin acerola özütü + houttuynia). Hacim 50 ml.",
-     "Lekelerin ve düzensiz tonun bakımı için Acerola serisi konsantre ampul. Hacim 30 ml.",
-     "Aydınlatıcı bakım için Acerola serisi tonik-krem (kullanmadan önce çalkalayın). Hacim 150 ml."
-    ]
-   },
-   "es": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — tono uniforme · Teranova",
-    "seoDesc": "La línea Acerola Dark Spot & Blemish Care de la marca RAVIEL — cuidado de la pigmentación y del tono uniforme con extracto de acerola y de houttuynia: crema, ampolla y tónico. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Cuidado de la pigmentación y del tono uniforme con acerola",
-    "about": [
-     "Acerola Dark Spot & Blemish Care es la línea de la marca RAVIEL dedicada al cuidado de la pigmentación y a unificar el tono de la piel. Su base son el extracto de acerola, rica en vitamina C, y el extracto de houttuynia (hierba corazón). La línea se apoya en el concepto propio de vehiculación de activos SILK (Skin-Ingredient Link Key), declarado por la empresa, y está pensada para el tono uniforme en el cuidado diario.",
-     "La línea ofrece tres formatos: crema de 50 ml, ampolla concentrada de 30 ml y tónico en crema de 150 ml, que se agita antes de usar. Un conjunto así cubre el paso de cuidado completo —de la tonificación a la crema final— y permite al importador introducir la línea entera y no una referencia suelta. Suministro mayorista desde Corea; Teranova coordina y acompaña la operación."
-    ],
-    "itemNotes": [
-     "Crema de la línea Acerola (extracto de Acerola, rica en vitamina C, + Houttuynia) para el cuidado de la pigmentación y el aclarado del tono. Volumen 50 ml.",
-     "Ampolla concentrada de la línea Acerola para el cuidado de las manchas y el tono desigual. Volumen 30 ml.",
-     "Tónico-crema de la línea Acerola (agitar antes de usar) para un cuidado aclarante. Volumen 150 ml."
-    ]
-   },
-   "pt": {
-    "seoTitle": "Acerola Dark Spot (RAVIEL) — manchas e tom · Teranova",
-    "seoDesc": "Linha Acerola Dark Spot & Blemish Care da marca RAVIEL — cuidado das manchas e do tom uniforme com extrato de acerola e de houttuynia: creme, ampola e tônico. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Cuidado das manchas e do tom uniforme com acerola",
-    "about": [
-     "Acerola Dark Spot & Blemish Care é a linha da marca RAVIEL voltada ao cuidado das manchas e à uniformização do tom da pele. Na base estão o extrato de acerola, rica em vitamina C, e o extrato de houttuynia (erva-de-coração). A linha se apoia no conceito próprio de veiculação de ativos SILK (Skin-Ingredient Link Key), declarado pela empresa, e foi montada em torno do tom uniforme na rotina diária.",
-     "São três formatos na linha: creme de 50 ml, ampola concentrada de 30 ml e tônico cremoso de 150 ml, que se agita antes de usar. Esse conjunto fecha a etapa completa do cuidado — da tonificação ao creme final — e permite ao importador trazer a linha inteira, e não um item isolado. Fornecimento por atacado da Coreia; a Teranova coordena e acompanha a negociação."
-    ],
-    "itemNotes": [
-     "Creme da linha Acerola (extrato de Acerola, rica em vitamina C, + Houttuynia) para o cuidado da pigmentação e o clareamento do tom. Volume 50 ml.",
-     "Ampola concentrada da linha Acerola para o cuidado das manchas e do tom desigual. Volume 30 ml.",
-     "Tônico-creme da linha Acerola (agitar antes de usar) para um cuidado clareador. Volume 150 ml."
-    ]
-   }
+    "i18n": {
+      "ru": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — базовый уход · Teranova",
+        "seoDesc": "Базовая линейка Vitamin & Panthenol бренда RAVIEL — витаминная сыворотка с комплексом VITA-BIOSOME и точечный крем с пантенолом 50 000 ppm для локального ухода. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Витаминная сыворотка и точечный крем с пантенолом",
+        "about": [
+          "Vitamin & Panthenol Basics — базовые продукты бренда RAVIEL для витаминного и точечного ухода. Линейка собрана вокруг двух задач: антиоксидантный уход и ровный тон за счёт витаминного комплекса, а также локальная работа с отдельными пятнами. Это дополнение к профильным линейкам бренда, а не самостоятельная система ухода.",
+          "В составе линейки мультивитаминная сыворотка 50 мл с комплексом VITA-BIOSOME и аскорбиновой кислотой и точечный крем с высоким содержанием пантенола (50 000 ppm) в комплекте 15 мл x 2. Обе позиции удобны как допродажа к основным линейкам и как недорогой вход в ассортимент. Оптовые поставки из Кореи через Teranova."
+        ],
+        "itemNotes": [
+          "Витаминная сыворотка (комплекс VITA-BIOSOME, аскорбиновая кислота) для осветляющего и антиоксидантного ухода. Объём 50 мл.",
+          "Точечный крем с высоким содержанием пантенола (50 000 ppm) для ухода за отдельными пятнами. Комплект 15 мл x 2."
+        ]
+      },
+      "en": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — basic care · Teranova",
+        "seoDesc": "The basic Vitamin & Panthenol range by RAVIEL — a vitamin serum with the VITA-BIOSOME complex and a spot cream with 50,000 ppm panthenol for local care. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "A vitamin serum and a spot cream with panthenol",
+        "about": [
+          "Vitamin & Panthenol Basics are RAVIEL's basic products for vitamin and spot care. The range is assembled around two tasks: antioxidant care and an even tone through a vitamin complex, and local work with individual spots. This is an addition to the brand's core ranges rather than a standalone care system.",
+          "The range holds a 50 ml multivitamin serum with the VITA-BIOSOME complex and ascorbic acid and a spot cream with a high panthenol content (50,000 ppm) in a 15 ml x 2 kit. Both items are convenient as an add-on sale to the main ranges and as an inexpensive entry into the assortment. Wholesale supply from Korea through Teranova."
+        ],
+        "itemNotes": [
+          "A vitamin serum (VITA-BIOSOME complex, ascorbic acid) for brightening and antioxidant care. Volume 50 ml.",
+          "A spot cream with a high panthenol content (50,000 ppm) for the care of individual spots. Set of 15 ml x 2."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — 베이직 케어 · Teranova",
+        "seoDesc": "RAVIEL 브랜드의 Vitamin & Panthenol Basics 베이직 라인 — VITA-BIOSOME 콤플렉스와 아스코르브산을 담은 멀티비타민 세럼 50ml와 판테놀 50,000ppm의 국소 케어용 스팟 크림 15ml x 2. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "비타민 세럼과 판테놀 스팟 크림",
+        "about": [
+          "Vitamin & Panthenol Basics는 비타민 케어와 스팟 케어를 위한 RAVIEL 브랜드의 기본 제품입니다. 라인은 두 가지 과제를 중심으로 구성됩니다: 비타민 콤플렉스를 통한 항산화 케어와 균일한 톤, 그리고 개별 잡티에 대한 국소 관리. 독립적인 케어 시스템이라기보다 브랜드 주력 라인을 보완하는 구성입니다.",
+          "라인에는 VITA-BIOSOME 콤플렉스와 아스코르브산을 담은 멀티비타민 세럼 50ml, 판테놀을 높은 함량(50,000ppm)으로 담은 스팟 크림 15ml x 2 구성이 있습니다. 두 품목 모두 주력 라인에 덧붙이는 추가 판매용으로, 또 부담 없는 구색 진입 제품으로 활용하기 좋습니다. Teranova를 통한 한국에서의 도매 공급."
+        ],
+        "itemNotes": [
+          "브라이트닝 및 항산화 케어를 위한 비타민 세럼(VITA-BIOSOME 복합체, 아스코르브산). 용량 50 ml.",
+          "국소 잡티 케어를 위한 고함량 판테놀(50,000 ppm) 스팟 크림. 15 ml x 2 세트."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — 基础护理 · Teranova",
+        "seoDesc": "RAVIEL 品牌的 Vitamin & Panthenol 基础系列 — 含 VITA-BIOSOME 复合物的维生素精华，以及含 50 000 ppm 泛醇、用于局部护理的点涂霜。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "维生素精华与含泛醇的点涂霜",
+        "about": [
+          "Vitamin & Panthenol Basics 是 RAVIEL 品牌用于维生素护理与局部护理的基础产品。系列围绕两个目标组合：借助维生素复合物的抗氧化护理与均匀肤色，以及针对个别斑点的局部处理。它是品牌专项系列的补充，而不是独立的护理体系。",
+          "系列包含含 VITA-BIOSOME 复合物与抗坏血酸的 50 毫升多维生素精华，以及泛醇含量较高（50 000 ppm）的点涂霜，规格 15 毫升 × 2。两个品项都适合作为主系列的加购，也是价格不高的品类入门。经 Teranova 从韩国批发供应。"
+        ],
+        "itemNotes": [
+          "维生素精华（VITA-BIOSOME 复合物、抗坏血酸），用于提亮和抗氧化护理。容量 50 ml。",
+          "高泛醇含量（50 000 ppm）点涂霜，用于局部斑点护理。套装 15 ml x 2。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — ベーシックケア · Teranova",
+        "seoDesc": "RAVIEL のベーシックライン Vitamin & Panthenol — VITA-BIOSOME 複合体を配合したビタミン美容液と、パンテノール 50,000 ppm 配合のポイントケア用クリーム。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "ビタミン美容液とパンテノール配合のポイントクリーム",
+        "about": [
+          "Vitamin & Panthenol Basics は、ビタミンケアとポイントケアのための RAVIEL のベーシック製品です。ラインは二つの目的でまとめられています：ビタミン複合体による抗酸化ケアと均一な肌色、そして個々の気になる部分への局所的なアプローチ。ブランドの専門ラインを補うもので、単独のケアシステムではありません。",
+          "ラインには、VITA-BIOSOME 複合体とアスコルビン酸を配合したマルチビタミン美容液 50 mL と、パンテノールを高配合(50,000 ppm)したポイントクリーム 15 mL × 2 のセットが含まれます。どちらも主要ラインへの追加販売として、また手頃な価格での品揃えの入口として扱いやすい品目です。Teranova を通じた韓国からの卸売供給。"
+        ],
+        "itemNotes": [
+          "ビタミン美容液（VITA-BIOSOME 複合体、アスコルビン酸）、明るさケアと抗酸化ケア向け。容量 50 ml。",
+          "高濃度パンテノール（50 000 ppm）配合のスポットクリーム、個別のシミケア向け。セット 15 ml x 2。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — cura base · Teranova",
+        "seoDesc": "La linea base Vitamin & Panthenol di RAVIEL — siero vitaminico con complesso VITA-BIOSOME e crema localizzata con pantenolo 50 000 ppm per la cura mirata. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Siero vitaminico e crema localizzata al pantenolo",
+        "about": [
+          "Vitamin & Panthenol Basics sono i prodotti base del brand RAVIEL per la cura vitaminica e mirata. La linea è costruita attorno a due obiettivi: cura antiossidante e incarnato uniforme grazie al complesso vitaminico, oltre al lavoro locale sulle singole macchie. È un complemento alle linee principali del brand, non un sistema di cura autonomo.",
+          "La linea comprende un siero multivitaminico da 50 ml con complesso VITA-BIOSOME e acido ascorbico e una crema localizzata ad alto contenuto di pantenolo (50 000 ppm) nel kit 15 ml x 2. Entrambe le referenze sono comode come vendita aggiuntiva alle linee principali e come ingresso economico in assortimento. Forniture all'ingrosso dalla Corea tramite Teranova."
+        ],
+        "itemNotes": [
+          "Siero vitaminico (complesso VITA-BIOSOME, acido ascorbico) per un trattamento schiarente e antiossidante. Formato 50 ml.",
+          "Crema spot con alto contenuto di pantenolo (50 000 ppm) per la cura delle singole macchie. Set 15 ml x 2."
+        ]
+      },
+      "de": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — Basispflege · Teranova",
+        "seoDesc": "Die Basisserie Vitamin & Panthenol der Marke RAVIEL — Vitaminserum mit dem Komplex VITA-BIOSOME und punktuelle Creme mit Panthenol 50 000 ppm für die lokale Pflege. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Vitaminserum und punktuelle Creme mit Panthenol",
+        "about": [
+          "Vitamin & Panthenol Basics sind die Basisprodukte der Marke RAVIEL für Vitamin- und Punktpflege. Die Serie ist um zwei Aufgaben herum zusammengestellt: antioxidative Pflege und ein ebenmäßiger Teint durch den Vitaminkomplex sowie die lokale Arbeit an einzelnen Flecken. Das ist eine Ergänzung zu den Profilserien der Marke, kein eigenständiges Pflegesystem.",
+          "Zur Serie gehören ein Multivitamin-Serum 50 ml mit dem Komplex VITA-BIOSOME und Ascorbinsäure sowie eine punktuelle Creme mit hohem Panthenolgehalt (50 000 ppm) im Set 15 ml x 2. Beide Positionen eignen sich als Zusatzverkauf zu den Hauptserien und als preiswerter Einstieg ins Sortiment. Großhandelslieferungen aus Korea über Teranova."
+        ],
+        "itemNotes": [
+          "Vitaminserum (Komplex VITA-BIOSOME, Ascorbinsäure) für aufhellende und antioxidative Pflege. Volumen 50 ml.",
+          "Spot-Creme mit hohem Panthenol-Gehalt (50 000 ppm) zur Pflege einzelner Flecken. Set 15 ml x 2."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — soin de base · Teranova",
+        "seoDesc": "La gamme de base Vitamin & Panthenol de RAVIEL — sérum vitaminé au complexe VITA-BIOSOME et crème ciblée au panthénol 50 000 ppm pour le soin localisé. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Sérum vitaminé et crème ciblée au panthénol",
+        "about": [
+          "Vitamin & Panthenol Basics regroupe les produits de base de la marque RAVIEL pour le soin vitaminé et localisé. La gamme est réunie autour de deux objectifs : le soin antioxydant et l'uniformité du teint grâce au complexe vitaminé, ainsi que le travail localisé sur des taches isolées. C'est un complément aux gammes principales de la marque, et non un système de soin autonome.",
+          "La gamme comprend un sérum multivitaminé de 50 ml au complexe VITA-BIOSOME et à l'acide ascorbique et une crème ciblée à haute teneur en panthénol (50 000 ppm) en coffret 15 ml x 2. Les deux références sont pratiques comme vente additionnelle aux gammes principales et comme entrée peu coûteuse dans l'assortiment. Approvisionnement en gros depuis la Corée via Teranova."
+        ],
+        "itemNotes": [
+          "Sérum vitaminé (complexe VITA-BIOSOME, acide ascorbique) pour un soin éclaircissant et antioxydant. Volume 50 ml.",
+          "Crème ciblée à forte teneur en panthénol (50 000 ppm) pour le soin des taches localisées. Coffret 15 ml x 2."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — temel bakım · Teranova",
+        "seoDesc": "RAVIEL markasının temel Vitamin & Panthenol serisi — VITA-BIOSOME kompleksli vitamin serumu ve bölgesel bakım için 50.000 ppm pantenol içeren nokta kremi. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Vitamin serumu ve pantenollü nokta kremi",
+        "about": [
+          "Vitamin & Panthenol Basics, RAVIEL markasının vitamin ve bölgesel bakım için temel ürünleridir. Seri iki görev etrafında toplanmıştır: vitamin kompleksi sayesinde antioksidan bakım ve eşit ton ile tekil lekeler üzerinde bölgesel çalışma. Bu, markanın ana serilerine bir tamamlayıcıdır, bağımsız bir bakım sistemi değildir.",
+          "Seride VITA-BIOSOME kompleksi ve askorbik asit içeren 50 ml multivitamin serumu ile 15 ml x 2 setinde yüksek pantenol içerikli (50.000 ppm) nokta kremi yer alır. Her iki ürün de ana serilere ek satış olarak ve ürün yelpazesine uygun maliyetli bir giriş olarak elverişlidir. Kore'den toptan tedarik Teranova aracılığıyla."
+        ],
+        "itemNotes": [
+          "Aydınlatıcı ve antioksidan bakım için vitamin serumu (VITA-BIOSOME kompleksi, askorbik asit). Hacim 50 ml.",
+          "Tekil lekelerin bakımı için yüksek pantenol içeren (50 000 ppm) nokta krem. 15 ml x 2 set."
+        ]
+      },
+      "es": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — cuidado base · Teranova",
+        "seoDesc": "La línea básica Vitamin & Panthenol de la marca RAVIEL — sérum vitamínico con el complejo VITA-BIOSOME y crema localizada con pantenol 50 000 ppm. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
+        "tagline": "Sérum vitamínico y crema localizada con pantenol",
+        "about": [
+          "Vitamin & Panthenol Basics reúne los productos básicos de la marca RAVIEL para el cuidado vitamínico y localizado. La línea se organiza en torno a dos objetivos: cuidado antioxidante y tono uniforme gracias al complejo vitamínico, y trabajo puntual sobre manchas concretas. Es un complemento de las líneas principales de la marca, no un sistema de cuidado independiente.",
+          "Componen la línea un sérum multivitamínico de 50 ml con el complejo VITA-BIOSOME y ácido ascórbico, y una crema localizada con alto contenido de pantenol (50 000 ppm) en un pack de 15 ml x 2. Ambas referencias funcionan como venta adicional a las líneas principales y como entrada económica al surtido. Suministro mayorista desde Corea a través de Teranova."
+        ],
+        "itemNotes": [
+          "Sérum vitamínico (complejo VITA-BIOSOME, ácido ascórbico) para un cuidado aclarante y antioxidante. Volumen 50 ml.",
+          "Crema localizada con alto contenido de pantenol (50 000 ppm) para el cuidado de manchas puntuales. Set 15 ml x 2."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Vitamin & Panthenol (RAVIEL) — básicos · Teranova",
+        "seoDesc": "Linha básica Vitamin & Panthenol da marca RAVIEL — sérum vitamínico com complexo VITA-BIOSOME e creme localizado com pantenol 50 000 ppm. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
+        "tagline": "Sérum vitamínico e creme localizado com pantenol",
+        "about": [
+          "Vitamin & Panthenol Basics reúne os produtos básicos da marca RAVIEL para o cuidado vitamínico e localizado. A linha gira em torno de duas frentes: cuidado antioxidante e tom uniforme por conta do complexo vitamínico, além do trabalho pontual em manchas específicas. É um complemento às linhas principais da marca, e não um sistema de cuidado à parte.",
+          "Compõem a linha um sérum multivitamínico de 50 ml com o complexo VITA-BIOSOME e ácido ascórbico e um creme localizado com alto teor de pantenol (50 000 ppm), no conjunto de 15 ml x 2. Os dois itens servem como venda adicional às linhas principais e como porta de entrada barata no sortimento. Fornecimento por atacado da Coreia através da Teranova."
+        ],
+        "itemNotes": [
+          "Sérum vitamínico (complexo VITA-BIOSOME, ácido ascórbico) para um cuidado clareador e antioxidante. Volume 50 ml.",
+          "Creme localizado com alto teor de pantenol (50 000 ppm) para o cuidado de manchas pontuais. Kit 15 ml x 2."
+        ]
+      }
+    }
   }
- },
- {
-  "slug": "bakuchiol-mela-free-firmness-and-tone",
-  "supplierSlug": "pineworld",
-  "category": "cosmetics",
-  "lineName": "Bakuchiol Mela Free — Firmness & Tone",
-  "items": [
-   {
-    "name": "Bakuchiol Mela Free Cream",
-    "img": "/img/suppliers/pineworld/products/bakuchiol-mela-free-cream.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "Bakuchiol Mela Free Serum",
-    "img": "/img/suppliers/pineworld/products/bakuchiol-mela-free-serum.jpg",
-    "volume": "30 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — упругость · Teranova",
-    "seoDesc": "Линейка Bakuchiol Mela Free бренда RAVIEL — уход за упругостью и тоном на бакучиоле, растительной альтернативе ретинолу, и идебеноне: крем и сыворотка. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Упругость и тон с бакучиолом — растительной альтернативой ретинолу",
-    "about": [
-     "Bakuchiol Mela Free — линейка бренда RAVIEL в направлении slow-aging: уход за упругостью и ровным тоном кожи. Построена на бакучиоле, растительной косметической альтернативе ретинолу, в сочетании с идебеноном. Направление адресовано тем, кто ищет мягкий возрастной уход без ретинола в составе.",
-     "Линейка компактна: крем 50 мл и сыворотка 30 мл. Оба продукта работают в связке — сыворотка на этапе концентрата, крем как финальный шаг. Для импортёра это короткий и легко объяснимый набор с понятным маркетинговым сюжетом: бакучиол сегодня один из самых узнаваемых запросов в категории slow-aging. Сделку координирует и сопровождает Teranova."
-    ],
-    "itemNotes": [
-     "Крем с бакучиолом (растительная альтернатива ретинолу) и идебеноном для ухода за упругостью и тоном. Объём 50 мл.",
-     "Сыворотка с бакучиолом для антивозрастного и осветляющего ухода. Объём 30 мл."
-    ]
-   },
-   "en": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — firmness · Teranova",
-    "seoDesc": "The Bakuchiol Mela Free range by RAVIEL — care for firmness and tone with bakuchiol, a plant-based alternative to retinol, and idebenone: a cream and a serum. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Firmness and tone with bakuchiol, a plant-based alternative to retinol",
-    "about": [
-     "Bakuchiol Mela Free is a RAVIEL range in the slow-aging direction: care for the firmness and even tone of the skin. It is built on bakuchiol, a plant-based cosmetic alternative to retinol, combined with idebenone. The direction is addressed to those looking for gentle age care without retinol in the formula.",
-     "The range is compact: a 50 ml cream and a 30 ml serum. Both products work together — the serum at the concentrate stage, the cream as the final step. For an importer this is a short, easily explained set with a clear marketing story: bakuchiol is today one of the most recognizable requests in the slow-aging category. Teranova coordinates and supports the deal."
-    ],
-    "itemNotes": [
-     "A cream with bakuchiol (a plant-based alternative to retinol) and idebenone for firmness and tone care. Volume 50 ml.",
-     "A serum with bakuchiol for anti-aging and brightening care. Volume 30 ml."
-    ]
-   },
-   "ko": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — 탄력 · Teranova",
-    "seoDesc": "RAVIEL 브랜드의 Bakuchiol Mela Free 라인 — 레티놀의 식물성 대안인 바쿠치올과 이데베논을 담은 슬로우 에이징 방향의 탄력·톤 케어: 크림 50ml와 세럼 30ml, 두 품목으로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "레티놀의 식물성 대안 바쿠치올로 완성하는 탄력과 톤",
-    "about": [
-     "Bakuchiol Mela Free는 슬로우 에이징 방향의 RAVIEL 브랜드 라인으로, 피부의 탄력과 균일한 톤을 케어합니다. 레티놀의 식물성 화장품 대안인 바쿠치올과 이데베논의 조합을 기반으로 합니다. 처방에 레티놀 없이 부드러운 연령 케어를 찾는 소비자를 위한 방향입니다.",
-     "라인은 컴팩트합니다: 크림 50ml와 세럼 30ml. 두 제품은 함께 작동합니다 — 세럼은 농축 단계에서, 크림은 마무리 단계에서. 수입업체에게는 설명하기 쉬운 짧은 구성이며 마케팅 스토리도 분명합니다: 바쿠치올은 오늘날 슬로우 에이징 카테고리에서 가장 잘 알려진 키워드 중 하나입니다. 거래는 Teranova가 조정하고 지원합니다."
-    ],
-    "itemNotes": [
-     "탄력·톤 케어를 위한 바쿠치올(레티놀의 식물성 대안)과 이데베논 함유 크림. 용량 50 ml.",
-     "안티에이징 및 브라이트닝 케어를 위한 바쿠치올 세럼. 용량 30 ml."
-    ]
-   },
-   "zh": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — 紧致 · Teranova",
-    "seoDesc": "RAVIEL 品牌的 Bakuchiol Mela Free 系列 — 以补骨脂酚（视黄醇的植物替代成分）与艾地苯打造的紧致与肤色护理：面霜与精华。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "以补骨脂酚打造的紧致与肤色护理——视黄醇的植物替代成分",
-    "about": [
-     "Bakuchiol Mela Free 是 RAVIEL 品牌在 slow-aging 方向上的系列：针对肌肤紧致与均匀肤色的护理。它建立在补骨脂酚——视黄醇的植物性化妆品替代成分——与艾地苯的组合之上。这一方向面向想要温和年龄护理、又不希望配方中含视黄醇的人。",
-     "系列很精简：50 毫升面霜与 30 毫升精华。两者配合使用——精华作为浓缩步骤，面霜作为最后一步。对进口商而言，这是一个短小且容易解释的组合，营销故事清晰：补骨脂酚如今是 slow-aging 品类中最具辨识度的需求之一。交易由 Teranova 协调并提供支持。"
-    ],
-    "itemNotes": [
-     "含补骨脂酚（视黄醇的植物替代成分）和艾地苯的面霜，用于紧致与肤色护理。容量 50 ml。",
-     "含补骨脂酚的精华，用于抗龄和提亮护理。容量 30 ml。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — ハリ · Teranova",
-    "seoDesc": "RAVIEL の Bakuchiol Mela Free ライン — レチノールの植物由来の代替成分であるバクチオールとイデベノンによる、ハリと肌色のケア：クリームと美容液。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "レチノールの植物由来代替成分バクチオールによるハリと肌色のケア",
-    "about": [
-     "Bakuchiol Mela Free は、slow-aging 方向における RAVIEL のラインで、肌のハリと均一な肌色のためのケアです。レチノールの植物由来の化粧品代替成分であるバクチオールと、イデベノンの組み合わせを軸にしています。処方にレチノールを含まない、おだやかなエイジングケアを求める人に向けた方向性です。",
-     "ラインはコンパクトです：クリーム 50 mL と美容液 30 mL。二つは組み合わせて働きます——美容液は濃縮のステップとして、クリームは仕上げのステップとして。輸入業者にとっては短くて説明しやすい構成で、マーケティングの筋書きも明快です：バクチオールは今日、slow-aging カテゴリーで最も分かりやすいニーズの一つです。取引は Teranova が調整しサポートします。"
-    ],
-    "itemNotes": [
-     "バクチオール（レチノールの植物代替成分）とイデベノン配合のクリーム、ハリとトーンのケア向け。容量 50 ml。",
-     "バクチオール配合の美容液、エイジングケアと明るさケア向け。容量 30 ml。"
-    ]
-   },
-   "it": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — compattezza · Teranova",
-    "seoDesc": "La linea Bakuchiol Mela Free di RAVIEL — cura di compattezza e tono con il bakuchiol, alternativa vegetale al retinolo, e l'idebenone: crema e siero. Forniture all'ingrosso dalla Corea e accompagnamento della trattativa tramite Teranova.",
-    "tagline": "Compattezza e tono con il bakuchiol, alternativa vegetale al retinolo",
-    "about": [
-     "Bakuchiol Mela Free è la linea del brand RAVIEL nella direzione slow-aging: cura della compattezza e dell'uniformità del tono della pelle. È costruita sul bakuchiol, alternativa cosmetica vegetale al retinolo, in combinazione con l'idebenone. La direzione si rivolge a chi cerca una cura età-matura delicata, senza retinolo nella formula.",
-     "La linea è compatta: crema da 50 ml e siero da 30 ml. I due prodotti lavorano in coppia — il siero nella fase di concentrato, la crema come passaggio finale. Per l'importatore è un set breve e facile da spiegare, con una storia di marketing chiara: il bakuchiol è oggi una delle richieste più riconoscibili nella categoria slow-aging. La trattativa è coordinata e accompagnata da Teranova."
-    ],
-    "itemNotes": [
-     "Crema con bakuchiol (alternativa vegetale al retinolo) e idebenone per la cura dell'elasticità e dell'incarnato. Formato 50 ml.",
-     "Siero con bakuchiol per un trattamento anti-età e schiarente. Formato 30 ml."
-    ]
-   },
-   "de": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — Elastizität · Teranova",
-    "seoDesc": "Die Serie Bakuchiol Mela Free der Marke RAVIEL — Pflege für Elastizität und Teint mit Bakuchiol, der pflanzlichen Alternative zu Retinol, und Idebenon: Creme und Serum. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Elastizität und Teint mit Bakuchiol, der pflanzlichen Alternative zu Retinol",
-    "about": [
-     "Bakuchiol Mela Free ist die Serie der Marke RAVIEL in der Richtung Slow Aging: Pflege für Elastizität und einen ebenmäßigen Hautton. Sie ist auf Bakuchiol aufgebaut, der pflanzlichen kosmetischen Alternative zu Retinol, in Kombination mit Idebenon. Die Richtung wendet sich an alle, die eine milde Alterspflege ohne Retinol in der Zusammensetzung suchen.",
-     "Die Serie ist kompakt: Creme 50 ml und Serum 30 ml. Beide Produkte wirken im Verbund — das Serum in der Konzentratstufe, die Creme als abschließender Schritt. Für den Importeur ist das ein kurzes und leicht erklärbares Set mit einer klaren Marketinggeschichte: Bakuchiol ist heute eine der bekanntesten Anfragen in der Kategorie Slow Aging. Die Transaktion koordiniert und begleitet Teranova."
-    ],
-    "itemNotes": [
-     "Creme mit Bakuchiol (pflanzliche Alternative zu Retinol) und Idebenon zur Pflege von Festigkeit und Hautton. Volumen 50 ml.",
-     "Serum mit Bakuchiol für Anti-Aging- und aufhellende Pflege. Volumen 30 ml."
-    ]
-   },
-   "fr": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — fermeté · Teranova",
-    "seoDesc": "La gamme Bakuchiol Mela Free de RAVIEL — soin de la fermeté et du teint au bakuchiol, alternative végétale au rétinol, et à l'idébénone : crème et sérum. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Fermeté et teint avec le bakuchiol, alternative végétale au rétinol",
-    "about": [
-     "Bakuchiol Mela Free est la gamme de la marque RAVIEL dans la direction slow-aging : soin de la fermeté et de l'uniformité du teint. Elle repose sur le bakuchiol, alternative cosmétique végétale au rétinol, associé à l'idébénone. Cette direction s'adresse à ceux qui cherchent un soin de l'âge en douceur, sans rétinol dans la composition.",
-     "La gamme est compacte : crème 50 ml et sérum 30 ml. Les deux produits fonctionnent ensemble — le sérum à l'étape du concentré, la crème comme étape finale. Pour l'importateur, c'est un ensemble court et facile à expliquer, au récit marketing clair : le bakuchiol est aujourd'hui l'une des demandes les plus reconnues de la catégorie slow-aging. La transaction est coordonnée et accompagnée par Teranova."
-    ],
-    "itemNotes": [
-     "Crème au bakuchiol (alternative végétale au rétinol) et à l'idébénone pour le soin de la fermeté et du teint. Volume 50 ml.",
-     "Sérum au bakuchiol pour un soin anti-âge et éclaircissant. Volume 30 ml."
-    ]
-   },
-   "tr": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — sıkılık · Teranova",
-    "seoDesc": "RAVIEL markasının Bakuchiol Mela Free serisi — retinolün bitkisel alternatifi bakuchiol ve idebenon ile sıkılık ve ton bakımı: krem ve serum. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Retinolün bitkisel alternatifi bakuchiol ile sıkılık ve ton",
-    "about": [
-     "Bakuchiol Mela Free, RAVIEL markasının slow-aging yönündeki serisidir: cildin sıkılığı ve eşit tonu için bakım. Retinolün bitkisel kozmetik alternatifi olan bakuchiol ile idebenonun birleşimi üzerine kurulmuştur. Bu yön, içeriğinde retinol olmadan nazik bir yaş bakımı arayanlara hitap eder.",
-     "Seri kompakttır: 50 ml krem ve 30 ml serum. İki ürün birlikte çalışır — serum konsantre adımında, krem ise son adımda. İthalatçı için bu, anlaşılır bir pazarlama hikâyesi olan kısa ve kolay anlatılan bir settir: bakuchiol bugün slow-aging kategorisinin en tanınan taleplerinden biridir. İşlemi Teranova koordine eder ve destekler."
-    ],
-    "itemNotes": [
-     "Sıkılık ve ton bakımı için bakuchiol (retinole bitkisel alternatif) ve idebenon içeren krem. Hacim 50 ml.",
-     "Yaşlanma karşıtı ve aydınlatıcı bakım için bakuchiol içeren serum. Hacim 30 ml."
-    ]
-   },
-   "es": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — firmeza · Teranova",
-    "seoDesc": "La línea Bakuchiol Mela Free de la marca RAVIEL — cuidado de la firmeza y el tono con bakuchiol, alternativa vegetal al retinol, e idebenona: crema y sérum. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
-    "tagline": "Firmeza y tono con bakuchiol, la alternativa vegetal al retinol",
-    "about": [
-     "Bakuchiol Mela Free es la línea de la marca RAVIEL en la dirección slow-aging: cuidado de la firmeza y del tono uniforme de la piel. Está construida sobre el bakuchiol, alternativa cosmética vegetal al retinol, en combinación con la idebenona. La propuesta se dirige a quien busca un cuidado de la edad suave, sin retinol en la composición.",
-     "La línea es compacta: crema de 50 ml y sérum de 30 ml. Ambos productos trabajan en pareja — el sérum como paso de concentrado y la crema como cierre. Para el importador es un conjunto corto y fácil de explicar, con un relato de marketing claro: el bakuchiol es hoy una de las búsquedas más reconocibles de la categoría slow-aging. Teranova coordina y acompaña la operación."
-    ],
-    "itemNotes": [
-     "Crema con bakuchiol (alternativa vegetal al retinol) e idebenona para el cuidado de la firmeza y el tono. Volumen 50 ml.",
-     "Sérum con bakuchiol para un cuidado antiedad y aclarante. Volumen 30 ml."
-    ]
-   },
-   "pt": {
-    "seoTitle": "Bakuchiol Mela Free (RAVIEL) — firmeza e tom · Teranova",
-    "seoDesc": "Linha Bakuchiol Mela Free da marca RAVIEL — cuidado da firmeza e do tom com bakuchiol, alternativa vegetal ao retinol, e idebenona: creme e sérum. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
-    "tagline": "Firmeza e tom com bakuchiol, alternativa vegetal ao retinol",
-    "about": [
-     "Bakuchiol Mela Free é a linha da marca RAVIEL na vertente slow-aging: cuidado da firmeza e da uniformidade do tom da pele. Ela se apoia no bakuchiol, alternativa cosmética vegetal ao retinol, combinado com a idebenona. A proposta fala com quem procura um cuidado da idade delicado, sem retinol na composição.",
-     "A linha é enxuta: creme de 50 ml e sérum de 30 ml. Os dois produtos atuam em dupla — o sérum na etapa de concentrado, o creme como passo final. Para o importador, é um conjunto curto e fácil de apresentar, com um enredo de marketing claro: o bakuchiol está hoje entre as buscas mais reconhecidas da categoria slow-aging. A Teranova coordena e acompanha a negociação."
-    ],
-    "itemNotes": [
-     "Creme com bakuchiol (alternativa vegetal ao retinol) e idebenona para o cuidado da firmeza e do tom. Volume 50 ml.",
-     "Sérum com bakuchiol para um cuidado antienvelhecimento e clareador. Volume 30 ml."
-    ]
-   }
-  }
- },
- {
-  "slug": "biome-8x-hyaluronic-hydration-and-pores",
-  "supplierSlug": "pineworld",
-  "category": "cosmetics",
-  "lineName": "Biome 8X Hyaluronic — Hydration & Pores",
-  "items": [
-   {
-    "name": "Biome 8X Hyaluronic Cream",
-    "img": "/img/suppliers/pineworld/products/biome-8x-hyaluronic-cream.jpg",
-    "volume": "80 ml",
-    "certs": []
-   },
-   {
-    "name": "Biome 8X Hyaluronic Ampoule",
-    "img": "/img/suppliers/pineworld/products/biome-8x-hyaluronic-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — увлажнение · Teranova",
-    "seoDesc": "Линейка Biome 8X Hyaluronic бренда RAVIEL — увлажнение и уход за порами: крем и ампула с комплексом из восьми гиалуроновых кислот, керамидами и про- и постбиотиками. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Увлажнение и уход за порами на восьми гиалуроновых кислотах",
-    "about": [
-     "Biome 8X Hyaluronic — линейка бренда RAVIEL для увлажнения и ухода за порами и жирностью кожи. По данным компании, в основе состава — комплекс из восьми гиалуроновых кислот, керамиды, а также пробиотический и постбиотический комплекс, который помогает поддерживать баланс кожи и работать с избытком себума.",
-     "В линейке два формата: крем 80 мл и ампула 30 мл. Увлажнение и уход за порами — самая массовая задача в корейской косметике, поэтому линейка одинаково уместна в рознице, в дрогери и на маркетплейсах. Оптовые поставки из Кореи, проверку поставщика и сопровождение сделки берёт на себя Teranova."
-    ],
-    "itemNotes": [
-     "Увлажняющий крем с комплексом из 8 гиалуроновых кислот, пробиотиками/постбиотиками и керамидами; уход за порами и себумом. Объём 80 мл.",
-     "Ампула с 8 видами гиалуроновой кислоты и биом-комплексом для увлажнения и ухода за порами. Объём 30 мл."
-    ]
-   },
-   "en": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — hydration · Teranova",
-    "seoDesc": "The Biome 8X Hyaluronic range by RAVIEL — hydration and pore care: a cream and an ampoule with a complex of eight hyaluronic acids, ceramides and pro- and postbiotics. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Hydration and pore care with eight hyaluronic acids",
-    "about": [
-     "Biome 8X Hyaluronic is a RAVIEL range for hydration and care for pores and skin oiliness. Per company data, the formula is based on a complex of eight hyaluronic acids, ceramides and a probiotic and postbiotic complex that helps maintain skin balance and work with excess sebum.",
-     "The range has two formats: an 80 ml cream and a 30 ml ampoule. Hydration and pore care are the most mass-market task in Korean cosmetics, so the range is equally at home in retail, in drugstores and on marketplaces. Wholesale supply from Korea; Teranova takes on supplier verification and deal support."
-    ],
-    "itemNotes": [
-     "A hydrating cream with a complex of 8 hyaluronic acids, probiotics/postbiotics and ceramides; pore and sebum care. Volume 80 ml.",
-     "An ampoule with 8 types of hyaluronic acid and a biome complex for hydration and pore care. Volume 30 ml."
-    ]
-   },
-   "ko": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — 보습 · Teranova",
-    "seoDesc": "RAVIEL 브랜드의 Biome 8X Hyaluronic 라인 — 보습과 모공·피지 케어: 회사 자료 기준 8종 히알루론산 콤플렉스, 세라마이드, 프로바이오틱·포스트바이오틱을 담은 크림 80ml와 앰플 30ml. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "8종 히알루론산으로 완성하는 보습과 모공 케어",
-    "about": [
-     "Biome 8X Hyaluronic은 보습과 모공·피지 케어를 위한 RAVIEL 브랜드의 라인입니다. 회사 자료 기준 처방의 바탕은 8종 히알루론산 콤플렉스, 세라마이드, 그리고 피부 밸런스를 유지하고 과잉 피지를 관리하도록 돕는 프로바이오틱·포스트바이오틱 콤플렉스입니다.",
-     "라인은 두 가지 포맷입니다: 크림 80ml와 앰플 30ml. 보습과 모공 케어는 한국 화장품에서 가장 대중적인 과제여서, 이 라인은 리테일, 드러그스토어, 마켓플레이스 어디에나 잘 맞습니다. 한국에서의 도매 공급이며, 공급업체 검증과 거래 지원은 Teranova가 맡습니다."
-    ],
-    "itemNotes": [
-     "8종 히알루론산 복합체, 프로바이오틱스/포스트바이오틱스, 세라마이드를 담은 수분 크림; 모공·피지 케어. 용량 80 ml.",
-     "수분 공급 및 모공 케어를 위한 8종 히알루론산과 바이옴 복합체 함유 앰플. 용량 30 ml."
-    ]
-   },
-   "zh": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — 保湿 · Teranova",
-    "seoDesc": "RAVIEL 品牌的 Biome 8X Hyaluronic 系列 — 保湿与毛孔护理：含八种透明质酸复合物、神经酰胺以及益生菌与后生元复合物的面霜与安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "以八种透明质酸打造的保湿与毛孔护理",
-    "about": [
-     "Biome 8X Hyaluronic 是 RAVIEL 品牌针对保湿以及毛孔与油光护理的系列。据公司资料，配方核心是八种透明质酸的复合物、神经酰胺，以及益生菌与后生元复合物，帮助维持肌肤的平衡并应对多余的皮脂。",
-     "系列有两种形态：80 毫升面霜与 30 毫升安瓶。保湿与毛孔护理是韩国化妆品中最大众的需求，因此这条系列在零售、日化店与电商平台上同样合适。韩国批发供应，供应商核验与交易支持由 Teranova 负责。"
-    ],
-    "itemNotes": [
-     "含 8 种透明质酸复合物、益生菌/后生元和神经酰胺的保湿面霜；毛孔与皮脂护理。容量 80 ml。",
-     "含 8 种透明质酸和微生态复合物的安瓶，用于保湿和毛孔护理。容量 30 ml。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — うるおい · Teranova",
-    "seoDesc": "RAVIEL の Biome 8X Hyaluronic ライン — うるおいと毛穴のケア：8 種のヒアルロン酸複合体、セラミド、プロバイオティクスとポストバイオティクスを配合したクリームとアンプル。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "8 種のヒアルロン酸によるうるおいと毛穴ケア",
-    "about": [
-     "Biome 8X Hyaluronic は、うるおいと、毛穴や皮脂のケアのための RAVIEL のラインです。会社提供の情報によると、処方の中心は 8 種のヒアルロン酸の複合体、セラミド、そしてプロバイオティクスとポストバイオティクスの複合体で、肌のバランスを保ち、余分な皮脂に向き合うのを助けます。",
-     "ラインは2つのフォーマットです：クリーム 80 mL とアンプル 30 mL。うるおいと毛穴のケアは韓国コスメで最も広いニーズであり、このラインは小売、ドラッグストア、マーケットプレイスのいずれにもなじみます。韓国からの卸売供給で、サプライヤーの確認と取引のサポートは Teranova が担当します。"
-    ],
-    "itemNotes": [
-     "8 種のヒアルロン酸複合体、プロバイオティクス/ポストバイオティクス、セラミド配合の保湿クリーム；毛穴と皮脂のケア。容量 80 ml。",
-     "8 種のヒアルロン酸とバイオーム複合体配合のアンプル、保湿と毛穴ケア向け。容量 30 ml。"
-    ]
-   },
-   "it": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — idratazione · Teranova",
-    "seoDesc": "La linea Biome 8X Hyaluronic di RAVIEL — idratazione e cura dei pori: crema e fiala con un complesso di otto acidi ialuronici, ceramidi e un complesso pro- e postbiotico. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Idratazione e cura dei pori con otto acidi ialuronici",
-    "about": [
-     "Biome 8X Hyaluronic è la linea del brand RAVIEL per l'idratazione e la cura dei pori e della pelle grassa. Secondo i dati dell'azienda, alla base della formula ci sono un complesso di otto acidi ialuronici, i ceramidi e un complesso probiotico e postbiotico, che aiuta a mantenere l'equilibrio della pelle e a lavorare con l'eccesso di sebo.",
-     "La linea propone due formati: crema da 80 ml e fiala da 30 ml. Idratazione e cura dei pori sono l'obiettivo più diffuso nella cosmetica coreana, perciò la linea è ugualmente adatta al retail, ai drugstore e ai marketplace. Forniture all'ingrosso dalla Corea; della verifica del fornitore e dell'accompagnamento della trattativa si occupa Teranova."
-    ],
-    "itemNotes": [
-     "Crema idratante con complesso di 8 acidi ialuronici, probiotici/postbiotici e ceramidi; cura dei pori e del sebo. Formato 80 ml.",
-     "Fiala con 8 tipi di acido ialuronico e complesso biome per l'idratazione e la cura dei pori. Formato 30 ml."
-    ]
-   },
-   "de": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — Feuchtigkeit · Teranova",
-    "seoDesc": "Die Serie Biome 8X Hyaluronic der Marke RAVIEL — Feuchtigkeit und Porenpflege: Creme und Ampulle mit einem Komplex aus acht Hyaluronsäuren, Ceramiden sowie Pro- und Postbiotika. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Feuchtigkeit und Porenpflege auf acht Hyaluronsäuren",
-    "about": [
-     "Biome 8X Hyaluronic ist die Serie der Marke RAVIEL für Feuchtigkeit und die Pflege von Poren und fettiger Haut. Laut Unternehmensangaben bilden ein Komplex aus acht Hyaluronsäuren, Ceramide sowie ein probiotischer und postbiotischer Komplex die Basis der Zusammensetzung, der hilft, die Balance der Haut zu unterstützen und mit überschüssigem Sebum zu arbeiten.",
-     "Die Serie umfasst zwei Formate: Creme 80 ml und Ampulle 30 ml. Feuchtigkeit und Porenpflege sind die massentauglichste Aufgabe in der koreanischen Kosmetik, deshalb passt die Serie gleichermaßen in den Einzelhandel, in Drogerien und auf Marktplätze. Großhandelslieferungen aus Korea; die Prüfung des Lieferanten und die Begleitung der Transaktion übernimmt Teranova."
-    ],
-    "itemNotes": [
-     "Feuchtigkeitscreme mit einem Komplex aus 8 Hyaluronsäuren, Probiotika/Postbiotika und Ceramiden; Poren- und Sebumpflege. Volumen 80 ml.",
-     "Ampulle mit 8 Arten von Hyaluronsäure und Biome-Komplex zur Feuchtigkeitsversorgung und Porenpflege. Volumen 30 ml."
-    ]
-   },
-   "fr": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — hydratation · Teranova",
-    "seoDesc": "La gamme Biome 8X Hyaluronic de RAVIEL — hydratation et soin des pores : crème et ampoule au complexe de huit acides hyaluroniques, céramides, pro- et postbiotiques. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Hydratation et soin des pores à huit acides hyaluroniques",
-    "about": [
-     "Biome 8X Hyaluronic est la gamme de la marque RAVIEL pour l'hydratation et le soin des pores et des peaux grasses. Selon les données de l'entreprise, la composition repose sur un complexe de huit acides hyaluroniques, des céramides ainsi qu'un complexe probiotique et postbiotique qui aide à maintenir l'équilibre de la peau et à travailler sur l'excès de sébum.",
-     "La gamme compte deux formats : crème 80 ml et ampoule 30 ml. L'hydratation et le soin des pores sont le besoin le plus universel de la cosmétique coréenne, ce qui rend la gamme pertinente aussi bien en magasin qu'en drogueries et sur les marketplaces. Approvisionnement en gros depuis la Corée ; la vérification du fournisseur et l'accompagnement de la transaction relèvent de Teranova."
-    ],
-    "itemNotes": [
-     "Crème hydratante avec un complexe de 8 acides hyaluroniques, des probiotiques/postbiotiques et des céramides ; soin des pores et du sébum. Volume 80 ml.",
-     "Ampoule avec 8 types d'acide hyaluronique et un complexe biome pour l'hydratation et le soin des pores. Volume 30 ml."
-    ]
-   },
-   "tr": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — nemlendirme · Teranova",
-    "seoDesc": "RAVIEL markasının Biome 8X Hyaluronic serisi — nemlendirme ve gözenek bakımı: sekiz hyaluronik asit kompleksi, seramidler ve pro- ile postbiyotik kompleks içeren krem ve ampul. Kore'den toptan tedarik Teranova aracılığıyla.",
-    "tagline": "Sekiz hyaluronik asitle nemlendirme ve gözenek bakımı",
-    "about": [
-     "Biome 8X Hyaluronic, RAVIEL markasının nemlendirme ile gözenek ve yağlanma bakımı için serisidir. Şirket verilerine göre formülün temelinde sekiz hyaluronik asitten oluşan bir kompleks, seramidler ve cildin dengesini korumaya ve fazla sebumla çalışmaya yardımcı olan probiyotik ile postbiyotik kompleks yer alır.",
-     "Seride iki format var: 80 ml krem ve 30 ml ampul. Nemlendirme ve gözenek bakımı Kore kozmetiğinin en yaygın görevidir; bu nedenle seri perakendede, drogeride ve pazar yerlerinde aynı ölçüde yerinde durur. Kore'den toptan tedarik; tedarikçi kontrolünü ve işlem desteğini Teranova üstlenir."
-    ],
-    "itemNotes": [
-     "8 hyaluronik asit kompleksi, probiyotik/postbiyotik ve seramid içeren nemlendirici krem; gözenek ve sebum bakımı. Hacim 80 ml.",
-     "Nemlendirme ve gözenek bakımı için 8 çeşit hyaluronik asit ve biyom kompleksi içeren ampul. Hacim 30 ml."
-    ]
-   },
-   "es": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — hidratación · Teranova",
-    "seoDesc": "La línea Biome 8X Hyaluronic de la marca RAVIEL — hidratación y cuidado de los poros: crema y ampolla con un complejo de ocho ácidos hialurónicos, ceramidas y probióticos y posbióticos. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Hidratación y cuidado de los poros con ocho hialurónicos",
-    "about": [
-     "Biome 8X Hyaluronic es la línea de la marca RAVIEL para la hidratación y el cuidado de los poros y de la piel grasa. Según datos de la empresa, la composición se apoya en un complejo de ocho ácidos hialurónicos, ceramidas y un complejo probiótico y posbiótico que ayuda a mantener el equilibrio de la piel y a trabajar con el exceso de sebo.",
-     "La línea ofrece dos formatos: crema de 80 ml y ampolla de 30 ml. La hidratación y el cuidado de los poros son la necesidad más masiva de la cosmética coreana, así que la línea funciona igual de bien en la venta minorista, en droguería y en marketplaces. Suministro mayorista desde Corea; Teranova se encarga de la verificación del proveedor y del acompañamiento de la operación."
-    ],
-    "itemNotes": [
-     "Crema hidratante con un complejo de 8 ácidos hialurónicos, probióticos/postbióticos y ceramidas; cuidado de los poros y del sebo. Volumen 80 ml.",
-     "Ampolla con 8 tipos de ácido hialurónico y complejo biome para la hidratación y el cuidado de los poros. Volumen 30 ml."
-    ]
-   },
-   "pt": {
-    "seoTitle": "Biome 8X Hyaluronic (RAVIEL) — poros · Teranova",
-    "seoDesc": "Linha Biome 8X Hyaluronic da marca RAVIEL — hidratação e cuidado dos poros: creme e ampola com complexo de oito ácidos hialurônicos, ceramidas e complexo pró e pós-biótico. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Hidratação e cuidado dos poros com oito hialurônicos",
-    "about": [
-     "Biome 8X Hyaluronic é a linha da marca RAVIEL para hidratação e cuidado dos poros e da oleosidade da pele. Segundo dados da empresa, a composição se apoia num complexo de oito ácidos hialurônicos, em ceramidas e num complexo probiótico e pós-biótico que ajuda a manter o equilíbrio da pele e a lidar com o excesso de sebo.",
-     "A linha tem dois formatos: creme de 80 ml e ampola de 30 ml. Hidratação e cuidado dos poros formam a demanda mais ampla da cosmética coreana, por isso a linha se encaixa igualmente bem no varejo, na drogaria e nos marketplaces. Fornecimento por atacado da Coreia; a verificação do fornecedor e o acompanhamento da negociação ficam a cargo da Teranova."
-    ],
-    "itemNotes": [
-     "Creme hidratante com um complexo de 8 ácidos hialurônicos, probióticos/pós-bióticos e ceramidas; cuidado dos poros e do sebo. Volume 80 ml.",
-     "Ampola com 8 tipos de ácido hialurônico e complexo biome para a hidratação e o cuidado dos poros. Volume 30 ml."
-    ]
-   }
-  }
- },
- {
-  "slug": "retinol-10x-peptide-texture-and-elasticity",
-  "supplierSlug": "pineworld",
-  "category": "cosmetics",
-  "lineName": "Retinol 10X Peptide — Texture & Elasticity",
-  "items": [
-   {
-    "name": "Retinol 10X Peptide Ampoule",
-    "img": "/img/suppliers/pineworld/products/retinol-10x-peptide-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — текстура кожи · Teranova",
-    "seoDesc": "Линейка Retinol 10X Peptide бренда RAVIEL — уход за текстурой и упругостью кожи: ампула 30 мл с ретинолом BASF (Германия) и комплексом из десяти пептидов. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Ретинол и десять пептидов для текстуры и упругости",
-    "about": [
-     "Retinol 10X Peptide — линейка бренда RAVIEL в направлении slow-aging: уход за текстурой и упругостью кожи. Построена на ретиноле производства BASF (Германия) и комплексе из десяти пептидов; за удержание и работу активов, по заявлению компании, отвечает фирменная концепция доставки SILK (Skin-Ingredient Link Key).",
-     "Сегодня линейка представлена одной позицией — ампулой 30 мл. Это концентрат-флагман: узкая позиция с сильной историей ингредиента, которую удобно ставить в ассортимент точечно или добавлять к базовым линейкам как продукт с высокой маржой. Оптовые поставки из Кореи, сделку координирует и сопровождает Teranova."
-    ],
-    "itemNotes": [
-     "Ампула с ретинолом BASF (Германия) и 10 пептидами для ухода за текстурой и упругостью кожи. Объём 30 мл."
-    ]
-   },
-   "en": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — skin texture · Teranova",
-    "seoDesc": "The Retinol 10X Peptide range by RAVIEL — care for skin texture and firmness: a 30 ml ampoule with BASF retinol (Germany) and a complex of ten peptides. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Retinol and ten peptides for texture and firmness",
-    "about": [
-     "Retinol 10X Peptide is a RAVIEL range in the slow-aging direction: care for skin texture and firmness. It is built on retinol produced by BASF (Germany) and a complex of ten peptides; as the company states, the brand's SILK (Skin-Ingredient Link Key) delivery concept is responsible for holding and working the actives.",
-     "Today the range is represented by a single item — a 30 ml ampoule. This is a flagship concentrate: a narrow item with a strong ingredient story, convenient to place in the assortment selectively or to add to the basic ranges as a high-margin product. Wholesale supply from Korea; Teranova coordinates and supports the deal."
-    ],
-    "itemNotes": [
-     "An ampoule with BASF (Germany) retinol and 10 peptides for skin texture and firmness care. Volume 30 ml."
-    ]
-   },
-   "ko": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — 피부 결 · Teranova",
-    "seoDesc": "RAVIEL 브랜드의 Retinol 10X Peptide 라인 — 슬로우 에이징 방향의 피부 결과 탄력 케어: BASF(독일) 레티놀과 10종 펩타이드 콤플렉스를 담은 30ml 고농축 앰플 한 품목으로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "결과 탄력을 위한 레티놀과 10종 펩타이드",
-    "about": [
-     "Retinol 10X Peptide는 슬로우 에이징 방향의 RAVIEL 브랜드 라인으로, 피부 결과 탄력을 케어합니다. BASF(독일)가 생산한 레티놀과 10종 펩타이드 콤플렉스를 기반으로 하며, 회사에 따르면 활성 성분의 유지와 작용은 자체 전달 개념 SILK(Skin-Ingredient Link Key)가 담당합니다.",
-     "현재 라인은 30ml 앰플 한 품목으로 구성됩니다. 성분 스토리가 강한 플래그십 농축 제품으로, 구색에 선별적으로 넣거나 마진이 높은 제품으로 기본 라인에 더하기 좋습니다. 한국에서의 도매 공급이며, 거래는 Teranova가 조정하고 지원합니다."
-    ],
-    "itemNotes": [
-     "피부 결·탄력 케어를 위한 BASF(독일) 레티놀과 10종 펩타이드 함유 앰플. 용량 30 ml."
-    ]
-   },
-   "zh": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — 肌肤质感 · Teranova",
-    "seoDesc": "RAVIEL 品牌的 Retinol 10X Peptide 系列 — 针对肌肤质感与紧致的护理：含 BASF（德国）视黄醇与十肽复合物的 30 毫升安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "视黄醇与十种肽，针对质感与紧致",
-    "about": [
-     "Retinol 10X Peptide 是 RAVIEL 品牌在 slow-aging 方向上的系列：针对肌肤质感与紧致的护理。它建立在 BASF（德国）生产的视黄醇与十种肽的复合物之上；据公司声明，成分的留存与作用由品牌专属的递送概念 SILK（Skin-Ingredient Link Key）负责。",
-     "目前系列只有一个品项——30 毫升安瓶。这是一款浓缩旗舰：定位窄但成分故事强，既可以有针对性地放进品类，也可以作为高毛利产品加到基础系列旁边。韩国批发供应，交易由 Teranova 协调并提供支持。"
-    ],
-    "itemNotes": [
-     "含 BASF（德国）视黄醇和 10 种肽的安瓶，用于肌肤纹理与紧致护理。容量 30 ml。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — 肌のキメ · Teranova",
-    "seoDesc": "RAVIEL の Retinol 10X Peptide ライン — 肌のキメとハリのためのケア：BASF(ドイツ)のレチノールと 10 種のペプチド複合体を配合した 30 mL のアンプル。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "レチノールと 10 種のペプチドで、キメとハリに",
-    "about": [
-     "Retinol 10X Peptide は、slow-aging 方向における RAVIEL のラインで、肌のキメとハリのためのケアです。BASF(ドイツ)製のレチノールと 10 種のペプチド複合体を軸にしています。会社の説明によると、成分の保持と働きは独自のデリバリー概念 SILK(Skin-Ingredient Link Key)が担います。",
-     "現在のラインは 30 mL のアンプル 1 点のみです。原料のストーリーが強い、絞り込んだ濃縮フラッグシップで、品揃えにピンポイントで加えることも、利益率の高い製品としてベーシックなラインに足すこともできます。韓国からの卸売供給で、取引は Teranova が調整しサポートします。"
-    ],
-    "itemNotes": [
-     "BASF（ドイツ）のレチノールと 10 種のペプチド配合のアンプル、肌のキメとハリのケア向け。容量 30 ml。"
-    ]
-   },
-   "it": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — texture · Teranova",
-    "seoDesc": "La linea Retinol 10X Peptide di RAVIEL — cura della texture e della compattezza della pelle: fiala da 30 ml con retinolo BASF (Germania) e un complesso di dieci peptidi. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Retinolo e dieci peptidi per texture e compattezza",
-    "about": [
-     "Retinol 10X Peptide è la linea del brand RAVIEL nella direzione slow-aging: cura della texture e della compattezza della pelle. È costruita sul retinolo prodotto da BASF (Germania) e su un complesso di dieci peptidi; della ritenzione e del lavoro degli attivi, secondo quanto dichiarato dall'azienda, si occupa la concezione proprietaria di veicolazione SILK (Skin-Ingredient Link Key).",
-     "Oggi la linea è rappresentata da un'unica referenza — la fiala da 30 ml. È un concentrato di punta: una posizione stretta con una forte storia dell'ingrediente, comoda da inserire in assortimento in modo puntuale o da aggiungere alle linee base come prodotto ad alta marginalità. Forniture all'ingrosso dalla Corea; la trattativa è coordinata e accompagnata da Teranova."
-    ],
-    "itemNotes": [
-     "Fiala con retinolo BASF (Germania) e 10 peptidi per la cura della texture e dell'elasticità della pelle. Formato 30 ml."
-    ]
-   },
-   "de": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — Hauttextur · Teranova",
-    "seoDesc": "Die Serie Retinol 10X Peptide der Marke RAVIEL — Pflege für Textur und Elastizität der Haut: Ampulle 30 ml mit Retinol von BASF (Deutschland) und einem Komplex aus zehn Peptiden. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Retinol und zehn Peptide für Textur und Elastizität",
-    "about": [
-     "Retinol 10X Peptide ist die Serie der Marke RAVIEL in der Richtung Slow Aging: Pflege für Textur und Elastizität der Haut. Sie ist auf Retinol aus der Produktion von BASF (Deutschland) und einem Komplex aus zehn Peptiden aufgebaut; für die Bindung und die Wirkung der Aktivstoffe ist laut Unternehmensangaben das firmeneigene Konzept des Wirkstofftransports SILK (Skin-Ingredient Link Key) zuständig.",
-     "Heute ist die Serie mit einer Position vertreten — der Ampulle 30 ml. Das ist das Konzentrat-Flaggschiff: eine schmale Position mit einer starken Zutatengeschichte, die sich punktuell ins Sortiment stellen oder den Basisserien als Produkt mit hoher Marge hinzufügen lässt. Großhandelslieferungen aus Korea, die Transaktion koordiniert und begleitet Teranova."
-    ],
-    "itemNotes": [
-     "Ampulle mit Retinol BASF (Deutschland) und 10 Peptiden zur Pflege von Hauttextur und Festigkeit. Volumen 30 ml."
-    ]
-   },
-   "fr": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — texture de peau · Teranova",
-    "seoDesc": "La gamme Retinol 10X Peptide de RAVIEL — soin de la texture et de la fermeté de la peau : ampoule 30 ml au rétinol BASF (Allemagne) et au complexe de dix peptides. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Rétinol et dix peptides pour la texture et la fermeté",
-    "about": [
-     "Retinol 10X Peptide est la gamme de la marque RAVIEL dans la direction slow-aging : soin de la texture et de la fermeté de la peau. Elle repose sur du rétinol produit par BASF (Allemagne) et sur un complexe de dix peptides ; la rétention et l'action des actifs relèvent, selon l'entreprise, du concept propriétaire de transport SILK (Skin-Ingredient Link Key).",
-     "Aujourd'hui, la gamme se compose d'une seule référence — l'ampoule de 30 ml. C'est un concentré phare : une référence étroite au récit d'ingrédient fort, facile à placer ponctuellement dans l'assortiment ou à ajouter aux gammes de base comme produit à forte marge. Approvisionnement en gros depuis la Corée ; la transaction est coordonnée et accompagnée par Teranova."
-    ],
-    "itemNotes": [
-     "Ampoule au rétinol BASF (Allemagne) et à 10 peptides pour le soin de la texture et de la fermeté de la peau. Volume 30 ml."
-    ]
-   },
-   "tr": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — cilt dokusu · Teranova",
-    "seoDesc": "RAVIEL markasının Retinol 10X Peptide serisi — cilt dokusu ve sıkılık bakımı: BASF (Almanya) üretimi retinol ve on peptitlik kompleks içeren 30 ml ampul. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Doku ve sıkılık için retinol ve on peptit",
-    "about": [
-     "Retinol 10X Peptide, RAVIEL markasının slow-aging yönündeki serisidir: cilt dokusu ve sıkılığı için bakım. BASF (Almanya) üretimi retinol ile on peptitten oluşan kompleks üzerine kurulmuştur; şirketin belirttiğine göre aktiflerin tutulması ve çalışması markanın kendi taşıma konsepti SILK (Skin-Ingredient Link Key) ile sağlanır.",
-     "Seri bugün tek ürünle temsil ediliyor — 30 ml ampul. Bu bir amiral konsantre: bileşen hikâyesi güçlü, dar bir ürün; ürün yelpazesine noktasal olarak koymak ya da temel serilere yüksek marjlı bir ürün olarak eklemek elverişlidir. Kore'den toptan tedarik; işlemi Teranova koordine eder ve destekler."
-    ],
-    "itemNotes": [
-     "Cilt dokusu ve sıkılığı bakımı için BASF (Almanya) retinol ve 10 peptit içeren ampul. Hacim 30 ml."
-    ]
-   },
-   "es": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — textura · Teranova",
-    "seoDesc": "La línea Retinol 10X Peptide de la marca RAVIEL — cuidado de la textura y la firmeza de la piel: ampolla de 30 ml con retinol de BASF (Alemania) y un complejo de diez péptidos. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Retinol y diez péptidos para la textura y la firmeza",
-    "about": [
-     "Retinol 10X Peptide es la línea de la marca RAVIEL en la dirección slow-aging: cuidado de la textura y de la firmeza de la piel. Está construida sobre retinol producido por BASF (Alemania) y un complejo de diez péptidos; de la retención y el trabajo de los activos se ocupa, según declara la empresa, el concepto propio de vehiculación SILK (Skin-Ingredient Link Key).",
-     "Hoy la línea se presenta con una sola referencia: la ampolla de 30 ml. Es un concentrado insignia: una referencia estrecha con una historia de ingrediente potente, cómoda de colocar en el surtido de forma puntual o de añadir a las líneas básicas como producto de alto margen. Suministro mayorista desde Corea; Teranova coordina y acompaña la operación."
-    ],
-    "itemNotes": [
-     "Ampolla con retinol BASF (Alemania) y 10 péptidos para el cuidado de la textura y la firmeza de la piel. Volumen 30 ml."
-    ]
-   },
-   "pt": {
-    "seoTitle": "Retinol 10X Peptide (RAVIEL) — textura da pele · Teranova",
-    "seoDesc": "Linha Retinol 10X Peptide da marca RAVIEL — cuidado da textura e da firmeza da pele: ampola de 30 ml com retinol da BASF (Alemanha) e complexo de dez peptídeos. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Retinol e dez peptídeos para textura e firmeza",
-    "about": [
-     "Retinol 10X Peptide é a linha da marca RAVIEL na vertente slow-aging: cuidado da textura e da firmeza da pele. Ela se apoia em retinol produzido pela BASF (Alemanha) e num complexo de dez peptídeos; pela retenção e pelo desempenho dos ativos responde, conforme declara a empresa, o conceito próprio de veiculação SILK (Skin-Ingredient Link Key).",
-     "Hoje a linha aparece com um único item: a ampola de 30 ml. É um concentrado carro-chefe — um item estreito, com uma história de ingrediente forte, fácil de colocar no sortimento de forma pontual ou de somar às linhas básicas como produto de margem alta. Fornecimento por atacado da Coreia; a Teranova coordena e acompanha a negociação."
-    ],
-    "itemNotes": [
-     "Ampola com retinol BASF (Alemanha) e 10 peptídeos para o cuidado da textura e da firmeza da pele. Volume 30 ml."
-    ]
-   }
-  }
- },
- {
-  "slug": "vitamin-and-panthenol-basics",
-  "supplierSlug": "pineworld",
-  "category": "cosmetics",
-  "lineName": "Vitamin & Panthenol Basics",
-  "items": [
-   {
-    "name": "Multi Vitamin Dark Spot & Blemish Care Serum",
-    "img": "/img/suppliers/pineworld/products/multi-vitamin-dark-spot-serum.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "Panthenol Dark Spot & Blemish Spot Cream",
-    "img": "/img/suppliers/pineworld/products/panthenol-dark-spot-spot-cream.jpg",
-    "volume": "15 ml x 2",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — базовый уход · Teranova",
-    "seoDesc": "Базовая линейка Vitamin & Panthenol бренда RAVIEL — витаминная сыворотка с комплексом VITA-BIOSOME и точечный крем с пантенолом 50 000 ppm для локального ухода. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Витаминная сыворотка и точечный крем с пантенолом",
-    "about": [
-     "Vitamin & Panthenol Basics — базовые продукты бренда RAVIEL для витаминного и точечного ухода. Линейка собрана вокруг двух задач: антиоксидантный уход и ровный тон за счёт витаминного комплекса, а также локальная работа с отдельными пятнами. Это дополнение к профильным линейкам бренда, а не самостоятельная система ухода.",
-     "В составе линейки мультивитаминная сыворотка 50 мл с комплексом VITA-BIOSOME и аскорбиновой кислотой и точечный крем с высоким содержанием пантенола (50 000 ppm) в комплекте 15 мл x 2. Обе позиции удобны как допродажа к основным линейкам и как недорогой вход в ассортимент. Оптовые поставки из Кореи через Teranova."
-    ],
-    "itemNotes": [
-     "Витаминная сыворотка (комплекс VITA-BIOSOME, аскорбиновая кислота) для осветляющего и антиоксидантного ухода. Объём 50 мл.",
-     "Точечный крем с высоким содержанием пантенола (50 000 ppm) для ухода за отдельными пятнами. Комплект 15 мл x 2."
-    ]
-   },
-   "en": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — basic care · Teranova",
-    "seoDesc": "The basic Vitamin & Panthenol range by RAVIEL — a vitamin serum with the VITA-BIOSOME complex and a spot cream with 50,000 ppm panthenol for local care. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "A vitamin serum and a spot cream with panthenol",
-    "about": [
-     "Vitamin & Panthenol Basics are RAVIEL's basic products for vitamin and spot care. The range is assembled around two tasks: antioxidant care and an even tone through a vitamin complex, and local work with individual spots. This is an addition to the brand's core ranges rather than a standalone care system.",
-     "The range holds a 50 ml multivitamin serum with the VITA-BIOSOME complex and ascorbic acid and a spot cream with a high panthenol content (50,000 ppm) in a 15 ml x 2 kit. Both items are convenient as an add-on sale to the main ranges and as an inexpensive entry into the assortment. Wholesale supply from Korea through Teranova."
-    ],
-    "itemNotes": [
-     "A vitamin serum (VITA-BIOSOME complex, ascorbic acid) for brightening and antioxidant care. Volume 50 ml.",
-     "A spot cream with a high panthenol content (50,000 ppm) for the care of individual spots. Set of 15 ml x 2."
-    ]
-   },
-   "ko": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — 베이직 케어 · Teranova",
-    "seoDesc": "RAVIEL 브랜드의 Vitamin & Panthenol Basics 베이직 라인 — VITA-BIOSOME 콤플렉스와 아스코르브산을 담은 멀티비타민 세럼 50ml와 판테놀 50,000ppm의 국소 케어용 스팟 크림 15ml x 2. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "비타민 세럼과 판테놀 스팟 크림",
-    "about": [
-     "Vitamin & Panthenol Basics는 비타민 케어와 스팟 케어를 위한 RAVIEL 브랜드의 기본 제품입니다. 라인은 두 가지 과제를 중심으로 구성됩니다: 비타민 콤플렉스를 통한 항산화 케어와 균일한 톤, 그리고 개별 잡티에 대한 국소 관리. 독립적인 케어 시스템이라기보다 브랜드 주력 라인을 보완하는 구성입니다.",
-     "라인에는 VITA-BIOSOME 콤플렉스와 아스코르브산을 담은 멀티비타민 세럼 50ml, 판테놀을 높은 함량(50,000ppm)으로 담은 스팟 크림 15ml x 2 구성이 있습니다. 두 품목 모두 주력 라인에 덧붙이는 추가 판매용으로, 또 부담 없는 구색 진입 제품으로 활용하기 좋습니다. Teranova를 통한 한국에서의 도매 공급."
-    ],
-    "itemNotes": [
-     "브라이트닝 및 항산화 케어를 위한 비타민 세럼(VITA-BIOSOME 복합체, 아스코르브산). 용량 50 ml.",
-     "국소 잡티 케어를 위한 고함량 판테놀(50,000 ppm) 스팟 크림. 15 ml x 2 세트."
-    ]
-   },
-   "zh": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — 基础护理 · Teranova",
-    "seoDesc": "RAVIEL 品牌的 Vitamin & Panthenol 基础系列 — 含 VITA-BIOSOME 复合物的维生素精华，以及含 50 000 ppm 泛醇、用于局部护理的点涂霜。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "维生素精华与含泛醇的点涂霜",
-    "about": [
-     "Vitamin & Panthenol Basics 是 RAVIEL 品牌用于维生素护理与局部护理的基础产品。系列围绕两个目标组合：借助维生素复合物的抗氧化护理与均匀肤色，以及针对个别斑点的局部处理。它是品牌专项系列的补充，而不是独立的护理体系。",
-     "系列包含含 VITA-BIOSOME 复合物与抗坏血酸的 50 毫升多维生素精华，以及泛醇含量较高（50 000 ppm）的点涂霜，规格 15 毫升 × 2。两个品项都适合作为主系列的加购，也是价格不高的品类入门。经 Teranova 从韩国批发供应。"
-    ],
-    "itemNotes": [
-     "维生素精华（VITA-BIOSOME 复合物、抗坏血酸），用于提亮和抗氧化护理。容量 50 ml。",
-     "高泛醇含量（50 000 ppm）点涂霜，用于局部斑点护理。套装 15 ml x 2。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — ベーシックケア · Teranova",
-    "seoDesc": "RAVIEL のベーシックライン Vitamin & Panthenol — VITA-BIOSOME 複合体を配合したビタミン美容液と、パンテノール 50,000 ppm 配合のポイントケア用クリーム。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "ビタミン美容液とパンテノール配合のポイントクリーム",
-    "about": [
-     "Vitamin & Panthenol Basics は、ビタミンケアとポイントケアのための RAVIEL のベーシック製品です。ラインは二つの目的でまとめられています：ビタミン複合体による抗酸化ケアと均一な肌色、そして個々の気になる部分への局所的なアプローチ。ブランドの専門ラインを補うもので、単独のケアシステムではありません。",
-     "ラインには、VITA-BIOSOME 複合体とアスコルビン酸を配合したマルチビタミン美容液 50 mL と、パンテノールを高配合(50,000 ppm)したポイントクリーム 15 mL × 2 のセットが含まれます。どちらも主要ラインへの追加販売として、また手頃な価格での品揃えの入口として扱いやすい品目です。Teranova を通じた韓国からの卸売供給。"
-    ],
-    "itemNotes": [
-     "ビタミン美容液（VITA-BIOSOME 複合体、アスコルビン酸）、明るさケアと抗酸化ケア向け。容量 50 ml。",
-     "高濃度パンテノール（50 000 ppm）配合のスポットクリーム、個別のシミケア向け。セット 15 ml x 2。"
-    ]
-   },
-   "it": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — cura base · Teranova",
-    "seoDesc": "La linea base Vitamin & Panthenol di RAVIEL — siero vitaminico con complesso VITA-BIOSOME e crema localizzata con pantenolo 50 000 ppm per la cura mirata. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Siero vitaminico e crema localizzata al pantenolo",
-    "about": [
-     "Vitamin & Panthenol Basics sono i prodotti base del brand RAVIEL per la cura vitaminica e mirata. La linea è costruita attorno a due obiettivi: cura antiossidante e incarnato uniforme grazie al complesso vitaminico, oltre al lavoro locale sulle singole macchie. È un complemento alle linee principali del brand, non un sistema di cura autonomo.",
-     "La linea comprende un siero multivitaminico da 50 ml con complesso VITA-BIOSOME e acido ascorbico e una crema localizzata ad alto contenuto di pantenolo (50 000 ppm) nel kit 15 ml x 2. Entrambe le referenze sono comode come vendita aggiuntiva alle linee principali e come ingresso economico in assortimento. Forniture all'ingrosso dalla Corea tramite Teranova."
-    ],
-    "itemNotes": [
-     "Siero vitaminico (complesso VITA-BIOSOME, acido ascorbico) per un trattamento schiarente e antiossidante. Formato 50 ml.",
-     "Crema spot con alto contenuto di pantenolo (50 000 ppm) per la cura delle singole macchie. Set 15 ml x 2."
-    ]
-   },
-   "de": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — Basispflege · Teranova",
-    "seoDesc": "Die Basisserie Vitamin & Panthenol der Marke RAVIEL — Vitaminserum mit dem Komplex VITA-BIOSOME und punktuelle Creme mit Panthenol 50 000 ppm für die lokale Pflege. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Vitaminserum und punktuelle Creme mit Panthenol",
-    "about": [
-     "Vitamin & Panthenol Basics sind die Basisprodukte der Marke RAVIEL für Vitamin- und Punktpflege. Die Serie ist um zwei Aufgaben herum zusammengestellt: antioxidative Pflege und ein ebenmäßiger Teint durch den Vitaminkomplex sowie die lokale Arbeit an einzelnen Flecken. Das ist eine Ergänzung zu den Profilserien der Marke, kein eigenständiges Pflegesystem.",
-     "Zur Serie gehören ein Multivitamin-Serum 50 ml mit dem Komplex VITA-BIOSOME und Ascorbinsäure sowie eine punktuelle Creme mit hohem Panthenolgehalt (50 000 ppm) im Set 15 ml x 2. Beide Positionen eignen sich als Zusatzverkauf zu den Hauptserien und als preiswerter Einstieg ins Sortiment. Großhandelslieferungen aus Korea über Teranova."
-    ],
-    "itemNotes": [
-     "Vitaminserum (Komplex VITA-BIOSOME, Ascorbinsäure) für aufhellende und antioxidative Pflege. Volumen 50 ml.",
-     "Spot-Creme mit hohem Panthenol-Gehalt (50 000 ppm) zur Pflege einzelner Flecken. Set 15 ml x 2."
-    ]
-   },
-   "fr": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — soin de base · Teranova",
-    "seoDesc": "La gamme de base Vitamin & Panthenol de RAVIEL — sérum vitaminé au complexe VITA-BIOSOME et crème ciblée au panthénol 50 000 ppm pour le soin localisé. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Sérum vitaminé et crème ciblée au panthénol",
-    "about": [
-     "Vitamin & Panthenol Basics regroupe les produits de base de la marque RAVIEL pour le soin vitaminé et localisé. La gamme est réunie autour de deux objectifs : le soin antioxydant et l'uniformité du teint grâce au complexe vitaminé, ainsi que le travail localisé sur des taches isolées. C'est un complément aux gammes principales de la marque, et non un système de soin autonome.",
-     "La gamme comprend un sérum multivitaminé de 50 ml au complexe VITA-BIOSOME et à l'acide ascorbique et une crème ciblée à haute teneur en panthénol (50 000 ppm) en coffret 15 ml x 2. Les deux références sont pratiques comme vente additionnelle aux gammes principales et comme entrée peu coûteuse dans l'assortiment. Approvisionnement en gros depuis la Corée via Teranova."
-    ],
-    "itemNotes": [
-     "Sérum vitaminé (complexe VITA-BIOSOME, acide ascorbique) pour un soin éclaircissant et antioxydant. Volume 50 ml.",
-     "Crème ciblée à forte teneur en panthénol (50 000 ppm) pour le soin des taches localisées. Coffret 15 ml x 2."
-    ]
-   },
-   "tr": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — temel bakım · Teranova",
-    "seoDesc": "RAVIEL markasının temel Vitamin & Panthenol serisi — VITA-BIOSOME kompleksli vitamin serumu ve bölgesel bakım için 50.000 ppm pantenol içeren nokta kremi. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Vitamin serumu ve pantenollü nokta kremi",
-    "about": [
-     "Vitamin & Panthenol Basics, RAVIEL markasının vitamin ve bölgesel bakım için temel ürünleridir. Seri iki görev etrafında toplanmıştır: vitamin kompleksi sayesinde antioksidan bakım ve eşit ton ile tekil lekeler üzerinde bölgesel çalışma. Bu, markanın ana serilerine bir tamamlayıcıdır, bağımsız bir bakım sistemi değildir.",
-     "Seride VITA-BIOSOME kompleksi ve askorbik asit içeren 50 ml multivitamin serumu ile 15 ml x 2 setinde yüksek pantenol içerikli (50.000 ppm) nokta kremi yer alır. Her iki ürün de ana serilere ek satış olarak ve ürün yelpazesine uygun maliyetli bir giriş olarak elverişlidir. Kore'den toptan tedarik Teranova aracılığıyla."
-    ],
-    "itemNotes": [
-     "Aydınlatıcı ve antioksidan bakım için vitamin serumu (VITA-BIOSOME kompleksi, askorbik asit). Hacim 50 ml.",
-     "Tekil lekelerin bakımı için yüksek pantenol içeren (50 000 ppm) nokta krem. 15 ml x 2 set."
-    ]
-   },
-   "es": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — cuidado base · Teranova",
-    "seoDesc": "La línea básica Vitamin & Panthenol de la marca RAVIEL — sérum vitamínico con el complejo VITA-BIOSOME y crema localizada con pantenol 50 000 ppm. Suministro mayorista desde Corea y acompañamiento de la operación a través de Teranova.",
-    "tagline": "Sérum vitamínico y crema localizada con pantenol",
-    "about": [
-     "Vitamin & Panthenol Basics reúne los productos básicos de la marca RAVIEL para el cuidado vitamínico y localizado. La línea se organiza en torno a dos objetivos: cuidado antioxidante y tono uniforme gracias al complejo vitamínico, y trabajo puntual sobre manchas concretas. Es un complemento de las líneas principales de la marca, no un sistema de cuidado independiente.",
-     "Componen la línea un sérum multivitamínico de 50 ml con el complejo VITA-BIOSOME y ácido ascórbico, y una crema localizada con alto contenido de pantenol (50 000 ppm) en un pack de 15 ml x 2. Ambas referencias funcionan como venta adicional a las líneas principales y como entrada económica al surtido. Suministro mayorista desde Corea a través de Teranova."
-    ],
-    "itemNotes": [
-     "Sérum vitamínico (complejo VITA-BIOSOME, ácido ascórbico) para un cuidado aclarante y antioxidante. Volumen 50 ml.",
-     "Crema localizada con alto contenido de pantenol (50 000 ppm) para el cuidado de manchas puntuales. Set 15 ml x 2."
-    ]
-   },
-   "pt": {
-    "seoTitle": "Vitamin & Panthenol (RAVIEL) — básicos · Teranova",
-    "seoDesc": "Linha básica Vitamin & Panthenol da marca RAVIEL — sérum vitamínico com complexo VITA-BIOSOME e creme localizado com pantenol 50 000 ppm. Fornecimento por atacado da Coreia e acompanhamento da negociação através da Teranova.",
-    "tagline": "Sérum vitamínico e creme localizado com pantenol",
-    "about": [
-     "Vitamin & Panthenol Basics reúne os produtos básicos da marca RAVIEL para o cuidado vitamínico e localizado. A linha gira em torno de duas frentes: cuidado antioxidante e tom uniforme por conta do complexo vitamínico, além do trabalho pontual em manchas específicas. É um complemento às linhas principais da marca, e não um sistema de cuidado à parte.",
-     "Compõem a linha um sérum multivitamínico de 50 ml com o complexo VITA-BIOSOME e ácido ascórbico e um creme localizado com alto teor de pantenol (50 000 ppm), no conjunto de 15 ml x 2. Os dois itens servem como venda adicional às linhas principais e como porta de entrada barata no sortimento. Fornecimento por atacado da Coreia através da Teranova."
-    ],
-    "itemNotes": [
-     "Sérum vitamínico (complexo VITA-BIOSOME, ácido ascórbico) para um cuidado clareador e antioxidante. Volume 50 ml.",
-     "Creme localizado com alto teor de pantenol (50 000 ppm) para o cuidado de manchas pontuais. Kit 15 ml x 2."
-    ]
-   }
-  }
- }
 ]
