@@ -4,11 +4,11 @@
    и подвал, а общий layout тянет за собой навигацию и стили основного сайта.
    Общее у раздела с сайтом только домен и конвейер выката.
 
-   Голова страницы собрана здесь, а не в BaseHead: тот отдаёт hreflang на все
-   одиннадцать локалей, а раздел существует на двух. Ссылки на несуществующие
-   языковые версии — прямой вред для того самого поиска, ради которого мы
-   неделю сводили сайт к одному домену. */
+   Голова страницы собрана здесь, а не в BaseHead: у раздела своя шапка,
+   свой переключатель языков и свои стили. hreflang отдаём на все локали
+   сайта — раздел существует на каждой из них. */
 import { localizePath } from '../i18n/utils';
+import { languages, defaultLang, verifiedLocales, type Lang } from '../i18n/ui';
 import type { SolarCopy, SolarLang } from '../data/solar-care';
 
 interface Props {
@@ -20,21 +20,31 @@ const { lang, copy } = Astro.props;
 const SITE = 'https://teranovagroup.com';
 const PATH = '/solar-care';
 const canonical = SITE + localizePath(PATH, lang);
-const other: SolarLang = lang === 'ru' ? 'en' : 'ru';
-const htmlLang = lang === 'ru' ? 'ru' : 'en';
+const alternates = verifiedLocales.map((l) => ({ code: l, href: SITE + localizePath(PATH, l) }));
+const xDefault = SITE + localizePath(PATH, defaultLang);
+const ogLocale: Record<Lang, string> = {
+  ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT',
+  de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES', pt: 'pt_BR',
+};
+const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
+  code: l,
+  label: languages[l],
+  short: l.toUpperCase(),
+  href: localizePath(PATH, l),
+  active: l === lang,
+}));
 ---
 
 <!doctype html>
-<html lang={htmlLang}>
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{copy.meta.title}</title>
     <meta name="description" content={copy.meta.description} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="ru" href={SITE + localizePath(PATH, 'ru')} />
-    <link rel="alternate" hreflang="en" href={SITE + localizePath(PATH, 'en')} />
-    <link rel="alternate" hreflang="x-default" href={SITE + localizePath(PATH, 'ru')} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.code} href={a.href} />)}
+    <link rel="alternate" hreflang="x-default" href={xDefault} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#1d1a16" />
 
@@ -43,7 +53,7 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
     <meta property="og:title" content={copy.meta.title} />
     <meta property="og:description" content={copy.meta.description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={lang === 'ru' ? 'ru_RU' : 'en_US'} />
+    <meta property="og:locale" content={ogLocale[lang]} />
     <meta property="og:image" content={`${SITE}/img/suppliers/multifit/gallery/g2-desert-array.jpg`} />
     <meta name="twitter:card" content="summary_large_image" />
 
@@ -57,7 +67,24 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
         <span class="solar__mark-text">Teranova <b>Solar Care</b></span>
       </a>
       <nav class="solar__top-nav">
-        <a href={localizePath(PATH, other)} class="solar__lang">{other === 'ru' ? 'RU' : 'EN'}</a>
+        <details class="solar__langs">
+          <summary>
+            <span>{lang.toUpperCase()}</span>
+            <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          </summary>
+          <ul class="solar__langmenu" role="list">
+            {
+              langItems.map((i) => (
+                <li>
+                  <a href={i.href} hreflang={i.code} lang={i.code} aria-current={i.active ? 'true' : undefined} class:list={{ on: i.active }}>
+                    <span class="solar__lang-short">{i.short}</span>
+                    <span class="solar__lang-label">{i.label}</span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </details>
         <a href={localizePath('/', lang)} class="solar__back">{copy.back} →</a>
       </nav>
     </header>
@@ -115,11 +142,34 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
       .solar__mark-text { font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
       .solar__mark-text b { font-weight: 700; }
       .solar__top-nav { display: flex; align-items: center; gap: 18px; font-size: 14px; }
-      .solar__lang {
-        text-decoration: none; letter-spacing: 0.08em; padding: 5px 10px;
+      .solar__langs { position: relative; }
+      .solar__langs summary {
+        display: inline-flex; align-items: center; gap: 6px; list-style: none; cursor: pointer;
+        letter-spacing: 0.08em; padding: 5px 10px; font-size: 13px;
         border: 1px solid var(--line); border-radius: 999px;
       }
-      .solar__lang:hover { border-color: var(--amber); color: var(--amber-deep); }
+      .solar__langs summary::-webkit-details-marker { display: none; }
+      .solar__langs summary:hover { border-color: var(--amber); color: var(--amber-deep); }
+      .solar__langs summary svg { opacity: 0.6; transition: transform 0.2s; }
+      .solar__langs[open] summary svg { transform: rotate(180deg); }
+      .solar__langmenu {
+        position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; min-width: 190px;
+        margin: 0; padding: 6px; list-style: none;
+        background: #fff; border: 1px solid var(--line); border-radius: 12px;
+        box-shadow: 0 14px 34px rgba(29, 26, 22, 0.14);
+        display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+      }
+      .solar__langmenu a {
+        display: flex; align-items: baseline; gap: 7px; padding: 7px 9px;
+        border-radius: 8px; text-decoration: none; color: var(--ink-soft);
+      }
+      .solar__langmenu a:hover { background: var(--sand-deep); color: var(--ink); }
+      .solar__langmenu a.on { background: var(--amber); color: #fff; }
+      .solar__lang-short { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; min-width: 20px; }
+      .solar__lang-label { font-size: 13px; }
+      @media (max-width: 520px) {
+        .solar__langmenu { grid-template-columns: 1fr; min-width: 150px; }
+      }
       .solar__back { text-decoration: none; color: var(--ink-soft); }
       .solar__back:hover { color: var(--amber-deep); }
 
@@ -233,5 +283,21 @@ const htmlLang = lang === 'ru' ? 'ru' : 'en';
         .solar__form { padding: 20px; }
       }
     </style>
+
+    <script is:inline>
+      /* Меню языков закрывается по клику мимо и по Escape: без этого на телефоне
+         оно остаётся открытым и перекрывает первый экран. */
+      document.addEventListener('click', function (e) {
+        document.querySelectorAll('details.solar__langs[open]').forEach(function (d) {
+          if (!d.contains(e.target)) d.removeAttribute('open');
+        });
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape')
+          document.querySelectorAll('details.solar__langs[open]').forEach(function (d) {
+            d.removeAttribute('open');
+          });
+      });
+    </script>
   </body>
 </html>
