@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const ja: DeepPartial<UIDict> = {
   nav: {
+    solar: "太陽光発電所",
     blog: "インサイト",
     catalog: "カタログ",
     verify: "検証の方法",

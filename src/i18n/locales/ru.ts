@@ -11,6 +11,7 @@ export const ru = {
   langName: 'Русский',
 
   nav: {
+    solar: "Солнечные станции",
     blog: "Статьи",
     catalog: 'Каталог',
     buyers: 'Покупателям',

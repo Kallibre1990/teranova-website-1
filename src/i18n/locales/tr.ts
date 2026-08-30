@@ -3,6 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const tr: DeepPartial<UIDict> = {
   nav: {
+    solar: "Güneş santralleri",
     blog: "İçerikler",
     catalog: "Katalog",
     verify: "Nasıl doğruluyoruz",

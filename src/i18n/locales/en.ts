@@ -6,6 +6,7 @@ export const en: UIDict = {
   langName: 'English',
 
   nav: {
+    solar: "Solar plants",
     blog: "Insights",
     catalog: 'Catalog',
     buyers: 'For buyers',
