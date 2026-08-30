@@ -7,8 +7,11 @@
    Голова страницы собрана здесь, а не в BaseHead: у раздела своя шапка,
    свой переключатель языков и свои стили. hreflang отдаём на все локали
    сайта — раздел существует на каждой из них. */
+/* Раздел не наследует Base.astro, поэтому фирменный шрифт подключаем здесь же:
+   без этого CSS объявлял Manrope, а страница рисовалась системным шрифтом. */
+import '@fontsource-variable/manrope';
 import { localizePath } from '../i18n/utils';
-import { languages, defaultLang, verifiedLocales, type Lang } from '../i18n/ui';
+import { languages, defaultLang, verifiedLocales, ui, type Lang } from '../i18n/ui';
 import type { SolarCopy, SolarLang } from '../data/solar-care';
 
 interface Props {
@@ -36,7 +39,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={ui[lang].htmlLang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -99,6 +102,11 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
     <style is:global>
       /* Каждое правило начинается с .solar — за пределы раздела стили не выходят,
          на страницах основного сайта класса .solar нет. */
+      /* У раздела свой независимый layout, значит и общий сброс сюда не приходит.
+         Без border-box поле с width:100% прибавляло к ширине padding и рамку:
+         соседние поля налезали друг на друга на 12 точек и вылезали за карточку. */
+      .solar *, .solar *::before, .solar *::after { box-sizing: border-box; }
+
       .solar {
         --sand: #f6f1e7;
         --sand-deep: #ece3d3;
@@ -106,6 +114,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
         --ink-soft: #4c463c;
         --amber: #c9761a;
         --amber-deep: #a35c0d;
+        --amber-dark: #8a4d08;
         --line: #ded3be;
 
         margin: 0;
@@ -177,7 +186,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
         border-radius: 8px; text-decoration: none; color: var(--ink-soft);
       }
       .solar__langmenu a:hover { background: var(--sand-deep); color: var(--ink); }
-      .solar__langmenu a.on { background: var(--amber); color: #fff; }
+      .solar__langmenu a.on { background: var(--amber-deep); color: #fff; }
       .solar__lang-short { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; min-width: 20px; }
       .solar__lang-label { font-size: 13px; }
       @media (max-width: 520px) {
@@ -215,10 +224,12 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
       .solar__btn {
         display: inline-block; text-decoration: none; font-size: 16px;
         padding: 15px 30px; border-radius: 4px;
-        background: var(--amber); color: #fff8ec;
+        /* Фон взят на тон глубже: светлый текст на прежнем янтарном давал 3.1:1
+           при норме 4.5:1 для обычного текста. */
+        background: var(--amber-deep); color: #fff8ec;
         transition: background 0.18s ease;
       }
-      .solar__btn:hover { background: var(--amber-deep); }
+      .solar__btn:hover { background: var(--amber-dark); }
 
       /* --- секции --- */
       .solar__section { padding: 84px 0; border-top: 1px solid var(--line); }
@@ -261,7 +272,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
         padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink);
         transition: border-color 0.18s ease, box-shadow 0.18s ease;
       }
-      .solar__form input::placeholder, .solar__form textarea::placeholder { color: #a89a80; }
+      .solar__form input::placeholder, .solar__form textarea::placeholder { color: #7a7060; }
       .solar__form input:focus, .solar__form textarea:focus {
         outline: none; border-color: var(--amber); box-shadow: 0 0 0 3px rgba(201, 118, 26, 0.16);
       }

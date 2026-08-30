@@ -63,7 +63,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Солнечные станции: обслуживание и очистка модулей — Teranova',
       description:
-        'Направление Teranova: подбор и поставка техники для очистки солнечных модулей вместе с измерением результата на пилоте.',
+        'Направление Teranova: подбор и поставка техники для очистки солнечных модулей и программа пилота, которая проверяет результат на вашей площадке.',
     },
     hero: {
       kicker: 'Направление Teranova',
@@ -94,12 +94,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Пилот с измерением',
-          body: 'На пилоте измеряем восемь величин, среди них производительность цикла, расход воды, трудозатраты на мегаватт, безопасность работ и фактический возврат выработки.',
+          body: 'В программу пилота закладываем восемь показателей: производительность цикла, расход воды, трудозатраты на мегаватт, безопасность работ и фактический возврат выработки среди них. До начала работ письменно фиксируем методику замера и того, кто снимает показания на площадке.',
         },
         {
           n: '04',
           title: 'Решение о масштабировании',
-          body: 'Показываем результаты измерений и считаем экономику для всей станции. Если цифры не сходятся, мы скажем об этом прямо.',
+          body: 'По данным пилота считаем экономику для всей станции. Если цифры не сходятся, мы скажем об этом прямо.',
         },
       ],
     },
@@ -158,7 +158,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Solar Care — service for solar power plants · Teranova',
       description:
-        'A Teranova business line: sourcing and supply of solar module cleaning equipment together with measured results proven on a pilot.',
+        'A Teranova business line: sourcing and supply of solar module cleaning equipment, with a pilot programme that measures the result on your own site.',
     },
     hero: {
       kicker: 'A Teranova business line',
@@ -189,12 +189,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Pilot with measurement',
-          body: 'On the pilot we measure eight values, among them cycle productivity, water consumption, labour hours per megawatt, safety of the work and the actual output recovered.',
+          body: 'The pilot programme covers eight values, among them cycle productivity, water consumption, labour hours per megawatt, safety of the work and the output actually recovered. Before it starts we put in writing how the measuring is done and who takes the readings on site.',
         },
         {
           n: '04',
           title: 'Decision to scale',
-          body: 'We show the measured results and run the economics for the whole plant. If the numbers do not add up, we will say so plainly.',
+          body: 'From the pilot data we run the economics for the whole plant. If the numbers do not add up, we will say so plainly.',
         },
       ],
     },
@@ -253,7 +253,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: '태양광 발전소 관리 — 모듈 세척과 유지보수 · Teranova',
       description:
-        '테라노바의 사업 부문입니다. 태양광 모듈 세척 장비를 선정해 공급하고, 그 결과를 파일럿에서 직접 측정합니다.',
+        '테라노바의 사업 부문입니다. 태양광 모듈 세척 장비를 선정해 공급하고, 결과를 현장에서 확인하는 파일럿 프로그램을 함께 설계합니다.',
     },
     hero: {
       kicker: '테라노바 사업 부문',
@@ -284,12 +284,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: '측정을 포함한 파일럿',
-          body: '파일럿에서 여덟 가지 값을 측정합니다. 사이클 생산성, 용수 사용량, 메가와트당 작업 시간, 작업 안전, 실제로 회복된 발전량 등이 여기에 들어갑니다.',
+          body: '파일럿 계획에 여덟 가지 값을 넣습니다. 사이클 생산성, 용수 사용량, 메가와트당 작업 시간, 작업 안전, 실제로 회복된 발전량 등입니다. 시작 전에 측정 방법과 현장에서 수치를 읽는 담당자를 문서로 정합니다.',
         },
         {
           n: '04',
           title: '확대 여부 결정',
-          body: '측정 결과를 보여 드리고 발전소 전체의 경제성을 계산합니다. 숫자가 맞지 않으면 그대로 말씀드립니다.',
+          body: '파일럿 자료로 발전소 전체의 경제성을 계산합니다. 숫자가 맞지 않으면 그대로 말씀드립니다.',
         },
       ],
     },
@@ -344,7 +344,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: '光伏电站运维 — 组件清洗与维护 · Teranova',
       description:
-        'Teranova 的独立业务方向：为光伏组件清洗选型并供货，同时在试点中测量实际效果。',
+        'Teranova 的业务方向：为光伏组件清洗选型并供货，并制定在贵方现场检验结果的试点方案。',
     },
     hero: {
       kicker: 'Teranova 业务方向',
@@ -375,12 +375,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: '带测量的试点',
-          body: '试点中测量八项数值，其中包括清洗效率、用水量、每兆瓦人工工时、作业安全，以及实际挽回的发电量。',
+          body: '试点方案里写入八项数值：清洗效率、用水量、每兆瓦人工工时、作业安全，以及实际挽回的发电量等。开工前以书面形式确定测量方法和在现场读数的负责人。',
         },
         {
           n: '04',
           title: '是否推广的决定',
-          body: '我们出示测量结果，并核算整座电站的经济性。如果数字算不过来，我们会直说。',
+          body: '依据试点数据核算整座电站的经济性。如果数字算不过来，我们会直说。',
         },
       ],
     },
@@ -435,7 +435,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: '太陽光メンテナンス — モジュール清掃と保守 · Teranova',
       description:
-        'Teranova の事業部門です。太陽光モジュール清掃設備の選定と供給を行い、その効果をパイロットで実測します。',
+        'Teranova の事業部門です。太陽光モジュール清掃設備の選定と供給を行い、現場で結果を確かめるパイロット計画を一緒に作ります。',
     },
     hero: {
       kicker: 'Teranova の事業部門',
@@ -466,12 +466,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: '測定を伴うパイロット',
-          body: 'パイロットでは8つの値を測定します。サイクルの処理能力、水の使用量、メガワットあたりの作業工数、作業の安全性、実際に回復した発電量などです。',
+          body: 'パイロットの計画に8つの値を入れます。サイクルの処理能力、水の使用量、メガワットあたりの作業工数、作業の安全性、実際に回復した発電量などです。開始前に、測定の方法と現場で数値を読む担当を書面で決めます。',
         },
         {
           n: '04',
           title: '展開の判断',
-          body: '測定結果をお見せし、発電所全体の採算を計算します。数字が合わなければ、そのまま申し上げます。',
+          body: 'パイロットの数値をもとに発電所全体の採算を計算します。数字が合わなければ、そのまま申し上げます。',
         },
       ],
     },
@@ -526,7 +526,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Solaranlagen — Modulreinigung und Instandhaltung · Teranova',
       description:
-        'Ein Geschäftsbereich von Teranova: Auswahl und Lieferung von Reinigungstechnik für Solarmodule, mit einem im Pilotbetrieb gemessenen Ergebnis.',
+        'Ein Geschäftsbereich von Teranova: Auswahl und Lieferung von Reinigungstechnik für Solarmodule, mit einem Pilotprogramm, das das Ergebnis auf Ihrer Anlage prüft.',
     },
     hero: {
       kicker: 'Ein Geschäftsbereich von Teranova',
@@ -557,12 +557,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Pilot mit Messung',
-          body: 'Im Pilotbetrieb messen wir acht Größen, darunter Zyklusleistung, Wasserverbrauch, Arbeitsstunden je Megawatt, Arbeitssicherheit und den tatsächlich zurückgewonnenen Ertrag.',
+          body: 'Das Pilotprogramm umfasst acht Größen, darunter Zyklusleistung, Wasserverbrauch, Arbeitsstunden je Megawatt, Arbeitssicherheit und den tatsächlich zurückgewonnenen Ertrag. Vor dem Start halten wir schriftlich fest, wie gemessen wird und wer die Werte auf der Anlage aufnimmt.',
         },
         {
           n: '04',
           title: 'Entscheidung über die Ausweitung',
-          body: 'Wir zeigen die Messergebnisse und rechnen die Wirtschaftlichkeit für die gesamte Anlage. Wenn die Zahlen nicht aufgehen, sagen wir das offen.',
+          body: 'Aus den Pilotdaten rechnen wir die Wirtschaftlichkeit für die gesamte Anlage. Wenn die Zahlen nicht aufgehen, sagen wir das offen.',
         },
       ],
     },
@@ -617,7 +617,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Centrales solaires — nettoyage des modules et maintenance · Teranova',
       description:
-        'Une activité de Teranova : sélection et fourniture de matériel de nettoyage des modules, avec un résultat mesuré sur un pilote.',
+        'Une activité de Teranova : sélection et fourniture de matériel de nettoyage des modules, avec un programme pilote qui vérifie le résultat sur votre site.',
     },
     hero: {
       kicker: 'Une activité de Teranova',
@@ -648,12 +648,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Pilote avec mesure',
-          body: 'Sur le pilote, nous mesurons huit valeurs, dont la productivité du cycle, la consommation d’eau, les heures de travail par mégawatt, la sécurité des opérations et la production réellement récupérée.',
+          body: 'Le programme du pilote porte sur huit valeurs, dont la productivité du cycle, la consommation d’eau, les heures de travail par mégawatt, la sécurité des opérations et la production réellement récupérée. Avant le démarrage, nous fixons par écrit la méthode de mesure et qui relève les valeurs sur le site.',
         },
         {
           n: '04',
           title: 'Décision d’étendre',
-          body: 'Nous présentons les résultats mesurés et calculons l’économie de la centrale entière. Si les chiffres ne tiennent pas, nous le disons franchement.',
+          body: 'À partir des données du pilote, nous calculons l’économie de la centrale entière. Si les chiffres ne tiennent pas, nous le disons franchement.',
         },
       ],
     },
@@ -708,7 +708,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Impianti solari — pulizia dei moduli e manutenzione · Teranova',
       description:
-        'Una linea di attività Teranova: selezione e fornitura di macchine per la pulizia dei moduli, con un risultato misurato su un pilota.',
+        'Una linea di attività Teranova: selezione e fornitura di macchine per la pulizia dei moduli, con un programma pilota che verifica il risultato sul vostro sito.',
     },
     hero: {
       kicker: 'Una linea di attività Teranova',
@@ -739,12 +739,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Pilota con misura',
-          body: 'Sul pilota misuriamo otto valori, tra cui la produttività del ciclo, il consumo d’acqua, le ore di lavoro per megawatt, la sicurezza delle operazioni e la produzione effettivamente recuperata.',
+          body: 'Il programma del pilota comprende otto valori, tra cui la produttività del ciclo, il consumo d’acqua, le ore di lavoro per megawatt, la sicurezza delle operazioni e la produzione effettivamente recuperata. Prima dell’avvio mettiamo per iscritto il metodo di misura e chi rileva i dati sul sito.',
         },
         {
           n: '04',
           title: 'Decisione sull’estensione',
-          body: 'Mostriamo i risultati misurati e calcoliamo l’economia dell’intero impianto. Se i numeri non tornano, lo diciamo apertamente.',
+          body: 'Dai dati del pilota calcoliamo l’economia dell’intero impianto. Se i numeri non tornano, lo diciamo apertamente.',
         },
       ],
     },
@@ -799,7 +799,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Plantas solares — limpieza de módulos y mantenimiento · Teranova',
       description:
-        'Una línea de negocio de Teranova: selección y suministro de equipos de limpieza de módulos, con el resultado medido en un piloto.',
+        'Una línea de negocio de Teranova: selección y suministro de equipos de limpieza de módulos, con un programa piloto que comprueba el resultado en su propia planta.',
     },
     hero: {
       kicker: 'Una línea de negocio de Teranova',
@@ -830,12 +830,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Piloto con medición',
-          body: 'En el piloto medimos ocho valores, entre ellos la productividad del ciclo, el consumo de agua, las horas de trabajo por megavatio, la seguridad de las operaciones y la producción realmente recuperada.',
+          body: 'El programa del piloto recoge ocho valores, entre ellos la productividad del ciclo, el consumo de agua, las horas de trabajo por megavatio, la seguridad de las operaciones y la producción realmente recuperada. Antes de empezar dejamos por escrito el método de medición y quién toma los datos en la planta.',
         },
         {
           n: '04',
           title: 'Decisión de ampliar',
-          body: 'Mostramos los resultados medidos y calculamos la economía de la planta entera. Si los números no salen, lo decimos con claridad.',
+          body: 'Con los datos del piloto calculamos la economía de la planta entera. Si los números no salen, lo decimos con claridad.',
         },
       ],
     },
@@ -890,7 +890,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Usinas solares — limpeza de módulos e manutenção · Teranova',
       description:
-        'Uma linha de negócio da Teranova: seleção e fornecimento de equipamentos de limpeza de módulos, com o resultado medido em um piloto.',
+        'Uma linha de negócio da Teranova: seleção e fornecimento de equipamentos de limpeza de módulos, com um programa piloto que verifica o resultado na sua própria usina.',
     },
     hero: {
       kicker: 'Uma linha de negócio da Teranova',
@@ -921,12 +921,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Piloto com medição',
-          body: 'No piloto medimos oito valores, entre eles a produtividade do ciclo, o consumo de água, as horas de trabalho por megawatt, a segurança das operações e a geração efetivamente recuperada.',
+          body: 'O programa do piloto abrange oito valores, entre eles a produtividade do ciclo, o consumo de água, as horas de trabalho por megawatt, a segurança das operações e a geração efetivamente recuperada. Antes de começar, registramos por escrito o método de medição e quem faz as leituras na usina.',
         },
         {
           n: '04',
           title: 'Decisão de ampliar',
-          body: 'Mostramos os resultados medidos e calculamos a economia da usina inteira. Se os números não fecharem, dizemos isso com franqueza.',
+          body: 'Com os dados do piloto calculamos a economia da usina inteira. Se os números não fecharem, dizemos isso com franqueza.',
         },
       ],
     },
@@ -981,7 +981,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Güneş santralleri — panel temizliği ve bakım · Teranova',
       description:
-        'Teranova’nın bir iş kolu: güneş panellerinin temizliği için ekipman seçimi ve tedariki, sonucu pilot uygulamada ölçülerek.',
+        'Teranova’nın bir iş kolu: güneş panellerinin temizliği için ekipman seçimi ve tedariki, sonucu kendi sahanızda doğrulayan pilot programıyla birlikte.',
     },
     hero: {
       kicker: 'Teranova iş kolu',
@@ -1012,12 +1012,12 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Ölçümlü pilot',
-          body: 'Pilotta sekiz değeri ölçüyoruz: döngü verimliliği, su tüketimi, megavat başına iş saati, iş güvenliği ve fiilen geri kazanılan üretim bunların arasında.',
+          body: 'Pilot programına sekiz değer giriyor: döngü verimliliği, su tüketimi, megavat başına iş saati, iş güvenliği ve fiilen geri kazanılan üretim bunların arasında. Başlamadan önce ölçüm yöntemini ve sahada değerleri kimin okuyacağını yazılı olarak belirliyoruz.',
         },
         {
           n: '04',
           title: 'Yaygınlaştırma kararı',
-          body: 'Ölçüm sonuçlarını gösteriyor ve santralin tamamı için ekonomiyi hesaplıyoruz. Rakamlar tutmuyorsa bunu açıkça söylüyoruz.',
+          body: 'Pilot verilerine göre santralin tamamı için ekonomiyi hesaplıyoruz. Rakamlar tutmuyorsa bunu açıkça söylüyoruz.',
         },
       ],
     },
