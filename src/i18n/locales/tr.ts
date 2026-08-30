@@ -342,7 +342,7 @@ const tr: DeepPartial<UIDict> = {
     },
     faq: {
       title: "Sorular ve cevaplar",
-      sub: "Nasıl çalıştığımıza kısa bir bakış: tedarikçi doğrulaması, anlaşma desteği, lojistik, belgeler ve ödemeler. Yanıt bulamadıysanız — bize yazın, yardımcı oluruz.",
+      sub: "Nasıl çalıştığımıza kısa bir bakış: tedarikçi doğrulaması, anlaşma desteği, lojistik, belgeler ve ödemeler. Yanıt bulamadıysanız bize yazın.",
       items: [
         { q: "Üretici misiniz yoksa aracı mı?", a: "Biz güvene dayalı bir B2B ortağıyız: Koreli üreticileri bulur, doğrular ve anlaşmayı destekleriz. Kendimiz üretim yapmıyoruz." },
         { q: "Doğrulama durumları ne anlama gelir?", a: "“Doğrulandı — yerinde ziyaret”, bir ekip üyesinin fabrikada bizzat bulunduğu anlamına gelir; fotoğraflar ve tarih ile. “Şirket tarafından sağlanan veriler”, tedarikçinin beyanına dayalı bir profildir. Bu, bir sonuç vaadi değil, belgelenmiş bir gerçektir." },

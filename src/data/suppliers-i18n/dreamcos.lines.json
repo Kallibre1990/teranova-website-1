@@ -1,1183 +1,1183 @@
 [
- {
-  "slug": "duft-and-doft",
-  "supplierSlug": "dreamcos",
-  "category": "cosmetics",
-  "lineName": "DUFT&DOFT",
-  "items": [
-   {
-    "name": "DUFT&DOFT Signature Perfume Hand Cream",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-signature-perfume-hand-cream.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Enriched Perfume Water Barrier Hand Cream",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-water-barrier-hand-cream.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Body Perfume Mist",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-body-perfume-mist.jpg",
-    "volume": "80 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Fine Fragrance Hair & Body Mist",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-hair-body-mist.jpg",
-    "volume": "150 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Perfumed Body Lotion",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-perfumed-body-lotion.jpg",
-    "volume": "300 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Perfumed Body Wash",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-perfumed-body-wash.jpg",
-    "volume": "500 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Relaxing Spa Body Wash",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-relaxing-spa-body-wash.jpg",
-    "volume": "500 g",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Signature Perfume Body Scrub",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-signature-body-scrub.jpg",
-    "volume": "500 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Perfumed Clean Peeling Mist (Apple Sophy)",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-clean-peeling-mist.jpg",
-    "volume": "300 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Enriched Perfume Hair Shampoo",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-perfume-hair-shampoo.jpg",
-    "volume": "500 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Enriched Perfume Hair Rinse (Sophy Sophy)",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-perfume-hair-rinse.jpg",
-    "volume": "500 ml",
-    "certs": []
-   },
-   {
-    "name": "DUFT&DOFT Signature Perfume Caffeine Hair Tonic",
-    "img": "/img/suppliers/dreamcos/products/duftndoft-caffeine-hair-tonic.jpg",
-    "volume": "150 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — парфюмированный уход · Teranova",
-    "seoDesc": "DUFT&DOFT — флагманский бренд группы DREAMCOS: парфюмированный уход за руками, телом и волосами. Кремы для рук, мисты, лосьоны, гели для душа, скрабы и шампуни, до 7 ароматов в позиции. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Парфюмированный уход за руками, телом и волосами",
-    "about": [
-     "DUFT&DOFT — флагманский бренд косметической группы DREAMCOS, построенный на собственной парфюмерной разработке: аромат здесь такая же часть продукта, как и уходовая формула. Бренд узнаваем прежде всего по парфюмированным кремам для рук и, по данным компании, широко представлен в корейской рознице, включая сеть Olive Young.",
-     "Линейка охватывает весь ритуал: кремы для рук 50 мл в двух вариантах, мисты для тела и для волос, лосьоны и гели для душа, спа-гель, скраб и пилинг-мист, шампунь, кондиционер и тоник для кожи головы с кофеином. Большинство позиций идёт в 3–7 ароматах, что удобно для сборки полки в дрогери, бьюти-ретейле и на маркетплейсах. Оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
+  {
+    "slug": "duft-and-doft",
+    "supplierSlug": "dreamcos",
+    "category": "cosmetics",
+    "lineName": "DUFT&DOFT",
+    "items": [
+      {
+        "name": "DUFT&DOFT Signature Perfume Hand Cream",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-signature-perfume-hand-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Enriched Perfume Water Barrier Hand Cream",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-water-barrier-hand-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Body Perfume Mist",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-body-perfume-mist.jpg",
+        "volume": "80 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Fine Fragrance Hair & Body Mist",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-hair-body-mist.jpg",
+        "volume": "150 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Perfumed Body Lotion",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-perfumed-body-lotion.jpg",
+        "volume": "300 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Perfumed Body Wash",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-perfumed-body-wash.jpg",
+        "volume": "500 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Relaxing Spa Body Wash",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-relaxing-spa-body-wash.jpg",
+        "volume": "500 g",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Signature Perfume Body Scrub",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-signature-body-scrub.jpg",
+        "volume": "500 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Perfumed Clean Peeling Mist (Apple Sophy)",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-clean-peeling-mist.jpg",
+        "volume": "300 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Enriched Perfume Hair Shampoo",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-perfume-hair-shampoo.jpg",
+        "volume": "500 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Enriched Perfume Hair Rinse (Sophy Sophy)",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-perfume-hair-rinse.jpg",
+        "volume": "500 ml",
+        "certs": []
+      },
+      {
+        "name": "DUFT&DOFT Signature Perfume Caffeine Hair Tonic",
+        "img": "/img/suppliers/dreamcos/products/duftndoft-caffeine-hair-tonic.jpg",
+        "volume": "150 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Парфюмированный крем для рук флагманского бренда группы DUFT&DOFT; 6 ароматов на выбор.",
-     "Парфюмированный крем для рук с укреплением водного барьера кожи; 6 ароматов.",
-     "Парфюмированный мист для тела; 7 ароматов на выбор.",
-     "Ароматический мист для волос и тела линии Fine Fragrance; 4 аромата.",
-     "Парфюмированный лосьон для тела; 5 ароматов на выбор.",
-     "Парфюмированный гель для душа; 4 аромата на выбор.",
-     "Расслабляющий спа-гель для душа; 3 аромата на выбор.",
-     "Парфюмированный скраб для тела линии Signature; 4 аромата.",
-     "Парфюмированный пилинг-мист для тела с ароматом Apple Sophy.",
-     "Парфюмированный шампунь для волос линии Enriched Perfume.",
-     "Парфюмированный кондиционер для волос с ароматом Sophy Sophy.",
-     "Парфюмированный тоник для кожи головы с кофеином линии Signature."
-    ]
-   },
-   "en": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — perfumed care · Teranova",
-    "seoDesc": "DUFT&DOFT is the flagship brand of the DREAMCOS group: perfumed care for hands, body and hair. Hand creams, mists, lotions, shower gels, scrubs and shampoos, up to 7 scents per item. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Perfumed care for hands, body and hair",
-    "about": [
-     "DUFT&DOFT is the flagship brand of the DREAMCOS cosmetics group, built on its own perfume development: here the scent is as much a part of the product as the care formula. The brand is recognized above all for its perfumed hand creams and, per company data, is widely present in Korean retail, including the Olive Young chain.",
-     "The range covers the whole ritual: 50 ml hand creams in two versions, body and hair mists, lotions and shower gels, a spa gel, a scrub and a peeling mist, shampoo, conditioner and a scalp tonic with caffeine. Most items come in 3–7 scents, which is convenient for building a shelf in drugstores, beauty retail and on marketplaces. Wholesale supply from Korea; terms and territories are agreed at the deal stage."
+    "i18n": {
+      "ru": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — парфюмированный уход · Teranova",
+        "seoDesc": "DUFT&DOFT — флагманский бренд группы DREAMCOS: парфюмированный уход за руками, телом и волосами. Кремы для рук, мисты, лосьоны, гели для душа, скрабы и шампуни, до 7 ароматов в позиции. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Парфюмированный уход за руками, телом и волосами",
+        "about": [
+          "DUFT&DOFT — флагманский бренд косметической группы DREAMCOS, построенный на собственной парфюмерной разработке: аромат здесь такая же часть продукта, как и уходовая формула. Бренд узнаваем прежде всего по парфюмированным кремам для рук и, по данным компании, широко представлен в корейской рознице, включая сеть Olive Young.",
+          "Линейка охватывает весь ритуал: кремы для рук 50 мл в двух вариантах, мисты для тела и для волос, лосьоны и гели для душа, спа-гель, скраб и пилинг-мист, шампунь, кондиционер и тоник для кожи головы с кофеином. Большинство позиций идёт в 3–7 ароматах, что удобно для сборки полки в дрогери, бьюти-ретейле и на маркетплейсах. Оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
+        ],
+        "itemNotes": [
+          "Парфюмированный крем для рук флагманского бренда группы DUFT&DOFT; 6 ароматов на выбор.",
+          "Парфюмированный крем для рук с укреплением водного барьера кожи; 6 ароматов.",
+          "Парфюмированный мист для тела; 7 ароматов на выбор.",
+          "Ароматический мист для волос и тела линии Fine Fragrance; 4 аромата.",
+          "Парфюмированный лосьон для тела; 5 ароматов на выбор.",
+          "Парфюмированный гель для душа; 4 аромата на выбор.",
+          "Расслабляющий спа-гель для душа; 3 аромата на выбор.",
+          "Парфюмированный скраб для тела линии Signature; 4 аромата.",
+          "Парфюмированный пилинг-мист для тела с ароматом Apple Sophy.",
+          "Парфюмированный шампунь для волос линии Enriched Perfume.",
+          "Парфюмированный кондиционер для волос с ароматом Sophy Sophy.",
+          "Парфюмированный тоник для кожи головы с кофеином линии Signature."
+        ]
+      },
+      "en": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — perfumed care · Teranova",
+        "seoDesc": "DUFT&DOFT is the flagship brand of the DREAMCOS group: perfumed care for hands, body and hair. Hand creams, mists, lotions, shower gels, scrubs and shampoos, up to 7 scents per item. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Perfumed care for hands, body and hair",
+        "about": [
+          "DUFT&DOFT is the flagship brand of the DREAMCOS cosmetics group, built on its own perfume development: here the scent is as much a part of the product as the care formula. The brand is recognized above all for its perfumed hand creams and, per company data, is widely present in Korean retail, including the Olive Young chain.",
+          "The range covers the whole ritual: 50 ml hand creams in two versions, body and hair mists, lotions and shower gels, a spa gel, a scrub and a peeling mist, shampoo, conditioner and a scalp tonic with caffeine. Most items come in 3–7 scents, which is convenient for building a shelf in drugstores, beauty retail and on marketplaces. Wholesale supply from Korea; terms and territories are agreed at the deal stage."
+        ],
+        "itemNotes": [
+          "Signature perfumed hand cream from the group's flagship DUFT&DOFT brand; 6 scents to choose from.",
+          "Perfumed hand cream that reinforces the skin's water barrier; 6 scents.",
+          "Perfumed body mist; 7 scents to choose from.",
+          "Fine Fragrance hair and body mist; 4 scents.",
+          "Perfumed body lotion; 5 scents to choose from.",
+          "Perfumed body wash; 4 scents to choose from.",
+          "Relaxing spa body wash; 3 scents to choose from.",
+          "Signature perfumed body scrub; 4 scents.",
+          "Perfumed body peeling mist in Apple Sophy scent.",
+          "Perfumed hair shampoo from the Enriched Perfume line.",
+          "Perfumed hair conditioner in Sophy Sophy scent.",
+          "Signature perfumed scalp tonic with caffeine."
+        ]
+      },
+      "ko": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — 향기 케어 · Teranova",
+        "seoDesc": "DUFT&DOFT는 DREAMCOS 그룹의 플래그십 브랜드입니다: 핸드, 바디, 헤어를 위한 향기 케어. 핸드크림, 바디·헤어 미스트, 로션, 샤워젤, 스크럽, 샴푸와 컨디셔너를 품목당 최대 7가지 향으로 제공합니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "핸드, 바디, 헤어를 위한 향기 케어",
+        "about": [
+          "DUFT&DOFT는 자체 조향 개발을 기반으로 한 화장품 그룹 DREAMCOS의 플래그십 브랜드입니다. 여기서 향은 케어 처방만큼이나 제품의 중요한 부분입니다. 브랜드는 무엇보다 향기 핸드크림으로 잘 알려져 있으며, 회사 자료 기준 Olive Young 체인을 포함한 한국 리테일에 폭넓게 자리 잡고 있습니다.",
+          "라인은 리추얼 전체를 아우릅니다: 두 가지 버전의 50ml 핸드크림, 바디·헤어 미스트, 로션과 샤워젤, 스파 젤, 스크럽과 필링 미스트, 샴푸와 컨디셔너, 카페인을 담은 두피 토닉. 대부분의 품목이 3~7가지 향으로 제공되어 드러그스토어, 뷰티 리테일, 마켓플레이스의 매대 구성에 편리합니다. 한국에서의 도매 공급이며, 조건과 지역은 거래 단계에서 확정합니다."
+        ],
+        "itemNotes": [
+          "그룹 대표 브랜드 DUFT&DOFT의 시그니처 퍼퓸 핸드크림; 6가지 향 선택 가능.",
+          "피부 수분 장벽을 강화하는 퍼퓸 핸드크림; 6가지 향.",
+          "퍼퓸 바디 미스트; 7가지 향 선택 가능.",
+          "Fine Fragrance 라인의 헤어·바디 미스트; 4가지 향.",
+          "퍼퓸 바디 로션; 5가지 향 선택 가능.",
+          "퍼퓸 바디 워시; 4가지 향 선택 가능.",
+          "릴렉싱 스파 바디 워시; 3가지 향 선택 가능.",
+          "Signature 라인의 퍼퓸 바디 스크럽; 4가지 향.",
+          "Apple Sophy 향의 퍼퓸 바디 필링 미스트.",
+          "Enriched Perfume 라인의 퍼퓸 헤어 샴푸.",
+          "Sophy Sophy 향의 퍼퓸 헤어 컨디셔너.",
+          "카페인이 함유된 Signature 라인의 퍼퓸 두피 토너."
+        ]
+      },
+      "zh": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — 香氛护理 · Teranova",
+        "seoDesc": "DUFT&DOFT 是 DREAMCOS 集团的旗舰品牌：手部、身体与头发的香氛护理。护手霜、喷雾、身体乳、沐浴露、磨砂与洗发水，单品最多 7 种香型。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "手部、身体与头发的香氛护理",
+        "about": [
+          "DUFT&DOFT 是化妆品集团 DREAMCOS 的旗舰品牌，建立在自有的香水研发之上：在这里，香气与护理配方同样是产品的一部分。品牌最为人熟知的是香氛护手霜；据公司资料，它在韩国零售渠道有广泛铺货，包括 Olive Young 连锁。",
+          "系列覆盖完整的仪式：两种规格的 50 毫升护手霜、身体喷雾与头发喷雾、身体乳与沐浴露、水疗凝胶、磨砂与去角质喷雾、洗发水、护发素，以及含咖啡因的头皮水。多数品项提供 3–7 种香型，便于在日化店、美妆零售与电商平台上组货架。韩国批发供应，条件与区域在交易阶段确定。"
+        ],
+        "itemNotes": [
+          "集团旗舰品牌 DUFT&DOFT 的香氛护手霜，6 种香型可选。",
+          "强化肌肤水分屏障的香氛护手霜，6 种香型可选。",
+          "身体香氛喷雾，7 种香型可选。",
+          "Fine Fragrance 系列的发丝与身体香氛喷雾，4 种香型。",
+          "香氛身体乳，5 种香型可选。",
+          "香氛沐浴露，4 种香型可选。",
+          "舒缓 SPA 沐浴露，3 种香型可选。",
+          "Signature 系列香氛身体磨砂膏，4 种香型。",
+          "Apple Sophy 香型的香氛身体去角质喷雾。",
+          "Enriched Perfume 系列香氛洗发水。",
+          "Sophy Sophy 香型的香氛护发素。",
+          "Signature 系列含咖啡因的香氛头皮护理液。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — 香りのケア · Teranova",
+        "seoDesc": "DUFT&DOFT は DREAMCOS グループの旗艦ブランド：ハンド、ボディ、ヘアの香りのケア。ハンドクリーム、ミスト、ローション、ボディウォッシュ、スクラブ、シャンプーを揃え、1品目あたり最大7種の香り。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "ハンド・ボディ・ヘアの香りのケア",
+        "about": [
+          "DUFT&DOFT は化粧品グループ DREAMCOS の旗艦ブランドで、自社の調香開発を土台にしています：ここでは香りも、ケアの処方と同じく製品の一部です。ブランドはとりわけ香りのハンドクリームで知られ、会社提供の情報によると、Olive Young チェーンを含む韓国の小売で広く扱われています。",
+          "ラインは一連のリチュアル全体をカバーします：2種類の 50 mL ハンドクリーム、ボディミストとヘアミスト、ローションとボディウォッシュ、スパジェル、スクラブとピーリングミスト、シャンプー、コンディショナー、カフェイン配合のスカルプトナー。多くの品目は3〜7種の香りで展開され、ドラッグストア、ビューティー小売、マーケットプレイスでの棚づくりに向いています。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
+        ],
+        "itemNotes": [
+          "グループの旗艦ブランド DUFT&DOFT の香水ハンドクリーム、6 種の香りから選択可能。",
+          "肌の水分バリアを強化する香水ハンドクリーム、6 種の香り。",
+          "ボディ香水ミスト、7 種の香りから選択可能。",
+          "Fine Fragrance ラインのヘア＆ボディミスト、4 種の香り。",
+          "香水ボディローション、5 種の香りから選択可能。",
+          "香水ボディウォッシュ、4 種の香りから選択可能。",
+          "リラックスできるスパボディウォッシュ、3 種の香りから選択可能。",
+          "Signature ラインの香水ボディスクラブ、4 種の香り。",
+          "Apple Sophy の香りの香水ボディピーリングミスト。",
+          "Enriched Perfume ラインの香水シャンプー。",
+          "Sophy Sophy の香りの香水コンディショナー。",
+          "Signature ラインのカフェイン配合香水頭皮トニック。"
+        ]
+      },
+      "it": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — cura profumata · Teranova",
+        "seoDesc": "DUFT&DOFT — brand di punta del gruppo DREAMCOS: cura profumata di mani, corpo e capelli. Creme mani, mist, lozioni, bagnoschiuma, scrub e shampoo, fino a 7 fragranze per referenza. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Cura profumata per mani, corpo e capelli",
+        "about": [
+          "DUFT&DOFT è il brand di punta del gruppo cosmetico DREAMCOS, costruito su uno sviluppo profumiero proprio: qui la fragranza è parte del prodotto quanto la formula cosmetica. Il brand è riconoscibile soprattutto per le creme mani profumate e, secondo i dati dell'azienda, è ampiamente presente nel retail coreano, inclusa la catena Olive Young.",
+          "La linea copre l'intero rituale: creme mani da 50 ml in due varianti, mist per corpo e capelli, lozioni e bagnoschiuma, gel spa, scrub e mist esfoliante, shampoo, balsamo e tonico per il cuoio capelluto con caffeina. La maggior parte delle referenze è disponibile in 3–7 fragranze, comodo per comporre lo scaffale nei drugstore, nel beauty retail e sui marketplace. Forniture all'ingrosso dalla Corea; condizioni e territori si definiscono in fase di trattativa."
+        ],
+        "itemNotes": [
+          "Crema mani profumata del brand di punta del gruppo DUFT&DOFT; 6 fragranze a scelta.",
+          "Crema mani profumata che rafforza la barriera idrica della pelle; 6 fragranze.",
+          "Mist corpo profumato; 7 fragranze a scelta.",
+          "Mist profumato per capelli e corpo della linea Fine Fragrance; 4 fragranze.",
+          "Lozione corpo profumata; 5 fragranze a scelta.",
+          "Gel doccia profumato; 4 fragranze a scelta.",
+          "Gel doccia spa rilassante; 3 fragranze a scelta.",
+          "Scrub corpo profumato della linea Signature; 4 fragranze.",
+          "Peeling mist corpo profumato alla fragranza Apple Sophy.",
+          "Shampoo profumato per capelli della linea Enriched Perfume.",
+          "Balsamo profumato per capelli alla fragranza Sophy Sophy.",
+          "Tonico profumato per il cuoio capelluto alla caffeina della linea Signature."
+        ]
+      },
+      "de": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — parfümierte Pflege · Teranova",
+        "seoDesc": "DUFT&DOFT — Flaggschiffmarke der Gruppe DREAMCOS: parfümierte Pflege für Hände, Körper und Haar. Handcremes, Mists, Lotionen, Duschgele, Peelings und Shampoos, bis zu 7 Düfte je Position. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Parfümierte Pflege für Hände, Körper und Haar",
+        "about": [
+          "DUFT&DOFT ist die Flaggschiffmarke der Kosmetikgruppe DREAMCOS, aufgebaut auf einer eigenen Parfümentwicklung: Der Duft ist hier genauso Teil des Produkts wie die Pflegeformel. Bekannt ist die Marke vor allem für ihre parfümierten Handcremes und laut Unternehmensangaben im koreanischen Einzelhandel breit vertreten, unter anderem in der Kette Olive Young.",
+          "Die Serie deckt das gesamte Ritual ab: Handcremes 50 ml in zwei Varianten, Mists für Körper und Haar, Lotionen und Duschgele, Spa-Gel, Peeling und Peeling-Mist, Shampoo, Conditioner und ein Kopfhauttonikum mit Koffein. Die meisten Positionen gibt es in 3–7 Düften, was den Regalaufbau in Drogerien, im Beauty-Retail und auf Marktplätzen erleichtert. Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
+        ],
+        "itemNotes": [
+          "Parfümierte Handcreme der Flaggschiffmarke der Gruppe DUFT&DOFT; 6 Düfte zur Auswahl.",
+          "Parfümierte Handcreme zur Stärkung der Feuchtigkeitsbarriere der Haut; 6 Düfte.",
+          "Parfümierter Körpernebel; 7 Düfte zur Auswahl.",
+          "Duftnebel für Haar und Körper der Fine Fragrance Linie; 4 Düfte.",
+          "Parfümierte Körperlotion; 5 Düfte zur Auswahl.",
+          "Parfümiertes Duschgel; 4 Düfte zur Auswahl.",
+          "Entspannendes Spa-Duschgel; 3 Düfte zur Auswahl.",
+          "Parfümiertes Körperpeeling der Signature Linie; 4 Düfte.",
+          "Parfümierter Peeling-Nebel für den Körper mit dem Duft Apple Sophy.",
+          "Parfümiertes Haarshampoo der Enriched Perfume Linie.",
+          "Parfümierte Haarspülung mit dem Duft Sophy Sophy.",
+          "Parfümiertes Kopfhaut-Tonikum mit Koffein der Signature Linie."
+        ]
+      },
+      "fr": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — soin parfumé · Teranova",
+        "seoDesc": "DUFT&DOFT — marque phare du groupe DREAMCOS : soin parfumé pour les mains, le corps et les cheveux. Crèmes mains, brumes, lotions, gels douche, gommages et shampooings, jusqu'à 7 parfums par référence. Approvisionnement en gros via Teranova.",
+        "tagline": "Soin parfumé pour les mains, le corps et les cheveux",
+        "about": [
+          "DUFT&DOFT est la marque phare du groupe cosmétique DREAMCOS, construite sur un développement parfumé propriétaire : le parfum y fait partie du produit au même titre que la formule de soin. La marque est surtout reconnue pour ses crèmes mains parfumées et, selon les données de l'entreprise, largement présente dans le retail coréen, y compris dans le réseau Olive Young.",
+          "La gamme couvre tout le rituel : crèmes mains de 50 ml en deux variantes, brumes pour le corps et pour les cheveux, lotions et gels douche, gel spa, gommage et brume peeling, shampooing, après-shampooing et tonique pour le cuir chevelu à la caféine. La plupart des références existent en 3 à 7 parfums, ce qui facilite la composition du linéaire en drogueries, en retail beauté et sur les marketplaces. Approvisionnement en gros depuis la Corée ; conditions et territoires se précisent au moment de la transaction."
+        ],
+        "itemNotes": [
+          "Crème pour les mains parfumée de la marque phare du groupe DUFT&DOFT ; 6 parfums au choix.",
+          "Crème pour les mains parfumée renforçant la barrière hydrique de la peau ; 6 parfums.",
+          "Brume corporelle parfumée ; 7 parfums au choix.",
+          "Brume parfumée cheveux et corps de la ligne Fine Fragrance ; 4 parfums.",
+          "Lotion corporelle parfumée ; 5 parfums au choix.",
+          "Gel douche parfumé ; 4 parfums au choix.",
+          "Gel douche spa relaxant ; 3 parfums au choix.",
+          "Gommage corporel parfumé de la ligne Signature ; 4 parfums.",
+          "Brume-peeling corporelle parfumée au parfum Apple Sophy.",
+          "Shampooing parfumé de la ligne Enriched Perfume.",
+          "Après-shampooing parfumé au parfum Sophy Sophy.",
+          "Tonique parfumé pour le cuir chevelu à la caféine de la ligne Signature."
+        ]
+      },
+      "tr": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — parfümlü bakım · Teranova",
+        "seoDesc": "DUFT&DOFT — DREAMCOS grubunun amiral markası: eller, vücut ve saçlar için parfümlü bakım. El kremleri, mistler, losyonlar, duş jelleri, peelingler ve şampuanlar; üründe 7 kokuya kadar seçenek. Kore'den toptan tedarik Teranova aracılığıyla.",
+        "tagline": "Eller, vücut ve saçlar için parfümlü bakım",
+        "about": [
+          "DUFT&DOFT, kendi parfüm geliştirmesi üzerine kurulu DREAMCOS kozmetik grubunun amiral markasıdır: burada koku, bakım formülü kadar ürünün bir parçasıdır. Marka öncelikle parfümlü el kremleriyle tanınır ve şirket verilerine göre Olive Young zinciri dahil Kore perakendesinde geniş biçimde yer alır.",
+          "Seri ritüelin tamamını kapsar: iki çeşitte 50 ml el kremleri, vücut ve saç mistleri, losyonlar ve duş jelleri, spa jeli, peeling ve peeling misti, şampuan, saç kremi ve kafeinli saç derisi toniği. Ürünlerin çoğu 3–7 kokuda sunulur; bu da drogeri, güzellik perakendesi ve pazar yerlerinde raf kurmayı kolaylaştırır. Kore'den toptan tedarik; koşullar ve bölgeler işlem aşamasında netleşir."
+        ],
+        "itemNotes": [
+          "DUFT&DOFT grubunun amiral markasının parfümlü el kremi; 6 koku seçeneği.",
+          "Cildin su bariyerini güçlendiren parfümlü el kremi; 6 koku.",
+          "Parfümlü vücut misti; 7 koku seçeneği.",
+          "Fine Fragrance serisi saç ve vücut misti; 4 koku.",
+          "Parfümlü vücut losyonu; 5 koku seçeneği.",
+          "Parfümlü duş jeli; 4 koku seçeneği.",
+          "Rahatlatıcı spa duş jeli; 3 koku seçeneği.",
+          "Signature serisi parfümlü vücut peelingi; 4 koku.",
+          "Apple Sophy kokulu parfümlü vücut peeling misti.",
+          "Enriched Perfume serisi parfümlü saç şampuanı.",
+          "Sophy Sophy kokulu parfümlü saç kremi.",
+          "Signature serisi kafeinli parfümlü saç derisi toniği."
+        ]
+      },
+      "es": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — cuidado perfumado · Teranova",
+        "seoDesc": "DUFT&DOFT es la marca insignia del grupo DREAMCOS: cuidado perfumado de manos, cuerpo y cabello. Cremas de manos, brumas, lociones, geles de ducha y champús, hasta 7 aromas por referencia. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Cuidado perfumado de manos, cuerpo y cabello",
+        "about": [
+          "DUFT&DOFT es la marca insignia del grupo cosmético DREAMCOS, construida sobre un desarrollo perfumístico propio: aquí el aroma forma parte del producto tanto como la fórmula de cuidado. La marca se reconoce sobre todo por sus cremas de manos perfumadas y, según datos de la empresa, tiene amplia presencia en la venta minorista coreana, incluida la cadena Olive Young.",
+          "La línea cubre el ritual completo: cremas de manos de 50 ml en dos versiones, brumas para el cuerpo y para el cabello, lociones y geles de ducha, gel de spa, exfoliante y bruma de peeling, champú, acondicionador y tónico capilar con cafeína. La mayoría de las referencias se ofrece en 3 a 7 aromas, algo cómodo para montar lineal en droguería, retail de belleza y marketplaces. Suministro mayorista desde Corea; las condiciones y los territorios se concretan en la etapa de la operación."
+        ],
+        "itemNotes": [
+          "Crema de manos perfumada de la marca insignia del grupo DUFT&DOFT; 6 fragancias a elegir.",
+          "Crema de manos perfumada que refuerza la barrera hídrica de la piel; 6 fragancias.",
+          "Bruma corporal perfumada; 7 fragancias a elegir.",
+          "Bruma aromática para cabello y cuerpo de la línea Fine Fragrance; 4 fragancias.",
+          "Loción corporal perfumada; 5 fragancias a elegir.",
+          "Gel de ducha perfumado; 4 fragancias a elegir.",
+          "Gel de ducha spa relajante; 3 fragancias a elegir.",
+          "Exfoliante corporal perfumado de la línea Signature; 4 fragancias.",
+          "Bruma-peeling corporal perfumada con aroma Apple Sophy.",
+          "Champú perfumado para el cabello de la línea Enriched Perfume.",
+          "Acondicionador perfumado para el cabello con aroma Sophy Sophy.",
+          "Tónico perfumado para el cuero cabelludo con cafeína de la línea Signature."
+        ]
+      },
+      "pt": {
+        "seoTitle": "DUFT&DOFT (DREAMCOS) — perfumaria e cuidado · Teranova",
+        "seoDesc": "DUFT&DOFT é a marca principal do grupo DREAMCOS: cuidado perfumado para mãos, corpo e cabelos. Cremes para as mãos, brumas, loções, sabonetes líquidos e xampus, com até 7 fragrâncias por item. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Cuidado perfumado para mãos, corpo e cabelos",
+        "about": [
+          "DUFT&DOFT é a marca principal do grupo cosmético DREAMCOS, apoiada em desenvolvimento perfumístico próprio: aqui a fragrância é parte do produto tanto quanto a fórmula de cuidado. A marca ficou conhecida sobretudo pelos cremes perfumados para as mãos e, segundo dados da empresa, tem presença ampla no varejo coreano, inclusive na rede Olive Young.",
+          "A linha percorre o ritual inteiro: cremes para as mãos de 50 ml em duas versões, brumas corporais e capilares, loções e sabonetes líquidos, gel de spa, esfoliante e bruma de peeling, xampu, condicionador e tônico para o couro cabeludo com cafeína. A maioria dos itens sai em 3 a 7 fragrâncias, o que facilita montar prateleira em drogaria, varejo de beleza e marketplaces. Fornecimento por atacado da Coreia; condições e territórios são definidos na etapa da negociação."
+        ],
+        "itemNotes": [
+          "Creme de mãos perfumado da marca principal do grupo DUFT&DOFT; 6 fragrâncias à escolha.",
+          "Creme de mãos perfumado que reforça a barreira hídrica da pele; 6 fragrâncias.",
+          "Bruma corporal perfumada; 7 fragrâncias à escolha.",
+          "Bruma aromática para cabelo e corpo da linha Fine Fragrance; 4 fragrâncias.",
+          "Loção corporal perfumada; 5 fragrâncias à escolha.",
+          "Gel de banho perfumado; 4 fragrâncias à escolha.",
+          "Gel de banho spa relaxante; 3 fragrâncias à escolha.",
+          "Esfoliante corporal perfumado da linha Signature; 4 fragrâncias.",
+          "Bruma-peeling corporal perfumada com aroma Apple Sophy.",
+          "Champô perfumado para o cabelo da linha Enriched Perfume.",
+          "Condicionador perfumado para o cabelo com aroma Sophy Sophy.",
+          "Tónico perfumado para o couro cabeludo com cafeína da linha Signature."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "rudia",
+    "supplierSlug": "dreamcos",
+    "category": "cosmetics",
+    "lineName": "RUDIA",
+    "items": [
+      {
+        "name": "RUDIA Very Berry Radiance Glutathione Serum",
+        "img": "/img/suppliers/dreamcos/products/rudia-glutathione-serum.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "RUDIA Bakuchiol Repair Serum",
+        "img": "/img/suppliers/dreamcos/products/rudia-bakuchiol-repair-serum.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "RUDIA Pore Care Purifying Serum",
+        "img": "/img/suppliers/dreamcos/products/rudia-pore-care-serum.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "RUDIA Crown Panthenol Nutrition Cream",
+        "img": "/img/suppliers/dreamcos/products/rudia-crown-panthenol-cream.jpg",
+        "certs": []
+      },
+      {
+        "name": "RUDIA Crown Carrot Day Vitamin Ampoule",
+        "img": "/img/suppliers/dreamcos/products/rudia-crown-carrot-vitamin-ampoule.jpg",
+        "volume": "30 ml",
+        "certs": []
+      },
+      {
+        "name": "RUDIA Crown Master Benone Ampoule",
+        "img": "/img/suppliers/dreamcos/products/rudia-crown-master-benone-ampoule.jpg",
+        "volume": "30 ml",
+        "certs": []
+      },
+      {
+        "name": "RUDIA Crown Collagen EGF Recovery Ampoule",
+        "img": "/img/suppliers/dreamcos/products/rudia-crown-collagen-egf-ampoule.jpg",
+        "volume": "30 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "Signature perfumed hand cream from the group's flagship DUFT&DOFT brand; 6 scents to choose from.",
-     "Perfumed hand cream that reinforces the skin's water barrier; 6 scents.",
-     "Perfumed body mist; 7 scents to choose from.",
-     "Fine Fragrance hair and body mist; 4 scents.",
-     "Perfumed body lotion; 5 scents to choose from.",
-     "Perfumed body wash; 4 scents to choose from.",
-     "Relaxing spa body wash; 3 scents to choose from.",
-     "Signature perfumed body scrub; 4 scents.",
-     "Perfumed body peeling mist in Apple Sophy scent.",
-     "Perfumed hair shampoo from the Enriched Perfume line.",
-     "Perfumed hair conditioner in Sophy Sophy scent.",
-     "Signature perfumed scalp tonic with caffeine."
-    ]
-   },
-   "ko": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — 향기 케어 · Teranova",
-    "seoDesc": "DUFT&DOFT는 DREAMCOS 그룹의 플래그십 브랜드입니다: 핸드, 바디, 헤어를 위한 향기 케어. 핸드크림, 바디·헤어 미스트, 로션, 샤워젤, 스크럽, 샴푸와 컨디셔너를 품목당 최대 7가지 향으로 제공합니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "핸드, 바디, 헤어를 위한 향기 케어",
-    "about": [
-     "DUFT&DOFT는 자체 조향 개발을 기반으로 한 화장품 그룹 DREAMCOS의 플래그십 브랜드입니다. 여기서 향은 케어 처방만큼이나 제품의 중요한 부분입니다. 브랜드는 무엇보다 향기 핸드크림으로 잘 알려져 있으며, 회사 자료 기준 Olive Young 체인을 포함한 한국 리테일에 폭넓게 자리 잡고 있습니다.",
-     "라인은 리추얼 전체를 아우릅니다: 두 가지 버전의 50ml 핸드크림, 바디·헤어 미스트, 로션과 샤워젤, 스파 젤, 스크럽과 필링 미스트, 샴푸와 컨디셔너, 카페인을 담은 두피 토닉. 대부분의 품목이 3~7가지 향으로 제공되어 드러그스토어, 뷰티 리테일, 마켓플레이스의 매대 구성에 편리합니다. 한국에서의 도매 공급이며, 조건과 지역은 거래 단계에서 확정합니다."
+    "i18n": {
+      "ru": {
+        "seoTitle": "RUDIA (DREAMCOS) — сыворотки и ампулы · Teranova",
+        "seoDesc": "RUDIA — бренд функционального ухода группы DREAMCOS с активными формулами: глутатион, бакучиол, пантенол, идебенон, коллаген с EGF. Сыворотки 50 мл и ампулы 30 мл линии Crown. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Активные формулы в сыворотках и ампулах для ухода",
+        "about": [
+          "RUDIA — бренд функционального ухода в портфеле корейской группы DREAMCOS, ориентированный на чувствительную кожу и построенный вокруг узнаваемых активных компонентов: глутатион, ниацинамид и бакучиол. По данным компании, бренд проходит перезапуск в 2026 году с обновлённым ассортиментом сывороток, ампул и кремов.",
+          "Линейка делится на два блока. Сыворотки 50 мл: с глутатионом для сияния и ровного тона, с бакучиолом (растительная альтернатива ретинолу) и для ухода за порами. Линия Crown — ампулы 30 мл с морковью, идебеноном (Benone) и коллагеном с EGF и питательный крем с пантенолом. Набор удобен для бьюти-ретейла, аптечного канала и e-commerce; оптовые поставки из Кореи."
+        ],
+        "itemNotes": [
+          "Сыворотка с глутатионом для сияния и выравнивания тона кожи.",
+          "Восстанавливающая сыворотка с бакучиолом (растительная альтернатива ретинолу).",
+          "Очищающая сыворотка для ухода за порами.",
+          "Питательный крем с пантенолом линии Crown для интенсивного питания кожи.",
+          "Витаминная ампула с морковью линии Crown для сияния кожи.",
+          "Ампула Master Benone линии Crown с идебеноном и коллагеном; по данным компании, работает с пигментацией и следами постакне.",
+          "Восстанавливающая ампула с коллагеном и EGF-комплексом линии Crown."
+        ]
+      },
+      "en": {
+        "seoTitle": "RUDIA (DREAMCOS) — serums and ampoules · Teranova",
+        "seoDesc": "RUDIA is the functional care brand of the DREAMCOS group with active formulas: glutathione, bakuchiol, panthenol, idebenone, EGF collagen. 50 ml serums and 30 ml Crown ampoules. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Active formulas in serums and ampoules for skin care",
+        "about": [
+          "RUDIA is a functional care brand in the portfolio of the Korean group DREAMCOS, aimed at sensitive skin and built around recognizable active ingredients: glutathione, niacinamide and bakuchiol. Per company data, the brand is going through a relaunch in 2026 with an updated assortment of serums, ampoules and creams.",
+          "The range is split into two blocks. Serums of 50 ml: with glutathione for radiance and an even tone, with bakuchiol (a plant-based alternative to retinol) and for pore care. The Crown line comprises 30 ml ampoules with carrot, idebenone (Benone) and collagen with EGF plus a nourishing cream with panthenol. The set suits beauty retail, the pharmacy channel and e-commerce; wholesale supply from Korea."
+        ],
+        "itemNotes": [
+          "Glutathione serum for radiance and a more even skin tone.",
+          "Repairing serum with Bakuchiol, a plant-based alternative to retinol.",
+          "Purifying serum for pore care.",
+          "Nourishing Panthenol cream from the Crown line for intensive skin nourishment.",
+          "Vitamin ampoule with carrot from the Crown line for radiant skin.",
+          "Master Benone ampoule from the Crown line with idebenone and collagen; according to the company, it works on pigmentation and post-acne marks.",
+          "Repairing ampoule with Collagen and an EGF complex from the Crown line."
+        ]
+      },
+      "ko": {
+        "seoTitle": "RUDIA (DREAMCOS) — 세럼과 앰플 · Teranova",
+        "seoDesc": "RUDIA는 DREAMCOS 그룹의 기능성 케어 브랜드로 글루타티온, 바쿠치올, 판테놀, 이데베논, EGF 콜라겐 등 액티브 처방을 담았습니다. 50ml 세럼과 Crown 라인 30ml 앰플로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "세럼과 앰플에 담은 액티브 케어 처방",
+        "about": [
+          "RUDIA는 한국 그룹 DREAMCOS 포트폴리오에 속한 기능성 케어 브랜드로, 민감한 피부를 겨냥하며 글루타티온, 나이아신아마이드, 바쿠치올 등 널리 알려진 활성 성분을 중심으로 구성됩니다. 회사 자료 기준 브랜드는 2026년 세럼, 앰플, 크림 구색을 새롭게 하여 리론칭을 진행하고 있습니다.",
+          "라인은 두 블록으로 나뉩니다. 50ml 세럼: 광채와 균일한 톤을 위한 글루타티온, 바쿠치올(레티놀의 식물성 대안), 모공 케어용. Crown 라인은 당근, 이데베논(Benone), EGF 콜라겐을 담은 30ml 앰플과 판테놀 영양 크림으로 구성됩니다. 뷰티 리테일, 약국 채널, 이커머스에 적합하며 한국에서의 도매 공급으로 진행됩니다."
+        ],
+        "itemNotes": [
+          "피부 광채와 톤 정돈을 위한 Glutathione 세럼.",
+          "레티놀의 식물성 대안인 Bakuchiol이 함유된 리페어 세럼.",
+          "모공 케어를 위한 퓨리파잉 세럼.",
+          "집중 영양을 위한 Crown 라인의 Panthenol 영양 크림.",
+          "피부 광채를 위한 Crown 라인의 당근 비타민 앰플.",
+          "Crown 라인의 Master Benone 앰플. 이데베논과 콜라겐 함유로, 회사에 따르면 색소침착과 여드름 자국 관리에 사용됩니다.",
+          "Crown 라인의 Collagen·EGF 복합 리커버리 앰플."
+        ]
+      },
+      "zh": {
+        "seoTitle": "RUDIA (DREAMCOS) — 精华与安瓶 · Teranova",
+        "seoDesc": "RUDIA 是 DREAMCOS 集团的功能性护理品牌，配方活性成分鲜明：谷胱甘肽、补骨脂酚、泛醇、艾地苯、含 EGF 的胶原蛋白。50 毫升精华与 Crown 线 30 毫升安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "精华与安瓶中的活性配方",
+        "about": [
+          "RUDIA 是韩国 DREAMCOS 集团旗下的功能性护理品牌，面向敏感肌，围绕辨识度高的活性成分构建：谷胱甘肽、烟酰胺与补骨脂酚。据公司资料，品牌将在 2026 年重新启动，并更新精华、安瓶与面霜的产品阵容。",
+          "系列分为两个部分。50 毫升精华：含谷胱甘肽用于光泽与均匀肤色、含补骨脂酚（视黄醇的植物替代成分）、毛孔护理款。Crown 线为 30 毫升安瓶——胡萝卜、艾地苯、含 EGF 的胶原蛋白——以及含泛醇的滋养面霜。这一组合适合美妆零售、药妆渠道与电商；韩国批发供应。"
+        ],
+        "itemNotes": [
+          "含谷胱甘肽的精华液，提亮并均匀肤色。",
+          "含 Bakuchiol（补骨脂酚，视黄醇的植物替代成分）的修护精华液。",
+          "呵护毛孔的净化精华液。",
+          "Crown 系列含泛醇的滋养面霜，深度滋润肌肤。",
+          "Crown 系列含胡萝卜的维生素安瓶，令肌肤焕发光彩。",
+          "Crown 系列的 Master Benone 安瓶，含艾地苯与胶原蛋白；据该公司介绍，针对色素沉着与痘印。",
+          "Crown 系列含胶原蛋白与 EGF 复合成分的修护安瓶。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "RUDIA (DREAMCOS) — 美容液とアンプル · Teranova",
+        "seoDesc": "RUDIA は DREAMCOS グループの機能性ケアブランド：グルタチオン、バクチオール、パンテノール、イデベノン、EGF 配合コラーゲン。50 mL の美容液と Crown ラインの 30 mL アンプル。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "美容液とアンプルのアクティブ処方",
+        "about": [
+          "RUDIA は韓国の DREAMCOS グループのポートフォリオにある機能性ケアブランドで、敏感肌に向け、分かりやすい有効成分——グルタチオン、ナイアシンアミド、バクチオール——を軸に構成されています。会社提供の情報によると、ブランドは 2026 年にリニューアルされ、美容液、アンプル、クリームの品揃えが刷新されます。",
+          "ラインは二つのブロックに分かれます。50 mL の美容液：ツヤと均一な肌色のためのグルタチオン配合、バクチオール配合(レチノールの植物由来の代替成分)、毛穴ケア用。Crown ラインは 30 mL のアンプル——ニンジン、イデベノン、EGF 配合コラーゲン——と、パンテノール配合の栄養クリームです。ビューティー小売、ドラッグストアチャネル、EC に扱いやすい構成で、韓国からの卸売供給となります。"
+        ],
+        "itemNotes": [
+          "グルタチオン配合で肌にツヤを与え、トーンを整える美容液。",
+          "Bakuchiol（バクチオール、レチノールの植物由来代替成分）配合の修復美容液。",
+          "毛穴ケアのための浄化美容液。",
+          "Crown ラインのパンテノール配合栄養クリーム、肌を集中的に保湿。",
+          "Crown ラインのにんじん配合ビタミンアンプル、肌にツヤを与える。",
+          "Crown ラインの Master Benone アンプル。イデベノンとコラーゲン配合で、同社によると色素沈着とニキビ跡にアプローチします。",
+          "Crown ラインのコラーゲンと EGF 複合成分配合の修復アンプル。"
+        ]
+      },
+      "it": {
+        "seoTitle": "RUDIA (DREAMCOS) — sieri e fiale · Teranova",
+        "seoDesc": "RUDIA — brand di cura funzionale del gruppo DREAMCOS con formule attive: glutatione, bakuchiol, pantenolo, idebenone, collagene con EGF. Sieri da 50 ml e fiale da 30 ml della linea Crown. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Formule attive in sieri e fiale per la routine",
+        "about": [
+          "RUDIA è il brand di cura funzionale nel portafoglio del gruppo coreano DREAMCOS, orientato alle pelli sensibili e costruito attorno ad attivi riconoscibili: glutatione, niacinamide e bakuchiol. Secondo i dati dell'azienda, il brand è in fase di rilancio nel 2026 con un assortimento rinnovato di sieri, fiale e creme.",
+          "La linea si divide in due blocchi. Sieri da 50 ml: con glutatione per luminosità e incarnato uniforme, con bakuchiol (alternativa vegetale al retinolo) e per la cura dei pori. La linea Crown comprende fiale da 30 ml con carota, idebenone (Benone) e collagene con EGF e una crema nutriente al pantenolo. L'insieme è comodo per beauty retail, canale farmacia ed e-commerce; forniture all'ingrosso dalla Corea."
+        ],
+        "itemNotes": [
+          "Siero al glutatione per la luminosità e l'uniformità dell'incarnato.",
+          "Siero riparatore al bakuchiol (alternativa vegetale al retinolo).",
+          "Siero purificante per la cura dei pori.",
+          "Crema nutriente al pantenolo della linea Crown per un nutrimento intensivo della pelle.",
+          "Fiala vitaminica alla carota della linea Crown per la luminosità della pelle.",
+          "Fiala Master Benone della linea Crown con idebenone e collagene; secondo l’azienda agisce su iperpigmentazione e segni post-acne.",
+          "Fiala riparatrice con collagene e complesso EGF della linea Crown."
+        ]
+      },
+      "de": {
+        "seoTitle": "RUDIA (DREAMCOS) — Seren und Ampullen · Teranova",
+        "seoDesc": "RUDIA — Marke funktioneller Pflege der Gruppe DREAMCOS mit aktiven Formeln: Glutathion, Bakuchiol, Panthenol, Idebenon, Kollagen mit EGF. Seren 50 ml und Ampullen 30 ml der Linie Crown. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Aktive Formeln in Seren und Ampullen für die Pflege",
+        "about": [
+          "RUDIA ist eine Marke funktioneller Pflege im Portfolio der koreanischen Gruppe DREAMCOS, ausgerichtet auf empfindliche Haut und aufgebaut rund um bekannte aktive Komponenten: Glutathion, Niacinamid und Bakuchiol. Laut Unternehmensangaben durchläuft die Marke 2026 einen Relaunch mit einem erneuerten Sortiment an Seren, Ampullen und Cremes.",
+          "Die Serie gliedert sich in zwei Blöcke. Seren zu 50 ml: mit Glutathion für Strahlkraft und einen ebenmäßigen Teint, mit Bakuchiol (pflanzliche Alternative zu Retinol) und zur Pflege der Poren. Die Linie Crown umfasst Ampullen zu 30 ml mit Karotte, Idebenon (Benone) und Kollagen mit EGF sowie eine nährende Creme mit Panthenol. Das Set eignet sich für Beauty-Retail, den Apothekenkanal und E-Commerce; Großhandelslieferungen aus Korea."
+        ],
+        "itemNotes": [
+          "Serum mit Glutathion für Strahlkraft und einen ebenmäßigen Hautton.",
+          "Regenerierendes Serum mit Bakuchiol (pflanzliche Alternative zu Retinol).",
+          "Klärendes Serum zur Porenpflege.",
+          "Pflegende Creme mit Panthenol der Crown Linie für intensive Hautpflege.",
+          "Vitamin-Ampulle mit Karotte der Crown Linie für strahlende Haut.",
+          "Master-Benone-Ampulle der Crown-Linie mit Idebenon und Kollagen; nach Angaben des Unternehmens gegen Pigmentflecken und Post-Akne-Spuren.",
+          "Regenerierende Ampulle mit Kollagen und EGF-Komplex der Crown Linie."
+        ]
+      },
+      "fr": {
+        "seoTitle": "RUDIA (DREAMCOS) — sérums et ampoules · Teranova",
+        "seoDesc": "RUDIA — marque de soin fonctionnel du groupe DREAMCOS aux formules actives : glutathion, bakuchiol, panthénol, idébénone, collagène avec EGF. Sérums 50 ml et ampoules 30 ml de la ligne Crown. Approvisionnement en gros via Teranova.",
+        "tagline": "Formules actives en sérums et ampoules pour le soin",
+        "about": [
+          "RUDIA est une marque de soin fonctionnel du portefeuille du groupe coréen DREAMCOS, orientée vers les peaux sensibles et construite autour d'actifs reconnaissables : glutathion, niacinamide et bakuchiol. Selon les données de l'entreprise, la marque connaît un relancement en 2026 avec un assortiment renouvelé de sérums, d'ampoules et de crèmes.",
+          "La gamme se divise en deux blocs. Les sérums de 50 ml : au glutathion pour l'éclat et l'uniformité du teint, au bakuchiol (alternative végétale au rétinol) et pour le soin des pores. La ligne Crown réunit des ampoules de 30 ml à la carotte, à l’idébénone (Benone) et au collagène avec EGF ainsi qu'une crème nourrissante au panthénol. Cet ensemble convient au retail beauté, au canal pharmaceutique et à l'e-commerce ; approvisionnement en gros depuis la Corée."
+        ],
+        "itemNotes": [
+          "Sérum au glutathion pour l'éclat et l'uniformité du teint.",
+          "Sérum réparateur au bakuchiol (alternative végétale au rétinol).",
+          "Sérum purifiant pour le soin des pores.",
+          "Crème nourrissante au panthénol de la ligne Crown pour une nutrition intense de la peau.",
+          "Ampoule vitaminée à la carotte de la ligne Crown pour l'éclat de la peau.",
+          "Ampoule Master Benone de la ligne Crown à l’idébénone et au collagène ; selon l’entreprise, elle agit sur la pigmentation et les marques post-acné.",
+          "Ampoule réparatrice au collagène et au complexe EGF de la ligne Crown."
+        ]
+      },
+      "tr": {
+        "seoTitle": "RUDIA (DREAMCOS) — serum ve ampuller · Teranova",
+        "seoDesc": "RUDIA — DREAMCOS grubunun aktif formüllü işlevsel bakım markası: glutatyon, bakuchiol, pantenol, idebenon, EGF içeren kolajen. 50 ml serumlar ve Crown serisinin 30 ml ampulleri. Kore'den toptan tedarik Teranova aracılığıyla.",
+        "tagline": "Serum ve ampullerde aktif bakım formülleri",
+        "about": [
+          "RUDIA, Kore menşeli DREAMCOS grubunun portföyünde yer alan, hassas cilde yönelik ve tanınan aktif bileşenler etrafında kurulu işlevsel bakım markasıdır: glutatyon, niasinamid ve bakuchiol. Şirket verilerine göre marka, yenilenmiş serum, ampul ve krem yelpazesiyle 2026'da yeniden lansmandan geçiyor.",
+          "Seri iki bölüme ayrılır. 50 ml serumlar: ışıltı ve eşit ton için glutatyonlu, bakuchiollü (retinolün bitkisel alternatifi) ve gözenek bakımı için olan. Crown serisi ise havuç, idebenon (Benone) ve EGF içeren kolajenli 30 ml ampuller ile pantenollü besleyici kremden oluşur. Bu set güzellik perakendesi, eczane kanalı ve e-ticaret için elverişlidir; Kore'den toptan tedarik."
+        ],
+        "itemNotes": [
+          "Cilde ışıltı ve ton eşitliği kazandıran glutatyonlu serum.",
+          "Bakuchiol içeren onarıcı serum (retinole bitkisel alternatif).",
+          "Gözenek bakımı için arındırıcı serum.",
+          "Cildi yoğun besleyen Crown serisi pantenollü besleyici krem.",
+          "Cilde ışıltı veren Crown serisi havuçlu vitamin ampulü.",
+          "Crown serisinin Master Benone ampulü; idebenon ve kolajen içerir, şirketin verdiği bilgiye göre pigmentasyon ve akne izlerine yöneliktir.",
+          "Crown serisi kolajen ve EGF kompleksli onarıcı ampul."
+        ]
+      },
+      "es": {
+        "seoTitle": "RUDIA (DREAMCOS) — sérums y ampollas · Teranova",
+        "seoDesc": "RUDIA es la marca de cuidado funcional del grupo DREAMCOS, con fórmulas activas: glutatión, bakuchiol, idebenona y colágeno con EGF. Sérums de 50 ml y ampollas de 30 ml de la línea Crown. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Fórmulas activas en sérums y ampollas de cuidado",
+        "about": [
+          "RUDIA es la marca de cuidado funcional dentro del portafolio del grupo coreano DREAMCOS, orientada a la piel sensible y construida alrededor de activos muy reconocibles: glutatión, niacinamida y bakuchiol. Según datos de la empresa, la marca atraviesa un relanzamiento en 2026 con un surtido renovado de sérums, ampollas y cremas.",
+          "La línea se divide en dos bloques. Sérums de 50 ml: con glutatión para la luminosidad y el tono uniforme, con bakuchiol (alternativa vegetal al retinol) y para el cuidado de los poros. La línea Crown reúne ampollas de 30 ml con zanahoria, idebenona (Benone) y colágeno con EGF, y una crema nutritiva con pantenol. El conjunto encaja en retail de belleza, canal farmacéutico y comercio electrónico; suministro mayorista desde Corea."
+        ],
+        "itemNotes": [
+          "Sérum con glutatión para la luminosidad y la uniformidad del tono de la piel.",
+          "Sérum reparador con bakuchiol (alternativa vegetal al retinol).",
+          "Sérum purificante para el cuidado de los poros.",
+          "Crema nutritiva con pantenol de la línea Crown para una nutrición intensiva de la piel.",
+          "Ampolla vitamínica con zanahoria de la línea Crown para la luminosidad de la piel.",
+          "Ampolla Master Benone de la línea Crown con idebenona y colágeno; según la empresa, actúa sobre la pigmentación y las marcas post-acné.",
+          "Ampolla reparadora con colágeno y complejo EGF de la línea Crown."
+        ]
+      },
+      "pt": {
+        "seoTitle": "RUDIA (DREAMCOS) — séruns e ampolas · Teranova",
+        "seoDesc": "RUDIA é a marca de cuidado funcional do grupo DREAMCOS, com fórmulas ativas: glutationa, bakuchiol, pantenol, idebenona e colágeno com EGF. Séruns de 50 ml e ampolas de 30 ml da linha Crown. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Fórmulas ativas em séruns e ampolas de tratamento",
+        "about": [
+          "A RUDIA é a marca de cuidado funcional no portfólio do grupo coreano DREAMCOS, voltada à pele sensível e organizada em torno de ativos bem conhecidos: glutationa, niacinamida e bakuchiol. Segundo dados da empresa, a marca passa por um relançamento em 2026, com sortimento renovado de séruns, ampolas e cremes.",
+          "A linha se divide em dois blocos. Séruns de 50 ml: com glutationa para viço e tom uniforme, com bakuchiol (alternativa vegetal ao retinol) e para o cuidado dos poros. Já a linha Crown traz ampolas de 30 ml com cenoura, idebenona (Benone) e colagénio com EGF, além de um creme nutritivo com pantenol. O conjunto serve ao varejo de beleza, ao canal farmacêutico e ao e-commerce; fornecimento por atacado da Coreia."
+        ],
+        "itemNotes": [
+          "Sérum com glutationa para a luminosidade e uniformidade do tom da pele.",
+          "Sérum reparador com bakuchiol (alternativa vegetal ao retinol).",
+          "Sérum purificante para o cuidado dos poros.",
+          "Creme nutritivo com pantenol da linha Crown para uma nutrição intensiva da pele.",
+          "Ampola vitamínica com cenoura da linha Crown para a luminosidade da pele.",
+          "Ampola Master Benone da linha Crown com idebenona e colagénio; segundo a empresa, atua na pigmentação e nas marcas pós-acne.",
+          "Ampola reparadora com colágeno e complexo EGF da linha Crown."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "lovelycc",
+    "supplierSlug": "dreamcos",
+    "category": "cosmetics",
+    "lineName": "LOVELYCC",
+    "items": [
+      {
+        "name": "LOVELYCC Pink Cover Essence Sun Cushion SPF50+ PA+++",
+        "img": "/img/suppliers/dreamcos/products/lovelycc-pink-cover-sun-cushion.jpg",
+        "volume": "15 g",
+        "certs": []
+      },
+      {
+        "name": "LOVELYCC Magic Cover Cheat CC Cream SPF50+ PA+++",
+        "img": "/img/suppliers/dreamcos/products/lovelycc-magic-cover-cc-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "LOVELYCC Magic Cover Cheat 9-Color Eyeshadow Palette",
+        "img": "/img/suppliers/dreamcos/products/lovelycc-eyeshadow-palette.jpg",
+        "volume": "9 g",
+        "certs": []
+      },
+      {
+        "name": "LOVELYCC Magic Cover Cheat Concealer",
+        "img": "/img/suppliers/dreamcos/products/lovelycc-magic-cover-concealer.jpg",
+        "volume": "12 g",
+        "certs": []
+      },
+      {
+        "name": "LOVELYCC Sweet Candy Blusher",
+        "img": "/img/suppliers/dreamcos/products/lovelycc-sweet-candy-blusher.jpg",
+        "volume": "4.5 g",
+        "certs": []
+      },
+      {
+        "name": "LOVELYCC Sweet Lip Oil",
+        "img": "/img/suppliers/dreamcos/products/lovelycc-sweet-lip-oil.jpg",
+        "volume": "5 ml",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "그룹 대표 브랜드 DUFT&DOFT의 시그니처 퍼퓸 핸드크림; 6가지 향 선택 가능.",
-     "피부 수분 장벽을 강화하는 퍼퓸 핸드크림; 6가지 향.",
-     "퍼퓸 바디 미스트; 7가지 향 선택 가능.",
-     "Fine Fragrance 라인의 헤어·바디 미스트; 4가지 향.",
-     "퍼퓸 바디 로션; 5가지 향 선택 가능.",
-     "퍼퓸 바디 워시; 4가지 향 선택 가능.",
-     "릴렉싱 스파 바디 워시; 3가지 향 선택 가능.",
-     "Signature 라인의 퍼퓸 바디 스크럽; 4가지 향.",
-     "Apple Sophy 향의 퍼퓸 바디 필링 미스트.",
-     "Enriched Perfume 라인의 퍼퓸 헤어 샴푸.",
-     "Sophy Sophy 향의 퍼퓸 헤어 컨디셔너.",
-     "카페인이 함유된 Signature 라인의 퍼퓸 두피 토너."
-    ]
-   },
-   "zh": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — 香氛护理 · Teranova",
-    "seoDesc": "DUFT&DOFT 是 DREAMCOS 集团的旗舰品牌：手部、身体与头发的香氛护理。护手霜、喷雾、身体乳、沐浴露、磨砂与洗发水，单品最多 7 种香型。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "手部、身体与头发的香氛护理",
-    "about": [
-     "DUFT&DOFT 是化妆品集团 DREAMCOS 的旗舰品牌，建立在自有的香水研发之上：在这里，香气与护理配方同样是产品的一部分。品牌最为人熟知的是香氛护手霜；据公司资料，它在韩国零售渠道有广泛铺货，包括 Olive Young 连锁。",
-     "系列覆盖完整的仪式：两种规格的 50 毫升护手霜、身体喷雾与头发喷雾、身体乳与沐浴露、水疗凝胶、磨砂与去角质喷雾、洗发水、护发素，以及含咖啡因的头皮水。多数品项提供 3–7 种香型，便于在日化店、美妆零售与电商平台上组货架。韩国批发供应，条件与区域在交易阶段确定。"
+    "i18n": {
+      "ru": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — макияж и солнцезащита · Teranova",
+        "seoDesc": "LOVELYCC — бренд декоративной косметики группы DREAMCOS для молодой аудитории: солнцезащитный кушон и CC-крем SPF50+ PA+++, палетка теней на 9 оттенков, консилер, румяна, масло для губ. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Доступный макияж и солнцезащита для молодой аудитории",
+        "about": [
+          "LOVELYCC — флагманский собственный бренд группы DREAMCOS в сегменте доступной декоративной косметики. Ставка сделана на молодую аудиторию и понятный набор базовых средств: покрытие и солнцезащита в одном продукте, простое нанесение, компактные форматы. Узнаваемое ядро бренда — линия Magic Cover Cheat.",
+          "В линейке шесть позиций: солнцезащитный кушон с эссенцией и эффектом тон-ап SPF50+ PA+++ (15 г), CC-крем SPF50+ PA+++ (50 мл), палетка теней на 9 оттенков, консилер, румяна Sweet Candy и ухаживающее масло для губ в трёх оттенках. Ценовой сегмент и форматы рассчитаны на маркетплейсы, дрогери-сети и мультибрендовую розницу; оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
+        ],
+        "itemNotes": [
+          "Солнцезащитный кушон с эссенцией и эффектом тон-ап, SPF50+ PA+++.",
+          "CC-крем с покрытием и солнцезащитой SPF50+ PA+++.",
+          "Палетка теней для век на 9 оттенков.",
+          "Консилер для маскировки несовершенств.",
+          "Компактные румяна Sweet Candy.",
+          "Ухаживающее масло для губ; 3 оттенка на выбор."
+        ]
+      },
+      "en": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — make-up and sun care · Teranova",
+        "seoDesc": "LOVELYCC is the colour cosmetics brand of the DREAMCOS group for a young audience: an SPF50+ PA+++ sun cushion and CC cream, a 9-shade eyeshadow palette, a concealer, blush and a lip oil. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Affordable make-up and sun care for a young audience",
+        "about": [
+          "LOVELYCC is the flagship own brand of the DREAMCOS group in the affordable colour cosmetics segment. The focus is on a young audience and a clear set of basics: coverage and sun protection in one product, simple application, compact formats. The recognizable core of the brand is the Magic Cover Cheat line.",
+          "The range has six items: a sun cushion with essence and a tone-up effect, SPF50+ PA+++ (15 g), a CC cream SPF50+ PA+++ (50 ml), a 9-shade eyeshadow palette, a concealer, Sweet Candy blush and a caring lip oil in three shades. The price segment and formats are designed for marketplaces, drugstore chains and multi-brand retail; wholesale supply from Korea, with terms and territories agreed at the deal stage."
+        ],
+        "itemNotes": [
+          "Sun cushion with essence and a tone-up effect, SPF50+ PA+++.",
+          "CC cream with coverage and sun protection, SPF50+ PA+++.",
+          "9-color eyeshadow palette.",
+          "Concealer for covering imperfections.",
+          "Sweet Candy compact blusher.",
+          "Nourishing lip oil; 3 shades to choose from."
+        ]
+      },
+      "ko": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — 메이크업과 선케어 · Teranova",
+        "seoDesc": "LOVELYCC는 젊은 소비자를 위한 DREAMCOS 그룹의 색조 화장품 브랜드입니다: SPF50+ PA+++ 선쿠션과 CC 크림, 9색 아이섀도 팔레트, 컨실러, Sweet Candy 블러셔, 케어 립 오일. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "젊은 소비자를 위한 합리적인 메이크업과 선케어",
+        "about": [
+          "LOVELYCC는 합리적인 가격대의 색조 화장품 세그먼트에서 DREAMCOS 그룹이 내세우는 플래그십 자체 브랜드입니다. 젊은 소비자와 알기 쉬운 기본 아이템 구성에 초점을 맞췄습니다: 커버와 자외선 차단을 한 제품에, 간편한 발림, 컴팩트한 포맷. 브랜드의 상징적인 축은 Magic Cover Cheat 라인입니다.",
+          "라인은 여섯 품목으로 구성됩니다: 에센스와 톤업 효과를 담은 선쿠션 SPF50+ PA+++ (15g), CC 크림 SPF50+ PA+++ (50ml), 9색 아이섀도 팔레트, 컨실러, Sweet Candy 블러셔, 세 가지 컬러의 케어 립 오일. 가격대와 포맷은 마켓플레이스, 드러그스토어 체인, 멀티브랜드 리테일을 겨냥하며, 한국에서의 도매 공급으로 조건과 지역은 거래 단계에서 확정합니다."
+        ],
+        "itemNotes": [
+          "에센스와 톤업 효과의 선 쿠션, SPF50+ PA+++.",
+          "커버력과 자외선 차단을 겸한 CC 크림, SPF50+ PA+++.",
+          "9색 아이섀도 팔레트.",
+          "결점을 커버하는 컨실러.",
+          "Sweet Candy 컴팩트 블러셔.",
+          "케어 립 오일; 3가지 색상 선택 가능."
+        ]
+      },
+      "zh": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — 彩妆与防晒 · Teranova",
+        "seoDesc": "LOVELYCC 是 DREAMCOS 集团面向年轻消费者的彩妆品牌：SPF50+ PA+++ 防晒气垫与 CC 霜、9 色眼影盘、遮瑕、腮红、唇部精华油。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "面向年轻消费者的平价彩妆与防晒",
+        "about": [
+          "LOVELYCC 是 DREAMCOS 集团在平价彩妆领域的旗舰自有品牌。重点放在年轻消费者与一套清晰的基础单品上：遮瑕与防晒合于一体、上妆简单、规格轻巧。品牌最具辨识度的核心是 Magic Cover Cheat 系列。",
+          "系列共六个品项：含精华、带提亮效果的 SPF50+ PA+++ 防晒气垫（15 克）、SPF50+ PA+++ CC 霜（50 毫升）、9 色眼影盘、遮瑕、Sweet Candy 腮红，以及三个色号的唇部护理油。价格带与规格面向电商平台、日化连锁与多品牌零售；韩国批发供应，条件与区域在交易阶段确定。"
+        ],
+        "itemNotes": [
+          "带精华与提亮效果的防晒气垫，SPF50+ PA+++。",
+          "具遮瑕与防晒功效的 CC 霜，SPF50+ PA+++。",
+          "9 色眼影盘。",
+          "遮盖瑕疵的遮瑕膏。",
+          "Sweet Candy 系列粉饼腮红。",
+          "润养唇部的唇油，3 种色号可选。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — メイクと日焼け止め · Teranova",
+        "seoDesc": "LOVELYCC は DREAMCOS グループの若年層向けメイクアップブランド：SPF50+ PA+++ の日焼け止めクッションと CC クリーム、9色アイシャドウパレット、コンシーラー、チーク、リップオイル。韓国からの卸売供給、Teranova による取引サポート。",
+        "tagline": "若い世代に向けた手に取りやすいメイクと日焼け止め",
+        "about": [
+          "LOVELYCC は、手に取りやすい価格帯のメイクアップ分野における DREAMCOS グループの旗艦プライベートブランドです。若い世代と、分かりやすいベーシックアイテムの構成に軸足を置いています：カバーと日焼け止めが一つになった製品、簡単なつけ心地、コンパクトなサイズ。ブランドの中核として知られるのが Magic Cover Cheat ラインです。",
+          "ラインは6品目です：エッセンス入りでトーンアップ効果のある SPF50+ PA+++ 日焼け止めクッション(15 g)、SPF50+ PA+++ の CC クリーム(50 mL)、9色のアイシャドウパレット、コンシーラー、Sweet Candy チーク、3色展開のリップケアオイル。価格帯とフォーマットはマーケットプレイス、ドラッグストアチェーン、マルチブランド小売を想定しています。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
+        ],
+        "itemNotes": [
+          "エッセンスとトーンアップ効果を備えたサンクッション、SPF50+ PA+++。",
+          "カバー力と紫外線防止機能を備えた CC クリーム、SPF50+ PA+++。",
+          "9 色アイシャドウパレット。",
+          "肌の欠点をカバーするコンシーラー。",
+          "Sweet Candy のコンパクトチーク。",
+          "唇をケアするリップオイル、3 色から選択可能。"
+        ]
+      },
+      "it": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — make-up e SPF · Teranova",
+        "seoDesc": "LOVELYCC — brand di make-up del gruppo DREAMCOS per un pubblico giovane: cushion solare e CC cream SPF50+ PA+++, palette da 9 ombretti, correttore, blush e olio labbra. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Make-up accessibile e protezione solare per un pubblico giovane",
+        "about": [
+          "LOVELYCC è il principale brand proprietario del gruppo DREAMCOS nel segmento del make-up accessibile. La scommessa è su un pubblico giovane e su un set essenziale e comprensibile: coprenza e protezione solare in un unico prodotto, applicazione semplice, formati compatti. Il nucleo riconoscibile del brand è la linea Magic Cover Cheat.",
+          "La linea conta sei referenze: cushion solare con essenza ed effetto tone-up SPF50+ PA+++ (15 g), CC cream SPF50+ PA+++ (50 ml), palette da 9 ombretti, correttore, blush Sweet Candy e olio labbra trattante in tre tonalità. Fascia di prezzo e formati sono pensati per marketplace, catene drugstore e retail multimarca; forniture all'ingrosso dalla Corea, condizioni e territori si definiscono in fase di trattativa."
+        ],
+        "itemNotes": [
+          "Cushion solare con essenza ed effetto tone-up, SPF50+ PA+++.",
+          "CC cream coprente con protezione solare SPF50+ PA+++.",
+          "Palette di ombretti in 9 tonalità.",
+          "Correttore per mascherare le imperfezioni.",
+          "Blush compatto Sweet Candy.",
+          "Olio labbra nutriente; 3 tonalità a scelta."
+        ]
+      },
+      "de": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — Make-up & Sonnenschutz · Teranova",
+        "seoDesc": "LOVELYCC — Marke dekorativer Kosmetik der Gruppe DREAMCOS für ein junges Publikum: Sonnenschutz-Cushion und CC-Creme SPF50+ PA+++, Lidschattenpalette mit 9 Tönen, Concealer, Rouge, Lippenöl. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Erschwingliches Make-up und Sonnenschutz für junges Publikum",
+        "about": [
+          "LOVELYCC ist die Flaggschiff-Eigenmarke der Gruppe DREAMCOS im Segment erschwinglicher dekorativer Kosmetik. Der Fokus liegt auf einem jungen Publikum und einem verständlichen Set an Basisprodukten: Abdeckung und Sonnenschutz in einem Produkt, einfaches Auftragen, kompakte Formate. Der bekannte Kern der Marke ist die Linie Magic Cover Cheat.",
+          "Die Serie umfasst sechs Positionen: ein Sonnenschutz-Cushion mit Essenz und Tone-up-Effekt SPF50+ PA+++ (15 g), eine CC-Creme SPF50+ PA+++ (50 ml), eine Lidschattenpalette mit 9 Tönen, einen Concealer, das Rouge Sweet Candy und ein pflegendes Lippenöl in drei Tönen. Preissegment und Formate sind auf Marktplätze, Drogerieketten und den Multibrand-Einzelhandel ausgelegt; Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
+        ],
+        "itemNotes": [
+          "Sonnenschutz-Cushion mit Essenz und Tone-up-Effekt, SPF50+ PA+++.",
+          "Deckende CC-Creme mit Sonnenschutz SPF50+ PA+++.",
+          "Lidschatten-Palette mit 9 Farbtönen.",
+          "Concealer zum Kaschieren von Unreinheiten.",
+          "Kompakt-Rouge Sweet Candy.",
+          "Pflegendes Lippenöl; 3 Farbtöne zur Auswahl."
+        ]
+      },
+      "fr": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — maquillage et solaires · Teranova",
+        "seoDesc": "LOVELYCC — marque de maquillage du groupe DREAMCOS pour un public jeune : cushion solaire et crème CC SPF50+ PA+++, palette de 9 fards à paupières, correcteur, blush, huile à lèvres. Approvisionnement en gros via Teranova.",
+        "tagline": "Maquillage accessible et solaires pour un public jeune",
+        "about": [
+          "LOVELYCC est la marque propre phare du groupe DREAMCOS dans le segment du maquillage accessible. L'accent est mis sur un public jeune et sur un ensemble lisible de produits de base : couvrance et protection solaire dans un seul produit, application simple, formats compacts. Le cœur reconnaissable de la marque est la ligne Magic Cover Cheat.",
+          "La gamme compte six références : un cushion solaire à l'essence et à effet tone-up SPF50+ PA+++ (15 g), une crème CC SPF50+ PA+++ (50 ml), une palette de 9 fards à paupières, un correcteur, le blush Sweet Candy et une huile à lèvres soin en trois teintes. Le segment de prix et les formats visent les marketplaces, les chaînes de drogueries et le retail multimarque ; approvisionnement en gros depuis la Corée, conditions et territoires se précisent au moment de la transaction."
+        ],
+        "itemNotes": [
+          "Coussin solaire à l'essence effet tone-up, SPF50+ PA+++.",
+          "CC crème couvrante avec protection solaire SPF50+ PA+++.",
+          "Palette de fards à paupières 9 teintes.",
+          "Correcteur pour camoufler les imperfections.",
+          "Blush compact Sweet Candy.",
+          "Huile à lèvres soin ; 3 teintes au choix."
+        ]
+      },
+      "tr": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — makyaj ve güneş · Teranova",
+        "seoDesc": "LOVELYCC — DREAMCOS grubunun genç kitleye yönelik makyaj markası: SPF50+ PA+++ güneş korumalı cushion ve CC krem, 9 tonluk far paleti, kapatıcı, allık, dudak yağı. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Genç kitle için uygun fiyatlı makyaj ve güneş koruması",
+        "about": [
+          "LOVELYCC, DREAMCOS grubunun uygun fiyatlı makyaj segmentindeki amiral kendi markasıdır. Odak genç kitlede ve anlaşılır bir temel ürün setinde: tek üründe kapatıcılık ve güneş koruması, kolay uygulama, kompakt formatlar. Markanın tanınan çekirdeği Magic Cover Cheat serisidir.",
+          "Seride altı ürün yer alır: esanslı ve ton açıcı etkili SPF50+ PA+++ güneş korumalı cushion (15 g), SPF50+ PA+++ CC krem (50 ml), 9 tonluk far paleti, kapatıcı, Sweet Candy allık ve üç tonda bakım yapan dudak yağı. Fiyat segmenti ve formatlar pazar yerleri, drogeri zincirleri ve çok markalı perakende için tasarlanmıştır; Kore'den toptan tedarik, koşullar ve bölgeler işlem aşamasında netleşir."
+        ],
+        "itemNotes": [
+          "Ton açıcı etkili esanslı güneş koruyucu cushion, SPF50+ PA+++.",
+          "Kapatıcılık sağlayan güneş korumalı CC krem, SPF50+ PA+++.",
+          "9 tonluk göz farı paleti.",
+          "Kusurları kapatan konsiler.",
+          "Sweet Candy kompakt allık.",
+          "Bakım sağlayan dudak yağı; 3 ton seçeneği."
+        ]
+      },
+      "es": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — maquillaje y SPF · Teranova",
+        "seoDesc": "LOVELYCC es la marca de maquillaje del grupo DREAMCOS para público joven: cushion solar y CC cream SPF50+ PA+++, paleta de 9 sombras, corrector, colorete y aceite labial. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Maquillaje asequible y protección solar para público joven",
+        "about": [
+          "LOVELYCC es la marca propia insignia del grupo DREAMCOS en el segmento del maquillaje asequible. La apuesta va dirigida al público joven y a un conjunto claro de básicos: cobertura y protección solar en un mismo producto, aplicación sencilla y formatos compactos. El núcleo reconocible de la marca es la línea Magic Cover Cheat.",
+          "La línea reúne seis referencias: cushion solar con esencia y efecto tone-up SPF50+ PA+++ (15 g), CC cream SPF50+ PA+++ (50 ml), paleta de 9 sombras, corrector, colorete Sweet Candy y aceite labial de cuidado en tres tonos. El segmento de precio y los formatos apuntan a marketplaces, cadenas de droguería y retail multimarca; suministro mayorista desde Corea, con condiciones y territorios que se concretan en la etapa de la operación."
+        ],
+        "itemNotes": [
+          "Cushion solar con esencia y efecto tono-up, SPF50+ PA+++.",
+          "CC cream con cobertura y protección solar SPF50+ PA+++.",
+          "Paleta de sombras de ojos de 9 tonos.",
+          "Corrector para disimular las imperfecciones.",
+          "Colorete compacto Sweet Candy.",
+          "Aceite labial nutritivo; 3 tonos a elegir."
+        ]
+      },
+      "pt": {
+        "seoTitle": "LOVELYCC (DREAMCOS) — maquiagem e solar · Teranova",
+        "seoDesc": "LOVELYCC é a marca de maquiagem do grupo DREAMCOS para o público jovem: cushion solar e CC cream SPF50+ PA+++, paleta com 9 sombras, corretivo, blush e óleo labial. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Maquiagem acessível e proteção solar para o público jovem",
+        "about": [
+          "A LOVELYCC é a marca própria de maior destaque do grupo DREAMCOS no segmento de maquiagem acessível. A aposta está no público jovem e num conjunto direto de itens básicos: cobertura e proteção solar num produto só, aplicação simples e formatos compactos. O núcleo mais reconhecido da marca é a linha Magic Cover Cheat.",
+          "São seis itens na linha: cushion solar com essência e efeito tone-up SPF50+ PA+++ (15 g), CC cream SPF50+ PA+++ (50 ml), paleta com 9 sombras, corretivo, blush Sweet Candy e óleo labial de tratamento em três tons. A faixa de preço e os formatos miram marketplaces, redes de drogaria e varejo multimarca; fornecimento por atacado da Coreia, com condições e territórios definidos na etapa da negociação."
+        ],
+        "itemNotes": [
+          "Cushion solar com essência e efeito tone-up, SPF50+ PA+++.",
+          "CC cream com cobertura e proteção solar SPF50+ PA+++.",
+          "Paleta de sombras para os olhos de 9 tons.",
+          "Corretor para disfarçar as imperfeições.",
+          "Blush compacto Sweet Candy.",
+          "Óleo labial nutritivo; 3 tons à escolha."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "ladybiz",
+    "supplierSlug": "dreamcos",
+    "category": "cosmetics",
+    "lineName": "LADYBIZ",
+    "items": [
+      {
+        "name": "LADYBIZ City Girl Concealer Cushion SPF50+ PA+++",
+        "img": "/img/suppliers/dreamcos/products/ladybiz-concealer-cushion.jpg",
+        "volume": "12 g",
+        "certs": []
+      },
+      {
+        "name": "LADYBIZ City Girl Tone-Up One-Touch PDRN Sunscreen SPF50+ PA++++",
+        "img": "/img/suppliers/dreamcos/products/ladybiz-pdrn-sunscreen.jpg",
+        "volume": "45 ml",
+        "certs": []
+      },
+      {
+        "name": "LADYBIZ City Girl Glossy Tint",
+        "img": "/img/suppliers/dreamcos/products/ladybiz-glossy-tint.jpg",
+        "volume": "1.8 g",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "集团旗舰品牌 DUFT&DOFT 的香氛护手霜，6 种香型可选。",
-     "强化肌肤水分屏障的香氛护手霜，6 种香型可选。",
-     "身体香氛喷雾，7 种香型可选。",
-     "Fine Fragrance 系列的发丝与身体香氛喷雾，4 种香型。",
-     "香氛身体乳，5 种香型可选。",
-     "香氛沐浴露，4 种香型可选。",
-     "舒缓 SPA 沐浴露，3 种香型可选。",
-     "Signature 系列香氛身体磨砂膏，4 种香型。",
-     "Apple Sophy 香型的香氛身体去角质喷雾。",
-     "Enriched Perfume 系列香氛洗发水。",
-     "Sophy Sophy 香型的香氛护发素。",
-     "Signature 系列含咖啡因的香氛头皮护理液。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — 香りのケア · Teranova",
-    "seoDesc": "DUFT&DOFT は DREAMCOS グループの旗艦ブランド：ハンド、ボディ、ヘアの香りのケア。ハンドクリーム、ミスト、ローション、ボディウォッシュ、スクラブ、シャンプーを揃え、1品目あたり最大7種の香り。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "ハンド・ボディ・ヘアの香りのケア",
-    "about": [
-     "DUFT&DOFT は化粧品グループ DREAMCOS の旗艦ブランドで、自社の調香開発を土台にしています：ここでは香りも、ケアの処方と同じく製品の一部です。ブランドはとりわけ香りのハンドクリームで知られ、会社提供の情報によると、Olive Young チェーンを含む韓国の小売で広く扱われています。",
-     "ラインは一連のリチュアル全体をカバーします：2種類の 50 mL ハンドクリーム、ボディミストとヘアミスト、ローションとボディウォッシュ、スパジェル、スクラブとピーリングミスト、シャンプー、コンディショナー、カフェイン配合のスカルプトナー。多くの品目は3〜7種の香りで展開され、ドラッグストア、ビューティー小売、マーケットプレイスでの棚づくりに向いています。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
+    "i18n": {
+      "ru": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — макияж City Girl · Teranova",
+        "seoDesc": "LADYBIZ — бренд декоративной косметики группы DREAMCOS: компактная линия City Girl из кушона-консилера SPF50+ PA+++, крема с эффектом тон-ап и PDRN SPF50+ PA++++ и глянцевого тинта. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
+        "tagline": "Стильный и практичный макияж на каждый день",
+        "about": [
+          "LADYBIZ — бренд декоративной косметики в портфеле корейской группы DREAMCOS. Идея бренда — стильный и практичный макияж на каждый день: лип-тинты, тени и кушон-консилеры без лишних шагов. Актуальная линия City Girl выдержана в городской повседневной эстетике и собрана из компактных многофункциональных средств.",
+          "Линия City Girl включает три позиции: кушон-консилер SPF50+ PA+++ (12 г), солнцезащитный крем с эффектом тон-ап и PDRN SPF50+ PA++++ (45 мл) и глянцевый тинт для губ (1,8 г). Короткий набор удобен как пробный завоз для бьюти-ретейла, маркетплейсов и дрогери-сетей: солнцезащита плюс два ходовых макияжных формата. Оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
+        ],
+        "itemNotes": [
+          "Кушон-консилер с солнцезащитой SPF50+ PA+++ линии City Girl.",
+          "Солнцезащитный крем с эффектом тон-ап и PDRN, SPF50+ PA++++.",
+          "Глянцевый тинт для губ линии City Girl."
+        ]
+      },
+      "en": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — City Girl make-up · Teranova",
+        "seoDesc": "LADYBIZ is the colour cosmetics brand of the DREAMCOS group: the compact City Girl line of an SPF50+ PA+++ cushion concealer, a tone-up cream with PDRN SPF50+ PA++++ and a glossy tint. Wholesale supply from Korea and deal support through Teranova.",
+        "tagline": "Stylish and practical make-up for every day",
+        "about": [
+          "LADYBIZ is a colour cosmetics brand in the portfolio of the Korean group DREAMCOS. The brand idea is stylish and practical make-up for every day: lip tints, eyeshadows and cushion concealers with no extra steps. The current City Girl line is kept in an urban everyday aesthetic and is assembled from compact multifunctional products.",
+          "The City Girl line includes three items: a cushion concealer SPF50+ PA+++ (12 g), a tone-up sun cream with PDRN SPF50+ PA++++ (45 ml) and a glossy lip tint (1.8 g). The short set is convenient as a trial shipment for beauty retail, marketplaces and drugstore chains: sun protection plus two fast-moving make-up formats. Wholesale supply from Korea; terms and territories are agreed at the deal stage."
+        ],
+        "itemNotes": [
+          "City Girl concealer cushion with sun protection, SPF50+ PA+++.",
+          "Tone-up sunscreen with PDRN, SPF50+ PA++++.",
+          "City Girl glossy lip tint."
+        ]
+      },
+      "ko": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — City Girl 메이크업 · Teranova",
+        "seoDesc": "LADYBIZ는 DREAMCOS 그룹의 색조 화장품 브랜드입니다: SPF50+ PA+++ 쿠션 컨실러, PDRN을 담은 SPF50+ PA++++ 톤업 크림, 글로시 틴트로 구성된 컴팩트한 City Girl 라인. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
+        "tagline": "매일을 위한 세련되고 실용적인 메이크업",
+        "about": [
+          "LADYBIZ는 한국 그룹 DREAMCOS 포트폴리오에 속한 색조 화장품 브랜드입니다. 브랜드의 아이디어는 매일을 위한 세련되고 실용적인 메이크업입니다: 군더더기 단계 없는 립 틴트, 아이섀도, 쿠션 컨실러. 현재의 City Girl 라인은 도시적인 데일리 감성으로 컴팩트한 다기능 제품들로 구성되었습니다.",
+          "City Girl 라인은 세 품목으로 구성됩니다: 쿠션 컨실러 SPF50+ PA+++ (12g), PDRN을 담은 톤업 선크림 SPF50+ PA++++ (45ml), 글로시 립 틴트 (1.8g). 짧은 구성은 뷰티 리테일, 마켓플레이스, 드러그스토어 체인의 시험 입고에 편리합니다: 선케어에 잘 나가는 메이크업 포맷 두 가지. 한국에서의 도매 공급이며, 조건과 지역은 거래 단계에서 확정합니다."
+        ],
+        "itemNotes": [
+          "자외선 차단 기능의 City Girl 컨실러 쿠션, SPF50+ PA+++.",
+          "PDRN 함유 톤업 선크림, SPF50+ PA++++.",
+          "City Girl 글로시 립 틴트."
+        ]
+      },
+      "zh": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — City Girl 彩妆 · Teranova",
+        "seoDesc": "LADYBIZ 是 DREAMCOS 集团的彩妆品牌：精简的 City Girl 系列，包含 SPF50+ PA+++ 气垫遮瑕、含 PDRN 的 SPF50+ PA++++ 提亮防晒霜与水光唇釉。韩国批发供应，通过 Teranova 提供交易支持。",
+        "tagline": "时髦又实用的日常妆容",
+        "about": [
+          "LADYBIZ 是韩国 DREAMCOS 集团旗下的彩妆品牌。品牌的想法是时髦而实用的日常妆容：唇釉、眼影与气垫遮瑕，不做多余的步骤。当前的 City Girl 系列贯彻都市日常美学，由紧凑的多功能单品组成。",
+          "City Girl 系列包含三个品项：SPF50+ PA+++ 气垫遮瑕（12 克）、含 PDRN 的提亮防晒霜 SPF50+ PA++++（45 毫升）与水光唇釉（1,8 克）。这样一个精简组合适合美妆零售、电商平台与日化连锁作为试销引入：防晒加两个走量的彩妆形态。韩国批发供应，条件与区域在交易阶段确定。"
+        ],
+        "itemNotes": [
+          "City Girl 系列带防晒功效的遮瑕气垫，SPF50+ PA+++。",
+          "带提亮效果并含 PDRN 的防晒霜，SPF50+ PA++++。",
+          "City Girl 系列亮泽唇釉。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — City Girl のメイク · Teranova",
+        "seoDesc": "LADYBIZ は DREAMCOS グループのメイクアップブランド：SPF50+ PA+++ のクッションコンシーラー、PDRN 配合 SPF50+ PA++++ のトーンアップクリーム、ツヤ感のあるティントからなるコンパクトな City Girl ライン。韓国からの卸売供給は Teranova を通じて。",
+        "tagline": "スタイリッシュで実用的な毎日のメイク",
+        "about": [
+          "LADYBIZ は、韓国の DREAMCOS グループのポートフォリオにあるメイクアップブランドです。ブランドの発想は、スタイリッシュで実用的な毎日のメイク：リップティント、アイシャドウ、クッションコンシーラーを、余計なステップなしで。現行の City Girl ラインは都会的な日常の美意識でまとめられ、コンパクトで多機能なアイテムで構成されています。",
+          "City Girl ラインは3品目です：SPF50+ PA+++ のクッションコンシーラー(12 g)、PDRN 配合のトーンアップ日焼け止めクリーム SPF50+ PA++++(45 mL)、ツヤ感のあるリップティント(1,8 g)。短い構成は、ビューティー小売、マーケットプレイス、ドラッグストアチェーンへのテスト導入に向いています：日焼け止めと、動きの速いメイクの2形態。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
+        ],
+        "itemNotes": [
+          "City Girl ラインの紫外線防止機能付きクッションコンシーラー、SPF50+ PA+++。",
+          "トーンアップ効果と PDRN 配合の日焼け止めクリーム、SPF50+ PA++++。",
+          "City Girl ラインのツヤ感リップティント。"
+        ]
+      },
+      "it": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — make-up City Girl · Teranova",
+        "seoDesc": "LADYBIZ — brand di make-up del gruppo DREAMCOS: la linea compatta City Girl con cushion correttore SPF50+ PA+++, crema tone-up con PDRN SPF50+ PA++++ e tinta labbra glossy. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Make-up di stile e pratico per tutti i giorni",
+        "about": [
+          "LADYBIZ è il brand di make-up nel portafoglio del gruppo coreano DREAMCOS. L'idea del brand è un trucco di stile e pratico per tutti i giorni: tinte labbra, ombretti e cushion correttori senza passaggi superflui. L'attuale linea City Girl segue un'estetica urbana quotidiana ed è composta da prodotti compatti e multifunzione.",
+          "La linea City Girl comprende tre referenze: cushion correttore SPF50+ PA+++ (12 g), crema solare con effetto tone-up e PDRN SPF50+ PA++++ (45 ml) e tinta labbra glossy (1,8 g). Un assortimento breve, comodo come primo carico di prova per beauty retail, marketplace e catene drugstore: protezione solare più due formati make-up di grande rotazione. Forniture all'ingrosso dalla Corea, condizioni e territori si definiscono in fase di trattativa."
+        ],
+        "itemNotes": [
+          "Cushion correttore con protezione solare SPF50+ PA+++ della linea City Girl.",
+          "Crema solare con effetto tone-up e PDRN, SPF50+ PA++++.",
+          "Tint labbra glossy della linea City Girl."
+        ]
+      },
+      "de": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — Make-up City Girl · Teranova",
+        "seoDesc": "LADYBIZ — Marke dekorativer Kosmetik der Gruppe DREAMCOS: die kompakte Linie City Girl aus Cushion-Concealer SPF50+ PA+++, Tone-up-Creme mit PDRN SPF50+ PA++++ und glänzendem Lippentint. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Stilvolles und praktisches Make-up für jeden Tag",
+        "about": [
+          "LADYBIZ ist eine Marke dekorativer Kosmetik im Portfolio der koreanischen Gruppe DREAMCOS. Die Idee der Marke ist stilvolles und praktisches Make-up für jeden Tag: Lip-Tints, Lidschatten und Cushion-Concealer ohne überflüssige Schritte. Die aktuelle Linie City Girl ist in urbaner Alltagsästhetik gehalten und aus kompakten multifunktionalen Produkten zusammengestellt.",
+          "Die Linie City Girl umfasst drei Positionen: einen Cushion-Concealer SPF50+ PA+++ (12 g), eine Sonnenschutzcreme mit Tone-up-Effekt und PDRN SPF50+ PA++++ (45 ml) und einen glänzenden Lippentint (1,8 g). Das kurze Set eignet sich als Testlieferung für Beauty-Retail, Marktplätze und Drogerieketten: Sonnenschutz plus zwei gängige Make-up-Formate. Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
+        ],
+        "itemNotes": [
+          "Concealer-Cushion mit Sonnenschutz SPF50+ PA+++ der City Girl Linie.",
+          "Sonnencreme mit Tone-up-Effekt und PDRN, SPF50+ PA++++.",
+          "Glänzender Lip Tint der City Girl Linie."
+        ]
+      },
+      "fr": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — maquillage City Girl · Teranova",
+        "seoDesc": "LADYBIZ — marque de maquillage du groupe DREAMCOS : la ligne compacte City Girl, cushion correcteur SPF50+ PA+++, crème tone-up au PDRN SPF50+ PA++++ et tint brillant. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Un maquillage élégant et pratique pour tous les jours",
+        "about": [
+          "LADYBIZ est une marque de maquillage du portefeuille du groupe coréen DREAMCOS. L'idée de la marque est un maquillage élégant et pratique pour tous les jours : tints à lèvres, fards à paupières et cushions correcteurs sans étapes superflues. La ligne actuelle City Girl est tenue dans une esthétique urbaine du quotidien et composée de produits compacts et multifonctions.",
+          "La ligne City Girl comprend trois références : un cushion correcteur SPF50+ PA+++ (12 g), une crème solaire à effet tone-up au PDRN SPF50+ PA++++ (45 ml) et un tint à lèvres brillant (1,8 g). Cet ensemble court fait un bon premier envoi pour le retail beauté, les marketplaces et les chaînes de drogueries : la protection solaire plus deux formats de maquillage porteurs. Approvisionnement en gros depuis la Corée ; conditions et territoires se précisent au moment de la transaction."
+        ],
+        "itemNotes": [
+          "Coussin correcteur avec protection solaire SPF50+ PA+++ de la ligne City Girl.",
+          "Crème solaire effet tone-up au PDRN, SPF50+ PA++++.",
+          "Teinte à lèvres brillante de la ligne City Girl."
+        ]
+      },
+      "tr": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — City Girl makyajı · Teranova",
+        "seoDesc": "LADYBIZ — DREAMCOS grubunun makyaj markası: SPF50+ PA+++ cushion kapatıcı, PDRN içeren SPF50+ PA++++ ton açıcı krem ve parlak tintten oluşan kompakt City Girl serisi. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Her güne uygun şık ve pratik makyaj",
+        "about": [
+          "LADYBIZ, Kore menşeli DREAMCOS grubunun portföyünde yer alan makyaj markasıdır. Markanın fikri her güne uygun şık ve pratik makyaj: gereksiz adımlar olmadan dudak tintleri, farlar ve cushion kapatıcılar. Güncel City Girl serisi şehirli günlük estetikte kurgulanmış, kompakt ve çok işlevli ürünlerden oluşur.",
+          "City Girl serisi üç üründen oluşur: SPF50+ PA+++ cushion kapatıcı (12 g), ton açıcı etkili ve PDRN içeren SPF50+ PA++++ güneş kremi (45 ml) ve parlak dudak tinti (1,8 g). Kısa set, güzellik perakendesi, pazar yerleri ve drogeri zincirleri için deneme sevkiyatı olarak elverişlidir: güneş koruması artı iki popüler makyaj formatı. Kore'den toptan tedarik, koşullar ve bölgeler işlem aşamasında netleşir."
+        ],
+        "itemNotes": [
+          "City Girl serisi güneş korumalı kapatıcı cushion, SPF50+ PA+++.",
+          "Ton açıcı etkili PDRN içeren güneş koruyucu krem, SPF50+ PA++++.",
+          "City Girl serisi parlak dudak tinti."
+        ]
+      },
+      "es": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — maquillaje City Girl · Teranova",
+        "seoDesc": "LADYBIZ es la marca de maquillaje del grupo DREAMCOS: la línea compacta City Girl con cushion corrector SPF50+ PA+++, crema tone-up con PDRN SPF50+ PA++++ y tinte labial brillante. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Maquillaje con estilo y práctico para cada día",
+        "about": [
+          "LADYBIZ es la marca de maquillaje del portafolio del grupo coreano DREAMCOS. Su idea es un maquillaje con estilo y práctico para cada día: tintes labiales, sombras y cushion correctores sin pasos de más. La línea vigente, City Girl, se mueve en una estética urbana cotidiana y se compone de productos compactos y multifunción.",
+          "La línea City Girl incluye tres referencias: cushion corrector SPF50+ PA+++ (12 g), crema solar con efecto tone-up y PDRN SPF50+ PA++++ (45 ml) y tinte labial brillante (1,8 g). Un surtido corto funciona bien como envío de prueba para retail de belleza, marketplaces y cadenas de droguería: protección solar más dos formatos de maquillaje de alta rotación. Suministro mayorista desde Corea; las condiciones y los territorios se concretan en la etapa de la operación."
+        ],
+        "itemNotes": [
+          "Cushion corrector con protección solar SPF50+ PA+++ de la línea City Girl.",
+          "Protector solar con efecto tono-up y PDRN, SPF50+ PA++++.",
+          "Tinte labial de acabado glossy de la línea City Girl."
+        ]
+      },
+      "pt": {
+        "seoTitle": "LADYBIZ (DREAMCOS) — linha City Girl · Teranova",
+        "seoDesc": "LADYBIZ é a marca de maquiagem do grupo DREAMCOS: a linha compacta City Girl reúne cushion corretivo SPF50+ PA+++, creme tone-up com PDRN SPF50+ PA++++ e tinta labial com brilho. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Maquiagem estilosa e prática para todos os dias",
+        "about": [
+          "A LADYBIZ é a marca de maquiagem no portfólio do grupo coreano DREAMCOS. A ideia da marca é uma maquiagem estilosa e prática para todos os dias: tintas labiais, sombras e cushions corretivos sem passos extras. A linha atual, City Girl, segue uma estética urbana do dia a dia e reúne produtos compactos e multifuncionais.",
+          "A linha City Girl tem três itens: cushion corretivo SPF50+ PA+++ (12 g), protetor solar com efeito tone-up e PDRN SPF50+ PA++++ (45 ml) e tinta labial com brilho (1,8 g). Um conjunto curto funciona como remessa de teste para varejo de beleza, marketplaces e redes de drogaria: proteção solar mais dois formatos de maquiagem de bom giro. Fornecimento por atacado da Coreia; condições e territórios são definidos na etapa da negociação."
+        ],
+        "itemNotes": [
+          "Cushion corretor com proteção solar SPF50+ PA+++ da linha City Girl.",
+          "Protetor solar com efeito tone-up e PDRN, SPF50+ PA++++.",
+          "Tint labial de acabamento glossy da linha City Girl."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "nolie",
+    "supplierSlug": "dreamcos",
+    "category": "cosmetics",
+    "lineName": "NOLIE",
+    "items": [
+      {
+        "name": "NOLIE Fresh Flash Scented Body Cleaner",
+        "img": "/img/suppliers/dreamcos/products/nolie-fresh-flash-body-cleaner.jpg",
+        "volume": "330 ml",
+        "certs": []
+      },
+      {
+        "name": "NOLIE Neat & Tidy Women's Wash & Ampoule Shot",
+        "img": "/img/suppliers/dreamcos/products/nolie-womens-wash-ampoule-shot.jpg",
+        "volume": "160 ml",
+        "certs": []
+      },
+      {
+        "name": "NOLIE Better Than Perfume Body Spirit",
+        "img": "/img/suppliers/dreamcos/products/nolie-body-spirit.jpg",
+        "volume": "25 g",
+        "certs": []
+      }
     ],
-    "itemNotes": [
-     "グループの旗艦ブランド DUFT&DOFT の香水ハンドクリーム、6 種の香りから選択可能。",
-     "肌の水分バリアを強化する香水ハンドクリーム、6 種の香り。",
-     "ボディ香水ミスト、7 種の香りから選択可能。",
-     "Fine Fragrance ラインのヘア＆ボディミスト、4 種の香り。",
-     "香水ボディローション、5 種の香りから選択可能。",
-     "香水ボディウォッシュ、4 種の香りから選択可能。",
-     "リラックスできるスパボディウォッシュ、3 種の香りから選択可能。",
-     "Signature ラインの香水ボディスクラブ、4 種の香り。",
-     "Apple Sophy の香りの香水ボディピーリングミスト。",
-     "Enriched Perfume ラインの香水シャンプー。",
-     "Sophy Sophy の香りの香水コンディショナー。",
-     "Signature ラインのカフェイン配合香水頭皮トニック。"
-    ]
-   },
-   "it": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — cura profumata · Teranova",
-    "seoDesc": "DUFT&DOFT — brand di punta del gruppo DREAMCOS: cura profumata di mani, corpo e capelli. Creme mani, mist, lozioni, bagnoschiuma, scrub e shampoo, fino a 7 fragranze per referenza. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Cura profumata per mani, corpo e capelli",
-    "about": [
-     "DUFT&DOFT è il brand di punta del gruppo cosmetico DREAMCOS, costruito su uno sviluppo profumiero proprio: qui la fragranza è parte del prodotto quanto la formula cosmetica. Il brand è riconoscibile soprattutto per le creme mani profumate e, secondo i dati dell'azienda, è ampiamente presente nel retail coreano, inclusa la catena Olive Young.",
-     "La linea copre l'intero rituale: creme mani da 50 ml in due varianti, mist per corpo e capelli, lozioni e bagnoschiuma, gel spa, scrub e mist esfoliante, shampoo, balsamo e tonico per il cuoio capelluto con caffeina. La maggior parte delle referenze è disponibile in 3–7 fragranze, comodo per comporre lo scaffale nei drugstore, nel beauty retail e sui marketplace. Forniture all'ingrosso dalla Corea; condizioni e territori si definiscono in fase di trattativa."
-    ],
-    "itemNotes": [
-     "Crema mani profumata del brand di punta del gruppo DUFT&DOFT; 6 fragranze a scelta.",
-     "Crema mani profumata che rafforza la barriera idrica della pelle; 6 fragranze.",
-     "Mist corpo profumato; 7 fragranze a scelta.",
-     "Mist profumato per capelli e corpo della linea Fine Fragrance; 4 fragranze.",
-     "Lozione corpo profumata; 5 fragranze a scelta.",
-     "Gel doccia profumato; 4 fragranze a scelta.",
-     "Gel doccia spa rilassante; 3 fragranze a scelta.",
-     "Scrub corpo profumato della linea Signature; 4 fragranze.",
-     "Peeling mist corpo profumato alla fragranza Apple Sophy.",
-     "Shampoo profumato per capelli della linea Enriched Perfume.",
-     "Balsamo profumato per capelli alla fragranza Sophy Sophy.",
-     "Tonico profumato per il cuoio capelluto alla caffeina della linea Signature."
-    ]
-   },
-   "de": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — parfümierte Pflege · Teranova",
-    "seoDesc": "DUFT&DOFT — Flaggschiffmarke der Gruppe DREAMCOS: parfümierte Pflege für Hände, Körper und Haar. Handcremes, Mists, Lotionen, Duschgele, Peelings und Shampoos, bis zu 7 Düfte je Position. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Parfümierte Pflege für Hände, Körper und Haar",
-    "about": [
-     "DUFT&DOFT ist die Flaggschiffmarke der Kosmetikgruppe DREAMCOS, aufgebaut auf einer eigenen Parfümentwicklung: Der Duft ist hier genauso Teil des Produkts wie die Pflegeformel. Bekannt ist die Marke vor allem für ihre parfümierten Handcremes und laut Unternehmensangaben im koreanischen Einzelhandel breit vertreten, unter anderem in der Kette Olive Young.",
-     "Die Serie deckt das gesamte Ritual ab: Handcremes 50 ml in zwei Varianten, Mists für Körper und Haar, Lotionen und Duschgele, Spa-Gel, Peeling und Peeling-Mist, Shampoo, Conditioner und ein Kopfhauttonikum mit Koffein. Die meisten Positionen gibt es in 3–7 Düften, was den Regalaufbau in Drogerien, im Beauty-Retail und auf Marktplätzen erleichtert. Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
-    ],
-    "itemNotes": [
-     "Parfümierte Handcreme der Flaggschiffmarke der Gruppe DUFT&DOFT; 6 Düfte zur Auswahl.",
-     "Parfümierte Handcreme zur Stärkung der Feuchtigkeitsbarriere der Haut; 6 Düfte.",
-     "Parfümierter Körpernebel; 7 Düfte zur Auswahl.",
-     "Duftnebel für Haar und Körper der Fine Fragrance Linie; 4 Düfte.",
-     "Parfümierte Körperlotion; 5 Düfte zur Auswahl.",
-     "Parfümiertes Duschgel; 4 Düfte zur Auswahl.",
-     "Entspannendes Spa-Duschgel; 3 Düfte zur Auswahl.",
-     "Parfümiertes Körperpeeling der Signature Linie; 4 Düfte.",
-     "Parfümierter Peeling-Nebel für den Körper mit dem Duft Apple Sophy.",
-     "Parfümiertes Haarshampoo der Enriched Perfume Linie.",
-     "Parfümierte Haarspülung mit dem Duft Sophy Sophy.",
-     "Parfümiertes Kopfhaut-Tonikum mit Koffein der Signature Linie."
-    ]
-   },
-   "fr": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — soin parfumé · Teranova",
-    "seoDesc": "DUFT&DOFT — marque phare du groupe DREAMCOS : soin parfumé pour les mains, le corps et les cheveux. Crèmes mains, brumes, lotions, gels douche, gommages et shampooings, jusqu'à 7 parfums par référence. Approvisionnement en gros via Teranova.",
-    "tagline": "Soin parfumé pour les mains, le corps et les cheveux",
-    "about": [
-     "DUFT&DOFT est la marque phare du groupe cosmétique DREAMCOS, construite sur un développement parfumé propriétaire : le parfum y fait partie du produit au même titre que la formule de soin. La marque est surtout reconnue pour ses crèmes mains parfumées et, selon les données de l'entreprise, largement présente dans le retail coréen, y compris dans le réseau Olive Young.",
-     "La gamme couvre tout le rituel : crèmes mains de 50 ml en deux variantes, brumes pour le corps et pour les cheveux, lotions et gels douche, gel spa, gommage et brume peeling, shampooing, après-shampooing et tonique pour le cuir chevelu à la caféine. La plupart des références existent en 3 à 7 parfums, ce qui facilite la composition du linéaire en drogueries, en retail beauté et sur les marketplaces. Approvisionnement en gros depuis la Corée ; conditions et territoires se précisent au moment de la transaction."
-    ],
-    "itemNotes": [
-     "Crème pour les mains parfumée de la marque phare du groupe DUFT&DOFT ; 6 parfums au choix.",
-     "Crème pour les mains parfumée renforçant la barrière hydrique de la peau ; 6 parfums.",
-     "Brume corporelle parfumée ; 7 parfums au choix.",
-     "Brume parfumée cheveux et corps de la ligne Fine Fragrance ; 4 parfums.",
-     "Lotion corporelle parfumée ; 5 parfums au choix.",
-     "Gel douche parfumé ; 4 parfums au choix.",
-     "Gel douche spa relaxant ; 3 parfums au choix.",
-     "Gommage corporel parfumé de la ligne Signature ; 4 parfums.",
-     "Brume-peeling corporelle parfumée au parfum Apple Sophy.",
-     "Shampooing parfumé de la ligne Enriched Perfume.",
-     "Après-shampooing parfumé au parfum Sophy Sophy.",
-     "Tonique parfumé pour le cuir chevelu à la caféine de la ligne Signature."
-    ]
-   },
-   "tr": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — parfümlü bakım · Teranova",
-    "seoDesc": "DUFT&DOFT — DREAMCOS grubunun amiral markası: eller, vücut ve saçlar için parfümlü bakım. El kremleri, mistler, losyonlar, duş jelleri, peelingler ve şampuanlar; üründe 7 kokuya kadar seçenek. Kore'den toptan tedarik Teranova aracılığıyla.",
-    "tagline": "Eller, vücut ve saçlar için parfümlü bakım",
-    "about": [
-     "DUFT&DOFT, kendi parfüm geliştirmesi üzerine kurulu DREAMCOS kozmetik grubunun amiral markasıdır: burada koku, bakım formülü kadar ürünün bir parçasıdır. Marka öncelikle parfümlü el kremleriyle tanınır ve şirket verilerine göre Olive Young zinciri dahil Kore perakendesinde geniş biçimde yer alır.",
-     "Seri ritüelin tamamını kapsar: iki çeşitte 50 ml el kremleri, vücut ve saç mistleri, losyonlar ve duş jelleri, spa jeli, peeling ve peeling misti, şampuan, saç kremi ve kafeinli saç derisi toniği. Ürünlerin çoğu 3–7 kokuda sunulur; bu da drogeri, güzellik perakendesi ve pazar yerlerinde raf kurmayı kolaylaştırır. Kore'den toptan tedarik; koşullar ve bölgeler işlem aşamasında netleşir."
-    ],
-    "itemNotes": [
-     "DUFT&DOFT grubunun amiral markasının parfümlü el kremi; 6 koku seçeneği.",
-     "Cildin su bariyerini güçlendiren parfümlü el kremi; 6 koku.",
-     "Parfümlü vücut misti; 7 koku seçeneği.",
-     "Fine Fragrance serisi saç ve vücut misti; 4 koku.",
-     "Parfümlü vücut losyonu; 5 koku seçeneği.",
-     "Parfümlü duş jeli; 4 koku seçeneği.",
-     "Rahatlatıcı spa duş jeli; 3 koku seçeneği.",
-     "Signature serisi parfümlü vücut peelingi; 4 koku.",
-     "Apple Sophy kokulu parfümlü vücut peeling misti.",
-     "Enriched Perfume serisi parfümlü saç şampuanı.",
-     "Sophy Sophy kokulu parfümlü saç kremi.",
-     "Signature serisi kafeinli parfümlü saç derisi toniği."
-    ]
-   },
-   "es": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — cuidado perfumado · Teranova",
-    "seoDesc": "DUFT&DOFT es la marca insignia del grupo DREAMCOS: cuidado perfumado de manos, cuerpo y cabello. Cremas de manos, brumas, lociones, geles de ducha y champús, hasta 7 aromas por referencia. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Cuidado perfumado de manos, cuerpo y cabello",
-    "about": [
-     "DUFT&DOFT es la marca insignia del grupo cosmético DREAMCOS, construida sobre un desarrollo perfumístico propio: aquí el aroma forma parte del producto tanto como la fórmula de cuidado. La marca se reconoce sobre todo por sus cremas de manos perfumadas y, según datos de la empresa, tiene amplia presencia en la venta minorista coreana, incluida la cadena Olive Young.",
-     "La línea cubre el ritual completo: cremas de manos de 50 ml en dos versiones, brumas para el cuerpo y para el cabello, lociones y geles de ducha, gel de spa, exfoliante y bruma de peeling, champú, acondicionador y tónico capilar con cafeína. La mayoría de las referencias se ofrece en 3 a 7 aromas, algo cómodo para montar lineal en droguería, retail de belleza y marketplaces. Suministro mayorista desde Corea; las condiciones y los territorios se concretan en la etapa de la operación."
-    ],
-    "itemNotes": [
-     "Crema de manos perfumada de la marca insignia del grupo DUFT&DOFT; 6 fragancias a elegir.",
-     "Crema de manos perfumada que refuerza la barrera hídrica de la piel; 6 fragancias.",
-     "Bruma corporal perfumada; 7 fragancias a elegir.",
-     "Bruma aromática para cabello y cuerpo de la línea Fine Fragrance; 4 fragancias.",
-     "Loción corporal perfumada; 5 fragancias a elegir.",
-     "Gel de ducha perfumado; 4 fragancias a elegir.",
-     "Gel de ducha spa relajante; 3 fragancias a elegir.",
-     "Exfoliante corporal perfumado de la línea Signature; 4 fragancias.",
-     "Bruma-peeling corporal perfumada con aroma Apple Sophy.",
-     "Champú perfumado para el cabello de la línea Enriched Perfume.",
-     "Acondicionador perfumado para el cabello con aroma Sophy Sophy.",
-     "Tónico perfumado para el cuero cabelludo con cafeína de la línea Signature."
-    ]
-   },
-   "pt": {
-    "seoTitle": "DUFT&DOFT (DREAMCOS) — perfumaria e cuidado · Teranova",
-    "seoDesc": "DUFT&DOFT é a marca principal do grupo DREAMCOS: cuidado perfumado para mãos, corpo e cabelos. Cremes para as mãos, brumas, loções, sabonetes líquidos e xampus, com até 7 fragrâncias por item. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Cuidado perfumado para mãos, corpo e cabelos",
-    "about": [
-     "DUFT&DOFT é a marca principal do grupo cosmético DREAMCOS, apoiada em desenvolvimento perfumístico próprio: aqui a fragrância é parte do produto tanto quanto a fórmula de cuidado. A marca ficou conhecida sobretudo pelos cremes perfumados para as mãos e, segundo dados da empresa, tem presença ampla no varejo coreano, inclusive na rede Olive Young.",
-     "A linha percorre o ritual inteiro: cremes para as mãos de 50 ml em duas versões, brumas corporais e capilares, loções e sabonetes líquidos, gel de spa, esfoliante e bruma de peeling, xampu, condicionador e tônico para o couro cabeludo com cafeína. A maioria dos itens sai em 3 a 7 fragrâncias, o que facilita montar prateleira em drogaria, varejo de beleza e marketplaces. Fornecimento por atacado da Coreia; condições e territórios são definidos na etapa da negociação."
-    ],
-    "itemNotes": [
-     "Creme de mãos perfumado da marca principal do grupo DUFT&DOFT; 6 fragrâncias à escolha.",
-     "Creme de mãos perfumado que reforça a barreira hídrica da pele; 6 fragrâncias.",
-     "Bruma corporal perfumada; 7 fragrâncias à escolha.",
-     "Bruma aromática para cabelo e corpo da linha Fine Fragrance; 4 fragrâncias.",
-     "Loção corporal perfumada; 5 fragrâncias à escolha.",
-     "Gel de banho perfumado; 4 fragrâncias à escolha.",
-     "Gel de banho spa relaxante; 3 fragrâncias à escolha.",
-     "Esfoliante corporal perfumado da linha Signature; 4 fragrâncias.",
-     "Bruma-peeling corporal perfumada com aroma Apple Sophy.",
-     "Champô perfumado para o cabelo da linha Enriched Perfume.",
-     "Condicionador perfumado para o cabelo com aroma Sophy Sophy.",
-     "Tónico perfumado para o couro cabeludo com cafeína da linha Signature."
-    ]
-   }
+    "i18n": {
+      "ru": {
+        "seoTitle": "NOLIE (DREAMCOS) — уход за телом и гигиена · Teranova",
+        "seoDesc": "NOLIE — бренд группы DREAMCOS: уход за телом и средства личной гигиены для молодой аудитории. Гель для душа, средство для интимной гигиены с ампульным концентратом, твёрдый парфюмированный бальзам. Оптовые поставки из Кореи через Teranova.",
+        "tagline": "Премиальный уход за телом и личная гигиена",
+        "about": [
+          "NOLIE — бренд корейской группы DREAMCOS в сегменте премиального ухода за телом и средств личной гигиены для молодой аудитории. Как и у DUFT&DOFT, в основе лежит парфюмерная экспертиза группы: аромат работает наравне с уходовой частью, а форматы и упаковка рассчитаны на ежедневное использование.",
+          "Компактная линейка из трёх позиций: ароматизированный гель для душа Fresh Flash (330 мл), средство для интимной гигиены с ампульным концентратом в двух вариантах (160 мл) и твёрдый парфюмированный бальзам для тела (25 г). Сочетание душа, гигиены и портативного парфюма подходит дрогери-сетям, маркетплейсам и бьюти-ретейлу; оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
+        ],
+        "itemNotes": [
+          "Ароматизированный гель для душа линии Fresh Flash.",
+          "Средство для интимной гигиены с ампульным концентратом; 2 варианта.",
+          "Твёрдый парфюмированный бальзам для тела."
+        ]
+      },
+      "en": {
+        "seoTitle": "NOLIE (DREAMCOS) — body care and hygiene · Teranova",
+        "seoDesc": "NOLIE is a brand of the DREAMCOS group: body care and personal hygiene products for a young audience. A shower gel, an intimate hygiene product with an ampoule concentrate and a solid perfumed balm. Wholesale supply from Korea through Teranova.",
+        "tagline": "Premium body care and personal hygiene",
+        "about": [
+          "NOLIE is a brand of the Korean group DREAMCOS in the segment of premium body care and personal hygiene products for a young audience. As with DUFT&DOFT, it rests on the group's perfume expertise: the scent works on a par with the care part, while the formats and packaging are designed for daily use.",
+          "A compact range of three items: the scented Fresh Flash shower gel (330 ml), an intimate hygiene product with an ampoule concentrate in two versions (160 ml) and a solid perfumed body balm (25 g). The combination of shower, hygiene and a portable fragrance suits drugstore chains, marketplaces and beauty retail; wholesale supply from Korea, with terms and territories agreed at the deal stage."
+        ],
+        "itemNotes": [
+          "Fresh Flash scented body wash.",
+          "Feminine intimate wash with an ampoule concentrate; 2 options.",
+          "Solid perfumed body balm."
+        ]
+      },
+      "ko": {
+        "seoTitle": "NOLIE (DREAMCOS) — 바디 케어와 위생 · Teranova",
+        "seoDesc": "NOLIE는 DREAMCOS 그룹의 브랜드입니다: 젊은 소비자를 위한 프리미엄 바디 케어와 퍼스널 위생 제품. 향기 샤워젤 Fresh Flash, 앰플 농축액을 담은 여성 청결제, 고체 향기 바디 밤(25g)으로 구성됩니다. Teranova를 통한 한국에서의 도매 공급.",
+        "tagline": "프리미엄 바디 케어와 퍼스널 위생",
+        "about": [
+          "NOLIE는 젊은 소비자를 위한 프리미엄 바디 케어와 퍼스널 위생 제품 세그먼트에 속한 한국 그룹 DREAMCOS의 브랜드입니다. DUFT&DOFT와 마찬가지로 그룹의 조향 역량이 바탕에 있습니다: 향이 케어 파트와 동등하게 작동하며, 포맷과 패키지는 매일의 사용을 염두에 두고 설계되었습니다.",
+          "세 품목의 컴팩트한 라인입니다: 향기 샤워젤 Fresh Flash (330ml), 앰플 농축액을 담은 두 가지 버전의 여성 청결제 (160ml), 고체 향기 바디 밤 (25g). 샤워, 위생, 휴대용 향의 조합은 드러그스토어 체인, 마켓플레이스, 뷰티 리테일에 적합합니다. 한국에서의 도매 공급이며, 조건과 지역은 거래 단계에서 확정합니다."
+        ],
+        "itemNotes": [
+          "Fresh Flash 라인의 향 바디 워시.",
+          "앰플 농축액이 함유된 여성 청결제; 2가지 타입.",
+          "고체 퍼퓸 바디 밤."
+        ]
+      },
+      "zh": {
+        "seoTitle": "NOLIE (DREAMCOS) — 身体护理与个人清洁 · Teranova",
+        "seoDesc": "NOLIE 是 DREAMCOS 集团的品牌：面向年轻消费者的身体护理与个人清洁用品。沐浴露、含安瓶浓缩液的私处清洁用品、固体香膏。经 Teranova 从韩国批发供应。",
+        "tagline": "高端身体护理与个人清洁",
+        "about": [
+          "NOLIE 是韩国 DREAMCOS 集团在高端身体护理与年轻消费者个人清洁用品领域的品牌。与 DUFT&DOFT 一样，其基础是集团的调香能力：香气与护理部分同等重要，而形态与包装都为日常使用而设计。",
+          "精简的三个品项：Fresh Flash 香氛沐浴露（330 毫升）、含安瓶浓缩液的私处清洁用品两款（160 毫升），以及固体香氛身体膏（25 克）。沐浴、清洁与便携香氛的组合适合日化连锁、电商平台与美妆零售；韩国批发供应，条件与区域在交易阶段确定。"
+        ],
+        "itemNotes": [
+          "Fresh Flash 系列香氛沐浴露。",
+          "含安瓶浓缩液的私处护理产品，2 种可选。",
+          "固体香氛身体膏。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "NOLIE (DREAMCOS) — ボディケアと衛生用品 · Teranova",
+        "seoDesc": "NOLIE は DREAMCOS グループのブランド：若い世代に向けたボディケアと衛生用品。ボディウォッシュ、アンプル濃縮液配合のデリケートゾーン用洗浄料、練り香水バーム。Teranova を通じた韓国からの卸売供給。",
+        "tagline": "上質なボディケアとパーソナルハイジーン",
+        "about": [
+          "NOLIE は、上質なボディケアと若い世代向けのパーソナルハイジーンの領域における韓国 DREAMCOS グループのブランドです。DUFT&DOFT と同じく、土台にあるのはグループの調香の知見です：香りはケアの部分と対等に働き、形態とパッケージは毎日の使用を想定しています。",
+          "コンパクトな3品目構成です：香り付きボディウォッシュ Fresh Flash(330 mL)、アンプル濃縮液配合のデリケートゾーン用洗浄料 2種(160 mL)、練り香水タイプのボディバーム(25 g)。シャワー、ハイジーン、持ち運べる香りの組み合わせは、ドラッグストアチェーン、マーケットプレイス、ビューティー小売に向いています。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
+        ],
+        "itemNotes": [
+          "Fresh Flash ラインの香り付きボディウォッシュ。",
+          "アンプル濃縮液配合のデリケートゾーンケア製品、2 種類。",
+          "固形の香水ボディバーム。"
+        ]
+      },
+      "it": {
+        "seoTitle": "NOLIE (DREAMCOS) — corpo e igiene · Teranova",
+        "seoDesc": "NOLIE — brand del gruppo DREAMCOS: cura del corpo e prodotti per l'igiene personale per un pubblico giovane. Bagnoschiuma, detergente intimo con concentrato in fiala, balsamo solido profumato. Forniture all'ingrosso dalla Corea tramite Teranova.",
+        "tagline": "Cura del corpo premium e igiene personale",
+        "about": [
+          "NOLIE è il brand del gruppo coreano DREAMCOS nel segmento della cura del corpo premium e dei prodotti per l'igiene personale rivolti a un pubblico giovane. Come per DUFT&DOFT, alla base c'è l'esperienza profumiera del gruppo: la fragranza lavora alla pari con la parte cosmetica, mentre formati e packaging sono pensati per l'uso quotidiano.",
+          "Una linea compatta di tre referenze: bagnoschiuma profumato Fresh Flash (330 ml), detergente intimo con concentrato in fiala in due varianti (160 ml) e balsamo corpo solido profumato (25 g). L'insieme di doccia, igiene e profumo portatile si adatta a catene drugstore, marketplace e beauty retail; forniture all'ingrosso dalla Corea, condizioni e territori si definiscono in fase di trattativa."
+        ],
+        "itemNotes": [
+          "Gel doccia profumato della linea Fresh Flash.",
+          "Detergente per l'igiene intima con concentrato in fiala; 2 varianti.",
+          "Balsamo corpo profumato solido."
+        ]
+      },
+      "de": {
+        "seoTitle": "NOLIE (DREAMCOS) — Körperpflege & Hygiene · Teranova",
+        "seoDesc": "NOLIE — Marke der Gruppe DREAMCOS: Körperpflege und Produkte der persönlichen Hygiene für ein junges Publikum. Duschgel, Intimpflege mit Ampullenkonzentrat, fester parfümierter Balsam. Großhandelslieferungen aus Korea über Teranova.",
+        "tagline": "Premium-Körperpflege und persönliche Hygiene",
+        "about": [
+          "NOLIE ist eine Marke der koreanischen Gruppe DREAMCOS im Segment der Premium-Körperpflege und der Produkte für die persönliche Hygiene für ein junges Publikum. Wie bei DUFT&DOFT liegt die Parfümexpertise der Gruppe zugrunde: Der Duft wirkt gleichrangig zum Pflegeteil, und Formate wie Verpackung sind auf den täglichen Gebrauch ausgelegt.",
+          "Eine kompakte Serie aus drei Positionen: das parfümierte Duschgel Fresh Flash (330 ml), ein Produkt für die Intimhygiene mit Ampullenkonzentrat in zwei Varianten (160 ml) und ein fester parfümierter Körperbalsam (25 g). Die Kombination aus Dusche, Hygiene und tragbarem Parfüm passt zu Drogerieketten, Marktplätzen und Beauty-Retail; Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
+        ],
+        "itemNotes": [
+          "Duftendes Duschgel der Fresh Flash Linie.",
+          "Produkt zur Intimhygiene mit Ampullen-Konzentrat; 2 Varianten.",
+          "Festes parfümiertes Körperbalsam."
+        ]
+      },
+      "fr": {
+        "seoTitle": "NOLIE (DREAMCOS) — soin du corps et hygiène · Teranova",
+        "seoDesc": "NOLIE — marque du groupe DREAMCOS : soin du corps et produits d'hygiène intime pour un public jeune. Gel douche, soin intime au concentré en ampoule, baume parfumé solide. Approvisionnement en gros depuis la Corée via Teranova.",
+        "tagline": "Soin du corps premium et hygiène personnelle",
+        "about": [
+          "NOLIE est une marque du groupe coréen DREAMCOS dans le segment du soin du corps premium et des produits d'hygiène personnelle pour un public jeune. Comme chez DUFT&DOFT, l'expertise parfumée du groupe est à la base : le parfum agit à parité avec la partie soin, et les formats comme l'emballage sont pensés pour un usage quotidien.",
+          "Une gamme compacte de trois références : le gel douche parfumé Fresh Flash (330 ml), un soin d'hygiène intime au concentré en ampoule en deux variantes (160 ml) et un baume corporel parfumé solide (25 g). L'association douche, hygiène et parfum portatif convient aux chaînes de drogueries, aux marketplaces et au retail beauté ; approvisionnement en gros depuis la Corée, conditions et territoires se précisent au moment de la transaction."
+        ],
+        "itemNotes": [
+          "Gel douche parfumé de la ligne Fresh Flash.",
+          "Soin d'hygiène intime avec concentré en ampoule ; 2 variantes.",
+          "Baume corporel parfumé solide."
+        ]
+      },
+      "tr": {
+        "seoTitle": "NOLIE (DREAMCOS) — vücut bakımı ve hijyen · Teranova",
+        "seoDesc": "NOLIE — DREAMCOS grubunun markası: genç kitle için vücut bakımı ve kişisel hijyen ürünleri. Duş jeli, ampul konsantreli intim hijyen ürünü, katı parfümlü balm. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
+        "tagline": "Premium vücut bakımı ve kişisel hijyen",
+        "about": [
+          "NOLIE, Kore menşeli DREAMCOS grubunun genç kitleye yönelik premium vücut bakımı ve kişisel hijyen ürünleri segmentindeki markasıdır. DUFT&DOFT'ta olduğu gibi temelde grubun parfüm uzmanlığı yatar: koku bakım kısmıyla eşit düzeyde çalışır, formatlar ve ambalaj günlük kullanıma göre tasarlanmıştır.",
+          "Üç üründen oluşan kompakt bir seri: kokulu duş jeli Fresh Flash (330 ml), iki çeşitte ampul konsantreli intim hijyen ürünü (160 ml) ve katı parfümlü vücut balmı (25 g). Duş, hijyen ve taşınabilir parfüm birleşimi drogeri zincirleri, pazar yerleri ve güzellik perakendesi için uygundur; Kore'den toptan tedarik, koşullar ve bölgeler işlem aşamasında netleşir."
+        ],
+        "itemNotes": [
+          "Fresh Flash serisi kokulu duş jeli.",
+          "Ampul konsantreli intim hijyen ürünü; 2 çeşit.",
+          "Katı parfümlü vücut balmı."
+        ]
+      },
+      "es": {
+        "seoTitle": "NOLIE (DREAMCOS) — cuerpo e higiene · Teranova",
+        "seoDesc": "NOLIE es la marca del grupo DREAMCOS de cuidado corporal e higiene personal para público joven. Gel de ducha, producto de higiene íntima con concentrado en ampolla y bálsamo perfumado sólido. Suministro mayorista desde Corea a través de Teranova.",
+        "tagline": "Cuidado corporal prémium e higiene personal",
+        "about": [
+          "NOLIE es la marca del grupo coreano DREAMCOS en el segmento del cuidado corporal prémium y de la higiene personal para público joven. Igual que en DUFT&DOFT, la base es la experiencia perfumística del grupo: el aroma trabaja a la par que la parte de cuidado, y los formatos y el envase están pensados para el uso diario.",
+          "La línea es compacta, con tres referencias: gel de ducha perfumado Fresh Flash (330 ml), producto de higiene íntima con concentrado en ampolla en dos versiones (160 ml) y bálsamo corporal perfumado sólido (25 g). La combinación de ducha, higiene y perfume portátil encaja en cadenas de droguería, marketplaces y retail de belleza; suministro mayorista desde Corea, con condiciones y territorios que se concretan en la etapa de la operación."
+        ],
+        "itemNotes": [
+          "Gel de ducha perfumado de la línea Fresh Flash.",
+          "Producto de higiene íntima con concentrado en ampolla; 2 variantes.",
+          "Bálsamo corporal perfumado sólido."
+        ]
+      },
+      "pt": {
+        "seoTitle": "NOLIE (DREAMCOS) — corpo e higiene íntima · Teranova",
+        "seoDesc": "NOLIE é a marca do grupo DREAMCOS voltada ao cuidado corporal e à higiene pessoal do público jovem. Sabonete líquido, produto de higiene íntima com concentrado em ampola e bálsamo perfumado sólido. Fornecimento por atacado da Coreia pela Teranova.",
+        "tagline": "Cuidado corporal premium e higiene pessoal",
+        "about": [
+          "A NOLIE é a marca do grupo coreano DREAMCOS no segmento de cuidado corporal premium e produtos de higiene pessoal para o público jovem. Assim como na DUFT&DOFT, a base é a expertise perfumística do grupo: a fragrância trabalha lado a lado com a parte de cuidado, e formatos e embalagens foram pensados para o uso diário.",
+          "A linha é enxuta, com três itens: sabonete líquido perfumado Fresh Flash (330 ml), produto de higiene íntima com concentrado em ampola em duas versões (160 ml) e bálsamo corporal perfumado sólido (25 g). Juntar banho, higiene e perfume portátil agrada a redes de drogaria, marketplaces e varejo de beleza; fornecimento por atacado da Coreia, com condições e territórios definidos na etapa da negociação."
+        ],
+        "itemNotes": [
+          "Gel de banho perfumado da linha Fresh Flash.",
+          "Produto de higiene íntima com concentrado em ampola; 2 variantes.",
+          "Bálsamo corporal perfumado sólido."
+        ]
+      }
+    }
   }
- },
- {
-  "slug": "rudia",
-  "supplierSlug": "dreamcos",
-  "category": "cosmetics",
-  "lineName": "RUDIA",
-  "items": [
-   {
-    "name": "RUDIA Very Berry Radiance Glutathione Serum",
-    "img": "/img/suppliers/dreamcos/products/rudia-glutathione-serum.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "RUDIA Bakuchiol Repair Serum",
-    "img": "/img/suppliers/dreamcos/products/rudia-bakuchiol-repair-serum.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "RUDIA Pore Care Purifying Serum",
-    "img": "/img/suppliers/dreamcos/products/rudia-pore-care-serum.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "RUDIA Crown Panthenol Nutrition Cream",
-    "img": "/img/suppliers/dreamcos/products/rudia-crown-panthenol-cream.jpg",
-    "certs": []
-   },
-   {
-    "name": "RUDIA Crown Carrot Day Vitamin Ampoule",
-    "img": "/img/suppliers/dreamcos/products/rudia-crown-carrot-vitamin-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   },
-   {
-    "name": "RUDIA Crown Master Benone Ampoule",
-    "img": "/img/suppliers/dreamcos/products/rudia-crown-master-benone-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   },
-   {
-    "name": "RUDIA Crown Collagen EGF Recovery Ampoule",
-    "img": "/img/suppliers/dreamcos/products/rudia-crown-collagen-egf-ampoule.jpg",
-    "volume": "30 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "RUDIA (DREAMCOS) — сыворотки и ампулы · Teranova",
-    "seoDesc": "RUDIA — бренд функционального ухода группы DREAMCOS с активными формулами: глутатион, бакучиол, пантенол, идебенон, коллаген с EGF. Сыворотки 50 мл и ампулы 30 мл линии Crown. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Активные формулы в сыворотках и ампулах для ухода",
-    "about": [
-     "RUDIA — бренд функционального ухода в портфеле корейской группы DREAMCOS, ориентированный на чувствительную кожу и построенный вокруг узнаваемых активных компонентов: глутатион, ниацинамид и бакучиол. По данным компании, бренд проходит перезапуск в 2026 году с обновлённым ассортиментом сывороток, ампул и кремов.",
-     "Линейка делится на два блока. Сыворотки 50 мл: с глутатионом для сияния и ровного тона, с бакучиолом (растительная альтернатива ретинолу) и для ухода за порами. Линия Crown — ампулы 30 мл с морковью, идебеноном (Benone) и коллагеном с EGF и питательный крем с пантенолом. Набор удобен для бьюти-ретейла, аптечного канала и e-commerce; оптовые поставки из Кореи."
-    ],
-    "itemNotes": [
-     "Сыворотка с глутатионом для сияния и выравнивания тона кожи.",
-     "Восстанавливающая сыворотка с бакучиолом (растительная альтернатива ретинолу).",
-     "Очищающая сыворотка для ухода за порами.",
-     "Питательный крем с пантенолом линии Crown для интенсивного питания кожи.",
-     "Витаминная ампула с морковью линии Crown для сияния кожи.",
-     "Ампула Master Benone линии Crown с идебеноном и коллагеном; по данным компании, работает с пигментацией и следами постакне.",
-     "Восстанавливающая ампула с коллагеном и EGF-комплексом линии Crown."
-    ]
-   },
-   "en": {
-    "seoTitle": "RUDIA (DREAMCOS) — serums and ampoules · Teranova",
-    "seoDesc": "RUDIA is the functional care brand of the DREAMCOS group with active formulas: glutathione, bakuchiol, panthenol, idebenone, EGF collagen. 50 ml serums and 30 ml Crown ampoules. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Active formulas in serums and ampoules for skin care",
-    "about": [
-     "RUDIA is a functional care brand in the portfolio of the Korean group DREAMCOS, aimed at sensitive skin and built around recognizable active ingredients: glutathione, niacinamide and bakuchiol. Per company data, the brand is going through a relaunch in 2026 with an updated assortment of serums, ampoules and creams.",
-     "The range is split into two blocks. Serums of 50 ml: with glutathione for radiance and an even tone, with bakuchiol (a plant-based alternative to retinol) and for pore care. The Crown line comprises 30 ml ampoules with carrot, idebenone (Benone) and collagen with EGF plus a nourishing cream with panthenol. The set suits beauty retail, the pharmacy channel and e-commerce; wholesale supply from Korea."
-    ],
-    "itemNotes": [
-     "Glutathione serum for radiance and a more even skin tone.",
-     "Repairing serum with Bakuchiol, a plant-based alternative to retinol.",
-     "Purifying serum for pore care.",
-     "Nourishing Panthenol cream from the Crown line for intensive skin nourishment.",
-     "Vitamin ampoule with carrot from the Crown line for radiant skin.",
-     "Master Benone ampoule from the Crown line with idebenone and collagen; according to the company, it works on pigmentation and post-acne marks.",
-     "Repairing ampoule with Collagen and an EGF complex from the Crown line."
-    ]
-   },
-   "ko": {
-    "seoTitle": "RUDIA (DREAMCOS) — 세럼과 앰플 · Teranova",
-    "seoDesc": "RUDIA는 DREAMCOS 그룹의 기능성 케어 브랜드로 글루타티온, 바쿠치올, 판테놀, 이데베논, EGF 콜라겐 등 액티브 처방을 담았습니다. 50ml 세럼과 Crown 라인 30ml 앰플로 구성됩니다. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "세럼과 앰플에 담은 액티브 케어 처방",
-    "about": [
-     "RUDIA는 한국 그룹 DREAMCOS 포트폴리오에 속한 기능성 케어 브랜드로, 민감한 피부를 겨냥하며 글루타티온, 나이아신아마이드, 바쿠치올 등 널리 알려진 활성 성분을 중심으로 구성됩니다. 회사 자료 기준 브랜드는 2026년 세럼, 앰플, 크림 구색을 새롭게 하여 리론칭을 진행하고 있습니다.",
-     "라인은 두 블록으로 나뉩니다. 50ml 세럼: 광채와 균일한 톤을 위한 글루타티온, 바쿠치올(레티놀의 식물성 대안), 모공 케어용. Crown 라인은 당근, 이데베논(Benone), EGF 콜라겐을 담은 30ml 앰플과 판테놀 영양 크림으로 구성됩니다. 뷰티 리테일, 약국 채널, 이커머스에 적합하며 한국에서의 도매 공급으로 진행됩니다."
-    ],
-    "itemNotes": [
-     "피부 광채와 톤 정돈을 위한 Glutathione 세럼.",
-     "레티놀의 식물성 대안인 Bakuchiol이 함유된 리페어 세럼.",
-     "모공 케어를 위한 퓨리파잉 세럼.",
-     "집중 영양을 위한 Crown 라인의 Panthenol 영양 크림.",
-     "피부 광채를 위한 Crown 라인의 당근 비타민 앰플.",
-     "Crown 라인의 Master Benone 앰플. 이데베논과 콜라겐 함유로, 회사에 따르면 색소침착과 여드름 자국 관리에 사용됩니다.",
-     "Crown 라인의 Collagen·EGF 복합 리커버리 앰플."
-    ]
-   },
-   "zh": {
-    "seoTitle": "RUDIA (DREAMCOS) — 精华与安瓶 · Teranova",
-    "seoDesc": "RUDIA 是 DREAMCOS 集团的功能性护理品牌，配方活性成分鲜明：谷胱甘肽、补骨脂酚、泛醇、艾地苯、含 EGF 的胶原蛋白。50 毫升精华与 Crown 线 30 毫升安瓶。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "精华与安瓶中的活性配方",
-    "about": [
-     "RUDIA 是韩国 DREAMCOS 集团旗下的功能性护理品牌，面向敏感肌，围绕辨识度高的活性成分构建：谷胱甘肽、烟酰胺与补骨脂酚。据公司资料，品牌将在 2026 年重新启动，并更新精华、安瓶与面霜的产品阵容。",
-     "系列分为两个部分。50 毫升精华：含谷胱甘肽用于光泽与均匀肤色、含补骨脂酚（视黄醇的植物替代成分）、毛孔护理款。Crown 线为 30 毫升安瓶——胡萝卜、艾地苯、含 EGF 的胶原蛋白——以及含泛醇的滋养面霜。这一组合适合美妆零售、药妆渠道与电商；韩国批发供应。"
-    ],
-    "itemNotes": [
-     "含谷胱甘肽的精华液，提亮并均匀肤色。",
-     "含 Bakuchiol（补骨脂酚，视黄醇的植物替代成分）的修护精华液。",
-     "呵护毛孔的净化精华液。",
-     "Crown 系列含泛醇的滋养面霜，深度滋润肌肤。",
-     "Crown 系列含胡萝卜的维生素安瓶，令肌肤焕发光彩。",
-     "Crown 系列的 Master Benone 安瓶，含艾地苯与胶原蛋白；据该公司介绍，针对色素沉着与痘印。",
-     "Crown 系列含胶原蛋白与 EGF 复合成分的修护安瓶。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "RUDIA (DREAMCOS) — 美容液とアンプル · Teranova",
-    "seoDesc": "RUDIA は DREAMCOS グループの機能性ケアブランド：グルタチオン、バクチオール、パンテノール、イデベノン、EGF 配合コラーゲン。50 mL の美容液と Crown ラインの 30 mL アンプル。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "美容液とアンプルのアクティブ処方",
-    "about": [
-     "RUDIA は韓国の DREAMCOS グループのポートフォリオにある機能性ケアブランドで、敏感肌に向け、分かりやすい有効成分——グルタチオン、ナイアシンアミド、バクチオール——を軸に構成されています。会社提供の情報によると、ブランドは 2026 年にリニューアルされ、美容液、アンプル、クリームの品揃えが刷新されます。",
-     "ラインは二つのブロックに分かれます。50 mL の美容液：ツヤと均一な肌色のためのグルタチオン配合、バクチオール配合(レチノールの植物由来の代替成分)、毛穴ケア用。Crown ラインは 30 mL のアンプル——ニンジン、イデベノン、EGF 配合コラーゲン——と、パンテノール配合の栄養クリームです。ビューティー小売、ドラッグストアチャネル、EC に扱いやすい構成で、韓国からの卸売供給となります。"
-    ],
-    "itemNotes": [
-     "グルタチオン配合で肌にツヤを与え、トーンを整える美容液。",
-     "Bakuchiol（バクチオール、レチノールの植物由来代替成分）配合の修復美容液。",
-     "毛穴ケアのための浄化美容液。",
-     "Crown ラインのパンテノール配合栄養クリーム、肌を集中的に保湿。",
-     "Crown ラインのにんじん配合ビタミンアンプル、肌にツヤを与える。",
-     "Crown ラインの Master Benone アンプル。イデベノンとコラーゲン配合で、同社によると色素沈着とニキビ跡にアプローチします。",
-     "Crown ラインのコラーゲンと EGF 複合成分配合の修復アンプル。"
-    ]
-   },
-   "it": {
-    "seoTitle": "RUDIA (DREAMCOS) — sieri e fiale · Teranova",
-    "seoDesc": "RUDIA — brand di cura funzionale del gruppo DREAMCOS con formule attive: glutatione, bakuchiol, pantenolo, idebenone, collagene con EGF. Sieri da 50 ml e fiale da 30 ml della linea Crown. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Formule attive in sieri e fiale per la routine",
-    "about": [
-     "RUDIA è il brand di cura funzionale nel portafoglio del gruppo coreano DREAMCOS, orientato alle pelli sensibili e costruito attorno ad attivi riconoscibili: glutatione, niacinamide e bakuchiol. Secondo i dati dell'azienda, il brand è in fase di rilancio nel 2026 con un assortimento rinnovato di sieri, fiale e creme.",
-     "La linea si divide in due blocchi. Sieri da 50 ml: con glutatione per luminosità e incarnato uniforme, con bakuchiol (alternativa vegetale al retinolo) e per la cura dei pori. La linea Crown comprende fiale da 30 ml con carota, idebenone (Benone) e collagene con EGF e una crema nutriente al pantenolo. L'insieme è comodo per beauty retail, canale farmacia ed e-commerce; forniture all'ingrosso dalla Corea."
-    ],
-    "itemNotes": [
-     "Siero al glutatione per la luminosità e l'uniformità dell'incarnato.",
-     "Siero riparatore al bakuchiol (alternativa vegetale al retinolo).",
-     "Siero purificante per la cura dei pori.",
-     "Crema nutriente al pantenolo della linea Crown per un nutrimento intensivo della pelle.",
-     "Fiala vitaminica alla carota della linea Crown per la luminosità della pelle.",
-     "Fiala Master Benone della linea Crown con idebenone e collagene; secondo l’azienda agisce su iperpigmentazione e segni post-acne.",
-     "Fiala riparatrice con collagene e complesso EGF della linea Crown."
-    ]
-   },
-   "de": {
-    "seoTitle": "RUDIA (DREAMCOS) — Seren und Ampullen · Teranova",
-    "seoDesc": "RUDIA — Marke funktioneller Pflege der Gruppe DREAMCOS mit aktiven Formeln: Glutathion, Bakuchiol, Panthenol, Idebenon, Kollagen mit EGF. Seren 50 ml und Ampullen 30 ml der Linie Crown. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Aktive Formeln in Seren und Ampullen für die Pflege",
-    "about": [
-     "RUDIA ist eine Marke funktioneller Pflege im Portfolio der koreanischen Gruppe DREAMCOS, ausgerichtet auf empfindliche Haut und aufgebaut rund um bekannte aktive Komponenten: Glutathion, Niacinamid und Bakuchiol. Laut Unternehmensangaben durchläuft die Marke 2026 einen Relaunch mit einem erneuerten Sortiment an Seren, Ampullen und Cremes.",
-     "Die Serie gliedert sich in zwei Blöcke. Seren zu 50 ml: mit Glutathion für Strahlkraft und einen ebenmäßigen Teint, mit Bakuchiol (pflanzliche Alternative zu Retinol) und zur Pflege der Poren. Die Linie Crown umfasst Ampullen zu 30 ml mit Karotte, Idebenon (Benone) und Kollagen mit EGF sowie eine nährende Creme mit Panthenol. Das Set eignet sich für Beauty-Retail, den Apothekenkanal und E-Commerce; Großhandelslieferungen aus Korea."
-    ],
-    "itemNotes": [
-     "Serum mit Glutathion für Strahlkraft und einen ebenmäßigen Hautton.",
-     "Regenerierendes Serum mit Bakuchiol (pflanzliche Alternative zu Retinol).",
-     "Klärendes Serum zur Porenpflege.",
-     "Pflegende Creme mit Panthenol der Crown Linie für intensive Hautpflege.",
-     "Vitamin-Ampulle mit Karotte der Crown Linie für strahlende Haut.",
-     "Master-Benone-Ampulle der Crown-Linie mit Idebenon und Kollagen; nach Angaben des Unternehmens gegen Pigmentflecken und Post-Akne-Spuren.",
-     "Regenerierende Ampulle mit Kollagen und EGF-Komplex der Crown Linie."
-    ]
-   },
-   "fr": {
-    "seoTitle": "RUDIA (DREAMCOS) — sérums et ampoules · Teranova",
-    "seoDesc": "RUDIA — marque de soin fonctionnel du groupe DREAMCOS aux formules actives : glutathion, bakuchiol, panthénol, idébénone, collagène avec EGF. Sérums 50 ml et ampoules 30 ml de la ligne Crown. Approvisionnement en gros via Teranova.",
-    "tagline": "Formules actives en sérums et ampoules pour le soin",
-    "about": [
-     "RUDIA est une marque de soin fonctionnel du portefeuille du groupe coréen DREAMCOS, orientée vers les peaux sensibles et construite autour d'actifs reconnaissables : glutathion, niacinamide et bakuchiol. Selon les données de l'entreprise, la marque connaît un relancement en 2026 avec un assortiment renouvelé de sérums, d'ampoules et de crèmes.",
-     "La gamme se divise en deux blocs. Les sérums de 50 ml : au glutathion pour l'éclat et l'uniformité du teint, au bakuchiol (alternative végétale au rétinol) et pour le soin des pores. La ligne Crown réunit des ampoules de 30 ml à la carotte, à l’idébénone (Benone) et au collagène avec EGF ainsi qu'une crème nourrissante au panthénol. Cet ensemble convient au retail beauté, au canal pharmaceutique et à l'e-commerce ; approvisionnement en gros depuis la Corée."
-    ],
-    "itemNotes": [
-     "Sérum au glutathion pour l'éclat et l'uniformité du teint.",
-     "Sérum réparateur au bakuchiol (alternative végétale au rétinol).",
-     "Sérum purifiant pour le soin des pores.",
-     "Crème nourrissante au panthénol de la ligne Crown pour une nutrition intense de la peau.",
-     "Ampoule vitaminée à la carotte de la ligne Crown pour l'éclat de la peau.",
-     "Ampoule Master Benone de la ligne Crown à l’idébénone et au collagène ; selon l’entreprise, elle agit sur la pigmentation et les marques post-acné.",
-     "Ampoule réparatrice au collagène et au complexe EGF de la ligne Crown."
-    ]
-   },
-   "tr": {
-    "seoTitle": "RUDIA (DREAMCOS) — serum ve ampuller · Teranova",
-    "seoDesc": "RUDIA — DREAMCOS grubunun aktif formüllü işlevsel bakım markası: glutatyon, bakuchiol, pantenol, idebenon, EGF içeren kolajen. 50 ml serumlar ve Crown serisinin 30 ml ampulleri. Kore'den toptan tedarik Teranova aracılığıyla.",
-    "tagline": "Serum ve ampullerde aktif bakım formülleri",
-    "about": [
-     "RUDIA, Kore menşeli DREAMCOS grubunun portföyünde yer alan, hassas cilde yönelik ve tanınan aktif bileşenler etrafında kurulu işlevsel bakım markasıdır: glutatyon, niasinamid ve bakuchiol. Şirket verilerine göre marka, yenilenmiş serum, ampul ve krem yelpazesiyle 2026'da yeniden lansmandan geçiyor.",
-     "Seri iki bölüme ayrılır. 50 ml serumlar: ışıltı ve eşit ton için glutatyonlu, bakuchiollü (retinolün bitkisel alternatifi) ve gözenek bakımı için olan. Crown serisi ise havuç, idebenon (Benone) ve EGF içeren kolajenli 30 ml ampuller ile pantenollü besleyici kremden oluşur. Bu set güzellik perakendesi, eczane kanalı ve e-ticaret için elverişlidir; Kore'den toptan tedarik."
-    ],
-    "itemNotes": [
-     "Cilde ışıltı ve ton eşitliği kazandıran glutatyonlu serum.",
-     "Bakuchiol içeren onarıcı serum (retinole bitkisel alternatif).",
-     "Gözenek bakımı için arındırıcı serum.",
-     "Cildi yoğun besleyen Crown serisi pantenollü besleyici krem.",
-     "Cilde ışıltı veren Crown serisi havuçlu vitamin ampulü.",
-     "Crown serisinin Master Benone ampulü; idebenon ve kolajen içerir, şirketin verdiği bilgiye göre pigmentasyon ve akne izlerine yöneliktir.",
-     "Crown serisi kolajen ve EGF kompleksli onarıcı ampul."
-    ]
-   },
-   "es": {
-    "seoTitle": "RUDIA (DREAMCOS) — sérums y ampollas · Teranova",
-    "seoDesc": "RUDIA es la marca de cuidado funcional del grupo DREAMCOS, con fórmulas activas: glutatión, bakuchiol, idebenona y colágeno con EGF. Sérums de 50 ml y ampollas de 30 ml de la línea Crown. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Fórmulas activas en sérums y ampollas de cuidado",
-    "about": [
-     "RUDIA es la marca de cuidado funcional dentro del portafolio del grupo coreano DREAMCOS, orientada a la piel sensible y construida alrededor de activos muy reconocibles: glutatión, niacinamida y bakuchiol. Según datos de la empresa, la marca atraviesa un relanzamiento en 2026 con un surtido renovado de sérums, ampollas y cremas.",
-     "La línea se divide en dos bloques. Sérums de 50 ml: con glutatión para la luminosidad y el tono uniforme, con bakuchiol (alternativa vegetal al retinol) y para el cuidado de los poros. La línea Crown reúne ampollas de 30 ml con zanahoria, idebenona (Benone) y colágeno con EGF, y una crema nutritiva con pantenol. El conjunto encaja en retail de belleza, canal farmacéutico y comercio electrónico; suministro mayorista desde Corea."
-    ],
-    "itemNotes": [
-     "Sérum con glutatión para la luminosidad y la uniformidad del tono de la piel.",
-     "Sérum reparador con bakuchiol (alternativa vegetal al retinol).",
-     "Sérum purificante para el cuidado de los poros.",
-     "Crema nutritiva con pantenol de la línea Crown para una nutrición intensiva de la piel.",
-     "Ampolla vitamínica con zanahoria de la línea Crown para la luminosidad de la piel.",
-     "Ampolla Master Benone de la línea Crown con idebenona y colágeno; según la empresa, actúa sobre la pigmentación y las marcas post-acné.",
-     "Ampolla reparadora con colágeno y complejo EGF de la línea Crown."
-    ]
-   },
-   "pt": {
-    "seoTitle": "RUDIA (DREAMCOS) — séruns e ampolas · Teranova",
-    "seoDesc": "RUDIA é a marca de cuidado funcional do grupo DREAMCOS, com fórmulas ativas: glutationa, bakuchiol, pantenol, idebenona e colágeno com EGF. Séruns de 50 ml e ampolas de 30 ml da linha Crown. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Fórmulas ativas em séruns e ampolas de tratamento",
-    "about": [
-     "A RUDIA é a marca de cuidado funcional no portfólio do grupo coreano DREAMCOS, voltada à pele sensível e organizada em torno de ativos bem conhecidos: glutationa, niacinamida e bakuchiol. Segundo dados da empresa, a marca passa por um relançamento em 2026, com sortimento renovado de séruns, ampolas e cremes.",
-     "A linha se divide em dois blocos. Séruns de 50 ml: com glutationa para viço e tom uniforme, com bakuchiol (alternativa vegetal ao retinol) e para o cuidado dos poros. Já a linha Crown traz ampolas de 30 ml com cenoura, idebenona (Benone) e colagénio com EGF, além de um creme nutritivo com pantenol. O conjunto serve ao varejo de beleza, ao canal farmacêutico e ao e-commerce; fornecimento por atacado da Coreia."
-    ],
-    "itemNotes": [
-     "Sérum com glutationa para a luminosidade e uniformidade do tom da pele.",
-     "Sérum reparador com bakuchiol (alternativa vegetal ao retinol).",
-     "Sérum purificante para o cuidado dos poros.",
-     "Creme nutritivo com pantenol da linha Crown para uma nutrição intensiva da pele.",
-     "Ampola vitamínica com cenoura da linha Crown para a luminosidade da pele.",
-     "Ampola Master Benone da linha Crown com idebenona e colagénio; segundo a empresa, atua na pigmentação e nas marcas pós-acne.",
-     "Ampola reparadora com colágeno e complexo EGF da linha Crown."
-    ]
-   }
-  }
- },
- {
-  "slug": "lovelycc",
-  "supplierSlug": "dreamcos",
-  "category": "cosmetics",
-  "lineName": "LOVELYCC",
-  "items": [
-   {
-    "name": "LOVELYCC Pink Cover Essence Sun Cushion SPF50+ PA+++",
-    "img": "/img/suppliers/dreamcos/products/lovelycc-pink-cover-sun-cushion.jpg",
-    "volume": "15 g",
-    "certs": []
-   },
-   {
-    "name": "LOVELYCC Magic Cover Cheat CC Cream SPF50+ PA+++",
-    "img": "/img/suppliers/dreamcos/products/lovelycc-magic-cover-cc-cream.jpg",
-    "volume": "50 ml",
-    "certs": []
-   },
-   {
-    "name": "LOVELYCC Magic Cover Cheat 9-Color Eyeshadow Palette",
-    "img": "/img/suppliers/dreamcos/products/lovelycc-eyeshadow-palette.jpg",
-    "volume": "9 g",
-    "certs": []
-   },
-   {
-    "name": "LOVELYCC Magic Cover Cheat Concealer",
-    "img": "/img/suppliers/dreamcos/products/lovelycc-magic-cover-concealer.jpg",
-    "volume": "12 g",
-    "certs": []
-   },
-   {
-    "name": "LOVELYCC Sweet Candy Blusher",
-    "img": "/img/suppliers/dreamcos/products/lovelycc-sweet-candy-blusher.jpg",
-    "volume": "4.5 g",
-    "certs": []
-   },
-   {
-    "name": "LOVELYCC Sweet Lip Oil",
-    "img": "/img/suppliers/dreamcos/products/lovelycc-sweet-lip-oil.jpg",
-    "volume": "5 ml",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — макияж и солнцезащита · Teranova",
-    "seoDesc": "LOVELYCC — бренд декоративной косметики группы DREAMCOS для молодой аудитории: солнцезащитный кушон и CC-крем SPF50+ PA+++, палетка теней на 9 оттенков, консилер, румяна, масло для губ. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Доступный макияж и солнцезащита для молодой аудитории",
-    "about": [
-     "LOVELYCC — флагманский собственный бренд группы DREAMCOS в сегменте доступной декоративной косметики. Ставка сделана на молодую аудиторию и понятный набор базовых средств: покрытие и солнцезащита в одном продукте, простое нанесение, компактные форматы. Узнаваемое ядро бренда — линия Magic Cover Cheat.",
-     "В линейке шесть позиций: солнцезащитный кушон с эссенцией и эффектом тон-ап SPF50+ PA+++ (15 г), CC-крем SPF50+ PA+++ (50 мл), палетка теней на 9 оттенков, консилер, румяна Sweet Candy и ухаживающее масло для губ в трёх оттенках. Ценовой сегмент и форматы рассчитаны на маркетплейсы, дрогери-сети и мультибрендовую розницу; оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
-    ],
-    "itemNotes": [
-     "Солнцезащитный кушон с эссенцией и эффектом тон-ап, SPF50+ PA+++.",
-     "CC-крем с покрытием и солнцезащитой SPF50+ PA+++.",
-     "Палетка теней для век на 9 оттенков.",
-     "Консилер для маскировки несовершенств.",
-     "Компактные румяна Sweet Candy.",
-     "Ухаживающее масло для губ; 3 оттенка на выбор."
-    ]
-   },
-   "en": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — make-up and sun care · Teranova",
-    "seoDesc": "LOVELYCC is the colour cosmetics brand of the DREAMCOS group for a young audience: an SPF50+ PA+++ sun cushion and CC cream, a 9-shade eyeshadow palette, a concealer, blush and a lip oil. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Affordable make-up and sun care for a young audience",
-    "about": [
-     "LOVELYCC is the flagship own brand of the DREAMCOS group in the affordable colour cosmetics segment. The focus is on a young audience and a clear set of basics: coverage and sun protection in one product, simple application, compact formats. The recognizable core of the brand is the Magic Cover Cheat line.",
-     "The range has six items: a sun cushion with essence and a tone-up effect, SPF50+ PA+++ (15 g), a CC cream SPF50+ PA+++ (50 ml), a 9-shade eyeshadow palette, a concealer, Sweet Candy blush and a caring lip oil in three shades. The price segment and formats are designed for marketplaces, drugstore chains and multi-brand retail; wholesale supply from Korea, with terms and territories agreed at the deal stage."
-    ],
-    "itemNotes": [
-     "Sun cushion with essence and a tone-up effect, SPF50+ PA+++.",
-     "CC cream with coverage and sun protection, SPF50+ PA+++.",
-     "9-color eyeshadow palette.",
-     "Concealer for covering imperfections.",
-     "Sweet Candy compact blusher.",
-     "Nourishing lip oil; 3 shades to choose from."
-    ]
-   },
-   "ko": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — 메이크업과 선케어 · Teranova",
-    "seoDesc": "LOVELYCC는 젊은 소비자를 위한 DREAMCOS 그룹의 색조 화장품 브랜드입니다: SPF50+ PA+++ 선쿠션과 CC 크림, 9색 아이섀도 팔레트, 컨실러, Sweet Candy 블러셔, 케어 립 오일. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "젊은 소비자를 위한 합리적인 메이크업과 선케어",
-    "about": [
-     "LOVELYCC는 합리적인 가격대의 색조 화장품 세그먼트에서 DREAMCOS 그룹이 내세우는 플래그십 자체 브랜드입니다. 젊은 소비자와 알기 쉬운 기본 아이템 구성에 초점을 맞췄습니다: 커버와 자외선 차단을 한 제품에, 간편한 발림, 컴팩트한 포맷. 브랜드의 상징적인 축은 Magic Cover Cheat 라인입니다.",
-     "라인은 여섯 품목으로 구성됩니다: 에센스와 톤업 효과를 담은 선쿠션 SPF50+ PA+++ (15g), CC 크림 SPF50+ PA+++ (50ml), 9색 아이섀도 팔레트, 컨실러, Sweet Candy 블러셔, 세 가지 컬러의 케어 립 오일. 가격대와 포맷은 마켓플레이스, 드러그스토어 체인, 멀티브랜드 리테일을 겨냥하며, 한국에서의 도매 공급으로 조건과 지역은 거래 단계에서 확정합니다."
-    ],
-    "itemNotes": [
-     "에센스와 톤업 효과의 선 쿠션, SPF50+ PA+++.",
-     "커버력과 자외선 차단을 겸한 CC 크림, SPF50+ PA+++.",
-     "9색 아이섀도 팔레트.",
-     "결점을 커버하는 컨실러.",
-     "Sweet Candy 컴팩트 블러셔.",
-     "케어 립 오일; 3가지 색상 선택 가능."
-    ]
-   },
-   "zh": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — 彩妆与防晒 · Teranova",
-    "seoDesc": "LOVELYCC 是 DREAMCOS 集团面向年轻消费者的彩妆品牌：SPF50+ PA+++ 防晒气垫与 CC 霜、9 色眼影盘、遮瑕、腮红、唇部精华油。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "面向年轻消费者的平价彩妆与防晒",
-    "about": [
-     "LOVELYCC 是 DREAMCOS 集团在平价彩妆领域的旗舰自有品牌。重点放在年轻消费者与一套清晰的基础单品上：遮瑕与防晒合于一体、上妆简单、规格轻巧。品牌最具辨识度的核心是 Magic Cover Cheat 系列。",
-     "系列共六个品项：含精华、带提亮效果的 SPF50+ PA+++ 防晒气垫（15 克）、SPF50+ PA+++ CC 霜（50 毫升）、9 色眼影盘、遮瑕、Sweet Candy 腮红，以及三个色号的唇部护理油。价格带与规格面向电商平台、日化连锁与多品牌零售；韩国批发供应，条件与区域在交易阶段确定。"
-    ],
-    "itemNotes": [
-     "带精华与提亮效果的防晒气垫，SPF50+ PA+++。",
-     "具遮瑕与防晒功效的 CC 霜，SPF50+ PA+++。",
-     "9 色眼影盘。",
-     "遮盖瑕疵的遮瑕膏。",
-     "Sweet Candy 系列粉饼腮红。",
-     "润养唇部的唇油，3 种色号可选。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — メイクと日焼け止め · Teranova",
-    "seoDesc": "LOVELYCC は DREAMCOS グループの若年層向けメイクアップブランド：SPF50+ PA+++ の日焼け止めクッションと CC クリーム、9色アイシャドウパレット、コンシーラー、チーク、リップオイル。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "若い世代に向けた手に取りやすいメイクと日焼け止め",
-    "about": [
-     "LOVELYCC は、手に取りやすい価格帯のメイクアップ分野における DREAMCOS グループの旗艦プライベートブランドです。若い世代と、分かりやすいベーシックアイテムの構成に軸足を置いています：カバーと日焼け止めが一つになった製品、簡単なつけ心地、コンパクトなサイズ。ブランドの中核として知られるのが Magic Cover Cheat ラインです。",
-     "ラインは6品目です：エッセンス入りでトーンアップ効果のある SPF50+ PA+++ 日焼け止めクッション(15 g)、SPF50+ PA+++ の CC クリーム(50 mL)、9色のアイシャドウパレット、コンシーラー、Sweet Candy チーク、3色展開のリップケアオイル。価格帯とフォーマットはマーケットプレイス、ドラッグストアチェーン、マルチブランド小売を想定しています。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
-    ],
-    "itemNotes": [
-     "エッセンスとトーンアップ効果を備えたサンクッション、SPF50+ PA+++。",
-     "カバー力と紫外線防止機能を備えた CC クリーム、SPF50+ PA+++。",
-     "9 色アイシャドウパレット。",
-     "肌の欠点をカバーするコンシーラー。",
-     "Sweet Candy のコンパクトチーク。",
-     "唇をケアするリップオイル、3 色から選択可能。"
-    ]
-   },
-   "it": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — make-up e SPF · Teranova",
-    "seoDesc": "LOVELYCC — brand di make-up del gruppo DREAMCOS per un pubblico giovane: cushion solare e CC cream SPF50+ PA+++, palette da 9 ombretti, correttore, blush e olio labbra. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Make-up accessibile e protezione solare per un pubblico giovane",
-    "about": [
-     "LOVELYCC è il principale brand proprietario del gruppo DREAMCOS nel segmento del make-up accessibile. La scommessa è su un pubblico giovane e su un set essenziale e comprensibile: coprenza e protezione solare in un unico prodotto, applicazione semplice, formati compatti. Il nucleo riconoscibile del brand è la linea Magic Cover Cheat.",
-     "La linea conta sei referenze: cushion solare con essenza ed effetto tone-up SPF50+ PA+++ (15 g), CC cream SPF50+ PA+++ (50 ml), palette da 9 ombretti, correttore, blush Sweet Candy e olio labbra trattante in tre tonalità. Fascia di prezzo e formati sono pensati per marketplace, catene drugstore e retail multimarca; forniture all'ingrosso dalla Corea, condizioni e territori si definiscono in fase di trattativa."
-    ],
-    "itemNotes": [
-     "Cushion solare con essenza ed effetto tone-up, SPF50+ PA+++.",
-     "CC cream coprente con protezione solare SPF50+ PA+++.",
-     "Palette di ombretti in 9 tonalità.",
-     "Correttore per mascherare le imperfezioni.",
-     "Blush compatto Sweet Candy.",
-     "Olio labbra nutriente; 3 tonalità a scelta."
-    ]
-   },
-   "de": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — Make-up & Sonnenschutz · Teranova",
-    "seoDesc": "LOVELYCC — Marke dekorativer Kosmetik der Gruppe DREAMCOS für ein junges Publikum: Sonnenschutz-Cushion und CC-Creme SPF50+ PA+++, Lidschattenpalette mit 9 Tönen, Concealer, Rouge, Lippenöl. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Erschwingliches Make-up und Sonnenschutz für junges Publikum",
-    "about": [
-     "LOVELYCC ist die Flaggschiff-Eigenmarke der Gruppe DREAMCOS im Segment erschwinglicher dekorativer Kosmetik. Der Fokus liegt auf einem jungen Publikum und einem verständlichen Set an Basisprodukten: Abdeckung und Sonnenschutz in einem Produkt, einfaches Auftragen, kompakte Formate. Der bekannte Kern der Marke ist die Linie Magic Cover Cheat.",
-     "Die Serie umfasst sechs Positionen: ein Sonnenschutz-Cushion mit Essenz und Tone-up-Effekt SPF50+ PA+++ (15 g), eine CC-Creme SPF50+ PA+++ (50 ml), eine Lidschattenpalette mit 9 Tönen, einen Concealer, das Rouge Sweet Candy und ein pflegendes Lippenöl in drei Tönen. Preissegment und Formate sind auf Marktplätze, Drogerieketten und den Multibrand-Einzelhandel ausgelegt; Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
-    ],
-    "itemNotes": [
-     "Sonnenschutz-Cushion mit Essenz und Tone-up-Effekt, SPF50+ PA+++.",
-     "Deckende CC-Creme mit Sonnenschutz SPF50+ PA+++.",
-     "Lidschatten-Palette mit 9 Farbtönen.",
-     "Concealer zum Kaschieren von Unreinheiten.",
-     "Kompakt-Rouge Sweet Candy.",
-     "Pflegendes Lippenöl; 3 Farbtöne zur Auswahl."
-    ]
-   },
-   "fr": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — maquillage et solaires · Teranova",
-    "seoDesc": "LOVELYCC — marque de maquillage du groupe DREAMCOS pour un public jeune : cushion solaire et crème CC SPF50+ PA+++, palette de 9 fards à paupières, correcteur, blush, huile à lèvres. Approvisionnement en gros via Teranova.",
-    "tagline": "Maquillage accessible et solaires pour un public jeune",
-    "about": [
-     "LOVELYCC est la marque propre phare du groupe DREAMCOS dans le segment du maquillage accessible. L'accent est mis sur un public jeune et sur un ensemble lisible de produits de base : couvrance et protection solaire dans un seul produit, application simple, formats compacts. Le cœur reconnaissable de la marque est la ligne Magic Cover Cheat.",
-     "La gamme compte six références : un cushion solaire à l'essence et à effet tone-up SPF50+ PA+++ (15 g), une crème CC SPF50+ PA+++ (50 ml), une palette de 9 fards à paupières, un correcteur, le blush Sweet Candy et une huile à lèvres soin en trois teintes. Le segment de prix et les formats visent les marketplaces, les chaînes de drogueries et le retail multimarque ; approvisionnement en gros depuis la Corée, conditions et territoires se précisent au moment de la transaction."
-    ],
-    "itemNotes": [
-     "Coussin solaire à l'essence effet tone-up, SPF50+ PA+++.",
-     "CC crème couvrante avec protection solaire SPF50+ PA+++.",
-     "Palette de fards à paupières 9 teintes.",
-     "Correcteur pour camoufler les imperfections.",
-     "Blush compact Sweet Candy.",
-     "Huile à lèvres soin ; 3 teintes au choix."
-    ]
-   },
-   "tr": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — makyaj ve güneş · Teranova",
-    "seoDesc": "LOVELYCC — DREAMCOS grubunun genç kitleye yönelik makyaj markası: SPF50+ PA+++ güneş korumalı cushion ve CC krem, 9 tonluk far paleti, kapatıcı, allık, dudak yağı. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Genç kitle için uygun fiyatlı makyaj ve güneş koruması",
-    "about": [
-     "LOVELYCC, DREAMCOS grubunun uygun fiyatlı makyaj segmentindeki amiral kendi markasıdır. Odak genç kitlede ve anlaşılır bir temel ürün setinde: tek üründe kapatıcılık ve güneş koruması, kolay uygulama, kompakt formatlar. Markanın tanınan çekirdeği Magic Cover Cheat serisidir.",
-     "Seride altı ürün yer alır: esanslı ve ton açıcı etkili SPF50+ PA+++ güneş korumalı cushion (15 g), SPF50+ PA+++ CC krem (50 ml), 9 tonluk far paleti, kapatıcı, Sweet Candy allık ve üç tonda bakım yapan dudak yağı. Fiyat segmenti ve formatlar pazar yerleri, drogeri zincirleri ve çok markalı perakende için tasarlanmıştır; Kore'den toptan tedarik, koşullar ve bölgeler işlem aşamasında netleşir."
-    ],
-    "itemNotes": [
-     "Ton açıcı etkili esanslı güneş koruyucu cushion, SPF50+ PA+++.",
-     "Kapatıcılık sağlayan güneş korumalı CC krem, SPF50+ PA+++.",
-     "9 tonluk göz farı paleti.",
-     "Kusurları kapatan konsiler.",
-     "Sweet Candy kompakt allık.",
-     "Bakım sağlayan dudak yağı; 3 ton seçeneği."
-    ]
-   },
-   "es": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — maquillaje y SPF · Teranova",
-    "seoDesc": "LOVELYCC es la marca de maquillaje del grupo DREAMCOS para público joven: cushion solar y CC cream SPF50+ PA+++, paleta de 9 sombras, corrector, colorete y aceite labial. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Maquillaje asequible y protección solar para público joven",
-    "about": [
-     "LOVELYCC es la marca propia insignia del grupo DREAMCOS en el segmento del maquillaje asequible. La apuesta va dirigida al público joven y a un conjunto claro de básicos: cobertura y protección solar en un mismo producto, aplicación sencilla y formatos compactos. El núcleo reconocible de la marca es la línea Magic Cover Cheat.",
-     "La línea reúne seis referencias: cushion solar con esencia y efecto tone-up SPF50+ PA+++ (15 g), CC cream SPF50+ PA+++ (50 ml), paleta de 9 sombras, corrector, colorete Sweet Candy y aceite labial de cuidado en tres tonos. El segmento de precio y los formatos apuntan a marketplaces, cadenas de droguería y retail multimarca; suministro mayorista desde Corea, con condiciones y territorios que se concretan en la etapa de la operación."
-    ],
-    "itemNotes": [
-     "Cushion solar con esencia y efecto tono-up, SPF50+ PA+++.",
-     "CC cream con cobertura y protección solar SPF50+ PA+++.",
-     "Paleta de sombras de ojos de 9 tonos.",
-     "Corrector para disimular las imperfecciones.",
-     "Colorete compacto Sweet Candy.",
-     "Aceite labial nutritivo; 3 tonos a elegir."
-    ]
-   },
-   "pt": {
-    "seoTitle": "LOVELYCC (DREAMCOS) — maquiagem e solar · Teranova",
-    "seoDesc": "LOVELYCC é a marca de maquiagem do grupo DREAMCOS para o público jovem: cushion solar e CC cream SPF50+ PA+++, paleta com 9 sombras, corretivo, blush e óleo labial. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Maquiagem acessível e proteção solar para o público jovem",
-    "about": [
-     "A LOVELYCC é a marca própria de maior destaque do grupo DREAMCOS no segmento de maquiagem acessível. A aposta está no público jovem e num conjunto direto de itens básicos: cobertura e proteção solar num produto só, aplicação simples e formatos compactos. O núcleo mais reconhecido da marca é a linha Magic Cover Cheat.",
-     "São seis itens na linha: cushion solar com essência e efeito tone-up SPF50+ PA+++ (15 g), CC cream SPF50+ PA+++ (50 ml), paleta com 9 sombras, corretivo, blush Sweet Candy e óleo labial de tratamento em três tons. A faixa de preço e os formatos miram marketplaces, redes de drogaria e varejo multimarca; fornecimento por atacado da Coreia, com condições e territórios definidos na etapa da negociação."
-    ],
-    "itemNotes": [
-     "Cushion solar com essência e efeito tone-up, SPF50+ PA+++.",
-     "CC cream com cobertura e proteção solar SPF50+ PA+++.",
-     "Paleta de sombras para os olhos de 9 tons.",
-     "Corretor para disfarçar as imperfeições.",
-     "Blush compacto Sweet Candy.",
-     "Óleo labial nutritivo; 3 tons à escolha."
-    ]
-   }
-  }
- },
- {
-  "slug": "ladybiz",
-  "supplierSlug": "dreamcos",
-  "category": "cosmetics",
-  "lineName": "LADYBIZ",
-  "items": [
-   {
-    "name": "LADYBIZ City Girl Concealer Cushion SPF50+ PA+++",
-    "img": "/img/suppliers/dreamcos/products/ladybiz-concealer-cushion.jpg",
-    "volume": "12 g",
-    "certs": []
-   },
-   {
-    "name": "LADYBIZ City Girl Tone-Up One-Touch PDRN Sunscreen SPF50+ PA++++",
-    "img": "/img/suppliers/dreamcos/products/ladybiz-pdrn-sunscreen.jpg",
-    "volume": "45 ml",
-    "certs": []
-   },
-   {
-    "name": "LADYBIZ City Girl Glossy Tint",
-    "img": "/img/suppliers/dreamcos/products/ladybiz-glossy-tint.jpg",
-    "volume": "1.8 g",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — макияж City Girl · Teranova",
-    "seoDesc": "LADYBIZ — бренд декоративной косметики группы DREAMCOS: компактная линия City Girl из кушона-консилера SPF50+ PA+++, крема с эффектом тон-ап и PDRN SPF50+ PA++++ и глянцевого тинта. Оптовые поставки из Кореи и сопровождение сделки через Teranova.",
-    "tagline": "Стильный и практичный макияж на каждый день",
-    "about": [
-     "LADYBIZ — бренд декоративной косметики в портфеле корейской группы DREAMCOS. Идея бренда — стильный и практичный макияж на каждый день: лип-тинты, тени и кушон-консилеры без лишних шагов. Актуальная линия City Girl выдержана в городской повседневной эстетике и собрана из компактных многофункциональных средств.",
-     "Линия City Girl включает три позиции: кушон-консилер SPF50+ PA+++ (12 г), солнцезащитный крем с эффектом тон-ап и PDRN SPF50+ PA++++ (45 мл) и глянцевый тинт для губ (1,8 г). Короткий набор удобен как пробный завоз для бьюти-ретейла, маркетплейсов и дрогери-сетей: солнцезащита плюс два ходовых макияжных формата. Оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
-    ],
-    "itemNotes": [
-     "Кушон-консилер с солнцезащитой SPF50+ PA+++ линии City Girl.",
-     "Солнцезащитный крем с эффектом тон-ап и PDRN, SPF50+ PA++++.",
-     "Глянцевый тинт для губ линии City Girl."
-    ]
-   },
-   "en": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — City Girl make-up · Teranova",
-    "seoDesc": "LADYBIZ is the colour cosmetics brand of the DREAMCOS group: the compact City Girl line of an SPF50+ PA+++ cushion concealer, a tone-up cream with PDRN SPF50+ PA++++ and a glossy tint. Wholesale supply from Korea and deal support through Teranova.",
-    "tagline": "Stylish and practical make-up for every day",
-    "about": [
-     "LADYBIZ is a colour cosmetics brand in the portfolio of the Korean group DREAMCOS. The brand idea is stylish and practical make-up for every day: lip tints, eyeshadows and cushion concealers with no extra steps. The current City Girl line is kept in an urban everyday aesthetic and is assembled from compact multifunctional products.",
-     "The City Girl line includes three items: a cushion concealer SPF50+ PA+++ (12 g), a tone-up sun cream with PDRN SPF50+ PA++++ (45 ml) and a glossy lip tint (1.8 g). The short set is convenient as a trial shipment for beauty retail, marketplaces and drugstore chains: sun protection plus two fast-moving make-up formats. Wholesale supply from Korea; terms and territories are agreed at the deal stage."
-    ],
-    "itemNotes": [
-     "City Girl concealer cushion with sun protection, SPF50+ PA+++.",
-     "Tone-up sunscreen with PDRN, SPF50+ PA++++.",
-     "City Girl glossy lip tint."
-    ]
-   },
-   "ko": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — City Girl 메이크업 · Teranova",
-    "seoDesc": "LADYBIZ는 DREAMCOS 그룹의 색조 화장품 브랜드입니다: SPF50+ PA+++ 쿠션 컨실러, PDRN을 담은 SPF50+ PA++++ 톤업 크림, 글로시 틴트로 구성된 컴팩트한 City Girl 라인. 한국에서의 도매 공급 및 Teranova를 통한 거래 지원.",
-    "tagline": "매일을 위한 세련되고 실용적인 메이크업",
-    "about": [
-     "LADYBIZ는 한국 그룹 DREAMCOS 포트폴리오에 속한 색조 화장품 브랜드입니다. 브랜드의 아이디어는 매일을 위한 세련되고 실용적인 메이크업입니다: 군더더기 단계 없는 립 틴트, 아이섀도, 쿠션 컨실러. 현재의 City Girl 라인은 도시적인 데일리 감성으로 컴팩트한 다기능 제품들로 구성되었습니다.",
-     "City Girl 라인은 세 품목으로 구성됩니다: 쿠션 컨실러 SPF50+ PA+++ (12g), PDRN을 담은 톤업 선크림 SPF50+ PA++++ (45ml), 글로시 립 틴트 (1.8g). 짧은 구성은 뷰티 리테일, 마켓플레이스, 드러그스토어 체인의 시험 입고에 편리합니다: 선케어에 잘 나가는 메이크업 포맷 두 가지. 한국에서의 도매 공급이며, 조건과 지역은 거래 단계에서 확정합니다."
-    ],
-    "itemNotes": [
-     "자외선 차단 기능의 City Girl 컨실러 쿠션, SPF50+ PA+++.",
-     "PDRN 함유 톤업 선크림, SPF50+ PA++++.",
-     "City Girl 글로시 립 틴트."
-    ]
-   },
-   "zh": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — City Girl 彩妆 · Teranova",
-    "seoDesc": "LADYBIZ 是 DREAMCOS 集团的彩妆品牌：精简的 City Girl 系列，包含 SPF50+ PA+++ 气垫遮瑕、含 PDRN 的 SPF50+ PA++++ 提亮防晒霜与水光唇釉。韩国批发供应，通过 Teranova 提供交易支持。",
-    "tagline": "时髦又实用的日常妆容",
-    "about": [
-     "LADYBIZ 是韩国 DREAMCOS 集团旗下的彩妆品牌。品牌的想法是时髦而实用的日常妆容：唇釉、眼影与气垫遮瑕，不做多余的步骤。当前的 City Girl 系列贯彻都市日常美学，由紧凑的多功能单品组成。",
-     "City Girl 系列包含三个品项：SPF50+ PA+++ 气垫遮瑕（12 克）、含 PDRN 的提亮防晒霜 SPF50+ PA++++（45 毫升）与水光唇釉（1,8 克）。这样一个精简组合适合美妆零售、电商平台与日化连锁作为试销引入：防晒加两个走量的彩妆形态。韩国批发供应，条件与区域在交易阶段确定。"
-    ],
-    "itemNotes": [
-     "City Girl 系列带防晒功效的遮瑕气垫，SPF50+ PA+++。",
-     "带提亮效果并含 PDRN 的防晒霜，SPF50+ PA++++。",
-     "City Girl 系列亮泽唇釉。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — City Girl のメイク · Teranova",
-    "seoDesc": "LADYBIZ は DREAMCOS グループのメイクアップブランド：SPF50+ PA+++ のクッションコンシーラー、PDRN 配合 SPF50+ PA++++ のトーンアップクリーム、ツヤ感のあるティントからなるコンパクトな City Girl ライン。韓国からの卸売供給、Teranova による取引サポート。",
-    "tagline": "スタイリッシュで実用的な毎日のメイク",
-    "about": [
-     "LADYBIZ は、韓国の DREAMCOS グループのポートフォリオにあるメイクアップブランドです。ブランドの発想は、スタイリッシュで実用的な毎日のメイク：リップティント、アイシャドウ、クッションコンシーラーを、余計なステップなしで。現行の City Girl ラインは都会的な日常の美意識でまとめられ、コンパクトで多機能なアイテムで構成されています。",
-     "City Girl ラインは3品目です：SPF50+ PA+++ のクッションコンシーラー(12 g)、PDRN 配合のトーンアップ日焼け止めクリーム SPF50+ PA++++(45 mL)、ツヤ感のあるリップティント(1,8 g)。短い構成は、ビューティー小売、マーケットプレイス、ドラッグストアチェーンへのテスト導入に向いています：日焼け止めと、動きの速いメイクの2形態。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
-    ],
-    "itemNotes": [
-     "City Girl ラインの紫外線防止機能付きクッションコンシーラー、SPF50+ PA+++。",
-     "トーンアップ効果と PDRN 配合の日焼け止めクリーム、SPF50+ PA++++。",
-     "City Girl ラインのツヤ感リップティント。"
-    ]
-   },
-   "it": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — make-up City Girl · Teranova",
-    "seoDesc": "LADYBIZ — brand di make-up del gruppo DREAMCOS: la linea compatta City Girl con cushion correttore SPF50+ PA+++, crema tone-up con PDRN SPF50+ PA++++ e tinta labbra glossy. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Make-up di stile e pratico per tutti i giorni",
-    "about": [
-     "LADYBIZ è il brand di make-up nel portafoglio del gruppo coreano DREAMCOS. L'idea del brand è un trucco di stile e pratico per tutti i giorni: tinte labbra, ombretti e cushion correttori senza passaggi superflui. L'attuale linea City Girl segue un'estetica urbana quotidiana ed è composta da prodotti compatti e multifunzione.",
-     "La linea City Girl comprende tre referenze: cushion correttore SPF50+ PA+++ (12 g), crema solare con effetto tone-up e PDRN SPF50+ PA++++ (45 ml) e tinta labbra glossy (1,8 g). Un assortimento breve, comodo come primo carico di prova per beauty retail, marketplace e catene drugstore: protezione solare più due formati make-up di grande rotazione. Forniture all'ingrosso dalla Corea, condizioni e territori si definiscono in fase di trattativa."
-    ],
-    "itemNotes": [
-     "Cushion correttore con protezione solare SPF50+ PA+++ della linea City Girl.",
-     "Crema solare con effetto tone-up e PDRN, SPF50+ PA++++.",
-     "Tint labbra glossy della linea City Girl."
-    ]
-   },
-   "de": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — Make-up City Girl · Teranova",
-    "seoDesc": "LADYBIZ — Marke dekorativer Kosmetik der Gruppe DREAMCOS: die kompakte Linie City Girl aus Cushion-Concealer SPF50+ PA+++, Tone-up-Creme mit PDRN SPF50+ PA++++ und glänzendem Lippentint. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Stilvolles und praktisches Make-up für jeden Tag",
-    "about": [
-     "LADYBIZ ist eine Marke dekorativer Kosmetik im Portfolio der koreanischen Gruppe DREAMCOS. Die Idee der Marke ist stilvolles und praktisches Make-up für jeden Tag: Lip-Tints, Lidschatten und Cushion-Concealer ohne überflüssige Schritte. Die aktuelle Linie City Girl ist in urbaner Alltagsästhetik gehalten und aus kompakten multifunktionalen Produkten zusammengestellt.",
-     "Die Linie City Girl umfasst drei Positionen: einen Cushion-Concealer SPF50+ PA+++ (12 g), eine Sonnenschutzcreme mit Tone-up-Effekt und PDRN SPF50+ PA++++ (45 ml) und einen glänzenden Lippentint (1,8 g). Das kurze Set eignet sich als Testlieferung für Beauty-Retail, Marktplätze und Drogerieketten: Sonnenschutz plus zwei gängige Make-up-Formate. Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
-    ],
-    "itemNotes": [
-     "Concealer-Cushion mit Sonnenschutz SPF50+ PA+++ der City Girl Linie.",
-     "Sonnencreme mit Tone-up-Effekt und PDRN, SPF50+ PA++++.",
-     "Glänzender Lip Tint der City Girl Linie."
-    ]
-   },
-   "fr": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — maquillage City Girl · Teranova",
-    "seoDesc": "LADYBIZ — marque de maquillage du groupe DREAMCOS : la ligne compacte City Girl, cushion correcteur SPF50+ PA+++, crème tone-up au PDRN SPF50+ PA++++ et tint brillant. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Un maquillage élégant et pratique pour tous les jours",
-    "about": [
-     "LADYBIZ est une marque de maquillage du portefeuille du groupe coréen DREAMCOS. L'idée de la marque est un maquillage élégant et pratique pour tous les jours : tints à lèvres, fards à paupières et cushions correcteurs sans étapes superflues. La ligne actuelle City Girl est tenue dans une esthétique urbaine du quotidien et composée de produits compacts et multifonctions.",
-     "La ligne City Girl comprend trois références : un cushion correcteur SPF50+ PA+++ (12 g), une crème solaire à effet tone-up au PDRN SPF50+ PA++++ (45 ml) et un tint à lèvres brillant (1,8 g). Cet ensemble court fait un bon premier envoi pour le retail beauté, les marketplaces et les chaînes de drogueries : la protection solaire plus deux formats de maquillage porteurs. Approvisionnement en gros depuis la Corée ; conditions et territoires se précisent au moment de la transaction."
-    ],
-    "itemNotes": [
-     "Coussin correcteur avec protection solaire SPF50+ PA+++ de la ligne City Girl.",
-     "Crème solaire effet tone-up au PDRN, SPF50+ PA++++.",
-     "Teinte à lèvres brillante de la ligne City Girl."
-    ]
-   },
-   "tr": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — City Girl makyajı · Teranova",
-    "seoDesc": "LADYBIZ — DREAMCOS grubunun makyaj markası: SPF50+ PA+++ cushion kapatıcı, PDRN içeren SPF50+ PA++++ ton açıcı krem ve parlak tintten oluşan kompakt City Girl serisi. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Her güne uygun şık ve pratik makyaj",
-    "about": [
-     "LADYBIZ, Kore menşeli DREAMCOS grubunun portföyünde yer alan makyaj markasıdır. Markanın fikri her güne uygun şık ve pratik makyaj: gereksiz adımlar olmadan dudak tintleri, farlar ve cushion kapatıcılar. Güncel City Girl serisi şehirli günlük estetikte kurgulanmış, kompakt ve çok işlevli ürünlerden oluşur.",
-     "City Girl serisi üç üründen oluşur: SPF50+ PA+++ cushion kapatıcı (12 g), ton açıcı etkili ve PDRN içeren SPF50+ PA++++ güneş kremi (45 ml) ve parlak dudak tinti (1,8 g). Kısa set, güzellik perakendesi, pazar yerleri ve drogeri zincirleri için deneme sevkiyatı olarak elverişlidir: güneş koruması artı iki popüler makyaj formatı. Kore'den toptan tedarik, koşullar ve bölgeler işlem aşamasında netleşir."
-    ],
-    "itemNotes": [
-     "City Girl serisi güneş korumalı kapatıcı cushion, SPF50+ PA+++.",
-     "Ton açıcı etkili PDRN içeren güneş koruyucu krem, SPF50+ PA++++.",
-     "City Girl serisi parlak dudak tinti."
-    ]
-   },
-   "es": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — maquillaje City Girl · Teranova",
-    "seoDesc": "LADYBIZ es la marca de maquillaje del grupo DREAMCOS: la línea compacta City Girl con cushion corrector SPF50+ PA+++, crema tone-up con PDRN SPF50+ PA++++ y tinte labial brillante. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Maquillaje con estilo y práctico para cada día",
-    "about": [
-     "LADYBIZ es la marca de maquillaje del portafolio del grupo coreano DREAMCOS. Su idea es un maquillaje con estilo y práctico para cada día: tintes labiales, sombras y cushion correctores sin pasos de más. La línea vigente, City Girl, se mueve en una estética urbana cotidiana y se compone de productos compactos y multifunción.",
-     "La línea City Girl incluye tres referencias: cushion corrector SPF50+ PA+++ (12 g), crema solar con efecto tone-up y PDRN SPF50+ PA++++ (45 ml) y tinte labial brillante (1,8 g). Un surtido corto funciona bien como envío de prueba para retail de belleza, marketplaces y cadenas de droguería: protección solar más dos formatos de maquillaje de alta rotación. Suministro mayorista desde Corea; las condiciones y los territorios se concretan en la etapa de la operación."
-    ],
-    "itemNotes": [
-     "Cushion corrector con protección solar SPF50+ PA+++ de la línea City Girl.",
-     "Protector solar con efecto tono-up y PDRN, SPF50+ PA++++.",
-     "Tinte labial de acabado glossy de la línea City Girl."
-    ]
-   },
-   "pt": {
-    "seoTitle": "LADYBIZ (DREAMCOS) — linha City Girl · Teranova",
-    "seoDesc": "LADYBIZ é a marca de maquiagem do grupo DREAMCOS: a linha compacta City Girl reúne cushion corretivo SPF50+ PA+++, creme tone-up com PDRN SPF50+ PA++++ e tinta labial com brilho. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Maquiagem estilosa e prática para todos os dias",
-    "about": [
-     "A LADYBIZ é a marca de maquiagem no portfólio do grupo coreano DREAMCOS. A ideia da marca é uma maquiagem estilosa e prática para todos os dias: tintas labiais, sombras e cushions corretivos sem passos extras. A linha atual, City Girl, segue uma estética urbana do dia a dia e reúne produtos compactos e multifuncionais.",
-     "A linha City Girl tem três itens: cushion corretivo SPF50+ PA+++ (12 g), protetor solar com efeito tone-up e PDRN SPF50+ PA++++ (45 ml) e tinta labial com brilho (1,8 g). Um conjunto curto funciona como remessa de teste para varejo de beleza, marketplaces e redes de drogaria: proteção solar mais dois formatos de maquiagem de bom giro. Fornecimento por atacado da Coreia; condições e territórios são definidos na etapa da negociação."
-    ],
-    "itemNotes": [
-     "Cushion corretor com proteção solar SPF50+ PA+++ da linha City Girl.",
-     "Protetor solar com efeito tone-up e PDRN, SPF50+ PA++++.",
-     "Tint labial de acabamento glossy da linha City Girl."
-    ]
-   }
-  }
- },
- {
-  "slug": "nolie",
-  "supplierSlug": "dreamcos",
-  "category": "cosmetics",
-  "lineName": "NOLIE",
-  "items": [
-   {
-    "name": "NOLIE Fresh Flash Scented Body Cleaner",
-    "img": "/img/suppliers/dreamcos/products/nolie-fresh-flash-body-cleaner.jpg",
-    "volume": "330 ml",
-    "certs": []
-   },
-   {
-    "name": "NOLIE Neat & Tidy Women's Wash & Ampoule Shot",
-    "img": "/img/suppliers/dreamcos/products/nolie-womens-wash-ampoule-shot.jpg",
-    "volume": "160 ml",
-    "certs": []
-   },
-   {
-    "name": "NOLIE Better Than Perfume Body Spirit",
-    "img": "/img/suppliers/dreamcos/products/nolie-body-spirit.jpg",
-    "volume": "25 g",
-    "certs": []
-   }
-  ],
-  "i18n": {
-   "ru": {
-    "seoTitle": "NOLIE (DREAMCOS) — уход за телом и гигиена · Teranova",
-    "seoDesc": "NOLIE — бренд группы DREAMCOS: уход за телом и средства личной гигиены для молодой аудитории. Гель для душа, средство для интимной гигиены с ампульным концентратом, твёрдый парфюмированный бальзам. Оптовые поставки из Кореи через Teranova.",
-    "tagline": "Премиальный уход за телом и личная гигиена",
-    "about": [
-     "NOLIE — бренд корейской группы DREAMCOS в сегменте премиального ухода за телом и средств личной гигиены для молодой аудитории. Как и у DUFT&DOFT, в основе лежит парфюмерная экспертиза группы: аромат работает наравне с уходовой частью, а форматы и упаковка рассчитаны на ежедневное использование.",
-     "Компактная линейка из трёх позиций: ароматизированный гель для душа Fresh Flash (330 мл), средство для интимной гигиены с ампульным концентратом в двух вариантах (160 мл) и твёрдый парфюмированный бальзам для тела (25 г). Сочетание душа, гигиены и портативного парфюма подходит дрогери-сетям, маркетплейсам и бьюти-ретейлу; оптовые поставки из Кореи, условия и территории уточняются на этапе сделки."
-    ],
-    "itemNotes": [
-     "Ароматизированный гель для душа линии Fresh Flash.",
-     "Средство для интимной гигиены с ампульным концентратом; 2 варианта.",
-     "Твёрдый парфюмированный бальзам для тела."
-    ]
-   },
-   "en": {
-    "seoTitle": "NOLIE (DREAMCOS) — body care and hygiene · Teranova",
-    "seoDesc": "NOLIE is a brand of the DREAMCOS group: body care and personal hygiene products for a young audience. A shower gel, an intimate hygiene product with an ampoule concentrate and a solid perfumed balm. Wholesale supply from Korea through Teranova.",
-    "tagline": "Premium body care and personal hygiene",
-    "about": [
-     "NOLIE is a brand of the Korean group DREAMCOS in the segment of premium body care and personal hygiene products for a young audience. As with DUFT&DOFT, it rests on the group's perfume expertise: the scent works on a par with the care part, while the formats and packaging are designed for daily use.",
-     "A compact range of three items: the scented Fresh Flash shower gel (330 ml), an intimate hygiene product with an ampoule concentrate in two versions (160 ml) and a solid perfumed body balm (25 g). The combination of shower, hygiene and a portable fragrance suits drugstore chains, marketplaces and beauty retail; wholesale supply from Korea, with terms and territories agreed at the deal stage."
-    ],
-    "itemNotes": [
-     "Fresh Flash scented body wash.",
-     "Feminine intimate wash with an ampoule concentrate; 2 options.",
-     "Solid perfumed body balm."
-    ]
-   },
-   "ko": {
-    "seoTitle": "NOLIE (DREAMCOS) — 바디 케어와 위생 · Teranova",
-    "seoDesc": "NOLIE는 DREAMCOS 그룹의 브랜드입니다: 젊은 소비자를 위한 프리미엄 바디 케어와 퍼스널 위생 제품. 향기 샤워젤 Fresh Flash, 앰플 농축액을 담은 여성 청결제, 고체 향기 바디 밤(25g)으로 구성됩니다. Teranova를 통한 한국에서의 도매 공급.",
-    "tagline": "프리미엄 바디 케어와 퍼스널 위생",
-    "about": [
-     "NOLIE는 젊은 소비자를 위한 프리미엄 바디 케어와 퍼스널 위생 제품 세그먼트에 속한 한국 그룹 DREAMCOS의 브랜드입니다. DUFT&DOFT와 마찬가지로 그룹의 조향 역량이 바탕에 있습니다: 향이 케어 파트와 동등하게 작동하며, 포맷과 패키지는 매일의 사용을 염두에 두고 설계되었습니다.",
-     "세 품목의 컴팩트한 라인입니다: 향기 샤워젤 Fresh Flash (330ml), 앰플 농축액을 담은 두 가지 버전의 여성 청결제 (160ml), 고체 향기 바디 밤 (25g). 샤워, 위생, 휴대용 향의 조합은 드러그스토어 체인, 마켓플레이스, 뷰티 리테일에 적합합니다. 한국에서의 도매 공급이며, 조건과 지역은 거래 단계에서 확정합니다."
-    ],
-    "itemNotes": [
-     "Fresh Flash 라인의 향 바디 워시.",
-     "앰플 농축액이 함유된 여성 청결제; 2가지 타입.",
-     "고체 퍼퓸 바디 밤."
-    ]
-   },
-   "zh": {
-    "seoTitle": "NOLIE (DREAMCOS) — 身体护理与个人清洁 · Teranova",
-    "seoDesc": "NOLIE 是 DREAMCOS 集团的品牌：面向年轻消费者的身体护理与个人清洁用品。沐浴露、含安瓶浓缩液的私处清洁用品、固体香膏。经 Teranova 从韩国批发供应。",
-    "tagline": "高端身体护理与个人清洁",
-    "about": [
-     "NOLIE 是韩国 DREAMCOS 集团在高端身体护理与年轻消费者个人清洁用品领域的品牌。与 DUFT&DOFT 一样，其基础是集团的调香能力：香气与护理部分同等重要，而形态与包装都为日常使用而设计。",
-     "精简的三个品项：Fresh Flash 香氛沐浴露（330 毫升）、含安瓶浓缩液的私处清洁用品两款（160 毫升），以及固体香氛身体膏（25 克）。沐浴、清洁与便携香氛的组合适合日化连锁、电商平台与美妆零售；韩国批发供应，条件与区域在交易阶段确定。"
-    ],
-    "itemNotes": [
-     "Fresh Flash 系列香氛沐浴露。",
-     "含安瓶浓缩液的私处护理产品，2 种可选。",
-     "固体香氛身体膏。"
-    ]
-   },
-   "ja": {
-    "seoTitle": "NOLIE (DREAMCOS) — ボディケアと衛生用品 · Teranova",
-    "seoDesc": "NOLIE は DREAMCOS グループのブランド：若い世代に向けたボディケアと衛生用品。ボディウォッシュ、アンプル濃縮液配合のデリケートゾーン用洗浄料、練り香水バーム。Teranova を通じた韓国からの卸売供給。",
-    "tagline": "上質なボディケアとパーソナルハイジーン",
-    "about": [
-     "NOLIE は、上質なボディケアと若い世代向けのパーソナルハイジーンの領域における韓国 DREAMCOS グループのブランドです。DUFT&DOFT と同じく、土台にあるのはグループの調香の知見です：香りはケアの部分と対等に働き、形態とパッケージは毎日の使用を想定しています。",
-     "コンパクトな3品目構成です：香り付きボディウォッシュ Fresh Flash(330 mL)、アンプル濃縮液配合のデリケートゾーン用洗浄料 2種(160 mL)、練り香水タイプのボディバーム(25 g)。シャワー、ハイジーン、持ち運べる香りの組み合わせは、ドラッグストアチェーン、マーケットプレイス、ビューティー小売に向いています。韓国からの卸売供給で、条件と地域は取引段階で確定します。"
-    ],
-    "itemNotes": [
-     "Fresh Flash ラインの香り付きボディウォッシュ。",
-     "アンプル濃縮液配合のデリケートゾーンケア製品、2 種類。",
-     "固形の香水ボディバーム。"
-    ]
-   },
-   "it": {
-    "seoTitle": "NOLIE (DREAMCOS) — corpo e igiene · Teranova",
-    "seoDesc": "NOLIE — brand del gruppo DREAMCOS: cura del corpo e prodotti per l'igiene personale per un pubblico giovane. Bagnoschiuma, detergente intimo con concentrato in fiala, balsamo solido profumato. Forniture all'ingrosso dalla Corea tramite Teranova.",
-    "tagline": "Cura del corpo premium e igiene personale",
-    "about": [
-     "NOLIE è il brand del gruppo coreano DREAMCOS nel segmento della cura del corpo premium e dei prodotti per l'igiene personale rivolti a un pubblico giovane. Come per DUFT&DOFT, alla base c'è l'esperienza profumiera del gruppo: la fragranza lavora alla pari con la parte cosmetica, mentre formati e packaging sono pensati per l'uso quotidiano.",
-     "Una linea compatta di tre referenze: bagnoschiuma profumato Fresh Flash (330 ml), detergente intimo con concentrato in fiala in due varianti (160 ml) e balsamo corpo solido profumato (25 g). L'insieme di doccia, igiene e profumo portatile si adatta a catene drugstore, marketplace e beauty retail; forniture all'ingrosso dalla Corea, condizioni e territori si definiscono in fase di trattativa."
-    ],
-    "itemNotes": [
-     "Gel doccia profumato della linea Fresh Flash.",
-     "Detergente per l'igiene intima con concentrato in fiala; 2 varianti.",
-     "Balsamo corpo profumato solido."
-    ]
-   },
-   "de": {
-    "seoTitle": "NOLIE (DREAMCOS) — Körperpflege & Hygiene · Teranova",
-    "seoDesc": "NOLIE — Marke der Gruppe DREAMCOS: Körperpflege und Produkte der persönlichen Hygiene für ein junges Publikum. Duschgel, Intimpflege mit Ampullenkonzentrat, fester parfümierter Balsam. Großhandelslieferungen aus Korea über Teranova.",
-    "tagline": "Premium-Körperpflege und persönliche Hygiene",
-    "about": [
-     "NOLIE ist eine Marke der koreanischen Gruppe DREAMCOS im Segment der Premium-Körperpflege und der Produkte für die persönliche Hygiene für ein junges Publikum. Wie bei DUFT&DOFT liegt die Parfümexpertise der Gruppe zugrunde: Der Duft wirkt gleichrangig zum Pflegeteil, und Formate wie Verpackung sind auf den täglichen Gebrauch ausgelegt.",
-     "Eine kompakte Serie aus drei Positionen: das parfümierte Duschgel Fresh Flash (330 ml), ein Produkt für die Intimhygiene mit Ampullenkonzentrat in zwei Varianten (160 ml) und ein fester parfümierter Körperbalsam (25 g). Die Kombination aus Dusche, Hygiene und tragbarem Parfüm passt zu Drogerieketten, Marktplätzen und Beauty-Retail; Großhandelslieferungen aus Korea, Bedingungen und Gebiete werden in der Abschlussphase geklärt."
-    ],
-    "itemNotes": [
-     "Duftendes Duschgel der Fresh Flash Linie.",
-     "Produkt zur Intimhygiene mit Ampullen-Konzentrat; 2 Varianten.",
-     "Festes parfümiertes Körperbalsam."
-    ]
-   },
-   "fr": {
-    "seoTitle": "NOLIE (DREAMCOS) — soin du corps et hygiène · Teranova",
-    "seoDesc": "NOLIE — marque du groupe DREAMCOS : soin du corps et produits d'hygiène intime pour un public jeune. Gel douche, soin intime au concentré en ampoule, baume parfumé solide. Approvisionnement en gros depuis la Corée via Teranova.",
-    "tagline": "Soin du corps premium et hygiène personnelle",
-    "about": [
-     "NOLIE est une marque du groupe coréen DREAMCOS dans le segment du soin du corps premium et des produits d'hygiène personnelle pour un public jeune. Comme chez DUFT&DOFT, l'expertise parfumée du groupe est à la base : le parfum agit à parité avec la partie soin, et les formats comme l'emballage sont pensés pour un usage quotidien.",
-     "Une gamme compacte de trois références : le gel douche parfumé Fresh Flash (330 ml), un soin d'hygiène intime au concentré en ampoule en deux variantes (160 ml) et un baume corporel parfumé solide (25 g). L'association douche, hygiène et parfum portatif convient aux chaînes de drogueries, aux marketplaces et au retail beauté ; approvisionnement en gros depuis la Corée, conditions et territoires se précisent au moment de la transaction."
-    ],
-    "itemNotes": [
-     "Gel douche parfumé de la ligne Fresh Flash.",
-     "Soin d'hygiène intime avec concentré en ampoule ; 2 variantes.",
-     "Baume corporel parfumé solide."
-    ]
-   },
-   "tr": {
-    "seoTitle": "NOLIE (DREAMCOS) — vücut bakımı ve hijyen · Teranova",
-    "seoDesc": "NOLIE — DREAMCOS grubunun markası: genç kitle için vücut bakımı ve kişisel hijyen ürünleri. Duş jeli, ampul konsantreli intim hijyen ürünü, katı parfümlü balm. Kore'den toptan tedarik ve Teranova aracılığıyla işlem desteği.",
-    "tagline": "Premium vücut bakımı ve kişisel hijyen",
-    "about": [
-     "NOLIE, Kore menşeli DREAMCOS grubunun genç kitleye yönelik premium vücut bakımı ve kişisel hijyen ürünleri segmentindeki markasıdır. DUFT&DOFT'ta olduğu gibi temelde grubun parfüm uzmanlığı yatar: koku bakım kısmıyla eşit düzeyde çalışır, formatlar ve ambalaj günlük kullanıma göre tasarlanmıştır.",
-     "Üç üründen oluşan kompakt bir seri: kokulu duş jeli Fresh Flash (330 ml), iki çeşitte ampul konsantreli intim hijyen ürünü (160 ml) ve katı parfümlü vücut balmı (25 g). Duş, hijyen ve taşınabilir parfüm birleşimi drogeri zincirleri, pazar yerleri ve güzellik perakendesi için uygundur; Kore'den toptan tedarik, koşullar ve bölgeler işlem aşamasında netleşir."
-    ],
-    "itemNotes": [
-     "Fresh Flash serisi kokulu duş jeli.",
-     "Ampul konsantreli intim hijyen ürünü; 2 çeşit.",
-     "Katı parfümlü vücut balmı."
-    ]
-   },
-   "es": {
-    "seoTitle": "NOLIE (DREAMCOS) — cuerpo e higiene · Teranova",
-    "seoDesc": "NOLIE es la marca del grupo DREAMCOS de cuidado corporal e higiene personal para público joven. Gel de ducha, producto de higiene íntima con concentrado en ampolla y bálsamo perfumado sólido. Suministro mayorista desde Corea a través de Teranova.",
-    "tagline": "Cuidado corporal prémium e higiene personal",
-    "about": [
-     "NOLIE es la marca del grupo coreano DREAMCOS en el segmento del cuidado corporal prémium y de la higiene personal para público joven. Igual que en DUFT&DOFT, la base es la experiencia perfumística del grupo: el aroma trabaja a la par que la parte de cuidado, y los formatos y el envase están pensados para el uso diario.",
-     "La línea es compacta, con tres referencias: gel de ducha perfumado Fresh Flash (330 ml), producto de higiene íntima con concentrado en ampolla en dos versiones (160 ml) y bálsamo corporal perfumado sólido (25 g). La combinación de ducha, higiene y perfume portátil encaja en cadenas de droguería, marketplaces y retail de belleza; suministro mayorista desde Corea, con condiciones y territorios que se concretan en la etapa de la operación."
-    ],
-    "itemNotes": [
-     "Gel de ducha perfumado de la línea Fresh Flash.",
-     "Producto de higiene íntima con concentrado en ampolla; 2 variantes.",
-     "Bálsamo corporal perfumado sólido."
-    ]
-   },
-   "pt": {
-    "seoTitle": "NOLIE (DREAMCOS) — corpo e higiene íntima · Teranova",
-    "seoDesc": "NOLIE é a marca do grupo DREAMCOS voltada ao cuidado corporal e à higiene pessoal do público jovem. Sabonete líquido, produto de higiene íntima com concentrado em ampola e bálsamo perfumado sólido. Fornecimento por atacado da Coreia pela Teranova.",
-    "tagline": "Cuidado corporal premium e higiene pessoal",
-    "about": [
-     "A NOLIE é a marca do grupo coreano DREAMCOS no segmento de cuidado corporal premium e produtos de higiene pessoal para o público jovem. Assim como na DUFT&DOFT, a base é a expertise perfumística do grupo: a fragrância trabalha lado a lado com a parte de cuidado, e formatos e embalagens foram pensados para o uso diário.",
-     "A linha é enxuta, com três itens: sabonete líquido perfumado Fresh Flash (330 ml), produto de higiene íntima com concentrado em ampola em duas versões (160 ml) e bálsamo corporal perfumado sólido (25 g). Juntar banho, higiene e perfume portátil agrada a redes de drogaria, marketplaces e varejo de beleza; fornecimento por atacado da Coreia, com condições e territórios definidos na etapa da negociação."
-    ],
-    "itemNotes": [
-     "Gel de banho perfumado da linha Fresh Flash.",
-     "Produto de higiene íntima com concentrado em ampola; 2 variantes.",
-     "Bálsamo corporal perfumado sólido."
-    ]
-   }
-  }
- }
 ]
