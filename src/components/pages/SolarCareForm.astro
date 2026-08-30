@@ -1,0 +1,91 @@
+---
+/* Форма заявки раздела Solar Care.
+   Механизм тот же, что на основном сайте: `form[data-lead]`, скрытая ловушка
+   для ботов, отправка через тот же обработчик и тот же эндпоинт, письмо падает
+   в ту же почту. Отличаются только оформление и поля под направление, чтобы
+   в письме сразу было видно станцию, мощность и сроки.
+   Источник значений — `PUBLIC_LEADS_ENDPOINT`, задаётся в окружении сборки. */
+import { localizePath } from '../../i18n/utils';
+import type { SolarCopy, SolarLang } from '../../data/solar-care';
+
+interface Props {
+  lang: SolarLang;
+  copy: SolarCopy;
+}
+const { lang, copy } = Astro.props;
+const f = copy.form;
+const thanks = localizePath('/thanks', lang);
+---
+
+<section class="solar__section solar__cta" id="request">
+  <div class="solar__wrap solar__formgrid">
+    <div class="solar__formintro">
+      <h2>{f.title}</h2>
+      <p>{f.lead}</p>
+    </div>
+
+    <form
+      class="oform solar__form"
+      data-lead
+      data-thanks={thanks}
+      data-msg-need={f.err_need}
+      data-msg-contact={f.err_contact}
+      data-msg-email={f.err_email}
+      data-msg-phone={f.err_phone}
+      novalidate
+    >
+      <input class="oform__hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <input type="hidden" name="lang" value={lang} />
+      <input type="hidden" name="page" value={Astro.url.pathname} />
+      <input type="hidden" name="source" value="solar-care-form" />
+      <input type="hidden" name="category" value="solar-care" />
+
+      <div class="solar__fgrid">
+        <div class="solar__fgrp">
+          <label for="sc-company">{f.company}</label>
+          <input id="sc-company" name="company" type="text" placeholder={f.ph_company} autocomplete="organization" />
+        </div>
+        <div class="solar__fgrp">
+          <label for="sc-contact">{f.contact}</label>
+          <input id="sc-contact" name="contact" type="text" placeholder={f.ph_contact} autocomplete="name" />
+        </div>
+        <div class="solar__fgrp">
+          <label for="sc-email">{f.email}</label>
+          <input id="sc-email" name="email" type="email" placeholder={f.ph_email} autocomplete="email" />
+        </div>
+        <div class="solar__fgrp">
+          <label for="sc-phone">{f.phone}</label>
+          <input id="sc-phone" name="phone" type="text" placeholder={f.ph_phone} autocomplete="tel" />
+        </div>
+        <div class="solar__fgrp solar__fgrp--full">
+          <label for="sc-need">{f.need} <span class="solar__req">*</span></label>
+          <input id="sc-need" name="need" type="text" placeholder={f.ph_need} />
+        </div>
+        <div class="solar__fgrp">
+          <label for="sc-volume">{f.volume}</label>
+          <input id="sc-volume" name="volume" type="text" placeholder={f.ph_volume} />
+        </div>
+        <div class="solar__fgrp">
+          <label for="sc-timeline">{f.timeline}</label>
+          <input id="sc-timeline" name="timeline" type="text" placeholder={f.ph_timeline} />
+        </div>
+        <div class="solar__fgrp solar__fgrp--full">
+          <label for="sc-comment">{f.comment}</label>
+          <textarea id="sc-comment" name="comment" rows="3" placeholder={f.ph_comment}></textarea>
+        </div>
+      </div>
+
+      <p class="solar__err" data-err="msg" hidden></p>
+      <p class="solar__err" data-err="network" hidden>
+        {f.err_network} <a href="mailto:info@teranovagroup.com">info@teranovagroup.com</a>
+      </p>
+
+      <button class="solar__btn solar__submit" type="submit">{f.submit}</button>
+      <p class="solar__hint">{f.note}</p>
+    </form>
+  </div>
+</section>
+
+<script>
+  import '../../scripts/leadForm';
+</script>

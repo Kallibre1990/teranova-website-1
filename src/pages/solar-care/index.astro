@@ -1,0 +1,12 @@
+---
+import SolarCare from '../../layouts/SolarCare.astro';
+import SolarCareSection from '../../components/pages/SolarCareSection.astro';
+import { solarCopy } from '../../data/solar-care';
+
+const lang = 'ru' as const;
+const copy = solarCopy[lang];
+---
+
+<SolarCare lang={lang} copy={copy}>
+  <SolarCareSection lang={lang} copy={copy} />
+</SolarCare>

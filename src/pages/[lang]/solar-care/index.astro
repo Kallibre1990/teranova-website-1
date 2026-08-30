@@ -1,0 +1,21 @@
+---
+import SolarCare from '../../../layouts/SolarCare.astro';
+import SolarCareSection from '../../../components/pages/SolarCareSection.astro';
+import { solarCopy } from '../../../data/solar-care';
+import { languages, defaultLang, type Lang } from '../../../i18n/ui';
+
+/* Русская версия лежит в src/pages/solar-care/, здесь — все остальные локали:
+   такое же разделение, как у остальных страниц сайта. */
+export function getStaticPaths() {
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const copy = solarCopy[lang];
+---
+
+<SolarCare lang={lang} copy={copy}>
+  <SolarCareSection lang={lang} copy={copy} />
+</SolarCare>

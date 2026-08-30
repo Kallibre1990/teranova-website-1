@@ -1,0 +1,303 @@
+---
+/* Независимый макет направления Solar Care.
+   Base.astro сознательно НЕ используется: у раздела свой шрифт, палитра, шапка
+   и подвал, а общий layout тянет за собой навигацию и стили основного сайта.
+   Общее у раздела с сайтом только домен и конвейер выката.
+
+   Голова страницы собрана здесь, а не в BaseHead: у раздела своя шапка,
+   свой переключатель языков и свои стили. hreflang отдаём на все локали
+   сайта — раздел существует на каждой из них. */
+import { localizePath } from '../i18n/utils';
+import { languages, defaultLang, verifiedLocales, type Lang } from '../i18n/ui';
+import type { SolarCopy, SolarLang } from '../data/solar-care';
+
+interface Props {
+  lang: SolarLang;
+  copy: SolarCopy;
+}
+const { lang, copy } = Astro.props;
+
+const SITE = 'https://teranovagroup.com';
+const PATH = '/solar-care';
+const canonical = SITE + localizePath(PATH, lang);
+const alternates = verifiedLocales.map((l) => ({ code: l, href: SITE + localizePath(PATH, l) }));
+const xDefault = SITE + localizePath(PATH, defaultLang);
+const ogLocale: Record<Lang, string> = {
+  ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT',
+  de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES', pt: 'pt_BR',
+};
+const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
+  code: l,
+  label: languages[l],
+  short: l.toUpperCase(),
+  href: localizePath(PATH, l),
+  active: l === lang,
+}));
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{copy.meta.title}</title>
+    <meta name="description" content={copy.meta.description} />
+    <link rel="canonical" href={canonical} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.code} href={a.href} />)}
+    <link rel="alternate" hreflang="x-default" href={xDefault} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#1d1a16" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Teranova Solar Care" />
+    <meta property="og:title" content={copy.meta.title} />
+    <meta property="og:description" content={copy.meta.description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale[lang]} />
+    <meta property="og:image" content={`${SITE}/img/suppliers/multifit/gallery/g2-desert-array.jpg`} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "52e5db2fb4cc4ea99612c64007c69024"}'></script>
+  </head>
+
+  <body class="solar">
+    <header class="solar__top">
+      <a class="solar__mark" href={localizePath(PATH, lang)}>
+        <span class="solar__mark-sun" aria-hidden="true"></span>
+        <span class="solar__mark-text">Teranova <b>Solar Care</b></span>
+      </a>
+      <nav class="solar__top-nav">
+        <details class="solar__langs">
+          <summary>
+            <span>{lang.toUpperCase()}</span>
+            <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          </summary>
+          <ul class="solar__langmenu" role="list">
+            {
+              langItems.map((i) => (
+                <li>
+                  <a href={i.href} hreflang={i.code} lang={i.code} aria-current={i.active ? 'true' : undefined} class:list={{ on: i.active }}>
+                    <span class="solar__lang-short">{i.short}</span>
+                    <span class="solar__lang-label">{i.label}</span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </details>
+        <a href={localizePath('/', lang)} class="solar__back">{copy.back} →</a>
+      </nav>
+    </header>
+
+    <main><slot /></main>
+
+    <footer class="solar__foot">
+      <p>{copy.footer}</p>
+      <a href={localizePath('/', lang)}>{copy.back} →</a>
+    </footer>
+
+    <style is:global>
+      /* Каждое правило начинается с .solar — за пределы раздела стили не выходят,
+         на страницах основного сайта класса .solar нет. */
+      .solar {
+        --sand: #f6f1e7;
+        --sand-deep: #ece3d3;
+        --ink: #1d1a16;
+        --ink-soft: #4c463c;
+        --amber: #c9761a;
+        --amber-deep: #a35c0d;
+        --line: #ded3be;
+
+        margin: 0;
+        background: var(--sand);
+        color: var(--ink);
+        font-family: 'Manrope Variable', system-ui, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      .solar h1, .solar h2, .solar h3 {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        line-height: 1.12;
+        margin: 0;
+      }
+      .solar a { color: inherit; }
+      .solar img { max-width: 100%; height: auto; display: block; }
+
+      .solar__wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+      /* --- шапка --- */
+      .solar__top {
+        display: flex; align-items: center; justify-content: space-between;
+        gap: 16px; max-width: 1080px; margin: 0 auto; padding: 22px 24px;
+      }
+      .solar__mark { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+      .solar__mark-sun {
+        width: 18px; height: 18px; border-radius: 50%;
+        background: radial-gradient(circle at 35% 35%, #f0a94a, var(--amber));
+        box-shadow: 0 0 0 4px rgba(201, 118, 26, 0.15);
+      }
+      .solar__mark-text { font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
+      .solar__mark-text b { font-weight: 700; }
+      .solar__top-nav { display: flex; align-items: center; gap: 18px; font-size: 14px; }
+      .solar__langs { position: relative; }
+      .solar__langs summary {
+        display: inline-flex; align-items: center; gap: 6px; list-style: none; cursor: pointer;
+        letter-spacing: 0.08em; padding: 5px 10px; font-size: 13px;
+        border: 1px solid var(--line); border-radius: 999px;
+      }
+      .solar__langs summary::-webkit-details-marker { display: none; }
+      .solar__langs summary:hover { border-color: var(--amber); color: var(--amber-deep); }
+      .solar__langs summary svg { opacity: 0.6; transition: transform 0.2s; }
+      .solar__langs[open] summary svg { transform: rotate(180deg); }
+      .solar__langmenu {
+        position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; min-width: 190px;
+        margin: 0; padding: 6px; list-style: none;
+        background: #fff; border: 1px solid var(--line); border-radius: 12px;
+        box-shadow: 0 14px 34px rgba(29, 26, 22, 0.14);
+        display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+      }
+      .solar__langmenu a {
+        display: flex; align-items: baseline; gap: 7px; padding: 7px 9px;
+        border-radius: 8px; text-decoration: none; color: var(--ink-soft);
+      }
+      .solar__langmenu a:hover { background: var(--sand-deep); color: var(--ink); }
+      .solar__langmenu a.on { background: var(--amber); color: #fff; }
+      .solar__lang-short { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; min-width: 20px; }
+      .solar__lang-label { font-size: 13px; }
+      @media (max-width: 520px) {
+        .solar__langmenu { grid-template-columns: 1fr; min-width: 150px; }
+      }
+      .solar__back { text-decoration: none; color: var(--ink-soft); }
+      .solar__back:hover { color: var(--amber-deep); }
+
+      /* --- герой --- */
+      .solar__hero { position: relative; overflow: hidden; }
+      .solar__hero-media { position: absolute; inset: 0; }
+      .solar__hero-media img { width: 100%; height: 100%; object-fit: cover; }
+      .solar__hero-media::after {
+        content: ''; position: absolute; inset: 0;
+        background: linear-gradient(105deg, rgba(29, 26, 22, 0.92) 0%, rgba(29, 26, 22, 0.72) 48%, rgba(29, 26, 22, 0.35) 100%);
+      }
+      .solar__hero-inner {
+        position: relative; max-width: 1080px; margin: 0 auto;
+        padding: 96px 24px 104px; color: #f7f2e8;
+      }
+      .solar__kicker {
+        font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase;
+        color: #e7b877; margin: 0 0 18px;
+      }
+      .solar__hero h1 { font-size: clamp(48px, 9vw, 104px); color: #fdf8ee; }
+      .solar__lead {
+        font-size: clamp(19px, 2.4vw, 25px); line-height: 1.45; max-width: 640px;
+        margin: 22px 0 34px; color: #efe6d6;
+      }
+      .solar__btn {
+        display: inline-block; text-decoration: none; font-size: 16px;
+        padding: 15px 30px; border-radius: 4px;
+        background: var(--amber); color: #fff8ec;
+        transition: background 0.18s ease;
+      }
+      .solar__btn:hover { background: var(--amber-deep); }
+
+      /* --- секции --- */
+      .solar__section { padding: 84px 0; border-top: 1px solid var(--line); }
+      .solar__section:first-of-type { border-top: 0; }
+      .solar__section h2 { font-size: clamp(30px, 4.4vw, 44px); margin-bottom: 28px; }
+      .solar__prose p { max-width: 720px; margin: 0 0 18px; color: var(--ink-soft); font-size: 18px; }
+      .solar__prose p:last-child { margin-bottom: 0; }
+
+      .solar__steps { display: grid; gap: 28px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .solar__step { border-top: 2px solid var(--amber); padding-top: 18px; }
+      .solar__step-n { font-family: Georgia, serif; font-size: 15px; color: var(--amber-deep); letter-spacing: 0.1em; }
+      .solar__step h3 { font-size: 23px; margin: 8px 0 10px; }
+      .solar__step p { margin: 0; color: var(--ink-soft); font-size: 16.5px; }
+
+      .solar__honest { background: var(--sand-deep); }
+      .solar__honest .solar__prose p { color: var(--ink); }
+
+      .solar__gallery { display: grid; gap: 18px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 34px; }
+      .solar__shot figure { margin: 0; }
+      .solar__shot img { border-radius: 6px; aspect-ratio: 4 / 3; object-fit: cover; }
+      .solar__shot figcaption { font-size: 14px; color: var(--ink-soft); margin-top: 9px; }
+
+      .solar__cta { background: var(--ink); color: #f7f2e8; }
+      .solar__cta h2 { color: #fdf8ee; }
+      .solar__cta p { color: #ded3c0; max-width: 620px; font-size: 18px; }
+      .solar__cta .solar__btn { margin-top: 26px; }
+
+
+      /* --- форма заявки --- */
+      .solar__formgrid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 48px; align-items: start; }
+      .solar__formintro p { color: #ded3c0; max-width: 420px; font-size: 18px; margin: 18px 0 0; }
+      .solar__form { background: var(--sand); color: var(--ink); border-radius: 8px; padding: 28px; }
+      .solar__fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .solar__fgrp { display: flex; flex-direction: column; gap: 6px; }
+      .solar__fgrp--full { grid-column: 1 / -1; }
+      .solar__fgrp label { font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+      .solar__req { color: var(--amber-deep); }
+      .solar__form input, .solar__form textarea {
+        width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #fff;
+        padding: 11px 13px; font: inherit; font-size: 15px; color: var(--ink);
+        transition: border-color 0.18s ease, box-shadow 0.18s ease;
+      }
+      .solar__form input::placeholder, .solar__form textarea::placeholder { color: #a89a80; }
+      .solar__form input:focus, .solar__form textarea:focus {
+        outline: none; border-color: var(--amber); box-shadow: 0 0 0 3px rgba(201, 118, 26, 0.16);
+      }
+      .solar__form .is-error, .solar__form .is-error:focus {
+        border-color: #b8452f; box-shadow: 0 0 0 3px rgba(184, 69, 47, 0.15);
+      }
+      .solar__form .oform__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+      /* Внутри светлой карточки формы цвета задаём с большей специфичностью, чем
+         `.solar__cta p`: иначе правило тёмной секции перекрашивает подсказку и
+         ошибку в почти белый и контраст падает до 1.32:1 (ревью Codex 27.08).
+         Речь не о красоте: посетитель перестаёт видеть, почему заявка не ушла. */
+      .solar__form .solar__err { color: #a8341f; font-size: 14px; margin: 16px 0 0; }
+      .solar__form .solar__err a { color: var(--amber-deep); }
+      .solar__form .solar__hint { color: var(--ink-soft); }
+      .solar__submit { margin-top: 20px; border: 0; cursor: pointer; font: inherit; font-size: 16px; }
+      .solar__submit:disabled { opacity: 0.6; cursor: default; }
+      .solar__hint { font-size: 13.5px; color: var(--ink-soft); margin: 14px 0 0; }
+
+      /* --- подвал --- */
+      .solar__foot {
+        max-width: 1080px; margin: 0 auto; padding: 30px 24px 46px;
+        display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;
+        border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-soft);
+      }
+      .solar__foot p { margin: 0; }
+      .solar__foot a { text-decoration: none; }
+      .solar__foot a:hover { color: var(--amber-deep); }
+
+      @media (max-width: 760px) {
+        .solar { font-size: 16px; }
+        .solar__hero-inner { padding: 62px 24px 68px; }
+        .solar__section { padding: 58px 0; }
+        .solar__steps { grid-template-columns: 1fr; }
+        .solar__gallery { grid-template-columns: 1fr; }
+        .solar__formgrid { grid-template-columns: 1fr; gap: 30px; }
+        .solar__fgrid { grid-template-columns: 1fr; }
+        .solar__form { padding: 20px; }
+      }
+    </style>
+
+    <script is:inline>
+      /* Меню языков закрывается по клику мимо и по Escape: без этого на телефоне
+         оно остаётся открытым и перекрывает первый экран. */
+      document.addEventListener('click', function (e) {
+        document.querySelectorAll('details.solar__langs[open]').forEach(function (d) {
+          if (!d.contains(e.target)) d.removeAttribute('open');
+        });
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape')
+          document.querySelectorAll('details.solar__langs[open]').forEach(function (d) {
+            d.removeAttribute('open');
+          });
+      });
+    </script>
+  </body>
+</html>
