@@ -6,7 +6,7 @@ export const ko: UIDict = {
   langName: '한국어',
 
   nav: {
-    solar: "태양광 발전소",
+    solar: "태양광 발전소 관리",
     blog: "인사이트",
     catalog: '카탈로그',
     buyers: '바이어 안내',

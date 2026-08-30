@@ -61,14 +61,14 @@ export interface SolarCopy {
 export const solarCopy: Record<Lang, SolarCopy> = {
   ru: {
     meta: {
-      title: 'Teranova Solar Care — обслуживание солнечных электростанций',
+      title: 'Солнечные станции: обслуживание и очистка модулей — Teranova',
       description:
         'Направление Teranova: подбор и поставка техники для очистки солнечных модулей вместе с измерением результата на пилоте.',
     },
     hero: {
       kicker: 'Направление Teranova',
-      title: 'Solar Care',
-      lead: 'От оборудования к измеримому сервису для солнечных электростанций.',
+      title: 'Солнечные станции',
+      lead: 'От оборудования к сервису, результат которого измерен на вашей площадке.',
       cta: 'Рассказать о площадке',
     },
     intro: {
@@ -152,11 +152,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'Не удалось отправить. Напишите нам на',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care — направление Teranova Group. Корея.',
+    footer: 'Направление Teranova Group. Корея.',
   },
   en: {
     meta: {
-      title: 'Teranova Solar Care — service for solar power plants',
+      title: 'Solar Care — service for solar power plants · Teranova',
       description:
         'A Teranova business line: sourcing and supply of solar module cleaning equipment together with measured results proven on a pilot.',
     },
@@ -247,18 +247,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'Sending failed. Write to us at',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care is a business line of Teranova Group. Korea.',
+    footer: 'A business line of Teranova Group. Korea.',
   },
   ko: {
     meta: {
-      title: 'Teranova Solar Care — 태양광 발전소 유지관리',
+      title: '태양광 발전소 관리 — 모듈 세척과 유지보수 · Teranova',
       description:
         '테라노바의 사업 부문입니다. 태양광 모듈 세척 장비를 선정해 공급하고, 그 결과를 파일럿에서 직접 측정합니다.',
     },
     hero: {
       kicker: '테라노바 사업 부문',
-      title: 'Solar Care',
-      lead: '장비 공급에서 측정 가능한 발전소 서비스로.',
+      title: '태양광 발전소 관리',
+      lead: '장비 공급에서 결과가 측정되는 서비스로.',
       cta: '발전소에 대해 알려 주십시오',
     },
     intro: {
@@ -338,18 +338,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: '전송하지 못했습니다. 다음 주소로 보내 주십시오:',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care는 테라노바 그룹의 사업 부문입니다. 한국.',
+    footer: '테라노바 그룹의 사업 부문입니다. 한국.',
   },
   zh: {
     meta: {
-      title: 'Teranova Solar Care — 光伏电站运维',
+      title: '光伏电站运维 — 组件清洗与维护 · Teranova',
       description:
         'Teranova 的独立业务方向：为光伏组件清洗选型并供货，同时在试点中测量实际效果。',
     },
     hero: {
       kicker: 'Teranova 业务方向',
-      title: 'Solar Care',
-      lead: '从设备供应，到可测量的光伏电站服务。',
+      title: '光伏电站运维',
+      lead: '从设备供应，到结果可测量的服务。',
       cta: '介绍一下您的电站',
     },
     intro: {
@@ -429,17 +429,17 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: '发送失败。请写信到',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care 是 Teranova Group 的业务方向。韩国。',
+    footer: 'Teranova Group 的业务方向。韩国。',
   },
   ja: {
     meta: {
-      title: 'Teranova Solar Care — 太陽光発電所のメンテナンス',
+      title: '太陽光メンテナンス — モジュール清掃と保守 · Teranova',
       description:
         'Teranova の事業部門です。太陽光モジュール清掃設備の選定と供給を行い、その効果をパイロットで実測します。',
     },
     hero: {
       kicker: 'Teranova の事業部門',
-      title: 'Solar Care',
+      title: '太陽光メンテナンス',
       lead: '設備の供給から、測定できる発電所サービスへ。',
       cta: 'サイトについて教えてください',
     },
@@ -520,17 +520,17 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: '送信できませんでした。こちらまでご連絡ください：',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care は Teranova Group の事業部門です。韓国。',
+    footer: 'Teranova Group の事業部門です。韓国。',
   },
   de: {
     meta: {
-      title: 'Teranova Solar Care — Instandhaltung von Solarkraftwerken',
+      title: 'Solaranlagen — Modulreinigung und Instandhaltung · Teranova',
       description:
         'Ein Geschäftsbereich von Teranova: Auswahl und Lieferung von Reinigungstechnik für Solarmodule, mit einem im Pilotbetrieb gemessenen Ergebnis.',
     },
     hero: {
       kicker: 'Ein Geschäftsbereich von Teranova',
-      title: 'Solar Care',
+      title: 'Solaranlagen',
       lead: 'Von der Technik zum messbaren Service für Solarkraftwerke.',
       cta: 'Erzählen Sie uns von Ihrer Anlage',
     },
@@ -611,18 +611,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'Senden fehlgeschlagen. Schreiben Sie uns an',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care ist ein Geschäftsbereich der Teranova Group. Korea.',
+    footer: 'Ein Geschäftsbereich der Teranova Group. Korea.',
   },
   fr: {
     meta: {
-      title: 'Teranova Solar Care — maintenance des centrales solaires',
+      title: 'Centrales solaires — nettoyage des modules et maintenance · Teranova',
       description:
         'Une activité de Teranova : sélection et fourniture de matériel de nettoyage des modules, avec un résultat mesuré sur un pilote.',
     },
     hero: {
       kicker: 'Une activité de Teranova',
-      title: 'Solar Care',
-      lead: 'Du matériel à un service mesurable pour les centrales solaires.',
+      title: 'Centrales solaires',
+      lead: 'Du matériel à un service dont le résultat est mesuré sur votre site.',
       cta: 'Parlez-nous de votre site',
     },
     intro: {
@@ -702,18 +702,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'L’envoi a échoué. Écrivez-nous à',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care est une activité de Teranova Group. Corée.',
+    footer: 'Une activité de Teranova Group. Corée.',
   },
   it: {
     meta: {
-      title: 'Teranova Solar Care — manutenzione degli impianti fotovoltaici',
+      title: 'Impianti solari — pulizia dei moduli e manutenzione · Teranova',
       description:
         'Una linea di attività Teranova: selezione e fornitura di macchine per la pulizia dei moduli, con un risultato misurato su un pilota.',
     },
     hero: {
       kicker: 'Una linea di attività Teranova',
-      title: 'Solar Care',
-      lead: 'Dalle macchine a un servizio misurabile per gli impianti fotovoltaici.',
+      title: 'Impianti solari',
+      lead: 'Dalle macchine a un servizio con risultati misurati sul vostro sito.',
       cta: 'Raccontateci del vostro impianto',
     },
     intro: {
@@ -793,18 +793,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'Invio non riuscito. Scriveteci a',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care è una linea di attività di Teranova Group. Corea.',
+    footer: 'Una linea di attività di Teranova Group. Corea.',
   },
   es: {
     meta: {
-      title: 'Teranova Solar Care — mantenimiento de plantas solares',
+      title: 'Plantas solares — limpieza de módulos y mantenimiento · Teranova',
       description:
         'Una línea de negocio de Teranova: selección y suministro de equipos de limpieza de módulos, con el resultado medido en un piloto.',
     },
     hero: {
       kicker: 'Una línea de negocio de Teranova',
-      title: 'Solar Care',
-      lead: 'Del equipo a un servicio medible para plantas solares.',
+      title: 'Plantas solares',
+      lead: 'Del equipo a un servicio cuyo resultado se mide en su planta.',
       cta: 'Cuéntenos sobre su planta',
     },
     intro: {
@@ -884,18 +884,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'No se pudo enviar. Escríbanos a',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care es una línea de negocio de Teranova Group. Corea.',
+    footer: 'Una línea de negocio de Teranova Group. Corea.',
   },
   pt: {
     meta: {
-      title: 'Teranova Solar Care — manutenção de usinas solares',
+      title: 'Usinas solares — limpeza de módulos e manutenção · Teranova',
       description:
         'Uma linha de negócio da Teranova: seleção e fornecimento de equipamentos de limpeza de módulos, com o resultado medido em um piloto.',
     },
     hero: {
       kicker: 'Uma linha de negócio da Teranova',
-      title: 'Solar Care',
-      lead: 'Do equipamento a um serviço mensurável para usinas solares.',
+      title: 'Usinas solares',
+      lead: 'Do equipamento a um serviço cujo resultado é medido na sua usina.',
       cta: 'Conte-nos sobre a sua usina',
     },
     intro: {
@@ -975,18 +975,18 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'Não foi possível enviar. Escreva para nós em',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care é uma linha de negócio da Teranova Group. Coreia.',
+    footer: 'Uma linha de negócio da Teranova Group. Coreia.',
   },
   tr: {
     meta: {
-      title: 'Teranova Solar Care — güneş santrallerinin bakımı',
+      title: 'Güneş santralleri — panel temizliği ve bakım · Teranova',
       description:
         'Teranova’nın bir iş kolu: güneş panellerinin temizliği için ekipman seçimi ve tedariki, sonucu pilot uygulamada ölçülerek.',
     },
     hero: {
       kicker: 'Teranova iş kolu',
-      title: 'Solar Care',
-      lead: 'Ekipmandan güneş santralleri için ölçülebilir hizmete.',
+      title: 'Güneş santralleri',
+      lead: 'Ekipmandan, sonucu sahada ölçülen hizmete.',
       cta: 'Sahanızı anlatın',
     },
     intro: {
@@ -1066,6 +1066,6 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       err_network: 'Gönderilemedi. Bize şu adresten yazın:',
     },
     back: 'Teranova Group',
-    footer: 'Solar Care, Teranova Group’un iş koludur. Kore.',
+    footer: 'Teranova Group’un bir iş kolu. Kore.',
   },
 };

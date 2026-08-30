@@ -49,7 +49,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
     <meta name="theme-color" content="#1d1a16" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Teranova Solar Care" />
+    <meta property="og:site_name" content={`Teranova · ${copy.hero.title}`} />
     <meta property="og:title" content={copy.meta.title} />
     <meta property="og:description" content={copy.meta.description} />
     <meta property="og:url" content={canonical} />
@@ -64,7 +64,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
     <header class="solar__top">
       <a class="solar__mark" href={localizePath(PATH, lang)}>
         <span class="solar__mark-sun" aria-hidden="true"></span>
-        <span class="solar__mark-text">Teranova <b>Solar Care</b></span>
+        <span class="solar__mark-text">Teranova <b>{copy.hero.title}</b></span>
       </a>
       <nav class="solar__top-nav">
         <details class="solar__langs">
@@ -140,6 +140,19 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
         box-shadow: 0 0 0 4px rgba(201, 118, 26, 0.15);
       }
       .solar__mark-text { font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; }
+      @media (max-width: 520px) {
+        /* Названия направления на разных языках сильно разной длины: немецкое
+           SOLARANLAGEN одним словом выталкивало ссылку на основной сайт за край
+           экрана на 320 точках. Марка занимает первую строку целиком, язык и
+           ссылка уходят на вторую. */
+        .solar__top { flex-wrap: wrap; row-gap: 12px; padding: 18px 20px; }
+        .solar__mark { flex: 1 1 100%; min-width: 0; }
+        .solar__mark-text { font-size: 12px; letter-spacing: 0.04em; }
+        .solar__top-nav { flex: 1 1 100%; justify-content: space-between; }
+        /* Переключатель уехал к левому краю, а меню было привязано правым краем
+           к нему же и уходило за экран влево. На узких экранах цепляем за левый. */
+        .solar__langmenu { left: 0; right: auto; grid-template-columns: 1fr; min-width: 150px; }
+      }
       .solar__mark-text b { font-weight: 700; }
       .solar__top-nav { display: flex; align-items: center; gap: 18px; font-size: 14px; }
       .solar__langs { position: relative; }
@@ -189,7 +202,12 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
         font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase;
         color: #e7b877; margin: 0 0 18px;
       }
-      .solar__hero h1 { font-size: clamp(48px, 9vw, 104px); color: #fdf8ee; }
+      .solar__hero h1 {
+        /* Название направления на каждом языке своё и заметно длиннее прежнего
+           Solar Care, поэтому потолок кегля ниже: иначе немецкое и русское
+           названия занимают весь первый экран. */
+        font-size: clamp(38px, 6.4vw, 76px); color: #fdf8ee; line-height: 1.04;
+      }
       .solar__lead {
         font-size: clamp(19px, 2.4vw, 25px); line-height: 1.45; max-width: 640px;
         margin: 22px 0 34px; color: #efe6d6;

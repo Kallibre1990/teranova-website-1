@@ -3,7 +3,7 @@ import type { DeepPartial } from '../deep';
 
 const zh: DeepPartial<UIDict> = {
   nav: {
-    solar: "光伏电站",
+    solar: "光伏电站运维",
     blog: "洞察",
     catalog: "产品目录",
     verify: "我们如何核验",
