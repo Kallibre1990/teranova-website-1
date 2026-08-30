@@ -289,6 +289,15 @@ const SUPPLIERS = [
     pres: true,
     certs: ['Vegan', 'EWG Green', 'Dermatologist Tested'],
   },
+  {
+    /* noPrice — прайс Lubedecacorn Global с минимальными партиями у нас есть,
+       но в открытый доступ не идёт: это коммерческий документ поставщика. */
+    id: 'aberede', json: 'aberede', supplier: 'Lubedecacorn Global Co., Ltd.', brand: 'ABEREDE',
+    basis: 'EXW Korea', noPrice: true,
+    colors: { deep: '#A8272C', sky: '#CE3A32', bg: '#FBF6F4', line: '#EDDDD9' },
+    pres: true,
+    certs: ['Vegan', 'Cruelty-free', '0,00'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

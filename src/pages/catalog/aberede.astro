@@ -1,0 +1,22 @@
+---
+/* Supplier profile: aberede (default locale, ru). ABEREDE by Lubedecacorn Global —
+   published on the company's written consent of 30 August 2026 («네 서면동의합니다»).
+   The company's price list with minimum order quantities is held but never
+   published: the page shows "price on request" only. One asset in the supplied
+   folder is an AI-generated image and is deliberately not used — the showcase
+   carries real photographs only. Portrait frames from the Jeju campaign shoot
+   are left out until image rights for the model are confirmed in writing. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('aberede')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

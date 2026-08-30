@@ -81,6 +81,18 @@ import slTr from './suppliers-i18n/slow-lounge.tr.json';
 import slEs from './suppliers-i18n/slow-lounge.es.json';
 import slPt from './suppliers-i18n/slow-lounge.pt.json';
 import slCatalog from './suppliers-i18n/slow-lounge.catalog.json';
+import abRu from './suppliers-i18n/aberede.ru.json';
+import abEn from './suppliers-i18n/aberede.en.json';
+import abKo from './suppliers-i18n/aberede.ko.json';
+import abZh from './suppliers-i18n/aberede.zh.json';
+import abJa from './suppliers-i18n/aberede.ja.json';
+import abIt from './suppliers-i18n/aberede.it.json';
+import abDe from './suppliers-i18n/aberede.de.json';
+import abFr from './suppliers-i18n/aberede.fr.json';
+import abTr from './suppliers-i18n/aberede.tr.json';
+import abEs from './suppliers-i18n/aberede.es.json';
+import abPt from './suppliers-i18n/aberede.pt.json';
+import abCatalog from './suppliers-i18n/aberede.catalog.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1472,6 +1484,49 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(slTr as any),
       es: mk(slEs as any),
       pt: mk(slPt as any),
+    },
+  },
+  {
+    slug: 'aberede',
+    category: 'cosmetics',
+    name: 'Lubedecacorn Global Co., Ltd.',
+    brand: 'ABEREDE',
+    status: 'provided',
+    /* Красный знак с их логотипа и упаковки, тёплый белый фон бренд-буклета. */
+    brandColors: { deep: '#A8272C', sky: '#E3B7B4', accent: '#CE3A32', bg: '#FBF6F4' },
+    /* Дерма-косметика с патентами и протоколами испытаний — подача лабораторная. */
+    voice: 'clinical',
+    catalog: abCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Студийные кадры и часть кампейн-съёмки на Чеджу из их же папки материалов.
+       Портретные кадры, где лицо модели — главный объект, не берём: права на
+       изображения людей письмом пока не подтверждены. */
+    gallery: [
+      '/img/suppliers/aberede/gallery/jeju-serum-coast.jpg',
+      '/img/suppliers/aberede/gallery/cicapine-in-hand.jpg',
+      '/img/suppliers/aberede/gallery/dark-spot-gel-still.jpg',
+      '/img/suppliers/aberede/gallery/eye-cream-still.jpg',
+      '/img/suppliers/aberede/gallery/lip-mask-texture.jpg',
+      '/img/suppliers/aberede/gallery/principle-cream-texture.jpg',
+      '/img/suppliers/aberede/gallery/pine-ampoule-drop.jpg',
+      '/img/suppliers/aberede/gallery/sun-care-outdoors.jpg',
+      '/img/suppliers/aberede/gallery/cicapine-serum-still.jpg',
+      '/img/suppliers/aberede/gallery/jeju-cream-hands.jpg',
+    ],
+    /* 0,00 — индекс раздражения из подписанных протоколов лаборатории на три
+       продукта линии PRINCIPLE, копии у нас. Остальное заявлено компанией. */
+    certs: ['Vegan', 'Cruelty-free', '0,00'],
+    /* priceFile нет: прайс компании с минимальными партиями у нас есть, но в
+       открытый доступ он не идёт. */
+    termsFile: {
+      ru: '/docs/aberede-terms-ru.pdf', en: '/docs/aberede-terms-en.pdf', ko: '/docs/aberede-terms-ko.pdf', zh: '/docs/aberede-terms-zh.pdf', ja: '/docs/aberede-terms-ja.pdf', it: '/docs/aberede-terms-it.pdf', de: '/docs/aberede-terms-de.pdf', fr: '/docs/aberede-terms-fr.pdf', tr: '/docs/aberede-terms-tr.pdf', es: '/docs/aberede-terms-es.pdf', pt: '/docs/aberede-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/aberede-presentation-ru.pdf', en: '/docs/aberede-presentation-en.pdf', ko: '/docs/aberede-presentation-ko.pdf', zh: '/docs/aberede-presentation-zh.pdf', ja: '/docs/aberede-presentation-ja.pdf', it: '/docs/aberede-presentation-it.pdf', de: '/docs/aberede-presentation-de.pdf', fr: '/docs/aberede-presentation-fr.pdf', tr: '/docs/aberede-presentation-tr.pdf', es: '/docs/aberede-presentation-es.pdf', pt: '/docs/aberede-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(abRu as any), en: mk(abEn as any), ko: mk(abKo as any), zh: mk(abZh as any),
+      ja: mk(abJa as any), it: mk(abIt as any), de: mk(abDe as any), fr: mk(abFr as any),
+      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any),
     },
   },
 ];
