@@ -45,6 +45,13 @@ export interface SolarForm {
   err_network: string;
 }
 
+export interface SolarScheme {
+  n: string;
+  title: string;
+  body: string;
+  points: string[];
+}
+
 export interface SolarCopy {
   meta: { title: string; description: string };
   hero: { kicker: string; title: string; lead: string; cta: string };
@@ -52,6 +59,8 @@ export interface SolarCopy {
   how: { title: string; steps: SolarStep[] };
   honest: { title: string; body: string[] };
   equipment: { title: string; body: string; captions: string[] };
+  schemes: { title: string; lead: string; items: SolarScheme[]; price: string };
+  cases: { title: string; body: string; captions: string[] };
   cta: { title: string; body: string; button: string };
   form: SolarForm;
   back: string;
@@ -123,6 +132,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       title: 'Расскажите о площадке',
       body: 'Напишите мощность станции, тип конструкции и регион. Мы ответим, какие данные нужны для расчёта и что имеет смысл проверить на пилоте.',
       button: 'Написать нам',
+    },
+    schemes: {
+      title: 'Три способа работать с нами',
+      lead: 'Схему выбирает заказчик. Разница в том, кто обслуживает модули дальше — ваша служба эксплуатации или мы.',
+      items: [
+        {
+          n: '01',
+          title: 'Под ключ',
+          body: 'Мы приезжаем на площадку с тестовым оборудованием, настраиваем его и несколько дней ведём испытания. Вы видите, как техника работает на вашей конструкции и в вашем климате, а не на чужой площадке. Если результат устраивает, заключаем договор на обслуживание с ежемесячной оплатой, минимальный срок — двенадцать месяцев.',
+          points: ['Выезд команды с оборудованием', 'Испытания на вашей конструкции', 'Обслуживание по договору от 12 месяцев'],
+        },
+        {
+          n: '02',
+          title: 'Оборудование и обучение',
+          body: 'Вы покупаете технику, мы привозим её, устанавливаем на ваших модулях и обучаем вашу службу эксплуатации. Дальше станцию обслуживаете вы, а мы остаёмся на связи по запчастям и вопросам эксплуатации.',
+          points: ['Поставка и монтаж', 'Обучение персонала', 'Запчасти и поддержка'],
+        },
+        {
+          n: '03',
+          title: 'Поставка в порт',
+          body: 'Если у вас своя служба и вы знаете, что именно нужно, мы подбираем комплект, проверяем производителя и доводим груз до вашего порта. Монтаж и эксплуатация остаются на вашей стороне.',
+          points: ['Подбор комплекта', 'Проверка производителя', 'Доставка до порта'],
+        },
+      ],
+      price: 'Стоимость выезда, испытаний и ежемесячного обслуживания считаем под площадку: она зависит от мощности станции, типа конструкции, доступа к воде и удалённости объекта. Цену называем после данных площадки — до них любая цифра была бы догадкой.',
+    },
+    cases: {
+      title: 'Как это выглядит на объектах',
+      body: 'Съёмка производителя техники на объектах его заказчиков, опубликована с его разрешения. Показываем как есть: это работа машин, которые мы поставляем, а не наши собственные объекты.',
+      captions: ['Крышный массив, Малайзия', 'Крышный массив, Пакистан', 'Наземный массив, США'],
     },
     form: {
       title: 'Заявка с площадки',
@@ -219,6 +258,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       body: 'Send us the plant capacity, the structure type and the region. We will reply with the data needed for the calculation and what is worth proving on a pilot.',
       button: 'Write to us',
     },
+    schemes: {
+      title: 'Three ways to work with us',
+      lead: 'The client picks the scheme. What changes is who maintains the modules afterwards — your own team or ours.',
+      items: [
+        {
+          n: '01',
+          title: 'Turnkey',
+          body: 'We come to the site with test equipment, set it up and run trials for several days. You see how the machines behave on your own structure and in your own climate, not on somebody else’s site. If the result holds up, we sign a maintenance contract with a monthly fee and a minimum term of twelve months.',
+          points: ['Our team travels with the equipment', 'Trials on your own structure', 'Maintenance contract from 12 months'],
+        },
+        {
+          n: '02',
+          title: 'Equipment and training',
+          body: 'You buy the machines, we ship them, install them on your modules and train your maintenance staff. From then on you run the plant yourselves, and we stay available for spare parts and operating questions.',
+          points: ['Delivery and installation', 'Training for your staff', 'Spare parts and support'],
+        },
+        {
+          n: '03',
+          title: 'Delivery to your port',
+          body: 'If you have your own team and know what you need, we select the set, vet the manufacturer and bring the goods to your port. Installation and operation stay on your side.',
+          points: ['Selection of the set', 'Manufacturer vetting', 'Delivery to the port'],
+        },
+      ],
+      price: 'The cost of the visit, the trials and the monthly service is calculated for the site: it depends on plant capacity, structure type, access to water and how far the site is. We name a price once we have the site data — before that any figure would be a guess.',
+    },
+    cases: {
+      title: 'What it looks like on site',
+      body: 'Filmed by the equipment manufacturer at its customers’ sites and published with its permission. We show it as it is: this is the work of the machines we supply, not our own installations.',
+      captions: ['Rooftop array, Malaysia', 'Rooftop array, Pakistan', 'Ground-mounted array, USA'],
+    },
     form: {
       title: 'Tell us about your site',
       lead: 'We will reply with the data needed for the calculation and what is worth proving on a pilot.',
@@ -309,6 +378,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       title: '발전소에 대해 알려 주십시오',
       body: '발전 용량과 구조물 형식, 지역을 보내 주십시오. 계산에 필요한 자료와 파일럿에서 확인할 만한 항목을 회신해 드립니다.',
       button: '문의하기',
+    },
+    schemes: {
+      title: '함께 일하는 세 가지 방식',
+      lead: '방식은 고객이 고릅니다. 차이는 이후 모듈을 누가 관리하는가입니다. 귀사의 운영팀인지, 저희인지.',
+      items: [
+        {
+          n: '01',
+          title: '턴키',
+          body: '저희가 시험 장비를 가지고 현장에 가서 설치하고 며칠 동안 시험을 진행합니다. 남의 현장이 아니라 귀사의 구조물과 기후에서 장비가 어떻게 작동하는지 직접 보실 수 있습니다. 결과가 맞으면 월 단위 유지관리 계약을 맺습니다. 최소 기간은 12개월입니다.',
+          points: ['장비를 갖춘 팀의 현장 방문', '귀사 구조물에서의 시험', '12개월 이상 유지관리 계약'],
+        },
+        {
+          n: '02',
+          title: '장비 공급과 교육',
+          body: '장비를 구매하시면 저희가 운송해 귀사 모듈에 설치하고 운영 인력을 교육합니다. 이후 운영은 귀사가 맡고, 저희는 예비품과 운용 문의에 계속 대응합니다.',
+          points: ['운송과 설치', '인력 교육', '예비품과 지원'],
+        },
+        {
+          n: '03',
+          title: '항구까지 공급',
+          body: '자체 운영팀이 있고 필요한 것이 분명하다면, 저희가 구성을 정하고 제조사를 검증해 귀사 항구까지 화물을 보냅니다. 설치와 운용은 귀사 몫입니다.',
+          points: ['구성 선정', '제조사 검증', '항구까지 운송'],
+        },
+      ],
+      price: '방문과 시험, 월 유지관리 비용은 현장에 맞추어 계산합니다. 발전 용량, 구조물 형식, 용수 접근성, 현장까지의 거리에 따라 달라집니다. 현장 자료를 받은 뒤에 가격을 말씀드립니다. 그전의 숫자는 추측일 뿐입니다.',
+    },
+    cases: {
+      title: '현장에서는 이렇게 보입니다',
+      body: '장비 제조사가 자사 고객 현장에서 촬영했고, 허가를 받아 공개합니다. 있는 그대로 보여 드립니다. 저희가 공급하는 장비의 작업이며, 저희 자체 현장은 아닙니다.',
+      captions: ['지붕형 어레이, 말레이시아', '지붕형 어레이, 파키스탄', '지상 어레이, 미국'],
     },
     form: {
       title: '현장 문의',
@@ -401,6 +500,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       body: '请告诉我们电站容量、支架形式和所在地区。我们会回复测算所需的资料，以及试点上值得验证的内容。',
       button: '联系我们',
     },
+    schemes: {
+      title: '三种合作方式',
+      lead: '方式由业主选择。区别在于此后由谁维护组件：贵方运维团队，还是我们。',
+      items: [
+        {
+          n: '01',
+          title: '全包',
+          body: '我们带着测试设备到现场，装好后连续几天做试验。您看到的是设备在贵方支架和贵地气候下的表现，而不是别人的电站。结果合适，就签订按月付费的维护合同，最短十二个月。',
+          points: ['团队携设备到场', '在贵方支架上试验', '12 个月起的维护合同'],
+        },
+        {
+          n: '02',
+          title: '设备与培训',
+          body: '您购买设备，我们运到现场，装到您的组件上，并培训贵方运维人员。此后由您自行维护，我们继续负责备件和运行答疑。',
+          points: ['运输与安装', '人员培训', '备件与支持'],
+        },
+        {
+          n: '03',
+          title: '送到港口',
+          body: '如果贵方有自己的队伍，也清楚需要什么，我们负责选型、核验制造商，并把货送到贵方港口。安装和运行由贵方负责。',
+          points: ['配置选型', '制造商核验', '送达港口'],
+        },
+      ],
+      price: '出场、试验和每月维护的费用按现场核算：取决于电站容量、支架形式、取水条件和路程远近。拿到现场资料后我们才报价，在那之前任何数字都是猜测。',
+    },
+    cases: {
+      title: '在现场是什么样',
+      body: '由设备制造商在其客户现场拍摄，经许可发布。我们照实呈现：这是我们供应的设备在工作，并非我们自有的电站。',
+      captions: ['屋顶阵列，马来西亚', '屋顶阵列，巴基斯坦', '地面阵列，美国'],
+    },
     form: {
       title: '电站需求提交',
       lead: '我们会回复测算所需的资料，以及试点上值得验证的内容。',
@@ -491,6 +620,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       title: 'サイトについて教えてください',
       body: '発電容量、架台の形式、地域をお知らせください。試算に必要なデータと、パイロットで確かめる価値のある項目をご返信します。',
       button: 'お問い合わせ',
+    },
+    schemes: {
+      title: 'ご一緒する三つの方法',
+      lead: '方式はお客様が選びます。違いは、その後モジュールを誰が保守するかです。御社の保守部門か、私たちか。',
+      items: [
+        {
+          n: '01',
+          title: 'ターンキー',
+          body: '試験機材を持って現場に伺い、設置して数日間の試験を行います。他所の現場ではなく、御社の架台と気候で機械がどう動くかをご自身で確認いただけます。結果にご納得いただければ、月額の保守契約を結びます。最短で十二か月です。',
+          points: ['機材を伴う現場訪問', '御社の架台での試験', '12か月からの保守契約'],
+        },
+        {
+          n: '02',
+          title: '機材の供給と教育',
+          body: '機械をご購入いただき、輸送してモジュールに設置し、御社の保守要員を教育します。以後の運用は御社が行い、私たちは予備品と運用のご質問に対応し続けます。',
+          points: ['輸送と設置', '要員の教育', '予備品と支援'],
+        },
+        {
+          n: '03',
+          title: '港までの納入',
+          body: '自社の要員がいて必要なものが定まっている場合は、構成を選び、メーカーを確認し、御社の港まで貨物を届けます。設置と運用は御社側です。',
+          points: ['構成の選定', 'メーカーの確認', '港までの輸送'],
+        },
+      ],
+      price: '訪問、試験、月々の保守の費用は現場ごとに算出します。発電容量、架台の形式、水の確保、現場までの距離で変わります。現場のデータをいただいてから価格を申し上げます。それ以前の数字は推測にすぎません。',
+    },
+    cases: {
+      title: '現場での見え方',
+      body: '機材メーカーがその顧客の現場で撮影し、許可を得て公開しています。そのままお見せします。私たちが供給する機械の作業であって、私たち自身の設備ではありません。',
+      captions: ['屋根置きアレイ、マレーシア', '屋根置きアレイ、パキスタン', '地上設置アレイ、アメリカ'],
     },
     form: {
       title: 'サイトからのお問い合わせ',
@@ -583,6 +742,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       body: 'Schreiben Sie uns die Leistung der Anlage, die Art der Unterkonstruktion und die Region. Wir antworten, welche Daten für die Berechnung nötig sind und was sich im Pilotbetrieb zu prüfen lohnt.',
       button: 'Schreiben Sie uns',
     },
+    schemes: {
+      title: 'Drei Wege der Zusammenarbeit',
+      lead: 'Den Weg wählen Sie. Der Unterschied liegt darin, wer die Module danach betreut: Ihre Instandhaltung oder wir.',
+      items: [
+        {
+          n: '01',
+          title: 'Schlüsselfertig',
+          body: 'Wir kommen mit Testtechnik auf die Anlage, richten sie ein und fahren mehrere Tage Versuche. Sie sehen, wie die Maschinen auf Ihrer Unterkonstruktion und in Ihrem Klima arbeiten, nicht auf einer fremden Anlage. Trägt das Ergebnis, schließen wir einen Wartungsvertrag mit monatlicher Vergütung und einer Mindestlaufzeit von zwölf Monaten.',
+          points: ['Team reist mit der Technik an', 'Versuche auf Ihrer Unterkonstruktion', 'Wartungsvertrag ab 12 Monaten'],
+        },
+        {
+          n: '02',
+          title: 'Technik und Schulung',
+          body: 'Sie kaufen die Maschinen, wir liefern sie, montieren sie auf Ihren Modulen und schulen Ihr Personal. Danach betreiben Sie die Anlage selbst, und wir bleiben für Ersatzteile und Betriebsfragen erreichbar.',
+          points: ['Lieferung und Montage', 'Schulung des Personals', 'Ersatzteile und Unterstützung'],
+        },
+        {
+          n: '03',
+          title: 'Lieferung in Ihren Hafen',
+          body: 'Wenn Sie eigenes Personal haben und wissen, was Sie brauchen, stellen wir den Satz zusammen, prüfen den Hersteller und bringen die Ware in Ihren Hafen. Montage und Betrieb bleiben bei Ihnen.',
+          points: ['Zusammenstellung des Satzes', 'Prüfung des Herstellers', 'Lieferung bis zum Hafen'],
+        },
+      ],
+      price: 'Die Kosten für Anreise, Versuche und monatliche Betreuung rechnen wir für die Anlage: sie hängen von Leistung, Unterkonstruktion, Wasserzugang und Entfernung ab. Einen Preis nennen wir nach den Anlagendaten, davor wäre jede Zahl geraten.',
+    },
+    cases: {
+      title: 'Wie es auf der Anlage aussieht',
+      body: 'Aufnahmen des Maschinenherstellers bei seinen Kunden, veröffentlicht mit dessen Zustimmung. Wir zeigen sie, wie sie sind: es ist die Arbeit der Maschinen, die wir liefern, und nicht unsere eigenen Anlagen.',
+      captions: ['Dachanlage, Malaysia', 'Dachanlage, Pakistan', 'Freiflächenanlage, USA'],
+    },
     form: {
       title: 'Anfrage von der Anlage',
       lead: 'Wir antworten, welche Daten für die Berechnung nötig sind und was sich im Pilotbetrieb zu prüfen lohnt.',
@@ -673,6 +862,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       title: 'Parlez-nous de votre site',
       body: 'Indiquez-nous la puissance de la centrale, le type de structure et la région. Nous répondrons avec les données nécessaires au calcul et ce qu’il vaut la peine de vérifier sur un pilote.',
       button: 'Écrivez-nous',
+    },
+    schemes: {
+      title: 'Trois façons de travailler avec nous',
+      lead: 'Le client choisit la formule. Ce qui change, c’est qui entretient les modules ensuite : votre service de maintenance ou le nôtre.',
+      items: [
+        {
+          n: '01',
+          title: 'Clé en main',
+          body: 'Nous venons sur le site avec du matériel d’essai, nous l’installons et nous menons des essais pendant plusieurs jours. Vous voyez comment les machines travaillent sur votre structure et sous votre climat, et non sur une centrale voisine. Si le résultat tient, nous signons un contrat de maintenance à redevance mensuelle, d’une durée minimale de douze mois.',
+          points: ['L’équipe se déplace avec le matériel', 'Essais sur votre structure', 'Contrat de maintenance à partir de 12 mois'],
+        },
+        {
+          n: '02',
+          title: 'Matériel et formation',
+          body: 'Vous achetez les machines, nous les livrons, les installons sur vos modules et formons votre personnel. Ensuite, vous entretenez la centrale vous-mêmes et nous restons joignables pour les pièces et les questions d’exploitation.',
+          points: ['Livraison et installation', 'Formation du personnel', 'Pièces et assistance'],
+        },
+        {
+          n: '03',
+          title: 'Livraison à votre port',
+          body: 'Si vous avez vos équipes et savez ce qu’il vous faut, nous composons le lot, vérifions le fabricant et acheminons la marchandise jusqu’à votre port. Le montage et l’exploitation restent de votre côté.',
+          points: ['Composition du lot', 'Vérification du fabricant', 'Acheminement jusqu’au port'],
+        },
+      ],
+      price: 'Le coût du déplacement, des essais et de la redevance mensuelle se calcule pour le site : il dépend de la puissance, du type de structure, de l’accès à l’eau et de l’éloignement. Nous annonçons un prix une fois les données du site connues ; avant cela, tout chiffre serait une supposition.',
+    },
+    cases: {
+      title: 'Ce que cela donne sur le terrain',
+      body: 'Images tournées par le fabricant des machines chez ses clients et publiées avec son accord. Nous les montrons telles quelles : c’est le travail des machines que nous fournissons, pas nos propres installations.',
+      captions: ['Installation en toiture, Malaisie', 'Installation en toiture, Pakistan', 'Centrale au sol, États-Unis'],
     },
     form: {
       title: 'Demande depuis le site',
@@ -765,6 +984,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       body: 'Scriveteci la potenza dell’impianto, il tipo di struttura e la regione. Vi risponderemo indicando i dati necessari al calcolo e che cosa conviene verificare su un pilota.',
       button: 'Scriveteci',
     },
+    schemes: {
+      title: 'Tre modi di lavorare con noi',
+      lead: 'Lo schema lo sceglie il cliente. Cambia chi mantiene i moduli dopo: il vostro servizio di manutenzione o il nostro.',
+      items: [
+        {
+          n: '01',
+          title: 'Chiavi in mano',
+          body: 'Arriviamo sul sito con le macchine di prova, le mettiamo in funzione e per qualche giorno conduciamo i test. Vedete come lavorano sulla vostra struttura e nel vostro clima, non su un impianto altrui. Se il risultato regge, firmiamo un contratto di manutenzione a canone mensile, con durata minima di dodici mesi.',
+          points: ['La squadra arriva con le macchine', 'Prove sulla vostra struttura', 'Contratto di manutenzione da 12 mesi'],
+        },
+        {
+          n: '02',
+          title: 'Macchine e formazione',
+          body: 'Acquistate le macchine, noi le spediamo, le installiamo sui vostri moduli e formiamo il vostro personale. Da lì in poi l’impianto lo mantenete voi, e noi restiamo a disposizione per ricambi e domande di esercizio.',
+          points: ['Spedizione e installazione', 'Formazione del personale', 'Ricambi e assistenza'],
+        },
+        {
+          n: '03',
+          title: 'Consegna al porto',
+          body: 'Se avete già una squadra e sapete che cosa vi serve, scegliamo il set, verifichiamo il produttore e portiamo la merce al vostro porto. Installazione ed esercizio restano a voi.',
+          points: ['Scelta del set', 'Verifica del produttore', 'Consegna al porto'],
+        },
+      ],
+      price: 'Il costo della trasferta, delle prove e del canone mensile si calcola sul sito: dipende dalla potenza, dal tipo di struttura, dall’accesso all’acqua e dalla distanza. Il prezzo lo indichiamo dopo i dati del sito: prima sarebbe una supposizione.',
+    },
+    cases: {
+      title: 'Come si presenta sul campo',
+      body: 'Riprese del produttore delle macchine presso i suoi clienti, pubblicate con il suo consenso. Le mostriamo come sono: è il lavoro delle macchine che forniamo, non impianti nostri.',
+      captions: ['Impianto in copertura, Malesia', 'Impianto in copertura, Pakistan', 'Impianto a terra, USA'],
+    },
     form: {
       title: 'Richiesta dall’impianto',
       lead: 'Vi risponderemo indicando i dati necessari al calcolo e che cosa conviene verificare su un pilota.',
@@ -855,6 +1104,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       title: 'Cuéntenos sobre su planta',
       body: 'Escríbanos la potencia de la planta, el tipo de estructura y la región. Le responderemos qué datos hacen falta para el cálculo y qué conviene comprobar en un piloto.',
       button: 'Escríbanos',
+    },
+    schemes: {
+      title: 'Tres formas de trabajar con nosotros',
+      lead: 'El esquema lo elige el cliente. Lo que cambia es quién mantiene los módulos después: su servicio de mantenimiento o el nuestro.',
+      items: [
+        {
+          n: '01',
+          title: 'Llave en mano',
+          body: 'Vamos a la planta con equipos de prueba, los ponemos en marcha y durante varios días realizamos ensayos. Usted ve cómo trabajan las máquinas sobre su estructura y en su clima, no en una planta ajena. Si el resultado se sostiene, firmamos un contrato de mantenimiento con cuota mensual y una duración mínima de doce meses.',
+          points: ['El equipo se desplaza con las máquinas', 'Ensayos sobre su estructura', 'Contrato de mantenimiento desde 12 meses'],
+        },
+        {
+          n: '02',
+          title: 'Equipos y formación',
+          body: 'Usted compra las máquinas, nosotros las enviamos, las instalamos sobre sus módulos y formamos a su personal. A partir de ahí usted mantiene la planta y nosotros seguimos disponibles para repuestos y dudas de operación.',
+          points: ['Envío e instalación', 'Formación del personal', 'Repuestos y soporte'],
+        },
+        {
+          n: '03',
+          title: 'Entrega en su puerto',
+          body: 'Si ya tiene equipo propio y sabe qué necesita, componemos el lote, verificamos al fabricante y llevamos la mercancía hasta su puerto. El montaje y la operación quedan de su lado.',
+          points: ['Composición del lote', 'Verificación del fabricante', 'Entrega en el puerto'],
+        },
+      ],
+      price: 'El coste del desplazamiento, de los ensayos y de la cuota mensual se calcula para el emplazamiento: depende de la potencia, del tipo de estructura, del acceso al agua y de la distancia. Damos precio cuando tenemos los datos de la planta; antes, cualquier cifra sería una suposición.',
+    },
+    cases: {
+      title: 'Cómo se ve sobre el terreno',
+      body: 'Imágenes grabadas por el fabricante de las máquinas en las plantas de sus clientes y publicadas con su permiso. Las mostramos tal cual: es el trabajo de las máquinas que suministramos, no instalaciones propias.',
+      captions: ['Instalación en cubierta, Malasia', 'Instalación en cubierta, Pakistán', 'Planta en suelo, EE. UU.'],
     },
     form: {
       title: 'Solicitud desde la planta',
@@ -947,6 +1226,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       body: 'Escreva a potência da usina, o tipo de estrutura e a região. Responderemos quais dados são necessários para o cálculo e o que vale a pena verificar em um piloto.',
       button: 'Escreva para nós',
     },
+    schemes: {
+      title: 'Três formas de trabalhar conosco',
+      lead: 'O esquema é escolhido pelo cliente. O que muda é quem mantém os módulos depois: a sua equipe de manutenção ou a nossa.',
+      items: [
+        {
+          n: '01',
+          title: 'Chave na mão',
+          body: 'Vamos até a usina com equipamentos de teste, colocamos tudo em funcionamento e por alguns dias realizamos os ensaios. Você vê como as máquinas trabalham na sua estrutura e no seu clima, e não em uma usina alheia. Se o resultado se confirmar, assinamos um contrato de manutenção com pagamento mensal e prazo mínimo de doze meses.',
+          points: ['A equipe viaja com os equipamentos', 'Ensaios na sua estrutura', 'Contrato de manutenção a partir de 12 meses'],
+        },
+        {
+          n: '02',
+          title: 'Equipamentos e treinamento',
+          body: 'Você compra as máquinas, nós as enviamos, instalamos nos seus módulos e treinamos a sua equipe. A partir daí você mantém a usina, e continuamos disponíveis para peças de reposição e dúvidas de operação.',
+          points: ['Envio e instalação', 'Treinamento da equipe', 'Peças e suporte'],
+        },
+        {
+          n: '03',
+          title: 'Entrega no seu porto',
+          body: 'Se você já tem equipe própria e sabe do que precisa, montamos o conjunto, verificamos o fabricante e levamos a carga até o seu porto. Montagem e operação ficam do seu lado.',
+          points: ['Montagem do conjunto', 'Verificação do fabricante', 'Entrega no porto'],
+        },
+      ],
+      price: 'O custo da viagem, dos ensaios e da mensalidade é calculado para o local: depende da potência, do tipo de estrutura, do acesso à água e da distância. Damos o preço depois dos dados da usina; antes disso, qualquer número seria um palpite.',
+    },
+    cases: {
+      title: 'Como fica no campo',
+      body: 'Imagens gravadas pelo fabricante das máquinas nas usinas de seus clientes e publicadas com a autorização dele. Mostramos como estão: é o trabalho das máquinas que fornecemos, não instalações nossas.',
+      captions: ['Instalação em telhado, Malásia', 'Instalação em telhado, Paquistão', 'Usina em solo, EUA'],
+    },
     form: {
       title: 'Solicitação da usina',
       lead: 'Responderemos quais dados são necessários para o cálculo e o que vale a pena verificar em um piloto.',
@@ -1037,6 +1346,36 @@ export const solarCopy: Record<Lang, SolarCopy> = {
       title: 'Sahanızı anlatın',
       body: 'Santral gücünü, taşıyıcı yapı tipini ve bölgeyi yazın. Hesap için gereken verileri ve pilotta doğrulanmaya değer noktaları yanıtlayalım.',
       button: 'Bize yazın',
+    },
+    schemes: {
+      title: 'Bizimle çalışmanın üç yolu',
+      lead: 'Yolu müşteri seçer. Fark, modüllerin bakımını sonrasında kimin yapacağıdır: sizin bakım ekibiniz mi, biz mi.',
+      items: [
+        {
+          n: '01',
+          title: 'Anahtar teslim',
+          body: 'Test ekipmanıyla sahaya geliyoruz, kuruyoruz ve birkaç gün deneme yapıyoruz. Makinelerin başka bir sahada değil, sizin taşıyıcı yapınızda ve ikliminizde nasıl çalıştığını kendiniz görüyorsunuz. Sonuç uygunsa aylık ödemeli bakım sözleşmesi imzalıyoruz; asgari süre on iki ay.',
+          points: ['Ekip ekipmanla birlikte geliyor', 'Sizin taşıyıcı yapınızda deneme', '12 aydan başlayan bakım sözleşmesi'],
+        },
+        {
+          n: '02',
+          title: 'Ekipman ve eğitim',
+          body: 'Makineleri satın alıyorsunuz, biz sevk edip modüllerinize kuruyoruz ve bakım personelinizi eğitiyoruz. Sonrasında santrali siz işletiyorsunuz, biz yedek parça ve işletme soruları için ulaşılabilir kalıyoruz.',
+          points: ['Sevkiyat ve montaj', 'Personel eğitimi', 'Yedek parça ve destek'],
+        },
+        {
+          n: '03',
+          title: 'Limanınıza teslim',
+          body: 'Kendi ekibiniz varsa ve neye ihtiyacınız olduğunu biliyorsanız, seti belirliyor, üreticiyi doğruluyor ve yükü limanınıza kadar getiriyoruz. Montaj ve işletme sizde kalıyor.',
+          points: ['Set seçimi', 'Üretici doğrulaması', 'Limana kadar teslim'],
+        },
+      ],
+      price: 'Saha ziyareti, denemeler ve aylık bakımın bedelini sahaya göre hesaplıyoruz: santral gücüne, taşıyıcı yapı tipine, suya erişime ve mesafeye bağlı. Fiyatı saha verilerinden sonra söylüyoruz; öncesinde her rakam tahmin olurdu.',
+    },
+    cases: {
+      title: 'Sahada nasıl görünüyor',
+      body: 'Ekipman üreticisinin kendi müşterilerinin sahalarında çektiği ve izniyle yayımladığımız görüntüler. Olduğu gibi gösteriyoruz: bu, tedarik ettiğimiz makinelerin çalışması, kendi sahalarımız değil.',
+      captions: ['Çatı dizisi, Malezya', 'Çatı dizisi, Pakistan', 'Arazi dizisi, ABD'],
     },
     form: {
       title: 'Sahadan talep',

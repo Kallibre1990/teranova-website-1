@@ -198,7 +198,8 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
       /* --- герой --- */
       .solar__hero { position: relative; overflow: hidden; }
       .solar__hero-media { position: absolute; inset: 0; }
-      .solar__hero-media img { width: 100%; height: 100%; object-fit: cover; }
+      .solar__hero-media img,
+      .solar__hero-media video { width: 100%; height: 100%; object-fit: cover; display: block; }
       .solar__hero-media::after {
         content: ''; position: absolute; inset: 0;
         background: linear-gradient(105deg, rgba(29, 26, 22, 0.92) 0%, rgba(29, 26, 22, 0.72) 48%, rgba(29, 26, 22, 0.35) 100%);
@@ -258,6 +259,51 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
       .solar__cta .solar__btn { margin-top: 26px; }
 
 
+      /* --- три схемы работы --- */
+      .solar__schemes-lead { max-width: 640px; font-size: 18px; color: var(--ink-soft); margin: 14px 0 0; }
+      /* Три колонки только там, где карточке хватает места на абзац: на 790 точках
+         жёсткие три колонки давали 233 точки ширины, текст сжимался в столбик. */
+      .solar__cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 22px; margin-top: 36px; }
+      .solar__card {
+        background: #fff; border: 1px solid var(--line); border-radius: 8px;
+        padding: 26px 24px 24px; display: flex; flex-direction: column;
+      }
+      .solar__card-n {
+        font-family: Georgia, serif; font-size: 15px; letter-spacing: 0.1em; color: var(--amber-deep);
+      }
+      .solar__card h3 { margin: 10px 0 12px; font-size: 22px; }
+      .solar__card p { color: var(--ink-soft); margin: 0; flex: 1; }
+      .solar__card-list { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid var(--line); }
+      .solar__card-list li {
+        position: relative; padding: 10px 0 0 20px; font-size: 15px; color: var(--ink);
+      }
+      .solar__card-list li::before {
+        content: ''; position: absolute; left: 0; top: 18px;
+        width: 7px; height: 7px; border-radius: 50%; background: var(--amber);
+      }
+      .solar__schemes-price {
+        margin: 30px 0 0; max-width: 720px; font-size: 15px; color: var(--ink-soft);
+        border-left: 2px solid var(--amber); padding-left: 16px;
+      }
+
+      /* --- ролики с объектов --- */
+      .solar__clip figure { margin: 0; }
+      .solar__clip-play {
+        display: block; position: relative; width: 100%; padding: 0;
+        border: 0; background: none; cursor: pointer; border-radius: 6px; overflow: hidden;
+      }
+      .solar__clip-play img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+      .solar__clip-icon {
+        position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+        width: 52px; height: 52px; border-radius: 50%;
+        display: grid; place-items: center;
+        background: rgba(29, 26, 22, 0.72); color: #fff8ec;
+        transition: background 0.18s ease;
+      }
+      .solar__clip-play:hover .solar__clip-icon { background: var(--amber-deep); }
+      .solar__clip-v { width: 100%; aspect-ratio: 4 / 3; border-radius: 6px; background: #000; }
+      .solar__clip figcaption { font-size: 14px; color: var(--ink-soft); margin-top: 9px; }
+
       /* --- форма заявки --- */
       .solar__formgrid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 48px; align-items: start; }
       .solar__formintro p { color: #ded3c0; max-width: 420px; font-size: 18px; margin: 18px 0 0; }
@@ -307,6 +353,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
         .solar__section { padding: 58px 0; }
         .solar__steps { grid-template-columns: 1fr; }
         .solar__gallery { grid-template-columns: 1fr; }
+        .solar__cards { gap: 16px; }
         .solar__formgrid { grid-template-columns: 1fr; gap: 30px; }
         .solar__fgrid { grid-template-columns: 1fr; }
         .solar__form { padding: 20px; }

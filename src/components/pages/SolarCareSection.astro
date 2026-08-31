@@ -10,6 +10,14 @@ interface Props {
 }
 const { lang, copy } = Astro.props;
 
+/* Кейсы производителя техники: подписи приходят из текстов раздела, порядок
+   строго тот же, что у подписей. */
+const clips = [
+  { src: '/video/multifit/case-malaysia.mp4', poster: '/video/multifit/case-malaysia.jpg' },
+  { src: '/video/multifit/case-pakistan.mp4', poster: '/video/multifit/case-pakistan.jpg' },
+  { src: '/video/multifit/case-usa.mp4', poster: '/video/multifit/case-usa.jpg' },
+];
+
 const shots = [
   '/img/suppliers/multifit/gallery/g2-desert-array.jpg',
   '/img/suppliers/multifit/gallery/brush-d-operator.jpg',
@@ -19,7 +27,20 @@ const shots = [
 
 <section class="solar__hero">
   <div class="solar__hero-media">
-    <img src={shots[0]} alt="" loading="eager" fetchpriority="high" width="1600" height="900" />
+    {/* Кадр стоит первым: он показывается сразу, пока грузится ролик, и остаётся
+        единственным фоном, если человек просил систему не проигрывать анимацию
+        или браузер отказал в автозапуске. */}
+    <video
+      class="solar__hero-video"
+      poster="/video/solar-care/hero-array.jpg"
+      muted
+      loop
+      playsinline
+      autoplay
+      preload="none"
+      aria-hidden="true"
+      data-src-lg="/video/solar-care/hero-array.mp4"
+      data-src-sm="/video/solar-care/hero-array-sm.mp4"></video>
   </div>
   <div class="solar__hero-inner">
     <p class="solar__kicker">{copy.hero.kicker}</p>
@@ -51,6 +72,26 @@ const shots = [
   </div>
 </section>
 
+<section class="solar__section solar__schemes">
+  <div class="solar__wrap">
+    <h2>{copy.schemes.title}</h2>
+    <p class="solar__schemes-lead">{copy.schemes.lead}</p>
+    <div class="solar__cards">
+      {copy.schemes.items.map((s) => (
+        <article class="solar__card">
+          <span class="solar__card-n">{s.n}</span>
+          <h3>{s.title}</h3>
+          <p>{s.body}</p>
+          <ul class="solar__card-list">
+            {s.points.map((pt) => <li>{pt}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+    <p class="solar__schemes-price">{copy.schemes.price}</p>
+  </div>
+</section>
+
 <section class="solar__section solar__honest">
   <div class="solar__wrap solar__prose">
     <h2>{copy.honest.title}</h2>
@@ -75,4 +116,69 @@ const shots = [
   </div>
 </section>
 
+<section class="solar__section solar__cases">
+  <div class="solar__wrap solar__prose">
+    <h2>{copy.cases.title}</h2>
+    <p>{copy.cases.body}</p>
+    <div class="solar__gallery">
+      {clips.map((v, i) => (
+        <div class="solar__clip">
+          <figure>
+            <button class="solar__clip-play" type="button" aria-label={copy.cases.captions[i]}>
+              <img src={v.poster} alt={copy.cases.captions[i]} loading="lazy" width="800" height="600" />
+              <span class="solar__clip-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
+              </span>
+            </button>
+            <video class="solar__clip-v" src={v.src} poster={v.poster} preload="none" controls playsinline hidden></video>
+            <figcaption>{copy.cases.captions[i]}</figcaption>
+          </figure>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
 <SolarCareForm lang={lang} copy={copy} />
+
+<script is:inline>
+  /* Ролик первого экрана: источник выбираем по ширине окна, чтобы на телефоне
+     не тянуть полуторамегабайтный файл, и не запускаем вовсе, если в системе
+     включено «уменьшить движение». */
+  (function () {
+    var v = document.querySelector('.solar__hero-video');
+    if (!v) return;
+    var still = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (still.matches) return;
+    var small = window.matchMedia('(max-width: 760px)').matches;
+    v.muted = true;
+    v.playsInline = true;
+    v.src = small ? v.dataset.srcSm : v.dataset.srcLg;
+    v.load();
+    /* Браузер может отклонить автозапуск, если решает про экономию трафика или
+       вкладка ещё не активна. Пробуем ещё раз, когда данных хватает и когда
+       вкладку открыли; если так и не пошло — на экране остаётся кадр. */
+    function start() {
+      var go = v.play();
+      if (go && go.catch) go.catch(function () {});
+    }
+    start();
+    v.addEventListener('canplay', start, { once: true });
+    v.addEventListener('loadeddata', start, { once: true });
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden && v.paused) start();
+    });
+  })();
+
+  /* Кейсы: до нажатия на экране только кадр, видео грузится по клику. */
+  document.querySelectorAll('.solar__clip').forEach(function (box) {
+    var btn = box.querySelector('.solar__clip-play');
+    var vid = box.querySelector('.solar__clip-v');
+    if (!btn || !vid) return;
+    btn.addEventListener('click', function () {
+      btn.hidden = true;
+      vid.hidden = false;
+      vid.play();
+    });
+  });
+</script>
