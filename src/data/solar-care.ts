@@ -103,7 +103,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Пилот с измерением',
-          body: 'В программу пилота закладываем восемь показателей: производительность цикла, расход воды, трудозатраты на мегаватт, безопасность работ и фактический возврат выработки среди них. До начала работ письменно фиксируем методику замера и того, кто снимает показания на площадке.',
+          body: 'В программу пилота закладываем восемь показателей, в том числе производительность цикла, расход воды, трудозатраты на мегаватт, безопасность работ и фактический возврат выработки. До начала работ письменно фиксируем методику замера и ответственного за снятие показаний на площадке.',
         },
         {
           n: '04',
@@ -1321,7 +1321,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '03',
           title: 'Ölçümlü pilot',
-          body: 'Pilot programına sekiz değer giriyor: döngü verimliliği, su tüketimi, megavat başına iş saati, iş güvenliği ve fiilen geri kazanılan üretim bunların arasında. Başlamadan önce ölçüm yöntemini ve sahada değerleri kimin okuyacağını yazılı olarak belirliyoruz.',
+          body: 'Pilot programına sekiz değer giriyor; bunlardan bazıları döngü verimliliği, su tüketimi, megavat başına iş saati, iş güvenliği ve fiilen geri kazanılan üretim. Başlamadan önce ölçüm yöntemini ve sahada değerleri kimin okuyacağını yazılı olarak belirliyoruz.',
         },
         {
           n: '04',
