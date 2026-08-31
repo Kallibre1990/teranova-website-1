@@ -140,8 +140,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Под ключ',
-          body: 'Мы приезжаем на площадку с тестовым оборудованием, настраиваем его и несколько дней ведём испытания. Вы видите, как техника работает на вашей конструкции и в вашем климате, а не на чужой площадке. Если результат устраивает, заключаем договор на обслуживание с ежемесячной оплатой, минимальный срок — двенадцать месяцев.',
-          points: ['Выезд команды с оборудованием', 'Испытания на вашей конструкции', 'Обслуживание по договору от 12 месяцев'],
+          body: 'Мы приезжаем на площадку, настраиваем оборудование и проводим испытания. Вы видите, как техника работает на вашей конструкции и в вашем климате, а не на чужой площадке. Если результат устраивает, дальше станцию обслуживаем мы.',
+          points: ['Выезд команды с оборудованием', 'Испытания на вашей конструкции', 'Обслуживание силами Teranova'],
         },
         {
           n: '02',
@@ -156,11 +156,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Подбор комплекта', 'Проверка производителя', 'Доставка до порта'],
         },
       ],
-      price: 'Стоимость выезда, испытаний и ежемесячного обслуживания считаем под площадку: она зависит от мощности станции, типа конструкции, доступа к воде и удалённости объекта. Цену называем после данных площадки — до них любая цифра была бы догадкой.',
+      price: 'Стоимость выезда, испытаний и обслуживания считаем под площадку: она зависит от мощности станции, типа конструкции, доступа к воде и удалённости объекта. Цену называем после данных площадки — до них любая цифра была бы догадкой.',
     },
     cases: {
       title: 'Как это выглядит на объектах',
-      body: 'Съёмка производителя техники на объектах его заказчиков, опубликована с его разрешения. Показываем как есть: это работа машин, которые мы поставляем, а не наши собственные объекты.',
+      body: 'Показываем как есть: это работа машин, которые мы поставляем, а не наши собственные объекты.',
       captions: ['Крышный массив, Малайзия', 'Крышный массив, Пакистан', 'Наземный массив, США'],
     },
     form: {
@@ -265,8 +265,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Turnkey',
-          body: 'We come to the site with test equipment, set it up and run trials for several days. You see how the machines behave on your own structure and in your own climate, not on somebody else’s site. If the result holds up, we sign a maintenance contract with a monthly fee and a minimum term of twelve months.',
-          points: ['Our team travels with the equipment', 'Trials on your own structure', 'Maintenance contract from 12 months'],
+          body: 'We come to the site, set up the equipment and run trials for several days. You see how the machines behave on your own structure and in your own climate, not on somebody else’s site. If the result holds up, we take over servicing the plant.',
+          points: ['Our team travels with the equipment', 'Trials on your own structure', 'Servicing by Teranova'],
         },
         {
           n: '02',
@@ -281,11 +281,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Selection of the set', 'Manufacturer vetting', 'Delivery to the port'],
         },
       ],
-      price: 'The cost of the visit, the trials and the monthly service is calculated for the site: it depends on plant capacity, structure type, access to water and how far the site is. We name a price once we have the site data — before that any figure would be a guess.',
+      price: 'The cost of the visit, the trials and the service is calculated for the site: it depends on plant capacity, structure type, access to water and how far the site is. We name a price once we have the site data — before that any figure would be a guess.',
     },
     cases: {
       title: 'What it looks like on site',
-      body: 'Filmed by the equipment manufacturer at its customers’ sites and published with its permission. We show it as it is: this is the work of the machines we supply, not our own installations.',
+      body: 'We show it as it is: this is the work of the machines we supply, not our own installations.',
       captions: ['Rooftop array, Malaysia', 'Rooftop array, Pakistan', 'Ground-mounted array, USA'],
     },
     form: {
@@ -386,8 +386,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: '턴키',
-          body: '저희가 시험 장비를 가지고 현장에 가서 설치하고 며칠 동안 시험을 진행합니다. 남의 현장이 아니라 귀사의 구조물과 기후에서 장비가 어떻게 작동하는지 직접 보실 수 있습니다. 결과가 맞으면 월 단위 유지관리 계약을 맺습니다. 최소 기간은 12개월입니다.',
-          points: ['장비를 갖춘 팀의 현장 방문', '귀사 구조물에서의 시험', '12개월 이상 유지관리 계약'],
+          body: '저희가 현장에 가서 장비를 설치하고 며칠 동안 시험을 진행합니다. 남의 현장이 아니라 귀사의 구조물과 기후에서 장비가 어떻게 작동하는지 직접 보실 수 있습니다. 결과가 맞으면 이후 유지관리는 저희가 맡습니다.',
+          points: ['장비를 갖춘 팀의 현장 방문', '귀사 구조물에서의 시험', 'Teranova의 유지관리'],
         },
         {
           n: '02',
@@ -402,11 +402,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['구성 선정', '제조사 검증', '항구까지 운송'],
         },
       ],
-      price: '방문과 시험, 월 유지관리 비용은 현장에 맞추어 계산합니다. 발전 용량, 구조물 형식, 용수 접근성, 현장까지의 거리에 따라 달라집니다. 현장 자료를 받은 뒤에 가격을 말씀드립니다. 그전의 숫자는 추측일 뿐입니다.',
+      price: '방문과 시험, 유지관리 비용은 현장에 맞추어 계산합니다. 발전 용량, 구조물 형식, 용수 접근성, 현장까지의 거리에 따라 달라집니다. 현장 자료를 받은 뒤에 가격을 말씀드립니다. 그전의 숫자는 추측일 뿐입니다.',
     },
     cases: {
       title: '현장에서는 이렇게 보입니다',
-      body: '장비 제조사가 자사 고객 현장에서 촬영했고, 허가를 받아 공개합니다. 있는 그대로 보여 드립니다. 저희가 공급하는 장비의 작업이며, 저희 자체 현장은 아닙니다.',
+      body: '있는 그대로 보여 드립니다. 저희가 공급하는 장비의 작업이며, 저희 자체 현장은 아닙니다.',
       captions: ['지붕형 어레이, 말레이시아', '지붕형 어레이, 파키스탄', '지상 어레이, 미국'],
     },
     form: {
@@ -507,8 +507,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: '全包',
-          body: '我们带着测试设备到现场，装好后连续几天做试验。您看到的是设备在贵方支架和贵地气候下的表现，而不是别人的电站。结果合适，就签订按月付费的维护合同，最短十二个月。',
-          points: ['团队携设备到场', '在贵方支架上试验', '12 个月起的维护合同'],
+          body: '我们带着设备到现场，装好后连续几天做试验。您看到的是设备在贵方支架和贵地气候下的表现，而不是别人的电站。结果合适，此后由我们负责维护。',
+          points: ['团队携设备到场', '在贵方支架上试验', '由 Teranova 负责维护'],
         },
         {
           n: '02',
@@ -523,11 +523,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['配置选型', '制造商核验', '送达港口'],
         },
       ],
-      price: '出场、试验和每月维护的费用按现场核算：取决于电站容量、支架形式、取水条件和路程远近。拿到现场资料后我们才报价，在那之前任何数字都是猜测。',
+      price: '出场、试验和维护的费用按现场核算：取决于电站容量、支架形式、取水条件和路程远近。拿到现场资料后我们才报价，在那之前任何数字都是猜测。',
     },
     cases: {
       title: '在现场是什么样',
-      body: '由设备制造商在其客户现场拍摄，经许可发布。我们照实呈现：这是我们供应的设备在工作，并非我们自有的电站。',
+      body: '我们照实呈现：这是我们供应的设备在工作，并非我们自有的电站。',
       captions: ['屋顶阵列，马来西亚', '屋顶阵列，巴基斯坦', '地面阵列，美国'],
     },
     form: {
@@ -628,8 +628,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'ターンキー',
-          body: '試験機材を持って現場に伺い、設置して数日間の試験を行います。他所の現場ではなく、御社の架台と気候で機械がどう動くかをご自身で確認いただけます。結果にご納得いただければ、月額の保守契約を結びます。最短で十二か月です。',
-          points: ['機材を伴う現場訪問', '御社の架台での試験', '12か月からの保守契約'],
+          body: '機材を持って現場に伺い、設置して数日間の試験を行います。他所の現場ではなく、御社の架台と気候で機械がどう動くかをご自身で確認いただけます。結果にご納得いただければ、以後の保守は私たちが担います。',
+          points: ['機材を伴う現場訪問', '御社の架台での試験', 'Teranovaによる保守'],
         },
         {
           n: '02',
@@ -644,11 +644,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['構成の選定', 'メーカーの確認', '港までの輸送'],
         },
       ],
-      price: '訪問、試験、月々の保守の費用は現場ごとに算出します。発電容量、架台の形式、水の確保、現場までの距離で変わります。現場のデータをいただいてから価格を申し上げます。それ以前の数字は推測にすぎません。',
+      price: '訪問、試験、保守の費用は現場ごとに算出します。発電容量、架台の形式、水の確保、現場までの距離で変わります。現場のデータをいただいてから価格を申し上げます。それ以前の数字は推測にすぎません。',
     },
     cases: {
       title: '現場での見え方',
-      body: '機材メーカーがその顧客の現場で撮影し、許可を得て公開しています。そのままお見せします。私たちが供給する機械の作業であって、私たち自身の設備ではありません。',
+      body: 'そのままお見せします。私たちが供給する機械の作業であって、私たち自身の設備ではありません。',
       captions: ['屋根置きアレイ、マレーシア', '屋根置きアレイ、パキスタン', '地上設置アレイ、アメリカ'],
     },
     form: {
@@ -749,8 +749,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Schlüsselfertig',
-          body: 'Wir kommen mit Testtechnik auf die Anlage, richten sie ein und fahren mehrere Tage Versuche. Sie sehen, wie die Maschinen auf Ihrer Unterkonstruktion und in Ihrem Klima arbeiten, nicht auf einer fremden Anlage. Trägt das Ergebnis, schließen wir einen Wartungsvertrag mit monatlicher Vergütung und einer Mindestlaufzeit von zwölf Monaten.',
-          points: ['Team reist mit der Technik an', 'Versuche auf Ihrer Unterkonstruktion', 'Wartungsvertrag ab 12 Monaten'],
+          body: 'Wir kommen mit der Technik auf die Anlage, richten sie ein und fahren mehrere Tage Versuche. Sie sehen, wie die Maschinen auf Ihrer Unterkonstruktion und in Ihrem Klima arbeiten, nicht auf einer fremden Anlage. Trägt das Ergebnis, übernehmen wir anschließend die Wartung.',
+          points: ['Team reist mit der Technik an', 'Versuche auf Ihrer Unterkonstruktion', 'Wartung durch Teranova'],
         },
         {
           n: '02',
@@ -765,11 +765,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Zusammenstellung des Satzes', 'Prüfung des Herstellers', 'Lieferung bis zum Hafen'],
         },
       ],
-      price: 'Die Kosten für Anreise, Versuche und monatliche Betreuung rechnen wir für die Anlage: sie hängen von Leistung, Unterkonstruktion, Wasserzugang und Entfernung ab. Einen Preis nennen wir nach den Anlagendaten, davor wäre jede Zahl geraten.',
+      price: 'Die Kosten für Anreise, Versuche und Betreuung rechnen wir für die Anlage: sie hängen von Leistung, Unterkonstruktion, Wasserzugang und Entfernung ab. Einen Preis nennen wir nach den Anlagendaten, davor wäre jede Zahl geraten.',
     },
     cases: {
       title: 'Wie es auf der Anlage aussieht',
-      body: 'Aufnahmen des Maschinenherstellers bei seinen Kunden, veröffentlicht mit dessen Zustimmung. Wir zeigen sie, wie sie sind: es ist die Arbeit der Maschinen, die wir liefern, und nicht unsere eigenen Anlagen.',
+      body: 'Wir zeigen sie, wie sie sind: es ist die Arbeit der Maschinen, die wir liefern, und nicht unsere eigenen Anlagen.',
       captions: ['Dachanlage, Malaysia', 'Dachanlage, Pakistan', 'Freiflächenanlage, USA'],
     },
     form: {
@@ -870,8 +870,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Clé en main',
-          body: 'Nous venons sur le site avec du matériel d’essai, nous l’installons et nous menons des essais pendant plusieurs jours. Vous voyez comment les machines travaillent sur votre structure et sous votre climat, et non sur une centrale voisine. Si le résultat tient, nous signons un contrat de maintenance à redevance mensuelle, d’une durée minimale de douze mois.',
-          points: ['L’équipe se déplace avec le matériel', 'Essais sur votre structure', 'Contrat de maintenance à partir de 12 mois'],
+          body: 'Nous venons sur le site avec le matériel, nous l’installons et nous menons des essais pendant plusieurs jours. Vous voyez comment les machines travaillent sur votre structure et sous votre climat, et non sur une centrale voisine. Si le résultat tient, nous assurons ensuite la maintenance.',
+          points: ['L’équipe se déplace avec le matériel', 'Essais sur votre structure', 'Maintenance assurée par Teranova'],
         },
         {
           n: '02',
@@ -886,11 +886,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Composition du lot', 'Vérification du fabricant', 'Acheminement jusqu’au port'],
         },
       ],
-      price: 'Le coût du déplacement, des essais et de la redevance mensuelle se calcule pour le site : il dépend de la puissance, du type de structure, de l’accès à l’eau et de l’éloignement. Nous annonçons un prix une fois les données du site connues ; avant cela, tout chiffre serait une supposition.',
+      price: 'Le coût du déplacement, des essais et de la maintenance se calcule pour le site : il dépend de la puissance, du type de structure, de l’accès à l’eau et de l’éloignement. Nous annonçons un prix une fois les données du site connues ; avant cela, tout chiffre serait une supposition.',
     },
     cases: {
       title: 'Ce que cela donne sur le terrain',
-      body: 'Images tournées par le fabricant des machines chez ses clients et publiées avec son accord. Nous les montrons telles quelles : c’est le travail des machines que nous fournissons, pas nos propres installations.',
+      body: 'Nous les montrons telles quelles : c’est le travail des machines que nous fournissons, pas nos propres installations.',
       captions: ['Installation en toiture, Malaisie', 'Installation en toiture, Pakistan', 'Centrale au sol, États-Unis'],
     },
     form: {
@@ -991,8 +991,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Chiavi in mano',
-          body: 'Arriviamo sul sito con le macchine di prova, le mettiamo in funzione e per qualche giorno conduciamo i test. Vedete come lavorano sulla vostra struttura e nel vostro clima, non su un impianto altrui. Se il risultato regge, firmiamo un contratto di manutenzione a canone mensile, con durata minima di dodici mesi.',
-          points: ['La squadra arriva con le macchine', 'Prove sulla vostra struttura', 'Contratto di manutenzione da 12 mesi'],
+          body: 'Arriviamo sul sito con le macchine, le mettiamo in funzione e per qualche giorno conduciamo i test. Vedete come lavorano sulla vostra struttura e nel vostro clima, non su un impianto altrui. Se il risultato regge, da quel momento la manutenzione la seguiamo noi.',
+          points: ['La squadra arriva con le macchine', 'Prove sulla vostra struttura', 'Manutenzione a cura di Teranova'],
         },
         {
           n: '02',
@@ -1007,11 +1007,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Scelta del set', 'Verifica del produttore', 'Consegna al porto'],
         },
       ],
-      price: 'Il costo della trasferta, delle prove e del canone mensile si calcola sul sito: dipende dalla potenza, dal tipo di struttura, dall’accesso all’acqua e dalla distanza. Il prezzo lo indichiamo dopo i dati del sito: prima sarebbe una supposizione.',
+      price: 'Il costo della trasferta, delle prove e della manutenzione si calcola sul sito: dipende dalla potenza, dal tipo di struttura, dall’accesso all’acqua e dalla distanza. Il prezzo lo indichiamo dopo i dati del sito: prima sarebbe una supposizione.',
     },
     cases: {
       title: 'Come si presenta sul campo',
-      body: 'Riprese del produttore delle macchine presso i suoi clienti, pubblicate con il suo consenso. Le mostriamo come sono: è il lavoro delle macchine che forniamo, non impianti nostri.',
+      body: 'Le mostriamo come sono: è il lavoro delle macchine che forniamo, non impianti nostri.',
       captions: ['Impianto in copertura, Malesia', 'Impianto in copertura, Pakistan', 'Impianto a terra, USA'],
     },
     form: {
@@ -1112,8 +1112,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Llave en mano',
-          body: 'Vamos a la planta con equipos de prueba, los ponemos en marcha y durante varios días realizamos ensayos. Usted ve cómo trabajan las máquinas sobre su estructura y en su clima, no en una planta ajena. Si el resultado se sostiene, firmamos un contrato de mantenimiento con cuota mensual y una duración mínima de doce meses.',
-          points: ['El equipo se desplaza con las máquinas', 'Ensayos sobre su estructura', 'Contrato de mantenimiento desde 12 meses'],
+          body: 'Vamos a la planta con el equipo, lo ponemos en marcha y durante varios días realizamos ensayos. Usted ve cómo trabajan las máquinas sobre su estructura y en su clima, no en una planta ajena. Si el resultado se sostiene, a partir de ahí nos encargamos del mantenimiento.',
+          points: ['El equipo se desplaza con las máquinas', 'Ensayos sobre su estructura', 'Mantenimiento a cargo de Teranova'],
         },
         {
           n: '02',
@@ -1128,11 +1128,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Composición del lote', 'Verificación del fabricante', 'Entrega en el puerto'],
         },
       ],
-      price: 'El coste del desplazamiento, de los ensayos y de la cuota mensual se calcula para el emplazamiento: depende de la potencia, del tipo de estructura, del acceso al agua y de la distancia. Damos precio cuando tenemos los datos de la planta; antes, cualquier cifra sería una suposición.',
+      price: 'El coste del desplazamiento, de los ensayos y del mantenimiento se calcula para el emplazamiento: depende de la potencia, del tipo de estructura, del acceso al agua y de la distancia. Damos precio cuando tenemos los datos de la planta; antes, cualquier cifra sería una suposición.',
     },
     cases: {
       title: 'Cómo se ve sobre el terreno',
-      body: 'Imágenes grabadas por el fabricante de las máquinas en las plantas de sus clientes y publicadas con su permiso. Las mostramos tal cual: es el trabajo de las máquinas que suministramos, no instalaciones propias.',
+      body: 'Las mostramos tal cual: es el trabajo de las máquinas que suministramos, no instalaciones propias.',
       captions: ['Instalación en cubierta, Malasia', 'Instalación en cubierta, Pakistán', 'Planta en suelo, EE. UU.'],
     },
     form: {
@@ -1233,8 +1233,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Chave na mão',
-          body: 'Vamos até a usina com equipamentos de teste, colocamos tudo em funcionamento e por alguns dias realizamos os ensaios. Você vê como as máquinas trabalham na sua estrutura e no seu clima, e não em uma usina alheia. Se o resultado se confirmar, assinamos um contrato de manutenção com pagamento mensal e prazo mínimo de doze meses.',
-          points: ['A equipe viaja com os equipamentos', 'Ensaios na sua estrutura', 'Contrato de manutenção a partir de 12 meses'],
+          body: 'Vamos até a usina com os equipamentos, colocamos tudo em funcionamento e por alguns dias realizamos os ensaios. Você vê como as máquinas trabalham na sua estrutura e no seu clima, e não em uma usina alheia. Se o resultado se confirmar, a partir daí cuidamos da manutenção.',
+          points: ['A equipe viaja com os equipamentos', 'Ensaios na sua estrutura', 'Manutenção pela Teranova'],
         },
         {
           n: '02',
@@ -1249,11 +1249,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Montagem do conjunto', 'Verificação do fabricante', 'Entrega no porto'],
         },
       ],
-      price: 'O custo da viagem, dos ensaios e da mensalidade é calculado para o local: depende da potência, do tipo de estrutura, do acesso à água e da distância. Damos o preço depois dos dados da usina; antes disso, qualquer número seria um palpite.',
+      price: 'O custo da viagem, dos ensaios e da manutenção é calculado para o local: depende da potência, do tipo de estrutura, do acesso à água e da distância. Damos o preço depois dos dados da usina; antes disso, qualquer número seria um palpite.',
     },
     cases: {
       title: 'Como fica no campo',
-      body: 'Imagens gravadas pelo fabricante das máquinas nas usinas de seus clientes e publicadas com a autorização dele. Mostramos como estão: é o trabalho das máquinas que fornecemos, não instalações nossas.',
+      body: 'Mostramos como estão: é o trabalho das máquinas que fornecemos, não instalações nossas.',
       captions: ['Instalação em telhado, Malásia', 'Instalação em telhado, Paquistão', 'Usina em solo, EUA'],
     },
     form: {
@@ -1354,8 +1354,8 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Anahtar teslim',
-          body: 'Test ekipmanıyla sahaya geliyoruz, kuruyoruz ve birkaç gün deneme yapıyoruz. Makinelerin başka bir sahada değil, sizin taşıyıcı yapınızda ve ikliminizde nasıl çalıştığını kendiniz görüyorsunuz. Sonuç uygunsa aylık ödemeli bakım sözleşmesi imzalıyoruz; asgari süre on iki ay.',
-          points: ['Ekip ekipmanla birlikte geliyor', 'Sizin taşıyıcı yapınızda deneme', '12 aydan başlayan bakım sözleşmesi'],
+          body: 'Ekipmanla sahaya geliyoruz, kuruyoruz ve birkaç gün deneme yapıyoruz. Makinelerin başka bir sahada değil, sizin taşıyıcı yapınızda ve ikliminizde nasıl çalıştığını kendiniz görüyorsunuz. Sonuç uygunsa bakımı bundan sonra biz üstleniyoruz.',
+          points: ['Ekip ekipmanla birlikte geliyor', 'Sizin taşıyıcı yapınızda deneme', 'Bakım Teranova tarafından'],
         },
         {
           n: '02',
@@ -1370,11 +1370,11 @@ export const solarCopy: Record<Lang, SolarCopy> = {
           points: ['Set seçimi', 'Üretici doğrulaması', 'Limana kadar teslim'],
         },
       ],
-      price: 'Saha ziyareti, denemeler ve aylık bakımın bedelini sahaya göre hesaplıyoruz: santral gücüne, taşıyıcı yapı tipine, suya erişime ve mesafeye bağlı. Fiyatı saha verilerinden sonra söylüyoruz; öncesinde her rakam tahmin olurdu.',
+      price: 'Saha ziyareti, denemeler ve bakımın bedelini sahaya göre hesaplıyoruz: santral gücüne, taşıyıcı yapı tipine, suya erişime ve mesafeye bağlı. Fiyatı saha verilerinden sonra söylüyoruz; öncesinde her rakam tahmin olurdu.',
     },
     cases: {
       title: 'Sahada nasıl görünüyor',
-      body: 'Ekipman üreticisinin kendi müşterilerinin sahalarında çektiği ve izniyle yayımladığımız görüntüler. Olduğu gibi gösteriyoruz: bu, tedarik ettiğimiz makinelerin çalışması, kendi sahalarımız değil.',
+      body: 'Olduğu gibi gösteriyoruz: bu, tedarik ettiğimiz makinelerin çalışması, kendi sahalarımız değil.',
       captions: ['Çatı dizisi, Malezya', 'Çatı dizisi, Pakistan', 'Arazi dizisi, ABD'],
     },
     form: {
