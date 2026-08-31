@@ -296,7 +296,7 @@ const SUPPLIERS = [
     basis: 'EXW Korea', noPrice: true,
     colors: { deep: '#A8272C', sky: '#CE3A32', bg: '#FBF6F4', line: '#EDDDD9' },
     pres: true,
-    certs: ['Vegan', 'Cruelty-free', '0,00'],
+    certs: ['Vegan', '0,00'],
   },
 ];
 
