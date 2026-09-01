@@ -32,24 +32,34 @@ export function anchorHref(hash: string, lang: Lang): string {
  * Labels come from the per-language dictionary (ru is the source of truth);
  * every href points to a real, existing route.
  */
-export function mainNav(lang: Lang): { label: string; href: string }[] {
+export function mainNav(lang: Lang): { label: string; href: string; primary?: boolean }[] {
   const t = ui[lang];
   return [
-    { label: t.nav.catalog, href: localizePath('/catalog', lang) },
+    { label: t.nav.catalog, href: localizePath('/catalog', lang), primary: true },
     // Solar Care — отдельное направление со своим разделом на всех локалях.
     // В меню пункт называется на языке версии: английское имя направления среди
     // русских пунктов читалось как чужеродная вставка. Бренд Solar Care остаётся
     // на самой странице раздела, адрес страницы тоже не меняется.
-    { label: t.nav.solar, href: localizePath('/solar-care', lang) },
-    { label: t.nav.suppliers, href: localizePath('/suppliers', lang) },
-    { label: t.nav.buyers, href: localizePath('/buyers', lang) },
+    { label: t.nav.solar, href: localizePath('/solar-care', lang), primary: true },
+    { label: t.nav.suppliers, href: localizePath('/suppliers', lang), primary: true },
+    { label: t.nav.buyers, href: localizePath('/buyers', lang), primary: true },
     { label: t.nav.tenders, href: localizePath('/tenders', lang) },
-    { label: t.nav.verify, href: localizePath('/how-we-verify', lang) },
+    { label: t.nav.verify, href: localizePath('/how-we-verify', lang), primary: true },
     { label: t.nav.faq, href: localizePath('/faq', lang) },
     { label: t.nav.blog, href: localizePath('/blog', lang) },
     { label: t.nav.team, href: localizePath('/about', lang) + '#team' },
-    { label: t.nav.contacts, href: localizePath('/contacts', lang) },
+    { label: t.nav.contacts, href: localizePath('/contacts', lang), primary: true },
   ];
+}
+
+/**
+ * Верхняя панель на десктопе — только ключевые разделы. Десять пунктов в один ряд
+ * не помещались и наезжали на логотип и переключатель языка; здесь остаются шесть
+ * опорных, остальные (Тендеры, Вопросы, Статьи, Команда) доступны в подвале и в
+ * мобильном меню, где выводится полный mainNav.
+ */
+export function primaryNav(lang: Lang) {
+  return mainNav(lang).filter((i) => i.primary);
 }
 
 /** hreflang alternates — one per indexed locale (all locales are indexed). */
