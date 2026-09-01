@@ -1,0 +1,87 @@
+[
+  {
+    "line": "Red Calming Cica Exosome",
+    "items": [
+      {
+        "name": "Red Calming Cica Exosome Deep Cleanser",
+        "img": "/img/suppliers/biopt/products/red-calming-deep-cleanser.jpg",
+        "volume": "150 ml",
+        "certs": []
+      },
+      {
+        "name": "Red Calming Cica Exosome Toner Essence",
+        "img": "/img/suppliers/biopt/products/red-calming-toner-essence.jpg",
+        "volume": "150 ml",
+        "certs": []
+      },
+      {
+        "name": "Red Calming Cica Exosome Spot Oil",
+        "img": "/img/suppliers/biopt/products/red-calming-spot-oil.jpg",
+        "volume": "10 ml",
+        "certs": []
+      },
+      {
+        "name": "Red Calming Cica Exo Soothing Cream",
+        "img": "/img/suppliers/biopt/products/red-calming-soothing-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Red Calming Cica Exo UV Sunscreen SPF50+ PA++++",
+        "img": "/img/suppliers/biopt/products/red-calming-sunscreen.jpg",
+        "volume": "50 ml",
+        "certs": []
+      }
+    ]
+  },
+  {
+    "line": "EXO REJUVA Ultra Lifting",
+    "items": [
+      {
+        "name": "EXO REJUVA Ultra Lifting Serum",
+        "img": "/img/suppliers/biopt/products/exo-rejuva-ultra-lifting-serum.jpg",
+        "volume": "50 ml",
+        "certs": ["Vegan"]
+      },
+      {
+        "name": "EXO REJUVA Ultra Lifting Cream",
+        "img": "/img/suppliers/biopt/products/exo-rejuva-ultra-lifting-cream.jpg",
+        "volume": "50 ml",
+        "certs": ["Vegan"]
+      }
+    ]
+  },
+  {
+    "line": "EXO REJUVA Mela-C",
+    "items": [
+      {
+        "name": "EXO REJUVA Mela-C Power Serum",
+        "img": "/img/suppliers/biopt/products/exo-rejuva-mela-c-power-serum.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "EXO REJUVA Mela-C PDRN Cream",
+        "img": "/img/suppliers/biopt/products/exo-rejuva-mela-c-pdrn-cream.jpg",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "EXO REJUVA Diamond Glow Cushion SPF50+ PA++++",
+        "img": "/img/suppliers/biopt/products/exo-rejuva-diamond-glow-cushion.jpg",
+        "volume": "15 g",
+        "certs": []
+      }
+    ]
+  },
+  {
+    "line": "ERI-Pro",
+    "items": [
+      {
+        "name": "ERI-Pro",
+        "img": "/img/suppliers/biopt/products/eri-pro.jpg",
+        "certs": []
+      }
+    ]
+  }
+]

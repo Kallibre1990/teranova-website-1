@@ -57,6 +57,7 @@ import bioptFr from './suppliers-i18n/biopt.fr.json';
 import bioptTr from './suppliers-i18n/biopt.tr.json';
 import bioptEs from './suppliers-i18n/biopt.es.json';
 import bioptPt from './suppliers-i18n/biopt.pt.json';
+import bioptCatalog from './suppliers-i18n/biopt.catalog.json';
 import loobeeRu from './suppliers-i18n/loobee.ru.json';
 import loobeeEn from './suppliers-i18n/loobee.en.json';
 import loobeeKo from './suppliers-i18n/loobee.ko.json';
@@ -1367,10 +1368,8 @@ export const suppliers: SupplierProfile[] = [
        из их собственной презентации и упаковки. */
     brandColors: { deep: '#2b2b2f', sky: '#e8b7b0', accent: '#c0392b', bg: '#f7f1ee' },
     voice: 'clinical',
-    /* Каталога по позициям нет: пакшотов на белом фоне поставщик не присылал,
-       в презентации они врезаны в таблицы по 163 px. Линии показаны своими
-       фотографиями из их же материалов; названия линий латиницей и одинаковы
-       во всех одиннадцати языках, поэтому ключ здесь один на линию. */
+    /* Групповые кадры линии (не отдельные пакшоты) — держим как явную привязку
+       для карточек линий, чтобы автоподбор не перетасовал их между собой. */
     lineShots: {
       'Red Calming Cica Exosome': '/img/suppliers/biopt/lines/red-calming.jpg',
       'EXO REJUVA Ultra Lifting': '/img/suppliers/biopt/lines/exo-rejuva.jpg',
@@ -1399,6 +1398,7 @@ export const suppliers: SupplierProfile[] = [
       es: mk(bioptEs as any),
       pt: mk(bioptPt as any),
     },
+    catalog: bioptCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
   },
   {
     slug: 'loobee',
