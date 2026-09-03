@@ -1,0 +1,137 @@
+{
+  "content": {
+    "tagline": "Drei Marken aus einem Haus: schwarzer Ginseng, Honig und Make-up",
+    "descriptor": "Joycos aus Seoul: HUKSAMSOO-Pflege mit schwarzem Ginseng, die TRUE-ISLAND-Linien mit Honig und Gletscherwasser sowie das Make-up von HOPE GIRL",
+    "origin": "Korea",
+    "about": [
+      "Joycos Ltd. ist ein koreanisches Unternehmen aus Seoul, das drei Marken zugleich führt. Für unsere Plattform ist das eine ungewöhnliche Konstruktion: Ein Lieferant kommt sonst mit einem Namen, hier stehen Pflege und Make-up unter einem Dach.",
+      "HUKSAMSOO baut auf schwarzem Ginseng auf. TRUE ISLAND führt zwei Linien: Honey Bee mit Honig, Gelée royale und Propolis und Alaska Aqua mit Gletscherwasser. HOPE GIRL ist Make-up: Basis, Augen und Lippen.",
+      "Für den Einkäufer heißt das, dass sich ein Regal aus einer Quelle bestücken lässt. Anti-Aging-Pflege, Feuchtigkeit, Sonnenschutz und Make-up kommen von einem Partner, unter einem Vertrag und in einer Sendung.",
+      "Nach Angaben des Unternehmens liegt für zehn Artikel die europäische CPNP-Meldung vor. Die Marken werden auf internationalen Marktplätzen und im koreanischen Handel verkauft."
+    ],
+    "facts": [
+      "Joycos Ltd., Seoul, Bezirk Seocho; führt drei Marken: HUKSAMSOO, TRUE ISLAND und HOPE GIRL",
+      "Nach Angaben des Unternehmens liegt für zehn Artikel die europäische CPNP-Meldung vor",
+      "HUKSAMSOO: schwarzer Ginseng, neunmal gedämpft und getrocknet, rund 1.200 Stunden bei niedriger Temperatur",
+      "Der HUKSAMSOO-Katalog nennt die KFDA-Funktionskennzeichnung für Falten und Aufhellung",
+      "Alaska Aqua Hyaluron Sun Cream wird mit SPF50+ PA++++ und dreifacher Funktion angegeben",
+      "Das Wimpernserum Magic Lash trägt einen Vegan-Hinweis und den patentierten Wirkstoff BotaCair",
+      "Handel in Korea: Coupang, Naver Smart Store, MUSINSA, ABLY, BRANDI und K-Beauty-Läden in Myeongdong"
+    ],
+    "channels": [
+      "Importeure und Distributoren für Kosmetik",
+      "Handelsketten und Beauty-Geschäfte",
+      "Online-Marktplätze und E-Commerce",
+      "Duty-free und Travel Retail",
+      "Salons, die Anti-Aging-Pflege brauchen"
+    ],
+    "lines": [
+      {
+        "name": "HUKSAMSOO — die Linie mit schwarzem Ginseng",
+        "note": "Sechs Artikel: Wasser-Essenz 150 ml, Emulsion 120 ml, intensives straffendes Serum 40 ml, Creme 50 ml, Augencreme 20 ml und Reinigungsschaum 150 ml. Das Unternehmen nennt Niacinamid 50.000 ppm und Panthenol 50.000 ppm in der Essenz sowie Niacinamid 20.000 ppm und Adenosin 400 ppm in Emulsion und Creme. Angegeben ohne Parabene, denaturierten Alkohol, künstliche Farbstoffe und Mineralöl."
+      },
+      {
+        "name": "HUKSAMSOO Black Ginseng EX PDRN Shot 120",
+        "note": "Ein eigenes Konzentrat mit 30 ml. Das Unternehmen beschreibt die Freisetzung über Spikulen aus natürlichem Schwamm, ein aus Ginseng-DNA gewonnenes Ginseng-PDRN, milchbasierte Exosomen in Liposomenform und einen Komplex aus acht Peptiden. Der Katalog nennt die KFDA-Funktionskennzeichnung für Falten und Aufhellung."
+      },
+      {
+        "name": "TRUE ISLAND · Honey Bee",
+        "note": "Linie mit Honig, Gelée royale und Propolis, in einem Teil des Sortiments mit Bienengift. Zwölf Artikel: Handcremes in drei Düften, Kollagen-Abwaschmaske, Augencreme, Toner, Propolis-Serum, Vitamin-C-Serum, Hydrogel-Augenpads, Multicreme, Reinigungsschaum, Gommage, Tonerde-Porenmaske und Tuchmaske."
+      },
+      {
+        "name": "TRUE ISLAND · Alaska Aqua",
+        "note": "Feuchtigkeitslinie mit Gletscherwasser aus Alaska und dreifacher Hyaluronsäure. Sechs Artikel: Reinigungsschaum, Gelcreme, Sonnencreme SPF50+ PA++++, Serum, Toner und Ultra-Feuchtigkeitsmaske."
+      },
+      {
+        "name": "HOPE GIRL — Make-up",
+        "note": "Basis: Primer 35 g, Kompaktpuder 21 g und Tone-up-Sonnencreme 40 g mit SPF50+ PA+++. Wangen und Lippen: Puderrouge und Lippentint, je sechs Nuancen. Augen: Glitter in vier Nuancen, Eyeliner und Augenbrauenstift in je zwei, sowie ein Wimpernserum mit 9 g und Vegan-Hinweis."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Neunmal verarbeiteter schwarzer Ginseng",
+        "note": "Das Unternehmen beschreibt den Prozess so: Ginseng wird neunmal gedämpft und getrocknet, rund 1.200 Stunden bei niedriger Temperatur. Nach seinen Angaben steigt dabei der Gehalt des Saponins Rg3 deutlich, und das Unternehmen verbindet dieses Saponin mit der Kollagensynthese."
+      },
+      {
+        "name": "Freisetzung über Spikulen",
+        "note": "Im Black Ginseng EX PDRN Shot 120 sind Spikulen aus natürlichem Schwamm angegeben. Das Unternehmen beschreibt sie als Mikronadeln, die Mikrokanäle in der Hornschicht öffnen und Wirkstoffe tiefer bringen als eine gewöhnliche Anwendung."
+      },
+      {
+        "name": "PDRN pflanzlicher Herkunft",
+        "note": "Das Unternehmen gibt an, dass das PDRN dieser Linie aus Ginseng-DNA gewonnen wird und nicht tierischen Ursprungs ist. Milchbasierte Exosomen in Liposomenform und ein Acht-Peptid-Komplex sind gesondert angegeben."
+      },
+      {
+        "name": "Gletscherwasser und dreifache Hyaluronsäure",
+        "note": "Die Linie Alaska Aqua baut auf Gletscherwasser aus Alaska und drei Hyaluronsäureformen unterschiedlichen Molekulargewichts auf, die das Unternehmen der Feuchtigkeit in verschiedenen Tiefen zuordnet."
+      },
+      {
+        "name": "Drei Marken in einer Sendung",
+        "note": "Pflege und Make-up kommen von einem Lieferanten. Für den Einkäufer sind das ein Vertrag, eine Sendung und ein Gespräch über Konditionen statt drei."
+      }
+    ],
+    "formats": [
+      "Essenzen, Toner und Emulsionen",
+      "Seren, Ampullen und Konzentrate",
+      "Gesichts- und Augencremes",
+      "Reinigungsschäume und Gommagen",
+      "Tuch-, Tonerde- und Abwaschmasken",
+      "Hydrogel-Augenpads",
+      "Sonnenschutz und Tone-up",
+      "Make-up für Gesicht, Augen und Lippen"
+    ],
+    "exportNote": "Das Unternehmen sucht Distributoren im Ausland. Zunächst nannte es Europa und die USA; am 3. September 2026 bestätigte Joycos schriftlich sein Interesse an Lateinamerika und merkte an, dort noch keine Käufer zu haben und der Markt stehe ihm offen. Teranova deckt Latein- und Nordamerika ab und sucht für die Marken die Länder und Kanäle, in denen pflanzliche Pflege und bezahlbares Make-up laufen.",
+    "terms": [
+      {
+        "label": "Formen der Zusammenarbeit",
+        "value": "Großhandelslieferung fertiger Ware unter den Marken HUKSAMSOO, TRUE ISLAND und HOPE GIRL. Das Unternehmen ist offen für Importeure, Distributoren, Handelsketten und Online-Kanäle."
+      },
+      {
+        "label": "Geografie",
+        "value": "Das Unternehmen hat sein Interesse an Latein- und Nordamerika bestätigt. Die Veröffentlichungserlaubnis ist nicht exklusiv: Teranova ist weder Agent noch Distributor."
+      },
+      {
+        "label": "Preise",
+        "value": "Preis auf Anfrage. Eine Großhandelspreisliste hat uns das Unternehmen nicht übergeben, und wir veröffentlichen keine. Der Käufer erhält die aktuellen Konditionen in der Deal-Phase über Teranova, als getrennte Position von den Kosten unserer Leistungen."
+      },
+      {
+        "label": "Mindestmenge",
+        "value": "Die Mindestmengen hängen von Marke und Artikel ab. Die Anfrage läuft zusammen mit der Preisanfrage über Teranova."
+      },
+      {
+        "label": "Unterlagen",
+        "value": "Nach Angaben des Unternehmens liegt für zehn Artikel die europäische CPNP-Meldung vor. Die Registrierung in lateinamerikanischen Ländern erfolgt je Land, und ihre Bedingungen werden in der Deal-Phase für den konkreten Markt und das konkrete Produkt geprüft."
+      },
+      {
+        "label": "Muster",
+        "value": "Muster werden zusammen mit Preisen und Mindestmengen besprochen."
+      }
+    ],
+    "consentNote": "Daten, Bilder und Materialien wurden von Joycos Ltd. bereitgestellt und werden mit deren schriftlicher Zustimmung vom 3. September 2026 veröffentlicht. Angegebene Eigenschaften, Rezepturen und Kennzeichnungen beruhen auf Angaben des Unternehmens und seinen Katalogen. Großhandelspreise werden nicht veröffentlicht.",
+    "seoTitle": "Joycos — drei koreanische Kosmetikmarken · Teranova",
+    "seoDesc": "Joycos aus Seoul: HUKSAMSOO mit schwarzem Ginseng, TRUE ISLAND mit Honig und Gletscherwasser, Make-up HOPE GIRL. Großhandel über Teranova."
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen:",
+    "lines_h": "Marken und Linien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Was hinter den Rezepturen steht",
+    "products_h": "Produkte",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Preise und Bedingungen sind Richtwerte und werden in der Abschlussphase über Teranova bestätigt. Direkte Kontakte des Herstellers werden nicht veröffentlicht.",
+    "cta_h": "Interessiert Sie eine der Marken?",
+    "cta_d": "Schreiben Sie uns. Teranova fordert Preise und Mindestmengen an, organisiert Muster und führt den Deal vom ersten Kontakt bis zum Versand.",
+    "cta_btn": "Über Teranova anfragen",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifikate und Registrierungen",
+    "certs_note": "Angaben des Unternehmens. Kopien der Nachweise werden in der Abschlussphase bereitgestellt.",
+    "gallery_h": "Produkte der drei Marken",
+    "gallery_note": "Aufnahmen aus den Joycos-Katalogen, die das Unternehmen nach der Seoul Beauty Week 2026 geschickt hat."
+  }
+}

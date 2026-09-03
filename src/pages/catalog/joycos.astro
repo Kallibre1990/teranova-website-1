@@ -1,0 +1,23 @@
+---
+/* Supplier profile: joycos (default locale, ru). Joycos Ltd. of Seoul runs three
+   brands at once — HUKSAMSOO, TRUE ISLAND and HOPE GIRL. Published on the
+   company's written consent of 3 September 2026. No wholesale price list was
+   ever sent to us, so there is no priceFile and noPrice is set in the PDF
+   generator: the page shows "price on request" only. Certification badges are
+   deliberately empty — CPNP, the KFDA functional marking and the vegan mark on
+   Magic Lash are stated by the company in its catalogues, but we hold no
+   certificates, so they appear as attributed text instead. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('joycos')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

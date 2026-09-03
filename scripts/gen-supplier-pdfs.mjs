@@ -310,6 +310,15 @@ const SUPPLIERS = [
     pres: true,
     certs: ['ISO 22716', 'Vegan Society'],
   },
+  {
+    /* noPrice: оптовый прайс Joycos нам не передавала. Согласие на публикацию
+       профиля дано письмом от 03.09.2026, цены в него не входили. */
+    id: 'joycos', json: 'joycos', supplier: 'Joycos Ltd.', brand: 'HUKSAMSOO · TRUE ISLAND · HOPE GIRL',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#4A3524', sky: '#A9793A', bg: '#FAF4EA', line: '#EDE0CC' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
