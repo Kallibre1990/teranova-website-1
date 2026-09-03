@@ -46,6 +46,17 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import hanscosRu from './suppliers-i18n/hanscos.ru.json';
+import hanscosEn from './suppliers-i18n/hanscos.en.json';
+import hanscosKo from './suppliers-i18n/hanscos.ko.json';
+import hanscosZh from './suppliers-i18n/hanscos.zh.json';
+import hanscosJa from './suppliers-i18n/hanscos.ja.json';
+import hanscosIt from './suppliers-i18n/hanscos.it.json';
+import hanscosDe from './suppliers-i18n/hanscos.de.json';
+import hanscosFr from './suppliers-i18n/hanscos.fr.json';
+import hanscosTr from './suppliers-i18n/hanscos.tr.json';
+import hanscosEs from './suppliers-i18n/hanscos.es.json';
+import hanscosPt from './suppliers-i18n/hanscos.pt.json';
 import bioptRu from './suppliers-i18n/biopt.ru.json';
 import bioptEn from './suppliers-i18n/biopt.en.json';
 import bioptKo from './suppliers-i18n/biopt.ko.json';
@@ -1312,6 +1323,54 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(multifitTr as any),
       es: mk(multifitEs as any),
       pt: mk(multifitPt as any),
+    },
+  },
+{
+    slug: 'hanscos',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'HANSCOS CO., LTD',
+    brand: 'HANSCOS',
+    status: 'visited',
+    /* Мягкий сине-серый с обложки их же портфолио. */
+    brandColors: { deep: '#16394a', sky: '#4e8299', accent: '#8fbfcd', bg: '#eef4f6' },
+    voice: 'clinical',
+    /* Со страницы сертификатов их портфолио: ISO 22716 подтверждён двумя
+       органами, Bureau Veritas и EuroCert. CGMP компания заявляет сама,
+       отдельного сертификата в материалах нет, поэтому знака ему не даём. */
+    certs: ['ISO 22716', 'Bureau Veritas', 'EuroCert', 'The Vegan Society'],
+    /* Прайса нет и не будет: 27.08.2026 на встрече в Инчхоне компания дала
+       согласие на профиль без публикации оптовых цен. */
+    gallery: [
+      '/img/suppliers/hanscos/gallery/production-line.jpg',
+      '/img/suppliers/hanscos/gallery/box-production-1.jpg',
+      '/img/suppliers/hanscos/gallery/box-production-2.jpg',
+      '/img/suppliers/hanscos/gallery/set-box-black.jpg',
+      '/img/suppliers/hanscos/gallery/gift-sets.jpg',
+      '/img/suppliers/hanscos/gallery/hans-labelle-store.jpg',
+      '/img/suppliers/hanscos/gallery/mask-pack-range.jpg',
+      '/img/suppliers/hanscos/gallery/oem-centella-line.jpg',
+      '/img/suppliers/hanscos/gallery/oem-ampoule-set.jpg',
+      '/img/suppliers/hanscos/gallery/skincare-still.jpg',
+    ],
+    termsFile: {
+      ru: '/docs/hanscos-terms-ru.pdf', en: '/docs/hanscos-terms-en.pdf', ko: '/docs/hanscos-terms-ko.pdf', zh: '/docs/hanscos-terms-zh.pdf', ja: '/docs/hanscos-terms-ja.pdf', it: '/docs/hanscos-terms-it.pdf', de: '/docs/hanscos-terms-de.pdf', fr: '/docs/hanscos-terms-fr.pdf', tr: '/docs/hanscos-terms-tr.pdf', es: '/docs/hanscos-terms-es.pdf', pt: '/docs/hanscos-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/hanscos-presentation-ru.pdf', en: '/docs/hanscos-presentation-en.pdf', ko: '/docs/hanscos-presentation-ko.pdf', zh: '/docs/hanscos-presentation-zh.pdf', ja: '/docs/hanscos-presentation-ja.pdf', it: '/docs/hanscos-presentation-it.pdf', de: '/docs/hanscos-presentation-de.pdf', fr: '/docs/hanscos-presentation-fr.pdf', tr: '/docs/hanscos-presentation-tr.pdf', es: '/docs/hanscos-presentation-es.pdf', pt: '/docs/hanscos-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(hanscosRu as any),
+      en: mk(hanscosEn as any),
+      ko: mk(hanscosKo as any),
+      zh: mk(hanscosZh as any),
+      ja: mk(hanscosJa as any),
+      it: mk(hanscosIt as any),
+      de: mk(hanscosDe as any),
+      fr: mk(hanscosFr as any),
+      tr: mk(hanscosTr as any),
+      es: mk(hanscosEs as any),
+      pt: mk(hanscosPt as any),
     },
   },
 {

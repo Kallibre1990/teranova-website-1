@@ -1,0 +1,23 @@
+---
+/* Supplier profile: hanscos — non-default locales. */
+import Base from '../../../layouts/Base.astro';
+import SupplierProfile from '../../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../../data/suppliers';
+import { supplierJsonLd } from '../../../data/jsonld';
+import { defaultLang, languages, type Lang } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const profile = supplierBySlug('hanscos')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
