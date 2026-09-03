@@ -300,6 +300,16 @@ const SUPPLIERS = [
     pres: true,
     certs: ['Vegan', '0,00'],
   },
+  {
+    /* noPrice: согласие на профиль дано 27.08.2026 на встрече в офисе компании
+       в Инчхоне, но без публикации оптовых цен. Прайса здесь нет и не должно
+       появиться, пока компания не скажет иначе письменно. */
+    id: 'hanscos', json: 'hanscos', supplier: 'HANSCOS CO., LTD', brand: 'HANSCOS',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#16394A', sky: '#4E8299', bg: '#EEF4F6', line: '#DCE7EB' },
+    pres: true,
+    certs: ['ISO 22716', 'Vegan Society'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

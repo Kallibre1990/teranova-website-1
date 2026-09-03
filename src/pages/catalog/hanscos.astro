@@ -1,0 +1,20 @@
+---
+/* Supplier profile: hanscos (default locale, ru). HANSCOS CO., LTD — an OEM/ODM
+   plant in Incheon, published on the consent given at the meeting in their office
+   on 27 August 2026. Wholesale prices are deliberately absent everywhere: the
+   consent covered the profile without them, so there is no priceFile here and
+   noPrice is set in the PDF generator. The page shows "price on request" only. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('hanscos')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
