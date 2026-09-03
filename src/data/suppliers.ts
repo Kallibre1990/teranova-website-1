@@ -46,6 +46,17 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import joycosRu from './suppliers-i18n/joycos.ru.json';
+import joycosEn from './suppliers-i18n/joycos.en.json';
+import joycosKo from './suppliers-i18n/joycos.ko.json';
+import joycosZh from './suppliers-i18n/joycos.zh.json';
+import joycosJa from './suppliers-i18n/joycos.ja.json';
+import joycosIt from './suppliers-i18n/joycos.it.json';
+import joycosDe from './suppliers-i18n/joycos.de.json';
+import joycosFr from './suppliers-i18n/joycos.fr.json';
+import joycosTr from './suppliers-i18n/joycos.tr.json';
+import joycosEs from './suppliers-i18n/joycos.es.json';
+import joycosPt from './suppliers-i18n/joycos.pt.json';
 import hanscosRu from './suppliers-i18n/hanscos.ru.json';
 import hanscosEn from './suppliers-i18n/hanscos.en.json';
 import hanscosKo from './suppliers-i18n/hanscos.ko.json';
@@ -1371,6 +1382,53 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(hanscosTr as any),
       es: mk(hanscosEs as any),
       pt: mk(hanscosPt as any),
+    },
+  },
+{
+    slug: 'joycos',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Joycos Ltd.',
+    brand: 'HUKSAMSOO · TRUE ISLAND · HOPE GIRL',
+    status: 'provided',
+    /* Тёплое золото мёда и чёрного женьшеня — гамма их же каталогов. */
+    brandColors: { deep: '#4a3524', sky: '#a9793a', accent: '#e0b15f', bg: '#faf4ea' },
+    voice: 'natural',
+    /* Знаков не ставим: CPNP на десять позиций, функциональная маркировка KFDA
+       и веганская пометка Magic Lash заявлены компанией и видны в её каталогах,
+       но самих документов у нас нет. Всё это идёт текстом с указанием источника. */
+    certs: [],
+    /* Прайса нет: оптовый прайс компания не передавала, публиковать нечего. */
+    gallery: [
+      '/img/suppliers/joycos/gallery/huksamsoo-pdrn-shot.jpg',
+      '/img/suppliers/joycos/gallery/huksamsoo-serum.jpg',
+      '/img/suppliers/joycos/gallery/huksamsoo-line.jpg',
+      '/img/suppliers/joycos/gallery/honey-bee-shelf.jpg',
+      '/img/suppliers/joycos/gallery/alaska-glacier.jpg',
+      '/img/suppliers/joycos/gallery/alaska-sun-cream.jpg',
+      '/img/suppliers/joycos/gallery/hope-tone-up-sun.jpg',
+      '/img/suppliers/joycos/gallery/hope-powder-pact.jpg',
+      '/img/suppliers/joycos/gallery/hope-blusher.jpg',
+      '/img/suppliers/joycos/gallery/hope-lash-serum.jpg',
+    ],
+    termsFile: {
+      ru: '/docs/joycos-terms-ru.pdf', en: '/docs/joycos-terms-en.pdf', ko: '/docs/joycos-terms-ko.pdf', zh: '/docs/joycos-terms-zh.pdf', ja: '/docs/joycos-terms-ja.pdf', it: '/docs/joycos-terms-it.pdf', de: '/docs/joycos-terms-de.pdf', fr: '/docs/joycos-terms-fr.pdf', tr: '/docs/joycos-terms-tr.pdf', es: '/docs/joycos-terms-es.pdf', pt: '/docs/joycos-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/joycos-presentation-ru.pdf', en: '/docs/joycos-presentation-en.pdf', ko: '/docs/joycos-presentation-ko.pdf', zh: '/docs/joycos-presentation-zh.pdf', ja: '/docs/joycos-presentation-ja.pdf', it: '/docs/joycos-presentation-it.pdf', de: '/docs/joycos-presentation-de.pdf', fr: '/docs/joycos-presentation-fr.pdf', tr: '/docs/joycos-presentation-tr.pdf', es: '/docs/joycos-presentation-es.pdf', pt: '/docs/joycos-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(joycosRu as any),
+      en: mk(joycosEn as any),
+      ko: mk(joycosKo as any),
+      zh: mk(joycosZh as any),
+      ja: mk(joycosJa as any),
+      it: mk(joycosIt as any),
+      de: mk(joycosDe as any),
+      fr: mk(joycosFr as any),
+      tr: mk(joycosTr as any),
+      es: mk(joycosEs as any),
+      pt: mk(joycosPt as any),
     },
   },
 {
