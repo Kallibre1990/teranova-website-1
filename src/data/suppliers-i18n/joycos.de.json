@@ -11,7 +11,7 @@
     ],
     "facts": [
       "Joycos Ltd., Seoul, Bezirk Seocho; führt drei Marken: HUKSAMSOO, TRUE ISLAND und HOPE GIRL",
-      "Nach Angaben des Unternehmens liegt für zehn Artikel die europäische CPNP-Meldung vor",
+      "Im Katalog trägt die europäische CPNP-Kennzeichnung zehn Artikel der Honey-Bee-Linie",
       "HUKSAMSOO: schwarzer Ginseng, neunmal gedämpft und getrocknet, rund 1.200 Stunden bei niedriger Temperatur",
       "Der HUKSAMSOO-Katalog nennt die KFDA-Funktionskennzeichnung für Falten und Aufhellung",
       "Alaska Aqua Hyaluron Sun Cream wird mit SPF50+ PA++++ und dreifacher Funktion angegeben",
@@ -28,7 +28,7 @@
     "lines": [
       {
         "name": "HUKSAMSOO — die Linie mit schwarzem Ginseng",
-        "note": "Sechs Artikel: Wasser-Essenz 150 ml, Emulsion 120 ml, intensives straffendes Serum 40 ml, Creme 50 ml, Augencreme 20 ml und Reinigungsschaum 150 ml. Das Unternehmen nennt Niacinamid 50.000 ppm und Panthenol 50.000 ppm in der Essenz sowie Niacinamid 20.000 ppm und Adenosin 400 ppm in Emulsion und Creme. Angegeben ohne Parabene, denaturierten Alkohol, künstliche Farbstoffe und Mineralöl."
+        "note": "Sechs Artikel: Wasser-Essenz 150 ml, Emulsion 120 ml, intensives straffendes Serum 40 ml, Creme 50 ml, Augencreme 20 ml und Reinigungsschaum 150 ml. Das Unternehmen nennt Niacinamid 50.000 ppm und Panthenol 50.000 ppm in der Essenz sowie Niacinamid 20.000 ppm und Adenosin 400 ppm in Emulsion und Augencreme. Angegeben ohne Parabene, denaturierten Alkohol, künstliche Farbstoffe und Mineralöl."
       },
       {
         "name": "HUKSAMSOO Black Ginseng EX PDRN Shot 120",
@@ -36,7 +36,7 @@
       },
       {
         "name": "TRUE ISLAND · Honey Bee",
-        "note": "Linie mit Honig, Gelée royale und Propolis, in einem Teil des Sortiments mit Bienengift. Zwölf Artikel: Handcremes in drei Düften, Kollagen-Abwaschmaske, Augencreme, Toner, Propolis-Serum, Vitamin-C-Serum, Hydrogel-Augenpads, Multicreme, Reinigungsschaum, Gommage, Tonerde-Porenmaske und Tuchmaske."
+        "note": "Linie mit Honig, Gelée royale und Propolis, in einem Teil des Sortiments mit Bienengift. Zwölf Artikel: Handcremes in drei Düften, Kollagen-Abwaschmaske, Augencreme, Toner, Serum mit Honigessenz, Vitamin-C-Serum, Hydrogel-Augenpads, Multicreme, Reinigungsschaum, Gommage, Tonerde-Porenmaske und Tuchmaske."
       },
       {
         "name": "TRUE ISLAND · Alaska Aqua",
