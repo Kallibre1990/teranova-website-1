@@ -1117,9 +1117,9 @@ export const suppliers: SupplierProfile[] = [
     termsFile: {
       ru: '/docs/licorne-terms-ru.pdf', en: '/docs/licorne-terms-en.pdf', ko: '/docs/licorne-terms-ko.pdf', zh: '/docs/licorne-terms-zh.pdf', ja: '/docs/licorne-terms-ja.pdf', it: '/docs/licorne-terms-it.pdf', de: '/docs/licorne-terms-de.pdf', fr: '/docs/licorne-terms-fr.pdf', tr: '/docs/licorne-terms-tr.pdf', es: '/docs/licorne-terms-es.pdf', pt: '/docs/licorne-terms-pt.pdf',
     },
-    priceFile: {
-      ru: '/docs/licorne-price-ru.pdf', en: '/docs/licorne-price-en.pdf', ko: '/docs/licorne-price-ko.pdf', zh: '/docs/licorne-price-zh.pdf', ja: '/docs/licorne-price-ja.pdf', it: '/docs/licorne-price-it.pdf', de: '/docs/licorne-price-de.pdf', fr: '/docs/licorne-price-fr.pdf', tr: '/docs/licorne-price-tr.pdf', es: '/docs/licorne-price-es.pdf', pt: '/docs/licorne-price-pt.pdf',
-    },
+    /* Прайс снят с публикации: 01.09.2026 Oh MiHyeon (Limetree Co., Ltd.)
+       письменно попросила убрать прайс-лист из открытого доступа и выдавать
+       цены только по запросу покупателя. */
     presFile: {
       ru: '/docs/licorne-presentation-ru.pdf', en: '/docs/licorne-presentation-en.pdf', ko: '/docs/licorne-presentation-ko.pdf', zh: '/docs/licorne-presentation-zh.pdf', ja: '/docs/licorne-presentation-ja.pdf', it: '/docs/licorne-presentation-it.pdf', de: '/docs/licorne-presentation-de.pdf', fr: '/docs/licorne-presentation-fr.pdf', tr: '/docs/licorne-presentation-tr.pdf', es: '/docs/licorne-presentation-es.pdf', pt: '/docs/licorne-presentation-pt.pdf',
     },

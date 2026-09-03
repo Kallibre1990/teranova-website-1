@@ -215,7 +215,9 @@ const SUPPLIERS = [
     certs: [],
   },
   {
-    id: 'licorne', json: 'licorne', supplier: 'Limetree Co., Ltd.', brand: 'LICORNE Cosmetics',
+    /* noPrice: 01.09.2026 Oh MiHyeon письменно попросила убрать прайс-лист
+       из открытого доступа и давать цены только по запросу покупателя. */
+    id: 'licorne', json: 'licorne', supplier: 'Limetree Co., Ltd.', brand: 'LICORNE Cosmetics', noPrice: true,
     basis: 'FOB Korea',
     colors: { deep: '#2f5d3a', sky: '#4e9c6b', bg: '#eef7f0', line: '#d5e9db' },
     pres: true,
