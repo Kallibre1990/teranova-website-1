@@ -685,7 +685,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Solaranlagen — Modulreinigung und Instandhaltung · Teranova',
       description:
-        'Ein Geschäftsbereich von Teranova: Auswahl und Lieferung von Reinigungstechnik für Solarmodule, mit einem Pilotprogramm, das das Ergebnis auf Ihrer Anlage prüft.',
+        'Ein Geschäftsbereich von Teranova: Auswahl und Lieferung von Reinigungstechnik für Solarmodule, mit einem Pilotprogramm, das das Ergebnis vor Ort prüft.',
     },
     hero: {
       kicker: 'Ein Geschäftsbereich von Teranova',
@@ -804,7 +804,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
   },
   fr: {
     meta: {
-      title: 'Centrales solaires — nettoyage des modules et maintenance · Teranova',
+      title: 'Centrales solaires — nettoyage des modules · Teranova',
       description:
         'Une activité de Teranova : sélection et fourniture de matériel de nettoyage des modules, avec un programme pilote qui vérifie le résultat sur votre site.',
     },
@@ -927,7 +927,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Impianti solari — pulizia dei moduli e manutenzione · Teranova',
       description:
-        'Una linea di attività Teranova: selezione e fornitura di macchine per la pulizia dei moduli, con un programma pilota che verifica il risultato sul vostro sito.',
+        'Una linea di attività Teranova: selezione e fornitura di macchine per la pulizia dei moduli, con un programma pilota che verifica il risultato in loco.',
     },
     hero: {
       kicker: 'Una linea di attività Teranova',
@@ -1046,9 +1046,9 @@ export const solarCopy: Record<Lang, SolarCopy> = {
   },
   es: {
     meta: {
-      title: 'Plantas solares — limpieza de módulos y mantenimiento · Teranova',
+      title: 'Plantas solares — limpieza de módulos · Teranova',
       description:
-        'Una línea de negocio de Teranova: selección y suministro de equipos de limpieza de módulos, con un programa piloto que comprueba el resultado en su propia planta.',
+        'Una línea de negocio de Teranova: selección y suministro de equipos de limpieza de módulos, con un programa piloto que comprueba el resultado en su planta.',
     },
     hero: {
       kicker: 'Una línea de negocio de Teranova',
@@ -1169,7 +1169,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
     meta: {
       title: 'Usinas solares — limpeza de módulos e manutenção · Teranova',
       description:
-        'Uma linha de negócio da Teranova: seleção e fornecimento de equipamentos de limpeza de módulos, com um programa piloto que verifica o resultado na sua própria usina.',
+        'Uma linha de negócio da Teranova: seleção e fornecimento de equipamentos de limpeza de módulos, com um programa piloto que verifica o resultado na sua usina.',
     },
     hero: {
       kicker: 'Uma linha de negócio da Teranova',
