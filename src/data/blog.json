@@ -38005,5 +38005,547 @@
         ]
       }
     }
+  },
+  {
+    "slug": "aoi-stated-concentrations-how-to-read",
+    "category": "guide",
+    "date": "2026-09-05",
+    "related": [
+      "aoi",
+      "cosmetics",
+      "buyers"
+    ],
+    "supplier": "aoi",
+    "hero": "/img/suppliers/aoi/gallery/lumi-drop-rice.jpg",
+    "i18n": {
+      "ru": {
+        "title": "Проценты на флаконе: как закупщику читать состав корейской ампулы",
+        "excerpt": "Корейский бренд aoi печатает концентрацию активов прямо на упаковке — в процентах и в ppm. Разбираем, что за этим стоит, что такое индекс раздражения 0,00 и какие вопросы задать поставщику.",
+        "seoTitle": "Как читать концентрации активов в корейской косметике · Teranova",
+        "seoDesc": "Что означают проценты и ppm на упаковке корейской ампулы, как читать индекс раздражения 0,00 и о чём спросить поставщика. На примере линии Drop бренда aoi.",
+        "sections": [
+          {
+            "p": [
+              "Большинство брендов пишут на упаковке название актива и молчат о его количестве. Покупатель видит «с ниацинамидом» и не знает, пять там процентов или ноль целых пять десятых, а разница между этими цифрами — это разница между работающим продуктом и маркетингом.",
+              "Корейский бренд aoi (компания Red Purple Blue) сделал обратное: концентрацию ключевого актива он печатает прямо на флаконе, в процентах и в ppm одновременно. Для закупщика это удобный случай разобрать, что такие цифры на самом деле означают."
+            ]
+          },
+          {
+            "h": "Почему проценты на упаковке встречаются редко",
+            "p": [
+              "Указывать концентрацию невыгодно, если она низкая, и рискованно, если высокая: производитель берёт на себя обязательство, которое можно проверить лабораторно. Поэтому обычно ограничиваются составом по INCI, где ингредиенты идут по убыванию доли, но без цифр.",
+              "Когда цифра всё-таки названа, у неё появляется второй смысл: она задаёт рамку разговора. С брендом, который написал «ниацинамид 5 %», можно предметно обсуждать рецептуру, эквиваленты и адаптацию под рынок. С брендом, который написал просто «с ниацинамидом», такой разговор начинается с выяснения, что вообще внутри."
+            ]
+          },
+          {
+            "h": "Проценты и ppm — это одно и то же, записанное дважды",
+            "p": [
+              "Один процент равен десяти тысячам ppm. Ниацинамид 5 % — это 50 000 ppm, гиалуронат натрия 0,5 % — это 5 008 ppm в конкретной рецептуре. Вторая запись нужна там, где активов немного по массе, но они дорогие: писать «0,0015 %» неудобно, а «15 000 ppm» звучит и читается яснее.",
+              "У aoi этот приём применён последовательно. В Lumi Drop заявлены ниацинамид 5 % и рисовая отрубная вода 41 %; в Regen Drop — Sodium DNA 1,5 % и женьшеневая вода 42 %; в Hydra Drop — гиалуронат натрия 0,5 % и вода камелии китайской 45 %. Первая цифра отвечает за действие, вторая показывает, на чём построена основа."
+            ]
+          },
+          {
+            "h": "Индекс раздражения 0,00 — что это и чего это не значит",
+            "p": [
+              "Индекс раздражения получают в закрытом патч-тесте: средство наносят на кожу под окклюзию, обычно на двадцать четыре часа, затем врач оценивает реакцию по шкале. Ноль означает, что реакции не зафиксировано ни у одного участника. У всех трёх ампул aoi заявлен индекс 0,00 по результатам испытаний Корейского института дерматологических наук, ноябрь 2025 года.",
+              "Чего этот показатель не значит: он не подтверждает эффективность и не заменяет сертификат. Это тест на переносимость, а не на результат. Зато он полезен там, где рынок чувствителен к заявлениям для проблемной кожи — например, в аптечной рознице."
+            ]
+          },
+          {
+            "h": "Что спросить у поставщика",
+            "p": [
+              "Первое — есть ли протокол на бумаге и на какие именно позиции он выдан: тест делают по продукту, а не по бренду. Второе — сколько человек участвовало и по какой методике оценивали. Третье — совпадает ли состав в протоколе с составом текущей партии, потому что рецептура могла обновиться после испытания.",
+              "И отдельный вопрос про концентрации: указана доля самого актива или доля раствора, в котором он поставляется. Это самая частая причина расхождений между тем, что написано на упаковке, и тем, что видно в спецификации."
+            ]
+          },
+          {
+            "h": "Источники",
+            "p": [
+              "Материал подготовлен на основе данных, предоставленных компанией Red Purple Blue (бренд aoi) и опубликованных с её письменного согласия для представления на платформе Teranova Group. Заявленные свойства, составы и концентрации приведены по данным компании."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Percentages on the bottle: how a buyer reads a Korean ampoule",
+        "excerpt": "The Korean brand aoi prints active concentrations on the packaging itself, in per cent and in ppm. What lies behind that, what a skin irritation index of 0.00 means, and what to ask the supplier.",
+        "seoTitle": "How to read active concentrations in Korean skincare · Teranova",
+        "seoDesc": "What per cent and ppm on a Korean ampoule actually mean, how to read a 0.00 irritation index, and what to ask a supplier. Worked through the aoi Drop series.",
+        "sections": [
+          {
+            "p": [
+              "Most brands print the name of an active and say nothing about how much of it is there. The buyer sees \"with niacinamide\" and cannot tell whether that is five per cent or half of one — and the gap between those two numbers is the gap between a working product and marketing.",
+              "The Korean brand aoi, made by Red Purple Blue, did the opposite: it prints the concentration of the key active on the bottle itself, in per cent and in ppm at once. That makes it a convenient case for unpacking what such figures actually mean."
+            ]
+          },
+          {
+            "h": "Why concentrations are rarely printed",
+            "p": [
+              "Stating a concentration is unattractive when it is low and risky when it is high: the manufacturer takes on a commitment that a laboratory can check. So most stop at the INCI list, where ingredients run in descending order but without numbers.",
+              "When a figure is named, it acquires a second function: it sets the frame of the conversation. With a brand that wrote \"niacinamide 5%\" you can discuss the formulation, equivalents and market adaptation directly. With a brand that wrote \"with niacinamide\" the conversation starts with finding out what is inside at all."
+            ]
+          },
+          {
+            "h": "Per cent and ppm are the same thing written twice",
+            "p": [
+              "One per cent equals ten thousand ppm. Niacinamide at 5% is 50,000 ppm; sodium hyaluronate at 0.5% is 5,008 ppm in that particular formula. The second notation earns its place where an active is small by weight but expensive: \"0.0015%\" is awkward, while \"15,000 ppm\" reads clearly.",
+              "aoi applies this consistently. Lumi Drop states niacinamide 5% and rice bran water 41%; Regen Drop states Sodium DNA 1.5% and ginseng root water 42%; Hydra Drop states sodium hyaluronate 0.5% and camellia sinensis water 45%. The first figure carries the action, the second shows what the base is built on."
+            ]
+          },
+          {
+            "h": "An irritation index of 0.00 — what it is and is not",
+            "p": [
+              "The irritation index comes from a closed patch test: the product is applied under occlusion, usually for twenty-four hours, and a physician then grades the reaction on a scale. Zero means no reaction was recorded in any participant. All three aoi ampoules state an index of 0.00 from testing by the Korea Institute of Dermatological Sciences, November 2025.",
+              "What it does not mean: it is not proof of efficacy and it is not a certificate. It is a tolerance test, not a results test. It does matter in markets sensitive to claims for compromised skin — pharmacy retail above all."
+            ]
+          },
+          {
+            "h": "What to ask the supplier",
+            "p": [
+              "First, whether the report exists on paper and which products it covers: the test is run per product, not per brand. Second, how many participants took part and under which method the grading was done. Third, whether the formulation in the report matches the current batch, because the formula may have been revised since.",
+              "And one question on concentrations specifically: is the figure the share of the active itself, or the share of the solution it is supplied in? That is the most common source of discrepancy between the packaging and the specification sheet."
+            ]
+          },
+          {
+            "h": "Sources",
+            "p": [
+              "Prepared from data provided by Red Purple Blue Co., Ltd (the aoi brand) and published with the company's written consent for presentation on the Teranova Group platform. Stated properties, formulations and concentrations are as given by the company."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "용기에 적힌 함량: 바이어가 한국 앰플을 읽는 법",
+        "excerpt": "한국 브랜드 aoi는 유효성분 함량을 퍼센트와 ppm으로 용기에 직접 인쇄합니다. 그 배경과 자극 지수 0.00의 의미, 그리고 공급사에 물어야 할 것들.",
+        "seoTitle": "한국 화장품의 유효성분 함량을 읽는 법 · Teranova",
+        "seoDesc": "한국 앰플에 적힌 퍼센트와 ppm의 의미, 자극 지수 0.00을 읽는 법, 공급사에 확인할 항목. aoi의 Drop 시리즈를 예로 정리했습니다.",
+        "sections": [
+          {
+            "p": [
+              "대부분의 브랜드는 성분 이름만 적고 함량은 말하지 않습니다. 소비자는 「나이아신아마이드 함유」를 볼 뿐, 그것이 5%인지 0.5%인지 알 수 없습니다. 그리고 그 차이가 곧 실제로 작동하는 제품과 마케팅의 차이입니다.",
+              "주식회사 레드퍼플블루가 만드는 한국 브랜드 aoi는 반대로 했습니다. 핵심 성분의 함량을 퍼센트와 ppm으로 함께 용기에 인쇄합니다. 덕분에 이 수치가 실제로 무엇을 뜻하는지 살펴보기 좋은 사례가 됩니다."
+            ]
+          },
+          {
+            "h": "함량 표기가 드문 이유",
+            "p": [
+              "함량이 낮으면 적을 이유가 없고, 높으면 위험합니다. 실험실에서 검증 가능한 약속이 되기 때문입니다. 그래서 대개는 함량 없이 내림차순으로 나열되는 전성분에서 멈춥니다.",
+              "그럼에도 숫자를 적으면 두 번째 의미가 생깁니다. 대화의 틀이 잡힙니다. 「나이아신아마이드 5%」라고 쓴 브랜드와는 처방과 대체 성분, 시장별 조정을 바로 이야기할 수 있습니다. 「나이아신아마이드 함유」라고만 쓴 브랜드와는 안에 무엇이 들었는지부터 확인해야 합니다."
+            ]
+          },
+          {
+            "h": "퍼센트와 ppm은 같은 값을 두 번 적은 것",
+            "p": [
+              "1퍼센트는 10,000 ppm입니다. 나이아신아마이드 5%는 50,000 ppm이고, 소듐하이알루로네이트 0.5%는 해당 처방에서 5,008 ppm입니다. 두 번째 표기는 함량은 적지만 값이 비싼 성분에서 쓸모가 있습니다. 「0.0015%」보다 「15,000 ppm」이 읽기 쉽습니다.",
+              "aoi는 이 방식을 일관되게 적용했습니다. 루미드롭은 나이아신아마이드 5%와 쌀겨수 41%, 리젠드롭은 Sodium DNA 1.5%와 인삼뿌리수 42%, 하이드라드롭은 소듐하이알루로네이트 0.5%와 녹차수 45%를 표기합니다. 앞의 숫자가 기능을, 뒤의 숫자가 베이스를 말합니다."
+            ]
+          },
+          {
+            "h": "자극 지수 0.00 — 무엇이고, 무엇이 아닌가",
+            "p": [
+              "자극 지수는 첩포 시험에서 나옵니다. 제품을 폐쇄 상태로 보통 24시간 붙인 뒤 전문의가 반응을 등급으로 평가합니다. 0은 참가자 누구에게서도 반응이 기록되지 않았다는 뜻입니다. aoi의 세 앰플은 모두 대한피부과학연구소 시험에서 0.00으로 표기되어 있습니다(2025년 11월).",
+              "다만 이 값이 뜻하지 않는 것도 분명합니다. 효능의 증명이 아니고, 인증서도 아닙니다. 결과가 아니라 순응도를 보는 시험입니다. 그럼에도 민감한 피부를 겨냥한 소구가 중요한 시장, 특히 약국 유통에서는 의미가 큽니다."
+            ]
+          },
+          {
+            "h": "공급사에 물어야 할 것",
+            "p": [
+              "첫째, 시험성적서가 서면으로 있는지, 그리고 어느 품목에 대해 발급되었는지입니다. 시험은 브랜드가 아니라 제품 단위로 진행됩니다. 둘째, 참가 인원과 평가 방법입니다. 셋째, 성적서의 처방이 현재 생산 중인 로트의 처방과 같은지입니다. 시험 이후 처방이 바뀌었을 수 있습니다.",
+              "함량에 대해서는 따로 하나 더 있습니다. 적힌 수치가 유효성분 자체의 비율인지, 아니면 그 성분이 공급되는 용액의 비율인지. 포장 표기와 스펙 시트가 어긋나는 가장 흔한 원인이 여기에 있습니다."
+            ]
+          },
+          {
+            "h": "출처",
+            "p": [
+              "본 자료는 aoi 브랜드를 보유한 주식회사 레드퍼플블루가 제공하고 Teranova Group 플랫폼 게재에 서면 동의한 정보를 바탕으로 작성했습니다. 기재된 특성과 처방, 함량은 회사가 제공한 정보에 따릅니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "瓶身上的含量：采购方如何读懂一支韩国安瓶",
+        "excerpt": "韩国品牌 aoi 把有效成分含量直接印在包装上，同时标注百分比与 ppm。这背后是什么，刺激指数 0.00 意味着什么，以及该向供应商问什么。",
+        "seoTitle": "如何读懂韩国护肤品的有效成分含量 · Teranova",
+        "seoDesc": "韩国安瓶上的百分比与 ppm 究竟意味着什么，如何解读 0.00 的刺激指数，以及该向供应商确认哪些事项。以 aoi 的 Drop 系列为例。",
+        "sections": [
+          {
+            "p": [
+              "多数品牌只写成分名称，不提含量。消费者看到「含烟酰胺」，却无从判断是百分之五还是百分之零点五——而这两个数字之间的差距，正是有效产品与营销话术之间的差距。",
+              "由 Red Purple Blue 出品的韩国品牌 aoi 反其道而行：把核心成分的含量以百分比和 ppm 同时印在瓶身上。这让它成为拆解这类数字究竟意味着什么的一个方便样本。"
+            ]
+          },
+          {
+            "h": "为什么很少有人标注含量",
+            "p": [
+              "含量低时没有理由写出来，含量高时写出来又有风险：厂家由此承担了一个实验室可以核验的承诺。所以大多数只停留在按含量降序排列、却不给数字的全成分表。",
+              "而一旦写出数字，它就有了第二重作用：它确定了对话的框架。与写下「烟酰胺 5%」的品牌，可以直接讨论配方、替代成分与市场适配。与只写「含烟酰胺」的品牌，对话得从弄清里面到底有什么开始。"
+            ]
+          },
+          {
+            "h": "百分比与 ppm 是同一个数的两种写法",
+            "p": [
+              "百分之一等于一万 ppm。烟酰胺 5% 就是 50,000 ppm；在该配方中，透明质酸钠 0.5% 就是 5,008 ppm。第二种写法用在含量小而价值高的成分上更清楚：「0.0015%」读起来别扭，「15,000 ppm」则一目了然。",
+              "aoi 把这一点贯彻到底。Lumi Drop 标注烟酰胺 5% 与米糠水 41%；Regen Drop 标注 Sodium DNA 1.5% 与人参根水 42%；Hydra Drop 标注透明质酸钠 0.5% 与山茶水 45%。前一个数字承担功效，后一个数字说明基底。"
+            ]
+          },
+          {
+            "h": "刺激指数 0.00 是什么，又不是什么",
+            "p": [
+              "刺激指数来自封闭斑贴试验：产品在封闭状态下敷贴通常二十四小时，随后由医师按量表评定反应。零表示所有受试者均未记录到反应。aoi 三款安瓶均标注大韩皮肤科学研究所试验结果为 0.00，时间为 2025 年 11 月。",
+              "它不意味着什么也要讲清楚：这既不是功效证明，也不是认证证书。它检验的是耐受性，而不是效果。但在对敏感肌宣称敏感的市场——尤其是药店渠道——它确实有分量。"
+            ]
+          },
+          {
+            "h": "该向供应商问什么",
+            "p": [
+              "第一，是否有纸质报告，以及覆盖哪些具体产品：试验以产品为单位，而非以品牌为单位。第二，受试人数与评定方法。第三，报告中的配方是否与当前批次一致，因为试验之后配方可能已经调整。",
+              "关于含量还有单独一问：标注的数字是有效成分本身的比例，还是该成分供货时所处溶液的比例。这是包装标注与规格书出现出入的最常见原因。"
+            ]
+          },
+          {
+            "h": "资料来源",
+            "p": [
+              "本文依据 aoi 品牌持有方 Red Purple Blue 公司提供、并书面同意在 Teranova Group 平台展示的资料撰写。所述特性、配方与含量均以公司提供的信息为准。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "ボトルに書かれた配合量：バイヤーが韓国アンプルを読む方法",
+        "excerpt": "韓国ブランド aoi は有効成分の配合量をパーセントと ppm でボトルに直接印字しています。その背景と、皮膚刺激指数 0.00 の意味、そしてサプライヤーに確認すべきこと。",
+        "seoTitle": "韓国スキンケアの有効成分配合量を読む方法 · Teranova",
+        "seoDesc": "韓国アンプルのパーセントと ppm が実際に何を意味するか、刺激指数 0.00 の読み方、サプライヤーに確認する項目。aoi の Drop シリーズを例に整理しました。",
+        "sections": [
+          {
+            "p": [
+              "多くのブランドは成分名だけを記し、その量については触れません。消費者は「ナイアシンアミド配合」を見ても、それが 5% なのか 0.5% なのか分かりません。そしてこの二つの数字の差こそが、実際に働く製品と宣伝文句の差です。",
+              "Red Purple Blue 社が手がける韓国ブランド aoi は逆のことをしました。主要成分の配合量をパーセントと ppm の両方でボトルに印字しています。おかげで、こうした数字が実際に何を意味するのかを読み解く格好の例になっています。"
+            ]
+          },
+          {
+            "h": "配合量が書かれることが少ない理由",
+            "p": [
+              "配合量が低ければ書く理由がなく、高ければ書くこと自体がリスクになります。試験所で検証できる約束を負うからです。そのため多くは、含有量の多い順に並ぶだけで数字のない全成分表示にとどまります。",
+              "それでも数字を書くと、二つ目の意味が生まれます。会話の枠組みが決まるのです。「ナイアシンアミド 5%」と書いたブランドとは、処方や代替成分、市場ごとの調整をすぐに話せます。「ナイアシンアミド配合」とだけ書いたブランドとは、中身の確認から始めることになります。"
+            ]
+          },
+          {
+            "h": "パーセントと ppm は同じ値の二通りの書き方",
+            "p": [
+              "1 パーセントは 10,000 ppm です。ナイアシンアミド 5% は 50,000 ppm、その処方におけるヒアルロン酸ナトリウム 0.5% は 5,008 ppm です。二つ目の表記は、重量は小さいが高価な成分で役に立ちます。「0.0015%」より「15,000 ppm」のほうが読みやすいからです。",
+              "aoi はこれを一貫して行っています。Lumi Drop はナイアシンアミド 5% と米ぬか水 41%、Regen Drop は Sodium DNA 1.5% と高麗人参根水 42%、Hydra Drop はヒアルロン酸ナトリウム 0.5% とチャノキ水 45% を示します。前の数字が働きを、後ろの数字が基剤を語ります。"
+            ]
+          },
+          {
+            "h": "刺激指数 0.00 とは何で、何ではないか",
+            "p": [
+              "刺激指数は閉塞パッチテストから得られます。製品を通常 24 時間、閉塞状態で貼付し、その後に医師が反応を段階評価します。ゼロは、どの被験者にも反応が記録されなかったという意味です。aoi の 3 品目はいずれも大韓皮膚科学研究所の試験で 0.00 と示されています（2025 年 11 月）。",
+              "この値が意味しないことも明確です。有効性の証明ではなく、認証でもありません。結果ではなく、受容性を見る試験です。それでも、敏感な肌への訴求が重視される市場、とりわけ薬局流通では重みを持ちます。"
+            ]
+          },
+          {
+            "h": "サプライヤーに確認すること",
+            "p": [
+              "第一に、試験報告書が書面で存在するか、そしてどの品目に対して発行されたか。試験はブランド単位ではなく製品単位で行われます。第二に、被験者数と評価方法。第三に、報告書の処方が現行ロットの処方と一致しているか。試験後に処方が更新されている場合があります。",
+              "配合量についてもう一つ。記載された数値は有効成分そのものの比率か、それともその成分が供給される溶液の比率か。包装表示と規格書が食い違う最も多い原因がここにあります。"
+            ]
+          },
+          {
+            "h": "出典",
+            "p": [
+              "本稿は、aoi ブランドを保有する Red Purple Blue 社が提供し、Teranova Group プラットフォームでの掲載に書面で同意した情報に基づいて作成しました。記載された特性、処方、配合量は同社の提供情報によります。"
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Porcentajes en el frasco: cómo lee un comprador una ampolla coreana",
+        "excerpt": "La marca coreana aoi imprime la concentración de activos en el propio envase, en porcentaje y en ppm. Qué hay detrás, qué significa un índice de irritación de 0,00 y qué preguntar al proveedor.",
+        "seoTitle": "Cómo leer las concentraciones de activos en cosmética coreana · Teranova",
+        "seoDesc": "Qué significan el porcentaje y los ppm en una ampolla coreana, cómo leer un índice de irritación 0,00 y qué preguntar al proveedor. Con la serie Drop de aoi como ejemplo.",
+        "sections": [
+          {
+            "p": [
+              "La mayoría de las marcas imprime el nombre de un activo y calla su cantidad. El comprador ve «con niacinamida» y no sabe si son cinco por ciento o medio punto, y la distancia entre esas dos cifras es la distancia entre un producto que funciona y un argumento de venta.",
+              "La marca coreana aoi, de la empresa Red Purple Blue, hizo lo contrario: imprime la concentración del activo principal en el propio frasco, en porcentaje y en ppm a la vez. Eso la convierte en un caso cómodo para entender qué significan de verdad esas cifras."
+            ]
+          },
+          {
+            "h": "Por qué rara vez se imprime la concentración",
+            "p": [
+              "Declarar una concentración no interesa cuando es baja y es arriesgado cuando es alta: el fabricante asume un compromiso que un laboratorio puede comprobar. Por eso lo habitual es quedarse en el INCI, donde los ingredientes van en orden decreciente pero sin números.",
+              "Cuando la cifra se nombra, adquiere una segunda función: fija el marco de la conversación. Con una marca que escribió «niacinamida 5 %» se puede hablar de fórmula, equivalentes y adaptación al mercado. Con una que escribió «con niacinamida», la conversación empieza por averiguar qué hay dentro."
+            ]
+          },
+          {
+            "h": "Porcentaje y ppm son lo mismo escrito dos veces",
+            "p": [
+              "Un uno por ciento equivale a diez mil ppm. Niacinamida al 5 % son 50.000 ppm; hialuronato de sodio al 0,5 % son 5.008 ppm en esa fórmula concreta. La segunda notación gana sentido cuando el activo pesa poco pero cuesta mucho: «0,0015 %» resulta incómodo, «15.000 ppm» se lee claro.",
+              "aoi lo aplica de forma consistente. Lumi Drop declara niacinamida 5 % y agua de salvado de arroz 41 %; Regen Drop, Sodium DNA 1,5 % y agua de raíz de ginseng 42 %; Hydra Drop, hialuronato de sodio 0,5 % y agua de camelia sinensis 45 %. La primera cifra sostiene la acción, la segunda muestra sobre qué está construida la base."
+            ]
+          },
+          {
+            "h": "Un índice de irritación de 0,00: qué es y qué no",
+            "p": [
+              "El índice de irritación sale de una prueba de parche cerrado: el producto se aplica bajo oclusión, normalmente veinticuatro horas, y después un médico gradúa la reacción en una escala. Cero significa que no se registró reacción en ningún participante. Las tres ampollas de aoi declaran índice 0,00 en ensayos del Instituto Coreano de Ciencias Dermatológicas, noviembre de 2025.",
+              "Lo que no significa: no prueba eficacia ni sustituye a un certificado. Es una prueba de tolerancia, no de resultado. Sí pesa en mercados sensibles a las declaraciones para piel reactiva, y la farmacia es el primero de ellos."
+            ]
+          },
+          {
+            "h": "Qué preguntar al proveedor",
+            "p": [
+              "Primero, si el informe existe en papel y sobre qué productos se emitió: el ensayo se hace por producto, no por marca. Segundo, cuántos participantes hubo y con qué método se graduó. Tercero, si la fórmula del informe coincide con la del lote actual, porque puede haberse revisado después del ensayo.",
+              "Y una pregunta aparte sobre concentraciones: la cifra indicada, ¿es la proporción del activo en sí o la de la solución en que se suministra? Ese es el origen más frecuente de las discrepancias entre el envase y la ficha técnica."
+            ]
+          },
+          {
+            "h": "Fuentes",
+            "p": [
+              "Elaborado a partir de datos facilitados por Red Purple Blue Co., Ltd (marca aoi) y publicados con su consentimiento escrito para su presentación en la plataforma Teranova Group. Las propiedades, fórmulas y concentraciones declaradas se recogen según la información de la empresa."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Porcentagens no frasco: como um comprador lê uma ampola coreana",
+        "excerpt": "A marca coreana aoi imprime a concentração dos ativos na própria embalagem, em porcentagem e em ppm. O que há por trás disso, o que significa um índice de irritação de 0,00 e o que perguntar ao fornecedor.",
+        "seoTitle": "Como ler as concentrações de ativos na cosmética coreana · Teranova",
+        "seoDesc": "O que significam a porcentagem e os ppm numa ampola coreana, como ler um índice de irritação 0,00 e o que perguntar ao fornecedor. Com a série Drop da aoi como exemplo.",
+        "sections": [
+          {
+            "p": [
+              "A maioria das marcas imprime o nome de um ativo e cala a quantidade. O comprador vê «com niacinamida» e não sabe se são cinco por cento ou meio ponto — e a distância entre esses dois números é a distância entre um produto que funciona e um argumento de venda.",
+              "A marca coreana aoi, da empresa Red Purple Blue, fez o contrário: imprime a concentração do ativo principal no próprio frasco, em porcentagem e em ppm ao mesmo tempo. Isso a torna um caso conveniente para entender o que essas cifras realmente significam."
+            ]
+          },
+          {
+            "h": "Por que a concentração raramente é impressa",
+            "p": [
+              "Declarar uma concentração não interessa quando ela é baixa e é arriscado quando é alta: o fabricante assume um compromisso que um laboratório pode verificar. Por isso o habitual é ficar pelo INCI, em que os ingredientes seguem em ordem decrescente, mas sem números.",
+              "Quando a cifra é nomeada, ela ganha uma segunda função: define o enquadramento da conversa. Com uma marca que escreveu «niacinamida 5%» dá para falar de fórmula, equivalentes e adaptação ao mercado. Com uma que escreveu «com niacinamida», a conversa começa por descobrir o que há dentro."
+            ]
+          },
+          {
+            "h": "Porcentagem e ppm são a mesma coisa escrita duas vezes",
+            "p": [
+              "Um por cento equivale a dez mil ppm. Niacinamida a 5% são 50.000 ppm; hialuronato de sódio a 0,5% são 5.008 ppm naquela fórmula. A segunda notação ganha sentido quando o ativo pesa pouco mas custa muito: «0,0015%» é incômodo, «15.000 ppm» lê-se claro.",
+              "A aoi aplica isso de forma consistente. A Lumi Drop declara niacinamida 5% e água de farelo de arroz 41%; a Regen Drop, Sodium DNA 1,5% e água de raiz de ginseng 42%; a Hydra Drop, hialuronato de sódio 0,5% e água de camellia sinensis 45%. A primeira cifra sustenta a ação, a segunda mostra sobre o que a base foi construída."
+            ]
+          },
+          {
+            "h": "Um índice de irritação de 0,00: o que é e o que não é",
+            "p": [
+              "O índice de irritação vem de um teste de contato fechado: o produto é aplicado sob oclusão, normalmente por vinte e quatro horas, e depois um médico gradua a reação numa escala. Zero significa que não se registou reação em nenhum participante. As três ampolas da aoi declaram índice 0,00 em ensaios do Instituto Coreano de Ciências Dermatológicas, novembro de 2025.",
+              "O que não significa: não prova eficácia nem substitui um certificado. É um teste de tolerância, não de resultado. Mas pesa em mercados sensíveis a alegações para pele reativa, e a farmácia é o primeiro deles."
+            ]
+          },
+          {
+            "h": "O que perguntar ao fornecedor",
+            "p": [
+              "Primeiro, se o relatório existe em papel e sobre quais produtos foi emitido: o ensaio é feito por produto, não por marca. Segundo, quantos participantes houve e com que método se graduou. Terceiro, se a fórmula do relatório coincide com a do lote atual, porque pode ter sido revista depois do ensaio.",
+              "E uma pergunta à parte sobre concentrações: a cifra indicada é a proporção do ativo em si ou a da solução em que ele é fornecido? Essa é a origem mais frequente das divergências entre a embalagem e a ficha técnica."
+            ]
+          },
+          {
+            "h": "Fontes",
+            "p": [
+              "Elaborado a partir de dados fornecidos pela Red Purple Blue Co., Ltd (marca aoi) e publicados com o seu consentimento escrito para apresentação na plataforma Teranova Group. As propriedades, fórmulas e concentrações declaradas seguem a informação da empresa."
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Percentuali sul flacone: come un buyer legge una fiala coreana",
+        "excerpt": "Il marchio coreano aoi stampa la concentrazione degli attivi sulla confezione stessa, in percentuale e in ppm. Che cosa c'è dietro, che cosa significa un indice di irritazione di 0,00 e che cosa chiedere al fornitore.",
+        "seoTitle": "Come leggere le concentrazioni degli attivi nella cosmetica coreana · Teranova",
+        "seoDesc": "Che cosa significano percentuale e ppm su una fiala coreana, come leggere un indice di irritazione 0,00 e che cosa chiedere al fornitore. Con la serie Drop di aoi come esempio.",
+        "sections": [
+          {
+            "p": [
+              "La maggior parte dei marchi stampa il nome di un attivo e tace sulla quantità. Il buyer legge «con niacinamide» e non sa se sia il cinque per cento o mezzo punto, e la distanza fra questi due numeri è la distanza fra un prodotto che funziona e un argomento di vendita.",
+              "Il marchio coreano aoi, prodotto da Red Purple Blue, ha fatto il contrario: stampa la concentrazione dell'attivo principale sul flacone, in percentuale e in ppm insieme. Questo lo rende un caso comodo per capire che cosa significhino davvero quelle cifre."
+            ]
+          },
+          {
+            "h": "Perché la concentrazione si stampa di rado",
+            "p": [
+              "Dichiarare una concentrazione non conviene quando è bassa ed è rischioso quando è alta: il produttore si assume un impegno che un laboratorio può verificare. Per questo di solito ci si ferma all'INCI, dove gli ingredienti scendono in ordine decrescente ma senza numeri.",
+              "Quando la cifra viene indicata, acquista una seconda funzione: fissa la cornice della conversazione. Con un marchio che ha scritto «niacinamide 5%» si può parlare subito di formula, equivalenti e adattamento al mercato. Con uno che ha scritto «con niacinamide» la conversazione parte dal capire che cosa ci sia dentro."
+            ]
+          },
+          {
+            "h": "Percentuale e ppm sono la stessa cosa scritta due volte",
+            "p": [
+              "L'uno per cento equivale a diecimila ppm. La niacinamide al 5% è 50.000 ppm; il sodio ialuronato allo 0,5% è 5.008 ppm in quella formula. La seconda notazione serve dove l'attivo pesa poco ma costa molto: «0,0015%» è scomodo, «15.000 ppm» si legge chiaro.",
+              "aoi lo applica con coerenza. Lumi Drop dichiara niacinamide 5% e acqua di crusca di riso 41%; Regen Drop, Sodium DNA 1,5% e acqua di radice di ginseng 42%; Hydra Drop, sodio ialuronato 0,5% e acqua di camellia sinensis 45%. La prima cifra regge l'azione, la seconda dice su che cosa è costruita la base."
+            ]
+          },
+          {
+            "h": "Un indice di irritazione di 0,00: che cos'è e che cosa non è",
+            "p": [
+              "L'indice di irritazione nasce da un patch test occlusivo: il prodotto viene applicato in occlusione, di norma per ventiquattro ore, e poi un medico gradua la reazione su una scala. Zero significa che non è stata registrata alcuna reazione in nessun partecipante. Le tre fiale di aoi dichiarano indice 0,00 dai test dell'Istituto Coreano di Scienze Dermatologiche, novembre 2025.",
+              "Che cosa non significa: non è una prova di efficacia e non sostituisce un certificato. È un test di tollerabilità, non di risultato. Pesa però nei mercati sensibili alle affermazioni per pelli reattive, e la farmacia è il primo fra questi."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere al fornitore",
+            "p": [
+              "Primo, se il rapporto esiste su carta e per quali prodotti è stato emesso: il test si fa per prodotto, non per marchio. Secondo, quanti partecipanti c'erano e con quale metodo si è graduato. Terzo, se la formula del rapporto coincide con quella del lotto attuale, perché può essere stata rivista dopo il test.",
+              "E una domanda a parte sulle concentrazioni: la cifra indicata è la quota dell'attivo in sé o quella della soluzione in cui viene fornito? È l'origine più frequente delle discrepanze fra confezione e scheda tecnica."
+            ]
+          },
+          {
+            "h": "Fonti",
+            "p": [
+              "Elaborato sulla base dei dati forniti da Red Purple Blue Co., Ltd (marchio aoi) e pubblicati con il suo consenso scritto per la presentazione sulla piattaforma Teranova Group. Proprietà, formule e concentrazioni dichiarate sono riportate secondo le informazioni dell'azienda."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Prozente auf dem Flakon: wie ein Einkäufer eine koreanische Ampulle liest",
+        "excerpt": "Die koreanische Marke aoi druckt die Wirkstoffkonzentration auf die Verpackung selbst — in Prozent und in ppm. Was dahintersteckt, was ein Irritationsindex von 0,00 bedeutet und was man den Lieferanten fragt.",
+        "seoTitle": "Wirkstoffkonzentrationen in koreanischer Pflege richtig lesen · Teranova",
+        "seoDesc": "Was Prozent und ppm auf einer koreanischen Ampulle bedeuten, wie ein Irritationsindex von 0,00 zu lesen ist und was man den Lieferanten fragt. Am Beispiel der Drop-Reihe von aoi.",
+        "sections": [
+          {
+            "p": [
+              "Die meisten Marken drucken den Namen eines Wirkstoffs und schweigen über die Menge. Der Einkäufer liest «mit Niacinamid» und weiß nicht, ob es fünf Prozent sind oder ein halbes — und der Abstand zwischen diesen beiden Zahlen ist der Abstand zwischen einem wirksamen Produkt und einem Verkaufsargument.",
+              "Die koreanische Marke aoi von Red Purple Blue macht es umgekehrt: Sie druckt die Konzentration des Hauptwirkstoffs auf den Flakon, in Prozent und in ppm zugleich. Damit eignet sie sich gut, um zu zeigen, was solche Zahlen tatsächlich aussagen."
+            ]
+          },
+          {
+            "h": "Warum Konzentrationen selten gedruckt werden",
+            "p": [
+              "Eine Konzentration zu nennen lohnt sich nicht, wenn sie niedrig ist, und ist riskant, wenn sie hoch ist: Der Hersteller geht eine Zusage ein, die ein Labor überprüfen kann. Deshalb bleibt es meist bei der INCI-Liste, in der die Stoffe absteigend stehen, aber ohne Zahlen.",
+              "Wird die Zahl doch genannt, bekommt sie eine zweite Funktion: Sie setzt den Rahmen des Gesprächs. Mit einer Marke, die «Niacinamid 5 %» geschrieben hat, lässt sich unmittelbar über Rezeptur, Äquivalente und Marktanpassung sprechen. Bei «mit Niacinamid» beginnt das Gespräch damit, überhaupt herauszufinden, was drin ist."
+            ]
+          },
+          {
+            "h": "Prozent und ppm sind dieselbe Zahl, zweimal geschrieben",
+            "p": [
+              "Ein Prozent entspricht zehntausend ppm. Niacinamid zu 5 % sind 50.000 ppm; Natriumhyaluronat zu 0,5 % sind in dieser Rezeptur 5.008 ppm. Die zweite Schreibweise lohnt sich dort, wo ein Wirkstoff wenig wiegt, aber viel kostet: «0,0015 %» liest sich sperrig, «15.000 ppm» klar.",
+              "aoi setzt das konsequent um. Lumi Drop nennt Niacinamid 5 % und Reiskleiewasser 41 %; Regen Drop Sodium DNA 1,5 % und Ginsengwurzelwasser 42 %; Hydra Drop Natriumhyaluronat 0,5 % und Camellia-sinensis-Wasser 45 %. Die erste Zahl trägt die Wirkung, die zweite zeigt, worauf die Basis aufgebaut ist."
+            ]
+          },
+          {
+            "h": "Ein Irritationsindex von 0,00 — was er ist und was nicht",
+            "p": [
+              "Der Irritationsindex stammt aus einem okklusiven Patch-Test: Das Produkt wird unter Okklusion aufgetragen, meist vierundzwanzig Stunden, danach bewertet ein Arzt die Reaktion auf einer Skala. Null bedeutet, dass bei keinem Teilnehmer eine Reaktion erfasst wurde. Alle drei aoi-Ampullen nennen einen Index von 0,00 aus Prüfungen des Korea Institute of Dermatological Sciences, November 2025.",
+              "Was er nicht bedeutet: Er ist kein Wirksamkeitsnachweis und ersetzt kein Zertifikat. Er prüft Verträglichkeit, nicht Ergebnis. In Märkten, die auf Aussagen für empfindliche Haut achten — allen voran der Apothekenhandel —, hat er dennoch Gewicht."
+            ]
+          },
+          {
+            "h": "Was man den Lieferanten fragt",
+            "p": [
+              "Erstens, ob der Bericht auf Papier existiert und für welche Produkte er ausgestellt wurde: Geprüft wird je Produkt, nicht je Marke. Zweitens, wie viele Probanden teilnahmen und nach welcher Methode bewertet wurde. Drittens, ob die Rezeptur im Bericht mit der aktuellen Charge übereinstimmt, denn sie kann nach der Prüfung überarbeitet worden sein.",
+              "Und eine eigene Frage zu Konzentrationen: Ist die genannte Zahl der Anteil des Wirkstoffs selbst oder der Anteil der Lösung, in der er geliefert wird? Das ist die häufigste Ursache für Abweichungen zwischen Verpackung und Spezifikation."
+            ]
+          },
+          {
+            "h": "Quellen",
+            "p": [
+              "Erstellt auf Grundlage der von Red Purple Blue Co., Ltd (Marke aoi) bereitgestellten und mit schriftlicher Zustimmung für die Darstellung auf der Plattform Teranova Group veröffentlichten Angaben. Genannte Eigenschaften, Rezepturen und Konzentrationen folgen den Angaben des Unternehmens."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Des pourcentages sur le flacon : comment un acheteur lit une ampoule coréenne",
+        "excerpt": "La marque coréenne aoi imprime la concentration des actifs sur l'emballage lui-même, en pourcentage et en ppm. Ce qu'il y a derrière, ce que signifie un indice d'irritation de 0,00 et quoi demander au fournisseur.",
+        "seoTitle": "Lire les concentrations d'actifs en cosmétique coréenne · Teranova",
+        "seoDesc": "Ce que signifient pourcentage et ppm sur une ampoule coréenne, comment lire un indice d'irritation de 0,00 et quoi demander au fournisseur. Avec la série Drop d'aoi en exemple.",
+        "sections": [
+          {
+            "p": [
+              "La plupart des marques impriment le nom d'un actif et taisent sa quantité. L'acheteur lit « à la niacinamide » sans savoir s'il s'agit de cinq pour cent ou d'un demi — et l'écart entre ces deux chiffres est l'écart entre un produit qui agit et un argument de vente.",
+              "La marque coréenne aoi, de la société Red Purple Blue, a fait l'inverse : elle imprime la concentration de l'actif principal sur le flacon, en pourcentage et en ppm à la fois. Cela en fait un cas commode pour comprendre ce que ces chiffres veulent vraiment dire."
+            ]
+          },
+          {
+            "h": "Pourquoi la concentration est rarement imprimée",
+            "p": [
+              "Annoncer une concentration n'a pas d'intérêt quand elle est basse et devient risqué quand elle est élevée : le fabricant prend un engagement qu'un laboratoire peut vérifier. On s'en tient donc le plus souvent à l'INCI, où les ingrédients apparaissent par ordre décroissant, mais sans chiffres.",
+              "Lorsque le chiffre est donné, il prend une seconde fonction : il fixe le cadre de la conversation. Avec une marque qui a écrit « niacinamide 5 % », on parle tout de suite formule, équivalents et adaptation au marché. Avec « à la niacinamide », la conversation commence par découvrir ce qu'il y a à l'intérieur."
+            ]
+          },
+          {
+            "h": "Pourcentage et ppm, c'est la même chose écrite deux fois",
+            "p": [
+              "Un pour cent équivaut à dix mille ppm. La niacinamide à 5 % fait 50 000 ppm ; l'hyaluronate de sodium à 0,5 % fait 5 008 ppm dans cette formule. La seconde notation prend son sens quand un actif pèse peu mais coûte cher : « 0,0015 % » se lit mal, « 15 000 ppm » se lit clairement.",
+              "aoi l'applique avec constance. Lumi Drop annonce niacinamide 5 % et eau de son de riz 41 % ; Regen Drop, Sodium DNA 1,5 % et eau de racine de ginseng 42 % ; Hydra Drop, hyaluronate de sodium 0,5 % et eau de camellia sinensis 45 %. Le premier chiffre porte l'action, le second dit sur quoi la base est bâtie."
+            ]
+          },
+          {
+            "h": "Un indice d'irritation de 0,00 : ce que c'est et ce que ce n'est pas",
+            "p": [
+              "L'indice d'irritation vient d'un patch test occlusif : le produit est appliqué sous occlusion, en général vingt-quatre heures, puis un médecin cote la réaction sur une échelle. Zéro signifie qu'aucune réaction n'a été relevée chez aucun participant. Les trois ampoules d'aoi annoncent un indice de 0,00 d'après les essais de l'Institut coréen des sciences dermatologiques, novembre 2025.",
+              "Ce que cela ne signifie pas : ce n'est pas une preuve d'efficacité et cela ne remplace pas un certificat. C'est un test de tolérance, pas de résultat. Il pèse en revanche sur les marchés attentifs aux allégations pour peaux réactives, la pharmacie en tête."
+            ]
+          },
+          {
+            "h": "Quoi demander au fournisseur",
+            "p": [
+              "D'abord, si le rapport existe sur papier et pour quels produits il a été émis : l'essai se fait par produit, pas par marque. Ensuite, combien de participants et selon quelle méthode la cotation a été faite. Enfin, si la formule du rapport correspond à celle du lot actuel, car elle a pu être révisée depuis l'essai.",
+              "Et une question à part sur les concentrations : le chiffre annoncé est-il la part de l'actif lui-même ou celle de la solution dans laquelle il est fourni ? C'est la cause la plus fréquente d'écart entre l'emballage et la fiche technique."
+            ]
+          },
+          {
+            "h": "Sources",
+            "p": [
+              "Réalisé à partir des données fournies par Red Purple Blue Co., Ltd (marque aoi) et publiées avec son accord écrit pour la présentation sur la plateforme Teranova Group. Les propriétés, formules et concentrations annoncées reprennent les informations de l'entreprise."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Şişedeki yüzdeler: bir alıcı Kore ampulünü nasıl okur",
+        "excerpt": "Kore markası aoi, etken madde oranlarını ambalajın üzerine yüzde ve ppm olarak basıyor. Bunun arkasında ne var, 0,00 tahriş indeksi ne anlama gelir ve tedarikçiye ne sorulur.",
+        "seoTitle": "Kore kozmetiğinde etken madde oranları nasıl okunur · Teranova",
+        "seoDesc": "Kore ampulündeki yüzde ve ppm ne demek, 0,00 tahriş indeksi nasıl okunur, tedarikçiye hangi sorular sorulur. aoi'nin Drop serisi üzerinden.",
+        "sections": [
+          {
+            "p": [
+              "Markaların çoğu etken maddenin adını yazar, miktarını söylemez. Alıcı «niasinamid içerir» ibaresini görür ama bunun yüzde beş mi yoksa yüzde yarım mı olduğunu bilemez. Bu iki sayı arasındaki fark, işe yarayan ürünle satış argümanı arasındaki farktır.",
+              "Red Purple Blue'nun ürettiği Kore markası aoi tersini yaptı: ana etken maddenin oranını yüzde ve ppm olarak aynı anda şişenin üzerine basıyor. Bu da bu sayıların gerçekte ne anlattığını çözmek için elverişli bir örnek yaratıyor."
+            ]
+          },
+          {
+            "h": "Oranlar neden nadiren yazılır",
+            "p": [
+              "Oran düşükse yazmanın anlamı yoktur, yüksekse yazmak risklidir: üretici, laboratuvarın doğrulayabileceği bir taahhüdün altına girer. Bu yüzden çoğunlukla, bileşenlerin azalan sırayla ama sayısız listelendiği INCI'de durulur.",
+              "Sayı yine de yazıldığında ikinci bir işlev kazanır: konuşmanın çerçevesini kurar. «Niasinamid %5» yazan bir markayla formülü, muadilleri ve pazara uyarlamayı doğrudan konuşabilirsiniz. Sadece «niasinamid içerir» yazan bir markayla konuşma, içeride ne olduğunu öğrenmekle başlar."
+            ]
+          },
+          {
+            "h": "Yüzde ile ppm aynı değerin iki yazımıdır",
+            "p": [
+              "Yüzde bir, on bin ppm'e eşittir. %5 niasinamid 50.000 ppm'dir; o formülde %0,5 sodyum hyaluronat 5.008 ppm'dir. İkinci yazım, ağırlıkça az ama pahalı etken maddelerde işe yarar: «%0,0015» okumayı zorlaştırır, «15.000 ppm» ise nettir.",
+              "aoi bunu tutarlı biçimde uyguluyor. Lumi Drop niasinamid %5 ve pirinç kepeği suyu %41; Regen Drop Sodium DNA %1,5 ve ginseng kökü suyu %42; Hydra Drop sodyum hyaluronat %0,5 ve camellia sinensis suyu %45 belirtiyor. İlk sayı etkiyi taşır, ikincisi tabanın neye kurulduğunu gösterir."
+            ]
+          },
+          {
+            "h": "0,00 tahriş indeksi nedir, ne değildir",
+            "p": [
+              "Tahriş indeksi kapalı yama testinden gelir: ürün genellikle yirmi dört saat kapalı biçimde uygulanır, ardından bir hekim tepkiyi ölçekle derecelendirir. Sıfır, hiçbir katılımcıda tepki kaydedilmediği anlamına gelir. aoi'nin üç ampulü de Kore Dermatoloji Bilimleri Enstitüsü testlerinde 0,00 belirtiyor (Kasım 2025).",
+              "Ne anlama gelmediği de açık: etkinliğin kanıtı değildir ve sertifika yerine geçmez. Sonucu değil, tolere edilebilirliği ölçen bir testtir. Yine de hassas cilde yönelik iddiaların önemsendiği pazarlarda, özellikle eczane kanalında ağırlığı vardır."
+            ]
+          },
+          {
+            "h": "Tedarikçiye ne sorulur",
+            "p": [
+              "Birincisi, raporun yazılı olarak var olup olmadığı ve hangi ürünler için düzenlendiği: test marka için değil, ürün için yapılır. İkincisi, kaç katılımcı olduğu ve hangi yöntemle derecelendirildiği. Üçüncüsü, rapordaki formülün mevcut partinin formülüyle aynı olup olmadığı; testten sonra formül güncellenmiş olabilir.",
+              "Oranlar için ayrı bir soru daha: yazılan değer etken maddenin kendi oranı mı, yoksa tedarik edildiği çözeltinin oranı mı? Ambalaj ile spesifikasyon arasındaki uyuşmazlıkların en sık nedeni budur."
+            ]
+          },
+          {
+            "h": "Kaynaklar",
+            "p": [
+              "Bu içerik, aoi markasının sahibi Red Purple Blue Co., Ltd tarafından sağlanan ve Teranova Group platformunda sunulmak üzere yazılı onayıyla yayımlanan bilgilere dayanılarak hazırlanmıştır. Belirtilen özellikler, formüller ve oranlar şirketin verdiği bilgilere göredir."
+            ]
+          }
+        ]
+      }
+    }
   }
 ]
