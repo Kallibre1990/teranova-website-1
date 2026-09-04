@@ -74,7 +74,7 @@
       "Balmın aksesuarı olarak telefon tutucusu",
       "Hediye setleri ve mevsimlik teşhir düzenleri"
     ],
-    "exportNote": "Şirket yurt dışı dağıtımını genişletiyor ve 26 Ağustos 2026 tarihli mektubunda Güney Amerika'ya ilgisini doğrudan belirtti. Bugün hangi ülkelere ihracat yaptığını bize söylemedi, bu yüzden burada hiçbirini saymıyoruz. Teranova Latin Amerika ve Kuzey Amerika'da çalışıyor ve marka için anahtarlık biçiminin uzun açıklama olmadan hemen anlaşıldığı ülkeleri ve kanalları arıyor.",
+    "exportNote": "Şirket yurt dışı dağıtımını genişletiyor ve 26 Ağustos 2026 tarihli mektubunda Güney Amerika'ya ilgisini doğrudan belirtti. Mevcut ihracat pazarları netleştiriliyor. Teranova Latin Amerika ve Kuzey Amerika'da çalışıyor ve marka için anahtarlık biçiminin uzun açıklama olmadan hemen anlaşıldığı ülkeleri ve kanalları arıyor.",
     "terms": [
       {
         "label": "İş birliği biçimleri",
@@ -90,7 +90,7 @@
       },
       {
         "label": "Asgari sipariş",
-        "value": "Asgari parti miktarı henüz bildirilmedi; belirli bir ürün listesi için TeamPass'ten talep ediyoruz."
+        "value": "Asgari parti miktarı, belirli bir ürün listesi için şirketle netleştiriliyor."
       },
       {
         "label": "Süreç nasıl işler",
@@ -133,7 +133,7 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Bildirilen işaretler",
-    "certs_note": "İşaretler şirketin kendi materyallerinden alındı: vegan formül, EWG Green derecesi ve dermatolojik test. Rapor kopyaları bize gönderilmediği için işaretler şirketin beyanı olarak veriliyor.",
+    "certs_note": "İşaretler şirketin kendi materyallerinden alındı: vegan formül, EWG Green derecesi ve dermatolojik test. Şirket tarafından beyan edilmiştir; destekleyici belgelerin kopyaları işlem aşamasında sağlanır.",
     "gallery_h": "Nasıl taşınıyor",
     "gallery_note": "Ürün fotoğrafları TeamPass tarafından sağlandı. Anahtarlık biçiminin ne işe yaradığını gösteriyorlar: balm çantanın dibinde kalmak yerine kulaklık ve gözlüğün yanında asılı duruyor. Bunlar şirketin kendi materyalleri, bizim fabrika ziyaretimiz değil: tedarikçi durumu «Bilgi şirket tarafından sağlandı»."
   }

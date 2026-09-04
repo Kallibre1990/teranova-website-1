@@ -68,7 +68,7 @@
       },
       {
         "label": "Minimum sipariş",
-        "value": "Fiyat listesine göre minimum sipariş birimi SKU başına bir kolidir; palet ile sipariş için ayrı bir fiyat öngörülmüştür. İlk siparişin genel MOQ'su ayrıca teyit edilmemiş olup işlem aşamasında netleştirilir."
+        "value": "Fiyat listesine göre minimum sipariş birimi SKU başına bir kolidir; palet ile sipariş için ayrı bir fiyat öngörülmüştür. İlk siparişin genel MOQ'su işlem aşamasında netleştirilir."
       },
       {
         "label": "Fiyatlar",

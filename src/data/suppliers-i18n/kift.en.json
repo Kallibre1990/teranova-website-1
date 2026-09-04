@@ -68,7 +68,7 @@
       },
       {
         "label": "Minimum order",
-        "value": "The minimum order unit per the price list is one case per SKU; a separate price is set for pallet orders. The overall MOQ for a first order is not separately confirmed and is clarified at the deal stage."
+        "value": "The minimum order unit per the price list is one case per SKU; a separate price is set for pallet orders. The overall MOQ for a first order is clarified at the deal stage."
       },
       {
         "label": "Prices",
