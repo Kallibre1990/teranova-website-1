@@ -339,6 +339,16 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* noPrice: розничные цены из бренд-бука (30 000 ₩ за ампулу) — внутрикорейские,
+       публиковать их как экспортные нельзя. Вопрос о публикации экспортного прайса
+       задан компании 05.09.2026 по правилу R-022; до её ответа прайс-PDF не собираем. */
+    id: 'aoi', json: 'aoi', supplier: 'Red Purple Blue Co., Ltd', brand: 'aoi',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#6E4256', sky: '#D96A93', bg: '#FDF5F8', line: '#F2DDE6' },
+    pres: true,
+    certs: ['0,00'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

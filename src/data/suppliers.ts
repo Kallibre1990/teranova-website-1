@@ -1790,7 +1790,14 @@ export const suppliers: SupplierProfile[] = [
        24 часа, ноябрь 2025. Копии протоколов у нас пока нет, поэтому подпись
        под знаком говорит «по результатам испытаний», а не «копии у нас». */
     certs: ['0,00'],
-    /* termsFile и presFile нет: PDF по этому поставщику ещё не собраны. */
+    /* priceFile нет: розничные цены из бренд-бука внутрикорейские, а вопрос о
+       публикации экспортного прайса задан компании 05.09.2026 по R-022. */
+    termsFile: {
+      ru: '/docs/aoi-terms-ru.pdf', en: '/docs/aoi-terms-en.pdf', ko: '/docs/aoi-terms-ko.pdf', zh: '/docs/aoi-terms-zh.pdf', ja: '/docs/aoi-terms-ja.pdf', it: '/docs/aoi-terms-it.pdf', de: '/docs/aoi-terms-de.pdf', fr: '/docs/aoi-terms-fr.pdf', tr: '/docs/aoi-terms-tr.pdf', es: '/docs/aoi-terms-es.pdf', pt: '/docs/aoi-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/aoi-presentation-ru.pdf', en: '/docs/aoi-presentation-en.pdf', ko: '/docs/aoi-presentation-ko.pdf', zh: '/docs/aoi-presentation-zh.pdf', ja: '/docs/aoi-presentation-ja.pdf', it: '/docs/aoi-presentation-it.pdf', de: '/docs/aoi-presentation-de.pdf', fr: '/docs/aoi-presentation-fr.pdf', tr: '/docs/aoi-presentation-tr.pdf', es: '/docs/aoi-presentation-es.pdf', pt: '/docs/aoi-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(aoiRu as any), en: mk(aoiEn as any), ko: mk(aoiKo as any), zh: mk(aoiZh as any),
       ja: mk(aoiJa as any), it: mk(aoiIt as any), de: mk(aoiDe as any), fr: mk(aoiFr as any),
