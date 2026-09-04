@@ -1,0 +1,20 @@
+---
+/* Профиль поставщика: skinroom (язык по умолчанию, ru). SkinRoom Co., Ltd. ведёт
+   два разных предложения двум разным покупателям, поэтому у компании две
+   страницы: бренд MAOOM для дистрибьюторов и OBM-производство для тех, кто
+   хочет свою марку. Опубликовано по письменному согласию компании от
+   31.08.2026. Оптовые цены не публикуются по её прямой просьбе. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('skinroom')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

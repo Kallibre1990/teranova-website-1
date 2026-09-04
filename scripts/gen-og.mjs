@@ -100,6 +100,8 @@ const SUPPLIERS = {
   aberede: { eyebrow: 'Supplier profile', title: 'ABEREDE by Lubedecacorn Global — Korean vegan derma-cosmetics', accent: '#CE3A32' },
   hanscos: { eyebrow: 'Supplier profile', title: 'HANSCOS — Korean OEM/ODM cosmetics plant with in-house packaging', accent: '#4E8299' },
   joycos: { eyebrow: 'Supplier profile', title: 'Joycos — black ginseng, honey and make-up from Seoul', accent: '#A9793A' },
+  maoom: { eyebrow: 'Supplier profile', title: 'MAOOM — Korean NAD skincare with a result in one use', accent: '#E2231A' },
+  skinroom: { eyebrow: 'Supplier profile', title: 'SkinRoom — Korean OBM studio: your own brand in 90 days', accent: '#C9A227' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

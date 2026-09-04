@@ -46,6 +46,28 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import maoomRu from './suppliers-i18n/maoom.ru.json';
+import maoomEn from './suppliers-i18n/maoom.en.json';
+import maoomKo from './suppliers-i18n/maoom.ko.json';
+import maoomZh from './suppliers-i18n/maoom.zh.json';
+import maoomJa from './suppliers-i18n/maoom.ja.json';
+import maoomIt from './suppliers-i18n/maoom.it.json';
+import maoomDe from './suppliers-i18n/maoom.de.json';
+import maoomFr from './suppliers-i18n/maoom.fr.json';
+import maoomTr from './suppliers-i18n/maoom.tr.json';
+import maoomEs from './suppliers-i18n/maoom.es.json';
+import maoomPt from './suppliers-i18n/maoom.pt.json';
+import skinroomRu from './suppliers-i18n/skinroom.ru.json';
+import skinroomEn from './suppliers-i18n/skinroom.en.json';
+import skinroomKo from './suppliers-i18n/skinroom.ko.json';
+import skinroomZh from './suppliers-i18n/skinroom.zh.json';
+import skinroomJa from './suppliers-i18n/skinroom.ja.json';
+import skinroomIt from './suppliers-i18n/skinroom.it.json';
+import skinroomDe from './suppliers-i18n/skinroom.de.json';
+import skinroomFr from './suppliers-i18n/skinroom.fr.json';
+import skinroomTr from './suppliers-i18n/skinroom.tr.json';
+import skinroomEs from './suppliers-i18n/skinroom.es.json';
+import skinroomPt from './suppliers-i18n/skinroom.pt.json';
 import joycosRu from './suppliers-i18n/joycos.ru.json';
 import joycosEn from './suppliers-i18n/joycos.en.json';
 import joycosKo from './suppliers-i18n/joycos.ko.json';
@@ -1382,6 +1404,87 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(hanscosTr as any),
       es: mk(hanscosEs as any),
       pt: mk(hanscosPt as any),
+    },
+  },
+{
+    slug: 'maoom',
+    category: 'cosmetics',
+    country: 'kr',
+    /* Заголовком идёт бренд: покупатель ищет MAOOM, а не юрлицо. Юрлицо
+       SkinRoom Co., Ltd. названо в тексте профиля и на второй странице. */
+    name: 'MAOOM',
+    brand: 'MAOOM by SkinRoom',
+    status: 'provided',
+    /* Гамма взята с их же пакшотов: серебристый тюбик, алый логотип, почти белый
+       фон. Свою сине-бирюзовую версию убрал после того, как увидел упаковку. */
+    brandColors: { deep: '#1a1a1c', sky: '#6e7176', accent: '#e2231a', bg: '#f4f4f4' },
+    voice: 'clinical',
+    /* Знаков не ставим. Нотификации CPNP у нас на руках, но это уведомление, а не
+       сертификат; клинические испытания по glAHAssy заявлены компанией, отчётов нет.
+       Всё идёт текстом с указанием источника. */
+    certs: [],
+    /* Прайса нет: компания прямо попросила не публиковать оптовые цены (31.08.2026). */
+    gallery: [
+      '/img/suppliers/maoom/gallery/skin-boosting-toner-150ml.jpg',
+      '/img/suppliers/maoom/gallery/skin-boosting-serum-50ml.jpg',
+      '/img/suppliers/maoom/gallery/skin-boosting-cream-50ml.jpg',
+      '/img/suppliers/maoom/gallery/therma-v-serum-20ml.jpg',
+      '/img/suppliers/maoom/gallery/refit-mask-100ml.jpg',
+      '/img/suppliers/maoom/gallery/glahassy-3-cream-50ml.jpg',
+      '/img/suppliers/maoom/gallery/perfect-radiance-cushion-mainrefill.jpg',
+    ],
+    termsFile: {
+      ru: '/docs/maoom-terms-ru.pdf', en: '/docs/maoom-terms-en.pdf', ko: '/docs/maoom-terms-ko.pdf', zh: '/docs/maoom-terms-zh.pdf', ja: '/docs/maoom-terms-ja.pdf', it: '/docs/maoom-terms-it.pdf', de: '/docs/maoom-terms-de.pdf', fr: '/docs/maoom-terms-fr.pdf', tr: '/docs/maoom-terms-tr.pdf', es: '/docs/maoom-terms-es.pdf', pt: '/docs/maoom-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/maoom-presentation-ru.pdf', en: '/docs/maoom-presentation-en.pdf', ko: '/docs/maoom-presentation-ko.pdf', zh: '/docs/maoom-presentation-zh.pdf', ja: '/docs/maoom-presentation-ja.pdf', it: '/docs/maoom-presentation-it.pdf', de: '/docs/maoom-presentation-de.pdf', fr: '/docs/maoom-presentation-fr.pdf', tr: '/docs/maoom-presentation-tr.pdf', es: '/docs/maoom-presentation-es.pdf', pt: '/docs/maoom-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(maoomRu as any),
+      en: mk(maoomEn as any),
+      ko: mk(maoomKo as any),
+      zh: mk(maoomZh as any),
+      ja: mk(maoomJa as any),
+      it: mk(maoomIt as any),
+      de: mk(maoomDe as any),
+      fr: mk(maoomFr as any),
+      tr: mk(maoomTr as any),
+      es: mk(maoomEs as any),
+      pt: mk(maoomPt as any),
+    },
+  },
+{
+    slug: 'skinroom',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'SkinRoom Co., Ltd.',
+    brand: 'OBM — разработка марок под ключ',
+    status: 'provided',
+    /* Тёплый графит и латунь: студия, а не лаборатория. Отстраиваем от страницы
+       MAOOM, чтобы два профиля одной компании не читались как одна страница. */
+    brandColors: { deep: '#231f1c', sky: '#6b5a48', accent: '#c9a227', bg: '#f7f4ef' },
+    voice: 'premium',
+    certs: [],
+    /* Прайс-листа у этого направления нет по природе услуги: расчёт под проект. */
+    gallery: [],
+    termsFile: {
+      ru: '/docs/skinroom-terms-ru.pdf', en: '/docs/skinroom-terms-en.pdf', ko: '/docs/skinroom-terms-ko.pdf', zh: '/docs/skinroom-terms-zh.pdf', ja: '/docs/skinroom-terms-ja.pdf', it: '/docs/skinroom-terms-it.pdf', de: '/docs/skinroom-terms-de.pdf', fr: '/docs/skinroom-terms-fr.pdf', tr: '/docs/skinroom-terms-tr.pdf', es: '/docs/skinroom-terms-es.pdf', pt: '/docs/skinroom-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/skinroom-presentation-ru.pdf', en: '/docs/skinroom-presentation-en.pdf', ko: '/docs/skinroom-presentation-ko.pdf', zh: '/docs/skinroom-presentation-zh.pdf', ja: '/docs/skinroom-presentation-ja.pdf', it: '/docs/skinroom-presentation-it.pdf', de: '/docs/skinroom-presentation-de.pdf', fr: '/docs/skinroom-presentation-fr.pdf', tr: '/docs/skinroom-presentation-tr.pdf', es: '/docs/skinroom-presentation-es.pdf', pt: '/docs/skinroom-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(skinroomRu as any),
+      en: mk(skinroomEn as any),
+      ko: mk(skinroomKo as any),
+      zh: mk(skinroomZh as any),
+      ja: mk(skinroomJa as any),
+      it: mk(skinroomIt as any),
+      de: mk(skinroomDe as any),
+      fr: mk(skinroomFr as any),
+      tr: mk(skinroomTr as any),
+      es: mk(skinroomEs as any),
+      pt: mk(skinroomPt as any),
     },
   },
 {

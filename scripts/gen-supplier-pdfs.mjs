@@ -319,6 +319,26 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* noPrice: SkinRoom 31.08.2026 письменно попросила не публиковать оптовые цены —
+       описание бренда и продуктов публиковать разрешила, прайс-листы нет. */
+    id: 'maoom', json: 'maoom', supplier: 'SkinRoom Co., Ltd.', brand: 'MAOOM',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#1A1A1C', sky: '#6E7176', bg: '#F4F4F4', line: '#E2E2E2' },
+    pres: true,
+    /* Знаков не ставим: CPNP — это уведомление, а не сертификат, и клинические
+       испытания заявлены компанией без переданных отчётов. Всё идёт текстом. */
+    certs: [],
+  },
+  {
+    /* noPrice: у направления OBM прайс-листа нет по природе услуги — расчёт делается
+       под конкретный проект, объём и упаковку. */
+    id: 'skinroom', json: 'skinroom', supplier: 'SkinRoom Co., Ltd.', brand: 'OBM — разработка марок под ключ',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#231F1C', sky: '#6B5A48', bg: '#F7F4EF', line: '#E8E0D4' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
