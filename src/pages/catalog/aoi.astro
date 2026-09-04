@@ -1,0 +1,22 @@
+---
+/* Supplier profile: aoi (default locale, ru). aoi by Red Purple Blue Co., Ltd —
+   published on the company's written consent of 2 September 2026. Retail prices
+   from the brand deck (30,000 KRW per ampoule) are Korean domestic prices and are
+   not published: the page shows "price on request" until the company decides
+   whether its export price list may be shown. Exhibition-stand and portrait
+   frames from the deck are left out until image rights for the people shown are
+   confirmed in writing. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('aoi')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

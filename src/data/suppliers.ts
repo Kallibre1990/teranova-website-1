@@ -138,6 +138,18 @@ import abTr from './suppliers-i18n/aberede.tr.json';
 import abEs from './suppliers-i18n/aberede.es.json';
 import abPt from './suppliers-i18n/aberede.pt.json';
 import abCatalog from './suppliers-i18n/aberede.catalog.json';
+import aoiRu from './suppliers-i18n/aoi.ru.json';
+import aoiEn from './suppliers-i18n/aoi.en.json';
+import aoiKo from './suppliers-i18n/aoi.ko.json';
+import aoiZh from './suppliers-i18n/aoi.zh.json';
+import aoiJa from './suppliers-i18n/aoi.ja.json';
+import aoiIt from './suppliers-i18n/aoi.it.json';
+import aoiDe from './suppliers-i18n/aoi.de.json';
+import aoiFr from './suppliers-i18n/aoi.fr.json';
+import aoiTr from './suppliers-i18n/aoi.tr.json';
+import aoiEs from './suppliers-i18n/aoi.es.json';
+import aoiPt from './suppliers-i18n/aoi.pt.json';
+import aoiCatalog from './suppliers-i18n/aoi.catalog.json';
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1750,6 +1762,39 @@ export const suppliers: SupplierProfile[] = [
       ru: mk(abRu as any), en: mk(abEn as any), ko: mk(abKo as any), zh: mk(abZh as any),
       ja: mk(abJa as any), it: mk(abIt as any), de: mk(abDe as any), fr: mk(abFr as any),
       tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any),
+    },
+  },
+  {
+    slug: 'aoi',
+    category: 'cosmetics',
+    name: 'Red Purple Blue Co., Ltd',
+    brand: 'aoi',
+    status: 'provided',
+    /* Пудровый розовый бренд-бука и тёмная слива подписей на их же макетах. */
+    brandColors: { deep: '#6E4256', sky: '#F2C6D6', accent: '#D96A93', bg: '#FDF5F8' },
+    /* Бренд объясняется процентами активов и протоколами испытаний — подача лабораторная. */
+    voice: 'clinical',
+    catalog: aoiCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    /* Кадры продукции из бренд-бука компании. Съёмку со стенда Сеульской недели
+       красоты и портретные кадры не берём: права на изображения людей письмом
+       не подтверждены — тот же подход, что и у ABEREDE. */
+    gallery: [
+      '/img/suppliers/aoi/gallery/drop-series-three.jpg',
+      '/img/suppliers/aoi/gallery/lumi-drop-rice.jpg',
+      '/img/suppliers/aoi/gallery/regen-drop-ginseng.jpg',
+      '/img/suppliers/aoi/gallery/hydra-drop-green-tea.jpg',
+      '/img/suppliers/aoi/gallery/drop-series-stack.jpg',
+    ],
+    /* 0,00 — индекс раздражения по трём продуктам серии Drop из бренд-бука
+       компании: Корейский институт дерматологических наук, закрытый патч-тест
+       24 часа, ноябрь 2025. Копии протоколов у нас пока нет, поэтому подпись
+       под знаком говорит «по результатам испытаний», а не «копии у нас». */
+    certs: ['0,00'],
+    /* termsFile и presFile нет: PDF по этому поставщику ещё не собраны. */
+    i18n: {
+      ru: mk(aoiRu as any), en: mk(aoiEn as any), ko: mk(aoiKo as any), zh: mk(aoiZh as any),
+      ja: mk(aoiJa as any), it: mk(aoiIt as any), de: mk(aoiDe as any), fr: mk(aoiFr as any),
+      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any),
     },
   },
 ];

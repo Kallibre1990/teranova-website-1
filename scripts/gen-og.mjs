@@ -98,6 +98,7 @@ const SUPPLIERS = {
   loobee: { eyebrow: 'Supplier profile', title: 'LOOBEE by SEUNGGUN COSMETICS — Korean vegan skincare', accent: '#3e9b72' },
   'slow-lounge': { eyebrow: 'Supplier profile', title: 'SLOW LOUNGE by TeamPass — Korean hand, body and lip care', accent: '#B8823C' },
   aberede: { eyebrow: 'Supplier profile', title: 'ABEREDE by Lubedecacorn Global — Korean vegan derma-cosmetics', accent: '#CE3A32' },
+  aoi: { eyebrow: 'Supplier profile', title: 'aoi by Red Purple Blue — Korean skincare with concentrations shown openly', accent: '#D96A93' },
   hanscos: { eyebrow: 'Supplier profile', title: 'HANSCOS — Korean OEM/ODM cosmetics plant with in-house packaging', accent: '#4E8299' },
   joycos: { eyebrow: 'Supplier profile', title: 'Joycos — black ginseng, honey and make-up from Seoul', accent: '#A9793A' },
   maoom: { eyebrow: 'Supplier profile', title: 'MAOOM — Korean NAD skincare with a result in one use', accent: '#E2231A' },
