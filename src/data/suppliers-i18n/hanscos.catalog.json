@@ -1,0 +1,60 @@
+[
+  {
+    "line": "HANS LABELLE — Boosting and Gift Sets",
+    "items": [
+      { "name": "SC Empress Cream Set" },
+      { "name": "SC Anti-Wrinkle Boosting Set" },
+      { "name": "SC Ultra Lifting Boosting Set" },
+      { "name": "SC Whitening Boosting Set" },
+      { "name": "SC A-Clear Boosting Set" },
+      { "name": "SC Dual Ultra Calming Boosting Set" },
+      { "name": "Special Kit" },
+      { "name": "Travel Kit" }
+    ]
+  },
+  {
+    "line": "HANS LABELLE — Skincare",
+    "items": [
+      { "name": "SC Pink Snow Calming Ampoule Mist" },
+      { "name": "SC Green Mild Sun Cream", "certs": ["SPF50+ PA++++"] },
+      { "name": "SC Enzyme All-in-One Powder Wash" },
+      { "name": "SC Wash-Off Pack" },
+      { "name": "SC Madecaming Sensitive Cream" },
+      { "name": "SC Blue Azulene Chamomile Toner Pad" },
+      { "name": "SC Wrinkle Spot Retinal Cream" },
+      { "name": "SC Dark Spot Blemish Cream" },
+      { "name": "SC Moisturizing Ampoule Mask" },
+      { "name": "SC Man All-in-One Ampoule Serum" },
+      { "name": "SC Daily Balance BB Cream" },
+      { "name": "Glow Fit Moistone Cushion", "certs": ["SPF50+ PA++++"] }
+    ]
+  },
+  {
+    "line": "HANS LABELLE — Body, Hair and Home",
+    "items": [
+      { "name": "S-Style Body Wash & Body Cream Set" },
+      { "name": "Essential Repair Shampoo & Rinse" },
+      { "name": "S-Style Perfume Power Body Cream" },
+      { "name": "S-Style Secret Y-Zone Serum" },
+      { "name": "Romantic Hand-Care Cream" },
+      { "name": "Lip Harmony Duo", "volume": "2.8 g" },
+      { "name": "Hand Wash" },
+      { "name": "Secret Garden / Belle Coco", "volume": "perfume" },
+      { "name": "Touch of Flower / Muscat Serenade", "volume": "diffuser" }
+    ]
+  },
+  {
+    "line": "FOASU — Sensitive Skin 31",
+    "items": [
+      { "name": "Pure Sphere Foam Cleansing" },
+      { "name": "Pure Sphere Blue Toner Pad" },
+      { "name": "Pure Sphere Bubble Toner" },
+      { "name": "Pure Sphere Ampoule", "volume": "35 ml" },
+      { "name": "Pure Sphere Cream" },
+      { "name": "Pure Sphere Sun Cream", "certs": ["SPF50+ PA++++"] },
+      { "name": "Pure Sphere Perfume Hair Mist" },
+      { "name": "Prestige Re:Fine All-in-One Vitamin Serum" },
+      { "name": "Prestige Re:Fine All-in-One Vitamin Capsule Cream" }
+    ]
+  }
+]

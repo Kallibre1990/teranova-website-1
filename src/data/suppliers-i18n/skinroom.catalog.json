@@ -1,0 +1,24 @@
+[
+  {
+    "line": "Own Brand",
+    "items": [
+      { "name": "maoom", "volume": "Medicosmetic · flagship", "actives": ["Skin Liposomal NAD+", "Bi-layer thermal dispersion"] }
+    ]
+  },
+  {
+    "line": "Brands Built for Clients",
+    "items": [
+      { "name": "Lullua", "volume": "Color cosmetics · Japan" },
+      { "name": "LIKE CELL", "volume": "Bio-cosmetics" },
+      { "name": "Cell Philia", "volume": "Skincare" },
+      { "name": "LOVE DES FACE", "volume": "Mask & eye patch · Hong Kong" },
+      { "name": "Oleaceae", "volume": "Fragrance · personal care" },
+      { "name": "LIV", "volume": "Freeze-dried skincare" },
+      { "name": "LAPIN Arc en ciel", "volume": "Hair & scalp care" },
+      { "name": "CHAYEON", "volume": "Green tea toner pad" },
+      { "name": "DEWBON", "volume": "Skincare & body · Cambodia" },
+      { "name": "PURE.B", "volume": "Baby & kid skincare" },
+      { "name": "O'HER", "volume": "Vitamin C ampoule" }
+    ]
+  }
+]

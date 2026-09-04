@@ -158,6 +158,26 @@ function lineShot(name: string): string | undefined {
   }
   return best?.img;
 }
+
+/* Монограмма для позиции без фотографии. Берём заглавные буквы значащих слов:
+   «TECA 95%» → «TECA», «Asiatic Acid» → «AA», «Glabridin 90%» → «G». Цифры и
+   знаки процента отбрасываем — они уже стоят в подписи под карточкой. */
+function monogram(name: string): string {
+  const words = name
+    .replace(/[®™]/g, ' ')
+    .split(/[\s/,()–—-]+/)
+    .filter((w) => w && !/^[\d.,%]+$/.test(w));
+  if (!words.length) return '·';
+  const first = words[0].replace(/[^A-Za-zÀ-ɏЀ-ӿ]/g, '');
+  /* Уже аббревиатура — берём как есть: TECA, EGCG. */
+  if (first.length >= 3 && first === first.toUpperCase()) return first.slice(0, 4);
+  /* Одно слово — три буквы: «Glabridin» → GLA. Одна буква «G» не опознаётся. */
+  if (words.length === 1) return first.slice(0, 3).toUpperCase();
+  return words
+    .slice(0, 3)
+    .map((w) => w.charAt(0).toUpperCase())
+    .join('');
+}
 ---
 
 <article class={`sp sp--${voice}`} style={brandStyle}>
@@ -349,8 +369,16 @@ function lineShot(name: string): string | undefined {
                   {grp.items.map((it, ii) => {
                     const note = c.catalog_notes?.[base + ii];
                     return (
-                      <button class="sp-prod" type="button" data-full={it.img} data-name={it.name}>
-                        <span class="sp-prod__ph"><img src={it.img} alt={it.name} loading="lazy" decoding="async" /></span>
+                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-name={it.name}>
+                        {/* Позиция без фотографии — не пустая рамка и не битая картинка,
+                            а плашка с монограммой в цветах поставщика. Нужна там, где
+                            товар физически не фотогеничен (сырьё в порошке) или снимков
+                            от поставщика ещё нет. */}
+                        <span class="sp-prod__ph">
+                          {it.img
+                            ? <img src={it.img} alt={it.name} loading="lazy" decoding="async" />
+                            : <span class="sp-prod__mono" aria-hidden="true">{monogram(it.name)}</span>}
+                        </span>
                         <span class="sp-prod__body">
                           <span class="sp-prod__nm">{it.name}{it.volume && <span class="sp-prod__vol"> · {it.volume}</span>}</span>
                           {note && <span class="sp-prod__desc">{note}</span>}
@@ -541,7 +569,12 @@ function lineShot(name: string): string | undefined {
     const cap = document.getElementById('spLbCap');
     const open = (src, name) => { img.setAttribute('src', src); img.setAttribute('alt', name || ''); cap.textContent = name || ''; lb.hidden = false; document.documentElement.style.overflow = 'hidden'; };
     const close = () => { lb.hidden = true; img.removeAttribute('src'); document.documentElement.style.overflow = ''; };
-    document.querySelectorAll('.sp-prod, .sp-visit__i').forEach((b) => b.addEventListener('click', () => open(b.getAttribute('data-full'), b.getAttribute('data-name'))));
+    /* Карточка без фотографии открывать нечего — просмотрщик к ней не цепляем. */
+    document.querySelectorAll('.sp-prod, .sp-visit__i').forEach((b) => {
+      const full = b.getAttribute('data-full');
+      if (!full) return;
+      b.addEventListener('click', () => open(full, b.getAttribute('data-name')));
+    });
     lb.querySelector('.sp-lb__x').addEventListener('click', close);
     lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !lb.hidden) close(); });
@@ -706,6 +739,10 @@ function lineShot(name: string): string | undefined {
   .sp-prod:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
   .sp-prod__ph { aspect-ratio: 1 / 1; background: #f7fafe; display: grid; place-items: center; padding: 10px; }
   .sp-prod__ph img { width: 100%; height: 100%; object-fit: contain; }
+  .sp-prod--nopic { cursor: default; }
+  .sp-prod--nopic:hover { transform: none; }
+  .sp-prod--nopic .sp-prod__ph { background: color-mix(in srgb, var(--ds-sky) 10%, #fff); }
+  .sp-prod__mono { font-size: clamp(1.1rem, 3.4vw, 1.6rem); font-weight: 800; letter-spacing: 0.06em; color: color-mix(in srgb, var(--ds-deep) 42%, #fff); user-select: none; }
   .sp-prod__body { display: flex; flex-direction: column; padding: 12px 13px 14px; }
   .sp-prod__nm { font-size: 0.84rem; font-weight: 700; color: var(--ds-deep); line-height: 1.3; }
   .sp-prod__vol { font-weight: 500; color: #7c8aa0; }

@@ -1,0 +1,64 @@
+[
+  {
+    "line": "Standardised Actives",
+    "items": [
+      { "name": "Glabridin", "volume": "40% · 90% · 95%", "actives": ["Glycyrrhiza Glabra (Licorice) Root Extract"] },
+      { "name": "Tetrahydrocurcumin", "volume": "TetraBeauty® · 95%", "actives": ["Curcuma Longa (Turmeric) Rhizome"] },
+      { "name": "Bakuchiol", "volume": "BAKUCHIpure™ · 99%", "actives": ["Psoralea Corylifolia (Babchi) Seed"] },
+      { "name": "Pongamol", "volume": "95%", "actives": ["Pongamia Pinnata (Karanja) Seed"] },
+      { "name": "Pterocarpus marsupium", "volume": "PTERObright™", "actives": ["Pterocarpus Marsupium Bark Extract", "Pterostilbene"] },
+      { "name": "Natural Caffeine", "volume": "99%", "actives": ["Caffeine"] }
+    ]
+  },
+  {
+    "line": "Centella asiatica — CENTpure®",
+    "items": [
+      { "name": "Centella asiatica extract", "volume": "CENTpure®", "certs": ["USDMF-033156"], "actives": ["Centella Asiatica Extract"] },
+      { "name": "Asiaticoside", "volume": "95%", "actives": ["Centella Asiatica Extract"] },
+      { "name": "Madecassoside", "volume": "95%", "certs": ["USDMF-040257"], "actives": ["Centella Asiatica Extract"] },
+      { "name": "Asiatic Acid", "volume": "95%", "actives": ["Centella Asiatica Extract"] },
+      { "name": "TECA", "volume": "95%", "actives": ["Asiaticoside 36–44%", "Total genins 54–66%"] },
+      { "name": "Triterpene", "volume": "95%", "actives": ["Centella Asiatica Extract"] }
+    ]
+  },
+  {
+    "line": "Green Tea — Camellia sinensis",
+    "items": [
+      { "name": "EGCG", "volume": "45%", "actives": ["Camellia Sinensis Leaf Extract"] },
+      { "name": "Catechins", "volume": "70%", "actives": ["Camellia Sinensis Leaf Extract"] },
+      { "name": "Polyphenols", "volume": "95%", "actives": ["Camellia Sinensis Leaf Extract"] }
+    ]
+  },
+  {
+    "line": "Vitamin E, Phytosterols and Rosemary",
+    "items": [
+      { "name": "Natural Mixed Tocopherols", "volume": "oil · 50% · 70% · 90%", "actives": ["Soy / Rapeseed / Sunflower"] },
+      { "name": "d-Alpha Tocopherol", "volume": "oil · 500–1300 IU", "actives": ["Soy / Sunflower"] },
+      { "name": "d-Alpha Tocopheryl Acetate", "volume": "oil · 1000–1360 IU", "actives": ["Soy / Sunflower"] },
+      { "name": "Natural-e Vitamin E TPGS", "volume": "waxy solid · 25%", "actives": ["Soy / Sunflower"] },
+      { "name": "Natural Phytosterol", "volume": "powder · 90% · 95%", "actives": ["Soy / Sunflower"] },
+      { "name": "Natural Phytosterol Esters", "volume": "liquid · 97%", "actives": ["Soy / Sunflower"] },
+      { "name": "Carnosic Acid", "volume": "oil 5–20% · powder 5–50%", "actives": ["Rosmarinus Officinalis"] },
+      { "name": "Ursolic Acid", "volume": "powder · 25–40%", "actives": ["Rosmarinus Officinalis"] },
+      { "name": "Rosmarinic Acid", "volume": "powder · 6%", "actives": ["Rosmarinus Officinalis"] },
+      { "name": "Lecithin", "volume": "liquid · powder", "actives": ["Lecithin"] }
+    ]
+  },
+  {
+    "line": "Essential and Cold-Pressed Oils",
+    "items": [
+      { "name": "Tea Tree Oil", "actives": ["Melaleuca Alternifolia Leaf Oil"] },
+      { "name": "Lavender Oil", "actives": ["Lavandula Angustifolia Oil"] },
+      { "name": "Rosemary Oil", "actives": ["Rosmarinus Officinalis Leaf Oil"] },
+      { "name": "Frankincense Oil", "actives": ["Boswellia Serrata Oil"] },
+      { "name": "Chamomile Oil", "actives": ["Chamomilla Recutita Flower Oil"] },
+      { "name": "Neem Oil", "actives": ["Azadirachta Indica Seed Oil"] },
+      { "name": "Moringa Oil", "actives": ["Moringa Oleifera Seed Oil"] },
+      { "name": "Rosehip Oil", "actives": ["Rosa Canina / Rosa Rubiginosa"] },
+      { "name": "Karanja Oil", "actives": ["Pongamia Glabra Seed Oil"] },
+      { "name": "Turmeric Oil", "actives": ["Curcuma Longa Root Oil"] },
+      { "name": "Ashwagandha Seed Oil", "actives": ["Withania Somnifera Seed Oil"] },
+      { "name": "Peppermint Oil", "actives": ["Mentha Piperita Oil"] }
+    ]
+  }
+]

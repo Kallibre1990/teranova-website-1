@@ -46,6 +46,7 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import sunpureCatalog from './suppliers-i18n/sunpure.catalog.json';
 import maoomRu from './suppliers-i18n/maoom.ru.json';
 import maoomEn from './suppliers-i18n/maoom.en.json';
 import maoomKo from './suppliers-i18n/maoom.ko.json';
@@ -57,6 +58,7 @@ import maoomFr from './suppliers-i18n/maoom.fr.json';
 import maoomTr from './suppliers-i18n/maoom.tr.json';
 import maoomEs from './suppliers-i18n/maoom.es.json';
 import maoomPt from './suppliers-i18n/maoom.pt.json';
+import maoomCatalog from './suppliers-i18n/maoom.catalog.json';
 import skinroomRu from './suppliers-i18n/skinroom.ru.json';
 import skinroomEn from './suppliers-i18n/skinroom.en.json';
 import skinroomKo from './suppliers-i18n/skinroom.ko.json';
@@ -68,6 +70,7 @@ import skinroomFr from './suppliers-i18n/skinroom.fr.json';
 import skinroomTr from './suppliers-i18n/skinroom.tr.json';
 import skinroomEs from './suppliers-i18n/skinroom.es.json';
 import skinroomPt from './suppliers-i18n/skinroom.pt.json';
+import skinroomCatalog from './suppliers-i18n/skinroom.catalog.json';
 import joycosRu from './suppliers-i18n/joycos.ru.json';
 import joycosEn from './suppliers-i18n/joycos.en.json';
 import joycosKo from './suppliers-i18n/joycos.ko.json';
@@ -79,6 +82,7 @@ import joycosFr from './suppliers-i18n/joycos.fr.json';
 import joycosTr from './suppliers-i18n/joycos.tr.json';
 import joycosEs from './suppliers-i18n/joycos.es.json';
 import joycosPt from './suppliers-i18n/joycos.pt.json';
+import joycosCatalog from './suppliers-i18n/joycos.catalog.json';
 import hanscosRu from './suppliers-i18n/hanscos.ru.json';
 import hanscosEn from './suppliers-i18n/hanscos.en.json';
 import hanscosKo from './suppliers-i18n/hanscos.ko.json';
@@ -90,6 +94,7 @@ import hanscosFr from './suppliers-i18n/hanscos.fr.json';
 import hanscosTr from './suppliers-i18n/hanscos.tr.json';
 import hanscosEs from './suppliers-i18n/hanscos.es.json';
 import hanscosPt from './suppliers-i18n/hanscos.pt.json';
+import hanscosCatalog from './suppliers-i18n/hanscos.catalog.json';
 import bioptRu from './suppliers-i18n/biopt.ru.json';
 import bioptEn from './suppliers-i18n/biopt.en.json';
 import bioptKo from './suppliers-i18n/biopt.ko.json';
@@ -404,7 +409,9 @@ export interface SupplierProfile {
      from the brand's own materials only; never a drawing (docs/IMAGERY.md). */
   lineShots?: Record<string, string>;
   /* Real product catalog grouped by line, with photos, volume, price, certs. Language-neutral. */
-  catalog?: { line: string; items: { name: string; img: string; volume?: string; price?: string; certs?: string[] }[] }[];
+  /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
+     позиции может не быть вовсе. Карточка тогда показывает монограмму. */
+  catalog?: { line: string; items: { name: string; img?: string; volume?: string; price?: string; certs?: string[]; actives?: string[] }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
@@ -1380,6 +1387,15 @@ export const suppliers: SupplierProfile[] = [
     /* Мягкий сине-серый с обложки их же портфолио. */
     brandColors: { deep: '#16394a', sky: '#4e8299', accent: '#8fbfcd', bg: '#eef4f6' },
     voice: 'clinical',
+    /* Каталог прочитан со сканов их каталога на 56 страниц: текстового слоя нет,
+       названия сняты с шапок страниц. Объёмы почти нигде не указаны намеренно —
+       в макете они стоят мелким шрифтом внутри картинки и надёжно не читаются;
+       выдумывать их нельзя, список объёмов запрошен у компании. Показаны две
+       собственные марки, HANS LABELLE и FOASU. Клиентов их OEM-подряда
+       (EVESVOLUME, REGET, GODESAN и другие из портфеля) не публикуем: портфель
+       прислан нам как документ, а не опубликован компанией, и права называть
+       её заказчиков у нас нет. */
+    catalog: hanscosCatalog,
     /* Со страницы сертификатов их портфолио: ISO 22716 подтверждён двумя
        органами, Bureau Veritas и EuroCert. CGMP компания заявляет сама,
        отдельного сертификата в материалах нет, поэтому знака ему не даём. */
@@ -1436,15 +1452,11 @@ export const suppliers: SupplierProfile[] = [
        Всё идёт текстом с указанием источника. */
     certs: [],
     /* Прайса нет: компания прямо попросила не публиковать оптовые цены (31.08.2026). */
-    gallery: [
-      '/img/suppliers/maoom/gallery/skin-boosting-toner-150ml.jpg',
-      '/img/suppliers/maoom/gallery/skin-boosting-serum-50ml.jpg',
-      '/img/suppliers/maoom/gallery/skin-boosting-cream-50ml.jpg',
-      '/img/suppliers/maoom/gallery/therma-v-serum-20ml.jpg',
-      '/img/suppliers/maoom/gallery/refit-mask-100ml.jpg',
-      '/img/suppliers/maoom/gallery/glahassy-3-cream-50ml.jpg',
-      '/img/suppliers/maoom/gallery/perfect-radiance-cushion-mainrefill.jpg',
-    ],
+    /* Каталог собран из материалов компании от 26.08.2026: наименования — как на
+       упаковке и в нотификациях CPNP, объёмы — из тех же материалов. Галерея
+       снята: она состояла из этих же семи пакшотов и теперь дублировала бы
+       каталог. */
+    catalog: maoomCatalog,
     termsFile: {
       ru: '/docs/maoom-terms-ru.pdf', en: '/docs/maoom-terms-en.pdf', ko: '/docs/maoom-terms-ko.pdf', zh: '/docs/maoom-terms-zh.pdf', ja: '/docs/maoom-terms-ja.pdf', it: '/docs/maoom-terms-it.pdf', de: '/docs/maoom-terms-de.pdf', fr: '/docs/maoom-terms-fr.pdf', tr: '/docs/maoom-terms-tr.pdf', es: '/docs/maoom-terms-es.pdf', pt: '/docs/maoom-terms-pt.pdf',
     },
@@ -1476,6 +1488,11 @@ export const suppliers: SupplierProfile[] = [
        MAOOM, чтобы два профиля одной компании не читались как одна страница. */
     brandColors: { deep: '#231f1c', sky: '#6b5a48', accent: '#c9a227', bg: '#f7f4ef' },
     voice: 'premium',
+    /* Каталог SkinRoom — не банки, а построенные марки: у OBM-студии товар
+       именно такой. Двенадцать позиций взяты из раздела PORTFOLIO на сайте
+       компании, где она публикует их сама. Фотографий нет: изображения марок
+       принадлежат их владельцам, и права на показ у нас не запрошены. */
+    catalog: skinroomCatalog,
     certs: [],
     /* Прайс-листа у этого направления нет по природе услуги: расчёт под проект. */
     gallery: [],
@@ -1509,6 +1526,14 @@ export const suppliers: SupplierProfile[] = [
     /* Тёплое золото мёда и чёрного женьшеня — гамма их же каталогов. */
     brandColors: { deep: '#4a3524', sky: '#a9793a', accent: '#e0b15f', bg: '#faf4ea' },
     voice: 'natural',
+    /* Каталог прочитан со сканов четырёх брошюр компании: текстового слоя в них
+       нет, названия и объёмы сняты со сводных страниц линеек. Объём двух позиций
+       не указан намеренно — материалы компании противоречат сами себе: у 3D
+       Powder Blusher сводная страница даёт 5 г, карточка 3,5 г; у Alaska Aqua
+       Hyaluron Serum сводная даёт 45 мл, карточка 40 мл. Вопрос задан компании.
+       Фотографии есть только у шести позиций: снимки в PDF слиты со страницей и
+       отдельными файлами не извлекаются, пакшоты запрошены. */
+    catalog: joycosCatalog,
     /* Знаков не ставим: CPNP на десять позиций, функциональная маркировка KFDA
        и веганская пометка Magic Lash заявлены компанией и видны в её каталогах.
        Всё это идёт текстом с указанием источника. */
@@ -1556,6 +1581,12 @@ export const suppliers: SupplierProfile[] = [
     /* Зелень листа и тёплое золото куркумы — гамма их собственной брошюры. */
     brandColors: { deep: '#1d4a2b', sky: '#4e9a5f', accent: '#d9a441', bg: '#eef5ee' },
     voice: 'natural',
+    /* Каталог собран по брошюре компании от 10.08.2026: наименования, степени
+       очистки и номера USDMF взяты оттуда дословно. Фотографий позиций нет —
+       изображения в брошюре постановочные портреты, а не снимки сырья, и по
+       правилу IMAGERY на страницу поставщика они не идут. Карточки показывают
+       монограмму до тех пор, пока компания не пришлёт снимки материала. */
+    catalog: sunpureCatalog,
     /* Перечень со страницы сертификатов их брошюры; статус Star Export House
        присвоен правительством Индии. Копии — на стадии сделки. */
     certs: ['ISO 9001:2015', 'GMP', 'HALAL', 'FSSAI', 'Star Export House', 'DUNS', 'FIEO', 'Spices Board India', 'AYUSHEXCIL'],
