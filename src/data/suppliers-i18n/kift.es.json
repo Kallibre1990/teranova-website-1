@@ -68,7 +68,7 @@
       },
       {
         "label": "Pedido mínimo",
-        "value": "La unidad mínima de pedido según la lista de precios es una caja por SKU; para el pedido por palé se prevé un precio aparte. El MOQ total del primer pedido no está confirmado por separado y se concreta en la etapa de la operación."
+        "value": "La unidad mínima de pedido según la lista de precios es una caja por SKU; para el pedido por palé se prevé un precio aparte. El MOQ total del primer pedido se concreta en la etapa de la operación."
       },
       {
         "label": "Precios",

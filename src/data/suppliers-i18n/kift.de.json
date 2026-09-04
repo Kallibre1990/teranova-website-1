@@ -68,7 +68,7 @@
       },
       {
         "label": "Mindestbestellung",
-        "value": "Mindestbestelleinheit laut Preisliste — ein Karton je SKU; für die Palettenbestellung ist ein gesonderter Preis vorgesehen. Die Gesamt-MOQ der Erstbestellung ist nicht separat bestätigt und wird in der Abschlussphase präzisiert."
+        "value": "Mindestbestelleinheit laut Preisliste — ein Karton je SKU; für die Palettenbestellung ist ein gesonderter Preis vorgesehen. Die Gesamt-MOQ der Erstbestellung wird in der Abschlussphase präzisiert."
       },
       {
         "label": "Preise",

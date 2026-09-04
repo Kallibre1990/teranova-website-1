@@ -68,7 +68,7 @@
       },
       {
         "label": "Pedido mínimo",
-        "value": "A unidade mínima de pedido conforme a tabela de preços é uma caixa por SKU; para o pedido por palete há um preço à parte. O MOQ total do primeiro pedido não está confirmado separadamente e é definido na etapa da operação."
+        "value": "A unidade mínima de pedido conforme a tabela de preços é uma caixa por SKU; para o pedido por palete há um preço à parte. O MOQ total do primeiro pedido é definido na etapa da operação."
       },
       {
         "label": "Preços",

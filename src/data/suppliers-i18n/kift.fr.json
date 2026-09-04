@@ -68,7 +68,7 @@
       },
       {
         "label": "Commande minimale",
-        "value": "L'unité de commande minimale selon la liste de prix est d'un carton par SKU ; un tarif distinct est prévu pour la commande par palette. Le MOQ global de la première commande n'est pas confirmé séparément et est précisé au stade de la transaction."
+        "value": "L'unité de commande minimale selon la liste de prix est d'un carton par SKU ; un tarif distinct est prévu pour la commande par palette. Le MOQ global de la première commande est précisé au stade de la transaction."
       },
       {
         "label": "Prix",

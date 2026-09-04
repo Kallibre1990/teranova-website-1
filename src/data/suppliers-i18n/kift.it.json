@@ -68,7 +68,7 @@
       },
       {
         "label": "Ordine minimo",
-        "value": "Unità minima d'ordine da listino — un cartone per SKU; per l'ordine a pallet è previsto un prezzo dedicato. Il MOQ complessivo del primo ordine non è confermato separatamente e viene precisato nella fase di trattativa."
+        "value": "Unità minima d'ordine da listino — un cartone per SKU; per l'ordine a pallet è previsto un prezzo dedicato. Il MOQ complessivo del primo ordine viene precisato nella fase di trattativa."
       },
       {
         "label": "Prezzi",
