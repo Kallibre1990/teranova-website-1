@@ -1,0 +1,27 @@
+---
+/* Подборка «Волосы и кожа головы» — остальные десять локалей. */
+import Base from '../../../layouts/Base.astro';
+import HairScalp from '../../../components/pages/HairScalp.astro';
+import { ui, defaultLang, languages, type Lang } from '../../../i18n/ui';
+import { breadcrumbJsonLd } from '../../../data/jsonld';
+
+export function getStaticPaths() {
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const p = ui[lang].pages.hairscalp;
+---
+
+<Base
+  lang={lang}
+  path="/catalog/hair-scalp"
+  title={p.seo_title}
+  description={p.seo_desc}
+  image="/brand/og-cat-hair-scalp.png"
+  jsonLd={breadcrumbJsonLd(lang, { key: 'hair-scalp', name: p.title })}
+>
+  <HairScalp lang={lang} />
+</Base>

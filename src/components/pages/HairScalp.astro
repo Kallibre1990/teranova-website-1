@@ -1,0 +1,182 @@
+---
+/* Подборка «Волосы и кожа головы» — срез каталога внутри косметики.
+
+   Страница ничего не дублирует: карточки ведут на уже опубликованные профили,
+   а тексты о том, что компания делает именно по волосам, лежат в словарях.
+   Состав подборки — в data/hair-scalp.ts, там же объяснено, почему он ведётся
+   руками, а не поиском по слову «hair». */
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { localizePath, anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { hairScalp, hairTiers, hairArticles, type HairTier } from '../../data/hair-scalp';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { postBySlug, postContent } from '../../data/blog';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.hairscalp;
+
+const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in: '🇮🇳' };
+const countryName = (key: string) => t.countries.list.find((c) => c.key === key)?.name ?? '';
+const statusInfo = {
+  visited: { cls: 'badge--visited', label: t.verify.card_visited_t },
+  provided: { cls: 'badge--provided', label: t.verify.card_provided_t },
+} as const;
+
+const tierTitle: Record<HairTier, string> = {
+  brands: p.tier_brands,
+  oem: p.tier_oem,
+  materials: p.tier_materials,
+};
+const tierNote: Record<HairTier, string> = {
+  brands: p.tier_brands_note,
+  oem: p.tier_oem_note,
+  materials: p.tier_materials_note,
+};
+
+/* Собираем поставщика и его текст один раз: если профиль вдруг снят с публикации,
+   карточка исчезает сама, а сборка не падает. */
+const rows = hairScalp
+  .map((e) => ({ e, s: supplierBySlug(e.slug) }))
+  .filter((r): r is { e: (typeof hairScalp)[number]; s: NonNullable<ReturnType<typeof supplierBySlug>> } => Boolean(r.s));
+
+const byTier = (tier: HairTier) => rows.filter((r) => r.e.tier === tier);
+
+const notes = p.notes as Record<string, string>;
+
+const articles = hairArticles
+  .map((slug) => postBySlug(slug))
+  .filter((a): a is NonNullable<typeof a> => Boolean(a));
+---
+
+<PageHead sup={p.sup} title={p.title} sub={p.sub} deep="cosmetics" />
+
+<section class="section section--navy hs">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <a class="back" href={localizePath('/catalog', lang)}>
+      <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+      {p.back}
+    </a>
+
+    <div class="hs__intro">
+      <h2 class="lvl">{p.intro_h}</h2>
+      {p.intro_p.map((x) => <p class="hs__lead">{x}</p>)}
+    </div>
+
+    {hairTiers.map((tier) => {
+      const list = byTier(tier);
+      if (!list.length) return null;
+      return (
+        <div class="hs__tier">
+          <div class="group__head">
+            <h2 class="lvl" style="margin:0">{tierTitle[tier]}</h2>
+          </div>
+          <p class="hs__tnote">{tierNote[tier]}</p>
+          <div class="sup-grid">
+            {list.map(({ e, s }) => {
+              const sc = supplierContent(s, lang);
+              return (
+                <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
+                  <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+                  <h3 class="scard__nm">{s.name}</h3>
+                  <p class="scard__role">{e.brand ?? s.brand}</p>
+                  <p class="scard__note">{notes[s.slug]}</p>
+                  {e.items.length > 0 ? (
+                    <>
+                      <span class="scard__poz">{p.positions_h}</span>
+                      <span class="scard__tags">{e.items.map((i) => <span>{i}</span>)}</span>
+                    </>
+                  ) : (
+                    <span class="scard__empty">{p.no_positions}</span>
+                  )}
+                  <span class="scard__foot">
+                    <span class="scard__more">{sc.ui.more}</span>
+                    <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
+                  </span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      );
+    })}
+
+    <div class="hs__cta">
+      <div class="hs__cta-txt">
+        <h2 class="hs__cta-h">{p.cta_h}</h2>
+        <p class="hs__cta-p">{p.cta_p}</p>
+      </div>
+      <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+    </div>
+  </div>
+</section>
+
+{articles.length > 0 && (
+  <section class="section hs-art">
+    <div class="wrap">
+      <h2 class="lvl lvl--dark">{p.articles_h}</h2>
+      <ul class="hs-art__list">
+        {articles.map((a) => {
+          const c = postContent(a, lang);
+          return (
+            <li>
+              <a href={localizePath(`/blog/${a.slug}`, lang)}>
+                <span class="hs-art__t">{c.title}</span>
+                <span class="hs-art__x">{c.excerpt}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .back { display: inline-flex; align-items: center; gap: 7px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); margin-bottom: 26px; }
+  .lvl { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); margin-bottom: 12px; }
+  .lvl--dark { color: #7c8aa0; }
+  .group__head { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 6px; }
+
+  .hs__intro { max-width: 68ch; margin-bottom: 44px; }
+  .hs__lead { font-size: 1rem; color: var(--silver); line-height: 1.7; margin-top: 10px; }
+  .hs__tier { margin-bottom: 44px; }
+  .hs__tnote { font-size: 0.92rem; color: var(--silver-muted); line-height: 1.6; max-width: 68ch; margin-bottom: 18px; }
+
+  .sup-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .scard { display: flex; flex-direction: column; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 22px; }
+  .scard__nm { font-size: 1.05rem; font-weight: 800; color: #fff; margin-top: 12px; }
+  .scard__role { font-size: 0.82rem; color: var(--cobalt-light); font-weight: 700; margin-top: 3px; }
+  .scard__note { font-size: 0.9rem; color: var(--silver); line-height: 1.65; margin-top: 12px; }
+  .scard__poz { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--silver-muted); margin-top: 16px; }
+  .scard__tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
+  .scard__tags span { font-size: 0.74rem; font-weight: 600; color: var(--silver-muted); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 100px; padding: 4px 10px; }
+  .scard__empty { display: block; font-size: 0.82rem; color: var(--silver-muted); margin-top: 14px; font-style: italic; }
+  .scard__foot { margin-top: auto; padding-top: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .scard__more { font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); }
+  .scard__origin { font-size: .78rem; color: var(--silver-muted); white-space: nowrap; letter-spacing: .02em; }
+  .scard--real { cursor: pointer; text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+  .scard--real:hover { transform: translateY(-3px); border-color: rgba(63, 122, 224, 0.5); box-shadow: 0 14px 34px rgba(3, 10, 24, 0.4); }
+
+  .hs__cta { margin-top: 8px; display: flex; align-items: center; justify-content: space-between; gap: 22px; flex-wrap: wrap; padding-top: 28px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .hs__cta-txt { flex: 1 1 420px; min-width: 0; max-width: 62ch; }
+  .hs__cta-h { font-size: 1.15rem; font-weight: 800; color: #fff; }
+  .hs__cta-p { font-size: 0.94rem; color: var(--silver); line-height: 1.65; margin-top: 7px; }
+  .hs__cta .btn { flex: none; }
+
+  .hs-art__list { display: grid; gap: 14px; list-style: none; padding: 0; margin: 0; }
+  .hs-art__list a { display: block; padding: 16px 18px; border: 1px solid #e4ebf3; border-radius: var(--r); transition: border-color .2s, box-shadow .2s; }
+  .hs-art__list a:hover { border-color: var(--cobalt); box-shadow: 0 10px 26px rgba(18, 48, 110, 0.08); }
+  .hs-art__t { display: block; font-weight: 800; color: var(--cobalt); font-size: 1rem; }
+  .hs-art__x { display: block; font-size: 0.9rem; color: #55637a; line-height: 1.6; margin-top: 6px; }
+
+  @media (max-width: 760px) {
+    .sup-grid { grid-template-columns: 1fr; }
+    .hs__cta { flex-direction: column; align-items: stretch; }
+  }
+</style>

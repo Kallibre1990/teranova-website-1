@@ -326,6 +326,43 @@ export const pt: UIDict = {
       seo_desc:
         'Fabricação de cosméticos por contrato na Coreia: marca própria, OEM/ODM sob a sua marca, MOQ negociável, apoio com registro para o seu mercado (ANVISA, FDA, UE 1223/2009).',
     },
+    /* Подборка «Волосы и кожа головы» — срез каталога внутри косметики.
+       Не восьмая категория: семь групп верхнего уровня описывают отрасли,
+       а уход за волосами — ниша внутри одной из них. Тексты держим здесь,
+       чтобы правка формулировки не требовала похода в компонент. */
+    hairscalp: {
+      sup: "Seleção",
+      title: "Cuidados com cabelo e couro cabeludo",
+      sub: "Fabricantes verificados do nosso catálogo: marcas prontas, produção sob a sua própria marca e matérias-primas para formulação.",
+      seo_title: "Fabricantes coreanos de cuidados capilares · Teranova",
+      seo_desc: "Fabricantes coreanos de cuidados com cabelo e couro cabeludo: linhas prontas, OEM/ODM sob a sua marca, matérias-primas para formulação. Perfis e linhas de produtos.",
+      back: "Catálogo completo",
+      intro_h: "O que reunimos aqui",
+      intro_p: [
+        "No catálogo, os cuidados capilares ficam dentro da categoria geral de cosméticos, ao lado dos cuidados faciais, da proteção solar e das embalagens. Nessa lista é difícil identificar as empresas especializadas, por isso reunimos todas numa única página.",
+        "Aqui estão apenas as empresas que já verificámos e publicámos. Cada uma tem um perfil aberto com a composição das linhas, as condições de trabalho e os documentos. Se não encontrar o que precisa, procuramos um fabricante para o seu pedido: o catálogo mostra o que está verificado, não o mercado inteiro.",
+      ],
+      tier_brands: "Marcas prontas",
+      tier_brands_note: "Linhas já em produção e à venda. São indicadas quando precisa de produto para a sua própria distribuição, sem desenvolver do zero.",
+      tier_oem: "Produção sob a sua marca",
+      tier_oem_note: "Fábricas que produzem cuidados capilares com a sua formulação ou adaptam uma formulação própria. A produção interna de embalagens também está aqui.",
+      tier_materials: "Matérias-primas para formulação",
+      tier_materials_note: "Extratos vegetais e ativos para quem desenvolve a formulação por conta própria.",
+      positions_h: "Itens de cuidado capilar",
+      no_positions: "Os itens não estão publicados. Enviamos a composição da linha mediante pedido.",
+      articles_h: "Artigos relacionados",
+      cta_h: "Não encontrou o que procura",
+      cta_p: "Descreva o que precisa e procuramos um fabricante para o seu mercado, volume e exigências documentais.",
+      notes: {
+        "ck-regeon": "Empresa especializada: as duas linhas dedicam-se ao couro cabeludo. A linha profissional HAIRREGEON assenta num booster de dois componentes para clínicas e estúdios de tricologia. A linha doméstica HERIBON WNT ON tem quatro passos: esfoliante, champô, máscara de tratamento e tónico sem enxaguar. A tecnologia está apoiada em cinco patentes nos Estados Unidos, na União Europeia, na Coreia e na China.",
+        "dongdonggurimoo": "HEEYUL é a marca própria da empresa para cabelo e couro cabeludo. Inclui uma linha antiqueda com champô, condicionador, tónico e ampola, além de conjuntos de cuidado na tradição fitoterápica coreana.",
+        "dreamcos": "A DUFT&DOFT constrói o cuidado à volta da fragrância: champô e condicionador de 500 ml, tónico com cafeína e bruma para cabelo e corpo. Uma linha assim funciona bem no canal de presente e no seletivo.",
+        "sante": "Azulene Soother é um champô e um tratamento com azuleno para couro cabeludo sensível, ambos de 500 ml. Os dois itens existem também em sticks de 5 ml, formato prático para amostras e para uso em salão.",
+        "hanscos": "Os produtos de cabelo e corpo seguem o mesmo ciclo dos cuidados faciais: formulação, enchimento e embalagem dentro do mesmo grupo. A empresa produz a própria embalagem, pelo que não é preciso um fornecedor separado de frascos.",
+        "skinroom": "Estúdio de ciclo completo: a marca de cuidados capilares LAPIN Arc en ciel nasceu sob a sua gestão. É indicado quando precisa de uma marca completa e não apenas de produção por contrato.",
+        "sunpure": "Extratos vegetais padronizados e ativos para formulações de cuidado capilar. A empresa fornece-os a marcas e a fabricantes por contrato.",
+      },
+    },
     buyers: {
       title: 'Se você compra da Coreia',
       sub: 'Você tem um único parceiro responsável do lado coreano. Falamos com a fábrica no idioma dela, verificamos o produto e assumimos o que costuma comprometer um fornecimento.',
