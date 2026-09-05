@@ -15,7 +15,10 @@
    все пять позиций вырезаны по контуру и составляют ровный набор — поэтому
    компания вынесена в отдельный разворот. У DUFT&DOFT снимки рекламные, со
    сценой и фоном; рядом с вырезанным флаконом они смотрелись бы чужеродно,
-   поэтому идут миниатюрами в карточке. У остальных фотографий по волосам нет. */
+   поэтому идут миниатюрами в карточке. Снимки RNH BIO, HANSCOS и SkinRoom взяты
+   из их собственных материалов — каталога, портфолио и профессиональной брошюры,
+   переданных компаниями; своих фотографий товара мы не рисуем. Без снимка
+   осталась только линия HEEYUL: её позиции компания нам не передавала. */
 
 export type HairTier = 'brands' | 'oem' | 'materials';
 
@@ -61,6 +64,9 @@ export const hairTiers: HairTier[] = ['brands', 'oem', 'materials'];
 const CK = '/img/suppliers/ck-regeon/cutout';
 const DD = '/img/suppliers/dreamcos/products';
 const SA = '/img/suppliers/sante/products';
+const RN = '/img/suppliers/rnh-bio/products';
+const HC = '/img/suppliers/hanscos/products';
+const SR = '/img/suppliers/skinroom/products';
 
 export const hairScalp: HairEntry[] = [
   {
@@ -82,8 +88,8 @@ export const hairScalp: HairEntry[] = [
     tier: 'brands',
     items: [
       { name: 'EXOLUNA RN-Exosome Scalp Booster Ampoule + Activator', short: 'Scalp Booster Ampoule', step: 'leavein', volume: '60 ml + activator', img: '/img/suppliers/rnh-bio/products/scalp-booster-ampoule-set.jpg' },
-      { name: 'LUNA Scalp Booster Activator', step: 'pro' },
-      { name: 'Noggin Scalp EXONOVA', step: 'pro' },
+      { name: 'LUNA Scalp Booster Activator', step: 'pro', img: `${RN}/luna-scalp-booster-activator.jpg` },
+      { name: 'Noggin Scalp EXONOVA', step: 'pro', img: `${RN}/noggin-scalp-exonova.jpg` },
     ],
   },
   {
@@ -119,8 +125,8 @@ export const hairScalp: HairEntry[] = [
     slug: 'hanscos',
     tier: 'oem',
     items: [
-      { name: 'Essential Repair Shampoo & Rinse', step: 'shampoo' },
-      { name: 'Pure Sphere Perfume Hair Mist', step: 'leavein' },
+      { name: 'Essential Repair Shampoo & Rinse', step: 'shampoo', img: `${HC}/essential-repair-shampoo-rinse.jpg` },
+      { name: 'Pure Sphere Perfume Hair Mist', step: 'leavein', img: `${HC}/pure-sphere-perfume-hair-mist.jpg` },
     ],
   },
   {
@@ -128,7 +134,7 @@ export const hairScalp: HairEntry[] = [
     brand: 'LAPIN Arc en ciel',
     tier: 'oem',
     /* Марка, а не артикул: в карту покрытия не считается. */
-    items: [{ name: 'LAPIN Arc en ciel' }],
+    items: [{ name: 'LAPIN Arc en ciel', img: `${SR}/lapin-dreaming-shampoo-conditioner.jpg` }],
   },
   {
     slug: 'sunpure',

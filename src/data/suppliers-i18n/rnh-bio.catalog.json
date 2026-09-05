@@ -36,11 +36,12 @@
     "items": [
       {
         "name": "Brightening & Firming Activator",
-        "img": "/img/suppliers/rnh-bio/products/rn-exosome-activator.jpg",
+        "img": "/img/suppliers/rnh-bio/products/brightening-firming-activator.jpg",
         "actives": ["Экзосомы молока и камелии", "Ниацинамид", "Пантенол", "Низкомолекулярная гиалуроновая кислота"]
       },
       {
         "name": "Scalp Booster Activator",
+        "img": "/img/suppliers/rnh-bio/products/luna-scalp-booster-activator.jpg",
         "actives": ["Экзосомы хмеля японского и кофе", "Ниацинамид", "Пантенол", "Низкомолекулярная гиалуроновая кислота"]
       }
     ]
@@ -50,19 +51,22 @@
     "items": [
       {
         "name": "PDRN Repair EXONOVA",
-        "img": "/img/suppliers/rnh-bio/products/scalp-booster-set.jpg",
+        "img": "/img/suppliers/rnh-bio/products/pdrn-repair-exonova.jpg",
         "actives": ["Экзосомы пяти водорослей", "PDRN", "Транспортный коллаген"]
       },
       {
         "name": "White Glow EXONOVA",
+        "img": "/img/suppliers/rnh-bio/products/white-glow-exonova.jpg",
         "actives": ["Экзосомы риса и молока", "Арбутин", "Транексамовая кислота", "Глутатион"]
       },
       {
         "name": "EGF Firming EXONOVA",
+        "img": "/img/suppliers/rnh-bio/products/egf-firming-exonova.jpg",
         "actives": ["Экзосомы камелии и кофе", "EGF", "FGF", "Аденозин", "NMN"]
       },
       {
         "name": "Noggin Scalp EXONOVA",
+        "img": "/img/suppliers/rnh-bio/products/noggin-scalp-exonova.jpg",
         "actives": ["Экзосомы хмеля японского, кофе, мяты и камелии", "Ноггин", "Медный пептид", "Пантенол"]
       }
     ]

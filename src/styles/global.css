@@ -268,6 +268,81 @@ html.cursor-on input, html.cursor-on textarea, html.cursor-on select { cursor: a
 .icard__d { font-size: 0.95rem; color: var(--silver); line-height: 1.65; }
 .page-note { margin-top: 22px; font-size: 0.86rem; color: var(--silver-muted); max-width: 70ch; }
 .page-cta { margin-top: 34px; display: flex; justify-content: center; }
+
+/* ---- Вход в тематическую подборку на тёмной секции ----
+   Кобальтовая плашка на навы не читалась: синее на синем. Поэтому вход сделан
+   серебряной плитой — тот же материал, что и металлические заголовки героя,
+   но развёрнутый в поверхность. На навы серебро отделяется само, без крика. */
+.sel-plate {
+  position: relative; display: flex; align-items: center; gap: clamp(18px, 2vw, 28px);
+  padding: clamp(20px, 2.3vw, 28px) clamp(22px, 2.6vw, 32px);
+  border-radius: var(--r-lg); text-decoration: none; overflow: hidden;
+  background:
+    linear-gradient(118deg, rgba(237, 241, 246, 0.42) 0%, rgba(203, 212, 224, 0.20) 34%, rgba(11, 27, 53, 0.26) 72%, rgba(37, 99, 212, 0.24) 100%),
+    rgba(8, 19, 37, 0.46);
+  border: 1px solid rgba(203, 212, 224, 0.46);
+  box-shadow:
+    0 26px 56px -30px rgba(3, 10, 24, 0.9),
+    0 0 0 1px rgba(237, 241, 246, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.42);
+  transition: transform .28s var(--ease), border-color .28s var(--ease), box-shadow .28s var(--ease);
+}
+/* Косой серебряный блик — плита читается как металл, а не как плоская заливка */
+.sel-plate::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(104deg, transparent 26%, rgba(255, 255, 255, 0.10) 34%, transparent 44%);
+}
+.sel-plate > * { position: relative; z-index: 1; }
+/* Серебряная грань слева — «пласт», а не карточка */
+.sel-plate::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: linear-gradient(180deg, rgba(237, 241, 246, 0.85), rgba(174, 188, 207, 0.35) 55%, rgba(63, 122, 224, 0.5));
+}
+.sel-plate:hover {
+  transform: translateY(-3px); border-color: rgba(237, 241, 246, 0.78);
+  box-shadow:
+    0 34px 66px -30px rgba(3, 10, 24, 0.95),
+    0 0 0 1px rgba(237, 241, 246, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.58);
+}
+.sel-plate__txt { display: block; min-width: 0; }
+.sel-plate__sup {
+  display: block; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--silver-bright);
+}
+.sel-plate__t {
+  display: block; font-size: clamp(1.24rem, 1.9vw, 1.55rem); font-weight: 800;
+  letter-spacing: -0.015em; margin-top: 9px;
+  background: var(--metal); -webkit-background-clip: text; background-clip: text;
+  color: transparent; -webkit-text-fill-color: transparent;
+}
+.sel-plate__d { display: block; font-size: 0.9rem; line-height: 1.62; color: var(--silver); margin-top: 8px; max-width: 64ch; }
+.sel-plate__ar {
+  flex: none; margin-left: auto; width: 50px; height: 50px; border-radius: 50%;
+  display: grid; place-items: center; color: var(--navy);
+  background: linear-gradient(160deg, #ffffff 0%, #e2e9f2 46%, #b7c4d6 100%);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 22px -12px rgba(3, 10, 24, 0.85);
+  transition: transform .28s var(--ease), box-shadow .28s var(--ease);
+}
+.sel-plate:hover .sel-plate__ar { transform: translateX(4px); box-shadow: 0 14px 28px -12px rgba(3, 10, 24, 0.9); }
+@media (max-width: 620px) { .sel-plate__ar { width: 40px; height: 40px; } }
+
+/* Светлая серебряная плита — вход в подборку на тёмной секции. Тёмный вариант
+   (без модификатора) остаётся в системе: он мягче и годится там, где вход не
+   должен спорить с соседним блоком. */
+.sel-plate--light {
+  background: linear-gradient(122deg, #f4f7fb 0%, #dfe6ef 42%, #c3cede 78%, #eef3f9 100%);
+  border-color: rgba(255,255,255,0.9);
+  box-shadow: 0 26px 56px -26px rgba(3,10,24,0.75), inset 0 1px 0 rgba(255,255,255,0.9);
+}
+.sel-plate--light::after { background: linear-gradient(104deg, transparent 24%, rgba(255,255,255,0.55) 33%, transparent 42%); }
+.sel-plate--light::before { background: linear-gradient(180deg, #ffffff, #9fb0c6 60%, #2563d4); }
+.sel-plate--light .sel-plate__sup { color: #45576f; }
+.sel-plate--light .sel-plate__t { background: linear-gradient(180deg,#16294a,#0b1b35); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
+.sel-plate--light .sel-plate__d { color: #45576f; }
+.sel-plate--light .sel-plate__ar { background: linear-gradient(160deg,#13294e,#0b1b35); color: #fff; border-color: rgba(11,27,53,0.4); }
+
 @media (max-width: 920px) { .card-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 640px) { .card-grid, .card-grid--2 { grid-template-columns: 1fr; } }
 
