@@ -1,0 +1,125 @@
+{
+  "content": {
+    "tagline": "Kabin formülü, ev formatında",
+    "descriptor": "FAU'nun tüketici tarafı: salon protokolünden alınan Glow Pumpkin peeling ve booster, fondöten grubu, SPF 50+ güneş koruma, dudak ve kirpik bakımı",
+    "origin": "Kore",
+    "about": [
+      "Glow Pumpkin, FAU'nun kabin için yaptığının evdeki devamıdır. Şirket kendi profesyonel balkabağı protokolünü alıp, tüketicinin tek başına kullanabileceği bir biçime taşımıştır.",
+      "Yanında fondöten grubu duruyor: kuşonlar, BB, ton eşitleyici baz ve güneş koruma. FAU için bu, perakende ve online için ayrı bir blok; satın alan da salon distribütörü değil, bir zincir ya da pazar yeri.",
+      "Üretici aynı — FAU CO., LTD., Kore düzenleyicisinin onayladığı cGMP ve ISO 22716 uyarınca üretim yapıyor. Yani tüketici rafının arkasında ayrı bir fason üretici değil, profesyonel bir laboratuvar duruyor.",
+      "FAU'nun profesyonel serileri — salonlar ve klinikler için on seri — ayrı bir sayfada. Ayrım bilinçli: alıcı da konuşma da farklı."
+    ],
+    "facts": [
+      "FAU CO., LTD.'nin tüketici tarafı, Hanam-si",
+      "Glow Pumpkin — salon balkabağı protokolünün ev sürümü",
+      "Üç formatta SPF 50+ PA++++ güneş koruma",
+      "Üçlü işlev iddiasıyla kuşonlar ve BB",
+      "Şirketin öngördüğü ana kanal perakende ve online",
+      "Kore düzenleyicisinin cGMP'si ve ISO 22716 uyarınca üretim, şirket beyanı"
+    ],
+    "channels": [
+      "Perakende zincirleri ve kozmetik ihtisas perakendesi",
+      "Pazar yerleri ve büyük online satıcılar",
+      "Tüketici kozmetiği ithalatçı ve distribütörleri",
+      "Eczane zincirleri",
+      "Kore kozmetiği mağazaları"
+    ],
+    "lines": [
+      {
+        "name": "Glow Pumpkin",
+        "note": "İki ürün; ikisi de asit peeling üzerine kurulu. Yüzde yedi glikolik asidin AHA, BHA ve PHA ile birlikte yer aldığı toz peeling ve köpüklü booster serum. Şirket seriyi, ev kullanımına uyarlanmış profesyonel protokol olarak sunuyor."
+      },
+      {
+        "name": "Fondöten grubu",
+        "note": "Altı ürün: tüp ve stick BB, üç kuşon ve ton eşitleyici baz. Çoğu aydınlatma, kırışıklık ve güneşten koruma olmak üzere üçlü işlev iddia ediyor."
+      },
+      {
+        "name": "Güneş koruma",
+        "note": "Üç SPF 50+ PA++++ formatı: centella esansı, hafif serum ve krem. Farklı iklim ve cilt tipleri için farklı dokular."
+      },
+      {
+        "name": "Dudak ve kirpik",
+        "note": "Dudak dolgunlaştırıcı ve kirpik serumu."
+      }
+    ],
+    "tech": [
+      {
+        "name": "7.0 asit kompleksi",
+        "note": "Glow Pumpkin peelingi için şirket, glikolik asidi AHA, BHA ve PHA ile birlikte belirtiyor. Toz form, asitlerin kullanım anında etkinleştiği anlamına geliyor."
+      },
+      {
+        "name": "Üçlü işlev",
+        "note": "Kuşonlar, BB ve ton eşitleyici baz için şirket aynı anda üç işlevsel statü iddia ediyor: aydınlatma, kırışıklık ve UV koruma. Kore'de bu düzenlemeye tabi bir kategoridir ve statü belgelerle kanıtlanır."
+      },
+      {
+        "name": "Koruma değerleri",
+        "note": "Güneş grubunda SPF 50+ PA++++, fondöten grubunda SPF 37 PA++ — şirketin ambalajda belirttiği biçimde."
+      },
+      {
+        "name": "Profesyonel seriyle ortak üretim",
+        "note": "Tüketici ürünleri, salon serisiyle aynı üreticide üretiliyor: cGMP ve ISO 22716 beyan eden FAU CO., LTD."
+      }
+    ],
+    "formats": [
+      "Toz ve köpüklü peelingler",
+      "Kuşonlar ve BB",
+      "Üç dokuda güneş koruma",
+      "Dudak dolgunlaştırıcı ve kirpik serumu"
+    ],
+    "exportNote": "Şirket kırk beş ülkeye ihracat belirtiyor. Yine de Latin Amerika neredeyse el değmemiş durumda ve Kuzey Amerika'da anlamlı kapsaması olmayan ortaklar var. Şirket, FAU'yu her iki Amerika'daki alıcılara tanıtabileceğimizi yazılı olarak teyit etti.",
+    "terms": [
+      {
+        "label": "İşbirliği biçimleri",
+        "value": "Bitmiş ürünlerin toptan tedariki. Şirket bu seriyi öncelikle perakende ve online kanalda görüyor."
+      },
+      {
+        "label": "Bölge",
+        "value": "Latin Amerika boş. Kuzey Amerika'da anlamlı kapsaması olmayan ortaklar var."
+      },
+      {
+        "label": "Asgari sipariş",
+        "value": "Talep aşamasında somut ürün listesine göre netleştirilir."
+      },
+      {
+        "label": "Fiyat",
+        "value": "İhracat fiyat listesi, şirketin ayrı kararına kadar yayımlanmaz. Ciddi bir talepte koşullar Teranova üzerinden iletilir."
+      },
+      {
+        "label": "Belgeler",
+        "value": "İşlevsel statü ve pazarda izin verilen ifadeler işlem aşamasında teyit edilir."
+      },
+      {
+        "label": "İletişim dilleri",
+        "value": "İngilizce ve Korece."
+      }
+    ],
+    "consentNote": "Ad, logo, ürün görselleri ve katalog materyalleri FAU CO., LTD. tarafından sağlanmış olup 4 Eylül 2026 tarihli yazılı izinleriyle yayımlanmaktadır.",
+    "seoTitle": "FAU'dan Glow Pumpkin — Kore perakende serisi · Teranova",
+    "seoDesc": "FAU CO., LTD.'nin Glow Pumpkin ve fondöten grubu: asit peeling, kuşon, BB ve SPF 50+ PA++++ güneş koruma. Kore üretimi."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Formül, oranlar ve testler",
+    "products_h": "Ürünler",
+    "products_note": "FAU'nun tüketici tarafı: Glow Pumpkin peeling ve booster, fondöten grubu, güneş koruma, dudak ve kirpik bakımı. Profesyonel seriler ayrı bir sayfada.",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Fiyatlar ve koşullar yaklaşıktır ve işlem aşamasında Teranova üzerinden kesinleşir. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz: görüşmeyi, kontrolleri ve teslimatı Teranova Group yürütür.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "İşlevsel iddialar",
+    "certs_note": "SPF ve PA değerleri, şirketin ambalaj üzerinde belirttiği biçimde aktarılmıştır. Kore'deki işlevsel statü ve ilgili pazarda izin verilen ifadeler, işlem aşamasında Teranova aracılığıyla belgelerle teyit edilir.",
+    "gallery_h": "Ürünler",
+    "gallery_note": "Ürün görselleri şirketin 2026 kataloğundan ve ürün açıklamasından alınmıştır. FAU tarafından 4 Eylül 2026'da kullanım için yazılı izinle gönderilmiştir."
+  }
+}

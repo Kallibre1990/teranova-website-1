@@ -1,0 +1,35 @@
+[
+  {
+    "line": "Glow Pumpkin",
+    "items": [
+      { "name": "Glow Pumpkin 7.0 Acid Peel", "img": "/img/suppliers/glow-pumpkin/products/glow-pumpkin-7-acid-peel.jpg", "volume": "50 g" },
+      { "name": "Glow Pumpkin Bubble Booster Serum", "img": "/img/suppliers/glow-pumpkin/products/glow-pumpkin-bubble-booster-serum.jpg", "volume": "100 g" }
+    ]
+  },
+  {
+    "line": "Base Makeup",
+    "items": [
+      { "name": "Skin Solution BB", "img": "/img/suppliers/glow-pumpkin/products/skin-solution-bb-tube.jpg", "volume": "50 g", "certs": ["SPF37 PA++"] },
+      { "name": "Skin Solution BB Stick", "img": "/img/suppliers/glow-pumpkin/products/skin-solution-bb-stick.jpg", "volume": "30 g", "certs": ["SPF37 PA++"] },
+      { "name": "Skin Solution Star Cushion", "img": "/img/suppliers/glow-pumpkin/products/star-cushion.jpg", "volume": "15 g + 15 g refill", "certs": ["SPF50+ PA+++"] },
+      { "name": "Skin Solution Star Cushion Silver Edition", "img": "/img/suppliers/glow-pumpkin/products/star-cushion-silver.jpg", "volume": "15 g" },
+      { "name": "Skin Solution Cushion", "img": "/img/suppliers/glow-pumpkin/products/skin-solution-cushion.jpg", "volume": "15 g + 15 g refill" },
+      { "name": "Skin Solution Star Tone Up Base", "img": "/img/suppliers/glow-pumpkin/products/star-tone-up-base.jpg", "volume": "40 g", "certs": ["SPF37 PA++"] }
+    ]
+  },
+  {
+    "line": "Sun Care",
+    "items": [
+      { "name": "Skin Solution Cica Sun Essence", "img": "/img/suppliers/glow-pumpkin/products/cica-sun-essence.jpg", "volume": "50 g", "certs": ["SPF50+ PA++++"] },
+      { "name": "Skin Solution Waterfull Sun Serum", "img": "/img/suppliers/glow-pumpkin/products/waterfull-sun-serum.jpg", "volume": "50 ml", "certs": ["SPF50+ PA++++"] },
+      { "name": "Skin Solution Sun Cream", "img": "/img/suppliers/glow-pumpkin/products/sun-cream.jpg", "volume": "50 g", "certs": ["SPF50+ PA++++"] }
+    ]
+  },
+  {
+    "line": "Lip and Lash",
+    "items": [
+      { "name": "Star Glow Lip Plumper", "img": "/img/suppliers/glow-pumpkin/products/star-glow-lip-plumper.jpg", "volume": "5 g" },
+      { "name": "Active Eyelash Serum", "img": "/img/suppliers/glow-pumpkin/products/active-eyelash-serum.jpg", "volume": "30 g" }
+    ]
+  }
+]

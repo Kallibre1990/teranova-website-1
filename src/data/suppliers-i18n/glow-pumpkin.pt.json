@@ -1,0 +1,125 @@
+{
+  "content": {
+    "tagline": "Uma fórmula de cabine em formato de casa",
+    "descriptor": "A face de consumo da FAU: o peeling e o booster Glow Pumpkin tirados do protocolo de salão, a base de maquilhagem, a proteção solar SPF 50+ e o cuidado de lábios e pestanas",
+    "origin": "Coreia",
+    "about": [
+      "Glow Pumpkin é a continuação em casa daquilo que a FAU faz para a cabine. A empresa pegou no seu protocolo profissional de abóbora e reescreveu-o num formato que a cliente gere sozinha.",
+      "Ao lado está a base de maquilhagem: cushions, BB, base tone-up e proteção solar. Na FAU é um bloco à parte para o retalho e o online, e quem o compra não é um distribuidor de salões mas uma cadeia ou um marketplace.",
+      "O fabricante é o mesmo — FAU CO., LTD., com fabrico segundo as cGMP na versão certificada pela autoridade coreana e segundo a ISO 22716. Atrás da prateleira de consumo está, portanto, um laboratório profissional e não um subcontratado à parte.",
+      "As linhas profissionais da FAU — dez séries para salões e clínicas — ocupam página própria. A separação é intencional: outro comprador e outra conversa."
+    ],
+    "facts": [
+      "A face de consumo da FAU CO., LTD., Hanam-si",
+      "Glow Pumpkin — a versão doméstica do protocolo de abóbora de salão",
+      "Proteção solar SPF 50+ PA++++ em três formatos",
+      "Cushions e BB com tripla função declarada",
+      "O canal previsto pela empresa é o retalho e o online",
+      "Fabrico segundo cGMP da autoridade coreana e ISO 22716, declarado pela empresa"
+    ],
+    "channels": [
+      "Cadeias de retalho e perfumaria especializada",
+      "Marketplaces e grandes vendedores online",
+      "Importadores e distribuidores de cosmética de consumo",
+      "Cadeias de farmácias",
+      "Lojas de cosmética coreana"
+    ],
+    "lines": [
+      {
+        "name": "Glow Pumpkin",
+        "note": "Duas referências, ambas construídas sobre um peeling ácido: um peeling em pó com sete por cento de ácido glicólico a par de AHA, BHA e PHA, e um sérum booster em espuma. A empresa apresenta a linha como um protocolo profissional reescrito para casa."
+      },
+      {
+        "name": "Base de maquilhagem",
+        "note": "Seis referências: BB em bisnaga e em stick, três cushions e uma base tone-up. A maioria declara tripla função — clareadora, antirrugas e proteção solar."
+      },
+      {
+        "name": "Proteção solar",
+        "note": "Três formatos SPF 50+ PA++++: uma essência com centela, um sérum leve e um creme. Texturas diferentes para climas e peles diferentes."
+      },
+      {
+        "name": "Lábios e pestanas",
+        "note": "Um lip plumper e um sérum de pestanas."
+      }
+    ],
+    "tech": [
+      {
+        "name": "O complexo ácido 7.0",
+        "note": "Para o peeling Glow Pumpkin a empresa declara ácido glicólico a par de AHA, BHA e PHA. A forma em pó significa que os ácidos se ativam no momento da aplicação."
+      },
+      {
+        "name": "Tripla função",
+        "note": "Para os cushions, o BB e a base tone-up a empresa declara estatuto funcional em três frentes ao mesmo tempo: clareamento, rugas e proteção UV. Na Coreia é uma categoria regulada e o estatuto prova-se com documentos."
+      },
+      {
+        "name": "Níveis de proteção",
+        "note": "SPF 50+ PA++++ no grupo solar e SPF 37 PA++ na base de maquilhagem — tal como a empresa os marca na embalagem."
+      },
+      {
+        "name": "Mesmo fabrico da linha profissional",
+        "note": "As referências de consumo saem do mesmo fabricante da gama de salão: FAU CO., LTD., com cGMP e ISO 22716 declarados."
+      }
+    ],
+    "formats": [
+      "Peelings em pó e em espuma",
+      "Cushions e BB",
+      "Proteção solar em três texturas",
+      "Lip plumper e sérum de pestanas"
+    ],
+    "exportNote": "A empresa declara exportações para quarenta e cinco países. Ainda assim, a América Latina continua praticamente por ocupar e na América do Norte há parceiros sem cobertura significativa. A empresa confirmou por escrito que podemos apresentar a FAU a compradores das duas Américas.",
+    "terms": [
+      {
+        "label": "Formas de cooperação",
+        "value": "Fornecimento grossista de produto acabado. A empresa vê esta linha sobretudo no retalho e no online."
+      },
+      {
+        "label": "Território",
+        "value": "A América Latina está livre. Na América do Norte há parceiros sem cobertura significativa."
+      },
+      {
+        "label": "Encomenda mínima",
+        "value": "Define-se sobre uma lista concreta de referências na fase de pedido."
+      },
+      {
+        "label": "Preço",
+        "value": "A tabela de exportação não é publicada enquanto a empresa não decidir em separado. As condições seguem através da Teranova perante um pedido sério."
+      },
+      {
+        "label": "Documentos",
+        "value": "O estatuto funcional e as formulações admitidas no mercado são confirmados na fase de negócio."
+      },
+      {
+        "label": "Línguas de trabalho",
+        "value": "Inglês e coreano."
+      }
+    ],
+    "consentNote": "O nome, o logótipo, as imagens de produto e os materiais de catálogo foram fornecidos pela FAU CO., LTD. e são publicados com a sua autorização escrita de 4 de setembro de 2026.",
+    "seoTitle": "Glow Pumpkin da FAU — a linha de retalho coreana · Teranova",
+    "seoDesc": "Glow Pumpkin e base de maquilhagem da FAU CO., LTD.: peeling ácido, cushions, BB e proteção solar SPF 50+ PA++++ de fabrico coreano."
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem serve:",
+    "lines_h": "Linhas de produto",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Fórmula, concentrações e ensaios",
+    "products_h": "Produtos",
+    "products_note": "A face de consumo da FAU: o peeling e o booster Glow Pumpkin, a base de maquilhagem, a proteção solar e o cuidado de lábios e pestanas. As linhas profissionais têm página própria.",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Os preços e as condições são indicativos e são fechados na fase da operação através da Teranova. Não publicamos os contatos diretos do fornecedor: a Teranova Group conduz a negociação, as verificações e a entrega.",
+    "cta_h": "Interessou-se por este fornecedor?",
+    "cta_d": "Fale connosco — a Teranova organiza a negociação, as verificações e toda a operação, do primeiro contato à entrega.",
+    "cta_btn": "Falar através da Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Alegações funcionais",
+    "certs_note": "Os níveis SPF e PA são apresentados tal como a empresa os marca na embalagem. O estatuto funcional na Coreia e as formulações admitidas num dado mercado são confirmados com documentos na fase de negócio através da Teranova.",
+    "gallery_h": "Produtos",
+    "gallery_note": "Imagens de produto do catálogo 2026 e da descrição de produtos da empresa, enviados pela FAU a 4 de setembro de 2026 com autorização escrita de utilização."
+  }
+}

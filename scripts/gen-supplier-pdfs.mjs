@@ -349,6 +349,24 @@ const SUPPLIERS = [
     pres: true,
     certs: ['0,00'],
   },
+  {
+    /* Профессиональная сторона FAU. Прайс не публикуем: вопрос о публикации
+       экспортных цен задан компании 05.09.2026 по R-022, решение за ней. */
+    id: 'fau', json: 'fau', supplier: 'FAU CO., LTD.', brand: 'FAU',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#231F20', sky: '#EE6C1F', bg: '#FDF7F2', line: '#F6E2D3' },
+    pres: true,
+    certs: ['cGMP', 'ISO 22716'],
+  },
+  {
+    /* Потребительская сторона FAU, вынесена отдельной страницей по согласию
+       компании от 04.09.2026. */
+    id: 'glow-pumpkin', json: 'glow-pumpkin', supplier: 'FAU CO., LTD.', brand: 'Glow Pumpkin by FAU',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#C2410C', sky: '#F97316', bg: '#FFF7ED', line: '#FBD9B5' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
@@ -553,6 +571,9 @@ function catalogOf(cfg) {
   const cat = JSON.parse(fs.readFileSync(f, 'utf8'));
   for (const g of cat) {
     for (const it of g.items) {
+      /* У позиции может не быть снимка вовсе: у поставщика сырья товар — порошок,
+         а у крупного каталога часть карточек идёт без пакшота. Тогда просто нет abs. */
+      if (!it.img) { it.abs = null; continue; }
       const abs = path.join(ROOT, 'public', it.img.replace(/^\//, ''));
       it.abs = fs.existsSync(abs) ? abs : null;
     }

@@ -155,6 +155,31 @@ import aoiTr from './suppliers-i18n/aoi.tr.json';
 import aoiEs from './suppliers-i18n/aoi.es.json';
 import aoiPt from './suppliers-i18n/aoi.pt.json';
 import aoiCatalog from './suppliers-i18n/aoi.catalog.json';
+import fauRu from './suppliers-i18n/fau.ru.json';
+import fauEn from './suppliers-i18n/fau.en.json';
+import fauKo from './suppliers-i18n/fau.ko.json';
+import fauZh from './suppliers-i18n/fau.zh.json';
+import fauJa from './suppliers-i18n/fau.ja.json';
+import fauIt from './suppliers-i18n/fau.it.json';
+import fauDe from './suppliers-i18n/fau.de.json';
+import fauFr from './suppliers-i18n/fau.fr.json';
+import fauTr from './suppliers-i18n/fau.tr.json';
+import fauEs from './suppliers-i18n/fau.es.json';
+import fauPt from './suppliers-i18n/fau.pt.json';
+import fauCatalog from './suppliers-i18n/fau.catalog.json';
+import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
+import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
+import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
+import glowPumpkinZh from './suppliers-i18n/glow-pumpkin.zh.json';
+import glowPumpkinJa from './suppliers-i18n/glow-pumpkin.ja.json';
+import glowPumpkinIt from './suppliers-i18n/glow-pumpkin.it.json';
+import glowPumpkinDe from './suppliers-i18n/glow-pumpkin.de.json';
+import glowPumpkinFr from './suppliers-i18n/glow-pumpkin.fr.json';
+import glowPumpkinTr from './suppliers-i18n/glow-pumpkin.tr.json';
+import glowPumpkinEs from './suppliers-i18n/glow-pumpkin.es.json';
+import glowPumpkinPt from './suppliers-i18n/glow-pumpkin.pt.json';
+import glowPumpkinCatalog from './suppliers-i18n/glow-pumpkin.catalog.json';
+
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
 import multifitEn from './suppliers-i18n/multifit.en.json';
@@ -1835,6 +1860,56 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any),
     },
   },
+  {
+    slug: 'fau',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'FAU CO., LTD.',
+    brand: 'FAU',
+    status: 'provided',
+    /* Чёрный и тыквенно-оранжевый — гамма их собственного каталога 2026. */
+    brandColors: { deep: '#231F20', sky: '#F7A072', accent: '#EE6C1F', bg: '#FDF7F2' },
+    voice: 'clinical',
+    /* Профессиональная сторона бренда. Потребительская линия Glow Pumpkin и база
+       под макияж вынесены отдельным профилем glow-pumpkin: по прямому согласию
+       компании от 04.09.2026 подавать их раздельно. Каталог собран по их
+       каталогу 2026 и описанию продуктов; пакшоты вынуты оттуда же. */
+    catalog: fauCatalog,
+    termsFile: { ru: '/docs/fau-terms-ru.pdf', en: '/docs/fau-terms-en.pdf', ko: '/docs/fau-terms-ko.pdf', zh: '/docs/fau-terms-zh.pdf', ja: '/docs/fau-terms-ja.pdf', it: '/docs/fau-terms-it.pdf', de: '/docs/fau-terms-de.pdf', fr: '/docs/fau-terms-fr.pdf', tr: '/docs/fau-terms-tr.pdf', es: '/docs/fau-terms-es.pdf', pt: '/docs/fau-terms-pt.pdf' },
+    presFile: { ru: '/docs/fau-presentation-ru.pdf', en: '/docs/fau-presentation-en.pdf', ko: '/docs/fau-presentation-ko.pdf', zh: '/docs/fau-presentation-zh.pdf', ja: '/docs/fau-presentation-ja.pdf', it: '/docs/fau-presentation-it.pdf', de: '/docs/fau-presentation-de.pdf', fr: '/docs/fau-presentation-fr.pdf', tr: '/docs/fau-presentation-tr.pdf', es: '/docs/fau-presentation-es.pdf', pt: '/docs/fau-presentation-pt.pdf' },
+    certs: ['cGMP', 'ISO 22716'],
+    /* priceFile нет: вопрос о публикации экспортного прайса задан компании
+       05.09.2026 по R-022, решение за ней. */
+    i18n: {
+      ru: mk(fauRu as any),
+      en: mk(fauEn as any),
+      ko: mk(fauKo as any), zh: mk(fauZh as any), ja: mk(fauJa as any),
+      it: mk(fauIt as any), de: mk(fauDe as any), fr: mk(fauFr as any),
+      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any),
+    },
+  },
+  {
+    slug: 'glow-pumpkin',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'FAU CO., LTD.',
+    brand: 'Glow Pumpkin by FAU',
+    status: 'provided',
+    /* Светлее и теплее профессиональной страницы: линия розничная. */
+    brandColors: { deep: '#C2410C', sky: '#FDBA74', accent: '#F97316', bg: '#FFF7ED' },
+    voice: 'pop',
+    catalog: glowPumpkinCatalog,
+    termsFile: { ru: '/docs/glow-pumpkin-terms-ru.pdf', en: '/docs/glow-pumpkin-terms-en.pdf', ko: '/docs/glow-pumpkin-terms-ko.pdf', zh: '/docs/glow-pumpkin-terms-zh.pdf', ja: '/docs/glow-pumpkin-terms-ja.pdf', it: '/docs/glow-pumpkin-terms-it.pdf', de: '/docs/glow-pumpkin-terms-de.pdf', fr: '/docs/glow-pumpkin-terms-fr.pdf', tr: '/docs/glow-pumpkin-terms-tr.pdf', es: '/docs/glow-pumpkin-terms-es.pdf', pt: '/docs/glow-pumpkin-terms-pt.pdf' },
+    presFile: { ru: '/docs/glow-pumpkin-presentation-ru.pdf', en: '/docs/glow-pumpkin-presentation-en.pdf', ko: '/docs/glow-pumpkin-presentation-ko.pdf', zh: '/docs/glow-pumpkin-presentation-zh.pdf', ja: '/docs/glow-pumpkin-presentation-ja.pdf', it: '/docs/glow-pumpkin-presentation-it.pdf', de: '/docs/glow-pumpkin-presentation-de.pdf', fr: '/docs/glow-pumpkin-presentation-fr.pdf', tr: '/docs/glow-pumpkin-presentation-tr.pdf', es: '/docs/glow-pumpkin-presentation-es.pdf', pt: '/docs/glow-pumpkin-presentation-pt.pdf' },
+    certs: [],
+    i18n: {
+      ru: mk(glowPumpkinRu as any),
+      en: mk(glowPumpkinEn as any),
+      ko: mk(glowPumpkinKo as any), zh: mk(glowPumpkinZh as any), ja: mk(glowPumpkinJa as any),
+      it: mk(glowPumpkinIt as any), de: mk(glowPumpkinDe as any), fr: mk(glowPumpkinFr as any),
+      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any),
+    },
+  }
 ];
 
 /* Dedicated, indexable line pages (SEO): one per important product line. */
