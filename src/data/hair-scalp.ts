@@ -44,8 +44,10 @@ export interface HairEntry {
       она часто про другое: у CK Regeon это DermaRegeon — линия для кожи лица.
       Без значения берём марку из профиля. */
   brand?: string;
-  /** Ведущая компания подборки: идёт отдельным разворотом, в сетку не попадает. */
-  featured?: boolean;
+  /** Позиции складываются в последовательность применения, а не просто в
+      перечень. Тогда блок нумеруется и подписывается как рутина. Верно только
+      там, где это правда: у CK Regeon домашняя линия построена по шагам. */
+  routine?: boolean;
   /** Снимки для карточки в сетке — отобраны вручную, не все подряд. У DUFT&DOFT
       из четырёх кадров два групповые: бутылки на снегу и набор на камне. В
       плитке 92 пикселя они читаются как мусор, поэтому берём только одиночные.
@@ -65,7 +67,7 @@ export const hairScalp: HairEntry[] = [
     slug: 'ck-regeon',
     brand: 'HAIRREGEON · HERIBON',
     tier: 'brands',
-    featured: true,
+    routine: true,
     items: [
       { name: 'HERIBON WNT ON Scalp Scaler', short: 'Scalp Scaler', step: 'scaler', volume: '300 ml', img: `${CK}/heribon-wnt-on-scalp-scaler.webp` },
       { name: 'HERIBON WNT ON Shampoo', short: 'Shampoo', step: 'shampoo', volume: '500 ml', img: `${CK}/heribon-wnt-on-shampoo.webp` },

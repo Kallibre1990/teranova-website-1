@@ -2,15 +2,17 @@
 /* Подборка «Волосы и кожа головы» — срез каталога внутри косметики.
 
    Страница отвечает не на вопрос «кто у вас есть» (на него отвечает категория),
-   а на вопрос «закрываете ли вы полку». Поэтому она построена как заявка,
-   доказательство и глубина:
+   а на вопрос «закрываете ли вы полку». Отсюда строение:
 
    1. Карта покрытия — пять шагов ухода с числом позиций. Одна строка, без
       фотографий: покупатель за секунду видит, что цепочка закрыта целиком.
-   2. Разворот ведущей компании — единственный набор снимков, который выдержит
-      крупную подачу: у CK Regeon все пять позиций вырезаны по контуру и стоят
-      ровным рядом. Остальным такая подача не по материалу.
-   3. Остальные компании сеткой по уровням, с миниатюрами там, где фото есть.
+   2. По блоку на компанию, каждый в её собственных цветах. Порядок и уровни
+      те же, что в каталоге, но компания не теряется в общей сетке.
+
+   Материал у компаний разный, и блок подстраивается под него, а не наоборот:
+   где есть снимки — карточки с фотографиями, где есть позиции без снимков —
+   наборные карточки, где нет ни того ни другого — блок без ряда вовсе.
+   Подставлять чужие фотографии или выдумывать позиции нельзя.
 
    Тексты лежат в словарях, состав — в data/hair-scalp.ts. */
 import PageHead from './PageHead.astro';
@@ -39,26 +41,37 @@ const tierTitle: Record<HairTier, string> = { brands: p.tier_brands, oem: p.tier
 const tierNote: Record<HairTier, string> = { brands: p.tier_brands_note, oem: p.tier_oem_note, materials: p.tier_materials_note };
 const notes = p.notes as Record<string, string>;
 
-/* Собираем поставщика и его данные один раз: если профиль снят с публикации,
-   карточка исчезает сама, а сборка не падает. */
-const rows = hairScalp
-  .map((e) => ({ e, s: supplierBySlug(e.slug)! }))
-  .filter((r) => Boolean(r.s));
+/* Если профиль снят с публикации, блок исчезает сам, а сборка не падает. */
+const rows = hairScalp.map((e) => ({ e, s: supplierBySlug(e.slug)! })).filter((r) => Boolean(r.s));
+const byTier = (tier: HairTier) => rows.filter((r) => r.e.tier === tier);
 
-const lead = rows.find((r) => r.e.featured);
-const rest = rows.filter((r) => !r.e.featured);
-const byTier = (tier: HairTier) => rest.filter((r) => r.e.tier === tier);
-
-const leadRoutine = lead ? lead.e.items.filter((i) => i.step !== 'pro') : [];
-const leadPro = lead ? lead.e.items.filter((i) => i.step === 'pro') : [];
-const leadC = lead ? supplierContent(lead.s, lang) : null;
+/* Фирменный цвет для мелкого текста выбираем по контрасту, а не по назначению.
+   У DUFT&DOFT «sky» — жёлтый #f2c500, и на их же кремовом фоне строка бренда
+   почти не читается. Берём первый цвет из ряда, который даёт хотя бы 3.5:1;
+   порог ниже канонических 4.5, иначе тёмно-бирюзовый CK Regeon тоже улетел бы
+   в почти чёрный, а вместе с ним пропала бы вся фирменность. */
+const lum = (hex: string): number => {
+  const h = hex.replace('#', '');
+  const v = h.length === 3 ? h.split('').map((c) => c + c).join('') : h;
+  const ch = [0, 2, 4].map((i) => {
+    const c = parseInt(v.slice(i, i + 2), 16) / 255;
+    return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2];
+};
+const ratio = (a: string, b: string): number => {
+  const [hi, lo] = [lum(a), lum(b)].sort((m, n) => n - m);
+  return (hi + 0.05) / (lo + 0.05);
+};
+const readable = (bg: string, cands: string[]): string =>
+  cands.find((c) => ratio(c, bg) >= 3.5) ?? cands[cands.length - 1];
 
 const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is NonNullable<typeof a> => Boolean(a));
 ---
 
 <PageHead sup={p.sup} title={p.title} sub={p.sub} deep="cosmetics" />
 
-{/* ── 1. Заявка: что закрываем ───────────────────────────────────────────── */}
+{/* Заявка: что закрываем */}
 <section class="section section--navy hs">
   <Atmosphere variant="dark" />
   <div class="wrap">
@@ -85,104 +98,117 @@ const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is N
   </div>
 </section>
 
-{/* ── 2. Доказательство: разворот ведущей линии ──────────────────────────── */}
-{lead && (
-  <section
-    class="hs-lead"
-    style={`--lb:${lead.s.brandColors.bg}; --ld:${lead.s.brandColors.deep}; --la:${lead.s.brandColors.accent}; --lk:${lead.s.brandColors.sky}`}
-  >
-    <div class="wrap">
-      <span class="hs-lead__sup">{p.lead_sup}</span>
-      <h2 class="hs-lead__nm">{lead.s.name}</h2>
-      <p class="hs-lead__br">{lead.e.brand ?? lead.s.brand}</p>
-      <p class="hs-lead__note">{notes[lead.s.slug]}</p>
+{hairTiers.map((tier) => {
+  const list = byTier(tier);
+  if (!list.length) return null;
+  return (
+    <>
+      <section class="section section--navy hs-t">
+        <Atmosphere variant="dark" />
+        <div class="wrap">
+          <h2 class="lvl">{tierTitle[tier]}</h2>
+          <p class="hs__tnote">{tierNote[tier]}</p>
+        </div>
+      </section>
 
-      <h3 class="hs-lead__h">{p.lead_routine}</h3>
-      <ol class="hs-lead__row">
-        {leadRoutine.map((it, i) => (
-          <li class="hs-lead__p">
-            <span class="hs-lead__num">{i + 1}</span>
-            <span class="hs-lead__shot">
-              {it.img && <img src={it.img} alt={it.name} width="240" height="300" loading="lazy" decoding="async" />}
-            </span>
-            <span class="hs-lead__pn">{it.short ?? it.name}</span>
-            {it.volume && <span class="hs-lead__pv">{it.volume}</span>}
-          </li>
-        ))}
-      </ol>
-
-      {leadPro.length > 0 && (
-        <>
-          <h3 class="hs-lead__h">{p.lead_pro}</h3>
-          <div class="hs-lead__pro">
-            {leadPro.map((it) => (
-              <div class="hs-lead__proi">
-                <span class="hs-lead__shot hs-lead__shot--sm">
-                  {it.img && <img src={it.img} alt={it.name} width="200" height="250" loading="lazy" decoding="async" />}
-                </span>
-                <span class="hs-lead__protxt">
-                  <span class="hs-lead__pn">{it.short ?? it.name}</span>
-                  {it.volume && <span class="hs-lead__pv">{it.volume}</span>}
-                </span>
+      {list.map(({ e, s }) => {
+        const sc = supplierContent(s, lang);
+        const shots = e.items.filter((i) => i.img);
+        const plain = e.items.filter((i) => !i.img);
+        const routine = e.routine ? e.items.filter((i) => i.step !== 'pro') : [];
+        const pro = e.routine ? e.items.filter((i) => i.step === 'pro') : [];
+        /* Оговорка нужна там, где мы назвали марку по волосам, но позиций не
+           показываем: у HEEYUL линия есть, состав нам не передавали. Поставщику
+           сырья такая строка ни к чему — у него линии и нет. */
+        const disclose = e.items.length === 0 && Boolean(e.brand);
+        const bc = s.brandColors;
+        return (
+          <section
+            class="hs-b"
+            style={`--bb:${bc.bg}; --bd:${bc.deep}; --ba:${bc.accent}; --bk:${readable(bc.bg, [bc.sky, bc.accent, bc.deep])}; --bt:${readable('#ffffff', [bc.sky, bc.accent, bc.deep])}`}
+          >
+            <div class="wrap">
+              <div class="hs-b__top">
+                <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+                <span class="hs-b__geo">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
               </div>
-            ))}
-          </div>
-        </>
-      )}
 
-      <a class="hs-lead__go" href={localizePath(`/catalog/${lead.s.slug}`, lang)}>{leadC!.ui.more}</a>
-    </div>
-  </section>
-)}
+              <h2 class="hs-b__nm">{s.name}</h2>
+              <p class="hs-b__br">{e.brand ?? s.brand}</p>
+              <p class="hs-b__note">{notes[s.slug]}</p>
 
-{/* ── 3. Глубина: остальные компании по уровням ──────────────────────────── */}
+              {e.routine ? (
+                <>
+                  <h3 class="hs-b__h">{p.lead_routine}</h3>
+                  <ol class="hs-b__row">
+                    {routine.map((it, i) => (
+                      <li class="hs-b__p">
+                        <span class="hs-b__num">{i + 1}</span>
+                        <span class="hs-b__shot">
+                          {it.img && <img src={it.img} alt={it.name} width="240" height="300" loading="lazy" decoding="async" />}
+                        </span>
+                        <span class="hs-b__pn">{it.short ?? it.name}</span>
+                        {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                      </li>
+                    ))}
+                  </ol>
+                  {pro.length > 0 && (
+                    <>
+                      <h3 class="hs-b__h">{p.lead_pro}</h3>
+                      <div class="hs-b__row hs-b__row--wide">
+                        {pro.map((it) => (
+                          <div class="hs-b__p hs-b__p--wide">
+                            <span class="hs-b__shot hs-b__shot--sm">
+                              {it.img && <img src={it.img} alt={it.name} width="200" height="250" loading="lazy" decoding="async" />}
+                            </span>
+                            <span class="hs-b__ptxt">
+                              <span class="hs-b__pn">{it.short ?? it.name}</span>
+                              {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </>
+              ) : e.items.length > 0 ? (
+                <>
+                  <h3 class="hs-b__h">{p.positions_h}</h3>
+                  <ul class="hs-b__row">
+                    {shots.map((it) => (
+                      <li class="hs-b__p">
+                        <span class="hs-b__shot">
+                          <img src={it.img} alt={it.name} width="240" height="300" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="hs-b__pn">{it.short ?? it.name}</span>
+                        {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                      </li>
+                    ))}
+                    {plain.map((it) => (
+                      <li class="hs-b__p hs-b__p--txt">
+                        <span class="hs-b__rule" />
+                        <span class="hs-b__pn">{it.short ?? it.name}</span>
+                        {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+
+              {disclose && <p class="hs-b__empty">{p.no_positions}</p>}
+
+              <a class="hs-b__go" href={localizePath(`/catalog/${s.slug}`, lang)}>{sc.ui.more}</a>
+            </div>
+          </section>
+        );
+      })}
+    </>
+  );
+})}
+
 <section class="section section--navy hs">
   <Atmosphere variant="dark" />
   <div class="wrap">
-    {hairTiers.map((tier) => {
-      const list = byTier(tier);
-      if (!list.length) return null;
-      return (
-        <div class="hs__tier">
-          <h2 class="lvl">{tierTitle[tier]}</h2>
-          <p class="hs__tnote">{tierNote[tier]}</p>
-          <div class="sup-grid">
-            {list.map(({ e, s }) => {
-              const sc = supplierContent(s, lang);
-              const shots = e.shots ?? [];
-              return (
-                <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
-                  <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
-                  <h3 class="scard__nm">{s.name}</h3>
-                  <p class="scard__role">{e.brand ?? s.brand}</p>
-                  {shots.length > 0 && (
-                    <span class="scard__shots">
-                      {shots.map((src) => (
-                        <span class="scard__shot"><img src={src} alt={s.brand} width="184" height="224" loading="lazy" decoding="async" /></span>
-                      ))}
-                    </span>
-                  )}
-                  <p class="scard__note">{notes[s.slug]}</p>
-                  {e.items.length > 0 ? (
-                    <>
-                      <span class="scard__poz">{p.positions_h}</span>
-                      <span class="scard__tags">{e.items.map((i) => <span>{i.name}</span>)}</span>
-                    </>
-                  ) : (
-                    <span class="scard__empty">{p.no_positions}</span>
-                  )}
-                  <span class="scard__foot">
-                    <span class="scard__more">{sc.ui.more}</span>
-                    <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
-                  </span>
-                </a>
-              );
-            })}
-          </div>
-        </div>
-      );
-    })}
-
     <div class="hs__cta">
       <div class="hs__cta-txt">
         <h2 class="hs__cta-h">{p.cta_h}</h2>
@@ -221,65 +247,50 @@ const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is N
 
   .hs__intro { max-width: 68ch; margin-bottom: 44px; }
   .hs__lead { font-size: 1rem; color: var(--silver); line-height: 1.7; margin-top: 10px; }
-  .hs__tier { margin-bottom: 44px; }
-  .hs__tnote { font-size: 0.92rem; color: var(--silver-muted); line-height: 1.6; max-width: 68ch; margin-bottom: 18px; }
+  .hs__tnote { font-size: 0.92rem; color: var(--silver-muted); line-height: 1.6; max-width: 68ch; }
+
+  /* Полоса уровня между группами компаний — узкая, только заголовок и строка */
+  .hs-t { padding-top: clamp(40px, 5vw, 62px); padding-bottom: clamp(28px, 3.4vw, 40px); }
 
   /* Карта покрытия: пять шагов ухода, слева направо в порядке применения */
-  .hs-map { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; list-style: none; padding: 0; margin: 0; counter-reset: none; }
+  .hs-map { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; list-style: none; padding: 0; margin: 18px 0 0; }
   .hs-map__i { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 20px 18px; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); }
   .hs-map__i + .hs-map__i::before { content: ''; position: absolute; left: -12px; top: 50%; width: 12px; height: 1px; background: rgba(255, 255, 255, 0.18); }
   .hs-map__n { font-size: 2rem; font-weight: 800; color: #fff; line-height: 1; }
   .hs-map__l { font-size: 0.84rem; color: var(--silver-muted); line-height: 1.45; }
 
-  /* Разворот ведущей линии — в фирменных цветах компании */
-  .hs-lead { background: var(--lb); color: var(--ld); padding: clamp(52px, 7vw, 92px) 0; }
-  .hs-lead__sup { display: block; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--lk); }
-  .hs-lead__nm { font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 800; color: var(--ld); margin-top: 10px; }
-  .hs-lead__br { font-size: 0.95rem; font-weight: 700; color: var(--lk); margin-top: 5px; letter-spacing: 0.02em; }
-  .hs-lead__note { font-size: 1rem; line-height: 1.7; color: var(--ld); opacity: 0.86; max-width: 74ch; margin-top: 16px; }
-  .hs-lead__h { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lk); margin-top: 46px; margin-bottom: 18px; }
+  /* ── Блок компании в её фирменных цветах ───────────────────────────────── */
+  .hs-b { background: var(--bb); color: var(--bd); padding: clamp(44px, 5.6vw, 76px) 0; border-top: 4px solid var(--ba); }
+  .hs-b__top { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin-bottom: 20px; }
+  .hs-b__geo { font-size: 0.8rem; color: color-mix(in srgb, var(--bd) 62%, transparent); white-space: nowrap; }
+  .hs-b__nm { font-size: clamp(1.5rem, 3vw, 2.15rem); font-weight: 800; color: var(--bd); line-height: 1.1; }
+  .hs-b__br { font-size: 0.95rem; font-weight: 700; color: var(--bk); margin-top: 6px; letter-spacing: 0.02em; }
+  .hs-b__note { font-size: 1rem; line-height: 1.7; color: var(--bd); opacity: 0.86; max-width: 74ch; margin-top: 16px; }
+  .hs-b__h { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bk); margin-top: 40px; margin-bottom: 16px; }
+  .hs-b__empty { font-size: 0.9rem; font-style: italic; color: color-mix(in srgb, var(--bd) 64%, transparent); margin-top: 22px; }
 
-  .hs-lead__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; list-style: none; padding: 0; margin: 0; }
-  .hs-lead__p { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 22px 14px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--ld) 12%, transparent); border-radius: var(--r-lg); }
-  .hs-lead__num { position: absolute; top: 12px; left: 14px; font-size: 0.78rem; font-weight: 800; color: var(--la); }
-  .hs-lead__shot { display: grid; place-items: center; height: 190px; }
-  .hs-lead__shot img { max-height: 190px; width: auto; object-fit: contain; }
-  .hs-lead__shot--sm { height: 150px; }
-  .hs-lead__shot--sm img { max-height: 150px; }
-  .hs-lead__pn { display: block; font-size: 0.94rem; font-weight: 700; color: var(--ld); margin-top: 14px; line-height: 1.35; }
-  .hs-lead__pv { display: block; font-size: 0.82rem; color: color-mix(in srgb, var(--ld) 62%, transparent); margin-top: 4px; }
+  /* Ряд позиций: карточки держат свою ширину, поэтому две штуки не растягиваются
+     на всю строку, а стоят слева — как начало полки, а не как пустая витрина. */
+  .hs-b__row { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; margin: 0; }
+  .hs-b__p { position: relative; flex: 0 1 216px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 22px 14px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--bd) 12%, transparent); border-radius: var(--r-lg); }
+  .hs-b__p--txt { align-items: flex-start; text-align: left; justify-content: flex-end; min-height: 132px; padding: 20px; }
+  .hs-b__p--wide { flex: 0 1 auto; flex-direction: row; align-items: center; gap: 22px; padding: 20px 28px 20px 20px; text-align: left; }
+  .hs-b__num { position: absolute; top: 12px; left: 14px; font-size: 0.78rem; font-weight: 800; color: var(--bt); }
+  .hs-b__rule { display: block; width: 34px; height: 3px; border-radius: 2px; background: var(--ba); margin-bottom: 14px; }
+  .hs-b__shot { display: grid; place-items: center; height: 190px; }
+  .hs-b__shot img { max-height: 190px; max-width: 100%; width: auto; object-fit: contain; }
+  .hs-b__shot--sm { height: 150px; }
+  .hs-b__shot--sm img { max-height: 150px; }
+  .hs-b__ptxt { text-align: left; }
+  .hs-b__ptxt .hs-b__pn { margin-top: 0; }
+  .hs-b__pn { display: block; font-size: 0.94rem; font-weight: 700; color: var(--bd); margin-top: 14px; line-height: 1.35; }
+  .hs-b__p--txt .hs-b__pn { margin-top: 0; }
+  .hs-b__pv { display: block; font-size: 0.82rem; color: color-mix(in srgb, var(--bd) 62%, transparent); margin-top: 4px; }
 
-  .hs-lead__pro { display: flex; }
-  .hs-lead__proi { display: flex; align-items: center; gap: 22px; padding: 20px 26px 20px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--ld) 12%, transparent); border-radius: var(--r-lg); }
-  .hs-lead__protxt { text-align: left; }
-  .hs-lead__protxt .hs-lead__pn { margin-top: 0; }
+  .hs-b__go { display: inline-flex; align-items: center; gap: 8px; margin-top: 34px; font-size: 0.92rem; font-weight: 800; color: var(--bd); border-bottom: 2px solid var(--ba); padding-bottom: 3px; }
+  .hs-b__go:hover { color: var(--bk); }
 
-  .hs-lead__go { display: inline-flex; align-items: center; gap: 8px; margin-top: 34px; font-size: 0.92rem; font-weight: 800; color: var(--ld); border-bottom: 2px solid var(--la); padding-bottom: 3px; }
-  .hs-lead__go:hover { color: var(--lk); }
-
-  /* align-items:start — карточки берут свою высоту. В общем каталоге они
-     тянутся друг под друга, но там заметки короткие; здесь у одной компании
-     снимки и четыре позиции, а у другой ни того ни другого, и растяжка даёт
-     пустое поле в половину карточки. */
-  .sup-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; align-items: start; }
-  .scard { display: flex; flex-direction: column; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 22px; }
-  .scard__nm { font-size: 1.05rem; font-weight: 800; color: #fff; margin-top: 12px; }
-  .scard__role { font-size: 0.82rem; color: var(--cobalt-light); font-weight: 700; margin-top: 3px; }
-  .scard__shots { display: flex; gap: 8px; margin-top: 14px; }
-  .scard__shot { display: grid; place-items: center; width: 92px; height: 112px; flex: none; background: #fff; border-radius: 10px; overflow: hidden; }
-  .scard__shot img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
-  .scard__note { font-size: 0.9rem; color: var(--silver); line-height: 1.65; margin-top: 14px; }
-  .scard__poz { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--silver-muted); margin-top: 16px; }
-  .scard__tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
-  .scard__tags span { font-size: 0.74rem; font-weight: 600; color: var(--silver-muted); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 100px; padding: 4px 10px; }
-  .scard__empty { display: block; font-size: 0.82rem; color: var(--silver-muted); margin-top: 14px; font-style: italic; }
-  .scard__foot { margin-top: auto; padding-top: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-  .scard__more { font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); }
-  .scard__origin { font-size: .78rem; color: var(--silver-muted); white-space: nowrap; letter-spacing: .02em; }
-  .scard--real { cursor: pointer; text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
-  .scard--real:hover { transform: translateY(-3px); border-color: rgba(63, 122, 224, 0.5); box-shadow: 0 14px 34px rgba(3, 10, 24, 0.4); }
-
-  .hs__cta { margin-top: 8px; display: flex; align-items: center; justify-content: space-between; gap: 22px; flex-wrap: wrap; padding-top: 28px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .hs__cta { display: flex; align-items: center; justify-content: space-between; gap: 22px; flex-wrap: wrap; }
   .hs__cta-txt { flex: 1 1 420px; min-width: 0; max-width: 62ch; }
   .hs__cta-h { font-size: 1.15rem; font-weight: 800; color: #fff; }
   .hs__cta-p { font-size: 0.94rem; color: var(--silver); line-height: 1.65; margin-top: 7px; }
@@ -294,13 +305,17 @@ const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is N
   @media (max-width: 1000px) {
     .hs-map { grid-template-columns: repeat(3, 1fr); }
     .hs-map__i + .hs-map__i::before { display: none; }
-    .hs-lead__row { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 760px) {
     .hs-map { grid-template-columns: repeat(2, 1fr); }
-    .sup-grid { grid-template-columns: 1fr; }
     .hs__cta { flex-direction: column; align-items: stretch; }
-    .hs-lead__proi { flex-direction: column; align-items: flex-start; gap: 14px; }
-    .hs-lead__protxt { text-align: left; }
+    /* Две карточки в ряд, а не одна: при одной четыре шага ухода растягиваются
+       на полтора экрана, и у семи компаний страница перестаёт пролистываться. */
+    .hs-b__p { flex: 1 1 calc(50% - 8px); padding: 18px 10px 16px; }
+    .hs-b__shot { height: 132px; }
+    .hs-b__shot img { max-height: 132px; }
+    .hs-b__pn { font-size: 0.86rem; }
+    .hs-b__p--wide { flex: 1 1 100%; flex-direction: column; align-items: flex-start; gap: 14px; }
+    .hs-b__p--txt { min-height: 108px; }
   }
 </style>
