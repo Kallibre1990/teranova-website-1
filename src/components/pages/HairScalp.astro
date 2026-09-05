@@ -1,15 +1,23 @@
 ---
 /* Подборка «Волосы и кожа головы» — срез каталога внутри косметики.
 
-   Страница ничего не дублирует: карточки ведут на уже опубликованные профили,
-   а тексты о том, что компания делает именно по волосам, лежат в словарях.
-   Состав подборки — в data/hair-scalp.ts, там же объяснено, почему он ведётся
-   руками, а не поиском по слову «hair». */
+   Страница отвечает не на вопрос «кто у вас есть» (на него отвечает категория),
+   а на вопрос «закрываете ли вы полку». Поэтому она построена как заявка,
+   доказательство и глубина:
+
+   1. Карта покрытия — пять шагов ухода с числом позиций. Одна строка, без
+      фотографий: покупатель за секунду видит, что цепочка закрыта целиком.
+   2. Разворот ведущей компании — единственный набор снимков, который выдержит
+      крупную подачу: у CK Regeon все пять позиций вырезаны по контуру и стоят
+      ровным рядом. Остальным такая подача не по материалу.
+   3. Остальные компании сеткой по уровням, с миниатюрами там, где фото есть.
+
+   Тексты лежат в словарях, состав — в data/hair-scalp.ts. */
 import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { hairScalp, hairTiers, hairArticles, type HairTier } from '../../data/hair-scalp';
+import { hairScalp, hairTiers, hairSteps, stepCount, hairArticles, type HairTier } from '../../data/hair-scalp';
 import { supplierBySlug, supplierContent } from '../../data/suppliers';
 import { postBySlug, postContent } from '../../data/blog';
 
@@ -27,34 +35,30 @@ const statusInfo = {
   provided: { cls: 'badge--provided', label: t.verify.card_provided_t },
 } as const;
 
-const tierTitle: Record<HairTier, string> = {
-  brands: p.tier_brands,
-  oem: p.tier_oem,
-  materials: p.tier_materials,
-};
-const tierNote: Record<HairTier, string> = {
-  brands: p.tier_brands_note,
-  oem: p.tier_oem_note,
-  materials: p.tier_materials_note,
-};
-
-/* Собираем поставщика и его текст один раз: если профиль вдруг снят с публикации,
-   карточка исчезает сама, а сборка не падает. */
-const rows = hairScalp
-  .map((e) => ({ e, s: supplierBySlug(e.slug) }))
-  .filter((r): r is { e: (typeof hairScalp)[number]; s: NonNullable<ReturnType<typeof supplierBySlug>> } => Boolean(r.s));
-
-const byTier = (tier: HairTier) => rows.filter((r) => r.e.tier === tier);
-
+const tierTitle: Record<HairTier, string> = { brands: p.tier_brands, oem: p.tier_oem, materials: p.tier_materials };
+const tierNote: Record<HairTier, string> = { brands: p.tier_brands_note, oem: p.tier_oem_note, materials: p.tier_materials_note };
 const notes = p.notes as Record<string, string>;
 
-const articles = hairArticles
-  .map((slug) => postBySlug(slug))
-  .filter((a): a is NonNullable<typeof a> => Boolean(a));
+/* Собираем поставщика и его данные один раз: если профиль снят с публикации,
+   карточка исчезает сама, а сборка не падает. */
+const rows = hairScalp
+  .map((e) => ({ e, s: supplierBySlug(e.slug)! }))
+  .filter((r) => Boolean(r.s));
+
+const lead = rows.find((r) => r.e.featured);
+const rest = rows.filter((r) => !r.e.featured);
+const byTier = (tier: HairTier) => rest.filter((r) => r.e.tier === tier);
+
+const leadRoutine = lead ? lead.e.items.filter((i) => i.step !== 'pro') : [];
+const leadPro = lead ? lead.e.items.filter((i) => i.step === 'pro') : [];
+const leadC = lead ? supplierContent(lead.s, lang) : null;
+
+const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is NonNullable<typeof a> => Boolean(a));
 ---
 
 <PageHead sup={p.sup} title={p.title} sub={p.sub} deep="cosmetics" />
 
+{/* ── 1. Заявка: что закрываем ───────────────────────────────────────────── */}
 <section class="section section--navy hs">
   <Atmosphere variant="dark" />
   <div class="wrap">
@@ -68,28 +72,101 @@ const articles = hairArticles
       {p.intro_p.map((x) => <p class="hs__lead">{x}</p>)}
     </div>
 
+    <h2 class="lvl">{p.map_h}</h2>
+    <p class="hs__tnote">{p.map_sub}</p>
+    <ol class="hs-map">
+      {hairSteps.map((st) => (
+        <li class="hs-map__i">
+          <span class="hs-map__n">{stepCount(st)}</span>
+          <span class="hs-map__l">{p.steps[st]}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+{/* ── 2. Доказательство: разворот ведущей линии ──────────────────────────── */}
+{lead && (
+  <section
+    class="hs-lead"
+    style={`--lb:${lead.s.brandColors.bg}; --ld:${lead.s.brandColors.deep}; --la:${lead.s.brandColors.accent}; --lk:${lead.s.brandColors.sky}`}
+  >
+    <div class="wrap">
+      <span class="hs-lead__sup">{p.lead_sup}</span>
+      <h2 class="hs-lead__nm">{lead.s.name}</h2>
+      <p class="hs-lead__br">{lead.e.brand ?? lead.s.brand}</p>
+      <p class="hs-lead__note">{notes[lead.s.slug]}</p>
+
+      <h3 class="hs-lead__h">{p.lead_routine}</h3>
+      <ol class="hs-lead__row">
+        {leadRoutine.map((it, i) => (
+          <li class="hs-lead__p">
+            <span class="hs-lead__num">{i + 1}</span>
+            <span class="hs-lead__shot">
+              {it.img && <img src={it.img} alt={it.name} width="240" height="300" loading="lazy" decoding="async" />}
+            </span>
+            <span class="hs-lead__pn">{it.short ?? it.name}</span>
+            {it.volume && <span class="hs-lead__pv">{it.volume}</span>}
+          </li>
+        ))}
+      </ol>
+
+      {leadPro.length > 0 && (
+        <>
+          <h3 class="hs-lead__h">{p.lead_pro}</h3>
+          <div class="hs-lead__pro">
+            {leadPro.map((it) => (
+              <div class="hs-lead__proi">
+                <span class="hs-lead__shot hs-lead__shot--sm">
+                  {it.img && <img src={it.img} alt={it.name} width="200" height="250" loading="lazy" decoding="async" />}
+                </span>
+                <span class="hs-lead__protxt">
+                  <span class="hs-lead__pn">{it.short ?? it.name}</span>
+                  {it.volume && <span class="hs-lead__pv">{it.volume}</span>}
+                </span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      <a class="hs-lead__go" href={localizePath(`/catalog/${lead.s.slug}`, lang)}>{leadC!.ui.more}</a>
+    </div>
+  </section>
+)}
+
+{/* ── 3. Глубина: остальные компании по уровням ──────────────────────────── */}
+<section class="section section--navy hs">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
     {hairTiers.map((tier) => {
       const list = byTier(tier);
       if (!list.length) return null;
       return (
         <div class="hs__tier">
-          <div class="group__head">
-            <h2 class="lvl" style="margin:0">{tierTitle[tier]}</h2>
-          </div>
+          <h2 class="lvl">{tierTitle[tier]}</h2>
           <p class="hs__tnote">{tierNote[tier]}</p>
           <div class="sup-grid">
             {list.map(({ e, s }) => {
               const sc = supplierContent(s, lang);
+              const shots = e.shots ?? [];
               return (
                 <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
                   <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
                   <h3 class="scard__nm">{s.name}</h3>
                   <p class="scard__role">{e.brand ?? s.brand}</p>
+                  {shots.length > 0 && (
+                    <span class="scard__shots">
+                      {shots.map((src) => (
+                        <span class="scard__shot"><img src={src} alt={s.brand} width="184" height="224" loading="lazy" decoding="async" /></span>
+                      ))}
+                    </span>
+                  )}
                   <p class="scard__note">{notes[s.slug]}</p>
                   {e.items.length > 0 ? (
                     <>
                       <span class="scard__poz">{p.positions_h}</span>
-                      <span class="scard__tags">{e.items.map((i) => <span>{i}</span>)}</span>
+                      <span class="scard__tags">{e.items.map((i) => <span>{i.name}</span>)}</span>
                     </>
                   ) : (
                     <span class="scard__empty">{p.no_positions}</span>
@@ -141,18 +218,57 @@ const articles = hairArticles
   .back { display: inline-flex; align-items: center; gap: 7px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); margin-bottom: 26px; }
   .lvl { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); margin-bottom: 12px; }
   .lvl--dark { color: #7c8aa0; }
-  .group__head { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 6px; }
 
   .hs__intro { max-width: 68ch; margin-bottom: 44px; }
   .hs__lead { font-size: 1rem; color: var(--silver); line-height: 1.7; margin-top: 10px; }
   .hs__tier { margin-bottom: 44px; }
   .hs__tnote { font-size: 0.92rem; color: var(--silver-muted); line-height: 1.6; max-width: 68ch; margin-bottom: 18px; }
 
-  .sup-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  /* Карта покрытия: пять шагов ухода, слева направо в порядке применения */
+  .hs-map { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; list-style: none; padding: 0; margin: 0; counter-reset: none; }
+  .hs-map__i { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 20px 18px; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); }
+  .hs-map__i + .hs-map__i::before { content: ''; position: absolute; left: -12px; top: 50%; width: 12px; height: 1px; background: rgba(255, 255, 255, 0.18); }
+  .hs-map__n { font-size: 2rem; font-weight: 800; color: #fff; line-height: 1; }
+  .hs-map__l { font-size: 0.84rem; color: var(--silver-muted); line-height: 1.45; }
+
+  /* Разворот ведущей линии — в фирменных цветах компании */
+  .hs-lead { background: var(--lb); color: var(--ld); padding: clamp(52px, 7vw, 92px) 0; }
+  .hs-lead__sup { display: block; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--lk); }
+  .hs-lead__nm { font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 800; color: var(--ld); margin-top: 10px; }
+  .hs-lead__br { font-size: 0.95rem; font-weight: 700; color: var(--lk); margin-top: 5px; letter-spacing: 0.02em; }
+  .hs-lead__note { font-size: 1rem; line-height: 1.7; color: var(--ld); opacity: 0.86; max-width: 74ch; margin-top: 16px; }
+  .hs-lead__h { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lk); margin-top: 46px; margin-bottom: 18px; }
+
+  .hs-lead__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; list-style: none; padding: 0; margin: 0; }
+  .hs-lead__p { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 22px 14px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--ld) 12%, transparent); border-radius: var(--r-lg); }
+  .hs-lead__num { position: absolute; top: 12px; left: 14px; font-size: 0.78rem; font-weight: 800; color: var(--la); }
+  .hs-lead__shot { display: grid; place-items: center; height: 190px; }
+  .hs-lead__shot img { max-height: 190px; width: auto; object-fit: contain; }
+  .hs-lead__shot--sm { height: 150px; }
+  .hs-lead__shot--sm img { max-height: 150px; }
+  .hs-lead__pn { display: block; font-size: 0.94rem; font-weight: 700; color: var(--ld); margin-top: 14px; line-height: 1.35; }
+  .hs-lead__pv { display: block; font-size: 0.82rem; color: color-mix(in srgb, var(--ld) 62%, transparent); margin-top: 4px; }
+
+  .hs-lead__pro { display: flex; }
+  .hs-lead__proi { display: flex; align-items: center; gap: 22px; padding: 20px 26px 20px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--ld) 12%, transparent); border-radius: var(--r-lg); }
+  .hs-lead__protxt { text-align: left; }
+  .hs-lead__protxt .hs-lead__pn { margin-top: 0; }
+
+  .hs-lead__go { display: inline-flex; align-items: center; gap: 8px; margin-top: 34px; font-size: 0.92rem; font-weight: 800; color: var(--ld); border-bottom: 2px solid var(--la); padding-bottom: 3px; }
+  .hs-lead__go:hover { color: var(--lk); }
+
+  /* align-items:start — карточки берут свою высоту. В общем каталоге они
+     тянутся друг под друга, но там заметки короткие; здесь у одной компании
+     снимки и четыре позиции, а у другой ни того ни другого, и растяжка даёт
+     пустое поле в половину карточки. */
+  .sup-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; align-items: start; }
   .scard { display: flex; flex-direction: column; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); padding: 22px; }
   .scard__nm { font-size: 1.05rem; font-weight: 800; color: #fff; margin-top: 12px; }
   .scard__role { font-size: 0.82rem; color: var(--cobalt-light); font-weight: 700; margin-top: 3px; }
-  .scard__note { font-size: 0.9rem; color: var(--silver); line-height: 1.65; margin-top: 12px; }
+  .scard__shots { display: flex; gap: 8px; margin-top: 14px; }
+  .scard__shot { display: grid; place-items: center; width: 92px; height: 112px; flex: none; background: #fff; border-radius: 10px; overflow: hidden; }
+  .scard__shot img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
+  .scard__note { font-size: 0.9rem; color: var(--silver); line-height: 1.65; margin-top: 14px; }
   .scard__poz { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--silver-muted); margin-top: 16px; }
   .scard__tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
   .scard__tags span { font-size: 0.74rem; font-weight: 600; color: var(--silver-muted); background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 100px; padding: 4px 10px; }
@@ -175,8 +291,16 @@ const articles = hairArticles
   .hs-art__t { display: block; font-weight: 800; color: var(--cobalt); font-size: 1rem; }
   .hs-art__x { display: block; font-size: 0.9rem; color: #55637a; line-height: 1.6; margin-top: 6px; }
 
+  @media (max-width: 1000px) {
+    .hs-map { grid-template-columns: repeat(3, 1fr); }
+    .hs-map__i + .hs-map__i::before { display: none; }
+    .hs-lead__row { grid-template-columns: repeat(2, 1fr); }
+  }
   @media (max-width: 760px) {
+    .hs-map { grid-template-columns: repeat(2, 1fr); }
     .sup-grid { grid-template-columns: 1fr; }
     .hs__cta { flex-direction: column; align-items: stretch; }
+    .hs-lead__proi { flex-direction: column; align-items: flex-start; gap: 14px; }
+    .hs-lead__protxt { text-align: left; }
   }
 </style>
