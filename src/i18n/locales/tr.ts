@@ -323,6 +323,7 @@ const tr: DeepPartial<UIDict> = {
       cta_h: "Aradığınızı bulamadıysanız",
       cta_p: "İhtiyacınızı anlatın, pazarınıza, hacminize ve belge gereksinimlerinize uygun bir üretici bulalım.",
       notes: {
+        "rnh-bio": "Eksozomları kendi üretiyor. Saç tarafındaki amiral ürün, liyofilize aktivatörle gelen 60 mililitrelik ampul: dört bitkisel eksozom kompleksi, biotin, MELTANE ve kafein. Ayrıca salon için profesyonel aktivatörler var; temel seride Scalp Booster, üst seride Noggin Scalp.",
         "ck-regeon": "Uzmanlaşmış bir firma: iki serisi de saç derisine ayrılmış. Profesyonel HAIRREGEON serisi, klinikler ve trikoloji stüdyoları için iki bileşenli bir güçlendirici etrafında kurulu. Ev tipi HERIBON WNT ON dört adımdan oluşuyor: peeling, şampuan, bakım maskesi ve durulanmayan tonik. Teknolojinin arkasında ABD, Avrupa Birliği, Kore ve Çin'de alınmış beş patent var.",
         "dongdonggurimoo": "HEEYUL, firmanın saç ve saç derisine ayrılmış markası. İçinde şampuan, saç kremi, tonik ve ampulden oluşan dökülme karşıtı bir seri ile Kore bitkisel geleneğine dayanan bakım setleri yer alıyor.",
         "dreamcos": "DUFT&DOFT bakımı koku etrafında kuruyor: 500 mililitrelik şampuan ve saç kremi, kafeinli tonik, saç ve vücut spreyi. Böyle bir seri hediye ve seçkin kanalına iyi oturuyor.",

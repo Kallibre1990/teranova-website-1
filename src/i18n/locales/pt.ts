@@ -370,6 +370,7 @@ export const pt: UIDict = {
       cta_h: "Não encontrou o que procura",
       cta_p: "Descreva o que precisa e procuramos um fabricante para o seu mercado, volume e exigências documentais.",
       notes: {
+        "rnh-bio": "Exossomas de produção própria. O produto principal para o cabelo é uma ampola de 60 ml com ativador liofilizado: um complexo de quatro exossomas vegetais, biotina, MELTANE e cafeína. À parte existem ativadores profissionais para salão, o Scalp Booster na linha básica e o Noggin Scalp na premium.",
         "ck-regeon": "Empresa especializada: as duas linhas dedicam-se ao couro cabeludo. A linha profissional HAIRREGEON assenta num booster de dois componentes para clínicas e estúdios de tricologia. A linha doméstica HERIBON WNT ON tem quatro passos: esfoliante, champô, máscara de tratamento e tónico sem enxaguar. A tecnologia está apoiada em cinco patentes nos Estados Unidos, na União Europeia, na Coreia e na China.",
         "dongdonggurimoo": "HEEYUL é a marca própria da empresa para cabelo e couro cabeludo. Inclui uma linha antiqueda com champô, condicionador, tónico e ampola, além de conjuntos de cuidado na tradição fitoterápica coreana.",
         "dreamcos": "A DUFT&DOFT constrói o cuidado à volta da fragrância: champô e condicionador de 500 ml, tónico com cafeína e bruma para cabelo e corpo. Uma linha assim funciona bem no canal de presente e no seletivo.",

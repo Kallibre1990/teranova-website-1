@@ -1,0 +1,120 @@
+{
+  "content": {
+    "tagline": "Exosomes made in-house — from raw material to finished product",
+    "descriptor": "A Korean biotech company from Yongin: its own exosomes, the EXOLUNA brand — scalp care, a clinic set and activators for aesthetic salons",
+    "origin": "Korea",
+    "about": [
+      "RNH BIO is a Korean biotechnology company based in Yongin, Gyeonggi Province. Its speciality is exosomes: the company produces them with its own Multi RN-Exosome technology and works in two roles at once. It owns the EXOLUNA brand of finished products and at the same time supplies the exosomes themselves as a raw material to those who develop formulations.",
+      "The exosomes come from two origins. The plant ones are obtained by upcycling — from material that would otherwise be waste: Japanese hop, coffee fruit, camellia fruit, peppermint, rice, five species of seaweed. Milk exosomes stand apart. The combinations differ from product to product, each chosen for its own task.",
+      "There are three product directions. EXOLUNA is the retail scalp care line. EXOLUNA RX PRO is a set for clinics. LUNA RN-Exosome Activator is a range of activators for aesthetic salons, in two tiers, basic and premium. One thing is common to all: the exosomes are supplied freeze-dried and activated immediately before use."
+    ],
+    "facts": [
+      "Exosomes produced in-house",
+      "Multi RN-Exosome technology",
+      "FDA MoCRA registration",
+      "Finished products and raw material alike",
+      "Yongin, Gyeonggi Province",
+      "Met at Seoul Beauty Week 2026"
+    ],
+    "channels": [
+      "Clinics and dermatology practices",
+      "Aesthetic salons and trichology studios",
+      "Hair care distributors",
+      "Brands and contract manufacturers — as a raw material supplier"
+    ],
+    "lines": [
+      {
+        "name": "EXOLUNA Scalp Booster",
+        "note": "The retail scalp care line. A 60 ml ampoule and a freeze-dried activator, mixed before use. The company states a complex of four plant exosomes — Japanese hop, coffee fruit, camellia fruit and peppermint — together with biotin, amino acids and the functional ingredients MELTANE and caffeine. Use once a day in the evening."
+      },
+      {
+        "name": "EXOLUNA RX PRO",
+        "note": "A clinic set of two vials: 2 g of freeze-dried exosomes and a 2 ml activating ampoule. A dual exosome system — milk and camellia fruit. The company positions it for use immediately after procedures, including MTS and laser. Stated purposes: recovery, tone, firmness."
+      },
+      {
+        "name": "LUNA RN-Exosome Activator · Professional Basic Line",
+        "note": "Two activators for salons. Brightening & Firming — milk and camellia exosomes, working on tone and firmness. Scalp Booster — Japanese hop and coffee exosomes, working on scalp and hair."
+      },
+      {
+        "name": "LUNA RN-Exosome Activator · High-End Special Line",
+        "note": "Four EXONOVA activators for specific tasks. PDRN Repair on five-seaweed exosomes. White Glow on rice and milk exosomes. EGF Firming on camellia and coffee exosomes. Noggin Scalp on Japanese hop, coffee, peppermint and camellia exosomes."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Multi RN-Exosome",
+        "note": "The company's own technology. Exosomes are obtained from plant material by upcycling and from milk, and they go into finished products as complexes of several types rather than one at a time."
+      },
+      {
+        "name": "Freeze-dried plus activator",
+        "note": "The exosomes are supplied dried in a vial, the activating ampoule comes separately, and the two are mixed immediately before use. The format was chosen for stability: once prepared, such a system does not keep for long. For a buyer that means specific storage requirements and staff training."
+      },
+      {
+        "name": "The company's own test data",
+        "note": "The company presents laboratory results: cell viability by CCK8, antioxidant activity by DPPH, inhibition of melanogenesis, and dermatological before-and-after tests. These are the company's data from laboratory models, not clinical trials of the finished product on people."
+      },
+      {
+        "name": "MoCRA registration",
+        "note": "For the EXOLUNA line the company states a completed registration under the US MoCRA regime. A registration confirms that the market-access procedure has been carried out; it is not a confirmation of efficacy."
+      }
+    ],
+    "formats": [
+      "60 ml ampoules",
+      "Freeze-dried vials",
+      "Two-vial sets",
+      "Salon activators",
+      "Exosomes as a raw material"
+    ],
+    "exportNote": "The company is open to Latin American and North American markets. It is ready to discuss both finished products and the supply of exosomes as a raw material for third-party formulations.",
+    "terms": [
+      {
+        "label": "Minimum order",
+        "value": "on request"
+      },
+      {
+        "label": "Price",
+        "value": "on request"
+      },
+      {
+        "label": "Ways of working",
+        "value": "finished products, raw material, joint development"
+      },
+      {
+        "label": "Documents",
+        "value": "specifications and test results on request"
+      }
+    ],
+    "consentNote": "The company gave written consent to publish its name, brand, logo, images and materials on 4 September 2026.",
+    "seoTitle": "RNH BIO · EXOLUNA — Korean exosomes for scalp care and clinics",
+    "seoDesc": "RNH BIO is a Korean manufacturer of its own exosomes. The EXOLUNA brand: scalp care, the RX PRO clinic set, LUNA salon activators, and exosomes as a raw material.",
+    "catalog_notes": [
+      "Volumes and compositions follow the company's materials. Where the company did not state a figure, we do not supply one.",
+      "Minimum order quantities and prices have not yet been provided by the company; they have been requested."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it suits:",
+    "lines_h": "Product lines",
+    "catalog_h": "Product catalogue",
+    "tech_h": "Formulation, concentrations and testing",
+    "products_h": "Products",
+    "products_note": "Three concentrated ampoules in the Drop series: tone and pigmentation, barrier and renewal, hydration and soothing. Each carries one key active at a stated concentration. Price on request.",
+    "formats_h": "Product formats",
+    "export_h": "Export and markets",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "Prices and terms are indicative and are finalised at the deal stage through Teranova. Direct supplier contacts are not published: Teranova Group runs the negotiation, the checks and the delivery.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges the negotiation, the checks and the whole deal from first contact to delivery.",
+    "cta_btn": "Contact through Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Testing",
+    "certs_note": "The 0.00 mark is the skin irritation index from testing by the Korea Institute of Dermatological Sciences on the three Drop products: a twenty-four-hour closed patch test, November 2025. Everything else is as stated by the company; documents are provided to the buyer on request.",
+    "gallery_h": "Products and brand photography",
+    "gallery_note": "Photographs provided by Red Purple Blue. Exhibition-stand shots and portrait photography are not published: rights to the images of people have not been confirmed in writing. Supplier status — \"Information provided by the company\"."
+  }
+}

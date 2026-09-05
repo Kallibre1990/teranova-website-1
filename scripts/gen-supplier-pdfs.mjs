@@ -367,6 +367,15 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* RNH BIO: согласие на публикацию от 04.09.2026. Минимальные партии и цены
+       компания пока не передавала, поэтому noPrice. */
+    id: 'rnh-bio', json: 'rnh-bio', supplier: 'RNH BIO CO., LTD.', brand: 'EXOLUNA',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#0E3A43', sky: '#2E8FA0', bg: '#EDF6F5', line: '#BFDCD9' },
+    pres: true,
+    certs: ['MoCRA'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

@@ -107,6 +107,7 @@ const SUPPLIERS = {
   joycos: { eyebrow: 'Supplier profile', title: 'Joycos — black ginseng, honey and make-up from Seoul', accent: '#A9793A' },
   maoom: { eyebrow: 'Supplier profile', title: 'MAOOM — Korean NAD skincare with a result in one use', accent: '#E2231A' },
   skinroom: { eyebrow: 'Supplier profile', title: 'SkinRoom — Korean OBM studio: your own brand in 90 days', accent: '#C9A227' },
+  'rnh-bio': { eyebrow: 'Supplier profile', title: 'RNH BIO · EXOLUNA — Korean exosomes made in-house, for scalp care and clinics', accent: '#67BE45' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

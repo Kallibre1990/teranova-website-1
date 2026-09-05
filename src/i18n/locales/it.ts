@@ -323,6 +323,7 @@ const it: DeepPartial<UIDict> = {
       cta_h: "Non trovate quello che cercate",
       cta_p: "Descrivete la richiesta e cerchiamo un produttore adatto al vostro mercato, ai volumi e ai requisiti documentali.",
       notes: {
+        "rnh-bio": "Esosomi di produzione propria. Il prodotto di punta per i capelli è una fiala da 60 ml con attivatore liofilizzato: un complesso di quattro esosomi vegetali, biotina, MELTANE e caffeina. A parte ci sono attivatori professionali per il salone, lo Scalp Booster nella linea base e il Noggin Scalp in quella premium.",
         "ck-regeon": "Azienda specializzata: entrambe le linee sono dedicate al cuoio capelluto. La linea professionale HAIRREGEON è costruita attorno a un booster bicomponente per cliniche e studi di tricologia. La linea domestica HERIBON WNT ON si svolge in quattro passaggi: scrub, shampoo, maschera trattamento e tonico senza risciacquo. Dietro la tecnologia ci sono cinque brevetti negli Stati Uniti, nell'Unione Europea, in Corea e in Cina.",
         "dongdonggurimoo": "HEEYUL è il marchio dell'azienda dedicato a capelli e cuoio capelluto. Comprende una linea anticaduta con shampoo, balsamo, tonico e fiala, oltre a set di cura nella tradizione fitoterapica coreana.",
         "dreamcos": "DUFT&DOFT costruisce la cura attorno alla fragranza: shampoo e balsamo da 500 ml, tonico alla caffeina e spray per capelli e corpo. Una linea così funziona bene nel canale regalo e in quello selettivo.",

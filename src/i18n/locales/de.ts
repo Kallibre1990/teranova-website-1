@@ -323,6 +323,7 @@ const de: DeepPartial<UIDict> = {
       cta_h: "Nicht das Passende gefunden",
       cta_p: "Beschreiben Sie Ihre Aufgabe, und wir suchen einen Hersteller für Ihren Markt, Ihr Volumen und Ihre Dokumentenanforderungen.",
       notes: {
+        "rnh-bio": "Exosomen aus eigener Herstellung. Das Aushängeschild für Haar ist eine 60-ml-Ampulle mit gefriergetrocknetem Aktivator: ein Komplex aus vier pflanzlichen Exosomen, Biotin, MELTANE und Koffein. Daneben stehen professionelle Salonaktivatoren, Scalp Booster in der Basislinie und Noggin Scalp in der Premiumlinie.",
         "ck-regeon": "Ein spezialisiertes Unternehmen: beide Linien widmen sich der Kopfhaut. Die Profilinie HAIRREGEON ist um einen zweikomponentigen Booster für Kliniken und Trichologie-Studios aufgebaut. Die Heimlinie HERIBON WNT ON besteht aus vier Schritten: Scaler, Shampoo, Pflegemaske und Leave-in-Tonikum. Hinter der Technologie stehen fünf Patente in den USA, der Europäischen Union, Korea und China.",
         "dongdonggurimoo": "HEEYUL ist die eigene Marke des Unternehmens für Haar und Kopfhaut. Dazu gehört eine Linie gegen Haarausfall aus Shampoo, Conditioner, Tonikum und Ampulle sowie Pflegesets in der koreanischen Kräutertradition.",
         "dreamcos": "DUFT&DOFT baut die Pflege um den Duft herum auf: Shampoo und Spülung zu je 500 ml, ein Koffein-Tonikum und ein Spray für Haar und Körper. Eine solche Linie passt gut in den Geschenk- und Selektivkanal.",

@@ -179,6 +179,18 @@ import glowPumpkinTr from './suppliers-i18n/glow-pumpkin.tr.json';
 import glowPumpkinEs from './suppliers-i18n/glow-pumpkin.es.json';
 import glowPumpkinPt from './suppliers-i18n/glow-pumpkin.pt.json';
 import glowPumpkinCatalog from './suppliers-i18n/glow-pumpkin.catalog.json';
+import rnhBioRu from './suppliers-i18n/rnh-bio.ru.json';
+import rnhBioEn from './suppliers-i18n/rnh-bio.en.json';
+import rnhBioKo from './suppliers-i18n/rnh-bio.ko.json';
+import rnhBioZh from './suppliers-i18n/rnh-bio.zh.json';
+import rnhBioJa from './suppliers-i18n/rnh-bio.ja.json';
+import rnhBioIt from './suppliers-i18n/rnh-bio.it.json';
+import rnhBioDe from './suppliers-i18n/rnh-bio.de.json';
+import rnhBioFr from './suppliers-i18n/rnh-bio.fr.json';
+import rnhBioTr from './suppliers-i18n/rnh-bio.tr.json';
+import rnhBioEs from './suppliers-i18n/rnh-bio.es.json';
+import rnhBioPt from './suppliers-i18n/rnh-bio.pt.json';
+import rnhBioCatalog from './suppliers-i18n/rnh-bio.catalog.json';
 
 import multifitRu from './suppliers-i18n/multifit.ru.json';
 import multifitCatalog from './suppliers-i18n/multifit.catalog.json';
@@ -1908,6 +1920,25 @@ export const suppliers: SupplierProfile[] = [
       ko: mk(glowPumpkinKo as any), zh: mk(glowPumpkinZh as any), ja: mk(glowPumpkinJa as any),
       it: mk(glowPumpkinIt as any), de: mk(glowPumpkinDe as any), fr: mk(glowPumpkinFr as any),
       tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any),
+    },
+  },
+  {
+    slug: 'rnh-bio',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'RNH BIO CO., LTD.',
+    brand: 'EXOLUNA',
+    status: 'provided',
+    /* Из логотипа компании: синий «RnH» и зелёный «Bio». Глубокий сине-зелёный
+       под текст, зелёный акцент, светлый фон с тем же холодным подтоном. */
+    brandColors: { deep: '#0E3A43', sky: '#2E8FA0', accent: '#67BE45', bg: '#EDF6F5' },
+    voice: 'clinical',
+    catalog: rnhBioCatalog,
+    termsFile: { ru: '/docs/rnh-bio-terms-ru.pdf', en: '/docs/rnh-bio-terms-en.pdf', ko: '/docs/rnh-bio-terms-ko.pdf', zh: '/docs/rnh-bio-terms-zh.pdf', ja: '/docs/rnh-bio-terms-ja.pdf', it: '/docs/rnh-bio-terms-it.pdf', de: '/docs/rnh-bio-terms-de.pdf', fr: '/docs/rnh-bio-terms-fr.pdf', tr: '/docs/rnh-bio-terms-tr.pdf', es: '/docs/rnh-bio-terms-es.pdf', pt: '/docs/rnh-bio-terms-pt.pdf' },
+    presFile: { ru: '/docs/rnh-bio-presentation-ru.pdf', en: '/docs/rnh-bio-presentation-en.pdf', ko: '/docs/rnh-bio-presentation-ko.pdf', zh: '/docs/rnh-bio-presentation-zh.pdf', ja: '/docs/rnh-bio-presentation-ja.pdf', it: '/docs/rnh-bio-presentation-it.pdf', de: '/docs/rnh-bio-presentation-de.pdf', fr: '/docs/rnh-bio-presentation-fr.pdf', tr: '/docs/rnh-bio-presentation-tr.pdf', es: '/docs/rnh-bio-presentation-es.pdf', pt: '/docs/rnh-bio-presentation-pt.pdf' },
+    certs: ['MoCRA'],
+    i18n: {
+      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any),
     },
   }
 ];

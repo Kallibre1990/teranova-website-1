@@ -347,6 +347,7 @@ const es: DeepPartial<UIDict> = {
       cta_h: "No encuentra lo que busca",
       cta_p: "Describa su encargo y buscaremos un fabricante acorde a su mercado, su volumen y sus exigencias documentales.",
       notes: {
+        "rnh-bio": "Exosomas de producción propia. El producto insignia para el cabello es una ampolla de 60 ml con activador liofilizado: un complejo de cuatro exosomas vegetales, biotina, MELTANE y cafeína. Aparte hay activadores profesionales para salón, el Scalp Booster en la línea básica y el Noggin Scalp en la premium.",
         "ck-regeon": "Empresa especializada: sus dos líneas se dedican al cuero cabelludo. La línea profesional HAIRREGEON se construye alrededor de un potenciador de dos componentes para clínicas y estudios de tricología. La línea doméstica HERIBON WNT ON se desarrolla en cuatro pasos: exfoliante, champú, mascarilla de tratamiento y tónico sin aclarado. Detrás de la tecnología hay cinco patentes en Estados Unidos, la Unión Europea, Corea y China.",
         "dongdonggurimoo": "HEEYUL es la marca propia de la empresa para cabello y cuero cabelludo. Incluye una línea anticaída con champú, acondicionador, tónico y ampolla, además de estuches de cuidado en la tradición fitoterapéutica coreana.",
         "dreamcos": "DUFT&DOFT construye el cuidado en torno a la fragancia: champú y acondicionador de 500 ml, tónico con cafeína y bruma para cabello y cuerpo. Una línea así encaja bien en el canal de regalo y en el selectivo.",

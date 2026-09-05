@@ -1,0 +1,25 @@
+---
+/* Профиль поставщика: rnh-bio — RNH BIO CO., LTD., бренд EXOLUNA.
+   Публикуется по письменному согласию компании от 04.09.2026. Минимальные
+   партии и цены компания пока не передавала — на странице стоит «по запросу». */
+import Base from '../../../layouts/Base.astro';
+import SupplierProfile from '../../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../../data/suppliers';
+import { supplierJsonLd } from '../../../data/jsonld';
+import { defaultLang, languages, type Lang } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  return (Object.keys(languages) as Lang[])
+    .filter((l) => l !== defaultLang)
+    .map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const profile = supplierBySlug('rnh-bio')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

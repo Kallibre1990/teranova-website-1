@@ -77,6 +77,16 @@ export const hairScalp: HairEntry[] = [
     ],
   },
   {
+    slug: 'rnh-bio',
+    brand: 'EXOLUNA',
+    tier: 'brands',
+    items: [
+      { name: 'EXOLUNA RN-Exosome Scalp Booster Ampoule + Activator', short: 'Scalp Booster Ampoule', step: 'leavein', volume: '60 ml + activator', img: '/img/suppliers/rnh-bio/products/scalp-booster-ampoule-set.jpg' },
+      { name: 'LUNA Scalp Booster Activator', step: 'pro' },
+      { name: 'Noggin Scalp EXONOVA', step: 'pro' },
+    ],
+  },
+  {
     slug: 'dongdonggurimoo',
     brand: 'HEEYUL',
     tier: 'brands',

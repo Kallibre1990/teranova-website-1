@@ -370,6 +370,7 @@ export const en: UIDict = {
       cta_h: "Not finding what you need",
       cta_p: "Describe the brief and we will source a manufacturer for your market, volume and documentation requirements.",
       notes: {
+        "rnh-bio": "Exosomes produced in-house. The flagship for hair is a 60 ml ampoule with a freeze-dried activator: a complex of four plant exosomes, biotin, MELTANE and caffeine. Alongside it are professional salon activators, Scalp Booster in the basic line and Noggin Scalp in the premium one.",
         "ck-regeon": "A specialist company: both of its lines address the scalp. The professional HAIRREGEON line is built around a two-part booster for clinics and trichology studios. The home line HERIBON WNT ON runs in four steps: scaler, shampoo, treatment mask and leave-in tonic. Five patents in the USA, the European Union, Korea and China stand behind the technology.",
         "dongdonggurimoo": "HEEYUL is the company separate brand for hair and scalp care. It includes an anti-hair-loss line of shampoo, conditioner, tonic and ampoule, along with care sets in the Korean herbal tradition.",
         "dreamcos": "DUFT&DOFT builds its care around fragrance: a 500 ml shampoo and rinse, a caffeine tonic and a hair and body mist. A line like this works well in the gift and selective channel.",
