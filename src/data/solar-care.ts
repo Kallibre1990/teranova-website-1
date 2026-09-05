@@ -140,7 +140,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Под ключ',
-          body: 'Мы приезжаем на площадку, настраиваем оборудование и проводим испытания. Вы видите, как техника работает на вашей конструкции и в вашем климате, а не на чужой площадке. Если результат устраивает, дальше станцию обслуживаем мы.',
+          body: 'Мы привозим технику на площадку, наша команда её настраивает и проводит испытания. Вы видите, как машина работает на вашей конструкции и в вашем климате, а не на чужой площадке. Если результат устраивает, дальше станцию обслуживаем мы, и вам не нужно набирать и обучать собственную службу.',
           points: ['Выезд команды с оборудованием', 'Испытания на вашей конструкции', 'Обслуживание силами Teranova'],
         },
         {
@@ -265,7 +265,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Turnkey',
-          body: 'We come to the site, set up the equipment and run trials for several days. You see how the machines behave on your own structure and in your own climate, not on somebody else’s site. If the result holds up, we take over servicing the plant.',
+          body: 'We bring the equipment to your site, and our crew sets it up and runs the trials. You see how the machines behave on your own structure and in your own climate, not on somebody else’s site. If the result holds up, we service the plant from there on, and you do not need to recruit and train a crew of your own.',
           points: ['Our team travels with the equipment', 'Trials on your own structure', 'Servicing by Teranova'],
         },
         {
@@ -386,7 +386,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: '턴키',
-          body: '저희가 현장에 가서 장비를 설치하고 며칠 동안 시험을 진행합니다. 남의 현장이 아니라 귀사의 구조물과 기후에서 장비가 어떻게 작동하는지 직접 보실 수 있습니다. 결과가 맞으면 이후 유지관리는 저희가 맡습니다.',
+          body: '장비를 현장으로 가져가 저희 팀이 직접 설치하고 시험을 진행합니다. 남의 현장이 아니라 귀사의 구조물과 기후에서 장비가 어떻게 작동하는지 직접 보실 수 있습니다. 결과가 맞으면 이후 유지관리는 저희가 맡으며, 귀사가 따로 인력을 채용하고 교육할 필요가 없습니다.',
           points: ['장비를 갖춘 팀의 현장 방문', '귀사 구조물에서의 시험', 'Teranova의 유지관리'],
         },
         {
@@ -507,7 +507,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: '全包',
-          body: '我们带着设备到现场，装好后连续几天做试验。您看到的是设备在贵方支架和贵地气候下的表现，而不是别人的电站。结果合适，此后由我们负责维护。',
+          body: '我们把设备运到现场，由我们的团队安装并进行试验。您看到的是设备在贵方支架和贵地气候下的表现，而不是别人的电站。结果合适，此后由我们负责维护，贵方无需自行招聘和培训运维队伍。',
           points: ['团队携设备到场', '在贵方支架上试验', '由 Teranova 负责维护'],
         },
         {
@@ -628,7 +628,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'ターンキー',
-          body: '機材を持って現場に伺い、設置して数日間の試験を行います。他所の現場ではなく、御社の架台と気候で機械がどう動くかをご自身で確認いただけます。結果にご納得いただければ、以後の保守は私たちが担います。',
+          body: '機材を現場へ運び、当社のチームが設置して試験を行います。他所の現場ではなく、御社の架台と気候で機械がどう動くかをご自身で確認いただけます。結果にご納得いただければ、以後の保守は私たちが担いますので、御社で要員を採用し教育する必要はありません。',
           points: ['機材を伴う現場訪問', '御社の架台での試験', 'Teranovaによる保守'],
         },
         {
@@ -749,7 +749,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Schlüsselfertig',
-          body: 'Wir kommen mit der Technik auf die Anlage, richten sie ein und fahren mehrere Tage Versuche. Sie sehen, wie die Maschinen auf Ihrer Unterkonstruktion und in Ihrem Klima arbeiten, nicht auf einer fremden Anlage. Trägt das Ergebnis, übernehmen wir anschließend die Wartung.',
+          body: 'Wir bringen die Technik auf Ihre Anlage, unser Team richtet sie ein und fährt die Versuche. Sie sehen, wie die Maschinen auf Ihrer Unterkonstruktion und in Ihrem Klima arbeiten, nicht auf einer fremden Anlage. Passt das Ergebnis, warten wir die Anlage anschließend selbst, und Sie müssen keine eigene Mannschaft einstellen und ausbilden.',
           points: ['Team reist mit der Technik an', 'Versuche auf Ihrer Unterkonstruktion', 'Wartung durch Teranova'],
         },
         {
@@ -870,7 +870,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Clé en main',
-          body: 'Nous venons sur le site avec le matériel, nous l’installons et nous menons des essais pendant plusieurs jours. Vous voyez comment les machines travaillent sur votre structure et sous votre climat, et non sur une centrale voisine. Si le résultat tient, nous assurons ensuite la maintenance.',
+          body: 'Nous venons sur le site avec le matériel, notre équipe l’installe et mène les essais. Vous voyez comment les machines travaillent sur votre structure et sous votre climat, et non sur une installation étrangère. Si le résultat convient, nous assurons ensuite la maintenance de la centrale, et vous n’avez pas à recruter ni à former votre propre équipe.',
           points: ['L’équipe se déplace avec le matériel', 'Essais sur votre structure', 'Maintenance assurée par Teranova'],
         },
         {
@@ -991,7 +991,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Chiavi in mano',
-          body: 'Arriviamo sul sito con le macchine, le mettiamo in funzione e per qualche giorno conduciamo i test. Vedete come lavorano sulla vostra struttura e nel vostro clima, non su un impianto altrui. Se il risultato regge, da quel momento la manutenzione la seguiamo noi.',
+          body: 'Arriviamo sul sito con le macchine, la nostra squadra le mette in funzione e conduce le prove. Vedete come lavorano sulla vostra struttura e nel vostro clima, non su un impianto altrui. Se il risultato convince, da lì in poi la manutenzione dell’impianto la facciamo noi, e non dovete assumere e formare una squadra vostra.',
           points: ['La squadra arriva con le macchine', 'Prove sulla vostra struttura', 'Manutenzione a cura di Teranova'],
         },
         {
@@ -1112,7 +1112,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Llave en mano',
-          body: 'Vamos a la planta con el equipo, lo ponemos en marcha y durante varios días realizamos ensayos. Usted ve cómo trabajan las máquinas sobre su estructura y en su clima, no en una planta ajena. Si el resultado se sostiene, a partir de ahí nos encargamos del mantenimiento.',
+          body: 'Llevamos las máquinas a la planta, nuestro equipo las pone en marcha y realiza los ensayos. Usted ve cómo trabajan sobre su estructura y en su clima, no en una planta ajena. Si el resultado convence, a partir de ahí el mantenimiento de la planta lo hacemos nosotros, y usted no necesita contratar ni formar personal propio.',
           points: ['El equipo se desplaza con las máquinas', 'Ensayos sobre su estructura', 'Mantenimiento a cargo de Teranova'],
         },
         {
@@ -1233,7 +1233,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Chave na mão',
-          body: 'Vamos até a usina com os equipamentos, colocamos tudo em funcionamento e por alguns dias realizamos os ensaios. Você vê como as máquinas trabalham na sua estrutura e no seu clima, e não em uma usina alheia. Se o resultado se confirmar, a partir daí cuidamos da manutenção.',
+          body: 'Levamos os equipamentos até a usina, a nossa equipe coloca tudo em funcionamento e realiza os ensaios. Você vê como as máquinas trabalham na sua estrutura e no seu clima, e não em uma usina alheia. Se o resultado convencer, daí em diante a manutenção da usina fica conosco, e você não precisa contratar e treinar uma equipe própria.',
           points: ['A equipe viaja com os equipamentos', 'Ensaios na sua estrutura', 'Manutenção pela Teranova'],
         },
         {
@@ -1354,7 +1354,7 @@ export const solarCopy: Record<Lang, SolarCopy> = {
         {
           n: '01',
           title: 'Anahtar teslim',
-          body: 'Ekipmanla sahaya geliyoruz, kuruyoruz ve birkaç gün deneme yapıyoruz. Makinelerin başka bir sahada değil, sizin taşıyıcı yapınızda ve ikliminizde nasıl çalıştığını kendiniz görüyorsunuz. Sonuç uygunsa bakımı bundan sonra biz üstleniyoruz.',
+          body: 'Ekipmanla sahaya geliyoruz, ekibimiz kurulumu yapıyor ve denemeleri yürütüyor. Makinelerin başka bir sahada değil, sizin taşıyıcı yapınızda ve ikliminizde nasıl çalıştığını kendiniz görüyorsunuz. Sonuç uygunsa santralin bakımını bundan sonra biz üstleniyoruz ve kendi ekibinizi işe alıp eğitmeniz gerekmiyor.',
           points: ['Ekip ekipmanla birlikte geliyor', 'Sizin taşıyıcı yapınızda deneme', 'Bakım Teranova tarafından'],
         },
         {
