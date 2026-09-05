@@ -38,6 +38,7 @@ const icons: Record<string, string> = {
         <p class="sub-section">{t.categories.sub}</p>
       </div>
 
+      <div class="lead-col">
       <a class="lead-feat" href={localizePath(`/catalog/${lead.key}`, lang)}>
         <span class="lead-feat__eyebrow">
           <span class="lead-feat__ic" aria-hidden="true">
@@ -52,6 +53,18 @@ const icons: Record<string, string> = {
         </ul>
         <span class="lead-feat__cta">{t.pages.cosmetics.cta_primary}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
       </a>
+
+      {/* Подборка по волосам — вход с главной. Внутрь карточки косметики её не
+          вложить: карточка сама ссылка, а ссылка в ссылке недопустима. Поэтому
+          отдельной строкой под ней, в той же колонке. */}
+      <a class="lead-sel" href={localizePath('/catalog/hair-scalp', lang)}>
+        <span class="lead-sel__txt">
+          <span class="lead-sel__sup">{t.pages.hairscalp.sup}</span>
+          <span class="lead-sel__t">{t.pages.hairscalp.title}</span>
+        </span>
+        <svg class="lead-sel__ar" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      </div>
     </div>
 
     <div class="cat-carousel" data-carousel>
@@ -129,6 +142,20 @@ const icons: Record<string, string> = {
   .lead-feat__cta { display: inline-flex; align-items: center; gap: 7px; font-size: 0.9rem; font-weight: 700; color: var(--cobalt-light); margin-top: auto; }
   .lead-feat:hover .lead-feat__cta svg { transform: translateX(4px); }
   .lead-feat__cta svg { transition: transform .25s var(--ease); }
+
+  .lead-col { display: flex; flex-direction: column; gap: 10px; }
+  .lead-sel {
+    display: flex; align-items: center; gap: 14px; padding: 13px 16px;
+    border-radius: var(--r); border: 1px solid rgba(255, 255, 255, 0.13);
+    background: rgba(255, 255, 255, 0.035);
+    transition: border-color .25s var(--ease), background .25s var(--ease);
+  }
+  .lead-sel:hover { border-color: rgba(63, 122, 224, 0.6); background: rgba(37, 99, 212, 0.13); }
+  .lead-sel__txt { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .lead-sel__sup { font-size: 0.66rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--cobalt-light); }
+  .lead-sel__t { font-size: 0.9rem; font-weight: 700; color: #fff; line-height: 1.3; }
+  .lead-sel__ar { margin-left: auto; flex: none; color: var(--cobalt-light); transition: transform .25s var(--ease); }
+  .lead-sel:hover .lead-sel__ar { transform: translateX(4px); }
   @media (max-width: 900px) {
     .cats-header { grid-template-columns: 1fr; gap: 24px; align-items: start; }
   }
