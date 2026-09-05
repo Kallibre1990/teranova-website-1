@@ -1,67 +1,78 @@
 [
- {
-  "line": "Panthenolca Repair",
-  "items": [
-   {
-    "name": "Panthenolca Repair PDRN Pack Cleanser",
-    "img": "/img/suppliers/loobee/products/panthenolca-pack-cleanser.jpg",
-    "certs": []
-   },
-   {
-    "name": "Panthenolca Repair Bubble Serum",
-    "img": "/img/suppliers/loobee/products/panthenolca-bubble-serum.jpg",
-    "certs": []
-   },
-   {
-    "name": "Panthenolca Repair Cream Mist",
-    "img": "/img/suppliers/loobee/products/panthenolca-cream-mist.jpg",
-    "certs": []
-   },
-   {
-    "name": "Panthenolca Repair PDRN Cream",
-    "img": "/img/suppliers/loobee/products/panthenolca-pdrn-cream.jpg",
-    "certs": []
-   },
-   {
-    "name": "Panthenolca Repair Mask",
-    "img": "/img/suppliers/loobee/products/panthenolca-repair-mask.jpg",
-    "certs": []
-   }
-  ]
- },
- {
-  "line": "Signal Light",
-  "items": [
-   {
-    "name": "Signal Light Cleansing Oil",
-    "img": "/img/suppliers/loobee/products/signal-light-cleansing-oil.jpg",
-    "certs": []
-   },
-   {
-    "name": "Signal Light Cleansing Foam",
-    "img": "/img/suppliers/loobee/products/signal-light-cleansing-foam.jpg",
-    "certs": []
-   },
-   {
-    "name": "Signal Light Tone-up Sun Cream",
-    "img": "/img/suppliers/loobee/products/signal-light-tone-up-sun-cream.jpg",
-    "certs": []
-   },
-   {
-    "name": "Signal Light RED Mask",
-    "img": "/img/suppliers/loobee/products/signal-light-red-mask.jpg",
-    "certs": []
-   },
-   {
-    "name": "Signal Light YELLOW Mask",
-    "img": "/img/suppliers/loobee/products/signal-light-yellow-mask.jpg",
-    "certs": []
-   },
-   {
-    "name": "Signal Light GREEN Collagen Mask",
-    "img": "/img/suppliers/loobee/products/signal-light-green-collagen-mask.jpg",
-    "certs": []
-   }
-  ]
- }
+  {
+    "line": "Panthenolca Repair",
+    "items": [
+      {
+        "name": "Panthenolca Repair PDRN Pack Cleanser",
+        "img": "/img/suppliers/loobee/products/panthenolca-pack-cleanser.jpg",
+        "certs": [],
+        "volume": "120 ml"
+      },
+      {
+        "name": "Panthenolca Repair Bubble Serum",
+        "img": "/img/suppliers/loobee/products/panthenolca-bubble-serum.jpg",
+        "certs": [],
+        "volume": "90 ml"
+      },
+      {
+        "name": "Panthenolca Repair Mist",
+        "img": "/img/suppliers/loobee/products/panthenolca-cream-mist.jpg",
+        "certs": [],
+        "volume": "70 ml"
+      },
+      {
+        "name": "Panthenolca Repair Cream",
+        "img": "/img/suppliers/loobee/products/panthenolca-pdrn-cream.jpg",
+        "certs": [],
+        "volume": "50 ml"
+      },
+      {
+        "name": "Panthenolca Repair Mask",
+        "img": "/img/suppliers/loobee/products/panthenolca-repair-mask.jpg",
+        "certs": [],
+        "volume": "25 ml / sheet"
+      }
+    ]
+  },
+  {
+    "line": "Signal Light",
+    "items": [
+      {
+        "name": "Signal Light Cleansing Oil",
+        "img": "/img/suppliers/loobee/products/signal-light-cleansing-oil.jpg",
+        "certs": [],
+        "volume": "200 ml"
+      },
+      {
+        "name": "Signal Light Cleansing Foam",
+        "img": "/img/suppliers/loobee/products/signal-light-cleansing-foam.jpg",
+        "certs": [],
+        "volume": "120 ml"
+      },
+      {
+        "name": "Essence Tone-Up Sun Cream",
+        "img": "/img/suppliers/loobee/products/signal-light-tone-up-sun-cream.jpg",
+        "certs": [],
+        "volume": "50 ml"
+      },
+      {
+        "name": "Signal Light Red Mask",
+        "img": "/img/suppliers/loobee/products/signal-light-red-mask.jpg",
+        "certs": [],
+        "volume": "27 ml / sheet"
+      },
+      {
+        "name": "Signal Light Yellow Mask",
+        "img": "/img/suppliers/loobee/products/signal-light-yellow-mask.jpg",
+        "certs": [],
+        "volume": "30 ml / sheet"
+      },
+      {
+        "name": "Signal Light Green Mask",
+        "img": "/img/suppliers/loobee/products/signal-light-green-collagen-mask.jpg",
+        "certs": [],
+        "volume": "30 ml / sheet"
+      }
+    ]
+  }
 ]

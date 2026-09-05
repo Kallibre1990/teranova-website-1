@@ -1,18 +1,18 @@
 {
   "content": {
     "tagline": "Clean beauty, honest to the skin",
-    "descriptor": "Korean vegan care for sensitive skin: the Panthenolca Repair line on panthenol, TECA and PDRN, and the Signal Light line — cleansing, sun care and sheet masks",
+    "descriptor": "Korean care for sensitive skin: the Panthenolca Repair line on panthenol, TECA and PDRN, and the Signal Light line — cleansing, sun care and sheet masks",
     "origin": "Korea",
     "about": [
       "SEUNGGUN COSMETICS CO., LTD. is a Korean company that makes skincare under its own brand, LOOBEE, and at the same time works as a manufacturer: formulation development, production, export and OEM, ODM and private label services. A buyer can take a finished brand, or arrive with their own.",
-      "The company states LOOBEE's position as clean vegan cosmetics: formulations free of animal-derived ingredients and free of animal testing. The brand's materials are gathered around one idea — care should be calm on the skin and honest in its composition.",
+      "The company builds LOOBEE's position around calm formulations for sensitive skin. Vegan certification covers part of the range: on 1 September 2026 the company stated separately that it does not extend to the whole line. The brand's materials are gathered around one idea — care should be calm on the skin and honest in its composition.",
       "The range is split into two lines with different jobs. Panthenolca Repair works on the barrier and on dryness: panthenol, TECA, PDRN and ceramide NP. Signal Light covers the daily cycle — cleansing, sun protection and sheet masks, each mask for its own concern.",
       "Today, according to the company, exports go mainly to China and the United States and sales run largely online: Taobao and Pinduoduo in China, TikTok Shop in the US. The company is open to other markets and names Latin America and North America in particular, where it is looking for importers, distributors and retail chains."
     ],
     "facts": [
       "Own brand LOOBEE plus development, manufacturing and export",
       "OEM, ODM and private label under the buyer's own brand",
-      "Vegan formulations: no animal-derived ingredients and no animal testing",
+      "Vegan certification covers part of the range, not the whole line",
       "Dermatological testing and a Dermatest® EXCELLENT rating — as declared by the company",
       "Exports to China and the United States; online sales through Taobao, Pinduoduo and TikTok Shop",
       "Latin America and North America named as priority markets for expansion"
@@ -44,8 +44,8 @@
         "note": "Present in the pack cleanser, the bubble serum and the cream of the Panthenolca Repair line. The company presents it as part of gentle daily care rather than as a clinical treatment."
       },
       {
-        "name": "Vegan formulation",
-        "note": "The company states that no animal-derived ingredients are used and no animal testing is carried out across the range, including the collagen mask, where the collagen is listed as vegan. The Vegan mark appears on its own materials."
+        "name": "Vegan certification",
+        "note": "The vegan mark applies only to the items that hold the certificate. On 1 September 2026 the company confirmed in writing that the Signal Light Red Mask is not a vegan product and asked that the status not be shown on its card. We hold a copy of the certificate; the full list of covered items is being confirmed with the company."
       },
       {
         "name": "Testing",
@@ -90,20 +90,20 @@
       }
     ],
     "consentNote": "Data, images and materials were provided by SEUNGGUN COSMETICS CO., LTD. and are published under its written authorization dated 18 August 2026. The authorization is non-exclusive: Teranova is not an agent, broker or distributor of the brand. Personal contact details of the company's staff are not published. Teranova coordinates and supports the transaction.",
-    "seoTitle": "LOOBEE (SEUNGGUN COSMETICS) — Korean vegan skincare · Teranova",
-    "seoDesc": "LOOBEE by SEUNGGUN COSMETICS is Korean vegan skincare for sensitive skin: the Panthenolca Repair line on panthenol, TECA and PDRN.",
+    "seoTitle": "LOOBEE (SEUNGGUN COSMETICS) — Korean skincare for sensitive skin · Teranova",
+    "seoDesc": "LOOBEE by SEUNGGUN COSMETICS is Korean skincare for sensitive skin: the Panthenolca Repair line on panthenol, TECA and PDRN.",
     "catalog_notes": [
       "Panthenolca Repair PDRN Pack Cleanser — a wash-off pack cleanser: applied to dry skin before washing, left on for one to three minutes, then rinsed. Panthenol, TECA and ceramide NP, with mild exfoliation, suitable for daily use.",
       "Panthenolca Repair Bubble Serum — a booster serum after cleansing. High-concentration panthenol in a bubble texture, buildable in layers to a dewy finish.",
-      "Panthenolca Repair Cream Mist — a cream and mist hybrid. Sprayed straight after cleansing, and usable over makeup. Panthenol, TECA and Centella asiatica extract.",
-      "Panthenolca Repair PDRN Cream — a rich dual-function cream for radiance and wrinkle care. Niacinamide, dermatologically tested, vegan formulation.",
+      "Panthenolca Repair Mist — a cream and mist hybrid. Sprayed straight after cleansing, and usable over makeup. Panthenol, TECA and Centella asiatica extract.",
+      "Panthenolca Repair Cream — a rich dual-function cream for radiance and wrinkle care. Niacinamide, dermatologically tested.",
       "Panthenolca Repair Mask — a sheet mask on a bamboo sheet with close adhesion. Panthenol, TECA and ceramide. Low-irritation tested for sensitive skin.",
       "Signal Light Cleansing Oil — a vegan cleansing oil with 50% sunflower seed oil. Dissolves makeup and stays gentle around the eye area. Green tea seed and jojoba oils.",
       "Signal Light Cleansing Foam — a mildly acidic foam on seven key ingredients: ectoin, panthenol and Centella asiatica extract. Vegan surfactants, no tight feeling after washing.",
       "Signal Light Tone-up Sun Cream — an essence-type SPF 50+ PA++++ sunscreen on mineral filters. Niacinamide, adenosine and tocopherol. Tone-up without a white cast.",
       "Signal Light RED Mask — a hydrating mask for moments of redness and dryness. Glycerin, trehalose, hyaluronic acid, allantoin and beta-glucan.",
       "Signal Light YELLOW Mask — a mask for dull skin. Panthenol, niacinamide, hyaluronic acid, tocopherol and sea buckthorn fruit extract.",
-      "Signal Light GREEN Collagen Mask — a collagen mask on hydrolysed collagen with trehalose and hyaluronic acid. According to the company it is being prepared for launch."
+      "Signal Light Green Mask — a collagen mask with hydrolysed collagen, trehalose and hyaluronic acid. The name and volume come from the company; it will announce the launch date of the GREEN COLLAGEN version separately."
     ]
   },
   "ui": {
@@ -127,6 +127,6 @@
     "more": "Open profile →",
     "verified_suppliers": "Verified suppliers",
     "certs_h": "Certifications and registrations",
-    "certs_note": "The marks are taken from the company's own materials: vegan formulation, dermatological testing and a Dermatest® EXCELLENT rating, and testing on sensitive skin. These are the manufacturer's statements; copies of the reports and certificates are requested at the deal stage through Teranova."
+    "certs_note": "The marks are taken from the company's own materials: vegan formulation, dermatological testing and a Dermatest® EXCELLENT rating, and testing on sensitive skin. These are the manufacturer's statements; copies of the reports and certificates are requested at the deal stage through Teranova. The vegan mark does not cover the Signal Light Red Mask: the company stated this separately on 1 September 2026."
   }
 }
