@@ -4,24 +4,15 @@
     "items": [
       {
         "name": "Niacinamide Lumi Drop",
-        "img": "/img/suppliers/aoi/products/lumi-drop.jpg",
-        "certs": [
-          "0,00"
-        ]
+        "img": "/img/suppliers/aoi/products/lumi-drop.jpg"
       },
       {
         "name": "PDRN Regen Drop",
-        "img": "/img/suppliers/aoi/products/regen-drop.jpg",
-        "certs": [
-          "0,00"
-        ]
+        "img": "/img/suppliers/aoi/products/regen-drop.jpg"
       },
       {
         "name": "Hyaluronic Hydra Drop",
-        "img": "/img/suppliers/aoi/products/hydra-drop.jpg",
-        "certs": [
-          "0,00"
-        ]
+        "img": "/img/suppliers/aoi/products/hydra-drop.jpg"
       }
     ]
   }
