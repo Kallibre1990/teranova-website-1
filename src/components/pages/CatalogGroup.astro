@@ -53,6 +53,21 @@ const statusInfo = {
   <section class="section section--navy">
     <Atmosphere variant="dark" />
     <div class="wrap">
+      {/* Уход за волосами — ниша внутри косметики, а не восьмая категория.
+          Вход стоит перед списком проверенных поставщиков: решение Антона от
+          06.09.2026. Так покупатель, которому нужны именно волосы, сворачивает
+          в подборку до того, как начнёт разбирать компании по одной. */}
+      <a class="sel-plate sel-plate--light hs-link hs-link--top" href={localizePath('/catalog/hair-scalp', lang)}>
+        <span class="sel-plate__txt">
+          <span class="sel-plate__sup">{t.pages.hairscalp.sup}</span>
+          <span class="sel-plate__t">{t.pages.hairscalp.title}</span>
+          <span class="sel-plate__d">{t.pages.hairscalp.sub}</span>
+        </span>
+        <span class="sel-plate__ar" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </a>
+
       <div class="group__head">
         <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
       </div>
@@ -73,19 +88,6 @@ const statusInfo = {
         })}
       </div>
 
-      {/* Уход за волосами — ниша внутри косметики, а не восьмая категория.
-          Ссылка стоит сразу под проверенными поставщиками: покупатель, который
-          дошёл до этого места, уже смотрит компании, а не разделы. */}
-      <a class="sel-plate sel-plate--light hs-link" href={localizePath('/catalog/hair-scalp', lang)}>
-        <span class="sel-plate__txt">
-          <span class="sel-plate__sup">{t.pages.hairscalp.sup}</span>
-          <span class="sel-plate__t">{t.pages.hairscalp.title}</span>
-          <span class="sel-plate__d">{t.pages.hairscalp.sub}</span>
-        </span>
-        <span class="sel-plate__ar" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </span>
-      </a>
     </div>
   </section>
 )}
@@ -218,4 +220,7 @@ const statusInfo = {
   /* Ссылка на подборку «Волосы и кожа головы» на странице косметики.
      Вид — общая серебряная плита .sel-plate из global.css; здесь только отступ. */
   .hs-link { margin-top: 18px; }
+  /* Вход в подборку поднят над списком поставщиков — сверху отступа не нужно,
+     нужен снизу, до заголовка «Проверенные поставщики». */
+  .hs-link--top { margin-top: 0; margin-bottom: clamp(28px, 3.4vw, 44px); }
 </style>
