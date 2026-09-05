@@ -493,5 +493,8 @@ export const ko: UIDict = {
     disclaimer:
       '카탈로그는 준비 중이며 일부 데이터는 데모용입니다. 가격은 참고용이며 청약이 아닙니다. Teranova Group은 검증된 파트너를 통해 거래를 조율·지원하며 제조사가 아닙니다.',
     rights: '© 2025 Teranova Group',
+    marine_title: '또 다른 사업',
+    marine_name: 'Teranova Marine',
+    marine_desc: '요트·보트 부품',
   },
 };
