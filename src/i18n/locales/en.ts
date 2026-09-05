@@ -506,5 +506,8 @@ export const en: UIDict = {
     disclaimer:
       'The catalog is being populated; some data is for demonstration. Prices are indicative and not an offer. Teranova Group coordinates and supports deals through trusted partners and is not a manufacturer.',
     rights: '© 2025 Teranova Group',
+    marine_title: 'Also from us',
+    marine_name: 'Teranova Marine',
+    marine_desc: 'Parts for yachts and boats',
   },
 };
