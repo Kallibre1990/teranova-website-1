@@ -364,6 +364,9 @@ export const en: UIDict = {
       lead_pro: "Professional line",
       no_positions: "Items are not published. We send the line composition on request.",
       articles_h: "Related articles",
+      art_overview: "Category overview",
+      art_actives: "Active ingredients",
+      art_formulation: "Formulation and formats",
       cta_h: "Not finding what you need",
       cta_p: "Describe the brief and we will source a manufacturer for your market, volume and documentation requirements.",
       notes: {

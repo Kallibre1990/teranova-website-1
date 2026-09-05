@@ -351,6 +351,9 @@ export const ko: UIDict = {
       lead_pro: "전문가용 라인",
       no_positions: "품목은 공개되어 있지 않습니다. 라인 구성은 요청 시 보내 드립니다.",
       articles_h: "관련 자료",
+      art_overview: "분야 개관",
+      art_actives: "유효 성분",
+      art_formulation: "처방과 형태",
       cta_h: "찾으시는 품목이 없다면",
       cta_p: "과제를 알려 주시면 시장, 물량, 서류 요건에 맞는 제조사를 찾아 드립니다.",
       notes: {

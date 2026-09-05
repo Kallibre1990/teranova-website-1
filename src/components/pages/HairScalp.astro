@@ -19,7 +19,7 @@ import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { hairScalp, hairTiers, hairSteps, stepCount, hairArticles, type HairTier } from '../../data/hair-scalp';
+import { hairScalp, hairTiers, hairSteps, stepCount, hairArticleGroups, type HairTier, type HairArticleGroup } from '../../data/hair-scalp';
 import { supplierBySlug, supplierContent } from '../../data/suppliers';
 import { postBySlug, postContent } from '../../data/blog';
 
@@ -66,7 +66,14 @@ const ratio = (a: string, b: string): number => {
 const readable = (bg: string, cands: string[]): string =>
   cands.find((c) => ratio(c, bg) >= 3.5) ?? cands[cands.length - 1];
 
-const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is NonNullable<typeof a> => Boolean(a));
+const artTitle: Record<HairArticleGroup, string> = {
+  overview: p.art_overview,
+  actives: p.art_actives,
+  formulation: p.art_formulation,
+};
+const artGroups = hairArticleGroups
+  .map((g) => ({ key: g.key, posts: g.slugs.map((sl) => postBySlug(sl)).filter((a): a is NonNullable<typeof a> => Boolean(a)) }))
+  .filter((g) => g.posts.length > 0);
 ---
 
 <PageHead sup={p.sup} title={p.title} sub={p.sub} deep="cosmetics" />
@@ -219,23 +226,28 @@ const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is N
   </div>
 </section>
 
-{articles.length > 0 && (
+{artGroups.length > 0 && (
   <section class="section hs-art">
     <div class="wrap">
       <h2 class="lvl lvl--dark">{p.articles_h}</h2>
-      <ul class="hs-art__list">
-        {articles.map((a) => {
-          const c = postContent(a, lang);
-          return (
-            <li>
-              <a href={localizePath(`/blog/${a.slug}`, lang)}>
-                <span class="hs-art__t">{c.title}</span>
-                <span class="hs-art__x">{c.excerpt}</span>
-              </a>
-            </li>
-          );
-        })}
-      </ul>
+      {artGroups.map((g) => (
+        <div class="hs-art__g">
+          <h3 class="hs-art__gh">{artTitle[g.key]}</h3>
+          <ul class="hs-art__list">
+            {g.posts.map((a) => {
+              const c = postContent(a, lang);
+              return (
+                <li>
+                  <a href={localizePath(`/blog/${a.slug}`, lang)}>
+                    <span class="hs-art__t">{c.title}</span>
+                    <span class="hs-art__x">{c.excerpt}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ))}
     </div>
   </section>
 )}
@@ -296,7 +308,10 @@ const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is N
   .hs__cta-p { font-size: 0.94rem; color: var(--silver); line-height: 1.65; margin-top: 7px; }
   .hs__cta .btn { flex: none; }
 
-  .hs-art__list { display: grid; gap: 14px; list-style: none; padding: 0; margin: 0; }
+  .hs-art__g { margin-bottom: 34px; }
+  .hs-art__gh { font-size: 1.05rem; font-weight: 800; color: #12306e; margin-bottom: 14px; }
+  /* Две колонки: шестнадцать статей в одну дают колонку в полтора экрана. */
+  .hs-art__list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; list-style: none; padding: 0; margin: 0; align-items: start; }
   .hs-art__list a { display: block; padding: 16px 18px; border: 1px solid #e4ebf3; border-radius: var(--r); transition: border-color .2s, box-shadow .2s; }
   .hs-art__list a:hover { border-color: var(--cobalt); box-shadow: 0 10px 26px rgba(18, 48, 110, 0.08); }
   .hs-art__t { display: block; font-weight: 800; color: var(--cobalt); font-size: 1rem; }
@@ -317,5 +332,6 @@ const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is N
     .hs-b__pn { font-size: 0.86rem; }
     .hs-b__p--wide { flex: 1 1 100%; flex-direction: column; align-items: flex-start; gap: 14px; }
     .hs-b__p--txt { min-height: 108px; }
+    .hs-art__list { grid-template-columns: 1fr; }
   }
 </style>

@@ -309,6 +309,9 @@ const fr: DeepPartial<UIDict> = {
       lead_pro: "Ligne professionnelle",
       no_positions: "Les produits ne sont pas publiés. Nous envoyons la composition de la ligne sur demande.",
       articles_h: "Articles liés",
+      art_overview: "Panorama de la catégorie",
+      art_actives: "Actifs",
+      art_formulation: "Formulation et formats",
       cta_h: "Vous ne trouvez pas ce qu'il vous faut",
       cta_p: "Décrivez votre besoin et nous chercherons un fabricant adapté à votre marché, à vos volumes et à vos exigences documentaires.",
       notes: {

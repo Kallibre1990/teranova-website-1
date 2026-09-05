@@ -317,6 +317,9 @@ const de: DeepPartial<UIDict> = {
       lead_pro: "Professionelle Linie",
       no_positions: "Die Produkte sind nicht veröffentlicht. Den Aufbau der Linie senden wir auf Anfrage.",
       articles_h: "Passende Beiträge",
+      art_overview: "Überblick über die Kategorie",
+      art_actives: "Wirkstoffe",
+      art_formulation: "Rezeptur und Formate",
       cta_h: "Nicht das Passende gefunden",
       cta_p: "Beschreiben Sie Ihre Aufgabe, und wir suchen einen Hersteller für Ihren Markt, Ihr Volumen und Ihre Dokumentenanforderungen.",
       notes: {

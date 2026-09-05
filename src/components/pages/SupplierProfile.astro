@@ -9,6 +9,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import { postsBySupplier, postContent } from '../../data/blog';
+import { hairScalp } from '../../data/hair-scalp';
 import BrandField from '../visual/BrandField.astro';
 import LineMark from '../visual/LineMark.astro';
 import { coverProductsForShelf, coverPlan } from '../../data/cutouts';
@@ -89,6 +90,10 @@ const lineHref = (nm: string): string | null => {
 };
 const cat = t.categories.groups.find((g) => g.key === profile.category);
 const articles = [...postsBySupplier(profile.slug)].sort((a, b) => (a.hero ? 0 : 1) - (b.hero ? 0 : 1));
+/* Профиль поставщика — третий вход в подборку по волосам, после главной и
+   страницы косметики. Здесь он самый уместный: человек уже читает компанию по
+   этой теме, и логично показать ему соседей по нише. */
+const inHairScalp = hairScalp.some((e) => e.slug === profile.slug);
 /* Same covers as the blog listing, so an article looks identical wherever it is
    shown. Product choice is driven by the Russian text in every language. */
 const articleCovers = new Map(
@@ -536,6 +541,21 @@ function monogram(name: string): string {
     </section>
   )}
 
+  {inHairScalp && (
+    <section class="sp-sec">
+      <div class="wrap">
+        <a class="sp-sel" href={localizePath('/catalog/hair-scalp', lang)}>
+          <span class="sp-sel__txt">
+            <span class="sp-sel__sup">{t.pages.hairscalp.sup}</span>
+            <span class="sp-sel__t">{t.pages.hairscalp.title}</span>
+            <span class="sp-sel__d">{t.pages.hairscalp.sub}</span>
+          </span>
+          <svg class="sp-sel__ar" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  )}
+
   <!-- CTA -->
   <section class="sp-cta">
     <div class="wrap">
@@ -868,4 +888,16 @@ function monogram(name: string): string {
     .sp-tech { grid-template-columns: 1fr; }
     .sp-terms__row { grid-template-columns: 1fr; gap: 4px; }
   }
+
+  /* Вход в подборку «Волосы и кожа головы» — в фирменных цветах профиля */
+  .sp-sel { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 22px 26px; border-radius: var(--r-lg); text-decoration: none;
+            background: color-mix(in srgb, var(--ds-bg) 82%, #fff); border: 1px solid color-mix(in srgb, var(--ds-deep) 16%, transparent);
+            transition: border-color .25s var(--ease), transform .25s var(--ease); }
+  .sp-sel:hover { border-color: color-mix(in srgb, var(--ds-deep) 42%, transparent); transform: translateY(-2px); }
+  .sp-sel__txt { display: block; min-width: 0; }
+  .sp-sel__sup { display: block; font-size: 0.68rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ds-sky); }
+  .sp-sel__t { display: block; font-size: 1.12rem; font-weight: 800; color: var(--ds-deep); margin-top: 6px; }
+  .sp-sel__d { display: block; font-size: 0.9rem; line-height: 1.6; color: color-mix(in srgb, var(--ds-deep) 74%, transparent); margin-top: 7px; max-width: 66ch; }
+  .sp-sel__ar { flex: none; color: var(--ds-deep); }
+  @media (max-width: 620px) { .sp-sel__ar { display: none; } }
 </style>

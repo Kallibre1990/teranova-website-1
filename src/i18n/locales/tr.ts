@@ -317,6 +317,9 @@ const tr: DeepPartial<UIDict> = {
       lead_pro: "Profesyonel seri",
       no_positions: "Ürünler yayımlanmadı. Seri içeriğini talep üzerine gönderiyoruz.",
       articles_h: "İlgili yazılar",
+      art_overview: "Kategoriye genel bakış",
+      art_actives: "Etken maddeler",
+      art_formulation: "Formülasyon ve formatlar",
       cta_h: "Aradığınızı bulamadıysanız",
       cta_p: "İhtiyacınızı anlatın, pazarınıza, hacminize ve belge gereksinimlerinize uygun bir üretici bulalım.",
       notes: {

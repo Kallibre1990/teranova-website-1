@@ -132,17 +132,38 @@ export const hairScalp: HairEntry[] = [
 export const stepCount = (step: HairStep): number =>
   hairScalp.reduce((n, e) => n + e.items.filter((i) => i.step === step).length, 0);
 
-/** Статьи блога по теме — порядок от общего к частному. */
-export const hairArticles = [
-  /* Обзорные — от общего к частному */
-  'korean-scalp-care-category',
-  'heribon-four-step-routine',
-  'professional-scalp-boosters',
-  /* Действующие вещества: у каждой статьи есть блок «где это применяется»
-     со списком компаний и позиций, поэтому они держатся вместе. */
-  'wnt-cxxc5-scalp-science',
-  'ptd-dbm-peptide-what-a-buyer-should-know',
-  'ky19382-in-home-scalp-care',
-  'caffeine-in-hair-tonics-what-to-ask',
-  'azulene-for-sensitive-scalp',
+/** Статьи блога по теме, разложенные по группам. Шестнадцать штук простым
+    списком дают колонку в полтора экрана; группы дают навигацию. */
+export type HairArticleGroup = 'overview' | 'actives' | 'formulation';
+
+export const hairArticleGroups: { key: HairArticleGroup; slugs: string[] }[] = [
+  {
+    key: 'overview',
+    slugs: ['korean-scalp-care-category', 'heribon-four-step-routine', 'professional-scalp-boosters'],
+  },
+  {
+    /* У этих статей есть блок «где это применяется» со списком компаний и
+       позиций, поэтому они держатся вместе. */
+    key: 'actives',
+    slugs: [
+      'wnt-cxxc5-scalp-science',
+      'ptd-dbm-peptide-what-a-buyer-should-know',
+      'ky19382-in-home-scalp-care',
+      'caffeine-in-hair-tonics-what-to-ask',
+      'azulene-for-sensitive-scalp',
+      'rosemary-in-scalp-formulas-what-to-specify',
+      'tea-tree-and-peppermint-in-scalp-care',
+      'centella-and-asiaticoside-for-scalp',
+      'karanja-and-neem-in-hair-oils',
+    ],
+  },
+  {
+    key: 'formulation',
+    slugs: [
+      'scalp-scaler-what-is-inside',
+      'shampoo-base-what-to-ask-the-factory',
+      'leave-in-vs-rinse-off-where-actives-work',
+      'stick-format-in-scalp-care',
+    ],
+  },
 ];

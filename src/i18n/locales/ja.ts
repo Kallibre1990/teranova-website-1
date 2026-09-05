@@ -309,6 +309,9 @@ const ja: DeepPartial<UIDict> = {
       lead_pro: "プロ向けライン",
       no_positions: "品目は公開されていません。ライン構成はご請求に応じてお送りします。",
       articles_h: "関連記事",
+      art_overview: "カテゴリー概観",
+      art_actives: "有効成分",
+      art_formulation: "処方と形態",
       cta_h: "お探しのものが見つからない場合",
       cta_p: "ご要望をお知らせください。市場、数量、書類の要件に合うメーカーをお探しします。",
       notes: {

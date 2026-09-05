@@ -317,6 +317,9 @@ const zh: DeepPartial<UIDict> = {
       lead_pro: "专业线",
       no_positions: "品项尚未公开。产品线构成可应要求索取。",
       articles_h: "相关文章",
+      art_overview: "品类综述",
+      art_actives: "活性成分",
+      art_formulation: "配方与形态",
       cta_h: "没有找到需要的",
       cta_p: "请说明您的需求，我们会按您的市场、数量和文件要求寻找制造商。",
       notes: {
