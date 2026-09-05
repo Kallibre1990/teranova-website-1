@@ -188,6 +188,7 @@ const it: DeepPartial<UIDict> = {
       read_more: "Leggi",
       related_h: "Correlati",
       supplier_articles_h: "Articoli utili",
+      uses_h: "Dove viene usato",
     },
     catalog: {
       title: "Catalogo delle direzioni",

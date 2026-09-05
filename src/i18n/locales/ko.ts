@@ -218,6 +218,7 @@ export const ko: UIDict = {
       read_more: "읽기",
       related_h: "관련 글",
       supplier_articles_h: "유용한 아티클",
+      uses_h: "어디에 쓰이는지",
     },
     catalog: {
       title: '분야 카탈로그',

@@ -38,6 +38,11 @@ export interface BlogPost {
   supplier?: string;
   /** Optional hero image (path under /public), language-neutral. */
   hero?: string;
+  /** Где действующее вещество применяется: компания и её позиции. Список ведём
+      руками по данным поставщиков — вывести его из текста статьи нельзя, а
+      ошибка здесь означала бы приписанный компании состав. Названия позиций
+      языконезависимы, поэтому поле лежит рядом со slug, а не внутри i18n. */
+  uses?: { supplier: string; items: string[] }[];
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 

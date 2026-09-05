@@ -134,8 +134,15 @@ export const stepCount = (step: HairStep): number =>
 
 /** Статьи блога по теме — порядок от общего к частному. */
 export const hairArticles = [
+  /* Обзорные — от общего к частному */
   'korean-scalp-care-category',
   'heribon-four-step-routine',
   'professional-scalp-boosters',
+  /* Действующие вещества: у каждой статьи есть блок «где это применяется»
+     со списком компаний и позиций, поэтому они держатся вместе. */
   'wnt-cxxc5-scalp-science',
+  'ptd-dbm-peptide-what-a-buyer-should-know',
+  'ky19382-in-home-scalp-care',
+  'caffeine-in-hair-tonics-what-to-ask',
+  'azulene-for-sensitive-scalp',
 ];

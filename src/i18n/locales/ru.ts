@@ -274,6 +274,7 @@ export const ru = {
       read_more: "Читать",
       related_h: "Читайте также",
       supplier_articles_h: "Полезные статьи",
+      uses_h: "Где это применяется",
     },
     catalog: {
       title: 'Каталог направлений',

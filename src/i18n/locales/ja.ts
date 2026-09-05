@@ -180,6 +180,7 @@ const ja: DeepPartial<UIDict> = {
       read_more: "読む",
       related_h: "関連記事",
       supplier_articles_h: "役立つ記事",
+      uses_h: "どこで使われているか",
     },
     cosmetics: {
       intro_sup: "化粧品 · K-BEAUTY",

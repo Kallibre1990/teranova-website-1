@@ -188,6 +188,7 @@ const tr: DeepPartial<UIDict> = {
       read_more: "Oku",
       related_h: "İlgili içerikler",
       supplier_articles_h: "Faydalı içerikler",
+      uses_h: "Nerede kullanılıyor",
     },
     cosmetics: {
       intro_sup: "KOZMETİK · K-BEAUTY",

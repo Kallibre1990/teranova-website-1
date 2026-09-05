@@ -180,6 +180,7 @@ const fr: DeepPartial<UIDict> = {
       read_more: "Lire",
       related_h: "À lire aussi",
       supplier_articles_h: "Articles utiles",
+      uses_h: "Où cet actif est utilisé",
     },
     catalog: {
       title: "Catalogue des secteurs",
