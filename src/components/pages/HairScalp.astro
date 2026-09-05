@@ -1,0 +1,321 @@
+---
+/* Подборка «Волосы и кожа головы» — срез каталога внутри косметики.
+
+   Страница отвечает не на вопрос «кто у вас есть» (на него отвечает категория),
+   а на вопрос «закрываете ли вы полку». Отсюда строение:
+
+   1. Карта покрытия — пять шагов ухода с числом позиций. Одна строка, без
+      фотографий: покупатель за секунду видит, что цепочка закрыта целиком.
+   2. По блоку на компанию, каждый в её собственных цветах. Порядок и уровни
+      те же, что в каталоге, но компания не теряется в общей сетке.
+
+   Материал у компаний разный, и блок подстраивается под него, а не наоборот:
+   где есть снимки — карточки с фотографиями, где есть позиции без снимков —
+   наборные карточки, где нет ни того ни другого — блок без ряда вовсе.
+   Подставлять чужие фотографии или выдумывать позиции нельзя.
+
+   Тексты лежат в словарях, состав — в data/hair-scalp.ts. */
+import PageHead from './PageHead.astro';
+import Atmosphere from '../visual/Atmosphere.astro';
+import { localizePath, anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { hairScalp, hairTiers, hairSteps, stepCount, hairArticles, type HairTier } from '../../data/hair-scalp';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { postBySlug, postContent } from '../../data/blog';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const p = t.pages.hairscalp;
+
+const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in: '🇮🇳' };
+const countryName = (key: string) => t.countries.list.find((c) => c.key === key)?.name ?? '';
+const statusInfo = {
+  visited: { cls: 'badge--visited', label: t.verify.card_visited_t },
+  provided: { cls: 'badge--provided', label: t.verify.card_provided_t },
+} as const;
+
+const tierTitle: Record<HairTier, string> = { brands: p.tier_brands, oem: p.tier_oem, materials: p.tier_materials };
+const tierNote: Record<HairTier, string> = { brands: p.tier_brands_note, oem: p.tier_oem_note, materials: p.tier_materials_note };
+const notes = p.notes as Record<string, string>;
+
+/* Если профиль снят с публикации, блок исчезает сам, а сборка не падает. */
+const rows = hairScalp.map((e) => ({ e, s: supplierBySlug(e.slug)! })).filter((r) => Boolean(r.s));
+const byTier = (tier: HairTier) => rows.filter((r) => r.e.tier === tier);
+
+/* Фирменный цвет для мелкого текста выбираем по контрасту, а не по назначению.
+   У DUFT&DOFT «sky» — жёлтый #f2c500, и на их же кремовом фоне строка бренда
+   почти не читается. Берём первый цвет из ряда, который даёт хотя бы 3.5:1;
+   порог ниже канонических 4.5, иначе тёмно-бирюзовый CK Regeon тоже улетел бы
+   в почти чёрный, а вместе с ним пропала бы вся фирменность. */
+const lum = (hex: string): number => {
+  const h = hex.replace('#', '');
+  const v = h.length === 3 ? h.split('').map((c) => c + c).join('') : h;
+  const ch = [0, 2, 4].map((i) => {
+    const c = parseInt(v.slice(i, i + 2), 16) / 255;
+    return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2];
+};
+const ratio = (a: string, b: string): number => {
+  const [hi, lo] = [lum(a), lum(b)].sort((m, n) => n - m);
+  return (hi + 0.05) / (lo + 0.05);
+};
+const readable = (bg: string, cands: string[]): string =>
+  cands.find((c) => ratio(c, bg) >= 3.5) ?? cands[cands.length - 1];
+
+const articles = hairArticles.map((slug) => postBySlug(slug)).filter((a): a is NonNullable<typeof a> => Boolean(a));
+---
+
+<PageHead sup={p.sup} title={p.title} sub={p.sub} deep="cosmetics" />
+
+{/* Заявка: что закрываем */}
+<section class="section section--navy hs">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <a class="back" href={localizePath('/catalog', lang)}>
+      <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+      {p.back}
+    </a>
+
+    <div class="hs__intro">
+      <h2 class="lvl">{p.intro_h}</h2>
+      {p.intro_p.map((x) => <p class="hs__lead">{x}</p>)}
+    </div>
+
+    <h2 class="lvl">{p.map_h}</h2>
+    <p class="hs__tnote">{p.map_sub}</p>
+    <ol class="hs-map">
+      {hairSteps.map((st) => (
+        <li class="hs-map__i">
+          <span class="hs-map__n">{stepCount(st)}</span>
+          <span class="hs-map__l">{p.steps[st]}</span>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+{hairTiers.map((tier) => {
+  const list = byTier(tier);
+  if (!list.length) return null;
+  return (
+    <>
+      <section class="section section--navy hs-t">
+        <Atmosphere variant="dark" />
+        <div class="wrap">
+          <h2 class="lvl">{tierTitle[tier]}</h2>
+          <p class="hs__tnote">{tierNote[tier]}</p>
+        </div>
+      </section>
+
+      {list.map(({ e, s }) => {
+        const sc = supplierContent(s, lang);
+        const shots = e.items.filter((i) => i.img);
+        const plain = e.items.filter((i) => !i.img);
+        const routine = e.routine ? e.items.filter((i) => i.step !== 'pro') : [];
+        const pro = e.routine ? e.items.filter((i) => i.step === 'pro') : [];
+        /* Оговорка нужна там, где мы назвали марку по волосам, но позиций не
+           показываем: у HEEYUL линия есть, состав нам не передавали. Поставщику
+           сырья такая строка ни к чему — у него линии и нет. */
+        const disclose = e.items.length === 0 && Boolean(e.brand);
+        const bc = s.brandColors;
+        return (
+          <section
+            class="hs-b"
+            style={`--bb:${bc.bg}; --bd:${bc.deep}; --ba:${bc.accent}; --bk:${readable(bc.bg, [bc.sky, bc.accent, bc.deep])}; --bt:${readable('#ffffff', [bc.sky, bc.accent, bc.deep])}`}
+          >
+            <div class="wrap">
+              <div class="hs-b__top">
+                <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+                <span class="hs-b__geo">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
+              </div>
+
+              <h2 class="hs-b__nm">{s.name}</h2>
+              <p class="hs-b__br">{e.brand ?? s.brand}</p>
+              <p class="hs-b__note">{notes[s.slug]}</p>
+
+              {e.routine ? (
+                <>
+                  <h3 class="hs-b__h">{p.lead_routine}</h3>
+                  <ol class="hs-b__row">
+                    {routine.map((it, i) => (
+                      <li class="hs-b__p">
+                        <span class="hs-b__num">{i + 1}</span>
+                        <span class="hs-b__shot">
+                          {it.img && <img src={it.img} alt={it.name} width="240" height="300" loading="lazy" decoding="async" />}
+                        </span>
+                        <span class="hs-b__pn">{it.short ?? it.name}</span>
+                        {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                      </li>
+                    ))}
+                  </ol>
+                  {pro.length > 0 && (
+                    <>
+                      <h3 class="hs-b__h">{p.lead_pro}</h3>
+                      <div class="hs-b__row hs-b__row--wide">
+                        {pro.map((it) => (
+                          <div class="hs-b__p hs-b__p--wide">
+                            <span class="hs-b__shot hs-b__shot--sm">
+                              {it.img && <img src={it.img} alt={it.name} width="200" height="250" loading="lazy" decoding="async" />}
+                            </span>
+                            <span class="hs-b__ptxt">
+                              <span class="hs-b__pn">{it.short ?? it.name}</span>
+                              {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </>
+              ) : e.items.length > 0 ? (
+                <>
+                  <h3 class="hs-b__h">{p.positions_h}</h3>
+                  <ul class="hs-b__row">
+                    {shots.map((it) => (
+                      <li class="hs-b__p">
+                        <span class="hs-b__shot">
+                          <img src={it.img} alt={it.name} width="240" height="300" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="hs-b__pn">{it.short ?? it.name}</span>
+                        {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                      </li>
+                    ))}
+                    {plain.map((it) => (
+                      <li class="hs-b__p hs-b__p--txt">
+                        <span class="hs-b__rule" />
+                        <span class="hs-b__pn">{it.short ?? it.name}</span>
+                        {it.volume && <span class="hs-b__pv">{it.volume}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+
+              {disclose && <p class="hs-b__empty">{p.no_positions}</p>}
+
+              <a class="hs-b__go" href={localizePath(`/catalog/${s.slug}`, lang)}>{sc.ui.more}</a>
+            </div>
+          </section>
+        );
+      })}
+    </>
+  );
+})}
+
+<section class="section section--navy hs">
+  <Atmosphere variant="dark" />
+  <div class="wrap">
+    <div class="hs__cta">
+      <div class="hs__cta-txt">
+        <h2 class="hs__cta-h">{p.cta_h}</h2>
+        <p class="hs__cta-p">{p.cta_p}</p>
+      </div>
+      <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+    </div>
+  </div>
+</section>
+
+{articles.length > 0 && (
+  <section class="section hs-art">
+    <div class="wrap">
+      <h2 class="lvl lvl--dark">{p.articles_h}</h2>
+      <ul class="hs-art__list">
+        {articles.map((a) => {
+          const c = postContent(a, lang);
+          return (
+            <li>
+              <a href={localizePath(`/blog/${a.slug}`, lang)}>
+                <span class="hs-art__t">{c.title}</span>
+                <span class="hs-art__x">{c.excerpt}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .back { display: inline-flex; align-items: center; gap: 7px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); margin-bottom: 26px; }
+  .lvl { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); margin-bottom: 12px; }
+  .lvl--dark { color: #7c8aa0; }
+
+  .hs__intro { max-width: 68ch; margin-bottom: 44px; }
+  .hs__lead { font-size: 1rem; color: var(--silver); line-height: 1.7; margin-top: 10px; }
+  .hs__tnote { font-size: 0.92rem; color: var(--silver-muted); line-height: 1.6; max-width: 68ch; }
+
+  /* Полоса уровня между группами компаний — узкая, только заголовок и строка */
+  .hs-t { padding-top: clamp(40px, 5vw, 62px); padding-bottom: clamp(28px, 3.4vw, 40px); }
+
+  /* Карта покрытия: пять шагов ухода, слева направо в порядке применения */
+  .hs-map { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; list-style: none; padding: 0; margin: 18px 0 0; }
+  .hs-map__i { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 20px 18px; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); }
+  .hs-map__i + .hs-map__i::before { content: ''; position: absolute; left: -12px; top: 50%; width: 12px; height: 1px; background: rgba(255, 255, 255, 0.18); }
+  .hs-map__n { font-size: 2rem; font-weight: 800; color: #fff; line-height: 1; }
+  .hs-map__l { font-size: 0.84rem; color: var(--silver-muted); line-height: 1.45; }
+
+  /* ── Блок компании в её фирменных цветах ───────────────────────────────── */
+  .hs-b { background: var(--bb); color: var(--bd); padding: clamp(44px, 5.6vw, 76px) 0; border-top: 4px solid var(--ba); }
+  .hs-b__top { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin-bottom: 20px; }
+  .hs-b__geo { font-size: 0.8rem; color: color-mix(in srgb, var(--bd) 62%, transparent); white-space: nowrap; }
+  .hs-b__nm { font-size: clamp(1.5rem, 3vw, 2.15rem); font-weight: 800; color: var(--bd); line-height: 1.1; }
+  .hs-b__br { font-size: 0.95rem; font-weight: 700; color: var(--bk); margin-top: 6px; letter-spacing: 0.02em; }
+  .hs-b__note { font-size: 1rem; line-height: 1.7; color: var(--bd); opacity: 0.86; max-width: 74ch; margin-top: 16px; }
+  .hs-b__h { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bk); margin-top: 40px; margin-bottom: 16px; }
+  .hs-b__empty { font-size: 0.9rem; font-style: italic; color: color-mix(in srgb, var(--bd) 64%, transparent); margin-top: 22px; }
+
+  /* Ряд позиций: карточки держат свою ширину, поэтому две штуки не растягиваются
+     на всю строку, а стоят слева — как начало полки, а не как пустая витрина. */
+  .hs-b__row { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; margin: 0; }
+  .hs-b__p { position: relative; flex: 0 1 216px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 22px 14px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--bd) 12%, transparent); border-radius: var(--r-lg); }
+  .hs-b__p--txt { align-items: flex-start; text-align: left; justify-content: flex-end; min-height: 132px; padding: 20px; }
+  .hs-b__p--wide { flex: 0 1 auto; flex-direction: row; align-items: center; gap: 22px; padding: 20px 28px 20px 20px; text-align: left; }
+  .hs-b__num { position: absolute; top: 12px; left: 14px; font-size: 0.78rem; font-weight: 800; color: var(--bt); }
+  .hs-b__rule { display: block; width: 34px; height: 3px; border-radius: 2px; background: var(--ba); margin-bottom: 14px; }
+  .hs-b__shot { display: grid; place-items: center; height: 190px; }
+  .hs-b__shot img { max-height: 190px; max-width: 100%; width: auto; object-fit: contain; }
+  .hs-b__shot--sm { height: 150px; }
+  .hs-b__shot--sm img { max-height: 150px; }
+  .hs-b__ptxt { text-align: left; }
+  .hs-b__ptxt .hs-b__pn { margin-top: 0; }
+  .hs-b__pn { display: block; font-size: 0.94rem; font-weight: 700; color: var(--bd); margin-top: 14px; line-height: 1.35; }
+  .hs-b__p--txt .hs-b__pn { margin-top: 0; }
+  .hs-b__pv { display: block; font-size: 0.82rem; color: color-mix(in srgb, var(--bd) 62%, transparent); margin-top: 4px; }
+
+  .hs-b__go { display: inline-flex; align-items: center; gap: 8px; margin-top: 34px; font-size: 0.92rem; font-weight: 800; color: var(--bd); border-bottom: 2px solid var(--ba); padding-bottom: 3px; }
+  .hs-b__go:hover { color: var(--bk); }
+
+  .hs__cta { display: flex; align-items: center; justify-content: space-between; gap: 22px; flex-wrap: wrap; }
+  .hs__cta-txt { flex: 1 1 420px; min-width: 0; max-width: 62ch; }
+  .hs__cta-h { font-size: 1.15rem; font-weight: 800; color: #fff; }
+  .hs__cta-p { font-size: 0.94rem; color: var(--silver); line-height: 1.65; margin-top: 7px; }
+  .hs__cta .btn { flex: none; }
+
+  .hs-art__list { display: grid; gap: 14px; list-style: none; padding: 0; margin: 0; }
+  .hs-art__list a { display: block; padding: 16px 18px; border: 1px solid #e4ebf3; border-radius: var(--r); transition: border-color .2s, box-shadow .2s; }
+  .hs-art__list a:hover { border-color: var(--cobalt); box-shadow: 0 10px 26px rgba(18, 48, 110, 0.08); }
+  .hs-art__t { display: block; font-weight: 800; color: var(--cobalt); font-size: 1rem; }
+  .hs-art__x { display: block; font-size: 0.9rem; color: #55637a; line-height: 1.6; margin-top: 6px; }
+
+  @media (max-width: 1000px) {
+    .hs-map { grid-template-columns: repeat(3, 1fr); }
+    .hs-map__i + .hs-map__i::before { display: none; }
+  }
+  @media (max-width: 760px) {
+    .hs-map { grid-template-columns: repeat(2, 1fr); }
+    .hs__cta { flex-direction: column; align-items: stretch; }
+    /* Две карточки в ряд, а не одна: при одной четыре шага ухода растягиваются
+       на полтора экрана, и у семи компаний страница перестаёт пролистываться. */
+    .hs-b__p { flex: 1 1 calc(50% - 8px); padding: 18px 10px 16px; }
+    .hs-b__shot { height: 132px; }
+    .hs-b__shot img { max-height: 132px; }
+    .hs-b__pn { font-size: 0.86rem; }
+    .hs-b__p--wide { flex: 1 1 100%; flex-direction: column; align-items: flex-start; gap: 14px; }
+    .hs-b__p--txt { min-height: 108px; }
+  }
+</style>

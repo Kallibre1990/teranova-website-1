@@ -77,6 +77,8 @@ async function render(name, opts) {
 const CATS = {
   marine: 'Marine supply', cosmetics: 'Cosmetics & care (OEM/ODM)', medical: 'Medical & aesthetics',
   industrial: 'Industrial equipment', transport: 'Commercial & special vehicles', adjacent: 'Adjacent sectors', chemical: 'Chemicals & materials',
+  /* Не категория каталога, а подборка внутри косметики — карточка ей нужна такая же. */
+  'hair-scalp': 'Hair & scalp care',
 };
 const SUPPLIERS = {
   sante: { eyebrow: 'Supplier profile', title: 'SANTE COSMETICS · Dr.SANTE — Korean aesthetic skincare' },

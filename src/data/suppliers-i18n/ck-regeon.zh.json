@@ -1,112 +1,112 @@
 {
- "content": {
-  "tagline": "恢复头皮与头发平衡的科学依据",
-  "descriptor": "韩国生物科技企业:旗下品牌 HAIRREGEON 与 HERIBON",
-  "origin": "韩国",
-  "about": [
-   "CK Regeon Inc. 是一家韩国生物技术公司，2016 年成立于首尔延世工学院。公司由 Wnt 信号通路研究者、拥有二十余年再生科学经验的崔康烈教授领导。其化妆品业务统一在 DermaRegeon 名下，分为两条产品线：面向专业渠道的 HAIRREGEON 和面向日常居家护理的 HERIBON。",
-   "这两条产品线的背后，是十年的 Wnt 信号通路研究、在美国、欧盟、韩国和中国的 5 项专利，以及公司所述在 9 个国家完成的法规备案。「WNT ON」技术通过 CXXC5 蛋白发挥作用：PTD-DBM 与 KY19382 干扰 CXXC5 与 Dishevelled 的结合，恢复头皮细胞中被抑制的 Wnt/β-catenin 信号。该机制已发表于同行评审期刊：Journal of Investigative Dermatology（2017）、British Journal of Pharmacology（2020、2021）、Cells（2023）与 Journal of Experimental Medicine（2015）。",
-   "为便于准确沟通需说明：已发表的研究在细胞培养、离体与先导观察等临床前层面描述成分的作用机制，并不证明成品的临床功效。HAIRREGEON 与 HERIBON 按化妆品而非医疗器械生产和销售，也不作为脱发治疗手段进行宣传。"
-  ],
-  "facts": [
-   "生物技术公司，2016 年成立",
-   "5 项专利：美国、欧盟、韩国、中国",
-   "发表于 JID、BJP、Cells 与 JEM",
-   "9 个国家的注册与备案",
-   "两个品牌：HAIRREGEON 与 HERIBON"
-  ],
-  "channels": [
-   "化妆品进口商与经销商",
-   "药房与专业零售连锁",
-   "沙龙、皮肤科诊所与头皮护理机构",
-   "电商平台与线上渠道"
-  ],
-  "lines": [
-   {
-    "name": "HAIRREGEON",
-    "note": "面向诊所、沙龙与头皮护理机构的专业强效头皮护理线。旗舰产品为 PTD-DBM Hair Booster：由 200 mg 冻干粉末瓶与 5 mL 溶解液瓶组成的双剂型套装，每盒五套。使用前现配；公司建议配合 0.5–1.5 mm MTS 微针、每两周一次，并指出通常在十二周疗程后可观察到明显变化。按 ISO 22716 生产，保质期 36 个月。"
-   },
-   {
-    "name": "HERIBON",
-    "note": "「WNT ON」日常居家护理四步产品线，按使用顺序为：头皮去角质 300 mL、洗发水 500 mL、护发膜 250 mL 与免洗头皮精华 50 mL。适用于敏感、油性与干性等各种头皮，不含对羟基苯甲酸酯、硫酸盐与人工色素。未开封保质期 36 个月，开封后公司建议在 12 个月内用完。"
-   }
-  ],
-  "tech": [
-   {
-    "name": "「WNT ON」技术",
-    "note": "公司自主研发。PTD-DBM 与 KY19382 抑制被公司认定为脱发关键因子的 CXXC5，恢复头皮细胞中被抑制的 Wnt/β-catenin 信号，使通路从「WNT OFF」转为「WNT ON」。"
-   },
-   {
-    "name": "PTD-DBM 多肽",
-    "note": "专业线 HAIRREGEON 的活性成分。其竞争性结合 CXXC5 的机制在 Journal of Investigative Dermatology（2017）论文中以临床前水平进行了描述。"
-   },
-   {
-    "name": "MetaAct 与 KY19382",
-    "note": "MetaAct 是 PKM2 激活剂，在 HAIRREGEON 中与 PTD-DBM 协同，增强 Wnt 通路的激活。KY19382 是 HERIBON 的活性成分，已在美国、欧盟、韩国与中国获得专利；HERIBON 产品的红色调来自 KY19382 本身，而非色素。"
-   },
-   {
-    "name": "专利与论文",
-    "note": "在美国、欧盟、韩国与中国注册的 5 项专利，涵盖 WNT Hair 组合物与 PTD-DBM 多肽本身。机制见于四本同行评审期刊：Journal of Investigative Dermatology（2017）、British Journal of Pharmacology（2020、2021）、Cells（2023）与 Journal of Experimental Medicine（2015）。"
-   }
-  ],
-  "formats": [
-   "安瓶与强化精华",
-   "洗发水",
-   "头皮去角质产品(头皮焕肤)",
-   "护发膜与护发产品",
-   "头皮精华水"
-  ],
-  "exportNote": "公司化妆品品牌于 2025 年推出，参加国际行业展会并持续拓展分销。据公司所述，东南亚、欧洲与独联体的部分市场已由独家及有条件独家协议覆盖。可开放的区域与具体市场条件在询价阶段通过 Teranova 确认。",
-  "terms": [
-   {
-    "label": "合作方式",
-    "value": "HAIRREGEON 与 HERIBON 品牌成品批发供应。OEM/ODM 可应要求商谈。"
-   },
-   {
-    "label": "区域",
-    "value": "部分市场已由独家及有条件独家协议覆盖。可开放区域在询价阶段确认。"
-   },
-   {
-    "label": "数量与价格",
-    "value": "最低数量与价格在询价阶段确认。价格表不予公开。"
-   },
-   {
-    "label": "合作流程",
-    "value": "询价 → Teranova 审核与对接 → 商务谈判与样品 → 物流、清关与付款一站式支持。"
-   }
-  ],
-  "consentNote": "本页信息与素材由 CK Regeon Inc. 提供，并经其书面同意在保留原始内容的前提下发布。价格表不予公开。不公开制造商的直接联系方式。Teranova 负责协调并全程支持交易。",
-  "seoTitle": "CK Regeon（DermaRegeon）— 韩国头皮护理 · Teranova",
-  "seoDesc": "CK Regeon — 拥有 HAIRREGEON 与 HERIBON 的韩国生物技术公司：WNT ON 技术，美国、欧盟、韩国与中国 5 项专利，MoCRA、CPNP、SCPN 与 Dermatest 注册。通过 Teranova 进行批发供应与交易支持。",
-  "catalog_notes": [
-   "用于强效头皮护理的专业双剂型套装：一瓶 200 mg 冻干 PTD-DBM 粉末与一瓶 5 mL 溶解液。使用前将第二瓶内容物移入第一瓶并完全溶解。按公司方案，院内标准用量为每次中胚层疗法约 5 mL，并根据弥漫性或局部脱发及头皮敏感度调整。公司列出的禁忌包括：成分过敏；头皮活动性感染、银屑病、湿疹或开放性创口；以及作为预防措施的妊娠与哺乳期。每盒 5 套。",
-   "「WNT ON」日常洗发水，是去角质之后四步护理的第二步。温和清洁头皮与头发，留下清爽轻盈的感受。不含对羟基苯甲酸酯、硫酸盐与人工色素。500 mL。",
-   "头皮去角质是第一步：按摩 2–3 分钟后冲洗，在主要护理之前清除头皮角质与多余油脂。300 mL。",
-   "「WNT ON」护发膜为第三步：柔顺、补水、易于梳理，令头发更显丰盈。250 mL。",
-   "免洗头皮精华为护理的最后一步，每周使用 2–3 次。均匀涂抹、无需冲洗，不留黏腻感。50 mL。"
-  ]
- },
- "ui": {
-  "profile_sup": "供应商简介",
-  "about_h": "公司简介",
-  "for_whom": "适合对象:",
-  "lines_h": "公司品牌",
-  "catalog_h": "产品目录",
-  "tech_h": "技术与科学依据",
-  "products_h": "产品",
-  "products_note": "HAIRREGEON 与 HERIBON 品牌提供头皮与头发的化妆品级护理产品。",
-  "formats_h": "产品形态",
-  "export_h": "出口与市场",
-  "terms_h": "合作条件",
-  "download_btn": "下载合作条件(PDF)",
-  "pres_btn": "下载企业介绍(PDF)",
-  "terms_disc": "数量与条件在询价阶段通过 Teranova 确认。价格表不予公开，也不公开制造商的直接联系方式。产品按化妆品呈现；所述研究关于成分的作用机制，属临床前性质。",
-  "cta_h": "对该供应商感兴趣?",
-  "cta_d": "请与我们联系——Teranova 将从首次接洽到最终交付,全程安排谈判、审核并跟进交易。",
-  "cta_btn": "通过 Teranova 联系",
-  "more": "查看详情 →",
-  "verified_suppliers": "已核实供应商",
-  "certs_h": "证书与注册信息",
-  "certs_note": "由公司自行声明。相关证明文件及注册资料副本将在交易阶段提供。注册或备案并不代表监管机构的批准。"
- }
+  "content": {
+    "tagline": "恢复头皮与头发平衡的科学依据",
+    "descriptor": "韩国生物科技企业:旗下品牌 HAIRREGEON 与 HERIBON",
+    "origin": "韩国",
+    "about": [
+      "CK Regeon Inc. 是一家韩国生物技术公司，2016 年成立于首尔延世工学院。公司由 Wnt 信号通路研究者、拥有二十余年再生科学经验的崔康烈教授领导。其化妆品业务统一在 DermaRegeon 名下，分为两条产品线：面向专业渠道的 HAIRREGEON 和面向日常居家护理的 HERIBON。",
+      "这两条产品线的背后，是十年的 Wnt 信号通路研究、在美国、欧盟、韩国和中国的 5 项专利，以及公司所述在 9 个国家完成的法规备案。「WNT ON」技术通过 CXXC5 蛋白发挥作用：PTD-DBM 与 KY19382 干扰 CXXC5 与 Dishevelled 的结合，恢复头皮细胞中被抑制的 Wnt/β-catenin 信号。该机制已发表于同行评审期刊：Journal of Investigative Dermatology（2017）、British Journal of Pharmacology（2020、2021）、Cells（2023）与 Journal of Experimental Medicine（2015）。",
+      "为便于准确沟通需说明：已发表的研究在细胞培养、离体与先导观察等临床前层面描述成分的作用机制，并不证明成品的临床功效。HAIRREGEON 与 HERIBON 按化妆品而非医疗器械生产和销售，也不作为脱发治疗手段进行宣传。"
+    ],
+    "facts": [
+      "生物技术公司，2016 年成立",
+      "5 项专利：美国、欧盟、韩国、中国",
+      "发表于 JID、BJP、Cells 与 JEM",
+      "9 个国家的注册与备案",
+      "两个品牌：HAIRREGEON 与 HERIBON"
+    ],
+    "channels": [
+      "化妆品进口商与经销商",
+      "药房与专业零售连锁",
+      "沙龙、皮肤科诊所与头皮护理机构",
+      "电商平台与线上渠道"
+    ],
+    "lines": [
+      {
+        "name": "HAIRREGEON",
+        "note": "面向诊所、沙龙与头皮护理机构的专业强效头皮护理线。旗舰产品为 PTD-DBM Hair Booster：由 200 mg 冻干粉末瓶与 5 mL 溶解液瓶组成的双剂型套装，每盒五套。使用前现配；公司建议配合 0.5–1.5 mm MTS 微针、每两周一次，并指出通常在十二周疗程后可观察到明显变化。按 ISO 22716 生产，保质期 36 个月。"
+      },
+      {
+        "name": "HERIBON",
+        "note": "「WNT ON」日常居家护理四步产品线，按使用顺序为：头皮去角质 300 mL、洗发水 500 mL、护发膜 250 mL 与免洗头皮精华 50 mL。适用于敏感、油性与干性等各种头皮，不含对羟基苯甲酸酯、硫酸盐与人工色素。未开封保质期 36 个月，开封后公司建议在 12 个月内用完。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "「WNT ON」技术",
+        "note": "公司自主研发。PTD-DBM 与 KY19382 抑制被公司认定为脱发关键因子的 CXXC5，恢复头皮细胞中被抑制的 Wnt/β-catenin 信号，使通路从「WNT OFF」转为「WNT ON」。"
+      },
+      {
+        "name": "PTD-DBM 多肽",
+        "note": "专业线 HAIRREGEON 的活性成分。其竞争性结合 CXXC5 的机制在 Journal of Investigative Dermatology（2017）论文中以临床前水平进行了描述。"
+      },
+      {
+        "name": "MetaAct 与 KY19382",
+        "note": "MetaAct 是 PKM2 激活剂，在 HAIRREGEON 中与 PTD-DBM 协同，增强 Wnt 通路的激活。KY19382 是 HERIBON 的活性成分，已在美国、欧盟、韩国与中国获得专利；HERIBON 产品的红色调来自 KY19382 本身，而非色素。"
+      },
+      {
+        "name": "专利与论文",
+        "note": "在美国、欧盟、韩国与中国注册的 5 项专利，涵盖 WNT Hair 组合物与 PTD-DBM 多肽本身。机制见于四本同行评审期刊：Journal of Investigative Dermatology（2017）、British Journal of Pharmacology（2020、2021）、Cells（2023）与 Journal of Experimental Medicine（2015）。"
+      }
+    ],
+    "formats": [
+      "安瓶与强化精华",
+      "洗发水",
+      "头皮去角质产品(头皮焕肤)",
+      "护发膜与护发产品",
+      "头皮精华水"
+    ],
+    "exportNote": "公司化妆品品牌于 2025 年推出，参加国际行业展会并持续拓展分销。据公司所述，东南亚、欧洲与独联体的部分市场已由独家及有条件独家协议覆盖。可开放的区域与具体市场条件在询价阶段通过 Teranova 确认。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "HAIRREGEON 与 HERIBON 品牌成品批发供应。OEM/ODM 可应要求商谈。"
+      },
+      {
+        "label": "区域",
+        "value": "部分市场已由独家及有条件独家协议覆盖。可开放区域在询价阶段确认。"
+      },
+      {
+        "label": "数量与价格",
+        "value": "最低数量与价格在询价阶段确认。价格表不予公开。"
+      },
+      {
+        "label": "合作流程",
+        "value": "询价 → Teranova 审核与对接 → 商务谈判与样品 → 物流、清关与付款一站式支持。"
+      }
+    ],
+    "consentNote": "本页信息与素材由 CK Regeon Inc. 提供，并经其书面同意在保留原始内容的前提下发布。价格表不予公开。不公开制造商的直接联系方式。Teranova 负责协调并全程支持交易。",
+    "seoTitle": "CK Regeon（DermaRegeon）— 韩国头皮护理 · Teranova",
+    "seoDesc": "CK Regeon — 拥有 HAIRREGEON 与 HERIBON 的韩国生物技术公司：WNT ON 技术，美国、欧盟、韩国与中国 5 项专利，MoCRA、CPNP、SCPN 与 Dermatest 注册。通过 Teranova 进行批发供应与交易支持。",
+    "catalog_notes": [
+      "用于强效头皮护理的专业双剂型套装：一瓶 200 mg 冻干 PTD-DBM 粉末与一瓶 5 mL 溶解液。使用前将第二瓶内容物移入第一瓶并完全溶解。按公司方案，院内标准用量为每次中胚层疗法约 5 mL，并根据弥漫性或局部脱发及头皮敏感度调整。公司列出的禁忌包括：成分过敏；头皮活动性感染、银屑病、湿疹或开放性创口；以及作为预防措施的妊娠与哺乳期。每盒 5 套。",
+      "「WNT ON」日常洗发水，是去角质之后四步护理的第二步。温和清洁头皮与头发，留下清爽轻盈的感受。不含对羟基苯甲酸酯、硫酸盐与人工色素。500 mL。",
+      "头皮去角质是第一步：按摩 2–3 分钟后冲洗，在主要护理之前清除头皮角质与多余油脂。300 mL。",
+      "「WNT ON」护发膜为第三步：柔顺、补水、易于梳理，令头发更显丰盈。250 mL。",
+      "免洗头皮精华为护理的最后一步，每周使用 2–3 次。均匀涂抹、无需冲洗，不留黏腻感。50 mL。"
+    ]
+  },
+  "ui": {
+    "profile_sup": "供应商简介",
+    "about_h": "公司简介",
+    "for_whom": "适合对象:",
+    "lines_h": "公司品牌",
+    "catalog_h": "产品目录",
+    "tech_h": "技术与科学依据",
+    "products_h": "产品",
+    "products_note": "HAIRREGEON 与 HERIBON 品牌提供头皮与头发的化妆品级护理产品。",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件(PDF)",
+    "pres_btn": "下载企业介绍(PDF)",
+    "terms_disc": "数量与条件在询价阶段通过 Teranova 确认。价格表不予公开，也不公开制造商的直接联系方式。产品按化妆品呈现；所述研究关于成分的作用机制，属临床前性质。",
+    "cta_h": "对该供应商感兴趣?",
+    "cta_d": "请与我们联系——Teranova 将从首次接洽到最终交付,全程安排谈判、审核并跟进交易。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看简介 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "证书与注册信息",
+    "certs_note": "由公司自行声明。相关证明文件及注册资料副本将在交易阶段提供。注册或备案并不代表监管机构的批准。"
+  }
 }
