@@ -1570,6 +1570,10 @@ export const suppliers: SupplierProfile[] = [
        Hyaluron Serum сводная даёт 45 мл, карточка 40 мл. Вопрос задан компании.
        Фотографии есть только у шести позиций: снимки в PDF слиты со страницей и
        отдельными файлами не извлекаются, пакшоты запрошены. */
+    lineShots: {
+      'HUKSAMSOO Black Ginseng EX PDRN Shot 120':
+        '/img/suppliers/joycos/gallery/huksamsoo-pdrn-shot.jpg',
+    },
     catalog: joycosCatalog,
     /* Знаков не ставим: CPNP на десять позиций, функциональная маркировка KFDA
        и веганская пометка Magic Lash заявлены компанией и видны в её каталогах.
