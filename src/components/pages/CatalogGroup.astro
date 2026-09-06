@@ -96,20 +96,13 @@ const statusInfo = {
   ? <BeautyHero lang={lang} />
   : <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />}
 
-{/* «С чего начать» — второй экран, сразу за первым. Решение Антона от
-    06.09.2026: сначала покупатель выбирает свою задачу, и только потом
-    видит компании. До этого вторым стоял каталог поставщиков — на нём
-    посетитель попадал в список из двадцати шести карточек, не понимая,
-    какая из них про него. */}
+{/* Маршрут покупателя идёт сразу за первым экраном: четыре задачи, затем
+    отобранные истории, и только потом полный каталог ниже. */}
 {isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} />}
 
-{/* Проверенные поставщики — третьим экраном, сразу за задачами.
-    Список остаётся высоко: покупатель видит живые компании сразу после
-    выбора задачи и раньше, чем читает про то, как всё устроено. В исходной
-    вёрстке он стоял четвёртым, после вводного текста.
+{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
 
-    Вход в подборку по волосам остаётся внутри этого раздела перед списком —
-    это отдельное решение Антона от того же дня. */}
+{/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
 {isCosmetics && realForCat.length > 0 && (
   <section class="section section--navy bsc bsc--quality">
     <span class="bsc-scene" aria-hidden="true"></span>
@@ -195,10 +188,6 @@ const statusInfo = {
     </div>
   </section>
 )}
-
-
-
-{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
 
 {isCosmetics && <CosmeticsContent lang={lang} part="body" />}
 
