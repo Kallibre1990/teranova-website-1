@@ -7,15 +7,15 @@ export const pt: UIDict = {
 
   nav: {
     solar: "Usinas solares",
-    marine: 'Peças navais',
+    marine: 'Náutica',
     blog: "Conteúdos",
     catalog: 'Catálogo',
-    buyers: 'Para compradores',
+    buyers: 'Compradores',
     verify: 'Como verificamos',
     ondemand: 'Sob demanda',
     how: 'Como trabalhamos',
     presence: 'Onde estamos',
-    suppliers: 'Para fornecedores',
+    suppliers: 'Fornecedores',
     about: 'Sobre',
     faq: 'FAQ',
     contacts: 'Contato',
@@ -170,7 +170,7 @@ export const pt: UIDict = {
 
     sup: 'uma frente separada',
 
-    title: 'Peças para embarcações pequenas',
+    title: 'Náutica',
 
     body: 'Uma peça falha no iate, não há kit de manutenção e o modelo saiu de linha. O proprietário envia uma foto da placa de identificação — identificamos a peça, encontramos quem a tem e entregamos no porto dele. Um serviço separado, com site e recepção de pedidos próprios.',
 

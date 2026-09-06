@@ -4,7 +4,7 @@ import type { DeepPartial } from '../deep';
 const ja: DeepPartial<UIDict> = {
   nav: {
     solar: "太陽光メンテナンス",
-    marine: "船舶部品",
+    marine: 'ヨット',
     blog: "インサイト",
     catalog: "カタログ",
     verify: "検証の方法",
@@ -464,7 +464,7 @@ const ja: DeepPartial<UIDict> = {
 
   marine_home: {
     sup: "第二の柱",
-    title: "船外小型艇の部品",
+    title: "ヨット",
     body: "ヨットの部品が故障し、補修キットがなく型式は生産終了——所有者が銘板の写真を送り、部品を特定し、在庫を持つ相手を探して寄港地まで送る。専用サイトと窓口を持つ独立サービス。",
     cta: "Teranova Marineを開く",
   },
