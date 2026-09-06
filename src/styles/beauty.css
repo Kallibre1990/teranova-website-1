@@ -215,13 +215,20 @@ body[data-theme='beauty'] .btn--primary {
 }
 body[data-theme='beauty'] .btn--primary:hover { background: linear-gradient(180deg, #d0ae6b 0%, #b8914d 52%, #96733a 100%); transform: translateY(-1px); }
 body[data-theme='beauty'] .btn--ghost,
+/* Второстепенных кнопок на странице оказалось две разных: `.btn--outline` в
+   первом экране и `.btn--ghost` в блоках контента. Внешне это два разных
+   вида одного и того же действия — Антон 06.09.2026: «они отличаются,
+   подгони их». Приводим к одному: в бархатной теме ghost выглядит как
+   outline. Общий макет сайта не трогаем, правило под селектором темы. */
+body[data-theme='beauty'] .btn--ghost,
 body[data-theme='beauty'] .btn--outline {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(203, 212, 224, 0.34);
   color: var(--b-ink);
 }
 body[data-theme='beauty'] .btn--ghost:hover,
-body[data-theme='beauty'] .btn--outline:hover { border-color: var(--b-gold); color: var(--b-gold); }
+body[data-theme='beauty'] .btn--ghost:hover,
+body[data-theme='beauty'] .btn--outline:hover { border-color: var(--b-gold); color: var(--b-gold) !important; }
 /* Золото держим в пределах 2–4% площади: надзаголовки, главное действие и
    отдельные маркеры. Обычные ссылки — светлое серебро, золото приходит
    только на наведение. */
@@ -551,4 +558,32 @@ body[data-theme='beauty'] .btn--quiet:hover {
 body[data-theme='beauty'] .btn--quiet:focus-visible {
   outline: 2px solid var(--b-gold-lite);
   outline-offset: 2px;
+}
+
+/* ---- одинаковые кнопки на телефоне ----
+   Антон 06.09.2026: «где-то кнопка отцентрирована по середине, а где-то с
+   левого края, приведи их в одинаковый понятный вид».
+
+   Замер подтвердил: на 520 px кнопки первого экрана были 472 px во всю
+   ширину, «Каталог компаний» — 194 px по центру, «Запросить в этой
+   категории» — 268 px от левого края, «Запустить бьюти-бренд» — 238 px
+   почти по центру. Цвет при этом везде совпадал: разница была в ширине и
+   выключке, а не в цветокоррекции.
+
+   На узком экране кнопка во всю ширину — норма: палец попадает в неё
+   независимо от того, где он держит телефон. Одна ширина снимает и вопрос
+   выключки: центрировать нечего. */
+@media (max-width: 620px) {
+  body[data-theme='beauty'] main .btn {
+    width: 100%;
+    max-width: none;
+  }
+  /* Ряд кнопок разворачивается в столбик, иначе они делят ширину пополам. */
+  body[data-theme='beauty'] main .cos-btns,
+  body[data-theme='beauty'] main .group__head {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
 }
