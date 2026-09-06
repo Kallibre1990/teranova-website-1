@@ -22,7 +22,7 @@
  */
 import { anchorHref, localizePath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/ui';
-import { suppliers, showcaseImages } from '../../data/suppliers';
+import { suppliers, beautySuppliers, showcaseImages } from '../../data/suppliers';
 
 interface Props {
   lang: Lang;
@@ -69,7 +69,7 @@ const heroShots = HERO_BRANDS.map((slug) => {
         <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>Подобрать бренд и ассортимент</a>
         <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>Обсудить свою марку</a>
       </div>
-      <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>26 компаний в каталоге</a>
+      <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>{beautySuppliers.length} компаний в каталоге</a>
 
       <div class="bh__real">
         <span class="bh__real-cap">Настоящие снимки товара из каталога</span>

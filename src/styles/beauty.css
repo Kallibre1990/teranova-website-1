@@ -89,7 +89,21 @@ body[data-theme='beauty'] .section--alt::after { display: none; }
    Кадры — настоящие снимки товара поставщиков (`public/img/beauty/scenes`,
    мозаика из каталога) и наша редакционная иллюстрация там, где речь об общем
    процессе. Ни один кадр не выдаётся за съёмку конкретного места или визита. */
-body[data-theme='beauty'] .bsc { position: relative; isolation: isolate; overflow: hidden; }
+/* overflow: clip, а не hidden — и это не косметическая разница.
+   `hidden` делает элемент контейнером прокрутки, и `position: sticky`
+   внутри липнет к нему, а не к экрану: Codex замерил у слоя сцены
+   top = -8348 px в середине каталога, то есть фон уезжал вместе со
+   страницей. `clip` обрезает так же, но контейнера прокрутки не создаёт.
+   Строка с `hidden` оставлена запасом для Safari до 16-й версии: там слой
+   будет виден только в начале раздела, но ничего не сломается.
+   Секции наследуют `overflow: hidden` ещё и от `.section` в global.css,
+   поэтому переопределять надо именно здесь. */
+body[data-theme='beauty'] .bsc {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  overflow: clip;
+}
 body[data-theme='beauty'] .bsc > .wrap { position: relative; z-index: 1; }
 
 body[data-theme='beauty'] .bsc::before {
@@ -430,3 +444,18 @@ body[data-theme='beauty'] .hs-entry::after {
     background: linear-gradient(180deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.9) 52%, rgba(7,18,36,0.6) 100%);
   }
 }
+
+/* ---- почему липкий слой не липнул ----
+   Настоящая причина оказалась не в секции, а выше. В `global.css` у `html` и
+   `body` стоит `overflow-x: hidden`. По правилам CSS `hidden` по одной оси
+   заставляет вторую стать `auto`, поэтому `body` вычислялся как
+   `hidden auto` — то есть становился контейнером прокрутки. Липкий элемент
+   привязывается к ближайшему такому контейнеру, а `body` не прокручивается:
+   прокручивается окно. Слой оставался на месте и уезжал вместе со страницей —
+   Codex замерил top = -5797 px в середине каталога.
+
+   `clip` обрезает горизонтальный вылет так же, но контейнера прокрутки не
+   создаёт: вторая ось остаётся `visible`. Правило намеренно ограничено
+   бархатной темой — общий макет сайта не трогаем. */
+html:has(body[data-theme='beauty']),
+body[data-theme='beauty'] { overflow-x: clip; }

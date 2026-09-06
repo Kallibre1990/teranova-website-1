@@ -8,7 +8,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
-import { suppliers as realSuppliers, supplierContent, showcaseImages } from '../../data/suppliers';
+import { suppliers as realSuppliers, beautySuppliers, supplierContent, showcaseImages } from '../../data/suppliers';
 interface Props {
   lang: Lang;
   groupKey: CategoryKey;
@@ -26,7 +26,10 @@ const headSup = isCosmetics ? t.pages.cosmetics.intro_sup : t.categories.sup;
 const headTitle = isCosmetics ? t.pages.cosmetics.intro_title : group.name;
 const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 
-const realForCat = realSuppliers.filter((s) => s.category === groupKey);
+/* Beauty собирается из рубрики плюс упаковка и сырьё — см. beautySuppliers.
+   Остальные группы берут свою рубрику как есть. */
+const realForCat =
+  groupKey === 'cosmetics' ? beautySuppliers : realSuppliers.filter((s) => s.category === groupKey);
 /* Решение Антона 20.08.2026: демонстрационные карточки живут в группе только
    пока она пустая. Как только в направлении набирается три настоящих
    поставщика, выдуманные компании рядом с ними уже не заполняют витрину, а

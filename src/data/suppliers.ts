@@ -2018,3 +2018,14 @@ export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
   const all = [...out, ...rest];
   return [...all.filter(wellShaped), ...all.filter((s) => !wellShaped(s))].slice(0, n);
 };
+
+/* Витрина Beauty шире рубрики «косметика»: упаковка и сырьё нужны покупателю
+   в той же задаче, и в согласованной рамке они входят в каталог Beauty.
+   Обратное не верно — на своих страницах (смежные направления, химия) эти
+   компании остаются на месте, их URL не меняются.
+   Отсюда же берётся число компаний в тексте: считать руками нельзя, иначе
+   цифра разойдётся с витриной, как уже было с «26» при 24 карточках. */
+export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure'] as const;
+export const beautySuppliers = suppliers.filter(
+  (s) => s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug),
+);
