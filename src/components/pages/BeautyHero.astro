@@ -183,18 +183,19 @@ const { lang } = Astro.props;
 
   /* Панель выбора. Намеренно служебная на вид: она инструмент согласования,
      а не элемент дизайна, и не должна мешать оценивать сам экран. */
-  /* На широком экране панель не участвует в композиции вовсе: она
-     закреплена у нижнего края окна. Внутри секции она садилась на ссылку
-     «26 компаний», а любое увеличение отступов меняло бы саму вёрстку,
-     которую мы и сравниваем. */
+  /* Панель прижата к правому нижнему углу текстовой сетки.
+     `position: fixed` здесь не работает: у секции `overflow: hidden`, и
+     закреплённый потомок обрезается её контекстом — Codex замерил панель на
+     836–884 при секции до 757, то есть она лежала за границей и была не
+     видна вовсе. Абсолютное положение внутри `.wrap` держит её в первом
+     экране, справа от текста, не трогая сравниваемую геометрию. */
   .hpick {
-    position: fixed;
-    left: 16px; bottom: 16px;
-    z-index: 40;
-    max-width: calc(100vw - 32px);
+    position: absolute;
+    left: auto; right: 0; bottom: 0;
+    z-index: 4;
     display: flex; align-items: center; flex-wrap: wrap;
     gap: 8px;
-    max-width: 100%;
+    max-width: min(100%, 420px);
     padding: 8px 10px;
     border-radius: 6px;
     background: rgba(6, 15, 30, 0.84);
@@ -203,10 +204,7 @@ const { lang } = Astro.props;
     -webkit-backdrop-filter: blur(6px);
   }
   .hpick__t { font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(203, 212, 224, 0.66); }
-  /* На 320 px десять кнопок в строку не помещаются: даём прокрутку внутри
-     самой панели, чтобы страница не получила горизонтальный сдвиг. */
-  .hpick__row { display: flex; gap: 4px; overflow-x: auto; max-width: 100%; scrollbar-width: none; }
-  .hpick__row::-webkit-scrollbar { display: none; }
+  .hpick__row { display: flex; flex-wrap: wrap; gap: 4px; max-width: 100%; }
   .hpick__b {
     flex: 0 0 auto;
     font: inherit; font-size: 0.78rem; line-height: 1;
@@ -250,7 +248,12 @@ const { lang } = Astro.props;
     .bh__acts .btn { flex: 1 1 auto; justify-content: center; }
     /* В потоке, а не поверх кадра: иначе панель закрывает сюжет, который и
        надо оценивать. */
-    .hpick { position: static; margin-top: 18px; }
+    .hpick { position: static; margin-top: 18px; max-width: 100%; }
+    /* Все десять номеров видны сразу, двумя рядами по пять. Прежде строка
+       прокручивалась внутри себя, полоса прокрутки была скрыта, и до
+       десятого варианта нельзя было догадаться добраться. */
+    .hpick__row { max-width: 180px; }
+    .hpick__b { width: 32px; min-width: 32px; padding: 0; }
   }
   @media (max-width: 460px) {
     .bh__h { font-size: clamp(1.65rem, 8.4vw, 2rem); }
