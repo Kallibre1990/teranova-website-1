@@ -9,7 +9,11 @@ interface Props {
 }
 const { lang, variant = 'light', class: cls = '' } = Astro.props;
 const home = localizePath('/', lang);
-const src = variant === 'light' ? '/brand/teranova-logo-light.svg' : '/brand/teranova-logo-dark.svg';
+/* Имена файлов версионированы намеренно. Первый выпуск логотипа положил
+   новые рисунки под старые имена, и браузеры четыре часа отдавали прежний
+   знак из кэша: cache-control у Cloudflare Pages max-age=14400. Пользователь
+   видел старый логотип на новом сайте. Меняется рисунок — меняется имя. */
+const src = variant === 'light' ? '/brand/teranova-wordmark-light-v2.svg' : '/brand/teranova-wordmark-dark-v2.svg';
 ---
 
 <a class:list={['logo', cls]} href={home} aria-label="Teranova Group">
@@ -17,7 +21,7 @@ const src = variant === 'light' ? '/brand/teranova-logo-light.svg' : '/brand/ter
   {/* Светлый вариант — серебро и золото, для тёмных подложек. Тёмный —
       тёмно-синий и золото, для белых: печать, PDF, коммерческие материалы.
       Показывается ровно один из двух, второй скрыт стилем. */}
-  <img class="logo__img logo__img--onlight" src="/brand/teranova-logo-dark.svg" alt="" aria-hidden="true" width="1150" height="216" />
+  <img class="logo__img logo__img--onlight" src="/brand/teranova-wordmark-dark-v2.svg" alt="" aria-hidden="true" width="1150" height="216" />
 </a>
 
 <style>
