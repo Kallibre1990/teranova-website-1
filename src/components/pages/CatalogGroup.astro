@@ -68,6 +68,7 @@ const statusInfo = {
 {/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
 {isCosmetics && realForCat.length > 0 && (
   <section class="section section--navy bsc bsc--quality">
+    <span class="bsc-scene" aria-hidden="true"></span>
     <div class="wrap">
       {/* Уход за волосами — ниша внутри косметики, а не восьмая категория.
           Вход стоит перед списком проверенных поставщиков: решение Антона от
@@ -118,6 +119,7 @@ const statusInfo = {
 {isCosmetics && <CosmeticsContent lang={lang} part="body" />}
 
 <section class="section section--navy group bsc bsc--packaging">
+  <span class="bsc-scene" aria-hidden="true"></span>
   <Atmosphere variant="dark" />
   <div class="wrap">
     <a class="back" href={localizePath('/catalog', lang)}>

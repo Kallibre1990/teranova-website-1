@@ -1,17 +1,24 @@
 ---
 /* Первый экран витрины Beauty.
  *
- * Три требования, из-за которых он написан отдельно от общего PageHead:
+ * Требования, из-за которых он написан отдельно от общего PageHead:
  * 1. Главное действие «Подобрать бренд и ассортимент» должно быть видно
- *    целиком на 320, 390 и 1440 без прокрутки. У прежнего заголовка высота
- *    доходила до 292 px, и кнопка уезжала на 1058-ю точку.
+ *    целиком на 320, 390 и 1440 без прокрутки.
  * 2. На витрине должен быть виден товар, а не только текст.
  * 3. Разговор начинается с подбора готового ассортимента; своя марка —
  *    второй, более спокойный путь. Решение Антона от 06.09.2026.
  *
- * Тексты — рабочая формулировка Codex из совместного синтеза. Антон их ещё
- * не утверждал: до его слова это заготовка для визуальной проверки, а не
- * коммерческое обещание. Наличия, прав, MOQ и сроков здесь нет намеренно.
+ * Про сцену. Раньше кадр лежал узкой полосой внизу, а поверх него стояли
+ * четыре белые плашки — Антон назвал это «не красиво обрезано», и он прав:
+ * от сюжета оставались стеллажи. Теперь сцена занимает экран целиком, у
+ * десктопа и телефона отдельные кадры (16:9 и 9:16), и текст стоит не на
+ * кадре, а на ровном тёмно-синем поле, которое заложено в саму композицию.
+ *
+ * Про достоверность. Сцена — редакционная иллюстрация (`generated-editorial`,
+ * происхождение записано в docs/IMAGERY-MANIFEST.md). Она ничего не
+ * доказывает и не изображает конкретного поставщика. Настоящие снимки товара
+ * стоят отдельной полосой и прямо подписаны как настоящие — чтобы кадр
+ * атмосферы нельзя было принять за наш ассортимент.
  */
 import { anchorHref, localizePath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/ui';
@@ -22,10 +29,8 @@ interface Props {
 }
 const { lang } = Astro.props;
 
-/* Композиция из настоящих снимков разных компаний. Она не приписана ни одной
-   марке и подписи не несёт — иначе получилось бы, что товар одной компании
-   выдан за товар другой. Пути берутся из каталогов, а не пишутся руками:
-   так кадр не может указать на файл, которого нет. */
+/* Пути берутся из каталогов, а не пишутся руками: так плашка не может
+   указать на файл, которого нет. Композиция не приписана ни одной марке. */
 const HERO_BRANDS = ['sante', 'icelmedi', 'licorne', 'joycos'];
 const heroShots = HERO_BRANDS.map((slug) => {
   const s = suppliers.find((x) => x.slug === slug);
@@ -33,7 +38,25 @@ const heroShots = HERO_BRANDS.map((slug) => {
 }).filter((src): src is string => Boolean(src));
 ---
 
-<section class="bh bsc bsc--assortment">
+<section class="bh" data-scene>
+  <picture class="bh__scene">
+    <source
+      media="(max-width: 820px)"
+      srcset="/img/beauty/scenes/hero-mobile-600.webp 600w, /img/beauty/scenes/hero-mobile-900.webp 900w"
+      sizes="100vw"
+    />
+    <img
+      src="/img/beauty/scenes/hero-desktop-1600.webp"
+      srcset="/img/beauty/scenes/hero-desktop-900.webp 900w, /img/beauty/scenes/hero-desktop-1600.webp 1600w"
+      sizes="100vw"
+      width="1672"
+      height="941"
+      alt=""
+      fetchpriority="high"
+      decoding="async"
+    />
+  </picture>
+
   <div class="wrap bh__wrap">
     <div class="bh__text">
       <span class="bh__sup">Teranova Beauty · B2B</span>
@@ -47,12 +70,15 @@ const heroShots = HERO_BRANDS.map((slug) => {
         <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>Обсудить свою марку</a>
       </div>
       <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>26 компаний в каталоге</a>
-    </div>
 
-    <div class="bh__shots" aria-hidden="true">
-      {heroShots.map((src) => (
-        <span class="bh__pad"><img src={src} alt="" loading="eager" decoding="async" /></span>
-      ))}
+      <div class="bh__real">
+        <span class="bh__real-cap">Настоящие снимки товара из каталога</span>
+        <div class="bh__shots">
+          {heroShots.map((src) => (
+            <span class="bh__pad"><img src={src} alt="" loading="lazy" decoding="async" /></span>
+          ))}
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -60,29 +86,91 @@ const heroShots = HERO_BRANDS.map((slug) => {
 <style>
   /* svh, а не vh: на телефоне адресная строка съедает часть экрана, и на vh
      кнопка снова уехала бы под сгиб. */
-  .bh { background: var(--b-bg, #fff); padding: clamp(28px, 4vw, 56px) 0 clamp(32px, 4vw, 64px); }
-  .bh__wrap { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(24px, 4vw, 56px); align-items: center; }
-  .bh__text { display: flex; flex-direction: column; align-items: flex-start; }
+  .bh {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    min-height: clamp(520px, 76svh, 760px);
+    padding: clamp(28px, 4vw, 56px) 0 clamp(32px, 4vw, 64px);
+    background: var(--b-velvet, #071224);
+  }
+
+  /* Сцена лежит слоем, а не фоном секции: так у неё есть width/height,
+     нет скачка вёрстки и работает srcset с отдельным кадром для телефона. */
+  .bh__scene { position: absolute; inset: 0; z-index: -2; display: block; }
+  .bh__scene img {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center;
+    display: block;
+    /* Увеличение от левого края: тёмное поле под текстом расширяется, а
+       товарная группа уходит правее и не спорит с заголовком. При `cover`
+       object-position по горизонтали здесь ничего не решает — кадр уже, чем
+       окно, обрезается только по высоте. Плюс запас на сдвиг при параллаксе. */
+    transform-origin: 0% 50%;
+    transform: translate3d(0, calc(var(--bsc-y, 0) * 4%), 0) scale(1.16);
+    will-change: transform;
+  }
+
+  /* Затемнение ровно там, где стоит текст. Кадр нарисован с пустым тёмным
+     полем слева, поэтому шторка почти не гасит цвет — она только гарантирует
+     контраст, если браузер обрежет кадр иначе. */
+  .bh::before {
+    content: '';
+    position: absolute; inset: 0; z-index: -1;
+    background: linear-gradient(90deg, rgba(7,18,36,0.96) 0%, rgba(7,18,36,0.93) 38%, rgba(7,18,36,0.62) 54%, rgba(7,18,36,0.16) 72%, transparent 88%);
+  }
+
+  /* .bh — flex-контейнер, поэтому .wrap как flex-элемент сжимался по
+     содержимому: текст уезжал к центру, а слева оставалось пустое поле
+     в 470 px. width: 100% возвращает обычную сетку страницы. */
+  .bh__wrap { position: relative; z-index: 1; width: 100%; }
+  .bh__text { display: flex; flex-direction: column; align-items: flex-start; max-width: 46ch; }
   .bh__sup { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--b-sub, #5f5d59); }
   /* Кегль ограничен сверху сознательно: заголовок обязан уместиться в три
      строки и оставить место действию. */
   .bh__h { font-size: clamp(1.9rem, 4vw, 3.4rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.04; color: var(--b-ink, #1b1b1a); margin: 14px 0 0; max-width: 15ch; text-wrap: balance; }
-  .bh__d { font-size: clamp(0.98rem, 1.1vw, 1.1rem); line-height: 1.6; color: var(--b-sub, #5f5d59); margin: 16px 0 0; max-width: 44ch; }
+  .bh__d { font-size: clamp(0.98rem, 1.1vw, 1.1rem); line-height: 1.6; color: var(--b-sub, #5f5d59); margin: 16px 0 0; max-width: 38ch; }
   .bh__acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: clamp(20px, 2.4vw, 30px); }
   .bh__acts .btn { min-height: 48px; }
   .bh__scroll { margin-top: 16px; font-size: 0.84rem; font-weight: 700; color: var(--b-sub, #5f5d59); border-bottom: 1px solid var(--b-line, #e6e4e0); padding-bottom: 3px; }
 
-  .bh__shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(10px, 1.2vw, 16px); }
-  .bh__pad { background: var(--b-pad, #f4f3f1); border-radius: 2px; aspect-ratio: 1 / 1; display: grid; place-items: center; overflow: hidden; }
-  .bh__pad img { width: 82%; height: 82%; object-fit: contain; display: block; }
+  /* Полоса настоящего товара. Подпись обязательна: рядом со сценой-иллюстрацией
+     зритель должен видеть, что настоящее, а что атмосфера. */
+  .bh__real {
+    margin-top: clamp(22px, 2.6vw, 32px);
+    width: 100%; max-width: 300px;
+    /* Своя подложка, а не голые плашки поверх сцены: на телефоне полоса
+       приходится ровно на бутылки, и без панели подпись читалась поверх
+       бликов. Панель заодно отделяет настоящий товар от кадра-атмосферы. */
+    background: rgba(7, 18, 36, 0.74);
+    border: 1px solid rgba(203, 212, 224, 0.16);
+    border-radius: 5px;
+    padding: 10px 12px 12px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+  }
+  .bh__real-cap { display: block; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--b-sub, #5f5d59); margin-bottom: 8px; }
+  .bh__shots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .bh__pad { background: var(--b-pad, #f4f3f1); border: 1px solid rgba(203, 212, 224, 0.28); border-radius: 3px; aspect-ratio: 1 / 1; display: grid; place-items: center; overflow: hidden; }
+  .bh__pad img { max-width: 82%; max-height: 82%; width: auto; height: auto; object-fit: contain; display: block; }
 
   @media (max-width: 820px) {
-    .bh__wrap { grid-template-columns: 1fr; gap: 22px; }
-    /* На телефоне сначала слово и действие, снимки — под ними: иначе кнопка
-       уходит за сгиб, ровно как в прошлой итерации. */
-    .bh__shots { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    /* Кадр для телефона вертикальный: верхние 58% — спокойный бархат под
+       заголовок, товар целиком в нижней трети. Текст прижат к верху, чтобы
+       кнопка не уехала за сгиб. */
+    .bh { align-items: flex-start; min-height: min(92svh, 720px); }
+    /* Вертикальный кадр держим за низ: товар нарисован в нижней трети, и
+       увеличение от левого края уводило его за границу экрана. */
+    .bh__scene img { transform-origin: 50% 100%; transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0) scale(1.04); }
+    .bh::before {
+      background: linear-gradient(180deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.9) 36%, rgba(7,18,36,0.54) 56%, rgba(7,18,36,0.12) 74%, transparent 90%);
+    }
+    .bh__text { max-width: none; }
     .bh__acts { width: 100%; }
     .bh__acts .btn { flex: 1 1 auto; justify-content: center; }
+    .bh__real { max-width: 300px; }
   }
   @media (max-width: 460px) {
     .bh__h { font-size: clamp(1.65rem, 8.4vw, 2rem); }

@@ -45,6 +45,29 @@ if (allowMotion) {
     });
   });
 
+  /* Смысловые сцены витрины Beauty.
+     Двигается не текст и не секция, а только слой с кадром: скрипт пишет
+     `--bsc-y` от -1 до 1, а CSS переводит это в сдвиг 2-4% высоты кадра.
+     Зачем: фон должен читаться как фон на длинной секции, но поднимать его
+     непрозрачность нельзя — пострадает контраст текста. Разная скорость слоёв
+     даёт глубину бесплатно.
+     Условия соблюдены по контракту с Codex: блок стоит внутри `allowMotion`,
+     то есть выключен при `prefers-reduced-motion` и на тач-устройствах;
+     амплитуда не больше 4%; композиция без скрипта не меняется — переменная
+     имеет значение по умолчанию 0; `background-attachment: fixed` не
+     используется. */
+  if (document.body.dataset.theme === 'beauty') {
+    const scenes = document.querySelectorAll<HTMLElement>('.bsc, .bh, .hs-link, .hs-entry');
+    for (const el of scenes) {
+      ScrollTrigger.create({
+        trigger: el,
+        start: 'top bottom',
+        end: 'bottom top',
+        onUpdate: (self) => el.style.setProperty('--bsc-y', String((self.progress - 0.5) * 2)),
+      });
+    }
+  }
+
   // Hero — one pinned "fall into the core" moment (pin-spacing => no layout void)
   const hero = document.querySelector<HTMLElement>('.hero');
   if (hero) {

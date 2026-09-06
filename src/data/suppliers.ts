@@ -1993,6 +1993,17 @@ export const supplierContent = (p: SupplierProfile, lang: Lang): SupplierContent
    потом добираем остальные: так в полоске видно ассортимент, а не три
    флакона одной серии. Чужие товары сюда попасть не могут — источник
    всегда каталог самого поставщика. */
+import photoShape from './photo-shape.json';
+
+/* Годная для квадратной плашки пропорция. За этими границами кадр либо
+   превращается в ниточку, либо просит обрезки: 199 снимков из 829 вырезаны
+   из PDF узкими полосками, вплоть до 1:3,8. Размеры замеряет
+   scripts/photo-shape.mjs, вручную файл не правится. */
+const wellShaped = (src: string): boolean => {
+  const r = (photoShape as Record<string, number>)[src];
+  return r === undefined ? true : r >= 0.65 && r <= 1.55;
+};
+
 export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
   const groups = p.catalog ?? [];
   const out: string[] = [];
@@ -2002,5 +2013,8 @@ export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
     if (withImg.length) out.push(withImg[0]);
     rest.push(...withImg.slice(1));
   }
-  return [...out, ...rest].slice(0, n);
+  /* Сначала кадры нормальной пропорции, узкие — только если других нет.
+     Витрина не должна показывать ниточку вместо флакона. */
+  const all = [...out, ...rest];
+  return [...all.filter(wellShaped), ...all.filter((s) => !wellShaped(s))].slice(0, n);
 };

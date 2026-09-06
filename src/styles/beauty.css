@@ -69,49 +69,103 @@ body[data-theme='beauty'] .bh::before {
 }
 body[data-theme='beauty'] .section--alt::after { display: none; }
 
-/* ---- смысловая сцена внизу экрана ----
-   Антон просил, чтобы «внизу каждого экрана был смысл того, о чём этот
-   экран». Именно внизу: кадр под всем текстом сразу даёт визуальную
-   усталость, съедает контраст и превращает семь разных разделов в одни
-   и те же тёмные обои. Поэтому сцена живёт в нижней полосе секции, а
-   текст стоит на предсказуемой ровной наве.
+/* ---- смысловая сцена раздела ----
+   Совмещены три требования, которые по отдельности спорят друг с другом:
+   Антон — фон нужен на каждом экране, включая очень длинные, и красочный;
+   Codex — основной текст не должен стоять на пёстром кадре;
+   Антон же — «не красиво обрезано» про жёсткие края прямоугольника.
 
-   Класс вешается на секцию: .bsc--<тема>. Сцены — из двух честных
-   источников: наши редакционные иллюстрации и настоящие снимки товара.
-   Выдуманных заводов, цехов и складов нет. */
+   Решение: один кадр в двух ролях и разной скорости.
+   `::after` — тихий слой на всю высоту раздела: он даёт присутствие там, где
+   до низа секции тысячи пикселей, но при 22% непрозрачности не мешает читать.
+   `::before` — сильная полоса внизу: под ней нет текста, поэтому кадр можно
+   показать почти в полную силу. Оба слоя гаснут радиально, краёв не видно.
+
+   Глубину даёт не непрозрачность, а разная скорость при прокрутке: слои
+   сдвигаются на `--bsc-y`, который ставит GSAP. Именно поэтому фон получается
+   заметным, оставаясь тихим, — иначе пришлось бы поднимать непрозрачность
+   и терять контраст текста.
+
+   Кадры — настоящие снимки товара поставщиков (`public/img/beauty/scenes`,
+   мозаика из каталога) и наша редакционная иллюстрация там, где речь об общем
+   процессе. Ни один кадр не выдаётся за съёмку конкретного места или визита. */
 body[data-theme='beauty'] .bsc { position: relative; isolation: isolate; overflow: hidden; }
-body[data-theme='beauty'] .bsc::after {
+body[data-theme='beauty'] .bsc > .wrap { position: relative; z-index: 1; }
+
+body[data-theme='beauty'] .bsc::before {
   content: '';
   position: absolute;
-  left: 0; right: 0; bottom: 0;
-  /* Проценты от секции опасны: список поставщиков высотой 5346 px давал
-     сцену в 2031 px, и кадр снова оказывался под несколькими экранами
-     карточек. Высоту ограничиваем сверху — сцена остаётся полосой. */
-  height: min(38%, 420px);
   z-index: -1;
   background-size: cover;
-  background-position: center 72%;
-  opacity: 0.85;
-  /* Кадр проявляется снизу и полностью гаснет там, где начинается текст. */
-  -webkit-mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.5) 34%, rgba(0,0,0,0.95) 100%);
-  mask-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.5) 34%, rgba(0,0,0,0.95) 100%);
-}
-/* Тонкая серебряная линия отделяет сцену от текста — как шов на бархате. */
-body[data-theme='beauty'] .bsc::before { box-shadow: inset 0 -1px 0 rgba(203, 212, 224, 0.1); }
-body[data-theme='beauty'] .bsc > .wrap { position: relative; z-index: 1; }
-/* На узком экране полоса ниже: там текста больше, а места меньше. */
-@media (max-width: 820px) {
-  body[data-theme='beauty'] .bsc::after { height: min(26%, 240px); }
+  background-repeat: no-repeat;
+  will-change: transform;
 }
 
-body[data-theme='beauty'] .bsc--actives::after { background-image: url('/img/blog/editorial/active-ingredients-system.webp'); }
-body[data-theme='beauty'] .bsc--oem::after { background-image: url('/img/blog/editorial/oem-odm-process.webp'); }
-body[data-theme='beauty'] .bsc--assortment::after { background-image: url('/img/blog/editorial/retail-assortment.webp'); }
-body[data-theme='beauty'] .bsc--verify::after { background-image: url('/img/blog/editorial/supplier-verification-system.webp'); }
-body[data-theme='beauty'] .bsc--packaging::after { background-image: url('/img/blog/editorial/packaging-innovation.webp'); }
-body[data-theme='beauty'] .bsc--quality::after { background-image: url('/img/blog/editorial/quality-testing.webp'); }
-body[data-theme='beauty'] .bsc--markets::after { background-image: url('/img/blog/editorial/global-sourcing-route.webp'); }
-body[data-theme='beauty'] .bsc--regulatory::after { background-image: url('/img/blog/editorial/regulatory-readiness.webp'); }
+/* Тихий слой — липкий и высотой в экран.
+   Почему не растянутый на всю секцию: каталог поставщиков занимает 5357 px,
+   и один кадр, размазанный по такой высоте, при 20% непрозрачности не виден
+   ни на одном экране — ровно то, на что жаловался Антон («под этим экраном
+   вообще нет заднего фона»). Липкий слой стоит в потоке, но отрицательный
+   margin убирает его высоту, поэтому вёрстка не сдвигается ни на пиксель. */
+body[data-theme='beauty'] .bsc-scene {
+  display: block;
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  margin-bottom: -100svh;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.17;
+  pointer-events: none;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0);
+  will-change: transform;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
+}
+@media (max-width: 820px) {
+  body[data-theme='beauty'] .bsc-scene { opacity: 0.16; }
+}
+
+/* сильная полоса внизу: текста над ней нет, кадр виден почти в полную силу */
+body[data-theme='beauty'] .bsc::before {
+  left: 0; right: 0; bottom: -20px;
+  height: min(calc(38% + 40px), 460px);
+  background-position: center 62%;
+  opacity: 0.8;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0);
+  -webkit-mask-image: radial-gradient(150% 130% at 50% 100%, #000 0%, #000 42%, rgba(0,0,0,0.35) 72%, transparent 100%);
+  mask-image: radial-gradient(150% 130% at 50% 100%, #000 0%, #000 42%, rgba(0,0,0,0.35) 72%, transparent 100%);
+}
+@media (max-width: 820px) {
+  /* На телефоне полоса ниже, а сдвиг выключен в скрипте: экономия батареи
+     и никакого дёрганья при инерционной прокрутке. */
+  body[data-theme='beauty'] .bsc::before { height: min(calc(26% + 30px), 270px); }
+  body[data-theme='beauty'] .bsc::after { opacity: 0.18; }
+}
+
+/* четыре задачи покупателя — витрина марок */
+body[data-theme='beauty'] .bsc--actives .bsc-scene,
+body[data-theme='beauty'] .bsc--actives::before { background-image: url('/img/beauty/scenes/brands.webp'); }
+/* восемь примеров карточек — товар, который в них показан */
+body[data-theme='beauty'] .bsc--verify .bsc-scene,
+body[data-theme='beauty'] .bsc--verify::before { background-image: url('/img/beauty/scenes/pro.webp'); }
+/* список поставщиков — их собственный товар */
+body[data-theme='beauty'] .bsc--quality .bsc-scene,
+body[data-theme='beauty'] .bsc--quality::before { background-image: url('/img/beauty/scenes/actives.webp'); }
+/* товары рубрики — упаковка и колпачки */
+body[data-theme='beauty'] .bsc--packaging .bsc-scene,
+body[data-theme='beauty'] .bsc--packaging::before { background-image: url('/img/beauty/scenes/packaging.webp'); }
+/* «Почему это сложно в одиночку» — уход, а не шестерёнка */
+body[data-theme='beauty'] .bsc--regulatory .bsc-scene,
+body[data-theme='beauty'] .bsc--regulatory::before { background-image: url('/img/beauty/scenes/care.webp'); }
+/* «Запустите свою косметику» — готовый выпуск */
+body[data-theme='beauty'] .bsc--markets .bsc-scene,
+body[data-theme='beauty'] .bsc--markets::before { background-image: url('/img/beauty/scenes/launch.webp'); }
+/* контрактное производство — линия розлива косметики, редакционный кадр */
+body[data-theme='beauty'] .bsc--oem .bsc-scene,
+body[data-theme='beauty'] .bsc--oem::before { background-image: url('/img/beauty/scenes/oemline-1600.webp'); }
 
 body[data-theme='beauty'] .atmo,
 body[data-theme='beauty'] .atmo__aura,
@@ -336,86 +390,43 @@ body[data-theme='beauty'] .sel-plate__t {
   color: var(--b-silver-bright) !important;
 }
 
-/* ---- присутствие сцены ----
-   Одной полосы внизу мало: середина длинной секции оставалась пустой.
-   Добавляем тот же кадр вторым слоем в верхний угол — мягко, поверх
-   бархата и под текстом. Текст по-прежнему стоит на ровном фоне. */
-body[data-theme='beauty'] .bsc::before {
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: right -6% top -10%, 12% -10%, 96% 8%, center;
-  background-size: min(46%, 620px) auto, auto, auto, auto;
+/* ---- вход в подборку «Волосы и кожа головы» ----
+   Замечание Антона: «подборке за волосами — не видно, ужасно». Причина была
+   двойная: заголовок красился тёмным градиентом по тёмному (починено выше) и
+   сама плита ничем не отличалась от соседнего текста. Теперь у неё свой кадр
+   про волосы и кожу головы, а текст стоит на плотной шторке слева. */
+body[data-theme='beauty'] .hs-link,
+body[data-theme='beauty'] .hs-entry {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 168px;
+  background-color: var(--b-velvet) !important;
+  border-color: var(--b-line-strong) !important;
 }
-
-/* Верхний угловой слой: тот же сюжет, что и полоса внизу. */
-body[data-theme='beauty'] .bsc--actives::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/active-ingredients-system.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+body[data-theme='beauty'] .hs-link::before,
+body[data-theme='beauty'] .hs-entry::before {
+  content: '';
+  /* В базовом стиле `.sel-plate::before` — серебряная грань шириной 3 px.
+     Если не сбросить width и не задать все стороны, кадр про волосы
+     рисуется в трёхпиксельной полоске у левого края, то есть не виден
+     вовсе. Именно это и было на экране. */
+  position: absolute; inset: 0; width: auto; z-index: -2;
+  background-image: image-set(url('/img/beauty/scenes/hair-900.webp') 1x, url('/img/beauty/scenes/hair-1600.webp') 2x);
+  background-size: cover;
+  background-position: center right;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0) scale(1.06);
 }
-body[data-theme='beauty'] .bsc--oem::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/oem-odm-process.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+body[data-theme='beauty'] .hs-link::after,
+body[data-theme='beauty'] .hs-entry::after {
+  content: '';
+  display: block !important;
+  position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.86) 42%, rgba(7,18,36,0.38) 66%, transparent 92%);
 }
-body[data-theme='beauty'] .bsc--assortment::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/retail-assortment.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
-}
-body[data-theme='beauty'] .bsc--verify::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/supplier-verification-system.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
-}
-body[data-theme='beauty'] .bsc--packaging::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/packaging-innovation.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
-}
-body[data-theme='beauty'] .bsc--quality::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/quality-testing.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
-}
-body[data-theme='beauty'] .bsc--markets::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/global-sourcing-route.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
-}
-body[data-theme='beauty'] .bsc--regulatory::before {
-  background-image:
-    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/regulatory-readiness.webp'),
-    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
-    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
-  background-repeat: no-repeat;
-  background-position: right -4% top -8%, right -4% top -8%, center, center;
-  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+@media (max-width: 620px) {
+  body[data-theme='beauty'] .hs-link::after,
+  body[data-theme='beauty'] .hs-entry::after {
+    background: linear-gradient(180deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.9) 52%, rgba(7,18,36,0.6) 100%);
+  }
 }
