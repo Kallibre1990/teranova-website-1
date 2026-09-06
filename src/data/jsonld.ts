@@ -23,7 +23,7 @@ export function organizationNode(lang: Lang) {
     name: 'Teranova Group',
     legalName: 'AIA Group Ltd.',
     url: site.domain + '/',
-    logo: site.domain + '/brand/teranova-icon-dark.svg',
+    logo: site.domain + '/brand/teranova-mark-dark-v2.svg',
     description: t.meta.home_desc,
     address: {
       '@type': 'PostalAddress',
