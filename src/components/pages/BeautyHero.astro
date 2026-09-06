@@ -16,26 +16,23 @@
  *
  * Про достоверность. Сцена — редакционная иллюстрация (`generated-editorial`,
  * происхождение записано в docs/IMAGERY-MANIFEST.md). Она ничего не
- * доказывает и не изображает конкретного поставщика. Настоящие снимки товара
- * стоят отдельной полосой и прямо подписаны как настоящие — чтобы кадр
- * атмосферы нельзя было принять за наш ассортимент.
+ * доказывает и не изображает конкретного поставщика.
+ *
+ * Полосу «настоящие снимки товара» с подписью отсюда убрал: Антон 06.09.2026
+ * назвал её ужасной, и по делу — четыре белые плашки с мелким товаром и
+ * канцелярская надпись читались как наклейка поверх бархата. Настоящий товар
+ * показывает следующий экран (четыре задачи покупателя) и карточки
+ * поставщиков ниже: там он стоит на своей светлой подложке и смотрится.
  */
 import { anchorHref, localizePath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/ui';
-import { suppliers, beautySuppliers, showcaseImages } from '../../data/suppliers';
+import { beautySuppliers } from '../../data/suppliers';
 
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 
-/* Пути берутся из каталогов, а не пишутся руками: так плашка не может
-   указать на файл, которого нет. Композиция не приписана ни одной марке. */
-const HERO_BRANDS = ['sante', 'icelmedi', 'licorne', 'joycos'];
-const heroShots = HERO_BRANDS.map((slug) => {
-  const s = suppliers.find((x) => x.slug === slug);
-  return s ? showcaseImages(s, 1)[0] : undefined;
-}).filter((src): src is string => Boolean(src));
 ---
 
 <section class="bh" data-scene>
@@ -71,14 +68,6 @@ const heroShots = HERO_BRANDS.map((slug) => {
       </div>
       <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>{beautySuppliers.length} компаний в каталоге</a>
 
-      <div class="bh__real">
-        <span class="bh__real-cap">Настоящие снимки товара из каталога</span>
-        <div class="bh__shots">
-          {heroShots.map((src) => (
-            <span class="bh__pad"><img src={src} alt="" loading="lazy" decoding="async" /></span>
-          ))}
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -136,41 +125,20 @@ const heroShots = HERO_BRANDS.map((slug) => {
   .bh__acts .btn { min-height: 48px; }
   .bh__scroll { margin-top: 16px; font-size: 0.84rem; font-weight: 700; color: var(--b-sub, #5f5d59); border-bottom: 1px solid var(--b-line, #e6e4e0); padding-bottom: 3px; }
 
-  /* Полоса настоящего товара. Подпись обязательна: рядом со сценой-иллюстрацией
-     зритель должен видеть, что настоящее, а что атмосфера. */
-  .bh__real {
-    margin-top: clamp(22px, 2.6vw, 32px);
-    width: 100%; max-width: 300px;
-    /* Своя подложка, а не голые плашки поверх сцены: на телефоне полоса
-       приходится ровно на бутылки, и без панели подпись читалась поверх
-       бликов. Панель заодно отделяет настоящий товар от кадра-атмосферы. */
-    background: rgba(7, 18, 36, 0.74);
-    border: 1px solid rgba(203, 212, 224, 0.16);
-    border-radius: 5px;
-    padding: 10px 12px 12px;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-  }
-  .bh__real-cap { display: block; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--b-sub, #5f5d59); margin-bottom: 8px; }
-  .bh__shots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-  .bh__pad { background: var(--b-pad, #f4f3f1); border: 1px solid rgba(203, 212, 224, 0.28); border-radius: 3px; aspect-ratio: 1 / 1; display: grid; place-items: center; overflow: hidden; }
-  .bh__pad img { max-width: 82%; max-height: 82%; width: auto; height: auto; object-fit: contain; display: block; }
-
   @media (max-width: 820px) {
     /* Кадр для телефона вертикальный: верхние 58% — спокойный бархат под
        заголовок, товар целиком в нижней трети. Текст прижат к верху, чтобы
        кнопка не уехала за сгиб. */
-    .bh { align-items: flex-start; min-height: min(92svh, 720px); }
+    .bh { align-items: flex-start; min-height: min(94svh, 780px); }
     /* Вертикальный кадр держим за низ: товар нарисован в нижней трети, и
        увеличение от левого края уводило его за границу экрана. */
     .bh__scene img { transform-origin: 50% 100%; transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0) scale(1.04); }
     .bh::before {
-      background: linear-gradient(180deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.9) 36%, rgba(7,18,36,0.54) 56%, rgba(7,18,36,0.12) 74%, transparent 90%);
+      background: linear-gradient(180deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.93) 44%, rgba(7,18,36,0.8) 60%, rgba(7,18,36,0.3) 78%, transparent 94%);
     }
     .bh__text { max-width: none; }
     .bh__acts { width: 100%; }
     .bh__acts .btn { flex: 1 1 auto; justify-content: center; }
-    .bh__real { max-width: 300px; }
   }
   @media (max-width: 460px) {
     .bh__h { font-size: clamp(1.65rem, 8.4vw, 2rem); }

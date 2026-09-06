@@ -75,11 +75,11 @@ body[data-theme='beauty'] .section--alt::after { display: none; }
    Codex — основной текст не должен стоять на пёстром кадре;
    Антон же — «не красиво обрезано» про жёсткие края прямоугольника.
 
-   Решение: один кадр в двух ролях и разной скорости.
-   `::after` — тихий слой на всю высоту раздела: он даёт присутствие там, где
-   до низа секции тысячи пикселей, но при 22% непрозрачности не мешает читать.
-   `::before` — сильная полоса внизу: под ней нет текста, поэтому кадр можно
-   показать почти в полную силу. Оба слоя гаснут радиально, краёв не видно.
+   Решение: один слой на раздел, липкий и высотой в экран. Сначала слоёв было
+   два — тихий на всю секцию и сильная полоса внизу. От полосы отказался: на
+   секциях разной высоты она вела себя по-разному и всплывала там, где её не
+   ждали, а работу она делала ту же. Один предсказуемый слой лучше двух
+   спорящих. Он гаснет сверху и снизу, поэтому краёв не видно.
 
    Глубину даёт не непрозрачность, а разная скорость при прокрутке: слои
    сдвигаются на `--bsc-y`, который ставит GSAP. Именно поэтому фон получается
@@ -106,21 +106,16 @@ body[data-theme='beauty'] .bsc {
 }
 body[data-theme='beauty'] .bsc > .wrap { position: relative; z-index: 1; }
 
-body[data-theme='beauty'] .bsc::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  will-change: transform;
-}
-
 /* Тихий слой — липкий и высотой в экран.
-   Почему не растянутый на всю секцию: каталог поставщиков занимает 5357 px,
-   и один кадр, размазанный по такой высоте, при 20% непрозрачности не виден
-   ни на одном экране — ровно то, на что жаловался Антон («под этим экраном
-   вообще нет заднего фона»). Липкий слой стоит в потоке, но отрицательный
-   margin убирает его высоту, поэтому вёрстка не сдвигается ни на пиксель. */
+   Почему не растянутый на всю секцию: каталог поставщиков занимает больше
+   пяти экранов, и один кадр, размазанный по такой высоте, при 22%
+   непрозрачности не виден нигде — ровно то, на что жаловался Антон («под
+   этим экраном вообще нет заднего фона»). Липкий слой стоит в потоке, но
+   отрицательный margin убирает его высоту, поэтому вёрстка не сдвигается
+   ни на пиксель.
+
+   Липкость держится только потому, что ни один предок не является
+   контейнером прокрутки: см. правило про overflow-x: clip ниже по файлу. */
 body[data-theme='beauty'] .bsc-scene {
   display: block;
   position: sticky;
@@ -131,7 +126,7 @@ body[data-theme='beauty'] .bsc-scene {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.17;
+  opacity: 0.22;
   pointer-events: none;
   transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0);
   will-change: transform;
@@ -139,47 +134,23 @@ body[data-theme='beauty'] .bsc-scene {
   mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
 }
 @media (max-width: 820px) {
-  body[data-theme='beauty'] .bsc-scene { opacity: 0.16; }
+  body[data-theme='beauty'] .bsc-scene { opacity: 0.18; }
 }
 
-/* сильная полоса внизу: текста над ней нет, кадр виден почти в полную силу */
-body[data-theme='beauty'] .bsc::before {
-  left: 0; right: 0; bottom: -20px;
-  height: min(calc(38% + 40px), 460px);
-  background-position: center 62%;
-  opacity: 0.8;
-  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0);
-  -webkit-mask-image: radial-gradient(150% 130% at 50% 100%, #000 0%, #000 42%, rgba(0,0,0,0.35) 72%, transparent 100%);
-  mask-image: radial-gradient(150% 130% at 50% 100%, #000 0%, #000 42%, rgba(0,0,0,0.35) 72%, transparent 100%);
-}
-@media (max-width: 820px) {
-  /* На телефоне полоса ниже, а сдвиг выключен в скрипте: экономия батареи
-     и никакого дёрганья при инерционной прокрутке. */
-  body[data-theme='beauty'] .bsc::before { height: min(calc(26% + 30px), 270px); }
-  body[data-theme='beauty'] .bsc::after { opacity: 0.18; }
-}
 
-/* четыре задачи покупателя — витрина марок */
-body[data-theme='beauty'] .bsc--actives .bsc-scene,
-body[data-theme='beauty'] .bsc--actives::before { background-image: url('/img/beauty/scenes/brands.webp'); }
+body[data-theme='beauty'] .bsc--actives .bsc-scene { background-image: url('/img/beauty/scenes/brands.webp'); }
 /* восемь примеров карточек — товар, который в них показан */
-body[data-theme='beauty'] .bsc--verify .bsc-scene,
-body[data-theme='beauty'] .bsc--verify::before { background-image: url('/img/beauty/scenes/pro.webp'); }
+body[data-theme='beauty'] .bsc--verify .bsc-scene { background-image: url('/img/beauty/scenes/pro.webp'); }
 /* список поставщиков — их собственный товар */
-body[data-theme='beauty'] .bsc--quality .bsc-scene,
-body[data-theme='beauty'] .bsc--quality::before { background-image: url('/img/beauty/scenes/actives.webp'); }
+body[data-theme='beauty'] .bsc--quality .bsc-scene { background-image: url('/img/beauty/scenes/actives.webp'); }
 /* товары рубрики — упаковка и колпачки */
-body[data-theme='beauty'] .bsc--packaging .bsc-scene,
-body[data-theme='beauty'] .bsc--packaging::before { background-image: url('/img/beauty/scenes/packaging.webp'); }
+body[data-theme='beauty'] .bsc--packaging .bsc-scene { background-image: url('/img/beauty/scenes/packaging.webp'); }
 /* «Почему это сложно в одиночку» — уход, а не шестерёнка */
-body[data-theme='beauty'] .bsc--regulatory .bsc-scene,
-body[data-theme='beauty'] .bsc--regulatory::before { background-image: url('/img/beauty/scenes/care.webp'); }
+body[data-theme='beauty'] .bsc--regulatory .bsc-scene { background-image: url('/img/beauty/scenes/care.webp'); }
 /* «Запустите свою косметику» — готовый выпуск */
-body[data-theme='beauty'] .bsc--markets .bsc-scene,
-body[data-theme='beauty'] .bsc--markets::before { background-image: url('/img/beauty/scenes/launch.webp'); }
+body[data-theme='beauty'] .bsc--markets .bsc-scene { background-image: url('/img/beauty/scenes/launch.webp'); }
 /* контрактное производство — линия розлива косметики, редакционный кадр */
-body[data-theme='beauty'] .bsc--oem .bsc-scene,
-body[data-theme='beauty'] .bsc--oem::before { background-image: url('/img/beauty/scenes/oemline-1600.webp'); }
+body[data-theme='beauty'] .bsc--oem .bsc-scene { background-image: url('/img/beauty/scenes/oemline-1600.webp'); }
 
 body[data-theme='beauty'] .atmo,
 body[data-theme='beauty'] .atmo__aura,
@@ -459,3 +430,89 @@ body[data-theme='beauty'] .hs-entry::after {
    бархатной темой — общий макет сайта не трогаем. */
 html:has(body[data-theme='beauty']),
 body[data-theme='beauty'] { overflow-x: clip; }
+
+/* ---- подвал ----
+   Антон: «последнюю страницу подстрой под дизайн, чтобы тоже было синего
+   цвета страницы, серебряного и золотого». Подвал оставался с общего сайта:
+   светлее страницы, ссылки белые, кнопка «наверх» ярко-синяя. На бархате это
+   читалось как чужой блок, приклеенный снизу.
+
+   Правило то же, что и по всей витрине: тёмно-синий — рама, серебро — линии
+   и текст, золото — только заголовки разделов и действие. Золотом не красим
+   все ссылки: тогда оно перестаёт быть акцентом. */
+body[data-theme='beauty'] .site-footer {
+  /* Продолжение страницы, а не отдельная плита: тот же бархат, чуть глубже
+     к низу, и серебряная нить по верхнему краю вместо жёсткой границы. */
+  background: linear-gradient(180deg, var(--b-velvet) 0%, #050e1d 100%) !important;
+  border-top: 1px solid var(--b-line) !important;
+  color: var(--b-sub) !important;
+}
+body[data-theme='beauty'] .site-footer::before {
+  content: '';
+  display: block;
+  height: 1px;
+  margin-bottom: -1px;
+  background: linear-gradient(90deg, transparent, var(--b-gold-lite) 22%, var(--b-silver-bright) 50%, var(--b-gold-lite) 78%, transparent);
+  opacity: 0.5;
+}
+
+/* Заголовки колонок — золото, как надзаголовки разделов выше по странице. */
+body[data-theme='beauty'] .footer__title,
+body[data-theme='beauty'] .footer__sister-kicker {
+  color: var(--b-gold) !important;
+  letter-spacing: 0.18em;
+}
+
+body[data-theme='beauty'] .footer__blurb { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .footer__joint,
+body[data-theme='beauty'] .footer__disc,
+body[data-theme='beauty'] .footer__rights { color: rgba(203, 212, 224, 0.6) !important; }
+
+body[data-theme='beauty'] .footer__links a,
+body[data-theme='beauty'] .footer__contacts a,
+body[data-theme='beauty'] .footer__contacts li {
+  color: var(--b-silver) !important;
+  transition: color .2s var(--ease);
+}
+body[data-theme='beauty'] .footer__links a:hover,
+body[data-theme='beauty'] .footer__contacts a:hover { color: var(--b-gold-lite) !important; }
+
+/* Плита «другое направление»: серебряная рамка и золотая стрелка вместо
+   серой карточки. */
+body[data-theme='beauty'] .footer__sister {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid var(--b-line) !important;
+  transition: border-color .2s var(--ease), background .2s var(--ease);
+}
+body[data-theme='beauty'] .footer__sister:hover {
+  border-color: var(--b-gold) !important;
+  background: rgba(255, 255, 255, 0.07) !important;
+}
+body[data-theme='beauty'] .footer__sister-name { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .footer__sister-name svg,
+body[data-theme='beauty'] .footer__sister-name path { stroke: var(--b-gold) !important; color: var(--b-gold) !important; }
+body[data-theme='beauty'] .footer__sister-desc { color: var(--b-sub) !important; }
+
+/* Разделительная линия — серебряная нить, а не светлая полоса. */
+body[data-theme='beauty'] .site-footer .hairline {
+  border: 0 !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, transparent, var(--b-line-strong) 12%, var(--b-line-strong) 88%, transparent) !important;
+  opacity: 1 !important;
+}
+
+/* Кнопка «наверх» была ярко-синей — единственное пятно чужого цвета на
+   бархате. Делаем тёмно-синей с золотой каймой и золотой стрелкой. */
+body[data-theme='beauty'] .to-top {
+  background: rgba(11, 27, 53, 0.86) !important;
+  border: 1px solid var(--b-gold-soft) !important;
+  color: var(--b-gold-lite) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px -12px rgba(3, 10, 24, 0.9) !important;
+}
+body[data-theme='beauty'] .to-top:hover {
+  background: rgba(14, 34, 67, 0.94) !important;
+  border-color: var(--b-gold) !important;
+  color: var(--b-gold-lite) !important;
+}
