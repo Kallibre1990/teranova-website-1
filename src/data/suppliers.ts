@@ -1987,3 +1987,20 @@ export const linePageBySlug = (supplierSlug: string, slug: string): SupplierLine
   linePages.find((p) => p.supplierSlug === supplierSlug && p.slug === slug);
 /** Localized content with ru fallback. */
 export const supplierContent = (p: SupplierProfile, lang: Lang): SupplierContent => p.i18n[lang] ?? p.i18n.ru!;
+
+/* Несколько настоящих снимков компании — лицо её карточки на витрине.
+   Берём по одному товару с фотографией из каждой линии подряд, и только
+   потом добираем остальные: так в полоске видно ассортимент, а не три
+   флакона одной серии. Чужие товары сюда попасть не могут — источник
+   всегда каталог самого поставщика. */
+export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
+  const groups = p.catalog ?? [];
+  const out: string[] = [];
+  const rest: string[] = [];
+  for (const g of groups) {
+    const withImg = g.items.filter((i) => i.img).map((i) => i.img as string);
+    if (withImg.length) out.push(withImg[0]);
+    rest.push(...withImg.slice(1));
+  }
+  return [...out, ...rest].slice(0, n);
+};

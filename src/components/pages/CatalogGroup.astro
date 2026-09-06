@@ -6,7 +6,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
-import { suppliers as realSuppliers, supplierContent } from '../../data/suppliers';
+import { suppliers as realSuppliers, supplierContent, showcaseImages } from '../../data/suppliers';
 interface Props {
   lang: Lang;
   groupKey: CategoryKey;
@@ -38,6 +38,11 @@ const suppliers = showDemo ? demoSuppliers[groupKey] ?? [] : [];
 const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in: '🇮🇳' };
 const countryName = (key: string) => t.countries.list.find((c) => c.key === key)?.name ?? '';
 const roleLabel = { maker: g.role_maker, oem: g.role_oem, exporter: g.role_exporter } as const;
+/* По три собственных снимка на карточку: витрина должна показывать товар,
+   а не список юридических лиц. Считаем один раз, до разметки. */
+const shots: Record<string, string[]> = Object.fromEntries(
+  realForCat.map((s) => [s.slug, showcaseImages(s, 3)]),
+);
 const statusInfo = {
   visited: { cls: 'badge--visited', label: t.verify.card_visited_t },
   provided: { cls: 'badge--provided', label: t.verify.card_provided_t },
@@ -50,8 +55,7 @@ const statusInfo = {
 
 {/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
 {isCosmetics && realForCat.length > 0 && (
-  <section class="section section--navy">
-    <Atmosphere variant="dark" />
+  <section class="section section--beauty">
     <div class="wrap">
       {/* Уход за волосами — ниша внутри косметики, а не восьмая категория.
           Вход стоит перед списком проверенных поставщиков: решение Антона от
@@ -79,6 +83,13 @@ const statusInfo = {
               <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
               <h3 class="scard__nm">{s.name}</h3>
               <p class="scard__role">{s.brand} · {sc.descriptor}</p>
+              {shots[s.slug]!.length > 0 && (
+                <span class="scard__shots">
+                  {shots[s.slug]!.map((src) => (
+                    <span class="scard__pad"><img src={src} alt="" loading="lazy" decoding="async" /></span>
+                  ))}
+                </span>
+              )}
               <span class="scard__foot">
                 <span class="scard__more">{sc.ui.more}</span>
                 <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
@@ -211,6 +222,20 @@ const statusInfo = {
   .scard--real { cursor: pointer; text-decoration: none; transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
   .scard--real:hover { transform: translateY(-3px); border-color: rgba(63, 122, 224, 0.5); box-shadow: 0 14px 34px rgba(3, 10, 24, 0.4); }
   .scard__more { margin-top: auto; padding-top: 14px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); }
+
+  /* ---- витрина Beauty: карточка компании с её собственными снимками ---- */
+  .section--beauty .scard { background: var(--beauty-surface); border-color: var(--beauty-line); }
+  .section--beauty .scard__nm { color: var(--ink); }
+  .section--beauty .scard__role { color: var(--beauty-sub); }
+  .section--beauty .scard__more { color: var(--cobalt); }
+  .section--beauty .scard__origin { color: var(--beauty-sub); }
+  .section--beauty .scard--real:hover { border-color: color-mix(in srgb, var(--beauty-accent) 40%, var(--beauty-line)); box-shadow: 0 14px 34px rgba(11, 27, 53, 0.08); }
+  .scard__shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+  /* Подложка одного тона под каждым снимком. Фотографии поставщиков сняты на
+     разных фонах — на светлой витрине без общей подложки ряд читается как
+     лоскутное одеяло. */
+  .scard__pad { background: var(--beauty-pad); border-radius: 12px; aspect-ratio: 1 / 1; display: grid; place-items: center; overflow: hidden; }
+  .scard__pad img { width: 84%; height: 84%; object-fit: contain; display: block; }
 
   .group__foot { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .group__foot .note { font-size: 0.84rem; color: var(--silver-muted); max-width: 48ch; }
