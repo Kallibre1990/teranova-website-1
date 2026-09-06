@@ -50,7 +50,11 @@ const statusInfo = {
 } as const;
 ---
 
-{isCosmetics
+{/* Новый первый экран пока написан только по-русски: проектируем и принимаем
+    по-русски, остальные десять локалей ждут перевода строк. До перевода они
+    остаются на прежнем PageHead — иначе английская и корейская страницы
+    показали бы русский заголовок. */}
+{isCosmetics && lang === 'ru'
   ? <BeautyHero lang={lang} />
   : <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />}
 
