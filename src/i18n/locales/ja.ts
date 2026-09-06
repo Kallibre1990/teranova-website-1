@@ -4,6 +4,7 @@ import type { DeepPartial } from '../deep';
 const ja: DeepPartial<UIDict> = {
   nav: {
     solar: "太陽光メンテナンス",
+    marine: "船舶部品",
     blog: "インサイト",
     catalog: "カタログ",
     verify: "検証の方法",
@@ -459,6 +460,13 @@ const ja: DeepPartial<UIDict> = {
     body: "Teranova は韓国でメーカーを発掘し、工場への現地訪問まで行って検証し、最初のご依頼から商品の受領まで取引を一貫して進めます。仲介業者の連なりではなく、責任を持つ一つのパートナーとして。",
     photo_note: "ここには実際の写真が入ります：チームと工場訪問の様子。",
     cta: "会社についてもっと見る",
+  },
+
+  marine_home: {
+    sup: "第二の柱",
+    title: "船外小型艇の部品",
+    body: "ヨットの部品が故障し、補修キットがなく型式は生産終了——所有者が銘板の写真を送り、部品を特定し、在庫を持つ相手を探して寄港地まで送る。専用サイトと窓口を持つ独立サービス。",
+    cta: "Teranova Marineを開く",
   },
 
   tenders_home: {

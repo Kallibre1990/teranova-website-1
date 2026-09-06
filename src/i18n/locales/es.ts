@@ -4,6 +4,7 @@ import type { DeepPartial } from '../deep';
 const es: DeepPartial<UIDict> = {
   nav: {
     solar: "Plantas solares",
+    marine: "Repuestos náuticos",
     blog: "Recursos",
     catalog: "Catálogo",
     buyers: "Para compradores",
@@ -136,6 +137,13 @@ const es: DeepPartial<UIDict> = {
     body: "Teranova encuentra fabricantes en Corea, los verifica — incluso con una visita presencial a la fábrica — y gestiona la operación desde la primera solicitud hasta la recepción de la mercancía. Un único socio responsable en lugar de una cadena de intermediarios.",
     photo_note: "Aquí irán fotos reales: el fundador, el equipo y las visitas a las fábricas.",
     cta: "Más sobre la empresa",
+  },
+
+  marine_home: {
+    sup: "una línea aparte",
+    title: "Repuestos para embarcaciones menores",
+    body: "Un equipo falla en un yate, no hay kit de servicio y el modelo ya no se fabrica. El propietario envía una foto de la placa de identificación — identificamos la pieza, encontramos quién la tiene y la enviamos a su puerto. Un servicio aparte, con sitio y mesa de solicitudes propios.",
+    cta: "Abrir Teranova Marine",
   },
 
   tenders_home: {

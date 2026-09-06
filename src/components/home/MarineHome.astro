@@ -1,0 +1,70 @@
+---
+/**
+ * Второе направление группы на главной витрины.
+ *
+ * Сделано карточкой по образцу блока тендеров: та же сетка, та же кнопка,
+ * тот же ритм. Отличает его только тёмная заливка — направление живёт на
+ * своём сайте, и блок должен читаться как дверь наружу, а не как ещё один
+ * раздел витрины.
+ */
+import { ui, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const m = t.marine_home;
+---
+
+<section class="section marineh">
+  <div class="wrap">
+    <a class="marineh__card" href="https://marine.teranovagroup.com/" rel="noopener">
+      <div class="marineh__text">
+        <span class="sup sup--light">( {m.sup} )</span>
+        <h2 class="marineh__title">{m.title}</h2>
+        <p class="marineh__body">{m.body}</p>
+      </div>
+      <span class="btn btn--light btn--lg marineh__cta">
+        {m.cta}
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10"></path></svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+<style>
+  .marineh__card {
+    position: relative; overflow: hidden;
+    display: flex; align-items: center; justify-content: space-between; gap: 36px;
+    padding: clamp(28px, 4vw, 44px);
+    border-radius: var(--r-xl);
+    background: linear-gradient(160deg, #06222c 0%, #072b38 55%, #05202a 100%);
+    box-shadow: var(--sh-l);
+    color: #fff;
+    transition: transform .25s ease, box-shadow .25s ease;
+  }
+  .marineh__card:hover { transform: translateY(-2px); box-shadow: 0 22px 54px rgba(4, 26, 34, 0.28); }
+
+  /* Бирюзовый шов по верхней кромке — как серебряный у тендеров, но свой:
+     этим цветом на сайте направления набраны все акценты. */
+  .marineh__card::before {
+    content: ''; position: absolute; left: 0; right: 0; top: 0; height: 3px;
+    background: linear-gradient(90deg, transparent, #17a2a6 15%, #7fdcd0 50%, #17a2a6 85%, transparent);
+  }
+
+  .sup--light { color: rgba(127, 220, 208, 0.9); }
+  .marineh__title { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; letter-spacing: -0.02em; color: #fff; margin: 8px 0 10px; }
+  .marineh__body { font-size: 1rem; color: rgba(234, 246, 244, 0.78); line-height: 1.6; max-width: 56ch; }
+  .marineh__cta { flex-shrink: 0; display: inline-flex; align-items: center; gap: 9px; }
+  .marineh__cta svg { opacity: .7; }
+  .marineh__card:hover .marineh__cta svg { opacity: 1; }
+
+  .btn--light { background: #fff; color: #06232d; border: 0; }
+  .marineh__card:hover .btn--light { background: #eafaf7; }
+
+  @media (max-width: 760px) {
+    .marineh__card { flex-direction: column; align-items: flex-start; gap: 24px; }
+    .marineh__cta { width: 100%; justify-content: center; }
+  }
+</style>
