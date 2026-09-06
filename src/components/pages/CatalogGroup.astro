@@ -96,13 +96,13 @@ const statusInfo = {
   ? <BeautyHero lang={lang} />
   : <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />}
 
-{/* Маршрут покупателя идёт сразу за первым экраном: четыре задачи, затем
-    отобранные истории, и только потом полный каталог ниже. */}
-{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} />}
+{/* Проверенные поставщики — сразу вторым экраном, за первым.
+    Решение Антона от 06.09.2026: покупатель должен увидеть живой каталог
+    компаний прежде, чем читать про задачи и про то, как всё устроено.
+    Раньше список стоял четвёртым, после четырёх задач и вводного текста.
 
-{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
-
-{/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
+    Вход в подборку по волосам остаётся внутри этого раздела перед списком —
+    это отдельное решение Антона от того же дня. */}
 {isCosmetics && realForCat.length > 0 && (
   <section class="section section--navy bsc bsc--quality">
     <span class="bsc-scene" aria-hidden="true"></span>
@@ -188,6 +188,12 @@ const statusInfo = {
     </div>
   </section>
 )}
+
+
+{/* Маршрут покупателя идёт следом: четыре задачи покупателя. */}
+{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} />}
+
+{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
 
 {isCosmetics && <CosmeticsContent lang={lang} part="body" />}
 
