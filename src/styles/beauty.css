@@ -12,16 +12,16 @@
    ============================================================ */
 
 body[data-theme='beauty'] {
-  --b-bg: #f4f0e9;        /* костяная основа */
-  --b-bg-2: #ece5da;      /* песочный, для чередования разделов */
-  --b-surface: #fcfaf6;   /* карточка */
-  --b-ink: #241f1b;       /* тёплый почти-чёрный вместо навы */
-  --b-sub: #6b6259;
+  --b-bg: #ffffff;        /* белая основа: у всех десяти светло, у B2B — чисто белое */
+  --b-bg-2: #f4f3f1;      /* едва тёплый серый для чередования */
+  --b-surface: #ffffff;   /* карточка */
+  --b-ink: #1b1b1a;       /* почти-чёрный */
+  --b-sub: #5f5d59;
   --b-faint: #8c8378;
-  --b-line: #ded5c7;      /* волосяная линия */
-  --b-pad: #e9e2d6;       /* подложка под фотографию товара */
-  --b-accent: #8e5a46;    /* глина: метки, ссылки, тонкие штрихи */
-  --b-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --b-line: #e6e4e0;      /* волосяная линия */
+  --b-pad: #f4f3f1;       /* подложка под фотографию товара */
+  --b-accent: #1b1b1a;    /* акцент — сам чёрный: цвет приходит от товара */
+  --b-display: var(--font);  /* гротеск, как у COSMAX, Intercos и Laneige */
 
   background: var(--b-bg);
   color: var(--b-ink);
@@ -93,16 +93,16 @@ body[data-theme='beauty'] .cos-h,
 body[data-theme='beauty'] h1,
 body[data-theme='beauty'] h2 {
   font-family: var(--b-display);
-  font-weight: 400;
-  letter-spacing: -0.005em;
-  line-height: 1.06;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
   color: var(--b-ink);
   text-wrap: pretty;
 }
-body[data-theme='beauty'] .page-head .h-section { font-size: clamp(2.6rem, 6.2vw, 5rem); max-width: 16ch; }
+body[data-theme='beauty'] .page-head .h-section { font-size: clamp(2.9rem, 7.4vw, 6.2rem); max-width: 15ch; text-transform: none; }
 body[data-theme='beauty'] .h-section,
-body[data-theme='beauty'] .cos-h { font-size: clamp(2rem, 3.8vw, 3.1rem); }
-body[data-theme='beauty'] h3 { font-family: var(--b-display); font-weight: 500; letter-spacing: 0; }
+body[data-theme='beauty'] .cos-h { font-size: clamp(2.1rem, 4.4vw, 3.6rem); }
+body[data-theme='beauty'] h3 { font-family: var(--b-display); font-weight: 700; letter-spacing: -0.02em; }
 
 body[data-theme='beauty'] .sub-section,
 body[data-theme='beauty'] .cos-sub,
@@ -115,9 +115,9 @@ body[data-theme='beauty'] .sup,
 body[data-theme='beauty'] .lvl {
   font-family: var(--font);
   font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em;
-  text-transform: uppercase; color: var(--b-accent);
+  text-transform: uppercase; color: var(--b-sub);
 }
-body[data-theme='beauty'] .sup--light { color: var(--b-accent); }
+body[data-theme='beauty'] .sup--light { color: var(--b-sub); }
 
 /* ---- действия ----
    Вместо яркой кобальтовой пилюли — плотный чернильный прямоугольник и
