@@ -335,4 +335,190 @@ const statusInfo = {
   /* Вход в подборку поднят над списком поставщиков — сверху отступа не нужно,
      нужен снизу, до заголовка «Проверенные поставщики». */
   .hs-link--top { margin-top: 0; margin-bottom: clamp(28px, 3.4vw, 44px); }
+
+  /* ---- карточка поставщика без фотографий ----
+       ВНИМАНИЕ: эти правила НЕ должны уезжать в beauty.css. Разметка плашек
+       отдаётся на всех одиннадцати языках, а бархатная тема стоит пока только
+       на русской странице. Когда стили лежали в теме, на остальных десяти
+       языках три картинки 724 px разворачивались во всю величину и карточка
+       вырастала с 400 до 2465 px.
+     Sunpure прислал брошюру, но не снимки сырья. Рисовать за компанию её товар
+     нельзя — это подделка, а не иллюстрация. Пустая карточка при этом выглядела
+     как ошибка вёрстки: половина плитки просто пустовала.
+
+     Показываем настоящие позиции каталога: название актива и растение-источник.
+     Плашки красим фирменной гаммой самой компании (`--f-*` приходят из её
+     brandColors), лист нарисован кодом. Когда компания пришлёт фотографии,
+     этот блок исчезнет сам — он показывается только при пустом showcaseImages. */
+  .scard__facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .scard__fact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    min-height: 122px;
+    /* height: auto по умолчанию — плашка обязана расти под перенос, поэтому
+       min-height, а не height. */
+    padding: 12px 11px 13px;
+    border-radius: 5px;
+    overflow: hidden;
+    background:
+      radial-gradient(120% 90% at 22% 8%, color-mix(in srgb, var(--f-mid, #4e9a5f) 46%, transparent), transparent 62%),
+      linear-gradient(158deg, color-mix(in srgb, var(--f-deep, #1d4a2b) 92%, #000) 0%, color-mix(in srgb, var(--f-deep, #1d4a2b) 62%, var(--b-velvet)) 100%);
+    border: 1px solid color-mix(in srgb, var(--f-accent, #d9a441) 34%, transparent);
+  }
+  .scard__fact-mark {
+    position: absolute;
+    top: 10px; right: 10px;
+    width: 30px; height: 30px;
+    fill: none;
+    stroke: var(--f-accent, #d9a441);
+    stroke-width: 1.15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0.78;
+  }
+  .scard__fact-nm {
+    font-size: 0.84rem;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #f4f7f4;
+    text-wrap: balance;
+    /* «Tetrahydrocurcumin» — 18 символов без единого пробела. В колонке шириной
+       около 100 px на 390 px такое слово не переносится и обрезается
+       `overflow: hidden` плашки. Сокращать название нельзя: покупатель ищет
+       сырьё именно по нему. Разрешаем перенос внутри слова и просим браузер
+       ставить дефис там, где это уместно по правилам языка.
+       `hyphenate-limit-chars` не даёт отрывать одну-две буквы. */
+    /* break-word, а не anywhere: `anywhere` обнуляет минимальную ширину слова,
+       колонки сетки схлопываются, и рвётся даже короткое «Glabridin» — вышло
+       «Glabri / din». `break-word` разрывает слово только тогда, когда оно
+       действительно не помещается, а ширину колонок не трогает.
+       Переносы по-английски: имена активов латинские, и словарь переносов
+       выбирается по языку элемента — отсюда lang="en" в разметке. */
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  .scard__fact-src {
+    overflow-wrap: break-word;
+    font-size: 0.68rem;
+    line-height: 1.35;
+    letter-spacing: 0.02em;
+    color: color-mix(in srgb, var(--f-accent, #d9a441) 76%, #ffffff);
+  }
+  /* На телефоне карточка поставщика сужается до 342 px (390 px экрана) и до
+     272 px (320 px экрана). Делить такую ширину на три колонки нельзя:
+     «Tetrahydrocurcumin» — 18 символов без пробела, в колонку около 80 px оно
+     не влезает ни при каком переносе, а сокращать химическое название нельзя —
+     покупатель ищет сырьё именно по нему.
+     Поэтому на узком экране плашки идут в столбик: имя получает всю ширину
+     карточки и умещается в одну строку. */
+  @media (max-width: 620px) {
+    .scard__facts { grid-template-columns: 1fr; gap: 6px; }
+    /* Лист слева, название и источник — в столбик справа от него.
+       В одну строку они не влезают: на карточке 272 px под текст остаётся
+       около 180 px, а «Tetrahydrocurcumin» плюс «Turmeric» просят почти 200 —
+       источник уезжал за край и срезался. Сетка два на два решает это без
+       сокращений и без переносов внутри слова. */
+    .scard__fact {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      align-items: center;
+      column-gap: 10px;
+      row-gap: 1px;
+      min-height: 0;
+      padding: 9px 12px 10px;
+    }
+    .scard__fact-mark {
+      position: static;
+      grid-row: 1 / -1;
+      grid-column: 1;
+      width: 22px; height: 22px;
+      opacity: 0.88;
+    }
+    .scard__fact-nm { grid-column: 2; font-size: 0.86rem; }
+    .scard__fact-src { grid-column: 2; }
+  }
+
+  /* ---- ботанический кадр на плашке ----
+     Кадр — редакционная иллюстрация сырья (триптих Codex, класс
+     `generated-editorial`): корень солодки, корневище куркумы, семена бабчи.
+     Ни тары, ни этикеток, ни логотипов — растение и только оно. Кадр лежит
+     фоном под настоящей подписью и продукцией Sunpure не является.
+
+     Подпись обязана читаться на самом светлом месте кадра — срез куркумы
+     почти оранжевый. Поэтому шторка снизу плотная, а не декоративная. */
+  .scard__fact--art { padding: 0; }
+  .scard__fact-art {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 42%;
+    z-index: 0;
+  }
+  .scard__fact--art::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(6, 20, 12, 0.12) 0%, rgba(6, 20, 12, 0.5) 44%, rgba(5, 16, 10, 0.9) 100%);
+  }
+  .scard__fact--art .scard__fact-nm,
+  .scard__fact--art .scard__fact-src {
+    position: relative;
+    z-index: 2;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .scard__fact--art .scard__fact-nm { margin-top: auto; }
+  .scard__fact--art .scard__fact-src { padding-bottom: 12px; }
+
+  @media (max-width: 620px) {
+    /* Строкой: растение занимает левую треть, подпись стоит справа на
+       затемнении. Высота поднята — иначе от кадра осталась бы полоска. */
+    /* Плашка с кадром на телефоне НЕ переходит в строку. В строке текст
+       остаётся 130 px шириной, и «Tetrahydrocurcumin» ломается на три части.
+       Оставляем ту же раскладку, что на десктопе, только ниже: кадр во всю
+       плашку, подпись снизу во всю ширину — там ей 212 px, и слово помещается
+       в строку. В строку переходят только плашки без кадра. */
+    .scard__fact--art {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      /* align-items: center достаётся от правила для плашек без кадра —
+         в колоночном flex оно центрует подпись. Здесь она прижата влево. */
+      align-items: stretch;
+      text-align: left;
+      min-height: 96px;
+      padding: 0;
+    }
+    .scard__fact--art .scard__fact-art {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 44%;
+    }
+    .scard__fact--art::after {
+      background: linear-gradient(180deg, rgba(6, 20, 12, 0.08) 0%, rgba(6, 20, 12, 0.44) 40%, rgba(5, 16, 10, 0.92) 100%);
+    }
+    .scard__fact--art .scard__fact-nm {
+      margin-top: auto;
+      padding: 0 12px;
+      font-size: 0.86rem;
+    }
+    .scard__fact--art .scard__fact-src { padding: 0 12px 11px; }
+  }
 </style>
