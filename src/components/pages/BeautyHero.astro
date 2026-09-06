@@ -14,9 +14,16 @@
  * десктопа и телефона отдельные кадры (16:9 и 9:16), и текст стоит не на
  * кадре, а на ровном тёмно-синем поле, которое заложено в саму композицию.
  *
+ * Про сюжет. Пять предметов — пять форматов ухода: туба, airless-помпа,
+ * банка, пипетка, саше. Разнообразие форматов говорит «продуктовые линейки»
+ * точнее, чем полтора десятка одинаковых флаконов, и не забивает экран.
+ * Прежний кадр с цветным стеклом и парфюмерией Антон отклонил 06.09.2026:
+ * «эти банки и духи перегружают данный первый экран».
+ *
  * Про достоверность. Сцена — редакционная иллюстрация (`generated-editorial`,
  * происхождение записано в docs/IMAGERY-MANIFEST.md). Она ничего не
- * доказывает и не изображает конкретного поставщика.
+ * доказывает и не изображает конкретного поставщика. Доказательство ширины
+ * ассортимента — «26 компаний в каталоге» и полный список профилей ниже.
  *
  * Полосу «настоящие снимки товара» с подписью отсюда убрал: Антон 06.09.2026
  * назвал её ужасной, и по делу — четыре белые плашки с мелким товаром и
@@ -39,15 +46,15 @@ const { lang } = Astro.props;
   <picture class="bh__scene">
     <source
       media="(max-width: 820px)"
-      srcset="/img/beauty/scenes/hero-mobile-600.webp 600w, /img/beauty/scenes/hero-mobile-900.webp 900w"
+      srcset="/img/beauty/scenes/hero-formats-mobile-600.webp 600w, /img/beauty/scenes/hero-formats-mobile-900.webp 900w"
       sizes="100vw"
     />
     <img
-      src="/img/beauty/scenes/hero-desktop-1600.webp"
-      srcset="/img/beauty/scenes/hero-desktop-900.webp 900w, /img/beauty/scenes/hero-desktop-1600.webp 1600w"
+      src="/img/beauty/scenes/hero-formats-desktop-1600.webp"
+      srcset="/img/beauty/scenes/hero-formats-desktop-900.webp 900w, /img/beauty/scenes/hero-formats-desktop-1600.webp 1600w"
       sizes="100vw"
-      width="1672"
-      height="941"
+      width="1600"
+      height="900"
       alt=""
       fetchpriority="high"
       decoding="async"
@@ -98,14 +105,8 @@ const { lang } = Astro.props;
        object-position по горизонтали здесь ничего не решает — кадр уже, чем
        окно, обрезается только по высоте. Плюс запас на сдвиг при параллаксе. */
     transform-origin: 0% 50%;
-    transform: translate3d(0, calc(var(--bsc-y, 0) * 4%), 0) scale(1.16);
+    transform: translate3d(0, calc(var(--bsc-y, 0) * 4%), 0) scale(1.05);
     will-change: transform;
-    /* Антон 06.09.2026: «эти банки и духи перегружают первый экран, может
-       быть заменим на кремовые баночки — белое, серебряное, кремовое».
-       До нового кадра увожу нынешний почти в монохром: остаются кремовый,
-       серебряный и графитовый, цветные жидкости гаснут. Композиция та же,
-       но она больше не спорит с заголовком и кнопкой. */
-    filter: saturate(0.16) brightness(1.05) contrast(1.05);
   }
 
   /* Затемнение ровно там, где стоит текст. Кадр нарисован с пустым тёмным
@@ -114,7 +115,7 @@ const { lang } = Astro.props;
   .bh::before {
     content: '';
     position: absolute; inset: 0; z-index: -1;
-    background: linear-gradient(90deg, rgba(7,18,36,0.96) 0%, rgba(7,18,36,0.93) 38%, rgba(7,18,36,0.62) 54%, rgba(7,18,36,0.16) 72%, transparent 88%);
+    background: linear-gradient(90deg, rgba(7,18,36,0.82) 0%, rgba(7,18,36,0.66) 38%, rgba(7,18,36,0.3) 56%, rgba(7,18,36,0.08) 72%, transparent 86%);
   }
 
   /* .bh — flex-контейнер, поэтому .wrap как flex-элемент сжимался по
@@ -149,10 +150,9 @@ const { lang } = Astro.props;
     .bh__scene img {
       transform-origin: 50% 100%;
       transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0) scale(1.04);
-      filter: saturate(0.16) brightness(0.98) contrast(1.05);
     }
     .bh::before {
-      background: linear-gradient(180deg, rgba(7,18,36,0.96) 0%, rgba(7,18,36,0.94) 46%, rgba(7,18,36,0.84) 62%, rgba(7,18,36,0.46) 80%, rgba(7,18,36,0.18) 100%);
+      background: linear-gradient(180deg, rgba(7,18,36,0.78) 0%, rgba(7,18,36,0.62) 44%, rgba(7,18,36,0.3) 62%, rgba(7,18,36,0.1) 78%, transparent 92%);
     }
     .bh__text { max-width: none; }
     .bh__acts { width: 100%; }
