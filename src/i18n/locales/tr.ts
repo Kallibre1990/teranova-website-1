@@ -490,6 +490,33 @@ const tr: DeepPartial<UIDict> = {
     body: "Tedarik, doğrulama ve teslimatı bizzat yürüten yöneticiler ve uzmanlar.",
     cta: "Ekiple tanışın",
   },
+
+  beauty: {
+    sup: "Teranova Beauty · B2B",
+    h1: "Pazarınız için Kore markaları ve ürünleri",
+    lead: "Pazarınıza, satış kanalınıza ve bütçenize uygun markaları, ürün serilerini ve üreticileri belirliyoruz.",
+    cta_primary: "Marka ve ürün seçin",
+    cta_secondary: "Özel markanızı görüşelim",
+    catalog_btn: "şirketlik katalog",
+    tasks_sup: "Nereden başlamalı",
+    tasks_title: "Bize gelen dört temel ihtiyaç",
+    tasks_sub: "İhtiyacınızı seçin. İlgili seçenekleri gösterir, koşulları ayrıca iletiriz.",
+    task_n: "İhtiyaç",
+    task_go: "İhtiyacı görüşelim →",
+    tasks: [
+      { title: "Dağıtım için marka ve ürün serileri", desc: "Dağıtıma uygun Kore markaları ve ürün serileri. Ticari koşullar talep üzerine teyit edilir." },
+      { title: "Özel marka · OEM ve ODM", desc: "Formülünüze, sipariş hacminize ve pazarınıza göre üretici seçimi; numuneden belgelere ve sevkiyata kadar." },
+      { title: "Profesyonel seri", desc: "Güzellik merkezleri ve klinikler için ürünler: maskeler, ampuller, cihaz destekli bakım ve salon programları." },
+      { title: "Ambalaj ve ham madde", desc: "Kore üretimi cam ambalajlar, pompalar, tüpler ve kavanozlar; saflığı tedarikçi tarafından beyan edilen standartlaştırılmış aktif bileşenler." },
+    ],
+    stories_sup: "Katalog nasıl düzenlendi",
+    stories_title: "Katalogdan sekiz örnek",
+    stories_sub: "Her kartın yapısını göstermek için sekiz örnek sunuyoruz: doğrulama durumu, uzmanlık ve ürün. Bu bir sıralama ya da en iyi şirketlerin seçimi değildir; tüm şirketlerin tam listesi sayfanın devamındadır.",
+    stories_btn: "Şirket kataloğu",
+    carousel_label: "Yatay kaydırılabilen katalog kartı örnekleri",
+    carousel_prev: "Önceki kartlar",
+    carousel_next: "Sonraki kartlar",
+  },
 };
 
 export default tr;

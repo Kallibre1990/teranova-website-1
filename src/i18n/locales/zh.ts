@@ -490,6 +490,33 @@ const zh: DeepPartial<UIDict> = {
     body: "由管理层与经理人亲自负责寻源、核验与供应。",
     cta: "认识我们的团队",
   },
+
+  beauty: {
+    sup: "Teranova Beauty · B2B",
+    h1: "韩国品牌与产品，面向您的市场",
+    lead: "根据您的市场、销售渠道和预算，为您匹配品牌、产品线和制造商。",
+    cta_primary: "匹配品牌与产品组合",
+    cta_secondary: "洽谈自有品牌",
+    catalog_btn: "家企业收录于目录",
+    tasks_sup: "从这里开始",
+    tasks_title: "我们常接到的四类需求",
+    tasks_sub: "请选择符合您需求的方向。我们会展示相关内容，并回复具体条件。",
+    task_n: "需求",
+    task_go: "洽谈此需求 →",
+    tasks: [
+      { title: "适合分销的现有品牌", desc: "适合零售上架的韩国品牌和产品线。具体商务条件需按请求确认。" },
+      { title: "自有品牌 · OEM 与 ODM", desc: "根据您的配方、数量和目标市场匹配制造商，涵盖样品、文件和发货环节。" },
+      { title: "专业产品线", desc: "面向美容院和诊所的产品组合：面膜、安瓶、仪器护理及院线方案。" },
+      { title: "包装与原料", desc: "韩国制造的玻璃容器、泵头、软管和罐体，以及纯度由供应商声明的标准化活性成分。" },
+    ],
+    stories_sup: "目录如何组织",
+    stories_title: "目录中的八个示例",
+    stories_sub: "我们展示八张卡片，以说明每张卡片如何呈现核验状态、专业领域和产品。这不是排名，也不是最佳企业评选；所有企业的完整名单见本页下方。",
+    stories_btn: "企业目录",
+    carousel_label: "目录卡片示例，可横向滚动",
+    carousel_prev: "上一组卡片",
+    carousel_next: "下一组卡片",
+  },
 };
 
 export default zh;
