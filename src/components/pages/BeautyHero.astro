@@ -61,7 +61,9 @@ const { lang } = Astro.props;
         <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>Подобрать бренд и ассортимент</a>
         <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>Обсудить свою марку</a>
       </div>
-      <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>{beautySuppliers.length} компаний в каталоге</a>
+      <a class="btn btn--quiet bh__cat" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>
+        <span class="bh__cat-n">{beautySuppliers.length}</span> компаний в каталоге
+      </a>
     </div>
 
 
@@ -128,7 +130,16 @@ const { lang } = Astro.props;
   .bh__d { font-size: clamp(0.98rem, 1.1vw, 1.1rem); line-height: 1.6; color: var(--b-sub, #5f5d59); margin: 16px 0 0; max-width: 38ch; }
   .bh__acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: clamp(20px, 2.4vw, 30px); }
   .bh__acts .btn { min-height: 48px; }
-  .bh__scroll { margin-top: 16px; font-size: 0.84rem; font-weight: 700; color: var(--b-sub, #5f5d59); border-bottom: 1px solid var(--b-line, #e6e4e0); padding-bottom: 3px; }
+  /* Третье действие — кнопкой, как и первые два: Антон 06.09.2026, «сделать
+     как кнопку, как и остальные, чтобы было очевидно, понятно, эстетично».
+     Раньше это была подчёркнутая строка, и рядом с двумя кнопками она
+     читалась как сноска, а не как переход в каталог.
+
+     Вес третий по счёту и это намеренно: золото — подобрать ассортимент,
+     контур — своя марка, тихая кнопка — посмотреть каталог. Три одинаковые
+     кнопки убили бы иерархию. */
+  .bh__cat { margin-top: 12px; }
+  .bh__cat-n { font-weight: 800; color: var(--b-gold-lite, #dcc189); }
 
   /* Панель выбора. Намеренно служебная на вид: она инструмент согласования,
      а не элемент дизайна, и не должна мешать оценивать сам экран. */
@@ -153,6 +164,7 @@ const { lang } = Astro.props;
     .bh__text { max-width: none; }
     .bh__acts { width: 100%; }
     .bh__acts .btn { flex: 1 1 auto; justify-content: center; }
+    .bh__cat { width: 100%; justify-content: center; }
     /* В потоке, а не поверх кадра: иначе панель закрывает сюжет, который и
        надо оценивать. */
   }
@@ -161,5 +173,6 @@ const { lang } = Astro.props;
     .bh__d { font-size: 0.95rem; }
     .bh__acts { flex-direction: column; }
     .bh__acts .btn { width: 100%; }
+    .bh__cat { width: 100%; }
   }
 </style>
