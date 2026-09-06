@@ -165,11 +165,27 @@ if (!reduce) {
           }
         }
       },
-      { threshold: 0.1, rootMargin: '0px 0px -6% 0px' },
+      /* threshold — доля площади САМОГО блока, попавшая в экран. Блок выше
+         экрана эту долю набрать не может: каталог поставщиков высотой
+         8958 px на экране 844 px даёт максимум 844/8958 = 0.094, то есть
+         меньше прежних 0.1 — и раздел не показывался на телефоне никогда.
+         Ноль срабатывает от первого же пикселя и от высоты блока не зависит. */
+      { threshold: 0, rootMargin: '0px 0px -6% 0px' },
     );
+    /* Страховка. Что бы ни случилось с наблюдателем — другой порядок
+       событий, отменённый переход, ошибка в чужом скрипте — содержимое
+       обязано проявиться. Через полторы секунды показываем всё, что ещё
+       скрыто. Появление — украшение, а не условие доступа к тексту. */
+    window.setTimeout(() => {
+      for (const el of risers) el.classList.add('is-in');
+    }, 1500);
+
     const fold = window.innerHeight * 0.92;
     for (const el of risers) {
-      if (el.getBoundingClientRect().top < fold) {
+      /* Блок выше экрана не прячем вовсе. Анимация появления для него всё
+         равно не читается, зато любая осечка наблюдателя оставила бы
+         пользователя перед пустым экраном: каталог поставщиков — 8958 px. */
+      if (el.getBoundingClientRect().top < fold || el.offsetHeight > window.innerHeight) {
         el.classList.add('is-in'); // already in view on load — reveal instantly, never hidden
       } else {
         el.classList.add('rise');
