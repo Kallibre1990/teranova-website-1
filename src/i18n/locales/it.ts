@@ -490,6 +490,33 @@ const it: DeepPartial<UIDict> = {
     body: "La direzione e i manager che gestiscono personalmente ricerca, verifica e fornitura.",
     cta: "Conosci il team",
   },
+
+  beauty: {
+    sup: "Teranova Beauty · B2B",
+    h1: "Brand e prodotti coreani per il vostro mercato",
+    lead: "Cerchiamo brand, linee di prodotto e produttori adatti al vostro mercato, canale di vendita e budget.",
+    cta_primary: "Trovate brand e assortimento",
+    cta_secondary: "Parliamo del vostro marchio",
+    catalog_btn: "aziende nel catalogo",
+    tasks_sup: "Da dove iniziare",
+    tasks_title: "Quattro esigenze frequenti",
+    tasks_sub: "Scegliete la vostra. Vi mostreremo ciò che riguarda il vostro caso e vi comunicheremo le condizioni.",
+    task_n: "Esigenza",
+    task_go: "Parliamo dell’esigenza →",
+    tasks: [
+      { title: "Brand e linee per la distribuzione", desc: "Brand coreani e linee di prodotto adatti alla distribuzione. Le condizioni commerciali sono confermate su richiesta." },
+      { title: "Marchio proprio · OEM e ODM", desc: "Ricerca del produttore in base a formula, quantità e mercato: dal campione ai documenti e alla spedizione." },
+      { title: "Linea professionale", desc: "Assortimento per istituti e cliniche: maschere, ampolle, trattamenti con apparecchiature e programmi per saloni." },
+      { title: "Packaging e materie prime", desc: "Vetro, pompe, tubetti e vasetti di produzione coreana, oltre ad attivi standardizzati con purezza dichiarata dal fornitore." },
+    ],
+    stories_sup: "Come è strutturato il catalogo",
+    stories_title: "Otto esempi dal catalogo",
+    stories_sub: "Otto schede mostrano come sono strutturate: stato della verifica, specializzazione e prodotto. Non si tratta di una classifica né di una selezione dei migliori. L’elenco completo delle aziende è più in basso.",
+    stories_btn: "Catalogo aziende",
+    carousel_label: "Esempi di schede del catalogo, scorrimento orizzontale",
+    carousel_prev: "Schede precedenti",
+    carousel_next: "Schede successive",
+  },
 };
 
 export default it;

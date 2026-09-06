@@ -490,6 +490,33 @@ const de: DeepPartial<UIDict> = {
     body: "Der Gründer, die Geschäftsführung und die Manager, die sich persönlich um Beschaffung, Prüfung und Lieferung kümmern.",
     cta: "Das Team kennenlernen",
   },
+
+  beauty: {
+    sup: "Teranova Beauty · B2B",
+    h1: "Koreas Marken und Produkte für Ihren Markt",
+    lead: "Wir finden Marken, Produktlinien und Hersteller passend zu Ihrem Markt, Vertriebskanal und Budget.",
+    cta_primary: "Marken und Sortiment finden",
+    cta_secondary: "Eigenmarke besprechen",
+    catalog_btn: "Unternehmen im Katalog",
+    tasks_sup: "Ihr Ausgangspunkt",
+    tasks_title: "Vier typische Anliegen",
+    tasks_sub: "Wählen Sie Ihr Anliegen. Wir zeigen, was dazu passt, und melden uns mit den Konditionen.",
+    task_n: "Anliegen",
+    task_go: "Anliegen besprechen →",
+    tasks: [
+      { title: "Marke für den Vertrieb", desc: "Koreanische Marken und Produktlinien für den Handel. Die Geschäftskonditionen bestätigen wir auf Anfrage." },
+      { title: "Eigenmarke · OEM und ODM", desc: "Herstellersuche nach Rezeptur, Menge und Markt: vom Muster über die Unterlagen bis zum Versand." },
+      { title: "Professionelle Produktlinie", desc: "Sortiment für Kosmetikinstitute und Kliniken: Masken, Ampullen, apparative Pflege und Behandlungskonzepte." },
+      { title: "Verpackung und Rohstoffe", desc: "Glas, Pumpen, Tuben und Tiegel aus koreanischer Herstellung sowie standardisierte Wirkstoffe mit vom Anbieter deklarierter Reinheit." },
+    ],
+    stories_sup: "So ist der Katalog aufgebaut",
+    stories_title: "Acht Beispiele aus dem Katalog",
+    stories_sub: "Acht Karten zeigen, wie die Einträge aufgebaut sind: Prüfstatus, Spezialisierung und Produkt. Dies ist weder eine Rangliste noch eine Auswahl der Besten. Die vollständige Liste aller Unternehmen folgt weiter unten.",
+    stories_btn: "Unternehmenskatalog",
+    carousel_label: "Beispiele für horizontal scrollbare Katalogkarten",
+    carousel_prev: "Vorherige Karten",
+    carousel_next: "Nächste Karten",
+  },
 };
 
 export default de;
