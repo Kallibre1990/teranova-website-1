@@ -139,8 +139,6 @@ body[data-theme='beauty'] .bsc-scene {
 
 
 body[data-theme='beauty'] .bsc--actives .bsc-scene { background-image: url('/img/beauty/scenes/brands.webp'); }
-/* восемь примеров карточек — товар, который в них показан */
-body[data-theme='beauty'] .bsc--verify .bsc-scene { background-image: url('/img/beauty/scenes/pro.webp'); }
 /* список поставщиков — их собственный товар */
 body[data-theme='beauty'] .bsc--quality .bsc-scene { background-image: url('/img/beauty/scenes/actives.webp'); }
 /* товары рубрики — упаковка и колпачки */
