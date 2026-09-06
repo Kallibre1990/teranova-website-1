@@ -1,0 +1,240 @@
+/* ============================================================
+   TERANOVA BEAUTY — тёплая редакционная оболочка витрины.
+
+   Каркас, сетка, компоненты и разметка остаются общими: меняются
+   палитра, гарнитура заголовков и плотность. Включается атрибутом
+   body[data-theme="beauty"], поэтому ни один компонент не знает о
+   существовании темы и ни одна другая страница не затронута.
+
+   Палитра тёплая и низконасыщенная — так во всём премиальном бьюти:
+   костяной, песочный, глина, тёплый почти-чёрный. Синий уходит:
+   на витрине косметики цвет должен приходить от товара.
+   ============================================================ */
+
+body[data-theme='beauty'] {
+  --b-bg: #f4f0e9;        /* костяная основа */
+  --b-bg-2: #ece5da;      /* песочный, для чередования разделов */
+  --b-surface: #fcfaf6;   /* карточка */
+  --b-ink: #241f1b;       /* тёплый почти-чёрный вместо навы */
+  --b-sub: #6b6259;
+  --b-faint: #8c8378;
+  --b-line: #ded5c7;      /* волосяная линия */
+  --b-pad: #e9e2d6;       /* подложка под фотографию товара */
+  --b-accent: #8e5a46;    /* глина: метки, ссылки, тонкие штрихи */
+  --b-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+
+  background: var(--b-bg);
+  color: var(--b-ink);
+}
+
+/* ---- разделы ----
+   Страница собрана из блоков .section--navy. В тёплой теме перекрашиваем
+   сам класс: так весь экран меняется целиком и согласованно, без правки
+   каждого компонента по отдельности. */
+body[data-theme='beauty'] .section--navy,
+body[data-theme='beauty'] .section--alt {
+  background: var(--b-bg);
+  color: var(--b-ink);
+}
+body[data-theme='beauty'] .section--navy:nth-of-type(even) { background: var(--b-bg-2); }
+body[data-theme='beauty'] .section--navy::before,
+body[data-theme='beauty'] .section--alt::before,
+body[data-theme='beauty'] .section--alt::after { display: none; }
+/* Тёмные декоративные слои прежней оболочки в тёплой теме не участвуют. */
+body[data-theme='beauty'] .atmo,
+body[data-theme='beauty'] .atmo__aura,
+body[data-theme='beauty'] .atmo__glow,
+body[data-theme='beauty'] .atmo__rings,
+body[data-theme='beauty'] .atmo__dots,
+body[data-theme='beauty'] .atmo__contour,
+body[data-theme='beauty'] .grain,
+body[data-theme='beauty'] .cat-deep { display: none !important; }
+
+/* ---- первый экран ----
+   Тёмное фото завода уходит: оно обещает промышленность и спорит с товаром.
+   Вместо него — воздух, антиква и тонкая линия под надзаголовком. */
+body[data-theme='beauty'] .page-head {
+  background: var(--b-bg);
+  color: var(--b-ink);
+  border-bottom: 1px solid var(--b-line);
+}
+body[data-theme='beauty'] .page-head .sub-section { color: var(--b-sub); }
+body[data-theme='beauty'] .page-head .sup { display: inline-block; padding-bottom: 14px; border-bottom: 1px solid var(--b-line); margin-bottom: 26px; }
+
+/* Серебряная плита подборки в тёплой теме звучит тише. */
+body[data-theme='beauty'] .sel-plate { background: var(--b-surface); border: 1px solid var(--b-line); box-shadow: none; }
+body[data-theme='beauty'] .sel-plate::after { display: none; }
+body[data-theme='beauty'] .sel-plate__t { font-family: var(--b-display); font-weight: 500; color: var(--b-ink); }
+body[data-theme='beauty'] .sel-plate__sup { color: var(--b-accent); }
+body[data-theme='beauty'] .sel-plate__d { color: var(--b-sub); }
+body[data-theme='beauty'] .sel-plate__ar { color: var(--b-accent); }
+
+/* ---- шапка ----
+   Шапка общая для всего сайта, поэтому перекрашиваем её только внутри темы. */
+body[data-theme='beauty'] .site-header {
+  background: rgba(244, 240, 233, 0.94) !important;
+  backdrop-filter: saturate(1.1) blur(10px);
+  border-bottom: 1px solid var(--b-line) !important;
+}
+body[data-theme='beauty'] .site-header a,
+body[data-theme='beauty'] .site-header .header__nav a,
+body[data-theme='beauty'] .site-header .header__right a { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .site-header .header__nav a:hover { color: var(--b-accent) !important; }
+body[data-theme='beauty'] .site-header .btn--primary { background: var(--b-ink) !important; color: #fbf8f3 !important; border-color: var(--b-ink) !important; }
+body[data-theme='beauty'] .site-header .burger span { background: var(--b-ink) !important; }
+
+/* ---- типографика ----
+   Заголовки — антиква с высоким контрастом и малым весом. Это главное,
+   что отличает премиальную косметику от корпоративного интерфейса:
+   геометрический гротеск в заголовке всегда читается как SaaS. */
+body[data-theme='beauty'] .h-section,
+body[data-theme='beauty'] .page-head .h-section,
+body[data-theme='beauty'] .cos-h,
+body[data-theme='beauty'] h1,
+body[data-theme='beauty'] h2 {
+  font-family: var(--b-display);
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  line-height: 1.06;
+  color: var(--b-ink);
+  text-wrap: pretty;
+}
+body[data-theme='beauty'] .page-head .h-section { font-size: clamp(2.6rem, 6.2vw, 5rem); max-width: 16ch; }
+body[data-theme='beauty'] .h-section,
+body[data-theme='beauty'] .cos-h { font-size: clamp(2rem, 3.8vw, 3.1rem); }
+body[data-theme='beauty'] h3 { font-family: var(--b-display); font-weight: 500; letter-spacing: 0; }
+
+body[data-theme='beauty'] .sub-section,
+body[data-theme='beauty'] .cos-sub,
+body[data-theme='beauty'] p { color: var(--b-sub); }
+body[data-theme='beauty'] .sub-section { font-size: 1.08rem; line-height: 1.75; max-width: 54ch; }
+
+/* Надзаголовки — капитель на глине, без скобок и без ромба. */
+body[data-theme='beauty'] .eyebrow,
+body[data-theme='beauty'] .sup,
+body[data-theme='beauty'] .lvl {
+  font-family: var(--font);
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--b-accent);
+}
+body[data-theme='beauty'] .sup--light { color: var(--b-accent); }
+
+/* ---- действия ----
+   Вместо яркой кобальтовой пилюли — плотный чернильный прямоугольник и
+   контурная альтернатива. Тише, дороже, и не спорит с фотографией. */
+body[data-theme='beauty'] .btn { border-radius: 2px; font-weight: 600; letter-spacing: 0.02em; padding: 16px 30px; }
+body[data-theme='beauty'] .btn--primary { background: var(--b-ink); color: #fbf8f3; box-shadow: none; }
+body[data-theme='beauty'] .btn--primary:hover { background: #3a322b; transform: none; box-shadow: none; }
+body[data-theme='beauty'] .btn--ghost,
+body[data-theme='beauty'] .btn--outline {
+  background: transparent; border-color: var(--b-line); color: var(--b-ink);
+}
+body[data-theme='beauty'] .btn--ghost:hover,
+body[data-theme='beauty'] .btn--outline:hover { background: transparent; border-color: var(--b-ink); }
+body[data-theme='beauty'] .link-arrow,
+body[data-theme='beauty'] .back,
+body[data-theme='beauty'] a { color: var(--b-accent); }
+body[data-theme='beauty'] a:hover { color: var(--b-ink); }
+
+/* ---- карточки ---- */
+body[data-theme='beauty'] .cos-card,
+body[data-theme='beauty'] .cos-model,
+body[data-theme='beauty'] .cos-fact,
+body[data-theme='beauty'] .pcard,
+body[data-theme='beauty'] .scard {
+  background: var(--b-surface);
+  border: 1px solid var(--b-line);
+  border-radius: 2px;
+  box-shadow: none;
+}
+body[data-theme='beauty'] .cos-card__t,
+body[data-theme='beauty'] .cos-model__name,
+body[data-theme='beauty'] .cos-fact__k,
+body[data-theme='beauty'] .scard__nm,
+body[data-theme='beauty'] .pcard__nm { color: var(--b-ink); }
+body[data-theme='beauty'] .cos-card__d,
+body[data-theme='beauty'] .cos-model__desc,
+body[data-theme='beauty'] .cos-fact__v,
+body[data-theme='beauty'] .scard__role,
+body[data-theme='beauty'] .scard__origin { color: var(--b-sub); }
+body[data-theme='beauty'] .scard--real:hover {
+  transform: translateY(-2px);
+  border-color: var(--b-ink);
+  box-shadow: none;
+}
+body[data-theme='beauty'] .scard__more { color: var(--b-accent); }
+body[data-theme='beauty'] .scard__pad { background: var(--b-pad); border-radius: 2px; }
+
+/* Статусы остаются различимыми: смысл важнее палитры, но тон тёплый. */
+body[data-theme='beauty'] .badge--visited { color: #3f6b53; background: #e6efe7; border-color: #c9ddcd; }
+body[data-theme='beauty'] .badge--provided { color: #8a6a2f; background: #f4ecdc; border-color: #e2d3b4; }
+
+/* ---- шапка и подвал ---- */
+body[data-theme='beauty'] .header,
+body[data-theme='beauty'] header { background: var(--b-bg); border-bottom: 1px solid var(--b-line); }
+body[data-theme='beauty'] .footer { background: var(--b-ink); color: #efe8de; }
+
+/* ---- воздух ----
+   Премиальность в бьюти делается не украшением, а расстоянием. */
+body[data-theme='beauty'] .section { padding: clamp(72px, 10vw, 132px) 0; }
+body[data-theme='beauty'] .page-head { padding-top: clamp(64px, 9vw, 120px); padding-bottom: clamp(48px, 7vw, 88px); }
+body[data-theme='beauty'] .section-head { margin-bottom: clamp(48px, 6vw, 72px); }
+
+
+/* ---- перебиваем точечные цвета прежней тёмной оболочки ----
+   Компоненты задают белый текст в своих scoped-стилях; на костяном фоне это
+   невидимо. Здесь, и только здесь, важность оправдана: тема обязана победить
+   цвет, рассчитанный на тёмный раздел. */
+body[data-theme='beauty'] .page-head .h-section,
+body[data-theme='beauty'] .section--navy .h-section,
+body[data-theme='beauty'] .section--navy h2,
+body[data-theme='beauty'] .section--navy h3,
+body[data-theme='beauty'] .cos-h,
+body[data-theme='beauty'] .cos-ctaband__t,
+body[data-theme='beauty'] .scard__nm,
+body[data-theme='beauty'] .cos-card__t { color: var(--b-ink) !important; }
+
+body[data-theme='beauty'] .section--navy .sub-section,
+body[data-theme='beauty'] .section--navy p,
+body[data-theme='beauty'] .page-head .sub-section,
+body[data-theme='beauty'] .cos-ctaband__d,
+body[data-theme='beauty'] .cos-card__d,
+body[data-theme='beauty'] .cos-model__desc,
+body[data-theme='beauty'] .cos-fact__v,
+body[data-theme='beauty'] .cos-sub,
+body[data-theme='beauty'] .scard__role { color: var(--b-sub) !important; }
+
+body[data-theme='beauty'] .section--navy .lvl,
+body[data-theme='beauty'] .section--navy .eyebrow,
+body[data-theme='beauty'] .cos-lvl,
+body[data-theme='beauty'] .cos-model__name,
+body[data-theme='beauty'] .cos-fact__k { color: var(--b-accent) !important; }
+
+body[data-theme='beauty'] .section--navy .back,
+body[data-theme='beauty'] .section--navy .link-arrow,
+body[data-theme='beauty'] .scard__more { color: var(--b-accent) !important; }
+body[data-theme='beauty'] .cos-order li,
+body[data-theme='beauty'] .scard__origin,
+body[data-theme='beauty'] .group__foot .note { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .scard__tags span { color: var(--b-sub) !important; background: var(--b-bg); border-color: var(--b-line); }
+
+/* Знак: в тёплой теме показываем тёмный файл вместо светлого. */
+body[data-theme='beauty'] .logo__img { display: none !important; }
+body[data-theme='beauty'] .logo__img--onlight { display: block !important; }
+/* Переключатель языка и мелкие элементы шапки. */
+body[data-theme='beauty'] .site-header .lang,
+body[data-theme='beauty'] .site-header .lang__btn,
+body[data-theme='beauty'] .site-header button { color: var(--b-ink) !important; border-color: var(--b-line) !important; }
+
+/* Кнопка в шапке: тёмный прямоугольник со светлой подписью. */
+body[data-theme='beauty'] .site-header .header__cta,
+body[data-theme='beauty'] .site-header .btn--primary,
+body[data-theme='beauty'] .site-header .btn--primary span { color: #fbf8f3 !important; }
+
+/* Подпись на тёмной кнопке шапки должна победить общее правило для ссылок
+   шапки — оно специфичнее, поэтому здесь селектор длиннее намеренно. */
+body[data-theme='beauty'] .site-header .header__right a.header__cta { color: #fbf8f3 !important; }
+/* Переключатель языка: на костяном фоне он был почти невидим. */
+body[data-theme='beauty'] .site-header .header__right .langs,
+body[data-theme='beauty'] .site-header .header__right .langs * { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .site-header .header__right .langs { background: var(--b-surface) !important; border: 1px solid var(--b-line) !important; }
