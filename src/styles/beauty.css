@@ -22,13 +22,18 @@ body[data-theme='beauty'] {
   --b-navy-2: #0e2243;
   --b-velvet: #071224;
   --b-ink: #f2f5fa;
-  --b-sub: #b9c4d6;
-  --b-line: rgba(203, 212, 224, 0.16);
+  --b-sub: #c2cdde;         /* серебро для основного вторичного текста */
+  --b-silver: #cbd4e0;
+  --b-silver-bright: #e6ecf5;
+  --b-line: rgba(203, 212, 224, 0.22);   /* серебряная волосяная линия */
+  --b-line-strong: rgba(203, 212, 224, 0.38);
   --b-surface: rgba(255, 255, 255, 0.045);
   --b-surface-2: rgba(255, 255, 255, 0.075);
   --b-pad: #f3f5f8;
-  --b-gold: #c8a86a;
-  --b-gold-soft: rgba(200, 168, 106, 0.16);
+  --b-gold: #b8934e;        /* глубокое золото, не медовое */
+  --b-gold-lite: #dcc189;   /* блик на золоте */
+  --b-gold-deep: #8f6d33;   /* тень золота */
+  --b-gold-soft: rgba(184, 147, 78, 0.18);
   --b-display: var(--font);
 
   background: var(--b-navy);
@@ -161,12 +166,12 @@ body[data-theme='beauty'] .cos-fact__k {
 /* ---- действия: золотая заливка, серебряный контур ---- */
 body[data-theme='beauty'] .btn { border-radius: 4px; font-weight: 700; letter-spacing: 0.01em; }
 body[data-theme='beauty'] .btn--primary {
-  background: linear-gradient(180deg, #d8bb80, var(--b-gold));
-  color: #1a1408;
-  border-color: transparent;
-  box-shadow: 0 10px 30px -12px rgba(200, 168, 106, 0.6);
+  background: linear-gradient(180deg, var(--b-gold-lite) 0%, var(--b-gold) 46%, var(--b-gold-deep) 100%);
+  color: #1c1508;
+  border-color: rgba(220, 193, 137, 0.5);
+  box-shadow: 0 10px 30px -12px rgba(143, 109, 51, 0.7), inset 0 1px 0 rgba(255, 246, 224, 0.45);
 }
-body[data-theme='beauty'] .btn--primary:hover { background: linear-gradient(180deg, #e3c893, #cfae6f); transform: translateY(-1px); }
+body[data-theme='beauty'] .btn--primary:hover { background: linear-gradient(180deg, #e8d3a2 0%, #c6a05a 46%, #9c7838 100%); transform: translateY(-1px); }
 body[data-theme='beauty'] .btn--ghost,
 body[data-theme='beauty'] .btn--outline {
   background: rgba(255, 255, 255, 0.04);
@@ -257,3 +262,46 @@ body[data-theme='beauty'] .section-head { margin-bottom: clamp(40px, 5.4vw, 66px
    в свою марку. Своя марка остаётся вторым путём — в первом экране и среди
    четырёх задач. */
 body[data-theme='beauty'] .cos-btns--top { display: none; }
+
+
+/* ---- серебро ----
+   Серебро держит структуру: тонкий шов между разделами, черта под
+   надзаголовком, чуть более заметные рамки карточек. Это то, что на
+   бархате читается как дорогая отделка, а не как украшение. */
+body[data-theme='beauty'] .section + .section { border-top: 1px solid var(--b-line); }
+body[data-theme='beauty'] .eyebrow::before,
+body[data-theme='beauty'] .lvl::before {
+  content: '';
+  display: inline-block;
+  width: 30px; height: 1px;
+  margin-right: 12px;
+  vertical-align: middle;
+  background: linear-gradient(90deg, transparent, var(--b-silver));
+  opacity: 0.75;
+}
+body[data-theme='beauty'] .section-head { position: relative; padding-bottom: 26px; }
+body[data-theme='beauty'] .section-head::after {
+  content: '';
+  position: absolute; left: 0; bottom: 0; width: 140px; height: 1px;
+  background: linear-gradient(90deg, var(--b-silver), rgba(203, 212, 224, 0.05));
+}
+body[data-theme='beauty'] .cos-card,
+body[data-theme='beauty'] .cos-model,
+body[data-theme='beauty'] .cos-fact,
+body[data-theme='beauty'] .scard,
+body[data-theme='beauty'] .br-task,
+body[data-theme='beauty'] .br-story,
+body[data-theme='beauty'] .sel-plate { border-color: var(--b-line) !important; }
+body[data-theme='beauty'] .scard:hover,
+body[data-theme='beauty'] .br-task:hover,
+body[data-theme='beauty'] .br-story:hover { border-color: var(--b-line-strong) !important; }
+/* Заголовок карточки — светлое серебро, ярче основного текста. */
+body[data-theme='beauty'] .br-task__t,
+body[data-theme='beauty'] .br-story__nm,
+body[data-theme='beauty'] .scard__nm { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .br-task__d,
+body[data-theme='beauty'] .br-story__desc { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .br-task__go,
+body[data-theme='beauty'] .br-story__go { color: var(--b-silver) !important; }
+body[data-theme='beauty'] .br-task:hover .br-task__go,
+body[data-theme='beauty'] .br-story:hover .br-story__go { color: var(--b-gold-lite) !important; }
