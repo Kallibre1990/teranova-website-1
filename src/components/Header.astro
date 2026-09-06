@@ -119,7 +119,11 @@ const ctaHref = anchorHref('ondemand', lang);
   @media (max-width: 1160px) {
     .header__nav { display: none; }
     .header__cta { display: none; }
-    .header__right > :global(.langs) { display: none; }
+    /* Компонент называется .langswitch — селектор .langs не совпадал ни с чем,
+       поэтому правило не срабатывало и в узкой шапке оставались сразу два
+       элемента. Второй переключатель живёт внутри mobile-menu, так что
+       выбор языка на телефоне не теряется. */
+    .header__right > :global(.langswitch) { display: none; }
     .burger { display: flex; }
   }
 

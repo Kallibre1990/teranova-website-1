@@ -21,6 +21,6 @@ const metaTitle = cos ? cos.seo_title : `${group.name} · Teranova`;
 const metaDesc = cos ? cos.seo_desc : `${group.blurb} · ${group.items.join(', ')}`;
 ---
 
-<Base lang={lang} path={`/catalog/${key}`} title={metaTitle} description={metaDesc} image={`/brand/og-cat-${key}.png`} jsonLd={breadcrumbJsonLd(lang, group)}>
+<Base theme={key === 'cosmetics' ? 'beauty' : undefined} lang={lang} path={`/catalog/${key}`} title={metaTitle} description={metaDesc} image={`/brand/og-cat-${key}.png`} jsonLd={breadcrumbJsonLd(lang, group)}>
   <CatalogGroup lang={lang} groupKey={key} />
 </Base>

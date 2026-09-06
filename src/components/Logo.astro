@@ -13,11 +13,19 @@ const src = variant === 'light' ? '/brand/teranova-logo-light.svg' : '/brand/ter
 ---
 
 <a class:list={['logo', cls]} href={home} aria-label="Teranova Group">
-  <img src={src} alt="Teranova Group" width="3258" height="800" />
+  <img class="logo__img" src={src} alt="Teranova Group" width="1150" height="216" />
+  {/* Светлый вариант — серебро и золото, для тёмных подложек. Тёмный —
+      тёмно-синий и золото, для белых: печать, PDF, коммерческие материалы.
+      Показывается ровно один из двух, второй скрыт стилем. */}
+  <img class="logo__img logo__img--onlight" src="/brand/teranova-logo-dark.svg" alt="" aria-hidden="true" width="1150" height="216" />
 </a>
 
 <style>
   .logo { display: inline-flex; align-items: center; flex-shrink: 0; }
   .logo img { height: 30px; width: auto; display: block; }
+  /* Селектор с элементом: `.logo img` выше по специфичности, чем
+     `.logo__img--onlight`, и перебивал скрытие — на всех страницах, кроме
+     бархатной темы, показывались оба логотипа рядом. */
+  .logo img.logo__img--onlight { display: none; }
   @media (max-width: 600px) { .logo img { height: 26px; } }
 </style>

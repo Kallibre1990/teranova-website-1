@@ -1,6 +1,7 @@
 ---
 import '@fontsource-variable/manrope';
 import '../styles/global.css';
+import '../styles/beauty.css';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -18,8 +19,11 @@ interface Props {
   ogType?: 'website' | 'article';
   articlePublished?: string;
   articleModified?: string;
+  /* Тема оболочки. 'beauty' — тёплая редакционная система витрины косметики:
+     та же сетка и компоненты, другая палитра, другая гарнитура заголовков. */
+  theme?: 'beauty';
 }
-const { lang, path, title, description, image, jsonLd, noindex, ogType, articlePublished, articleModified } = Astro.props;
+const { lang, path, title, description, image, jsonLd, noindex, ogType, articlePublished, articleModified, theme } = Astro.props;
 const t = ui[lang];
 // Pages are index/follow by default (every locale is indexed); only pages that
 // explicitly pass noindex (e.g. /thanks, /404) are excluded.
@@ -45,7 +49,7 @@ const noindexResolved = noindex ?? !isVerified(lang);
       document.documentElement.classList.add('js');
     </script>
   </head>
-  <body>
+  <body data-theme={theme}>
     <a class="skip-link" href="#main">{t.common.skip}</a>
     <Preloader />
     <Header lang={lang} path={path} />

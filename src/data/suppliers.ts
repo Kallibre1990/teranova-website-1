@@ -1987,3 +1987,97 @@ export const linePageBySlug = (supplierSlug: string, slug: string): SupplierLine
   linePages.find((p) => p.supplierSlug === supplierSlug && p.slug === slug);
 /** Localized content with ru fallback. */
 export const supplierContent = (p: SupplierProfile, lang: Lang): SupplierContent => p.i18n[lang] ?? p.i18n.ru!;
+
+/* Несколько настоящих снимков компании — лицо её карточки на витрине.
+   Берём по одному товару с фотографией из каждой линии подряд, и только
+   потом добираем остальные: так в полоске видно ассортимент, а не три
+   флакона одной серии. Чужие товары сюда попасть не могут — источник
+   всегда каталог самого поставщика. */
+import photoShape from './photo-shape.json';
+
+/* Годная для квадратной плашки пропорция. За этими границами кадр либо
+   превращается в ниточку, либо просит обрезки: 199 снимков из 829 вырезаны
+   из PDF узкими полосками, вплоть до 1:3,8. Размеры замеряет
+   scripts/photo-shape.mjs, вручную файл не правится. */
+const wellShaped = (src: string): boolean => {
+  const r = (photoShape as Record<string, number>)[src];
+  return r === undefined ? true : r >= 0.65 && r <= 1.55;
+};
+
+export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
+  const groups = p.catalog ?? [];
+  const out: string[] = [];
+  const rest: string[] = [];
+  for (const g of groups) {
+    const withImg = g.items.filter((i) => i.img).map((i) => i.img as string);
+    if (withImg.length) out.push(withImg[0]);
+    rest.push(...withImg.slice(1));
+  }
+  /* Сначала кадры нормальной пропорции, узкие — только если других нет.
+     Витрина не должна показывать ниточку вместо флакона. */
+  const all = [...out, ...rest];
+  return [...all.filter(wellShaped), ...all.filter((s) => !wellShaped(s))].slice(0, n);
+};
+
+/* Витрина Beauty шире рубрики «косметика»: упаковка и сырьё нужны покупателю
+   в той же задаче, и в согласованной рамке они входят в каталог Beauty.
+   Обратное не верно — на своих страницах (смежные направления, химия) эти
+   компании остаются на месте, их URL не меняются.
+   Отсюда же берётся число компаний в тексте: считать руками нельзя, иначе
+   цифра разойдётся с витриной, как уже было с «26» при 24 карточках. */
+export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure'] as const;
+export const beautySuppliers = suppliers.filter(
+  (s) => s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug),
+);
+
+/* Витрина для поставщика без фотографий.
+   Sunpure прислал брошюру, но не прислал снимки сырья. Рисовать за них
+   «фотографии товара» нельзя: это конкретная компания, а придуманный кадр
+   её продукции — не иллюстрация, а подделка (docs/IMAGERY.md, класс
+   «доказательство»). Пустая карточка при этом выглядит как ошибка.
+
+   Выход: показываем то, что у нас действительно есть, — настоящие названия
+   активов из их каталога и растение-источник. Для покупателя косметики
+   «Bakuchiol» и «Tetrahydrocurcumin» говорят больше, чем баночка на белом.
+   Плашки красим в фирменную гамму самой компании (brandColors из её же
+   брошюры), рисунок — код, не фотография. */
+export type BotanyKind = 'root' | 'rhizome' | 'seed' | 'bark' | 'leaf' | 'bean';
+
+export interface ShowcaseFact {
+  name: string;
+  source?: string;
+  /* Что именно за сырьё: корень, корневище, семя, кора, лист. Берётся из той
+     же строки INCI, что и источник, и определяет рисунок на плашке. Рисуем
+     растение, а не товар компании: корень солодки — факт природы, его можно
+     изобразить. Банка с их экстрактом — уже утверждение о конкретной
+     компании, и рисовать её нельзя. */
+  botany?: BotanyKind;
+}
+
+const BOTANY: [RegExp, BotanyKind][] = [
+  [/rhizome/i, 'rhizome'],
+  [/\broot\b/i, 'root'],
+  [/\bseed\b/i, 'seed'],
+  [/\bbark\b/i, 'bark'],
+  [/\bleaf\b|\bleaves\b/i, 'leaf'],
+  [/caffeine|coffee|\bbean\b/i, 'bean'],
+];
+export const showcaseFacts = (p: Supplier, n: number): ShowcaseFact[] => {
+  const out: ShowcaseFact[] = [];
+  for (const line of p.catalog ?? []) {
+    for (const item of line.items ?? []) {
+      if (out.length >= n) return out;
+      const src = item.actives?.[0];
+      out.push({
+        name: item.name,
+        /* «Glycyrrhiza Glabra (Licorice) Root Extract» -> «Licorice»:
+           в плашку помещается только суть, а не полное INCI-имя. */
+        source: src
+          ? (src.match(/\(([^)]+)\)/)?.[1] ?? src.split(' ').slice(0, 2).join(' '))
+          : undefined,
+        botany: src ? BOTANY.find(([re]) => re.test(src))?.[1] : undefined,
+      });
+    }
+  }
+  return out;
+};

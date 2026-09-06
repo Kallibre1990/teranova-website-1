@@ -492,6 +492,33 @@ const es: DeepPartial<UIDict> = {
       "El catálogo se está completando; algunos datos son de demostración. Los precios son orientativos y no constituyen una oferta. Teranova Group coordina y acompaña las operaciones a través de socios de confianza y no es un fabricante.",
     rights: "© 2025 Teranova Group",
   },
+
+  beauty: {
+    sup: "Teranova Beauty · B2B",
+    h1: "Marcas y productos coreanos para su mercado",
+    lead: "Seleccionamos marcas, líneas de producto y fabricantes según su mercado, canal de venta y presupuesto.",
+    cta_primary: "Buscar marcas y surtido",
+    cta_secondary: "Hablar de su marca propia",
+    catalog_btn: "empresas en el catálogo",
+    tasks_sup: "Por dónde empezar",
+    tasks_title: "Cuatro necesidades habituales",
+    tasks_sub: "Elija la suya. Le mostraremos las opciones pertinentes y le comunicaremos las condiciones.",
+    task_n: "Necesidad",
+    task_go: "Hablar de esta necesidad →",
+    tasks: [
+      { title: "Marca para distribución", desc: "Marcas coreanas y líneas de producto para incorporar a su oferta. Las condiciones comerciales se confirman previa solicitud." },
+      { title: "Marca propia · OEM y ODM", desc: "Selección de fabricantes según su fórmula, volumen y mercado: desde la muestra hasta la documentación y el envío." },
+      { title: "Línea profesional", desc: "Surtido para centros de estética y clínicas: mascarillas, ampollas, tratamientos con aparatología y programas para salones." },
+      { title: "Envases y materias primas", desc: "Envases de vidrio, bombas dosificadoras, tubos y tarros fabricados en Corea; activos estandarizados con la pureza declarada por el proveedor." },
+    ],
+    stories_sup: "Cómo se organiza el catálogo",
+    stories_title: "Ocho ejemplos del catálogo",
+    stories_sub: "Mostramos ocho tarjetas para explicar cómo se estructura cada una: estado de verificación, especialización y producto. No es una clasificación ni una selección de las mejores empresas; la lista completa aparece más abajo en la página.",
+    stories_btn: "Catálogo de empresas",
+    carousel_label: "Ejemplos de tarjetas del catálogo; desplazamiento horizontal",
+    carousel_prev: "Tarjetas anteriores",
+    carousel_next: "Tarjetas siguientes",
+  },
 };
 
 export default es;

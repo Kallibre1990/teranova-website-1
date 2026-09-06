@@ -1,0 +1,589 @@
+/* ============================================================
+   TERANOVA BEAUTY — бархатная тёмно-синяя оболочка витрины.
+
+   Направление задал Антон 06.09.2026: тёмно-синий, серебро, золото,
+   бархатные цвета; на подложке каждого экрана — красочное изображение
+   по смыслу этого экрана.
+
+   Каркас, сетка, компоненты и разметка остаются общими. Включается
+   атрибутом body[data-theme="beauty"], поэтому ни один компонент о теме
+   не знает и ни одна другая страница не затронута.
+
+   Про подложки. Фотография конкретного завода на фоне блока про
+   производство читается как наше доказательство, а по docs/IMAGERY.md
+   доказательство бывает только подлинным. Поэтому подложки берутся из
+   двух честных источников: наши собственные редакционные иллюстрации
+   (public/img/blog/editorial) и настоящие снимки товара поставщиков.
+   Выдуманных заводов, цехов и складов здесь нет.
+   ============================================================ */
+
+body[data-theme='beauty'] {
+  --b-navy: #0b1b35;
+  --b-navy-2: #0e2243;
+  --b-velvet: #071224;
+  --b-ink: #f2f5fa;
+  --b-sub: #c2cdde;         /* серебро для основного вторичного текста */
+  --b-silver: #cbd4e0;
+  --b-silver-bright: #e6ecf5;
+  --b-line: rgba(203, 212, 224, 0.22);   /* серебряная волосяная линия */
+  --b-line-strong: rgba(203, 212, 224, 0.38);
+  --b-surface: rgba(255, 255, 255, 0.045);
+  --b-surface-2: rgba(255, 255, 255, 0.075);
+  --b-pad: #f3f5f8;
+  --b-gold: #b8934e;        /* глубокое золото, не медовое */
+  --b-gold-lite: #dcc189;   /* блик на золоте */
+  --b-gold-deep: #8f6d33;   /* тень золота */
+  --b-gold-soft: rgba(184, 147, 78, 0.18);
+  --b-display: var(--font);
+
+  background: var(--b-navy);
+  color: var(--b-ink);
+}
+
+/* ---- бархат ----
+   Бархат делается не цветом, а мягким светом из угла. Плоская заливка
+   навы выглядит как пластик, поэтому под каждым разделом лежит тихое
+   радиальное свечение с холодной и золотой стороной. */
+body[data-theme='beauty'] .section--navy,
+body[data-theme='beauty'] .section--alt,
+body[data-theme='beauty'] .page-head,
+body[data-theme='beauty'] .bh {
+  background: var(--b-navy);
+  color: var(--b-ink);
+  position: relative;
+  isolation: isolate;
+}
+body[data-theme='beauty'] .section--navy::before,
+body[data-theme='beauty'] .section--alt::before,
+body[data-theme='beauty'] .page-head::before,
+body[data-theme='beauty'] .bh::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  display: block;
+  background:
+    radial-gradient(120% 90% at 12% -10%, rgba(96, 132, 196, 0.22), transparent 58%),
+    radial-gradient(90% 70% at 96% 8%, rgba(200, 168, 106, 0.12), transparent 60%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+}
+body[data-theme='beauty'] .section--alt::after { display: none; }
+
+/* ---- смысловая сцена раздела ----
+   Совмещены три требования, которые по отдельности спорят друг с другом:
+   Антон — фон нужен на каждом экране, включая очень длинные, и красочный;
+   Codex — основной текст не должен стоять на пёстром кадре;
+   Антон же — «не красиво обрезано» про жёсткие края прямоугольника.
+
+   Решение: один слой на раздел, липкий и высотой в экран. Сначала слоёв было
+   два — тихий на всю секцию и сильная полоса внизу. От полосы отказался: на
+   секциях разной высоты она вела себя по-разному и всплывала там, где её не
+   ждали, а работу она делала ту же. Один предсказуемый слой лучше двух
+   спорящих. Он гаснет сверху и снизу, поэтому краёв не видно.
+
+   Глубину даёт не непрозрачность, а разная скорость при прокрутке: слои
+   сдвигаются на `--bsc-y`, который ставит GSAP. Именно поэтому фон получается
+   заметным, оставаясь тихим, — иначе пришлось бы поднимать непрозрачность
+   и терять контраст текста.
+
+   Кадры — настоящие снимки товара поставщиков (`public/img/beauty/scenes`,
+   мозаика из каталога) и наша редакционная иллюстрация там, где речь об общем
+   процессе. Ни один кадр не выдаётся за съёмку конкретного места или визита. */
+/* overflow: clip, а не hidden — и это не косметическая разница.
+   `hidden` делает элемент контейнером прокрутки, и `position: sticky`
+   внутри липнет к нему, а не к экрану: Codex замерил у слоя сцены
+   top = -8348 px в середине каталога, то есть фон уезжал вместе со
+   страницей. `clip` обрезает так же, но контейнера прокрутки не создаёт.
+   Строка с `hidden` оставлена запасом для Safari до 16-й версии: там слой
+   будет виден только в начале раздела, но ничего не сломается.
+   Секции наследуют `overflow: hidden` ещё и от `.section` в global.css,
+   поэтому переопределять надо именно здесь. */
+body[data-theme='beauty'] .bsc {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  overflow: clip;
+}
+body[data-theme='beauty'] .bsc > .wrap { position: relative; z-index: 1; }
+
+/* Тихий слой — липкий и высотой в экран.
+   Почему не растянутый на всю секцию: каталог поставщиков занимает больше
+   пяти экранов, и один кадр, размазанный по такой высоте, при 22%
+   непрозрачности не виден нигде — ровно то, на что жаловался Антон («под
+   этим экраном вообще нет заднего фона»). Липкий слой стоит в потоке, но
+   отрицательный margin убирает его высоту, поэтому вёрстка не сдвигается
+   ни на пиксель.
+
+   Липкость держится только потому, что ни один предок не является
+   контейнером прокрутки: см. правило про overflow-x: clip ниже по файлу. */
+body[data-theme='beauty'] .bsc-scene {
+  display: block;
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  margin-bottom: -100svh;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.22;
+  pointer-events: none;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0);
+  will-change: transform;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 84%, transparent 100%);
+}
+@media (max-width: 820px) {
+  body[data-theme='beauty'] .bsc-scene { opacity: 0.18; }
+}
+
+
+body[data-theme='beauty'] .bsc--actives .bsc-scene { background-image: url('/img/beauty/scenes/brands.webp'); }
+/* восемь примеров карточек — товар, который в них показан */
+body[data-theme='beauty'] .bsc--verify .bsc-scene { background-image: url('/img/beauty/scenes/pro.webp'); }
+/* список поставщиков — их собственный товар */
+body[data-theme='beauty'] .bsc--quality .bsc-scene { background-image: url('/img/beauty/scenes/actives.webp'); }
+/* товары рубрики — упаковка и колпачки */
+body[data-theme='beauty'] .bsc--packaging .bsc-scene { background-image: url('/img/beauty/scenes/packaging.webp'); }
+/* «Почему это сложно в одиночку» — уход, а не шестерёнка */
+body[data-theme='beauty'] .bsc--regulatory .bsc-scene { background-image: url('/img/beauty/scenes/care.webp'); }
+/* «Запустите свою косметику» — готовый выпуск */
+body[data-theme='beauty'] .bsc--markets .bsc-scene { background-image: url('/img/beauty/scenes/launch.webp'); }
+/* контрактное производство — линия розлива косметики, редакционный кадр */
+body[data-theme='beauty'] .bsc--oem .bsc-scene { background-image: url('/img/beauty/scenes/oemline-1600.webp'); }
+
+body[data-theme='beauty'] .atmo,
+body[data-theme='beauty'] .atmo__aura,
+body[data-theme='beauty'] .atmo__glow,
+body[data-theme='beauty'] .atmo__rings,
+body[data-theme='beauty'] .atmo__dots,
+body[data-theme='beauty'] .atmo__contour,
+body[data-theme='beauty'] .cat-deep { display: none !important; }
+
+/* ---- типографика ---- */
+body[data-theme='beauty'] .h-section,
+body[data-theme='beauty'] .cos-h,
+body[data-theme='beauty'] .bh__h,
+body[data-theme='beauty'] h1,
+body[data-theme='beauty'] h2 {
+  font-family: var(--b-display);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+  color: var(--b-ink) !important;
+  text-wrap: pretty;
+}
+body[data-theme='beauty'] h3 { font-weight: 700; letter-spacing: -0.02em; color: var(--b-ink) !important; }
+body[data-theme='beauty'] .cos-h { font-size: clamp(2.1rem, 4.4vw, 3.6rem); }
+
+body[data-theme='beauty'] .section--navy .sub-section,
+body[data-theme='beauty'] .section--navy p,
+body[data-theme='beauty'] .sub-section,
+body[data-theme='beauty'] .bh__d,
+body[data-theme='beauty'] .cos-sub,
+body[data-theme='beauty'] .cos-card__d,
+body[data-theme='beauty'] .cos-model__desc,
+body[data-theme='beauty'] .cos-fact__v,
+body[data-theme='beauty'] .cos-ctaband__d,
+body[data-theme='beauty'] .scard__role { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .sub-section { font-size: 1.06rem; line-height: 1.75; max-width: 54ch; }
+
+/* Надзаголовки и метки — золото. Единственное место, где оно светит. */
+body[data-theme='beauty'] .eyebrow,
+body[data-theme='beauty'] .sup,
+body[data-theme='beauty'] .sup--light,
+body[data-theme='beauty'] .lvl,
+body[data-theme='beauty'] .bh__sup,
+body[data-theme='beauty'] .cos-lvl,
+body[data-theme='beauty'] .cos-model__name,
+body[data-theme='beauty'] .cos-fact__k {
+  font-family: var(--font);
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--b-gold) !important;
+}
+
+/* ---- действия: золотая заливка, серебряный контур ---- */
+body[data-theme='beauty'] .btn { border-radius: 4px; font-weight: 700; letter-spacing: 0.01em; }
+body[data-theme='beauty'] .btn--primary {
+  /* Верхний блик --b-gold-lite давал кнопке металлический глянец: на телефоне
+     она во всю ширину и спорила с кадром. Золото стало глубже и матовее —
+     оно по-прежнему единственное действие на экране, но не светится. */
+  background: linear-gradient(180deg, #c2a05e 0%, #ab8544 52%, #8a6832 100%);
+  color: #1c1508;
+  border-color: rgba(220, 193, 137, 0.5);
+  box-shadow: 0 10px 30px -12px rgba(143, 109, 51, 0.7), inset 0 1px 0 rgba(255, 246, 224, 0.45);
+}
+body[data-theme='beauty'] .btn--primary:hover { background: linear-gradient(180deg, #d0ae6b 0%, #b8914d 52%, #96733a 100%); transform: translateY(-1px); }
+body[data-theme='beauty'] .btn--ghost,
+/* Второстепенных кнопок на странице оказалось две разных: `.btn--outline` в
+   первом экране и `.btn--ghost` в блоках контента. Внешне это два разных
+   вида одного и того же действия — Антон 06.09.2026: «они отличаются,
+   подгони их». Приводим к одному: в бархатной теме ghost выглядит как
+   outline. Общий макет сайта не трогаем, правило под селектором темы. */
+body[data-theme='beauty'] .btn--ghost,
+body[data-theme='beauty'] .btn--outline {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(203, 212, 224, 0.34);
+  color: var(--b-ink);
+}
+body[data-theme='beauty'] .btn--ghost:hover,
+body[data-theme='beauty'] .btn--ghost:hover,
+body[data-theme='beauty'] .btn--outline:hover { border-color: var(--b-gold); color: var(--b-gold) !important; }
+/* Золото держим в пределах 2–4% площади: надзаголовки, главное действие и
+   отдельные маркеры. Обычные ссылки — светлое серебро, золото приходит
+   только на наведение. */
+body[data-theme='beauty'] a { color: #dde5f0; }
+body[data-theme='beauty'] a:hover { color: var(--b-gold); }
+body[data-theme='beauty'] .link-arrow,
+body[data-theme='beauty'] .back,
+body[data-theme='beauty'] .scard__more,
+body[data-theme='beauty'] .bh__scroll { color: #dde5f0; }
+body[data-theme='beauty'] .link-arrow:hover,
+body[data-theme='beauty'] .back:hover,
+body[data-theme='beauty'] .scard--real:hover .scard__more { color: var(--b-gold); }
+body[data-theme='beauty'] .bh__scroll { border-bottom-color: rgba(200, 168, 106, 0.4); }
+
+/* ---- карточки: тонкое стекло на бархате ---- */
+body[data-theme='beauty'] .cos-card,
+body[data-theme='beauty'] .cos-model,
+body[data-theme='beauty'] .cos-fact,
+body[data-theme='beauty'] .pcard,
+body[data-theme='beauty'] .scard,
+body[data-theme='beauty'] .sel-plate {
+  background: var(--b-surface);
+  border: 1px solid var(--b-line);
+  border-radius: 6px;
+  box-shadow: none;
+  backdrop-filter: blur(6px);
+}
+body[data-theme='beauty'] .scard--real:hover {
+  transform: translateY(-3px);
+  border-color: rgba(200, 168, 106, 0.55);
+  background: var(--b-surface-2);
+  box-shadow: 0 18px 44px rgba(3, 10, 24, 0.5);
+}
+body[data-theme='beauty'] .scard__nm,
+body[data-theme='beauty'] .cos-card__t,
+body[data-theme='beauty'] .sel-plate__t { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .scard__origin,
+body[data-theme='beauty'] .sel-plate__d,
+body[data-theme='beauty'] .group__foot .note,
+body[data-theme='beauty'] .cos-order li { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .sel-plate__sup,
+body[data-theme='beauty'] .sel-plate__ar { color: var(--b-gold) !important; }
+body[data-theme='beauty'] .sel-plate::after { display: none; }
+body[data-theme='beauty'] .scard__tags span { color: var(--b-sub) !important; background: rgba(255,255,255,0.05); border-color: var(--b-line); }
+
+/* Снимок товара лежит на светлой подложке: фоны у поставщиков разные, и
+   на бархате без общей подложки ряд рассыпается сильнее, чем на светлом. */
+body[data-theme='beauty'] .scard__pad,
+body[data-theme='beauty'] .bh__pad { background: var(--b-pad); border-radius: 4px; }
+
+body[data-theme='beauty'] .badge--visited { color: #7fe0bd; background: rgba(21, 145, 108, 0.16); border-color: rgba(127, 224, 189, 0.32); }
+body[data-theme='beauty'] .badge--provided { color: #e6cf9a; background: var(--b-gold-soft); border-color: rgba(200, 168, 106, 0.34); }
+
+/* ---- шапка ---- */
+body[data-theme='beauty'] .site-header {
+  background: rgba(8, 18, 36, 0.82) !important;
+  backdrop-filter: saturate(1.15) blur(12px);
+  border-bottom: 1px solid var(--b-line) !important;
+}
+body[data-theme='beauty'] .site-header a { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .site-header .header__nav a:hover { color: var(--b-gold) !important; }
+body[data-theme='beauty'] .site-header .header__right a.header__cta { color: #1a1408 !important; }
+body[data-theme='beauty'] .langswitch > summary,
+body[data-theme='beauty'] .langswitch > summary * { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .langmenu { background: var(--b-navy-2) !important; border-color: var(--b-line) !important; }
+body[data-theme='beauty'] .langmenu a { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .langmenu a:hover,
+body[data-theme='beauty'] .langmenu a.on { background: rgba(255,255,255,0.07) !important; }
+
+/* На бархате нужен светлый знак — тот, что и был в исходной шапке. */
+body[data-theme='beauty'] .logo__img { display: block !important; }
+body[data-theme='beauty'] .logo__img--onlight { display: none !important; }
+
+/* ---- воздух ---- */
+body[data-theme='beauty'] .section { padding: clamp(64px, 9vw, 120px) 0; }
+body[data-theme='beauty'] .section-head { margin-bottom: clamp(40px, 5.4vw, 66px); }
+
+/* Дублирующее главное действие сразу под первым экраном убрано: первый экран
+   зовёт подобрать готовый ассортимент, и следующая же кнопка не должна тянуть
+   в свою марку. Своя марка остаётся вторым путём — в первом экране и среди
+   четырёх задач. */
+body[data-theme='beauty'] .cos-btns--top { display: none; }
+
+
+/* ---- серебро ----
+   Серебро держит структуру: тонкий шов между разделами, черта под
+   надзаголовком, чуть более заметные рамки карточек. Это то, что на
+   бархате читается как дорогая отделка, а не как украшение. */
+body[data-theme='beauty'] .section + .section { border-top: 1px solid var(--b-line); }
+body[data-theme='beauty'] .eyebrow::before,
+body[data-theme='beauty'] .lvl::before {
+  content: '';
+  display: inline-block;
+  width: 30px; height: 1px;
+  margin-right: 12px;
+  vertical-align: middle;
+  background: linear-gradient(90deg, transparent, var(--b-silver));
+  opacity: 0.75;
+}
+body[data-theme='beauty'] .section-head { position: relative; padding-bottom: 26px; }
+body[data-theme='beauty'] .section-head::after {
+  content: '';
+  position: absolute; left: 0; bottom: 0; width: 140px; height: 1px;
+  background: linear-gradient(90deg, var(--b-silver), rgba(203, 212, 224, 0.05));
+}
+body[data-theme='beauty'] .cos-card,
+body[data-theme='beauty'] .cos-model,
+body[data-theme='beauty'] .cos-fact,
+body[data-theme='beauty'] .scard,
+body[data-theme='beauty'] .br-task,
+body[data-theme='beauty'] .br-story,
+body[data-theme='beauty'] .sel-plate { border-color: var(--b-line) !important; }
+body[data-theme='beauty'] .scard:hover,
+body[data-theme='beauty'] .br-task:hover,
+body[data-theme='beauty'] .br-story:hover { border-color: var(--b-line-strong) !important; }
+/* Заголовок карточки — светлое серебро, ярче основного текста. */
+body[data-theme='beauty'] .br-task__t,
+body[data-theme='beauty'] .br-story__nm,
+body[data-theme='beauty'] .scard__nm { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .br-task__d,
+body[data-theme='beauty'] .br-story__desc { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .br-task__go,
+body[data-theme='beauty'] .br-story__go { color: var(--b-silver) !important; }
+body[data-theme='beauty'] .br-task:hover .br-task__go,
+body[data-theme='beauty'] .br-story:hover .br-story__go { color: var(--b-gold-lite) !important; }
+
+
+/* ---- обрезка снимков ----
+   width/height в процентах внутри grid-плашки не ограничивают картинку:
+   строка сетки растёт под её высоту, и вертикальный кадр 413x1400 вылезал
+   за плашку и обрезался её overflow. Ограничиваем максимумами — тогда
+   любой кадр вписывается целиком, а не подрезается. */
+body[data-theme='beauty'] .bh__pad img,
+body[data-theme='beauty'] .scard__pad img,
+body[data-theme='beauty'] .br-task__pad img,
+body[data-theme='beauty'] .br-story__pad img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 84% !important;
+  max-height: 84% !important;
+  object-fit: contain;
+}
+
+/* ---- плашка подборки ----
+   .sel-plate--light красит заголовок тёмно-синим градиентом через
+   background-clip: text. На бархате это тёмное по тёмному — заголовок
+   пропадал совсем. Возвращаем серебро. */
+body[data-theme='beauty'] .sel-plate--light .sel-plate__t,
+body[data-theme='beauty'] .sel-plate__t {
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: var(--b-silver-bright) !important;
+  color: var(--b-silver-bright) !important;
+}
+
+/* ---- вход в подборку «Волосы и кожа головы» ----
+   Замечание Антона: «подборке за волосами — не видно, ужасно». Причина была
+   двойная: заголовок красился тёмным градиентом по тёмному (починено выше) и
+   сама плита ничем не отличалась от соседнего текста. Теперь у неё свой кадр
+   про волосы и кожу головы, а текст стоит на плотной шторке слева. */
+body[data-theme='beauty'] .hs-link,
+body[data-theme='beauty'] .hs-entry {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 168px;
+  background-color: var(--b-velvet) !important;
+  border-color: var(--b-line-strong) !important;
+}
+body[data-theme='beauty'] .hs-link::before,
+body[data-theme='beauty'] .hs-entry::before {
+  content: '';
+  /* В базовом стиле `.sel-plate::before` — серебряная грань шириной 3 px.
+     Если не сбросить width и не задать все стороны, кадр про волосы
+     рисуется в трёхпиксельной полоске у левого края, то есть не виден
+     вовсе. Именно это и было на экране. */
+  position: absolute; inset: 0; width: auto; z-index: -2;
+  background-image: image-set(url('/img/beauty/scenes/hair-900.webp') 1x, url('/img/beauty/scenes/hair-1600.webp') 2x);
+  background-size: cover;
+  background-position: center right;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0) scale(1.06);
+}
+body[data-theme='beauty'] .hs-link::after,
+body[data-theme='beauty'] .hs-entry::after {
+  content: '';
+  display: block !important;
+  position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.86) 42%, rgba(7,18,36,0.38) 66%, transparent 92%);
+}
+@media (max-width: 620px) {
+  body[data-theme='beauty'] .hs-link::after,
+  body[data-theme='beauty'] .hs-entry::after {
+    background: linear-gradient(180deg, rgba(7,18,36,0.95) 0%, rgba(7,18,36,0.9) 52%, rgba(7,18,36,0.6) 100%);
+  }
+}
+
+/* ---- почему липкий слой не липнул ----
+   Настоящая причина оказалась не в секции, а выше. В `global.css` у `html` и
+   `body` стоит `overflow-x: hidden`. По правилам CSS `hidden` по одной оси
+   заставляет вторую стать `auto`, поэтому `body` вычислялся как
+   `hidden auto` — то есть становился контейнером прокрутки. Липкий элемент
+   привязывается к ближайшему такому контейнеру, а `body` не прокручивается:
+   прокручивается окно. Слой оставался на месте и уезжал вместе со страницей —
+   Codex замерил top = -5797 px в середине каталога.
+
+   `clip` обрезает горизонтальный вылет так же, но контейнера прокрутки не
+   создаёт: вторая ось остаётся `visible`. Правило намеренно ограничено
+   бархатной темой — общий макет сайта не трогаем. */
+html:has(body[data-theme='beauty']),
+body[data-theme='beauty'] { overflow-x: clip; }
+
+/* ---- подвал ----
+   Антон: «последнюю страницу подстрой под дизайн, чтобы тоже было синего
+   цвета страницы, серебряного и золотого». Подвал оставался с общего сайта:
+   светлее страницы, ссылки белые, кнопка «наверх» ярко-синяя. На бархате это
+   читалось как чужой блок, приклеенный снизу.
+
+   Правило то же, что и по всей витрине: тёмно-синий — рама, серебро — линии
+   и текст, золото — только заголовки разделов и действие. Золотом не красим
+   все ссылки: тогда оно перестаёт быть акцентом. */
+body[data-theme='beauty'] .site-footer {
+  /* Продолжение страницы, а не отдельная плита: тот же бархат, чуть глубже
+     к низу, и серебряная нить по верхнему краю вместо жёсткой границы. */
+  background: linear-gradient(180deg, var(--b-velvet) 0%, #050e1d 100%) !important;
+  border-top: 1px solid var(--b-line) !important;
+  color: var(--b-sub) !important;
+}
+/* Нить рисуем на самом краю подвала, а не первым блоком в потоке.
+   В потоке она вставала после 80 px внутреннего отступа — вплотную над
+   логотипом, и подвал читался как будто у него нет верхнего поля. */
+body[data-theme='beauty'] .site-footer {
+  position: relative;
+  padding-top: clamp(64px, 7vw, 96px) !important;
+  padding-bottom: clamp(32px, 3vw, 44px) !important;
+}
+body[data-theme='beauty'] .site-footer::before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--b-gold-lite) 22%, var(--b-silver-bright) 50%, var(--b-gold-lite) 78%, transparent);
+  opacity: 0.5;
+}
+
+/* Заголовки колонок — золото, как надзаголовки разделов выше по странице. */
+body[data-theme='beauty'] .footer__title,
+body[data-theme='beauty'] .footer__sister-kicker {
+  color: var(--b-gold) !important;
+  letter-spacing: 0.18em;
+}
+
+body[data-theme='beauty'] .footer__blurb { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .footer__joint,
+body[data-theme='beauty'] .footer__disc,
+body[data-theme='beauty'] .footer__rights { color: rgba(203, 212, 224, 0.6) !important; }
+
+body[data-theme='beauty'] .footer__links a,
+body[data-theme='beauty'] .footer__contacts a,
+body[data-theme='beauty'] .footer__contacts li {
+  color: var(--b-silver) !important;
+  transition: color .2s var(--ease);
+}
+body[data-theme='beauty'] .footer__links a:hover,
+body[data-theme='beauty'] .footer__contacts a:hover { color: var(--b-gold-lite) !important; }
+
+/* Плита «другое направление»: серебряная рамка и золотая стрелка вместо
+   серой карточки. */
+body[data-theme='beauty'] .footer__sister {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid var(--b-line) !important;
+  transition: border-color .2s var(--ease), background .2s var(--ease);
+}
+body[data-theme='beauty'] .footer__sister:hover {
+  border-color: var(--b-gold) !important;
+  background: rgba(255, 255, 255, 0.07) !important;
+}
+body[data-theme='beauty'] .footer__sister-name { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .footer__sister-name svg,
+body[data-theme='beauty'] .footer__sister-name path { stroke: var(--b-gold) !important; color: var(--b-gold) !important; }
+body[data-theme='beauty'] .footer__sister-desc { color: var(--b-sub) !important; }
+
+/* Разделительная линия — серебряная нить, а не светлая полоса. */
+body[data-theme='beauty'] .site-footer .hairline {
+  border: 0 !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, transparent, var(--b-line-strong) 12%, var(--b-line-strong) 88%, transparent) !important;
+  opacity: 1 !important;
+}
+
+/* Кнопка «наверх» была ярко-синей — единственное пятно чужого цвета на
+   бархате. Делаем тёмно-синей с золотой каймой и золотой стрелкой. */
+body[data-theme='beauty'] .to-top {
+  background: rgba(11, 27, 53, 0.86) !important;
+  border: 1px solid var(--b-gold-soft) !important;
+  color: var(--b-gold-lite) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px -12px rgba(3, 10, 24, 0.9) !important;
+}
+body[data-theme='beauty'] .to-top:hover {
+  background: rgba(14, 34, 67, 0.94) !important;
+  border-color: var(--b-gold) !important;
+  color: var(--b-gold-lite) !important;
+}
+
+/* ---- тихая кнопка ----
+   Третий по весу вариант действия: форма и высота как у остальных кнопок,
+   но серебряная линия вместо золотой заливки и контура. Нужна там, где
+   действие важно, но спорить с главным ему нельзя. */
+body[data-theme='beauty'] .btn--quiet {
+  /* Ни кегля, ни насыщенности, ни отступов здесь нет намеренно: всё это
+     приходит из общего `.btn`. Своя типографика делала третью кнопку мельче
+     двух соседних — Антон 06.09.2026: «сделай одинаковый шрифт на кнопках».
+     Отличается только цвет и линия. */
+  min-height: 48px;
+  color: var(--b-silver) !important;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--b-line);
+  transition: border-color .2s var(--ease), color .2s var(--ease), background .2s var(--ease);
+}
+body[data-theme='beauty'] .btn--quiet:hover {
+  border-color: var(--b-gold);
+  color: var(--b-gold-lite) !important;
+  background: rgba(255, 255, 255, 0.07);
+}
+body[data-theme='beauty'] .btn--quiet:focus-visible {
+  outline: 2px solid var(--b-gold-lite);
+  outline-offset: 2px;
+}
+
+/* ---- одинаковые кнопки на телефоне ----
+   Антон 06.09.2026: «где-то кнопка отцентрирована по середине, а где-то с
+   левого края, приведи их в одинаковый понятный вид».
+
+   Замер подтвердил: на 520 px кнопки первого экрана были 472 px во всю
+   ширину, «Каталог компаний» — 194 px по центру, «Запросить в этой
+   категории» — 268 px от левого края, «Запустить бьюти-бренд» — 238 px
+   почти по центру. Цвет при этом везде совпадал: разница была в ширине и
+   выключке, а не в цветокоррекции.
+
+   На узком экране кнопка во всю ширину — норма: палец попадает в неё
+   независимо от того, где он держит телефон. Одна ширина снимает и вопрос
+   выключки: центрировать нечего. */
+@media (max-width: 620px) {
+  body[data-theme='beauty'] main .btn {
+    width: 100%;
+    max-width: none;
+  }
+  /* Ряд кнопок разворачивается в столбик, иначе они делят ширину пополам. */
+  body[data-theme='beauty'] main .cos-btns,
+  body[data-theme='beauty'] main .group__head {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+}

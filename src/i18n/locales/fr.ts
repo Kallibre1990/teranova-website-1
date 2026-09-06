@@ -482,6 +482,33 @@ const fr: DeepPartial<UIDict> = {
     body: "Le fondateur, la direction et les responsables qui gèrent personnellement le sourcing, la vérification et l'approvisionnement.",
     cta: "Rencontrer l'équipe",
   },
+
+  beauty: {
+    sup: "Teranova Beauty · B2B",
+    h1: "Marques et produits coréens pour votre marché",
+    lead: "Nous recherchons des marques, des gammes et des fabricants adaptés à votre marché, à votre canal de vente et à votre budget.",
+    cta_primary: "Trouver des marques",
+    cta_secondary: "Parler de votre marque",
+    catalog_btn: "entreprises au catalogue",
+    tasks_sup: "Par où commencer",
+    tasks_title: "Quatre besoins fréquents",
+    tasks_sub: "Choisissez le vôtre. Nous vous montrerons ce qui s’y rapporte et reviendrons vers vous avec les conditions.",
+    task_n: "Besoin",
+    task_go: "Discuter de ce besoin →",
+    tasks: [
+      { title: "Marques et gammes à distribuer", desc: "Marques coréennes et gammes de produits adaptées à la distribution. Les conditions commerciales sont confirmées sur demande." },
+      { title: "Votre marque · OEM et ODM", desc: "Recherche d’un fabricant selon votre formule, vos volumes et votre marché, de l’échantillon aux documents et à l’expédition." },
+      { title: "Gamme professionnelle", desc: "Produits pour instituts et cliniques : masques, ampoules, soins avec appareils et protocoles pour salons." },
+      { title: "Emballages et matières premières", desc: "Verre, pompes, tubes et pots fabriqués en Corée, ainsi que des actifs standardisés dont la pureté est déclarée par le fournisseur." },
+    ],
+    stories_sup: "Comment le catalogue est structuré",
+    stories_title: "Huit exemples du catalogue",
+    stories_sub: "Huit fiches montrent leur structure : statut de vérification, spécialité et produit. Il ne s’agit ni d’un classement ni d’une sélection des meilleurs. La liste complète des entreprises figure plus bas.",
+    stories_btn: "Catalogue des entreprises",
+    carousel_label: "Exemples de fiches du catalogue, à faire défiler horizontalement",
+    carousel_prev: "Fiches précédentes",
+    carousel_next: "Fiches suivantes",
+  },
 };
 
 export default fr;
