@@ -235,6 +235,15 @@ body[data-theme='beauty'] .site-header .btn--primary span { color: #fbf8f3 !impo
    шапки — оно специфичнее, поэтому здесь селектор длиннее намеренно. */
 body[data-theme='beauty'] .site-header .header__right a.header__cta { color: #fbf8f3 !important; }
 /* Переключатель языка: на костяном фоне он был почти невидим. */
-body[data-theme='beauty'] .site-header .header__right .langs,
-body[data-theme='beauty'] .site-header .header__right .langs * { color: var(--b-ink) !important; }
-body[data-theme='beauty'] .site-header .header__right .langs { background: var(--b-surface) !important; border: 1px solid var(--b-line) !important; }
+/* Переключатель языка называется .langswitch, а не .langs — из-за этой
+   ошибки он оставался белым на белом. */
+body[data-theme='beauty'] .langswitch > summary,
+body[data-theme='beauty'] .langswitch > summary * { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .langswitch > summary {
+  background: var(--b-surface) !important;
+  border-color: var(--b-line) !important;
+}
+body[data-theme='beauty'] .langmenu { background: var(--b-surface) !important; border-color: var(--b-line) !important; }
+body[data-theme='beauty'] .langmenu a { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .langmenu a:hover,
+body[data-theme='beauty'] .langmenu a.on { background: var(--b-bg-2) !important; }

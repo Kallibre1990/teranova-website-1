@@ -1,0 +1,93 @@
+---
+/* Первый экран витрины Beauty.
+ *
+ * Три требования, из-за которых он написан отдельно от общего PageHead:
+ * 1. Главное действие «Подобрать бренд и ассортимент» должно быть видно
+ *    целиком на 320, 390 и 1440 без прокрутки. У прежнего заголовка высота
+ *    доходила до 292 px, и кнопка уезжала на 1058-ю точку.
+ * 2. На витрине должен быть виден товар, а не только текст.
+ * 3. Разговор начинается с подбора готового ассортимента; своя марка —
+ *    второй, более спокойный путь. Решение Антона от 06.09.2026.
+ *
+ * Тексты — рабочая формулировка Codex из совместного синтеза. Антон их ещё
+ * не утверждал: до его слова это заготовка для визуальной проверки, а не
+ * коммерческое обещание. Наличия, прав, MOQ и сроков здесь нет намеренно.
+ */
+import { anchorHref, localizePath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/ui';
+import { suppliers, showcaseImages } from '../../data/suppliers';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+
+/* Композиция из настоящих снимков разных компаний. Она не приписана ни одной
+   марке и подписи не несёт — иначе получилось бы, что товар одной компании
+   выдан за товар другой. Пути берутся из каталогов, а не пишутся руками:
+   так кадр не может указать на файл, которого нет. */
+const HERO_BRANDS = ['sante', 'icelmedi', 'licorne', 'joycos'];
+const heroShots = HERO_BRANDS.map((slug) => {
+  const s = suppliers.find((x) => x.slug === slug);
+  return s ? showcaseImages(s, 1)[0] : undefined;
+}).filter((src): src is string => Boolean(src));
+---
+
+<section class="bh">
+  <div class="wrap bh__wrap">
+    <div class="bh__text">
+      <span class="bh__sup">Teranova Beauty · B2B</span>
+      <h1 class="bh__h">Корейские бренды и продукты для вашего рынка</h1>
+      <p class="bh__d">
+        Подбираем бренды, продуктовые линейки и производителей под ваш рынок,
+        канал продаж и бюджет.
+      </p>
+      <div class="bh__acts">
+        <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>Подобрать бренд и ассортимент</a>
+        <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>Обсудить свою марку</a>
+      </div>
+      <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>26 компаний в каталоге</a>
+    </div>
+
+    <div class="bh__shots" aria-hidden="true">
+      {heroShots.map((src) => (
+        <span class="bh__pad"><img src={src} alt="" loading="eager" decoding="async" /></span>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  /* svh, а не vh: на телефоне адресная строка съедает часть экрана, и на vh
+     кнопка снова уехала бы под сгиб. */
+  .bh { background: var(--b-bg, #fff); padding: clamp(28px, 4vw, 56px) 0 clamp(32px, 4vw, 64px); }
+  .bh__wrap { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(24px, 4vw, 56px); align-items: center; }
+  .bh__text { display: flex; flex-direction: column; align-items: flex-start; }
+  .bh__sup { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--b-sub, #5f5d59); }
+  /* Кегль ограничен сверху сознательно: заголовок обязан уместиться в три
+     строки и оставить место действию. */
+  .bh__h { font-size: clamp(1.9rem, 4vw, 3.4rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.04; color: var(--b-ink, #1b1b1a); margin: 14px 0 0; max-width: 15ch; text-wrap: balance; }
+  .bh__d { font-size: clamp(0.98rem, 1.1vw, 1.1rem); line-height: 1.6; color: var(--b-sub, #5f5d59); margin: 16px 0 0; max-width: 44ch; }
+  .bh__acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: clamp(20px, 2.4vw, 30px); }
+  .bh__acts .btn { min-height: 48px; }
+  .bh__scroll { margin-top: 16px; font-size: 0.84rem; font-weight: 700; color: var(--b-sub, #5f5d59); border-bottom: 1px solid var(--b-line, #e6e4e0); padding-bottom: 3px; }
+
+  .bh__shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(10px, 1.2vw, 16px); }
+  .bh__pad { background: var(--b-pad, #f4f3f1); border-radius: 2px; aspect-ratio: 1 / 1; display: grid; place-items: center; overflow: hidden; }
+  .bh__pad img { width: 82%; height: 82%; object-fit: contain; display: block; }
+
+  @media (max-width: 820px) {
+    .bh__wrap { grid-template-columns: 1fr; gap: 22px; }
+    /* На телефоне сначала слово и действие, снимки — под ними: иначе кнопка
+       уходит за сгиб, ровно как в прошлой итерации. */
+    .bh__shots { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .bh__acts { width: 100%; }
+    .bh__acts .btn { flex: 1 1 auto; justify-content: center; }
+  }
+  @media (max-width: 460px) {
+    .bh__h { font-size: clamp(1.65rem, 8.4vw, 2rem); }
+    .bh__d { font-size: 0.95rem; }
+    .bh__acts { flex-direction: column; }
+    .bh__acts .btn { width: 100%; }
+  }
+</style>

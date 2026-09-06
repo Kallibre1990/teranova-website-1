@@ -1,5 +1,6 @@
 ---
 import PageHead from './PageHead.astro';
+import BeautyHero from './BeautyHero.astro';
 import CosmeticsContent from './CosmeticsContent.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
@@ -49,7 +50,9 @@ const statusInfo = {
 } as const;
 ---
 
-<PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />
+{isCosmetics
+  ? <BeautyHero lang={lang} />
+  : <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />}
 
 {isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
 
@@ -72,7 +75,7 @@ const statusInfo = {
         </span>
       </a>
 
-      <div class="group__head">
+      <div class="group__head" id="brands">
         <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
       </div>
       <div class="sup-grid">
