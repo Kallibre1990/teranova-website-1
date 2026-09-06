@@ -92,18 +92,18 @@ const statusInfo = {
     по-русски, остальные десять локалей ждут перевода строк. До перевода они
     остаются на прежнем PageHead — иначе английская и корейская страницы
     показали бы русский заголовок. */}
-{isCosmetics && lang === 'ru'
+{isCosmetics
   ? <BeautyHero lang={lang} />
   : <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />}
 
 {/* Маршрут покупателя идёт сразу за первым экраном: четыре задачи, затем
     отобранные истории, и только потом полный каталог ниже. */}
-{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} part="tasks" />}
+{isCosmetics && <BeautyRoute lang={lang} part="tasks" />}
 
 {/* Подборка по волосам — перед блоком с примерами карточек.
     Решение Антона от 06.09.2026: покупатель, которому нужны именно волосы,
     должен свернуть в подборку раньше, чем начнёт разбирать примеры. */}
-{isCosmetics && lang === 'ru' && (
+{isCosmetics && (
   <section class="section section--navy bsc bsc--regulatory">
     <span class="bsc-scene" aria-hidden="true"></span>
     <div class="wrap">
@@ -126,7 +126,7 @@ const statusInfo = {
   </section>
 )}
 
-{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} part="stories" />}
+{isCosmetics && <BeautyRoute lang={lang} part="stories" />}
 
 {isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
 

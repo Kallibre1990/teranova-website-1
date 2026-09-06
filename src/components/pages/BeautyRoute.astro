@@ -26,6 +26,7 @@ interface Props {
 const { lang, part } = Astro.props;
 const showTasks = part !== 'stories';
 const showStories = part !== 'tasks';
+const b = ui[lang].beauty;
 const t = ui[lang];
 
 const shots = (slug: string, n: number) => {
@@ -33,45 +34,21 @@ const shots = (slug: string, n: number) => {
   return s ? showcaseImages(s, n) : [];
 };
 
-/* Четыре входа по коммерческой задаче. Сцена у каждого своя. */
-const tasks = [
-  {
-    key: 'ready',
-    sup: 'Задача 01',
-    title: 'Готовый бренд для дистрибуции',
-    desc: 'Корейские марки и продуктовые линейки, которые можно поставить на полку. Коммерческие условия подтверждаем по запросу.',
-    images: [...shots('sante', 2), ...shots('licorne', 2)].slice(0, 4),
-    kind: 'photo' as const,
-  },
-  {
-    key: 'own',
-    sup: 'Задача 02',
-    title: 'Своя марка · OEM и ODM',
-    desc: 'Подбор производителя под вашу рецептуру, объём и рынок: от образца до документов и отгрузки.',
-    /* Был холодно-синий CGI-набор с колбами и щитом — он выбивался из
-       бархата ярким электрическим синим. Заменён кадром линии розлива
-       косметики (тот же редакционный кадр, что и под разделом о
-       контрактном производстве). */
-    art: '/img/beauty/scenes/oemline-1600.webp',
-    kind: 'art' as const,
-  },
-  {
-    key: 'pro',
-    sup: 'Задача 03',
-    title: 'Профессиональная линия',
-    desc: 'Ассортимент для кабинетов и клиник: маски, ампулы, аппаратный уход, программы для салонов.',
-    images: [...shots('icelmedi', 2), ...shots('doobom', 2)].slice(0, 4),
-    kind: 'photo' as const,
-  },
-  {
-    key: 'pack',
-    sup: 'Задача 04',
-    title: 'Упаковка и сырьё',
-    desc: 'Стекло, помпы, тубы и банки корейского производства; стандартизованные активы с заявленной чистотой.',
-    images: shots('cocospack', 4),
-    kind: 'photo' as const,
-  },
+/* Четыре входа по коммерческой задаче. Тексты — из словаря, чтобы блок
+   работал на всех одиннадцати языках; кадры и подбор снимков остаются здесь,
+   они от языка не зависят. */
+const taskArt = [
+  { key: 'ready', images: [...shots('sante', 2), ...shots('licorne', 2)].slice(0, 4), kind: 'photo' as const },
+  { key: 'own', art: '/img/beauty/scenes/oemline-1600.webp', kind: 'art' as const },
+  { key: 'pro', images: [...shots('icelmedi', 2), ...shots('doobom', 2)].slice(0, 4), kind: 'photo' as const },
+  { key: 'pack', images: shots('cocospack', 4), kind: 'photo' as const },
 ];
+const tasks = taskArt.map((a, i) => ({
+  ...a,
+  sup: `${b.task_n} 0${i + 1}`,
+  title: b.tasks[i].title,
+  desc: b.tasks[i].desc,
+}));
 
 /* Шесть-восемь отобранных историй. Не весь каталог: сначала повод открыть,
    потом полный список ниже по странице. Описание берётся из данных
@@ -96,9 +73,9 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
   <span class="bsc-scene" aria-hidden="true"></span>
   <div class="wrap">
     <div class="section-head">
-      <span class="eyebrow">С чего начать</span>
-      <h2 class="h-section">Четыре задачи, с которыми к нам приходят</h2>
-      <p class="sub-section">Выберите свою — покажем то, что к ней относится, и вернёмся с условиями.</p>
+      <span class="eyebrow">{b.tasks_sup}</span>
+      <h2 class="h-section">{b.tasks_title}</h2>
+      <p class="sub-section">{b.tasks_sub}</p>
     </div>
 
     <div class="br-tasks">
@@ -113,7 +90,7 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
             <span class="lvl">{task.sup}</span>
             <span class="br-task__t">{task.title}</span>
             <span class="br-task__d">{task.desc}</span>
-            <span class="br-task__go">Обсудить задачу →</span>
+            <span class="br-task__go">{b.task_go}</span>
           </span>
         </a>
       ))}
@@ -127,18 +104,14 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
   <span class="bsc-scene" aria-hidden="true"></span>
   <div class="wrap">
     <div class="section-head">
-      <span class="eyebrow">Как устроен каталог</span>
-      <h2 class="h-section">Восемь примеров из каталога</h2>
-      <p class="sub-section">
-        Показываем восемь карточек, чтобы было видно, как устроена каждая:
-        статус проверки, специализация и товар. Это не рейтинг и не отбор
-        лучших — полный список всех компаний идёт ниже на странице.
-      </p>
+      <span class="eyebrow">{b.stories_sup}</span>
+      <h2 class="h-section">{b.stories_title}</h2>
+      <p class="sub-section">{b.stories_sub}</p>
     </div>
 
     <div class="br-carousel" data-carousel>
-      <button class="br-nav br-nav--prev" type="button" aria-label="Предыдущие карточки" data-carousel-prev>‹</button>
-      <div class="br-stories" data-carousel-track tabindex="0" role="group" aria-label="Примеры карточек каталога, прокручивается вбок">
+      <button class="br-nav br-nav--prev" type="button" aria-label={b.carousel_prev} data-carousel-prev>‹</button>
+      <div class="br-stories" data-carousel-track tabindex="0" role="group" aria-label={b.carousel_label}>
       {stories.map(({ s, c, imgs }) => (
         <a class="br-story" href={localizePath(`/catalog/${s.slug}`, lang)}>
           <span class="br-story__head">
@@ -156,7 +129,7 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
         </a>
         ))}
       </div>
-      <button class="br-nav br-nav--next" type="button" aria-label="Следующие карточки" data-carousel-next>›</button>
+      <button class="br-nav br-nav--next" type="button" aria-label={b.carousel_next} data-carousel-next>›</button>
     </div>
 
     {/* Блок обещает, что полный список идёт ниже. Раньше это было обещание без
@@ -165,7 +138,7 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
         выглядеть одинаково там и там. */}
     {/* Именно localizePath, а не anchorHref: последний строит якорь главной
         страницы и давал /#brands — переход уводил с витрины. */}
-    <a class="btn btn--quiet br-all" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>Каталог компаний</a>
+    <a class="btn btn--quiet br-all" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>{b.stories_btn}</a>
   </div>
 </section>
 )}

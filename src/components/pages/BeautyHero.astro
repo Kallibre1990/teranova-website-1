@@ -24,7 +24,7 @@
  * ширины ассортимента — «26 компаний в каталоге» и профили ниже.
  */
 import { anchorHref, localizePath } from '../../i18n/utils';
-import type { Lang } from '../../i18n/ui';
+import { ui, type Lang } from '../../i18n/ui';
 import { beautySuppliers } from '../../data/suppliers';
 import { heroVariants, DEFAULT_HERO } from '../../data/hero-variants';
 
@@ -32,6 +32,7 @@ interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
+const b = ui[lang].beauty;
 ---
 
 <section class="bh" data-scene>
@@ -51,18 +52,15 @@ const { lang } = Astro.props;
 
   <div class="wrap bh__wrap">
     <div class="bh__text">
-      <span class="bh__sup">Teranova Beauty · B2B</span>
-      <h1 class="bh__h">Корейские бренды и продукты для вашего рынка</h1>
-      <p class="bh__d">
-        Подбираем бренды, продуктовые линейки и производителей под ваш рынок,
-        канал продаж и бюджет.
-      </p>
+      <span class="bh__sup">{b.sup}</span>
+      <h1 class="bh__h">{b.h1}</h1>
+      <p class="bh__d">{b.lead}</p>
       <div class="bh__acts">
-        <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>Подобрать бренд и ассортимент</a>
-        <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>Обсудить свою марку</a>
+        <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>{b.cta_primary}</a>
+        <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>{b.cta_secondary}</a>
       </div>
       <a class="btn btn--quiet bh__cat" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>
-        <span class="bh__cat-n">{beautySuppliers.length}</span> компаний в каталоге
+        <span class="bh__cat-n">{beautySuppliers.length}</span> {b.catalog_btn}
       </a>
     </div>
 
