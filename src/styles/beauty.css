@@ -547,7 +547,9 @@ body[data-theme='beauty'] .scard__fact {
   justify-content: flex-end;
   gap: 4px;
   min-height: 122px;
-  padding: 12px 12px 13px;
+  /* height: auto по умолчанию — плашка обязана расти под перенос, поэтому
+     min-height, а не height. */
+  padding: 12px 11px 13px;
   border-radius: 5px;
   overflow: hidden;
   background:
@@ -572,14 +574,60 @@ body[data-theme='beauty'] .scard__fact-nm {
   letter-spacing: -0.01em;
   color: #f4f7f4;
   text-wrap: balance;
+  /* «Tetrahydrocurcumin» — 18 символов без единого пробела. В колонке шириной
+     около 100 px на 390 px такое слово не переносится и обрезается
+     `overflow: hidden` плашки. Сокращать название нельзя: покупатель ищет
+     сырьё именно по нему. Разрешаем перенос внутри слова и просим браузер
+     ставить дефис там, где это уместно по правилам языка.
+     `hyphenate-limit-chars` не даёт отрывать одну-две буквы. */
+  /* break-word, а не anywhere: `anywhere` обнуляет минимальную ширину слова,
+     колонки сетки схлопываются, и рвётся даже короткое «Glabridin» — вышло
+     «Glabri / din». `break-word` разрывает слово только тогда, когда оно
+     действительно не помещается, а ширину колонок не трогает.
+     Переносы по-английски: имена активов латинские, и словарь переносов
+     выбирается по языку элемента — отсюда lang="en" в разметке. */
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 body[data-theme='beauty'] .scard__fact-src {
+  overflow-wrap: break-word;
   font-size: 0.68rem;
   line-height: 1.35;
   letter-spacing: 0.02em;
   color: color-mix(in srgb, var(--f-accent, #d9a441) 76%, #ffffff);
 }
-@media (max-width: 560px) {
-  body[data-theme='beauty'] .scard__facts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
-  body[data-theme='beauty'] .scard__fact { min-height: 104px; padding: 10px; }
+/* На телефоне карточка поставщика сужается до 342 px (390 px экрана) и до
+   272 px (320 px экрана). Делить такую ширину на три колонки нельзя:
+   «Tetrahydrocurcumin» — 18 символов без пробела, в колонку около 80 px оно
+   не влезает ни при каком переносе, а сокращать химическое название нельзя —
+   покупатель ищет сырьё именно по нему.
+   Поэтому на узком экране плашки идут в столбик: имя получает всю ширину
+   карточки и умещается в одну строку. */
+@media (max-width: 620px) {
+  body[data-theme='beauty'] .scard__facts { grid-template-columns: 1fr; gap: 6px; }
+  /* Лист слева, название и источник — в столбик справа от него.
+     В одну строку они не влезают: на карточке 272 px под текст остаётся
+     около 180 px, а «Tetrahydrocurcumin» плюс «Turmeric» просят почти 200 —
+     источник уезжал за край и срезался. Сетка два на два решает это без
+     сокращений и без переносов внутри слова. */
+  body[data-theme='beauty'] .scard__fact {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 1px;
+    min-height: 0;
+    padding: 9px 12px 10px;
+  }
+  body[data-theme='beauty'] .scard__fact-mark {
+    position: static;
+    grid-row: 1 / -1;
+    grid-column: 1;
+    width: 20px; height: 20px;
+    opacity: 0.85;
+  }
+  body[data-theme='beauty'] .scard__fact-nm { grid-column: 2; font-size: 0.86rem; }
+  body[data-theme='beauty'] .scard__fact-src { grid-column: 2; }
 }
