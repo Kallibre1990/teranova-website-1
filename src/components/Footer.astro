@@ -21,6 +21,15 @@ const year = new Date().getFullYear();
         <Logo lang={lang} variant="light" />
         <p class="footer__blurb">{t.footer.blurb}</p>
         <p class="footer__joint">{t.footer.joint_brand}</p>
+
+        <a class="footer__sister" href="https://marine.teranovagroup.com/" rel="noopener">
+          <span class="footer__sister-kicker">{t.footer.marine_title}</span>
+          <span class="footer__sister-name">
+            {t.footer.marine_name}
+            <svg viewBox="0 0 16 16" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10"/></svg>
+          </span>
+          <span class="footer__sister-desc">{t.footer.marine_desc}</span>
+        </a>
       </div>
 
       <nav class="footer__col" aria-label={t.footer.nav_title}>
@@ -53,6 +62,21 @@ const year = new Date().getFullYear();
   .footer__grid { display: grid; grid-template-columns: 2fr 1fr 1.2fr; gap: 48px; margin-bottom: 40px; }
   .footer__blurb { font-size: 0.9rem; color: var(--silver); line-height: 1.65; max-width: 340px; margin: 18px 0 14px; }
   .footer__joint { font-size: 0.82rem; color: var(--silver-muted); }
+
+  /* Ссылка на второй сервис группы. Отдельной колонкой её ставить не стоит:
+     направление одно, а колонка выглядела бы как пустой раздел. Здесь она
+     читается как продолжение рассказа о компании. */
+  .footer__sister {
+    display: inline-block; margin-top: 20px; padding: 13px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 12px;
+    transition: border-color .2s, background .2s;
+  }
+  .footer__sister:hover { border-color: rgba(255, 255, 255, 0.36); background: rgba(255, 255, 255, 0.04); }
+  .footer__sister-kicker { display: block; font-size: 0.66rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.42); }
+  .footer__sister-name { display: flex; align-items: center; gap: 6px; margin-top: 7px; font-size: 0.95rem; font-weight: 700; color: #fff; }
+  .footer__sister-name svg { opacity: .65; }
+  .footer__sister:hover .footer__sister-name svg { opacity: 1; }
+  .footer__sister-desc { display: block; margin-top: 3px; font-size: 0.84rem; color: var(--silver); }
   .footer__title { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.45); margin-bottom: 16px; }
   .footer__links, .footer__contacts { display: flex; flex-direction: column; gap: 11px; }
   .footer__links a, .footer__contacts a, .footer__contacts span { font-size: 0.9rem; color: var(--silver); transition: color .2s; }

@@ -506,5 +506,8 @@ export const pt: UIDict = {
     disclaimer:
       'O catálogo está em preenchimento; parte dos dados é demonstrativa. Os preços são orientativos e não constituem oferta. A Teranova Group coordena e acompanha as operações por meio de parceiros de confiança e não é fabricante.',
     rights: '© 2025 Teranova Group',
+    marine_title: 'Outra frente',
+    marine_name: 'Teranova Marine',
+    marine_desc: 'Peças para iates e barcos',
   },
 };
