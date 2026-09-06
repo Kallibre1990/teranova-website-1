@@ -64,77 +64,26 @@ const { lang } = Astro.props;
       <a class="bh__scroll" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>{beautySuppliers.length} компаний в каталоге</a>
     </div>
 
-    {/* Служебный переключатель. Он не часть сайта: скрипт показывает его
-        только на превью-адресах *.pages.dev, в разметке он стоит с hidden.
-        Нужен, чтобы Антон сравнивал сюжеты вживую и назвал номер. */}
-    <div class="hpick" hidden data-hero-pick>
-      <span class="hpick__t">Фон первого экрана</span>
-      <div class="hpick__row">
-        {heroVariants.map((v) => (
-          <button
-            class="hpick__b"
-            type="button"
-            data-hero-n={String(v.n)}
-            aria-pressed="false"
-            title={v.note}
-          >{v.n}</button>
-        ))}
-      </div>
-      <span class="hpick__name" data-hero-name></span>
-    </div>
 
   </div>
 
   </section>
 
 <script is:inline define:vars={{ variants: heroVariants, fallback: DEFAULT_HERO }}>
-  /* Источник правды — адрес: ?hero=1…10. Так вариант открывается прямой
-     ссылкой и отправляется с телефона. Выбор дублируется в sessionStorage,
-     чтобы переход по внутренним ссылкам не сбрасывал сюжет; cookie не
-     ставим и в боевую функциональность это не превращаем. */
+  /* Антон выбрал четвёртый сюжет, и видимая панель выбора убрана: своё дело
+     она сделала. Механизм `?hero=N` оставлен — по прямой ссылке можно
+     вернуться к любому из десяти и сравнить, не пересобирая сайт.
+
+     Без параметра в адресе скрипт не делает ничего: кадр по умолчанию уже
+     стоит в разметке, и переписывать его на тот же самый незачем. */
   (() => {
-    const KEY = 'tn-hero';
     const img = document.querySelector('[data-hero-img]');
-    const pick = document.querySelector('[data-hero-pick]');
     if (!img) return;
-    const known = new Map(variants.map((v) => [String(v.n), v]));
-
-    const apply = (n, push) => {
-      const v = known.get(String(n));
-      if (!v) return;
-      img.srcset = `/img/beauty/heroes/hero-${v.n}-800.webp 800w, /img/beauty/heroes/hero-${v.n}-1200.webp 1200w`;
-      img.src = `/img/beauty/heroes/hero-${v.n}-1200.webp`;
-      try { sessionStorage.setItem(KEY, String(v.n)); } catch {}
-      if (pick) {
-        for (const b of pick.querySelectorAll('[data-hero-n]')) {
-          const on = b.dataset.heroN === String(v.n);
-          b.classList.toggle('is-on', on);
-          b.setAttribute('aria-pressed', on ? 'true' : 'false');
-        }
-        const name = pick.querySelector('[data-hero-name]');
-        if (name) name.textContent = `${v.n} · ${v.label}`;
-      }
-      if (push) {
-        const u = new URL(location.href);
-        u.searchParams.set('hero', String(v.n));
-        history.replaceState(null, '', u);
-      }
-    };
-
-    const fromUrl = new URL(location.href).searchParams.get('hero');
-    let saved = null;
-    try { saved = sessionStorage.getItem(KEY); } catch {}
-    const start = known.has(String(fromUrl)) ? fromUrl : (known.has(String(saved)) ? saved : fallback);
-    apply(start, false);
-
-    if (pick && location.hostname.endsWith('.pages.dev')) {
-      pick.hidden = false;
-      apply(start, false);
-      pick.addEventListener('click', (e) => {
-        const b = e.target.closest('[data-hero-n]');
-        if (b) apply(b.dataset.heroN, true);
-      });
-    }
+    const n = new URL(location.href).searchParams.get('hero');
+    const v = variants.find((x) => String(x.n) === String(n));
+    if (!v || v.n === fallback) return;
+    img.srcset = `/img/beauty/heroes/hero-${v.n}-800.webp 800w, /img/beauty/heroes/hero-${v.n}-1200.webp 1200w`;
+    img.src = `/img/beauty/heroes/hero-${v.n}-1200.webp`;
   })();
 </script>
 
@@ -183,48 +132,6 @@ const { lang } = Astro.props;
 
   /* Панель выбора. Намеренно служебная на вид: она инструмент согласования,
      а не элемент дизайна, и не должна мешать оценивать сам экран. */
-  /* Панель прижата к правому нижнему углу текстовой сетки.
-     `position: fixed` здесь не работает: у секции `overflow: hidden`, и
-     закреплённый потомок обрезается её контекстом — Codex замерил панель на
-     836–884 при секции до 757, то есть она лежала за границей и была не
-     видна вовсе. Абсолютное положение внутри `.wrap` держит её в первом
-     экране, справа от текста, не трогая сравниваемую геометрию. */
-  .hpick {
-    position: absolute;
-    left: auto; right: 0; bottom: 0;
-    z-index: 4;
-    display: flex; align-items: center; flex-wrap: wrap;
-    gap: 8px;
-    max-width: min(100%, 420px);
-    padding: 8px 10px;
-    border-radius: 6px;
-    background: rgba(6, 15, 30, 0.84);
-    border: 1px solid rgba(203, 212, 224, 0.22);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-  }
-  .hpick__t { font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(203, 212, 224, 0.66); }
-  .hpick__row { display: flex; flex-wrap: wrap; gap: 4px; max-width: 100%; }
-  .hpick__b {
-    flex: 0 0 auto;
-    font: inherit; font-size: 0.78rem; line-height: 1;
-    min-width: 30px; min-height: 30px;
-    padding: 0 8px;
-    border-radius: 4px; cursor: pointer;
-    color: var(--b-silver, #cbd4e0);
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(203, 212, 224, 0.2);
-    transition: border-color .18s, color .18s, background .18s;
-  }
-  .hpick__b:hover { border-color: rgba(200, 168, 106, 0.6); color: #dcc189; }
-  .hpick__b:focus-visible { outline: 2px solid #dcc189; outline-offset: 2px; }
-  .hpick__b.is-on {
-    color: #10203a; font-weight: 700;
-    background: linear-gradient(180deg, #c2a05e 0%, #ab8544 100%);
-    border-color: #c2a05e;
-  }
-  .hpick__name { font-size: 0.76rem; color: rgba(203, 212, 224, 0.8); }
-
   @media (max-width: 820px) {
     /* Кадры нарисованы под десктоп 16:9. Резать их по `cover` на телефоне
        нельзя: сюжет уедет за край, а текст сядет прямо на него. Поэтому
@@ -248,12 +155,6 @@ const { lang } = Astro.props;
     .bh__acts .btn { flex: 1 1 auto; justify-content: center; }
     /* В потоке, а не поверх кадра: иначе панель закрывает сюжет, который и
        надо оценивать. */
-    .hpick { position: static; margin-top: 18px; max-width: 100%; }
-    /* Все десять номеров видны сразу, двумя рядами по пять. Прежде строка
-       прокручивалась внутри себя, полоса прокрутки была скрыта, и до
-       десятого варианта нельзя было догадаться добраться. */
-    .hpick__row { max-width: 180px; }
-    .hpick__b { width: 32px; min-width: 32px; padding: 0; }
   }
   @media (max-width: 460px) {
     .bh__h { font-size: clamp(1.65rem, 8.4vw, 2rem); }
