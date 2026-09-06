@@ -102,13 +102,7 @@ img, svg { max-width: 100%; display: block; }
 /* Light sections read as a raised, silver-lit layer — depth through restraint:
    a soft silver glow from the top edge + a thin metallic hairline seam. Not neon. */
 .section--alt { background: var(--bg-alt); }
-/* Тёплый светлый раздел витрины Beauty. Тот же каркас, другая температура. */
-.section--beauty { background: var(--beauty-bg); color: var(--ink); }
-.section--beauty .eyebrow { color: var(--beauty-accent); }
-.section--beauty .h-section { color: var(--ink); }
-.section--beauty .sub-section { color: var(--sub); }
-.section--beauty .lvl { color: var(--beauty-sub); }
-.section--beauty .back { color: var(--cobalt); }
+
 .section--alt::before {
   content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
   background:
