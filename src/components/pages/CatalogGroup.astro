@@ -98,20 +98,20 @@ const statusInfo = {
 
 {/* Маршрут покупателя идёт сразу за первым экраном: четыре задачи, затем
     отобранные истории, и только потом полный каталог ниже. */}
-{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} />}
+{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} part="tasks" />}
 
-{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
-
-{/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
-{isCosmetics && realForCat.length > 0 && (
-  <section class="section section--navy bsc bsc--quality">
+{/* Подборка по волосам — перед блоком с примерами карточек.
+    Решение Антона от 06.09.2026: покупатель, которому нужны именно волосы,
+    должен свернуть в подборку раньше, чем начнёт разбирать примеры. */}
+{isCosmetics && lang === 'ru' && (
+  <section class="section section--navy bsc bsc--regulatory">
     <span class="bsc-scene" aria-hidden="true"></span>
     <div class="wrap">
       {/* Уход за волосами — ниша внутри косметики, а не восьмая категория.
           Вход стоит перед списком проверенных поставщиков: решение Антона от
           06.09.2026. Так покупатель, которому нужны именно волосы, сворачивает
           в подборку до того, как начнёт разбирать компании по одной. */}
-      <a class="sel-plate sel-plate--light hs-link hs-link--top" href={localizePath('/catalog/hair-scalp', lang)}>
+      <a class="sel-plate sel-plate--light hs-link hs-link--solo" href={localizePath('/catalog/hair-scalp', lang)}>
         <span class="sel-plate__txt">
           <span class="sel-plate__sup">{t.pages.hairscalp.sup}</span>
           <span class="sel-plate__t">{t.pages.hairscalp.title}</span>
@@ -122,73 +122,15 @@ const statusInfo = {
         </span>
       </a>
 
-      <div class="group__head" id="brands">
-        <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
-      </div>
-      <div class="sup-grid">
-        {realForCat.map((s) => {
-          const sc = supplierContent(s, lang);
-          return (
-            <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
-              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
-              <h3 class="scard__nm">{s.name}</h3>
-              <p class="scard__role">{s.brand} · {sc.descriptor}</p>
-              {shots[s.slug]!.length > 0 ? (
-                <span class="scard__shots">
-                  {shots[s.slug]!.map((src) => (
-                    <span class="scard__pad"><img src={src} alt="" loading="lazy" decoding="async" /></span>
-                  ))}
-                </span>
-              ) : (
-                /* Снимков нет — показываем настоящие позиции каталога, а не
-                   пустоту и не выдуманную фотографию товара. Гамма плашек —
-                   фирменная гамма самой компании. */
-                showcaseFacts(s, 3).length > 0 && (
-                  <span
-                    class="scard__facts"
-                    style={s.brandColors
-                      ? `--f-deep:${s.brandColors.deep}; --f-mid:${s.brandColors.sky}; --f-accent:${s.brandColors.accent};`
-                      : undefined}
-                  >
-                    {showcaseFacts(s, 3).map((f) => (
-                      <span class={`scard__fact${BOTANY_ART_IMG[f.botany ?? ''] ? ' scard__fact--art' : ''}`}>
-                        {BOTANY_ART_IMG[f.botany ?? ''] ? (
-                          <img
-                            class="scard__fact-art"
-                            src={`/img/beauty/ingredients/${BOTANY_ART_IMG[f.botany ?? '']}-600.webp`}
-                            srcset={`/img/beauty/ingredients/${BOTANY_ART_IMG[f.botany ?? '']}-600.webp 600w, /img/beauty/ingredients/${BOTANY_ART_IMG[f.botany ?? '']}-900.webp 900w`}
-                            sizes="(max-width: 620px) 120px, 220px"
-                            width="724"
-                            height="724"
-                            alt=""
-                            loading="lazy"
-                            decoding="async"
-                          />
-                        ) : (
-                          <svg class="scard__fact-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                            {(BOTANY_ART[f.botany ?? 'default'] ?? BOTANY_ART.default).map((d) => (<path d={d} />))}
-                          </svg>
-                        )}
-                        <span class="scard__fact-nm" lang="en">{f.name}</span>
-                        {f.source && <span class="scard__fact-src">{f.source}</span>}
-                      </span>
-                    ))}
-                  </span>
-                )
-              )}
-              <span class="scard__foot">
-                <span class="scard__more">{sc.ui.more}</span>
-                <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
-              </span>
-            </a>
-          );
-        })}
-      </div>
-
     </div>
   </section>
 )}
 
+{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} part="stories" />}
+
+{isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
+
+{/* Cosmetics: lift the verified suppliers right after the «why it's hard solo» block so they're seen early. */}
 {isCosmetics && <CosmeticsContent lang={lang} part="body" />}
 
 <section class="section section--navy group bsc bsc--packaging">
@@ -279,6 +221,81 @@ const statusInfo = {
 
 {isCosmetics && <CosmeticsContent lang={lang} part="cta" />}
 
+{/* Полный список компаний — в самом низу страницы. Решение Антона от
+    06.09.2026. Наверху покупатель выбирает задачу и смотрит примеры; сюда он
+    приходит, когда уже готов разбирать компании по одной. */}
+{isCosmetics && realForCat.length > 0 && (
+  <section class="section section--navy bsc bsc--quality">
+    <span class="bsc-scene" aria-hidden="true"></span>
+    <div class="wrap">
+      <div class="group__head" id="brands">
+        <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
+      </div>
+      <div class="sup-grid">
+        {realForCat.map((s) => {
+          const sc = supplierContent(s, lang);
+          return (
+            <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
+              <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
+              <h3 class="scard__nm">{s.name}</h3>
+              <p class="scard__role">{s.brand} · {sc.descriptor}</p>
+              {shots[s.slug]!.length > 0 ? (
+                <span class="scard__shots">
+                  {shots[s.slug]!.map((src) => (
+                    <span class="scard__pad"><img src={src} alt="" loading="lazy" decoding="async" /></span>
+                  ))}
+                </span>
+              ) : (
+                /* Снимков нет — показываем настоящие позиции каталога, а не
+                   пустоту и не выдуманную фотографию товара. Гамма плашек —
+                   фирменная гамма самой компании. */
+                showcaseFacts(s, 3).length > 0 && (
+                  <span
+                    class="scard__facts"
+                    style={s.brandColors
+                      ? `--f-deep:${s.brandColors.deep}; --f-mid:${s.brandColors.sky}; --f-accent:${s.brandColors.accent};`
+                      : undefined}
+                  >
+                    {showcaseFacts(s, 3).map((f) => (
+                      <span class={`scard__fact${BOTANY_ART_IMG[f.botany ?? ''] ? ' scard__fact--art' : ''}`}>
+                        {BOTANY_ART_IMG[f.botany ?? ''] ? (
+                          <img
+                            class="scard__fact-art"
+                            src={`/img/beauty/ingredients/${BOTANY_ART_IMG[f.botany ?? '']}-600.webp`}
+                            srcset={`/img/beauty/ingredients/${BOTANY_ART_IMG[f.botany ?? '']}-600.webp 600w, /img/beauty/ingredients/${BOTANY_ART_IMG[f.botany ?? '']}-900.webp 900w`}
+                            sizes="(max-width: 620px) 120px, 220px"
+                            width="724"
+                            height="724"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        ) : (
+                          <svg class="scard__fact-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            {(BOTANY_ART[f.botany ?? 'default'] ?? BOTANY_ART.default).map((d) => (<path d={d} />))}
+                          </svg>
+                        )}
+                        <span class="scard__fact-nm" lang="en">{f.name}</span>
+                        {f.source && <span class="scard__fact-src">{f.source}</span>}
+                      </span>
+                    ))}
+                  </span>
+                )
+              )}
+              <span class="scard__foot">
+                <span class="scard__more">{sc.ui.more}</span>
+                <span class="scard__origin">{countryFlag[s.country ?? 'kr']} {countryName(s.country ?? 'kr')}</span>
+              </span>
+            </a>
+          );
+        })}
+      </div>
+
+    </div>
+  </section>
+)}
+
+
 <style>
   .back { display: inline-flex; align-items: center; gap: 7px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); margin-bottom: 26px; }
   .lvl { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); margin-bottom: 12px; }
@@ -335,6 +352,8 @@ const statusInfo = {
   /* Вход в подборку поднят над списком поставщиков — сверху отступа не нужно,
      нужен снизу, до заголовка «Проверенные поставщики». */
   .hs-link--top { margin-top: 0; margin-bottom: clamp(28px, 3.4vw, 44px); }
+  /* Плита стоит отдельной секцией, соседей сверху и снизу у неё нет. */
+  .hs-link--solo { margin: 0; }
 
   /* ---- карточка поставщика без фотографий ----
        ВНИМАНИЕ: эти правила НЕ должны уезжать в beauty.css. Разметка плашек

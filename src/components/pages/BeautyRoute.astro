@@ -18,8 +18,14 @@ import { suppliers, supplierContent, showcaseImages } from '../../data/suppliers
 
 interface Props {
   lang: Lang;
+  /* Две части рендерятся по отдельности: между ними стоит подборка по
+     волосам. Решение Антона от 06.09.2026 — вход в подборку должен идти
+     выше блока с примерами карточек. */
+  part?: 'tasks' | 'stories';
 }
-const { lang } = Astro.props;
+const { lang, part } = Astro.props;
+const showTasks = part !== 'stories';
+const showStories = part !== 'tasks';
 const t = ui[lang];
 
 const shots = (slug: string, n: number) => {
@@ -85,6 +91,7 @@ const statusInfo = {
 const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in: '🇮🇳' };
 ---
 
+{showTasks && (
 <section class="section section--navy br bsc bsc--actives">
   <span class="bsc-scene" aria-hidden="true"></span>
   <div class="wrap">
@@ -113,7 +120,9 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
     </div>
   </div>
 </section>
+)}
 
+{showStories && (
 <section class="section section--navy br br--stories bsc bsc--verify" id="stories">
   <span class="bsc-scene" aria-hidden="true"></span>
   <div class="wrap">
@@ -149,9 +158,19 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
       </div>
       <button class="br-nav br-nav--next" type="button" aria-label="Следующие карточки" data-carousel-next>›</button>
     </div>
+
+    {/* Блок обещает, что полный список идёт ниже. Раньше это было обещание без
+        перехода: покупатель дочитывал карусель и оставался с ним наедине.
+        Кнопка того же вида, что и на первом экране, — переход должен
+        выглядеть одинаково там и там. */}
+    {/* Именно localizePath, а не anchorHref: последний строит якорь главной
+        страницы и давал /#brands — переход уводил с витрины. */}
+    <a class="btn btn--quiet br-all" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>Каталог компаний</a>
   </div>
 </section>
+)}
 
+{showStories && (
 <script is:inline>
   /* Стрелки листают ровно на одну карточку: ширина карточки плюс зазор.
      Ничего не двигаем сами — просто просим браузер прокрутить ленту, чтобы
@@ -190,6 +209,7 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
     sync();
   }
 </script>
+)}
 
 <style>
   .br-tasks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
@@ -219,6 +239,10 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
      карточек по-прежнему в порядке табуляции, и браузер сам подкручивает
      ленту к сфокусированной карточке. */
   .br-carousel { position: relative; }
+  /* Кнопка стоит по центру под лентой: она относится ко всему блоку, а не
+     к последней карточке. */
+  .br-all { display: inline-flex; margin: 22px auto 0; }
+  .br--stories .wrap { display: flex; flex-direction: column; align-items: stretch; }
   .br-stories {
     display: flex;
     gap: 16px;
