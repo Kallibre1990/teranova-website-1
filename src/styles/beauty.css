@@ -632,3 +632,76 @@ body[data-theme='beauty'] .scard__fact-src {
   body[data-theme='beauty'] .scard__fact-nm { grid-column: 2; font-size: 0.86rem; }
   body[data-theme='beauty'] .scard__fact-src { grid-column: 2; }
 }
+
+/* ---- ботанический кадр на плашке ----
+   Кадр — редакционная иллюстрация сырья (триптих Codex, класс
+   `generated-editorial`): корень солодки, корневище куркумы, семена бабчи.
+   Ни тары, ни этикеток, ни логотипов — растение и только оно. Кадр лежит
+   фоном под настоящей подписью и продукцией Sunpure не является.
+
+   Подпись обязана читаться на самом светлом месте кадра — срез куркумы
+   почти оранжевый. Поэтому шторка снизу плотная, а не декоративная. */
+body[data-theme='beauty'] .scard__fact--art { padding: 0; }
+body[data-theme='beauty'] .scard__fact-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+  z-index: 0;
+}
+body[data-theme='beauty'] .scard__fact--art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(6, 20, 12, 0.12) 0%, rgba(6, 20, 12, 0.5) 44%, rgba(5, 16, 10, 0.9) 100%);
+}
+body[data-theme='beauty'] .scard__fact--art .scard__fact-nm,
+body[data-theme='beauty'] .scard__fact--art .scard__fact-src {
+  position: relative;
+  z-index: 2;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+body[data-theme='beauty'] .scard__fact--art .scard__fact-nm { margin-top: auto; }
+body[data-theme='beauty'] .scard__fact--art .scard__fact-src { padding-bottom: 12px; }
+
+@media (max-width: 620px) {
+  /* Строкой: растение занимает левую треть, подпись стоит справа на
+     затемнении. Высота поднята — иначе от кадра осталась бы полоска. */
+  /* Плашка с кадром на телефоне НЕ переходит в строку. В строке текст
+     остаётся 130 px шириной, и «Tetrahydrocurcumin» ломается на три части.
+     Оставляем ту же раскладку, что на десктопе, только ниже: кадр во всю
+     плашку, подпись снизу во всю ширину — там ей 212 px, и слово помещается
+     в строку. В строку переходят только плашки без кадра. */
+  body[data-theme='beauty'] .scard__fact--art {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center достаётся от правила для плашек без кадра —
+       в колоночном flex оно центрует подпись. Здесь она прижата влево. */
+    align-items: stretch;
+    text-align: left;
+    min-height: 96px;
+    padding: 0;
+  }
+  body[data-theme='beauty'] .scard__fact--art .scard__fact-art {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 44%;
+  }
+  body[data-theme='beauty'] .scard__fact--art::after {
+    background: linear-gradient(180deg, rgba(6, 20, 12, 0.08) 0%, rgba(6, 20, 12, 0.44) 40%, rgba(5, 16, 10, 0.92) 100%);
+  }
+  body[data-theme='beauty'] .scard__fact--art .scard__fact-nm {
+    margin-top: auto;
+    padding: 0 12px;
+    font-size: 0.86rem;
+  }
+  body[data-theme='beauty'] .scard__fact--art .scard__fact-src { padding: 0 12px 11px; }
+}
