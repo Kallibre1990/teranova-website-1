@@ -305,3 +305,117 @@ body[data-theme='beauty'] .br-task__go,
 body[data-theme='beauty'] .br-story__go { color: var(--b-silver) !important; }
 body[data-theme='beauty'] .br-task:hover .br-task__go,
 body[data-theme='beauty'] .br-story:hover .br-story__go { color: var(--b-gold-lite) !important; }
+
+
+/* ---- обрезка снимков ----
+   width/height в процентах внутри grid-плашки не ограничивают картинку:
+   строка сетки растёт под её высоту, и вертикальный кадр 413x1400 вылезал
+   за плашку и обрезался её overflow. Ограничиваем максимумами — тогда
+   любой кадр вписывается целиком, а не подрезается. */
+body[data-theme='beauty'] .bh__pad img,
+body[data-theme='beauty'] .scard__pad img,
+body[data-theme='beauty'] .br-task__pad img,
+body[data-theme='beauty'] .br-story__pad img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 84% !important;
+  max-height: 84% !important;
+  object-fit: contain;
+}
+
+/* ---- плашка подборки ----
+   .sel-plate--light красит заголовок тёмно-синим градиентом через
+   background-clip: text. На бархате это тёмное по тёмному — заголовок
+   пропадал совсем. Возвращаем серебро. */
+body[data-theme='beauty'] .sel-plate--light .sel-plate__t,
+body[data-theme='beauty'] .sel-plate__t {
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: var(--b-silver-bright) !important;
+  color: var(--b-silver-bright) !important;
+}
+
+/* ---- присутствие сцены ----
+   Одной полосы внизу мало: середина длинной секции оставалась пустой.
+   Добавляем тот же кадр вторым слоем в верхний угол — мягко, поверх
+   бархата и под текстом. Текст по-прежнему стоит на ровном фоне. */
+body[data-theme='beauty'] .bsc::before {
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: right -6% top -10%, 12% -10%, 96% 8%, center;
+  background-size: min(46%, 620px) auto, auto, auto, auto;
+}
+
+/* Верхний угловой слой: тот же сюжет, что и полоса внизу. */
+body[data-theme='beauty'] .bsc--actives::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/active-ingredients-system.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--oem::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/oem-odm-process.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--assortment::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/retail-assortment.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--verify::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/supplier-verification-system.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--packaging::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/packaging-innovation.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--quality::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/quality-testing.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--markets::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/global-sourcing-route.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
+body[data-theme='beauty'] .bsc--regulatory::before {
+  background-image:
+    linear-gradient(180deg, rgba(11,27,53,0.72), rgba(11,27,53,0.94)), url('/img/blog/editorial/regulatory-readiness.webp'),
+    radial-gradient(120% 90% at 12% -10%, rgba(96,132,196,0.22), transparent 58%),
+    linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-navy) 42%, var(--b-velvet) 100%);
+  background-repeat: no-repeat;
+  background-position: right -4% top -8%, right -4% top -8%, center, center;
+  background-size: min(44%, 600px) auto, min(44%, 600px) auto, auto, auto;
+}
