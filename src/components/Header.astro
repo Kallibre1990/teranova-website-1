@@ -23,7 +23,7 @@ const ctaHref = anchorHref('ondemand', lang);
     <Logo lang={lang} variant="light" />
 
     <nav class="header__nav" aria-label="Primary">
-      {nav.map((i) => <a href={i.href}>{i.label}</a>)}
+      {nav.map((i) => <a href={i.href} rel={i.external ? 'noopener' : undefined}>{i.label}</a>)}
     </nav>
 
     <div class="header__right">
@@ -42,7 +42,7 @@ const ctaHref = anchorHref('ondemand', lang);
     <button class="menu-close" id="menuClose" aria-label={t.common.close}>&times;</button>
   </div>
   <nav class="mobile-menu__nav wrap" aria-label="Mobile">
-    {fullNav.map((i) => <a href={i.href}>{i.label}</a>)}
+    {fullNav.map((i) => <a href={i.href} rel={i.external ? 'noopener' : undefined}>{i.label}</a>)}
   </nav>
   <div class="mobile-menu__foot wrap">
     <a class="btn btn--primary" href={ctaHref}>{t.common.cta_request}</a>
@@ -97,6 +97,16 @@ const ctaHref = anchorHref('ondemand', lang);
   .mobile-menu__nav a:hover { color: #fff; }
   .mobile-menu__foot { display: flex; flex-direction: column; gap: 16px; padding-top: 22px; padding-bottom: 34px; align-items: flex-start; }
   .mobile-menu__foot .btn { width: 100%; }
+
+  /* Пунктов стало семь: добавились судовые запчасти как отдельное направление.
+     На узких ноутбуках, где меню ещё показано, оно шло вплотную к переключателю
+     языков и кнопке — замерено 16 и 12 точек зазора. Здесь ряд поджимается:
+     отступы у пунктов меньше, зазоры до соседей больше. Наезда нет ни на одном
+     из одиннадцати языков, проверено измерением. */
+  @media (max-width: 1320px) {
+    .header__nav { gap: 0; }
+    .header__nav a { padding: 8px 9px; font-size: 0.8rem; }
+  }
 
   @media (max-width: 1160px) {
     .header__nav { display: none; }

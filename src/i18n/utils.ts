@@ -32,7 +32,7 @@ export function anchorHref(hash: string, lang: Lang): string {
  * Labels come from the per-language dictionary (ru is the source of truth);
  * every href points to a real, existing route.
  */
-export function mainNav(lang: Lang): { label: string; href: string; primary?: boolean }[] {
+export function mainNav(lang: Lang): { label: string; href: string; primary?: boolean; external?: boolean }[] {
   const t = ui[lang];
   return [
     { label: t.nav.catalog, href: localizePath('/catalog', lang), primary: true },
@@ -41,6 +41,9 @@ export function mainNav(lang: Lang): { label: string; href: string; primary?: bo
     // русских пунктов читалось как чужеродная вставка. Бренд Solar Care остаётся
     // на самой странице раздела, адрес страницы тоже не меняется.
     { label: t.nav.solar, href: localizePath('/solar-care', lang), primary: true },
+    // Судовые запчасти — второе направление группы. Живёт на своём сайте,
+    // поэтому адрес внешний: страницы-заглушки на витрине заводить незачем.
+    { label: t.nav.marine, href: 'https://marine.teranovagroup.com/', primary: true, external: true },
     { label: t.nav.suppliers, href: localizePath('/suppliers', lang), primary: true },
     { label: t.nav.buyers, href: localizePath('/buyers', lang), primary: true },
     { label: t.nav.tenders, href: localizePath('/tenders', lang) },

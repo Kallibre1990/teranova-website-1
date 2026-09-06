@@ -4,6 +4,7 @@ import type { DeepPartial } from '../deep';
 const zh: DeepPartial<UIDict> = {
   nav: {
     solar: "光伏电站运维",
+    marine: "船舶配件",
     blog: "洞察",
     catalog: "产品目录",
     verify: "我们如何核验",
@@ -467,6 +468,13 @@ const zh: DeepPartial<UIDict> = {
     body: "Teranova 在韩国寻找制造商并对其进行核验——直至亲赴工厂现场实地走访——并从首次需求到收货全程把控交易。一个负责到底的合作伙伴，取代层层中间商。",
     photo_note: "此处将放置真实照片：团队与工厂走访。",
     cta: "了解更多关于公司",
+  },
+
+  marine_home: {
+    sup: "独立业务线",
+    title: "小型船艇零件",
+    body: "一艘游艇上的部件失灵,没有维修配件,该型号已停产。船主发来铭牌照片——我们识别部件,找到货源并发到其所在港口。这是一项独立服务,拥有自己的网站和咨询窗口。",
+    cta: "打开 Teranova Marine",
   },
 
   tenders_home: {

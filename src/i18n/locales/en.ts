@@ -7,6 +7,7 @@ export const en: UIDict = {
 
   nav: {
     solar: "Solar Care",
+    marine: 'Marine parts',
     blog: "Insights",
     catalog: 'Catalog',
     buyers: 'For buyers',
@@ -163,6 +164,18 @@ export const en: UIDict = {
     body: 'Teranova finds manufacturers in Korea, verifies them — up to a personal on-site visit to the factory — and runs the deal from the first request to receipt of the goods. One accountable partner instead of a chain of middlemen.',
     photo_note: 'Real photos will go here: the founder, the team, factory visits.',
     cta: 'More about the company',
+  },
+
+  marine_home: {
+
+    sup: 'a separate line of work',
+
+    title: 'Parts for small craft',
+
+    body: 'A unit fails on a yacht, there is no service kit and the model is out of production. The owner sends a photo of the nameplate — we identify the part, find who has it and ship it to their port. A separate service with its own site and request desk.',
+
+    cta: 'Open Teranova Marine',
+
   },
 
   tenders_home: {

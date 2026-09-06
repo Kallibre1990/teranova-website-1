@@ -7,6 +7,7 @@ export const pt: UIDict = {
 
   nav: {
     solar: "Usinas solares",
+    marine: 'Peças navais',
     blog: "Conteúdos",
     catalog: 'Catálogo',
     buyers: 'Para compradores',
@@ -163,6 +164,18 @@ export const pt: UIDict = {
     body: 'A Teranova encontra fabricantes na Coreia, verifica-os — até a visita presencial de um integrante à fábrica — e conduz a operação do primeiro pedido ao recebimento da mercadoria. Um único parceiro responsável em vez de uma cadeia de intermediários.',
     photo_note: 'Aqui entrarão fotos reais: o fundador, a equipe, visitas às fábricas.',
     cta: 'Mais sobre a empresa',
+  },
+
+  marine_home: {
+
+    sup: 'uma frente separada',
+
+    title: 'Peças para embarcações pequenas',
+
+    body: 'Uma peça falha no iate, não há kit de manutenção e o modelo saiu de linha. O proprietário envia uma foto da placa de identificação — identificamos a peça, encontramos quem a tem e entregamos no porto dele. Um serviço separado, com site e recepção de pedidos próprios.',
+
+    cta: 'Abrir Teranova Marine',
+
   },
 
   tenders_home: {

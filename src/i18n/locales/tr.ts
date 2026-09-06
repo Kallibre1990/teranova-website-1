@@ -4,6 +4,7 @@ import type { DeepPartial } from '../deep';
 const tr: DeepPartial<UIDict> = {
   nav: {
     solar: "Güneş santralleri",
+    marine: "Tekne parçaları",
     blog: "İçerikler",
     catalog: "Katalog",
     verify: "Nasıl doğruluyoruz",
@@ -467,6 +468,13 @@ const tr: DeepPartial<UIDict> = {
     body: "Teranova, Kore'deki üreticileri bulur, onları doğrular — fabrikayı bizzat yerinde ziyaret edecek kadar — ve anlaşmayı ilk talepten malların teslim alınmasına kadar yürütür. Bir aracı zinciri yerine sorumluluk üstlenen tek bir ortak.",
     photo_note: "Gerçek fotoğraflar buraya gelecek: ekip ve fabrika ziyaretleri.",
     cta: "Şirket hakkında daha fazlası",
+  },
+
+  marine_home: {
+    sup: "ayrı bir çalışma alanı",
+    title: "Küçük tekneler için yedek parça",
+    body: "Bir yatta parça arızalanır, servis kiti yok ve model üretimden kalkmış. Sahibi künyenin fotoğrafını gönderir — parçayı belirler, kimde olduğunu buluruz ve limanına göndeririz. Kendi sitesi ve talep hattı olan ayrı bir hizmet.",
+    cta: "Teranova Marine'i aç",
   },
 
   tenders_home: {
