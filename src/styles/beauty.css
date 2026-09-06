@@ -205,12 +205,15 @@ body[data-theme='beauty'] .cos-fact__k {
 /* ---- действия: золотая заливка, серебряный контур ---- */
 body[data-theme='beauty'] .btn { border-radius: 4px; font-weight: 700; letter-spacing: 0.01em; }
 body[data-theme='beauty'] .btn--primary {
-  background: linear-gradient(180deg, var(--b-gold-lite) 0%, var(--b-gold) 46%, var(--b-gold-deep) 100%);
+  /* Верхний блик --b-gold-lite давал кнопке металлический глянец: на телефоне
+     она во всю ширину и спорила с кадром. Золото стало глубже и матовее —
+     оно по-прежнему единственное действие на экране, но не светится. */
+  background: linear-gradient(180deg, #c2a05e 0%, #ab8544 52%, #8a6832 100%);
   color: #1c1508;
   border-color: rgba(220, 193, 137, 0.5);
   box-shadow: 0 10px 30px -12px rgba(143, 109, 51, 0.7), inset 0 1px 0 rgba(255, 246, 224, 0.45);
 }
-body[data-theme='beauty'] .btn--primary:hover { background: linear-gradient(180deg, #e8d3a2 0%, #c6a05a 46%, #9c7838 100%); transform: translateY(-1px); }
+body[data-theme='beauty'] .btn--primary:hover { background: linear-gradient(180deg, #d0ae6b 0%, #b8914d 52%, #96733a 100%); transform: translateY(-1px); }
 body[data-theme='beauty'] .btn--ghost,
 body[data-theme='beauty'] .btn--outline {
   background: rgba(255, 255, 255, 0.04);
