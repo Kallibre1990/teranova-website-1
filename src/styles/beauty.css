@@ -447,11 +447,19 @@ body[data-theme='beauty'] .site-footer {
   border-top: 1px solid var(--b-line) !important;
   color: var(--b-sub) !important;
 }
+/* Нить рисуем на самом краю подвала, а не первым блоком в потоке.
+   В потоке она вставала после 80 px внутреннего отступа — вплотную над
+   логотипом, и подвал читался как будто у него нет верхнего поля. */
+body[data-theme='beauty'] .site-footer {
+  position: relative;
+  padding-top: clamp(64px, 7vw, 96px) !important;
+  padding-bottom: clamp(32px, 3vw, 44px) !important;
+}
 body[data-theme='beauty'] .site-footer::before {
   content: '';
-  display: block;
+  position: absolute;
+  left: 0; right: 0; top: 0;
   height: 1px;
-  margin-bottom: -1px;
   background: linear-gradient(90deg, transparent, var(--b-gold-lite) 22%, var(--b-silver-bright) 50%, var(--b-gold-lite) 78%, transparent);
   opacity: 0.5;
 }
@@ -515,4 +523,63 @@ body[data-theme='beauty'] .to-top:hover {
   background: rgba(14, 34, 67, 0.94) !important;
   border-color: var(--b-gold) !important;
   color: var(--b-gold-lite) !important;
+}
+
+/* ---- карточка поставщика без фотографий ----
+   Sunpure прислал брошюру, но не снимки сырья. Рисовать за компанию её товар
+   нельзя — это подделка, а не иллюстрация. Пустая карточка при этом выглядела
+   как ошибка вёрстки: половина плитки просто пустовала.
+
+   Показываем настоящие позиции каталога: название актива и растение-источник.
+   Плашки красим фирменной гаммой самой компании (`--f-*` приходят из её
+   brandColors), лист нарисован кодом. Когда компания пришлёт фотографии,
+   этот блок исчезнет сам — он показывается только при пустом showcaseImages. */
+body[data-theme='beauty'] .scard__facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 4px;
+}
+body[data-theme='beauty'] .scard__fact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+  min-height: 122px;
+  padding: 12px 12px 13px;
+  border-radius: 5px;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 90% at 22% 8%, color-mix(in srgb, var(--f-mid, #4e9a5f) 46%, transparent), transparent 62%),
+    linear-gradient(158deg, color-mix(in srgb, var(--f-deep, #1d4a2b) 92%, #000) 0%, color-mix(in srgb, var(--f-deep, #1d4a2b) 62%, var(--b-velvet)) 100%);
+  border: 1px solid color-mix(in srgb, var(--f-accent, #d9a441) 34%, transparent);
+}
+body[data-theme='beauty'] .scard__fact-mark {
+  position: absolute;
+  top: 10px; right: 10px;
+  width: 26px; height: 26px;
+  fill: none;
+  stroke: var(--f-accent, #d9a441);
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  opacity: 0.72;
+}
+body[data-theme='beauty'] .scard__fact-nm {
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #f4f7f4;
+  text-wrap: balance;
+}
+body[data-theme='beauty'] .scard__fact-src {
+  font-size: 0.68rem;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--f-accent, #d9a441) 76%, #ffffff);
+}
+@media (max-width: 560px) {
+  body[data-theme='beauty'] .scard__facts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  body[data-theme='beauty'] .scard__fact { min-height: 104px; padding: 10px; }
 }

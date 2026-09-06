@@ -2029,3 +2029,37 @@ export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure'] as const;
 export const beautySuppliers = suppliers.filter(
   (s) => s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug),
 );
+
+/* Витрина для поставщика без фотографий.
+   Sunpure прислал брошюру, но не прислал снимки сырья. Рисовать за них
+   «фотографии товара» нельзя: это конкретная компания, а придуманный кадр
+   её продукции — не иллюстрация, а подделка (docs/IMAGERY.md, класс
+   «доказательство»). Пустая карточка при этом выглядит как ошибка.
+
+   Выход: показываем то, что у нас действительно есть, — настоящие названия
+   активов из их каталога и растение-источник. Для покупателя косметики
+   «Bakuchiol» и «Tetrahydrocurcumin» говорят больше, чем баночка на белом.
+   Плашки красим в фирменную гамму самой компании (brandColors из её же
+   брошюры), рисунок — код, не фотография. */
+export interface ShowcaseFact {
+  name: string;
+  source?: string;
+}
+export const showcaseFacts = (p: Supplier, n: number): ShowcaseFact[] => {
+  const out: ShowcaseFact[] = [];
+  for (const line of p.catalog ?? []) {
+    for (const item of line.items ?? []) {
+      if (out.length >= n) return out;
+      const src = item.actives?.[0];
+      out.push({
+        name: item.name,
+        /* «Glycyrrhiza Glabra (Licorice) Root Extract» -> «Licorice Root»:
+           в плашку помещается только суть, а не полное INCI-имя. */
+        source: src
+          ? (src.match(/\(([^)]+)\)/)?.[1] ?? src.split(' ').slice(0, 2).join(' '))
+          : undefined,
+      });
+    }
+  }
+  return out;
+};

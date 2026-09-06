@@ -8,7 +8,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
-import { suppliers as realSuppliers, beautySuppliers, supplierContent, showcaseImages } from '../../data/suppliers';
+import { suppliers as realSuppliers, beautySuppliers, supplierContent, showcaseImages, showcaseFacts } from '../../data/suppliers';
 interface Props {
   lang: Lang;
   groupKey: CategoryKey;
@@ -99,12 +99,36 @@ const statusInfo = {
               <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
               <h3 class="scard__nm">{s.name}</h3>
               <p class="scard__role">{s.brand} · {sc.descriptor}</p>
-              {shots[s.slug]!.length > 0 && (
+              {shots[s.slug]!.length > 0 ? (
                 <span class="scard__shots">
                   {shots[s.slug]!.map((src) => (
                     <span class="scard__pad"><img src={src} alt="" loading="lazy" decoding="async" /></span>
                   ))}
                 </span>
+              ) : (
+                /* Снимков нет — показываем настоящие позиции каталога, а не
+                   пустоту и не выдуманную фотографию товара. Гамма плашек —
+                   фирменная гамма самой компании. */
+                showcaseFacts(s, 3).length > 0 && (
+                  <span
+                    class="scard__facts"
+                    style={s.brandColors
+                      ? `--f-deep:${s.brandColors.deep}; --f-mid:${s.brandColors.sky}; --f-accent:${s.brandColors.accent};`
+                      : undefined}
+                  >
+                    {showcaseFacts(s, 3).map((f) => (
+                      <span class="scard__fact">
+                        <svg class="scard__fact-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                          <path d="M12 21c0-6 3-10 8-12-1 7-4 10-8 12Z" />
+                          <path d="M12 21C12 15 9 11 4 9c1 7 4 10 8 12Z" />
+                          <path d="M12 21v-6" />
+                        </svg>
+                        <span class="scard__fact-nm">{f.name}</span>
+                        {f.source && <span class="scard__fact-src">{f.source}</span>}
+                      </span>
+                    ))}
+                  </span>
+                )
               )}
               <span class="scard__foot">
                 <span class="scard__more">{sc.ui.more}</span>
