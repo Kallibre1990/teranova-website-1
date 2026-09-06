@@ -4,15 +4,15 @@ import type { DeepPartial } from '../deep';
 const es: DeepPartial<UIDict> = {
   nav: {
     solar: "Plantas solares",
-    marine: "Repuestos náuticos",
+    marine: 'Náutica',
     blog: "Recursos",
     catalog: "Catálogo",
-    buyers: "Para compradores",
+    buyers: "Compradores",
     verify: "Cómo verificamos",
     ondemand: "Bajo pedido",
     how: "Cómo trabajamos",
     presence: "Dónde estamos",
-    suppliers: "Para proveedores",
+    suppliers: "Proveedores",
     about: "Nosotros",
     faq: "Preguntas frecuentes",
     contacts: "Contacto",
@@ -141,7 +141,7 @@ const es: DeepPartial<UIDict> = {
 
   marine_home: {
     sup: "una línea aparte",
-    title: "Repuestos para embarcaciones menores",
+    title: "Náutica",
     body: "Un equipo falla en un yate, no hay kit de servicio y el modelo ya no se fabrica. El propietario envía una foto de la placa de identificación — identificamos la pieza, encontramos quién la tiene y la enviamos a su puerto. Un servicio aparte, con sitio y mesa de solicitudes propios.",
     cta: "Abrir Teranova Marine",
   },

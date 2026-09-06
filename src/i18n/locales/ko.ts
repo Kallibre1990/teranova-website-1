@@ -7,7 +7,7 @@ export const ko: UIDict = {
 
   nav: {
     solar: "태양광 발전소 관리",
-    marine: '선박 부품',
+    marine: '요트',
     blog: "인사이트",
     catalog: '카탈로그',
     buyers: '바이어 안내',
@@ -157,7 +157,7 @@ export const ko: UIDict = {
 
     sup: '독립 사업 부문',
 
-    title: '소형 선박 부품',
+    title: '요트',
 
     body: '요트의 부품이 고장 났는데 정비 키트가 없고 단종된 모델입니다. 선주가 명판 사진을 보내면 저희가 부품을 식별하고 재고 보유처를 찾아 해당 항구로 배송합니다. 자체 사이트와 접수 창구를 갖춘 별도 서비스입니다.',
 

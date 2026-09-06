@@ -4,7 +4,7 @@ import type { DeepPartial } from '../deep';
 const zh: DeepPartial<UIDict> = {
   nav: {
     solar: "光伏电站运维",
-    marine: "船舶配件",
+    marine: '游艇',
     blog: "洞察",
     catalog: "产品目录",
     verify: "我们如何核验",
@@ -472,7 +472,7 @@ const zh: DeepPartial<UIDict> = {
 
   marine_home: {
     sup: "独立业务线",
-    title: "小型船艇零件",
+    title: "游艇",
     body: "一艘游艇上的部件失灵,没有维修配件,该型号已停产。船主发来铭牌照片——我们识别部件,找到货源并发到其所在港口。这是一项独立服务,拥有自己的网站和咨询窗口。",
     cta: "打开 Teranova Marine",
   },

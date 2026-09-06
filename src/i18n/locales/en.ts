@@ -7,7 +7,7 @@ export const en: UIDict = {
 
   nav: {
     solar: "Solar Care",
-    marine: 'Marine parts',
+    marine: 'Yachting',
     blog: "Insights",
     catalog: 'Catalog',
     buyers: 'For buyers',
@@ -170,7 +170,7 @@ export const en: UIDict = {
 
     sup: 'a separate line of work',
 
-    title: 'Parts for small craft',
+    title: 'Yachting',
 
     body: 'A unit fails on a yacht, there is no service kit and the model is out of production. The owner sends a photo of the nameplate — we identify the part, find who has it and ship it to their port. A separate service with its own site and request desk.',
 
