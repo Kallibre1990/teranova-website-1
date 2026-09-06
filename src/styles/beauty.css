@@ -560,12 +560,13 @@ body[data-theme='beauty'] .scard__fact {
 body[data-theme='beauty'] .scard__fact-mark {
   position: absolute;
   top: 10px; right: 10px;
-  width: 26px; height: 26px;
+  width: 30px; height: 30px;
   fill: none;
   stroke: var(--f-accent, #d9a441);
-  stroke-width: 1.2;
+  stroke-width: 1.15;
   stroke-linecap: round;
-  opacity: 0.72;
+  stroke-linejoin: round;
+  opacity: 0.78;
 }
 body[data-theme='beauty'] .scard__fact-nm {
   font-size: 0.84rem;
@@ -625,8 +626,8 @@ body[data-theme='beauty'] .scard__fact-src {
     position: static;
     grid-row: 1 / -1;
     grid-column: 1;
-    width: 20px; height: 20px;
-    opacity: 0.85;
+    width: 22px; height: 22px;
+    opacity: 0.88;
   }
   body[data-theme='beauty'] .scard__fact-nm { grid-column: 2; font-size: 0.86rem; }
   body[data-theme='beauty'] .scard__fact-src { grid-column: 2; }

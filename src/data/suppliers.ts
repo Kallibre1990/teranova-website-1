@@ -2041,10 +2041,27 @@ export const beautySuppliers = suppliers.filter(
    «Bakuchiol» и «Tetrahydrocurcumin» говорят больше, чем баночка на белом.
    Плашки красим в фирменную гамму самой компании (brandColors из её же
    брошюры), рисунок — код, не фотография. */
+export type BotanyKind = 'root' | 'rhizome' | 'seed' | 'bark' | 'leaf' | 'bean';
+
 export interface ShowcaseFact {
   name: string;
   source?: string;
+  /* Что именно за сырьё: корень, корневище, семя, кора, лист. Берётся из той
+     же строки INCI, что и источник, и определяет рисунок на плашке. Рисуем
+     растение, а не товар компании: корень солодки — факт природы, его можно
+     изобразить. Банка с их экстрактом — уже утверждение о конкретной
+     компании, и рисовать её нельзя. */
+  botany?: BotanyKind;
 }
+
+const BOTANY: [RegExp, BotanyKind][] = [
+  [/rhizome/i, 'rhizome'],
+  [/\broot\b/i, 'root'],
+  [/\bseed\b/i, 'seed'],
+  [/\bbark\b/i, 'bark'],
+  [/\bleaf\b|\bleaves\b/i, 'leaf'],
+  [/caffeine|coffee|\bbean\b/i, 'bean'],
+];
 export const showcaseFacts = (p: Supplier, n: number): ShowcaseFact[] => {
   const out: ShowcaseFact[] = [];
   for (const line of p.catalog ?? []) {
@@ -2053,11 +2070,12 @@ export const showcaseFacts = (p: Supplier, n: number): ShowcaseFact[] => {
       const src = item.actives?.[0];
       out.push({
         name: item.name,
-        /* «Glycyrrhiza Glabra (Licorice) Root Extract» -> «Licorice Root»:
+        /* «Glycyrrhiza Glabra (Licorice) Root Extract» -> «Licorice»:
            в плашку помещается только суть, а не полное INCI-имя. */
         source: src
           ? (src.match(/\(([^)]+)\)/)?.[1] ?? src.split(' ').slice(0, 2).join(' '))
           : undefined,
+        botany: src ? BOTANY.find(([re]) => re.test(src))?.[1] : undefined,
       });
     }
   }
