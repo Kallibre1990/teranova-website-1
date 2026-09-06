@@ -14,9 +14,12 @@
  * Вывод, который стоит помнить: дороговизну в бьюти делает не количество
  * предметов, а материал, свет и фактура.
  *
- * Сейчас на превью стоят десять кандидатов-сюжетов. Это черновики для выбора
- * направления, desktop control masters 1200×675; самостоятельный вертикальный
- * кадр отрисуем только для того сюжета, который выберет Антон.
+ * Из десяти кандидатов Антон выбрал «стену ассортимента». Девять отклонённых
+ * выведены из сборки, служебный переключатель ?hero=N удалён.
+ *
+ * Кадр — контрольный мастер 1200×675, не финальный: отдельные 1600×900 и
+ * 900×1600 запрошены у Codex и ещё не пришли. Выпуск на контрольном — решение
+ * Антона от 07.09.2026, записано в docs/IMAGERY-MANIFEST.md.
  *
  * Про достоверность. Все кадры — `generated-editorial`, происхождение в
  * docs/IMAGERY-MANIFEST.md. Ни один не изображает реальное производство,
@@ -26,7 +29,6 @@
 import { anchorHref, localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { beautySuppliers } from '../../data/suppliers';
-import { heroVariants, DEFAULT_HERO } from '../../data/hero-variants';
 
 interface Props {
   lang: Lang;
@@ -38,15 +40,14 @@ const b = ui[lang].beauty;
 <section class="bh" data-scene>
   <span class="bh__scene">
     <img
-      src={`/img/beauty/heroes/hero-${DEFAULT_HERO}-1200.webp`}
-      srcset={`/img/beauty/heroes/hero-${DEFAULT_HERO}-800.webp 800w, /img/beauty/heroes/hero-${DEFAULT_HERO}-1200.webp 1200w`}
+      src="/img/beauty/heroes/hero-assortment-1200.webp"
+      srcset="/img/beauty/heroes/hero-assortment-800.webp 800w, /img/beauty/heroes/hero-assortment-1200.webp 1200w"
       sizes="100vw"
       width="1200"
       height="675"
       alt=""
       fetchpriority="high"
       decoding="async"
-      data-hero-img
     />
   </span>
 
@@ -68,24 +69,6 @@ const b = ui[lang].beauty;
   </div>
 
   </section>
-
-<script is:inline define:vars={{ variants: heroVariants, fallback: DEFAULT_HERO }}>
-  /* Антон выбрал четвёртый сюжет, и видимая панель выбора убрана: своё дело
-     она сделала. Механизм `?hero=N` оставлен — по прямой ссылке можно
-     вернуться к любому из десяти и сравнить, не пересобирая сайт.
-
-     Без параметра в адресе скрипт не делает ничего: кадр по умолчанию уже
-     стоит в разметке, и переписывать его на тот же самый незачем. */
-  (() => {
-    const img = document.querySelector('[data-hero-img]');
-    if (!img) return;
-    const n = new URL(location.href).searchParams.get('hero');
-    const v = variants.find((x) => String(x.n) === String(n));
-    if (!v || v.n === fallback) return;
-    img.srcset = `/img/beauty/heroes/hero-${v.n}-800.webp 800w, /img/beauty/heroes/hero-${v.n}-1200.webp 1200w`;
-    img.src = `/img/beauty/heroes/hero-${v.n}-1200.webp`;
-  })();
-</script>
 
 <style>
   /* svh, а не vh: на телефоне адресная строка съедает часть экрана, и на vh
