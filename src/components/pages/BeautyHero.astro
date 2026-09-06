@@ -35,6 +35,10 @@ interface Props {
 }
 const { lang } = Astro.props;
 const b = ui[lang].beauty;
+/* В корейском, китайском и японском счётный суффикс пишется слитно с числом:
+   «26개», «26家», «26社». Пробел там — типографская ошибка, а не мелочь:
+   Codex поймал это при вычитке. В остальных языках пробел нужен. */
+const countGap = ['ko', 'zh', 'ja'].includes(lang) ? '' : ' ';
 ---
 
 <section class="bh" data-scene>
@@ -61,7 +65,7 @@ const b = ui[lang].beauty;
         <a class="btn btn--outline" href={anchorHref('ondemand', lang)}>{b.cta_secondary}</a>
       </div>
       <a class="btn btn--quiet bh__cat" href={localizePath('/catalog/cosmetics', lang) + '#brands'}>
-        <span class="bh__cat-n">{beautySuppliers.length}</span> {b.catalog_btn}
+        <span class="bh__cat-n">{beautySuppliers.length}</span>{countGap}{b.catalog_btn}
       </a>
     </div>
 

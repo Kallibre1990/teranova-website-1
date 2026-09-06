@@ -540,7 +540,7 @@ export const en: UIDict = {
       { title: 'A ready brand to distribute', desc: 'Korean brands and product lines you can put on the shelf. Commercial terms confirmed on request.' },
       { title: 'Your own label · OEM and ODM', desc: 'Choosing a manufacturer for your formula, volume and market: from sample to documents and shipment.' },
       { title: 'Professional line', desc: 'Range for treatment rooms and clinics: masks, ampoules, device-based care, salon programmes.' },
-      { title: 'Packaging and raw materials', desc: 'Korean-made glass, pumps, tubes and jars; standardised actives with declared purity.' },
+      { title: 'Packaging and raw materials', desc: 'Korean-made glass, pumps, tubes and jars; standardised actives with supplier-declared purity.' },
     ],
     stories_sup: 'How the catalogue works',
     stories_title: 'Eight examples from the catalogue',

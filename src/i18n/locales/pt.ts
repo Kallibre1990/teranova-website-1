@@ -537,10 +537,10 @@ export const pt: UIDict = {
     task_n: 'Objetivo',
     task_go: 'Falar sobre este objetivo →',
     tasks: [
-      { title: 'Marca pronta para distribuição', desc: 'Marcas coreanas e linhas de produto prontas para a prateleira. Condições comerciais confirmadas mediante pedido.' },
+      { title: 'Marca pronta para distribuição', desc: 'Marcas coreanas e linhas de produto adequadas à venda. As condições comerciais são confirmadas mediante solicitação.' },
       { title: 'Marca própria · OEM e ODM', desc: 'Seleção de fabricante para a sua fórmula, volume e mercado: da amostra aos documentos e ao embarque.' },
       { title: 'Linha profissional', desc: 'Sortimento para cabines e clínicas: máscaras, ampolas, cuidado com aparelhos, programas para salões.' },
-      { title: 'Embalagem e matéria-prima', desc: 'Vidro, bombas, bisnagas e potes de fabrico coreano; ativos padronizados com pureza declarada.' },
+      { title: 'Embalagem e matéria-prima', desc: 'Vidro, bombas, bisnagas e potes de fabrico coreano; ativos padronizados com pureza declarada pelo fornecedor.' },
     ],
     stories_sup: 'Como o catálogo funciona',
     stories_title: 'Oito exemplos do catálogo',
