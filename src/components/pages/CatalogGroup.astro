@@ -1,6 +1,7 @@
 ---
 import PageHead from './PageHead.astro';
 import BeautyHero from './BeautyHero.astro';
+import BeautyRoute from './BeautyRoute.astro';
 import CosmeticsContent from './CosmeticsContent.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
@@ -57,6 +58,10 @@ const statusInfo = {
 {isCosmetics && lang === 'ru'
   ? <BeautyHero lang={lang} />
   : <PageHead sup={headSup} title={headTitle} sub={headSub} deep={groupKey} />}
+
+{/* Маршрут покупателя идёт сразу за первым экраном: четыре задачи, затем
+    отобранные истории, и только потом полный каталог ниже. */}
+{isCosmetics && lang === 'ru' && <BeautyRoute lang={lang} />}
 
 {isCosmetics && <CosmeticsContent lang={lang} part="intro" />}
 

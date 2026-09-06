@@ -251,3 +251,9 @@ body[data-theme='beauty'] .logo__img--onlight { display: none !important; }
 /* ---- воздух ---- */
 body[data-theme='beauty'] .section { padding: clamp(64px, 9vw, 120px) 0; }
 body[data-theme='beauty'] .section-head { margin-bottom: clamp(40px, 5.4vw, 66px); }
+
+/* Дублирующее главное действие сразу под первым экраном убрано: первый экран
+   зовёт подобрать готовый ассортимент, и следующая же кнопка не должна тянуть
+   в свою марку. Своя марка остаётся вторым путём — в первом экране и среди
+   четырёх задач. */
+body[data-theme='beauty'] .cos-btns--top { display: none; }
