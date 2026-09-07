@@ -767,9 +767,23 @@ body[data-theme='beauty'] .bsc--company::after {
   background: linear-gradient(90deg, rgba(11,27,53,0.94) 0%, rgba(11,27,53,0.84) 40%, rgba(11,27,53,0.5) 66%, rgba(11,27,53,0.2) 88%, rgba(11,27,53,0.08) 100%);
 }
 @media (max-width: 900px) {
-  /* На узком экране текст и плашки занимают всю ширину — шторка сплошная. */
-  body[data-theme='beauty'] .bsc--company::after { background: rgba(11, 27, 53, 0.86); }
-  body[data-theme='beauty'] .bsc--company .bsc-scene { opacity: 0.2; }
+  /* Сплошная шторка 0.86 поверх сцены 0.2 давала вклад кадра около 2.8% —
+     Codex 07.09.2026 замерил это дважды. Фон был, но его не было видно.
+     Теперь шторка вертикальная: плотный бархат там, где идёт текст, и
+     открытый кадр ниже, у плашек товара и кнопки. Плашки непрозрачные, им
+     шторка не нужна. Кадр сдвинут вправо: сюжет лежит в правой части файла,
+     и при узком экране в окно попадала бы пустая левая половина. */
+  body[data-theme='beauty'] .bsc--company::after {
+    background: linear-gradient(180deg,
+      rgba(11, 27, 53, 0.93) 0%,
+      rgba(11, 27, 53, 0.88) 34%,
+      rgba(11, 27, 53, 0.62) 62%,
+      rgba(11, 27, 53, 0.34) 100%);
+  }
+  body[data-theme='beauty'] .bsc--company .bsc-scene {
+    opacity: 0.62;
+    background-position: 78% center;
+  }
 }
 body[data-theme='beauty'] .hs-b__nm {
   color: var(--b-ink) !important;
