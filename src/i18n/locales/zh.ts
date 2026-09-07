@@ -317,6 +317,8 @@ const zh: DeepPartial<UIDict> = {
       lead_routine: "居家护理四步",
       lead_pro: "专业线",
       no_positions: "品项尚未公开。产品线构成可应要求索取。",
+      in_profile: "项原料收录于档案",
+      no_shots: "原料照片未公开。规格可应要求确认。",
       articles_h: "相关文章",
       art_overview: "品类综述",
       art_actives: "活性成分",

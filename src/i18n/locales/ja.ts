@@ -309,6 +309,8 @@ const ja: DeepPartial<UIDict> = {
       lead_routine: "ホームケアの四段階",
       lead_pro: "プロ向けライン",
       no_positions: "品目は公開されていません。ライン構成はご請求に応じてお送りします。",
+      in_profile: "件の原料をプロフィールに掲載",
+      no_shots: "原料の写真は公開していません。仕様はご請求により確認します。",
       articles_h: "関連記事",
       art_overview: "カテゴリー概観",
       art_actives: "有効成分",

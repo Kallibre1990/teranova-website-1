@@ -376,6 +376,8 @@ export const en: UIDict = {
       lead_routine: "Four steps of the home routine",
       lead_pro: "Professional line",
       no_positions: "Items are not published. We send the line composition on request.",
+      in_profile: "raw-material positions in the profile",
+      no_shots: "Material photos are not published. We confirm specifications on request.",
       articles_h: "Related articles",
       art_overview: "Category overview",
       art_actives: "Active ingredients",

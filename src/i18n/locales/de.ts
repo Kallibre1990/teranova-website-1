@@ -317,6 +317,8 @@ const de: DeepPartial<UIDict> = {
       lead_routine: "Vier Schritte der Heimpflege",
       lead_pro: "Professionelle Linie",
       no_positions: "Die Produkte sind nicht veröffentlicht. Den Aufbau der Linie senden wir auf Anfrage.",
+      in_profile: "Rohstoffpositionen im Profil",
+      no_shots: "Fotos der Materialien sind nicht veröffentlicht. Spezifikationen bestätigen wir auf Anfrage.",
       articles_h: "Passende Beiträge",
       art_overview: "Überblick über die Kategorie",
       art_actives: "Wirkstoffe",

@@ -22,10 +22,26 @@
  */
 import { existsSync, mkdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
-import { join } from 'node:path';
+import { join, dirname, resolve } from 'node:path';
 
 const ROOT = process.cwd();
 const OUT = join(ROOT, 'public/img/beauty/scenes');
+
+/* Часть мастеров лежит вне сайта, в доказательствах координации: по правилу
+   манифеста мастер-PNG в сборку не попадают. Ищем каталог вверх по дереву,
+   чтобы скрипт работал и из основного чекаута, и из worktree. */
+const findEvidence = () => {
+  for (let d = ROOT; d !== dirname(d); d = dirname(d)) {
+    const c = join(d, 'AI_COORDINATION/Codex/evidence/T-20260907-010');
+    if (existsSync(c)) return c;
+  }
+  return null;
+};
+const EVIDENCE = findEvidence();
+const master = (rel) =>
+  rel.startsWith('evidence/')
+    ? (EVIDENCE ? resolve(EVIDENCE, rel.slice('evidence/'.length)) : '')
+    : join(ROOT, 'public/img/beauty', rel);
 mkdirSync(OUT, { recursive: true });
 const TMP = (process.env.TMPDIR || '/tmp/') + 'hcscn';
 mkdirSync(TMP, { recursive: true });
@@ -39,28 +55,38 @@ const VFADE = 150;         // верх и низ
 
 /* slug → [мастер, вырез из мастера, подпись для манифеста].
 
-   Соответствие кадра компании допускается только там, где оно подтверждено
-   данными самой компании. Такое здесь одно: Sunpure — куркума, у них в
-   каталоге прямо есть tetrahydrocurcumin и turmeric oil.
+   ПРАВИЛО. Узнаваемое растение рядом с названием компании читается как связь
+   этого сырья с этой компанией — пустой `alt` и оговорка в манифесте посетителю
+   не видны. Поэтому растение допускается только там, где связь подтверждена
+   опубликованными данными самой компании.
 
-   За блоком DONGDONGGURIMOO стоял корень солодки: я вывел его из фразы про
-   корейскую фитотерапию в описании линии HEEYUL. Codex 07.09.2026 показал, что
-   солодки в данных компании нет ни в каком виде, а на экране корень занимает
-   половину именно её блока — то есть догадка читается как факт о компании.
-   Заменено нейтральными складками бархата без ингредиента.
+   Такой случай один: Sunpure — куркума. В `sunpure.catalog.json` есть
+   Tetrahydrocurcumin с Curcuma Longa (Turmeric) Rhizome и Turmeric Oil.
 
-   Остальные кадры распределены по сюжету так, чтобы соседние блоки не были
-   похожи, и никакого утверждения о компании не несут. */
+   За остальными семью блоками стоят предметы и текстуры по теме страницы:
+   ампула, пипетка, гребень, аппликатор для кожи головы, пряди волос, бархат.
+   Ни один из них не утверждает ничего о компании.
+
+   История правила: сначала за DONGDONGGURIMOO стоял корень солодки — я вывел
+   его из фразы про корейскую фитотерапию, но в данных компании солодки нет.
+   Затем за RNH BIO стояли семена бабчи, потом цветы куркумы — та же ошибка в
+   меньшем масштабе. Codex 07.09.2026 потребовал убрать растения у всех семи,
+   и это правильно: половинчатая мера здесь ничего не решает.
+
+   Мастер `hair-editorial-alternate-codex-v1.png` нарисовал Codex специально под эту задачу,
+   SHA-256 637c10de6f94…4567a03, он снят на том же синем бархате, что и
+   остальные три, поэтому серия не распадается. */
 const PLAN = {
-  'ck-regeon':       ['scenes/hair-1600.webp',            '620x700+880+200',  'поднос с ампулой и пипеткой'],
-  'rnh-bio':         ['ingredients/turmeric-900.webp',    '420x380+70+70',    'цветы и листья, без корня'],
-  'dongdonggurimoo': ['scenes/hair-1600.webp',            '520x230+880+665',  'серебряный поднос и гребень'],
-  'dreamcos':        ['ingredients/licorice-900.webp',    '470x430+400+60',   'зелёные листья'],
-  'sante':           ['scenes/hair-1600.webp',            '780x700+400+40',   'волна волос'],
-  'hanscos':         ['scenes/hair-1600.webp',            '520x300+380+560',  'розмарин на бархате'],
-  'skinroom':        ['ingredients/babchi-900.webp',      '480x520+400+280',  'золотой папоротник'],
-  'sunpure':         ['ingredients/turmeric-900.webp',    '640x540+120+330',  'корень куркумы'],
+  'ck-regeon':       ['scenes/hair-1600.webp',   '260x300+1150+390', 'ампула и пипетка'],
+  'rnh-bio':         ['evidence/hair-editorial-alternate-codex-v1.png',     '330x300+1240+440', 'золотой аппликатор для кожи головы'],
+  'dongdonggurimoo': ['scenes/hair-1600.webp',   '520x230+880+665',  'серебряный поднос и гребень'],
+  'dreamcos':        ['evidence/hair-editorial-alternate-codex-v1.png',     '620x400+390+490',  'пряди волос'],
+  'sante':           ['scenes/hair-1600.webp',   '560x600+430+80',   'волна волос'],
+  'hanscos':         ['evidence/hair-editorial-alternate-codex-v1.png',     '420x460+1170+115', 'серебряный гребень'],
+  'skinroom':        ['evidence/hair-editorial-alternate-codex-v1.png',     '600x390+700+0',    'волосы на бархате'],
+  'sunpure':         ['ingredients/turmeric-900.webp', '640x540+120+330', 'корень куркумы'],
 };
+
 
 /* Маска растворения: кадр гаснет с четырёх сторон и остаётся мягким пятном.
    `gradient:` идёт сверху вниз, поэтому white-black + поворот на 90° даёт
@@ -80,7 +106,7 @@ execFileSync('magick', [hmask, vmask, '-compose', 'Multiply', '-composite', mask
 
 let n = 0;
 for (const [slug, [rel, crop, note]] of Object.entries(PLAN)) {
-  const src = join(ROOT, 'public/img/beauty', rel);
+  const src = master(rel);
   if (!existsSync(src)) { console.error(`${slug}: нет файла ${rel}`); process.exitCode = 1; continue; }
 
   /* Вырез кладём панелью в правую часть кадра, а не растягиваем на всю ширину:

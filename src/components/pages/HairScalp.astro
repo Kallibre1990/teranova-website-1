@@ -172,10 +172,14 @@ const artGroups = hairArticleGroups
         const plain = e.items.filter((i) => !i.img);
         const routine = e.routine ? e.items.filter((i) => i.step !== 'pro') : [];
         const pro = e.routine ? e.items.filter((i) => i.step === 'pro') : [];
-        /* Оговорка нужна там, где мы назвали марку по волосам, но позиций не
-           показываем: у HEEYUL линия есть, состав нам не передавали. Поставщику
-           сырья такая строка ни к чему — у него линии и нет. */
+        /* Два разных состояния, и путать их нельзя — на это указал Codex
+           07.09.2026. У HEEYUL линия есть, но состав нам не передавали: позиций
+           нет. У Sunpure наоборот — в профиле опубликованы 37 позиций сырья,
+           нет только фотографий материалов. Одна общая формулировка «позиции не
+           опубликованы» во втором случае была бы неправдой. */
         const disclose = e.items.length === 0 && Boolean(e.brand);
+        const catCount = (s.catalog ?? []).reduce((n, g) => n + g.items.length, 0);
+        const noShots = e.items.length === 0 && !e.brand && catCount > 0;
         const bc = s.brandColors;
         return (
           <section
@@ -252,6 +256,11 @@ const artGroups = hairArticleGroups
               ) : null}
 
               {disclose && <p class="hs-b__empty">{p.no_positions}</p>}
+              {noShots && (
+                <p class="hs-b__empty">
+                  <span class="hs-b__n">{catCount}</span>{countGap}{p.in_profile}. {p.no_shots}
+                </p>
+              )}
 
               <a class="hs-b__go" href={localizePath(`/catalog/${s.slug}`, lang)}>{sc.ui.more}</a>
             </div>
@@ -309,6 +318,8 @@ const artGroups = hairArticleGroups
   .lvl--dark { color: #7c8aa0; }
   /* Число компаний в тихой кнопке — золотом, как на витрине. */
   .hs-hero__n { color: var(--b-gold-lite, #dcc189); }
+  /* Счётчик позиций в оговорке — тем же приёмом, что и в кнопке. */
+  .hs-b__n { font-weight: 800; }
 
   .hs__intro { max-width: 68ch; margin-bottom: 44px; }
   .hs__lead { font-size: 1rem; color: var(--silver); line-height: 1.7; margin-top: 10px; }

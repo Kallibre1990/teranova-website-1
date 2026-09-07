@@ -363,6 +363,8 @@ export const ko: UIDict = {
       lead_routine: "홈케어 4단계",
       lead_pro: "전문가용 라인",
       no_positions: "품목은 공개되어 있지 않습니다. 라인 구성은 요청 시 보내 드립니다.",
+      in_profile: "개 원료 품목이 프로필에 있습니다",
+      no_shots: "원료 사진은 공개하지 않습니다. 사양은 요청 시 확인해 드립니다.",
       articles_h: "관련 자료",
       art_overview: "분야 개관",
       art_actives: "유효 성분",
