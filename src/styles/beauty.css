@@ -727,6 +727,43 @@ body[data-theme='beauty'] .hs-b {
   background: linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-velvet) 100%) !important;
   color: var(--b-ink) !important;
   border-top: 1px solid var(--b-line) !important;
+  /* isolation обязательна: слой сцены лежит на z-index -1 и без собственного
+     контекста наложения ушёл бы под непрозрачную заливку блока. */
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  overflow: clip;
+}
+/* Кадр за блоком компании.
+   Блоки поставщиков — самая длинная часть страницы, около двух третей
+   прокрутки, и до этой правки они шли плоской заливкой: Антон 07.09.2026 —
+   «на этом экране нет заднего фона и на заднем фоне нет параллакса».
+
+   Кадр один и тот же у всех восьми: так ни один блок не выглядит богаче
+   соседнего. Различают их точка кадрирования (`--sx`) и зеркало (`--sf`),
+   поэтому подряд идущие блоки не читаются как одна повторённая картинка.
+   Товарную мозаику сюда ставить нельзя: за блоком конкретной компании она
+   прочиталась бы как её ассортимент — утверждение, которого мы не делали. */
+body[data-theme='beauty'] .bsc--company .bsc-scene {
+  background-image: url('/img/beauty/scenes/hair-1600.webp');
+  background-position: var(--sx, 50%) center;
+  opacity: 0.15;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0) scaleX(var(--sf, 1));
+}
+/* Шторка: слева бархат почти сплошной, справа кадр открыт. Текст компании и
+   светлые плашки товара стоят слева, поэтому читаемость не страдает. */
+body[data-theme='beauty'] .bsc--company::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(11,27,53,0.94) 0%, rgba(11,27,53,0.84) 40%, rgba(11,27,53,0.5) 66%, rgba(11,27,53,0.2) 88%, rgba(11,27,53,0.08) 100%);
+}
+@media (max-width: 900px) {
+  /* На узком экране текст и плашки занимают всю ширину — шторка сплошная. */
+  body[data-theme='beauty'] .bsc--company::after { background: rgba(11, 27, 53, 0.86); }
+  body[data-theme='beauty'] .bsc--company .bsc-scene { opacity: 0.2; }
 }
 body[data-theme='beauty'] .hs-b__nm {
   color: var(--b-ink) !important;

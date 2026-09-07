@@ -57,7 +57,7 @@ if (allowMotion) {
      имеет значение по умолчанию 0; `background-attachment: fixed` не
      используется. */
   if (document.body.dataset.theme === 'beauty') {
-    const scenes = document.querySelectorAll<HTMLElement>('.bsc, .bh, .hs-link, .hs-entry');
+    const scenes = document.querySelectorAll<HTMLElement>('.bsc, .bh, .hs-hero, .hs-link, .hs-entry');
     for (const el of scenes) {
       ScrollTrigger.create({
         trigger: el,
