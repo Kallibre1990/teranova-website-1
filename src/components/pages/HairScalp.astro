@@ -85,16 +85,6 @@ const countGap = ['ko', 'zh', 'ja'].includes(lang) ? '' : ' ';
    внутри мозаики — заметнее, чем сдвиг. */
 const shelfX: Record<HairTier, string> = { brands: '16%', oem: '50%', materials: '84%' };
 
-/* Кадр за блоком компании — редакционный снимок волос, один и тот же для всех:
-   так ни один блок не выглядит богаче соседнего. Разными его делают точка
-   кадрирования и зеркало по горизонтали, поэтому восемь блоков подряд не
-   выглядят одной повторённой картинкой.
-
-   Почему именно волосы, а не товар: мозаика из товара за блоком конкретной
-   компании прочиталась бы как её ассортимент, а это утверждение, которого мы
-   не делали. Редакционный кадр волос ничего не утверждает. */
-const sceneX = ['22%', '68%', '44%', '86%'];
-
 const artTitle: Record<HairArticleGroup, string> = {
   overview: p.art_overview,
   actives: p.art_actives,
@@ -190,7 +180,7 @@ const artGroups = hairArticleGroups
         return (
           <section
             class="hs-b bsc bsc--company"
-            style={`--bb:${bc.bg}; --bd:${bc.deep}; --ba:${bc.accent}; --bk:${readable(bc.bg, [bc.sky, bc.accent, bc.deep])}; --bt:${readable('#ffffff', [bc.sky, bc.accent, bc.deep])}; --bl:${brandLine(bc)}; --sx:${sceneX[bi % sceneX.length]}; --sf:${bi % 2 ? -1 : 1}`}
+            style={`--bb:${bc.bg}; --bd:${bc.deep}; --ba:${bc.accent}; --bk:${readable(bc.bg, [bc.sky, bc.accent, bc.deep])}; --bt:${readable('#ffffff', [bc.sky, bc.accent, bc.deep])}; --bl:${brandLine(bc)}; --scene:url('/img/beauty/scenes/company-${s.slug}.webp')`}
           >
             <span class="bsc-scene" aria-hidden="true"></span>
             <div class="wrap">
