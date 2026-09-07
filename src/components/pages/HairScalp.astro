@@ -386,4 +386,10 @@ const artGroups = hairArticleGroups
     .hs-b__p--txt { min-height: 108px; }
     .hs-art__list { grid-template-columns: 1fr; }
   }
+  /* На 320px две колонки не помещаются: «Профессиональные бустеры» шире
+     колонки, и плашка вылезает за экран на 10px. Ниже 380px ставим одну. */
+  @media (max-width: 380px) {
+    .hs-map { grid-template-columns: 1fr; }
+    .hs-map__i { padding: 16px 14px; }
+  }
 </style>
