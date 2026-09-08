@@ -1,19 +1,20 @@
 {
   "content": {
     "tagline": "Kendi ürettiği eksozomlar — hammaddeden bitmiş ürüne",
-    "descriptor": "Yongin'deki Koreli biyoteknoloji firması: kendi eksozomları ve EXOLUNA markası — saç derisi bakımı, klinik seti ve güzellik merkezleri için aktivatörler",
+    "descriptor": "Yongin'den Koreli biyoteknoloji şirketi: kendi ürettiği bitkisel eksozomlar ve EXOLUNA markası — saç derisi bakımı, klinik serisi ve estetik için aktivatörler",
     "origin": "Kore",
     "about": [
-      "RNH BIO, Kore'nin Gyeonggi eyaletindeki Yongin'de bulunan bir biyoteknoloji firmasıdır. Uzmanlık alanı eksozomlardır: bunları kendi teknolojisi Multi RN-Exosome ile üretir ve aynı anda iki rolü üstlenir. Bitmiş ürün markası EXOLUNA'nın sahibidir ve aynı zamanda eksozomların kendisini formül geliştirenlere hammadde olarak tedarik eder.",
-      "Eksozomların kaynağı ikiye ayrılır. Bitkisel olanlar upcycling yoluyla, aksi halde atık olacak malzemeden elde edilir: Japon şerbetçiotu, kahve meyvesi, kamelya meyvesi, nane, pirinç ve beş tür deniz yosunu. Süt kaynaklı eksozomlar ayrı durur. Bileşimler üründen ürüne değişir ve her biri kendi işine göre seçilmiştir.",
-      "Üç ürün yönü var. EXOLUNA saç derisi bakımının perakende serisidir. EXOLUNA RX PRO klinikler için bir settir. LUNA RN-Exosome Activator güzellik merkezleri için aktivatörlerdir ve iki kademelidir: temel ve üst seri. Hepsinde ortak olan tek şey şudur: eksozomlar dondurularak kurutulmuş halde gelir ve kullanımdan hemen önce aktive edilir."
+      "RNH BIO, Gyeonggi eyaletinin Yongin şehrinde bulunan, eksozom alanında uzmanlaşmış bir Kore biyoteknoloji şirketidir. Kendi geliştirdiği Multi RN-Exosome™ teknolojisiyle bitkisel kaynaklı eksozomları doğrudan kendisi üretir. Bitmiş ürün markası EXOLUNA ile birlikte şirket, kozmetik, estetik ve saç bakımı için eksozom hammaddesi tedarik eder ve ürün geliştirme çalışmaları yürütür.",
+      "Bitkisel eksozomlar upcycling teknolojisiyle üretilir: hammadde olarak değerlendirilme oranı düşük tarım ürünleri ve işleme yan ürünleri kullanılır. Ürün yelpazesi Japon şerbetçiotu, kahve meyvesi, kamelya meyvesi, nane, pirinç ve deniz yosunu gibi çeşitli bitkisel kaynaklardan elde edilen eksozomları kapsar. Şirket, ürüne ve geliştirme amacına göre uygun eksozom hammaddesini önerebilir.",
+      "Ana ürünler EXOLUNA markası çevresinde toplanmıştır. Saç ve saç derisi bakım serisinin adı RN-Exosome™ Scalp Booster Ampoule + Activator'dır. EXOLUNA RX PRO, klinikler ve estetik merkezleri için profesyonel seridir. Estetik için dondurularak kurutulmuş RN-Exosome™ Activator, Basic Line ve High-End Line olarak ikiye ayrılır. Bitmiş ürünlerin yanı sıra şirket eksozom hammaddesi tedarik eder, siparişe göre hammadde geliştirir ve markalar ile üreticilerle birlikte ürün geliştirir."
     ],
     "facts": [
-      "Eksozomların kendi üretimi",
-      "Multi RN-Exosome teknolojisi",
-      "FDA MoCRA kaydı",
-      "Hem bitmiş ürün hem hammadde",
-      "Gyeonggi eyaleti, Yongin",
+      "Kendi ürettiği bitkisel eksozomlar",
+      "Multi RN-Exosome™ teknolojisi",
+      "Upcycling: yan ürünlerden hammadde",
+      "MoCRA: Scalp Booster kayıtlı",
+      "Bitmiş ürün ve hammadde bir arada",
+      "Yongin, Gyeonggi eyaleti",
       "2026 Seoul Beauty Week'te tanışma"
     ],
     "channels": [
@@ -24,7 +25,7 @@
     ],
     "lines": [
       {
-        "name": "EXOLUNA Scalp Booster",
+        "name": "RN-Exosome™ Scalp Booster Ampoule + Activator",
         "note": "Saç derisi bakımının perakende serisi. 60 mililitrelik ampul ve dondurularak kurutulmuş aktivatör, kullanımdan önce karıştırılıyor. Firmanın belirttiğine göre içerikte Japon şerbetçiotu, kahve meyvesi, kamelya meyvesi ve naneden oluşan dört bitkisel eksozom kompleksi ile biotin, amino asitler ve fonksiyonel bileşenler MELTANE ve kafein bulunuyor. Kullanım günde bir kez, akşam."
       },
       {
@@ -32,18 +33,18 @@
         "note": "İki flakonluk klinik seti: 2 gram dondurularak kurutulmuş eksozom ve 2 mililitrelik aktivasyon ampulü. Süt ve kamelya meyvesinden çift eksozom sistemi. Firma bunu işlem sonrası, MTS ve lazer sonrası dahil, hemen kullanım için konumlandırıyor. Firmanın belirttiği amaçlar: onarım, ton, sıkılık."
       },
       {
-        "name": "LUNA RN-Exosome Activator · Professional Basic Line",
+        "name": "RN-Exosome™ Activator · Basic Line",
         "note": "Salon için iki aktivatör. Brightening & Firming — süt ve kamelya eksozomlarıyla ton ve sıkılık. Scalp Booster — Japon şerbetçiotu ve kahve eksozomlarıyla saç derisi ve saç."
       },
       {
-        "name": "LUNA RN-Exosome Activator · High-End Special Line",
+        "name": "RN-Exosome™ Activator · High-End Line",
         "note": "Hedefe yönelik dört EXONOVA aktivatörü. PDRN Repair beş deniz yosunu eksozomu üzerine. White Glow pirinç ve süt eksozomları üzerine. EGF Firming kamelya ve kahve eksozomları üzerine. Noggin Scalp Japon şerbetçiotu, kahve, nane ve kamelya eksozomları üzerine."
       }
     ],
     "tech": [
       {
         "name": "Multi RN-Exosome",
-        "note": "Firmanın kendi teknolojisi. Eksozomlar bitkisel malzemeden upcycling yoluyla ve sütten elde edilir; bitmiş ürünlere tek tek değil, birden çok türün kompleksi olarak girer."
+        "note": "Şirketin kendi teknolojisi. Eksozomlar upcycling yöntemiyle bitkisel malzemeden elde edilir ve bitmiş ürünlere tek tek değil, birkaç türün bileşimi hâlinde katılır. Bazı bitmiş ürünler için şirket, bileşimde süt eksozomlarını da belirtmektedir."
       },
       {
         "name": "Liyofilizat artı aktivatör",
@@ -55,7 +56,7 @@
       },
       {
         "name": "MoCRA kaydı",
-        "note": "EXOLUNA serisi için firma, ABD'nin MoCRA rejiminde kaydın tamamlandığını belirtiyor. Kayıt, pazara giriş prosedürünün yerine getirildiğini doğrular; etkinliğin doğrulanması değildir."
+        "note": "Şirket, RN-Exosome™ Scalp Booster Ampoule + Activator seti için ABD MoCRA rejimi kapsamında kaydın tamamlandığını beyan etmektedir. Eylül 2026 itibarıyla kayıtlı tek ürün budur. Kayıt, ABD pazarına giriş prosedürünün tamamlandığını gösterir; etkinliğin teyidi değildir."
       }
     ],
     "formats": [
@@ -86,7 +87,7 @@
     ],
     "consentNote": "Firma 4 Eylül 2026'da adının, markasının, logosunun, görsellerinin ve materyallerinin yayımlanmasına yazılı onay verdi.",
     "seoTitle": "RNH BIO · EXOLUNA — saç derisi ve klinikler için Kore eksozomları",
-    "seoDesc": "RNH BIO, kendi eksozomlarını üreten Koreli bir firmadır. EXOLUNA markası: saç derisi bakımı, klinik RX PRO seti, salon LUNA aktivatörleri ve hammadde olarak eksozom.",
+    "seoDesc": "RNH BIO, kendi bitkisel eksozomlarını üreten Koreli bir firmadır. EXOLUNA markası: saç derisi bakımı, klinik RX PRO seti, RN-Exosome aktivatörleri ve hammadde olarak eksozom.",
     "catalog_notes": [
       "Kore sınıflandırmasında fonksiyonel kozmetik: beyan edilen iddia saç dökülmesi belirtilerinin hafifletilmesidir. Kullanım günde bir kez, akşam.",
       "",
@@ -108,7 +109,7 @@
     "catalog_h": "Ürün kataloğu",
     "tech_h": "Formül, oranlar ve testler",
     "products_h": "Ürünler",
-    "products_note": "Drop serisinin üç yoğun ampulü: ton ve pigmentasyon, bariyer ve yenilenme, nem ve yatıştırma. Her birinde oranı belirtilmiş tek bir ana etken madde var. Fiyat talep üzerine.",
+    "products_note": "EXOLUNA markasının bitmiş ürünleri ve formülasyon geliştiricileri için eksozom hammaddesi. Fiyat talep üzerine bildirilir.",
     "formats_h": "Ürün formatları",
     "export_h": "İhracat ve pazarlar",
     "terms_h": "İş birliği koşulları",
@@ -121,7 +122,7 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Testler",
-    "certs_note": "MoCRA, ABD rejiminde bir kayıttır ve firma tarafından EXOLUNA serisi için beyan edilmiştir. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır.",
+    "certs_note": "MoCRA, ABD rejimi kapsamında bir kayıttır. Şirket bunu RN-Exosome™ Scalp Booster Ampoule + Activator seti için beyan etmektedir; Eylül 2026 itibarıyla diğer ürünler kayıtlı değildir. Destekleyici belgelerin kopyaları işlem aşamasında sağlanır.",
     "gallery_h": "Ürünler ve marka fotoğrafları",
     "gallery_note": "Fotoğraflar Red Purple Blue tarafından sağlanmıştır. Fuar standı görüntülerini ve portre çekimlerini yayımlamıyoruz: kişilerin görüntü hakları yazılı olarak teyit edilmemiştir. Tedarikçi durumu: «Şirket tarafından sağlanan bilgi»."
   }

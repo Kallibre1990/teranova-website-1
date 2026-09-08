@@ -1,20 +1,21 @@
 {
   "content": {
     "tagline": "Exosomas de producción propia — de la materia prima al producto terminado",
-    "descriptor": "Empresa coreana de biotecnología de Yongin: exosomas propios y la marca EXOLUNA — cuidado del cuero cabelludo, set para clínicas y activadores para estética",
+    "descriptor": "Empresa biotecnológica coreana de Yongin: exosomas vegetales de producción propia y la marca EXOLUNA — cuidado del cuero cabelludo, línea para clínicas y activadores para estética",
     "origin": "Corea",
     "about": [
-      "RNH BIO es una empresa coreana de biotecnología con sede en Yongin, provincia de Gyeonggi. Su especialidad son los exosomas: los produce con tecnología propia, Multi RN-Exosome, y desempeña dos papeles a la vez. Es dueña de la marca de productos terminados EXOLUNA y, en paralelo, suministra los propios exosomas como materia prima a quienes desarrollan fórmulas.",
-      "Los exosomas tienen dos orígenes. Los vegetales se obtienen por upcycling, a partir de material que de otro modo sería residuo: lúpulo japonés, fruto del café, fruto de la camelia, menta piperita, arroz y cinco especies de algas. Los exosomas de leche van aparte. Las combinaciones cambian de producto a producto, cada una elegida para su tarea.",
-      "Hay tres direcciones de producto. EXOLUNA es la línea de retail para el cuero cabelludo. EXOLUNA RX PRO es un set para clínicas. LUNA RN-Exosome Activator son activadores para centros de estética, en dos niveles, básico y premium. Un rasgo los une: los exosomas se suministran liofilizados y se activan justo antes del uso."
+      "RNH BIO es una empresa biotecnológica coreana de Yongin, provincia de Gyeonggi, especializada en exosomas. Con su propia tecnología Multi RN-Exosome™ produce ella misma exosomas de origen vegetal. Junto con la marca de productos terminados EXOLUNA, la empresa suministra materia prima de exosomas para cosmética, estética y cuidado capilar, y realiza desarrollo de productos.",
+      "Los exosomas vegetales se producen mediante upcycling: la materia prima son cultivos agrícolas de bajo valor y subproductos del procesamiento. La gama abarca exosomas de distintas fuentes vegetales, entre ellas lúpulo japonés, fruto de café, fruto de camelia, menta piperita, arroz y algas. Para cada producto y objetivo de desarrollo la empresa selecciona la materia prima de exosomas adecuada.",
+      "Los productos principales se articulan en torno a la marca EXOLUNA. La línea de cuidado capilar y del cuero cabelludo se llama RN-Exosome™ Scalp Booster Ampoule + Activator. EXOLUNA RX PRO es la línea profesional para clínicas y gabinetes de estética. RN-Exosome™ Activator, un producto liofilizado para estética, se divide en Basic Line y High-End Line. Además de los productos terminados, la empresa suministra materia prima de exosomas, desarrolla materias primas a medida y desarrolla productos junto con marcas y fabricantes."
     ],
     "facts": [
-      "Exosomas de producción propia",
-      "Tecnología Multi RN-Exosome",
-      "Registro FDA MoCRA",
-      "Productos terminados y materia prima",
+      "Exosomas vegetales de producción propia",
+      "Tecnología Multi RN-Exosome™",
+      "Upcycling: materia prima de subproductos",
+      "MoCRA: Scalp Booster registrado",
+      "Producto terminado y materia prima a la vez",
       "Yongin, provincia de Gyeonggi",
-      "Encuentro en la Seoul Beauty Week 2026"
+      "Contacto en la Seoul Beauty Week 2026"
     ],
     "channels": [
       "Clínicas y consultas de dermatología",
@@ -24,7 +25,7 @@
     ],
     "lines": [
       {
-        "name": "EXOLUNA Scalp Booster",
+        "name": "RN-Exosome™ Scalp Booster Ampoule + Activator",
         "note": "La línea de retail para el cuero cabelludo. Una ampolla de 60 ml y un activador liofilizado, que se mezclan antes del uso. La empresa declara un complejo de cuatro exosomas vegetales — lúpulo japonés, fruto del café, fruto de la camelia y menta piperita — junto con biotina, aminoácidos y los ingredientes funcionales MELTANE y cafeína. Uso una vez al día, por la noche."
       },
       {
@@ -32,18 +33,18 @@
         "note": "Set para clínicas de dos viales: 2 g de exosomas liofilizados y una ampolla activadora de 2 ml. Sistema doble de exosomas — leche y fruto de la camelia. La empresa lo sitúa para uso inmediatamente después de los tratamientos, incluidos MTS y láser. Finalidades declaradas: recuperación, tono, firmeza."
       },
       {
-        "name": "LUNA RN-Exosome Activator · Professional Basic Line",
+        "name": "RN-Exosome™ Activator · Basic Line",
         "note": "Dos activadores para el salón. Brightening & Firming — exosomas de leche y camelia, para tono y firmeza. Scalp Booster — exosomas de lúpulo japonés y café, para cuero cabelludo y cabello."
       },
       {
-        "name": "LUNA RN-Exosome Activator · High-End Special Line",
+        "name": "RN-Exosome™ Activator · High-End Line",
         "note": "Cuatro activadores EXONOVA para objetivos concretos. PDRN Repair sobre exosomas de cinco algas. White Glow sobre exosomas de arroz y leche. EGF Firming sobre exosomas de camelia y café. Noggin Scalp sobre exosomas de lúpulo japonés, café, menta piperita y camelia."
       }
     ],
     "tech": [
       {
         "name": "Multi RN-Exosome",
-        "note": "Tecnología propia de la empresa. Los exosomas se obtienen de material vegetal por upcycling y de leche, y entran en los productos terminados como complejos de varios tipos, y no de uno en uno."
+        "note": "Tecnología propia de la empresa. Los exosomas se obtienen de material vegetal mediante upcycling y se incorporan a los productos terminados en complejos de varios tipos, no de uno solo. En algunos productos terminados la empresa indica además exosomas de leche en la composición."
       },
       {
         "name": "Liofilizado más activador",
@@ -55,7 +56,7 @@
       },
       {
         "name": "Registro MoCRA",
-        "note": "Para la línea EXOLUNA la empresa indica un registro completado bajo el régimen estadounidense MoCRA. Un registro confirma que se ha cumplido el procedimiento de acceso al mercado; no es una confirmación de eficacia."
+        "note": "La empresa declara el registro completado bajo el régimen estadounidense MoCRA para el set RN-Exosome™ Scalp Booster Ampoule + Activator. En septiembre de 2026 es el único producto registrado. El registro confirma que se ha cumplido el procedimiento de acceso al mercado estadounidense y no constituye una confirmación de eficacia."
       }
     ],
     "formats": [
@@ -86,7 +87,7 @@
     ],
     "consentNote": "La empresa dio su consentimiento por escrito para publicar su nombre, marca, logotipo, imágenes y materiales el 4 de septiembre de 2026.",
     "seoTitle": "RNH BIO · EXOLUNA — exosomas coreanos para cuero cabelludo y clínicas",
-    "seoDesc": "RNH BIO es un fabricante coreano de sus propios exosomas. Marca EXOLUNA: cuidado del cuero cabelludo, set clínico RX PRO, activadores LUNA para salón y exosomas como materia prima.",
+    "seoDesc": "RNH BIO es un fabricante coreano de sus propios exosomas vegetales. Marca EXOLUNA: cuidado del cuero cabelludo, set clínico RX PRO, activadores RN-Exosome y exosomas como materia prima.",
     "catalog_notes": [
       "Cosmético funcional según la clasificación coreana: la alegación declarada es el alivio de los síntomas de la caída. Uso una vez al día, por la noche.",
       "",
@@ -108,7 +109,7 @@
     "catalog_h": "Catálogo de productos",
     "tech_h": "Fórmula, concentraciones y ensayos",
     "products_h": "Productos",
-    "products_note": "Tres ampollas concentradas de la serie Drop: tono y pigmentación, barrera y renovación, hidratación y calma. Cada una lleva un activo principal con la concentración declarada. Precio a consulta.",
+    "products_note": "Productos terminados de la marca EXOLUNA y materia prima de exosomas para formuladores. Precio a consultar.",
     "formats_h": "Formatos de producto",
     "export_h": "Exportación y mercados",
     "terms_h": "Condiciones de cooperación",
@@ -121,7 +122,7 @@
     "more": "Abrir perfil →",
     "verified_suppliers": "Proveedores verificados",
     "certs_h": "Ensayos",
-    "certs_note": "MoCRA es un registro bajo el régimen estadounidense, declarado por la empresa para la línea EXOLUNA. Las copias de los documentos justificativos se facilitan en la fase de la operación.",
+    "certs_note": "MoCRA es un registro bajo el régimen estadounidense. La empresa lo declara para el set RN-Exosome™ Scalp Booster Ampoule + Activator; el resto de los artículos no está registrado a septiembre de 2026. Las copias de los documentos justificativos se facilitan en la fase de operación.",
     "gallery_h": "Productos y fotografía de marca",
     "gallery_note": "Fotografías facilitadas por Red Purple Blue. No publicamos imágenes del estand de feria ni retratos: los derechos sobre la imagen de personas no están confirmados por escrito. Estado del proveedor: «Información facilitada por la empresa»."
   }

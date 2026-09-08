@@ -1,73 +1,113 @@
 [
   {
-    "line": "EXOLUNA — Scalp Booster",
+    "line": "RN-Exosome™ Scalp Booster Ampoule + Activator",
     "items": [
       {
         "name": "EXOLUNA RN-Exosome Scalp Booster Ampoule + Activator",
         "img": "/img/suppliers/rnh-bio/products/scalp-booster-ampoule-set.jpg",
-        "volume": "ампула 60 мл + активатор",
-        "certs": ["MoCRA"],
-        "actives": ["Multi RN-Exosome (хмель японский, кофе, камелия, мята)", "Биотин", "MELTANE", "Кофеин"]
+        "volume": "60 ml ampoule + activator",
+        "certs": [
+          "MoCRA"
+        ],
+        "actives": [
+          "Multi RN-Exosome (Japanese hop, coffee, camellia, peppermint)",
+          "Biotin",
+          "MELTANE",
+          "Caffeine"
+        ]
       },
       {
         "name": "EXOLUNA RN-Exosome Scalp Booster Ampoule",
         "img": "/img/suppliers/rnh-bio/products/scalp-booster-ampoule.jpg",
-        "volume": "60 мл"
+        "volume": "60 ml"
       },
       {
-        "name": "EXOLUNA RN-Exosome Activator (лиофилизат)",
+        "name": "EXOLUNA RN-Exosome Activator (lyophilised)",
         "img": "/img/suppliers/rnh-bio/products/ampoule-and-activator.jpg"
       }
     ]
   },
   {
-    "line": "EXOLUNA RX PRO — для клиник",
+    "line": "EXOLUNA RX PRO",
     "items": [
       {
         "name": "EXOLUNA RX PRO Dual Exosome Repair Ampoule",
-        "img": "/img/suppliers/rnh-bio/products/exoluna-rn-exosome.jpg",
-        "volume": "набор 2 флакона: лиофилизат 2 г + ампула-активатор 2 мл",
-        "actives": ["Экзосомы молока", "Экзосомы плода камелии"]
+        "img": "/img/suppliers/rnh-bio/products/rx-pro-set.jpg",
+        "volume": "set of 2 vials: 2 g lyophilised exosome + 2 ml activation ampoule",
+        "actives": [
+          "Milk exosomes",
+          "Camellia fruit exosomes"
+        ]
       }
     ]
   },
   {
-    "line": "LUNA RN-Exosome Activator — Professional Basic Line",
+    "line": "RN-Exosome™ Activator — Basic Line",
     "items": [
       {
         "name": "Brightening & Firming Activator",
         "img": "/img/suppliers/rnh-bio/products/brightening-firming-activator.jpg",
-        "actives": ["Экзосомы молока и камелии", "Ниацинамид", "Пантенол", "Низкомолекулярная гиалуроновая кислота"]
+        "actives": [
+          "Milk and camellia exosomes",
+          "Niacinamide",
+          "Panthenol",
+          "Low-molecular hyaluronic acid"
+        ]
       },
       {
         "name": "Scalp Booster Activator",
         "img": "/img/suppliers/rnh-bio/products/luna-scalp-booster-activator.jpg",
-        "actives": ["Экзосомы хмеля японского и кофе", "Ниацинамид", "Пантенол", "Низкомолекулярная гиалуроновая кислота"]
+        "actives": [
+          "Japanese hop and coffee exosomes",
+          "Niacinamide",
+          "Panthenol",
+          "Low-molecular hyaluronic acid"
+        ]
       }
     ]
   },
   {
-    "line": "LUNA RN-Exosome Activator — High-End Special Line (EXONOVA)",
+    "line": "RN-Exosome™ Activator — High-End Line (EXONOVA)",
     "items": [
       {
         "name": "PDRN Repair EXONOVA",
         "img": "/img/suppliers/rnh-bio/products/pdrn-repair-exonova.jpg",
-        "actives": ["Экзосомы пяти водорослей", "PDRN", "Транспортный коллаген"]
+        "actives": [
+          "Five-seaweed exosomes",
+          "PDRN",
+          "Transport collagen"
+        ]
       },
       {
         "name": "White Glow EXONOVA",
         "img": "/img/suppliers/rnh-bio/products/white-glow-exonova.jpg",
-        "actives": ["Экзосомы риса и молока", "Арбутин", "Транексамовая кислота", "Глутатион"]
+        "actives": [
+          "Rice and milk exosomes",
+          "Arbutin",
+          "Tranexamic acid",
+          "Glutathione"
+        ]
       },
       {
         "name": "EGF Firming EXONOVA",
         "img": "/img/suppliers/rnh-bio/products/egf-firming-exonova.jpg",
-        "actives": ["Экзосомы камелии и кофе", "EGF", "FGF", "Аденозин", "NMN"]
+        "actives": [
+          "Camellia and coffee exosomes",
+          "EGF",
+          "FGF",
+          "Adenosine",
+          "NMN"
+        ]
       },
       {
         "name": "Noggin Scalp EXONOVA",
         "img": "/img/suppliers/rnh-bio/products/noggin-scalp-exonova.jpg",
-        "actives": ["Экзосомы хмеля японского, кофе, мяты и камелии", "Ноггин", "Медный пептид", "Пантенол"]
+        "actives": [
+          "Japanese hop, coffee, peppermint and camellia exosomes",
+          "Noggin",
+          "Copper peptide",
+          "Panthenol"
+        ]
       }
     ]
   }
