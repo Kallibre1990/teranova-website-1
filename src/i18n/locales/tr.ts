@@ -317,6 +317,8 @@ const tr: DeepPartial<UIDict> = {
       lead_routine: "Ev bakımının dört adımı",
       lead_pro: "Profesyonel seri",
       no_positions: "Ürünler yayımlanmadı. Seri içeriğini talep üzerine gönderiyoruz.",
+      in_profile: "hammadde kalemi profilde",
+      no_shots: "Malzeme fotoğrafları yayımlanmıyor. Spesifikasyonları talep üzerine teyit ediyoruz.",
       articles_h: "İlgili yazılar",
       art_overview: "Kategoriye genel bakış",
       art_actives: "Etken maddeler",

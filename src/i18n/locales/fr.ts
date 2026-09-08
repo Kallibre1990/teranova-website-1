@@ -309,6 +309,8 @@ const fr: DeepPartial<UIDict> = {
       lead_routine: "Quatre étapes de la routine à la maison",
       lead_pro: "Ligne professionnelle",
       no_positions: "Les produits ne sont pas publiés. Nous envoyons la composition de la ligne sur demande.",
+      in_profile: "positions de matières premières dans le profil",
+      no_shots: "Les photos des matières ne sont pas publiées. Nous confirmons les spécifications sur demande.",
       articles_h: "Articles liés",
       art_overview: "Panorama de la catégorie",
       art_actives: "Actifs",

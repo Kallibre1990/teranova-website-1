@@ -587,3 +587,298 @@ body[data-theme='beauty'] .btn--quiet:focus-visible {
     gap: 10px;
   }
 }
+
+/* ============================================================
+   Подборка «Волосы и кожа головы»
+   Та же система, что на витрине: бархат, серебро, глубокое золото.
+   Решение Антона от 07.09.2026 — перестроить страницу целиком, а не
+   только верх: иначе между верхом и низом виден шов двух разных сайтов.
+   ============================================================ */
+
+/* ---- сцена раздела «волосы» ----
+   Сюжеты строго по теме страницы: волосы, уход за кожей головы, растительные
+   активы. Никаких производственных кадров — на витрине мы этот урок уже
+   прошли. */
+body[data-theme='beauty'] .bsc--hair .bsc-scene { background-image: url('/img/beauty/scenes/hair-1600.webp'); }
+/* Полка средств для волос — scripts/hair-scenes.mjs, только настоящие снимки
+   товара из этой подборки. Общие сцены витрины (care/launch/actives) сюда не
+   годятся: там тональные кремы и солнцезащита, а страница про волосы. */
+/* Короткие полосы — разделитель уровня и финальный призыв, около 300px каждая.
+   Липкая сцена на 100svh растянула бы мозаику втрое: в кадре остался бы один
+   огромный размытый флакон вместо полки. Поэтому здесь подложка живёт по
+   высоте самой полосы, без параллакса — двигать нечего. */
+body[data-theme='beauty'] .bsc--shelf .bsc-scene,
+body[data-theme='beauty'] .bsc--hairend .bsc-scene {
+  position: absolute;
+  inset: 0;
+  height: auto;
+  margin-bottom: 0;
+  transform: none;
+  will-change: auto;
+  opacity: 0.26;
+}
+body[data-theme='beauty'] .bsc--shelf .bsc-scene {
+  background-image: url('/img/beauty/scenes/hair-shelf-a.webp');
+  background-position: var(--sx, 50%) center;
+}
+body[data-theme='beauty'] .bsc--hairend .bsc-scene {
+  background-image: url('/img/beauty/scenes/hair-shelf-b.webp');
+  background-position: 30% center;
+}
+/* Шторка под текстом: слева бархат почти сплошной, справа полка видна. Без неё
+   заголовок и объяснение стоят прямо на флаконах и читаются с усилием. */
+body[data-theme='beauty'] .bsc--shelf::after,
+body[data-theme='beauty'] .bsc--hairend::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(11,27,53,0.95) 0%, rgba(11,27,53,0.86) 34%, rgba(11,27,53,0.46) 60%, rgba(11,27,53,0.14) 84%, transparent 100%);
+}
+/* У призыва действие стоит справа, поэтому шторка гуще с обеих сторон. */
+body[data-theme='beauty'] .bsc--hairend::after {
+  background: linear-gradient(90deg, rgba(11,27,53,0.95) 0%, rgba(11,27,53,0.84) 38%, rgba(11,27,53,0.55) 62%, rgba(11,27,53,0.72) 88%, rgba(11,27,53,0.9) 100%);
+}
+@media (max-width: 820px) {
+  /* На телефоне текст занимает всю ширину — шторка становится сплошной. */
+  body[data-theme='beauty'] .bsc--shelf::after,
+  body[data-theme='beauty'] .bsc--hairend::after {
+    background: rgba(11, 27, 53, 0.84);
+  }
+}
+/* Статьи — длинный блок, здесь липкая сцена работает как на витрине. Берём
+   полку A и её дальний край: у полки B в этом месте самый пёстрый кадр, а под
+   текстом карточек нужна спокойная подложка. */
+body[data-theme='beauty'] .bsc--hairart .bsc-scene {
+  background-image: url('/img/beauty/scenes/hair-shelf-a.webp');
+  background-position: 82% center;
+  opacity: 0.16;
+}
+
+/* ---- первый экран подборки ---- */
+body[data-theme='beauty'] .hs-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  overflow: clip;
+  display: flex;
+  align-items: center;
+  min-height: clamp(460px, 62svh, 620px);
+  padding: clamp(28px, 4vw, 56px) 0 clamp(32px, 4vw, 64px);
+  background: var(--b-velvet);
+}
+body[data-theme='beauty'] .hs-hero__scene { position: absolute; inset: 0; z-index: -2; display: block; }
+body[data-theme='beauty'] .hs-hero__scene img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center 38%;
+  display: block;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 3%), 0) scale(1.04);
+  will-change: transform;
+}
+/* Кадр нарисован с человеком слева и спокойным полем справа, поэтому шторка
+   идёт справа налево — зеркально витрине, где сюжет стоит справа. */
+body[data-theme='beauty'] .hs-hero::before {
+  content: '';
+  position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, rgba(7,18,36,0.92) 0%, rgba(7,18,36,0.8) 36%, rgba(7,18,36,0.4) 58%, rgba(7,18,36,0.1) 78%, transparent 92%);
+}
+body[data-theme='beauty'] .hs-hero__wrap { position: relative; z-index: 1; width: 100%; }
+body[data-theme='beauty'] .hs-hero__sup {
+  display: block;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--b-gold);
+}
+body[data-theme='beauty'] .hs-hero__h {
+  font-size: clamp(1.9rem, 4vw, 3.2rem); font-weight: 800;
+  letter-spacing: -0.035em; line-height: 1.05;
+  color: var(--b-ink); margin: 14px 0 0; max-width: 17ch; text-wrap: balance;
+}
+body[data-theme='beauty'] .hs-hero__d {
+  font-size: clamp(0.98rem, 1.1vw, 1.08rem); line-height: 1.6;
+  color: var(--b-sub); margin: 16px 0 0; max-width: 44ch;
+}
+body[data-theme='beauty'] .hs-hero__acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: clamp(20px, 2.4vw, 28px); }
+
+@media (max-width: 820px) {
+  body[data-theme='beauty'] .hs-hero { align-items: flex-start; min-height: min(74svh, 600px); }
+  body[data-theme='beauty'] .hs-hero__scene img { object-position: center 30%; }
+  body[data-theme='beauty'] .hs-hero::before {
+    background: linear-gradient(180deg, rgba(7,18,36,0.92) 0%, rgba(7,18,36,0.86) 46%, rgba(7,18,36,0.6) 68%, rgba(7,18,36,0.28) 88%, transparent 100%);
+  }
+  body[data-theme='beauty'] .hs-hero__acts { width: 100%; }
+  body[data-theme='beauty'] .hs-hero__acts .btn { flex: 1 1 auto; justify-content: center; }
+}
+@media (max-width: 460px) {
+  body[data-theme='beauty'] .hs-hero__acts { flex-direction: column; }
+  body[data-theme='beauty'] .hs-hero__acts .btn { width: 100%; }
+}
+
+/* ---- блок поставщика в подборке ----
+   Правило Антона от 07.09.2026: единая бархатная основа, серебро на границах
+   и второстепенном тексте, глубокое золото на действии. Фирменный цвет марки
+   живёт одной линией у названия — `--bl`, он считается в компоненте по
+   контрасту к бархату и подменяется серебром, если нечитаем.
+
+   Прежде каждый блок красился в собственную гамму поставщика целиком: своя
+   заливка, своя верхняя полоса, свой цвет текста. На бархате это дало бы
+   лоскутное одеяло и неравенство компаний — у кого ярче палитра, тот громче. */
+body[data-theme='beauty'] .hs-b {
+  background: linear-gradient(180deg, var(--b-navy-2) 0%, var(--b-velvet) 100%) !important;
+  color: var(--b-ink) !important;
+  border-top: 1px solid var(--b-line) !important;
+  /* isolation обязательна: слой сцены лежит на z-index -1 и без собственного
+     контекста наложения ушёл бы под непрозрачную заливку блока. */
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  overflow: clip;
+}
+/* Кадр за блоком компании.
+   Блоки поставщиков — самая длинная часть страницы, около двух третей
+   прокрутки, и до этой правки они шли плоской заливкой: Антон 07.09.2026 —
+   «на этом экране нет заднего фона и на заднем фоне нет параллакса».
+
+   У каждой компании свой кадр — требование Антона 07.09.2026: «не должны быть
+   одни и те же фото на заднем фоне». Восемь сюжетов нарезаны из четырёх наших
+   редакционных мастеров, снятых на одном и том же синем бархате, поэтому кадры
+   разные, а серия одна (`scripts/hair-company-scenes.mjs`). Имя файла приходит
+   из разметки переменной `--scene`, чтобы не держать здесь восемь правил.
+
+   Кадры уже притемнены и растворены по краям при сборке, поэтому непрозрачность
+   здесь высокая: гасить второй раз означало бы получить серое пятно.
+
+   Товарную мозаику сюда ставить нельзя: за блоком конкретной компании она
+   прочиталась бы как её ассортимент — утверждение, которого мы не делали. */
+body[data-theme='beauty'] .bsc--company .bsc-scene {
+  background-image: var(--scene, url('/img/beauty/scenes/hair-1600.webp'));
+  background-position: center;
+  opacity: 0.5;
+  transform: translate3d(0, calc(var(--bsc-y, 0) * 2%), 0);
+}
+/* Шторка: слева бархат почти сплошной, справа кадр открыт. Текст компании и
+   светлые плашки товара стоят слева, поэтому читаемость не страдает. */
+body[data-theme='beauty'] .bsc--company::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(11,27,53,0.94) 0%, rgba(11,27,53,0.84) 40%, rgba(11,27,53,0.5) 66%, rgba(11,27,53,0.2) 88%, rgba(11,27,53,0.08) 100%);
+}
+@media (max-width: 900px) {
+  /* Сплошная шторка 0.86 поверх сцены 0.2 давала вклад кадра около 2.8% —
+     Codex 07.09.2026 замерил это дважды. Фон был, но его не было видно.
+     Теперь шторка вертикальная: плотный бархат там, где идёт текст, и
+     открытый кадр ниже, у плашек товара и кнопки. Плашки непрозрачные, им
+     шторка не нужна. Кадр сдвинут вправо: сюжет лежит в правой части файла,
+     и при узком экране в окно попадала бы пустая левая половина. */
+  body[data-theme='beauty'] .bsc--company::after {
+    background: linear-gradient(180deg,
+      rgba(11, 27, 53, 0.93) 0%,
+      rgba(11, 27, 53, 0.88) 34%,
+      rgba(11, 27, 53, 0.62) 62%,
+      rgba(11, 27, 53, 0.34) 100%);
+  }
+  body[data-theme='beauty'] .bsc--company .bsc-scene {
+    opacity: 0.62;
+    background-position: 78% center;
+  }
+}
+body[data-theme='beauty'] .hs-b__nm {
+  color: var(--b-ink) !important;
+  /* Та самая деталь: короткая линия фирменного цвета над названием. */
+  padding-top: 14px;
+  border-top: 3px solid var(--bl, var(--b-silver));
+  display: inline-block;
+}
+body[data-theme='beauty'] .hs-b__br { color: var(--bl, var(--b-silver)) !important; }
+body[data-theme='beauty'] .hs-b__note { color: var(--b-sub) !important; opacity: 1 !important; }
+body[data-theme='beauty'] .hs-b__h { color: var(--b-gold) !important; }
+body[data-theme='beauty'] .hs-b__geo,
+body[data-theme='beauty'] .hs-b__empty { color: rgba(203, 212, 224, 0.66) !important; }
+
+/* Плашка товара — светлая, как в каталоге: снимки сняты на белом, и на
+   бархате они смотрятся вырезанными. Рамка серебряная, а не цветная. */
+body[data-theme='beauty'] .hs-b__p {
+  background: var(--b-pad) !important;
+  border-color: rgba(203, 212, 224, 0.28) !important;
+}
+body[data-theme='beauty'] .hs-b__p--txt {
+  background: rgba(255, 255, 255, 0.045) !important;
+  border-color: var(--b-line) !important;
+}
+body[data-theme='beauty'] .hs-b__p--txt .hs-b__pn { color: var(--b-ink) !important; }
+body[data-theme='beauty'] .hs-b__p--txt .hs-b__pv { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .hs-b__rule { background: var(--bl, var(--b-silver)) !important; }
+body[data-theme='beauty'] .hs-b__num {
+  background: var(--b-velvet) !important;
+  color: var(--b-gold-lite) !important;
+  border: 1px solid var(--b-line-strong) !important;
+}
+
+/* Переход в профиль — тихая кнопка, а не цветная ссылка. */
+body[data-theme='beauty'] .hs-b__go {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 0 22px; margin-top: 28px;
+  border-radius: 4px;
+  font-weight: 700;
+  color: var(--b-silver) !important;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--b-line);
+  transition: border-color .2s var(--ease), color .2s var(--ease), background .2s var(--ease);
+}
+body[data-theme='beauty'] .hs-b__go:hover {
+  border-color: var(--b-gold);
+  color: var(--b-gold-lite) !important;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* ---- остальные части подборки ---- */
+body[data-theme='beauty'] .hs__lead,
+body[data-theme='beauty'] .hs__tnote,
+body[data-theme='beauty'] .hs__cta-p { color: var(--b-sub) !important; }
+body[data-theme='beauty'] .hs-map__i {
+  background: rgba(255, 255, 255, 0.045) !important;
+  border-color: var(--b-line) !important;
+}
+body[data-theme='beauty'] .hs-map__n { color: var(--b-gold-lite) !important; }
+body[data-theme='beauty'] .hs-map__l { color: var(--b-sub) !important; }
+
+/* ---- финальный призыв ----
+   Текст слева, действие справа — как на витрине. На узком экране кнопка
+   уходит под текст и занимает всю ширину: правило .btn общее для темы. */
+body[data-theme='beauty'] .hs__cta-h { color: var(--b-ink) !important; }
+
+/* ---- статьи ----
+   Раньше это была светлая секция: белый фон, кобальтовые ссылки, голубые
+   рамки. Именно на ней и был виден шов между бархатным верхом и прежним
+   низом — Codex 07.09.2026: «нижняя часть возвращается к старой светло-синей
+   стилистике». Переводим в ту же систему, что и карточки витрины. */
+body[data-theme='beauty'] .hs-art { background: transparent !important; }
+body[data-theme='beauty'] .hs-art .lvl--dark { color: var(--b-gold) !important; }
+body[data-theme='beauty'] .hs-art__gh {
+  color: var(--b-silver-bright) !important;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+body[data-theme='beauty'] .hs-art__list a {
+  background: var(--b-surface);
+  border-color: var(--b-line) !important;
+  transition: border-color .2s var(--ease), background .2s var(--ease);
+}
+body[data-theme='beauty'] .hs-art__list a:hover {
+  border-color: var(--b-line-strong) !important;
+  background: var(--b-surface-2);
+  box-shadow: none !important;
+}
+body[data-theme='beauty'] .hs-art__t { color: var(--b-silver-bright) !important; }
+body[data-theme='beauty'] .hs-art__list a:hover .hs-art__t { color: var(--b-gold-lite) !important; }
+body[data-theme='beauty'] .hs-art__x { color: var(--b-sub) !important; }
+
+/* ---- ссылка «весь каталог» вверху ----
+   Кобальт из светлой темы на бархате читается как чернильное пятно. */
+body[data-theme='beauty'] .hs .back { color: var(--b-silver) !important; }
+body[data-theme='beauty'] .hs .back:hover { color: var(--b-gold-lite) !important; }
+body[data-theme='beauty'] .hs .lvl { color: var(--b-gold) !important; }
+body[data-theme='beauty'] .hs-t .lvl { color: var(--b-gold) !important; }

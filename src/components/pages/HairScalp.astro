@@ -15,12 +15,11 @@
    Подставлять чужие фотографии или выдумывать позиции нельзя.
 
    Тексты лежат в словарях, состав — в data/hair-scalp.ts. */
-import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { hairScalp, hairTiers, hairSteps, stepCount, hairArticleGroups, type HairTier, type HairArticleGroup } from '../../data/hair-scalp';
-import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierBySlug, supplierContent, beautySuppliers } from '../../data/suppliers';
 import { postBySlug, postContent } from '../../data/blog';
 
 interface Props {
@@ -66,6 +65,26 @@ const ratio = (a: string, b: string): number => {
 const readable = (bg: string, cands: string[]): string =>
   cands.find((c) => ratio(c, bg) >= 3.5) ?? cands[cands.length - 1];
 
+/* Цвет марки на бархате.
+   Решение Антона от 07.09.2026: фирменный цвет остаётся одной короткой
+   деталью — линией у названия. Слишком яркие приглушаем, нечитаемые заменяем
+   серебром. Поэтому берём первый цвет марки, который даёт хотя бы 3:1 к
+   бархату; если ни один не даёт — ставим серебро, а не «почти невидимое
+   пятно, но зато фирменное». */
+const VELVET = '#0b1b35';
+const SILVER = '#cbd4e0';
+const brandLine = (bc: { deep: string; sky: string; accent: string }): string =>
+  [bc.accent, bc.sky, bc.deep].find((c) => ratio(c, VELVET) >= 3) ?? SILVER;
+
+/* В корейском, китайском и японском между числом и словом пробела нет:
+   «26 개 기업 수록» читается как опечатка. Тот же приём, что в BeautyHero. */
+const countGap = ['ko', 'zh', 'ja'].includes(lang) ? '' : ' ';
+
+/* Одна честная полка на три разделителя: каждый показывает свой её участок.
+   Три отдельные картинки из одних и тех же двадцати кадров дали бы повторы
+   внутри мозаики — заметнее, чем сдвиг. */
+const shelfX: Record<HairTier, string> = { brands: '16%', oem: '50%', materials: '84%' };
+
 const artTitle: Record<HairArticleGroup, string> = {
   overview: p.art_overview,
   actives: p.art_actives,
@@ -76,10 +95,38 @@ const artGroups = hairArticleGroups
   .filter((g) => g.posts.length > 0);
 ---
 
-<PageHead sup={p.sup} title={p.title} sub={p.sub} deep="cosmetics" />
+{/* Первый экран в бархатной системе. PageHead не трогаем: он общий для
+    всех категорий, и менять его ради одной страницы значит менять их все.
+    Заголовок здесь единственный h1 на странице — как и было. */}
+<section class="hs-hero">
+  <span class="hs-hero__scene">
+    <img
+      src="/img/beauty/scenes/hair-1600.webp"
+      srcset="/img/beauty/scenes/hair-900.webp 900w, /img/beauty/scenes/hair-1600.webp 1600w"
+      sizes="100vw"
+      width="1600"
+      height="900"
+      alt=""
+      fetchpriority="high"
+      decoding="async"
+    />
+  </span>
+  <div class="wrap hs-hero__wrap">
+    <span class="hs-hero__sup">{p.sup}</span>
+    <h1 class="hs-hero__h">{p.title}</h1>
+    <p class="hs-hero__d">{p.sub}</p>
+    <div class="hs-hero__acts">
+      <a class="btn btn--primary" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
+      <a class="btn btn--quiet" href={localizePath('/catalog/cosmetics', lang)}>
+        <span class="hs-hero__n">{beautySuppliers.length}</span>{countGap}{t.beauty.catalog_btn}
+      </a>
+    </div>
+  </div>
+</section>
 
 {/* Заявка: что закрываем */}
-<section class="section section--navy hs">
+<section class="section section--navy hs bsc bsc--hair">
+  <span class="bsc-scene" aria-hidden="true"></span>
   <Atmosphere variant="dark" />
   <div class="wrap">
     <a class="back" href={localizePath('/catalog', lang)}>
@@ -110,7 +157,8 @@ const artGroups = hairArticleGroups
   if (!list.length) return null;
   return (
     <>
-      <section class="section section--navy hs-t">
+      <section class="section section--navy hs-t bsc bsc--shelf" style={`--sx:${shelfX[tier]}`}>
+        <span class="bsc-scene" aria-hidden="true"></span>
         <Atmosphere variant="dark" />
         <div class="wrap">
           <h2 class="lvl">{tierTitle[tier]}</h2>
@@ -118,22 +166,27 @@ const artGroups = hairArticleGroups
         </div>
       </section>
 
-      {list.map(({ e, s }) => {
+      {list.map(({ e, s }, bi) => {
         const sc = supplierContent(s, lang);
         const shots = e.items.filter((i) => i.img);
         const plain = e.items.filter((i) => !i.img);
         const routine = e.routine ? e.items.filter((i) => i.step !== 'pro') : [];
         const pro = e.routine ? e.items.filter((i) => i.step === 'pro') : [];
-        /* Оговорка нужна там, где мы назвали марку по волосам, но позиций не
-           показываем: у HEEYUL линия есть, состав нам не передавали. Поставщику
-           сырья такая строка ни к чему — у него линии и нет. */
+        /* Два разных состояния, и путать их нельзя — на это указал Codex
+           07.09.2026. У HEEYUL линия есть, но состав нам не передавали: позиций
+           нет. У Sunpure наоборот — в профиле опубликованы 37 позиций сырья,
+           нет только фотографий материалов. Одна общая формулировка «позиции не
+           опубликованы» во втором случае была бы неправдой. */
         const disclose = e.items.length === 0 && Boolean(e.brand);
+        const catCount = (s.catalog ?? []).reduce((n, g) => n + g.items.length, 0);
+        const noShots = e.items.length === 0 && !e.brand && catCount > 0;
         const bc = s.brandColors;
         return (
           <section
-            class="hs-b"
-            style={`--bb:${bc.bg}; --bd:${bc.deep}; --ba:${bc.accent}; --bk:${readable(bc.bg, [bc.sky, bc.accent, bc.deep])}; --bt:${readable('#ffffff', [bc.sky, bc.accent, bc.deep])}`}
+            class="hs-b bsc bsc--company"
+            style={`--bb:${bc.bg}; --bd:${bc.deep}; --ba:${bc.accent}; --bk:${readable(bc.bg, [bc.sky, bc.accent, bc.deep])}; --bt:${readable('#ffffff', [bc.sky, bc.accent, bc.deep])}; --bl:${brandLine(bc)}; --scene:url('/img/beauty/scenes/company-${s.slug}.webp')`}
           >
+            <span class="bsc-scene" aria-hidden="true"></span>
             <div class="wrap">
               <div class="hs-b__top">
                 <span class={`badge ${statusInfo[s.status].cls}`}><span class="dot" />{statusInfo[s.status].label}</span>
@@ -203,6 +256,11 @@ const artGroups = hairArticleGroups
               ) : null}
 
               {disclose && <p class="hs-b__empty">{p.no_positions}</p>}
+              {noShots && (
+                <p class="hs-b__empty">
+                  <span class="hs-b__n">{catCount}</span>{countGap}{p.in_profile}. {p.no_shots}
+                </p>
+              )}
 
               <a class="hs-b__go" href={localizePath(`/catalog/${s.slug}`, lang)}>{sc.ui.more}</a>
             </div>
@@ -213,7 +271,8 @@ const artGroups = hairArticleGroups
   );
 })}
 
-<section class="section section--navy hs">
+<section class="section section--navy hs bsc bsc--hairend">
+  <span class="bsc-scene" aria-hidden="true"></span>
   <Atmosphere variant="dark" />
   <div class="wrap">
     <div class="hs__cta">
@@ -227,7 +286,8 @@ const artGroups = hairArticleGroups
 </section>
 
 {artGroups.length > 0 && (
-  <section class="section hs-art">
+  <section class="section section--navy hs-art bsc bsc--hairart">
+    <span class="bsc-scene" aria-hidden="true"></span>
     <div class="wrap">
       <h2 class="lvl lvl--dark">{p.articles_h}</h2>
       {artGroups.map((g) => (
@@ -256,6 +316,10 @@ const artGroups = hairArticleGroups
   .back { display: inline-flex; align-items: center; gap: 7px; font-size: 0.86rem; font-weight: 700; color: var(--cobalt-light); margin-bottom: 26px; }
   .lvl { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--silver-muted); margin-bottom: 12px; }
   .lvl--dark { color: #7c8aa0; }
+  /* Число компаний в тихой кнопке — золотом, как на витрине. */
+  .hs-hero__n { color: var(--b-gold-lite, #dcc189); }
+  /* Счётчик позиций в оговорке — тем же приёмом, что и в кнопке. */
+  .hs-b__n { font-weight: 800; }
 
   .hs__intro { max-width: 68ch; margin-bottom: 44px; }
   .hs__lead { font-size: 1rem; color: var(--silver); line-height: 1.7; margin-top: 10px; }
@@ -333,5 +397,11 @@ const artGroups = hairArticleGroups
     .hs-b__p--wide { flex: 1 1 100%; flex-direction: column; align-items: flex-start; gap: 14px; }
     .hs-b__p--txt { min-height: 108px; }
     .hs-art__list { grid-template-columns: 1fr; }
+  }
+  /* На 320px две колонки не помещаются: «Профессиональные бустеры» шире
+     колонки, и плашка вылезает за экран на 10px. Ниже 380px ставим одну. */
+  @media (max-width: 380px) {
+    .hs-map { grid-template-columns: 1fr; }
+    .hs-map__i { padding: 16px 14px; }
   }
 </style>
