@@ -11,7 +11,7 @@
     ],
     "facts": [
       "SkinRoom Co., Ltd., Seul, Gangdong ilçesi; marka MAOOM",
-      "Satıştaki yedi ürün: üç Skin Boosting ürünü, Therma V Serum, ReFit Mask, glAHAssy 3 Cream ve Perfect Radiance cushion",
+      "Satıştaki altı ürün: üç Skin Boosting ürünü, Therma V Serum, ReFit Mask ve glAHAssy 3 Cream",
       "Altı ürün CPNP'de bildirilmiş, bildirimler 27.07.2026 tarihli",
       "Kendi Skin Liposomal NAD+ kompleksi — şirket beyanı",
       "Çift katmanlı termal dispersiyon — şirket beyanı",
@@ -41,10 +41,6 @@
       {
         "name": "glAHAssy 3 Cream, 50 ml",
         "note": "Peeling etkili gece kremi. Şirket bu ürün için akne üzerine klinik çalışmaların tamamlandığını bildiriyor. Hedefi, gündüz kısıtlaması olmadan peeling isteyen alıcı."
-      },
-      {
-        "name": "Perfect Radiance Cushion, ana ürün ve yedek",
-        "note": "Serinin tek makyaj ürünü, yedek ile set halinde veriliyor. Şirket dışı pürüzsüz, içi nemlendirici diye tanımlıyor. Bu ürün CPNP bildirim setine dâhil değil."
       }
     ],
     "tech": [
