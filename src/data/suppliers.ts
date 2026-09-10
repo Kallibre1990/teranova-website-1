@@ -1443,12 +1443,9 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/hanscos/gallery/production-line.jpg',
       '/img/suppliers/hanscos/gallery/box-production-1.jpg',
       '/img/suppliers/hanscos/gallery/box-production-2.jpg',
-      '/img/suppliers/hanscos/gallery/set-box-black.jpg',
       '/img/suppliers/hanscos/gallery/gift-sets.jpg',
       '/img/suppliers/hanscos/gallery/hans-labelle-store.jpg',
       '/img/suppliers/hanscos/gallery/mask-pack-range.jpg',
-      '/img/suppliers/hanscos/gallery/oem-centella-line.jpg',
-      '/img/suppliers/hanscos/gallery/oem-ampoule-set.jpg',
       '/img/suppliers/hanscos/gallery/skincare-still.jpg',
     ],
     termsFile: {
