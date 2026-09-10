@@ -88,11 +88,11 @@
       },
       {
         "label": "Preise",
-        "value": "Preis auf Anfrage. Uns liegt die Preisliste des Unternehmens mit Mindestmengen vor, veröffentlicht wird sie nicht. Die tatsächlichen Konditionen erhält der Käufer in der Abschlussphase über Teranova, getrennt ausgewiesen von den Kosten unserer Leistungen."
+        "value": "Preise und Mindestmengen sind für jeden Artikel im Katalog veröffentlicht: Die Zahl ist der FOB-Korea-Stückpreis bei Mindestbestellmenge in US-Dollar gemäß der Preisliste des Unternehmens von August 2026. Die Kosten unserer Leistungen sind darin nicht enthalten und werden gesondert ausgewiesen."
       },
       {
         "label": "Mindestbestellmenge",
-        "value": "Je Artikel ist eine Mindestmenge festgelegt, gezählt wird in Kartons. Genaue Werte nennen wir zur konkreten Liste in der Anfragephase."
+        "value": "Die Mindestmenge ist je Artikel festgelegt und wird in Kartons gerechnet: von 80 Stück bei Maske und Seife bis 1.000 beim Probenset. Die genaue Zahl steht auf der Karte jedes Produkts."
       },
       {
         "label": "Unterlagen",
@@ -110,6 +110,7 @@
       "Principle Natural Rich Hydrated Toner — hochkonzentrierter Toner auf Süßholzextrakt und Hyaluronsäure. Das Unternehmen gibt Feuchtigkeit und Beruhigung an. Irritationsindex im Laborbericht: 0,00.",
       "Principle Natural Rich Hydrated Serum — Serum mit angegebenen 30 Prozent Hyaluronsäure. Nach Beschreibung des Unternehmens erhöht es die Geschmeidigkeit der Haut und wirkt kühlend. Index im Bericht: 0,00.",
       "Principle Natural Rich Hydrated Cream — Creme mit Guajazulen und Peptidkomplex. Das Unternehmen gibt Fett-Feuchtigkeits-Balance, Arbeit an Fältchen und Aufhellung an; Ceramide und Hyaluronsäure halten die Feuchtigkeit. Index im Bericht: 0,00.",
+      "Principle Series Sachet Set — ein Probenset der PRINCIPLE-Linie: Toner, Serum und Creme zu je 1,5 g. Das Unternehmen bietet es als bequeme Möglichkeit an, die Linie vor der Hauptbestellung zu zeigen.",
       "CicaPine Forest Needle Energy Serum — Serum auf Phytosterolen der grünen Kiefer und Centella von Jeju. Das Unternehmen nennt das patentierte Verfahren FLEX_some™, verfeinerte Poren und eine wiederhergestellte Hautbalance.",
       "CicaPine Calming & Pore Repair Balancing Gel Cream — Gelcreme auf dem Wirkstoff CICAPINE™ aus Kiefer und Centella. Nach Beschreibung des Unternehmens beruhigt sie die Haut, während Orthosiphon-Extrakt die Porenpflege unterstützt.",
       "CicaPine Micellar Acne Foam Cleanser — Schaumreiniger nach mizellarem Prinzip. Das Unternehmen gibt an, dass Kiefernnadel Ablagerungen aus den Poren löst und die Haut nach der Reinigung feucht bleibt.",
@@ -120,7 +121,8 @@
       "PCL NMN Lifting Eye Cream — Augencreme auf PCL und NMN. Das Unternehmen stellt sie als ein Produkt für mehrere Anliegen der Augenpartie vor: Lifting, Augenringe und Teint.",
       "NAD PDRN Jelly Lip Mask — Lippenmaske für die Nacht in Gelee-Textur auf NAD und PDRN. Das Unternehmen gibt drei Aufgaben zugleich an — Peeling, Feuchtigkeit und Volumen — dazu einen Schutzfilm auf den Lippen.",
       "PDRN Dark Spot Gel — leichtes Gel gegen Pigmentflecken und Aknemale, für Gesicht und Körper. Das Unternehmen gibt eine Doppelwirkung an, Regeneration und Aufhellung, in einer Rezeptur für empfindliche Haut.",
-      "White Vita Aqua Shield Sun Screen — Sonnenschutz mit SPF50 PA++++, Vitamin E und Hyaluronsäure. Chemische Filter, leichte, nicht klebende Textur."
+      "White Vita Aqua Shield Sun Screen — Sonnenschutz mit SPF50 PA++++, Vitamin E und Hyaluronsäure. Chemische Filter, leichte, nicht klebende Textur.",
+      "Black Oat Gold Hydrogel Cleansing Soap — eine Hydrogel-Reinigungsseife auf Basis von Schwarzhafer, mit Aufschäumnetz geliefert. Sie wiegt trocken 40 g und feucht 110 g. Das Unternehmen gibt eine antioxidative und feuchtigkeitsspendende Wirkung sowie einen Phyto-DNA™-Komplex an."
     ]
   },
   "ui": {
@@ -144,7 +146,7 @@
     "more": "Profil öffnen →",
     "verified_suppliers": "Geprüfte Lieferanten",
     "certs_h": "Patente und Prüfungen",
-    "certs_note": "Der Wert 0,00 bei der Linie PRINCIPLE ist der Irritationsindex aus unterzeichneten Berichten des Human Co., Ltd. Skin Clinical Trial Center vom 27.09.2023; die Kopien liegen uns vor. Der vegane Status, die Rezepturpatente und der SPF sind Angaben des Unternehmens; Unterlagen werden dem Käufer auf Anfrage bereitgestellt.",
+    "certs_note": "Der Wert 0,00 bei der PRINCIPLE-Linie ist der Irritationsindex aus den unterzeichneten Berichten des Human Co., Ltd. Skin Clinical Trial Center vom 27.09.2023; die Kopien liegen uns vor. Der vegane Status von Toner, Serum und Creme der PRINCIPLE-Linie wird durch das in Frankreich ausgestellte EVE-VEGAN-Zertifikat Nr. VGN2512221 bestätigt, gültig bis zum 30. Juni 2027; die Kopie liegt uns vor. Die Rezepturpatente und der SPF sind Angaben des Unternehmens; Unterlagen erhält der Käufer auf Anfrage.",
     "gallery_h": "Produkte und Markenfotografie",
     "gallery_note": "Die Fotografien wurden von Lubedecacorn Global bereitgestellt. Ein Teil der Aufnahmen entstand auf der Insel Jeju, von der die Marke Kiefer und Centella für die Linie CICAPINE™ bezieht. Es sind Materialien des Unternehmens und kein Werksbesuch von uns: der Lieferantenstatus lautet „Informationen vom Unternehmen bereitgestellt“."
   }

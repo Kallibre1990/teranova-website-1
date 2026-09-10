@@ -88,11 +88,11 @@
       },
       {
         "label": "Fiyatlar",
-        "value": "Fiyat talep üzerine. Şirketin asgari miktarları içeren fiyat listesi elimizde, ancak yayımlamıyoruz. Gerçek koşullar işlem aşamasında Teranova üzerinden iletilir ve hizmet bedelimizden ayrı bir satırda gösterilir."
+        "value": "Fiyatlar ve asgari miktarlar katalogdaki her ürün için yayımlanmıştır: belirtilen tutar, şirketin Ağustos 2026 tarihli fiyat listesine göre asgari sipariş miktarındaki FOB Kore birim fiyatıdır ve para birimi ABD dolarıdır. Kendi hizmet bedelimiz bu tutara dâhil değildir, ayrıca gösterilir."
       },
       {
         "label": "Asgari sipariş",
-        "value": "Her ürün için asgari miktar belirlenmiş olup koli bazında sayılır. Kesin değerler talep aşamasında belirli bir liste üzerinden bildirilir."
+        "value": "Asgari miktar ürün bazında belirlenir ve koli olarak hesaplanır: maske ve sabunda 80 adetten, numune setinde 1.000 adetten başlar. Kesin miktar her ürün kartında yazılıdır."
       },
       {
         "label": "Belgeler",
@@ -110,6 +110,7 @@
       "Principle Natural Rich Hydrated Toner — meyan kökü özütü ve hyaluronik asit üzerine kurulu yüksek konsantrasyonlu tonik. Şirket nemlendirme ve yatıştırma belirtiyor. Laboratuvar raporunda tahriş indeksi: 0,00.",
       "Principle Natural Rich Hydrated Serum — yüzde 30 hyaluronik asit beyanlı serum. Şirketin anlatımıyla cildin esnekliğini artırıyor ve serinletici etki veriyor. Rapordaki indeks: 0,00.",
       "Principle Natural Rich Hydrated Cream — guaiazulen ve peptit kompleksi içeren krem. Şirket su-yağ dengesi, kırışıklık ve aydınlatma üzerine çalışmayı, seramit ve hyaluronik asidin nemi tutmasını belirtiyor. Rapordaki indeks: 0,00.",
+      "Principle Series Sachet Set — PRINCIPLE serisinin numune seti: tonik, serum ve krem, her biri 1,5 g. Şirket bunu, ana siparişten önce seriyi müşteriye göstermenin pratik bir yolu olarak sunuyor.",
       "CicaPine Forest Needle Energy Serum — yeşil çam fitosterolleri ve Jeju centellası üzerine kurulu serum. Şirket patentli FLEX_some™ iletim yöntemini, gözenek sıkılaştırmayı ve cilt dengesinin yeniden kurulmasını belirtiyor.",
       "CicaPine Calming & Pore Repair Balancing Gel Cream — çam ve centelladan gelen CICAPINE™ bileşenli jel krem. Şirketin anlatımıyla cildi yatıştırıyor, ortosifon özütü gözenek bakımına yardımcı oluyor.",
       "CicaPine Micellar Acne Foam Cleanser — misel prensibiyle çalışan köpük temizleyici. Şirket, çam iğnesinin gözeneklerdeki kiri temizlediğini ve yıkamadan sonra cildin nemli kaldığını belirtiyor.",
@@ -120,7 +121,8 @@
       "PCL NMN Lifting Eye Cream — PCL ve NMN üzerine kurulu göz kremi. Şirket bunu göz çevresinin birden çok sorununa tek üründe yanıt olarak sunuyor: sıkılaştırma, koyu halkalar ve ton.",
       "NAD PDRN Jelly Lip Mask — NAD ve PDRN üzerine kurulu jöle dokulu gece dudak maskesi. Şirket aynı anda üç işlevi belirtiyor: arındırma, nemlendirme ve dolgunluk, ayrıca dudakta koruyucu film.",
       "PDRN Dark Spot Gel — yüz ve vücut için leke ve akne izlerine karşı hafif jel. Şirket yenilenme ve aydınlatma olmak üzere çift etkiyi, hassas cilde göre tasarlanmış formülü belirtiyor.",
-      "White Vita Aqua Shield Sun Screen — E vitamini ve hyaluronik asit içeren SPF50 PA++++ güneş kremi. Kimyasal filtreler, hafif ve yapışmayan doku."
+      "White Vita Aqua Shield Sun Screen — E vitamini ve hyaluronik asit içeren SPF50 PA++++ güneş kremi. Kimyasal filtreler, hafif ve yapışmayan doku.",
+      "Black Oat Gold Hydrogel Cleansing Soap — siyah yulaf esaslı hidrojel yüz temizleme sabunu, köpük filesiyle birlikte gelir. Kuru ağırlığı 40 g, ıslak ağırlığı 110 g'dır. Şirket antioksidan ve nemlendirici etki ile Phyto-DNA™ kompleksini belirtiyor."
     ]
   },
   "ui": {
@@ -144,7 +146,7 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Patentler ve testler",
-    "certs_note": "PRINCIPLE serisindeki 0,00 değeri, kopyaları elimizde olan 27.09.2023 tarihli Human Co., Ltd. Skin Clinical Trial Center imzalı raporlarındaki tahriş indeksidir. Vegan statüsü, formül patentleri ve SPF şirket beyanıdır; belgeler alıcıya talebi üzerine sağlanır.",
+    "certs_note": "PRINCIPLE serisindeki 0,00 işareti, Human Co., Ltd. Skin Clinical Trial Center tarafından 27.09.2023 tarihinde imzalanan raporlardaki tahriş indeksidir; kopyaları bizde. PRINCIPLE tonik, serum ve kreminin vegan statüsü, Fransa'da düzenlenen ve 30 Haziran 2027'ye kadar geçerli olan EVE VEGAN VGN2512221 numaralı sertifikayla doğrulanmıştır; kopyası bizde. Formül patentleri ve SPF şirketin beyanıdır; belgeler alıcıya talep üzerine verilir.",
     "gallery_h": "Ürünler ve marka çekimi",
     "gallery_note": "Fotoğraflar Lubedecacorn Global tarafından sağlandı. Kimi kareler, markanın CICAPINE™ serisi için çam ve centella aldığı Jeju adasında çekildi. Bunlar şirketin kendi materyalleri, bizim fabrika ziyaretimiz değil: tedarikçi durumu «Bilgi şirket tarafından sağlandı»."
   }

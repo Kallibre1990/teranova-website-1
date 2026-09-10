@@ -88,11 +88,11 @@
       },
       {
         "label": "价格",
-        "value": "价格请询。我们持有含起订量的公司价格表，但不予公开。实际条件在交易阶段通过 Teranova 提供，并与我们的服务费用分列显示。"
+        "value": "目录中每一件产品都标注了价格与最低起订量：所列金额为按最低起订量计算的 FOB 韩国单价，币种为美元，依据公司 2026 年 8 月的价格表。我方服务费用不含在内，单独列示。"
       },
       {
         "label": "最小订量",
-        "value": "各单品设有最小数量，按箱计算。具体数字在询价阶段针对确定清单提供。"
+        "value": "最低起订量按品项设定并以箱为单位计算，面膜与洁面皂自 80 件起，试用套装为 1,000 件。具体数量见每件产品的卡片。"
       },
       {
         "label": "文件",
@@ -110,6 +110,7 @@
       "Principle Natural Rich Hydrated Toner — 以甘草提取物与透明质酸为基础的高浓度爽肤水。公司声明保湿与舒缓。实验室报告中的刺激指数为 0.00。",
       "Principle Natural Rich Hydrated Serum — 标注含 30 % 透明质酸的精华。按公司说法可提升肌肤柔韧度并带来清凉感。报告中的刺激指数为 0.00。",
       "Principle Natural Rich Hydrated Cream — 含愈创天蓝烃与胜肽复合物的面霜。公司声明水油平衡、改善皱纹与提亮，神经酰胺与透明质酸锁住水分。报告中的刺激指数为 0.00。",
+      "Principle Series Sachet Set —— PRINCIPLE 系列的试用套装，爽肤水、精华与面霜各 1.5 克。公司将其定位为正式下单前向客户展示整条产品线的便捷方式。",
       "CicaPine Forest Needle Energy Serum — 以青松植物甾醇与济州积雪草为基础的精华。公司提出专利传输方式 FLEX_some™、收敛毛孔与恢复肌肤平衡。",
       "CicaPine Calming & Pore Repair Balancing Gel Cream — 以松树与积雪草的 CICAPINE™ 成分为基础的凝胶霜。按公司说法可舒缓肌肤，猫须草提取物有助于毛孔护理。",
       "CicaPine Micellar Acne Foam Cleanser — 采用胶束原理的洁面泡沫。公司声明松针可洗净毛孔中的污垢，洁面后肌肤仍保持滋润。",
@@ -120,7 +121,8 @@
       "PCL NMN Lifting Eye Cream — 以 PCL 与 NMN 为基础的眼霜。公司将其定位为一款产品应对眼周多重问题：提拉、黑眼圈与肤色不均。",
       "NAD PDRN Jelly Lip Mask — 以 NAD 与 PDRN 为基础的果冻质地夜间唇膜。公司声明同时兼顾去角质、保湿与丰盈，并在唇部形成保护膜。",
       "PDRN Dark Spot Gel — 面部与身体通用的轻盈祛斑与痘印护理凝胶。公司声明再生与提亮双重作用，配方针对敏感肌设计。",
-      "White Vita Aqua Shield Sun Screen — 含维生素 E 与透明质酸的 SPF50 PA++++ 防晒霜。化学防晒剂，质地轻薄不黏腻。"
+      "White Vita Aqua Shield Sun Screen — 含维生素 E 与透明质酸的 SPF50 PA++++ 防晒霜。化学防晒剂，质地轻薄不黏腻。",
+      "Black Oat Gold Hydrogel Cleansing Soap —— 以黑燕麦为基础的水凝胶洁面皂，随附起泡网。干重 40 克，湿重 110 克。公司称其具有抗氧化与保湿作用，并含 Phyto-DNA™ 复合物。"
     ]
   },
   "ui": {
@@ -144,7 +146,7 @@
     "more": "查看简介 →",
     "verified_suppliers": "已核验的供应商",
     "certs_h": "专利与检测",
-    "certs_note": "PRINCIPLE 系列的 0.00 标记来自 Human Co., Ltd. 皮肤临床试验中心 2023.09.27 签署报告中的刺激指数，我们持有副本。纯素身份、配方专利与 SPF 为公司声明；文件应买方要求提供。",
+    "certs_note": "PRINCIPLE 系列的 0.00 标注来自 Human Co., Ltd. 皮肤临床试验中心 2023 年 9 月 27 日签署的报告中的刺激指数，副本由我们保存。PRINCIPLE 爽肤水、精华与面霜的纯素身份由法国签发的 EVE VEGAN 证书 VGN2512221 号确认，有效期至 2027 年 6 月 30 日，副本由我们保存。配方专利与 SPF 为公司声明内容，文件应买家要求提供。",
     "gallery_h": "产品与品牌影像",
     "gallery_note": "照片由 Lubedecacorn Global 提供。部分画面拍摄于济州岛，品牌 CICAPINE™ 系列的松树与积雪草即取自该地。这些是公司的自有资料，不是我们的工厂探访：供应商状态为「公司提供的信息」。"
   }

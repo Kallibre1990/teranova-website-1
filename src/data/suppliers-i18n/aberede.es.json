@@ -88,11 +88,11 @@
       },
       {
         "label": "Precios",
-        "value": "Precio a consultar. Tenemos la lista de precios de la empresa con los pedidos mínimos, pero no la publicamos. Las condiciones reales llegan al comprador en la fase de operación a través de Teranova, en una línea separada del coste de nuestros servicios."
+        "value": "Los precios y las cantidades mínimas se publican para cada artículo del catálogo: la cifra es el precio unitario FOB Corea a la cantidad mínima de pedido, en dólares estadounidenses, según la lista de precios de la empresa de agosto de 2026. El coste de nuestros servicios no está incluido y se muestra por separado."
       },
       {
         "label": "Pedido mínimo",
-        "value": "Hay un mínimo fijado por referencia y se cuenta por cajas. Las cifras exactas se comunican sobre una lista concreta en la fase de consulta."
+        "value": "La cantidad mínima se fija por artículo y se cuenta en cajas: desde 80 unidades en la mascarilla y el jabón hasta 1.000 en el kit de muestras. La cifra exacta figura en la ficha de cada producto."
       },
       {
         "label": "Documentos",
@@ -110,6 +110,7 @@
       "Principle Natural Rich Hydrated Toner — tónico muy concentrado con extracto de regaliz y ácido hialurónico. La empresa declara hidratación y calma. Índice de irritación en el informe de laboratorio: 0,00.",
       "Principle Natural Rich Hydrated Serum — sérum declarado al 30 por ciento de ácido hialurónico. Según la descripción de la empresa mejora la flexibilidad de la piel y da efecto refrescante. Índice en el informe: 0,00.",
       "Principle Natural Rich Hydrated Cream — crema con guayazuleno y complejo de péptidos. La empresa declara equilibrio entre agua y grasa, trabajo sobre arrugas y luminosidad, con ceramidas y ácido hialurónico reteniendo la hidratación. Índice en el informe: 0,00.",
+      "Principle Series Sachet Set — un kit de muestras de la línea PRINCIPLE: tónico, sérum y crema de 1,5 g cada uno. La empresa lo ofrece como una forma cómoda de enseñar la línea al cliente antes del pedido principal.",
       "CicaPine Forest Needle Energy Serum — sérum con fitosteroles de pino verde y centella de Jeju. La empresa señala el método patentado FLEX_some™, el cierre del poro y un equilibrio cutáneo restablecido.",
       "CicaPine Calming & Pore Repair Balancing Gel Cream — crema-gel con el ingrediente CICAPINE™ de pino y centella. Según la descripción de la empresa calma la piel, y el extracto de ortosifón ayuda en el cuidado del poro.",
       "CicaPine Micellar Acne Foam Cleanser — espuma limpiadora de principio micelar. La empresa declara que la aguja de pino arrastra la suciedad del poro y que la piel queda hidratada tras el lavado.",
@@ -120,7 +121,8 @@
       "PCL NMN Lifting Eye Cream — crema de ojos con PCL y NMN. La empresa la presenta como un solo producto para varias preocupaciones del contorno: reafirmación, ojeras y tono.",
       "NAD PDRN Jelly Lip Mask — mascarilla labial de noche en gelatina con NAD y PDRN. La empresa declara tres funciones a la vez — exfoliación, hidratación y volumen — más una película protectora en los labios.",
       "PDRN Dark Spot Gel — gel ligero contra manchas y marcas de acné, para rostro y cuerpo. La empresa declara doble acción, regeneración y luminosidad, en una fórmula pensada para pieles sensibles.",
-      "White Vita Aqua Shield Sun Screen — solar SPF50 PA++++ con vitamina E y ácido hialurónico. Filtros químicos, textura ligera y no pegajosa."
+      "White Vita Aqua Shield Sun Screen — solar SPF50 PA++++ con vitamina E y ácido hialurónico. Filtros químicos, textura ligera y no pegajosa.",
+      "Black Oat Gold Hydrogel Cleansing Soap — un jabón limpiador en hidrogel a base de avena negra, se entrega con una redecilla para hacer espuma. Pesa 40 g en seco y 110 g en húmedo. La empresa declara una acción antioxidante e hidratante y un complejo Phyto-DNA™."
     ]
   },
   "ui": {
@@ -144,7 +146,7 @@
     "more": "Abrir perfil →",
     "verified_suppliers": "Proveedores verificados",
     "certs_h": "Patentes y ensayos",
-    "certs_note": "El valor 0,00 de la línea PRINCIPLE es el índice de irritación de los informes firmados del Human Co., Ltd. Skin Clinical Trial Center del 27.09.2023, de los que tenemos copia. La condición vegana, las patentes de fórmula y el SPF los declara la empresa; los documentos se facilitan al comprador a petición.",
+    "certs_note": "La marca 0,00 de la línea PRINCIPLE es el índice de irritación de los informes firmados por el Human Co., Ltd. Skin Clinical Trial Center con fecha 27.09.2023; conservamos las copias. El carácter vegano del tónico, el sérum y la crema PRINCIPLE está confirmado por el certificado EVE VEGAN n.º VGN2512221, emitido en Francia y válido hasta el 30 de junio de 2027; conservamos la copia. Las patentes de formulación y el SPF están declarados por la empresa; los documentos se facilitan al comprador a petición.",
     "gallery_h": "Productos y fotografía de marca",
     "gallery_note": "Las fotografías fueron facilitadas por Lubedecacorn Global. Parte de las tomas se hicieron en la isla de Jeju, de donde la marca toma el pino y la centella de la línea CICAPINE™. Son materiales de la empresa, no una visita nuestra a fábrica: el estado del proveedor es «Información facilitada por la empresa»."
   }

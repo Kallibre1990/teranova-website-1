@@ -88,11 +88,11 @@
       },
       {
         "label": "Prices",
-        "value": "Price on request. We hold the company's price list with minimum order quantities, but we do not publish it in the open. Current terms reach the buyer at the deal stage through Teranova, shown separately from the cost of our own services."
+        "value": "Prices and minimum quantities are published for every item in the catalogue: the figure is the FOB Korea unit price at the minimum order quantity, in US dollars, from the company's price list of August 2026. The cost of our own services is not included and is shown separately."
       },
       {
         "label": "Minimum order",
-        "value": "A minimum quantity is set per item and counted in cartons. Exact figures are given against a specific list at enquiry stage."
+        "value": "A minimum quantity is set per item and counted in cartons, from 80 units for the mask and the soap to 1,000 for the sampler set. The exact figure is shown on each product card."
       },
       {
         "label": "Documents",
@@ -110,6 +110,7 @@
       "Principle Natural Rich Hydrated Toner — a highly concentrated toner on licorice extract and hyaluronic acid. The company states hydration and soothing. Irritation index in the laboratory report: 0.00.",
       "Principle Natural Rich Hydrated Serum — a serum stated at 30 per cent hyaluronic acid. In the company's description it improves skin flexibility and gives a cooling effect. Irritation index in the report: 0.00.",
       "Principle Natural Rich Hydrated Cream — a cream with guaiazulene and a peptide complex. The company states oil-water balance, work on wrinkles and brightening, with ceramides and hyaluronic acid holding moisture in. Irritation index in the report: 0.00.",
+      "Principle Series Sachet Set — a sampler of the PRINCIPLE line: toner, serum and cream, 1.5 g each. The company offers it as a convenient way to show the line to a customer before a main order.",
       "CicaPine Forest Needle Energy Serum — a serum on green-pine phytosterols and centella from Jeju. The company names the patented FLEX_some™ delivery method, pore tightening and a restored skin balance.",
       "CicaPine Calming & Pore Repair Balancing Gel Cream — a gel cream on the CICAPINE™ ingredient from pine and centella. In the company's description it soothes the skin, while orthosiphon extract helps with pore care.",
       "CicaPine Micellar Acne Foam Cleanser — a foam cleanser built on the micellar principle. The company states that pine needle washes debris out of pores and that skin stays hydrated after washing.",
@@ -120,7 +121,8 @@
       "PCL NMN Lifting Eye Cream — an eye cream on PCL and NMN. The company presents it as one product for several concerns around the eye: lifting, dark circles and tone.",
       "NAD PDRN Jelly Lip Mask — an overnight lip mask of jelly texture on NAD and PDRN. The company states three jobs at once — exfoliation, hydration and volume — plus a protective film on the lips.",
       "PDRN Dark Spot Gel — a lightweight gel against dark spots and acne marks, for face and body. The company states dual action, regeneration and brightening, in a formula meant for sensitive skin.",
-      "White Vita Aqua Shield Sun Screen — an SPF50 PA++++ sunscreen with vitamin E and hyaluronic acid. Chemical filters, a light non-sticky texture."
+      "White Vita Aqua Shield Sun Screen — an SPF50 PA++++ sunscreen with vitamin E and hyaluronic acid. Chemical filters, a light non-sticky texture.",
+      "Black Oat Gold Hydrogel Cleansing Soap — a hydrogel cleansing soap based on black oat, supplied with a lathering net. It weighs 40 g dry and 110 g wet. The company states an antioxidant and moisturising action and a Phyto-DNA™ complex."
     ]
   },
   "ui": {
@@ -144,7 +146,7 @@
     "more": "Open profile →",
     "verified_suppliers": "Verified suppliers",
     "certs_h": "Patents and testing",
-    "certs_note": "The 0.00 mark on the PRINCIPLE line is the irritation index from signed reports by Human Co., Ltd. Skin Clinical Trial Center dated 27.09.2023; we hold the copies. The vegan status, the formulation patents and the SPF are declared by the company; documents are provided to a buyer on request.",
+    "certs_note": "The 0.00 mark on the PRINCIPLE line is the irritation index from signed reports by Human Co., Ltd. Skin Clinical Trial Center dated 27.09.2023; we hold the copies. The vegan status of the PRINCIPLE toner, serum and cream is confirmed by EVE VEGAN certificate no. VGN2512221, issued in France and valid until 30 June 2027; we hold the copy. The formulation patents and the SPF are declared by the company; documents are provided to a buyer on request.",
     "gallery_h": "Products and brand photography",
     "gallery_note": "The photographs were provided by Lubedecacorn Global. Some frames were shot on the island of Jeju, where the brand takes the pine and centella for the CICAPINE™ line. These are the company's own materials, not our factory visit: the supplier status is “Information provided by the company”."
   }

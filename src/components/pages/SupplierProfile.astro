@@ -393,7 +393,13 @@ function monogram(name: string): string {
                           {it.actives && it.actives.length > 0 && (
                             <span class="sp-prod__act">{it.actives.map((a) => <span>{a}</span>)}</span>
                           )}
-                          {it.price && <span class="sp-prod__price">≈ ${it.price}</span>}
+                          {(it.price || it.moq) && (
+                            <span class="sp-prod__price">
+                              {it.price && <>≈ ${it.price}</>}
+                              {it.price && it.moq && <span class="sp-prod__sep"> · </span>}
+                              {it.moq && <span class="sp-prod__moq">MOQ {it.moq}</span>}
+                            </span>
+                          )}
                         </span>
                       </button>
                     );
@@ -772,6 +778,8 @@ function monogram(name: string): string {
   .sp-prod__act { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
   .sp-prod__act span { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.02em; color: color-mix(in srgb, var(--ds-deep) 78%, #000); background: color-mix(in srgb, var(--ds-deep) 7%, #fff); border: 1px solid color-mix(in srgb, var(--ds-deep) 18%, transparent); border-radius: 999px; padding: 2px 8px; }
   .sp-prod__price { margin-top: 10px; font-size: 0.82rem; font-weight: 800; color: var(--ds-sky); }
+  .sp-prod__sep { color: #b6c2d2; font-weight: 600; }
+  .sp-prod__moq { color: #55637a; font-weight: 700; }
 
   .sp-lvl--visited { color: #0f6a4f; }
   .sp-visit__note { font-size: 0.92rem; color: #5a6a80; max-width: 74ch; margin: 6px 0 4px; line-height: 1.55; }

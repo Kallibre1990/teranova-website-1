@@ -448,7 +448,7 @@ export interface SupplierProfile {
   /* Real product catalog grouped by line, with photos, volume, price, certs. Language-neutral. */
   /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
      позиции может не быть вовсе. Карточка тогда показывает монограмму. */
-  catalog?: { line: string; items: { name: string; img?: string; volume?: string; price?: string; certs?: string[]; actives?: string[] }[] }[];
+  catalog?: { line: string; items: { name: string; img?: string; volume?: string; price?: string; moq?: number; certs?: string[]; actives?: string[] }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
