@@ -137,6 +137,24 @@ const art = (blogArt as Record<string, { artKey: string; insertAfterSectionIndex
                   />
                 </figure>
               )}
+              {post.photos && si === post.photos.insertAfter && (
+                <div class="bp__shots">
+                  {post.photos.items.map((ph, pi) => (
+                    <figure class="bp__shot">
+                      <img
+                        src={ph.src}
+                        alt={c.photoCaptions?.[pi] ?? ''}
+                        width={ph.w}
+                        height={ph.h}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      {c.photoCaptions?.[pi] && <figcaption>{c.photoCaptions[pi]}</figcaption>}
+                    </figure>
+                  ))}
+                  {c.photoCredit && <p class="bp__shots-credit">{c.photoCredit}</p>}
+                </div>
+              )}
             </>
           ))
         }
@@ -198,6 +216,15 @@ const art = (blogArt as Record<string, { artKey: string; insertAfterSectionIndex
      героя статьи выше, чтобы блок читался одной системой. */
   .bp__inset { width: 100%; aspect-ratio: 16 / 10; overflow: hidden; border: 1px solid #e4ebf3; border-radius: 16px; margin: 6px 0 34px; }
   .bp__inset img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  /* Подлинные снимки от поставщика: первый во всю ширину, остальные сеткой.
+     Класс «доказательство» по docs/IMAGERY.md — с подписями и указанием источника. */
+  .bp__shots { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 6px 0 34px; }
+  .bp__shot { margin: 0; }
+  .bp__shot:first-child { grid-column: 1 / -1; }
+  .bp__shot img { width: 100%; height: auto; display: block; border: 1px solid #e4ebf3; border-radius: 16px; background: #f3f7fb; }
+  .bp__shot figcaption { font-size: 0.84rem; line-height: 1.5; color: #55637a; margin-top: 8px; }
+  .bp__shots-credit { grid-column: 1 / -1; font-size: 0.78rem; color: #7c8aa0; margin: 2px 0 0; }
+  @media (max-width: 640px) { .bp__shots { grid-template-columns: 1fr; } }
   .bp__h { font-size: 1.3rem; font-weight: 800; color: #12306e; letter-spacing: -0.01em; margin-bottom: 10px; }
   .bp__p { font-size: 1.03rem; line-height: 1.78; color: #364357; margin-bottom: 12px; }
   .bp__cta { margin: 34px 0; }

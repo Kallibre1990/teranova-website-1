@@ -22,6 +22,10 @@ export interface BlogPostContent {
   seoTitle: string;
   seoDesc: string;
   sections: BlogSection[];
+  /** Подписи к фотографиям BlogPost.photos, по одной на снимок, в том же порядке. */
+  photoCaptions?: string[];
+  /** Кто передал снимки. Обязательна рядом с подлинными фото. */
+  photoCredit?: string;
 }
 /** Internal link targets for the "related" block (language-neutral): a fixed page
     key ('catalog' | 'verify' | 'faq' | 'ondemand' | 'suppliers' | 'buyers'), any
@@ -43,6 +47,12 @@ export interface BlogPost {
       ошибка здесь означала бы приписанный компании состав. Названия позиций
       языконезависимы, поэтому поле лежит рядом со slug, а не внутри i18n. */
   uses?: { supplier: string; items: string[] }[];
+  /** Подлинные фотографии, переданные поставщиком с согласия на публикацию.
+      Это класс «доказательство» по docs/IMAGERY.md: сюда идут только реальные
+      снимки, никогда сгенерированные. Подписи лежат в i18n рядом с текстом,
+      порядок и файлы — здесь, потому что они одни для всех языков.
+      insertAfter — после какой секции показать блок. */
+  photos?: { insertAfter: number; items: { src: string; w: number; h: number }[] };
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 
