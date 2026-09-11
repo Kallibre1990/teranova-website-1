@@ -465,11 +465,17 @@ const tr: DeepPartial<UIDict> = {
   },
 
   about_home: {
-    sup: "Hakkımızda",
-    title: "Gerçek insanlar ve bizzat fabrika ziyaretleri",
-    body: "Teranova, Kore'deki üreticileri bulur, onları doğrular — fabrikayı bizzat yerinde ziyaret edecek kadar — ve anlaşmayı ilk talepten malların teslim alınmasına kadar yürütür. Bir aracı zinciri yerine sorumluluk üstlenen tek bir ortak.",
+    sup: "Nasıl doğruluyoruz",
+    title: "Yalnızca belgelere bakmıyoruz",
+    body: "Kore'deki üreticilerle görüşüyor, çalışma alanlarını ziyaret ediyor ve üretimle ilgili materyalleri inceliyoruz. Bu, bir anlaşma başlamadan önce şirketin gerçekte nasıl çalıştığını anlamamıza yardımcı olur.",
+    cta: "Doğrulama nasıl işler",
     photo_note: "Gerçek fotoğraflar buraya gelecek: ekip ve fabrika ziyaretleri.",
-    cta: "Şirket hakkında daha fazlası",
+    photo_caption: "Teranova çalışma ziyaretleri ve üretici materyalleri.",
+    label_maker: "Üretici materyali",
+    label_ours: "Teranova fotoğrafı",
+    alt_cleanroom: "Temiz üretim alanı: koruyucu giysili operatörler ekipmanın başında",
+    alt_showroom: "Ürün numunelerinin sergilendiği üretici showroom'u",
+    alt_warehouse: "Forklift ve ürün kolilerinin bulunduğu depo alanı",
   },
 
   marine_home: {

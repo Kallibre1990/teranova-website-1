@@ -159,11 +159,17 @@ export const pt: UIDict = {
   },
 
   about_home: {
-    sup: 'Sobre nós',
-    title: 'Pessoas reais e visitas presenciais às fábricas',
-    body: 'A Teranova encontra fabricantes na Coreia, verifica-os — até a visita presencial de um integrante à fábrica — e conduz a operação do primeiro pedido ao recebimento da mercadoria. Um único parceiro responsável em vez de uma cadeia de intermediários.',
+    sup: 'Como verificamos',
+    title: 'Verificamos mais do que documentos',
+    body: 'Nós nos reunimos com fabricantes na Coreia, visitamos seus locais de trabalho e analisamos materiais sobre a produção. Isso ajuda a entender como a empresa funciona antes de começar um negócio.',
+    cta: 'Como funciona a verificação',
     photo_note: 'Aqui entrarão fotos reais: o fundador, a equipe, visitas às fábricas.',
-    cta: 'Mais sobre a empresa',
+    photo_caption: 'Visitas de trabalho da Teranova e materiais dos fabricantes.',
+    label_maker: 'Materiais do fabricante',
+    label_ours: 'Foto Teranova',
+    alt_cleanroom: 'Sala de produção limpa: operadores com roupas de proteção junto ao equipamento',
+    alt_showroom: 'Showroom do fabricante com amostras de produtos',
+    alt_warehouse: 'Área de armazém com empilhadeira e caixas de produtos',
   },
 
   marine_home: {
