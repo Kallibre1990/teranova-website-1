@@ -1424,6 +1424,16 @@ export const suppliers: SupplierProfile[] = [
     name: 'HANSCOS CO., LTD',
     brand: 'HANSCOS',
     status: 'visited',
+    visitDate: '2026-08-27',
+    /* Визит на площадку в Инчхоне 27.08.2026. Своих снимков мы там не делали:
+       фотографии завода и цехов компания передала нам после встречи, вместе с
+       портфолио. Публикуются с её согласия — см. consentNote. */
+    visitGallery: [
+      '/img/suppliers/hanscos/visit/factory-incheon.jpg',
+      '/img/suppliers/hanscos/visit/cleanroom-filling.jpg',
+      '/img/suppliers/hanscos/visit/mask-sachet-line.jpg',
+      '/img/suppliers/hanscos/visit/packing-line.jpg',
+    ],
     /* Мягкий сине-серый с обложки их же портфолио. */
     brandColors: { deep: '#16394a', sky: '#4e8299', accent: '#8fbfcd', bg: '#eef4f6' },
     voice: 'clinical',

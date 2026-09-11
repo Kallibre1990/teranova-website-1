@@ -251,18 +251,23 @@ function monogram(name: string): string {
     </section>
   )}
 
-  {profile.status === 'visited' && profile.visitGallery && profile.visitGallery.length > 0 && (
+  {/* Блок личного визита. Снимки не обязательны: визит подтверждается датой и
+      тем, что на нём произошло. Где своих фотографий нет, блок выводится один
+      текстом — выдавать материалы поставщика за наши кадры нельзя. */}
+  {profile.status === 'visited' && (profile.visitDate || c.visitNote) && (
     <section class="sp-sec sp-sec--tint">
       <div class="wrap">
         <span class="sp-lvl sp-lvl--visited">{t.verify.card_visited_t}{profile.visitDate ? ` · ${profile.visitDate}` : ''}</span>
         <p class="sp-visit__note">{c.visitNote ?? t.verify.card_visited_d}</p>
-        <div class="sp-visit">
-          {profile.visitGallery.map((src, i) => (
-            <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${t.verify.card_visited_t}`}>
-              <img src={src} alt={`${profile.name} — ${t.verify.card_visited_t} ${i + 1}`} loading="lazy" decoding="async" />
-            </button>
-          ))}
-        </div>
+        {profile.visitGallery && profile.visitGallery.length > 0 && (
+          <div class="sp-visit">
+            {profile.visitGallery.map((src, i) => (
+              <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${t.verify.card_visited_t}`}>
+                <img src={src} alt={`${profile.name} — ${t.verify.card_visited_t} ${i + 1}`} loading="lazy" decoding="async" />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   )}
