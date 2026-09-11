@@ -46,25 +46,67 @@
     ],
     "tech": [
       {
-        "name": "MAOOM — amiral gemisi vaka",
-        "note": "Şirketin kendi markası; konsept ve formülden çok dilli e-ticarete ve ihracata kadar baştan sona kendisi kurdu. İlk yılında Kore lansmanından uluslararası alıcılara ulaştı. Formüller Skin Liposomal NAD+ kompleksi ve çift katmanlı termal dispersiyon; ikisi de şirket içi geliştirme olarak belirtiliyor."
+        "name": "maoom — amiral vaka, stüdyonun kendi markası",
+        "note": "Portföyde stüdyonun kendisi için kurduğu tek marka: konsept ve formülden ambalaja, çok dilli ticarete ve ihracata kadar. Tercih, bir ay sonra değil tek kullanımda görünen sonuç veren dokulardan yana yapıldı. Kendi geliştirmeleri Skin Liposomal NAD+ kompleksi ve çift katmanlı termal dispersiyondur. İlk yılında marka, Kore lansmanından Asya, Kuzey Amerika ve Avrupa'daki alıcılara ulaştı."
       },
       {
         "name": "Lullua — renkli kozmetik, Japonya'ya ihracat",
-        "note": "Tek bir imza lake kırmızı dudakta, yanakta ve güneş bakımında dolaşıyor, parlak monokrom ambalajla birleşince bütün seri rafta tek bir nesne gibi okunuyor. Öne çıkan ürünler: SPF50+ PA++++ ton eşitleyici güneş kremi ve cam bitişli dudak tinti."
+        "note": "Kimlik tek bir lake kırmızı ve hilal biçimli bir 'L' çevresinde kuruldu: parlak monokrom ambalajdaki kuşon, tint ve güneş koruyucu rafta tek bir nesne gibi okunuyor. Stüdyo markayı baştan sona yürüttü; ambalaj seçimi, yerelleştirilmiş web sitesi, Japonca ve İngilizce ürün sayfaları, Instagram akışı ve Japonya'ya sevkiyat dâhil."
       },
       {
         "name": "LIKE CELL — biyokozmetik",
-        "note": "Spa değil laboratuvar: buzlu cam, ince tipografi ve beyaz ile gümüşün klinik paleti. Öne çıkan ürünler: zambak eksozomu, glutatyon, niasinamid ve Hyal Deca kompleksiyle aydınlatıcı ampul ve krem."
+        "note": "Marka, cilt hücrelerine dost olma fikrine dayanıyor: her cildin kendine ait bir güzelliği var. Görünüm spa değil laboratuvar olarak seçildi — buzlu cam, ince tipografi, klinik beyaz ve gümüş. Stüdyo marka planlaması, logo, ürün planlaması, ambalaj seçimi ve tasarımı üstlendi."
       },
       {
-        "name": "Portföydeki diğer dokuz marka",
-        "note": "Cell Philia — cilt bakımı. LOVE DES FACE — maskeler, Hong Kong. Oleaceae — parfüm. LIV — dondurularak kurutulmuş formüller. LAPIN Arc en ciel — saç bakımı. CHAYEON — yeşil çay. DEWBON — cilt bakımı, Kamboçya. PURE.B — bebek ve çocuk serisi. O'HER — C vitamini. Her birinin kendi adı, görünüşü ve öne çıkan ürünü var."
+        "name": "Cell Philia — aydınlatıcı ve kırışıklık karşıtı bakım",
+        "note": "Seri, isimlendirme ve logodan nihai ambalaja kadar kuruldu. Derin lacivert, rose gold ve çiçek biçimli hücre amblemi: hediyelik bir görünüm, sıcaklığı olan bir dermatoloji gibi okunuyor."
       },
       {
-        "name": "Bunun alıcı için anlamı",
-        "note": "On iki marka yalnızca deneyim değil, doğrulanabilir bir dayanak: her birinin adı, pazarı ve ürünü var; «fason üretim yapıyoruz» diyen soyut bir satır değil. Bunları şirketin kendi web sitesindeki PORTFOLIO bölümünde kendi anlattığı biçimde aktarıyoruz."
+        "name": "LOVE DES FACE — maske ve göz bandı, Hong Kong'a ihracat",
+        "note": "Seri, ürün planlamasından sevkiyata kadar yürütüldü. Günlük maske için kırmızı, göz bantları için karamel olmak üzere yüksek kontrastlı iki renkli kutular ve LOVE sözcüğünün içine yerleştirilmiş bir kalp: ambalaj Hong Kong rafında fark edilsin diye tasarlandı."
+      },
+      {
+        "name": "Oleaceae — parfüm ve kokulu kişisel bakım",
+        "note": "Marka, zeytingiller familyasından adını aldı ve koku çevresinde kuruldu: yaprak süslemeli botanik serifli logo, sıcak taş tonları ve kokuyu yanında taşımak için ince bir stick. Çalışma markalaşma, ürün planlaması, ambalaj seçimi ve tasarımı kapsadı."
+      },
+      {
+        "name": "LIV — dondurarak kurutulmuş formüller",
+        "note": "«Life is Valuable»: dondurarak kurutma, gereksiz koruyucu olmadan aktifleri güçlü tutuyor. Kraft kâğıt üzerinde el yazısı ve yaprak yeşili — dürüst, sade, doğayı öne koyan bir ambalaj. Stüdyo markayı logodan ürün sayfalarına, Instagram akışına ve pazarlamaya kadar yürüttü."
+      },
+      {
+        "name": "LAPIN Arc en ciel — saç ve saç derisi bakımı",
+        "note": "«Güzellik harikalar diyarında maceralar»: marka, beyaz tavşanlı bir resimli kitap dünyası olarak kuruldu. Kehribar renkli eczacı şişeleri, illüstrasyonlu etiketler ve şans vaadi olarak gökkuşağı, arc en ciel. Stüdyo, yerelleştirilmiş ürün sayfaları ve pazarlamaya kadar her şeyi üstlendi."
+      },
+      {
+        "name": "CHAYEON — yeşil çay, tonik pedleri",
+        "note": "«Çayla bir bağ»: marka Boseong ilçesi ve onun çay tarlalarıyla birlikte yapıldı. Temiz beyaz üzerinde elle çizilmiş logo ve tek bir yeşil yaprak — markanın kendisi çay tarlası, üzerine eklenen bir şey yok."
+      },
+      {
+        "name": "DEWBON — yüz ve vücut bakımı, Kamboçya'ya ihracat",
+        "note": "«Güzelliğin başlangıcı»: temelde en temiz başlangıç noktası olarak çiy fikri var. Çiy gibi yumuşak pembe, krem ve altın vurgular ve geniş serifli bir logo: kadınsı, doğal ve sessizce premium. Stüdyo markayı baştan sona yürüttü; web sitesi ve Kamboçya'ya sevkiyat dâhil."
+      },
+      {
+        "name": "PURE.B — bebek ve çocuk bakımı",
+        "note": "«Pure Baby»: markayı hassas ciltli iki kızın babası başlattı ve talep basitti — kendi çocuklarına sürebileceği bir ürün olmalıydı. Yuvarlak hatlı nane yeşili logo, ürüne göre pastel renk kodlaması ve çocuk güneş kremindeki güneş karakteri."
+      },
+      {
+        "name": "O'HER — C vitamini",
+        "note": "«Waterless · Spotless · Airless»: susuz formül, leke üzerine çalışma ve airless ambalaj. Krem ve terrakota, kehribar cam ve büyük harflerle kendinden emin bir logo. Marka tamamen dijital kanallarda kuruldu, ürün sayfalarından reklam içeriğine kadar."
       }
+    ],
+    "catalog_notes": [
+      "Tek kullanımda görünür sonuç için tasarlanmış formatlar: on beş dakikalık sıkılaştırıcı maske, termal dolgunluk serumu, gece peelingi.",
+      "Öne çıkan ürünler Watery Tone Up güneş koruyucu SPF50+ PA++++ ve imza kırmızıda cam bitişli dudak tinti.",
+      "Öne çıkan ürünler zambak eksozomu, glutatyon, niasinamid ve Hyal Deca kompleksi içeren Ritual aydınlatıcı ampul ve krem.",
+      "Üç adımlı bakım: aydınlatma ve kırışıklık için MaXX T krem, Vital C serum ve D.M. booster.",
+      "Kolajen, niasinamid ve B5 içeren keçi sütü günlük krem maske ve bifidus ile kafeinli sıkılaştırıcı göz bantları.",
+      "Yasemin katı parfüm stick: dökülmeyen cep boyu format.",
+      "Dondurarak kurutulmuş Jeju yeşil çayı, Manicua nehir kili ve mikrobiyom içeren Green T Bubble Mask. Koruyucu, renklendirici ve parfüm içermez.",
+      "Havuç ve bitkilerle Dreaming şampuan ve krem, gün boyu bakım, 6-free, dermatolojik test edilmiş.",
+      "Damıtılmış su yerine yeşil çay suyuyla Green Tea Daily Toner Pad, sekiz tip hyaluronik asit, EVE vegan sertifikalı.",
+      "Hepsi bir arada tonik pedleri, Blemish Balm krem ve nemlendirici aromatik duş jeli.",
+      "Kamelya (RED SNOW) özlü bebek nemlendirici krem ve losyon ile resiflere zarar vermeyen Mild Shield güneş koruyucu SPF34 PA++.",
+      "Real Vitamin C 30% ampul: airless pompada 300.000 ppm, ayrıca Calming Relief tonik ve emülsiyon."
     ],
     "formats": [
       "Yüz bakımı",
@@ -114,6 +156,7 @@
     "lines_h": "İşe neler dâhil",
     "catalog_h": "Ürün kataloğu",
     "tech_h": "Kurdukları markalar",
+    "tech_note": "Vaka örnekleri, SKINROOM'un 4 Eylül 2026 tarihinde bize ilettiği OBM portföyüne dayanmaktadır ve şirketin yazılı onayıyla yayımlanmaktadır.",
     "products_h": "Ürünler",
     "formats_h": "Çalıştıkları kategoriler",
     "export_h": "İhracat ve pazarlar",

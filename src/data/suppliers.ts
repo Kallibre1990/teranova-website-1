@@ -356,6 +356,9 @@ export interface SupplierUI {
   lines_h: string;
   catalog_h: string;
   tech_h: string;
+  /** Источник кейсов в разделе «Сделанные марки»: чьи это данные и откуда.
+      Нужен там, где кейсы описаны словами самого поставщика. */
+  tech_note?: string;
   products_h: string;
   products_note: string;
   formats_h: string;

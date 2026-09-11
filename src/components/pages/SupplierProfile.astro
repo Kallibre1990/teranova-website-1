@@ -426,6 +426,7 @@ function monogram(name: string): string {
             </article>
           ))}
         </div>
+        {c.ui.tech_note && <p class="sp-tech__src">{c.ui.tech_note}</p>}
       </div>
     </section>
   )}
@@ -835,6 +836,7 @@ function monogram(name: string): string {
   .sp-tech__item { border-left: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0 14px 14px 0; padding: 20px 22px; }
   .sp-tech__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
   .sp-tech__note { font-size: 0.92rem; line-height: 1.6; color: #45576f; margin-top: 7px; }
+  .sp-tech__src { margin-top: 16px; font-size: 0.78rem; line-height: 1.5; color: #7b8898; }
 
   /* terms */
   .sp-terms { display: grid; gap: 2px; }

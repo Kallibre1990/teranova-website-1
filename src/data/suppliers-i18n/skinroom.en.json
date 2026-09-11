@@ -46,25 +46,67 @@
     ],
     "tech": [
       {
-        "name": "MAOOM — the flagship case",
-        "note": "The company's own brand, built end to end from concept and formulation through multilingual e-commerce to export. Within its first year it moved from a Korean launch to international buyers. The formulations are the Skin Liposomal NAD+ complex and a dual-layer thermal dispersion, both stated as in-house developments."
+        "name": "maoom — flagship case, the studio's own brand",
+        "note": "The one brand in the portfolio the studio built for itself: concept and formulation, packaging, multilingual commerce and export. The bet was on textures with a result you see at once rather than after a month. The in-house developments are the Skin Liposomal NAD+ complex and a dual-layer thermal dispersion. In its first year the brand went from a Korean launch to buyers in Asia, North America and Europe."
       },
       {
-        "name": "Lullua — colour cosmetics, exported to Japan",
-        "note": "A single signature lacquer red carried across lips, cheeks and sun care, with glossy monochrome packaging, so the whole line reads as one object on shelf. Hero items are a tone-up sunscreen SPF50+ PA++++ and a glass-finish lip tint."
+        "name": "Lullua — colour cosmetics, export to Japan",
+        "note": "The identity was built around a single lacquer red and a crescent-moon 'L': cushion, tint and sun care in glossy monochrome packaging read on the shelf as one object. The studio ran the brand end to end, including container selection, a localized website, product pages in Japanese and English, the Instagram feed and shipping to Japan."
       },
       {
         "name": "LIKE CELL — bio-cosmetics",
-        "note": "Laboratory rather than spa: frosted glass, hairline type and a clinical white-and-silver palette. Hero items are a brightening ampoule and cream built on lily exosome, glutathione, niacinamide and a Hyal Deca complex."
+        "note": "The brand rests on the idea of being friendly to skin cells: every skin has a beauty of its own. The look chosen is laboratory rather than spa — frosted glass, hairline type, a clinical white and silver. The studio handled brand planning, the logo, product planning, container selection and design."
       },
       {
-        "name": "Nine further brands in the portfolio",
-        "note": "Cell Philia — skincare. LOVE DES FACE — masks, Hong Kong. Oleaceae — fragrance. LIV — freeze-dried formulations. LAPIN Arc en ciel — hair care. CHAYEON — green tea. DEWBON — skincare, Cambodia. PURE.B — baby and kids. O'HER — vitamin C. Each with its own name, look and hero product."
+        "name": "Cell Philia — skincare for brightening and wrinkles",
+        "note": "The line was assembled from naming and logo through to final packaging. Deep navy with rose gold and a floral cell emblem: a gift-worthy look that reads as dermatology, but with warmth."
       },
       {
-        "name": "What this means for a buyer",
-        "note": "Twelve brands are not only experience but something checkable: each has a name, a market and a product, rather than an abstract line about contract work. We present them as the company describes them itself, in the PORTFOLIO section of its own website."
+        "name": "LOVE DES FACE — masks and eye patches, export to Hong Kong",
+        "note": "The line was run from product planning through to shipment. Bold two-tone boxes, red for the daily mask and caramel for the patches, and a heart set into the word LOVE: the packaging is designed to stand out on a Hong Kong shelf."
+      },
+      {
+        "name": "Oleaceae — fragrance and scented personal care",
+        "note": "The brand was named after the olive family and built around scent: a botanical serif wordmark with a leaf, warm stone tones and a slim stick so the scent travels with you. The work covered branding, product planning, container selection and design."
+      },
+      {
+        "name": "LIV — freeze-dried formulas",
+        "note": "'Life is Valuable': freeze-drying keeps actives potent without unnecessary preservatives. A handwritten script on kraft paper and leaf green — packaging that is honest, minimal and nature-first. The studio ran the brand from the logo through to product pages, the Instagram feed and marketing."
+      },
+      {
+        "name": "LAPIN Arc en ciel — hair and scalp care",
+        "note": "'Adventures in beauty wonderland': the brand is built as a storybook about a white rabbit. Amber apothecary bottles, illustrated labels and the rainbow, arc en ciel, as a promise of luck. The studio handled everything down to localized product pages and marketing."
+      },
+      {
+        "name": "CHAYEON — green tea toner pads",
+        "note": "'A bond with tea': the brand was made together with Boseong county and its tea fields. A hand-drawn logotype and a single green leaf on clean white — the brand is the tea field itself, with nothing added on top."
+      },
+      {
+        "name": "DEWBON — skin and body care, export to Cambodia",
+        "note": "'The beginning of beauty': the idea of dew as the cleanest starting point. Dew-soft pink with cream and gold accents and a wide serif wordmark: feminine, natural and quietly premium. The studio ran the brand end to end, including the website and shipping to Cambodia."
+      },
+      {
+        "name": "PURE.B — baby and kid skincare",
+        "note": "'Pure Baby': the brand was started by a father of two daughters with sensitive skin, and the requirement was simple — products he could use on his own children. A rounded mint logotype, pastel colour-coding by product and a sun character on the kids' sunscreen."
+      },
+      {
+        "name": "O'HER — vitamin C",
+        "note": "'Waterless · Spotless · Airless': a waterless formula, work on pigmentation and airless packaging. Cream and terracotta, amber glass and a confident all-caps wordmark. The brand was built out entirely through digital channels, from product pages to ad content."
       }
+    ],
+    "catalog_notes": [
+      "Formats built for a visible result in one use: a fifteen-minute lifting mask, a thermal plumping serum, an overnight peel.",
+      "Hero products are the Watery Tone Up Sunscreen SPF50+ PA++++ and a glass-finish lip tint in the signature red.",
+      "Hero products are the Ritual Brightening Ampoule and Cream on lily exosome, glutathione, niacinamide and a Hyal Deca complex.",
+      "A three-step routine: MaXX T Cream, Vital C Serum and D.M. Booster for brightening and wrinkles.",
+      "A goat-milk daily cream mask with collagen, niacinamide and B5, plus a bifida and caffeine firming eye patch.",
+      "Jasmine solid perfume stick: a pocket-size format that cannot spill.",
+      "Green T Bubble Mask on freeze-dried Jeju green tea, Manicua river clay and microbiome, free of preservatives, colour and fragrance.",
+      "Dreaming Shampoo and Conditioner on carrot and herb, all-day care, six-free and dermatologist tested.",
+      "Green Tea Daily Toner Pad on green tea water instead of distilled water, eight types of hyaluronic acid, EVE vegan certified.",
+      "All-in-one essential toner pads, a Blemish Balm cream and a moisturizing aromatic body wash.",
+      "Baby moisture cream and lotion with camellia RED SNOW extract and a Mild Shield Sunscreen SPF34 PA++, reef-friendly.",
+      "Real Vitamin C 30% Ampoule: 300,000 ppm in an airless pump, plus a Calming Relief toner and emulsion."
     ],
     "formats": [
       "Facial skincare",
@@ -114,6 +156,7 @@
     "lines_h": "What the work includes",
     "catalog_h": "Product catalogue",
     "tech_h": "Brands they have built",
+    "tech_note": "The cases are taken from the OBM portfolio SkinRoom sent us on 4 September 2026 and are published with the company's written consent.",
     "products_h": "Products",
     "formats_h": "Categories they work in",
     "export_h": "Export and markets",

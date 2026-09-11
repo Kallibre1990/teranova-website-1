@@ -46,25 +46,67 @@
     ],
     "tech": [
       {
-        "name": "MAOOM — le cas phare",
-        "note": "La marque propre de l'entreprise, montée de bout en bout du concept et de la formule jusqu'au commerce en ligne multilingue et à l'export. Dès la première année, elle est passée du lancement coréen à des acheteurs internationaux. Les formules sont le complexe Skin Liposomal NAD+ et une dispersion thermale à double couche, toutes deux présentées comme des développements internes."
+        "name": "maoom — cas phare, la marque propre du studio",
+        "note": "La seule marque du portfolio que le studio a bâtie pour lui-même : du concept et de la formule à l'emballage, au commerce multilingue et à l'export. Le pari portait sur des textures au résultat visible tout de suite, et non au bout d'un mois. Les développements maison sont le complexe Skin Liposomal NAD+ et une dispersion thermique à deux couches. Dès la première année, la marque est passée d'un lancement coréen à des acheteurs en Asie, en Amérique du Nord et en Europe."
       },
       {
-        "name": "Lullua — maquillage, exporté au Japon",
-        "note": "Un unique rouge laqué signature porté sur les lèvres, les joues et la protection solaire, avec un packaging monochrome brillant, de sorte que toute la ligne se lit en rayon comme un seul objet. Produits phares : protection solaire tone-up SPF50+ PA++++ et un tint à lèvres au fini verre."
+        "name": "Lullua — maquillage, export vers le Japon",
+        "note": "L'identité a été construite autour d'un seul rouge laqué et d'un « L » en croissant de lune : cushion, teinte et protection solaire, dans un emballage monochrome brillant, se lisent en rayon comme un seul objet. Le studio a mené la marque de bout en bout, y compris le choix du flacon, un site localisé, des pages produit en japonais et en anglais, le fil Instagram et l'expédition vers le Japon."
       },
       {
         "name": "LIKE CELL — biocosmétique",
-        "note": "Laboratoire et non spa : verre dépoli, typographie fine et une palette clinique de blanc et d'argent. Produits phares : ampoule et crème éclaircissantes à l'exosome de lys, glutathion, niacinamide et complexe Hyal Deca."
+        "note": "La marque repose sur l'idée d'être amie des cellules de la peau : chaque peau a sa propre beauté. Le parti pris visuel est le laboratoire plutôt que le spa — verre dépoli, typographie fine, blanc et argent cliniques. Le studio a pris en charge la planification de la marque, le logo, la planification produit, le choix du flacon et le design."
       },
       {
-        "name": "Neuf autres marques au portefeuille",
-        "note": "Cell Philia — soin. LOVE DES FACE — masques, Hong Kong. Oleaceae — parfum. LIV — formules lyophilisées. LAPIN Arc en ciel — soin capillaire. CHAYEON — thé vert. DEWBON — soin, Cambodge. PURE.B — ligne bébé et enfant. O'HER — vitamine C. Chacune avec son nom, son allure et son produit phare."
+        "name": "Cell Philia — soin éclat et anti-rides",
+        "note": "La ligne a été assemblée du naming et du logo jusqu'à l'emballage final. Bleu marine profond, or rose et emblème cellulaire floral : une allure à offrir, qui se lit comme de la dermatologie, mais avec de la chaleur."
       },
       {
-        "name": "Ce que cela signifie pour un acheteur",
-        "note": "Douze marques ne sont pas seulement de l'expérience mais quelque chose de vérifiable : chacune a un nom, un marché et un produit, plutôt qu'une ligne abstraite sur le travail à façon. Nous les restituons telles que l'entreprise les décrit elle-même dans la rubrique PORTFOLIO de son propre site."
+        "name": "LOVE DES FACE — masques et patchs, export vers Hong Kong",
+        "note": "La ligne a été menée de la planification produit jusqu'à l'expédition. Des boîtes bicolores contrastées, rouge pour le masque quotidien et caramel pour les patchs, et un cœur inscrit dans le mot LOVE : l'emballage est conçu pour ressortir en rayon à Hong Kong."
+      },
+      {
+        "name": "Oleaceae — parfum et soin parfumé",
+        "note": "La marque tire son nom de la famille des oléacées et se construit autour du parfum : un logotype botanique à empattements orné d'une feuille, des tons pierre chauds et un stick fin pour emporter le parfum avec soi. Le travail a couvert le branding, la planification produit, le choix du flacon et le design."
+      },
+      {
+        "name": "LIV — formules lyophilisées",
+        "note": "« Life is Valuable » : la lyophilisation préserve les actifs sans conservateurs superflus. Une écriture manuscrite sur kraft et un vert feuille — un emballage honnête, minimal, qui met la nature en premier. Le studio a mené la marque du logo jusqu'aux pages produit, au fil Instagram et au marketing."
+      },
+      {
+        "name": "LAPIN Arc en ciel — soin des cheveux et du cuir chevelu",
+        "note": "« Aventures au pays des merveilles de la beauté » : la marque est bâtie comme un livre d'images autour d'un lapin blanc. Flacons d'apothicaire ambrés, étiquettes illustrées et l'arc-en-ciel, arc en ciel, comme promesse de chance. Le studio a tout assuré, jusqu'aux pages produit localisées et au marketing."
+      },
+      {
+        "name": "CHAYEON — thé vert, pads toniques",
+        "note": "« Un lien avec le thé » : la marque a été créée avec le comté de Boseong et ses champs de thé. Un logotype dessiné à la main et une seule feuille verte sur blanc pur — la marque est le champ de thé lui-même, rien n'a été ajouté par-dessus."
+      },
+      {
+        "name": "DEWBON — soin visage et corps, export vers le Cambodge",
+        "note": "« Le commencement de la beauté » : à la base, l'idée de la rosée comme point de départ le plus pur. Un rose doux comme la rosée, du crème et des touches d'or, et un logotype large à empattements : féminin, naturel et discrètement premium. Le studio a mené la marque de bout en bout, site web et expédition vers le Cambodge compris."
+      },
+      {
+        "name": "PURE.B — soin bébé et enfant",
+        "note": "« Pure Baby » : la marque a été lancée par un père de deux filles à la peau sensible, et l'exigence était simple — un produit qu'il puisse appliquer à ses propres enfants. Un logotype arrondi en menthe, un code couleur pastel par produit et un personnage soleil sur la protection solaire enfant."
+      },
+      {
+        "name": "O'HER — vitamine C",
+        "note": "« Waterless · Spotless · Airless » : formule sans eau, travail sur les taches et emballage airless. Crème et terre cuite, verre ambré et un logotype affirmé en capitales. La marque a été construite entièrement en canaux numériques, des pages produit au contenu publicitaire."
       }
+    ],
+    "catalog_notes": [
+      "Des formats pensés pour un résultat visible dès une utilisation : masque liftant de quinze minutes, sérum thermique repulpant, peeling de nuit.",
+      "Produits phares : la protection solaire Watery Tone Up SPF50+ PA++++ et une teinte à lèvres finish verre dans le rouge signature.",
+      "Produits phares : l'ampoule et la crème Ritual Brightening à l'exosome de lys, glutathion, niacinamide et complexe Hyal Deca.",
+      "Un soin en trois étapes : crème MaXX T, sérum Vital C et booster D.M. pour l'éclat et les rides.",
+      "Masque crème quotidien au lait de chèvre avec collagène, niacinamide et B5, et patchs yeux raffermissants au bifida et à la caféine.",
+      "Stick de parfum solide au jasmin : un format de poche qui ne coule pas.",
+      "Green T Bubble Mask au thé vert de Jeju lyophilisé, argile de rivière Manicua et microbiome, sans conservateurs, colorants ni parfum.",
+      "Shampooing et après-shampooing Dreaming à la carotte et aux herbes, soin toute la journée, 6-free, testé dermatologiquement.",
+      "Green Tea Daily Toner Pad à l'eau de thé vert au lieu d'eau distillée, huit types d'acide hyaluronique, certifié vegan EVE.",
+      "Pads toniques tout-en-un, une crème Blemish Balm et un gel douche aromatique hydratant.",
+      "Crème et lotion hydratantes bébé à l'extrait de camélia RED SNOW et protection solaire Mild Shield SPF34 PA++, respectueuse des récifs.",
+      "Ampoule Real Vitamin C 30 % : 300 000 ppm en pompe airless, plus une lotion et une émulsion Calming Relief."
     ],
     "formats": [
       "Soin du visage",
@@ -114,6 +156,7 @@
     "lines_h": "Ce que comprend le travail",
     "catalog_h": "Catalogue de produits",
     "tech_h": "Marques déjà construites",
+    "tech_note": "Les études de cas proviennent du portfolio OBM que SKINROOM nous a transmis le 4 septembre 2026 et sont publiées avec l'accord écrit de l'entreprise.",
     "products_h": "Produits",
     "formats_h": "Catégories dans lesquelles ils travaillent",
     "export_h": "Export et marchés",

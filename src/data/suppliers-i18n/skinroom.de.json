@@ -46,25 +46,67 @@
     ],
     "tech": [
       {
-        "name": "MAOOM — der Vorzeigefall",
-        "note": "Die eigene Marke des Unternehmens, von Konzept und Rezeptur bis zu mehrsprachigem E-Commerce und Export vollständig selbst aufgebaut. Im ersten Jahr ging sie vom koreanischen Launch zu internationalen Käufern. Die Rezepturen sind der Skin-Liposomal-NAD+-Komplex und eine zweischichtige Thermaldispersion, beide als Eigenentwicklungen angegeben."
+        "name": "maoom — Flaggschiff-Fall, eigene Marke des Studios",
+        "note": "Die einzige Marke im Portfolio, die das Studio für sich selbst aufgebaut hat: von Konzept und Rezeptur über die Verpackung bis zu mehrsprachigem Handel und Export. Gesetzt wurde auf Texturen mit einem Ergebnis, das sofort sichtbar ist und nicht erst nach einem Monat. Eigenentwicklungen sind der Skin-Liposomal-NAD+-Komplex und eine zweischichtige thermische Dispersion. Im ersten Jahr ging die Marke vom Start in Korea zu Käufern in Asien, Nordamerika und Europa."
       },
       {
         "name": "Lullua — dekorative Kosmetik, Export nach Japan",
-        "note": "Ein einziges markantes Lackrot, geführt über Lippen, Wangen und Sonnenpflege, dazu glänzende monochrome Verpackung, sodass die ganze Linie im Regal als ein Objekt gelesen wird. Kernartikel: Tone-up-Sonnenschutz SPF50+ PA++++ und ein Lippentint mit Glasfinish."
+        "note": "Die Identität wurde um ein einziges Lackrot und ein sichelmondförmiges „L\" gebaut: Cushion, Tint und Sonnenschutz in glänzend monochromer Verpackung lesen sich im Regal als ein Objekt. Das Studio führte die Marke vollständig, einschließlich Flakonauswahl, lokalisierter Website, Produktseiten auf Japanisch und Englisch, Instagram-Feed und Versand nach Japan."
       },
       {
         "name": "LIKE CELL — Biokosmetik",
-        "note": "Labor statt Spa: mattiertes Glas, feine Typografie und eine klinische Palette aus Weiß und Silber. Kernartikel: aufhellende Ampulle und Creme mit Lilien-Exosom, Glutathion, Niacinamid und Hyal-Deca-Komplex."
+        "note": "Die Marke beruht auf dem Gedanken, hautzellfreundlich zu sein: jede Haut hat ihre eigene Schönheit. Der Auftritt wurde als Labor und nicht als Spa angelegt — mattiertes Glas, feine Typografie, klinisches Weiß und Silber. Das Studio übernahm Markenplanung, Logo, Produktplanung, Flakonauswahl und Gestaltung."
       },
       {
-        "name": "Neun weitere Marken im Portfolio",
-        "note": "Cell Philia — Hautpflege. LOVE DES FACE — Masken, Hongkong. Oleaceae — Duft. LIV — gefriergetrocknete Rezepturen. LAPIN Arc en ciel — Haarpflege. CHAYEON — Grüntee. DEWBON — Hautpflege, Kambodscha. PURE.B — Baby und Kinder. O'HER — Vitamin C. Jede mit eigenem Namen, eigenem Auftritt und eigenem Kernprodukt."
+        "name": "Cell Philia — Pflege für Aufhellung und Falten",
+        "note": "Die Linie entstand vom Naming und Logo bis zur finalen Verpackung. Tiefes Marineblau mit Roségold und einem floralen Zellemblem: ein geschenktauglicher Auftritt, der sich wie Dermatologie mit Wärme liest."
       },
       {
-        "name": "Was das für einen Käufer bedeutet",
-        "note": "Zwölf Marken sind nicht nur Erfahrung, sondern etwas Überprüfbares: Jede hat einen Namen, einen Markt und ein Produkt statt einer abstrakten Zeile über Auftragsarbeit. Wir geben sie so wieder, wie das Unternehmen sie selbst im Bereich PORTFOLIO seiner eigenen Website beschreibt."
+        "name": "LOVE DES FACE — Masken und Augenpads, Export nach Hongkong",
+        "note": "Die Linie wurde von der Produktplanung bis zur Verschiffung geführt. Kontrastreiche zweifarbige Schachteln, Rot für die tägliche Maske und Karamell für die Pads, dazu ein Herz im Wort LOVE: Die Verpackung ist darauf ausgelegt, im Regal in Hongkong aufzufallen."
+      },
+      {
+        "name": "Oleaceae — Duft und parfümierte Pflege",
+        "note": "Die Marke ist nach der Familie der Ölbaumgewächse benannt und um den Duft herum gebaut: eine botanische Serifen-Wortmarke mit Blatt, warme Steintöne und ein schlanker Stick, um den Duft mitzunehmen. Die Arbeit umfasste Branding, Produktplanung, Flakonauswahl und Gestaltung."
+      },
+      {
+        "name": "LIV — gefriergetrocknete Rezepturen",
+        "note": "„Life is Valuable\": Die Gefriertrocknung erhält die Wirkstoffe ohne überflüssige Konservierungsmittel. Handschrift auf Kraftpapier und Blattgrün — eine ehrliche, minimale Verpackung, die die Natur voranstellt. Das Studio führte die Marke vom Logo bis zu Produktseiten, Instagram-Feed und Marketing."
+      },
+      {
+        "name": "LAPIN Arc en ciel — Haar- und Kopfhautpflege",
+        "note": "„Abenteuer im Wunderland der Schönheit\": Die Marke ist als Bilderbuch über ein weißes Kaninchen angelegt. Bernsteinfarbene Apothekerflaschen, illustrierte Etiketten und der Regenbogen, arc en ciel, als Versprechen von Glück. Das Studio verantwortete alles bis hin zu lokalisierten Produktseiten und Marketing."
+      },
+      {
+        "name": "CHAYEON — grüner Tee, Toner-Pads",
+        "note": "„Eine Verbindung zum Tee\": Die Marke entstand gemeinsam mit dem Landkreis Boseong und seinen Teefeldern. Ein handgezeichneter Schriftzug und ein einzelnes grünes Blatt auf reinem Weiß — die Marke ist das Teefeld selbst, mehr wurde nicht hinzugefügt."
+      },
+      {
+        "name": "DEWBON — Gesichts- und Körperpflege, Export nach Kambodscha",
+        "note": "„Der Anfang der Schönheit\": zugrunde liegt der Tau als reinster Ausgangspunkt. Tauweiches Rosa mit Creme und Goldakzenten und eine breite Serifen-Wortmarke: feminin, natürlich und leise premium. Das Studio führte die Marke vollständig, einschließlich Website und Versand nach Kambodscha."
+      },
+      {
+        "name": "PURE.B — Baby- und Kinderpflege",
+        "note": "„Pure Baby\": Die Marke begann ein Vater zweier Töchter mit empfindlicher Haut, und die Anforderung war einfach — es musste etwas sein, das er den eigenen Kindern auftragen kann. Ein runder Schriftzug in Mint, pastellfarbene Produktcodierung und eine Sonnenfigur auf dem Kindersonnenschutz."
+      },
+      {
+        "name": "O'HER — Vitamin C",
+        "note": "„Waterless · Spotless · Airless\": wasserfreie Rezeptur, Arbeit an Pigmentflecken und Airless-Verpackung. Creme und Terrakotta, Bernsteinglas und eine selbstbewusste Wortmarke in Großbuchstaben. Die Marke wurde vollständig über digitale Kanäle aufgebaut, von Produktseiten bis zu Werbeinhalten."
       }
+    ],
+    "catalog_notes": [
+      "Formate für ein sichtbares Ergebnis nach einer Anwendung: eine 15-Minuten-Liftingmaske, ein thermisches Serum für Spannkraft, ein Overnight-Peeling.",
+      "Hauptprodukte sind der Watery Tone Up Sonnenschutz SPF50+ PA++++ und ein Lip Tint mit Glasfinish im Signaturrot.",
+      "Hauptprodukte sind die Ritual Brightening Ampoule und Creme mit Lilien-Exosom, Glutathion, Niacinamid und Hyal-Deca-Komplex.",
+      "Pflege in drei Schritten: MaXX T Cream, Vital C Serum und D.M. Booster für Aufhellung und Falten.",
+      "Tägliche Crememaske mit Ziegenmilch, Kollagen, Niacinamid und B5 sowie straffende Augenpads mit Bifida und Koffein.",
+      "Fester Parfumstick mit Jasmin: ein Taschenformat, das nicht ausläuft.",
+      "Green T Bubble Mask mit gefriergetrocknetem Jeju-Grüntee, Manicua-Flusston und Mikrobiom, ohne Konservierungsstoffe, Farbstoffe und Duft.",
+      "Dreaming Shampoo und Conditioner mit Karotte und Kräutern, Pflege für den ganzen Tag, 6-frei, dermatologisch getestet.",
+      "Green Tea Daily Toner Pad mit Grünteewasser statt destilliertem Wasser, acht Arten Hyaluronsäure, EVE-Vegan-Zertifikat.",
+      "All-in-one-Toner-Pads, eine Blemish-Balm-Creme und ein feuchtigkeitsspendendes aromatisches Duschgel.",
+      "Baby-Feuchtigkeitscreme und -lotion mit Kamelienextrakt RED SNOW und der riff-freundliche Mild Shield Sonnenschutz SPF34 PA++.",
+      "Real Vitamin C 30% Ampoule: 300.000 ppm in einer Airless-Pumpe, dazu Toner und Emulsion Calming Relief."
     ],
     "formats": [
       "Gesichtspflege",
@@ -114,6 +156,7 @@
     "lines_h": "Was die Arbeit umfasst",
     "catalog_h": "Produktkatalog",
     "tech_h": "Gebaute Marken",
+    "tech_note": "Die Fallbeispiele stammen aus dem OBM-Portfolio, das SKINROOM uns am 4. September 2026 übergeben hat, und werden mit schriftlicher Zustimmung des Unternehmens veröffentlicht.",
     "products_h": "Produkte",
     "formats_h": "Kategorien, in denen gearbeitet wird",
     "export_h": "Export und Märkte",
