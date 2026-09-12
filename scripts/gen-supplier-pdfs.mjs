@@ -350,6 +350,16 @@ const SUPPLIERS = [
     certs: ['0,00'],
   },
   {
+    /* AGERA BioTech / AGERIN. Материалы и согласие на подготовку профиля от
+       12.09.2026. Прайс и минимальные партии переданы с пометкой CONFIDENTIAL
+       и письмом прямо запрещены к публикации, поэтому noPrice. */
+    id: 'agerin', json: 'agerin', supplier: 'AGERA BioTech, Inc.', brand: 'AGERIN',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#173A32', sky: '#2E7D5B', bg: '#F3F6EF', line: '#D7E3D6' },
+    pres: true,
+    certs: ['CPNP', 'MoCRA', 'VEGAN', 'Cruelty-free'],
+  },
+  {
     /* Профессиональная сторона FAU. Прайс не публикуем: вопрос о публикации
        экспортных цен задан компании 05.09.2026 по R-022, решение за ней. */
     id: 'fau', json: 'fau', supplier: 'FAU CO., LTD.', brand: 'FAU',

@@ -108,6 +108,7 @@ const SUPPLIERS = {
   maoom: { eyebrow: 'Supplier profile', title: 'MAOOM — Korean NAD skincare with a result in one use', accent: '#E2231A' },
   skinroom: { eyebrow: 'Supplier profile', title: 'SkinRoom — Korean OBM studio: your own brand in 90 days', accent: '#C9A227' },
   'rnh-bio': { eyebrow: 'Supplier profile', title: 'RNH BIO · EXOLUNA — Korean exosomes made in-house, for scalp care and clinics', accent: '#67BE45' },
+  agerin: { eyebrow: 'Supplier profile', title: 'AGERIN by AGERA BioTech — Korean derma-cosmetics on a patented Ageratum extract', accent: '#2E7D5B' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

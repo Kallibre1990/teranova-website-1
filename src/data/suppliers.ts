@@ -167,6 +167,18 @@ import fauTr from './suppliers-i18n/fau.tr.json';
 import fauEs from './suppliers-i18n/fau.es.json';
 import fauPt from './suppliers-i18n/fau.pt.json';
 import fauCatalog from './suppliers-i18n/fau.catalog.json';
+import agerinRu from './suppliers-i18n/agerin.ru.json';
+import agerinEn from './suppliers-i18n/agerin.en.json';
+import agerinKo from './suppliers-i18n/agerin.ko.json';
+import agerinZh from './suppliers-i18n/agerin.zh.json';
+import agerinJa from './suppliers-i18n/agerin.ja.json';
+import agerinIt from './suppliers-i18n/agerin.it.json';
+import agerinDe from './suppliers-i18n/agerin.de.json';
+import agerinFr from './suppliers-i18n/agerin.fr.json';
+import agerinTr from './suppliers-i18n/agerin.tr.json';
+import agerinEs from './suppliers-i18n/agerin.es.json';
+import agerinPt from './suppliers-i18n/agerin.pt.json';
+import agerinCatalog from './suppliers-i18n/agerin.catalog.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -1884,6 +1896,46 @@ export const suppliers: SupplierProfile[] = [
       ru: mk(aoiRu as any), en: mk(aoiEn as any), ko: mk(aoiKo as any), zh: mk(aoiZh as any),
       ja: mk(aoiJa as any), it: mk(aoiIt as any), de: mk(aoiDe as any), fr: mk(aoiFr as any),
       tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any),
+    },
+  },
+  {
+    slug: 'agerin',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'AGERA BioTech, Inc.',
+    brand: 'AGERIN',
+    status: 'provided',
+    /* Глубокий зелёный снят с крышки тюбика, светлый фон — с их собственных
+       пакшотов. Вся съёмка бренда выдержана в ботанически-лабораторной гамме. */
+    brandColors: { deep: '#173A32', sky: '#7FA88C', accent: '#2E7D5B', bg: '#F3F6EF' },
+    voice: 'clinical',
+    /* Каталог собран по презентации бренда 2026 года и прайсу, переданным
+       компанией 12.09.2026 вместе с письменным согласием на подготовку профиля.
+       Восемь позиций — это вся линия целиком, суб-линеек у бренда нет.
+       Вторые ракурсы тех же восьми съёмок вынесены в галерею. */
+    catalog: agerinCatalog,
+    gallery: [
+      '/img/suppliers/agerin/gallery/skin-barrier-itch-cream-lab.jpg',
+      '/img/suppliers/agerin/gallery/spot-barrier-cream-lab.jpg',
+      '/img/suppliers/agerin/gallery/essence-toner-lab.jpg',
+      '/img/suppliers/agerin/gallery/lift-recharging-mask-lab.jpg',
+      '/img/suppliers/agerin/gallery/hydrate-uv-defense-lab.jpg',
+      '/img/suppliers/agerin/gallery/facial-cleansing-pads-lab.jpg',
+      '/img/suppliers/agerin/gallery/hydrating-barrier-exfoliating-gel-lab.jpg',
+      '/img/suppliers/agerin/gallery/hydrating-cream-to-foam-cleanser-lab.jpg',
+    ],
+    termsFile: { ru: '/docs/agerin-terms-ru.pdf', en: '/docs/agerin-terms-en.pdf', ko: '/docs/agerin-terms-ko.pdf', zh: '/docs/agerin-terms-zh.pdf', ja: '/docs/agerin-terms-ja.pdf', it: '/docs/agerin-terms-it.pdf', de: '/docs/agerin-terms-de.pdf', fr: '/docs/agerin-terms-fr.pdf', tr: '/docs/agerin-terms-tr.pdf', es: '/docs/agerin-terms-es.pdf', pt: '/docs/agerin-terms-pt.pdf' },
+    presFile: { ru: '/docs/agerin-presentation-ru.pdf', en: '/docs/agerin-presentation-en.pdf', ko: '/docs/agerin-presentation-ko.pdf', zh: '/docs/agerin-presentation-zh.pdf', ja: '/docs/agerin-presentation-ja.pdf', it: '/docs/agerin-presentation-it.pdf', de: '/docs/agerin-presentation-de.pdf', fr: '/docs/agerin-presentation-fr.pdf', tr: '/docs/agerin-presentation-tr.pdf', es: '/docs/agerin-presentation-es.pdf', pt: '/docs/agerin-presentation-pt.pdf' },
+    certs: ['CPNP', 'MoCRA', 'VEGAN', 'Cruelty-free'],
+    /* priceFile нет намеренно: компания передала экспортный прайс и минимальные
+       партии с пометкой CONFIDENTIAL и письмом от 12.09.2026 прямо запретила
+       публиковать их на платформе. */
+    i18n: {
+      ru: mk(agerinRu as any),
+      en: mk(agerinEn as any),
+      ko: mk(agerinKo as any), zh: mk(agerinZh as any), ja: mk(agerinJa as any),
+      it: mk(agerinIt as any), de: mk(agerinDe as any), fr: mk(agerinFr as any),
+      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any),
     },
   },
   {

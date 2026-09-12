@@ -1,0 +1,20 @@
+---
+/* Профиль поставщика: agerin — AGERA BioTech, Inc., бренд AGERIN.
+   Материалы и письменное согласие на подготовку профиля получены 12.09.2026.
+   Публикация — только после письменного одобрения текстов компанией.
+   Экспортный прайс и минимальные партии переданы как конфиденциальные и на
+   платформе не публикуются. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('agerin')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
