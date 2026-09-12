@@ -9,6 +9,22 @@ interface Props {
 const { lang } = Astro.props;
 const t = ui[lang];
 const a = t.about_home;
+/* Три кадра рабочих визитов вместо заглушки «Здесь появятся реальные фото».
+   Задача T-20260911-006, recovery T-20260911-008, решение Codex 11.09.2026.
+
+   Источник различим на КАЖДОМ кадре, а не только в общей подписи: производственный
+   кадр прислал производитель после нашего визита, два других сняли мы сами.
+   Смешать их под одной подписью значило бы выдать чужую съёмку за свою.
+
+   Названий компаний, адресов и дат нет — решение Антона D-566. Кадры не ведут в
+   профили: ссылка раскрыла бы компанию не хуже подписи. Происхождение каждого
+   файла — в docs/IMAGERY-MANIFEST.md. */
+const shots = [
+  { img: assetPhoto('about', 'visit-cleanroom'), alt: a.alt_cleanroom, tag: a.label_maker, maker: true },
+  { img: assetPhoto('about', 'visit-showroom'), alt: a.alt_showroom, tag: a.label_ours, maker: false },
+  { img: assetPhoto('about', 'visit-warehouse'), alt: a.alt_warehouse, tag: a.label_ours, maker: false },
+];
+const complete = shots.every((x) => Boolean(x.img));
 const photo = assetPhoto('about', 'about-home');
 ---
 
@@ -18,7 +34,7 @@ const photo = assetPhoto('about', 'about-home');
       <span class="sup">( {a.sup} )</span>
       <h2 class="h-section">{a.title}</h2>
       <p class="sub-section">{a.body}</p>
-      <a class="link-arrow abouth__link" href={localizePath('/about', lang)}>
+      <a class="link-arrow abouth__link" href={localizePath('/how-we-verify', lang)}>
         {a.cta}
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -26,7 +42,26 @@ const photo = assetPhoto('about', 'about-home');
 
     <div class="abouth__media">
       {
-        photo ? (
+        complete ? (
+          <figure class="abouth__set">
+            {shots.map((x, n) => (
+              <div class={`abouth__frame${n === 0 ? ' abouth__frame--lead' : ''}`}>
+                <Image
+                  class="abouth__shot"
+                  src={x.img!}
+                  alt={x.alt}
+                  widths={n === 0 ? [520, 834] : [260, 520]}
+                  sizes={n === 0 ? '(max-width: 880px) 92vw, 520px' : '(max-width: 880px) 46vw, 256px'}
+                  format="webp"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class={`abouth__tag${x.maker ? ' abouth__tag--maker' : ''}`}>{x.tag}</span>
+              </div>
+            ))}
+            <figcaption class="abouth__cap">{a.photo_caption}</figcaption>
+          </figure>
+        ) : photo ? (
           <Image class="abouth__photo" src={photo} alt={a.photo_note} widths={[480, 960]} sizes="(max-width: 880px) 92vw, 460px" format="webp" loading="lazy" decoding="async" />
         ) : (
           <div class="photo-slot" role="img" aria-label={a.photo_note}>
@@ -65,5 +100,45 @@ const photo = assetPhoto('about', 'about-home');
   .photo-slot__glyph { position: relative; width: 92px; height: 92px; color: var(--cobalt-light); filter: drop-shadow(0 8px 20px rgba(37, 99, 212, 0.4)); }
   .photo-slot__note { position: relative; font-size: 0.82rem; color: var(--silver-muted); text-align: center; max-width: 32ch; line-height: 1.5; }
 
+  /* Композиция: крупный кадр сверху, два поддерживающих под ним. Сетка, а не
+     слайдер: блок про доверие не должен двигаться сам. */
+  .abouth__set { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0; }
+  .abouth__frame {
+    position: relative; overflow: hidden;
+    aspect-ratio: 4 / 3;
+    border-radius: var(--r-lg); border: 1px solid var(--navy-3); box-shadow: var(--sh-l);
+    background: var(--navy-deep);
+  }
+  .abouth__frame--lead { grid-column: 1 / -1; aspect-ratio: 16 / 9; border-radius: var(--r-xl); }
+  /* sizes в разметке обязан совпадать с реальной шириной кадра: при 1440 и 1920
+     крупный кадр 513 px, малые 249 px. Заниженный sizes заставлял браузер брать
+     файл 459 и 224 px и растягивать его — кадр мылился. Исходник цеха 834 px,
+     больше из PDF не получить, поэтому верхний вариант крупного кадра — 834. */
+  .abouth__shot { width: 100%; height: 100%; object-fit: cover; display: block; }
+  /* Метка источника на самом кадре. Небольшая и спокойная: она объясняет, чья
+     это съёмка, а не рекламирует. У кадра, который производитель прислал после
+     нашего личного визита, край золотой, у нашей съёмки серебряный — различие
+     видно, даже не читая текст. */
+  .abouth__tag {
+    position: absolute; left: 10px; bottom: 10px; max-width: calc(100% - 20px);
+    padding: 4px 9px; border-radius: 999px;
+    font-size: 0.7rem; font-weight: 600; line-height: 1.3; letter-spacing: 0.01em;
+    color: #eef2f7; background: rgba(7, 18, 36, 0.74);
+    border: 1px solid rgba(203, 212, 224, 0.42);
+    backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .abouth__tag--maker { border-color: rgba(201, 164, 96, 0.7); }
+  .abouth__cap {
+    grid-column: 1 / -1; margin-top: 2px;
+    font-size: 0.78rem; line-height: 1.5; color: var(--silver-muted);
+  }
+
   @media (max-width: 880px) { .abouth__grid { grid-template-columns: 1fr; gap: 32px; } }
+  @media (max-width: 440px) {
+    /* На узком экране два кадра по 4:3 рядом становятся марками: делаем их
+       квадратными, а метку мельче, чтобы она не закрывала сюжет. */
+    .abouth__frame:not(.abouth__frame--lead) { aspect-ratio: 1 / 1; }
+    .abouth__tag { left: 7px; bottom: 7px; padding: 3px 7px; font-size: 0.64rem; }
+  }
 </style>

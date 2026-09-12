@@ -465,11 +465,17 @@ const de: DeepPartial<UIDict> = {
   },
 
   about_home: {
-    sup: "Über uns",
-    title: "Echte Menschen und persönliche Werksbesuche",
-    body: "Teranova findet Hersteller in Korea, prüft sie — bis hin zum persönlichen Besuch vor Ort im Werk — und führt das Geschäft von der ersten Anfrage bis zum Erhalt der Ware. Ein verantwortlicher Partner statt einer Kette von Zwischenhändlern.",
+    sup: "So prüfen wir",
+    title: "Wir prüfen mehr als Dokumente",
+    body: "Wir treffen Hersteller in Korea, besuchen ihre Standorte und sichten Unterlagen zur Produktion. So verstehen wir vor Beginn eines Geschäfts, wie ein Unternehmen tatsächlich arbeitet.",
+    cta: "So läuft die Prüfung ab",
     photo_note: "Hier kommen echte Fotos hin: der Gründer, das Team und die Werksbesuche.",
-    cta: "Mehr über das Unternehmen",
+    photo_caption: "Fotos von persönlichen Besuchen: teils von Teranova aufgenommen, teils nach den Treffen von den Herstellern bereitgestellt.",
+    label_maker: "Persönlicher Besuch · Firmenfoto",
+    label_ours: "Foto Teranova",
+    alt_cleanroom: "Reinraum in der Produktion: Mitarbeiter in Schutzanzügen an der Anlage",
+    alt_showroom: "Showroom eines Herstellers mit Produktmustern",
+    alt_warehouse: "Lagerbereich mit Gabelstapler und Produktkartons",
   },
 
   marine_home: {

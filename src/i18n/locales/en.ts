@@ -159,11 +159,17 @@ export const en: UIDict = {
   },
 
   about_home: {
-    sup: 'About us',
-    title: 'Real people and personal factory visits',
-    body: 'Teranova finds manufacturers in Korea, verifies them — up to a personal on-site visit to the factory — and runs the deal from the first request to receipt of the goods. One accountable partner instead of a chain of middlemen.',
+    sup: 'How we verify',
+    title: 'We check more than documents',
+    body: 'We meet manufacturers in Korea, visit their working sites and study materials about their production. It helps us understand how a company actually works before a deal begins.',
+    cta: 'How verification works',
     photo_note: 'Real photos will go here: the founder, the team, factory visits.',
-    cta: 'More about the company',
+    photo_caption: 'Photos from in-person visits: some taken by Teranova, some provided by manufacturers after the meetings.',
+    label_maker: 'In-person visit · photo from the company',
+    label_ours: 'Teranova photo',
+    alt_cleanroom: 'Clean production room: operators in protective suits at the equipment',
+    alt_showroom: 'Manufacturer showroom with product samples',
+    alt_warehouse: 'Warehouse area with a forklift and boxed products',
   },
 
   marine_home: {

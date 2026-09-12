@@ -465,11 +465,17 @@ const zh: DeepPartial<UIDict> = {
   },
 
   about_home: {
-    sup: "关于我们",
-    title: "真实的团队与亲赴工厂的实地走访",
-    body: "Teranova 在韩国寻找制造商并对其进行核验——直至亲赴工厂现场实地走访——并从首次需求到收货全程把控交易。一个负责到底的合作伙伴，取代层层中间商。",
+    sup: "我们如何核验",
+    title: "我们核验的不只是文件",
+    body: "我们在韩国与制造商会面，走访其工作场地，并研究其生产相关资料。这有助于在交易开始前了解企业的实际运作方式。",
+    cta: "了解核验流程",
     photo_note: "此处将放置真实照片：团队与工厂走访。",
-    cta: "了解更多关于公司",
+    photo_caption: "亲自走访的照片：部分由 Teranova 拍摄，部分由制造商在会面后提供。",
+    label_maker: "亲自走访 · 企业提供照片",
+    label_ours: "Teranova 拍摄",
+    alt_cleanroom: "洁净生产车间：身穿防护服的操作人员在设备旁",
+    alt_showroom: "陈列产品样品的制造商展厅",
+    alt_warehouse: "有叉车和产品箱的仓储区",
   },
 
   marine_home: {
