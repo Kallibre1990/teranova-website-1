@@ -233,6 +233,18 @@ import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
 import jetsglobalCatalog from './suppliers-i18n/jetsglobal.catalog.json';
 import pineworldCatalog from './suppliers-i18n/pineworld.catalog.json';
 import kiftCatalog from './suppliers-i18n/kift.catalog.json';
+import caycllyRu from './suppliers-i18n/cayclly.ru.json';
+import caycllyEn from './suppliers-i18n/cayclly.en.json';
+import caycllyKo from './suppliers-i18n/cayclly.ko.json';
+import caycllyZh from './suppliers-i18n/cayclly.zh.json';
+import caycllyJa from './suppliers-i18n/cayclly.ja.json';
+import caycllyIt from './suppliers-i18n/cayclly.it.json';
+import caycllyDe from './suppliers-i18n/cayclly.de.json';
+import caycllyFr from './suppliers-i18n/cayclly.fr.json';
+import caycllyTr from './suppliers-i18n/cayclly.tr.json';
+import caycllyEs from './suppliers-i18n/cayclly.es.json';
+import caycllyPt from './suppliers-i18n/cayclly.pt.json';
+import cayclyCatalog from './suppliers-i18n/cayclly.catalog.json';
 import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
 import tdlCatalog from './suppliers-i18n/three-days-love.catalog.json';
 import licorneCatalog from './suppliers-i18n/licorne.catalog.json';
@@ -1086,6 +1098,36 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(pineTr as any),
       es: mk(pineEs as any),
       pt: mk(pinePt as any),
+    },
+  },
+  {
+    slug: 'cayclly',
+    category: 'cosmetics',
+    name: 'CAYCLLY CO., LTD.',
+    brand: 'CAYCLLY',
+    status: 'provided',
+    brandColors: { deep: '#5a2230', sky: '#c98b93', accent: '#a8394a', bg: '#faf1f1' },
+    voice: 'clinical',
+    catalog: cayclyCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: {
+      ru: '/docs/cayclly-terms-ru.pdf', en: '/docs/cayclly-terms-en.pdf', ko: '/docs/cayclly-terms-ko.pdf', zh: '/docs/cayclly-terms-zh.pdf', ja: '/docs/cayclly-terms-ja.pdf', it: '/docs/cayclly-terms-it.pdf', de: '/docs/cayclly-terms-de.pdf', fr: '/docs/cayclly-terms-fr.pdf', tr: '/docs/cayclly-terms-tr.pdf', es: '/docs/cayclly-terms-es.pdf', pt: '/docs/cayclly-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/cayclly-presentation-ru.pdf', en: '/docs/cayclly-presentation-en.pdf', ko: '/docs/cayclly-presentation-ko.pdf', zh: '/docs/cayclly-presentation-zh.pdf', ja: '/docs/cayclly-presentation-ja.pdf', it: '/docs/cayclly-presentation-it.pdf', de: '/docs/cayclly-presentation-de.pdf', fr: '/docs/cayclly-presentation-fr.pdf', tr: '/docs/cayclly-presentation-tr.pdf', es: '/docs/cayclly-presentation-es.pdf', pt: '/docs/cayclly-presentation-pt.pdf',
+    },
+    certs: [],
+    i18n: {
+      ru: mk(caycllyRu as any),
+      en: mk(caycllyEn as any),
+      ko: mk(caycllyKo as any),
+      zh: mk(caycllyZh as any),
+      ja: mk(caycllyJa as any),
+      it: mk(caycllyIt as any),
+      de: mk(caycllyDe as any),
+      fr: mk(caycllyFr as any),
+      tr: mk(caycllyTr as any),
+      es: mk(caycllyEs as any),
+      pt: mk(caycllyPt as any),
     },
   },
   {
