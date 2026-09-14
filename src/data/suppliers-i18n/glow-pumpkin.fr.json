@@ -67,6 +67,10 @@
       "Lip plumper et sérum pour cils"
     ],
     "exportNote": "L'entreprise annonce des exportations vers quarante-cinq pays. L'Amérique latine reste néanmoins presque inoccupée, et l'Amérique du Nord compte des partenaires sans couverture significative. L'entreprise a confirmé par écrit que nous pouvons présenter FAU aux acheteurs des deux Amériques.",
+    "promo": {
+      "label": "Promotion d'Halloween",
+      "text": "Conditions spéciales sur la ligne Pumpkin (Shiny et Glow) du 7 septembre au 6 octobre 2026. Détails sur demande."
+    },
     "terms": [
       {
         "label": "Formes de coopération",
@@ -82,7 +86,7 @@
       },
       {
         "label": "Prix",
-        "value": "Le tarif export n'est pas publié dans l'attente d'une décision distincte de l'entreprise. Les conditions passent par Teranova sur demande sérieuse."
+        "value": "Le tarif export n'est pas publié, par décision de l'entreprise. Les conditions passent par Teranova sur demande sérieuse."
       },
       {
         "label": "Documents",
