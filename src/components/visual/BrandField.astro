@@ -118,7 +118,7 @@ const uid = `bf${(h % 100000).toString(36)}`;
         <g>
           <circle cx="1250" cy="150" r="118" fill="none" stroke="var(--ds-deep)" stroke-opacity="0.22" stroke-width="1.5" />
           <path d="M1192 150h116M1250 92v116" stroke="var(--ds-deep)" stroke-opacity="0.14" stroke-width="1" />
-          <path d="M0 566h1440" stroke="var(--ds-accent)" stroke-opacity="0.5" stroke-width="2" />
+          <path class="bfd__rule" d="M0 566h1440" stroke="var(--ds-accent)" stroke-opacity="0.5" stroke-width="2" />
         </g>
       )
     }
@@ -128,4 +128,8 @@ const uid = `bf${(h % 100000).toString(36)}`;
 <style>
   .bfd { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
   .bfd svg { width: 100%; height: 100%; display: block; }
+  /* Линия у minimal стоит на фиксированной высоте кадра. Кадр режется по
+     ширине (slice), поэтому на узком экране линия поднимается в зону текста
+     и перечёркивает метку страны. На телефоне она не нужна: это декор. */
+  @media (max-width: 620px) { .bfd__rule { display: none; } }
 </style>

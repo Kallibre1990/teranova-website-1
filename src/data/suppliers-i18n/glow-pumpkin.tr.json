@@ -67,6 +67,10 @@
       "Dudak dolgunlaştırıcı ve kirpik serumu"
     ],
     "exportNote": "Şirket kırk beş ülkeye ihracat belirtiyor. Yine de Latin Amerika neredeyse el değmemiş durumda ve Kuzey Amerika'da anlamlı kapsaması olmayan ortaklar var. Şirket, FAU'yu her iki Amerika'daki alıcılara tanıtabileceğimizi yazılı olarak teyit etti.",
+    "promo": {
+      "label": "Cadılar Bayramı kampanyası",
+      "text": "Pumpkin serisinde (Shiny ve Glow) özel koşullar, 7 Eylül – 6 Ekim 2026. Ayrıntılar talep üzerine."
+    },
     "terms": [
       {
         "label": "İşbirliği biçimleri",
@@ -82,7 +86,7 @@
       },
       {
         "label": "Fiyat",
-        "value": "İhracat fiyat listesi, şirketin ayrı kararına kadar yayımlanmaz. Ciddi bir talepte koşullar Teranova üzerinden iletilir."
+        "value": "İhracat fiyat listesi, şirketin kararı gereği yayımlanmaz. Ciddi bir talepte koşullar Teranova üzerinden iletilir."
       },
       {
         "label": "Belgeler",

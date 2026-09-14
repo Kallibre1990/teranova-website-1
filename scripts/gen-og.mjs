@@ -102,6 +102,7 @@ const SUPPLIERS = {
   aberede: { eyebrow: 'Supplier profile', title: 'ABEREDE by Lubedecacorn Global — Korean vegan derma-cosmetics', accent: '#CE3A32' },
   aoi: { eyebrow: 'Supplier profile', title: 'aoi by Red Purple Blue — Korean skincare with concentrations shown openly', accent: '#D96A93' },
   fau: { eyebrow: 'Supplier profile', title: 'FAU — Korean professional aesthetic skincare, ten lines for the treatment room', accent: '#EE6C1F' },
+  sprx: { eyebrow: 'Supplier profile', title: 'SPRX — Korean health functional foods for weight control', accent: '#B9616D' },
   'glow-pumpkin': { eyebrow: 'Supplier profile', title: 'Glow Pumpkin by FAU — the Korean retail line: peel, cushions and SPF 50+', accent: '#F97316' },
   hanscos: { eyebrow: 'Supplier profile', title: 'HANSCOS — Korean OEM/ODM cosmetics plant with in-house packaging', accent: '#4E8299' },
   joycos: { eyebrow: 'Supplier profile', title: 'Joycos — black ginseng, honey and make-up from Seoul', accent: '#A9793A' },

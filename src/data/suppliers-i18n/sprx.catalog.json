@@ -1,0 +1,62 @@
+[
+  {
+    "line": "Health functional foods",
+    "items": [
+      {
+        "name": "Watermix Zero Grapefruit",
+        "img": "/img/suppliers/sprx/products/watermix-zero-grapefruit.jpg",
+        "volume": "9 g × 21 sticks · 189 g",
+        "certs": ["MFDS health functional food"],
+        "actives": ["Patented Garcinia cambogia extract", "Patented resistant maltodextrin", "Vitamin C", "Vitamin B1"]
+      },
+      {
+        "name": "Watermix Zero Shine Muscat",
+        "img": "/img/suppliers/sprx/products/watermix-zero-shine-muscat.jpg",
+        "volume": "9 g × 21 sticks · 189 g",
+        "certs": ["MFDS health functional food"],
+        "actives": ["Patented Garcinia cambogia extract", "Patented resistant maltodextrin", "Vitamin C", "Vitamin B1"]
+      },
+      {
+        "name": "Three Out",
+        "img": "/img/suppliers/sprx/products/three-out.jpg",
+        "volume": "500 mg × 90 capsules · 45 g",
+        "certs": ["MFDS health functional food"],
+        "actives": ["Patented Garcinia cambogia extract", "Patented probiotics", "Pantothenic acid"]
+      }
+    ]
+  },
+  {
+    "line": "Meal replacement and calorie care",
+    "items": [
+      {
+        "name": "Poman Fullness Shake Green Coffee Bean",
+        "img": "/img/suppliers/sprx/products/poman-fullness-shake.jpg",
+        "volume": "30 g × 15 sticks · 450 g · 113 kcal per serving",
+        "actives": ["Green coffee bean extract", "Alginate", "Glucomannan", "Protein powder"]
+      },
+      {
+        "name": "Alpha CD Calozero",
+        "img": "/img/suppliers/sprx/products/alpha-cd-calozero.jpg",
+        "volume": "3 g × 14 sticks · 42 g",
+        "actives": ["Alpha-cyclodextrin, 100 % US-sourced", "Resistant maltodextrin"]
+      }
+    ]
+  },
+  {
+    "line": "Daily wellness",
+    "items": [
+      {
+        "name": "Westick Enzyme",
+        "img": "/img/suppliers/sprx/products/we-stick-enzyme.jpg",
+        "volume": "3 g × 30 sticks · 90 g",
+        "actives": ["Mastic powder", "Five-S fermented grain enzyme SP"]
+      },
+      {
+        "name": "First Olive and Tomato Shot",
+        "img": "/img/suppliers/sprx/products/first-olive-tomato-shot.jpg",
+        "volume": "15 g × 14 sticks · 210 g",
+        "actives": ["Organic red tomato NFC juice 60 %", "Organic extra virgin olive oil 36.92 %"]
+      }
+    ]
+  }
+]
