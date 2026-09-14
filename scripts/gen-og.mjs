@@ -87,6 +87,7 @@ const SUPPLIERS = {
   'ck-regeon': { eyebrow: 'Supplier profile', title: 'CK REGEON — Korean scalp & hair care science', accent: '#4fbfae' },
   jetsglobal: { eyebrow: 'Supplier profile', title: 'TOM-TIT-TOT by JETSGLOBAL — Korean aesthetic skincare', accent: '#c19a5b' },
   pineworld: { eyebrow: 'Supplier profile', title: 'RAVIEL by PINE WORLD — Korean skincare (brightening, firmness, hydration)', accent: '#c68aa6' },
+  cayclly: { eyebrow: 'Supplier profile', title: 'CAYCLLY — Korean clean beauty · beer-yeast hair care', accent: '#a8394a' },
   kift: { eyebrow: 'Supplier profile', title: 'KIFT — Korean all-in-one high-efficiency skincare', accent: '#2f6fb0' },
   icelmedi: { eyebrow: 'Supplier profile', title: 'iCELmedi — cellmedics cosmeceuticals & KERASON devices', accent: '#17788f' },
   'three-days-love': { eyebrow: 'Supplier profile', title: 'THREE DAYS LOVE — K-beauty cosmeceuticals · SPICUS® & EXOMERE', accent: '#e0562e' },
