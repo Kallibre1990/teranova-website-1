@@ -237,6 +237,19 @@ function monogram(name: string): string {
     </div>
   </section>
 
+  <!-- PROMO — a running promotion, named with its dates. No volumes, no
+       percentages, no prices: those are given to a buyer who asks. -->
+  {c.promo && (
+    <section class="sp-promo">
+      <div class="wrap">
+        <p class="sp-promo__card">
+          <span class="sp-promo__lbl">{c.promo.label}</span>
+          <span class="sp-promo__txt">{c.promo.text}</span>
+        </p>
+      </div>
+    </section>
+  )}
+
   <!-- SPOTLIGHT — one dated fact about the brand, linked to the article -->
   {c.spotlight && (
     <section class="sp-spot">
@@ -725,6 +738,24 @@ function monogram(name: string): string {
      One dated fact about the brand right under the hero — a retail launch, an
      award — carrying the reader into the article that unpacks it. The band
      appears only for suppliers whose content has `spotlight`. */
+  /* Slimmer than the spotlight band and not a link: the promotion is a notice,
+     not a story to click into. */
+  .sp-promo { padding: clamp(22px, 3vw, 32px) 0 0; }
+  .sp-promo__card {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px;
+    position: relative; border-radius: var(--ds-r);
+    padding: clamp(14px, 2vw, 18px) clamp(20px, 3vw, 28px);
+    background: color-mix(in srgb, var(--ds-accent) 7%, #fff);
+    border: 1px solid color-mix(in srgb, var(--ds-accent) 32%, #e2e8f0);
+  }
+  .sp-promo__card::before {
+    content: ''; position: absolute; inset: 12px auto 12px 0; width: 3px; border-radius: 0 3px 3px 0;
+    background: var(--ds-accent);
+  }
+  .sp-promo__lbl { display: inline-flex; align-items: center; gap: 8px; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ds-accent); }
+  .sp-promo__lbl::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .sp-promo__txt { font-size: 0.95rem; line-height: 1.65; color: #45576f; max-width: 78ch; }
+
   .sp-spot { padding: clamp(22px, 3vw, 32px) 0 0; }
   .sp-spot__card {
     display: block; position: relative; border-radius: var(--ds-r);

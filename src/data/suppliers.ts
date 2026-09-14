@@ -406,6 +406,11 @@ export interface SupplierContent {
   /* Optional band under the hero: one dated fact about the brand (a retail
      launch, an award) plus the slug of the article that unpacks it. */
   spotlight?: { label: string; title: string; text: string; cta: string; post: string };
+  /* Optional time-bound band under the hero: a promotion the supplier is running,
+     named with its dates only. Volumes, percentages and any pricing stay off the
+     page — a buyer who asks is given the terms directly, the same way price is.
+     Removed once the promotion ends. */
+  promo?: { label: string; text: string };
   terms?: { label: string; value: string }[];
   /* Подпись под блоком личного визита. Общая строка card_visited_d говорит
      «был на заводе», и для производителей это верно. У BIOPT визит был в офис

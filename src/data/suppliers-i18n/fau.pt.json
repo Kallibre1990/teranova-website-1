@@ -98,6 +98,10 @@
       "Formatos profissionais de 500 g a 1 kg"
     ],
     "exportNote": "A empresa declara exportações para quarenta e cinco países. Ainda assim, a América Latina continua praticamente por ocupar: não têm lá distribuidores. Na América do Norte há parceiros, mas sem cobertura significativa do mercado. A empresa confirmou por escrito que podemos apresentar a FAU a compradores das duas Américas.",
+    "promo": {
+      "label": "Promoção de Halloween",
+      "text": "Condições especiais na linha Pumpkin (Shiny e Glow) de 7 de setembro a 6 de outubro de 2026. Detalhes mediante solicitação."
+    },
     "terms": [
       {
         "label": "Formas de cooperação",
@@ -113,7 +117,7 @@
       },
       {
         "label": "Preço",
-        "value": "A tabela de exportação não é publicada enquanto a empresa não decidir em separado. As condições seguem através da Teranova perante um pedido sério."
+        "value": "A tabela de exportação não é publicada por decisão da empresa. As condições seguem através da Teranova perante um pedido sério."
       },
       {
         "label": "Documentos",
