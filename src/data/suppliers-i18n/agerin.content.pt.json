@@ -6,7 +6,8 @@
     "A AGERA BioTech é uma empresa coreana que nasceu de um laboratório universitário. Foi fundada em 2016 pela professora SoonYoung Shin, pesquisadora com mais de trinta anos de experiência em ciências da vida e docente da Universidade Konkuk. Ela estudou a planta Ageratum houstonianum, conhecida em coreano como 불로화, e descobriu que seu extrato influencia de forma perceptível a recuperação e a hidratação da pele. A empresa obteve patente sobre essa propriedade e, em seguida, lançou a marca AGERIN.",
     "A marca se apoia em uma base incomum para a cosmética: não uma narrativa de marketing, mas artigos em revistas com revisão por pares. O composto ativo isolado do extrato recebeu da empresa o nome de Agerarin, e os trabalhos sobre ele foram publicados em Scientific Reports, PNAS, Journal of Dermatological Science e Molecules. Esse conjunto de referências é raro em uma marca de cosméticos e oferece ao comprador que tem equipe científica aquilo que costuma faltar: uma fonte verificável.",
     "O sortimento é enxuto e organizado em torno de uma única tarefa. Oito produtos cobrem a rotina diária completa, da limpeza à proteção solar, e todos são destinados à pele seca, sensível e propensa a irritação e coceira. A empresa destaca separadamente que seu creme principal é adequado para crianças, gestantes e pessoas com pele muito seca.",
-    "A própria empresa define sua abordagem como dermocosmética: produtos de uso diário, e não medicamentos. Os resultados de testes, as porcentagens e os números de patente apresentados abaixo são dados da empresa. Documentos e protocolos são fornecidos separadamente, para um mercado específico ou um comprador específico."
+    "A própria empresa define sua abordagem como dermocosmética: produtos de uso diário, e não medicamentos. Os resultados de testes, as porcentagens e os números de patente apresentados abaixo são dados da empresa. Documentos e protocolos são fornecidos separadamente, para um mercado específico ou um comprador específico.",
+    "É a única linha da marca, e nisso está o seu sentido: oito produtos construídos em torno de um único composto ativo que se complementam no protocolo diário. A limpeza é coberta pelo creme de limpeza em espuma, pelos discos de algodão sem enxágue e pelo gel esfoliante, que atua sobre as proteínas do estrato córneo em vez de usar abrasivos. A hidratação e a recuperação noturna ficam com a essência-tônico e com a máscara noturna, aplicada antes de dormir e mantida sem enxágue. A barreira cutânea e a coceira ficam com o creme denso ABC para rosto e corpo e com o creme localizado para áreas danificadas. O dia se encerra com o protetor solar híbrido SPF 50+ PA++++. Em seis dos oito produtos é declarado o complexo refrescante Soothing Cooler; a patente desse complexo não pertence à própria empresa, e sim ao seu fabricante contratado (OEM)."
   ],
   "facts": [
     "AGERA BioTech, Inc., Coreia. A marca AGERIN foi fundada em 2016",
@@ -27,12 +28,7 @@
     "Importadores com equipe regulatória própria",
     "Varejo especializado em pele sensível e infantil"
   ],
-  "lines": [
-    {
-      "name": "AGERIN",
-      "note": "É a única linha da marca, e nisso está o seu sentido: oito produtos construídos em torno de um único composto ativo que se complementam no protocolo diário. A limpeza é coberta pelo creme de limpeza em espuma, pelos discos de algodão sem enxágue e pelo gel esfoliante, que atua sobre as proteínas do estrato córneo em vez de usar abrasivos. A hidratação e a recuperação noturna ficam com a essência-tônico e com a máscara noturna, aplicada antes de dormir e mantida sem enxágue. A barreira cutânea e a coceira ficam com o creme denso ABC para rosto e corpo e com o creme localizado para áreas danificadas. O dia se encerra com o protetor solar híbrido SPF 50+ PA++++. Em seis dos oito produtos é declarado o complexo refrescante Soothing Cooler; a patente desse complexo não pertence à própria empresa, e sim ao seu fabricante contratado (OEM)."
-    }
-  ],
+  "lines": [],
   "tech": [
     {
       "name": "Ageratum e Agerarin",

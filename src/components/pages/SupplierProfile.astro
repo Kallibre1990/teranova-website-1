@@ -338,6 +338,12 @@ function monogram(name: string): string {
   </section>
 
   <!-- LINES -->
+  {/* Условие добавлено 15.09.2026: у бренда может не быть суб-линеек вовсе.
+      У AGERIN одна линия из восьми средств, и блок выходил с единственной
+      карточкой на половину ширины, пустой правой половиной и названием,
+      дублирующим заголовок каталога ниже. Пустой список теперь просто
+      убирает секцию; у профилей с линейками поведение не меняется. */}
+  {c.lines.length > 0 && (
   <section class="sp-sec sp-sec--tint">
     <div class="wrap">
       <span class="sp-lvl">{c.ui.lines_h}</span>
@@ -368,6 +374,7 @@ function monogram(name: string): string {
       </div>
     </div>
   </section>
+  )}
 
   <!-- PRODUCT CATALOG -->
   {profile.catalog && profile.catalog.length > 0 && (

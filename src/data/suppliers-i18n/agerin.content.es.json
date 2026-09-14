@@ -6,7 +6,8 @@
     "AGERA BioTech es una empresa coreana surgida de un laboratorio universitario. Fue fundada en 2016 por la profesora SoonYoung Shin, investigadora con más de treinta años de trayectoria en ciencias de la vida y docente de la Universidad Konkuk. Ella estudió la planta Ageratum houstonianum, conocida en coreano como 불로화, y observó que su extracto influye de forma notable en la recuperación y la hidratación de la piel. La empresa patentó esa propiedad y después lanzó la marca AGERIN.",
     "La marca se apoya en una base poco habitual en cosmética: no un relato de marketing, sino publicaciones en revistas con revisión por pares. Al principio activo aislado del extracto la empresa lo denominó Agerarin, y los trabajos sobre él se publicaron en Scientific Reports, PNAS, Journal of Dermatological Science y Molecules. Un conjunto de referencias así es poco frecuente en una marca cosmética y le ofrece al comprador que cuenta con un equipo científico aquello que suele faltar: una fuente verificable.",
     "La gama es estrecha y está construida alrededor de un único objetivo. Ocho productos cubren la rutina diaria completa, desde la limpieza hasta la protección solar, y todos ellos están pensados para piel seca, sensible y con tendencia a la irritación y al picor. La empresa señala de manera específica que su crema insignia es apta para niños, mujeres embarazadas y personas con piel muy seca.",
-    "La propia empresa define su enfoque como dermocosmética: productos de uso diario, no medicamentos. Los resultados de los ensayos, los porcentajes y los números de patente que se indican a continuación son datos de la empresa. Los documentos y protocolos se entregan por separado, para un mercado concreto o para un comprador concreto."
+    "La propia empresa define su enfoque como dermocosmética: productos de uso diario, no medicamentos. Los resultados de los ensayos, los porcentajes y los números de patente que se indican a continuación son datos de la empresa. Los documentos y protocolos se entregan por separado, para un mercado concreto o para un comprador concreto.",
+    "La única línea de la marca, y en eso reside su sentido: ocho productos construidos alrededor de un mismo principio activo que se complementan dentro de una rutina diaria. La limpieza la cubren un limpiador en crema que se transforma en espuma, unos discos de algodón que no requieren aclarado y un gel exfoliante que actúa sobre las proteínas del estrato córneo en lugar de recurrir a abrasivos. La hidratación y la recuperación nocturna corresponden a la esencia-tónico y a la mascarilla nocturna, que se aplica antes de dormir y no se retira. La barrera cutánea y el picor los atienden la crema densa ABC para rostro y cuerpo y la crema localizada para zonas dañadas. El día lo cierra una protección solar híbrida SPF 50+ PA++++. En seis de los ocho productos se declara el complejo refrescante Soothing Cooler; la patente de ese complejo no pertenece a la propia empresa, sino a su fabricante por contrato (OEM)."
   ],
   "facts": [
     "AGERA BioTech, Inc., Corea. La marca AGERIN fue creada en 2016",
@@ -27,12 +28,7 @@
     "Importadores con departamento regulatorio propio",
     "Comercio especializado en piel sensible e infantil"
   ],
-  "lines": [
-    {
-      "name": "AGERIN",
-      "note": "La única línea de la marca, y en eso reside su sentido: ocho productos construidos alrededor de un mismo principio activo que se complementan dentro de una rutina diaria. La limpieza la cubren un limpiador en crema que se transforma en espuma, unos discos de algodón que no requieren aclarado y un gel exfoliante que actúa sobre las proteínas del estrato córneo en lugar de recurrir a abrasivos. La hidratación y la recuperación nocturna corresponden a la esencia-tónico y a la mascarilla nocturna, que se aplica antes de dormir y no se retira. La barrera cutánea y el picor los atienden la crema densa ABC para rostro y cuerpo y la crema localizada para zonas dañadas. El día lo cierra una protección solar híbrida SPF 50+ PA++++. En seis de los ocho productos se declara el complejo refrescante Soothing Cooler; la patente de ese complejo no pertenece a la propia empresa, sino a su fabricante por contrato (OEM)."
-    }
-  ],
+  "lines": [],
   "tech": [
     {
       "name": "Ageratum y Agerarin",
