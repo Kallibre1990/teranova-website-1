@@ -56800,10 +56800,10 @@
             ]
           },
           {
-            "h": "Сверяйте фасовку с этикеткой, а не с текстом брошюры",
+            "h": "Сводите фасовку по всем источникам",
             "p": [
-              "Расхождения между описанием и упаковкой встречаются часто, и они не всегда безобидны. В брошюре SPRX капсулы Three Out указаны как «500 мг × 90 капсул / 450 г», тогда как на самой упаковке стоит 45 г. Арифметика подтверждает этикетку: 500 мг, умноженные на 90, дают ровно 45 граммов, а лишний ноль в тексте — опечатка.",
-              "Для закупки это существенно, потому что от веса нетто зависят и стоимость доставки, и таможенная декларация, и расчёт цены за грамм. Правило простое: объём и вес берите с фотографии этикетки, а описание используйте только там, где этикетка молчит."
+              "Описание в презентации, надпись на упаковке и прайс не всегда совпадают между собой — по объёму, фасовке или весу нетто. Перед заказом эти источники стоит свести, и если цифры расходятся, уточнить их у производителя, а не выбирать вариант самому.",
+              "Для закупки это существенно: от веса нетто и числа единиц в упаковке зависят стоимость доставки, таможенная декларация и расчёт цены за грамм. Поэтому фасовку подтверждают у компании до заказа, а не после прихода партии."
             ]
           },
           {
@@ -56841,10 +56841,10 @@
             ]
           },
           {
-            "h": "Check the pack size against the label, not against the brochure text",
+            "h": "Reconcile the pack size across every source",
             "p": [
-              "Discrepancies between the description and the pack are frequent, and they are not always harmless. The SPRX brochure lists the Three Out capsules as “500 mg × 90 capsules / 450 g”, while the pack itself says 45 g. The arithmetic confirms the label: 500 mg multiplied by 90 gives exactly 45 grams, and the extra zero in the text is a typo.",
-              "For purchasing this matters, because net weight drives the shipping cost, the customs declaration and the price per gram alike. The rule is simple: take volume and weight from a photograph of the label, and use the description only where the label says nothing."
+              "The description in the deck, the wording on the pack and the price list do not always agree with one another — on volume, pack size or net weight. Before ordering it is worth reconciling these sources, and where the figures diverge, checking them with the manufacturer rather than choosing a version yourself.",
+              "For purchasing this matters: net weight and the number of units in a pack drive the shipping cost, the customs declaration and the price-per-gram calculation. So the pack size is confirmed with the company before the order, not after the batch arrives."
             ]
           },
           {
@@ -56882,10 +56882,10 @@
             ]
           },
           {
-            "h": "포장 규격은 브로슈어 본문이 아니라 라벨과 대조하십시오",
+            "h": "포장 규격은 모든 자료를 대조해 맞추십시오",
             "p": [
-              "설명 자료와 실제 포장이 어긋나는 일은 자주 있으며, 언제나 사소한 문제로 끝나지는 않습니다. SPRX 브로슈어에는 쓰리아웃 캡슐이 '500 mg × 90캡슐 / 450 g'으로 적혀 있지만, 포장 자체에는 45 g으로 표기되어 있습니다. 계산해 보면 라벨이 맞습니다. 500 mg에 90을 곱하면 정확히 45 g이며, 본문에 붙은 0 하나는 오기입니다.",
-              "구매 실무에서는 중요한 차이입니다. 순중량에 따라 운송비도, 통관 신고도, 그램당 단가 계산도 달라지기 때문입니다. 원칙은 단순합니다. 용량과 중량은 라벨 사진에서 가져오고, 설명 자료는 라벨이 말해 주지 않는 항목에만 사용하십시오."
+              "발표 자료의 설명, 포장의 표기, 그리고 가격표는 용량이나 포장 규격, 순중량에서 서로 늘 일치하지는 않습니다. 발주 전에 이 자료들을 대조해 맞추고, 수치가 어긋나면 직접 한쪽을 고르지 말고 제조사에 확인하십시오.",
+              "구매 실무에서는 중요한 부분입니다. 순중량과 포장당 단위 수에 따라 운송비, 통관 신고, 그램당 단가 계산이 달라지기 때문입니다. 그래서 포장 규격은 물량이 도착한 뒤가 아니라 발주 전에 회사에 확인받습니다."
             ]
           },
           {
@@ -56923,10 +56923,10 @@
             ]
           },
           {
-            "h": "包装规格要对照标签核实，而不是对照宣传册正文",
+            "h": "包装规格要对照所有资料核实",
             "p": [
-              "描述与包装不符的情况很常见，而且并非总是无害。SPRX 的宣传册把 Three Out 胶囊写成「500 毫克 × 90 粒 / 450 克」，而包装本身标的是 45 克。算术支持标签：500 毫克乘以 90 正好是 45 克，正文里多出来的那个零是笔误。",
-              "这对采购很重要，因为运费、报关申报和每克单价的计算都取决于净重。规则很简单：容量和重量以标签照片为准，描述只用在标签没有说明的地方。"
+              "演示文稿里的描述、包装上的标注和价目表，在容量、包装规格或净重上并不总是彼此一致。下单之前应把这些资料相互核对，若数字有出入，应向生产商确认，而不是自行选定一种。",
+              "这对采购很重要：运费、报关申报和每克单价的计算，都取决于净重和每个包装内的单位数量。因此包装规格要在下单之前向公司确认，而不是等到货批到达之后。"
             ]
           },
           {
@@ -56964,10 +56964,10 @@
             ]
           },
           {
-            "h": "内容量はパンフレットの本文ではなくラベルと照合してください",
+            "h": "内容量はすべての資料を突き合わせて整えてください",
             "p": [
-              "説明文とパッケージの食い違いはよく起こり、必ずしも無害とは限りません。SPRXのパンフレットではThree Outのカプセルが「500 mg × 90 カプセル / 450 g」と記載されていますが、実際のパッケージには45 gとあります。計算はラベルのほうを裏づけます。500 mgに90を掛ければちょうど45 gであり、本文の0が一つ多いのは誤記です。",
-              "仕入れにとってこれは重要です。正味重量によって輸送費も、通関申告も、グラム単価の計算も変わるからです。原則は単純で、容量と重量はラベルの写真から取り、説明文はラベルが触れていない部分にだけ使います。"
+              "プレゼン資料の説明、パッケージの表記、そして価格表は、容量や内容量、正味重量の点で必ずしも互いに一致しません。発注の前にこれらの資料を突き合わせ、数値が食い違う場合は自分でどれかを選ばず、メーカーに確認してください。",
+              "仕入れにとってこれは重要です。正味重量とパッケージあたりの個数によって、輸送費も、通関申告も、グラム単価の計算も変わるからです。ですから内容量は、荷が届いた後ではなく発注の前に会社へ確認します。"
             ]
           },
           {
@@ -57005,10 +57005,10 @@
             ]
           },
           {
-            "h": "Verificate il confezionamento sull'etichetta, non sul testo della brochure",
+            "h": "Riconciliate il confezionamento tra tutte le fonti",
             "p": [
-              "Le discrepanze tra descrizione e confezione sono frequenti e non sempre innocue. Nella brochure di SPRX le capsule Three Out sono indicate come «500 mg × 90 capsule / 450 g», mentre sulla confezione compare 45 g. L'aritmetica conferma l'etichetta: 500 mg moltiplicati per 90 danno esattamente 45 g, e lo zero in più nel testo è un refuso.",
-              "Per l'acquisto la differenza pesa, perché dal peso netto dipendono il costo del trasporto, la dichiarazione doganale e il calcolo del prezzo al grammo. La regola è semplice: volume e peso prendeteli dalla foto dell'etichetta e usate la descrizione solo dove l'etichetta tace."
+              "La descrizione della presentazione, la dicitura sulla confezione e il listino non sempre coincidono tra loro, né per volume, né per confezionamento, né per peso netto. Prima dell'ordine conviene riconciliare queste fonti e, se le cifre divergono, verificarle con il produttore anziché scegliere da soli una versione.",
+              "Per l'acquisto la cosa pesa: dal peso netto e dal numero di unità per confezione dipendono il costo del trasporto, la dichiarazione doganale e il calcolo del prezzo al grammo. Perciò il confezionamento si conferma con l'azienda prima dell'ordine, e non dopo l'arrivo del lotto."
             ]
           },
           {
@@ -57046,10 +57046,10 @@
             ]
           },
           {
-            "h": "Gleichen Sie die Abfüllung mit dem Etikett ab, nicht mit dem Text der Broschüre",
+            "h": "Gleichen Sie die Abfüllung über alle Quellen ab",
             "p": [
-              "Abweichungen zwischen Beschreibung und Verpackung kommen häufig vor, und harmlos sind sie nicht immer. In der Broschüre von SPRX sind die Kapseln Three Out mit „500 mg × 90 Kapseln / 450 g“ angegeben, auf der Verpackung selbst stehen dagegen 45 g. Die Rechnung bestätigt das Etikett: 500 mg mal 90 ergeben genau 45 Gramm, die zusätzliche Null im Text ist ein Tippfehler.",
-              "Für den Einkauf ist das erheblich, denn vom Nettogewicht hängen die Frachtkosten ebenso ab wie die Zollanmeldung und die Berechnung des Preises je Gramm. Die Regel ist einfach: Volumen und Gewicht entnehmen Sie dem Foto des Etiketts, und die Beschreibung nutzen Sie nur dort, wo das Etikett schweigt."
+              "Die Beschreibung in der Präsentation, der Aufdruck auf der Verpackung und die Preisliste stimmen nicht immer miteinander überein — bei Volumen, Abfüllung oder Nettogewicht. Vor der Bestellung sollten Sie diese Quellen abgleichen und, wenn die Zahlen voneinander abweichen, sie beim Hersteller klären, statt selbst eine Variante zu wählen.",
+              "Für den Einkauf ist das erheblich: Vom Nettogewicht und von der Zahl der Einheiten je Verpackung hängen die Frachtkosten, die Zollanmeldung und die Berechnung des Preises je Gramm ab. Deshalb wird die Abfüllung vor der Bestellung mit dem Unternehmen bestätigt und nicht nach Eingang der Charge."
             ]
           },
           {
@@ -57087,10 +57087,10 @@
             ]
           },
           {
-            "h": "Vérifiez le conditionnement sur l'étiquette, pas dans la brochure",
+            "h": "Recoupez le conditionnement entre toutes les sources",
             "p": [
-              "Les écarts entre la description et l'emballage sont fréquents, et ils ne sont pas toujours anodins. Dans la brochure de SPRX, les gélules Three Out sont indiquées comme « 500 mg × 90 gélules / 450 g », alors que l'emballage lui-même porte 45 g. L'arithmétique confirme l'étiquette : 500 mg multipliés par 90 donnent exactement 45 grammes, et le zéro supplémentaire dans le texte est une coquille.",
-              "Pour un achat, le point est important, car le poids net détermine à la fois le coût du transport, la déclaration en douane et le calcul du prix au gramme. La règle est simple : prenez le volume et le poids sur la photo de l'étiquette, et n'utilisez la description que là où l'étiquette ne dit rien."
+              "La description de la présentation, la mention portée sur l'emballage et le tarif ne concordent pas toujours entre eux, que ce soit sur le volume, le conditionnement ou le poids net. Avant de commander, il vaut mieux recouper ces sources et, si les chiffres divergent, les vérifier auprès du fabricant plutôt que de choisir soi-même une version.",
+              "Pour un achat, le point est important : le poids net et le nombre d'unités par emballage déterminent le coût du transport, la déclaration en douane et le calcul du prix au gramme. C'est pourquoi le conditionnement se confirme auprès de l'entreprise avant la commande, et non après l'arrivée du lot."
             ]
           },
           {
@@ -57128,10 +57128,10 @@
             ]
           },
           {
-            "h": "Ambalajlamayı broşür metniyle değil, etiketle karşılaştırın",
+            "h": "Ambalajlamayı tüm kaynaklarla karşılaştırıp uzlaştırın",
             "p": [
-              "Açıklama ile ambalaj arasındaki farklar sık görülür ve her zaman zararsız değildir. SPRX broşüründe Three Out kapsülleri «500 mg × 90 kapsül / 450 g» olarak geçiyor, oysa ambalajın üzerinde 45 g yazıyor. Aritmetik etiketi doğruluyor: 500 mg'ın 90 ile çarpımı tam olarak 45 gram eder, metindeki fazladan sıfır ise bir baskı hatasıdır.",
-              "Satın alma açısından bu önemlidir, çünkü net ağırlık hem nakliye maliyetini hem gümrük beyanını hem de gram başına fiyat hesabını belirler. Kural basittir: hacmi ve ağırlığı etiket fotoğrafından alın, açıklamayı yalnızca etiketin sustuğu yerde kullanın."
+              "Sunumdaki açıklama, ambalaj üzerindeki yazı ve fiyat listesi; hacim, ambalajlama ya da net ağırlık bakımından her zaman birbiriyle örtüşmez. Sipariş öncesinde bu kaynakları karşılaştırın ve rakamlar birbirini tutmuyorsa, bir seçeneği kendiniz belirlemek yerine üreticiye doğrulatın.",
+              "Satın alma açısından bu önemlidir: net ağırlık ve ambalaj başına birim sayısı, nakliye maliyetini, gümrük beyanını ve gram başına fiyat hesabını belirler. Bu nedenle ambalajlama, parti geldikten sonra değil, siparişten önce şirkete doğrulatılır."
             ]
           },
           {
@@ -57169,10 +57169,10 @@
             ]
           },
           {
-            "h": "Coteje el formato con la etiqueta, no con el texto del folleto",
+            "h": "Concilie el formato con todas las fuentes",
             "p": [
-              "Las discrepancias entre la descripción y el envase son frecuentes, y no siempre resultan inocuas. En el folleto de SPRX las cápsulas Three Out figuran como «500 mg × 90 cápsulas / 450 g», mientras que en el propio envase consta 45 g. La aritmética confirma la etiqueta: 500 mg multiplicados por 90 dan exactamente 45 g, y el cero de más del texto es una errata.",
-              "Para la compra esto es relevante, porque del peso neto dependen el coste del transporte, la declaración aduanera y el cálculo del precio por gramo. La regla es sencilla: tome el volumen y el peso de la fotografía de la etiqueta, y use la descripción solo allí donde la etiqueta calla."
+              "La descripción de la presentación, el texto del envase y la lista de precios no siempre coinciden entre sí, ni en volumen, ni en formato, ni en peso neto. Antes de pedir conviene conciliar estas fuentes y, si las cifras difieren, verificarlas con el fabricante en lugar de elegir una versión por cuenta propia.",
+              "Para la compra esto es relevante: del peso neto y del número de unidades por envase dependen el coste del transporte, la declaración aduanera y el cálculo del precio por gramo. Por eso el formato se confirma con la empresa antes del pedido, y no después de que llegue el lote."
             ]
           },
           {
@@ -57210,10 +57210,10 @@
             ]
           },
           {
-            "h": "Confira a apresentação pelo rótulo, não pelo texto do folheto",
+            "h": "Concilie a embalagem entre todas as fontes",
             "p": [
-              "Divergências entre a descrição e a embalagem são frequentes, e nem sempre são inofensivas. No folheto da SPRX as cápsulas Three Out aparecem como «500 mg × 90 cápsulas / 450 g», enquanto na própria embalagem consta 45 g. A aritmética confirma o rótulo: 500 mg multiplicados por 90 dão exatamente 45 gramas, e o zero a mais no texto é um erro de digitação.",
-              "Para a compra isso é relevante, porque do peso líquido dependem o custo do frete, a declaração aduaneira e o cálculo do preço por grama. A regra é simples: volume e peso devem sair da foto do rótulo, e a descrição serve apenas onde o rótulo é omisso."
+              "A descrição da apresentação, os dizeres na embalagem e a tabela de preços nem sempre coincidem entre si — em volume, embalagem ou peso líquido. Antes do pedido, convém conciliar essas fontes e, se os números divergirem, verificá-los com o fabricante em vez de escolher você mesmo uma versão.",
+              "Para a compra isso é relevante: do peso líquido e do número de unidades por embalagem dependem o custo do frete, a declaração aduaneira e o cálculo do preço por grama. Por isso a embalagem se confirma com a empresa antes do pedido, e não depois da chegada do lote."
             ]
           },
           {
