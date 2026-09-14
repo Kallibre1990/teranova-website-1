@@ -167,6 +167,18 @@ import fauTr from './suppliers-i18n/fau.tr.json';
 import fauEs from './suppliers-i18n/fau.es.json';
 import fauPt from './suppliers-i18n/fau.pt.json';
 import fauCatalog from './suppliers-i18n/fau.catalog.json';
+import sprxRu from './suppliers-i18n/sprx.ru.json';
+import sprxEn from './suppliers-i18n/sprx.en.json';
+import sprxKo from './suppliers-i18n/sprx.ko.json';
+import sprxZh from './suppliers-i18n/sprx.zh.json';
+import sprxJa from './suppliers-i18n/sprx.ja.json';
+import sprxIt from './suppliers-i18n/sprx.it.json';
+import sprxDe from './suppliers-i18n/sprx.de.json';
+import sprxFr from './suppliers-i18n/sprx.fr.json';
+import sprxTr from './suppliers-i18n/sprx.tr.json';
+import sprxEs from './suppliers-i18n/sprx.es.json';
+import sprxPt from './suppliers-i18n/sprx.pt.json';
+import sprxCatalog from './suppliers-i18n/sprx.catalog.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -1954,6 +1966,34 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any),
     },
+  },
+  {
+    slug: 'sprx',
+    /* Не косметика: это健康기능식품, то есть БАД и функциональное питание.
+       Ставить cosmetics было бы неверно по сути, поэтому рубрика — смежные
+       направления, а в витрину Beauty профиль входит через BEAUTY_EXTRA_SLUGS:
+       покупает его тот же байер, что и уход. */
+    category: 'adjacent',
+    country: 'kr',
+    name: 'SPRX KOREA CO., LTD.',
+    brand: 'SPRX',
+    status: 'provided',
+    /* Гамма их упаковки: почти чёрная типографика на белом и пыльно-розовый
+       градиент со стика Watermix Zero. */
+    brandColors: { deep: '#2E2A2B', sky: '#D6A9AF', accent: '#B9616D', bg: '#F8F4F3' },
+    voice: 'minimal',
+    /* Каталог собран по их бренд-презентации ENG2026 от 07.09.2026, объёмы
+       сверены с этикетками на пакшотах. Three Out в тексте брошюры указан как
+       450 г, на этикетке 45 г (500 мг × 90 капсул) — взята этикетка. */
+    catalog: sprxCatalog as { line: string; items: { name: string; img: string; volume?: string }[] }[],
+    termsFile: { ru: '/docs/sprx-terms-ru.pdf', en: '/docs/sprx-terms-en.pdf', ko: '/docs/sprx-terms-ko.pdf', zh: '/docs/sprx-terms-zh.pdf', ja: '/docs/sprx-terms-ja.pdf', it: '/docs/sprx-terms-it.pdf', de: '/docs/sprx-terms-de.pdf', fr: '/docs/sprx-terms-fr.pdf', tr: '/docs/sprx-terms-tr.pdf', es: '/docs/sprx-terms-es.pdf', pt: '/docs/sprx-terms-pt.pdf' },
+    presFile: { ru: '/docs/sprx-presentation-ru.pdf', en: '/docs/sprx-presentation-en.pdf', ko: '/docs/sprx-presentation-ko.pdf', zh: '/docs/sprx-presentation-zh.pdf', ja: '/docs/sprx-presentation-ja.pdf', it: '/docs/sprx-presentation-it.pdf', de: '/docs/sprx-presentation-de.pdf', fr: '/docs/sprx-presentation-fr.pdf', tr: '/docs/sprx-presentation-tr.pdf', es: '/docs/sprx-presentation-es.pdf', pt: '/docs/sprx-presentation-pt.pdf' },
+    certs: ['GMP', 'HACCP', 'MFDS'],
+    /* priceFile нет: вопрос о публикации экспортного прайса задан компании
+       04.09.2026 по R-022, ответа пока нет. */
+    i18n: {
+      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any),
+    },
   }
 ];
 
@@ -2035,7 +2075,7 @@ export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
    компании остаются на месте, их URL не меняются.
    Отсюда же берётся число компаний в тексте: считать руками нельзя, иначе
    цифра разойдётся с витриной, как уже было с «26» при 24 карточках. */
-export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure'] as const;
+export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure', 'sprx'] as const;
 export const beautySuppliers = suppliers.filter(
   (s) => s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug),
 );

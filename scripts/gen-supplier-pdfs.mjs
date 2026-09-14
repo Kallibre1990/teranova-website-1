@@ -376,6 +376,16 @@ const SUPPLIERS = [
     pres: true,
     certs: ['MoCRA'],
   },
+  {
+    /* SPRX: согласие на публикацию от 07.09.2026. Экспортный прайс компания не
+       передавала, вопрос по R-022 задан 04.09.2026 и остался без ответа,
+       поэтому noPrice. */
+    id: 'sprx', json: 'sprx', supplier: 'SPRX KOREA CO., LTD.', brand: 'SPRX',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#2E2A2B', sky: '#B9616D', bg: '#F8F4F3', line: '#EBDCDC' },
+    pres: true,
+    certs: ['GMP', 'HACCP', 'MFDS'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
