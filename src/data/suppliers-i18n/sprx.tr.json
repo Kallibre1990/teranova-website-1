@@ -96,6 +96,10 @@
         "value": "Şirket, GMP ve HACCP uyarınca üretimi ve ürünlerin Kore Gıda ve İlaç Güvenliği Bakanlığı (MFDS) nezdinde sağlık fonksiyonlu gıda olarak tescilini beyan ediyor. Ürün bazında tam dosyalar işlem aşamasında istenir."
       },
       {
+        "label": "Raf ömrü",
+        "value": "Şirkete göre, genellikle üretim tarihinden itibaren 2 yıldır."
+      },
+      {
         "label": "İthalatta tescil",
         "value": "Ürünler kozmetik değil sağlık fonksiyonlu gıda kategorisine giriyor, bu nedenle çoğu ülkede ayrı tescil gerekiyor. Süreler pazara göre değişir ve önceden planlanır."
       },
