@@ -194,6 +194,15 @@ const SUPPLIERS = [
     certs: [],
   },
   {
+    /* noPrice: прайс-лист CAYCLLY от 13.09.2026 помечен «Confidential / Internal Market
+       Evaluation Only» и прямо запрещён к публикации — на странице «цена по запросу». */
+    id: 'cayclly', json: 'cayclly', supplier: 'CAYCLLY CO., LTD.', brand: 'CAYCLLY',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#5a2230', sky: '#c98b93', bg: '#faf1f1', line: '#f0dcdc' },
+    pres: true,
+    certs: [],
+  },
+  {
     id: 'kift', json: 'kift', supplier: 'KIFT COMPANY', brand: 'KIFT',
     basis: 'EXW Suwon, Korea',
     colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
