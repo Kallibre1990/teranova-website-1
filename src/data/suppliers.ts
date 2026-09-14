@@ -1144,7 +1144,7 @@ export const suppliers: SupplierProfile[] = [
     presFile: {
       ru: '/docs/cayclly-presentation-ru.pdf', en: '/docs/cayclly-presentation-en.pdf', ko: '/docs/cayclly-presentation-ko.pdf', zh: '/docs/cayclly-presentation-zh.pdf', ja: '/docs/cayclly-presentation-ja.pdf', it: '/docs/cayclly-presentation-it.pdf', de: '/docs/cayclly-presentation-de.pdf', fr: '/docs/cayclly-presentation-fr.pdf', tr: '/docs/cayclly-presentation-tr.pdf', es: '/docs/cayclly-presentation-es.pdf', pt: '/docs/cayclly-presentation-pt.pdf',
     },
-    certs: [],
+    certs: ['V-Label Vegan (skincare)', 'KIVAC Vegan (hair, body)', 'MFDS anti-hair-loss', 'MoCRA', 'CPNP'],
     i18n: {
       ru: mk(caycllyRu as any),
       en: mk(caycllyEn as any),

@@ -67,6 +67,7 @@ const SA = '/img/suppliers/sante/products';
 const RN = '/img/suppliers/rnh-bio/products';
 const HC = '/img/suppliers/hanscos/products';
 const SR = '/img/suppliers/skinroom/products';
+const CY = '/img/suppliers/cayclly/products';
 
 export const hairScalp: HairEntry[] = [
   {
@@ -127,6 +128,16 @@ export const hairScalp: HairEntry[] = [
     items: [
       { name: 'Essential Repair Shampoo & Rinse', step: 'shampoo', img: `${HC}/essential-repair-shampoo-rinse.jpg` },
       { name: 'Pure Sphere Perfume Hair Mist', step: 'leavein', img: `${HC}/pure-sphere-perfume-hair-mist.jpg` },
+    ],
+  },
+  {
+    slug: 'cayclly',
+    brand: 'CAYCLLY',
+    tier: 'brands',
+    items: [
+      { name: 'Cayclly Calming Beer Yeast Shampoo', short: 'Shampoo', step: 'shampoo', volume: '500 ml', img: `${CY}/calming-beer-yeast-shampoo.jpg` },
+      { name: 'Cayclly Beer Yeast Collagen Treatment', short: 'Treatment', step: 'treatment', volume: '500 ml', img: `${CY}/beer-yeast-collagen-treatment.jpg` },
+      { name: 'Cayclly Seed Oil Hair Essence', short: 'Hair Essence', step: 'leavein', volume: '200 ml', img: `${CY}/seed-oil-hair-essence.jpg` },
     ],
   },
   {
