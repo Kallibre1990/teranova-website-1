@@ -6,21 +6,41 @@
         "name": "Cayclly Calming Beer Yeast Shampoo",
         "img": "/img/suppliers/cayclly/products/calming-beer-yeast-shampoo.jpg",
         "volume": "500 ml",
-        "certs": ["MFDS anti-hair-loss", "KIVAC Vegan", "MoCRA", "CPNP"],
-        "actives": ["Brewer's Yeast Extract 500 ppm", "Lactobacillus Ferment Lysate", "16 EWG green-grade botanicals"]
+        "certs": [
+          "MFDS anti-hair-loss",
+          "KIVAC Vegan",
+          "MoCRA",
+          "CPNP"
+        ],
+        "actives": [
+          "Brewer's Yeast Extract 500 ppm",
+          "Lactobacillus Ferment Lysate",
+          "16 EWG green-grade botanicals"
+        ]
       },
       {
         "name": "Cayclly Seed Oil Hair Essence",
         "img": "/img/suppliers/cayclly/products/seed-oil-hair-essence.jpg",
         "volume": "200 ml",
-        "certs": ["KIVAC Vegan", "MoCRA"],
-        "actives": ["9 Seed Oil Complex", "Argan Kernel Oil", "Allergen-free fragrance"]
+        "certs": [
+          "KIVAC Vegan",
+          "MoCRA"
+        ],
+        "actives": [
+          "9 Seed Oil Complex",
+          "Argan Kernel Oil",
+          "Allergen-free fragrance"
+        ]
       },
       {
         "name": "Cayclly Beer Yeast Collagen Treatment",
         "img": "/img/suppliers/cayclly/products/beer-yeast-collagen-treatment.jpg",
         "volume": "500 ml",
-        "actives": ["Beer Yeast Extract", "Collagen Care Complex", "Jojoba and Coconut Oil"]
+        "actives": [
+          "Beer Yeast Extract",
+          "Collagen Care Complex",
+          "Jojoba and Coconut Oil"
+        ]
       }
     ]
   },
@@ -28,39 +48,71 @@
     "line": "Redbarrier skincare",
     "items": [
       {
-        "name": "Cayclly Redbarrier Gel Cleansing Foam",
-        "img": "/img/suppliers/cayclly/products/redbarrier-gel-cleansing-foam.jpg",
+        "name": "Cayclly Redbarrier Oat Cleansing Foam",
+        "img": "/img/suppliers/cayclly/products/redbarrier-oat-cleansing-foam.jpg",
         "volume": "150 ml",
-        "certs": ["V-Label Vegan"],
-        "actives": ["AHA + BHA + PHA + LHA", "Colloidal Oat Extract", "Redbarrier™ Complex"]
+        "certs": [
+          "V-Label Vegan"
+        ],
+        "actives": [
+          "AHA + BHA + PHA + LHA",
+          "Colloidal Oat Extract",
+          "Redbarrier™ Complex"
+        ]
       },
       {
         "name": "Cayclly Redbarrier Toner",
         "img": "/img/suppliers/cayclly/products/redbarrier-toner.jpg",
         "volume": "135 ml",
-        "certs": ["V-Label Vegan"],
-        "actives": ["Redbarrier™ Complex", "Ectoin", "Niacinamide and Adenosine"]
+        "certs": [
+          "V-Label Vegan"
+        ],
+        "actives": [
+          "Redbarrier™ Complex",
+          "Ectoin",
+          "Niacinamide and Adenosine"
+        ]
       },
       {
         "name": "Cayclly Redbarrier Emulsion",
         "img": "/img/suppliers/cayclly/products/redbarrier-emulsion.jpg",
         "volume": "130 ml",
-        "certs": ["V-Label Vegan"],
-        "actives": ["Redbarrier™ Complex", "Shea Butter", "Rose of Jericho and Ectoin"]
+        "certs": [
+          "V-Label Vegan"
+        ],
+        "actives": [
+          "Redbarrier™ Complex",
+          "Shea Butter",
+          "Rose of Jericho and Ectoin"
+        ]
       },
       {
         "name": "Cayclly Redbarrier Ampoule Serum",
         "img": "/img/suppliers/cayclly/products/redbarrier-ampoule-serum.jpg",
         "volume": "50 ml",
-        "certs": ["V-Label Vegan"],
-        "actives": ["Biotin Peptide", "Tripeptide-3", "Acetyl Hexapeptide-8", "Matrixyl™"]
+        "certs": [
+          "V-Label Vegan"
+        ],
+        "actives": [
+          "Biotin Peptide",
+          "Tripeptide-3",
+          "Acetyl Hexapeptide-8",
+          "Matrixyl™"
+        ]
       },
       {
         "name": "Cayclly Redbarrier Cream",
         "img": "/img/suppliers/cayclly/products/redbarrier-cream.jpg",
         "volume": "50 ml",
-        "certs": ["V-Label Vegan"],
-        "actives": ["Redbarrier™ Complex", "Rose of Jericho", "Ectoin", "8-layer Hyaluronic Acid"]
+        "certs": [
+          "V-Label Vegan"
+        ],
+        "actives": [
+          "Redbarrier™ Complex",
+          "Rose of Jericho",
+          "Ectoin",
+          "8-layer Hyaluronic Acid"
+        ]
       }
     ]
   },
@@ -71,15 +123,30 @@
         "name": "Cayclly Peptalogy Multi-Action Eye Cream",
         "img": "/img/suppliers/cayclly/products/peptalogy-eye-cream.jpg",
         "volume": "30 ml",
-        "certs": ["V-Label Vegan"],
-        "actives": ["Acetyl Tetrapeptide-5", "Acetyl Hexapeptide-8", "Tranexamic Acid", "Glutathione"]
+        "certs": [
+          "V-Label Vegan"
+        ],
+        "actives": [
+          "Acetyl Tetrapeptide-5",
+          "Acetyl Hexapeptide-8",
+          "Tranexamic Acid",
+          "Glutathione"
+        ]
       },
       {
         "name": "Cayclly Glutathione Glow Sun Cream",
         "img": "/img/suppliers/cayclly/products/glutathione-glow-sun-cream.jpg",
         "volume": "50 ml",
-        "certs": ["V-Label Vegan", "Reef Safe"],
-        "actives": ["Glutathione", "Tranexamic Acid", "Organic and inorganic UV filters", "Centella"]
+        "certs": [
+          "V-Label Vegan",
+          "Reef Safe"
+        ],
+        "actives": [
+          "Glutathione",
+          "Tranexamic Acid",
+          "Organic and inorganic UV filters",
+          "Centella"
+        ]
       }
     ]
   },
@@ -90,15 +157,27 @@
         "name": "Cayclly Jeju Hinoki Body Shower",
         "img": "/img/suppliers/cayclly/products/jeju-hinoki-body-shower.jpg",
         "volume": "500 ml",
-        "certs": ["KIVAC Vegan"],
-        "actives": ["Jeju Hinoki Cypress Water 50 000 ppm", "Ceramide and Panthenol", "Tartaric Acid"]
+        "certs": [
+          "KIVAC Vegan"
+        ],
+        "actives": [
+          "Jeju Hinoki Cypress Water 50 000 ppm",
+          "Ceramide and Panthenol",
+          "Tartaric Acid"
+        ]
       },
       {
         "name": "Cayclly Jeju Hinoki Body Emulsion",
         "img": "/img/suppliers/cayclly/products/jeju-hinoki-body-emulsion.jpg",
         "volume": "500 ml",
-        "certs": ["KIVAC Vegan"],
-        "actives": ["Jeju Hinoki Cypress Water 50 000 ppm", "Shea Butter", "Allergen-free fragrance"]
+        "certs": [
+          "KIVAC Vegan"
+        ],
+        "actives": [
+          "Jeju Hinoki Cypress Water 50 000 ppm",
+          "Shea Butter",
+          "Allergen-free fragrance"
+        ]
       }
     ]
   }

@@ -34,11 +34,11 @@
       },
       {
         "name": "Cura del viso Redbarrier",
-        "note": "Cinque prodotti che coprono una routine completa: una schiuma detergente in gel con quattro acidi esfolianti e avena colloidale, un tonico, un'emulsione, un siero in fiala su quattro peptidi e la crema su cui è stato svolto il lavoro clinico. Quattro prodotti su cinque sono registrati in Corea come cosmetici bifunzionali per l'uniformità del tono e il trattamento delle rughe. Tutti e cinque sono coperti dalla certificazione italiana V-Label con numeri di riferimento individuali."
+        "note": "Cinque prodotti che coprono una routine completa: una schiuma detergente all'avena con quattro acidi esfolianti e avena colloidale, un tonico, un'emulsione, un siero in fiala su quattro peptidi e la crema su cui è stato svolto il lavoro clinico. Quattro prodotti su cinque sono registrati in Corea come cosmetici bifunzionali per l'uniformità del tono e il trattamento delle rughe. Tutti e cinque sono coperti dalla certificazione italiana V-Label con numeri di riferimento individuali."
       },
       {
         "name": "Cura specialistica",
-        "note": "Due referenze per compiti distinti. La Peptalogy Multi-Action Eye Cream è costruita su quattro peptidi con acido tranexamico e glutatione e ha superato un test di stimolo oculare, da cui l'azienda deduce che sia adatta a chi porta lenti a contatto. La Glutathione Glow Sun Cream è SPF 50+ PA++++, registrata come cosmetico trifunzionale, combina filtri organici e inorganici e riporta la dicitura reef safe: senza ossibenzone né octinoxate."
+        "note": "Due referenze per compiti distinti. Ha completato un test di irritazione del contorno occhi. La Glutathione Glow Sun Cream è SPF 50+ PA++++, registrata come cosmetico trifunzionale, combina filtri organici e inorganici e riporta la dicitura reef safe: senza ossibenzone né octinoxate."
       },
       {
         "name": "Cura del corpo",
@@ -68,7 +68,7 @@
       },
       {
         "name": "Standard di formulazione",
-        "note": "L'azienda dichiara che i suoi prodotti non contengono parabeni, solfati, derivati del petrolio, coloranti sintetici o trietanolammina e che le profumazioni delle linee capelli e corpo sono certificate prive di allergeni. I prodotti per il viso sono testati dermatologicamente per l'irritazione e l'azienda indica che i propri requisiti sugli ingredienti ne consentono l'uso in gravidanza. Il packaging impiega vetro riciclabile e contenitori in plastica riciclata, carta certificata FSC e stampa con inchiostri di soia."
+        "note": "L'azienda dichiara che i suoi prodotti non contengono parabeni, solfati, derivati del petrolio, coloranti sintetici o trietanolammina e che le profumazioni delle linee capelli e corpo sono certificate prive di allergeni. I prodotti per il viso sono testati dermatologicamente per l'irritazione e l'azienda indica che la selezione degli ingredienti segue standard attenti alla gravidanza. Il packaging impiega vetro riciclabile e contenitori in plastica riciclata, carta certificata FSC e stampa con inchiostri di soia."
       }
     ],
     "formats": [
@@ -87,7 +87,7 @@
       },
       {
         "label": "Territorio",
-        "value": "Per il Kuwait e i paesi del Golfo è attivo un distributore esclusivo. Gli altri mercati vengono confermati dall'azienda su richiesta specifica tramite Teranova."
+        "value": "Per il Kuwait e i paesi del Golfo è attivo un distributore esclusivo. Gli altri mercati vengono confermati dall'azienda su richiesta specifica tramite Teranova. Al di fuori del Medio Oriente la politica dell'azienda è non esclusiva; l'esclusiva può essere discussa e concordata in seguito, in base allo sviluppo dell'attività."
       },
       {
         "label": "Ordine minimo",
@@ -120,7 +120,7 @@
       "Un'emulsione che bilancia la fase oleosa e quella acquosa, anch'essa registrata come bifunzionale. Contiene il complesso Redbarrier™ con burro di karité, rosa di Gerico, ectoina e glutatione. Nella routine si colloca tra il tonico e la crema ed è pensata per l'uso quotidiano.",
       "Un siero in fiala ad alta concentrazione su quattro peptidi: peptide di biotina, tripeptide-3, acetil esapeptide-8 e Matrixyl™. L'azienda descrive la combinazione di peptidi come capace di dare un effetto simile a quello della tossina botulinica. Registrato come cosmetico bifunzionale per l'uniformità del tono e il trattamento delle rughe.",
       "Il prodotto su cui è stato svolto il lavoro clinico. Una crema ricca con il complesso Redbarrier™, rosa di Gerico, ectoina e un sistema di acidi ialuronici a otto strati con massa molecolare da 1 000 a 5 000 dalton. Secondo l'azienda, una singola applicazione ha aumentato l'idratazione superficiale del 296,5% e quella al decimo strato cutaneo del 362,5%.",
-      "Una crema contorno occhi su quattro peptidi con complesso di rosa damascena, acido tranexamico, squalano e glutatione. Ha superato un test di stimolo oculare presso il centro Tru Skin, da cui l'azienda deduce che il prodotto sia adatto a chi porta lenti a contatto. Registrata come cosmetico bifunzionale.",
+      "Una crema contorno occhi su quattro peptidi con complesso di rosa damascena, acido tranexamico, squalano e glutatione. Ha completato un test di irritazione del contorno occhi presso il centro Tru Skin. Registrata come cosmetico bifunzionale.",
       "Una crema solare SPF 50+ PA++++ registrata come cosmetico trifunzionale: uniformità del tono, trattamento delle rughe e protezione dai raggi ultravioletti. Combina filtri organici e inorganici e riporta la dicitura reef safe, senza ossibenzone né octinoxate. L'azienda dichiara una texture da siero che non lascia effetto bianco e si assorbe in circa trenta secondi.",
       "Un detergente corpo a base di acqua di cipresso hinoki dell'isola di Jeju, con concentrazione dichiarata di 50 000 ppm, con ceramidi, pantenolo e acido tartarico nel ruolo di AHA delicato, oltre agli oli di girasole, mandorla dolce e avocado. Classificato dall'azienda nella fascia verde EWG e certificato vegano in Corea.",
       "Un'emulsione corpo sulla stessa acqua di cipresso hinoki, con l'aggiunta di burro di karité e glicerina e una profumazione al pompelmo priva di allergeni. Fa coppia con il detergente corpo ed è classificata dall'azienda nella fascia verde EWG."
@@ -143,7 +143,7 @@
     "download_btn": "Scarica le condizioni (PDF)",
     "price_btn": "Scarica il listino (PDF)",
     "pres_btn": "Scarica la presentazione (PDF)",
-    "terms_disc": "Prezzi e condizioni sono indicativi e vengono definiti nella fase di trattativa tramite Teranova. I contatti diretti del fornitore non vengono pubblicati. I riferimenti di registrazione (EU CPNP, US MoCRA) sono forniti secondo i dati dell'azienda e non costituiscono un'approvazione da parte dell'autorità.",
+    "terms_disc": "Prezzi e condizioni sono indicativi e soggetti alla conferma finale di CAYCLLY per ogni singola opportunità commerciale. Teranova coordina le richieste qualificate e le trattative. I contatti diretti del fornitore non vengono pubblicati. I riferimenti di registrazione (EU CPNP, US MoCRA) sono riportati secondo i dati dell'azienda e non costituiscono un'approvazione regolatoria.",
     "cta_h": "Questo fornitore vi interessa?",
     "cta_d": "Contattateci — Teranova organizza le trattative, la verifica e l'assistenza alla transazione, dal primo contatto alla fornitura.",
     "cta_btn": "Contattare tramite Teranova",
