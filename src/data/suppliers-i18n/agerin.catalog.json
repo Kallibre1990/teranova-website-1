@@ -6,50 +6,84 @@
         "name": "AGERIN Skin Barrier & Itch Cream",
         "img": "/img/suppliers/agerin/products/skin-barrier-itch-cream.jpg",
         "volume": "60 ml",
-        "actives": ["Agerarin", "Saikosaponin", "Gomisin"]
+        "actives": [
+          "Agerarin",
+          "Saikosaponin",
+          "Gomisin"
+        ]
       },
       {
         "name": "AGERIN Spot Barrier Cream",
         "img": "/img/suppliers/agerin/products/spot-barrier-cream.jpg",
         "volume": "30 g",
-        "actives": ["Agerarin", "Schisandra Chinensis", "Bupleurum Falcatum"]
+        "actives": [
+          "Agerarin",
+          "Schisandra Chinensis",
+          "Bupleurum Falcatum"
+        ]
       },
       {
         "name": "AGERIN Essence Toner",
         "img": "/img/suppliers/agerin/products/essence-toner.jpg",
         "volume": "130 ml",
-        "actives": ["Agerarin", "Schisandra Chinensis", "Soothing Cooler"]
+        "actives": [
+          "Agerarin",
+          "Schisandra Chinensis",
+          "Soothing Cooler"
+        ]
       },
       {
         "name": "AGERIN Lift Recharging Mask",
         "img": "/img/suppliers/agerin/products/lift-recharging-mask.jpg",
         "volume": "50 g",
-        "actives": ["Agerarin", "Schisandra Chinensis", "Bupleurum Falcatum"]
+        "actives": [
+          "Agerarin",
+          "Schisandra Chinensis",
+          "Bupleurum Falcatum"
+        ]
       },
       {
         "name": "AGERIN Hydrate UV Defense",
         "img": "/img/suppliers/agerin/products/hydrate-uv-defense.jpg",
         "volume": "50 ml",
-        "actives": ["Agerarin", "Chlorella Vulgaris", "MDP"]
+        "actives": [
+          "Agerarin",
+          "Chlorella Vulgaris",
+          "MDP"
+        ]
       },
       {
         "name": "AGERIN Facial Cleansing Pads",
         "img": "/img/suppliers/agerin/products/facial-cleansing-pads.jpg",
         "volume": "50 sheets · 160 g",
-        "certs": ["OEKO-TEX"],
-        "actives": ["Agerarin", "Moringa Oleifera Seed Oil", "Soothing Cooler"]
+        "certs": [
+          "OEKO-TEX STANDARD 100"
+        ],
+        "actives": [
+          "Agerarin",
+          "Moringa Oleifera Seed Oil",
+          "Soothing Cooler"
+        ]
       },
       {
         "name": "AGERIN Hydrating Barrier Exfoliating Gel",
         "img": "/img/suppliers/agerin/products/hydrating-barrier-exfoliating-gel.jpg",
         "volume": "100 ml",
-        "actives": ["Agerarin", "Lactobacillus Ferment", "Oregano Leaf"]
+        "actives": [
+          "Agerarin",
+          "Lactobacillus Ferment",
+          "Oregano Leaf"
+        ]
       },
       {
         "name": "AGERIN Hydrating Cream-to-Foam Cleanser",
         "img": "/img/suppliers/agerin/products/hydrating-cream-to-foam-cleanser.jpg",
         "volume": "150 ml",
-        "actives": ["Agerarin", "Tannin Complex HR", "Soothing Cooler"]
+        "actives": [
+          "Agerarin",
+          "Tannin Complex HR",
+          "Soothing Cooler"
+        ]
       }
     ]
   }
