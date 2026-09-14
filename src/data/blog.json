@@ -59851,5 +59851,1350 @@
         ]
       }
     }
+  },
+  {
+    "slug": "patent-in-cosmetics-who-owns-it",
+    "category": "guide",
+    "date": "2026-09-15",
+    "related": [
+      "agerin",
+      "cosmetics"
+    ],
+    "supplier": "agerin",
+    "i18n": {
+      "ru": {
+        "title": "Патент на этикетке: чей он и что именно защищает",
+        "excerpt": "Номер патента в описании крема выглядит весомо, но сам по себе не говорит ни кому он принадлежит, ни что закрывает. Разбираем, что спросить у поставщика, прежде чем переносить эту строчку в свои материалы.",
+        "seoTitle": "Патент в косметике: чей он и что защищает — вопросы поставщику",
+        "seoDesc": "Как читать номер патента в описании косметического средства: кому он принадлежит, на что выдан и действует ли на вашем рынке. Практические вопросы к производителю.",
+        "sections": [
+          {
+            "p": [
+              "Корейские производители часто приводят номера патентов прямо в описании продукта. Для покупателя это выглядит убедительно: есть номер, значит есть документ, значит за словами что-то стоит. Но номер сам по себе не отвечает на три вопроса, от которых зависит, можно ли вам на него опираться.",
+              "Эти вопросы стоит задать до того, как строчка про патент переедет в ваш каталог, на вашу упаковку или в презентацию для вашего клиента."
+            ]
+          },
+          {
+            "h": "Кому принадлежит патент",
+            "p": [
+              "Самая частая неочевидность. Бренд может честно указывать патент, который принадлежит не ему, а заводу, где он размещает производство. Ошибки тут нет: состав действительно защищён, средство действительно его содержит. Но правообладатель другой, и это меняет картину.",
+              "Практический смысл простой. Если патент у контрактного производителя, тот же защищённый компонент может стоять и в продукции других брендов, которые заказывают на том же заводе. Эксклюзивности, которую покупатель иногда додумывает сам, здесь нет.",
+              "Живой пример из нашей работы. Готовя профиль AGERIN, мы перечислили патенты одним списком, как они были поданы в презентации бренда. Компания прочитала текст перед публикацией и поправила нас: четыре патента на экстракт агератума принадлежат ей, а патент на охлаждающий компонент — её контрактному производителю. Мы исправили формулировку до выхода страницы."
+            ]
+          },
+          {
+            "h": "На что именно выдан патент",
+            "p": [
+              "Патент на вещество, патент на состав и патент на способ применения — три разные вещи, и весят они по-разному.",
+              "Патент на само выделенное вещество — самый сильный: он закрывает молекулу. Патент на состав защищает конкретную рецептуру, то есть сочетание и пропорции. Патент на применение закрывает использование известного вещества для новой задачи.",
+              "Когда производитель говорит «запатентованный ингредиент», уточните, что из трёх. От этого зависит, насколько трудно конкуренту сделать похожий продукт."
+            ]
+          },
+          {
+            "h": "Где патент действует",
+            "p": [
+              "Патент территориален. Корейская регистрация действует в Корее и больше нигде. Для вашего рынка она не даёт ни защиты, ни запрета конкурентам — это просто факт биографии продукта.",
+              "Если вам важна защита на своей территории, спрашивайте про заявки и регистрации именно там. Если важен не юридический эффект, а доказательство, что за составом стоит исследование, — тогда корейского патента достаточно, но и подавать его покупателю нужно именно так."
+            ]
+          },
+          {
+            "h": "Короткий список вопросов",
+            "p": [
+              "Кому принадлежит патент: бренду или заводу. На что он выдан: на вещество, состав или применение. В каких странах зарегистрирован. Действует ли он сейчас или срок истёк. Можно ли получить копию или выписку из реестра.",
+              "Хороший поставщик отвечает на это спокойно и без обид: вопросы обычные и означают, что вы собираетесь работать всерьёз. Если в ответ начинается уклончивость, это само по себе ответ."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "A patent on the label: whose it is and what it actually protects",
+        "excerpt": "A patent number in a cream's description looks solid, but on its own it says nothing about who owns it or what it covers. Here is what to ask a supplier before moving that line into your own materials.",
+        "seoTitle": "Patents in cosmetics: whose they are and what they protect — questions for your supplier",
+        "seoDesc": "How to read a patent number in a cosmetic product description: who owns it, what it was granted for and whether it applies in your market. Practical questions for the manufacturer.",
+        "sections": [
+          {
+            "p": [
+              "Korean manufacturers often quote patent numbers directly in the product description. To a buyer this looks convincing: there is a number, so there is a document, so there is something behind the words. But the number alone does not answer the three questions that decide whether you can rely on it.",
+              "These questions are worth asking before the line about the patent moves into your catalogue, onto your packaging or into a presentation for your own client."
+            ]
+          },
+          {
+            "h": "Who owns the patent",
+            "p": [
+              "The most common blind spot. A brand may honestly cite a patent that belongs not to it but to the factory where it places production. There is no error here: the formulation really is protected, and the product really does contain it. But the rights holder is a different company, and that changes the picture.",
+              "The practical meaning is simple. If the patent sits with the contract manufacturer, the same protected component may also appear in the products of other brands that order from the same factory. The exclusivity a buyer sometimes assumes on his own is not there.",
+              "A live example from our own work. While preparing the AGERIN profile, we listed the patents as a single set, the way they were presented in the brand's deck. The company read the text before publication and corrected us: four patents on the ageratum extract belong to it, while the patent on the cooling component belongs to its contract manufacturer. We amended the wording before the page went live."
+            ]
+          },
+          {
+            "h": "What exactly the patent was granted for",
+            "p": [
+              "A patent on a substance, a patent on a formulation and a patent on a method of use are three different things, and they carry different weight.",
+              "A patent on the isolated substance itself is the strongest: it covers the molecule. A patent on a formulation protects a specific recipe, that is, the combination and the proportions. A patent on use covers the application of a known substance to a new task.",
+              "When a manufacturer says “patented ingredient”, ask which of the three it is. That determines how hard it would be for a competitor to build a similar product."
+            ]
+          },
+          {
+            "h": "Where the patent is in force",
+            "p": [
+              "A patent is territorial. A Korean registration is in force in Korea and nowhere else. For your market it provides neither protection nor any bar to competitors — it is simply a fact in the product's biography.",
+              "If protection in your own territory matters to you, ask about filings and registrations there specifically. If what matters is not the legal effect but evidence that research stands behind the formulation, then a Korean patent is enough — but it should be presented to the buyer in exactly those terms."
+            ]
+          },
+          {
+            "h": "A short list of questions",
+            "p": [
+              "Who owns the patent: the brand or the factory. What it was granted for: a substance, a formulation or a use. In which countries it is registered. Whether it is still in force or has expired. Whether a copy or a register extract can be provided.",
+              "A good supplier answers this calmly and without taking offence: the questions are routine and they signal that you intend to work seriously. If the answers turn evasive, that in itself is an answer."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "라벨의 특허: 누구의 것이며 무엇을 보호하는가",
+        "excerpt": "크림 설명에 적힌 특허 번호는 무게감 있어 보이지만, 번호만으로는 그 특허가 누구의 것인지도, 무엇을 포괄하는지도 알 수 없습니다. 그 문구를 자사 자료로 옮기기 전에 공급사에 확인해야 할 사항을 정리했습니다.",
+        "seoTitle": "화장품 특허: 권리자와 보호 범위 — 공급사에 확인할 사항",
+        "seoDesc": "화장품 설명에 적힌 특허 번호를 읽는 방법. 권리자는 누구인지, 무엇에 대해 등록되었는지, 귀사 시장에서 효력이 있는지. 제조사에 던질 실무 질문.",
+        "sections": [
+          {
+            "p": [
+              "한국 제조사는 제품 설명에 특허 번호를 그대로 기재하는 경우가 많습니다. 구매자 입장에서는 설득력 있게 보입니다. 번호가 있으니 서류가 있고, 서류가 있으니 말 뒤에 무언가가 있다는 것입니다. 그러나 번호만으로는 그 특허에 기댈 수 있는지를 좌우하는 세 가지 질문에 답할 수 없습니다.",
+              "이 질문은 특허에 관한 문구가 귀사 카탈로그나 포장, 또는 귀사 고객용 프레젠테이션으로 옮겨지기 전에 확인하는 것이 좋습니다."
+            ]
+          },
+          {
+            "h": "특허는 누구의 것인가",
+            "p": [
+              "가장 자주 놓치는 지점입니다. 브랜드가 자사 소유가 아니라 생산을 맡긴 공장이 보유한 특허를 정직하게 기재하는 경우가 있습니다. 여기에 잘못은 없습니다. 처방은 실제로 보호받고 있고, 제품에도 실제로 들어 있습니다. 다만 권리자가 다르며, 이는 전체 그림을 바꿉니다.",
+              "실무적 의미는 단순합니다. 특허가 위탁 제조사에 있다면, 같은 공장에 생산을 맡기는 다른 브랜드의 제품에도 동일한 보호 성분이 들어갈 수 있습니다. 구매자가 스스로 짐작하는 독점성은 여기에 없습니다.",
+              "저희 업무에서 나온 실제 사례입니다. AGERIN 프로필을 준비하면서 저희는 브랜드 자료에 제시된 그대로 특허를 하나의 목록으로 묶어 적었습니다. 회사는 공개 전에 원고를 읽고 저희를 바로잡았습니다. 아게라텀 추출물에 대한 네 건의 특허는 자사 소유이고, 쿨링 성분에 대한 특허는 위탁 제조사의 것이라는 내용이었습니다. 저희는 페이지가 공개되기 전에 문구를 수정했습니다."
+            ]
+          },
+          {
+            "h": "특허가 무엇에 대해 등록되었는가",
+            "p": [
+              "물질 특허, 조성물 특허, 용도 특허는 서로 다른 것이며 무게도 다릅니다.",
+              "분리된 물질 자체에 대한 특허가 가장 강합니다. 분자를 포괄하기 때문입니다. 조성물 특허는 구체적인 처방, 즉 조합과 배합비를 보호합니다. 용도 특허는 이미 알려진 물질을 새로운 용도로 사용하는 것을 포괄합니다.",
+              "제조사가 “특허 성분”이라고 말하면 셋 중 어느 것인지 확인하십시오. 경쟁사가 유사한 제품을 만들기가 얼마나 어려운지가 여기에 달려 있습니다."
+            ]
+          },
+          {
+            "h": "특허가 어디에서 효력을 갖는가",
+            "p": [
+              "특허는 속지주의를 따릅니다. 한국 등록은 한국에서만 효력이 있습니다. 귀사 시장에서는 보호도, 경쟁사에 대한 금지력도 없으며, 제품 이력의 한 가지 사실일 뿐입니다.",
+              "자국 영역에서의 보호가 중요하다면 바로 그곳의 출원과 등록에 대해 문의하십시오. 법적 효력이 아니라 처방 뒤에 연구가 있다는 근거가 중요하다면 한국 특허로 충분합니다. 다만 구매자에게도 정확히 그렇게 제시해야 합니다."
+            ]
+          },
+          {
+            "h": "확인할 질문 목록",
+            "p": [
+              "특허 권리자가 브랜드인지 공장인지. 무엇에 대해 등록되었는지, 물질인지 조성물인지 용도인지. 어느 국가에 등록되어 있는지. 현재 유효한지 아니면 존속기간이 끝났는지. 사본이나 등록원부 발췌본을 받을 수 있는지.",
+              "좋은 공급사는 이런 질문에 차분하게, 기분 상하지 않고 답합니다. 통상적인 질문이며, 진지하게 거래할 의사가 있다는 뜻이기 때문입니다. 답이 모호해지기 시작한다면 그 자체가 답입니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "标签上的专利：归谁所有，究竟保护什么",
+        "excerpt": "面霜说明里的专利号看上去很有分量，但号码本身并不说明它归谁所有，也不说明它覆盖什么。本文梳理在把这句话写进自己的材料之前，应当向供应商问清楚什么。",
+        "seoTitle": "化妆品专利：归属与保护范围——向供应商提出的问题",
+        "seoDesc": "如何读懂化妆品说明中的专利号：归谁所有、就什么授予、在您的市场是否有效。给制造商的实务问题。",
+        "sections": [
+          {
+            "p": [
+              "韩国制造商常常把专利号直接写在产品说明里。在买家看来这很有说服力：有号码，就有文件，文字背后就有东西。但仅凭号码无法回答三个问题，而能否依靠这项专利正取决于这三个问题。",
+              "在这句关于专利的表述进入您的目录、您的包装或您给客户的演示之前，值得先把这些问题问清楚。"
+            ]
+          },
+          {
+            "h": "专利归谁所有",
+            "p": [
+              "这是最常被忽略的一点。品牌方可能如实标注一项专利，而该专利并不属于它，而是属于承接其生产的工厂。这里没有错误：配方确实受保护，产品确实含有它。但权利人是另一方，这就改变了整体判断。",
+              "实务含义很简单。如果专利在代工生产商手里，同一受保护成分也可能出现在向同一工厂下单的其他品牌产品中。买家有时自行设想的独家性，在这里并不存在。",
+              "我们工作中的真实例子。在准备 AGERIN 资料时，我们按品牌方演示文件中的呈现方式，把专利列成了一份清单。该公司在发布前读过文本并纠正了我们：胜红蓟提取物的四项专利归其所有，而清凉成分的专利属于其代工生产商。我们在页面上线前修改了措辞。"
+            ]
+          },
+          {
+            "h": "专利究竟就什么授予",
+            "p": [
+              "物质专利、组合物专利和用途专利是三件不同的事，分量也不相同。",
+              "就分离出的物质本身授予的专利最强：它覆盖分子。组合物专利保护具体配方，即成分组合与比例。用途专利覆盖将已知物质用于新的用途。",
+              "当制造商说“专利成分”时，请确认是三者中的哪一种。竞争对手做出类似产品的难度由此决定。"
+            ]
+          },
+          {
+            "h": "专利在哪里有效",
+            "p": [
+              "专利具有地域性。韩国注册只在韩国有效，别处无效。对您的市场而言，它既不提供保护，也不构成对竞争对手的禁止，只是产品履历中的一项事实。",
+              "如果您看重本地区的保护，就要问清楚在当地的申请与注册情况。如果您看重的不是法律效力，而是配方背后有研究这一佐证，那么韩国专利已经够用，但向买家陈述时也应当照此表述。"
+            ]
+          },
+          {
+            "h": "简短的问题清单",
+            "p": [
+              "专利归谁所有：品牌还是工厂。就什么授予：物质、组合物还是用途。在哪些国家注册。目前是否有效，还是已过期。能否提供副本或登记簿摘录。",
+              "好的供应商会平静作答，不会觉得被冒犯：这些是常规问题，说明您打算认真合作。如果对方开始含糊其辞，这本身就是答案。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "ラベル上の特許：誰のものであり、何を守るのか",
+        "excerpt": "クリームの説明に記された特許番号は重みがあるように見えますが、番号そのものは権利者も保護範囲も示しません。その一文を自社資料へ移す前に、仕入先へ確認すべき点を整理します。",
+        "seoTitle": "化粧品の特許：権利者と保護範囲 — 仕入先への確認事項",
+        "seoDesc": "化粧品の説明にある特許番号の読み方。権利者は誰か、何について登録されたか、自社市場で効力があるか。製造元への実務的な質問。",
+        "sections": [
+          {
+            "p": [
+              "韓国の製造元は、製品説明に特許番号をそのまま記載することが少なくありません。買い手から見れば説得力があります。番号があるなら書類があり、書類があるなら言葉の裏に何かがある、という受け止め方です。しかし番号だけでは、その特許に依拠できるかどうかを左右する三つの問いに答えられません。",
+              "これらの問いは、特許に関する一文が自社のカタログや包装、取引先向けの資料へ移る前に確認しておくべきものです。"
+            ]
+          },
+          {
+            "h": "特許は誰のものか",
+            "p": [
+              "最も見落とされやすい点です。ブランドが、自社ではなく生産を委託している工場の保有する特許を、正直に記載している場合があります。ここに誤りはありません。処方は実際に保護されており、製品にも実際に配合されています。ただし権利者が別であり、その点が評価を変えます。",
+              "実務上の意味は単純です。特許が受託製造先にある場合、同じ保護成分が、同じ工場へ発注する他ブランドの製品にも入り得ます。買い手が独自に思い描くことのある独占性は、ここにはありません。",
+              "当社の業務における実例です。AGERIN の紹介資料を準備した際、当社はブランド側の資料に提示されたままの形で特許を一つのリストにまとめました。同社は公開前に原稿を読み、当社を訂正しました。アゲラタム抽出物に関する四件の特許は同社に帰属し、冷感成分に関する特許は受託製造先のものである、という内容です。当社はページ公開前に表現を修正しました。"
+            ]
+          },
+          {
+            "h": "特許は何について登録されたのか",
+            "p": [
+              "物質特許、組成物特許、用途特許は別のものであり、重みも異なります。",
+              "単離された物質そのものの特許が最も強く、分子を対象とします。組成物特許は具体的な処方、すなわち組み合わせと配合比を保護します。用途特許は、既知の物質を新しい用途に用いることを対象とします。",
+              "製造元が「特許成分」と述べた場合は、三つのうちどれかを確認してください。競合が類似品をつくる難易度はここで決まります。"
+            ]
+          },
+          {
+            "h": "特許はどこで効力を持つか",
+            "p": [
+              "特許は属地的です。韓国での登録は韓国でのみ効力を持ちます。自社市場においては保護も競合への差止めももたらさず、製品の来歴上の事実にとどまります。",
+              "自国での保護が重要であれば、まさにその国での出願と登録について確認してください。法的効果ではなく、処方の背後に研究があるという裏づけが重要であれば、韓国特許で足ります。ただし買い手にもその通りに提示する必要があります。"
+            ]
+          },
+          {
+            "h": "確認事項の短いリスト",
+            "p": [
+              "特許の権利者はブランドか工場か。何について登録されたか、物質か組成物か用途か。どの国で登録されているか。現在も有効か、存続期間が満了しているか。写しや登録原簿の抄本を入手できるか。",
+              "良い仕入先は、こうした問いに落ち着いて、気分を害することなく答えます。通常の質問であり、本気で取引する意思の表れだからです。返答が曖昧になり始めるなら、それ自体が答えです。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Il brevetto in etichetta: a chi appartiene e che cosa protegge davvero",
+        "excerpt": "Un numero di brevetto nella descrizione di una crema ha il suo peso, ma da solo non dice né a chi appartiene né che cosa copre. Vediamo che cosa chiedere al fornitore prima di riportare quella riga nei propri materiali.",
+        "seoTitle": "Brevetti nella cosmetica: a chi appartengono e che cosa proteggono — domande al fornitore",
+        "seoDesc": "Come leggere un numero di brevetto nella descrizione di un cosmetico: a chi appartiene, per che cosa è stato concesso e se ha effetto sul vostro mercato. Domande pratiche al produttore.",
+        "sections": [
+          {
+            "p": [
+              "I produttori coreani riportano spesso i numeri di brevetto direttamente nella descrizione del prodotto. Per l'acquirente l'effetto è convincente: c'è un numero, quindi c'è un documento, quindi dietro le parole c'è qualcosa. Ma il numero da solo non risponde alle tre domande da cui dipende la possibilità di farvi affidamento.",
+              "Sono domande da porre prima che la riga sul brevetto passi nel vostro catalogo, sulla vostra confezione o in una presentazione per il vostro cliente."
+            ]
+          },
+          {
+            "h": "A chi appartiene il brevetto",
+            "p": [
+              "È l'aspetto meno evidente e più frequente. Un marchio può indicare in buona fede un brevetto che non è suo, ma dello stabilimento presso cui affida la produzione. Non c'è alcun errore: la formulazione è effettivamente protetta e il prodotto la contiene davvero. Ma il titolare è un altro, e questo cambia il quadro.",
+              "Il senso pratico è semplice. Se il brevetto è del produttore conto terzi, lo stesso componente protetto può trovarsi anche nei prodotti di altri marchi che ordinano nello stesso stabilimento. L'esclusiva che l'acquirente talvolta dà per scontata qui non c'è.",
+              "Un esempio concreto dal nostro lavoro. Preparando il profilo di AGERIN, avevamo elencato i brevetti in un unico blocco, così come comparivano nella presentazione del marchio. L'azienda ha letto il testo prima della pubblicazione e ci ha corretti: quattro brevetti sull'estratto di ageratum appartengono a lei, mentre il brevetto sul componente rinfrescante è del suo produttore conto terzi. Abbiamo corretto la formulazione prima della pubblicazione della pagina."
+            ]
+          },
+          {
+            "h": "Per che cosa è stato concesso il brevetto",
+            "p": [
+              "Un brevetto su una sostanza, un brevetto su una composizione e un brevetto su un metodo d'uso sono tre cose diverse e hanno peso diverso.",
+              "Il brevetto sulla sostanza isolata è il più forte: copre la molecola. Il brevetto sulla composizione protegge una formulazione specifica, cioè la combinazione e le proporzioni. Il brevetto d'uso copre l'impiego di una sostanza nota per una nuova finalità.",
+              "Quando il produttore parla di «ingrediente brevettato», chiedete quale dei tre casi sia. Da questo dipende quanto sia difficile per un concorrente realizzare un prodotto simile."
+            ]
+          },
+          {
+            "h": "Dove il brevetto ha effetto",
+            "p": [
+              "Il brevetto è territoriale. Una registrazione coreana ha effetto in Corea e in nessun altro luogo. Per il vostro mercato non offre né protezione né divieto ai concorrenti: è semplicemente un dato della storia del prodotto.",
+              "Se vi interessa la protezione sul vostro territorio, chiedete dei depositi e delle registrazioni effettuati proprio lì. Se invece non vi interessa l'effetto giuridico ma la prova che dietro la formulazione ci sia una ricerca, allora il brevetto coreano basta, purché venga presentato all'acquirente esattamente in questi termini."
+            ]
+          },
+          {
+            "h": "Un breve elenco di domande",
+            "p": [
+              "A chi appartiene il brevetto: al marchio o allo stabilimento. Per che cosa è stato concesso: sostanza, composizione o uso. In quali Paesi è registrato. Se è ancora in vigore o se è scaduto. Se è possibile ottenere una copia o una visura dal registro.",
+              "Un buon fornitore risponde con calma e senza risentirsi: sono domande ordinarie e indicano che intendete lavorare seriamente. Se la risposta diventa evasiva, è già di per sé una risposta."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Das Patent auf dem Etikett: wem es gehört und was es tatsächlich schützt",
+        "excerpt": "Eine Patentnummer in der Produktbeschreibung wirkt gewichtig, sagt für sich genommen aber weder, wem das Patent gehört, noch, was es abdeckt. Wir zeigen, was Sie den Lieferanten fragen sollten, bevor diese Zeile in Ihre eigenen Unterlagen wandert.",
+        "seoTitle": "Patente in der Kosmetik: wem sie gehören und was sie schützen — Fragen an den Lieferanten",
+        "seoDesc": "Wie man eine Patentnummer in der Beschreibung eines Kosmetikprodukts liest: wem sie gehört, wofür sie erteilt wurde und ob sie auf Ihrem Markt gilt. Praktische Fragen an den Hersteller.",
+        "sections": [
+          {
+            "p": [
+              "Koreanische Hersteller führen Patentnummern häufig direkt in der Produktbeschreibung auf. Für den Einkäufer wirkt das überzeugend: Es gibt eine Nummer, also ein Dokument, also steht hinter den Worten etwas. Die Nummer allein beantwortet jedoch nicht die drei Fragen, von denen abhängt, ob Sie sich darauf stützen können.",
+              "Diese Fragen sollten geklärt sein, bevor die Zeile über das Patent in Ihren Katalog, auf Ihre Verpackung oder in eine Präsentation für Ihren Kunden übergeht."
+            ]
+          },
+          {
+            "h": "Wem das Patent gehört",
+            "p": [
+              "Der häufigste blinde Fleck. Eine Marke kann in guter Absicht ein Patent nennen, das nicht ihr gehört, sondern dem Werk, in dem sie fertigen lässt. Ein Fehler liegt darin nicht: Die Rezeptur ist tatsächlich geschützt, und das Produkt enthält sie tatsächlich. Der Rechteinhaber ist aber ein anderer, und das verändert das Bild.",
+              "Die praktische Bedeutung ist einfach. Liegt das Patent beim Auftragshersteller, kann derselbe geschützte Bestandteil auch in Produkten anderer Marken stecken, die im selben Werk fertigen lassen. Die Exklusivität, die ein Einkäufer sich mitunter selbst hinzudenkt, gibt es hier nicht.",
+              "Ein Beispiel aus unserer eigenen Arbeit. Bei der Vorbereitung des AGERIN-Profils hatten wir die Patente in einer einzigen Liste zusammengefasst, so wie sie in der Präsentation der Marke standen. Das Unternehmen las den Text vor der Veröffentlichung und korrigierte uns: Vier Patente auf den Ageratum-Extrakt gehören ihm, das Patent auf die kühlende Komponente dagegen seinem Auftragshersteller. Wir haben die Formulierung vor der Veröffentlichung der Seite angepasst."
+            ]
+          },
+          {
+            "h": "Wofür das Patent erteilt wurde",
+            "p": [
+              "Ein Stoffpatent, ein Patent auf die Zusammensetzung und ein Patent auf die Verwendung sind drei verschiedene Dinge und wiegen unterschiedlich schwer.",
+              "Am stärksten ist das Patent auf den isolierten Stoff selbst: Es deckt das Molekül ab. Ein Patent auf die Zusammensetzung schützt eine konkrete Rezeptur, also Kombination und Mengenverhältnisse. Ein Verwendungspatent deckt den Einsatz eines bekannten Stoffs für eine neue Aufgabe ab.",
+              "Wenn der Hersteller von einem «patentierten Inhaltsstoff» spricht, fragen Sie nach, welcher der drei Fälle vorliegt. Davon hängt ab, wie schwer es einem Wettbewerber fällt, ein ähnliches Produkt zu entwickeln."
+            ]
+          },
+          {
+            "h": "Wo das Patent gilt",
+            "p": [
+              "Ein Patent wirkt territorial. Eine koreanische Eintragung gilt in Korea und sonst nirgends. Für Ihren Markt bringt sie weder Schutz noch ein Verbot für Wettbewerber — sie ist schlicht ein Punkt in der Vorgeschichte des Produkts.",
+              "Wenn Ihnen Schutz im eigenen Gebiet wichtig ist, fragen Sie nach Anmeldungen und Eintragungen genau dort. Geht es Ihnen nicht um die Rechtswirkung, sondern um den Beleg, dass hinter der Rezeptur Forschung steht, reicht das koreanische Patent — dann sollte es dem Einkäufer aber auch genau so dargestellt werden."
+            ]
+          },
+          {
+            "h": "Eine kurze Liste von Fragen",
+            "p": [
+              "Wem das Patent gehört: der Marke oder dem Werk. Wofür es erteilt wurde: auf einen Stoff, eine Zusammensetzung oder eine Verwendung. In welchen Ländern es eingetragen ist. Ob es noch in Kraft ist oder die Laufzeit abgelaufen ist. Ob eine Kopie oder ein Registerauszug erhältlich ist.",
+              "Ein guter Lieferant beantwortet das ruhig und ohne gekränkt zu sein: Die Fragen sind üblich und zeigen, dass Sie ernsthaft arbeiten wollen. Wenn die Antwort ausweichend wird, ist das für sich genommen bereits eine Antwort."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Le brevet sur l'étiquette : à qui appartient-il et que protège-t-il réellement",
+        "excerpt": "Un numéro de brevet dans la description d'une crème donne du poids, mais il ne dit à lui seul ni à qui il appartient ni ce qu'il couvre. Voici ce qu'il faut demander au fournisseur avant de reprendre cette ligne dans vos propres documents.",
+        "seoTitle": "Brevets en cosmétique : à qui ils appartiennent et ce qu'ils protègent — questions au fournisseur",
+        "seoDesc": "Comment lire un numéro de brevet dans la description d'un produit cosmétique : à qui il appartient, pour quoi il a été délivré et s'il produit effet sur votre marché. Questions pratiques au fabricant.",
+        "sections": [
+          {
+            "p": [
+              "Les fabricants coréens indiquent souvent les numéros de brevet directement dans la description du produit. Pour l'acheteur, l'effet est convaincant : il y a un numéro, donc un document, donc quelque chose derrière les mots. Mais le numéro seul ne répond pas aux trois questions dont dépend la possibilité de s'y appuyer.",
+              "Ces questions méritent d'être posées avant que la ligne relative au brevet ne passe dans votre catalogue, sur votre emballage ou dans une présentation destinée à votre client."
+            ]
+          },
+          {
+            "h": "À qui appartient le brevet",
+            "p": [
+              "C'est l'angle mort le plus fréquent. Une marque peut mentionner en toute bonne foi un brevet qui ne lui appartient pas, mais à l'usine où elle fait fabriquer. Il n'y a pas d'erreur : la formule est bien protégée et le produit la contient bien. Mais le titulaire est un autre, et cela change la lecture.",
+              "Le sens pratique est simple. Si le brevet appartient au fabricant sous contrat, le même composant protégé peut se retrouver dans les produits d'autres marques qui commandent à la même usine. L'exclusivité que l'acheteur imagine parfois de lui-même n'existe pas ici.",
+              "Un exemple tiré de notre travail. En préparant le profil d'AGERIN, nous avions présenté les brevets en une seule liste, telle qu'elle figurait dans la présentation de la marque. L'entreprise a lu le texte avant publication et nous a corrigés : quatre brevets portant sur l'extrait d'agératum lui appartiennent, tandis que le brevet portant sur le composant rafraîchissant appartient à son fabricant sous contrat. Nous avons rectifié la formulation avant la mise en ligne de la page."
+            ]
+          },
+          {
+            "h": "Pour quoi exactement le brevet a été délivré",
+            "p": [
+              "Un brevet de produit, un brevet de composition et un brevet d'application sont trois choses différentes, et leur poids n'est pas le même.",
+              "Le brevet portant sur la substance isolée elle-même est le plus fort : il couvre la molécule. Le brevet de composition protège une formule précise, c'est-à-dire l'association et les proportions. Le brevet d'application couvre l'emploi d'une substance connue pour un usage nouveau.",
+              "Lorsque le fabricant parle d'« ingrédient breveté », demandez lequel des trois cas s'applique. C'est de là que dépend la difficulté, pour un concurrent, de concevoir un produit comparable."
+            ]
+          },
+          {
+            "h": "Où le brevet produit effet",
+            "p": [
+              "Le brevet est territorial. Un enregistrement coréen produit effet en Corée et nulle part ailleurs. Pour votre marché, il n'apporte ni protection ni interdiction opposable aux concurrents : c'est simplement un élément de l'histoire du produit.",
+              "Si la protection sur votre territoire compte pour vous, interrogez le fournisseur sur les dépôts et les enregistrements effectués précisément là-bas. Si ce qui compte n'est pas l'effet juridique mais la preuve qu'une recherche existe derrière la formule, le brevet coréen suffit, à condition de le présenter à l'acheteur exactement en ces termes."
+            ]
+          },
+          {
+            "h": "Une courte liste de questions",
+            "p": [
+              "À qui appartient le brevet : à la marque ou à l'usine. Pour quoi il a été délivré : une substance, une composition ou une application. Dans quels pays il est enregistré. S'il est encore en vigueur ou si la durée a expiré. S'il est possible d'obtenir une copie ou un extrait du registre.",
+              "Un bon fournisseur y répond calmement et sans se vexer : ces questions sont courantes et montrent que vous comptez travailler sérieusement. Si la réponse devient évasive, c'est déjà une réponse en soi."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Etiketteki patent: kime ait ve gerçekte neyi koruyor",
+        "excerpt": "Bir kremin tanıtımında geçen patent numarası ağırlıklı görünür, ancak tek başına ne kime ait olduğunu ne de neyi kapsadığını söyler. Bu satırı kendi materyallerinize taşımadan önce tedarikçiye sorulması gerekenleri ele alıyoruz.",
+        "seoTitle": "Kozmetikte patent: kime ait ve neyi koruyor — tedarikçiye sorular",
+        "seoDesc": "Bir kozmetik ürün tanıtımındaki patent numarası nasıl okunur: kime ait, ne için verilmiş ve sizin pazarınızda geçerli mi. Üreticiye yöneltilecek pratik sorular.",
+        "sections": [
+          {
+            "p": [
+              "Kore'deki üreticiler patent numaralarını çoğu zaman doğrudan ürün tanıtımında belirtir. Alıcı açısından bu ikna edici görünür: numara varsa belge vardır, belge varsa sözlerin arkasında bir şey vardır. Ancak numara tek başına, ona dayanıp dayanamayacağınızı belirleyen üç soruyu yanıtlamaz.",
+              "Bu sorular, patentle ilgili satır sizin kataloğunuza, ambalajınıza ya da müşterinize yapacağınız sunuma geçmeden önce sorulmalıdır."
+            ]
+          },
+          {
+            "h": "Patent kime ait",
+            "p": [
+              "En sık gözden kaçan nokta budur. Bir marka, kendisine değil üretimi yaptırdığı fabrikaya ait bir patenti iyi niyetle belirtebilir. Burada bir hata yoktur: formül gerçekten korunmaktadır ve ürün gerçekten onu içermektedir. Ancak hak sahibi başkasıdır ve bu, tabloyu değiştirir.",
+              "Pratik anlamı basittir. Patent fason üreticideyse, aynı korunan bileşen aynı fabrikaya sipariş veren başka markaların ürünlerinde de yer alabilir. Alıcının kimi zaman kendiliğinden varsaydığı münhasırlık burada yoktur.",
+              "Kendi çalışmamızdan bir örnek. AGERIN profilini hazırlarken patentleri, markanın sunumunda yer aldığı biçimiyle tek bir liste halinde vermiştik. Şirket metni yayımdan önce okudu ve bizi düzeltti: ageratum ekstresine ilişkin dört patent kendisine, serinletici bileşene ilişkin patent ise fason üreticisine aittir. İfadeyi sayfa yayına girmeden önce düzelttik."
+            ]
+          },
+          {
+            "h": "Patent tam olarak ne için verilmiş",
+            "p": [
+              "Madde patenti, bileşim patenti ve kullanım patenti birbirinden farklı üç şeydir ve ağırlıkları da farklıdır.",
+              "En güçlüsü, izole edilmiş maddenin kendisine verilen patenttir: molekülü kapsar. Bileşim patenti belirli bir formülü, yani bileşimi ve oranları korur. Kullanım patenti ise bilinen bir maddenin yeni bir amaçla kullanılmasını kapsar.",
+              "Üretici “patentli bileşen” dediğinde, üçünden hangisi olduğunu sorun. Bir rakibin benzer bir ürün geliştirmesinin ne kadar zor olduğu buna bağlıdır."
+            ]
+          },
+          {
+            "h": "Patent nerede geçerli",
+            "p": [
+              "Patent ülkeseldir. Kore'deki tescil Kore'de geçerlidir, başka hiçbir yerde değil. Sizin pazarınız için ne koruma ne de rakiplere karşı bir yasak sağlar; yalnızca ürünün geçmişine ilişkin bir olgudur.",
+              "Kendi ülkenizdeki koruma sizin için önemliyse, başvuru ve tescillerin tam olarak orada yapılıp yapılmadığını sorun. Önemli olan hukuki etki değil de formülün arkasında bir araştırma bulunduğunun kanıtıysa, Kore patenti yeterlidir; ancak alıcıya da tam olarak bu şekilde sunulmalıdır."
+            ]
+          },
+          {
+            "h": "Kısa bir soru listesi",
+            "p": [
+              "Patent kime ait: markaya mı fabrikaya mı. Ne için verilmiş: maddeye, bileşime ya da kullanıma. Hangi ülkelerde tescilli. Hâlen geçerli mi yoksa süresi dolmuş mu. Bir kopyası ya da sicil örneği alınabilir mi.",
+              "İyi bir tedarikçi bunları sakin biçimde ve alınmadan yanıtlar: sorular olağandır ve ciddi çalışma niyetinde olduğunuzu gösterir. Yanıtlar kaçamak olmaya başlıyorsa, bu başlı başına bir yanıttır."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "La patente en la etiqueta: de quién es y qué protege en realidad",
+        "excerpt": "Un número de patente en la descripción de una crema resulta convincente, pero por sí solo no dice ni de quién es ni qué cubre. Repasamos qué conviene preguntar al proveedor antes de llevar esa línea a los materiales propios.",
+        "seoTitle": "Patentes en cosmética: de quién son y qué protegen — preguntas al proveedor",
+        "seoDesc": "Cómo leer un número de patente en la descripción de un producto cosmético: de quién es, para qué se concedió y si tiene efecto en su mercado. Preguntas prácticas al fabricante.",
+        "sections": [
+          {
+            "p": [
+              "Los fabricantes coreanos suelen citar los números de patente directamente en la descripción del producto. Para el comprador el efecto es convincente: hay un número, luego hay un documento, luego detrás de las palabras hay algo. Pero el número por sí solo no responde a las tres preguntas de las que depende que usted pueda apoyarse en él.",
+              "Conviene plantear estas preguntas antes de que la línea sobre la patente pase a su catálogo, a su envase o a una presentación dirigida a su cliente."
+            ]
+          },
+          {
+            "h": "De quién es la patente",
+            "p": [
+              "Es el punto ciego más frecuente. Una marca puede citar de buena fe una patente que no le pertenece a ella, sino a la planta donde encarga la producción. No hay error alguno: la fórmula está efectivamente protegida y el producto realmente la contiene. Pero el titular es otro, y eso cambia la lectura.",
+              "El sentido práctico es sencillo. Si la patente está en manos del fabricante por contrato, el mismo componente protegido puede estar también en los productos de otras marcas que encargan en la misma planta. La exclusividad que el comprador a veces da por supuesta aquí no existe.",
+              "Un ejemplo real de nuestro trabajo. Al preparar el perfil de AGERIN, habíamos enumerado las patentes en una sola lista, tal como figuraban en la presentación de la marca. La empresa leyó el texto antes de la publicación y nos corrigió: cuatro patentes sobre el extracto de ageratum le pertenecen a ella, mientras que la patente sobre el componente refrescante es de su fabricante por contrato. Corregimos la redacción antes de que la página se publicara."
+            ]
+          },
+          {
+            "h": "Para qué se concedió exactamente la patente",
+            "p": [
+              "Una patente de sustancia, una patente de composición y una patente de uso son tres cosas distintas y no pesan lo mismo.",
+              "La patente sobre la sustancia aislada en sí es la más fuerte: cubre la molécula. La patente de composición protege una fórmula concreta, es decir, la combinación y las proporciones. La patente de uso cubre el empleo de una sustancia conocida para una finalidad nueva.",
+              "Cuando el fabricante habla de «ingrediente patentado», pregunte cuál de los tres casos es. De ello depende lo difícil que le resulte a un competidor hacer un producto parecido."
+            ]
+          },
+          {
+            "h": "Dónde tiene efecto la patente",
+            "p": [
+              "La patente es territorial. Un registro coreano tiene efecto en Corea y en ningún otro lugar. Para su mercado no aporta ni protección ni prohibición alguna frente a los competidores: es simplemente un dato de la historia del producto.",
+              "Si le importa la protección en su propio territorio, pregunte por las solicitudes y los registros hechos precisamente allí. Si lo que importa no es el efecto jurídico, sino la prueba de que detrás de la fórmula hay investigación, entonces la patente coreana basta, pero al comprador hay que presentarla exactamente en esos términos."
+            ]
+          },
+          {
+            "h": "Una lista breve de preguntas",
+            "p": [
+              "De quién es la patente: de la marca o de la planta. Para qué se concedió: para una sustancia, una composición o un uso. En qué países está registrada. Si sigue vigente o si el plazo ya venció. Si es posible obtener una copia o un extracto del registro.",
+              "Un buen proveedor responde a esto con calma y sin ofenderse: son preguntas habituales e indican que usted piensa trabajar en serio. Si la respuesta empieza a ser evasiva, eso ya es una respuesta."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "A patente no rótulo: de quem é e o que de fato protege",
+        "excerpt": "Um número de patente na descrição de um creme tem peso, mas sozinho não diz nem de quem é nem o que cobre. Veja o que perguntar ao fornecedor antes de levar essa linha para os seus próprios materiais.",
+        "seoTitle": "Patentes em cosméticos: de quem são e o que protegem — perguntas ao fornecedor",
+        "seoDesc": "Como ler um número de patente na descrição de um cosmético: de quem é, para que foi concedida e se tem efeito no seu mercado. Perguntas práticas ao fabricante.",
+        "sections": [
+          {
+            "p": [
+              "Os fabricantes coreanos costumam citar números de patente diretamente na descrição do produto. Para o comprador, o efeito é convincente: há um número, logo há um documento, logo existe algo por trás das palavras. Mas o número sozinho não responde às três perguntas das quais depende a possibilidade de você se apoiar nele.",
+              "Vale fazer essas perguntas antes que a linha sobre a patente passe para o seu catálogo, para a sua embalagem ou para uma apresentação destinada ao seu cliente."
+            ]
+          },
+          {
+            "h": "De quem é a patente",
+            "p": [
+              "É o ponto cego mais comum. Uma marca pode citar de boa-fé uma patente que não é dela, e sim da fábrica onde ela contrata a produção. Não há erro nisso: a fórmula está de fato protegida e o produto realmente a contém. Mas o titular é outro, e isso muda a leitura.",
+              "O sentido prático é simples. Se a patente está com o fabricante contratado, o mesmo componente protegido pode estar também nos produtos de outras marcas que encomendam na mesma fábrica. A exclusividade que o comprador às vezes supõe por conta própria não existe aqui.",
+              "Um exemplo real do nosso trabalho. Ao preparar o perfil da AGERIN, listamos as patentes em um bloco único, como apareciam na apresentação da marca. A empresa leu o texto antes da publicação e nos corrigiu: quatro patentes sobre o extrato de ageratum pertencem a ela, enquanto a patente sobre o componente refrescante é do seu fabricante contratado. Ajustamos a redação antes de a página entrar no ar."
+            ]
+          },
+          {
+            "h": "Para que exatamente a patente foi concedida",
+            "p": [
+              "Uma patente de substância, uma patente de composição e uma patente de uso são três coisas diferentes e têm pesos diferentes.",
+              "A patente sobre a substância isolada é a mais forte: cobre a molécula. A patente de composição protege uma fórmula específica, ou seja, a combinação e as proporções. A patente de uso cobre o emprego de uma substância conhecida para uma nova finalidade.",
+              "Quando o fabricante fala em «ingrediente patenteado», pergunte qual dos três casos é. Disso depende o quanto é difícil para um concorrente fazer um produto parecido."
+            ]
+          },
+          {
+            "h": "Onde a patente tem efeito",
+            "p": [
+              "A patente é territorial. Um registro coreano tem efeito na Coreia e em nenhum outro lugar. Para o seu mercado, ela não traz proteção nem proibição aos concorrentes — é apenas um dado da história do produto.",
+              "Se a proteção no seu território importa para você, pergunte sobre os depósitos e registros feitos exatamente lá. Se o que importa não é o efeito jurídico, mas a prova de que há pesquisa por trás da fórmula, então a patente coreana basta, mas ela precisa ser apresentada ao comprador exatamente nesses termos."
+            ]
+          },
+          {
+            "h": "Uma lista curta de perguntas",
+            "p": [
+              "De quem é a patente: da marca ou da fábrica. Para que foi concedida: substância, composição ou uso. Em quais países está registrada. Se continua em vigor ou se o prazo já expirou. Se é possível obter uma cópia ou uma certidão do registro.",
+              "Um bom fornecedor responde a isso com calma e sem se ofender: as perguntas são comuns e mostram que você pretende trabalhar a sério. Se a resposta começa a ser evasiva, isso por si só já é uma resposta."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "overnight-skin-repair-what-to-verify",
+    "category": "guide",
+    "date": "2026-09-15",
+    "related": [
+      "agerin",
+      "cosmetics"
+    ],
+    "supplier": "agerin",
+    "i18n": {
+      "ru": {
+        "title": "Ночное восстановление кожи: что стоит за словами про суточные ритмы",
+        "excerpt": "Ночные маски всё чаще продают через биологию: часовые гены, окно восстановления, аквапорины. Часть этого опирается на реальные работы, часть — на красивую аналогию. Разбираем, как отличить одно от другого.",
+        "seoTitle": "Ночной уход и суточные ритмы кожи: что уточнять у производителя",
+        "seoDesc": "Часовые гены, аквапорин-3 и «золотое окно» с 22 до 6: что за этим стоит на самом деле и какие вопросы задать поставщику ночного ухода.",
+        "sections": [
+          {
+            "p": [
+              "Формулировка «работает, пока вы спите» перестала быть метафорой и всё чаще подаётся как механизм: у кожи есть суточный ритм, ночью включается восстановление, средство в это встраивается. За частью таких заявлений действительно стоят опубликованные работы. За частью — только удачный образ.",
+              "Покупателю, который берёт такой продукт в ассортимент, важно понимать, где проходит граница."
+            ]
+          },
+          {
+            "h": "Что здесь правда",
+            "p": [
+              "Суточные ритмы у кожи есть, и это не маркетинг. Активность части генов меняется в течение суток, ночью усиливаются процессы восстановления, а барьерная функция и потеря влаги тоже колеблются по часам. Это изучено и опубликовано.",
+              "Есть и конкретные белки, через которые механизм работает. Аквапорин-3 переносит воду и глицерин в верхние слои кожи, а глицерин участвует в построении липидов барьера. Влияние суточной ритмики на его активность описано в научной литературе.",
+              "Например, бренд AGERIN строит ночную маску именно на этой логике и ссылается на работу в Scientific Reports за 2017 год: активное вещество из экстракта агератума влияет на суточную регуляцию и через неё на экспрессию аквапорина-3."
+            ]
+          },
+          {
+            "h": "Где начинается натяжка",
+            "p": [
+              "Первое, что стоит проверить, — на чём получен результат. Большинство работ про часовые гены и аквапорины выполнены на культуре клеток, чаще всего на кератиноцитах. Это честная наука, но это лабораторная модель, а не живая кожа человека.",
+              "Из того, что вещество меняет экспрессию гена в чашке, не следует автоматически, что крем даст видимый эффект за ночь. Между этими утверждениями — несколько ступеней, и производитель не обязан их скрывать: обычно он просто приводит то, что у него есть.",
+              "Второе — точное окно «с 22 до 6». Его любят называть золотым временем. Опорой ему служит общая физиология, а не исследование конкретного средства именно в эти часы. Это разумная рекомендация по применению, а не доказанное свойство продукта."
+            ]
+          },
+          {
+            "h": "Что спросить",
+            "p": [
+              "Есть ли публикация и где она вышла. На какой модели получен результат: культура клеток, животные или люди. Проверялся ли сам готовый продукт или только отдельное вещество. Есть ли испытание с участием людей именно по этому средству.",
+              "Ответ «работа на кератиноцитах, испытания готового продукта на людях нет» — нормальный ответ. Он позволяет вам подать продукт точно: сильный состав с научной основой, а не чудо за одну ночь. Обещание, которое не сбудется, обойдётся дороже, чем аккуратная формулировка."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Overnight skin repair: what lies behind the claims about circadian rhythms",
+        "excerpt": "Night masks are increasingly sold through biology: clock genes, a repair window, aquaporins. Some of it rests on real published work, some of it on nothing more than a neat analogy. Here is how to tell one from the other.",
+        "seoTitle": "Night care and the skin's circadian rhythms: what to check with the manufacturer",
+        "seoDesc": "Clock genes, aquaporin-3 and the «golden window» from 10 p.m. to 6 a.m.: what actually stands behind them and which questions to ask a night-care supplier.",
+        "sections": [
+          {
+            "p": [
+              "The phrase «it works while you sleep» has stopped being a metaphor and is increasingly presented as a mechanism: the skin has a circadian rhythm, repair processes switch on at night, and the product fits into that process. Some of these claims are indeed backed by published work. Others rest on nothing but a well-chosen image.",
+              "A buyer who takes such a product into their range needs to understand where the line runs."
+            ]
+          },
+          {
+            "h": "What is true here",
+            "p": [
+              "The skin does have circadian rhythms, and that is not marketing. The activity of some genes changes over the course of the day, repair processes intensify at night, and barrier function and water loss also fluctuate by the hour. This has been studied and published.",
+              "There are also specific proteins through which the mechanism works. Aquaporin-3 carries water and glycerol into the upper layers of the skin, and glycerol takes part in building the barrier lipids. The influence of circadian rhythm on its activity is described in the scientific literature.",
+              "The AGERIN brand, for example, builds its night mask on exactly this logic and cites a 2017 paper in Scientific Reports: an active compound from Ageratum extract affects circadian regulation and, through it, the expression of aquaporin-3."
+            ]
+          },
+          {
+            "h": "Where the stretch begins",
+            "p": [
+              "The first thing worth checking is what the result was obtained on. Most work on clock genes and aquaporins is done in cell culture, most often on keratinocytes. That is honest science, but it is a laboratory model, not living human skin.",
+              "The fact that a substance changes gene expression in a dish does not automatically mean that a cream will deliver a visible effect overnight. There are several steps between those two statements, and the manufacturer is under no obligation to hide them: as a rule it simply presents what it has.",
+              "The second point is the precise window «from 10 p.m. to 6 a.m.». It is often called the golden hours. What supports it is general physiology, not a study of a specific product during exactly those hours. It is a sensible usage recommendation, not a proven property of the product."
+            ]
+          },
+          {
+            "h": "What to ask",
+            "p": [
+              "Whether there is a publication and where it appeared. What model the result was obtained on: cell culture, animals or humans. Whether the finished product itself was tested or only the isolated compound. Whether there is a human study on this particular product.",
+              "The answer «work on keratinocytes, no human testing of the finished product» is a perfectly acceptable answer. It lets you position the product precisely: a strong formula with a scientific basis, not an overnight miracle. A promise that does not come true costs more than a carefully worded one."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "밤사이 피부 회복: 일주기 리듬을 내세운 문구의 실제",
+        "excerpt": "나이트 마스크는 점점 더 생물학의 언어로 판매됩니다. 시계 유전자, 회복 구간, 아쿠아포린이 그렇습니다. 이 가운데 일부는 실제로 발표된 연구에 근거하지만, 일부는 잘 만들어진 비유에 그칩니다. 둘을 어떻게 구분할지 정리합니다.",
+        "seoTitle": "나이트 케어와 피부 일주기 리듬: 제조사에 확인할 사항",
+        "seoDesc": "시계 유전자, 아쿠아포린-3, 그리고 밤 10시부터 오전 6시까지의 「골든 타임」. 그 근거는 무엇이며 나이트 케어 공급사에 어떤 질문을 해야 하는지 살펴봅니다.",
+        "sections": [
+          {
+            "p": [
+              "「자는 동안 작용한다」는 표현은 더 이상 비유가 아니라 메커니즘으로 제시되는 경우가 늘고 있습니다. 피부에는 일주기 리듬이 있고, 밤에는 회복 과정이 켜지며, 제품이 그 과정에 맞물린다는 설명입니다. 이러한 주장 가운데 일부는 실제로 발표된 연구에 근거합니다. 나머지는 잘 고른 이미지에 기대고 있을 뿐입니다.",
+              "이런 제품을 구성에 넣으려는 바이어라면 그 경계가 어디에 있는지 파악해 두어야 합니다."
+            ]
+          },
+          {
+            "h": "사실인 부분",
+            "p": [
+              "피부에 일주기 리듬이 있다는 것은 마케팅이 아닙니다. 일부 유전자의 활성은 하루 동안 변하고, 밤에는 회복 과정이 강해지며, 장벽 기능과 수분 손실도 시간대에 따라 달라집니다. 이는 연구되어 논문으로 발표된 내용입니다.",
+              "이 메커니즘이 작동하는 구체적인 단백질도 있습니다. 아쿠아포린-3는 물과 글리세롤을 피부 상층으로 옮기고, 글리세롤은 장벽 지질을 만드는 데 관여합니다. 일주기 리듬이 그 활성에 미치는 영향은 학술 문헌에 기술되어 있습니다.",
+              "예를 들어 AGERIN은 바로 이 논리로 나이트 마스크를 구성하며, 2017년 Scientific Reports에 실린 연구를 근거로 제시합니다. 아게라텀 추출물(Ageratum extract)의 활성 물질이 일주기 조절에 작용하고, 이를 통해 아쿠아포린-3의 발현에 영향을 준다는 내용입니다."
+            ]
+          },
+          {
+            "h": "무리가 시작되는 지점",
+            "p": [
+              "먼저 확인할 것은 그 결과가 무엇에서 얻어졌는가입니다. 시계 유전자(clock genes)와 아쿠아포린에 관한 연구 대부분은 세포 배양, 주로 케라티노사이트에서 수행됩니다. 정직한 과학이지만 이는 실험실 모델이지 살아 있는 사람의 피부가 아닙니다.",
+              "어떤 물질이 배양 접시에서 유전자 발현을 바꾼다고 해서, 크림이 하룻밤 사이에 눈에 보이는 효과를 낸다는 결론이 자동으로 따라오지는 않습니다. 두 진술 사이에는 몇 단계가 놓여 있으며, 제조사가 이를 숨겨야 할 이유도 없습니다. 대개는 가지고 있는 자료를 그대로 제시할 뿐입니다.",
+              "두 번째는 「밤 10시부터 오전 6시까지」라는 정확한 구간입니다. 흔히 골든 타임이라고 부릅니다. 그 근거는 일반적인 생리학이지, 특정 제품을 바로 그 시간대에 검증한 연구가 아닙니다. 합리적인 사용 권장 사항일 뿐, 입증된 제품 특성은 아닙니다."
+            ]
+          },
+          {
+            "h": "확인할 질문",
+            "p": [
+              "논문이 있는지, 어디에 게재되었는지. 결과가 어떤 모델에서 나왔는지, 즉 세포 배양인지 동물인지 사람인지. 완제품 자체를 시험했는지 아니면 단일 물질만 시험했는지. 바로 이 제품에 대한 인체적용시험이 있는지.",
+              "「케라티노사이트에서의 연구이며 완제품의 인체 시험은 없다」는 답변은 정상적인 답변입니다. 오히려 제품을 정확하게 소개할 수 있게 해 줍니다. 하룻밤의 기적이 아니라 과학적 근거를 갖춘 탄탄한 처방이라는 식으로 말입니다. 지켜지지 않을 약속은 신중한 표현보다 더 큰 비용으로 돌아옵니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "夜间肌肤修护：昼夜节律说法的背后",
+        "excerpt": "晚安面膜越来越多地借助生物学来销售：时钟基因、修护窗口、水通道蛋白。其中一部分有已发表的研究作支撑，另一部分只是一个漂亮的类比。本文说明如何区分两者。",
+        "seoTitle": "夜间护理与皮肤昼夜节律：应向制造商核实什么",
+        "seoDesc": "时钟基因、水通道蛋白-3以及晚上10点到早上6点的「黄金窗口」：其真实依据是什么，采购夜间护理产品时应向供应商提出哪些问题。",
+        "sections": [
+          {
+            "p": [
+              "「在您睡觉时发挥作用」这句话已不再只是比喻，而越来越多地被当作一种机制来陈述：皮肤存在昼夜节律，夜间修护过程启动，产品则嵌入其中。这类说法中有一部分确实有已发表的研究作为依据，另一部分依靠的只是一个恰当的形象。",
+              "对于要把这类产品纳入品类的采购方来说，重要的是清楚这条界线在哪里。"
+            ]
+          },
+          {
+            "h": "其中属实的部分",
+            "p": [
+              "皮肤确实存在昼夜节律，这不是营销话术。部分基因的活性在一天之内会发生变化，夜间修护过程增强，屏障功能和水分流失也随时段波动。这些内容已有研究并已发表。",
+              "机制所依托的具体蛋白也是存在的。水通道蛋白-3将水和甘油输送到皮肤上层，而甘油参与屏障脂质的构建。昼夜节律对其活性的影响在学术文献中已有描述。",
+              "例如，AGERIN 正是按照这一逻辑设计其夜间面膜，并引用了 2017 年发表于 Scientific Reports 的研究：来自藿香蓟提取物（Ageratum extract）的活性成分作用于昼夜节律调控，并借此影响水通道蛋白-3的表达。"
+            ]
+          },
+          {
+            "h": "夸大从哪里开始",
+            "p": [
+              "首先值得核实的是结果是在什么体系上取得的。关于时钟基因（clock genes）和水通道蛋白的大多数研究是在细胞培养中完成的，最常见的是角质形成细胞。这是诚实的科学，但它是实验室模型，而不是人的活体皮肤。",
+              "某种物质在培养皿中改变了基因表达，并不自动意味着面霜能在一夜之间带来可见效果。这两种说法之间还隔着若干步骤，制造商也没有必要隐瞒：通常它只是把手里有的资料如实列出。",
+              "其次是「晚上10点到早上6点」这个精确的时段。它常被称为黄金时间。支撑它的是一般生理学，而不是针对某一具体产品恰好在这些时段进行的研究。这是合理的使用建议，而不是经过验证的产品特性。"
+            ]
+          },
+          {
+            "h": "应当询问的问题",
+            "p": [
+              "是否有公开发表的研究，发表在哪里。结果是在哪种模型上取得的：细胞培养、动物还是人体。受试的是成品本身，还是仅仅是单一成分。针对这款产品是否有人体试验。",
+              "「研究做在角质形成细胞上，成品没有人体试验」——这是一个正常的回答。它让您可以准确地介绍产品：配方扎实、有科学依据，而不是一夜见效的奇迹。无法兑现的承诺，代价远高于一句谨慎的措辞。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "夜間の肌の回復：概日リズムをうたう表現の中身",
+        "excerpt": "ナイトマスクは生物学の言葉で語られることが増えています。時計遺伝子、回復の時間帯、アクアポリンです。その一部は実際に公表された研究に基づきますが、一部は巧みな比喩にとどまります。両者を見分ける方法を整理します。",
+        "seoTitle": "ナイトケアと肌の概日リズム：メーカーに確認すべきこと",
+        "seoDesc": "時計遺伝子、アクアポリン3、そして22時から6時までの「ゴールデンタイム」。その根拠は何か、ナイトケアの供給元に何を尋ねるべきかを整理します。",
+        "sections": [
+          {
+            "p": [
+              "「眠っている間に働く」という表現は、もはや比喩ではなく仕組みとして提示されることが増えています。肌には概日リズムがあり、夜間に回復の過程が動き出し、製品がそこに組み込まれるという説明です。こうした主張の一部には、確かに公表された研究があります。残りの一部は、うまく選ばれたイメージに支えられているだけです。",
+              "この種の製品を品揃えに加えるバイヤーにとって、その境界がどこにあるかを把握しておくことが重要です。"
+            ]
+          },
+          {
+            "h": "事実である部分",
+            "p": [
+              "肌に概日リズムがあることはマーケティングではありません。一部の遺伝子の活性は一日のうちで変動し、夜間には回復の過程が強まり、バリア機能や水分の喪失も時間帯によって変化します。これは研究され、論文として公表されています。",
+              "仕組みを担う具体的なタンパク質も存在します。アクアポリン3は水とグリセロールを肌の上層へ運び、グリセロールはバリアの脂質の構築に関与します。概日リズムがその活性に及ぼす影響は学術文献に記載されています。",
+              "たとえば AGERIN は、まさにこの論理でナイトマスクを設計し、2017年の Scientific Reports の論文を根拠として挙げています。アゲラタム抽出物（Ageratum extract）由来の有効成分が概日調節に作用し、それを介してアクアポリン3の発現に影響するという内容です。"
+            ]
+          },
+          {
+            "h": "無理が生じる箇所",
+            "p": [
+              "最初に確認したいのは、その結果が何を用いて得られたかです。時計遺伝子（clock genes）やアクアポリンに関する研究の多くは細胞培養、多くの場合ケラチノサイトで行われています。これは誠実な科学ですが、実験室のモデルであり、生きたヒトの肌ではありません。",
+              "ある物質がシャーレの中で遺伝子発現を変えたからといって、クリームが一晩で目に見える効果をもたらすとは自動的には言えません。この二つの主張の間にはいくつかの段階があり、メーカーがそれを隠さなければならない理由もありません。通常は手元にある資料をそのまま示しているだけです。",
+              "第二に、「22時から6時まで」という正確な時間帯です。ゴールデンタイムと呼ばれることの多い区間です。その裏づけは一般的な生理学であり、特定の製品をまさにその時間帯で検証した研究ではありません。これは合理的な使用上の推奨であって、実証された製品特性ではありません。"
+            ]
+          },
+          {
+            "h": "確認すべき質問",
+            "p": [
+              "論文があるか、どこに掲載されたか。結果はどのモデルで得られたか、すなわち細胞培養か、動物か、ヒトか。完成品そのものを試験したのか、単一の成分だけなのか。この製品についてヒトでの試験があるか。",
+              "「ケラチノサイトでの研究であり、完成品のヒト試験はない」という回答は、まっとうな回答です。むしろ製品を正確に紹介できるようになります。一晩の奇跡ではなく、科学的な裏づけのある確かな処方という位置づけです。果たせない約束は、慎重な表現よりも高くつきます。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Riparazione notturna della pelle: che cosa c'è dietro il richiamo ai ritmi circadiani",
+        "excerpt": "Le maschere notturne vengono vendute sempre più spesso attraverso la biologia: geni orologio, finestra di riparazione, acquaporine. Una parte di questi argomenti poggia su lavori pubblicati, una parte soltanto su un'immagine ben trovata. Vediamo come distinguere le due cose.",
+        "seoTitle": "Cura notturna e ritmi circadiani della pelle: che cosa verificare con il produttore",
+        "seoDesc": "Geni orologio, acquaporina-3 e la «finestra d'oro» dalle 22 alle 6: che cosa c'è davvero dietro e quali domande porre a un fornitore di prodotti notturni.",
+        "sections": [
+          {
+            "p": [
+              "L'espressione «agisce mentre dormi» ha smesso di essere una metafora e viene presentata sempre più spesso come un meccanismo: la pelle ha un ritmo circadiano, di notte si attivano i processi di riparazione e il prodotto si inserisce in questo processo. Dietro una parte di queste affermazioni ci sono lavori effettivamente pubblicati. Dietro un'altra parte c'è solo un'immagine ben scelta.",
+              "Per il compratore che inserisce un prodotto simile nel proprio assortimento è importante capire dove passa il confine."
+            ]
+          },
+          {
+            "h": "Che cosa qui è vero",
+            "p": [
+              "I ritmi circadiani della pelle esistono e non sono marketing. L'attività di una parte dei geni cambia nell'arco della giornata, di notte i processi di riparazione si intensificano e anche la funzione barriera e la perdita di acqua oscillano a seconda dell'ora. È un fatto studiato e pubblicato.",
+              "Esistono anche proteine precise attraverso cui il meccanismo opera. L'acquaporina-3 trasporta acqua e glicerolo negli strati superiori della pelle, e il glicerolo partecipa alla costruzione dei lipidi della barriera. L'influenza del ritmo circadiano sulla sua attività è descritta nella letteratura scientifica.",
+              "Il marchio AGERIN, per esempio, costruisce la propria maschera notturna esattamente su questa logica e cita un lavoro pubblicato su Scientific Reports nel 2017: un principio attivo dell'Ageratum extract agisce sulla regolazione circadiana e, attraverso di essa, sull'espressione dell'acquaporina-3."
+            ]
+          },
+          {
+            "h": "Dove comincia la forzatura",
+            "p": [
+              "La prima cosa da verificare è su che cosa è stato ottenuto il risultato. La maggior parte dei lavori sui geni orologio e sulle acquaporine è condotta su colture cellulari, più spesso su cheratinociti. È scienza onesta, ma è un modello di laboratorio, non la pelle umana viva.",
+              "Dal fatto che una sostanza modifichi l'espressione di un gene in piastra non discende automaticamente che una crema dia un effetto visibile in una notte. Tra le due affermazioni ci sono diversi passaggi, e il produttore non è tenuto a nasconderli: di solito si limita a presentare ciò che ha.",
+              "Il secondo punto è la finestra precisa «dalle 22 alle 6». La si chiama volentieri ora d'oro. A sostenerla è la fisiologia generale, non uno studio su un prodotto specifico proprio in quelle ore. È una ragionevole indicazione d'uso, non una proprietà dimostrata del prodotto."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere",
+            "p": [
+              "Se esiste una pubblicazione e dove è uscita. Su quale modello è stato ottenuto il risultato: coltura cellulare, animali o esseri umani. Se è stato testato il prodotto finito oppure soltanto la singola sostanza. Se esiste uno studio su persone relativo proprio a questo prodotto.",
+              "La risposta «lavoro su cheratinociti, nessun test del prodotto finito su persone» è una risposta accettabile. Vi permette di presentare il prodotto con precisione: una formula solida con una base scientifica, non un miracolo in una notte. Una promessa che non si realizza costa più di una formulazione prudente."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Nächtliche Hautregeneration: Was hinter den Aussagen zur zirkadianen Rhythmik steckt",
+        "excerpt": "Nachtmasken werden immer häufiger über Biologie verkauft: Clock-Gene, Regenerationsfenster, Aquaporine. Ein Teil davon stützt sich auf publizierte Arbeiten, ein Teil nur auf ein gelungenes Bild. Wir zeigen, wie sich beides unterscheiden lässt.",
+        "seoTitle": "Nachtpflege und zirkadiane Hautrhythmik: Was beim Hersteller nachzufragen ist",
+        "seoDesc": "Clock-Gene, Aquaporin-3 und das „goldene Fenster“ von 22 bis 6 Uhr: was wirklich dahintersteckt und welche Fragen an einen Lieferanten von Nachtpflege gehören.",
+        "sections": [
+          {
+            "p": [
+              "Die Formulierung „wirkt, während Sie schlafen“ ist längst keine Metapher mehr, sondern wird zunehmend als Mechanismus dargestellt: Die Haut hat einen zirkadianen Rhythmus, nachts laufen Regenerationsprozesse an, das Produkt fügt sich darin ein. Hinter einem Teil dieser Aussagen stehen tatsächlich publizierte Arbeiten. Hinter einem anderen Teil steht lediglich ein gut gewähltes Bild.",
+              "Für den Einkäufer, der ein solches Produkt ins Sortiment nimmt, ist es wichtig zu wissen, wo die Grenze verläuft."
+            ]
+          },
+          {
+            "h": "Was daran stimmt",
+            "p": [
+              "Die Haut hat zirkadiane Rhythmen, und das ist kein Marketing. Die Aktivität eines Teils der Gene verändert sich im Tagesverlauf, nachts verstärken sich Regenerationsprozesse, und auch Barrierefunktion und Wasserverlust schwanken je nach Tageszeit. Das ist untersucht und publiziert.",
+              "Es gibt auch konkrete Proteine, über die der Mechanismus wirkt. Aquaporin-3 transportiert Wasser und Glycerin in die oberen Hautschichten, und Glycerin ist am Aufbau der Barrierelipide beteiligt. Der Einfluss der zirkadianen Rhythmik auf seine Aktivität ist in der wissenschaftlichen Literatur beschrieben.",
+              "Die Marke AGERIN etwa baut ihre Nachtmaske genau auf dieser Logik auf und verweist auf eine Arbeit in Scientific Reports aus dem Jahr 2017: Ein Wirkstoff aus dem Ageratum extract greift in die zirkadiane Regulation ein und darüber in die Expression von Aquaporin-3."
+            ]
+          },
+          {
+            "h": "Wo die Überdehnung beginnt",
+            "p": [
+              "Als Erstes lohnt die Frage, woran das Ergebnis gewonnen wurde. Die meisten Arbeiten zu Clock-Genen und Aquaporinen entstehen in der Zellkultur, meist an Keratinozyten. Das ist redliche Wissenschaft, aber ein Labormodell und nicht die lebende menschliche Haut.",
+              "Daraus, dass ein Stoff die Genexpression in der Schale verändert, folgt nicht automatisch, dass eine Creme über Nacht einen sichtbaren Effekt bringt. Zwischen beiden Aussagen liegen mehrere Stufen, und der Hersteller muss sie nicht verschweigen: In der Regel legt er einfach vor, was er hat.",
+              "Zweitens das exakte Fenster „von 22 bis 6 Uhr“. Man nennt es gern die goldene Zeit. Getragen wird es von der allgemeinen Physiologie, nicht von einer Untersuchung eines konkreten Mittels genau in diesen Stunden. Es ist eine sinnvolle Anwendungsempfehlung, keine belegte Produkteigenschaft."
+            ]
+          },
+          {
+            "h": "Was zu fragen ist",
+            "p": [
+              "Ob es eine Publikation gibt und wo sie erschienen ist. An welchem Modell das Ergebnis gewonnen wurde: Zellkultur, Tier oder Mensch. Ob das fertige Produkt geprüft wurde oder nur der einzelne Wirkstoff. Ob es eine Prüfung am Menschen genau zu diesem Mittel gibt.",
+              "Die Antwort „Arbeit an Keratinozyten, keine Prüfung des fertigen Produkts am Menschen“ ist eine völlig akzeptable Antwort. Sie erlaubt Ihnen, das Produkt präzise zu positionieren: eine starke Rezeptur mit wissenschaftlicher Grundlage, kein Wunder über Nacht. Ein Versprechen, das sich nicht erfüllt, kommt teurer als eine sorgfältige Formulierung."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Réparation nocturne de la peau : ce qui se cache derrière le discours sur les rythmes circadiens",
+        "excerpt": "Les masques de nuit se vendent de plus en plus par la biologie : gènes horloges, fenêtre de réparation, aquaporines. Une partie de ces arguments repose sur des travaux publiés, une autre sur une simple image bien trouvée. Voici comment distinguer les deux.",
+        "seoTitle": "Soin de nuit et rythmes circadiens de la peau : que vérifier auprès du fabricant",
+        "seoDesc": "Gènes horloges, aquaporine-3 et « fenêtre d'or » de 22 h à 6 h : ce qu'il y a réellement derrière et quelles questions poser à un fournisseur de soins de nuit.",
+        "sections": [
+          {
+            "p": [
+              "La formule « agit pendant votre sommeil » a cessé d'être une métaphore et se présente de plus en plus comme un mécanisme : la peau a un rythme circadien, la nuit les processus de réparation s'activent, et le produit s'inscrit dans ce processus. Une partie de ces affirmations s'appuie effectivement sur des travaux publiés. L'autre partie ne repose que sur une image bien choisie.",
+              "Pour l'acheteur qui intègre un tel produit à son assortiment, il est important de savoir où passe la frontière."
+            ]
+          },
+          {
+            "h": "Ce qui est vrai ici",
+            "p": [
+              "La peau a bien des rythmes circadiens, et ce n'est pas du marketing. L'activité d'une partie des gènes varie au cours de la journée, les processus de réparation s'intensifient la nuit, et la fonction barrière comme la perte en eau fluctuent elles aussi selon l'heure. C'est étudié et publié.",
+              "Il existe aussi des protéines précises par lesquelles le mécanisme opère. L'aquaporine-3 transporte l'eau et le glycérol vers les couches supérieures de la peau, et le glycérol participe à la construction des lipides de la barrière. L'influence du rythme circadien sur son activité est décrite dans la littérature scientifique.",
+              "La marque AGERIN, par exemple, construit son masque de nuit exactement sur cette logique et cite un travail paru dans Scientific Reports en 2017 : un principe actif issu de l'Ageratum extract agit sur la régulation circadienne et, par ce biais, sur l'expression de l'aquaporine-3."
+            ]
+          },
+          {
+            "h": "Où commence l'exagération",
+            "p": [
+              "La première chose à vérifier est le support sur lequel le résultat a été obtenu. La plupart des travaux sur les gènes horloges et les aquaporines sont menés en culture cellulaire, le plus souvent sur des kératinocytes. C'est de la science honnête, mais c'est un modèle de laboratoire, pas la peau humaine vivante.",
+              "Du fait qu'une substance modifie l'expression d'un gène en boîte de culture, il ne découle pas automatiquement qu'une crème produira un effet visible en une nuit. Entre ces deux affirmations, il y a plusieurs étapes, et le fabricant n'a pas à les dissimuler : le plus souvent, il présente simplement ce dont il dispose.",
+              "Le second point est la fenêtre précise « de 22 h à 6 h ». On aime l'appeler l'heure d'or. Elle s'appuie sur la physiologie générale, et non sur une étude d'un produit donné précisément à ces heures-là. C'est une recommandation d'usage raisonnable, pas une propriété démontrée du produit."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander",
+            "p": [
+              "S'il existe une publication et où elle est parue. Sur quel modèle le résultat a été obtenu : culture cellulaire, animal ou humain. Si le produit fini lui-même a été testé ou seulement la substance isolée. S'il existe un test chez l'humain portant précisément sur ce produit.",
+              "La réponse « travaux sur kératinocytes, pas de test du produit fini chez l'humain » est une réponse acceptable. Elle vous permet de présenter le produit avec justesse : une formule solide, appuyée sur la science, et non un miracle en une nuit. Une promesse qui ne se réalise pas coûte plus cher qu'une formulation prudente."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Gece cilt onarımı: sirkadiyen ritim söyleminin arkasında ne var",
+        "excerpt": "Gece maskeleri giderek biyoloji diliyle satılıyor: saat genleri, onarım penceresi, akuaporinler. Bunun bir bölümü yayımlanmış çalışmalara dayanıyor, bir bölümü ise yalnızca iyi seçilmiş bir benzetmeye. İkisini nasıl ayırt edeceğimizi ele alıyoruz.",
+        "seoTitle": "Gece bakımı ve cildin sirkadiyen ritmi: üreticiye ne sormalı",
+        "seoDesc": "Saat genleri, akuaporin-3 ve 22.00–06.00 arasındaki «altın pencere»: bunların arkasında gerçekte ne var ve gece bakımı tedarikçisine hangi sorular sorulmalı.",
+        "sections": [
+          {
+            "p": [
+              "«Siz uyurken çalışır» ifadesi artık bir mecaz olmaktan çıktı ve giderek bir mekanizma olarak sunuluyor: cildin sirkadiyen bir ritmi vardır, geceleri onarım süreçleri devreye girer, ürün de bu sürece eklemlenir. Bu iddiaların bir bölümünün arkasında gerçekten yayımlanmış çalışmalar var. Bir bölümünün arkasında ise yalnızca iyi seçilmiş bir imge.",
+              "Böyle bir ürünü ürün yelpazesine alan alıcı için sınırın nereden geçtiğini bilmek önemlidir."
+            ]
+          },
+          {
+            "h": "Burada doğru olan ne",
+            "p": [
+              "Cildin sirkadiyen ritimleri vardır ve bu bir pazarlama söylemi değildir. Bazı genlerin etkinliği gün içinde değişir, geceleri onarım süreçleri güçlenir, bariyer işlevi ve su kaybı da saate göre dalgalanır. Bu konu incelenmiş ve yayımlanmıştır.",
+              "Mekanizmanın üzerinden işlediği somut proteinler de vardır. Akuaporin-3 suyu ve gliserolü cildin üst katmanlarına taşır; gliserol ise bariyer lipitlerinin oluşumunda rol alır. Sirkadiyen ritmin bu proteinin etkinliği üzerindeki etkisi bilimsel literatürde tanımlanmıştır.",
+              "Örneğin AGERIN markası gece maskesini tam da bu mantık üzerine kuruyor ve 2017 yılında Scientific Reports dergisinde yayımlanan bir çalışmaya atıf yapıyor: Ageratum extract kaynaklı etken madde sirkadiyen düzenlemeye, onun üzerinden de akuaporin-3 ifadesine etki ediyor."
+            ]
+          },
+          {
+            "h": "Zorlama nerede başlıyor",
+            "p": [
+              "İlk kontrol edilmesi gereken, sonucun ne üzerinde elde edildiğidir. Saat genleri (clock genes) ve akuaporinlerle ilgili çalışmaların çoğu hücre kültüründe, çoğunlukla keratinositler üzerinde yapılır. Bu dürüst bir bilimdir, ancak bir laboratuvar modelidir; canlı insan cildi değildir.",
+              "Bir maddenin petri kabında gen ifadesini değiştirmesinden, bir kremin bir gecede görünür etki yaratacağı sonucu kendiliğinden çıkmaz. Bu iki ifade arasında birkaç basamak vardır ve üreticinin bunları gizlemesi de gerekmez: genellikle elindekini olduğu gibi sunar.",
+              "İkincisi, «22.00–06.00» şeklindeki kesin aralıktır. Buna altın saatler demek yaygındır. Dayanağı genel fizyolojidir; belirli bir ürünün tam da bu saatlerde incelendiği bir araştırma değildir. Bu, makul bir kullanım önerisidir, kanıtlanmış bir ürün özelliği değil."
+            ]
+          },
+          {
+            "h": "Ne sormalı",
+            "p": [
+              "Bir yayın var mı, nerede çıkmış. Sonuç hangi modelde elde edilmiş: hücre kültürü, hayvan mı, insan mı. Bitmiş ürünün kendisi mi test edilmiş, yoksa yalnızca tek bir madde mi. Tam olarak bu ürünle ilgili insan üzerinde bir çalışma var mı.",
+              "«Çalışma keratinositler üzerinde, bitmiş ürünün insanda testi yok» yanıtı normal bir yanıttır. Ürünü doğru biçimde sunmanıza imkân verir: bir gecelik mucize değil, bilimsel temeli olan güçlü bir formül. Gerçekleşmeyecek bir vaat, dikkatli bir ifadeden daha pahalıya mal olur."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Reparación nocturna de la piel: qué hay detrás del discurso sobre los ritmos circadianos",
+        "excerpt": "Las mascarillas de noche se venden cada vez más a través de la biología: genes reloj, ventana de reparación, acuaporinas. Una parte de esos argumentos se apoya en trabajos publicados; otra, solo en una imagen bien elegida. Explicamos cómo distinguir una cosa de la otra.",
+        "seoTitle": "Cuidado nocturno y ritmos circadianos de la piel: qué verificar con el fabricante",
+        "seoDesc": "Genes reloj, acuaporina-3 y la «ventana dorada» de 22 a 6 horas: qué hay realmente detrás y qué preguntas hacerle a un proveedor de cuidado nocturno.",
+        "sections": [
+          {
+            "p": [
+              "La frase «actúa mientras usted duerme» dejó de ser una metáfora y cada vez se presenta más como un mecanismo: la piel tiene un ritmo circadiano, de noche se activan los procesos de reparación y el producto se integra en ese proceso. Detrás de una parte de estas afirmaciones hay trabajos efectivamente publicados. Detrás de otra parte solo hay una imagen bien elegida.",
+              "Para el comprador que incorpora un producto así a su surtido, es importante saber por dónde pasa el límite."
+            ]
+          },
+          {
+            "h": "Qué es cierto aquí",
+            "p": [
+              "La piel tiene ritmos circadianos, y eso no es marketing. La actividad de una parte de los genes cambia a lo largo del día, de noche se intensifican los procesos de reparación, y la función barrera y la pérdida de agua también fluctúan según la hora. Esto está estudiado y publicado.",
+              "También existen proteínas concretas a través de las cuales opera el mecanismo. La acuaporina-3 transporta agua y glicerol hacia las capas superiores de la piel, y el glicerol participa en la formación de los lípidos de la barrera. La influencia del ritmo circadiano sobre su actividad está descrita en la literatura científica.",
+              "La marca AGERIN, por ejemplo, construye su mascarilla de noche justamente sobre esta lógica y cita un trabajo publicado en Scientific Reports en 2017: un principio activo del Ageratum extract actúa sobre la regulación circadiana y, a través de ella, sobre la expresión de la acuaporina-3."
+            ]
+          },
+          {
+            "h": "Dónde empieza la exageración",
+            "p": [
+              "Lo primero que conviene verificar es en qué se obtuvo el resultado. La mayoría de los trabajos sobre genes reloj y acuaporinas se realizan en cultivo celular, con mayor frecuencia en queratinocitos. Es ciencia honesta, pero es un modelo de laboratorio, no la piel humana viva.",
+              "Del hecho de que una sustancia modifique la expresión de un gen en una placa no se sigue automáticamente que una crema produzca un efecto visible en una noche. Entre ambas afirmaciones hay varios escalones, y el fabricante no tiene por qué ocultarlos: por lo general, simplemente presenta lo que tiene.",
+              "Lo segundo es la ventana exacta «de 22 a 6 horas». Suele llamarse la hora dorada. La sostiene la fisiología general, no un estudio de un producto concreto precisamente en esas horas. Es una recomendación de uso razonable, no una propiedad demostrada del producto."
+            ]
+          },
+          {
+            "h": "Qué preguntar",
+            "p": [
+              "Si existe una publicación y dónde apareció. En qué modelo se obtuvo el resultado: cultivo celular, animales o personas. Si se evaluó el producto terminado o solo la sustancia aislada. Si hay un estudio en personas referido precisamente a este producto.",
+              "La respuesta «trabajo en queratinocitos, sin ensayo del producto terminado en personas» es una respuesta aceptable. Le permite presentar el producto con precisión: una fórmula sólida con base científica, no un milagro de una noche. Una promesa que no se cumple sale más cara que una formulación prudente."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Reparação noturna da pele: o que está por trás do discurso sobre ritmos circadianos",
+        "excerpt": "As máscaras noturnas são cada vez mais vendidas pela biologia: genes-relógio, janela de reparação, aquaporinas. Parte disso se apoia em trabalhos publicados; outra parte, apenas em uma imagem bem escolhida. Mostramos como distinguir uma coisa da outra.",
+        "seoTitle": "Cuidado noturno e ritmos circadianos da pele: o que verificar com o fabricante",
+        "seoDesc": "Genes-relógio, aquaporina-3 e a «janela de ouro» das 22h às 6h: o que existe de fato por trás disso e quais perguntas fazer a um fornecedor de cuidado noturno.",
+        "sections": [
+          {
+            "p": [
+              "A expressão «age enquanto você dorme» deixou de ser uma metáfora e vem sendo apresentada cada vez mais como um mecanismo: a pele tem um ritmo circadiano, à noite os processos de reparação entram em ação e o produto se encaixa nesse processo. Por trás de parte dessas afirmações há, de fato, trabalhos publicados. Por trás de outra parte há apenas uma imagem bem escolhida.",
+              "Para o comprador que coloca um produto desses no seu mix, é importante entender onde passa a fronteira."
+            ]
+          },
+          {
+            "h": "O que aqui é verdade",
+            "p": [
+              "A pele tem ritmos circadianos, e isso não é marketing. A atividade de parte dos genes muda ao longo do dia, à noite os processos de reparação se intensificam, e a função barreira e a perda de água também oscilam conforme o horário. Isso está estudado e publicado.",
+              "Há também proteínas específicas por meio das quais o mecanismo funciona. A aquaporina-3 transporta água e glicerol para as camadas superiores da pele, e o glicerol participa da construção dos lipídios da barreira. A influência do ritmo circadiano sobre sua atividade está descrita na literatura científica.",
+              "A marca AGERIN, por exemplo, constrói sua máscara noturna exatamente sobre essa lógica e cita um trabalho publicado na Scientific Reports em 2017: um princípio ativo do Ageratum extract atua na regulação circadiana e, por meio dela, na expressão da aquaporina-3."
+            ]
+          },
+          {
+            "h": "Onde começa o exagero",
+            "p": [
+              "A primeira coisa a verificar é em que o resultado foi obtido. A maior parte dos trabalhos sobre genes-relógio e aquaporinas é feita em cultura de células, na maioria das vezes em queratinócitos. É ciência honesta, mas é um modelo de laboratório, não a pele humana viva.",
+              "Do fato de uma substância alterar a expressão de um gene em placa não decorre automaticamente que um creme produzirá efeito visível em uma noite. Entre essas duas afirmações há vários degraus, e o fabricante não precisa escondê-los: em geral, ele apenas apresenta o que tem.",
+              "O segundo ponto é a janela exata «das 22h às 6h». Costuma-se chamá-la de hora de ouro. O que a sustenta é a fisiologia geral, e não um estudo de um produto específico justamente nesse intervalo. É uma recomendação de uso razoável, não uma propriedade comprovada do produto."
+            ]
+          },
+          {
+            "h": "O que perguntar",
+            "p": [
+              "Se existe publicação e onde ela saiu. Em que modelo o resultado foi obtido: cultura de células, animais ou pessoas. Se foi testado o produto acabado ou apenas a substância isolada. Se há estudo em pessoas referente justamente a este produto.",
+              "A resposta «trabalho em queratinócitos, sem teste do produto acabado em pessoas» é uma resposta aceitável. Ela permite que você apresente o produto com precisão: uma fórmula forte, com base científica, e não um milagre de uma noite. Uma promessa que não se cumpre sai mais cara do que uma formulação cuidadosa."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "human-application-test-how-to-read-percentages",
+    "category": "guide",
+    "date": "2026-09-15",
+    "related": [
+      "agerin",
+      "cosmetics"
+    ],
+    "supplier": "agerin",
+    "i18n": {
+      "ru": {
+        "title": "Проценты из испытаний: как читать «увлажнённость выросла на 76%»",
+        "excerpt": "Корейские производители охотно приводят точные цифры улучшений. Чтобы понять, что они значат, нужно знать три вещи: сколько было участников, кто проводил испытание и с чем сравнивали.",
+        "seoTitle": "Как читать проценты из испытаний косметики: вопросы покупателя",
+        "seoDesc": "Испытание с участием людей, клиническое исследование и потребительский опрос — три разные вещи. Что стоит за процентами в описании корейской косметики.",
+        "sections": [
+          {
+            "p": [
+              "«Увлажнённость выросла на 76,26 процента». «Зуд снизился на 46,48 процента». Такие цифры в описаниях корейских средств встречаются постоянно, и выглядят они строго: до сотых долей, значит что-то измеряли приборами.",
+              "Измеряли действительно. Но чтобы понять, что именно означает число, нужно задать три вопроса, и ни один из них не про саму цифру."
+            ]
+          },
+          {
+            "h": "Три разных типа испытаний",
+            "p": [
+              "В корейских материалах чаще всего встречаются три вещи, и их легко перепутать.",
+              "Испытание с участием людей — это измерение приборами на добровольцах: увлажнённость корнеометром, шероховатость профилометром, покраснение камерой. Обычно двадцать-тридцать участников, срок от двух до четырёх недель. Это не клиническое исследование лекарства, а инструментальная проверка косметического эффекта.",
+              "Клиническое исследование — термин из мира медицины, с контрольной группой, ослеплением и статистикой. В косметике встречается редко и стоит совсем других денег.",
+              "Потребительский опрос — это когда людей спросили, понравилось ли им. Цифры вроде «100 процентов участников отметили» почти всегда отсюда. Это не измерение, а мнение, и подавать его как доказательство эффекта нельзя."
+            ]
+          },
+          {
+            "h": "Что спрашивать",
+            "p": [
+              "Сколько было участников. Двадцать — нормально для косметики, но это мало для широких выводов, и об этом честнее сказать сразу. Кто проводил: собственная лаборатория или независимый центр, и есть ли у него аккредитация. Какой срок и с чем сравнивали: с состоянием до начала или с необработанным участком кожи.",
+              "Самое полезное — попросить сам отчёт. Серьёзные производители отдают его под конкретную сделку или под регистрацию на рынке. В отчёте видно и метод, и разброс значений, а разброс говорит не меньше среднего.",
+              "Так, у AGERIN по гелю-эксфолианту указано исследование от 22 июля 2025 года с двадцатью участницами, проведённое независимой лабораторией, а результат приведён с разбросом. Наличие разброса рядом со средним — хороший признак: значит цифру не округлили до красивой."
+            ]
+          },
+          {
+            "h": "Как подавать это своему клиенту",
+            "p": [
+              "Переносите цифру вместе с её происхождением. «По данным производителя, в испытании с участием двадцати человек увлажнённость выросла на 76 процентов за четыре недели» — это утверждение, за которое вам не будет неловко. «Увлажняет на 76 процентов» — уже ваше собственное обещание, и отвечать за него придётся вам.",
+              "Разница в одной строчке текста, а стоит она репутации. Регуляторы на многих рынках смотрят на такие формулировки внимательно, и претензия придёт не к корейскому заводу, а к тому, кто продаёт на месте."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Percentages from testing: how to read “hydration increased by 76%”",
+        "excerpt": "Korean manufacturers readily cite precise figures for improvement. To understand what they mean, you need to know three things: how many participants there were, who ran the test and what the comparison was made against.",
+        "seoTitle": "How to read percentages from cosmetics testing: the buyer's questions",
+        "seoDesc": "A human application test, a clinical trial and a consumer survey are three different things. What lies behind the percentages in descriptions of Korean cosmetics.",
+        "sections": [
+          {
+            "p": [
+              "“Hydration increased by 76.26 percent.” “Itching decreased by 46.48 percent.” Figures like these appear constantly in descriptions of Korean products, and they look rigorous: accurate to the hundredth, so something must have been measured with instruments.",
+              "Something was indeed measured. But to understand what the number actually means, you need to ask three questions, and none of them is about the figure itself."
+            ]
+          },
+          {
+            "h": "Three different types of testing",
+            "p": [
+              "Korean materials most often contain three things, and they are easy to confuse.",
+              "A human application test is instrumental measurement on volunteers: hydration with a corneometer, roughness with a profilometer, redness with a camera. Usually twenty to thirty participants, over a period of two to four weeks. This is not a clinical trial of a medicine but an instrumental check of a cosmetic effect.",
+              "A clinical trial is a term from the world of medicine, with a control group, blinding and statistics. In cosmetics it is rare and costs money of an entirely different order.",
+              "A consumer survey is when people were asked whether they liked the product. Figures such as “100 percent of participants noted” almost always come from here. This is an opinion, not a measurement, and it must not be presented as proof of an effect."
+            ]
+          },
+          {
+            "h": "What to ask",
+            "p": [
+              "How many participants there were. Twenty is normal for cosmetics, but it is few for broad conclusions, and it is more honest to say so straight away. Who ran the test: an in-house laboratory or an independent centre, and whether it holds accreditation. What the duration was and what the comparison was made against: the condition before the start, or an untreated area of skin.",
+              "The most useful step is to ask for the report itself. Serious manufacturers release it for a specific deal or for registration on the market. The report shows both the method and the spread of values, and the spread says no less than the average.",
+              "For instance, AGERIN cites a study of its exfoliating gel dated July 22, 2025 with twenty female participants, carried out by an independent laboratory, and the result is given with its spread. A spread alongside the average is a good sign: it means the figure was not rounded into something pretty."
+            ]
+          },
+          {
+            "h": "How to present this to your own customer",
+            "p": [
+              "Carry the figure together with its origin. “According to the manufacturer, in a human application test with twenty people hydration increased by 76 percent over four weeks” is a statement you will not feel awkward about. “Moisturises by 76 percent” is already your own promise, and you are the one who will answer for it.",
+              "The difference is one line of text, and it costs a reputation. Regulators in many markets look closely at wording of this kind, and the complaint will not reach the Korean factory but whoever sells locally."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "시험 결과의 퍼센트: ‘보습력 76% 상승’을 읽는 법",
+        "excerpt": "한국 제조사는 개선 수치를 정확한 숫자로 제시하는 경우가 많습니다. 그 숫자의 의미를 파악하려면 세 가지를 알아야 합니다. 참가자가 몇 명이었는지, 누가 시험을 진행했는지, 무엇과 비교했는지입니다.",
+        "seoTitle": "화장품 시험 퍼센트 읽는 법: 바이어가 물어야 할 것",
+        "seoDesc": "인체적용시험, 임상시험, 소비자 설문은 서로 다른 것입니다. 한국 화장품 설명에 나오는 퍼센트 뒤에 무엇이 있는지 살펴봅니다.",
+        "sections": [
+          {
+            "p": [
+              "‘보습력이 76.26퍼센트 상승했습니다.’ ‘가려움이 46.48퍼센트 감소했습니다.’ 이런 수치는 한국 제품 설명에 꾸준히 등장하며, 소수점 둘째 자리까지 제시되어 엄밀해 보입니다. 기기로 무언가를 측정했다는 뜻입니다.",
+              "측정은 실제로 이루어졌습니다. 다만 그 숫자가 무엇을 뜻하는지 이해하려면 세 가지 질문이 필요하며, 그중 어느 것도 숫자 자체에 관한 것이 아닙니다."
+            ]
+          },
+          {
+            "h": "서로 다른 세 가지 시험",
+            "p": [
+              "한국 자료에는 주로 세 가지가 등장하는데, 혼동하기 쉽습니다.",
+              "인체적용시험은 피험자를 대상으로 기기를 사용해 측정하는 방식입니다. 보습력은 코르네오미터로, 거칠기는 프로필로미터로, 홍반은 카메라로 측정합니다. 보통 참가자는 스무 명에서 서른 명, 기간은 2주에서 4주입니다. 의약품 임상시험이 아니라 화장품 효과를 기기로 확인하는 절차입니다.",
+              "임상시험은 의학 분야의 용어로, 대조군과 눈가림, 통계 처리를 포함합니다. 화장품에서는 드물게 쓰이며 비용 규모도 전혀 다릅니다.",
+              "소비자 설문은 사용자에게 마음에 들었는지 물어본 것입니다. ‘참가자 100퍼센트가 응답했다’와 같은 수치는 거의 언제나 여기에서 나옵니다. 이는 측정이 아니라 의견이므로 효과의 근거로 제시해서는 안 됩니다."
+            ]
+          },
+          {
+            "h": "무엇을 물어야 하는가",
+            "p": [
+              "참가자가 몇 명이었는지 확인합니다. 화장품에서 스무 명은 일반적인 규모이지만 폭넓은 결론을 내리기에는 적으며, 이 점은 처음부터 밝히는 편이 정직합니다. 누가 진행했는지도 확인합니다. 자체 연구소인지 독립 기관인지, 인증을 보유하고 있는지입니다. 기간은 얼마였는지, 무엇과 비교했는지도 물어야 합니다. 시작 전 상태와 비교했는지, 아니면 도포하지 않은 피부 부위와 비교했는지입니다.",
+              "가장 유용한 방법은 보고서 자체를 요청하는 것입니다. 신뢰할 만한 제조사는 구체적인 거래나 현지 등록을 위해 보고서를 제공합니다. 보고서에는 방법과 수치의 편차가 함께 나타나며, 편차는 평균 못지않게 많은 것을 말해 줍니다.",
+              "예를 들어 AGERIN의 각질 제거 젤에는 2025년 7월 22일자 시험이 기재되어 있습니다. 참가자는 여성 스무 명이고 독립 연구소가 수행했으며, 결과는 편차와 함께 제시되어 있습니다. 평균 옆에 편차가 함께 있다는 것은 좋은 신호입니다. 숫자를 보기 좋게 반올림하지 않았다는 뜻이기 때문입니다."
+            ]
+          },
+          {
+            "h": "고객에게 어떻게 전달할 것인가",
+            "p": [
+              "숫자는 출처와 함께 전달하십시오. ‘제조사 자료에 따르면 스무 명이 참여한 인체적용시험에서 4주간 보습력이 76퍼센트 상승했습니다’라는 문장은 나중에 곤란해질 일이 없는 서술입니다. 반면 ‘76퍼센트 보습’은 이미 귀사의 약속이며, 그 책임은 귀사가 지게 됩니다.",
+              "차이는 한 줄이지만 대가는 평판입니다. 여러 시장의 규제 기관은 이런 표현을 면밀히 살피며, 문제 제기는 한국 공장이 아니라 현지에서 판매하는 쪽으로 향합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "试验中的百分比：如何读懂“保湿度提升 76%”",
+        "excerpt": "韩国制造商乐于给出精确的改善数字。要理解这些数字的含义，需要知道三件事：参与者有多少人、由谁执行试验、与什么作比较。",
+        "seoTitle": "如何读懂化妆品试验的百分比：采购方该问的问题",
+        "seoDesc": "人体适用试验、临床试验和消费者调查是三件不同的事。韩国化妆品描述中的百分比背后究竟是什么。",
+        "sections": [
+          {
+            "p": [
+              "“保湿度提升了 76.26%。”“瘙痒减轻了 46.48%。”这类数字在韩国产品的描述中经常出现，而且看上去很严谨：精确到小数点后两位，说明确实用仪器测量过。",
+              "测量确实做过。但要弄清这个数字究竟意味着什么，需要提出三个问题，而其中没有一个是关于数字本身的。"
+            ]
+          },
+          {
+            "h": "三种不同类型的试验",
+            "p": [
+              "韩国资料中最常出现的是三样东西，而它们很容易被混为一谈。",
+              "人体适用试验是在志愿者身上用仪器测量：用角质层水分测定仪测保湿度，用轮廓仪测粗糙度，用相机测泛红。通常有二十到三十名参与者，周期为两到四周。这不是药品的临床试验，而是对化妆品功效的仪器检测。",
+              "临床试验是医学领域的术语，包含对照组、盲法和统计分析。在化妆品行业很少见，费用也完全不是一个量级。",
+              "消费者调查是询问使用者是否满意。诸如“100% 的参与者表示”这类数字，几乎都来自这里。这是意见，不是测量，不能作为功效的依据来呈现。"
+            ]
+          },
+          {
+            "h": "应该问什么",
+            "p": [
+              "参与者有多少人。对化妆品而言二十人属于常规规模，但要得出宽泛的结论仍嫌太少，这一点不如一开始就说明。由谁执行：是自有实验室还是独立机构，是否具备资质认可。周期多长，与什么作比较：是与开始前的状态比较，还是与未涂抹的皮肤区域比较。",
+              "最有用的做法是索取报告本身。正规制造商会为具体交易或当地注册提供报告。报告中既能看到方法，也能看到数值的离散范围，而离散范围所说明的并不比平均值少。",
+              "例如，AGERIN 的去角质凝胶标注了一项 2025年7月22日 的试验，参与者为二十名女性，由独立实验室执行，结果附有离散范围。平均值旁边附有离散范围是个好迹象：说明数字没有被凑成好看的整数。"
+            ]
+          },
+          {
+            "h": "如何向自己的客户呈现",
+            "p": [
+              "把数字连同它的来源一起传递。“据制造商数据，在二十人参与的人体适用试验中，保湿度在四周内提升了 76%”——这样的表述不会让你日后尴尬。而“保湿提升 76%”已经是你自己的承诺，责任要由你来承担。",
+              "差别只有一行字，代价却是声誉。许多市场的监管机构会仔细审视这类措辞，而投诉不会找到韩国工厂，只会找到在当地销售的人。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "試験の数値：「保湿力が76%向上」をどう読むか",
+        "excerpt": "韓国メーカーは改善率を細かい数字で示すことが少なくありません。その数字の意味を理解するには、被験者が何名だったか、誰が試験を実施したか、何と比較したかという三点を知る必要があります。",
+        "seoTitle": "化粧品試験のパーセントの読み方：バイヤーが確認すべきこと",
+        "seoDesc": "ヒト適用試験、臨床試験、消費者調査は別物です。韓国化粧品の説明に並ぶ数値の背後にあるものを整理します。",
+        "sections": [
+          {
+            "p": [
+              "「保湿力が76.26パーセント向上」「かゆみが46.48パーセント減少」。こうした数字は韓国製品の説明に頻繁に登場し、小数点以下二桁まで示されているため厳密に見えます。機器で何かを測定したということです。",
+              "測定は実際に行われています。ただし、その数字が何を意味するのかを理解するには三つの問いが必要で、そのいずれも数字そのものについての問いではありません。"
+            ]
+          },
+          {
+            "h": "三つの異なる試験",
+            "p": [
+              "韓国側の資料には主に三種類が登場しますが、混同されやすいものです。",
+              "ヒト適用試験は、被験者に対して機器で測定する方法です。保湿力はコルネオメーター、粗さはプロフィロメーター、赤みはカメラで測定します。通常は被験者が二十名から三十名、期間は二週間から四週間です。医薬品の臨床試験ではなく、化粧品の効果を機器で確認する手続きです。",
+              "臨床試験は医学分野の用語で、対照群、盲検、統計処理を伴います。化粧品ではまれで、費用の桁もまったく異なります。",
+              "消費者調査は、使用者に気に入ったかどうかを尋ねたものです。「参加者の100パーセントが実感」といった数字は、ほぼ例外なくここから来ています。これは測定ではなく意見であり、効果の根拠として示すことはできません。"
+            ]
+          },
+          {
+            "h": "何を尋ねるか",
+            "p": [
+              "被験者が何名だったか。化粧品では二十名は一般的な規模ですが、広い結論を導くには少なく、その点は最初に伝えるほうが誠実です。誰が実施したか。自社ラボか独立機関か、認定を受けているか。期間はどれだけか、何と比較したか。開始前の状態と比べたのか、塗布していない皮膚の部位と比べたのかということです。",
+              "最も有効なのは報告書そのものを求めることです。しっかりしたメーカーは、具体的な取引や現地登録のために報告書を開示します。報告書では手法と数値のばらつきの両方が分かり、ばらつきは平均に劣らず多くを語ります。",
+              "たとえば AGERIN の角質ケアジェルには、2025年7月22日付の試験が記載されています。被験者は女性二十名、実施は独立ラボで、結果はばらつきとともに示されています。平均の隣にばらつきが併記されているのは良い兆候です。数字をきれいな値に丸めていないということだからです。"
+            ]
+          },
+          {
+            "h": "自社の顧客にどう伝えるか",
+            "p": [
+              "数字は出所とともに伝えてください。「メーカー資料によれば、二十名が参加したヒト適用試験で、四週間で保湿力が76パーセント向上した」という書き方であれば、後ろめたさは残りません。一方「76パーセント保湿」と書けば、それはすでに自社の約束であり、責任を負うのは自社です。",
+              "違いは一行ですが、代償は信用です。多くの市場で規制当局はこうした表現を細かく見ており、指摘が向かうのは韓国の工場ではなく、現地で販売する側です。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Le percentuali dei test: come leggere «idratazione aumentata del 76%»",
+        "excerpt": "I produttori coreani citano volentieri cifre precise sui miglioramenti. Per capire che cosa significano servono tre informazioni: quanti erano i partecipanti, chi ha condotto il test e con che cosa è stato fatto il confronto.",
+        "seoTitle": "Come leggere le percentuali dei test cosmetici: le domande del compratore",
+        "seoDesc": "Test di applicazione sull'uomo, sperimentazione clinica e sondaggio sui consumatori sono tre cose diverse. Che cosa c'è dietro le percentuali nelle schede dei cosmetici coreani.",
+        "sections": [
+          {
+            "p": [
+              "«L'idratazione è aumentata del 76,26 per cento». «Il prurito è diminuito del 46,48 per cento». Cifre di questo tipo compaiono di continuo nelle schede dei prodotti coreani e hanno un aspetto rigoroso: precise al centesimo, quindi qualcosa è stato misurato con strumenti.",
+              "Una misurazione c'è stata davvero. Ma per capire che cosa indichi il numero occorre porre tre domande, e nessuna riguarda la cifra in sé."
+            ]
+          },
+          {
+            "h": "Tre tipi di test diversi",
+            "p": [
+              "Nei materiali coreani ricorrono soprattutto tre cose, ed è facile confonderle.",
+              "Il test di applicazione sull'uomo è una misurazione strumentale su volontari: l'idratazione con il corneometro, la rugosità con il profilometro, il rossore con la fotocamera. Di norma da venti a trenta partecipanti, per un periodo da due a quattro settimane. Non è una sperimentazione clinica su un farmaco, ma una verifica strumentale di un effetto cosmetico.",
+              "La sperimentazione clinica è un termine del mondo medico, con gruppo di controllo, cecità e statistica. In cosmetica è rara e ha costi di tutt'altro ordine.",
+              "Il sondaggio sui consumatori è quando alle persone è stato chiesto se il prodotto è piaciuto. Cifre come «il 100 per cento dei partecipanti ha notato» vengono quasi sempre da qui. È un'opinione, non una misurazione, e non va presentata come prova di un effetto."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere",
+            "p": [
+              "Quanti erano i partecipanti. Venti è un numero normale per la cosmetica, ma è poco per conclusioni ampie, ed è più onesto dirlo subito. Chi ha condotto il test: un laboratorio interno o un centro indipendente, e se dispone di un accreditamento. Quale era la durata e con che cosa è stato fatto il confronto: con la condizione precedente all'inizio oppure con un'area di pelle non trattata.",
+              "La cosa più utile è chiedere il rapporto stesso. I produttori seri lo consegnano per una trattativa concreta o per la registrazione sul mercato. Nel rapporto si vedono sia il metodo sia la dispersione dei valori, e la dispersione dice quanto la media.",
+              "Per AGERIN, ad esempio, il gel esfoliante riporta uno studio del 22 luglio 2025 con venti partecipanti donne, condotto da un laboratorio indipendente, e il risultato è indicato con la sua dispersione. La presenza della dispersione accanto alla media è un buon segno: significa che la cifra non è stata arrotondata per renderla gradevole."
+            ]
+          },
+          {
+            "h": "Come presentarlo al proprio cliente",
+            "p": [
+              "Riportate la cifra insieme alla sua origine. «Secondo i dati del produttore, in un test di applicazione sull'uomo con venti persone l'idratazione è aumentata del 76 per cento in quattro settimane» è un'affermazione di cui non dovrete vergognarvi. «Idrata del 76 per cento» è invece già una vostra promessa, e a risponderne sarete voi.",
+              "La differenza sta in una riga di testo, ma il prezzo è la reputazione. In molti mercati le autorità di controllo guardano con attenzione a formulazioni di questo tipo, e il reclamo non arriverà allo stabilimento coreano, bensì a chi vende sul posto."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Prozentzahlen aus Tests: Wie man „Feuchtigkeit um 76 % gestiegen“ liest",
+        "excerpt": "Koreanische Hersteller nennen bereitwillig genaue Verbesserungswerte. Um zu verstehen, was sie bedeuten, braucht es drei Angaben: wie viele Teilnehmer es gab, wer den Test durchgeführt hat und womit verglichen wurde.",
+        "seoTitle": "Prozentwerte aus Kosmetiktests richtig lesen: die Fragen des Einkäufers",
+        "seoDesc": "Anwendungstest am Menschen, klinische Studie und Verbraucherbefragung sind drei verschiedene Dinge. Was hinter den Prozentzahlen in Beschreibungen koreanischer Kosmetik steht.",
+        "sections": [
+          {
+            "p": [
+              "„Die Feuchtigkeit ist um 76,26 Prozent gestiegen.“ „Der Juckreiz ist um 46,48 Prozent zurückgegangen.“ Solche Zahlen stehen ständig in Beschreibungen koreanischer Produkte, und sie wirken streng: auf die Hundertstel genau, also wurde offenbar mit Geräten gemessen.",
+              "Gemessen wurde tatsächlich. Doch um zu verstehen, was die Zahl bedeutet, sind drei Fragen nötig, und keine davon betrifft die Zahl selbst."
+            ]
+          },
+          {
+            "h": "Drei verschiedene Arten von Tests",
+            "p": [
+              "In koreanischen Unterlagen begegnen einem vor allem drei Dinge, und sie lassen sich leicht verwechseln.",
+              "Der Anwendungstest am Menschen ist eine gerätegestützte Messung an Freiwilligen: Feuchtigkeit mit dem Corneometer, Rauheit mit dem Profilometer, Rötung mit der Kamera. Üblich sind zwanzig bis dreißig Teilnehmer über einen Zeitraum von zwei bis vier Wochen. Das ist keine klinische Studie eines Arzneimittels, sondern eine instrumentelle Prüfung einer kosmetischen Wirkung.",
+              "Die klinische Studie ist ein Begriff aus der Medizin, mit Kontrollgruppe, Verblindung und Statistik. In der Kosmetik kommt sie selten vor und kostet eine ganz andere Größenordnung.",
+              "Die Verbraucherbefragung ist die Frage an Anwender, ob ihnen das Produkt gefallen hat. Zahlen wie „100 Prozent der Teilnehmer bestätigten“ stammen fast immer daher. Das ist eine Meinung, keine Messung, und als Beleg für eine Wirkung darf sie nicht dargestellt werden."
+            ]
+          },
+          {
+            "h": "Wonach zu fragen ist",
+            "p": [
+              "Wie viele Teilnehmer es gab. Zwanzig ist für Kosmetik üblich, für weitreichende Schlüsse aber wenig, und das sagt man besser gleich. Wer den Test durchgeführt hat: ein eigenes Labor oder ein unabhängiges Institut, und ob dieses akkreditiert ist. Wie lang der Zeitraum war und womit verglichen wurde: mit dem Zustand vor Beginn oder mit einem unbehandelten Hautareal.",
+              "Am nützlichsten ist es, den Bericht selbst anzufordern. Ernsthafte Hersteller geben ihn für ein konkretes Geschäft oder für die Registrierung auf dem Markt heraus. Im Bericht sind sowohl die Methode als auch die Streuung der Werte zu sehen, und die Streuung sagt nicht weniger aus als der Mittelwert.",
+              "Bei AGERIN etwa ist für das Peeling-Gel eine Untersuchung vom 22. Juli 2025 mit zwanzig Teilnehmerinnen angegeben, durchgeführt von einem unabhängigen Labor, und das Ergebnis wird mit seiner Streuung genannt. Eine Streuung neben dem Mittelwert ist ein gutes Zeichen: Die Zahl wurde also nicht auf einen hübschen Wert gerundet."
+            ]
+          },
+          {
+            "h": "Wie man das dem eigenen Kunden vermittelt",
+            "p": [
+              "Geben Sie die Zahl zusammen mit ihrer Herkunft weiter. „Nach Angaben des Herstellers stieg die Feuchtigkeit in einem Anwendungstest am Menschen mit zwanzig Personen innerhalb von vier Wochen um 76 Prozent“ – das ist eine Aussage, die Ihnen nicht unangenehm werden wird. „Spendet 76 Prozent mehr Feuchtigkeit“ ist dagegen bereits Ihr eigenes Versprechen, und dafür haften Sie.",
+              "Der Unterschied umfasst eine Textzeile, er kostet aber den Ruf. Aufsichtsbehörden vieler Märkte prüfen solche Formulierungen genau, und die Beanstandung trifft nicht das koreanische Werk, sondern denjenigen, der vor Ort verkauft."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Les pourcentages issus des tests : comment lire « hydratation en hausse de 76 % »",
+        "excerpt": "Les fabricants coréens citent volontiers des chiffres précis d'amélioration. Pour comprendre ce qu'ils signifient, il faut savoir trois choses : combien il y avait de participants, qui a mené le test et à quoi la comparaison a été faite.",
+        "seoTitle": "Lire les pourcentages des tests cosmétiques : les questions de l'acheteur",
+        "seoDesc": "Test d'application humaine, essai clinique et enquête consommateurs sont trois choses différentes. Ce qui se cache derrière les pourcentages dans les descriptions de cosmétiques coréens.",
+        "sections": [
+          {
+            "p": [
+              "« L'hydratation a augmenté de 76,26 pour cent. » « Les démangeaisons ont diminué de 46,48 pour cent. » De tels chiffres reviennent sans cesse dans les descriptions de produits coréens, et ils ont l'air rigoureux : précis au centième, donc quelque chose a bien été mesuré avec des appareils.",
+              "Une mesure a effectivement eu lieu. Mais pour comprendre ce que le nombre signifie, il faut poser trois questions, et aucune ne porte sur le chiffre lui-même."
+            ]
+          },
+          {
+            "h": "Trois types de tests différents",
+            "p": [
+              "Les documents coréens présentent le plus souvent trois choses, et il est facile de les confondre.",
+              "Le test d'application humaine est une mesure instrumentale sur des volontaires : l'hydratation au cornéomètre, la rugosité au profilomètre, la rougeur à la caméra. En général de vingt à trente participants, sur une durée de deux à quatre semaines. Ce n'est pas un essai clinique de médicament, mais une vérification instrumentale d'un effet cosmétique.",
+              "L'essai clinique est un terme du monde médical, avec groupe témoin, insu et statistiques. En cosmétique, il est rare et relève d'un tout autre budget.",
+              "L'enquête consommateurs consiste à demander aux utilisateurs si le produit leur a plu. Les chiffres du type « 100 pour cent des participants l'ont constaté » en proviennent presque toujours. C'est un avis, pas une mesure, et on ne peut pas le présenter comme la preuve d'un effet."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander",
+            "p": [
+              "Combien il y avait de participants. Vingt, c'est courant en cosmétique, mais c'est peu pour des conclusions larges, et il est plus honnête de le dire d'emblée. Qui a mené le test : un laboratoire interne ou un centre indépendant, et s'il dispose d'une accréditation. Quelle était la durée et à quoi la comparaison a été faite : à l'état avant le début, ou à une zone de peau non traitée.",
+              "Le plus utile est de demander le rapport lui-même. Les fabricants sérieux le transmettent pour une transaction précise ou pour un enregistrement sur le marché. Le rapport montre à la fois la méthode et la dispersion des valeurs, et la dispersion en dit autant que la moyenne.",
+              "Ainsi, chez AGERIN, le gel exfoliant fait état d'une étude du 22 juillet 2025 menée auprès de vingt participantes par un laboratoire indépendant, et le résultat est présenté avec sa dispersion. La présence de la dispersion à côté de la moyenne est bon signe : le chiffre n'a donc pas été arrondi pour faire joli."
+            ]
+          },
+          {
+            "h": "Comment le présenter à votre propre client",
+            "p": [
+              "Transmettez le chiffre avec son origine. « Selon les données du fabricant, lors d'un test d'application humaine mené auprès de vingt personnes, l'hydratation a augmenté de 76 pour cent en quatre semaines » : voilà une affirmation qui ne vous mettra pas mal à l'aise. « Hydrate à 76 pour cent » est déjà votre propre promesse, et c'est vous qui devrez en répondre.",
+              "La différence tient en une ligne de texte, mais elle coûte la réputation. Sur de nombreux marchés, les régulateurs examinent ces formulations de près, et la réclamation ne visera pas l'usine coréenne, mais celui qui vend sur place."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Testlerden gelen yüzdeler: “nem oranı %76 arttı” nasıl okunur",
+        "excerpt": "Koreli üreticiler iyileşme oranlarını çoğu zaman kesin sayılarla verir. Bu sayıların ne anlama geldiğini anlamak için üç şeyi bilmek gerekir: kaç katılımcı vardı, testi kim yürüttü ve karşılaştırma neyle yapıldı.",
+        "seoTitle": "Kozmetik testlerindeki yüzdeler nasıl okunur: alıcının soruları",
+        "seoDesc": "İnsanda uygulama testi, klinik araştırma ve tüketici anketi birbirinden farklı şeylerdir. Kore kozmetiğinin tanıtımlarındaki yüzdelerin arkasında ne var.",
+        "sections": [
+          {
+            "p": [
+              "“Nem oranı %76,26 arttı.” “Kaşıntı %46,48 azaldı.” Bu tür sayılar Kore ürünlerinin tanıtımlarında sürekli karşımıza çıkar ve titiz görünür: yüzde birin yüzde birine kadar verilmiştir, demek ki bir şey cihazlarla ölçülmüştür.",
+              "Ölçüm gerçekten yapılmıştır. Ancak sayının tam olarak neyi ifade ettiğini anlamak için üç soru sormak gerekir ve bunların hiçbiri sayının kendisiyle ilgili değildir."
+            ]
+          },
+          {
+            "h": "Üç farklı test türü",
+            "p": [
+              "Kore kaynaklı belgelerde en sık üç şey geçer ve bunları birbirine karıştırmak kolaydır.",
+              "İnsanda uygulama testi, gönüllüler üzerinde cihazla yapılan ölçümdür: nem korneometreyle, pürüzlülük profilometreyle, kızarıklık kamerayla ölçülür. Genellikle yirmi ila otuz katılımcı, iki ila dört haftalık bir süre. Bu, bir ilacın klinik araştırması değil, kozmetik etkinin cihazla doğrulanmasıdır.",
+              "Klinik araştırma tıp dünyasına ait bir terimdir; kontrol grubu, körleme ve istatistik içerir. Kozmetikte nadiren görülür ve maliyeti bambaşka bir düzeydedir.",
+              "Tüketici anketi, kullanıcılara ürünü beğenip beğenmediklerinin sorulmasıdır. “Katılımcıların %100'ü fark etti” türünden sayılar neredeyse her zaman buradan gelir. Bu bir ölçüm değil görüştür ve etkinin kanıtı olarak sunulamaz."
+            ]
+          },
+          {
+            "h": "Ne sorulmalı",
+            "p": [
+              "Kaç katılımcı olduğu. Kozmetikte yirmi kişi olağan bir sayıdır, ancak geniş sonuçlar çıkarmak için azdır ve bunu baştan söylemek daha dürüsttür. Testi kimin yürüttüğü: kendi laboratuvarı mı, bağımsız bir merkez mi ve akreditasyonu var mı. Sürenin ne kadar olduğu ve karşılaştırmanın neyle yapıldığı: başlangıçtan önceki durumla mı, yoksa ürün uygulanmamış bir cilt bölgesiyle mi.",
+              "En yararlısı raporun kendisini istemektir. Ciddi üreticiler raporu belirli bir işlem için veya pazara kayıt için verir. Raporda hem yöntem hem de değerlerin dağılımı görülür ve dağılım, ortalamadan az şey anlatmaz.",
+              "Örneğin AGERIN'in peeling jeli için 22 Temmuz 2025 tarihli, yirmi kadın katılımcıyla bağımsız bir laboratuvarda yürütülmüş bir çalışma belirtilmiştir ve sonuç dağılımıyla birlikte verilmiştir. Ortalamanın yanında dağılımın da bulunması iyi bir işarettir: sayı, göze hoş görünsün diye yuvarlanmamıştır."
+            ]
+          },
+          {
+            "h": "Bunu kendi müşterinize nasıl aktarmalı",
+            "p": [
+              "Sayıyı kaynağıyla birlikte aktarın. “Üretici verilerine göre, yirmi kişinin katıldığı insanda uygulama testinde nem oranı dört haftada %76 arttı” — bu, sonradan sizi zor durumda bırakmayacak bir ifadedir. “%76 nemlendirir” ise artık sizin kendi vaadinizdir ve hesabını siz verirsiniz.",
+              "Fark bir satırlık metindir, bedeli ise itibardır. Birçok pazarda düzenleyiciler bu tür ifadelere dikkatle bakar ve şikâyet Kore'deki fabrikaya değil, yerinde satan tarafa gelir."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Porcentajes de los ensayos: cómo leer «la hidratación aumentó un 76 %»",
+        "excerpt": "Los fabricantes coreanos citan con facilidad cifras precisas de mejora. Para entender qué significan hacen falta tres datos: cuántos participantes hubo, quién realizó la prueba y con qué se comparó.",
+        "seoTitle": "Cómo leer los porcentajes de las pruebas cosméticas: preguntas del comprador",
+        "seoDesc": "La prueba de aplicación en humanos, el ensayo clínico y la encuesta a consumidores son tres cosas distintas. Qué hay detrás de los porcentajes en las descripciones de cosmética coreana.",
+        "sections": [
+          {
+            "p": [
+              "«La hidratación aumentó un 76,26 por ciento». «El picor se redujo un 46,48 por ciento». Cifras así aparecen constantemente en las descripciones de los productos coreanos y tienen un aspecto riguroso: precisas hasta las centésimas, de modo que algo se midió con instrumentos.",
+              "En efecto, hubo medición. Pero para entender qué significa el número hay que hacer tres preguntas, y ninguna se refiere a la cifra en sí."
+            ]
+          },
+          {
+            "h": "Tres tipos de ensayo distintos",
+            "p": [
+              "En los materiales coreanos aparecen sobre todo tres cosas, y es fácil confundirlas.",
+              "La prueba de aplicación en humanos es una medición instrumental en voluntarios: la hidratación con corneómetro, la rugosidad con perfilómetro, el enrojecimiento con cámara. Suelen ser de veinte a treinta participantes, durante un periodo de dos a cuatro semanas. No es un ensayo clínico de un medicamento, sino una comprobación instrumental de un efecto cosmético.",
+              "El ensayo clínico es un término del ámbito médico, con grupo de control, enmascaramiento y estadística. En cosmética se ve pocas veces y tiene un costo de otro orden.",
+              "La encuesta a consumidores consiste en preguntar a los usuarios si el producto les gustó. Cifras como «el 100 por ciento de los participantes lo notó» proceden casi siempre de ahí. Es una opinión, no una medición, y no se puede presentar como demostración de un efecto."
+            ]
+          },
+          {
+            "h": "Qué preguntar",
+            "p": [
+              "Cuántos participantes hubo. Veinte es una cifra normal en cosmética, pero es poco para conclusiones amplias, y es más honesto decirlo desde el principio. Quién la realizó: un laboratorio propio o un centro independiente, y si cuenta con acreditación. Cuál fue la duración y con qué se comparó: con el estado previo al inicio o con una zona de piel sin tratar.",
+              "Lo más útil es pedir el informe mismo. Los fabricantes serios lo entregan para una operación concreta o para el registro en el mercado. En el informe se ven tanto el método como la dispersión de los valores, y la dispersión dice tanto como la media.",
+              "Así, en AGERIN el gel exfoliante indica un estudio del 22 de julio de 2025 con veinte participantes mujeres, realizado por un laboratorio independiente, y el resultado se presenta con su dispersión. Que junto a la media figure la dispersión es buena señal: significa que la cifra no se redondeó para que quedara bonita."
+            ]
+          },
+          {
+            "h": "Cómo presentarlo a su propio cliente",
+            "p": [
+              "Traslade la cifra junto con su origen. «Según datos del fabricante, en una prueba de aplicación en humanos con veinte personas la hidratación aumentó un 76 por ciento en cuatro semanas» es una afirmación que no le hará pasar un mal momento. «Hidrata un 76 por ciento» ya es una promesa suya, y será usted quien responda por ella.",
+              "La diferencia es una línea de texto, pero cuesta la reputación. En muchos mercados los reguladores miran con atención este tipo de formulaciones, y la reclamación no llegará a la fábrica coreana, sino a quien vende en el país."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Percentuais dos testes: como ler “a hidratação aumentou 76%”",
+        "excerpt": "Os fabricantes coreanos costumam apresentar números precisos de melhora. Para entender o que eles significam, é preciso saber três coisas: quantos participantes havia, quem conduziu o teste e com o que foi feita a comparação.",
+        "seoTitle": "Como ler os percentuais dos testes de cosméticos: as perguntas do comprador",
+        "seoDesc": "Teste de aplicação em humanos, estudo clínico e pesquisa com consumidores são três coisas diferentes. O que está por trás dos percentuais nas descrições de cosméticos coreanos.",
+        "sections": [
+          {
+            "p": [
+              "“A hidratação aumentou 76,26 por cento.” “A coceira diminuiu 46,48 por cento.” Números assim aparecem o tempo todo nas descrições de produtos coreanos e têm aparência rigorosa: precisos até os centésimos, ou seja, algo foi medido com aparelhos.",
+              "Medição houve mesmo. Mas, para entender o que o número significa, é preciso fazer três perguntas, e nenhuma delas é sobre o número em si."
+            ]
+          },
+          {
+            "h": "Três tipos diferentes de teste",
+            "p": [
+              "Nos materiais coreanos aparecem principalmente três coisas, e é fácil confundi-las.",
+              "O teste de aplicação em humanos é a medição com aparelhos em voluntários: a hidratação com corneômetro, a rugosidade com perfilômetro, a vermelhidão com câmera. Em geral, de vinte a trinta participantes, por um período de duas a quatro semanas. Não é um estudo clínico de medicamento, e sim uma verificação instrumental de um efeito cosmético.",
+              "O estudo clínico é um termo do mundo médico, com grupo de controle, mascaramento e estatística. Em cosméticos é raro e custa uma ordem de grandeza diferente.",
+              "A pesquisa com consumidores é quando se pergunta aos usuários se eles gostaram do produto. Números como “100 por cento dos participantes notaram” quase sempre vêm daí. Isso é opinião, não medição, e não pode ser apresentado como comprovação de um efeito."
+            ]
+          },
+          {
+            "h": "O que perguntar",
+            "p": [
+              "Quantos participantes havia. Vinte é um número normal em cosméticos, mas é pouco para conclusões amplas, e é mais honesto dizer isso desde o início. Quem conduziu: laboratório próprio ou centro independente, e se ele tem acreditação. Qual foi o período e com o que foi feita a comparação: com o estado anterior ao início ou com uma área de pele não tratada.",
+              "O mais útil é pedir o próprio relatório. Fabricantes sérios o entregam para uma negociação concreta ou para o registro no mercado. No relatório aparecem tanto o método quanto a dispersão dos valores, e a dispersão diz tanto quanto a média.",
+              "Assim, na AGERIN, o gel esfoliante indica um estudo de 22 de julho de 2025 com vinte participantes mulheres, conduzido por um laboratório independente, e o resultado é apresentado com sua dispersão. Ter a dispersão ao lado da média é um bom sinal: significa que o número não foi arredondado para ficar bonito."
+            ]
+          },
+          {
+            "h": "Como apresentar isso ao seu cliente",
+            "p": [
+              "Passe o número junto com a origem dele. “Segundo dados do fabricante, em um teste de aplicação em humanos com vinte pessoas, a hidratação aumentou 76 por cento em quatro semanas” é uma afirmação que não vai deixar você em situação constrangedora. “Hidrata 76 por cento” já é uma promessa sua, e quem vai responder por ela é você.",
+              "A diferença é uma linha de texto, mas o custo é a reputação. Em muitos mercados, os reguladores olham com atenção para formulações desse tipo, e a reclamação não chegará à fábrica coreana, e sim a quem vende localmente."
+            ]
+          }
+        ]
+      }
+    }
   }
 ]
