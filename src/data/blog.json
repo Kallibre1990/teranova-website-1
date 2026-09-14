@@ -56754,6 +56754,1274 @@
     }
   },
   {
+    "slug": "diet-supplements-what-to-ask-a-korean-maker",
+    "category": "guide",
+    "date": "2026-09-14",
+    "related": [
+      "sprx",
+      "adjacent"
+    ],
+    "supplier": "sprx",
+    "uses": [
+      {
+        "supplier": "sprx",
+        "items": [
+          "Watermix Zero Grapefruit",
+          "Three Out",
+          "Poman Fullness Shake Green Coffee Bean",
+          "Alpha CD Calozero"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Диет-БАД из Кореи: что спросить у производителя до первого заказа",
+        "excerpt": "Патентованное сырьё, проценты разбухания и граммы связанного жира выглядят убедительно в презентации. Разбираем, что за этими формулировками стоит и какие вопросы задать, пока заказ не размещён.",
+        "seoTitle": "Диет-БАД из Кореи: вопросы производителю до заказа",
+        "seoDesc": "Что означают «патентованная гарциния», 2110 % разбухания и 20,7 г связанного жира в корейских презентациях, и о чём спросить завод до первого заказа.",
+        "sections": [
+          {
+            "p": [
+              "Корейские презентации функционального питания устроены плотно: на одной странице помещаются состав, проценты, граммы и хэштеги с обещанием результата. Читаются они легко, но закупка по ним невозможна, потому что почти каждая формулировка допускает несколько прочтений. Разбираем на материалах SPRX — корейского бренда, который работает в категории контроля веса с 2011 года и передал нам каталог 2026 года."
+            ]
+          },
+          {
+            "h": "«Патентованное сырьё» говорит о патенте, а не об эффекте",
+            "p": [
+              "В составе Watermix Zero и Three Out компания отмечает гарцинию камбоджийскую и резистентный мальтодекстрин как патентованные, а в капсулах патентованными названы ещё и пробиотики. Это распространённая корейская практика: патент обычно принадлежит поставщику сырья и защищает способ получения или конкретный штамм, а не доказывает результат для покупателя.",
+              "Поэтому первый вопрос к заводу — номер патента и его владелец. Второй — входит ли ваша страна в зону его действия. Третий, самый практичный: разрешено ли вам писать слово «патентованный» на вашем рынке и в вашей упаковке. Ответы на эти три вопроса нередко расходятся между собой, и лучше узнать это до печати этикеток."
+            ]
+          },
+          {
+            "h": "Числа из презентации нужно уметь читать",
+            "p": [
+              "SPRX приводит по своим позициям конкретные значения. Для шейка Poman это разбухание состава на 2110 % и ощущение сытости до 240 минут, для Alpha CD Calozero — связывание до 20,7 г жира за приём, что компания переводит примерно в 186 ккал. Такие цифры почти всегда получены в лабораторной модели, а не на людях в обычном режиме питания.",
+              "Спрашивать стоит не сами числа, а условия их получения: на какой модели, при какой дозировке, кем проведено испытание и существует ли протокол, который можно показать вашему регулятору. Если протокола нет, число остаётся маркетинговым и на упаковку в большинстве стран не переносится."
+            ]
+          },
+          {
+            "h": "Сверяйте фасовку с этикеткой, а не с текстом брошюры",
+            "p": [
+              "Расхождения между описанием и упаковкой встречаются часто, и они не всегда безобидны. В брошюре SPRX капсулы Three Out указаны как «500 мг × 90 капсул / 450 г», тогда как на самой упаковке стоит 45 г. Арифметика подтверждает этикетку: 500 мг, умноженные на 90, дают ровно 45 граммов, а лишний ноль в тексте — опечатка.",
+              "Для закупки это существенно, потому что от веса нетто зависят и стоимость доставки, и таможенная декларация, и расчёт цены за грамм. Правило простое: объём и вес берите с фотографии этикетки, а описание используйте только там, где этикетка молчит."
+            ]
+          },
+          {
+            "h": "Что спросить до размещения заказа",
+            "p": [
+              "Срок годности по каждой позиции и остаточный срок на момент отгрузки. Полный список сертификатов с номерами и датами. Минимальную партию по каждому SKU отдельно, а не по заказу целиком. Условия поставки и базис цены. Возможность нанести текст на языке вашего рынка и кто оплачивает переделку макета.",
+              "И отдельно — какие заявления об эффекте разрешены на вашем рынке для этой категории. Корейская этикетка почти всегда говорит больше, чем позволяет европейский или латиноамериканский регулятор, и правки в текст лучше вносить до производства, а не после прихода контейнера."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Diet supplements from Korea: what to ask a maker before the first order",
+        "excerpt": "Patented ingredients, swelling percentages and grams of bound fat look convincing in a sales deck. Here is what those phrases actually stand for, and which questions to ask while the order is still unplaced.",
+        "seoTitle": "Korean diet supplements: what to ask before ordering",
+        "seoDesc": "What “patented Garcinia cambogia”, 2,110% swelling and 20.7 g of bound fat mean in Korean sales decks, and what to ask a factory before the first order.",
+        "sections": [
+          {
+            "p": [
+              "Korean health functional food decks are packed tight: a single page holds the formula, the percentages, the grams and the hashtags promising a result. They read easily, but you cannot buy from them, because almost every phrase allows more than one reading. We work through this using materials from SPRX — a Korean brand that has been in the weight management category since 2011 and shared its 2026 catalogue with us."
+            ]
+          },
+          {
+            "h": "“Patented ingredient” speaks about a patent, not about an effect",
+            "p": [
+              "In the composition of Watermix Zero and Three Out the company marks Garcinia cambogia and resistant maltodextrin as patented, and in the capsules the probiotics are listed as patented as well. This is common Korean practice: the patent usually belongs to the ingredient supplier and protects a production method or a specific strain rather than proving a result for the buyer.",
+              "So the first question to the factory is the patent number and its holder. The second is whether your country falls within its coverage. The third, and the most practical, is whether you are allowed to print the word “patented” on your market and on your packaging. The answers to these three questions often disagree with one another, and it is better to learn that before the labels go to print."
+            ]
+          },
+          {
+            "h": "The numbers in a deck have to be read properly",
+            "p": [
+              "SPRX quotes specific figures for its items. For the Poman shake it is swelling of the formula by 2,110% and a feeling of fullness for up to 240 minutes; for Alpha CD Calozero it is binding of up to 20.7 g of fat per serving, which the company converts into roughly 186 kcal. Figures like these are almost always obtained in a laboratory model rather than in people eating normally.",
+              "What deserves the question is not the numbers themselves but the conditions behind them: on which model, at what dosage, who ran the test and whether there is a protocol you can show your regulator. Without a protocol the number stays a marketing claim, and in most countries it does not transfer to the packaging."
+            ]
+          },
+          {
+            "h": "Check the pack size against the label, not against the brochure text",
+            "p": [
+              "Discrepancies between the description and the pack are frequent, and they are not always harmless. The SPRX brochure lists the Three Out capsules as “500 mg × 90 capsules / 450 g”, while the pack itself says 45 g. The arithmetic confirms the label: 500 mg multiplied by 90 gives exactly 45 grams, and the extra zero in the text is a typo.",
+              "For purchasing this matters, because net weight drives the shipping cost, the customs declaration and the price per gram alike. The rule is simple: take volume and weight from a photograph of the label, and use the description only where the label says nothing."
+            ]
+          },
+          {
+            "h": "What to ask before placing the order",
+            "p": [
+              "The shelf life of each item and the remaining life at the moment of shipment. A full list of certificates with numbers and dates. The minimum batch for each SKU separately, rather than for the order as a whole. Delivery terms and the price basis. The option to print text in the language of your market, and who pays for reworking the artwork.",
+              "And separately — which effect claims are permitted on your market for this category. A Korean label almost always says more than a European or Latin American regulator allows, and the text is better corrected before production than after the container arrives."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "한국산 다이어트 건강기능식품: 첫 발주 전 제조사에 확인할 사항",
+        "excerpt": "특허 원료, 팽창률, 지방 결합 그램 수는 발표 자료에서 설득력 있게 보입니다. 이러한 표현 뒤에 무엇이 있는지, 그리고 발주를 넣기 전에 어떤 질문을 해야 하는지 정리합니다.",
+        "seoTitle": "한국 다이어트 건강기능식품: 발주 전 확인 질문",
+        "seoDesc": "한국 자료에 나오는 '특허 가르시니아캄보지아', 2110 % 팽창률, 지방 20.7 g 결합이 무엇을 뜻하는지, 그리고 첫 발주 전 공장에 무엇을 확인해야 하는지 정리합니다.",
+        "sections": [
+          {
+            "p": [
+              "한국 건강기능식품 발표 자료는 밀도가 높습니다. 한 페이지에 성분, 비율, 그램 수, 그리고 결과를 약속하는 해시태그까지 들어갑니다. 읽기는 쉽지만 이 자료만으로 구매를 결정할 수는 없습니다. 거의 모든 표현이 여러 가지로 해석될 여지를 남기기 때문입니다. 2011년부터 체중 관리 카테고리에서 활동해 왔고 당사에 2026년 카탈로그를 전달한 한국 브랜드 SPRX의 자료를 예로 살펴보겠습니다."
+            ]
+          },
+          {
+            "h": "'특허 원료'는 특허가 있다는 뜻이지 효과가 있다는 뜻이 아닙니다",
+            "p": [
+              "SPRX는 워터믹스 제로와 쓰리아웃의 성분 가운데 가르시니아캄보지아와 난소화성말토덱스트린을 특허 원료로 표기하고, 캡슐 제품에서는 프로바이오틱스까지 특허 원료로 명시합니다. 이는 한국에서 흔한 방식입니다. 특허는 대개 원료 공급사가 보유하며 제조 방법이나 특정 균주를 보호할 뿐, 구매자에게 돌아오는 결과를 입증해 주지는 않습니다.",
+              "따라서 공장에 던질 첫 번째 질문은 특허 번호와 권리자입니다. 두 번째는 귀사의 국가가 그 특허의 효력 범위에 들어가는지입니다. 세 번째는 가장 실무적인 질문으로, 귀사의 시장과 귀사의 포장재에 '특허'라는 단어를 표기해도 되는지입니다. 이 세 가지에 대한 답이 서로 어긋나는 경우가 적지 않으므로, 라벨을 인쇄하기 전에 확인해 두는 편이 좋습니다."
+            ]
+          },
+          {
+            "h": "발표 자료의 숫자는 읽는 법을 알아야 합니다",
+            "p": [
+              "SPRX는 품목별로 구체적인 수치를 제시합니다. 포만쉐이크 그린커피빈은 성분이 2110 % 팽창하고 포만감이 240분까지 이어진다고 하며, 알파CD 제로는 1회 섭취당 지방을 최대 20.7 g 결합해 약 186 kcal에 해당한다고 설명합니다. 이런 수치는 일반적인 식생활을 하는 사람이 아니라 실험실 모델에서 얻은 값인 경우가 거의 대부분입니다.",
+              "질문해야 할 것은 숫자 자체가 아니라 그 숫자가 나온 조건입니다. 어떤 모델에서, 어떤 섭취량으로, 누가 시험했는지, 그리고 귀사의 규제 당국에 제시할 수 있는 시험 보고서가 있는지입니다. 보고서가 없다면 그 숫자는 마케팅 문구로 남으며, 대부분의 국가에서 포장재에 옮길 수 없습니다."
+            ]
+          },
+          {
+            "h": "포장 규격은 브로슈어 본문이 아니라 라벨과 대조하십시오",
+            "p": [
+              "설명 자료와 실제 포장이 어긋나는 일은 자주 있으며, 언제나 사소한 문제로 끝나지는 않습니다. SPRX 브로슈어에는 쓰리아웃 캡슐이 '500 mg × 90캡슐 / 450 g'으로 적혀 있지만, 포장 자체에는 45 g으로 표기되어 있습니다. 계산해 보면 라벨이 맞습니다. 500 mg에 90을 곱하면 정확히 45 g이며, 본문에 붙은 0 하나는 오기입니다.",
+              "구매 실무에서는 중요한 차이입니다. 순중량에 따라 운송비도, 통관 신고도, 그램당 단가 계산도 달라지기 때문입니다. 원칙은 단순합니다. 용량과 중량은 라벨 사진에서 가져오고, 설명 자료는 라벨이 말해 주지 않는 항목에만 사용하십시오."
+            ]
+          },
+          {
+            "h": "발주를 넣기 전에 확인할 사항",
+            "p": [
+              "품목별 유통기한과 선적 시점의 잔여 기한. 번호와 발급일이 포함된 전체 인증서 목록. 발주 전체가 아니라 SKU별로 따로 확인한 최소 주문 수량. 인도 조건과 가격 기준. 귀사 시장의 언어로 문구를 넣을 수 있는지 여부와 디자인 수정 비용을 누가 부담하는지.",
+              "그리고 별도로, 해당 카테고리에서 귀사 시장이 허용하는 효능 표현이 무엇인지 확인하십시오. 한국 라벨은 유럽이나 중남미 규제 당국이 허용하는 범위보다 많은 것을 말하는 경우가 거의 대부분이므로, 문구 수정은 컨테이너가 도착한 뒤가 아니라 생산 전에 반영하는 편이 낫습니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "韩国减重类膳食补充剂：下单前该向生产商问什么",
+        "excerpt": "专利原料、膨胀百分比和结合脂肪的克数，在演示文稿里看上去很有说服力。我们来拆解这些表述背后究竟是什么，以及在订单下达之前应该提出哪些问题。",
+        "seoTitle": "韩国减重补充剂：下单前该问生产商的问题",
+        "seoDesc": "韩国演示资料中的「专利藤黄果」、2110% 膨胀率和 20.7 克结合脂肪究竟意味着什么，以及首次下单前该向工厂询问哪些问题。",
+        "sections": [
+          {
+            "p": [
+              "韩国健康功能食品的演示资料排得很密：一页之内就装下配方、百分比、克数和承诺效果的话题标签。读起来很轻松，但没法据此采购，因为几乎每一条表述都可以有多种解读。我们以 SPRX 的资料为例来拆解——这家韩国品牌自 2011 年起在体重管理品类经营，并把 2026 年的目录交给了我们。"
+            ]
+          },
+          {
+            "h": "「专利原料」说的是专利，而不是效果",
+            "p": [
+              "在 Watermix Zero 和 Three Out 的配方中，公司把藤黄果和抗性糊精标注为专利成分，而在胶囊产品中，益生菌也被列为专利成分。这是韩国常见的做法：专利通常属于原料供应商，保护的是制取方法或某一特定菌株，并不能证明买家所期待的效果。",
+              "因此，向工厂提出的第一个问题是专利号及其权利人。第二个问题是贵方国家是否在该专利的效力范围之内。第三个最实际：在贵方市场和贵方包装上，是否允许使用「专利」一词。这三个问题的答案常常彼此不一致，最好在印制标签之前就弄清楚。"
+            ]
+          },
+          {
+            "h": "演示文稿里的数字需要会读",
+            "p": [
+              "SPRX 对自己的产品给出了具体数值。Poman 奶昔的配方膨胀率为 2110%，饱腹感可持续至 240 分钟；Alpha CD Calozero 每次服用可结合最多 20.7 克脂肪，公司将其换算为约 186 千卡。这类数字几乎总是在实验室模型中得出的，而不是在日常饮食状态下的人群身上得出的。",
+              "该问的不是数字本身，而是取得这些数字的条件：采用什么模型、什么剂量、由谁完成试验，以及是否存在可以出示给贵方监管机构的试验报告。如果没有报告，这个数字就仍属营销表述，在多数国家无法搬到包装上。"
+            ]
+          },
+          {
+            "h": "包装规格要对照标签核实，而不是对照宣传册正文",
+            "p": [
+              "描述与包装不符的情况很常见，而且并非总是无害。SPRX 的宣传册把 Three Out 胶囊写成「500 毫克 × 90 粒 / 450 克」，而包装本身标的是 45 克。算术支持标签：500 毫克乘以 90 正好是 45 克，正文里多出来的那个零是笔误。",
+              "这对采购很重要，因为运费、报关申报和每克单价的计算都取决于净重。规则很简单：容量和重量以标签照片为准，描述只用在标签没有说明的地方。"
+            ]
+          },
+          {
+            "h": "下单之前该问清楚什么",
+            "p": [
+              "每个品项的保质期，以及发货时的剩余有效期。含编号和日期的完整证书清单。按每个 SKU 单独计算的最小起订量，而不是整单的起订量。交货条件和价格基础。是否可以印制贵方市场语言的文字，以及版面返工由谁承担费用。",
+              "另外要单独确认：贵方市场对这一品类允许作出哪些功效声称。韩国标签上所写的内容，几乎总是多于欧洲或拉美监管机构所允许的，文字修改最好在生产之前完成，而不是等集装箱到港之后再改。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "韓国のダイエットサプリ：初回発注前にメーカーへ確認すべきこと",
+        "excerpt": "特許原料、膨潤率のパーセンテージ、吸着される脂肪のグラム数は、プレゼン資料の上では説得力があります。こうした表現の裏に何があるのか、そして発注を出す前にどのような質問をすべきかを整理します。",
+        "seoTitle": "韓国ダイエットサプリ：発注前にメーカーへ聞くこと",
+        "seoDesc": "韓国のプレゼン資料にある「特許ガルシニア」、2,110 %の膨潤、20.7 gの脂肪吸着が何を意味するのか。初回発注の前に工場へ確認すべき点をまとめます。",
+        "sections": [
+          {
+            "p": [
+              "韓国の健康機能食品のプレゼン資料は密度が高く、1ページに成分、パーセンテージ、グラム数、さらに結果を約束するハッシュタグまで収まっています。読みやすい一方で、そのまま仕入れの判断材料にはできません。ほとんどの表現が複数の読み方を許すからです。ここでは、2011年から体重管理カテゴリーで事業を行い、2026年版カタログを当社に提供した韓国ブランドSPRXの資料を題材に整理します。"
+            ]
+          },
+          {
+            "h": "「特許原料」が語るのは特許であって効果ではありません",
+            "p": [
+              "Watermix ZeroとThree Outの成分について、同社はガルシニアカンボジアと難消化性デキストリンを特許原料と記載し、カプセル製品ではさらにプロバイオティクスも特許取得済みとしています。これは韓国では広く見られる書き方です。特許は通常、原料サプライヤーが保有し、製造方法や特定の菌株を守るものであって、購入者にとっての結果を証明するものではありません。",
+              "そこで工場への最初の質問は、特許番号とその保有者です。次に、貴社の国が権利の及ぶ範囲に含まれるかどうか。三つ目はもっとも実務的で、貴社の市場と貴社のパッケージで「特許」という語を表示してよいかどうかです。この三つの答えは食い違うことが少なくありませんので、ラベルを印刷する前に確かめておくことをおすすめします。"
+            ]
+          },
+          {
+            "h": "プレゼン資料の数字は読み方を知る必要があります",
+            "p": [
+              "SPRXは各製品について具体的な数値を挙げています。シェイクPomanでは配合の膨潤率が2,110 %、満腹感が最大240 分続くとされ、Alpha CD Calozeroでは1回あたり最大20.7 gの脂肪を吸着し、同社はこれを約186 kcalに換算しています。こうした数値はほぼ例外なく実験室のモデルで得られたものであり、通常の食生活を送る人を対象にしたものではありません。",
+              "確認すべきは数値そのものではなく、それが得られた条件です。どのようなモデルで、どの摂取量で、誰が試験を行い、貴社の規制当局に提示できる試験報告書が存在するのか。報告書がなければ、その数値はマーケティング上の表現にとどまり、多くの国ではパッケージに転記できません。"
+            ]
+          },
+          {
+            "h": "内容量はパンフレットの本文ではなくラベルと照合してください",
+            "p": [
+              "説明文とパッケージの食い違いはよく起こり、必ずしも無害とは限りません。SPRXのパンフレットではThree Outのカプセルが「500 mg × 90 カプセル / 450 g」と記載されていますが、実際のパッケージには45 gとあります。計算はラベルのほうを裏づけます。500 mgに90を掛ければちょうど45 gであり、本文の0が一つ多いのは誤記です。",
+              "仕入れにとってこれは重要です。正味重量によって輸送費も、通関申告も、グラム単価の計算も変わるからです。原則は単純で、容量と重量はラベルの写真から取り、説明文はラベルが触れていない部分にだけ使います。"
+            ]
+          },
+          {
+            "h": "発注を出す前に確認すべきこと",
+            "p": [
+              "各品目の賞味期限と、出荷時点での残存期間。番号と日付の入った証明書の全リスト。注文全体ではなくSKUごとの最低発注量。引渡条件と価格の建値。貴社の市場の言語で表示を入れられるかどうか、そしてデザイン修正の費用を誰が負担するのか。",
+              "そして別途、このカテゴリーについて貴社の市場でどのような効果表示が認められているのかを確認してください。韓国のラベルは、欧州やラテンアメリカの規制当局が認める範囲より多くを語るのが通例です。文言の修正は、コンテナが到着してからではなく生産の前に行うほうが賢明です。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Integratori dietetici dalla Corea: cosa chiedere al produttore prima del primo ordine",
+        "excerpt": "Materie prime brevettate, percentuali di rigonfiamento e grammi di grassi legati fanno un'ottima impressione in presentazione. Vediamo che cosa c'è davvero dietro queste formule e quali domande porre finché l'ordine non è ancora stato piazzato.",
+        "seoTitle": "Integratori dietetici coreani: domande al produttore",
+        "seoDesc": "Che cosa significano «Garcinia brevettata», 2.110% di rigonfiamento e 20,7 g di grassi legati nelle presentazioni coreane, e cosa chiedere alla fabbrica prima del primo ordine.",
+        "sections": [
+          {
+            "p": [
+              "Le presentazioni coreane degli alimenti funzionali per la salute sono costruite in modo denso: in una sola pagina trovano posto la composizione, le percentuali, i grammi e gli hashtag che promettono un risultato. Si leggono con facilità, ma non permettono di acquistare, perché quasi ogni formulazione si presta a più di una lettura. Lo esaminiamo sui materiali di SPRX, marchio coreano che lavora nella categoria del controllo del peso dal 2011 e ci ha trasmesso il catalogo 2026."
+            ]
+          },
+          {
+            "h": "«Materia prima brevettata» parla del brevetto, non dell'effetto",
+            "p": [
+              "Nella composizione di Watermix Zero e Three Out l'azienda segnala come brevettate la Garcinia cambogia e la maltodestrina resistente, mentre nelle capsule sono indicati come brevettati anche i probiotici. È una pratica coreana diffusa: il brevetto di norma appartiene al fornitore della materia prima e protegge un metodo di produzione o un ceppo specifico, non dimostra un risultato per chi compra.",
+              "La prima domanda alla fabbrica, quindi, è il numero del brevetto e il nome del titolare. La seconda: se il vostro paese rientra nell'area in cui quel brevetto è valido. La terza, la più pratica: se vi è consentito scrivere la parola «brevettato» sul vostro mercato e sulla vostra confezione. Le risposte a queste tre domande spesso non coincidono tra loro, ed è meglio scoprirlo prima di stampare le etichette."
+            ]
+          },
+          {
+            "h": "I numeri della presentazione vanno saputi leggere",
+            "p": [
+              "SPRX indica valori precisi per le proprie referenze. Per lo shake Poman Fullness Shake Green Coffee Bean si parla di un rigonfiamento della miscela pari al 2.110% e di un senso di sazietà che arriva a 240 minuti; per Alpha CD Calozero, del legame di fino a 20,7 g di grassi per assunzione, che l'azienda traduce in circa 186 kcal. Cifre di questo tipo si ottengono quasi sempre su un modello di laboratorio, non su persone con un'alimentazione ordinaria.",
+              "Conviene chiedere non i numeri in sé, ma le condizioni in cui sono stati ricavati: su quale modello, con quale dosaggio, da chi è stata condotta la prova e se esiste un protocollo da mostrare al vostro ente regolatore. Se il protocollo non c'è, il numero resta un argomento di marketing e nella maggior parte dei paesi non passa sulla confezione."
+            ]
+          },
+          {
+            "h": "Verificate il confezionamento sull'etichetta, non sul testo della brochure",
+            "p": [
+              "Le discrepanze tra descrizione e confezione sono frequenti e non sempre innocue. Nella brochure di SPRX le capsule Three Out sono indicate come «500 mg × 90 capsule / 450 g», mentre sulla confezione compare 45 g. L'aritmetica conferma l'etichetta: 500 mg moltiplicati per 90 danno esattamente 45 g, e lo zero in più nel testo è un refuso.",
+              "Per l'acquisto la differenza pesa, perché dal peso netto dipendono il costo del trasporto, la dichiarazione doganale e il calcolo del prezzo al grammo. La regola è semplice: volume e peso prendeteli dalla foto dell'etichetta e usate la descrizione solo dove l'etichetta tace."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere prima di piazzare l'ordine",
+            "p": [
+              "La scadenza di ogni referenza e la vita residua al momento della spedizione. L'elenco completo dei certificati con numeri e date. Il lotto minimo per ciascun SKU separatamente, e non sull'ordine nel suo insieme. Le condizioni di consegna e la base di prezzo. La possibilità di stampare il testo nella lingua del vostro mercato e l'indicazione di chi paga il rifacimento del layout.",
+              "E a parte: quali claim sull'efficacia sono ammessi sul vostro mercato per questa categoria. L'etichetta coreana dice quasi sempre più di quanto consenta un regolatore europeo o latinoamericano, ed è meglio correggere il testo prima della produzione che dopo l'arrivo del container."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Diät-Supplements aus Korea: Was Sie den Hersteller vor der ersten Bestellung fragen sollten",
+        "excerpt": "Patentierte Rohstoffe, Quellungsprozente und Gramm gebundenes Fett wirken in einer Präsentation überzeugend. Wir erklären, was hinter diesen Formulierungen tatsächlich steckt und welche Fragen Sie stellen sollten, solange die Bestellung noch nicht platziert ist.",
+        "seoTitle": "Diät-Supplements aus Korea: Fragen an den Hersteller",
+        "seoDesc": "Was „patentierte Garcinia Cambogia“, 2.110 % Quellung und 20,7 g gebundenes Fett in koreanischen Präsentationen bedeuten und was Sie das Werk vor der ersten Bestellung fragen sollten.",
+        "sections": [
+          {
+            "p": [
+              "Koreanische Präsentationen für gesundheitsfunktionelle Lebensmittel sind dicht gepackt: Auf einer einzigen Seite finden Zusammensetzung, Prozentwerte, Grammangaben und Hashtags mit einem Ergebnisversprechen Platz. Sie lesen sich leicht, doch für den Einkauf taugen sie nicht, weil sich fast jede Formulierung auf mehrere Arten lesen lässt. Wir zeigen das an den Unterlagen von SPRX — einer koreanischen Marke, die seit 2011 in der Kategorie Gewichtsmanagement arbeitet und uns ihren Katalog für 2026 übergeben hat."
+            ]
+          },
+          {
+            "h": "„Patentierter Rohstoff“ sagt etwas über das Patent aus, nicht über die Wirkung",
+            "p": [
+              "In der Zusammensetzung von Watermix Zero und Three Out weist das Unternehmen Garcinia Cambogia und resistentes Maltodextrin als patentiert aus, bei den Kapseln sind zusätzlich die Probiotika als patentiert bezeichnet. Das ist in Korea gängige Praxis: Das Patent gehört in der Regel dem Rohstofflieferanten und schützt ein Herstellungsverfahren oder einen bestimmten Stamm, ein Ergebnis für den Käufer belegt es dagegen nicht.",
+              "Die erste Frage an das Werk lautet deshalb, wie die Patentnummer lautet und wem das Patent gehört. Die zweite, ob Ihr Land in den Geltungsbereich fällt. Die dritte und praktischste, ob Sie das Wort „patentiert“ auf Ihrem Markt und auf Ihrer Verpackung überhaupt verwenden dürfen. Die Antworten auf diese drei Fragen weichen nicht selten voneinander ab, und das sollten Sie vor dem Druck der Etiketten wissen."
+            ]
+          },
+          {
+            "h": "Zahlen aus der Präsentation muss man lesen können",
+            "p": [
+              "SPRX nennt zu den einzelnen Positionen konkrete Werte. Für Poman Fullness Shake Green Coffee Bean sind das eine Quellung der Rezeptur um 2.110 % und ein Sättigungsgefühl von bis zu 240 Minuten, für Alpha CD Calozero die Bindung von bis zu 20,7 g Fett je Portion, was das Unternehmen mit rund 186 kcal angibt. Solche Zahlen stammen fast immer aus einem Labormodell und nicht aus Versuchen mit Menschen unter alltäglichen Ernährungsbedingungen.",
+              "Fragen sollten Sie daher nicht nach den Zahlen selbst, sondern nach den Bedingungen ihrer Ermittlung: an welchem Modell, bei welcher Dosierung, von wem die Prüfung durchgeführt wurde und ob ein Protokoll vorliegt, das Sie Ihrer Aufsichtsbehörde vorlegen können. Fehlt dieses Protokoll, bleibt die Zahl eine Marketingaussage und lässt sich in den meisten Ländern nicht auf die Verpackung übertragen."
+            ]
+          },
+          {
+            "h": "Gleichen Sie die Abfüllung mit dem Etikett ab, nicht mit dem Text der Broschüre",
+            "p": [
+              "Abweichungen zwischen Beschreibung und Verpackung kommen häufig vor, und harmlos sind sie nicht immer. In der Broschüre von SPRX sind die Kapseln Three Out mit „500 mg × 90 Kapseln / 450 g“ angegeben, auf der Verpackung selbst stehen dagegen 45 g. Die Rechnung bestätigt das Etikett: 500 mg mal 90 ergeben genau 45 Gramm, die zusätzliche Null im Text ist ein Tippfehler.",
+              "Für den Einkauf ist das erheblich, denn vom Nettogewicht hängen die Frachtkosten ebenso ab wie die Zollanmeldung und die Berechnung des Preises je Gramm. Die Regel ist einfach: Volumen und Gewicht entnehmen Sie dem Foto des Etiketts, und die Beschreibung nutzen Sie nur dort, wo das Etikett schweigt."
+            ]
+          },
+          {
+            "h": "Was Sie vor der Auftragsvergabe klären sollten",
+            "p": [
+              "Die Haltbarkeit jeder einzelnen Position und die Restlaufzeit zum Zeitpunkt des Versands. Die vollständige Liste der Zertifikate mit Nummern und Daten. Die Mindestmenge je SKU einzeln, nicht für die Bestellung insgesamt. Die Lieferbedingungen und die Preisbasis. Die Möglichkeit, den Text in der Sprache Ihres Marktes aufzubringen, und die Frage, wer die Überarbeitung des Layouts bezahlt.",
+              "Und gesondert: welche Wirkaussagen auf Ihrem Markt für diese Kategorie zulässig sind. Das koreanische Etikett sagt fast immer mehr, als die europäische oder die lateinamerikanische Aufsicht erlaubt, und Textänderungen bringen Sie besser vor der Produktion ein als nach Ankunft des Containers."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Compléments minceur coréens : les questions à poser au fabricant avant la première commande",
+        "excerpt": "Matières premières brevetées, pourcentages de gonflement et grammes de graisses fixées paraissent convaincants en présentation. Nous expliquons ce que recouvrent réellement ces formulations et quelles questions poser tant que la commande n'est pas passée.",
+        "seoTitle": "Compléments minceur coréens : questions au fabricant",
+        "seoDesc": "Ce que signifient « Garcinia cambogia breveté », 2 110 % de gonflement et 20,7 g de graisses fixées dans les présentations coréennes, et quoi demander à l'usine avant la première commande.",
+        "sections": [
+          {
+            "p": [
+              "Les présentations coréennes d'aliments fonctionnels de santé sont denses : une seule page réunit la composition, les pourcentages, les grammes et des hashtags qui promettent un résultat. Elles se lisent facilement, mais on ne peut pas acheter sur cette base, car presque chaque formulation admet plusieurs lectures. Nous prenons comme exemple les documents de SPRX, une marque coréenne présente dans la catégorie du contrôle du poids depuis 2011, qui nous a transmis son catalogue 2026."
+            ]
+          },
+          {
+            "h": "« Matière première brevetée » parle d'un brevet, pas d'un effet",
+            "p": [
+              "Dans la composition de Watermix Zero et de Three Out, l'entreprise signale le Garcinia cambogia et la maltodextrine résistante comme brevetés, et dans les gélules les probiotiques le sont également. C'est une pratique coréenne courante : le brevet appartient en général au fournisseur de la matière première et protège un procédé d'obtention ou une souche précise, il ne démontre pas un résultat pour l'acheteur.",
+              "La première question à poser à l'usine porte donc sur le numéro du brevet et sur son titulaire. La deuxième : votre pays entre-t-il dans sa zone de validité. La troisième, la plus concrète : avez-vous le droit d'écrire le mot « breveté » sur votre marché et sur votre emballage. Les réponses à ces trois questions divergent souvent entre elles, et il vaut mieux le savoir avant d'imprimer les étiquettes."
+            ]
+          },
+          {
+            "h": "Les chiffres d'une présentation se lisent avec méthode",
+            "p": [
+              "SPRX indique des valeurs précises pour ses références. Pour le shake Poman, il s'agit d'un gonflement de la préparation de 2 110 % et d'une sensation de satiété allant jusqu'à 240 minutes ; pour Alpha CD Calozero, de la fixation de jusqu'à 20,7 g de graisses par prise, que l'entreprise traduit par environ 186 kcal. De tels chiffres sont presque toujours obtenus sur un modèle de laboratoire, et non sur des personnes suivant une alimentation ordinaire.",
+              "Il faut interroger non pas les chiffres eux-mêmes, mais leurs conditions d'obtention : sur quel modèle, à quelle posologie, par qui l'essai a été mené et s'il existe un protocole que vous pourrez présenter à votre autorité de contrôle. Sans protocole, le chiffre reste un argument marketing et ne se transpose pas sur l'emballage dans la plupart des pays."
+            ]
+          },
+          {
+            "h": "Vérifiez le conditionnement sur l'étiquette, pas dans la brochure",
+            "p": [
+              "Les écarts entre la description et l'emballage sont fréquents, et ils ne sont pas toujours anodins. Dans la brochure de SPRX, les gélules Three Out sont indiquées comme « 500 mg × 90 gélules / 450 g », alors que l'emballage lui-même porte 45 g. L'arithmétique confirme l'étiquette : 500 mg multipliés par 90 donnent exactement 45 grammes, et le zéro supplémentaire dans le texte est une coquille.",
+              "Pour un achat, le point est important, car le poids net détermine à la fois le coût du transport, la déclaration en douane et le calcul du prix au gramme. La règle est simple : prenez le volume et le poids sur la photo de l'étiquette, et n'utilisez la description que là où l'étiquette ne dit rien."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander avant de passer commande",
+            "p": [
+              "La durée de conservation de chaque référence et la durée restante au moment de l'expédition. La liste complète des certificats avec leurs numéros et leurs dates. La quantité minimale par SKU pris séparément, et non pour la commande entière. Les conditions de livraison et la base de prix. La possibilité d'imprimer un texte dans la langue de votre marché et la partie qui paie la refonte de la maquette.",
+              "Et, à part, quelles allégations d'effet sont autorisées sur votre marché pour cette catégorie. Une étiquette coréenne en dit presque toujours plus que ne le permet une autorité européenne ou latino-américaine, et mieux vaut corriger le texte avant la production qu'après l'arrivée du conteneur."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kore'den diyet takviyesi: ilk siparişten önce üreticiye sorulacaklar",
+        "excerpt": "Patentli hammadde, şişme yüzdeleri ve bağlanan yağ gramları sunumda ikna edici görünür. Bu ifadelerin arkasında gerçekte ne olduğunu ve sipariş verilmeden önce hangi soruların sorulması gerektiğini ele alıyoruz.",
+        "seoTitle": "Kore diyet takviyesi: üreticiye sorulacak sorular",
+        "seoDesc": "Kore sunumlarındaki «patentli Garcinia», %2.110 şişme ve 20,7 g bağlanan yağ ne anlama geliyor ve ilk siparişten önce fabrikaya ne sorulmalı.",
+        "sections": [
+          {
+            "p": [
+              "Kore'nin sağlık fonksiyonlu gıda sunumları yoğun bir düzene sahiptir: tek sayfaya içerik, yüzdeler, gramlar ve sonuç vaat eden etiketler sığdırılır. Okunmaları kolaydır, ancak bunlara dayanarak satın alma yapmak mümkün değildir, çünkü neredeyse her ifade birden fazla okumaya açıktır. Konuyu SPRX materyalleri üzerinden ele alıyoruz — 2011 yılından bu yana kilo kontrolü kategorisinde çalışan ve 2026 kataloğunu bize ileten Koreli marka."
+            ]
+          },
+          {
+            "h": "«Patentli hammadde» patenti anlatır, etkiyi değil",
+            "p": [
+              "Watermix Zero ve Three Out içeriğinde şirket, Garcinia cambogia ve dirençli maltodekstrini patentli olarak işaretliyor; kapsüllerde ise probiyotikler de patentli sayılıyor. Bu, yaygın bir Kore uygulamasıdır: patent genellikle hammadde tedarikçisine aittir ve elde etme yöntemini ya da belirli bir suşu korur, alıcı için sonucu kanıtlamaz.",
+              "Bu nedenle fabrikaya ilk soru patent numarası ve sahibi olmalıdır. İkincisi, ülkenizin patentin geçerlilik alanına girip girmediğidir. Üçüncüsü ve en pratiği: kendi pazarınızda ve kendi ambalajınızda «patentli» kelimesini yazmanıza izin veriliyor mu. Bu üç sorunun yanıtları çoğu zaman birbiriyle örtüşmez ve bunu etiketler basılmadan önce öğrenmek daha iyidir."
+            ]
+          },
+          {
+            "h": "Sunumdaki sayıları okumayı bilmek gerekir",
+            "p": [
+              "SPRX kendi ürünleri için somut değerler veriyor. Poman shake'te bu, içeriğin %2.110 oranında şişmesi ve 240 dakikaya varan tokluk hissi; Alpha CD Calozero'da ise alım başına 20,7 g'a kadar yağ bağlanması, ki şirket bunu yaklaşık 186 kcal olarak çeviriyor. Bu tür rakamlar neredeyse her zaman laboratuvar modelinde elde edilir, olağan beslenme düzenindeki insanlar üzerinde değil.",
+              "Sorulması gereken, sayıların kendisi değil elde edilme koşullarıdır: hangi modelde, hangi dozda, testi kim yaptı ve düzenleyici kurumunuza gösterilebilecek bir protokol var mı. Protokol yoksa sayı pazarlama ifadesi olarak kalır ve çoğu ülkede ambalaja taşınamaz."
+            ]
+          },
+          {
+            "h": "Ambalajlamayı broşür metniyle değil, etiketle karşılaştırın",
+            "p": [
+              "Açıklama ile ambalaj arasındaki farklar sık görülür ve her zaman zararsız değildir. SPRX broşüründe Three Out kapsülleri «500 mg × 90 kapsül / 450 g» olarak geçiyor, oysa ambalajın üzerinde 45 g yazıyor. Aritmetik etiketi doğruluyor: 500 mg'ın 90 ile çarpımı tam olarak 45 gram eder, metindeki fazladan sıfır ise bir baskı hatasıdır.",
+              "Satın alma açısından bu önemlidir, çünkü net ağırlık hem nakliye maliyetini hem gümrük beyanını hem de gram başına fiyat hesabını belirler. Kural basittir: hacmi ve ağırlığı etiket fotoğrafından alın, açıklamayı yalnızca etiketin sustuğu yerde kullanın."
+            ]
+          },
+          {
+            "h": "Sipariş vermeden önce ne sorulmalı",
+            "p": [
+              "Her ürün için raf ömrü ve sevkiyat anındaki kalan süre. Numaraları ve tarihleriyle birlikte tam sertifika listesi. Siparişin tamamı için değil, her SKU için ayrı ayrı minimum parti. Teslim koşulları ve fiyat bazı. Ambalaja kendi pazarınızın dilinde metin basma imkânı ve tasarım değişikliğinin bedelini kimin ödeyeceği.",
+              "Ayrıca şunu da ayrıca sorun: bu kategori için kendi pazarınızda hangi etki beyanlarına izin veriliyor. Kore etiketi neredeyse her zaman Avrupa ya da Latin Amerika düzenleyicisinin izin verdiğinden fazlasını söyler; metindeki düzeltmeleri konteyner geldikten sonra değil, üretimden önce yapmak daha doğrudur."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Suplementos para dieta de Corea: qué preguntar al fabricante antes del primer pedido",
+        "excerpt": "La materia prima patentada, los porcentajes de expansión y los gramos de grasa fijada resultan convincentes en una presentación. Analizamos qué hay detrás de esas formulaciones y qué preguntas hacer mientras el pedido todavía no está cerrado.",
+        "seoTitle": "Suplementos de dieta coreanos: preguntas al fabricante",
+        "seoDesc": "Qué significan la «Garcinia cambogia patentada», el 2.110 % de expansión y los 20,7 g de grasa fijada en las presentaciones coreanas, y qué preguntar a la fábrica antes del primer pedido.",
+        "sections": [
+          {
+            "p": [
+              "Las presentaciones coreanas de alimentos funcionales para la salud están muy comprimidas: en una sola página caben la composición, los porcentajes, los gramos y los hashtags con la promesa de un resultado. Se leen con facilidad, pero comprar a partir de ellas es imposible, porque casi cada formulación admite varias lecturas. Lo analizamos sobre los materiales de SPRX, una marca coreana que trabaja en la categoría de control de peso desde 2011 y que nos entregó su catálogo de 2026."
+            ]
+          },
+          {
+            "h": "«Materia prima patentada» habla de una patente, no de un efecto",
+            "p": [
+              "En la composición de Watermix Zero y Three Out la empresa señala como patentadas la Garcinia cambogia y la maltodextrina resistente, y en las cápsulas figuran como patentados también los probióticos. Es una práctica coreana habitual: la patente suele pertenecer al proveedor de la materia prima y protege un método de obtención o una cepa concreta, no demuestra un resultado para el comprador.",
+              "Por eso la primera pregunta a la fábrica es el número de patente y quién es su titular. La segunda, si su país entra en la zona donde esa patente tiene vigencia. La tercera, la más práctica: si usted tiene permitido escribir la palabra «patentado» en su mercado y en su envase. Las respuestas a estas tres preguntas a menudo no coinciden entre sí, y conviene saberlo antes de imprimir las etiquetas."
+            ]
+          },
+          {
+            "h": "Las cifras de la presentación hay que saber leerlas",
+            "p": [
+              "SPRX indica valores concretos para cada una de sus posiciones. Para el batido Poman, una expansión de la fórmula del 2.110 % y una sensación de saciedad de hasta 240 minutos; para Alpha CD Calozero, la captación de hasta 20,7 g de grasa por toma, que la empresa traduce en unas 186 kcal. Cifras así casi siempre proceden de un modelo de laboratorio, no de personas con una alimentación normal.",
+              "Conviene preguntar no por las cifras en sí, sino por las condiciones en que se obtuvieron: en qué modelo, con qué dosis, quién realizó el ensayo y si existe un protocolo que pueda mostrarse a su autoridad reguladora. Si no hay protocolo, la cifra sigue siendo material de marketing y en la mayoría de los países no se traslada al envase."
+            ]
+          },
+          {
+            "h": "Coteje el formato con la etiqueta, no con el texto del folleto",
+            "p": [
+              "Las discrepancias entre la descripción y el envase son frecuentes, y no siempre resultan inocuas. En el folleto de SPRX las cápsulas Three Out figuran como «500 mg × 90 cápsulas / 450 g», mientras que en el propio envase consta 45 g. La aritmética confirma la etiqueta: 500 mg multiplicados por 90 dan exactamente 45 g, y el cero de más del texto es una errata.",
+              "Para la compra esto es relevante, porque del peso neto dependen el coste del transporte, la declaración aduanera y el cálculo del precio por gramo. La regla es sencilla: tome el volumen y el peso de la fotografía de la etiqueta, y use la descripción solo allí donde la etiqueta calla."
+            ]
+          },
+          {
+            "h": "Qué preguntar antes de cerrar el pedido",
+            "p": [
+              "La vida útil de cada posición y el plazo restante en el momento del embarque. La lista completa de certificados con sus números y fechas. El lote mínimo de cada SKU por separado, y no del pedido en conjunto. Las condiciones de entrega y la base del precio. La posibilidad de imprimir el texto en el idioma de su mercado y quién paga la adaptación del diseño.",
+              "Y, aparte, qué declaraciones sobre el efecto están permitidas en su mercado para esta categoría. La etiqueta coreana casi siempre dice más de lo que permite el regulador europeo o latinoamericano, y las correcciones del texto conviene introducirlas antes de la producción, no después de que llegue el contenedor."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Suplementos dietéticos da Coreia: o que perguntar ao fabricante antes do primeiro pedido",
+        "excerpt": "Matéria-prima patenteada, percentuais de expansão e gramas de gordura ligada parecem convincentes na apresentação. Vejamos o que está por trás dessas formulações e quais perguntas fazer enquanto o pedido ainda não foi colocado.",
+        "seoTitle": "Suplemento dietético coreano: perguntas ao fabricante",
+        "seoDesc": "O que significam «Garcinia cambogia patenteada», 2.110 % de expansão e 20,7 g de gordura ligada nas apresentações coreanas, e o que perguntar à fábrica antes do primeiro pedido.",
+        "sections": [
+          {
+            "p": [
+              "As apresentações coreanas de alimentos funcionais para a saúde são densas: em uma única página cabem composição, percentuais, gramas e hashtags com promessa de resultado. A leitura é fácil, mas comprar com base nelas é impossível, porque quase toda formulação admite mais de uma interpretação. Vamos analisar os materiais da SPRX — marca coreana que atua na categoria de controle de peso desde 2011 e nos entregou o catálogo de 2026."
+            ]
+          },
+          {
+            "h": "«Matéria-prima patenteada» fala de patente, não de efeito",
+            "p": [
+              "Na composição de Watermix Zero Grapefruit e Three Out a empresa assinala como patenteadas a Garcinia cambogia e a maltodextrina resistente, e nas cápsulas também os probióticos aparecem como patenteados. É uma prática coreana comum: a patente costuma pertencer ao fornecedor da matéria-prima e protege o método de obtenção ou uma cepa específica, sem comprovar resultado para o comprador.",
+              "Por isso a primeira pergunta à fábrica é o número da patente e quem é o titular dela. A segunda é se o seu país está na área de vigência. A terceira, a mais prática: se você tem permissão para escrever a palavra «patenteado» no seu mercado e na sua embalagem. As respostas a essas três perguntas não raro divergem entre si, e é melhor descobrir isso antes de imprimir os rótulos."
+            ]
+          },
+          {
+            "h": "Os números da apresentação precisam ser lidos com critério",
+            "p": [
+              "A SPRX informa valores concretos para seus itens. Para o shake Poman Fullness Shake Green Coffee Bean, a expansão da composição em 2.110 % e a sensação de saciedade por até 240 minutos; para o Alpha CD Calozero, a ligação de até 20,7 g de gordura por dose, o que a empresa converte em cerca de 186 kcal. Esses números quase sempre vêm de um modelo laboratorial, e não de pessoas em regime alimentar comum.",
+              "Vale perguntar não os números em si, mas as condições em que foram obtidos: em qual modelo, com qual dosagem, quem conduziu o ensaio e se existe um protocolo que possa ser apresentado ao seu órgão regulador. Sem protocolo, o número continua sendo marketing e, na maioria dos países, não passa para a embalagem."
+            ]
+          },
+          {
+            "h": "Confira a apresentação pelo rótulo, não pelo texto do folheto",
+            "p": [
+              "Divergências entre a descrição e a embalagem são frequentes, e nem sempre são inofensivas. No folheto da SPRX as cápsulas Three Out aparecem como «500 mg × 90 cápsulas / 450 g», enquanto na própria embalagem consta 45 g. A aritmética confirma o rótulo: 500 mg multiplicados por 90 dão exatamente 45 gramas, e o zero a mais no texto é um erro de digitação.",
+              "Para a compra isso é relevante, porque do peso líquido dependem o custo do frete, a declaração aduaneira e o cálculo do preço por grama. A regra é simples: volume e peso devem sair da foto do rótulo, e a descrição serve apenas onde o rótulo é omisso."
+            ]
+          },
+          {
+            "h": "O que perguntar antes de colocar o pedido",
+            "p": [
+              "O prazo de validade de cada item e a validade remanescente no momento do embarque. A lista completa de certificados com números e datas. O lote mínimo de cada SKU separadamente, e não do pedido como um todo. As condições de entrega e a base do preço. A possibilidade de aplicar texto no idioma do seu mercado e quem paga a refação da arte.",
+              "E, à parte, quais alegações de efeito são permitidas no seu mercado para essa categoria. O rótulo coreano quase sempre diz mais do que o regulador europeu ou latino-americano admite, e as correções de texto convém fazer antes da produção, não depois da chegada do contêiner."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "health-functional-food-vs-cosmetics-import",
+    "category": "guide",
+    "date": "2026-09-14",
+    "related": [
+      "sprx",
+      "adjacent"
+    ],
+    "supplier": "sprx",
+    "uses": [
+      {
+        "supplier": "sprx",
+        "items": [
+          "Watermix Zero Grapefruit",
+          "Three Out",
+          "Westick Enzyme",
+          "First Olive and Tomato Shot"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "title": "БАД, а не косметика: что меняется при ввозе корейской иннербьюти",
+        "excerpt": "Иннербьюти продаётся на той же полке, что и уход за кожей, но ввозится по совершенно другим правилам. Что это значит для сроков, документов и обещаний рознице.",
+        "seoTitle": "Ввоз корейской иннербьюти: БАД против косметики",
+        "seoDesc": "Почему корейская иннербьюти ввозится как пищевая продукция, а не косметика: ANVISA, COFEPRIS, ISP и что запросить у производителя заранее.",
+        "sections": [
+          {
+            "p": [
+              "Слово «иннербьюти» сбивает с толку. На витрине эти продукты стоят рядом с сыворотками, покупает их тот же человек и часто тот же байер, а вот на таможне они относятся к пищевой продукции со всеми вытекающими требованиями. Разница вскрывается обычно поздно, когда контракт подписан и сроки розничной выкладки уже названы."
+            ]
+          },
+          {
+            "h": "Категорию определяет состав, а не полка",
+            "p": [
+              "Показательный пример — линейка SPRX. Внутри одного бренда уживаются сразу четыре регуляторных статуса: Watermix Zero и Three Out зарегистрированы в Корее как функциональное питание, шейк Poman и Alpha CD Calozero проходят как прочая пищевая продукция, Westick Enzyme отнесён к ферментным продуктам, а First Olive and Tomato Shot — к органической переработанной пище.",
+              "В стране ввоза эта разбивка не сохранится: каждый продукт будет переопределён по местным правилам, и решать будет состав вместе с заявленным назначением. Поэтому запрашивать корейский регистрационный статус полезно, но планировать по нему нельзя."
+            ]
+          },
+          {
+            "h": "Бразилия, Мексика и Чили — три разных маршрута",
+            "p": [
+              "В Бразилии пищевые продукты и добавки ведёт ANVISA, в Мексике — COFEPRIS, в Чили — ISP. Это не один процесс с разными названиями: различаются и комплект документов, и требования к этикетке, и то, какие заявления вообще допустимы. Общее одно: для пищевой продукции процедура строже и дольше, чем для ухода за кожей.",
+              "Практический вывод для переговоров: дату появления товара на полке стоит называть после того, как местный регуляторный консультант посмотрел состав. До этого любые сроки остаются предположением, и лучше сказать это партнёру прямо, чем переносить обещание потом."
+            ]
+          },
+          {
+            "h": "Что запросить у производителя заранее",
+            "p": [
+              "Полный количественный состав, а не список компонентов в маркетинговом порядке. Сертификаты производственной площадки, в корейском случае это обычно GMP и HACCP. Спецификацию на каждую позицию со сроком годности и условиями хранения. Данные о происхождении ключевого сырья: у SPRX, например, альфа-циклодекстрин заявлен как полностью американский, и такие детали регулятор спрашивает.",
+              "И сразу уточните, готов ли завод менять текст упаковки под требования вашего рынка. Для пищевой продукции это почти всегда необходимо, а объём правок напрямую влияет и на минимальную партию, и на срок производства."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "A supplement, not a cosmetic: what changes when you import Korean inner beauty",
+        "excerpt": "Inner beauty sells from the same shelf as skincare, yet it is imported under entirely different rules. What that means for timelines, paperwork and the promises you make to retail.",
+        "seoTitle": "Korean inner beauty imports: supplement vs cosmetic",
+        "seoDesc": "Why Korean inner beauty is imported as a food product rather than a cosmetic: ANVISA, COFEPRIS and ISP routes, and what to request from the maker in advance.",
+        "sections": [
+          {
+            "p": [
+              "The term “inner beauty” is misleading. On the shelf these products stand next to serums, they are bought by the same person and often by the same buyer, yet at customs they count as food, with every requirement that follows from it. The difference usually surfaces late, once the contract is signed and the retail launch dates have already been named."
+            ]
+          },
+          {
+            "h": "The formula defines the category, not the shelf",
+            "p": [
+              "The SPRX range is a telling example. Four regulatory statuses coexist inside a single brand: Watermix Zero and Three Out are registered in Korea as health functional food, the Poman shake and Alpha CD Calozero pass as other food products, Westick Enzyme is classed as an enzyme product, and First Olive and Tomato Shot as organic processed food.",
+              "In the country of import this breakdown will not survive: every product will be reclassified under local rules, and the decision will rest on the composition together with the claimed purpose. Asking for the Korean registration status is therefore useful, but planning around it is not possible."
+            ]
+          },
+          {
+            "h": "Brazil, Mexico and Chile are three different routes",
+            "p": [
+              "In Brazil food products and supplements are handled by ANVISA, in Mexico by COFEPRIS, in Chile by ISP. This is not one process under three names: the document set, the labelling requirements and the range of permissible claims all differ. One thing is common — for food the procedure is stricter and longer than for skincare.",
+              "The practical conclusion for negotiations is that the date the product reaches the shelf should be named only after a local regulatory consultant has looked at the composition. Until then any timeline remains an assumption, and it is better to say so to your partner plainly than to move the promise later."
+            ]
+          },
+          {
+            "h": "What to request from the maker in advance",
+            "p": [
+              "The full quantitative composition, rather than a list of components in marketing order. Certificates for the production site, which in the Korean case usually means GMP and HACCP. A specification for each item with shelf life and storage conditions. Data on the origin of the key raw materials: at SPRX, for instance, the alpha-cyclodextrin is declared as entirely American, and details of that kind are exactly what a regulator asks about.",
+              "And check straight away whether the factory is willing to change the packaging text for the requirements of your market. For food this is almost always necessary, and the volume of edits feeds directly into both the minimum batch and the production lead time."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "화장품이 아니라 식품: 한국 이너뷰티를 수입할 때 달라지는 것",
+        "excerpt": "이너뷰티는 스킨케어와 같은 매대에서 팔리지만 수입 규정은 전혀 다릅니다. 이 차이가 일정과 서류, 그리고 유통사에 하는 약속에 어떤 의미인지 정리합니다.",
+        "seoTitle": "한국 이너뷰티 수입: 식품과 화장품의 차이",
+        "seoDesc": "한국 이너뷰티가 화장품이 아니라 식품으로 수입되는 이유, ANVISA·COFEPRIS·ISP 절차의 차이, 그리고 제조사에 미리 요청할 자료를 정리합니다.",
+        "sections": [
+          {
+            "p": [
+              "'이너뷰티'라는 말은 오해를 부릅니다. 매장에서는 세럼 옆에 놓이고, 사 가는 사람도 같으며, 담당 바이어까지 같은 경우가 많습니다. 그러나 통관에서는 식품으로 분류되며 그에 따르는 요구 사항이 모두 적용됩니다. 이 차이는 대개 뒤늦게 드러납니다. 계약이 체결되고 매대 진열 일정까지 이미 말해 둔 다음입니다."
+            ]
+          },
+          {
+            "h": "카테고리는 매대가 아니라 성분이 결정합니다",
+            "p": [
+              "SPRX 라인업이 좋은 예입니다. 한 브랜드 안에 규제상 지위가 네 가지나 공존합니다. 워터믹스 제로와 쓰리아웃은 한국에서 건강기능식품으로 등록되어 있고, 포만쉐이크와 알파CD 제로는 기타가공품으로 통하며, 위스틱 엔자임은 효소식품으로, 퍼스트 올리브 토마토 샷은 유기가공식품으로 분류됩니다.",
+              "수입국에서는 이 구분이 그대로 유지되지 않습니다. 각 제품은 현지 규정에 따라 다시 분류되며, 기준이 되는 것은 성분과 표시된 용도입니다. 그러므로 한국 내 등록 지위를 확인하는 일은 유용하지만, 그것을 근거로 계획을 세울 수는 없습니다."
+            ]
+          },
+          {
+            "h": "브라질, 멕시코, 칠레는 서로 다른 세 가지 경로입니다",
+            "p": [
+              "브라질에서는 식품과 건강보조식품을 ANVISA가, 멕시코에서는 COFEPRIS가, 칠레에서는 ISP가 관할합니다. 이름만 다른 하나의 절차가 아닙니다. 제출 서류도, 라벨 요건도, 어떤 표현이 허용되는지도 서로 다릅니다. 공통점은 하나입니다. 식품은 스킨케어보다 절차가 엄격하고 기간도 깁니다.",
+              "협상에서의 실무적 결론은 이렇습니다. 제품이 매대에 오르는 날짜는 현지 규제 컨설턴트가 성분을 검토한 뒤에 제시하는 편이 좋습니다. 그전까지 어떤 일정도 추정에 지나지 않으며, 나중에 약속을 미루기보다 파트너에게 이를 솔직히 말하는 편이 낫습니다."
+            ]
+          },
+          {
+            "h": "제조사에 미리 요청할 자료",
+            "p": [
+              "마케팅 순서로 나열된 성분 목록이 아니라 전성분 정량 자료. 제조 시설 인증서, 한국의 경우 보통 GMP와 HACCP입니다. 품목별 규격서와 유통기한, 보관 조건. 핵심 원료의 원산지 정보도 필요합니다. 예를 들어 SPRX는 알파사이클로덱스트린을 전량 미국산으로 밝히고 있으며, 규제 당국은 이런 세부 사항을 묻습니다.",
+              "그리고 공장이 귀사 시장의 요건에 맞추어 포장 문구를 바꿔 줄 수 있는지도 함께 확인하십시오. 식품에서는 대부분 반드시 필요한 작업이며, 수정 범위는 최소 주문 수량과 생산 기간에 그대로 영향을 미칩니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "是补充剂而不是化妆品：进口韩国内服美容产品会有什么不同",
+        "excerpt": "内服美容产品与护肤品摆在同一个货架上销售，进口时适用的规则却完全不同。这对交期、文件和给零售方的承诺意味着什么。",
+        "seoTitle": "进口韩国内服美容：按食品还是按化妆品",
+        "seoDesc": "为什么韩国内服美容产品按食品而不是化妆品进口：ANVISA、COFEPRIS、ISP，以及应当提前向生产商索取什么。",
+        "sections": [
+          {
+            "p": [
+              "「内服美容」这个说法容易让人误解。在货架上，这类产品与精华液并排陈列，买它们的是同一类消费者，往往也是同一位采购。可是在海关，它们属于食品，随之而来的是全套食品要求。这个差别通常暴露得很晚——合同已经签好，零售上架的时间也已经对外说出口了。"
+            ]
+          },
+          {
+            "h": "决定品类的是配方，而不是货架",
+            "p": [
+              "SPRX 的产品线就是很典型的例子。同一个品牌之下并存着四种监管身份：Watermix Zero 和 Three Out 在韩国注册为健康功能食品，Poman 奶昔和 Alpha CD Calozero 归为其他加工食品，Westick Enzyme 列入酵素类产品，而 First Olive and Tomato Shot 属于有机加工食品。",
+              "在进口国，这套划分不会原样保留：每个产品都会按当地规则重新界定，起决定作用的是配方以及所声称的用途。因此，索取韩国的注册身份是有用的，但不能据此来安排计划。"
+            ]
+          },
+          {
+            "h": "巴西、墨西哥和智利是三条不同的路径",
+            "p": [
+              "在巴西，食品和补充剂由 ANVISA 主管；在墨西哥是 COFEPRIS；在智利是 ISP。这并不是同一个流程换了名称：文件清单、标签要求，以及究竟允许作出哪些声称，都不一样。共同点只有一个——食品的程序比护肤品更严格，也更漫长。",
+              "对谈判的实际结论是：商品上架的日期，应当等当地法规顾问看过配方之后再说出口。在此之前，任何期限都只是推测，与其日后推迟承诺，不如直接把这一点告诉合作方。"
+            ]
+          },
+          {
+            "h": "应当提前向生产商索取什么",
+            "p": [
+              "完整的定量配方，而不是按营销顺序排列的成分名单。生产场地的证书，在韩国通常是 GMP 和 HACCP。每个品项的规格书，含保质期和储存条件。关键原料的产地信息：例如 SPRX 声明其 α-环糊精完全来自美国，这类细节监管机构是会问的。",
+              "同时请立刻确认，工厂是否愿意按贵方市场的要求修改包装文字。对食品来说这几乎总是必需的，而修改量会直接影响最小起订量和生产周期。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "化粧品ではなくサプリメント：韓国インナービューティーの輸入で変わること",
+        "excerpt": "インナービューティーはスキンケアと同じ棚に並びますが、輸入の規則はまったく異なります。それが納期、書類、そして小売への約束に何を意味するのかを整理します。",
+        "seoTitle": "韓国インナービューティー輸入：サプリと化粧品の違い",
+        "seoDesc": "韓国のインナービューティーが化粧品ではなく食品として輸入される理由。ANVISA、COFEPRIS、ISPの違いと、メーカーへ事前に請求すべき資料をまとめます。",
+        "sections": [
+          {
+            "p": [
+              "「インナービューティー」という言葉は誤解を招きます。店頭ではこれらの製品は美容液の隣に並び、買うのも同じ人、仕入れるのも同じバイヤーであることが多いのですが、税関では食品として扱われ、それに伴う要件がすべて適用されます。この違いが表面化するのはたいてい遅く、契約が結ばれ、小売の陳列時期まで相手に伝えてしまった後です。"
+            ]
+          },
+          {
+            "h": "カテゴリーを決めるのは棚ではなく成分です",
+            "p": [
+              "分かりやすい例がSPRXのラインナップです。一つのブランドの中に四つの規制上のステータスが同居しています。Watermix ZeroとThree Outは韓国で健康機能食品として登録され、シェイクPomanとAlpha CD Calozeroはその他の一般食品として扱われ、Westick Enzymeは酵素食品に、First Olive and Tomato Shotは有機加工食品に分類されています。",
+              "輸入国ではこの区分はそのまま維持されません。各製品は現地の規則に沿って改めて分類され、判断の材料になるのは成分と、表示された用途です。したがって韓国での登録ステータスを聞いておくことは有益ですが、それを前提に計画を立てることはできません。"
+            ]
+          },
+          {
+            "h": "ブラジル、メキシコ、チリは三つの異なる経路です",
+            "p": [
+              "ブラジルでは食品とサプリメントをANVISAが、メキシコではCOFEPRISが、チリではISPが所管します。これは名称が違うだけの同じ手続きではありません。必要書類も、表示の要件も、そもそもどのような表示が認められるかも異なります。共通しているのは一点だけで、食品はスキンケアより手続きが厳しく、時間もかかります。",
+              "交渉における実務的な結論はこうです。商品が棚に並ぶ日付は、現地の規制コンサルタントが成分を確認した後に伝えるべきです。それまでの日程はすべて推測にすぎませんので、後から約束を先延ばしにするより、相手に率直にそう伝えるほうがよいでしょう。"
+            ]
+          },
+          {
+            "h": "メーカーへ事前に請求すべきもの",
+            "p": [
+              "マーケティング上の並び順で書かれた成分の一覧ではなく、全成分の定量的な配合表。製造拠点の証明書、韓国の場合は通常GMPとHACCPです。賞味期限と保管条件を含む、各品目の規格書。主要原料の原産地に関する情報。たとえばSPRXでは、α-シクロデキストリンが全て米国産と申告されており、こうした細部は規制当局が尋ねてきます。",
+              "あわせて、貴社の市場の要件に合わせてパッケージの文言を変更する用意が工場にあるかどうかも確認してください。食品ではこれがほぼ必須であり、修正の量は最低発注量にも生産期間にも直接影響します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Integratore, non cosmetico: che cosa cambia nell'importazione dell'inner beauty coreana",
+        "excerpt": "L'inner beauty si vende sullo stesso scaffale della cura della pelle, ma entra nel paese con regole del tutto diverse. Che cosa significa per i tempi, per i documenti e per le promesse fatte al retail.",
+        "seoTitle": "Import inner beauty coreana: integratore o cosmetico",
+        "seoDesc": "Perché l'inner beauty coreana si importa come prodotto alimentare e non come cosmetico: ANVISA, COFEPRIS, ISP e che cosa chiedere al produttore in anticipo.",
+        "sections": [
+          {
+            "p": [
+              "Il termine «inner beauty» confonde. In vetrina questi prodotti stanno accanto ai sieri, li compra la stessa persona e spesso lo stesso buyer, ma in dogana rientrano tra i prodotti alimentari, con tutti i requisiti che ne derivano. La differenza emerge di solito tardi, quando il contratto è firmato e le date di messa a scaffale sono già state comunicate."
+            ]
+          },
+          {
+            "h": "La categoria la definisce la composizione, non lo scaffale",
+            "p": [
+              "Un esempio evidente è la linea SPRX. Dentro un solo marchio convivono quattro status regolatori: Watermix Zero Grapefruit e Three Out sono registrati in Corea come alimenti funzionali per la salute, Poman Fullness Shake Green Coffee Bean e Alpha CD Calozero passano come altri prodotti alimentari, Westick Enzyme è classificato tra i prodotti enzimatici e First Olive and Tomato Shot tra gli alimenti trasformati biologici.",
+              "Nel paese di importazione questa suddivisione non si conserva: ogni prodotto viene riclassificato secondo le regole locali, e a decidere sono la composizione insieme alla destinazione d'uso dichiarata. Richiedere lo status di registrazione coreano è quindi utile, ma su quello non si può pianificare."
+            ]
+          },
+          {
+            "h": "Brasile, Messico e Cile sono tre percorsi diversi",
+            "p": [
+              "In Brasile alimenti e integratori sono di competenza di ANVISA, in Messico di COFEPRIS, in Cile di ISP. Non è lo stesso processo con nomi diversi: cambiano il fascicolo documentale, i requisiti di etichettatura e i claim ammessi. Un punto è comune: per i prodotti alimentari la procedura è più severa e più lunga che per la cura della pelle.",
+              "La conseguenza pratica in trattativa è semplice: la data di arrivo a scaffale conviene indicarla dopo che un consulente regolatorio locale ha esaminato la composizione. Prima di allora qualsiasi termine resta un'ipotesi, ed è meglio dirlo apertamente al partner che spostare la promessa più avanti."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere al produttore in anticipo",
+            "p": [
+              "La composizione quantitativa completa, non l'elenco degli ingredienti in ordine di marketing. I certificati dello stabilimento, che nel caso coreano sono di solito GMP e HACCP. La scheda tecnica di ogni referenza con scadenza e condizioni di conservazione. I dati sull'origine delle materie prime chiave: in SPRX, per esempio, l'alfa-ciclodestrina è dichiarata interamente statunitense, e sono dettagli che il regolatore chiede.",
+              "E chiarite subito se la fabbrica è disposta a modificare il testo della confezione secondo i requisiti del vostro mercato. Per i prodotti alimentari serve quasi sempre, e la quantità di modifiche incide direttamente sia sul lotto minimo sia sui tempi di produzione."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Lebensmittel, nicht Kosmetik: Was sich beim Import koreanischer Inner Beauty ändert",
+        "excerpt": "Inner Beauty steht im Handel im selben Regal wie die Hautpflege, wird aber nach völlig anderen Regeln eingeführt. Was das für Fristen, Unterlagen und Zusagen an den Einzelhandel bedeutet.",
+        "seoTitle": "Inner Beauty aus Korea: Lebensmittel statt Kosmetik",
+        "seoDesc": "Warum koreanische Inner Beauty als Lebensmittel und nicht als Kosmetik eingeführt wird: ANVISA, COFEPRIS, ISP und was Sie beim Hersteller vorab anfragen sollten.",
+        "sections": [
+          {
+            "p": [
+              "Der Begriff Inner Beauty führt in die Irre. Im Regal stehen diese Produkte neben den Seren, gekauft werden sie von derselben Person und oft vom selben Einkäufer, im Zoll gelten sie jedoch als Lebensmittel mit allen daraus folgenden Anforderungen. Der Unterschied zeigt sich meist spät, wenn der Vertrag bereits unterschrieben ist und die Termine für die Regalplatzierung schon genannt wurden."
+            ]
+          },
+          {
+            "h": "Über die Kategorie entscheidet die Zusammensetzung, nicht das Regal",
+            "p": [
+              "Ein anschauliches Beispiel ist das Sortiment von SPRX. Innerhalb einer einzigen Marke bestehen gleich vier regulatorische Status nebeneinander: Watermix Zero und Three Out sind in Korea als gesundheitsfunktionelle Lebensmittel registriert, Poman Fullness Shake Green Coffee Bean und Alpha CD Calozero laufen als sonstige Lebensmittel, Westick Enzyme ist den Enzymprodukten zugeordnet und First Olive and Tomato Shot den ökologisch verarbeiteten Lebensmitteln.",
+              "Im Einfuhrland bleibt diese Aufteilung nicht bestehen: Jedes Produkt wird nach den örtlichen Regeln neu eingestuft, und entscheidend sind dabei die Zusammensetzung und die ausgelobte Zweckbestimmung. Den koreanischen Registrierungsstatus abzufragen ist deshalb sinnvoll, als Planungsgrundlage taugt er jedoch nicht."
+            ]
+          },
+          {
+            "h": "Brasilien, Mexiko und Chile sind drei verschiedene Wege",
+            "p": [
+              "In Brasilien ist ANVISA für Lebensmittel und Nahrungsergänzung zuständig, in Mexiko COFEPRIS, in Chile ISP. Das ist nicht ein Verfahren unter drei Namen: Der Umfang der Unterlagen, die Anforderungen an das Etikett und die Frage, welche Aussagen überhaupt zulässig sind, unterscheiden sich. Gemeinsam ist nur eines: Für Lebensmittel verläuft das Verfahren strenger und langsamer als für die Hautpflege.",
+              "Für Verhandlungen folgt daraus eine klare Regel: Den Termin, zu dem die Ware im Regal steht, sollten Sie erst nennen, nachdem ein örtlicher Regulatory-Berater die Zusammensetzung geprüft hat. Vorher bleibt jede Frist eine Annahme, und es ist besser, das dem Partner offen zu sagen, als die Zusage später zu verschieben."
+            ]
+          },
+          {
+            "h": "Was Sie beim Hersteller vorab anfragen sollten",
+            "p": [
+              "Die vollständige quantitative Zusammensetzung und nicht eine Liste der Bestandteile in marketinggerechter Reihenfolge. Die Zertifikate der Produktionsstätte, im koreanischen Fall meist GMP und HACCP. Die Spezifikation zu jeder Position mit Haltbarkeit und Lagerbedingungen. Angaben zur Herkunft der wichtigsten Rohstoffe: Bei SPRX ist etwa das Alpha-Cyclodextrin als vollständig US-amerikanisch ausgewiesen, und nach solchen Details fragt die Aufsicht.",
+              "Klären Sie außerdem gleich, ob das Werk bereit ist, den Verpackungstext an die Anforderungen Ihres Marktes anzupassen. Bei Lebensmitteln ist das fast immer notwendig, und der Umfang der Änderungen wirkt sich unmittelbar auf die Mindestmenge und auf die Produktionszeit aus."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Complément alimentaire et non cosmétique : ce qui change à l'import de l'inner beauty coréenne",
+        "excerpt": "L'inner beauty se vend sur le même rayon que les soins de la peau, mais elle s'importe selon des règles tout à fait différentes. Voici ce que cela implique pour les délais, les documents et les promesses faites au retail.",
+        "seoTitle": "Import inner beauty coréenne : complément ou cosmétique",
+        "seoDesc": "Pourquoi l'inner beauty coréenne s'importe comme denrée alimentaire et non comme cosmétique : ANVISA, COFEPRIS, ISP et ce qu'il faut demander au fabricant en amont.",
+        "sections": [
+          {
+            "p": [
+              "Le mot « inner beauty » prête à confusion. En vitrine, ces produits côtoient les sérums, ils sont achetés par la même personne et souvent par le même acheteur, mais en douane ils relèvent des denrées alimentaires, avec toutes les exigences que cela entraîne. La différence apparaît en général tard, une fois le contrat signé et les dates de mise en rayon déjà annoncées."
+            ]
+          },
+          {
+            "h": "La catégorie est déterminée par la composition, pas par le rayon",
+            "p": [
+              "La gamme SPRX en est une bonne illustration. Une même marque réunit quatre statuts réglementaires : Watermix Zero et Three Out sont enregistrés en Corée comme aliments fonctionnels de santé, le shake Poman et Alpha CD Calozero passent en denrées alimentaires diverses, Westick Enzyme relève des produits enzymatiques, et First Olive and Tomato Shot des aliments transformés biologiques.",
+              "Dans le pays d'importation, cette répartition ne sera pas conservée : chaque produit sera reclassé selon les règles locales, et ce sont la composition et l'usage revendiqué qui trancheront. Demander le statut d'enregistrement coréen reste utile, mais on ne peut pas bâtir un calendrier dessus."
+            ]
+          },
+          {
+            "h": "Brésil, Mexique et Chili : trois parcours différents",
+            "p": [
+              "Au Brésil, les denrées alimentaires et les compléments relèvent de l'ANVISA, au Mexique de la COFEPRIS, au Chili de l'ISP. Il ne s'agit pas d'une même procédure sous trois noms : le dossier de documents, les exigences d'étiquetage et les allégations admises diffèrent d'un pays à l'autre. Un point leur est commun : pour les denrées alimentaires, la procédure est plus stricte et plus longue que pour les soins de la peau.",
+              "La conclusion pratique pour la négociation tient en une phrase : annoncez la date de mise en rayon seulement après qu'un consultant réglementaire local a examiné la composition. Avant cela, tout délai reste une hypothèse, et il vaut mieux le dire franchement à votre partenaire que de repousser la promesse ensuite."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander au fabricant en amont",
+            "p": [
+              "La composition quantitative complète, et non une liste d'ingrédients rangée dans un ordre marketing. Les certificats du site de production, qui dans le cas coréen sont habituellement le GMP et le HACCP. La fiche technique de chaque référence, avec la durée de conservation et les conditions de stockage. Les données sur l'origine des matières premières clés : chez SPRX, par exemple, l'alpha-cyclodextrine est déclarée entièrement américaine, et l'autorité de contrôle demande ce genre de précisions.",
+              "Vérifiez aussi d'emblée si l'usine accepte de modifier le texte de l'emballage selon les exigences de votre marché. Pour les denrées alimentaires, cette adaptation est presque toujours nécessaire, et le volume des corrections influe directement sur la quantité minimale comme sur le délai de production."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kozmetik değil takviye: Kore inner beauty ithalatında ne değişir",
+        "excerpt": "Inner beauty ürünleri cilt bakımıyla aynı rafta satılır, ancak tamamen farklı kurallara göre ithal edilir. Bunun süreler, belgeler ve perakendeye verilen sözler açısından anlamı nedir?",
+        "seoTitle": "Kore inner beauty ithalatı: takviye mi kozmetik mi",
+        "seoDesc": "Kore inner beauty ürünleri neden kozmetik değil gıda olarak ithal edilir: ANVISA, COFEPRIS, ISP ve üreticiden önceden istenecek belgeler.",
+        "sections": [
+          {
+            "p": [
+              "«Inner beauty» ifadesi yanıltıcıdır. Vitrinde bu ürünler serumların yanında durur, onları aynı kişi satın alır ve çoğu zaman aynı alım sorumlusu sipariş eder; gümrükte ise gıda ürünü sayılırlar ve bunun getirdiği tüm gereklilikler geçerli olur. Fark genellikle geç ortaya çıkar: sözleşme imzalanmış ve perakende raf tarihleri çoktan söylenmiş olur."
+            ]
+          },
+          {
+            "h": "Kategoriyi raf değil, içerik belirler",
+            "p": [
+              "Çarpıcı bir örnek SPRX serisidir. Tek bir markanın içinde dört ayrı düzenleyici statü bir arada bulunur: Watermix Zero ve Three Out Kore'de sağlık fonksiyonlu gıda olarak tescillidir, Poman shake ile Alpha CD Calozero diğer gıda ürünleri kapsamında geçer, Westick Enzyme enzim ürünlerine dâhildir, First Olive and Tomato Shot ise organik işlenmiş gıda olarak sınıflandırılmıştır.",
+              "İthalat ülkesinde bu ayrım korunmayacaktır: her ürün yerel kurallara göre yeniden tanımlanacak ve belirleyici olan, beyan edilen kullanım amacıyla birlikte içerik olacaktır. Bu nedenle Kore tescil statüsünü istemek yararlıdır, ancak planlamayı buna dayandırmak mümkün değildir."
+            ]
+          },
+          {
+            "h": "Brezilya, Meksika ve Şili — üç ayrı güzergâh",
+            "p": [
+              "Brezilya'da gıda ürünleri ve takviyeler ANVISA'nın, Meksika'da COFEPRIS'in, Şili'de ISP'nin yetkisindedir. Bu, farklı adlarla anılan tek bir süreç değildir: belge seti de, etiket gereklilikleri de, hangi beyanların kabul edilebilir olduğu da farklıdır. Ortak olan tek şey vardır: gıda ürünlerinde prosedür, cilt bakımına göre daha katı ve daha uzundur.",
+              "Müzakereler için pratik sonuç: ürünün rafta görüneceği tarihi, yerel bir düzenleme danışmanı içeriği inceledikten sonra söylemek gerekir. O ana kadar her süre bir varsayım olarak kalır ve bunu partnere açıkça söylemek, sonradan verilen sözü ertelemekten iyidir."
+            ]
+          },
+          {
+            "h": "Üreticiden önceden ne istenmeli",
+            "p": [
+              "Pazarlama sırasına göre dizilmiş bileşen listesi değil, tam nicel içerik. Üretim tesisinin sertifikaları; Kore örneğinde bunlar genellikle GMP ve HACCP'tir. Her ürün için raf ömrünü ve saklama koşullarını içeren spesifikasyon. Kilit hammaddenin menşei hakkında veriler: örneğin SPRX'te alfa-siklodekstrin tamamen Amerikan kaynaklı olarak beyan edilir ve düzenleyici kurum bu tür ayrıntıları sorar.",
+              "Bir de hemen netleştirin: fabrika, ambalaj metnini sizin pazarınızın gerekliliklerine göre değiştirmeye hazır mı. Gıda ürünlerinde bu neredeyse her zaman gereklidir ve düzeltmelerin hacmi hem minimum partiyi hem de üretim süresini doğrudan etkiler."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Suplemento, no cosmético: qué cambia al importar inner beauty coreano",
+        "excerpt": "El inner beauty se vende en el mismo estante que el cuidado de la piel, pero se importa con reglas completamente distintas. Qué significa eso para los plazos, los documentos y las promesas al minorista.",
+        "seoTitle": "Importar inner beauty coreano: alimento, no cosmético",
+        "seoDesc": "Por qué el inner beauty coreano se importa como producto alimenticio y no como cosmético: ANVISA, COFEPRIS, ISP y qué pedir al fabricante con antelación.",
+        "sections": [
+          {
+            "p": [
+              "La expresión «inner beauty» confunde. En el escaparate estos productos están junto a los sueros, los compra la misma persona y a menudo el mismo comprador profesional, pero en la aduana pertenecen a los productos alimenticios, con todos los requisitos que eso implica. La diferencia suele salir a la luz tarde, cuando el contrato ya está firmado y las fechas de exhibición en el punto de venta ya se han anunciado."
+            ]
+          },
+          {
+            "h": "La categoría la define la composición, no el estante",
+            "p": [
+              "Un ejemplo revelador es la línea de SPRX. Dentro de una sola marca conviven cuatro estatus regulatorios a la vez: Watermix Zero y Three Out están registrados en Corea como alimentos funcionales para la salud; el batido Poman y Alpha CD Calozero pasan como otros productos alimenticios; Westick Enzyme se clasifica entre los productos enzimáticos, y First Olive and Tomato Shot, entre los alimentos procesados orgánicos.",
+              "En el país de importación esa división no se mantiene: cada producto se reclasificará según las normas locales, y lo decisivo será la composición junto con el uso declarado. Por eso pedir el estatus de registro coreano resulta útil, pero planificar a partir de él no es posible."
+            ]
+          },
+          {
+            "h": "Brasil, México y Chile son tres rutas distintas",
+            "p": [
+              "En Brasil los alimentos y los suplementos los gestiona ANVISA; en México, COFEPRIS; en Chile, el ISP. No es un mismo proceso con nombres diferentes: cambian el juego de documentos, los requisitos de etiquetado y las declaraciones que resultan admisibles. Hay un punto en común: para los productos alimenticios el procedimiento es más estricto y más largo que para el cuidado de la piel.",
+              "La conclusión práctica para las negociaciones es simple: la fecha de llegada del producto al estante conviene anunciarla después de que un consultor regulatorio local haya revisado la composición. Antes de eso, cualquier plazo es una suposición, y es mejor decírselo al socio de frente que mover la promesa más adelante."
+            ]
+          },
+          {
+            "h": "Qué pedir al fabricante con antelación",
+            "p": [
+              "La composición cuantitativa completa, y no la lista de ingredientes en orden de marketing. Los certificados de la planta de producción, que en el caso coreano suelen ser GMP y HACCP. La especificación de cada posición con su vida útil y sus condiciones de almacenamiento. Los datos de origen de la materia prima clave: en SPRX, por ejemplo, la alfa-ciclodextrina se declara de origen enteramente estadounidense, y el regulador pregunta por detalles así.",
+              "Y aclare de inmediato si la fábrica está dispuesta a cambiar el texto del envase según los requisitos de su mercado. Para los productos alimenticios casi siempre es necesario, y el volumen de correcciones influye directamente tanto en el lote mínimo como en el plazo de producción."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Suplemento, não cosmético: o que muda na importação do inner beauty coreano",
+        "excerpt": "O inner beauty é vendido na mesma prateleira que o cuidado com a pele, mas é importado por regras completamente diferentes. O que isso significa para prazos, documentos e promessas feitas ao varejo.",
+        "seoTitle": "Importar inner beauty coreano: suplemento ou cosmético",
+        "seoDesc": "Por que o inner beauty coreano entra como produto alimentício e não como cosmético: ANVISA, COFEPRIS, ISP e o que solicitar ao fabricante com antecedência.",
+        "sections": [
+          {
+            "p": [
+              "A expressão «inner beauty» confunde. Na vitrine esses produtos ficam ao lado dos séruns, são comprados pela mesma pessoa e muitas vezes pelo mesmo comprador, mas na alfândega pertencem à categoria de alimentos, com todas as exigências que isso implica. A diferença costuma aparecer tarde, quando o contrato já está assinado e as datas de exposição no varejo já foram anunciadas."
+            ]
+          },
+          {
+            "h": "A categoria é definida pela composição, não pela prateleira",
+            "p": [
+              "Um exemplo claro é a linha da SPRX. Dentro de uma mesma marca convivem quatro status regulatórios: Watermix Zero Grapefruit e Three Out são registrados na Coreia como alimentos funcionais para a saúde; o shake Poman e o Alpha CD Calozero passam como demais produtos alimentícios; o Westick Enzyme é classificado como produto enzimático; e o First Olive and Tomato Shot, como alimento orgânico processado.",
+              "No país de importação essa divisão não se mantém: cada produto será reclassificado pelas regras locais, e quem decide é a composição junto com a finalidade declarada. Por isso, pedir o status de registro coreano é útil, mas planejar com base nele não dá."
+            ]
+          },
+          {
+            "h": "Brasil, México e Chile são três rotas diferentes",
+            "p": [
+              "No Brasil, os alimentos e suplementos ficam a cargo da ANVISA; no México, da COFEPRIS; no Chile, do ISP. Não é o mesmo processo com nomes diferentes: mudam o conjunto de documentos, as exigências de rotulagem e quais alegações são admissíveis. Um ponto é comum: para produtos alimentícios o procedimento é mais rigoroso e mais demorado do que para o cuidado com a pele.",
+              "A conclusão prática para a negociação: a data de chegada do produto à prateleira deve ser informada depois que um consultor regulatório local tiver examinado a composição. Antes disso, qualquer prazo é suposição, e é melhor dizer isso ao parceiro de forma direta do que adiar a promessa mais tarde."
+            ]
+          },
+          {
+            "h": "O que solicitar ao fabricante com antecedência",
+            "p": [
+              "A composição quantitativa completa, e não a lista de componentes em ordem de marketing. Os certificados da planta de produção — no caso coreano, em geral GMP e HACCP. A especificação de cada item, com prazo de validade e condições de armazenamento. Os dados de origem da matéria-prima principal: na SPRX, por exemplo, a alfa-ciclodextrina é declarada como inteiramente norte-americana, e o regulador pergunta detalhes assim.",
+              "E confirme desde logo se a fábrica aceita alterar o texto da embalagem conforme as exigências do seu mercado. Para produtos alimentícios isso é quase sempre necessário, e o volume de alterações influencia diretamente o lote mínimo e o prazo de produção."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "stick-format-in-weight-management",
+    "category": "guide",
+    "date": "2026-09-14",
+    "related": [
+      "sprx",
+      "adjacent"
+    ],
+    "supplier": "sprx",
+    "uses": [
+      {
+        "supplier": "sprx",
+        "items": [
+          "Watermix Zero Shine Muscat",
+          "Alpha CD Calozero",
+          "Westick Enzyme",
+          "First Olive and Tomato Shot"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "title": "Стик вместо банки: почему корейский контроль веса ушёл в саше",
+        "excerpt": "Почти вся корейская категория контроля веса упакована в одноразовые стики. За этим стоит не только удобство: формат меняет и поведение покупателя, и экономику поставки.",
+        "seoTitle": "Стик-формат в контроле веса: что он даёт импортёру",
+        "seoDesc": "Почему корейские продукты для контроля веса выпускают в стиках по 3–30 г, что это даёт рознице и о чём спросить завод перед заказом.",
+        "sections": [
+          {
+            "p": [
+              "Если открыть каталог почти любого корейского бренда в категории контроля веса, банок там окажется мало. Основная форма — одноразовый стик на один приём. У SPRX из семи позиций шесть выпускаются именно так: по 3 г, 9 г, 15 г и 30 г, а единственное исключение — капсулы. Это не случайность оформления, а сложившийся стандарт категории."
+            ]
+          },
+          {
+            "h": "Что стик даёт покупателю",
+            "p": [
+              "Он снимает главную проблему таких продуктов — необходимость отмерять дозу. Порция уже отмерена, ошибиться нельзя, и режим приёма становится понятнее: три стика в день у Watermix Zero или один стик у Alpha CD Calozero читаются с упаковки без инструкции.",
+              "Второе — сам сценарий приёма. Стик помещается в карман, поэтому продукт не привязан к дому. Для категории, где результат зависит от регулярности, это влияет на повторную покупку сильнее, чем состав."
+            ]
+          },
+          {
+            "h": "Что он меняет для импортёра",
+            "p": [
+              "Коробка на 14, 21 или 30 стиков задаёт естественный курс приёма и понятную цену за курс — по такой логике удобнее строить полку и акции. Одновременно растёт доля упаковки в весе партии, и стоимость доставки на грамм продукта выходит выше, чем у банки того же веса нетто.",
+              "Есть и требование к самой упаковке: каждый стик несёт обязательную маркировку, а значит правки текста под ваш рынок касаются не только коробки, но и печати на плёнке. Это отдельная позиция в смете и отдельный срок."
+            ]
+          },
+          {
+            "h": "О чём спросить завод",
+            "p": [
+              "Уточните материал ламината и совместимость с климатом вашего рынка, особенно если продукт гигроскопичен. Спросите про срок годности именно в стике и про условия хранения на складе розницы. Узнайте, печатается ли стик отдельным тиражом и какова минимальная партия на печать плёнки — она нередко выше, чем минимальная партия самого продукта.",
+              "И проверьте, как считается вес: у SPRX, к примеру, вес нетто коробки прямо следует из фасовки, 9 г на стик при 21 стике дают 189 г. Если арифметика в документах не сходится, это первый признак, что цифры переносили из другой позиции."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Sticks instead of jars: why Korean weight management moved into sachets",
+        "excerpt": "Almost the whole Korean weight management category is packed into single-use sticks. Convenience is only part of the reason: the format changes shopper behaviour and the economics of a shipment alike.",
+        "seoTitle": "Stick format in weight management: what importers gain",
+        "seoDesc": "Why Korean weight management products are made in sticks of 3 g to 30 g, what the format gives retail, and what to ask the factory before placing an order.",
+        "sections": [
+          {
+            "p": [
+              "Open the catalogue of almost any Korean brand in the weight management category and you will find very few jars. The main form is a single-use stick for one serving. Of the seven SPRX items, six come exactly that way: in 3 g, 9 g, 15 g and 30 g, and the only exception is the capsules. This is not an accident of presentation but the settled standard of the category."
+            ]
+          },
+          {
+            "h": "What the stick gives the shopper",
+            "p": [
+              "It removes the main problem of products like these — the need to measure out a dose. The serving is already measured, there is no way to get it wrong, and the regimen becomes easier to follow: three sticks a day with Watermix Zero or one stick with Alpha CD Calozero can be read off the pack without any instructions.",
+              "The second thing is the usage scenario itself. A stick fits in a pocket, so the product is not tied to the home. In a category where the result depends on regularity, that affects repeat purchase more strongly than the formula does."
+            ]
+          },
+          {
+            "h": "What it changes for the importer",
+            "p": [
+              "A box of 14, 21 or 30 sticks sets a natural course of use and a clear price per course, and that logic makes the shelf and promotions easier to build. At the same time packaging takes a larger share of the shipment weight, and the shipping cost per gram of product comes out higher than for a jar of the same net weight.",
+              "There is also a requirement on the packaging itself: every stick carries mandatory labelling, so adapting the text to your market touches not only the box but the print on the film. That is a separate line in the budget and a separate lead time."
+            ]
+          },
+          {
+            "h": "What to ask the factory",
+            "p": [
+              "Check the laminate material and its compatibility with the climate of your market, especially if the product is hygroscopic. Ask about the shelf life specifically in the stick and about storage conditions in the retailer’s warehouse. Find out whether the stick is printed as a separate run and what the minimum batch for printing the film is — it is often higher than the minimum batch of the product itself.",
+              "And verify how the weight is counted: at SPRX, for example, the net weight of a box follows directly from the pack size, 9 g per stick across 21 sticks gives 189 g. If the arithmetic in the documents does not add up, that is the first sign that the figures were carried over from another item."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "통이 아니라 스틱: 한국 체중 관리 제품이 스틱형으로 간 이유",
+        "excerpt": "한국 체중 관리 카테고리는 대부분 1회용 스틱에 담겨 있습니다. 이유는 편의성만이 아닙니다. 이 포장 형태는 소비자의 행동과 공급 원가 구조를 함께 바꿉니다.",
+        "seoTitle": "체중 관리 스틱 포장이 수입사에 주는 의미",
+        "seoDesc": "한국 체중 관리 제품이 3~30 g 스틱으로 출시되는 이유, 소매에 주는 이점, 그리고 발주 전 공장에 확인할 사항을 정리합니다.",
+        "sections": [
+          {
+            "p": [
+              "체중 관리 카테고리에서 한국 브랜드의 카탈로그를 열어 보면 통에 담긴 제품은 많지 않습니다. 기본 형태는 1회분 스틱입니다. SPRX도 일곱 개 품목 가운데 여섯 개가 스틱형이며, 용량은 3 g, 9 g, 15 g, 30 g입니다. 유일한 예외는 캡슐 제품입니다. 이는 디자인상의 우연이 아니라 이 카테고리에 자리 잡은 표준입니다."
+            ]
+          },
+          {
+            "h": "스틱이 소비자에게 주는 것",
+            "p": [
+              "스틱은 이런 제품의 가장 큰 불편, 즉 섭취량을 직접 재야 하는 문제를 없앱니다. 1회분이 이미 나뉘어 있어 잘못 먹을 여지가 없고, 섭취 방법도 분명해집니다. 워터믹스 제로의 하루 세 스틱이나 알파CD 제로의 한 스틱은 설명서 없이 포장만 보아도 이해됩니다.",
+              "두 번째는 섭취 상황 자체입니다. 스틱은 주머니에 들어가므로 제품이 집 안에 묶이지 않습니다. 꾸준함이 결과를 좌우하는 카테고리에서는 이 점이 성분보다 재구매에 더 큰 영향을 미칩니다."
+            ]
+          },
+          {
+            "h": "수입사에게는 무엇이 달라지는가",
+            "p": [
+              "14스틱, 21스틱, 30스틱 단위 박스는 자연스러운 섭취 코스와 알기 쉬운 코스당 가격을 만들어 줍니다. 이 논리로 매대 구성과 프로모션을 짜기가 더 수월합니다. 동시에 물량에서 포장재가 차지하는 비중이 커지므로, 순중량이 같은 통 제품보다 제품 그램당 운송비가 높아집니다.",
+              "포장 자체에 따르는 요건도 있습니다. 스틱 한 포마다 의무 표시 사항이 들어가므로, 귀사 시장에 맞춘 문구 수정은 박스뿐 아니라 필름 인쇄에도 적용됩니다. 이는 견적서의 별도 항목이자 별도의 소요 기간입니다."
+            ]
+          },
+          {
+            "h": "공장에 확인할 사항",
+            "p": [
+              "라미네이트 재질과 귀사 시장 기후와의 적합성을 확인하십시오. 제품에 흡습성이 있다면 더욱 그렇습니다. 통이 아니라 스틱 포장 상태에서의 유통기한과 소매 창고의 보관 조건을 문의하십시오. 스틱이 별도 로트로 인쇄되는지, 필름 인쇄의 최소 수량은 얼마인지도 확인하십시오. 이 수량은 제품 자체의 최소 주문 수량보다 높은 경우가 적지 않습니다.",
+              "그리고 중량을 어떻게 계산했는지 검증하십시오. 예를 들어 SPRX는 박스 순중량이 포장 규격에서 그대로 나옵니다. 스틱당 9 g에 21스틱이면 189 g입니다. 서류의 계산이 맞지 않는다면, 다른 품목의 숫자를 그대로 옮겨 적었다는 첫 번째 신호입니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "条装取代罐装：韩国体重管理产品为何转向小袋",
+        "excerpt": "韩国体重管理品类几乎全部装在一次性条装里。这背后不只是方便：这种形态同时改变了消费者的行为和供货的经济账。",
+        "seoTitle": "体重管理中的条装形态：给进口商带来什么",
+        "seoDesc": "韩国体重管理产品为何做成 3–30 克的条装，这种形态给零售带来什么，以及下单前该向工厂问什么。",
+        "sections": [
+          {
+            "p": [
+              "翻开几乎任何一家韩国体重管理品牌的目录，都很少看到罐装。主要形态是一次服用量的一次性条装。SPRX 的七个品项中有六个采用这种形式：分别为 3 克、9 克、15 克和 30 克，唯一的例外是胶囊。这不是设计上的偶然，而是该品类已经形成的标准。"
+            ]
+          },
+          {
+            "h": "条装给消费者带来什么",
+            "p": [
+              "它解决了这类产品最主要的问题——需要自己量取剂量。分量已经分好，不会弄错，服用方式也更清楚：Watermix Zero 每天三条、Alpha CD Calozero 每天一条，不看说明书也能从包装上读懂。",
+              "第二点是服用场景本身。条装可以放进口袋，产品因此不再被绑在家里。对于效果取决于能否坚持的品类来说，这一点对复购的影响比配方更大。"
+            ]
+          },
+          {
+            "h": "条装给进口商带来什么变化",
+            "p": [
+              "一盒 14 条、21 条或 30 条，自然形成一个疗程，也形成清晰的疗程单价——按这种逻辑更容易安排货架陈列和促销。与此同时，包装在整批货重量中的占比上升，按每克产品计算的运费高于同样净重的罐装。",
+              "对包装本身也有要求：每一条都必须带有强制性标识，这意味着按贵方市场调整文字不仅涉及外盒，还涉及薄膜上的印刷。这是预算中单独的一项，也是单独的一段周期。"
+            ]
+          },
+          {
+            "h": "该向工厂问什么",
+            "p": [
+              "请确认复合膜的材质，以及它与贵方市场气候的适配性，尤其当产品容易吸湿时。询问条装形态下的具体保质期，以及在零售仓库的储存条件。了解条装薄膜是否单独印刷，薄膜印刷的最小起订量是多少——它往往高于产品本身的最小起订量。",
+              "还要核对重量是怎么算出来的：以 SPRX 为例，外盒净重直接由分装规格得出，每条 9 克、一盒 21 条，即为 189 克。如果文件里的算术对不上，这就是数字从别的品项搬过来的第一个信号。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "ボトルではなくスティック：韓国の体重管理が個包装へ移った理由",
+        "excerpt": "韓国の体重管理カテゴリーは、ほぼ全体が使い切りのスティックです。その背景にあるのは利便性だけではありません。この形態は購入者の行動も、供給の採算も変えます。",
+        "seoTitle": "体重管理のスティック形態：輸入業者にとっての意味",
+        "seoDesc": "韓国の体重管理製品が3〜30 gのスティックで作られる理由、小売にとっての利点、そして発注の前に工場へ確認すべき点をまとめます。",
+        "sections": [
+          {
+            "p": [
+              "体重管理カテゴリーで韓国ブランドのカタログをほぼどれでも開いてみると、ボトルはあまり見当たりません。主流は1回分の使い切りスティックです。SPRXでは7品目のうち6品目がこの形態で、3 g、9 g、15 g、30 gの各サイズがあり、唯一の例外がカプセルです。これはデザイン上の偶然ではなく、カテゴリーとして定着した標準です。"
+            ]
+          },
+          {
+            "h": "スティックが購入者にもたらすもの",
+            "p": [
+              "この形態は、こうした製品の最大の問題である「分量を量る手間」を取り除きます。1回分はすでに量られており、間違えようがありません。摂取の仕方も分かりやすくなります。Watermix Zeroの1日3スティック、Alpha CD Calozeroの1スティックは、説明書なしでパッケージから読み取れます。",
+              "もう一つは、摂取の場面そのものです。スティックはポケットに入りますので、製品が自宅に縛られません。結果が継続性に左右されるカテゴリーでは、この点が成分よりも強くリピート購入に影響します。"
+            ]
+          },
+          {
+            "h": "輸入業者にとって何が変わるか",
+            "p": [
+              "14本、21本、30本入りの箱は、自然な摂取コースと分かりやすいコース単価を作ります。この論理のほうが、棚づくりも販促も組み立てやすくなります。同時にロット重量に占める包装材の割合が増え、製品1グラムあたりの輸送費は、同じ正味重量のボトルより高くつきます。",
+              "包装そのものへの要件もあります。スティック1本ごとに義務表示が必要ですので、貴社の市場に合わせた文言の修正は箱だけでなく、フィルムの印刷にも及びます。これは見積書でも工期でも別項目になります。"
+            ]
+          },
+          {
+            "h": "工場へ確認すべきこと",
+            "p": [
+              "ラミネート材の仕様と、貴社の市場の気候との適合性を確認してください。特に吸湿しやすい製品では重要です。スティックの状態での賞味期限と、小売の倉庫での保管条件も聞いておきましょう。スティックが別ロットで印刷されるのか、フィルム印刷の最低ロットはいくつかも確かめてください。これは製品自体の最低発注量より多いことが少なくありません。",
+              "そして重量の数え方も点検してください。たとえばSPRXでは、箱の正味重量が内容量からそのまま導かれます。1本9 gで21本なら189 gです。書類上の計算が合わない場合、それは数値を別の品目から転記した最初の兆候です。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Stick al posto del barattolo: perché il controllo del peso coreano è passato alle bustine",
+        "excerpt": "Quasi tutta la categoria coreana del controllo del peso è confezionata in stick monodose. Dietro non c'è solo la comodità: il formato cambia il comportamento di chi compra e anche l'economia della fornitura.",
+        "seoTitle": "Stick nel controllo del peso: vantaggi per l'importatore",
+        "seoDesc": "Perché i prodotti coreani per il controllo del peso escono in stick da 3 g a 30 g, che cosa dà questo al retail e che cosa chiedere alla fabbrica prima dell'ordine.",
+        "sections": [
+          {
+            "p": [
+              "Se si apre il catalogo di quasi qualunque marchio coreano nella categoria del controllo del peso, di barattoli se ne trovano pochi. La forma principale è lo stick monodose. In SPRX, su sette referenze sei sono confezionate proprio così: da 3 g, 9 g, 15 g e 30 g, e l'unica eccezione sono le capsule. Non è un vezzo grafico, ma uno standard ormai consolidato della categoria."
+            ]
+          },
+          {
+            "h": "Che cosa dà lo stick a chi compra",
+            "p": [
+              "Toglie di mezzo il problema principale di questi prodotti, cioè la necessità di misurare la dose. La porzione è già dosata, sbagliare non si può, e il regime d'uso diventa più chiaro: tre stick al giorno per Watermix Zero Shine Muscat o un solo stick per Alpha CD Calozero si leggono sulla confezione senza bisogno di istruzioni.",
+              "Il secondo punto è lo scenario d'uso. Lo stick sta in tasca, quindi il prodotto non è legato alla casa. In una categoria dove il risultato dipende dalla regolarità, questo incide sul riacquisto più della composizione."
+            ]
+          },
+          {
+            "h": "Che cosa cambia per l'importatore",
+            "p": [
+              "Una scatola da 14, 21 o 30 stick definisce un ciclo d'uso naturale e un prezzo per ciclo comprensibile, e su questa logica è più comodo costruire lo scaffale e le promozioni. Allo stesso tempo cresce la quota dell'imballaggio nel peso della partita, e il costo di trasporto per grammo di prodotto risulta più alto che con un barattolo dello stesso peso netto.",
+              "C'è poi un requisito che riguarda la confezione stessa: ogni stick porta l'etichettatura obbligatoria, quindi le modifiche del testo per il vostro mercato non toccano solo la scatola, ma anche la stampa sul film. È una voce di costo a sé e un tempo a sé."
+            ]
+          },
+          {
+            "h": "Che cosa chiedere alla fabbrica",
+            "p": [
+              "Chiedete il materiale del laminato e la compatibilità con il clima del vostro mercato, soprattutto se il prodotto è igroscopico. Informatevi sulla scadenza proprio nello stick e sulle condizioni di conservazione nel magazzino del retail. Verificate se lo stick viene stampato in una tiratura separata e quale sia il lotto minimo per la stampa del film: spesso è più alto del lotto minimo del prodotto stesso.",
+              "E controllate come viene calcolato il peso: in SPRX, per esempio, il peso netto della scatola discende direttamente dal confezionamento, 9 g per stick per 21 stick danno 189 g. Se l'aritmetica nei documenti non torna, è il primo segnale che le cifre sono state riportate da un'altra referenza."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Stick statt Dose: Warum koreanisches Gewichtsmanagement ins Sachet gewandert ist",
+        "excerpt": "Fast die gesamte koreanische Kategorie Gewichtsmanagement steckt in Einweg-Sticks. Dahinter steht nicht nur die Bequemlichkeit: Das Format verändert sowohl das Verhalten der Käufer als auch die Ökonomie der Lieferung.",
+        "seoTitle": "Stick-Format im Gewichtsmanagement: Nutzen für Importeure",
+        "seoDesc": "Warum koreanische Produkte für das Gewichtsmanagement in Sticks zu 3, 9, 15 und 30 g abgefüllt werden, was das dem Handel bringt und was Sie das Werk vor der Bestellung fragen sollten.",
+        "sections": [
+          {
+            "p": [
+              "Wer den Katalog einer beliebigen koreanischen Marke aus der Kategorie Gewichtsmanagement aufschlägt, findet darin kaum Dosen. Die Grundform ist der Einweg-Stick für eine einzelne Portion. Bei SPRX werden sechs von sieben Positionen genau so abgefüllt, nämlich zu 3 g, 9 g, 15 g und 30 g, und die einzige Ausnahme sind die Kapseln. Das ist keine Laune der Gestaltung, sondern ein etablierter Standard der Kategorie."
+            ]
+          },
+          {
+            "h": "Was der Stick dem Käufer bringt",
+            "p": [
+              "Er löst das Hauptproblem solcher Produkte, nämlich die Notwendigkeit, die Dosis abzumessen. Die Portion ist bereits abgemessen, ein Fehler ist praktisch ausgeschlossen, und das Einnahmeschema wird verständlicher: Drei Sticks täglich bei Watermix Zero Shine Muscat oder ein Stick bei Alpha CD Calozero lassen sich ohne Beipackzettel von der Verpackung ablesen.",
+              "Der zweite Punkt ist das Einnahmeszenario selbst. Ein Stick passt in die Tasche, das Produkt ist damit nicht an das Zuhause gebunden. In einer Kategorie, in der das Ergebnis von der Regelmäßigkeit abhängt, wirkt sich das stärker auf den Wiederkauf aus als die Zusammensetzung."
+            ]
+          },
+          {
+            "h": "Was er für den Importeur verändert",
+            "p": [
+              "Eine Schachtel mit 14, 21 oder 30 Sticks gibt eine natürliche Kurdauer und einen nachvollziehbaren Preis je Kur vor, und nach dieser Logik lassen sich Regal und Aktionen leichter aufbauen. Zugleich steigt der Anteil der Verpackung am Gewicht der Partie, und die Frachtkosten je Gramm Produkt fallen höher aus als bei einer Dose mit demselben Nettogewicht.",
+              "Hinzu kommt eine Anforderung an die Verpackung selbst: Jeder Stick trägt eine eigene Pflichtkennzeichnung, Textänderungen für Ihren Markt betreffen also nicht nur die Schachtel, sondern auch den Druck auf der Folie. Das ist eine eigene Position in der Kalkulation und ein eigener Termin."
+            ]
+          },
+          {
+            "h": "Was Sie das Werk fragen sollten",
+            "p": [
+              "Klären Sie das Material des Laminats und seine Eignung für das Klima Ihres Marktes, besonders wenn das Produkt hygroskopisch ist. Fragen Sie nach der Haltbarkeit gerade im Stick und nach den Lagerbedingungen im Lager des Handels. Erkundigen Sie sich, ob der Stick in einer eigenen Auflage bedruckt wird und wie hoch die Mindestmenge für den Foliendruck ist, denn sie liegt nicht selten über der Mindestmenge des Produkts selbst.",
+              "Und prüfen Sie, wie das Gewicht berechnet wird: Bei SPRX etwa folgt das Nettogewicht der Schachtel unmittelbar aus der Abfüllung, 9 g je Stick bei 21 Sticks ergeben 189 g. Geht die Rechnung in den Unterlagen nicht auf, ist das ein erstes Anzeichen dafür, dass die Zahlen von einer anderen Position übernommen wurden."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Le stick plutôt que le pot : pourquoi le contrôle du poids coréen est passé au sachet",
+        "excerpt": "Presque toute la catégorie coréenne du contrôle du poids est conditionnée en sticks à usage unique. Il n'y a pas que la commodité derrière ce choix : le format modifie aussi le comportement de l'acheteur et l'économie de la livraison.",
+        "seoTitle": "Format stick en contrôle du poids : l'intérêt à l'import",
+        "seoDesc": "Pourquoi les produits coréens de contrôle du poids sortent en sticks de 3 à 30 g, ce que cela apporte au retail et quoi demander à l'usine avant de commander.",
+        "sections": [
+          {
+            "p": [
+              "Ouvrez le catalogue de presque n'importe quelle marque coréenne dans la catégorie du contrôle du poids : vous y trouverez peu de pots. La forme principale est le stick à usage unique, prévu pour une seule prise. Chez SPRX, six références sur sept sortent ainsi, en 3 g, 9 g, 15 g et 30 g, la seule exception étant les gélules. Ce n'est pas un hasard de présentation, mais un standard établi de la catégorie."
+            ]
+          },
+          {
+            "h": "Ce que le stick apporte à l'acheteur",
+            "p": [
+              "Il supprime le principal inconvénient de ces produits, la nécessité de doser soi-même. La portion est déjà mesurée, l'erreur est impossible, et le schéma de prise devient plus clair : trois sticks par jour pour Watermix Zero ou un stick pour Alpha CD Calozero se lisent sur l'emballage sans notice.",
+              "Vient ensuite le scénario d'usage lui-même. Le stick tient dans une poche, le produit n'est donc pas lié au domicile. Dans une catégorie où le résultat dépend de la régularité, cela pèse sur le réachat plus lourdement que la composition."
+            ]
+          },
+          {
+            "h": "Ce qu'il change pour l'importateur",
+            "p": [
+              "Une boîte de 14, 21 ou 30 sticks définit une cure naturelle et un prix à la cure facile à comprendre, et cette logique simplifie la construction du rayon comme celle des promotions. En même temps, la part de l'emballage dans le poids du lot augmente, et le coût de transport au gramme de produit ressort plus élevé que pour un pot de même poids net.",
+              "S'y ajoute une contrainte propre à l'emballage : chaque stick porte un étiquetage obligatoire, si bien que les corrections de texte pour votre marché concernent non seulement la boîte, mais aussi l'impression du film. C'est une ligne distincte dans le devis et un délai distinct."
+            ]
+          },
+          {
+            "h": "Ce qu'il faut demander à l'usine",
+            "p": [
+              "Renseignez-vous sur le matériau du laminé et sur sa compatibilité avec le climat de votre marché, surtout si le produit est hygroscopique. Demandez la durée de conservation dans le stick précisément, ainsi que les conditions de stockage en entrepôt du distributeur. Vérifiez si le stick est imprimé en tirage séparé et quelle est la quantité minimale pour l'impression du film : elle dépasse souvent la quantité minimale du produit lui-même.",
+              "Contrôlez enfin le mode de calcul du poids : chez SPRX, par exemple, le poids net de la boîte découle directement du conditionnement, 9 g par stick pour 21 sticks donnent 189 g. Si l'arithmétique des documents ne tombe pas juste, c'est le premier signe que les chiffres ont été repris d'une autre référence."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kavanoz yerine stick: Kore'de kilo kontrolü neden saşeye geçti",
+        "excerpt": "Kore'nin kilo kontrolü kategorisi neredeyse tamamen tek kullanımlık stick'lere taşındı. Bunun arkasında yalnızca kullanım kolaylığı yok: format hem alıcının davranışını hem de tedarik ekonomisini değiştiriyor.",
+        "seoTitle": "Kilo kontrolünde stick formatı: ithalatçıya ne katar",
+        "seoDesc": "Kore'nin kilo kontrolü ürünleri neden 3–30 g stick'lerde üretilir, bu perakendeye ne katar ve sipariş öncesi fabrikaya ne sorulmalı.",
+        "sections": [
+          {
+            "p": [
+              "Kilo kontrolü kategorisinde neredeyse her Koreli markanın kataloğunu açtığınızda orada az sayıda kavanoz bulursunuz. Temel form, tek alımlık kullan-at stick'tir. SPRX'te yedi üründen altısı tam olarak böyle üretilir: 3 g, 9 g, 15 g ve 30 g olarak; tek istisna kapsüllerdir. Bu bir tasarım tesadüfü değil, kategorinin yerleşmiş standardıdır."
+            ]
+          },
+          {
+            "h": "Stick alıcıya ne kazandırır",
+            "p": [
+              "Bu tür ürünlerin temel sorununu, yani dozu ölçme zorunluluğunu ortadan kaldırır. Porsiyon zaten ölçülmüştür, yanılmak mümkün değildir ve kullanım düzeni daha anlaşılır hale gelir: Watermix Zero'da günde üç stick ya da Alpha CD Calozero'da tek stick, talimata bakmadan ambalajdan okunur.",
+              "İkincisi, kullanım senaryosunun kendisidir. Stick cebe sığar, dolayısıyla ürün eve bağlı kalmaz. Sonucun düzenliliğe bağlı olduğu bir kategoride bu, tekrar satın almayı içerikten daha güçlü etkiler."
+            ]
+          },
+          {
+            "h": "İthalatçı için neyi değiştirir",
+            "p": [
+              "14, 21 veya 30 stick'lik kutu, doğal bir kullanım kürü ve kür başına anlaşılır bir fiyat belirler; bu mantıkla raf düzeni ve kampanya kurgulamak daha kolaydır. Aynı anda ambalajın parti ağırlığı içindeki payı artar ve ürün gramı başına nakliye maliyeti, aynı net ağırlıktaki kavanoza göre daha yüksek çıkar.",
+              "Ambalajın kendisiyle ilgili bir gereklilik de vardır: her stick zorunlu etiket bilgisini taşır, dolayısıyla metnin sizin pazarınıza uyarlanması yalnızca kutuyu değil, film üzerindeki baskıyı da ilgilendirir. Bu, bütçede ayrı bir kalem ve ayrı bir süredir."
+            ]
+          },
+          {
+            "h": "Fabrikaya ne sorulmalı",
+            "p": [
+              "Laminat malzemesini ve pazarınızın iklimiyle uyumluluğunu netleştirin, özellikle ürün higroskopikse. Raf ömrünü tam olarak stick içinde sorun, perakende deposundaki saklama koşullarını öğrenin. Stick'in ayrı bir baskı tirajıyla üretilip üretilmediğini ve film baskısı için minimum partinin ne olduğunu sorun; bu parti çoğu zaman ürünün kendisinin minimum partisinden yüksektir.",
+              "Ağırlığın nasıl hesaplandığını da kontrol edin: örneğin SPRX'te kutunun net ağırlığı doğrudan ambalajlamadan çıkar, stick başına 9 g ve kutuda 21 stick 189 g eder. Belgelerdeki aritmetik tutmuyorsa, bu rakamların başka bir üründen aktarıldığının ilk işaretidir."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Stick en lugar de bote: por qué el control de peso coreano se pasó al sachet",
+        "excerpt": "Casi toda la categoría coreana de control de peso viene en sticks de un solo uso. Detrás no está solo la comodidad: el formato cambia tanto el comportamiento del comprador como la economía del suministro.",
+        "seoTitle": "Formato stick en control de peso: qué aporta al importador",
+        "seoDesc": "Por qué los productos coreanos de control de peso se fabrican en sticks de 3–30 g, qué aporta eso al minorista y qué preguntar a la fábrica antes del pedido.",
+        "sections": [
+          {
+            "p": [
+              "Si abre el catálogo de casi cualquier marca coreana en la categoría de control de peso, encontrará pocos botes. La forma principal es el stick de un solo uso para una toma. En SPRX, de siete posiciones seis se presentan justamente así: de 3 g, 9 g, 15 g y 30 g, y la única excepción son las cápsulas. No es un capricho de diseño, sino un estándar ya consolidado de la categoría."
+            ]
+          },
+          {
+            "h": "Qué le aporta el stick al comprador",
+            "p": [
+              "Resuelve el principal problema de estos productos: la necesidad de medir la dosis. La porción ya viene medida, no hay forma de equivocarse, y la pauta de consumo queda más clara: tres sticks al día en Watermix Zero o un stick en Alpha CD Calozero se leen en el envase sin necesidad de instrucciones.",
+              "Lo segundo es el propio escenario de consumo. El stick cabe en un bolsillo, así que el producto deja de estar atado a la casa. En una categoría donde el resultado depende de la regularidad, eso influye en la recompra más que la composición."
+            ]
+          },
+          {
+            "h": "Qué cambia para el importador",
+            "p": [
+              "Una caja de 14, 21 o 30 sticks marca un ciclo de consumo natural y un precio por ciclo comprensible: con esa lógica es más cómodo construir el lineal y las promociones. Al mismo tiempo crece la proporción de envase en el peso del lote, y el coste de transporte por gramo de producto sale más alto que en un bote del mismo peso neto.",
+              "Hay además un requisito para el propio envase: cada stick lleva un etiquetado obligatorio, de modo que las correcciones de texto para su mercado afectan no solo a la caja, sino también a la impresión sobre la película. Es una partida aparte del presupuesto y un plazo aparte."
+            ]
+          },
+          {
+            "h": "Qué preguntar a la fábrica",
+            "p": [
+              "Pregunte por el material del laminado y por su compatibilidad con el clima de su mercado, sobre todo si el producto es higroscópico. Pregunte por la vida útil precisamente dentro del stick y por las condiciones de almacenamiento en el depósito del minorista. Averigüe si el stick se imprime en una tirada aparte y cuál es el lote mínimo de impresión de la película: suele ser mayor que el lote mínimo del propio producto.",
+              "Y compruebe cómo se calcula el peso: en SPRX, por ejemplo, el peso neto de la caja se deriva directamente del formato, ya que 9 g por stick con 21 sticks dan 189 g. Si la aritmética de los documentos no cuadra, es la primera señal de que las cifras se trasladaron de otra posición."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Stick em vez de pote: por que o controle de peso coreano migrou para o sachê",
+        "excerpt": "Quase toda a categoria coreana de controle de peso está embalada em sticks de dose única. Por trás disso não está só a praticidade: o formato muda o comportamento do comprador e a economia do fornecimento.",
+        "seoTitle": "Formato stick no controle de peso: o que muda na compra",
+        "seoDesc": "Por que os produtos coreanos de controle de peso saem em sticks de 3 a 30 g, o que isso traz ao varejo e o que perguntar à fábrica antes do pedido.",
+        "sections": [
+          {
+            "p": [
+              "Ao abrir o catálogo de quase qualquer marca coreana na categoria de controle de peso, poucos potes aparecem. A forma principal é o stick de dose única. Na SPRX, de sete itens, seis saem exatamente assim: em 3 g, 9 g, 15 g e 30 g, e a única exceção são as cápsulas. Não é um acaso de design, e sim um padrão consolidado da categoria."
+            ]
+          },
+          {
+            "h": "O que o stick traz ao comprador",
+            "p": [
+              "Ele elimina o principal problema desses produtos — a necessidade de medir a dose. A porção já vem medida, não há como errar, e o regime de uso fica mais claro: três sticks por dia no Watermix Zero Shine Muscat ou um stick no Alpha CD Calozero se leem na embalagem sem instrução à parte.",
+              "O segundo ponto é o próprio cenário de uso. O stick cabe no bolso, então o produto deixa de estar preso à casa. Para uma categoria em que o resultado depende da regularidade, isso pesa mais na recompra do que a composição."
+            ]
+          },
+          {
+            "h": "O que ele muda para o importador",
+            "p": [
+              "Uma caixa com 14, 21 ou 30 sticks estabelece um ciclo natural de uso e um preço claro por ciclo — com essa lógica fica mais fácil montar a prateleira e as promoções. Ao mesmo tempo, cresce a participação da embalagem no peso do lote, e o custo de frete por grama de produto sai maior do que em um pote do mesmo peso líquido.",
+              "Há também uma exigência para a própria embalagem: cada stick leva rotulagem obrigatória, ou seja, as correções de texto para o seu mercado atingem não só a caixa, mas também a impressão no filme. É uma linha separada no orçamento e um prazo separado."
+            ]
+          },
+          {
+            "h": "O que perguntar à fábrica",
+            "p": [
+              "Verifique o material do laminado e a compatibilidade com o clima do seu mercado, sobretudo se o produto for higroscópico. Pergunte pelo prazo de validade no stick especificamente e pelas condições de armazenamento no depósito do varejo. Descubra se o stick é impresso em tiragem separada e qual é o lote mínimo para a impressão do filme — ele costuma ser maior do que o lote mínimo do próprio produto.",
+              "E confira como o peso é calculado: na SPRX, por exemplo, o peso líquido da caixa decorre diretamente da apresentação — 9 g por stick em 21 sticks dão 189 g. Se a aritmética dos documentos não fecha, esse é o primeiro sinal de que os números foram copiados de outro item."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
     "slug": "brewers-yeast-for-scalp-what-to-ask",
     "category": "guide",
     "date": "2026-09-14",
