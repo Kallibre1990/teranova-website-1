@@ -2,126 +2,360 @@
   {
     "line": "Shiny Pumpkin",
     "items": [
-      { "name": "Shiny Pumpkin Peel", "img": "/img/suppliers/fau/products/shiny-pumpkin-peel.jpg", "volume": "100 g · 60 g" },
-      { "name": "Shiny Pumpkin Peel Care Cream", "img": "/img/suppliers/fau/products/shiny-pumpkin-peel-care-cream.jpg", "volume": "50 g" },
-      { "name": "Shiny Pumpkin Enzyme Powder Wash", "img": "/img/suppliers/fau/products/shiny-pumpkin-enzyme-powder-wash.jpg", "volume": "60 g" },
-      { "name": "Shiny Pumpkin Hydra Foam Cleanser", "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-foam-cleanser.jpg", "volume": "120 ml" },
-      { "name": "Shiny Pumpkin Hydra Cleanser", "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-cleanser.jpg", "volume": "500 ml" },
-      { "name": "Shiny Pumpkin Hydra Toner", "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-toner.jpg", "volume": "500 ml · 150 ml" },
-      { "name": "Shiny Pumpkin Repair Essence", "img": "/img/suppliers/fau/products/shiny-pumpkin-repair-essence.jpg", "volume": "150 ml" },
-      { "name": "Shiny Pumpkin Serum", "img": "/img/suppliers/fau/products/shiny-pumpkin-serum.jpg", "volume": "100 ml" },
-      { "name": "Shiny Pumpkin Oil Serum", "img": "/img/suppliers/fau/products/shiny-pumpkin-oil-serum.jpg", "volume": "20 ml" },
-      { "name": "Shiny Pumpkin Amino Therapy", "img": "/img/suppliers/fau/products/shiny-pumpkin-amino-therapy.jpg", "volume": "160 ml · 300 ml refill" },
-      { "name": "Shiny Pumpkin Hydra Soothing Gel", "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-soothing-gel.jpg", "volume": "300 ml" },
-      { "name": "Shiny Pumpkin Cream", "img": "/img/suppliers/fau/products/shiny-pumpkin-cream.jpg", "volume": "100 g" },
-      { "name": "Shiny Pumpkin Cera Repair Cream", "img": "/img/suppliers/fau/products/shiny-pumpkin-cera-repair-cream.jpg", "volume": "100 g" },
-      { "name": "Shiny Pumpkin PDRN Glow Gel Mask", "img": "/img/suppliers/fau/products/shiny-pumpkin-pdrn-glow-gel-mask.jpg", "volume": "30 g × 4" }
+      {
+        "name": "Shiny Pumpkin Peel",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-peel.jpg",
+        "volume": "100 g · 60 g"
+      },
+      {
+        "name": "Shiny Pumpkin Peel Care Cream",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-peel-care-cream.jpg",
+        "volume": "50 g"
+      },
+      {
+        "name": "Shiny Pumpkin Enzyme Powder Wash",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-enzyme-powder-wash.jpg",
+        "volume": "60 g"
+      },
+      {
+        "name": "Shiny Pumpkin Hydra Foam Cleanser",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-foam-cleanser.jpg",
+        "volume": "120 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Hydra Cleanser",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-cleanser.jpg",
+        "volume": "500 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Hydra Toner",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-toner.jpg",
+        "volume": "500 ml · 150 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Repair Essence",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-repair-essence.jpg",
+        "volume": "150 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Serum",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-serum.jpg",
+        "volume": "100 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Oil Serum",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-oil-serum.jpg",
+        "volume": "20 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Amino Therapy",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-amino-therapy.jpg",
+        "volume": "160 ml · 300 ml refill"
+      },
+      {
+        "name": "Shiny Pumpkin Hydra Soothing Gel",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-hydra-soothing-gel.jpg",
+        "volume": "300 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Cream",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-cream.jpg",
+        "volume": "100 g"
+      },
+      {
+        "name": "Shiny Pumpkin Cera Repair Cream",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-cera-repair-cream.jpg",
+        "volume": "100 g"
+      },
+      {
+        "name": "Shiny Pumpkin PDRN Glow Gel Mask",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-pdrn-glow-gel-mask.jpg",
+        "volume": "30 g × 4"
+      }
     ]
   },
   {
     "line": "Shiny Pumpkin Vegan",
     "items": [
-      { "name": "Shiny Pumpkin Vegan Essence Toner", "volume": "130 ml" },
-      { "name": "Shiny Pumpkin Vegan Serum", "volume": "60 ml" },
-      { "name": "Shiny Pumpkin Vegan Cream", "volume": "60 g" }
+      {
+        "name": "Shiny Pumpkin Vegan Essence Toner",
+        "volume": "130 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Vegan Serum",
+        "volume": "60 ml"
+      },
+      {
+        "name": "Shiny Pumpkin Vegan Cream",
+        "volume": "60 g"
+      }
     ]
   },
   {
     "line": "Skin Solution SOS",
     "items": [
-      { "name": "Skin Solution SOS Foam Cleanser", "img": "/img/suppliers/fau/products/skin-solution-sos-foam-cleanser.jpg", "volume": "120 ml" },
-      { "name": "Skin Solution SOS Toner", "img": "/img/suppliers/fau/products/skin-solution-sos-toner.jpg", "volume": "150 ml · 500 ml" },
-      { "name": "Skin Solution SOS Serum", "img": "/img/suppliers/fau/products/skin-solution-sos-serum.jpg", "volume": "100 ml · 50 ml" },
-      { "name": "Skin Solution SOS Ampoule", "img": "/img/suppliers/fau/products/skin-solution-sos-ampoule.jpg", "volume": "10 ml × 5" },
-      { "name": "Skin Solution SOS Cream", "img": "/img/suppliers/fau/products/sos-cream.jpg", "volume": "80 g" },
-      { "name": "Skin Solution SOS Cream MD", "img": "/img/suppliers/fau/products/sos-cream-md.jpg", "volume": "100 g" },
-      { "name": "Skin Solution SOS Mask", "img": "/img/suppliers/fau/products/sos-mask.jpg", "volume": "25 g × 10" },
-      { "name": "Skin Solution SOS Pore Calming Pad", "img": "/img/suppliers/fau/products/sos-pore-calming-pad.jpg", "volume": "150 ml · 70 pads" }
+      {
+        "name": "Skin Solution SOS Foam Cleanser",
+        "img": "/img/suppliers/fau/products/skin-solution-sos-foam-cleanser.jpg",
+        "volume": "120 ml"
+      },
+      {
+        "name": "Skin Solution SOS Toner",
+        "img": "/img/suppliers/fau/products/skin-solution-sos-toner.jpg",
+        "volume": "150 ml · 500 ml"
+      },
+      {
+        "name": "Skin Solution SOS Serum",
+        "img": "/img/suppliers/fau/products/skin-solution-sos-serum.jpg",
+        "volume": "100 ml · 50 ml"
+      },
+      {
+        "name": "Skin Solution SOS Ampoule",
+        "img": "/img/suppliers/fau/products/skin-solution-sos-ampoule.jpg",
+        "volume": "10 ml × 5"
+      },
+      {
+        "name": "Skin Solution SOS Cream",
+        "img": "/img/suppliers/fau/products/sos-cream.jpg",
+        "volume": "80 g"
+      },
+      {
+        "name": "Skin Solution SOS Cream MD",
+        "img": "/img/suppliers/fau/products/sos-cream-md.jpg",
+        "volume": "100 g"
+      },
+      {
+        "name": "Skin Solution SOS Mask",
+        "img": "/img/suppliers/fau/products/sos-mask.jpg",
+        "volume": "25 g × 10"
+      },
+      {
+        "name": "Skin Solution SOS Pore Calming Pad",
+        "img": "/img/suppliers/fau/products/sos-pore-calming-pad.jpg",
+        "volume": "150 ml · 70 pads"
+      }
     ]
   },
   {
     "line": "HA-RX",
     "items": [
-      { "name": "HA-RX Blue Calming Mist Serum", "img": "/img/suppliers/fau/products/ha-rx-blue-calming-mist-serum.jpg", "volume": "100 ml" }
+      {
+        "name": "HA-RX Blue Calming Mist Serum",
+        "img": "/img/suppliers/fau/products/ha-rx-blue-calming-mist-serum.jpg",
+        "volume": "100 ml"
+      }
     ]
   },
   {
     "line": "Core Intensive",
     "items": [
-      { "name": "Core Intensive Revital Ampoule", "img": "/img/suppliers/fau/products/core-intensive-revital-ampoule.jpg", "volume": "100 ml" },
-      { "name": "Core Intensive Eye Cream", "img": "/img/suppliers/fau/products/core-intensive-eye-cream.jpg", "volume": "30 g" },
-      { "name": "Core Intensive Collagen Velvet Mask", "img": "/img/suppliers/fau/products/core-intensive-collagen-velvet-mask.jpg", "volume": "25 g × 10" },
-      { "name": "Core Intensive Collagen Eye Patch", "img": "/img/suppliers/fau/products/core-intensive-collagen-eye-patch.jpg", "volume": "90 g · 60 patches" },
-      { "name": "Core Intensive Derma Care Balm", "img": "/img/suppliers/fau/products/core-intensive-derma-care-balm.jpg", "volume": "25 g" },
-      { "name": "Core Intensive Rich Cream", "img": "/img/suppliers/fau/products/core-intensive-rich-cream.jpg", "volume": "100 g" }
+      {
+        "name": "Core Intensive Revital Ampoule",
+        "img": "/img/suppliers/fau/products/core-intensive-revital-ampoule.jpg",
+        "volume": "100 ml"
+      },
+      {
+        "name": "Core Intensive Eye Cream",
+        "img": "/img/suppliers/fau/products/core-intensive-eye-cream.jpg",
+        "volume": "30 g"
+      },
+      {
+        "name": "Core Intensive Collagen Velvet Mask",
+        "img": "/img/suppliers/fau/products/core-intensive-collagen-velvet-mask.jpg",
+        "volume": "25 g × 10"
+      },
+      {
+        "name": "Core Intensive Collagen Eye Patch",
+        "img": "/img/suppliers/fau/products/core-intensive-collagen-eye-patch.jpg",
+        "volume": "90 g · 60 patches"
+      },
+      {
+        "name": "Core Intensive Derma Care Balm",
+        "img": "/img/suppliers/fau/products/core-intensive-derma-care-balm.jpg",
+        "volume": "25 g"
+      },
+      {
+        "name": "Core Intensive Rich Cream",
+        "img": "/img/suppliers/fau/products/core-intensive-rich-cream.jpg",
+        "volume": "100 g"
+      }
     ]
   },
   {
     "line": "Spotlight Whitening",
     "items": [
-      { "name": "Spotlight Whitening Toner", "img": "/img/suppliers/fau/products/spotlight-whitening-toner.jpg", "volume": "150 ml · 500 ml" },
-      { "name": "Spotlight Whitening Ampoule", "img": "/img/suppliers/fau/products/spotlight-whitening-ampoule.jpg", "volume": "100 ml · 50 ml" },
-      { "name": "Spotlight Whitening Cream", "volume": "80 ml" },
-      { "name": "Spotlight Whitening Mask", "img": "/img/suppliers/fau/products/spotlight-whitening-mask.jpg", "volume": "25 g × 5" }
+      {
+        "name": "Spotlight Whitening Toner",
+        "img": "/img/suppliers/fau/products/spotlight-whitening-toner.jpg",
+        "volume": "150 ml · 500 ml"
+      },
+      {
+        "name": "Spotlight Whitening Ampoule",
+        "img": "/img/suppliers/fau/products/spotlight-whitening-ampoule.jpg",
+        "volume": "100 ml · 50 ml"
+      },
+      {
+        "name": "Spotlight Whitening Cream",
+        "volume": "80 ml"
+      },
+      {
+        "name": "Spotlight Whitening Mask",
+        "img": "/img/suppliers/fau/products/spotlight-whitening-mask.jpg",
+        "volume": "25 g × 5"
+      }
     ]
   },
   {
     "line": "De Signature",
     "items": [
-      { "name": "De Signature Booster Ampoule", "img": "/img/suppliers/fau/products/de-signature-booster-ampoule.jpg", "volume": "5 ml × 5" },
-      { "name": "De Signature Fixing Ampoule", "img": "/img/suppliers/fau/products/de-signature-fixing-ampoule.jpg", "volume": "5 ml × 5" },
-      { "name": "De Signature Radiance Cream", "img": "/img/suppliers/fau/products/de-signature-radiance-cream.jpg", "volume": "20 ml · 50 ml" },
-      { "name": "De Signature Bakuchiol Peel", "img": "/img/suppliers/fau/products/de-signature-bakuchiol-peel.jpg", "volume": "50 ml" },
-      { "name": "De Signature Fillup BB", "img": "/img/suppliers/fau/products/de-signature-fillup-bb.jpg", "volume": "50 g" }
-    ]
-  },
-  {
-    "line": "Germany Ampoules",
-    "items": [
-      { "name": "Premium Magic Tok", "img": "/img/suppliers/fau/products/premium-magic-tok.jpg", "volume": "2 ml × 10" },
-      { "name": "Hydra Calming Ampoule", "img": "/img/suppliers/fau/products/hydra-calming-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Vitamin Complex Energetic Ampoule", "img": "/img/suppliers/fau/products/vitamin-complex-energetic-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Bright Energy Lift Ampoule", "img": "/img/suppliers/fau/products/bright-energy-lift-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Sensicalm Ampoule", "img": "/img/suppliers/fau/products/sensicalm-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Pore Control Ampoule", "img": "/img/suppliers/fau/products/pore-control-ampoule.jpg", "volume": "2 ml × 10" }
+      {
+        "name": "De Signature Booster Ampoule",
+        "img": "/img/suppliers/fau/products/de-signature-booster-ampoule.jpg",
+        "volume": "5 ml × 5"
+      },
+      {
+        "name": "De Signature Fixing Ampoule",
+        "img": "/img/suppliers/fau/products/de-signature-fixing-ampoule.jpg",
+        "volume": "5 ml × 5"
+      },
+      {
+        "name": "De Signature Radiance Cream",
+        "img": "/img/suppliers/fau/products/de-signature-radiance-cream.jpg",
+        "volume": "20 ml · 50 ml"
+      },
+      {
+        "name": "De Signature Bakuchiol Peel",
+        "img": "/img/suppliers/fau/products/de-signature-bakuchiol-peel.jpg",
+        "volume": "50 ml"
+      },
+      {
+        "name": "De Signature Fillup BB",
+        "img": "/img/suppliers/fau/products/de-signature-fillup-bb.jpg",
+        "volume": "50 g"
+      }
     ]
   },
   {
     "line": "Programme Ampoules",
     "items": [
-      { "name": "30 Days Special Ampoule", "img": "/img/suppliers/fau/products/thirty-days-special-ampoule.jpg", "volume": "2 ml × 30" },
-      { "name": "Shiny Pumpkin Repair Ampoule", "img": "/img/suppliers/fau/products/shiny-pumpkin-repair-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Skin Solution SOS Exo Ampoule", "img": "/img/suppliers/fau/products/sos-exo-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Core Intensive Double Exo Ampoule", "img": "/img/suppliers/fau/products/core-double-exo-ampoule.jpg", "volume": "2 ml × 10" },
-      { "name": "Whitening Toning Ampoule", "img": "/img/suppliers/fau/products/whitening-toning-ampoule.jpg", "volume": "2 ml × 10" }
+      {
+        "name": "30 Days Special Ampoule",
+        "img": "/img/suppliers/fau/products/thirty-days-special-ampoule.jpg",
+        "volume": "2 ml × 30"
+      },
+      {
+        "name": "Shiny Pumpkin Repair Ampoule",
+        "img": "/img/suppliers/fau/products/shiny-pumpkin-repair-ampoule.jpg",
+        "volume": "2 ml × 10"
+      },
+      {
+        "name": "Skin Solution SOS Exo Ampoule",
+        "img": "/img/suppliers/fau/products/sos-exo-ampoule.jpg",
+        "volume": "2 ml × 10"
+      },
+      {
+        "name": "Core Intensive Double Exo Ampoule",
+        "img": "/img/suppliers/fau/products/core-double-exo-ampoule.jpg",
+        "volume": "2 ml × 10"
+      },
+      {
+        "name": "Whitening Toning Ampoule",
+        "img": "/img/suppliers/fau/products/whitening-toning-ampoule.jpg",
+        "volume": "2 ml × 10"
+      }
     ]
   },
   {
     "line": "Modeling Masks",
     "items": [
-      { "name": "Premium Shiny Pumpkin Modeling Mask", "img": "/img/suppliers/fau/products/premium-shiny-pumpkin-modeling-mask.jpg", "volume": "1 kg · 500 g" },
-      { "name": "Premium Skin Solution SOS Modeling Mask", "img": "/img/suppliers/fau/products/premium-sos-modeling-mask.jpg", "volume": "1 kg · 500 g" },
-      { "name": "De Signature Premium Modeling Mask", "img": "/img/suppliers/fau/products/de-signature-premium-modeling-mask.jpg", "volume": "1 kg · 500 g" },
-      { "name": "Premium Gold Modeling Mask", "img": "/img/suppliers/fau/products/premium-gold-modeling-mask.jpg", "volume": "1 kg" },
-      { "name": "Premium Herb Jasmine Modeling Mask", "img": "/img/suppliers/fau/products/premium-herb-jasmine-modeling-mask.jpg", "volume": "1 kg" },
-      { "name": "Premium Herb Rose Modeling Mask", "img": "/img/suppliers/fau/products/premium-herb-rose-modeling-mask.jpg", "volume": "1 kg" },
-      { "name": "Premium Spirulina Modeling Mask", "img": "/img/suppliers/fau/products/premium-spirulina-modeling-mask.jpg", "volume": "1 kg" },
-      { "name": "Shiny Pumpkin Modeling Mask", "volume": "1 kg" },
-      { "name": "Vitamin Modeling Mask", "volume": "1 kg" },
-      { "name": "Collagen Modeling Mask", "volume": "1 kg" },
-      { "name": "Charcoal Modeling Mask", "volume": "1 kg" },
-      { "name": "Cool Peppermint Modeling Mask", "volume": "1 kg" }
+      {
+        "name": "Premium Shiny Pumpkin Modeling Mask",
+        "img": "/img/suppliers/fau/products/premium-shiny-pumpkin-modeling-mask.jpg",
+        "volume": "1 kg · 500 g"
+      },
+      {
+        "name": "Premium Skin Solution SOS Modeling Mask",
+        "img": "/img/suppliers/fau/products/premium-sos-modeling-mask.jpg",
+        "volume": "1 kg · 500 g"
+      },
+      {
+        "name": "De Signature Premium Modeling Mask",
+        "img": "/img/suppliers/fau/products/de-signature-premium-modeling-mask.jpg",
+        "volume": "1 kg · 500 g"
+      },
+      {
+        "name": "Premium Gold Modeling Mask",
+        "img": "/img/suppliers/fau/products/premium-gold-modeling-mask.jpg",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Premium Herb Jasmine Modeling Mask",
+        "img": "/img/suppliers/fau/products/premium-herb-jasmine-modeling-mask.jpg",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Premium Herb Rose Modeling Mask",
+        "img": "/img/suppliers/fau/products/premium-herb-rose-modeling-mask.jpg",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Premium Spirulina Modeling Mask",
+        "img": "/img/suppliers/fau/products/premium-spirulina-modeling-mask.jpg",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Shiny Pumpkin Modeling Mask",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Vitamin Modeling Mask",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Collagen Modeling Mask",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Charcoal Modeling Mask",
+        "volume": "1 kg"
+      },
+      {
+        "name": "Cool Peppermint Modeling Mask",
+        "volume": "1 kg"
+      }
     ]
   },
   {
     "line": "Salon Formats",
     "items": [
-      { "name": "Vital Modelizing Cream", "img": "/img/suppliers/fau/products/vital-modelizing-cream.jpg", "volume": "1000 ml" },
-      { "name": "Vital Rose Treatment Oil", "img": "/img/suppliers/fau/products/vital-rose-treatment-oil.jpg", "volume": "1000 ml" },
-      { "name": "Skin Solution Hydra Water Drop Cream", "img": "/img/suppliers/fau/products/hydra-water-drop-cream.jpg" },
-      { "name": "Centella Moisture Silky Cream", "img": "/img/suppliers/fau/products/centella-moisture-silky-cream.jpg", "volume": "210 g" },
-      { "name": "Centella Moisture Calming Gel", "img": "/img/suppliers/fau/products/centella-moisture-calming-gel.jpg" },
-      { "name": "Multi-Active Nutrition Cream", "img": "/img/suppliers/fau/products/multi-active-nutrition-cream.jpg", "volume": "100 ml" }
+      {
+        "name": "Vital Modelizing Cream",
+        "img": "/img/suppliers/fau/products/vital-modelizing-cream.jpg",
+        "volume": "1000 ml"
+      },
+      {
+        "name": "Vital Rose Treatment Oil",
+        "img": "/img/suppliers/fau/products/vital-rose-treatment-oil.jpg",
+        "volume": "1000 ml"
+      },
+      {
+        "name": "Skin Solution Hydra Water Drop Cream",
+        "img": "/img/suppliers/fau/products/hydra-water-drop-cream.jpg"
+      },
+      {
+        "name": "Centella Moisture Silky Cream",
+        "img": "/img/suppliers/fau/products/centella-moisture-silky-cream.jpg",
+        "volume": "210 g"
+      },
+      {
+        "name": "Centella Moisture Calming Gel",
+        "img": "/img/suppliers/fau/products/centella-moisture-calming-gel.jpg"
+      },
+      {
+        "name": "Multi-Active Nutrition Cream",
+        "img": "/img/suppliers/fau/products/multi-active-nutrition-cream.jpg",
+        "volume": "100 ml"
+      }
     ]
   }
 ]
