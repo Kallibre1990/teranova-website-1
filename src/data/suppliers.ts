@@ -479,6 +479,8 @@ import licornePt from './suppliers-i18n/licorne.pt.json';
 export interface SupplierLine {
   name: string;
   note: string;
+  /** Planned lines remain visible but must not become commercial offers. */
+  planned?: boolean;
 }
 export interface SupplierTech {
   name: string;
