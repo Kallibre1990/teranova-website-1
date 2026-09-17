@@ -1,3 +1,16 @@
+import oanicRu from './suppliers-i18n/oanic.ru.json';
+import oanicEn from './suppliers-i18n/oanic.en.json';
+import oanicKo from './suppliers-i18n/oanic.ko.json';
+import oanicZh from './suppliers-i18n/oanic.zh.json';
+import oanicJa from './suppliers-i18n/oanic.ja.json';
+import oanicIt from './suppliers-i18n/oanic.it.json';
+import oanicDe from './suppliers-i18n/oanic.de.json';
+import oanicFr from './suppliers-i18n/oanic.fr.json';
+import oanicEs from './suppliers-i18n/oanic.es.json';
+import oanicPt from './suppliers-i18n/oanic.pt.json';
+import oanicTr from './suppliers-i18n/oanic.tr.json';
+import oanicCatalog from './suppliers-i18n/oanic.catalog.json';
+import oanicLines from './suppliers-i18n/oanic.lines.json';
 /* Real suppliers published WITH written consent — the opposite of demoSuppliers.
    First entry: SANTE COSMETICS / Dr.SANTE (InterCHARM Korea 2026; written consent
    to publish logo, product images and catalogs on the Teranova platform, 2026-07-20).
@@ -986,6 +999,16 @@ export const suppliers: SupplierProfile[] = [
       es: mk(dreamcosEs),
       pt: mk(dreamcosPt),
     },
+  },
+  {
+    // Preview only. Written final approval from OANIC is required before main/production.
+    slug: 'oanic', category: 'cosmetics', country: 'kr',
+    name: 'OANIC GLOBAL CO., LTD.', brand: 'OANIC', status: 'provided',
+    brandColors: { deep: '#16485F', sky: '#65B8D1', accent: '#B79662', bg: '#F4F9FB' },
+    voice: 'clinical', catalog: oanicCatalog,
+    termsFile: { ru: '/docs/oanic-terms-ru.pdf', en: '/docs/oanic-terms-en.pdf', ko: '/docs/oanic-terms-ko.pdf', zh: '/docs/oanic-terms-zh.pdf', ja: '/docs/oanic-terms-ja.pdf', it: '/docs/oanic-terms-it.pdf', de: '/docs/oanic-terms-de.pdf', fr: '/docs/oanic-terms-fr.pdf', es: '/docs/oanic-terms-es.pdf', pt: '/docs/oanic-terms-pt.pdf', tr: '/docs/oanic-terms-tr.pdf' },
+    presFile: { ru: '/docs/oanic-presentation-ru.pdf', en: '/docs/oanic-presentation-en.pdf', ko: '/docs/oanic-presentation-ko.pdf', zh: '/docs/oanic-presentation-zh.pdf', ja: '/docs/oanic-presentation-ja.pdf', it: '/docs/oanic-presentation-it.pdf', de: '/docs/oanic-presentation-de.pdf', fr: '/docs/oanic-presentation-fr.pdf', es: '/docs/oanic-presentation-es.pdf', pt: '/docs/oanic-presentation-pt.pdf', tr: '/docs/oanic-presentation-tr.pdf' },
+    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), tr: mk(oanicTr) },
   },
   {
     slug: 'artface',
@@ -2368,6 +2391,7 @@ export const supplierBySlug = (slug: string): SupplierProfile | undefined => sup
 export const supplierSlugs = suppliers.map((s) => s.slug);
 
 export const linePages: SupplierLinePage[] = [
+  ...oanicLines,
   ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
   ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
   ...(desertFreeLines as SupplierLinePage[]),

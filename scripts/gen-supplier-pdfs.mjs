@@ -69,6 +69,12 @@ const RU_UI = {
    `node scripts/gen-supplier-pdfs.mjs <id>`, or all when no arg. */
 const SUPPLIERS = [
   {
+    // OANIC preview only: no price sheet, certifications or export terms.
+    id: 'oanic', json: 'oanic', supplier: 'OANIC GLOBAL CO., LTD.', brand: 'OANIC',
+    basis: '', noPrice: true, pres: true, certs: [],
+    colors: { deep: '#16485F', sky: '#65B8D1', bg: '#F4F9FB', line: '#D9E6EC' },
+  },
+  {
     /* noPrice: SANTE COSMETICS 18.08.2026 письменно попросила не публиковать экспортный
        прайс — он закрытый. Прайс-PDF для этого поставщика не собираем. */
     id: 'sante', json: 'sante', supplier: 'SANTE COSMETICS', brand: 'Dr.SANTE', basis: 'FOB Korea', noPrice: true,
