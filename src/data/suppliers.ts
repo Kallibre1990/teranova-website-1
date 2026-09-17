@@ -290,6 +290,18 @@ import dreamcosFr from './suppliers-i18n/dreamcos.fr.json';
 import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
 import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
+import artfaceCatalog from './suppliers-i18n/artface.catalog.json';
+import artfaceRu from './suppliers-i18n/artface.ru.json';
+import artfaceEn from './suppliers-i18n/artface.en.json';
+import artfaceKo from './suppliers-i18n/artface.ko.json';
+import artfaceZh from './suppliers-i18n/artface.zh.json';
+import artfaceJa from './suppliers-i18n/artface.ja.json';
+import artfaceIt from './suppliers-i18n/artface.it.json';
+import artfaceDe from './suppliers-i18n/artface.de.json';
+import artfaceFr from './suppliers-i18n/artface.fr.json';
+import artfaceTr from './suppliers-i18n/artface.tr.json';
+import artfaceEs from './suppliers-i18n/artface.es.json';
+import artfacePt from './suppliers-i18n/artface.pt.json';
 import dongEn from './suppliers-i18n/dongdonggurimoo.en.json';
 import dongKo from './suppliers-i18n/dongdonggurimoo.ko.json';
 import dongZh from './suppliers-i18n/dongdonggurimoo.zh.json';
@@ -899,6 +911,29 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(dreamcosTr),
       es: mk(dreamcosEs),
       pt: mk(dreamcosPt),
+    },
+  },
+  {
+    slug: 'artface',
+    category: 'cosmetics',
+    name: 'ARTFACE CO.,LTD',
+    brand: 'TENZERO · MOOLDA',
+    status: 'provided',
+    brandColors: { deep: '#0e5a37', sky: '#2fa363', accent: '#e0574e', bg: '#f0f7f2' },
+    voice: 'natural',
+    catalog: artfaceCatalog as { line: string; items: { name: string; img: string }[] }[],
+    i18n: {
+      ru: mk(artfaceRu),
+      en: mk(artfaceEn),
+      ko: mk(artfaceKo),
+      zh: mk(artfaceZh),
+      ja: mk(artfaceJa),
+      it: mk(artfaceIt),
+      de: mk(artfaceDe),
+      fr: mk(artfaceFr),
+      tr: mk(artfaceTr),
+      es: mk(artfaceEs),
+      pt: mk(artfacePt),
     },
   },
   {

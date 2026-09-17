@@ -1,0 +1,436 @@
+[
+ {
+  "line": "Signature — PDRN и ампульный уход",
+  "items": [
+   {
+    "name": "Dual Spray Ampoule",
+    "img": "/img/suppliers/artface/products/dual-spray-ampoule.jpg",
+    "volume": "120 ml"
+   },
+   {
+    "name": "Dual Spray Ampoule Mask",
+    "img": "/img/suppliers/artface/products/dual-spray-ampoule-mask.jpg",
+    "volume": "28 ml"
+   },
+   {
+    "name": "PDRN Hidden Shot 2500",
+    "img": "/img/suppliers/artface/products/pdrn-hidden-shot-2500.jpg",
+    "volume": "30ml"
+   },
+   {
+    "name": "Solution Ampoule & Cream",
+    "img": "/img/suppliers/artface/products/solution-ampoule-and-cream.jpg",
+    "volume": "Ampoule 30ml · Cream 50ml"
+   },
+   {
+    "name": "Augmented Elixir",
+    "img": "/img/suppliers/artface/products/augmented-elixir.jpg",
+    "volume": "100g"
+   },
+   {
+    "name": "Advance Ampoule",
+    "img": "/img/suppliers/artface/products/advance-ampoule.jpg",
+    "volume": "30ml"
+   },
+   {
+    "name": "Ampoule Cream 2X",
+    "img": "/img/suppliers/artface/products/ampoule-cream-2x.jpg",
+    "volume": "70 g"
+   }
+  ]
+ },
+ {
+  "line": "Уход по типам кожи — тонеры, эссенции, кремы, сыворотки",
+  "items": [
+   {
+    "name": "Active Line Toner",
+    "img": "/img/suppliers/artface/products/active-line-toner.jpg",
+    "volume": "300 ml"
+   },
+   {
+    "name": "Active Line Water Cream",
+    "img": "/img/suppliers/artface/products/active-line-water-cream.jpg",
+    "volume": "50 g"
+   },
+   {
+    "name": "Vitamin Line Ampoule",
+    "img": "/img/suppliers/artface/products/vitamin-line-ampoule.jpg",
+    "volume": "50 ml"
+   },
+   {
+    "name": "Vitamin Line Cream",
+    "img": "/img/suppliers/artface/products/vitamin-line-cream.jpg",
+    "volume": "100 g"
+   },
+   {
+    "name": "Green Caviar Essence",
+    "img": "/img/suppliers/artface/products/green-caviar-essence.jpg",
+    "volume": "150 ml"
+   },
+   {
+    "name": "Green Caviar Cream",
+    "img": "/img/suppliers/artface/products/green-caviar-cream.jpg",
+    "volume": "50 g"
+   },
+   {
+    "name": "Blemish Cica Essence",
+    "img": "/img/suppliers/artface/products/blemish-cica-essence.jpg",
+    "volume": "150 ml"
+   },
+   {
+    "name": "Blemish Cica Cream",
+    "img": "/img/suppliers/artface/products/blemish-cica-cream.jpg",
+    "volume": "50 g"
+   },
+   {
+    "name": "24K Gold Ampoule",
+    "img": "/img/suppliers/artface/products/24k-gold-ampoule.jpg",
+    "volume": "30 ml"
+   },
+   {
+    "name": "Glow Vita Brightening Serum",
+    "img": "/img/suppliers/artface/products/glow-vita-brightening-serum.jpg",
+    "volume": "50 ml"
+   },
+   {
+    "name": "Glow Rice Serum",
+    "img": "/img/suppliers/artface/products/glow-rice-serum.jpg",
+    "volume": "60 g"
+   },
+   {
+    "name": "Yuja Brightening Cream",
+    "img": "/img/suppliers/artface/products/yuja-brightening-cream.jpg",
+    "volume": "100 g"
+   },
+   {
+    "name": "Deep Aqua Collagen 2X Essence",
+    "img": "/img/suppliers/artface/products/deep-aqua-collagen-2x-essence.jpg",
+    "volume": "200 ml"
+   },
+   {
+    "name": "Deep Aqua Collagen 2X Cream",
+    "img": "/img/suppliers/artface/products/deep-aqua-collagen-2x-cream.jpg",
+    "volume": "100 g"
+   }
+  ]
+ },
+ {
+  "line": "Кремы и увлажнение",
+  "items": [
+   {
+    "name": "Diamond Glow Up Cream",
+    "img": "/img/suppliers/artface/products/diamond-glow-up-cream.jpg",
+    "volume": "80 g"
+   },
+   {
+    "name": "Honey Glow Up Cream",
+    "img": "/img/suppliers/artface/products/honey-glow-up-cream.jpg",
+    "volume": "80 g"
+   },
+   {
+    "name": "Watery Glow Up Cream",
+    "img": "/img/suppliers/artface/products/watery-glow-up-cream.jpg",
+    "volume": "80 g"
+   },
+   {
+    "name": "Capsule Cream",
+    "img": "/img/suppliers/artface/products/capsule-cream.jpg",
+    "volume": "70ml"
+   },
+   {
+    "name": "Derma Barrier Cream",
+    "img": "/img/suppliers/artface/products/derma-barrier-cream.jpg",
+    "volume": "50ml"
+   },
+   {
+    "name": "Dark Spot Refiner Cream",
+    "img": "/img/suppliers/artface/products/dark-spot-refiner-cream.jpg",
+    "volume": "50ml"
+   },
+   {
+    "name": "Real Aqua Soothing Gel",
+    "img": "/img/suppliers/artface/products/real-aqua-soothing-gel.jpg",
+    "volume": "120ml"
+   },
+   {
+    "name": "Ampoule Multi Balm",
+    "img": "/img/suppliers/artface/products/ampoule-multi-balm.jpg",
+    "volume": "10 g"
+   }
+  ]
+ },
+ {
+  "line": "Патчи, пады и точечный уход",
+  "items": [
+   {
+    "name": "Toner Pad",
+    "img": "/img/suppliers/artface/products/toner-pad.jpg",
+    "volume": "160 g"
+   },
+   {
+    "name": "Heart Pad",
+    "img": "/img/suppliers/artface/products/heart-pad.jpg",
+    "volume": "150 g"
+   },
+   {
+    "name": "Hydrogel Eye Patch",
+    "img": "/img/suppliers/artface/products/hydrogel-eye-patch.jpg",
+    "volume": "90 g"
+   },
+   {
+    "name": "Serum Heart Pad",
+    "img": "/img/suppliers/artface/products/serum-heart-pad.jpg"
+   },
+   {
+    "name": "Makeup Booster 5-Minute Cooling Pad",
+    "img": "/img/suppliers/artface/products/makeup-booster-5-minute-cooling-pad.jpg",
+    "volume": "130g"
+   },
+   {
+    "name": "Between the Brows Wrinkle Patch",
+    "img": "/img/suppliers/artface/products/between-the-brows-wrinkle-patch.jpg",
+    "volume": "0.28g"
+   },
+   {
+    "name": "Trouble Spot Point Patch",
+    "img": "/img/suppliers/artface/products/trouble-spot-point-patch.jpg",
+    "volume": "3 shape x 18 patches"
+   },
+   {
+    "name": "Eraser Roller Eye Serum",
+    "img": "/img/suppliers/artface/products/eraser-roller-eye-serum.jpg",
+    "volume": "30ml"
+   }
+  ]
+ },
+ {
+  "line": "Солнцезащита",
+  "items": [
+   {
+    "name": "Perfect UV Sun Cushion",
+    "img": "/img/suppliers/artface/products/perfect-uv-sun-cushion.jpg",
+    "volume": "20 g"
+   },
+   {
+    "name": "UV Tone Up Sun Cream",
+    "img": "/img/suppliers/artface/products/uv-tone-up-sun-cream.jpg",
+    "volume": "70 g"
+   },
+   {
+    "name": "UV Tone Up Body Sun Cream",
+    "img": "/img/suppliers/artface/products/uv-tone-up-body-sun-cream.jpg",
+    "volume": "150 g"
+   },
+   {
+    "name": "Airy No-Sebum Sun Stick",
+    "img": "/img/suppliers/artface/products/airy-no-sebum-sun-stick.jpg",
+    "volume": "20g"
+   },
+   {
+    "name": "PDRN Collagen Sun Cream",
+    "img": "/img/suppliers/artface/products/pdrn-collagen-sun-cream.jpg",
+    "volume": "10g"
+   },
+   {
+    "name": "No-Sebum Finish Powder",
+    "img": "/img/suppliers/artface/products/no-sebum-finish-powder.jpg",
+    "volume": "5 g"
+   }
+  ]
+ },
+ {
+  "line": "Очищение",
+  "items": [
+   {
+    "name": "Cleansing Oil",
+    "img": "/img/suppliers/artface/products/cleansing-oil.jpg",
+    "volume": "100g"
+   },
+   {
+    "name": "Fish Collagen Cleansing Balm",
+    "img": "/img/suppliers/artface/products/fish-collagen-cleansing-balm.jpg",
+    "volume": "80g"
+   },
+   {
+    "name": "Cleansing Water",
+    "img": "/img/suppliers/artface/products/cleansing-water.jpg",
+    "volume": "500ml"
+   },
+   {
+    "name": "Foam Cleanser",
+    "img": "/img/suppliers/artface/products/foam-cleanser.jpg",
+    "volume": "180g"
+   },
+   {
+    "name": "Balancing Foam Cleanser",
+    "img": "/img/suppliers/artface/products/balancing-foam-cleanser.jpg",
+    "volume": "100ml"
+   },
+   {
+    "name": "Refresh Peeling Gel",
+    "img": "/img/suppliers/artface/products/refresh-peeling-gel.jpg",
+    "volume": "180ml"
+   },
+   {
+    "name": "Gold Snail Perfect Whip Foam Cleanser",
+    "img": "/img/suppliers/artface/products/gold-snail-perfect-whip-foam-cleanser.jpg",
+    "volume": "180ml"
+   },
+   {
+    "name": "Retinol Collagen Cleansing Wipes",
+    "img": "/img/suppliers/artface/products/retinol-collagen-cleansing-wipes.jpg",
+    "volume": "130g / 400g"
+   }
+  ]
+ },
+ {
+  "line": "Маски",
+  "items": [
+   {
+    "name": "Serum Sheet Mask",
+    "img": "/img/suppliers/artface/products/serum-sheet-mask.jpg",
+    "volume": "25ml"
+   },
+   {
+    "name": "Solution Sheet Mask",
+    "img": "/img/suppliers/artface/products/solution-sheet-mask.jpg",
+    "volume": "25ml"
+   },
+   {
+    "name": "Glow Ampoule Mask",
+    "img": "/img/suppliers/artface/products/glow-ampoule-mask.jpg",
+    "volume": "25ml"
+   },
+   {
+    "name": "Collagen Wrapping Mask",
+    "img": "/img/suppliers/artface/products/collagen-wrapping-mask.jpg",
+    "volume": "100ml"
+   },
+   {
+    "name": "Modeling Cup Mask",
+    "img": "/img/suppliers/artface/products/modeling-cup-mask.jpg",
+    "volume": "26g"
+   },
+   {
+    "name": "Rose Peptide Collagen Mask Pack",
+    "img": "/img/suppliers/artface/products/rose-peptide-collagen-mask-pack.jpg",
+    "volume": "30g"
+   },
+   {
+    "name": "Watery Hyaluronic Acid PDRN Mask Pack",
+    "img": "/img/suppliers/artface/products/watery-hyaluronic-acid-pdrn-mask-pack.jpg",
+    "volume": "30g"
+   },
+   {
+    "name": "Daily Sheet Mask",
+    "img": "/img/suppliers/artface/products/daily-sheet-mask.jpg",
+    "volume": "350g"
+   }
+  ]
+ },
+ {
+  "line": "Тело, руки и стопы",
+  "items": [
+   {
+    "name": "Perfume Hand Cream",
+    "img": "/img/suppliers/artface/products/perfume-hand-cream.jpg",
+    "volume": "50ml"
+   },
+   {
+    "name": "Relief Hand Cream",
+    "img": "/img/suppliers/artface/products/relief-hand-cream.jpg",
+    "volume": "100g"
+   },
+   {
+    "name": "Body Wash",
+    "img": "/img/suppliers/artface/products/body-wash.jpg",
+    "volume": "1,000ml"
+   },
+   {
+    "name": "Body Lotion",
+    "img": "/img/suppliers/artface/products/body-lotion.jpg",
+    "volume": "500ml"
+   },
+   {
+    "name": "Aqua Body Serum",
+    "img": "/img/suppliers/artface/products/aqua-body-serum.jpg",
+    "volume": "150ml"
+   },
+   {
+    "name": "Citrus Vitamin Sugar Body Scrub",
+    "img": "/img/suppliers/artface/products/citrus-vitamin-sugar-body-scrub.jpg",
+    "volume": "500g"
+   },
+   {
+    "name": "Water Essence Foot Moisture Mask",
+    "img": "/img/suppliers/artface/products/water-essence-foot-moisture-mask.jpg",
+    "volume": "18ml"
+   },
+   {
+    "name": "Mild Feminine Wash",
+    "img": "/img/suppliers/artface/products/mild-feminine-wash.jpg",
+    "volume": "140ml"
+   }
+  ]
+ },
+ {
+  "line": "Волосы и кожа головы",
+  "items": [
+   {
+    "name": "Premium Shampoo",
+    "img": "/img/suppliers/artface/products/premium-shampoo.jpg",
+    "volume": "500ml"
+   },
+   {
+    "name": "Premium Hair Essence",
+    "img": "/img/suppliers/artface/products/premium-hair-essence.jpg",
+    "volume": "100ml"
+   },
+   {
+    "name": "Premium Cream Treatment",
+    "img": "/img/suppliers/artface/products/premium-cream-treatment.jpg",
+    "volume": "180ml"
+   },
+   {
+    "name": "Anti-Hair Loss Cooling Tonic",
+    "img": "/img/suppliers/artface/products/anti-hair-loss-cooling-tonic.jpg",
+    "volume": "100ml"
+   },
+   {
+    "name": "Biotin PDRN Hair & Scalp Ampoule",
+    "img": "/img/suppliers/artface/products/biotin-pdrn-hair-and-scalp-ampoule.jpg",
+    "volume": "100ml"
+   },
+   {
+    "name": "Purifying Perfume Shampoo",
+    "img": "/img/suppliers/artface/products/purifying-perfume-shampoo.jpg",
+    "volume": "300ml"
+   }
+  ]
+ },
+ {
+  "line": "Макияж на PDRN-базе",
+  "items": [
+   {
+    "name": "PDRN Collagen Foundation",
+    "img": "/img/suppliers/artface/products/pdrn-collagen-foundation.jpg",
+    "volume": "50g"
+   },
+   {
+    "name": "Velvet Fit PDRN Cover Cushion",
+    "img": "/img/suppliers/artface/products/velvet-fit-pdrn-cover-cushion.jpg",
+    "volume": "15g"
+   },
+   {
+    "name": "Perfect Cover BB Cream",
+    "img": "/img/suppliers/artface/products/perfect-cover-bb-cream.jpg",
+    "volume": "50g"
+   },
+   {
+    "name": "Perfect Brightening Tone Up Cream",
+    "img": "/img/suppliers/artface/products/perfect-brightening-tone-up-cream.jpg",
+    "volume": "50g"
+   }
+  ]
+ }
+]
