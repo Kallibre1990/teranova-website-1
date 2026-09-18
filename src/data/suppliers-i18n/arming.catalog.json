@@ -4,19 +4,23 @@
     "items": [
       {
         "name": "ARMING Cashmere Natural Clinic Shampoo",
-        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-shampoo.jpg"
+        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-shampoo.png"
       },
       {
-        "name": "ARMING Deep Care Collagen Shampoo",
-        "img": "/img/suppliers/arming/products/deep-care-collagen-shampoo.png"
+        "name": "ARMING Cashmere Natural Clinic Treatment",
+        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-treatment.png"
       },
       {
-        "name": "ARMING Deep Care Collagen Treatment",
-        "img": "/img/suppliers/arming/products/deep-care-collagen-treatment.png"
+        "name": "ARMING Cashmere Hair & Scalp Booster",
+        "img": "/img/suppliers/arming/products/cashmere-hair-scalp-booster.png"
       },
       {
-        "name": "ARMING Intensive Hair Argan Oil",
-        "img": "/img/suppliers/arming/products/intensive-hair-argan-oil.png"
+        "name": "ARMING Cashmere Damage Care Hair Pack",
+        "img": "/img/suppliers/arming/products/cashmere-damage-care-hair-pack.png"
+      },
+      {
+        "name": "ARMING Intensive Hair Serum",
+        "img": "/img/suppliers/arming/products/intensive-hair-serum.png"
       }
     ]
   },
@@ -25,32 +29,23 @@
     "items": [
       {
         "name": "ARMING Signature Hyaluronic Cica Toner",
-        "img": "/img/suppliers/arming/products/hyaluronic-cica-toner.jpg"
+        "img": "/img/suppliers/arming/products/hyaluronic-cica-toner.png"
       },
       {
-        "name": "ARMING Phyto Exosome Cica Ampoule",
-        "img": "/img/suppliers/arming/products/phyto-exosome-cica-ampoule.jpg"
+        "name": "ARMING Signature Hyaluronic Cica Emulsion",
+        "img": "/img/suppliers/arming/products/hyaluronic-cica-emulsion.png"
+      },
+      {
+        "name": "ARMING Real Collagen Cica White Cream",
+        "img": "/img/suppliers/arming/products/real-collagen-cica-white-cream.png"
+      },
+      {
+        "name": "ARMING Real Collagen Cica White Eye Cream",
+        "img": "/img/suppliers/arming/products/real-collagen-cica-white-eye-cream.png"
       },
       {
         "name": "ARMING Multi Vita Cica Watery Cream",
         "img": "/img/suppliers/arming/products/multi-vita-cica-watery-cream.png"
-      },
-      {
-        "name": "ARMING Real Collagen Cica White Cream",
-        "img": "/img/suppliers/arming/products/real-collagen-cica-white-cream.jpg"
-      }
-    ]
-  },
-  {
-    "line": "Body Care",
-    "items": [
-      {
-        "name": "ARMING Pure Feminine Cleanser",
-        "img": "/img/suppliers/arming/products/pure-feminine-cleanser.png"
-      },
-      {
-        "name": "ARMING Acne Calming Body Wash",
-        "img": "/img/suppliers/arming/products/acne-calming-body-wash.png"
       }
     ]
   }
