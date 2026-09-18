@@ -46,6 +46,10 @@ import tdlDrops from '../../assets/suppliers/three-days-love/drops.jpg';
 import licorneHero from '../../assets/suppliers/licorne/hero.jpg';
 import licorneProducts from '../../assets/suppliers/licorne/products.jpg';
 import licorneDrops from '../../assets/suppliers/licorne/drops.jpg';
+import desertFreeLogo from '../../assets/suppliers/desert-free/logo.png';
+import desertFreeHero from '../../assets/suppliers/desert-free/hero.jpg';
+import desertFreeProducts from '../../assets/suppliers/desert-free/products.jpg';
+import desertFreeDrops from '../../assets/suppliers/desert-free/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -54,7 +58,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo };
+const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, 'desert-free': desertFreeLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
@@ -67,6 +71,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   icelmedi: { hero: icelmediHero, products: icelmediProducts, drops: icelmediDrops },
   'three-days-love': { hero: tdlHero, products: tdlProducts, drops: tdlDrops },
   licorne: { hero: licorneHero, products: licorneProducts, drops: licorneDrops },
+  'desert-free': { hero: desertFreeHero, products: desertFreeProducts, drops: desertFreeDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;

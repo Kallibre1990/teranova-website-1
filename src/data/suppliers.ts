@@ -204,6 +204,19 @@ import btfEs from './suppliers-i18n/btf.es.json';
 import btfPt from './suppliers-i18n/btf.pt.json';
 import btfCatalog from './suppliers-i18n/btf.catalog.json';
 import btfLines from './suppliers-i18n/btf.lines.json';
+import desertFreeRu from './suppliers-i18n/desert-free.ru.json';
+import desertFreeEn from './suppliers-i18n/desert-free.en.json';
+import desertFreeKo from './suppliers-i18n/desert-free.ko.json';
+import desertFreeZh from './suppliers-i18n/desert-free.zh.json';
+import desertFreeJa from './suppliers-i18n/desert-free.ja.json';
+import desertFreeIt from './suppliers-i18n/desert-free.it.json';
+import desertFreeDe from './suppliers-i18n/desert-free.de.json';
+import desertFreeFr from './suppliers-i18n/desert-free.fr.json';
+import desertFreeTr from './suppliers-i18n/desert-free.tr.json';
+import desertFreeEs from './suppliers-i18n/desert-free.es.json';
+import desertFreePt from './suppliers-i18n/desert-free.pt.json';
+import desertFreeCatalog from './suppliers-i18n/desert-free.catalog.json';
+import desertFreeLines from './suppliers-i18n/desert-free.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2168,6 +2181,26 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any),
     },
+  },
+  {
+    slug: 'desert-free',
+    category: 'cosmetics',
+    name: 'BEAUTYBLVD',
+    brand: 'DESERT FREE',
+    status: 'provided',
+    /* Цвета взяты с официальных packshot DESERT FREE: графитовая типографика,
+       песочный фон, коралловый акцент и светлая зелень Cactide. */
+    brandColors: { deep: '#24201E', sky: '#D6C7A5', accent: '#F05B4F', bg: '#FAF7EF' },
+    voice: 'natural',
+    /* Письменное разрешение BEAUTYBLVD от 17.09.2026 охватывает профиль,
+       официальный логотип и предоставленный медиапакет. Закрытый XLSX-прайс,
+       прямые контакты и коммерческие условия в публичные данные не входят. */
+    catalog: desertFreeCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
+    termsFile: { ru: '/docs/desert-free-terms-ru.pdf', en: '/docs/desert-free-terms-en.pdf', ko: '/docs/desert-free-terms-ko.pdf', zh: '/docs/desert-free-terms-zh.pdf', ja: '/docs/desert-free-terms-ja.pdf', it: '/docs/desert-free-terms-it.pdf', de: '/docs/desert-free-terms-de.pdf', fr: '/docs/desert-free-terms-fr.pdf', tr: '/docs/desert-free-terms-tr.pdf', es: '/docs/desert-free-terms-es.pdf', pt: '/docs/desert-free-terms-pt.pdf' },
+    presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any),
+    },
   }
 ];
 
@@ -2203,6 +2236,7 @@ export const supplierSlugs = suppliers.map((s) => s.slug);
 export const linePages: SupplierLinePage[] = [
   ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
   ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
+  ...(desertFreeLines as SupplierLinePage[]),
 ] as SupplierLinePage[];
 /** Lines of one supplier, in catalog order — used to link them from the profile. */
 export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>

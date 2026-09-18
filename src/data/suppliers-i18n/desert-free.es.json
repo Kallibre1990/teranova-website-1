@@ -1,0 +1,102 @@
+{
+  "content": {
+    "tagline": "Cuidado para piel deshidratada — cactus, péptidos y una rutina sencilla",
+    "descriptor": "BEAUTYBLVD, titular de la marca coreana DESERT FREE: un protector solar y tres sérums Cactide",
+    "origin": "Corea",
+    "about": [
+      "BEAUTYBLVD se fundó el 1 de noviembre de 2020 y desarrolla DESERT FREE, lanzada el 8 de mayo de 2024, para piel seca y deshidratada.",
+      "La gama reúne cuatro productos. Kolmar Korea y Ancors figuran como socios de fabricación según la empresa, no como fábricas propias de BEAUTYBLVD."
+    ],
+    "facts": [
+      "BEAUTYBLVD se fundó en 2020",
+      "DESERT FREE se lanzó en 2024",
+      "Cuatro productos Cactide",
+      "Kolmar Korea y Ancors: socios de fabricación según la empresa"
+    ],
+    "channels": [
+      "Importadores y distribuidores de skincare",
+      "Retail de belleza y farmacia",
+      "E-commerce y travel retail"
+    ],
+    "lines": [
+      {
+        "name": "Cactide Barrier Sun Cream",
+        "note": "Protector solar de 50 ml, SPF 50+ PA++++. Los materiales oficiales no declaran CPNP ni MoCRA para este producto."
+      },
+      {
+        "name": "Cactide Double Repair Serum",
+        "note": "Sérum de 50 ml con cactus, ectoína, péptido-12 y escualano derivado de caña de azúcar, según BEAUTYBLVD."
+      },
+      {
+        "name": "Cactide Aquagel First Serum",
+        "note": "Sérum-tónico gel de 130 ml con cactus y péptidos de colágeno, según la empresa."
+      },
+      {
+        "name": "Cactide Glow C Serum",
+        "note": "Sérum de 50 ml con vitamina C, Vita-Peptide y 2 % de niacinamida, según la empresa; no se publica el mes de lanzamiento contradictorio."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Cactide",
+        "note": "El nombre une cactus y peptide: es el concepto de ingredientes de la marca, no una certificación."
+      },
+      {
+        "name": "Rutina sencilla",
+        "note": "La gama combina protección solar, primer paso y sérums específicos."
+      }
+    ],
+    "formats": [
+      "Protector solar 50 ml",
+      "Sérums 50 ml",
+      "Sérum-tónico 130 ml"
+    ],
+    "exportNote": "Los precios y las condiciones confidenciales no se publican y se solicitan a través de Teranova. Según el proveedor, los tres sérums están registrados en EU CPNP y US MoCRA; la documentación se verifica durante la operación.",
+    "terms": [
+      {
+        "label": "Formato",
+        "value": "Cooperación B2B mayorista para DESERT FREE a través de Teranova."
+      },
+      {
+        "label": "Fabricación",
+        "value": "BEAUTYBLVD indica a Kolmar Korea y Ancors como socios de fabricación."
+      },
+      {
+        "label": "Precios",
+        "value": "Bajo consulta; no se publican tarifa, RRP, MOQ ni condiciones de pago."
+      }
+    ],
+    "consentNote": "Los datos, el logotipo y las imágenes fueron facilitados por BEAUTYBLVD y se publican con autorización escrita del 17 de septiembre de 2026. Las declaraciones proceden de los materiales de la empresa y no son una validación independiente de Teranova.",
+    "seoTitle": "DESERT FREE de BEAUTYBLVD — cuidado coreano Cactide · Teranova",
+    "seoDesc": "Un protector solar y tres sérums Cactide. Suministro mayorista y apoyo a la operación mediante Teranova.",
+    "catalog_notes": [
+      "Protector solar de 50 ml, SPF 50+ PA++++. Los materiales oficiales no declaran CPNP ni MoCRA para este producto.",
+      "Sérum de 50 ml con cactus, ectoína, péptido-12 y escualano derivado de caña de azúcar, según BEAUTYBLVD.",
+      "Sérum-tónico gel de 130 ml con cactus y péptidos de colágeno, según la empresa.",
+      "Sérum de 50 ml con vitamina C, Vita-Peptide y 2 % de niacinamida, según la empresa; no se publica el mes de lanzamiento contradictorio."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Los precios y las condiciones comerciales confidenciales no se publican; las condiciones vigentes se facilitan a través de Teranova.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "EU CPNP y US MoCRA son registros declarados por el proveedor solo para los tres sérums, no aprobaciones regulatorias.",
+    "products_h": "Productos",
+    "products_note": "Fotografías oficiales de los cuatro productos DESERT FREE facilitadas por BEAUTYBLVD."
+  }
+}
