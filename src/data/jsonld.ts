@@ -142,7 +142,7 @@ export function supplierJsonLd(lang: Lang, profile: SupplierProfile) {
       description: `${c.descriptor}. ${c.about[0] ?? ''}`,
       address: { '@type': 'PostalAddress', addressCountry: 'KR' },
       brand: { '@type': 'Brand', name: profile.brand },
-      makesOffer: c.lines.filter((l) => !l.planned).map((l) => ({
+      makesOffer: c.lines.map((l) => ({
         '@type': 'Offer',
         itemOffered: { '@type': 'Product', name: `${profile.brand} ${l.name}`, category: catName, description: l.note },
       })),

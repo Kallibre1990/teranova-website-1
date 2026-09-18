@@ -14,8 +14,6 @@ import BrandField from '../visual/BrandField.astro';
 import LineMark from '../visual/LineMark.astro';
 import { coverProductsForShelf, coverPlan } from '../../data/cutouts';
 import BrandCover from '../visual/BrandCover.astro';
-import oanicLogo from '../../assets/suppliers/oanic/logo.png';
-import oanicHero from '../../assets/suppliers/oanic/hero.jpg';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
 import dreamcosLogo from '../../assets/suppliers/dreamcos-logo.png';
 import sprxLogo from '../../assets/suppliers/sprx-logo.png';
@@ -75,10 +73,9 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { oanic: oanicLogo, sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo };
+const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
-  oanic: { hero: oanicHero, products: oanicHero, drops: oanicHero },
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
   dongdonggurimoo: { hero: ddgHero, products: ddgProducts, drops: ddgDrops },
   'ck-regeon': { hero: ckrHero, products: ckrProducts, drops: ckrDrops },
@@ -212,7 +209,7 @@ function monogram(name: string): string {
 }
 ---
 
-<article class={`sp sp--${voice}`} data-supplier={profile.slug} style={brandStyle}>
+<article class={`sp sp--${voice}`} style={brandStyle}>
   <!-- HERO -->
   <section class="sp-hero">
     <BrandField voice={voice} seed={profile.slug} />
@@ -982,14 +979,4 @@ function monogram(name: string): string {
   .sp-sel__d { display: block; font-size: 0.9rem; line-height: 1.6; color: color-mix(in srgb, var(--ds-deep) 74%, transparent); margin-top: 7px; max-width: 66ch; }
   .sp-sel__ar { flex: none; color: var(--ds-deep); }
   @media (max-width: 620px) { .sp-sel__ar { display: none; } }
-  /* Keep OANIC's introductory text on the smallest phone screen. */
-  @media (max-width: 460px) {
-    .sp[data-supplier="oanic"] .sp-hero { padding-top: 24px; }
-    .sp[data-supplier="oanic"] .sp-logo { margin-bottom: 12px; }
-    .sp[data-supplier="oanic"] .sp-logo :global(img) { height: 30px; max-width: 100%; }
-    .sp[data-supplier="oanic"] .sp-name { font-size: 1.6rem; }
-    .sp[data-supplier="oanic"] .sp-tagline { font-size: .95rem; }
-    .sp[data-supplier="oanic"] .sp-descriptor { font-size: .9rem; }
-    .sp[data-supplier="oanic"] .sp-meta { margin-top: 12px; gap: 6px 12px; }
-  }
 </style>
