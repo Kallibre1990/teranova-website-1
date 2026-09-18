@@ -1,0 +1,89 @@
+{
+  "content": {
+    "tagline": "Un soin centré sur la peau sèche",
+    "descriptor": "Soins hydratants coréens : crème Sahara EXO-PDRN, 70 ml, et future gamme Oatmeal.",
+    "origin": "Corée",
+    "about": [
+      "OANIC GLOBAL CO., LTD. développe des soins pour la peau sèche. La gamme est organisée selon les degrés de sécheresse et les besoins d’hydratation. Sahara est un produit fini ; Oatmeal est encore en préparation pour son lancement."
+    ],
+    "facts": [
+      "Sahara · 70 ml",
+      "Projet soumis à l’approbation d’OANIC"
+    ],
+    "channels": [],
+    "lines": [
+      {
+        "name": "Sahara",
+        "note": "Une crème pour les peaux qui restent sèches et tiraillent après les soins hydratants habituels. Contenance : 70 ml. Dans son courriel du 14 septembre 2026, OANIC confirme que Sahara est prête pour la commercialisation. Les conditions de chaque commande sont convenues séparément."
+      },
+      {
+        "name": "Oatmeal",
+        "planned": true,
+        "note": "Dans son courriel du 3 septembre 2026, OANIC prévoyait pour octobre 2026 trois crèmes de niveau 3 : Deep Moisture, Calming Moisture et Anti-Aging Moisture. Le lancement n’est pas confirmé. Des échantillons en sachet sont disponibles pour les essais. Une manifestation d’intérêt ne vaut ni commande, ni paiement, ni réservation de stock, ni expédition."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Teneurs déclarées en ingrédients",
+        "note": "OANIC indique les teneurs suivantes pour Sahara. Il ne s’agit ni d’une liste INCI complète ni de concentrations en substances actives pures. Les propriétés des ingrédients ne prouvent pas l’efficacité de la crème finie. Cica Exosome 10,000 ppm · 10-Type Hyaluronic Acid 10,000 ppm · Salmon PDRN 1,000 ppm · 5-Ceramide Nanosome 1,000 ppm · 4-EGF Complex 1,000 ppm · Panthenol 1,000 ppm · Niacinamide 20,000 ppm · Adenosine 400 ppm."
+      },
+      {
+        "name": "Résultats rapportés par OANIC",
+        "note": "La proposition B2B d’OANIC rapporte une hausse moyenne de l’hydratation de 110,14% après une application et de 55,28% après 72 heures, et une baisse moyenne de la TEWL de 12,48%. L’indice d’irritation de 0,00 concerne un essai sur 30 personnes à peau sensible. Ces données proviennent de l’entreprise et ne promettent pas de résultat individuel."
+      },
+      {
+        "name": "Informations à confirmer",
+        "note": "Le laboratoire, les protocoles complets, l’effectif des essais d’hydratation, l’INCI complet, le fabricant et l’usine, les certifications et les enregistrements ne sont pas confirmés par les documents fournis. MOQ export, Incoterms, délais et exclusivité restent à confirmer pour chaque demande."
+      }
+    ],
+    "formats": [
+      "Crèmes pour peau sèche"
+    ],
+    "exportNote": "Selon OANIC, Sahara était présente dans 26 pharmacies coréennes en août 2026. Ces informations de l’entreprise sont datées. Les conditions export sont discutées pour le marché concerné via Teranova.",
+    "terms": [
+      {
+        "label": "Sahara — produit fini",
+        "value": "Une crème pour les peaux qui restent sèches et tiraillent après les soins hydratants habituels. Contenance : 70 ml. Dans son courriel du 14 septembre 2026, OANIC confirme que Sahara est prête pour la commercialisation. Les conditions de chaque commande sont convenues séparément."
+      },
+      {
+        "label": "Oatmeal — gamme prévue",
+        "value": "Dans son courriel du 3 septembre 2026, OANIC prévoyait pour octobre 2026 trois crèmes de niveau 3 : Deep Moisture, Calming Moisture et Anti-Aging Moisture. Le lancement n’est pas confirmé. Des échantillons en sachet sont disponibles pour les essais. Une manifestation d’intérêt ne vaut ni commande, ni paiement, ni réservation de stock, ni expédition."
+      },
+      {
+        "label": "Informations à confirmer",
+        "value": "Le laboratoire, les protocoles complets, l’effectif des essais d’hydratation, l’INCI complet, le fabricant et l’usine, les certifications et les enregistrements ne sont pas confirmés par les documents fournis. MOQ export, Incoterms, délais et exclusivité restent à confirmer pour chaque demande."
+      }
+    ],
+    "consentNote": "Le nom, le logo, les images et les descriptions sont utilisés avec l’autorisation écrite d’OANIC du 14 septembre 2026. Cette version est soumise à révision : la publication nécessite l’accord écrit de l’entreprise sur le profil final.",
+    "catalog_notes": [
+      "Une crème pour les peaux qui restent sèches et tiraillent après les soins hydratants habituels. Contenance : 70 ml. Dans son courriel du 14 septembre 2026, OANIC confirme que Sahara est prête pour la commercialisation. Les conditions de chaque commande sont convenues séparément."
+    ],
+    "seoTitle": "OANIC · Un soin centré sur la peau sèche · Teranova",
+    "seoDesc": "Soins hydratants coréens : crème Sahara EXO-PDRN, 70 ml, et future gamme Oatmeal."
+  },
+  "ui": {
+    "profile_sup": "Profil fournisseur",
+    "about_h": "À propos de l'entreprise",
+    "for_whom": "Pour qui :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue de produits",
+    "tech_h": "Résultats rapportés par OANIC",
+    "products_h": "Produits",
+    "products_note": "Une crème pour les peaux qui restent sèches et tiraillent après les soins hydratants habituels. Contenance : 70 ml. Dans son courriel du 14 septembre 2026, OANIC confirme que Sahara est prête pour la commercialisation. Les conditions de chaque commande sont convenues séparément.",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "price_btn": "Télécharger le tarif (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Conditions sur demande via Teranova. Les prix de fourniture ne sont pas divulgués.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Contactez-nous — Teranova organise les négociations, la vérification et l'accompagnement de la transaction, du premier contact jusqu'à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certificats et enregistrements",
+    "certs_note": "Le laboratoire, les protocoles complets, l’effectif des essais d’hydratation, l’INCI complet, le fabricant et l’usine, les certifications et les enregistrements ne sont pas confirmés par les documents fournis. MOQ export, Incoterms, délais et exclusivité restent à confirmer pour chaque demande.",
+    "gallery_note": "Le nom, le logo, les images et les descriptions sont utilisés avec l’autorisation écrite d’OANIC du 14 septembre 2026. Cette version est soumise à révision : la publication nécessite l’accord écrit de l’entreprise sur le profil final."
+  }
+}
