@@ -1,0 +1,92 @@
+{
+  "content": {
+    "tagline": "Four pudding mist ampoules in a 100 g format",
+    "descriptor": "CHAEWUN is a Korean skincare brand of Twelve Global Inc. focused on Pudding Mist Ampoules",
+    "origin": "Republic of Korea",
+    "about": [
+      "The CHAEWUN name is linked to the Korean verb “to fill”. The official brand story presents this as adding what skin needs and bringing a small moment of comfort to a daily routine.",
+      "The official shop lists four 100 g Pudding Mist Ampoules: Collagen PDRN, Cica Cabbage, Vitamin and Hyaluron. Formula, labelling, documents and market-specific claims are verified separately for each project."
+    ],
+    "facts": [
+      "Legal entity: Twelve Global Inc.",
+      "Four confirmed products",
+      "Format: mist ampoule, 100 g",
+      "Documents checked by market and project"
+    ],
+    "channels": [
+      "Beauty importers and distributors",
+      "Retail chains and specialist stores",
+      "Marketplaces and professional partners"
+    ],
+    "lines": [
+      {
+        "name": "Collagen PDRN Pudding Mist Ampoule",
+        "note": "100 g mist ampoule; effects and formula are confirmed against documents for the target market."
+      },
+      {
+        "name": "Cica Cabbage Pudding Mist Ampoule",
+        "note": "100 g mist ampoule; the product name is not treated as proof of effect."
+      },
+      {
+        "name": "Vitamin Pudding Mist Ampoule",
+        "note": "100 g mist ampoule; claims and labelling are checked for the target market."
+      },
+      {
+        "name": "Hyaluron Pudding Mist Ampoule",
+        "note": "100 g mist ampoule; formula and documents are confirmed before a transaction."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "Formula, INCI, tests, certificates, manufacturer, labelling and market-specific claims are confirmed before a transaction. No medical promises or unverified effects are published."
+      }
+    ],
+    "formats": [
+      "Mist ampoule · 100 g",
+      "Four product variants",
+      "B2B supply through Teranova"
+    ],
+    "exportNote": "This profile is for B2B promotion through Teranova. Retail prices, direct contacts, unverified certificates, manufacturing data and confidential commercial terms are not published.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B enquiries and negotiations through Teranova."
+      },
+      {
+        "label": "Range",
+        "value": "Four published products; availability is confirmed against the current enquiry."
+      },
+      {
+        "label": "Price",
+        "value": "On request; no public price list."
+      }
+    ],
+    "consentNote": "Twelve Global Inc. gave Teranova written permission to create and publish a corporate and brand profile for CHAEWUN and product pages on 16 September 2026. Publication does not transfer rights or grant exclusivity.",
+    "seoTitle": "CHAEWUN — Korean Pudding Mist Ampoules for B2B · Teranova",
+    "seoDesc": "CHAEWUN / Twelve Global profile: four 100 g Pudding Mist Ampoules. B2B enquiries through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": "Four products are shown using official CHAEWUN images. Prices and confidential terms are available on request."
+  }
+}

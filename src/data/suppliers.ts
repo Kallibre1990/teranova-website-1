@@ -278,6 +278,19 @@ import veganNatureEs from './suppliers-i18n/vegan-nature.es.json';
 import veganNaturePt from './suppliers-i18n/vegan-nature.pt.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
+import chaewunRu from './suppliers-i18n/chaewun.ru.json';
+import chaewunEn from './suppliers-i18n/chaewun.en.json';
+import chaewunKo from './suppliers-i18n/chaewun.ko.json';
+import chaewunZh from './suppliers-i18n/chaewun.zh.json';
+import chaewunJa from './suppliers-i18n/chaewun.ja.json';
+import chaewunIt from './suppliers-i18n/chaewun.it.json';
+import chaewunDe from './suppliers-i18n/chaewun.de.json';
+import chaewunFr from './suppliers-i18n/chaewun.fr.json';
+import chaewunTr from './suppliers-i18n/chaewun.tr.json';
+import chaewunEs from './suppliers-i18n/chaewun.es.json';
+import chaewunPt from './suppliers-i18n/chaewun.pt.json';
+import chaewunCatalog from './suppliers-i18n/chaewun.catalog.json';
+import chaewunLines from './suppliers-i18n/chaewun.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2361,6 +2374,26 @@ export const suppliers: SupplierProfile[] = [
       ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any),
     },
   },
+  {
+    slug: 'chaewun',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Twelve Global Inc.',
+    brand: 'CHAEWUN',
+    status: 'provided',
+    brandColors: { deep: '#281A18', sky: '#E9B6C7', accent: '#CE6F93', bg: '#FBF5F1' },
+    voice: 'soft',
+    /* Twelve Global Inc. gave written permission on 16.09.2026 for a company
+       and brand profile and product pages based on its official website and
+       materials. Retail prices, direct contacts, confidential terms and
+       unverified formula/certification/manufacturing claims are excluded. */
+    catalog: chaewunCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: { ru: '/docs/chaewun-terms-ru.pdf', en: '/docs/chaewun-terms-en.pdf', ko: '/docs/chaewun-terms-ko.pdf', zh: '/docs/chaewun-terms-zh.pdf', ja: '/docs/chaewun-terms-ja.pdf', it: '/docs/chaewun-terms-it.pdf', de: '/docs/chaewun-terms-de.pdf', fr: '/docs/chaewun-terms-fr.pdf', tr: '/docs/chaewun-terms-tr.pdf', es: '/docs/chaewun-terms-es.pdf', pt: '/docs/chaewun-terms-pt.pdf' },
+    presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any),
+    },
+  },
 ];
 
 /* Dedicated, indexable line pages (SEO): one per important product line. */
@@ -2398,6 +2431,7 @@ export const linePages: SupplierLinePage[] = [
   ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
   ...(desertFreeLines as SupplierLinePage[]),
   ...(veganNatureLines as SupplierLinePage[]),
+  ...(chaewunLines as SupplierLinePage[]),
 ] as SupplierLinePage[];
 /** Lines of one supplier, in catalog order — used to link them from the profile. */
 export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>

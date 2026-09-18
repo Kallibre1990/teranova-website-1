@@ -67,6 +67,10 @@ import veganNatureLogo from '../../assets/suppliers/vegan-nature/logo.jpg';
 import veganNatureHero from '../../assets/suppliers/vegan-nature/hero.jpg';
 import veganNatureProducts from '../../assets/suppliers/vegan-nature/products.jpg';
 import veganNatureDrops from '../../assets/suppliers/vegan-nature/drops.jpg';
+import chaewunLogo from '../../assets/suppliers/chaewun/logo.jpg';
+import chaewunHero from '../../assets/suppliers/chaewun/hero.jpg';
+import chaewunProducts from '../../assets/suppliers/chaewun/products.jpg';
+import chaewunDrops from '../../assets/suppliers/chaewun/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -75,7 +79,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { oanic: oanicLogo, sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo };
+const logos: Record<string, ImageMetadata> = { oanic: oanicLogo, sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo, chaewun: chaewunLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   oanic: { hero: oanicHero, products: oanicHero, drops: oanicHero },
@@ -94,6 +98,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   arming: { hero: armingHero, products: armingProducts, drops: armingDrops },
   themaqueen: { hero: themaqueenHero, products: themaqueenProducts, drops: themaqueenDrops },
   'vegan-nature': { hero: veganNatureHero, products: veganNatureProducts, drops: veganNatureDrops },
+  chaewun: { hero: chaewunHero, products: chaewunProducts, drops: chaewunDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;

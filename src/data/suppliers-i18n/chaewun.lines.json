@@ -1,0 +1,546 @@
+[
+  {
+    "slug": "collagen-pdrn-pudding-mist-ampoule",
+    "supplierSlug": "chaewun",
+    "category": "cosmetics",
+    "lineName": "Collagen PDRN Pudding Mist Ampoule",
+    "items": [
+      {
+        "name": "Collagen PDRN Pudding Mist Ampoule",
+        "img": "/img/suppliers/chaewun/products/collagen-pdrn-pudding-mist-ampoule.jpg",
+        "volume": "100 g"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "По данным официального магазина CHAEWUN: мист-ампула 100 г. Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка.",
+        "tagline": "Мист-ампула CHAEWUN в формате 100 г",
+        "about": [
+          "Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка."
+        ],
+        "itemNotes": [
+          "По данным официального магазина CHAEWUN: мист-ампула 100 г."
+        ]
+      },
+      "en": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "According to the official CHAEWUN shop: 100 g mist ampoule. The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market.",
+        "tagline": "A 100 g CHAEWUN mist ampoule",
+        "about": [
+          "The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to the official CHAEWUN shop: 100 g mist ampoule."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플. CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다.",
+        "tagline": "CHAEWUN 100g 미스트 앰플",
+        "about": [
+          "CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "据CHAEWUN官方商城：100克喷雾安瓶。 CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。",
+        "tagline": "CHAEWUN 100克喷雾安瓶",
+        "about": [
+          "CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。"
+        ],
+        "itemNotes": [
+          "据CHAEWUN官方商城：100克喷雾安瓶。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN公式ショップによると：100gミストアンプル。 CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。",
+        "tagline": "CHAEWUN 100gミストアンプル",
+        "about": [
+          "CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "CHAEWUN公式ショップによると：100gミストアンプル。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g. Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target.",
+        "tagline": "Mist ampoule CHAEWUN da 100 g",
+        "about": [
+          "Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target."
+        ],
+        "itemNotes": [
+          "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g."
+        ]
+      },
+      "de": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g. Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft.",
+        "tagline": "CHAEWUN Mist-Ampulle im 100-g-Format",
+        "about": [
+          "Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g. La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible.",
+        "tagline": "Ampoule brume CHAEWUN de 100 g",
+        "about": [
+          "La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN resmî mağazasına göre: 100 g mist ampul. CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir.",
+        "tagline": "100 g CHAEWUN mist ampul",
+        "about": [
+          "CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir."
+        ],
+        "itemNotes": [
+          "CHAEWUN resmî mağazasına göre: 100 g mist ampul."
+        ]
+      },
+      "es": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g. La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo.",
+        "tagline": "Ampolla bruma CHAEWUN de 100 g",
+        "about": [
+          "La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Collagen PDRN Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g. A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo.",
+        "tagline": "Ampola em bruma CHAEWUN de 100 g",
+        "about": [
+          "A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cica-cabbage-pudding-mist-ampoule",
+    "supplierSlug": "chaewun",
+    "category": "cosmetics",
+    "lineName": "Cica Cabbage Pudding Mist Ampoule",
+    "items": [
+      {
+        "name": "Cica Cabbage Pudding Mist Ampoule",
+        "img": "/img/suppliers/chaewun/products/cica-cabbage-pudding-mist-ampoule.jpg",
+        "volume": "100 g"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "По данным официального магазина CHAEWUN: мист-ампула 100 г. Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка.",
+        "tagline": "Мист-ампула CHAEWUN в формате 100 г",
+        "about": [
+          "Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка."
+        ],
+        "itemNotes": [
+          "По данным официального магазина CHAEWUN: мист-ампула 100 г."
+        ]
+      },
+      "en": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "According to the official CHAEWUN shop: 100 g mist ampoule. The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market.",
+        "tagline": "A 100 g CHAEWUN mist ampoule",
+        "about": [
+          "The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to the official CHAEWUN shop: 100 g mist ampoule."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플. CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다.",
+        "tagline": "CHAEWUN 100g 미스트 앰플",
+        "about": [
+          "CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "据CHAEWUN官方商城：100克喷雾安瓶。 CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。",
+        "tagline": "CHAEWUN 100克喷雾安瓶",
+        "about": [
+          "CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。"
+        ],
+        "itemNotes": [
+          "据CHAEWUN官方商城：100克喷雾安瓶。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN公式ショップによると：100gミストアンプル。 CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。",
+        "tagline": "CHAEWUN 100gミストアンプル",
+        "about": [
+          "CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "CHAEWUN公式ショップによると：100gミストアンプル。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g. Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target.",
+        "tagline": "Mist ampoule CHAEWUN da 100 g",
+        "about": [
+          "Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target."
+        ],
+        "itemNotes": [
+          "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g."
+        ]
+      },
+      "de": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g. Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft.",
+        "tagline": "CHAEWUN Mist-Ampulle im 100-g-Format",
+        "about": [
+          "Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g. La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible.",
+        "tagline": "Ampoule brume CHAEWUN de 100 g",
+        "about": [
+          "La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN resmî mağazasına göre: 100 g mist ampul. CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir.",
+        "tagline": "100 g CHAEWUN mist ampul",
+        "about": [
+          "CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir."
+        ],
+        "itemNotes": [
+          "CHAEWUN resmî mağazasına göre: 100 g mist ampul."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g. La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo.",
+        "tagline": "Ampolla bruma CHAEWUN de 100 g",
+        "about": [
+          "La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cica Cabbage Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g. A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo.",
+        "tagline": "Ampola em bruma CHAEWUN de 100 g",
+        "about": [
+          "A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "vitamin-pudding-mist-ampoule",
+    "supplierSlug": "chaewun",
+    "category": "cosmetics",
+    "lineName": "Vitamin Pudding Mist Ampoule",
+    "items": [
+      {
+        "name": "Vitamin Pudding Mist Ampoule",
+        "img": "/img/suppliers/chaewun/products/vitamin-pudding-mist-ampoule.jpg",
+        "volume": "100 g"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "По данным официального магазина CHAEWUN: мист-ампула 100 г. Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка.",
+        "tagline": "Мист-ампула CHAEWUN в формате 100 г",
+        "about": [
+          "Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка."
+        ],
+        "itemNotes": [
+          "По данным официального магазина CHAEWUN: мист-ампула 100 г."
+        ]
+      },
+      "en": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "According to the official CHAEWUN shop: 100 g mist ampoule. The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market.",
+        "tagline": "A 100 g CHAEWUN mist ampoule",
+        "about": [
+          "The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to the official CHAEWUN shop: 100 g mist ampoule."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플. CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다.",
+        "tagline": "CHAEWUN 100g 미스트 앰플",
+        "about": [
+          "CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "据CHAEWUN官方商城：100克喷雾安瓶。 CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。",
+        "tagline": "CHAEWUN 100克喷雾安瓶",
+        "about": [
+          "CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。"
+        ],
+        "itemNotes": [
+          "据CHAEWUN官方商城：100克喷雾安瓶。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN公式ショップによると：100gミストアンプル。 CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。",
+        "tagline": "CHAEWUN 100gミストアンプル",
+        "about": [
+          "CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "CHAEWUN公式ショップによると：100gミストアンプル。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g. Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target.",
+        "tagline": "Mist ampoule CHAEWUN da 100 g",
+        "about": [
+          "Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target."
+        ],
+        "itemNotes": [
+          "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g."
+        ]
+      },
+      "de": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g. Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft.",
+        "tagline": "CHAEWUN Mist-Ampulle im 100-g-Format",
+        "about": [
+          "Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g. La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible.",
+        "tagline": "Ampoule brume CHAEWUN de 100 g",
+        "about": [
+          "La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN resmî mağazasına göre: 100 g mist ampul. CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir.",
+        "tagline": "100 g CHAEWUN mist ampul",
+        "about": [
+          "CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir."
+        ],
+        "itemNotes": [
+          "CHAEWUN resmî mağazasına göre: 100 g mist ampul."
+        ]
+      },
+      "es": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g. La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo.",
+        "tagline": "Ampolla bruma CHAEWUN de 100 g",
+        "about": [
+          "La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Vitamin Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g. A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo.",
+        "tagline": "Ampola em bruma CHAEWUN de 100 g",
+        "about": [
+          "A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "hyaluron-pudding-mist-ampoule",
+    "supplierSlug": "chaewun",
+    "category": "cosmetics",
+    "lineName": "Hyaluron Pudding Mist Ampoule",
+    "items": [
+      {
+        "name": "Hyaluron Pudding Mist Ampoule",
+        "img": "/img/suppliers/chaewun/products/hyaluron-pudding-mist-ampoule.jpg",
+        "volume": "100 g"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "По данным официального магазина CHAEWUN: мист-ампула 100 г. Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка.",
+        "tagline": "Мист-ампула CHAEWUN в формате 100 г",
+        "about": [
+          "Официальный магазин CHAEWUN подтверждает название продукта и формат 100 г. Состав, маркировка, документы и допустимые заявления проверяются для целевого рынка."
+        ],
+        "itemNotes": [
+          "По данным официального магазина CHAEWUN: мист-ампула 100 г."
+        ]
+      },
+      "en": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "According to the official CHAEWUN shop: 100 g mist ampoule. The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market.",
+        "tagline": "A 100 g CHAEWUN mist ampoule",
+        "about": [
+          "The official CHAEWUN shop confirms the product name and 100 g format. Formula, labelling, documents and permitted claims are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to the official CHAEWUN shop: 100 g mist ampoule."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플. CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다.",
+        "tagline": "CHAEWUN 100g 미스트 앰플",
+        "about": [
+          "CHAEWUN 공식 쇼핑몰은 제품명과 100g 형식을 확인합니다. 성분, 라벨링, 서류와 허용 표현은 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "CHAEWUN 공식 쇼핑몰 기준: 100g 미스트 앰플."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "据CHAEWUN官方商城：100克喷雾安瓶。 CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。",
+        "tagline": "CHAEWUN 100克喷雾安瓶",
+        "about": [
+          "CHAEWUN官方商城确认产品名称和100克规格。配方、标签、文件及可用宣称按目标市场核验。"
+        ],
+        "itemNotes": [
+          "据CHAEWUN官方商城：100克喷雾安瓶。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN公式ショップによると：100gミストアンプル。 CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。",
+        "tagline": "CHAEWUN 100gミストアンプル",
+        "about": [
+          "CHAEWUN公式ショップで製品名と100g仕様を確認しています。処方、表示、書類、使用可能な訴求は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "CHAEWUN公式ショップによると：100gミストアンプル。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g. Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target.",
+        "tagline": "Mist ampoule CHAEWUN da 100 g",
+        "about": [
+          "Lo shop ufficiale CHAEWUN conferma nome e formato da 100 g. Formula, etichettatura, documenti e claim ammessi sono verificati per il mercato target."
+        ],
+        "itemNotes": [
+          "Secondo lo shop ufficiale CHAEWUN: mist ampoule da 100 g."
+        ]
+      },
+      "de": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g. Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft.",
+        "tagline": "CHAEWUN Mist-Ampulle im 100-g-Format",
+        "about": [
+          "Der offizielle CHAEWUN-Shop bestätigt Produktname und 100-g-Format. Rezeptur, Kennzeichnung, Unterlagen und zulässige Claims werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut offiziellem CHAEWUN-Shop: Mist-Ampulle, 100 g."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g. La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible.",
+        "tagline": "Ampoule brume CHAEWUN de 100 g",
+        "about": [
+          "La boutique officielle CHAEWUN confirme le nom et le format 100 g. Formule, étiquetage, documents et allégations admises sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon la boutique officielle CHAEWUN : ampoule brume de 100 g."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "CHAEWUN resmî mağazasına göre: 100 g mist ampul. CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir.",
+        "tagline": "100 g CHAEWUN mist ampul",
+        "about": [
+          "CHAEWUN resmî mağazası ürün adını ve 100 g formatını doğrular. Formül, etiket, belgeler ve izin verilen iddialar hedef pazar için kontrol edilir."
+        ],
+        "itemNotes": [
+          "CHAEWUN resmî mağazasına göre: 100 g mist ampul."
+        ]
+      },
+      "es": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g. La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo.",
+        "tagline": "Ampolla bruma CHAEWUN de 100 g",
+        "about": [
+          "La tienda oficial CHAEWUN confirma el nombre y formato de 100 g. Fórmula, etiquetado, documentos y declaraciones permitidas se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según la tienda oficial CHAEWUN: ampolla bruma de 100 g."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Hyaluron Pudding Mist Ampoule — CHAEWUN · Teranova",
+        "seoDesc": "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g. A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo.",
+        "tagline": "Ampola em bruma CHAEWUN de 100 g",
+        "about": [
+          "A loja oficial CHAEWUN confirma o nome e o formato de 100 g. Fórmula, rotulagem, documentos e alegações permitidas são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo a loja oficial CHAEWUN: ampola em bruma de 100 g."
+        ]
+      }
+    }
+  }
+]

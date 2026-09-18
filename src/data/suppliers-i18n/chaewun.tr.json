@@ -1,0 +1,92 @@
+{
+  "content": {
+    "tagline": "100 g formatında dört pudding mist ampul",
+    "descriptor": "CHAEWUN, Twelve Global Inc. bünyesindeki Pudding Mist Ampoule odaklı Koreli bir cilt bakım markasıdır",
+    "origin": "Kore Cumhuriyeti",
+    "about": [
+      "CHAEWUN adı Korece “doldurmak” fiiliyle bağlantılıdır. Resmî marka hikâyesi bunu cildin ihtiyaç duyduklarını tamamlamak ve günlük rutine küçük bir rahatlık eklemek olarak açıklar.",
+      "Resmî mağazada dört adet 100 g Pudding Mist Ampoule listelenir: Collagen PDRN, Cica Cabbage, Vitamin ve Hyaluron. Formül, etiket, belgeler ve pazara özgü ifadeler her proje için ayrıca doğrulanır."
+    ],
+    "facts": [
+      "Tüzel kişi: Twelve Global Inc.",
+      "Dört doğrulanmış ürün",
+      "Format: mist ampul, 100 g",
+      "Belgeler pazar ve proje bazında kontrol edilir"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Perakende zincirleri ve uzman mağazalar",
+      "Pazaryerleri ve profesyonel ortaklar"
+    ],
+    "lines": [
+      {
+        "name": "Collagen PDRN Pudding Mist Ampoule",
+        "note": "100 g mist ampul; etki ve formül hedef pazar belgeleriyle doğrulanır."
+      },
+      {
+        "name": "Cica Cabbage Pudding Mist Ampoule",
+        "note": "100 g mist ampul; ürün adı etki kanıtı sayılmaz."
+      },
+      {
+        "name": "Vitamin Pudding Mist Ampoule",
+        "note": "100 g mist ampul; iddialar ve etiket pazara göre kontrol edilir."
+      },
+      {
+        "name": "Hyaluron Pudding Mist Ampoule",
+        "note": "100 g mist ampul; formül ve belgeler işlem öncesinde doğrulanır."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Proje bazında doğrulama",
+        "note": "Formül, INCI, testler, sertifikalar, üretici, etiketleme ve pazara özgü iddialar işlem öncesinde doğrulanır. Tıbbi vaatler veya doğrulanmamış etkiler yayımlanmaz."
+      }
+    ],
+    "formats": [
+      "Mist ampul · 100 g",
+      "Dört ürün varyantı",
+      "Teranova üzerinden B2B tedarik"
+    ],
+    "exportNote": "Bu profil Teranova üzerinden B2B tanıtım içindir. Perakende fiyatları, doğrudan tedarikçi iletişimleri, doğrulanmamış sertifikalar, üretim bilgileri ve gizli ticari şartlar yayımlanmaz.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B talepleri ve görüşmeler."
+      },
+      {
+        "label": "Ürün gamı",
+        "value": "Dört yayımlanmış ürün; bulunabilirlik talebe göre doğrulanır."
+      },
+      {
+        "label": "Fiyat",
+        "value": "Talep üzerine; herkese açık fiyat listesi yoktur."
+      }
+    ],
+    "consentNote": "Twelve Global Inc., 16 Eylül 2026 tarihinde Teranova’ya CHAEWUN şirket ve marka profili ile ürün sayfalarını oluşturma ve yayımlama iznini yazılı olarak verdi. Yayın hak devri veya münhasırlık sağlamaz.",
+    "seoTitle": "CHAEWUN — Kore Pudding Mist Ampoule B2B · Teranova",
+    "seoDesc": "CHAEWUN / Twelve Global profili: dört adet 100 g Pudding Mist Ampoule. Teranova üzerinden B2B talepleri."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": "Dört ürün resmî CHAEWUN görselleriyle sunulur. Fiyatlar ve gizli şartlar talep üzerine."
+  }
+}

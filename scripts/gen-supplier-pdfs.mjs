@@ -469,6 +469,16 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* Twelve Global Inc. / CHAEWUN: письменное согласие 16.09.2026 охватывает
+       профиль и product pages. Retail prices, contacts and unverified claims
+       are intentionally excluded. */
+    id: 'chaewun', json: 'chaewun', supplier: 'Twelve Global Inc.', brand: 'CHAEWUN',
+    basis: 'B2B · terms on request', noPrice: true,
+    colors: { deep: '#281A18', sky: '#E9B6C7', bg: '#FBF5F1', line: '#E8D8D4' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
