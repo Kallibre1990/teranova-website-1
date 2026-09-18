@@ -2388,6 +2388,12 @@ export const suppliers: SupplierProfile[] = [
        materials. Retail prices, direct contacts, confidential terms and
        unverified formula/certification/manufacturing claims are excluded. */
     catalog: chaewunCatalog as { line: string; items: { name: string; img: string }[] }[],
+    lineShots: {
+      'Collagen PDRN Pudding Mist Ampoule': '/img/suppliers/chaewun/products/collagen-pdrn-pudding-mist-ampoule.jpg',
+      'Cica Cabbage Pudding Mist Ampoule': '/img/suppliers/chaewun/products/cica-cabbage-pudding-mist-ampoule.jpg',
+      'Vitamin Pudding Mist Ampoule': '/img/suppliers/chaewun/products/vitamin-pudding-mist-ampoule.jpg',
+      'Hyaluron Pudding Mist Ampoule': '/img/suppliers/chaewun/products/hyaluron-pudding-mist-ampoule.jpg',
+    },
     termsFile: { ru: '/docs/chaewun-terms-ru.pdf', en: '/docs/chaewun-terms-en.pdf', ko: '/docs/chaewun-terms-ko.pdf', zh: '/docs/chaewun-terms-zh.pdf', ja: '/docs/chaewun-terms-ja.pdf', it: '/docs/chaewun-terms-it.pdf', de: '/docs/chaewun-terms-de.pdf', fr: '/docs/chaewun-terms-fr.pdf', tr: '/docs/chaewun-terms-tr.pdf', es: '/docs/chaewun-terms-es.pdf', pt: '/docs/chaewun-terms-pt.pdf' },
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
