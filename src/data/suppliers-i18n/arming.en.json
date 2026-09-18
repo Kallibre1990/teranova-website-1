@@ -1,0 +1,100 @@
+{
+  "content": {
+    "tagline": "Korean cosmetics manufacturer and its ARMING brand",
+    "descriptor": "Enveco Cosmetic develops and manufactures hair, skincare and body-care products; ARMING is the company’s own range",
+    "origin": "Republic of Korea",
+    "about": [
+      "Enveco Cosmetic is a Korean cosmetics company. Its official supplier presentation describes formulation development, manufacturing and OEM/ODM cooperation; the scope and suitability of each capability are confirmed for the individual project.",
+      "ARMING is presented as Enveco Cosmetic’s own range for hair, facial and body care. This page uses official images and neutral product names without therapeutic or functional promises."
+    ],
+    "facts": [
+      "Company: Enveco Cosmetic Co., Ltd.",
+      "Own brand: ARMING",
+      "Categories: hair, facial and body care",
+      "Prices and commercial terms on request"
+    ],
+    "channels": [
+      "Cosmetics importers and distributors",
+      "Salons and professional channels",
+      "Retail chains and online stores"
+    ],
+    "lines": [
+      {
+        "name": "Hair Care",
+        "note": "Shampoos, conditioning care and hair oil."
+      },
+      {
+        "name": "Skin Care",
+        "note": "Toner, ampoule and creams for daily skincare."
+      },
+      {
+        "name": "Body Care",
+        "note": "Body-care and personal-care products."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "The company describes formulation work and OEM/ODM in its official presentation. The brief, formula, tests and labelling are agreed separately for each project."
+      }
+    ],
+    "formats": [
+      "Shampoo and treatment",
+      "Toner, ampoule and cream",
+      "Body and personal care"
+    ],
+    "exportNote": "Enveco Cosmetic gave written permission for a separate company and ARMING profile for international B2B partners. Price sheets, MOQ, direct contacts and confidential commercial terms are not published.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B supply and project enquiries through Teranova."
+      },
+      {
+        "label": "Range",
+        "value": "ARMING products and Enveco capabilities are considered against the current brief."
+      },
+      {
+        "label": "Price",
+        "value": "On request; no public price list."
+      }
+    ],
+    "consentNote": "Official Enveco Cosmetic / ARMING materials are published under written permission dated 14 September 2026. Prices, personal contacts, therapeutic claims and unverified certificates are excluded.",
+    "seoTitle": "Enveco Cosmetic / ARMING — Korean cosmetics and OEM/ODM · Teranova",
+    "seoDesc": "Enveco Cosmetic and its ARMING range: Korean hair, facial and body care. B2B enquiries through Teranova.",
+    "catalog_notes": [
+      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
+      "ARMING Deep Care Collagen Shampoo — official supplier image.",
+      "ARMING Deep Care Collagen Treatment — official supplier image.",
+      "ARMING Intensive Hair Argan Oil — official supplier image.",
+      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
+      "ARMING Phyto Exosome Cica Ampoule — official supplier image.",
+      "ARMING Multi Vita Cica Watery Cream — official supplier image.",
+      "ARMING Real Collagen Cica White Cream — official supplier image.",
+      "ARMING Pure Feminine Cleanser — official supplier image.",
+      "ARMING Acne Calming Body Wash — official supplier image."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": "Official images of ten ARMING products from supplier materials."
+  }
+}

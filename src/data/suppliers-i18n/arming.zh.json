@@ -1,0 +1,100 @@
+{
+  "content": {
+    "tagline": "韩国化妆品制造商及其自有品牌 ARMING",
+    "descriptor": "Enveco Cosmetic 开发并生产头发、面部与身体护理产品；ARMING 是公司的自有产品系列",
+    "origin": "Republic of Korea",
+    "about": [
+      "Enveco Cosmetic 是一家韩国化妆品公司。供应商提供的官方公司资料介绍了配方开发、生产与 OEM/ODM 合作；具体能力范围与适用性按项目确认。",
+      "ARMING 被介绍为 Enveco Cosmetic 的自有头发、面部和身体护理系列。本页仅使用官方图片及中性产品名称，不作治疗或功能性功效承诺。"
+    ],
+    "facts": [
+      "公司：Enveco Cosmetic Co., Ltd.",
+      "自有品牌：ARMING",
+      "类别：头发、面部与身体护理",
+      "价格与商务条件需询价"
+    ],
+    "channels": [
+      "化妆品进口商与经销商",
+      "沙龙与专业渠道",
+      "零售连锁及电商"
+    ],
+    "lines": [
+      {
+        "name": "Hair Care",
+        "note": "洗发、护发及护发油产品。"
+      },
+      {
+        "name": "Skin Care",
+        "note": "爽肤水、安瓶与日常面霜。"
+      },
+      {
+        "name": "Body Care",
+        "note": "身体与个人护理产品。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "官方公司资料介绍配方研发与 OEM/ODM。技术要求、配方、测试和标签按项目另行确认。"
+      }
+    ],
+    "formats": [
+      "Shampoo and treatment",
+      "Toner, ampoule and cream",
+      "Body and personal care"
+    ],
+    "exportNote": "Enveco Cosmetic 已书面授权为国际 B2B 合作方制作独立公司及 ARMING 档案。价目表、MOQ、直接联系方式和保密条件不公开。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "通过 Teranova 进行 B2B 供应和项目咨询。"
+      },
+      {
+        "label": "产品范围",
+        "value": "根据当前需求评估 ARMING 产品及 Enveco 能力。"
+      },
+      {
+        "label": "价格",
+        "value": "询价提供；无公开价目表。"
+      }
+    ],
+    "consentNote": "Enveco Cosmetic / ARMING 官方资料依据 2026 年 9 月 14 日书面许可发布。价格、个人联系方式、治疗主张和未经核验的认证均未发布。",
+    "seoTitle": "Enveco Cosmetic / ARMING — 韩国化妆品与 OEM/ODM · Teranova",
+    "seoDesc": "Enveco Cosmetic 与 ARMING：韩国头发、面部及身体护理。B2B 通过 Teranova。",
+    "catalog_notes": [
+      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
+      "ARMING Deep Care Collagen Shampoo — official supplier image.",
+      "ARMING Deep Care Collagen Treatment — official supplier image.",
+      "ARMING Intensive Hair Argan Oil — official supplier image.",
+      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
+      "ARMING Phyto Exosome Cica Ampoule — official supplier image.",
+      "ARMING Multi Vita Cica Watery Cream — official supplier image.",
+      "ARMING Real Collagen Cica White Cream — official supplier image.",
+      "ARMING Pure Feminine Cleanser — official supplier image.",
+      "ARMING Acne Calming Body Wash — official supplier image."
+    ]
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": "供应商资料中的十款 ARMING 产品官方图片。"
+  }
+}

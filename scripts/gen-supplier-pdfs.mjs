@@ -434,6 +434,15 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* Enveco Cosmetic / ARMING: отдельный профиль разрешён письменно 14.09.2026.
+       Прайсы, MOQ, контакты и закрытые условия не публикуются. */
+    id: 'arming', json: 'arming', supplier: 'Enveco Cosmetic Co., Ltd.', brand: 'ARMING',
+    basis: 'B2B · terms on request', noPrice: true,
+    colors: { deep: '#243B36', sky: '#A7BEB2', bg: '#F3F6F3', line: '#D8E2DC' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

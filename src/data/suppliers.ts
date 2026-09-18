@@ -229,6 +229,18 @@ import drPeloTr from './suppliers-i18n/dr-pelo.tr.json';
 import drPeloEs from './suppliers-i18n/dr-pelo.es.json';
 import drPeloPt from './suppliers-i18n/dr-pelo.pt.json';
 import drPeloCatalog from './suppliers-i18n/dr-pelo.catalog.json';
+import armingRu from './suppliers-i18n/arming.ru.json';
+import armingEn from './suppliers-i18n/arming.en.json';
+import armingKo from './suppliers-i18n/arming.ko.json';
+import armingZh from './suppliers-i18n/arming.zh.json';
+import armingJa from './suppliers-i18n/arming.ja.json';
+import armingIt from './suppliers-i18n/arming.it.json';
+import armingDe from './suppliers-i18n/arming.de.json';
+import armingFr from './suppliers-i18n/arming.fr.json';
+import armingTr from './suppliers-i18n/arming.tr.json';
+import armingEs from './suppliers-i18n/arming.es.json';
+import armingPt from './suppliers-i18n/arming.pt.json';
+import armingCatalog from './suppliers-i18n/arming.catalog.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2239,6 +2251,26 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf' },
     i18n: {
       ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any),
+    },
+  },
+  {
+    slug: 'arming',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Enveco Cosmetic Co., Ltd.',
+    brand: 'ARMING',
+    status: 'provided',
+    brandColors: { deep: '#243B36', sky: '#A7BEB2', accent: '#486F63', bg: '#F3F6F3' },
+    voice: 'clinical',
+    /* Письменное согласие от 14.09.2026 охватывает отдельный профиль Enveco
+       Cosmetic / ARMING. Официальный company profile — источник названий и
+       продуктовых изображений; цены, MOQ, прямые контакты, лечебные claims и
+       неподтверждённые сертификаты публично не размещаются. */
+    catalog: armingCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: { ru: '/docs/arming-terms-ru.pdf', en: '/docs/arming-terms-en.pdf', ko: '/docs/arming-terms-ko.pdf', zh: '/docs/arming-terms-zh.pdf', ja: '/docs/arming-terms-ja.pdf', it: '/docs/arming-terms-it.pdf', de: '/docs/arming-terms-de.pdf', fr: '/docs/arming-terms-fr.pdf', tr: '/docs/arming-terms-tr.pdf', es: '/docs/arming-terms-es.pdf', pt: '/docs/arming-terms-pt.pdf' },
+    presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any),
     },
   }
 ];
