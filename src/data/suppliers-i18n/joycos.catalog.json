@@ -45,22 +45,34 @@
       {
         "name": "Honey Bee Mood and Soul Hand Cream",
         "img": "/img/suppliers/joycos/products/honey-bee-mood-and-soul-hand-cream.jpg",
-        "volume": "50 ml"
+        "volume": "50 ml",
+        "certs": [
+          "CPNP (EU) · Sweet Rose"
+        ]
       },
       {
         "name": "Honey Bee Vita Collagen Wash Off Mask",
         "img": "/img/suppliers/joycos/products/honey-bee-vita-collagen-wash-off-mask.jpg",
-        "volume": "120 g"
+        "volume": "120 g",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Collagen Wrinkle Solution Eye Cream",
         "img": "/img/suppliers/joycos/products/honey-bee-collagen-wrinkle-solution-eye-cream.jpg",
-        "volume": "30 ml"
+        "volume": "30 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Royal Solution Serum",
         "img": "/img/suppliers/joycos/products/honey-bee-royal-solution-serum.jpg",
-        "volume": "40 ml"
+        "volume": "40 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Vitamin C Dark Spot Serum",
@@ -70,32 +82,50 @@
       {
         "name": "Honey Bee Venom Perfect Essential Toner",
         "img": "/img/suppliers/joycos/products/honey-bee-venom-perfect-essential-toner.jpg",
-        "volume": "100 ml"
+        "volume": "100 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Venom Hydrogel Eye Mask",
         "img": "/img/suppliers/joycos/products/honey-bee-venom-hydrogel-eye-mask.jpg",
-        "volume": "1.4 g × 60"
+        "volume": "1.4 g × 60",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Venom Multi Solution Cream",
         "img": "/img/suppliers/joycos/products/honey-bee-venom-multi-solution-cream.jpg",
-        "volume": "55 ml"
+        "volume": "55 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Gommage Smoothing Gel",
         "img": "/img/suppliers/joycos/products/honey-bee-gommage-smoothing-gel.jpg",
-        "volume": "100 ml"
+        "volume": "100 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Nutri Cleansing Foam",
         "img": "/img/suppliers/joycos/products/honey-bee-nutri-cleansing-foam.jpg",
-        "volume": "100 ml"
+        "volume": "100 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Honey Mud Pore Tightening Mask",
         "img": "/img/suppliers/joycos/products/honey-bee-honey-mud-pore-tightening-mask.jpg",
-        "volume": "60 ml"
+        "volume": "60 ml",
+        "certs": [
+          "CPNP (EU)"
+        ]
       },
       {
         "name": "Honey Bee Royal Propolis Nutri Sheet Mask",
