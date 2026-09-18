@@ -1,0 +1,102 @@
+{
+  "content": {
+    "tagline": "Susuz kalmış cilt için bakım — kaktüs, peptitler ve sade bir rutin",
+    "descriptor": "Koreli DESERT FREE markasının sahibi BEAUTYBLVD: bir güneş kremi ve üç Cactide serumu",
+    "origin": "Kore",
+    "about": [
+      "BEAUTYBLVD 1 Kasım 2020’de kuruldu ve 8 Mayıs 2024’te piyasaya çıkan DESERT FREE’yi kuru ve susuz kalmış cilt için geliştiriyor.",
+      "Seri dört üründen oluşur. Kolmar Korea ve Ancors şirket tarafından üretim ortakları olarak belirtilir; BEAUTYBLVD’ye ait fabrikalar olarak sunulmaz."
+    ],
+    "facts": [
+      "BEAUTYBLVD 2020 yılında kuruldu",
+      "DESERT FREE 2024 yılında piyasaya çıktı",
+      "Dört Cactide ürünü",
+      "Şirket verisine göre üretim ortakları: Kolmar Korea ve Ancors"
+    ],
+    "channels": [
+      "Cilt bakımı ithalatçıları ve distribütörleri",
+      "Güzellik ve eczane perakendesi",
+      "E-ticaret ve travel retail"
+    ],
+    "lines": [
+      {
+        "name": "Cactide Barrier Sun Cream",
+        "note": "50 ml güneş koruyucu, SPF 50+ PA++++. Resmî materyaller bu ürün için CPNP veya MoCRA kaydı beyan etmez."
+      },
+      {
+        "name": "Cactide Double Repair Serum",
+        "note": "BEAUTYBLVD verisine göre kaktüs, ektoin, peptit-12 ve şeker kamışı kaynaklı skualan içeren 50 ml serum."
+      },
+      {
+        "name": "Cactide Aquagel First Serum",
+        "note": "Şirket verisine göre kaktüs ve kolajen peptitleri içeren 130 ml jel serum-tonik."
+      },
+      {
+        "name": "Cactide Glow C Serum",
+        "note": "Şirket verisine göre C vitamini, Vita-Peptide ve %2 niasinamid içeren 50 ml serum; çelişkili lansman ayı yayımlanmaz."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Cactide",
+        "note": "Ad cactus ve peptide sözcüklerini birleştirir; marka bileşen konseptidir, sertifika değildir."
+      },
+      {
+        "name": "Sade rutin",
+        "note": "Seri güneş bakımı, ilk adım ve hedefli serumlardan oluşur."
+      }
+    ],
+    "formats": [
+      "50 ml güneş koruyucu",
+      "50 ml serumlar",
+      "130 ml serum-tonik"
+    ],
+    "exportNote": "Fiyatlar ve gizli ticari koşullar yayımlanmaz; Teranova üzerinden talep edilir. Tedarikçiye göre üç serum EU CPNP ve US MoCRA kayıtlıdır; belgeler işlem aşamasında doğrulanır.",
+    "terms": [
+      {
+        "label": "Format",
+        "value": "Teranova üzerinden DESERT FREE toptan B2B iş birliği."
+      },
+      {
+        "label": "Üretim",
+        "value": "BEAUTYBLVD, Kolmar Korea ve Ancors’u üretim ortağı olarak belirtir."
+      },
+      {
+        "label": "Fiyatlar",
+        "value": "Talep üzerine; fiyat listesi, RRP, MOQ ve ödeme koşulları yayımlanmaz."
+      }
+    ],
+    "consentNote": "Veriler, logo ve görseller BEAUTYBLVD tarafından sağlanmış ve 17 Eylül 2026 tarihli yazılı izinle yayımlanmıştır. Beyanlar şirket materyallerine dayanır ve Teranova’nın bağımsız onayı değildir.",
+    "seoTitle": "BEAUTYBLVD DESERT FREE — Kore Cactide cilt bakımı · Teranova",
+    "seoDesc": "Bir güneş kremi ve üç Cactide serumu. Teranova üzerinden toptan tedarik ve işlem desteği.",
+    "catalog_notes": [
+      "50 ml güneş koruyucu, SPF 50+ PA++++. Resmî materyaller bu ürün için CPNP veya MoCRA kaydı beyan etmez.",
+      "BEAUTYBLVD verisine göre kaktüs, ektoin, peptit-12 ve şeker kamışı kaynaklı skualan içeren 50 ml serum.",
+      "Şirket verisine göre kaktüs ve kolajen peptitleri içeren 130 ml jel serum-tonik.",
+      "Şirket verisine göre C vitamini, Vita-Peptide ve %2 niasinamid içeren 50 ml serum; çelişkili lansman ayı yayımlanmaz."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Fiyatlar ve gizli ticari koşullar yayımlanmaz; güncel koşullar Teranova üzerinden sağlanır.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "EU CPNP ve US MoCRA yalnızca üç serum için tedarikçi tarafından beyan edilen kayıtlardır; düzenleyici onayı değildir.",
+    "products_h": "Ürünler",
+    "products_note": "BEAUTYBLVD tarafından sağlanan dört DESERT FREE ürününün resmî fotoğrafları."
+  }
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "cactide-barrier-sun-cream",
+    "supplierSlug": "desert-free",
+    "category": "cosmetics",
+    "lineName": "Cactide Barrier Sun Cream",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Barrier Sun Cream",
+        "img": "/img/suppliers/desert-free/products/cactide-barrier-sun-cream.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "SPF 50+",
+          "PA++++"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "По материалам BEAUTYBLVD, формула 50 мл содержит экстракт кактуса и бета-глюкан и имеет лёгкую текстуру, близкую к сыворотке. Для этого продукта поставщик не заявляет регистрацию CPNP или MoCRA.",
+        "tagline": "Солнцезащита SPF 50+ PA++++ с увлажняющим позиционированием",
+        "about": [
+          "По материалам BEAUTYBLVD, формула 50 мл содержит экстракт кактуса и бета-глюкан и имеет лёгкую текстуру, близкую к сыворотке. Для этого продукта поставщик не заявляет регистрацию CPNP или MoCRA."
+        ],
+        "itemNotes": [
+          "Солнцезащитный крем 50 мл, SPF 50+ PA++++. В официальных материалах не заявлены CPNP или MoCRA для этого продукта."
+        ]
+      },
+      "en": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "BEAUTYBLVD materials describe a 50 ml formula with cactus extract and beta-glucan and a light, serum-like texture. The supplier makes no CPNP or MoCRA claim for this product.",
+        "tagline": "SPF 50+ PA++++ sun care positioned for hydration",
+        "about": [
+          "BEAUTYBLVD materials describe a 50 ml formula with cactus extract and beta-glucan and a light, serum-like texture. The supplier makes no CPNP or MoCRA claim for this product."
+        ],
+        "itemNotes": [
+          "50 ml sunscreen, SPF 50+ PA++++. The official materials make no CPNP or MoCRA claim for this product."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "BEAUTYBLVD 자료는 선인장 추출물과 베타글루칸을 사용한 50ml의 가벼운 세럼형 제형으로 설명합니다. 이 제품에는 CPNP 또는 MoCRA 등록 주장이 없습니다.",
+        "tagline": "보습을 지향하는 SPF 50+ PA++++ 선케어",
+        "about": [
+          "BEAUTYBLVD 자료는 선인장 추출물과 베타글루칸을 사용한 50ml의 가벼운 세럼형 제형으로 설명합니다. 이 제품에는 CPNP 또는 MoCRA 등록 주장이 없습니다."
+        ],
+        "itemNotes": [
+          "50ml, SPF 50+ PA++++. 공식 자료에는 이 제품의 CPNP 또는 MoCRA 등록 주장이 없습니다."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "据 BEAUTYBLVD 资料，这款 50 ml 配方含仙人掌提取物与 β-葡聚糖，质地轻盈近似精华。供应商未对本品提出 CPNP 或 MoCRA 注册声明。",
+        "tagline": "主打保湿的 SPF 50+ PA++++ 防晒",
+        "about": [
+          "据 BEAUTYBLVD 资料，这款 50 ml 配方含仙人掌提取物与 β-葡聚糖，质地轻盈近似精华。供应商未对本品提出 CPNP 或 MoCRA 注册声明。"
+        ],
+        "itemNotes": [
+          "50 ml，SPF 50+ PA++++。官方资料未对本产品提出 CPNP 或 MoCRA 注册声明。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "BEAUTYBLVD 資料は、サボテンエキスとβ-グルカンを用いた50mlの軽いセラム状処方と説明します。本品について CPNP／MoCRA 登録の記載はありません。",
+        "tagline": "保湿を訴求する SPF 50+ PA++++ サンケア",
+        "about": [
+          "BEAUTYBLVD 資料は、サボテンエキスとβ-グルカンを用いた50mlの軽いセラム状処方と説明します。本品について CPNP／MoCRA 登録の記載はありません。"
+        ],
+        "itemNotes": [
+          "50ml、SPF 50+ PA++++。公式資料は本品について CPNP／MoCRA 登録を主張していません。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "Secondo i materiali BEAUTYBLVD, la formula da 50 ml contiene estratto di cactus e beta-glucano, con una texture leggera simile a un siero. Il fornitore non dichiara CPNP o MoCRA per questo prodotto.",
+        "tagline": "Protezione SPF 50+ PA++++ con posizionamento idratante",
+        "about": [
+          "Secondo i materiali BEAUTYBLVD, la formula da 50 ml contiene estratto di cactus e beta-glucano, con una texture leggera simile a un siero. Il fornitore non dichiara CPNP o MoCRA per questo prodotto."
+        ],
+        "itemNotes": [
+          "Protezione solare 50 ml, SPF 50+ PA++++. I materiali ufficiali non dichiarano registrazioni CPNP o MoCRA per questo prodotto."
+        ]
+      },
+      "de": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "Laut BEAUTYBLVD enthält die 50-ml-Formel Kaktusextrakt und Beta-Glucan und besitzt eine leichte, serumähnliche Textur. Für dieses Produkt nennt der Anbieter weder CPNP noch MoCRA.",
+        "tagline": "SPF 50+ PA++++ Sonnenschutz mit Feuchtigkeitspositionierung",
+        "about": [
+          "Laut BEAUTYBLVD enthält die 50-ml-Formel Kaktusextrakt und Beta-Glucan und besitzt eine leichte, serumähnliche Textur. Für dieses Produkt nennt der Anbieter weder CPNP noch MoCRA."
+        ],
+        "itemNotes": [
+          "50-ml-Sonnenschutz, SPF 50+ PA++++. Die offiziellen Unterlagen nennen für dieses Produkt weder CPNP noch MoCRA."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "Selon les documents BEAUTYBLVD, la formule de 50 ml contient de l’extrait de cactus et du bêta-glucane, avec une texture légère proche d’un sérum. Le fournisseur ne revendique ni CPNP ni MoCRA pour ce produit.",
+        "tagline": "Protection SPF 50+ PA++++ au positionnement hydratant",
+        "about": [
+          "Selon les documents BEAUTYBLVD, la formule de 50 ml contient de l’extrait de cactus et du bêta-glucane, avec une texture légère proche d’un sérum. Le fournisseur ne revendique ni CPNP ni MoCRA pour ce produit."
+        ],
+        "itemNotes": [
+          "Protection solaire 50 ml, SPF 50+ PA++++. Les documents officiels ne revendiquent ni CPNP ni MoCRA pour ce produit."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "BEAUTYBLVD materyalleri 50 ml formülü kaktüs özü ve beta-glukan içeren, hafif serum benzeri bir doku olarak tanımlar. Tedarikçi bu ürün için CPNP veya MoCRA kaydı beyan etmez.",
+        "tagline": "Nemlendirme odaklı SPF 50+ PA++++ güneş bakımı",
+        "about": [
+          "BEAUTYBLVD materyalleri 50 ml formülü kaktüs özü ve beta-glukan içeren, hafif serum benzeri bir doku olarak tanımlar. Tedarikçi bu ürün için CPNP veya MoCRA kaydı beyan etmez."
+        ],
+        "itemNotes": [
+          "50 ml güneş koruyucu, SPF 50+ PA++++. Resmî materyaller bu ürün için CPNP veya MoCRA kaydı beyan etmez."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "Según los materiales de BEAUTYBLVD, la fórmula de 50 ml contiene extracto de cactus y beta-glucano y tiene una textura ligera similar a un sérum. El proveedor no declara CPNP ni MoCRA para este producto.",
+        "tagline": "Protección SPF 50+ PA++++ con posicionamiento hidratante",
+        "about": [
+          "Según los materiales de BEAUTYBLVD, la fórmula de 50 ml contiene extracto de cactus y beta-glucano y tiene una textura ligera similar a un sérum. El proveedor no declara CPNP ni MoCRA para este producto."
+        ],
+        "itemNotes": [
+          "Protector solar de 50 ml, SPF 50+ PA++++. Los materiales oficiales no declaran CPNP ni MoCRA para este producto."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cactide Barrier Sun Cream — DESERT FREE · Teranova",
+        "seoDesc": "Segundo os materiais da BEAUTYBLVD, a fórmula de 50 ml contém extrato de cato e beta-glucano, com textura leve semelhante a um sérum. O fornecedor não declara CPNP ou MoCRA para este produto.",
+        "tagline": "Proteção SPF 50+ PA++++ com posicionamento hidratante",
+        "about": [
+          "Segundo os materiais da BEAUTYBLVD, a fórmula de 50 ml contém extrato de cato e beta-glucano, com textura leve semelhante a um sérum. O fornecedor não declara CPNP ou MoCRA para este produto."
+        ],
+        "itemNotes": [
+          "Protetor solar de 50 ml, SPF 50+ PA++++. Os materiais oficiais não declaram CPNP ou MoCRA para este produto."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cactide-double-repair-serum",
+    "supplierSlug": "desert-free",
+    "category": "cosmetics",
+    "lineName": "Cactide Double Repair Serum",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Double Repair Serum",
+        "img": "/img/suppliers/desert-free/products/cactide-double-repair-serum.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "EU CPNP · supplier data",
+          "US MoCRA · supplier data"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "По данным компании, формула также включает ферментированный сквалан из сахарного тростника. BEAUTYBLVD указывает EU CPNP и US MoCRA; это регистрационные сведения поставщика, не одобрение регулятора.",
+        "tagline": "Сыворотка 50 мл с кактусом, эктоином и пептидом-12",
+        "about": [
+          "По данным компании, формула также включает ферментированный сквалан из сахарного тростника. BEAUTYBLVD указывает EU CPNP и US MoCRA; это регистрационные сведения поставщика, не одобрение регулятора."
+        ],
+        "itemNotes": [
+          "Сыворотка 50 мл с кактусом, эктоином, пептидом-12 и скваланом из сахарного тростника — по данным BEAUTYBLVD."
+        ]
+      },
+      "en": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "Per the company, the formula also uses fermented sugarcane-derived squalane. BEAUTYBLVD states EU CPNP and US MoCRA registration; these are supplier registration statements, not regulator approval.",
+        "tagline": "50 ml serum with cactus, ectoin and peptide-12",
+        "about": [
+          "Per the company, the formula also uses fermented sugarcane-derived squalane. BEAUTYBLVD states EU CPNP and US MoCRA registration; these are supplier registration statements, not regulator approval."
+        ],
+        "itemNotes": [
+          "50 ml serum with cactus, ectoin, peptide-12 and sugarcane-derived squalane, per BEAUTYBLVD."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "회사 자료상 사탕수수 유래 발효 스쿠알란도 포함합니다. EU CPNP 및 US MoCRA는 공급사가 밝힌 등록 정보이며 규제기관 승인과 다릅니다.",
+        "tagline": "선인장, 엑토인, 펩타이드-12의 50ml 세럼",
+        "about": [
+          "회사 자료상 사탕수수 유래 발효 스쿠알란도 포함합니다. EU CPNP 및 US MoCRA는 공급사가 밝힌 등록 정보이며 규제기관 승인과 다릅니다."
+        ],
+        "itemNotes": [
+          "선인장, 엑토인, 펩타이드-12, 사탕수수 유래 스쿠알란을 사용한 50ml 세럼 — 회사 자료 기준."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "据公司资料，配方还采用甘蔗来源发酵角鲨烷。EU CPNP 与 US MoCRA 为供应商所述注册，并非监管批准。",
+        "tagline": "含仙人掌、依克多因与肽-12的 50 ml 精华",
+        "about": [
+          "据公司资料，配方还采用甘蔗来源发酵角鲨烷。EU CPNP 与 US MoCRA 为供应商所述注册，并非监管批准。"
+        ],
+        "itemNotes": [
+          "50 ml 精华；据 BEAUTYBLVD 资料含仙人掌、依克多因、肽-12 与甘蔗来源角鲨烷。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "会社資料ではサトウキビ由来発酵スクワランも使用。EU CPNP／US MoCRA は供給元が示す登録で、規制当局の承認ではありません。",
+        "tagline": "サボテン、エクトイン、ペプチド12の50mlセラム",
+        "about": [
+          "会社資料ではサトウキビ由来発酵スクワランも使用。EU CPNP／US MoCRA は供給元が示す登録で、規制当局の承認ではありません。"
+        ],
+        "itemNotes": [
+          "サボテン、エクトイン、ペプチド12、サトウキビ由来スクワラン配合の50mlセラム（会社資料による）。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "La formula include anche squalano fermentato da canna da zucchero, secondo la società. EU CPNP e US MoCRA sono registrazioni dichiarate dal fornitore, non approvazioni regolatorie.",
+        "tagline": "Siero da 50 ml con cactus, ectoina e peptide-12",
+        "about": [
+          "La formula include anche squalano fermentato da canna da zucchero, secondo la società. EU CPNP e US MoCRA sono registrazioni dichiarate dal fornitore, non approvazioni regolatorie."
+        ],
+        "itemNotes": [
+          "Siero 50 ml con cactus, ectoina, peptide-12 e squalano da canna da zucchero, secondo BEAUTYBLVD."
+        ]
+      },
+      "de": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "Nach Unternehmensangaben enthält die Formel außerdem fermentiertes, aus Zuckerrohr gewonnenes Squalan. EU CPNP und US MoCRA sind Anbieterangaben zur Registrierung, keine behördliche Zulassung.",
+        "tagline": "50-ml-Serum mit Kaktus, Ectoin und Peptid-12",
+        "about": [
+          "Nach Unternehmensangaben enthält die Formel außerdem fermentiertes, aus Zuckerrohr gewonnenes Squalan. EU CPNP und US MoCRA sind Anbieterangaben zur Registrierung, keine behördliche Zulassung."
+        ],
+        "itemNotes": [
+          "50-ml-Serum mit Kaktus, Ectoin, Peptid-12 und aus Zuckerrohr gewonnenem Squalan, laut BEAUTYBLVD."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "Selon la société, la formule contient aussi du squalane fermenté issu de canne à sucre. EU CPNP et US MoCRA sont des enregistrements déclarés par le fournisseur, pas une approbation réglementaire.",
+        "tagline": "Sérum 50 ml au cactus, à l’ectoïne et au peptide-12",
+        "about": [
+          "Selon la société, la formule contient aussi du squalane fermenté issu de canne à sucre. EU CPNP et US MoCRA sont des enregistrements déclarés par le fournisseur, pas une approbation réglementaire."
+        ],
+        "itemNotes": [
+          "Sérum 50 ml au cactus, à l’ectoïne, au peptide-12 et au squalane issu de canne à sucre, selon BEAUTYBLVD."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "Şirkete göre formülde şeker kamışından fermente skualan da bulunur. EU CPNP ve US MoCRA tedarikçi kayıt beyanlarıdır; düzenleyici onayı değildir.",
+        "tagline": "Kaktüs, ektoin ve peptit-12 içeren 50 ml serum",
+        "about": [
+          "Şirkete göre formülde şeker kamışından fermente skualan da bulunur. EU CPNP ve US MoCRA tedarikçi kayıt beyanlarıdır; düzenleyici onayı değildir."
+        ],
+        "itemNotes": [
+          "BEAUTYBLVD verisine göre kaktüs, ektoin, peptit-12 ve şeker kamışı kaynaklı skualan içeren 50 ml serum."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "Según la empresa, también incorpora escualano fermentado derivado de caña de azúcar. EU CPNP y US MoCRA son registros declarados por el proveedor, no una aprobación regulatoria.",
+        "tagline": "Sérum de 50 ml con cactus, ectoína y péptido-12",
+        "about": [
+          "Según la empresa, también incorpora escualano fermentado derivado de caña de azúcar. EU CPNP y US MoCRA son registros declarados por el proveedor, no una aprobación regulatoria."
+        ],
+        "itemNotes": [
+          "Sérum de 50 ml con cactus, ectoína, péptido-12 y escualano derivado de caña de azúcar, según BEAUTYBLVD."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cactide Double Repair Serum — DESERT FREE · Teranova",
+        "seoDesc": "Segundo a empresa, inclui também esqualano fermentado derivado de cana-de-açúcar. EU CPNP e US MoCRA são registos declarados pelo fornecedor, não aprovação regulatória.",
+        "tagline": "Sérum de 50 ml com cato, ectoína e péptido-12",
+        "about": [
+          "Segundo a empresa, inclui também esqualano fermentado derivado de cana-de-açúcar. EU CPNP e US MoCRA são registos declarados pelo fornecedor, não aprovação regulatória."
+        ],
+        "itemNotes": [
+          "Sérum de 50 ml com cato, ectoína, péptido-12 e esqualano derivado de cana-de-açúcar, segundo a BEAUTYBLVD."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cactide-aquagel-first-serum",
+    "supplierSlug": "desert-free",
+    "category": "cosmetics",
+    "lineName": "Cactide Aquagel First Serum",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Aquagel First Serum",
+        "img": "/img/suppliers/desert-free/products/cactide-aquagel-first-serum.jpg",
+        "volume": "130 ml",
+        "certs": [
+          "EU CPNP · supplier data",
+          "US MoCRA · supplier data"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "Материалы BEAUTYBLVD описывают кактус и коллагеновые пептиды и формат, совмещающий тонер и увлажняющую эссенцию. Компания указывает EU CPNP и US MoCRA; документы проверяются на стадии сделки.",
+        "tagline": "Желейная сыворотка-тонер 130 мл для первого шага ухода",
+        "about": [
+          "Материалы BEAUTYBLVD описывают кактус и коллагеновые пептиды и формат, совмещающий тонер и увлажняющую эссенцию. Компания указывает EU CPNP и US MoCRA; документы проверяются на стадии сделки."
+        ],
+        "itemNotes": [
+          "Сыворотка-тонер 130 мл с желейной текстурой, кактусом и коллагеновыми пептидами — по данным компании."
+        ]
+      },
+      "en": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "BEAUTYBLVD materials describe cactus, collagen peptides and a toner-plus-moisture-essence format. The company states EU CPNP and US MoCRA registration; supporting documents are checked at the deal stage.",
+        "tagline": "130 ml jelly serum-toner for the first skincare step",
+        "about": [
+          "BEAUTYBLVD materials describe cactus, collagen peptides and a toner-plus-moisture-essence format. The company states EU CPNP and US MoCRA registration; supporting documents are checked at the deal stage."
+        ],
+        "itemNotes": [
+          "130 ml jelly-texture first serum-toner with cactus and collagen peptides, per the company."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "회사 자료는 선인장, 콜라겐 펩타이드와 토너·수분 에센스 결합 포맷을 설명합니다. EU CPNP 및 US MoCRA 자료는 거래 단계에서 확인합니다.",
+        "tagline": "첫 단계용 130ml 젤리 세럼 토너",
+        "about": [
+          "회사 자료는 선인장, 콜라겐 펩타이드와 토너·수분 에센스 결합 포맷을 설명합니다. EU CPNP 및 US MoCRA 자료는 거래 단계에서 확인합니다."
+        ],
+        "itemNotes": [
+          "선인장과 콜라겐 펩타이드를 담은 젤리 제형 130ml 퍼스트 세럼 토너 — 회사 자료 기준."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "公司资料描述仙人掌、胶原肽及化妆水与保湿精华合一的形式。EU CPNP 与 US MoCRA 文件在交易阶段核验。",
+        "tagline": "用于第一步护理的 130 ml 果冻精华化妆水",
+        "about": [
+          "公司资料描述仙人掌、胶原肽及化妆水与保湿精华合一的形式。EU CPNP 与 US MoCRA 文件在交易阶段核验。"
+        ],
+        "itemNotes": [
+          "130 ml 果冻质地第一步精华化妆水；据公司资料含仙人掌与胶原肽。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "会社資料はサボテン、コラーゲンペプチド、化粧水と保湿エッセンスを兼ねる形式を説明します。登録書類は取引段階で確認します。",
+        "tagline": "最初のステップに使う130mlジェリーセラムトナー",
+        "about": [
+          "会社資料はサボテン、コラーゲンペプチド、化粧水と保湿エッセンスを兼ねる形式を説明します。登録書類は取引段階で確認します。"
+        ],
+        "itemNotes": [
+          "サボテンとコラーゲンペプチドを用いたジェリー質感の130mlファーストセラムトナー（会社資料による）。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "I materiali descrivono cactus, peptidi di collagene e un formato che unisce tonico ed essenza idratante. I documenti EU CPNP e US MoCRA vengono verificati nella fase della trattativa.",
+        "tagline": "Siero-tonico gel da 130 ml per il primo step",
+        "about": [
+          "I materiali descrivono cactus, peptidi di collagene e un formato che unisce tonico ed essenza idratante. I documenti EU CPNP e US MoCRA vengono verificati nella fase della trattativa."
+        ],
+        "itemNotes": [
+          "Siero-tonico gel 130 ml con cactus e peptidi di collagene, secondo la società."
+        ]
+      },
+      "de": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "Die Unterlagen beschreiben Kaktus, Kollagenpeptide und ein Toner-plus-Feuchtigkeitsessenz-Format. Nachweise zu EU CPNP und US MoCRA werden im Geschäft geprüft.",
+        "tagline": "130-ml-Gel-Serum-Toner als erster Pflegeschritt",
+        "about": [
+          "Die Unterlagen beschreiben Kaktus, Kollagenpeptide und ein Toner-plus-Feuchtigkeitsessenz-Format. Nachweise zu EU CPNP und US MoCRA werden im Geschäft geprüft."
+        ],
+        "itemNotes": [
+          "130-ml-Gel-Serum-Toner mit Kaktus und Kollagenpeptiden, laut Unternehmen."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "Les documents décrivent du cactus, des peptides de collagène et un format réunissant tonique et essence hydratante. Les justificatifs EU CPNP et US MoCRA sont vérifiés au stade de la transaction.",
+        "tagline": "Sérum-tonique gélifié 130 ml pour la première étape",
+        "about": [
+          "Les documents décrivent du cactus, des peptides de collagène et un format réunissant tonique et essence hydratante. Les justificatifs EU CPNP et US MoCRA sont vérifiés au stade de la transaction."
+        ],
+        "itemNotes": [
+          "Sérum-tonique gélifié 130 ml au cactus et aux peptides de collagène, selon la société."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "Şirket materyalleri kaktüs, kolajen peptitleri ve tonik ile nem esansını birleştiren formatı açıklar. EU CPNP ve US MoCRA belgeleri işlem aşamasında doğrulanır.",
+        "tagline": "İlk bakım adımı için 130 ml jel serum-tonik",
+        "about": [
+          "Şirket materyalleri kaktüs, kolajen peptitleri ve tonik ile nem esansını birleştiren formatı açıklar. EU CPNP ve US MoCRA belgeleri işlem aşamasında doğrulanır."
+        ],
+        "itemNotes": [
+          "Şirket verisine göre kaktüs ve kolajen peptitleri içeren 130 ml jel serum-tonik."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "Los materiales describen cactus, péptidos de colágeno y un formato que combina tónico y esencia hidratante. Los documentos EU CPNP y US MoCRA se verifican durante la operación.",
+        "tagline": "Sérum-tónico gel de 130 ml para el primer paso",
+        "about": [
+          "Los materiales describen cactus, péptidos de colágeno y un formato que combina tónico y esencia hidratante. Los documentos EU CPNP y US MoCRA se verifican durante la operación."
+        ],
+        "itemNotes": [
+          "Sérum-tónico gel de 130 ml con cactus y péptidos de colágeno, según la empresa."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cactide Aquagel First Serum — DESERT FREE · Teranova",
+        "seoDesc": "Os materiais descrevem cato, péptidos de colagénio e um formato que combina tónico e essência hidratante. Os documentos EU CPNP e US MoCRA são verificados na fase do negócio.",
+        "tagline": "Sérum-tónico em gel de 130 ml para o primeiro passo",
+        "about": [
+          "Os materiais descrevem cato, péptidos de colagénio e um formato que combina tónico e essência hidratante. Os documentos EU CPNP e US MoCRA são verificados na fase do negócio."
+        ],
+        "itemNotes": [
+          "Sérum-tónico em gel de 130 ml com cato e péptidos de colagénio, segundo a empresa."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "cactide-glow-c-serum",
+    "supplierSlug": "desert-free",
+    "category": "cosmetics",
+    "lineName": "Cactide Glow C Serum",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Glow C Serum",
+        "img": "/img/suppliers/desert-free/products/cactide-glow-c-serum.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "EU CPNP · supplier data",
+          "US MoCRA · supplier data"
+        ]
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "По данным BEAUTYBLVD, формула также содержит Vita-Peptide, глицерин и сквалан. Компания указывает EU CPNP и US MoCRA. Месяц запуска не публикуется из-за расхождения официальных источников.",
+        "tagline": "Сыворотка 50 мл с витамином C и 2% ниацинамида",
+        "about": [
+          "По данным BEAUTYBLVD, формула также содержит Vita-Peptide, глицерин и сквалан. Компания указывает EU CPNP и US MoCRA. Месяц запуска не публикуется из-за расхождения официальных источников."
+        ],
+        "itemNotes": [
+          "Сыворотка 50 мл с витамином C, Vita-Peptide и 2% ниацинамида — по данным компании; спорную дату запуска не публикуем."
+        ]
+      },
+      "en": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "Per BEAUTYBLVD, the formula also includes Vita-Peptide, glycerin and squalane. The company states EU CPNP and US MoCRA registration. The launch month is omitted because official sources conflict.",
+        "tagline": "50 ml serum with vitamin C and 2% niacinamide",
+        "about": [
+          "Per BEAUTYBLVD, the formula also includes Vita-Peptide, glycerin and squalane. The company states EU CPNP and US MoCRA registration. The launch month is omitted because official sources conflict."
+        ],
+        "itemNotes": [
+          "50 ml serum with vitamin C, Vita-Peptide and 2% niacinamide, per the company; the conflicting launch month is omitted."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "회사 자료상 Vita-Peptide, 글리세린, 스쿠알란도 포함합니다. EU CPNP 및 US MoCRA 등록은 공급사 정보입니다. 공식 자료가 달라 출시 월은 공개하지 않습니다.",
+        "tagline": "비타민 C와 나이아신아마이드 2%의 50ml 세럼",
+        "about": [
+          "회사 자료상 Vita-Peptide, 글리세린, 스쿠알란도 포함합니다. EU CPNP 및 US MoCRA 등록은 공급사 정보입니다. 공식 자료가 달라 출시 월은 공개하지 않습니다."
+        ],
+        "itemNotes": [
+          "비타민 C, Vita-Peptide, 나이아신아마이드 2%를 담은 50ml 세럼 — 회사 자료 기준; 자료 간 출시 월 불일치는 공개하지 않습니다."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "据公司资料还含 Vita-Peptide、甘油与角鲨烷，并称已完成 EU CPNP 与 US MoCRA 注册。因官方资料冲突，不发布上市月份。",
+        "tagline": "含维生素 C 与 2% 烟酰胺的 50 ml 精华",
+        "about": [
+          "据公司资料还含 Vita-Peptide、甘油与角鲨烷，并称已完成 EU CPNP 与 US MoCRA 注册。因官方资料冲突，不发布上市月份。"
+        ],
+        "itemNotes": [
+          "50 ml 精华；据公司资料含维生素 C、Vita-Peptide 与 2% 烟酰胺；资料冲突的上市月份不予发布。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "会社資料では Vita-Peptide、グリセリン、スクワランも配合。EU CPNP／US MoCRA は供給元情報です。公式資料が食い違う発売月は掲載しません。",
+        "tagline": "ビタミンCと2%ナイアシンアミドの50mlセラム",
+        "about": [
+          "会社資料では Vita-Peptide、グリセリン、スクワランも配合。EU CPNP／US MoCRA は供給元情報です。公式資料が食い違う発売月は掲載しません。"
+        ],
+        "itemNotes": [
+          "ビタミンC、Vita-Peptide、2%ナイアシンアミド配合の50mlセラム（会社資料による）。発売月の資料不一致は掲載しません。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "Secondo BEAUTYBLVD contiene anche Vita-Peptide, glicerina e squalano. La società indica EU CPNP e US MoCRA. Il mese di lancio non è pubblicato perché le fonti ufficiali divergono.",
+        "tagline": "Siero da 50 ml con vitamina C e niacinamide al 2%",
+        "about": [
+          "Secondo BEAUTYBLVD contiene anche Vita-Peptide, glicerina e squalano. La società indica EU CPNP e US MoCRA. Il mese di lancio non è pubblicato perché le fonti ufficiali divergono."
+        ],
+        "itemNotes": [
+          "Siero 50 ml con vitamina C, Vita-Peptide e niacinamide al 2%, secondo la società; il mese di lancio discordante non viene pubblicato."
+        ]
+      },
+      "de": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "Laut BEAUTYBLVD enthält es außerdem Vita-Peptide, Glycerin und Squalan. Das Unternehmen nennt EU CPNP und US MoCRA. Der Einführungsmonat bleibt wegen widersprüchlicher offizieller Quellen ungenannt.",
+        "tagline": "50-ml-Serum mit Vitamin C und 2 % Niacinamid",
+        "about": [
+          "Laut BEAUTYBLVD enthält es außerdem Vita-Peptide, Glycerin und Squalan. Das Unternehmen nennt EU CPNP und US MoCRA. Der Einführungsmonat bleibt wegen widersprüchlicher offizieller Quellen ungenannt."
+        ],
+        "itemNotes": [
+          "50-ml-Serum mit Vitamin C, Vita-Peptide und 2 % Niacinamid, laut Unternehmen; der widersprüchliche Einführungsmonat wird nicht veröffentlicht."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "Selon BEAUTYBLVD, il contient aussi Vita-Peptide, glycérine et squalane. La société indique EU CPNP et US MoCRA. Le mois de lancement est omis car les sources officielles divergent.",
+        "tagline": "Sérum 50 ml à la vitamine C et 2 % de niacinamide",
+        "about": [
+          "Selon BEAUTYBLVD, il contient aussi Vita-Peptide, glycérine et squalane. La société indique EU CPNP et US MoCRA. Le mois de lancement est omis car les sources officielles divergent."
+        ],
+        "itemNotes": [
+          "Sérum 50 ml à la vitamine C, Vita-Peptide et 2 % de niacinamide, selon la société ; le mois de lancement contradictoire n’est pas publié."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "BEAUTYBLVD’ye göre Vita-Peptide, gliserin ve skualan da içerir. Şirket EU CPNP ve US MoCRA kaydı belirtir. Resmi kaynaklar çeliştiği için lansman ayı yayımlanmaz.",
+        "tagline": "C vitamini ve %2 niasinamid içeren 50 ml serum",
+        "about": [
+          "BEAUTYBLVD’ye göre Vita-Peptide, gliserin ve skualan da içerir. Şirket EU CPNP ve US MoCRA kaydı belirtir. Resmi kaynaklar çeliştiği için lansman ayı yayımlanmaz."
+        ],
+        "itemNotes": [
+          "Şirket verisine göre C vitamini, Vita-Peptide ve %2 niasinamid içeren 50 ml serum; çelişkili lansman ayı yayımlanmaz."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "Según BEAUTYBLVD, también incluye Vita-Peptide, glicerina y escualano. La empresa declara EU CPNP y US MoCRA. El mes de lanzamiento se omite porque las fuentes oficiales difieren.",
+        "tagline": "Sérum de 50 ml con vitamina C y 2 % de niacinamida",
+        "about": [
+          "Según BEAUTYBLVD, también incluye Vita-Peptide, glicerina y escualano. La empresa declara EU CPNP y US MoCRA. El mes de lanzamiento se omite porque las fuentes oficiales difieren."
+        ],
+        "itemNotes": [
+          "Sérum de 50 ml con vitamina C, Vita-Peptide y 2 % de niacinamida, según la empresa; no se publica el mes de lanzamiento contradictorio."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cactide Glow C Serum — DESERT FREE · Teranova",
+        "seoDesc": "Segundo a BEAUTYBLVD, contém também Vita-Peptide, glicerina e esqualano. A empresa indica EU CPNP e US MoCRA. O mês de lançamento é omitido porque as fontes oficiais divergem.",
+        "tagline": "Sérum de 50 ml com vitamina C e 2% de niacinamida",
+        "about": [
+          "Segundo a BEAUTYBLVD, contém também Vita-Peptide, glicerina e esqualano. A empresa indica EU CPNP e US MoCRA. O mês de lançamento é omitido porque as fontes oficiais divergem."
+        ],
+        "itemNotes": [
+          "Sérum de 50 ml com vitamina C, Vita-Peptide e 2% de niacinamida, segundo a empresa; o mês de lançamento divergente não é publicado."
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "content": {
+    "tagline": "건조 피부를 위한 케어 — 선인장, 펩타이드, 간결한 레이어링 루틴",
+    "descriptor": "한국 스킨케어 브랜드 DESERT FREE의 운영사 BEAUTYBLVD: 선크림 1종과 Cactide 세럼 3종",
+    "origin": "대한민국",
+    "about": [
+      "BEAUTYBLVD는 2020년 11월 1일 설립되었으며, 2024년 5월 8일 출시한 DESERT FREE를 건조하고 수분이 부족한 피부를 위한 브랜드로 전개합니다.",
+      "Cactide 라인은 Barrier Sun Cream, Double Repair Serum, Aquagel First Serum, Glow C Serum으로 구성됩니다. 회사 소개서는 Kolmar Korea와 Ancors를 제조 파트너로 명시하며, BEAUTYBLVD의 자체 공장으로 표현하지 않습니다."
+    ],
+    "facts": [
+      "2020년 설립",
+      "2024년 DESERT FREE 출시",
+      "Cactide 제품 4종",
+      "회사 자료상 제조 파트너: Kolmar Korea, Ancors"
+    ],
+    "channels": [
+      "스킨케어 수입·유통사",
+      "뷰티 및 약국 유통",
+      "이커머스와 트래블 리테일"
+    ],
+    "lines": [
+      {
+        "name": "Cactide Barrier Sun Cream",
+        "note": "50ml, SPF 50+ PA++++. 공식 자료에는 이 제품의 CPNP 또는 MoCRA 등록 주장이 없습니다."
+      },
+      {
+        "name": "Cactide Double Repair Serum",
+        "note": "선인장, 엑토인, 펩타이드-12, 사탕수수 유래 스쿠알란을 사용한 50ml 세럼 — 회사 자료 기준."
+      },
+      {
+        "name": "Cactide Aquagel First Serum",
+        "note": "선인장과 콜라겐 펩타이드를 담은 젤리 제형 130ml 퍼스트 세럼 토너 — 회사 자료 기준."
+      },
+      {
+        "name": "Cactide Glow C Serum",
+        "note": "비타민 C, Vita-Peptide, 나이아신아마이드 2%를 담은 50ml 세럼 — 회사 자료 기준; 자료 간 출시 월 불일치는 공개하지 않습니다."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Cactide",
+        "note": "cactus와 peptide를 결합한 브랜드 성분 콘셉트이며 별도 인증이 아닙니다."
+      },
+      {
+        "name": "간결한 레이어링",
+        "note": "선케어, 퍼스트 스텝, 목적형 세럼으로 루틴을 구성합니다."
+      }
+    ],
+    "formats": [
+      "선크림 50ml",
+      "세럼 50ml",
+      "세럼 토너 130ml"
+    ],
+    "exportNote": "BEAUTYBLVD는 B2B 협업을 진행합니다. 가격과 비공개 거래 조건은 공개하지 않으며 Teranova를 통해 확인합니다. 3개 세럼의 EU CPNP 및 US MoCRA 등록은 공급사 자료에 따른 것으로 거래 단계에서 문서를 확인합니다.",
+    "terms": [
+      {
+        "label": "협업",
+        "value": "Teranova를 통한 DESERT FREE 도매 B2B 협업."
+      },
+      {
+        "label": "제조",
+        "value": "BEAUTYBLVD 자료상 Kolmar Korea와 Ancors가 제조 파트너입니다."
+      },
+      {
+        "label": "가격",
+        "value": "문의 시 제공. 가격표, RRP, 계수, MOQ, 결제 조건은 공개하지 않습니다."
+      }
+    ],
+    "consentNote": "BEAUTYBLVD가 제공한 자료, 로고, 이미지를 2026년 9월 17일 서면 허가에 따라 게시합니다. 제품, 제조 파트너, 등록 관련 내용은 회사 자료에 따른 것이며 Teranova의 독립적 보증이 아닙니다.",
+    "seoTitle": "BEAUTYBLVD DESERT FREE — 한국 Cactide 스킨케어 · Teranova",
+    "seoDesc": "DESERT FREE의 선크림 1종과 Cactide 세럼 3종. Teranova를 통한 도매 소싱과 거래 지원.",
+    "catalog_notes": [
+      "50ml, SPF 50+ PA++++. 공식 자료에는 이 제품의 CPNP 또는 MoCRA 등록 주장이 없습니다.",
+      "선인장, 엑토인, 펩타이드-12, 사탕수수 유래 스쿠알란을 사용한 50ml 세럼 — 회사 자료 기준.",
+      "선인장과 콜라겐 펩타이드를 담은 젤리 제형 130ml 퍼스트 세럼 토너 — 회사 자료 기준.",
+      "비타민 C, Vita-Peptide, 나이아신아마이드 2%를 담은 50ml 세럼 — 회사 자료 기준; 자료 간 출시 월 불일치는 공개하지 않습니다."
+    ]
+  },
+  "ui": {
+    "profile_sup": "공급업체 프로필",
+    "about_h": "회사 소개",
+    "for_whom": "이런 곳에 적합합니다:",
+    "lines_h": "제품 라인",
+    "catalog_h": "제품 카탈로그",
+    "tech_h": "기술",
+    "formats_h": "제품 형태",
+    "export_h": "수출과 시장",
+    "terms_h": "협력 조건",
+    "download_btn": "협력 조건 내려받기 (PDF)",
+    "pres_btn": "브랜드 소개서 내려받기 (PDF)",
+    "terms_disc": "가격과 비공개 거래 조건은 공개하지 않습니다. 최신 조건은 Teranova를 통해 확인합니다.",
+    "cta_h": "이 공급업체에 관심이 있으신가요?",
+    "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
+    "cta_btn": "Teranova를 통해 문의",
+    "more": "프로필 열기 →",
+    "verified_suppliers": "검증된 공급업체",
+    "certs_h": "인증",
+    "certs_note": "EU CPNP와 US MoCRA는 공급사가 3개 세럼에 한해 밝힌 등록 정보이며 규제기관의 승인을 뜻하지 않습니다.",
+    "products_h": "제품",
+    "products_note": "BEAUTYBLVD가 제공한 DESERT FREE 4개 제품의 공식 이미지."
+  }
+}

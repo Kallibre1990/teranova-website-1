@@ -1,0 +1,58 @@
+[
+  {
+    "line": "Cactide Barrier Sun Cream",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Barrier Sun Cream",
+        "img": "/img/suppliers/desert-free/products/cactide-barrier-sun-cream.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "SPF 50+",
+          "PA++++"
+        ]
+      }
+    ]
+  },
+  {
+    "line": "Cactide Double Repair Serum",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Double Repair Serum",
+        "img": "/img/suppliers/desert-free/products/cactide-double-repair-serum.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "EU CPNP · supplier data",
+          "US MoCRA · supplier data"
+        ]
+      }
+    ]
+  },
+  {
+    "line": "Cactide Aquagel First Serum",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Aquagel First Serum",
+        "img": "/img/suppliers/desert-free/products/cactide-aquagel-first-serum.jpg",
+        "volume": "130 ml",
+        "certs": [
+          "EU CPNP · supplier data",
+          "US MoCRA · supplier data"
+        ]
+      }
+    ]
+  },
+  {
+    "line": "Cactide Glow C Serum",
+    "items": [
+      {
+        "name": "DESERT FREE Cactide Glow C Serum",
+        "img": "/img/suppliers/desert-free/products/cactide-glow-c-serum.jpg",
+        "volume": "50 ml",
+        "certs": [
+          "EU CPNP · supplier data",
+          "US MoCRA · supplier data"
+        ]
+      }
+    ]
+  }
+]
