@@ -16,6 +16,7 @@ import { coverProductsForShelf, coverPlan } from '../../data/cutouts';
 import BrandCover from '../visual/BrandCover.astro';
 import santeLogo from '../../assets/suppliers/dr-sante-logo.png';
 import dreamcosLogo from '../../assets/suppliers/dreamcos-logo.png';
+import sprxLogo from '../../assets/suppliers/sprx-logo.png';
 import santeHero from '../../assets/suppliers/sante/hero-serum.png';
 import santeProducts from '../../assets/suppliers/sante/products.jpg';
 import santeDrops from '../../assets/suppliers/sante/drops.jpg';
@@ -54,7 +55,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo };
+const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
