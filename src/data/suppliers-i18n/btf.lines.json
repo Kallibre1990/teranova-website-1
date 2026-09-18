@@ -1,0 +1,237 @@
+[
+  {
+    "slug": "ultrasonic-duo",
+    "supplierSlug": "btf",
+    "category": "cosmetics",
+    "lineName": "Ultrasonic Duo",
+    "items": [
+      {
+        "name": "BTF Ultrasonic Duo (orange)",
+        "img": "/img/suppliers/btf/products/ultrasonic-duo-orange.jpg",
+        "certs": [
+          "KC",
+          "CE"
+        ]
+      },
+      {
+        "name": "BTF Ultrasonic Duo (white)",
+        "img": "/img/suppliers/btf/products/ultrasonic-duo-white.jpg",
+        "certs": [
+          "KC",
+          "CE"
+        ]
+      }
+    ],
+    "i18n": {
+      "en": {
+        "seoTitle": "BTF Ultrasonic Duo — HIFU + SDM home device · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo combines HIFU and SDM ultrasound in one handset for home lifting, firming and brightening. Specifications, clinical data and terms as stated by BTF; sourced and supported through Teranova.",
+        "tagline": "HIFU + SDM in one handset — BTF's home device for lifting, firming and brightening",
+        "about": [
+          "BTF markets the Ultrasonic Duo as \"the only at-home device\" that combines two ultrasound technologies — High-Intensity Focused Ultrasound (HIFU) and Super-dense Droplet Micro-ultrasound (SDM) — in a single handset, calling it \"clinic-grade\" care with \"professional results\" at home. These are the manufacturer's own claims about its market position and are not independently verified by Teranova.",
+          "HIFU runs at 7 MHz and targets two depths: 3.0mm (dermis) and 4.5mm, which BTF calls the SMAS layer — \"the same facial support layer treated in surgical facelifts,\" per the company. This is a comparison BTF draws about its own technology, not a claim that the device produces surgical-facelift results.",
+          "SDM runs across three frequencies (3, 10 and 16 MHz) and, per BTF, spreads ultrasound energy over a wider area of the dermis than HIFU alone, using \"the same protocol used in high-end aesthetic clinics.\" The device combines both technologies into three usage modes: a 10-minute Multi mode (default), an 8-minute Moisture mode (3 MHz only) and a 9-minute Elastic mode (10 MHz only).",
+          "BTF's own marketing describes the routine as \"10 minutes a day, 10 years younger\" and promotes \"unlimited shots\" with no cartridge to replace. Teranova publishes the shots claim with an exact qualifier, because BTF's own technical specification is more precise than its marketing copy: the side button ships pre-set to 1,000 shots on first use, then switches to unlimited output permanently after that first use. Read \"unlimited shots\" with that first-use detail in mind.",
+          "A built-in gyroscope auto-pauses the device after 3 seconds without movement and shuts it off after 2 minutes, per BTF's specification — a safety feature against accidental over-treatment.",
+          "BTF cites a human application test run by the Korea Institute of Dermatological Sciences (KIDS), 19 June – 10 July 2025, on 21 women aged 37–67, using SDM Multi mode for 10 minutes plus HIFU at 4.5mm for 1,000 shots. Per that study, participants showed a 31.13% improvement in skin elasticity and a 37.18% improvement in skin radiance, both measured immediately after a single use. BTF's own footnote applies: \"individual results may vary based on skin type and condition; results are specific to study participants.\" This is a small, single-institution study reporting an immediate post-use effect, not a sustained-use or independently replicated result, and Teranova has not independently verified it.",
+          "BTF states the device is \"validated by domestic and international specialists, including the Australian Medical Advisory Board\" and references \"a patent relating to pain reduction in HIFU operation.\" BTF has not provided the names of any board members, a supporting report, or a patent number, country or filing date for either claim — Teranova publishes them exactly as BTF states them, with no independent confirmation.",
+          "Per BTF (3 September 2026), a trial order is available from 10 units and the minimum order is 30 units; the export price varies with order quantity and is not published here. BTF states it currently has no exclusive distribution agreements in place, so no territory is closed to a new partner."
+        ],
+        "itemNotes": [
+          "Orange colourway, from BTF's official product material (Product Description PDF, shared 7 July 2026).",
+          "White colourway, from BTF's official product material (Specification PDF, shared 7 July 2026)."
+        ]
+      },
+      "ru": {
+        "seoTitle": "BTF Ultrasonic Duo — домашнее устройство HIFU + SDM · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo объединяет HIFU и SDM в одной насадке для домашнего лифтинга, укрепления кожи и сияния. Характеристики, клинические данные и условия — со слов BTF; поставка и сопровождение сделки через Teranova.",
+        "tagline": "HIFU + SDM в одной насадке — домашнее устройство BTF для лифтинга, укрепления кожи и сияния",
+        "about": [
+          "BTF описывает Ultrasonic Duo как «единственное домашнее устройство», объединяющее две технологии ультразвука — высокоинтенсивный фокусированный ультразвук (HIFU) и Super-dense Droplet Micro-ultrasound (SDM) — в одной насадке, и называет это «клиническим уровнем» ухода с «профессиональным результатом» дома. Это собственные заявления производителя о его позиции на рынке, независимо Teranova их не проверяла.",
+          "HIFU работает на частоте 7 МГц и воздействует на двух глубинах: 3,0 мм (дерма) и 4,5 мм — этот уровень BTF называет SMAS-слоем и описывает как «тот же поддерживающий слой лица, с которым работают при хирургической подтяжке». Это сравнение, которое проводит сама компания в отношении своей технологии, а не утверждение о результате, сопоставимом с хирургической подтяжкой.",
+          "SDM работает на трёх частотах — 3, 10 и 16 МГц — и, по данным BTF, распределяет энергию ультразвука по более широкой площади дермы, чем один HIFU, используя, по словам компании, «тот же протокол, что и в топовых эстетических клиниках». Устройство объединяет обе технологии в три режима: 10-минутный режим Multi (по умолчанию), 8-минутный режим Moisture (только 3 МГц) и 9-минутный режим Elastic (только 10 МГц).",
+          "В своих маркетинговых материалах BTF описывает процедуру как «10 минут в день — минус 10 лет» и продвигает «безлимитные импульсы» без необходимости менять картридж. Teranova публикует заявление о безлимитных импульсах с точным уточнением, потому что собственная техническая спецификация BTF точнее её же маркетинговых текстов: боковая кнопка изначально рассчитана на 1 000 импульсов при первом использовании, а после первого включения переходит в постоянный безлимитный режим. Читайте формулировку «безлимитные импульсы» с учётом этой детали про первое использование.",
+          "Встроенный гироскоп автоматически ставит устройство на паузу после 3 секунд неподвижности и отключает его через 2 минуты — по данным спецификации BTF; это функция защиты от случайной передозировки процедуры.",
+          "BTF ссылается на тест с участием людей, проведённый Корейским институтом дерматологических наук (KIDS) с 19 июня по 10 июля 2025 года на 21 женщине в возрасте 37–67 лет, с использованием режима SDM Multi 10 минут и HIFU на глубине 4,5 мм, 1 000 импульсов. По данным этого теста, у участниц отмечено улучшение упругости кожи на 31,13% и сияния кожи на 37,18% — оба показателя измерены сразу после одного применения. Действует собственная сноска BTF: «индивидуальные результаты могут различаться в зависимости от типа и состояния кожи; результаты относятся к участницам исследования». Это небольшое исследование одного учреждения, фиксирующее эффект сразу после применения, а не при длительном использовании и не подтверждённое независимо; Teranova его отдельно не проверяла.",
+          "BTF заявляет, что устройство «прошло оценку отечественных и зарубежных специалистов, включая Australian Medical Advisory Board (Австралийский медицинский консультативный совет)», а также ссылается на «патент, связанный со снижением болевых ощущений при работе HIFU». BTF не предоставила ни имён членов совета, ни подтверждающего отчёта, ни номера патента, страны или даты подачи заявки ни по одному из этих пунктов — Teranova публикует их ровно в той формулировке, в которой их даёт BTF, без независимого подтверждения.",
+          "По данным BTF (03.09.2026), пробный заказ доступен от 10 единиц, минимальный заказ — 30 единиц; экспортная цена зависит от объёма заказа и здесь не публикуется. BTF заявляет, что на данный момент у неё нет действующих эксклюзивных дистрибьюторских соглашений, поэтому ни один регион не закрыт для нового партнёра."
+        ],
+        "itemNotes": [
+          "Корпус оранжевого цвета — из официальных материалов BTF (Product Description PDF, передан 07.07.2026).",
+          "Корпус белого цвета — из официальных материалов BTF (Specification PDF, передан 07.07.2026)."
+        ]
+      },
+      "it": {
+        "seoTitle": "BTF Ultrasonic Duo — Dispositivo domestico HIFU + SDM · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo combina ultrasuoni HIFU e SDM in un unico manipolo per lifting, rassodamento e luminosità a uso domestico. Specifiche, dati clinici e condizioni come dichiarati da BTF; fornitura e assistenza tramite Teranova.",
+        "tagline": "HIFU + SDM in un unico manipolo — il dispositivo domestico di BTF per lifting, rassodamento e luminosità",
+        "about": [
+          "BTF presenta l'Ultrasonic Duo come «l'unico dispositivo per uso domestico» che combina due tecnologie a ultrasuoni — High-Intensity Focused Ultrasound (HIFU) e Super-dense Droplet Micro-ultrasound (SDM) — in un unico manipolo, definendolo un trattamento di «livello clinico» con «risultati professionali» a casa. Si tratta di affermazioni del produttore sulla propria posizione di mercato, non verificate in modo indipendente da Teranova.",
+          "L'HIFU opera a 7 MHz e agisce su due profondità: 3,0 mm (derma) e 4,5 mm, che BTF chiama strato SMAS — «lo stesso strato di supporto del viso trattato nei lifting chirurgici», secondo l'azienda. Si tratta di un paragone che BTF fa sulla propria tecnologia, non di un'affermazione secondo cui il dispositivo produca risultati paragonabili a un lifting chirurgico.",
+          "L'SDM opera su tre frequenze (3, 10 e 16 MHz) e, secondo BTF, distribuisce l'energia a ultrasuoni su un'area del derma più ampia rispetto al solo HIFU, utilizzando «lo stesso protocollo impiegato nelle cliniche estetiche di fascia alta». Il dispositivo combina entrambe le tecnologie in tre modalità d'uso: una modalità Multi da 10 minuti (predefinita), una modalità Moisture da 8 minuti (solo 3 MHz) e una modalità Elastic da 9 minuti (solo 10 MHz).",
+          "Il materiale di marketing di BTF descrive la routine come «10 minuti al giorno, 10 anni più giovani» e promuove «impulsi illimitati» senza cartuccia da sostituire. Teranova pubblica l'affermazione sugli impulsi con una precisazione esatta, perché la specifica tecnica di BTF è più precisa del suo materiale di marketing: il pulsante laterale è impostato di fabbrica su 1.000 impulsi al primo utilizzo, per poi passare in modo permanente a un'erogazione illimitata dopo quel primo utilizzo. Va quindi letta l'espressione «impulsi illimitati» tenendo presente questo dettaglio sul primo utilizzo.",
+          "Un giroscopio integrato mette automaticamente in pausa il dispositivo dopo 3 secondi senza movimento e lo spegne dopo 2 minuti, secondo la specifica di BTF — una funzione di sicurezza contro un trattamento eccessivo accidentale.",
+          "BTF cita un test su soggetti umani condotto dal Korea Institute of Dermatological Sciences (KIDS), dal 19 giugno al 10 luglio 2025, su 21 donne di età compresa tra 37 e 67 anni, con modalità SDM Multi per 10 minuti più HIFU a 4,5 mm per 1.000 impulsi. Secondo questo studio, le partecipanti hanno mostrato un miglioramento del 31,13% nell'elasticità della pelle e del 37,18% nella luminosità della pelle, entrambi misurati immediatamente dopo un singolo utilizzo. Si applica la nota a piè di pagina della stessa BTF: «i risultati individuali possono variare in base al tipo e alle condizioni della pelle; i risultati sono specifici delle partecipanti allo studio». Si tratta di uno studio di piccole dimensioni condotto da un solo istituto, che riporta un effetto immediato dopo l'uso e non un risultato da uso prolungato o replicato in modo indipendente; Teranova non lo ha verificato in modo indipendente.",
+          "BTF dichiara che il dispositivo è «convalidato da specialisti nazionali e internazionali, incluso l'Australian Medical Advisory Board» e fa riferimento a «un brevetto relativo alla riduzione del dolore nel funzionamento dell'HIFU». BTF non ha fornito i nomi di alcun membro del comitato, un report a supporto, né un numero di brevetto, un paese o una data di deposito per nessuna delle due affermazioni — Teranova le pubblica esattamente come dichiarate da BTF, senza conferma indipendente.",
+          "Secondo BTF (3 settembre 2026), un ordine di prova è disponibile da 10 unità e l'ordine minimo è di 30 unità; il prezzo all'esportazione varia in base alla quantità ordinata e non è pubblicato qui. BTF dichiara di non avere attualmente accordi di distribuzione esclusiva in essere, quindi nessun territorio è precluso a un nuovo partner."
+        ],
+        "itemNotes": [
+          "Colorazione arancione, dal materiale ufficiale di prodotto di BTF (Product Description PDF, condiviso il 7 luglio 2026).",
+          "Colorazione bianca, dal materiale ufficiale di prodotto di BTF (Specification PDF, condiviso il 7 luglio 2026)."
+        ]
+      },
+      "de": {
+        "seoTitle": "BTF Ultrasonic Duo — HIFU + SDM Home-Gerät · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo vereint HIFU- und SDM-Ultraschall in einem Handstück für Lifting, Straffung und Aufhellung zu Hause. Spezifikationen, klinische Daten und Konditionen wie von BTF angegeben; Beschaffung und Betreuung über Teranova.",
+        "tagline": "HIFU + SDM in einem Handstück — das Home-Gerät von BTF für Lifting, Straffung und Aufhellung",
+        "about": [
+          "BTF vermarktet das Ultrasonic Duo als „das einzige Heimgerät\", das zwei Ultraschalltechnologien — High-Intensity Focused Ultrasound (HIFU) und Super-dense Droplet Micro-Ultrasound (SDM) — in einem einzigen Handstück vereint, und bezeichnet es als Pflege auf „Klinik-Niveau\" mit „professionellen Ergebnissen\" zu Hause. Dies sind eigene Angaben des Herstellers zu seiner Marktposition, die von Teranova nicht unabhängig geprüft wurden.",
+          "HIFU arbeitet mit 7 MHz und zielt auf zwei Tiefen: 3,0 mm (Dermis) und 4,5 mm, die BTF als SMAS-Schicht bezeichnet — laut Unternehmen „dieselbe stützende Gesichtsschicht, die bei chirurgischen Facelifts behandelt wird\". Dies ist ein Vergleich, den BTF zu seiner eigenen Technologie zieht, keine Behauptung, dass das Gerät Ergebnisse wie ein chirurgisches Facelift erzielt.",
+          "SDM arbeitet über drei Frequenzen (3, 10 und 16 MHz) und verteilt laut BTF die Ultraschallenergie über einen größeren Bereich der Dermis als HIFU allein, unter Anwendung „desselben Protokolls, das in hochwertigen ästhetischen Kliniken verwendet wird\". Das Gerät vereint beide Technologien in drei Anwendungsmodi: einen 10-minütigen Multi-Modus (Standard), einen 8-minütigen Moisture-Modus (nur 3 MHz) und einen 9-minütigen Elastic-Modus (nur 10 MHz).",
+          "BTFs eigenes Marketing beschreibt die Anwendung als „10 Minuten am Tag, 10 Jahre jünger\" und bewirbt „unbegrenzte Impulse\" ohne Kartusche zum Austauschen. Teranova veröffentlicht die Aussage zu den Impulsen mit einer genauen Präzisierung, weil BTFs eigene technische Spezifikation präziser ist als sein Marketingtext: Die Seitentaste ist bei der ersten Nutzung werkseitig auf 1.000 Impulse voreingestellt und schaltet danach dauerhaft auf unbegrenzte Abgabe um. Die Formulierung „unbegrenzte Impulse\" sollte mit diesem Detail zur ersten Nutzung gelesen werden.",
+          "Ein eingebautes Gyroskop pausiert das Gerät automatisch nach 3 Sekunden ohne Bewegung und schaltet es nach 2 Minuten aus, laut Spezifikation von BTF — eine Sicherheitsfunktion gegen versehentliche Überbehandlung.",
+          "BTF verweist auf einen Anwendungstest an Menschen, durchgeführt vom Korea Institute of Dermatological Sciences (KIDS), 19. Juni – 10. Juli 2025, an 21 Frauen im Alter von 37–67 Jahren, mit SDM-Multi-Modus für 10 Minuten plus HIFU bei 4,5 mm für 1.000 Impulse. Laut dieser Studie zeigten die Teilnehmerinnen eine Verbesserung der Hautelastizität um 31,13 % und eine Verbesserung der Hautstrahlkraft um 37,18 %, beides unmittelbar nach einer einmaligen Anwendung gemessen. Die eigene Fußnote von BTF gilt: „individuelle Ergebnisse können je nach Hauttyp und -zustand variieren; die Ergebnisse gelten speziell für die Studienteilnehmerinnen\". Es handelt sich um eine kleine Studie einer einzelnen Einrichtung, die einen unmittelbaren Effekt nach der Anwendung berichtet, nicht ein Ergebnis bei dauerhafter Anwendung oder ein unabhängig repliziertes Ergebnis, und Teranova hat es nicht unabhängig geprüft.",
+          "BTF erklärt, das Gerät sei „von inländischen und internationalen Fachleuten validiert, darunter das Australian Medical Advisory Board\", und verweist auf „ein Patent im Zusammenhang mit der Schmerzreduktion beim HIFU-Betrieb\". BTF hat weder die Namen von Gremiumsmitgliedern noch einen entsprechenden Bericht noch eine Patentnummer, ein Land oder ein Anmeldedatum für eine der beiden Angaben genannt — Teranova veröffentlicht sie genau so, wie BTF sie angibt, ohne unabhängige Bestätigung.",
+          "Laut BTF (3. September 2026) ist eine Testbestellung ab 10 Einheiten möglich, die Mindestbestellmenge liegt bei 30 Einheiten; der Exportpreis variiert je nach Bestellmenge und wird hier nicht veröffentlicht. BTF erklärt, derzeit keine exklusiven Vertriebsvereinbarungen zu haben, sodass kein Gebiet für einen neuen Partner ausgeschlossen ist."
+        ],
+        "itemNotes": [
+          "Farbvariante Orange, aus dem offiziellen Produktmaterial von BTF (Product Description PDF, geteilt am 7. Juli 2026).",
+          "Farbvariante Weiß, aus dem offiziellen Produktmaterial von BTF (Specification PDF, geteilt am 7. Juli 2026)."
+        ]
+      },
+      "fr": {
+        "seoTitle": "BTF Ultrasonic Duo — appareil à domicile HIFU + SDM · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo combine les ultrasons HIFU et SDM dans un seul manche pour un lifting, un raffermissement et un éclat à domicile. Spécifications, données cliniques et conditions telles que déclarées par BTF ; approvisionnement et accompagnement via Teranova.",
+        "tagline": "HIFU + SDM dans un seul manche — l'appareil à domicile de BTF pour le lifting, le raffermissement et l'éclat",
+        "about": [
+          "BTF présente l'Ultrasonic Duo comme « le seul appareil à domicile » combinant deux technologies à ultrasons — les ultrasons focalisés de haute intensité (HIFU) et le Super-dense Droplet Micro-ultrasound (SDM) — dans un seul manche, le qualifiant de soin « de niveau clinique » offrant des « résultats professionnels » à domicile. Ce sont des allégations propres au fabricant concernant sa position sur le marché, non vérifiées de façon indépendante par Teranova.",
+          "Le HIFU fonctionne à 7 MHz et cible deux profondeurs : 3,0 mm (derme) et 4,5 mm, que BTF appelle la couche SMAS — « la même couche de soutien du visage traitée lors des liftings chirurgicaux », selon l'entreprise. Il s'agit d'une comparaison que BTF établit à propos de sa propre technologie, et non d'une allégation selon laquelle l'appareil produirait des résultats équivalents à un lifting chirurgical.",
+          "Le SDM fonctionne sur trois fréquences (3, 10 et 16 MHz) et, selon BTF, répartit l'énergie ultrasonique sur une zone du derme plus étendue que le HIFU seul, en utilisant « le même protocole que celui utilisé dans les cliniques esthétiques haut de gamme ». L'appareil combine les deux technologies en trois modes d'utilisation : un mode Multi de 10 minutes (par défaut), un mode Moisture de 8 minutes (3 MHz uniquement) et un mode Elastic de 9 minutes (10 MHz uniquement).",
+          "Le marketing propre à BTF décrit la routine comme « 10 minutes par jour, 10 ans de moins » et met en avant des « impulsions illimitées » sans cartouche à remplacer. Teranova publie cette allégation sur les impulsions avec une précision exacte, car la spécification technique propre à BTF est plus précise que son discours marketing : le bouton latéral est préréglé en usine à 1 000 impulsions lors de la première utilisation, puis passe de façon permanente à une sortie illimitée après cette première utilisation. Il convient de lire « impulsions illimitées » en gardant ce détail de première utilisation à l'esprit.",
+          "Un gyroscope intégré met automatiquement l'appareil en pause après 3 secondes sans mouvement et l'éteint après 2 minutes, selon la spécification de BTF — une fonction de sécurité contre un traitement excessif accidentel.",
+          "BTF cite un test d'application sur des sujets humains mené par le Korea Institute of Dermatological Sciences (KIDS), du 19 juin au 10 juillet 2025, sur 21 femmes âgées de 37 à 67 ans, avec le mode SDM Multi pendant 10 minutes associé au HIFU à 4,5 mm pendant 1 000 impulsions. Selon cette étude, les participantes ont montré une amélioration de 31,13 % de l'élasticité de la peau et une amélioration de 37,18 % de l'éclat de la peau, les deux mesurées immédiatement après une seule utilisation. La note de bas de page propre à BTF s'applique : « les résultats individuels peuvent varier selon le type et l'état de la peau ; les résultats sont propres aux participantes de l'étude ». Il s'agit d'une étude de petite taille menée par un seul établissement, rapportant un effet immédiat après utilisation, et non un résultat obtenu par un usage prolongé ni répliqué de façon indépendante ; Teranova ne l'a pas vérifié de manière indépendante.",
+          "BTF déclare que l'appareil est « validé par des spécialistes nationaux et internationaux, dont l'Australian Medical Advisory Board », et fait référence à « un brevet relatif à la réduction de la douleur lors du fonctionnement du HIFU ». BTF n'a fourni ni les noms des membres d'un quelconque comité, ni un rapport à l'appui, ni de numéro de brevet, de pays ou de date de dépôt pour l'une ou l'autre de ces allégations — Teranova les publie exactement telles que déclarées par BTF, sans confirmation indépendante.",
+          "Selon BTF (3 septembre 2026), une commande d'essai est disponible à partir de 10 unités et la commande minimale est de 30 unités ; le prix à l'export varie selon la quantité commandée et n'est pas publié ici. BTF déclare n'avoir actuellement aucun accord de distribution exclusive en vigueur, de sorte qu'aucun territoire n'est fermé à un nouveau partenaire."
+        ],
+        "itemNotes": [
+          "Coloris orange, d'après le matériel produit officiel de BTF (Product Description PDF, transmis le 7 juillet 2026).",
+          "Coloris blanc, d'après le matériel produit officiel de BTF (Specification PDF, transmis le 7 juillet 2026)."
+        ]
+      },
+      "ko": {
+        "seoTitle": "BTF Ultrasonic Duo — HIFU + SDM 홈 디바이스 · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo는 HIFU와 SDM 초음파를 하나의 핸드셋에 결합해 홈에서 리프팅, 탄력 개선, 브라이트닝을 제공합니다. 사양, 임상 데이터, 조건은 BTF 진술을 기준으로 하며, Teranova를 통해 소싱 및 지원됩니다.",
+        "tagline": "하나의 핸드셋에 HIFU + SDM — 리프팅, 탄력 개선, 브라이트닝을 위한 BTF의 홈 디바이스",
+        "about": [
+          "BTF는 Ultrasonic Duo를 두 가지 초음파 기술 — 고강도 집속 초음파(HIFU)와 초고밀도 미세 물방울 초음파(SDM) — 를 하나의 핸드셋에 결합한 \"유일한 홈 디바이스\"라고 소개하며, 가정에서 \"클리닉급\" 관리와 \"전문가 수준의 결과\"를 제공한다고 설명합니다. 이는 제조사가 자사의 시장 포지션에 대해 스스로 내세우는 주장이며 Teranova가 독립적으로 검증한 내용이 아닙니다.",
+          "HIFU는 7 MHz로 작동하며 3.0mm(진피)와 4.5mm 두 깊이를 타깃으로 합니다. 4.5mm는 BTF가 SMAS층이라 부르는 부위로, 회사에 따르면 \"수술적 안면 거상술에서 다루는 것과 동일한 안면 지지층\"이라고 설명합니다. 이는 BTF가 자사 기술에 대해 내리는 비교일 뿐, 이 기기가 수술적 안면 거상술과 같은 결과를 낸다는 주장이 아닙니다.",
+          "SDM은 3, 10, 16 MHz 세 가지 주파수로 작동하며, BTF에 따르면 HIFU만 사용할 때보다 진피의 더 넓은 영역에 초음파 에너지를 분산시키고, \"고급 에스테틱 클리닉에서 사용하는 것과 동일한 프로토콜\"을 사용한다고 밝히고 있습니다. 이 기기는 두 기술을 결합해 세 가지 사용 모드를 제공합니다: 10분 Multi 모드(기본), 8분 Moisture 모드(3 MHz 전용), 9분 Elastic 모드(10 MHz 전용).",
+          "BTF 자체 마케팅에서는 이 루틴을 \"하루 10분, 10년 젊게\"로 설명하며, 카트리지 교체가 필요 없는 \"무제한 샷\"을 내세우고 있습니다. Teranova는 이 샷 관련 주장을 정확한 조건과 함께 게재하는데, BTF 자체 기술 사양서가 마케팅 문구보다 더 정확하기 때문입니다: 측면 버튼은 최초 사용 시 1,000샷으로 사전 설정되어 있으며, 그 첫 사용 이후로는 영구적으로 무제한 출력으로 전환됩니다. \"무제한 샷\"이라는 표현은 이 최초 사용 관련 세부 사항을 염두에 두고 읽어야 합니다.",
+          "BTF 사양에 따르면 내장 자이로스코프가 3초간 움직임이 없으면 기기를 자동으로 일시 정지하고 2분 후 자동으로 종료하며, 이는 의도치 않은 과도한 시술을 막기 위한 안전 기능입니다.",
+          "BTF는 한국피부과학연구소(Korea Institute of Dermatological Sciences, KIDS)가 2025년 6월 19일부터 7월 10일까지 37~67세 여성 21명을 대상으로, SDM Multi 모드 10분과 HIFU 4.5mm 1,000샷을 사용해 진행한 인체 적용 시험을 인용하고 있습니다. 해당 시험에 따르면 참가자들은 단 1회 사용 직후 측정한 결과, 피부 탄력이 31.13% 개선되고 피부 광채가 37.18% 개선된 것으로 나타났습니다. BTF 자체 각주가 적용됩니다: \"개인 결과는 피부 타입과 상태에 따라 다를 수 있으며, 결과는 연구 참가자에 한정됩니다.\" 이는 단일 기관에서 소규모로 진행되어 사용 직후 효과를 보고한 시험으로, 지속 사용 결과나 독립적으로 재현된 결과가 아니며, Teranova는 이를 독립적으로 검증하지 않았습니다.",
+          "BTF는 이 기기가 \"Australian Medical Advisory Board(호주 의료 자문위원회)를 포함한 국내외 전문가들의 검증을 받았다\"고 밝히며, \"HIFU 작동 시 통증 완화와 관련된 특허\"를 언급하고 있습니다. BTF는 위원회 구성원의 이름, 근거 보고서, 특허 번호·등록 국가·출원일 중 어느 것도 제공하지 않았습니다 — Teranova는 BTF가 밝힌 그대로를 독립적인 확인 없이 게재합니다.",
+          "BTF에 따르면(2026년 9월 3일 기준) 시범 주문은 10개부터 가능하며 최소 주문량은 30개입니다. 수출 가격은 주문 수량에 따라 달라지며 여기에는 공개되지 않습니다. BTF는 현재 체결된 독점 유통 계약이 없다고 밝히고 있어, 신규 파트너에게 닫혀 있는 지역이 없습니다."
+        ],
+        "itemNotes": [
+          "오렌지 컬러 — BTF 공식 제품 자료 기준(Product Description PDF, 2026년 7월 7일 공유).",
+          "화이트 컬러 — BTF 공식 제품 자료 기준(Specification PDF, 2026년 7월 7일 공유)."
+        ]
+      },
+      "zh": {
+        "seoTitle": "BTF Ultrasonic Duo——HIFU + SDM家用设备 · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo将HIFU和SDM超声波技术集成于一台手持设备，用于家庭提拉紧致、紧实和提亮肌肤。规格、临床数据及条款均以BTF所述为准；通过Teranova进行采购与支持。",
+        "tagline": "一台设备集成HIFU + SDM——BTF用于提拉紧致、紧实和提亮肌肤的家用设备",
+        "about": [
+          "BTF将Ultrasonic Duo宣传为\"唯一的家用设备\"，将两种超声波技术——高强度聚焦超声波（HIFU）和超密微滴超声波（SDM）——集成于一台手持设备中，并称其可在家中提供\"诊所级\"护理和\"专业效果\"。这些是制造商对自身市场地位的自我陈述，未经Teranova独立核实。",
+          "HIFU工作频率为7 MHz，作用于两个深度：3.0mm（真皮层）和4.5mm，BTF将后者称为SMAS层——据该公司称，是\"与手术拉皮所处理的相同面部支撑层\"。这是BTF就其自身技术所做的类比，并非声称该设备能产生与手术拉皮相同效果的主张。",
+          "SDM覆盖三个频率（3、10和16 MHz），据BTF称，相比单独使用HIFU，可将超声波能量分布到真皮更大的区域，采用\"与高端美容诊所相同的方案\"。该设备将两种技术结合为三种使用模式：10分钟Multi模式（默认）、8分钟Moisture模式（仅3 MHz）和9分钟Elastic模式（仅10 MHz）。",
+          "BTF自身的营销材料将该护理流程描述为\"每天10分钟，年轻10岁\"，并宣传无需更换探头的\"无限次输出\"。Teranova在发布这一\"无限次输出\"说法时附加了确切的限定条件，因为BTF自身的技术规格文件比其营销文案更为精确：侧边按钮在首次使用时预设为1,000次输出，此后在首次使用之后将永久切换为无限次输出。阅读\"无限次输出\"这一说法时，请注意这一首次使用的细节。",
+          "根据BTF的规格说明，内置陀螺仪会在设备静止3秒后自动暂停输出，并在2分钟后自动关机——这是防止意外过度使用的安全功能。",
+          "BTF引用了一项由韩国皮肤科学研究所（Korea Institute of Dermatological Sciences，KIDS）于2025年6月19日至7月10日进行的人体应用测试，测试对象为21名年龄在37至67岁之间的女性，使用SDM Multi模式10分钟并配合HIFU在4.5mm深度进行1,000次输出。根据该研究，参与者在单次使用后即时测量显示，皮肤弹性改善31.13%，皮肤光泽度改善37.18%。BTF自身的注释适用：\"个体效果可能因肤质和肌肤状况而异；结果仅适用于研究参与者。\"这是一项由单一机构开展的小规模研究，报告的是使用后即时效果，而非持续使用或经独立复核的结果，Teranova未对其进行独立核实。",
+          "BTF表示该设备\"已获得包括Australian Medical Advisory Board（澳大利亚医学顾问委员会）在内的国内外专家的验证\"，并提及\"一项与HIFU操作中疼痛缓解相关的专利\"。BTF未就这两项说法提供任何委员会成员姓名、支持性报告，或专利号、注册国家或申请日期——Teranova按照BTF的原话予以发布，未经独立确认。",
+          "据BTF称（2026年9月3日），试订单10件起，最低起订量为30件；出口价格因订单数量而异，此处不予公开。BTF表示目前没有已签订的独家经销协议，因此没有任何地区对新合作伙伴关闭。"
+        ],
+        "itemNotes": [
+          "橙色款，来自BTF官方产品资料（Product Description PDF，2026年7月7日提供）。",
+          "白色款，来自BTF官方产品资料（Specification PDF，2026年7月7日提供）。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "BTF Ultrasonic Duo — HIFU + SDM ホーム機器 · Teranova",
+        "seoDesc": "BTF Ultrasonic Duoは、HIFUとSDMの超音波技術を1台のハンドセットに統合し、自宅でのリフトアップ、引き締め、美白ケアを実現します。仕様、臨床データ、条件はBTFの申告に基づいており、Teranovaを通じてソーシングとサポートを行います。",
+        "tagline": "1台のハンドセットにHIFU + SDM — リフトアップ、引き締め、美白ケアのためのBTFのホーム機器",
+        "about": [
+          "BTFはUltrasonic Duoを、高密度焦点式超音波（HIFU）と超高密度ドロップレットマイクロ超音波（SDM）という2つの超音波技術を1台のハンドセットに統合した「唯一のホーム機器」として展開しており、自宅で「クリニックグレード」のケアと「プロ並みの結果」が得られるとしています。これらはメーカー自身が自社の市場でのポジションについて行っている主張であり、Teranovaによる独立した検証は行われていません。",
+          "HIFUは7 MHzで作動し、3.0mm（真皮層）と4.5mmという2つの深さをターゲットにします。BTFは4.5mmの層をSMAS層と呼び、同社によれば「外科的フェイスリフトで施術されるのと同じ顔面支持層」であるとしています。これはBTFが自社技術について行っている比較であり、この機器が外科的フェイスリフトと同等の結果を生むという主張ではありません。",
+          "SDMは3・10・16 MHzの3つの周波数で作動し、BTFによれば、HIFU単体よりも広い範囲の真皮に超音波エネルギーを分散させ、「ハイエンドの美容クリニックで使用されているのと同じプロトコル」を用いているとのことです。本機器は両技術を組み合わせて3つの使用モードを提供します：10分間のMultiモード（デフォルト）、8分間のMoistureモード（3 MHzのみ）、9分間のElasticモード（10 MHzのみ）。",
+          "BTF自身のマーケティングでは、このケアルーティンを「1日10分で10歳若く」と表現し、カートリッジ交換不要の「無制限ショット」を訴求しています。Teranovaはこのショットに関する主張を正確な限定条件付きで掲載していますが、これはBTF自身の技術仕様書がマーケティング文言よりも正確であるためです：サイドボタンは初回使用時に1,000ショットにあらかじめ設定されており、その初回使用の後は永続的に無制限出力に切り替わります。「無制限ショット」という表現は、この初回使用に関する詳細を踏まえて読んでください。",
+          "BTFの仕様によれば、内蔵ジャイロスコープが3秒間動きがないと機器を自動的に一時停止し、2分後には自動的にオフにします — これは意図しない過度な施術を防ぐための安全機能です。",
+          "BTFは、韓国皮膚科学研究所（Korea Institute of Dermatological Sciences、KIDS）が2025年6月19日から7月10日にかけて、37〜67歳の女性21名を対象に、SDM Multiモード10分とHIFU 4.5mmで1,000ショットを用いて実施したヒト適用試験を引用しています。この試験によれば、参加者は1回の使用直後の測定で、肌の弾力が31.13%、肌のツヤが37.18%改善したとされています。BTF自身の注記が適用されます：「個人差があり、肌質や状態により結果は異なる場合があります。結果は本試験の参加者に限定されたものです。」これは単一機関による小規模な試験で、使用直後の効果を報告したものであり、継続使用や独立した再現による結果ではなく、Teranovaはこれを独立して検証していません。",
+          "BTFは、本機器が「Australian Medical Advisory Board（オーストラリア医療諮問委員会）を含む国内外の専門家による検証を受けている」としており、「HIFU施術における痛み軽減に関する特許」にも言及しています。BTFはいずれの主張についても、委員会メンバーの氏名、裏付けとなる報告書、特許番号・登録国・出願日を提供していません — Teranovaは独立した確認を行うことなく、BTFの申告どおりに掲載しています。",
+          "BTFによれば（2026年9月3日時点）、トライアル注文は10個から可能で、最小発注数量は30個です。輸出価格は注文数量により変動し、ここでは公開していません。BTFは現時点で独占的な販売代理店契約を締結していないとしており、新規パートナーに対して閉ざされている地域はありません。"
+        ],
+        "itemNotes": [
+          "オレンジカラー、BTF公式製品資料より（Product Description PDF、2026年7月7日提供）。",
+          "ホワイトカラー、BTF公式製品資料より（Specification PDF、2026年7月7日提供）。"
+        ]
+      },
+      "tr": {
+        "seoTitle": "BTF Ultrasonic Duo — HIFU + SDM ev tipi cihazı · Teranova",
+        "seoDesc": "BTF Ultrasonic Duo, evde sıkılaştırma, gerginleştirme ve aydınlatma için HIFU ve SDM ultrasonunu tek cihazda birleştirir. Teknik özellikler, klinik veriler ve koşullar BTF'nin beyanı doğrultusundadır; Teranova aracılığıyla temin edilir ve desteklenir.",
+        "tagline": "Tek cihazda HIFU + SDM — BTF'nin sıkılaştırma, gerginleştirme ve aydınlatma için ev tipi cihazı",
+        "about": [
+          "BTF, Ultrasonic Duo'yu iki ultrason teknolojisini — Yüksek Yoğunluklu Odaklanmış Ultrason (HIFU) ve Süper Yoğun Damlacıklı Mikro Ultrason (SDM) — tek bir cihazda birleştiren \"tek ev tipi cihaz\" olarak pazarlıyor ve evde \"klinik düzeyinde\" bakım ile \"profesyonel sonuçlar\" sunduğunu belirtiyor. Bunlar üreticinin kendi pazar konumuna ilişkin iddialarıdır ve Teranova tarafından bağımsız olarak doğrulanmamıştır.",
+          "HIFU, 7 MHz'de çalışır ve iki derinliği hedefler: 3.0mm (dermis) ve BTF'nin SMAS katmanı olarak adlandırdığı 4.5mm — şirkete göre \"cerrahi yüz germe operasyonlarında tedavi edilen aynı yüz destek katmanı.\" Bu, BTF'nin kendi teknolojisi hakkında yaptığı bir karşılaştırmadır, cihazın cerrahi yüz germe sonuçları ürettiğine dair bir iddia değildir.",
+          "SDM, üç frekansta (3, 10 ve 16 MHz) çalışır ve BTF'ye göre \"üst düzey estetik kliniklerinde kullanılan aynı protokolü\" kullanarak ultrason enerjisini dermiste yalnızca HIFU'ya göre daha geniş bir alana yayar. Cihaz, her iki teknolojiyi üç kullanım moduna birleştirir: 10 dakikalık Multi modu (varsayılan), 8 dakikalık Moisture modu (yalnızca 3 MHz) ve 9 dakikalık Elastic modu (yalnızca 10 MHz).",
+          "BTF'nin kendi pazarlama materyali bu rutini \"günde 10 dakika, 10 yaş daha genç\" olarak tanımlıyor ve değiştirilecek kartuş olmadan \"sınırsız atış\" vaat ediyor. Teranova, atış iddiasını kesin bir açıklamayla birlikte yayınlıyor, çünkü BTF'nin kendi teknik özellik belgesi pazarlama metninden daha kesin: yan düğme ilk kullanımda 1,000 atışa önceden ayarlanmış olarak gelir, ardından bu ilk kullanımdan sonra kalıcı olarak sınırsız çıkışa geçer. \"Sınırsız atış\" ifadesini bu ilk kullanım ayrıntısını göz önünde bulundurarak okuyun.",
+          "BTF'nin teknik özelliklerine göre, dahili bir jiroskop hareketsizlik durumunda 3 saniye sonra cihazı otomatik olarak duraklatır ve 2 dakika sonra kapatır — bu, kazara aşırı uygulamaya karşı bir güvenlik özelliğidir.",
+          "BTF, Korea Institute of Dermatological Sciences (KIDS) tarafından 19 Haziran – 10 Temmuz 2025 tarihleri arasında, 37–67 yaş aralığındaki 21 kadın üzerinde, 10 dakika SDM Multi modu ile birlikte 4.5mm'de 1,000 atış HIFU kullanılarak yürütülen bir insan uygulama testine atıfta bulunuyor. Bu çalışmaya göre, katılımcılarda cilt elastikiyetinde 31.13% ve cilt parlaklığında 37.18% iyileşme görüldü; her ikisi de tek kullanımdan hemen sonra ölçüldü. BTF'nin kendi dipnotu geçerlidir: \"bireysel sonuçlar cilt tipine ve durumuna göre değişebilir; sonuçlar çalışma katılımcılarına özgüdür.\" Bu, tek kullanım sonrası anlık bir etkiyi bildiren, tek bir kurum tarafından yürütülen küçük ölçekli bir çalışmadır; sürekli kullanım veya bağımsız olarak tekrarlanmış bir sonuç değildir ve Teranova bunu bağımsız olarak doğrulamamıştır.",
+          "BTF, cihazın \"Australian Medical Advisory Board da dahil olmak üzere yerli ve uluslararası uzmanlar tarafından onaylandığını\" belirtiyor ve \"HIFU işleminde ağrı azaltmayla ilgili bir patente\" atıfta bulunuyor. BTF, bu iddialardan hiçbiri için kurul üyelerinin isimlerini, destekleyici bir raporu ya da patent numarası, ülkesi veya başvuru tarihini sağlamamıştır — Teranova bunları BTF'nin beyan ettiği şekliyle, bağımsız bir teyit olmaksızın yayınlıyor.",
+          "BTF'ye göre (3 Eylül 2026), 10 adetten itibaren deneme siparişi mevcuttur ve minimum sipariş miktarı 30 adettir; ihracat fiyatı sipariş miktarına göre değişir ve burada yayınlanmaz. BTF, şu anda yürürlükte hiçbir münhasır distribütörlük anlaşması olmadığını belirtiyor, dolayısıyla hiçbir bölge yeni bir ortağa kapalı değildir."
+        ],
+        "itemNotes": [
+          "Turuncu renk seçeneği, BTF'nin resmi ürün materyalinden (Ürün Açıklaması PDF, 7 Temmuz 2026 tarihinde paylaşıldı).",
+          "Beyaz renk seçeneği, BTF'nin resmi ürün materyalinden (Teknik Özellikler PDF, 7 Temmuz 2026 tarihinde paylaşıldı)."
+        ]
+      },
+      "es": {
+        "seoTitle": "BTF Ultrasonic Duo — Dispositivo doméstico HIFU + SDM · Teranova",
+        "seoDesc": "El BTF Ultrasonic Duo combina ultrasonido HIFU y SDM en un solo dispositivo para lifting, firmeza y luminosidad en el hogar. Especificaciones, datos clínicos y condiciones según lo declarado por BTF; con abastecimiento y soporte a través de Teranova.",
+        "tagline": "HIFU + SDM en un solo dispositivo — el dispositivo doméstico de BTF para lifting, firmeza y luminosidad",
+        "about": [
+          "BTF comercializa el Ultrasonic Duo como \"el único dispositivo para uso doméstico\" que combina dos tecnologías de ultrasonido — Ultrasonido Focalizado de Alta Intensidad (HIFU) y Micro-ultrasonido de Gotas Superdensas (SDM) — en un solo dispositivo, calificándolo de cuidado de \"nivel clínico\" con \"resultados profesionales\" en casa. Estas son afirmaciones propias del fabricante sobre su posición en el mercado y no han sido verificadas de forma independiente por Teranova.",
+          "El HIFU funciona a 7 MHz y actúa sobre dos profundidades: 3.0mm (dermis) y 4.5mm, que BTF llama capa SMAS — \"la misma capa de soporte facial tratada en los lifting faciales quirúrgicos\", según la empresa. Esta es una comparación que BTF hace sobre su propia tecnología, no una afirmación de que el dispositivo produzca resultados equivalentes a un lifting facial quirúrgico.",
+          "El SDM funciona en tres frecuencias (3, 10 y 16 MHz) y, según BTF, distribuye la energía de ultrasonido sobre un área más amplia de la dermis que el HIFU por sí solo, utilizando \"el mismo protocolo usado en clínicas estéticas de alta gama\". El dispositivo combina ambas tecnologías en tres modos de uso: un modo Multi de 10 minutos (predeterminado), un modo Moisture de 8 minutos (solo 3 MHz) y un modo Elastic de 9 minutos (solo 10 MHz).",
+          "El propio marketing de BTF describe la rutina como \"10 minutos al día, 10 años más joven\" y promueve \"disparos ilimitados\" sin cartucho que reemplazar. Teranova publica la afirmación sobre los disparos con un matiz exacto, porque la propia especificación técnica de BTF es más precisa que su texto de marketing: el botón lateral viene preconfigurado a 1,000 disparos en el primer uso, y después pasa a salida ilimitada de forma permanente tras ese primer uso. Lea \"disparos ilimitados\" teniendo en cuenta ese detalle del primer uso.",
+          "Un giroscopio integrado pausa automáticamente el dispositivo tras 3 segundos sin movimiento y lo apaga tras 2 minutos, según la especificación de BTF — una función de seguridad contra el sobretratamiento accidental.",
+          "BTF cita una prueba de aplicación en humanos realizada por el Korea Institute of Dermatological Sciences (KIDS), del 19 de junio al 10 de julio de 2025, en 21 mujeres de entre 37 y 67 años, usando el modo Multi de SDM durante 10 minutos más HIFU a 4.5mm durante 1,000 disparos. Según ese estudio, las participantes mostraron una mejora del 31.13% en la elasticidad de la piel y del 37.18% en la luminosidad de la piel, ambas medidas inmediatamente después de un solo uso. Se aplica la propia nota al pie de BTF: \"los resultados individuales pueden variar según el tipo y la condición de la piel; los resultados son específicos de las participantes del estudio\". Se trata de un estudio pequeño, de una sola institución, que reporta un efecto inmediato posterior al uso, no un resultado de uso sostenido ni replicado de forma independiente, y Teranova no lo ha verificado de forma independiente.",
+          "BTF afirma que el dispositivo está \"validado por especialistas nacionales e internacionales, incluido el Australian Medical Advisory Board\" y hace referencia a \"una patente relacionada con la reducción del dolor en el funcionamiento del HIFU\". BTF no ha proporcionado los nombres de los miembros de ninguna junta, un informe de respaldo, ni un número de patente, país o fecha de presentación para ninguna de las dos afirmaciones — Teranova las publica exactamente como las declara BTF, sin confirmación independiente.",
+          "Según BTF (3 de septiembre de 2026), hay un pedido de prueba disponible desde 10 unidades y el pedido mínimo es de 30 unidades; el precio de exportación varía según la cantidad del pedido y no se publica aquí. BTF indica que actualmente no tiene acuerdos de distribución exclusiva vigentes, por lo que ningún territorio está cerrado para un nuevo socio."
+        ],
+        "itemNotes": [
+          "Color naranja, del material oficial de producto de BTF (PDF de Descripción del Producto, compartido el 7 de julio de 2026).",
+          "Color blanco, del material oficial de producto de BTF (PDF de Especificaciones, compartido el 7 de julio de 2026)."
+        ]
+      },
+      "pt": {
+        "seoTitle": "BTF Ultrasonic Duo — Dispositivo doméstico HIFU + SDM · Teranova",
+        "seoDesc": "O BTF Ultrasonic Duo combina ultrassom HIFU e SDM em um único aparelho para lifting, firmeza e luminosidade em casa. Especificações, dados clínicos e condições conforme declarado pela BTF; com fornecimento e suporte através da Teranova.",
+        "tagline": "HIFU + SDM em um único aparelho — o dispositivo doméstico da BTF para lifting, firmeza e luminosidade",
+        "about": [
+          "A BTF comercializa o Ultrasonic Duo como \"o único dispositivo doméstico\" que combina duas tecnologias de ultrassom — Ultrassom Focalizado de Alta Intensidade (HIFU) e Micro-ultrassom de Gotículas Superdensas (SDM) — em um único aparelho, chamando-o de cuidado de \"nível clínico\" com \"resultados profissionais\" em casa. Essas são alegações do próprio fabricante sobre sua posição de mercado e não foram verificadas de forma independente pela Teranova.",
+          "O HIFU opera a 7 MHz e atua em duas profundidades: 3.0mm (derme) e 4.5mm, que a BTF chama de camada SMAS — \"a mesma camada de sustentação facial tratada em lifting facial cirúrgico\", segundo a empresa. Esta é uma comparação que a BTF faz sobre sua própria tecnologia, não uma alegação de que o dispositivo produza resultados equivalentes a um lifting facial cirúrgico.",
+          "O SDM opera em três frequências (3, 10 e 16 MHz) e, segundo a BTF, distribui a energia de ultrassom por uma área mais ampla da derme do que o HIFU sozinho, usando \"o mesmo protocolo usado em clínicas estéticas de alto padrão\". O dispositivo combina ambas as tecnologias em três modos de uso: um modo Multi de 10 minutos (padrão), um modo Moisture de 8 minutos (somente 3 MHz) e um modo Elastic de 9 minutos (somente 10 MHz).",
+          "O próprio marketing da BTF descreve a rotina como \"10 minutos por dia, 10 anos mais jovem\" e promove \"disparos ilimitados\" sem cartucho para substituir. A Teranova publica a alegação sobre os disparos com uma qualificação exata, porque a própria especificação técnica da BTF é mais precisa do que seu material de marketing: o botão lateral vem pré-configurado para 1,000 disparos no primeiro uso, e depois passa para saída ilimitada de forma permanente após esse primeiro uso. Leia \"disparos ilimitados\" tendo em mente esse detalhe do primeiro uso.",
+          "Um giroscópio integrado pausa automaticamente o dispositivo após 3 segundos sem movimento e o desliga após 2 minutos, segundo a especificação da BTF — um recurso de segurança contra tratamento excessivo acidental.",
+          "A BTF cita um teste de aplicação em humanos conduzido pelo Korea Institute of Dermatological Sciences (KIDS), de 19 de junho a 10 de julho de 2025, em 21 mulheres com idades entre 37 e 67 anos, usando o modo Multi de SDM por 10 minutos, além de HIFU a 4.5mm por 1,000 disparos. Segundo esse estudo, as participantes apresentaram uma melhora de 31.13% na elasticidade da pele e de 37.18% na luminosidade da pele, ambas medidas imediatamente após um único uso. A nota de rodapé da própria BTF se aplica: \"os resultados individuais podem variar de acordo com o tipo e a condição da pele; os resultados são específicos das participantes do estudo\". Trata-se de um estudo pequeno, de uma única instituição, que relata um efeito imediato pós-uso, não um resultado de uso contínuo nem replicado de forma independente, e a Teranova não o verificou de forma independente.",
+          "A BTF afirma que o dispositivo é \"validado por especialistas nacionais e internacionais, incluindo o Australian Medical Advisory Board\" e faz referência a \"uma patente relacionada à redução de dor na operação do HIFU\". A BTF não forneceu os nomes de nenhum membro de junta, um relatório de comprovação, nem um número de patente, país ou data de depósito para nenhuma das duas alegações — a Teranova as publica exatamente como declaradas pela BTF, sem confirmação independente.",
+          "Segundo a BTF (3 de setembro de 2026), há um pedido de teste disponível a partir de 10 unidades e o pedido mínimo é de 30 unidades; o preço de exportação varia conforme a quantidade do pedido e não é divulgado aqui. A BTF afirma que atualmente não tem acordos de distribuição exclusiva em vigor, portanto nenhum território está fechado para um novo parceiro."
+        ],
+        "itemNotes": [
+          "Cor laranja, do material oficial de produto da BTF (PDF de Descrição do Produto, compartilhado em 7 de julho de 2026).",
+          "Cor branca, do material oficial de produto da BTF (PDF de Especificações, compartilhado em 7 de julho de 2026)."
+        ]
+      }
+    }
+  }
+]

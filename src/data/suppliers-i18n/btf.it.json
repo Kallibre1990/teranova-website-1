@@ -1,0 +1,77 @@
+{
+  "content": {
+    "tagline": "Dispositivi di bellezza per uso domestico HIFU + SDM, progettati e prodotti in Corea",
+    "descriptor": "BTF (\"Beauty That Fills\"), sviluppatore coreano di dispositivi di bellezza domestici a doppio ultrasuono e strumenti per lo styling; sviluppo prodotto gestito internamente dal concept alla produzione",
+    "origin": "Corea",
+    "about": [
+      "BTF (\"Beauty That Fills\") è un'azienda coreana sviluppatrice di dispositivi di bellezza per uso domestico, presentata a Teranova a InterCHARM Korea 2026. Il suo prodotto di punta, l'Ultrasonic Duo, combina due tecnologie a ultrasuoni — HIFU e SDM — in un unico manipolo; secondo l'azienda, è l'unico dispositivo per uso domestico che le combina entrambe in un solo apparecchio. BTF vende inoltre una piastra professionale per capelli e, secondo l'azienda, sta sviluppando un dispositivo autonomo basato solo su SDM.",
+      "BTF nasce da una società madre specializzata in decorazione a trasferimento termico e stampaggio a iniezione. Questa esperienza permette all'azienda di gestire internamente l'intero ciclo di sviluppo prodotto — concept, design, attrezzaggio, stampaggio, produzione e finitura — sia per i propri dispositivi sia per i partner OEM/ODM.",
+      "A settembre 2026, BTF dichiara di non avere accordi di distribuzione esclusiva in essere, quindi nessun territorio è precluso a un nuovo partner. La piastra professionale per capelli è già disponibile per la vendita; il dispositivo autonomo solo SDM è in una fase iniziale di sviluppo, con BTF che punta a un lancio tra gennaio e febbraio 2027 e specifiche non ancora definitive."
+    ],
+    "facts": [
+      "Dispositivo domestico a doppia tecnologia: HIFU + SDM in un unico manipolo — secondo BTF, l'unico dispositivo per uso domestico che le combina entrambe",
+      "Produzione radicata nell'attività di decorazione a trasferimento termico e stampaggio a iniezione della società madre; sviluppo prodotto interno dal concept alla produzione",
+      "Piastra professionale per capelli (commercializzata come Infinity-Styler) disponibile per la vendita; OEM/ODM aperti, EXW",
+      "Dispositivo autonomo solo SDM in sviluppo; BTF punta a un lancio tra gennaio e febbraio 2027, specifiche non ancora definitive",
+      "Nessun accordo di distribuzione esclusiva in essere a settembre 2026, secondo BTF — nessun territorio è precluso"
+    ],
+    "channels": [
+      "Distributori di dispositivi di bellezza per uso domestico e beauty tech",
+      "Rivenditori del settore estetico e wellness, catene di farmacie e drugstore",
+      "Distributori di attrezzature professionali per lo styling dei capelli",
+      "Brand alla ricerca di un partner coreano OEM/ODM per dispositivi"
+    ],
+    "lines": [
+      { "name": "Ultrasonic Duo", "note": "Dispositivo domestico HIFU + SDM per lifting, rassodamento e luminosità — il prodotto di punta di BTF. Specifiche complete, meccanismo di funzionamento e dati clinici sono riportati nella sua pagina dedicata." },
+      { "name": "Piastra professionale per capelli", "note": "Commercializzata come Infinity-Styler, secondo il materiale di BTF: una piastra interamente in ceramica con piastre flottanti e spegnimento di sicurezza automatico. Già disponibile per la vendita; OEM/ODM aperti (EXW, MOQ standard da 1.000 unità, potenzialmente negoziabile per personalizzazioni semplici di logo, packaging o colore del corpo, secondo la lettera di BTF del 14 settembre 2026). Le specifiche tecniche confermate, la certificazione (KC/CE previste per ottobre 2026, secondo l'azienda), il MOQ definitivo, il prezzo e le foto ufficiali del prodotto in inglese restano ancora in attesa del pacchetto di materiali di BTF previsto per ottobre." },
+      { "name": "Dispositivo solo SDM", "note": "In fase di sviluppo. Secondo BTF, aggiungerà una quarta frequenza a ultrasuoni (1 MHz) alle attuali 3/10/16 MHz; l'azienda punta a un lancio tra gennaio e febbraio 2027. Le specifiche non sono definitive e non sono stati ricevuti materiali di prodotto, quindi per ora non è pubblicata una pagina dedicata." }
+    ],
+    "tech": [
+      { "name": "HIFU — tensione profonda", "note": "Ultrasuoni focalizzati ad alta intensità (HIFU) a 7 MHz, che agiscono sul derma a 3,0 mm e su una profondità di 4,5 mm che BTF chiama strato SMAS, per stimolare il collagene — secondo BTF, lo stesso meccanismo utilizzato nei dispositivi professionali da clinica. BTF descrive la profondità di 4,5 mm come il raggiungimento dello «stesso strato di supporto del viso trattato nei lifting chirurgici» — un paragone proposto dal produttore, non un'affermazione indipendente di risultati equivalenti alla chirurgia." },
+      { "name": "SDM — luminosità superficiale", "note": "Super-dense Droplet Micro-ultrasound su tre frequenze (3, 10 e 16 MHz), che distribuisce l'energia su un'area del derma più ampia rispetto al solo HIFU. Secondo BTF, è lo stesso protocollo utilizzato nelle cliniche estetiche di fascia alta." },
+      { "name": "Design a cartuccia fissa", "note": "Nessuna cartuccia da sostituire. La specifica tecnica di BTF indica che il pulsante laterale è impostato di fabbrica su 1.000 impulsi al primo utilizzo, per poi passare a un utilizzo illimitato per tutta la vita del dispositivo — un dettaglio che le pagine di marketing dell'azienda omettono quando descrivono il dispositivo semplicemente come «impulsi illimitati». Teranova riporta qui la versione con questa precisazione perché è quanto dichiarato nel documento di specifica tecnica della stessa BTF." },
+      { "name": "Sicurezza con sensore giroscopico", "note": "Un giroscopio mette automaticamente in pausa l'erogazione dopo 3 secondi senza movimento e spegne il dispositivo dopo 2 minuti, secondo la specifica di BTF." }
+    ],
+    "formats": [
+      "Dispositivo domestico a ultrasuoni — Ultrasonic Duo (HIFU + SDM)",
+      "Strumento professionale per lo styling — piastra per capelli (Infinity-Styler)",
+      "Personalizzazione OEM/ODM: logo, nome del brand, design del packaging, colore del corpo del prodotto"
+    ],
+    "exportNote": "Secondo BTF (3 settembre 2026), l'Ultrasonic Duo è disponibile con un ordine di prova da 10 unità, con un ordine minimo di 30 unità; il prezzo all'esportazione varia in base alla quantità ordinata e non è pubblicato. Alla stessa data, BTF dichiara di non avere accordi di distribuzione esclusiva in essere, quindi nessun territorio è precluso a un nuovo partner. La piastra professionale per capelli viene spedita EXW con un MOQ standard da 1.000 unità, potenzialmente negoziabile per personalizzazioni semplici; il tempo di produzione OEM è di circa quattro mesi, quello ODM di circa uno-due mesi, secondo la lettera di BTF del 14 settembre 2026.",
+    "terms": [
+      { "label": "Base di consegna", "value": "EXW (piastra professionale per capelli); il prezzo all'esportazione dell'Ultrasonic Duo varia in base alla quantità ordinata, secondo BTF" },
+      { "label": "Ordine di prova / MOQ — Ultrasonic Duo", "value": "Ordine di prova da 10 unità; ordine minimo 30 unità (secondo BTF, 3 settembre 2026)" },
+      { "label": "MOQ — piastra professionale per capelli", "value": "MOQ standard da 1.000 unità; potenzialmente negoziabile per personalizzazioni semplici limitate a logo, packaging o colore (secondo BTF, 14 settembre 2026)" },
+      { "label": "Tempo di produzione — piastra per capelli", "value": "OEM: circa 4 mesi. ODM: circa 1-2 mesi (secondo BTF)" },
+      { "label": "Prezzi", "value": "Non pubblicati. Teranova richiede i prezzi aggiornati nella fase di trattativa." }
+    ],
+    "consentNote": "I dati e i materiali sono forniti da BTF (\"Beauty That Fills\") e pubblicati con il suo consenso scritto datato 14 settembre 2026. L'autorizzazione copre questo profilo sul sito e i documenti da esso generati; non si estende ai social media né a pubblicità autonome. Le affermazioni su certificazioni, test clinici, brevetti, valutazione da parte di comitati medici e partnership produttive sono dichiarate dall'azienda e sono soggette a conferma documentale nella fase di trattativa.",
+    "seoTitle": "BTF — Dispositivo domestico Ultrasonic Duo HIFU + SDM · Teranova",
+    "seoDesc": "BTF è un'azienda coreana sviluppatrice di dispositivi di bellezza per uso domestico: l'Ultrasonic Duo combina ultrasuoni HIFU e SDM in un unico manipolo, oltre a una piastra professionale per capelli. OEM/ODM, fornitura e assistenza tramite Teranova.",
+    "catalog_notes": [
+      "BTF Ultrasonic Duo, colorazione arancione — dal materiale ufficiale di prodotto di BTF (Product Description PDF, condiviso il 7 luglio 2026).",
+      "BTF Ultrasonic Duo, colorazione bianca — dal materiale ufficiale di prodotto di BTF (Specification PDF, condiviso il 7 luglio 2026)."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Profilo del fornitore",
+    "about_h": "L'azienda",
+    "for_whom": "A chi si rivolge:",
+    "lines_h": "Linee di prodotto",
+    "catalog_h": "Catalogo prodotti",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formati di prodotto",
+    "export_h": "Export e mercati",
+    "terms_h": "Condizioni di collaborazione",
+    "download_btn": "Scarica le condizioni (PDF)",
+    "pres_btn": "Scarica la presentazione (PDF)",
+    "terms_disc": "Prezzi e condizioni sono indicativi e vengono confermati nella fase di trattativa tramite Teranova. I prezzi non sono pubblicati; anche i contatti diretti di BTF non sono pubblicati — tutta la comunicazione passa attraverso Teranova.",
+    "cta_h": "Le interessa questo fornitore?",
+    "cta_d": "Ci scriva — Teranova organizza la trattativa, le verifiche e l'intera operazione dal primo contatto alla consegna.",
+    "cta_btn": "Contattare tramite Teranova",
+    "more": "Apri il profilo →",
+    "verified_suppliers": "Fornitori verificati",
+    "certs_h": "Certificazioni",
+    "certs_note": "Come dichiarato da BTF: l'Ultrasonic Duo possiede la certificazione KC e CE, e il suo meccanismo di riduzione del dolore è coperto da un brevetto (numero di brevetto non indicato). La certificazione KC e CE della piastra professionale per capelli è prevista per ottobre 2026, secondo l'azienda, e non è ancora confermata. Le copie dei documenti giustificativi vengono richieste e verificate nella fase di trattativa."
+  }
+}

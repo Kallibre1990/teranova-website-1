@@ -111,6 +111,7 @@ const SUPPLIERS = {
   skinroom: { eyebrow: 'Supplier profile', title: 'SkinRoom — Korean OBM studio: your own brand in 90 days', accent: '#C9A227' },
   'rnh-bio': { eyebrow: 'Supplier profile', title: 'RNH BIO · EXOLUNA — Korean exosomes made in-house, for scalp care and clinics', accent: '#67BE45' },
   agerin: { eyebrow: 'Supplier profile', title: 'AGERIN by AGERA BioTech — Korean derma-cosmetics on a patented Ageratum extract', accent: '#2E7D5B' },
+  btf: { eyebrow: 'Supplier profile', title: 'BTF — Ultrasonic Duo, a Korean home HIFU + SDM beauty device', accent: '#E2691F' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

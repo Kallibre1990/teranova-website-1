@@ -1,0 +1,18 @@
+---
+/* Профиль поставщика: btf — BTF («Beauty That Fills»), домашние устройства HIFU + SDM.
+   Публикуется по письменному разрешению компании от 14.09.2026 (Meena Jung).
+   Экспортная цена Ultrasonic Duo зависит от объёма заказа и не публикуется. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('btf')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

@@ -405,6 +405,16 @@ const SUPPLIERS = [
     pres: true,
     certs: ['GMP', 'HACCP', 'MFDS'],
   },
+  {
+    /* BTF: письменное согласие на профиль от 14.09.2026 (Meena Jung), по ранее
+       переданным материалам (PDF от 07.07.2026). Экспортная цена Ultrasonic Duo
+       зависит от объёма и не публикуется (письмо BTF 03.09.2026) — noPrice. */
+    id: 'btf', json: 'btf', supplier: 'BTF', brand: 'BTF · Ultrasonic Duo',
+    basis: 'EXW', noPrice: true,
+    colors: { deep: '#1B1F27', sky: '#D98A4A', bg: '#FBF2E8', line: '#F0D6B8' },
+    pres: true,
+    certs: ['KC · Ultrasonic Duo', 'CE · Ultrasonic Duo'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

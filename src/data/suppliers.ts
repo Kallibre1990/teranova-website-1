@@ -191,6 +191,19 @@ import sprxTr from './suppliers-i18n/sprx.tr.json';
 import sprxEs from './suppliers-i18n/sprx.es.json';
 import sprxPt from './suppliers-i18n/sprx.pt.json';
 import sprxCatalog from './suppliers-i18n/sprx.catalog.json';
+import btfRu from './suppliers-i18n/btf.ru.json';
+import btfEn from './suppliers-i18n/btf.en.json';
+import btfKo from './suppliers-i18n/btf.ko.json';
+import btfZh from './suppliers-i18n/btf.zh.json';
+import btfJa from './suppliers-i18n/btf.ja.json';
+import btfIt from './suppliers-i18n/btf.it.json';
+import btfDe from './suppliers-i18n/btf.de.json';
+import btfFr from './suppliers-i18n/btf.fr.json';
+import btfTr from './suppliers-i18n/btf.tr.json';
+import btfEs from './suppliers-i18n/btf.es.json';
+import btfPt from './suppliers-i18n/btf.pt.json';
+import btfCatalog from './suppliers-i18n/btf.catalog.json';
+import btfLines from './suppliers-i18n/btf.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2130,6 +2143,31 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any),
     },
+  },
+  {
+    slug: 'btf',
+    category: 'cosmetics',
+    name: 'BTF',
+    brand: 'BTF · Ultrasonic Duo',
+    status: 'provided',
+    /* Тёплый оранжевый и тёмно-графитовый — с их собственных фото устройства
+       (Product Description PDF, стр. 1) и логотипа на корпусе. */
+    brandColors: { deep: '#1B1F27', sky: '#D98A4A', accent: '#E2691F', bg: '#FBF2E8' },
+    voice: 'premium',
+    /* Каталог — два цветовых варианта Ultrasonic Duo из официальных PDF BTF
+       (переданы 07.07.2026, письменное согласие на публикацию — 14.09.2026).
+       Hair Iron и SDM-only фото не публикуем: официальные фото выпрямителя и
+       спецификации SDM ещё не присланы (T-20260916-005). */
+    catalog: btfCatalog as { line: string; items: { name: string; img: string; certs?: string[] }[] }[],
+    termsFile: { ru: '/docs/btf-terms-ru.pdf', en: '/docs/btf-terms-en.pdf', ko: '/docs/btf-terms-ko.pdf', zh: '/docs/btf-terms-zh.pdf', ja: '/docs/btf-terms-ja.pdf', it: '/docs/btf-terms-it.pdf', de: '/docs/btf-terms-de.pdf', fr: '/docs/btf-terms-fr.pdf', tr: '/docs/btf-terms-tr.pdf', es: '/docs/btf-terms-es.pdf', pt: '/docs/btf-terms-pt.pdf' },
+    presFile: { ru: '/docs/btf-presentation-ru.pdf', en: '/docs/btf-presentation-en.pdf', ko: '/docs/btf-presentation-ko.pdf', zh: '/docs/btf-presentation-zh.pdf', ja: '/docs/btf-presentation-ja.pdf', it: '/docs/btf-presentation-it.pdf', de: '/docs/btf-presentation-de.pdf', fr: '/docs/btf-presentation-fr.pdf', tr: '/docs/btf-presentation-tr.pdf', es: '/docs/btf-presentation-es.pdf', pt: '/docs/btf-presentation-pt.pdf' },
+    /* KC/CE указаны только за Ultrasonic Duo (письмо BTF 03.09.2026); у Hair
+       Iron сертификация ожидается в октябре 2026 — бейджа на неё нет. priceFile
+       нет: письмо Teranova 03.09.2026 согласовало «price on request». */
+    certs: ['KC · Ultrasonic Duo', 'CE · Ultrasonic Duo'],
+    i18n: {
+      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any),
+    },
   }
 ];
 
@@ -2164,7 +2202,7 @@ export const supplierSlugs = suppliers.map((s) => s.slug);
 
 export const linePages: SupplierLinePage[] = [
   ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
-  ...jetsglobalLines, ...kiftLines, ...ckRegeonLines,
+  ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
 ] as SupplierLinePage[];
 /** Lines of one supplier, in catalog order — used to link them from the profile. */
 export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>

@@ -1,0 +1,77 @@
+{
+  "content": {
+    "tagline": "HIFU + SDM 家用美容仪，韩国设计与生产",
+    "descriptor": "BTF（\"Beauty That Fills\"）是一家韩国双超声波家用美容仪和造型工具开发商，产品开发从概念到生产全部由公司内部自行管理",
+    "origin": "韩国",
+    "about": [
+      "BTF（\"Beauty That Fills\"）是一家韩国家用美容仪开发商，在InterCHARM Korea 2026展会上被引荐给Teranova。其旗舰产品Ultrasonic Duo将HIFU和SDM两种超声波技术集成于一体，据该公司称，这是唯一将两种技术合二为一的家用设备。BTF还销售Professional Hair Iron，据该公司称，正在开发一款独立的SDM单一技术设备。",
+      "BTF脱胎于一家专注于热转印装饰和注塑成型的母公司。这一背景使公司能够自行管理产品开发的全流程——从概念、设计、模具、成型、生产到最终加工——无论是自有设备还是OEM/ODM合作伙伴的产品均是如此。",
+      "截至2026年9月，BTF表示目前没有已签订的独家经销协议，因此没有任何地区对新合作伙伴关闭。Professional Hair Iron现已上市销售；独立的SDM单一技术设备仍处于早期开发阶段，BTF的目标上市窗口为2027年1月至2月，具体规格尚未最终确定。"
+    ],
+    "facts": [
+      "双技术家用设备：单一手持设备集成HIFU + SDM——据BTF称，是唯一将两者结合的家用设备",
+      "生产能力源自母公司的热转印装饰和注塑成型业务；产品开发从概念到生产均由内部自行完成",
+      "Professional Hair Iron（以Infinity-Styler品牌销售）现已上市；开放OEM/ODM合作，交货条件为EXW",
+      "独立SDM单一技术设备正在开发中；BTF目标于2027年1月至2月上市，规格尚未最终确定",
+      "截至2026年9月尚无已签订的独家经销协议，据BTF称——没有地区被排除在外"
+    ],
+    "channels": [
+      "家用美容仪及美容科技产品经销商",
+      "美容与健康零售商、药房及日化连锁店",
+      "专业美发造型设备经销商",
+      "寻求韩国OEM/ODM设备合作伙伴的品牌方"
+    ],
+    "lines": [
+      { "name": "Ultrasonic Duo", "note": "一款用于提拉紧致、紧实肌肤和提亮肤色的家用HIFU + SDM设备，是BTF的旗舰产品。完整规格、作用机制和临床数据详见其专属页面。" },
+      { "name": "专业美发直发器", "note": "根据BTF的资料，该产品以Infinity-Styler品牌销售：一款全陶瓷浮动板美发直发器，配备自动安全断电功能。现已上市销售；开放OEM/ODM合作（EXW条件，标准起订量为1,000件起，若仅为简单的logo、包装或机身颜色定制，根据BTF 2026年9月14日的函件，可能可协商调整）。确认的技术规格、认证（据该公司称，KC/CE预计于2026年10月完成）、最终起订量、价格以及官方英文产品图片仍有待BTF在10月提供的资料包。" },
+      { "name": "SDM单一技术设备", "note": "正在开发中。据BTF称，将在现有3/10/16 MHz的基础上增加第四个超声波频率（1 MHz）；公司目标于2027年1月至2月上市。规格尚未最终确定，也尚未收到产品资料，因此该产品目前尚未发布专属页面。" }
+    ],
+    "tech": [
+      { "name": "HIFU——深层紧致", "note": "高强度聚焦超声波（HIFU）频率为7 MHz，作用于3.0mm真皮层以及BTF所称的SMAS层（4.5mm深度），以刺激胶原蛋白生成——据BTF称，这与专业诊所设备采用的机制相同。BTF将4.5mm深度描述为达到\"与手术拉皮所处理的面部支撑层相同的层次\"——这是制造商自行做出的类比，并非声称该设备能产生与手术相当的效果的独立主张。" },
+      { "name": "SDM——表层提亮", "note": "超密微滴超声波（SDM）覆盖三个频率（3、10和16 MHz），相比单独使用HIFU，可将能量分布到真皮更大的区域。据BTF称，这与高端美容诊所所采用的方案相同。" },
+      { "name": "固定式探头设计", "note": "无需更换探头。BTF自身的技术规格文件指出，侧边按钮在首次使用时预设为1,000次输出，此后在设备使用寿命内切换为无限次输出——这一细节在其营销页面中被省略，那里仅将设备简单描述为\"无限次输出\"。Teranova在此处发布经过限定说明的版本，因为这正是BTF自身规格文件中所写的内容。" },
+      { "name": "陀螺仪安全保护", "note": "根据BTF的规格说明，陀螺仪会在设备静止3秒后自动暂停输出，并在2分钟后自动关机。" }
+    ],
+    "formats": [
+      "家用超声波设备——Ultrasonic Duo（HIFU + SDM）",
+      "专业造型工具——美发直发器（Infinity-Styler）",
+      "OEM/ODM定制：logo、品牌名称、包装设计、产品机身颜色"
+    ],
+    "exportNote": "据BTF称（2026年9月3日），Ultrasonic Duo可接受10件起的试订单，最低起订量为30件；出口价格因订单数量而异，未公开。截至同一日期，BTF表示目前没有已签订的独家经销协议，因此没有任何地区对新合作伙伴关闭。Professional Hair Iron以EXW条件出货，标准起订量为1,000件起，若为简单定制可能可协商调整；OEM生产周期约为4个月，ODM约为1至2个月（根据BTF 2026年9月14日的函件）。",
+    "terms": [
+      { "label": "交货条件", "value": "EXW（Professional Hair Iron）；Ultrasonic Duo的出口价格因订单数量而异，据BTF称" },
+      { "label": "试订单/起订量——Ultrasonic Duo", "value": "试订单10件起；最低起订量30件（据BTF称，2026年9月3日）" },
+      { "label": "起订量——Professional Hair Iron", "value": "标准起订量1,000件起；若仅为logo、包装或颜色的简单定制，可能可协商调整（据BTF称，2026年9月14日）" },
+      { "label": "生产周期——美发直发器", "value": "OEM：约4个月。ODM：约1至2个月（据BTF称）" },
+      { "label": "价格", "value": "未公开。Teranova会在交易阶段索取最新报价。" }
+    ],
+    "consentNote": "本资料和数据由BTF（\"Beauty That Fills\"）提供，并根据其2026年9月14日出具的书面同意发布。该授权适用于本网站档案页面及据此生成的文件；不适用于社交媒体或独立广告投放。有关认证、临床测试、专利、医学委员会审查及生产合作关系的说法均由该公司自行陈述，须在交易阶段通过文件确认。",
+    "seoTitle": "BTF——Ultrasonic Duo HIFU + SDM家用设备 · Teranova",
+    "seoDesc": "BTF是一家韩国家用美容仪开发商：Ultrasonic Duo将HIFU和SDM超声波技术集成于一体，另有Professional Hair Iron产品。OEM/ODM，通过Teranova采购与支持。",
+    "catalog_notes": [
+      "BTF Ultrasonic Duo，橙色款——来自BTF官方产品资料（Product Description PDF，2026年7月7日提供）。",
+      "BTF Ultrasonic Duo，白色款——来自BTF官方产品资料（Specification PDF，2026年7月7日提供）。"
+    ]
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "价格和条件仅供参考，最终以通过Teranova在交易阶段确认的内容为准。价格不公开；BTF的直接联系方式同样不公开——所有沟通均通过Teranova进行。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "据BTF陈述：Ultrasonic Duo持有KC和CE认证，其疼痛缓解机制受专利保护（未提供专利号）。据该公司称，Professional Hair Iron的KC和CE认证预计于2026年10月完成，目前尚未确认。相关证明文件副本将在交易阶段索取并核实。"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "content": {
+    "tagline": "Appareils de beauté à domicile HIFU + SDM, conçus et fabriqués en Corée",
+    "descriptor": "BTF (« Beauty That Fills »), concepteur coréen d'appareils de beauté à domicile à double ultrason et d'outils de coiffure ; développement produit géré en interne, du concept à la production",
+    "origin": "Corée",
+    "about": [
+      "BTF (« Beauty That Fills ») est un concepteur coréen d'appareils de beauté à domicile, présenté à Teranova lors du salon InterCHARM Korea 2026. Son produit phare, l'Ultrasonic Duo, combine deux technologies à ultrasons — HIFU et SDM — dans un seul manche ; selon l'entreprise, il s'agit du seul appareil à domicile qui combine les deux dans un seul boîtier. BTF vend également un fer à lisser professionnel et, selon l'entreprise, développe un appareil autonome fonctionnant uniquement en SDM.",
+      "BTF est né d'une société mère spécialisée dans la décoration par transfert thermique et le moulage par injection. Ce parcours permet à l'entreprise de gérer en interne l'ensemble du cycle de développement produit — concept, design, outillage, moulage, production et finition — tant pour ses propres appareils que pour ses partenaires OEM/ODM.",
+      "En date de septembre 2026, BTF déclare n'avoir aucun accord de distribution exclusive en vigueur, de sorte qu'aucun territoire n'est fermé à un nouveau partenaire. Le fer à lisser professionnel est disponible à la vente dès maintenant ; l'appareil autonome fonctionnant uniquement en SDM en est à un stade précoce de développement, BTF visant un lancement entre janvier et février 2027, avec des spécifications pas encore finalisées."
+    ],
+    "facts": [
+      "Appareil à domicile à double technologie : HIFU + SDM dans un seul manche — selon BTF, le seul appareil à domicile combinant les deux",
+      "Fabrication ancrée dans l'activité de décoration par transfert thermique et de moulage par injection de la société mère ; développement produit en interne, du concept à la production",
+      "Fer à lisser professionnel (commercialisé sous le nom Infinity-Styler) disponible à la vente ; OEM/ODM ouverts, EXW",
+      "Appareil autonome fonctionnant uniquement en SDM en cours de développement ; BTF vise un lancement en janvier–février 2027, spécifications pas encore finalisées",
+      "Aucun accord de distribution exclusive en vigueur en date de septembre 2026, selon BTF — aucun territoire n'est fermé"
+    ],
+    "channels": [
+      "Distributeurs d'appareils de beauté à domicile et de beauty tech",
+      "Détaillants du secteur esthétique et bien-être, chaînes de pharmacies et de drugstores",
+      "Distributeurs d'équipements professionnels de coiffure",
+      "Propriétaires de marques à la recherche d'un partenaire coréen OEM/ODM pour appareils"
+    ],
+    "lines": [
+      { "name": "Ultrasonic Duo", "note": "Un appareil à domicile HIFU + SDM pour le lifting, le raffermissement et l'éclat — le produit phare de BTF. Les spécifications complètes, le mécanisme et les données cliniques figurent sur sa page dédiée." },
+      { "name": "Fer à lisser professionnel", "note": "Commercialisé sous le nom Infinity-Styler, selon les documents de BTF : un fer entièrement céramique à plaques flottantes avec arrêt de sécurité automatique. Disponible à la vente dès maintenant ; OEM/ODM ouverts (EXW, MOQ standard à partir de 1 000 unités, potentiellement négociable pour une personnalisation simple du logo, de l'emballage ou de la couleur du boîtier, selon la lettre de BTF du 14 septembre 2026). Les spécifications techniques confirmées, la certification (KC/CE attendues en octobre 2026, selon l'entreprise), le MOQ définitif, les prix et les photos officielles du produit en anglais restent encore en attente du dossier de matériel d'octobre de BTF." },
+      { "name": "Appareil uniquement SDM", "note": "En cours de développement. Selon BTF, il ajoutera une quatrième fréquence à ultrasons (1 MHz) aux fréquences existantes 3/10/16 MHz ; l'entreprise vise un lancement en janvier–février 2027. Les spécifications ne sont pas finalisées et aucun document produit n'a été reçu, aucune page dédiée n'est donc encore publiée pour cet appareil." }
+    ],
+    "tech": [
+      { "name": "HIFU — raffermissement en profondeur", "note": "Ultrasons focalisés de haute intensité (HIFU) à 7 MHz, ciblant le derme à 3,0 mm ainsi qu'une profondeur de 4,5 mm que BTF appelle la couche SMAS, afin de stimuler le collagène — selon BTF, le même mécanisme que celui utilisé dans les appareils professionnels en clinique. BTF décrit la profondeur de 4,5 mm comme atteignant « la même couche de soutien du visage traitée lors des liftings chirurgicaux » — une comparaison établie par le fabricant, et non une allégation indépendante de résultats équivalents à la chirurgie." },
+      { "name": "SDM — éclat de surface", "note": "Super-dense Droplet Micro-ultrasound sur trois fréquences (3, 10 et 16 MHz), répartissant l'énergie sur une zone du derme plus étendue que le HIFU seul. Selon BTF, il s'agit du même protocole que celui utilisé dans les cliniques esthétiques haut de gamme." },
+      { "name": "Cartouche fixe intégrée", "note": "Aucune cartouche à remplacer. La spécification technique de BTF indique que le bouton latéral est préréglé en usine à 1 000 impulsions lors de la première utilisation, puis passe à une sortie illimitée pour toute la durée de vie de l'appareil — un détail que les pages marketing de l'entreprise omettent lorsqu'elles décrivent simplement l'appareil comme offrant des « impulsions illimitées ». Teranova indique ici la version précisée, car c'est ce qu'affirme le document de spécification technique propre à BTF." },
+      { "name": "Sécurité par gyroscope", "note": "Un gyroscope met automatiquement l'appareil en pause après 3 secondes sans mouvement et l'éteint après 2 minutes, selon la spécification de BTF." }
+    ],
+    "formats": [
+      "Appareil à ultrasons à domicile — Ultrasonic Duo (HIFU + SDM)",
+      "Outil de coiffure professionnel — fer à lisser (Infinity-Styler)",
+      "Personnalisation OEM/ODM : logo, nom de marque, design de l'emballage, couleur du boîtier du produit"
+    ],
+    "exportNote": "Selon BTF (3 septembre 2026), l'Ultrasonic Duo est disponible à partir d'une commande d'essai de 10 unités, avec une commande minimale de 30 unités ; le prix à l'export varie selon la quantité commandée et n'est pas publié. À la même date, BTF déclare n'avoir aucun accord de distribution exclusive en vigueur, de sorte qu'aucun territoire n'est fermé à un nouveau partenaire. Le fer à lisser professionnel est expédié EXW avec un MOQ standard à partir de 1 000 unités, potentiellement négociable pour une personnalisation simple ; le délai de production OEM est d'environ quatre mois, celui de l'ODM d'environ un à deux mois, selon la lettre de BTF du 14 septembre 2026.",
+    "terms": [
+      { "label": "Base de livraison", "value": "EXW (fer à lisser professionnel) ; le prix à l'export de l'Ultrasonic Duo varie selon la quantité commandée, selon BTF" },
+      { "label": "Commande d'essai / MOQ — Ultrasonic Duo", "value": "Commande d'essai à partir de 10 unités ; commande minimale de 30 unités (selon BTF, 3 septembre 2026)" },
+      { "label": "MOQ — fer à lisser professionnel", "value": "MOQ standard à partir de 1 000 unités ; potentiellement négociable pour une personnalisation simple limitée au logo, à l'emballage ou à la couleur (selon BTF, 14 septembre 2026)" },
+      { "label": "Délai de production — fer à lisser", "value": "OEM : environ 4 mois. ODM : environ 1 à 2 mois (selon BTF)" },
+      { "label": "Prix", "value": "Non publiés. Teranova demande les prix en vigueur au stade de la négociation." }
+    ],
+    "consentNote": "Les données et documents sont fournis par BTF (« Beauty That Fills ») et publiés avec son consentement écrit daté du 14 septembre 2026. L'autorisation couvre ce profil du site et les documents qui en sont issus ; elle ne s'étend pas aux réseaux sociaux ni à la publicité autonome. Les allégations relatives à la certification, aux essais cliniques, aux brevets, à l'examen par un comité médical et aux partenariats de fabrication sont déclarées par l'entreprise et sont soumises à confirmation documentaire au stade de la négociation.",
+    "seoTitle": "BTF — Ultrasonic Duo, appareil à domicile HIFU + SDM · Teranova",
+    "seoDesc": "BTF est un concepteur coréen d'appareils de beauté à domicile : l'Ultrasonic Duo combine les ultrasons HIFU et SDM dans un seul manche, ainsi qu'un fer à lisser professionnel. OEM/ODM, approvisionnement et accompagnement via Teranova.",
+    "catalog_notes": [
+      "BTF Ultrasonic Duo, coloris orange — d'après le matériel produit officiel de BTF (Product Description PDF, transmis le 7 juillet 2026).",
+      "BTF Ultrasonic Duo, coloris blanc — d'après le matériel produit officiel de BTF (Specification PDF, transmis le 7 juillet 2026)."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Les prix et conditions sont indicatifs et confirmés au stade de la négociation via Teranova. Les prix ne sont pas publiés ; les contacts directs de BTF ne le sont pas non plus — toute communication passe par Teranova.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "Selon les déclarations de BTF : l'Ultrasonic Duo dispose des certifications KC et CE, et son mécanisme de réduction de la douleur est protégé par un brevet (numéro de brevet non communiqué). La certification KC et CE du fer à lisser professionnel devrait être finalisée en octobre 2026, selon l'entreprise, et n'est pas encore confirmée. Des copies des documents justificatifs sont demandées et vérifiées au stade de la négociation."
+  }
+}

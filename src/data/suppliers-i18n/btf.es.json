@@ -1,0 +1,77 @@
+{
+  "content": {
+    "tagline": "Dispositivos de belleza para el hogar HIFU + SDM, diseñados y fabricados en Corea",
+    "descriptor": "BTF (\"Beauty That Fills\"), una empresa coreana que desarrolla dispositivos de belleza para el hogar con doble tecnología de ultrasonido y herramientas de peinado; el desarrollo de producto se gestiona internamente desde el concepto hasta la producción",
+    "origin": "Corea",
+    "about": [
+      "BTF (\"Beauty That Fills\") es una empresa coreana que desarrolla dispositivos de belleza para el hogar, presentada a Teranova en InterCHARM Korea 2026. Su producto insignia, el Ultrasonic Duo, combina dos tecnologías de ultrasonido — HIFU y SDM — en un solo dispositivo; según la empresa, es el único dispositivo para uso doméstico que combina ambas en una sola unidad. BTF también vende un Professional Hair Iron y, según la empresa, está desarrollando un dispositivo independiente solo con SDM.",
+      "BTF se originó a partir de una empresa matriz especializada en decoración por transferencia térmica y moldeo por inyección. Este origen le permite a la empresa gestionar internamente todo el ciclo de desarrollo de producto — concepto, diseño, herramental, moldeo, producción y acabado — tanto para sus propios dispositivos como para socios OEM/ODM.",
+      "Según indica BTF, a septiembre de 2026 la empresa no tiene acuerdos de distribución exclusiva vigentes, por lo que ningún territorio está cerrado para un nuevo socio. El Professional Hair Iron ya está disponible para la venta; el dispositivo independiente solo con SDM se encuentra en fase temprana de desarrollo, con BTF apuntando a un lanzamiento entre enero y febrero de 2027 y especificaciones aún no definitivas."
+    ],
+    "facts": [
+      "Dispositivo doméstico de doble tecnología: HIFU + SDM en un solo dispositivo — según BTF, el único dispositivo para uso doméstico que combina ambas",
+      "Fabricación basada en el negocio de decoración por transferencia térmica y moldeo por inyección de la empresa matriz; desarrollo de producto interno desde el concepto hasta la producción",
+      "Professional Hair Iron (comercializado como Infinity-Styler) disponible para la venta; OEM/ODM abierto, EXW",
+      "Dispositivo independiente solo con SDM en desarrollo; BTF apunta a un lanzamiento entre enero y febrero de 2027, especificaciones aún no definitivas",
+      "Sin acuerdos de distribución exclusiva vigentes a septiembre de 2026, según BTF — ningún territorio está cerrado"
+    ],
+    "channels": [
+      "Distribuidores de dispositivos de belleza para el hogar y beauty tech",
+      "Minoristas de estética y bienestar, cadenas de farmacias y droguerías",
+      "Distribuidores de equipos profesionales de peinado",
+      "Propietarios de marca que buscan un socio coreano de fabricación OEM/ODM"
+    ],
+    "lines": [
+      { "name": "Ultrasonic Duo", "note": "Un dispositivo doméstico HIFU + SDM para lifting, firmeza y luminosidad — el producto insignia de BTF. Las especificaciones completas, el mecanismo y los datos clínicos se detallan en su página dedicada." },
+      { "name": "Plancha de pelo profesional", "note": "Comercializada como Infinity-Styler, según el material de BTF: una plancha de placas flotantes totalmente cerámicas con apagado automático de seguridad. Disponible para la venta ahora; OEM/ODM abierto (EXW, MOQ estándar desde 1,000 unidades, posiblemente negociable para personalización simple de logo, empaque o color del cuerpo, según la carta de BTF del 14 de septiembre de 2026). Las especificaciones técnicas confirmadas, la certificación (se espera KC/CE en octubre de 2026, según la empresa), el MOQ final, los precios y la fotografía oficial del producto en inglés siguen pendientes del paquete de materiales de BTF de octubre." },
+      { "name": "Dispositivo solo con SDM", "note": "En desarrollo. Según BTF, añadirá una cuarta frecuencia de ultrasonido (1 MHz) al conjunto existente de 3/10/16 MHz; la empresa apunta a un lanzamiento entre enero y febrero de 2027. Las especificaciones no están definitivas y no se ha recibido material de producto, por lo que aún no se publica una página dedicada para él." }
+    ],
+    "tech": [
+      { "name": "HIFU — reafirmación profunda", "note": "Ultrasonido focalizado de alta intensidad a 7 MHz, que actúa sobre la dermis a 3.0mm y una profundidad de 4.5mm que BTF llama capa SMAS, para estimular el colágeno — según BTF, el mismo mecanismo utilizado en dispositivos clínicos profesionales. BTF describe la profundidad de 4.5mm como que alcanza \"la misma capa de soporte facial tratada en los lifting faciales quirúrgicos\" — una comparación hecha por el fabricante, no una afirmación independiente de resultados equivalentes a los quirúrgicos." },
+      { "name": "SDM — luminosidad superficial", "note": "Micro-ultrasonido de gotas superdensas (SDM) en tres frecuencias (3, 10 y 16 MHz), que distribuye la energía sobre un área más amplia de la dermis que el HIFU por sí solo. Según BTF, este es el mismo protocolo utilizado en clínicas estéticas de alta gama." },
+      { "name": "Diseño de cartucho fijo", "note": "No hay cartucho que reemplazar. La propia especificación técnica de BTF indica que el botón lateral viene preconfigurado a 1,000 disparos en el primer uso y después pasa a salida ilimitada durante toda la vida útil del dispositivo — un detalle que sus páginas de marketing omiten cuando describen el dispositivo simplemente como \"disparos ilimitados\". Teranova indica aquí la versión matizada porque es lo que dice el propio documento de especificación de BTF." },
+      { "name": "Seguridad por sensor giroscópico", "note": "Según la especificación de BTF, un giroscopio pausa automáticamente la salida tras 3 segundos sin movimiento y apaga el dispositivo tras 2 minutos." }
+    ],
+    "formats": [
+      "Dispositivo doméstico de ultrasonido — Ultrasonic Duo (HIFU + SDM)",
+      "Herramienta profesional de peinado — Plancha de pelo (Infinity-Styler)",
+      "Personalización OEM/ODM: logo, nombre de marca, diseño de empaque, color del cuerpo del producto"
+    ],
+    "exportNote": "Según BTF (3 de septiembre de 2026), el Ultrasonic Duo está disponible desde un pedido de prueba de 10 unidades, con un pedido mínimo de 30 unidades; el precio de exportación varía según la cantidad del pedido y no está publicado. A la misma fecha, BTF indica que no tiene acuerdos de distribución exclusiva vigentes, por lo que ningún territorio está cerrado para un nuevo socio. El Professional Hair Iron se envía en condición EXW con un MOQ estándar desde 1,000 unidades, posiblemente negociable para personalización simple; el plazo de entrega OEM es de aproximadamente cuatro meses, el ODM de aproximadamente uno a dos meses, según la carta de BTF del 14 de septiembre de 2026.",
+    "terms": [
+      { "label": "Condición de entrega", "value": "EXW (Professional Hair Iron); el precio de exportación del Ultrasonic Duo varía según la cantidad del pedido, según BTF" },
+      { "label": "Pedido de prueba / MOQ — Ultrasonic Duo", "value": "Pedido de prueba desde 10 unidades; pedido mínimo 30 unidades (según BTF, 3 de septiembre de 2026)" },
+      { "label": "MOQ — Professional Hair Iron", "value": "MOQ estándar desde 1,000 unidades; puede ser negociable para personalización simple de logo, empaque o solo color (según BTF, 14 de septiembre de 2026)" },
+      { "label": "Plazo de producción — Plancha de pelo", "value": "OEM: aproximadamente 4 meses. ODM: aproximadamente 1–2 meses (según BTF)" },
+      { "label": "Precios", "value": "No publicados. Teranova solicita los precios vigentes en la etapa de negociación." }
+    ],
+    "consentNote": "Los datos y materiales son proporcionados por BTF (\"Beauty That Fills\") y se publican con su consentimiento por escrito de fecha 14 de septiembre de 2026. El permiso cubre este perfil del sitio web y los documentos generados a partir de él; no se extiende a redes sociales ni a publicidad independiente. Las afirmaciones sobre certificación, pruebas clínicas, patentes, revisión por junta médica y alianzas de fabricación son declaradas por la empresa y están sujetas a confirmación documental en la etapa de negociación.",
+    "seoTitle": "BTF — Dispositivo doméstico Ultrasonic Duo HIFU + SDM · Teranova",
+    "seoDesc": "BTF es una empresa coreana que desarrolla dispositivos de belleza para el hogar: el Ultrasonic Duo combina ultrasonido HIFU y SDM en un solo dispositivo, además de un Professional Hair Iron. OEM/ODM, con abastecimiento y soporte a través de Teranova.",
+    "catalog_notes": [
+      "BTF Ultrasonic Duo, color naranja — del material oficial de producto de BTF (PDF de Descripción del Producto, compartido el 7 de julio de 2026).",
+      "BTF Ultrasonic Duo, color blanco — del material oficial de producto de BTF (PDF de Especificaciones, compartido el 7 de julio de 2026)."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Los precios y las condiciones son orientativos y se confirman en la etapa de negociación a través de Teranova. Los precios no están publicados; los contactos directos de BTF tampoco están publicados — toda la comunicación se realiza a través de Teranova.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "Según lo declarado por BTF: el Ultrasonic Duo cuenta con certificación KC y CE, y su mecanismo de reducción del dolor está protegido por una patente (no se indica el número de patente). La certificación KC y CE del Professional Hair Iron se espera que se complete en octubre de 2026, según la empresa, y aún no está confirmada. Las copias de los documentos de respaldo se solicitan y verifican en la etapa de negociación."
+  }
+}

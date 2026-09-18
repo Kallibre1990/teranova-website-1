@@ -1,0 +1,77 @@
+{
+  "content": {
+    "tagline": "Home-Beauty-Geräte mit HIFU + SDM, entwickelt und hergestellt in Korea",
+    "descriptor": "BTF (\"Beauty That Fills\"), ein koreanischer Entwickler von Home-Beauty-Geräten mit doppeltem Ultraschall und Styling-Tools; Produktentwicklung intern gesteuert von der Konzeption bis zur Produktion",
+    "origin": "Korea",
+    "about": [
+      "BTF (\"Beauty That Fills\") ist ein koreanischer Entwickler von Home-Beauty-Geräten, der Teranova auf der InterCHARM Korea 2026 vorgestellt wurde. Sein Flaggschiffprodukt, das Ultrasonic Duo, vereint zwei Ultraschalltechnologien — HIFU und SDM — in einem einzigen Handstück; laut Unternehmensangaben ist es das einzige Heimgerät, das beide in einem Gerät kombiniert. BTF verkauft außerdem ein professionelles Haarglätteisen und entwickelt laut eigenen Angaben ein eigenständiges Gerät nur mit SDM.",
+      "BTF ist aus einer Muttergesellschaft hervorgegangen, die auf Heißprägedekoration und Spritzguss spezialisiert ist. Dieser Hintergrund ermöglicht es dem Unternehmen, den gesamten Produktentwicklungszyklus intern zu steuern — Konzept, Design, Werkzeugbau, Formguss, Produktion und Endbearbeitung — sowohl für eigene Geräte als auch für OEM/ODM-Partner.",
+      "Stand September 2026 erklärt BTF, keine exklusiven Vertriebsvereinbarungen zu haben, sodass kein Gebiet für einen neuen Partner ausgeschlossen ist. Das professionelle Haarglätteisen ist bereits erhältlich; das eigenständige Gerät nur mit SDM befindet sich in einer frühen Entwicklungsphase, wobei BTF einen Markteinführungszeitraum zwischen Januar und Februar 2027 anstrebt und die Spezifikationen noch nicht endgültig festgelegt sind."
+    ],
+    "facts": [
+      "Home-Gerät mit zwei Technologien: HIFU + SDM in einem Handstück — laut BTF das einzige Heimgerät, das beide kombiniert",
+      "Fertigung verwurzelt im Heißprägedekorations- und Spritzgussgeschäft der Muttergesellschaft; interne Produktentwicklung vom Konzept bis zur Produktion",
+      "Professionelles Haarglätteisen (vermarktet als Infinity-Styler) erhältlich; OEM/ODM offen, EXW",
+      "Eigenständiges Gerät nur mit SDM in Entwicklung; BTF strebt eine Markteinführung im Januar–Februar 2027 an, Spezifikationen noch nicht endgültig",
+      "Keine exklusiven Vertriebsvereinbarungen bestehen Stand September 2026, laut BTF — kein Gebiet ist ausgeschlossen"
+    ],
+    "channels": [
+      "Vertriebspartner für Home-Beauty-Geräte und Beauty-Tech",
+      "Ästhetik- und Wellness-Einzelhändler, Apotheken- und Drogerieketten",
+      "Vertriebspartner für professionelle Haarstyling-Geräte",
+      "Markeninhaber auf der Suche nach einem koreanischen OEM/ODM-Partner für Geräte"
+    ],
+    "lines": [
+      { "name": "Ultrasonic Duo", "note": "Ein Home-Gerät mit HIFU + SDM für Lifting, Straffung und Aufhellung — das Flaggschiffprodukt von BTF. Vollständige Spezifikationen, Wirkmechanismus und klinische Daten sind auf der eigenen Produktseite aufgeführt." },
+      { "name": "Professionelles Haarglätteisen", "note": "Vermarktet als Infinity-Styler, laut Unterlagen von BTF: ein Glätteisen komplett aus Keramik mit schwimmenden Platten und automatischer Sicherheitsabschaltung. Bereits erhältlich; OEM/ODM offen (EXW, Standard-MOQ ab 1.000 Einheiten, laut Schreiben von BTF vom 14. September 2026 möglicherweise verhandelbar bei einfacher Anpassung von Logo, Verpackung oder Gehäusefarbe). Bestätigte technische Spezifikationen, Zertifizierung (KC/CE laut Unternehmen für Oktober 2026 erwartet), endgültiger MOQ, Preise und offizielle englischsprachige Produktfotos stehen noch aus und werden mit dem für Oktober angekündigten Materialpaket von BTF erwartet." },
+      { "name": "Reines SDM-Gerät", "note": "In der Entwicklung. Laut BTF wird eine vierte Ultraschallfrequenz (1 MHz) zu den bestehenden 3/10/16 MHz hinzugefügt; das Unternehmen strebt eine Markteinführung im Januar–Februar 2027 an. Die Spezifikationen sind noch nicht endgültig, und es wurden noch keine Produktunterlagen übermittelt, weshalb dafür bisher keine eigene Seite veröffentlicht ist." }
+    ],
+    "tech": [
+      { "name": "HIFU — Tiefenstraffung", "note": "Hochintensiver fokussierter Ultraschall (HIFU) bei 7 MHz, der auf die 3,0 mm tiefe Dermis sowie eine 4,5 mm tiefe Schicht zielt, die BTF als SMAS-Schicht bezeichnet, um Kollagen zu stimulieren — laut BTF derselbe Mechanismus, der in professionellen Klinikgeräten verwendet wird. BTF beschreibt die 4,5-mm-Tiefe als Erreichen „derselben stützenden Gesichtsschicht, die bei chirurgischen Facelifts behandelt wird\" — ein Vergleich des Herstellers, keine unabhängige Behauptung chirurgisch gleichwertiger Ergebnisse." },
+      { "name": "SDM — Oberflächenaufhellung", "note": "Super-dense Droplet Micro-Ultraschall über drei Frequenzen (3, 10 und 16 MHz), der die Energie über einen größeren Bereich der Dermis verteilt als HIFU allein. Laut BTF handelt es sich um dasselbe Protokoll, das in hochwertigen ästhetischen Kliniken verwendet wird." },
+      { "name": "Fest verbaute Kartusche", "note": "Keine Kartusche zum Austauschen. BTFs eigene technische Spezifikation gibt an, dass die Seitentaste bei der ersten Nutzung werkseitig auf 1.000 Impulse voreingestellt ist und danach für die gesamte Lebensdauer des Geräts auf unbegrenzte Abgabe umschaltet — ein Detail, das die Marketingseiten des Unternehmens auslassen, wenn sie das Gerät schlicht als „unbegrenzte Impulse\" beschreiben. Teranova gibt hier die präzisierte Version wieder, weil sie so in der eigenen Spezifikationsunterlage von BTF steht." },
+      { "name": "Sicherheit durch Gyrosensor", "note": "Ein Gyroskop pausiert die Abgabe automatisch nach 3 Sekunden ohne Bewegung und schaltet das Gerät nach 2 Minuten aus, laut Spezifikation von BTF." }
+    ],
+    "formats": [
+      "Home-Ultraschallgerät — Ultrasonic Duo (HIFU + SDM)",
+      "Professionelles Styling-Tool — Haarglätteisen (Infinity-Styler)",
+      "OEM/ODM-Anpassung: Logo, Markenname, Verpackungsdesign, Gehäusefarbe des Produkts"
+    ],
+    "exportNote": "Laut BTF (3. September 2026) ist das Ultrasonic Duo ab einer Testbestellung von 10 Einheiten erhältlich, bei einer Mindestbestellmenge von 30 Einheiten; der Exportpreis variiert je nach Bestellmenge und wird nicht veröffentlicht. Zum selben Datum erklärt BTF, keine exklusiven Vertriebsvereinbarungen zu haben, sodass kein Gebiet für einen neuen Partner ausgeschlossen ist. Das professionelle Haarglätteisen wird EXW versandt, mit einem Standard-MOQ ab 1.000 Einheiten, bei einfacher Anpassung möglicherweise verhandelbar; die OEM-Lieferzeit beträgt laut Schreiben von BTF vom 14. September 2026 etwa vier Monate, die ODM-Lieferzeit etwa ein bis zwei Monate.",
+    "terms": [
+      { "label": "Lieferbasis", "value": "EXW (professionelles Haarglätteisen); der Exportpreis des Ultrasonic Duo variiert laut BTF je nach Bestellmenge" },
+      { "label": "Testbestellung / MOQ — Ultrasonic Duo", "value": "Testbestellung ab 10 Einheiten; Mindestbestellmenge 30 Einheiten (laut BTF, 3. September 2026)" },
+      { "label": "MOQ — professionelles Haarglätteisen", "value": "Standard-MOQ ab 1.000 Einheiten; bei einfacher Anpassung nur von Logo, Verpackung oder Farbe möglicherweise verhandelbar (laut BTF, 14. September 2026)" },
+      { "label": "Produktionsvorlaufzeit — Haarglätteisen", "value": "OEM: etwa 4 Monate. ODM: etwa 1–2 Monate (laut BTF)" },
+      { "label": "Preise", "value": "Nicht veröffentlicht. Teranova fordert aktuelle Preise in der Verhandlungsphase an." }
+    ],
+    "consentNote": "Die Daten und Materialien werden von BTF (\"Beauty That Fills\") bereitgestellt und mit dessen schriftlicher Zustimmung vom 14. September 2026 veröffentlicht. Die Genehmigung gilt für dieses Website-Profil und daraus erstellte Dokumente; sie erstreckt sich nicht auf soziale Medien oder eigenständige Werbung. Angaben zu Zertifizierung, klinischer Prüfung, Patenten, Begutachtung durch medizinische Gremien und Fertigungspartnerschaften stammen vom Unternehmen und unterliegen in der Verhandlungsphase einer dokumentarischen Bestätigung.",
+    "seoTitle": "BTF — Ultrasonic Duo HIFU + SDM Home-Gerät · Teranova",
+    "seoDesc": "BTF ist ein koreanischer Entwickler von Home-Beauty-Geräten: Das Ultrasonic Duo vereint HIFU- und SDM-Ultraschall in einem Handstück, dazu ein professionelles Haarglätteisen. OEM/ODM, Beschaffung und Betreuung über Teranova.",
+    "catalog_notes": [
+      "BTF Ultrasonic Duo, Farbvariante Orange — aus dem offiziellen Produktmaterial von BTF (Product Description PDF, geteilt am 7. Juli 2026).",
+      "BTF Ultrasonic Duo, Farbvariante Weiß — aus dem offiziellen Produktmaterial von BTF (Specification PDF, geteilt am 7. Juli 2026)."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen geeignet:",
+    "lines_h": "Produktlinien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Preise und Konditionen sind unverbindlich und werden in der Verhandlungsphase über Teranova bestätigt. Preise werden nicht veröffentlicht; auch die direkten Kontakte von BTF werden nicht veröffentlicht — die gesamte Kommunikation läuft über Teranova.",
+    "cta_h": "Interessiert Sie dieser Lieferant?",
+    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifizierungen",
+    "certs_note": "Laut Angaben von BTF: Das Ultrasonic Duo verfügt über die Zertifizierungen KC und CE, und sein Mechanismus zur Schmerzreduktion ist durch ein Patent geschützt (keine Patentnummer angegeben). Die KC- und CE-Zertifizierung des professionellen Haarglätteisens soll laut Unternehmen im Oktober 2026 abgeschlossen sein und ist noch nicht bestätigt. Kopien der entsprechenden Nachweise werden in der Verhandlungsphase angefordert und geprüft."
+  }
+}
