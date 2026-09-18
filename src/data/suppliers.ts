@@ -217,6 +217,18 @@ import desertFreeEs from './suppliers-i18n/desert-free.es.json';
 import desertFreePt from './suppliers-i18n/desert-free.pt.json';
 import desertFreeCatalog from './suppliers-i18n/desert-free.catalog.json';
 import desertFreeLines from './suppliers-i18n/desert-free.lines.json';
+import drPeloRu from './suppliers-i18n/dr-pelo.ru.json';
+import drPeloEn from './suppliers-i18n/dr-pelo.en.json';
+import drPeloKo from './suppliers-i18n/dr-pelo.ko.json';
+import drPeloZh from './suppliers-i18n/dr-pelo.zh.json';
+import drPeloJa from './suppliers-i18n/dr-pelo.ja.json';
+import drPeloIt from './suppliers-i18n/dr-pelo.it.json';
+import drPeloDe from './suppliers-i18n/dr-pelo.de.json';
+import drPeloFr from './suppliers-i18n/dr-pelo.fr.json';
+import drPeloTr from './suppliers-i18n/dr-pelo.tr.json';
+import drPeloEs from './suppliers-i18n/dr-pelo.es.json';
+import drPeloPt from './suppliers-i18n/dr-pelo.pt.json';
+import drPeloCatalog from './suppliers-i18n/dr-pelo.catalog.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2209,6 +2221,24 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf' },
     i18n: {
       ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any),
+    },
+  },
+  {
+    slug: 'dr-pelo',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'JRM Holdings',
+    brand: 'Dr.Pelo',
+    status: 'provided',
+    brandColors: { deep: '#26382F', sky: '#A6B09A', accent: '#8B5E3C', bg: '#F6F3ED' },
+    voice: 'clinical',
+    /* JRM Holdings — владелец бренда. Enveco Cosmetic указывается только как
+       отдельный изготовитель по материалам поставщика; фабрика JRM не заявляется. */
+    catalog: drPeloCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: { ru: '/docs/dr-pelo-terms-ru.pdf', en: '/docs/dr-pelo-terms-en.pdf', ko: '/docs/dr-pelo-terms-ko.pdf', zh: '/docs/dr-pelo-terms-zh.pdf', ja: '/docs/dr-pelo-terms-ja.pdf', it: '/docs/dr-pelo-terms-it.pdf', de: '/docs/dr-pelo-terms-de.pdf', fr: '/docs/dr-pelo-terms-fr.pdf', tr: '/docs/dr-pelo-terms-tr.pdf', es: '/docs/dr-pelo-terms-es.pdf', pt: '/docs/dr-pelo-terms-pt.pdf' },
+    presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any),
     },
   }
 ];

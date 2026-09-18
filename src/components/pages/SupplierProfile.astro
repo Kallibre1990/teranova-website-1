@@ -51,6 +51,9 @@ import desertFreeLogo from '../../assets/suppliers/desert-free/logo.png';
 import desertFreeHero from '../../assets/suppliers/desert-free/hero.jpg';
 import desertFreeProducts from '../../assets/suppliers/desert-free/products.jpg';
 import desertFreeDrops from '../../assets/suppliers/desert-free/drops.jpg';
+import drPeloHero from '../../assets/suppliers/dr-pelo/hero.jpg';
+import drPeloProducts from '../../assets/suppliers/dr-pelo/products.jpg';
+import drPeloDrops from '../../assets/suppliers/dr-pelo/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -73,6 +76,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   'three-days-love': { hero: tdlHero, products: tdlProducts, drops: tdlDrops },
   licorne: { hero: licorneHero, products: licorneProducts, drops: licorneDrops },
   'desert-free': { hero: desertFreeHero, products: desertFreeProducts, drops: desertFreeDrops },
+  'dr-pelo': { hero: drPeloHero, products: drPeloProducts, drops: drPeloDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;

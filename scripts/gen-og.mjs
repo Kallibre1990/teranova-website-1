@@ -113,6 +113,7 @@ const SUPPLIERS = {
   agerin: { eyebrow: 'Supplier profile', title: 'AGERIN by AGERA BioTech — Korean derma-cosmetics on a patented Ageratum extract', accent: '#2E7D5B' },
   btf: { eyebrow: 'Supplier profile', title: 'BTF — Ultrasonic Duo, a Korean home HIFU + SDM beauty device', accent: '#E2691F' },
   'desert-free': { eyebrow: 'Supplier profile', title: 'DESERT FREE by BEAUTYBLVD — Korean Cactide skincare', accent: '#F05B4F' },
+  'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo by JRM Holdings — Korean professional hair and scalp care', accent: '#8B5E3C' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

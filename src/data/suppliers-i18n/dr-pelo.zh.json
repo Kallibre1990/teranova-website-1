@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tagline": "韩国 Dr.Pelo 专业头发与头皮护理",
+    "descriptor": "JRM Holdings 为 Dr.Pelo 品牌所有方，产品由独立公司 Enveco Cosmetic 制造",
+    "origin": "Republic of Korea",
+    "about": [
+      "JRM Holdings 运营韩国专业头发与头皮护理品牌 Dr.Pelo。本页明确区分品牌所有方 JRM Holdings 与独立制造商 Enveco Cosmetic，不声称 JRM 拥有工厂。",
+      "产品范围依据官方目录展示。产品名称不构成疗效证明；未经单独核验最新文件，本页不发布防脱发主张或研究结果。"
+    ],
+    "facts": [
+      "品牌所有方：JRM Holdings",
+      "品牌：Dr.Pelo",
+      "供应商资料所列制造商：Enveco Cosmetic",
+      "价格与商务条件需询价"
+    ],
+    "channels": [
+      "专业美发护理经销商",
+      "沙龙与头皮护理中心",
+      "零售连锁及电商"
+    ],
+    "lines": [
+      {
+        "name": "Shampoo",
+        "note": "头发与头皮清洁洗发产品；本页不作治疗承诺。"
+      },
+      {
+        "name": "Scalp Care",
+        "note": "头皮精华与护理产品；功能性主张在交易阶段核验。"
+      },
+      {
+        "name": "Treatment",
+        "note": "用于调理并改善头发外观的护理产品。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "Document-first claims",
+        "note": "每款产品的定位与配方信息在交易前以最新技术文件核验。"
+      }
+    ],
+    "formats": [
+      "Shampoo",
+      "Scalp tonic",
+      "Hair treatment"
+    ],
+    "exportNote": "JRM Holdings 已授权为国际 B2B 合作方制作 Dr.Pelo 档案及精选产品页面。价格、MOQ 与保密商务条件不公开。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "通过 Teranova 进行 B2B 批发。"
+      },
+      {
+        "label": "制造",
+        "value": "Enveco Cosmetic 为 Dr.Pelo 产品的独立制造商。"
+      },
+      {
+        "label": "价格",
+        "value": "询价提供；无公开价目表。"
+      }
+    ],
+    "consentNote": "Dr.Pelo 官方资料依据 2026 年 9 月 14 日书面许可发布。治疗及防脱发主张、价格、个人联系方式和未经核验的认证均未发布。",
+    "seoTitle": "JRM Holdings / Dr.Pelo — 韩国专业头发护理 · Teranova",
+    "seoDesc": "JRM Holdings 旗下 Dr.Pelo：洗发水、头皮精华与头发护理。Enveco Cosmetic 制造，B2B 通过 Teranova。",
+    "catalog_notes": [
+      "Dr.Pelo Miracle Shampoo — official catalogue image.",
+      "Dr.Pelo Scalp Shampoo — official catalogue image.",
+      "Dr.Pelo Scalp Tonic — official catalogue image.",
+      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
+      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
+      "Dr.Pelo Hair Perm Cream — official catalogue image."
+    ]
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "EU CPNP 与 US MoCRA 仅为供应商对三款精华所述的注册，不代表监管批准。",
+    "products_h": "产品",
+    "products_note": "BEAUTYBLVD 媒体包中的四款 DESERT FREE 官方图片。"
+  }
+}

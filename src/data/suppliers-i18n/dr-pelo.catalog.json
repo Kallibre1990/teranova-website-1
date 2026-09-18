@@ -1,0 +1,41 @@
+[
+  {
+    "line": "Shampoo",
+    "items": [
+      {
+        "name": "Dr.Pelo Miracle Shampoo",
+        "img": "/img/suppliers/dr-pelo/products/miracle-shampoo.jpg"
+      },
+      {
+        "name": "Dr.Pelo Scalp Shampoo",
+        "img": "/img/suppliers/dr-pelo/products/scalp-shampoo.jpg"
+      }
+    ]
+  },
+  {
+    "line": "Scalp Care",
+    "items": [
+      {
+        "name": "Dr.Pelo Scalp Tonic",
+        "img": "/img/suppliers/dr-pelo/products/scalp-tonic.jpg"
+      }
+    ]
+  },
+  {
+    "line": "Treatment",
+    "items": [
+      {
+        "name": "Dr.Pelo Multi-Use Repair Treatment",
+        "img": "/img/suppliers/dr-pelo/products/multi-use-repair-treatment.jpg"
+      },
+      {
+        "name": "Dr.Pelo Miracle Repair Treatment",
+        "img": "/img/suppliers/dr-pelo/products/miracle-repair-treatment.jpg"
+      },
+      {
+        "name": "Dr.Pelo Hair Perm Cream",
+        "img": "/img/suppliers/dr-pelo/products/hair-perm-cream.jpg"
+      }
+    ]
+  }
+]

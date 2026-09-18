@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tagline": "Professionelle koreanische Haar- und Kopfhautpflege von Dr.Pelo",
+    "descriptor": "JRM Holdings ist Inhaber der Marke Dr.Pelo; Hersteller ist die eigenständige Enveco Cosmetic",
+    "origin": "Republic of Korea",
+    "about": [
+      "JRM Holdings develops Dr.Pelo, a Korean brand for professional hair and scalp care. This profile identifies JRM Holdings as the brand owner and Enveco Cosmetic as a separate manufacturer; it does not claim that JRM owns a factory.",
+      "The range is presented from the official catalogue. Product names are not treated as proof of a therapeutic effect: anti-hair-loss claims and study results are not published here without separate current-document verification."
+    ],
+    "facts": [
+      "Brand owner: JRM Holdings",
+      "Brand: Dr.Pelo",
+      "Manufacturer in supplier materials: Enveco Cosmetic",
+      "Prices and commercial terms on request"
+    ],
+    "channels": [
+      "Professional hair-care distributors",
+      "Salons and scalp-care centres",
+      "Retail chains and online stores"
+    ],
+    "lines": [
+      {
+        "name": "Shampoo",
+        "note": "Hair and scalp cleansing shampoos; no therapeutic promise is made on this page."
+      },
+      {
+        "name": "Scalp Care",
+        "note": "Scalp tonic and care products; functional claims are verified at the deal stage."
+      },
+      {
+        "name": "Treatment",
+        "note": "Products for conditioning and improving the appearance of hair."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Document-first claims",
+        "note": "Positioning and formulation details for each product are verified against current technical documents before a transaction."
+      }
+    ],
+    "formats": [
+      "Shampoo",
+      "Scalp tonic",
+      "Hair treatment"
+    ],
+    "exportNote": "JRM Holdings authorised a Dr.Pelo profile and selected products for international B2B partners. Prices, MOQ and confidential commercial terms are not published.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "Wholesale B2B supply through Teranova."
+      },
+      {
+        "label": "Manufacturing",
+        "value": "Enveco Cosmetic is identified as the separate manufacturer of Dr.Pelo products."
+      },
+      {
+        "label": "Price",
+        "value": "On request; no public price list."
+      }
+    ],
+    "consentNote": "Official Dr.Pelo materials are published under written permission dated 14 September 2026. Therapeutic and anti-hair-loss claims, prices, personal contacts and unverified certificates are excluded.",
+    "seoTitle": "JRM Holdings / Dr.Pelo — Professionelle koreanische Haar- und Kopfhautpflege von Dr.Pelo · Teranova",
+    "seoDesc": "Dr.Pelo by JRM Holdings: Korean shampoos, scalp tonic and hair care. Manufactured by Enveco Cosmetic; B2B enquiries through Teranova.",
+    "catalog_notes": [
+      "Dr.Pelo Miracle Shampoo — official catalogue image.",
+      "Dr.Pelo Scalp Shampoo — official catalogue image.",
+      "Dr.Pelo Scalp Tonic — official catalogue image.",
+      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
+      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
+      "Dr.Pelo Hair Perm Cream — official catalogue image."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen geeignet:",
+    "lines_h": "Produktlinien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interessiert Sie dieser Lieferant?",
+    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifizierungen",
+    "certs_note": "EU CPNP und US MoCRA sind Anbieterangaben zur Registrierung nur für die drei Seren, keine behördliche Zulassung.",
+    "products_h": "Produkte",
+    "products_note": "Offizielle Aufnahmen der vier DESERT FREE Produkte, bereitgestellt von BEAUTYBLVD."
+  }
+}

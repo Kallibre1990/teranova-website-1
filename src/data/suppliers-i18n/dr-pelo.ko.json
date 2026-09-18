@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tagline": "한국 Dr.Pelo의 프로페셔널 헤어·두피 케어",
+    "descriptor": "JRM Holdings는 Dr.Pelo 브랜드 소유사이며 제품은 별도 법인 Enveco Cosmetic이 제조합니다",
+    "origin": "대한민국",
+    "about": [
+      "JRM Holdings는 프로페셔널 헤어·두피 케어 브랜드 Dr.Pelo를 전개합니다. 본 프로필은 JRM Holdings를 브랜드 소유사로, Enveco Cosmetic을 별도 제조사로 구분하며 JRM의 자체 공장을 주장하지 않습니다.",
+      "제품군은 공식 카탈로그를 기준으로 소개합니다. 제품명만으로 치료 효과를 의미하지 않으며 탈모 관련 주장과 시험 결과는 최신 문서의 별도 확인 없이 공개하지 않습니다."
+    ],
+    "facts": [
+      "브랜드 소유사: JRM Holdings",
+      "브랜드: Dr.Pelo",
+      "공급사 자료상 제조사: Enveco Cosmetic",
+      "가격 및 상업 조건은 문의"
+    ],
+    "channels": [
+      "프로페셔널 헤어케어 유통사",
+      "살롱 및 두피 케어 센터",
+      "리테일 체인과 온라인몰"
+    ],
+    "lines": [
+      {
+        "name": "Shampoo",
+        "note": "헤어와 두피 세정용 샴푸; 치료 효능을 주장하지 않습니다."
+      },
+      {
+        "name": "Scalp Care",
+        "note": "두피 토닉 및 케어 제품; 기능성 주장은 거래 단계에서 확인합니다."
+      },
+      {
+        "name": "Treatment",
+        "note": "모발 컨디셔닝과 외관 관리를 위한 제품."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Document-first claims",
+        "note": "각 제품의 포지셔닝과 성분 정보는 거래 전에 최신 기술 문서로 확인합니다."
+      }
+    ],
+    "formats": [
+      "Shampoo",
+      "Scalp tonic",
+      "Hair treatment"
+    ],
+    "exportNote": "JRM Holdings는 해외 B2B 파트너를 위한 Dr.Pelo 프로필과 선정 제품 소개를 허가했습니다. 가격, MOQ 및 비공개 조건은 공개하지 않습니다.",
+    "terms": [
+      {
+        "label": "협력 방식",
+        "value": "Teranova를 통한 B2B 도매 공급."
+      },
+      {
+        "label": "제조",
+        "value": "Enveco Cosmetic은 Dr.Pelo 제품의 별도 제조사입니다."
+      },
+      {
+        "label": "가격",
+        "value": "문의 제공; 공개 가격표 없음."
+      }
+    ],
+    "consentNote": "Dr.Pelo 공식 자료는 2026년 9월 14일 서면 허가에 따라 게시됩니다. 치료·탈모 주장, 가격, 개인 연락처와 미확인 인증은 제외했습니다.",
+    "seoTitle": "JRM Holdings / Dr.Pelo — 한국 프로페셔널 헤어케어 · Teranova",
+    "seoDesc": "JRM Holdings의 Dr.Pelo: 샴푸, 두피 토닉과 헤어 케어. Enveco Cosmetic 제조, B2B 문의는 Teranova.",
+    "catalog_notes": [
+      "Dr.Pelo Miracle Shampoo — official catalogue image.",
+      "Dr.Pelo Scalp Shampoo — official catalogue image.",
+      "Dr.Pelo Scalp Tonic — official catalogue image.",
+      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
+      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
+      "Dr.Pelo Hair Perm Cream — official catalogue image."
+    ]
+  },
+  "ui": {
+    "profile_sup": "공급업체 프로필",
+    "about_h": "회사 소개",
+    "for_whom": "이런 곳에 적합합니다:",
+    "lines_h": "제품 라인",
+    "catalog_h": "제품 카탈로그",
+    "tech_h": "기술",
+    "formats_h": "제품 형태",
+    "export_h": "수출과 시장",
+    "terms_h": "협력 조건",
+    "download_btn": "협력 조건 내려받기 (PDF)",
+    "pres_btn": "브랜드 소개서 내려받기 (PDF)",
+    "terms_disc": "문의 제공; 공개 가격표 없음.",
+    "cta_h": "이 공급업체에 관심이 있으신가요?",
+    "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
+    "cta_btn": "Teranova를 통해 문의",
+    "more": "프로필 열기 →",
+    "verified_suppliers": "검증된 공급업체",
+    "certs_h": "인증",
+    "certs_note": "EU CPNP와 US MoCRA는 공급사가 3개 세럼에 한해 밝힌 등록 정보이며 규제기관의 승인을 뜻하지 않습니다.",
+    "products_h": "제품",
+    "products_note": "BEAUTYBLVD가 제공한 DESERT FREE 4개 제품의 공식 이미지."
+  }
+}
