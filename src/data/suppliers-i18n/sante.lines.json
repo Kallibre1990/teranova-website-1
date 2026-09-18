@@ -1,6 +1,7 @@
 [
   {
     "slug": "azulene-soother",
+    "lineName": "Azulene Soother",
     "supplierSlug": "sante",
     "category": "cosmetics",
     "items": [
@@ -514,6 +515,7 @@
   },
   {
     "slug": "artemisia-aka",
+    "lineName": "Artemisia AKA",
     "supplierSlug": "sante",
     "category": "cosmetics",
     "items": [
@@ -759,6 +761,7 @@
   },
   {
     "slug": "collagen-leader",
+    "lineName": "Collagen Leader",
     "supplierSlug": "sante",
     "category": "cosmetics",
     "items": [
@@ -982,6 +985,7 @@
   },
   {
     "slug": "hyalquad-core",
+    "lineName": "Hyalquad Core",
     "supplierSlug": "sante",
     "category": "cosmetics",
     "items": [
@@ -1148,6 +1152,7 @@
   },
   {
     "slug": "elsol",
+    "lineName": "Elsol",
     "supplierSlug": "sante",
     "category": "cosmetics",
     "items": [

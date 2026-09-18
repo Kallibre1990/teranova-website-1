@@ -1,7 +1,7 @@
 import { site } from './site';
 import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
-import { supplierContent, linePageContent, type SupplierProfile, type SupplierLinePage } from './suppliers';
+import { supplierContent, linePageContent, supplierBySlug, type SupplierProfile, type SupplierLinePage } from './suppliers';
 import { postContent, postsByDate, type BlogPost } from './blog';
 
 /** Stable identifier for the one Teranova Organization node, referenced by
@@ -166,8 +166,8 @@ export function supplierLineJsonLd(lang: Lang, page: SupplierLinePage) {
   const t = ui[lang];
   const c = linePageContent(page, lang);
   const catName = t.categories.groups.find((g) => g.key === page.category)?.name ?? '';
-  const lineNames: Record<string, string> = { 'azulene-soother': 'Azulene Soother', 'artemisia-aka': 'Artemisia AKA', 'collagen-leader': 'Collagen Leader', 'hyalquad-core': 'Hyalquad Core' };
-  const lineName = lineNames[page.slug] ?? page.slug;
+  const supplier = supplierBySlug(page.supplierSlug);
+  const lineName = page.lineName ?? page.slug;
   return [
     {
       '@context': 'https://schema.org',
@@ -176,17 +176,17 @@ export function supplierLineJsonLd(lang: Lang, page: SupplierLinePage) {
         { name: 'Teranova Group', path: '/' },
         { name: t.nav.catalog, path: '/catalog' },
         { name: catName, path: `/catalog/${page.category}` },
-        { name: 'SANTE COSMETICS / Dr.SANTE', path: `/catalog/${page.supplierSlug}` },
+        { name: supplier ? `${supplier.name} / ${supplier.brand}` : page.supplierSlug, path: `/catalog/${page.supplierSlug}` },
         { name: lineName, path: `/catalog/${page.supplierSlug}/${page.slug}` },
       ].map((cr, i) => ({ '@type': 'ListItem', position: i + 1, name: cr.name, item: base + localizePath(cr.path, lang) })),
     },
     {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: `${lineName} — Dr.SANTE`,
+      name: supplier ? `${lineName} — ${supplier.brand}` : lineName,
       description: c.seoDesc,
       url: base + localizePath(`/catalog/${page.supplierSlug}/${page.slug}`, lang),
-      hasPart: page.items.map((it) => ({ '@type': 'Product', name: it.name, brand: { '@type': 'Brand', name: 'Dr.SANTE' }, category: catName })),
+      hasPart: page.items.map((it) => ({ '@type': 'Product', name: it.name, brand: { '@type': 'Brand', name: supplier?.brand ?? page.supplierSlug }, category: catName })),
     },
   ];
 }
