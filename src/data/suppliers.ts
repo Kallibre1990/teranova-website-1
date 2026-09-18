@@ -2131,15 +2131,24 @@ export const suppliers: SupplierProfile[] = [
        градиент со стика Watermix Zero. */
     brandColors: { deep: '#2E2A2B', sky: '#D6A9AF', accent: '#B9616D', bg: '#F8F4F3' },
     voice: 'minimal',
-    /* Каталог собран по их бренд-презентации ENG2026 от 07.09.2026, объёмы
-       сверены с этикетками на пакшотах. Three Out в тексте брошюры указан как
-       450 г, на этикетке 45 г (500 мг × 90 капсул) — взята этикетка. */
+    /* Каталог собран по их бренд-презентации ENG2026 от 07.09.2026. Вес Three
+       Out расходится с арифметикой: в брошюре и на этикетке — 500 мг × 90
+       капсул (= 45 г мат.часть), но письменно, дважды (в презентации и в
+       прямом ответе на прямой вопрос), CEO 윤욱 (ray@sprx.kr) подтвердил
+       450 г — письмо 2026-09-14 08:30 KST, «1) 450g이 맞습니다». Расхождение
+       не наше — это подтверждённое противоречие внутри материалов самой
+       компании; используем 450 г как прямо подтверждённый факт, а не
+       вычисленное самими число. */
     catalog: sprxCatalog as { line: string; items: { name: string; img: string; volume?: string }[] }[],
     termsFile: { ru: '/docs/sprx-terms-ru.pdf', en: '/docs/sprx-terms-en.pdf', ko: '/docs/sprx-terms-ko.pdf', zh: '/docs/sprx-terms-zh.pdf', ja: '/docs/sprx-terms-ja.pdf', it: '/docs/sprx-terms-it.pdf', de: '/docs/sprx-terms-de.pdf', fr: '/docs/sprx-terms-fr.pdf', tr: '/docs/sprx-terms-tr.pdf', es: '/docs/sprx-terms-es.pdf', pt: '/docs/sprx-terms-pt.pdf' },
     presFile: { ru: '/docs/sprx-presentation-ru.pdf', en: '/docs/sprx-presentation-en.pdf', ko: '/docs/sprx-presentation-ko.pdf', zh: '/docs/sprx-presentation-zh.pdf', ja: '/docs/sprx-presentation-ja.pdf', it: '/docs/sprx-presentation-it.pdf', de: '/docs/sprx-presentation-de.pdf', fr: '/docs/sprx-presentation-fr.pdf', tr: '/docs/sprx-presentation-tr.pdf', es: '/docs/sprx-presentation-es.pdf', pt: '/docs/sprx-presentation-pt.pdf' },
     certs: ['GMP', 'HACCP', 'MFDS'],
-    /* priceFile нет: вопрос о публикации экспортного прайса задан компании
-       04.09.2026 по R-022, ответа пока нет. */
+    /* priceFile нет: вопрос об экспортном прайсе задан 04.09.2026, ответ
+       получен 2026-09-14 — компания раскрывает цену только заинтересованным
+       покупателям по запросу через Teranova, на странице остаётся «цена по
+       запросу». Активность альфа-амилазы/протеазы Westick Enzyme запрошена
+       повторно 2026-09-14 (плохо читалась на фото упаковки) — ответа пока
+       нет, на странице оставлена честная формулировка «неподтверждено». */
     i18n: {
       ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any),
     },
