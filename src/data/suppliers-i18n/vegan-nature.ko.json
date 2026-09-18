@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "컴팩트한 고체형 헤어케어",
+    "descriptor": "Vegan Nature는 B2B 공급용 고체 샴푸바와 트리트먼트바를 전개하는 한국 브랜드입니다",
+    "origin": "대한민국",
+    "about": [
+      "Vegan Nature는 고체형 헤어케어 제품을 전개합니다. 공식 자료는 비건 라이프스타일, 자연 유래 성분과 플라스틱 포장 절감을 브랜드 방향으로 소개합니다.",
+      "공개 승인을 받은 범위는 Citrus와 Fruity Floral 샴푸바, Yellow Rose 트리트먼트바입니다. 성분, 라벨링, 증빙 문서와 시장별 표현은 프로젝트마다 별도로 확인합니다."
+    ],
+    "facts": [
+      "확인된 제품 3종",
+      "샴푸바 2종과 트리트먼트바 1종",
+      "의학적 효능 표현 없는 고체형 제품",
+      "시장과 프로젝트별 문서 확인"
+    ],
+    "channels": [
+      "화장품 수입사 및 유통사",
+      "뷰티 리테일 및 전문점",
+      "이커머스 및 기업 선물"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "시트러스 향의 고체 샴푸바."
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "프루티 플로럴 향의 고체 샴푸바."
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "옐로 로즈 향의 고체 트리트먼트바."
+      }
+    ],
+    "tech": [
+      {
+        "name": "프로젝트별 확인",
+        "note": "성분, 라벨링, vegan/cruelty-free 상태, 시험과 문서는 거래 전에 확인하며 인증서와 탈모·발모 표현은 이 페이지에 공개하지 않습니다."
+      }
+    ],
+    "formats": [
+      "고체 샴푸 · Citrus",
+      "고체 샴푸 · Fruity Floral",
+      "고체 트리트먼트바 · Yellow Rose"
+    ],
+    "exportNote": "이 프로필은 Teranova를 통한 B2B 홍보 전용입니다. 가격, 미국 시장 조건, 직접 연락처, 확인되지 않은 인증 및 탈모·발모 주장은 공개하지 않습니다.",
+    "terms": [
+      {
+        "label": "협력 방식",
+        "value": "Teranova를 통한 B2B 문의와 협상."
+      },
+      {
+        "label": "제품 범위",
+        "value": "공개된 제품 3종; 공급 가능 여부는 문의별 확인."
+      },
+      {
+        "label": "가격",
+        "value": "문의 시 제공; 공개 가격표 없음."
+      }
+    ],
+    "consentNote": "이 프로필과 제품 페이지는 2026년 9월 15일자 서면 허가에 따라 Vegan Nature 공식 사이트와 회사 승인 자료로 제작했습니다. 게재는 권리 이전이나 독점권을 의미하지 않습니다.",
+    "seoTitle": "Vegan Nature — 한국 고체 샴푸바 B2B · Teranova",
+    "seoDesc": "Vegan Nature 프로필: 고체 샴푸바 2종과 트리트먼트바 1종. Teranova를 통한 B2B 문의."
+  },
+  "ui": {
+    "profile_sup": "공급업체 프로필",
+    "about_h": "회사 소개",
+    "for_whom": "이런 곳에 적합합니다:",
+    "lines_h": "제품 라인",
+    "catalog_h": "제품 카탈로그",
+    "tech_h": "기술",
+    "formats_h": "제품 형태",
+    "export_h": "수출과 시장",
+    "terms_h": "협력 조건",
+    "download_btn": "협력 조건 내려받기 (PDF)",
+    "pres_btn": "브랜드 소개서 내려받기 (PDF)",
+    "terms_disc": "문의 제공; 공개 가격표 없음.",
+    "cta_h": "이 공급업체에 관심이 있으신가요?",
+    "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
+    "cta_btn": "Teranova를 통해 문의",
+    "more": "프로필 열기 →",
+    "verified_suppliers": "검증된 공급업체",
+    "certs_h": "인증",
+    "certs_note": "",
+    "products_h": "제품",
+    "products_note": "Vegan Nature 공식 이미지로 제품 3종을 소개합니다. 가격과 비공개 거래 조건은 문의 시 제공합니다."
+  }
+}

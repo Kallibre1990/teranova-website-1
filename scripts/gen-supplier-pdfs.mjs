@@ -453,6 +453,16 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* Vegan Nature: письменное согласие 15.09.2026 охватывает профиль и
+       продуктовые страницы. Цены для США, коммерческие условия, неподтверждённые
+       сертификаты и anti-hair-loss/growth claims не публикуются. */
+    id: 'vegan-nature', json: 'vegan-nature', supplier: 'Vegan Nature Co., Ltd.', brand: 'Vegan Nature',
+    basis: 'B2B · terms on request', noPrice: true,
+    colors: { deep: '#33483D', sky: '#7AC7A6', bg: '#F3F8F4', line: '#D8E8DD' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "コンパクトな固形ヘアケア",
+    "descriptor": "Vegan NatureはB2B向けの固形シャンプーとトリートメントバーを展開する韓国ブランドです",
+    "origin": "韓国",
+    "about": [
+      "Vegan Natureは固形ヘアケア製品を展開しています。公式資料では、ヴィーガン・ライフスタイル、自然由来成分、プラスチック包装削減をブランド方針として示しています。",
+      "公開許可の範囲はCitrusとFruity Floralのシャンプーバー、Yellow Roseのトリートメントバーです。処方、表示、証明書類、市場別の表現は案件ごとに確認します。"
+    ],
+    "facts": [
+      "確認済み3製品",
+      "シャンプーバー2種とトリートメントバー1種",
+      "医療的表現を掲載しない固形製品",
+      "市場・案件ごとの書類確認"
+    ],
+    "channels": [
+      "化粧品輸入業者・販売代理店",
+      "美容小売・専門店",
+      "Eコマース・法人ギフト"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "シトラス香の固形シャンプーバー。"
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "フルーティーフローラル香の固形シャンプーバー。"
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "イエローローズ香の固形トリートメントバー。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "案件別確認",
+        "note": "処方、表示、vegan/cruelty-freeの状態、試験、書類は取引前に確認し、証明書や脱毛・発毛表現は掲載しません。"
+      }
+    ],
+    "formats": [
+      "固形シャンプー · Citrus",
+      "固形シャンプー · Fruity Floral",
+      "固形トリートメント · Yellow Rose"
+    ],
+    "exportNote": "本プロフィールはTeranova経由のB2B販促専用です。価格、米国市場条件、直接連絡先、未確認の証明書、脱毛・発毛に関する主張は掲載しません。",
+    "terms": [
+      {
+        "label": "協業形態",
+        "value": "Teranova経由のB2B照会・交渉。"
+      },
+      {
+        "label": "製品範囲",
+        "value": "公開3製品。供給可否は照会ごとに確認。"
+      },
+      {
+        "label": "価格",
+        "value": "要問い合わせ。公開価格表なし。"
+      }
+    ],
+    "consentNote": "2026年9月15日付の書面許可に基づき、Vegan Nature公式サイトと承認資料を使用しています。掲載は権利移転や独占権を意味しません。",
+    "seoTitle": "Vegan Nature — 韓国固形シャンプー B2B · Teranova",
+    "seoDesc": "Vegan Nature：固形シャンプー2種とトリートメントバー1種。B2BはTeranovaへ。"
+  },
+  "ui": {
+    "profile_sup": "サプライヤープロフィール",
+    "about_h": "会社について",
+    "for_whom": "こんな方に:",
+    "lines_h": "製品ライン",
+    "catalog_h": "製品カタログ",
+    "tech_h": "技術",
+    "formats_h": "製品の形態",
+    "export_h": "輸出と市場",
+    "terms_h": "協業条件",
+    "download_btn": "協業条件をダウンロード (PDF)",
+    "pres_btn": "ブランド資料をダウンロード (PDF)",
+    "terms_disc": "要問い合わせ。公開価格表はありません。",
+    "cta_h": "このサプライヤーにご関心がありますか？",
+    "cta_d": "ご連絡ください — Teranova が初回の接触から納品まで、交渉と確認、取引全体を進めます。",
+    "cta_btn": "Teranova を通じて問い合わせる",
+    "more": "プロフィールを開く →",
+    "verified_suppliers": "確認済みサプライヤー",
+    "certs_h": "認証",
+    "certs_note": "",
+    "products_h": "製品",
+    "products_note": "Vegan Nature公式画像で3製品を掲載。価格と非公開条件はお問い合わせください。"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Feste Haarpflege im kompakten Format",
+    "descriptor": "Vegan Nature ist eine koreanische Marke für feste Shampoos und Treatment-Bars im B2B-Vertrieb",
+    "origin": "Südkorea",
+    "about": [
+      "Vegan Nature entwickelt feste Haarpflegeformate. Die offiziellen Unterlagen verbinden das Sortiment mit veganem Lebensstil, Inhaltsstoffen natürlichen Ursprungs und weniger Kunststoffverpackung.",
+      "Freigegeben sind die Shampoo-Bars Citrus und Fruity Floral sowie der Treatment-Bar Yellow Rose. Rezeptur, Kennzeichnung, Unterlagen und marktspezifische Aussagen werden projektbezogen geprüft."
+    ],
+    "facts": [
+      "Drei bestätigte Produkte",
+      "Zwei Shampoo-Bars und ein Treatment-Bar",
+      "Keine medizinischen Aussagen veröffentlicht",
+      "Unterlagen je Markt und Projekt geprüft"
+    ],
+    "channels": [
+      "Beauty-Importeure und Distributoren",
+      "Beauty-Einzelhandel und Fachgeschäfte",
+      "E-Commerce und Firmengeschenke"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "Festes Shampoo mit Zitrusduft."
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "Festes Shampoo mit fruchtig-blumigem Duft."
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "Fester Treatment-Bar mit gelbem Rosenduft."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Projektbezogene Prüfung",
+        "note": "Rezeptur, Kennzeichnung, vegan/cruelty-free-Status, Tests und Unterlagen werden vor dem Geschäft bestätigt; Zertifikate und Aussagen zu Haarausfall oder Wachstum werden nicht veröffentlicht."
+      }
+    ],
+    "formats": [
+      "Festes Shampoo · Citrus",
+      "Festes Shampoo · Fruity Floral",
+      "Treatment-Bar · Yellow Rose"
+    ],
+    "exportNote": "Dieses Profil dient nur der B2B-Vermarktung über Teranova. Preise, US-Konditionen, Direktkontakte, ungeprüfte Zertifikate sowie Haarausfall- oder Wachstumsversprechen werden nicht veröffentlicht.",
+    "terms": [
+      {
+        "label": "Zusammenarbeit",
+        "value": "B2B-Anfragen und Verhandlungen über Teranova."
+      },
+      {
+        "label": "Sortiment",
+        "value": "Drei veröffentlichte Produkte; Verfügbarkeit auf Anfrage."
+      },
+      {
+        "label": "Preis",
+        "value": "Auf Anfrage; keine öffentliche Preisliste."
+      }
+    ],
+    "consentNote": "Profil und Produktseiten nutzen die offizielle Website und freigegebene Materialien mit schriftlicher Genehmigung vom 15. September 2026. Keine Rechteübertragung oder Exklusivität.",
+    "seoTitle": "Vegan Nature — koreanische feste Shampoos B2B · Teranova",
+    "seoDesc": "Vegan Nature: zwei feste Shampoos und ein Treatment-Bar. B2B über Teranova."
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen geeignet:",
+    "lines_h": "Produktlinien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Auf Anfrage; keine öffentliche Preisliste.",
+    "cta_h": "Interessiert Sie dieser Lieferant?",
+    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifizierungen",
+    "certs_note": "",
+    "products_h": "Produkte",
+    "products_note": "Drei Produkte mit offiziellen Vegan-Nature-Bildern. Preise und vertrauliche Konditionen auf Anfrage."
+  }
+}

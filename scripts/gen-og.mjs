@@ -116,6 +116,7 @@ const SUPPLIERS = {
   'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo by JRM Holdings — Korean professional hair and scalp care', accent: '#8B5E3C' },
   arming: { eyebrow: 'Supplier profile', title: 'ARMING by Enveco Cosmetic — Korean hair, skin and body care', accent: '#486F63' },
   themaqueen: { eyebrow: 'Supplier profile', title: 'THEMAQUEEN — Korean cooling, cleansing and scalp-care accessories', accent: '#7A919B' },
+  'vegan-nature': { eyebrow: 'Supplier profile', title: 'Vegan Nature — Korean solid shampoo and treatment bars', accent: '#7AC7A6' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

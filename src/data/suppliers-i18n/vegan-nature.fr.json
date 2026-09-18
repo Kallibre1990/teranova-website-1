@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Soin capillaire solide en format compact",
+    "descriptor": "Vegan Nature est une marque coréenne de shampoings et soins solides pour le B2B",
+    "origin": "Corée du Sud",
+    "about": [
+      "Vegan Nature développe des soins capillaires solides. Les documents officiels associent la gamme au mode de vie vegan, aux ingrédients d’origine naturelle et à la réduction des emballages plastiques.",
+      "Le périmètre autorisé couvre les shampoings solides Citrus et Fruity Floral ainsi que le soin solide Yellow Rose. Formule, étiquetage, documents et allégations propres au marché sont vérifiés par projet."
+    ],
+    "facts": [
+      "Trois produits confirmés",
+      "Deux shampoings solides et un soin solide",
+      "Aucune allégation médicale publiée",
+      "Documents vérifiés par marché et projet"
+    ],
+    "channels": [
+      "Importateurs et distributeurs beauté",
+      "Retail beauté et magasins spécialisés",
+      "E-commerce et cadeaux d’entreprise"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "Shampoing solide au parfum d’agrumes."
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "Shampoing solide au parfum fruité-floral."
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "Soin solide au parfum de rose jaune."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Vérification par projet",
+        "note": "Formule, étiquetage, statut vegan/cruelty-free, tests et documents sont confirmés avant transaction ; certificats et allégations antichute/croissance ne sont pas publiés."
+      }
+    ],
+    "formats": [
+      "Shampoing solide · Citrus",
+      "Shampoing solide · Fruity Floral",
+      "Soin solide · Yellow Rose"
+    ],
+    "exportNote": "Profil réservé à la promotion B2B via Teranova. Prix, conditions USA, contacts directs, certificats non vérifiés et allégations antichute ou de croissance ne sont pas publiés.",
+    "terms": [
+      {
+        "label": "Coopération",
+        "value": "Demandes et négociations B2B via Teranova."
+      },
+      {
+        "label": "Gamme",
+        "value": "Trois produits publiés ; disponibilité à confirmer."
+      },
+      {
+        "label": "Prix",
+        "value": "Sur demande ; pas de tarif public."
+      }
+    ],
+    "consentNote": "Profil et pages produits fondés sur le site officiel et les supports approuvés, avec autorisation écrite du 15 septembre 2026. Aucun transfert de droits ni exclusivité.",
+    "seoTitle": "Vegan Nature — shampoings solides coréens B2B · Teranova",
+    "seoDesc": "Vegan Nature : deux shampoings solides et un soin solide. B2B via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Sur demande ; aucun tarif public.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Produits",
+    "products_note": "Trois produits illustrés avec les visuels officiels Vegan Nature. Prix et conditions confidentielles sur demande."
+  }
+}

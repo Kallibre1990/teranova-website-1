@@ -61,6 +61,10 @@ import themaqueenLogo from '../../assets/suppliers/themaqueen/logo.jpg';
 import themaqueenHero from '../../assets/suppliers/themaqueen/hero.jpg';
 import themaqueenProducts from '../../assets/suppliers/themaqueen/products.jpg';
 import themaqueenDrops from '../../assets/suppliers/themaqueen/drops.jpg';
+import veganNatureLogo from '../../assets/suppliers/vegan-nature/logo.jpg';
+import veganNatureHero from '../../assets/suppliers/vegan-nature/hero.jpg';
+import veganNatureProducts from '../../assets/suppliers/vegan-nature/products.jpg';
+import veganNatureDrops from '../../assets/suppliers/vegan-nature/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -69,7 +73,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo };
+const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
@@ -86,6 +90,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   'dr-pelo': { hero: drPeloHero, products: drPeloProducts, drops: drPeloDrops },
   arming: { hero: armingHero, products: armingProducts, drops: armingDrops },
   themaqueen: { hero: themaqueenHero, products: themaqueenProducts, drops: themaqueenDrops },
+  'vegan-nature': { hero: veganNatureHero, products: veganNatureProducts, drops: veganNatureDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;

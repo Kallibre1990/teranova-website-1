@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "紧凑的固体护发形式",
+    "descriptor": "Vegan Nature 是面向 B2B 供应的韩国固体洗发皂与护发皂品牌",
+    "origin": "韩国",
+    "about": [
+      "Vegan Nature 开发固体护发产品。品牌官方资料强调纯素生活方式、自然来源成分及减少塑料包装。",
+      "获准公开的范围包括 Citrus 与 Fruity Floral 两款洗发皂，以及 Yellow Rose 护发皂。配方、标签、证明文件及市场适用表述均按项目核验。"
+    ],
+    "facts": [
+      "3 款已确认产品",
+      "2 款洗发皂与 1 款护发皂",
+      "不公开医疗功效表述",
+      "按市场和项目核验文件"
+    ],
+    "channels": [
+      "美妆进口商与经销商",
+      "美妆零售及专业门店",
+      "电商与企业礼赠"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "柑橘香固体洗发皂。"
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "果香花香型固体洗发皂。"
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "黄玫瑰香固体护发皂。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "项目核验",
+        "note": "配方、标签、纯素/无动物实验状态、测试与文件在交易前确认；本页不发布证书及防脱或生发宣称。"
+      }
+    ],
+    "formats": [
+      "固体洗发皂 · Citrus",
+      "固体洗发皂 · Fruity Floral",
+      "固体护发皂 · Yellow Rose"
+    ],
+    "exportNote": "本资料仅用于通过 Teranova 进行 B2B 推广。不公开价格、美国市场条款、直接联系方式、未核验证书及防脱或生发宣称。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "通过 Teranova 进行 B2B 咨询与洽谈。"
+      },
+      {
+        "label": "产品范围",
+        "value": "公开 3 款产品；供货情况按当前询盘确认。"
+      },
+      {
+        "label": "价格",
+        "value": "询价提供；无公开价目表。"
+      }
+    ],
+    "consentNote": "本公司资料及产品页面依据 2026 年 9 月 15 日书面许可，使用 Vegan Nature 官方网站及公司批准材料制作。发布不构成权利转让或独家授权。",
+    "seoTitle": "Vegan Nature — 韩国固体洗发皂 B2B · Teranova",
+    "seoDesc": "Vegan Nature：两款固体洗发皂与一款护发皂。通过 Teranova 进行 B2B 咨询。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": "使用 Vegan Nature 官方图片展示 3 款产品。价格及保密商务条件请询价。"
+  }
+}

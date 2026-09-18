@@ -252,6 +252,19 @@ import themaqueenFr from './suppliers-i18n/themaqueen.fr.json';
 import themaqueenTr from './suppliers-i18n/themaqueen.tr.json';
 import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
+import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
+import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
+import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
+import veganNatureZh from './suppliers-i18n/vegan-nature.zh.json';
+import veganNatureJa from './suppliers-i18n/vegan-nature.ja.json';
+import veganNatureIt from './suppliers-i18n/vegan-nature.it.json';
+import veganNatureDe from './suppliers-i18n/vegan-nature.de.json';
+import veganNatureFr from './suppliers-i18n/vegan-nature.fr.json';
+import veganNatureTr from './suppliers-i18n/vegan-nature.tr.json';
+import veganNatureEs from './suppliers-i18n/vegan-nature.es.json';
+import veganNaturePt from './suppliers-i18n/vegan-nature.pt.json';
+import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
+import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2302,7 +2315,27 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any),
     },
-  }
+  },
+  {
+    slug: 'vegan-nature',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Vegan Nature',
+    brand: 'Vegan Nature',
+    status: 'provided',
+    brandColors: { deep: '#33483D', sky: '#7AC7A6', accent: '#E7B84D', bg: '#F3F8F4' },
+    voice: 'organic',
+    /* Written permission dated 15.09.2026 covers a company profile and product
+       pages based on official/company-approved materials. US prices and terms,
+       direct contacts, unverified certificates, manufacturing claims and
+       anti-hair-loss/growth claims are intentionally excluded. */
+    catalog: veganNatureCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: { ru: '/docs/vegan-nature-terms-ru.pdf', en: '/docs/vegan-nature-terms-en.pdf', ko: '/docs/vegan-nature-terms-ko.pdf', zh: '/docs/vegan-nature-terms-zh.pdf', ja: '/docs/vegan-nature-terms-ja.pdf', it: '/docs/vegan-nature-terms-it.pdf', de: '/docs/vegan-nature-terms-de.pdf', fr: '/docs/vegan-nature-terms-fr.pdf', tr: '/docs/vegan-nature-terms-tr.pdf', es: '/docs/vegan-nature-terms-es.pdf', pt: '/docs/vegan-nature-terms-pt.pdf' },
+    presFile: { ru: '/docs/vegan-nature-presentation-ru.pdf', en: '/docs/vegan-nature-presentation-en.pdf', ko: '/docs/vegan-nature-presentation-ko.pdf', zh: '/docs/vegan-nature-presentation-zh.pdf', ja: '/docs/vegan-nature-presentation-ja.pdf', it: '/docs/vegan-nature-presentation-it.pdf', de: '/docs/vegan-nature-presentation-de.pdf', fr: '/docs/vegan-nature-presentation-fr.pdf', tr: '/docs/vegan-nature-presentation-tr.pdf', es: '/docs/vegan-nature-presentation-es.pdf', pt: '/docs/vegan-nature-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any),
+    },
+  },
 ];
 
 /* Dedicated, indexable line pages (SEO): one per important product line. */
@@ -2338,6 +2371,7 @@ export const linePages: SupplierLinePage[] = [
   ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
   ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
   ...(desertFreeLines as SupplierLinePage[]),
+  ...(veganNatureLines as SupplierLinePage[]),
 ] as SupplierLinePage[];
 /** Lines of one supplier, in catalog order — used to link them from the profile. */
 export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>

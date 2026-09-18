@@ -1,0 +1,407 @@
+[
+  {
+    "slug": "vegan-shampoo-bar-citrus",
+    "supplierSlug": "vegan-nature",
+    "category": "cosmetics",
+    "lineName": "Vegan Shampoo Bar · Citrus",
+    "items": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "img": "/img/suppliers/vegan-nature/products/vegan-shampoo-bar-citrus.jpg"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "По материалам Vegan Nature: твёрдый шампунь с цитрусовым ароматом. Официальные материалы Vegan Nature подтверждают формат и аромат продукта. Состав, маркировка и документы уточняются для конкретного рынка.",
+        "tagline": "Твёрдый формат для ухода за волосами",
+        "about": [
+          "Официальные материалы Vegan Nature подтверждают формат и аромат продукта. Состав, маркировка и документы уточняются для конкретного рынка."
+        ],
+        "itemNotes": [
+          "По материалам Vegan Nature: твёрдый шампунь с цитрусовым ароматом."
+        ]
+      },
+      "en": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "According to Vegan Nature materials: solid shampoo bar with a citrus fragrance. Vegan Nature’s official materials confirm the product format and fragrance. Formula, labelling and documents are checked for the target market.",
+        "tagline": "Solid format for hair care",
+        "about": [
+          "Vegan Nature’s official materials confirm the product format and fragrance. Formula, labelling and documents are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to Vegan Nature materials: solid shampoo bar with a citrus fragrance."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature 자료 기준: 시트러스 향의 고체 샴푸바. Vegan Nature 공식 자료는 제품 형태와 향을 확인합니다. 성분, 라벨링과 문서는 대상 시장별로 검토합니다.",
+        "tagline": "고체형 헤어케어",
+        "about": [
+          "Vegan Nature 공식 자료는 제품 형태와 향을 확인합니다. 성분, 라벨링과 문서는 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "Vegan Nature 자료 기준: 시트러스 향의 고체 샴푸바."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "根据 Vegan Nature 资料： 柑橘香固体洗发皂。 Vegan Nature 官方资料确认产品形式与香型。配方、标签及文件按目标市场核验。",
+        "tagline": "固体护发形式",
+        "about": [
+          "Vegan Nature 官方资料确认产品形式与香型。配方、标签及文件按目标市场核验。"
+        ],
+        "itemNotes": [
+          "根据 Vegan Nature 资料： 柑橘香固体洗发皂。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature資料によると： シトラス香の固形シャンプーバー。 公式資料で製品形態と香りを確認しています。処方、表示、書類は対象市場別に確認します。",
+        "tagline": "固形ヘアケア",
+        "about": [
+          "公式資料で製品形態と香りを確認しています。処方、表示、書類は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "Vegan Nature資料によると： シトラス香の固形シャンプーバー。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Secondo i materiali Vegan Nature: shampoo solido alla fragranza agrumata. I materiali ufficiali Vegan Nature confermano formato e fragranza. Formula, etichettatura e documenti sono verificati per il mercato di destinazione.",
+        "tagline": "Formato solido per la cura dei capelli",
+        "about": [
+          "I materiali ufficiali Vegan Nature confermano formato e fragranza. Formula, etichettatura e documenti sono verificati per il mercato di destinazione."
+        ],
+        "itemNotes": [
+          "Secondo i materiali Vegan Nature: shampoo solido alla fragranza agrumata."
+        ]
+      },
+      "de": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Laut Vegan-Nature-Unterlagen: festes Shampoo mit Zitrusduft. Offizielle Vegan-Nature-Unterlagen bestätigen Format und Duft. Rezeptur, Kennzeichnung und Dokumente werden für den Zielmarkt geprüft.",
+        "tagline": "Feste Haarpflege",
+        "about": [
+          "Offizielle Vegan-Nature-Unterlagen bestätigen Format und Duft. Rezeptur, Kennzeichnung und Dokumente werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut Vegan-Nature-Unterlagen: festes Shampoo mit Zitrusduft."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Selon les documents Vegan Nature : shampoing solide au parfum d’agrumes. Les documents officiels Vegan Nature confirment le format et le parfum. Formule, étiquetage et documents sont vérifiés pour le marché cible.",
+        "tagline": "Format solide pour les cheveux",
+        "about": [
+          "Les documents officiels Vegan Nature confirment le format et le parfum. Formule, étiquetage et documents sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon les documents Vegan Nature : shampoing solide au parfum d’agrumes."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature materyallerine göre: narenciye kokulu katı şampuan. Vegan Nature resmî materyalleri ürün formatını ve kokusunu doğrular. Formül, etiket ve belgeler hedef pazara göre incelenir.",
+        "tagline": "Katı saç bakım formatı",
+        "about": [
+          "Vegan Nature resmî materyalleri ürün formatını ve kokusunu doğrular. Formül, etiket ve belgeler hedef pazara göre incelenir."
+        ],
+        "itemNotes": [
+          "Vegan Nature materyallerine göre: narenciye kokulu katı şampuan."
+        ]
+      },
+      "es": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Según los materiales de Vegan Nature: champú sólido con fragancia cítrica. Los materiales oficiales de Vegan Nature confirman el formato y la fragancia. Fórmula, etiquetado y documentos se revisan para el mercado objetivo.",
+        "tagline": "Formato sólido para el cabello",
+        "about": [
+          "Los materiales oficiales de Vegan Nature confirman el formato y la fragancia. Fórmula, etiquetado y documentos se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según los materiales de Vegan Nature: champú sólido con fragancia cítrica."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Vegan Shampoo Bar · Citrus — Vegan Nature · Teranova",
+        "seoDesc": "Segundo os materiais da Vegan Nature: shampoo sólido com fragrância cítrica. Os materiais oficiais da Vegan Nature confirmam o formato e a fragrância. Fórmula, rotulagem e documentos são verificados para o mercado-alvo.",
+        "tagline": "Formato sólido para os cabelos",
+        "about": [
+          "Os materiais oficiais da Vegan Nature confirmam o formato e a fragrância. Fórmula, rotulagem e documentos são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo os materiais da Vegan Nature: shampoo sólido com fragrância cítrica."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "vegan-shampoo-bar-fruity-floral",
+    "supplierSlug": "vegan-nature",
+    "category": "cosmetics",
+    "lineName": "Vegan Shampoo Bar · Fruity Floral",
+    "items": [
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "img": "/img/suppliers/vegan-nature/products/vegan-shampoo-bar-fruity-floral.jpg"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "По материалам Vegan Nature: твёрдый шампунь с фруктово-цветочным ароматом. Официальные материалы Vegan Nature подтверждают формат и аромат продукта. Состав, маркировка и документы уточняются для конкретного рынка.",
+        "tagline": "Твёрдый формат для ухода за волосами",
+        "about": [
+          "Официальные материалы Vegan Nature подтверждают формат и аромат продукта. Состав, маркировка и документы уточняются для конкретного рынка."
+        ],
+        "itemNotes": [
+          "По материалам Vegan Nature: твёрдый шампунь с фруктово-цветочным ароматом."
+        ]
+      },
+      "en": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "According to Vegan Nature materials: solid shampoo bar with a fruity-floral fragrance. Vegan Nature’s official materials confirm the product format and fragrance. Formula, labelling and documents are checked for the target market.",
+        "tagline": "Solid format for hair care",
+        "about": [
+          "Vegan Nature’s official materials confirm the product format and fragrance. Formula, labelling and documents are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to Vegan Nature materials: solid shampoo bar with a fruity-floral fragrance."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature 자료 기준: 프루티 플로럴 향의 고체 샴푸바. Vegan Nature 공식 자료는 제품 형태와 향을 확인합니다. 성분, 라벨링과 문서는 대상 시장별로 검토합니다.",
+        "tagline": "고체형 헤어케어",
+        "about": [
+          "Vegan Nature 공식 자료는 제품 형태와 향을 확인합니다. 성분, 라벨링과 문서는 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "Vegan Nature 자료 기준: 프루티 플로럴 향의 고체 샴푸바."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "根据 Vegan Nature 资料： 果香花香型固体洗发皂。 Vegan Nature 官方资料确认产品形式与香型。配方、标签及文件按目标市场核验。",
+        "tagline": "固体护发形式",
+        "about": [
+          "Vegan Nature 官方资料确认产品形式与香型。配方、标签及文件按目标市场核验。"
+        ],
+        "itemNotes": [
+          "根据 Vegan Nature 资料： 果香花香型固体洗发皂。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature資料によると： フルーティーフローラル香の固形シャンプーバー。 公式資料で製品形態と香りを確認しています。処方、表示、書類は対象市場別に確認します。",
+        "tagline": "固形ヘアケア",
+        "about": [
+          "公式資料で製品形態と香りを確認しています。処方、表示、書類は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "Vegan Nature資料によると： フルーティーフローラル香の固形シャンプーバー。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Secondo i materiali Vegan Nature: shampoo solido dalla fragranza fruttata e floreale. I materiali ufficiali Vegan Nature confermano formato e fragranza. Formula, etichettatura e documenti sono verificati per il mercato di destinazione.",
+        "tagline": "Formato solido per la cura dei capelli",
+        "about": [
+          "I materiali ufficiali Vegan Nature confermano formato e fragranza. Formula, etichettatura e documenti sono verificati per il mercato di destinazione."
+        ],
+        "itemNotes": [
+          "Secondo i materiali Vegan Nature: shampoo solido dalla fragranza fruttata e floreale."
+        ]
+      },
+      "de": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Laut Vegan-Nature-Unterlagen: festes Shampoo mit fruchtig-blumigem Duft. Offizielle Vegan-Nature-Unterlagen bestätigen Format und Duft. Rezeptur, Kennzeichnung und Dokumente werden für den Zielmarkt geprüft.",
+        "tagline": "Feste Haarpflege",
+        "about": [
+          "Offizielle Vegan-Nature-Unterlagen bestätigen Format und Duft. Rezeptur, Kennzeichnung und Dokumente werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut Vegan-Nature-Unterlagen: festes Shampoo mit fruchtig-blumigem Duft."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Selon les documents Vegan Nature : shampoing solide au parfum fruité-floral. Les documents officiels Vegan Nature confirment le format et le parfum. Formule, étiquetage et documents sont vérifiés pour le marché cible.",
+        "tagline": "Format solide pour les cheveux",
+        "about": [
+          "Les documents officiels Vegan Nature confirment le format et le parfum. Formule, étiquetage et documents sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon les documents Vegan Nature : shampoing solide au parfum fruité-floral."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature materyallerine göre: meyvemsi-çiçeksi kokulu katı şampuan. Vegan Nature resmî materyalleri ürün formatını ve kokusunu doğrular. Formül, etiket ve belgeler hedef pazara göre incelenir.",
+        "tagline": "Katı saç bakım formatı",
+        "about": [
+          "Vegan Nature resmî materyalleri ürün formatını ve kokusunu doğrular. Formül, etiket ve belgeler hedef pazara göre incelenir."
+        ],
+        "itemNotes": [
+          "Vegan Nature materyallerine göre: meyvemsi-çiçeksi kokulu katı şampuan."
+        ]
+      },
+      "es": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Según los materiales de Vegan Nature: champú sólido con fragancia frutal y floral. Los materiales oficiales de Vegan Nature confirman el formato y la fragancia. Fórmula, etiquetado y documentos se revisan para el mercado objetivo.",
+        "tagline": "Formato sólido para el cabello",
+        "about": [
+          "Los materiales oficiales de Vegan Nature confirman el formato y la fragancia. Fórmula, etiquetado y documentos se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según los materiales de Vegan Nature: champú sólido con fragancia frutal y floral."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Vegan Shampoo Bar · Fruity Floral — Vegan Nature · Teranova",
+        "seoDesc": "Segundo os materiais da Vegan Nature: shampoo sólido com fragrância frutada e floral. Os materiais oficiais da Vegan Nature confirmam o formato e a fragrância. Fórmula, rotulagem e documentos são verificados para o mercado-alvo.",
+        "tagline": "Formato sólido para os cabelos",
+        "about": [
+          "Os materiais oficiais da Vegan Nature confirmam o formato e a fragrância. Fórmula, rotulagem e documentos são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo os materiais da Vegan Nature: shampoo sólido com fragrância frutada e floral."
+        ]
+      }
+    }
+  },
+  {
+    "slug": "vegan-treatment-bar-yellow-rose",
+    "supplierSlug": "vegan-nature",
+    "category": "cosmetics",
+    "lineName": "Vegan Treatment Bar · Yellow Rose",
+    "items": [
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "img": "/img/suppliers/vegan-nature/products/vegan-treatment-bar-yellow-rose.jpg"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "По материалам Vegan Nature: твёрдый уходовый бар с ароматом жёлтой розы. Официальные материалы Vegan Nature подтверждают формат и аромат продукта. Состав, маркировка и документы уточняются для конкретного рынка.",
+        "tagline": "Твёрдый формат для ухода за волосами",
+        "about": [
+          "Официальные материалы Vegan Nature подтверждают формат и аромат продукта. Состав, маркировка и документы уточняются для конкретного рынка."
+        ],
+        "itemNotes": [
+          "По материалам Vegan Nature: твёрдый уходовый бар с ароматом жёлтой розы."
+        ]
+      },
+      "en": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "According to Vegan Nature materials: solid treatment bar with a yellow-rose fragrance. Vegan Nature’s official materials confirm the product format and fragrance. Formula, labelling and documents are checked for the target market.",
+        "tagline": "Solid format for hair care",
+        "about": [
+          "Vegan Nature’s official materials confirm the product format and fragrance. Formula, labelling and documents are checked for the target market."
+        ],
+        "itemNotes": [
+          "According to Vegan Nature materials: solid treatment bar with a yellow-rose fragrance."
+        ]
+      },
+      "ko": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature 자료 기준: 옐로 로즈 향의 고체 트리트먼트바. Vegan Nature 공식 자료는 제품 형태와 향을 확인합니다. 성분, 라벨링과 문서는 대상 시장별로 검토합니다.",
+        "tagline": "고체형 헤어케어",
+        "about": [
+          "Vegan Nature 공식 자료는 제품 형태와 향을 확인합니다. 성분, 라벨링과 문서는 대상 시장별로 검토합니다."
+        ],
+        "itemNotes": [
+          "Vegan Nature 자료 기준: 옐로 로즈 향의 고체 트리트먼트바."
+        ]
+      },
+      "zh": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "根据 Vegan Nature 资料： 黄玫瑰香固体护发皂。 Vegan Nature 官方资料确认产品形式与香型。配方、标签及文件按目标市场核验。",
+        "tagline": "固体护发形式",
+        "about": [
+          "Vegan Nature 官方资料确认产品形式与香型。配方、标签及文件按目标市场核验。"
+        ],
+        "itemNotes": [
+          "根据 Vegan Nature 资料： 黄玫瑰香固体护发皂。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature資料によると： イエローローズ香の固形トリートメントバー。 公式資料で製品形態と香りを確認しています。処方、表示、書類は対象市場別に確認します。",
+        "tagline": "固形ヘアケア",
+        "about": [
+          "公式資料で製品形態と香りを確認しています。処方、表示、書類は対象市場別に確認します。"
+        ],
+        "itemNotes": [
+          "Vegan Nature資料によると： イエローローズ香の固形トリートメントバー。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Secondo i materiali Vegan Nature: treatment bar solido alla fragranza di rosa gialla. I materiali ufficiali Vegan Nature confermano formato e fragranza. Formula, etichettatura e documenti sono verificati per il mercato di destinazione.",
+        "tagline": "Formato solido per la cura dei capelli",
+        "about": [
+          "I materiali ufficiali Vegan Nature confermano formato e fragranza. Formula, etichettatura e documenti sono verificati per il mercato di destinazione."
+        ],
+        "itemNotes": [
+          "Secondo i materiali Vegan Nature: treatment bar solido alla fragranza di rosa gialla."
+        ]
+      },
+      "de": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Laut Vegan-Nature-Unterlagen: fester Treatment-Bar mit gelbem Rosenduft. Offizielle Vegan-Nature-Unterlagen bestätigen Format und Duft. Rezeptur, Kennzeichnung und Dokumente werden für den Zielmarkt geprüft.",
+        "tagline": "Feste Haarpflege",
+        "about": [
+          "Offizielle Vegan-Nature-Unterlagen bestätigen Format und Duft. Rezeptur, Kennzeichnung und Dokumente werden für den Zielmarkt geprüft."
+        ],
+        "itemNotes": [
+          "Laut Vegan-Nature-Unterlagen: fester Treatment-Bar mit gelbem Rosenduft."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Selon les documents Vegan Nature : soin solide au parfum de rose jaune. Les documents officiels Vegan Nature confirment le format et le parfum. Formule, étiquetage et documents sont vérifiés pour le marché cible.",
+        "tagline": "Format solide pour les cheveux",
+        "about": [
+          "Les documents officiels Vegan Nature confirment le format et le parfum. Formule, étiquetage et documents sont vérifiés pour le marché cible."
+        ],
+        "itemNotes": [
+          "Selon les documents Vegan Nature : soin solide au parfum de rose jaune."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Vegan Nature materyallerine göre: sarı gül kokulu katı bakım barı. Vegan Nature resmî materyalleri ürün formatını ve kokusunu doğrular. Formül, etiket ve belgeler hedef pazara göre incelenir.",
+        "tagline": "Katı saç bakım formatı",
+        "about": [
+          "Vegan Nature resmî materyalleri ürün formatını ve kokusunu doğrular. Formül, etiket ve belgeler hedef pazara göre incelenir."
+        ],
+        "itemNotes": [
+          "Vegan Nature materyallerine göre: sarı gül kokulu katı bakım barı."
+        ]
+      },
+      "es": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Según los materiales de Vegan Nature: barra de tratamiento sólida con fragancia de rosa amarilla. Los materiales oficiales de Vegan Nature confirman el formato y la fragancia. Fórmula, etiquetado y documentos se revisan para el mercado objetivo.",
+        "tagline": "Formato sólido para el cabello",
+        "about": [
+          "Los materiales oficiales de Vegan Nature confirman el formato y la fragancia. Fórmula, etiquetado y documentos se revisan para el mercado objetivo."
+        ],
+        "itemNotes": [
+          "Según los materiales de Vegan Nature: barra de tratamiento sólida con fragancia de rosa amarilla."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Vegan Treatment Bar · Yellow Rose — Vegan Nature · Teranova",
+        "seoDesc": "Segundo os materiais da Vegan Nature: barra de tratamento sólida com fragrância de rosa amarela. Os materiais oficiais da Vegan Nature confirmam o formato e a fragrância. Fórmula, rotulagem e documentos são verificados para o mercado-alvo.",
+        "tagline": "Formato sólido para os cabelos",
+        "about": [
+          "Os materiais oficiais da Vegan Nature confirmam o formato e a fragrância. Fórmula, rotulagem e documentos são verificados para o mercado-alvo."
+        ],
+        "itemNotes": [
+          "Segundo os materiais da Vegan Nature: barra de tratamento sólida com fragrância de rosa amarela."
+        ]
+      }
+    }
+  }
+]

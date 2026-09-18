@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Cura solida dei capelli in formato compatto",
+    "descriptor": "Vegan Nature è un marchio coreano di shampoo solidi e treatment bar per forniture B2B",
+    "origin": "Corea del Sud",
+    "about": [
+      "Vegan Nature sviluppa formati solidi per la cura dei capelli. I materiali ufficiali collegano la gamma allo stile di vita vegano, agli ingredienti di origine naturale e alla riduzione degli imballaggi in plastica.",
+      "L’ambito autorizzato comprende gli shampoo bar Citrus e Fruity Floral e il treatment bar Yellow Rose. Formula, etichettatura, documenti e claim per mercato sono verificati per ogni progetto."
+    ],
+    "facts": [
+      "Tre prodotti confermati",
+      "Due shampoo bar e un treatment bar",
+      "Nessun claim medico pubblicato",
+      "Documenti verificati per mercato e progetto"
+    ],
+    "channels": [
+      "Importatori e distributori beauty",
+      "Retail beauty e negozi specializzati",
+      "E-commerce e regali aziendali"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "Shampoo solido alla fragranza agrumata."
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "Shampoo solido dalla fragranza fruttata e floreale."
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "Treatment bar solido alla fragranza di rosa gialla."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Verifica per progetto",
+        "note": "Formula, etichettatura, stato vegan/cruelty-free, test e documenti sono verificati prima dell’operazione; certificati e claim anticaduta/crescita non sono pubblicati."
+      }
+    ],
+    "formats": [
+      "Shampoo solido · Citrus",
+      "Shampoo solido · Fruity Floral",
+      "Treatment bar · Yellow Rose"
+    ],
+    "exportNote": "Profilo solo per promozione B2B tramite Teranova. Non sono pubblicati prezzi, condizioni USA, contatti diretti, certificati non verificati o claim anticaduta/crescita.",
+    "terms": [
+      {
+        "label": "Collaborazione",
+        "value": "Richieste e trattative B2B tramite Teranova."
+      },
+      {
+        "label": "Gamma",
+        "value": "Tre prodotti pubblicati; disponibilità da confermare."
+      },
+      {
+        "label": "Prezzo",
+        "value": "Su richiesta; nessun listino pubblico."
+      }
+    ],
+    "consentNote": "Profilo e pagine prodotto basati su sito ufficiale e materiali approvati, con permesso scritto del 15 settembre 2026. Nessun trasferimento di diritti o esclusiva.",
+    "seoTitle": "Vegan Nature — shampoo solidi coreani B2B · Teranova",
+    "seoDesc": "Vegan Nature: due shampoo solidi e un treatment bar. Richieste B2B tramite Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profilo del fornitore",
+    "about_h": "L'azienda",
+    "for_whom": "A chi si rivolge:",
+    "lines_h": "Linee di prodotto",
+    "catalog_h": "Catalogo prodotti",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formati di prodotto",
+    "export_h": "Export e mercati",
+    "terms_h": "Condizioni di collaborazione",
+    "download_btn": "Scarica le condizioni (PDF)",
+    "pres_btn": "Scarica la presentazione (PDF)",
+    "terms_disc": "Su richiesta; nessun listino pubblico.",
+    "cta_h": "Le interessa questo fornitore?",
+    "cta_d": "Ci scriva — Teranova organizza la trattativa, le verifiche e l'intera operazione dal primo contatto alla consegna.",
+    "cta_btn": "Contattare tramite Teranova",
+    "more": "Apri il profilo →",
+    "verified_suppliers": "Fornitori verificati",
+    "certs_h": "Certificazioni",
+    "certs_note": "",
+    "products_h": "Prodotti",
+    "products_note": "Tre prodotti mostrati con immagini ufficiali Vegan Nature. Prezzi e condizioni riservate su richiesta."
+  }
+}

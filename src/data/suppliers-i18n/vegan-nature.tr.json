@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Kompakt formda katı saç bakımı",
+    "descriptor": "Vegan Nature, B2B tedarik için katı şampuan ve bakım barları sunan Kore markasıdır",
+    "origin": "Güney Kore",
+    "about": [
+      "Vegan Nature katı saç bakım formatları geliştirir. Resmî materyaller seriyi vegan yaşam tarzı, doğal kaynaklı içerikler ve plastik ambalajın azaltılmasıyla ilişkilendirir.",
+      "Yayın izni Citrus ve Fruity Floral şampuan barları ile Yellow Rose bakım barını kapsar. Formül, etiket, belgeler ve pazara özel ifadeler proje bazında doğrulanır."
+    ],
+    "facts": [
+      "Üç doğrulanmış ürün",
+      "İki şampuan barı ve bir bakım barı",
+      "Tıbbi iddia yayımlanmaz",
+      "Belgeler pazar ve proje bazında doğrulanır"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Güzellik perakendesi ve uzman mağazalar",
+      "E-ticaret ve kurumsal hediye"
+    ],
+    "lines": [
+      {
+        "name": "Vegan Shampoo Bar · Citrus",
+        "note": "Narenciye kokulu katı şampuan."
+      },
+      {
+        "name": "Vegan Shampoo Bar · Fruity Floral",
+        "note": "Meyvemsi-çiçeksi kokulu katı şampuan."
+      },
+      {
+        "name": "Vegan Treatment Bar · Yellow Rose",
+        "note": "Sarı gül kokulu katı bakım barı."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Proje bazlı doğrulama",
+        "note": "Formül, etiket, vegan/cruelty-free durumu, testler ve belgeler işlem öncesi doğrulanır; sertifikalar ve saç dökülmesi/uzama iddiaları yayımlanmaz."
+      }
+    ],
+    "formats": [
+      "Katı şampuan · Citrus",
+      "Katı şampuan · Fruity Floral",
+      "Bakım barı · Yellow Rose"
+    ],
+    "exportNote": "Bu profil yalnızca Teranova üzerinden B2B tanıtım içindir. Fiyatlar, ABD koşulları, doğrudan iletişim, doğrulanmamış sertifikalar ve saç dökülmesi/uzama iddiaları yayımlanmaz.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B talepleri ve görüşmeler."
+      },
+      {
+        "label": "Ürün gamı",
+        "value": "Yayımlanmış üç ürün; stok talebe göre doğrulanır."
+      },
+      {
+        "label": "Fiyat",
+        "value": "Talep üzerine; halka açık fiyat listesi yok."
+      }
+    ],
+    "consentNote": "Profil ve ürün sayfaları, 15 Eylül 2026 tarihli yazılı izinle resmî site ve onaylı materyallere dayanır. Hak devri veya münhasırlık anlamına gelmez.",
+    "seoTitle": "Vegan Nature — Kore katı şampuanları B2B · Teranova",
+    "seoDesc": "Vegan Nature: iki katı şampuan ve bir bakım barı. Teranova üzerinden B2B."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": "Üç ürün Vegan Nature resmî görselleriyle gösterilir. Fiyatlar ve gizli ticari koşullar talep üzerine."
+  }
+}
