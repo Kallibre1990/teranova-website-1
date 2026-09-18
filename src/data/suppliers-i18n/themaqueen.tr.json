@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Koreli güzellik aksesuarları geliştiricisi ve üreticisi",
+    "descriptor": "THEMAQUEEN soğutucu masaj aletleri, yüz temizleme fırçaları ve saç derisi bakım fırçalarına odaklanır",
+    "origin": "Republic of Korea",
+    "about": [
+      "THEMAQUEEN, 2014 yılında kurulan Koreli bir güzellik cihazı üreticisidir. Resmî sitesi, Koreli ve uluslararası kozmetik markalarına OEM ürün tedarik ettiğini ve kendi markasını da işlettiğini belirtir.",
+      "Resmî siteler, şirkete ait kalıplarla Kore’de üretim ve patent korumalı tasarımlar beyan eder. Teranova her B2B projesi için geçerli üretim, teknik ve fikrî mülkiyet belgelerini ayrıca doğrular."
+    ],
+    "facts": [
+      "2014 yılında kuruldu",
+      "Kategoriler: soğutucu masaj, temizleme ve saç derisi fırçaları",
+      "OEM faaliyeti resmî sitede beyan ediliyor",
+      "Belgeler ve uygunluk proje bazında doğrulanır"
+    ],
+    "channels": [
+      "Kozmetik markaları ve marka sahipleri",
+      "İthalatçılar ve distribütörler",
+      "Perakende ve profesyonel kanallar"
+    ],
+    "lines": [
+      {
+        "name": "Soğutucu masaj",
+        "note": "Yüz, göz çevresi ve saç derisi için soğutucu bakım aksesuarları."
+      },
+      {
+        "name": "Temizleme fırçaları",
+        "note": "Günlük yüz temizliği için manuel fırçalar ve aksesuarlar."
+      },
+      {
+        "name": "Saç derisi bakımı",
+        "note": "Saç derisi bakımı için şampuan fırçaları ve masaj aksesuarları."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "Şirket kendisine ait kalıpları, özgün tasarımı ve Kore’de üretimi açıklamaktadır. Tedarik kapsamı, modele ilişkin haklar, testler ve etiketleme işlemden önce ayrıca doğrulanır."
+      }
+    ],
+    "formats": [
+      "Soğutucu masaj aletleri",
+      "Yüz temizleme fırçaları",
+      "Saç derisi fırçaları"
+    ],
+    "exportNote": "THEMAQUEEN kurumsal profil için yazılı izin vermiştir. Tekil ürün sayfaları, doğrudan iletişim bilgileri, müşteri listeleri, patent numaraları, sertifikalar, fiyatlar ve gizli koşullar yayımlanmaz.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B ürün ve proje talepleri."
+      },
+      {
+        "label": "Ürün grubu",
+        "value": "Kategoriler ve bulunabilirlik güncel talebe göre doğrulanır."
+      },
+      {
+        "label": "Fiyat",
+        "value": "Talep üzerine; herkese açık fiyat listesi yoktur."
+      }
+    ],
+    "consentNote": "Bu kurumsal profil, 16 Eylül 2026 tarihli yazılı izin kapsamında THEMAQUEEN resmî sitelerini kullanır. Üretim ve fikrî mülkiyete ilişkin önemli beyanlar şirkete atfedilir ve proje bazında doğrulanır.",
+    "seoTitle": "THEMAQUEEN — Koreli güzellik aksesuarları geliştiricisi ve üreticisi · Teranova",
+    "seoDesc": "THEMAQUEEN soğutucu masaj aletleri, yüz temizleme fırçaları ve saç derisi bakım fırçalarına odaklanır"
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": "THEMAQUEEN resmî görselleri ana kategorileri gösterir. Tekil ürün kartları yayımlanmaz."
+  }
+}

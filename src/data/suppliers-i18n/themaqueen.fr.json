@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Développeur et fabricant coréen d’accessoires beauté",
+    "descriptor": "THEMAQUEEN se concentre sur les masseurs rafraîchissants, les brosses nettoyantes visage et les brosses cuir chevelu",
+    "origin": "Republic of Korea",
+    "about": [
+      "THEMAQUEEN est un fabricant coréen d’appareils de beauté fondé en 2014. Son site officiel indique des fournitures OEM à des marques cosmétiques coréennes et étrangères, ainsi que l’exploitation de sa propre marque.",
+      "Les sites officiels déclarent une production en Corée avec des moules détenus par l’entreprise et des designs protégés par brevet. Teranova vérifie séparément les documents de production, techniques et de propriété intellectuelle applicables à chaque projet B2B."
+    ],
+    "facts": [
+      "Fondée en 2014",
+      "Catégories : massage rafraîchissant, brosses nettoyantes et cuir chevelu",
+      "Activité OEM déclarée sur le site officiel",
+      "Documents et adéquation vérifiés par projet"
+    ],
+    "channels": [
+      "Marques cosmétiques et détenteurs de marques",
+      "Importateurs et distributeurs",
+      "Canaux retail et professionnels"
+    ],
+    "lines": [
+      {
+        "name": "Massage rafraîchissant",
+        "note": "Accessoires de soin rafraîchissant pour le visage, le contour des yeux et le cuir chevelu."
+      },
+      {
+        "name": "Brosses nettoyantes",
+        "note": "Brosses manuelles et accessoires pour le nettoyage quotidien du visage."
+      },
+      {
+        "name": "Soin du cuir chevelu",
+        "note": "Brosses à shampooing et accessoires de massage pour le cuir chevelu."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "L’entreprise décrit des moules détenus en propre, un design original et une production en Corée. Le périmètre de fourniture, les droits sur le modèle, les essais et l’étiquetage sont confirmés séparément avant toute transaction."
+      }
+    ],
+    "formats": [
+      "Masseurs rafraîchissants",
+      "Brosses nettoyantes visage",
+      "Brosses cuir chevelu"
+    ],
+    "exportNote": "THEMAQUEEN a autorisé par écrit un profil d’entreprise. Les pages produit individuelles, contacts directs, listes de clients, numéros de brevet, certificats, prix et conditions confidentielles ne sont pas publiés.",
+    "terms": [
+      {
+        "label": "Coopération",
+        "value": "Demandes B2B de produits et de projets via Teranova."
+      },
+      {
+        "label": "Gamme",
+        "value": "Les catégories et la disponibilité sont confirmées selon la demande en cours."
+      },
+      {
+        "label": "Prix",
+        "value": "Sur demande ; aucun tarif public."
+      }
+    ],
+    "consentNote": "Ce profil d’entreprise utilise les sites officiels de THEMAQUEEN avec l’autorisation écrite du 16 septembre 2026. Les déclarations importantes sur la production et la propriété intellectuelle sont attribuées à l’entreprise et vérifiées pour chaque projet.",
+    "seoTitle": "THEMAQUEEN — Développeur et fabricant coréen d’accessoires beauté · Teranova",
+    "seoDesc": "THEMAQUEEN se concentre sur les masseurs rafraîchissants, les brosses nettoyantes visage et les brosses cuir chevelu"
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Sur demande ; aucun tarif public.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Produits",
+    "products_note": "Les images officielles THEMAQUEEN présentent les principales catégories. Aucune fiche produit individuelle n’est publiée."
+  }
+}

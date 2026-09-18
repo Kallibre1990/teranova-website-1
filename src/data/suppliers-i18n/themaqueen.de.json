@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Koreanischer Entwickler und Hersteller von Beauty-Zubehör",
+    "descriptor": "THEMAQUEEN konzentriert sich auf kühlende Massagegeräte, Gesichtsreinigungs- und Kopfhautbürsten",
+    "origin": "Republic of Korea",
+    "about": [
+      "THEMAQUEEN ist ein 2014 gegründeter koreanischer Hersteller von Beauty-Geräten. Laut offizieller Website beliefert das Unternehmen koreanische und internationale Kosmetikmarken im OEM-Geschäft und führt zugleich eine eigene Marke.",
+      "Die offiziellen Websites nennen Produktion in Korea mit eigenen Formen und patentgeschützte Designs. Teranova prüft die für jedes B2B-Projekt relevanten Produktions-, Technik- und IP-Unterlagen gesondert."
+    ],
+    "facts": [
+      "Gegründet 2014",
+      "Kategorien: Kühlmassage, Reinigungs- und Kopfhautbürsten",
+      "OEM-Aktivität laut offizieller Website",
+      "Unterlagen und Eignung werden projektbezogen geprüft"
+    ],
+    "channels": [
+      "Kosmetikmarken und Markeninhaber",
+      "Importeure und Vertriebspartner",
+      "Einzelhandel und professionelle Kanäle"
+    ],
+    "lines": [
+      {
+        "name": "Kühlmassage",
+        "note": "Zubehör für kühlende Anwendungen an Gesicht, Augenpartie und Kopfhaut."
+      },
+      {
+        "name": "Reinigungsbürsten",
+        "note": "Manuelle Bürsten und Zubehör für die tägliche Gesichtsreinigung."
+      },
+      {
+        "name": "Kopfhautpflege",
+        "note": "Shampoo-Bürsten und Massagezubehör für die Kopfhautpflege."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "Das Unternehmen beschreibt eigene Formen, originäres Design und Produktion in Korea. Lieferumfang, Modellrechte, Tests und Kennzeichnung werden vor einer Transaktion gesondert bestätigt."
+      }
+    ],
+    "formats": [
+      "Kühlende Massagegeräte",
+      "Gesichtsreinigungsbürsten",
+      "Kopfhautbürsten"
+    ],
+    "exportNote": "THEMAQUEEN hat ein Unternehmensprofil schriftlich genehmigt. Einzelne Produktseiten, direkte Kontakte, Kundenlisten, Patentnummern, Zertifikate, Preise und vertrauliche Konditionen werden nicht veröffentlicht.",
+    "terms": [
+      {
+        "label": "Zusammenarbeit",
+        "value": "B2B-Produkt- und Projektanfragen über Teranova."
+      },
+      {
+        "label": "Sortiment",
+        "value": "Kategorien und Verfügbarkeit werden anhand der aktuellen Anfrage bestätigt."
+      },
+      {
+        "label": "Preis",
+        "value": "Auf Anfrage; keine öffentliche Preisliste."
+      }
+    ],
+    "consentNote": "Dieses Unternehmensprofil nutzt die offiziellen THEMAQUEEN-Websites auf Grundlage der schriftlichen Genehmigung vom 16. September 2026. Wesentliche Aussagen zu Produktion und Schutzrechten werden dem Unternehmen zugeschrieben und projektbezogen geprüft.",
+    "seoTitle": "THEMAQUEEN — Koreanischer Entwickler und Hersteller von Beauty-Zubehör · Teranova",
+    "seoDesc": "THEMAQUEEN konzentriert sich auf kühlende Massagegeräte, Gesichtsreinigungs- und Kopfhautbürsten"
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen geeignet:",
+    "lines_h": "Produktlinien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Auf Anfrage; keine öffentliche Preisliste.",
+    "cta_h": "Interessiert Sie dieser Lieferant?",
+    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifizierungen",
+    "certs_note": "",
+    "products_h": "Produkte",
+    "products_note": "Offizielle THEMAQUEEN-Bilder zeigen die Hauptkategorien. Einzelne Produktkarten werden nicht veröffentlicht."
+  }
+}

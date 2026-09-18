@@ -241,6 +241,17 @@ import armingTr from './suppliers-i18n/arming.tr.json';
 import armingEs from './suppliers-i18n/arming.es.json';
 import armingPt from './suppliers-i18n/arming.pt.json';
 import armingCatalog from './suppliers-i18n/arming.catalog.json';
+import themaqueenRu from './suppliers-i18n/themaqueen.ru.json';
+import themaqueenEn from './suppliers-i18n/themaqueen.en.json';
+import themaqueenKo from './suppliers-i18n/themaqueen.ko.json';
+import themaqueenZh from './suppliers-i18n/themaqueen.zh.json';
+import themaqueenJa from './suppliers-i18n/themaqueen.ja.json';
+import themaqueenIt from './suppliers-i18n/themaqueen.it.json';
+import themaqueenDe from './suppliers-i18n/themaqueen.de.json';
+import themaqueenFr from './suppliers-i18n/themaqueen.fr.json';
+import themaqueenTr from './suppliers-i18n/themaqueen.tr.json';
+import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
+import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
 import glowPumpkinEn from './suppliers-i18n/glow-pumpkin.en.json';
 import glowPumpkinKo from './suppliers-i18n/glow-pumpkin.ko.json';
@@ -2271,6 +2282,25 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf' },
     i18n: {
       ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any),
+    },
+  },
+  {
+    slug: 'themaqueen',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'THEMAQUEEN',
+    brand: 'THEMAQUEEN',
+    status: 'provided',
+    brandColors: { deep: '#20262A', sky: '#CBD5D9', accent: '#7A919B', bg: '#F5F7F7' },
+    voice: 'minimal',
+    /* Письменное согласие от 16.09.2026 охватывает только корпоративный
+       профиль. Поэтому нет product catalog и product-detail routes. Данные о
+       собственных формах, корейском производстве и патентах атрибутированы
+       официальным сайтам и подлежат проверке под конкретный B2B-проект. */
+    termsFile: { ru: '/docs/themaqueen-terms-ru.pdf', en: '/docs/themaqueen-terms-en.pdf', ko: '/docs/themaqueen-terms-ko.pdf', zh: '/docs/themaqueen-terms-zh.pdf', ja: '/docs/themaqueen-terms-ja.pdf', it: '/docs/themaqueen-terms-it.pdf', de: '/docs/themaqueen-terms-de.pdf', fr: '/docs/themaqueen-terms-fr.pdf', tr: '/docs/themaqueen-terms-tr.pdf', es: '/docs/themaqueen-terms-es.pdf', pt: '/docs/themaqueen-terms-pt.pdf' },
+    presFile: { ru: '/docs/themaqueen-presentation-ru.pdf', en: '/docs/themaqueen-presentation-en.pdf', ko: '/docs/themaqueen-presentation-ko.pdf', zh: '/docs/themaqueen-presentation-zh.pdf', ja: '/docs/themaqueen-presentation-ja.pdf', it: '/docs/themaqueen-presentation-it.pdf', de: '/docs/themaqueen-presentation-de.pdf', fr: '/docs/themaqueen-presentation-fr.pdf', tr: '/docs/themaqueen-presentation-tr.pdf', es: '/docs/themaqueen-presentation-es.pdf', pt: '/docs/themaqueen-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any),
     },
   }
 ];

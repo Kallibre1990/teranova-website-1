@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Desenvolvedor e fabricante coreano de acessórios de beleza",
+    "descriptor": "A THEMAQUEEN concentra-se em massageadores refrescantes, escovas de limpeza facial e escovas para o couro cabeludo",
+    "origin": "Republic of Korea",
+    "about": [
+      "A THEMAQUEEN é uma fabricante coreana de dispositivos de beleza fundada em 2014. O site oficial declara fornecimento OEM para marcas de cosméticos coreanas e internacionais, além de marca própria.",
+      "Os sites oficiais declaram produção na Coreia com moldes próprios e designs protegidos por patente. A Teranova verifica separadamente os documentos de produção, técnicos e de propriedade intelectual aplicáveis a cada projeto B2B."
+    ],
+    "facts": [
+      "Fundada em 2014",
+      "Categorias: massagem refrescante, escovas de limpeza e para o couro cabeludo",
+      "Atividade OEM declarada no site oficial",
+      "Documentos e adequação verificados por projeto"
+    ],
+    "channels": [
+      "Marcas de cosméticos e proprietários de marcas",
+      "Importadores e distribuidores",
+      "Canais de retalho e profissionais"
+    ],
+    "lines": [
+      {
+        "name": "Massagem refrescante",
+        "note": "Acessórios para cuidados refrescantes do rosto, contorno dos olhos e couro cabeludo."
+      },
+      {
+        "name": "Escovas de limpeza",
+        "note": "Escovas manuais e acessórios para a limpeza facial diária."
+      },
+      {
+        "name": "Cuidados do couro cabeludo",
+        "note": "Escovas de champô e acessórios de massagem para o cuidado do couro cabeludo."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "A empresa descreve moldes próprios, design original e produção na Coreia. O âmbito do fornecimento, os direitos sobre o modelo, os testes e a rotulagem são confirmados separadamente antes de cada transação."
+      }
+    ],
+    "formats": [
+      "Massageadores refrescantes",
+      "Escovas de limpeza facial",
+      "Escovas para o couro cabeludo"
+    ],
+    "exportNote": "A THEMAQUEEN autorizou por escrito um perfil corporativo. Não são publicadas páginas individuais de produto, contactos diretos, listas de clientes, números de patente, certificados, preços ou condições confidenciais.",
+    "terms": [
+      {
+        "label": "Cooperação",
+        "value": "Consultas B2B sobre produtos e projetos através da Teranova."
+      },
+      {
+        "label": "Gama",
+        "value": "As categorias e a disponibilidade são confirmadas conforme o pedido atual."
+      },
+      {
+        "label": "Preço",
+        "value": "Sob consulta; sem lista pública de preços."
+      }
+    ],
+    "consentNote": "Este perfil corporativo utiliza os sites oficiais da THEMAQUEEN com autorização escrita de 16 de setembro de 2026. As declarações relevantes sobre produção e propriedade intelectual são atribuídas à empresa e verificadas por projeto.",
+    "seoTitle": "THEMAQUEEN — Desenvolvedor e fabricante coreano de acessórios de beleza · Teranova",
+    "seoDesc": "A THEMAQUEEN concentra-se em massageadores refrescantes, escovas de limpeza facial e escovas para o couro cabeludo"
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem serve:",
+    "lines_h": "Linhas de produto",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Sob consulta; sem lista pública de preços.",
+    "cta_h": "Ficou interessado neste fornecedor?",
+    "cta_d": "Fale conosco — a Teranova organiza a negociação, as verificações e toda a operação, do primeiro contato à entrega.",
+    "cta_btn": "Falar através da Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações",
+    "certs_note": "",
+    "products_h": "Produtos",
+    "products_note": "As imagens oficiais da THEMAQUEEN mostram as principais categorias. Não são publicadas fichas individuais de produto."
+  }
+}

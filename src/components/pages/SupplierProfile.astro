@@ -57,6 +57,10 @@ import drPeloDrops from '../../assets/suppliers/dr-pelo/drops.jpg';
 import armingHero from '../../assets/suppliers/arming/hero.jpg';
 import armingProducts from '../../assets/suppliers/arming/products.jpg';
 import armingDrops from '../../assets/suppliers/arming/drops.jpg';
+import themaqueenLogo from '../../assets/suppliers/themaqueen/logo.jpg';
+import themaqueenHero from '../../assets/suppliers/themaqueen/hero.jpg';
+import themaqueenProducts from '../../assets/suppliers/themaqueen/products.jpg';
+import themaqueenDrops from '../../assets/suppliers/themaqueen/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -65,7 +69,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo };
+const logos: Record<string, ImageMetadata> = { sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   sante: { hero: santeHero, products: santeProducts, drops: santeDrops },
@@ -81,6 +85,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   'desert-free': { hero: desertFreeHero, products: desertFreeProducts, drops: desertFreeDrops },
   'dr-pelo': { hero: drPeloHero, products: drPeloProducts, drops: drPeloDrops },
   arming: { hero: armingHero, products: armingProducts, drops: armingDrops },
+  themaqueen: { hero: themaqueenHero, products: themaqueenProducts, drops: themaqueenDrops },
 };
 const m = media[profile.slug];
 const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;

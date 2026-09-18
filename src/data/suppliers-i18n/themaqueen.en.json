@@ -1,0 +1,88 @@
+{
+  "content": {
+    "tagline": "Korean developer and manufacturer of beauty accessories",
+    "descriptor": "THEMAQUEEN focuses on cooling massagers, facial cleansing brushes and scalp-care brushes",
+    "origin": "Republic of Korea",
+    "about": [
+      "THEMAQUEEN is a Korean beauty-device manufacturer founded in 2014. Its official website states that it supplies OEM products to Korean and overseas cosmetics brands and also operates its own brand.",
+      "The company’s official websites state that products are made in Korea using company-owned moulds and that its designs are patent-protected. Teranova verifies the applicable manufacturing, technical and IP documents separately for each B2B project."
+    ],
+    "facts": [
+      "Founded in 2014",
+      "Categories: cooling massage, cleansing and scalp brushes",
+      "OEM activity stated on the official website",
+      "Documents and suitability verified per project"
+    ],
+    "channels": [
+      "Cosmetics brands and brand owners",
+      "Importers and distributors",
+      "Retail and professional channels"
+    ],
+    "lines": [
+      {
+        "name": "Cooling massage",
+        "note": "Accessories for cooling care of the face, eye area and scalp."
+      },
+      {
+        "name": "Cleansing brushes",
+        "note": "Manual brushes and accessories for everyday facial cleansing."
+      },
+      {
+        "name": "Scalp care",
+        "note": "Shampoo brushes and massage accessories for scalp-care categories."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "The company describes company-owned moulds, original design and production in Korea. Supply scope, rights to a specific model, tests and labelling are confirmed separately before a transaction."
+      }
+    ],
+    "formats": [
+      "Cooling massagers",
+      "Facial cleansing brushes",
+      "Scalp brushes"
+    ],
+    "exportNote": "THEMAQUEEN gave written permission for a corporate profile. Individual product pages, direct contacts, client lists, patent numbers, certificates, prices and confidential terms are not published here.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B product and project enquiries through Teranova."
+      },
+      {
+        "label": "Range",
+        "value": "Categories and availability are confirmed against the current enquiry."
+      },
+      {
+        "label": "Price",
+        "value": "On request; no public price list."
+      }
+    ],
+    "consentNote": "This corporate profile uses THEMAQUEEN’s official websites under written permission dated 16 September 2026. Strong manufacturing and IP statements are attributed to the company and verified for the specific project.",
+    "seoTitle": "THEMAQUEEN — Korean beauty devices and OEM · Teranova",
+    "seoDesc": "THEMAQUEEN corporate profile: cooling massagers, cleansing brushes and scalp-care brushes. B2B through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": "Official THEMAQUEEN images show the main categories. No individual product cards are published."
+  }
+}

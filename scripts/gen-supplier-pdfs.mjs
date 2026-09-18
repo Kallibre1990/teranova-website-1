@@ -443,6 +443,16 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* THEMAQUEEN: согласие 16.09.2026 относится только к корпоративному
+       профилю. Product pages, контакты, клиенты, номера патентов и сертификаты
+       не публикуются. */
+    id: 'themaqueen', json: 'themaqueen', supplier: 'THEMAQUEEN', brand: 'THEMAQUEEN',
+    basis: 'B2B · terms on request', noPrice: true,
+    colors: { deep: '#20262A', sky: '#CBD5D9', bg: '#F5F7F7', line: '#DCE3E6' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
