@@ -1,4 +1,4 @@
-import { site } from './site';
+import { site, showAia, showBusan } from './site';
 import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
 import { supplierContent, linePageContent, supplierBySlug, type SupplierProfile, type SupplierLinePage } from './suppliers';
@@ -21,28 +21,41 @@ export function organizationNode(lang: Lang) {
     '@type': 'Organization',
     '@id': ORG_ID,
     name: 'Teranova Group',
-    legalName: 'AIA Group Ltd.',
+    // Решение Антона 21.09.2026: пока СКРЫТЬ AIA Group Ltd. (флаг showAia) и
+    // пусанский адрес (флаг showBusan) из разметки. Всё сохранено в true-ветках —
+    // вернуть = поставить нужный флаг в true. Пока AIA скрыт: без legalName и без
+    // рег.номера (непроверенный чеджуский реквизит в разметку не ставим — он
+    // закрепляется в ответах ИИ надолго; появится, когда юрлицо будет
+    // зарегистрировано и у нас будет его номер). Пока Пусан скрыт — адрес город Чеджу.
+    ...(showAia ? { legalName: 'AIA Group Ltd.' } : {}),
     url: site.domain + '/',
     logo: site.domain + '/brand/teranova-mark-dark-v2.svg',
     description: t.meta.home_desc,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '5F #511, 9 Jungang-daero 81beon-gil, Jung-gu',
-      addressLocality: 'Busan',
-      addressCountry: 'KR',
-    },
-    // Корейский регистрационный номер из устава. Для поисковых и AI-систем это
-    // самый сильный из доступных нам признаков сущности: строку «Teranova» носят
-    // несколько несвязанных компаний (аэрокосмическая в Инчхоне, продавец камер,
-    // Terranova Sales), и номер — единственное, что нас от них отличает
-    // однозначно.
-    identifier: [
-      {
-        '@type': 'PropertyValue',
-        name: 'Business Registration Number (사업자등록번호)',
-        value: '750-86-03426',
-      },
-    ],
+    address: showBusan
+      ? {
+          '@type': 'PostalAddress',
+          streetAddress: '5F #511, 9 Jungang-daero 81beon-gil, Jung-gu',
+          addressLocality: 'Busan',
+          addressCountry: 'KR',
+        }
+      : {
+          '@type': 'PostalAddress',
+          addressLocality: 'Jeju',
+          addressCountry: 'KR',
+        },
+    ...(showAia
+      ? {
+          // Корейский регистрационный номер из устава — сильнейший признак
+          // сущности для поисковых/AI-систем (несколько несвязанных «Teranova»).
+          identifier: [
+            {
+              '@type': 'PropertyValue',
+              name: 'Business Registration Number (사업자등록번호)',
+              value: '750-86-03426',
+            },
+          ],
+        }
+      : {}),
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -52,26 +65,20 @@ export function organizationNode(lang: Lang) {
         availableLanguage: ['Russian', 'English', 'Korean'],
       },
     ],
-    // Адреса компании. Пусан — юридический адрес AIA Group Ltd. из устава.
-    // Решение Антона 24.08.2026: вторым будет адрес на Чеджу от Teranova Group.
-    // Он появится здесь одной записью, КОГДА юрлицо будет зарегистрировано и у
-    // нас будет его номер: непроверенный реквизит, попав в разметку,
-    // закрепляется в ответах ИИ надолго и вычищается медленнее, чем вносится.
-    location: [
-      {
-        '@type': 'Place',
-        name: 'AIA Group Ltd. — Busan office',
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: '5F #511, 9 Jungang-daero 81beon-gil, Jung-gu',
-          addressLocality: 'Busan',
-          addressCountry: 'KR',
-        },
-      },
-    ],
-    // Только бренд. AIA Group Ltd. — юридическое лицо, оно стоит в legalName;
-    // повторять его как бренд значит показывать системе две сущности там, где
-    // есть одна.
+    location: showBusan
+      ? [
+          {
+            '@type': 'Place',
+            name: 'AIA Group Ltd. — Busan office',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '5F #511, 9 Jungang-daero 81beon-gil, Jung-gu',
+              addressLocality: 'Busan',
+              addressCountry: 'KR',
+            },
+          },
+        ]
+      : [],
     brand: [{ '@type': 'Brand', name: 'Teranova Group' }],
   };
 }

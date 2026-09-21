@@ -2,7 +2,7 @@
 import Logo from './Logo.astro';
 import { mainNav } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
-import { site } from '../data/site';
+import { site, showAia } from '../data/site';
 
 interface Props {
   lang: Lang;
@@ -20,7 +20,7 @@ const year = new Date().getFullYear();
       <div class="footer__brand">
         <Logo lang={lang} variant="light" />
         <p class="footer__blurb">{t.footer.blurb}</p>
-        <p class="footer__joint">{t.footer.joint_brand}</p>
+        {showAia && <p class="footer__joint">{t.footer.joint_brand}</p>}
 
         <a class="footer__sister" href="https://marine.teranovagroup.com/" rel="noopener">
           <span class="footer__sister-kicker">{t.footer.marine_title}</span>

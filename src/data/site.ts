@@ -9,6 +9,28 @@ export const site = {
   city: 'South Korea',
 } as const;
 
+/* === Обратимые метки видимости (решение Антона 21.09.2026) ==================
+   Пока СКРЫТЬ со всех языков сайта три вещи. Три отдельных флага — чтобы позже
+   можно было вернуть ЧАСТЬ данных, не всё сразу: поставил нужный в `true` →
+   пересобрал (`npm run build`). Ничего не удаляем: все строки целы в локалях и
+   в true-ветках компонентов/jsonld. Яхтинг и банковские реквизиты не трогаем.
+
+     showFounder — карточка основателя Антона Мадельканова (команда: Footer нет,
+                   TeamTeaser на главной, герой и сетка «О нас»).
+     showAia     — компания AIA Group Ltd.: юрлицо в «Контактах», строка
+                   «совместный бренд AIA…», legalName и рег.№ в разметке, llms.txt.
+     showBusan   — пусанский адрес в разметке Organization (jsonld).
+
+   Чтобы вернуть ВСЁ как было — все три в `true`. Метка/точка возврата и таблица
+   «было/стало»: docs/HIDDEN-2026-09-21-founder-aia-busan.md. ======================= */
+export const showFounder = false as boolean;
+export const showAia = false as boolean;
+export const showBusan = false as boolean;
+/* Юрлицо, показываемое, когда AIA скрыт. */
+export const legalNameFallback = 'Teranova Group Ltd.';
+/* Метка фото основателя — по ней прячем его карточку в командных блоках. */
+export const founderPhoto = '/img/team/anton-madelkanov.jpg';
+
 /* Contact channels shown on the Contacts page. Emails are language-neutral and
    live here (single source); their localized title/description live in i18n at
    pages.contacts.channels, keyed by the same ids. */

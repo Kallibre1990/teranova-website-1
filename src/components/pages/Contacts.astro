@@ -3,7 +3,7 @@ import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { site, contactEmails, contactOrder } from '../../data/site';
+import { site, contactEmails, contactOrder, showAia, legalNameFallback } from '../../data/site';
 interface Props {
   lang: Lang;
 }
@@ -11,6 +11,7 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.contacts;
 const channels = contactOrder.map((k) => ({ addr: contactEmails[k], ...p.channels[k] }));
+const legalValue = showAia ? p.legal_value : legalNameFallback;
 ---
 
 <PageHead sup={t.nav.contacts} title={p.title} sub={p.sub} />
@@ -38,7 +39,7 @@ const channels = contactOrder.map((k) => ({ addr: contactEmails[k], ...p.channel
       </div>
       <div class="icard">
         <span class="icard__label">{p.legal_label}</span>
-        <span class="icard__big">{p.legal_value}</span>
+        <span class="icard__big">{legalValue}</span>
       </div>
       <div class="icard">
         <span class="icard__label">{p.loc_label}</span>
