@@ -1,4 +1,4 @@
-import { site, showFounderAia } from './site';
+import { site, showAia, showBusan } from './site';
 import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
 import { supplierContent, linePageContent, supplierBySlug, type SupplierProfile, type SupplierLinePage } from './suppliers';
@@ -21,17 +21,17 @@ export function organizationNode(lang: Lang) {
     '@type': 'Organization',
     '@id': ORG_ID,
     name: 'Teranova Group',
-    // Решение Антона 21.09.2026: пока СКРЫТЬ AIA Group Ltd. и пусанский адрес из
-    // разметки (флаг showFounderAia). Всё сохранено в true-ветках — вернуть =
-    // поставить флаг в true. Пока AIA скрыт: без legalName и без рег.номера
-    // (непроверенный чеджуский реквизит в разметку не ставим — он закрепляется в
-    // ответах ИИ надолго; появится, когда юрлицо будет зарегистрировано и у нас
-    // будет его номер), адрес — город Чеджу.
-    ...(showFounderAia ? { legalName: 'AIA Group Ltd.' } : {}),
+    // Решение Антона 21.09.2026: пока СКРЫТЬ AIA Group Ltd. (флаг showAia) и
+    // пусанский адрес (флаг showBusan) из разметки. Всё сохранено в true-ветках —
+    // вернуть = поставить нужный флаг в true. Пока AIA скрыт: без legalName и без
+    // рег.номера (непроверенный чеджуский реквизит в разметку не ставим — он
+    // закрепляется в ответах ИИ надолго; появится, когда юрлицо будет
+    // зарегистрировано и у нас будет его номер). Пока Пусан скрыт — адрес город Чеджу.
+    ...(showAia ? { legalName: 'AIA Group Ltd.' } : {}),
     url: site.domain + '/',
     logo: site.domain + '/brand/teranova-mark-dark-v2.svg',
     description: t.meta.home_desc,
-    address: showFounderAia
+    address: showBusan
       ? {
           '@type': 'PostalAddress',
           streetAddress: '5F #511, 9 Jungang-daero 81beon-gil, Jung-gu',
@@ -43,7 +43,7 @@ export function organizationNode(lang: Lang) {
           addressLocality: 'Jeju',
           addressCountry: 'KR',
         },
-    ...(showFounderAia
+    ...(showAia
       ? {
           // Корейский регистрационный номер из устава — сильнейший признак
           // сущности для поисковых/AI-систем (несколько несвязанных «Teranova»).
@@ -65,7 +65,7 @@ export function organizationNode(lang: Lang) {
         availableLanguage: ['Russian', 'English', 'Korean'],
       },
     ],
-    location: showFounderAia
+    location: showBusan
       ? [
           {
             '@type': 'Place',
