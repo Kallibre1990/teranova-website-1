@@ -9,6 +9,19 @@ export const site = {
   city: 'South Korea',
 } as const;
 
+/* Reversible visibility switch (решение Антона 21.09.2026): пока СКРЫТЬ со всех
+   языков упоминания основателя Антона Мадельканова, компании AIA Group Ltd. и
+   пусанского офиса — оставить только Teranova Group и присутствие в Корее (Чеджу).
+   Ничего не удаляем: строки остаются в локалях и в true-ветках ниже; чтобы
+   вернуть всё как было, поставить `true`. Затрагивает: карточку основателя в
+   команде (Footer/TeamTeaser/About), юрлицо в контактах, «совместный бренд AIA»
+   и разметку Organization (jsonld). Яхтинг и банковские реквизиты не трогает. */
+export const showFounderAia = false as boolean;
+/* Юрлицо, показываемое, когда AIA скрыт. */
+export const legalNameFallback = 'Teranova Group Ltd.';
+/* Метка фото основателя — по ней прячем его карточку в командных блоках. */
+export const founderPhoto = '/img/team/anton-madelkanov.jpg';
+
 /* Contact channels shown on the Contacts page. Emails are language-neutral and
    live here (single source); their localized title/description live in i18n at
    pages.contacts.channels, keyed by the same ids. */

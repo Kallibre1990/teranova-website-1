@@ -6,6 +6,7 @@ import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { teamPhoto } from '../../data/teamPhotos';
 import { assetPhoto } from '../../data/assetPhoto';
+import { showFounderAia, founderPhoto } from '../../data/site';
 interface Props {
   lang: Lang;
 }
@@ -13,7 +14,8 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.about;
 const team = t.pages.team;
-const founder = team.members[0];
+const members = team.members.filter((m) => showFounderAia || m.photo !== founderPhoto);
+const founder = members[0];
 const banner = assetPhoto('about', 'about-hero');
 ---
 
@@ -60,7 +62,7 @@ const banner = assetPhoto('about', 'about-hero');
       </div>
       <div class="team-grid">
         {
-          team.members.map((m) => (
+          members.map((m) => (
             <figure class="tcard">
               <div class="tcard__photo">
                 <Image src={teamPhoto(m.photo)} alt={`${m.name} — ${m.role}`} widths={[260, 520]} sizes="(max-width: 460px) 92vw, (max-width: 920px) 46vw, 260px" format="webp" loading="lazy" decoding="async" />
@@ -77,7 +79,7 @@ const banner = assetPhoto('about', 'about-hero');
       <p class="page-note">{team.note}</p>
     </div>
 
-    <p class="page-note">{t.footer.joint_brand}</p>
+    {showFounderAia && <p class="page-note">{t.footer.joint_brand}</p>}
     <div class="page-cta">
       <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
     </div>
