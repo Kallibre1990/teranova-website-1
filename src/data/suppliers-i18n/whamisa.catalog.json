@@ -1,0 +1,73 @@
+[
+  {
+    "line": "Organic Flowers",
+    "items": [
+      { "name": "Organic Flowers Toner Deep Rich", "img": "/img/suppliers/whamisa/products/organic-flowers-toner-deep-rich.jpg", "volume": "200 ml", "certs": [] },
+      { "name": "Organic Flowers Lotion Double Rich", "img": "/img/suppliers/whamisa/products/organic-flowers-lotion-double-rich.jpg", "volume": "200 ml", "certs": [] },
+      { "name": "Organic Flowers Water Cream", "img": "/img/suppliers/whamisa/products/organic-flowers-water-cream.jpg", "volume": "50 ml", "certs": [] },
+      { "name": "Organic Flowers Nourishing Cream", "img": "/img/suppliers/whamisa/products/organic-flowers-nourishing-cream.jpg", "volume": "50 ml", "certs": [] },
+      { "name": "Organic Flowers Cleansing Oil", "img": "/img/suppliers/whamisa/products/organic-flowers-cleansing-oil.jpg", "volume": "260 ml", "certs": [] },
+      { "name": "Organic Flowers Foam Cleansing Cream", "img": "/img/suppliers/whamisa/products/organic-flowers-foam-cleansing-cream.jpg", "volume": "150 ml", "certs": [] },
+      { "name": "Organic Flowers Foaming Gel", "img": "/img/suppliers/whamisa/products/organic-flowers-foaming-gel.jpg", "volume": "150 ml", "certs": ["RE·AWARDS 2025"] },
+      { "name": "Organic Flowers Facial Oil Deep Rich", "img": "/img/suppliers/whamisa/products/organic-flowers-facial-oil-deep-rich.jpg", "volume": "32 ml", "certs": [] },
+      { "name": "Organic Flowers Eye Essence", "img": "/img/suppliers/whamisa/products/organic-flowers-eye-essence.jpg", "volume": "30 ml", "certs": [] },
+      { "name": "Organic Flowers Damask Rose Petal Mist", "img": "/img/suppliers/whamisa/products/organic-flowers-damask-rose-petal-mist.jpg", "volume": "100 ml", "certs": [] },
+      { "name": "Organic Flowers Hydrogel Mask", "img": "/img/suppliers/whamisa/products/organic-flowers-hydrogel-mask.jpg", "volume": "5 pcs", "certs": ["RE·AWARDS 2025"] },
+      { "name": "Organic Flowers One-step Cleansing Milk Pad", "img": "/img/suppliers/whamisa/products/organic-flowers-one-step-cleansing-milk-pad.jpg", "volume": "55 pads / 180 ml", "certs": [] },
+      { "name": "Organic Flowers Feminine Wash Biosurfactant", "img": "/img/suppliers/whamisa/products/organic-flowers-feminine-wash-biosurfactant.jpg", "volume": "150 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "Organic Cactus",
+    "items": [
+      { "name": "Organic Cactus Inner Skin Moisture Bouncy Serum", "img": "/img/suppliers/whamisa/products/organic-cactus-inner-skin-moisture-bouncy-serum.jpg", "volume": "52 ml", "certs": ["RE·AWARDS 2025"] },
+      { "name": "Organic Cactus Wrinkle & Brightening Magic Serum", "img": "/img/suppliers/whamisa/products/organic-cactus-wrinkle-brightening-magic-serum.jpg", "volume": "32 ml", "certs": [] },
+      { "name": "Organic Cactus Moisture Toner Pad PDRN", "img": "/img/suppliers/whamisa/products/organic-cactus-moisture-toner-pad-pdrn.jpg", "volume": "130 pads / 190 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "Organic Pear Blossom",
+    "items": [
+      { "name": "Organic Pear Blossom Essence Toner", "img": "/img/suppliers/whamisa/products/organic-pear-blossom-essence-toner.jpg", "volume": "160 ml", "certs": [] },
+      { "name": "Organic Pear Blossom Sunscreen", "img": "/img/suppliers/whamisa/products/organic-pear-blossom-sunscreen.jpg", "volume": "50 ml", "certs": ["RE·AWARDS 2025"] },
+      { "name": "Organic Pear Blossom Sunscreen Powder", "img": "/img/suppliers/whamisa/products/organic-pear-blossom-sunscreen-powder.jpg", "volume": "5.5 g + 2.3 g", "certs": [] }
+    ]
+  },
+  {
+    "line": "Organic Seeds — hair & body",
+    "items": [
+      { "name": "Organic Seeds Green Peas Shampoo Scalp Care", "img": "/img/suppliers/whamisa/products/organic-seeds-green-peas-shampoo-scalp-care.jpg", "volume": "450 ml", "certs": ["RE·AWARDS 2025"] },
+      { "name": "Organic Seeds Shampoo Oily Scalp", "img": "/img/suppliers/whamisa/products/organic-seeds-shampoo-oily-scalp.jpg", "volume": "490 ml", "certs": [] },
+      { "name": "Organic Seeds Shampoo Dry Scalp", "img": "/img/suppliers/whamisa/products/organic-seeds-shampoo-dry-scalp.jpg", "volume": "490 ml", "certs": [] },
+      { "name": "Organic Seeds Hair Treatment", "img": "/img/suppliers/whamisa/products/organic-seeds-hair-treatment.jpg", "volume": "200 ml", "certs": [] },
+      { "name": "Organic Seeds Hair Scalp Tonic", "img": "/img/suppliers/whamisa/products/organic-seeds-hair-scalp-tonic.jpg", "volume": "165 ml", "certs": [] },
+      { "name": "Organic Seeds Body Cleanser Relaxation", "img": "/img/suppliers/whamisa/products/organic-seeds-body-cleanser-relaxation.jpg", "volume": "490 ml", "certs": [] },
+      { "name": "Organic Seeds Body Lotion Relaxation", "img": "/img/suppliers/whamisa/products/organic-seeds-body-lotion-relaxation.jpg", "volume": "250 ml", "certs": [] },
+      { "name": "Organic Seeds Hand Cream Relaxation", "img": "/img/suppliers/whamisa/products/organic-seeds-hand-cream-relaxation.jpg", "certs": [] }
+    ]
+  },
+  {
+    "line": "Organic Algae",
+    "items": [
+      { "name": "Organic Algae Kelp Mask", "img": "/img/suppliers/whamisa/products/organic-algae-kelp-mask.jpg", "volume": "5 pcs", "certs": [] },
+      { "name": "Organic Algae Body Cleanser Contouring", "img": "/img/suppliers/whamisa/products/organic-algae-body-cleanser-contouring.jpg", "volume": "490 ml", "certs": [] },
+      { "name": "Organic Algae Body Mist Contouring", "img": "/img/suppliers/whamisa/products/organic-algae-body-mist-contouring.jpg", "volume": "160 ml", "certs": [] },
+      { "name": "Organic Algae Glacier Water Gel Mist", "img": "/img/suppliers/whamisa/products/organic-algae-glacier-water-gel-mist.jpg", "volume": "100 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "Organic Herb",
+    "items": [
+      { "name": "Organic Herb Cestrum Leaf Outdoor Spray", "img": "/img/suppliers/whamisa/products/organic-herb-cestrum-leaf-outdoor-spray.jpg", "volume": "100 ml", "certs": [] },
+      { "name": "Organic Herb Olive Leaf Mist", "img": "/img/suppliers/whamisa/products/organic-herb-olive-leaf-mist.jpg", "volume": "100 ml", "certs": [] }
+    ]
+  },
+  {
+    "line": "Organic Fruits",
+    "items": [
+      { "name": "Organic Fruits Hydrogel Mask Yuja", "img": "/img/suppliers/whamisa/products/organic-fruits-hydrogel-mask-yuja.jpg", "volume": "5 pcs", "certs": [] },
+      { "name": "Organic Fruits Pore Clear Pad Yuja", "img": "/img/suppliers/whamisa/products/organic-fruits-pore-clear-pad-yuja.jpg", "volume": "60 pads / 175 ml", "certs": [] },
+      { "name": "Organic Fruits Acne Spot Treatment Yuja", "img": "/img/suppliers/whamisa/products/organic-fruits-acne-spot-treatment-yuja.jpg", "volume": "30 g", "certs": [] }
+    ]
+  }
+]

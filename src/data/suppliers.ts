@@ -254,6 +254,18 @@ import armingTr from './suppliers-i18n/arming.tr.json';
 import armingEs from './suppliers-i18n/arming.es.json';
 import armingPt from './suppliers-i18n/arming.pt.json';
 import armingCatalog from './suppliers-i18n/arming.catalog.json';
+import whamisaRu from './suppliers-i18n/whamisa.ru.json';
+import whamisaEn from './suppliers-i18n/whamisa.en.json';
+import whamisaKo from './suppliers-i18n/whamisa.ko.json';
+import whamisaZh from './suppliers-i18n/whamisa.zh.json';
+import whamisaJa from './suppliers-i18n/whamisa.ja.json';
+import whamisaIt from './suppliers-i18n/whamisa.it.json';
+import whamisaDe from './suppliers-i18n/whamisa.de.json';
+import whamisaFr from './suppliers-i18n/whamisa.fr.json';
+import whamisaTr from './suppliers-i18n/whamisa.tr.json';
+import whamisaEs from './suppliers-i18n/whamisa.es.json';
+import whamisaPt from './suppliers-i18n/whamisa.pt.json';
+import whamisaCatalog from './suppliers-i18n/whamisa.catalog.json';
 import themaqueenRu from './suppliers-i18n/themaqueen.ru.json';
 import themaqueenEn from './suppliers-i18n/themaqueen.en.json';
 import themaqueenKo from './suppliers-i18n/themaqueen.ko.json';
@@ -2333,6 +2345,26 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf' },
     i18n: {
       ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any),
+    },
+  },
+  {
+    slug: 'whamisa',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'ENS Korea Co., Ltd.',
+    brand: 'WHAMISA',
+    status: 'provided',
+    brandColors: { deep: '#2E3A22', sky: '#AFC29B', accent: '#5E7C3D', bg: '#F4F7EE' },
+    voice: 'natural',
+    /* Подписанное согласие ENS Korea от 21.09.2026 на профиль ENS Korea / WHAMISA
+       и товарные страницы. Официальные материалы — источник названий и изображений;
+       цены, MOQ, прямые контакты и сертификаты как независимо проверённые публично
+       не размещаются. ENS Korea может в любой момент попросить снять публикацию. */
+    catalog: whamisaCatalog as { line: string; items: { name: string; img: string }[] }[],
+    termsFile: { ru: '/docs/whamisa-terms-ru.pdf', en: '/docs/whamisa-terms-en.pdf', ko: '/docs/whamisa-terms-ko.pdf', zh: '/docs/whamisa-terms-zh.pdf', ja: '/docs/whamisa-terms-ja.pdf', it: '/docs/whamisa-terms-it.pdf', de: '/docs/whamisa-terms-de.pdf', fr: '/docs/whamisa-terms-fr.pdf', tr: '/docs/whamisa-terms-tr.pdf', es: '/docs/whamisa-terms-es.pdf', pt: '/docs/whamisa-terms-pt.pdf' },
+    presFile: { ru: '/docs/whamisa-presentation-ru.pdf', en: '/docs/whamisa-presentation-en.pdf', ko: '/docs/whamisa-presentation-ko.pdf', zh: '/docs/whamisa-presentation-zh.pdf', ja: '/docs/whamisa-presentation-ja.pdf', it: '/docs/whamisa-presentation-it.pdf', de: '/docs/whamisa-presentation-de.pdf', fr: '/docs/whamisa-presentation-fr.pdf', tr: '/docs/whamisa-presentation-tr.pdf', es: '/docs/whamisa-presentation-es.pdf', pt: '/docs/whamisa-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any),
     },
   },
   {

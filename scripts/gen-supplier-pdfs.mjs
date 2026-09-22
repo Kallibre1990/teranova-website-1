@@ -441,6 +441,16 @@ const SUPPLIERS = [
     certs: [],
   },
   {
+    /* ENS Korea / WHAMISA: подписанное согласие 21.09.2026 на профиль и
+       товарные страницы. Цены, MOQ, прямые контакты и сертификаты как
+       независимо проверённые не публикуются. */
+    id: 'whamisa', json: 'whamisa', supplier: 'ENS Korea Co., Ltd.', brand: 'WHAMISA',
+    basis: 'B2B · terms on request', noPrice: true,
+    colors: { deep: '#2E3A22', sky: '#AFC29B', bg: '#F4F7EE', line: '#DCE6D2' },
+    pres: true,
+    certs: [],
+  },
+  {
     /* Enveco Cosmetic / ARMING: отдельный профиль разрешён письменно 14.09.2026.
        Прайсы, MOQ, контакты и закрытые условия не публикуются. */
     id: 'arming', json: 'arming', supplier: 'Enveco Cosmetic Co., Ltd.', brand: 'ARMING',
