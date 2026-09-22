@@ -434,7 +434,7 @@ const SUPPLIERS = [
   {
     /* JRM Holdings: письменное согласие на профиль Dr.Pelo от 14.09.2026.
        Прайс и MOQ закрыты; anti-hair-loss claims без новой проверки не публикуются. */
-    id: 'dr-pelo', json: 'dr-pelo', supplier: 'JRM Holdings', brand: 'Dr.Pelo',
+    id: 'dr-pelo', json: 'dr-pelo', supplier: 'Dr.Pelo', brand: 'Dr.Pelo',
     basis: 'B2B · terms on request', noPrice: true,
     colors: { deep: '#26382F', sky: '#A6B09A', bg: '#F6F3ED', line: '#DED8CC' },
     pres: true,

@@ -2313,7 +2313,7 @@ export const suppliers: SupplierProfile[] = [
     slug: 'dr-pelo',
     category: 'cosmetics',
     country: 'kr',
-    name: 'JRM Holdings',
+    name: 'Dr.Pelo',
     brand: 'Dr.Pelo',
     status: 'provided',
     brandColors: { deep: '#26382F', sky: '#A6B09A', accent: '#8B5E3C', bg: '#F6F3ED' },

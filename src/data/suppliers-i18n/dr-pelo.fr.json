@@ -1,96 +1,90 @@
 {
-  "content": {
-    "tagline": "Soins professionnels coréens pour les cheveux et le cuir chevelu Dr.Pelo",
-    "descriptor": "JRM Holdings détient la marque Dr.Pelo ; les produits sont fabriqués par la société distincte Enveco Cosmetic",
-    "origin": "Republic of Korea",
-    "about": [
-      "JRM Holdings develops Dr.Pelo, a Korean brand for professional hair and scalp care. This profile identifies JRM Holdings as the brand owner and Enveco Cosmetic as a separate manufacturer; it does not claim that JRM owns a factory.",
-      "The range is presented from the official catalogue. Product names are not treated as proof of a therapeutic effect: anti-hair-loss claims and study results are not published here without separate current-document verification."
-    ],
-    "facts": [
-      "Brand owner: JRM Holdings",
-      "Brand: Dr.Pelo",
-      "Manufacturer in supplier materials: Enveco Cosmetic",
-      "Prices and commercial terms on request"
-    ],
-    "channels": [
-      "Professional hair-care distributors",
-      "Salons and scalp-care centres",
-      "Retail chains and online stores"
-    ],
-    "lines": [
-      {
-        "name": "Shampoo",
-        "note": "Hair and scalp cleansing shampoos; no therapeutic promise is made on this page."
-      },
-      {
-        "name": "Scalp Care",
-        "note": "Scalp tonic and care products; functional claims are verified at the deal stage."
-      },
-      {
-        "name": "Treatment",
-        "note": "Products for conditioning and improving the appearance of hair."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Document-first claims",
-        "note": "Positioning and formulation details for each product are verified against current technical documents before a transaction."
-      }
-    ],
-    "formats": [
-      "Shampoo",
-      "Scalp tonic",
-      "Hair treatment"
-    ],
-    "exportNote": "JRM Holdings authorised a Dr.Pelo profile and selected products for international B2B partners. Prices, MOQ and confidential commercial terms are not published.",
-    "terms": [
-      {
-        "label": "Cooperation",
-        "value": "Wholesale B2B supply through Teranova."
-      },
-      {
-        "label": "Manufacturing",
-        "value": "Enveco Cosmetic is identified as the separate manufacturer of Dr.Pelo products."
-      },
-      {
-        "label": "Price",
-        "value": "On request; no public price list."
-      }
-    ],
-    "consentNote": "Official Dr.Pelo materials are published under written permission dated 14 September 2026. Therapeutic and anti-hair-loss claims, prices, personal contacts and unverified certificates are excluded.",
-    "seoTitle": "JRM Holdings / Dr.Pelo — Soins professionnels coréens pour les cheveux et le cuir chevelu Dr.Pelo · Teranova",
-    "seoDesc": "Dr.Pelo by JRM Holdings: Korean shampoos, scalp tonic and hair care. Manufactured by Enveco Cosmetic; B2B enquiries through Teranova.",
-    "catalog_notes": [
-      "Dr.Pelo Miracle Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Tonic — official catalogue image.",
-      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
-      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
-      "Dr.Pelo Hair Perm Cream — official catalogue image."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Profil du fournisseur",
-    "about_h": "L'entreprise",
-    "for_whom": "À qui cela convient :",
-    "lines_h": "Lignes de produits",
-    "catalog_h": "Catalogue produits",
-    "tech_h": "Technologie",
-    "formats_h": "Formats de produits",
-    "export_h": "Export et marchés",
-    "terms_h": "Conditions de coopération",
-    "download_btn": "Télécharger les conditions (PDF)",
-    "pres_btn": "Télécharger la présentation (PDF)",
-    "terms_disc": "On request; no public price list.",
-    "cta_h": "Ce fournisseur vous intéresse ?",
-    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
-    "cta_btn": "Contacter via Teranova",
-    "more": "Ouvrir le profil →",
-    "verified_suppliers": "Fournisseurs vérifiés",
-    "certs_h": "Certifications",
-    "certs_note": "",
-    "products_h": "Produits",
-    "products_note": "Images officielles du catalogue de six produits Dr.Pelo."
-  }
+ "content": {
+  "tagline": "Soins professionnels coréens du cuir chevelu et anti-chute par Dr.Pelo",
+  "descriptor": "Dr.Pelo — soins professionnels coréens du cuir chevelu et une gamme fonctionnelle anti-chute que la marque déclare approuvée par la KFDA. Propriété de JRM Holdings.",
+  "origin": "République de Corée",
+  "about": [
+   "Dr.Pelo est une marque coréenne de soins professionnels du cuir chevelu et des cheveux, propriété de JRM Holdings. Elle part d'une idée simple — les problèmes capillaires commencent au cuir chevelu — et construit sa routine autour du nettoyage des résidus, de l'apaisement du cuir chevelu et du soutien des racines.",
+   "La marque déclare que sa formulation anti-chute est approuvée par la KFDA et a été étudiée cliniquement avec le Korea University Ansan Hospital comme produit fonctionnel destiné à atténuer la chute des cheveux. Ce sont les déclarations propres à l'entreprise ; Teranova les présente pour les partenaires B2B et ne les vérifie pas de manière indépendante. Les prix et conditions commerciales sont communiqués sur demande, non publiés."
+  ],
+  "facts": [
+   "Marque : Dr.Pelo, propriété de JRM Holdings",
+   "Soins professionnels coréens du cuir chevelu et gamme anti-chute",
+   "Selon la marque, la gamme est un produit fonctionnel approuvé par la KFDA pour atténuer la chute des cheveux, étudié avec le Korea University Ansan Hospital",
+   "Actifs cités par la marque : L-Menthol, Salicylic Acid et Dexpanthenol",
+   "Prix et conditions commerciales sur demande"
+  ],
+  "channels": [
+   "Distributeurs de soins capillaires professionnels",
+   "Salons et centres de soin du cuir chevelu",
+   "Chaînes de distribution et boutiques en ligne"
+  ],
+  "lines": [
+   {
+    "name": "Soin du cuir chevelu et des cheveux",
+    "note": "Une routine ciblée qui commence par le cuir chevelu : le Scalp Shampoo et le Scalp Tonic pour le soin anti-chute, et les Hair & Scalp Wipes pour un nettoyage rapide entre deux lavages."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Approche « cuir chevelu d'abord »",
+    "note": "La marque décrit la chute des cheveux comme commençant au cuir chevelu — résidus, inflammation, apport insuffisant en nutriments et racines affaiblies — et s'attache à nettoyer et exfolier le cuir chevelu, soutenir la circulation et équilibrer le pH du cuir chevelu (environ 4.5–5.5)."
+   },
+   {
+    "name": "Actifs clés, selon la marque",
+    "note": "L-Menthol pour rafraîchir le cuir chevelu et éliminer les résidus, Salicylic Acid pour exfolier en douceur et désobstruer les pores, et Dexpanthenol pour aider la barrière du cuir chevelu à retenir l'hydratation. Présentés tels que la marque les déclare."
+   }
+  ],
+  "formats": [
+   "Shampooing pour le cuir chevelu",
+   "Tonique pour le cuir chevelu",
+   "Lingettes cheveux et cuir chevelu"
+  ],
+  "exportNote": "Dr.Pelo a autorisé un profil et des produits sélectionnés pour les partenaires B2B internationaux via Teranova. Les prix, le MOQ et les conditions commerciales confidentielles ne sont pas publiés.",
+  "terms": [
+   {
+    "label": "Coopération",
+    "value": "Fourniture B2B en gros de produits finis Dr.Pelo via Teranova."
+   },
+   {
+    "label": "Certification",
+    "value": "La marque déclare une gamme fonctionnelle anti-chute approuvée par la KFDA et étudiée avec le Korea University Ansan Hospital. Présentée telle que déclarée par la marque, non vérifiée de manière indépendante par Teranova."
+   },
+   {
+    "label": "Prix",
+    "value": "Sur demande ; pas de tarif public."
+   }
+  ],
+  "consentNote": "Les documents officiels Dr.Pelo — nom, logo et images des produits — sont publiés avec l'autorisation écrite de JRM Holdings. Les déclarations anti-chute et cliniques sont présentées telles que déclarées par la marque (une gamme fonctionnelle approuvée par la KFDA). Les prix et contacts personnels ne sont pas publiés.",
+  "seoTitle": "Dr.Pelo — soins professionnels coréens du cuir chevelu et anti-chute · Teranova",
+  "seoDesc": "Dr.Pelo (JRM Holdings) : shampooing pour le cuir chevelu, tonique pour le cuir chevelu et lingettes cheveux et cuir chevelu coréens — une gamme fonctionnelle anti-chute que la marque déclare approuvée par la KFDA. B2B via Teranova.",
+  "catalog_notes": [
+   "Dr.Pelo Scalp Shampoo — un shampooing pour le cuir chevelu que la marque présente comme un produit fonctionnel approuvé par la KFDA pour atténuer la chute des cheveux : il nettoie les résidus et rafraîchit le cuir chevelu avec L-Menthol, Salicylic Acid et Dexpanthenol.",
+   "Dr.Pelo Scalp Tonic — un tonique sans rinçage de la même gamme anti-chute, que la marque présente comme un produit fonctionnel approuvé par la KFDA pour apaiser et soutenir le cuir chevelu entre deux lavages.",
+   "Dr.Pelo Hair & Scalp Wipes — des lingettes pour un soin nourrissant et un nettoyage en profondeur des cheveux et du cuir chevelu sans lavage ; 17 ml par sachet, selon la marque."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Profil du fournisseur",
+  "about_h": "L'entreprise",
+  "for_whom": "À qui cela convient :",
+  "lines_h": "Lignes de produits",
+  "catalog_h": "Catalogue produits",
+  "tech_h": "Technologie",
+  "formats_h": "Formats de produits",
+  "export_h": "Export et marchés",
+  "terms_h": "Conditions de coopération",
+  "download_btn": "Télécharger les conditions (PDF)",
+  "pres_btn": "Télécharger la présentation (PDF)",
+  "terms_disc": "On request; no public price list.",
+  "cta_h": "Ce fournisseur vous intéresse ?",
+  "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+  "cta_btn": "Contacter via Teranova",
+  "more": "Ouvrir le profil →",
+  "verified_suppliers": "Fournisseurs vérifiés",
+  "certs_h": "Certifications",
+  "certs_note": "",
+  "products_h": "Produits",
+  "products_note": "Photos officielles des trois produits Dr.Pelo : Scalp Shampoo, Scalp Tonic et Hair & Scalp Wipes."
+ }
 }

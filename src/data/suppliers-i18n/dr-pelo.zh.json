@@ -1,96 +1,90 @@
 {
-  "content": {
-    "tagline": "韩国 Dr.Pelo 专业头发与头皮护理",
-    "descriptor": "JRM Holdings 为 Dr.Pelo 品牌所有方，产品由独立公司 Enveco Cosmetic 制造",
-    "origin": "Republic of Korea",
-    "about": [
-      "JRM Holdings 运营韩国专业头发与头皮护理品牌 Dr.Pelo。本页明确区分品牌所有方 JRM Holdings 与独立制造商 Enveco Cosmetic，不声称 JRM 拥有工厂。",
-      "产品范围依据官方目录展示。产品名称不构成疗效证明；未经单独核验最新文件，本页不发布防脱发主张或研究结果。"
-    ],
-    "facts": [
-      "品牌所有方：JRM Holdings",
-      "品牌：Dr.Pelo",
-      "供应商资料所列制造商：Enveco Cosmetic",
-      "价格与商务条件需询价"
-    ],
-    "channels": [
-      "专业美发护理经销商",
-      "沙龙与头皮护理中心",
-      "零售连锁及电商"
-    ],
-    "lines": [
-      {
-        "name": "Shampoo",
-        "note": "头发与头皮清洁洗发产品；本页不作治疗承诺。"
-      },
-      {
-        "name": "Scalp Care",
-        "note": "头皮精华与护理产品；功能性主张在交易阶段核验。"
-      },
-      {
-        "name": "Treatment",
-        "note": "用于调理并改善头发外观的护理产品。"
-      }
-    ],
-    "tech": [
-      {
-        "name": "Document-first claims",
-        "note": "每款产品的定位与配方信息在交易前以最新技术文件核验。"
-      }
-    ],
-    "formats": [
-      "Shampoo",
-      "Scalp tonic",
-      "Hair treatment"
-    ],
-    "exportNote": "JRM Holdings 已授权为国际 B2B 合作方制作 Dr.Pelo 档案及精选产品页面。价格、MOQ 与保密商务条件不公开。",
-    "terms": [
-      {
-        "label": "合作方式",
-        "value": "通过 Teranova 进行 B2B 批发。"
-      },
-      {
-        "label": "制造",
-        "value": "Enveco Cosmetic 为 Dr.Pelo 产品的独立制造商。"
-      },
-      {
-        "label": "价格",
-        "value": "询价提供；无公开价目表。"
-      }
-    ],
-    "consentNote": "Dr.Pelo 官方资料依据 2026 年 9 月 14 日书面许可发布。治疗及防脱发主张、价格、个人联系方式和未经核验的认证均未发布。",
-    "seoTitle": "JRM Holdings / Dr.Pelo — 韩国专业头发护理 · Teranova",
-    "seoDesc": "JRM Holdings 旗下 Dr.Pelo：洗发水、头皮精华与头发护理。Enveco Cosmetic 制造，B2B 通过 Teranova。",
-    "catalog_notes": [
-      "Dr.Pelo Miracle Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Tonic — official catalogue image.",
-      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
-      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
-      "Dr.Pelo Hair Perm Cream — official catalogue image."
-    ]
-  },
-  "ui": {
-    "profile_sup": "供应商档案",
-    "about_h": "公司简介",
-    "for_whom": "适合对象：",
-    "lines_h": "产品线",
-    "catalog_h": "产品目录",
-    "tech_h": "技术",
-    "formats_h": "产品形态",
-    "export_h": "出口与市场",
-    "terms_h": "合作条件",
-    "download_btn": "下载合作条件（PDF）",
-    "pres_btn": "下载品牌介绍（PDF）",
-    "terms_disc": "询价提供；无公开价目表。",
-    "cta_h": "对这家供应商感兴趣？",
-    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
-    "cta_btn": "通过 Teranova 联系",
-    "more": "查看档案 →",
-    "verified_suppliers": "已核实供应商",
-    "certs_h": "认证",
-    "certs_note": "",
-    "products_h": "产品",
-    "products_note": "Dr.Pelo 六款产品的官方目录图片。"
-  }
+ "content": {
+  "tagline": "Dr.Pelo 韩国专业头皮护理与防脱发护理",
+  "descriptor": "Dr.Pelo — 韩国专业头皮护理及一条功能性防脱发产品线，品牌称其已获 KFDA 批准。所有方为 JRM Holdings。",
+  "origin": "大韩民国",
+  "about": [
+   "Dr.Pelo 是由 JRM Holdings 拥有的韩国专业头皮与头发护理品牌。它基于一个简单理念——头发问题始于头皮——并围绕清洁堆积物、舒缓头皮和养护发根来构建护理流程。",
+   "品牌称其防脱发配方已获 KFDA 批准，并与 Korea University Ansan Hospital 一同作为缓解脱发的功能性产品进行了临床研究。这些是公司自身的陈述；Teranova 仅为 B2B 合作方转述，不作独立核验。价格与商务条件不公开，仅应请求提供。"
+  ],
+  "facts": [
+   "品牌：Dr.Pelo，所有方 JRM Holdings",
+   "韩国专业头皮护理与防脱发产品线",
+   "据品牌称，该产品线为经 KFDA 批准、与 Korea University Ansan Hospital 一同研究的缓解脱发功能性产品",
+   "品牌所列主要活性成分：L-Menthol、Salicylic Acid 和 Dexpanthenol",
+   "价格与商务条件需询价"
+  ],
+  "channels": [
+   "专业美发护理经销商",
+   "沙龙与头皮护理中心",
+   "零售连锁及电商"
+  ],
+  "lines": [
+   {
+    "name": "头皮与头发护理",
+    "note": "以头皮为先的专注护理流程：用于防脱发护理的 Scalp Shampoo 与 Scalp Tonic，以及在两次洗发之间随时清洁的 Hair & Scalp Wipes。"
+   }
+  ],
+  "tech": [
+   {
+    "name": "头皮优先理念",
+    "note": "品牌将脱发描述为始于头皮——堆积物、炎症、营养供给不足与发根变弱——并致力于清洁并去除头皮角质、促进循环并平衡头皮 pH（约 4.5–5.5）。"
+   },
+   {
+    "name": "主要活性成分（据品牌说明）",
+    "note": "L-Menthol 令头皮清爽并去除堆积物，Salicylic Acid 温和去角质并疏通毛孔，Dexpanthenol 帮助头皮屏障锁住水分。按品牌所述呈现。"
+   }
+  ],
+  "formats": [
+   "头皮洗发水",
+   "头皮精华",
+   "头发与头皮湿巾"
+  ],
+  "exportNote": "Dr.Pelo 已授权通过 Teranova 为国际 B2B 合作方制作档案及精选产品页面。价格、MOQ 与保密商务条件不公开。",
+  "terms": [
+   {
+    "label": "合作方式",
+    "value": "通过 Teranova 进行 Dr.Pelo 成品的 B2B 批发供应。"
+   },
+   {
+    "label": "认证",
+    "value": "品牌称其为经 KFDA 批准、与 Korea University Ansan Hospital 一同研究的功能性防脱发产品线。按品牌所述呈现，未经 Teranova 独立核验。"
+   },
+   {
+    "label": "价格",
+    "value": "询价提供；无公开价目表。"
+   }
+  ],
+  "consentNote": "Dr.Pelo 官方资料——名称、标识与产品图片——依据 JRM Holdings 的书面许可发布。防脱发与临床相关陈述均按品牌所述呈现（经 KFDA 批准的功能性产品线）。价格与个人联系方式不公开。",
+  "seoTitle": "Dr.Pelo — 韩国专业头皮护理与防脱发护理 · Teranova",
+  "seoDesc": "Dr.Pelo（JRM Holdings）：韩国头皮洗发水、头皮精华与头发头皮湿巾——品牌称已获 KFDA 批准的功能性防脱发产品线。通过 Teranova 进行 B2B。",
+  "catalog_notes": [
+   "Dr.Pelo Scalp Shampoo — 品牌将其呈现为经 KFDA 批准的缓解脱发功能性产品的头皮护理洗发水：以 L-Menthol、Salicylic Acid 和 Dexpanthenol 清洁堆积物并令头皮清爽。",
+   "Dr.Pelo Scalp Tonic — 同一防脱发产品线中的免洗精华，品牌将其呈现为在两次洗发之间舒缓并养护头皮的经 KFDA 批准功能性产品。",
+   "Dr.Pelo Hair & Scalp Wipes — 无需清洗即可对头发与头皮进行滋养护理与深层清洁的随身湿巾；据品牌称每袋 17 ml。"
+  ]
+ },
+ "ui": {
+  "profile_sup": "供应商档案",
+  "about_h": "公司简介",
+  "for_whom": "适合对象：",
+  "lines_h": "产品线",
+  "catalog_h": "产品目录",
+  "tech_h": "技术",
+  "formats_h": "产品形态",
+  "export_h": "出口与市场",
+  "terms_h": "合作条件",
+  "download_btn": "下载合作条件（PDF）",
+  "pres_btn": "下载品牌介绍（PDF）",
+  "terms_disc": "询价提供；无公开价目表。",
+  "cta_h": "对这家供应商感兴趣？",
+  "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+  "cta_btn": "通过 Teranova 联系",
+  "more": "查看档案 →",
+  "verified_suppliers": "已核实供应商",
+  "certs_h": "认证",
+  "certs_note": "",
+  "products_h": "产品",
+  "products_note": "Dr.Pelo 三款产品的官方产品照片：Scalp Shampoo、Scalp Tonic 和 Hair & Scalp Wipes。"
+ }
 }

@@ -1,96 +1,90 @@
 {
-  "content": {
-    "tagline": "한국 Dr.Pelo의 프로페셔널 헤어·두피 케어",
-    "descriptor": "JRM Holdings는 Dr.Pelo 브랜드 소유사이며 제품은 별도 법인 Enveco Cosmetic이 제조합니다",
-    "origin": "대한민국",
-    "about": [
-      "JRM Holdings는 프로페셔널 헤어·두피 케어 브랜드 Dr.Pelo를 전개합니다. 본 프로필은 JRM Holdings를 브랜드 소유사로, Enveco Cosmetic을 별도 제조사로 구분하며 JRM의 자체 공장을 주장하지 않습니다.",
-      "제품군은 공식 카탈로그를 기준으로 소개합니다. 제품명만으로 치료 효과를 의미하지 않으며 탈모 관련 주장과 시험 결과는 최신 문서의 별도 확인 없이 공개하지 않습니다."
-    ],
-    "facts": [
-      "브랜드 소유사: JRM Holdings",
-      "브랜드: Dr.Pelo",
-      "공급사 자료상 제조사: Enveco Cosmetic",
-      "가격 및 상업 조건은 문의"
-    ],
-    "channels": [
-      "프로페셔널 헤어케어 유통사",
-      "살롱 및 두피 케어 센터",
-      "리테일 체인과 온라인몰"
-    ],
-    "lines": [
-      {
-        "name": "Shampoo",
-        "note": "헤어와 두피 세정용 샴푸; 치료 효능을 주장하지 않습니다."
-      },
-      {
-        "name": "Scalp Care",
-        "note": "두피 토닉 및 케어 제품; 기능성 주장은 거래 단계에서 확인합니다."
-      },
-      {
-        "name": "Treatment",
-        "note": "모발 컨디셔닝과 외관 관리를 위한 제품."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Document-first claims",
-        "note": "각 제품의 포지셔닝과 성분 정보는 거래 전에 최신 기술 문서로 확인합니다."
-      }
-    ],
-    "formats": [
-      "Shampoo",
-      "Scalp tonic",
-      "Hair treatment"
-    ],
-    "exportNote": "JRM Holdings는 해외 B2B 파트너를 위한 Dr.Pelo 프로필과 선정 제품 소개를 허가했습니다. 가격, MOQ 및 비공개 조건은 공개하지 않습니다.",
-    "terms": [
-      {
-        "label": "협력 방식",
-        "value": "Teranova를 통한 B2B 도매 공급."
-      },
-      {
-        "label": "제조",
-        "value": "Enveco Cosmetic은 Dr.Pelo 제품의 별도 제조사입니다."
-      },
-      {
-        "label": "가격",
-        "value": "문의 제공; 공개 가격표 없음."
-      }
-    ],
-    "consentNote": "Dr.Pelo 공식 자료는 2026년 9월 14일 서면 허가에 따라 게시됩니다. 치료·탈모 주장, 가격, 개인 연락처와 미확인 인증은 제외했습니다.",
-    "seoTitle": "JRM Holdings / Dr.Pelo — 한국 프로페셔널 헤어케어 · Teranova",
-    "seoDesc": "JRM Holdings의 Dr.Pelo: 샴푸, 두피 토닉과 헤어 케어. Enveco Cosmetic 제조, B2B 문의는 Teranova.",
-    "catalog_notes": [
-      "Dr.Pelo Miracle Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Tonic — official catalogue image.",
-      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
-      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
-      "Dr.Pelo Hair Perm Cream — official catalogue image."
-    ]
-  },
-  "ui": {
-    "profile_sup": "공급업체 프로필",
-    "about_h": "회사 소개",
-    "for_whom": "이런 곳에 적합합니다:",
-    "lines_h": "제품 라인",
-    "catalog_h": "제품 카탈로그",
-    "tech_h": "기술",
-    "formats_h": "제품 형태",
-    "export_h": "수출과 시장",
-    "terms_h": "협력 조건",
-    "download_btn": "협력 조건 내려받기 (PDF)",
-    "pres_btn": "브랜드 소개서 내려받기 (PDF)",
-    "terms_disc": "문의 제공; 공개 가격표 없음.",
-    "cta_h": "이 공급업체에 관심이 있으신가요?",
-    "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
-    "cta_btn": "Teranova를 통해 문의",
-    "more": "프로필 열기 →",
-    "verified_suppliers": "검증된 공급업체",
-    "certs_h": "인증",
-    "certs_note": "",
-    "products_h": "제품",
-    "products_note": "Dr.Pelo 6개 제품의 공식 카탈로그 이미지."
-  }
+ "content": {
+  "tagline": "Dr.Pelo의 한국 전문 두피 케어 및 탈모 완화 케어",
+  "descriptor": "Dr.Pelo — 한국 전문 두피 케어와, 브랜드가 KFDA 승인을 받았다고 밝히는 기능성 탈모 완화 라인. 소유사는 JRM Holdings.",
+  "origin": "대한민국",
+  "about": [
+   "Dr.Pelo는 JRM Holdings가 소유한 한국의 전문 두피·모발 케어 브랜드입니다. 모발 문제는 두피에서 시작된다는 단순한 발상에서 출발해, 노폐물 세정과 두피 진정, 모근 케어를 중심으로 루틴을 구성합니다.",
+   "브랜드는 자사의 탈모 완화 포뮬러가 KFDA 승인을 받았으며 Korea University Ansan Hospital과 함께 탈모 완화 기능성 제품으로 임상 연구되었다고 밝힙니다. 이는 회사 자체의 주장이며, Teranova는 이를 B2B 파트너에게 소개할 뿐 독자적으로 검증하지 않습니다. 가격과 상업 조건은 공개하지 않고 요청 시 제공합니다."
+  ],
+  "facts": [
+   "브랜드: Dr.Pelo, 소유사 JRM Holdings",
+   "한국 전문 두피 케어 및 탈모 완화 라인",
+   "브랜드에 따르면, 이 라인은 Korea University Ansan Hospital과 함께 연구된 KFDA 승인 탈모 완화 기능성 제품",
+   "브랜드가 밝힌 주요 활성 성분: L-Menthol, Salicylic Acid, Dexpanthenol",
+   "가격 및 상업 조건은 요청 시 제공"
+  ],
+  "channels": [
+   "프로페셔널 헤어케어 유통사",
+   "살롱 및 두피 케어 센터",
+   "리테일 체인과 온라인몰"
+  ],
+  "lines": [
+   {
+    "name": "두피·모발 케어",
+    "note": "두피부터 시작하는 집중 루틴: 탈모 완화 케어를 위한 Scalp Shampoo와 Scalp Tonic, 그리고 세정 사이사이 사용하는 휴대용 Hair & Scalp Wipes."
+   }
+  ],
+  "tech": [
+   {
+    "name": "두피 우선 접근",
+    "note": "브랜드는 탈모가 두피에서 시작된다고 설명합니다 — 노폐물 축적, 염증, 영양 공급 부족, 약해진 모근 — 그리고 두피를 세정·각질 제거하고 혈행을 돕고 두피 pH(약 4.5–5.5)를 조절하는 데 주력합니다."
+   },
+   {
+    "name": "주요 활성 성분, 브랜드 설명 기준",
+    "note": "L-Menthol은 두피를 상쾌하게 하고 노폐물을 제거하며, Salicylic Acid는 부드럽게 각질을 제거하고 모공을 정돈하고, Dexpanthenol은 두피 장벽의 수분 유지를 돕습니다. 브랜드가 밝힌 그대로 소개합니다."
+   }
+  ],
+  "formats": [
+   "두피 샴푸",
+   "두피 토닉",
+   "헤어·두피 와이프"
+  ],
+  "exportNote": "Dr.Pelo는 Teranova를 통해 해외 B2B 파트너를 위한 프로필과 선정 제품 소개를 허가했습니다. 가격, MOQ 및 비공개 상업 조건은 공개하지 않습니다.",
+  "terms": [
+   {
+    "label": "협력 방식",
+    "value": "Teranova를 통한 Dr.Pelo 완제품의 B2B 도매 공급."
+   },
+   {
+    "label": "인증",
+    "value": "브랜드는 KFDA 승인을 받고 Korea University Ansan Hospital과 함께 연구된 기능성 탈모 완화 라인이라고 밝힙니다. 브랜드가 밝힌 그대로 소개하며 Teranova가 독자적으로 검증하지는 않았습니다."
+   },
+   {
+    "label": "가격",
+    "value": "요청 시 제공; 공개 가격표 없음."
+   }
+  ],
+  "consentNote": "Dr.Pelo 공식 자료 — 명칭, 로고, 제품 이미지 — 는 JRM Holdings의 서면 허가에 따라 게시됩니다. 탈모 완화 및 임상 관련 진술은 브랜드가 밝힌 그대로 소개합니다(KFDA 승인 기능성 라인). 가격과 개인 연락처는 공개하지 않습니다.",
+  "seoTitle": "Dr.Pelo — 한국 전문 두피 케어 및 탈모 완화 케어 · Teranova",
+  "seoDesc": "Dr.Pelo (JRM Holdings): 한국 두피 샴푸, 두피 토닉, 헤어·두피 와이프 — 브랜드가 KFDA 승인을 받았다고 밝히는 기능성 탈모 완화 라인. Teranova를 통한 B2B.",
+  "catalog_notes": [
+   "Dr.Pelo Scalp Shampoo — 브랜드가 KFDA 승인 탈모 완화 기능성 제품으로 소개하는 두피 케어 샴푸: L-Menthol, Salicylic Acid, Dexpanthenol로 노폐물을 세정하고 두피를 상쾌하게 합니다.",
+   "Dr.Pelo Scalp Tonic — 같은 탈모 완화 라인의 리브온 토닉으로, 브랜드가 세정 사이 두피를 진정·케어하는 KFDA 승인 기능성 제품으로 소개합니다.",
+   "Dr.Pelo Hair & Scalp Wipes — 물 없이 모발과 두피를 영양 케어하고 딥 클렌징하는 휴대용 와이프; 브랜드에 따르면 파우치당 17 ml."
+  ]
+ },
+ "ui": {
+  "profile_sup": "공급업체 프로필",
+  "about_h": "회사 소개",
+  "for_whom": "이런 곳에 적합합니다:",
+  "lines_h": "제품 라인",
+  "catalog_h": "제품 카탈로그",
+  "tech_h": "기술",
+  "formats_h": "제품 형태",
+  "export_h": "수출과 시장",
+  "terms_h": "협력 조건",
+  "download_btn": "협력 조건 내려받기 (PDF)",
+  "pres_btn": "브랜드 소개서 내려받기 (PDF)",
+  "terms_disc": "문의 제공; 공개 가격표 없음.",
+  "cta_h": "이 공급업체에 관심이 있으신가요?",
+  "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
+  "cta_btn": "Teranova를 통해 문의",
+  "more": "프로필 열기 →",
+  "verified_suppliers": "검증된 공급업체",
+  "certs_h": "인증",
+  "certs_note": "",
+  "products_h": "제품",
+  "products_note": "Dr.Pelo 3개 제품의 공식 제품 사진: Scalp Shampoo, Scalp Tonic, Hair & Scalp Wipes."
+ }
 }

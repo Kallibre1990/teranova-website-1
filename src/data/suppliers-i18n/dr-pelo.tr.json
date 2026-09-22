@@ -1,96 +1,90 @@
 {
-  "content": {
-    "tagline": "Koreli Dr.Pelo profesyonel saç ve saç derisi bakımı",
-    "descriptor": "JRM Holdings, Dr.Pelo markasının sahibidir; ürünleri ayrı şirket Enveco Cosmetic üretir",
-    "origin": "Republic of Korea",
-    "about": [
-      "JRM Holdings develops Dr.Pelo, a Korean brand for professional hair and scalp care. This profile identifies JRM Holdings as the brand owner and Enveco Cosmetic as a separate manufacturer; it does not claim that JRM owns a factory.",
-      "The range is presented from the official catalogue. Product names are not treated as proof of a therapeutic effect: anti-hair-loss claims and study results are not published here without separate current-document verification."
-    ],
-    "facts": [
-      "Brand owner: JRM Holdings",
-      "Brand: Dr.Pelo",
-      "Manufacturer in supplier materials: Enveco Cosmetic",
-      "Prices and commercial terms on request"
-    ],
-    "channels": [
-      "Professional hair-care distributors",
-      "Salons and scalp-care centres",
-      "Retail chains and online stores"
-    ],
-    "lines": [
-      {
-        "name": "Shampoo",
-        "note": "Hair and scalp cleansing shampoos; no therapeutic promise is made on this page."
-      },
-      {
-        "name": "Scalp Care",
-        "note": "Scalp tonic and care products; functional claims are verified at the deal stage."
-      },
-      {
-        "name": "Treatment",
-        "note": "Products for conditioning and improving the appearance of hair."
-      }
-    ],
-    "tech": [
-      {
-        "name": "Document-first claims",
-        "note": "Positioning and formulation details for each product are verified against current technical documents before a transaction."
-      }
-    ],
-    "formats": [
-      "Shampoo",
-      "Scalp tonic",
-      "Hair treatment"
-    ],
-    "exportNote": "JRM Holdings authorised a Dr.Pelo profile and selected products for international B2B partners. Prices, MOQ and confidential commercial terms are not published.",
-    "terms": [
-      {
-        "label": "Cooperation",
-        "value": "Wholesale B2B supply through Teranova."
-      },
-      {
-        "label": "Manufacturing",
-        "value": "Enveco Cosmetic is identified as the separate manufacturer of Dr.Pelo products."
-      },
-      {
-        "label": "Price",
-        "value": "On request; no public price list."
-      }
-    ],
-    "consentNote": "Official Dr.Pelo materials are published under written permission dated 14 September 2026. Therapeutic and anti-hair-loss claims, prices, personal contacts and unverified certificates are excluded.",
-    "seoTitle": "JRM Holdings / Dr.Pelo — Koreli Dr.Pelo profesyonel saç ve saç derisi bakımı · Teranova",
-    "seoDesc": "Dr.Pelo by JRM Holdings: Korean shampoos, scalp tonic and hair care. Manufactured by Enveco Cosmetic; B2B enquiries through Teranova.",
-    "catalog_notes": [
-      "Dr.Pelo Miracle Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Tonic — official catalogue image.",
-      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
-      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
-      "Dr.Pelo Hair Perm Cream — official catalogue image."
-    ]
-  },
-  "ui": {
-    "profile_sup": "Tedarikçi profili",
-    "about_h": "Şirket hakkında",
-    "for_whom": "Kimlere uygun:",
-    "lines_h": "Ürün hatları",
-    "catalog_h": "Ürün kataloğu",
-    "tech_h": "Teknoloji",
-    "formats_h": "Ürün formatları",
-    "export_h": "İhracat ve pazarlar",
-    "terms_h": "İş birliği koşulları",
-    "download_btn": "Koşulları indir (PDF)",
-    "pres_btn": "Sunumu indir (PDF)",
-    "terms_disc": "On request; no public price list.",
-    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
-    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
-    "cta_btn": "Teranova üzerinden iletişime geçin",
-    "more": "Profili aç →",
-    "verified_suppliers": "Doğrulanmış tedarikçiler",
-    "certs_h": "Sertifikalar",
-    "certs_note": "",
-    "products_h": "Ürünler",
-    "products_note": "Altı Dr.Pelo ürününün resmî katalog görselleri."
-  }
+ "content": {
+  "tagline": "Dr.Pelo'dan Kore profesyonel saç derisi ve saç dökülmesine karşı bakım",
+  "descriptor": "Dr.Pelo — Kore profesyonel saç derisi bakımı ve markanın KFDA onaylı olduğunu belirttiği işlevsel bir saç dökülmesine karşı seri. Sahibi JRM Holdings.",
+  "origin": "Kore Cumhuriyeti",
+  "about": [
+   "Dr.Pelo, JRM Holdings'e ait bir Kore profesyonel saç derisi ve saç bakımı markasıdır. Basit bir fikirden yola çıkar — saç sorunlarının saç derisinde başladığı — ve rutinini kalıntıları temizlemek, saç derisini yatıştırmak ve kökleri desteklemek etrafında kurar.",
+   "Marka, saç dökülmesine karşı formülasyonunun KFDA tarafından onaylandığını ve saç dökülmesini hafifletmeye yönelik işlevsel bir ürün olarak Korea University Ansan Hospital ile klinik olarak incelendiğini belirtir. Bunlar şirketin kendi beyanlarıdır; Teranova bunları B2B ortakları için sunar ve bağımsız olarak doğrulamaz. Fiyatlar ve ticari koşullar yayımlanmaz, talep üzerine paylaşılır."
+  ],
+  "facts": [
+   "Marka: Dr.Pelo, sahibi JRM Holdings",
+   "Kore profesyonel saç derisi bakımı ve saç dökülmesine karşı seri",
+   "Markaya göre seri, Korea University Ansan Hospital ile incelenen, saç dökülmesini hafifletmeye yönelik KFDA onaylı işlevsel bir üründür",
+   "Markanın belirttiği başlıca etken maddeler: L-Menthol, Salicylic Acid ve Dexpanthenol",
+   "Fiyatlar ve ticari koşullar talep üzerine"
+  ],
+  "channels": [
+   "Profesyonel saç bakımı distribütörleri",
+   "Salonlar ve saç derisi bakım merkezleri",
+   "Perakende zincirleri ve çevrimiçi mağazalar"
+  ],
+  "lines": [
+   {
+    "name": "Saç derisi ve saç bakımı",
+    "note": "Saç derisinden başlayan odaklı bir rutin: saç dökülmesine karşı bakım için Scalp Shampoo ve Scalp Tonic ve yıkamalar arasında pratik temizlik için Hair & Scalp Wipes."
+   }
+  ],
+  "tech": [
+   {
+    "name": "Önce saç derisi yaklaşımı",
+    "note": "Marka, saç dökülmesini saç derisinde başlayan bir durum olarak tanımlar — kalıntı birikimi, iltihaplanma, yetersiz besin desteği ve zayıflamış kökler — ve saç derisini temizlemeye ve arındırmaya, dolaşımı desteklemeye ve saç derisi pH'ını (yaklaşık 4.5–5.5) dengelemeye çalışır."
+   },
+   {
+    "name": "Başlıca etken maddeler, markaya göre",
+    "note": "Saç derisini ferahlatmak ve kalıntıları gidermek için L-Menthol, nazikçe arındırmak ve gözenekleri açmak için Salicylic Acid ve saç derisi bariyerinin nemi tutmasına yardımcı olmak için Dexpanthenol. Markanın belirttiği şekliyle sunulmuştur."
+   }
+  ],
+  "formats": [
+   "Saç derisi şampuanı",
+   "Saç derisi toniği",
+   "Saç ve saç derisi mendilleri"
+  ],
+  "exportNote": "Dr.Pelo, Teranova aracılığıyla uluslararası B2B ortakları için bir profil ve seçili ürünler yayımlanmasına izin verdi. Fiyatlar, MOQ ve gizli ticari koşullar yayımlanmaz.",
+  "terms": [
+   {
+    "label": "İş birliği",
+    "value": "Teranova aracılığıyla bitmiş Dr.Pelo ürünlerinin B2B toptan tedariki."
+   },
+   {
+    "label": "Sertifikasyon",
+    "value": "Marka, KFDA onaylı ve Korea University Ansan Hospital ile incelenmiş işlevsel bir saç dökülmesine karşı seri olduğunu belirtir. Markanın belirttiği şekliyle sunulur, Teranova tarafından bağımsız olarak doğrulanmamıştır."
+   },
+   {
+    "label": "Fiyat",
+    "value": "Talep üzerine; kamuya açık fiyat listesi yoktur."
+   }
+  ],
+  "consentNote": "Resmi Dr.Pelo materyalleri — ad, logo ve ürün görselleri — JRM Holdings'in yazılı izniyle yayımlanır. Saç dökülmesine karşı ve klinik beyanlar, markanın belirttiği şekliyle sunulur (KFDA onaylı işlevsel bir seri). Fiyatlar ve kişisel iletişim bilgileri yayımlanmaz.",
+  "seoTitle": "Dr.Pelo — Kore profesyonel saç derisi ve saç dökülmesine karşı bakım · Teranova",
+  "seoDesc": "Dr.Pelo (JRM Holdings): Kore saç derisi şampuanı, saç derisi toniği ve saç ve saç derisi mendilleri — markanın KFDA onaylı olduğunu belirttiği işlevsel bir saç dökülmesine karşı seri. Teranova aracılığıyla B2B.",
+  "catalog_notes": [
+   "Dr.Pelo Scalp Shampoo — markanın saç dökülmesini hafifletmeye yönelik KFDA onaylı işlevsel bir ürün olarak sunduğu bir saç derisi bakım şampuanı: L-Menthol, Salicylic Acid ve Dexpanthenol ile kalıntıları temizler ve saç derisini ferahlatır.",
+   "Dr.Pelo Scalp Tonic — aynı saç dökülmesine karşı serideki durulanmayan bir tonik olup, marka bunu yıkamalar arasında saç derisini yatıştıran ve destekleyen KFDA onaylı işlevsel bir ürün olarak sunar.",
+   "Dr.Pelo Hair & Scalp Wipes — yıkamadan saç ve saç derisine besleyici bakım ve derinlemesine temizlik sağlayan pratik mendiller; markaya göre poşet başına 17 ml."
+  ]
+ },
+ "ui": {
+  "profile_sup": "Tedarikçi profili",
+  "about_h": "Şirket hakkında",
+  "for_whom": "Kimlere uygun:",
+  "lines_h": "Ürün hatları",
+  "catalog_h": "Ürün kataloğu",
+  "tech_h": "Teknoloji",
+  "formats_h": "Ürün formatları",
+  "export_h": "İhracat ve pazarlar",
+  "terms_h": "İş birliği koşulları",
+  "download_btn": "Koşulları indir (PDF)",
+  "pres_btn": "Sunumu indir (PDF)",
+  "terms_disc": "On request; no public price list.",
+  "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+  "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+  "cta_btn": "Teranova üzerinden iletişime geçin",
+  "more": "Profili aç →",
+  "verified_suppliers": "Doğrulanmış tedarikçiler",
+  "certs_h": "Sertifikalar",
+  "certs_note": "",
+  "products_h": "Ürünler",
+  "products_note": "Üç Dr.Pelo ürününün resmi ürün fotoğrafları: Scalp Shampoo, Scalp Tonic ve Hair & Scalp Wipes."
+ }
 }

@@ -113,7 +113,7 @@ const SUPPLIERS = {
   agerin: { eyebrow: 'Supplier profile', title: 'AGERIN by AGERA BioTech — Korean derma-cosmetics on a patented Ageratum extract', accent: '#2E7D5B' },
   btf: { eyebrow: 'Supplier profile', title: 'BTF — Ultrasonic Duo, a Korean home HIFU + SDM beauty device', accent: '#E2691F' },
   'desert-free': { eyebrow: 'Supplier profile', title: 'DESERT FREE by BEAUTYBLVD — Korean Cactide skincare', accent: '#F05B4F' },
-  'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo by JRM Holdings — Korean professional hair and scalp care', accent: '#8B5E3C' },
+  'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo — Korean professional scalp and anti-hair-loss care', accent: '#8B5E3C' },
   whamisa: { eyebrow: 'Supplier profile', title: 'WHAMISA by ENS Korea — organic fermented skincare, hair and body care', accent: '#5E7C3D' },
   arming: { eyebrow: 'Supplier profile', title: 'ARMING by Enveco Cosmetic — Korean hair, skin and body care', accent: '#486F63' },
   themaqueen: { eyebrow: 'Supplier profile', title: 'THEMAQUEEN — Korean cooling, cleansing and scalp-care accessories', accent: '#7A919B' },

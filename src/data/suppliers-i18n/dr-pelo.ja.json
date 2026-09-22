@@ -1,96 +1,90 @@
 {
-  "content": {
-    "tagline": "韓国 Dr.Pelo のプロ向けヘア・スカルプケア",
-    "descriptor": "JRM Holdings は Dr.Pelo のブランド所有者で、製品は別法人 Enveco Cosmetic が製造します",
-    "origin": "Republic of Korea",
-    "about": [
-      "JRM Holdings は韓国のプロ向けヘア・スカルプケアブランド Dr.Pelo を展開しています。本ページではブランド所有者と製造者を明確に分け、JRM の自社工場は主張しません。",
-      "製品は公式カタログに基づいて掲載しています。製品名だけを治療効果の根拠とせず、脱毛関連の主張や試験結果は最新資料を別途確認しない限り公開しません。"
-    ],
-    "facts": [
-      "ブランド所有者：JRM Holdings",
-      "ブランド：Dr.Pelo",
-      "資料上の製造者：Enveco Cosmetic",
-      "価格・取引条件は要問い合わせ"
-    ],
-    "channels": [
-      "プロ向けヘアケア卸",
-      "サロン・スカルプケア施設",
-      "小売・オンラインストア"
-    ],
-    "lines": [
-      {
-        "name": "Shampoo",
-        "note": "髪と頭皮を洗浄するシャンプー。治療効果は標榜しません。"
-      },
-      {
-        "name": "Scalp Care",
-        "note": "頭皮用トニックとケア製品。機能性表示は商談時に確認します。"
-      },
-      {
-        "name": "Treatment",
-        "note": "髪を整え外観をケアする製品。"
-      }
-    ],
-    "tech": [
-      {
-        "name": "Document-first claims",
-        "note": "各製品の位置づけと処方情報は取引前に最新技術資料で確認します。"
-      }
-    ],
-    "formats": [
-      "Shampoo",
-      "Scalp tonic",
-      "Hair treatment"
-    ],
-    "exportNote": "JRM Holdings は海外 B2B 向けの Dr.Pelo プロフィールと選定製品の掲載を許可しました。価格、MOQ、非公開条件は掲載しません。",
-    "terms": [
-      {
-        "label": "協業形態",
-        "value": "Teranova を通じた B2B 卸売。"
-      },
-      {
-        "label": "製造",
-        "value": "Enveco Cosmetic は Dr.Pelo 製品の別法人製造者です。"
-      },
-      {
-        "label": "価格",
-        "value": "要問い合わせ。公開価格表はありません。"
-      }
-    ],
-    "consentNote": "Dr.Pelo 公式資料は2026年9月14日の書面許可に基づき掲載。治療・脱毛関連の主張、価格、個人連絡先、未確認認証は除外しています。",
-    "seoTitle": "JRM Holdings / Dr.Pelo — 韓国プロ向けヘアケア · Teranova",
-    "seoDesc": "JRM Holdings の Dr.Pelo。シャンプー、頭皮トニック、ヘアケア。Enveco Cosmetic 製造、B2B は Teranova 経由。",
-    "catalog_notes": [
-      "Dr.Pelo Miracle Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Shampoo — official catalogue image.",
-      "Dr.Pelo Scalp Tonic — official catalogue image.",
-      "Dr.Pelo Multi-Use Repair Treatment — official catalogue image.",
-      "Dr.Pelo Miracle Repair Treatment — official catalogue image.",
-      "Dr.Pelo Hair Perm Cream — official catalogue image."
-    ]
-  },
-  "ui": {
-    "profile_sup": "サプライヤープロフィール",
-    "about_h": "会社について",
-    "for_whom": "こんな方に:",
-    "lines_h": "製品ライン",
-    "catalog_h": "製品カタログ",
-    "tech_h": "技術",
-    "formats_h": "製品の形態",
-    "export_h": "輸出と市場",
-    "terms_h": "協業条件",
-    "download_btn": "協業条件をダウンロード (PDF)",
-    "pres_btn": "ブランド資料をダウンロード (PDF)",
-    "terms_disc": "要問い合わせ。公開価格表はありません。",
-    "cta_h": "このサプライヤーにご関心がありますか？",
-    "cta_d": "ご連絡ください — Teranova が初回の接触から納品まで、交渉と確認、取引全体を進めます。",
-    "cta_btn": "Teranova を通じて問い合わせる",
-    "more": "プロフィールを開く →",
-    "verified_suppliers": "確認済みサプライヤー",
-    "certs_h": "認証",
-    "certs_note": "",
-    "products_h": "製品",
-    "products_note": "Dr.Pelo 6製品の公式カタログ画像。"
-  }
+ "content": {
+  "tagline": "Dr.Pelo による韓国のプロ向け頭皮ケア・抜け毛ケア",
+  "descriptor": "Dr.Pelo — 韓国のプロ向け頭皮ケアと、ブランドが KFDA 承認済みと表明する機能性の抜け毛ケアライン。所有者は JRM Holdings。",
+  "origin": "大韓民国",
+  "about": [
+   "Dr.Pelo は JRM Holdings が所有する韓国のプロ向け頭皮・毛髪ケアブランドです。髪の悩みは頭皮から始まるというシンプルな考えを起点に、汚れの洗浄、頭皮の鎮静、根元のサポートを軸にケアを組み立てています。",
+   "ブランドは、自社の抜け毛ケア処方が KFDA の承認を受け、Korea University Ansan Hospital とともに抜け毛を軽減する機能性製品として臨床研究されたと表明しています。これらは同社自身の表明であり、Teranova は B2B パートナー向けに紹介するのみで独自に検証はしません。価格や取引条件は公開せず、要望に応じて提供します。"
+  ],
+  "facts": [
+   "ブランド：Dr.Pelo、所有者 JRM Holdings",
+   "韓国のプロ向け頭皮ケアおよび抜け毛ケアライン",
+   "ブランドによれば、本ラインは Korea University Ansan Hospital とともに研究された KFDA 承認の抜け毛軽減機能性製品",
+   "ブランドが挙げる主要有効成分：L-Menthol、Salicylic Acid、Dexpanthenol",
+   "価格・取引条件は要問い合わせ"
+  ],
+  "channels": [
+   "プロ向けヘアケア卸",
+   "サロン・頭皮ケア施設",
+   "小売チェーン・オンラインストア"
+  ],
+  "lines": [
+   {
+    "name": "頭皮・毛髪ケア",
+    "note": "頭皮を起点にした集中的なケア：抜け毛ケアのための Scalp Shampoo と Scalp Tonic、そして洗髪の合間に手軽に使える Hair & Scalp Wipes。"
+   }
+  ],
+  "tech": [
+   {
+    "name": "頭皮ファーストのアプローチ",
+    "note": "ブランドは抜け毛が頭皮から始まると説明します——汚れの蓄積、炎症、栄養供給の不足、弱った根元——そして頭皮の洗浄と角質ケア、血行のサポート、頭皮 pH（約 4.5–5.5）の調整に取り組みます。"
+   },
+   {
+    "name": "主要有効成分（ブランド説明による）",
+    "note": "L-Menthol は頭皮をリフレッシュし汚れを除去、Salicylic Acid は穏やかに角質を取り除き毛穴を整え、Dexpanthenol は頭皮バリアの水分保持を助けます。ブランドの表明どおりに紹介します。"
+   }
+  ],
+  "formats": [
+   "頭皮シャンプー",
+   "頭皮トニック",
+   "ヘア・頭皮ワイプ"
+  ],
+  "exportNote": "Dr.Pelo は Teranova を通じて海外 B2B パートナー向けのプロフィールと選定製品の掲載を許可しました。価格、MOQ、非公開の取引条件は掲載しません。",
+  "terms": [
+   {
+    "label": "協業形態",
+    "value": "Teranova を通じた Dr.Pelo 完成品の B2B 卸売供給。"
+   },
+   {
+    "label": "認証",
+    "value": "ブランドは、KFDA 承認を受け Korea University Ansan Hospital とともに研究された機能性の抜け毛ケアラインであると表明しています。ブランドの表明どおりに紹介しており、Teranova による独自検証は行っていません。"
+   },
+   {
+    "label": "価格",
+    "value": "要問い合わせ。公開価格表はありません。"
+   }
+  ],
+  "consentNote": "Dr.Pelo の公式資料——名称、ロゴ、製品画像——は JRM Holdings の書面許可のもとで掲載しています。抜け毛ケアおよび臨床に関する記述は、ブランドの表明どおりに紹介します（KFDA 承認の機能性ライン）。価格や個人連絡先は掲載しません。",
+  "seoTitle": "Dr.Pelo — 韓国のプロ向け頭皮ケア・抜け毛ケア · Teranova",
+  "seoDesc": "Dr.Pelo（JRM Holdings）：韓国の頭皮シャンプー、頭皮トニック、ヘア・頭皮ワイプ——ブランドが KFDA 承認済みと表明する機能性の抜け毛ケアライン。Teranova を通じた B2B。",
+  "catalog_notes": [
+   "Dr.Pelo Scalp Shampoo — ブランドが KFDA 承認の抜け毛軽減機能性製品として紹介する頭皮ケアシャンプー：L-Menthol、Salicylic Acid、Dexpanthenol で汚れを洗浄し頭皮をリフレッシュします。",
+   "Dr.Pelo Scalp Tonic — 同じ抜け毛ケアラインのリーブオントニックで、ブランドは洗髪の合間に頭皮を鎮静・サポートする KFDA 承認の機能性製品として紹介します。",
+   "Dr.Pelo Hair & Scalp Wipes — 洗い流さずに毛髪と頭皮を栄養ケアし、ディープクレンジングできる携帯用ワイプ。ブランドによれば 1 パウチあたり 17 ml。"
+  ]
+ },
+ "ui": {
+  "profile_sup": "サプライヤープロフィール",
+  "about_h": "会社について",
+  "for_whom": "こんな方に:",
+  "lines_h": "製品ライン",
+  "catalog_h": "製品カタログ",
+  "tech_h": "技術",
+  "formats_h": "製品の形態",
+  "export_h": "輸出と市場",
+  "terms_h": "協業条件",
+  "download_btn": "協業条件をダウンロード (PDF)",
+  "pres_btn": "ブランド資料をダウンロード (PDF)",
+  "terms_disc": "要問い合わせ。公開価格表はありません。",
+  "cta_h": "このサプライヤーにご関心がありますか？",
+  "cta_d": "ご連絡ください — Teranova が初回の接触から納品まで、交渉と確認、取引全体を進めます。",
+  "cta_btn": "Teranova を通じて問い合わせる",
+  "more": "プロフィールを開く →",
+  "verified_suppliers": "確認済みサプライヤー",
+  "certs_h": "認証",
+  "certs_note": "",
+  "products_h": "製品",
+  "products_note": "Dr.Pelo 3製品の公式製品写真：Scalp Shampoo、Scalp Tonic、Hair & Scalp Wipes。"
+ }
 }
