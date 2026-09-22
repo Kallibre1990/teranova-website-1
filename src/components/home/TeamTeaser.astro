@@ -4,14 +4,16 @@ import { Image } from 'astro:assets';
 import { localizePath } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { teamPhoto } from '../../data/teamPhotos';
-import { showFounder, founderPhoto } from '../../data/site';
+import { showFounder, founderPhoto, hiddenTeamPhotos } from '../../data/site';
 interface Props {
   lang: Lang;
 }
 const { lang } = Astro.props;
 const t = ui[lang];
 const tt = t.team_home;
-const members = t.pages.team.members.filter((m) => showFounder || m.photo !== founderPhoto);
+const members = t.pages.team.members.filter(
+  (m) => (showFounder || m.photo !== founderPhoto) && !(hiddenTeamPhotos as readonly string[]).includes(m.photo)
+);
 const teamHref = localizePath('/about', lang) + '#team';
 ---
 

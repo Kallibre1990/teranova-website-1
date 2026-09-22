@@ -31,6 +31,14 @@ export const legalNameFallback = 'Teranova Group Ltd.';
 /* Метка фото основателя — по ней прячем его карточку в командных блоках. */
 export const founderPhoto = '/img/team/anton-madelkanov.jpg';
 
+/* Скрытые карточки сотрудников (решение Антона 22.09.2026): пока НЕ показывать
+   на сайте как представителей компании. Данные (имя/роль/био) целы в локалях —
+   вернуть = убрать фото из этого списка и пересобрать. Возможно вернём позже. */
+export const hiddenTeamPhotos = [
+  '/img/team/ha-jeong-su.jpg', // Ха Чонсу (Денис) — менеджер по поставщикам
+  '/img/team/an-larisa.jpg',   // Лариса Ан — менеджер по покупателям
+] as const;
+
 /* Contact channels shown on the Contacts page. Emails are language-neutral and
    live here (single source); their localized title/description live in i18n at
    pages.contacts.channels, keyed by the same ids. */

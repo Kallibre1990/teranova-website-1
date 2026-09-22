@@ -6,7 +6,7 @@ import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { teamPhoto } from '../../data/teamPhotos';
 import { assetPhoto } from '../../data/assetPhoto';
-import { showFounder, showAia, founderPhoto } from '../../data/site';
+import { showFounder, showAia, founderPhoto, hiddenTeamPhotos } from '../../data/site';
 interface Props {
   lang: Lang;
 }
@@ -14,7 +14,9 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.about;
 const team = t.pages.team;
-const members = team.members.filter((m) => showFounder || m.photo !== founderPhoto);
+const members = team.members.filter(
+  (m) => (showFounder || m.photo !== founderPhoto) && !(hiddenTeamPhotos as readonly string[]).includes(m.photo)
+);
 const founder = members[0];
 const banner = assetPhoto('about', 'about-hero');
 ---
