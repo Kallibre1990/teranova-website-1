@@ -451,6 +451,15 @@ const SUPPLIERS = [
     certs: [],
   },
   {
+    /* VEO Biotech / Helio PDRN: письменное согласие 22.09.2026. Полный COA,
+       цены и способы оплаты не публикуются; только сводка спецификации. */
+    id: 'veo-biotech', json: 'veo-biotech', supplier: 'VEO Biotech', brand: 'Helio PDRN',
+    basis: 'B2B · terms on request', noPrice: true,
+    colors: { deep: '#12303A', sky: '#7FB0C4', bg: '#EEF4F7', line: '#D3E2E9' },
+    pres: true,
+    certs: [],
+  },
+  {
     /* Enveco Cosmetic / ARMING: отдельный профиль разрешён письменно 14.09.2026.
        Прайсы, MOQ, контакты и закрытые условия не публикуются. */
     id: 'arming', json: 'arming', supplier: 'Enveco Cosmetic Co., Ltd.', brand: 'ARMING',

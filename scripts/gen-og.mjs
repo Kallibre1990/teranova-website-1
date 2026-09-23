@@ -115,6 +115,7 @@ const SUPPLIERS = {
   'desert-free': { eyebrow: 'Supplier profile', title: 'DESERT FREE by BEAUTYBLVD — Korean Cactide skincare', accent: '#F05B4F' },
   'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo — Korean professional scalp and anti-hair-loss care', accent: '#8B5E3C' },
   whamisa: { eyebrow: 'Supplier profile', title: 'WHAMISA by ENS Korea — organic fermented skincare, hair and body care', accent: '#5E7C3D' },
+  'veo-biotech': { eyebrow: 'Supplier profile', title: 'VEO Biotech — Helio PDRN, high-purity Sodium DNA raw material', accent: '#2F7D99' },
   arming: { eyebrow: 'Supplier profile', title: 'ARMING by Enveco Cosmetic — Korean hair, skin and body care', accent: '#486F63' },
   themaqueen: { eyebrow: 'Supplier profile', title: 'THEMAQUEEN — Korean cooling, cleansing and scalp-care accessories', accent: '#7A919B' },
   'vegan-nature': { eyebrow: 'Supplier profile', title: 'Vegan Nature — Korean solid shampoo and treatment bars', accent: '#7AC7A6' },

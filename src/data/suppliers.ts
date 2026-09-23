@@ -266,6 +266,18 @@ import whamisaTr from './suppliers-i18n/whamisa.tr.json';
 import whamisaEs from './suppliers-i18n/whamisa.es.json';
 import whamisaPt from './suppliers-i18n/whamisa.pt.json';
 import whamisaCatalog from './suppliers-i18n/whamisa.catalog.json';
+import veoBiotechRu from './suppliers-i18n/veo-biotech.ru.json';
+import veoBiotechEn from './suppliers-i18n/veo-biotech.en.json';
+import veoBiotechKo from './suppliers-i18n/veo-biotech.ko.json';
+import veoBiotechZh from './suppliers-i18n/veo-biotech.zh.json';
+import veoBiotechJa from './suppliers-i18n/veo-biotech.ja.json';
+import veoBiotechIt from './suppliers-i18n/veo-biotech.it.json';
+import veoBiotechDe from './suppliers-i18n/veo-biotech.de.json';
+import veoBiotechFr from './suppliers-i18n/veo-biotech.fr.json';
+import veoBiotechTr from './suppliers-i18n/veo-biotech.tr.json';
+import veoBiotechEs from './suppliers-i18n/veo-biotech.es.json';
+import veoBiotechPt from './suppliers-i18n/veo-biotech.pt.json';
+import veoBiotechCatalog from './suppliers-i18n/veo-biotech.catalog.json';
 import themaqueenRu from './suppliers-i18n/themaqueen.ru.json';
 import themaqueenEn from './suppliers-i18n/themaqueen.en.json';
 import themaqueenKo from './suppliers-i18n/themaqueen.ko.json';
@@ -2365,6 +2377,27 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/whamisa-presentation-ru.pdf', en: '/docs/whamisa-presentation-en.pdf', ko: '/docs/whamisa-presentation-ko.pdf', zh: '/docs/whamisa-presentation-zh.pdf', ja: '/docs/whamisa-presentation-ja.pdf', it: '/docs/whamisa-presentation-it.pdf', de: '/docs/whamisa-presentation-de.pdf', fr: '/docs/whamisa-presentation-fr.pdf', tr: '/docs/whamisa-presentation-tr.pdf', es: '/docs/whamisa-presentation-es.pdf', pt: '/docs/whamisa-presentation-pt.pdf' },
     i18n: {
       ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any),
+    },
+  },
+  {
+    slug: 'veo-biotech',
+    category: 'chemical',
+    country: 'cn',
+    name: 'ZhengZhou VEO Biotech Co., Limited',
+    brand: 'Helio PDRN',
+    status: 'provided',
+    brandColors: { deep: '#12303A', sky: '#7FB0C4', accent: '#2F7D99', bg: '#EEF4F7' },
+    voice: 'clinical',
+    /* Письменное согласие VEO Biotech от 22.09.2026 на профиль компании и сырья
+       Helio PDRN / Sodium DNA. Полный COA публично не размещается — только сводка
+       спецификации; цены, способы оплаты и функции как независимо проверённые не
+       публикуются. Изображений сырья нет: фото на их сайте — сток, по правилу
+       IMAGERY на страницу не идут; карточки показывают монограмму. */
+    catalog: veoBiotechCatalog as { line: string; items: { name: string; img?: string }[] }[],
+    termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf' },
+    presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf' },
+    i18n: {
+      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any),
     },
   },
   {
