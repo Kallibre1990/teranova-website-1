@@ -39,6 +39,14 @@ export const languages = {
 export type Lang = keyof typeof languages;
 export const defaultLang: Lang = 'ru';
 
+/**
+ * The printed business-card QR code opens the site root. The root is the
+ * English entry point, while established Russian section URLs continue to use
+ * `defaultLang` and remain unprefixed. Keep this separate from `defaultLang`:
+ * changing that value would silently move every Russian route.
+ */
+export const homeDefaultLang: Lang = 'en';
+
 /** Locales that are indexed and get hreflang + sitemap entries — all of them
     (HQ directive: index every language version, not just the native-reviewed ones). */
 export const verifiedLocales: Lang[] = Object.keys(languages) as Lang[];

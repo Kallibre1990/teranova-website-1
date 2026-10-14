@@ -1,0 +1,4 @@
+# The former explicit English homepage must not compete with the printed QR
+# address. Cloudflare Pages applies this before serving the static asset.
+/en/ / 301
+/en / 301

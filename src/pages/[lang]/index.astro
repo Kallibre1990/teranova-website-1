@@ -1,12 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Home from '../../components/home/Home.astro';
-import { ui, defaultLang, languages, type Lang } from '../../i18n/ui';
+import { ui, defaultLang, homeDefaultLang, languages, type Lang } from '../../i18n/ui';
 import { homeJsonLd } from '../../data/jsonld';
 
 export function getStaticPaths() {
   return (Object.keys(languages) as Lang[])
-    .filter((l) => l !== defaultLang)
+    .filter((l) => l !== defaultLang && l !== homeDefaultLang)
     .map((lang) => ({ params: { lang }, props: { lang } }));
 }
 

@@ -1,12 +1,22 @@
-import { defaultLang, languages, verifiedLocales, ui, type Lang } from './ui';
+import { defaultLang, homeDefaultLang, languages, verifiedLocales, ui, type Lang } from './ui';
 
 export const locales = Object.keys(languages) as Lang[];
 
 /** Detect the active language from a URL pathname (/en/…, /zh/… else default ru). */
 export function getLangFromUrl(url: URL): Lang {
+  if (url.pathname === '/') return homeDefaultLang;
   const seg = url.pathname.split('/').filter(Boolean)[0] as Lang | undefined;
   if (seg && seg !== defaultLang && locales.includes(seg)) return seg;
   return defaultLang;
+}
+
+/**
+ * The homepage has its own stable language map. English is the address
+ * printed in QR codes, Russian is explicitly available at /ru/, and all
+ * other languages retain their existing /<locale>/ entry points.
+ */
+export function localizeHomePath(lang: Lang): string {
+  return lang === homeDefaultLang ? '/' : `/${lang}/`;
 }
 
 /**
@@ -16,8 +26,8 @@ export function getLangFromUrl(url: URL): Lang {
  */
 export function localizePath(path: string, lang: Lang): string {
   const clean = '/' + path.replace(/^\/+|\/+$/g, '');
+  if (clean === '/') return localizeHomePath(lang);
   const base = lang === defaultLang ? '' : `/${lang}`;
-  if (clean === '/') return base === '' ? '/' : `${base}/`;
   return `${base}${clean}/`;
 }
 

@@ -46,14 +46,14 @@
   `IMAGE-BRIEF.md` (ТЗ по фото), `FORMS-SETUP.md` (ТЗ по формам), `HANDOFF.md` (этот файл).
   `CLAUDE.md` в корне — правила работы.
 
-## 4. Языки (10 шт.)
-- **Индексируются** (hreflang + sitemap): **ru** (`/`), **en** (`/en/`), **ko** (`/ko/`).
-- **Машинный перевод**, `noindex` + не в карте сайта (до вычитки носителем): **zh, ja, it, de, fr, tr, es**.
-- `ru.ts` — источник правды и ТИП `UIDict`. `en.ts` и `ko.ts` — полные словари (тип UIDict).
+## 4. Языки (11 шт.)
+- Все 11 языков индексируются и имеют `hreflang` + sitemap. Напечатанный QR ведёт на английскую главную **en** (`/`); русская главная — **ru** (`/ru/`). Существующие русские внутренние URL остаются без префикса (`/catalog/`, `/contacts/` и т. п.).
+- Полные словари: `ru.ts`, `en.ts`, `ko.ts`, `pt.ts`. Машинные: **zh, ja, it, de, fr, tr, es**.
+- `ru.ts` — источник правды и ТИП `UIDict`. `en.ts`, `ko.ts` и `pt.ts` — полные словари (тип UIDict).
   Машинные — `DeepPartial<UIDict>`, накладываются ПОВЕРХ английского (недостающие ключи → en).
 - **Добавить язык:** создать `locales/xx.ts` (DeepPartial), зарегистрировать в `ui.ts`
-  (import + languages + ui), добавить в массив `machine` в `astro.config.mjs`, добавить og:locale
-  в `BaseHead.astro`. Маршруты, переключатель, hreflang, noindex, исключение из sitemap — авто.
+  (import + languages + ui), добавить его в `locales` в `astro.config.mjs`, добавить og:locale
+  в `BaseHead.astro`. Маршруты, переключатель, hreflang и sitemap собираются автоматически.
 - **RU = только русский.**
 
 ## 5. Контент и бренд (читать docs/CONTENT-RULES.md + IMAGERY.md — высший закон)

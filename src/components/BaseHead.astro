@@ -1,6 +1,6 @@
 ---
 import { localizePath, getAlternates } from '../i18n/utils';
-import { defaultLang, type Lang } from '../i18n/ui';
+import { defaultLang, homeDefaultLang, type Lang } from '../i18n/ui';
 
 interface Props {
   lang: Lang;
@@ -33,7 +33,10 @@ const {
 const siteUrl = (Astro.site?.toString() ?? 'https://teranovagroup.com/').replace(/\/$/, '');
 const canonical = siteUrl + localizePath(path, lang);
 const alternates = getAlternates(path).map((a) => ({ ...a, abs: siteUrl + a.href }));
-const xDefault = siteUrl + localizePath(path, defaultLang);
+// The printed QR root is English. Existing non-home Russian URLs retain the
+// historic Russian x-default so this homepage-only migration does not move the
+// indexed section hierarchy.
+const xDefault = siteUrl + localizePath(path, path === '/' ? homeDefaultLang : defaultLang);
 const ogImage = image.startsWith('http') ? image : siteUrl + image;
 const ogLocale: Record<Lang, string> = {
   ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT', de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES', pt: 'pt_BR',
