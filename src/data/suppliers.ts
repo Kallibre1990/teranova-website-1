@@ -51,6 +51,8 @@ import cocoFr from './suppliers-i18n/cocospack.fr.json';
 import cocoTr from './suppliers-i18n/cocospack.tr.json';
 import cocoEs from './suppliers-i18n/cocospack.es.json';
 import cocoPt from './suppliers-i18n/cocospack.pt.json';
+import cocoHe from './suppliers-i18n/cocospack.he.json';
+import cocoHi from './suppliers-i18n/cocospack.hi.json';
 import sunpureRu from './suppliers-i18n/sunpure.ru.json';
 import sunpureEn from './suppliers-i18n/sunpure.en.json';
 import sunpureKo from './suppliers-i18n/sunpure.ko.json';
@@ -1588,6 +1590,8 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(cocoTr as any),
       es: mk(cocoEs as any),
       pt: mk(cocoPt as any),
+      he: mk(cocoHe as any),
+      hi: mk(cocoHi as any),
     },
   },
   {
