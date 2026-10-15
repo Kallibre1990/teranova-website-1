@@ -394,7 +394,7 @@ const statusInfo = {
   }
   .scard__fact-mark {
     position: absolute;
-    top: 10px; right: 10px;
+    top: 10px; inset-inline-end: 10px;
     width: 30px; height: 30px;
     fill: none;
     stroke: var(--f-accent, #d9a441);
@@ -516,9 +516,9 @@ const statusInfo = {
       flex-direction: column;
       justify-content: flex-end;
       /* align-items: center достаётся от правила для плашек без кадра —
-         в колоночном flex оно центрует подпись. Здесь она прижата влево. */
+         в колоночном flex оно центрует подпись. Здесь она прижата к началу строки. */
       align-items: stretch;
-      text-align: left;
+      text-align: start;
       min-height: 96px;
       padding: 0;
     }

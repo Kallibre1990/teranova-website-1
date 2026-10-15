@@ -13,14 +13,18 @@ function initCarousel(root: HTMLElement) {
     const gap = parseFloat(getComputedStyle(track).columnGap || '18') || 18;
     return card ? card.offsetWidth + gap : track.clientWidth * 0.8;
   };
-  const go = (dir: number) => track.scrollBy({ left: dir * step(), behavior: reduce ? 'auto' : 'smooth' });
+  // In RTL the start of the track is on the right: scrollLeft runs from 0 to
+  // negative values, so "next" scrolls towards negative left.
+  const rtl = () => getComputedStyle(track).direction === 'rtl';
+  const go = (dir: number) => track.scrollBy({ left: dir * step() * (rtl() ? -1 : 1), behavior: reduce ? 'auto' : 'smooth' });
   prev?.addEventListener('click', () => go(-1));
   next?.addEventListener('click', () => go(1));
 
   const update = () => {
     const max = track.scrollWidth - track.clientWidth - 1;
-    if (prev) prev.disabled = track.scrollLeft <= 0;
-    if (next) next.disabled = track.scrollLeft >= max;
+    const pos = Math.abs(track.scrollLeft);
+    if (prev) prev.disabled = pos <= 0;
+    if (next) next.disabled = pos >= max;
   };
   track.addEventListener('scroll', update, { passive: true });
   new ResizeObserver(update).observe(track);

@@ -684,7 +684,8 @@ function monogram(name: string): string {
     if (!row) return;
     const card = row.querySelector('.sp-prod');
     const step = card ? (card.getBoundingClientRect().width + 14) * 2 : row.clientWidth * 0.8;
-    row.scrollBy({ left: Number(b.getAttribute('data-dir')) * step, behavior: 'smooth' });
+    const rtl = getComputedStyle(row).direction === 'rtl';
+    row.scrollBy({ left: Number(b.getAttribute('data-dir')) * step * (rtl ? -1 : 1), behavior: 'smooth' });
   }));
 </script>
 
@@ -837,7 +838,7 @@ function monogram(name: string): string {
   .sp-catnav__b:active { transform: scale(0.92); }
   .sp-catgrp__grid { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .sp-catgrp__grid::-webkit-scrollbar { display: none; }
-  .sp-prod { display: flex; flex-direction: column; text-align: left; flex: 0 0 clamp(190px, 58vw, 216px); scroll-snap-align: start; font: inherit; cursor: pointer; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s; }
+  .sp-prod { display: flex; flex-direction: column; text-align: start; flex: 0 0 clamp(190px, 58vw, 216px); scroll-snap-align: start; font: inherit; cursor: pointer; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 14px; overflow: hidden; transition: transform .2s var(--ease), box-shadow .2s; }
   .sp-prod:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 12%, transparent); }
   /* overflow и min-height нужны из-за высоких пакшотов: без них собственный
      размер картинки перебивает aspect-ratio, и плашка вытягивается. */
@@ -906,11 +907,11 @@ function monogram(name: string): string {
   .sp-lb__fig { margin: 0; max-width: 620px; text-align: center; }
   .sp-lb__fig img { max-width: 100%; max-height: 78vh; border-radius: 14px; background: #fff; }
   .sp-lb__fig figcaption { color: #fff; font-size: 0.95rem; font-weight: 600; margin-top: 14px; }
-  .sp-lb__x { position: fixed; top: 20px; right: 24px; width: 44px; height: 44px; border-radius: 50%; border: none; background: rgba(255, 255, 255, 0.15); color: #fff; font-size: 1.7rem; line-height: 1; cursor: pointer; transition: background .2s; }
+  .sp-lb__x { position: fixed; top: 20px; inset-inline-end: 24px; width: 44px; height: 44px; border-radius: 50%; border: none; background: rgba(255, 255, 255, 0.15); color: #fff; font-size: 1.7rem; line-height: 1; cursor: pointer; transition: background .2s; }
   .sp-lb__x:hover { background: rgba(255, 255, 255, 0.32); }
 
   .sp-tech { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  .sp-tech__item { border-left: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0 14px 14px 0; padding: 20px 22px; }
+  .sp-tech__item { border-inline-start: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0; border-start-end-radius: 14px; border-end-end-radius: 14px; padding: 20px 22px; }
   .sp-tech__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
   .sp-tech__note { font-size: 0.92rem; line-height: 1.6; color: #45576f; margin-top: 7px; }
   .sp-tech__src { margin-top: 16px; font-size: 0.78rem; line-height: 1.5; color: #7b8898; }

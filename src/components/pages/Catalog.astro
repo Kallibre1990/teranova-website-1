@@ -113,8 +113,8 @@ const arrow = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" strok
   .ccar-btn svg { position: relative; }
   .ccar-btn:hover::before { background: var(--cobalt-light); }
   .ccar-btn:disabled { opacity: 0; pointer-events: none; }
-  .ccar-btn--prev { left: -20px; }
-  .ccar-btn--next { right: -20px; }
+  .ccar-btn--prev { inset-inline-start: -20px; }
+  .ccar-btn--next { inset-inline-end: -20px; }
 
   @media (hover: none) { .ccar-btn { display: none; } }
   @media (max-width: 560px) { .cat { flex-basis: 84%; } }

@@ -323,7 +323,7 @@ body[data-theme='beauty'] .lvl::before {
   content: '';
   display: inline-block;
   width: 30px; height: 1px;
-  margin-right: 12px;
+  margin-inline-end: 12px;
   vertical-align: middle;
   background: linear-gradient(90deg, transparent, var(--b-silver));
   opacity: 0.75;
@@ -331,7 +331,7 @@ body[data-theme='beauty'] .lvl::before {
 body[data-theme='beauty'] .section-head { position: relative; padding-bottom: 26px; }
 body[data-theme='beauty'] .section-head::after {
   content: '';
-  position: absolute; left: 0; bottom: 0; width: 140px; height: 1px;
+  position: absolute; inset-inline-start: 0; bottom: 0; width: 140px; height: 1px;
   background: linear-gradient(90deg, var(--b-silver), rgba(203, 212, 224, 0.05));
 }
 body[data-theme='beauty'] .cos-card,

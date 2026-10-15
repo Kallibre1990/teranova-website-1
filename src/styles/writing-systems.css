@@ -10,6 +10,8 @@ html:lang(hi) :is(h1, h2, h3, .h-section, .eyebrow) {
   letter-spacing: normal;
 }
 html:lang(he) :is(h1, h2, h3, .eyebrow) { letter-spacing: normal; }
+/* SVG chevrons are drawn for LTR; ‹ › text glyphs mirror by themselves (Bidi_Mirrored). */
+html[dir='rtl'] .ccar-btn svg { transform: scaleX(-1); }
 html[dir='rtl'] .link-arrow svg { transform: scaleX(-1); }
 html[dir='rtl'] .link-arrow:hover svg { transform: scaleX(-1) translateX(4px); }
 html[dir='rtl'] .mobile-menu:not(.open) { transform: translateX(-100%); }

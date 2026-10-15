@@ -165,8 +165,8 @@ const ondemand = anchorHref('ondemand', lang);
   /* process + facts */
   .cos-two { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: start; }
   .cos-order { margin: 0; padding: 0; list-style: none; counter-reset: cos; }
-  .cos-order li { position: relative; counter-increment: cos; padding-left: 36px; margin-bottom: 12px; font-size: 0.94rem; color: var(--silver); line-height: 1.5; }
-  .cos-order li::before { content: counter(cos); position: absolute; left: 0; top: -1px; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: 0.78rem; font-weight: 800; color: #fff; background: rgba(37, 99, 212, 0.28); border: 1px solid rgba(63, 122, 224, 0.5); }
+  .cos-order li { position: relative; counter-increment: cos; padding-inline-start: 36px; margin-bottom: 12px; font-size: 0.94rem; color: var(--silver); line-height: 1.5; }
+  .cos-order li::before { content: counter(cos); position: absolute; inset-inline-start: 0; top: -1px; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: 0.78rem; font-weight: 800; color: #fff; background: rgba(37, 99, 212, 0.28); border: 1px solid rgba(63, 122, 224, 0.5); }
   .cos-facts { display: flex; flex-direction: column; gap: 12px; }
   .cos-fact { background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r); padding: 16px 18px; }
   .cos-fact__k { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cobalt-light); }
@@ -222,7 +222,7 @@ const ondemand = anchorHref('ondemand', lang);
   }
   /* Process becomes a timeline — a thread links the numbered steps. */
   .cos-order li:not(:last-child)::after {
-    content: ''; position: absolute; left: 11px; top: 26px; bottom: -10px; width: 1px;
+    content: ''; position: absolute; inset-inline-start: 11px; top: 26px; bottom: -10px; width: 1px;
     background: linear-gradient(180deg, rgba(63, 122, 224, 0.55), rgba(203, 212, 224, 0.14));
   }
   /* Regulatory panel — a metallic silver seam along the top edge. */

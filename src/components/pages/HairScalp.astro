@@ -331,7 +331,7 @@ const artGroups = hairArticleGroups
   /* Карта покрытия: пять шагов ухода, слева направо в порядке применения */
   .hs-map { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; list-style: none; padding: 0; margin: 18px 0 0; }
   .hs-map__i { position: relative; display: flex; flex-direction: column; gap: 6px; padding: 20px 18px; background: rgba(255, 255, 255, 0.035); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--r-lg); }
-  .hs-map__i + .hs-map__i::before { content: ''; position: absolute; left: -12px; top: 50%; width: 12px; height: 1px; background: rgba(255, 255, 255, 0.18); }
+  .hs-map__i + .hs-map__i::before { content: ''; position: absolute; inset-inline-start: -12px; top: 50%; width: 12px; height: 1px; background: rgba(255, 255, 255, 0.18); }
   .hs-map__n { font-size: 2rem; font-weight: 800; color: #fff; line-height: 1; }
   .hs-map__l { font-size: 0.84rem; color: var(--silver-muted); line-height: 1.45; }
 
@@ -349,15 +349,15 @@ const artGroups = hairArticleGroups
      на всю строку, а стоят слева — как начало полки, а не как пустая витрина. */
   .hs-b__row { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; margin: 0; }
   .hs-b__p { position: relative; flex: 0 1 216px; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 22px 14px 20px; background: #fff; border: 1px solid color-mix(in srgb, var(--bd) 12%, transparent); border-radius: var(--r-lg); }
-  .hs-b__p--txt { align-items: flex-start; text-align: left; justify-content: flex-end; min-height: 132px; padding: 20px; }
-  .hs-b__p--wide { flex: 0 1 auto; flex-direction: row; align-items: center; gap: 22px; padding: 20px 28px 20px 20px; text-align: left; }
-  .hs-b__num { position: absolute; top: 12px; left: 14px; font-size: 0.78rem; font-weight: 800; color: var(--bt); }
+  .hs-b__p--txt { align-items: flex-start; text-align: start; justify-content: flex-end; min-height: 132px; padding: 20px; }
+  .hs-b__p--wide { flex: 0 1 auto; flex-direction: row; align-items: center; gap: 22px; padding-block: 20px; padding-inline: 20px 28px; text-align: start; }
+  .hs-b__num { position: absolute; top: 12px; inset-inline-start: 14px; font-size: 0.78rem; font-weight: 800; color: var(--bt); }
   .hs-b__rule { display: block; width: 34px; height: 3px; border-radius: 2px; background: var(--ba); margin-bottom: 14px; }
   .hs-b__shot { display: grid; place-items: center; height: 190px; }
   .hs-b__shot img { max-height: 190px; max-width: 100%; width: auto; object-fit: contain; }
   .hs-b__shot--sm { height: 150px; }
   .hs-b__shot--sm img { max-height: 150px; }
-  .hs-b__ptxt { text-align: left; }
+  .hs-b__ptxt { text-align: start; }
   .hs-b__ptxt .hs-b__pn { margin-top: 0; }
   .hs-b__pn { display: block; font-size: 0.94rem; font-weight: 700; color: var(--bd); margin-top: 14px; line-height: 1.35; }
   .hs-b__p--txt .hs-b__pn { margin-top: 0; }

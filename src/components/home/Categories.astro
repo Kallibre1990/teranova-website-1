@@ -195,8 +195,8 @@ const icons: Record<string, string> = {
   }
   .ccar-btn:hover { background: var(--cobalt-light); }
   .ccar-btn:disabled { opacity: 0; pointer-events: none; }
-  .ccar-btn--prev { left: -8px; }
-  .ccar-btn--next { right: -8px; }
+  .ccar-btn--prev { inset-inline-start: -8px; }
+  .ccar-btn--next { inset-inline-end: -8px; }
 
   @media (hover: none) { .ccar-btn { display: none; } }
   @media (max-width: 560px) { .cat { flex-basis: 84%; } }

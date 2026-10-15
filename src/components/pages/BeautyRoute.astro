@@ -162,11 +162,13 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
     const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const sync = () => {
       const max = track.scrollWidth - track.clientWidth - 1;
-      prev.disabled = track.scrollLeft <= 0;
-      next.disabled = track.scrollLeft >= max;
+      const pos = Math.abs(track.scrollLeft);
+      prev.disabled = pos <= 0;
+      next.disabled = pos >= max;
     };
     const go = (dir) => {
-      track.scrollBy({ left: dir * step(), behavior: smooth ? 'smooth' : 'auto' });
+      const rtl = getComputedStyle(track).direction === 'rtl';
+      track.scrollBy({ left: dir * step() * (rtl ? -1 : 1), behavior: smooth ? 'smooth' : 'auto' });
       /* Состояние стрелок обновляем и по событию прокрутки, и вручную после
          клика. На одно событие полагаться нельзя: при плавной прокрутке оно
          приходит с задержкой, а кнопка «назад» к этому моменту уже
@@ -253,8 +255,8 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
   .br-nav:hover { border-color: rgba(200, 168, 106, 0.6); color: #dcc189; }
   .br-nav:focus-visible { outline: 2px solid #dcc189; outline-offset: 2px; }
   .br-nav[disabled] { opacity: 0.3; cursor: default; }
-  .br-nav--prev { left: -20px; }
-  .br-nav--next { right: -20px; }
+  .br-nav--prev { inset-inline-start: -20px; }
+  .br-nav--next { inset-inline-end: -20px; }
   @media (hover: hover) and (pointer: fine) {
     .br-nav { display: block; }
   }

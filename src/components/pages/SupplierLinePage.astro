@@ -106,7 +106,7 @@ const priceDoc = pickDoc(supplier?.priceFile, lang);
 
   .sl-sec { padding: clamp(36px, 5vw, 64px) 0; }
   .sl-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  .sl-card { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-left: 3px solid var(--ds-sky); border-radius: 0 14px 14px 0; padding: 20px 22px; }
+  .sl-card { display: flex; flex-direction: column; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 22%, #e2e8f0); border-inline-start: 3px solid var(--ds-sky); border-radius: 0; border-start-end-radius: 14px; border-end-end-radius: 14px; padding: 20px 22px; }
   .sl-card--ph { padding-top: 0; overflow: hidden; }
   .sl-card__ph { margin: 0 -22px 16px; aspect-ratio: 4 / 3; background: color-mix(in srgb, var(--ds-bg) 70%, #fff); display: flex; align-items: center; justify-content: center; border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 16%, #e2e8f0); }
   .sl-card__ph img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
