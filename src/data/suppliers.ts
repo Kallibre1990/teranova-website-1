@@ -449,6 +449,8 @@ import caycllyFr from './suppliers-i18n/cayclly.fr.json';
 import caycllyTr from './suppliers-i18n/cayclly.tr.json';
 import caycllyEs from './suppliers-i18n/cayclly.es.json';
 import caycllyPt from './suppliers-i18n/cayclly.pt.json';
+import caycllyHe from './suppliers-i18n/cayclly.he.json';
+import caycllyHi from './suppliers-i18n/cayclly.hi.json';
 import cayclyCatalog from './suppliers-i18n/cayclly.catalog.json';
 import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
 import tdlCatalog from './suppliers-i18n/three-days-love.catalog.json';
@@ -536,6 +538,8 @@ import kiftFr from './suppliers-i18n/kift.fr.json';
 import kiftTr from './suppliers-i18n/kift.tr.json';
 import kiftEs from './suppliers-i18n/kift.es.json';
 import kiftPt from './suppliers-i18n/kift.pt.json';
+import kiftHe from './suppliers-i18n/kift.he.json';
+import kiftHi from './suppliers-i18n/kift.hi.json';
 import icelmediRu from './suppliers-i18n/icelmedi.ru.json';
 import icelmediEn from './suppliers-i18n/icelmedi.en.json';
 import icelmediKo from './suppliers-i18n/icelmedi.ko.json';
@@ -547,6 +551,8 @@ import icelmediFr from './suppliers-i18n/icelmedi.fr.json';
 import icelmediTr from './suppliers-i18n/icelmedi.tr.json';
 import icelmediEs from './suppliers-i18n/icelmedi.es.json';
 import icelmediPt from './suppliers-i18n/icelmedi.pt.json';
+import icelmediHe from './suppliers-i18n/icelmedi.he.json';
+import icelmediHi from './suppliers-i18n/icelmedi.hi.json';
 import tdlRu from './suppliers-i18n/three-days-love.ru.json';
 import tdlEn from './suppliers-i18n/three-days-love.en.json';
 import tdlKo from './suppliers-i18n/three-days-love.ko.json';
@@ -558,6 +564,8 @@ import tdlFr from './suppliers-i18n/three-days-love.fr.json';
 import tdlTr from './suppliers-i18n/three-days-love.tr.json';
 import tdlEs from './suppliers-i18n/three-days-love.es.json';
 import tdlPt from './suppliers-i18n/three-days-love.pt.json';
+import tdlHe from './suppliers-i18n/three-days-love.he.json';
+import tdlHi from './suppliers-i18n/three-days-love.hi.json';
 import licorneRu from './suppliers-i18n/licorne.ru.json';
 import licorneEn from './suppliers-i18n/licorne.en.json';
 import licorneKo from './suppliers-i18n/licorne.ko.json';
@@ -1386,7 +1394,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(caycllyFr as any),
       tr: mk(caycllyTr as any),
       es: mk(caycllyEs as any),
-      pt: mk(caycllyPt as any),
+      pt: mk(caycllyPt as any), he: mk(caycllyHe as any), hi: mk(caycllyHi as any),
     },
   },
   {
@@ -1419,7 +1427,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(kiftFr as any),
       tr: mk(kiftTr as any),
       es: mk(kiftEs as any),
-      pt: mk(kiftPt as any),
+      pt: mk(kiftPt as any), he: mk(kiftHe as any), hi: mk(kiftHi as any),
     },
   },
   {
@@ -1452,7 +1460,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(icelmediFr as any),
       tr: mk(icelmediTr as any),
       es: mk(icelmediEs as any),
-      pt: mk(icelmediPt as any),
+      pt: mk(icelmediPt as any), he: mk(icelmediHe as any), hi: mk(icelmediHi as any),
     },
   },
   {
@@ -1501,7 +1509,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(tdlFr as any),
       tr: mk(tdlTr as any),
       es: mk(tdlEs as any),
-      pt: mk(tdlPt as any),
+      pt: mk(tdlPt as any), he: mk(tdlHe as any), hi: mk(tdlHi as any),
     },
   },
   {
