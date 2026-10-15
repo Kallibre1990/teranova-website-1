@@ -120,6 +120,8 @@ import hanscosFr from './suppliers-i18n/hanscos.fr.json';
 import hanscosTr from './suppliers-i18n/hanscos.tr.json';
 import hanscosEs from './suppliers-i18n/hanscos.es.json';
 import hanscosPt from './suppliers-i18n/hanscos.pt.json';
+import hanscosHe from './suppliers-i18n/hanscos.he.json';
+import hanscosHi from './suppliers-i18n/hanscos.hi.json';
 import hanscosCatalog from './suppliers-i18n/hanscos.catalog.json';
 import bioptRu from './suppliers-i18n/biopt.ru.json';
 import bioptEn from './suppliers-i18n/biopt.en.json';
@@ -403,6 +405,8 @@ import multifitFr from './suppliers-i18n/multifit.fr.json';
 import multifitTr from './suppliers-i18n/multifit.tr.json';
 import multifitEs from './suppliers-i18n/multifit.es.json';
 import multifitPt from './suppliers-i18n/multifit.pt.json';
+import multifitHe from './suppliers-i18n/multifit.he.json';
+import multifitHi from './suppliers-i18n/multifit.hi.json';
 import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
 import cubecapRu from './suppliers-i18n/cubecap.ru.json';
 import cubecapEn from './suppliers-i18n/cubecap.en.json';
@@ -415,6 +419,8 @@ import cubecapFr from './suppliers-i18n/cubecap.fr.json';
 import cubecapTr from './suppliers-i18n/cubecap.tr.json';
 import cubecapEs from './suppliers-i18n/cubecap.es.json';
 import cubecapPt from './suppliers-i18n/cubecap.pt.json';
+import cubecapHe from './suppliers-i18n/cubecap.he.json';
+import cubecapHi from './suppliers-i18n/cubecap.hi.json';
 import type { Lang } from '../i18n/ui';
 import santeEn from './suppliers-i18n/sante.en.json';
 import santeKo from './suppliers-i18n/sante.ko.json';
@@ -563,6 +569,8 @@ import licorneFr from './suppliers-i18n/licorne.fr.json';
 import licorneTr from './suppliers-i18n/licorne.tr.json';
 import licorneEs from './suppliers-i18n/licorne.es.json';
 import licornePt from './suppliers-i18n/licorne.pt.json';
+import licorneHe from './suppliers-i18n/licorne.he.json';
+import licorneHi from './suppliers-i18n/licorne.hi.json';
 
 export interface SupplierLine {
   name: string;
@@ -1533,7 +1541,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(licorneFr as any),
       tr: mk(licorneTr as any),
       es: mk(licorneEs as any),
-      pt: mk(licornePt as any),
+      pt: mk(licornePt as any), he: mk(licorneHe as any), hi: mk(licorneHi as any),
     },
   },
   {
@@ -1566,7 +1574,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(cubecapFr as any),
       tr: mk(cubecapTr as any),
       es: mk(cubecapEs as any),
-      pt: mk(cubecapPt as any),
+      pt: mk(cubecapPt as any), he: mk(cubecapHe as any), hi: mk(cubecapHi as any),
     },
   },
   {
@@ -1711,7 +1719,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(multifitFr as any),
       tr: mk(multifitTr as any),
       es: mk(multifitEs as any),
-      pt: mk(multifitPt as any),
+      pt: mk(multifitPt as any), he: mk(multifitHe as any), hi: mk(multifitHi as any),
     },
   },
 {
@@ -1775,7 +1783,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(hanscosFr as any),
       tr: mk(hanscosTr as any),
       es: mk(hanscosEs as any),
-      pt: mk(hanscosPt as any),
+      pt: mk(hanscosPt as any), he: mk(hanscosHe as any), hi: mk(hanscosHi as any),
     },
   },
 {
