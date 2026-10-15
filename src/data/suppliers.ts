@@ -233,6 +233,8 @@ import desertFreeFr from './suppliers-i18n/desert-free.fr.json';
 import desertFreeTr from './suppliers-i18n/desert-free.tr.json';
 import desertFreeEs from './suppliers-i18n/desert-free.es.json';
 import desertFreePt from './suppliers-i18n/desert-free.pt.json';
+import desertFreeHe from './suppliers-i18n/desert-free.he.json';
+import desertFreeHi from './suppliers-i18n/desert-free.hi.json';
 import desertFreeCatalog from './suppliers-i18n/desert-free.catalog.json';
 import desertFreeLines from './suppliers-i18n/desert-free.lines.json';
 import drPeloRu from './suppliers-i18n/dr-pelo.ru.json';
@@ -246,6 +248,8 @@ import drPeloFr from './suppliers-i18n/dr-pelo.fr.json';
 import drPeloTr from './suppliers-i18n/dr-pelo.tr.json';
 import drPeloEs from './suppliers-i18n/dr-pelo.es.json';
 import drPeloPt from './suppliers-i18n/dr-pelo.pt.json';
+import drPeloHe from './suppliers-i18n/dr-pelo.he.json';
+import drPeloHi from './suppliers-i18n/dr-pelo.hi.json';
 import drPeloCatalog from './suppliers-i18n/dr-pelo.catalog.json';
 import armingRu from './suppliers-i18n/arming.ru.json';
 import armingEn from './suppliers-i18n/arming.en.json';
@@ -258,6 +262,8 @@ import armingFr from './suppliers-i18n/arming.fr.json';
 import armingTr from './suppliers-i18n/arming.tr.json';
 import armingEs from './suppliers-i18n/arming.es.json';
 import armingPt from './suppliers-i18n/arming.pt.json';
+import armingHe from './suppliers-i18n/arming.he.json';
+import armingHi from './suppliers-i18n/arming.hi.json';
 import armingCatalog from './suppliers-i18n/arming.catalog.json';
 import whamisaRu from './suppliers-i18n/whamisa.ru.json';
 import whamisaEn from './suppliers-i18n/whamisa.en.json';
@@ -282,6 +288,8 @@ import veoBiotechFr from './suppliers-i18n/veo-biotech.fr.json';
 import veoBiotechTr from './suppliers-i18n/veo-biotech.tr.json';
 import veoBiotechEs from './suppliers-i18n/veo-biotech.es.json';
 import veoBiotechPt from './suppliers-i18n/veo-biotech.pt.json';
+import veoBiotechHe from './suppliers-i18n/veo-biotech.he.json';
+import veoBiotechHi from './suppliers-i18n/veo-biotech.hi.json';
 import veoBiotechCatalog from './suppliers-i18n/veo-biotech.catalog.json';
 import themaqueenRu from './suppliers-i18n/themaqueen.ru.json';
 import themaqueenEn from './suppliers-i18n/themaqueen.en.json';
@@ -2333,7 +2341,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/desert-free-terms-ru.pdf', en: '/docs/desert-free-terms-en.pdf', ko: '/docs/desert-free-terms-ko.pdf', zh: '/docs/desert-free-terms-zh.pdf', ja: '/docs/desert-free-terms-ja.pdf', it: '/docs/desert-free-terms-it.pdf', de: '/docs/desert-free-terms-de.pdf', fr: '/docs/desert-free-terms-fr.pdf', tr: '/docs/desert-free-terms-tr.pdf', es: '/docs/desert-free-terms-es.pdf', pt: '/docs/desert-free-terms-pt.pdf' },
     presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf' },
     i18n: {
-      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any),
+      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any), he: mk(desertFreeHe as any), hi: mk(desertFreeHi as any),
     },
   },
   {
@@ -2351,7 +2359,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/dr-pelo-terms-ru.pdf', en: '/docs/dr-pelo-terms-en.pdf', ko: '/docs/dr-pelo-terms-ko.pdf', zh: '/docs/dr-pelo-terms-zh.pdf', ja: '/docs/dr-pelo-terms-ja.pdf', it: '/docs/dr-pelo-terms-it.pdf', de: '/docs/dr-pelo-terms-de.pdf', fr: '/docs/dr-pelo-terms-fr.pdf', tr: '/docs/dr-pelo-terms-tr.pdf', es: '/docs/dr-pelo-terms-es.pdf', pt: '/docs/dr-pelo-terms-pt.pdf' },
     presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf' },
     i18n: {
-      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any),
+      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any), he: mk(drPeloHe as any), hi: mk(drPeloHi as any),
     },
   },
   {
@@ -2371,7 +2379,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/arming-terms-ru.pdf', en: '/docs/arming-terms-en.pdf', ko: '/docs/arming-terms-ko.pdf', zh: '/docs/arming-terms-zh.pdf', ja: '/docs/arming-terms-ja.pdf', it: '/docs/arming-terms-it.pdf', de: '/docs/arming-terms-de.pdf', fr: '/docs/arming-terms-fr.pdf', tr: '/docs/arming-terms-tr.pdf', es: '/docs/arming-terms-es.pdf', pt: '/docs/arming-terms-pt.pdf' },
     presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf' },
     i18n: {
-      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any),
+      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any), he: mk(armingHe as any), hi: mk(armingHi as any),
     },
   },
   {
@@ -2412,7 +2420,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf' },
     presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf' },
     i18n: {
-      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any),
+      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any), he: mk(veoBiotechHe as any), hi: mk(veoBiotechHi as any),
     },
   },
   {

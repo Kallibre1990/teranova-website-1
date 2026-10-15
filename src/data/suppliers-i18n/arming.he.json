@@ -1,0 +1,100 @@
+{
+  "content": {
+    "tagline": "יצרן קוסמטיקה קוריאני והמותג העצמי ARMING",
+    "descriptor": "Enveco Cosmetic מפתחת ומייצרת מוצרים לשיער, לעור הפנים ולגוף; ARMING הוא קו המוצרים העצמי של החברה",
+    "origin": "הרפובליקה של קוריאה",
+    "about": [
+      "Enveco Cosmetic היא חברת קוסמטיקה קוריאנית. במצגת הרשמית של הספק החברה מתארת פיתוח פורמולות, ייצור ושיתוף פעולה במתכונות OEM/ODM; ההיקף והישימות של כל יכולת מאושרים עבור כל פרויקט ספציפי.",
+      "ARMING מוצג כקו העצמי של Enveco Cosmetic לטיפוח השיער, עור הפנים והגוף. בעמוד זה נעשה שימוש בתמונות רשמיות ובשמות מוצרים ניטרליים, ללא הבטחות טיפוליות או פונקציונליות."
+    ],
+    "facts": [
+      "החברה: Enveco Cosmetic Co., Ltd.",
+      "מותג עצמי: ARMING",
+      "קטגוריות: טיפוח שיער, פנים וגוף",
+      "מחירים ותנאים מסחריים – לפי בקשה"
+    ],
+    "channels": [
+      "יבואנים ומפיצים של קוסמטיקה",
+      "מספרות וערוצים מקצועיים",
+      "רשתות קמעונאיות וחנויות מקוונות"
+    ],
+    "lines": [
+      {
+        "name": "Hair Care",
+        "note": "שמפו, טיפוח מרכך ושמן לשיער."
+      },
+      {
+        "name": "Skin Care",
+        "note": "טונר, אמפולה וקרמים לטיפוח יומיומי של העור."
+      },
+      {
+        "name": "Body Care",
+        "note": "מוצרים לטיפוח הגוף ולהיגיינה אישית."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Project-specific verification",
+        "note": "במצגת הרשמית החברה מתארת עבודה עצמית על פורמולות ו-OEM/ODM. המפרט הטכני, הפורמולה, הבדיקות והסימון מתואמים בנפרד לכל פרויקט."
+      }
+    ],
+    "formats": [
+      "Shampoo and treatment",
+      "Toner, ampoule and cream",
+      "Body and personal care"
+    ],
+    "exportNote": "Enveco Cosmetic התירה בכתב להכין פרופיל נפרד של החברה ושל ARMING עבור שותפי B2B בינלאומיים. מחירונים, MOQ, פרטי קשר ישירים ותנאים מסחריים חסויים אינם מתפרסמים בפומבי.",
+    "terms": [
+      {
+        "label": "מתכונת שיתוף הפעולה",
+        "value": "אספקות B2B ופניות לפרויקטים באמצעות Teranova."
+      },
+      {
+        "label": "מגוון מוצרים",
+        "value": "ARMING והיכולות של Enveco נבחנים לפי הבקשה העדכנית."
+      },
+      {
+        "label": "מחיר",
+        "value": "לפי בקשה; אין מחירון פומבי."
+      }
+    ],
+    "consentNote": "החומרים הרשמיים של Enveco Cosmetic / ARMING פורסמו בהסכמה בכתב מ-14 בספטמבר 2026. מחירים, פרטי קשר אישיים, הצהרות טיפוליות ותעודות שלא אומתו הוסרו.",
+    "seoTitle": "Enveco Cosmetic / ARMING – קוסמטיקה קוריאנית ו-OEM/ODM · Teranova",
+    "seoDesc": "Enveco Cosmetic והמותג העצמי ARMING: טיפוח שיער, עור הפנים והגוף. פניות B2B באמצעות Teranova.",
+    "catalog_notes": [
+      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
+      "ARMING Cashmere Natural Clinic Treatment — official supplier image.",
+      "ARMING Cashmere Hair & Scalp Booster — official supplier image.",
+      "ARMING Cashmere Damage Care Hair Pack — official supplier image.",
+      "ARMING Cashmere Multi Balm Essence — official supplier image.",
+      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
+      "ARMING Signature Hyaluronic Cica Emulsion — official supplier image.",
+      "ARMING Real Collagen Cica White Cream — official supplier image.",
+      "ARMING Real Collagen Cica White Eye Cream — official supplier image.",
+      "ARMING Multi Vita Cica Watery Cream — official supplier image."
+    ]
+  },
+  "ui": {
+    "profile_sup": "פרופיל ספק",
+    "about_h": "על החברה",
+    "for_whom": "למי מתאים:",
+    "lines_h": "קו מוצרים",
+    "catalog_h": "קטלוג מוצרים",
+    "tech_h": "טכנולוגיות",
+    "formats_h": "פורמטים של מוצרים",
+    "export_h": "יצוא ותנאים",
+    "terms_h": "תנאי שיתוף פעולה",
+    "download_btn": "הורדת התנאים (PDF)",
+    "pres_btn": "הורדת המצגת (PDF)",
+    "terms_disc": "לפי בקשה; אין מחירון פומבי.",
+    "cta_h": "הספק מעניין אתכם?",
+    "cta_d": "כתבו לנו. Teranova תארגן את המשא ומתן, הבדיקה והליווי של העסקה מהפנייה הראשונה ועד לאספקה.",
+    "cta_btn": "יצירת קשר באמצעות Teranova",
+    "more": "פתיחת הפרופיל ←",
+    "verified_suppliers": "ספקים מאומתים",
+    "certs_h": "הסמכות",
+    "certs_note": "",
+    "products_h": "מוצרים",
+    "products_note": "תמונות רשמיות של עשרה מוצרי ARMING מתוך חומרי הספק."
+  }
+}
