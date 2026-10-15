@@ -327,7 +327,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
       .solar__form .is-error, .solar__form .is-error:focus {
         border-color: #b8452f; box-shadow: 0 0 0 3px rgba(184, 69, 47, 0.15);
       }
-      .solar__form .oform__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+      .solar__form .oform__hp { position: absolute; inset-inline-start: -9999px; width: 1px; height: 1px; opacity: 0; }
       /* Внутри светлой карточки формы цвета задаём с большей специфичностью, чем
          `.solar__cta p`: иначе правило тёмной секции перекрашивает подсказку и
          ошибку в почти белый и контраст падает до 1.32:1 (ревью Codex 27.08).

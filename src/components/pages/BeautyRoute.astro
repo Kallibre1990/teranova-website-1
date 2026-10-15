@@ -163,7 +163,7 @@ const countryFlag: Record<string, string> = { kr: '🇰🇷', cn: '🇨🇳', in
     const sync = () => {
       const max = track.scrollWidth - track.clientWidth - 1;
       const pos = Math.abs(track.scrollLeft);
-      prev.disabled = pos <= 0;
+      prev.disabled = pos <= 2;
       next.disabled = pos >= max;
     };
     const go = (dir) => {

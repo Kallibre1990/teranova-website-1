@@ -23,7 +23,8 @@ function initCarousel(root: HTMLElement) {
   const update = () => {
     const max = track.scrollWidth - track.clientWidth - 1;
     const pos = Math.abs(track.scrollLeft);
-    if (prev) prev.disabled = pos <= 0;
+    // RTL scroll-snap can park the track a couple of pixels off zero.
+    if (prev) prev.disabled = pos <= 2;
     if (next) next.disabled = pos >= max;
   };
   track.addEventListener('scroll', update, { passive: true });

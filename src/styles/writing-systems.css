@@ -10,6 +10,9 @@ html:lang(hi) :is(h1, h2, h3, .h-section, .eyebrow) {
   letter-spacing: normal;
 }
 html:lang(he) :is(h1, h2, h3, .eyebrow) { letter-spacing: normal; }
+/* Tracking splits Devanagari conjuncts and the headline bar; components set
+   their own letter-spacing on many classes, so reset it for the whole page. */
+html:lang(hi) body * { letter-spacing: normal !important; }
 /* SVG chevrons are drawn for LTR; ‹ › text glyphs mirror by themselves (Bidi_Mirrored). */
 html[dir='rtl'] .ccar-btn svg { transform: scaleX(-1); }
 html[dir='rtl'] .link-arrow svg { transform: scaleX(-1); }
