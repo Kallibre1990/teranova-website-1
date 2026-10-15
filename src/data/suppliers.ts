@@ -36,6 +36,8 @@ import doobomFr from './suppliers-i18n/doobom.fr.json';
 import doobomTr from './suppliers-i18n/doobom.tr.json';
 import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
+import doobomHe from './suppliers-i18n/doobom.he.json';
+import doobomHi from './suppliers-i18n/doobom.hi.json';
 import doobomCatalog from './suppliers-i18n/doobom.catalog.json';
 import cocoRu from './suppliers-i18n/cocospack.ru.json';
 import cocoCatalog from './suppliers-i18n/cocospack.catalog.json';
@@ -1550,6 +1552,8 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(doobomTr as any),
       es: mk(doobomEs as any),
       pt: mk(doobomPt as any),
+      he: mk(doobomHe as any),
+      hi: mk(doobomHi as any),
     },
   },
   {
