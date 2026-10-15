@@ -294,6 +294,8 @@ import themaqueenFr from './suppliers-i18n/themaqueen.fr.json';
 import themaqueenTr from './suppliers-i18n/themaqueen.tr.json';
 import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
+import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
+import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -305,6 +307,8 @@ import veganNatureFr from './suppliers-i18n/vegan-nature.fr.json';
 import veganNatureTr from './suppliers-i18n/vegan-nature.tr.json';
 import veganNatureEs from './suppliers-i18n/vegan-nature.es.json';
 import veganNaturePt from './suppliers-i18n/vegan-nature.pt.json';
+import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
+import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
@@ -318,6 +322,8 @@ import chaewunFr from './suppliers-i18n/chaewun.fr.json';
 import chaewunTr from './suppliers-i18n/chaewun.tr.json';
 import chaewunEs from './suppliers-i18n/chaewun.es.json';
 import chaewunPt from './suppliers-i18n/chaewun.pt.json';
+import chaewunHe from './suppliers-i18n/chaewun.he.json';
+import chaewunHi from './suppliers-i18n/chaewun.hi.json';
 import chaewunCatalog from './suppliers-i18n/chaewun.catalog.json';
 import chaewunLines from './suppliers-i18n/chaewun.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
@@ -2425,7 +2431,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/themaqueen-terms-ru.pdf', en: '/docs/themaqueen-terms-en.pdf', ko: '/docs/themaqueen-terms-ko.pdf', zh: '/docs/themaqueen-terms-zh.pdf', ja: '/docs/themaqueen-terms-ja.pdf', it: '/docs/themaqueen-terms-it.pdf', de: '/docs/themaqueen-terms-de.pdf', fr: '/docs/themaqueen-terms-fr.pdf', tr: '/docs/themaqueen-terms-tr.pdf', es: '/docs/themaqueen-terms-es.pdf', pt: '/docs/themaqueen-terms-pt.pdf' },
     presFile: { ru: '/docs/themaqueen-presentation-ru.pdf', en: '/docs/themaqueen-presentation-en.pdf', ko: '/docs/themaqueen-presentation-ko.pdf', zh: '/docs/themaqueen-presentation-zh.pdf', ja: '/docs/themaqueen-presentation-ja.pdf', it: '/docs/themaqueen-presentation-it.pdf', de: '/docs/themaqueen-presentation-de.pdf', fr: '/docs/themaqueen-presentation-fr.pdf', tr: '/docs/themaqueen-presentation-tr.pdf', es: '/docs/themaqueen-presentation-es.pdf', pt: '/docs/themaqueen-presentation-pt.pdf' },
     i18n: {
-      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any),
+      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any), he: mk(themaqueenHe as any), hi: mk(themaqueenHi as any),
     },
   },
   {
@@ -2445,7 +2451,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/vegan-nature-terms-ru.pdf', en: '/docs/vegan-nature-terms-en.pdf', ko: '/docs/vegan-nature-terms-ko.pdf', zh: '/docs/vegan-nature-terms-zh.pdf', ja: '/docs/vegan-nature-terms-ja.pdf', it: '/docs/vegan-nature-terms-it.pdf', de: '/docs/vegan-nature-terms-de.pdf', fr: '/docs/vegan-nature-terms-fr.pdf', tr: '/docs/vegan-nature-terms-tr.pdf', es: '/docs/vegan-nature-terms-es.pdf', pt: '/docs/vegan-nature-terms-pt.pdf' },
     presFile: { ru: '/docs/vegan-nature-presentation-ru.pdf', en: '/docs/vegan-nature-presentation-en.pdf', ko: '/docs/vegan-nature-presentation-ko.pdf', zh: '/docs/vegan-nature-presentation-zh.pdf', ja: '/docs/vegan-nature-presentation-ja.pdf', it: '/docs/vegan-nature-presentation-it.pdf', de: '/docs/vegan-nature-presentation-de.pdf', fr: '/docs/vegan-nature-presentation-fr.pdf', tr: '/docs/vegan-nature-presentation-tr.pdf', es: '/docs/vegan-nature-presentation-es.pdf', pt: '/docs/vegan-nature-presentation-pt.pdf' },
     i18n: {
-      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any),
+      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any), he: mk(veganNatureHe as any), hi: mk(veganNatureHi as any),
     },
   },
   {
@@ -2471,7 +2477,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/chaewun-terms-ru.pdf', en: '/docs/chaewun-terms-en.pdf', ko: '/docs/chaewun-terms-ko.pdf', zh: '/docs/chaewun-terms-zh.pdf', ja: '/docs/chaewun-terms-ja.pdf', it: '/docs/chaewun-terms-it.pdf', de: '/docs/chaewun-terms-de.pdf', fr: '/docs/chaewun-terms-fr.pdf', tr: '/docs/chaewun-terms-tr.pdf', es: '/docs/chaewun-terms-es.pdf', pt: '/docs/chaewun-terms-pt.pdf' },
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
-      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any),
+      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
     },
   },
 ];
