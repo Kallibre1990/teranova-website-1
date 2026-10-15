@@ -208,6 +208,8 @@ import sprxFr from './suppliers-i18n/sprx.fr.json';
 import sprxTr from './suppliers-i18n/sprx.tr.json';
 import sprxEs from './suppliers-i18n/sprx.es.json';
 import sprxPt from './suppliers-i18n/sprx.pt.json';
+import sprxHe from './suppliers-i18n/sprx.he.json';
+import sprxHi from './suppliers-i18n/sprx.hi.json';
 import sprxCatalog from './suppliers-i18n/sprx.catalog.json';
 import btfRu from './suppliers-i18n/btf.ru.json';
 import btfEn from './suppliers-i18n/btf.en.json';
@@ -220,6 +222,8 @@ import btfFr from './suppliers-i18n/btf.fr.json';
 import btfTr from './suppliers-i18n/btf.tr.json';
 import btfEs from './suppliers-i18n/btf.es.json';
 import btfPt from './suppliers-i18n/btf.pt.json';
+import btfHe from './suppliers-i18n/btf.he.json';
+import btfHi from './suppliers-i18n/btf.hi.json';
 import btfCatalog from './suppliers-i18n/btf.catalog.json';
 import btfLines from './suppliers-i18n/btf.lines.json';
 import desertFreeRu from './suppliers-i18n/desert-free.ru.json';
@@ -276,6 +280,8 @@ import whamisaFr from './suppliers-i18n/whamisa.fr.json';
 import whamisaTr from './suppliers-i18n/whamisa.tr.json';
 import whamisaEs from './suppliers-i18n/whamisa.es.json';
 import whamisaPt from './suppliers-i18n/whamisa.pt.json';
+import whamisaHe from './suppliers-i18n/whamisa.he.json';
+import whamisaHi from './suppliers-i18n/whamisa.hi.json';
 import whamisaCatalog from './suppliers-i18n/whamisa.catalog.json';
 import veoBiotechRu from './suppliers-i18n/veo-biotech.ru.json';
 import veoBiotechEn from './suppliers-i18n/veo-biotech.en.json';
@@ -357,6 +363,8 @@ import rnhBioFr from './suppliers-i18n/rnh-bio.fr.json';
 import rnhBioTr from './suppliers-i18n/rnh-bio.tr.json';
 import rnhBioEs from './suppliers-i18n/rnh-bio.es.json';
 import rnhBioPt from './suppliers-i18n/rnh-bio.pt.json';
+import rnhBioHe from './suppliers-i18n/rnh-bio.he.json';
+import rnhBioHi from './suppliers-i18n/rnh-bio.hi.json';
 import rnhBioCatalog from './suppliers-i18n/rnh-bio.catalog.json';
 
 import multifitRu from './suppliers-i18n/multifit.ru.json';
@@ -2259,7 +2267,7 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/rnh-bio-presentation-ru.pdf', en: '/docs/rnh-bio-presentation-en.pdf', ko: '/docs/rnh-bio-presentation-ko.pdf', zh: '/docs/rnh-bio-presentation-zh.pdf', ja: '/docs/rnh-bio-presentation-ja.pdf', it: '/docs/rnh-bio-presentation-it.pdf', de: '/docs/rnh-bio-presentation-de.pdf', fr: '/docs/rnh-bio-presentation-fr.pdf', tr: '/docs/rnh-bio-presentation-tr.pdf', es: '/docs/rnh-bio-presentation-es.pdf', pt: '/docs/rnh-bio-presentation-pt.pdf' },
     certs: ['MoCRA'],
     i18n: {
-      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any),
+      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any), he: mk(rnhBioHe as any), hi: mk(rnhBioHi as any),
     },
   },
   {
@@ -2296,7 +2304,7 @@ export const suppliers: SupplierProfile[] = [
        повторно 2026-09-14 (плохо читалась на фото упаковки) — ответа пока
        нет, на странице оставлена честная формулировка «неподтверждено». */
     i18n: {
-      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any),
+      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any), he: mk(sprxHe as any), hi: mk(sprxHi as any),
     },
   },
   {
@@ -2321,7 +2329,7 @@ export const suppliers: SupplierProfile[] = [
        нет: письмо Teranova 03.09.2026 согласовало «price on request». */
     certs: ['KC · Ultrasonic Duo', 'CE · Ultrasonic Duo'],
     i18n: {
-      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any),
+      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any), he: mk(btfHe as any), hi: mk(btfHi as any),
     },
   },
   {
@@ -2399,7 +2407,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/whamisa-terms-ru.pdf', en: '/docs/whamisa-terms-en.pdf', ko: '/docs/whamisa-terms-ko.pdf', zh: '/docs/whamisa-terms-zh.pdf', ja: '/docs/whamisa-terms-ja.pdf', it: '/docs/whamisa-terms-it.pdf', de: '/docs/whamisa-terms-de.pdf', fr: '/docs/whamisa-terms-fr.pdf', tr: '/docs/whamisa-terms-tr.pdf', es: '/docs/whamisa-terms-es.pdf', pt: '/docs/whamisa-terms-pt.pdf' },
     presFile: { ru: '/docs/whamisa-presentation-ru.pdf', en: '/docs/whamisa-presentation-en.pdf', ko: '/docs/whamisa-presentation-ko.pdf', zh: '/docs/whamisa-presentation-zh.pdf', ja: '/docs/whamisa-presentation-ja.pdf', it: '/docs/whamisa-presentation-it.pdf', de: '/docs/whamisa-presentation-de.pdf', fr: '/docs/whamisa-presentation-fr.pdf', tr: '/docs/whamisa-presentation-tr.pdf', es: '/docs/whamisa-presentation-es.pdf', pt: '/docs/whamisa-presentation-pt.pdf' },
     i18n: {
-      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any),
+      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any), he: mk(whamisaHe as any), hi: mk(whamisaHi as any),
     },
   },
   {
