@@ -77,3 +77,24 @@ export function primaryNav(lang: Lang) {
 export function getAlternates(path: string) {
   return verifiedLocales.map((l) => ({ hreflang: l, href: localizePath(path, l) }));
 }
+
+/**
+ * Pick a downloadable document for the page language. Existing locales keep
+ * their Russian fallback; he/hi have no own PDFs yet, so they get the English
+ * file and the link is marked with its real language instead of passing it
+ * off as a translation.
+ */
+const docFallback: Partial<Record<Lang, Lang>> = { he: 'en', hi: 'en' };
+export function pickDoc(
+  files: Partial<Record<Lang, string>> | undefined,
+  lang: Lang,
+): { href: string; lang: Lang; note?: string } | null {
+  if (!files) return null;
+  if (files[lang]) return { href: files[lang]!, lang };
+  for (const alt of [docFallback[lang], defaultLang]) {
+    if (alt && files[alt]) {
+      return { href: files[alt]!, lang: alt, note: docFallback[lang] ? languages[alt] : undefined };
+    }
+  }
+  return null;
+}

@@ -1,7 +1,7 @@
 ---
 /* Dedicated, indexable product-line page (SEO). Themed in the supplier's brand.
    Products shown as cards; a photo is rendered when the item has one. */
-import { localizePath, anchorHref } from '../../i18n/utils';
+import { localizePath, anchorHref, pickDoc } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { linePageContent, supplierBySlug, type SupplierLinePage } from '../../data/suppliers';
 
@@ -19,7 +19,7 @@ const name = supplier?.name ?? '';
 const cat = t.categories.groups.find((g) => g.key === page.category);
 const bc = supplier?.brandColors ?? { deep: '#12306e', sky: '#4ca6fc', accent: '#ff2552', bg: '#f3f8ff' };
 const brandStyle = `--ds-deep:${bc.deep};--ds-sky:${bc.sky};--ds-accent:${bc.accent};--ds-bg:${bc.bg};`;
-const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
+const priceDoc = pickDoc(supplier?.priceFile, lang);
 ---
 
 <article class="sl" style={brandStyle}>
@@ -77,10 +77,10 @@ const priceHref = supplier?.priceFile?.[lang] ?? supplier?.priceFile?.ru;
 
       <div class="sl-cta">
         <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{supplier ? supplierBySlug(page.supplierSlug)!.i18n[lang]?.ui.cta_btn ?? 'Связаться через Teranova' : 'Связаться через Teranova'}</a>
-        {priceHref && supplier?.i18n[lang]?.ui.price_btn && (
-          <a class="sl-dl" href={priceHref} download>
+        {priceDoc && supplier?.i18n[lang]?.ui.price_btn && (
+          <a class="sl-dl" href={priceDoc.href} hreflang={priceDoc.lang} download>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-            {supplier.i18n[lang]!.ui.price_btn}
+            {supplier.i18n[lang]!.ui.price_btn}{priceDoc.note && <span lang={priceDoc.lang}> ({priceDoc.note})</span>}
           </a>
         )}
       </div>

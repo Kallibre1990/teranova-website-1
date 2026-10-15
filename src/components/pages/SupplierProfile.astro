@@ -5,7 +5,7 @@
    Images/logo used under the supplier's written consent (docs/CONTENT-RULES §7).
    Copy is localized per language via supplierContent(profile, lang). */
 import { Image } from 'astro:assets';
-import { localizePath, anchorHref } from '../../i18n/utils';
+import { localizePath, anchorHref, pickDoc } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import { postsBySupplier, postContent } from '../../data/blog';
@@ -101,9 +101,9 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   chaewun: { hero: chaewunHero, products: chaewunProducts, drops: chaewunDrops },
 };
 const m = media[profile.slug];
-const termsHref = profile.termsFile?.[lang] ?? profile.termsFile?.ru;
-const priceHref = profile.priceFile?.[lang] ?? profile.priceFile?.ru;
-const presHref = profile.presFile?.[lang] ?? profile.presFile?.ru;
+const termsDoc = pickDoc(profile.termsFile, lang);
+const priceDoc = pickDoc(profile.priceFile, lang);
+const presDoc = pickDoc(profile.presFile, lang);
 /* A line gets its own indexable page when we have content for it; matched by the
    display name so both the "product lines" block and the catalog groups link to it.
    The lines block often uses a short brand name ("Acerola") where the catalog group
@@ -542,22 +542,22 @@ function monogram(name: string): string {
           ))}
         </dl>
         <div class="sp-terms__dls">
-          {termsHref && (
-            <a class="sp-terms__dl" href={termsHref} download>
+          {termsDoc && (
+            <a class="sp-terms__dl" href={termsDoc.href} hreflang={termsDoc.lang} download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-              {c.ui.download_btn}
+              {c.ui.download_btn}{termsDoc.note && <span class="sp-terms__doclang" lang={termsDoc.lang}> ({termsDoc.note})</span>}
             </a>
           )}
-          {priceHref && c.ui.price_btn && (
-            <a class="sp-terms__dl sp-terms__dl--alt" href={priceHref} download>
+          {priceDoc && c.ui.price_btn && (
+            <a class="sp-terms__dl sp-terms__dl--alt" href={priceDoc.href} hreflang={priceDoc.lang} download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-              {c.ui.price_btn}
+              {c.ui.price_btn}{priceDoc.note && <span class="sp-terms__doclang" lang={priceDoc.lang}> ({priceDoc.note})</span>}
             </a>
           )}
-          {presHref && c.ui.pres_btn && (
-            <a class="sp-terms__dl sp-terms__dl--alt" href={presHref} download>
+          {presDoc && c.ui.pres_btn && (
+            <a class="sp-terms__dl sp-terms__dl--alt" href={presDoc.href} hreflang={presDoc.lang} download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-              {c.ui.pres_btn}
+              {c.ui.pres_btn}{presDoc.note && <span class="sp-terms__doclang" lang={presDoc.lang}> ({presDoc.note})</span>}
             </a>
           )}
         </div>
