@@ -124,6 +124,8 @@ import bioptFr from './suppliers-i18n/biopt.fr.json';
 import bioptTr from './suppliers-i18n/biopt.tr.json';
 import bioptEs from './suppliers-i18n/biopt.es.json';
 import bioptPt from './suppliers-i18n/biopt.pt.json';
+import bioptHe from './suppliers-i18n/biopt.he.json';
+import bioptHi from './suppliers-i18n/biopt.hi.json';
 import bioptCatalog from './suppliers-i18n/biopt.catalog.json';
 import loobeeRu from './suppliers-i18n/loobee.ru.json';
 import loobeeEn from './suppliers-i18n/loobee.en.json';
@@ -136,6 +138,8 @@ import loobeeFr from './suppliers-i18n/loobee.fr.json';
 import loobeeTr from './suppliers-i18n/loobee.tr.json';
 import loobeeEs from './suppliers-i18n/loobee.es.json';
 import loobeePt from './suppliers-i18n/loobee.pt.json';
+import loobeeHe from './suppliers-i18n/loobee.he.json';
+import loobeeHi from './suppliers-i18n/loobee.hi.json';
 import loobeeCatalog from './suppliers-i18n/loobee.catalog.json';
 import slRu from './suppliers-i18n/slow-lounge.ru.json';
 import slEn from './suppliers-i18n/slow-lounge.en.json';
@@ -148,6 +152,8 @@ import slFr from './suppliers-i18n/slow-lounge.fr.json';
 import slTr from './suppliers-i18n/slow-lounge.tr.json';
 import slEs from './suppliers-i18n/slow-lounge.es.json';
 import slPt from './suppliers-i18n/slow-lounge.pt.json';
+import slHe from './suppliers-i18n/slow-lounge.he.json';
+import slHi from './suppliers-i18n/slow-lounge.hi.json';
 import slCatalog from './suppliers-i18n/slow-lounge.catalog.json';
 import abRu from './suppliers-i18n/aberede.ru.json';
 import abEn from './suppliers-i18n/aberede.en.json';
@@ -160,6 +166,8 @@ import abFr from './suppliers-i18n/aberede.fr.json';
 import abTr from './suppliers-i18n/aberede.tr.json';
 import abEs from './suppliers-i18n/aberede.es.json';
 import abPt from './suppliers-i18n/aberede.pt.json';
+import abHe from './suppliers-i18n/aberede.he.json';
+import abHi from './suppliers-i18n/aberede.hi.json';
 import abCatalog from './suppliers-i18n/aberede.catalog.json';
 import aoiRu from './suppliers-i18n/aoi.ru.json';
 import aoiEn from './suppliers-i18n/aoi.en.json';
@@ -1993,7 +2001,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(bioptFr as any),
       tr: mk(bioptTr as any),
       es: mk(bioptEs as any),
-      pt: mk(bioptPt as any),
+      pt: mk(bioptPt as any), he: mk(bioptHe as any), hi: mk(bioptHi as any),
     },
     catalog: bioptCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
   },
@@ -2031,7 +2039,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(loobeeFr as any),
       tr: mk(loobeeTr as any),
       es: mk(loobeeEs as any),
-      pt: mk(loobeePt as any),
+      pt: mk(loobeePt as any), he: mk(loobeeHe as any), hi: mk(loobeeHi as any),
     },
   },
   {
@@ -2080,7 +2088,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(slFr as any),
       tr: mk(slTr as any),
       es: mk(slEs as any),
-      pt: mk(slPt as any),
+      pt: mk(slPt as any), he: mk(slHe as any), hi: mk(slHi as any),
     },
   },
   {
@@ -2126,7 +2134,7 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(abRu as any), en: mk(abEn as any), ko: mk(abKo as any), zh: mk(abZh as any),
       ja: mk(abJa as any), it: mk(abIt as any), de: mk(abDe as any), fr: mk(abFr as any),
-      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any),
+      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any), he: mk(abHe as any), hi: mk(abHi as any),
     },
   },
   {
