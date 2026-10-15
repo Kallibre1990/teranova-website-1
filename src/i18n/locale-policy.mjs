@@ -1,6 +1,7 @@
 /** Shared by Astro config, route helpers and offline verification.
- * he/hi are staged until their content, fonts and layout checks are complete.
- * Do not publish a locale merely because its UI dictionary exists.
+ * A locale goes into stagedLocaleCodes while its content, fonts and layout
+ * checks are incomplete. Do not publish a locale merely because its UI
+ * dictionary exists. he/hi were published by T-20261015-019.
  */
 export const localeDefinitions = {
   ru: { name: 'Русский', direction: 'ltr', og: 'ru_RU' },
@@ -18,7 +19,7 @@ export const localeDefinitions = {
   hi: { name: 'हिन्दी', direction: 'ltr', og: 'hi_IN' },
 };
 
-export const stagedLocaleCodes = ['he', 'hi'];
+export const stagedLocaleCodes = [];
 export const publicLocaleCodes = Object.keys(localeDefinitions)
   .filter((code) => !stagedLocaleCodes.includes(code));
 export const sectionDefaultLocale = 'ru';

@@ -12,6 +12,10 @@ for (const lang of ['he', 'hi']) {
   assert.equal(localizedPath('/catalog/', lang), `/${lang}/catalog/`);
 }
 assert.throws(() => localizedPath('/catalog/', 'unknown'), /Unknown locale/);
+assert.equal(publicLocaleCodes.length, 13);
+for (const lang of ['he', 'hi']) assert.ok(publicLocaleCodes.includes(lang), `${lang} must be public`);
+assert.equal(logicalPath('/he/catalog/'), '/catalog/');
+assert.equal(logicalPath('/hi/'), '/');
 for (const path of ['/', '/ru/', '/ko/']) assert.equal(logicalPath(path), '/');
 assert.equal(logicalPath('/en/catalog/'), '/catalog/');
 for (const path of ['/', '/catalog/']) {
