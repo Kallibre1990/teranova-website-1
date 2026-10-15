@@ -1,7 +1,9 @@
-/* Native-script system fallbacks for local development. Self-hosted, licensed
-   Hebrew/Devanagari fonts and glyph checks remain a release prerequisite. */
-html:lang(he) { --font: 'Noto Sans Hebrew', 'Arial Hebrew', Arial, sans-serif; }
-html:lang(hi) { --font: 'Noto Sans Devanagari', 'Kohinoor Devanagari', 'Nirmala UI', sans-serif; }
+/* Hebrew and Devanagari use self-hosted Noto Sans (OFL, @fontsource-variable),
+   imported by the layouts. Manrope stays first so Latin text, digits and
+   brand names look the same as on the other locales; the browser falls
+   through to Noto per glyph and only downloads the script subset in use. */
+html:lang(he) { --font: 'Manrope Variable', 'Noto Sans Hebrew Variable', 'Arial Hebrew', Arial, sans-serif; }
+html:lang(hi) { --font: 'Manrope Variable', 'Noto Sans Devanagari Variable', 'Kohinoor Devanagari', 'Nirmala UI', sans-serif; }
 html:lang(he) body, html:lang(hi) body { font-family: var(--font); }
 html:lang(hi) :is(h1, h2, h3, .h-section, .eyebrow) {
   line-height: 1.5;
