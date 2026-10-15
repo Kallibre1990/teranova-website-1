@@ -936,6 +936,62 @@ const ckRegeonRu: SupplierContent = {
 /* Translator agents return { content: {...}, ui: {...} }; flatten to SupplierContent. */
 const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => ({ ...(j.content as unknown as Omit<SupplierContent, 'ui'>), ui: j.ui });
 
+/* AgingTarget supplied a reduced company deck. This profile uses only the
+   approved subset; the company’s research statements stay attributed. */
+const agingTargetUi: SupplierUI = {
+  profile_sup: 'Supplier profile', about_h: 'About the company', for_whom: 'Looking for:',
+  lines_h: 'Research programs', catalog_h: 'Research programs', tech_h: 'Research focus',
+  products_h: 'Programs', products_note: 'Research candidates described by the company.',
+  formats_h: 'Program format', export_h: 'Partnership', cta_h: 'Interested in this company?',
+  cta_d: 'Contact Teranova to discuss a potential partnership.', cta_btn: 'Contact via Teranova',
+  more: 'Open profile →', verified_suppliers: 'Verified companies',
+};
+
+const agingTargetRu: SupplierContent = {
+  tagline: 'Исследовательские программы для лицензирования',
+  descriptor: 'Корейский разработчик низкомолекулярных кандидатов для атеросклероза и болезни Альцгеймера.',
+  origin: 'Корея',
+  about: [
+    'AgingTarget Inc. — корейская компания, разрабатывающая низкомолекулярные лекарственные кандидаты. По данным компании на 05.10.2026, её две исследовательские программы посвящены атеросклерозу через механизм старения сосудов и болезни Альцгеймера.',
+    'Компания относит оба кандидата к стадии перед доклиническими исследованиями. Это заявление компании, а не оценка Teranova; данные об эффективности и сравнения с одобренными препаратами в профиль не включены.',
+  ],
+  facts: [
+    'Две исследовательские программы: атеросклероз и болезнь Альцгеймера',
+    'Низкомолекулярные кандидаты',
+    'Перед доклиникой по данным компании на 05.10.2026',
+    'Модель сотрудничества: licensing-out после доклиники или фазы 1, по данным компании',
+  ],
+  channels: ['Фармацевтические компании для licensing-in', 'Инвесторы', 'Партнёры по совместным исследованиям', 'Партнёры по трансферу технологий и выходу на рынки'],
+  lines: [
+    { name: 'Атеросклероз', note: 'Низкомолекулярный исследовательский кандидат, который компания связывает с механизмом старения сосудов.' },
+    { name: 'Болезнь Альцгеймера', note: 'Низкомолекулярный исследовательский кандидат. Компания относит программу к стадии перед доклиникой.' },
+  ],
+  tech: [{ name: 'Стадия и данные', note: 'Стадия, программы и модель партнёрства приведены по материалам компании от 05.10.2026. Teranova не заявляет эффективность кандидатов.' }],
+  formats: ['Низкомолекулярные исследовательские кандидаты'],
+  exportNote: 'Компания ищет инвестиции, совместные исследования, трансфер технологий и партнёров для выхода на рынки. Условия обсуждаются через Teranova по конкретному запросу.',
+  consentNote: 'Компания дала письменное согласие на профиль. Профиль собран по сокращённым материалам компании и не содержит исключённые компанией сведения.',
+  seoTitle: 'AgingTarget — исследовательские программы для лицензирования · Teranova',
+  seoDesc: 'AgingTarget Inc.: низкомолекулярные исследовательские кандидаты для атеросклероза и болезни Альцгеймера, перед доклиникой по данным компании на 05.10.2026.',
+  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
+};
+
+const agingTargetEn: SupplierContent = {
+  ...agingTargetRu,
+  tagline: 'Research programs for licensing',
+  descriptor: 'Korean developer of small-molecule candidates for atherosclerosis and Alzheimer’s disease.',
+  origin: 'Korea',
+  about: ['AgingTarget Inc. is a Korean company developing small-molecule drug candidates. According to the company as of 5 October 2026, its two research programs address atherosclerosis through vascular ageing and Alzheimer’s disease.', 'The company places both candidates at the preclinical stage. This is the company’s statement, not an assessment by Teranova; the profile contains no efficacy claims or comparisons with approved medicines.'],
+  facts: ['Two research programs: atherosclerosis and Alzheimer’s disease', 'Small-molecule candidates', 'Preclinical, according to the company as of 5 October 2026', 'Licensing-out after preclinical work or Phase 1, according to the company'],
+  channels: ['Pharmaceutical companies for licensing-in', 'Investors', 'Collaborative research partners', 'Technology-transfer and market-entry partners'],
+  lines: [{ name: 'Atherosclerosis', note: 'Small-molecule research candidate associated by the company with vascular ageing.' }, { name: 'Alzheimer’s disease', note: 'Small-molecule research candidate which the company places at the preclinical stage.' }],
+  tech: [{ name: 'Stage and information', note: 'Stage, programs and partnership model are based on company materials dated 5 October 2026. Teranova makes no claim about candidate efficacy.' }],
+  formats: ['Small-molecule research candidates'],
+  exportNote: 'The company seeks investment, collaborative research, technology transfer and market-entry partners. Terms are discussed through Teranova for a specific enquiry.',
+  consentNote: 'The company gave written consent for this profile. It uses the company’s reduced materials and excludes information the company reserved.',
+  seoTitle: 'AgingTarget — research programs for licensing · Teranova',
+  seoDesc: 'AgingTarget Inc.: small-molecule research candidates for atherosclerosis and Alzheimer’s disease, preclinical according to the company as of 5 October 2026.',
+};
+
 export const suppliers: SupplierProfile[] = [
   {
     slug: 'sante',
@@ -2463,6 +2519,26 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
       ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any),
+    },
+  },
+  {
+    slug: 'agingtarget',
+    category: 'medical',
+    country: 'kr',
+    name: 'AgingTarget Inc.',
+    brand: 'AgingTarget (에이징타겟)',
+    status: 'provided',
+    brandColors: { deep: '#173847', sky: '#8CB5C4', accent: '#C58B49', bg: '#F2F6F5' },
+    voice: 'clinical',
+    i18n: {
+      ru: agingTargetRu,
+      en: agingTargetEn,
+      /* The machine locales need a deliberate medical-language review before a
+         preview for an external reader. English is retained temporarily rather
+         than silently substituting an invented medical translation. */
+      ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
+      de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
+      pt: agingTargetEn,
     },
   },
 ];
