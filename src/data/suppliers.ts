@@ -172,6 +172,8 @@ import aoiFr from './suppliers-i18n/aoi.fr.json';
 import aoiTr from './suppliers-i18n/aoi.tr.json';
 import aoiEs from './suppliers-i18n/aoi.es.json';
 import aoiPt from './suppliers-i18n/aoi.pt.json';
+import aoiHe from './suppliers-i18n/aoi.he.json';
+import aoiHi from './suppliers-i18n/aoi.hi.json';
 import aoiCatalog from './suppliers-i18n/aoi.catalog.json';
 import fauRu from './suppliers-i18n/fau.ru.json';
 import fauEn from './suppliers-i18n/fau.en.json';
@@ -184,6 +186,8 @@ import fauFr from './suppliers-i18n/fau.fr.json';
 import fauTr from './suppliers-i18n/fau.tr.json';
 import fauEs from './suppliers-i18n/fau.es.json';
 import fauPt from './suppliers-i18n/fau.pt.json';
+import fauHe from './suppliers-i18n/fau.he.json';
+import fauHi from './suppliers-i18n/fau.hi.json';
 import fauCatalog from './suppliers-i18n/fau.catalog.json';
 import agerinRu from './suppliers-i18n/agerin.ru.json';
 import agerinEn from './suppliers-i18n/agerin.en.json';
@@ -196,6 +200,8 @@ import agerinFr from './suppliers-i18n/agerin.fr.json';
 import agerinTr from './suppliers-i18n/agerin.tr.json';
 import agerinEs from './suppliers-i18n/agerin.es.json';
 import agerinPt from './suppliers-i18n/agerin.pt.json';
+import agerinHe from './suppliers-i18n/agerin.he.json';
+import agerinHi from './suppliers-i18n/agerin.hi.json';
 import agerinCatalog from './suppliers-i18n/agerin.catalog.json';
 import sprxRu from './suppliers-i18n/sprx.ru.json';
 import sprxEn from './suppliers-i18n/sprx.en.json';
@@ -351,6 +357,8 @@ import glowPumpkinFr from './suppliers-i18n/glow-pumpkin.fr.json';
 import glowPumpkinTr from './suppliers-i18n/glow-pumpkin.tr.json';
 import glowPumpkinEs from './suppliers-i18n/glow-pumpkin.es.json';
 import glowPumpkinPt from './suppliers-i18n/glow-pumpkin.pt.json';
+import glowPumpkinHe from './suppliers-i18n/glow-pumpkin.he.json';
+import glowPumpkinHi from './suppliers-i18n/glow-pumpkin.hi.json';
 import glowPumpkinCatalog from './suppliers-i18n/glow-pumpkin.catalog.json';
 import rnhBioRu from './suppliers-i18n/rnh-bio.ru.json';
 import rnhBioEn from './suppliers-i18n/rnh-bio.en.json';
@@ -2158,7 +2166,7 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(aoiRu as any), en: mk(aoiEn as any), ko: mk(aoiKo as any), zh: mk(aoiZh as any),
       ja: mk(aoiJa as any), it: mk(aoiIt as any), de: mk(aoiDe as any), fr: mk(aoiFr as any),
-      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any),
+      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any), he: mk(aoiHe as any), hi: mk(aoiHi as any),
     },
   },
   {
@@ -2198,7 +2206,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(agerinEn as any),
       ko: mk(agerinKo as any), zh: mk(agerinZh as any), ja: mk(agerinJa as any),
       it: mk(agerinIt as any), de: mk(agerinDe as any), fr: mk(agerinFr as any),
-      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any),
+      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any), he: mk(agerinHe as any), hi: mk(agerinHi as any),
     },
   },
   {
@@ -2226,7 +2234,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(fauEn as any),
       ko: mk(fauKo as any), zh: mk(fauZh as any), ja: mk(fauJa as any),
       it: mk(fauIt as any), de: mk(fauDe as any), fr: mk(fauFr as any),
-      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any),
+      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any), he: mk(fauHe as any), hi: mk(fauHi as any),
     },
   },
   {
@@ -2248,7 +2256,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(glowPumpkinEn as any),
       ko: mk(glowPumpkinKo as any), zh: mk(glowPumpkinZh as any), ja: mk(glowPumpkinJa as any),
       it: mk(glowPumpkinIt as any), de: mk(glowPumpkinDe as any), fr: mk(glowPumpkinFr as any),
-      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any),
+      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any), he: mk(glowPumpkinHe as any), hi: mk(glowPumpkinHi as any),
     },
   },
   {
