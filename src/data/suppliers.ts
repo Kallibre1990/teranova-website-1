@@ -9,6 +9,8 @@ import oanicDe from './suppliers-i18n/oanic.de.json';
 import oanicFr from './suppliers-i18n/oanic.fr.json';
 import oanicEs from './suppliers-i18n/oanic.es.json';
 import oanicPt from './suppliers-i18n/oanic.pt.json';
+import oanicHe from './suppliers-i18n/oanic.he.json';
+import oanicHi from './suppliers-i18n/oanic.hi.json';
 import oanicTr from './suppliers-i18n/oanic.tr.json';
 import oanicCatalog from './suppliers-i18n/oanic.catalog.json';
 import oanicLines from './suppliers-i18n/oanic.lines.json';
@@ -432,6 +434,8 @@ import santeFr from './suppliers-i18n/sante.fr.json';
 import santeTr from './suppliers-i18n/sante.tr.json';
 import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
+import santeHe from './suppliers-i18n/sante.he.json';
+import santeHi from './suppliers-i18n/sante.hi.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
 import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
@@ -473,6 +477,8 @@ import dreamcosFr from './suppliers-i18n/dreamcos.fr.json';
 import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
 import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
+import dreamcosHe from './suppliers-i18n/dreamcos.he.json';
+import dreamcosHi from './suppliers-i18n/dreamcos.hi.json';
 import artfaceCatalog from './suppliers-i18n/artface.catalog.json';
 import artfaceRu from './suppliers-i18n/artface.ru.json';
 import artfaceEn from './suppliers-i18n/artface.en.json';
@@ -485,6 +491,8 @@ import artfaceFr from './suppliers-i18n/artface.fr.json';
 import artfaceTr from './suppliers-i18n/artface.tr.json';
 import artfaceEs from './suppliers-i18n/artface.es.json';
 import artfacePt from './suppliers-i18n/artface.pt.json';
+import artfaceHe from './suppliers-i18n/artface.he.json';
+import artfaceHi from './suppliers-i18n/artface.hi.json';
 import dongEn from './suppliers-i18n/dongdonggurimoo.en.json';
 import dongKo from './suppliers-i18n/dongdonggurimoo.ko.json';
 import dongZh from './suppliers-i18n/dongdonggurimoo.zh.json';
@@ -495,6 +503,8 @@ import dongFr from './suppliers-i18n/dongdonggurimoo.fr.json';
 import dongTr from './suppliers-i18n/dongdonggurimoo.tr.json';
 import dongEs from './suppliers-i18n/dongdonggurimoo.es.json';
 import dongPt from './suppliers-i18n/dongdonggurimoo.pt.json';
+import dongHe from './suppliers-i18n/dongdonggurimoo.he.json';
+import dongHi from './suppliers-i18n/dongdonggurimoo.hi.json';
 import ckrEn from './suppliers-i18n/ck-regeon.en.json';
 import ckrKo from './suppliers-i18n/ck-regeon.ko.json';
 import ckrZh from './suppliers-i18n/ck-regeon.zh.json';
@@ -1056,7 +1066,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(santeFr),
       tr: mk(santeTr),
       es: mk(santeEs),
-      pt: mk(santePt),
+      pt: mk(santePt), he: mk(santeHe), hi: mk(santeHi),
     },
   },
   {
@@ -1109,7 +1119,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(dreamcosFr),
       tr: mk(dreamcosTr),
       es: mk(dreamcosEs),
-      pt: mk(dreamcosPt),
+      pt: mk(dreamcosPt), he: mk(dreamcosHe), hi: mk(dreamcosHi),
     },
   },
   {
@@ -1120,7 +1130,7 @@ export const suppliers: SupplierProfile[] = [
     voice: 'clinical', catalog: oanicCatalog,
     termsFile: { ru: '/docs/oanic-terms-ru.pdf', en: '/docs/oanic-terms-en.pdf', ko: '/docs/oanic-terms-ko.pdf', zh: '/docs/oanic-terms-zh.pdf', ja: '/docs/oanic-terms-ja.pdf', it: '/docs/oanic-terms-it.pdf', de: '/docs/oanic-terms-de.pdf', fr: '/docs/oanic-terms-fr.pdf', es: '/docs/oanic-terms-es.pdf', pt: '/docs/oanic-terms-pt.pdf', tr: '/docs/oanic-terms-tr.pdf' },
     presFile: { ru: '/docs/oanic-presentation-ru.pdf', en: '/docs/oanic-presentation-en.pdf', ko: '/docs/oanic-presentation-ko.pdf', zh: '/docs/oanic-presentation-zh.pdf', ja: '/docs/oanic-presentation-ja.pdf', it: '/docs/oanic-presentation-it.pdf', de: '/docs/oanic-presentation-de.pdf', fr: '/docs/oanic-presentation-fr.pdf', es: '/docs/oanic-presentation-es.pdf', pt: '/docs/oanic-presentation-pt.pdf', tr: '/docs/oanic-presentation-tr.pdf' },
-    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), tr: mk(oanicTr) },
+    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), he: mk(oanicHe), hi: mk(oanicHi), tr: mk(oanicTr) },
   },
   {
     slug: 'artface',
@@ -1142,7 +1152,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(artfaceFr),
       tr: mk(artfaceTr),
       es: mk(artfaceEs),
-      pt: mk(artfacePt),
+      pt: mk(artfacePt), he: mk(artfaceHe), hi: mk(artfaceHi),
     },
   },
   {
@@ -1223,7 +1233,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(dongFr as any),
       tr: mk(dongTr as any),
       es: mk(dongEs as any),
-      pt: mk(dongPt as any),
+      pt: mk(dongPt as any), he: mk(dongHe as any), hi: mk(dongHi as any),
     },
   },
   {
