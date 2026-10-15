@@ -64,6 +64,8 @@ import sunpureFr from './suppliers-i18n/sunpure.fr.json';
 import sunpureTr from './suppliers-i18n/sunpure.tr.json';
 import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
+import sunpureHe from './suppliers-i18n/sunpure.he.json';
+import sunpureHi from './suppliers-i18n/sunpure.hi.json';
 import sunpureCatalog from './suppliers-i18n/sunpure.catalog.json';
 import maoomRu from './suppliers-i18n/maoom.ru.json';
 import maoomEn from './suppliers-i18n/maoom.en.json';
@@ -76,6 +78,8 @@ import maoomFr from './suppliers-i18n/maoom.fr.json';
 import maoomTr from './suppliers-i18n/maoom.tr.json';
 import maoomEs from './suppliers-i18n/maoom.es.json';
 import maoomPt from './suppliers-i18n/maoom.pt.json';
+import maoomHe from './suppliers-i18n/maoom.he.json';
+import maoomHi from './suppliers-i18n/maoom.hi.json';
 import maoomCatalog from './suppliers-i18n/maoom.catalog.json';
 import skinroomRu from './suppliers-i18n/skinroom.ru.json';
 import skinroomEn from './suppliers-i18n/skinroom.en.json';
@@ -88,6 +92,8 @@ import skinroomFr from './suppliers-i18n/skinroom.fr.json';
 import skinroomTr from './suppliers-i18n/skinroom.tr.json';
 import skinroomEs from './suppliers-i18n/skinroom.es.json';
 import skinroomPt from './suppliers-i18n/skinroom.pt.json';
+import skinroomHe from './suppliers-i18n/skinroom.he.json';
+import skinroomHi from './suppliers-i18n/skinroom.hi.json';
 import skinroomCatalog from './suppliers-i18n/skinroom.catalog.json';
 import joycosRu from './suppliers-i18n/joycos.ru.json';
 import joycosEn from './suppliers-i18n/joycos.en.json';
@@ -100,6 +106,8 @@ import joycosFr from './suppliers-i18n/joycos.fr.json';
 import joycosTr from './suppliers-i18n/joycos.tr.json';
 import joycosEs from './suppliers-i18n/joycos.es.json';
 import joycosPt from './suppliers-i18n/joycos.pt.json';
+import joycosHe from './suppliers-i18n/joycos.he.json';
+import joycosHi from './suppliers-i18n/joycos.hi.json';
 import joycosCatalog from './suppliers-i18n/joycos.catalog.json';
 import hanscosRu from './suppliers-i18n/hanscos.ru.json';
 import hanscosEn from './suppliers-i18n/hanscos.en.json';
@@ -1810,7 +1818,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(maoomFr as any),
       tr: mk(maoomTr as any),
       es: mk(maoomEs as any),
-      pt: mk(maoomPt as any),
+      pt: mk(maoomPt as any), he: mk(maoomHe as any), hi: mk(maoomHi as any),
     },
   },
 {
@@ -1849,7 +1857,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(skinroomFr as any),
       tr: mk(skinroomTr as any),
       es: mk(skinroomEs as any),
-      pt: mk(skinroomPt as any),
+      pt: mk(skinroomPt as any), he: mk(skinroomHe as any), hi: mk(skinroomHi as any),
     },
   },
 {
@@ -1910,7 +1918,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(joycosFr as any),
       tr: mk(joycosTr as any),
       es: mk(joycosEs as any),
-      pt: mk(joycosPt as any),
+      pt: mk(joycosPt as any), he: mk(joycosHe as any), hi: mk(joycosHi as any),
     },
   },
 {
@@ -1950,7 +1958,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(sunpureFr as any),
       tr: mk(sunpureTr as any),
       es: mk(sunpureEs as any),
-      pt: mk(sunpurePt as any),
+      pt: mk(sunpurePt as any), he: mk(sunpureHe as any), hi: mk(sunpureHi as any),
     },
   },
   {
