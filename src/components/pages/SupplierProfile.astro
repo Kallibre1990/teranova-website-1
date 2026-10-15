@@ -7,6 +7,7 @@
 import { Image } from 'astro:assets';
 import { localizePath, anchorHref, pickDoc } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
+import { catalogText } from '../../i18n/strict-content';
 import { supplierContent, linePages, type SupplierProfile } from '../../data/suppliers';
 import { postsBySupplier, postContent } from '../../data/blog';
 import { hairScalp } from '../../data/hair-scalp';
@@ -416,11 +417,12 @@ function monogram(name: string): string {
         <div class="sp-catalog">
           {profile.catalog.map((grp, gi) => {
             const base = profile.catalog!.slice(0, gi).reduce((s, g) => s + g.items.length, 0);
+            const groupLabel = catalogText(grp.line, grp.lineI18n, lang);
             return (
               <div class="sp-catgrp">
                 <div class="sp-catgrp__head">
                   <h3 class="sp-catgrp__nm">
-                    {lineHref(grp.line) ? <a class="sp-catgrp__lnk" href={lineHref(grp.line)}>{grp.line}</a> : grp.line}
+                    {lineHref(grp.line) ? <a class="sp-catgrp__lnk" href={lineHref(grp.line)}>{groupLabel}</a> : groupLabel}
                   </h3>
                   <div class="sp-catnav">
                     <button class="sp-catnav__b" type="button" data-dir="-1" aria-label={t.common.prev}>‹</button>
@@ -442,7 +444,7 @@ function monogram(name: string): string {
                             : <span class="sp-prod__mono" aria-hidden="true">{monogram(it.name)}</span>}
                         </span>
                         <span class="sp-prod__body">
-                          <span class="sp-prod__nm">{it.name}{it.volume && <span class="sp-prod__vol"> · {it.volume}</span>}</span>
+                          <span class="sp-prod__nm">{it.name}{it.volume && <span class="sp-prod__vol"> · {catalogText(it.volume, it.volumeI18n, lang)}</span>}</span>
                           {note && <span class="sp-prod__desc">{note}</span>}
                           {it.certs && it.certs.length > 0 && (
                             <span class="sp-prod__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>

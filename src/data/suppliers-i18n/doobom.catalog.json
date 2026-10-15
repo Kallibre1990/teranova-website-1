@@ -1,17 +1,20 @@
 [
  {
   "line": "Exosome & PDRN",
+  "lineI18n": { "he": "אקסוזומים ו-PDRN", "hi": "एक्सोसोम और PDRN" },
   "items": [
    {
     "name": "PDRN Ampoule",
     "img": "/img/suppliers/doobom/products/pdrn-ampoule.jpg",
     "volume": "10 vials",
+    "volumeI18n": { "he": "10 בקבוקונים", "hi": "10 शीशियाँ" },
     "certs": []
    },
    {
     "name": "Doobom Exosome Mask Pack",
     "img": "/img/suppliers/doobom/products/exosome-mask-pack.jpg",
     "volume": "5 pcs",
+    "volumeI18n": { "he": "5 יחידות", "hi": "5 इकाइयाँ" },
     "certs": []
    },
    {
@@ -30,22 +33,26 @@
  },
  {
   "line": "Spicule MTS",
+  "lineI18n": { "he": "ספיקולות MTS", "hi": "स्पिक्यूल MTS" },
   "items": [
    {
     "name": "MTS Pore Ampoule",
     "img": "/img/suppliers/doobom/products/mts-pore-ampoule.jpg",
     "volume": "3-day set",
+    "volumeI18n": { "he": "ערכה ל-3 ימים", "hi": "3 दिनों का सेट" },
     "certs": []
    }
   ]
  },
  {
   "line": "Ampoule & Booster",
+  "lineI18n": { "he": "אמפולות ובוסטרים", "hi": "एम्पूल और बूस्टर" },
   "items": [
    {
     "name": "Whitetoning Ampoule",
     "img": "/img/suppliers/doobom/products/whitetoning-ampoule.jpg",
     "volume": "niacinamide 15%",
+    "volumeI18n": { "he": "ניאצינאמיד 15%", "hi": "नियासिनामाइड 15%" },
     "certs": []
    },
    {
@@ -63,6 +70,7 @@
  },
  {
   "line": "Soothing & Barrier",
+  "lineI18n": { "he": "הרגעה ותמיכה במחסום העור", "hi": "त्वचा को आराम और सुरक्षात्मक परत की देखभाल" },
   "items": [
    {
     "name": "Cell Control Soothing Gel",
@@ -86,6 +94,7 @@
  },
  {
   "line": "Cleansing",
+  "lineI18n": { "he": "ניקוי", "hi": "सफ़ाई" },
   "items": [
    {
     "name": "Acne Bubble Wash (weakly acidic)",
@@ -103,11 +112,13 @@
  },
  {
   "line": "Sets",
+  "lineI18n": { "he": "ערכות", "hi": "सेट" },
   "items": [
    {
     "name": "Travel Kit",
     "img": "/img/suppliers/doobom/products/travel-kit.jpg",
     "volume": "4 items",
+    "volumeI18n": { "he": "4 פריטים", "hi": "4 उत्पाद" },
     "certs": []
    }
   ]

@@ -710,10 +710,10 @@ export interface SupplierProfile {
      for it. Keyed by the line name as written in i18n.lines. Real photographs
      from the brand's own materials only; never a drawing (docs/IMAGERY.md). */
   lineShots?: Record<string, string>;
-  /* Real product catalog grouped by line, with photos, volume, price, certs. Language-neutral. */
+  /* Product identities/assets stay shared; descriptive group/pack labels can be localized. */
   /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
      позиции может не быть вовсе. Карточка тогда показывает монограмму. */
-  catalog?: { line: string; items: { name: string; img?: string; volume?: string; price?: string; moq?: number; certs?: string[]; actives?: string[] }[] }[];
+  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[] }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
@@ -1858,7 +1858,8 @@ export const suppliers: SupplierProfile[] = [
     category: 'cosmetics',
     country: 'kr',
     name: 'SkinRoom Co., Ltd.',
-    brand: 'OBM — разработка марок под ключ',
+    /* Service copy belongs to the localized descriptor, not Brand/alternateName. */
+    brand: 'SkinRoom',
     status: 'provided',
     /* Тёплый графит и латунь: студия, а не лаборатория. Отстраиваем от страницы
        MAOOM, чтобы два профиля одной компании не читались как одна страница. */

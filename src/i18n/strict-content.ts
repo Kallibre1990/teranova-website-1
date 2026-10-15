@@ -1,5 +1,16 @@
 import type { Lang } from './ui';
 
+/** Keep stable catalog keys for links/photos; translate only their display text.
+ * Once a label is marked descriptive, he/hi must both have a nonempty value.
+ * Historical locales keep the original label until explicitly translated.
+ */
+export function catalogText(source: string, entries: Partial<Record<Lang, string>> | undefined, lang: Lang): string {
+  if (!entries) return source;
+  const text = localizedContent({ ru: source, ...entries }, lang, `catalog label: ${source}`);
+  if (!text.trim()) throw new Error(`Empty ${lang} catalog label: ${source}`);
+  return text;
+}
+
 /** A missing he/hi translation must never silently render Russian content.
  * Preserve historical fallback behaviour for existing locales only.
  */

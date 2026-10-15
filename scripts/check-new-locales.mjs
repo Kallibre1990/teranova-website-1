@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { publicLocaleCodes } from '../src/i18n/locale-policy.mjs';
 import { parity, hasErrors } from './locale-coverage.mjs';
+import { catalogCopyIssues } from './catalog-copy-coverage.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const bundle = await build({
@@ -32,18 +33,22 @@ for (const lang of ['he', 'hi']) {
     { path: '/solar-care/', ...parity(data.solarCopy.ru, data.solarCopy[lang]) },
   ];
   const missingPages = content.filter(hasErrors);
+  const sharedCatalogIssues = catalogCopyIssues(suppliers, lang);
   report.languages[lang] = {
     public: publicLocaleCodes.includes(lang), ui,
     contentPages: content.length, incompletePages: missingPages.length,
     missingLeaves: content.reduce((sum, entry) => sum + entry.missing.length, 0),
     content: missingPages,
+    sharedCatalogIssues,
   };
   const enforce = !process.argv.includes('--public-only') || publicLocaleCodes.includes(lang);
-  if (enforce && (hasErrors(ui) || missingPages.length)) failed = true;
+  if (enforce && (hasErrors(ui) || missingPages.length || sharedCatalogIssues.length)) failed = true;
 }
 if (process.argv.includes('--json')) console.log(JSON.stringify(report, null, 2));
 else for (const [lang, value] of Object.entries(report.languages)) {
   console.log(`${lang}: public=${value.public}; UI=${value.ui.leaves} leaves, errors=${hasErrors(value.ui)}; incomplete content=${value.incompletePages}/${value.contentPages}; missing leaves=${value.missingLeaves}`);
+  console.log(`${lang}: shared catalog issues=${value.sharedCatalogIssues.length}`);
+  for (const issue of value.sharedCatalogIssues) console.error(issue);
 }
 if (process.argv.includes('--release') && ['he', 'hi'].some((lang) => !publicLocaleCodes.includes(lang))) failed = true;
 if (failed) process.exitCode = 1;
