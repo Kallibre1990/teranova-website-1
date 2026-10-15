@@ -22,7 +22,7 @@ const ctaHref = anchorHref('ondemand', lang);
   <div class="wrap header__row">
     <Logo lang={lang} variant="light" />
 
-    <nav class="header__nav" aria-label="Primary">
+    <nav class="header__nav" aria-label={t.common.menu}>
       {nav.map((i) => <a href={i.href} rel={i.external ? 'noopener' : undefined}>{i.label}</a>)}
     </nav>
 
@@ -41,7 +41,7 @@ const ctaHref = anchorHref('ondemand', lang);
     <Logo lang={lang} variant="light" />
     <button class="menu-close" id="menuClose" aria-label={t.common.close}>&times;</button>
   </div>
-  <nav class="mobile-menu__nav wrap" aria-label="Mobile">
+  <nav class="mobile-menu__nav wrap" aria-label={t.common.menu}>
     {fullNav.map((i) => <a href={i.href} rel={i.external ? 'noopener' : undefined}>{i.label}</a>)}
   </nav>
   <div class="mobile-menu__foot wrap">

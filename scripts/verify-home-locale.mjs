@@ -1,9 +1,10 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { publicLocaleCodes } from '../src/i18n/locale-policy.mjs';
 
 const dist = resolve(process.argv[2] ?? 'dist');
 const site = 'https://teranovagroup.com';
-const locales = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt'];
+const locales = publicLocaleCodes;
 
 function fail(message) {
   console.error(`home-locale check failed: ${message}`);
@@ -24,8 +25,8 @@ function includes(text, expected, context) {
 }
 
 function homeLinks() {
-  return locales
-    .map((locale) => `${locale}=${site}${locale === 'en' ? '/' : `/${locale}/`}`)
+  return [...locales
+    .map((locale) => `${locale}=${site}${locale === 'en' ? '/' : `/${locale}/`}`), `x-default=${site}/`]
     .sort();
 }
 
@@ -59,7 +60,7 @@ if (homeBlocks.length !== 2) {
       .map((match) => `${match[1]}=${match[2]}`)
       .sort();
     if (JSON.stringify(links) !== JSON.stringify(expectedLinks)) {
-      fail('homepage sitemap alternates do not match the 11 public languages');
+      fail('homepage sitemap alternates do not match the public languages plus x-default');
     }
   }
 }

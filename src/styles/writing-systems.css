@@ -1,0 +1,17 @@
+/* Native-script system fallbacks for local development. Self-hosted, licensed
+   Hebrew/Devanagari fonts and glyph checks remain a release prerequisite. */
+html:lang(he) { --font: 'Noto Sans Hebrew', 'Arial Hebrew', Arial, sans-serif; }
+html:lang(hi) { --font: 'Noto Sans Devanagari', 'Kohinoor Devanagari', 'Nirmala UI', sans-serif; }
+html:lang(he) body, html:lang(hi) body { font-family: var(--font); }
+html:lang(hi) :is(h1, h2, h3, .h-section, .eyebrow) {
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+html:lang(he) :is(h1, h2, h3, .eyebrow) { letter-spacing: normal; }
+html[dir='rtl'] .link-arrow svg { transform: scaleX(-1); }
+html[dir='rtl'] .link-arrow:hover svg { transform: scaleX(-1) translateX(4px); }
+html[dir='rtl'] .mobile-menu:not(.open) { transform: translateX(-100%); }
+html[dir='rtl'] :is(input[type='email'], input[type='tel'], input[type='url'], a[href^='mailto:'], a[href^='tel:']) {
+  direction: ltr;
+  unicode-bidi: isolate;
+}

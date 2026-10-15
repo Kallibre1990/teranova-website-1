@@ -28,8 +28,8 @@ const items = (Object.keys(languages) as Lang[]).map((l) => ({
       items.map((i) => (
         <li>
           <a href={i.href} hreflang={i.code} lang={i.code} aria-current={i.active ? 'true' : undefined} class:list={{ on: i.active }}>
-            <span class="lm-short">{i.short}</span>
-            <span class="lm-label">{i.label}</span>
+            <bdi class="lm-short" dir="ltr">{i.short}</bdi>
+            <bdi class="lm-label">{i.label}</bdi>
           </a>
         </li>
       ))
@@ -50,7 +50,8 @@ const items = (Object.keys(languages) as Lang[]).map((l) => ({
   .langswitch .chev { transition: transform .25s var(--ease); opacity: 0.7; }
   .langswitch[open] .chev { transform: rotate(180deg); }
   .langmenu {
-    position: absolute; right: 0; top: calc(100% + 8px); z-index: 200; min-width: 184px;
+    position: absolute; inset-inline-end: 0; top: calc(100% + 8px); z-index: 200; min-width: 184px;
+    width: max-content; max-width: calc(100vw - 32px);
     background: var(--navy-2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 12px;
     padding: 7px; box-shadow: var(--sh-navy); display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
   }
@@ -62,6 +63,10 @@ const items = (Object.keys(languages) as Lang[]).map((l) => ({
   .langmenu a.on { background: var(--cobalt); color: #fff; }
   .lm-short { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.04em; min-width: 22px; }
   .lm-label { font-size: 0.82rem; }
+  :global(.mobile-menu__foot) .langmenu { inset-inline-start: 0; inset-inline-end: auto; top: auto; bottom: calc(100% + 8px); }
+  @media (max-width: 360px) {
+    .langmenu a { gap: 5px; padding: 8px 6px; }
+  }
 </style>
 
 <script>

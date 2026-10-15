@@ -1,6 +1,7 @@
 ---
 import { localizePath, getAlternates } from '../i18n/utils';
 import { defaultLang, homeDefaultLang, type Lang } from '../i18n/ui';
+import { localeDefinitions } from '../i18n/locale-policy.mjs';
 
 interface Props {
   lang: Lang;
@@ -38,9 +39,6 @@ const alternates = getAlternates(path).map((a) => ({ ...a, abs: siteUrl + a.href
 // indexed section hierarchy.
 const xDefault = siteUrl + localizePath(path, path === '/' ? homeDefaultLang : defaultLang);
 const ogImage = image.startsWith('http') ? image : siteUrl + image;
-const ogLocale: Record<Lang, string> = {
-  ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT', de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES', pt: 'pt_BR',
-};
 const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 // Keep meta descriptions to ~155 chars (clean word boundary) for SERP snippets.
 const metaDescription =
@@ -73,7 +71,7 @@ const metaDescription =
 <meta property="og:title" content={title} />
 <meta property="og:description" content={metaDescription} />
 <meta property="og:url" content={canonical} />
-<meta property="og:locale" content={ogLocale[lang]} />
+<meta property="og:locale" content={localeDefinitions[lang].og} />
 <meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />

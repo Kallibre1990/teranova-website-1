@@ -1,4 +1,5 @@
 import { defaultLang, homeDefaultLang, languages, verifiedLocales, ui, type Lang } from './ui';
+import { localizedPath } from './locale-policy.mjs';
 
 export const locales = Object.keys(languages) as Lang[];
 
@@ -16,7 +17,7 @@ export function getLangFromUrl(url: URL): Lang {
  * other languages retain their existing /<locale>/ entry points.
  */
 export function localizeHomePath(lang: Lang): string {
-  return lang === homeDefaultLang ? '/' : `/${lang}/`;
+  return localizedPath('/', lang);
 }
 
 /**
@@ -25,10 +26,7 @@ export function localizeHomePath(lang: Lang): string {
  *   localizePath('/', 'ko')        -> '/ko/'
  */
 export function localizePath(path: string, lang: Lang): string {
-  const clean = '/' + path.replace(/^\/+|\/+$/g, '');
-  if (clean === '/') return localizeHomePath(lang);
-  const base = lang === defaultLang ? '' : `/${lang}`;
-  return `${base}${clean}/`;
+  return localizedPath(path, lang);
 }
 
 /** Localized home URL plus an in-page anchor: anchorHref('ondemand','en') -> '/en/#ondemand'. */

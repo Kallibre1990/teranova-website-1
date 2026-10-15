@@ -2,11 +2,13 @@
 import '@fontsource-variable/manrope';
 import '../styles/global.css';
 import '../styles/beauty.css';
+import '../styles/writing-systems.css';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Preloader from '../components/Preloader.astro';
 import { ui, isVerified, type Lang } from '../i18n/ui';
+import { localeDefinitions } from '../i18n/locale-policy.mjs';
 
 interface Props {
   lang: Lang;
@@ -31,7 +33,7 @@ const noindexResolved = noindex ?? !isVerified(lang);
 ---
 
 <!doctype html>
-<html lang={t.htmlLang}>
+<html lang={t.htmlLang} dir={localeDefinitions[lang].direction}>
   <head>
     <BaseHead
       lang={lang}
@@ -69,7 +71,7 @@ const noindexResolved = noindex ?? !isVerified(lang);
 
     <style>
       .to-top {
-        position: fixed; right: 22px; bottom: 22px;
+        position: fixed; inset-inline-end: 22px; bottom: 22px;
         width: 44px; height: 44px; border-radius: 50%; border: none;
         background: var(--cobalt); color: #fff; font-size: 1.15rem;
         display: flex; align-items: center; justify-content: center;

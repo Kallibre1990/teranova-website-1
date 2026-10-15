@@ -1,6 +1,6 @@
 /* ============================================================
-   i18n assembler — 11 languages.
-   Source of truth: ru. Full dictionaries: ru, en, ko, pt (used directly).
+   i18n assembler — 11 public languages plus staged he/hi.
+   Source of truth: ru. Full dictionaries: ru, en, ko, pt, he, hi (used directly).
    Machine-translated (merged OVER English): zh, ja, it, de, fr, tr, es.
    All locales are indexed (index/follow) and get hreflang + sitemap
    entries — HQ directive to index every language version.
@@ -11,6 +11,9 @@ import { ru, type UIDict } from './locales/ru';
 import { en } from './locales/en';
 import { ko } from './locales/ko';
 import { pt } from './locales/pt';
+import { he } from './locales/he';
+import { hi } from './locales/hi';
+import { localeDefinitions, publicLocaleCodes } from './locale-policy.mjs';
 import zh from './locales/zh';
 import ja from './locales/ja';
 import it from './locales/it';
@@ -22,21 +25,10 @@ import type { DeepPartial } from './deep';
 
 export type { UIDict };
 
-export const languages = {
-  ru: 'Русский',
-  en: 'English',
-  ko: '한국어',
-  zh: '中文',
-  ja: '日本語',
-  it: 'Italiano',
-  de: 'Deutsch',
-  fr: 'Français',
-  tr: 'Türkçe',
-  es: 'Español',
-  pt: 'Português',
-} as const;
-
-export type Lang = keyof typeof languages;
+export type Lang = keyof typeof localeDefinitions;
+// Staged dictionaries do not create public routes or switcher entries.
+export const languages = Object.fromEntries(publicLocaleCodes.map((code) =>
+  [code, localeDefinitions[code as Lang].name])) as Partial<Record<Lang, string>>;
 export const defaultLang: Lang = 'ru';
 
 /**
@@ -80,7 +72,7 @@ function build(code: Lang, partial: DeepPartial<UIDict>): UIDict {
   const d = deepMerge(en, partial); // English fallback
   d.htmlLang = code;
   d.langShort = code.toUpperCase();
-  d.langName = languages[code];
+  d.langName = localeDefinitions[code].name;
   return d;
 }
 
@@ -89,6 +81,8 @@ export const ui: Record<Lang, UIDict> = {
   en,
   ko,
   pt,
+  he,
+  hi,
   zh: build('zh', zh),
   ja: build('ja', ja),
   it: build('it', it),

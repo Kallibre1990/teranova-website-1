@@ -8,6 +8,7 @@
    fall back to ru. Neutral fields (slug, category, date, related links) live on
    the post itself. Shape mirrors suppliers/line-pages for a familiar pipeline. */
 import type { Lang } from '../i18n/ui';
+import { localizedContent } from '../i18n/strict-content';
 import blogData from './blog.json';
 
 export interface BlogSection {
@@ -58,7 +59,7 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = blogData as BlogPost[];
 export const postBySlug = (slug: string): BlogPost | undefined => posts.find((p) => p.slug === slug);
-export const postContent = (p: BlogPost, lang: Lang): BlogPostContent => p.i18n[lang] ?? p.i18n.ru!;
+export const postContent = (p: BlogPost, lang: Lang): BlogPostContent => localizedContent(p.i18n, lang, `blog/${p.slug}`);
 /** Newest first, for the index listing. */
 export const postsByDate: BlogPost[] = [...posts].sort((a, b) => (a.date < b.date ? 1 : -1));
 /** Articles tied to a given supplier (for the "useful articles" block on the profile). */

@@ -1,4 +1,5 @@
 import oanicRu from './suppliers-i18n/oanic.ru.json';
+import { localizedContent } from '../i18n/strict-content';
 import oanicEn from './suppliers-i18n/oanic.en.json';
 import oanicKo from './suppliers-i18n/oanic.ko.json';
 import oanicZh from './suppliers-i18n/oanic.zh.json';
@@ -2491,7 +2492,7 @@ export interface SupplierLinePage {
   items: SupplierLineItem[];
   i18n: Partial<Record<Lang, SupplierLineContent>>;
 }
-export const linePageContent = (p: SupplierLinePage, lang: Lang): SupplierLineContent => p.i18n[lang] ?? p.i18n.ru!;
+export const linePageContent = (p: SupplierLinePage, lang: Lang): SupplierLineContent => localizedContent(p.i18n, lang, `catalog/${p.supplierSlug}/${p.slug}`);
 
 export const supplierBySlug = (slug: string): SupplierProfile | undefined => suppliers.find((s) => s.slug === slug);
 export const supplierSlugs = suppliers.map((s) => s.slug);
@@ -2510,7 +2511,7 @@ export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>
 export const linePageBySlug = (supplierSlug: string, slug: string): SupplierLinePage | undefined =>
   linePages.find((p) => p.supplierSlug === supplierSlug && p.slug === slug);
 /** Localized content with ru fallback. */
-export const supplierContent = (p: SupplierProfile, lang: Lang): SupplierContent => p.i18n[lang] ?? p.i18n.ru!;
+export const supplierContent = (p: SupplierProfile, lang: Lang): SupplierContent => localizedContent(p.i18n, lang, `catalog/${p.slug}`);
 
 /* Несколько настоящих снимков компании — лицо её карточки на витрине.
    Берём по одному товару с фотографией из каждой линии подряд, и только

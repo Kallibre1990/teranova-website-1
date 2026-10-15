@@ -10,6 +10,8 @@
 /* Раздел не наследует Base.astro, поэтому фирменный шрифт подключаем здесь же:
    без этого CSS объявлял Manrope, а страница рисовалась системным шрифтом. */
 import '@fontsource-variable/manrope';
+import '../styles/writing-systems.css';
+import { localeDefinitions } from '../i18n/locale-policy.mjs';
 import { localizePath } from '../i18n/utils';
 import { languages, defaultLang, verifiedLocales, ui, type Lang } from '../i18n/ui';
 import type { SolarCopy, SolarLang } from '../data/solar-care';
@@ -25,10 +27,6 @@ const PATH = '/solar-care';
 const canonical = SITE + localizePath(PATH, lang);
 const alternates = verifiedLocales.map((l) => ({ code: l, href: SITE + localizePath(PATH, l) }));
 const xDefault = SITE + localizePath(PATH, defaultLang);
-const ogLocale: Record<Lang, string> = {
-  ru: 'ru_RU', en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', ja: 'ja_JP', it: 'it_IT',
-  de: 'de_DE', fr: 'fr_FR', tr: 'tr_TR', es: 'es_ES', pt: 'pt_BR',
-};
 const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
   code: l,
   label: languages[l],
@@ -39,7 +37,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
 ---
 
 <!doctype html>
-<html lang={ui[lang].htmlLang}>
+<html lang={ui[lang].htmlLang} dir={localeDefinitions[lang].direction}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -56,7 +54,7 @@ const langItems = (Object.keys(languages) as Lang[]).map((l) => ({
     <meta property="og:title" content={copy.meta.title} />
     <meta property="og:description" content={copy.meta.description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={ogLocale[lang]} />
+    <meta property="og:locale" content={localeDefinitions[lang].og} />
     <meta property="og:image" content={`${SITE}/img/suppliers/multifit/gallery/g2-desert-array.jpg`} />
     <meta name="twitter:card" content="summary_large_image" />
 
