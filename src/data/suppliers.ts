@@ -505,6 +505,8 @@ import ckrFr from './suppliers-i18n/ck-regeon.fr.json';
 import ckrTr from './suppliers-i18n/ck-regeon.tr.json';
 import ckrEs from './suppliers-i18n/ck-regeon.es.json';
 import ckrPt from './suppliers-i18n/ck-regeon.pt.json';
+import ckrHe from './suppliers-i18n/ck-regeon.he.json';
+import ckrHi from './suppliers-i18n/ck-regeon.hi.json';
 import jetsRu from './suppliers-i18n/jetsglobal.ru.json';
 import jetsEn from './suppliers-i18n/jetsglobal.en.json';
 import jetsKo from './suppliers-i18n/jetsglobal.ko.json';
@@ -516,6 +518,8 @@ import jetsFr from './suppliers-i18n/jetsglobal.fr.json';
 import jetsTr from './suppliers-i18n/jetsglobal.tr.json';
 import jetsEs from './suppliers-i18n/jetsglobal.es.json';
 import jetsPt from './suppliers-i18n/jetsglobal.pt.json';
+import jetsHe from './suppliers-i18n/jetsglobal.he.json';
+import jetsHi from './suppliers-i18n/jetsglobal.hi.json';
 import pineRu from './suppliers-i18n/pineworld.ru.json';
 import pineEn from './suppliers-i18n/pineworld.en.json';
 import pineKo from './suppliers-i18n/pineworld.ko.json';
@@ -527,6 +531,8 @@ import pineFr from './suppliers-i18n/pineworld.fr.json';
 import pineTr from './suppliers-i18n/pineworld.tr.json';
 import pineEs from './suppliers-i18n/pineworld.es.json';
 import pinePt from './suppliers-i18n/pineworld.pt.json';
+import pineHe from './suppliers-i18n/pineworld.he.json';
+import pineHi from './suppliers-i18n/pineworld.hi.json';
 import kiftRu from './suppliers-i18n/kift.ru.json';
 import kiftEn from './suppliers-i18n/kift.en.json';
 import kiftKo from './suppliers-i18n/kift.ko.json';
@@ -1267,7 +1273,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(ckrFr as any),
       tr: mk(ckrTr as any),
       es: mk(ckrEs as any),
-      pt: mk(ckrPt as any),
+      pt: mk(ckrPt as any), he: mk(ckrHe as any), hi: mk(ckrHi as any),
     },
   },
   {
@@ -1316,7 +1322,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(jetsFr as any),
       tr: mk(jetsTr as any),
       es: mk(jetsEs as any),
-      pt: mk(jetsPt as any),
+      pt: mk(jetsPt as any), he: mk(jetsHe as any), hi: mk(jetsHi as any),
     },
   },
   {
@@ -1364,7 +1370,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(pineFr as any),
       tr: mk(pineTr as any),
       es: mk(pineEs as any),
-      pt: mk(pinePt as any),
+      pt: mk(pinePt as any), he: mk(pineHe as any), hi: mk(pineHi as any),
     },
   },
   {
