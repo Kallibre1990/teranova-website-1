@@ -35,14 +35,14 @@ const russian = read('ru/index.html');
 const redirects = read('_redirects');
 const sitemap = read('sitemap-0.xml');
 
-includes(root, '<html lang="en"', 'root language');
-includes(root, `<link rel="canonical" href="${site}/"`, 'root canonical');
-includes(root, `hreflang="ru" href="${site}/ru/"`, 'root Russian alternate');
-includes(root, `hreflang="en" href="${site}/"`, 'root English alternate');
-includes(root, `hreflang="x-default" href="${site}/"`, 'root x-default alternate');
+includes(root, '<html lang="en"', 'index.html: root language');
+includes(root, `<link rel="canonical" href="${site}/"`, 'index.html: root canonical');
+includes(root, `hreflang="ru" href="${site}/ru/"`, 'index.html: root Russian alternate');
+includes(root, `hreflang="en" href="${site}/"`, 'index.html: root English alternate');
+includes(root, `hreflang="x-default" href="${site}/"`, 'index.html: root x-default alternate');
 
-includes(russian, '<html lang="ru"', 'Russian home language');
-includes(russian, `<link rel="canonical" href="${site}/ru/"`, 'Russian home canonical');
+includes(russian, '<html lang="ru"', 'ru/index.html: Russian home language');
+includes(russian, `<link rel="canonical" href="${site}/ru/"`, 'ru/index.html: Russian home canonical');
 
 includes(redirects, '/en/ / 301', 'legacy English redirect');
 includes(redirects, '/en / 301', 'legacy English redirect');
