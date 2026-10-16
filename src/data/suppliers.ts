@@ -1073,6 +1073,11 @@ const agingTargetEn: SupplierContent = {
   consentNote: 'The company gave written consent for this profile. It uses the company’s reduced materials and excludes information the company reserved.',
   seoTitle: 'AgingTarget — research programs for licensing · Teranova',
   seoDesc: 'AgingTarget Inc.: small-molecule research candidates for atherosclerosis and Alzheimer’s disease, preclinical according to the company as of 5 October 2026.',
+  /* Without this override agingTargetEn inherited agingTargetRu's Russian ui
+     block via the spread above — every non-ru locale showed Russian chrome
+     (headings, buttons) around English/machine-locale body text
+     (T-20261016-054). */
+  ui: agingTargetUi,
 };
 
 export const suppliers: SupplierProfile[] = [

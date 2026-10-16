@@ -1,5 +1,7 @@
 ---
-/* Catalog group page (default locale, ru) — one per category key. */
+/* Catalog group page (default locale, ru) — one per category key.
+   Exception: 'medical' follows the home page's English-root pattern
+   (T-20261016-054) — its Russian version lives at /ru/catalog/medical/. */
 import Base from '../../layouts/Base.astro';
 import CatalogGroup from '../../components/pages/CatalogGroup.astro';
 import { ui } from '../../i18n/ui';
@@ -11,7 +13,7 @@ export function getStaticPaths() {
 }
 
 const { key } = Astro.props as { key: CategoryKey };
-const lang = 'ru' as const;
+const lang = (key === 'medical' ? 'en' : 'ru') as const;
 const t = ui[lang];
 const group = t.categories.groups.find((g) => g.key === key)!;
 // Cosmetics has bespoke, keyword-first SEO meta; other categories use the default.

@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { resolve, relative } from 'node:path';
-import { publicLocaleCodes, localeDefinitions, logicalPath, languageAlternates, localizedPath } from '../src/i18n/locale-policy.mjs';
+import { publicLocaleCodes, localeDefinitions, logicalPath, languageAlternates, localizedPath, isRootEnglishPath } from '../src/i18n/locale-policy.mjs';
 
 const root = resolve(process.argv.find((arg, index) => index > 1 && !arg.startsWith('--')) ?? 'dist');
 const site = 'https://teranovagroup.com';
@@ -39,7 +39,10 @@ for (const [url, page] of pages) {
   const canonical = links.filter((link) => link.rel === 'canonical');
   if (canonical.length !== 1 || canonical[0].href !== url) fail(urlPath, 'canonical must point to this exact page once');
   const firstSegment = urlPath.split('/')[1];
-  const lang = urlPath === '/' ? 'en' : publicLocaleCodes.includes(firstSegment) ? firstSegment : 'ru';
+  const hasLocalePrefix = publicLocaleCodes.includes(firstSegment);
+  const lang = urlPath === '/' ? 'en'
+    : hasLocalePrefix ? firstSegment
+    : (isRootEnglishPath(urlPath) ? 'en' : 'ru');
   const htmlAttrs = tags(html, 'html')[0] ?? {};
   const htmlLang = localeDefinitions[lang].htmlLang ?? lang;
   if (htmlAttrs.lang !== htmlLang) fail(urlPath, `lang=${htmlAttrs.lang}; expected ${htmlLang}`);

@@ -1,5 +1,7 @@
 ---
-/* Catalog group page for the non-default locales. */
+/* Catalog group page for the non-default locales.
+   Exception: 'medical' has its English root at /catalog/medical (no /en/
+   duplicate) and gains a /ru/ page instead (T-20261016-054). */
 import Base from '../../../layouts/Base.astro';
 import CatalogGroup from '../../../components/pages/CatalogGroup.astro';
 import { ui, defaultLang, languages, type Lang } from '../../../i18n/ui';
@@ -8,8 +10,9 @@ import { breadcrumbJsonLd } from '../../../data/jsonld';
 
 export function getStaticPaths() {
   return (Object.keys(languages) as Lang[])
-    .filter((l) => l !== defaultLang)
-    .flatMap((lang) => categoryKeys.map((key) => ({ params: { lang, key }, props: { lang, key } })));
+    .flatMap((lang) => categoryKeys
+      .filter((key) => (key === 'medical' ? lang !== 'en' : lang !== defaultLang))
+      .map((key) => ({ params: { lang, key }, props: { lang, key } })));
 }
 
 const { lang, key } = Astro.props as { lang: Lang; key: CategoryKey };
