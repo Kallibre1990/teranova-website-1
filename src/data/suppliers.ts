@@ -2626,7 +2626,7 @@ export const suppliers: SupplierProfile[] = [
          than silently substituting an invented medical translation. */
       ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
       de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
-      pt: agingTargetEn,
+      pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
     },
   },
 ];
