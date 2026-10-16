@@ -1,7 +1,7 @@
 ---
 import { localizePath, getAlternates } from '../i18n/utils';
 import { defaultLang, homeDefaultLang, type Lang } from '../i18n/ui';
-import { localeDefinitions } from '../i18n/locale-policy.mjs';
+import { localeDefinitions, isRootEnglishPath } from '../i18n/locale-policy.mjs';
 
 interface Props {
   lang: Lang;
@@ -36,8 +36,9 @@ const canonical = siteUrl + localizePath(path, lang);
 const alternates = getAlternates(path).map((a) => ({ ...a, abs: siteUrl + a.href }));
 // The printed QR root is English. Existing non-home Russian URLs retain the
 // historic Russian x-default so this homepage-only migration does not move the
-// indexed section hierarchy.
-const xDefault = siteUrl + localizePath(path, path === '/' ? homeDefaultLang : defaultLang);
+// indexed section hierarchy. /catalog/medical and /catalog/agingtarget follow
+// the same English-root exception as home (T-20261016-054).
+const xDefault = siteUrl + localizePath(path, (path === '/' || isRootEnglishPath(path)) ? homeDefaultLang : defaultLang);
 const ogImage = image.startsWith('http') ? image : siteUrl + image;
 const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 // Keep meta descriptions to ~155 chars (clean word boundary) for SERP snippets.
