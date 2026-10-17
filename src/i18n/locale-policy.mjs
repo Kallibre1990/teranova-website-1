@@ -25,10 +25,25 @@ export const publicLocaleCodes = Object.keys(localeDefinitions)
 export const sectionDefaultLocale = 'ru';
 export const homeDefaultLocale = 'en';
 
+/** Sections that follow the home page's English-root exception: the printed
+ * fix for T-20261016-054 (medical catalog group was serving Russian at its
+ * English-looking root with no /ru/ alternate). Keep this list short — it is
+ * an exception to sectionDefaultLocale, not a second convention. */
+export const rootEnglishPaths = ['/catalog/medical', '/catalog/agingtarget'];
+
+function cleanPath(path) {
+  return '/' + path.replace(/^\/+|\/+$/g, '');
+}
+
+export function isRootEnglishPath(path) {
+  return rootEnglishPaths.includes(cleanPath(path));
+}
+
 export function localizedPath(path, locale) {
   if (!Object.hasOwn(localeDefinitions, locale)) throw new Error(`Unknown locale: ${locale}`);
-  const clean = '/' + path.replace(/^\/+|\/+$/g, '');
+  const clean = cleanPath(path);
   if (clean === '/') return locale === homeDefaultLocale ? '/' : `/${locale}/`;
+  if (rootEnglishPaths.includes(clean)) return locale === homeDefaultLocale ? `${clean}/` : `/${locale}${clean}/`;
   return `${locale === sectionDefaultLocale ? '' : `/${locale}`}${clean}/`;
 }
 
@@ -39,9 +54,10 @@ export function logicalPath(pathname) {
 }
 
 export function languageAlternates(path, site) {
-  const home = /^\/*$/.test(path);
+  const clean = cleanPath(path);
+  const xDefaultLocale = (clean === '/' || rootEnglishPaths.includes(clean)) ? homeDefaultLocale : sectionDefaultLocale;
   return [
     ...publicLocaleCodes.map((lang) => ({ lang, url: new URL(localizedPath(path, lang), site).href })),
-    { lang: 'x-default', url: new URL(localizedPath(path, home ? homeDefaultLocale : sectionDefaultLocale), site).href },
+    { lang: 'x-default', url: new URL(localizedPath(path, xDefaultLocale), site).href },
   ];
 }

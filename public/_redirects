@@ -2,3 +2,11 @@
 # address. Cloudflare Pages applies this before serving the static asset.
 /en/ / 301
 /en / 301
+
+# /catalog/medical and /catalog/agingtarget moved to the same English-root
+# pattern as home (T-20261016-054): the former /en/ duplicates redirect to
+# the unprefixed English root.
+/en/catalog/medical/ /catalog/medical/ 301
+/en/catalog/medical /catalog/medical/ 301
+/en/catalog/agingtarget/ /catalog/agingtarget/ 301
+/en/catalog/agingtarget /catalog/agingtarget/ 301
