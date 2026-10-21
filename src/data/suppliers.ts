@@ -336,6 +336,19 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import cheon365Ru from './suppliers-i18n/cheon365.ru.json';
+import cheon365En from './suppliers-i18n/cheon365.en.json';
+import cheon365Ko from './suppliers-i18n/cheon365.ko.json';
+import cheon365Zh from './suppliers-i18n/cheon365.zh.json';
+import cheon365Ja from './suppliers-i18n/cheon365.ja.json';
+import cheon365It from './suppliers-i18n/cheon365.it.json';
+import cheon365De from './suppliers-i18n/cheon365.de.json';
+import cheon365Fr from './suppliers-i18n/cheon365.fr.json';
+import cheon365Tr from './suppliers-i18n/cheon365.tr.json';
+import cheon365Es from './suppliers-i18n/cheon365.es.json';
+import cheon365Pt from './suppliers-i18n/cheon365.pt.json';
+import cheon365He from './suppliers-i18n/cheon365.he.json';
+import cheon365Hi from './suppliers-i18n/cheon365.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -2632,6 +2645,30 @@ export const suppliers: SupplierProfile[] = [
       ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
       de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
       pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
+    },
+  },
+  {
+    slug: 'cheon365',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Cheon365 Co., Ltd.',
+    brand: 'Scott Hamish',
+    status: 'provided',
+    /* Сдержанная сине-серая гамма — по оформлению их сайта scotthamish.com
+       (линия Blue Blended). */
+    brandColors: { deep: '#1F2A44', sky: '#D7DEE8', accent: '#2B4C7E', bg: '#F4F5F7' },
+    voice: 'minimal',
+    /* Согласие косвенное: 07.10.2026 компания написала, что Scott Hamish можно
+       представлять через Teranova; наш запрос прав на материалы от 09.10 без
+       ответа. Поэтому текст — только минимальные нейтральные факты с открытого
+       официального сайта scotthamish.com (снимок 22.10.2026, T-20261021-051).
+       Присланные логотип, буклет и презентация не используются. Страница не
+       называется согласованной с компанией и не говорит о партнёрстве.
+       Цены, функциональные заявления (отбеливание/морщины), SPF, превосходные
+       степени, имя руководителя, контакты, адреса и фото не публикуются;
+       карточка показывает монограмму. */
+    i18n: {
+      ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any),
     },
   },
 ];

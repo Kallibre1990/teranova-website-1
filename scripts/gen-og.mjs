@@ -120,6 +120,7 @@ const SUPPLIERS = {
   themaqueen: { eyebrow: 'Supplier profile', title: 'THEMAQUEEN — Korean cooling, cleansing and scalp-care accessories', accent: '#7A919B' },
   'vegan-nature': { eyebrow: 'Supplier profile', title: 'Vegan Nature — Korean solid shampoo and treatment bars', accent: '#7AC7A6' },
   chaewun: { eyebrow: 'Supplier profile', title: 'CHAEWUN — Korean Pudding Mist Ampoules by Twelve Global', accent: '#CE6F93' },
+  cheon365: { eyebrow: 'Supplier profile', title: 'Scott Hamish (Cheon365) — Korean men’s grooming care brand', accent: '#2B4C7E' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
