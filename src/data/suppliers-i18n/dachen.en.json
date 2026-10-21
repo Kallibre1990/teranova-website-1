@@ -1,0 +1,58 @@
+{
+  "content": {
+    "tagline": "A company based in Guangzhou, China",
+    "descriptor": "Guangzhou Dachen Intelligent Equipment Co., Ltd. (广州达辰智能设备有限公司) is a company based in Guangzhou (Guangdong Province, China)",
+    "origin": "Guangzhou, China",
+    "about": [
+      "Guangzhou Dachen Intelligent Equipment Co., Ltd. (广州达辰智能设备有限公司) is a company based in Guangzhou, Guangdong Province, China.",
+      "On 16 September 2026 the company told Teranova that it is interested in a profile on the platform. Teranova is confirming the product range, technical specifications and commercial terms with the company; until the company confirms them, they are not shown on this page."
+    ],
+    "facts": [
+      "Guangzhou, China",
+      "Product range on request"
+    ],
+    "channels": [],
+    "lines": [],
+    "tech": [],
+    "formats": [
+      "Product range on request via Teranova"
+    ],
+    "exportNote": "Product range, technical specifications, certificates, prices and minimum order are not published here and are confirmed with the company on a buyer's request.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B enquiries and negotiations via Teranova."
+      },
+      {
+        "label": "Price and minimum order",
+        "value": "On request; not published."
+      }
+    ],
+    "consentNote": "On 16 September 2026 the company replied to Teranova that it is interested in a profile. Teranova has not yet received materials from the company, so this page shows only the company name and location from that correspondence. Product descriptions will be added once the company provides and approves materials.",
+    "seoTitle": "Guangzhou Dachen Intelligent Equipment — Guangzhou, China · Teranova",
+    "seoDesc": "Profile of Guangzhou Dachen Intelligent Equipment Co., Ltd., Guangzhou, China. Product range and terms on request via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": ""
+  }
+}

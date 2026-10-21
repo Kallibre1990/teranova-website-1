@@ -351,6 +351,19 @@ import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
 import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
+import dachenRu from './suppliers-i18n/dachen.ru.json';
+import dachenEn from './suppliers-i18n/dachen.en.json';
+import dachenKo from './suppliers-i18n/dachen.ko.json';
+import dachenZh from './suppliers-i18n/dachen.zh.json';
+import dachenJa from './suppliers-i18n/dachen.ja.json';
+import dachenIt from './suppliers-i18n/dachen.it.json';
+import dachenDe from './suppliers-i18n/dachen.de.json';
+import dachenFr from './suppliers-i18n/dachen.fr.json';
+import dachenTr from './suppliers-i18n/dachen.tr.json';
+import dachenEs from './suppliers-i18n/dachen.es.json';
+import dachenPt from './suppliers-i18n/dachen.pt.json';
+import dachenHe from './suppliers-i18n/dachen.he.json';
+import dachenHi from './suppliers-i18n/dachen.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -2612,6 +2625,26 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
       ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+    },
+  },
+  {
+    slug: 'dachen',
+    category: 'industrial',
+    country: 'cn',
+    name: 'Guangzhou Dachen Intelligent Equipment Co., Ltd.',
+    brand: 'Dachen',
+    status: 'provided',
+    brandColors: { deep: '#1F2A33', sky: '#E2E7EB', accent: '#5E6F7C', bg: '#F5F7F8' },
+    voice: 'minimal',
+    /* Interest only: on 16.09.2026 the business director answered our profile
+       proposal with "Yes, we are interested". No materials and no rights to
+       materials, so the page carries only the legal name and city/province from
+       the company's own e-mail signature. Line of business, product range,
+       images, prices, MOQ, certificates and contacts are intentionally absent;
+       category 'industrial' follows the legal name ("Intelligent Equipment").
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/10_DACHEN.md. */
+    i18n: {
+      ru: mk(dachenRu as any), en: mk(dachenEn as any), ko: mk(dachenKo as any), zh: mk(dachenZh as any), ja: mk(dachenJa as any), it: mk(dachenIt as any), de: mk(dachenDe as any), fr: mk(dachenFr as any), tr: mk(dachenTr as any), es: mk(dachenEs as any), pt: mk(dachenPt as any), he: mk(dachenHe as any), hi: mk(dachenHi as any),
     },
   },
   {
