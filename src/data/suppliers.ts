@@ -336,6 +336,19 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import koyRu from './suppliers-i18n/koy.ru.json';
+import koyEn from './suppliers-i18n/koy.en.json';
+import koyKo from './suppliers-i18n/koy.ko.json';
+import koyZh from './suppliers-i18n/koy.zh.json';
+import koyJa from './suppliers-i18n/koy.ja.json';
+import koyIt from './suppliers-i18n/koy.it.json';
+import koyDe from './suppliers-i18n/koy.de.json';
+import koyFr from './suppliers-i18n/koy.fr.json';
+import koyTr from './suppliers-i18n/koy.tr.json';
+import koyEs from './suppliers-i18n/koy.es.json';
+import koyPt from './suppliers-i18n/koy.pt.json';
+import koyHe from './suppliers-i18n/koy.he.json';
+import koyHi from './suppliers-i18n/koy.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -2632,6 +2645,29 @@ export const suppliers: SupplierProfile[] = [
       ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
       de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
       pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
+    },
+  },
+  {
+    slug: 'koy',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Brandholder Inc.',
+    brand: 'KOY',
+    status: 'provided',
+    /* Тёплый серо-коричневый — по оформлению их сайта koybeauty.kr. */
+    brandColors: { deep: '#3B3330', sky: '#E4DCD6', accent: '#8D7D75', bg: '#F7F4F1' },
+    voice: 'minimal',
+    /* Письменное согласие Brandholder от 06.10.2026 (письмо irina-1a10f3abffe7a71f)
+       на использование, перевод и публикацию сведений о компании и бренде из
+       официальных каналов для профиля бренда и страниц продуктов. Текст — по
+       снимку koybeauty.kr / koybeauty.com от 22.10.2026 и каталогу бренда 2026
+       (T-20261021-037). Мы обещали компании черновик до публикации (09.10):
+       страница не называется согласованной с компанией. Цены, MOQ, прайс-лист,
+       показатели продаж, клинические и дерматологические испытания, патенты,
+       проценты ингредиентов, рейтинги «No.1», имена людей, контакты, адреса
+       и фото не публикуются; карточка показывает монограмму. */
+    i18n: {
+      ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any),
     },
   },
 ];
