@@ -1,0 +1,99 @@
+{
+  "content": {
+    "tagline": "Soins coréens : teint unifié, hydratation, protection solaire",
+    "descriptor": "Ooznary — une marque coréenne de soins de la peau de DOTS CORPORATION",
+    "origin": "République de Corée",
+    "about": [
+      "Ooznary est une marque de soins de la peau de l’entreprise coréenne DOTS CORPORATION. Son principe : une peau saine commence par le soin, pas par le maquillage. Le nom associe les mots anglais « ooze » et « ordinary ».",
+      "La gamme est organisée en lignes : Vita3 pour un teint unifié, Jet Blue pour l’hydratation, la protection solaire Rest and The Sun, les sérums biphasés Micro Oil Blender 37 et des masques en tissu.",
+      "Les produits de la marque sont vendus en ligne aux États-Unis, notamment sur Amazon et TikTok Shop, au Japon, au Vietnam, en ligne en Chine et en live commerce à Singapour. La priorité d’expansion est la Turquie, ainsi que d’autres nouveaux marchés."
+    ],
+    "facts": [
+      "République de Corée",
+      "Soins de la peau",
+      "Lotions, sérums, crèmes, protection solaire, masques",
+      "Priorité d’expansion : Turquie"
+    ],
+    "channels": [
+      "Importateurs et distributeurs de cosmétiques",
+      "Chaînes de distribution de cosmétiques",
+      "Marketplaces et boutiques en ligne"
+    ],
+    "lines": [
+      {
+        "name": "Vita3",
+        "note": "Ligne pour un teint unifié : lotion ACE Aurora, Aurora Mist, Vita3 Serum et la crème de nuit BBC Pudding Cream. À base de complexes vitaminés."
+      },
+      {
+        "name": "Jet Blue",
+        "note": "Ligne hydratante : lotion, sérum et crème. Les formules contiennent du panthénol, des acides aminés, de l’acide hyaluronique et des céramides."
+      },
+      {
+        "name": "Rest and The Sun",
+        "note": "Protection solaire à la texture légère de lotion, à l’extrait de lys gingembre blanc."
+      },
+      {
+        "name": "Micro Oil Blender 37",
+        "note": "Sérums biphasés en trois versions : acide azélaïque, centella avec PDRN et rétinol."
+      },
+      {
+        "name": "Masques en tissu",
+        "note": "Quatre masques inspirés des produits phares : Vita 3, Azelaic Cica, Centella PDRN et Retinol AHA."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Huile et eau à 3:7",
+        "note": "Dans les sérums Micro Oil Blender 37, les phases huileuse et aqueuse sont associées dans un rapport 3:7 ; le flacon s’agite avant usage."
+      }
+    ],
+    "formats": [
+      "Produits finis de la marque Ooznary",
+      "Lotions, brumes, sérums, crèmes, protection solaire, masques en tissu",
+      "Contenances et coffrets sur demande"
+    ],
+    "exportNote": "Les livraisons vers le Japon, le Vietnam et la Chine ne sont pas proposées via Teranova. Des restrictions s’appliquent aux pays de la CEI : toute livraison se discute au cas par cas avec l’entreprise. Formule, étiquetage, certificats et enregistrements sont confirmés pour le marché et le projet concernés avant l’accord. Les prix, la commande minimale et les conditions commerciales confidentielles ne sont pas publiés.",
+    "terms": [
+      {
+        "label": "Coopération",
+        "value": "Demandes B2B et négociations via Teranova."
+      },
+      {
+        "label": "Zones",
+        "value": "Hors Japon, Vietnam et Chine ; CEI uniquement avec l’accord de l’entreprise."
+      },
+      {
+        "label": "Prix et commande minimale",
+        "value": "Sur demande ; non publiés."
+      }
+    ],
+    "consentNote": "Le 14 octobre 2026, DOTS CORPORATION a autorisé par écrit Teranova à utiliser, traduire et publier sur le site Teranova des informations issues du site officiel d’Ooznary et des documents fournis ou approuvés par l’entreprise, pour un profil d’entreprise et des pages produits Ooznary. Cette autorisation n’est pas exclusive : elle ne transfère aucun droit de marque et n’accorde à Teranova aucun droit exclusif de vente ou de distribution.",
+    "seoTitle": "Ooznary (DOTS CORPORATION) — soins coréens · Teranova",
+    "seoDesc": "Profil Ooznary : soins coréens — lignes Vita3 et Jet Blue, protection solaire, sérums biphasés et masques en tissu. Demandes B2B via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Sur demande ; pas de tarif public.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Produits",
+    "products_note": "La gamme est décrite d’après les documents de l’entreprise. Contenances, formules et spécifications sont confirmées sur demande.",
+    "gallery_h": "Documents de l’entreprise",
+    "gallery_note": "Les images proviennent de la présentation de marque fournie par DOTS CORPORATION à Teranova. Ce sont des documents de l’entreprise, pas notre visite d’usine."
+  }
+}
