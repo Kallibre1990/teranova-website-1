@@ -1,0 +1,113 @@
+{
+  "content": {
+    "tagline": "Chinese manufacturer of aerial work platforms and vacuum lifting equipment",
+    "descriptor": "Jinan PLK Machinery: spider cranes, boom lifts, scissor lifts and vacuum lifters for construction, glazing, warehouses and industrial maintenance",
+    "origin": "China",
+    "about": [
+      "According to its official website, Jinan PLK Machinery Co., Ltd. was founded in 2003 in Jinan, Shandong Province, and has grown into a manufacturer of aerial work platforms, lifting machines and material lifts. The company says it designs and builds its equipment itself, with its own R&D, production, quality control and export sales.",
+      "The company names spider cranes, compact track-mounted mini cranes with remote control, as its signature line. It also makes articulated and telescopic boom lifts, scissor lifts and vacuum lifters for glass, sheet metal, stone slabs and plastic panels.",
+      "PLK states that it employs more than 500 people, including its own engineering team, and that its equipment is used in construction, industrial maintenance, warehouse logistics, glass installation and infrastructure projects. These are the company’s own figures; Teranova has not verified them independently."
+    ],
+    "facts": [
+      "Founded in 2003 in Jinan, Shandong (company data)",
+      "Signature line: spider cranes, 1–8 t",
+      "Boom lifts with working heights of 14–52 m",
+      "Custom builds (OEM/ODM); price on request"
+    ],
+    "channels": [
+      "Construction equipment dealers and distributors",
+      "Construction, glazing and installation contractors",
+      "Warehouses, logistics companies and industrial plants"
+    ],
+    "lines": [
+      {
+        "name": "Spider cranes",
+        "note": "Compact track-mounted mini cranes with remote control and a lifting capacity of 1 to 8 t, according to the company. Built to pass through standard doorways and to work on sensitive floors."
+      },
+      {
+        "name": "Boom lifts",
+        "note": "Articulated and telescopic boom lifts with working heights from 14 to 52 m, according to the company. Articulated booms reach up and over obstacles."
+      },
+      {
+        "name": "Scissor lifts",
+        "note": "Mobile and self-propelled scissor lifts with platforms up to 2.5 × 1.5 m and roll-out extensions, according to the company. Electric drive for quiet work indoors."
+      },
+      {
+        "name": "Vacuum lifters",
+        "note": "Lifters for glass, sheet metal, stone slabs and plastic panels: up to 500 kg for single-panel units and 2,000 kg and more for modular systems, according to the company."
+      },
+      {
+        "name": "Other lifting and handling equipment",
+        "note": "The company’s catalogue also lists lift tables, floor cranes, order pickers, cargo lifts, loading docks, and stair and wheelchair lifts."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Custom builds (OEM/ODM)",
+        "note": "The company offers OEM and ODM work: logo, packaging, colours and materials, as well as changes for a specific site, such as platform extensions or the position of the control panel."
+      },
+      {
+        "name": "Engineering and quality control",
+        "note": "PLK describes 3D modelling and finite element analysis at the design stage, and quality checks at five points, from incoming raw materials to the final operational test."
+      },
+      {
+        "name": "Redundant vacuum circuits",
+        "note": "According to the company, its vacuum systems have redundant circuits: if one fails, the backup takes over and the load is not dropped."
+      }
+    ],
+    "formats": [
+      "Spider crane",
+      "Articulated boom lift",
+      "Telescopic boom lift",
+      "Scissor lift",
+      "Vacuum lifter",
+      "Lift table",
+      "Floor crane",
+      "Order picker",
+      "Cargo lift",
+      "Loading dock",
+      "Stair and wheelchair lift"
+    ],
+    "exportNote": "Jinan PLK Machinery gave written permission to use, translate and publish the company and product materials from its official website. The price is quoted on request. Certificates, distribution territories, prices, direct contacts and product photos are not published here; they are confirmed for a specific enquiry.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B enquiries through Teranova."
+      },
+      {
+        "label": "Price",
+        "value": "On request."
+      },
+      {
+        "label": "Configuration",
+        "value": "Custom builds (OEM/ODM) are discussed for a specific enquiry."
+      }
+    ],
+    "consentNote": "This profile is based on the materials on Jinan PLK Machinery’s official website, under written permission dated 17 September 2026. Figures and product descriptions are the company’s statements. Teranova prepared the text; the company has not reviewed this page.",
+    "seoTitle": "PLK Lift — Chinese spider cranes, boom lifts and vacuum lifters · Teranova",
+    "seoDesc": "Jinan PLK Machinery profile: Chinese manufacturer since 2003 — spider cranes of 1–8 t, boom lifts of 14–52 m, scissor lifts and vacuum lifters. Price on request. B2B through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": ""
+  }
+}

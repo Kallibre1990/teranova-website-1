@@ -336,6 +336,19 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import plkLiftRu from './suppliers-i18n/plk-lift.ru.json';
+import plkLiftEn from './suppliers-i18n/plk-lift.en.json';
+import plkLiftKo from './suppliers-i18n/plk-lift.ko.json';
+import plkLiftZh from './suppliers-i18n/plk-lift.zh.json';
+import plkLiftJa from './suppliers-i18n/plk-lift.ja.json';
+import plkLiftIt from './suppliers-i18n/plk-lift.it.json';
+import plkLiftDe from './suppliers-i18n/plk-lift.de.json';
+import plkLiftFr from './suppliers-i18n/plk-lift.fr.json';
+import plkLiftTr from './suppliers-i18n/plk-lift.tr.json';
+import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
+import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
+import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
+import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -2632,6 +2645,26 @@ export const suppliers: SupplierProfile[] = [
       ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
       de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
       pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
+    },
+  },
+  {
+    slug: 'plk-lift',
+    category: 'industrial',
+    country: 'cn',
+    name: 'Jinan PLK Machinery Co., Ltd.',
+    brand: 'PLK Lift',
+    status: 'provided',
+    /* Зелёный — по оформлению их сайта plklift.com. */
+    brandColors: { deep: '#1F3B2C', sky: '#7FB58F', accent: '#2E8B57', bg: '#F1F6F2' },
+    voice: 'clinical',
+    /* Письменное разрешение от 17.09.2026 (письмо 1a0ad7fa1c5d808c) — использовать,
+       переводить и публиковать материалы компании и продукции с официального сайта
+       plklift.com. Текст профиля — только по снимку сайта от 21.10.2026 (T-20261021-031).
+       Предложение, характеристики и документы из ветки RFQ августа 2026 не используются.
+       Цен, сертификатов, контактов и фото нет: локального медиапакета нет,
+       чужие изображения не подставляются; карточка показывает монограмму. */
+    i18n: {
+      ru: mk(plkLiftRu as any), en: mk(plkLiftEn as any), ko: mk(plkLiftKo as any), zh: mk(plkLiftZh as any), ja: mk(plkLiftJa as any), it: mk(plkLiftIt as any), de: mk(plkLiftDe as any), fr: mk(plkLiftFr as any), tr: mk(plkLiftTr as any), es: mk(plkLiftEs as any), pt: mk(plkLiftPt as any), he: mk(plkLiftHe as any), hi: mk(plkLiftHi as any),
     },
   },
 ];
