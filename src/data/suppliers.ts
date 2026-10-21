@@ -351,6 +351,19 @@ import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
 import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
+import hiyoRu from './suppliers-i18n/hiyo.ru.json';
+import hiyoEn from './suppliers-i18n/hiyo.en.json';
+import hiyoKo from './suppliers-i18n/hiyo.ko.json';
+import hiyoZh from './suppliers-i18n/hiyo.zh.json';
+import hiyoJa from './suppliers-i18n/hiyo.ja.json';
+import hiyoIt from './suppliers-i18n/hiyo.it.json';
+import hiyoDe from './suppliers-i18n/hiyo.de.json';
+import hiyoFr from './suppliers-i18n/hiyo.fr.json';
+import hiyoTr from './suppliers-i18n/hiyo.tr.json';
+import hiyoEs from './suppliers-i18n/hiyo.es.json';
+import hiyoPt from './suppliers-i18n/hiyo.pt.json';
+import hiyoHe from './suppliers-i18n/hiyo.he.json';
+import hiyoHi from './suppliers-i18n/hiyo.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -2612,6 +2625,28 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
       ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+    },
+  },
+  {
+    slug: 'hiyo',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'HIYO',
+    brand: 'HIYO',
+    status: 'provided',
+    brandColors: { deep: '#22262B', sky: '#E3E6EA', accent: '#6B7480', bg: '#F6F7F8' },
+    voice: 'minimal',
+    /* Indirect consent only: on 14.09.2026 HIYO answered that it reviewed the
+       profile proposal positively and asked for our question/material list.
+       No materials and no permission to use, translate or publish materials
+       were received, so the page carries only neutral facts from that thread:
+       the brand name, the InterCHARM Korea 2026 meeting and the company's
+       interest in Latin America and North America. Product range, category
+       claims (scalp/hair care was our wording, not confirmed), images, prices,
+       MOQ, certificates and contacts are intentionally absent.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/09_HIYO.md. */
+    i18n: {
+      ru: mk(hiyoRu as any), en: mk(hiyoEn as any), ko: mk(hiyoKo as any), zh: mk(hiyoZh as any), ja: mk(hiyoJa as any), it: mk(hiyoIt as any), de: mk(hiyoDe as any), fr: mk(hiyoFr as any), tr: mk(hiyoTr as any), es: mk(hiyoEs as any), pt: mk(hiyoPt as any), he: mk(hiyoHe as any), hi: mk(hiyoHi as any),
     },
   },
   {
