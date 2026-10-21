@@ -336,6 +336,19 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import aromaflavumRu from './suppliers-i18n/aromaflavum.ru.json';
+import aromaflavumEn from './suppliers-i18n/aromaflavum.en.json';
+import aromaflavumKo from './suppliers-i18n/aromaflavum.ko.json';
+import aromaflavumZh from './suppliers-i18n/aromaflavum.zh.json';
+import aromaflavumJa from './suppliers-i18n/aromaflavum.ja.json';
+import aromaflavumIt from './suppliers-i18n/aromaflavum.it.json';
+import aromaflavumDe from './suppliers-i18n/aromaflavum.de.json';
+import aromaflavumFr from './suppliers-i18n/aromaflavum.fr.json';
+import aromaflavumTr from './suppliers-i18n/aromaflavum.tr.json';
+import aromaflavumEs from './suppliers-i18n/aromaflavum.es.json';
+import aromaflavumPt from './suppliers-i18n/aromaflavum.pt.json';
+import aromaflavumHe from './suppliers-i18n/aromaflavum.he.json';
+import aromaflavumHi from './suppliers-i18n/aromaflavum.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -2632,6 +2645,28 @@ export const suppliers: SupplierProfile[] = [
       ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
       de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
       pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
+    },
+  },
+  {
+    slug: 'aromaflavum',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'A’ROMAFLAVUM Co., Ltd.',
+    brand: 'A’ROMAFLAVUM',
+    status: 'provided',
+    /* Тёмно-синий и бирюзово-синий — по оформлению их сайта aromaflavum.com. */
+    brandColors: { deep: '#0A255B', sky: '#BFD6E6', accent: '#076AA3', bg: '#F2F6FA' },
+    voice: 'minimal',
+    /* Письменное согласие от 21.09.2026 (письмо 1a0c148cf0a3343c, A’ROMAFLAVUM Co., Ltd.)
+       на профиль компании и страницы сырья по официальному сайту и официальным
+       материалам, без платы для компании. Материалов компания пока не прислала:
+       текст — только по снимку aromaflavum.com от 22.10.2026 (T-20261021-035).
+       Страница не называется согласованной с компанией. «No.1» и превосходные
+       степени, ISO и прочие сертификаты, патенты, тоннаж выпуска, объём
+       резервуаров, «лучшая цена», имя руководителя, контакты, адреса и фото
+       не публикуются; карточка показывает монограмму. */
+    i18n: {
+      ru: mk(aromaflavumRu as any), en: mk(aromaflavumEn as any), ko: mk(aromaflavumKo as any), zh: mk(aromaflavumZh as any), ja: mk(aromaflavumJa as any), it: mk(aromaflavumIt as any), de: mk(aromaflavumDe as any), fr: mk(aromaflavumFr as any), tr: mk(aromaflavumTr as any), es: mk(aromaflavumEs as any), pt: mk(aromaflavumPt as any), he: mk(aromaflavumHe as any), hi: mk(aromaflavumHi as any),
     },
   },
 ];

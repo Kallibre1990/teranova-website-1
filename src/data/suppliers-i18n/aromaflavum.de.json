@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Koreanischer Duftentwickler und OEM/ODM-Hersteller",
+    "descriptor": "A’ROMAFLAVUM: koreanisches Duftunternehmen mit eigener Duftentwicklung und OEM/ODM-Fertigung von Parfums, Diffusern, Deodorants und Textilparfums",
+    "origin": "Korea",
+    "about": [
+      "A’ROMAFLAVUM Co., Ltd. ist ein koreanisches Duftunternehmen. Laut offizieller Website wurde es 2010 gegründet und arbeitet als OEM/ODM-Hersteller auf Basis der eigenen Duftstoffproduktion – von Produktplanung und Entwicklung über Muster bis zur Serienfertigung.",
+      "Das Unternehmen nennt ein firmeneigenes Forschungsinstitut, ein Parfümerielabor und ein Designlabor. Nach Angaben des Unternehmens entwickelt das Labor Düfte selbst mithilfe von GC-MS-Analysen; Parfümeure und das F&E-Team kreieren die Düfte nach internen Qualitätsstandards.",
+      "Nach eigenen Angaben betreibt das Unternehmen Werk 1 in Anyang sowie die Werke 2 und 3 in Hwaseong; ein viertes Werk in Eumseong ist im Bau. Dies ist die Darstellung des Unternehmens selbst; Teranova hat sie nicht unabhängig geprüft."
+    ],
+    "facts": [
+      "Gegründet 2010 (Angaben des Unternehmens)",
+      "Duftentwicklung und OEM/ODM-Fertigung",
+      "Werke in Anyang und Hwaseong, Korea (Angaben des Unternehmens)",
+      "Eigene GC-MS-Duftanalyse (Angaben des Unternehmens)"
+    ],
+    "channels": [
+      "Kosmetik- und Raumduftmarken auf der Suche nach einem OEM/ODM-Hersteller",
+      "Importeure und Distributoren von Duft- und Haushaltsprodukten",
+      "Hersteller, die Duftstoffe für eigene Produkte beziehen"
+    ],
+    "lines": [
+      {
+        "name": "Duftstoffe",
+        "note": "Nach Angaben des Unternehmens werden die Duftstoffe selbst entwickelt und hergestellt, mit GC-MS-Analyse im eigenen Labor."
+      },
+      {
+        "name": "Aromachemikalien und ätherische Öle",
+        "note": "Nach eigenen Angaben importiert das Unternehmen Aromachemikalien und ätherische Öle in großen Mengen und liefert sie auch in kleinen Mengen."
+      },
+      {
+        "name": "Diffuser und Lufterfrischer",
+        "note": "Nach Angaben des Unternehmens individuelle Raumduftprodukte: Diffuser, Autodüfte, Gips-, Spray- und Gel-Lufterfrischer."
+      },
+      {
+        "name": "Deodorants und Textilparfums",
+        "note": "Nach Angaben des Unternehmens Geruchsneutralisierer und Textilparfums auf Basis von Gärungsalkohol mit eigener Deo-Mischung."
+      },
+      {
+        "name": "Parfums",
+        "note": "Nach Angaben des Unternehmens Parfums, darunter feste Parfums, sowie weitere beduftete Produkte wie Sprays und Handcremes."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Eigene GC-MS-Analyse",
+        "note": "Nach Angaben des Unternehmens analysiert sein Parfümerielabor Duftrohstoffe mit GC-MS-Systemen und entwickelt Düfte selbst."
+      },
+      {
+        "name": "OEM/ODM aus einer Hand",
+        "note": "Das Unternehmen beschreibt den gesamten Ablauf: Produktplanung, Duftauswahl und -komposition, Sicherheitsmeldung des Produkts, Flakon- und Verpackungsdesign, Produktion und Qualitätskontrolle, Verpackung, Endkontrolle und Lieferung."
+      },
+      {
+        "name": "Qualitätskontrolle in vier Stufen",
+        "note": "Nach Angaben des Unternehmens: Eingangsprüfung der Komponenten, Prüfungen während der Produktion u. a. von Dichte und Brechungsindex, Endkontrolle der Fertigware und QA-Bericht an den Kunden vor dem Versand."
+      }
+    ],
+    "formats": [
+      "Duftstoffe",
+      "Aromachemikalien und ätherische Öle",
+      "Diffuser und Lufterfrischer",
+      "Deodorants",
+      "Textilparfums",
+      "Parfums"
+    ],
+    "exportNote": "A’ROMAFLAVUM Co., Ltd. hat schriftlich einem Unternehmensprofil und Rohstoffseiten auf Grundlage der offiziellen Website und der offiziellen Unterlagen, die das Unternehmen bereitstellt, zugestimmt. Preise, Mindestabnahmemengen, Zertifizierungen, Produktionsmengen, Testergebnisse, Exportmärkte, direkte Kontakte und Produktfotos werden hier nicht veröffentlicht; sie werden für eine konkrete Anfrage bestätigt.",
+    "terms": [
+      {
+        "label": "Zusammenarbeit",
+        "value": "B2B-Anfragen über Teranova."
+      },
+      {
+        "label": "Preis",
+        "value": "Auf Anfrage."
+      },
+      {
+        "label": "Muster",
+        "value": "Werden für eine konkrete Anfrage besprochen."
+      }
+    ],
+    "consentNote": "Dieses Profil beruht auf der offiziellen Website von A’ROMAFLAVUM, mit schriftlicher Zustimmung der A’ROMAFLAVUM Co., Ltd. vom 21. September 2026. Produkt- und Unternehmensbeschreibungen sind Angaben des Unternehmens. Den Text hat Teranova erstellt; das Unternehmen hat diese Seite nicht geprüft.",
+    "seoTitle": "A’ROMAFLAVUM — koreanischer Duftentwickler und OEM/ODM-Hersteller · Teranova",
+    "seoDesc": "Profil der A’ROMAFLAVUM Co., Ltd.: eigene Duftentwicklung und OEM/ODM-Fertigung von Diffusern, Deodorants, Textilparfums und Parfums. Preis auf Anfrage. B2B über Teranova."
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen geeignet:",
+    "lines_h": "Produktlinien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Auf Anfrage; keine öffentliche Preisliste.",
+    "cta_h": "Interessiert Sie dieser Lieferant?",
+    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifizierungen",
+    "certs_note": "",
+    "products_h": "Produkte",
+    "products_note": ""
+  }
+}

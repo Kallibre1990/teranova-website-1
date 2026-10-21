@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Koreli koku geliştiricisi ve OEM/ODM üreticisi",
+    "descriptor": "A’ROMAFLAVUM: kokuları kendisi geliştiren ve parfüm, difüzör, koku giderici ve tekstil parfümünü OEM/ODM olarak üreten Koreli koku şirketi",
+    "origin": "Kore",
+    "about": [
+      "A’ROMAFLAVUM Co., Ltd. Koreli bir koku şirketidir. Resmî web sitesine göre 2010 yılında kurulmuştur ve kendi esans üretimine dayanan bir OEM/ODM üreticisi olarak ürün planlamasından geliştirmeye, numuneden seri üretime kadar çalışır.",
+      "Şirket bir kurumsal araştırma enstitüsü, bir parfümeri laboratuvarı ve bir tasarım laboratuvarı olduğunu belirtir. Şirkete göre laboratuvar esansları GC-MS analiziyle kendisi geliştirir; parfümörler ve Ar-Ge ekibi kokuları iç kalite standartlarına göre oluşturur.",
+      "Şirket, Anyang’daki 1 numaralı fabrikayı ve Hwaseong’daki 2 ve 3 numaralı fabrikaları işlettiğini, Eumseong’da dördüncü bir fabrikanın yapım aşamasında olduğunu belirtir. Bu, şirketin kendi açıklamasıdır; Teranova bağımsız olarak doğrulamamıştır."
+    ],
+    "facts": [
+      "2010’da kuruldu (şirket verisi)",
+      "Koku geliştirme ve OEM/ODM üretimi",
+      "Kore’de Anyang ve Hwaseong’da fabrikalar (şirket verisi)",
+      "Şirket içi GC-MS koku analizi (şirket verisi)"
+    ],
+    "channels": [
+      "OEM/ODM üreticisi arayan kozmetik ve ev kokusu markaları",
+      "Koku ve ev bakım ürünleri ithalatçıları ve distribütörleri",
+      "Kendi ürünleri için esans arayan üreticiler"
+    ],
+    "lines": [
+      {
+        "name": "Esanslar",
+        "note": "Şirkete göre esanslar, kendi laboratuvarındaki GC-MS analiziyle şirket bünyesinde geliştirilip üretilir."
+      },
+      {
+        "name": "Aroma kimyasalları ve uçucu yağlar",
+        "note": "Şirket, aroma kimyasallarını ve uçucu yağları büyük miktarlarda ithal ettiğini ve küçük miktarlarda da tedarik edebildiğini belirtir."
+      },
+      {
+        "name": "Difüzörler ve oda kokuları",
+        "note": "Şirkete göre siparişe özel ev kokusu ürünleri: difüzörler, araç kokuları, alçı, sprey ve jel oda kokuları."
+      },
+      {
+        "name": "Koku gidericiler ve tekstil parfümleri",
+        "note": "Şirkete göre fermente alkol bazlı ve şirketin kendi koku giderici karışımını içeren koku giderme ürünleri ve tekstil parfümleri."
+      },
+      {
+        "name": "Parfümler",
+        "note": "Şirkete göre katı parfümler dahil parfümler ve sprey, el kremi gibi diğer kokulu ürünler."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Şirket içi GC-MS analizi",
+        "note": "Şirkete göre parfümeri laboratuvarı koku hammaddelerini GC-MS sistemleriyle analiz eder ve esansları kendisi geliştirir."
+      },
+      {
+        "name": "Uçtan uca OEM/ODM",
+        "note": "Şirketin anlattığı tüm süreç: ürün planlama, koku seçimi ve kompozisyonu, ürün güvenliği bildirimi, şişe ve kutu tasarımı, üretim ve kalite kontrol, ambalaj, son kontrol ve teslimat."
+      },
+      {
+        "name": "Dört aşamalı kalite kontrol",
+        "note": "Şirkete göre: gelen bileşenlerin kontrolü, yoğunluk ve kırılma indisi dahil üretim içi kontroller, bitmiş ürünün son kontrolü ve sevkiyattan önce müşteriye QA raporu."
+      }
+    ],
+    "formats": [
+      "Esanslar",
+      "Aroma kimyasalları ve uçucu yağlar",
+      "Difüzörler ve oda kokuları",
+      "Koku gidericiler",
+      "Tekstil parfümleri",
+      "Parfümler"
+    ],
+    "exportNote": "A’ROMAFLAVUM Co., Ltd., resmî web sitesine ve şirketin sağlayacağı resmî materyallere dayanan bir şirket profili ve hammadde sayfaları için yazılı onay vermiştir. Fiyatlar, minimum sipariş miktarları, sertifikalar, üretim hacimleri, test sonuçları, ihracat pazarları, doğrudan iletişim bilgileri ve ürün fotoğrafları burada yayımlanmaz; somut bir talep için teyit edilir.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B talepler."
+      },
+      {
+        "label": "Fiyat",
+        "value": "Talep üzerine."
+      },
+      {
+        "label": "Numuneler",
+        "value": "Somut bir talep için görüşülür."
+      }
+    ],
+    "consentNote": "Bu profil, A’ROMAFLAVUM Co., Ltd.’nin 21 Eylül 2026 tarihli yazılı onayıyla A’ROMAFLAVUM’un resmî web sitesine dayanır. Ürün ve şirket açıklamaları şirketin beyanlarıdır. Metni Teranova hazırlamıştır; şirket bu sayfayı incelememiştir.",
+    "seoTitle": "A’ROMAFLAVUM — Koreli koku geliştiricisi ve OEM/ODM üreticisi · Teranova",
+    "seoDesc": "A’ROMAFLAVUM Co., Ltd. profili: şirket içi esans geliştirme; difüzör, koku giderici, tekstil parfümü ve parfümün OEM/ODM üretimi. Fiyat talep üzerine. Teranova üzerinden B2B."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": ""
+  }
+}
