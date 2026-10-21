@@ -1,0 +1,97 @@
+{
+  "content": {
+    "tagline": "Kore geleneğinden ilham alan Koreli cilt bakım markası",
+    "descriptor": "OAVO: KOREA Silktree (Stewartia koreana) bitkisel bileşenli Kore cilt bakımı, Seul’de marka alanı ve Kore güzellik eğitimi",
+    "origin": "Kore",
+    "about": [
+      "OAVO, Channel Swan Co., Ltd. tarafından temsil edilen Koreli bir güzellik markasıdır. Resmî web sitesine göre marka, güneşi, ayı, beş zirveyi ve dalgaları resmeden geleneksel Kore tablosu Irwol-obongdo’dan ilham alır ve Kore estetiğini çağdaş ürünlere ve mekânlara taşır.",
+      "Sitede tanıtılan koleksiyon Peel-off Mask, Serum ve Sun Serum’dan oluşur. KOREA Silktree, OAVO’nun Stewartia koreana bitkisinin hikâyesine verdiği addır; şirkete göre Peel-off Mask’in içerik listesinde Stewartia koreana yaprak özütü bulunur.",
+      "Ürünlerin yanı sıra marka, Seul’ün Hongdae semtinde OAVO Seoul Lounge’u ve kişisel renk, stil ve eğitim sunan OAVO K Style Lab & Academy’yi işletir. Siteye göre OAVO, kurucusunun kurumsal tanıtım, fuar ve marka deneyimi alanındaki birikiminden doğmuştur. Bu açıklama şirketin kendi ifadesidir; Teranova bağımsız olarak doğrulamamıştır."
+    ],
+    "facts": [
+      "Channel Swan Co., Ltd. tarafından temsil edilen marka",
+      "Koleksiyon: Peel-off Mask, Serum, Sun Serum",
+      "İmza bitkisel bileşen: Stewartia koreana (KOREA Silktree)",
+      "Hongdae, Seul’de marka alanı (şirket verisi)"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Güzellik perakendecileri ve çevrim içi platformlar",
+      "Güzellik eğitimi ve marka deneyimi ortakları"
+    ],
+    "lines": [
+      {
+        "name": "Peel-off Mask",
+        "note": "Şirkete göre sürülüp soyularak çıkarılan, Golden Fiber dokulu bir maske. İçerik listesinde Stewartia koreana yaprak özütü bulunur."
+      },
+      {
+        "name": "Serum",
+        "note": "Şirkete göre günlük cilt bakımı için bir serum."
+      },
+      {
+        "name": "Sun Serum",
+        "note": "Gündüz bakımı için güneş koruyucu serum. Şirket, bulunabilirliğin pazara göre değiştiğini belirtir."
+      }
+    ],
+    "tech": [
+      {
+        "name": "KOREA Silktree",
+        "note": "OAVO’nun Stewartia koreana hikâyesine verdiği ad; şirket bunu imza bileşeni olarak tanıtır. İçerik ayrıntıları somut bir talep için teyit edilir."
+      },
+      {
+        "name": "OAVO Seoul Lounge",
+        "note": "Şirkete göre Seul’ün Hongdae semtinde güzelliği, yemeği ve Kore kültürünü bir araya getiren marka alanı."
+      },
+      {
+        "name": "OAVO K Style Lab & Academy",
+        "note": "Kişisel renk ve stil deneyimleri, Kore güzelliği eğitimi ve ortaklarla atölye çalışmaları. Şirkete göre program ve tarihler bireysel olarak belirlenir."
+      }
+    ],
+    "formats": [
+      "Soyulabilir maske",
+      "Serum",
+      "Güneş koruyucu serum"
+    ],
+    "exportNote": "OAVO / Channel Swan Co., Ltd., resmî web sitesine ve şirketin sağlayacağı resmî materyallere dayanan bir şirket ve marka profili için yazılı onay vermiştir. Fiyatlar, sertifikalar, test sonuçları, ihracat pazarları, dağıtım bölgeleri, doğrudan iletişim bilgileri ve ürün fotoğrafları burada yayımlanmaz; somut bir talep için teyit edilir.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B talepler."
+      },
+      {
+        "label": "Fiyat",
+        "value": "Talep üzerine."
+      },
+      {
+        "label": "Numuneler",
+        "value": "Somut bir talep için görüşülür."
+      }
+    ],
+    "consentNote": "Bu profil, Channel Swan Co., Ltd.’nin 18 Eylül 2026 tarihli yazılı onayıyla OAVO’nun resmî web sitesine dayanılarak hazırlanmıştır. Ürün ve marka açıklamaları şirketin ifadeleridir. Metni Teranova hazırladı; şirket bu sayfayı incelemedi.",
+    "seoTitle": "OAVO — Kore geleneğinden ilham alan Kore cilt bakımı · Teranova",
+    "seoDesc": "Channel Swan Co., Ltd. markası OAVO profili: KOREA Silktree bileşenli Peel-off Mask, Serum ve Sun Serum ile Seul’de bir marka alanı. Fiyat talep üzerine. Teranova üzerinden B2B."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": ""
+  }
+}

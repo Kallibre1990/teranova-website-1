@@ -1,0 +1,97 @@
+{
+  "content": {
+    "tagline": "Marca coreana de cuidado de la piel inspirada en la tradición coreana",
+    "descriptor": "OAVO: cuidado de la piel coreano con el ingrediente botánico KOREA Silktree (Stewartia koreana), un espacio de marca en Seúl y formación en belleza coreana",
+    "origin": "Corea",
+    "about": [
+      "OAVO es una marca coreana de belleza representada por Channel Swan Co., Ltd. Según su sitio web oficial, la marca se inspira en el Irwol-obongdo, la pintura tradicional coreana del sol, la luna, los cinco picos y las olas, y lleva la estética coreana a productos y espacios contemporáneos.",
+      "La colección presentada en el sitio incluye un Peel-off Mask, un Serum y un Sun Serum. KOREA Silktree es el nombre que OAVO da a la historia de su ingrediente botánico, la Stewartia koreana; según la empresa, la lista de ingredientes del Peel-off Mask incluye extracto de hoja de Stewartia koreana.",
+      "Además de los productos, la marca gestiona OAVO Seoul Lounge en Hongdae, Seúl, y OAVO K Style Lab & Academy para colorimetría, estilo y formación. Según el sitio, OAVO nació de la experiencia de su fundadora en promoción corporativa, ferias y experiencias de marca. Esta descripción es de la propia empresa; Teranova no la ha verificado de forma independiente."
+    ],
+    "facts": [
+      "Marca representada por Channel Swan Co., Ltd.",
+      "Colección: Peel-off Mask, Serum, Sun Serum",
+      "Ingrediente botánico distintivo: Stewartia koreana (KOREA Silktree)",
+      "Espacio de marca en Hongdae, Seúl (datos de la empresa)"
+    ],
+    "channels": [
+      "Importadores y distribuidores de cosméticos",
+      "Minoristas de belleza y plataformas en línea",
+      "Socios en formación de belleza y experiencias de marca"
+    ],
+    "lines": [
+      {
+        "name": "Peel-off Mask",
+        "note": "Según la empresa, una mascarilla que se aplica y se retira en una sola lámina, con textura Golden Fiber. La lista de ingredientes incluye extracto de hoja de Stewartia koreana."
+      },
+      {
+        "name": "Serum",
+        "note": "Según la empresa, un sérum para la rutina diaria de cuidado."
+      },
+      {
+        "name": "Sun Serum",
+        "note": "Un sérum de protección solar para la rutina de día. La empresa indica que la disponibilidad depende del mercado."
+      }
+    ],
+    "tech": [
+      {
+        "name": "KOREA Silktree",
+        "note": "El nombre que OAVO da a la historia de la Stewartia koreana, que la empresa presenta como su ingrediente distintivo. Los detalles de ingredientes se confirman para una consulta concreta."
+      },
+      {
+        "name": "OAVO Seoul Lounge",
+        "note": "Según la empresa, un espacio de marca en Hongdae, Seúl, que reúne belleza, gastronomía y cultura coreana."
+      },
+      {
+        "name": "OAVO K Style Lab & Academy",
+        "note": "Colorimetría y experiencias de estilo, formación en belleza coreana y talleres con socios. Según la empresa, los programas y las fechas se acuerdan de forma individual."
+      }
+    ],
+    "formats": [
+      "Mascarilla peel-off",
+      "Sérum",
+      "Sérum solar"
+    ],
+    "exportNote": "OAVO / Channel Swan Co., Ltd. dio su consentimiento por escrito para un perfil de la empresa y la marca basado en su sitio web oficial y en los materiales oficiales que proporcione. Los precios, certificaciones, resultados de pruebas, mercados de exportación, territorios de distribución, contactos directos y fotos de productos no se publican aquí; se confirman para una consulta concreta.",
+    "terms": [
+      {
+        "label": "Cooperación",
+        "value": "Consultas B2B a través de Teranova."
+      },
+      {
+        "label": "Precio",
+        "value": "A consultar."
+      },
+      {
+        "label": "Muestras",
+        "value": "Se acuerdan para una consulta concreta."
+      }
+    ],
+    "consentNote": "Este perfil se basa en el sitio web oficial de OAVO, con el consentimiento por escrito de Channel Swan Co., Ltd. del 18 de septiembre de 2026. Las descripciones de productos y marca son declaraciones de la empresa. Teranova preparó el texto; la empresa no ha revisado esta página.",
+    "seoTitle": "OAVO — cuidado de la piel coreano inspirado en la tradición · Teranova",
+    "seoDesc": "Perfil de OAVO, marca de Channel Swan Co., Ltd.: Peel-off Mask, Serum y Sun Serum con el ingrediente KOREA Silktree, y un espacio de marca en Seúl. Precio a consultar. B2B a través de Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Bajo consulta; no hay lista pública de precios.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "",
+    "products_h": "Productos",
+    "products_note": ""
+  }
+}
