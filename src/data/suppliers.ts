@@ -351,6 +351,19 @@ import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
 import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
+import duCosmeticRu from './suppliers-i18n/du-cosmetic.ru.json';
+import duCosmeticEn from './suppliers-i18n/du-cosmetic.en.json';
+import duCosmeticKo from './suppliers-i18n/du-cosmetic.ko.json';
+import duCosmeticZh from './suppliers-i18n/du-cosmetic.zh.json';
+import duCosmeticJa from './suppliers-i18n/du-cosmetic.ja.json';
+import duCosmeticIt from './suppliers-i18n/du-cosmetic.it.json';
+import duCosmeticDe from './suppliers-i18n/du-cosmetic.de.json';
+import duCosmeticFr from './suppliers-i18n/du-cosmetic.fr.json';
+import duCosmeticTr from './suppliers-i18n/du-cosmetic.tr.json';
+import duCosmeticEs from './suppliers-i18n/du-cosmetic.es.json';
+import duCosmeticPt from './suppliers-i18n/du-cosmetic.pt.json';
+import duCosmeticHe from './suppliers-i18n/du-cosmetic.he.json';
+import duCosmeticHi from './suppliers-i18n/du-cosmetic.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -2612,6 +2625,27 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
       ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+    },
+  },
+  {
+    slug: 'du-cosmetic',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'DU Cosmetic Co., Ltd.',
+    brand: 'DU Cosmetic',
+    status: 'provided',
+    brandColors: { deep: '#2A1E1F', sky: '#E2B5AE', accent: '#B5605A', bg: '#FAF4F2' },
+    voice: 'playful',
+    /* DU Cosmetic gave written permission on 07.10.2026 for a company/brand
+       profile and product pages based on the official materials it provided.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/06_DU_COSMETIC.md.
+       FOB price, MOQ, retail price target, the unconfirmed "first in Korea"
+       claim and certificates are intentionally excluded (09.10.2026 we promised
+       in writing not to publish prices or closed terms). No product catalog:
+       per-SKU specifications have not been received yet. */
+    gallery: ['/img/suppliers/du-cosmetic/gallery/line.jpg'],
+    i18n: {
+      ru: mk(duCosmeticRu as any), en: mk(duCosmeticEn as any), ko: mk(duCosmeticKo as any), zh: mk(duCosmeticZh as any), ja: mk(duCosmeticJa as any), it: mk(duCosmeticIt as any), de: mk(duCosmeticDe as any), fr: mk(duCosmeticFr as any), tr: mk(duCosmeticTr as any), es: mk(duCosmeticEs as any), pt: mk(duCosmeticPt as any), he: mk(duCosmeticHe as any), hi: mk(duCosmeticHi as any),
     },
   },
   {
