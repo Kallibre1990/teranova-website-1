@@ -1,0 +1,58 @@
+{
+  "content": {
+    "tagline": "Çin merkezli bir şirket",
+    "descriptor": "Toptrend Packaging, Çin merkezli bir şirkettir",
+    "origin": "Çin",
+    "about": [
+      "Toptrend Packaging, Çin'de bulunan bir şirkettir.",
+      "Şirket 21 Eylül 2026'da Teranova'ya platformla ilgilendiğini bildirdi ve hangi materyallerin gerektiğini sordu. Ürün yelpazesi, teknik özellikler ve ticari koşullar Teranova tarafından şirketle teyit ediliyor; şirket teyit edene kadar bu sayfada yer almıyor."
+    ],
+    "facts": [
+      "Çin",
+      "Ürün yelpazesi talep üzerine"
+    ],
+    "channels": [],
+    "lines": [],
+    "tech": [],
+    "formats": [
+      "Ürün yelpazesi Teranova üzerinden talep üzerine"
+    ],
+    "exportNote": "Ürün yelpazesi, teknik özellikler, sertifikalar, fiyatlar ve minimum sipariş burada yayımlanmaz; alıcının talebi üzerine şirketle teyit edilir.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "B2B talepler ve görüşmeler Teranova üzerinden."
+      },
+      {
+        "label": "Fiyat ve minimum sipariş",
+        "value": "Talep üzerine; yayımlanmaz."
+      }
+    ],
+    "consentNote": "Şirket 21 Eylül 2026'da Teranova ile yazışmasında platformla ilgilendiğini yanıtladı. Teranova henüz şirketten materyal almadı; bu nedenle sayfada yalnızca bu yazışmadaki şirket adı ve ülkesi yer alıyor. Ürün açıklamaları, şirket materyalleri sağlayıp onayladığında eklenecek.",
+    "seoTitle": "Toptrend Packaging — Çin · Teranova",
+    "seoDesc": "Toptrend Packaging profili, Çin. Ürün yelpazesi ve koşullar Teranova üzerinden talep üzerine."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yok.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": ""
+  }
+}

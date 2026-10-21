@@ -351,6 +351,19 @@ import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
 import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
+import toptrendRu from './suppliers-i18n/toptrend.ru.json';
+import toptrendEn from './suppliers-i18n/toptrend.en.json';
+import toptrendKo from './suppliers-i18n/toptrend.ko.json';
+import toptrendZh from './suppliers-i18n/toptrend.zh.json';
+import toptrendJa from './suppliers-i18n/toptrend.ja.json';
+import toptrendIt from './suppliers-i18n/toptrend.it.json';
+import toptrendDe from './suppliers-i18n/toptrend.de.json';
+import toptrendFr from './suppliers-i18n/toptrend.fr.json';
+import toptrendTr from './suppliers-i18n/toptrend.tr.json';
+import toptrendEs from './suppliers-i18n/toptrend.es.json';
+import toptrendPt from './suppliers-i18n/toptrend.pt.json';
+import toptrendHe from './suppliers-i18n/toptrend.he.json';
+import toptrendHi from './suppliers-i18n/toptrend.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -2612,6 +2625,27 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
       ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+    },
+  },
+  {
+    slug: 'toptrend',
+    category: 'adjacent',
+    country: 'cn',
+    name: 'Toptrend Packaging',
+    brand: 'Toptrend',
+    status: 'provided',
+    brandColors: { deep: '#1F2A33', sky: '#E2E7EB', accent: '#5E6F7C', bg: '#F5F7F8' },
+    voice: 'minimal',
+    /* Interest only: on 21.09.2026 the VP of Global Sales answered our profile
+       proposal with "we are interesting for your platform" and asked which
+       materials are needed. No materials and no rights to materials, so the page
+       carries only the name (company domain toptrend-pac.com) and the country.
+       Foam pumps, capacity, ISO/FDA/REACH/BRCS/SMETA and the Zhongshan legal
+       name come from our own letter / the fair catalogue, not from the company,
+       and are intentionally absent; so are images, prices, MOQ and contacts.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/11_TOPTREND.md. */
+    i18n: {
+      ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any),
     },
   },
   {

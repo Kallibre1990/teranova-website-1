@@ -1,0 +1,58 @@
+{
+  "content": {
+    "tagline": "Uma empresa sediada na China",
+    "descriptor": "Toptrend Packaging é uma empresa sediada na China",
+    "origin": "China",
+    "about": [
+      "Toptrend Packaging é uma empresa sediada na China.",
+      "Em 21 de setembro de 2026, a empresa informou à Teranova que tem interesse na plataforma e perguntou quais materiais são necessários. A Teranova está confirmando com a empresa a linha, as especificações técnicas e as condições comerciais; enquanto a empresa não as confirmar, elas não aparecem nesta página."
+    ],
+    "facts": [
+      "China",
+      "Linha sob consulta"
+    ],
+    "channels": [],
+    "lines": [],
+    "tech": [],
+    "formats": [
+      "Linha sob consulta via Teranova"
+    ],
+    "exportNote": "Linha, especificações técnicas, certificados, preços e pedido mínimo não são publicados aqui e são confirmados com a empresa a pedido do comprador.",
+    "terms": [
+      {
+        "label": "Cooperação",
+        "value": "Consultas B2B e negociações via Teranova."
+      },
+      {
+        "label": "Preço e pedido mínimo",
+        "value": "Sob consulta; não publicados."
+      }
+    ],
+    "consentNote": "Em 21 de setembro de 2026, em correspondência com a Teranova, a empresa respondeu que tem interesse na plataforma. A Teranova ainda não recebeu materiais da empresa; por isso, esta página mostra apenas o nome e o país que constam dessa correspondência. A descrição dos produtos será incluída quando a empresa fornecer e aprovar materiais.",
+    "seoTitle": "Toptrend Packaging — China · Teranova",
+    "seoDesc": "Perfil da Toptrend Packaging, China. Linha e condições sob consulta via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem serve:",
+    "lines_h": "Linhas de produto",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Sob consulta; sem tabela de preços pública.",
+    "cta_h": "Ficou interessado neste fornecedor?",
+    "cta_d": "Fale conosco — a Teranova organiza a negociação, as verificações e toda a operação, do primeiro contato à entrega.",
+    "cta_btn": "Falar através da Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações",
+    "certs_note": "",
+    "products_h": "Produtos",
+    "products_note": ""
+  }
+}

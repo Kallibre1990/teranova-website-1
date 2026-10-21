@@ -1,0 +1,58 @@
+{
+  "content": {
+    "tagline": "Una empresa con sede en China",
+    "descriptor": "Toptrend Packaging es una empresa con sede en China",
+    "origin": "China",
+    "about": [
+      "Toptrend Packaging es una empresa con sede en China.",
+      "El 21 de septiembre de 2026 la empresa comunicó a Teranova que le interesa la plataforma y preguntó qué materiales se necesitan. Teranova está confirmando con la empresa la gama, las especificaciones técnicas y las condiciones comerciales; mientras la empresa no las confirme, no aparecen en esta página."
+    ],
+    "facts": [
+      "China",
+      "Gama a consultar"
+    ],
+    "channels": [],
+    "lines": [],
+    "tech": [],
+    "formats": [
+      "Gama a consultar a través de Teranova"
+    ],
+    "exportNote": "La gama, las especificaciones técnicas, los certificados, los precios y el pedido mínimo no se publican aquí y se confirman con la empresa a petición del comprador.",
+    "terms": [
+      {
+        "label": "Cooperación",
+        "value": "Consultas B2B y negociaciones a través de Teranova."
+      },
+      {
+        "label": "Precio y pedido mínimo",
+        "value": "A consultar; no se publican."
+      }
+    ],
+    "consentNote": "El 21 de septiembre de 2026, en su correspondencia con Teranova, la empresa respondió que le interesa la plataforma. Teranova aún no ha recibido materiales de la empresa, por lo que esta página solo muestra el nombre y el país que figuran en esa correspondencia. La descripción de los productos se añadirá cuando la empresa facilite y apruebe materiales.",
+    "seoTitle": "Toptrend Packaging — China · Teranova",
+    "seoDesc": "Perfil de Toptrend Packaging, China. Gama y condiciones a consultar a través de Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "A petición; sin lista de precios pública.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "",
+    "products_h": "Productos",
+    "products_note": ""
+  }
+}
