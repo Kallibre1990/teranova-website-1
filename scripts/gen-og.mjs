@@ -130,6 +130,7 @@ const SUPPLIERS = {
   hiyo: { eyebrow: 'Supplier profile', title: 'HIYO — brand open to Latin America and North America', accent: '#6B7480',
     /* Country and verification are not confirmed for HIYO, so not the default line. */
     footer: 'B2B introductions · full deal support' },
+  dachen: { eyebrow: 'Supplier profile', title: 'Guangzhou Dachen Intelligent Equipment — Guangzhou, China', accent: '#5E6F7C' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
