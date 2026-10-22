@@ -124,6 +124,7 @@ const SUPPLIERS = {
   'plk-lift': { eyebrow: 'Supplier profile', title: 'PLK Lift — Chinese spider cranes, boom lifts and vacuum lifters', accent: '#2E8B57' },
   oavo: { eyebrow: 'Supplier profile', title: 'OAVO — Korean skincare inspired by Korean tradition', accent: '#9C7A4E' },
   aromaflavum: { eyebrow: 'Supplier profile', title: 'A’ROMAFLAVUM — Korean fragrance developer and OEM/ODM manufacturer', accent: '#076AA3' },
+  koy: { eyebrow: 'Supplier profile', title: 'KOY by Brandholder — Korean premium skincare brand', accent: '#8D7D75' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

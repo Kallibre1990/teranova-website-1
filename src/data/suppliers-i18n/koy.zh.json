@@ -1,0 +1,101 @@
+{
+  "content": {
+    "tagline": "Brandholder Inc. 旗下韩国高端护肤品牌",
+    "descriptor": "Brandholder Inc. 旗下 KOY：韩国高端护肤，包括蛋白质护理 SOLID、灵感源自自然的 FLOW 和焕亮护理 BLOOM",
+    "origin": "韩国",
+    "about": [
+      "KOY 是韩国公司 Brandholder Inc. 旗下的高端护肤品牌。品牌的核心理念是“真正的美源于休息”：根据官方资料，KOY 的初衷是在忙碌的日常中带来属于自己的休息与自我护理时刻。",
+      "产品分为三个系列。SOLID 主打以蛋白质为基础的紧致与滋养护理，FLOW 是灵感源自自然的弹力、舒缓、毛孔与保湿护理，BLOOM 专注于焕亮、防晒、清洁和光泽妆容。",
+      "根据品牌目录，KOY 在韩国通过官方网店、Olive Young 门店、现代百货和电视购物销售。品牌运营韩文、英文和日文官方网站。以上为公司自述，Teranova 未作独立核实。"
+    ],
+    "facts": [
+      "Brandholder Inc. 旗下品牌，韩国",
+      "三个系列：SOLID、FLOW、BLOOM",
+      "在韩国 Olive Young 和现代百货销售（公司资料）",
+      "韩文、英文和日文官方网站"
+    ],
+    "channels": [
+      "韩国化妆品进口商和经销商",
+      "零售连锁、美妆店和电商平台",
+      "韩国护肤品网店"
+    ],
+    "lines": [
+      {
+        "name": "SOLID",
+        "note": "蛋白质丰盈护理。据公司介绍，以蛋白质复合物为基础的配方，主打紧致、密度和滋养：洁面、爽肤水、安瓶、面霜、喷雾、片状面膜、防晒霜和气垫。"
+      },
+      {
+        "name": "FLOW",
+        "note": "灵感源自自然的护理。公司介绍了四个方向：Lifting 弹力、Relief 舒缓与肤色、Soft 毛孔与肤质、Intensive 保湿。"
+      },
+      {
+        "name": "BLOOM",
+        "note": "焕亮光泽护理。据公司介绍：乳液爽肤水、精华防晒霜、深层卸妆油、气垫、高光棒和有色润唇膏。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "蛋白质复合物",
+        "note": "据公司介绍，SOLID 系列以蛋白质复合物为基础；例如 Solid Volume Ampoule 以水解大米蛋白水代替纯净水。"
+      },
+      {
+        "name": "以休息为品牌理念",
+        "note": "品牌将其理念称为“unaging”：不与时间对抗的美，把护理视为休息的时刻——Refresh、Recharge、Recovery。"
+      },
+      {
+        "name": "主打产品",
+        "note": "官方网站重点介绍 Solid Volume Ampoule、Flow Lifting Wrapping Cream、Bloom Glow Essence Sun Cream 和 Solid Platinum Retinolic Lifting Serum。"
+      }
+    ],
+    "formats": [
+      "安瓶和精华",
+      "爽肤水和喷雾",
+      "面霜",
+      "防晒",
+      "气垫和唇釉",
+      "洁面产品",
+      "棉片和片状面膜"
+    ],
+    "exportNote": "Brandholder Inc. 书面同意基于其官方渠道和品牌资料制作 KOY 品牌简介和产品页面。出口价格和最小起订量根据具体买家商定。价格、认证、检测结果、销售数据、出口市场、直接联系方式和产品照片不在此公布。",
+    "terms": [
+      {
+        "label": "合作",
+        "value": "通过 Teranova 进行 B2B 询盘。"
+      },
+      {
+        "label": "价格",
+        "value": "按需报价。"
+      },
+      {
+        "label": "最小起订量",
+        "value": "根据具体买家商定。"
+      }
+    ],
+    "consentNote": "本简介依据 Brandholder Inc. 于 2026 年 10 月 6 日的书面同意，基于 KOY 的官方渠道和品牌资料编写。产品和公司描述为公司自述。文本由 Teranova 撰写；公司未审阅本页面。",
+    "seoTitle": "KOY（Brandholder）— 韩国高端护肤品牌 · Teranova",
+    "seoDesc": "Brandholder Inc. 旗下韩国高端护肤品牌 KOY 简介：蛋白质护理 SOLID、自然灵感 FLOW 和焕亮 BLOOM。按需报价。通过 Teranova 进行 B2B 合作。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}

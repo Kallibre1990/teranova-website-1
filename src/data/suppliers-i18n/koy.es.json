@@ -1,0 +1,101 @@
+{
+  "content": {
+    "tagline": "Marca coreana de cuidado facial premium de Brandholder Inc.",
+    "descriptor": "KOY de Brandholder Inc.: cuidado facial coreano premium con la línea proteica SOLID, la línea FLOW inspirada en la naturaleza y la línea de luminosidad BLOOM",
+    "origin": "Corea",
+    "about": [
+      "KOY es una marca de cuidado facial premium de Brandholder Inc., empresa coreana. La marca gira en torno a la idea «La verdadera belleza nace del descanso»: según sus materiales oficiales, KOY nació para ofrecer un momento de autocuidado y descanso en medio del día a día.",
+      "La gama se divide en tres líneas. SOLID se centra en el cuidado a base de proteínas para firmeza y nutrición, FLOW en el cuidado inspirado en la naturaleza para elasticidad, calma, poros e hidratación, y BLOOM en luminosidad, protección solar, limpieza y maquillaje con efecto glow.",
+      "Según el catálogo de la marca, KOY se vende en Corea a través de su tienda online oficial, las tiendas Olive Young, los grandes almacenes Hyundai y la teletienda. La marca tiene sitios oficiales en coreano, inglés y japonés. Es la descripción de la propia empresa; Teranova no la ha verificado de forma independiente."
+    ],
+    "facts": [
+      "Marca de Brandholder Inc., Corea",
+      "Tres líneas: SOLID, FLOW, BLOOM",
+      "A la venta en Olive Young y en los grandes almacenes Hyundai en Corea (datos de la empresa)",
+      "Sitios oficiales en coreano, inglés y japonés"
+    ],
+    "channels": [
+      "Importadores y distribuidores de cosmética coreana",
+      "Cadenas minoristas, tiendas de belleza y marketplaces",
+      "Tiendas online de cuidado facial coreano"
+    ],
+    "lines": [
+      {
+        "name": "SOLID",
+        "note": "Cuidado de volumen con proteínas. Según la empresa, fórmulas basadas en complejos proteicos para firmeza, densidad y nutrición: limpiador, tónico, ampollas, crema, bruma, mascarilla de tela, protector solar y cushion."
+      },
+      {
+        "name": "FLOW",
+        "note": "Cuidado inspirado en la naturaleza. La empresa describe cuatro soluciones: Lifting para la elasticidad, Relief para calmar y unificar el tono, Soft para poros y textura, e Intensive para la hidratación."
+      },
+      {
+        "name": "BLOOM",
+        "note": "Cuidado para la luminosidad. Según la empresa: loción tónica, protector solar esencia, aceite limpiador profundo, cushion, iluminador en barra y bálsamo labial con color."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Complejos proteicos",
+        "note": "Según la empresa, la línea SOLID se basa en complejos proteicos; en la Solid Volume Ampoule, por ejemplo, el agua de proteína de arroz hidrolizada sustituye al agua purificada."
+      },
+      {
+        "name": "El descanso como idea de marca",
+        "note": "La marca llama a su enfoque «unaging»: una belleza que no lucha contra el tiempo y un cuidado entendido como momentos de descanso — Refresh, Recharge, Recovery."
+      },
+      {
+        "name": "Productos destacados",
+        "note": "El sitio oficial destaca Solid Volume Ampoule, Flow Lifting Wrapping Cream, Bloom Glow Essence Sun Cream y Solid Platinum Retinolic Lifting Serum."
+      }
+    ],
+    "formats": [
+      "Ampollas y sérums",
+      "Tónicos y brumas",
+      "Cremas",
+      "Protección solar",
+      "Cushions y tintes labiales",
+      "Limpiadores",
+      "Discos y mascarillas de tela"
+    ],
+    "exportNote": "Brandholder Inc. dio su consentimiento por escrito para un perfil de la marca KOY y páginas de producto basados en sus canales oficiales y materiales de marca. Los precios de exportación y las cantidades mínimas de pedido se tratan para un comprador concreto. Precios, certificaciones, resultados de pruebas, cifras de ventas, mercados de exportación, contactos directos y fotos de productos no se publican aquí.",
+    "terms": [
+      {
+        "label": "Cooperación",
+        "value": "Consultas B2B a través de Teranova."
+      },
+      {
+        "label": "Precio",
+        "value": "Bajo consulta."
+      },
+      {
+        "label": "Pedido mínimo",
+        "value": "Se trata para un comprador concreto."
+      }
+    ],
+    "consentNote": "Este perfil se basa en los canales oficiales y los materiales de la marca KOY, con el consentimiento por escrito de Brandholder Inc. del 6 de octubre de 2026. Las descripciones de productos y de la empresa son afirmaciones de la propia empresa. El texto lo preparó Teranova; la empresa no ha revisado esta página.",
+    "seoTitle": "KOY de Brandholder — marca coreana de cuidado facial premium · Teranova",
+    "seoDesc": "Perfil de KOY, marca coreana de cuidado facial premium de Brandholder Inc.: línea proteica SOLID, FLOW inspirada en la naturaleza y BLOOM para la luminosidad. Precio bajo consulta. B2B a través de Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Bajo consulta; no hay lista pública de precios.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "",
+    "products_h": "Productos",
+    "products_note": ""
+  }
+}
