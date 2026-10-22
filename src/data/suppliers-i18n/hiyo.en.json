@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "A Korean brand open to Latin American and North American markets",
-    "descriptor": "HIYO (희요) is a Korean brand Teranova met at InterCHARM Korea 2026",
-    "origin": "Republic of Korea",
+    "tagline": "A brand open to Latin American and North American markets",
+    "descriptor": "HIYO (희요) is a brand Teranova met at InterCHARM Korea 2026",
+    "origin": "",
     "about": [
-      "HIYO (희요) is a Korean brand. Teranova met the company at its stand at InterCHARM Korea 2026.",
-      "The company responded positively to Teranova's proposal to introduce its brand and products to buyers in Latin America and North America. Teranova is confirming the range, formulations and commercial terms with the company; until they are confirmed, they are not shown on this page."
+      "Teranova met HIYO (희요) at the company's stand at InterCHARM Korea 2026.",
+      "The company responded positively to Teranova's proposal to introduce its brand and products to buyers in Latin America and North America. The company has not yet confirmed its range, formulations or commercial terms, so they are not shown on this page."
     ],
     "facts": [
-      "Republic of Korea",
       "InterCHARM Korea 2026",
       "Interest in Latin American and North American markets"
     ],
@@ -18,7 +17,7 @@
     "formats": [
       "Product range on request via Teranova"
     ],
-    "exportNote": "The company is considering entry into Latin American and North American markets. Range, composition, labelling, registrations, prices and minimum order are not published here and are confirmed with the company on a buyer's request.",
+    "exportNote": "The company has shown interest in Latin American and North American markets. Range, composition, labelling, registrations, prices and minimum order are not published here and are confirmed with the company on a buyer's request.",
     "terms": [
       {
         "label": "Cooperation",
@@ -30,8 +29,8 @@
       }
     ],
     "consentNote": "On 14 September 2026 HIYO responded positively, in correspondence with Teranova, to the proposal to prepare its profile. Teranova has not yet received materials from the company, so this page contains only information from that correspondence and the trade-show meeting. Product descriptions will be added once the company provides and approves materials.",
-    "seoTitle": "HIYO (희요) — Korean brand · Teranova",
-    "seoDesc": "HIYO profile: a Korean brand open to Latin American and North American markets. Range and terms on request via Teranova."
+    "seoTitle": "HIYO (희요) — brand profile · Teranova",
+    "seoDesc": "HIYO profile: a brand open to Latin American and North American markets. Range and terms on request via Teranova."
   },
   "ui": {
     "profile_sup": "Supplier profile",

@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "Latin Amerika ve Kuzey Amerika pazarlarına açık bir Kore markası",
-    "descriptor": "HIYO (희요), Teranova'nın InterCHARM Korea 2026'da tanıştığı bir Kore markasıdır",
-    "origin": "Kore Cumhuriyeti",
+    "tagline": "Latin Amerika ve Kuzey Amerika pazarlarına açık bir marka",
+    "descriptor": "HIYO (희요), Teranova'nın InterCHARM Korea 2026'da tanıştığı bir markadır",
+    "origin": "",
     "about": [
-      "HIYO (희요) bir Kore markasıdır. Teranova şirketle InterCHARM Korea 2026'daki standında tanıştı.",
-      "Şirket, markasını ve ürünlerini Latin Amerika ve Kuzey Amerika'daki alıcılara tanıtma yönündeki Teranova önerisini olumlu değerlendirdi. Ürün yelpazesi, formüller ve ticari koşullar Teranova tarafından şirketle teyit ediliyor; teyit edilene kadar bu sayfada yer almıyor."
+      "Teranova, HIYO (희요) ile InterCHARM Korea 2026'daki şirket standında tanıştı.",
+      "Şirket, markasını ve ürünlerini Latin Amerika ve Kuzey Amerika'daki alıcılara tanıtma yönündeki Teranova önerisini olumlu değerlendirdi. Ürün yelpazesi, formüller ve ticari koşullar şirket tarafından henüz teyit edilmedi; bu nedenle bu sayfada yer almıyor."
     ],
     "facts": [
-      "Kore Cumhuriyeti",
       "InterCHARM Korea 2026",
       "Latin Amerika ve Kuzey Amerika pazarlarına ilgi"
     ],
@@ -18,7 +17,7 @@
     "formats": [
       "Ürün yelpazesi Teranova üzerinden talep üzerine"
     ],
-    "exportNote": "Şirket, Latin Amerika ve Kuzey Amerika pazarlarına girmeyi değerlendiriyor. Ürün yelpazesi, içerik, etiketleme, kayıtlar, fiyatlar ve minimum sipariş burada yayımlanmaz; alıcının talebi üzerine şirketle teyit edilir.",
+    "exportNote": "Şirket, Latin Amerika ve Kuzey Amerika pazarlarına ilgi gösterdi. Ürün yelpazesi, içerik, etiketleme, kayıtlar, fiyatlar ve minimum sipariş burada yayımlanmaz; alıcının talebi üzerine şirketle teyit edilir.",
     "terms": [
       {
         "label": "İş birliği",
@@ -30,8 +29,8 @@
       }
     ],
     "consentNote": "HIYO, 14 Eylül 2026'da Teranova ile yazışmasında profilinin hazırlanması önerisine olumlu yaklaştı. Teranova henüz şirketten materyal almadı; bu nedenle sayfada yalnızca bu yazışmadan ve fuardaki görüşmeden edinilen bilgiler yer alıyor. Ürün açıklamaları, şirket materyalleri sağlayıp onayladığında eklenecek.",
-    "seoTitle": "HIYO (희요) — Kore markası · Teranova",
-    "seoDesc": "HIYO profili: Latin Amerika ve Kuzey Amerika pazarlarına açık bir Kore markası. Ürün yelpazesi ve koşullar Teranova üzerinden talep üzerine."
+    "seoTitle": "HIYO (희요) — marka profili · Teranova",
+    "seoDesc": "HIYO profili: Latin Amerika ve Kuzey Amerika pazarlarına açık bir marka. Ürün yelpazesi ve koşullar Teranova üzerinden talep üzerine."
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",

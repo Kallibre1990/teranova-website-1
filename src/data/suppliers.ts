@@ -688,6 +688,10 @@ export interface SupplierProfile {
      splits by category. Omitted means Korea — that is where the platform
      started and where every supplier published before August 2026 sits. */
   country?: CountryKey;
+  /* True when no local primary source says where the company is based. The
+     catalog card, the profile header and the JSON-LD then carry no country at
+     all instead of falling back to Korea. */
+  countryUnconfirmed?: boolean;
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
@@ -2630,7 +2634,7 @@ export const suppliers: SupplierProfile[] = [
   {
     slug: 'hiyo',
     category: 'cosmetics',
-    country: 'kr',
+    countryUnconfirmed: true,
     name: 'HIYO',
     brand: 'HIYO',
     status: 'provided',
@@ -2641,7 +2645,9 @@ export const suppliers: SupplierProfile[] = [
        No materials and no permission to use, translate or publish materials
        were received, so the page carries only neutral facts from that thread:
        the brand name, the InterCHARM Korea 2026 meeting and the company's
-       interest in Latin America and North America. Product range, category
+       interest in Latin America and North America. The country is not stated
+       by any local source about HIYO (the trade fair and the language of the
+       thread do not prove it), so it is left unknown. Product range, category
        claims (scalp/hair care was our wording, not confirmed), images, prices,
        MOQ, certificates and contacts are intentionally absent.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/09_HIYO.md. */

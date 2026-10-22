@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "面向拉丁美洲和北美市场的韩国品牌",
-    "descriptor": "HIYO（희요）——Teranova 在 InterCHARM Korea 2026 结识的韩国品牌",
-    "origin": "大韩民国",
+    "tagline": "面向拉丁美洲和北美市场的品牌",
+    "descriptor": "HIYO（희요）——Teranova 在 InterCHARM Korea 2026 结识的品牌",
+    "origin": "",
     "about": [
-      "HIYO（희요）是一个韩国品牌。Teranova 在 InterCHARM Korea 2026 展会的公司展位上结识了该公司。",
-      "该公司积极考虑了 Teranova 提出的向拉丁美洲和北美买家介绍其品牌和产品的建议。产品系列、成分和商务条款正在由 Teranova 与公司确认；在确认之前，本页不予展示。"
+      "Teranova 在 InterCHARM Korea 2026 展会的公司展位上结识了 HIYO（희요）。",
+      "该公司积极考虑了 Teranova 提出的向拉丁美洲和北美买家介绍其品牌和产品的建议。公司尚未确认产品系列、成分和商务条款，因此本页不予展示。"
     ],
     "facts": [
-      "大韩民国",
       "InterCHARM Korea 2026",
       "关注拉丁美洲和北美市场"
     ],
@@ -18,7 +17,7 @@
     "formats": [
       "产品系列可通过 Teranova 咨询"
     ],
-    "exportNote": "该公司正在考虑进入拉丁美洲和北美市场。产品系列、成分、标签、注册、价格和最低订货量不在本页公布，可应买家要求向公司确认。",
+    "exportNote": "该公司对拉丁美洲和北美市场表示了兴趣。产品系列、成分、标签、注册、价格和最低订货量不在本页公布，可应买家要求向公司确认。",
     "terms": [
       {
         "label": "合作方式",
@@ -30,8 +29,8 @@
       }
     ],
     "consentNote": "2026年9月14日，HIYO 在与 Teranova 的往来邮件中积极回应了为其准备企业介绍页的提议。Teranova 尚未收到该公司的资料，因此本页仅包含该邮件往来和展会会面中的信息。待公司提供并认可资料后，将补充产品介绍。",
-    "seoTitle": "HIYO（희요）— 韩国品牌 · Teranova",
-    "seoDesc": "HIYO 介绍：面向拉丁美洲和北美市场的韩国品牌。产品系列和条款可通过 Teranova 咨询。"
+    "seoTitle": "HIYO（희요）— 品牌介绍 · Teranova",
+    "seoDesc": "HIYO 介绍：面向拉丁美洲和北美市场的品牌。产品系列和条款可通过 Teranova 咨询。"
   },
   "ui": {
     "profile_sup": "供应商档案",
