@@ -147,7 +147,11 @@ export function supplierJsonLd(lang: Lang, profile: SupplierProfile) {
       alternateName: profile.brand,
       url,
       description: `${c.descriptor}. ${c.about[0] ?? ''}`,
-      address: { '@type': 'PostalAddress', addressCountry: 'KR' },
+      /* Страна из профиля; без поля — Корея (как в каталоге). Неподтверждённую
+         страну не выдумываем: address не выводится. */
+      ...(profile.countryUnconfirmed
+        ? {}
+        : { address: { '@type': 'PostalAddress', addressCountry: (profile.country ?? 'kr').toUpperCase() } }),
       brand: { '@type': 'Brand', name: profile.brand },
       makesOffer: c.lines.filter((l) => !l.planned).map((l) => ({
         '@type': 'Offer',

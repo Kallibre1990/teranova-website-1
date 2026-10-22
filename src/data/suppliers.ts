@@ -688,6 +688,10 @@ export interface SupplierProfile {
      splits by category. Omitted means Korea — that is where the platform
      started and where every supplier published before August 2026 sits. */
   country?: CountryKey;
+  /* Страна не подтверждена первичным источником (одного кода телефона мало).
+     Тогда country не задаётся, а это поле отключает умолчание «Корея»:
+     карточки каталога не показывают флаг и страну, JSON-LD — addressCountry. */
+  countryUnconfirmed?: boolean;
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
@@ -2630,7 +2634,7 @@ export const suppliers: SupplierProfile[] = [
   {
     slug: 'toptrend',
     category: 'adjacent',
-    country: 'cn',
+    countryUnconfirmed: true,
     name: 'Toptrend Packaging',
     brand: 'Toptrend',
     status: 'provided',
@@ -2639,7 +2643,9 @@ export const suppliers: SupplierProfile[] = [
     /* Interest only: on 21.09.2026 the VP of Global Sales answered our profile
        proposal with "we are interesting for your platform" and asked which
        materials are needed. No materials and no rights to materials, so the page
-       carries only the name (company domain toptrend-pac.com) and the country.
+       carries only the name (company domain toptrend-pac.com). The country is
+       not stated: the only hint is the +86 code in the signature, and a phone
+       code does not establish where the company is (review T-20261021-047).
        Foam pumps, capacity, ISO/FDA/REACH/BRCS/SMETA and the Zhongshan legal
        name come from our own letter / the fair catalogue, not from the company,
        and are intentionally absent; so are images, prices, MOQ and contacts.

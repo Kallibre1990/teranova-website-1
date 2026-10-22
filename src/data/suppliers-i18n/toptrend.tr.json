@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "Çin merkezli bir şirket",
-    "descriptor": "Toptrend Packaging, Çin merkezli bir şirkettir",
-    "origin": "Çin",
+    "tagline": "Profil hazırlanıyor",
+    "descriptor": "Toptrend Packaging — hazırlanmakta olan şirket profili",
+    "origin": "Ülke teyit ediliyor",
     "about": [
-      "Toptrend Packaging, Çin'de bulunan bir şirkettir.",
-      "Şirket 21 Eylül 2026'da Teranova'ya platformla ilgilendiğini bildirdi ve hangi materyallerin gerektiğini sordu. Ürün yelpazesi, teknik özellikler ve ticari koşullar Teranova tarafından şirketle teyit ediliyor; şirket teyit edene kadar bu sayfada yer almıyor."
+      "Bu sayfada Toptrend Packaging için yalnızca şirket adı yer alıyor. Ülke, ürün yelpazesi ve koşulları Teranova şirketle teyit ediyor.",
+      "Şirket 21 Eylül 2026'da Teranova'ya platformla ilgilendiğini bildirdi ve hangi materyallerin gerektiğini sordu. Şirket kendisiyle ilgili bilgileri teyit edene kadar bu bilgiler sayfada yer almaz."
     ],
     "facts": [
-      "Çin",
       "Ürün yelpazesi talep üzerine"
     ],
     "channels": [],
@@ -28,9 +27,9 @@
         "value": "Talep üzerine; yayımlanmaz."
       }
     ],
-    "consentNote": "Şirket 21 Eylül 2026'da Teranova ile yazışmasında platformla ilgilendiğini yanıtladı. Teranova henüz şirketten materyal almadı; bu nedenle sayfada yalnızca bu yazışmadaki şirket adı ve ülkesi yer alıyor. Ürün açıklamaları, şirket materyalleri sağlayıp onayladığında eklenecek.",
-    "seoTitle": "Toptrend Packaging — Çin · Teranova",
-    "seoDesc": "Toptrend Packaging profili, Çin. Ürün yelpazesi ve koşullar Teranova üzerinden talep üzerine."
+    "consentNote": "Şirket 21 Eylül 2026'da Teranova'ya platformla ilgilendiğini yanıtladı. Teranova henüz şirketten materyal almadı; bu nedenle sayfada yalnızca şirket adı yer alıyor. Ülke ve ürün açıklamaları, şirket materyalleri sağlayıp onayladığında eklenecek.",
+    "seoTitle": "Toptrend Packaging — şirket profili · Teranova",
+    "seoDesc": "Toptrend Packaging profili. Ülke, ürün yelpazesi ve koşullar Teranova üzerinden talep üzerine."
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",

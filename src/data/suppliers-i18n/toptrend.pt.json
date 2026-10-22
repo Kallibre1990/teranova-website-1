@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "Uma empresa sediada na China",
-    "descriptor": "Toptrend Packaging é uma empresa sediada na China",
-    "origin": "China",
+    "tagline": "Perfil em preparação",
+    "descriptor": "Toptrend Packaging — perfil de empresa em preparação",
+    "origin": "País a confirmar",
     "about": [
-      "Toptrend Packaging é uma empresa sediada na China.",
-      "Em 21 de setembro de 2026, a empresa informou à Teranova que tem interesse na plataforma e perguntou quais materiais são necessários. A Teranova está confirmando com a empresa a linha, as especificações técnicas e as condições comerciais; enquanto a empresa não as confirmar, elas não aparecem nesta página."
+      "Esta página indica apenas o nome da Toptrend Packaging. A Teranova está confirmando com a empresa o país, a linha de produtos e as condições.",
+      "Em 21 de setembro de 2026, a empresa informou à Teranova que tem interesse na plataforma e perguntou quais materiais são necessários. Enquanto a empresa não confirmar seus dados, eles não aparecem nesta página."
     ],
     "facts": [
-      "China",
       "Linha sob consulta"
     ],
     "channels": [],
@@ -28,9 +27,9 @@
         "value": "Sob consulta; não publicados."
       }
     ],
-    "consentNote": "Em 21 de setembro de 2026, em correspondência com a Teranova, a empresa respondeu que tem interesse na plataforma. A Teranova ainda não recebeu materiais da empresa; por isso, esta página mostra apenas o nome e o país que constam dessa correspondência. A descrição dos produtos será incluída quando a empresa fornecer e aprovar materiais.",
-    "seoTitle": "Toptrend Packaging — China · Teranova",
-    "seoDesc": "Perfil da Toptrend Packaging, China. Linha e condições sob consulta via Teranova."
+    "consentNote": "Em 21 de setembro de 2026, a empresa respondeu à Teranova que tem interesse na plataforma. A Teranova ainda não recebeu materiais da empresa, por isso esta página mostra apenas o nome da empresa. O país e a descrição dos produtos serão incluídos quando a empresa fornecer e aprovar os materiais.",
+    "seoTitle": "Toptrend Packaging — perfil de empresa · Teranova",
+    "seoDesc": "Perfil da Toptrend Packaging. País, linha de produtos e condições sob consulta via Teranova."
   },
   "ui": {
     "profile_sup": "Perfil do fornecedor",

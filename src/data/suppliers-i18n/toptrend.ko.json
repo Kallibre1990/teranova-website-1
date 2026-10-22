@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "중국의 회사",
-    "descriptor": "Toptrend Packaging — 중국에 있는 회사",
-    "origin": "중국",
+    "tagline": "프로필 준비 중",
+    "descriptor": "Toptrend Packaging — 준비 중인 회사 프로필",
+    "origin": "국가 확인 중",
     "about": [
-      "Toptrend Packaging는 중국에 있는 회사입니다.",
-      "회사는 2026년 9월 21일 Teranova에 플랫폼에 관심이 있다고 답하고 어떤 자료가 필요한지 문의했습니다. 제품 구성, 기술 사양, 거래 조건은 Teranova가 회사와 확인 중이며, 회사가 확인하기 전까지 이 페이지에는 싣지 않습니다."
+      "이 페이지에는 Toptrend Packaging의 회사명만 표기합니다. 국가, 제품 구성, 거래 조건은 Teranova가 회사와 확인 중입니다.",
+      "회사는 2026년 9월 21일 Teranova에 플랫폼에 관심이 있다고 답하고 어떤 자료가 필요한지 문의했습니다. 회사가 자사 정보를 확인하기 전까지 이 페이지에는 싣지 않습니다."
     ],
     "facts": [
-      "중국",
       "제품 구성은 문의"
     ],
     "channels": [],
@@ -28,9 +27,9 @@
         "value": "요청 시 안내; 게시하지 않음."
       }
     ],
-    "consentNote": "회사는 2026년 9월 21일 Teranova와의 서신에서 플랫폼에 관심이 있다고 답했습니다. Teranova는 아직 회사 자료를 받지 않았으므로 이 페이지에는 해당 서신에 나온 회사명과 국가만 담았습니다. 제품 설명은 회사가 자료를 제공하고 승인한 뒤 추가됩니다.",
-    "seoTitle": "Toptrend Packaging — 중국 · Teranova",
-    "seoDesc": "Toptrend Packaging(중국) 프로필. 제품 구성과 조건은 Teranova를 통해 문의하세요."
+    "consentNote": "회사는 2026년 9월 21일 Teranova와의 서신에서 플랫폼에 관심이 있다고 답했습니다. Teranova는 아직 회사 자료를 받지 않았으므로 이 페이지에는 회사명만 담았습니다. 국가와 제품 설명은 회사가 자료를 제공하고 승인한 뒤 추가됩니다.",
+    "seoTitle": "Toptrend Packaging — 회사 프로필 · Teranova",
+    "seoDesc": "Toptrend Packaging 프로필. 국가, 제품 구성, 조건은 Teranova를 통해 문의하세요."
   },
   "ui": {
     "profile_sup": "공급업체 프로필",

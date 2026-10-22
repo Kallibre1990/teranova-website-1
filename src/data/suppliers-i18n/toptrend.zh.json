@@ -1,14 +1,13 @@
 {
   "content": {
-    "tagline": "来自中国的公司",
-    "descriptor": "Toptrend Packaging——来自中国的公司",
-    "origin": "中国",
+    "tagline": "资料准备中",
+    "descriptor": "Toptrend Packaging——公司介绍准备中",
+    "origin": "国家待确认",
     "about": [
-      "Toptrend Packaging是一家来自中国的公司。",
-      "2026年9月21日，该公司回复 Teranova，表示对平台感兴趣，并询问需要提供哪些资料。产品系列、技术参数和商务条款正在由 Teranova 与公司确认；在公司确认之前，本页不予展示。"
+      "本页仅列出 Toptrend Packaging 的公司名称。所在国家、产品系列和条款正在由 Teranova 与公司确认。",
+      "2026年9月21日，该公司回复 Teranova，表示对平台感兴趣，并询问需要提供哪些资料。在公司确认自身信息之前，本页不予展示。"
     ],
     "facts": [
-      "中国",
       "产品系列可咨询"
     ],
     "channels": [],
@@ -28,9 +27,9 @@
         "value": "按需提供；不公开。"
       }
     ],
-    "consentNote": "2026年9月21日，该公司在与 Teranova 的往来邮件中表示对平台感兴趣。Teranova 尚未收到该公司的资料，因此本页仅包含该邮件中的公司名称和所在国家。待公司提供并认可资料后，将补充产品介绍。",
-    "seoTitle": "Toptrend Packaging — 中国 · Teranova",
-    "seoDesc": "Toptrend Packaging（中国）介绍。产品系列和条款可通过 Teranova 咨询。"
+    "consentNote": "2026年9月21日，该公司在与 Teranova 的往来邮件中表示对平台感兴趣。Teranova 尚未收到该公司的资料，因此本页仅包含公司名称。待公司提供并认可资料后，将补充所在国家和产品介绍。",
+    "seoTitle": "Toptrend Packaging — 公司介绍 · Teranova",
+    "seoDesc": "Toptrend Packaging 公司介绍。所在国家、产品系列和条款可通过 Teranova 咨询。"
   },
   "ui": {
     "profile_sup": "供应商档案",
