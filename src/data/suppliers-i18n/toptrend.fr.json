@@ -1,0 +1,57 @@
+{
+  "content": {
+    "tagline": "Profil en préparation",
+    "descriptor": "Toptrend Packaging — profil d'entreprise en préparation",
+    "origin": "Pays à confirmer",
+    "about": [
+      "Cette page n'indique que le nom de Toptrend Packaging. Teranova vérifie auprès de l'entreprise le pays, la gamme et les conditions.",
+      "Le 21 septembre 2026, l'entreprise a indiqué à Teranova qu'elle s'intéresse à la plateforme et a demandé quels documents sont nécessaires. Tant que l'entreprise n'a pas confirmé les informations la concernant, elles ne figurent pas sur cette page."
+    ],
+    "facts": [
+      "Gamme sur demande"
+    ],
+    "channels": [],
+    "lines": [],
+    "tech": [],
+    "formats": [
+      "Gamme sur demande via Teranova"
+    ],
+    "exportNote": "La gamme, les caractéristiques techniques, les certificats, les prix et la commande minimale ne sont pas publiés ici et sont confirmés avec l'entreprise à la demande de l'acheteur.",
+    "terms": [
+      {
+        "label": "Coopération",
+        "value": "Demandes B2B et négociations via Teranova."
+      },
+      {
+        "label": "Prix et commande minimale",
+        "value": "Sur demande ; non publiés."
+      }
+    ],
+    "consentNote": "Le 21 septembre 2026, l'entreprise a répondu à Teranova qu'elle s'intéresse à la plateforme. Teranova n'a pas encore reçu de documents de l'entreprise ; cette page n'indique donc que son nom. Le pays et la description des produits seront ajoutés lorsque l'entreprise aura fourni et approuvé ses documents.",
+    "seoTitle": "Toptrend Packaging — profil d'entreprise · Teranova",
+    "seoDesc": "Profil de Toptrend Packaging. Pays, gamme et conditions sur demande via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Sur demande ; pas de tarif public.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Produits",
+    "products_note": ""
+  }
+}

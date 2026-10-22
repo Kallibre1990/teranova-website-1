@@ -1,0 +1,57 @@
+{
+  "content": {
+    "tagline": "资料准备中",
+    "descriptor": "Toptrend Packaging——公司介绍准备中",
+    "origin": "国家待确认",
+    "about": [
+      "本页仅列出 Toptrend Packaging 的公司名称。所在国家、产品系列和条款正在由 Teranova 与公司确认。",
+      "2026年9月21日，该公司回复 Teranova，表示对平台感兴趣，并询问需要提供哪些资料。在公司确认自身信息之前，本页不予展示。"
+    ],
+    "facts": [
+      "产品系列可咨询"
+    ],
+    "channels": [],
+    "lines": [],
+    "tech": [],
+    "formats": [
+      "产品系列可通过 Teranova 咨询"
+    ],
+    "exportNote": "产品系列、技术参数、认证、价格和最低订货量不在本页公布，可应买家要求向公司确认。",
+    "terms": [
+      {
+        "label": "合作方式",
+        "value": "B2B 询价与洽谈通过 Teranova 进行。"
+      },
+      {
+        "label": "价格与最低订货量",
+        "value": "按需提供；不公开。"
+      }
+    ],
+    "consentNote": "2026年9月21日，该公司在与 Teranova 的往来邮件中表示对平台感兴趣。Teranova 尚未收到该公司的资料，因此本页仅包含公司名称。待公司提供并认可资料后，将补充所在国家和产品介绍。",
+    "seoTitle": "Toptrend Packaging — 公司介绍 · Teranova",
+    "seoDesc": "Toptrend Packaging 公司介绍。所在国家、产品系列和条款可通过 Teranova 咨询。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "按需提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}

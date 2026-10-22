@@ -468,6 +468,19 @@ import dachenEs from './suppliers-i18n/dachen.es.json';
 import dachenPt from './suppliers-i18n/dachen.pt.json';
 import dachenHe from './suppliers-i18n/dachen.he.json';
 import dachenHi from './suppliers-i18n/dachen.hi.json';
+import toptrendRu from './suppliers-i18n/toptrend.ru.json';
+import toptrendEn from './suppliers-i18n/toptrend.en.json';
+import toptrendKo from './suppliers-i18n/toptrend.ko.json';
+import toptrendZh from './suppliers-i18n/toptrend.zh.json';
+import toptrendJa from './suppliers-i18n/toptrend.ja.json';
+import toptrendIt from './suppliers-i18n/toptrend.it.json';
+import toptrendDe from './suppliers-i18n/toptrend.de.json';
+import toptrendFr from './suppliers-i18n/toptrend.fr.json';
+import toptrendTr from './suppliers-i18n/toptrend.tr.json';
+import toptrendEs from './suppliers-i18n/toptrend.es.json';
+import toptrendPt from './suppliers-i18n/toptrend.pt.json';
+import toptrendHe from './suppliers-i18n/toptrend.he.json';
+import toptrendHi from './suppliers-i18n/toptrend.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -795,6 +808,10 @@ export interface SupplierProfile {
   /* True when no local primary source says where the company is based. The
      catalog card, the profile header and the JSON-LD then carry no country at
      all instead of falling back to Korea. */
+  countryUnconfirmed?: boolean;
+  /* Страна не подтверждена первичным источником (одного кода телефона мало).
+     Тогда country не задаётся, а это поле отключает умолчание «Корея»:
+     карточки каталога не показывают флаг и страну, JSON-LD — addressCountry. */
   countryUnconfirmed?: boolean;
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
@@ -2841,6 +2858,29 @@ export const suppliers: SupplierProfile[] = [
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/10_DACHEN.md. */
     i18n: {
       ru: mk(dachenRu as any), en: mk(dachenEn as any), ko: mk(dachenKo as any), zh: mk(dachenZh as any), ja: mk(dachenJa as any), it: mk(dachenIt as any), de: mk(dachenDe as any), fr: mk(dachenFr as any), tr: mk(dachenTr as any), es: mk(dachenEs as any), pt: mk(dachenPt as any), he: mk(dachenHe as any), hi: mk(dachenHi as any),
+    },
+  },
+  {
+    slug: 'toptrend',
+    category: 'adjacent',
+    countryUnconfirmed: true,
+    name: 'Toptrend Packaging',
+    brand: 'Toptrend',
+    status: 'provided',
+    brandColors: { deep: '#1F2A33', sky: '#E2E7EB', accent: '#5E6F7C', bg: '#F5F7F8' },
+    voice: 'minimal',
+    /* Interest only: on 21.09.2026 the VP of Global Sales answered our profile
+       proposal with "we are interesting for your platform" and asked which
+       materials are needed. No materials and no rights to materials, so the page
+       carries only the name (company domain toptrend-pac.com). The country is
+       not stated: the only hint is the +86 code in the signature, and a phone
+       code does not establish where the company is (review T-20261021-047).
+       Foam pumps, capacity, ISO/FDA/REACH/BRCS/SMETA and the Zhongshan legal
+       name come from our own letter / the fair catalogue, not from the company,
+       and are intentionally absent; so are images, prices, MOQ and contacts.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/11_TOPTREND.md. */
+    i18n: {
+      ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any),
     },
   },
   {
