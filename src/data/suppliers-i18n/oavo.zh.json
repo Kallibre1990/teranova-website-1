@@ -1,0 +1,97 @@
+{
+  "content": {
+    "tagline": "受韩国传统启发的韩国护肤品牌",
+    "descriptor": "OAVO：含 KOREA Silktree（朝鲜紫茎）植物成分的韩国护肤品、首尔品牌空间与韩式美容教育",
+    "origin": "韩国",
+    "about": [
+      "OAVO 是由 Channel Swan Co., Ltd. 推出的韩国美妆品牌。据其官方网站介绍，品牌的灵感来自描绘日、月、五峰与海浪的韩国传统绘画《日月五峰图》，将韩国美学融入当代产品与空间。",
+      "官网展示的产品系列包括撕拉面膜、精华液和防晒精华。KOREA Silktree 是 OAVO 为其朝鲜紫茎（Stewartia koreana）植物故事所起的名称；据公司介绍，撕拉面膜的成分表中含有朝鲜紫茎叶提取物。",
+      "除产品外，品牌还在首尔弘大经营 OAVO Seoul Lounge，并设有提供个人色彩、风格与教育内容的 OAVO K Style Lab & Academy。据官网介绍，OAVO 源于创始人在企业推广、展会和品牌体验领域的经历。以上为公司自述，Teranova 未作独立核实。"
+    ],
+    "facts": [
+      "由 Channel Swan Co., Ltd. 推出的品牌",
+      "产品系列：撕拉面膜、精华液、防晒精华",
+      "标志性植物成分：朝鲜紫茎（KOREA Silktree）",
+      "首尔弘大品牌空间（公司资料）"
+    ],
+    "channels": [
+      "化妆品进口商和经销商",
+      "美妆零售渠道和电商平台",
+      "美容教育与品牌体验合作伙伴"
+    ],
+    "lines": [
+      {
+        "name": "撕拉面膜",
+        "note": "据公司介绍，这是一款涂抹后揭下的面膜，具有 Golden Fiber 质地，成分表中含有朝鲜紫茎叶提取物。"
+      },
+      {
+        "name": "精华液",
+        "note": "据公司介绍，这是一款用于日常护肤的精华液。"
+      },
+      {
+        "name": "防晒精华",
+        "note": "用于日间护肤的防晒精华。公司说明，能否供应取决于具体市场。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "KOREA Silktree",
+        "note": "OAVO 为其朝鲜紫茎植物故事所起的名称，公司将其作为标志性成分介绍。成分详情根据具体询盘确认。"
+      },
+      {
+        "name": "OAVO Seoul Lounge",
+        "note": "据公司介绍，这是位于首尔弘大的品牌空间，融合美妆、美食与韩国文化。"
+      },
+      {
+        "name": "OAVO K Style Lab & Academy",
+        "note": "提供个人色彩与风格体验、韩式美容教育以及与合作伙伴的工作坊合作。据公司介绍，课程内容和日期需单独商定。"
+      }
+    ],
+    "formats": [
+      "撕拉面膜",
+      "精华液",
+      "防晒精华"
+    ],
+    "exportNote": "OAVO / Channel Swan Co., Ltd. 已书面同意 Teranova 根据其官方网站及公司提供的官方资料制作公司与品牌简介。价格、认证、检测结果、出口市场、经销区域、直接联系方式和产品照片不在此公布，将根据具体询盘确认。",
+    "terms": [
+      {
+        "label": "合作",
+        "value": "通过 Teranova 进行 B2B 询盘。"
+      },
+      {
+        "label": "价格",
+        "value": "按需报价。"
+      },
+      {
+        "label": "样品",
+        "value": "根据具体询盘商议。"
+      }
+    ],
+    "consentNote": "本简介依据 Channel Swan Co., Ltd. 于 2026 年 9 月 18 日出具的书面同意，基于 OAVO 官方网站编写。产品和品牌描述为公司自述。文本由 Teranova 撰写，公司尚未审阅本页。",
+    "seoTitle": "OAVO — 受韩国传统启发的韩国护肤品 · Teranova",
+    "seoDesc": "Channel Swan Co., Ltd. 旗下品牌 OAVO 简介：撕拉面膜、精华液和防晒精华，以及首尔品牌空间。按需报价。通过 Teranova 开展 B2B。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}

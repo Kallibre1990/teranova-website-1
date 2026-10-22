@@ -122,6 +122,7 @@ const SUPPLIERS = {
   chaewun: { eyebrow: 'Supplier profile', title: 'CHAEWUN — Korean Pudding Mist Ampoules by Twelve Global', accent: '#CE6F93' },
   acfit: { eyebrow: 'Supplier profile', title: 'ACFIT — Korean professional skincare, V-SANG BETA-G line', accent: '#3B8FA8' },
   'plk-lift': { eyebrow: 'Supplier profile', title: 'PLK Lift — Chinese spider cranes, boom lifts and vacuum lifters', accent: '#2E8B57' },
+  oavo: { eyebrow: 'Supplier profile', title: 'OAVO — Korean skincare inspired by Korean tradition', accent: '#9C7A4E' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

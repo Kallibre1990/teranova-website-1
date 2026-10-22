@@ -362,6 +362,19 @@ import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
 import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
 import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
 import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
+import oavoRu from './suppliers-i18n/oavo.ru.json';
+import oavoEn from './suppliers-i18n/oavo.en.json';
+import oavoKo from './suppliers-i18n/oavo.ko.json';
+import oavoZh from './suppliers-i18n/oavo.zh.json';
+import oavoJa from './suppliers-i18n/oavo.ja.json';
+import oavoIt from './suppliers-i18n/oavo.it.json';
+import oavoDe from './suppliers-i18n/oavo.de.json';
+import oavoFr from './suppliers-i18n/oavo.fr.json';
+import oavoTr from './suppliers-i18n/oavo.tr.json';
+import oavoEs from './suppliers-i18n/oavo.es.json';
+import oavoPt from './suppliers-i18n/oavo.pt.json';
+import oavoHe from './suppliers-i18n/oavo.he.json';
+import oavoHi from './suppliers-i18n/oavo.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -2700,6 +2713,27 @@ export const suppliers: SupplierProfile[] = [
        чужие изображения не подставляются; карточка показывает монограмму. */
     i18n: {
       ru: mk(plkLiftRu as any), en: mk(plkLiftEn as any), ko: mk(plkLiftKo as any), zh: mk(plkLiftZh as any), ja: mk(plkLiftJa as any), it: mk(plkLiftIt as any), de: mk(plkLiftDe as any), fr: mk(plkLiftFr as any), tr: mk(plkLiftTr as any), es: mk(plkLiftEs as any), pt: mk(plkLiftPt as any), he: mk(plkLiftHe as any), hi: mk(plkLiftHi as any),
+    },
+  },
+  {
+    slug: 'oavo',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Channel Swan Co., Ltd.',
+    brand: 'OAVO',
+    status: 'provided',
+    /* Тёплый беж и графит — по оформлению их сайта oavo.global. */
+    brandColors: { deep: '#2A2723', sky: '#D9D2C3', accent: '#9C7A4E', bg: '#F5F3EE' },
+    voice: 'minimal',
+    /* Письменное согласие от 18.09.2026 (письмо 1a0b2a6b2a2dc7eb, Channel Swan Co., Ltd.)
+       на профиль компании и бренда по официальному сайту и официальным материалам.
+       Материалов компания пока не прислала: текст — только по снимку oavo.global
+       от 22.10.2026 (T-20261021-033). Компания просила показать черновик; страница
+       не называется согласованной с компанией. Число стран экспорта, «первое
+       применение» экстракта, имя основательницы, цены, объёмы, сертификаты,
+       контакты и фото не публикуются; карточка показывает монограмму. */
+    i18n: {
+      ru: mk(oavoRu as any), en: mk(oavoEn as any), ko: mk(oavoKo as any), zh: mk(oavoZh as any), ja: mk(oavoJa as any), it: mk(oavoIt as any), de: mk(oavoDe as any), fr: mk(oavoFr as any), tr: mk(oavoTr as any), es: mk(oavoEs as any), pt: mk(oavoPt as any), he: mk(oavoHe as any), hi: mk(oavoHi as any),
     },
   },
 ];
