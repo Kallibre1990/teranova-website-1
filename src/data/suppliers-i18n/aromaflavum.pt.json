@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Desenvolvedora coreana de fragrâncias e fabricante OEM/ODM",
+    "descriptor": "A’ROMAFLAVUM: empresa coreana que desenvolve as próprias fragrâncias e fabrica em OEM/ODM perfumes, difusores, desodorizantes e perfumes para tecidos",
+    "origin": "Coreia",
+    "about": [
+      "A A’ROMAFLAVUM Co., Ltd. é uma empresa coreana de fragrâncias. Segundo o site oficial, foi fundada em 2010 e atua como fabricante OEM/ODM com base na própria produção de fragrâncias, do planejamento e desenvolvimento do produto às amostras e à produção em série.",
+      "A empresa cita um instituto de pesquisa corporativo, um laboratório de perfumaria e um laboratório de design. Segundo a empresa, o laboratório desenvolve as fragrâncias internamente com análise GC-MS, e os perfumistas e a equipe de P&D criam os aromas seguindo padrões internos de qualidade.",
+      "A empresa informa que opera a fábrica 1 em Anyang e as fábricas 2 e 3 em Hwaseong, e que uma quarta fábrica em Eumseong está em construção. Esta é a descrição da própria empresa; a Teranova não a verificou de forma independente."
+    ],
+    "facts": [
+      "Fundada em 2010 (dados da empresa)",
+      "Desenvolvimento de fragrâncias e fabricação OEM/ODM",
+      "Fábricas em Anyang e Hwaseong, Coreia (dados da empresa)",
+      "Análise GC-MS própria de fragrâncias (dados da empresa)"
+    ],
+    "channels": [
+      "Marcas de cosméticos e de fragrâncias para casa que buscam um fabricante OEM/ODM",
+      "Importadores e distribuidores de fragrâncias e produtos para casa",
+      "Fabricantes que buscam fragrâncias para os próprios produtos"
+    ],
+    "lines": [
+      {
+        "name": "Fragrâncias",
+        "note": "Segundo a empresa, as fragrâncias são desenvolvidas e produzidas internamente, com análise GC-MS no próprio laboratório."
+      },
+      {
+        "name": "Químicos aromáticos e óleos essenciais",
+        "note": "A empresa informa que importa químicos aromáticos e óleos essenciais em grandes volumes e também pode fornecê-los em pequenas quantidades."
+      },
+      {
+        "name": "Difusores e aromatizadores de ambiente",
+        "note": "Segundo a empresa, produtos de fragrância para casa sob encomenda: difusores, aromatizadores para carro e aromatizadores de gesso, spray e gel."
+      },
+      {
+        "name": "Desodorizantes e perfumes para tecidos",
+        "note": "Segundo a empresa, produtos contra odores e perfumes para tecidos à base de álcool de fermentação com mistura desodorizante própria."
+      },
+      {
+        "name": "Perfumes",
+        "note": "Segundo a empresa, perfumes, inclusive sólidos, além de outros produtos perfumados, como brumas e cremes para as mãos."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Análise GC-MS própria",
+        "note": "Segundo a empresa, o laboratório de perfumaria analisa as matérias-primas com sistemas GC-MS e desenvolve as fragrâncias internamente."
+      },
+      {
+        "name": "OEM/ODM completo",
+        "note": "A empresa descreve todo o ciclo: planejamento do produto, seleção e composição da fragrância, notificação de segurança do produto, design de frasco e caixa, produção e controle de qualidade, embalagem, inspeção final e entrega."
+      },
+      {
+        "name": "Controle de qualidade em quatro etapas",
+        "note": "Segundo a empresa: inspeção dos componentes recebidos, controles durante a produção, incluindo densidade e índice de refração, inspeção final do produto acabado e relatório de QA ao cliente antes do envio."
+      }
+    ],
+    "formats": [
+      "Fragrâncias",
+      "Químicos aromáticos e óleos essenciais",
+      "Difusores e aromatizadores de ambiente",
+      "Desodorizantes",
+      "Perfumes para tecidos",
+      "Perfumes"
+    ],
+    "exportNote": "A A’ROMAFLAVUM Co., Ltd. deu consentimento por escrito para um perfil da empresa e páginas de matérias-primas baseados no site oficial e nos materiais oficiais que fornecer. Preços, quantidades mínimas de pedido, certificações, volumes de produção, resultados de testes, mercados de exportação, contatos diretos e fotos de produtos não são publicados aqui; são confirmados para uma consulta concreta.",
+    "terms": [
+      {
+        "label": "Cooperação",
+        "value": "Consultas B2B pela Teranova."
+      },
+      {
+        "label": "Preço",
+        "value": "Sob consulta."
+      },
+      {
+        "label": "Amostras",
+        "value": "Discutidas para uma consulta concreta."
+      }
+    ],
+    "consentNote": "Este perfil se baseia no site oficial da A’ROMAFLAVUM, com o consentimento por escrito da A’ROMAFLAVUM Co., Ltd. de 21 de setembro de 2026. As descrições dos produtos e da empresa são declarações da empresa. O texto foi preparado pela Teranova; a empresa não revisou esta página.",
+    "seoTitle": "A’ROMAFLAVUM — desenvolvedora coreana de fragrâncias e fabricante OEM/ODM · Teranova",
+    "seoDesc": "Perfil da A’ROMAFLAVUM Co., Ltd.: desenvolvimento próprio de fragrâncias e fabricação OEM/ODM de difusores, desodorizantes, perfumes para tecidos e perfumes. Preço sob consulta. B2B pela Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem serve:",
+    "lines_h": "Linhas de produto",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Sob consulta; sem lista pública de preços.",
+    "cta_h": "Ficou interessado neste fornecedor?",
+    "cta_d": "Fale conosco — a Teranova organiza a negociação, as verificações e toda a operação, do primeiro contato à entrega.",
+    "cta_btn": "Falar através da Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações",
+    "certs_note": "",
+    "products_h": "Produtos",
+    "products_note": ""
+  }
+}

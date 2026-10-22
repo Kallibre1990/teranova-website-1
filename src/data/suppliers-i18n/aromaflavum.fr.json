@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Développeur coréen de parfums et fabricant OEM/ODM",
+    "descriptor": "A’ROMAFLAVUM : entreprise coréenne qui développe ses propres compositions parfumées et fabrique en OEM/ODM parfums, diffuseurs, désodorisants et parfums textiles",
+    "origin": "Corée",
+    "about": [
+      "A’ROMAFLAVUM Co., Ltd. est une entreprise coréenne spécialisée dans le parfum. Selon son site officiel, elle a été fondée en 2010 et travaille comme fabricant OEM/ODM à partir de sa propre production de compositions parfumées, de la conception et du développement du produit jusqu’aux échantillons et à la production en série.",
+      "L’entreprise mentionne un institut de recherche interne, un laboratoire de parfumerie et un laboratoire de design. Selon l’entreprise, son laboratoire développe les compositions en interne à l’aide d’analyses GC-MS, et ses parfumeurs et son équipe R&D créent les senteurs selon des normes de qualité internes.",
+      "L’entreprise indique exploiter l’usine 1 à Anyang et les usines 2 et 3 à Hwaseong, et qu’une quatrième usine est en construction à Eumseong. Il s’agit de la présentation de l’entreprise elle-même ; Teranova ne l’a pas vérifiée de manière indépendante."
+    ],
+    "facts": [
+      "Fondée en 2010 (données de l’entreprise)",
+      "Développement de parfums et fabrication OEM/ODM",
+      "Usines à Anyang et Hwaseong, Corée (données de l’entreprise)",
+      "Analyse GC-MS des parfums en interne (données de l’entreprise)"
+    ],
+    "channels": [
+      "Marques de cosmétiques et de parfums d’intérieur à la recherche d’un fabricant OEM/ODM",
+      "Importateurs et distributeurs de parfums et de produits d’entretien",
+      "Fabricants qui recherchent des compositions parfumées pour leurs produits"
+    ],
+    "lines": [
+      {
+        "name": "Compositions parfumées",
+        "note": "Selon l’entreprise, les compositions sont développées et produites en interne, avec analyse GC-MS dans son propre laboratoire."
+      },
+      {
+        "name": "Matières aromatiques et huiles essentielles",
+        "note": "L’entreprise indique importer des matières aromatiques et des huiles essentielles en grandes quantités et pouvoir aussi les fournir en petites quantités."
+      },
+      {
+        "name": "Diffuseurs et désodorisants d’ambiance",
+        "note": "Selon l’entreprise, des parfums d’intérieur sur mesure : diffuseurs, désodorisants pour voiture, en plâtre, en spray et en gel."
+      },
+      {
+        "name": "Désodorisants et parfums textiles",
+        "note": "Selon l’entreprise, des produits anti-odeurs et des parfums textiles à base d’alcool de fermentation avec son propre mélange désodorisant."
+      },
+      {
+        "name": "Parfums",
+        "note": "Selon l’entreprise, des parfums, y compris solides, ainsi que d’autres produits parfumés comme des brumes et des crèmes pour les mains."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Analyse GC-MS en interne",
+        "note": "Selon l’entreprise, son laboratoire de parfumerie analyse les matières premières avec des systèmes GC-MS et développe les compositions en interne."
+      },
+      {
+        "name": "OEM/ODM clé en main",
+        "note": "L’entreprise décrit tout le cycle : conception du produit, choix et composition du parfum, déclaration de sécurité du produit, design du flacon et de la boîte, production et contrôle qualité, conditionnement, contrôle final et livraison."
+      },
+      {
+        "name": "Contrôle qualité en quatre étapes",
+        "note": "Selon l’entreprise : contrôle des composants à réception, contrôles en cours de production dont densité et indice de réfraction, contrôle final des produits finis et rapport QA au client avant expédition."
+      }
+    ],
+    "formats": [
+      "Compositions parfumées",
+      "Matières aromatiques et huiles essentielles",
+      "Diffuseurs et désodorisants d’ambiance",
+      "Désodorisants",
+      "Parfums textiles",
+      "Parfums"
+    ],
+    "exportNote": "A’ROMAFLAVUM Co., Ltd. a donné son consentement écrit à un profil d’entreprise et à des pages de matières premières fondés sur son site officiel et les documents officiels qu’elle fournira. Les prix, quantités minimales de commande, certifications, volumes de production, résultats d’essais, marchés d’export, contacts directs et photos de produits ne sont pas publiés ici ; ils sont confirmés pour une demande précise.",
+    "terms": [
+      {
+        "label": "Coopération",
+        "value": "Demandes B2B via Teranova."
+      },
+      {
+        "label": "Prix",
+        "value": "Sur demande."
+      },
+      {
+        "label": "Échantillons",
+        "value": "À discuter pour une demande précise."
+      }
+    ],
+    "consentNote": "Ce profil s’appuie sur le site officiel d’A’ROMAFLAVUM, avec le consentement écrit d’A’ROMAFLAVUM Co., Ltd. du 21 septembre 2026. Les descriptions des produits et de l’entreprise sont des déclarations de l’entreprise. Le texte a été préparé par Teranova ; l’entreprise n’a pas relu cette page.",
+    "seoTitle": "A’ROMAFLAVUM — développeur coréen de parfums et fabricant OEM/ODM · Teranova",
+    "seoDesc": "Profil d’A’ROMAFLAVUM Co., Ltd. : développement de compositions parfumées en interne et fabrication OEM/ODM de diffuseurs, désodorisants, parfums textiles et parfums. Prix sur demande. B2B via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Sur demande ; aucun tarif public.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Produits",
+    "products_note": ""
+  }
+}

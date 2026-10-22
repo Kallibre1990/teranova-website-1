@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Desarrollador coreano de fragancias y fabricante OEM/ODM",
+    "descriptor": "A’ROMAFLAVUM: empresa coreana que desarrolla sus propias fragancias y fabrica en OEM/ODM perfumes, difusores, desodorantes y perfumes textiles",
+    "origin": "Corea",
+    "about": [
+      "A’ROMAFLAVUM Co., Ltd. es una empresa coreana de fragancias. Según su sitio web oficial, se fundó en 2010 y trabaja como fabricante OEM/ODM a partir de su propia producción de fragancias, desde la planificación y el desarrollo del producto hasta las muestras y la producción en serie.",
+      "La empresa menciona un instituto de investigación corporativo, un laboratorio de perfumería y un laboratorio de diseño. Según la empresa, su laboratorio desarrolla las fragancias internamente con análisis GC-MS, y sus perfumistas y su equipo de I+D crean los aromas según estándares de calidad internos.",
+      "La empresa indica que opera la planta 1 en Anyang y las plantas 2 y 3 en Hwaseong, y que una cuarta planta en Eumseong está en construcción. Es la descripción de la propia empresa; Teranova no la ha verificado de forma independiente."
+    ],
+    "facts": [
+      "Fundada en 2010 (datos de la empresa)",
+      "Desarrollo de fragancias y fabricación OEM/ODM",
+      "Plantas en Anyang y Hwaseong, Corea (datos de la empresa)",
+      "Análisis GC-MS propio de fragancias (datos de la empresa)"
+    ],
+    "channels": [
+      "Marcas de cosmética y de fragancias para el hogar que buscan un fabricante OEM/ODM",
+      "Importadores y distribuidores de fragancias y productos para el hogar",
+      "Fabricantes que buscan fragancias para sus propios productos"
+    ],
+    "lines": [
+      {
+        "name": "Fragancias",
+        "note": "Según la empresa, las fragancias se desarrollan y producen internamente, con análisis GC-MS en su propio laboratorio."
+      },
+      {
+        "name": "Químicos aromáticos y aceites esenciales",
+        "note": "La empresa indica que importa químicos aromáticos y aceites esenciales en grandes volúmenes y también puede suministrarlos en pequeñas cantidades."
+      },
+      {
+        "name": "Difusores y ambientadores",
+        "note": "Según la empresa, productos de fragancia para el hogar a medida: difusores, ambientadores para coche y ambientadores de yeso, en spray y en gel."
+      },
+      {
+        "name": "Desodorantes y perfumes textiles",
+        "note": "Según la empresa, productos contra los olores y perfumes textiles con base de alcohol de fermentación y su propia mezcla desodorante."
+      },
+      {
+        "name": "Perfumes",
+        "note": "Según la empresa, perfumes, incluidos los sólidos, además de otros productos perfumados como brumas y cremas de manos."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Análisis GC-MS propio",
+        "note": "Según la empresa, su laboratorio de perfumería analiza las materias primas con sistemas GC-MS y desarrolla las fragancias internamente."
+      },
+      {
+        "name": "OEM/ODM integral",
+        "note": "La empresa describe todo el ciclo: planificación del producto, selección y composición de la fragancia, notificación de seguridad del producto, diseño de envase y caja, producción y control de calidad, embalaje, inspección final y entrega."
+      },
+      {
+        "name": "Control de calidad en cuatro etapas",
+        "note": "Según la empresa: inspección de los componentes recibidos, controles durante la producción como densidad e índice de refracción, inspección final del producto terminado e informe de QA al cliente antes del envío."
+      }
+    ],
+    "formats": [
+      "Fragancias",
+      "Químicos aromáticos y aceites esenciales",
+      "Difusores y ambientadores",
+      "Desodorantes",
+      "Perfumes textiles",
+      "Perfumes"
+    ],
+    "exportNote": "A’ROMAFLAVUM Co., Ltd. dio su consentimiento por escrito para un perfil de empresa y páginas de materias primas basados en su sitio web oficial y en los materiales oficiales que proporcione. Los precios, cantidades mínimas de pedido, certificaciones, volúmenes de producción, resultados de pruebas, mercados de exportación, contactos directos y fotos de productos no se publican aquí; se confirman para una consulta concreta.",
+    "terms": [
+      {
+        "label": "Cooperación",
+        "value": "Consultas B2B a través de Teranova."
+      },
+      {
+        "label": "Precio",
+        "value": "Bajo consulta."
+      },
+      {
+        "label": "Muestras",
+        "value": "Se acuerdan para una consulta concreta."
+      }
+    ],
+    "consentNote": "Este perfil se basa en el sitio web oficial de A’ROMAFLAVUM, con el consentimiento por escrito de A’ROMAFLAVUM Co., Ltd. del 21 de septiembre de 2026. Las descripciones de los productos y de la empresa son declaraciones de la empresa. El texto lo preparó Teranova; la empresa no ha revisado esta página.",
+    "seoTitle": "A’ROMAFLAVUM — desarrollador coreano de fragancias y fabricante OEM/ODM · Teranova",
+    "seoDesc": "Perfil de A’ROMAFLAVUM Co., Ltd.: desarrollo propio de fragancias y fabricación OEM/ODM de difusores, desodorantes, perfumes textiles y perfumes. Precio bajo consulta. B2B a través de Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Bajo consulta; no hay lista pública de precios.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "",
+    "products_h": "Productos",
+    "products_note": ""
+  }
+}

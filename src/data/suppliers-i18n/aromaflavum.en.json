@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Korean fragrance developer and OEM/ODM manufacturer",
+    "descriptor": "A’ROMAFLAVUM: Korean fragrance company with in-house fragrance development and OEM/ODM production of perfumes, diffusers, deodorants and fabric perfumes",
+    "origin": "Korea",
+    "about": [
+      "A’ROMAFLAVUM Co., Ltd. is a Korean fragrance company. According to its official website, it was founded in 2010 and works as an OEM/ODM manufacturer built on its own fragrance production, covering product planning, development, sampling and volume production.",
+      "The company lists a corporate research institute, a perfumery lab and a design lab. According to the company, its lab uses GC-MS analysis to develop fragrances in-house, and its perfumers and R&D team create scents under internal quality standards.",
+      "The company states that it runs Plant 1 in Anyang and Plants 2 and 3 in Hwaseong, and that a fourth plant in Eumseong is under construction. This is the company’s own description; Teranova has not independently verified it."
+    ],
+    "facts": [
+      "Founded in 2010 (company data)",
+      "Fragrance development and OEM/ODM manufacturing",
+      "Plants in Anyang and Hwaseong, Korea (company data)",
+      "In-house GC-MS fragrance analysis (company data)"
+    ],
+    "channels": [
+      "Cosmetics and home-fragrance brands looking for an OEM/ODM manufacturer",
+      "Importers and distributors of fragrance and home-care products",
+      "Manufacturers sourcing fragrances for their own products"
+    ],
+    "lines": [
+      {
+        "name": "Fragrances",
+        "note": "According to the company, fragrances are developed and produced in-house, with GC-MS analysis in its own lab."
+      },
+      {
+        "name": "Aroma chemicals and essential oils",
+        "note": "The company states that it imports aroma chemicals and essential oils in bulk and can also supply them in small quantities."
+      },
+      {
+        "name": "Diffusers and air fresheners",
+        "note": "According to the company, custom home-fragrance products: diffusers, car fresheners, plaster, spray and gel air fresheners."
+      },
+      {
+        "name": "Deodorants and fabric perfumes",
+        "note": "According to the company, odour-control products and fabric perfumes on a fermented-alcohol base with its own deodorising blend."
+      },
+      {
+        "name": "Perfumes",
+        "note": "According to the company, perfumes including solid perfumes, alongside other fragranced products such as mists and hand creams."
+      }
+    ],
+    "tech": [
+      {
+        "name": "In-house GC-MS analysis",
+        "note": "According to the company, its fragrance lab uses GC-MS systems to analyse fragrance materials and develop fragrances in-house."
+      },
+      {
+        "name": "One-stop OEM/ODM",
+        "note": "The company describes the full cycle: product planning, fragrance selection and blending, product safety notification, container and box design, production and quality control, packaging, final inspection and delivery."
+      },
+      {
+        "name": "Four-stage quality control",
+        "note": "According to the company: inspection of incoming components, in-process checks including specific gravity and refractive index, final inspection of finished goods, and a QA report to the client before shipment."
+      }
+    ],
+    "formats": [
+      "Fragrances",
+      "Aroma chemicals and essential oils",
+      "Diffusers and air fresheners",
+      "Deodorants",
+      "Fabric perfumes",
+      "Perfumes"
+    ],
+    "exportNote": "A’ROMAFLAVUM Co., Ltd. gave written consent to a company profile and ingredient pages based on its official website and the official materials it provides. Prices, minimum order quantities, certifications, production volumes, test results, export markets, direct contacts and product photos are not published here; they are confirmed for a specific inquiry.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B inquiries through Teranova."
+      },
+      {
+        "label": "Price",
+        "value": "On request."
+      },
+      {
+        "label": "Samples",
+        "value": "Discussed for a specific inquiry."
+      }
+    ],
+    "consentNote": "This profile is based on the official website of A’ROMAFLAVUM, with the written consent of A’ROMAFLAVUM Co., Ltd. dated 21 September 2026. Product and company descriptions are the company’s statements. The text was prepared by Teranova; the company has not reviewed this page.",
+    "seoTitle": "A’ROMAFLAVUM — Korean fragrance developer and OEM/ODM manufacturer · Teranova",
+    "seoDesc": "Profile of A’ROMAFLAVUM Co., Ltd.: in-house fragrance development and OEM/ODM production of diffusers, deodorants, fabric perfumes and perfumes. Price on request. B2B through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": ""
+  }
+}

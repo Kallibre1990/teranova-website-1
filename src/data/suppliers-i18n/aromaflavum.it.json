@@ -1,0 +1,108 @@
+{
+  "content": {
+    "tagline": "Sviluppatore coreano di fragranze e produttore OEM/ODM",
+    "descriptor": "A’ROMAFLAVUM: azienda coreana che sviluppa fragranze in proprio e produce in OEM/ODM profumi, diffusori, deodoranti e profumi per tessuti",
+    "origin": "Corea",
+    "about": [
+      "A’ROMAFLAVUM Co., Ltd. è un’azienda coreana di fragranze. Secondo il sito ufficiale, è stata fondata nel 2010 e lavora come produttore OEM/ODM basato sulla propria produzione di fragranze, dalla progettazione e sviluppo del prodotto alla campionatura e alla produzione in serie.",
+      "L’azienda indica un istituto di ricerca aziendale, un laboratorio di profumeria e un laboratorio di design. Secondo l’azienda, il laboratorio sviluppa le fragranze in proprio con l’analisi GC-MS, e i profumieri e il team R&S creano le fragranze secondo standard di qualità interni.",
+      "L’azienda dichiara di gestire lo stabilimento 1 ad Anyang e gli stabilimenti 2 e 3 a Hwaseong, e che un quarto stabilimento a Eumseong è in costruzione. È la descrizione fornita dall’azienda stessa; Teranova non l’ha verificata in modo indipendente."
+    ],
+    "facts": [
+      "Fondata nel 2010 (dati dell’azienda)",
+      "Sviluppo di fragranze e produzione OEM/ODM",
+      "Stabilimenti ad Anyang e Hwaseong, Corea (dati dell’azienda)",
+      "Analisi GC-MS interna delle fragranze (dati dell’azienda)"
+    ],
+    "channels": [
+      "Marchi di cosmetica e di profumazione per la casa che cercano un produttore OEM/ODM",
+      "Importatori e distributori di fragranze e prodotti per la casa",
+      "Produttori che cercano fragranze per i propri prodotti"
+    ],
+    "lines": [
+      {
+        "name": "Fragranze",
+        "note": "Secondo l’azienda, le fragranze sono sviluppate e prodotte in proprio, con analisi GC-MS nel laboratorio interno."
+      },
+      {
+        "name": "Materie prime aromatiche e oli essenziali",
+        "note": "L’azienda dichiara di importare materie prime aromatiche e oli essenziali in grandi quantità e di poterli fornire anche in piccoli lotti."
+      },
+      {
+        "name": "Diffusori e deodoranti per ambienti",
+        "note": "Secondo l’azienda, profumatori per la casa su misura: diffusori, deodoranti per auto, deodoranti in gesso, spray e gel."
+      },
+      {
+        "name": "Deodoranti e profumi per tessuti",
+        "note": "Secondo l’azienda, prodotti contro gli odori e profumi per tessuti a base di alcol da fermentazione con una propria miscela deodorante."
+      },
+      {
+        "name": "Profumi",
+        "note": "Secondo l’azienda, profumi, compresi quelli solidi, oltre ad altri prodotti profumati come spray e creme mani."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Analisi GC-MS interna",
+        "note": "Secondo l’azienda, il laboratorio di profumeria analizza le materie prime con sistemi GC-MS e sviluppa le fragranze in proprio."
+      },
+      {
+        "name": "OEM/ODM chiavi in mano",
+        "note": "L’azienda descrive l’intero ciclo: progettazione del prodotto, scelta e composizione della fragranza, notifica di sicurezza del prodotto, design di flacone e scatola, produzione e controllo qualità, confezionamento, controllo finale e consegna."
+      },
+      {
+        "name": "Controllo qualità in quattro fasi",
+        "note": "Secondo l’azienda: verifica dei componenti in entrata, controlli in produzione tra cui peso specifico e indice di rifrazione, controllo finale del prodotto finito e rapporto QA al cliente prima della spedizione."
+      }
+    ],
+    "formats": [
+      "Fragranze",
+      "Materie prime aromatiche e oli essenziali",
+      "Diffusori e deodoranti per ambienti",
+      "Deodoranti",
+      "Profumi per tessuti",
+      "Profumi"
+    ],
+    "exportNote": "A’ROMAFLAVUM Co., Ltd. ha dato il consenso scritto a un profilo aziendale e a pagine di materie prime basati sul sito ufficiale e sui materiali ufficiali che fornirà. Prezzi, quantità minime d’ordine, certificazioni, volumi produttivi, risultati dei test, mercati di esportazione, contatti diretti e foto dei prodotti non sono pubblicati qui; vengono confermati per una richiesta specifica.",
+    "terms": [
+      {
+        "label": "Collaborazione",
+        "value": "Richieste B2B tramite Teranova."
+      },
+      {
+        "label": "Prezzo",
+        "value": "Su richiesta."
+      },
+      {
+        "label": "Campioni",
+        "value": "Da concordare per una richiesta specifica."
+      }
+    ],
+    "consentNote": "Questo profilo si basa sul sito ufficiale di A’ROMAFLAVUM, con il consenso scritto di A’ROMAFLAVUM Co., Ltd. del 21 settembre 2026. Le descrizioni dei prodotti e dell’azienda sono dichiarazioni dell’azienda. Il testo è stato preparato da Teranova; l’azienda non ha revisionato questa pagina.",
+    "seoTitle": "A’ROMAFLAVUM — sviluppatore coreano di fragranze e produttore OEM/ODM · Teranova",
+    "seoDesc": "Profilo di A’ROMAFLAVUM Co., Ltd.: sviluppo interno di fragranze e produzione OEM/ODM di diffusori, deodoranti, profumi per tessuti e profumi. Prezzo su richiesta. B2B tramite Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profilo del fornitore",
+    "about_h": "L'azienda",
+    "for_whom": "A chi si rivolge:",
+    "lines_h": "Linee di prodotto",
+    "catalog_h": "Catalogo prodotti",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formati di prodotto",
+    "export_h": "Export e mercati",
+    "terms_h": "Condizioni di collaborazione",
+    "download_btn": "Scarica le condizioni (PDF)",
+    "pres_btn": "Scarica la presentazione (PDF)",
+    "terms_disc": "Su richiesta; nessun listino pubblico.",
+    "cta_h": "Le interessa questo fornitore?",
+    "cta_d": "Ci scriva — Teranova organizza la trattativa, le verifiche e l'intera operazione dal primo contatto alla consegna.",
+    "cta_btn": "Contattare tramite Teranova",
+    "more": "Apri il profilo →",
+    "verified_suppliers": "Fornitori verificati",
+    "certs_h": "Certificazioni",
+    "certs_note": "",
+    "products_h": "Prodotti",
+    "products_note": ""
+  }
+}
