@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tagline": "韩国男士理容护理品牌 Scott Hamish",
+    "descriptor": "Cheon365：首尔公司，运营韩国男士理容品牌 Scott Hamish，产品包括爽肤精华、乳液精华、洁面泡沫、防晒、护手霜和润唇膏",
+    "origin": "韩国",
+    "about": [
+      "Cheon365 Co., Ltd. 是一家位于韩国首尔的公司。据 Scott Hamish 官网介绍，该公司运营 Scott Hamish 品牌。",
+      "Scott Hamish 自称是一个针对现代男性肌肤问题的男士理容护理品牌。品牌理念取材于苏格兰，官网将苏格兰蓟列为其原料之一。",
+      "本简介仅依据品牌官网的公开信息编写，Teranova未作独立核实。"
+    ],
+    "facts": [
+      "位于韩国首尔",
+      "品牌：Scott Hamish",
+      "男士理容护理（品牌官网）",
+      "护肤、洁面、防晒、手部和唇部护理"
+    ],
+    "channels": [
+      "男士化妆品进口商和经销商",
+      "零售连锁和电商平台",
+      "美妆和男士理容零售商"
+    ],
+    "lines": [
+      {
+        "name": "Blue Blended 精华",
+        "note": "据品牌介绍，为多合一爽肤精华和乳液精华；官网列出的成分包括透明质酸、氨基酸和水飞蓟提取物。"
+      },
+      {
+        "name": "Blue Freedom 洁面泡沫",
+        "note": "据品牌介绍，含BHA和植物胶囊的深层清洁洁面泡沫。"
+      },
+      {
+        "name": "BeBrave BB精华",
+        "note": "据品牌介绍，集防晒、BB霜和精华于一体的多合一BB精华。"
+      },
+      {
+        "name": "Classic Golf 防晒",
+        "note": "据品牌介绍，包括防晒霜和防晒棒。"
+      },
+      {
+        "name": "手部和唇部护理",
+        "note": "据品牌介绍，包括 Claymore 护手霜和 Courage 润唇膏。"
+      }
+    ],
+    "tech": [],
+    "formats": [
+      "爽肤精华",
+      "乳液精华",
+      "洁面泡沫",
+      "BB精华",
+      "防晒霜和防晒棒",
+      "护手霜",
+      "润唇膏"
+    ],
+    "exportNote": "本简介由Teranova根据 Scott Hamish 官网的公开信息编写，未使用公司自有资料、标志和图片。价格、最小起订量、认证、功效声明、出口市场、直接联系方式和产品照片不在此公开，将根据具体询盘确认。",
+    "terms": [
+      {
+        "label": "合作",
+        "value": "通过Teranova进行B2B询盘。"
+      },
+      {
+        "label": "价格",
+        "value": "按需报价。"
+      },
+      {
+        "label": "样品",
+        "value": "根据具体询盘商议。"
+      }
+    ],
+    "consentNote": "本简介依据 Scott Hamish 官网的公开信息编写。产品描述为公司自述。文字由Teranova撰写，公司未审阅或批准本页面。",
+    "seoTitle": "Scott Hamish（Cheon365）— 韩国男士理容护理品牌 · Teranova",
+    "seoDesc": "Cheon365 Co., Ltd. 及其品牌 Scott Hamish 简介：男士爽肤精华、乳液精华、洁面泡沫、BB精华、防晒、护手霜和润唇膏。价格按需。通过Teranova开展B2B合作。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}
