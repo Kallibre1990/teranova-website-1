@@ -1,0 +1,99 @@
+{
+  "content": {
+    "tagline": "한국 스킨케어: 톤 케어, 보습, 선케어",
+    "descriptor": "Ooznary(오우즈너리) — DOTS CORPORATION의 한국 스킨케어 브랜드",
+    "origin": "대한민국",
+    "about": [
+      "Ooznary(오우즈너리)는 한국 기업 DOTS CORPORATION의 스킨케어 브랜드입니다. 브랜드 원칙: 건강한 피부는 메이크업이 아니라 스킨케어에서 시작됩니다. 브랜드명은 영어 단어 ooze와 ordinary를 합친 것입니다.",
+      "제품은 라인별로 구성됩니다: 균일한 피부 톤을 위한 Vita3, 보습을 위한 Jet Blue, 선크림 Rest and The Sun, 2층 세럼 Micro Oil Blender 37, 시트 마스크.",
+      "브랜드 제품은 미국 온라인(Amazon, TikTok Shop 포함), 일본, 베트남, 중국 온라인, 싱가포르 라이브 커머스에서 판매되고 있습니다. 확장 우선 시장은 튀르키예와 신규 시장입니다."
+    ],
+    "facts": [
+      "대한민국",
+      "스킨케어",
+      "토너, 세럼, 크림, 선케어, 마스크",
+      "확장 우선 시장: 튀르키예"
+    ],
+    "channels": [
+      "화장품 수입사 및 유통사",
+      "화장품 리테일 체인",
+      "마켓플레이스 및 온라인 스토어"
+    ],
+    "lines": [
+      {
+        "name": "Vita3",
+        "note": "톤 케어 라인: ACE Aurora 토너, Aurora Mist, Vita3 Serum, 나이트 BBC Pudding Cream. 비타민 콤플렉스 기반."
+      },
+      {
+        "name": "Jet Blue",
+        "note": "보습 라인: 토너, 세럼, 크림. 판테놀, 아미노산, 히알루론산, 세라마이드 함유."
+      },
+      {
+        "name": "Rest and The Sun",
+        "note": "가벼운 로션 텍스처와 화이트 진저 릴리 추출물을 담은 선크림."
+      },
+      {
+        "name": "Micro Oil Blender 37",
+        "note": "세 가지 2층 세럼: 아젤라익애씨드, 센텔라 PDRN, 레티놀."
+      },
+      {
+        "name": "시트 마스크",
+        "note": "주요 제품 기반의 마스크 4종: Vita 3, Azelaic Cica, Centella PDRN, Retinol AHA."
+      }
+    ],
+    "tech": [
+      {
+        "name": "오일과 수분 3:7",
+        "note": "Micro Oil Blender 37 세럼은 오일층과 수분층을 3:7 비율로 담았으며, 사용 전 용기를 흔들어 섞습니다."
+      }
+    ],
+    "formats": [
+      "Ooznary 브랜드 완제품",
+      "토너, 미스트, 세럼, 크림, 선케어, 시트 마스크",
+      "용량 및 구성은 요청 시"
+    ],
+    "exportNote": "일본, 베트남, 중국으로의 공급은 Teranova를 통해 제안하지 않습니다. CIS 국가는 제한이 있어 공급 가능 여부를 건별로 회사와 협의합니다. 성분, 라벨, 인증서 및 국가별 등록은 거래 전 해당 시장과 프로젝트에 맞춰 확인합니다. 가격, 최소 주문 수량 및 비공개 거래 조건은 공개하지 않습니다.",
+    "terms": [
+      {
+        "label": "협력",
+        "value": "Teranova를 통한 B2B 문의 및 협상."
+      },
+      {
+        "label": "지역",
+        "value": "일본, 베트남, 중국 제외; CIS는 회사와 협의한 경우에만."
+      },
+      {
+        "label": "가격 및 최소 주문 수량",
+        "value": "요청 시 안내; 공개하지 않음."
+      }
+    ],
+    "consentNote": "DOTS CORPORATION은 2026년 10월 14일 Teranova에 회사 프로필과 Ooznary 제품 페이지를 위해 Ooznary 공식 웹사이트의 정보와 회사가 제공하거나 승인한 자료를 Teranova 웹사이트에서 사용, 번역, 게시할 수 있도록 서면으로 허가했습니다. 이 허가는 비독점적이며 상표권을 이전하지 않고 Teranova에 독점 판매권이나 유통권을 부여하지 않습니다.",
+    "seoTitle": "Ooznary (DOTS CORPORATION) — 한국 스킨케어 · Teranova",
+    "seoDesc": "Ooznary 프로필: Vita3·Jet Blue 라인, 선케어, 2층 세럼, 시트 마스크. Teranova를 통한 B2B 문의."
+  },
+  "ui": {
+    "profile_sup": "공급업체 프로필",
+    "about_h": "회사 소개",
+    "for_whom": "이런 곳에 적합합니다:",
+    "lines_h": "제품 라인",
+    "catalog_h": "제품 카탈로그",
+    "tech_h": "기술",
+    "formats_h": "제품 형태",
+    "export_h": "수출과 시장",
+    "terms_h": "협력 조건",
+    "download_btn": "협력 조건 내려받기 (PDF)",
+    "pres_btn": "브랜드 소개서 내려받기 (PDF)",
+    "terms_disc": "요청 시 안내; 공개 가격표 없음.",
+    "cta_h": "이 공급업체에 관심이 있으신가요?",
+    "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
+    "cta_btn": "Teranova를 통해 문의",
+    "more": "프로필 열기 →",
+    "verified_suppliers": "검증된 공급업체",
+    "certs_h": "인증",
+    "certs_note": "",
+    "products_h": "제품",
+    "products_note": "제품 구성은 회사 자료를 기준으로 작성했습니다. 용량, 성분, 사양은 요청 시 확인합니다.",
+    "gallery_h": "회사 자료",
+    "gallery_note": "이미지는 DOTS CORPORATION이 Teranova에 제공한 브랜드 소개서에서 가져왔습니다. 회사 자료이며 저희의 공장 방문 사진이 아닙니다."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "content": {
+    "tagline": "Kore cilt bakımı: eşit ton, nem, güneş koruması",
+    "descriptor": "Ooznary — DOTS CORPORATION’ın Koreli cilt bakım markası",
+    "origin": "Kore Cumhuriyeti",
+    "about": [
+      "Ooznary, Koreli DOTS CORPORATION şirketinin cilt bakım markasıdır. Markanın ilkesi: sağlıklı cilt makyajla değil, cilt bakımıyla başlar. Marka adı İngilizce “ooze” ve “ordinary” kelimelerini birleştirir.",
+      "Ürün yelpazesi serilere ayrılır: eşit cilt tonu için Vita3, nem için Jet Blue, güneş kremi Rest and The Sun, iki fazlı Micro Oil Blender 37 serumları ve kağıt maskeler.",
+      "Markanın ürünleri ABD’de çevrim içi olarak (Amazon ve TikTok Shop dahil), Japonya’da, Vietnam’da, Çin’de çevrim içi olarak ve Singapur’da canlı yayın satışıyla satılmaktadır. Genişleme önceliği Türkiye ve yeni pazarlardır."
+    ],
+    "facts": [
+      "Kore Cumhuriyeti",
+      "Cilt bakımı",
+      "Tonik, serum, krem, güneş koruma, maske",
+      "Genişleme önceliği: Türkiye"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Kozmetik perakende zincirleri",
+      "Pazar yerleri ve çevrim içi mağazalar"
+    ],
+    "lines": [
+      {
+        "name": "Vita3",
+        "note": "Eşit ton serisi: ACE Aurora tonik, Aurora Mist, Vita3 Serum ve gece kremi BBC Pudding Cream. Vitamin komplekslerine dayanır."
+      },
+      {
+        "name": "Jet Blue",
+        "note": "Nemlendirici seri: tonik, serum ve krem. Formüllerde pantenol, amino asitler, hyalüronik asit ve seramidler bulunur."
+      },
+      {
+        "name": "Rest and The Sun",
+        "note": "Hafif losyon dokulu, beyaz zencefil zambağı özlü güneş kremi."
+      },
+      {
+        "name": "Micro Oil Blender 37",
+        "note": "Üç çeşit iki fazlı serum: azelaik asit, PDRN’li centella ve retinol."
+      },
+      {
+        "name": "Kağıt maskeler",
+        "note": "Ana ürünlere dayanan dört maske: Vita 3, Azelaic Cica, Centella PDRN ve Retinol AHA."
+      }
+    ],
+    "tech": [
+      {
+        "name": "3:7 yağ ve su oranı",
+        "note": "Micro Oil Blender 37 serumlarında yağ ve su fazları 3:7 oranında birleştirilir; şişe kullanmadan önce çalkalanır."
+      }
+    ],
+    "formats": [
+      "Ooznary markalı bitmiş ürünler",
+      "Tonik, mist, serum, krem, güneş koruma, kağıt maske",
+      "Hacimler ve setler talep üzerine"
+    ],
+    "exportNote": "Japonya, Vietnam ve Çin’e tedarik Teranova üzerinden sunulmaz. BDT ülkeleri için kısıtlamalar vardır: tedarik her talepte şirketle ayrıca görüşülür. Formül, etiketleme, sertifikalar ve tescil, anlaşmadan önce ilgili pazar ve proje için teyit edilir. Fiyatlar, minimum sipariş ve gizli ticari koşullar yayımlanmaz.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B talepler ve görüşmeler."
+      },
+      {
+        "label": "Coğrafya",
+        "value": "Japonya, Vietnam ve Çin hariç; BDT yalnızca şirketin onayıyla."
+      },
+      {
+        "label": "Fiyat ve minimum sipariş",
+        "value": "Talep üzerine; yayımlanmaz."
+      }
+    ],
+    "consentNote": "DOTS CORPORATION, 14 Ekim 2026’da Teranova’ya, şirket profili ve Ooznary ürün sayfaları için Ooznary’nin resmi web sitesindeki bilgileri ve şirketin sağladığı ya da onayladığı materyalleri Teranova web sitesinde kullanma, çevirme ve yayımlama konusunda yazılı izin verdi. İzin münhasır değildir: marka haklarını devretmez ve Teranova’ya münhasır satış veya dağıtım hakkı vermez.",
+    "seoTitle": "Ooznary (DOTS CORPORATION) — Kore cilt bakımı · Teranova",
+    "seoDesc": "Ooznary profili: Kore cilt bakımı — Vita3 ve Jet Blue serileri, güneş koruma, iki fazlı serumlar ve kağıt maskeler. B2B talepler Teranova üzerinden."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yok.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": "Ürün yelpazesi şirketin materyallerine göre anlatılmıştır. Hacimler, formüller ve özellikler talep üzerine teyit edilir.",
+    "gallery_h": "Şirket materyalleri",
+    "gallery_note": "Görseller, DOTS CORPORATION’ın Teranova’ya sağladığı marka sunumundan alınmıştır. Bunlar şirketin materyalleridir, bizim fabrika ziyaretimiz değildir."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "content": {
+    "tagline": "韓国スキンケア：トーンケア、保湿、UVケア",
+    "descriptor": "Ooznary — DOTS CORPORATION の韓国スキンケアブランド",
+    "origin": "大韓民国",
+    "about": [
+      "Ooznary は韓国企業 DOTS CORPORATION のスキンケアブランドです。ブランドの考え方：健やかな肌はメイクではなくスキンケアから始まる。ブランド名は英語の ooze と ordinary を組み合わせたものです。",
+      "製品はラインごとに構成されています：均一な肌トーンのための Vita3、保湿の Jet Blue、日焼け止め Rest and The Sun、二層美容液 Micro Oil Blender 37、シートマスク。",
+      "ブランド製品は米国のオンライン（Amazon、TikTok Shop を含む）、日本、ベトナム、中国のオンライン、シンガポールのライブコマースで販売されています。拡大の優先市場はトルコと新規市場です。"
+    ],
+    "facts": [
+      "大韓民国",
+      "スキンケア",
+      "化粧水、美容液、クリーム、UVケア、マスク",
+      "拡大優先市場：トルコ"
+    ],
+    "channels": [
+      "化粧品の輸入業者・販売代理店",
+      "化粧品小売チェーン",
+      "マーケットプレイス・オンラインストア"
+    ],
+    "lines": [
+      {
+        "name": "Vita3",
+        "note": "トーンケアライン：ACE Aurora トナー、Aurora Mist、Vita3 Serum、夜用 BBC Pudding Cream。ビタミンコンプレックスがベース。"
+      },
+      {
+        "name": "Jet Blue",
+        "note": "保湿ライン：化粧水、美容液、クリーム。パンテノール、アミノ酸、ヒアルロン酸、セラミドを配合。"
+      },
+      {
+        "name": "Rest and The Sun",
+        "note": "軽いローションテクスチャーで、ホワイトジンジャーリリーエキスを配合した日焼け止め。"
+      },
+      {
+        "name": "Micro Oil Blender 37",
+        "note": "3種類の二層美容液：アゼライン酸、ツボクサ PDRN、レチノール。"
+      },
+      {
+        "name": "シートマスク",
+        "note": "主力製品をもとにした4種類のマスク：Vita 3、Azelaic Cica、Centella PDRN、Retinol AHA。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "オイルと水分 3:7",
+        "note": "Micro Oil Blender 37 美容液は油層と水層を3:7の比率で組み合わせ、使用前にボトルを振って混ぜます。"
+      }
+    ],
+    "formats": [
+      "Ooznary ブランドの完成品",
+      "化粧水、ミスト、美容液、クリーム、UVケア、シートマスク",
+      "容量・セット構成はご要望に応じて"
+    ],
+    "exportNote": "日本、ベトナム、中国への供給は Teranova を通じてご提案していません。CIS 諸国には制限があり、供給の可否は案件ごとに企業と協議します。処方、表示、証明書、各国の登録は、取引前に対象市場とプロジェクトに合わせて確認します。価格、最低発注数量、非公開の取引条件は公開しません。",
+    "terms": [
+      {
+        "label": "協力",
+        "value": "Teranova を通じた B2B のお問い合わせと交渉。"
+      },
+      {
+        "label": "地域",
+        "value": "日本、ベトナム、中国を除く。CIS は企業の同意がある場合のみ。"
+      },
+      {
+        "label": "価格と最低発注数量",
+        "value": "お問い合わせに応じて。公開しません。"
+      }
+    ],
+    "consentNote": "DOTS CORPORATION は2026年10月14日、企業プロフィールと Ooznary 製品ページのために、Ooznary 公式サイトの情報および同社が提供または承認した資料を Teranova のウェブサイトで使用、翻訳、掲載することを書面で Teranova に許可しました。この許可は非独占的であり、商標権を移転せず、Teranova に独占的な販売権や流通権を与えるものではありません。",
+    "seoTitle": "Ooznary (DOTS CORPORATION) — 韓国スキンケア · Teranova",
+    "seoDesc": "Ooznary のプロフィール：Vita3・Jet Blue ライン、UVケア、二層美容液、シートマスク。B2B のお問い合わせは Teranova へ。"
+  },
+  "ui": {
+    "profile_sup": "サプライヤープロフィール",
+    "about_h": "会社について",
+    "for_whom": "こんな方に:",
+    "lines_h": "製品ライン",
+    "catalog_h": "製品カタログ",
+    "tech_h": "技術",
+    "formats_h": "製品の形態",
+    "export_h": "輸出と市場",
+    "terms_h": "協業条件",
+    "download_btn": "協業条件をダウンロード (PDF)",
+    "pres_btn": "ブランド資料をダウンロード (PDF)",
+    "terms_disc": "お問い合わせに応じて。公開価格表はありません。",
+    "cta_h": "このサプライヤーにご関心がありますか？",
+    "cta_d": "ご連絡ください — Teranova が初回の接触から納品まで、交渉と確認、取引全体を進めます。",
+    "cta_btn": "Teranova を通じて問い合わせる",
+    "more": "プロフィールを開く →",
+    "verified_suppliers": "確認済みサプライヤー",
+    "certs_h": "認証",
+    "certs_note": "",
+    "products_h": "製品",
+    "products_note": "製品構成は企業の資料に基づいて記載しています。容量、成分、仕様はお問い合わせに応じて確認します。",
+    "gallery_h": "企業の資料",
+    "gallery_note": "画像は DOTS CORPORATION が Teranova に提供したブランド紹介資料から引用しています。企業の資料であり、当社の工場訪問の写真ではありません。"
+  }
+}

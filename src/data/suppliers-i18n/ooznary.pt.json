@@ -1,0 +1,99 @@
+{
+  "content": {
+    "tagline": "Skincare coreano: tom uniforme, hidratação, proteção solar",
+    "descriptor": "Ooznary — uma marca coreana de cuidados com a pele da DOTS CORPORATION",
+    "origin": "República da Coreia",
+    "about": [
+      "Ooznary é uma marca de cuidados com a pele da empresa coreana DOTS CORPORATION. O princípio da marca: pele saudável começa pelo cuidado, não pela maquiagem. O nome une as palavras inglesas “ooze” e “ordinary”.",
+      "A linha está organizada em séries: Vita3 para um tom uniforme, Jet Blue para hidratação, o protetor solar Rest and The Sun, os séruns bifásicos Micro Oil Blender 37 e máscaras de tecido.",
+      "Os produtos da marca são vendidos online nos EUA, incluindo Amazon e TikTok Shop, no Japão, no Vietnã, online na China e por live commerce em Singapura. A prioridade de expansão é a Turquia, além de outros mercados novos."
+    ],
+    "facts": [
+      "República da Coreia",
+      "Cuidados com a pele",
+      "Tônicos, séruns, cremes, proteção solar, máscaras",
+      "Prioridade de expansão: Turquia"
+    ],
+    "channels": [
+      "Importadores e distribuidores de cosméticos",
+      "Redes de varejo de cosméticos",
+      "Marketplaces e lojas online"
+    ],
+    "lines": [
+      {
+        "name": "Vita3",
+        "note": "Série para tom uniforme: tônico ACE Aurora, Aurora Mist, Vita3 Serum e o creme noturno BBC Pudding Cream. Baseada em complexos vitamínicos."
+      },
+      {
+        "name": "Jet Blue",
+        "note": "Série hidratante: tônico, sérum e creme. As fórmulas contêm pantenol, aminoácidos, ácido hialurônico e ceramidas."
+      },
+      {
+        "name": "Rest and The Sun",
+        "note": "Protetor solar de textura leve de loção com extrato de lírio-do-brejo branco."
+      },
+      {
+        "name": "Micro Oil Blender 37",
+        "note": "Séruns bifásicos em três versões: ácido azelaico, centella com PDRN e retinol."
+      },
+      {
+        "name": "Máscaras de tecido",
+        "note": "Quatro máscaras baseadas nos produtos principais: Vita 3, Azelaic Cica, Centella PDRN e Retinol AHA."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Óleo e água na proporção 3:7",
+        "note": "Nos séruns Micro Oil Blender 37 as fases oleosa e aquosa são combinadas na proporção 3:7; o frasco é agitado antes do uso."
+      }
+    ],
+    "formats": [
+      "Produtos acabados da marca Ooznary",
+      "Tônicos, brumas, séruns, cremes, proteção solar, máscaras de tecido",
+      "Tamanhos e kits sob consulta"
+    ],
+    "exportNote": "O fornecimento para Japão, Vietnã e China não é oferecido pela Teranova. Para os países da CEI há restrições: o fornecimento é discutido com a empresa caso a caso. Fórmula, rotulagem, certificados e registros são confirmados para o mercado e o projeto específicos antes do acordo. Preços, pedido mínimo e condições comerciais confidenciais não são publicados.",
+    "terms": [
+      {
+        "label": "Cooperação",
+        "value": "Consultas B2B e negociações pela Teranova."
+      },
+      {
+        "label": "Geografia",
+        "value": "Exceto Japão, Vietnã e China; CEI apenas com acordo da empresa."
+      },
+      {
+        "label": "Preço e pedido mínimo",
+        "value": "Sob consulta; não publicados."
+      }
+    ],
+    "consentNote": "Em 14 de outubro de 2026, a DOTS CORPORATION autorizou por escrito a Teranova a usar, traduzir e publicar no site da Teranova informações do site oficial da Ooznary e de materiais fornecidos ou aprovados pela empresa, para um perfil da empresa e páginas de produtos Ooznary. A autorização não é exclusiva: não transfere direitos de marca nem concede à Teranova direitos exclusivos de venda ou distribuição.",
+    "seoTitle": "Ooznary (DOTS CORPORATION) — skincare coreano · Teranova",
+    "seoDesc": "Perfil da Ooznary: skincare coreano — séries Vita3 e Jet Blue, proteção solar, séruns bifásicos e máscaras de tecido. Consultas B2B pela Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil do fornecedor",
+    "about_h": "Sobre a empresa",
+    "for_whom": "Para quem serve:",
+    "lines_h": "Linhas de produto",
+    "catalog_h": "Catálogo de produtos",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formatos de produto",
+    "export_h": "Exportação e mercados",
+    "terms_h": "Condições de cooperação",
+    "download_btn": "Baixar condições (PDF)",
+    "pres_btn": "Baixar apresentação (PDF)",
+    "terms_disc": "Sob consulta; sem tabela de preços pública.",
+    "cta_h": "Ficou interessado neste fornecedor?",
+    "cta_d": "Fale conosco — a Teranova organiza a negociação, as verificações e toda a operação, do primeiro contato à entrega.",
+    "cta_btn": "Falar através da Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Fornecedores verificados",
+    "certs_h": "Certificações",
+    "certs_note": "",
+    "products_h": "Produtos",
+    "products_note": "A linha é descrita com base nos materiais da empresa. Tamanhos, fórmulas e especificações são confirmados sob consulta.",
+    "gallery_h": "Materiais da empresa",
+    "gallery_note": "As imagens foram retiradas da apresentação da marca que a DOTS CORPORATION forneceu à Teranova. São materiais da empresa, não uma visita nossa à fábrica."
+  }
+}

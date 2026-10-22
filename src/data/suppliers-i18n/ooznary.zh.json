@@ -1,0 +1,99 @@
+{
+  "content": {
+    "tagline": "韩国护肤：均匀肤色、补水、防晒",
+    "descriptor": "Ooznary — DOTS CORPORATION 旗下韩国护肤品牌",
+    "origin": "大韩民国",
+    "about": [
+      "Ooznary 是韩国公司 DOTS CORPORATION 旗下的护肤品牌。品牌理念：健康的肌肤始于护肤，而非彩妆。品牌名称由英文单词 ooze 和 ordinary 组合而成。",
+      "产品按系列划分：均匀肤色的 Vita3、补水的 Jet Blue、防晒霜 Rest and The Sun、双相精华 Micro Oil Blender 37 以及片状面膜。",
+      "品牌产品在美国线上（包括 Amazon 和 TikTok Shop）、日本、越南、中国线上以及新加坡直播电商销售。扩张重点为土耳其及其他新市场。"
+    ],
+    "facts": [
+      "大韩民国",
+      "护肤",
+      "爽肤水、精华、面霜、防晒、面膜",
+      "扩张重点：土耳其"
+    ],
+    "channels": [
+      "化妆品进口商和经销商",
+      "化妆品零售连锁",
+      "电商平台和网店"
+    ],
+    "lines": [
+      {
+        "name": "Vita3",
+        "note": "均匀肤色系列：ACE Aurora 爽肤水、Aurora Mist 喷雾、Vita3 Serum 精华和夜间 BBC Pudding Cream 布丁霜。以维生素复合物为基础。"
+      },
+      {
+        "name": "Jet Blue",
+        "note": "补水系列：爽肤水、精华和面霜。成分包括泛醇、氨基酸、透明质酸和神经酰胺。"
+      },
+      {
+        "name": "Rest and The Sun",
+        "note": "质地轻盈如乳液的防晒霜，含白姜花提取物。"
+      },
+      {
+        "name": "Micro Oil Blender 37",
+        "note": "三款双相精华：壬二酸、积雪草 PDRN、视黄醇。"
+      },
+      {
+        "name": "片状面膜",
+        "note": "基于核心产品的四款面膜：Vita 3、Azelaic Cica、Centella PDRN 和 Retinol AHA。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "油水比例 3:7",
+        "note": "Micro Oil Blender 37 精华的油相与水相按 3:7 比例组合，使用前摇匀。"
+      }
+    ],
+    "formats": [
+      "Ooznary 品牌成品",
+      "爽肤水、喷雾、精华、面霜、防晒、片状面膜",
+      "规格和组合可按需提供"
+    ],
+    "exportNote": "Teranova 不提供向日本、越南和中国的供货。独联体国家存在限制，是否供货须逐案与公司协商。配方、标签、证书和各国注册在交易前按具体市场和项目确认。价格、最低订购量和保密商务条款不予公开。",
+    "terms": [
+      {
+        "label": "合作",
+        "value": "通过 Teranova 进行 B2B 询盘和谈判。"
+      },
+      {
+        "label": "地区",
+        "value": "日本、越南和中国除外；独联体国家须经公司同意。"
+      },
+      {
+        "label": "价格和最低订购量",
+        "value": "按需提供；不公开。"
+      }
+    ],
+    "consentNote": "2026年10月14日，DOTS CORPORATION 书面授权 Teranova 在 Teranova 网站上使用、翻译和发布 Ooznary 官网信息以及公司提供或批准的资料，用于公司简介和 Ooznary 产品页面。该授权为非独家授权：不转让商标权，也不授予 Teranova 独家销售或分销权。",
+    "seoTitle": "Ooznary (DOTS CORPORATION) — 韩国护肤 · Teranova",
+    "seoDesc": "Ooznary 简介：韩国护肤——Vita3 和 Jet Blue 系列、防晒、双相精华和片状面膜。通过 Teranova 进行 B2B 询盘。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "按需提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": "产品范围依据公司资料描述。规格、成分和参数按需确认。",
+    "gallery_h": "公司资料",
+    "gallery_note": "图片取自 DOTS CORPORATION 向 Teranova 提供的品牌介绍。这些是公司资料，而非我们的工厂参观照片。"
+  }
+}

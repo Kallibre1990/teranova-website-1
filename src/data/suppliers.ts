@@ -429,6 +429,19 @@ import duCosmeticEs from './suppliers-i18n/du-cosmetic.es.json';
 import duCosmeticPt from './suppliers-i18n/du-cosmetic.pt.json';
 import duCosmeticHe from './suppliers-i18n/du-cosmetic.he.json';
 import duCosmeticHi from './suppliers-i18n/du-cosmetic.hi.json';
+import ooznaryRu from './suppliers-i18n/ooznary.ru.json';
+import ooznaryEn from './suppliers-i18n/ooznary.en.json';
+import ooznaryKo from './suppliers-i18n/ooznary.ko.json';
+import ooznaryZh from './suppliers-i18n/ooznary.zh.json';
+import ooznaryJa from './suppliers-i18n/ooznary.ja.json';
+import ooznaryIt from './suppliers-i18n/ooznary.it.json';
+import ooznaryDe from './suppliers-i18n/ooznary.de.json';
+import ooznaryFr from './suppliers-i18n/ooznary.fr.json';
+import ooznaryTr from './suppliers-i18n/ooznary.tr.json';
+import ooznaryEs from './suppliers-i18n/ooznary.es.json';
+import ooznaryPt from './suppliers-i18n/ooznary.pt.json';
+import ooznaryHe from './suppliers-i18n/ooznary.he.json';
+import ooznaryHi from './suppliers-i18n/ooznary.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -2733,6 +2746,27 @@ export const suppliers: SupplierProfile[] = [
     gallery: ['/img/suppliers/du-cosmetic/gallery/line.jpg'],
     i18n: {
       ru: mk(duCosmeticRu as any), en: mk(duCosmeticEn as any), ko: mk(duCosmeticKo as any), zh: mk(duCosmeticZh as any), ja: mk(duCosmeticJa as any), it: mk(duCosmeticIt as any), de: mk(duCosmeticDe as any), fr: mk(duCosmeticFr as any), tr: mk(duCosmeticTr as any), es: mk(duCosmeticEs as any), pt: mk(duCosmeticPt as any), he: mk(duCosmeticHe as any), hi: mk(duCosmeticHi as any),
+    },
+  },
+  {
+    slug: 'ooznary',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'DOTS CORPORATION',
+    brand: 'Ooznary',
+    status: 'provided',
+    brandColors: { deep: '#1F2019', sky: '#DDE3B4', accent: '#7C8A3E', bg: '#F7F7EE' },
+    voice: 'minimal',
+    /* DOTS CORPORATION gave written, non-exclusive permission on 14.10.2026
+       for a company profile and Ooznary product pages based on its official
+       website and the materials it provided or approved.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/07_OOZNARY.md.
+       Prices, MOQ, certificates, K-FDA functional claims, clinical figures and
+       contacts are intentionally excluded. Japan, Vietnam and China are not
+       offered as destinations (exclusive distributors); CIS only by agreement. */
+    gallery: ['/img/suppliers/ooznary/gallery/lineup.jpg', '/img/suppliers/ooznary/gallery/micro-oil-blender.jpg'],
+    i18n: {
+      ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
     },
   },
   {
