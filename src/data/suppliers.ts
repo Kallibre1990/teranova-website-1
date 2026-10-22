@@ -1063,16 +1063,16 @@ const agingTargetEn: SupplierContent = {
   tagline: 'Research programs for licensing',
   descriptor: 'Korean developer of small-molecule candidates for atherosclerosis and Alzheimer’s disease.',
   origin: 'Korea',
-  about: ['AgingTarget Inc. is a Korean company developing small-molecule drug candidates. According to the company as of 5 October 2026, its two research programs address atherosclerosis through vascular ageing and Alzheimer’s disease.', 'The company places both candidates at the preclinical stage. This is the company’s statement, not an assessment by Teranova; the profile contains no efficacy claims or comparisons with approved medicines.'],
-  facts: ['Two research programs: atherosclerosis and Alzheimer’s disease', 'Small-molecule candidates', 'Preclinical, according to the company as of 5 October 2026', 'Licensing-out after preclinical work or Phase 1, according to the company'],
+  about: ['AgingTarget Inc. is a Korean company developing small-molecule drug candidates. According to the company as of 5 October 2026, its two research programs address atherosclerosis through vascular ageing and Alzheimer’s disease.', 'The company places both candidates before the preclinical stage. This is the company’s statement, not an assessment by Teranova; the profile contains no efficacy claims or comparisons with approved medicines.'],
+  facts: ['Two research programs: atherosclerosis and Alzheimer’s disease', 'Small-molecule candidates', 'Pre-preclinical, according to the company as of 5 October 2026', 'Licensing-out after preclinical work or Phase 1, according to the company'],
   channels: ['Pharmaceutical companies for licensing-in', 'Investors', 'Collaborative research partners', 'Technology-transfer and market-entry partners'],
-  lines: [{ name: 'Atherosclerosis', note: 'Small-molecule research candidate associated by the company with vascular ageing.' }, { name: 'Alzheimer’s disease', note: 'Small-molecule research candidate which the company places at the preclinical stage.' }],
+  lines: [{ name: 'Atherosclerosis', note: 'Small-molecule research candidate associated by the company with vascular ageing.' }, { name: 'Alzheimer’s disease', note: 'Small-molecule research candidate which the company places before the preclinical stage.' }],
   tech: [{ name: 'Stage and information', note: 'Stage, programs and partnership model are based on company materials dated 5 October 2026. Teranova makes no claim about candidate efficacy.' }],
   formats: ['Small-molecule research candidates'],
   exportNote: 'The company seeks investment, collaborative research, technology transfer and market-entry partners. Terms are discussed through Teranova for a specific enquiry.',
   consentNote: 'The company gave written consent for this profile. It uses the company’s reduced materials and excludes information the company reserved.',
   seoTitle: 'AgingTarget — research programs for licensing · Teranova',
-  seoDesc: 'AgingTarget Inc.: small-molecule research candidates for atherosclerosis and Alzheimer’s disease, preclinical according to the company as of 5 October 2026.',
+  seoDesc: 'AgingTarget Inc.: small-molecule research candidates for atherosclerosis and Alzheimer’s disease, before the preclinical stage according to the company as of 5 October 2026.',
   /* Without this override agingTargetEn inherited agingTargetRu's Russian ui
      block via the spread above — every non-ru locale showed Russian chrome
      (headings, buttons) around English/machine-locale body text
