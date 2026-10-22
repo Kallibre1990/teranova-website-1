@@ -1,0 +1,102 @@
+{
+  "content": {
+    "tagline": "Şirketin kendi geliştirdiği emzikli ambalajda makyaj ürünleri",
+    "descriptor": "DU Cosmetic Co., Ltd. — kitle pazarı için makyaj ürünleri üreten Koreli üretici",
+    "origin": "Kore Cumhuriyeti",
+    "about": [
+      "DU Cosmetic Co., Ltd., kitle pazarı için makyaj ürünleri üreten bir Kore firmasıdır. Şirket kendi emzikli ambalajını (dozaj ağızlı poşet) geliştirmiştir.",
+      "Ürünleri Kore’nin büyük düşük fiyatlı perakende zincirlerinde satılmaktadır. Ürün yelpazesinde dudak tinti, maskara, likit eyeliner, kapatıcı, fondöten, dudak ve yanak ürünleri, dudak parlatıcısı ve dolgunlaştırıcıları ile diğer makyaj ürünleri bulunur."
+    ],
+    "facts": [
+      "Kore Cumhuriyeti",
+      "Kitle pazarı için makyaj ürünleri",
+      "Kendi emzikli ambalajı",
+      "Talep üzerine OEM/ODM ve özel marka"
+    ],
+    "channels": [
+      "Kozmetik ithalatçıları ve distribütörleri",
+      "Kitle pazarı perakende zincirleri",
+      "Pazar yerleri"
+    ],
+    "lines": [
+      {
+        "name": "Dudak tintleri",
+        "note": "Renkler ve özellikler talep üzerine."
+      },
+      {
+        "name": "Maskara",
+        "note": "Çeşitler ve özellikler talep üzerine."
+      },
+      {
+        "name": "Likit eyeliner",
+        "note": "Çeşitler ve özellikler talep üzerine."
+      },
+      {
+        "name": "Kapatıcı ve fondöten",
+        "note": "Renkler ve özellikler talep üzerine."
+      },
+      {
+        "name": "Dudak ve yanak",
+        "note": "Renkler ve özellikler talep üzerine."
+      },
+      {
+        "name": "Dudak parlatıcısı ve dolgunlaştırıcı",
+        "note": "Renkler ve özellikler talep üzerine."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Emzikli ambalaj",
+        "note": "Şirketin kendi geliştirmesi: makyaj ürünleri için dozaj ağızlı ambalaj."
+      }
+    ],
+    "formats": [
+      "Emzikli ambalaj",
+      "Şirket markasıyla bitmiş ürünler",
+      "Talep üzerine OEM/ODM ve özel marka"
+    ],
+    "exportNote": "Formül, etiketleme, sertifikalar ve ülke kayıtları anlaşmadan önce ilgili pazar ve proje için teyit edilir. Fiyatlar, minimum sipariş miktarı ve gizli ticari koşullar yayımlanmaz.",
+    "terms": [
+      {
+        "label": "İş birliği",
+        "value": "Teranova üzerinden B2B talepler ve görüşmeler."
+      },
+      {
+        "label": "Formatlar",
+        "value": "Bitmiş ürünler; talep üzerine OEM/ODM ve alıcının özel markası."
+      },
+      {
+        "label": "Fiyat ve minimum sipariş",
+        "value": "Talep üzerine; yayımlanmaz."
+      }
+    ],
+    "consentNote": "DU Cosmetic Co., Ltd., 7 Ekim 2026’da, sağladığı resmi materyallere dayanarak şirket ve marka profili ile ürün sayfaları oluşturup yayımlaması için Teranova’ya yazılı izin verdi. Yayın herhangi bir hak devri veya münhasırlık anlamına gelmez.",
+    "seoTitle": "DU Cosmetic — emzikli ambalajda Kore makyaj ürünleri · Teranova",
+    "seoDesc": "DU Cosmetic profili: şirketin kendi emzikli ambalajında kitle pazarı makyaj ürünleri. Talep üzerine OEM/ODM. B2B talepler Teranova üzerinden."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; açık fiyat listesi yok.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": "Ürün yelpazesi şirketin materyallerine göre tanımlanmıştır. Renkler, hacimler ve özellikler talep üzerine teyit edilir.",
+    "gallery_h": "Şirket materyalleri",
+    "gallery_note": "Ürün serisi görseli, DU Cosmetic tarafından 7 Ekim 2026 tarihli yazılı izinle birlikte sağlanmıştır. Bunlar şirket materyalleridir, kendi fabrika ziyaretimiz değildir."
+  }
+}
