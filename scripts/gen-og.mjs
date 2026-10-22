@@ -121,6 +121,7 @@ const SUPPLIERS = {
   'vegan-nature': { eyebrow: 'Supplier profile', title: 'Vegan Nature — Korean solid shampoo and treatment bars', accent: '#7AC7A6' },
   chaewun: { eyebrow: 'Supplier profile', title: 'CHAEWUN — Korean Pudding Mist Ampoules by Twelve Global', accent: '#CE6F93' },
   acfit: { eyebrow: 'Supplier profile', title: 'ACFIT — Korean professional skincare, V-SANG BETA-G line', accent: '#3B8FA8' },
+  'plk-lift': { eyebrow: 'Supplier profile', title: 'PLK Lift — Chinese spider cranes, boom lifts and vacuum lifters', accent: '#2E8B57' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));

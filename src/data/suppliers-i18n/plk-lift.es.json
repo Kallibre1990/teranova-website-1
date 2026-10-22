@@ -1,0 +1,113 @@
+{
+  "content": {
+    "tagline": "Fabricante chino de plataformas elevadoras y elevadores de vacío",
+    "descriptor": "Jinan PLK Machinery: grúas araña, plataformas de brazo, plataformas de tijera y elevadores de vacío para construcción, acristalamiento, almacenes y mantenimiento industrial",
+    "origin": "China",
+    "about": [
+      "Según su sitio web oficial, Jinan PLK Machinery Co., Ltd. se fundó en 2003 en Jinan, provincia de Shandong, y se ha convertido en fabricante de plataformas de trabajo en altura, máquinas de elevación y montacargas. La empresa afirma que diseña y fabrica sus propias máquinas, con equipos propios de I+D, producción, control de calidad y ventas de exportación.",
+      "La empresa presenta las grúas araña, minigrúas compactas sobre orugas con control remoto, como su línea principal. También fabrica plataformas de brazo articulado y telescópico, plataformas de tijera y elevadores de vacío para vidrio, chapa metálica, losas de piedra y paneles de plástico.",
+      "PLK declara más de 500 empleados, incluido su propio equipo de ingeniería, y afirma que sus máquinas se usan en construcción, mantenimiento industrial, logística de almacén, instalación de vidrio y proyectos de infraestructura. Son datos de la empresa; Teranova no los ha verificado de forma independiente."
+    ],
+    "facts": [
+      "Fundada en 2003 en Jinan, Shandong (datos de la empresa)",
+      "Línea principal: grúas araña de 1 a 8 t",
+      "Plataformas de brazo con 14–52 m de altura de trabajo",
+      "Versiones a medida (OEM/ODM); precio a consultar"
+    ],
+    "channels": [
+      "Concesionarios y distribuidores de maquinaria de construcción",
+      "Constructoras, vidrieras e instaladores",
+      "Almacenes, empresas de logística y plantas industriales"
+    ],
+    "lines": [
+      {
+        "name": "Grúas araña",
+        "note": "Según la empresa, minigrúas compactas sobre orugas con control remoto y capacidad de 1 a 8 t. Pasan por puertas estándar y trabajan sobre suelos delicados."
+      },
+      {
+        "name": "Plataformas de brazo",
+        "note": "Según la empresa, de brazo articulado y telescópico, con altura de trabajo de 14 a 52 m. El brazo articulado permite trabajar por encima de obstáculos."
+      },
+      {
+        "name": "Plataformas de tijera",
+        "note": "Según la empresa, móviles y autopropulsadas, con plataforma de hasta 2,5 × 1,5 m y extensión deslizante. Tracción eléctrica para trabajar en silencio en interiores."
+      },
+      {
+        "name": "Elevadores de vacío",
+        "note": "Para vidrio, chapa metálica, losas de piedra y paneles de plástico. Según la empresa, hasta 500 kg en equipos de un solo panel y 2.000 kg o más en sistemas modulares."
+      },
+      {
+        "name": "Otros equipos de elevación y manipulación",
+        "note": "El catálogo de la empresa incluye también mesas elevadoras, grúas de taller, recogepedidos, montacargas, rampas de carga, salvaescaleras y elevadores para sillas de ruedas."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Versiones a medida (OEM/ODM)",
+        "note": "La empresa ofrece servicios OEM y ODM: logotipo, embalaje, colores y materiales, además de cambios para una obra concreta, como extensiones de plataforma u otra posición del panel de mando."
+      },
+      {
+        "name": "Diseño y control de calidad",
+        "note": "PLK describe modelado 3D y análisis por elementos finitos en la fase de diseño, y controles de calidad en cinco puntos, desde la recepción de materias primas hasta la prueba final de funcionamiento."
+      },
+      {
+        "name": "Circuitos de vacío redundantes",
+        "note": "Según la empresa, sus sistemas de vacío tienen circuitos redundantes: si uno falla, el de reserva entra de inmediato y la carga no cae."
+      }
+    ],
+    "formats": [
+      "Grúa araña",
+      "Plataforma de brazo articulado",
+      "Plataforma de brazo telescópico",
+      "Plataforma de tijera",
+      "Elevador de vacío",
+      "Mesa elevadora",
+      "Grúa de taller",
+      "Recogepedidos",
+      "Montacargas",
+      "Rampa de carga",
+      "Salvaescaleras y elevador para sillas de ruedas"
+    ],
+    "exportNote": "Jinan PLK Machinery autorizó por escrito el uso, la traducción y la publicación de los materiales sobre la empresa y sus productos que figuran en su sitio web oficial. El precio se indica bajo consulta. Certificaciones, territorios de distribución, precios, contactos directos y fotos de producto no se publican aquí; se confirman para una consulta concreta.",
+    "terms": [
+      {
+        "label": "Cooperación",
+        "value": "Consultas B2B a través de Teranova."
+      },
+      {
+        "label": "Precio",
+        "value": "A consultar."
+      },
+      {
+        "label": "Configuración",
+        "value": "Las versiones a medida (OEM/ODM) se tratan para una consulta concreta."
+      }
+    ],
+    "consentNote": "Este perfil se basa en los materiales del sitio web oficial de Jinan PLK Machinery, con autorización escrita del 17 de septiembre de 2026. Las cifras y descripciones de producto son declaraciones de la empresa. Teranova redactó el texto; la empresa no ha revisado esta página.",
+    "seoTitle": "PLK Lift — grúas araña, plataformas elevadoras y elevadores de vacío de China · Teranova",
+    "seoDesc": "Perfil de Jinan PLK Machinery: fabricante chino desde 2003 — grúas araña de 1–8 t, plataformas de brazo de 14–52 m, plataformas de tijera y elevadores de vacío. Precio a consultar. B2B a través de Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Bajo consulta; no hay lista pública de precios.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "",
+    "products_h": "Productos",
+    "products_note": ""
+  }
+}
