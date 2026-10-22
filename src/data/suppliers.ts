@@ -336,6 +336,19 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import acfitRu from './suppliers-i18n/acfit.ru.json';
+import acfitEn from './suppliers-i18n/acfit.en.json';
+import acfitKo from './suppliers-i18n/acfit.ko.json';
+import acfitZh from './suppliers-i18n/acfit.zh.json';
+import acfitJa from './suppliers-i18n/acfit.ja.json';
+import acfitIt from './suppliers-i18n/acfit.it.json';
+import acfitDe from './suppliers-i18n/acfit.de.json';
+import acfitFr from './suppliers-i18n/acfit.fr.json';
+import acfitTr from './suppliers-i18n/acfit.tr.json';
+import acfitEs from './suppliers-i18n/acfit.es.json';
+import acfitPt from './suppliers-i18n/acfit.pt.json';
+import acfitHe from './suppliers-i18n/acfit.he.json';
+import acfitHi from './suppliers-i18n/acfit.hi.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -2612,6 +2625,28 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
       ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+    },
+  },
+  {
+    slug: 'acfit',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'ACFIT',
+    brand: 'ACFIT · V-SANG BETA-G',
+    status: 'provided',
+    brandColors: { deep: '#1E3A4C', sky: '#9CC9D8', accent: '#3B8FA8', bg: '#F2F7F9' },
+    voice: 'clinical',
+    /* Written permission of 14.09.2026 (mail 1a09ee3e09d62262) covers a company
+       and brand profile with product pages. Facts come only from ACFIT's own
+       presentation (mail 1a0cc4403cb447c8, 23.09.2026) and are attributed to
+       the company. Export price on request, FOB — the company's choice.
+       Excluded on purpose: CPNP/SCPN/MoCRA (documents not opened), distribution
+       territories, prices, MOQ, direct contacts, product photos and logo (image
+       rights not named separately), sensitive-skin positioning (no answer yet).
+       The company's question about which countries see the profile is open in
+       CRM; it does not block publication under D-1000. T-20261021-029. */
+    i18n: {
+      ru: mk(acfitRu as any), en: mk(acfitEn as any), ko: mk(acfitKo as any), zh: mk(acfitZh as any), ja: mk(acfitJa as any), it: mk(acfitIt as any), de: mk(acfitDe as any), fr: mk(acfitFr as any), tr: mk(acfitTr as any), es: mk(acfitEs as any), pt: mk(acfitPt as any), he: mk(acfitHe as any), hi: mk(acfitHi as any),
     },
   },
   {

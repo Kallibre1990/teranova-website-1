@@ -1,0 +1,113 @@
+{
+  "content": {
+    "tagline": "Korean professional skincare brand born in an aesthetic spa",
+    "descriptor": "ACFIT and its V-SANG BETA-G line: care built around cooling, the skin barrier and microbiome balance, for treatment rooms and home care",
+    "origin": "Republic of Korea",
+    "about": [
+      "According to its own presentation, ACFIT is a professional skincare brand that originated at V-Medi Spa, an aesthetic centre in Bupyeong, Incheon. The company says its products were developed and refined in day-to-day spa practice before being offered to other professionals.",
+      "ACFIT describes its approach in three steps: cool the skin, restore the skin barrier, balance the microbiome. The name of the signature V-SANG line comes from the Korean word 비상 (bisang, “emergency”); “Beta-G” stands for β-glucan, which the company names as a shared ingredient of its core formulas.",
+      "The company states that ACFIT is used at about 250 aesthetic and skincare centres in Korea and that the current range has 14 products: 3 for professional use only and 11 for both treatments and home care. These are the company’s own figures; Teranova has not verified them independently."
+    ],
+    "facts": [
+      "Origin: V-Medi Spa, Incheon (company data)",
+      "14 products: 3 professional-only, 11 for treatments and home care",
+      "Signature line: V-SANG BETA-G",
+      "Export price on request, FOB"
+    ],
+    "channels": [
+      "Distributors serving aesthetic and skincare centres",
+      "Aesthetic and skincare centres and clinics",
+      "Importers of professional K-beauty"
+    ],
+    "lines": [
+      {
+        "name": "Cleansing and toning",
+        "note": "V-SANG BETA-G Secure Cleansing 200 mL; V-SANG BETA-G Secure Toner 200 mL / 1000 mL."
+      },
+      {
+        "name": "Gels and creams",
+        "note": "V-SANG Gel 300 mL / 1000 mL; V-SANG Cream 50 mL / 200 mL; V-SANG BETA-G Lacto Care Cream 150 mL."
+      },
+      {
+        "name": "Booster, ampoule and oil",
+        "note": "V-SANG BETA-G Infusing Skin Booster 100 mL; V-SANG BETA-G Lacto Care Ampoule 30 mL; V-SANG BETA-G Azulene Focus Oil 15 mL."
+      },
+      {
+        "name": "Masks",
+        "note": "V-SANG Pack ×10; V-SANG Clay Beta-G Immuca 180 mL."
+      },
+      {
+        "name": "Professional use only",
+        "note": "V-SANG BETA-G Secure Solution 5 mL ×5; V-SANG BETA-G Freeze-Dried Solution 6 mL ×5 + 15 mL ×5; V-SANG BETA-G Blue Peel Solution 1 g ×5 + 6 mL ×5. Supplied only to trained professionals at centres and clinics, according to the company."
+      },
+      {
+        "name": "Sun care",
+        "note": "V-SANG BETA-G Lacto Sun Cream 50 mL. Listed by the company as a new product; export availability is confirmed on request.",
+        "planned": true
+      }
+    ],
+    "tech": [
+      {
+        "name": "Product-mixing protocol",
+        "note": "The company describes combining Azulene Focus Oil, Skin Booster, V-SANG Gel and V-SANG Cream according to skin condition and climate. ACFIT trains its professional partners and provides treatment protocols."
+      },
+      {
+        "name": "Lightweight textures",
+        "note": "The company describes its formulas as light and non-greasy and positions them for treatment rooms and for hot, humid climates."
+      }
+    ],
+    "formats": [
+      "Cleansing foam",
+      "Toner",
+      "Gel",
+      "Cream",
+      "Skin booster",
+      "Ampoule",
+      "Facial oil",
+      "Sheet mask",
+      "Clay mask",
+      "Professional vial kits"
+    ],
+    "exportNote": "ACFIT gave written permission for a company and brand profile with product pages. The export price is quoted on request on FOB terms. Certificates, distribution territories, prices, direct contacts and product photos are not published here; they are confirmed for a specific enquiry.",
+    "terms": [
+      {
+        "label": "Cooperation",
+        "value": "B2B enquiries through Teranova."
+      },
+      {
+        "label": "Price",
+        "value": "On request, FOB."
+      },
+      {
+        "label": "Professional products",
+        "value": "Professional-only items go to trained professionals only, according to the company."
+      }
+    ],
+    "consentNote": "This profile is based on ACFIT’s own presentation under written permission dated 14 September 2026. Figures and product descriptions are the company’s statements. Teranova prepared the text; the company has not reviewed this page.",
+    "seoTitle": "ACFIT — Korean professional skincare, V-SANG BETA-G line · Teranova",
+    "seoDesc": "ACFIT profile: Korean professional skincare brand from an aesthetic spa, V-SANG BETA-G line, 14 products. Export price on request, FOB. B2B through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": ""
+  }
+}

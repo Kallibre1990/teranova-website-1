@@ -1,0 +1,113 @@
+{
+  "content": {
+    "tagline": "诞生于美容院的韩国专业护肤品牌",
+    "descriptor": "ACFIT 及其 V-SANG BETA-G 系列：围绕肌肤降温、皮肤屏障与微生态平衡的护理，适用于院线与居家",
+    "origin": "大韩民国",
+    "about": [
+      "根据公司自己的介绍资料，ACFIT 是起源于仁川富平美容中心 V-Medi Spa 的专业护肤品牌。公司表示，其产品先在美容院的日常护理中开发和改进，之后才提供给其他专业人士。",
+      "ACFIT 将其理念概括为三步：为肌肤降温、修复皮肤屏障、平衡微生态。招牌系列 V-SANG 的名字来自韩语“비상”（意为“紧急”）；“Beta-G”指 β-葡聚糖，公司称其为主要配方的共同成分。",
+      "据公司介绍，韩国约有 250 家美容及护肤中心使用 ACFIT；目前产品共 14 款，其中 3 款仅限专业使用，11 款可用于院线护理和居家护理。以上数字均为公司自述，Teranova 未作独立核实。"
+    ],
+    "facts": [
+      "起源：仁川 V-Medi Spa（公司资料）",
+      "14 款产品：3 款专业专用，11 款院线居家通用",
+      "招牌系列：V-SANG BETA-G",
+      "出口价格按询价提供，FOB"
+    ],
+    "channels": [
+      "面向美容及护肤中心的经销商",
+      "美容、护肤中心及诊所",
+      "专业韩妆进口商"
+    ],
+    "lines": [
+      {
+        "name": "清洁与爽肤",
+        "note": "V-SANG BETA-G Secure Cleansing 200 mL; V-SANG BETA-G Secure Toner 200 mL / 1000 mL."
+      },
+      {
+        "name": "凝胶与面霜",
+        "note": "V-SANG Gel 300 mL / 1000 mL; V-SANG Cream 50 mL / 200 mL; V-SANG BETA-G Lacto Care Cream 150 mL."
+      },
+      {
+        "name": "精华、安瓶与油",
+        "note": "V-SANG BETA-G Infusing Skin Booster 100 mL; V-SANG BETA-G Lacto Care Ampoule 30 mL; V-SANG BETA-G Azulene Focus Oil 15 mL."
+      },
+      {
+        "name": "面膜",
+        "note": "V-SANG Pack ×10; V-SANG Clay Beta-G Immuca 180 mL."
+      },
+      {
+        "name": "仅限专业使用",
+        "note": "V-SANG BETA-G Secure Solution 5 mL ×5; V-SANG BETA-G Freeze-Dried Solution 6 mL ×5 + 15 mL ×5; V-SANG BETA-G Blue Peel Solution 1 g ×5 + 6 mL ×5. 据公司介绍，仅供应给中心和诊所中受过培训的专业人士。"
+      },
+      {
+        "name": "防晒",
+        "note": "V-SANG BETA-G Lacto Sun Cream 50 mL. 公司将其列为新品；能否出口需询价时确认。",
+        "planned": true
+      }
+    ],
+    "tech": [
+      {
+        "name": "产品调配方案",
+        "note": "公司介绍了根据肤况和气候组合 Azulene Focus Oil、Skin Booster、V-SANG Gel 和 V-SANG Cream 的方法。ACFIT 为合作的专业人士提供培训和护理方案。"
+      },
+      {
+        "name": "轻盈质地",
+        "note": "公司称其配方轻盈不油腻，适合院线护理以及炎热潮湿的气候。"
+      }
+    ],
+    "formats": [
+      "洁面泡沫",
+      "爽肤水",
+      "凝胶",
+      "面霜",
+      "肌肤精华",
+      "安瓶",
+      "面部护理油",
+      "片状面膜",
+      "泥膜",
+      "专业安瓶套装"
+    ],
+    "exportNote": "ACFIT 已书面同意发布公司与品牌介绍及产品页面。出口价格按询价提供，FOB 条款。认证、经销区域、价格、直接联系方式和产品照片不在此公开，将针对具体询盘确认。",
+    "terms": [
+      {
+        "label": "合作",
+        "value": "通过 Teranova 进行 B2B 询盘。"
+      },
+      {
+        "label": "价格",
+        "value": "按询价提供，FOB。"
+      },
+      {
+        "label": "专业产品",
+        "value": "据公司介绍，仅供应给受过培训的专业人士。"
+      }
+    ],
+    "consentNote": "本介绍依据 2026 年 9 月 14 日的书面同意，以 ACFIT 自己的介绍资料为基础。数字和产品描述均为公司表述。文字由 Teranova 撰写，公司未审阅本页面。",
+    "seoTitle": "ACFIT — 韩国专业护肤，V-SANG BETA-G 系列 · Teranova",
+    "seoDesc": "ACFIT 介绍：诞生于美容院的韩国专业护肤品牌，V-SANG BETA-G 系列，14 款产品。出口价格按询价，FOB。经 Teranova 开展 B2B。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}
