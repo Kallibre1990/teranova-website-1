@@ -240,10 +240,10 @@ function monogram(name: string): string {
           <p class="sp-descriptor">{c.descriptor}</p>
           <div class="sp-meta">
             <span class={`sp-status${profile.status === 'visited' ? ' sp-status--visited' : ''}`}><span class="dot" aria-hidden="true"></span>{profile.status === 'visited' ? t.verify.card_visited_t : t.verify.card_provided_t}{profile.status === 'visited' && profile.visitDate ? ` · ${profile.visitDate}` : ''}</span>
-            <span class="sp-origin">
+            {c.origin && <span class="sp-origin">
               <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
               {c.origin}
-            </span>
+            </span>}
           </div>
         </div>
         {m && (

@@ -442,6 +442,19 @@ import ooznaryEs from './suppliers-i18n/ooznary.es.json';
 import ooznaryPt from './suppliers-i18n/ooznary.pt.json';
 import ooznaryHe from './suppliers-i18n/ooznary.he.json';
 import ooznaryHi from './suppliers-i18n/ooznary.hi.json';
+import hiyoRu from './suppliers-i18n/hiyo.ru.json';
+import hiyoEn from './suppliers-i18n/hiyo.en.json';
+import hiyoKo from './suppliers-i18n/hiyo.ko.json';
+import hiyoZh from './suppliers-i18n/hiyo.zh.json';
+import hiyoJa from './suppliers-i18n/hiyo.ja.json';
+import hiyoIt from './suppliers-i18n/hiyo.it.json';
+import hiyoDe from './suppliers-i18n/hiyo.de.json';
+import hiyoFr from './suppliers-i18n/hiyo.fr.json';
+import hiyoTr from './suppliers-i18n/hiyo.tr.json';
+import hiyoEs from './suppliers-i18n/hiyo.es.json';
+import hiyoPt from './suppliers-i18n/hiyo.pt.json';
+import hiyoHe from './suppliers-i18n/hiyo.he.json';
+import hiyoHi from './suppliers-i18n/hiyo.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -766,6 +779,10 @@ export interface SupplierProfile {
      splits by category. Omitted means Korea — that is where the platform
      started and where every supplier published before August 2026 sits. */
   country?: CountryKey;
+  /* True when no local primary source says where the company is based. The
+     catalog card, the profile header and the JSON-LD then carry no country at
+     all instead of falling back to Korea. */
+  countryUnconfirmed?: boolean;
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
@@ -2767,6 +2784,30 @@ export const suppliers: SupplierProfile[] = [
     gallery: ['/img/suppliers/ooznary/gallery/lineup.jpg', '/img/suppliers/ooznary/gallery/micro-oil-blender.jpg'],
     i18n: {
       ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
+    },
+  },
+  {
+    slug: 'hiyo',
+    category: 'cosmetics',
+    countryUnconfirmed: true,
+    name: 'HIYO',
+    brand: 'HIYO',
+    status: 'provided',
+    brandColors: { deep: '#22262B', sky: '#E3E6EA', accent: '#6B7480', bg: '#F6F7F8' },
+    voice: 'minimal',
+    /* Indirect consent only: on 14.09.2026 HIYO answered that it reviewed the
+       profile proposal positively and asked for our question/material list.
+       No materials and no permission to use, translate or publish materials
+       were received, so the page carries only neutral facts from that thread:
+       the brand name, the InterCHARM Korea 2026 meeting and the company's
+       interest in Latin America and North America. The country is not stated
+       by any local source about HIYO (the trade fair and the language of the
+       thread do not prove it), so it is left unknown. Product range, category
+       claims (scalp/hair care was our wording, not confirmed), images, prices,
+       MOQ, certificates and contacts are intentionally absent.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/09_HIYO.md. */
+    i18n: {
+      ru: mk(hiyoRu as any), en: mk(hiyoEn as any), ko: mk(hiyoKo as any), zh: mk(hiyoZh as any), ja: mk(hiyoJa as any), it: mk(hiyoIt as any), de: mk(hiyoDe as any), fr: mk(hiyoFr as any), tr: mk(hiyoTr as any), es: mk(hiyoEs as any), pt: mk(hiyoPt as any), he: mk(hiyoHe as any), hi: mk(hiyoHi as any),
     },
   },
   {

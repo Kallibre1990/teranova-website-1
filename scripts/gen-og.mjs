@@ -31,7 +31,7 @@ function wrap(text, max, maxLines) {
   return lines.slice(0, maxLines);
 }
 
-function card({ eyebrow, title, accent = '#3F7AE0' }) {
+function card({ eyebrow, title, accent = '#3F7AE0', footer = 'Verified Korean suppliers · full deal support' }) {
   const lines = wrap(title, 26, 3);
   const fs0 = lines.length >= 3 ? 60 : 68;
   const startY = 300 - (lines.length - 1) * (fs0 * 0.58);
@@ -63,7 +63,7 @@ function card({ eyebrow, title, accent = '#3F7AE0' }) {
       <rect x="12" y="14" width="28" height="5.2" rx="2.6" fill="#EDF1F6"/>
       <rect x="23.3" y="14" width="5.2" height="25" rx="2.6" fill="#EDF1F6"/>
       <text x="70" y="26" font-family="Manrope, 'DejaVu Sans', sans-serif" font-size="27" font-weight="800" letter-spacing="-0.5" fill="url(#metal)">Teranova <tspan fill="${accent}">Group</tspan></text>
-      <text x="70" y="48" font-family="Manrope, 'DejaVu Sans', sans-serif" font-size="17" font-weight="500" fill="#8598B4">Verified Korean suppliers · full deal support</text>
+      <text x="70" y="48" font-family="Manrope, 'DejaVu Sans', sans-serif" font-size="17" font-weight="500" fill="#8598B4">${esc(footer)}</text>
     </g>
   </svg>`;
 }
@@ -127,6 +127,9 @@ const SUPPLIERS = {
   koy: { eyebrow: 'Supplier profile', title: 'KOY by Brandholder — Korean premium skincare brand', accent: '#8D7D75' },
   'du-cosmetic': { eyebrow: 'Supplier profile', title: 'DU Cosmetic — Korean colour cosmetics in spout packaging', accent: '#B5605A' },
   ooznary: { eyebrow: 'Supplier profile', title: 'Ooznary — Korean skincare by DOTS CORPORATION', accent: '#7C8A3E' },
+  hiyo: { eyebrow: 'Supplier profile', title: 'HIYO — brand open to Latin America and North America', accent: '#6B7480',
+    /* Country and verification are not confirmed for HIYO, so not the default line. */
+    footer: 'B2B introductions · full deal support' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
