@@ -481,6 +481,19 @@ import toptrendEs from './suppliers-i18n/toptrend.es.json';
 import toptrendPt from './suppliers-i18n/toptrend.pt.json';
 import toptrendHe from './suppliers-i18n/toptrend.he.json';
 import toptrendHi from './suppliers-i18n/toptrend.hi.json';
+import mozScienceRu from './suppliers-i18n/moz-science.ru.json';
+import mozScienceEn from './suppliers-i18n/moz-science.en.json';
+import mozScienceKo from './suppliers-i18n/moz-science.ko.json';
+import mozScienceZh from './suppliers-i18n/moz-science.zh.json';
+import mozScienceJa from './suppliers-i18n/moz-science.ja.json';
+import mozScienceIt from './suppliers-i18n/moz-science.it.json';
+import mozScienceDe from './suppliers-i18n/moz-science.de.json';
+import mozScienceFr from './suppliers-i18n/moz-science.fr.json';
+import mozScienceTr from './suppliers-i18n/moz-science.tr.json';
+import mozScienceEs from './suppliers-i18n/moz-science.es.json';
+import mozSciencePt from './suppliers-i18n/moz-science.pt.json';
+import mozScienceHe from './suppliers-i18n/moz-science.he.json';
+import mozScienceHi from './suppliers-i18n/moz-science.hi.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -2881,6 +2894,27 @@ export const suppliers: SupplierProfile[] = [
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/11_TOPTREND.md. */
     i18n: {
       ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any),
+    },
+  },
+  {
+    slug: 'moz-science',
+    category: 'medical',
+    country: 'kr',
+    name: 'Moz Science Co., Ltd.',
+    brand: 'Moz Science (모즈사이언스)',
+    status: 'provided',
+    brandColors: { deep: '#1C2B3A', sky: '#E1E8EF', accent: '#4F6E8C', bg: '#F4F7FA' },
+    voice: 'minimal',
+    /* Indirect consent only: on 06.10.2026 the company described itself as a
+       distributor (not a manufacturer) of laboratory equipment and solutions from
+       Korean and international brands, and asked for a profile form. No written
+       permission and no materials yet, so the page carries only that description.
+       The Labconco official dealer status is the company's own claim without an
+       independent source and is intentionally absent; so are brands, images,
+       prices, MOQ, certificates and contacts.
+       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/12_MOZ_SCIENCE.md. */
+    i18n: {
+      ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any),
     },
   },
   {

@@ -132,6 +132,7 @@ const SUPPLIERS = {
     footer: 'B2B introductions · full deal support' },
   dachen: { eyebrow: 'Supplier profile', title: 'Guangzhou Dachen Intelligent Equipment — Guangzhou, China', accent: '#5E6F7C' },
   toptrend: { eyebrow: 'Supplier profile', title: 'Toptrend Packaging — company profile', accent: '#5E6F7C' },
+  'moz-science': { eyebrow: 'Supplier profile', title: 'Moz Science — Korean distributor of laboratory equipment', accent: '#4F6E8C' },
 };
 
 const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
