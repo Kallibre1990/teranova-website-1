@@ -3092,6 +3092,16 @@ export const suppliers: SupplierProfile[] = [
        6c775d3d-image.png): синий каркас стенда и синий логотип «agafar» на белом. */
     brandColors: { deep: '#1E3A5F', sky: '#A9C7DE', accent: '#2C6FB0', bg: '#F4F7FA' },
     voice: 'clinical',
+    /* Local derivatives of materials supplied by AGAFAR and of the locally
+       preserved public-site assets; the exact provenance for every file is in
+       public/img/suppliers/agafar/SOURCES.md (T-20261024-091).  They are
+       explicitly labelled as company materials, not as a Teranova visit. */
+    gallery: [
+      '/img/suppliers/agafar/scenes/agafar-point-plus.webp',
+      '/img/suppliers/agafar/scenes/plazion.webp',
+      '/img/suppliers/agafar/scenes/exoxen-booster-01.webp',
+      '/img/suppliers/agafar/scenes/lab-laboratory-mask-01.webp',
+    ],
     /* Источники, разрешение и список того, что не публикуется — целиком в
        docs/provenance/agafar-20261023.md. Только EN/RU/KO (решение Ирины
        22.10.2026) — остальные языки после согласования черновика поставщиком. */
