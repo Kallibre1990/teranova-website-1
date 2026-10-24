@@ -41,6 +41,7 @@ WebP files only.
 | `scenes/lab-laboratory-mask-01.webp` | `areiv.zip` → Lab Laboratory Mask `0001_01.jpg` |
 | `scenes/plazion.webp` | Crop `500x550+45+380` of the locally supplied WhatsApp export `whatsapp_2026-10-22/6c775d3d-image.png`; the crop visibly shows the PLAZION name on the device and artwork. |
 | `scenes/agafar-point-plus.webp` | Embedded image `image-003.jpg` extracted from `agafar dermatology machines.pdf` |
+| `scenes/agafar-global-skincare-campaign.webp` | Local public-site copy `site_agafar.com_2026-10-24/760b94021e.jpg` (alt: `AGAFAR Global Skincare Campaign`) |
 
 ## Processing
 
