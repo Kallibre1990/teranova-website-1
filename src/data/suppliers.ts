@@ -3102,6 +3102,12 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/agafar/scenes/exoxen-booster-01.webp',
       '/img/suppliers/agafar/scenes/lab-laboratory-mask-01.webp',
     ],
+    /* NADXEN is described in all three localised line lists but is not a
+       separate catalog group. Use its own local ampoule photo rather than the
+       monogram fallback; provenance is recorded in SOURCES.md. */
+    lineShots: {
+      NADXEN: '/img/suppliers/agafar/products/agafar-site-01.webp',
+    },
     /* Источники, разрешение и список того, что не публикуется — целиком в
        docs/provenance/agafar-20261023.md. Только EN/RU/KO (решение Ирины
        22.10.2026) — остальные языки после согласования черновика поставщиком. */
