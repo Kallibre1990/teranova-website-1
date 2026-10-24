@@ -414,6 +414,10 @@ import cheon365Es from './suppliers-i18n/cheon365.es.json';
 import cheon365Pt from './suppliers-i18n/cheon365.pt.json';
 import cheon365He from './suppliers-i18n/cheon365.he.json';
 import cheon365Hi from './suppliers-i18n/cheon365.hi.json';
+import agafarRu from './suppliers-i18n/agafar.ru.json';
+import agafarEn from './suppliers-i18n/agafar.en.json';
+import agafarKo from './suppliers-i18n/agafar.ko.json';
+import agafarCatalog from './suppliers-i18n/agafar.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -842,6 +846,16 @@ export interface SupplierProfile {
   name: string; // company display name (language-neutral)
   brand: string; // primary brand (language-neutral)
   status: 'visited' | 'provided';
+  /* True while the draft is unconfirmed by the supplier and must stay out of
+     the public catalog grid/listing and counts. The page itself still builds
+     and is reachable by direct URL, for internal and supplier review. */
+  hidden?: boolean;
+  /* Set when the profile intentionally covers only these locales (draft
+     awaiting supplier approval before it is translated further) — build-wide
+     locale-parity checks (scripts/check-new-locales.mjs) must not expect any
+     locale outside this list for this supplier. Omitted = all locales, the
+     normal case. */
+  localesOnly?: Lang[];
   visitDate?: string;
   visitGallery?: string[];
   /* Фотографии объектов и оборудования в работе, присланные самим поставщиком.
@@ -3060,6 +3074,34 @@ export const suppliers: SupplierProfile[] = [
       ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any),
     },
   },
+  {
+    slug: 'agafar',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'AGAFAR',
+    brand: 'AGAFAR',
+    status: 'provided',
+    /* T-20261022-018 / T-20261022-014 (Ирина, 22.10.2026): черновик, не согласован
+       поставщиком — скрыт из общего листинга до подтверждения, страница открывается
+       только по прямой ссылке. Снять hidden только после подтверждения AGAFAR
+       (см. docs/provenance/agafar-20261023.md, §Permission). */
+    hidden: true,
+    localesOnly: ['ru', 'en', 'ko'],
+    /* Тёмно-синий и белый — по стенду AGAFAR на K-Beauty Expo Korea 2026 (фотография
+       из WhatsApp-переписки, _MATERIALY_POSTAVSHCHIKOV/AGAFAR/whatsapp_2026-10-22/
+       6c775d3d-image.png): синий каркас стенда и синий логотип «agafar» на белом. */
+    brandColors: { deep: '#1E3A5F', sky: '#A9C7DE', accent: '#2C6FB0', bg: '#F4F7FA' },
+    voice: 'clinical',
+    /* Источники, разрешение и список того, что не публикуется — целиком в
+       docs/provenance/agafar-20261023.md. Только EN/RU/KO (решение Ирины
+       22.10.2026) — остальные языки после согласования черновика поставщиком. */
+    catalog: agafarCatalog,
+    termsFile: { ru: '/docs/agafar-terms-ru.pdf', en: '/docs/agafar-terms-en.pdf', ko: '/docs/agafar-terms-ko.pdf' },
+    presFile: { ru: '/docs/agafar-presentation-ru.pdf', en: '/docs/agafar-presentation-en.pdf', ko: '/docs/agafar-presentation-ko.pdf' },
+    i18n: {
+      ru: mk(agafarRu as any), en: mk(agafarEn as any), ko: mk(agafarKo as any),
+    },
+  },
 ];
 
 /* Dedicated, indexable line pages (SEO): one per important product line. */
@@ -3146,7 +3188,7 @@ export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
    цифра разойдётся с витриной, как уже было с «26» при 24 карточках. */
 export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure', 'sprx'] as const;
 export const beautySuppliers = suppliers.filter(
-  (s) => s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug),
+  (s) => !s.hidden && (s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug)),
 );
 
 /* Витрина для поставщика без фотографий.

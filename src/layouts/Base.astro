@@ -26,8 +26,12 @@ interface Props {
   /* Тема оболочки. 'beauty' — тёплая редакционная система витрины косметики:
      та же сетка и компоненты, другая палитра, другая гарнитура заголовков. */
   theme?: 'beauty';
+  /** Narrows hreflang alternates and the language switcher to these locales —
+   * a page that only exists in a few languages (draft supplier profile
+   * awaiting approval for the rest). Omitted = every verified locale. */
+  langs?: Lang[];
 }
-const { lang, path, title, description, image, jsonLd, noindex, ogType, articlePublished, articleModified, theme } = Astro.props;
+const { lang, path, title, description, image, jsonLd, noindex, ogType, articlePublished, articleModified, theme, langs } = Astro.props;
 const t = ui[lang];
 // Pages are index/follow by default (every locale is indexed); only pages that
 // explicitly pass noindex (e.g. /thanks, /404) are excluded.
@@ -48,6 +52,7 @@ const noindexResolved = noindex ?? !isVerified(lang);
       ogType={ogType}
       articlePublished={articlePublished}
       articleModified={articleModified}
+      langs={langs}
     />
     <script is:inline>
       document.documentElement.classList.add('js');
@@ -56,7 +61,7 @@ const noindexResolved = noindex ?? !isVerified(lang);
   <body data-theme={theme}>
     <a class="skip-link" href="#main">{t.common.skip}</a>
     <Preloader />
-    <Header lang={lang} path={path} />
+    <Header lang={lang} path={path} langs={langs} />
     <main id="main" tabindex="-1">
       <slot />
     </main>

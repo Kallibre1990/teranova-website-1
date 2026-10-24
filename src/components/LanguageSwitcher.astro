@@ -5,10 +5,14 @@ import { languages, ui, type Lang } from '../i18n/ui';
 interface Props {
   lang: Lang;
   path: string;
+  /** Narrows the switcher to these locales — the page only exists in them
+   * (draft supplier profile awaiting approval for the rest). Omitted = every
+   * language, the normal case. */
+  langs?: Lang[];
 }
-const { lang, path } = Astro.props;
+const { lang, path, langs } = Astro.props;
 const t = ui[lang];
-const items = (Object.keys(languages) as Lang[]).map((l) => ({
+const items = ((langs ?? Object.keys(languages)) as Lang[]).map((l) => ({
   code: l,
   label: languages[l],
   short: l.toUpperCase(),

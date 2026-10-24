@@ -73,9 +73,12 @@ export function primaryNav(lang: Lang) {
   return mainNav(lang).filter((i) => i.primary);
 }
 
-/** hreflang alternates — one per indexed locale (all locales are indexed). */
-export function getAlternates(path: string) {
-  return verifiedLocales.map((l) => ({ hreflang: l, href: localizePath(path, l) }));
+/** hreflang alternates — one per indexed locale (all locales are indexed).
+ * `langs` narrows the set for a page that intentionally exists in fewer
+ * locales (a draft supplier profile not yet translated/approved beyond a
+ * few languages) — otherwise hreflang would point at URLs with no page. */
+export function getAlternates(path: string, langs: Lang[] = verifiedLocales) {
+  return langs.map((l) => ({ hreflang: l, href: localizePath(path, l) }));
 }
 
 /**

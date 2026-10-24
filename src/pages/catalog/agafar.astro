@@ -1,0 +1,21 @@
+---
+/* AGAFAR company and brand profile. Draft, unconfirmed by the supplier — hidden
+   from the catalog listing, reachable only by direct URL. See
+   docs/provenance/agafar-20261023.md for sources and permission. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+import type { Lang } from '../../i18n/ui';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('agafar')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+// Only ru/en/ko exist for this draft (see src/pages/[lang]/catalog/agafar.astro).
+const AGAFAR_LANGS: Lang[] = ['ru', 'en', 'ko'];
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd} langs={AGAFAR_LANGS}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

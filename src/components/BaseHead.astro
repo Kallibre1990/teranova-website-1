@@ -17,6 +17,10 @@ interface Props {
   /** ISO date (yyyy-mm-dd) — required when ogType is 'article'. */
   articlePublished?: string;
   articleModified?: string;
+  /** Narrows hreflang alternates to these locales — a page that only exists
+   * in a few languages (draft supplier profile awaiting approval for the
+   * rest). Omitted = every verified locale, the normal case. */
+  langs?: Lang[];
 }
 const {
   lang,
@@ -29,11 +33,12 @@ const {
   ogType = 'website',
   articlePublished,
   articleModified,
+  langs,
 } = Astro.props;
 
 const siteUrl = (Astro.site?.toString() ?? 'https://teranovagroup.com/').replace(/\/$/, '');
 const canonical = siteUrl + localizePath(path, lang);
-const alternates = getAlternates(path).map((a) => ({ ...a, abs: siteUrl + a.href }));
+const alternates = getAlternates(path, langs).map((a) => ({ ...a, abs: siteUrl + a.href }));
 // The printed QR root is English. Existing non-home Russian URLs retain the
 // historic Russian x-default so this homepage-only migration does not move the
 // indexed section hierarchy. /catalog/medical and /catalog/agingtarget follow

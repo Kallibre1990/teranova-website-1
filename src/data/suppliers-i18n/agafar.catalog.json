@@ -1,0 +1,42 @@
+[
+  {
+    "line": "AGAFAR",
+    "items": [
+      { "name": "Mild Cleansing Gel", "volume": "300ml", "actives": ["Portulaca Oleracea Extract", "Madecassoside", "Ceramide NP"] },
+      { "name": "Balancing Soothing Toner", "volume": "300ml", "actives": ["Betaine", "Salvia Hispanica Seed Extract", "Centella Asiatica Extract"] },
+      { "name": "Eliderm Gel", "volume": "300ml", "actives": ["Green Tea Extract", "Propolis Extract", "Licorice Root Extract", "Allantoin"] },
+      { "name": "Mela Pro Ampoule", "volume": "30ml", "actives": ["Sodium Ascorbyl Phosphate", "Niacinamide", "Retinyl Palmitate"] },
+      { "name": "Double Pro Ampoule", "volume": "30ml", "actives": ["8-Peptide Complex", "Hydrolyzed Collagen"] },
+      { "name": "PDRN-HA Pro Ampoule", "volume": "30ml", "actives": ["PDRN", "Multi-Molecular Hyaluronic Acid Complex"] },
+      { "name": "Vita K Pro Ampoule", "volume": "30ml", "actives": ["Vita K Complex", "Panthenol", "Azulene"] },
+      { "name": "Shine Eye Serum", "volume": "30ml", "actives": ["Red Berry Complex", "Hydrolyzed Collagen"] },
+      { "name": "Star Eye Cream", "volume": "30ml", "actives": ["Lactobacillus Ferment Lysate", "Palmitoyl Tripeptide-5"] },
+      { "name": "Oint Cream", "volume": "30ml", "actives": ["Madecassoside", "Centella Asiatica Extract", "Ceramide Complex"] },
+      { "name": "Moisturizing Cream", "volume": "50ml", "actives": ["Ceramide", "Cholesterol", "Portulaca Oleracea Extract"] },
+      { "name": "Daily Sunblock SPF50+ PA++++", "volume": "50ml", "actives": ["Multi-Peptide Complex", "Gentiana Lutea Root Extract"] }
+    ]
+  },
+  {
+    "line": "agapharma (Meditive Formula 3X)",
+    "items": [
+      { "name": "Meditive Formula Gentle Foam Cleanser", "volume": "150ml", "actives": ["Meditive Formula 3X: Hyal-Collagen · Bio Lacto Exo · Super Centella"] },
+      { "name": "Meditive Formula Active Ampoule", "volume": "100ml", "actives": ["Meditive Formula 3X", "5-Free Probiotics", "Inulin"] },
+      { "name": "Meditive Formula Skin Booster", "volume": "10ml x 7ea", "actives": ["Meditive Formula 3X", "5-Free Probiotics", "Inulin"] },
+      { "name": "Meditive Formula Light Cream", "volume": "70ml", "actives": ["Hyal-Collagen", "Hyalpol Prebiotics", "Ectoin"] },
+      { "name": "Meditive Formula Regenerating Cream", "volume": "50ml", "actives": ["Hyal-Collagen", "Hyalpol Prebiotics", "Squalane"] }
+    ]
+  },
+  {
+    "line": "EXOXEN",
+    "items": [
+      { "name": "EXOXEN Booster", "volume": "3ml x 10ea", "actives": ["Exosome"] }
+    ]
+  },
+  {
+    "line": "a'reiv",
+    "items": [
+      { "name": "Lab Laboratory Mask", "volume": "25ml x 5ea", "actives": ["Triple Hyaluronic Acid", "Betaine", "Panthenol"] },
+      { "name": "Calming Sun Cream SPF50+ PA++++", "volume": "50ml", "actives": ["Panthenol", "Apple Leaf Extract", "Aloe Vera Leaf Extract"] }
+    ]
+  }
+]
