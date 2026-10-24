@@ -1,8 +1,9 @@
 # Agafar image sources
 
-Prepared for `T-20261024-091` on 2026-10-24 KST.  Every file in this directory
-was made from local materials already supplied by Agafar.  No supplier site,
-Instagram, or closed Google Drive link was opened during this pass.
+Prepared for `T-20261024-091` on 2026-10-24 KST. Every file in this directory
+was made from local materials already supplied by Agafar or from the local copy
+of public `agafar.com` assets prepared by HQ. No supplier site, Instagram, or
+closed Google Drive link was opened during this pass.
 
 ## Source files
 
@@ -12,6 +13,9 @@ Instagram, or closed Google Drive link was opened during this pass.
   `4fb4ac78cb053f79bf2cf8903c12ca9054dde02518ab315fadb5357cc1494fcc`.
 - `drive_2026-10-20/agafar dermatology machines.pdf` — locally supplied
   machines catalogue; SHA-256 `337988318c62e9d27e6eb3b00f2d1222bdbbd5e01933fb4fe989dc247d971b33`.
+- `site_agafar.com_2026-10-24/products/` — local copy of 20 public product
+  images from `agafar.com`, prepared by HQ; each original URL and product name
+  is recorded in `_MATERIALY_POSTAVSHCHIKOV/AGAFAR/site_agafar.com_2026-10-24/SOURCES.md`.
 
 The originals are under
 `_MATERIALY_POSTAVSHCHIKOV/AGAFAR/` and the temporary local extraction is under
@@ -26,6 +30,7 @@ WebP files only.
 | `products/exoxen-booster.webp` | `areiv.zip` → `1. EXOXEN Booster (3ml10ea Total 30ml)/1. EXOXEN BOOSTER.jpg` |
 | `products/calming-sun-cream.webp` | `areiv.zip` → `2. Calming Sun Cream (50ml)/2. Calming Sun Cream (50ml).jpg` |
 | `products/lab-laboratory-mask.webp` | `areiv.zip` → `3. Lab Laboratory Mask (25ml)/3. Lab Laboratory Mask (25ml).jpg` |
+| `products/agafar-site-01.webp` … `products/agafar-site-20.webp` | Local public-site copy `site_agafar.com_2026-10-24/products/01-*.jpg` … `20-*.jpg`; the source manifest names the corresponding product and URL for each number |
 | `cutout/exoxen-booster.webp` | `areiv.zip` → `1. EXOXEN Booster (3ml10ea Total 30ml)/… 01.png` |
 | `cutout/exoxen-booster-set.webp` | `areiv.zip` → `1. EXOXEN Booster (3ml10ea Total 30ml)/… 02.png` |
 | `cutout/lab-laboratory-mask.webp` | `areiv.zip` → `3. Lab Laboratory Mask (25ml)/3. Lab Laboratory Mask (25ml) 01.png` |
@@ -44,6 +49,4 @@ model name is still required before it is shown to users.
 
 ## Explicit exclusions
 
-No image from the inaccessible Drive links owned by Irina was used.  The
-unperformed website-download step remains open in the task checkpoint; this
-manifest does not claim that those materials were obtained.
+No image from the inaccessible Drive links owned by Irina was used.
