@@ -30,12 +30,11 @@ export const demoSuppliers: Record<CategoryKey, DemoSupplier[]> = {
   /* Cosmetics now has real verified suppliers (see suppliers.ts) — no demo
      placeholders in this segment. */
   cosmetics: [],
-  medical: [
-    { name: 'Mirae Medi', initials: 'MM', role: 'maker', status: 'provided', blurb: 0, tags: [0, 3], email: 'demo@mirae-medi.example', phone: p('3011') },
-    { name: 'Sumi Aesthetics', initials: 'SA', role: 'exporter', status: 'provided', blurb: 2, tags: [0, 1], email: 'demo@sumi-aesthetics.example', phone: p('3012') },
-    { name: 'Jeong Medical', initials: 'JM', role: 'maker', status: 'provided', blurb: 3, tags: [4, 5], email: 'demo@jeong-medical.example', phone: p('3013') },
-    { name: 'Haneul MedTech', initials: 'HM', role: 'oem', status: 'provided', blurb: 1, tags: [2, 3], email: 'demo@haneul-medtech.example', phone: p('3014') },
-  ],
+  /* Решением Антона 25.10.2026 вымышленные демо-карточки медицины (Mirae Medi,
+     Sumi Aesthetics, Jeong Medical, Haneul MedTech) убраны из витрины — в
+     разделе остаются только реальные Moz Science и AgingTarget (см. suppliers.ts),
+     независимо от порога DEMO_HIDE_AT в CatalogGroup.astro. */
+  medical: [],
   industrial: [
     { name: 'Daon CNC', initials: 'DC', role: 'maker', status: 'provided', blurb: 0, tags: [0, 1], email: 'demo@daon-cnc.example', phone: p('4011') },
     { name: 'Seojin Machinery', initials: 'SM', role: 'maker', status: 'provided', blurb: 0, tags: [2, 3], email: 'demo@seojin-machinery.example', phone: p('4012') },
