@@ -27,6 +27,7 @@ import oanicLines from './suppliers-i18n/oanic.lines.json';
    no supplier personal contacts (contact via Teranova). All copy from the supplier's
    own site/catalog. */
 import type { CategoryKey, CountryKey } from './site';
+import { isHiddenSupplier } from './site';
 import doobomRu from './suppliers-i18n/doobom.ru.json';
 import doobomEn from './suppliers-i18n/doobom.en.json';
 import doobomKo from './suppliers-i18n/doobom.ko.json';
@@ -3062,6 +3063,11 @@ export const suppliers: SupplierProfile[] = [
   },
 ];
 
+/* Каталог, витрины и счётчики показывают только видимые профили — скрытые
+   (hiddenSupplierSlugs) остаются в `suppliers` целиком, их страницы сами
+   решают, что делать с прямым URL (см. src/pages/catalog/<slug>.astro). */
+export const visibleSuppliers = suppliers.filter((s) => !isHiddenSupplier(s.slug));
+
 /* Dedicated, indexable line pages (SEO): one per important product line. */
 export interface SupplierLineItem {
   name: string;
@@ -3145,7 +3151,7 @@ export const showcaseImages = (p: SupplierProfile, n = 3): string[] => {
    Отсюда же берётся число компаний в тексте: считать руками нельзя, иначе
    цифра разойдётся с витриной, как уже было с «26» при 24 карточках. */
 export const BEAUTY_EXTRA_SLUGS = ['cocospack', 'sunpure', 'sprx'] as const;
-export const beautySuppliers = suppliers.filter(
+export const beautySuppliers = visibleSuppliers.filter(
   (s) => s.category === 'cosmetics' || (BEAUTY_EXTRA_SLUGS as readonly string[]).includes(s.slug),
 );
 

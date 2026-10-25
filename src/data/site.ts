@@ -39,6 +39,17 @@ export const hiddenTeamPhotos = [
   '/img/team/an-larisa.jpg',   // Лариса Ан — менеджер по покупателям
 ] as const;
 
+/* Обратимое скрытие профилей поставщиков с неполными данными (решение Антона,
+   HQ-чат 26.10.2026, T-20261026-045): пока НЕ показывать на сайте. Код и
+   тексты профилей целы в suppliers.ts и в локалях — вернуть = убрать slug из
+   списка и пересобрать (`npm run build`). */
+export const hiddenSupplierSlugs = [
+  'plk-lift', 'oavo', 'aromaflavum', 'du-cosmetic', 'agingtarget',
+  'hiyo', 'dachen', 'toptrend', 'moz-science',
+] as const;
+export const isHiddenSupplier = (slug: string): boolean =>
+  (hiddenSupplierSlugs as readonly string[]).includes(slug);
+
 /* Contact channels shown on the Contacts page. Emails are language-neutral and
    live here (single source); their localized title/description live in i18n at
    pages.contacts.channels, keyed by the same ids. */

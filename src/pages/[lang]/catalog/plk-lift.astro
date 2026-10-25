@@ -4,6 +4,8 @@ import Base from '../../../layouts/Base.astro';
 import SupplierProfile from '../../../components/pages/SupplierProfile.astro';
 import { supplierBySlug, supplierContent } from '../../../data/suppliers';
 import { supplierJsonLd } from '../../../data/jsonld';
+import { isHiddenSupplier } from '../../../data/site';
+import { localizePath } from '../../../i18n/utils';
 import { defaultLang, languages, type Lang } from '../../../i18n/ui';
 
 export function getStaticPaths() {
@@ -14,6 +16,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.props as { lang: Lang };
 const profile = supplierBySlug('plk-lift')!;
+if (isHiddenSupplier(profile.slug)) return Astro.redirect(localizePath('/catalog', lang), 301);
 const c = supplierContent(profile, lang);
 const jsonLd = supplierJsonLd(lang, profile);
 ---
