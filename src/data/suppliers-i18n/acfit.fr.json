@@ -9,10 +9,11 @@
       "Selon l’entreprise, ACFIT est utilisée dans environ 250 instituts esthétiques et de soins en Corée, et la gamme actuelle compte 14 produits : 3 réservés aux professionnels et 11 pour les soins en cabine comme à domicile. Ces chiffres sont ceux de l’entreprise ; Teranova ne les a pas vérifiés de façon indépendante."
     ],
     "facts": [
-      "Origine : V-Medi Spa, Incheon (données de l’entreprise)",
-      "14 produits : 3 réservés aux pros, 11 pour cabine et domicile",
-      "Ligne phare : V-SANG BETA-G",
-      "Prix export sur demande, FOB"
+      "Origine : V-Medi Spa, Incheon — selon l'entreprise, le salon exerce depuis 27 ans",
+      "Fondatrice et PDG de V-Medi Spa : Hyun-joo Lee",
+      "La marque est utilisée par environ 250 centres esthétiques et dermo-cosmétiques en Corée",
+      "14 produits de la gamme V-SANG BETA-G : 3 réservés aux professionnels, 11 pour les soins en institut et à domicile",
+      "CPNP · SCPN · MoCRA — confirmés pour 13 des 14 produits ; la certification d'ACFIT Beta-G Lacto Sun Cream est en cours"
     ],
     "channels": [
       "Distributeurs servant les instituts esthétiques",
@@ -68,7 +69,7 @@
       "Masque à l’argile",
       "Kits professionnels en flacons"
     ],
-    "exportNote": "ACFIT a donné son accord écrit pour un profil de l’entreprise et de la marque avec des pages produits. Le prix export est communiqué sur demande, aux conditions FOB. Certifications, territoires de distribution, prix, contacts directs et photos de produits ne sont pas publiés ici ; ils sont confirmés pour chaque demande.",
+    "exportNote": "ACFIT a donné son accord écrit pour un profil d'entreprise et de marque avec des pages produits. Selon la présentation de l'entreprise (p. 21), les droits exclusifs de la marque pour Taïwan, le Japon, la Chine, les États-Unis et le Canada sont détenus par des distributeurs locaux ; des distributeurs sont également présents en Ouzbékistan, au Kirghizistan et au Kazakhstan — Teranova ne propose pas d'opérations sur ces marchés. Sur les autres marchés, le prix à l'export est communiqué sur demande, en FOB ; le MOQ, les délais de production et les conditions de paiement sont précisés sur demande spécifique. Les contacts directs de l'entreprise ne sont pas publiés ici.",
     "terms": [
       {
         "label": "Coopération",
@@ -85,7 +86,23 @@
     ],
     "consentNote": "Ce profil repose sur la présentation d’ACFIT, avec son accord écrit du 14 septembre 2026. Les chiffres et descriptions de produits sont ceux de l’entreprise. Le texte a été rédigé par Teranova ; l’entreprise n’a pas relu cette page.",
     "seoTitle": "ACFIT — soin professionnel coréen, ligne V-SANG BETA-G · Teranova",
-    "seoDesc": "Profil ACFIT : marque coréenne de soins professionnels née en institut, ligne V-SANG BETA-G, 14 produits. Prix export sur demande, FOB. B2B via Teranova."
+    "seoDesc": "Profil ACFIT : marque coréenne de soins professionnels née en institut, ligne V-SANG BETA-G, 14 produits. Prix export sur demande, FOB. B2B via Teranova.",
+    "catalog_notes": [
+      "Nettoyage doux au bêta-glucane et au panthénol, sans effet de tiraillement ; convient aussi à la peau sensible.",
+      "Tonique hydratant et apaisant : hydratation, éclat du teint et soin anti-âge en profondeur.",
+      "Gel au complexe rafraîchissant breveté : apaise immédiatement les irritations ; peut aussi servir de masque de nuit.",
+      "Crème hydratante premium à l'extrait de Sparassis crispa, aloe vera et Houttuynia cordata ; pour une peau fatiguée et terne.",
+      "Niacinamide et adénosine pour éclaircir le teint et lisser les rides fines ; un système de soutien du microbiome pour une peau saine.",
+      "Booster hydratant et élasticité : nourrit la peau sèche pour un grain de peau repulpé et lisse.",
+      "Ampoule renforçant la barrière cutanée et rééquilibrant le microbiome ; utilisée en soin localisé en cas d'irritation.",
+      "Huile apaisante à l'azulène, au tocophérol, à l'huile de tournesol et au squalane ; se mélange aux autres produits de la gamme.",
+      "Masque tissu à action rapide, apaisant et hydratant, sur base naturelle.",
+      "Masque à l'argile au kaolin et à la bentonite, complexe rafraîchissant et 5 extraits de centella, pour une peau nette.",
+      "Crème solaire à double filtre UV, niacinamide et adénosine ; texture légère et fraîche. Certification en cours.",
+      "Ampoule professionnelle apaisante intensive pour peaux à problèmes ; pour les protocoles MTS/MCS/SDM.",
+      "Ampoule professionnelle lyophilisée à la vitamine C, au centella, à l'acide hyaluronique et au collagène.",
+      "Soin professionnel exfoliant pour affiner le grain de peau ; peeling physique, sans brosse, appliqué à la main gantée."
+    ]
   },
   "ui": {
     "profile_sup": "Profil du fournisseur",
@@ -106,7 +123,7 @@
     "more": "Ouvrir le profil →",
     "verified_suppliers": "Fournisseurs vérifiés",
     "certs_h": "Certifications",
-    "certs_note": "",
+    "certs_note": "Le statut CPNP, SCPN et MoCRA reprend le tableau de la présentation de l'entreprise elle-même : confirmé pour 13 des 14 produits de la gamme ; pour ACFIT Beta-G Lacto Sun Cream, le statut à la date de la présentation était « en cours ». Des copies des documents sont fournies au stade de la transaction via Teranova.",
     "products_h": "Produits",
     "products_note": ""
   }

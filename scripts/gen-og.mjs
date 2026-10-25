@@ -120,7 +120,7 @@ const SUPPLIERS = {
   themaqueen: { eyebrow: 'Supplier profile', title: 'THEMAQUEEN — Korean cooling, cleansing and scalp-care accessories', accent: '#7A919B' },
   'vegan-nature': { eyebrow: 'Supplier profile', title: 'Vegan Nature — Korean solid shampoo and treatment bars', accent: '#7AC7A6' },
   chaewun: { eyebrow: 'Supplier profile', title: 'CHAEWUN — Korean Pudding Mist Ampoules by Twelve Global', accent: '#CE6F93' },
-  acfit: { eyebrow: 'Supplier profile', title: 'ACFIT — Korean professional skincare, V-SANG BETA-G line', accent: '#3B8FA8' },
+  acfit: { eyebrow: 'Supplier profile', title: 'ACFIT — Korean professional skincare, V-SANG BETA-G line', accent: '#275F92' },
   'plk-lift': { eyebrow: 'Supplier profile', title: 'PLK Lift — Chinese spider cranes, boom lifts and vacuum lifters', accent: '#2E8B57' },
   oavo: { eyebrow: 'Supplier profile', title: 'OAVO — Korean skincare inspired by Korean tradition', accent: '#9C7A4E' },
   aromaflavum: { eyebrow: 'Supplier profile', title: 'A’ROMAFLAVUM — Korean fragrance developer and OEM/ODM manufacturer', accent: '#076AA3' },

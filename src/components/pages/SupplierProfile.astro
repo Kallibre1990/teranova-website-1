@@ -72,6 +72,7 @@ import chaewunLogo from '../../assets/suppliers/chaewun/logo.jpg';
 import chaewunHero from '../../assets/suppliers/chaewun/hero.jpg';
 import chaewunProducts from '../../assets/suppliers/chaewun/products.jpg';
 import chaewunDrops from '../../assets/suppliers/chaewun/drops.jpg';
+import acfitLogo from '../../assets/suppliers/acfit-logo.png';
 
 interface Props {
   lang: Lang;
@@ -80,7 +81,7 @@ interface Props {
 const { lang, profile } = Astro.props;
 const t = ui[lang];
 const c = supplierContent(profile, lang);
-const logos: Record<string, ImageMetadata> = { oanic: oanicLogo, sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo, chaewun: chaewunLogo };
+const logos: Record<string, ImageMetadata> = { oanic: oanicLogo, sante: santeLogo, dreamcos: dreamcosLogo, sprx: sprxLogo, 'desert-free': desertFreeLogo, themaqueen: themaqueenLogo, 'vegan-nature': veganNatureLogo, chaewun: chaewunLogo, acfit: acfitLogo };
 const logo = logos[profile.slug];
 const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drops: ImageMetadata }> = {
   oanic: { hero: oanicHero, products: oanicHero, drops: oanicHero },

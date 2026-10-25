@@ -9,10 +9,11 @@
       "Şirkete göre ACFIT, Kore’de yaklaşık 250 estetik ve cilt bakım merkezinde kullanılıyor; mevcut seri 14 üründen oluşuyor: 3’ü yalnızca profesyonel kullanım için, 11’i hem uygulama hem evde bakım için. Bunlar şirketin kendi rakamlarıdır; Teranova bağımsız olarak doğrulamamıştır."
     ],
     "facts": [
-      "Köken: V-Medi Spa, Incheon (şirket verisi)",
-      "14 ürün: 3’ü yalnızca profesyonel, 11’i merkez ve ev için",
-      "İmza seri: V-SANG BETA-G",
-      "İhracat fiyatı talep üzerine, FOB"
+      "Köken: V-Medi Spa, Incheon — şirkete göre salon 27 yıldır faaliyette",
+      "V-Medi Spa kurucusu ve CEO'su: Hyun-joo Lee",
+      "Marka, Kore'de yaklaşık 250 estetik ve dermokozmetik merkez tarafından kullanılıyor",
+      "V-SANG BETA-G hattında 14 ürün: 3'ü yalnızca profesyonel kullanım için, 11'i kabin ve ev bakımı için",
+      "CPNP · SCPN · MoCRA — 14 üründen 13'ü için onaylı; ACFIT Beta-G Lacto Sun Cream sertifikasyonu sürüyor"
     ],
     "channels": [
       "Estetik merkezlerine hizmet veren distribütörler",
@@ -68,7 +69,7 @@
       "Kil maske",
       "Profesyonel flakon setleri"
     ],
-    "exportNote": "ACFIT, ürün sayfalarıyla birlikte bir şirket ve marka profili için yazılı izin verdi. İhracat fiyatı talep üzerine FOB koşullarıyla bildirilir. Sertifikalar, dağıtım bölgeleri, fiyatlar, doğrudan iletişim bilgileri ve ürün fotoğrafları burada yayımlanmaz; somut talebe göre teyit edilir.",
+    "exportNote": "ACFIT, şirket ve marka profili ile ürün sayfalarının yayınlanmasına yazılı olarak onay vermiştir. Şirketin sunumuna (s. 21) göre Tayvan, Japonya, Çin, ABD ve Kanada'da marka üzerindeki münhasır haklar yerel distribütörlere aittir; Özbekistan, Kırgızistan ve Kazakistan'da da distribütörler bulunmaktadır — Teranova bu pazarlarda işlem önermemektedir. Diğer pazarlarda ihracat fiyatı talep üzerine FOB koşuluyla bildirilir; MOQ, üretim süresi ve ödeme koşulları somut bir talep üzerine netleştirilir. Şirketin doğrudan iletişim bilgileri bu sayfada yayınlanmamaktadır.",
     "terms": [
       {
         "label": "İş birliği",
@@ -85,7 +86,23 @@
     ],
     "consentNote": "Bu profil, 14 Eylül 2026 tarihli yazılı izinle ACFIT’in kendi sunumuna dayanır. Rakamlar ve ürün açıklamaları şirkete aittir. Metni Teranova hazırladı; şirket bu sayfayı incelemedi.",
     "seoTitle": "ACFIT — Kore profesyonel cilt bakımı, V-SANG BETA-G serisi · Teranova",
-    "seoDesc": "ACFIT profili: estetik merkezinden doğan Koreli profesyonel cilt bakım markası, V-SANG BETA-G serisi, 14 ürün. İhracat fiyatı talep üzerine, FOB. Teranova üzerinden B2B."
+    "seoDesc": "ACFIT profili: estetik merkezinden doğan Koreli profesyonel cilt bakım markası, V-SANG BETA-G serisi, 14 ürün. İhracat fiyatı talep üzerine, FOB. Teranova üzerinden B2B.",
+    "catalog_notes": [
+      "Beta-glukan ve pantenol içeren, gerginlik hissi vermeyen hassas cilde uygun yumuşak temizleyici.",
+      "Nemlendirici ve yatıştırıcı tonik: içten nemlendirme, ton aydınlatma ve yaşlanma karşıtı bakım.",
+      "Patentli serinletici kompleks içeren jel — tahrişi anında yatıştırır; uyku maskesi olarak da kullanılabilir.",
+      "Sparassis crispa özü, aloe vera ve Houttuynia cordata içeren premium nemlendirici krem; yorgun ve mat ciltler için.",
+      "Ton aydınlatma ve ince çizgileri yumuşatma için niasinamid ve adenozin; sağlıklı cilt için mikrobiyom destek sistemi.",
+      "Nemlendirici elastikiyet güçlendirici: kuru cildi besler, dolgun ve pürüzsüz bir doku bırakır.",
+      "Cilt bariyerini güçlendiren ve mikrobiyomu dengeleyen ampul; tahriş bölgelerinde nokta bakım olarak kullanılır.",
+      "Azulen, tokoferol, ayçiçeği tohumu yağı ve skualan içeren yatıştırıcı yağ; hat içindeki diğer ürünlerle karıştırılabilir.",
+      "Doğal tabanlı, hızlı etkili yatıştırıcı ve nemlendirici kumaş maske.",
+      "Kaolin ve bentonit, serinletici kompleks ve 5 Centella özü içeren kil maskesi; arınmış cilt için.",
+      "Çift UV filtreli, niasinamid ve adenozin içeren güneş kremi; hafif, ferah doku. Sertifikasyon sürüyor.",
+      "Problemli ciltler için profesyonel yoğun yatıştırıcı ampul; MTS/MCS/SDM protokolleri için.",
+      "Vitamin C, Centella, hyaluronik asit ve kolajen içeren profesyonel dondurularak kurutulmuş ampul.",
+      "Cilt dokusunu inceltmek için profesyonel soyma bakımı; fırçasız, eldivenli ellerle uygulanan fiziksel peeling."
+    ]
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",
@@ -106,7 +123,7 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Sertifikalar",
-    "certs_note": "",
+    "certs_note": "CPNP, SCPN ve MoCRA durumu şirketin kendi sunumundaki tabloyu esas alır: hat üzerindeki 14 üründen 13'ü onaylanmıştır; ACFIT Beta-G Lacto Sun Cream için sunum tarihinde durum «işlemde» idi. Belgelerin kopyaları Teranova aracılığıyla anlaşma aşamasında sağlanır.",
     "products_h": "Ürünler",
     "products_note": ""
   }
