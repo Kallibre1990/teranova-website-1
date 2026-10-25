@@ -350,6 +350,7 @@ import acfitEs from './suppliers-i18n/acfit.es.json';
 import acfitPt from './suppliers-i18n/acfit.pt.json';
 import acfitHe from './suppliers-i18n/acfit.he.json';
 import acfitHi from './suppliers-i18n/acfit.hi.json';
+import acfitCatalog from './suppliers-i18n/acfit.catalog.json';
 import plkLiftRu from './suppliers-i18n/plk-lift.ru.json';
 import plkLiftEn from './suppliers-i18n/plk-lift.en.json';
 import plkLiftKo from './suppliers-i18n/plk-lift.ko.json';
@@ -2786,17 +2787,43 @@ export const suppliers: SupplierProfile[] = [
     name: 'ACFIT',
     brand: 'ACFIT · V-SANG BETA-G',
     status: 'provided',
-    brandColors: { deep: '#1E3A4C', sky: '#9CC9D8', accent: '#3B8FA8', bg: '#F2F7F9' },
+    brandColors: { deep: '#1C3F60', sky: '#8FB7D6', accent: '#275F92', bg: '#F1F6FA' },
     voice: 'clinical',
-    /* Written permission of 14.09.2026 (mail 1a09ee3e09d62262) covers a company
-       and brand profile with product pages. Facts come only from ACFIT's own
-       presentation (mail 1a0cc4403cb447c8, 23.09.2026) and are attributed to
-       the company. Export price on request, FOB — the company's choice.
-       Excluded on purpose: CPNP/SCPN/MoCRA (documents not opened), distribution
-       territories, prices, MOQ, direct contacts, product photos and logo (image
-       rights not named separately), sensitive-skin positioning (no answer yet).
-       The company's question about which countries see the profile is open in
-       CRM; it does not block publication under D-1000. T-20261021-029. */
+    /* T-20261026-041, Human-gate Антона в чате HQ 26.10.2026 («Сделай сам без
+       меня. Я разрешаю») снял ограничения T-20261021-029 и разрешил полную
+       сборку и выкат на боевой. Источники: REPORT_01_acfit.md (25.10.2026),
+       письмо 1a0cc4403cb447c8 (23.09.2026, вложения — лого AI/PDF и
+       "2.AC FIT Signature Collection.xlsx", 14 SKU с объёмами, Signature Code,
+       статусом CPNP/SCPN/MoCRA и корейским РРЦ), письмо 1a0cc4bf... (19 PNG
+       товаров) и презентация "(salon) ACFIT introduction ENG.pdf" (территории
+       — стр. 21). Письменное согласие на профиль компании/бренда и товарные
+       страницы — 14.09.2026 (мейл 1a09ee3e09d62262).
+       Теперь включено: лого, фото 13 из 14 SKU (нет фото Lacto Care Cream
+       150 мл — известный гэп), каталог, статус сертификации CPNP/SCPN/MoCRA
+       (у Lacto Sun Cream — в процессе), эксклюзивные рынки и дистрибьюторы.
+       По-прежнему не публикуется (R-022 и факт отсутствия данных, не запрет
+       поставщика): экспортная цена FOB — только «по запросу», получен лишь
+       внутрикорейский РРЦ в вонах из xlsx с пометкой «ограничено для внешнего
+       распространения» — публикуем сам факт и описания товаров, но не цену
+       как экспортную и не прикладываем сам файл; MOQ, сроки производства,
+       условия оплаты, полный INCI, юрлицо и год основания бренда не получены;
+       подтверждения формулировки «для чувствительной кожи» от компании не
+       было (запрашивали дважды, повторно не спрашиваем). Прайс-PDF поэтому не
+       собираем — только презентация и условия (2 PDF, не 3). */
+    certs: ['CPNP', 'SCPN', 'MoCRA'],
+    catalog: acfitCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
+    termsFile: {
+      ru: '/docs/acfit-terms-ru.pdf', en: '/docs/acfit-terms-en.pdf', ko: '/docs/acfit-terms-ko.pdf',
+      zh: '/docs/acfit-terms-zh.pdf', ja: '/docs/acfit-terms-ja.pdf', it: '/docs/acfit-terms-it.pdf',
+      de: '/docs/acfit-terms-de.pdf', fr: '/docs/acfit-terms-fr.pdf', tr: '/docs/acfit-terms-tr.pdf',
+      es: '/docs/acfit-terms-es.pdf', pt: '/docs/acfit-terms-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/acfit-presentation-ru.pdf', en: '/docs/acfit-presentation-en.pdf', ko: '/docs/acfit-presentation-ko.pdf',
+      zh: '/docs/acfit-presentation-zh.pdf', ja: '/docs/acfit-presentation-ja.pdf', it: '/docs/acfit-presentation-it.pdf',
+      de: '/docs/acfit-presentation-de.pdf', fr: '/docs/acfit-presentation-fr.pdf', tr: '/docs/acfit-presentation-tr.pdf',
+      es: '/docs/acfit-presentation-es.pdf', pt: '/docs/acfit-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(acfitRu as any), en: mk(acfitEn as any), ko: mk(acfitKo as any), zh: mk(acfitZh as any), ja: mk(acfitJa as any), it: mk(acfitIt as any), de: mk(acfitDe as any), fr: mk(acfitFr as any), tr: mk(acfitTr as any), es: mk(acfitEs as any), pt: mk(acfitPt as any), he: mk(acfitHe as any), hi: mk(acfitHi as any),
     },

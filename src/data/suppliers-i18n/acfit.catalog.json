@@ -1,0 +1,132 @@
+[
+  {
+    "line": "Cleansing & Toning",
+    "lineI18n": { "he": "ניקוי וטונינג", "hi": "क्लींजिंग और टोनिंग" },
+    "items": [
+      {
+        "name": "ACFIT V-SANG Beta-G Secure Cleansing",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-secure-cleansing-200ml.png",
+        "volume": "200 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"],
+        "actives": ["beta-glucan", "dexpanthenol"]
+      },
+      {
+        "name": "ACFIT V-SANG Beta-G Secure Toner",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-secure-toner.png",
+        "volume": "200 / 1000 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      }
+    ]
+  },
+  {
+    "line": "Gels & Creams",
+    "lineI18n": { "he": "ג'לים וקרמים", "hi": "जेल और क्रीम" },
+    "items": [
+      {
+        "name": "ACFIT V-SANG Gel",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-gel.png",
+        "volume": "300 / 1000 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      },
+      {
+        "name": "ACFIT V-SANG Cream",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-cream.png",
+        "volume": "15 / 50 / 200 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"],
+        "actives": ["Sparassis crispa extract", "aloe vera", "Houttuynia cordata extract"]
+      },
+      {
+        "name": "ACFIT Beta-G Lacto Care Cream",
+        "volume": "150 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"],
+        "actives": ["niacinamide", "adenosine", "Hyal 11X moisture complex"]
+      }
+    ]
+  },
+  {
+    "line": "Booster, Ampoule & Oil",
+    "lineI18n": { "he": "בוסטר, אמפולה ושמן", "hi": "बूस्टर, एम्पूल और ऑयल" },
+    "items": [
+      {
+        "name": "ACFIT V-SANG Beta-G Infusing Skin Booster",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-infusing-skin-booster-100ml.png",
+        "volume": "100 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      },
+      {
+        "name": "ACFIT V-SANG Beta-G Lacto Care Ampoule",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-lacto-care-ampoule-30ml.png",
+        "volume": "30 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      },
+      {
+        "name": "ACFIT V-SANG Beta-G Azulene Focus Oil",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-azulene-focus-oil-15ml.png",
+        "volume": "15 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"],
+        "actives": ["azulene", "tocopherol", "sunflower seed oil", "squalane"]
+      }
+    ]
+  },
+  {
+    "line": "Masks",
+    "lineI18n": { "he": "מסכות", "hi": "मास्क" },
+    "items": [
+      {
+        "name": "ACFIT V-SANG Pack",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-pack-10ea.png",
+        "volume": "10 sheets",
+        "volumeI18n": { "he": "10 גיליונות", "hi": "10 शीट" },
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      },
+      {
+        "name": "ACFIT Clay Beta-G IMMUCA",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-clay-beta-g-immuca-180ml.png",
+        "volume": "180 ml",
+        "certs": ["CPNP", "SCPN", "MoCRA"],
+        "actives": ["kaolin", "bentonite", "Centella asiatica (5 derivatives)"]
+      }
+    ]
+  },
+  {
+    "line": "Sun Protection",
+    "lineI18n": { "he": "הגנה מהשמש", "hi": "सन प्रोटेक्शन" },
+    "items": [
+      {
+        "name": "ACFIT Beta-G Lacto Sun Cream",
+        "img": "/img/suppliers/acfit/products/acfit-beta-g-lacto-sun-cream-50ml.png",
+        "volume": "50 ml",
+        "certs": [],
+        "actives": ["niacinamide", "adenosine", "BIORAN EX Infla Care"]
+      }
+    ]
+  },
+  {
+    "line": "Professional Use Only",
+    "lineI18n": { "he": "לשימוש מקצועי בלבד", "hi": "केवल पेशेवर उपयोग के लिए" },
+    "items": [
+      {
+        "name": "V-SANG Beta-G Secure Solution",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-secure-solution-5ml-x5.png",
+        "volume": "5 ml × 5 vials",
+        "volumeI18n": { "he": "5 מ\"ל × 5 בקבוקונים", "hi": "5 मि.ली. × 5 शीशियाँ" },
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      },
+      {
+        "name": "V-SANG Beta-G Freeze-Dried Activator",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-freeze-dried-solution.png",
+        "volume": "6 ml × 5 (activator) + 15 mg × 5 (solution)",
+        "volumeI18n": { "he": "6 מ\"ל × 5 (אקטיבטור) + 15 מ\"ג × 5 (תמיסה)", "hi": "6 मि.ली. × 5 (एक्टिवेटर) + 15 मि.ग्रा. × 5 (सोल्यूशन)" },
+        "certs": ["CPNP", "SCPN", "MoCRA"],
+        "actives": ["vitamin C", "Centella asiatica extract", "hyaluronic acid", "collagen"]
+      },
+      {
+        "name": "V-SANG Beta-G Blue Peel Solution",
+        "img": "/img/suppliers/acfit/products/acfit-v-sang-beta-g-blue-peel-solution.png",
+        "volume": "1 g × 5 (powder) + 6 ml × 5 (activator)",
+        "volumeI18n": { "he": "1 ג' × 5 (אבקה) + 6 מ\"ל × 5 (אקטיבטור)", "hi": "1 ग्राम × 5 (पाउडर) + 6 मि.ली. × 5 (एक्टिवेटर)" },
+        "certs": ["CPNP", "SCPN", "MoCRA"]
+      }
+    ]
+  }
+]

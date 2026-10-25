@@ -498,6 +498,18 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* ACFIT: письменное согласие на профиль компании/бренда и товарные
+       страницы от 14.09.2026 (мейл 1a09ee3e09d62262). Юрлицо компания не
+       называла — используем торговое имя, как и на самой странице профиля.
+       Экспортной цены компания не передавала (только «по запросу, FOB» и
+       внутрикорейский РРЦ из xlsx) — noPrice, R-022/T-20261026-041. */
+    id: 'acfit', json: 'acfit', supplier: 'ACFIT', brand: 'ACFIT · V-SANG BETA-G',
+    basis: 'FOB Korea', noPrice: true,
+    colors: { deep: '#1C3F60', sky: '#8FB7D6', bg: '#F1F6FA', line: '#D7E6EF' },
+    pres: true,
+    certs: ['CPNP', 'SCPN', 'MoCRA'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
