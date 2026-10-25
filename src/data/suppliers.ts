@@ -457,6 +457,7 @@ import ooznaryEs from './suppliers-i18n/ooznary.es.json';
 import ooznaryPt from './suppliers-i18n/ooznary.pt.json';
 import ooznaryHe from './suppliers-i18n/ooznary.he.json';
 import ooznaryHi from './suppliers-i18n/ooznary.hi.json';
+import ooznaryCatalog from './suppliers-i18n/ooznary.catalog.json';
 import hiyoRu from './suppliers-i18n/hiyo.ru.json';
 import hiyoEn from './suppliers-i18n/hiyo.en.json';
 import hiyoKo from './suppliers-i18n/hiyo.ko.json';
@@ -851,6 +852,8 @@ export interface SupplierProfile {
      говорит о том, что мы видели своими глазами. Здесь — материалы компании,
      и подпись это называет прямо (устав, два статуса и ничего между ними). */
   gallery?: string[];
+  /** Supplier-provided logo stored under /public when no Astro import is needed. */
+  logoUrl?: string;
   /* Ролики самого поставщика, лежащие на нашем домене. Не встраиваем чужой
      плеер: он приносит на страницу имя канала, кнопку «смотреть там» и витрину
      остальных роликов производителя — то есть прямой канал к нему, а прямые
@@ -2866,6 +2869,12 @@ export const suppliers: SupplierProfile[] = [
        contacts are intentionally excluded. Japan, Vietnam and China are not
        offered as destinations (exclusive distributors); CIS only by agreement. */
     gallery: ['/img/suppliers/ooznary/gallery/lineup.jpg', '/img/suppliers/ooznary/gallery/micro-oil-blender.jpg'],
+    logoUrl: '/img/suppliers/ooznary/brand/logo.png',
+    catalog: ooznaryCatalog as { line: string; items: { name: string; img?: string; volume?: string; actives?: string[] }[] }[],
+    /* The files are company materials, not a public price list or certificates. */
+    termsFile: { ru: '/docs/ooznary-brand-en.pdf', en: '/docs/ooznary-brand-en.pdf', ko: '/docs/ooznary-brand-en.pdf', zh: '/docs/ooznary-brand-en.pdf', ja: '/docs/ooznary-brand-en.pdf', it: '/docs/ooznary-brand-en.pdf', de: '/docs/ooznary-brand-en.pdf', fr: '/docs/ooznary-brand-en.pdf', tr: '/docs/ooznary-brand-en.pdf', es: '/docs/ooznary-brand-en.pdf', pt: '/docs/ooznary-brand-en.pdf', he: '/docs/ooznary-brand-en.pdf', hi: '/docs/ooznary-brand-en.pdf' },
+    presFile: { ru: '/docs/ooznary-brand-ko.pdf', en: '/docs/ooznary-brand-ko.pdf', ko: '/docs/ooznary-brand-ko.pdf', zh: '/docs/ooznary-brand-ko.pdf', ja: '/docs/ooznary-brand-ko.pdf', it: '/docs/ooznary-brand-ko.pdf', de: '/docs/ooznary-brand-ko.pdf', fr: '/docs/ooznary-brand-ko.pdf', tr: '/docs/ooznary-brand-ko.pdf', es: '/docs/ooznary-brand-ko.pdf', pt: '/docs/ooznary-brand-ko.pdf', he: '/docs/ooznary-brand-ko.pdf', hi: '/docs/ooznary-brand-ko.pdf' },
+    priceFile: { ru: '/docs/ooznary-micro-oil-blender-37.pdf', en: '/docs/ooznary-micro-oil-blender-37.pdf', ko: '/docs/ooznary-micro-oil-blender-37.pdf', zh: '/docs/ooznary-micro-oil-blender-37.pdf', ja: '/docs/ooznary-micro-oil-blender-37.pdf', it: '/docs/ooznary-micro-oil-blender-37.pdf', de: '/docs/ooznary-micro-oil-blender-37.pdf', fr: '/docs/ooznary-micro-oil-blender-37.pdf', tr: '/docs/ooznary-micro-oil-blender-37.pdf', es: '/docs/ooznary-micro-oil-blender-37.pdf', pt: '/docs/ooznary-micro-oil-blender-37.pdf', he: '/docs/ooznary-micro-oil-blender-37.pdf', hi: '/docs/ooznary-micro-oil-blender-37.pdf' },
     i18n: {
       ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
     },
