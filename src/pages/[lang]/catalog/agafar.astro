@@ -1,0 +1,32 @@
+---
+/* Localized AGAFAR company profile. Draft, unconfirmed by the supplier — only
+   the languages authorized for this draft (EN, KO; RU is the unprefixed
+   /catalog/agafar.astro) get a route. No other locale has agafar.*.json
+   content, so this file does not use the generic all-languages getStaticPaths
+   pattern: that would either silently render Russian text as a translation
+   (non-he/hi locales) or throw at build (he/hi) for languages the supplier
+   has not reviewed. See docs/provenance/agafar-20261023.md. */
+import Base from '../../../layouts/Base.astro';
+import SupplierProfile from '../../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../../data/suppliers';
+import { supplierJsonLd } from '../../../data/jsonld';
+import type { Lang } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  const langs = ['en', 'ko'] as const;
+  return langs.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const profile = supplierBySlug('agafar')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+// hreflang/language-switcher must also know about the unprefixed ru page
+// (src/pages/catalog/agafar.astro) or they would dangle to a route the
+// routing above correctly never builds for any other locale.
+const AGAFAR_LANGS_WITH_RU: Lang[] = ['ru', 'en', 'ko'];
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd} langs={AGAFAR_LANGS_WITH_RU}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

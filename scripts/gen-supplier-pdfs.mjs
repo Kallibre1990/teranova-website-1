@@ -75,6 +75,13 @@ const SUPPLIERS = [
     colors: { deep: '#16485F', sky: '#65B8D1', bg: '#F4F9FB', line: '#D9E6EC' },
   },
   {
+    // AGAFAR draft (T-20261022-018): no price sheet, certifications or export
+    // terms, ru/en/ko only — run with PDF_LANGS=ru,en,ko node scripts/gen-supplier-pdfs.mjs agafar.
+    id: 'agafar', json: 'agafar', supplier: 'AGAFAR', brand: 'AGAFAR',
+    basis: '', noPrice: true, pres: true, certs: [],
+    colors: { deep: '#1E3A5F', sky: '#A9C7DE', bg: '#F4F7FA', line: '#D9E6EC' },
+  },
+  {
     /* noPrice: SANTE COSMETICS 18.08.2026 письменно попросила не публиковать экспортный
        прайс — он закрытый. Прайс-PDF для этого поставщика не собираем. */
     id: 'sante', json: 'sante', supplier: 'SANTE COSMETICS', brand: 'Dr.SANTE', basis: 'FOB Korea', noPrice: true,

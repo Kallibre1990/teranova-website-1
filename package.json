@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "prebuild": "node scripts/check-new-locales.mjs --public-only",
     "build": "astro build",
-    "postbuild": "node scripts/verify-home-locale.mjs",
+    "postbuild": "node scripts/verify-home-locale.mjs && node scripts/verify-profile-photo-gate.mjs",
     "check:new-locales": "node scripts/check-new-locales.mjs --release",
     "check:i18n-dist": "node scripts/verify-i18n-dist.mjs",
     "test:i18n": "node scripts/test-locale-policy.mjs && node scripts/test-dist-verifier.mjs && node scripts/test-home-locale.mjs && node scripts/test-catalog-copy.mjs",

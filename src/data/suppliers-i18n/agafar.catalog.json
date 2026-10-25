@@ -1,0 +1,42 @@
+[
+  {
+    "line": "AGAFAR",
+    "items": [
+      { "name": "Mild Cleansing Gel", "img": "/img/suppliers/agafar/products/agafar-site-09.webp", "volume": "300ml", "actives": ["Portulaca Oleracea Extract", "Madecassoside", "Ceramide NP"] },
+      { "name": "Balancing Soothing Toner", "img": "/img/suppliers/agafar/products/agafar-site-05.webp", "volume": "300ml", "actives": ["Betaine", "Salvia Hispanica Seed Extract", "Centella Asiatica Extract"] },
+      { "name": "Eliderm Gel", "img": "/img/suppliers/agafar/products/agafar-site-19.webp", "volume": "300ml", "actives": ["Green Tea Extract", "Propolis Extract", "Licorice Root Extract", "Allantoin"] },
+      { "name": "Mela Pro Ampoule", "img": "/img/suppliers/agafar/products/agafar-site-10.webp", "volume": "30ml", "actives": ["Sodium Ascorbyl Phosphate", "Niacinamide", "Retinyl Palmitate"] },
+      { "name": "Double Pro Ampoule", "img": "/img/suppliers/agafar/products/agafar-site-20.webp", "volume": "30ml", "actives": ["8-Peptide Complex", "Hydrolyzed Collagen"] },
+      { "name": "PDRN-HA Pro Ampoule", "img": "/img/suppliers/agafar/products/agafar-site-08.webp", "volume": "30ml", "actives": ["PDRN", "Multi-Molecular Hyaluronic Acid Complex"] },
+      { "name": "Vita K Pro Ampoule", "img": "/img/suppliers/agafar/products/agafar-site-13.webp", "volume": "30ml", "actives": ["Vita K Complex", "Panthenol", "Azulene"] },
+      { "name": "Shine Eye Serum", "img": "/img/suppliers/agafar/products/agafar-site-14.webp", "volume": "30ml", "actives": ["Red Berry Complex", "Hydrolyzed Collagen"] },
+      { "name": "Star Eye Cream", "img": "/img/suppliers/agafar/products/agafar-site-12.webp", "volume": "30ml", "actives": ["Lactobacillus Ferment Lysate", "Palmitoyl Tripeptide-5"] },
+      { "name": "Oint Cream", "img": "/img/suppliers/agafar/products/agafar-site-11.webp", "volume": "30ml", "actives": ["Madecassoside", "Centella Asiatica Extract", "Ceramide Complex"] },
+      { "name": "Moisturizing Cream", "img": "/img/suppliers/agafar/products/agafar-site-04.webp", "volume": "50ml", "actives": ["Ceramide", "Cholesterol", "Portulaca Oleracea Extract"] },
+      { "name": "Daily Sunblock SPF50+ PA++++", "img": "/img/suppliers/agafar/products/agafar-site-03.webp", "volume": "50ml", "actives": ["Multi-Peptide Complex", "Gentiana Lutea Root Extract"] }
+    ]
+  },
+  {
+    "line": "agapharma (Meditive Formula 3X)",
+    "items": [
+      { "name": "Meditive Formula Gentle Foam Cleanser", "img": "/img/suppliers/agafar/products/agafar-site-07.webp", "volume": "150ml", "actives": ["Meditive Formula 3X: Hyal-Collagen · Bio Lacto Exo · Super Centella"] },
+      { "name": "Meditive Formula Active Ampoule", "img": "/img/suppliers/agafar/products/agafar-site-07.webp", "volume": "100ml", "actives": ["Meditive Formula 3X", "5-Free Probiotics", "Inulin"] },
+      { "name": "Meditive Formula Skin Booster", "img": "/img/suppliers/agafar/products/agafar-site-07.webp", "volume": "10ml x 7ea", "actives": ["Meditive Formula 3X", "5-Free Probiotics", "Inulin"] },
+      { "name": "Meditive Formula Light Cream", "img": "/img/suppliers/agafar/products/agafar-site-07.webp", "volume": "70ml", "actives": ["Hyal-Collagen", "Hyalpol Prebiotics", "Ectoin"] },
+      { "name": "Meditive Formula Regenerating Cream", "img": "/img/suppliers/agafar/products/agafar-site-07.webp", "volume": "50ml", "actives": ["Hyal-Collagen", "Hyalpol Prebiotics", "Squalane"] }
+    ]
+  },
+  {
+    "line": "EXOXEN",
+    "items": [
+      { "name": "EXOXEN Booster", "img": "/img/suppliers/agafar/products/exoxen-booster.webp", "volume": "3ml x 10ea", "actives": ["Exosome"] }
+    ]
+  },
+  {
+    "line": "a'reiv",
+    "items": [
+      { "name": "Lab Laboratory Mask", "img": "/img/suppliers/agafar/products/lab-laboratory-mask.webp", "volume": "25ml x 5ea", "actives": ["Triple Hyaluronic Acid", "Betaine", "Panthenol"] },
+      { "name": "Calming Sun Cream SPF50+ PA++++", "img": "/img/suppliers/agafar/products/calming-sun-cream.webp", "volume": "50ml", "actives": ["Panthenol", "Apple Leaf Extract", "Aloe Vera Leaf Extract"] }
+    ]
+  }
+]

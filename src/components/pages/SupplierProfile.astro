@@ -102,6 +102,13 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   chaewun: { hero: chaewunHero, products: chaewunProducts, drops: chaewunDrops },
 };
 const m = media[profile.slug];
+/* Most established profiles use Astro-imported hero art. Draft profiles such as
+   AGAFAR keep their reviewed company materials under /public so the provenance
+   register can name each file. Do not omit the hero in that case: use the first
+   explicitly labelled company-material image, never a visit photo. */
+const publicHero = profile.slug === 'agafar'
+  ? '/img/suppliers/agafar/products/agafar-site-01.webp'
+  : profile.gallery?.[0];
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
@@ -246,10 +253,12 @@ function monogram(name: string): string {
             </span>}
           </div>
         </div>
-        {m && (
+        {(m || publicHero) && (
           <aside class="sp-hero__art">
             <figure class="sp-hero__photo">
-              <Image src={m.hero} alt={`${profile.brand} — ${c.descriptor}`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
+              {m
+                ? <Image src={m.hero} alt={`${profile.brand} — ${c.descriptor}`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
+                : <img src={publicHero} alt={`${profile.brand} — ${c.descriptor}`} sizes="(max-width: 820px) 92vw, 440px" loading="eager" decoding="async" />}
             </figure>
             {shelf.length > 0 && (
               /* A short shelf of the brand's own products under the photo: the

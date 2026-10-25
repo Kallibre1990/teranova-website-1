@@ -27,7 +27,9 @@ let failed = false;
 for (const lang of ['he', 'hi']) {
   const ui = parity(data.ru, data[lang]);
   const content = [
-    ...suppliers.map((entry) => ({ path: `/catalog/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
+    ...suppliers
+      .filter((entry) => !entry.localesOnly || entry.localesOnly.includes(lang))
+      .map((entry) => ({ path: `/catalog/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
     ...lines.map((entry) => ({ path: `/catalog/${entry.supplierSlug}/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
     ...data.posts.map((entry) => ({ path: `/blog/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
     { path: '/solar-care/', ...parity(data.solarCopy.ru, data.solarCopy[lang]) },

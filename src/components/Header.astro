@@ -7,8 +7,10 @@ import { ui, type Lang } from '../i18n/ui';
 interface Props {
   lang: Lang;
   path: string;
+  /** Narrows the language switcher to these locales — see Base.astro. */
+  langs?: Lang[];
 }
-const { lang, path } = Astro.props;
+const { lang, path, langs } = Astro.props;
 const t = ui[lang];
 
 // Десктопная шапка — только опорные разделы, чтобы ряд не переполнялся и не наезжал
@@ -27,7 +29,7 @@ const ctaHref = anchorHref('ondemand', lang);
     </nav>
 
     <div class="header__right">
-      <LanguageSwitcher lang={lang} path={path} />
+      <LanguageSwitcher lang={lang} path={path} langs={langs} />
       <a class="btn btn--primary header__cta" href={ctaHref}>{t.common.cta_request}</a>
       <button class="burger" id="navToggle" aria-label={t.common.menu} aria-expanded="false" aria-controls="mobileMenu">
         <span></span><span></span><span></span>
@@ -46,7 +48,7 @@ const ctaHref = anchorHref('ondemand', lang);
   </nav>
   <div class="mobile-menu__foot wrap">
     <a class="btn btn--primary" href={ctaHref}>{t.common.cta_request}</a>
-    <LanguageSwitcher lang={lang} path={path} />
+    <LanguageSwitcher lang={lang} path={path} langs={langs} />
   </div>
 </div>
 

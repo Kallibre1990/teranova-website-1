@@ -31,6 +31,15 @@ export const homeDefaultLocale = 'en';
  * an exception to sectionDefaultLocale, not a second convention. */
 export const rootEnglishPaths = ['/catalog/medical', '/catalog/agingtarget'];
 
+/** Paths published in a locale subset only — a draft supplier profile
+ * awaiting the supplier's translation approval (suppliers.ts `localesOnly`).
+ * Without this, hreflang/sitemap would advertise alternates for locales the
+ * page never builds, pointing search engines at 404s. Keep the locale list
+ * here in sync with the matching `localesOnly` entry in suppliers.ts. */
+export const localesOnlyPaths = {
+  '/catalog/agafar': ['ru', 'en', 'ko'],
+};
+
 function cleanPath(path) {
   return '/' + path.replace(/^\/+|\/+$/g, '');
 }
@@ -56,8 +65,9 @@ export function logicalPath(pathname) {
 export function languageAlternates(path, site) {
   const clean = cleanPath(path);
   const xDefaultLocale = (clean === '/' || rootEnglishPaths.includes(clean)) ? homeDefaultLocale : sectionDefaultLocale;
+  const allowedLocales = localesOnlyPaths[clean] ?? publicLocaleCodes;
   return [
-    ...publicLocaleCodes.map((lang) => ({ lang, url: new URL(localizedPath(path, lang), site).href })),
+    ...allowedLocales.map((lang) => ({ lang, url: new URL(localizedPath(path, lang), site).href })),
     { lang: 'x-default', url: new URL(localizedPath(path, xDefaultLocale), site).href },
   ];
 }
