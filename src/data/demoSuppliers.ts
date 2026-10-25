@@ -30,9 +30,8 @@ export const demoSuppliers: Record<CategoryKey, DemoSupplier[]> = {
   /* Cosmetics now has real verified suppliers (see suppliers.ts) — no demo
      placeholders in this segment. */
   cosmetics: [],
-  /* Решением Антона 25.10.2026 вымышленные демо-карточки медицины (Mirae Medi,
-     Sumi Aesthetics, Jeong Medical, Haneul MedTech) убраны из витрины — в
-     разделе остаются только реальные Moz Science и AgingTarget (см. suppliers.ts),
+  /* Решением Антона 25.10.2026 вымышленные демо-карточки медицины убраны из
+     витрины — в разделе остаются только реальные поставщики (см. suppliers.ts),
      независимо от порога DEMO_HIDE_AT в CatalogGroup.astro. */
   medical: [],
   industrial: [
