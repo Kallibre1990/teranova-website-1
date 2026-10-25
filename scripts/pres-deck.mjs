@@ -117,6 +117,8 @@ export function deckCSS(C, voice) {
   .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 2mm; }
   .card { border: 1px solid ${line}; border-left: 3px solid ${deep}; border-radius: 3mm;
           padding: 4mm 4.5mm; break-inside: avoid; background: #fff; }
+  .card__ph { width: 100%; height: 23mm; object-fit: contain; object-position: center; display: block;
+              margin: 0 0 3mm; background: ${bg}; border-radius: 2mm; }
   .card .n { font-weight: 800; color: ${deep}; font-size: 11pt; margin-bottom: 1.5mm; }
   .card .d { font-size: 9pt; line-height: 1.5; color: #48525f; }
 
@@ -124,6 +126,8 @@ export function deckCSS(C, voice) {
   .row { padding: 3.5mm 0; border-bottom: 1px solid ${line}; break-inside: avoid; }
   .row .n { font-weight: 800; color: ${deep}; font-size: 10.5pt; }
   .row .d { font-size: 9.5pt; line-height: 1.5; color: #48525f; margin-top: 1mm; }
+  .row__ph { width: 100%; height: 42mm; object-fit: contain; display: block; margin-top: 3mm;
+             background: ${bg}; border-radius: 2mm; }
 
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin-top: 2mm; }
   .prod { break-inside: avoid; }
@@ -187,8 +191,9 @@ const page = (cfg, lbl, title, body, extra = '') => `
  * @param t     данные условий (termsData): terms/terms_h/terms_disc
  * @param cat   каталог [{line, items:[{name, img, volume}]}] или null
  * @param hero  абсолютный путь к обложечному фото или null
+ * @param media фотографии линеек и технологий, keyed by their exact display name
  */
-export function deckHTML(cfg, lang, d, t, cat, hero) {
+export function deckHTML(cfg, lang, d, t, cat, hero, media = {}) {
   const u = d.ui || {};
   const P = [];
 
@@ -215,7 +220,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     const groups = chunkBy(d.lines, 1150, 7, (l) => (l.name || '').length + (l.note || '').length);
     groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
       (u.lines_h || 'Product lines') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
-      `<div class="cards">${g.map((l) => `<div class="card"><div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`)));
+      `<div class="cards">${g.map((l) => `<div class="card">${media.lines?.[l.name] ? `<img class="card__ph" src="file://${media.lines[l.name]}">` : ''}<div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`)));
   }
 
   /* 4. Подход и производство — то же разбиение по объёму */
@@ -223,7 +228,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     const groups = chunkBy(d.tech, 1250, 5, (x) => (x.name || '').length + (x.note || '').length);
     groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
       (u.tech_h || 'Approach and manufacturing') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
-      `<div class="rows">${g.map((x) => `<div class="row"><div class="n">${esc(x.name)}</div><div class="d">${esc(x.note)}</div></div>`).join('')}</div>`)));
+      `<div class="rows">${g.map((x) => `<div class="row"><div class="n">${esc(x.name)}</div><div class="d">${esc(x.note)}</div>${media.tech?.[x.name] ? `<img class="row__ph" src="file://${media.tech[x.name]}">` : ''}</div>`).join('')}</div>`)));
   }
 
   /* 5. Каталог — по 12 позиций с фото на страницу.

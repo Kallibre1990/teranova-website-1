@@ -80,6 +80,16 @@ const SUPPLIERS = [
     id: 'agafar', json: 'agafar', supplier: 'AGAFAR', brand: 'AGAFAR',
     basis: '', noPrice: true, pres: true, certs: [],
     colors: { deep: '#1E3A5F', sky: '#A9C7DE', bg: '#F4F7FA', line: '#D9E6EC' },
+    media: {
+      lines: {
+        AGAFAR: 'products/agafar-site-09.webp',
+        'agapharma': 'products/agafar-site-07.webp',
+        "a'reiv": 'products/lab-laboratory-mask.webp',
+        EXOXEN: 'products/exoxen-booster.webp',
+        NADXEN: 'products/agafar-site-01.webp',
+      },
+      tech: { 'Аппарат PLAZION': 'scenes/plazion.webp', 'PLAZION device': 'scenes/plazion.webp', 'PLAZION 기기': 'scenes/plazion.webp' },
+    },
   },
   {
     /* noPrice: SANTE COSMETICS 18.08.2026 письменно попросила не публиковать экспортный
@@ -693,10 +703,21 @@ const CHROME_ARGS = [
 /* Обложечное фото: у поставщиков оно называется по-разному (у SANTE — PNG
    с другим именем), поэтому перебираем известные варианты. */
 function heroOf(cfg) {
-  const dir = path.join(ROOT, 'src/assets/suppliers', cfg.id);
-  for (const n of ['hero.jpg', 'hero.png', 'hero-serum.png', 'products.jpg', 'products.png']) {
-    const p = path.join(dir, n);
-    if (fs.existsSync(p)) return p;
+  const sourceDirs = [
+    path.join(ROOT, 'src/assets/suppliers', cfg.id),
+    path.join(ROOT, 'public/img/suppliers', cfg.id, 'scenes'),
+  ];
+  const names = [
+    'hero.jpg', 'hero.png', 'hero-serum.png', 'products.jpg', 'products.png',
+    // The profile and its PDF must use the same documented brand image.  The
+    // AGAFAR assets live in public/ because they are also served by the site.
+    'agafar-global-skincare-campaign.webp',
+  ];
+  for (const dir of sourceDirs) {
+    for (const n of names) {
+      const p = path.join(dir, n);
+      if (fs.existsSync(p)) return p;
+    }
   }
   return null;
 }
@@ -719,23 +740,42 @@ function catalogOf(cfg) {
   return cat;
 }
 
+function mediaOf(cfg) {
+  const root = path.join(ROOT, 'public/img/suppliers', cfg.id);
+  const resolve = (entries = {}) => Object.fromEntries(
+    Object.entries(entries).map(([name, rel]) => [name, path.join(root, rel)]),
+  );
+  return { lines: resolve(cfg.media?.lines), tech: resolve(cfg.media?.tech) };
+}
+
+function assertPresentationAssets(cfg, catalog, hero, media) {
+  const missingCatalog = (catalog || []).flatMap((group) => group.items || [])
+    .filter((item) => item.img && !item.abs).map((item) => item.name);
+  const required = [hero, ...Object.values(media.lines), ...Object.values(media.tech)]
+    .filter(Boolean).filter((file) => !fs.existsSync(file));
+  if (!hero || missingCatalog.length || required.length) {
+    throw new Error(`${cfg.id}: PDF presentation assets are incomplete (hero=${Boolean(hero)}, catalog=${missingCatalog.join(', ') || 'ok'}, media=${required.join(', ') || 'ok'})`);
+  }
+}
+
 async function toPDF(html, outfile) {
   const tmp = path.join(os.tmpdir(), `spdf-${Math.abs(hash(outfile))}.html`);
+  const next = `${outfile}.next`;
   fs.writeFileSync(tmp, html);
-  try { fs.unlinkSync(outfile); } catch { /* first run */ }
+  try { fs.unlinkSync(next); } catch { /* no interrupted candidate */ }
   /* detached: свой process group, чтобы ниже убить Chrome со всеми его
      потомками. Прежде SIGKILL уходил только родителю, а вспомогательные
      процессы оставались жить: один такой провисел двое суток и продолжал
      дописывать PDF, из-за чего часть документов оставалась без водяного знака
      и с чужими свойствами — правки выглядели как случайно откатившиеся. */
-  const ch = spawn(CHROME, [...CHROME_ARGS, `--print-to-pdf=${outfile}`, `file://${tmp}`],
+  const ch = spawn(CHROME, [...CHROME_ARGS, `--print-to-pdf=${next}`, `file://${tmp}`],
     { stdio: 'ignore', detached: true });
   const t0 = Date.now();
   let last = -1, stable = 0, ok = false;
   while (Date.now() - t0 < 25000) {
     await sleep(350);
-    if (fs.existsSync(outfile)) {
-      const sz = fs.statSync(outfile).size;
+    if (fs.existsSync(next)) {
+      const sz = fs.statSync(next).size;
       if (sz > 1200 && sz === last) { if (++stable >= 2) { ok = true; break; } } else stable = 0;
       last = sz;
     }
@@ -744,13 +784,15 @@ async function toPDF(html, outfile) {
   try { ch.kill('SIGKILL'); } catch { /* already gone */ }
   await sleep(120);
   fs.unlinkSync(tmp);
-  if (!ok) throw new Error(`PDF not produced: ${outfile}`);
+  if (!ok) throw new Error(`PDF not produced: ${outfile}; the previous PDF was kept`);
+  fs.renameSync(next, outfile);
 }
 function hash(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return h; }
 
 const only = process.argv[2]; // optional supplier id filter
 const targets = only ? SUPPLIERS.filter((s) => s.id === only) : SUPPLIERS;
 if (only && targets.length === 0) { console.error(`Unknown supplier id: ${only}`); process.exit(1); }
+const CHECK_ONLY = process.env.PDF_CHECK === '1';
 
 let n = 0;
 for (const cfg of targets) {
@@ -759,6 +801,14 @@ for (const cfg of targets) {
   if (site) {
     cfg.colors = { ...cfg.colors, deep: site.deep, sky: site.sky, accent: site.accent, bg: site.bg };
     cfg.voice = site.voice;
+  }
+  const catalog = catalogOf(cfg);
+  const hero = heroOf(cfg);
+  const media = mediaOf(cfg);
+  if (cfg.pres) assertPresentationAssets(cfg, catalog, hero, media);
+  if (CHECK_ONLY) {
+    console.log(`${cfg.id}: all presentation assets resolve`);
+    continue;
   }
   const priceLines = cfg.noPrice
     ? null
@@ -771,13 +821,17 @@ for (const cfg of targets) {
       await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
       n += 1;
     }
-    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg), heroOf(cfg)),
+    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalog, hero, media),
       path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`));
     n += 1;
     process.stdout.write(` ${lang}`);
   }
 }
 fs.rmSync(PROF, { recursive: true, force: true });
+if (CHECK_ONLY) {
+  console.log('Проверка входных данных PDF пройдена.');
+  process.exit(0);
+}
 console.log(`\nГотово: ${n} PDF в ${path.relative(ROOT, OUT)}/`);
 
 /* Водяной знак — обязательная часть конвейера, а не отдельный шаг «на потом».
