@@ -39,14 +39,10 @@ export const hiddenTeamPhotos = [
   '/img/team/an-larisa.jpg',   // Лариса Ан — менеджер по покупателям
 ] as const;
 
-/* Обратимое скрытие профилей поставщиков с неполными данными (решение Антона,
-   HQ-чат 26.10.2026, T-20261026-045): пока НЕ показывать на сайте. Код и
-   тексты профилей целы в suppliers.ts и в локалях — вернуть = убрать slug из
-   списка и пересобрать (`npm run build`). */
-export const hiddenSupplierSlugs = [
-  'plk-lift', 'oavo', 'aromaflavum', 'du-cosmetic', 'agingtarget',
-  'hiyo', 'dachen', 'toptrend', 'moz-science',
-] as const;
+/* Реальные профили поставщиков показываются в каталоге и по прямым URL.
+   Вымышленные медицинские демо-профили удалены из данных отдельно и не
+   управляются этим списком. */
+export const hiddenSupplierSlugs = [] as const;
 export const isHiddenSupplier = (slug: string): boolean =>
   (hiddenSupplierSlugs as readonly string[]).includes(slug);
 
