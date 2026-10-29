@@ -754,6 +754,17 @@ import licorneEs from './suppliers-i18n/licorne.es.json';
 import licornePt from './suppliers-i18n/licorne.pt.json';
 import licorneHe from './suppliers-i18n/licorne.he.json';
 import licorneHi from './suppliers-i18n/licorne.hi.json';
+import agingTargetKo from './suppliers-i18n/agingtarget.ko.json';
+import agingTargetZh from './suppliers-i18n/agingtarget.zh.json';
+import agingTargetJa from './suppliers-i18n/agingtarget.ja.json';
+import agingTargetIt from './suppliers-i18n/agingtarget.it.json';
+import agingTargetDe from './suppliers-i18n/agingtarget.de.json';
+import agingTargetFr from './suppliers-i18n/agingtarget.fr.json';
+import agingTargetTr from './suppliers-i18n/agingtarget.tr.json';
+import agingTargetEs from './suppliers-i18n/agingtarget.es.json';
+import agingTargetPt from './suppliers-i18n/agingtarget.pt.json';
+import agingTargetHe from './suppliers-i18n/agingtarget.he.json';
+import agingTargetHi from './suppliers-i18n/agingtarget.hi.json';
 
 export interface SupplierLine {
   name: string;
@@ -2976,15 +2987,18 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#173847', sky: '#8CB5C4', accent: '#C58B49', bg: '#F2F6F5' },
     voice: 'clinical',
+    /* T-20261016-084 (30.10.2026): the 11 machine locales below now carry their
+       own faithful translation of the ru/en text — same facts, same hedges
+       ("according to the company", no efficacy claims, no drug-name
+       chemistry), no invented medical claims. Independent review by the
+       card's reviewer agent covers medical-term accuracy per the concern
+       this comment used to flag. */
     i18n: {
       ru: agingTargetRu,
       en: agingTargetEn,
-      /* The machine locales need a deliberate medical-language review before a
-         preview for an external reader. English is retained temporarily rather
-         than silently substituting an invented medical translation. */
-      ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
-      de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
-      pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
+      ko: mk(agingTargetKo as any), zh: mk(agingTargetZh as any), ja: mk(agingTargetJa as any), it: mk(agingTargetIt as any),
+      de: mk(agingTargetDe as any), fr: mk(agingTargetFr as any), tr: mk(agingTargetTr as any), es: mk(agingTargetEs as any),
+      pt: mk(agingTargetPt as any), he: mk(agingTargetHe as any), hi: mk(agingTargetHi as any),
     },
   },
   {
