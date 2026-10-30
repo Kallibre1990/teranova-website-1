@@ -1,19 +1,20 @@
 {
   "content": {
-    "tagline": "Dermatology-clinic skincare from Korea, across five brands",
-    "descriptor": "Korean dermatology-clinic group: AGAFAR skincare, agapharma Meditive Formula 3X, a'reiv masks and sun care, EXOXEN and NADXEN boosters, and the PLAZION in-clinic device",
+    "tagline": "Dermatology-clinic skincare from Korea, across three brands",
+    "descriptor": "Korean dermatology-clinic group: three brands — AGAFAR skincare, agapharma Meditive Formula 3X, a'reiv — and a line of in-clinic professional devices",
     "origin": "Korea",
     "about": [
       "AGAFAR is a Korean dermatology-clinic and skincare brand that has worked since 2010. Its official clinic website lists six AGAFAR clinics in Korea: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang and Juan. According to the company, AGAFAR Clinic and AGAFAR Medi Lounge also operate in Hong Kong, China, Thailand and Canada, with more than 40 branches in Korea and abroad in total. AGAFAR presented its DERMA MODE PROGRAM catalog under the AGAFAR, agapharma and a'reiv names at K-Beauty Expo Korea 2026.",
-      "According to the company, AGAFAR derma-cosmetics were created for gentle daily care of sensitive and problem-prone skin. The portfolio spans five lines: AGAFAR (cleanser, toner, ampoules, eye care, moisturizer and sunblock for daily use), agapharma's Meditive Formula 3X (a professional line built on hyal-collagen and Bio Lacto Exosome: cleanser, ampoule, skin booster and creams), a'reiv (a laboratory-coded sheet mask and a calming sun cream), EXOXEN (a high-concentration exosome booster) and NADXEN (an NAD⁺/NMN ampoule and serum, according to the company). AGAFAR also shows PLAZION, an in-clinic device its own materials describe as improving product absorption and penetration; Teranova has not seen a technical specification for it.",
+      "According to the company, AGAFAR derma-cosmetics were created for gentle daily care of sensitive and problem-prone skin. AGAFAR has three brands in the derma skincare direction. AGAFAR is the daily-care line: cleanser, toner, ampoules, eye care, moisturizer and sunblock. agapharma is the professional Meditive Formula 3X line, built on hyal-collagen and Bio Lacto Exosome: cleanser, ampoule, skin booster and creams. a'reiv is a laboratory-coded sheet mask and a calming sun cream. The EXOXEN booster (a high-concentration exosome product) and NADXEN (an NAD⁺/NMN ampoule and serum) are labelled on the company's official site as \"AGAFAR EXOXEN\" and \"AGAFAR NADXEN\" — products of the AGAFAR brand, not separate brands; the company's own DERMA MODE PROGRAM catalog confirms the same structure, listing exactly three brands (agafar, agapharma, a'reiv) with EXOXEN as a catalog item.",
+      "AGAFAR also makes a line of professional in-clinic and salon devices — its official \"Skincare & Body Contouring Devices\" catalog lists seven. Transfer is a basic multi-function device (a 27 kHz ultrasonic scrubber, a Sono handpiece vibrating 1 million times per second, a Vitamin Clip for iontophoresis, and a Cooling & Heating handpiece at −20…+40 °C). agafar Point Plus is HIFU (7 MHz at 1.5/2/3/4/5 mm and 4 MHz at 3/4.5/6/9 mm) plus LDM ultrasound (3/10 MHz and 1/3 MHz). The RF + HIFU device is named agafar Point Plus Pro on its detail page in the same catalog, but the catalog's own overview grid labels it \"AGAFAR POINT PLUS RPO\" — a naming discrepancy inside one official document, left unresolved rather than guessed at; it has 2/3/4.5 mm face cartridges, a 6 mm body cartridge, and a rated 180,000 shots. agafar Line S is a 6-in-1 device (multipolar RF, thermal RF, 34 kHz cavitation, low-level laser, vacuum and LED, via Thermal, Multi Cavi and Multi handpieces). agafar S combines cavitation, a thermal handpiece and a suction handpiece (APP-1/2/3). PLASMA is a plasma device with AIR Plasma and RF Multi Plasma handpieces; the unit itself is labelled \"PLASER\". agafar LED PDT Light offers red 635 nm, green 560 nm, blue 415 nm and a combined light (purple 308 nm, yellow 590 nm, orange 610 nm). Separately, a photo from the company's exhibition booth shows a device called PLAZION with the claims \"Better Absorption\" and \"Deeper Penetration\"; this name does not appear in the official \"agafar dermatology machines\" catalog, and no technical specification or registration status has been provided.",
       "According to the company, AGAFAR products are sold in Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE (Dubai), Canada and other markets. These are the company's own statements, confirmed for a specific enquiry, not independently verified by Teranova."
     ],
     "facts": [
-      "Five brands: AGAFAR, agapharma (Meditive Formula 3X), a'reiv, EXOXEN, NADXEN",
+      "Three brands in the derma skincare direction: AGAFAR, agapharma (Meditive Formula 3X), a'reiv; the EXOXEN and NADXEN boosters are AGAFAR-brand products, according to the official site and the company's catalog",
       "Six AGAFAR dermatology clinics in Korea, listed on the official clinic website; working since 2010",
       "More than 40 clinic branches in Korea and abroad, including Hong Kong, China, Thailand and Canada, according to the company",
       "20-SKU DERMA MODE PROGRAM catalog: cleansers, toners, ampoules, eye care, creams, sunblock, sheet mask, boosters",
-      "PLAZION in-clinic device for product absorption, according to the company",
+      "Up to seven professional devices in the official device catalog: Transfer, Point Plus (HIFU+LDM), Point Plus Pro/RPO (RF+HIFU), Line S (6-in-1), agafar S (cavitation/thermal/vacuum), PLASMA, LED PDT Light",
       "Product markets according to the company: Korea, Hong Kong, China, Thailand, Japan, US, Philippines, Malaysia, UK, UAE, Canada and others"
     ],
     "catalog_notes": [
@@ -47,7 +48,7 @@
     "lines": [
       {
         "name": "AGAFAR",
-        "note": "The flagship daily-care line: Mild Cleansing Gel, Balancing Soothing Toner and Eliderm soothing gel, four Pro Ampoules (Mela brightening, Double firming, PDRN-HA, Vita K), Shine Eye Serum and Star Eye Cream, Oint spot-recovery cream, Moisturizing Cream and a Daily Sunblock SPF50+ PA++++."
+        "note": "The flagship daily-care line: Mild Cleansing Gel, Balancing Soothing Toner and Eliderm soothing gel, four Pro Ampoules (Mela brightening, Double firming, PDRN-HA, Vita K), Shine Eye Serum and Star Eye Cream, Oint spot-recovery cream, Moisturizing Cream and a Daily Sunblock SPF50+ PA++++. According to the official site, the EXOXEN exosome booster and the NADXEN NAD⁺/NMN ampoule and serum also belong to the AGAFAR brand, not to separate brands."
       },
       {
         "name": "agapharma",
@@ -56,20 +57,40 @@
       {
         "name": "a'reiv",
         "note": "A Hyaluronic Ultra-Fine sheet mask (Lab Laboratory Mask) and a Calming Sun Cream SPF50+ PA++++ for oily and sensitive skin."
-      },
-      {
-        "name": "EXOXEN",
-        "note": "A high-concentration exosome booster (3 ml × 10, Booster), positioned by the company for post-procedure and in-clinic use."
-      },
-      {
-        "name": "NADXEN",
-        "note": "An NAD⁺ and NMN ampoule and serum pair, shown on AGAFAR's own site as a bestselling line; the company has not sent Teranova a separate ingredient or claim list for it."
       }
     ],
     "tech": [
       {
-        "name": "PLAZION device",
-        "note": "An in-clinic device shown in the company's marketing material with the claims \"Better Absorption\" and \"Deeper Penetration\" and an intensity dial. Teranova has not received a technical specification, model name or registration status for it."
+        "name": "Transfer",
+        "note": "A basic multi-function clinic device: a 27 kHz ultrasonic scrubber, a Sono handpiece (1 million vibrations per second), a Vitamin Clip for iontophoresis, and a Cooling & Heating handpiece (−20…+40 °C). Per the company's official device catalog."
+      },
+      {
+        "name": "agafar Point Plus",
+        "note": "HIFU + LDM: HIFU at 7 MHz (1.5/2/3/4/5 mm) and 4 MHz (3/4.5/6/9 mm), LDM ultrasound at 3/10 MHz and 1/3 MHz. Per the company's official device catalog."
+      },
+      {
+        "name": "agafar Point Plus Pro",
+        "note": "RF + HIFU; the overview grid in the same catalog labels it \"AGAFAR POINT PLUS RPO\" — a discrepancy inside one official document, left unresolved rather than guessed at. 2/3/4.5 mm face cartridges, a 6 mm body cartridge, rated 180,000 shots."
+      },
+      {
+        "name": "agafar Line S",
+        "note": "6-in-1: multipolar RF, thermal RF, 34 kHz cavitation, low-level laser, vacuum and LED, via three handpieces — Thermal, Multi Cavi, Multi. Per the company's official device catalog."
+      },
+      {
+        "name": "agafar S",
+        "note": "Cavitation + thermal + suction: Protrusion, Cavitation and Suction & Thermal handpieces (APP-1/2/3). Per the company's official device catalog."
+      },
+      {
+        "name": "PLASMA",
+        "note": "The unit itself is labelled \"PLASER\"; AIR Plasma and RF Multi Plasma handpieces. Per the company's official device catalog."
+      },
+      {
+        "name": "agafar LED PDT Light",
+        "note": "Red 635 nm, green 560 nm, blue 415 nm and a combined light (purple 308 nm, yellow 590 nm, orange 610 nm). Per the company's official device catalog."
+      },
+      {
+        "name": "PLAZION",
+        "note": "An in-clinic device from a photo of the company's exhibition booth, with the claims \"Better Absorption\" and \"Deeper Penetration\" and an intensity dial; this name does not appear in the official \"agafar dermatology machines\" catalog. Teranova has not received a technical specification, model name or registration status for it."
       },
       {
         "name": "Clinical actives",
@@ -97,10 +118,10 @@
     "terms": [
       { "label": "Draft status", "value": "This page is a draft Teranova prepared from AGAFAR's catalog and official website for the supplier's review. AGAFAR has not yet confirmed the text, images or final scope of this profile." },
       { "label": "Not published here", "value": "Prices, MOQ, Incoterms, payment terms, certifications, export markets as verified fact and direct manufacturer contacts are not shown on this draft; each is confirmed for a specific enquiry through Teranova once AGAFAR approves the page." },
-      { "label": "Information awaiting confirmation", "value": "PLAZION's technical specification and registration status, a separate ingredient or claim list for NADXEN, and the final scope of product imagery are still awaiting the supplier's confirmation." }
+      { "label": "Information awaiting confirmation", "value": "PLAZION's technical specification and registration status, the reason for the \"agafar Point Plus Pro\" / \"AGAFAR POINT PLUS RPO\" naming discrepancy inside the official device catalog, a separate ingredient or claim list for NADXEN, and the final scope of product imagery are still awaiting the supplier's confirmation." }
     ],
     "seoTitle": "AGAFAR — Korean dermatology-clinic skincare · Teranova",
-    "seoDesc": "AGAFAR: Korean dermatology-clinic brand with agapharma, a'reiv, EXOXEN and NADXEN, plus the PLAZION device. Draft profile, pending supplier review — via Teranova."
+    "seoDesc": "AGAFAR: Korean dermatology-clinic brand with three skincare brands — AGAFAR, agapharma, a'reiv — and a line of professional in-clinic devices. Draft profile, pending supplier review — via Teranova."
   },
   "ui": {
     "profile_sup": "Supplier profile",
@@ -110,7 +131,7 @@
     "catalog_h": "Product catalog",
     "tech_h": "Device and formulation",
     "products_h": "Products",
-    "products_note": "AGAFAR, agapharma, a'reiv, EXOXEN and NADXEN cover daily skincare, professional ampoules, sheet masks, sun care and exosome/NAD⁺ boosters.",
+    "products_note": "AGAFAR, agapharma and a'reiv cover daily skincare, professional ampoules, sheet masks and sun care; the EXOXEN and NADXEN boosters are part of the AGAFAR line.",
     "gallery_h": "Products and equipment in company materials",
     "gallery_note": "These images are derived from materials supplied by AGAFAR and locally preserved public-site assets. They are shown in this draft for the supplier's review.",
     "formats_h": "Product formats",
