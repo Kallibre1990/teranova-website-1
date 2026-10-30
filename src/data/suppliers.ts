@@ -416,6 +416,7 @@ import cheon365Es from './suppliers-i18n/cheon365.es.json';
 import cheon365Pt from './suppliers-i18n/cheon365.pt.json';
 import cheon365He from './suppliers-i18n/cheon365.he.json';
 import cheon365Hi from './suppliers-i18n/cheon365.hi.json';
+import cheon365Catalog from './suppliers-i18n/cheon365.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -3084,6 +3085,8 @@ export const suppliers: SupplierProfile[] = [
        (линия Blue Blended). */
     brandColors: { deep: '#1F2A44', sky: '#D7DEE8', accent: '#2B4C7E', bg: '#F4F5F7' },
     voice: 'minimal',
+    logoUrl: '/img/suppliers/cheon365/scott-hamish-logo.png',
+    catalog: cheon365Catalog,
     /* Согласие косвенное: 07.10.2026 компания написала, что Scott Hamish можно
        представлять через Teranova; наш запрос прав на материалы от 09.10 без
        ответа. Поэтому текст — только минимальные нейтральные факты с открытого
