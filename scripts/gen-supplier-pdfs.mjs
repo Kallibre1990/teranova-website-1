@@ -510,6 +510,17 @@ const SUPPLIERS = [
     pres: true,
     certs: ['CPNP', 'SCPN', 'MoCRA'],
   },
+  {
+    /* Cheon365 / Scott Hamish: the supplied brochure contains retail USD prices
+       and the presentation is marked Confidential.  The public documents are
+       therefore derived from the approved profile data: terms, a price-free
+       catalog and a presentation. */
+    id: 'cheon365', json: 'cheon365', supplier: 'Cheon365 Co., Ltd.', brand: 'Scott Hamish',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#1F2A44', sky: '#D7DEE8', bg: '#F4F5F7', line: '#DDE3EC' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
@@ -623,6 +634,31 @@ function priceHTML(cfg, lang, priceLines) {
     </table>
     <div class="disc">${esc(disc)}</div>
     <div class="sign">${SIGN}</div>
+  </body></html>`;
+}
+
+/* A catalog has the same useful product/volume structure as a price sheet but
+   deliberately has no price column.  It is used when the only supplied prices
+   are retail figures or no export price was approved for publication. */
+function catalogHTML(cfg, lang, groups) {
+  const C = cfg.colors;
+  const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
+  const title = j.ui.catalog_h || 'Product catalog';
+  const product = { ru: 'Продукт', en: 'Product', ko: '제품', zh: '产品', ja: '製品', it: 'Prodotto', de: 'Produkt', fr: 'Produit', tr: 'Ürün', es: 'Producto', pt: 'Produto' }[lang] || 'Product';
+  const volume = { ru: 'Объём', en: 'Volume', ko: '용량', zh: '规格', ja: '容量', it: 'Formato', de: 'Größe', fr: 'Format', tr: 'Hacim', es: 'Volumen', pt: 'Volume' }[lang] || 'Volume';
+  const rows = groups.map((g) => `<tr class="grp"><td colspan="2">${esc(g.line)}</td></tr>` + g.items.map((it) =>
+    `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume || '')}</td></tr>`).join('')).join('');
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+    table { width: 100%; border-collapse: collapse; }
+    thead th { background: ${C.bg}; color: ${C.deep}; font-size: 10.5px; letter-spacing: .04em; font-weight: 700; text-align: left; padding: 9px 10px; }
+    tr.grp td { background: ${C.bg}; color: ${C.deep}; font-weight: 800; font-size: 12px; padding: 8px 10px; border-top: 1px solid ${C.line}; }
+    tbody td { font-size: 11px; padding: 6px 10px; border-bottom: 1px solid #eef1f6; }
+    td.nm { color: #222b38; } td.vol { color: #5b6675; white-space: nowrap; }
+  </style></head><body>
+    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${esc(cfg.supplier)} · ${esc(cfg.brand)}</span></div>
+    <hr class="top"><h1>${esc(title)}</h1><div class="sub">${esc(cfg.supplier)} · ${esc(cfg.brand)}</div>
+    <table><thead><tr><th>${esc(product)}</th><th>${esc(volume)}</th></tr></thead><tbody>${rows}</tbody></table>
+    <div class="disc">${esc(j.ui.terms_disc || '')}</div><div class="sign">${SIGN}</div>
   </body></html>`;
 }
 
@@ -772,6 +808,10 @@ for (const cfg of targets) {
   for (const lang of LANGS) {
     await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
     n += 1;
+    if (cfg.catalogOnly) {
+      await toPDF(catalogHTML(cfg, lang, catalogOf(cfg) || []), path.join(OUT, `${cfg.id}-catalog-${lang}.pdf`));
+      n += 1;
+    }
     if (priceLines) {
       await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
       n += 1;

@@ -3087,15 +3087,18 @@ export const suppliers: SupplierProfile[] = [
     voice: 'minimal',
     logoUrl: '/img/suppliers/cheon365/scott-hamish-logo.png',
     catalog: cheon365Catalog,
-    /* Согласие косвенное: 07.10.2026 компания написала, что Scott Hamish можно
-       представлять через Teranova; наш запрос прав на материалы от 09.10 без
-       ответа. Поэтому текст — только минимальные нейтральные факты с открытого
-       официального сайта scotthamish.com (снимок 22.10.2026, T-20261021-051).
-       Присланные логотип, буклет и презентация не используются. Страница не
-       называется согласованной с компанией и не говорит о партнёрстве.
-       Цены, функциональные заявления (отбеливание/морщины), SPF, превосходные
-       степени, имя руководителя, контакты, адреса и фото не публикуются;
-       карточка показывает монограмму. */
+    /* Антон разрешил собрать и опубликовать профиль по переданным материалам.
+       Розничные цены из буклета и Confidential-презентация не публикуются:
+       ссылки ведут только на производные PDF без цен. */
+    termsFile: {
+      ru: '/docs/cheon365-terms-ru.pdf', en: '/docs/cheon365-terms-en.pdf', ko: '/docs/cheon365-terms-ko.pdf', zh: '/docs/cheon365-terms-zh.pdf', ja: '/docs/cheon365-terms-ja.pdf', it: '/docs/cheon365-terms-it.pdf', de: '/docs/cheon365-terms-de.pdf', fr: '/docs/cheon365-terms-fr.pdf', tr: '/docs/cheon365-terms-tr.pdf', es: '/docs/cheon365-terms-es.pdf', pt: '/docs/cheon365-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/cheon365-catalog-ru.pdf', en: '/docs/cheon365-catalog-en.pdf', ko: '/docs/cheon365-catalog-ko.pdf', zh: '/docs/cheon365-catalog-zh.pdf', ja: '/docs/cheon365-catalog-ja.pdf', it: '/docs/cheon365-catalog-it.pdf', de: '/docs/cheon365-catalog-de.pdf', fr: '/docs/cheon365-catalog-fr.pdf', tr: '/docs/cheon365-catalog-tr.pdf', es: '/docs/cheon365-catalog-es.pdf', pt: '/docs/cheon365-catalog-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/cheon365-presentation-ru.pdf', en: '/docs/cheon365-presentation-en.pdf', ko: '/docs/cheon365-presentation-ko.pdf', zh: '/docs/cheon365-presentation-zh.pdf', ja: '/docs/cheon365-presentation-ja.pdf', it: '/docs/cheon365-presentation-it.pdf', de: '/docs/cheon365-presentation-de.pdf', fr: '/docs/cheon365-presentation-fr.pdf', tr: '/docs/cheon365-presentation-tr.pdf', es: '/docs/cheon365-presentation-es.pdf', pt: '/docs/cheon365-presentation-pt.pdf',
+    },
     i18n: {
       ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any),
     },

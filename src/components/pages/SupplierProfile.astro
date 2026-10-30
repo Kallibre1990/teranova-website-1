@@ -106,7 +106,7 @@ const m = media[profile.slug];
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
-const priceLabel = c.ui.price_btn ?? (profile.slug === 'ooznary' ? 'Micro Oil Blender 37 PDF' : undefined);
+const priceLabel = c.ui.price_btn ?? (profile.slug === 'cheon365' ? `${c.ui.catalog_h} (PDF)` : profile.slug === 'ooznary' ? 'Micro Oil Blender 37 PDF' : undefined);
 /* A line gets its own indexable page when we have content for it; matched by the
    display name so both the "product lines" block and the catalog groups link to it.
    The lines block often uses a short brand name ("Acerola") where the catalog group
