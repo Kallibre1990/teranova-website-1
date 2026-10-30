@@ -10,3 +10,7 @@
 /en/catalog/medical /catalog/medical/ 301
 /en/catalog/agingtarget/ /catalog/agingtarget/ 301
 /en/catalog/agingtarget /catalog/agingtarget/ 301
+
+# /sitemap.xml is the conventional URL crawlers and Search Console check;
+# the actual sitemap index lives at /sitemap-index.xml (T-20261016-007).
+/sitemap.xml /sitemap-index.xml 301
