@@ -39,6 +39,7 @@
       "Candidats de recherche à petites molécules"
     ],
     "exportNote": "L'entreprise recherche des investissements, une recherche collaborative, un transfert de technologie et des partenaires pour l'accès au marché. Les conditions sont discutées via Teranova pour chaque demande spécifique.",
+    "company":{"history":"La présentation de l’entreprise du 5 octobre 2026 décrit la direction, l’équipe de synthèse de nouveaux médicaments et les conseillers scientifiques ; les documents réduits ne donnent pas d’historique antérieur.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, responsable de l’équipe bio"},{"name":"Dr. Chung","role":"responsable de l’équipe de synthèse de nouveaux médicaments"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"conseiller scientifique ; Alzheimer et oncologie"},{"name":"Prof. Sang-Hyun Min","role":"conseiller scientifique ; développement de médicaments et oncologie"},{"name":"Prof. Jungho Kang","role":"conseiller scientifique ; oncologie et cellules souches cancéreuses"},{"name":"Prof. Seongsoun Lee","role":"conseiller scientifique ; chimie organique, biochimie et modélisation moléculaire"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"Les noms et fonctions figurent dans la présentation de l’entreprise du 5 octobre 2026."},
     "consentNote": "L'entreprise a donné son consentement écrit pour ce profil. Le profil utilise les documents réduits fournis par l'entreprise et exclut les informations que l'entreprise a réservées.",
     "seoTitle": "AgingTarget — programmes de recherche pour licence · Teranova",
     "seoDesc": "AgingTarget Inc. : candidats de recherche à petites molécules contre l'athérosclérose et la maladie d'Alzheimer, avant le stade préclinique selon l'entreprise au 5 octobre 2026."
@@ -58,6 +59,6 @@
     "cta_d": "Contactez Teranova pour discuter d'un partenariat potentiel.",
     "cta_btn": "Contacter via Teranova",
     "more": "Ouvrir le profil →",
-    "verified_suppliers": "Entreprises vérifiées"
+    "verified_suppliers": "Entreprises vérifiées", "company_h":"Équipe et conseillers scientifiques", "leadership_h":"Direction", "advisors_h":"Conseillers scientifiques", "contact_h":"Contact public"
   }
 }

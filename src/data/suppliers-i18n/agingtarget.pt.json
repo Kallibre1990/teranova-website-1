@@ -39,6 +39,7 @@
       "Candidatos de pesquisa de pequena molécula"
     ],
     "exportNote": "A empresa busca investimento, pesquisa colaborativa, transferência de tecnologia e parceiros de entrada no mercado. As condições são discutidas através da Teranova para cada consulta específica.",
+    "company":{"history":"A apresentação da empresa de 5 de outubro de 2026 descreve a direção, a equipa de síntese de novos fármacos e os consultores científicos; o material reduzido não traz histórico anterior.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, responsável pela equipa bio"},{"name":"Dr. Chung","role":"responsável pela equipa de síntese de novos fármacos"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"consultor científico; Alzheimer e oncologia"},{"name":"Prof. Sang-Hyun Min","role":"consultor científico; desenvolvimento de fármacos e oncologia"},{"name":"Prof. Jungho Kang","role":"consultor científico; oncologia e células estaminais do cancro"},{"name":"Prof. Seongsoun Lee","role":"consultor científico; química orgânica, bioquímica e modelação molecular"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"Nomes e funções constam na apresentação da empresa de 5 de outubro de 2026."},
     "consentNote": "A empresa deu consentimento por escrito para este perfil. O perfil utiliza os materiais reduzidos fornecidos pela empresa e exclui informações que a empresa reservou.",
     "seoTitle": "AgingTarget — programas de pesquisa para licenciamento · Teranova",
     "seoDesc": "AgingTarget Inc.: candidatos de pesquisa de pequena molécula para aterosclerose e doença de Alzheimer, antes da fase pré-clínica segundo a empresa em 5 de outubro de 2026."
@@ -58,6 +59,6 @@
     "cta_d": "Fale com a Teranova para discutir uma possível parceria.",
     "cta_btn": "Falar através da Teranova",
     "more": "Abrir perfil →",
-    "verified_suppliers": "Empresas verificadas"
+    "verified_suppliers": "Empresas verificadas", "company_h":"Equipa e consultores científicos", "leadership_h":"Direção", "advisors_h":"Consultores científicos", "contact_h":"Contacto público"
   }
 }

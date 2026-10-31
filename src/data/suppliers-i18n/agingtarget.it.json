@@ -39,6 +39,7 @@
       "Candidati di ricerca a piccola molecola"
     ],
     "exportNote": "L'azienda cerca investimenti, ricerca collaborativa, trasferimento tecnologico e partner per l'accesso al mercato. Le condizioni vengono discusse tramite Teranova per ogni richiesta specifica.",
+    "company":{"history":"La presentazione aziendale del 5 ottobre 2026 descrive la struttura dirigenziale, il team di sintesi di nuovi farmaci e i consulenti scientifici; i materiali ridotti non riportano una storia precedente.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, responsabile del team bio"},{"name":"Dr. Chung","role":"responsabile del team di sintesi di nuovi farmaci"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"consulente scientifico; Alzheimer e oncologia"},{"name":"Prof. Sang-Hyun Min","role":"consulente scientifico; sviluppo farmaci e oncologia"},{"name":"Prof. Jungho Kang","role":"consulente scientifico; oncologia e cellule staminali tumorali"},{"name":"Prof. Seongsoun Lee","role":"consulente scientifico; chimica organica, biochimica e modellazione molecolare"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"Nomi e ruoli sono riportati nella presentazione aziendale del 5 ottobre 2026."},
     "consentNote": "L'azienda ha dato il consenso scritto per questo profilo. Il profilo utilizza i materiali ridotti forniti dall'azienda ed esclude le informazioni che l'azienda ha riservato.",
     "seoTitle": "AgingTarget — programmi di ricerca per il licensing · Teranova",
     "seoDesc": "AgingTarget Inc.: candidati di ricerca a piccola molecola per l'aterosclerosi e la malattia di Alzheimer, in fase precedente alla preclinica secondo l'azienda al 5 ottobre 2026."
@@ -58,6 +59,6 @@
     "cta_d": "Contatta Teranova per discutere una possibile partnership.",
     "cta_btn": "Contattare tramite Teranova",
     "more": "Apri il profilo →",
-    "verified_suppliers": "Aziende verificate"
+    "verified_suppliers": "Aziende verificate", "company_h":"Team e consulenti scientifici", "leadership_h":"Direzione", "advisors_h":"Consulenti scientifici", "contact_h":"Contatto pubblico"
   }
 }

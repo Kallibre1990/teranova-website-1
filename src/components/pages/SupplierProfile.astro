@@ -411,6 +411,27 @@ function monogram(name: string): string {
     </div>
   </section>
 
+  {c.company && (
+    <section class="sp-sec sp-sec--tint">
+      <div class="wrap sp-narrow">
+        <span class="sp-lvl">{c.ui.company_h ?? c.ui.about_h}</span>
+        <p class="sp-body">{c.company.history}</p>
+        {c.company.leadership.length > 0 && (
+          <><h2 class="sp-company__h">{c.ui.leadership_h ?? 'Leadership'}</h2><dl class="sp-terms">
+            {c.company.leadership.map((person) => <div class="sp-terms__row"><dt>{person.name}</dt><dd>{person.role}</dd></div>)}
+          </dl></>
+        )}
+        {c.company.advisors.length > 0 && (
+          <><h2 class="sp-company__h">{c.ui.advisors_h ?? 'Scientific advisers'}</h2><dl class="sp-terms">
+            {c.company.advisors.map((person) => <div class="sp-terms__row"><dt>{person.name}</dt><dd>{person.role}</dd></div>)}
+          </dl></>
+        )}
+        <p class="sp-body"><strong>{c.ui.contact_h ?? 'Contact'}:</strong> <a href={`mailto:${c.company.contactEmail}`}>{c.company.contactLabel}</a></p>
+        <p class="sp-visit__note">{c.company.sourceNote}</p>
+      </div>
+    </section>
+  )}
+
   <!-- LINES -->
   {/* Условие добавлено 15.09.2026: у бренда может не быть суб-линеек вовсе.
       У AGERIN одна линия из восьми средств, и блок выходил с единственной
@@ -905,6 +926,7 @@ function monogram(name: string): string {
 
   .sp-lvl--visited { color: #0f6a4f; }
   .sp-visit__note { font-size: 0.92rem; color: #5a6a80; max-width: 74ch; margin: 6px 0 4px; line-height: 1.55; }
+  .sp-company__h { margin: 28px 0 12px; color: var(--sp-deep); font-size: clamp(1.15rem, 2vw, 1.45rem); }
   .sp-visit { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 14px; }
   .sp-visit__i { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 14px; overflow: hidden; aspect-ratio: 4 / 3; box-shadow: 0 6px 18px color-mix(in srgb, var(--ds-deep) 14%, transparent); transition: transform .2s var(--ease); }
   .sp-visit__i:hover { transform: translateY(-3px); }

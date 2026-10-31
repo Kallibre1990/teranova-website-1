@@ -805,6 +805,10 @@ export interface SupplierUI {
   verified_suppliers: string;
   certs_h?: string;
   certs_note?: string;
+  company_h?: string;
+  leadership_h?: string;
+  advisors_h?: string;
+  contact_h?: string;
   gallery_h?: string;
   gallery_note?: string;
   video_h?: string;
@@ -821,6 +825,16 @@ export interface SupplierContent {
   tech: SupplierTech[];
   formats: string[];
   exportNote: string;
+  /* Source-attributed company outline; omitted where publishable leadership
+     material is not available. */
+  company?: {
+    history: string;
+    leadership: { name: string; role: string }[];
+    advisors: { name: string; role: string }[];
+    contactLabel: string;
+    contactEmail: string;
+    sourceNote: string;
+  };
   /* Optional band under the hero: one dated fact about the brand (a retail
      launch, an award) plus the slug of the article that unpacks it. */
   spotlight?: { label: string; title: string; text: string; cta: string; post: string };
@@ -1249,10 +1263,17 @@ const agingTargetRu: SupplierContent = {
   tech: [{ name: 'Стадия и данные', note: 'Стадия, программы и модель партнёрства приведены по материалам компании от 05.10.2026. Teranova не заявляет эффективность кандидатов.' }],
   formats: ['Низкомолекулярные исследовательские кандидаты'],
   exportNote: 'Компания ищет инвестиции, совместные исследования, трансфер технологий и партнёров для выхода на рынки. Условия обсуждаются через Teranova по конкретному запросу.',
+  company: {
+    history: 'В корпоративной презентации от 05.10.2026 AgingTarget описывает структуру руководства, команду синтеза новых препаратов и научный консультативный круг. Более ранняя история компании в сокращённых материалах не раскрыта.',
+    leadership: [{ name: 'Dr. Kim', role: 'CEO/CTO, руководитель bio-команды' }, { name: 'Dr. Chung', role: 'руководитель команды синтеза новых препаратов' }],
+    advisors: [{ name: 'Prof. Tae Ho Lee', role: 'научный консультант; болезнь Альцгеймера и онкология' }, { name: 'Prof. Sang-Hyun Min', role: 'научный консультант; разработка лекарств и онкология' }, { name: 'Prof. Jungho Kang', role: 'научный консультант; онкология и cancer stemness' }, { name: 'Prof. Seongsoun Lee', role: 'научный консультант; органическая химия, биохимия и молекулярное моделирование' }],
+    contactLabel: 'office@agingtarget.com', contactEmail: 'office@agingtarget.com',
+    sourceNote: 'Роли и имена приведены по корпоративной презентации от 05.10.2026; это сведения компании.',
+  },
   consentNote: 'Компания дала письменное согласие на профиль. Профиль собран по сокращённым материалам компании и не содержит исключённые компанией сведения.',
   seoTitle: 'AgingTarget — исследовательские программы для лицензирования · Teranova',
   seoDesc: 'AgingTarget Inc.: низкомолекулярные исследовательские кандидаты для атеросклероза и болезни Альцгеймера, перед доклиникой по данным компании на 05.10.2026.',
-  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
+  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', company_h: 'Команда и научные консультанты', leadership_h: 'Руководство', advisors_h: 'Научные консультанты', contact_h: 'Публичный контакт', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
 };
 
 const agingTargetEn: SupplierContent = {
@@ -1267,6 +1288,13 @@ const agingTargetEn: SupplierContent = {
   tech: [{ name: 'Stage and information', note: 'Stage, programs and partnership model are based on company materials dated 5 October 2026. Teranova makes no claim about candidate efficacy.' }],
   formats: ['Small-molecule research candidates'],
   exportNote: 'The company seeks investment, collaborative research, technology transfer and market-entry partners. Terms are discussed through Teranova for a specific enquiry.',
+  company: {
+    history: 'In its company presentation dated 5 October 2026, AgingTarget sets out its leadership structure, new-drug-synthesis team and scientific advisory group. The reduced materials do not state an earlier company history.',
+    leadership: [{ name: 'Dr. Kim', role: 'CEO/CTO, Bio-team Director' }, { name: 'Dr. Chung', role: 'New Drug Synthesis Team Director' }],
+    advisors: [{ name: 'Prof. Tae Ho Lee', role: 'Scientific adviser; Alzheimer’s disease and oncology' }, { name: 'Prof. Sang-Hyun Min', role: 'Scientific adviser; drug development and oncology' }, { name: 'Prof. Jungho Kang', role: 'Scientific adviser; oncology and cancer stemness' }, { name: 'Prof. Seongsoun Lee', role: 'Scientific adviser; organic chemistry, biochemistry and molecular modelling' }],
+    contactLabel: 'office@agingtarget.com', contactEmail: 'office@agingtarget.com',
+    sourceNote: 'Names and roles are stated in the company presentation dated 5 October 2026.',
+  },
   consentNote: 'The company gave written consent for this profile. It uses the company’s reduced materials and excludes information the company reserved.',
   seoTitle: 'AgingTarget — research programs for licensing · Teranova',
   seoDesc: 'AgingTarget Inc.: small-molecule research candidates for atherosclerosis and Alzheimer’s disease, before the preclinical stage according to the company as of 5 October 2026.',
@@ -1274,7 +1302,7 @@ const agingTargetEn: SupplierContent = {
      block via the spread above — every non-ru locale showed Russian chrome
      (headings, buttons) around English/machine-locale body text
      (T-20261016-054). */
-  ui: agingTargetUi,
+  ui: { ...agingTargetUi, company_h: 'Team and scientific advisers', leadership_h: 'Leadership', advisors_h: 'Scientific advisers', contact_h: 'Public contact' },
 };
 
 export const suppliers: SupplierProfile[] = [
