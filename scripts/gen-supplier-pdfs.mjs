@@ -511,6 +511,15 @@ const SUPPLIERS = [
     certs: ['CPNP', 'SCPN', 'MoCRA'],
   },
   {
+    /* AgingTarget's reduced IR materials approve the research profile only.
+       There are no public prices or MOQ; three documents remain price-free. */
+    id: 'agingtarget', json: 'agingtarget', supplier: 'AgingTarget Inc.', brand: 'AgingTarget',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#173847', sky: '#8CB5C4', bg: '#F2F6F5', line: '#D7E4E6' },
+    pres: true,
+    certs: [],
+  },
+  {
     /* Cheon365 / Scott Hamish: the supplied brochure contains retail USD prices
        and the presentation is marked Confidential.  The public documents are
        therefore derived from the approved profile data: terms, a price-free
@@ -565,7 +574,12 @@ function termsData(cfg, lang) {
      alongside the other locales, so every language reads the same way. */
   if (lang === 'ru' && cfg.ruTerms) return cfg.ruTerms;
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
-  return { descriptor: j.content.descriptor, terms: j.content.terms, terms_h: j.ui.terms_h, terms_disc: j.ui.terms_disc };
+  return {
+    descriptor: j.content.descriptor,
+    terms: j.content.terms || (j.content.lines || []).map((line) => ({ label: line.name, value: line.note })),
+    terms_h: j.ui.terms_h || j.ui.lines_h || 'Information',
+    terms_disc: j.ui.terms_disc || '',
+  };
 }
 
 const FONT = "'Noto Sans CJK JP','Noto Sans CJK SC','Noto Sans CJK KR','Hiragino Sans','PingFang SC','Apple SD Gothic Neo','Helvetica Neue',Arial,sans-serif";
@@ -655,7 +669,13 @@ function catalogHTML(cfg, lang, groups) {
   const title = j.ui.catalog_h || 'Product catalog';
   const product = { ru: 'Продукт', en: 'Product', ko: '제품', zh: '产品', ja: '製品', it: 'Prodotto', de: 'Produkt', fr: 'Produit', tr: 'Ürün', es: 'Producto', pt: 'Produto' }[lang] || 'Product';
   const volume = { ru: 'Объём', en: 'Volume', ko: '용량', zh: '规格', ja: '容量', it: 'Formato', de: 'Größe', fr: 'Format', tr: 'Hacim', es: 'Volumen', pt: 'Volume' }[lang] || 'Volume';
-  const rows = groups.map((g) => `<tr class="grp"><td colspan="2">${esc(g.line)}</td></tr>` + g.items.map((it) =>
+  /* Research companies may publish programs rather than SKUs. Reuse each
+     locale's approved program copy instead of inventing a product list. */
+  const catalogGroups = groups.length ? groups : [{
+    line: j.ui.lines_h || title,
+    items: (j.content.lines || []).map((line) => ({ name: line.name, volume: line.note })),
+  }];
+  const rows = catalogGroups.map((g) => `<tr class="grp"><td colspan="2">${esc(g.line)}</td></tr>` + g.items.map((it) =>
     `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume || '')}</td></tr>`).join('')).join('');
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
     table { width: 100%; border-collapse: collapse; }
@@ -682,8 +702,8 @@ function presData(cfg, lang) {
   const c = j.content, u = j.ui;
   return {
     tagline: c.tagline, descriptor: c.descriptor, about: c.about, facts: c.facts, lines: c.lines,
-    tech: c.tech, formats: c.formats, exportNote: c.exportNote, certs: cfg.certs, certs_note: u.certs_note,
-    ui: u,
+    tech: c.tech, formats: c.formats, exportNote: c.exportNote, certs: cfg.certs,
+    certs_note: u.certs_note || '', ui: { certs_h: 'Certifications', ...u },
   };
 }
 

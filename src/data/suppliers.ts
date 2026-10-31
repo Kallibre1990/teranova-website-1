@@ -3031,6 +3031,24 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#173847', sky: '#8CB5C4', accent: '#C58B49', bg: '#F2F6F5' },
     voice: 'clinical',
+    termsFile: { ru: '/docs/agingtarget-terms-ru.pdf', en: '/docs/agingtarget-terms-en.pdf', ko: '/docs/agingtarget-terms-ko.pdf', zh: '/docs/agingtarget-terms-zh.pdf', ja: '/docs/agingtarget-terms-ja.pdf', it: '/docs/agingtarget-terms-it.pdf', de: '/docs/agingtarget-terms-de.pdf', fr: '/docs/agingtarget-terms-fr.pdf', tr: '/docs/agingtarget-terms-tr.pdf', es: '/docs/agingtarget-terms-es.pdf', pt: '/docs/agingtarget-terms-pt.pdf' },
+    /* Program catalogue: the established priceFile UI renders this price-free PDF. */
+    priceFile: { ru: '/docs/agingtarget-catalog-ru.pdf', en: '/docs/agingtarget-catalog-en.pdf', ko: '/docs/agingtarget-catalog-ko.pdf', zh: '/docs/agingtarget-catalog-zh.pdf', ja: '/docs/agingtarget-catalog-ja.pdf', it: '/docs/agingtarget-catalog-it.pdf', de: '/docs/agingtarget-catalog-de.pdf', fr: '/docs/agingtarget-catalog-fr.pdf', tr: '/docs/agingtarget-catalog-tr.pdf', es: '/docs/agingtarget-catalog-es.pdf', pt: '/docs/agingtarget-catalog-pt.pdf' },
+    presFile: { ru: '/docs/agingtarget-presentation-ru.pdf', en: '/docs/agingtarget-presentation-en.pdf', ko: '/docs/agingtarget-presentation-ko.pdf', zh: '/docs/agingtarget-presentation-zh.pdf', ja: '/docs/agingtarget-presentation-ja.pdf', it: '/docs/agingtarget-presentation-it.pdf', de: '/docs/agingtarget-presentation-de.pdf', fr: '/docs/agingtarget-presentation-fr.pdf', tr: '/docs/agingtarget-presentation-tr.pdf', es: '/docs/agingtarget-presentation-es.pdf', pt: '/docs/agingtarget-presentation-pt.pdf' },
+    logoUrl: '/img/suppliers/agingtarget/logo.jpg',
+    /* Deck pages 20, 21 and 24 are deliberately absent: they are excluded by
+       the supplier's reduced-material approval. All remaining images below
+       are direct, web-optimised renders of approved IR-deck pages. */
+    gallery: [
+      '/img/suppliers/agingtarget/gallery/ir-2.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-3.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-4.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-5.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-10.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-11.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-12.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-17.jpg',
+    ],
     /* T-20261016-084 (30.10.2026): the 11 machine locales below now carry their
        own faithful translation of the ru/en text — same facts, same hedges
        ("according to the company", no efficacy claims, no drug-name
