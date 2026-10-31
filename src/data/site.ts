@@ -42,7 +42,15 @@ export const hiddenTeamPhotos = [
 /* Реальные профили поставщиков показываются в каталоге и по прямым URL.
    Вымышленные медицинские демо-профили удалены из данных отдельно и не
    управляются этим списком. */
-export const hiddenSupplierSlugs = [] as const;
+export const hiddenSupplierSlugs = [
+  'dachen',
+  'oavo',
+  'aromaflavum',
+  'du-cosmetic',
+  'hiyo',
+  'toptrend',
+  'moz-science',
+] as const;
 export const isHiddenSupplier = (slug: string): boolean =>
   (hiddenSupplierSlugs as readonly string[]).includes(slug);
 
