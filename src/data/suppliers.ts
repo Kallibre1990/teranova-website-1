@@ -3115,6 +3115,19 @@ export const suppliers: SupplierProfile[] = [
        не публикуются. Публикация 49 packshot-ов и каталога разрешена Антоном
        31.10.2026; цены и MOQ по-прежнему не публикуются. */
     logoUrl: '/img/suppliers/koy/brand/logo.png',
+    /* A compact cross-section of the supplied packshots.  The full 49-SKU
+       catalogue remains below; this gallery gives the profile a visual read
+       before the visitor reaches the product grid. */
+    gallery: [
+      '/img/suppliers/koy/products/image12.png',
+      '/img/suppliers/koy/products/image15.png',
+      '/img/suppliers/koy/products/image21.png',
+      '/img/suppliers/koy/products/image29.png',
+      '/img/suppliers/koy/products/image34.png',
+      '/img/suppliers/koy/products/image38.png',
+      '/img/suppliers/koy/products/image42.png',
+      '/img/suppliers/koy/products/image45.png',
+    ],
     catalog: koyCatalog,
     termsFile: { ru: '/docs/koy-terms-ru.pdf', en: '/docs/koy-terms-en.pdf', ko: '/docs/koy-terms-ko.pdf', zh: '/docs/koy-terms-zh.pdf', ja: '/docs/koy-terms-ja.pdf', it: '/docs/koy-terms-it.pdf', de: '/docs/koy-terms-de.pdf', fr: '/docs/koy-terms-fr.pdf', tr: '/docs/koy-terms-tr.pdf', es: '/docs/koy-terms-es.pdf', pt: '/docs/koy-terms-pt.pdf' },
     /* The public catalogue is price-free by the exact 31.10 Human-gate. */
