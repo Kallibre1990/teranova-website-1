@@ -60,7 +60,7 @@ const sun = make({
 });
 
 export const cheon365Posts: BlogPost[] = [
-  { slug: 'scott-hamish-product-range', category: 'overview', date: '2026-10-30', related: ['cheon365', 'cosmetics'], supplier: 'cheon365', i18n: range },
-  { slug: 'scott-hamish-brand-milestones', category: 'overview', date: '2026-10-30', related: ['cheon365', 'cosmetics'], supplier: 'cheon365', i18n: history },
-  { slug: 'scott-hamish-classic-golf-sun-care', category: 'overview', date: '2026-10-30', related: ['cheon365', 'cosmetics'], supplier: 'cheon365', i18n: sun },
+  { slug: 'scott-hamish-product-range', category: 'overview', date: '2026-10-30', related: ['cheon365', 'cosmetics'], supplier: 'cheon365', hero: '/img/suppliers/cheon365/blog/product-range-collage.jpg', i18n: range },
+  { slug: 'scott-hamish-brand-milestones', category: 'overview', date: '2026-10-30', related: ['cheon365', 'cosmetics'], supplier: 'cheon365', hero: '/img/suppliers/cheon365/blog/brand-milestones-collage.jpg', i18n: history },
+  { slug: 'scott-hamish-classic-golf-sun-care', category: 'overview', date: '2026-10-30', related: ['cheon365', 'cosmetics'], supplier: 'cheon365', hero: '/img/suppliers/cheon365/blog/classic-golf-collage.jpg', i18n: sun },
 ];

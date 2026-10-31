@@ -110,8 +110,23 @@ const m = media[profile.slug];
    real product photograph and must be present in the hero, not replaced by a
    decorative placeholder. */
 const heroSrc = !m ? profile.catalog?.[0]?.items?.[0]?.img : undefined;
+const cheon365Channels: Record<string, string> = {
+  ru: 'Olive Young · универмаги · ТВ-шопинг · Naver · Coupang',
+  en: 'Olive Young · department stores · TV shopping · Naver · Coupang',
+  ko: 'Olive Young · 백화점 · TV 홈쇼핑 · Naver · Coupang',
+  pt: 'Olive Young · lojas de departamento · TV shopping · Naver · Coupang',
+  he: 'Olive Young · בתי כלבו · קניות בטלוויזיה · Naver · Coupang',
+  hi: 'Olive Young · डिपार्टमेंट स्टोर · टीवी शॉपिंग · Naver · Coupang',
+  zh: 'Olive Young · 百货商店 · 电视购物 · Naver · Coupang',
+  ja: 'Olive Young · 百貨店 · テレビ通販 · Naver · Coupang',
+  it: 'Olive Young · grandi magazzini · televendite · Naver · Coupang',
+  de: 'Olive Young · Kaufhäuser · TV-Shopping · Naver · Coupang',
+  fr: 'Olive Young · grands magasins · téléachat · Naver · Coupang',
+  tr: 'Olive Young · büyük mağazalar · TV alışverişi · Naver · Coupang',
+  es: 'Olive Young · grandes almacenes · compras por televisión · Naver · Coupang',
+};
 const suppliedFacts = profile.slug === 'cheon365'
-  ? ['Kolmar Korea', '2020–2024', 'Olive Young · department stores · TV shopping · Naver · Coupang']
+  ? ['Kolmar Korea', '2020–2024', cheon365Channels[lang] ?? cheon365Channels.en]
   : [];
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
