@@ -528,6 +528,15 @@ const SUPPLIERS = [
     certs: [],
   },
   {
+    /* DOTS approved Ooznary profile and product materials, but the public
+       documents must contain neither retail prices nor MOQ. */
+    id: 'ooznary', json: 'ooznary', supplier: 'DOTS CORPORATION', brand: 'Ooznary',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#1F2019', sky: '#DDE3B4', bg: '#F7F7EE', line: '#E2E4CC' },
+    pres: true,
+    certs: [],
+  },
+  {
     /* Cheon365 / Scott Hamish: the supplied brochure contains retail USD prices
        and the presentation is marked Confidential.  The public documents are
        therefore derived from the approved profile data: terms, a price-free
