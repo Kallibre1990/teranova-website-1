@@ -42,6 +42,12 @@ WebP files only.
 | `scenes/plazion.webp` | Crop `500x550+45+380` of the locally supplied WhatsApp export `whatsapp_2026-10-22/6c775d3d-image.png`; the crop visibly shows the PLAZION name on the device and artwork. |
 | `scenes/agafar-point-plus.webp` | Embedded image `image-003.jpg` extracted from `agafar dermatology machines.pdf` |
 | `scenes/agafar-global-skincare-campaign.webp` | Local public-site copy `site_agafar.com_2026-10-24/760b94021e.jpg` (alt: `AGAFAR Global Skincare Campaign`) |
+| `tech/transfer.webp` … `tech/led-pdt-light.webp` | Corresponding device pages 3–9 of the locally supplied `agafar dermatology machines.pdf`; each crop retains the named device and its company catalogue artwork. |
+| `tech/face-fitness-turn-up.webp` | `10-Фото-10.jpg`, a company marketing graphic attached to T-20261031-026; it shows the Face Fitness Turn Up unit and its four handpieces. |
+
+`scenes/plazion.webp` remains the separate PLAZION image. It is displayed with
+the PLAZION card rather than being used as a substitute for any of the eight
+catalogue devices.
 
 ## Processing
 

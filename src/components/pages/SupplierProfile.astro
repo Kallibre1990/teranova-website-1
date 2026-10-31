@@ -109,6 +109,20 @@ const m = media[profile.slug];
 const publicHero = profile.slug === 'agafar'
   ? '/img/suppliers/agafar/products/agafar-site-01.webp'
   : profile.gallery?.[0];
+/* The AGAFAR device catalogue is local, reviewed supplier material.  Keep this
+   explicit mapping here: names are the same across its three delivered locales,
+   and each path points to a photo of that exact machine, not generic stock art. */
+const techImages: Record<string, string> = profile.slug === 'agafar' ? {
+  'Transfer': '/img/suppliers/agafar/tech/transfer.webp',
+  'agafar Point Plus': '/img/suppliers/agafar/tech/point-plus.webp',
+  'agafar Point Plus Pro': '/img/suppliers/agafar/tech/point-plus-pro.webp',
+  'agafar Line S': '/img/suppliers/agafar/tech/line-s.webp',
+  'agafar S': '/img/suppliers/agafar/tech/agafar-s.webp',
+  'PLASMA': '/img/suppliers/agafar/tech/plasma.webp',
+  'agafar LED PDT Light': '/img/suppliers/agafar/tech/led-pdt-light.webp',
+  'Face Fitness Turn Up': '/img/suppliers/agafar/tech/face-fitness-turn-up.webp',
+  'PLAZION': '/img/suppliers/agafar/scenes/plazion.webp',
+} : {};
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
@@ -489,6 +503,9 @@ function monogram(name: string): string {
         <div class="sp-tech">
           {c.tech.map((tItem) => (
             <article class="sp-tech__item">
+              {techImages[tItem.name] && (
+                <img class="sp-tech__img" src={techImages[tItem.name]} alt={tItem.name} loading="lazy" decoding="async" />
+              )}
               <h3 class="sp-tech__nm">{tItem.name}</h3>
               <p class="sp-tech__note">{tItem.note}</p>
             </article>
@@ -923,6 +940,7 @@ function monogram(name: string): string {
 
   .sp-tech { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .sp-tech__item { border-inline-start: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0; border-start-end-radius: 14px; border-end-end-radius: 14px; padding: 20px 22px; }
+  .sp-tech__img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 10px; margin: 0 0 16px; }
   .sp-tech__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
   .sp-tech__note { font-size: 0.92rem; line-height: 1.6; color: #45576f; margin-top: 7px; }
   .sp-tech__src { margin-top: 16px; font-size: 0.78rem; line-height: 1.5; color: #7b8898; }
