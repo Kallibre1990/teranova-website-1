@@ -73,6 +73,7 @@ import chaewunHero from '../../assets/suppliers/chaewun/hero.jpg';
 import chaewunProducts from '../../assets/suppliers/chaewun/products.jpg';
 import chaewunDrops from '../../assets/suppliers/chaewun/drops.jpg';
 import acfitLogo from '../../assets/suppliers/acfit-logo.png';
+import acfitHero from '../../assets/suppliers/acfit/hero.jpg';
 
 interface Props {
   lang: Lang;
@@ -101,12 +102,13 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   themaqueen: { hero: themaqueenHero, products: themaqueenProducts, drops: themaqueenDrops },
   'vegan-nature': { hero: veganNatureHero, products: veganNatureProducts, drops: veganNatureDrops },
   chaewun: { hero: chaewunHero, products: chaewunProducts, drops: chaewunDrops },
+  acfit: { hero: acfitHero, products: acfitHero, drops: acfitHero },
 };
 const m = media[profile.slug];
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
-const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy') ? `${c.ui.catalog_h} (PDF)` : profile.slug === 'ooznary' ? 'Micro Oil Blender 37 PDF' : undefined);
+const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit') ? `${c.ui.catalog_h} (PDF)` : profile.slug === 'ooznary' ? 'Micro Oil Blender 37 PDF' : undefined);
 /* A line gets its own indexable page when we have content for it; matched by the
    display name so both the "product lines" block and the catalog groups link to it.
    The lines block often uses a short brand name ("Acerola") where the catalog group

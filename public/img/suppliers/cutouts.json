@@ -442,5 +442,38 @@
    "mulr-d.jpg",
    "mulr-e.jpg"
   ]
+ },
+ "acfit": {
+  "clean": [
+   "acfit-beta-g-lacto-sun-cream-50ml.webp",
+   "acfit-v-sang-beta-g-azulene-focus-oil-15ml.webp",
+   "acfit-v-sang-beta-g-blue-peel-solution.webp",
+   "acfit-v-sang-beta-g-freeze-dried-solution.webp",
+   "acfit-v-sang-beta-g-infusing-skin-booster-100ml.webp",
+   "acfit-v-sang-beta-g-lacto-care-ampoule-30ml.webp",
+   "acfit-v-sang-beta-g-lacto-care-cream-150ml.webp",
+   "acfit-v-sang-beta-g-secure-cleansing-200ml.webp",
+   "acfit-v-sang-beta-g-secure-solution-5ml-x5.webp",
+   "acfit-v-sang-beta-g-secure-toner.webp",
+   "acfit-v-sang-clay-beta-g-immuca-180ml.webp",
+   "acfit-v-sang-cream.webp",
+   "acfit-v-sang-pack-10ea.webp"
+  ],
+  "all": [
+   "acfit-beta-g-lacto-sun-cream-50ml.png",
+   "acfit-v-sang-beta-g-azulene-focus-oil-15ml.png",
+   "acfit-v-sang-beta-g-blue-peel-solution.png",
+   "acfit-v-sang-beta-g-freeze-dried-solution.png",
+   "acfit-v-sang-beta-g-infusing-skin-booster-100ml.png",
+   "acfit-v-sang-beta-g-lacto-care-ampoule-30ml.png",
+   "acfit-v-sang-beta-g-lacto-care-cream-150ml.png",
+   "acfit-v-sang-beta-g-secure-cleansing-200ml.png",
+   "acfit-v-sang-beta-g-secure-solution-5ml-x5.png",
+   "acfit-v-sang-beta-g-secure-toner.png",
+   "acfit-v-sang-clay-beta-g-immuca-180ml.png",
+   "acfit-v-sang-cream.png",
+   "acfit-v-sang-gel.png",
+   "acfit-v-sang-pack-10ea.png"
+  ]
  }
 }

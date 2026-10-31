@@ -504,8 +504,8 @@ const SUPPLIERS = [
        называла — используем торговое имя, как и на самой странице профиля.
        Экспортной цены компания не передавала (только «по запросу, FOB» и
        внутрикорейский РРЦ из xlsx) — noPrice, R-022/T-20261026-041. */
-    id: 'acfit', json: 'acfit', supplier: 'ACFIT', brand: 'ACFIT · V-SANG BETA-G',
-    basis: 'FOB Korea', noPrice: true,
+    id: 'acfit', json: 'acfit', supplier: 'ACFIT', brand: 'V-SANG BETA-G',
+    basis: 'FOB Korea', noPrice: true, catalogOnly: true,
     colors: { deep: '#1C3F60', sky: '#8FB7D6', bg: '#F1F6FA', line: '#D7E6EF' },
     pres: true,
     certs: ['CPNP', 'SCPN', 'MoCRA'],

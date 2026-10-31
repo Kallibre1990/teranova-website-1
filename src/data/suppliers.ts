@@ -2803,8 +2803,10 @@ export const suppliers: SupplierProfile[] = [
        товаров) и презентация "(salon) ACFIT introduction ENG.pdf" (территории
        — стр. 21). Письменное согласие на профиль компании/бренда и товарные
        страницы — 14.09.2026 (мейл 1a09ee3e09d62262).
-       Теперь включено: лого, фото 13 из 14 SKU (нет фото Lacto Care Cream
-       150 мл — известный гэп), каталог, статус сертификации CPNP/SCPN/MoCRA
+       31.10.2026: фото Lacto Care Cream 150 мл нашлось — это был неоткрытый
+       файл `KakaoTalk_20260507_181909908.png` на диске Антона (белый, а не
+       nukki-фон; вырезан и обработан под стиль остальных). Теперь включено:
+       лого, фото 14 из 14 SKU, каталог, статус сертификации CPNP/SCPN/MoCRA
        (у Lacto Sun Cream — в процессе), эксклюзивные рынки и дистрибьюторы.
        По-прежнему не публикуется (R-022 и факт отсутствия данных, не запрет
        поставщика): экспортная цена FOB — только «по запросу», получен лишь
@@ -2813,15 +2815,35 @@ export const suppliers: SupplierProfile[] = [
        как экспортную и не прикладываем сам файл; MOQ, сроки производства,
        условия оплаты, полный INCI, юрлицо и год основания бренда не получены;
        подтверждения формулировки «для чувствительной кожи» от компании не
-       было (запрашивали дважды, повторно не спрашиваем). Прайс-PDF поэтому не
-       собираем — только презентация и условия (2 PDF, не 3). */
+       было (запрашивали дважды, повторно не спрашиваем). Прайс с цифрами не
+       собираем; вместо него — price-free каталог (как у KOY/Cheon365): 3 PDF
+       на 11 языков — презентация, безценовой каталог, условия (T-20261031-018). */
     certs: ['CPNP', 'SCPN', 'MoCRA'],
+    /* The ru line names are the lookup key (lineShot() always reads the Russian
+       source array by index), the catalog group names are English — they never
+       match on text, so each line needs an explicit photo. */
+    lineShots: {
+      'Очищение и тонизирование': '/img/suppliers/acfit/cutout/acfit-v-sang-beta-g-secure-cleansing-200ml.webp',
+      'Гели и кремы': '/img/suppliers/acfit/cutout/acfit-v-sang-cream.webp',
+      'Бустер, ампула и масло': '/img/suppliers/acfit/cutout/acfit-v-sang-beta-g-infusing-skin-booster-100ml.webp',
+      'Маски': '/img/suppliers/acfit/cutout/acfit-v-sang-pack-10ea.webp',
+      'Только для профессионалов': '/img/suppliers/acfit/cutout/acfit-v-sang-beta-g-secure-solution-5ml-x5.webp',
+      'Защита от солнца': '/img/suppliers/acfit/cutout/acfit-beta-g-lacto-sun-cream-50ml.webp',
+    },
     catalog: acfitCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
     termsFile: {
       ru: '/docs/acfit-terms-ru.pdf', en: '/docs/acfit-terms-en.pdf', ko: '/docs/acfit-terms-ko.pdf',
       zh: '/docs/acfit-terms-zh.pdf', ja: '/docs/acfit-terms-ja.pdf', it: '/docs/acfit-terms-it.pdf',
       de: '/docs/acfit-terms-de.pdf', fr: '/docs/acfit-terms-fr.pdf', tr: '/docs/acfit-terms-tr.pdf',
       es: '/docs/acfit-terms-es.pdf', pt: '/docs/acfit-terms-pt.pdf',
+    },
+    /* The public catalogue is price-free: presFile already carries the brand story,
+       this is the flat price-free product table (same pattern as KOY/Cheon365). */
+    priceFile: {
+      ru: '/docs/acfit-catalog-ru.pdf', en: '/docs/acfit-catalog-en.pdf', ko: '/docs/acfit-catalog-ko.pdf',
+      zh: '/docs/acfit-catalog-zh.pdf', ja: '/docs/acfit-catalog-ja.pdf', it: '/docs/acfit-catalog-it.pdf',
+      de: '/docs/acfit-catalog-de.pdf', fr: '/docs/acfit-catalog-fr.pdf', tr: '/docs/acfit-catalog-tr.pdf',
+      es: '/docs/acfit-catalog-es.pdf', pt: '/docs/acfit-catalog-pt.pdf',
     },
     presFile: {
       ru: '/docs/acfit-presentation-ru.pdf', en: '/docs/acfit-presentation-en.pdf', ko: '/docs/acfit-presentation-ko.pdf',
