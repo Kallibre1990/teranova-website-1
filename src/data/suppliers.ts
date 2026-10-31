@@ -364,6 +364,7 @@ import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
 import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
 import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
 import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
+import plkLiftCatalog from './suppliers-i18n/plk-lift.catalog.json';
 import oavoRu from './suppliers-i18n/oavo.ru.json';
 import oavoEn from './suppliers-i18n/oavo.en.json';
 import oavoKo from './suppliers-i18n/oavo.ko.json';
@@ -756,6 +757,17 @@ import licorneEs from './suppliers-i18n/licorne.es.json';
 import licornePt from './suppliers-i18n/licorne.pt.json';
 import licorneHe from './suppliers-i18n/licorne.he.json';
 import licorneHi from './suppliers-i18n/licorne.hi.json';
+import agingTargetKo from './suppliers-i18n/agingtarget.ko.json';
+import agingTargetZh from './suppliers-i18n/agingtarget.zh.json';
+import agingTargetJa from './suppliers-i18n/agingtarget.ja.json';
+import agingTargetIt from './suppliers-i18n/agingtarget.it.json';
+import agingTargetDe from './suppliers-i18n/agingtarget.de.json';
+import agingTargetFr from './suppliers-i18n/agingtarget.fr.json';
+import agingTargetTr from './suppliers-i18n/agingtarget.tr.json';
+import agingTargetEs from './suppliers-i18n/agingtarget.es.json';
+import agingTargetPt from './suppliers-i18n/agingtarget.pt.json';
+import agingTargetHe from './suppliers-i18n/agingtarget.he.json';
+import agingTargetHi from './suppliers-i18n/agingtarget.hi.json';
 
 export interface SupplierLine {
   name: string;
@@ -793,6 +805,10 @@ export interface SupplierUI {
   verified_suppliers: string;
   certs_h?: string;
   certs_note?: string;
+  company_h?: string;
+  leadership_h?: string;
+  advisors_h?: string;
+  contact_h?: string;
   gallery_h?: string;
   gallery_note?: string;
   video_h?: string;
@@ -809,6 +825,16 @@ export interface SupplierContent {
   tech: SupplierTech[];
   formats: string[];
   exportNote: string;
+  /* Source-attributed company outline; omitted where publishable leadership
+     material is not available. */
+  company?: {
+    history: string;
+    leadership: { name: string; role: string }[];
+    advisors: { name: string; role: string }[];
+    contactLabel: string;
+    contactEmail: string;
+    sourceNote: string;
+  };
   /* Optional band under the hero: one dated fact about the brand (a retail
      launch, an award) plus the slug of the article that unpacks it. */
   spotlight?: { label: string; title: string; text: string; cta: string; post: string };
@@ -1190,6 +1216,20 @@ const ckRegeonRu: SupplierContent = {
 /* Translator agents return { content: {...}, ui: {...} }; flatten to SupplierContent. */
 const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => ({ ...(j.content as unknown as Omit<SupplierContent, 'ui'>), ui: j.ui });
 
+/* The 28 October catalogue confirms product groups and GTBZ-22J, but not the
+   earlier website claims about headcount, spider-crane capacity or boom-lift
+   working-height ranges.  Keep the translated profile chrome and remove those
+   claims centrally for every locale, including SEO text. */
+const confirmedPlk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => {
+  const content = mk(j) as SupplierContent & Record<string, any>;
+  const ranges = /(?:1\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*8|14\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*52)/iu;
+  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|человек|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|लोग|명|人)/iu.test(text));
+  content.facts = content.facts.filter((text: string) => !ranges.test(text));
+  content.lines = content.lines.map((line: any) => ranges.test(line.note) ? ({ ...line, note: line.name }) : line);
+  content.seoDesc = 'Jinan PLK Machinery: lifting equipment shown in the company catalogue, including GTBZ-22J telescopic boom lift.';
+  return content;
+};
+
 /* AgingTarget supplied a reduced company deck. This profile uses only the
    approved subset; the company’s research statements stay attributed. */
 const agingTargetUi: SupplierUI = {
@@ -1223,10 +1263,17 @@ const agingTargetRu: SupplierContent = {
   tech: [{ name: 'Стадия и данные', note: 'Стадия, программы и модель партнёрства приведены по материалам компании от 05.10.2026. Teranova не заявляет эффективность кандидатов.' }],
   formats: ['Низкомолекулярные исследовательские кандидаты'],
   exportNote: 'Компания ищет инвестиции, совместные исследования, трансфер технологий и партнёров для выхода на рынки. Условия обсуждаются через Teranova по конкретному запросу.',
+  company: {
+    history: 'В корпоративной презентации от 05.10.2026 AgingTarget описывает структуру руководства, команду синтеза новых препаратов и научный консультативный круг. Более ранняя история компании в сокращённых материалах не раскрыта.',
+    leadership: [{ name: 'Dr. Kim', role: 'CEO/CTO, руководитель bio-команды' }, { name: 'Dr. Chung', role: 'руководитель команды синтеза новых препаратов' }],
+    advisors: [{ name: 'Prof. Tae Ho Lee', role: 'научный консультант; болезнь Альцгеймера и онкология' }, { name: 'Prof. Sang-Hyun Min', role: 'научный консультант; разработка лекарств и онкология' }, { name: 'Prof. Jungho Kang', role: 'научный консультант; онкология и cancer stemness' }, { name: 'Prof. Seongsoun Lee', role: 'научный консультант; органическая химия, биохимия и молекулярное моделирование' }],
+    contactLabel: 'office@agingtarget.com', contactEmail: 'office@agingtarget.com',
+    sourceNote: 'Роли и имена приведены по корпоративной презентации от 05.10.2026; это сведения компании.',
+  },
   consentNote: 'Компания дала письменное согласие на профиль. Профиль собран по сокращённым материалам компании и не содержит исключённые компанией сведения.',
   seoTitle: 'AgingTarget — исследовательские программы для лицензирования · Teranova',
   seoDesc: 'AgingTarget Inc.: низкомолекулярные исследовательские кандидаты для атеросклероза и болезни Альцгеймера, перед доклиникой по данным компании на 05.10.2026.',
-  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
+  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', company_h: 'Команда и научные консультанты', leadership_h: 'Руководство', advisors_h: 'Научные консультанты', contact_h: 'Публичный контакт', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
 };
 
 const agingTargetEn: SupplierContent = {
@@ -1241,6 +1288,13 @@ const agingTargetEn: SupplierContent = {
   tech: [{ name: 'Stage and information', note: 'Stage, programs and partnership model are based on company materials dated 5 October 2026. Teranova makes no claim about candidate efficacy.' }],
   formats: ['Small-molecule research candidates'],
   exportNote: 'The company seeks investment, collaborative research, technology transfer and market-entry partners. Terms are discussed through Teranova for a specific enquiry.',
+  company: {
+    history: 'In its company presentation dated 5 October 2026, AgingTarget sets out its leadership structure, new-drug-synthesis team and scientific advisory group. The reduced materials do not state an earlier company history.',
+    leadership: [{ name: 'Dr. Kim', role: 'CEO/CTO, Bio-team Director' }, { name: 'Dr. Chung', role: 'New Drug Synthesis Team Director' }],
+    advisors: [{ name: 'Prof. Tae Ho Lee', role: 'Scientific adviser; Alzheimer’s disease and oncology' }, { name: 'Prof. Sang-Hyun Min', role: 'Scientific adviser; drug development and oncology' }, { name: 'Prof. Jungho Kang', role: 'Scientific adviser; oncology and cancer stemness' }, { name: 'Prof. Seongsoun Lee', role: 'Scientific adviser; organic chemistry, biochemistry and molecular modelling' }],
+    contactLabel: 'office@agingtarget.com', contactEmail: 'office@agingtarget.com',
+    sourceNote: 'Names and roles are stated in the company presentation dated 5 October 2026.',
+  },
   consentNote: 'The company gave written consent for this profile. It uses the company’s reduced materials and excludes information the company reserved.',
   seoTitle: 'AgingTarget — research programs for licensing · Teranova',
   seoDesc: 'AgingTarget Inc.: small-molecule research candidates for atherosclerosis and Alzheimer’s disease, before the preclinical stage according to the company as of 5 October 2026.',
@@ -1248,7 +1302,7 @@ const agingTargetEn: SupplierContent = {
      block via the spread above — every non-ru locale showed Russian chrome
      (headings, buttons) around English/machine-locale body text
      (T-20261016-054). */
-  ui: agingTargetUi,
+  ui: { ...agingTargetUi, company_h: 'Team and scientific advisers', leadership_h: 'Leadership', advisors_h: 'Scientific advisers', contact_h: 'Public contact' },
 };
 
 export const suppliers: SupplierProfile[] = [
@@ -2915,10 +2969,10 @@ export const suppliers: SupplierProfile[] = [
     ],
     logoUrl: '/img/suppliers/ooznary/brand/logo.png',
     catalog: ooznaryCatalog as { line: string; items: { name: string; img?: string; volume?: string; actives?: string[] }[] }[],
-    /* The files are company materials, not a public price list or certificates. */
-    termsFile: { ru: '/docs/ooznary-brand-en.pdf', en: '/docs/ooznary-brand-en.pdf', ko: '/docs/ooznary-brand-en.pdf', zh: '/docs/ooznary-brand-en.pdf', ja: '/docs/ooznary-brand-en.pdf', it: '/docs/ooznary-brand-en.pdf', de: '/docs/ooznary-brand-en.pdf', fr: '/docs/ooznary-brand-en.pdf', tr: '/docs/ooznary-brand-en.pdf', es: '/docs/ooznary-brand-en.pdf', pt: '/docs/ooznary-brand-en.pdf', he: '/docs/ooznary-brand-en.pdf', hi: '/docs/ooznary-brand-en.pdf' },
-    presFile: { ru: '/docs/ooznary-brand-ko.pdf', en: '/docs/ooznary-brand-ko.pdf', ko: '/docs/ooznary-brand-ko.pdf', zh: '/docs/ooznary-brand-ko.pdf', ja: '/docs/ooznary-brand-ko.pdf', it: '/docs/ooznary-brand-ko.pdf', de: '/docs/ooznary-brand-ko.pdf', fr: '/docs/ooznary-brand-ko.pdf', tr: '/docs/ooznary-brand-ko.pdf', es: '/docs/ooznary-brand-ko.pdf', pt: '/docs/ooznary-brand-ko.pdf', he: '/docs/ooznary-brand-ko.pdf', hi: '/docs/ooznary-brand-ko.pdf' },
-    priceFile: { ru: '/docs/ooznary-micro-oil-blender-37.pdf', en: '/docs/ooznary-micro-oil-blender-37.pdf', ko: '/docs/ooznary-micro-oil-blender-37.pdf', zh: '/docs/ooznary-micro-oil-blender-37.pdf', ja: '/docs/ooznary-micro-oil-blender-37.pdf', it: '/docs/ooznary-micro-oil-blender-37.pdf', de: '/docs/ooznary-micro-oil-blender-37.pdf', fr: '/docs/ooznary-micro-oil-blender-37.pdf', tr: '/docs/ooznary-micro-oil-blender-37.pdf', es: '/docs/ooznary-micro-oil-blender-37.pdf', pt: '/docs/ooznary-micro-oil-blender-37.pdf', he: '/docs/ooznary-micro-oil-blender-37.pdf', hi: '/docs/ooznary-micro-oil-blender-37.pdf' },
+    /* Eleven localised, price-free terms, catalog and presentation PDFs. */
+    termsFile: { ru: '/docs/ooznary-terms-ru.pdf', en: '/docs/ooznary-terms-en.pdf', ko: '/docs/ooznary-terms-ko.pdf', zh: '/docs/ooznary-terms-zh.pdf', ja: '/docs/ooznary-terms-ja.pdf', it: '/docs/ooznary-terms-it.pdf', de: '/docs/ooznary-terms-de.pdf', fr: '/docs/ooznary-terms-fr.pdf', tr: '/docs/ooznary-terms-tr.pdf', es: '/docs/ooznary-terms-es.pdf', pt: '/docs/ooznary-terms-pt.pdf' },
+    presFile: { ru: '/docs/ooznary-presentation-ru.pdf', en: '/docs/ooznary-presentation-en.pdf', ko: '/docs/ooznary-presentation-ko.pdf', zh: '/docs/ooznary-presentation-zh.pdf', ja: '/docs/ooznary-presentation-ja.pdf', it: '/docs/ooznary-presentation-it.pdf', de: '/docs/ooznary-presentation-de.pdf', fr: '/docs/ooznary-presentation-fr.pdf', tr: '/docs/ooznary-presentation-tr.pdf', es: '/docs/ooznary-presentation-es.pdf', pt: '/docs/ooznary-presentation-pt.pdf' },
+    priceFile: { ru: '/docs/ooznary-catalog-ru.pdf', en: '/docs/ooznary-catalog-en.pdf', ko: '/docs/ooznary-catalog-ko.pdf', zh: '/docs/ooznary-catalog-zh.pdf', ja: '/docs/ooznary-catalog-ja.pdf', it: '/docs/ooznary-catalog-it.pdf', de: '/docs/ooznary-catalog-de.pdf', fr: '/docs/ooznary-catalog-fr.pdf', tr: '/docs/ooznary-catalog-tr.pdf', es: '/docs/ooznary-catalog-es.pdf', pt: '/docs/ooznary-catalog-pt.pdf' },
     i18n: {
       ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
     },
@@ -3020,15 +3074,36 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#173847', sky: '#8CB5C4', accent: '#C58B49', bg: '#F2F6F5' },
     voice: 'clinical',
+    termsFile: { ru: '/docs/agingtarget-terms-ru.pdf', en: '/docs/agingtarget-terms-en.pdf', ko: '/docs/agingtarget-terms-ko.pdf', zh: '/docs/agingtarget-terms-zh.pdf', ja: '/docs/agingtarget-terms-ja.pdf', it: '/docs/agingtarget-terms-it.pdf', de: '/docs/agingtarget-terms-de.pdf', fr: '/docs/agingtarget-terms-fr.pdf', tr: '/docs/agingtarget-terms-tr.pdf', es: '/docs/agingtarget-terms-es.pdf', pt: '/docs/agingtarget-terms-pt.pdf' },
+    /* Program catalogue: the established priceFile UI renders this price-free PDF. */
+    priceFile: { ru: '/docs/agingtarget-catalog-ru.pdf', en: '/docs/agingtarget-catalog-en.pdf', ko: '/docs/agingtarget-catalog-ko.pdf', zh: '/docs/agingtarget-catalog-zh.pdf', ja: '/docs/agingtarget-catalog-ja.pdf', it: '/docs/agingtarget-catalog-it.pdf', de: '/docs/agingtarget-catalog-de.pdf', fr: '/docs/agingtarget-catalog-fr.pdf', tr: '/docs/agingtarget-catalog-tr.pdf', es: '/docs/agingtarget-catalog-es.pdf', pt: '/docs/agingtarget-catalog-pt.pdf' },
+    presFile: { ru: '/docs/agingtarget-presentation-ru.pdf', en: '/docs/agingtarget-presentation-en.pdf', ko: '/docs/agingtarget-presentation-ko.pdf', zh: '/docs/agingtarget-presentation-zh.pdf', ja: '/docs/agingtarget-presentation-ja.pdf', it: '/docs/agingtarget-presentation-it.pdf', de: '/docs/agingtarget-presentation-de.pdf', fr: '/docs/agingtarget-presentation-fr.pdf', tr: '/docs/agingtarget-presentation-tr.pdf', es: '/docs/agingtarget-presentation-es.pdf', pt: '/docs/agingtarget-presentation-pt.pdf' },
+    logoUrl: '/img/suppliers/agingtarget/logo.jpg',
+    /* Deck pages 20, 21 and 24 are deliberately absent: they are excluded by
+       the supplier's reduced-material approval. All remaining images below
+       are direct, web-optimised renders of approved IR-deck pages. */
+    gallery: [
+      '/img/suppliers/agingtarget/gallery/ir-2.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-3.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-4.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-5.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-10.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-11.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-12.jpg',
+      '/img/suppliers/agingtarget/gallery/ir-17.jpg',
+    ],
+    /* T-20261016-084 (30.10.2026): the 11 machine locales below now carry their
+       own faithful translation of the ru/en text — same facts, same hedges
+       ("according to the company", no efficacy claims, no drug-name
+       chemistry), no invented medical claims. Independent review by the
+       card's reviewer agent covers medical-term accuracy per the concern
+       this comment used to flag. */
     i18n: {
       ru: agingTargetRu,
       en: agingTargetEn,
-      /* The machine locales need a deliberate medical-language review before a
-         preview for an external reader. English is retained temporarily rather
-         than silently substituting an invented medical translation. */
-      ko: agingTargetEn, zh: agingTargetEn, ja: agingTargetEn, it: agingTargetEn,
-      de: agingTargetEn, fr: agingTargetEn, tr: agingTargetEn, es: agingTargetEn,
-      pt: agingTargetEn, he: agingTargetEn, hi: agingTargetEn,
+      ko: mk(agingTargetKo as any), zh: mk(agingTargetZh as any), ja: mk(agingTargetJa as any), it: mk(agingTargetIt as any),
+      de: mk(agingTargetDe as any), fr: mk(agingTargetFr as any), tr: mk(agingTargetTr as any), es: mk(agingTargetEs as any),
+      pt: mk(agingTargetPt as any), he: mk(agingTargetHe as any), hi: mk(agingTargetHi as any),
     },
   },
   {
@@ -3044,11 +3119,27 @@ export const suppliers: SupplierProfile[] = [
     /* Письменное разрешение от 17.09.2026 (письмо 1a0ad7fa1c5d808c) — использовать,
        переводить и публиковать материалы компании и продукции с официального сайта
        plklift.com. Текст профиля — только по снимку сайта от 21.10.2026 (T-20261021-031).
-       Предложение, характеристики и документы из ветки RFQ августа 2026 не используются.
-       Цен, сертификатов, контактов и фото нет: локального медиапакета нет,
-       чужие изображения не подставляются; карточка показывает монограмму. */
+       Каталог и паспорт GTBZ-22J получены 28.10.2026: использованы только
+       подтверждённые ими позиции, фотографии и сертификаты. Цены и MOQ не публикуются. */
+    gallery: [
+      '/img/suppliers/plk-lift/catalog/hero.jpg',
+      '/img/suppliers/plk-lift/catalog/lift-table.jpg',
+      '/img/suppliers/plk-lift/catalog/crawler-crane.jpg',
+      '/img/suppliers/plk-lift/catalog/towable-boom.jpg',
+      '/img/suppliers/plk-lift/catalog/scissor-lift.jpg',
+      '/img/suppliers/plk-lift/catalog/vacuum-lifter.jpg',
+      '/img/suppliers/plk-lift/catalog/suction-cups.jpg',
+      '/img/suppliers/plk-lift/catalog/suction-cups-mobile.jpg',
+    ],
+    catalog: plkLiftCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
+    certs: ['CE PD/0553/2024 (EN 1570-2)', 'ISO 9001:2015 No. 99225Q00497R0S (equipment sales)'],
+    /* All three documents are price-free: terms, catalog and presentation. */
+    termsFile: { ru: '/docs/plk-lift-terms-ru.pdf', en: '/docs/plk-lift-terms-en.pdf', ko: '/docs/plk-lift-terms-ko.pdf', zh: '/docs/plk-lift-terms-zh.pdf', ja: '/docs/plk-lift-terms-ja.pdf', it: '/docs/plk-lift-terms-it.pdf', de: '/docs/plk-lift-terms-de.pdf', fr: '/docs/plk-lift-terms-fr.pdf', tr: '/docs/plk-lift-terms-tr.pdf', es: '/docs/plk-lift-terms-es.pdf', pt: '/docs/plk-lift-terms-pt.pdf' },
+    /* The established priceFile slot renders a catalogue here; no prices or MOQ. */
+    priceFile: { ru: '/docs/plk-lift-catalog-ru.pdf', en: '/docs/plk-lift-catalog-en.pdf', ko: '/docs/plk-lift-catalog-ko.pdf', zh: '/docs/plk-lift-catalog-zh.pdf', ja: '/docs/plk-lift-catalog-ja.pdf', it: '/docs/plk-lift-catalog-it.pdf', de: '/docs/plk-lift-catalog-de.pdf', fr: '/docs/plk-lift-catalog-fr.pdf', tr: '/docs/plk-lift-catalog-tr.pdf', es: '/docs/plk-lift-catalog-es.pdf', pt: '/docs/plk-lift-catalog-pt.pdf' },
+    presFile: { ru: '/docs/plk-lift-presentation-ru.pdf', en: '/docs/plk-lift-presentation-en.pdf', ko: '/docs/plk-lift-presentation-ko.pdf', zh: '/docs/plk-lift-presentation-zh.pdf', ja: '/docs/plk-lift-presentation-ja.pdf', it: '/docs/plk-lift-presentation-it.pdf', de: '/docs/plk-lift-presentation-de.pdf', fr: '/docs/plk-lift-presentation-fr.pdf', tr: '/docs/plk-lift-presentation-tr.pdf', es: '/docs/plk-lift-presentation-es.pdf', pt: '/docs/plk-lift-presentation-pt.pdf' },
     i18n: {
-      ru: mk(plkLiftRu as any), en: mk(plkLiftEn as any), ko: mk(plkLiftKo as any), zh: mk(plkLiftZh as any), ja: mk(plkLiftJa as any), it: mk(plkLiftIt as any), de: mk(plkLiftDe as any), fr: mk(plkLiftFr as any), tr: mk(plkLiftTr as any), es: mk(plkLiftEs as any), pt: mk(plkLiftPt as any), he: mk(plkLiftHe as any), hi: mk(plkLiftHi as any),
+      ru: confirmedPlk(plkLiftRu as any), en: confirmedPlk(plkLiftEn as any), ko: confirmedPlk(plkLiftKo as any), zh: confirmedPlk(plkLiftZh as any), ja: confirmedPlk(plkLiftJa as any), it: confirmedPlk(plkLiftIt as any), de: confirmedPlk(plkLiftDe as any), fr: confirmedPlk(plkLiftFr as any), tr: confirmedPlk(plkLiftTr as any), es: confirmedPlk(plkLiftEs as any), pt: confirmedPlk(plkLiftPt as any), he: confirmedPlk(plkLiftHe as any), hi: confirmedPlk(plkLiftHi as any),
     },
   },
   {
@@ -3115,6 +3206,19 @@ export const suppliers: SupplierProfile[] = [
        не публикуются. Публикация 49 packshot-ов и каталога разрешена Антоном
        31.10.2026; цены и MOQ по-прежнему не публикуются. */
     logoUrl: '/img/suppliers/koy/brand/logo.png',
+    /* A compact cross-section of the supplied packshots.  The full 49-SKU
+       catalogue remains below; this gallery gives the profile a visual read
+       before the visitor reaches the product grid. */
+    gallery: [
+      '/img/suppliers/koy/products/image12.png',
+      '/img/suppliers/koy/products/image15.png',
+      '/img/suppliers/koy/products/image21.png',
+      '/img/suppliers/koy/products/image29.png',
+      '/img/suppliers/koy/products/image34.png',
+      '/img/suppliers/koy/products/image38.png',
+      '/img/suppliers/koy/products/image42.png',
+      '/img/suppliers/koy/products/image45.png',
+    ],
     catalog: koyCatalog,
     termsFile: { ru: '/docs/koy-terms-ru.pdf', en: '/docs/koy-terms-en.pdf', ko: '/docs/koy-terms-ko.pdf', zh: '/docs/koy-terms-zh.pdf', ja: '/docs/koy-terms-ja.pdf', it: '/docs/koy-terms-it.pdf', de: '/docs/koy-terms-de.pdf', fr: '/docs/koy-terms-fr.pdf', tr: '/docs/koy-terms-tr.pdf', es: '/docs/koy-terms-es.pdf', pt: '/docs/koy-terms-pt.pdf' },
     /* The public catalogue is price-free by the exact 31.10 Human-gate. */
