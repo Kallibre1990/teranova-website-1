@@ -28,8 +28,15 @@ const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 
 /* Beauty собирается из рубрики плюс упаковка и сырьё — см. beautySuppliers.
    Остальные группы берут свою рубрику как есть. */
-const realForCat =
-  groupKey === 'cosmetics' ? beautySuppliers : realSuppliers.filter((s) => s.category === groupKey);
+/* Порядок относится к языку страницы: Intl.Collator корректно сравнивает
+   названия и при добавлении локализованного отображаемого имени не привязывает
+   каталог к исходному порядку массива. slug даёт стабильный порядок равных имён. */
+const compareDisplayedName = new Intl.Collator(lang, { sensitivity: 'base', numeric: true });
+const byDisplayedName = <T extends { name: string; slug?: string }>(a: T, b: T) =>
+  compareDisplayedName.compare(a.name, b.name) || (a.slug ?? '').localeCompare(b.slug ?? '');
+const realForCat = (groupKey === 'cosmetics' ? beautySuppliers : realSuppliers.filter((s) => s.category === groupKey))
+  .slice()
+  .sort(byDisplayedName);
 /* Решение Антона 20.08.2026: демонстрационные карточки живут в группе только
    пока она пустая. Как только в направлении набирается три настоящих
    поставщика, выдуманные компании рядом с ними уже не заполняют витрину, а
@@ -37,7 +44,7 @@ const realForCat =
    без правки кода. */
 const DEMO_HIDE_AT = 3;
 const showDemo = realForCat.length < DEMO_HIDE_AT;
-const suppliers = showDemo ? demoSuppliers[groupKey] ?? [] : [];
+const suppliers = showDemo ? (demoSuppliers[groupKey] ?? []).slice().sort(byDisplayedName) : [];
 /* Страна производства — меткой на карточке. Каталог общий: корейские и
    китайские поставщики лежат в одних категориях, страна их различает. */
 /* Ботанические знаки для плашек поставщика без фотографий.
