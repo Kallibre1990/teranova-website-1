@@ -3136,6 +3136,16 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#1F2A44', sky: '#D7DEE8', accent: '#2B4C7E', bg: '#F4F5F7' },
     voice: 'minimal',
     logoUrl: '/img/suppliers/cheon365/scott-hamish-logo.png',
+    gallery: [
+      '/img/suppliers/cheon365/products/blue-freedom-capsule-cleansing-foam.jpg',
+      '/img/suppliers/cheon365/products/blue-blended-toner-essence.jpg',
+      '/img/suppliers/cheon365/products/blue-blended-lotion-essence.jpg',
+      '/img/suppliers/cheon365/products/classic-golf-sun-cream.jpg',
+      '/img/suppliers/cheon365/products/classic-golf-sun-stick.jpg',
+      '/img/suppliers/cheon365/products/courage-lip-balm.jpg',
+      '/img/suppliers/cheon365/products/claymore-hand-cream.jpg',
+      '/img/suppliers/cheon365/products/be-brave-bb-essence.jpg',
+    ],
     catalog: cheon365Catalog,
     /* Антон разрешил собрать и опубликовать профиль по переданным материалам.
        Розничные цены из буклета и Confidential-презентация не публикуются:

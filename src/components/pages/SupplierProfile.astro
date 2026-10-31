@@ -105,6 +105,14 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   acfit: { hero: acfitHero, products: acfitHero, drops: acfitHero },
 };
 const m = media[profile.slug];
+/* Some supplied-material profiles keep their optimised cut-outs in /public
+   rather than Astro's asset pipeline.  Their first catalogue image is still a
+   real product photograph and must be present in the hero, not replaced by a
+   decorative placeholder. */
+const heroSrc = !m ? profile.catalog?.[0]?.items?.[0]?.img : undefined;
+const suppliedFacts = profile.slug === 'cheon365'
+  ? ['Kolmar Korea', '2020–2024', 'Olive Young · department stores · TV shopping · Naver · Coupang']
+  : [];
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
@@ -251,10 +259,14 @@ function monogram(name: string): string {
             </span>}
           </div>
         </div>
-        {m && (
+        {(m || heroSrc) && (
           <aside class="sp-hero__art">
             <figure class="sp-hero__photo">
-              <Image src={m.hero} alt={`${profile.brand} — ${c.descriptor}`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
+              {m ? (
+                <Image src={m.hero} alt={`${profile.brand} — ${c.descriptor}`} widths={[440, 720]} sizes="(max-width: 820px) 92vw, 440px" format="webp" loading="eager" decoding="async" />
+              ) : (
+                <img src={heroSrc} alt={`${profile.brand} — ${c.descriptor}`} loading="eager" decoding="async" />
+              )}
             </figure>
             {shelf.length > 0 && (
               /* A short shelf of the brand's own products under the photo: the
@@ -323,14 +335,14 @@ function monogram(name: string): string {
     </section>
   )}
 
-  {profile.gallery && profile.gallery.length > 0 && c.ui.gallery_h && (
+  {profile.gallery && profile.gallery.length > 0 && (
     <section class="sp-sec sp-sec--tint">
       <div class="wrap">
-        <span class="sp-lvl">{c.ui.gallery_h}</span>
+        <span class="sp-lvl">{c.ui.gallery_h ?? profile.brand}</span>
         <div class="sp-visit">
           {profile.gallery.map((src, i) => (
-            <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${c.ui.gallery_h}`}>
-              <img src={src} alt={`${profile.name} — ${c.ui.gallery_h} ${i + 1}`} loading="lazy" decoding="async" />
+            <button class="sp-visit__i" type="button" data-full={src} data-name={`${profile.brand} — ${c.ui.gallery_h ?? profile.brand}`}>
+              <img src={src} alt={`${profile.name} — ${c.ui.gallery_h ?? profile.brand} ${i + 1}`} loading="lazy" decoding="async" />
             </button>
           ))}
         </div>
@@ -365,7 +377,7 @@ function monogram(name: string): string {
     <div class="wrap sp-narrow">
       <span class="sp-lvl">{c.ui.about_h}</span>
       {c.about.map((p) => <p class="sp-body">{p}</p>)}
-      <ul class="sp-facts">{c.facts.map((f) => <li>{f}</li>)}</ul>
+      <ul class="sp-facts">{[...c.facts, ...suppliedFacts].map((f) => <li>{f}</li>)}</ul>
       {c.channels?.length > 0 && (
         <div class="sp-channels">
           <span class="sp-channels__lbl">{c.ui.for_whom}</span>
