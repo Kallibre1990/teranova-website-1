@@ -1209,7 +1209,7 @@ const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierCo
 const confirmedPlk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => {
   const content = mk(j) as SupplierContent & Record<string, any>;
   const ranges = /(?:1\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*8|14\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*52)/iu;
-  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|명|人)/iu.test(text));
+  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|человек|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|लोग|명|人)/iu.test(text));
   content.facts = content.facts.filter((text: string) => !ranges.test(text));
   content.lines = content.lines.map((line: any) => ranges.test(line.note) ? ({ ...line, note: line.name }) : line);
   content.seoDesc = 'Jinan PLK Machinery: lifting equipment shown in the company catalogue, including GTBZ-22J telescopic boom lift.';
