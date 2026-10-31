@@ -27,6 +27,6 @@ const jsonLd = supplierJsonLd(lang, profile);
 const AGAFAR_LANGS_WITH_RU: Lang[] = ['ru', 'en', 'ko'];
 ---
 
-<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd} langs={AGAFAR_LANGS_WITH_RU}>
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd} langs={AGAFAR_LANGS_WITH_RU} noindex>
   <SupplierProfile lang={lang} profile={profile} />
 </Base>

@@ -243,7 +243,7 @@ function monogram(name: string): string {
             {logo && <Image src={logo} alt={`${profile.brand}`} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
           </figure>
           <h1 class="sp-name">{profile.name}</h1>
-          <p class="sp-tagline">«{c.tagline}»</p>
+          <p class="sp-tagline">{profile.slug === 'agafar' ? c.tagline : `«${c.tagline}»`}</p>
           <p class="sp-descriptor">{c.descriptor}</p>
           <div class="sp-meta">
             <span class={`sp-status${profile.status === 'visited' ? ' sp-status--visited' : ''}`}><span class="dot" aria-hidden="true"></span>{profile.status === 'visited' ? t.verify.card_visited_t : t.verify.card_provided_t}{profile.status === 'visited' && profile.visitDate ? ` · ${profile.visitDate}` : ''}</span>

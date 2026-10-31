@@ -73,7 +73,7 @@ for (const [url, page] of pages) {
       visit(JSON.parse(match[1]));
     } catch { fail(urlPath, 'invalid JSON-LD'); }
   }
-  if (noindex && !/\/thanks\/$/.test(urlPath)) fail(urlPath, 'unexpected noindex');
+  if (noindex && !(/\/thanks\/$/.test(urlPath) || /\/catalog\/agafar\/$/.test(urlPath))) fail(urlPath, 'unexpected noindex');
 }
 
 const sitemapIndex = read('sitemap-index.xml');

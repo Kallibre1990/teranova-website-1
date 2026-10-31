@@ -25,6 +25,7 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname;
         return !path.split('/').filter(Boolean).includes('thanks') &&
+          !/^\/(?:en\/|ko\/)?catalog\/agafar\/$/.test(path) &&
           path !== '/404/' && path !== '/404.html' && path !== '/en/';
       },
       // Use the same URL map as HTML, including the English QR root, Russian
