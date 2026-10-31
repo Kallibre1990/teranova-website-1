@@ -38,7 +38,7 @@ def lang_of(path):
     return m.group(1) if m and m.group(1) in ORIGINAL else 'en'
 
 
-KIND = {'terms': 'Terms of cooperation', 'price': 'Price list', 'presentation': 'Presentation'}
+KIND = {'terms': 'Terms of cooperation', 'price': 'Price list', 'catalog': 'Catalog', 'presentation': 'Presentation'}
 
 
 def clean_meta(doc, path):
@@ -59,7 +59,7 @@ def clean_meta(doc, path):
     действия оговорён в тексте условий.
     """
     base = os.path.basename(path)[:-4]
-    m = re.match(r'^(.+)-(terms|price|presentation)-([a-z]{2})$', base)
+    m = re.match(r'^(.+)-(terms|price|catalog|presentation)-([a-z]{2})$', base)
     if m:
         supplier = m.group(1).replace('-', ' ').upper()
         title = f'Teranova Group · {supplier} · {KIND[m.group(2)]} ({m.group(3).upper()})'

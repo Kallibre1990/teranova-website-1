@@ -403,6 +403,7 @@ import koyEs from './suppliers-i18n/koy.es.json';
 import koyPt from './suppliers-i18n/koy.pt.json';
 import koyHe from './suppliers-i18n/koy.he.json';
 import koyHi from './suppliers-i18n/koy.hi.json';
+import koyCatalog from './suppliers-i18n/koy.catalog.json';
 import cheon365Ru from './suppliers-i18n/cheon365.ru.json';
 import cheon365En from './suppliers-i18n/cheon365.en.json';
 import cheon365Ko from './suppliers-i18n/cheon365.ko.json';
@@ -3068,8 +3069,15 @@ export const suppliers: SupplierProfile[] = [
        (T-20261021-037). Мы обещали компании черновик до публикации (09.10):
        страница не называется согласованной с компанией. Цены, MOQ, прайс-лист,
        показатели продаж, клинические и дерматологические испытания, патенты,
-       проценты ингредиентов, рейтинги «No.1», имена людей, контакты, адреса
-       и фото не публикуются; карточка показывает монограмму. */
+       проценты ингредиентов, рейтинги «No.1», имена людей, контакты и адреса
+       не публикуются. Публикация 49 packshot-ов и каталога разрешена Антоном
+       31.10.2026; цены и MOQ по-прежнему не публикуются. */
+    logoUrl: '/img/suppliers/koy/brand/logo.png',
+    catalog: koyCatalog,
+    termsFile: { ru: '/docs/koy-terms-ru.pdf', en: '/docs/koy-terms-en.pdf', ko: '/docs/koy-terms-ko.pdf', zh: '/docs/koy-terms-zh.pdf', ja: '/docs/koy-terms-ja.pdf', it: '/docs/koy-terms-it.pdf', de: '/docs/koy-terms-de.pdf', fr: '/docs/koy-terms-fr.pdf', tr: '/docs/koy-terms-tr.pdf', es: '/docs/koy-terms-es.pdf', pt: '/docs/koy-terms-pt.pdf' },
+    /* The public catalogue is price-free by the exact 31.10 Human-gate. */
+    priceFile: { ru: '/docs/koy-catalog-ru.pdf', en: '/docs/koy-catalog-en.pdf', ko: '/docs/koy-catalog-ko.pdf', zh: '/docs/koy-catalog-zh.pdf', ja: '/docs/koy-catalog-ja.pdf', it: '/docs/koy-catalog-it.pdf', de: '/docs/koy-catalog-de.pdf', fr: '/docs/koy-catalog-fr.pdf', tr: '/docs/koy-catalog-tr.pdf', es: '/docs/koy-catalog-es.pdf', pt: '/docs/koy-catalog-pt.pdf' },
+    presFile: { ru: '/docs/koy-presentation-ru.pdf', en: '/docs/koy-presentation-en.pdf', ko: '/docs/koy-presentation-ko.pdf', zh: '/docs/koy-presentation-zh.pdf', ja: '/docs/koy-presentation-ja.pdf', it: '/docs/koy-presentation-it.pdf', de: '/docs/koy-presentation-de.pdf', fr: '/docs/koy-presentation-fr.pdf', tr: '/docs/koy-presentation-tr.pdf', es: '/docs/koy-presentation-es.pdf', pt: '/docs/koy-presentation-pt.pdf' },
     i18n: {
       ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any),
     },
