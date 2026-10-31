@@ -364,6 +364,7 @@ import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
 import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
 import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
 import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
+import plkLiftCatalog from './suppliers-i18n/plk-lift.catalog.json';
 import oavoRu from './suppliers-i18n/oavo.ru.json';
 import oavoEn from './suppliers-i18n/oavo.en.json';
 import oavoKo from './suppliers-i18n/oavo.ko.json';
@@ -1200,6 +1201,20 @@ const ckRegeonRu: SupplierContent = {
 
 /* Translator agents return { content: {...}, ui: {...} }; flatten to SupplierContent. */
 const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => ({ ...(j.content as unknown as Omit<SupplierContent, 'ui'>), ui: j.ui });
+
+/* The 28 October catalogue confirms product groups and GTBZ-22J, but not the
+   earlier website claims about headcount, spider-crane capacity or boom-lift
+   working-height ranges.  Keep the translated profile chrome and remove those
+   claims centrally for every locale, including SEO text. */
+const confirmedPlk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => {
+  const content = mk(j) as SupplierContent & Record<string, any>;
+  const ranges = /(?:1\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*8|14\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*52)/iu;
+  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|명|人)/iu.test(text));
+  content.facts = content.facts.filter((text: string) => !ranges.test(text));
+  content.lines = content.lines.map((line: any) => ranges.test(line.note) ? ({ ...line, note: line.name }) : line);
+  content.seoDesc = 'Jinan PLK Machinery: lifting equipment shown in the company catalogue, including GTBZ-22J telescopic boom lift.';
+  return content;
+};
 
 /* AgingTarget supplied a reduced company deck. This profile uses only the
    approved subset; the company’s research statements stay attributed. */
@@ -3076,11 +3091,27 @@ export const suppliers: SupplierProfile[] = [
     /* Письменное разрешение от 17.09.2026 (письмо 1a0ad7fa1c5d808c) — использовать,
        переводить и публиковать материалы компании и продукции с официального сайта
        plklift.com. Текст профиля — только по снимку сайта от 21.10.2026 (T-20261021-031).
-       Предложение, характеристики и документы из ветки RFQ августа 2026 не используются.
-       Цен, сертификатов, контактов и фото нет: локального медиапакета нет,
-       чужие изображения не подставляются; карточка показывает монограмму. */
+       Каталог и паспорт GTBZ-22J получены 28.10.2026: использованы только
+       подтверждённые ими позиции, фотографии и сертификаты. Цены и MOQ не публикуются. */
+    gallery: [
+      '/img/suppliers/plk-lift/catalog/hero.jpg',
+      '/img/suppliers/plk-lift/catalog/lift-table.jpg',
+      '/img/suppliers/plk-lift/catalog/crawler-crane.jpg',
+      '/img/suppliers/plk-lift/catalog/towable-boom.jpg',
+      '/img/suppliers/plk-lift/catalog/scissor-lift.jpg',
+      '/img/suppliers/plk-lift/catalog/vacuum-lifter.jpg',
+      '/img/suppliers/plk-lift/catalog/suction-cups.jpg',
+      '/img/suppliers/plk-lift/catalog/suction-cups-mobile.jpg',
+    ],
+    catalog: plkLiftCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
+    certs: ['CE PD/0553/2024 (EN 1570-2)', 'ISO 9001:2015 No. 99225Q00497R0S (equipment sales)'],
+    /* All three documents are price-free: terms, catalog and presentation. */
+    termsFile: { ru: '/docs/plk-lift-terms-ru.pdf', en: '/docs/plk-lift-terms-en.pdf', ko: '/docs/plk-lift-terms-ko.pdf', zh: '/docs/plk-lift-terms-zh.pdf', ja: '/docs/plk-lift-terms-ja.pdf', it: '/docs/plk-lift-terms-it.pdf', de: '/docs/plk-lift-terms-de.pdf', fr: '/docs/plk-lift-terms-fr.pdf', tr: '/docs/plk-lift-terms-tr.pdf', es: '/docs/plk-lift-terms-es.pdf', pt: '/docs/plk-lift-terms-pt.pdf' },
+    /* The established priceFile slot renders a catalogue here; no prices or MOQ. */
+    priceFile: { ru: '/docs/plk-lift-catalog-ru.pdf', en: '/docs/plk-lift-catalog-en.pdf', ko: '/docs/plk-lift-catalog-ko.pdf', zh: '/docs/plk-lift-catalog-zh.pdf', ja: '/docs/plk-lift-catalog-ja.pdf', it: '/docs/plk-lift-catalog-it.pdf', de: '/docs/plk-lift-catalog-de.pdf', fr: '/docs/plk-lift-catalog-fr.pdf', tr: '/docs/plk-lift-catalog-tr.pdf', es: '/docs/plk-lift-catalog-es.pdf', pt: '/docs/plk-lift-catalog-pt.pdf' },
+    presFile: { ru: '/docs/plk-lift-presentation-ru.pdf', en: '/docs/plk-lift-presentation-en.pdf', ko: '/docs/plk-lift-presentation-ko.pdf', zh: '/docs/plk-lift-presentation-zh.pdf', ja: '/docs/plk-lift-presentation-ja.pdf', it: '/docs/plk-lift-presentation-it.pdf', de: '/docs/plk-lift-presentation-de.pdf', fr: '/docs/plk-lift-presentation-fr.pdf', tr: '/docs/plk-lift-presentation-tr.pdf', es: '/docs/plk-lift-presentation-es.pdf', pt: '/docs/plk-lift-presentation-pt.pdf' },
     i18n: {
-      ru: mk(plkLiftRu as any), en: mk(plkLiftEn as any), ko: mk(plkLiftKo as any), zh: mk(plkLiftZh as any), ja: mk(plkLiftJa as any), it: mk(plkLiftIt as any), de: mk(plkLiftDe as any), fr: mk(plkLiftFr as any), tr: mk(plkLiftTr as any), es: mk(plkLiftEs as any), pt: mk(plkLiftPt as any), he: mk(plkLiftHe as any), hi: mk(plkLiftHi as any),
+      ru: confirmedPlk(plkLiftRu as any), en: confirmedPlk(plkLiftEn as any), ko: confirmedPlk(plkLiftKo as any), zh: confirmedPlk(plkLiftZh as any), ja: confirmedPlk(plkLiftJa as any), it: confirmedPlk(plkLiftIt as any), de: confirmedPlk(plkLiftDe as any), fr: confirmedPlk(plkLiftFr as any), tr: confirmedPlk(plkLiftTr as any), es: confirmedPlk(plkLiftEs as any), pt: confirmedPlk(plkLiftPt as any), he: confirmedPlk(plkLiftHe as any), hi: confirmedPlk(plkLiftHi as any),
     },
   },
   {
