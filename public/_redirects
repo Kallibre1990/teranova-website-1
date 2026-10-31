@@ -14,3 +14,9 @@
 # /sitemap.xml is the conventional URL crawlers and Search Console check;
 # the actual sitemap index lives at /sitemap-index.xml (T-20261016-007).
 /sitemap.xml /sitemap-index.xml 301
+
+# Cloudflare retains cached copies of the former price-bearing brochures.
+# Keep their published URLs safe by resolving them to the price-free localized
+# presentations instead (T-20261031-019).
+/docs/ooznary-brand-ko.pdf /docs/ooznary-presentation-ko.pdf 301
+/docs/ooznary-brand-en.pdf /docs/ooznary-presentation-en.pdf 301
