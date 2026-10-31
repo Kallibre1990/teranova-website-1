@@ -521,6 +521,15 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* KOY supplied its price list for internal review.  The exact Human-gate of
+       31.10.2026 permits a public price-free catalog, terms and presentation only. */
+    id: 'koy', json: 'koy', supplier: 'Brandholder Inc.', brand: 'KOY',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#3B3330', sky: '#E4DCD6', bg: '#F7F4F1', line: '#E8E0DA' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
