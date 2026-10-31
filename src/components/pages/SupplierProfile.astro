@@ -952,8 +952,11 @@ function monogram(name: string): string {
   .sp-terms__dls { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
   .sp-terms__dl { display: inline-flex; align-items: center; gap: 9px; padding: 12px 22px; border-radius: 10px; font-weight: 700; font-size: 0.92rem; color: #fff; background: var(--ds-deep); transition: background .2s, transform .2s; }
   .sp-terms__dl:hover { background: var(--ds-sky); transform: translateY(-2px); }
-  .sp-terms__dl--alt { background: var(--ds-sky); }
-  .sp-terms__dl--alt:hover { background: var(--ds-deep); }
+  /* The alternate document action uses the supplier's light brand colour.
+     Keep its label dark: Ooznary's pale green otherwise gives white text
+     insufficient contrast on a phone. */
+  .sp-terms__dl--alt { background: var(--ds-sky); color: var(--ds-deep); }
+  .sp-terms__dl--alt:hover { background: var(--ds-deep); color: #fff; }
   .sp-terms__dl svg { width: 17px; height: 17px; }
   .sp-terms__disc { font-size: 0.82rem; color: #5a6a80; line-height: 1.6; margin-top: 16px; }
 
