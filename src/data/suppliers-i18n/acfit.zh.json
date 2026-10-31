@@ -125,6 +125,8 @@
     "certs_h": "认证",
     "certs_note": "CPNP、SCPN和MoCRA的认证状态依据公司自身资料中的表格：该系列14款产品中13款已确认，ACFIT Beta-G Lacto Sun Cream在资料发布时状态为「审批中」。文件副本将在通过Teranova进行交易阶段提供。",
     "products_h": "产品",
+    "gallery_h": "公司资料",
+    "gallery_note": "来自 ACFIT 提供资料的产品照片。",
     "products_note": ""
   }
 }

@@ -2830,6 +2830,17 @@ export const suppliers: SupplierProfile[] = [
       'Только для профессионалов': '/img/suppliers/acfit/cutout/acfit-v-sang-beta-g-secure-solution-5ml-x5.webp',
       'Защита от солнца': '/img/suppliers/acfit/cutout/acfit-beta-g-lacto-sun-cream-50ml.webp',
     },
+    /* Six supplied product photographs, selected from the 19 ACFIT PNG files.
+       This is intentionally a quiet evidence gallery: real product shots, no
+       decorative stock imagery and no claims beyond the supplied materials. */
+    gallery: [
+      '/img/suppliers/acfit/products/acfit-v-sang-beta-g-secure-toner.png',
+      '/img/suppliers/acfit/products/acfit-v-sang-gel.png',
+      '/img/suppliers/acfit/products/acfit-v-sang-cream.png',
+      '/img/suppliers/acfit/products/acfit-v-sang-beta-g-infusing-skin-booster-100ml.png',
+      '/img/suppliers/acfit/products/acfit-v-sang-pack-10ea.png',
+      '/img/suppliers/acfit/products/acfit-v-sang-clay-beta-g-immuca-180ml.png',
+    ],
     catalog: acfitCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
     termsFile: {
       ru: '/docs/acfit-terms-ru.pdf', en: '/docs/acfit-terms-en.pdf', ko: '/docs/acfit-terms-ko.pdf',
