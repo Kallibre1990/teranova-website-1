@@ -69,6 +69,14 @@ const RU_UI = {
    `node scripts/gen-supplier-pdfs.mjs <id>`, or all when no arg. */
 const SUPPLIERS = [
   {
+    /* Catalogue-confirmed PLK material only.  `catalogOnly` produces terms,
+       catalogue and presentation, never a price/MOQ PDF. */
+    id: 'plk-lift', json: 'plk-lift', supplier: 'Jinan PLK Machinery Co., Ltd.', brand: 'PLK Lift',
+    basis: '', noPrice: true, catalogOnly: true, pres: true,
+    certs: ['CE PD/0553/2024 (EN 1570-2)', 'ISO 9001:2015 No. 99225Q00497R0S (equipment sales)'],
+    colors: { deep: '#1F3B2C', sky: '#7FB58F', bg: '#F1F6F2', line: '#D6E3D9' },
+  },
+  {
     // OANIC preview only: no price sheet, certifications or export terms.
     id: 'oanic', json: 'oanic', supplier: 'OANIC GLOBAL CO., LTD.', brand: 'OANIC',
     basis: '', noPrice: true, pres: true, certs: [],
