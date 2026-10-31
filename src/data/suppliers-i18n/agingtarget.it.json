@@ -1,0 +1,63 @@
+{
+  "content": {
+    "tagline": "Programmi di ricerca per il licensing",
+    "descriptor": "Azienda coreana che sviluppa candidati a piccola molecola per l'aterosclerosi e la malattia di Alzheimer.",
+    "origin": "Corea",
+    "about": [
+      "AgingTarget Inc. è un'azienda coreana che sviluppa candidati farmaceutici a piccola molecola. Secondo l'azienda, al 5 ottobre 2026 i suoi due programmi di ricerca riguardano l'aterosclerosi, legata all'invecchiamento vascolare, e la malattia di Alzheimer.",
+      "L'azienda collega entrambi i candidati a una fase precedente alla preclinica. Si tratta di una dichiarazione dell'azienda, non di una valutazione di Teranova; il profilo non contiene affermazioni di efficacia né confronti con farmaci approvati."
+    ],
+    "facts": [
+      "Due programmi di ricerca: aterosclerosi e malattia di Alzheimer",
+      "Candidati a piccola molecola",
+      "Fase precedente alla preclinica, secondo l'azienda al 5 ottobre 2026",
+      "Licensing-out dopo la fase preclinica o la Fase 1, secondo l'azienda"
+    ],
+    "channels": [
+      "Aziende farmaceutiche per il licensing-in",
+      "Investitori",
+      "Partner di ricerca collaborativa",
+      "Partner per il trasferimento tecnologico e l'accesso al mercato"
+    ],
+    "lines": [
+      {
+        "name": "Aterosclerosi",
+        "note": "Candidato di ricerca a piccola molecola che l'azienda associa all'invecchiamento vascolare."
+      },
+      {
+        "name": "Malattia di Alzheimer",
+        "note": "Candidato di ricerca a piccola molecola che l'azienda collega a una fase precedente alla preclinica."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Fase e informazioni",
+        "note": "Fase, programmi e modello di partnership si basano su materiali aziendali datati 5 ottobre 2026. Teranova non formula alcuna affermazione sull'efficacia dei candidati."
+      }
+    ],
+    "formats": [
+      "Candidati di ricerca a piccola molecola"
+    ],
+    "exportNote": "L'azienda cerca investimenti, ricerca collaborativa, trasferimento tecnologico e partner per l'accesso al mercato. Le condizioni vengono discusse tramite Teranova per ogni richiesta specifica.",
+    "consentNote": "L'azienda ha dato il consenso scritto per questo profilo. Il profilo utilizza i materiali ridotti forniti dall'azienda ed esclude le informazioni che l'azienda ha riservato.",
+    "seoTitle": "AgingTarget — programmi di ricerca per il licensing · Teranova",
+    "seoDesc": "AgingTarget Inc.: candidati di ricerca a piccola molecola per l'aterosclerosi e la malattia di Alzheimer, in fase precedente alla preclinica secondo l'azienda al 5 ottobre 2026."
+  },
+  "ui": {
+    "profile_sup": "Profilo aziendale",
+    "about_h": "L'azienda",
+    "for_whom": "In cerca di:",
+    "lines_h": "Programmi di ricerca",
+    "catalog_h": "Programmi",
+    "tech_h": "Focus della ricerca",
+    "products_h": "Programmi",
+    "products_note": "Candidati di ricerca descritti dall'azienda.",
+    "formats_h": "Formato del programma",
+    "export_h": "Partnership",
+    "cta_h": "Interessato a questa azienda?",
+    "cta_d": "Contatta Teranova per discutere una possibile partnership.",
+    "cta_btn": "Contattare tramite Teranova",
+    "more": "Apri il profilo →",
+    "verified_suppliers": "Aziende verificate"
+  }
+}
