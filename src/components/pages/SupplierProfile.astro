@@ -140,7 +140,7 @@ const profileTerms = c.terms?.length ? c.terms : ((termsDoc || priceDoc || presD
 const termsTitle = c.ui.terms_h || c.ui.export_h;
 const documentLabel = c.ui.download_btn || 'PDF';
 const presentationLabel = c.ui.pres_btn || 'PDF';
-const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary') ? `${c.ui.catalog_h} (PDF)` : undefined);
+const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary' || profile.slug === 'plk-lift') ? `${c.ui.catalog_h} (PDF)` : undefined);
 /* A line gets its own indexable page when we have content for it; matched by the
    display name so both the "product lines" block and the catalog groups link to it.
    The lines block often uses a short brand name ("Acerola") where the catalog group
