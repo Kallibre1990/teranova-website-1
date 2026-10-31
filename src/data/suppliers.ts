@@ -364,6 +364,7 @@ import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
 import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
 import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
 import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
+import plkLiftCatalog from './suppliers-i18n/plk-lift.catalog.json';
 import oavoRu from './suppliers-i18n/oavo.ru.json';
 import oavoEn from './suppliers-i18n/oavo.en.json';
 import oavoKo from './suppliers-i18n/oavo.ko.json';
@@ -3076,9 +3077,20 @@ export const suppliers: SupplierProfile[] = [
     /* Письменное разрешение от 17.09.2026 (письмо 1a0ad7fa1c5d808c) — использовать,
        переводить и публиковать материалы компании и продукции с официального сайта
        plklift.com. Текст профиля — только по снимку сайта от 21.10.2026 (T-20261021-031).
-       Предложение, характеристики и документы из ветки RFQ августа 2026 не используются.
-       Цен, сертификатов, контактов и фото нет: локального медиапакета нет,
-       чужие изображения не подставляются; карточка показывает монограмму. */
+       Каталог и паспорт GTBZ-22J получены 28.10.2026: использованы только
+       подтверждённые ими позиции, фотографии и сертификаты. Цены и MOQ не публикуются. */
+    gallery: [
+      '/img/suppliers/plk-lift/catalog/hero.jpg',
+      '/img/suppliers/plk-lift/catalog/lift-table.jpg',
+      '/img/suppliers/plk-lift/catalog/crawler-crane.jpg',
+      '/img/suppliers/plk-lift/catalog/towable-boom.jpg',
+      '/img/suppliers/plk-lift/catalog/scissor-lift.jpg',
+      '/img/suppliers/plk-lift/catalog/vacuum-lifter.jpg',
+      '/img/suppliers/plk-lift/catalog/suction-cups.jpg',
+      '/img/suppliers/plk-lift/catalog/suction-cups-mobile.jpg',
+    ],
+    catalog: plkLiftCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
+    certs: ['CE PD/0553/2024 (EN 1570-2)', 'ISO 9001:2015 No. 99225Q00497R0S (equipment sales)'],
     i18n: {
       ru: mk(plkLiftRu as any), en: mk(plkLiftEn as any), ko: mk(plkLiftKo as any), zh: mk(plkLiftZh as any), ja: mk(plkLiftJa as any), it: mk(plkLiftIt as any), de: mk(plkLiftDe as any), fr: mk(plkLiftFr as any), tr: mk(plkLiftTr as any), es: mk(plkLiftEs as any), pt: mk(plkLiftPt as any), he: mk(plkLiftHe as any), hi: mk(plkLiftHi as any),
     },
