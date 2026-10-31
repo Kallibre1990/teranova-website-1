@@ -2892,7 +2892,16 @@ export const suppliers: SupplierProfile[] = [
        Prices, MOQ, certificates, K-FDA functional claims, clinical figures and
        contacts are intentionally excluded. Japan, Vietnam and China are not
        offered as destinations (exclusive distributors); CIS only by agreement. */
-    gallery: ['/img/suppliers/ooznary/gallery/lineup.jpg', '/img/suppliers/ooznary/gallery/micro-oil-blender.jpg'],
+    gallery: [
+      '/img/suppliers/ooznary/gallery/lineup.jpg',
+      '/img/suppliers/ooznary/gallery/vita3-serum.jpg',
+      '/img/suppliers/ooznary/gallery/jet-blue-cream.jpg',
+      '/img/suppliers/ooznary/gallery/rest-and-the-sun.jpg',
+      '/img/suppliers/ooznary/gallery/micro-oil-blender.jpg',
+      '/img/suppliers/ooznary/gallery/retinol-micro-oil-blender.jpg',
+      '/img/suppliers/ooznary/gallery/vita3-sheet-mask.jpg',
+      '/img/suppliers/ooznary/gallery/azelaic-cica-mask.jpg',
+    ],
     logoUrl: '/img/suppliers/ooznary/brand/logo.png',
     catalog: ooznaryCatalog as { line: string; items: { name: string; img?: string; volume?: string; actives?: string[] }[] }[],
     /* The files are company materials, not a public price list or certificates. */

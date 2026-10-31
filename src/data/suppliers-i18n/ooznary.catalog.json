@@ -1,27 +1,27 @@
 [
   {"line":"Vita3","items":[
-    {"name":"VITA3 Serum","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-1.png","actives":["Vitamin C", "Vitamin B", "Glutathione", "Madecassoside"]},
-    {"name":"VITA3 Aurora Toner","volume":"200 ml","img":"/img/suppliers/ooznary/products/sku-5.png","actives":["Vitamin complex"]},
-    {"name":"VITA3 Pudding Cream","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-6.png","actives":["Vitamin complex"]},
-    {"name":"VITA3 Aurora Mist","volume":"60 ml","img":"/img/suppliers/ooznary/products/sku-7.png","actives":["Crystal ceramides"]},
-    {"name":"VITA3 Sheet Mask","volume":"25 ml","img":"/img/suppliers/ooznary/products/sku-11.png","actives":["Vitamin complex"]},
-    {"name":"VITA3 Sheet Mask 10ea","volume":"25 ml × 10","img":"/img/suppliers/ooznary/products/sku-15.png","actives":["Vitamin complex"]}
+    {"name":"VITA3 Serum","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-1.jpg","actives":["Vitamin C", "Vitamin B", "Glutathione", "Madecassoside"]},
+    {"name":"VITA3 Aurora Toner","volume":"200 ml","img":"/img/suppliers/ooznary/products/sku-5.jpg","actives":["Vitamin complex"]},
+    {"name":"VITA3 Pudding Cream","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-6.jpg","actives":["Vitamin complex"]},
+    {"name":"VITA3 Aurora Mist","volume":"60 ml","img":"/img/suppliers/ooznary/products/sku-7.jpg","actives":["Crystal ceramides"]},
+    {"name":"VITA3 Sheet Mask","volume":"25 ml","img":"/img/suppliers/ooznary/products/sku-11.jpg","actives":["Vitamin complex"]},
+    {"name":"VITA3 Sheet Mask 10ea","volume":"25 ml × 10","img":"/img/suppliers/ooznary/products/sku-15.jpg","actives":["Vitamin complex"]}
   ]},
   {"line":"Jet Blue","items":[
-    {"name":"JET BLUE Serum","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-2.png","actives":["Aquaitol", "Hyaluronic acid", "Ceramides", "Amino acids"]},
-    {"name":"JET BLUE Cream","volume":"80 ml","img":"/img/suppliers/ooznary/products/sku-3.png","actives":["Oligo-hyaluronic acid", "Ectoin", "Ceramides"]}
+    {"name":"JET BLUE Serum","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-2.jpg","actives":["Aquaitol", "Hyaluronic acid", "Ceramides", "Amino acids"]},
+    {"name":"JET BLUE Cream","volume":"80 ml","img":"/img/suppliers/ooznary/products/sku-3.jpg","actives":["Oligo-hyaluronic acid", "Ectoin", "Ceramides"]}
   ]},
   {"line":"Rest and The Sun","items":[
-    {"name":"Rest and The Sun","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-4.png","actives":["White ginger lily extract"]}
+    {"name":"Rest and The Sun","volume":"50 ml","img":"/img/suppliers/ooznary/products/sku-4.jpg","actives":["White ginger lily extract"]}
   ]},
   {"line":"Micro Oil Blender 37","items":[
-    {"name":"Azelaic Micro Oil Blender 37 Serum","volume":"30 ml","img":"/img/suppliers/ooznary/products/sku-8.png","actives":["Azelaic acid"]},
-    {"name":"Centella Micro Oil Blender 37 Serum","volume":"30 ml","img":"/img/suppliers/ooznary/products/sku-9.png","actives":["Centella", "PDRN"]},
-    {"name":"Retinol Micro Oil Blender 37 Serum","volume":"30 ml","img":"/img/suppliers/ooznary/products/sku-10.png","actives":["Retinol"]},
-    {"name":"Azelaic Cica Blender Mask","volume":"25 ml","img":"/img/suppliers/ooznary/products/sku-12.png","actives":["Azelaic acid", "Cica"]},
-    {"name":"Centella PDRN Blender Mask","volume":"20 ml","img":"/img/suppliers/ooznary/products/sku-13.png","actives":["Centella", "PDRN"]},
-    {"name":"Retinol AHA Blender Mask","volume":"20 ml","img":"/img/suppliers/ooznary/products/sku-14.png","actives":["Retinol", "AHA"]},
-    {"name":"Centella PDRN Blender Mask 10ea","volume":"25 ml × 10","img":"/img/suppliers/ooznary/products/sku-16.png","actives":["Centella", "PDRN"]},
-    {"name":"Retinol AHA Blender Mask 10ea","volume":"20 ml × 10","img":"/img/suppliers/ooznary/products/sku-17.png","actives":["Retinol", "AHA"]}
+    {"name":"Azelaic Micro Oil Blender 37 Serum","volume":"30 ml","img":"/img/suppliers/ooznary/products/sku-8.jpg","actives":["Azelaic acid"]},
+    {"name":"Centella Micro Oil Blender 37 Serum","volume":"30 ml","img":"/img/suppliers/ooznary/products/sku-9.jpg","actives":["Centella", "PDRN"]},
+    {"name":"Retinol Micro Oil Blender 37 Serum","volume":"30 ml","img":"/img/suppliers/ooznary/products/sku-10.jpg","actives":["Retinol"]},
+    {"name":"Azelaic Cica Blender Mask","volume":"25 ml","img":"/img/suppliers/ooznary/products/sku-12.jpg","actives":["Azelaic acid", "Cica"]},
+    {"name":"Centella PDRN Blender Mask","volume":"20 ml","img":"/img/suppliers/ooznary/products/sku-13.jpg","actives":["Centella", "PDRN"]},
+    {"name":"Retinol AHA Blender Mask","volume":"20 ml","img":"/img/suppliers/ooznary/products/sku-14.jpg","actives":["Retinol", "AHA"]},
+    {"name":"Centella PDRN Blender Mask 10ea","volume":"25 ml × 10","img":"/img/suppliers/ooznary/products/sku-16.jpg","actives":["Centella", "PDRN"]},
+    {"name":"Retinol AHA Blender Mask 10ea","volume":"20 ml × 10","img":"/img/suppliers/ooznary/products/sku-17.jpg","actives":["Retinol", "AHA"]}
   ]}
 ]
