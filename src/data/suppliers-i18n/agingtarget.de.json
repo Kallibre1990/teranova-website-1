@@ -1,0 +1,63 @@
+{
+  "content": {
+    "tagline": "Forschungsprogramme für Lizenzvergabe",
+    "descriptor": "Koreanisches Unternehmen, das niedermolekulare Wirkstoffkandidaten für Atherosklerose und Alzheimer-Krankheit entwickelt.",
+    "origin": "Korea",
+    "about": [
+      "AgingTarget Inc. ist ein koreanisches Unternehmen, das niedermolekulare Arzneimittelkandidaten entwickelt. Laut Unternehmensangaben vom 5. Oktober 2026 befassen sich die beiden Forschungsprogramme mit Atherosklerose über den Mechanismus der Gefäßalterung sowie mit der Alzheimer-Krankheit.",
+      "Das Unternehmen stuft beide Kandidaten als vor der präklinischen Phase ein. Dies ist eine Aussage des Unternehmens und keine Bewertung durch Teranova; das Profil enthält keine Wirksamkeitsaussagen oder Vergleiche mit zugelassenen Arzneimitteln."
+    ],
+    "facts": [
+      "Zwei Forschungsprogramme: Atherosklerose und Alzheimer-Krankheit",
+      "Niedermolekulare Kandidaten",
+      "Vor der präklinischen Phase, laut Unternehmensangaben vom 5. Oktober 2026",
+      "Licensing-out nach der präklinischen Phase oder Phase 1, laut Unternehmen"
+    ],
+    "channels": [
+      "Pharmaunternehmen für Licensing-in",
+      "Investoren",
+      "Partner für gemeinsame Forschung",
+      "Partner für Technologietransfer und Markteintritt"
+    ],
+    "lines": [
+      {
+        "name": "Atherosklerose",
+        "note": "Niedermolekularer Forschungskandidat, den das Unternehmen mit der Gefäßalterung in Verbindung bringt."
+      },
+      {
+        "name": "Alzheimer-Krankheit",
+        "note": "Niedermolekularer Forschungskandidat, den das Unternehmen vor der präklinischen Phase einordnet."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Phase und Informationen",
+        "note": "Phase, Programme und Partnerschaftsmodell basieren auf Unternehmensunterlagen vom 5. Oktober 2026. Teranova macht keine Aussage zur Wirksamkeit der Kandidaten."
+      }
+    ],
+    "formats": [
+      "Niedermolekulare Forschungskandidaten"
+    ],
+    "exportNote": "Das Unternehmen sucht Investitionen, gemeinsame Forschung, Technologietransfer und Partner für den Markteintritt. Die Konditionen werden über Teranova für eine konkrete Anfrage besprochen.",
+    "consentNote": "Das Unternehmen hat der Erstellung dieses Profils schriftlich zugestimmt. Das Profil verwendet die vom Unternehmen bereitgestellten gekürzten Materialien und enthält keine vom Unternehmen zurückgehaltenen Informationen.",
+    "seoTitle": "AgingTarget — Forschungsprogramme für Lizenzvergabe · Teranova",
+    "seoDesc": "AgingTarget Inc.: Niedermolekulare Forschungskandidaten für Atherosklerose und Alzheimer-Krankheit, laut Unternehmensangaben vom 5. Oktober 2026 vor der präklinischen Phase."
+  },
+  "ui": {
+    "profile_sup": "Unternehmensprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Gesucht werden:",
+    "lines_h": "Forschungsprogramme",
+    "catalog_h": "Programme",
+    "tech_h": "Forschungsschwerpunkt",
+    "products_h": "Programme",
+    "products_note": "Vom Unternehmen beschriebene Forschungskandidaten.",
+    "formats_h": "Programmformat",
+    "export_h": "Partnerschaft",
+    "cta_h": "Interesse an diesem Unternehmen?",
+    "cta_d": "Kontaktieren Sie Teranova, um eine mögliche Partnerschaft zu besprechen.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Unternehmen"
+  }
+}

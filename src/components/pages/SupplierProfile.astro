@@ -74,6 +74,7 @@ import chaewunProducts from '../../assets/suppliers/chaewun/products.jpg';
 import chaewunDrops from '../../assets/suppliers/chaewun/drops.jpg';
 import acfitLogo from '../../assets/suppliers/acfit-logo.png';
 import acfitHero from '../../assets/suppliers/acfit/hero.jpg';
+import agingTargetHero from '../../assets/suppliers/agingtarget/hero.jpg';
 
 interface Props {
   lang: Lang;
@@ -103,6 +104,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   'vegan-nature': { hero: veganNatureHero, products: veganNatureProducts, drops: veganNatureDrops },
   chaewun: { hero: chaewunHero, products: chaewunProducts, drops: chaewunDrops },
   acfit: { hero: acfitHero, products: acfitHero, drops: acfitHero },
+  agingtarget: { hero: agingTargetHero, products: agingTargetHero, drops: agingTargetHero },
 };
 const m = media[profile.slug];
 /* Some supplied-material profiles keep their optimised cut-outs in /public
@@ -116,7 +118,14 @@ const suppliedFacts = profile.slug === 'cheon365'
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
-const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit') ? `${c.ui.catalog_h} (PDF)` : profile.slug === 'ooznary' ? 'Micro Oil Blender 37 PDF' : undefined);
+/* Research profiles can publish documents without commercial terms. Their
+   already-localised program lines are the accurate, price-free summary. */
+const profileTerms = c.terms?.length ? c.terms : ((termsDoc || priceDoc || presDoc)
+  ? c.lines.map((line) => ({ label: line.name, value: line.note })) : []);
+const termsTitle = c.ui.terms_h || c.ui.export_h;
+const documentLabel = c.ui.download_btn || 'PDF';
+const presentationLabel = c.ui.pres_btn || 'PDF';
+const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget') ? `${c.ui.catalog_h} (PDF)` : profile.slug === 'ooznary' ? 'Micro Oil Blender 37 PDF' : undefined);
 /* A line gets its own indexable page when we have content for it; matched by the
    display name so both the "product lines" block and the catalog groups link to it.
    The lines block often uses a short brand name ("Acerola") where the catalog group
@@ -548,12 +557,12 @@ function monogram(name: string): string {
   </section>
 
   <!-- TERMS -->
-  {c.terms && c.terms.length > 0 && (
+  {profileTerms.length > 0 && (
     <section class="sp-sec sp-sec--tint">
       <div class="wrap sp-narrow">
-        <span class="sp-lvl">{c.ui.terms_h}</span>
+        <span class="sp-lvl">{termsTitle}</span>
         <dl class="sp-terms">
-          {c.terms.map((row) => (
+          {profileTerms.map((row) => (
             <div class="sp-terms__row">
               <dt>{row.label}</dt>
               <dd>{row.value}</dd>
@@ -564,7 +573,7 @@ function monogram(name: string): string {
           {termsDoc && (
             <a class="sp-terms__dl" href={termsDoc.href} hreflang={termsDoc.lang} download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-              {c.ui.download_btn}{termsDoc.note && <span class="sp-terms__doclang" lang={termsDoc.lang}> ({termsDoc.note})</span>}
+              {documentLabel}{termsDoc.note && <span class="sp-terms__doclang" lang={termsDoc.lang}> ({termsDoc.note})</span>}
             </a>
           )}
           {priceDoc && priceLabel && (
@@ -573,10 +582,10 @@ function monogram(name: string): string {
               {priceLabel}{priceDoc.note && <span class="sp-terms__doclang" lang={priceDoc.lang}> ({priceDoc.note})</span>}
             </a>
           )}
-          {presDoc && c.ui.pres_btn && (
+          {presDoc && (
             <a class="sp-terms__dl sp-terms__dl--alt" href={presDoc.href} hreflang={presDoc.lang} download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
-              {c.ui.pres_btn}{presDoc.note && <span class="sp-terms__doclang" lang={presDoc.lang}> ({presDoc.note})</span>}
+              {presentationLabel}{presDoc.note && <span class="sp-terms__doclang" lang={presDoc.lang}> ({presDoc.note})</span>}
             </a>
           )}
         </div>

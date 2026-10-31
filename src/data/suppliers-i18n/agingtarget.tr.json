@@ -1,0 +1,63 @@
+{
+  "content": {
+    "tagline": "Lisanslama için araştırma programları",
+    "descriptor": "Ateroskleroz ve Alzheimer hastalığı için küçük molekül adayları geliştiren Koreli şirket.",
+    "origin": "Kore",
+    "about": [
+      "AgingTarget Inc., küçük molekül ilaç adayları geliştiren Koreli bir şirkettir. Şirketin 5 Ekim 2026 tarihli beyanına göre, iki araştırma programı damar yaşlanması mekanizması üzerinden ateroskleroz ve Alzheimer hastalığına yöneliktir.",
+      "Şirket her iki adayı da klinik öncesi aşamadan önceki aşamada konumlandırıyor. Bu şirketin kendi beyanıdır, Teranova'nın değerlendirmesi değildir; profilde etkinlik iddiası veya onaylı ilaçlarla karşılaştırma bulunmamaktadır."
+    ],
+    "facts": [
+      "İki araştırma programı: ateroskleroz ve Alzheimer hastalığı",
+      "Küçük molekül adaylar",
+      "Şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi aşamadan önce",
+      "Şirkete göre klinik öncesi çalışmalar veya Faz 1 sonrasında dışa lisanslama (licensing-out)"
+    ],
+    "channels": [
+      "Lisans almak (licensing-in) isteyen ilaç şirketleri",
+      "Yatırımcılar",
+      "Ortak araştırma partnerleri",
+      "Teknoloji transferi ve pazara giriş partnerleri"
+    ],
+    "lines": [
+      {
+        "name": "Ateroskleroz",
+        "note": "Şirketin damar yaşlanması mekanizmasıyla ilişkilendirdiği küçük molekül araştırma adayı."
+      },
+      {
+        "name": "Alzheimer hastalığı",
+        "note": "Şirketin klinik öncesi aşamadan önce konumlandırdığı küçük molekül araştırma adayı."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Aşama ve bilgiler",
+        "note": "Aşama, programlar ve ortaklık modeli, şirketin 5 Ekim 2026 tarihli materyallerine dayanmaktadır. Teranova, adayların etkinliği hakkında herhangi bir iddiada bulunmaz."
+      }
+    ],
+    "formats": [
+      "Küçük molekül araştırma adayları"
+    ],
+    "exportNote": "Şirket yatırım, ortak araştırma, teknoloji transferi ve pazara giriş partnerleri aramaktadır. Koşullar, belirli bir talep için Teranova üzerinden görüşülür.",
+    "consentNote": "Şirket bu profil için yazılı onay vermiştir. Profil, şirketin sağladığı sınırlı materyalleri kullanır ve şirketin paylaşmadığı bilgileri içermez.",
+    "seoTitle": "AgingTarget — lisanslama için araştırma programları · Teranova",
+    "seoDesc": "AgingTarget Inc.: şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi aşamadan önce olan, ateroskleroz ve Alzheimer hastalığı için küçük molekül araştırma adayları."
+  },
+  "ui": {
+    "profile_sup": "Şirket profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Aranan:",
+    "lines_h": "Araştırma programları",
+    "catalog_h": "Programlar",
+    "tech_h": "Araştırma odağı",
+    "products_h": "Programlar",
+    "products_note": "Şirket tarafından tanımlanan araştırma adayları.",
+    "formats_h": "Program formatı",
+    "export_h": "Ortaklık",
+    "cta_h": "Bu şirketle mi ilgileniyorsunuz?",
+    "cta_d": "Olası bir ortaklığı görüşmek için Teranova ile iletişime geçin.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış şirketler"
+  }
+}
