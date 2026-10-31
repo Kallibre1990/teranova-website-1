@@ -39,6 +39,7 @@
       "소분자 연구 후보물질"
     ],
     "exportNote": "회사는 투자, 공동연구, 기술이전, 시장진출 파트너를 찾고 있습니다. 구체적인 문의에 대한 조건은 Teranova를 통해 논의됩니다.",
+    "company": {"history":"2026년 10월 5일자 회사 발표자료에는 경영 구조, 신약 합성팀 및 과학 자문단이 소개되어 있습니다. 축약 자료에는 그 이전의 회사 연혁이 공개되지 않았습니다.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, 바이오팀 책임자"},{"name":"Dr. Chung","role":"신약 합성팀 책임자"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"과학 자문; 알츠하이머병 및 종양학"},{"name":"Prof. Sang-Hyun Min","role":"과학 자문; 약물 개발 및 종양학"},{"name":"Prof. Jungho Kang","role":"과학 자문; 종양학 및 암 줄기세포"},{"name":"Prof. Seongsoun Lee","role":"과학 자문; 유기화학, 생화학 및 분자 모델링"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"이름과 역할은 2026년 10월 5일자 회사 발표자료에 기재된 내용입니다."},
     "consentNote": "회사는 본 프로필에 대해 서면으로 동의했습니다. 본 프로필은 회사가 제공한 축소된 자료를 사용하며, 회사가 공개하지 않기로 한 정보는 제외합니다.",
     "seoTitle": "AgingTarget — 라이선싱을 위한 연구 프로그램 · Teranova",
     "seoDesc": "AgingTarget Inc.: 회사에 따르면 2026년 10월 5일 기준 전임상 단계 이전인 동맥경화증과 알츠하이머병 치료를 위한 소분자 연구 후보물질."
@@ -58,6 +59,6 @@
     "cta_d": "잠재적 파트너십에 대해 논의하려면 Teranova에 문의하세요.",
     "cta_btn": "Teranova를 통해 문의",
     "more": "프로필 열기 →",
-    "verified_suppliers": "검증된 기업"
+    "verified_suppliers": "검증된 기업", "company_h":"팀 및 과학 자문단", "leadership_h":"경영진", "advisors_h":"과학 자문단", "contact_h":"공개 연락처"
   }
 }

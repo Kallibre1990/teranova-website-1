@@ -39,6 +39,7 @@
       "Küçük molekül araştırma adayları"
     ],
     "exportNote": "Şirket yatırım, ortak araştırma, teknoloji transferi ve pazara giriş partnerleri aramaktadır. Koşullar, belirli bir talep için Teranova üzerinden görüşülür.",
+    "company":{"history":"Şirketin 5 Ekim 2026 tarihli sunumu yönetim yapısını, yeni ilaç sentezi ekibini ve bilimsel danışmanları açıklar; kısaltılmış materyalde önceki şirket geçmişi yer almaz.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, biyoloji ekibi yöneticisi"},{"name":"Dr. Chung","role":"yeni ilaç sentezi ekibi yöneticisi"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"bilimsel danışman; Alzheimer ve onkoloji"},{"name":"Prof. Sang-Hyun Min","role":"bilimsel danışman; ilaç geliştirme ve onkoloji"},{"name":"Prof. Jungho Kang","role":"bilimsel danışman; onkoloji ve kanser kök hücreleri"},{"name":"Prof. Seongsoun Lee","role":"bilimsel danışman; organik kimya, biyokimya ve moleküler modelleme"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"İsimler ve görevler 5 Ekim 2026 tarihli şirket sunumunda yer almaktadır."},
     "consentNote": "Şirket bu profil için yazılı onay vermiştir. Profil, şirketin sağladığı sınırlı materyalleri kullanır ve şirketin paylaşmadığı bilgileri içermez.",
     "seoTitle": "AgingTarget — lisanslama için araştırma programları · Teranova",
     "seoDesc": "AgingTarget Inc.: şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi aşamadan önce olan, ateroskleroz ve Alzheimer hastalığı için küçük molekül araştırma adayları."
@@ -58,6 +59,6 @@
     "cta_d": "Olası bir ortaklığı görüşmek için Teranova ile iletişime geçin.",
     "cta_btn": "Teranova üzerinden iletişime geçin",
     "more": "Profili aç →",
-    "verified_suppliers": "Doğrulanmış şirketler"
+    "verified_suppliers": "Doğrulanmış şirketler", "company_h":"Ekip ve bilimsel danışmanlar", "leadership_h":"Yönetim", "advisors_h":"Bilimsel danışmanlar", "contact_h":"Açık iletişim"
   }
 }

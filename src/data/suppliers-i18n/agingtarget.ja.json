@@ -39,6 +39,7 @@
       "低分子研究候補"
     ],
     "exportNote": "会社は投資、共同研究、技術移転、市場参入のパートナーを求めています。条件は個別のお問い合わせごとにTeranovaを通じて協議されます。",
+    "company": {"history":"2026年10月5日付の会社資料には、経営体制、新薬合成チーム、科学顧問グループが記載されています。簡略版資料には、それ以前の沿革は記載されていません。","leadership":[{"name":"Dr. Kim","role":"CEO/CTO、バイオチーム責任者"},{"name":"Dr. Chung","role":"新薬合成チーム責任者"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"科学顧問；アルツハイマー病と腫瘍学"},{"name":"Prof. Sang-Hyun Min","role":"科学顧問；医薬品開発と腫瘍学"},{"name":"Prof. Jungho Kang","role":"科学顧問；腫瘍学とがん幹細胞"},{"name":"Prof. Seongsoun Lee","role":"科学顧問；有機化学、生化学、分子モデリング"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"氏名と役職は2026年10月5日付の会社資料に基づきます。"},
     "consentNote": "会社は本プロフィールについて書面で同意しました。本プロフィールは会社が提供した縮小版資料を使用し、会社が非公開とした情報は含みません。",
     "seoTitle": "AgingTarget — ライセンス供与のための研究プログラム · Teranova",
     "seoDesc": "AgingTarget Inc.：会社によると2026年10月5日時点で前臨床段階に入る前の、アテローム性動脈硬化症とアルツハイマー病を対象とした低分子研究候補。"
@@ -58,6 +59,6 @@
     "cta_d": "潜在的なパートナーシップについて相談するには、Teranovaにお問い合わせください。",
     "cta_btn": "Teranovaを通じて問い合わせる",
     "more": "プロフィールを開く →",
-    "verified_suppliers": "確認済み企業"
+    "verified_suppliers": "確認済み企業", "company_h":"チームと科学顧問", "leadership_h":"経営陣", "advisors_h":"科学顧問", "contact_h":"公開連絡先"
   }
 }
