@@ -839,6 +839,21 @@ function monogram(name: string): string {
   .sp-sec--tint { background: var(--ds-bg); border-block: 1px solid color-mix(in srgb, var(--ds-sky) 16%, #e2e8f0); }
   .sp-narrow { max-width: 760px; }
   .sp-lvl { display: block; font-size: 0.74rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ds-sky); margin-bottom: 16px; }
+  /* These six supplied profiles use deliberately pale sky tones. On white they
+     do not meet AA for the small section label or article link, so those two
+     reading cues use the established deep brand ink instead. */
+  .sp[data-supplier='acfit'] .sp-lvl,
+  .sp[data-supplier='koy'] .sp-lvl,
+  .sp[data-supplier='ooznary'] .sp-lvl,
+  .sp[data-supplier='cheon365'] .sp-lvl,
+  .sp[data-supplier='agingtarget'] .sp-lvl,
+  .sp[data-supplier='plk-lift'] .sp-lvl,
+  .sp[data-supplier='acfit'] .sp-article__more,
+  .sp[data-supplier='koy'] .sp-article__more,
+  .sp[data-supplier='ooznary'] .sp-article__more,
+  .sp[data-supplier='cheon365'] .sp-article__more,
+  .sp[data-supplier='agingtarget'] .sp-article__more,
+  .sp[data-supplier='plk-lift'] .sp-article__more { color: var(--ds-deep); }
   .sp-body { font-size: 1.02rem; line-height: 1.75; color: #364357; }
   .sp-body + .sp-body { margin-top: 14px; }
 
