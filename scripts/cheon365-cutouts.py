@@ -18,10 +18,9 @@ import argparse
 import shutil
 import subprocess
 import tempfile
-from collections import deque
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageFilter
+from PIL import Image
 
 
 # ``pdfimages`` preserves this order. Each tuple contains the embedded-image
@@ -36,37 +35,23 @@ PRODUCTS = {
     "classic-golf-sun-stick.jpg": (5, [(200, 285, 430, 650), (450, 235, 660, 650)]),
     "courage-lip-balm.jpg": (6, [(205, 245, 345, 700), (350, 280, 490, 700)]),
     "courage-lip-balm-case.jpg": (7, [(75, 145, 640, 760)]),
-    "claymore-hand-cream.jpg": (8, [(205, 255, 420, 710), (430, 255, 650, 710)]),
+    "claymore-hand-cream.jpg": (8, [(130, 190, 575, 720)]),
     "be-brave-bb-essence.jpg": (10, [(160, 155, 415, 720), (420, 150, 655, 720)]),
 }
-
-BACKGROUND = (248, 247, 244, 255)
-
 
 def render(raw: Path, rectangles: list[tuple[int, int, int, int]], target: Path) -> None:
     """Compose only the photographed pack areas; the slide body never survives."""
     source = Image.open(raw).convert("RGBA")
-    pieces = [source.crop(rect) for rect in rectangles]
-    # The presentation has a common 1600×901 artboard, so preserve each crop’s
-    # relative placement rather than turning a boxed set into a vertical stack.
+    # A single union crop avoids stitched rectangles. The official presentation
+    # uses this same navy across the pack-shot field, which is a permitted
+    # product background and keeps every image free of slide tables and text.
     left = min(rect[0] for rect in rectangles)
     top = min(rect[1] for rect in rectangles)
     right = max(rect[2] for rect in rectangles)
     bottom = max(rect[3] for rect in rectangles)
-    product = Image.new("RGBA", (right - left, bottom - top), (0, 0, 0, 0))
-    for piece, rect in zip(pieces, rectangles):
-        product.alpha_composite(piece, (rect[0] - left, rect[1] - top))
-    canvas = Image.new("RGBA", (1200, 900), BACKGROUND)
-    product.thumbnail((760, 700), Image.Resampling.LANCZOS)
-    # A faint grounded shadow keeps dark packs from looking pasted on.
-    shadow = Image.new("RGBA", product.size, (41, 44, 50, 0))
-    shadow.putalpha(product.getchannel("A").filter(ImageFilter.GaussianBlur(12)).point(lambda a: a // 5))
-    x = (canvas.width - product.width) // 2
-    y = (canvas.height - product.height) // 2 - 8
-    canvas.alpha_composite(shadow, (x + 5, y + 14))
-    canvas.alpha_composite(product, (x, y))
+    product = source.crop((left, top, right, bottom))
     target.parent.mkdir(parents=True, exist_ok=True)
-    canvas.convert("RGB").save(target, "JPEG", quality=91, optimize=True, progressive=True)
+    product.convert("RGB").save(target, "JPEG", quality=91, optimize=True, progressive=True)
 
 
 def main() -> None:
