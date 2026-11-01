@@ -3133,6 +3133,15 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/plk-lift/catalog/suction-cups.jpg',
       '/img/suppliers/plk-lift/catalog/suction-cups-mobile.jpg',
     ],
+    /* The five editorial lines combine catalog groups under customer-facing
+       names, so map each one to an already verified product crop explicitly. */
+    lineShots: {
+      'Паучьи краны': '/img/suppliers/plk-lift/catalog/crawler-crane.jpg',
+      'Коленчатые и телескопические подъёмники': '/img/suppliers/plk-lift/catalog/hero.jpg',
+      'Ножничные платформы': '/img/suppliers/plk-lift/catalog/scissor-lift.jpg',
+      'Вакуумные захваты': '/img/suppliers/plk-lift/catalog/vacuum-lifter.jpg',
+      'Другое подъёмное и погрузочное оборудование': '/img/suppliers/plk-lift/catalog/lift-table.jpg',
+    },
     catalog: plkLiftCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; certs?: string[]; actives?: string[] }[] }[],
     certs: ['CE PD/0553/2024 (EN 1570-2)', 'ISO 9001:2015 No. 99225Q00497R0S (equipment sales)'],
     /* All three documents are price-free: terms, catalog and presentation. */
