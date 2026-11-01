@@ -1,7 +1,7 @@
 ---
 /* AgingTarget — company profile based on the approved 05.10.2026 evidence package.
-   English root, /ru/ Russian — same exception as the home page and
-   /catalog/medical (T-20261016-054). */
+   The root is Russian, like other supplier profiles; English has its explicit
+   /en/ route. */
 import Base from '../../layouts/Base.astro';
 import SupplierProfile from '../../components/pages/SupplierProfile.astro';
 import { supplierBySlug, supplierContent } from '../../data/suppliers';
@@ -9,7 +9,7 @@ import { supplierJsonLd } from '../../data/jsonld';
 import { isHiddenSupplier } from '../../data/site';
 import { localizePath } from '../../i18n/utils';
 
-const lang = 'en' as const;
+const lang = 'ru' as const;
 const profile = supplierBySlug('agingtarget')!;
 if (isHiddenSupplier(profile.slug)) return Astro.redirect(localizePath('/catalog', lang), 301);
 const c = supplierContent(profile, lang);

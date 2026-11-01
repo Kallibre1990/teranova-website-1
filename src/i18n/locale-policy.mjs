@@ -29,7 +29,7 @@ export const homeDefaultLocale = 'en';
  * fix for T-20261016-054 (medical catalog group was serving Russian at its
  * English-looking root with no /ru/ alternate). Keep this list short — it is
  * an exception to sectionDefaultLocale, not a second convention. */
-export const rootEnglishPaths = ['/catalog/medical', '/catalog/agingtarget'];
+export const rootEnglishPaths = ['/catalog/medical'];
 
 function cleanPath(path) {
   return '/' + path.replace(/^\/+|\/+$/g, '');
