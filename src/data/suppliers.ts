@@ -1238,6 +1238,8 @@ const agingTargetUi: SupplierUI = {
   products_h: 'Programs', products_note: 'Research candidates described by the company.',
   formats_h: 'Program format', export_h: 'Partnership', cta_h: 'Interested in this company?',
   cta_d: 'Contact Teranova to discuss a potential partnership.', cta_btn: 'Contact via Teranova',
+  terms_h: 'Documents', download_btn: 'Research program summary (PDF)',
+  price_btn: 'Program overview (PDF)', pres_btn: 'Company presentation (PDF)',
   more: 'Open profile →', verified_suppliers: 'Verified companies',
 };
 
@@ -1273,7 +1275,7 @@ const agingTargetRu: SupplierContent = {
   consentNote: 'Компания дала письменное согласие на профиль. Профиль собран по сокращённым материалам компании и не содержит исключённые компанией сведения.',
   seoTitle: 'AgingTarget — исследовательские программы для лицензирования · Teranova',
   seoDesc: 'AgingTarget Inc.: низкомолекулярные исследовательские кандидаты для атеросклероза и болезни Альцгеймера, перед доклиникой по данным компании на 05.10.2026.',
-  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', company_h: 'Команда и научные консультанты', leadership_h: 'Руководство', advisors_h: 'Научные консультанты', contact_h: 'Публичный контакт', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
+  ui: { ...agingTargetUi, profile_sup: 'Профиль компании', about_h: 'О компании', for_whom: 'Ищет партнёров:', lines_h: 'Исследовательские программы', catalog_h: 'Программы', tech_h: 'Фокус исследований', products_h: 'Программы', products_note: 'Исследовательские кандидаты по описанию компании.', formats_h: 'Формат программ', export_h: 'Партнёрство', terms_h: 'Документы', download_btn: 'Сводка исследовательских программ (PDF)', price_btn: 'Обзор программ (PDF)', pres_btn: 'Презентация компании (PDF)', company_h: 'Команда и научные консультанты', leadership_h: 'Руководство', advisors_h: 'Научные консультанты', contact_h: 'Публичный контакт', cta_h: 'Интересна эта компания?', cta_d: 'Свяжитесь с Teranova, чтобы обсудить возможное партнёрство.', cta_btn: 'Связаться через Teranova', more: 'Открыть профиль →', verified_suppliers: 'Проверенные компании' },
 };
 
 const agingTargetEn: SupplierContent = {

@@ -13,6 +13,7 @@ import blogData from './blog.json';
 import { cheon365Posts } from './blog-cheon365';
 import { koyPosts } from './blog-koy';
 import { plkLiftPosts } from './blog-plk-lift';
+import { agingTargetPosts } from './blog-agingtarget';
 
 export interface BlogSection {
   /** Optional section heading. */
@@ -60,7 +61,7 @@ export interface BlogPost {
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 
-export const posts: BlogPost[] = [...(blogData as BlogPost[]), ...cheon365Posts, ...koyPosts, ...plkLiftPosts];
+export const posts: BlogPost[] = [...(blogData as BlogPost[]), ...cheon365Posts, ...koyPosts, ...plkLiftPosts, ...agingTargetPosts];
 export const postBySlug = (slug: string): BlogPost | undefined => posts.find((p) => p.slug === slug);
 export const postContent = (p: BlogPost, lang: Lang): BlogPostContent => localizedContent(p.i18n, lang, `blog/${p.slug}`);
 /** Newest first, for the index listing. */

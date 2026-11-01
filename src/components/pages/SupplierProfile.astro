@@ -141,6 +141,10 @@ const termsTitle = c.ui.terms_h || c.ui.export_h;
 const documentLabel = c.ui.download_btn || 'PDF';
 const presentationLabel = c.ui.pres_btn || 'PDF';
 const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary') ? `${c.ui.catalog_h} (PDF)` : undefined);
+/* AgingTarget's documents are the useful evidence here. Keep the closing
+   invitation quiet and free of a decorative slide, whose text would compete
+   with the action on small screens. */
+const ctaHasBackground = Boolean(m && profile.slug !== 'agingtarget');
 /* A line gets its own indexable page when we have content for it; matched by the
    display name so both the "product lines" block and the catalog groups link to it.
    The lines block often uses a short brand name ("Acerola") where the catalog group
@@ -687,8 +691,8 @@ function monogram(name: string): string {
   <!-- CTA -->
   <section class="sp-cta">
     <div class="wrap">
-      <div class="sp-cta__card">
-        {m && <Image class="sp-cta__bg" src={m.drops} alt="" widths={[900, 1400]} sizes="100vw" format="webp" loading="lazy" decoding="async" />}
+      <div class:list={['sp-cta__card', !ctaHasBackground && 'sp-cta__card--plain']}>
+        {ctaHasBackground && <Image class="sp-cta__bg" src={m!.drops} alt="" widths={[900, 1400]} sizes="100vw" format="webp" loading="lazy" decoding="async" />}
         <h2 class="sp-cta__h">{c.ui.cta_h}</h2>
         <p class="sp-cta__d">{c.ui.cta_d}</p>
         <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{c.ui.cta_btn}</a>
@@ -1029,6 +1033,9 @@ function monogram(name: string): string {
     box-shadow: 0 26px 60px color-mix(in srgb, var(--ds-deep) 34%, transparent);
   }
   .sp-cta__card::after { content: ''; position: absolute; inset: 0; background: radial-gradient(80% 120% at 88% -20%, color-mix(in srgb, var(--ds-accent) 42%, transparent), transparent 60%); pointer-events: none; z-index: 1; }
+  .sp-cta__card--plain { color: var(--ds-deep); background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); box-shadow: none; }
+  .sp-cta__card--plain::after { display: none; }
+  .sp-cta__card--plain .sp-cta__d { color: #45576f; }
   .sp-cta__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.24; z-index: 0; }
   .sp-cta__h { position: relative; z-index: 2; font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 800; letter-spacing: -0.02em; }
   .sp-cta__d { position: relative; z-index: 2; font-size: 1.02rem; line-height: 1.65; color: rgba(255, 255, 255, 0.9); max-width: 54ch; margin: 12px auto 24px; }
