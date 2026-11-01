@@ -140,7 +140,7 @@ const profileTerms = c.terms?.length ? c.terms : ((termsDoc || priceDoc || presD
 const termsTitle = c.ui.terms_h || c.ui.export_h;
 const documentLabel = c.ui.download_btn || 'PDF';
 const presentationLabel = c.ui.pres_btn || 'PDF';
-const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary') ? `${c.ui.catalog_h} (PDF)` : undefined);
+const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary' || profile.slug === 'plk-lift') ? `${c.ui.catalog_h} (PDF)` : undefined);
 /* AgingTarget's documents are the useful evidence here. Keep the closing
    invitation quiet and free of a decorative slide, whose text would compete
    with the action on small screens. */
@@ -404,7 +404,7 @@ function monogram(name: string): string {
   <section class="sp-sec">
     <div class="wrap sp-narrow">
       <span class="sp-lvl">{c.ui.about_h}</span>
-      {c.about.map((p) => <p class="sp-body">{p}</p>)}
+      {c.about.filter(Boolean).map((p) => <p class="sp-body">{p}</p>)}
       <ul class="sp-facts">{[...c.facts, ...suppliedFacts].map((f) => <li>{f}</li>)}</ul>
       {c.channels?.length > 0 && (
         <div class="sp-channels">

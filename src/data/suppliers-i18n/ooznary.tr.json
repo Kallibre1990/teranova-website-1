@@ -52,7 +52,7 @@
       "Tonik, mist, serum, krem, güneş koruma, kağıt maske",
       "Hacimler ve setler talep üzerine"
     ],
-    "exportNote": "Japonya, Vietnam ve Çin’e tedarik Teranova üzerinden sunulmaz. BDT ülkeleri için kısıtlamalar vardır: tedarik her talepte şirketle ayrıca görüşülür. Formül, etiketleme, sertifikalar ve tescil, anlaşmadan önce ilgili pazar ve proje için teyit edilir. Fiyatlar, minimum sipariş ve gizli ticari koşullar yayımlanmaz.",
+    "exportNote": "Japonya, Vietnam ve Çin’e tedarik Teranova üzerinden sunulmaz. BDT ülkeleri için kısıtlamalar vardır: tedarik her talepte şirketle ayrıca görüşülür. Formül, etiketleme, sertifikalar ve tescil, anlaşmadan önce ilgili pazar ve proje için teyit edilir. Ticari koşullar ayrı olarak görüşülür.",
     "terms": [
       {
         "label": "İş birliği",
@@ -63,8 +63,8 @@
         "value": "Japonya, Vietnam ve Çin hariç; BDT yalnızca şirketin onayıyla."
       },
       {
-        "label": "Fiyat ve minimum sipariş",
-        "value": "Talep üzerine; yayımlanmaz."
+        "label": "Ticari koşullar",
+        "value": "Ayrı olarak görüşülür."
       }
     ],
     "consentNote": "DOTS CORPORATION, 14 Ekim 2026’da Teranova’ya, şirket profili ve Ooznary ürün sayfaları için Ooznary’nin resmi web sitesindeki bilgileri ve şirketin sağladığı ya da onayladığı materyalleri Teranova web sitesinde kullanma, çevirme ve yayımlama konusunda yazılı izin verdi. İzin münhasır değildir: marka haklarını devretmez ve Teranova’ya münhasır satış veya dağıtım hakkı vermez.",

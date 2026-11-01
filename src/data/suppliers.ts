@@ -3253,6 +3253,12 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/cheon365/products/be-brave-bb-essence.jpg',
     ],
     catalog: cheon365Catalog,
+    // Короткие имена BB/HA нельзя надёжно сопоставить с названием товара
+    // автоматически. SupplierProfile берёт ключи по русскому эталону линий.
+    lineShots: {
+      'BB-эссенция BeBrave': '/img/suppliers/cheon365/products/be-brave-bb-essence.jpg',
+      'Уход за руками и губами': '/img/suppliers/cheon365/products/claymore-hand-cream.jpg',
+    },
     /* Антон разрешил собрать и опубликовать профиль по переданным материалам.
        Розничные цены из буклета и Confidential-презентация не публикуются:
        ссылки ведут только на производные PDF без цен. */
