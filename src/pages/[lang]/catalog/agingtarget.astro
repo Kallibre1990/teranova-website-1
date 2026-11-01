@@ -12,7 +12,6 @@ import { languages, type Lang } from '../../../i18n/ui';
 
 export function getStaticPaths() {
   return (Object.keys(languages) as Lang[])
-    .filter((lang) => lang !== 'en')
     .map((lang) => ({ params: { lang }, props: { lang } }));
 }
 
