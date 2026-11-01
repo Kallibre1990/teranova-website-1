@@ -1,0 +1,21 @@
+#!/bin/sh
+# Push в main сайта только после check-new-locales --public-only и npm run build.
+# Включение: git config core.hooksPath .githooks. Подробности — scripts/release-main.mjs.
+# scripts/release-main.mjs сам проверяет до push и передаёт TERANOVA_RELEASE_GATE_PASSED,
+# чтобы хук не собирал тот же коммит второй раз.
+set -eu
+zero=0000000000000000000000000000000000000000
+status=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$remote_ref" = "refs/heads/main" ] || continue
+  [ "$local_sha" != "$zero" ] || continue
+  if [ "${TERANOVA_RELEASE_GATE_PASSED:-}" = "$local_sha" ]; then
+    continue
+  fi
+  echo "pre-push: проверка ${local_sha} перед main" >&2
+  if ! node scripts/release-main.mjs --checks-only --sha "$local_sha" </dev/null >&2; then
+    echo "pre-push: проверка не пройдена — push в main отменён" >&2
+    status=1
+  fi
+done
+exit "$status"
