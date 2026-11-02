@@ -4,14 +4,14 @@
     "descriptor": "Empresa coreana que desenvolve candidatos de pequena molécula para aterosclerose e doença de Alzheimer.",
     "origin": "Coreia",
     "about": [
-      "A AgingTarget Inc. é uma empresa coreana que desenvolve candidatos farmacêuticos de pequena molécula. Segundo a empresa, em 5 de outubro de 2026, seus dois programas de pesquisa abordam a aterosclerose, por meio do mecanismo de envelhecimento vascular, e a doença de Alzheimer.",
-      "A empresa situa ambos os candidatos antes da fase pré-clínica. Trata-se de uma declaração da empresa, não uma avaliação da Teranova; o perfil não contém alegações de eficácia nem comparações com medicamentos aprovados."
+      "A AgingTarget Inc. é uma empresa coreana que desenvolve candidatos farmacêuticos de pequena molécula. Segundo a empresa, em 5 de outubro de 2026, os seus dois programas de I&D abordam o «Desenvolvimento de novos fármacos antiateroscleróticos direcionados à senescência vascular» e o «Desenvolvimento de fármacos antialzheimer multidirecionados».",
+      "Ambos os candidatos encontram-se atualmente nas fases iniciais dos ensaios pré-clínicos. Trata-se de uma declaração da empresa, não uma avaliação da Teranova; o perfil não contém alegações de eficácia nem comparações com medicamentos aprovados."
     ],
     "facts": [
-      "Dois programas de pesquisa: aterosclerose e doença de Alzheimer",
+      "Dois programas de I&D: aterosclerose e doença de Alzheimer",
       "Candidatos de pequena molécula",
-      "Antes da fase pré-clínica, segundo a empresa em 5 de outubro de 2026",
-      "Licensing-out após o trabalho pré-clínico ou a Fase 1, segundo a empresa"
+      "Ensaio pré-clínico, segundo a empresa em 5 de outubro de 2026",
+      "Licensing-out após o ensaio pré-clínico ou a Fase 1 clínica, segundo a empresa"
     ],
     "channels": [
       "Empresas farmacêuticas para licensing-in",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Doença de Alzheimer",
-        "note": "Candidato de pesquisa de pequena molécula que a empresa situa antes da fase pré-clínica."
+        "note": "Candidato de pesquisa de pequena molécula que a empresa situa nas fases iniciais dos ensaios pré-clínicos."
       }
     ],
     "tech": [
@@ -39,10 +39,43 @@
       "Candidatos de pesquisa de pequena molécula"
     ],
     "exportNote": "A empresa busca investimento, pesquisa colaborativa, transferência de tecnologia e parceiros de entrada no mercado. As condições são discutidas através da Teranova para cada consulta específica.",
-    "company":{"history":"A apresentação da empresa de 5 de outubro de 2026 descreve a direção, a equipa de síntese de novos fármacos e os consultores científicos; o material reduzido não traz histórico anterior.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, responsável pela equipa bio"},{"name":"Dr. Chung","role":"responsável pela equipa de síntese de novos fármacos"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"consultor científico; Alzheimer e oncologia"},{"name":"Prof. Sang-Hyun Min","role":"consultor científico; desenvolvimento de fármacos e oncologia"},{"name":"Prof. Jungho Kang","role":"consultor científico; oncologia e células estaminais do cancro"},{"name":"Prof. Seongsoun Lee","role":"consultor científico; química orgânica, bioquímica e modelação molecular"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"Nomes e funções constam na apresentação da empresa de 5 de outubro de 2026."},
+    "company": {
+      "history": "A apresentação da empresa de 5 de outubro de 2026 descreve a direção, a equipa de síntese de novos fármacos e os consultores científicos; o material reduzido não traz histórico anterior.",
+      "leadership": [
+        {
+          "name": "Dr. Kim",
+          "role": "CEO/CTO, responsável pela equipa bio"
+        },
+        {
+          "name": "Dr. Cheong",
+          "role": "responsável pela equipa de síntese de novos fármacos"
+        }
+      ],
+      "advisors": [
+        {
+          "name": "Prof. Tae Ho Lee",
+          "role": "consultor científico; Alzheimer"
+        },
+        {
+          "name": "Prof. Sang-Hyun Min",
+          "role": "consultor científico; design e desenvolvimento de fármacos"
+        },
+        {
+          "name": "Prof. Jungho Kim",
+          "role": "consultor científico; agentes radiossensibilizantes"
+        },
+        {
+          "name": "Prof. Seongsoon Park",
+          "role": "consultor científico; síntese orgânica e modelação molecular"
+        }
+      ],
+      "contactLabel": "office@agingtarget.com",
+      "contactEmail": "office@agingtarget.com",
+      "sourceNote": "Nomes e funções constam na apresentação da empresa de 5 de outubro de 2026."
+    },
     "consentNote": "A empresa deu consentimento por escrito para este perfil. O perfil utiliza os materiais reduzidos fornecidos pela empresa e exclui informações que a empresa reservou.",
     "seoTitle": "AgingTarget — programas de pesquisa para licenciamento · Teranova",
-    "seoDesc": "AgingTarget Inc.: candidatos de pesquisa de pequena molécula para aterosclerose e doença de Alzheimer, antes da fase pré-clínica segundo a empresa em 5 de outubro de 2026."
+    "seoDesc": "AgingTarget Inc.: candidatos de pesquisa de pequena molécula para aterosclerose e doença de Alzheimer, nas fases iniciais dos ensaios pré-clínicos segundo a empresa em 5 de outubro de 2026."
   },
   "ui": {
     "profile_sup": "Perfil da empresa",
@@ -59,6 +92,13 @@
     "cta_d": "Fale com a Teranova para discutir uma possível parceria.",
     "cta_btn": "Falar através da Teranova",
     "more": "Abrir perfil →",
-    "verified_suppliers": "Empresas verificadas", "company_h":"Equipa e consultores científicos", "leadership_h":"Direção", "advisors_h":"Consultores científicos", "contact_h":"Contacto público", "download_btn":"Resumo dos programas de investigação (PDF)", "price_btn":"Visão geral dos programas (PDF)", "pres_btn":"Apresentação da empresa (PDF)"
+    "verified_suppliers": "Empresas verificadas",
+    "company_h": "Equipa e consultores científicos",
+    "leadership_h": "Direção",
+    "advisors_h": "Consultores científicos",
+    "contact_h": "Contacto público",
+    "download_btn": "Resumo dos programas de investigação (PDF)",
+    "price_btn": "Visão geral dos programas (PDF)",
+    "pres_btn": "Apresentação da empresa (PDF)"
   }
 }

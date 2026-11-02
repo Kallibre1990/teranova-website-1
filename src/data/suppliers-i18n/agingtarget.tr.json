@@ -4,14 +4,14 @@
     "descriptor": "Ateroskleroz ve Alzheimer hastalığı için küçük molekül adayları geliştiren Koreli şirket.",
     "origin": "Kore",
     "about": [
-      "AgingTarget Inc., küçük molekül ilaç adayları geliştiren Koreli bir şirkettir. Şirketin 5 Ekim 2026 tarihli beyanına göre, iki araştırma programı damar yaşlanması mekanizması üzerinden ateroskleroz ve Alzheimer hastalığına yöneliktir.",
-      "Şirket her iki adayı da klinik öncesi aşamadan önceki aşamada konumlandırıyor. Bu şirketin kendi beyanıdır, Teranova'nın değerlendirmesi değildir; profilde etkinlik iddiası veya onaylı ilaçlarla karşılaştırma bulunmamaktadır."
+      "AgingTarget Inc., küçük molekül ilaç adayları geliştiren Koreli bir şirkettir. Şirketin 5 Ekim 2026 tarihli beyanına göre, iki Ar-Ge programı \"Damar yaşlanmasını hedefleyen yeni anti-aterosklerotik ilaçların geliştirilmesi\" ve \"Çok hedefli anti-Alzheimer ilaçlarının geliştirilmesi\" konularını ele almaktadır.",
+      "Her iki ilaç adayı da şu anda klinik öncesi çalışmaların erken aşamasındadır. Bu şirketin kendi beyanıdır, Teranova'nın değerlendirmesi değildir; profilde etkinlik iddiası veya onaylı ilaçlarla karşılaştırma bulunmamaktadır."
     ],
     "facts": [
-      "İki araştırma programı: ateroskleroz ve Alzheimer hastalığı",
+      "İki Ar-Ge programı: ateroskleroz ve Alzheimer hastalığı",
       "Küçük molekül adaylar",
-      "Şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi aşamadan önce",
-      "Şirkete göre klinik öncesi çalışmalar veya Faz 1 sonrasında dışa lisanslama (licensing-out)"
+      "Şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi çalışma aşamasında",
+      "Şirkete göre klinik öncesi çalışma veya Faz 1 klinik çalışma sonrasında dışa lisanslama (licensing-out)"
     ],
     "channels": [
       "Lisans almak (licensing-in) isteyen ilaç şirketleri",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Alzheimer hastalığı",
-        "note": "Şirketin klinik öncesi aşamadan önce konumlandırdığı küçük molekül araştırma adayı."
+        "note": "Şirketin klinik öncesi çalışmaların erken aşamasında konumlandırdığı küçük molekül araştırma adayı."
       }
     ],
     "tech": [
@@ -39,10 +39,43 @@
       "Küçük molekül araştırma adayları"
     ],
     "exportNote": "Şirket yatırım, ortak araştırma, teknoloji transferi ve pazara giriş partnerleri aramaktadır. Koşullar, belirli bir talep için Teranova üzerinden görüşülür.",
-    "company":{"history":"Şirketin 5 Ekim 2026 tarihli sunumu yönetim yapısını, yeni ilaç sentezi ekibini ve bilimsel danışmanları açıklar; kısaltılmış materyalde önceki şirket geçmişi yer almaz.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, biyoloji ekibi yöneticisi"},{"name":"Dr. Chung","role":"yeni ilaç sentezi ekibi yöneticisi"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"bilimsel danışman; Alzheimer ve onkoloji"},{"name":"Prof. Sang-Hyun Min","role":"bilimsel danışman; ilaç geliştirme ve onkoloji"},{"name":"Prof. Jungho Kang","role":"bilimsel danışman; onkoloji ve kanser kök hücreleri"},{"name":"Prof. Seongsoun Lee","role":"bilimsel danışman; organik kimya, biyokimya ve moleküler modelleme"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"İsimler ve görevler 5 Ekim 2026 tarihli şirket sunumunda yer almaktadır."},
+    "company": {
+      "history": "Şirketin 5 Ekim 2026 tarihli sunumu yönetim yapısını, yeni ilaç sentezi ekibini ve bilimsel danışmanları açıklar; kısaltılmış materyalde önceki şirket geçmişi yer almaz.",
+      "leadership": [
+        {
+          "name": "Dr. Kim",
+          "role": "CEO/CTO, biyoloji ekibi yöneticisi"
+        },
+        {
+          "name": "Dr. Cheong",
+          "role": "yeni ilaç sentezi ekibi yöneticisi"
+        }
+      ],
+      "advisors": [
+        {
+          "name": "Prof. Tae Ho Lee",
+          "role": "bilimsel danışman; Alzheimer"
+        },
+        {
+          "name": "Prof. Sang-Hyun Min",
+          "role": "bilimsel danışman; ilaç tasarımı ve geliştirme"
+        },
+        {
+          "name": "Prof. Jungho Kim",
+          "role": "bilimsel danışman; radyosensitize edici ajanlar"
+        },
+        {
+          "name": "Prof. Seongsoon Park",
+          "role": "bilimsel danışman; organik sentez ve moleküler modelleme"
+        }
+      ],
+      "contactLabel": "office@agingtarget.com",
+      "contactEmail": "office@agingtarget.com",
+      "sourceNote": "İsimler ve görevler 5 Ekim 2026 tarihli şirket sunumunda yer almaktadır."
+    },
     "consentNote": "Şirket bu profil için yazılı onay vermiştir. Profil, şirketin sağladığı sınırlı materyalleri kullanır ve şirketin paylaşmadığı bilgileri içermez.",
     "seoTitle": "AgingTarget — lisanslama için araştırma programları · Teranova",
-    "seoDesc": "AgingTarget Inc.: şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi aşamadan önce olan, ateroskleroz ve Alzheimer hastalığı için küçük molekül araştırma adayları."
+    "seoDesc": "AgingTarget Inc.: şirketin 5 Ekim 2026 tarihli beyanına göre klinik öncesi çalışmaların erken aşamasında olan, ateroskleroz ve Alzheimer hastalığı için küçük molekül araştırma adayları."
   },
   "ui": {
     "profile_sup": "Şirket profili",
@@ -59,6 +92,13 @@
     "cta_d": "Olası bir ortaklığı görüşmek için Teranova ile iletişime geçin.",
     "cta_btn": "Teranova üzerinden iletişime geçin",
     "more": "Profili aç →",
-    "verified_suppliers": "Doğrulanmış şirketler", "company_h":"Ekip ve bilimsel danışmanlar", "leadership_h":"Yönetim", "advisors_h":"Bilimsel danışmanlar", "contact_h":"Açık iletişim", "download_btn":"Araştırma programları özeti (PDF)", "price_btn":"Programlara genel bakış (PDF)", "pres_btn":"Şirket sunumu (PDF)"
+    "verified_suppliers": "Doğrulanmış şirketler",
+    "company_h": "Ekip ve bilimsel danışmanlar",
+    "leadership_h": "Yönetim",
+    "advisors_h": "Bilimsel danışmanlar",
+    "contact_h": "Açık iletişim",
+    "download_btn": "Araştırma programları özeti (PDF)",
+    "price_btn": "Programlara genel bakış (PDF)",
+    "pres_btn": "Şirket sunumu (PDF)"
   }
 }

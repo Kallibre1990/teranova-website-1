@@ -4,14 +4,14 @@
     "descriptor": "Entreprise coréenne qui développe des candidats à petites molécules contre l'athérosclérose et la maladie d'Alzheimer.",
     "origin": "Corée",
     "about": [
-      "AgingTarget Inc. est une entreprise coréenne qui développe des candidats médicaments à petites molécules. Selon l'entreprise, au 5 octobre 2026, ses deux programmes de recherche portent sur l'athérosclérose, via le mécanisme du vieillissement vasculaire, et la maladie d'Alzheimer.",
-      "L'entreprise situe les deux candidats avant le stade préclinique. Il s'agit d'une déclaration de l'entreprise, pas d'une évaluation de Teranova ; le profil ne contient aucune allégation d'efficacité ni comparaison avec des médicaments approuvés."
+      "AgingTarget Inc. est une entreprise coréenne qui développe des candidats médicaments à petites molécules. Selon l'entreprise, au 5 octobre 2026, ses deux programmes de R&D portent sur le « Développement de nouveaux médicaments anti-athérosclérotiques ciblant la sénescence vasculaire » et le « Développement d'un médicament anti-Alzheimer à cibles multiples ».",
+      "Ces deux candidats médicaments se trouvent actuellement aux premiers stades des essais précliniques. Il s'agit d'une déclaration de l'entreprise, pas d'une évaluation de Teranova ; le profil ne contient aucune allégation d'efficacité ni comparaison avec des médicaments approuvés."
     ],
     "facts": [
-      "Deux programmes de recherche : athérosclérose et maladie d'Alzheimer",
+      "Deux programmes de R&D : athérosclérose et maladie d'Alzheimer",
       "Candidats à petites molécules",
-      "Avant le stade préclinique, selon l'entreprise au 5 octobre 2026",
-      "Licensing-out après les travaux précliniques ou la Phase 1, selon l'entreprise"
+      "Essai préclinique, selon l'entreprise au 5 octobre 2026",
+      "Licensing-out après l'essai préclinique ou la Phase 1 clinique, selon l'entreprise"
     ],
     "channels": [
       "Entreprises pharmaceutiques pour le licensing-in",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Maladie d'Alzheimer",
-        "note": "Candidat de recherche à petite molécule que l'entreprise situe avant le stade préclinique."
+        "note": "Candidat de recherche à petite molécule que l'entreprise situe aux premiers stades des essais précliniques."
       }
     ],
     "tech": [
@@ -39,10 +39,43 @@
       "Candidats de recherche à petites molécules"
     ],
     "exportNote": "L'entreprise recherche des investissements, une recherche collaborative, un transfert de technologie et des partenaires pour l'accès au marché. Les conditions sont discutées via Teranova pour chaque demande spécifique.",
-    "company":{"history":"La présentation de l’entreprise du 5 octobre 2026 décrit la direction, l’équipe de synthèse de nouveaux médicaments et les conseillers scientifiques ; les documents réduits ne donnent pas d’historique antérieur.","leadership":[{"name":"Dr. Kim","role":"CEO/CTO, responsable de l’équipe bio"},{"name":"Dr. Chung","role":"responsable de l’équipe de synthèse de nouveaux médicaments"}],"advisors":[{"name":"Prof. Tae Ho Lee","role":"conseiller scientifique ; Alzheimer et oncologie"},{"name":"Prof. Sang-Hyun Min","role":"conseiller scientifique ; développement de médicaments et oncologie"},{"name":"Prof. Jungho Kang","role":"conseiller scientifique ; oncologie et cellules souches cancéreuses"},{"name":"Prof. Seongsoun Lee","role":"conseiller scientifique ; chimie organique, biochimie et modélisation moléculaire"}],"contactLabel":"office@agingtarget.com","contactEmail":"office@agingtarget.com","sourceNote":"Les noms et fonctions figurent dans la présentation de l’entreprise du 5 octobre 2026."},
+    "company": {
+      "history": "La présentation de l’entreprise du 5 octobre 2026 décrit la direction, l’équipe de synthèse de nouveaux médicaments et les conseillers scientifiques ; les documents réduits ne donnent pas d’historique antérieur.",
+      "leadership": [
+        {
+          "name": "Dr. Kim",
+          "role": "CEO/CTO, responsable de l’équipe bio"
+        },
+        {
+          "name": "Dr. Cheong",
+          "role": "responsable de l’équipe de synthèse de nouveaux médicaments"
+        }
+      ],
+      "advisors": [
+        {
+          "name": "Prof. Tae Ho Lee",
+          "role": "conseiller scientifique ; Alzheimer"
+        },
+        {
+          "name": "Prof. Sang-Hyun Min",
+          "role": "conseiller scientifique ; conception et développement de médicaments"
+        },
+        {
+          "name": "Prof. Jungho Kim",
+          "role": "conseiller scientifique ; agents radiosensibilisants"
+        },
+        {
+          "name": "Prof. Seongsoon Park",
+          "role": "conseiller scientifique ; synthèse organique et modélisation moléculaire"
+        }
+      ],
+      "contactLabel": "office@agingtarget.com",
+      "contactEmail": "office@agingtarget.com",
+      "sourceNote": "Les noms et fonctions figurent dans la présentation de l’entreprise du 5 octobre 2026."
+    },
     "consentNote": "L'entreprise a donné son consentement écrit pour ce profil. Le profil utilise les documents réduits fournis par l'entreprise et exclut les informations que l'entreprise a réservées.",
     "seoTitle": "AgingTarget — programmes de recherche pour licence · Teranova",
-    "seoDesc": "AgingTarget Inc. : candidats de recherche à petites molécules contre l'athérosclérose et la maladie d'Alzheimer, avant le stade préclinique selon l'entreprise au 5 octobre 2026."
+    "seoDesc": "AgingTarget Inc. : candidats de recherche à petites molécules contre l'athérosclérose et la maladie d'Alzheimer, aux premiers stades des essais précliniques selon l'entreprise au 5 octobre 2026."
   },
   "ui": {
     "profile_sup": "Profil de l'entreprise",
@@ -59,6 +92,13 @@
     "cta_d": "Contactez Teranova pour discuter d'un partenariat potentiel.",
     "cta_btn": "Contacter via Teranova",
     "more": "Ouvrir le profil →",
-    "verified_suppliers": "Entreprises vérifiées", "company_h":"Équipe et conseillers scientifiques", "leadership_h":"Direction", "advisors_h":"Conseillers scientifiques", "contact_h":"Contact public", "download_btn":"Résumé des programmes de recherche (PDF)", "price_btn":"Aperçu des programmes (PDF)", "pres_btn":"Présentation de l’entreprise (PDF)"
+    "verified_suppliers": "Entreprises vérifiées",
+    "company_h": "Équipe et conseillers scientifiques",
+    "leadership_h": "Direction",
+    "advisors_h": "Conseillers scientifiques",
+    "contact_h": "Contact public",
+    "download_btn": "Résumé des programmes de recherche (PDF)",
+    "price_btn": "Aperçu des programmes (PDF)",
+    "pres_btn": "Présentation de l’entreprise (PDF)"
   }
 }
