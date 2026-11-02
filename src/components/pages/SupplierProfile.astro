@@ -117,6 +117,16 @@ const techImages: Record<string, string> = profile.slug === 'agafar' ? {
   'Face Fitness Turn Up': '/img/suppliers/agafar/tech/face-fitness-turn-up.webp',
   'PLAZION': '/img/suppliers/agafar/scenes/plazion.webp',
 } : {};
+const agafarPromoDevices = ['Transfer', 'agafar Point Plus', 'Face Fitness Turn Up', 'PLAZION'];
+// Keep the four agreed, illustrated devices together ahead of the complete
+// technical list. This changes presentation only: every original c.tech entry
+// remains below, exactly once.
+const agafarPromoTech = profile.slug === 'agafar'
+  ? c.tech.filter((tItem) => agafarPromoDevices.includes(tItem.name))
+  : [];
+const remainingTech = profile.slug === 'agafar'
+  ? c.tech.filter((tItem) => !agafarPromoDevices.includes(tItem.name))
+  : c.tech;
 // Keep the agreed AGAFAR device photos together with the exact commercial terms
 // already supplied in each locale. The gallery below remains intact as the source
 // collection; this is the focused device block that a reviewer needs to see.
@@ -498,8 +508,27 @@ function monogram(name: string): string {
     <section class="sp-sec">
       <div class="wrap">
         <span class="sp-lvl">{c.ui.tech_h}</span>
-        <div class="sp-tech">
-          {c.tech.map((tItem) => (
+        {agafarPromoTech.length > 0 && (
+          <div class="sp-tech sp-tech--promo">
+            {agafarPromoTech.map((tItem) => (
+              <article class="sp-tech__item">
+                {techImages[tItem.name] && (
+                  <img class="sp-tech__img" src={techImages[tItem.name]} alt={tItem.name} loading="lazy" decoding="async" />
+                )}
+                <h3 class="sp-tech__nm">{tItem.name}</h3>
+                <p class="sp-tech__note">{tItem.note}</p>
+              </article>
+            ))}
+          </div>
+        )}
+        {agafarPromoTerm && (
+          <aside class="sp-tech__terms" aria-label={agafarPromoTerm.label}>
+            <span class="sp-tech__terms-label">{agafarPromoTerm.label}</span>
+            <p>{agafarPromoTerm.value}</p>
+          </aside>
+        )}
+        <div class:list={['sp-tech', { 'sp-tech--remaining': agafarPromoTech.length > 0 }]}>
+          {remainingTech.map((tItem) => (
             <article class="sp-tech__item">
               {techImages[tItem.name] && (
                 <img class="sp-tech__img" src={techImages[tItem.name]} alt={tItem.name} loading="lazy" decoding="async" />
@@ -509,12 +538,6 @@ function monogram(name: string): string {
             </article>
           ))}
         </div>
-        {agafarPromoTerm && (
-          <aside class="sp-tech__terms" aria-label={agafarPromoTerm.label}>
-            <span class="sp-tech__terms-label">{agafarPromoTerm.label}</span>
-            <p>{agafarPromoTerm.value}</p>
-          </aside>
-        )}
         {c.ui.tech_note && <p class="sp-tech__src">{c.ui.tech_note}</p>}
       </div>
     </section>
@@ -943,6 +966,7 @@ function monogram(name: string): string {
   .sp-lb__x:hover { background: rgba(255, 255, 255, 0.32); }
 
   .sp-tech { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .sp-tech--remaining { margin-top: 16px; }
   .sp-tech__item { border-inline-start: 3px solid var(--ds-sky); background: var(--ds-bg); border-radius: 0; border-start-end-radius: 14px; border-end-end-radius: 14px; padding: 20px 22px; }
   .sp-tech__img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #fff; border: 1px solid color-mix(in srgb, var(--ds-sky) 20%, #e2e8f0); border-radius: 10px; margin: 0 0 16px; }
   .sp-tech__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); letter-spacing: -0.01em; }
