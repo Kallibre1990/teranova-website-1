@@ -52,3 +52,12 @@ width of 1200 px. The largest derived file is below 201 KB.
 ## Explicit exclusions
 
 No image from the inaccessible Drive links owned by Irina was used.
+
+## T-20261102-013: device photographs in the closed preview
+
+| Output | Local source | Verification |
+| --- | --- | --- |
+| `tech/transfer.webp` | Left page of the locally supplied `drive_2026-10-20/agafar dermatology machines.pdf` | The page names and depicts `Transfer`. |
+| `tech/face-fitness-turn-up.webp` | `10-Фото-10.jpg`, stored with the accepted internal attachment for T-20261031-026 | The company graphic names and depicts `Face Fitness Turn Up`. |
+
+No Mono JET photo is included: the available materials do not reliably identify one, so no other device is used as a substitute.
