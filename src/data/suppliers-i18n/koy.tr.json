@@ -56,11 +56,15 @@
       "Temizleyiciler",
       "Pedler ve kâğıt maskeler"
     ],
-    "exportNote": "Brandholder Inc., resmî kanallarına ve marka materyallerine dayanan bir KOY marka profili ve ürün sayfaları için yazılı onay vermiştir. Katalog şirketin sağladığı ürün fotoğraflarını içerir. İhracat fiyatları ve minimum sipariş miktarları belirli bir alıcı için görüşülür. Fiyatlar, sertifikalar, test sonuçları, satış rakamları, ihracat pazarları ve doğrudan iletişim bilgileri burada yayımlanmaz.",
+    "exportNote": "Brandholder Inc., resmî kanallarına ve marka materyallerine dayanan bir KOY marka profili ve ürün sayfaları için yazılı onay vermiştir. Katalog şirketin sağladığı ürün fotoğraflarını içerir. Şirketin Kasım 2026'da doğruladığı üzere, iş birliği doğrudan toptan satın alma esasına göre yürütülmektedir ve halihazırda münhasır ortaklıkların bulunduğu Büyük Çin (Çin anakarası, Tayvan, Hong Kong) ve GCC (altı Körfez ülkesi) dışındaki tüm pazarlarda münhasır olmayan dağıtım açıktır. KOY, marka konumlandırmasını ve fiyat bütünlüğünü korumak için potansiyel ortaklardan satış kanallarını ve alt dağıtım ağlarını paylaşmalarını istemektedir. İhracat fiyatları ve minimum sipariş miktarları belirli bir alıcı için görüşülür. Fiyatlar, sertifikalar, test sonuçları, satış rakamları ve doğrudan iletişim bilgileri burada yayımlanmaz.",
     "terms": [
       {
         "label": "İş birliği",
-        "value": "Teranova üzerinden B2B talepleri."
+        "value": "Doğrudan toptan satın alma, Teranova üzerinden B2B talepleri."
+      },
+      {
+        "label": "Bölgeler",
+        "value": "Halihazırda münhasır ortaklıkların bulunduğu Büyük Çin (Çin anakarası, Tayvan, Hong Kong) ve GCC (altı Körfez ülkesi) dışında münhasır olmayan dağıtım açık."
       },
       {
         "label": "Fiyat",

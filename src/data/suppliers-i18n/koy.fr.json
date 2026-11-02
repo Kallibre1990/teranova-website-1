@@ -56,11 +56,15 @@
       "Nettoyants",
       "Disques et masques en tissu"
     ],
-    "exportNote": "Brandholder Inc. a donné son accord écrit pour un profil de la marque KOY et des pages produits fondés sur ses canaux officiels et ses documents de marque. Le catalogue contient des photos de produits fournies par l’entreprise. Les prix à l’export et les quantités minimales de commande se discutent pour un acheteur précis. Prix, certifications, résultats de tests, chiffres de vente, marchés d’export et contacts directs ne sont pas publiés ici.",
+    "exportNote": "Brandholder Inc. a donné son accord écrit pour un profil de la marque KOY et des pages produits fondés sur ses canaux officiels et ses documents de marque. Le catalogue contient des photos de produits fournies par l’entreprise. Comme l’a confirmé l’entreprise en novembre 2026, la coopération repose sur un achat direct en gros, et la distribution non exclusive est ouverte sur tous les marchés hors Grande Chine (Chine continentale, Taïwan, Hong Kong) et CCG (les six États du Golfe), où des partenariats exclusifs sont déjà en place. KOY demande aux partenaires potentiels de communiquer leurs canaux de vente et leur réseau de distribution en aval afin de protéger le positionnement de la marque et l’intégrité des prix. Les prix à l’export et les quantités minimales de commande se discutent pour un acheteur précis. Prix, certifications, résultats de tests, chiffres de vente et contacts directs ne sont pas publiés ici.",
     "terms": [
       {
         "label": "Coopération",
-        "value": "Demandes B2B via Teranova."
+        "value": "Achat direct en gros, demandes B2B via Teranova."
+      },
+      {
+        "label": "Territoires",
+        "value": "Distribution non exclusive ouverte hors Grande Chine (Chine continentale, Taïwan, Hong Kong) et CCG (six États du Golfe), où des partenariats exclusifs sont déjà en place."
       },
       {
         "label": "Prix",

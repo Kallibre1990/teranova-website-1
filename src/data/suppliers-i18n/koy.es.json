@@ -56,11 +56,15 @@
       "Limpiadores",
       "Discos y mascarillas de tela"
     ],
-    "exportNote": "Brandholder Inc. dio su consentimiento por escrito para un perfil de la marca KOY y páginas de producto basados en sus canales oficiales y materiales de marca. El catálogo contiene fotografías de productos proporcionadas por la empresa. Los precios de exportación y las cantidades mínimas de pedido se tratan para un comprador concreto. Precios, certificaciones, resultados de pruebas, cifras de ventas, mercados de exportación y contactos directos no se publican aquí.",
+    "exportNote": "Brandholder Inc. dio su consentimiento por escrito para un perfil de la marca KOY y páginas de producto basados en sus canales oficiales y materiales de marca. El catálogo contiene fotografías de productos proporcionadas por la empresa. Según confirmó la empresa en noviembre de 2026, la cooperación se basa en la compra directa al por mayor, y la distribución no exclusiva está abierta en todos los mercados fuera de la Gran China (China continental, Taiwán, Hong Kong) y el CCG (los seis estados del Golfo), donde ya existen acuerdos exclusivos. KOY pide a los posibles socios que compartan sus canales de venta y su red de distribución aguas abajo para proteger el posicionamiento de la marca y la integridad de los precios. Los precios de exportación y las cantidades mínimas de pedido se tratan para un comprador concreto. Precios, certificaciones, resultados de pruebas, cifras de ventas y contactos directos no se publican aquí.",
     "terms": [
       {
         "label": "Cooperación",
-        "value": "Consultas B2B a través de Teranova."
+        "value": "Compra directa al por mayor, consultas B2B a través de Teranova."
+      },
+      {
+        "label": "Territorios",
+        "value": "Distribución no exclusiva abierta fuera de la Gran China (China continental, Taiwán, Hong Kong) y el CCG (seis estados del Golfo), donde ya existen acuerdos exclusivos."
       },
       {
         "label": "Precio",

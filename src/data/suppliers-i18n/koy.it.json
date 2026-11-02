@@ -56,11 +56,15 @@
       "Detergenti",
       "Dischetti e maschere in tessuto"
     ],
-    "exportNote": "Brandholder Inc. ha dato il consenso scritto a un profilo del marchio KOY e a pagine prodotto basati sui suoi canali ufficiali e sui materiali del marchio. Il catalogo contiene fotografie dei prodotti fornite dall’azienda. Prezzi all’esportazione e quantità minime d’ordine si discutono per un acquirente specifico. Prezzi, certificazioni, risultati di test, dati di vendita, mercati di esportazione e contatti diretti non sono pubblicati qui.",
+    "exportNote": "Brandholder Inc. ha dato il consenso scritto a un profilo del marchio KOY e a pagine prodotto basati sui suoi canali ufficiali e sui materiali del marchio. Il catalogo contiene fotografie dei prodotti fornite dall’azienda. Come confermato dall’azienda a novembre 2026, la collaborazione si basa sull’acquisto diretto all’ingrosso, e la distribuzione non esclusiva è aperta in tutti i mercati fuori dalla Grande Cina (Cina continentale, Taiwan, Hong Kong) e dal GCC (i sei Stati del Golfo), dove sono già in vigore partnership esclusive. KOY chiede ai potenziali partner di condividere i propri canali di vendita e la rete di distribuzione a valle per tutelare il posizionamento del marchio e l’integrità dei prezzi. Prezzi all’esportazione e quantità minime d’ordine si discutono per un acquirente specifico. Prezzi, certificazioni, risultati di test, dati di vendita e contatti diretti non sono pubblicati qui.",
     "terms": [
       {
         "label": "Collaborazione",
-        "value": "Richieste B2B tramite Teranova."
+        "value": "Acquisto diretto all’ingrosso, richieste B2B tramite Teranova."
+      },
+      {
+        "label": "Territori",
+        "value": "Distribuzione non esclusiva aperta fuori dalla Grande Cina (Cina continentale, Taiwan, Hong Kong) e dal GCC (sei Stati del Golfo), dove sono già in vigore partnership esclusive."
       },
       {
         "label": "Prezzo",
