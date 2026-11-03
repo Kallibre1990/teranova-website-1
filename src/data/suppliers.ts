@@ -3107,8 +3107,6 @@ export const suppliers: SupplierProfile[] = [
        Только EN/RU/KO (решение Ирины 22.10.2026) — остальные языки после
        согласования черновика поставщиком. */
     catalog: agafarCatalog,
-    termsFile: { ru: '/docs/agafar-terms-ru.pdf', en: '/docs/agafar-terms-en.pdf', ko: '/docs/agafar-terms-ko.pdf' },
-    presFile: { ru: '/docs/agafar-presentation-ru.pdf', en: '/docs/agafar-presentation-en.pdf', ko: '/docs/agafar-presentation-ko.pdf' },
     i18n: {
       ru: mk(agafarRu as any), en: mk(agafarEn as any), ko: mk(agafarKo as any),
     },

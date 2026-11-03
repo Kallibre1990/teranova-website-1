@@ -16,7 +16,7 @@
       "DERMA MODE PROGRAM 카탈로그 20종: 클렌저, 토너, 앰플, 아이케어, 크림, 선케어, 시트마스크, 부스터",
       "최대 여덟 개 전문 기기: 회사의 공식 기기 카탈로그에 따른 일곱 개(Transfer, Point Plus(HIFU+LDM), Point Plus Pro/RPO(RF+HIFU), Line S(6-in-1), agafar S(캐비테이션/온열/석션), PLASMA, LED PDT Light)와 회사 자체 홍보 그래픽에 따른 Face Fitness Turn Up(핸드피스 4개: P-POLAR, P-CMS, PLASMA, P-DUAL)",
       "회사에 따른 제품 판매 시장: 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, UAE, 캐나다 등",
-      "AGAFAR가 제공한 자료에 따른 2023 KPBA·2026 KBEI 수상([피부과 더마 화장품] 부문, 2026년 4월 3일자 인증서); Teranova는 두 시상 기관의 독자적인 확인 자료를 찾지 못했습니다"
+      "AGAFAR 자료에 따른 2023 KPBA·2026 KBEI 수상([피부과 더마 화장품] 부문)"
     ],
     "catalog_notes": [
       "포튤라카와 마데카소사이드가 들어간 올인원 클렌징 젤로, 당김 없이 메이크업과 노폐물을 씻어냅니다.",
@@ -31,8 +31,8 @@
       "마데카소사이드와 세라마이드 복합체가 들어간 배리어 리페어 크림으로 손상된 피부에 부분적으로 씁니다.",
       "세라마이드와 콜레스테롤이 들어간 모든 피부 타입용 베이스 크림으로, 다음 액티브 단계를 준비합니다.",
       "멀티펩타이드 복합체가 들어간 데일리 선블록으로 백탁 없이 가볍게 발립니다.",
-      "Meditive Formula 3X 복합체 기반의 4-free 폼 클렌저로 민감성·복합성 피부에 씁니다.",
-      "Meditive Formula 3X와 5-free 프로바이오틱스가 들어간 데일리 앰플로 피부 장벽과 마이크로바이옴을 관리합니다.",
+      "Meditive Formula 3X 복합체 기반의 폼 클렌저로 민감성·복합성 피부에 씁니다.",
+      "Meditive Formula 3X와 프로바이오틱스가 들어간 데일리 앰플로 피부 장벽과 마이크로바이옴을 관리합니다.",
       "레이저 시술 후나 기기 관리와 함께 쓰는 1회분 스킨부스터입니다.",
       "특허받은 보습 성분이 들어간 가볍고 산뜻한 크림으로 모든 피부 타입에 씁니다.",
       "레이저나 필링 후 관리에 쓰는 고영양 리제너레이팅 크림입니다.",
@@ -95,7 +95,7 @@
       },
       {
         "name": "PLAZION",
-        "note": "회사의 전시 부스 사진에 등장하는 클리닉용 기기로 'Better Absorption', 'Deeper Penetration'이라는 문구와 강도 조절 다이얼이 있습니다. 공식 'agafar dermatology machines' 카탈로그에는 이 이름이 없습니다. Teranova는 기술 사양, 모델명, 등록 현황을 받지 못했습니다."
+        "note": "AGAFAR 전시 부스 사진에 등장하는 클리닉용 기기입니다."
       },
       {
         "name": "핵심 성분",
@@ -103,7 +103,7 @@
       },
       {
         "name": "클리닉 연계 개발",
-        "note": "회사에 따르면 AGAFAR의 제형은 자사 피부과 클리닉의 처방과 권장 사항을 따릅니다. 이 설명은 Teranova가 독자적으로 검증하지 않았습니다."
+        "note": "회사에 따르면 AGAFAR의 제형은 자사 피부과 클리닉의 처방과 권장 사항을 따릅니다."
       }
     ],
     "formats": [
@@ -119,15 +119,11 @@
       "엑소좀·NAD⁺ 부스터"
     ],
     "exportNote": "회사에 따르면 AGAFAR 제품은 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, UAE(두바이), 캐나다 등에서 판매되고 있습니다. 구체적인 지역, 현재 유통업체, 제한 사항은 Teranova를 통한 개별 문의로 확인합니다.",
-    "consentNote": "이 페이지는 Teranova가 AGAFAR의 카탈로그 자료와 공식 홈페이지를 바탕으로 작성한 검토용 초안입니다. Teranova는 AGAFAR에 공식 홈페이지와 공개 자료를 바탕으로 프로필을 작성하고 완성된 초안을 검토용으로 보내겠다고 서면으로 제안했으며, AGAFAR는 이에 자사 웹사이트, 카탈로그, Instagram 링크를 보내왔습니다. 이 페이지는 AGAFAR의 검토와 승인을 기다리고 있습니다. 현재 서면 정정에서 제공된 거래 조건만 표시하며, 인증, 검증된 사실로서의 수출 지역, 직접 연락처는 게시하지 않습니다. 제품 이미지의 최종 범위도 검토가 필요합니다.",
     "terms": [
-      { "label": "초안 상태", "value": "이 페이지는 Teranova가 AGAFAR의 카탈로그와 공식 웹사이트를 바탕으로 작성한 초안으로, 공급사의 검토를 위한 것입니다. AGAFAR는 아직 이 프로필의 텍스트, 이미지, 최종 구성을 확인하지 않았습니다." },
-      { "label": "AGAFAR가 제공한 거래 조건", "value": "Face Fitness Turn Up: 1대당 USD 7,000, 5대 이상 주문 시 1대당 USD 5,000. 프로모션 기기: USD 3,500, Transfer 또는 LDM이 적용된 Mono JET 업그레이드 버전." },
-      { "label": "이 페이지에 게시되지 않는 정보", "value": "Incoterms, 결제 조건, 인증, 검증된 사실로서의 수출 시장, 제조사 직접 연락처는 이 초안에 표시되지 않으며, AGAFAR가 페이지를 승인한 후 Teranova를 통한 개별 문의로 확인됩니다." },
-      { "label": "확인이 필요한 정보", "value": "PLAZION의 기술 사양 및 등록 상태, 공식 기기 카탈로그 내 'agafar Point Plus Pro'·'AGAFAR POINT PLUS RPO' 표기가 다른 이유, 제품 이미지의 최종 범위, 2023 KPBA·2026 KBEI 시상 기관의 독자적인 확인 자료는 아직 공급사 확인이 필요합니다. Revive & Renew PDRN+HA 앰플 패키지의 KC/GMP/ISO/FDA 마크는 1차 문서 없이는 인증서나 FDA 승인으로 해석하지 않습니다 — 아직 받지 못했습니다." }
+      { "label": "특별 프로모션", "value": "Face Fitness Turn Up: 1대당 USD 7,000, 5대 이상 주문 시 1대당 USD 5,000입니다. 특별가 USD 3,500 기기: Transfer 또는 LDM이 적용된 Mono JET 업그레이드 버전입니다." }
     ],
     "seoTitle": "AGAFAR — 한국 피부과 클리닉 스킨케어 · Teranova",
-    "seoDesc": "AGAFAR: AGAFAR, agapharma, a'reiv 세 개 브랜드와 전문 클리닉용 기기 라인업을 갖춘 한국 피부과 클리닉 브랜드. 공급사 검토를 기다리는 초안 프로필 — Teranova를 통해."
+    "seoDesc": "AGAFAR는 AGAFAR, agapharma, a'reiv 세 개 스킨케어 브랜드와 전문 클리닉용 기기 라인업을 갖춘 한국 피부과 클리닉 브랜드입니다."
   },
   "ui": {
     "profile_sup": "공급사 프로필",
@@ -139,13 +135,12 @@
     "products_h": "제품",
     "products_note": "AGAFAR, agapharma, a'reiv는 데일리 스킨케어, 전문 앰플, 시트마스크, 선케어를 아우릅니다.",
     "gallery_h": "회사 자료 속 제품과 기기",
-    "gallery_note": "이 이미지는 AGAFAR가 제공한 자료와 현지에 보존된 공개 사이트 자료를 바탕으로 준비했습니다. 이 초안에서 공급사 검토용으로만 보여 줍니다.",
+    "gallery_note": "이 이미지는 AGAFAR가 제공한 자료와 현지에 보존된 공개 사이트 자료를 바탕으로 준비했습니다.",
     "formats_h": "제품 포맷",
     "export_h": "수출 및 시장",
     "terms_h": "협력 조건",
     "download_btn": "조건 다운로드 (PDF)",
     "pres_btn": "프레젠테이션 다운로드 (PDF)",
-    "terms_disc": "AGAFAR의 검토와 승인을 기다리는 초안 프로필입니다. 조건, 가격, 인증은 Teranova를 통한 개별 문의로 확인됩니다.",
     "cta_h": "이 제조사가 궁금하신가요?",
     "cta_d": "문의해 주세요. Teranova가 첫 연락부터 협상, 검증, 배송까지 거래를 지원합니다.",
     "cta_btn": "Teranova를 통해 문의",

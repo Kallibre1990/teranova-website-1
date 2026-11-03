@@ -127,10 +127,10 @@ const agafarPromoTech = profile.slug === 'agafar'
 const remainingTech = profile.slug === 'agafar'
   ? c.tech.filter((tItem) => !agafarPromoDevices.includes(tItem.name))
   : c.tech;
-// Keep the agreed AGAFAR device photos together with the exact commercial terms
-// already supplied in each locale. The gallery below remains intact as the source
-// collection; this is the focused device block that a reviewer needs to see.
-const agafarPromoTerm = profile.slug === 'agafar' ? c.terms?.[1] : undefined;
+// Keep the agreed AGAFAR device photos and the single confirmed promotion
+// together. The general terms section is intentionally omitted for this
+// closed profile so the promotion exists in one place only.
+const agafarPromoTerm = profile.slug === 'agafar' ? c.terms?.[0] : undefined;
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
@@ -584,7 +584,7 @@ function monogram(name: string): string {
   </section>
 
   <!-- TERMS -->
-  {c.terms && c.terms.length > 0 && (
+  {c.terms && c.terms.length > 0 && profile.slug !== 'agafar' && (
     <section class="sp-sec sp-sec--tint">
       <div class="wrap sp-narrow">
         <span class="sp-lvl">{c.ui.terms_h}</span>

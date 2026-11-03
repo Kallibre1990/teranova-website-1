@@ -16,7 +16,7 @@
       "20-SKU DERMA MODE PROGRAM catalog: cleansers, toners, ampoules, eye care, creams, sunblock, sheet mask, boosters",
       "Up to eight professional devices: seven in the official device catalog (Transfer, Point Plus (HIFU+LDM), Point Plus Pro/RPO (RF+HIFU), Line S (6-in-1), agafar S (cavitation/thermal/vacuum), PLASMA, LED PDT Light) plus Face Fitness Turn Up (4 handpieces: P-POLAR, P-CMS, PLASMA, P-DUAL) from the company's own marketing graphics",
       "Product markets according to the company: Korea, Hong Kong, China, Thailand, Japan, US, Philippines, Malaysia, UK, UAE, Canada and others",
-      "According to materials provided by AGAFAR: the 2023 KPBA and 2026 KBEI awards (dermatology/derma-cosmetics category, certificate dated 2026-04-03); Teranova found no independent source from either organizer"
+      "According to AGAFAR materials: the 2023 KPBA and 2026 KBEI awards in the dermatology/derma-cosmetics category"
     ],
     "catalog_notes": [
       "All-in-one cleansing gel with portulaca and madecassoside that removes makeup and impurities without tightness.",
@@ -31,8 +31,8 @@
       "Barrier-repair spot cream with madecassoside and a ceramide complex for damaged skin.",
       "All-skin-type base cream with ceramide and cholesterol that preps skin for active steps.",
       "Lightweight daily sunblock with a multi-peptide complex and no white cast.",
-      "4-free foam cleanser built on the Meditive Formula 3X complex for sensitive and combination skin.",
-      "Daily ampoule combining Meditive Formula 3X and 5-free probiotics for barrier and microbiome care.",
+      "Foam cleanser built on the Meditive Formula 3X complex for sensitive and combination skin.",
+      "Daily ampoule combining Meditive Formula 3X and probiotics for barrier and microbiome care.",
       "Single-dose skin booster for use after laser treatments or with in-clinic devices.",
       "Light, non-sticky cream with patented moisturizers for all skin types.",
       "Rich regenerating cream for post-treatment care after laser or peeling.",
@@ -95,7 +95,7 @@
       },
       {
         "name": "PLAZION",
-        "note": "An in-clinic device from a photo of the company's exhibition booth, with the claims \"Better Absorption\" and \"Deeper Penetration\" and an intensity dial; this name does not appear in the official \"agafar dermatology machines\" catalog. Teranova has not received a technical specification, model name or registration status for it."
+        "note": "An in-clinic device shown in a photo from AGAFAR's exhibition booth."
       },
       {
         "name": "Clinical actives",
@@ -103,7 +103,7 @@
       },
       {
         "name": "Clinic-linked development",
-        "note": "According to the company, AGAFAR's formulas follow prescriptions and recommendations from its dermatology clinics; Teranova has not independently verified this claim."
+        "note": "According to the company, AGAFAR's formulas follow prescriptions and recommendations from its dermatology clinics."
       }
     ],
     "formats": [
@@ -119,15 +119,11 @@
       "Exosome and NAD⁺ boosters"
     ],
     "exportNote": "According to the company, AGAFAR products are sold in Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE (Dubai), Canada and other markets. Specific territories, current distributors and any restrictions are confirmed for a specific enquiry through Teranova.",
-    "consentNote": "This is a draft profile, prepared by Teranova from AGAFAR's catalog materials and official website for the supplier's review. Teranova offered AGAFAR in writing to prepare a profile from its official website and public sources and to send the finished draft for review; in reply, the company shared links to its websites, catalog and Instagram. This page is awaiting AGAFAR's review and approval. Only the commercial terms supplied in the current written correction are shown; certificates, export markets as verified fact and direct contacts are not published here; the final scope of product imagery also awaits review.",
     "terms": [
-      { "label": "Draft status", "value": "This page is a draft Teranova prepared from AGAFAR's catalog and official website for the supplier's review. AGAFAR has not yet confirmed the text, images or final scope of this profile." },
-      { "label": "Commercial terms supplied by AGAFAR", "value": "Face Fitness Turn Up: USD 7,000 per unit, or USD 5,000 per unit for 5 or more units. The promotional device is USD 3,500: Transfer or Mono JET upgraded version with LDM." },
-      { "label": "Not published here", "value": "Incoterms, payment terms, certifications, export markets as verified fact and direct manufacturer contacts are not shown on this draft; each is confirmed for a specific enquiry through Teranova once AGAFAR approves the page." },
-      { "label": "Information awaiting confirmation", "value": "PLAZION's technical specification and registration status, the reason for the \"agafar Point Plus Pro\" / \"AGAFAR POINT PLUS RPO\" naming discrepancy inside the official device catalog, the final scope of product imagery, and an independent source from either the 2023 KPBA or 2026 KBEI award organizers are still awaiting the supplier's confirmation. Teranova does not treat the KC/GMP/ISO/FDA marks on the Revive & Renew PDRN+HA ampoule packaging as certificates or FDA approval without primary documents — none have been received yet." }
+      { "label": "Special offer", "value": "Face Fitness Turn Up: USD 7,000 per unit, or USD 5,000 per unit for orders of 5 units or more. A device at the special price of USD 3,500: Transfer or Mono JET upgraded version with LDM." }
     ],
     "seoTitle": "AGAFAR — Korean dermatology-clinic skincare · Teranova",
-    "seoDesc": "AGAFAR: Korean dermatology-clinic brand with three skincare brands — AGAFAR, agapharma, a'reiv — and a line of professional in-clinic devices. Draft profile, pending supplier review — via Teranova."
+    "seoDesc": "AGAFAR: Korean dermatology-clinic brand with three skincare brands, AGAFAR, agapharma and a'reiv, plus a line of professional in-clinic devices."
   },
   "ui": {
     "profile_sup": "Supplier profile",
@@ -139,13 +135,12 @@
     "products_h": "Products",
     "products_note": "AGAFAR, agapharma and a'reiv cover daily skincare, professional ampoules, sheet masks and sun care.",
     "gallery_h": "Products and equipment in company materials",
-    "gallery_note": "These images are derived from materials supplied by AGAFAR and locally preserved public-site assets. They are shown in this draft for the supplier's review.",
+    "gallery_note": "These images are derived from materials supplied by AGAFAR and locally preserved public-site assets.",
     "formats_h": "Product formats",
     "export_h": "Export and markets",
     "terms_h": "Terms of cooperation",
     "download_btn": "Download terms (PDF)",
     "pres_btn": "Download presentation (PDF)",
-    "terms_disc": "Draft profile awaiting AGAFAR's review and approval. Terms, prices and certifications are confirmed for a specific enquiry through Teranova.",
     "cta_h": "Interested in this manufacturer?",
     "cta_d": "Get in touch — Teranova arranges negotiations, verification, and deal support from first contact through delivery.",
     "cta_btn": "Contact via Teranova",
