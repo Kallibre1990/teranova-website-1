@@ -286,7 +286,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "I quattro formati di profumeria di DAILY COMMA",
         "excerpt": "Oltre alle due eau de parfum, il catalogo DAILY COMMA include uno spray profumato e un discovery set.",
         "seoTitle": "Le linee di profumeria DAILY COMMA · Teranova",
-        "seoDesc": "I formati di profumeria DAILY COMMA secondo il catalogo AD International.",
+        "seoDesc": "I formati di profumeria DAILY COMMA di AD International.",
         "sections": [
           {
             "h": "Quattro formati di profumeria",
@@ -314,7 +314,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Les quatre formats de parfumerie de DAILY COMMA",
         "excerpt": "Au-delà des deux eau de parfum, le catalogue DAILY COMMA inclut un spray parfumé et un coffret découverte.",
         "seoTitle": "Les lignes de parfumerie DAILY COMMA · Teranova",
-        "seoDesc": "Les formats de parfumerie DAILY COMMA selon le catalogue AD International.",
+        "seoDesc": "Les formats de parfumerie DAILY COMMA d'AD International.",
         "sections": [
           {
             "h": "Quatre formats de parfumerie",
@@ -356,7 +356,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Os quatro formatos de perfumaria da DAILY COMMA",
         "excerpt": "Além das duas eau de parfum, o catálogo DAILY COMMA inclui um spray de perfume e um kit de descoberta.",
         "seoTitle": "As linhas de perfumaria DAILY COMMA · Teranova",
-        "seoDesc": "Os formatos de perfumaria DAILY COMMA segundo o catálogo AD International.",
+        "seoDesc": "Os formatos de perfumaria DAILY COMMA da AD International.",
         "sections": [
           {
             "h": "Quatro formatos de perfumaria",
@@ -384,7 +384,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA के चार फ्रेग्रेंस प्रारूप",
         "excerpt": "दो ओ द परफ्यूम के अलावा, DAILY COMMA कैटलॉग में एक परफ्यूम मिस्ट और एक डिस्कवरी सेट भी है।",
         "seoTitle": "DAILY COMMA की फ्रेग्रेंस लाइनें · Teranova",
-        "seoDesc": "AD International कैटलॉग के अनुसार DAILY COMMA के फ्रेग्रेंस प्रारूप।",
+        "seoDesc": "AD International के DAILY COMMA फ्रेग्रेंस प्रारूप।",
         "sections": [
           {
             "h": "चार फ्रेग्रेंस प्रारूप",
@@ -416,7 +416,7 @@ export const dailycommaPosts: BlogPost[] = [
           {
             "h": "Пять форматов одной линейки",
             "p": [
-              "Линейка Bello de Perfume в каталоге DAILY COMMA включает пять форматов: гель для рук и лосьон 300 мл с pH-балансом и растительными маслами, гель для душа и лосьон для тела 500 мл в аромате Delight Rose, крем для рук 50 мл, твёрдые духи-бальзам 5,5 г в четырёх ароматах и твёрдые духи без спирта 4,7 г — четыре исходных и шесть дополнительных ароматов. Объёмы и форматы приведены по данным каталога и требуют отдельного подтверждения под конкретный рынок."
+              "Линейка Bello de Perfume в каталоге DAILY COMMA включает пять форматов: гель для рук и лосьон 300 мл с pH-балансом и растительными маслами, гель для душа и лосьон для тела 500 мл в аромате Delight Rose, крем для рук 50 мл, твёрдые духи-бальзам 5,5 г в четырёх ароматах и твёрдые духи без спирта 4,7 г — четыре исходных и шесть дополнительных ароматов. Объёмы и форматы требуют отдельного подтверждения под конкретный рынок."
             ]
           }
         ]
@@ -458,7 +458,7 @@ export const dailycommaPosts: BlogPost[] = [
           {
             "h": "一个系列，五种形式",
             "p": [
-              "DAILY COMMA 目录中的 Bello de Perfume 系列包含五种形式：含植物油的300 ml pH 平衡洗手液及乳液、Delight Rose 香型的500 ml 沐浴露及身体乳、50 ml 护手霜、四种香型的5.5 g 固体香膏，以及四种基础香型加六种附加香型的无酒精4.7 g 固体香水。容量与形式均依据目录所述，具体市场需另行确认。"
+              "DAILY COMMA 目录中的 Bello de Perfume 系列包含五种形式：含植物油的300 ml pH 平衡洗手液及乳液、Delight Rose 香型的500 ml 沐浴露及身体乳、50 ml 护手霜、四种香型的5.5 g 固体香膏，以及四种基础香型加六种附加香型的无酒精4.7 g 固体香水。具体市场的容量与形式需另行确认。"
             ]
           }
         ]
@@ -481,12 +481,12 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: la cura di mani e corpo di DAILY COMMA",
         "excerpt": "La linea Bello de Perfume comprende cinque formati, dalla detersione alla crema mani al profumo solido.",
         "seoTitle": "La linea Bello de Perfume · Teranova",
-        "seoDesc": "I cinque formati Bello de Perfume secondo il catalogo AD International.",
+        "seoDesc": "I cinque formati Bello de Perfume di AD International.",
         "sections": [
           {
             "h": "Cinque formati in un'unica linea",
             "p": [
-              "La linea Bello de Perfume nel catalogo DAILY COMMA comprende cinque formati: un detergente e lozione mani da 300 ml con pH bilanciato e oli vegetali, un detergente e lozione corpo da 500 ml nella profumazione Delight Rose, una crema mani da 50 ml, un balsamo profumato solido da 5,5 g in quattro profumazioni e un profumo solido senza alcol da 4,7 g con quattro profumazioni originali più sei varianti aggiuntive. Volumi e formati sono riportati secondo il catalogo e vanno confermati separatamente per un mercato specifico."
+              "La linea Bello de Perfume nel catalogo DAILY COMMA comprende cinque formati: un detergente e lozione mani da 300 ml con pH bilanciato e oli vegetali, un detergente e lozione corpo da 500 ml nella profumazione Delight Rose, una crema mani da 50 ml, un balsamo profumato solido da 5,5 g in quattro profumazioni e un profumo solido senza alcol da 4,7 g con quattro profumazioni originali più sei varianti aggiuntive. Volumi e formati vanno confermati separatamente per un mercato specifico."
             ]
           }
         ]
@@ -509,7 +509,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume : le soin des mains et du corps de DAILY COMMA",
         "excerpt": "La ligne Bello de Perfume comprend cinq formats, du nettoyage à la crème mains et au parfum solide.",
         "seoTitle": "La ligne Bello de Perfume · Teranova",
-        "seoDesc": "Les cinq formats Bello de Perfume selon le catalogue AD International.",
+        "seoDesc": "Les cinq formats Bello de Perfume d'AD International.",
         "sections": [
           {
             "h": "Cinq formats pour une ligne",
@@ -551,7 +551,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: os cuidados para mãos e corpo da DAILY COMMA",
         "excerpt": "A linha Bello de Perfume abrange cinco formatos, da limpeza ao creme de mãos e ao perfume sólido.",
         "seoTitle": "A linha Bello de Perfume · Teranova",
-        "seoDesc": "Os cinco formatos Bello de Perfume segundo o catálogo AD International.",
+        "seoDesc": "Os cinco formatos Bello de Perfume da AD International.",
         "sections": [
           {
             "h": "Cinco formatos em uma linha",
@@ -579,12 +579,12 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: DAILY COMMA की हैंड और बॉडी केयर",
         "excerpt": "Bello de Perfume लाइन में क्लींजिंग से लेकर हैंड क्रीम और सॉलिड परफ्यूम तक पांच प्रारूप शामिल हैं।",
         "seoTitle": "Bello de Perfume लाइन · Teranova",
-        "seoDesc": "AD International कैटलॉग के अनुसार Bello de Perfume के पांच प्रारूप।",
+        "seoDesc": "AD International के Bello de Perfume के पांच प्रारूप।",
         "sections": [
           {
             "h": "एक लाइन में पांच प्रारूप",
             "p": [
-              "DAILY COMMA कैटलॉग में Bello de Perfume लाइन में पांच प्रारूप शामिल हैं: प्लांट ऑयल वाला 300 ml pH-बैलेंस्ड हैंड वॉश और लोशन सेट, Delight Rose खुशबू में 500 ml बॉडी वॉश और लोशन सेट, 50 ml हैंड क्रीम, चार खुशबुओं में 5.5 g सॉलिड बाम परफ्यूम, और चार मूल व छह अतिरिक्त वेरिएंट वाला अल्कोहल-फ्री 4.7 g सॉलिड परफ्यूम। आकार और प्रारूप कैटलॉग के अनुसार हैं और किसी विशेष बाज़ार के लिए अलग से पुष्ट किए जाने चाहिए।"
+              "DAILY COMMA कैटलॉग में Bello de Perfume लाइन में पांच प्रारूप शामिल हैं: प्लांट ऑयल वाला 300 ml pH-बैलेंस्ड हैंड वॉश और लोशन सेट, Delight Rose खुशबू में 500 ml बॉडी वॉश और लोशन सेट, 50 ml हैंड क्रीम, चार खुशबुओं में 5.5 g सॉलिड बाम परफ्यूम, और चार मूल व छह अतिरिक्त वेरिएंट वाला अल्कोहल-फ्री 4.7 g सॉलिड परफ्यूम। आकार और प्रारूप किसी विशेष बाज़ार के लिए अलग से पुष्ट किए जाने चाहिए।"
             ]
           }
         ]
@@ -676,7 +676,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "I diffusori per la casa DAILY COMMA: Crystal Edition e Aurora",
         "excerpt": "Il catalogo presenta due diffusori: il decorativo Crystal Edition e l'Aurora a boccetta sfumata.",
         "seoTitle": "I diffusori per la casa DAILY COMMA · Teranova",
-        "seoDesc": "I due diffusori per la casa secondo il catalogo AD International.",
+        "seoDesc": "I due diffusori per la casa di AD International.",
         "sections": [
           {
             "h": "Due formati per la casa",
@@ -704,7 +704,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Diffuseurs pour la maison DAILY COMMA : Crystal Edition et Aurora",
         "excerpt": "Le catalogue présente deux diffuseurs : le Crystal Edition décoratif et l'Aurora en flacon dégradé.",
         "seoTitle": "Les diffuseurs pour la maison DAILY COMMA · Teranova",
-        "seoDesc": "Les deux diffuseurs pour la maison selon le catalogue AD International.",
+        "seoDesc": "Les deux diffuseurs pour la maison d'AD International.",
         "sections": [
           {
             "h": "Deux formats pour la maison",
@@ -746,7 +746,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Difusores para casa da DAILY COMMA: Crystal Edition e Aurora",
         "excerpt": "O catálogo apresenta dois difusores: o decorativo Crystal Edition e o Aurora em frasco degradê.",
         "seoTitle": "Os difusores para casa da DAILY COMMA · Teranova",
-        "seoDesc": "Os dois difusores para casa segundo o catálogo AD International.",
+        "seoDesc": "Os dois difusores para casa da AD International.",
         "sections": [
           {
             "h": "Dois formatos para casa",
@@ -774,7 +774,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA के होम डिफ्यूज़र: Crystal Edition और Aurora",
         "excerpt": "DAILY COMMA कैटलॉग में दो होम डिफ्यूज़र हैं: Crystal Edition और Aurora।",
         "seoTitle": "DAILY COMMA के होम डिफ्यूज़र · Teranova",
-        "seoDesc": "AD International कैटलॉग के अनुसार दो होम डिफ्यूज़र।",
+        "seoDesc": "AD International के दो होम डिफ्यूज़र।",
         "sections": [
           {
             "h": "घर के लिए दो प्रारूप",

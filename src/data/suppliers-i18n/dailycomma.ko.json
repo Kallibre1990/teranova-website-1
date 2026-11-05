@@ -4,14 +4,14 @@
     "descriptor": "AD International: DAILY COMMA 브랜드를 운영하는 한국 OEM/ODM 제조사 — 퍼퓸 미스트, 오드퍼퓸, 고체 향수, 헤어 퍼퓸, 핸드·바디 케어, 홈 디퓨저",
     "origin": "한국",
     "about": [
-      "AD International(에이디인터내셔널 주식회사)은 화장품과 방향제를 생산하는 한국의 OEM/ODM 제조사입니다. 회사 카탈로그에 따르면 오랫동안 국내 유명 브랜드의 제품을 생산해 왔으며, 연구소는 친환경 제형 개발을 계속하고 있습니다.",
+      "AD International(에이디인터내셔널 주식회사)은 화장품과 방향제를 생산하는 한국의 OEM/ODM 제조사입니다. 오랫동안 국내 유명 브랜드의 제품을 생산해 왔으며, 연구소는 친환경 제형 개발을 계속하고 있습니다.",
       "DAILY COMMA는 이 회사의 자체 향 제품 브랜드입니다: 퍼퓸 미스트, 두 가지 오드퍼퓸 라인, 핸드·바디 워시와 로션, 핸드크림, 고체 향수와 향수 밤, 헤어 퍼퓸, 데오도란트 미스트, 그리고 리드형과 그라데이션 보틀형 홈 디퓨저가 있습니다.",
-      "데일리콤마 공식 웹사이트(dailycomma.com)에 따르면 이 브랜드는 AD International Corp.(대표 Semin Ahn)가 운영하며, 사업자등록번호 214-86-62706으로 경기도 파주에 등록되어 있습니다. 공식 인스타그램(@dailycomma_official)과 유튜브 채널(AD International)도 운영합니다."
+      "이 브랜드는 AD International Corp.(대표 Semin Ahn)가 운영하며, 사업자등록번호 214-86-62706으로 경기도 파주에 등록되어 있습니다. 공식 인스타그램(@dailycomma_official)과 유튜브 채널(AD International)도 운영합니다."
     ],
     "facts": [
       "한국 소재",
       "브랜드: DAILY COMMA",
-      "화장품·방향제 OEM/ODM 제조사 (회사 카탈로그)",
+      "화장품·방향제 OEM/ODM 제조사",
       "퍼퓸 미스트, 오드퍼퓸, 핸드·바디 케어, 고체 향수, 헤어 퍼퓸, 데오도란트 미스트, 홈 디퓨저"
     ],
     "channels": [
@@ -22,59 +22,59 @@
     "lines": [
       {
         "name": "Aroma Perfume Mist",
-        "note": "카탈로그에 따르면 15ml 휴대용 미스트 라인으로, 일상에서 사용할 수 있는 10가지 향으로 구성됩니다."
+        "note": "15ml 휴대용 미스트 라인으로, 일상에서 사용할 수 있는 10가지 향으로 구성됩니다."
       },
       {
         "name": "Most Eau de Parfum",
-        "note": "카탈로그에 따르면 프랑스산 에센셜 오일을 담은 30ml 오드퍼퓸으로, 6가지 향이 있습니다."
+        "note": "프랑스산 에센셜 오일을 담은 30ml 오드퍼퓸으로, 6가지 향이 있습니다."
       },
       {
         "name": "Eau de Parfum",
-        "note": "카탈로그에 따르면 프랑스산 라벤더 에센셜 오일을 담은 30ml 오드퍼퓸으로, 남녀 공용 6가지 향이 있습니다."
+        "note": "프랑스산 라벤더 에센셜 오일을 담은 30ml 오드퍼퓸으로, 남녀 공용 6가지 향이 있습니다."
       },
       {
         "name": "Most Perfume Hand Cream",
-        "note": "카탈로그에 따르면 시어버터를 담은 50ml 핸드크림이며, Most Eau de Parfum과 같은 6가지 향입니다."
+        "note": "시어버터를 담은 50ml 핸드크림이며, Most Eau de Parfum과 같은 6가지 향입니다."
       },
       {
         "name": "Bello de Perfume Hand Wash & Lotion",
-        "note": "카탈로그에 따르면 식물성 오일과 추출물을 담은 pH 밸런스 핸드워시·로션 세트, 300ml입니다."
+        "note": "식물성 오일과 추출물을 담은 pH 밸런스 핸드워시·로션 세트, 300ml입니다."
       },
       {
         "name": "Bello de Perfume Body Wash & Lotion",
-        "note": "카탈로그에 따르면 Delight Rose 향의 바디워시·로션 세트, 500ml입니다."
+        "note": "Delight Rose 향의 바디워시·로션 세트, 500ml입니다."
       },
       {
         "name": "Bello de Perfume Hand Cream",
-        "note": "카탈로그에 따르면 Bello de Perfume 라인의 50ml 핸드크림입니다."
+        "note": "Bello de Perfume 라인의 50ml 핸드크림입니다."
       },
       {
         "name": "Bello de Perfume Balm",
-        "note": "카탈로그에 따르면 5.5g 고체 향수 밤으로, 4가지 향이 있습니다."
+        "note": "5.5g 고체 향수 밤으로, 4가지 향이 있습니다."
       },
       {
         "name": "Bello de Solid Perfume",
-        "note": "카탈로그에 따르면 알코올이 들어가지 않은 4.7g 고체 향수로, 기본 4가지 향과 추가 6가지 향 옵션이 있습니다."
+        "note": "알코올이 들어가지 않은 4.7g 고체 향수로, 기본 4가지 향과 추가 6가지 향 옵션이 있습니다."
       },
       {
         "name": "Signature Perfume Discovery Set",
-        "note": "카탈로그에 따르면 DAILY COMMA의 시그니처 향 4종을 담은 3.3ml 디스커버리 세트입니다."
+        "note": "DAILY COMMA의 시그니처 향 4종을 담은 3.3ml 디스커버리 세트입니다."
       },
       {
         "name": "Most Hair Perfume",
-        "note": "카탈로그에 따르면 식물 추출물과 단백질 성분을 담은 30ml 휴대용 헤어 퍼퓸으로, 기본과 추가 향 세트가 있습니다."
+        "note": "식물 추출물과 단백질 성분을 담은 30ml 휴대용 헤어 퍼퓸으로, 기본과 추가 향 세트가 있습니다."
       },
       {
         "name": "Perfume Deodorant Mist",
-        "note": "카탈로그에 따르면 50ml 휴대용 데오도란트 미스트로, 쿨링 타입과 파우더리한 드라이 타입이 있습니다."
+        "note": "50ml 휴대용 데오도란트 미스트로, 쿨링 타입과 파우더리한 드라이 타입이 있습니다."
       },
       {
         "name": "Crystal Edition Diffuser",
-        "note": "카탈로그에 따르면 여러 향으로 제공되는 100ml 장식용 리드 디퓨저입니다."
+        "note": "여러 향으로 제공되는 100ml 장식용 리드 디퓨저입니다."
       },
       {
         "name": "Aurora Diffuser",
-        "note": "카탈로그에 따르면 Clean Cotton과 Black Cherry 향의 200ml 그라데이션 보틀 리드 디퓨저입니다."
+        "note": "Clean Cotton과 Black Cherry 향의 200ml 그라데이션 보틀 리드 디퓨저입니다."
       }
     ],
     "tech": [],

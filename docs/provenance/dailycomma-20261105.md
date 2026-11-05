@@ -1,10 +1,11 @@
 # DAILY COMMA (AD International) source and publication record
 
-Status: published under Rachel Lee's (AD International Corp.) written consent of
-5 November 2026 and Anton's R-046 command of 5 November 2026 (~16:20 KST, HQ
-chat) to publish the profile on all showcase languages and merge after Claude,
-Codex and the shell verification — reviewer verdict not awaited for this
-release.
+Status: prepared and approved for publication under Rachel Lee's (AD
+International Corp.) written consent of 5 November 2026 and Anton's R-046
+command of 5 November 2026 (~16:20 KST, HQ chat) to publish the profile on
+all showcase languages and merge after Claude, Codex and the shell
+verification. Not yet merged or deployed; reviewer verdict is required
+before merge per the task card's current review stage.
 
 ## Primary sources
 
@@ -88,13 +89,19 @@ covered by Rachel Lee's and Irina's permission above.
 - `public/img/suppliers/dailycomma/products/*.jpg` (16 files): cropped from
   the catalog PDF above; no price or "Directing Cut" plaque remains (checked
   by reading each file).
-- `public/img/suppliers/dailycomma/logo-black.png`:
-  `https://ecojoy2351.cafe24.com/web/upload/_dj/img/logo_black.png` (official
-  site, read live 5 November 2026). Low resolution (318×24 px) — requesting a
-  vector/high-resolution logo is one of the follow-up questions in the draft
-  letter to Rachel Lee (task T-20261105-093).
+- `public/img/suppliers/dailycomma/logo-black.png`: re-sourced 5 November 2026
+  from the catalog PDF cover page (page 1, Illustrator-authored, vector text)
+  instead of the official-site asset — the site's own
+  `logo_black.png` is only 318×24 px and became blurred when stretched to the
+  profile's display height. Rendered from the PDF at 1200 dpi
+  (`pdftoppm`), cropped to the "DAILYCOMMA" wordmark bounding box, background
+  made transparent; fill colour (#3f3f40) matches the ink colour used in the
+  source PDF, not forced to pure black. 1957×240 px. Requesting a vector/SVG
+  logo from Rachel Lee remains a follow-up question in the draft letter
+  (task T-20261105-093), since this wordmark is the catalog cover-slide
+  style and may differ slightly from the navbar wordmark on dailycomma.com.
 
 ## Hashes
 
 - dailycomma_catalog_2026.pdf: `b778f9737acf113e7aba9e19386249aab61faafe943d65a8d17cfbfda10dee90`
-- logo-black.png: `8561cb1876190e1854f223508b40ef1f6e74e378f499668f3a3bf680281a7148`
+- logo-black.png: `296e5ffe61d5b94169b9b9a5d23a59b10e20bae7f4551da0c9588a97d53688d8`

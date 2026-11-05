@@ -4,14 +4,14 @@
     "descriptor": "AD International：韩国 OEM/ODM 制造商，旗下品牌 DAILY COMMA 涵盖香氛喷雾、淡香水、固体香水、发香水、手部与身体护理以及家用香薰",
     "origin": "韩国",
     "about": [
-      "AD International（ADI International Co., Ltd.）是一家韩国化妆品与空气清新剂的 OEM/ODM 制造商。根据其产品目录，公司多年来为知名韩国品牌代工生产，其研发中心持续开发环保配方。",
+      "AD International（ADI International Co., Ltd.）是一家韩国化妆品与空气清新剂的 OEM/ODM 制造商。公司多年来为知名韩国品牌代工生产，其研发中心持续开发环保配方。",
       "DAILY COMMA 是该公司自有的香氛与个护品牌：香氛喷雾、两条淡香水产品线、手部与身体沐浴露及乳液、护手霜、固体香水与香膏、发香水、体香喷雾，以及藤条式与渐变瓶身家用香薰。",
-      "根据官方网站 dailycomma.com 的信息，该品牌由 AD International Corp.（CEO Semin Ahn）运营；公司在韩国注册，注册号为 214-86-62706，地址位于京畿道坡州市。品牌设有官方 Instagram 账号（@dailycomma_official）和 YouTube 频道（AD International）。"
+      "该品牌由 AD International Corp.（CEO Semin Ahn）运营；公司在韩国注册，注册号为 214-86-62706，地址位于京畿道坡州市。品牌设有官方 Instagram 账号（@dailycomma_official）和 YouTube 频道（AD International）。"
     ],
     "facts": [
       "总部位于韩国",
       "品牌：DAILY COMMA",
-      "化妆品与空气清新剂 OEM/ODM 制造商（据公司目录）",
+      "化妆品与空气清新剂 OEM/ODM 制造商",
       "香氛喷雾、淡香水、手部与身体护理、固体香水、发香水、体香喷雾、家用香薰"
     ],
     "channels": [
@@ -22,59 +22,59 @@
     "lines": [
       {
         "name": "Aroma Perfume Mist",
-        "note": "据目录介绍，这是一款15毫升便携喷雾系列，提供十种适合日常使用的香型。"
+        "note": "这是一款15毫升便携喷雾系列，提供十种适合日常使用的香型。"
       },
       {
         "name": "Most Eau de Parfum",
-        "note": "据目录介绍，这是一款含法国精油的30毫升淡香水，共六种香型。"
+        "note": "这是一款含法国精油的30毫升淡香水，共六种香型。"
       },
       {
         "name": "Eau de Parfum",
-        "note": "据目录介绍，这是一款含法国薰衣草精油的30毫升淡香水，共六种中性香型。"
+        "note": "这是一款含法国薰衣草精油的30毫升淡香水，共六种中性香型。"
       },
       {
         "name": "Most Perfume Hand Cream",
-        "note": "据目录介绍，这是一款含乳木果油的50毫升护手霜，香型与 Most Eau de Parfum 相同。"
+        "note": "这是一款含乳木果油的50毫升护手霜，香型与 Most Eau de Parfum 相同。"
       },
       {
         "name": "Bello de Perfume Hand Wash & Lotion",
-        "note": "据目录介绍，这是一套含植物油与植物萃取物、pH 平衡的洗手液与乳液组合，容量300毫升。"
+        "note": "这是一套含植物油与植物萃取物、pH 平衡的洗手液与乳液组合，容量300毫升。"
       },
       {
         "name": "Bello de Perfume Body Wash & Lotion",
-        "note": "据目录介绍，这是一套 Delight Rose 香型的沐浴露与身体乳组合，容量500毫升。"
+        "note": "这是一套 Delight Rose 香型的沐浴露与身体乳组合，容量500毫升。"
       },
       {
         "name": "Bello de Perfume Hand Cream",
-        "note": "据目录介绍，这是 Bello de Perfume 系列中的一款50毫升护手霜。"
+        "note": "这是 Bello de Perfume 系列中的一款50毫升护手霜。"
       },
       {
         "name": "Bello de Perfume Balm",
-        "note": "据目录介绍，这是一款5.5克固体香膏，共四种香型。"
+        "note": "这是一款5.5克固体香膏，共四种香型。"
       },
       {
         "name": "Bello de Solid Perfume",
-        "note": "据目录介绍，这是一款不含酒精的4.7克固体香水，含四种原始香型及六种新增香型。"
+        "note": "这是一款不含酒精的4.7克固体香水，含四种原始香型及六种新增香型。"
       },
       {
         "name": "Signature Perfume Discovery Set",
-        "note": "据目录介绍，这是一套3.3毫升的探索装，包含 DAILY COMMA 的四款招牌香型。"
+        "note": "这是一套3.3毫升的探索装，包含 DAILY COMMA 的四款招牌香型。"
       },
       {
         "name": "Most Hair Perfume",
-        "note": "据目录介绍，这是一款30毫升便携发香水，含植物萃取物与蛋白质成分，提供基础与新增香型系列。"
+        "note": "这是一款30毫升便携发香水，含植物萃取物与蛋白质成分，提供基础与新增香型系列。"
       },
       {
         "name": "Perfume Deodorant Mist",
-        "note": "据目录介绍，这是一款50毫升便携体香喷雾，分为清凉型和干爽粉感型。"
+        "note": "这是一款50毫升便携体香喷雾，分为清凉型和干爽粉感型。"
       },
       {
         "name": "Crystal Edition Diffuser",
-        "note": "据目录介绍，这是一款100毫升装饰性藤条香薰，提供多种香型。"
+        "note": "这是一款100毫升装饰性藤条香薰，提供多种香型。"
       },
       {
         "name": "Aurora Diffuser",
-        "note": "据目录介绍，这是一款200毫升渐变瓶身藤条香薰，香型为 Clean Cotton 和 Black Cherry。"
+        "note": "这是一款200毫升渐变瓶身藤条香薰，香型为 Clean Cotton 和 Black Cherry。"
       }
     ],
     "tech": [],
