@@ -109,11 +109,18 @@ const m = media[profile.slug];
 const publicHero = profile.slug === 'agafar'
   ? '/img/suppliers/agafar/products/agafar-site-01.webp'
   : profile.gallery?.[0];
-// These two photos have an exact, local source match. Do not add a Mono JET
-// image until the company supplies a source that identifies that exact unit.
+// Every photo below has an exact, local source match in the official AGAFAR
+// device catalogue (see docs/provenance/agafar-20261105.md). Do not add a
+// Mono JET image until the company supplies a source that identifies that
+// exact unit.
 const techImages: Record<string, string> = profile.slug === 'agafar' ? {
   'Transfer': '/img/suppliers/agafar/tech/transfer.webp',
   'agafar Point Plus': '/img/suppliers/agafar/scenes/agafar-point-plus.webp',
+  'agafar Point Plus Pro': '/img/suppliers/agafar/tech/point-plus-pro.webp',
+  'agafar Line S': '/img/suppliers/agafar/tech/line-s.webp',
+  'agafar S': '/img/suppliers/agafar/tech/agafar-s.webp',
+  'PLASMA': '/img/suppliers/agafar/tech/plasma.webp',
+  'agafar LED PDT Light': '/img/suppliers/agafar/tech/led-pdt-light.webp',
   'Face Fitness Turn Up': '/img/suppliers/agafar/tech/face-fitness-turn-up.webp',
   'PLAZION': '/img/suppliers/agafar/scenes/plazion.webp',
 } : {};
@@ -521,12 +528,6 @@ function monogram(name: string): string {
             ))}
           </div>
         )}
-        {agafarPromoTerm && (
-          <aside class="sp-tech__terms" aria-label={agafarPromoTerm.label}>
-            <span class="sp-tech__terms-label">{agafarPromoTerm.label}</span>
-            <p>{agafarPromoTerm.value}</p>
-          </aside>
-        )}
         <div class:list={['sp-tech', { 'sp-tech--remaining': agafarPromoTech.length > 0 }]}>
           {remainingTech.map((tItem) => (
             <article class="sp-tech__item">
@@ -538,6 +539,12 @@ function monogram(name: string): string {
             </article>
           ))}
         </div>
+        {agafarPromoTerm && (
+          <aside class="sp-tech__terms" aria-label={agafarPromoTerm.label}>
+            <span class="sp-tech__terms-label">{agafarPromoTerm.label}</span>
+            <p>{agafarPromoTerm.value}</p>
+          </aside>
+        )}
         {c.ui.tech_note && <p class="sp-tech__src">{c.ui.tech_note}</p>}
       </div>
     </section>
