@@ -419,6 +419,20 @@ import cheon365Pt from './suppliers-i18n/cheon365.pt.json';
 import cheon365He from './suppliers-i18n/cheon365.he.json';
 import cheon365Hi from './suppliers-i18n/cheon365.hi.json';
 import cheon365Catalog from './suppliers-i18n/cheon365.catalog.json';
+import dailycommaRu from './suppliers-i18n/dailycomma.ru.json';
+import dailycommaEn from './suppliers-i18n/dailycomma.en.json';
+import dailycommaKo from './suppliers-i18n/dailycomma.ko.json';
+import dailycommaZh from './suppliers-i18n/dailycomma.zh.json';
+import dailycommaJa from './suppliers-i18n/dailycomma.ja.json';
+import dailycommaIt from './suppliers-i18n/dailycomma.it.json';
+import dailycommaDe from './suppliers-i18n/dailycomma.de.json';
+import dailycommaFr from './suppliers-i18n/dailycomma.fr.json';
+import dailycommaTr from './suppliers-i18n/dailycomma.tr.json';
+import dailycommaEs from './suppliers-i18n/dailycomma.es.json';
+import dailycommaPt from './suppliers-i18n/dailycomma.pt.json';
+import dailycommaHe from './suppliers-i18n/dailycomma.he.json';
+import dailycommaHi from './suppliers-i18n/dailycomma.hi.json';
+import dailycommaCatalog from './suppliers-i18n/dailycomma.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -3282,6 +3296,34 @@ export const suppliers: SupplierProfile[] = [
     },
     i18n: {
       ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any),
+    },
+  },
+  {
+    slug: 'dailycomma',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'AD International Corp.',
+    brand: 'DAILY COMMA',
+    status: 'provided',
+    /* Мягкая розово-сливовая гамма парфюмерного бренда (voice 'pop' для
+       категории fragrance по комментарию типа выше); продукты сняты на белом
+       фоне студийно, бренд-палитра своим сайтом не задокументирована. */
+    brandColors: { deep: '#2E1A24', sky: '#F6D9DE', accent: '#D1457A', bg: '#FDF6F3' },
+    voice: 'pop',
+    logoUrl: '/img/suppliers/dailycomma/logo-black.png',
+    gallery: [
+      '/img/suppliers/dailycomma/products/aroma-perfume-mist.jpg',
+      '/img/suppliers/dailycomma/products/most-eau-de-parfum.jpg',
+      '/img/suppliers/dailycomma/products/eau-de-parfum.jpg',
+      '/img/suppliers/dailycomma/products/bello-hand-wash-lotion.jpg',
+      '/img/suppliers/dailycomma/products/bello-solid-perfume.jpg',
+      '/img/suppliers/dailycomma/products/most-hair-perfume.jpg',
+      '/img/suppliers/dailycomma/products/perfume-deodorant-mist.jpg',
+      '/img/suppliers/dailycomma/products/aurora-diffuser.jpg',
+    ],
+    catalog: dailycommaCatalog,
+    i18n: {
+      ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any),
     },
   },
 ];

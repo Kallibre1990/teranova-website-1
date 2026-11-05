@@ -1,0 +1,88 @@
+[
+  {
+    "line": "Aroma Perfume Mist",
+    "items": [
+      { "name": "Aroma Perfume Mist", "img": "/img/suppliers/dailycomma/products/aroma-perfume-mist.jpg", "volume": "15 ml" }
+    ]
+  },
+  {
+    "line": "Most Eau de Parfum",
+    "items": [
+      { "name": "Most Eau de Parfum", "img": "/img/suppliers/dailycomma/products/most-eau-de-parfum.jpg", "volume": "30 ml" }
+    ]
+  },
+  {
+    "line": "Eau de Parfum",
+    "items": [
+      { "name": "Eau de Parfum", "img": "/img/suppliers/dailycomma/products/eau-de-parfum.jpg", "volume": "30 ml" }
+    ]
+  },
+  {
+    "line": "Most Perfume Hand Cream",
+    "items": [
+      { "name": "Most Perfume Hand Cream", "img": "/img/suppliers/dailycomma/products/most-perfume-hand-cream.jpg", "volume": "50 ml" }
+    ]
+  },
+  {
+    "line": "Bello de Perfume Hand Wash & Lotion",
+    "items": [
+      { "name": "Bello de Perfume Hand Wash & Lotion", "img": "/img/suppliers/dailycomma/products/bello-hand-wash-lotion.jpg", "volume": "300 ml" }
+    ]
+  },
+  {
+    "line": "Bello de Perfume Body Wash & Lotion",
+    "items": [
+      { "name": "Bello de Perfume Body Wash & Lotion", "img": "/img/suppliers/dailycomma/products/bello-body-wash-lotion.jpg", "volume": "500 ml" }
+    ]
+  },
+  {
+    "line": "Bello de Perfume Hand Cream",
+    "items": [
+      { "name": "Bello de Perfume Hand Cream", "img": "/img/suppliers/dailycomma/products/bello-hand-cream.jpg", "volume": "50 ml" }
+    ]
+  },
+  {
+    "line": "Bello de Perfume Balm",
+    "items": [
+      { "name": "Bello de Perfume Balm", "img": "/img/suppliers/dailycomma/products/bello-perfume-balm.jpg", "volume": "5.5 g" }
+    ]
+  },
+  {
+    "line": "Bello de Solid Perfume",
+    "items": [
+      { "name": "Bello de Solid Perfume", "img": "/img/suppliers/dailycomma/products/bello-solid-perfume.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — New Scent Variants", "img": "/img/suppliers/dailycomma/products/bello-solid-perfume-new.jpg", "volume": "4.7 g" }
+    ]
+  },
+  {
+    "line": "Signature Perfume Discovery Set",
+    "items": [
+      { "name": "Signature Perfume Discovery Set", "img": "/img/suppliers/dailycomma/products/signature-discovery-set.jpg", "volume": "3.3 ml" }
+    ]
+  },
+  {
+    "line": "Most Hair Perfume",
+    "items": [
+      { "name": "Most Hair Perfume", "img": "/img/suppliers/dailycomma/products/most-hair-perfume.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — New Scent Variants", "img": "/img/suppliers/dailycomma/products/most-hair-perfume-new.jpg", "volume": "30 ml" }
+    ]
+  },
+  {
+    "line": "Perfume Deodorant Mist",
+    "items": [
+      { "name": "Perfume Deodorant Mist", "img": "/img/suppliers/dailycomma/products/perfume-deodorant-mist.jpg", "volume": "50 ml" }
+    ]
+  },
+  {
+    "line": "Crystal Edition Diffuser",
+    "items": [
+      { "name": "Crystal Edition Diffuser", "img": "/img/suppliers/dailycomma/products/crystal-edition-diffuser.jpg", "volume": "100 ml" }
+    ]
+  },
+  {
+    "line": "Aurora Diffuser",
+    "items": [
+      { "name": "Aurora Diffuser", "img": "/img/suppliers/dailycomma/products/aurora-diffuser.jpg", "volume": "200 ml" }
+    ]
+  }
+]
