@@ -16,130 +16,130 @@ export const abeltyPosts: BlogPost[] = [
     "hero": "/img/suppliers/abelty/products/abelty-full-range.jpg",
     "i18n": {
       "ru": {
-        "title": "ABELTY: 4 продукта рисовой линейки",
+        "title": "ABELTY: 4 продукта в экспортном прайс-листе",
         "excerpt": "Действующий экспортный прайс-лист ABELTY — четыре продукта: двойная рисовая сыворотка, солнцезащитная сыворотка, очищающая пенка и крем с пробиотиками храмового кимчи.",
-        "seoTitle": "ABELTY: 4 продукта рисовой линейки · Teranova",
+        "seoTitle": "ABELTY: 4 продукта в экспортном прайс-листе · Teranova",
         "seoDesc": "Обзор четырёх продуктов ABELTY от UNIC Cosmetic: рисовые сыворотки, пенка, крем на пробиотиках кимчи.",
         "sections": [
           {
             "h": "Что есть в прайс-листе",
             "p": [
-              "В действующем экспортном прайс-листе корейского бренда ABELTY (UNIC Cosmetic) — четыре продукта рисовой линейки. Rice Squalane Glow Double Serum — двухслойная сыворотка для сияния на рисовой воде и сквалане, 50 мл. Rice Niacinamide Moisture Sun Serum — солнцезащитная сыворотка SPF50+ PA++++ с ниацинамидом, 50 мл. Rice Hydrating Cleansing Foam — очищающая пенка с 0,7% рисовой пудры, 150 мл. K-Probiotics Soothing Relief Cream — крем с пробиотиками Weissella cibaria из традиционного храмового кимчи, 80 мл; по данным бренда, в составе крема также запатентованный растительный экстракт. Актуальность конкретных позиций и наличие на своём рынке нужно уточнять отдельно через Teranova."
+              "В действующем экспортном прайс-листе корейского бренда ABELTY (UNIC Cosmetic) — три продукта рисовой линейки и один продукт линейки K-Probiotics. Rice Squalane Glow Double Serum — двухслойная сыворотка для сияния на воде на рисовых отрубях и сквалане, 50 мл. Rice Niacinamide Moisture Sun Serum — солнцезащитная сыворотка SPF50+ PA++++ с ниацинамидом, 50 мл. Rice Hydrating Cleansing Foam — очищающая пенка с 0,7% рисовой пудры, 150 мл. K-Probiotics Soothing Relief Cream — крем с пробиотиками Weissella cibaria из традиционного храмового кимчи, 80 мл; по данным бренда, в составе крема также запатентованный растительный экстракт. Актуальность конкретных позиций и наличие на своём рынке нужно уточнять отдельно через Teranova."
             ]
           }
         ]
       },
       "en": {
-        "title": "ABELTY: 4 products in the rice line",
-        "excerpt": "ABELTY's current export price list covers four products: a rice-water double serum, a sun serum, a cleansing foam, and a temple-kimchi probiotic cream.",
-        "seoTitle": "ABELTY: 4 products in the rice line · Teranova",
+        "title": "ABELTY: 4 products in the export price list",
+        "excerpt": "ABELTY's current export price list covers four products: a rice-bran-water double serum, a sun serum, a cleansing foam, and a temple-kimchi probiotic cream.",
+        "seoTitle": "ABELTY: 4 products in the export price list · Teranova",
         "seoDesc": "An overview of ABELTY's four products from UNIC Cosmetic: rice serums, a cleansing foam, and a kimchi-probiotic cream.",
         "sections": [
           {
             "h": "What's in the price list",
             "p": [
-              "The Korean brand ABELTY (UNIC Cosmetic)'s current export price list lists four rice-line products. The Rice Squalane Glow Double Serum is a two-layer glow serum built on rice water and squalane, 50 ml. The Rice Niacinamide Moisture Sun Serum is an SPF50+ PA++++ sun serum with niacinamide, 50 ml. The Rice Hydrating Cleansing Foam is a cleansing foam with 0.7% rice powder, 150 ml. The K-Probiotics Soothing Relief Cream, 80 ml, contains Weissella cibaria probiotics from traditional temple kimchi and, per the brand, a patented plant extract. Current availability of specific items for a given market should be confirmed separately through Teranova."
+              "The Korean brand ABELTY (UNIC Cosmetic)'s current export price list lists three products in the Rice line and one in the K-Probiotics line. The Rice Squalane Glow Double Serum is a two-layer glow serum built on rice bran water and squalane, 50 ml. The Rice Niacinamide Moisture Sun Serum is an SPF50+ PA++++ sun serum with niacinamide, 50 ml. The Rice Hydrating Cleansing Foam is a cleansing foam with 0.7% rice powder, 150 ml. The K-Probiotics Soothing Relief Cream, 80 ml, contains Weissella cibaria probiotics from traditional temple kimchi and, per the brand, a patented plant extract. Current availability of specific items for a given market should be confirmed separately through Teranova."
             ]
           }
         ]
       },
       "ko": {
-        "title": "ABELTY: 라이스 라인 4종",
-        "excerpt": "ABELTY의 현재 수출 가격표에는 네 가지 제품이 있습니다: 쌀뜨물 더블 세럼, 선 세럼, 클렌징폼, 사찰 김치 프로바이오틱 크림.",
-        "seoTitle": "ABELTY: 라이스 라인 4종 · Teranova",
+        "title": "ABELTY: 수출 가격표 4종 제품",
+        "excerpt": "ABELTY의 현재 수출 가격표에는 네 가지 제품이 있습니다: 쌀겨수 더블 세럼, 선 세럼, 클렌징폼, 사찰 김치 프로바이오틱 크림.",
+        "seoTitle": "ABELTY: 수출 가격표 4종 제품 · Teranova",
         "seoDesc": "UNIC Cosmetic ABELTY 4종 제품 소개: 라이스 세럼, 클렌징폼, 김치 프로바이오틱 크림.",
         "sections": [
-          { "h": "가격표에 있는 제품", "p": ["한국 브랜드 ABELTY(UNIC Cosmetic)의 현재 수출 가격표에는 라이스 라인 4종이 있습니다. Rice Squalane Glow Double Serum은 쌀뜨물과 스쿠알란을 기반으로 한 2중 글로우 세럼, 50ml입니다. Rice Niacinamide Moisture Sun Serum은 나이아신아마이드가 든 SPF50+ PA++++ 선 세럼, 50ml입니다. Rice Hydrating Cleansing Foam은 쌀가루 0.7%가 든 클렌징폼, 150ml입니다. K-Probiotics Soothing Relief Cream(80ml)에는 전통 사찰 김치에서 유래한 Weissella cibaria 프로바이오틱스와, 브랜드에 따르면 특허받은 식물 추출물이 들어 있습니다. 특정 시장에서의 품목 및 재고 여부는 Teranova를 통해 별도로 확인해야 합니다."] }
+          { "h": "가격표에 있는 제품", "p": ["한국 브랜드 ABELTY(UNIC Cosmetic)의 현재 수출 가격표에는 라이스 라인 3종과 K-Probiotics 라인 1종이 있습니다. Rice Squalane Glow Double Serum은 쌀겨수와 스쿠알란을 기반으로 한 2중 글로우 세럼, 50ml입니다. Rice Niacinamide Moisture Sun Serum은 나이아신아마이드가 든 SPF50+ PA++++ 선 세럼, 50ml입니다. Rice Hydrating Cleansing Foam은 쌀가루 0.7%가 든 클렌징폼, 150ml입니다. K-Probiotics Soothing Relief Cream(80ml)에는 전통 사찰 김치에서 유래한 Weissella cibaria 프로바이오틱스와, 브랜드에 따르면 특허받은 식물 추출물이 들어 있습니다. 특정 시장에서의 품목 및 재고 여부는 Teranova를 통해 별도로 확인해야 합니다."] }
         ]
       },
       "zh": {
-        "title": "ABELTY：米系列4款产品",
-        "excerpt": "ABELTY现行出口价目表包含四款产品：米水双层精华液、防晒精华液、洁面泡沫和寺院泡菜益生菌面霜。",
-        "seoTitle": "ABELTY：米系列4款产品 · Teranova",
+        "title": "ABELTY：出口价目表4款产品",
+        "excerpt": "ABELTY现行出口价目表包含四款产品：米糠水双层精华液、防晒精华液、洁面泡沫和寺院泡菜益生菌面霜。",
+        "seoTitle": "ABELTY：出口价目表4款产品 · Teranova",
         "seoDesc": "UNIC Cosmetic旗下ABELTY四款产品介绍：米系列精华液、洁面泡沫、泡菜益生菌面霜。",
         "sections": [
-          { "h": "价目表中的产品", "p": ["韩国品牌ABELTY（UNIC Cosmetic）现行出口价目表列有米系列四款产品。Rice Squalane Glow Double Serum是以米水和角鲨烷为基础的双层焕亮精华液，50毫升。Rice Niacinamide Moisture Sun Serum是含烟酰胺的SPF50+ PA++++防晒精华液，50毫升。Rice Hydrating Cleansing Foam是含0.7%米粉的洁面泡沫，150毫升。K-Probiotics Soothing Relief Cream（80毫升）含有源自传统寺院泡菜的Weissella cibaria益生菌，据品牌介绍还含有一种专利植物提取物。具体产品在特定市场的供应情况应通过Teranova另行确认。"] }
+          { "h": "价目表中的产品", "p": ["韩国品牌ABELTY（UNIC Cosmetic）现行出口价目表列有米系列三款产品及K-Probiotics系列一款产品。Rice Squalane Glow Double Serum是以米糠水和角鲨烷为基础的双层焕亮精华液，50毫升。Rice Niacinamide Moisture Sun Serum是含烟酰胺的SPF50+ PA++++防晒精华液，50毫升。Rice Hydrating Cleansing Foam是含0.7%米粉的洁面泡沫，150毫升。K-Probiotics Soothing Relief Cream（80毫升）含有源自传统寺院泡菜的Weissella cibaria益生菌，据品牌介绍还含有一种专利植物提取物。具体产品在特定市场的供应情况应通过Teranova另行确认。"] }
         ]
       },
       "ja": {
-        "title": "ABELTY：ライスラインの4製品",
-        "excerpt": "ABELTYの現行輸出価格表には4製品があります：米水ダブル美容液、サン美容液、洗顔フォーム、寺院キムチ由来プロバイオティクスクリーム。",
-        "seoTitle": "ABELTY：ライスラインの4製品 · Teranova",
+        "title": "ABELTY：輸出価格表の4製品",
+        "excerpt": "ABELTYの現行輸出価格表には4製品があります：米ぬか水ダブル美容液、サン美容液、洗顔フォーム、寺院キムチ由来プロバイオティクスクリーム。",
+        "seoTitle": "ABELTY：輸出価格表の4製品 · Teranova",
         "seoDesc": "UNIC CosmeticのABELTY4製品紹介：米系美容液、洗顔フォーム、キムチプロバイオティクスクリーム。",
         "sections": [
-          { "h": "価格表にある製品", "p": ["韓国ブランドABELTY（UNIC Cosmetic）の現行輸出価格表には、ライスラインの4製品が掲載されています。Rice Squalane Glow Double Serumは米水とスクワランを基にした2層ツヤ美容液、50ml。Rice Niacinamide Moisture Sun Serumはナイアシンアミド配合のSPF50+ PA++++サン美容液、50ml。Rice Hydrating Cleansing Foamは米粉0.7%配合の洗顔フォーム、150ml。K-Probiotics Soothing Relief Cream（80ml）には伝統的な寺院キムチ由来のWeissella cibariaプロバイオティクスと、ブランドによると特許取得済みの植物由来成分が含まれています。特定市場での取り扱い状況はTeranovaを通じて別途ご確認ください。"] }
+          { "h": "価格表にある製品", "p": ["韓国ブランドABELTY（UNIC Cosmetic）の現行輸出価格表には、ライスラインの3製品とK-Probioticsラインの1製品が掲載されています。Rice Squalane Glow Double Serumは米ぬか水とスクワランを基にした2層ツヤ美容液、50ml。Rice Niacinamide Moisture Sun Serumはナイアシンアミド配合のSPF50+ PA++++サン美容液、50ml。Rice Hydrating Cleansing Foamは米粉0.7%配合の洗顔フォーム、150ml。K-Probiotics Soothing Relief Cream（80ml）には伝統的な寺院キムチ由来のWeissella cibariaプロバイオティクスと、ブランドによると特許取得済みの植物由来成分が含まれています。特定市場での取り扱い状況はTeranovaを通じて別途ご確認ください。"] }
         ]
       },
       "it": {
-        "title": "ABELTY: 4 prodotti della linea riso",
-        "excerpt": "L'attuale listino export di ABELTY comprende quattro prodotti: un siero doppio all'acqua di riso, un siero solare, una schiuma detergente e una crema ai probiotici di kimchi da tempio.",
-        "seoTitle": "ABELTY: 4 prodotti della linea riso · Teranova",
+        "title": "ABELTY: 4 prodotti nel listino export",
+        "excerpt": "L'attuale listino export di ABELTY comprende quattro prodotti: un siero doppio all'acqua di crusca di riso, un siero solare, una schiuma detergente e una crema ai probiotici di kimchi da tempio.",
+        "seoTitle": "ABELTY: 4 prodotti nel listino export · Teranova",
         "seoDesc": "Panoramica dei quattro prodotti ABELTY di UNIC Cosmetic: sieri al riso, schiuma detergente, crema ai probiotici di kimchi.",
         "sections": [
-          { "h": "Cosa c'è nel listino", "p": ["Il listino export attuale del marchio coreano ABELTY (UNIC Cosmetic) comprende quattro prodotti della linea riso. Il Rice Squalane Glow Double Serum è un siero luminoso a due strati a base di acqua di riso e squalano, 50 ml. Il Rice Niacinamide Moisture Sun Serum è un siero solare SPF50+ PA++++ con niacinamide, 50 ml. Il Rice Hydrating Cleansing Foam è una schiuma detergente con lo 0,7% di polvere di riso, 150 ml. La K-Probiotics Soothing Relief Cream, 80 ml, contiene probiotici Weissella cibaria dal tradizionale kimchi di tempio e, secondo il marchio, un estratto vegetale brevettato. La disponibilità attuale dei singoli articoli per un determinato mercato va confermata separatamente tramite Teranova."] }
+          { "h": "Cosa c'è nel listino", "p": ["Il listino export attuale del marchio coreano ABELTY (UNIC Cosmetic) comprende tre prodotti della linea riso e uno della linea K-Probiotics. Il Rice Squalane Glow Double Serum è un siero luminoso a due strati a base di acqua di crusca di riso e squalano, 50 ml. Il Rice Niacinamide Moisture Sun Serum è un siero solare SPF50+ PA++++ con niacinamide, 50 ml. Il Rice Hydrating Cleansing Foam è una schiuma detergente con lo 0,7% di polvere di riso, 150 ml. La K-Probiotics Soothing Relief Cream, 80 ml, contiene probiotici Weissella cibaria dal tradizionale kimchi di tempio e, secondo il marchio, un estratto vegetale brevettato. La disponibilità attuale dei singoli articoli per un determinato mercato va confermata separatamente tramite Teranova."] }
         ]
       },
       "de": {
-        "title": "ABELTY: 4 Produkte der Reislinie",
-        "excerpt": "Die aktuelle Exportpreisliste von ABELTY umfasst vier Produkte: ein Reiswasser-Doppelserum, ein Sonnenserum, einen Reinigungsschaum und eine Tempel-Kimchi-Probiotika-Creme.",
-        "seoTitle": "ABELTY: 4 Produkte der Reislinie · Teranova",
+        "title": "ABELTY: 4 Produkte in der Exportpreisliste",
+        "excerpt": "Die aktuelle Exportpreisliste von ABELTY umfasst vier Produkte: ein Reiskleiewasser-Doppelserum, ein Sonnenserum, einen Reinigungsschaum und eine Tempel-Kimchi-Probiotika-Creme.",
+        "seoTitle": "ABELTY: 4 Produkte in der Exportpreisliste · Teranova",
         "seoDesc": "Überblick über vier ABELTY-Produkte von UNIC Cosmetic: Reisserum, Reinigungsschaum, Kimchi-Probiotika-Creme.",
         "sections": [
-          { "h": "Was in der Preisliste steht", "p": ["Die aktuelle Exportpreisliste der koreanischen Marke ABELTY (UNIC Cosmetic) listet vier Produkte der Reislinie. Das Rice Squalane Glow Double Serum ist ein zweischichtiges Glow-Serum auf Basis von Reiswasser und Squalan, 50 ml. Das Rice Niacinamide Moisture Sun Serum ist ein LSF50+ PA++++ Sonnenserum mit Niacinamid, 50 ml. Der Rice Hydrating Cleansing Foam ist ein Reinigungsschaum mit 0,7% Reispulver, 150 ml. Die K-Probiotics Soothing Relief Cream (80 ml) enthält Weissella-cibaria-Probiotika aus traditionellem Tempel-Kimchi und laut Marke einen patentierten Pflanzenextrakt. Die aktuelle Verfügbarkeit einzelner Artikel für einen bestimmten Markt ist separat über Teranova zu bestätigen."] }
+          { "h": "Was in der Preisliste steht", "p": ["Die aktuelle Exportpreisliste der koreanischen Marke ABELTY (UNIC Cosmetic) listet drei Produkte der Reislinie und eines der K-Probiotics-Linie. Das Rice Squalane Glow Double Serum ist ein zweischichtiges Glow-Serum auf Basis von Reiskleiewasser und Squalan, 50 ml. Das Rice Niacinamide Moisture Sun Serum ist ein LSF50+ PA++++ Sonnenserum mit Niacinamid, 50 ml. Der Rice Hydrating Cleansing Foam ist ein Reinigungsschaum mit 0,7% Reispulver, 150 ml. Die K-Probiotics Soothing Relief Cream (80 ml) enthält Weissella-cibaria-Probiotika aus traditionellem Tempel-Kimchi und laut Marke einen patentierten Pflanzenextrakt. Die aktuelle Verfügbarkeit einzelner Artikel für einen bestimmten Markt ist separat über Teranova zu bestätigen."] }
         ]
       },
       "fr": {
-        "title": "ABELTY : 4 produits de la ligne riz",
-        "excerpt": "La liste de prix export actuelle d'ABELTY comprend quatre produits : un sérum double à l'eau de riz, un sérum solaire, une mousse nettoyante et une crème aux probiotiques de kimchi de temple.",
-        "seoTitle": "ABELTY : 4 produits de la ligne riz · Teranova",
+        "title": "ABELTY : 4 produits de la liste de prix export",
+        "excerpt": "La liste de prix export actuelle d'ABELTY comprend quatre produits : un sérum double à l'eau de son de riz, un sérum solaire, une mousse nettoyante et une crème aux probiotiques de kimchi de temple.",
+        "seoTitle": "ABELTY : 4 produits de la liste de prix export · Teranova",
         "seoDesc": "Aperçu des quatre produits ABELTY d'UNIC Cosmetic : sérums au riz, mousse nettoyante, crème aux probiotiques de kimchi.",
         "sections": [
-          { "h": "Ce que contient la liste de prix", "p": ["La liste de prix export actuelle de la marque coréenne ABELTY (UNIC Cosmetic) comprend quatre produits de la ligne riz. Le Rice Squalane Glow Double Serum est un sérum éclat à deux couches à base d'eau de riz et de squalane, 50 ml. Le Rice Niacinamide Moisture Sun Serum est un sérum solaire SPF50+ PA++++ à la niacinamide, 50 ml. Le Rice Hydrating Cleansing Foam est une mousse nettoyante à 0,7% de poudre de riz, 150 ml. La K-Probiotics Soothing Relief Cream (80 ml) contient des probiotiques Weissella cibaria issus du kimchi de temple traditionnel et, selon la marque, un extrait végétal breveté. La disponibilité actuelle de chaque article sur un marché donné doit être confirmée séparément via Teranova."] }
+          { "h": "Ce que contient la liste de prix", "p": ["La liste de prix export actuelle de la marque coréenne ABELTY (UNIC Cosmetic) comprend trois produits de la ligne riz et un de la ligne K-Probiotics. Le Rice Squalane Glow Double Serum est un sérum éclat à deux couches à base d'eau de son de riz et de squalane, 50 ml. Le Rice Niacinamide Moisture Sun Serum est un sérum solaire SPF50+ PA++++ à la niacinamide, 50 ml. Le Rice Hydrating Cleansing Foam est une mousse nettoyante à 0,7% de poudre de riz, 150 ml. La K-Probiotics Soothing Relief Cream (80 ml) contient des probiotiques Weissella cibaria issus du kimchi de temple traditionnel et, selon la marque, un extrait végétal breveté. La disponibilité actuelle de chaque article sur un marché donné doit être confirmée séparément via Teranova."] }
         ]
       },
       "tr": {
-        "title": "ABELTY: Pirinç serisinde 4 ürün",
-        "excerpt": "ABELTY'nin güncel ihracat fiyat listesinde dört ürün bulunuyor: pirinç suyu çift serum, güneş serumu, temizleme köpüğü ve tapınak kimchi'si probiyotik kremi.",
-        "seoTitle": "ABELTY: Pirinç serisinde 4 ürün · Teranova",
+        "title": "ABELTY: İhracat fiyat listesinde 4 ürün",
+        "excerpt": "ABELTY'nin güncel ihracat fiyat listesinde dört ürün bulunuyor: pirinç kepeği suyu çift serum, güneş serumu, temizleme köpüğü ve tapınak kimchi'si probiyotik kremi.",
+        "seoTitle": "ABELTY: İhracat fiyat listesinde 4 ürün · Teranova",
         "seoDesc": "UNIC Cosmetic'e ait ABELTY'nin dört ürününe genel bakış: pirinç serumları, temizleme köpüğü, kimchi probiyotik kremi.",
         "sections": [
-          { "h": "Fiyat listesinde neler var", "p": ["Kore markası ABELTY'nin (UNIC Cosmetic) güncel ihracat fiyat listesinde pirinç serisinden dört ürün yer alıyor. Rice Squalane Glow Double Serum, pirinç suyu ve skualan bazlı iki katmanlı parlaklık serumu, 50 ml. Rice Niacinamide Moisture Sun Serum, niasinamid içeren SPF50+ PA++++ güneş serumu, 50 ml. Rice Hydrating Cleansing Foam, %0,7 pirinç tozu içeren temizleme köpüğü, 150 ml. K-Probiotics Soothing Relief Cream (80 ml), geleneksel tapınak kimchi'sinden elde edilen Weissella cibaria probiyotikleri ve markaya göre patentli bir bitki özü içeriyor. Belirli bir pazardaki ürün bulunabilirliği Teranova üzerinden ayrıca teyit edilmelidir."] }
+          { "h": "Fiyat listesinde neler var", "p": ["Kore markası ABELTY'nin (UNIC Cosmetic) güncel ihracat fiyat listesinde pirinç serisinden üç, K-Probiotics serisinden bir ürün yer alıyor. Rice Squalane Glow Double Serum, pirinç kepeği suyu ve skualan bazlı iki katmanlı parlaklık serumu, 50 ml. Rice Niacinamide Moisture Sun Serum, niasinamid içeren SPF50+ PA++++ güneş serumu, 50 ml. Rice Hydrating Cleansing Foam, %0,7 pirinç tozu içeren temizleme köpüğü, 150 ml. K-Probiotics Soothing Relief Cream (80 ml), geleneksel tapınak kimchi'sinden elde edilen Weissella cibaria probiyotikleri ve markaya göre patentli bir bitki özü içeriyor. Belirli bir pazardaki ürün bulunabilirliği Teranova üzerinden ayrıca teyit edilmelidir."] }
         ]
       },
       "es": {
-        "title": "ABELTY: 4 productos de la línea de arroz",
-        "excerpt": "La lista de precios de exportación actual de ABELTY incluye cuatro productos: un sérum doble de agua de arroz, un sérum solar, una espuma limpiadora y una crema probiótica de kimchi de templo.",
-        "seoTitle": "ABELTY: 4 productos de la línea de arroz · Teranova",
+        "title": "ABELTY: 4 productos en la lista de precios de exportación",
+        "excerpt": "La lista de precios de exportación actual de ABELTY incluye cuatro productos: un sérum doble de agua de salvado de arroz, un sérum solar, una espuma limpiadora y una crema probiótica de kimchi de templo.",
+        "seoTitle": "ABELTY: 4 productos en la lista de precios de exportación · Teranova",
         "seoDesc": "Resumen de los cuatro productos de ABELTY de UNIC Cosmetic: sérums de arroz, espuma limpiadora, crema probiótica de kimchi.",
         "sections": [
-          { "h": "Qué hay en la lista de precios", "p": ["La lista de precios de exportación actual de la marca coreana ABELTY (UNIC Cosmetic) incluye cuatro productos de la línea de arroz. El Rice Squalane Glow Double Serum es un sérum luminoso de dos capas a base de agua de arroz y escualano, 50 ml. El Rice Niacinamide Moisture Sun Serum es un sérum solar SPF50+ PA++++ con niacinamida, 50 ml. El Rice Hydrating Cleansing Foam es una espuma limpiadora con 0,7% de polvo de arroz, 150 ml. La K-Probiotics Soothing Relief Cream (80 ml) contiene probióticos Weissella cibaria procedentes del kimchi de templo tradicional y, según la marca, un extracto vegetal patentado. La disponibilidad actual de cada artículo en un mercado concreto debe confirmarse por separado a través de Teranova."] }
+          { "h": "Qué hay en la lista de precios", "p": ["La lista de precios de exportación actual de la marca coreana ABELTY (UNIC Cosmetic) incluye tres productos de la línea de arroz y uno de la línea K-Probiotics. El Rice Squalane Glow Double Serum es un sérum luminoso de dos capas a base de agua de salvado de arroz y escualano, 50 ml. El Rice Niacinamide Moisture Sun Serum es un sérum solar SPF50+ PA++++ con niacinamida, 50 ml. El Rice Hydrating Cleansing Foam es una espuma limpiadora con 0,7% de polvo de arroz, 150 ml. La K-Probiotics Soothing Relief Cream (80 ml) contiene probióticos Weissella cibaria procedentes del kimchi de templo tradicional y, según la marca, un extracto vegetal patentado. La disponibilidad actual de cada artículo en un mercado concreto debe confirmarse por separado a través de Teranova."] }
         ]
       },
       "pt": {
-        "title": "ABELTY: 4 produtos da linha de arroz",
-        "excerpt": "A lista de preços de exportação atual da ABELTY inclui quatro produtos: um sérum duplo de água de arroz, um sérum solar, uma espuma de limpeza e um creme probiótico de kimchi de templo.",
-        "seoTitle": "ABELTY: 4 produtos da linha de arroz · Teranova",
+        "title": "ABELTY: 4 produtos na lista de preços de exportação",
+        "excerpt": "A lista de preços de exportação atual da ABELTY inclui quatro produtos: um sérum duplo de água de farelo de arroz, um sérum solar, uma espuma de limpeza e um creme probiótico de kimchi de templo.",
+        "seoTitle": "ABELTY: 4 produtos na lista de preços de exportação · Teranova",
         "seoDesc": "Visão geral dos quatro produtos da ABELTY da UNIC Cosmetic: sérums de arroz, espuma de limpeza, creme probiótico de kimchi.",
         "sections": [
-          { "h": "O que há na lista de preços", "p": ["A lista de preços de exportação atual da marca coreana ABELTY (UNIC Cosmetic) inclui quatro produtos da linha de arroz. O Rice Squalane Glow Double Serum é um sérum iluminador de duas camadas à base de água de arroz e esqualano, 50 ml. O Rice Niacinamide Moisture Sun Serum é um sérum solar SPF50+ PA++++ com niacinamida, 50 ml. O Rice Hydrating Cleansing Foam é uma espuma de limpeza com 0,7% de pó de arroz, 150 ml. O K-Probiotics Soothing Relief Cream (80 ml) contém probióticos Weissella cibaria do kimchi de templo tradicional e, segundo a marca, um extrato vegetal patenteado. A disponibilidade atual de cada item num determinado mercado deve ser confirmada separadamente através da Teranova."] }
+          { "h": "O que há na lista de preços", "p": ["A lista de preços de exportação atual da marca coreana ABELTY (UNIC Cosmetic) inclui três produtos da linha de arroz e um da linha K-Probiotics. O Rice Squalane Glow Double Serum é um sérum iluminador de duas camadas à base de água de farelo de arroz e esqualano, 50 ml. O Rice Niacinamide Moisture Sun Serum é um sérum solar SPF50+ PA++++ com niacinamida, 50 ml. O Rice Hydrating Cleansing Foam é uma espuma de limpeza com 0,7% de pó de arroz, 150 ml. O K-Probiotics Soothing Relief Cream (80 ml) contém probióticos Weissella cibaria do kimchi de templo tradicional e, segundo a marca, um extrato vegetal patenteado. A disponibilidade atual de cada item num determinado mercado deve ser confirmada separadamente através da Teranova."] }
         ]
       },
       "hi": {
-        "title": "ABELTY: राइस लाइन के 4 उत्पाद",
-        "excerpt": "ABELTY की वर्तमान निर्यात प्राइस लिस्ट में चार उत्पाद हैं: चावल के पानी का डबल सीरम, एक सन सीरम, एक क्लींज़िंग फोम, और मंदिर-किमची प्रोबायोटिक क्रीम।",
-        "seoTitle": "ABELTY: राइस लाइन के 4 उत्पाद · Teranova",
+        "title": "ABELTY: निर्यात प्राइस लिस्ट के 4 उत्पाद",
+        "excerpt": "ABELTY की वर्तमान निर्यात प्राइस लिस्ट में चार उत्पाद हैं: चावल की भूसी के पानी का डबल सीरम, एक सन सीरम, एक क्लींज़िंग फोम, और मंदिर-किमची प्रोबायोटिक क्रीम।",
+        "seoTitle": "ABELTY: निर्यात प्राइस लिस्ट के 4 उत्पाद · Teranova",
         "seoDesc": "UNIC Cosmetic के ABELTY के चार उत्पादों का अवलोकन: चावल के सीरम, एक क्लींज़िंग फोम, और एक किमची-प्रोबायोटिक क्रीम।",
         "sections": [
-          { "h": "प्राइस लिस्ट में क्या है", "p": ["कोरियाई ब्रांड ABELTY (UNIC Cosmetic) की वर्तमान निर्यात प्राइस लिस्ट में राइस लाइन के चार उत्पाद सूचीबद्ध हैं। Rice Squalane Glow Double Serum चावल के पानी और स्क्वेलेन पर आधारित दो-परत वाला ग्लो सीरम है, 50 मिली। Rice Niacinamide Moisture Sun Serum नियासिनामाइड युक्त SPF50+ PA++++ सन सीरम है, 50 मिली। Rice Hydrating Cleansing Foam 0.7% चावल पाउडर वाला क्लींज़िंग फोम है, 150 मिली। K-Probiotics Soothing Relief Cream, 80 मिली, में पारंपरिक मंदिर-किमची से प्राप्त Weissella cibaria प्रोबायोटिक्स होते हैं और, ब्रांड के अनुसार, एक पेटेंट किया गया पौधे का अर्क भी। किसी विशेष बाज़ार में विशिष्ट उत्पादों की उपलब्धता की पुष्टि Teranova के माध्यम से अलग से करनी चाहिए।"] }
+          { "h": "प्राइस लिस्ट में क्या है", "p": ["कोरियाई ब्रांड ABELTY (UNIC Cosmetic) की वर्तमान निर्यात प्राइस लिस्ट में राइस लाइन के तीन और K-Probiotics लाइन का एक उत्पाद सूचीबद्ध है। Rice Squalane Glow Double Serum चावल की भूसी के पानी और स्क्वेलेन पर आधारित दो-परत वाला ग्लो सीरम है, 50 मिली। Rice Niacinamide Moisture Sun Serum नियासिनामाइड युक्त SPF50+ PA++++ सन सीरम है, 50 मिली। Rice Hydrating Cleansing Foam 0.7% चावल पाउडर वाला क्लींज़िंग फोम है, 150 मिली। K-Probiotics Soothing Relief Cream, 80 मिली, में पारंपरिक मंदिर-किमची से प्राप्त Weissella cibaria प्रोबायोटिक्स होते हैं और, ब्रांड के अनुसार, एक पेटेंट किया गया पौधे का अर्क भी। किसी विशेष बाज़ार में विशिष्ट उत्पादों की उपलब्धता की पुष्टि Teranova के माध्यम से अलग से करनी चाहिए।"] }
         ]
       },
       "he": {
-        "title": "ABELTY: 4 מוצרים בקו האורז",
-        "excerpt": "רשימת המחירים הנוכחית של ABELTY ליצוא כוללת ארבעה מוצרים: סרום כפול ממי אורז, סרום הגנה מהשמש, קצף ניקוי, וקרם פרוביוטי מקימצ'י מקדש.",
-        "seoTitle": "ABELTY: 4 מוצרים בקו האורז · Teranova",
+        "title": "ABELTY: 4 מוצרים ברשימת המחירים ליצוא",
+        "excerpt": "רשימת המחירים הנוכחית של ABELTY ליצוא כוללת ארבעה מוצרים: סרום כפול ממי סובי אורז, סרום הגנה מהשמש, קצף ניקוי, וקרם פרוביוטי מקימצ'י מקדש.",
+        "seoTitle": "ABELTY: 4 מוצרים ברשימת המחירים ליצוא · Teranova",
         "seoDesc": "סקירת ארבעת המוצרים של ABELTY מבית UNIC Cosmetic: סרומי אורז, קצף ניקוי, וקרם פרוביוטי מקימצ'י.",
         "sections": [
-          { "h": "מה יש ברשימת המחירים", "p": ["רשימת המחירים הנוכחית ליצוא של המותג הקוריאני ABELTY (UNIC Cosmetic) כוללת ארבעה מוצרים מקו האורז. Rice Squalane Glow Double Serum הוא סרום זוהר דו-שכבתי המבוסס על מי אורז וסקוואלן, 50 מ\"ל. Rice Niacinamide Moisture Sun Serum הוא סרום הגנה מהשמש SPF50+ PA++++ עם ניאצינאמיד, 50 מ\"ל. Rice Hydrating Cleansing Foam הוא קצף ניקוי עם 0.7% אבקת אורז, 150 מ\"ל. K-Probiotics Soothing Relief Cream, בנפח 80 מ\"ל, מכיל פרוביוטיקה Weissella cibaria מקימצ'י מקדש מסורתי וכן, לפי המותג, מיצוי צמחי מוגן בפטנט. הזמינות הנוכחית של פריטים ספציפיים בשוק מסוים מאושרת בנפרד באמצעות Teranova."] }
+          { "h": "מה יש ברשימת המחירים", "p": ["רשימת המחירים הנוכחית ליצוא של המותג הקוריאני ABELTY (UNIC Cosmetic) כוללת שלושה מוצרים מקו האורז ומוצר אחד מקו K-Probiotics. Rice Squalane Glow Double Serum הוא סרום זוהר דו-שכבתי המבוסס על מי סובי אורז וסקוואלן, 50 מ\"ל. Rice Niacinamide Moisture Sun Serum הוא סרום הגנה מהשמש SPF50+ PA++++ עם ניאצינאמיד, 50 מ\"ל. Rice Hydrating Cleansing Foam הוא קצף ניקוי עם 0.7% אבקת אורז, 150 מ\"ל. K-Probiotics Soothing Relief Cream, בנפח 80 מ\"ל, מכיל פרוביוטיקה Weissella cibaria מקימצ'י מקדש מסורתי וכן, לפי המותג, מיצוי צמחי מוגן בפטנט. הזמינות הנוכחית של פריטים ספציפיים בשוק מסוים מאושרת בנפרד באמצעות Teranova."] }
         ]
       }
     }

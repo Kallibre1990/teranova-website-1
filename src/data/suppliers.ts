@@ -3365,6 +3365,14 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#4A3826', sky: '#C9A86B', accent: '#C99A5B', bg: '#FAF4E9' },
     voice: 'natural',
     catalog: abeltyCatalog,
+    /* The Russian line name ("Рисовая линейка") shares no word with the
+       English catalog group ("Rice line") or its product names, so the
+       automatic line-photo match in SupplierProfile.astro finds nothing and
+       falls back to a drawn "RL" initials mark. Point it at a real product
+       shot instead, as the K-Probiotics line already gets by name match. */
+    lineShots: {
+      'Рисовая линейка': '/img/suppliers/abelty/products/rice-squalane-glow-double-serum.jpg',
+    },
     gallery: [
       '/img/suppliers/abelty/gallery/full-range.jpg',
       '/img/suppliers/abelty/gallery/rice-hydrating-cleansing-foam-alt.jpg',

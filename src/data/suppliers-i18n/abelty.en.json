@@ -1,12 +1,12 @@
 {
   "content": {
-    "tagline": "Korean skincare built on rice water and temple-kimchi probiotics",
-    "descriptor": "ABELTY (UNIC Cosmetic, Anyang-si, Gyeonggi-do) — 4 SKUs: a rice-water double serum and sun serum, a rice-powder cleansing foam, and a cream with traditional temple-kimchi probiotics",
+    "tagline": "Korean skincare built on rice bran water and temple-kimchi probiotics",
+    "descriptor": "ABELTY (UNIC Cosmetic, Anyang-si, Gyeonggi-do) — 4 SKUs: a rice-bran-water double serum and sun serum, a rice-powder cleansing foam, and a cream with traditional temple-kimchi probiotics",
     "origin": "Korea",
     "about": [
       "ABELTY is a skincare brand by the Korean company UNIC Cosmetic (유니씨코스메틱, Anyang-si, Gyeonggi-do). According to the brand, the name is inspired by the Latin word \"abel\", meaning vitality; the slogan is \"All Beauty Lies in Vitality — From the Korean Table to Your Skin\". The brand's story: rice, kimchi and seasoned greens on the Korean table are more than food — they are a time-honored ritual that restores balance, which ABELTY carries into skincare.",
       "Per the brand's own product roadmap, the 2025 rice line is to be followed by a kimchi line in 2026 and a third line in 2027 — these are the brand's stated plans, not yet released products.",
-      "Four rice-line products are listed in the brand's current export price list: a rice-water double serum and sun serum, a rice-powder cleansing foam, and a cream with traditional temple-kimchi probiotics. Made in Korea."
+      "Three products in the Rice line and one in the K-Probiotics line are listed in the brand's current export price list: a rice-bran-water double serum and sun serum, a rice-powder cleansing foam, and a cream with traditional temple-kimchi probiotics. Made in Korea."
     ],
     "facts": [
       "Anyang-si, Gyeonggi-do, Korea; legal entity UNIC Cosmetic (유니씨코스메틱), brand ABELTY (아벨티)",
@@ -24,11 +24,11 @@
     "lines": [
       {
         "name": "Rice line",
-        "note": "Two serums and a cleansing foam built on rice water and rice powder: a two-layer glow serum (77% essence + 23% cream), an SPF50+ PA++++ sun serum with niacinamide for dark spots, and a cleansing foam with 0.7% Korean rice powder."
+        "note": "Two serums and a cleansing foam built on rice bran water and rice powder: a two-layer glow serum (77% essence + 23% cream), an SPF50+ PA++++ sun serum with niacinamide for dark spots, and a cleansing foam with 0.7% Korean rice powder."
       },
       {
         "name": "K-Probiotics Soothing Relief Cream",
-        "note": "A cream with Weissella cibaria probiotics from traditional temple kimchi (Temple Wolmyeong's recipe, per the brand) and a patented plant extract (Korea Patent No. 10-2669645, per the brand) — for sensitive skin."
+        "note": "A cream with Weissella cibaria probiotics from temple kimchi handcrafted by Venerable Jigyeon, a master of Korean temple cuisine (per the brand), and a patented plant extract (Korea Patent No. 10-2669645, per the brand) — for sensitive skin."
       }
     ],
     "tech": [],
@@ -39,10 +39,10 @@
       "Cream"
     ],
     "exportNote": "This profile was prepared by Teranova from ABELTY's own materials (catalog, price list, brand presentation) and the official site en.abelty.com. Prices below follow the company's export (FOB) price list; exact delivery, payment and lead-time terms are confirmed before ordering through Teranova.",
-    "consentNote": "This profile was assembled on Anton's instruction of 6 November 2026, based on correspondence with Sunny Jung (UNIC Cosmetic) of 22 October and 6 November 2026. Written permission to publish the brand's logo and materials in full has not yet been received — the page is on a closed preview for the brand's review, not on the live site.",
+    "consentNote": "The brand name, logo and materials are shown based on correspondence with Sunny Jung (UNIC Cosmetic) of 22 October and 6 November 2026, pending the brand's written confirmation. Prices and certificates are confirmed at the deal stage through Teranova.",
     "catalog_notes": [
-      "Applied as the first step of a routine after cleansing: a two-layer rice-water serum (77% essence + 23% cream) for glow and even tone; per the brand, it has completed hypoallergenic testing and testing for dark-spot reduction.",
-      "Applied as the last step each morning: an SPF50+ PA++++ sun serum with rice water and niacinamide, with a lightweight no-white-cast texture; per the brand, it has completed hypoallergenic testing and testing for dark-spot reduction. Listed in the brand's export price list.",
+      "Applied as the first step of a routine after cleansing: a two-layer rice-bran-water serum (77% essence + 23% cream) for glow and even tone; per the brand, it has completed hypoallergenic testing and testing for dark-spot reduction.",
+      "Applied as the last step each morning: an SPF50+ PA++++ sun serum with rice bran water and niacinamide, with a lightweight no-white-cast texture; per the brand, it has completed hypoallergenic testing and testing for dark-spot reduction. Listed in the brand's export price list.",
       "Used morning and evening to cleanse the face: a foam with 0.7% rice powder and hyaluronic acid — gentle cleansing without a tight after-feel.",
       "Applied as a daily moisturizer for sensitive or reactive skin: a cream with Weissella cibaria probiotics from temple kimchi and a patented plant extract — barrier support and soothing."
     ],
@@ -61,7 +61,7 @@
       },
       {
         "label": "Wholesale price",
-        "value": "Reference FOB export prices are shown in the catalog below; final price and terms are confirmed with ABELTY through Teranova."
+        "value": "Reference FOB export prices are shown in the price list (PDF); final price and terms are confirmed with ABELTY through Teranova."
       },
       {
         "label": "Samples",
@@ -76,21 +76,22 @@
         "value": "Korean and English."
       }
     ],
-    "seoTitle": "ABELTY (UNIC Cosmetic) — rice-water skincare & kimchi probiotics · Teranova",
-    "seoDesc": "ABELTY profile from UNIC Cosmetic (Korea): a rice-water double serum and sun serum, a cleansing foam, and a temple-kimchi probiotic cream. FOB price list. B2B through Teranova."
+    "seoTitle": "ABELTY (UNIC Cosmetic) — rice-bran-water skincare & kimchi probiotics · Teranova",
+    "seoDesc": "ABELTY profile from UNIC Cosmetic (Korea): a rice-bran-water double serum and sun serum, a cleansing foam, and a temple-kimchi probiotic cream. FOB price list. B2B through Teranova."
   },
   "ui": {
     "profile_sup": "Supplier profile",
     "about_h": "About the company",
-    "for_whom": "Who it suits:",
+    "for_whom": "Sales channels (per the brand):",
     "lines_h": "Product lines",
     "catalog_h": "Product catalog",
     "tech_h": "Formulation and testing",
     "products_h": "Products",
-    "products_note": "The 4 SKUs from ABELTY's current export price list: a rice-water double serum, a rice-water sun serum, a rice-powder cleansing foam, and a temple-kimchi probiotic cream. Photos are from the official site en.abelty.com and materials sent by the company on 22 October 2026.",
+    "products_note": "The 4 SKUs from ABELTY's current export price list: a rice-bran-water double serum, a rice-bran-water sun serum, a rice-powder cleansing foam, and a temple-kimchi probiotic cream. Photos are from the official site en.abelty.com and materials sent by the company on 22 October 2026.",
     "formats_h": "Product formats",
     "export_h": "Export and markets",
     "terms_h": "Terms of cooperation",
+    "download_btn": "Terms of cooperation (PDF)",
     "pres_btn": "Download presentation (PDF)",
     "price_btn": "Download price list (PDF)",
     "terms_disc": "Prices and terms are indicative, taken from the company's own export price list, and are finalized at the deal stage through Teranova. Direct supplier contacts are not published: Teranova Group runs the negotiation, the checks and the delivery.",
@@ -100,7 +101,7 @@
     "more": "Open profile →",
     "verified_suppliers": "Verified suppliers",
     "certs_h": "Testing and claims",
-    "certs_note": "ABELTY has not provided formal international certifications. Per the brand: its own vegan label (uncertified, brand's own wording) on the two serums; both serums have completed hypoallergenic testing and testing for dark-spot reduction (clinical figures are not published by the brand); the kimchi used in the cream follows Temple Wolmyeong's recipe; a plant extract in the cream is covered by Korea Patent No. 10-2669645 (per the brand). Copies of any documents are provided at the deal stage through Teranova.",
+    "certs_note": "ABELTY has not provided formal international certifications. Per the brand: its own vegan label (uncertified, brand's own wording) on the two serums; both serums have completed hypoallergenic testing and testing for dark-spot reduction (clinical figures are not published by the brand); the kimchi used in the cream is temple kimchi handcrafted by Venerable Jigyeon, a master of Korean temple cuisine (per the brand); a plant extract in the cream is covered by Korea Patent No. 10-2669645 (per the brand). Copies of any documents are provided at the deal stage through Teranova.",
     "gallery_h": "Products",
     "gallery_note": "Product photography is from the official site en.abelty.com and materials sent by the company on 22 October 2026."
   }

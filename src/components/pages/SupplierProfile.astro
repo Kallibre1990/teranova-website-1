@@ -182,6 +182,11 @@ const articleCovers = new Map(
    translations, so the Russian name at the same index is the stable key. */
 const ruLines = supplierContent(profile, 'ru').lines ?? [];
 
+/* ABELTY's page goes to the brand itself for review — the big H1 should read
+   the brand they recognise (ABELTY), with the manufacturing legal entity kept
+   as a fact lower down (already in c.facts[0]), not the other way around. */
+const h1Name = profile.slug === 'abelty' ? profile.brand : profile.name;
+
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 /* The brand's own manner on top of our layout — motif, shapes, serif headings. */
 const voice = profile.voice ?? 'clinical';
@@ -276,7 +281,7 @@ function monogram(name: string): string {
             {logo && <Image src={logo} alt={`${profile.brand}`} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
             {!logo && profile.logoUrl && <img src={profile.logoUrl} alt={profile.brand} loading="eager" decoding="async" />}
           </figure>
-          <h1 class="sp-name">{profile.name}</h1>
+          <h1 class="sp-name">{h1Name}</h1>
           <p class="sp-tagline">«{c.tagline}»</p>
           <p class="sp-descriptor">{c.descriptor}</p>
           <div class="sp-meta">
@@ -817,7 +822,7 @@ function monogram(name: string): string {
   .sp-eyebrow::before { content: ''; width: 24px; height: 2px; background: currentColor; border-radius: 2px; }
   .sp-logo { margin: 0 0 20px; }
   .sp-logo :global(img) { width: auto; height: clamp(52px, 7vw, 74px); }
-  .sp-name { font-family: var(--ds-head); font-size: clamp(1.9rem, 4.4vw, 3rem); font-weight: 800; letter-spacing: var(--ds-track); line-height: 1.05; color: var(--ds-deep); overflow-wrap: anywhere; }
+  .sp-name { font-family: var(--ds-head); font-size: clamp(1.9rem, 4.4vw, 3rem); font-weight: 800; letter-spacing: var(--ds-track); line-height: 1.05; color: var(--ds-deep); word-break: keep-all; overflow-wrap: anywhere; }
   .sp-tagline { font-size: clamp(1.05rem, 2vw, 1.28rem); font-weight: 600; font-style: italic; color: var(--ds-sky); margin-top: 12px; }
   .sp-descriptor { font-size: 1.02rem; color: #45576f; margin-top: 8px; }
 
