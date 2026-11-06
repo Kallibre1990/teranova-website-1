@@ -7,23 +7,196 @@
         "img": "/img/suppliers/abelty/products/rice-squalane-glow-double-serum.jpg",
         "volume": "50 ml",
         "price": "6.75",
-        "actives": ["Rice bran water", "Squalane"]
+        "actives": [
+          "Rice bran water",
+          "Squalane"
+        ],
+        "activesI18n": {
+          "de": [
+            "Reiskleiewasser",
+            "Squalan"
+          ],
+          "es": [
+            "Agua de salvado de arroz",
+            "Escualano"
+          ],
+          "fr": [
+            "Eau de son de riz",
+            "Squalane"
+          ],
+          "he": [
+            "מי סובי אורז",
+            "סקוואלן"
+          ],
+          "hi": [
+            "चावल के चोकर का पानी",
+            "स्क्वालेन"
+          ],
+          "it": [
+            "Acqua di crusca di riso",
+            "Squalano"
+          ],
+          "ja": [
+            "米ぬか水",
+            "スクワラン"
+          ],
+          "ko": [
+            "쌀겨수",
+            "스쿠알란"
+          ],
+          "pt": [
+            "Água de farelo de arroz",
+            "Esqualano"
+          ],
+          "ru": [
+            "Вода рисовых отрубей",
+            "Сквалан"
+          ],
+          "tr": [
+            "Pirinç kepeği suyu",
+            "Skualan"
+          ],
+          "zh": [
+            "米糠水",
+            "角鲨烷"
+          ]
+        }
       },
       {
         "name": "Rice Niacinamide Moisture Sun Serum SPF50+ PA++++",
         "img": "/img/suppliers/abelty/products/rice-niacinamide-moisture-sun-serum.jpg",
         "volume": "50 ml",
         "price": "6.48",
-        "actives": ["Rice bran water", "Niacinamide"]
+        "actives": [
+          "Rice bran water",
+          "Niacinamide"
+        ],
+        "activesI18n": {
+          "de": [
+            "Reiskleiewasser",
+            "Niacinamid"
+          ],
+          "es": [
+            "Agua de salvado de arroz",
+            "Niacinamida"
+          ],
+          "fr": [
+            "Eau de son de riz",
+            "Niacinamide"
+          ],
+          "he": [
+            "מי סובי אורז",
+            "ניאצינאמיד"
+          ],
+          "hi": [
+            "चावल के चोकर का पानी",
+            "नियासिनामाइड"
+          ],
+          "it": [
+            "Acqua di crusca di riso",
+            "Niacinamide"
+          ],
+          "ja": [
+            "米ぬか水",
+            "ナイアシンアミド"
+          ],
+          "ko": [
+            "쌀겨수",
+            "나이아신아마이드"
+          ],
+          "pt": [
+            "Água de farelo de arroz",
+            "Niacinamida"
+          ],
+          "ru": [
+            "Вода рисовых отрубей",
+            "Ниацинамид"
+          ],
+          "tr": [
+            "Pirinç kepeği suyu",
+            "Niasinamid"
+          ],
+          "zh": [
+            "米糠水",
+            "烟酰胺"
+          ]
+        }
       },
       {
         "name": "Rice Hydrating Cleansing Foam",
         "img": "/img/suppliers/abelty/products/rice-hydrating-cleansing-foam.jpg",
         "volume": "150 ml",
         "price": "5.40",
-        "actives": ["Rice powder", "Hyaluronic acid"]
+        "actives": [
+          "Rice powder",
+          "Hyaluronic acid"
+        ],
+        "activesI18n": {
+          "de": [
+            "Reispulver",
+            "Hyaluronsäure"
+          ],
+          "es": [
+            "Polvo de arroz",
+            "Ácido hialurónico"
+          ],
+          "fr": [
+            "Poudre de riz",
+            "Acide hyaluronique"
+          ],
+          "he": [
+            "אבקת אורז",
+            "חומצה היאלורונית"
+          ],
+          "hi": [
+            "चावल का पाउडर",
+            "हायलूरोनिक एसिड"
+          ],
+          "it": [
+            "Polvere di riso",
+            "Acido ialuronico"
+          ],
+          "ja": [
+            "米粉",
+            "ヒアルロン酸"
+          ],
+          "ko": [
+            "쌀가루",
+            "히알루론산"
+          ],
+          "pt": [
+            "Pó de arroz",
+            "Ácido hialurônico"
+          ],
+          "ru": [
+            "Рисовая пудра",
+            "Гиалуроновая кислота"
+          ],
+          "tr": [
+            "Pirinç tozu",
+            "Hiyalüronik asit"
+          ],
+          "zh": [
+            "米粉",
+            "透明质酸"
+          ]
+        }
       }
-    ]
+    ],
+    "lineI18n": {
+      "de": "Reislinie",
+      "es": "Línea de arroz",
+      "fr": "Ligne riz",
+      "he": "קו האורז",
+      "hi": "राइस लाइन",
+      "it": "Linea riso",
+      "ja": "ライスライン",
+      "ko": "라이스 라인",
+      "pt": "Linha de arroz",
+      "ru": "Рисовая линия",
+      "tr": "Pirinç serisi",
+      "zh": "大米系列"
+    }
   },
   {
     "line": "K-Probiotics",
@@ -33,7 +206,60 @@
         "img": "/img/suppliers/abelty/products/k-probiotics-soothing-relief-cream.jpg",
         "volume": "80 ml",
         "price": "5.94",
-        "actives": ["Weissella cibaria probiotics", "Patented plant extract"]
+        "actives": [
+          "Weissella cibaria probiotics",
+          "Patented plant extract"
+        ],
+        "activesI18n": {
+          "de": [
+            "Weissella-cibaria-Probiotika",
+            "Patentierter Pflanzenextrakt"
+          ],
+          "es": [
+            "Probióticos Weissella cibaria",
+            "Extracto vegetal patentado"
+          ],
+          "fr": [
+            "Probiotiques Weissella cibaria",
+            "Extrait végétal breveté"
+          ],
+          "he": [
+            "פרוביוטיקות Weissella cibaria",
+            "מיצוי צמחי בעל פטנט"
+          ],
+          "hi": [
+            "Weissella cibaria प्रोबायोटिक्स",
+            "पेटेंट किया गया पौधे का अर्क"
+          ],
+          "it": [
+            "Probiotici Weissella cibaria",
+            "Estratto vegetale brevettato"
+          ],
+          "ja": [
+            "ワイセラ・シバリア乳酸菌",
+            "特許取得植物エキス"
+          ],
+          "ko": [
+            "바이셀라 시바리아 유산균",
+            "특허 식물 추출물"
+          ],
+          "pt": [
+            "Probióticos Weissella cibaria",
+            "Extrato vegetal patenteado"
+          ],
+          "ru": [
+            "Пробиотики Weissella cibaria",
+            "Запатентованный растительный экстракт"
+          ],
+          "tr": [
+            "Weissella cibaria probiyotikleri",
+            "Patentli bitki özü"
+          ],
+          "zh": [
+            "Weissella cibaria 益生菌",
+            "专利植物提取物"
+          ]
+        }
       }
     ]
   }

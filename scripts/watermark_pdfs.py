@@ -125,8 +125,14 @@ def stamp(doc, lang):
     Центральный знак чисто латинский, поэтому рисуем базовым шрифтом Helvetica:
     он не вшивается в файл. Подвал локализован (кириллица, CJK) и требует
     Unicode-шрифта; чтобы файл не раздувался на десятки мегабайт, вшитый шрифт
-    затем урезается до реально использованных символов (subset_fonts)."""
-    foot = f'© Teranova Group · teranovagroup.com · {ORIGINAL[lang]}'
+    затем урезается до реально использованных символов (subset_fonts).
+
+    insert_textbox не делает bidi-переупорядочивание: он кладёт символы строки
+    слева направо в их логическом порядке. Для иврита это читается наоборот
+    («מסמך מקורי» превращалось в «ירוקמ ךמסמ»), поэтому иврит передаём уже
+    отзеркаленным — тогда левый-направо проход даёт верный визуальный порядок."""
+    original = ORIGINAL[lang][::-1] if lang == 'he' else ORIGINAL[lang]
+    foot = f'© Teranova Group · teranovagroup.com · {original}'
     for page in doc:
         r = page.rect
         page.insert_textbox(
@@ -150,9 +156,14 @@ def words(doc):
 
 
 # Слова, принадлежащие самому знаку: им и положено исчезнуть при снятии.
+# he рисуется отзеркаленным (см. stamp()), поэтому в текстовом слое PDF лежат
+# уже развёрнутые слова — добавляем и их, иначе защитная проверка lost() принимает
+# собственный знак за пропавшее содержимое страницы.
 OWN = {'©', '·', 'Teranova', 'Group', 'teranovagroup.com', 'TERANOVA', 'GROUP'}
-for _v in ORIGINAL.values():
+for _lang, _v in ORIGINAL.items():
     OWN.update(_v.split())
+    if _lang == 'he':
+        OWN.update(_v[::-1].split())
 
 
 def process(path):

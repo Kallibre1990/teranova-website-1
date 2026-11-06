@@ -12,6 +12,21 @@
 export const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+/* Chrome's own bidi algorithm reorders a Latin/digit run by WORD when it sits
+   inside an RTL (he) paragraph with no Hebrew letter to anchor it — "150 ml"
+   prints as "ml 150", "SPF50+ PA++++" scrambles against the product name next
+   to it. Isolating each non-Hebrew run in its own <bdi dir="ltr"> keeps it in
+   its typed order regardless of the surrounding paragraph's direction.
+   Same fix as scripts/gen-supplier-pdfs.mjs bidiSafe(); kept local here since
+   this file has its own esc() and no RTL_LANGS set beyond 'he'. */
+export const bidiSafe = (s, lang) => {
+  const str = String(s ?? '');
+  if (lang !== 'he') return esc(str);
+  return str.split(/([^֐-׿]+)/).map((run) => (
+    run && /[A-Za-z0-9]/.test(run) ? `<bdi dir="ltr">${esc(run)}</bdi>` : esc(run)
+  )).join('');
+};
+
 /* Затемнить/осветлить фирменный цвет — из него строим фон обложки. */
 function shade(hex, f) {
   const n = parseInt(String(hex).replace('#', ''), 16);
@@ -207,6 +222,15 @@ const page = (cfg, lbl, title, body, extra = '') => `
 export function deckHTML(cfg, lang, d, t, cat, hero) {
   const u = d.ui || {};
   const P = [];
+  /* bidiSafe() isolates Latin/digit runs so they don't get word-reordered inside
+     RTL (he) text. Applied ONLY to the catalog grid below (product name + volume,
+     e.g. "150 ml", "SPF50+ PA++++") — the one spot proven broken (HQ review
+     07.11). Flowing prose elsewhere (about/lines/tech/terms) reads correctly
+     as plain Hebrew+embedded-Latin today; wrapping every run there was tried
+     and it ate the spaces at each Hebrew/Latin boundary in Chrome's print
+     renderer ("ABELTYהוא" instead of "ABELTY הוא") — a worse regression than
+     the bug it would have pre-empted. Keep this narrow. */
+  const T = (s) => bidiSafe(s, lang);
 
   /* 1. Обложка */
   P.push(`
@@ -231,7 +255,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     const groups = chunkBy(d.lines, 1150, 7, (l) => (l.name || '').length + (l.note || '').length);
     groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
       (u.lines_h || 'Product lines') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
-      `<div class="cards">${g.map((l) => `<div class="card"><div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`)));
+      `<div class="cards">${g.map((l) => `<div class="card"><div class="n">${T(l.name)}</div><div class="d">${T(l.note)}</div></div>`).join('')}</div>`)));
   }
 
   /* 4. Подход и производство — то же разбиение по объёму */
@@ -264,9 +288,9 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
       (i === 0 && u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
       `<div class="grid">${items.map((it) => `
         <div class="prod">
-          <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : `<span class="prod__mono">${esc(monogram(it.name))}</span>`}</div>
-          <div class="n">${esc(it.name)}</div>
-          ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
+          <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : `<span class="prod__mono">${T(monogram(it.name))}</span>`}</div>
+          <div class="n">${T(it.name)}</div>
+          ${it.volume ? `<div class="v">${T(it.volume)}</div>` : ''}
         </div>`).join('')}</div>`)));
   }
 

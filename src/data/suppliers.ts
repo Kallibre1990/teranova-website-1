@@ -938,7 +938,7 @@ export interface SupplierProfile {
   /* Product identities/assets stay shared; descriptive group/pack labels can be localized. */
   /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
      позиции может не быть вовсе. Карточка тогда показывает монограмму. */
-  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[] }[] }[];
+  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
@@ -3383,13 +3383,13 @@ export const suppliers: SupplierProfile[] = [
        ui.certs_note, без цифр клинического теста — по разбору HQ 06.11.2026. */
     certs: [],
     termsFile: {
-      ru: '/docs/abelty-terms-ru.pdf', en: '/docs/abelty-terms-en.pdf', ko: '/docs/abelty-terms-ko.pdf', zh: '/docs/abelty-terms-zh.pdf', ja: '/docs/abelty-terms-ja.pdf', it: '/docs/abelty-terms-it.pdf', de: '/docs/abelty-terms-de.pdf', fr: '/docs/abelty-terms-fr.pdf', tr: '/docs/abelty-terms-tr.pdf', es: '/docs/abelty-terms-es.pdf', pt: '/docs/abelty-terms-pt.pdf',
+      ru: '/docs/abelty-terms-ru.pdf', en: '/docs/abelty-terms-en.pdf', ko: '/docs/abelty-terms-ko.pdf', zh: '/docs/abelty-terms-zh.pdf', ja: '/docs/abelty-terms-ja.pdf', it: '/docs/abelty-terms-it.pdf', de: '/docs/abelty-terms-de.pdf', fr: '/docs/abelty-terms-fr.pdf', tr: '/docs/abelty-terms-tr.pdf', es: '/docs/abelty-terms-es.pdf', pt: '/docs/abelty-terms-pt.pdf', he: '/docs/abelty-terms-he.pdf', hi: '/docs/abelty-terms-hi.pdf',
     },
     priceFile: {
-      ru: '/docs/abelty-price-ru.pdf', en: '/docs/abelty-price-en.pdf', ko: '/docs/abelty-price-ko.pdf', zh: '/docs/abelty-price-zh.pdf', ja: '/docs/abelty-price-ja.pdf', it: '/docs/abelty-price-it.pdf', de: '/docs/abelty-price-de.pdf', fr: '/docs/abelty-price-fr.pdf', tr: '/docs/abelty-price-tr.pdf', es: '/docs/abelty-price-es.pdf', pt: '/docs/abelty-price-pt.pdf',
+      ru: '/docs/abelty-price-ru.pdf', en: '/docs/abelty-price-en.pdf', ko: '/docs/abelty-price-ko.pdf', zh: '/docs/abelty-price-zh.pdf', ja: '/docs/abelty-price-ja.pdf', it: '/docs/abelty-price-it.pdf', de: '/docs/abelty-price-de.pdf', fr: '/docs/abelty-price-fr.pdf', tr: '/docs/abelty-price-tr.pdf', es: '/docs/abelty-price-es.pdf', pt: '/docs/abelty-price-pt.pdf', he: '/docs/abelty-price-he.pdf', hi: '/docs/abelty-price-hi.pdf',
     },
     presFile: {
-      ru: '/docs/abelty-presentation-ru.pdf', en: '/docs/abelty-presentation-en.pdf', ko: '/docs/abelty-presentation-ko.pdf', zh: '/docs/abelty-presentation-zh.pdf', ja: '/docs/abelty-presentation-ja.pdf', it: '/docs/abelty-presentation-it.pdf', de: '/docs/abelty-presentation-de.pdf', fr: '/docs/abelty-presentation-fr.pdf', tr: '/docs/abelty-presentation-tr.pdf', es: '/docs/abelty-presentation-es.pdf', pt: '/docs/abelty-presentation-pt.pdf',
+      ru: '/docs/abelty-presentation-ru.pdf', en: '/docs/abelty-presentation-en.pdf', ko: '/docs/abelty-presentation-ko.pdf', zh: '/docs/abelty-presentation-zh.pdf', ja: '/docs/abelty-presentation-ja.pdf', it: '/docs/abelty-presentation-it.pdf', de: '/docs/abelty-presentation-de.pdf', fr: '/docs/abelty-presentation-fr.pdf', tr: '/docs/abelty-presentation-tr.pdf', es: '/docs/abelty-presentation-es.pdf', pt: '/docs/abelty-presentation-pt.pdf', he: '/docs/abelty-presentation-he.pdf', hi: '/docs/abelty-presentation-hi.pdf',
     },
     i18n: {
       ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any),

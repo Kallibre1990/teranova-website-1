@@ -11,6 +11,15 @@ export function catalogText(source: string, entries: Partial<Record<Lang, string
   return text;
 }
 
+/** Same contract as catalogText, for a list of tags (e.g. active ingredients)
+ * that must translate as one ordered set, not word by word. */
+export function catalogList(source: string[], entries: Partial<Record<Lang, string[]>> | undefined, lang: Lang): string[] {
+  if (!entries) return source;
+  const list = localizedContent({ ru: source, ...entries }, lang, `catalog list: ${source.join(', ')}`);
+  if (list.length !== source.length) throw new Error(`Catalog list length mismatch for ${lang}: ${source.join(', ')}`);
+  return list;
+}
+
 /** A missing he/hi translation must never silently render Russian content.
  * Preserve historical fallback behaviour for existing locales only.
  */
