@@ -568,6 +568,14 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    // ABELTY (UNIC Cosmetic): no formal certifications provided, so certs: [].
+    id: 'abelty', json: 'abelty', supplier: 'UNIC Cosmetic (유니씨코스메틱)', brand: 'ABELTY',
+    basis: 'FOB Korea',
+    colors: { deep: '#4A3826', sky: '#C9A86B', bg: '#FAF4E9', line: '#EDE1CB' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing

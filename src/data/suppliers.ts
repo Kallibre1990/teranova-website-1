@@ -433,6 +433,20 @@ import dailycommaPt from './suppliers-i18n/dailycomma.pt.json';
 import dailycommaHe from './suppliers-i18n/dailycomma.he.json';
 import dailycommaHi from './suppliers-i18n/dailycomma.hi.json';
 import dailycommaCatalog from './suppliers-i18n/dailycomma.catalog.json';
+import abeltyRu from './suppliers-i18n/abelty.ru.json';
+import abeltyEn from './suppliers-i18n/abelty.en.json';
+import abeltyKo from './suppliers-i18n/abelty.ko.json';
+import abeltyZh from './suppliers-i18n/abelty.zh.json';
+import abeltyJa from './suppliers-i18n/abelty.ja.json';
+import abeltyIt from './suppliers-i18n/abelty.it.json';
+import abeltyDe from './suppliers-i18n/abelty.de.json';
+import abeltyFr from './suppliers-i18n/abelty.fr.json';
+import abeltyTr from './suppliers-i18n/abelty.tr.json';
+import abeltyEs from './suppliers-i18n/abelty.es.json';
+import abeltyPt from './suppliers-i18n/abelty.pt.json';
+import abeltyHe from './suppliers-i18n/abelty.he.json';
+import abeltyHi from './suppliers-i18n/abelty.hi.json';
+import abeltyCatalog from './suppliers-i18n/abelty.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -3333,6 +3347,44 @@ export const suppliers: SupplierProfile[] = [
     },
     i18n: {
       ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any),
+    },
+  },
+  {
+    slug: 'abelty',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'UNIC Cosmetic (유니씨코스메틱)',
+    brand: 'ABELTY',
+    status: 'provided',
+    /* Кремовый фон и золотисто-охряной акцент сняты с их собственных
+       пакшотов (рисовые колосья, кремовая упаковка) — фирменных цветов в
+       векторе бренд не присылал. Профиль собран по поручению Антона
+       06.11.2026 из присланных материалов (каталог, прайс-лист, Canva-презентация,
+       сайт en.abelty.com); письменное разрешение на публикацию логотипа и
+       материалов в полном объёме не получено — страница на закрытом превью. */
+    brandColors: { deep: '#4A3826', sky: '#C9A86B', accent: '#C99A5B', bg: '#FAF4E9' },
+    voice: 'natural',
+    catalog: abeltyCatalog,
+    gallery: [
+      '/img/suppliers/abelty/gallery/full-range.jpg',
+      '/img/suppliers/abelty/gallery/rice-hydrating-cleansing-foam-alt.jpg',
+    ],
+    /* certs: [] намеренно — формальных международных сертификатов бренд не
+       предоставил. Испытания (гипоаллергенность, снижение пигментации) и
+       собственная (несертифицированная) маркировка vegan описаны текстом в
+       ui.certs_note, без цифр клинического теста — по разбору HQ 06.11.2026. */
+    certs: [],
+    termsFile: {
+      ru: '/docs/abelty-terms-ru.pdf', en: '/docs/abelty-terms-en.pdf', ko: '/docs/abelty-terms-ko.pdf', zh: '/docs/abelty-terms-zh.pdf', ja: '/docs/abelty-terms-ja.pdf', it: '/docs/abelty-terms-it.pdf', de: '/docs/abelty-terms-de.pdf', fr: '/docs/abelty-terms-fr.pdf', tr: '/docs/abelty-terms-tr.pdf', es: '/docs/abelty-terms-es.pdf', pt: '/docs/abelty-terms-pt.pdf',
+    },
+    priceFile: {
+      ru: '/docs/abelty-price-ru.pdf', en: '/docs/abelty-price-en.pdf', ko: '/docs/abelty-price-ko.pdf', zh: '/docs/abelty-price-zh.pdf', ja: '/docs/abelty-price-ja.pdf', it: '/docs/abelty-price-it.pdf', de: '/docs/abelty-price-de.pdf', fr: '/docs/abelty-price-fr.pdf', tr: '/docs/abelty-price-tr.pdf', es: '/docs/abelty-price-es.pdf', pt: '/docs/abelty-price-pt.pdf',
+    },
+    presFile: {
+      ru: '/docs/abelty-presentation-ru.pdf', en: '/docs/abelty-presentation-en.pdf', ko: '/docs/abelty-presentation-ko.pdf', zh: '/docs/abelty-presentation-zh.pdf', ja: '/docs/abelty-presentation-ja.pdf', it: '/docs/abelty-presentation-it.pdf', de: '/docs/abelty-presentation-de.pdf', fr: '/docs/abelty-presentation-fr.pdf', tr: '/docs/abelty-presentation-tr.pdf', es: '/docs/abelty-presentation-es.pdf', pt: '/docs/abelty-presentation-pt.pdf',
+    },
+    i18n: {
+      ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any),
     },
   },
 ];

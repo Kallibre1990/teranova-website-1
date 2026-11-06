@@ -1,0 +1,19 @@
+---
+/* Профиль поставщика: abelty — UNIC Cosmetic (유니씨코스메틱), бренд ABELTY.
+   Материалы получены от Sunny Jung 22.10 и 06.11.2026. Письменное согласие
+   на публикацию логотипа и материалов в полном объёме пока не получено —
+   страница на закрытом превью для ознакомления бренда (не на боевом сайте). */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('abelty')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

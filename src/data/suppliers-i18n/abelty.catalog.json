@@ -1,0 +1,40 @@
+[
+  {
+    "line": "Rice line",
+    "items": [
+      {
+        "name": "Rice Squalane Glow Double Serum",
+        "img": "/img/suppliers/abelty/products/rice-squalane-glow-double-serum.jpg",
+        "volume": "50 ml",
+        "price": "6.75",
+        "actives": ["Rice water", "Squalane"]
+      },
+      {
+        "name": "Rice Niacinamide Moisture Sun Serum SPF50+ PA++++",
+        "img": "/img/suppliers/abelty/products/rice-niacinamide-moisture-sun-serum.jpg",
+        "volume": "50 ml",
+        "price": "6.48",
+        "actives": ["Rice water", "Niacinamide"]
+      },
+      {
+        "name": "Rice Hydrating Cleansing Foam",
+        "img": "/img/suppliers/abelty/products/rice-hydrating-cleansing-foam.jpg",
+        "volume": "150 ml",
+        "price": "5.40",
+        "actives": ["Rice powder", "Hyaluronic acid"]
+      }
+    ]
+  },
+  {
+    "line": "K-Probiotics",
+    "items": [
+      {
+        "name": "K-Probiotics Soothing Relief Cream",
+        "img": "/img/suppliers/abelty/products/k-probiotics-soothing-relief-cream.jpg",
+        "volume": "80 ml",
+        "price": "5.94",
+        "actives": ["Weissella cibaria probiotics", "Patented plant extract"]
+      }
+    ]
+  }
+]

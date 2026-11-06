@@ -1,0 +1,16 @@
+[
+  {
+    "line": "Rice line",
+    "items": [
+      { "name": "Rice Squalane Glow Double Serum", "volume": "50 ml", "price": "6.75" },
+      { "name": "Rice Niacinamide Moisture Sun Serum SPF50+ PA++++", "volume": "50 ml", "price": "6.48" },
+      { "name": "Rice Hydrating Cleansing Foam", "volume": "150 ml", "price": "5.40" }
+    ]
+  },
+  {
+    "line": "K-Probiotics",
+    "items": [
+      { "name": "K-Probiotics Soothing Relief Cream", "volume": "80 ml", "price": "5.94" }
+    ]
+  }
+]
