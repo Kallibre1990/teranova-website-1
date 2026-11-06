@@ -712,7 +712,11 @@ function priceHTML(cfg, lang, priceLines) {
     <h1>${T(h.title)}</h1>
     <div class="sub">${T(cfg.supplier)} · ${T(cfg.brand)}</div>
     <table>
-      <thead><tr><th>${T(h.product)}</th><th>${T(h.volume)}</th><th class="pr">${T(`${h.price}, USD`)}</th></tr></thead>
+      <!-- he: isolating ", USD" together (comma inside the bdi) pushes the comma to the
+           far end instead of next to the Hebrew word — confirmed by rendering both forms
+           through the real Chrome pipeline. Isolating only "USD" and leaving the comma
+           in the RTL flow (like plain "word, " before any English) renders correctly. -->
+      <thead><tr><th>${T(h.product)}</th><th>${T(h.volume)}</th><th class="pr">${T(h.price)}, <bdi dir="ltr">USD</bdi></th></tr></thead>
       <tbody>${body}</tbody>
     </table>
     <div class="disc">${T(disc)}</div>
