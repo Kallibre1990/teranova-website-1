@@ -547,6 +547,11 @@ const SUPPLIERS = [
     basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
     colors: { deep: '#1F2A44', sky: '#D7DEE8', bg: '#F4F5F7', line: '#DDE3EC' },
     pres: true,
+    /* compactTech/compactExport: the approach (3 bullets) and export/certs/
+       formats sections are too short to carry a page each without leaving an
+       empty half-page (T-20261106-096) — fold them into the neighbouring
+       About and Terms pages instead. */
+    compactTech: true, compactExport: true,
     certs: ['MFDS Functional Cosmetic (Korea)', 'Skin Irritation Test — Completed'],
   },
   {
@@ -724,17 +729,32 @@ function catalogHTML(cfg, lang, groups) {
   </body></html>`;
 }
 
+/* Подмешивает в карточку линейки фото первой каталожной позиции с тем же
+   названием линейки (`cat[].line` ловится по `lines[].name`). Совпадения нет —
+   `.abs` просто не появляется, и карточка остаётся текстовой, как раньше:
+   безопасно для всех поставщиков, не только для того, кто её запросил. */
+function linesWithPhotos(cfg, lines) {
+  if (!lines || !lines.length) return lines;
+  const cat = catalogOf(cfg);
+  if (!cat) return lines;
+  const byLine = new Map(cat.map((g) => [g.line, (g.items || []).find((it) => it.abs)]));
+  return lines.map((l) => {
+    const it = byLine.get(l.name);
+    return it ? { ...l, abs: it.abs } : l;
+  });
+}
+
 function presData(cfg, lang) {
   /* Дек берёт заголовки из ui целиком; у «старых» поставщиков ru лежит inline,
      там certs_note хранится на верхнем уровне — доносим его в ui. */
   if (lang === 'ru' && cfg.ruPres) {
     const p = cfg.ruPres;
-    return { ...p, certs: cfg.certs, ui: { ...RU_UI, ...(p.ui || {}), certs_note: p.certs_note } };
+    return { ...p, lines: linesWithPhotos(cfg, p.lines), certs: cfg.certs, ui: { ...RU_UI, ...(p.ui || {}), certs_note: p.certs_note } };
   }
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   const c = j.content, u = j.ui;
   return {
-    tagline: c.tagline, descriptor: c.descriptor, about: c.about, facts: c.facts, lines: c.lines,
+    tagline: c.tagline, descriptor: c.descriptor, about: c.about, facts: c.facts, lines: linesWithPhotos(cfg, c.lines),
     tech: c.tech, formats: c.formats, exportNote: c.exportNote, certs: cfg.certs,
     certs_note: u.certs_note || '', ui: { certs_h: 'Certifications', ...u },
   };

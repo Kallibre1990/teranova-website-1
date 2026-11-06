@@ -132,6 +132,9 @@ export function deckCSS(C, voice) {
   .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-top: 2mm; }
   .card { border: 1px solid ${line}; border-left: 3px solid ${deep}; border-radius: 3mm;
           padding: 4mm 4.5mm; break-inside: avoid; background: #fff; }
+  .card__ph { height: 22mm; background: ${bg}; border: 1px solid ${line}; border-radius: 2mm;
+              margin-bottom: 3mm; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .card__ph img { max-width: 80%; max-height: 85%; object-fit: contain; }
   .card .n { font-weight: 800; color: ${deep}; font-size: 11pt; margin-bottom: 1.5mm; }
   .card .d { font-size: 9pt; line-height: 1.5; color: #48525f; }
 
@@ -221,21 +224,33 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     <div class="cover__ph">${hero ? `<img src="file://${hero}">` : ''}</div>
   </div>`);
 
-  /* 2. О компании */
-  P.push(page(cfg, u.profile_sup || 'Supplier profile', u.about_h || 'About the company',
-    (d.about || []).map((p) => `<p>${esc(p)}</p>`).join('') +
-    `<div class="chips">${chips(d.facts)}</div>`));
+  /* 2. О компании. cfg.compactTech folds a short Technology section into this
+     page instead of giving it a near-empty page of its own (D-1000-class fix:
+     a brand with 2-3 approach bullets left a ~30%-filled page). */
+  const aboutBody = (d.about || []).map((p) => `<p>${esc(p)}</p>`).join('') +
+    `<div class="chips">${chips(d.facts)}</div>`;
+  const techRowsHTML = (items) => `<div class="rows">${items.map((x) => `<div class="row"><div class="n">${esc(x.name)}</div><div class="d">${esc(x.note)}</div></div>`).join('')}</div>`;
+  if (cfg.compactTech && (d.tech || []).length) {
+    P.push(page(cfg, u.profile_sup || 'Supplier profile', u.about_h || 'About the company',
+      aboutBody + `<div class="lbl" style="margin-top:7mm">${esc(u.tech_h || 'Technology')}</div>` + techRowsHTML(d.tech)));
+  } else {
+    P.push(page(cfg, u.profile_sup || 'Supplier profile', u.about_h || 'About the company', aboutBody));
+  }
 
-  /* 3. Линейки — при большом объёме разносятся на несколько страниц */
+  /* 3. Линейки — при большом объёме разносятся на несколько страниц.
+     Карточка несёт фото товара линейки, когда каталог содержит позицию
+     с тем же именем линейки (см. linesWithPhotos в gen-supplier-pdfs.mjs);
+     без совпадения .abs просто нет, и карточка остаётся текстовой, как раньше. */
   if ((d.lines || []).length) {
     const groups = chunkBy(d.lines, 1150, 7, (l) => (l.name || '').length + (l.note || '').length);
     groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
       (u.lines_h || 'Product lines') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
-      `<div class="cards">${g.map((l) => `<div class="card"><div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`)));
+      `<div class="cards">${g.map((l) => `<div class="card">${l.abs ? `<div class="card__ph"><img src="file://${l.abs}"></div>` : ''}<div class="n">${esc(l.name)}</div><div class="d">${esc(l.note)}</div></div>`).join('')}</div>`)));
   }
 
-  /* 4. Подход и производство — то же разбиение по объёму */
-  if ((d.tech || []).length) {
+  /* 4. Подход и производство — то же разбиение по объёму; пропускается,
+     когда раздел уже ушёл на страницу «О компании» (cfg.compactTech). */
+  if (!cfg.compactTech && (d.tech || []).length) {
     const groups = chunkBy(d.tech, 1250, 5, (x) => (x.name || '').length + (x.note || '').length);
     groups.forEach((g, i) => P.push(page(cfg, cfg.supplier,
       (u.tech_h || 'Approach and manufacturing') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
@@ -270,7 +285,10 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
         </div>`).join('')}</div>`)));
   }
 
-  /* 6. Сертификаты, форматы, экспорт */
+  /* 6. Сертификаты, форматы, экспорт. cfg.compactExport folds this block into
+     the top of the Terms page (7) instead of a standalone page — same fix as
+     cfg.compactTech above, for suppliers whose export/certs/formats text is
+     too short to carry a page alone. */
   const certsBlock = (cfg.certs || []).length
     ? `<div class="lbl" style="margin-top:2mm">${esc(u.certs_h || 'Certifications')}</div>
        <div class="chips">${chips(cfg.certs)}</div>
@@ -278,17 +296,20 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
   const formatsBlock = (d.formats || []).length
     ? `<div class="lbl" style="margin-top:7mm">${esc(u.formats_h || 'Product formats')}</div>
        <div class="chips">${chips(d.formats)}</div>` : '';
-  P.push(page(cfg, cfg.supplier, u.export_h || 'Export and markets',
-    `<p>${esc(d.exportNote)}</p>${certsBlock}${formatsBlock}`));
+  const exportBlock = `<p>${esc(d.exportNote)}</p>${certsBlock}${formatsBlock}`;
+  if (!cfg.compactExport) P.push(page(cfg, cfg.supplier, u.export_h || 'Export and markets', exportBlock));
 
   /* 7. Условия и контакт */
   {
     const rows = t.terms || [];
     const groups = chunkBy(rows, 1150, 7, (x) => (x.label || '').length + (x.value || '').length);
     groups.forEach((g, i) => {
+      const first = i === 0;
       const last = i === groups.length - 1;
       P.push(page(cfg, cfg.supplier,
-        (t.terms_h || 'Terms of cooperation') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : ''),
+        cfg.compactExport ? (u.export_h || 'Export and markets') : ((t.terms_h || 'Terms of cooperation') + (groups.length > 1 ? ` (${i + 1}/${groups.length})` : '')),
+        (cfg.compactExport && first ? exportBlock : '') +
+        (cfg.compactExport ? `<div class="lbl" style="margin-top:7mm">${esc(t.terms_h || 'Terms of cooperation')}</div>` : '') +
         `<div class="terms">${g.map((x) => `<div class="row"><div class="lab">${esc(x.label)}</div><div class="val">${esc(x.value)}</div></div>`).join('')}</div>` +
         (last ? `<div class="disc">${esc(t.terms_disc)}</div>` : ''),
         last ? `<div class="cta"><div class="h">${esc(u.cta_h || 'Interested in this supplier?')}</div>
