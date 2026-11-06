@@ -27,16 +27,14 @@
     "line": "Courage Lip Care",
     "lineI18n": { "he": "טיפוח שפתיים Courage", "hi": "करिज लिप केयर" },
     "items": [
-      { "name": "Courage Lip Balm", "img": "/img/suppliers/cheon365/products/courage-lip-balm.jpg", "volume": "3.5 g" },
-      { "name": "Courage Lip Balm & Case Gift Set", "img": "/img/suppliers/cheon365/products/courage-lip-balm-case.jpg", "volume": "3.5 g + case" }
+      { "name": "Courage Lip Balm", "img": "/img/suppliers/cheon365/products/courage-lip-balm.jpg", "volume": "3.5 g" }
     ]
   },
   {
     "line": "Claymore Hand Care",
     "lineI18n": { "he": "טיפוח ידיים Claymore", "hi": "क्लेमोर हैंड केयर" },
     "items": [
-      { "name": "Claymore Moisture Hand Cream", "img": "/img/suppliers/cheon365/products/claymore-hand-cream.jpg", "volume": "50 ml" },
-      { "name": "Claymore Brightening Hand Cream", "img": "/img/suppliers/cheon365/products/claymore-hand-cream.jpg", "volume": "50 ml" }
+      { "name": "Claymore Moisture Hand Cream", "img": "/img/suppliers/cheon365/products/claymore-hand-cream.jpg", "volume": "50 ml" }
     ]
   },
   {

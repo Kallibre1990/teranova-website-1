@@ -547,7 +547,7 @@ const SUPPLIERS = [
     basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
     colors: { deep: '#1F2A44', sky: '#D7DEE8', bg: '#F4F5F7', line: '#DDE3EC' },
     pres: true,
-    certs: [],
+    certs: ['MFDS Functional Cosmetic (Korea)', 'Skin Irritation Test — Completed'],
   },
   {
     /* KOY supplied its price list for internal review.  The exact Human-gate of

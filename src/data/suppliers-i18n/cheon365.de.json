@@ -1,61 +1,91 @@
 {
   "content": {
-    "tagline": "Scott Hamish – koreanische Pflegemarke für Männer",
-    "descriptor": "Cheon365: Unternehmen aus Seoul hinter Scott Hamish, koreanische Männerpflege mit Toner- und Lotion-Essenzen, Reinigungsschaum, Sonnenschutz, Handcreme und Lippenbalsam",
+    "tagline": "Koreanische Grooming-Marke für Männer Scott Hamish",
+    "descriptor": "Cheon365: Unternehmen aus Seoul hinter Scott Hamish, einer koreanischen Herren-Grooming-Marke mit Toner- und Lotion-Essenzen, Reinigungsschaum, Sonnenpflege, Handcreme und Lippenbalsam",
     "origin": "Korea",
     "about": [
-      "Cheon365 Co., Ltd. ist ein Unternehmen mit Sitz in Seoul, Korea. Laut der offiziellen Website von Scott Hamish führt es die Marke Scott Hamish.",
-      "Scott Hamish beschreibt sich als Grooming- und Pflegemarke für Männer, die auf die Hautprobleme moderner Männer eingeht. Das Markenkonzept ist von Schottland inspiriert; die Website nennt die schottische Distel als einen ihrer Inhaltsstoffe.",
-      ""
+      "Cheon365 Co., Ltd. ist ein Unternehmen mit Sitz in Seocho-gu, Seoul, gegründet am 20. Januar 2020. Es betreibt die Herren-Grooming-Marke Scott Hamish, hergestellt von Korea Kolmar.",
+      "Scott Hamish hat sein Konzept um Schottland herum aufgebaut — Tartan, Distel und Clan-Wappen — und startete im September 2020 mit fünf Produkten: Toner- und Lotion-Essenzen, einem Reinigungsschaum sowie einer Sonnencreme und einem Sonnenstick. 2021 kamen Handcreme und Lippenbalsam hinzu, 2024 eine All-in-One-BB-Essenz. 2022 wurde die Marke in ein Förderprogramm für Kleinunternehmen aufgenommen und belegte beim Pitch-Wettbewerb der Seoul Beauty Week den zweiten Platz; 2024 wurde sie bei Olive Young gelistet.",
+      "Scott Hamish wird über Naver, Coupang, Kakao, CJ OnStyle, Lotte Home Shopping und GS Shop verkauft, außerdem im eigenen Geschäft Scott Hamish Clan in Seoul und bei Pop-ups wie Doota in Dongdaemun."
     ],
     "facts": [
-      "Sitz in Seoul, Korea",
-      "Marke: Scott Hamish",
-      "Männerpflege (Markenwebsite)",
-      "Hautpflege, Reinigung, Sonnenschutz, Hand- und Lippenpflege"
+      "Seocho-gu, Seoul, Korea — gegründet am 20. Januar 2020",
+      "Marke: Scott Hamish, Herren-Grooming",
+      "Hersteller: Korea Kolmar",
+      "Verkauft über Naver, Coupang, Olive Young und das eigene Geschäft in Seoul"
     ],
     "channels": [
-      "Importeure und Distributoren von Männerkosmetik",
-      "Handelsketten und Marktplätze",
-      "Beauty- und Grooming-Händler"
+      "Importeure und Distributoren von Herrenkosmetik",
+      "Einzelhandelsketten und Marktplätze",
+      "Beauty- und Grooming-Fachhändler"
     ],
     "lines": [
       {
-        "name": "Blue Blended Essenzen",
-        "note": "Laut der Marke All-in-one-Toner-Essenz und Lotion-Essenz; als Inhaltsstoffe nennt die Website Hyaluronsäure, Aminosäuren und Mariendistelextrakt."
+        "name": "Blue Blended",
+        "note": "All-in-One-Toner-Essenz und Lotion-Essenz sowie ein Geschenkset mit beiden plus einer Reinigungsschaum-Probe. Formuliert mit Hyaluronsäure, Aminosäuren und Mariendistel-Extrakt."
       },
       {
-        "name": "Blue Freedom Reinigungsschaum",
-        "note": "Laut der Marke ein Tiefenreinigungsschaum mit BHA und Pflanzenkapseln."
+        "name": "Blue Freedom",
+        "note": "Ein Tiefenreinigungsschaum mit blauen Phyto-Kapseln."
       },
       {
-        "name": "BeBrave BB-Essenz",
-        "note": "Laut der Marke eine All-in-one-BB-Essenz, die Sonnenschutz, BB-Creme und Essenz vereint."
+        "name": "Classic Golf",
+        "note": "Sonnencreme und Sonnenstick, SPF50+ PA++++, wasserfest."
       },
       {
-        "name": "Classic Golf Sonnenschutz",
-        "note": "Laut der Marke eine Sonnencreme und ein Sonnenstick."
+        "name": "Courage Lip Care",
+        "note": "Ein Lippenbalsam mit Sheabutter und sechs Ölen."
       },
       {
-        "name": "Hand- und Lippenpflege",
-        "note": "Laut der Marke die Handcremes Claymore und der Lippenbalsam Courage."
+        "name": "Claymore Hand Care",
+        "note": "Eine feuchtigkeitsspendende Handcreme mit Sheabutter, Arganöl und Phytoma-Öl-Ceramiden."
+      },
+      {
+        "name": "Be Brave",
+        "note": "Eine All-in-One-BB-Essenz, die BB-Creme und Essenz mit SPF30 PA+++ Sonnenschutz verbindet."
       }
     ],
-    "tech": [],
+    "tech": [
+      {
+        "name": "Scottish Blended Complex™",
+        "note": "Eine Mischung aus Gerste, Malz und Mais, die an das Schottland-Konzept der Marke anknüpft und in der Blue-Blended-Linie verwendet wird."
+      },
+      {
+        "name": "5 Arten Hyaluronsäure, 7 Aminosäuren",
+        "note": "Zentrale feuchtigkeitsspendende Wirkstoffe in den Blue-Blended-Toner- und Lotion-Essenzen."
+      },
+      {
+        "name": "Mariendistel-Extrakt",
+        "note": "Verwendet in den Blue-Blended-Essenzen."
+      }
+    ],
     "formats": [
       "Toner-Essenz",
       "Lotion-Essenz",
+      "Toner-&-Lotion-Geschenkset",
       "Reinigungsschaum",
-      "BB-Essenz",
       "Sonnencreme und Sonnenstick",
+      "Lippenbalsam",
       "Handcreme",
-      "Lippenbalsam"
+      "BB-Essenz"
     ],
-    "exportNote": "Teranova hat dieses Profil anhand von Cheon365-Unterlagen und der offiziellen Website von Scott Hamish erstellt. Preise und Mindestbestellmengen sind auf Anfrage erhältlich; Spezifikationen und Anforderungen für einen Markt werden vor der Bestellung bestätigt.",
+    "exportNote": "Teranova hat dieses Profil anhand von Materialien erstellt, die direkt von Cheon365 Co., Ltd. zur Verfügung gestellt wurden. Großhandelspreise und Mindestbestellmengen sind auf Anfrage erhältlich; Spezifikationen und Anforderungen für einen bestimmten Markt werden vor der Bestellung bestätigt.",
     "terms": [
       {
         "label": "Zusammenarbeit",
         "value": "B2B-Anfragen über Teranova."
+      },
+      {
+        "label": "Produktion",
+        "value": "Made in Korea, hergestellt von Korea Kolmar."
+      },
+      {
+        "label": "Haltbarkeit",
+        "value": "36 Monate."
+      },
+      {
+        "label": "Verpackung",
+        "value": "Mastercartons mit 12 bis 120 Einheiten, je nach Artikel."
       },
       {
         "label": "Preis",
@@ -67,29 +97,40 @@
       }
     ],
     "consentNote": "",
-    "seoTitle": "Scott Hamish (Cheon365) — koreanische Pflegemarke für Männer · Teranova",
-    "seoDesc": "Profil von Cheon365 Co., Ltd. und der Marke Scott Hamish: Toner- und Lotion-Essenzen für Männer, Reinigungsschaum, BB-Essenz, Sonnenschutz, Handcreme und Lippenbalsam. Preis auf Anfrage. B2B über Teranova."
+    "catalog_notes": [
+      "Reinigungsschaum mit blauen Phyto-Kapseln, der abgestorbene Hautzellen und Verunreinigungen entfernt.",
+      "All-in-One-Toner-Essenz zur Verbesserung des Hautzustands.",
+      "All-in-One-Lotion-Essenz mit starker feuchtigkeitsspendender Wirkung.",
+      "Geschenkset aus Toner-Essenz und Lotion-Essenz mit Reinigungsschaum-Probe.",
+      "Wasserfeste Sonnencreme SPF50+ PA++++, registriert als dreifach funktionale Kosmetik (UV-Schutz, Aufhellung, Faltenreduktion), mild und ohne Weißeln.",
+      "Wasserfester Sonnenstick SPF50+ PA++++, mild und ohne Weißeln.",
+      "Lippenbalsam mit Sheabutter und sechs Ölen.",
+      "Feuchtigkeitsspendende Handcreme mit Sheabutter, Arganöl und Phytoma-Öl-Ceramiden.",
+      "Dreifach funktionale All-in-One-BB-Essenz, die BB-Creme und Essenz mit SPF30 PA+++ Sonnenschutz, Faltenreduktion und Aufhellung verbindet."
+    ],
+    "seoTitle": "Scott Hamish (Cheon365) — koreanische Herren-Grooming-Marke · Teranova",
+    "seoDesc": "Profil von Cheon365 Co., Ltd. und der Marke Scott Hamish: Herren-Toner- und Lotion-Essenzen, Reinigungsschaum, BB-Essenz, Sonnenpflege, Handcreme und Lippenbalsam. Hersteller Korea Kolmar. Preis auf Anfrage. B2B über Teranova."
   },
   "ui": {
     "profile_sup": "Lieferantenprofil",
     "about_h": "Über das Unternehmen",
     "for_whom": "Für wen geeignet:",
-    "lines_h": "Produktlinien",
+    "lines_h": "Produktpalette",
     "catalog_h": "Produktkatalog",
     "tech_h": "Technologie",
     "formats_h": "Produktformate",
-    "export_h": "Export und Märkte",
-    "terms_h": "Bedingungen der Zusammenarbeit",
+    "export_h": "Export und Bedingungen",
+    "terms_h": "Zusammenarbeitsbedingungen",
     "download_btn": "Bedingungen herunterladen (PDF)",
     "pres_btn": "Präsentation herunterladen (PDF)",
     "terms_disc": "Auf Anfrage; keine öffentliche Preisliste.",
-    "cta_h": "Interessiert Sie dieser Lieferant?",
-    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_h": "Interesse an diesem Lieferanten?",
+    "cta_d": "Nehmen Sie Kontakt auf — Teranova organisiert Verhandlungen, Due Diligence und Begleitung vom ersten Kontakt bis zur Lieferung.",
     "cta_btn": "Über Teranova kontaktieren",
     "more": "Profil öffnen →",
-    "verified_suppliers": "Geprüfte Lieferanten",
+    "verified_suppliers": "Verifizierte Lieferanten",
     "certs_h": "Zertifizierungen",
-    "certs_note": "",
+    "certs_note": "Derzeit keine separaten klinischen Studienergebnisse oder ausländischen Zertifizierungen.",
     "products_h": "Produkte",
     "products_note": ""
   }
