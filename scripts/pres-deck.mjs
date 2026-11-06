@@ -284,7 +284,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
   /* 7. Условия и контакт */
   {
     const rows = t.terms || [];
-    const groups = chunkBy(rows, 1150, 6, (x) => (x.label || '').length + (x.value || '').length);
+    const groups = chunkBy(rows, 1150, 7, (x) => (x.label || '').length + (x.value || '').length);
     groups.forEach((g, i) => {
       const last = i === groups.length - 1;
       P.push(page(cfg, cfg.supplier,

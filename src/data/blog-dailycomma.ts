@@ -528,7 +528,7 @@ export const dailycommaPosts: BlogPost[] = [
           {
             "h": "Bir seride beş format",
             "p": [
-              "DAILY COMMA kataloğundaki Bello de Perfume serisi beş formattan oluşur: bitkisel yağlar içeren pH dengeli 300 ml'lik el yıkama ve losyon seti, Delight Rose kokulu 500 ml'lik vücut yıkama ve losyon seti, 50 ml'lik el kremi, dört kokuda 5,5 g'lık katı balsam parfüm, ve dört orijinal koku ile altı ek varyanttan oluşan alkolsüz 4,7 g'lık katı parfüm. Hacimler ve formatlar katalogda belirtildiği şekildedir ve belirli bir pazar için ayrıca doğrulanmalıdır."
+              "DAILY COMMA kataloğundaki Bello de Perfume serisi beş formattan oluşur: bitkisel yağlar içeren pH dengeli 300 ml'lik el yıkama ve losyon seti, Delight Rose kokulu 500 ml'lik vücut yıkama ve losyon seti, 50 ml'lik el kremi, dört kokuda 5,5 g'lık katı balsam parfüm, ve dört orijinal koku ile altı ek varyanttan oluşan alkolsüz 4,7 g'lık katı parfüm. Hacimler ve formatlar katalogdaki gibidir ve belirli bir pazar için ayrıca doğrulanmalıdır."
             ]
           }
         ]
