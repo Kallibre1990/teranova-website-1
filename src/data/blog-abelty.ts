@@ -99,11 +99,11 @@ export const abeltyPosts: BlogPost[] = [
       },
       "tr": {
         "title": "ABELTY: İhracat fiyat listesinde 4 ürün",
-        "excerpt": "ABELTY'nin güncel ihracat fiyat listesinde dört ürün bulunuyor: pirinç kepeği suyu çift serum, güneş serumu, temizleme köpüğü ve tapınak kimchi'si probiyotik kremi.",
+        "excerpt": "ABELTY'nin güncel ihracat fiyat listesinde dört ürün bulunuyor: pirinç kepeği suyu çift serum, güneş serumu, temizleme köpüğü ve tapınak kimçisi probiyotik kremi.",
         "seoTitle": "ABELTY: İhracat fiyat listesinde 4 ürün · Teranova",
-        "seoDesc": "UNIC Cosmetic'e ait ABELTY'nin dört ürününe genel bakış: pirinç serumları, temizleme köpüğü, kimchi probiyotik kremi.",
+        "seoDesc": "UNIC Cosmetic'e ait ABELTY'nin dört ürününe genel bakış: pirinç serumları, temizleme köpüğü, kimçi probiyotik kremi.",
         "sections": [
-          { "h": "Fiyat listesinde neler var", "p": ["Kore markası ABELTY'nin (UNIC Cosmetic) güncel ihracat fiyat listesinde pirinç serisinden üç, K-Probiotics serisinden bir ürün yer alıyor. Rice Squalane Glow Double Serum, pirinç kepeği suyu ve skualan bazlı iki katmanlı parlaklık serumu, 50 ml. Rice Niacinamide Moisture Sun Serum, niasinamid içeren SPF50+ PA++++ güneş serumu, 50 ml. Rice Hydrating Cleansing Foam, %0,7 pirinç tozu içeren temizleme köpüğü, 150 ml. K-Probiotics Soothing Relief Cream (80 ml), geleneksel tapınak kimchi'sinden elde edilen Weissella cibaria probiyotikleri ve markaya göre patentli bir bitki özü içeriyor. Belirli bir pazardaki ürün bulunabilirliği Teranova üzerinden ayrıca teyit edilmelidir."] }
+          { "h": "Fiyat listesinde neler var", "p": ["Kore markası ABELTY'nin (UNIC Cosmetic) güncel ihracat fiyat listesinde pirinç serisinden üç, K-Probiotics serisinden bir ürün yer alıyor. Rice Squalane Glow Double Serum, pirinç kepeği suyu ve skualan bazlı iki katmanlı parlaklık serumu, 50 ml. Rice Niacinamide Moisture Sun Serum, niasinamid içeren SPF50+ PA++++ güneş serumu, 50 ml. Rice Hydrating Cleansing Foam, %0,7 pirinç tozu içeren temizleme köpüğü, 150 ml. K-Probiotics Soothing Relief Cream (80 ml), geleneksel tapınak kimçisinden elde edilen Weissella cibaria probiyotikleri ve markaya göre patentli bir bitki özü içeriyor. Belirli bir pazardaki ürün bulunabilirliği Teranova üzerinden ayrıca teyit edilmelidir."] }
         ]
       },
       "es": {
@@ -240,7 +240,7 @@ export const abeltyPosts: BlogPost[] = [
         "seoTitle": "ABELTY'nin dört ürünü nasıl kullanılır · Teranova",
         "seoDesc": "ABELTY ürünleri için rutin sırası: köpük, serum, krem, güneş bakımı.",
         "sections": [
-          { "h": "Dört adım", "p": ["Markaya göre ABELTY'nin dört ürünü — pirinç serisinden üçü ve K-Probiotics kremi — basit bir günlük rutine uyar. Sabah ve akşam: pirinç tozu ve hiyalüronik asit içeren Rice Hydrating Cleansing Foam ile temizlik. Temizlikten sonra: parlaklık ve eşit ton için iki katmanlı Rice Squalane Glow Double Serum; markaya göre hipoalerjenik test ve leke azaltma testini tamamlamıştır. Hassas veya reaktif ciltler için: tapınak kimchi'sinden probiyotikler içeren K-Probiotics Soothing Relief Cream. Sabah rutininin son adımı: beyazlık bırakmayan hafif dokulu, markanın güncel ihracat fiyat listesinde yer alan Rice Niacinamide Moisture Sun Serum SPF50+ PA++++."] }
+          { "h": "Dört adım", "p": ["Markaya göre ABELTY'nin dört ürünü — pirinç serisinden üçü ve K-Probiotics kremi — basit bir günlük rutine uyar. Sabah ve akşam: pirinç tozu ve hiyalüronik asit içeren Rice Hydrating Cleansing Foam ile temizlik. Temizlikten sonra: parlaklık ve eşit ton için iki katmanlı Rice Squalane Glow Double Serum; markaya göre hipoalerjenik test ve leke azaltma testini tamamlamıştır. Hassas veya reaktif ciltler için: tapınak kimçisinden probiyotikler içeren K-Probiotics Soothing Relief Cream. Sabah rutininin son adımı: beyazlık bırakmayan hafif dokulu, markanın güncel ihracat fiyat listesinde yer alan Rice Niacinamide Moisture Sun Serum SPF50+ PA++++."] }
         ]
       },
       "es": {
@@ -392,14 +392,14 @@ export const abeltyPosts: BlogPost[] = [
         ]
       },
       "tr": {
-        "title": "ABELTY: Kore sofrasından kimchi serisine",
-        "excerpt": "ABELTY'nin (UNIC Cosmetic) hikayesi ve seri yol haritası: 2025'te pirinç, sırada kimchi var.",
+        "title": "ABELTY: Kore sofrasından kimçi serisine",
+        "excerpt": "ABELTY'nin (UNIC Cosmetic) hikayesi ve seri yol haritası: 2025'te pirinç, sırada kimçi var.",
         "seoTitle": "ABELTY marka hikayesi · Teranova",
         "seoDesc": "UNIC Cosmetic ve ABELTY markası: bakımın arkasındaki Kore sofrası felsefesi ve seri yol haritası.",
         "sections": [
           { "h": "Markanın felsefesi", "p": [
-            "ABELTY, Koreli şirket UNIC Cosmetic'e (유니씨코스메틱, Anyang-si, Gyeonggi-do) ait bir cilt bakım markasıdır. Markaya göre isim, canlılık anlamına gelen Latince \"abel\" kelimesinden esinlenmiştir ve slogan \"All Beauty Lies in Vitality — From the Korean Table to Your Skin\"dir. Markanın hikayesi, Kore sofrasındaki pirinç, kimchi ve baharatlı yeşilliklerin sadece yiyecek olmadığı, dengeyi yeniden kuran köklü bir ritüel olduğu fikrine dayanır ve ABELTY bunu cilt bakımına taşır.",
-            "Markanın kendi yol haritasına göre 2025 pirinç serisi yalnızca ilk adımdır: 2026'da bir kimchi serisinin, 2027'de ise üçüncü bir serinin gelmesi planlanmaktadır. Bunlar markanın açıkladığı planlardır, henüz piyasaya sürülmüş ürünler değildir; güncel zamanlama Teranova üzerinden ayrıca teyit edilmelidir."
+            "ABELTY, Koreli şirket UNIC Cosmetic'e (유니씨코스메틱, Anyang-si, Gyeonggi-do) ait bir cilt bakım markasıdır. Markaya göre isim, canlılık anlamına gelen Latince \"abel\" kelimesinden esinlenmiştir ve slogan \"All Beauty Lies in Vitality — From the Korean Table to Your Skin\"dir. Markanın hikayesi, Kore sofrasındaki pirinç, kimçi ve çeşnili sebzelerin sadece yiyecek olmadığı, dengeyi yeniden kuran köklü bir ritüel olduğu fikrine dayanır ve ABELTY bunu cilt bakımına taşır.",
+            "Markanın kendi yol haritasına göre 2025 pirinç serisi yalnızca ilk adımdır: 2026'da bir kimçi serisinin, 2027'de ise üçüncü bir serinin gelmesi planlanmaktadır. Bunlar markanın açıkladığı planlardır, henüz piyasaya sürülmüş ürünler değildir; güncel zamanlama Teranova üzerinden ayrıca teyit edilmelidir."
           ] }
         ]
       },
