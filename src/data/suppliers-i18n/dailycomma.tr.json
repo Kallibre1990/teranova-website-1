@@ -92,16 +92,32 @@
     "exportNote": "Bu profil, Teranova tarafından yayınlanması onaylanmış DAILY COMMA / AD International katalog materyalleri kullanılarak hazırlanmıştır. Toptan fiyat listesi ve kataloğun tamamı yayınlanmamaktadır; belirli bir pazar için özellikler ve gereklilikler sipariş öncesinde teyit edilir.",
     "terms": [
       {
-        "label": "İş birliği",
-        "value": "Teranova üzerinden B2B talepleri."
+        "label": "İş birliği biçimleri",
+        "value": "DAILY COMMA bitmiş ürünlerinin toptan tedariki. Şirket, kendi kataloğunda belirttiği üzere OEM/ODM geliştirme ve üretim de sunuyor."
       },
       {
-        "label": "Fiyat",
-        "value": "Talep üzerine."
+        "label": "Ürün yelpazesi",
+        "value": "Aroma parfüm mist, eau de parfum, el ve vücut bakımı, katı parfüm, saç parfümü, deodorant mist ve ev difüzörleri olmak üzere katalogda belirtilen hacimlerde 14 ürün hattı."
+      },
+      {
+        "label": "Nasıl işler",
+        "value": "Talep → Teranova incelemesi ve mutabakat → görüşmeler ve numuneler → lojistik, gümrük ve ödeme anahtar teslim."
       },
       {
         "label": "Numuneler",
-        "value": "Belirli bir talep için ayrıca görüşülür."
+        "value": "Belirli bir talep için fabrika ile görüşülür."
+      },
+      {
+        "label": "Belgeler",
+        "value": "İhracat belgeleri hedef pazara göre talep üzerine hazırlanır."
+      },
+      {
+        "label": "Minimum sipariş, teslim süresi ve fiyat",
+        "value": "İşlem aşamasında Teranova ile netleştirilir."
+      },
+      {
+        "label": "İletişim dilleri",
+        "value": "Korece ve İngilizce."
       }
     ],
     "consentNote": "Marka ve ürün bilgileri, Rachel Lee'nin (AD International Corp.) 5 Kasım 2026 tarihli onayıyla yayımlanmaktadır; şirketin toptan fiyat listesi yayımlanmamaktadır. Kataloğun tamamı da yayımlanmamaktadır — yalnızca fiyat içermeyen, doğrulanmış sayfalar yayımlanır.",

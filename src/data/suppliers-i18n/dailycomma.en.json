@@ -92,16 +92,32 @@
     "exportNote": "Teranova prepared this profile from DAILY COMMA / AD International catalog materials cleared for publication. The wholesale price list and the full catalog are not published; specifications and requirements for a particular market are confirmed before an order.",
     "terms": [
       {
-        "label": "Cooperation",
-        "value": "B2B inquiries through Teranova."
+        "label": "Cooperation formats",
+        "value": "Wholesale supply of DAILY COMMA finished products. The company also offers OEM/ODM development and manufacturing — this is how AD International describes itself in its own catalog."
       },
       {
-        "label": "Price",
-        "value": "On request."
+        "label": "Product range",
+        "value": "14 product lines — perfume mists, eau de parfum, hand and body care, solid perfume, hair perfume, a deodorant mist and home diffusers — in the volumes shown in the catalog."
+      },
+      {
+        "label": "How it works",
+        "value": "Request → Teranova review and alignment → negotiations and samples → logistics, customs and payment, turnkey."
       },
       {
         "label": "Samples",
-        "value": "Discussed for a specific inquiry."
+        "value": "Discussed with the factory for a specific request."
+      },
+      {
+        "label": "Documents",
+        "value": "Export documents are prepared on request for the target market."
+      },
+      {
+        "label": "Minimum order, lead time and price",
+        "value": "Confirmed with Teranova at the deal stage."
+      },
+      {
+        "label": "Working languages",
+        "value": "Korean and English."
       }
     ],
     "consentNote": "The brand and products are published with the consent of Rachel Lee (AD International Corp.) given on 5 November 2026; the company's wholesale price list is not published. The full catalog is not published either — only vetted, price-free pages.",

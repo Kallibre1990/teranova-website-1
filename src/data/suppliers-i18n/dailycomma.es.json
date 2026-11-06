@@ -92,16 +92,32 @@
     "exportNote": "Teranova preparó este perfil a partir de materiales del catálogo de DAILY COMMA / AD International autorizados para su publicación. La lista de precios al por mayor y el catálogo completo no se publican; las especificaciones y requisitos para un mercado concreto se confirman antes del pedido.",
     "terms": [
       {
-        "label": "Cooperación",
-        "value": "Consultas B2B a través de Teranova."
+        "label": "Formatos de cooperación",
+        "value": "Suministro mayorista de productos terminados DAILY COMMA. La empresa también ofrece desarrollo y fabricación OEM/ODM, tal como se describe en su propio catálogo."
       },
       {
-        "label": "Precio",
-        "value": "Bajo consulta."
+        "label": "Gama de productos",
+        "value": "14 líneas de producto — brumas de perfume, eau de parfum, cuidado de manos y cuerpo, perfume sólido, perfume para el cabello, bruma desodorante y difusores para el hogar — en los formatos indicados en el catálogo."
+      },
+      {
+        "label": "Cómo funciona",
+        "value": "Solicitud → revisión y coordinación de Teranova → negociaciones y muestras → logística, aduanas y pago, llave en mano."
       },
       {
         "label": "Muestras",
-        "value": "Se acuerdan para una consulta concreta."
+        "value": "Se acuerdan con la fábrica para una solicitud concreta."
+      },
+      {
+        "label": "Documentos",
+        "value": "Los documentos de exportación se preparan a solicitud según el mercado de destino."
+      },
+      {
+        "label": "Pedido mínimo, plazos y precio",
+        "value": "Se confirman con Teranova en la etapa de la operación."
+      },
+      {
+        "label": "Idiomas de trabajo",
+        "value": "Coreano e inglés."
       }
     ],
     "consentNote": "La marca y los productos se publican con el consentimiento de Rachel Lee (AD International Corp.) del 5 de noviembre de 2026; la lista de precios mayoristas de la empresa no se publica. Tampoco se publica el catálogo completo: solo páginas verificadas y sin precios.",

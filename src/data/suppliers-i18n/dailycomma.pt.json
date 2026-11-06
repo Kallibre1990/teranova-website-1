@@ -92,16 +92,32 @@
     "exportNote": "A Teranova preparou este perfil com base em materiais do catálogo DAILY COMMA / AD International autorizados para publicação. A lista de preços por grosso e o catálogo completo não são publicados; as especificações e requisitos para um mercado específico são confirmados antes do pedido.",
     "terms": [
       {
-        "label": "Cooperação",
-        "value": "Pedidos B2B através da Teranova."
+        "label": "Formatos de cooperação",
+        "value": "Fornecimento no atacado de produtos acabados DAILY COMMA. A empresa também oferece desenvolvimento e produção OEM/ODM — assim ela se descreve em seu próprio catálogo."
       },
       {
-        "label": "Preço",
-        "value": "Sob consulta."
+        "label": "Gama de produtos",
+        "value": "14 linhas de produtos — névoas perfumadas, eau de parfum, cuidados para mãos e corpo, perfume sólido, perfume para cabelo, névoa desodorante e difusores para casa — nos formatos indicados no catálogo."
+      },
+      {
+        "label": "Como funciona",
+        "value": "Solicitação → verificação e alinhamento pela Teranova → negociações e amostras → logística, alfândega e pagamento, chave na mão."
       },
       {
         "label": "Amostras",
-        "value": "A combinar para um pedido específico."
+        "value": "Combinadas com a fábrica para um pedido específico."
+      },
+      {
+        "label": "Documentos",
+        "value": "Documentos de exportação são preparados sob consulta conforme o mercado de destino."
+      },
+      {
+        "label": "Pedido mínimo, prazo e preço",
+        "value": "Confirmados com a Teranova na etapa do negócio."
+      },
+      {
+        "label": "Idiomas de trabalho",
+        "value": "Coreano e inglês."
       }
     ],
     "consentNote": "A marca e os produtos são publicados com o consentimento de Rachel Lee (AD International Corp.) de 5 de novembro de 2026; a lista de preços por atacado da empresa não é publicada. O catálogo completo também não é publicado — apenas páginas verificadas e sem preços.",

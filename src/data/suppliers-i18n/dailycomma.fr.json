@@ -92,16 +92,32 @@
     "exportNote": "Teranova a préparé ce profil à partir des documents du catalogue DAILY COMMA / AD International autorisés à la publication. La liste de prix de gros et le catalogue complet ne sont pas publiés ; les spécifications et exigences pour un marché donné sont confirmées avant commande.",
     "terms": [
       {
-        "label": "Coopération",
-        "value": "Demandes B2B via Teranova."
+        "label": "Formes de coopération",
+        "value": "Fourniture en gros de produits finis DAILY COMMA. L'entreprise propose aussi le développement et la fabrication OEM/ODM — c'est ainsi qu'elle se décrit dans son propre catalogue."
       },
       {
-        "label": "Prix",
-        "value": "Sur demande."
+        "label": "Gamme de produits",
+        "value": "14 lignes de produits — brumes parfumées, eau de parfum, soins mains et corps, parfum solide, parfum pour cheveux, brume déodorante et diffuseurs d'intérieur — dans les formats indiqués au catalogue."
+      },
+      {
+        "label": "Déroulement",
+        "value": "Demande → vérification et cadrage Teranova → négociations et échantillons → logistique, douane et paiement clé en main."
       },
       {
         "label": "Échantillons",
-        "value": "À discuter pour une demande précise."
+        "value": "À convenir avec l'usine pour une demande précise."
+      },
+      {
+        "label": "Documents",
+        "value": "Les documents d'exportation sont préparés sur demande selon le marché visé."
+      },
+      {
+        "label": "Commande minimale, délais et prix",
+        "value": "Confirmés avec Teranova à l'étape de la transaction."
+      },
+      {
+        "label": "Langues de travail",
+        "value": "Coréen et anglais."
       }
     ],
     "consentNote": "La marque et les produits sont publiés avec le consentement de Rachel Lee (AD International Corp.) donné le 5 novembre 2026 ; la liste de prix de gros de l'entreprise n'est pas publiée. Le catalogue complet n'est pas publié non plus — seulement des pages vérifiées, sans prix.",
