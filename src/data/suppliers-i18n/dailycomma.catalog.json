@@ -1,88 +1,100 @@
 [
   {
-    "line": "Aroma Perfume Mist",
+    "line": "Aroma Perfume Mists & Eau de Parfum",
     "items": [
-      { "name": "Aroma Perfume Mist", "img": "/img/suppliers/dailycomma/products/aroma-perfume-mist.jpg", "volume": "15 ml" }
+      { "name": "Aroma Perfume Mist — Juicy Candy", "img": "/img/suppliers/dailycomma/products/apm-juicy-candy.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Omnia Woody", "img": "/img/suppliers/dailycomma/products/apm-omnia-woody.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Romantic Blossom", "img": "/img/suppliers/dailycomma/products/apm-romantic-blossom.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Peach Lilac", "img": "/img/suppliers/dailycomma/products/apm-peach-lilac.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Violet Dream", "img": "/img/suppliers/dailycomma/products/apm-violet-dream.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Vanilla Night", "img": "/img/suppliers/dailycomma/products/apm-vanilla-night.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Cotton & Musk", "img": "/img/suppliers/dailycomma/products/apm-cotton-musk.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Baby Powder", "img": "/img/suppliers/dailycomma/products/apm-baby-powder.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Flower Soap", "img": "/img/suppliers/dailycomma/products/apm-flower-soap.jpg", "volume": "15 ml" },
+      { "name": "Aroma Perfume Mist — Ocean Sparkle", "img": "/img/suppliers/dailycomma/products/apm-ocean-sparkle.jpg", "volume": "15 ml" },
+      { "name": "Most Eau de Parfum — Woody Garden", "img": "/img/suppliers/dailycomma/products/medp-woody-garden.jpg", "volume": "30 ml" },
+      { "name": "Most Eau de Parfum — Musk Muhwagua", "img": "/img/suppliers/dailycomma/products/medp-musk-muhwagua.jpg", "volume": "30 ml" },
+      { "name": "Most Eau de Parfum — Tender Paris", "img": "/img/suppliers/dailycomma/products/medp-tender-paris.jpg", "volume": "30 ml" },
+      { "name": "Most Eau de Parfum — Signal Berry", "img": "/img/suppliers/dailycomma/products/medp-signal-berry.jpg", "volume": "30 ml" },
+      { "name": "Most Eau de Parfum — Cotton White", "img": "/img/suppliers/dailycomma/products/medp-cotton-white.jpg", "volume": "30 ml" },
+      { "name": "Most Eau de Parfum — Muguet Vanilla", "img": "/img/suppliers/dailycomma/products/medp-muguet-vanilla.jpg", "volume": "30 ml" },
+      { "name": "Eau de Parfum — Fresh Citrus", "img": "/img/suppliers/dailycomma/products/edp-fresh-citrus.jpg", "volume": "30 ml" },
+      { "name": "Eau de Parfum — Vanta Wood", "img": "/img/suppliers/dailycomma/products/edp-vanta-wood.jpg", "volume": "30 ml" },
+      { "name": "Eau de Parfum — Naive Musk", "img": "/img/suppliers/dailycomma/products/edp-naive-musk.jpg", "volume": "30 ml" },
+      { "name": "Eau de Parfum — Misty Garden", "img": "/img/suppliers/dailycomma/products/edp-misty-garden.jpg", "volume": "30 ml" },
+      { "name": "Eau de Parfum — Natty Blue", "img": "/img/suppliers/dailycomma/products/edp-natty-blue.jpg", "volume": "30 ml" },
+      { "name": "Eau de Parfum — Musky Ceder", "img": "/img/suppliers/dailycomma/products/edp-musky-ceder.jpg", "volume": "30 ml" }
     ]
   },
   {
-    "line": "Most Eau de Parfum",
+    "line": "Perfume Hand & Body Care",
     "items": [
-      { "name": "Most Eau de Parfum", "img": "/img/suppliers/dailycomma/products/most-eau-de-parfum.jpg", "volume": "30 ml" }
+      { "name": "Most Perfume Hand Cream — Woody Garden", "img": "/img/suppliers/dailycomma/products/mphc-woody-garden.jpg", "volume": "50 ml" },
+      { "name": "Most Perfume Hand Cream — Musk Muhwagua", "img": "/img/suppliers/dailycomma/products/mphc-musk-muhwagua.jpg", "volume": "50 ml" },
+      { "name": "Most Perfume Hand Cream — Tender Paris", "img": "/img/suppliers/dailycomma/products/mphc-tender-paris.jpg", "volume": "50 ml" },
+      { "name": "Most Perfume Hand Cream — Signal Berry", "img": "/img/suppliers/dailycomma/products/mphc-signal-berry.jpg", "volume": "50 ml" },
+      { "name": "Most Perfume Hand Cream — Cotton White", "img": "/img/suppliers/dailycomma/products/mphc-cotton-white.jpg", "volume": "50 ml" },
+      { "name": "Most Perfume Hand Cream — Muguet Vanilla", "img": "/img/suppliers/dailycomma/products/mphc-muguet-vanilla.jpg", "volume": "50 ml" },
+      { "name": "Bello de Perfume Hand Wash & Lotion — White Velvet", "img": "/img/suppliers/dailycomma/products/bhwl-white-velvet.jpg", "volume": "300 ml" },
+      { "name": "Bello de Perfume Hand Wash & Lotion — Wisley Garden", "img": "/img/suppliers/dailycomma/products/bhwl-wisley-garden.jpg", "volume": "300 ml" },
+      { "name": "Bello de Perfume Body Wash & Lotion — Delight Rose", "img": "/img/suppliers/dailycomma/products/bbwl-delight-rose.jpg", "volume": "500 ml" },
+      { "name": "Bello de Perfume Body Wash & Lotion — Sage Aqua", "img": "/img/suppliers/dailycomma/products/bbwl-sage-aqua.jpg", "volume": "500 ml" },
+      { "name": "Bello de Perfume Hand Cream — Flower Blush", "img": "/img/suppliers/dailycomma/products/bhc-flower-blush.jpg", "volume": "50 ml" },
+      { "name": "Bello de Perfume Hand Cream — White Velvet", "img": "/img/suppliers/dailycomma/products/bhc-white-velvet.jpg", "volume": "50 ml" },
+      { "name": "Bello de Perfume Hand Cream — Wisley Garden", "img": "/img/suppliers/dailycomma/products/bhc-wisley-garden.jpg", "volume": "50 ml" }
     ]
   },
   {
-    "line": "Eau de Parfum",
+    "line": "Solid Perfume, Balm & Discovery Set",
     "items": [
-      { "name": "Eau de Parfum", "img": "/img/suppliers/dailycomma/products/eau-de-parfum.jpg", "volume": "30 ml" }
+      { "name": "Bello de Perfume Balm — Hushen", "img": "/img/suppliers/dailycomma/products/bpb-hushen.jpg", "volume": "5.5 g" },
+      { "name": "Bello de Perfume Balm — Silver Moss", "img": "/img/suppliers/dailycomma/products/bpb-silver-moss.jpg", "volume": "5.5 g" },
+      { "name": "Bello de Perfume Balm — Lumea", "img": "/img/suppliers/dailycomma/products/bpb-lumea.jpg", "volume": "5.5 g" },
+      { "name": "Bello de Perfume Balm — Noirvelle", "img": "/img/suppliers/dailycomma/products/bpb-noirvelle.jpg", "volume": "5.5 g" },
+      { "name": "Bello de Solid Perfume — Dear Rosie", "img": "/img/suppliers/dailycomma/products/bsp-dear-rosie.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Velvet Wood", "img": "/img/suppliers/dailycomma/products/bsp-velvet-wood.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Vanilla Jazz", "img": "/img/suppliers/dailycomma/products/bsp-vanilla-jazz.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Musk Dawn", "img": "/img/suppliers/dailycomma/products/bsp-musk-dawn.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Pure Blue", "img": "/img/suppliers/dailycomma/products/bspn-pure-blue.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Sugar Cloud", "img": "/img/suppliers/dailycomma/products/bspn-sugar-cloud.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Soft Mellow", "img": "/img/suppliers/dailycomma/products/bspn-soft-mellow.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Coral Muse", "img": "/img/suppliers/dailycomma/products/bspn-coral-muse.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Sweet Coat", "img": "/img/suppliers/dailycomma/products/bspn-sweet-coat.jpg", "volume": "4.7 g" },
+      { "name": "Bello de Solid Perfume — Petal Wind", "img": "/img/suppliers/dailycomma/products/bspn-petal-wind.jpg", "volume": "4.7 g" },
+      { "name": "Signature Perfume Discovery Set — Fleur Mood", "img": "/img/suppliers/dailycomma/products/spds-fleur-mood.jpg", "volume": "3.3 ml" },
+      { "name": "Signature Perfume Discovery Set — Pearl Studio", "img": "/img/suppliers/dailycomma/products/spds-pearl-studio.jpg", "volume": "3.3 ml" },
+      { "name": "Signature Perfume Discovery Set — Wild Cozy", "img": "/img/suppliers/dailycomma/products/spds-wild-cozy.jpg", "volume": "3.3 ml" },
+      { "name": "Signature Perfume Discovery Set — On The Gray", "img": "/img/suppliers/dailycomma/products/spds-on-the-gray.jpg", "volume": "3.3 ml" }
     ]
   },
   {
-    "line": "Most Perfume Hand Cream",
+    "line": "Hair Perfume & Deodorant Mist",
     "items": [
-      { "name": "Most Perfume Hand Cream", "img": "/img/suppliers/dailycomma/products/most-perfume-hand-cream.jpg", "volume": "50 ml" }
+      { "name": "Most Hair Perfume — Mademuse", "img": "/img/suppliers/dailycomma/products/mhp-mademuse.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Bloomea", "img": "/img/suppliers/dailycomma/products/mhp-bloomea.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Baby Glow", "img": "/img/suppliers/dailycomma/products/mhp-baby-glow.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Roselair", "img": "/img/suppliers/dailycomma/products/mhp-roselair.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Marine Breeze", "img": "/img/suppliers/dailycomma/products/mhpn-marine-breeze.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Blanc Rose", "img": "/img/suppliers/dailycomma/products/mhpn-blanc-rose.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Clean Vail", "img": "/img/suppliers/dailycomma/products/mhpn-clean-vail.jpg", "volume": "30 ml" },
+      { "name": "Most Hair Perfume — Lily Bloom", "img": "/img/suppliers/dailycomma/products/mhpn-lily-bloom.jpg", "volume": "30 ml" },
+      { "name": "Perfume Deodorant Mist — Cotton Veil", "img": "/img/suppliers/dailycomma/products/pdm-cotton-veil.jpg", "volume": "50 ml" },
+      { "name": "Perfume Deodorant Mist — Amber Bloom", "img": "/img/suppliers/dailycomma/products/pdm-amber-bloom.jpg", "volume": "50 ml" },
+      { "name": "Perfume Deodorant Mist — Fresh Air", "img": "/img/suppliers/dailycomma/products/pdm-fresh-air.jpg", "volume": "50 ml" },
+      { "name": "Perfume Deodorant Mist — Polar Vetiver", "img": "/img/suppliers/dailycomma/products/pdm-polar-vetiver.jpg", "volume": "50 ml" }
     ]
   },
   {
-    "line": "Bello de Perfume Hand Wash & Lotion",
+    "line": "Home Diffusers",
     "items": [
-      { "name": "Bello de Perfume Hand Wash & Lotion", "img": "/img/suppliers/dailycomma/products/bello-hand-wash-lotion.jpg", "volume": "300 ml" }
-    ]
-  },
-  {
-    "line": "Bello de Perfume Body Wash & Lotion",
-    "items": [
-      { "name": "Bello de Perfume Body Wash & Lotion", "img": "/img/suppliers/dailycomma/products/bello-body-wash-lotion.jpg", "volume": "500 ml" }
-    ]
-  },
-  {
-    "line": "Bello de Perfume Hand Cream",
-    "items": [
-      { "name": "Bello de Perfume Hand Cream", "img": "/img/suppliers/dailycomma/products/bello-hand-cream.jpg", "volume": "50 ml" }
-    ]
-  },
-  {
-    "line": "Bello de Perfume Balm",
-    "items": [
-      { "name": "Bello de Perfume Balm", "img": "/img/suppliers/dailycomma/products/bello-perfume-balm.jpg", "volume": "5.5 g" }
-    ]
-  },
-  {
-    "line": "Bello de Solid Perfume",
-    "items": [
-      { "name": "Bello de Solid Perfume", "img": "/img/suppliers/dailycomma/products/bello-solid-perfume.jpg", "volume": "4.7 g" },
-      { "name": "Bello de Solid Perfume — New Scent Variants", "img": "/img/suppliers/dailycomma/products/bello-solid-perfume-new.jpg", "volume": "4.7 g" }
-    ]
-  },
-  {
-    "line": "Signature Perfume Discovery Set",
-    "items": [
-      { "name": "Signature Perfume Discovery Set", "img": "/img/suppliers/dailycomma/products/signature-discovery-set.jpg", "volume": "3.3 ml" }
-    ]
-  },
-  {
-    "line": "Most Hair Perfume",
-    "items": [
-      { "name": "Most Hair Perfume", "img": "/img/suppliers/dailycomma/products/most-hair-perfume.jpg", "volume": "30 ml" },
-      { "name": "Most Hair Perfume — New Scent Variants", "img": "/img/suppliers/dailycomma/products/most-hair-perfume-new.jpg", "volume": "30 ml" }
-    ]
-  },
-  {
-    "line": "Perfume Deodorant Mist",
-    "items": [
-      { "name": "Perfume Deodorant Mist", "img": "/img/suppliers/dailycomma/products/perfume-deodorant-mist.jpg", "volume": "50 ml" }
-    ]
-  },
-  {
-    "line": "Crystal Edition Diffuser",
-    "items": [
-      { "name": "Crystal Edition Diffuser", "img": "/img/suppliers/dailycomma/products/crystal-edition-diffuser.jpg", "volume": "100 ml" }
-    ]
-  },
-  {
-    "line": "Aurora Diffuser",
-    "items": [
-      { "name": "Aurora Diffuser", "img": "/img/suppliers/dailycomma/products/aurora-diffuser.jpg", "volume": "200 ml" }
+      { "name": "Crystal Edition Diffuser — Black Cherry", "img": "/img/suppliers/dailycomma/products/ced-black-cherry.jpg", "volume": "100 ml" },
+      { "name": "Crystal Edition Diffuser — Daily Five", "img": "/img/suppliers/dailycomma/products/ced-daily-five.jpg", "volume": "100 ml" },
+      { "name": "Crystal Edition Diffuser — Daily Laundry", "img": "/img/suppliers/dailycomma/products/ced-daily-laundry.jpg", "volume": "100 ml" },
+      { "name": "Crystal Edition Diffuser — Spring Flower", "img": "/img/suppliers/dailycomma/products/ced-spring-flower.jpg", "volume": "100 ml" },
+      { "name": "Crystal Edition Diffuser — Romantic Vis", "img": "/img/suppliers/dailycomma/products/ced-romantic-vis.jpg", "volume": "100 ml" },
+      { "name": "Crystal Edition Diffuser — Blanc Blanc", "img": "/img/suppliers/dailycomma/products/ced-blanc-blanc.jpg", "volume": "100 ml" },
+      { "name": "Aurora Diffuser — Black Cherry", "img": "/img/suppliers/dailycomma/products/aur-black-cherry.jpg", "volume": "200 ml" },
+      { "name": "Aurora Diffuser — Clean Cotton", "img": "/img/suppliers/dailycomma/products/aur-clean-cotton.jpg", "volume": "200 ml" }
     ]
   }
 ]

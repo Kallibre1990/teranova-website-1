@@ -15,13 +15,13 @@ export const dailycommaPosts: BlogPost[] = [
       "cosmetics"
     ],
     "supplier": "dailycomma",
-    "hero": "/img/suppliers/dailycomma/products/aroma-perfume-mist.jpg",
+    "hero": "/img/suppliers/dailycomma/products/apm-juicy-candy.jpg",
     "i18n": {
       "ru": {
         "title": "DAILY COMMA: 14 линеек каталога",
         "excerpt": "Каталог DAILY COMMA охватывает парфюмерные спреи, туалетную воду, твёрдые духи, уход за руками и телом, парфюм для волос и ароматизаторы для дома.",
         "seoTitle": "DAILY COMMA: 14 линеек каталога · Teranova",
-        "seoDesc": "Обзор 14 линеек DAILY COMMA по материалам каталога AD International.",
+        "seoDesc": "Обзор 14 линеек DAILY COMMA от AD International.",
         "sections": [
           {
             "h": "Что есть в каталоге",
@@ -35,7 +35,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 14 lines in the catalog",
         "excerpt": "The DAILY COMMA catalog covers perfume mists, eau de parfum, solid perfume, hand and body care, hair perfume and home diffusers.",
         "seoTitle": "DAILY COMMA: 14 catalog lines · Teranova",
-        "seoDesc": "An overview of 14 DAILY COMMA lines from AD International catalog materials.",
+        "seoDesc": "An overview of 14 DAILY COMMA lines from AD International.",
         "sections": [
           {
             "h": "What the catalog includes",
@@ -49,7 +49,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 카탈로그 14개 라인",
         "excerpt": "DAILY COMMA 카탈로그에는 퍼퓸 미스트, 오 드 퍼퓸, 솔리드 퍼퓸, 핸드·바디 케어, 헤어 퍼퓸, 홈 디퓨저가 포함되어 있습니다.",
         "seoTitle": "DAILY COMMA: 카탈로그 14개 라인 · Teranova",
-        "seoDesc": "AD International 카탈로그 자료에 따른 DAILY COMMA 14개 라인 소개.",
+        "seoDesc": "AD International의 DAILY COMMA 14개 라인 소개.",
         "sections": [
           {
             "h": "카탈로그 구성",
@@ -63,7 +63,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA：目录中的14条产品线",
         "excerpt": "DAILY COMMA 目录涵盖香氛喷雾、香水、固体香膏、手部和身体护理、发香以及家用香薰。",
         "seoTitle": "DAILY COMMA：目录14条产品线 · Teranova",
-        "seoDesc": "根据 AD International 目录资料介绍 DAILY COMMA 的14条产品线。",
+        "seoDesc": "AD International 的 DAILY COMMA 14条产品线介绍。",
         "sections": [
           {
             "h": "目录包括什么",
@@ -77,7 +77,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA：カタログの14ライン",
         "excerpt": "DAILY COMMAのカタログには、パフュームミスト、オードパルファム、ソリッドパフューム、ハンド・ボディケア、ヘアパフューム、ホームディフューザーが含まれています。",
         "seoTitle": "DAILY COMMA：カタログ14ライン · Teranova",
-        "seoDesc": "AD Internationalのカタログ資料によるDAILY COMMAの14ラインの紹介。",
+        "seoDesc": "AD InternationalのDAILY COMMA 14ラインの紹介。",
         "sections": [
           {
             "h": "カタログの内容",
@@ -91,7 +91,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 14 linee nel catalogo",
         "excerpt": "Il catalogo DAILY COMMA comprende spray profumati, eau de parfum, profumo solido, cura di mani e corpo, profumo per capelli e diffusori per la casa.",
         "seoTitle": "DAILY COMMA: 14 linee di catalogo · Teranova",
-        "seoDesc": "Una panoramica delle 14 linee DAILY COMMA dai materiali del catalogo AD International.",
+        "seoDesc": "Una panoramica delle 14 linee DAILY COMMA di AD International.",
         "sections": [
           {
             "h": "Cosa include il catalogo",
@@ -105,7 +105,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 14 Linien im Katalog",
         "excerpt": "Der DAILY COMMA Katalog umfasst Parfümsprays, Eau de Parfum, festes Parfüm, Hand- und Körperpflege, Haarparfüm und Raumdiffusoren.",
         "seoTitle": "DAILY COMMA: 14 Katalog-Linien · Teranova",
-        "seoDesc": "Ein Überblick über 14 DAILY COMMA Linien aus den AD International Katalogunterlagen.",
+        "seoDesc": "Ein Überblick über 14 DAILY COMMA Linien von AD International.",
         "sections": [
           {
             "h": "Was der Katalog enthält",
@@ -119,7 +119,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA : 14 lignes au catalogue",
         "excerpt": "Le catalogue DAILY COMMA couvre les sprays parfumés, l'eau de parfum, le parfum solide, le soin des mains et du corps, le parfum pour cheveux et les diffuseurs pour la maison.",
         "seoTitle": "DAILY COMMA : 14 lignes du catalogue · Teranova",
-        "seoDesc": "Un aperçu des 14 lignes DAILY COMMA d'après les documents du catalogue AD International.",
+        "seoDesc": "Un aperçu des 14 lignes DAILY COMMA d'AD International.",
         "sections": [
           {
             "h": "Ce que contient le catalogue",
@@ -133,7 +133,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: Katalogda 14 seri",
         "excerpt": "DAILY COMMA kataloğu parfüm spreylerini, parfümleri, katı parfümü, el ve vücut bakımını, saç parfümünü ve ev difüzörlerini kapsar.",
         "seoTitle": "DAILY COMMA: 14 katalog serisi · Teranova",
-        "seoDesc": "AD International katalog materyallerine göre 14 DAILY COMMA serisine genel bakış.",
+        "seoDesc": "AD International'ın 14 DAILY COMMA serisine genel bakışı.",
         "sections": [
           {
             "h": "Katalogda neler var",
@@ -147,7 +147,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 14 líneas en el catálogo",
         "excerpt": "El catálogo de DAILY COMMA abarca sprays de perfume, eau de parfum, perfume sólido, cuidado de manos y cuerpo, perfume para el cabello y difusores para el hogar.",
         "seoTitle": "DAILY COMMA: 14 líneas de catálogo · Teranova",
-        "seoDesc": "Un resumen de las 14 líneas de DAILY COMMA según los materiales del catálogo de AD International.",
+        "seoDesc": "Un resumen de las 14 líneas de DAILY COMMA de AD International.",
         "sections": [
           {
             "h": "Qué incluye el catálogo",
@@ -161,7 +161,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 14 linhas no catálogo",
         "excerpt": "O catálogo DAILY COMMA abrange sprays de perfume, eau de parfum, perfume sólido, cuidados para mãos e corpo, perfume para cabelo e difusores para casa.",
         "seoTitle": "DAILY COMMA: 14 linhas do catálogo · Teranova",
-        "seoDesc": "Uma visão geral das 14 linhas DAILY COMMA a partir dos materiais do catálogo AD International.",
+        "seoDesc": "Uma visão geral das 14 linhas DAILY COMMA da AD International.",
         "sections": [
           {
             "h": "O que o catálogo inclui",
@@ -175,7 +175,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA: 14 סדרות בקטלוג",
         "excerpt": "קטלוג DAILY COMMA כולל תרסיסי בושם, או דה פרפיום, בושם מוצק, טיפוח ידיים וגוף, בושם לשיער ומפזרי ריח לבית.",
         "seoTitle": "DAILY COMMA: 14 סדרות בקטלוג · Teranova",
-        "seoDesc": "סקירה של 14 סדרות DAILY COMMA מתוך חומרי קטלוג AD International.",
+        "seoDesc": "סקירה של 14 סדרות DAILY COMMA של AD International.",
         "sections": [
           {
             "h": "מה כולל הקטלוג",
@@ -210,13 +210,13 @@ export const dailycommaPosts: BlogPost[] = [
       "cosmetics"
     ],
     "supplier": "dailycomma",
-    "hero": "/img/suppliers/dailycomma/products/most-eau-de-parfum.jpg",
+    "hero": "/img/suppliers/dailycomma/products/medp-woody-garden.jpg",
     "i18n": {
       "ru": {
         "title": "DAILY COMMA: четыре формата парфюмерии",
         "excerpt": "Помимо двух туалетных вод, в каталоге DAILY COMMA есть компактный парфюмерный спрей и дорожный набор.",
         "seoTitle": "DAILY COMMA: линейки парфюмерии · Teranova",
-        "seoDesc": "Форматы парфюмерии DAILY COMMA по материалам каталога AD International.",
+        "seoDesc": "Форматы парфюмерии DAILY COMMA от AD International.",
         "sections": [
           {
             "h": "Четыре формата парфюмерии",
@@ -230,7 +230,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA's four fragrance formats",
         "excerpt": "Beyond its two eau de parfum, the DAILY COMMA catalog includes a perfume mist and a discovery set.",
         "seoTitle": "DAILY COMMA fragrance lines · Teranova",
-        "seoDesc": "DAILY COMMA fragrance formats according to the AD International catalog.",
+        "seoDesc": "DAILY COMMA fragrance formats from AD International.",
         "sections": [
           {
             "h": "Four fragrance formats",
@@ -244,7 +244,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA 향수 포맷 네 가지",
         "excerpt": "두 가지 오 드 퍼퓸 외에도 DAILY COMMA 카탈로그에는 퍼퓸 미스트와 디스커버리 세트가 있습니다.",
         "seoTitle": "DAILY COMMA 향수 라인 · Teranova",
-        "seoDesc": "AD International 카탈로그에 따른 DAILY COMMA 향수 포맷 소개.",
+        "seoDesc": "AD International의 DAILY COMMA 향수 포맷 소개.",
         "sections": [
           {
             "h": "향수 포맷 네 가지",
@@ -258,7 +258,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA 的四种香氛形式",
         "excerpt": "除了两款香水，DAILY COMMA 目录中还有香氛喷雾和探索套装。",
         "seoTitle": "DAILY COMMA 香氛产品线 · Teranova",
-        "seoDesc": "根据 AD International 目录介绍 DAILY COMMA 的香氛形式。",
+        "seoDesc": "AD International 的 DAILY COMMA 香氛形式介绍。",
         "sections": [
           {
             "h": "四种香氛形式",
@@ -272,7 +272,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMAの4つのフレグランス形式",
         "excerpt": "2種のオードパルファムに加え、DAILY COMMAのカタログにはパフュームミストとディスカバリーセットがあります。",
         "seoTitle": "DAILY COMMAのフレグランスライン · Teranova",
-        "seoDesc": "AD Internationalのカタログによるフレグランス形式の紹介。",
+        "seoDesc": "AD InternationalのDAILY COMMAフレグランス形式の紹介。",
         "sections": [
           {
             "h": "4つのフレグランス形式",
@@ -300,7 +300,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Die vier Duftformate von DAILY COMMA",
         "excerpt": "Neben den zwei Eau de Parfum enthält der DAILY COMMA Katalog einen Parfümspray und ein Entdeckerset.",
         "seoTitle": "Die Duftlinien von DAILY COMMA · Teranova",
-        "seoDesc": "Die Duftformate von DAILY COMMA laut AD International Katalog.",
+        "seoDesc": "Die Duftformate von DAILY COMMA von AD International.",
         "sections": [
           {
             "h": "Vier Duftformate",
@@ -328,7 +328,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA'nın dört parfümeri formatı",
         "excerpt": "İki parfümün yanı sıra DAILY COMMA kataloğunda bir parfüm spreyi ve bir keşif seti bulunur.",
         "seoTitle": "DAILY COMMA parfümeri serileri · Teranova",
-        "seoDesc": "AD International kataloğuna göre DAILY COMMA parfümeri formatları.",
+        "seoDesc": "AD International'ın DAILY COMMA parfümeri formatları.",
         "sections": [
           {
             "h": "Dört parfümeri formatı",
@@ -342,7 +342,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Los cuatro formatos de perfumería de DAILY COMMA",
         "excerpt": "Además de las dos eau de parfum, el catálogo de DAILY COMMA incluye un spray de perfume y un set de descubrimiento.",
         "seoTitle": "Las líneas de perfumería de DAILY COMMA · Teranova",
-        "seoDesc": "Los formatos de perfumería de DAILY COMMA según el catálogo de AD International.",
+        "seoDesc": "Los formatos de perfumería de DAILY COMMA de AD International.",
         "sections": [
           {
             "h": "Cuatro formatos de perfumería",
@@ -370,7 +370,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "ארבעת פורמטי הבישום של DAILY COMMA",
         "excerpt": "מעבר לשני בשמי האו דה פרפיום, קטלוג DAILY COMMA כולל תרסיס בושם וסט גילוי.",
         "seoTitle": "סדרות הבישום של DAILY COMMA · Teranova",
-        "seoDesc": "פורמטי הבישום של DAILY COMMA לפי קטלוג AD International.",
+        "seoDesc": "פורמטי הבישום של DAILY COMMA של AD International.",
         "sections": [
           {
             "h": "ארבעה פורמטי בישום",
@@ -405,13 +405,13 @@ export const dailycommaPosts: BlogPost[] = [
       "cosmetics"
     ],
     "supplier": "dailycomma",
-    "hero": "/img/suppliers/dailycomma/products/bello-hand-wash-lotion.jpg",
+    "hero": "/img/suppliers/dailycomma/products/bhwl-white-velvet.jpg",
     "i18n": {
       "ru": {
         "title": "Bello de Perfume: уход за руками и телом DAILY COMMA",
         "excerpt": "Линейка Bello de Perfume включает пять форматов — от очищения до крема для рук и твёрдых духов.",
         "seoTitle": "Линейка Bello de Perfume · Teranova",
-        "seoDesc": "Пять форматов Bello de Perfume по материалам каталога AD International.",
+        "seoDesc": "Пять форматов Bello de Perfume от AD International.",
         "sections": [
           {
             "h": "Пять форматов одной линейки",
@@ -425,7 +425,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: DAILY COMMA hand and body care",
         "excerpt": "The Bello de Perfume line spans five formats, from cleansing to hand cream and solid perfume.",
         "seoTitle": "The Bello de Perfume line · Teranova",
-        "seoDesc": "Five Bello de Perfume formats from the AD International catalog.",
+        "seoDesc": "Five Bello de Perfume formats from AD International.",
         "sections": [
           {
             "h": "Five formats in one line",
@@ -439,7 +439,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: DAILY COMMA 핸드·바디 케어",
         "excerpt": "Bello de Perfume 라인은 핸드·바디 워시, 핸드크림, 솔리드 퍼퓸까지 다섯 가지 포맷으로 구성됩니다.",
         "seoTitle": "Bello de Perfume 라인 · Teranova",
-        "seoDesc": "AD International 카탈로그에 따른 Bello de Perfume 다섯 포맷 소개.",
+        "seoDesc": "AD International의 Bello de Perfume 다섯 포맷 소개.",
         "sections": [
           {
             "h": "한 라인의 다섯 포맷",
@@ -453,7 +453,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume：DAILY COMMA 的手部与身体护理",
         "excerpt": "Bello de Perfume 系列包含洗护、护手霜和固体香水等五种形式。",
         "seoTitle": "Bello de Perfume 系列 · Teranova",
-        "seoDesc": "根据 AD International 目录介绍 Bello de Perfume 的五种形式。",
+        "seoDesc": "AD International 的 Bello de Perfume 五种形式介绍。",
         "sections": [
           {
             "h": "一个系列，五种形式",
@@ -467,7 +467,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume：DAILY COMMAのハンド・ボディケア",
         "excerpt": "Bello de Perfumeシリーズは洗浄・保湿からハンドクリーム、ソリッドパフュームまで5つの形式で構成されています。",
         "seoTitle": "Bello de Perfumeシリーズ · Teranova",
-        "seoDesc": "AD InternationalのカタログによるBello de Perfumeの5形式の紹介。",
+        "seoDesc": "AD InternationalのBello de Perfumeの5形式の紹介。",
         "sections": [
           {
             "h": "1ラインに5つの形式",
@@ -495,7 +495,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: Hand- und Körperpflege von DAILY COMMA",
         "excerpt": "Die Bello-de-Perfume-Reihe umfasst fünf Formate, von Reinigung bis Handcreme und festem Parfüm.",
         "seoTitle": "Die Bello-de-Perfume-Reihe · Teranova",
-        "seoDesc": "Die fünf Bello-de-Perfume-Formate laut AD International Katalog.",
+        "seoDesc": "Die fünf Bello-de-Perfume-Formate von AD International.",
         "sections": [
           {
             "h": "Fünf Formate in einer Reihe",
@@ -523,7 +523,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: DAILY COMMA'nın el ve vücut bakımı",
         "excerpt": "Bello de Perfume serisi temizlikten el kremine ve katı parfüme kadar beş formattan oluşur.",
         "seoTitle": "Bello de Perfume serisi · Teranova",
-        "seoDesc": "AD International kataloğuna göre Bello de Perfume'un beş formatı.",
+        "seoDesc": "AD International'ın Bello de Perfume'un beş formatı.",
         "sections": [
           {
             "h": "Bir seride beş format",
@@ -537,7 +537,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: el cuidado de manos y cuerpo de DAILY COMMA",
         "excerpt": "La línea Bello de Perfume comprende cinco formatos, desde la limpieza hasta la crema de manos y el perfume sólido.",
         "seoTitle": "La línea Bello de Perfume · Teranova",
-        "seoDesc": "Los cinco formatos de Bello de Perfume según el catálogo de AD International.",
+        "seoDesc": "Los cinco formatos de Bello de Perfume de AD International.",
         "sections": [
           {
             "h": "Cinco formatos en una línea",
@@ -565,7 +565,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Bello de Perfume: טיפוח ידיים וגוף של DAILY COMMA",
         "excerpt": "סדרת Bello de Perfume כוללת חמישה פורמטים, מניקוי ועד קרם ידיים ובושם מוצק.",
         "seoTitle": "סדרת Bello de Perfume · Teranova",
-        "seoDesc": "חמשת פורמטי Bello de Perfume לפי קטלוג AD International.",
+        "seoDesc": "חמשת פורמטי Bello de Perfume של AD International.",
         "sections": [
           {
             "h": "חמישה פורמטים בסדרה אחת",
@@ -600,13 +600,13 @@ export const dailycommaPosts: BlogPost[] = [
       "cosmetics"
     ],
     "supplier": "dailycomma",
-    "hero": "/img/suppliers/dailycomma/products/aurora-diffuser.jpg",
+    "hero": "/img/suppliers/dailycomma/products/aur-black-cherry.jpg",
     "i18n": {
       "ru": {
         "title": "Ароматизаторы для дома DAILY COMMA: Crystal Edition и Aurora",
         "excerpt": "В каталоге два ароматизатора с палочками — декоративный Crystal Edition и градиентный Aurora.",
         "seoTitle": "Ароматизаторы для дома DAILY COMMA · Teranova",
-        "seoDesc": "Два ароматизатора для дома по материалам каталога AD International.",
+        "seoDesc": "Два ароматизатора для дома от AD International.",
         "sections": [
           {
             "h": "Два формата для интерьера",
@@ -620,7 +620,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA home diffusers: Crystal Edition and Aurora",
         "excerpt": "The catalog shows two reed diffusers — the decorative Crystal Edition and the gradient-bottle Aurora.",
         "seoTitle": "DAILY COMMA home diffusers · Teranova",
-        "seoDesc": "Two home diffusers from the AD International catalog.",
+        "seoDesc": "Two home diffusers from AD International.",
         "sections": [
           {
             "h": "Two formats for the home",
@@ -634,7 +634,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA 홈 디퓨저: Crystal Edition과 Aurora",
         "excerpt": "DAILY COMMA 카탈로그에는 Crystal Edition과 Aurora, 두 가지 홈 디퓨저가 있습니다.",
         "seoTitle": "DAILY COMMA 홈 디퓨저 · Teranova",
-        "seoDesc": "AD International 카탈로그에 따른 두 가지 홈 디퓨저 소개.",
+        "seoDesc": "AD International의 두 가지 홈 디퓨저 소개.",
         "sections": [
           {
             "h": "인테리어를 위한 두 포맷",
@@ -648,7 +648,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA 家用香薰：Crystal Edition 与 Aurora",
         "excerpt": "DAILY COMMA 目录中有两款家用香薰：Crystal Edition 与 Aurora。",
         "seoTitle": "DAILY COMMA 家用香薰 · Teranova",
-        "seoDesc": "根据 AD International 目录介绍两款家用香薰。",
+        "seoDesc": "AD International 的两款家用香薰介绍。",
         "sections": [
           {
             "h": "两种家居形式",
@@ -662,7 +662,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMAのホームディフューザー：Crystal EditionとAurora",
         "excerpt": "DAILY COMMAのカタログには、Crystal EditionとAuroraの2種のホームディフューザーがあります。",
         "seoTitle": "DAILY COMMAのホームディフューザー · Teranova",
-        "seoDesc": "AD Internationalのカタログによる2種のホームディフューザーの紹介。",
+        "seoDesc": "AD Internationalの2種のホームディフューザーの紹介。",
         "sections": [
           {
             "h": "インテリア向けの2形式",
@@ -690,7 +690,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA Raumdiffusoren: Crystal Edition und Aurora",
         "excerpt": "Der Katalog zeigt zwei Diffusoren — den dekorativen Crystal Edition und den Farbverlauf-Diffusor Aurora.",
         "seoTitle": "Die DAILY COMMA Raumdiffusoren · Teranova",
-        "seoDesc": "Die zwei Raumdiffusoren laut AD International Katalog.",
+        "seoDesc": "Die zwei Raumdiffusoren von AD International.",
         "sections": [
           {
             "h": "Zwei Formate für zuhause",
@@ -718,7 +718,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "DAILY COMMA ev difüzörleri: Crystal Edition ve Aurora",
         "excerpt": "Katalogda iki difüzör bulunur: dekoratif Crystal Edition ve gradyan şişeli Aurora.",
         "seoTitle": "DAILY COMMA ev difüzörleri · Teranova",
-        "seoDesc": "AD International kataloğuna göre iki ev difüzörü.",
+        "seoDesc": "AD International'ın iki ev difüzörü.",
         "sections": [
           {
             "h": "Ev için iki format",
@@ -732,7 +732,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "Difusores para el hogar de DAILY COMMA: Crystal Edition y Aurora",
         "excerpt": "El catálogo presenta dos difusores: el decorativo Crystal Edition y el Aurora de frasco degradado.",
         "seoTitle": "Los difusores para el hogar de DAILY COMMA · Teranova",
-        "seoDesc": "Los dos difusores para el hogar según el catálogo de AD International.",
+        "seoDesc": "Los dos difusores para el hogar de AD International.",
         "sections": [
           {
             "h": "Dos formatos para el hogar",
@@ -760,7 +760,7 @@ export const dailycommaPosts: BlogPost[] = [
         "title": "מפזרי הריח לבית של DAILY COMMA: Crystal Edition ו-Aurora",
         "excerpt": "קטלוג DAILY COMMA מציג שני מפזרי ריח לבית: Crystal Edition ו-Aurora.",
         "seoTitle": "מפזרי הריח לבית של DAILY COMMA · Teranova",
-        "seoDesc": "שני מפזרי הריח לבית לפי קטלוג AD International.",
+        "seoDesc": "שני מפזרי הריח לבית של AD International.",
         "sections": [
           {
             "h": "שני פורמטים לבית",
