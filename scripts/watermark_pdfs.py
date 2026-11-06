@@ -30,6 +30,7 @@ ORIGINAL = {
     'zh': '原始文件', 'ja': '原本書類', 'it': 'documento originale',
     'de': 'Originaldokument', 'fr': 'document original', 'tr': 'orijinal belge',
     'es': 'documento original', 'pt': 'documento original',
+    'he': 'מסמך מקורי', 'hi': 'मूल दस्तावेज़',
 }
 
 

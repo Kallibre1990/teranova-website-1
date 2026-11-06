@@ -92,16 +92,32 @@
     "exportNote": "Teranova ha preparato questo profilo sulla base dei materiali del catalogo DAILY COMMA / AD International autorizzati alla pubblicazione. Il listino all'ingrosso e il catalogo completo non sono pubblicati; le specifiche e i requisiti per un mercato specifico vengono confermati prima dell'ordine.",
     "terms": [
       {
-        "label": "Collaborazione",
-        "value": "Richieste B2B tramite Teranova."
+        "label": "Formati di collaborazione",
+        "value": "Fornitura all'ingrosso di prodotti finiti DAILY COMMA; sviluppo e produzione OEM/ODM."
       },
       {
-        "label": "Prezzo",
-        "value": "Su richiesta."
+        "label": "Gamma di prodotti",
+        "value": "14 linee di prodotto — mist profumati, eau de parfum, cura di mani e corpo, profumo solido, profumo per capelli, mist deodorante e diffusori per la casa — nei formati indicati nel catalogo."
+      },
+      {
+        "label": "Come funziona",
+        "value": "Richiesta → verifica e allineamento Teranova → trattative e campioni → logistica, dogana e pagamento chiavi in mano."
       },
       {
         "label": "Campioni",
-        "value": "Da discutere per una richiesta specifica."
+        "value": "Concordati con la fabbrica per una richiesta specifica."
+      },
+      {
+        "label": "Documenti",
+        "value": "I documenti di esportazione vengono preparati su richiesta per il mercato di destinazione."
+      },
+      {
+        "label": "Ordine minimo, tempi e prezzo",
+        "value": "Confermati con Teranova nella fase della trattativa."
+      },
+      {
+        "label": "Lingue di lavoro",
+        "value": "Coreano e inglese."
       }
     ],
     "consentNote": "Il marchio e i prodotti sono pubblicati con il consenso di Rachel Lee (AD International Corp.) del 5 novembre 2026; il listino prezzi all'ingrosso dell'azienda non viene pubblicato. Anche il catalogo completo non viene pubblicato: solo pagine verificate e senza prezzi.",

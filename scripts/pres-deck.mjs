@@ -22,6 +22,21 @@ function shade(hex, f) {
 export const chips = (arr, cls = 'chip') =>
   (arr || []).map((t) => `<span class="${cls}">${esc(t)}</span>`).join('');
 
+/* Позиция каталога без фотографии — не пустая рамка, а плашка с монограммой,
+   как на сайте (SupplierProfile.astro monogram()). Нужна там, где товар ещё
+   не сфотографирован или физически не фотогеничен. */
+export function monogram(name) {
+  const words = String(name ?? '')
+    .replace(/[®™]/g, ' ')
+    .split(/[\s/,()–—-]+/)
+    .filter((w) => w && !/^[\d.,%]+$/.test(w));
+  if (!words.length) return '·';
+  const first = words[0].replace(/[^A-Za-zÀ-ɏЀ-ӿ]/g, '');
+  if (first.length >= 3 && first === first.toUpperCase()) return first.slice(0, 4);
+  if (words.length === 1) return first.slice(0, 3).toUpperCase();
+  return words.slice(0, 3).map((w) => w.charAt(0).toUpperCase()).join('');
+}
+
 /* Мотив обложки в манере самого бренда — тот же язык форм, что и на его странице
    сайта (см. voice в src/data/suppliers.ts и BrandField.astro). Рисуется поверх
    фирменного градиента, поэтому дек узнаётся как принадлежащий этому бренду. */
@@ -130,6 +145,7 @@ export function deckCSS(C, voice) {
   .prod__ph { height: 34mm; background: ${bg}; border: 1px solid ${line}; border-radius: 3mm;
               display: flex; align-items: center; justify-content: center; overflow: hidden; }
   .prod__ph img { max-width: 88%; max-height: 88%; object-fit: contain; }
+  .prod__mono { font-size: 13pt; font-weight: 800; letter-spacing: .06em; color: ${deep}; opacity: .42; }
   .prod .n { font-size: 8.5pt; font-weight: 700; color: #1c2430; margin-top: 2mm; line-height: 1.35; }
   .prod .v { font-size: 8pt; color: #7b8593; margin-top: .8mm; }
 
@@ -233,13 +249,22 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
      страницы, как разделы выше. Пояснение печатаем только на первой,
      иначе оно съедает место под товары на каждой. */
   if (cat && cat.length) {
-    const pages = chunkBy(cat.flatMap((g) => g.items), Infinity, 12, () => 1);
+    /* Разбиение на страницы по 12 позиций максимум греди жадно — последняя
+       страница часто получала 1 позицию на 11 пустых мест (DAILY COMMA:
+       73 позиции → 6×12 + 1×1). Балансируем: считаем число страниц от
+       максимума на страницу, затем делим поровну, чтобы последняя страница
+       была полной настолько, насколько другие. */
+    const flat = cat.flatMap((g) => g.items);
+    const maxPerPage = 12;
+    const numPages = Math.max(1, Math.ceil(flat.length / maxPerPage));
+    const perPage = Math.ceil(flat.length / numPages);
+    const pages = chunkBy(flat, Infinity, perPage, () => 1);
     pages.forEach((items, i) => P.push(page(cfg, cfg.supplier,
       (u.catalog_h || u.products_h || 'Product catalog') + (pages.length > 1 ? ` (${i + 1}/${pages.length})` : ''),
       (i === 0 && u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
       `<div class="grid">${items.map((it) => `
         <div class="prod">
-          <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : ''}</div>
+          <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : `<span class="prod__mono">${esc(monogram(it.name))}</span>`}</div>
           <div class="n">${esc(it.name)}</div>
           ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
         </div>`).join('')}</div>`)));
@@ -259,7 +284,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
   /* 7. Условия и контакт */
   {
     const rows = t.terms || [];
-    const groups = chunkBy(rows, 1150, 6, (x) => (x.label || '').length + (x.value || '').length);
+    const groups = chunkBy(rows, 1150, 7, (x) => (x.label || '').length + (x.value || '').length);
     groups.forEach((g, i) => {
       const last = i === groups.length - 1;
       P.push(page(cfg, cfg.supplier,
@@ -272,6 +297,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     });
   }
 
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8">
-    <style>${deckCSS(cfg.colors || {}, cfg.voice)}</style></head><body>${P.join('')}</body></html>`;
+  const dir = lang === 'he' ? 'rtl' : 'ltr';
+  return `<!doctype html><html lang="${lang}" dir="${dir}"><head><meta charset="utf-8">
+    <style>${deckCSS(cfg.colors || {}, cfg.voice)}${dir === 'rtl' ? 'body{direction:rtl;text-align:right}.foot{flex-direction:row-reverse}' : ''}</style></head><body>${P.join('')}</body></html>`;
 }

@@ -3312,16 +3312,25 @@ export const suppliers: SupplierProfile[] = [
     voice: 'pop',
     logoUrl: '/img/suppliers/dailycomma/logo-black.png',
     gallery: [
-      '/img/suppliers/dailycomma/products/aroma-perfume-mist.jpg',
-      '/img/suppliers/dailycomma/products/most-eau-de-parfum.jpg',
-      '/img/suppliers/dailycomma/products/eau-de-parfum.jpg',
-      '/img/suppliers/dailycomma/products/bello-hand-wash-lotion.jpg',
-      '/img/suppliers/dailycomma/products/bello-solid-perfume.jpg',
-      '/img/suppliers/dailycomma/products/most-hair-perfume.jpg',
-      '/img/suppliers/dailycomma/products/perfume-deodorant-mist.jpg',
-      '/img/suppliers/dailycomma/products/aurora-diffuser.jpg',
+      '/img/suppliers/dailycomma/products/apm-juicy-candy.jpg',
+      '/img/suppliers/dailycomma/products/medp-woody-garden.jpg',
+      '/img/suppliers/dailycomma/products/bhwl-white-velvet.jpg',
+      '/img/suppliers/dailycomma/products/bsp-dear-rosie.jpg',
+      '/img/suppliers/dailycomma/products/spds-fleur-mood.jpg',
+      '/img/suppliers/dailycomma/products/mhp-mademuse.jpg',
+      '/img/suppliers/dailycomma/products/pdm-cotton-veil.jpg',
+      '/img/suppliers/dailycomma/products/aur-black-cherry.jpg',
     ],
     catalog: dailycommaCatalog,
+    termsFile: {
+      ru: '/docs/dailycomma-terms-ru.pdf', en: '/docs/dailycomma-terms-en.pdf', ko: '/docs/dailycomma-terms-ko.pdf', zh: '/docs/dailycomma-terms-zh.pdf', ja: '/docs/dailycomma-terms-ja.pdf', it: '/docs/dailycomma-terms-it.pdf', de: '/docs/dailycomma-terms-de.pdf', fr: '/docs/dailycomma-terms-fr.pdf', tr: '/docs/dailycomma-terms-tr.pdf', es: '/docs/dailycomma-terms-es.pdf', pt: '/docs/dailycomma-terms-pt.pdf', he: '/docs/dailycomma-terms-he.pdf', hi: '/docs/dailycomma-terms-hi.pdf',
+    },
+    priceFile: {
+      ru: '/docs/dailycomma-catalog-ru.pdf', en: '/docs/dailycomma-catalog-en.pdf', ko: '/docs/dailycomma-catalog-ko.pdf', zh: '/docs/dailycomma-catalog-zh.pdf', ja: '/docs/dailycomma-catalog-ja.pdf', it: '/docs/dailycomma-catalog-it.pdf', de: '/docs/dailycomma-catalog-de.pdf', fr: '/docs/dailycomma-catalog-fr.pdf', tr: '/docs/dailycomma-catalog-tr.pdf', es: '/docs/dailycomma-catalog-es.pdf', pt: '/docs/dailycomma-catalog-pt.pdf', he: '/docs/dailycomma-catalog-he.pdf', hi: '/docs/dailycomma-catalog-hi.pdf',
+    },
+    presFile: {
+      ru: '/docs/dailycomma-presentation-ru.pdf', en: '/docs/dailycomma-presentation-en.pdf', ko: '/docs/dailycomma-presentation-ko.pdf', zh: '/docs/dailycomma-presentation-zh.pdf', ja: '/docs/dailycomma-presentation-ja.pdf', it: '/docs/dailycomma-presentation-it.pdf', de: '/docs/dailycomma-presentation-de.pdf', fr: '/docs/dailycomma-presentation-fr.pdf', tr: '/docs/dailycomma-presentation-tr.pdf', es: '/docs/dailycomma-presentation-es.pdf', pt: '/docs/dailycomma-presentation-pt.pdf', he: '/docs/dailycomma-presentation-he.pdf', hi: '/docs/dailycomma-presentation-hi.pdf',
+    },
     i18n: {
       ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any),
     },

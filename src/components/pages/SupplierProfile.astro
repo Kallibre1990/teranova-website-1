@@ -140,7 +140,7 @@ const profileTerms = c.terms?.length ? c.terms : ((termsDoc || priceDoc || presD
 const termsTitle = c.ui.terms_h || c.ui.export_h;
 const documentLabel = c.ui.download_btn || 'PDF';
 const presentationLabel = c.ui.pres_btn || 'PDF';
-const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary' || profile.slug === 'plk-lift') ? `${c.ui.catalog_h} (PDF)` : undefined);
+const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary' || profile.slug === 'plk-lift' || profile.slug === 'dailycomma') ? `${c.ui.catalog_h} (PDF)` : undefined);
 /* AgingTarget's documents are the useful evidence here. Keep the closing
    invitation quiet and free of a decorative slide, whose text would compete
    with the action on small screens. */
@@ -490,7 +490,7 @@ function monogram(name: string): string {
                   <h3 class="sp-catgrp__nm">
                     {lineHref(grp.line) ? <a class="sp-catgrp__lnk" href={lineHref(grp.line)}>{groupLabel}</a> : groupLabel}
                   </h3>
-                  <div class="sp-catnav">
+                  <div class="sp-catnav" hidden>
                     <button class="sp-catnav__b" type="button" data-dir="-1" aria-label={t.common.prev}>‹</button>
                     <button class="sp-catnav__b" type="button" data-dir="1" aria-label={t.common.next}>›</button>
                   </div>
@@ -755,6 +755,27 @@ function monogram(name: string): string {
     const rtl = getComputedStyle(row).direction === 'rtl';
     row.scrollBy({ left: Number(b.getAttribute('data-dir')) * step * (rtl ? -1 : 1), behavior: 'smooth' });
   }));
+  /* Стрелки группы каталога нужны только когда позиции не помещаются в видимую
+     ширину — иначе это кнопки в никуда. Сама сетка всегда скроллится свайпом/
+     протяжкой независимо от них, так что до первого замера стрелки спрятаны
+     атрибутом hidden в разметке, а не появляются с задержкой. */
+  const catGroups = Array.from(document.querySelectorAll('.sp-catgrp'));
+  if (catGroups.length) {
+    const syncCatNav = () => {
+      catGroups.forEach((grp) => {
+        const row = grp.querySelector('.sp-catgrp__grid');
+        const nav = grp.querySelector('.sp-catnav');
+        if (!row || !nav) return;
+        nav.hidden = row.scrollWidth <= row.clientWidth + 1;
+      });
+    };
+    syncCatNav();
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(syncCatNav, 150);
+    });
+  }
 </script>
 
 <style>
@@ -916,6 +937,7 @@ function monogram(name: string): string {
   .sp-catgrp__lnk { color: inherit; text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--ds-sky) 45%, transparent); transition: color .2s, border-color .2s; }
   .sp-catgrp__lnk:hover { color: var(--ds-sky); border-color: var(--ds-sky); }
   .sp-catnav { display: flex; gap: 8px; flex: none; }
+  .sp-catnav[hidden] { display: none; }
   .sp-catnav__b { width: 34px; height: 34px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--ds-sky) 30%, #d4dde9); background: #fff; color: var(--ds-deep); font-size: 1.25rem; line-height: 1; cursor: pointer; display: grid; place-items: center; transition: background .2s, transform .1s; }
   .sp-catnav__b:hover { background: color-mix(in srgb, var(--ds-sky) 12%, #fff); }
   .sp-catnav__b:active { transform: scale(0.92); }
