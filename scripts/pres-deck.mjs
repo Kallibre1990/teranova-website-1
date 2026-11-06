@@ -274,15 +274,27 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     const numPages = Math.max(1, Math.ceil(flat.length / maxPerPage));
     const perPage = Math.ceil(flat.length / numPages);
     const pages = chunkBy(flat, Infinity, perPage, () => 1);
-    pages.forEach((items, i) => P.push(page(cfg, cfg.supplier,
-      (u.catalog_h || u.products_h || 'Product catalog') + (pages.length > 1 ? ` (${i + 1}/${pages.length})` : ''),
-      (i === 0 && u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
-      `<div class="grid">${items.map((it) => `
-        <div class="prod">
-          <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : `<span class="prod__mono">${esc(monogram(it.name))}</span>`}</div>
-          <div class="n">${esc(it.name)}</div>
-          ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
-        </div>`).join('')}</div>`)));
+    /* Страница с меньше чем на полный грид (3 колонки × 4 ряда) рядов товара
+       иначе оставляет пустой нижний блок перед подвалом — так на KO-деке
+       Cheon365 (9 позиций = 3 ряда) страница 4 заполнялась едва на 56% и
+       вернулась с проверки (T-20261106-096). flex:1 + space-evenly растягивает
+       сами ряды на всю доступную высоту страницы вместо того, чтобы копить
+       пустоту внизу; на полном гриде (4 ряда) инлайн-стиль не добавляется —
+       вид не меняется. */
+    const fullRows = Math.ceil(maxPerPage / 3);
+    pages.forEach((items, i) => {
+      const rows = Math.ceil(items.length / 3);
+      const gridStyle = rows < fullRows ? ' style="flex:1;align-content:space-evenly"' : '';
+      P.push(page(cfg, cfg.supplier,
+        (u.catalog_h || u.products_h || 'Product catalog') + (pages.length > 1 ? ` (${i + 1}/${pages.length})` : ''),
+        (i === 0 && u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
+        `<div class="grid"${gridStyle}>${items.map((it) => `
+          <div class="prod">
+            <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : `<span class="prod__mono">${esc(monogram(it.name))}</span>`}</div>
+            <div class="n">${esc(it.name)}</div>
+            ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
+          </div>`).join('')}</div>`));
+    });
   }
 
   /* 6. Сертификаты, форматы, экспорт. cfg.compactExport folds this block into
