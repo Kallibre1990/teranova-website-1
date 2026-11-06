@@ -31,7 +31,9 @@ const OUT = process.env.PDF_OUT || path.join(ROOT, 'public/docs');
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
 /* PDF_LANGS=tr,de — пересобрать только эти языки (точечная починка без полного прогона). */
-const ALL_LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt'];
+const ALL_LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt', 'he', 'hi'];
+/* he — RTL для корректного порядка слов/таблиц в сгенерированном PDF. */
+const RTL_LANGS = new Set(['he']);
 const LANGS = process.env.PDF_LANGS ? process.env.PDF_LANGS.split(',').filter((l) => ALL_LANGS.includes(l)) : ALL_LANGS;
 
 const SIGN = 'Teranova Group · info@teranovagroup.com · teranovagroup.com · 2026';
@@ -556,6 +558,16 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* AD International Corp. / DAILY COMMA. Price list and wholesale basis were
+       not approved for publication (T-20261106-044) — public documents stay a
+       price-free catalog, terms and presentation only. */
+    id: 'dailycomma', json: 'dailycomma', supplier: 'AD International Corp.', brand: 'DAILY COMMA',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#2E1A24', sky: '#F6D9DE', bg: '#FDF6F3', line: '#F0DCE1' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
@@ -574,9 +586,12 @@ const PRICE_H = {
   tr: { title: 'Yaklaşık fiyat listesi', product: 'Ürün', volume: 'Hacim', price: 'Toptan' },
   es: { title: 'Lista de precios orientativa', product: 'Producto', volume: 'Volumen', price: 'Mayorista' },
   pt: { title: 'Lista de preços indicativa', product: 'Produto', volume: 'Volume', price: 'Atacado' },
+  he: { title: 'מחירון לדוגמה', product: 'מוצר', volume: 'נפח', price: 'מחיר סיטונאי' },
+  hi: { title: 'सांकेतिक मूल्य सूची', product: 'उत्पाद', volume: 'मात्रा', price: 'थोक मूल्य' },
 };
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const dirAttr = (lang) => (RTL_LANGS.has(lang) ? 'rtl' : 'ltr');
 
 /* Цена на коммерческом документе печатается с двумя знаками: «3.00», а не «3.0»
    и не «23». В данных лежит и «9.75», и «3.6», и «23» — все три верны по смыслу,
@@ -605,6 +620,7 @@ const baseCSS = (C) => `
   @page { size: A4; margin: 16mm 16mm 14mm; }
   * { box-sizing: border-box; }
   body { font-family: ${FONT}; color: #1c2430; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html[dir='rtl'] body { text-align: right; }
   .hd { display: flex; justify-content: space-between; align-items: baseline; }
   .hd .b { font-weight: 800; letter-spacing: .06em; color: ${C.deep}; font-size: 15px; }
   /* Без uppercase: в турецкой локали заглавные превращают i в İ и коверкают
@@ -625,7 +641,7 @@ function termsHTML(cfg, lang) {
       (t) => `<div class="row"><div class="lab">${esc(t.label)}</div><div class="val">${esc(t.value)}</div></div>`
     )
     .join('');
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+  return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
     .row { display: grid; grid-template-columns: 32% 1fr; gap: 18px; padding: 12px 0; border-bottom: 1px solid ${C.line}; }
     .lab { font-weight: 700; color: ${C.deep}; font-size: 12.5px; }
     .val { color: #2c3542; font-size: 12.5px; line-height: 1.5; }
@@ -648,12 +664,12 @@ function priceHTML(cfg, lang, priceLines) {
   for (const grp of priceLines) {
     body += `<tr class="grp"><td colspan="3">${esc(grp.line)}</td></tr>`;
     for (const it of grp.items) {
-      const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta' };
+      const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta', he: 'לפי בקשה', hi: 'अनुरोध पर' };
       const priceCell = it.price === 'REQUEST' ? `<span class="req">${esc(REQ[lang])}</span>` : `$${esc(money(it.price))}`;
       body += `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume)}</td><td class="pr">${priceCell}</td></tr>`;
     }
   }
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+  return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
     table { width: 100%; border-collapse: collapse; }
     thead th { background: ${C.bg}; color: ${C.deep}; font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; font-weight: 700; text-align: left; padding: 9px 10px; }
     thead th.pr { text-align: right; }
@@ -684,8 +700,8 @@ function catalogHTML(cfg, lang, groups) {
   const C = cfg.colors;
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   const title = j.ui.catalog_h || 'Product catalog';
-  const product = { ru: 'Продукт', en: 'Product', ko: '제품', zh: '产品', ja: '製品', it: 'Prodotto', de: 'Produkt', fr: 'Produit', tr: 'Ürün', es: 'Producto', pt: 'Produto' }[lang] || 'Product';
-  const volume = { ru: 'Объём', en: 'Volume', ko: '용량', zh: '规格', ja: '容量', it: 'Formato', de: 'Größe', fr: 'Format', tr: 'Hacim', es: 'Volumen', pt: 'Volume' }[lang] || 'Volume';
+  const product = { ru: 'Продукт', en: 'Product', ko: '제품', zh: '产品', ja: '製品', it: 'Prodotto', de: 'Produkt', fr: 'Produit', tr: 'Ürün', es: 'Producto', pt: 'Produto', he: 'מוצר', hi: 'उत्पाद' }[lang] || 'Product';
+  const volume = { ru: 'Объём', en: 'Volume', ko: '용량', zh: '规格', ja: '容量', it: 'Formato', de: 'Größe', fr: 'Format', tr: 'Hacim', es: 'Volumen', pt: 'Volume', he: 'נפח', hi: 'मात्रा' }[lang] || 'Volume';
   /* Research companies may publish programs rather than SKUs. Reuse each
      locale's approved program copy instead of inventing a product list. */
   const catalogGroups = groups.length ? groups : [{
@@ -694,7 +710,7 @@ function catalogHTML(cfg, lang, groups) {
   }];
   const rows = catalogGroups.map((g) => `<tr class="grp"><td colspan="2">${esc(g.line)}</td></tr>` + g.items.map((it) =>
     `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume || '')}</td></tr>`).join('')).join('');
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+  return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
     table { width: 100%; border-collapse: collapse; }
     thead th { background: ${C.bg}; color: ${C.deep}; font-size: 10.5px; letter-spacing: .04em; font-weight: 700; text-align: left; padding: 9px 10px; }
     tr.grp td { background: ${C.bg}; color: ${C.deep}; font-weight: 800; font-size: 12px; padding: 8px 10px; border-top: 1px solid ${C.line}; }
@@ -732,7 +748,7 @@ function presHTML(cfg, lang) {
   const about = d.about.map((p) => `<p>${esc(p)}</p>`).join('');
   const lines = d.lines.map((l) => `<div class="card"><div class="cn">${esc(l.name)}</div><div class="cd">${esc(l.note)}</div></div>`).join('');
   const tech = d.tech.map((t) => `<div class="trow"><div class="tn">${esc(t.name)}</div><div class="td">${esc(t.note)}</div></div>`).join('');
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+  return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
     h2 { color: ${C.deep}; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; margin: 18px 0 8px; padding-bottom: 4px; border-bottom: 1px solid ${C.line}; }
     p { margin: 5px 0; font-size: 11.5px; line-height: 1.55; color: #2c3542; }
     .tag { display: inline-block; background: ${C.bg}; color: ${C.deep}; font-weight: 700; font-size: 10px; padding: 3px 10px; border-radius: 20px; margin: 0 5px 5px 0; }

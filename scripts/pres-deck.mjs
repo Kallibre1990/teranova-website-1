@@ -272,6 +272,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
     });
   }
 
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8">
-    <style>${deckCSS(cfg.colors || {}, cfg.voice)}</style></head><body>${P.join('')}</body></html>`;
+  const dir = lang === 'he' ? 'rtl' : 'ltr';
+  return `<!doctype html><html lang="${lang}" dir="${dir}"><head><meta charset="utf-8">
+    <style>${deckCSS(cfg.colors || {}, cfg.voice)}${dir === 'rtl' ? 'body{direction:rtl;text-align:right}.foot{flex-direction:row-reverse}' : ''}</style></head><body>${P.join('')}</body></html>`;
 }
