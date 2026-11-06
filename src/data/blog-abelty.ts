@@ -45,11 +45,11 @@ export const abeltyPosts: BlogPost[] = [
       },
       "ko": {
         "title": "ABELTY: 수출 가격표 4종 제품",
-        "excerpt": "ABELTY의 현재 수출 가격표에는 네 가지 제품이 있습니다: 쌀겨수 더블 세럼, 선 세럼, 클렌징폼, 사찰 김치 프로바이오틱 크림.",
+        "excerpt": "ABELTY의 현재 수출 가격표에는 네 가지 제품이 있습니다: 쌀겨수 더블 세럼, 선 세럼, 클렌징폼, 사찰김치 유산균 크림.",
         "seoTitle": "ABELTY: 수출 가격표 4종 제품 · Teranova",
-        "seoDesc": "UNIC Cosmetic ABELTY 4종 제품 소개: 라이스 세럼, 클렌징폼, 김치 프로바이오틱 크림.",
+        "seoDesc": "UNIC Cosmetic ABELTY 4종 제품 소개: 라이스 세럼, 클렌징폼, 김치 유산균 크림.",
         "sections": [
-          { "h": "가격표에 있는 제품", "p": ["한국 브랜드 ABELTY(UNIC Cosmetic)의 현재 수출 가격표에는 라이스 라인 3종과 K-Probiotics 라인 1종이 있습니다. Rice Squalane Glow Double Serum은 쌀겨수와 스쿠알란을 기반으로 한 2중 글로우 세럼, 50ml입니다. Rice Niacinamide Moisture Sun Serum은 나이아신아마이드가 든 SPF50+ PA++++ 선 세럼, 50ml입니다. Rice Hydrating Cleansing Foam은 쌀가루 0.7%가 든 클렌징폼, 150ml입니다. K-Probiotics Soothing Relief Cream(80ml)에는 전통 사찰 김치에서 유래한 Weissella cibaria 프로바이오틱스와, 브랜드에 따르면 특허받은 식물 추출물이 들어 있습니다. 특정 시장에서의 품목 및 재고 여부는 Teranova를 통해 별도로 확인해야 합니다."] }
+          { "h": "가격표에 있는 제품", "p": ["한국 브랜드 ABELTY(UNIC Cosmetic)의 현재 수출 가격표에는 라이스 라인 3종과 K-Probiotics 라인 1종이 있습니다. Rice Squalane Glow Double Serum은 쌀겨수와 스쿠알란을 기반으로 한 2단 레이어 글로우 세럼, 50ml입니다. Rice Niacinamide Moisture Sun Serum은 나이아신아마이드가 든 SPF50+ PA++++ 선 세럼, 50ml입니다. Rice Hydrating Cleansing Foam은 쌀가루 0.7%가 든 클렌징폼, 150ml입니다. K-Probiotics Soothing Relief Cream(80ml)에는 전통 사찰 김치에서 유래한 Weissella cibaria 유산균과, 브랜드에 따르면 특허받은 식물 추출물이 들어 있습니다. 특정 시장에서의 품목 및 재고 여부는 Teranova를 통해 별도로 확인해야 합니다."] }
         ]
       },
       "zh": {
@@ -186,7 +186,7 @@ export const abeltyPosts: BlogPost[] = [
         "seoTitle": "ABELTY 4종 제품 사용법 · Teranova",
         "seoDesc": "ABELTY 제품 루틴 순서: 폼, 세럼, 크림, 선케어.",
         "sections": [
-          { "h": "네 단계", "p": ["브랜드에 따르면 ABELTY의 4종 제품 — 라이스 라인 3종과 K-Probiotics 크림 — 은 간단한 데일리 루틴으로 구성됩니다. 아침과 저녁: 쌀가루와 히알루론산이 든 Rice Hydrating Cleansing Foam으로 세안합니다. 세안 후: 2단 레이어 Rice Squalane Glow Double Serum으로 광채와 톤을 정돈합니다 — 브랜드에 따르면 저자극 테스트와 색소침착 완화 테스트를 완료했습니다. 민감하고 예민한 피부에는: 사찰 김치 유래 프로바이오틱스가 든 K-Probiotics Soothing Relief Cream을 사용합니다. 아침 루틴의 마지막 단계: 백탁 없는 가벼운 텍스처의 Rice Niacinamide Moisture Sun Serum SPF50+ PA++++이며, 브랜드의 현재 수출 가격표에 포함되어 있습니다."] }
+          { "h": "네 단계", "p": ["브랜드에 따르면 ABELTY의 4종 제품 — 라이스 라인 3종과 K-Probiotics 크림 — 은 간단한 데일리 루틴으로 구성됩니다. 아침과 저녁: 쌀가루와 히알루론산이 든 Rice Hydrating Cleansing Foam으로 세안합니다. 세안 후: 2단 레이어 Rice Squalane Glow Double Serum으로 광채와 톤을 정돈합니다 — 브랜드에 따르면 저자극 테스트와 색소침착 완화 테스트를 완료했습니다. 민감하고 예민한 피부에는: 사찰김치 유래 유산균이 든 K-Probiotics Soothing Relief Cream을 사용합니다. 아침 루틴의 마지막 단계: 백탁 없는 가벼운 텍스처의 Rice Niacinamide Moisture Sun Serum SPF50+ PA++++이며, 브랜드의 현재 수출 가격표에 포함되어 있습니다."] }
         ]
       },
       "zh": {
@@ -326,7 +326,7 @@ export const abeltyPosts: BlogPost[] = [
         "seoDesc": "UNIC Cosmetic과 ABELTY 브랜드: 스킨케어에 담긴 한국 밥상의 철학과 라인 로드맵.",
         "sections": [
           { "h": "브랜드 철학", "p": [
-            "ABELTY는 한국 기업 UNIC Cosmetic(유니씨코스메틱, 경기도 안양시)의 스킨케어 브랜드입니다. 브랜드에 따르면 이름은 '생명력'을 뜻하는 라틴어 'abel'에서 영감을 받았으며, 슬로건은 'All Beauty Lies in Vitality — From the Korean Table to Your Skin'입니다. 브랜드 스토리는 한국 밥상의 쌀, 김치, 나물무침이 단순한 음식이 아니라 균형을 되찾는 오랜 의식이라는 생각에 바탕을 두며, ABELTY는 이를 스킨케어로 옮깁니다.",
+            "ABELTY는 한국 기업 UNIC Cosmetic(유니씨코스메틱, 경기도 안양시)의 스킨케어 브랜드입니다. 브랜드에 따르면 이름은 '생기'를 뜻하는 라틴어 'abel'에서 영감을 받았으며, 슬로건은 'All Beauty Lies in Vitality — From the Korean Table to Your Skin'입니다. 브랜드 스토리는 한국 밥상의 쌀, 김치, 나물무침이 단순한 음식이 아니라 균형을 되찾는 오랜 의식이라는 생각에 바탕을 두며, ABELTY는 이를 스킨케어로 옮깁니다.",
             "브랜드 자체 로드맵에 따르면 2025년 라이스 라인은 첫걸음일 뿐이며, 2026년에는 김치 라인이, 2027년에는 세 번째 라인이 이어질 예정입니다. 이는 브랜드가 밝힌 계획으로 아직 출시되지 않은 제품이며, 구체적인 시기는 Teranova를 통해 별도로 확인해야 합니다."
           ] }
         ]
