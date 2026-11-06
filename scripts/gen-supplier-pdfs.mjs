@@ -552,6 +552,10 @@ const SUPPLIERS = [
        empty half-page (T-20261106-096) — fold them into the neighbouring
        About and Terms pages instead. */
     compactTech: true, compactExport: true,
+    /* catalogPhotos: the approved price list (T-20261106-097) carries per-item
+       carton quantity, shelf life and EAN — show them with the product photo
+       instead of the plain name/volume table other catalogOnly suppliers use. */
+    catalogPhotos: true,
     certs: ['MFDS Functional Cosmetic (Korea)', 'Skin Irritation Test — Completed'],
   },
   {
@@ -593,6 +597,25 @@ const PRICE_H = {
   pt: { title: 'Lista de preços indicativa', product: 'Produto', volume: 'Volume', price: 'Atacado' },
   he: { title: 'מחירון לדוגמה', product: 'מוצר', volume: 'נפח', price: 'מחיר סיטונאי' },
   hi: { title: 'सांकेतिक मूल्य सूची', product: 'उत्पाद', volume: 'मात्रा', price: 'थोक मूल्य' },
+};
+
+/* Per-item logistics labels for the photo catalog (cfg.catalogPhotos — T-20261106-097):
+   carton quantity, shelf life unit and the EAN label. Used only when the catalog
+   JSON actually carries box/shelfLifeMonths/ean, so suppliers without that data
+   keep the plain name/volume table unchanged. */
+const BOX_H = {
+  ru: 'Кол-во в коробке', en: 'Qty / carton', ko: '박스당 수량', zh: '每箱数量', ja: '箱入数',
+  it: 'Pz / scatola', de: 'Stk / Karton', fr: 'Pcs / carton', tr: 'Koli / adet',
+  es: 'Uds / caja', pt: 'Unid / caixa', he: 'יח׳ לקרטון', hi: 'प्रति बॉक्स मात्रा',
+};
+const SHELF_H = {
+  ru: 'Срок годности', en: 'Shelf life', ko: '유통기한', zh: '保质期', ja: '使用期限',
+  it: 'Validità', de: 'Haltbarkeit', fr: 'Durée de conservation', tr: 'Raf ömrü',
+  es: 'Caducidad', pt: 'Validade', he: 'תוקף', hi: 'शेल्फ लाइफ',
+};
+const SHELF_UNIT = {
+  ru: 'мес.', en: 'months', ko: '개월', zh: '个月', ja: 'ヶ月', it: 'mesi', de: 'Monate',
+  fr: 'mois', tr: 'ay', es: 'meses', pt: 'meses', he: 'חודשים', hi: 'महीने',
 };
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -713,6 +736,45 @@ function catalogHTML(cfg, lang, groups) {
     line: j.ui.lines_h || title,
     items: (j.content.lines || []).map((line) => ({ name: line.name, volume: line.note })),
   }];
+  const head = `<div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${esc(cfg.supplier)} · ${esc(cfg.brand)}</span></div>
+    <hr class="top"><h1>${esc(title)}</h1><div class="sub">${esc(cfg.supplier)} · ${esc(cfg.brand)}</div>`;
+  const foot = `<div class="disc">${esc(j.ui.terms_disc || '')}</div><div class="sign">${SIGN}</div>`;
+
+  if (cfg.catalogPhotos && catalogGroups.some((g) => g.items.some((it) => it.box || it.shelfLifeMonths || it.ean))) {
+    const boxH = BOX_H[lang] || BOX_H.en;
+    const shelfH = SHELF_H[lang] || SHELF_H.en;
+    const shelfU = SHELF_UNIT[lang] || SHELF_UNIT.en;
+    const cards = catalogGroups.map((g) => `<div class="grp-h">${esc(g.line)}</div><div class="grid">${g.items.map((it) => `
+      <div class="prod">
+        <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : ''}</div>
+        <div class="n">${esc(it.name)}</div>
+        ${it.volume ? `<div class="v">${esc(it.volume)}</div>` : ''}
+        <div class="facts">
+          ${it.box ? `<div class="f"><span class="fl">${esc(boxH)}</span><span class="fv">${esc(it.box)}</span></div>` : ''}
+          ${it.shelfLifeMonths ? `<div class="f"><span class="fl">${esc(shelfH)}</span><span class="fv">${esc(it.shelfLifeMonths)} ${esc(shelfU)}</span></div>` : ''}
+          ${it.ean ? `<div class="f"><span class="fl">EAN</span><span class="fv">${esc(it.ean)}</span></div>` : ''}
+        </div>
+      </div>`).join('')}</div>`).join('');
+    return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
+      .grp-h { font-weight: 800; color: ${C.deep}; font-size: 12px; background: ${C.bg}; padding: 7px 10px; border-radius: 4px; margin: 14px 0 8px; }
+      .grp-h:first-of-type { margin-top: 4px; }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+      .prod { break-inside: avoid; border: 1px solid ${C.line}; border-radius: 7px; padding: 8px; }
+      .prod__ph { height: 30mm; background: ${C.bg}; border-radius: 4px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+      .prod__ph img { max-width: 90%; max-height: 90%; object-fit: contain; }
+      .prod .n { font-size: 9.5px; font-weight: 700; color: #1c2430; margin-top: 6px; line-height: 1.3; }
+      .prod .v { font-size: 9px; color: #5b6675; margin-top: 2px; line-height: 1.3; }
+      .facts { margin-top: 5px; border-top: 1px solid ${C.line}; padding-top: 4px; }
+      .f { display: flex; justify-content: space-between; gap: 6px; font-size: 8px; padding: 1.5px 0; }
+      .fl { color: #8a93a1; }
+      .fv { color: #2c3542; font-weight: 700; text-align: right; }
+    </style></head><body>
+      ${head}
+      ${cards}
+      ${foot}
+    </body></html>`;
+  }
+
   const rows = catalogGroups.map((g) => `<tr class="grp"><td colspan="2">${esc(g.line)}</td></tr>` + g.items.map((it) =>
     `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume || '')}</td></tr>`).join('')).join('');
   return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
@@ -722,10 +784,9 @@ function catalogHTML(cfg, lang, groups) {
     tbody td { font-size: 11px; padding: 6px 10px; border-bottom: 1px solid #eef1f6; }
     td.nm { color: #222b38; } td.vol { color: #5b6675; white-space: nowrap; }
   </style></head><body>
-    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${esc(cfg.supplier)} · ${esc(cfg.brand)}</span></div>
-    <hr class="top"><h1>${esc(title)}</h1><div class="sub">${esc(cfg.supplier)} · ${esc(cfg.brand)}</div>
+    ${head}
     <table><thead><tr><th>${esc(product)}</th><th>${esc(volume)}</th></tr></thead><tbody>${rows}</tbody></table>
-    <div class="disc">${esc(j.ui.terms_disc || '')}</div><div class="sign">${SIGN}</div>
+    ${foot}
   </body></html>`;
 }
 
