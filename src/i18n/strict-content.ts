@@ -5,7 +5,9 @@ import type { Lang } from './ui';
  * Historical locales keep the original label until explicitly translated.
  */
 export function catalogText(source: string, entries: Partial<Record<Lang, string>> | undefined, lang: Lang): string {
-  if (!entries) return source;
+  // `source` is itself the English text (field values in the data files are written in
+  // English), so English must read it directly and never fall through to a `ru` entry.
+  if (lang === 'en' || !entries) return source;
   const text = localizedContent({ ru: source, ...entries }, lang, `catalog label: ${source}`);
   if (!text.trim()) throw new Error(`Empty ${lang} catalog label: ${source}`);
   return text;
@@ -14,7 +16,7 @@ export function catalogText(source: string, entries: Partial<Record<Lang, string
 /** Same contract as catalogText, for a list of tags (e.g. active ingredients)
  * that must translate as one ordered set, not word by word. */
 export function catalogList(source: string[], entries: Partial<Record<Lang, string[]>> | undefined, lang: Lang): string[] {
-  if (!entries) return source;
+  if (lang === 'en' || !entries) return source;
   const list = localizedContent({ ru: source, ...entries }, lang, `catalog list: ${source.join(', ')}`);
   if (list.length !== source.length) throw new Error(`Catalog list length mismatch for ${lang}: ${source.join(', ')}`);
   return list;
