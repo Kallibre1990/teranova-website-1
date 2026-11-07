@@ -1,0 +1,552 @@
+[
+  {
+    "line": "SPOTLESS LINE",
+    "items": [
+      {
+        "name": "Salvia Trouble Body Wash",
+        "img": "/img/suppliers/cellaheal/products/salvia-trouble-body-wash.jpg",
+        "volume": "500 ml",
+        "moq": 20,
+        "actives": [
+          "Salvia Leaf Water",
+          "Salicylic Acid (BHA)"
+        ],
+        "activesI18n": {
+          "de": [
+            "Salvia-Blattwasser",
+            "Salicylsäure (BHA)"
+          ],
+          "es": [
+            "Agua de hoja de salvia",
+            "Ácido salicílico (BHA)"
+          ],
+          "fr": [
+            "Eau de feuille de sauge",
+            "Acide salicylique (BHA)"
+          ],
+          "he": [
+            "מי עלי מרווה",
+            "חומצה סליצילית (BHA)"
+          ],
+          "hi": [
+            "सेज पत्ती जल",
+            "सैलिसिलिक एसिड (BHA)"
+          ],
+          "it": [
+            "Acqua di foglie di salvia",
+            "Acido salicilico (BHA)"
+          ],
+          "ja": [
+            "サルビア葉水",
+            "サリチル酸（BHA）"
+          ],
+          "ko": [
+            "샐비어잎수",
+            "살리실산(BHA)"
+          ],
+          "pt": [
+            "Água de folha de salva",
+            "Ácido salicílico (BHA)"
+          ],
+          "ru": [
+            "Вода листьев шалфея",
+            "Салициловая кислота (BHA)"
+          ],
+          "tr": [
+            "Adaçayı yaprağı suyu",
+            "Salisilik asit (BHA)"
+          ],
+          "zh": [
+            "鼠尾草叶水",
+            "水杨酸（BHA）"
+          ]
+        }
+      },
+      {
+        "name": "Salvia Trouble Body Mist",
+        "img": "/img/suppliers/cellaheal/products/salvia-trouble-body-mist.jpg",
+        "volume": "150 ml",
+        "moq": 20,
+        "actives": [
+          "Salvia Leaf Water",
+          "Niacinamide"
+        ],
+        "activesI18n": {
+          "de": [
+            "Salvia-Blattwasser",
+            "Niacinamid"
+          ],
+          "es": [
+            "Agua de hoja de salvia",
+            "Niacinamida"
+          ],
+          "fr": [
+            "Eau de feuille de sauge",
+            "Niacinamide"
+          ],
+          "he": [
+            "מי עלי מרווה",
+            "ניאצינאמיד"
+          ],
+          "hi": [
+            "सेज पत्ती जल",
+            "नियासिनामाइड"
+          ],
+          "it": [
+            "Acqua di foglie di salvia",
+            "Niacinamide"
+          ],
+          "ja": [
+            "サルビア葉水",
+            "ナイアシンアミド"
+          ],
+          "ko": [
+            "샐비어잎수",
+            "나이아신아마이드"
+          ],
+          "pt": [
+            "Água de folha de salva",
+            "Niacinamida"
+          ],
+          "ru": [
+            "Вода листьев шалфея",
+            "Ниацинамид"
+          ],
+          "tr": [
+            "Adaçayı yaprağı suyu",
+            "Niasinamid"
+          ],
+          "zh": [
+            "鼠尾草叶水",
+            "烟酰胺"
+          ]
+        }
+      },
+      {
+        "name": "Salvia Trouble Body Lotion",
+        "img": "/img/suppliers/cellaheal/products/salvia-trouble-body-lotion.jpg",
+        "volume": "300 ml",
+        "moq": 15,
+        "actives": [
+          "Salvia Leaf Water",
+          "Niacinamide"
+        ],
+        "activesI18n": {
+          "de": [
+            "Salvia-Blattwasser",
+            "Niacinamid"
+          ],
+          "es": [
+            "Agua de hoja de salvia",
+            "Niacinamida"
+          ],
+          "fr": [
+            "Eau de feuille de sauge",
+            "Niacinamide"
+          ],
+          "he": [
+            "מי עלי מרווה",
+            "ניאצינאמיד"
+          ],
+          "hi": [
+            "सेज पत्ती जल",
+            "नियासिनामाइड"
+          ],
+          "it": [
+            "Acqua di foglie di salvia",
+            "Niacinamide"
+          ],
+          "ja": [
+            "サルビア葉水",
+            "ナイアシンアミド"
+          ],
+          "ko": [
+            "샐비어잎수",
+            "나이아신아마이드"
+          ],
+          "pt": [
+            "Água de folha de salva",
+            "Niacinamida"
+          ],
+          "ru": [
+            "Вода листьев шалфея",
+            "Ниацинамид"
+          ],
+          "tr": [
+            "Adaçayı yaprağı suyu",
+            "Niasinamid"
+          ],
+          "zh": [
+            "鼠尾草叶水",
+            "烟酰胺"
+          ]
+        }
+      },
+      {
+        "name": "Salvia Trouble Cleansing Foam",
+        "img": "/img/suppliers/cellaheal/products/salvia-trouble-cleansing-foam.jpg",
+        "volume": "150 ml",
+        "moq": 50,
+        "actives": [
+          "Salvia Leaf Water",
+          "Salicylic Acid (BHA)"
+        ],
+        "activesI18n": {
+          "de": [
+            "Salvia-Blattwasser",
+            "Salicylsäure (BHA)"
+          ],
+          "es": [
+            "Agua de hoja de salvia",
+            "Ácido salicílico (BHA)"
+          ],
+          "fr": [
+            "Eau de feuille de sauge",
+            "Acide salicylique (BHA)"
+          ],
+          "he": [
+            "מי עלי מרווה",
+            "חומצה סליצילית (BHA)"
+          ],
+          "hi": [
+            "सेज पत्ती जल",
+            "सैलिसिलिक एसिड (BHA)"
+          ],
+          "it": [
+            "Acqua di foglie di salvia",
+            "Acido salicilico (BHA)"
+          ],
+          "ja": [
+            "サルビア葉水",
+            "サリチル酸（BHA）"
+          ],
+          "ko": [
+            "샐비어잎수",
+            "살리실산(BHA)"
+          ],
+          "pt": [
+            "Água de folha de salva",
+            "Ácido salicílico (BHA)"
+          ],
+          "ru": [
+            "Вода листьев шалфея",
+            "Салициловая кислота (BHA)"
+          ],
+          "tr": [
+            "Adaçayı yaprağı suyu",
+            "Salisilik asit (BHA)"
+          ],
+          "zh": [
+            "鼠尾草叶水",
+            "水杨酸（BHA）"
+          ]
+        }
+      },
+      {
+        "name": "Salvia Trouble Toner",
+        "img": "/img/suppliers/cellaheal/products/salvia-trouble-toner.jpg",
+        "volume": "200 ml",
+        "moq": 20,
+        "actives": [
+          "Salvia Leaf Water",
+          "Niacinamide"
+        ],
+        "activesI18n": {
+          "de": [
+            "Salvia-Blattwasser",
+            "Niacinamid"
+          ],
+          "es": [
+            "Agua de hoja de salvia",
+            "Niacinamida"
+          ],
+          "fr": [
+            "Eau de feuille de sauge",
+            "Niacinamide"
+          ],
+          "he": [
+            "מי עלי מרווה",
+            "ניאצינאמיד"
+          ],
+          "hi": [
+            "सेज पत्ती जल",
+            "नियासिनामाइड"
+          ],
+          "it": [
+            "Acqua di foglie di salvia",
+            "Niacinamide"
+          ],
+          "ja": [
+            "サルビア葉水",
+            "ナイアシンアミド"
+          ],
+          "ko": [
+            "샐비어잎수",
+            "나이아신아마이드"
+          ],
+          "pt": [
+            "Água de folha de salva",
+            "Niacinamida"
+          ],
+          "ru": [
+            "Вода листьев шалфея",
+            "Ниацинамид"
+          ],
+          "tr": [
+            "Adaçayı yaprağı suyu",
+            "Niasinamid"
+          ],
+          "zh": [
+            "鼠尾草叶水",
+            "烟酰胺"
+          ]
+        }
+      },
+      {
+        "name": "Salvia Trouble Serum",
+        "img": "/img/suppliers/cellaheal/products/salvia-trouble-serum.jpg",
+        "volume": "30 ml",
+        "moq": 30,
+        "actives": [
+          "Salvia Leaf Water",
+          "Niacinamide"
+        ],
+        "activesI18n": {
+          "de": [
+            "Salvia-Blattwasser",
+            "Niacinamid"
+          ],
+          "es": [
+            "Agua de hoja de salvia",
+            "Niacinamida"
+          ],
+          "fr": [
+            "Eau de feuille de sauge",
+            "Niacinamide"
+          ],
+          "he": [
+            "מי עלי מרווה",
+            "ניאצינאמיד"
+          ],
+          "hi": [
+            "सेज पत्ती जल",
+            "नियासिनामाइड"
+          ],
+          "it": [
+            "Acqua di foglie di salvia",
+            "Niacinamide"
+          ],
+          "ja": [
+            "サルビア葉水",
+            "ナイアシンアミド"
+          ],
+          "ko": [
+            "샐비어잎수",
+            "나이아신아마이드"
+          ],
+          "pt": [
+            "Água de folha de salva",
+            "Niacinamida"
+          ],
+          "ru": [
+            "Вода листьев шалфея",
+            "Ниацинамид"
+          ],
+          "tr": [
+            "Adaçayı yaprağı suyu",
+            "Niasinamid"
+          ],
+          "zh": [
+            "鼠尾草叶水",
+            "烟酰胺"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "PORELESS LINE",
+    "items": [
+      {
+        "name": "Apricot PDRN Tightening Gel Cleanser",
+        "img": "/img/suppliers/cellaheal/products/apricot-pdrn-tightening-gel-cleanser.jpg",
+        "volume": "150 ml",
+        "moq": 20,
+        "actives": [
+          "PORE LASER™",
+          "Apricot PDRN"
+        ],
+        "activesI18n": {
+          "de": [
+            "PORE LASER™",
+            "Aprikosen-PDRN"
+          ],
+          "es": [
+            "PORE LASER™",
+            "PDRN de albaricoque"
+          ],
+          "fr": [
+            "PORE LASER™",
+            "PDRN d'abricot"
+          ],
+          "he": [
+            "PORE LASER™",
+            "PDRN משמש"
+          ],
+          "hi": [
+            "PORE LASER™",
+            "खुबानी PDRN"
+          ],
+          "it": [
+            "PORE LASER™",
+            "PDRN di albicocca"
+          ],
+          "ja": [
+            "PORE LASER™",
+            "アプリコットPDRN"
+          ],
+          "ko": [
+            "PORE LASER™",
+            "살구 PDRN"
+          ],
+          "pt": [
+            "PORE LASER™",
+            "PDRN de damasco"
+          ],
+          "ru": [
+            "PORE LASER™",
+            "PDRN из абрикоса"
+          ],
+          "tr": [
+            "PORE LASER™",
+            "Kayısı PDRN"
+          ],
+          "zh": [
+            "PORE LASER™",
+            "杏源PDRN"
+          ]
+        }
+      },
+      {
+        "name": "Apricot PDRN Tightening Serum",
+        "img": "/img/suppliers/cellaheal/products/apricot-pdrn-tightening-serum.jpg",
+        "volume": "50 ml",
+        "moq": 30,
+        "actives": [
+          "PORE LASER™",
+          "Niacinamide"
+        ],
+        "activesI18n": {
+          "de": [
+            "PORE LASER™",
+            "Niacinamid"
+          ],
+          "es": [
+            "PORE LASER™",
+            "Niacinamida"
+          ],
+          "fr": [
+            "PORE LASER™",
+            "Niacinamide"
+          ],
+          "he": [
+            "PORE LASER™",
+            "ניאצינאמיד"
+          ],
+          "hi": [
+            "PORE LASER™",
+            "नियासिनामाइड"
+          ],
+          "it": [
+            "PORE LASER™",
+            "Niacinamide"
+          ],
+          "ja": [
+            "PORE LASER™",
+            "ナイアシンアミド"
+          ],
+          "ko": [
+            "PORE LASER™",
+            "나이아신아마이드"
+          ],
+          "pt": [
+            "PORE LASER™",
+            "Niacinamida"
+          ],
+          "ru": [
+            "PORE LASER™",
+            "Ниацинамид"
+          ],
+          "tr": [
+            "PORE LASER™",
+            "Niasinamid"
+          ],
+          "zh": [
+            "PORE LASER™",
+            "烟酰胺"
+          ]
+        }
+      },
+      {
+        "name": "Apricot PDRN Tightening Cream",
+        "img": "/img/suppliers/cellaheal/products/apricot-pdrn-tightening-cream.jpg",
+        "volume": "60 ml",
+        "moq": 42,
+        "actives": [
+          "PORE LASER™",
+          "Apricot PDRN"
+        ],
+        "activesI18n": {
+          "de": [
+            "PORE LASER™",
+            "Aprikosen-PDRN"
+          ],
+          "es": [
+            "PORE LASER™",
+            "PDRN de albaricoque"
+          ],
+          "fr": [
+            "PORE LASER™",
+            "PDRN d'abricot"
+          ],
+          "he": [
+            "PORE LASER™",
+            "PDRN משמש"
+          ],
+          "hi": [
+            "PORE LASER™",
+            "खुबानी PDRN"
+          ],
+          "it": [
+            "PORE LASER™",
+            "PDRN di albicocca"
+          ],
+          "ja": [
+            "PORE LASER™",
+            "アプリコットPDRN"
+          ],
+          "ko": [
+            "PORE LASER™",
+            "살구 PDRN"
+          ],
+          "pt": [
+            "PORE LASER™",
+            "PDRN de damasco"
+          ],
+          "ru": [
+            "PORE LASER™",
+            "PDRN из абрикоса"
+          ],
+          "tr": [
+            "PORE LASER™",
+            "Kayısı PDRN"
+          ],
+          "zh": [
+            "PORE LASER™",
+            "杏源PDRN"
+          ]
+        }
+      }
+    ]
+  }
+]
