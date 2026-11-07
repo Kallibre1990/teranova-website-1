@@ -1,10 +1,10 @@
 ---
 /* Blog article — readable long-form in Teranova brand style, with a related-links
    block (internal linking) and a request CTA. */
-import { localizePath, anchorHref } from '../../i18n/utils';
+import { localizePath, anchorHref, pickDoc } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import { postContent, type BlogPost } from '../../data/blog';
-import { supplierBySlug, suppliers } from '../../data/suppliers';
+import { supplierBySlug, suppliers, supplierContent } from '../../data/suppliers';
 import BlogHeroArt from '../visual/BlogHeroArt.astro';
 import BrandCover from '../visual/BrandCover.astro';
 import { coverPlan } from '../../data/cutouts';
@@ -60,6 +60,13 @@ for (const s of suppliers) {
     };
 }
 const rels = post.related.map((r) => REL[r]).filter(Boolean);
+/* Supplier-tied articles also link straight to that supplier's own PDF
+   (presentation), same file and fallback label already shown on its profile
+   page via pickDoc/pres_btn — not just to the profile/catalog page. */
+const supPdf = sup ? pickDoc(sup.presFile, lang) : null;
+if (supPdf && sup) {
+  rels.push({ href: supPdf.href, label: supplierContent(sup, lang).ui.pres_btn || 'PDF' });
+}
 /* «Где это применяется» — компании и их позиции с этим веществом. Поставщика,
    снятого с публикации, пропускаем: ссылка вела бы в никуда. */
 const uses = (post.uses ?? [])
