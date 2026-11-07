@@ -3427,6 +3427,15 @@ export const suppliers: SupplierProfile[] = [
        патент на формулу боди-воша. Заявки в MFDS — поданы, не одобрены,
        поэтому в бейджи не вынесены, только текстом в certs_note. */
     certs: ['EU CPNP', 'FDA MoCRA', 'KR Patent 10-2991658'],
+    termsFile: {
+      ru: '/docs/cellaheal-terms-ru.pdf', en: '/docs/cellaheal-terms-en.pdf', ko: '/docs/cellaheal-terms-ko.pdf', zh: '/docs/cellaheal-terms-zh.pdf', ja: '/docs/cellaheal-terms-ja.pdf', it: '/docs/cellaheal-terms-it.pdf', de: '/docs/cellaheal-terms-de.pdf', fr: '/docs/cellaheal-terms-fr.pdf', tr: '/docs/cellaheal-terms-tr.pdf', es: '/docs/cellaheal-terms-es.pdf', pt: '/docs/cellaheal-terms-pt.pdf', he: '/docs/cellaheal-terms-he.pdf', hi: '/docs/cellaheal-terms-hi.pdf',
+    },
+    priceFile: {
+      ru: '/docs/cellaheal-catalog-ru.pdf', en: '/docs/cellaheal-catalog-en.pdf', ko: '/docs/cellaheal-catalog-ko.pdf', zh: '/docs/cellaheal-catalog-zh.pdf', ja: '/docs/cellaheal-catalog-ja.pdf', it: '/docs/cellaheal-catalog-it.pdf', de: '/docs/cellaheal-catalog-de.pdf', fr: '/docs/cellaheal-catalog-fr.pdf', tr: '/docs/cellaheal-catalog-tr.pdf', es: '/docs/cellaheal-catalog-es.pdf', pt: '/docs/cellaheal-catalog-pt.pdf', he: '/docs/cellaheal-catalog-he.pdf', hi: '/docs/cellaheal-catalog-hi.pdf',
+    },
+    presFile: {
+      ru: '/docs/cellaheal-presentation-ru.pdf', en: '/docs/cellaheal-presentation-en.pdf', ko: '/docs/cellaheal-presentation-ko.pdf', zh: '/docs/cellaheal-presentation-zh.pdf', ja: '/docs/cellaheal-presentation-ja.pdf', it: '/docs/cellaheal-presentation-it.pdf', de: '/docs/cellaheal-presentation-de.pdf', fr: '/docs/cellaheal-presentation-fr.pdf', tr: '/docs/cellaheal-presentation-tr.pdf', es: '/docs/cellaheal-presentation-es.pdf', pt: '/docs/cellaheal-presentation-pt.pdf', he: '/docs/cellaheal-presentation-he.pdf', hi: '/docs/cellaheal-presentation-hi.pdf',
+    },
     i18n: {
       ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any),
     },

@@ -68,11 +68,11 @@
       },
       {
         "label": "Minimum sipariş",
-        "value": "Ürüne göre 15 ila 50 adet — markanın fiyat listesine göre standart dış koli boyutu."
+        "value": "Ürüne göre değişir; kesin miktar, ciddi bir talep üzerine Teranova aracılığıyla marka ile görüşülür."
       },
       {
         "label": "Toptan fiyat",
-        "value": "Fiyat listesi şirket tarafından gizli olarak paylaşılmıştır ve burada yayımlanmaz. Fiyatın hacme göre kademeli olarak düştüğü bilinmektedir (1.000 ve 3.000 adet ve üzeri) — tam tablo ve koşullar, ciddi bir talep üzerine Teranova aracılığıyla alıcıya iletilir."
+        "value": "Fiyat listesi şirket tarafından gizli olarak paylaşılmıştır ve burada yayımlanmaz. Fiyat, ciddi bir talep üzerine Teranova aracılığıyla alıcıya iletilir."
       },
       {
         "label": "Düzenleyici durum",
