@@ -4,15 +4,15 @@
     "descriptor": "Cheon365: Seoul company behind Scott Hamish, a Korean men’s grooming brand with toner and lotion essences, cleansing foam, sun care, hand cream and lip balm",
     "origin": "Korea",
     "about": [
-      "Cheon365 Co., Ltd. is a company based in Seoul, Korea. According to the official Scott Hamish website, it operates the Scott Hamish brand.",
-      "Scott Hamish describes itself as a men’s grooming care brand that addresses the skin concerns of modern men. The brand concept draws on Scotland, and its website names the Scottish thistle as one of its ingredients.",
-      ""
+      "Cheon365 Co., Ltd. is a company based in Seocho-gu, Seoul, founded on 20 January 2020. It operates the Scott Hamish men’s grooming brand, manufactured by Korea Kolmar.",
+      "Scott Hamish built its concept around Scotland — tartan, thistle and clan crests — and launched in September 2020 with five products: toner and lotion essences, a cleansing foam, and a sun cream and stick. The range grew with hand cream and lip balm in 2021 and an all-in-one BB essence in 2024. In 2022 the brand was selected for a small-business support program and placed second in the Seoul Beauty Week pitch competition; in 2024 it entered Olive Young.",
+      "Scott Hamish sells through Naver, Coupang, Kakao, CJ OnStyle, Lotte Home Shopping and GS Shop, plus its own Scott Hamish Clan store in Seoul and pop-ups such as Doota in Dongdaemun."
     ],
     "facts": [
-      "Based in Seoul, Korea",
-      "Brand: Scott Hamish",
-      "Men’s grooming care (brand website)",
-      "Skincare, cleansing, sun care, hand and lip care"
+      "Seocho-gu, Seoul, Korea — founded 20 January 2020",
+      "Brand: Scott Hamish, men’s grooming care",
+      "Manufacturer: Korea Kolmar",
+      "Sold via Naver, Coupang, Olive Young and its own Seoul store"
     ],
     "channels": [
       "Importers and distributors of men’s cosmetics",
@@ -21,41 +21,71 @@
     ],
     "lines": [
       {
-        "name": "Blue Blended essences",
-        "note": "According to the brand, all-in-one toner essence and lotion essence; the website lists hyaluronic acid, amino acids and milk thistle extract among the ingredients."
+        "name": "Blue Blended",
+        "note": "All-in-one toner essence and lotion essence, and a gift set pairing both with a cleansing-foam sample. Formulated with hyaluronic acid, amino acids and milk thistle extract."
       },
       {
-        "name": "Blue Freedom cleansing foam",
-        "note": "According to the brand, a deep-cleansing foam with BHA and plant capsules."
+        "name": "Blue Freedom",
+        "note": "A deep-cleansing foam with blue phyto capsules."
       },
       {
-        "name": "BeBrave BB essence",
-        "note": "According to the brand, an all-in-one BB essence that combines sun protection, BB cream and essence."
+        "name": "Classic Golf",
+        "note": "Sun cream and sun stick, SPF50+ PA++++, waterproof."
       },
       {
-        "name": "Classic Golf sun care",
-        "note": "According to the brand, a sun cream and a sun stick."
+        "name": "Courage Lip Care",
+        "note": "A lip balm with shea butter and six oil ingredients."
       },
       {
-        "name": "Hand and lip care",
-        "note": "According to the brand, Claymore hand creams and Courage lip balm."
+        "name": "Claymore Hand Care",
+        "note": "A moisture hand cream with shea butter, argan kernel oil and phytoma oil ceramide."
+      },
+      {
+        "name": "Be Brave",
+        "note": "An all-in-one BB essence combining BB cream and essence with SPF30 PA+++ sun protection."
       }
     ],
-    "tech": [],
+    "tech": [
+      {
+        "name": "Scottish Blended Complex™",
+        "note": "A barley, malt and corn blend tied to the brand’s Scotland concept, used across the Blue Blended line."
+      },
+      {
+        "name": "5 types of hyaluronic acid, 7 amino acids",
+        "note": "Core moisturizing actives in the Blue Blended toner and lotion essences."
+      },
+      {
+        "name": "Milk thistle extract",
+        "note": "Used in the Blue Blended essences."
+      }
+    ],
     "formats": [
       "Toner essence",
       "Lotion essence",
+      "Toner & lotion gift set",
       "Cleansing foam",
-      "BB essence",
       "Sun cream and sun stick",
+      "Lip balm",
       "Hand cream",
-      "Lip balm"
+      "BB essence"
     ],
-    "exportNote": "Teranova prepared this profile from Cheon365 materials and the official Scott Hamish website. Prices and minimum order quantities are available on request; specifications and requirements for a particular market are confirmed before an order.",
+    "exportNote": "Teranova prepared this profile from materials supplied directly by Cheon365 Co., Ltd. Wholesale prices and minimum order quantities are available on request; specifications and requirements for a particular market are confirmed before an order.",
     "terms": [
       {
         "label": "Cooperation",
         "value": "B2B inquiries through Teranova."
+      },
+      {
+        "label": "Production",
+        "value": "Made in Korea, manufactured by Korea Kolmar."
+      },
+      {
+        "label": "Shelf life",
+        "value": "36 months."
+      },
+      {
+        "label": "Packaging",
+        "value": "Master cartons of 12 to 120 units, depending on the item."
       },
       {
         "label": "Price",
@@ -67,8 +97,19 @@
       }
     ],
     "consentNote": "",
+    "catalog_notes": [
+      "Cleansing foam with blue phyto capsules that lifts away dead skin cells and impurities.",
+      "All-in-one toner essence formulated to improve skin condition.",
+      "All-in-one lotion essence with a strong moisturizing effect.",
+      "Toner essence and lotion essence gift set with a cleansing-foam sample.",
+      "SPF50+ PA++++ waterproof sun cream, registered as a triple-functional cosmetic (UV protection, brightening, wrinkle improvement), with a mild, no-white-cast finish.",
+      "SPF50+ PA++++ waterproof sun stick with a mild, no-white-cast finish.",
+      "Lip balm with shea butter and six oil ingredients.",
+      "Moisture hand cream with shea butter, argan kernel oil and phytoma oil ceramide.",
+      "Triple-functional all-in-one BB essence combining BB cream and essence with SPF30 PA+++ sun protection, wrinkle improvement and brightening."
+    ],
     "seoTitle": "Scott Hamish (Cheon365) — Korean men’s grooming care brand · Teranova",
-    "seoDesc": "Profile of Cheon365 Co., Ltd. and its brand Scott Hamish: men’s toner and lotion essences, cleansing foam, BB essence, sun care, hand cream and lip balm. Price on request. B2B through Teranova."
+    "seoDesc": "Profile of Cheon365 Co., Ltd. and its brand Scott Hamish: men’s toner and lotion essences, cleansing foam, BB essence, sun care, hand cream and lip balm. Manufactured by Korea Kolmar. Price on request. B2B through Teranova."
   },
   "ui": {
     "profile_sup": "Supplier profile",

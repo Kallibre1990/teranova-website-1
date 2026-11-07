@@ -1,61 +1,91 @@
 {
   "content": {
-    "tagline": "Scott Hamish, marca coreana de cuidados masculinos",
-    "descriptor": "Cheon365: empresa de Seul por trás da Scott Hamish, marca coreana de cuidados masculinos com essências tônico e loção, espuma de limpeza, proteção solar, creme para as mãos e bálsamo labial",
+    "tagline": "Marca coreana de grooming masculino Scott Hamish",
+    "descriptor": "Cheon365: empresa de Seul por trás da Scott Hamish, marca coreana de grooming masculino com essências tônico e loção, espuma de limpeza, proteção solar, creme para as mãos e bálsamo labial",
     "origin": "Coreia",
     "about": [
-      "A Cheon365 Co., Ltd. é uma empresa sediada em Seul, na Coreia. Segundo o site oficial da Scott Hamish, ela opera a marca Scott Hamish.",
-      "A Scott Hamish se apresenta como uma marca de cuidados e grooming masculino voltada aos problemas de pele do homem moderno. O conceito da marca se inspira na Escócia, e o site cita o cardo escocês entre seus ingredientes.",
-      ""
+      "A Cheon365 Co., Ltd. é uma empresa sediada em Seocho-gu, Seul, fundada em 20 de janeiro de 2020. Opera a marca de grooming masculino Scott Hamish, fabricada pela Korea Kolmar.",
+      "A Scott Hamish construiu seu conceito em torno da Escócia — tartan, cardo e brasões de clãs — e foi lançada em setembro de 2020 com cinco produtos: essências tônico e loção, uma espuma de limpeza e um creme e bastão solares. A linha foi ampliada com creme para as mãos e bálsamo labial em 2021, e uma essência BB tudo em um em 2024. Em 2022 a marca foi selecionada para um programa de apoio a pequenas empresas e ficou em segundo lugar no concurso de pitch da Seoul Beauty Week; em 2024 passou a ser vendida na Olive Young.",
+      "A Scott Hamish é vendida via Naver, Coupang, Kakao, CJ OnStyle, Lotte Home Shopping e GS Shop, além de sua própria loja Scott Hamish Clan em Seul e pop-ups como o Doota em Dongdaemun."
     ],
     "facts": [
-      "Sediada em Seul, Coreia",
-      "Marca: Scott Hamish",
-      "Cuidados masculinos (site da marca)",
-      "Cuidados com a pele, limpeza, proteção solar, cuidados com mãos e lábios"
+      "Seocho-gu, Seul, Coreia — fundada em 20 de janeiro de 2020",
+      "Marca: Scott Hamish, grooming masculino",
+      "Fabricante: Korea Kolmar",
+      "Vendida na Naver, Coupang, Olive Young e em sua própria loja em Seul"
     ],
     "channels": [
       "Importadores e distribuidores de cosméticos masculinos",
       "Redes de varejo e marketplaces",
-      "Lojas de beleza e cuidados masculinos"
+      "Lojas de beleza e grooming"
     ],
     "lines": [
       {
-        "name": "Essências Blue Blended",
-        "note": "Segundo a marca, essência tônico e essência loção tudo em um; entre os ingredientes, o site cita ácido hialurônico, aminoácidos e extrato de cardo-mariano."
+        "name": "Blue Blended",
+        "note": "Essência tônico e essência loção tudo em um, além de um kit presente que combina as duas com uma amostra de espuma de limpeza. Formulado com ácido hialurônico, aminoácidos e extrato de cardo-de-leite."
       },
       {
-        "name": "Espuma de limpeza Blue Freedom",
-        "note": "Segundo a marca, uma espuma de limpeza profunda com BHA e cápsulas vegetais."
+        "name": "Blue Freedom",
+        "note": "Uma espuma de limpeza profunda com cápsulas fito azuis."
       },
       {
-        "name": "BB essence BeBrave",
-        "note": "Segundo a marca, uma BB essence tudo em um que reúne proteção solar, BB cream e essência."
+        "name": "Classic Golf",
+        "note": "Creme e bastão solares, FPS50+ PA++++, resistentes à água."
       },
       {
-        "name": "Proteção solar Classic Golf",
-        "note": "Segundo a marca, um protetor solar em creme e um em bastão."
+        "name": "Courage Lip Care",
+        "note": "Um bálsamo labial com manteiga de karité e seis óleos."
       },
       {
-        "name": "Cuidados com mãos e lábios",
-        "note": "Segundo a marca, os cremes para as mãos Claymore e o bálsamo labial Courage."
+        "name": "Claymore Hand Care",
+        "note": "Um creme para as mãos hidratante com manteiga de karité, óleo de argan e ceramidas de origem vegetal."
+      },
+      {
+        "name": "Be Brave",
+        "note": "Uma essência BB tudo em um que combina creme BB e essência com proteção solar FPS30 PA+++."
       }
     ],
-    "tech": [],
+    "tech": [
+      {
+        "name": "Scottish Blended Complex™",
+        "note": "Uma mistura de cevada, malte e milho ligada ao conceito escocês da marca, usada na linha Blue Blended."
+      },
+      {
+        "name": "5 tipos de ácido hialurônico, 7 aminoácidos",
+        "note": "Ativos hidratantes centrais nas essências tônico e loção Blue Blended."
+      },
+      {
+        "name": "Extrato de cardo-de-leite",
+        "note": "Usado nas essências Blue Blended."
+      }
+    ],
     "formats": [
       "Essência tônico",
       "Essência loção",
+      "Kit presente tônico e loção",
       "Espuma de limpeza",
-      "BB essence",
-      "Protetor solar em creme e bastão",
+      "Creme e bastão solares",
+      "Bálsamo labial",
       "Creme para as mãos",
-      "Bálsamo labial"
+      "Essência BB"
     ],
-    "exportNote": "Este perfil foi preparado pela Teranova com materiais da Cheon365 e o site oficial da Scott Hamish. Preços e quantidades mínimas são fornecidos sob consulta; especificações e exigências do mercado são confirmadas antes do pedido.",
+    "exportNote": "A Teranova preparou este perfil com base em materiais fornecidos diretamente pela Cheon365 Co., Ltd. Preços de atacado e quantidades mínimas de pedido estão disponíveis mediante solicitação; especificações e requisitos de um mercado específico são confirmados antes do pedido.",
     "terms": [
       {
         "label": "Cooperação",
-        "value": "Consultas B2B pela Teranova."
+        "value": "Consultas B2B através da Teranova."
+      },
+      {
+        "label": "Produção",
+        "value": "Made in Korea, fabricado pela Korea Kolmar."
+      },
+      {
+        "label": "Validade",
+        "value": "36 meses."
+      },
+      {
+        "label": "Embalagem",
+        "value": "Caixas master de 12 a 120 unidades, dependendo do item."
       },
       {
         "label": "Preço",
@@ -63,29 +93,40 @@
       },
       {
         "label": "Amostras",
-        "value": "Discutidas para uma consulta concreta."
+        "value": "Discutidas para uma consulta específica."
       }
     ],
     "consentNote": "",
-    "seoTitle": "Scott Hamish (Cheon365) — marca coreana de cuidados masculinos · Teranova",
-    "seoDesc": "Perfil da Cheon365 Co., Ltd. e da marca Scott Hamish: essências tônico e loção masculinas, espuma de limpeza, BB essence, proteção solar, creme para as mãos e bálsamo labial. Preço sob consulta. B2B pela Teranova."
+    "catalog_notes": [
+      "Espuma de limpeza com cápsulas fito azuis que remove células mortas e impurezas.",
+      "Essência tônico tudo em um formulada para melhorar a condição da pele.",
+      "Essência loção tudo em um com forte efeito hidratante.",
+      "Kit presente com essência tônico e essência loção, com amostra de espuma de limpeza.",
+      "Creme solar resistente à água FPS50+ PA++++, registrado como cosmético de tripla funcionalidade (proteção UV, clareamento, antirrugas), com acabamento leve e sem efeito esbranquiçado.",
+      "Bastão solar resistente à água FPS50+ PA++++ com acabamento leve e sem efeito esbranquiçado.",
+      "Bálsamo labial com manteiga de karité e seis óleos.",
+      "Creme para as mãos hidratante com manteiga de karité, óleo de argan e ceramidas de origem vegetal.",
+      "Essência BB tudo em um de tripla funcionalidade que combina creme BB e essência com proteção FPS30 PA+++, antirrugas e clareamento."
+    ],
+    "seoTitle": "Scott Hamish (Cheon365) — marca coreana de grooming masculino · Teranova",
+    "seoDesc": "Perfil da Cheon365 Co., Ltd. e da marca Scott Hamish: essências tônico e loção, espuma de limpeza, essência BB, proteção solar, creme para as mãos e bálsamo labial masculinos. Fabricado pela Korea Kolmar. Preço sob consulta. B2B através da Teranova."
   },
   "ui": {
     "profile_sup": "Perfil do fornecedor",
     "about_h": "Sobre a empresa",
-    "for_whom": "Para quem serve:",
-    "lines_h": "Linhas de produto",
+    "for_whom": "Para quem é indicado:",
+    "lines_h": "Linha de produtos",
     "catalog_h": "Catálogo de produtos",
     "tech_h": "Tecnologia",
     "formats_h": "Formatos de produto",
-    "export_h": "Exportação e mercados",
+    "export_h": "Exportação e condições",
     "terms_h": "Condições de cooperação",
     "download_btn": "Baixar condições (PDF)",
     "pres_btn": "Baixar apresentação (PDF)",
-    "terms_disc": "Sob consulta; sem lista pública de preços.",
-    "cta_h": "Ficou interessado neste fornecedor?",
-    "cta_d": "Fale conosco — a Teranova organiza a negociação, as verificações e toda a operação, do primeiro contato à entrega.",
-    "cta_btn": "Falar através da Teranova",
+    "terms_disc": "Sob consulta; sem lista de preços pública.",
+    "cta_h": "Interessado neste fornecedor?",
+    "cta_d": "Entre em contato — a Teranova organiza negociações, due diligence e acompanhamento da negociação, do primeiro contato até a entrega.",
+    "cta_btn": "Contatar via Teranova",
     "more": "Abrir perfil →",
     "verified_suppliers": "Fornecedores verificados",
     "certs_h": "Certificações",

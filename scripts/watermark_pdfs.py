@@ -119,6 +119,48 @@ def strip_old(doc):
     return removed
 
 
+def center_band(page, box_frac=0.12, default_frac=0.5):
+    """Вертикальная полоса для центрального знака, свободная от текста строк.
+
+    Знак рисуется под содержимым (overlay=False), но на коротких документах
+    (catalog/terms с малым числом строк) фиксированная полоса 44-56% высоты
+    страницы всё равно приходится ровно на строку таблицы или подвал — крупные
+    буквы знака просвечивают сквозь текст и выглядят как перечёркнутая строка.
+    Поэтому полосу подбираем: берём ту же высоту, что и раньше (12% страницы),
+    но сканируем от центра страницы наружу и останавливаемся на первой полосе,
+    не пересекающей ни одно слово реального содержимого. Не находим — остаёмся
+    на прежнем фиксированном месте (не хуже, чем раньше).
+
+    Свобода проверяется не по всей ширине страницы, а только там, где и правда
+    лягут буквы знака: сам знак — это одна центрированная строка фиксированной
+    ширины (в разы уже страницы), а карточки каталога занимают почти всю высоту
+    почти по всей ширине. Проверка по полной ширине находила «свободную» полосу
+    только за пределами страницы и скатывалась в зафиксированный запасной
+    вариант, который как раз и пересекал текст — отсюда и был дефект."""
+    r = page.rect
+    h = r.height
+    box_h = h * box_frac
+    text_w = fitz.get_text_length(CENTER, fontname='helv', fontsize=CENTER_SIZE)
+    cx = (r.x0 + r.x1) / 2
+    bx0, bx1 = cx - text_w / 2, cx + text_w / 2
+    words = page.get_text('words')  # (x0, y0, x1, y1, word, ...)
+
+    def free(y0, y1):
+        return not any(w[1] < y1 and w[3] > y0 and w[0] < bx1 and w[2] > bx0 for w in words)
+
+    candidates = [default_frac]
+    step = 0.03
+    for i in range(1, 13):
+        for c in (default_frac - i * step, default_frac + i * step):
+            if 0.22 <= c <= 0.80:
+                candidates.append(c)
+    for c in candidates:
+        y0, y1 = r.y0 + h * c - box_h / 2, r.y0 + h * c + box_h / 2
+        if free(y0, y1):
+            return y0, y1
+    return r.y0 + h * (default_frac - box_frac / 2), r.y0 + h * (default_frac + box_frac / 2)
+
+
 def stamp(doc, lang):
     """Знак и подвал — под содержимым страницы.
 
@@ -129,8 +171,9 @@ def stamp(doc, lang):
     foot = f'© Teranova Group · teranovagroup.com · {ORIGINAL[lang]}'
     for page in doc:
         r = page.rect
+        band_y0, band_y1 = center_band(page)
         page.insert_textbox(
-            fitz.Rect(r.x0, r.y0 + r.height * 0.44, r.x1, r.y0 + r.height * 0.56),
+            fitz.Rect(r.x0, band_y0, r.x1, band_y1),
             CENTER, fontsize=CENTER_SIZE, fontname='helv',
             color=CENTER_GRAY, align=fitz.TEXT_ALIGN_CENTER, overlay=False,
         )
@@ -169,7 +212,11 @@ def process(path):
     clean_meta(doc, path)
     # Полное пересохранение со сборкой мусора и сжатием: после урезания шрифтов
     # инкрементальная запись только добавила бы объём.
-    doc.save(path + '.tmp', garbage=4, deflate=True, clean=True)
+    # clean=False: иначе PyMuPDF сливает знак и содержимое страницы в один
+    # поток, и strip_old на следующем прогоне больше не находит отдельный
+    # маленький поток знака — тот же документ удваивал знак при каждом новом
+    # прогоне скрипта (T-20261106-097).
+    doc.save(path + '.tmp', garbage=4, deflate=True, clean=False)
     doc.close()
     stable_id(path + '.tmp')
     os.replace(path + '.tmp', path)

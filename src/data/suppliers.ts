@@ -3265,23 +3265,20 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#1F2A44', sky: '#D7DEE8', accent: '#2B4C7E', bg: '#F4F5F7' },
     voice: 'minimal',
     logoUrl: '/img/suppliers/cheon365/scott-hamish-logo.png',
+    /* Постановочные снимки (연출컷) из архива поставщика, не пэкшоты каталога —
+       см. provenance docs/provenance/cheon365-20261106.md. */
     gallery: [
-      '/img/suppliers/cheon365/products/blue-freedom-capsule-cleansing-foam.jpg',
-      '/img/suppliers/cheon365/products/blue-blended-toner-essence.jpg',
-      '/img/suppliers/cheon365/products/blue-blended-lotion-essence.jpg',
-      '/img/suppliers/cheon365/products/classic-golf-sun-cream.jpg',
-      '/img/suppliers/cheon365/products/classic-golf-sun-stick.jpg',
-      '/img/suppliers/cheon365/products/courage-lip-balm.jpg',
-      '/img/suppliers/cheon365/products/claymore-hand-cream.jpg',
-      '/img/suppliers/cheon365/products/be-brave-bb-essence.jpg',
+      '/img/suppliers/cheon365/gallery/blue-blended-toner-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/blue-blended-duo-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/blue-freedom-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/classic-golf-trio-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/classic-golf-stick-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/courage-lip-balm-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/claymore-hand-cream-lifestyle.jpg',
+      '/img/suppliers/cheon365/gallery/be-brave-bb-essence-lifestyle.jpg',
     ],
     catalog: cheon365Catalog,
-    // Короткие имена BB/HA нельзя надёжно сопоставить с названием товара
-    // автоматически. SupplierProfile берёт ключи по русскому эталону линий.
-    lineShots: {
-      'BB-эссенция BeBrave': '/img/suppliers/cheon365/products/be-brave-bb-essence.jpg',
-      'Уход за руками и губами': '/img/suppliers/cheon365/products/claymore-hand-cream.jpg',
-    },
+    certs: ['MFDS Functional Cosmetic (Korea)', 'Skin Irritation Test — Completed'],
     /* Антон разрешил собрать и опубликовать профиль по переданным материалам.
        Розничные цены из буклета и Confidential-презентация не публикуются:
        ссылки ведут только на производные PDF без цен. */
