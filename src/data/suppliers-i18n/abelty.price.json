@@ -1,0 +1,30 @@
+[
+  {
+    "line": "Rice line",
+    "lineI18n": {
+      "de": "Reislinie",
+      "es": "Línea de arroz",
+      "fr": "Ligne riz",
+      "he": "קו האורז",
+      "hi": "राइस लाइन",
+      "it": "Linea riso",
+      "ja": "ライスライン",
+      "ko": "라이스 라인",
+      "pt": "Linha de arroz",
+      "ru": "Рисовая линия",
+      "tr": "Pirinç serisi",
+      "zh": "大米系列"
+    },
+    "items": [
+      { "name": "Rice Squalane Glow Double Serum", "volume": "50 ml", "price": "6.75" },
+      { "name": "Rice Niacinamide Moisture Sun Serum SPF50+ PA++++", "volume": "50 ml", "price": "6.48" },
+      { "name": "Rice Hydrating Cleansing Foam", "volume": "150 ml", "price": "5.40" }
+    ]
+  },
+  {
+    "line": "K-Probiotics",
+    "items": [
+      { "name": "K-Probiotics Soothing Relief Cream", "volume": "80 ml", "price": "5.94" }
+    ]
+  }
+]

@@ -577,6 +577,14 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    // ABELTY (UNIC Cosmetic): no formal certifications provided, so certs: [].
+    id: 'abelty', json: 'abelty', supplier: 'UNIC Cosmetic (유니씨코스메틱)', brand: 'ABELTY',
+    basis: 'FOB Korea',
+    colors: { deep: '#4A3826', sky: '#C9A86B', bg: '#FAF4E9', line: '#EDE1CB' },
+    pres: true,
+    certs: [],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
@@ -621,6 +629,22 @@ const SHELF_UNIT = {
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const dirAttr = (lang) => (RTL_LANGS.has(lang) ? 'rtl' : 'ltr');
 
+/* Chrome's own bidi algorithm reorders a Latin/digit run by WORD when it sits
+   inside an RTL paragraph with no Hebrew letter to anchor it — "50 ml" prints
+   as "ml 50", "SPF50+ PA++++" prints as "++++Rice ... SPF50+ PA" (the trailing
+   run of bare "+" has no strong direction to anchor on either). Isolating each
+   non-Hebrew run in its own <bdi dir="ltr"> keeps it in its typed order
+   regardless of the surrounding paragraph's direction. Runs made only of
+   spaces/punctuation (no Latin letter or digit) are left as plain escaped
+   text — wrapping them buys nothing and adds noise. */
+const bidiSafe = (s, lang) => {
+  const str = String(s);
+  if (!RTL_LANGS.has(lang)) return esc(str);
+  return str.split(/([^֐-׿]+)/).map((run) => (
+    run && /[A-Za-z0-9]/.test(run) ? `<bdi dir="ltr">${esc(run)}</bdi>` : esc(run)
+  )).join('');
+};
+
 /* Цена на коммерческом документе печатается с двумя знаками: «3.00», а не «3.0»
    и не «23». В данных лежит и «9.75», и «3.6», и «23» — все три верны по смыслу,
    но в одной таблице выглядят неряшливо. Правим только чистые числа: значения
@@ -664,9 +688,10 @@ const baseCSS = (C) => `
 function termsHTML(cfg, lang) {
   const C = cfg.colors;
   const d = termsData(cfg, lang);
+  const T = (s) => bidiSafe(s, lang);
   const rows = d.terms
     .map(
-      (t) => `<div class="row"><div class="lab">${esc(t.label)}</div><div class="val">${esc(t.value)}</div></div>`
+      (t) => `<div class="row"><div class="lab">${T(t.label)}</div><div class="val">${T(t.value)}</div></div>`
     )
     .join('');
   return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
@@ -674,12 +699,12 @@ function termsHTML(cfg, lang) {
     .lab { font-weight: 700; color: ${C.deep}; font-size: 12.5px; }
     .val { color: #2c3542; font-size: 12.5px; line-height: 1.5; }
   </style></head><body>
-    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${esc(d.terms_h)}</span></div>
+    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${T(d.terms_h)}</span></div>
     <hr class="top">
-    <h1>${cfg.supplier} · ${cfg.brand}</h1>
-    <div class="sub">${esc(d.descriptor)}</div>
+    <h1>${T(cfg.supplier)} · ${T(cfg.brand)}</h1>
+    <div class="sub">${T(d.descriptor)}</div>
     ${rows}
-    <div class="disc">${esc(d.terms_disc)}</div>
+    <div class="disc">${T(d.terms_disc)}</div>
     <div class="sign">${SIGN}</div>
   </body></html>`;
 }
@@ -688,13 +713,15 @@ function priceHTML(cfg, lang, priceLines) {
   const C = cfg.colors;
   const h = PRICE_H[lang];
   const disc = termsData(cfg, lang).terms_disc;
+  const T = (s) => bidiSafe(s, lang);
   let body = '';
   for (const grp of priceLines) {
-    body += `<tr class="grp"><td colspan="3">${esc(grp.line)}</td></tr>`;
+    const grpLine = (grp.lineI18n && grp.lineI18n[lang]) || grp.line;
+    body += `<tr class="grp"><td colspan="3">${T(grpLine)}</td></tr>`;
     for (const it of grp.items) {
       const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta', he: 'לפי בקשה', hi: 'अनुरोध पर' };
-      const priceCell = it.price === 'REQUEST' ? `<span class="req">${esc(REQ[lang])}</span>` : `$${esc(money(it.price))}`;
-      body += `<tr><td class="nm">${esc(it.name)}</td><td class="vol">${esc(it.volume)}</td><td class="pr">${priceCell}</td></tr>`;
+      const priceCell = it.price === 'REQUEST' ? `<span class="req">${T(REQ[lang])}</span>` : `<bdi dir="ltr">$${esc(money(it.price))}</bdi>`;
+      body += `<tr><td class="nm">${T(it.name)}</td><td class="vol">${T(it.volume)}</td><td class="pr">${priceCell}</td></tr>`;
     }
   }
   return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
@@ -708,15 +735,19 @@ function priceHTML(cfg, lang, priceLines) {
     td.pr { text-align: right; color: ${C.deep}; font-weight: 700; white-space: nowrap; }
     td.pr .req { font-weight: 600; font-size: 10px; color: #8a8a8a; font-style: italic; }
   </style></head><body>
-    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${cfg.supplier} · ${cfg.brand} · ${cfg.basis}</span></div>
+    <div class="hd"><span class="b">TERANOVA GROUP</span><span class="r">${T(cfg.supplier)} · ${T(cfg.brand)} · ${T(cfg.basis)}</span></div>
     <hr class="top">
-    <h1>${esc(h.title)}</h1>
-    <div class="sub">${cfg.supplier} · ${cfg.brand}</div>
+    <h1>${T(h.title)}</h1>
+    <div class="sub">${T(cfg.supplier)} · ${T(cfg.brand)}</div>
     <table>
-      <thead><tr><th>${esc(h.product)}</th><th>${esc(h.volume)}</th><th class="pr">${esc(h.price)}, USD</th></tr></thead>
+      <!-- he: isolating ", USD" together (comma inside the bdi) pushes the comma to the
+           far end instead of next to the Hebrew word — confirmed by rendering both forms
+           through the real Chrome pipeline. Isolating only "USD" and leaving the comma
+           in the RTL flow (like plain "word, " before any English) renders correctly. -->
+      <thead><tr><th>${T(h.product)}</th><th>${T(h.volume)}</th><th class="pr">${T(h.price)}, <bdi dir="ltr">USD</bdi></th></tr></thead>
       <tbody>${body}</tbody>
     </table>
-    <div class="disc">${esc(disc)}</div>
+    <div class="disc">${T(disc)}</div>
     <div class="sign">${SIGN}</div>
   </body></html>`;
 }
