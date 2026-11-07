@@ -585,6 +585,25 @@ const SUPPLIERS = [
     pres: true,
     certs: [],
   },
+  {
+    /* ESTC INTERNATIONAL / CELLAHEAL: согласие Gun Kim (CEO) на профиль и
+       товарные страницы, письмо 04.11.2026. Экспортный прайс-лист передан с
+       пометкой «только для внутреннего использования» — публичные документы
+       остаются каталогом без цены, условиями и презентацией (T-20261107-056). */
+    id: 'cellaheal', json: 'cellaheal', supplier: 'ESTC INTERNATIONAL', brand: 'CELLAHEAL',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#6B0F1E', sky: '#F6D7DB', accent: '#D11A32', bg: '#FDF7F6', line: '#F0DADD' },
+    pres: true,
+    /* compactTech/compactExport: 3 short tech bullets and a short export note
+       each left a page under half full (same D-1000-class issue as cheon365) —
+       fold them into the neighbouring About and Terms pages instead. */
+    compactTech: true, compactExport: true,
+    /* catalogPhotos: brand sent real product pack shots for all 9 SKUs (no
+       box/shelf-life/EAN in the data, unlike cheon365) — show the photo grid
+       from those images rather than the plain name/volume table (T-20261107-056). */
+    catalogPhotos: true,
+    certs: ['EU CPNP', 'FDA MoCRA', 'KR Patent 10-2991658'],
+  },
 ];
 
 /* Price-sheet headings per language. 9 langs are the exact strings from the existing
@@ -608,9 +627,9 @@ const PRICE_H = {
 };
 
 /* Per-item logistics labels for the photo catalog (cfg.catalogPhotos — T-20261106-097):
-   carton quantity, shelf life unit and the EAN label. Used only when the catalog
-   JSON actually carries box/shelfLifeMonths/ean, so suppliers without that data
-   keep the plain name/volume table unchanged. */
+   carton quantity, shelf life unit and the EAN label. The photo grid itself also
+   triggers when an item has a matched product photo (it.abs, T-20261107-056) even
+   without these logistics fields; suppliers with neither keep the plain table. */
 const BOX_H = {
   ru: 'Кол-во в коробке', en: 'Qty / carton', ko: '박스당 수량', zh: '每箱数量', ja: '箱入数',
   it: 'Pz / scatola', de: 'Stk / Karton', fr: 'Pcs / carton', tr: 'Koli / adet',
@@ -771,7 +790,7 @@ function catalogHTML(cfg, lang, groups) {
     <hr class="top"><h1>${esc(title)}</h1><div class="sub">${esc(cfg.supplier)} · ${esc(cfg.brand)}</div>`;
   const foot = `<div class="disc">${esc(j.ui.terms_disc || '')}</div><div class="sign">${SIGN}</div>`;
 
-  if (cfg.catalogPhotos && catalogGroups.some((g) => g.items.some((it) => it.box || it.shelfLifeMonths || it.ean))) {
+  if (cfg.catalogPhotos && catalogGroups.some((g) => g.items.some((it) => it.box || it.shelfLifeMonths || it.ean || it.abs))) {
     const boxH = BOX_H[lang] || BOX_H.en;
     const shelfH = SHELF_H[lang] || SHELF_H.en;
     const shelfU = SHELF_UNIT[lang] || SHELF_UNIT.en;

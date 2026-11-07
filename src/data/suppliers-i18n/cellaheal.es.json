@@ -1,0 +1,132 @@
+{
+  "content": {
+    "tagline": "Dermocosmética para las necesidades de la piel según la edad, de las imperfecciones a los poros dilatados",
+    "descriptor": "CELLAHEAL (ESTC INTERNATIONAL, Corea) — 9 referencias en la lista de precios de exportación vigente: la línea SPOTLESS para piel con tendencia a imperfecciones y la línea PORELESS para poros dilatados",
+    "origin": "Corea",
+    "about": [
+      "CELLAHEAL es una marca de dermocosmética de la empresa coreana ESTC INTERNATIONAL (CEO Gun Kim), fundada en 2024. Según la estrategia propia de la marca, está construida en torno a las necesidades de la piel según la edad: la línea SPOTLESS para piel joven con tendencia a imperfecciones (10-20 años), la línea PORELESS para poros dilatados (20-30 años) y una línea TIMELESS anunciada para los signos de la edad (30-40 años, lanzamiento anunciado para marzo de 2027 — productos aún no lanzados). La idea de la marca: un cliente que resolvió su primer problema de piel con CELLAHEAL vuelve a la marca cuando aparece el siguiente.",
+      "La lista de precios de exportación vigente incluye 9 referencias. SPOTLESS (para piel con tendencia a imperfecciones): gel de ducha, bruma corporal, loción corporal, espuma limpiadora, tónico y sérum, formulados con Agua de Hoja de Salvia y un sistema exfoliante de cuatro ácidos (AHA · BHA · PHA · LHA). PORELESS (para poros dilatados y exceso de sebo): limpiador en gel, sérum y crema, formulados con el complejo propio PORE LASER™ (10.000 ppm) y PDRN derivado del albaricoque.",
+      "Según la marca: los productos completaron pruebas dermatológicas y en piel sensible (25 participantes por prueba), las alegaciones de cuidado para piel con tendencia a imperfecciones se notificaron al Ministerio coreano de Seguridad de Alimentos y Medicamentos (MFDS), y la fórmula del gel de ducha está protegida por la patente coreana n.º KR 10-2991658. Toda la línea está registrada bajo CPNP de la UE; algunas referencias cuentan además con registro FDA MoCRA (EE. UU.)."
+    ],
+    "facts": [
+      "Corea; entidad legal ESTC INTERNATIONAL (CEO Gun Kim), marca CELLAHEAL (셀라힐)",
+      "9 referencias en la lista de precios de exportación vigente: las líneas SPOTLESS y PORELESS",
+      "N.º 1 en ventas totales en la categoría «piel con tendencia a imperfecciones» en Naver Shopping (según la marca, a junio de 2025)",
+      "N.º 1 general y N.º 1 en la categoría Lifestyle en Qoo10 Japan para el set de gel de ducha + bruma corporal (según la marca)",
+      "Teranova conoció a CELLAHEAL en el stand de la marca en el K-Beauty Expo 2026"
+    ],
+    "channels": [
+      "Cadenas de farmacias en Corea, recomendado por farmacéuticos (según la marca)",
+      "Marketplaces públicos Naver Shopping y Qoo10 (Corea y Japón)",
+      "TikTok Shop — lanzamiento en China anunciado para diciembre de 2026 (según la marca)",
+      "Alianzas B2B internacionales — a través de Teranova"
+    ],
+    "lines": [
+      {
+        "name": "SPOTLESS LINE",
+        "note": "Para piel con tendencia a imperfecciones (público objetivo de la marca: 10-20 años): gel de ducha, bruma corporal, loción corporal, espuma limpiadora, tónico y sérum, formulados con Agua de Hoja de Salvia y el sistema exfoliante 4HA (AHA · BHA · PHA · LHA)."
+      },
+      {
+        "name": "PORELESS LINE",
+        "note": "Para poros dilatados y exceso de sebo (público objetivo de la marca: 20-30 años): limpiador en gel, sérum y crema formulados con el complejo PORE LASER™ (10.000 ppm) y PDRN derivado del albaricoque."
+      },
+      {
+        "name": "TIMELESS LINE",
+        "note": "Línea anunciada por la marca para los signos de la edad (público objetivo: 30-40 años); lanzamiento anunciado para marzo de 2027 — productos aún no lanzados.",
+        "planned": true
+      }
+    ],
+    "tech": [
+      {
+        "name": "SPOTLESS COMPLEX™",
+        "note": "Complejo propio de extracto de manzana y corteza de abedul y fermentos (Saccharomyces/Coix Seed Ferment Filtrate, Lactobacillus/Pomegranate Ferment Extract); según la marca, favorece la hidratación y el cuidado de la piel tras la limpieza en toda la línea SPOTLESS."
+      },
+      {
+        "name": "PORE LASER™",
+        "note": "Complejo propio al 10.000 ppm de extractos de té verde, yuzu, neem y nenúfar blanco; según la marca, formulado para el cuidado de poros y sebo en la línea PORELESS."
+      },
+      {
+        "name": "Sistema 4HA",
+        "note": "Exfoliación multinivel con AHA, BHA, PHA y LHA, utilizada en las seis referencias de la línea SPOTLESS."
+      }
+    ],
+    "formats": [
+      "Gel de ducha",
+      "Bruma corporal",
+      "Loción corporal",
+      "Espuma limpiadora",
+      "Limpiador en gel",
+      "Tónico",
+      "Sérum",
+      "Crema"
+    ],
+    "exportNote": "Este perfil fue preparado por Teranova a partir de los materiales propios de CELLAHEAL (ESTC INTERNATIONAL): presentación de marca, catálogo de productos y lista de precios de exportación, compartidos el 19 de octubre de 2026. La lista de precios se compartió con carácter confidencial: los precios no se publican aquí y se confirman con el comprador a través de Teranova.",
+    "terms": [
+      {
+        "label": "Fabricación",
+        "value": "República de Corea (según la marca y su catálogo de productos)."
+      },
+      {
+        "label": "Pedido mínimo",
+        "value": "Varía según la referencia; el volumen exacto se acuerda con la marca a través de Teranova ante una consulta concreta."
+      },
+      {
+        "label": "Precio al por mayor",
+        "value": "La lista de precios fue compartida por la empresa con carácter confidencial y no se publica aquí. El precio se comunica al comprador a través de Teranova ante una consulta seria."
+      },
+      {
+        "label": "Estatus regulatorio",
+        "value": "CPNP de la UE en toda la línea; FDA MoCRA (EE. UU.) en referencias seleccionadas — ver fichas de producto individuales."
+      },
+      {
+        "label": "Muestras",
+        "value": "Se acuerdan con la marca según una solicitud concreta."
+      },
+      {
+        "label": "Colaboración",
+        "value": "Consultas y negociaciones B2B — a través de Teranova."
+      },
+      {
+        "label": "Idiomas de trabajo",
+        "value": "Coreano e inglés."
+      }
+    ],
+    "consentNote": "El nombre de la marca, los materiales y el consentimiento para publicar este perfil fueron proporcionados por ESTC INTERNATIONAL (Gun Kim, CEO de CELLAHEAL) en la correspondencia del 19 de octubre al 7 de noviembre de 2026. Los precios, certificaciones y condiciones de entrega se confirman en la etapa de negociación a través de Teranova.",
+    "catalog_notes": [
+      "Gel de ducha para piel con tendencia a imperfecciones: sistema exfoliante 4HA (AHA · BHA · PHA · LHA), 26,4% de Agua de Hoja de Salvia y el complejo propio SPOTLESS COMPLEX™ para la hidratación tras la limpieza. Patente de fórmula KR 10-2991658 (según la marca). 500 mL.",
+      "Bruma corporal ligera y sin alcohol con 44,1% de Agua de Hoja de Salvia, 2% de niacinamida y un sistema de 10 tipos de ácido hialurónico — para el cuidado diario del tono y la hidratación corporal. 150 mL.",
+      "Loción corporal de rápida absorción que cierra la rutina corporal SPOTLESS: 40% de Agua de Hoja de Salvia, 2% de niacinamida y un complejo de 8 tipos de ácido hialurónico con pantenol. 300 mL.",
+      "Espuma limpiadora para piel con tendencia a imperfecciones con 0,5% de ácido salicílico; según la marca, eliminación de partículas finas probada en 99,4% tras un solo uso. 150 mL.",
+      "Tónico facial acuoso con 43,12% de Agua de Hoja de Salvia, 2% de niacinamida y exfoliación multiácido — el paso de hidratación y cuidado del tono de la rutina SPOTLESS. 200 mL.",
+      "Sérum intensivo que cierra la rutina facial SPOTLESS: 56,35% de Agua de Hoja de Salvia, 2% de niacinamida, 2% de pantenol y un complejo de ceramidas para la barrera cutánea. 30 mL.",
+      "Limpiador gel-espuma para poros y exceso de sebo con el complejo PORE LASER™ (10.000 ppm), PDRN derivado del albaricoque y polvo fino de hueso de albaricoque para una exfoliación suave. 150 mL.",
+      "Sérum de doble función con PORE LASER™ (10.000 ppm), 2% de niacinamida, 400 ppm de adenosina, PDRN derivado del albaricoque y un complejo de 17 aminoácidos. 50 mL.",
+      "Crema con PORE LASER™ (10.000 ppm), 2% de niacinamida, PDRN derivado del albaricoque y el complejo SLLS para apoyar la barrera cutánea. 60 mL."
+    ],
+    "seoTitle": "CELLAHEAL — dermocosmética coreana para imperfecciones y poros dilatados · Teranova",
+    "seoDesc": "Perfil de CELLAHEAL (ESTC INTERNATIONAL, Corea): la línea SPOTLESS para piel con tendencia a imperfecciones y la línea PORELESS para poros dilatados. 9 referencias en la lista de precios de exportación. B2B a través de Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil del proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "Canales de venta (según la marca):",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Complejos propios",
+    "products_h": "Productos",
+    "products_note": "9 referencias de la lista de precios de exportación vigente de CELLAHEAL: la línea SPOTLESS para piel con tendencia a imperfecciones y la línea PORELESS para poros dilatados. Fotos del catálogo de productos oficial de la marca, compartido el 19 de octubre de 2026.",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de colaboración",
+    "terms_disc": "Los precios y condiciones son orientativos y se confirman en la etapa de negociación a través de Teranova. Los contactos directos del proveedor no se publican: Teranova Group gestiona la negociación, verificación y entrega.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Contáctenos — Teranova organiza las negociaciones, la verificación y el acompañamiento de la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Registros, pruebas y patente",
+    "certs_note": "Declarado por la empresa. CPNP de la UE cubre toda la línea; FDA MoCRA cubre referencias seleccionadas (ver fichas de producto individuales). Las alegaciones de cuidado para piel con tendencia a imperfecciones se notificaron al Ministerio coreano de Seguridad de Alimentos y Medicamentos (MFDS). Patente de fórmula del gel de ducha KR 10-2991658. Las pruebas dermatológicas y en piel sensible se realizaron con 25 participantes por prueba. La documentación de respaldo se proporciona en la etapa de negociación a través de Teranova.",
+    "gallery_h": "Productos",
+    "gallery_note": "Las fotos de los productos proceden del catálogo de productos oficial de CELLAHEAL, compartido por la empresa el 19 de octubre de 2026."
+  }
+}

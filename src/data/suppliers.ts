@@ -447,6 +447,20 @@ import abeltyPt from './suppliers-i18n/abelty.pt.json';
 import abeltyHe from './suppliers-i18n/abelty.he.json';
 import abeltyHi from './suppliers-i18n/abelty.hi.json';
 import abeltyCatalog from './suppliers-i18n/abelty.catalog.json';
+import cellahealRu from './suppliers-i18n/cellaheal.ru.json';
+import cellahealEn from './suppliers-i18n/cellaheal.en.json';
+import cellahealKo from './suppliers-i18n/cellaheal.ko.json';
+import cellahealZh from './suppliers-i18n/cellaheal.zh.json';
+import cellahealJa from './suppliers-i18n/cellaheal.ja.json';
+import cellahealIt from './suppliers-i18n/cellaheal.it.json';
+import cellahealDe from './suppliers-i18n/cellaheal.de.json';
+import cellahealFr from './suppliers-i18n/cellaheal.fr.json';
+import cellahealTr from './suppliers-i18n/cellaheal.tr.json';
+import cellahealEs from './suppliers-i18n/cellaheal.es.json';
+import cellahealPt from './suppliers-i18n/cellaheal.pt.json';
+import cellahealHe from './suppliers-i18n/cellaheal.he.json';
+import cellahealHi from './suppliers-i18n/cellaheal.hi.json';
+import cellahealCatalog from './suppliers-i18n/cellaheal.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -3390,6 +3404,40 @@ export const suppliers: SupplierProfile[] = [
     },
     i18n: {
       ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any),
+    },
+  },
+  {
+    slug: 'cellaheal',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'ESTC INTERNATIONAL',
+    brand: 'CELLAHEAL',
+    status: 'provided',
+    /* Красный (SPOTLESS) и оранжевый (PORELESS) — фирменные цвета линеек на
+       собственных пакшотах бренда (белая упаковка, шестиугольный логотип
+       CELLAHEAL в цвет линейки); отдельного брендбука поставщик не прислал.
+       За основной акцент взят красный SPOTLESS — старшая линейка (6 из 9
+       позиций), клинический дерматологический образ (аптечный канал продаж,
+       заявки в MFDS). Согласие на публикацию — Gun Kim (CEO), письмо
+       04.11.2026; профиль собран по переписке 19.10–07.11.2026. */
+    brandColors: { deep: '#6B0F1E', sky: '#F6D7DB', accent: '#D11A32', bg: '#FDF7F6' },
+    voice: 'clinical',
+    catalog: cellahealCatalog,
+    /* EU CPNP — вся линейка; FDA MoCRA — часть позиций (см. certs_note);
+       патент на формулу боди-воша. Заявки в MFDS — поданы, не одобрены,
+       поэтому в бейджи не вынесены, только текстом в certs_note. */
+    certs: ['EU CPNP', 'FDA MoCRA', 'KR Patent 10-2991658'],
+    termsFile: {
+      ru: '/docs/cellaheal-terms-ru.pdf', en: '/docs/cellaheal-terms-en.pdf', ko: '/docs/cellaheal-terms-ko.pdf', zh: '/docs/cellaheal-terms-zh.pdf', ja: '/docs/cellaheal-terms-ja.pdf', it: '/docs/cellaheal-terms-it.pdf', de: '/docs/cellaheal-terms-de.pdf', fr: '/docs/cellaheal-terms-fr.pdf', tr: '/docs/cellaheal-terms-tr.pdf', es: '/docs/cellaheal-terms-es.pdf', pt: '/docs/cellaheal-terms-pt.pdf', he: '/docs/cellaheal-terms-he.pdf', hi: '/docs/cellaheal-terms-hi.pdf',
+    },
+    priceFile: {
+      ru: '/docs/cellaheal-catalog-ru.pdf', en: '/docs/cellaheal-catalog-en.pdf', ko: '/docs/cellaheal-catalog-ko.pdf', zh: '/docs/cellaheal-catalog-zh.pdf', ja: '/docs/cellaheal-catalog-ja.pdf', it: '/docs/cellaheal-catalog-it.pdf', de: '/docs/cellaheal-catalog-de.pdf', fr: '/docs/cellaheal-catalog-fr.pdf', tr: '/docs/cellaheal-catalog-tr.pdf', es: '/docs/cellaheal-catalog-es.pdf', pt: '/docs/cellaheal-catalog-pt.pdf', he: '/docs/cellaheal-catalog-he.pdf', hi: '/docs/cellaheal-catalog-hi.pdf',
+    },
+    presFile: {
+      ru: '/docs/cellaheal-presentation-ru.pdf', en: '/docs/cellaheal-presentation-en.pdf', ko: '/docs/cellaheal-presentation-ko.pdf', zh: '/docs/cellaheal-presentation-zh.pdf', ja: '/docs/cellaheal-presentation-ja.pdf', it: '/docs/cellaheal-presentation-it.pdf', de: '/docs/cellaheal-presentation-de.pdf', fr: '/docs/cellaheal-presentation-fr.pdf', tr: '/docs/cellaheal-presentation-tr.pdf', es: '/docs/cellaheal-presentation-es.pdf', pt: '/docs/cellaheal-presentation-pt.pdf', he: '/docs/cellaheal-presentation-he.pdf', hi: '/docs/cellaheal-presentation-hi.pdf',
+    },
+    i18n: {
+      ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any),
     },
   },
 ];

@@ -1,0 +1,17 @@
+---
+/* Профиль поставщика: cellaheal — ESTC INTERNATIONAL, бренд CELLAHEAL.
+   Согласие на публикацию — Gun Kim (CEO), письмо 04.11.2026. */
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+
+const lang = 'ru' as const;
+const profile = supplierBySlug('cellaheal')!;
+const c = supplierContent(profile, lang);
+const jsonLd = supplierJsonLd(lang, profile);
+---
+
+<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>
