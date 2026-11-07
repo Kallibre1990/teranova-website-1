@@ -75,6 +75,7 @@ import chaewunDrops from '../../assets/suppliers/chaewun/drops.jpg';
 import acfitLogo from '../../assets/suppliers/acfit-logo.png';
 import acfitHero from '../../assets/suppliers/acfit/hero.jpg';
 import agingTargetHero from '../../assets/suppliers/agingtarget/hero.jpg';
+import cheon365Hero from '../../assets/suppliers/cheon365/hero.jpg';
 
 interface Props {
   lang: Lang;
@@ -105,6 +106,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   chaewun: { hero: chaewunHero, products: chaewunProducts, drops: chaewunDrops },
   acfit: { hero: acfitHero, products: acfitHero, drops: acfitHero },
   agingtarget: { hero: agingTargetHero, products: agingTargetHero, drops: agingTargetHero },
+  cheon365: { hero: cheon365Hero, products: cheon365Hero, drops: cheon365Hero },
 };
 const m = media[profile.slug];
 /* Some supplied-material profiles keep their optimised cut-outs in /public
@@ -112,24 +114,6 @@ const m = media[profile.slug];
    real product photograph and must be present in the hero, not replaced by a
    decorative placeholder. */
 const heroSrc = !m ? profile.catalog?.[0]?.items?.[0]?.img : undefined;
-const cheon365Channels: Record<string, string> = {
-  ru: 'Olive Young · универмаги · ТВ-шопинг · Naver · Coupang',
-  en: 'Olive Young · department stores · TV shopping · Naver · Coupang',
-  ko: 'Olive Young · 백화점 · TV 홈쇼핑 · Naver · Coupang',
-  pt: 'Olive Young · lojas de departamento · TV shopping · Naver · Coupang',
-  he: 'Olive Young · בתי כלבו · קניות בטלוויזיה · Naver · Coupang',
-  hi: 'Olive Young · डिपार्टमेंट स्टोर · टीवी शॉपिंग · Naver · Coupang',
-  zh: 'Olive Young · 百货商店 · 电视购物 · Naver · Coupang',
-  ja: 'Olive Young · 百貨店 · テレビ通販 · Naver · Coupang',
-  it: 'Olive Young · grandi magazzini · televendite · Naver · Coupang',
-  de: 'Olive Young · Kaufhäuser · TV-Shopping · Naver · Coupang',
-  fr: 'Olive Young · grands magasins · téléachat · Naver · Coupang',
-  tr: 'Olive Young · büyük mağazalar · TV alışverişi · Naver · Coupang',
-  es: 'Olive Young · grandes almacenes · compras por televisión · Naver · Coupang',
-};
-const suppliedFacts = profile.slug === 'cheon365'
-  ? ['Kolmar Korea', '2020–2024', cheon365Channels[lang] ?? cheon365Channels.en]
-  : [];
 const termsDoc = pickDoc(profile.termsFile, lang);
 const priceDoc = pickDoc(profile.priceFile, lang);
 const presDoc = pickDoc(profile.presFile, lang);
@@ -405,7 +389,7 @@ function monogram(name: string): string {
     <div class="wrap sp-narrow">
       <span class="sp-lvl">{c.ui.about_h}</span>
       {c.about.filter(Boolean).map((p) => <p class="sp-body">{p}</p>)}
-      <ul class="sp-facts">{[...c.facts, ...suppliedFacts].map((f) => <li>{f}</li>)}</ul>
+      <ul class="sp-facts">{c.facts.map((f) => <li>{f}</li>)}</ul>
       {c.channels?.length > 0 && (
         <div class="sp-channels">
           <span class="sp-channels__lbl">{c.ui.for_whom}</span>
