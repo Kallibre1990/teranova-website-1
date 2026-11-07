@@ -3422,6 +3422,20 @@ export const suppliers: SupplierProfile[] = [
        04.11.2026; профиль собран по переписке 19.10–07.11.2026. */
     brandColors: { deep: '#6B0F1E', sky: '#F6D7DB', accent: '#D11A32', bg: '#FDF7F6' },
     voice: 'clinical',
+    logoUrl: '/img/suppliers/cellaheal/cellaheal-logo.svg',
+    /* Логотип и постановочные снимки — с публичного сайта бренда cellaheal.com
+       (не из Brand Introduction: она помечена «для внутреннего использования
+       и авторизованных партнёров»). Провенанс: docs/provenance/cellaheal-20261107.md. */
+    gallery: [
+      '/img/suppliers/cellaheal/gallery/body-mist-water.jpg',
+      '/img/suppliers/cellaheal/gallery/body-wash-pump.jpg',
+      '/img/suppliers/cellaheal/gallery/toner-water.jpg',
+      '/img/suppliers/cellaheal/gallery/serum-studio.jpg',
+      '/img/suppliers/cellaheal/gallery/poreless-apricot.jpg',
+      '/img/suppliers/cellaheal/gallery/poreless-serum-apricot.jpg',
+      '/img/suppliers/cellaheal/gallery/poreless-cream.jpg',
+      '/img/suppliers/cellaheal/gallery/body-mist-studio.jpg',
+    ],
     catalog: cellahealCatalog,
     /* EU CPNP — вся линейка; FDA MoCRA — часть позиций (см. certs_note);
        патент на формулу боди-воша. Заявки в MFDS — поданы, не одобрены,

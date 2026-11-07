@@ -6,7 +6,6 @@
         "name": "Salvia Trouble Body Wash",
         "img": "/img/suppliers/cellaheal/products/salvia-trouble-body-wash.jpg",
         "volume": "500 ml",
-        "moq": 20,
         "actives": [
           "Salvia Leaf Water",
           "Salicylic Acid (BHA)"
@@ -66,7 +65,6 @@
         "name": "Salvia Trouble Body Mist",
         "img": "/img/suppliers/cellaheal/products/salvia-trouble-body-mist.jpg",
         "volume": "150 ml",
-        "moq": 20,
         "actives": [
           "Salvia Leaf Water",
           "Niacinamide"
@@ -126,7 +124,6 @@
         "name": "Salvia Trouble Body Lotion",
         "img": "/img/suppliers/cellaheal/products/salvia-trouble-body-lotion.jpg",
         "volume": "300 ml",
-        "moq": 15,
         "actives": [
           "Salvia Leaf Water",
           "Niacinamide"
@@ -186,7 +183,6 @@
         "name": "Salvia Trouble Cleansing Foam",
         "img": "/img/suppliers/cellaheal/products/salvia-trouble-cleansing-foam.jpg",
         "volume": "150 ml",
-        "moq": 50,
         "actives": [
           "Salvia Leaf Water",
           "Salicylic Acid (BHA)"
@@ -246,7 +242,6 @@
         "name": "Salvia Trouble Toner",
         "img": "/img/suppliers/cellaheal/products/salvia-trouble-toner.jpg",
         "volume": "200 ml",
-        "moq": 20,
         "actives": [
           "Salvia Leaf Water",
           "Niacinamide"
@@ -306,7 +301,6 @@
         "name": "Salvia Trouble Serum",
         "img": "/img/suppliers/cellaheal/products/salvia-trouble-serum.jpg",
         "volume": "30 ml",
-        "moq": 30,
         "actives": [
           "Salvia Leaf Water",
           "Niacinamide"
@@ -371,7 +365,6 @@
         "name": "Apricot PDRN Tightening Gel Cleanser",
         "img": "/img/suppliers/cellaheal/products/apricot-pdrn-tightening-gel-cleanser.jpg",
         "volume": "150 ml",
-        "moq": 20,
         "actives": [
           "PORE LASER™",
           "Apricot PDRN"
@@ -431,7 +424,6 @@
         "name": "Apricot PDRN Tightening Serum",
         "img": "/img/suppliers/cellaheal/products/apricot-pdrn-tightening-serum.jpg",
         "volume": "50 ml",
-        "moq": 30,
         "actives": [
           "PORE LASER™",
           "Niacinamide"
@@ -491,7 +483,6 @@
         "name": "Apricot PDRN Tightening Cream",
         "img": "/img/suppliers/cellaheal/products/apricot-pdrn-tightening-cream.jpg",
         "volume": "60 ml",
-        "moq": 42,
         "actives": [
           "PORE LASER™",
           "Apricot PDRN"

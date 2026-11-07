@@ -76,6 +76,7 @@ import acfitLogo from '../../assets/suppliers/acfit-logo.png';
 import acfitHero from '../../assets/suppliers/acfit/hero.jpg';
 import agingTargetHero from '../../assets/suppliers/agingtarget/hero.jpg';
 import cheon365Hero from '../../assets/suppliers/cheon365/hero.jpg';
+import cellahealHero from '../../assets/suppliers/cellaheal/hero.jpg';
 
 interface Props {
   lang: Lang;
@@ -107,6 +108,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   acfit: { hero: acfitHero, products: acfitHero, drops: acfitHero },
   agingtarget: { hero: agingTargetHero, products: agingTargetHero, drops: agingTargetHero },
   cheon365: { hero: cheon365Hero, products: cheon365Hero, drops: cheon365Hero },
+  cellaheal: { hero: cellahealHero, products: cellahealHero, drops: cellahealHero },
 };
 const m = media[profile.slug];
 /* Some supplied-material profiles keep their optimised cut-outs in /public
@@ -863,7 +865,15 @@ function monogram(name: string): string {
   .sp[data-supplier='ooznary'] .sp-article__more,
   .sp[data-supplier='cheon365'] .sp-article__more,
   .sp[data-supplier='agingtarget'] .sp-article__more,
-  .sp[data-supplier='plk-lift'] .sp-article__more { color: var(--ds-deep); }
+  .sp[data-supplier='plk-lift'] .sp-article__more,
+  .sp[data-supplier='cellaheal'] .sp-lvl,
+  .sp[data-supplier='cellaheal'] .sp-article__more,
+  .sp[data-supplier='cellaheal'] .sp-line__more,
+  .sp[data-supplier='cellaheal'] .sp-spot__cta { color: var(--ds-deep); }
+  /* CELLAHEAL's sky (#F6D7DB) is a fill tone, not an ink: the italic tagline
+     and the eyebrow take the brand red instead so they stay readable. */
+  .sp[data-supplier='cellaheal'] .sp-tagline,
+  .sp[data-supplier='cellaheal'] .sp-eyebrow { color: var(--ds-accent); }
   .sp-body { font-size: 1.02rem; line-height: 1.75; color: #364357; }
   .sp-body + .sp-body { margin-top: 14px; }
 
