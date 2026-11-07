@@ -29,6 +29,7 @@ import { fileURLToPath } from 'node:url';
 export const GATE_ENV = 'TERANOVA_RELEASE_GATE_PASSED';
 export const CHECKS = [
   { name: 'check-new-locales --public-only', cmd: 'node', args: ['scripts/check-new-locales.mjs', '--public-only'] },
+  { name: 'check-translator-notes', cmd: 'node', args: ['scripts/check-translator-notes.mjs'] },
   { name: 'npm run build', cmd: 'npm', args: ['run', 'build'] },
 ];
 const API = 'https://api.cloudflare.com/client/v4';
