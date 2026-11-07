@@ -756,7 +756,7 @@ function catalogHTML(cfg, lang, groups) {
         </div>
       </div>`).join('')}</div>`).join('');
     return `<!doctype html><html lang="${lang}" dir="${dirAttr(lang)}"><head><meta charset="utf-8"><style>${baseCSS(C)}
-      .grp-h { font-weight: 800; color: ${C.deep}; font-size: 12px; background: ${C.bg}; padding: 7px 10px; border-radius: 4px; margin: 14px 0 8px; }
+      .grp-h { font-weight: 800; color: ${C.deep}; font-size: 12px; background: ${C.bg}; padding: 7px 10px; border-radius: 4px; margin: 14px 0 8px; break-after: avoid; break-inside: avoid; }
       .grp-h:first-of-type { margin-top: 4px; }
       .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
       .prod { break-inside: avoid; border: 1px solid ${C.line}; border-radius: 7px; padding: 8px; }
