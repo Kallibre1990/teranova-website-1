@@ -1,11 +1,11 @@
 {
  "tagline": "高纯度 PDRN（Sodium DNA）化妆品原料",
- "descriptor": "VEO Biotech — 一家中国制造商，生产用于水光针、美塑疗法和化妆品研发的高纯度 Helio PDRN（Sodium DNA），具备自有分子量控制和逐批文件。",
+ "descriptor": "为邑生物（Weiyi Biotech） — 一家中国制造商，生产用于水光针、美塑疗法和化妆品研发的高纯度 Helio PDRN（Sodium DNA），具备自有分子量控制和逐批文件。",
  "origin": "中国",
  "about": [
-  "VEO Biotech 是一家高纯度 PDRN 原料的中国制造商，将自身定位为成熟的韩国 PDRN 技术在中国的供应链平台。公司表示，其团队将来自韩国领先化妆品企业的 PDRN 专长与中国科学院生态体系的递送系统研究相结合。",
-  "在此基础上，公司建立了两个技术平台——PDRN 原料制备与核酸递送——并同时处理三文鱼来源和重组来源。其位于洛阳的生产基地具有高纯度 PDRN 原料的既定年产能，并计划在 2027 年前进一步扩大。",
-  "公司表示，其商业供应面向海外市场，其中很大一部分服务于韩国化妆品供应链，并稳定供货至韩国、欧洲和美洲。Teranova 面向 B2B 合作伙伴介绍 VEO Biotech；价格和商业条款应要求提供，不予公开。"
+  "为邑生物是PDRN原料制造商，面向化妆品配方与采购企业提供天然来源PDRN原料。其鲑鱼来源产品以雄性鲑鱼精巢为原料，经粗提分离、纯化和干燥制得，INCI名称为SODIUM DNA。企业提供产品规格、适用批次COA及评估样品，支持原料选型与配方评估。",
+  "公司建立了两个技术平台——PDRN 原料制备与核酸递送——并同时处理三文鱼来源和重组来源。其位于洛阳的生产基地具有高纯度 PDRN 原料的既定年产能，并计划在 2027 年前进一步扩大。",
+  "公司表示，其商业供应面向海外市场，其中很大一部分服务于韩国化妆品供应链，并稳定供货至韩国、欧洲和美洲。Teranova 面向 B2B 合作伙伴介绍 为邑生物（Weiyi Biotech）；价格和商业条款应要求提供，不予公开。"
  ],
  "facts": [
   "正式名称：ZhengZhou VEO Biotech Co., Limited；制造商：Luoyang VEO Biotech Co., Ltd.",
@@ -65,14 +65,27 @@
   },
   {
    "label": "资料与权利",
-   "value": "公司名称、标识和资料信息依据 VEO Biotech 于 22 September 2026 的书面授权使用，用于 Teranova 平台上的公司与产品简介。"
+   "value": "公司名称、标识和资料信息依据 为邑生物（Weiyi Biotech） 于 22 September 2026 的书面授权使用，用于 Teranova 平台上的公司与产品简介。"
   },
   {
    "label": "价格",
    "value": "应要求提供；无公开价目表。"
   }
  ],
- "consentNote": "VEO Biotech（ZhengZhou VEO Biotech Co., Limited）的名称、标识和资料信息，依据公司于 22 September 2026 的书面授权发布，用于 Teranova 平台上的公司与 Helio PDRN / Sodium DNA 简介。应公司要求，完整的分析证书不予公开——仅提供规格摘要。价格和付款细节不予公开。产品功能与认证按公司陈述呈现。",
- "seoTitle": "VEO Biotech — Helio PDRN，高纯度 Sodium DNA 原料 · Teranova",
- "seoDesc": "VEO Biotech（中国）：Helio PDRN，一种纯度 ≥99%、分子量可定制 50–800 kDa 的高纯度 Sodium DNA（PDRN）化妆品原料，据公司称符合 ISO 22716 GMP。通过 Teranova 进行 B2B。"
+ "consentNote": "为邑生物（Weiyi Biotech；ZhengZhou VEO Biotech Co., Limited）的名称、标识和资料信息，依据公司于 22 September 2026 的书面授权发布，用于 Teranova 平台上的公司与 Helio PDRN / Sodium DNA 简介。应公司要求，完整的分析证书不予公开——仅提供规格摘要。价格和付款细节不予公开。产品功能与认证按公司陈述呈现。",
+ "seoTitle": "为邑生物（Weiyi Biotech） — Helio PDRN，高纯度 Sodium DNA 原料 · Teranova",
+ "seoDesc": "为邑生物（Weiyi Biotech，中国）：Helio PDRN，一种纯度 ≥99%、分子量可定制 50–800 kDa 的高纯度 Sodium DNA（PDRN）化妆品原料，据公司称符合 ISO 22716 GMP。通过 Teranova 进行 B2B。",
+ "references": {
+  "title": "生产商公开技术资料",
+  "items": [
+   {
+    "label": "PDRN原料与生产指南",
+    "href": "https://helio-bio.com/pdrn-ingredient-guide-zh"
+   },
+   {
+    "label": "产品质量与规格说明",
+    "href": "https://helio-bio.com/weiyi-pdrn-quality-zh"
+   }
+  ]
+ }
 }

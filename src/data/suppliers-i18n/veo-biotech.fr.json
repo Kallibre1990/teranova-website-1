@@ -1,12 +1,12 @@
 {
   "content": {
     "tagline": "Matière première cosmétique PDRN (Sodium DNA) de haute pureté",
-    "descriptor": "VEO Biotech — un fabricant chinois de Helio PDRN (Sodium DNA) de haute pureté pour skin boosters, mésothérapie et R&D cosmétique, avec un contrôle interne du poids moléculaire et une documentation par lot.",
+    "descriptor": "Weiyi Biotech (为邑生物) — un fabricant chinois de Helio PDRN (Sodium DNA) de haute pureté pour skin boosters, mésothérapie et R&D cosmétique, avec un contrôle interne du poids moléculaire et une documentation par lot.",
     "origin": "Chine",
     "about": [
-      "VEO Biotech est un fabricant chinois de matières premières PDRN de haute pureté, qui se positionne comme une plateforme de chaîne d'approvisionnement en Chine pour la technologie PDRN sud-coréenne éprouvée. L'entreprise indique que son équipe associe une expertise du PDRN issue de grandes entreprises cosmétiques sud-coréennes à des recherches sur les systèmes de délivrance provenant de l'écosystème de l'Académie chinoise des sciences.",
-      "Sur cette base, l'entreprise a bâti deux plateformes technologiques — la préparation de la matière première PDRN et la délivrance d'acides nucléiques — et travaille aussi bien avec des sources issues du saumon qu'avec des sources recombinantes. Son site de production à Luoyang affiche une capacité annuelle déclarée de matière première PDRN de haute pureté, avec des projets d'extension supplémentaire d'ici 2027.",
-      "L'entreprise indique que son approvisionnement commercial est orienté vers les marchés étrangers, une part importante servant la chaîne d'approvisionnement cosmétique sud-coréenne, avec des livraisons stables vers la Corée, l'Europe et les Amériques. Teranova présente VEO Biotech aux partenaires B2B ; les prix et les conditions commerciales sont communiqués sur demande et ne sont pas publiés."
+      "Weiyi Biotech (为邑生物) fabrique des matières premières PDRN d'origine naturelle destinées à la formulation et aux achats cosmétiques. Son produit issu du saumon est obtenu à partir de testicules de saumon mâle par extraction, séparation, purification et séchage, et porte le nom INCI SODIUM DNA. Les spécifications du produit, les certificats d'analyse des lots concernés et des échantillons d'évaluation facilitent la qualification de l'ingrédient.",
+      "L'entreprise a bâti deux plateformes technologiques — la préparation de la matière première PDRN et la délivrance d'acides nucléiques — et travaille aussi bien avec des sources issues du saumon qu'avec des sources recombinantes. Son site de production à Luoyang affiche une capacité annuelle déclarée de matière première PDRN de haute pureté, avec des projets d'extension supplémentaire d'ici 2027.",
+      "L'entreprise indique que son approvisionnement commercial est orienté vers les marchés étrangers, une part importante servant la chaîne d'approvisionnement cosmétique sud-coréenne, avec des livraisons stables vers la Corée, l'Europe et les Amériques. Teranova présente Weiyi Biotech (为邑生物) aux partenaires B2B ; les prix et les conditions commerciales sont communiqués sur demande et ne sont pas publiés."
     ],
     "facts": [
       "Dénomination officielle : ZhengZhou VEO Biotech Co., Limited ; fabricant : Luoyang VEO Biotech Co., Ltd.",
@@ -66,16 +66,29 @@
       },
       {
         "label": "Matériaux et droits",
-        "value": "Le nom de l'entreprise, le logo et les informations sur les matériaux sont utilisés en vertu de l'autorisation écrite de VEO Biotech du 22 September 2026, pour le profil de l'entreprise et du produit sur la plateforme Teranova."
+        "value": "Le nom de l'entreprise, le logo et les informations sur les matériaux sont utilisés en vertu de l'autorisation écrite de Weiyi Biotech (为邑生物) du 22 September 2026, pour le profil de l'entreprise et du produit sur la plateforme Teranova."
       },
       {
         "label": "Prix",
         "value": "Sur demande ; pas de liste de prix publique."
       }
     ],
-    "consentNote": "Le nom, le logo et les informations sur les matériaux de VEO Biotech (ZhengZhou VEO Biotech Co., Limited) sont publiés en vertu de l'autorisation écrite de l'entreprise datée du 22 September 2026, pour le profil de l'entreprise et de Helio PDRN / Sodium DNA sur la plateforme Teranova. À la demande de l'entreprise, le certificat d'analyse complet n'est pas publié — seulement un résumé des spécifications. Les prix et les détails de paiement ne sont pas publiés. Les fonctions du produit et les certifications sont présentées telles que déclarées par l'entreprise.",
-    "seoTitle": "VEO Biotech — Helio PDRN, matière première Sodium DNA de haute pureté · Teranova",
-    "seoDesc": "VEO Biotech (Chine) : Helio PDRN, une matière première cosmétique Sodium DNA (PDRN) de haute pureté avec une pureté ≥99% et un poids moléculaire personnalisable 50–800 kDa, ISO 22716 GMP selon l'entreprise. B2B via Teranova."
+    "consentNote": "Le nom, le logo et les informations sur les matériaux de Weiyi Biotech (为邑生物; ZhengZhou VEO Biotech Co., Limited) sont publiés en vertu de l'autorisation écrite de l'entreprise datée du 22 September 2026, pour le profil de l'entreprise et de Helio PDRN / Sodium DNA sur la plateforme Teranova. À la demande de l'entreprise, le certificat d'analyse complet n'est pas publié — seulement un résumé des spécifications. Les prix et les détails de paiement ne sont pas publiés. Les fonctions du produit et les certifications sont présentées telles que déclarées par l'entreprise.",
+    "seoTitle": "Weiyi Biotech (为邑生物) — Helio PDRN, matière première Sodium DNA de haute pureté · Teranova",
+    "seoDesc": "Weiyi Biotech (为邑生物, Chine) : Helio PDRN, une matière première cosmétique Sodium DNA (PDRN) de haute pureté avec une pureté ≥99% et un poids moléculaire personnalisable 50–800 kDa, ISO 22716 GMP selon l'entreprise. B2B via Teranova.",
+    "references": {
+      "title": "Documentation technique du fabricant (en chinois)",
+      "items": [
+        {
+          "label": "Guide de la matière première PDRN et de sa fabrication",
+          "href": "https://helio-bio.com/pdrn-ingredient-guide-zh"
+        },
+        {
+          "label": "Guide qualité et spécifications du produit",
+          "href": "https://helio-bio.com/weiyi-pdrn-quality-zh"
+        }
+      ]
+    }
   },
   "ui": {
     "profile_sup": "Profil du fournisseur",

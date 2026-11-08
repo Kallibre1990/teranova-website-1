@@ -397,6 +397,12 @@ function monogram(name: string): string {
       <span class="sp-lvl">{c.ui.about_h}</span>
       {c.about.filter(Boolean).map((p) => <p class="sp-body">{p}</p>)}
       <ul class="sp-facts">{c.facts.map((f) => <li>{f}</li>)}</ul>
+      {c.references && c.references.items.length > 0 && (
+        <div class="sp-channels">
+          <span class="sp-channels__lbl">{c.references.title}:</span>
+          <ul class="sp-facts">{c.references.items.map((r) => <li><a href={r.href} target="_blank" rel="noopener noreferrer">{r.label}</a></li>)}</ul>
+        </div>
+      )}
       {c.channels?.length > 0 && (
         <div class="sp-channels">
           <span class="sp-channels__lbl">{c.ui.for_whom}</span>

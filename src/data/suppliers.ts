@@ -867,6 +867,10 @@ export interface SupplierContent {
   tech: SupplierTech[];
   formats: string[];
   exportNote: string;
+  /* Public pages of the company's own, listed only at the company's written
+     request (CONTENT-RULES §7). Weiyi Biotech asked for two technical
+     references on 08.11.2026 (T-20261108-105). */
+  references?: { title: string; items: { label: string; href: string }[] };
   /* Source-attributed company outline; omitted where publishable leadership
      material is not available. */
   company?: {
@@ -2801,7 +2805,10 @@ export const suppliers: SupplierProfile[] = [
     slug: 'veo-biotech',
     category: 'chemical',
     country: 'cn',
-    name: 'ZhengZhou VEO Biotech Co., Limited',
+    /* С 08.11.2026 публичное имя — Weiyi Biotech (为邑生物), без города, по
+       письму компании (T-20261108-105). Адрес /catalog/veo-biotech сохранён;
+       юридические названия остаются в facts. */
+    name: 'Weiyi Biotech (为邑生物)',
     brand: 'Helio PDRN',
     status: 'provided',
     brandColors: { deep: '#12303A', sky: '#7FB0C4', accent: '#2F7D99', bg: '#EEF4F7' },
