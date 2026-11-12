@@ -43,7 +43,6 @@ export const hiddenTeamPhotos = [
    Вымышленные медицинские демо-профили удалены из данных отдельно и не
    управляются этим списком. */
 export const hiddenSupplierSlugs = [
-  'agafar', // Local profile preparation; release is owned by T-20261112-095.
   'dachen',
   'oavo',
   'aromaflavum',
