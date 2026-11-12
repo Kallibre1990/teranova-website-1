@@ -1,6 +1,6 @@
 {
   "content": {
-    "tagline": "Cura della pelle nata dalla pratica clinica",
+    "tagline": "Cura della pelle dalle cliniche dermatologiche coreane",
     "descriptor": "Tre marchi coreani per la cura della pelle e apparecchiature estetiche professionali riuniti da AGAFAR Medical Beauty Group.",
     "origin": "Corea",
     "about": [
@@ -11,7 +11,7 @@
     "facts": ["Tre marchi per la cura della pelle", "Una storia clinica iniziata nel 2010", "20 prodotti nel catalogo DERMA MODE PROGRAM"],
     "channels": ["Importatori e distributori di cosmetici", "Cliniche dermatologiche ed estetiche", "Catene di negozi e farmacie", "Team di vendita online"],
     "lines": [
-      {"name": "AGAFAR", "note": "Cura quotidiana della pelle, dalla detersione alla protezione solare. La linea comprende tonico, fiale, prodotti per il contorno occhi e creme, con formule a base di peptidi, PDRN, ceramidi ed estratti vegetali."},
+      {"name": "AGAFAR", "note": "Cura quotidiana delicata per la pelle sensibile e problematica, dalla detersione alla protezione solare. La linea comprende tonico, fiale, prodotti per il contorno occhi e creme, con formule a base di peptidi, PDRN, ceramidi ed estratti vegetali."},
       {"name": "agapharma", "note": "La linea professionale Meditive Formula 3X combina Hyal-Collagen, Bio Lacto Exosome e Super Centella. Il catalogo comprende una mousse detergente, una fiala, un booster per la pelle e due creme."},
       {"name": "a'reiv", "note": "Due formati complementari: la maschera in tessuto Hyaluronic Ultra-Fine e Calming Sun Cream SPF50+ PA++++."}
     ],
@@ -19,15 +19,15 @@
       "Gel detergente con estratto di portulaca, madecassoside e ceramide NP.",
       "Tonico con betaina, estratto di semi di chia ed estratto di Centella asiatica.",
       "Gel con tè verde, propoli, estratto di radice di liquirizia e allantoina.",
-      "Fiala con un complesso di vitamine A, C ed E, come descritto nel catalogo.",
+      "Fiala con un complesso di vitamine A, C ed E.",
       "Fiala con un complesso di otto peptidi e collagene idrolizzato.",
-      "Fiala con PDRN e acido ialuronico. Il materiale promozionale fornito indica DNA di salmone a 10.000 ppm.",
+      "Fiala con PDRN, acido ialuronico e DNA di salmone a 10.000 ppm.",
       "Fiala con un complesso Vita K, pantenolo e azulene.",
       "Siero contorno occhi con un complesso di bacche rosse e collagene idrolizzato.",
       "Crema contorno occhi con lisato di fermenti di Lactobacillus e peptidi.",
       "Crema per applicazione mirata con madecassoside, Centella asiatica e un complesso di ceramidi.",
       "Crema idratante con ceramide, colesterolo ed estratto di portulaca.",
-      "Protezione solare quotidiana con un complesso di più peptidi. Il catalogo indica SPF50+ PA++++.",
+      "Protezione solare quotidiana SPF50+ PA++++ con un complesso di più peptidi.",
       "Mousse detergente con il complesso Meditive Formula 3X.",
       "Fiala con Meditive Formula 3X, probiotici e inulina.",
       "Booster per la pelle con Meditive Formula 3X, probiotici e inulina, in un set di sette flaconcini.",
@@ -35,18 +35,18 @@
       "Crema con Hyal-Collagen, Hyalpol Prebiotics e squalano.",
       "Booster agli esosomi EXOXEN, in dieci flaconcini da 3 ml.",
       "Maschera in tessuto con triplo acido ialuronico, betaina e pantenolo.",
-      "Crema solare con pantenolo ed estratti di foglie di melo e aloe vera. Il catalogo indica SPF50+ PA++++."
+      "Crema solare SPF50+ PA++++ con pantenolo ed estratti di foglie di melo e aloe vera."
     ],
     "tech": [
       {"name": "Transfer", "note": "Sistema multifunzione con spatola a ultrasuoni, manipolo Sono, Vitamin Clip e manipolo Cooling & Heating."},
-      {"name": "agafar Point Plus", "note": "Ultrasuoni HIFU e LDM in un unico sistema. Il catalogo elenca cartucce per viso e corpo."},
-      {"name": "agafar Point Plus Pro", "note": "RF e HIFU con cartucce per il viso da 2, 3 e 4,5 mm e una cartuccia per il corpo da 6 mm. Nella panoramica è indicato anche come AGAFAR POINT PLUS RPO."},
+      {"name": "agafar Point Plus", "note": "Ultrasuoni HIFU e LDM in un unico sistema, con cartucce per viso e corpo."},
+      {"name": "agafar Point Plus Pro", "note": "RF e HIFU con cartucce per il viso da 2, 3 e 4,5 mm e una cartuccia per il corpo da 6 mm."},
       {"name": "agafar Line S", "note": "Sistema a sei funzioni che combina RF, cavitazione, laser a bassa intensità, aspirazione e LED, con manipoli Thermal, Multi Cavi e Multi."},
       {"name": "agafar S", "note": "Funzioni di cavitazione, calore e aspirazione con manipoli APP-1, APP-2 e APP-3."},
-      {"name": "PLASMA", "note": "Manipoli AIR Plasma e RF Multi Plasma. Sul corpo dell'apparecchio compare il nome PLASER."},
-      {"name": "agafar LED PDT Light", "note": "Sistema LED con modalità a luce rossa, verde, blu e combinata nel catalogo dell'azienda."},
+      {"name": "PLASMA", "note": "Manipoli AIR Plasma e RF Multi Plasma."},
+      {"name": "agafar LED PDT Light", "note": "Sistema LED con modalità a luce rossa, verde, blu e combinata."},
       {"name": "Face Fitness Turn Up", "note": "Quattro manipoli intercambiabili: P-POLAR (RF), P-CMS (CMS), PLASMA e P-DUAL (RF + CMS)."},
-      {"name": "PLAZION", "note": "Apparecchio estetico presentato da AGAFAR alle fiere di settore."}
+      {"name": "PLAZION", "note": "AGAFAR presenta PLAZION per migliorare l'assorbimento dei prodotti per la cura della pelle."}
     ],
     "formats": ["Detergenti e tonico", "Fiale e booster", "Contorno occhi e creme", "Solari e maschere in tessuto"],
     "exportNote": "Secondo l'azienda, i prodotti AGAFAR sono venduti in Corea, Hong Kong, Cina, Thailandia, Giappone, Stati Uniti, Filippine, Malaysia, Regno Unito, Emirati Arabi Uniti e Canada, oltre che in altri mercati. Per ogni richiesta, Teranova verifica la disponibilità nel territorio e gli accordi di distribuzione in vigore.",
@@ -62,7 +62,7 @@
     "lines_h": "Tre marchi. Ruoli distinti.",
     "catalog_h": "La collezione per la cura della pelle",
     "tech_h": "Apparecchiature estetiche professionali",
-    "tech_note": "Le descrizioni degli apparecchi si basano sui materiali di AGAFAR. Teranova può richiedere specifiche e documenti per il modello scelto e il vostro mercato.",
+    "tech_note": "Scegliete un apparecchio per discutere con Teranova delle specifiche e della disponibilità per il vostro mercato.",
     "products_h": "Cura della pelle e apparecchiature professionali",
     "products_note": "Esplorate il catalogo per la cura della pelle o passate direttamente alla gamma di apparecchiature.",
     "formats_h": "Formati dei prodotti",
@@ -79,15 +79,16 @@
     "gallery_h": "Il portafoglio AGAFAR da vicino"
   },
   "editorial": {
-    "catalog_intro": "Il catalogo DERMA MODE PROGRAM riunisce 20 prodotti. Nomi e formati delle confezioni seguono il catalogo fornito; le descrizioni riassumono le informazioni dell'azienda sugli ingredienti.",
+    "catalog_intro": "20 prodotti per la cura della pelle nella collezione DERMA MODE PROGRAM, dalla detersione alla protezione solare.",
     "additional": "Il portafoglio comprende anche EXOXEN Booster, oltre alla fiala e al siero NADXEN con NAD⁺ e NMN. Si tratta di nomi di prodotti all'interno del portafoglio AGAFAR, accanto ai suoi tre marchi per la cura della pelle.",
     "collection_cta": "Esplorate i prodotti per la pelle",
     "devices_cta": "Vedete gli apparecchi",
-    "meeting": "Il team Teranova ha incontrato AGAFAR. Questo profilo si basa sui materiali condivisi dall'azienda e sulle sue successive correzioni.",
-    "awards_h": "Riconoscimenti nei materiali aziendali",
+    "meeting": "Il team Teranova ha incontrato AGAFAR.",
+    "awards_h": "Riconoscimenti",
     "image_caption": "Fotografie dei prodotti AGAFAR",
     "range_caption": "Meditive Formula 3X · agapharma",
-    "source_note": "Prodotti e apparecchiature presentati nei materiali forniti da AGAFAR.",
+    "turn_up_caption": "Face Fitness Turn Up",
+    "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "Formato della confezione"
   }
 }

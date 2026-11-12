@@ -58,7 +58,6 @@ const contact = anchorHref('ondemand', lang);
 
   <figure class="ag-campaign ag-wrap">
     <img src={root + 'scenes/agafar-global-skincare-campaign.webp'} alt={e.image_caption} width="1600" height="900" loading="lazy" />
-    <figcaption>{e.source_note}</figcaption>
   </figure>
 
   <section id="agafar-brands" class="ag-wrap ag-section">
@@ -102,8 +101,19 @@ const contact = anchorHref('ondemand', lang);
     <div class="ag-section-head"><h2>{c.ui.tech_h}</h2><p>{c.ui.tech_note}</p></div>
     <div class="ag-devices">
       {c.tech.map(device => (
-        <article class="ag-device">
-          <div class="ag-device__image"><img src={root + agafarDeviceImages[device.name]} alt={device.name} width="700" height="700" loading="lazy" /></div>
+        <article class:list={['ag-device', { 'ag-device--turn-up': device.name === 'Face Fitness Turn Up' }]}>
+          {device.name === 'Face Fitness Turn Up' ? <div class="ag-turn-up-gallery">
+            <figure>
+              <div class="ag-turn-up__promo" dir="ltr">
+                <img data-source-crop src={root + 'tech/face-fitness-turn-up-promo.jpg'} alt={e.turn_up_caption} width="589" height="1280" loading="lazy" />
+              </div>
+              <figcaption>{e.turn_up_caption}</figcaption>
+            </figure>
+            <figure>
+              <img src={root + agafarDeviceImages[device.name]} alt={e.turn_up_heads_caption} width="737" height="1600" loading="lazy" />
+              <figcaption>{e.turn_up_heads_caption}</figcaption>
+            </figure>
+          </div> : <div class="ag-device__image"><img src={root + agafarDeviceImages[device.name]} alt={device.name} width="700" height="700" loading="lazy" /></div>}
           <h3 dir="auto">{device.name}</h3>
           <p>{device.note}</p>
         </article>
@@ -186,6 +196,11 @@ const contact = anchorHref('ondemand', lang);
   .ag-device__image img { aspect-ratio:1; object-fit:contain; }
   .ag-device h3 { font-size:1.1rem; }
   .ag-device p { font-size:.88rem; color:var(--ag-muted); margin-block-start:12px; }
+  .ag-device--turn-up { grid-column:1 / -1; }
+  .ag-turn-up-gallery { display:grid; grid-template-columns:1fr 1fr; align-items:start; gap:35px; margin-block-end:24px; }
+  /* Preserve the original screenshot bytes; show only its supplied campaign frame. */
+  .ag-turn-up__promo { position:relative; aspect-ratio:460 / 630; overflow:hidden; }
+  .ag-turn-up__promo img { position:absolute; width:128.043478%; max-width:none; left:-12.826087%; top:-56.190476%; }
   .ag-business { display:grid; grid-template-columns:1.3fr 1fr; gap:90px; border-top:1px solid var(--ag-line); }
   .ag-business p { margin-block-start:25px; color:var(--ag-muted); }
   .ag-business ul { padding-inline-start:20px; margin-block-start:25px; }
@@ -222,6 +237,7 @@ const contact = anchorHref('ondemand', lang);
     .ag-actions { gap:16px; }
     .ag-product__copy h4 { overflow-wrap:anywhere; }
     .ag-contact { padding-block:55px; }
+    .ag-turn-up-gallery { grid-template-columns:1fr; gap:25px; }
   }
   @media(max-width:420px) {
     .ag-products,.ag-devices { grid-template-columns:1fr; }

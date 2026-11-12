@@ -61,3 +61,22 @@ No image from the inaccessible Drive links owned by Irina was used.
 | `tech/face-fitness-turn-up.webp` | `10-Фото-10.jpg`, stored with the accepted internal attachment for T-20261031-026 | The company graphic names and depicts `Face Fitness Turn Up`. |
 
 No Mono JET photo is included: the available materials do not reliably identify one, so no other device is used as a substitute.
+
+## T-20261112-093: two Face Fitness Turn Up frames
+
+`tech/face-fitness-turn-up-promo.jpg` is a byte-identical copy of
+`.ai-coordination/shell-attachments/b2365138-07c8-456f-89c4-67629b937062/344b9e87-be79-440f-9f8b-f2f6924f3d2c.bin`
+(chat-devices-awards-01-AGAFAR-new-info-1.jpg).
+SHA-256: `876523fb889f6e2c3d07f1f87b9c63028fb6aab02df7a9d4d4a53e556fbe0d80`.
+The source is a 589×1280 screenshot. The component displays its campaign
+frame at x=59, y=354, width=460, height=630 using a clipped viewport;
+the original raster is neither edited nor regenerated. The displayed frame
+names Face Fitness Turn Up and shows its facial patches.
+
+The separate `tech/face-fitness-turn-up.webp` retains the complete equipment
+and four-handpiece graphic (P-POLAR, P-CMS, PLASMA, P-DUAL), with natural
+aspect ratio in the new two-frame presentation. Source image 10 also exists
+as `f2c84df8-d005-478a-b7dc-51cc4ba639c6.bin` in the same receipt bundle.
+The embedded marketing text and KC/CE logos remain original company artwork;
+they are not transcribed as certifications or independently verified efficacy.
+Both frames still require browser visual inspection before acceptance.

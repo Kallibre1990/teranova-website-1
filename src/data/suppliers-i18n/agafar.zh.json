@@ -1,6 +1,6 @@
 {
   "content": {
-    "tagline": "源于临床实践的护肤理念",
+    "tagline": "源自韩国皮肤科诊所的护肤产品",
     "descriptor": "AGAFAR Medical Beauty Group 汇集了三个韩国护肤品牌及专业美容仪器。",
     "origin": "韩国",
     "about": [
@@ -11,7 +11,7 @@
     "facts": ["三个护肤品牌", "始于 2010 年的诊所运营历史", "DERMA MODE PROGRAM 目录收录 20 款产品"],
     "channels": ["化妆品进口商与分销商", "皮肤科及美容诊所", "零售与连锁药店", "电商团队"],
     "lines": [
-      {"name": "AGAFAR", "note": "涵盖从清洁到防晒的日常护肤系列，包括爽肤水、安瓶、眼部护理和面霜。配方围绕肽、PDRN、神经酰胺和植物提取物构成。"},
+      {"name": "AGAFAR", "note": "面向敏感及易出现肌肤问题的人群，提供从清洁到防晒的温和日常护理，包括爽肤水、安瓶、眼部护理和面霜。配方围绕肽、PDRN、神经酰胺和植物提取物构成。"},
       {"name": "agapharma", "note": "专业系列 Meditive Formula 3X 结合了 Hyal-Collagen、Bio Lacto Exosome 和 Super Centella。目录收录洁面泡沫、安瓶、肌肤精华加强液及两款面霜。"},
       {"name": "a'reiv", "note": "两种互补的产品形式：Hyaluronic Ultra-Fine 片状面膜和 Calming Sun Cream SPF50+ PA++++ 防晒霜。"}
     ],
@@ -19,15 +19,15 @@
       "含马齿苋提取物、羟基积雪草苷和神经酰胺 NP 的洁面凝胶。",
       "含甜菜碱、奇亚籽提取物和积雪草提取物的爽肤水。",
       "含绿茶、蜂胶、甘草根提取物和尿囊素的凝胶。",
-      "据目录描述，含维生素 A、C、E 复合成分的安瓶。",
+      "含维生素 A、C、E 复合成分的安瓶。",
       "含八肽复合成分和水解胶原蛋白的安瓶。",
-      "PDRN 与透明质酸安瓶。所提供的宣传资料标注鲑鱼 DNA 含量为 10,000 ppm。",
+      "含 PDRN、透明质酸及 10,000 ppm 鲑鱼 DNA 的安瓶。",
       "含 Vita K 复合成分、泛醇和薁的安瓶。",
       "含红色浆果复合成分和水解胶原蛋白的眼部精华。",
       "含乳酸杆菌发酵溶胞产物和肽的眼霜。",
       "含羟基积雪草苷、积雪草和神经酰胺复合成分的局部护理霜。",
       "含神经酰胺、胆固醇和马齿苋提取物的保湿霜。",
-      "含多肽复合成分的日用防晒产品。目录标注为 SPF50+ PA++++。",
+      "含多肽复合成分的 SPF50+ PA++++ 日用防晒产品。",
       "含 Meditive Formula 3X 复合成分的洁面泡沫。",
       "含 Meditive Formula 3X、益生菌和菊粉的安瓶。",
       "含 Meditive Formula 3X、益生菌和菊粉的肌肤精华加强液，每套七瓶。",
@@ -35,18 +35,18 @@
       "含 Hyal-Collagen、Hyalpol Prebiotics 和角鲨烷的面霜。",
       "EXOXEN 外泌体精华加强液，每套十瓶，每瓶 3 ml。",
       "含三重透明质酸、甜菜碱和泛醇的片状面膜。",
-      "含泛醇、苹果叶提取物和芦荟叶提取物的防晒霜。目录标注为 SPF50+ PA++++。"
+      "含泛醇、苹果叶提取物和芦荟叶提取物的 SPF50+ PA++++ 防晒霜。"
     ],
     "tech": [
       {"name": "Transfer", "note": "配备超声波洁肤铲、Sono 手具、Vitamin Clip 和 Cooling & Heating 手具的多功能系统。"},
-      {"name": "agafar Point Plus", "note": "将 HIFU 与 LDM 超声波集于一套系统。目录列有面部及身体用探头。"},
-      {"name": "agafar Point Plus Pro", "note": "结合 RF 与 HIFU，配备 2、3 和 4.5 mm 面部用探头及 6 mm 身体用探头。在概览资料中也以 AGAFAR POINT PLUS RPO 的名称列出。"},
+      {"name": "agafar Point Plus", "note": "将 HIFU 与 LDM 超声波集于一套系统，配备面部及身体用探头。"},
+      {"name": "agafar Point Plus Pro", "note": "结合 RF 与 HIFU，配备 2、3 和 4.5 mm 面部用探头及 6 mm 身体用探头。"},
       {"name": "agafar Line S", "note": "六功能系统，结合 RF、空化、低强度激光、真空及 LED，配备 Thermal、Multi Cavi 和 Multi 手具。"},
       {"name": "agafar S", "note": "通过 APP-1、APP-2 和 APP-3 手具提供空化、热作用和吸附功能。"},
-      {"name": "PLASMA", "note": "配备 AIR Plasma 和 RF Multi Plasma 手具。设备外壳标有 PLASER 名称。"},
-      {"name": "agafar LED PDT Light", "note": "公司目录中的 LED 系统，设有红光、绿光、蓝光及混合光模式。"},
+      {"name": "PLASMA", "note": "配备 AIR Plasma 和 RF Multi Plasma 手具。"},
+      {"name": "agafar LED PDT Light", "note": "设有红光、绿光、蓝光及混合光模式的 LED 系统。"},
       {"name": "Face Fitness Turn Up", "note": "四款可更换手具：P-POLAR (RF)、P-CMS (CMS)、PLASMA 和 P-DUAL (RF + CMS)。"},
-      {"name": "PLAZION", "note": "AGAFAR 在行业展会上展示的美容仪器。"}
+      {"name": "PLAZION", "note": "AGAFAR 将 PLAZION 介绍为帮助提升护肤品吸收的设备。"}
     ],
     "formats": ["洁面产品与爽肤水", "安瓶与精华加强液", "眼部护理与面霜", "防晒产品与片状面膜"],
     "exportNote": "据公司介绍，AGAFAR 产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。Teranova 会根据每次询问确认目标地区的供货情况及现行分销安排。",
@@ -62,7 +62,7 @@
     "lines_h": "三个品牌，各有侧重",
     "catalog_h": "护肤产品系列",
     "tech_h": "专业美容仪器",
-    "tech_note": "设备描述依据 AGAFAR 自身提供的资料。Teranova 可为您选定的型号和目标市场索取规格及相关文件。",
+    "tech_note": "选择您感兴趣的设备，与 Teranova 讨论规格及目标市场的供货情况。",
     "products_h": "护肤产品与专业设备",
     "products_note": "浏览护肤产品目录，或直接查看设备系列。",
     "formats_h": "产品形式",
@@ -79,15 +79,16 @@
     "gallery_h": "了解 AGAFAR 产品组合"
   },
   "editorial": {
-    "catalog_intro": "DERMA MODE PROGRAM 目录汇集了 20 款产品。名称及包装规格依据所提供的目录；产品描述概述了公司提供的成分信息。",
+    "catalog_intro": "DERMA MODE PROGRAM 系列汇集 20 款护肤产品，涵盖从清洁到防晒的护理步骤。",
     "additional": "产品组合还包括 EXOXEN Booster，以及含 NAD⁺ 和 NMN 的 NADXEN 安瓶与精华。这些是 AGAFAR 产品组合中的产品名称，与其三个护肤品牌并列展示。",
     "collection_cta": "浏览护肤产品",
     "devices_cta": "查看设备",
-    "meeting": "Teranova 团队曾与 AGAFAR 会面。本简介依据公司分享的资料及后续更正内容编写。",
-    "awards_h": "公司资料中的获奖记录",
+    "meeting": "Teranova 团队曾与 AGAFAR 会面。",
+    "awards_h": "获奖记录",
     "image_caption": "AGAFAR 产品照片",
     "range_caption": "Meditive Formula 3X · agapharma",
-    "source_note": "AGAFAR 所提供资料中展示的产品和设备。",
+    "turn_up_caption": "Face Fitness Turn Up",
+    "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "包装规格"
   }
 }

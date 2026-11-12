@@ -1,6 +1,6 @@
 {
   "content": {
-    "tagline": "Cuidado de la piel desde la práctica clínica",
+    "tagline": "Cuidado de la piel desde las clínicas dermatológicas de Corea",
     "descriptor": "Tres marcas coreanas de cuidado de la piel y equipos de estética profesional reunidos por AGAFAR Medical Beauty Group.",
     "origin": "Corea",
     "about": [
@@ -11,7 +11,7 @@
     "facts": ["Tres marcas de cuidado de la piel", "Trayectoria clínica desde 2010", "20 productos en el catálogo DERMA MODE PROGRAM"],
     "channels": ["Importadores y distribuidores de cosméticos", "Clínicas dermatológicas y de estética", "Cadenas de tiendas y farmacias", "Equipos de comercio electrónico"],
     "lines": [
-      {"name": "AGAFAR", "note": "Cuidado diario de la piel, desde la limpieza hasta la protección solar. La línea incluye tónico, ampollas, productos para el contorno de ojos y cremas, con fórmulas a base de péptidos, PDRN, ceramidas y extractos vegetales."},
+      {"name": "AGAFAR", "note": "Cuidado diario suave para pieles sensibles y problemáticas, desde la limpieza hasta la protección solar. La línea incluye tónico, ampollas, productos para el contorno de ojos y cremas, con fórmulas a base de péptidos, PDRN, ceramidas y extractos vegetales."},
       {"name": "agapharma", "note": "La línea profesional Meditive Formula 3X combina Hyal-Collagen, Bio Lacto Exosome y Super Centella. Su catálogo incluye una espuma limpiadora, una ampolla, un potenciador para la piel y dos cremas."},
       {"name": "a'reiv", "note": "Dos formatos complementarios: la mascarilla de tejido Hyaluronic Ultra-Fine y la crema solar Calming Sun Cream SPF50+ PA++++."}
     ],
@@ -19,15 +19,15 @@
       "Gel limpiador con extracto de verdolaga, madecasósido y ceramida NP.",
       "Tónico con betaína, extracto de semillas de chía y extracto de Centella asiatica.",
       "Gel con té verde, propóleo, extracto de raíz de regaliz y alantoína.",
-      "Ampolla con un complejo de vitaminas A, C y E, según el catálogo.",
+      "Ampolla con un complejo de vitaminas A, C y E.",
       "Ampolla con un complejo de ocho péptidos y colágeno hidrolizado.",
-      "Ampolla con PDRN y ácido hialurónico. El material promocional facilitado indica ADN de salmón a 10.000 ppm.",
+      "Ampolla con PDRN, ácido hialurónico y ADN de salmón a 10.000 ppm.",
       "Ampolla con el complejo Vita K, pantenol y azuleno.",
       "Sérum para el contorno de ojos con un complejo de frutos rojos y colágeno hidrolizado.",
       "Crema para el contorno de ojos con lisado de fermento de Lactobacillus y péptidos.",
       "Crema de aplicación localizada con madecasósido, Centella asiatica y un complejo de ceramidas.",
       "Crema hidratante con ceramida, colesterol y extracto de verdolaga.",
-      "Protector solar de uso diario con un complejo de múltiples péptidos. El catálogo indica SPF50+ PA++++.",
+      "Protector solar de uso diario SPF50+ PA++++ con un complejo de múltiples péptidos.",
       "Espuma limpiadora con el complejo Meditive Formula 3X.",
       "Ampolla con Meditive Formula 3X, probióticos e inulina.",
       "Potenciador para la piel con Meditive Formula 3X, probióticos e inulina, en un estuche de siete viales.",
@@ -35,18 +35,18 @@
       "Crema con Hyal-Collagen, Hyalpol Prebiotics y escualano.",
       "Potenciador de exosomas EXOXEN, presentado en diez viales de 3 ml.",
       "Mascarilla de tejido con triple ácido hialurónico, betaína y pantenol.",
-      "Crema solar con pantenol y extractos de hoja de manzano y de aloe vera. El catálogo indica SPF50+ PA++++."
+      "Crema solar SPF50+ PA++++ con pantenol y extractos de hoja de manzano y de aloe vera."
     ],
     "tech": [
       {"name": "Transfer", "note": "Sistema multifunción con espátula ultrasónica, pieza de mano Sono, Vitamin Clip y pieza de mano Cooling & Heating."},
-      {"name": "agafar Point Plus", "note": "Ultrasonidos HIFU y LDM en un solo sistema. El catálogo incluye cartuchos faciales y corporales."},
-      {"name": "agafar Point Plus Pro", "note": "RF y HIFU con cartuchos faciales de 2, 3 y 4,5 mm y un cartucho corporal de 6 mm. También figura como AGAFAR POINT PLUS RPO en la presentación general."},
+      {"name": "agafar Point Plus", "note": "Ultrasonidos HIFU y LDM en un solo sistema, con cartuchos faciales y corporales."},
+      {"name": "agafar Point Plus Pro", "note": "RF y HIFU con cartuchos faciales de 2, 3 y 4,5 mm y un cartucho corporal de 6 mm."},
       {"name": "agafar Line S", "note": "Sistema de seis funciones que combina RF, cavitación, láser de baja intensidad, vacío y LED, con piezas de mano Thermal, Multi Cavi y Multi."},
       {"name": "agafar S", "note": "Funciones de cavitación, calor y succión con piezas de mano APP-1, APP-2 y APP-3."},
-      {"name": "PLASMA", "note": "Piezas de mano AIR Plasma y RF Multi Plasma. La carcasa del equipo lleva el nombre PLASER."},
-      {"name": "agafar LED PDT Light", "note": "Sistema LED con modos de luz roja, verde, azul y combinada, según el catálogo de la empresa."},
+      {"name": "PLASMA", "note": "Piezas de mano AIR Plasma y RF Multi Plasma."},
+      {"name": "agafar LED PDT Light", "note": "Sistema LED con modos de luz roja, verde, azul y combinada."},
       {"name": "Face Fitness Turn Up", "note": "Cuatro piezas de mano intercambiables: P-POLAR (RF), P-CMS (CMS), PLASMA y P-DUAL (RF + CMS)."},
-      {"name": "PLAZION", "note": "Equipo de estética presentado por AGAFAR en ferias profesionales."}
+      {"name": "PLAZION", "note": "AGAFAR presenta PLAZION para mejorar la absorción de los productos de cuidado de la piel."}
     ],
     "formats": ["Limpiadores y tónico", "Ampollas y potenciadores", "Contorno de ojos y cremas", "Protección solar y mascarillas de tejido"],
     "exportNote": "Según la empresa, los productos AGAFAR se venden en Corea, Hong Kong, China, Tailandia, Japón, Estados Unidos, Filipinas, Malasia, Reino Unido, Emiratos Árabes Unidos y Canadá, entre otros mercados. Teranova confirma la disponibilidad territorial y los acuerdos de distribución vigentes para cada consulta.",
@@ -62,7 +62,7 @@
     "lines_h": "Tres marcas. Cada una con su enfoque.",
     "catalog_h": "La colección de cuidado de la piel",
     "tech_h": "Equipos de estética profesional",
-    "tech_note": "Las descripciones de los equipos se basan en los materiales de AGAFAR. Teranova puede solicitar las especificaciones y la documentación del modelo seleccionado para su mercado.",
+    "tech_note": "Elija un equipo para consultar con Teranova sus especificaciones y disponibilidad en su mercado.",
     "products_h": "Cuidado de la piel y equipos profesionales",
     "products_note": "Explore el catálogo de cuidado de la piel o acceda directamente a la gama de equipos.",
     "formats_h": "Formatos de producto",
@@ -79,15 +79,16 @@
     "gallery_h": "La oferta de AGAFAR en imágenes"
   },
   "editorial": {
-    "catalog_intro": "El catálogo DERMA MODE PROGRAM reúne 20 productos. Los nombres y tamaños de envase corresponden al catálogo facilitado; las descripciones resumen la información de ingredientes de la empresa.",
+    "catalog_intro": "20 productos de cuidado de la piel en la colección DERMA MODE PROGRAM, desde la limpieza hasta la protección solar.",
     "additional": "La oferta también incluye EXOXEN Booster y la ampolla y el sérum NADXEN con NAD⁺ y NMN. Son nombres de productos de AGAFAR, junto a sus tres marcas de cuidado de la piel.",
     "collection_cta": "Explorar el cuidado de la piel",
     "devices_cta": "Ver equipos",
-    "meeting": "El equipo de Teranova se ha reunido con AGAFAR. Este perfil se basa en los materiales facilitados por la empresa y en sus correcciones posteriores.",
-    "awards_h": "Reconocimientos en los materiales de la empresa",
+    "meeting": "El equipo de Teranova se ha reunido con AGAFAR.",
+    "awards_h": "Reconocimientos",
     "image_caption": "Fotografía de productos AGAFAR",
     "range_caption": "Meditive Formula 3X · agapharma",
-    "source_note": "Productos y equipos que aparecen en los materiales facilitados por AGAFAR.",
+    "turn_up_caption": "Face Fitness Turn Up",
+    "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "Tamaño del envase"
   }
 }

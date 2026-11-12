@@ -1,6 +1,6 @@
 {
   "content": {
-    "tagline": "臨床経験を生かしたスキンケア",
+    "tagline": "韓国の皮膚科クリニック発のスキンケア",
     "descriptor": "AGAFAR Medical Beauty Groupは、韓国のスキンケア3ブランドと業務用美容機器を展開しています。",
     "origin": "韓国",
     "about": [
@@ -11,7 +11,7 @@
     "facts": ["スキンケア3ブランド", "2010年から続くクリニック運営の歴史", "DERMA MODE PROGRAMカタログに20製品を収録"],
     "channels": ["化粧品の輸入・販売代理店", "皮膚科・美容クリニック", "小売・薬局チェーン", "EC事業の担当者"],
     "lines": [
-      {"name": "AGAFAR", "note": "洗顔から紫外線対策まで、毎日のスキンケアをカバーするラインです。化粧水、アンプル、アイケア、クリームを展開し、ペプチド、PDRN、セラミド、植物エキスを中心とした処方を採用しています。"},
+      {"name": "AGAFAR", "note": "洗顔から紫外線対策まで、敏感な肌やトラブルが起きやすい肌のための穏やかなデイリーケアを目指すラインです。化粧水、アンプル、アイケア、クリームを展開し、ペプチド、PDRN、セラミド、植物エキスを中心とした処方を採用しています。"},
       {"name": "agapharma", "note": "業務用ラインMeditive Formula 3Xは、Hyal-Collagen、Bio Lacto Exosome、Super Centellaを組み合わせています。カタログには、洗顔フォーム、アンプル、スキンブースター、2種類のクリームが掲載されています。"},
       {"name": "a'reiv", "note": "互いを補う2つの製品タイプとして、Hyaluronic Ultra-FineシートマスクとCalming Sun Cream SPF50+ PA++++を展開しています。"}
     ],
@@ -19,15 +19,15 @@
       "スベリヒユエキス、マデカッソシド、セラミドNPを配合した洗顔ジェルです。",
       "ベタイン、チアシードエキス、ツボクサエキスを配合した化粧水です。",
       "緑茶、プロポリス、甘草根エキス、アラントインを配合したジェルです。",
-      "カタログによると、ビタミンA・C・Eの複合成分を配合したアンプルです。",
+      "ビタミンA・C・Eの複合成分を配合したアンプルです。",
       "8種のペプチド複合成分と加水分解コラーゲンを配合したアンプルです。",
-      "PDRNとヒアルロン酸のアンプルです。提供された販促資料には、サーモンDNAを10,000 ppm配合と記載されています。",
+      "PDRN、ヒアルロン酸、サーモンDNA 10,000 ppmを配合したアンプルです。",
       "Vita K複合成分、パンテノール、アズレンを配合したアンプルです。",
       "レッドベリー複合成分と加水分解コラーゲンを配合した目元用美容液です。",
       "乳酸桿菌発酵溶解質とペプチドを配合したアイクリームです。",
       "マデカッソシド、ツボクサ、セラミド複合成分を配合した部分用クリームです。",
       "セラミド、コレステロール、スベリヒユエキスを配合した保湿クリームです。",
-      "マルチペプチド複合成分を配合した日常使いの日焼け止めです。カタログにはSPF50+ PA++++と記載されています。",
+      "マルチペプチド複合成分を配合したSPF50+ PA++++の日常使いの日焼け止めです。",
       "Meditive Formula 3X複合成分を配合した洗顔フォームです。",
       "Meditive Formula 3X、プロバイオティクス、イヌリンを配合したアンプルです。",
       "Meditive Formula 3X、プロバイオティクス、イヌリンを配合したスキンブースターで、7本のバイアル入りセットです。",
@@ -35,18 +35,18 @@
       "Hyal-Collagen、Hyalpol Prebiotics、スクワランを配合したクリームです。",
       "EXOXENエクソソームブースターです。3 mlのバイアル10本入りです。",
       "トリプルヒアルロン酸、ベタイン、パンテノールを配合したシートマスクです。",
-      "パンテノール、リンゴ葉エキス、アロエベラ葉エキスを配合した日焼け止めクリームです。カタログにはSPF50+ PA++++と記載されています。"
+      "パンテノール、リンゴ葉エキス、アロエベラ葉エキスを配合したSPF50+ PA++++の日焼け止めクリームです。"
     ],
     "tech": [
       {"name": "Transfer", "note": "超音波スクラバー、Sonoハンドピース、Vitamin Clip、Cooling & Heatingハンドピースを備えた多機能システムです。"},
-      {"name": "agafar Point Plus", "note": "HIFUとLDM超音波を1台に組み合わせたシステムです。カタログには顔用と身体用のカートリッジが掲載されています。"},
-      {"name": "agafar Point Plus Pro", "note": "RFとHIFUを組み合わせ、顔用の2、3、4.5 mmカートリッジと身体用の6 mmカートリッジを備えています。概要資料にはAGAFAR POINT PLUS RPOという名称でも掲載されています。"},
+      {"name": "agafar Point Plus", "note": "HIFUとLDM超音波を1台に組み合わせたシステムで、顔用と身体用のカートリッジを備えています。"},
+      {"name": "agafar Point Plus Pro", "note": "RFとHIFUを組み合わせ、顔用の2、3、4.5 mmカートリッジと身体用の6 mmカートリッジを備えています。"},
       {"name": "agafar Line S", "note": "RF、キャビテーション、低出力レーザー、吸引、LEDを組み合わせた6機能のシステムです。Thermal、Multi Cavi、Multiのハンドピースを備えています。"},
       {"name": "agafar S", "note": "APP-1、APP-2、APP-3のハンドピースで、キャビテーション、温熱、吸引の機能を使用します。"},
-      {"name": "PLASMA", "note": "AIR PlasmaとRF Multi Plasmaのハンドピースを備えています。本体にはPLASERの名称が表示されています。"},
-      {"name": "agafar LED PDT Light", "note": "同社カタログに掲載されているLEDシステムで、赤、緑、青および混合光のモードを備えています。"},
+      {"name": "PLASMA", "note": "AIR PlasmaとRF Multi Plasmaのハンドピースを備えています。"},
+      {"name": "agafar LED PDT Light", "note": "赤、緑、青および混合光のモードを備えたLEDシステムです。"},
       {"name": "Face Fitness Turn Up", "note": "交換式ハンドピースは、P-POLAR (RF)、P-CMS (CMS)、PLASMA、P-DUAL (RF + CMS)の4種類です。"},
-      {"name": "PLAZION", "note": "AGAFARが業界展示会で紹介している美容機器です。"}
+      {"name": "PLAZION", "note": "AGAFARはPLAZIONをスキンケア製品の浸透をサポートする機器として紹介しています。"}
     ],
     "formats": ["洗顔料・化粧水", "アンプル・ブースター", "アイケア・クリーム", "日焼け止め・シートマスク"],
     "exportNote": "同社によると、AGAFAR製品は韓国、香港、中国、タイ、日本、米国、フィリピン、マレーシア、英国、UAE、カナダなどで販売されています。Teranovaは、お問い合わせごとに対象地域への供給可否と現在の販売代理店契約の状況を確認します。",
@@ -62,7 +62,7 @@
     "lines_h": "3つのブランド、それぞれの役割",
     "catalog_h": "スキンケアコレクション",
     "tech_h": "業務用美容機器",
-    "tech_note": "機器の説明はAGAFARの資料に基づいています。Teranovaは、ご希望のモデルと対象市場に応じた仕様書や書類を同社に依頼できます。",
+    "tech_note": "ご希望の機器を選び、仕様や対象市場への供給についてTeranovaにご相談ください。",
     "products_h": "スキンケアと業務用機器",
     "products_note": "スキンケアカタログをご覧いただくか、機器のラインアップへ直接お進みいただけます。",
     "formats_h": "製品タイプ",
@@ -79,15 +79,16 @@
     "gallery_h": "AGAFARの製品ラインアップ"
   },
   "editorial": {
-    "catalog_intro": "DERMA MODE PROGRAMカタログには20製品が収録されています。製品名と包装容量は提供されたカタログに準拠し、製品説明は同社の成分情報を要約しています。",
+    "catalog_intro": "DERMA MODE PROGRAMは、洗顔から紫外線対策まで20のスキンケア製品を揃えています。",
     "additional": "ラインアップにはEXOXEN Boosterと、NAD⁺・NMNを配合したNADXENのアンプルおよび美容液も含まれます。これらはAGAFARのラインアップ内の製品名で、3つのスキンケアブランドとともに紹介しています。",
     "collection_cta": "スキンケアを見る",
     "devices_cta": "機器を見る",
-    "meeting": "TeranovaのチームはAGAFARと面談しました。この紹介ページは、同社が提供した資料と、その後の訂正内容に基づいて作成しています。",
-    "awards_h": "会社資料に記載された受賞歴",
+    "meeting": "TeranovaのチームはAGAFARと面談しました。",
+    "awards_h": "受賞歴",
     "image_caption": "AGAFAR製品の写真",
     "range_caption": "Meditive Formula 3X · agapharma",
-    "source_note": "AGAFARが提供した資料に掲載されている製品と機器です。",
+    "turn_up_caption": "Face Fitness Turn Up",
+    "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "包装容量"
   }
 }
