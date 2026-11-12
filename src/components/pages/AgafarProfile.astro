@@ -110,7 +110,9 @@ const contact = anchorHref('ondemand', lang);
               <figcaption>{e.turn_up_caption}</figcaption>
             </figure>
             <figure>
-              <img src={root + agafarDeviceImages[device.name]} alt={e.turn_up_heads_caption} width="737" height="1600" loading="lazy" />
+              <div class="ag-turn-up__heads">
+                <img data-source-crop src={root + agafarDeviceImages[device.name]} alt={e.turn_up_heads_caption} width="737" height="1600" loading="lazy" />
+              </div>
               <figcaption>{e.turn_up_heads_caption}</figcaption>
             </figure>
           </div> : <div class="ag-device__image"><img src={root + agafarDeviceImages[device.name]} alt={device.name} width="700" height="700" loading="lazy" /></div>}
@@ -201,6 +203,9 @@ const contact = anchorHref('ondemand', lang);
   /* Preserve the original screenshot bytes; show only its supplied campaign frame. */
   .ag-turn-up__promo { position:relative; aspect-ratio:460 / 630; overflow:hidden; }
   .ag-turn-up__promo img { position:absolute; width:128.043478%; max-width:none; left:-12.826087%; top:-56.190476%; }
+  /* The 737×1600 source has video bars outside rows 247–1352. Keep its bytes intact. */
+  .ag-turn-up__heads { position:relative; aspect-ratio:737 / 1106; overflow:hidden; }
+  .ag-turn-up__heads img { position:absolute; width:100%; height:auto; left:0; top:calc(-247 / 1106 * 100%); }
   .ag-business { display:grid; grid-template-columns:1.3fr 1fr; gap:90px; border-top:1px solid var(--ag-line); }
   .ag-business p { margin-block-start:25px; color:var(--ag-muted); }
   .ag-business ul { padding-inline-start:20px; margin-block-start:25px; }
