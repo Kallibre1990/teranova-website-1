@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import AgafarProfile from '../../components/pages/AgafarProfile.astro';
+import { agafarProfile } from '../../data/agafar';
+import { supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+import { isHiddenSupplier } from '../../data/site';
+const lang = 'ru';
+const c = supplierContent(agafarProfile, lang);
+---
+<Base lang={lang} path="/catalog/agafar" title={c.seoTitle} description={c.seoDesc} image="/img/suppliers/agafar/scenes/agafar-global-skincare-campaign.webp" jsonLd={supplierJsonLd(lang, agafarProfile)} noindex={isHiddenSupplier('agafar')}>
+  <AgafarProfile lang={lang} />
+</Base>

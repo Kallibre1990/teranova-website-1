@@ -1,0 +1,18 @@
+---
+import Base from '../../../layouts/Base.astro';
+import AgafarProfile from '../../../components/pages/AgafarProfile.astro';
+import { agafarProfile } from '../../../data/agafar';
+import { supplierContent } from '../../../data/suppliers';
+import { supplierJsonLd } from '../../../data/jsonld';
+import { isHiddenSupplier } from '../../../data/site';
+import { publicLocaleCodes, sectionDefaultLocale } from '../../../i18n/locale-policy.mjs';
+import type { Lang } from '../../../i18n/ui';
+export function getStaticPaths() {
+  return publicLocaleCodes.filter(lang => lang !== sectionDefaultLocale).map(lang => ({ params: { lang }, props: { lang } }));
+}
+const { lang } = Astro.props as { lang: Lang };
+const c = supplierContent(agafarProfile, lang);
+---
+<Base lang={lang} path="/catalog/agafar" title={c.seoTitle} description={c.seoDesc} image="/img/suppliers/agafar/scenes/agafar-global-skincare-campaign.webp" jsonLd={supplierJsonLd(lang, agafarProfile)} noindex={isHiddenSupplier('agafar')}>
+  <AgafarProfile lang={lang} />
+</Base>

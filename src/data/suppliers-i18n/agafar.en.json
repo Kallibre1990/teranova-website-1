@@ -1,0 +1,93 @@
+{
+  "content": {
+    "tagline": "Skincare shaped by clinical practice",
+    "descriptor": "Three Korean skincare brands and professional aesthetic devices, brought together by AGAFAR Medical Beauty Group.",
+    "origin": "Korea",
+    "about": [
+      "AGAFAR brings together dermatology clinics, skincare and professional aesthetic equipment. The group's clinic history dates to 2010. Its Korean clinic website lists six locations: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang and Juan.",
+      "According to the company, AGAFAR Clinic and AGAFAR Medi Lounge have more than 40 branches across Korea and overseas, including Hong Kong, China, Thailand and Canada. Its skincare portfolio has three brands: AGAFAR, agapharma and a'reiv.",
+      "AGAFAR's materials identify two separate awards in dermatology and derma-cosmetics: first place in the 2023 KPBA awards and the 2026 KBEI award. The KBEI certificate is dated 3 April 2026 and names The JoongAng alongside the organizer."
+    ],
+    "facts": ["Three skincare brands", "A clinic history dating to 2010", "20 products in the DERMA MODE PROGRAM catalog"],
+    "channels": ["Cosmetics importers and distributors", "Dermatology and aesthetic clinics", "Retail and pharmacy chains", "E-commerce teams"],
+    "lines": [
+      {"name": "AGAFAR", "note": "Daily skincare from cleansing to sun protection. The line includes toner, ampoules, eye care and creams, with formulas built around peptides, PDRN, ceramides and botanical extracts."},
+      {"name": "agapharma", "note": "The professional Meditive Formula 3X line combines Hyal-Collagen, Bio Lacto Exosome and Super Centella. Its catalog covers a foam cleanser, ampoule, skin booster and two creams."},
+      {"name": "a'reiv", "note": "Two complementary formats: a Hyaluronic Ultra-Fine sheet mask and Calming Sun Cream SPF50+ PA++++."}
+    ],
+    "catalog_notes": [
+      "Cleansing gel with portulaca extract, madecassoside and ceramide NP.",
+      "Toner with betaine, chia seed extract and Centella asiatica extract.",
+      "Gel with green tea, propolis, licorice root extract and allantoin.",
+      "Ampoule with a vitamin A, C and E complex, as described in the catalog.",
+      "Ampoule with an eight-peptide complex and hydrolyzed collagen.",
+      "PDRN and hyaluronic acid ampoule. The supplied promotional material states Salmon DNA at 10,000 ppm.",
+      "Ampoule with a Vita K complex, panthenol and azulene.",
+      "Eye serum with a red berry complex and hydrolyzed collagen.",
+      "Eye cream with Lactobacillus ferment lysate and peptides.",
+      "Targeted cream with madecassoside, Centella asiatica and a ceramide complex.",
+      "Moisturizing cream with ceramide, cholesterol and portulaca extract.",
+      "Daily sunblock with a multi-peptide complex. The catalog lists SPF50+ PA++++.",
+      "Foam cleanser with the Meditive Formula 3X complex.",
+      "Ampoule with Meditive Formula 3X, probiotics and inulin.",
+      "Skin booster with Meditive Formula 3X, probiotics and inulin, in a seven-vial set.",
+      "Light cream with Hyal-Collagen, Hyalpol Prebiotics and ectoin.",
+      "Cream with Hyal-Collagen, Hyalpol Prebiotics and squalane.",
+      "EXOXEN exosome booster, supplied as ten 3 ml vials.",
+      "Sheet mask with triple hyaluronic acid, betaine and panthenol.",
+      "Sun cream with panthenol, apple leaf and aloe vera leaf extracts. The catalog lists SPF50+ PA++++."
+    ],
+    "tech": [
+      {"name": "Transfer", "note": "A multifunction system with an ultrasonic scrubber, Sono handpiece, Vitamin Clip and Cooling & Heating handpiece."},
+      {"name": "agafar Point Plus", "note": "HIFU and LDM ultrasound in one system. The catalog lists face and body cartridges."},
+      {"name": "agafar Point Plus Pro", "note": "RF and HIFU with 2, 3 and 4.5 mm face cartridges and a 6 mm body cartridge. Also listed as AGAFAR POINT PLUS RPO in the overview."},
+      {"name": "agafar Line S", "note": "A six-function system combining RF, cavitation, low-level laser, vacuum and LED, with Thermal, Multi Cavi and Multi handpieces."},
+      {"name": "agafar S", "note": "Cavitation, thermal and suction functions with APP-1, APP-2 and APP-3 handpieces."},
+      {"name": "PLASMA", "note": "AIR Plasma and RF Multi Plasma handpieces. The device housing bears the name PLASER."},
+      {"name": "agafar LED PDT Light", "note": "An LED system with red, green, blue and combined-light modes in the company catalog."},
+      {"name": "Face Fitness Turn Up", "note": "Four interchangeable handpieces: P-POLAR (RF), P-CMS (CMS), PLASMA and P-DUAL (RF + CMS)."},
+      {"name": "PLAZION", "note": "An aesthetic device presented by AGAFAR at trade exhibitions."}
+    ],
+    "formats": ["Cleansers and toner", "Ampoules and boosters", "Eye care and creams", "Sun care and sheet masks"],
+    "exportNote": "According to the company, AGAFAR products are sold in Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE and Canada, among other markets. Teranova confirms territory availability and current distribution arrangements for each enquiry.",
+    "terms": [],
+    "consentNote": "Company materials shared for the AGAFAR profile.",
+    "seoTitle": "AGAFAR · Korean skincare and aesthetic devices | Teranova",
+    "seoDesc": "Explore AGAFAR, agapharma and a'reiv skincare, the 20-product DERMA MODE PROGRAM catalog and professional aesthetic devices. Enquiries through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Company profile",
+    "about_h": "From clinical practice to daily care",
+    "for_whom": "For your business",
+    "lines_h": "Three brands. Distinct roles.",
+    "catalog_h": "The skincare collection",
+    "tech_h": "Professional aesthetic devices",
+    "tech_note": "Device descriptions follow AGAFAR's own materials. Teranova can request specifications and documents for your selected model and market.",
+    "products_h": "Skincare and professional equipment",
+    "products_note": "Explore the skincare catalog or go directly to the equipment range.",
+    "formats_h": "Product formats",
+    "export_h": "Working across markets",
+    "terms_h": "Documents",
+    "download_btn": "How we work (PDF)",
+    "pres_btn": "Company presentation (PDF)",
+    "terms_disc": "Prices, minimum order quantities and delivery terms are available on request through Teranova.",
+    "cta_h": "Build your AGAFAR selection",
+    "cta_d": "Tell us your market, sales channel and the products or devices you are considering. Teranova will coordinate the enquiry with the company.",
+    "cta_btn": "Discuss AGAFAR with Teranova",
+    "more": "Explore the collection",
+    "verified_suppliers": "Companies",
+    "gallery_h": "Inside the AGAFAR portfolio"
+  },
+  "editorial": {
+    "catalog_intro": "The DERMA MODE PROGRAM catalog brings together 20 products. Names and pack sizes follow the supplied catalog; product descriptions summarize the company's ingredient information.",
+    "additional": "The portfolio also includes EXOXEN Booster and the NADXEN ampoule and serum with NAD⁺ and NMN. These are product names within the AGAFAR portfolio, alongside its three skincare brands.",
+    "collection_cta": "Explore skincare",
+    "devices_cta": "View devices",
+    "meeting": "The Teranova team has met with AGAFAR. This profile draws on the materials the company shared and its subsequent corrections.",
+    "awards_h": "Recognition in company materials",
+    "image_caption": "AGAFAR product photography",
+    "range_caption": "Meditive Formula 3X · agapharma",
+    "source_note": "Products and equipment shown in materials supplied by AGAFAR.",
+    "pack_label": "Pack size"
+  }
+}

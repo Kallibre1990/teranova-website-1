@@ -1,4 +1,5 @@
 import oanicRu from './suppliers-i18n/oanic.ru.json';
+import { agafarProfile } from './agafar';
 import { localizedContent } from '../i18n/strict-content';
 import oanicEn from './suppliers-i18n/oanic.en.json';
 import oanicKo from './suppliers-i18n/oanic.ko.json';
@@ -1354,6 +1355,7 @@ const agingTargetEn: SupplierContent = {
 };
 
 export const suppliers: SupplierProfile[] = [
+  agafarProfile,
   {
     slug: 'sante',
     category: 'cosmetics',

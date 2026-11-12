@@ -1,0 +1,232 @@
+---
+import type { Lang } from '../../i18n/ui';
+import { anchorHref } from '../../i18n/utils';
+import { agafarProfile as profile, agafarEditorial, agafarDeviceImages } from '../../data/agafar';
+import { supplierContent } from '../../data/suppliers';
+
+const { lang } = Astro.props as { lang: Lang };
+const c = supplierContent(profile, lang);
+const e = agafarEditorial(lang);
+const root = '/img/suppliers/agafar/';
+const catalog = profile.catalog!;
+let offset = 0;
+const groups = catalog.map(group => {
+  const items = group.items.map((item) => ({ ...item, note: c.catalog_notes![offset++] }));
+  return { ...group, items };
+});
+// Exact language only: task 094 adds actual documents, never a fallback PDF.
+const documents = [
+  { href: profile.presFile?.[lang], label: c.ui.pres_btn },
+  { href: profile.termsFile?.[lang], label: c.ui.download_btn },
+].filter(doc => doc.href);
+const contact = anchorHref('ondemand', lang);
+---
+
+<article class="agafar" aria-labelledby="agafar-title">
+  <header class="ag-hero ag-wrap">
+    <div class="ag-hero__copy">
+      <p class="ag-meta">{c.origin} <span aria-hidden="true">/</span> {c.ui.profile_sup}</p>
+      <h1 id="agafar-title" dir="ltr">AGAFAR</h1>
+      <p class="ag-tagline">{c.tagline}</p>
+      <p class="ag-lead">{c.descriptor}</p>
+      <div class="ag-actions">
+        <a class="ag-button" href="#agafar-catalog">{e.collection_cta}</a>
+        <a class="ag-text-link" href="#agafar-devices">{e.devices_cta}<span aria-hidden="true"> ↗</span></a>
+      </div>
+    </div>
+    <figure class="ag-hero__image">
+      <img src={root + 'products/agafar-site-07.webp'} alt="agapharma · Meditive Formula 3X" width="1600" height="1600" fetchpriority="high" />
+      <figcaption>{e.range_caption}</figcaption>
+    </figure>
+  </header>
+
+  <nav class="ag-navigation ag-wrap" aria-label={c.ui.products_h}>
+    <a href="#agafar-about">{c.ui.about_h}</a>
+    <a href="#agafar-brands">{c.ui.lines_h}</a>
+    <a href="#agafar-catalog">{c.ui.catalog_h}</a>
+    <a href="#agafar-devices">{c.ui.tech_h}</a>
+  </nav>
+
+  <section class="ag-story ag-wrap ag-section" id="agafar-about">
+    <h2>{c.ui.about_h}</h2>
+    <div class="ag-prose">
+      <p>{c.about[0]}</p>
+      <p>{c.about[1]}</p>
+      <p class="ag-meeting">{e.meeting}</p>
+    </div>
+  </section>
+
+  <figure class="ag-campaign ag-wrap">
+    <img src={root + 'scenes/agafar-global-skincare-campaign.webp'} alt={e.image_caption} width="1600" height="900" loading="lazy" />
+    <figcaption>{e.source_note}</figcaption>
+  </figure>
+
+  <section id="agafar-brands" class="ag-wrap ag-section">
+    <h2>{c.ui.lines_h}</h2>
+    <div class="ag-brands">
+      {c.lines.map((line, index) => (
+        <div class="ag-brand">
+          <h3><a href={'#agafar-group-' + [0, 1, 3][index]} dir="ltr">{line.name}</a></h3>
+          <p>{line.note}</p>
+        </div>
+      ))}
+    </div>
+    <p class="ag-additional">{e.additional}</p>
+  </section>
+
+  <section id="agafar-catalog" class="ag-collection">
+    <div class="ag-wrap ag-section">
+      <div class="ag-section-head"><h2>{c.ui.catalog_h}</h2><p>{e.catalog_intro}</p></div>
+      {groups.map((group, index) => (
+        <section id={'agafar-group-' + index} class:list={['ag-group', { 'ag-group--range': index === 1 }]} aria-labelledby={'agafar-group-title-' + index}>
+          <h3 id={'agafar-group-title-' + index} class="ag-group-title" dir="ltr">{group.line}</h3>
+          {index === 1 && <figure class="ag-range-photo"><img src={root + 'products/agafar-site-07.webp'} alt={e.range_caption} width="1600" height="1600" loading="lazy" /><figcaption>{e.range_caption}</figcaption></figure>}
+          <div class="ag-products">
+            {group.items.map(item => (
+              <article class="ag-product">
+                {index !== 1 && <div class="ag-product__image"><img src={item.img} alt={item.name} width="600" height="600" loading="lazy" /></div>}
+                <div class="ag-product__copy">
+                  <h4 dir="auto">{item.name}</h4>
+                  <p class="ag-size"><span class="sr-only">{e.pack_label}: </span><bdi>{item.volume?.replace(/(\d)ml/g, '$1 ml').replace(/ x /g, ' × ').replace(/ea/g, '')}</bdi></p>
+                  <p>{item.note}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <section id="agafar-devices" class="ag-wrap ag-section">
+    <div class="ag-section-head"><h2>{c.ui.tech_h}</h2><p>{c.ui.tech_note}</p></div>
+    <div class="ag-devices">
+      {c.tech.map(device => (
+        <article class="ag-device">
+          <div class="ag-device__image"><img src={root + agafarDeviceImages[device.name]} alt={device.name} width="700" height="700" loading="lazy" /></div>
+          <h3 dir="auto">{device.name}</h3>
+          <p>{device.note}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="ag-business ag-wrap ag-section">
+    <div><h2>{c.ui.export_h}</h2><p>{c.exportNote}</p><ul>{c.channels.map(channel => <li>{channel}</li>)}</ul></div>
+    <div class="ag-recognition"><h3>{e.awards_h}</h3><p>{c.about[2]}</p></div>
+  </section>
+
+  {documents.length > 0 && <section class="ag-documents ag-wrap ag-section"><h2>{c.ui.terms_h}</h2><div class="ag-actions">{documents.map(doc => <a class="ag-button ag-button--outline" href={doc.href} download>{doc.label}</a>)}</div></section>}
+
+  <section class="ag-contact">
+    <div class="ag-wrap">
+      <h2>{c.ui.cta_h}</h2>
+      <p>{c.ui.cta_d}</p>
+      <a class="ag-button" href={contact}>{c.ui.cta_btn}</a>
+      <p class="ag-contact__terms">{c.ui.terms_disc}</p>
+    </div>
+  </section>
+</article>
+
+<style>
+  .agafar { --ag-ink: oklch(28% .05 255); --ag-muted: oklch(45% .025 255); --ag-paper: oklch(98% .008 85); --ag-line: oklch(87% .012 85); --ag-blue: oklch(42% .12 255); color:var(--ag-ink); background:var(--ag-paper); font-size:16px; line-height:1.65; }
+  .agafar * { box-sizing:border-box; min-width:0; }
+  .agafar ::selection { background:oklch(85% .04 255); color:var(--ag-ink); }
+  .agafar :is(a,button):focus-visible { outline:3px solid var(--ag-blue); outline-offset:5px; }
+  .ag-wrap { width:min(1240px, calc(100% - 96px)); margin-inline:auto; }
+  .ag-section { padding-block:90px; scroll-margin-top:100px; }
+  .agafar h1,.agafar h2,.agafar h3,.agafar h4,.agafar p,.agafar figure { margin:0; }
+  .agafar figure.ag-wrap { margin-inline:auto; }
+  .agafar h2 { font-size:clamp(1.8rem,3.1vw,2.8rem); line-height:1.18; letter-spacing:-.035em; font-weight:500; text-wrap:balance; }
+  .agafar h3 { font-size:1.3rem; line-height:1.3; font-weight:600; }
+  .agafar h4 { font-size:1rem; line-height:1.45; font-weight:650; }
+  .agafar p { max-width:68ch; }
+  .agafar img { display:block; width:100%; height:auto; }
+  .agafar a { color:inherit; text-decoration-thickness:1px; text-underline-offset:.25em; }
+  .agafar figcaption { margin-block-start:12px; font-size:.75rem; color:var(--ag-muted); }
+  .ag-hero { display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:center; padding-block:70px 52px; }
+  .ag-meta { font-size:.8rem; color:var(--ag-muted); }
+  .ag-meta span { margin-inline:12px; }
+  .agafar h1 { font-size:clamp(3.3rem,6.9vw,6rem); line-height:1.06; letter-spacing:-.04em; font-weight:500; margin-block:25px 20px; text-align:start; }
+  .ag-tagline { font-size:clamp(1.4rem,2vw,1.9rem); font-weight:500; line-height:1.25; text-wrap:balance; }
+  .ag-lead { margin-block-start:22px!important; color:var(--ag-muted); }
+  .ag-hero__image img { aspect-ratio:1; object-fit:contain; }
+  .ag-actions { display:flex; gap:20px; flex-wrap:wrap; align-items:center; margin-block-start:30px; }
+  .ag-button { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:13px 23px; background:var(--ag-blue); color:white!important; text-decoration:none; font-size:.88rem; font-weight:600; line-height:1.5; text-align:center; transition:transform .16s ease-out; }
+  .ag-button:active { transform:scale(.97); }
+  .ag-text-link { font-size:.88rem; padding-block:12px; }
+  .ag-navigation { display:flex; flex-wrap:wrap; gap:14px 32px; padding-block:23px; border-block:1px solid var(--ag-line); font-size:.78rem; }
+  .ag-navigation a { padding-block:4px; }
+  .ag-story { display:grid; grid-template-columns:1fr 1.3fr; gap:90px; }
+  .ag-prose p + p { margin-block-start:22px; }
+  .ag-meeting { color:var(--ag-muted); font-size:.88rem; padding-inline-start:20px; border-inline-start:2px solid var(--ag-line); }
+  .ag-campaign img { aspect-ratio:16/7; object-fit:cover; }
+  .ag-brands { display:grid; grid-template-columns:repeat(3,1fr); gap:48px; margin-block-start:45px; }
+  .ag-brand p { margin-block-start:18px; color:var(--ag-muted); }
+  .ag-brand h3 { font-size:1.7rem; }
+  .ag-additional { margin-block-start:40px!important; padding-block-start:24px; border-top:1px solid var(--ag-line); color:var(--ag-muted); font-size:.9rem; max-width:none!important; }
+  .ag-collection { background:oklch(95% .008 85); }
+  .ag-section-head { display:grid; grid-template-columns:1fr 1fr; gap:70px; margin-block-end:50px; }
+  .ag-section-head p { color:var(--ag-muted); }
+  .ag-group { scroll-margin-top:100px; margin-block-start:54px; }
+  .ag-group-title { padding-block-end:20px; margin-block-end:28px!important; border-bottom:1px solid var(--ag-line); font-size:1.6rem!important; }
+  .ag-products { display:grid; grid-template-columns:repeat(3,1fr); gap:42px 28px; }
+  .ag-product__image { background:white; margin-block-end:20px; }
+  .ag-product__image img { aspect-ratio:1; object-fit:contain; }
+  .ag-product__copy>p:last-child { font-size:.88rem; color:var(--ag-muted); margin-block-start:10px; }
+  .ag-size { font-size:.77rem; color:var(--ag-muted); margin-block-start:6px!important; }
+  .ag-group--range { display:grid; grid-template-columns:1fr 1fr; gap:0 60px; }
+  .ag-group--range .ag-group-title { grid-column:1 / -1; }
+  .ag-group--range .ag-products { display:block; }
+  .ag-group--range .ag-product { padding-block:18px; border-bottom:1px solid var(--ag-line); }
+  .ag-group--range .ag-product:first-child { padding-block-start:0; }
+  .ag-range-photo img { aspect-ratio:1; object-fit:contain; }
+  .ag-devices { display:grid; grid-template-columns:repeat(3,1fr); gap:50px 35px; }
+  .ag-device__image { background:white; margin-block-end:23px; padding:24px; }
+  .ag-device__image img { aspect-ratio:1; object-fit:contain; }
+  .ag-device h3 { font-size:1.1rem; }
+  .ag-device p { font-size:.88rem; color:var(--ag-muted); margin-block-start:12px; }
+  .ag-business { display:grid; grid-template-columns:1.3fr 1fr; gap:90px; border-top:1px solid var(--ag-line); }
+  .ag-business p { margin-block-start:25px; color:var(--ag-muted); }
+  .ag-business ul { padding-inline-start:20px; margin-block-start:25px; }
+  .ag-business li { margin-block:5px; }
+  .ag-recognition { border-inline-start:1px solid var(--ag-line); padding-inline-start:50px; }
+  .ag-contact { padding-block:75px; background:var(--ag-ink); color:white; }
+  .ag-contact p { margin-block:25px; }
+  .ag-contact .ag-button { background:white; color:var(--ag-ink)!important; }
+  .ag-contact__terms { font-size:.82rem; opacity:.8; margin-block-end:0!important; }
+  .ag-button--outline { color:var(--ag-ink)!important; background:transparent; border:1px solid var(--ag-line); }
+  .sr-only { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+  @media(hover:hover) { .ag-text-link:hover,.ag-brand a:hover { color:var(--ag-blue); } .ag-button:hover { text-decoration:underline; } }
+  @media(max-width:1000px) {
+    .ag-wrap { width:calc(100% - 64px); }
+    .ag-hero,.ag-story,.ag-section-head,.ag-business { gap:36px; }
+    .ag-brands { gap:28px; }
+    .ag-products,.ag-devices { grid-template-columns:repeat(2,1fr); }
+    .ag-recognition { padding-inline-start:28px; }
+    .ag-group--range { gap:0 30px; }
+  }
+  @media(max-width:700px) {
+    .ag-wrap { width:calc(100% - 40px); }
+    .ag-section { padding-block:55px; }
+    .ag-hero { grid-template-columns:1fr; padding-block:38px 32px; gap:30px; }
+    .ag-hero__image { max-width:440px; }
+    .agafar h1 { font-size:clamp(3.3rem,14vw,5rem); margin-block:16px; }
+    .ag-story,.ag-section-head,.ag-business,.ag-brands,.ag-group--range { grid-template-columns:1fr; gap:25px; }
+    .ag-brands { margin-block-start:30px; }
+    .ag-brand { border-bottom:1px solid var(--ag-line); padding-block-end:25px; }
+    .ag-navigation { gap:12px 22px; }
+    .ag-campaign img { aspect-ratio:16/10; }
+    .ag-group--range .ag-range-photo { max-width:440px; margin-block-end:15px; }
+    .ag-recognition { border-inline-start:none; padding-inline-start:0; padding-block-start:25px; border-top:1px solid var(--ag-line); }
+    .ag-actions { gap:16px; }
+    .ag-product__copy h4 { overflow-wrap:anywhere; }
+    .ag-contact { padding-block:55px; }
+  }
+  @media(max-width:420px) {
+    .ag-products,.ag-devices { grid-template-columns:1fr; }
+    .ag-hero .ag-actions { align-items:stretch; flex-direction:column; }
+    .ag-hero .ag-text-link { align-self:flex-start; }
+  }
+  @media(prefers-reduced-motion:reduce) { .ag-button { transition:none; } }
+</style>
