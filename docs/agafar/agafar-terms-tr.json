@@ -1,0 +1,154 @@
+{
+  "language": "tr",
+  "kind": "terms",
+  "pages": [
+    {
+      "page": 1,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 01",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
+          "value": "Nasıl çalışıyoruz",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "AGAFAR Medical Beauty Group çatısı altında üç Kore cilt bakım markası ve profesyonel estetik cihazları.",
+          "box": [
+            42,
+            154,
+            553,
+            265
+          ],
+          "size": 14,
+          "bottom": 193.79999923706055,
+          "direction": "ltr"
+        },
+        {
+          "value": "AGAFAR ürün seçiminizi oluşturun",
+          "box": [
+            42,
+            219.79999923706055,
+            553,
+            307.79999923706055
+          ],
+          "size": 20,
+          "bottom": 248.79999923706055,
+          "direction": "ltr"
+        },
+        {
+          "value": "Pazarınızı, satış kanalınızı ve ilgilendiğiniz ürünleri veya cihazları belirtin. Teranova talebinizi şirketle koordine edecektir.",
+          "box": [
+            42,
+            264.79999923706055,
+            553,
+            414.79999923706055
+          ],
+          "size": 13,
+          "bottom": 301.9000015258789,
+          "direction": "ltr"
+        },
+        {
+          "value": "Fiyatlar, asgari sipariş miktarları ve teslimat koşulları Teranova aracılığıyla talep üzerine paylaşılır.",
+          "box": [
+            42,
+            325.9000015258789,
+            553,
+            435.9000015258789
+          ],
+          "size": 13,
+          "bottom": 363.00000381469727,
+          "direction": "ltr"
+        },
+        {
+          "value": "Şirketin verdiği bilgilere göre AGAFAR ürünleri Kore, Hong Kong, Çin, Tayland, Japonya, ABD, Filipinler, Malezya, Birleşik Krallık, BAE ve Kanada dahil çeşitli pazarlarda satılıyor. Teranova, her talep için ilgili bölgedeki tedarik imkanını ve mevcut dağıtım düzenlemelerini teyit ediyor.",
+          "box": [
+            42,
+            387.00000381469727,
+            553,
+            740
+          ],
+          "size": 11.5,
+          "bottom": 435.575008392334,
+          "direction": "ltr"
+        },
+        {
+          "value": "https://teranovagroup.com/tr/catalog/agafar/",
+          "box": [
+            42,
+            453.575008392334,
+            553,
+            789
+          ],
+          "size": 10,
+          "bottom": 469.075008392334,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "inputs": [
+    {
+      "path": "src/data/suppliers-i18n/agafar.tr.json",
+      "sha256": "99d3850c1dc011217920c7a32a29dba69250cadcac33e841467b28b05535a5e6"
+    },
+    {
+      "path": "src/data/suppliers-i18n/agafar.catalog.json",
+      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+    },
+    {
+      "path": "src/data/agafar.ts",
+      "sha256": "e6bce20ab30dff24e20364147f4929edf389c6c47c622c2ef45ced239f7f563e"
+    },
+    {
+      "path": "src/i18n/locale-policy.mjs",
+      "sha256": "53aaf875684b455b1a6c0bac059dae6f3865732286b72015647f0cc8a28f0719"
+    },
+    {
+      "path": "scripts/gen-agafar-pdfs.py",
+      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+    }
+  ]
+}

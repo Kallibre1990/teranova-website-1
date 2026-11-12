@@ -29,7 +29,8 @@ export const agafarProfile: SupplierProfile = {
   brandColors: { deep: 'oklch(28% 0.05 255)', sky: 'oklch(85% 0.03 255)', accent: 'oklch(42% 0.12 255)', bg: 'oklch(98% 0.008 85)' },
   voice: 'clinical',
   catalog,
-  // Presentation and terms files are supplied by dependent task 094.
+  presFile: Object.fromEntries(publicLocaleCodes.map(lang => [lang, `/docs/agafar-presentation-${lang}.pdf`])),
+  termsFile: Object.fromEntries(publicLocaleCodes.map(lang => [lang, `/docs/agafar-terms-${lang}.pdf`])),
   i18n: Object.fromEntries(Object.entries(translations).map(([lang, value]) => [lang, { ...value.content, ui: value.ui }])),
 };
 

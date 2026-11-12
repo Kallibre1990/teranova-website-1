@@ -1,0 +1,154 @@
+{
+  "language": "en",
+  "kind": "terms",
+  "pages": [
+    {
+      "page": 1,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 01",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
+          "value": "How we work",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "Three Korean skincare brands and professional aesthetic devices, brought together by AGAFAR Medical Beauty Group.",
+          "box": [
+            42,
+            154,
+            553,
+            265
+          ],
+          "size": 14,
+          "bottom": 193.79999923706055,
+          "direction": "ltr"
+        },
+        {
+          "value": "Build your AGAFAR selection",
+          "box": [
+            42,
+            219.79999923706055,
+            553,
+            307.79999923706055
+          ],
+          "size": 20,
+          "bottom": 248.79999923706055,
+          "direction": "ltr"
+        },
+        {
+          "value": "Tell us your market, sales channel and the products or devices you are considering. Teranova will coordinate the enquiry with the company.",
+          "box": [
+            42,
+            264.79999923706055,
+            553,
+            414.79999923706055
+          ],
+          "size": 13,
+          "bottom": 301.9000015258789,
+          "direction": "ltr"
+        },
+        {
+          "value": "Prices, minimum order quantities and delivery terms are available on request through Teranova.",
+          "box": [
+            42,
+            325.9000015258789,
+            553,
+            435.9000015258789
+          ],
+          "size": 13,
+          "bottom": 363.00000381469727,
+          "direction": "ltr"
+        },
+        {
+          "value": "According to the company, AGAFAR products are sold in Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE and Canada, among other markets. Teranova confirms territory availability and current distribution arrangements for each enquiry.",
+          "box": [
+            42,
+            387.00000381469727,
+            553,
+            740
+          ],
+          "size": 11.5,
+          "bottom": 435.575008392334,
+          "direction": "ltr"
+        },
+        {
+          "value": "https://teranovagroup.com/en/catalog/agafar/",
+          "box": [
+            42,
+            453.575008392334,
+            553,
+            789
+          ],
+          "size": 10,
+          "bottom": 469.075008392334,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "inputs": [
+    {
+      "path": "src/data/suppliers-i18n/agafar.en.json",
+      "sha256": "83825d0f8cfc0e4e201e93f7807f237b5b4738f7bd09f773a602cff48178fa6f"
+    },
+    {
+      "path": "src/data/suppliers-i18n/agafar.catalog.json",
+      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+    },
+    {
+      "path": "src/data/agafar.ts",
+      "sha256": "e6bce20ab30dff24e20364147f4929edf389c6c47c622c2ef45ced239f7f563e"
+    },
+    {
+      "path": "src/i18n/locale-policy.mjs",
+      "sha256": "53aaf875684b455b1a6c0bac059dae6f3865732286b72015647f0cc8a28f0719"
+    },
+    {
+      "path": "scripts/gen-agafar-pdfs.py",
+      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "language": "ko",
+  "kind": "terms",
+  "pages": [
+    {
+      "page": 1,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 01",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
+          "value": "업무 진행 방식",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "AGAFAR Medical Beauty Group은 한국 스킨케어 브랜드 세 개와 전문가용 미용 기기를 선보입니다.",
+          "box": [
+            42,
+            154,
+            553,
+            265
+          ],
+          "size": 14,
+          "bottom": 193.79999923706055,
+          "direction": "ltr"
+        },
+        {
+          "value": "AGAFAR 제품 구성 상담",
+          "box": [
+            42,
+            219.79999923706055,
+            553,
+            307.79999923706055
+          ],
+          "size": 20,
+          "bottom": 248.79999923706055,
+          "direction": "ltr"
+        },
+        {
+          "value": "대상 시장, 판매 채널, 검토 중인 제품이나 기기를 알려주시면 Teranova가 회사와 문의 사항을 조율합니다.",
+          "box": [
+            42,
+            264.79999923706055,
+            553,
+            414.79999923706055
+          ],
+          "size": 13,
+          "bottom": 301.9000015258789,
+          "direction": "ltr"
+        },
+        {
+          "value": "가격, 최소 주문 수량, 납품 조건은 Teranova를 통해 문의하실 수 있습니다.",
+          "box": [
+            42,
+            325.9000015258789,
+            553,
+            435.9000015258789
+          ],
+          "size": 13,
+          "bottom": 345.4500026702881,
+          "direction": "ltr"
+        },
+        {
+          "value": "회사에 따르면 AGAFAR 제품은 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. Teranova는 문의별로 해당 지역의 공급 가능 여부와 현재 유통 계약 현황을 확인합니다.",
+          "box": [
+            42,
+            369.4500026702881,
+            553,
+            740
+          ],
+          "size": 11.5,
+          "bottom": 418.0250072479248,
+          "direction": "ltr"
+        },
+        {
+          "value": "https://teranovagroup.com/ko/catalog/agafar/",
+          "box": [
+            42,
+            436.0250072479248,
+            553,
+            789
+          ],
+          "size": 10,
+          "bottom": 451.5250072479248,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "inputs": [
+    {
+      "path": "src/data/suppliers-i18n/agafar.ko.json",
+      "sha256": "84dc1277cf4a7f9b357052ee11e6fc0d2e816f566082842ee8ab288726d2c60a"
+    },
+    {
+      "path": "src/data/suppliers-i18n/agafar.catalog.json",
+      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+    },
+    {
+      "path": "src/data/agafar.ts",
+      "sha256": "e6bce20ab30dff24e20364147f4929edf389c6c47c622c2ef45ced239f7f563e"
+    },
+    {
+      "path": "src/i18n/locale-policy.mjs",
+      "sha256": "53aaf875684b455b1a6c0bac059dae6f3865732286b72015647f0cc8a28f0719"
+    },
+    {
+      "path": "scripts/gen-agafar-pdfs.py",
+      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "language": "zh",
+  "kind": "terms",
+  "pages": [
+    {
+      "page": 1,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 01",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
+          "value": "合作方式",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "AGAFAR Medical Beauty Group 汇集了三个韩国护肤品牌及专业美容仪器。",
+          "box": [
+            42,
+            154,
+            553,
+            265
+          ],
+          "size": 14,
+          "bottom": 174.89999961853027,
+          "direction": "ltr"
+        },
+        {
+          "value": "选择适合您的 AGAFAR 产品",
+          "box": [
+            42,
+            200.89999961853027,
+            553,
+            288.8999996185303
+          ],
+          "size": 20,
+          "bottom": 229.89999961853027,
+          "direction": "ltr"
+        },
+        {
+          "value": "请告知您的目标市场、销售渠道，以及正在考虑的产品或设备。Teranova 将与公司协调您的询问。",
+          "box": [
+            42,
+            245.89999961853027,
+            553,
+            395.8999996185303
+          ],
+          "size": 13,
+          "bottom": 283.00000190734863,
+          "direction": "ltr"
+        },
+        {
+          "value": "价格、最低订购量及交货条件可通过 Teranova 咨询。",
+          "box": [
+            42,
+            307.00000190734863,
+            553,
+            417.00000190734863
+          ],
+          "size": 13,
+          "bottom": 326.5500030517578,
+          "direction": "ltr"
+        },
+        {
+          "value": "据公司介绍，AGAFAR 产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。Teranova 会根据每次询问确认目标地区的供货情况及现行分销安排。",
+          "box": [
+            42,
+            350.5500030517578,
+            553,
+            740
+          ],
+          "size": 11.5,
+          "bottom": 383.6000061035156,
+          "direction": "ltr"
+        },
+        {
+          "value": "https://teranovagroup.com/zh/catalog/agafar/",
+          "box": [
+            42,
+            401.6000061035156,
+            553,
+            789
+          ],
+          "size": 10,
+          "bottom": 417.1000061035156,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "inputs": [
+    {
+      "path": "src/data/suppliers-i18n/agafar.zh.json",
+      "sha256": "77c0bc23194390641ed9d78e99c674d8a339afd88d4269856465af842cc5449c"
+    },
+    {
+      "path": "src/data/suppliers-i18n/agafar.catalog.json",
+      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+    },
+    {
+      "path": "src/data/agafar.ts",
+      "sha256": "e6bce20ab30dff24e20364147f4929edf389c6c47c622c2ef45ced239f7f563e"
+    },
+    {
+      "path": "src/i18n/locale-policy.mjs",
+      "sha256": "53aaf875684b455b1a6c0bac059dae6f3865732286b72015647f0cc8a28f0719"
+    },
+    {
+      "path": "scripts/gen-agafar-pdfs.py",
+      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+    }
+  ]
+}

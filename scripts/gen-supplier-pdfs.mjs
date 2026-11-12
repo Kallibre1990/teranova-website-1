@@ -19,13 +19,23 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { spawn } from 'node:child_process';
+import { spawn, spawnSync } from 'node:child_process';
 import { deckHTML } from './pres-deck.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
+// AGAFAR's full photo profile has its own A4 layout. The native renderer
+// shapes CJK/RTL text, validates every box, and keeps source manifests.
+// This branch must precede Chrome setup and never creates a price document.
+if (!process.argv[2] || process.argv[2] === 'agafar') {
+  const result = spawnSync(process.env.PDF_PYTHON || 'python3',
+    [path.join(ROOT, 'scripts/gen-agafar-pdfs.py')], { cwd: ROOT, stdio: 'inherit' });
+  if (result.error) throw result.error;
+  if (result.status !== 0) process.exit(result.status || 1);
+  if (process.argv[2] === 'agafar') process.exit(0);
+}
 const DATA = path.join(ROOT, 'src/data/suppliers-i18n');
 const OUT = process.env.PDF_OUT || path.join(ROOT, 'public/docs');
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';

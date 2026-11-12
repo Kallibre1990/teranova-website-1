@@ -1,0 +1,154 @@
+{
+  "language": "he",
+  "kind": "terms",
+  "pages": [
+    {
+      "page": 1,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 01",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
+          "value": "איך אנחנו עובדים",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "rtl"
+        },
+        {
+          "value": "שלושה מותגי טיפוח קוריאניים ומכשור אסתטי מקצועי תחת AGAFAR Medical Beauty Group.",
+          "box": [
+            42,
+            154,
+            553,
+            265
+          ],
+          "size": 14,
+          "bottom": 193.79999923706055,
+          "direction": "rtl"
+        },
+        {
+          "value": "הרכיבו את מבחר מוצרי AGAFAR שלכם",
+          "box": [
+            42,
+            219.79999923706055,
+            553,
+            307.79999923706055
+          ],
+          "size": 20,
+          "bottom": 248.79999923706055,
+          "direction": "rtl"
+        },
+        {
+          "value": "ספרו לנו מהו השוק שלכם, באיזה ערוץ מכירה אתם פועלים ואילו מוצרים או מכשירים מעניינים אתכם. Teranova תתאם את הפנייה מול החברה.",
+          "box": [
+            42,
+            264.79999923706055,
+            553,
+            414.79999923706055
+          ],
+          "size": 13,
+          "bottom": 301.9000015258789,
+          "direction": "rtl"
+        },
+        {
+          "value": "מחירים, כמויות מינימום להזמנה ותנאי אספקה נמסרים לפי בקשה באמצעות Teranova.",
+          "box": [
+            42,
+            325.9000015258789,
+            553,
+            435.9000015258789
+          ],
+          "size": 13,
+          "bottom": 345.4500026702881,
+          "direction": "rtl"
+        },
+        {
+          "value": "לפי החברה, מוצרי AGAFAR נמכרים בקוריאה, בהונג קונג, בסין, בתאילנד, ביפן, בארצות הברית, בפיליפינים, במלזיה, בבריטניה, באיחוד האמירויות ובקנדה, בין שווקים נוספים. Teranova מבררת בכל פנייה את זמינות המוצרים בשוק המבוקש ואת הסדרי ההפצה העדכניים.",
+          "box": [
+            42,
+            369.4500026702881,
+            553,
+            740
+          ],
+          "size": 11.5,
+          "bottom": 418.0250072479248,
+          "direction": "rtl"
+        },
+        {
+          "value": "https://teranovagroup.com/he/catalog/agafar/",
+          "box": [
+            42,
+            436.0250072479248,
+            553,
+            789
+          ],
+          "size": 10,
+          "bottom": 451.5250072479248,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "inputs": [
+    {
+      "path": "src/data/suppliers-i18n/agafar.he.json",
+      "sha256": "75ab696712aa5ce0a0c2484c891eb79eb86d56663f5eebdd07f52515522c1d67"
+    },
+    {
+      "path": "src/data/suppliers-i18n/agafar.catalog.json",
+      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+    },
+    {
+      "path": "src/data/agafar.ts",
+      "sha256": "e6bce20ab30dff24e20364147f4929edf389c6c47c622c2ef45ced239f7f563e"
+    },
+    {
+      "path": "src/i18n/locale-policy.mjs",
+      "sha256": "53aaf875684b455b1a6c0bac059dae6f3865732286b72015647f0cc8a28f0719"
+    },
+    {
+      "path": "scripts/gen-agafar-pdfs.py",
+      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+    }
+  ]
+}

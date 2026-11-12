@@ -1,0 +1,184 @@
+[
+  {
+    "path": "public/docs/agafar-presentation-ru.pdf",
+    "sha256": "6c2cd36e87d09f8215b3c1e1156e7f9b34506470730e9843e161647f28e7cabb",
+    "pages": 15,
+    "language": "ru",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-ru.pdf",
+    "sha256": "dafd99f7d0c896438639ea9df4903b00ae712482a03d973a4333dcec6f2d0ca7",
+    "pages": 1,
+    "language": "ru",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-en.pdf",
+    "sha256": "d4955492fcf6eca988fde6c35a10aa257f6d469264906b4efa9662b20654268a",
+    "pages": 15,
+    "language": "en",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-en.pdf",
+    "sha256": "4ead1449ffcb7fec7d79ec8e0f1f11c401fb4ff0a8d15bcd744f2fa8730a2fec",
+    "pages": 1,
+    "language": "en",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-ko.pdf",
+    "sha256": "b17beafa260dec6f7328327f3fd51282499ca956a8aa9a1571e9a85eac02775e",
+    "pages": 15,
+    "language": "ko",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-ko.pdf",
+    "sha256": "d6e7bf46f745dc8a3afc095109a1c8e5d53e989f9c0d81f1cfbf69592feab1d5",
+    "pages": 1,
+    "language": "ko",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-zh.pdf",
+    "sha256": "d5ab2d28e20d8b006d9931cbcb4f6281ecd661949efd9098d99cd6dd535052cb",
+    "pages": 15,
+    "language": "zh",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-zh.pdf",
+    "sha256": "6e3ec3d379721380b133183eee853b347f2ffd8f2bb155be95d2df6725b61d96",
+    "pages": 1,
+    "language": "zh",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-ja.pdf",
+    "sha256": "93ffeee3c5fbcba0116a8218ccef3e9f37cb47641e1316a4725fd28dcf765745",
+    "pages": 15,
+    "language": "ja",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-ja.pdf",
+    "sha256": "274f8d0723b13cd792056d5d9c50b3fcc6b880e1d0841a509e6ed7b7634dd19f",
+    "pages": 1,
+    "language": "ja",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-it.pdf",
+    "sha256": "61bfef499527041fb9b3500e420f245e3c5eb8b20347798cb9765aad05867469",
+    "pages": 15,
+    "language": "it",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-it.pdf",
+    "sha256": "9c9b6e3584475786f03081f3f3b0b0ad82de464bfd1ea3c84baea09c07a6e268",
+    "pages": 1,
+    "language": "it",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-de.pdf",
+    "sha256": "af8e0da0f2938b2ae3a1b03efaf434a50f6b01d6048f804e8201544edaeb60f6",
+    "pages": 15,
+    "language": "de",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-de.pdf",
+    "sha256": "73af6c11aed23da96a1a6320124cff6982cdc077d4a07b478c6d4dd6ffd6b33b",
+    "pages": 1,
+    "language": "de",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-fr.pdf",
+    "sha256": "60b4a0d12c097aaad1097082faabb2d224529f9eb36501f474d92794c66d8224",
+    "pages": 15,
+    "language": "fr",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-fr.pdf",
+    "sha256": "9424507e761612d09b4d19ff670dfa065285357887197e514964cd4d9db29221",
+    "pages": 1,
+    "language": "fr",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-tr.pdf",
+    "sha256": "0eacc9ebcac1dc62fa0b3bb9aebd6bf33b6c2746d6458d93c3e0b1a6c9394033",
+    "pages": 15,
+    "language": "tr",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-tr.pdf",
+    "sha256": "36d249d34919e828a09e1d25f95970062291e9d093fe8382319a57b28e52710a",
+    "pages": 1,
+    "language": "tr",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-es.pdf",
+    "sha256": "6dc8d58a0a29f7489f060c078212345bbfb4a0a894e426b020a6ca5fea41ed96",
+    "pages": 15,
+    "language": "es",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-es.pdf",
+    "sha256": "29dcf1aad26df5868b6f33fabf39ed367d4f94e051d8eb7c99d9fe637c07a71a",
+    "pages": 1,
+    "language": "es",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-pt.pdf",
+    "sha256": "9b61543006d9492893a53137da95651f909b19dc5eeea97c50acca8c0c23fbef",
+    "pages": 15,
+    "language": "pt",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-pt.pdf",
+    "sha256": "66ab8208250093e7244bfbcc50cdbd285b9d8cb661b1e8c306f1c46c5ecb3ca4",
+    "pages": 1,
+    "language": "pt",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-he.pdf",
+    "sha256": "7dab6135a3a877ffd1819447b561bd96e2cb663d43548af722ee1a96a333d116",
+    "pages": 15,
+    "language": "he",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-he.pdf",
+    "sha256": "dd0fd4d1ba8f9cfdcb40b84cc47c2148a822ac7c83afc0b4c15e9e19d0946e3c",
+    "pages": 1,
+    "language": "he",
+    "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-hi.pdf",
+    "sha256": "8a235e17961c3ee33ced7f2301ce85c979f88b03167ee2b343fdceecafe88c6d",
+    "pages": 15,
+    "language": "hi",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-hi.pdf",
+    "sha256": "d8ca18382e9da6998e1ec615783a934f4a36b78fefe175fabe806a4d57b43528",
+    "pages": 1,
+    "language": "hi",
+    "kind": "terms"
+  }
+]
