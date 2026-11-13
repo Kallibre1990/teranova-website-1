@@ -1,81 +1,77 @@
 {
   "content": {
-    "tagline": "高纯度 PDRN（Sodium DNA）化妆品原料",
-    "descriptor": "为邑生物（Weiyi Biotech） — 一家中国制造商，生产用于水光针、美塑疗法和化妆品研发的高纯度 Helio PDRN（Sodium DNA），具备自有分子量控制和逐批文件。",
+    "tagline": "天然来源PDRN（DNA钠）化妆品原料",
+    "descriptor": "Weiyi Biotech (为邑生物)——天然来源PDRN原料（DNA钠）制造商，用于化妆品配方，提供99%以上级别，并可提供产品资料、适用批次COA和评估样品。",
     "origin": "中国",
     "about": [
-      "为邑生物是PDRN原料制造商，面向化妆品配方与采购企业提供天然来源PDRN原料。其鲑鱼来源产品以雄性鲑鱼精巢为原料，经粗提分离、纯化和干燥制得，INCI名称为SODIUM DNA。企业提供产品规格、适用批次COA及评估样品，支持原料选型与配方评估。",
-      "公司建立了两个技术平台——PDRN 原料制备与核酸递送——并同时处理三文鱼来源和重组来源。其位于洛阳的生产基地具有高纯度 PDRN 原料的既定年产能，并计划在 2027 年前进一步扩大。",
-      "公司表示，其商业供应面向海外市场，其中很大一部分服务于韩国化妆品供应链，并稳定供货至韩国、欧洲和美洲。Teranova 面向 B2B 合作伙伴介绍 为邑生物（Weiyi Biotech）；价格和商业条款应要求提供，不予公开。"
+      "为邑生物是PDRN原料制造商。其天然来源PDRN以雄性鲑鱼精巢为起始原料，经粗提分离、纯化和干燥制得，化妆品原料名称为DNA钠（Sodium DNA）。公司提供99%以上级别的产品，公开内毒素指标为<0.01 EU/mg，并可提供相应产品资料、适用批次COA和评估样品。",
+      "Teranova向化妆品品牌、配方师和合同制造商推介Weiyi Biotech (为邑生物)。产品资料和评估样品通过Teranova申请；价格和商务条款按需提供，不公开。"
     ],
     "facts": [
-      "正式名称：ZhengZhou VEO Biotech Co., Limited；制造商：Luoyang VEO Biotech Co., Ltd.",
-      "用于化妆品的高纯度 PDRN（Sodium DNA）原料",
-      "纯度 ≥99%（HPLC）；据公司称分子量可定制 50–800 kDa",
-      "公司声明的合规：ISO 9001 和 ISO 22716 GMP；韩国、美国和欧盟的化妆品标准（INCI: Sodium DNA）",
-      "无独家经销商——通过 Teranova 对区域经销商开放"
+      "天然来源PDRN原料制造商；化妆品原料名称：DNA钠（Sodium DNA）",
+      "起始原料：雄性鲑鱼精巢；工艺：粗提分离、纯化和干燥",
+      "99%以上级别；检测方法和计算基准以适用的产品资料为准",
+      "内毒素<0.01 EU/mg，为公司公开指标",
+      "可提供产品资料、适用批次COA和评估样品",
+      "无独家经销商——通过Teranova对区域经销商开放"
     ],
     "channels": [
-      "化妆品原料采购方与配方研发人员",
-      "水光针与美塑疗法品牌",
-      "代工制造商（OEM/ODM）与研发实验室",
+      "化妆品原料采购方和配方师",
+      "研发修护、抗衰老和提亮类护肤产品的品牌",
+      "合同制造商（OEM/ODM）和研发实验室",
       "区域原料经销商"
     ],
     "lines": [
       {
         "name": "Helio PDRN — Sodium DNA",
-        "note": "公司的核心原料：一种源自可追溯的北太平洋野生三文鱼精巢的水溶性 Sodium DNA 粉末，以 ≥99% 的纯度供应，据公司称分子量可在 50–800 kDa 范围内定制并逐批报告。"
-      },
-      {
-        "name": "核酸递送",
-        "note": "公司所述的第二个平台，用于活性核酸的递送——纳米微球、脂质体包封和促渗透系统。"
+        "note": "以雄性鲑鱼精巢为起始原料，经粗提分离、纯化和干燥制得的天然来源PDRN。水溶性粉末，提供99%以上级别，附适用批次COA。"
       }
     ],
     "tech": [
       {
-        "name": "纯度与分子量控制",
-        "note": "公司声明经 HPLC 检测纯度 ≥99%，分子量可在 50–800 kDa 范围内定制，逐批结果单独报告，并提供逐批分析证书。"
+        "name": "从鲑鱼精巢到DNA钠",
+        "note": "公司的天然来源PDRN以雄性鲑鱼精巢为起始原料，经粗提分离、纯化和干燥制得。在化妆品原料资料中，该原料名称为DNA钠（Sodium DNA）。"
       },
       {
-        "name": "公司报告的 PDRN 功能",
-        "note": "公司报告称，PDRN 有助于皮肤再生、胶原蛋白与弹性纤维更新、抗炎修复、受损皮肤的恢复以及减少与 UV 相关的损伤。这些是公司自身的陈述，按其所报告呈现，未经 Teranova 独立核实。"
+        "name": "纯度级别与内毒素",
+        "note": "公司提供99%以上级别。纯度级别的检测方法和计算基准以适用的产品资料和批次COA为准。公司公开内毒素<0.01 EU/mg，相当于1 mg/mL测试溶液中<0.01 EU/mL。"
       },
       {
-        "name": "原料来源与文件",
-        "note": "源自可追溯的北太平洋野生三文鱼精巢的 Sodium DNA，公司将其描述为不含 BSE/TSE 且不含抗生素，并为合作伙伴提供 Technical Data Sheet、Safety Data Sheet 和规格摘要。"
+        "name": "产品对比（厂家自述）",
+        "note": "为邑生物表示，其同级别99%以上PDRN产品报价最低，内毒素水平为行业最低，公开指标为<0.01 EU/mg。具体报价不公开。"
+      },
+      {
+        "name": "规格摘要",
+        "note": "根据公司技术数据表（TDS）：白色、类白色或淡黄色粉末，可溶于水；1%水溶液pH 5.0–9.0；设有铅、镉、砷、汞限量，需氧菌总数、酵母菌和霉菌限量，以及致病菌不得检出要求（耐热大肠菌群、金黄色葡萄球菌、铜绿假单胞菌）。建议使用量0.01–2.0%；保质期24个月。批次数值以适用的COA为准。"
       }
     ],
     "formats": [
       "水溶性粉末",
-      "样品与散装规格（10 g · 100 g · 1 kg）",
-      "可定制分子量（50–800 kDa）"
+      "化妆品级，99%以上",
+      "评估样品和批量供货；数量按需提供"
     ],
-    "exportNote": "公司表示，其供应面向海外市场，其中很大一部分服务于韩国化妆品供应链，并稳定供货至韩国、欧洲和美洲。合作以 FOB Hong Kong、CIF 和 DDP 条款提供；无独家经销商，公司通过 Teranova 对区域经销商开放。价格和付款条款不予公开，应要求向合作伙伴提供。",
+    "exportNote": "通过Teranova合作，可按FOB Hong Kong、CIF和DDP条款供货。无独家经销商，公司通过Teranova对区域经销商开放。价格和付款条款不公开，按需向合作伙伴提供。",
     "terms": [
       {
-        "label": "合作",
-        "value": "通过 Teranova 批发供应 Helio PDRN（Sodium DNA）原料；提供样品与散装规格。"
+        "label": "合作方式",
+        "value": "通过Teranova批发供应Helio PDRN（Sodium DNA）原料；可提供评估样品和批量供货。"
       },
       {
-        "label": "规格与文件",
-        "value": "向合作伙伴提供规格摘要、Technical Data Sheet 和 Safety Data Sheet；逐批提供分析证书。完整的分析证书不予公开。"
+        "label": "文件",
+        "value": "技术数据表（TDS）、安全数据表（SDS）和适用批次COA向合作伙伴提供。完整COA不公开。"
       },
       {
-        "label": "认证",
-        "value": "公司声明的 ISO 9001 和 ISO 22716 GMP，以及符合韩国、美国和欧盟的化妆品标准。按公司陈述呈现，未经 Teranova 独立核实。"
-      },
-      {
-        "label": "资料与权利",
-        "value": "公司名称、标识和资料信息依据 为邑生物（Weiyi Biotech） 于 22 September 2026 的书面授权使用，用于 Teranova 平台上的公司与产品简介。"
+        "label": "材料与权利",
+        "value": "公司名称、标识和产品信息的使用，依据Weiyi Biotech (为邑生物)于2026年9月22日出具的书面授权及公司于2026年11月9日确认的摘要。"
       },
       {
         "label": "价格",
-        "value": "应要求提供；无公开价目表。"
+        "value": "按需提供；无公开价目表。"
       }
     ],
-    "consentNote": "为邑生物（Weiyi Biotech；ZhengZhou VEO Biotech Co., Limited）的名称、标识和资料信息，依据公司于 22 September 2026 的书面授权发布，用于 Teranova 平台上的公司与 Helio PDRN / Sodium DNA 简介。应公司要求，完整的分析证书不予公开——仅提供规格摘要。价格和付款细节不予公开。产品功能与认证按公司陈述呈现。",
-    "seoTitle": "为邑生物（Weiyi Biotech） — Helio PDRN，高纯度 Sodium DNA 原料 · Teranova",
-    "seoDesc": "为邑生物（Weiyi Biotech，中国）：Helio PDRN，一种纯度 ≥99%、分子量可定制 50–800 kDa 的高纯度 Sodium DNA（PDRN）化妆品原料，据公司称符合 ISO 22716 GMP。通过 Teranova 进行 B2B。",
+    "consentNote": "Weiyi Biotech (为邑生物)的名称、标识和产品信息，依据公司于2026年9月22日出具的书面授权发布，并以其于2026年11月9日确认的摘要为准。应公司要求，完整COA不公开。价格和付款细节不公开。有关报价和内毒素的表述为公司自述。",
+    "seoTitle": "Weiyi Biotech (为邑生物)——Helio PDRN，天然来源DNA钠（Sodium DNA）原料 · Teranova",
+    "seoDesc": "Weiyi Biotech (为邑生物)：以雄性鲑鱼精巢为起始原料的天然来源PDRN（DNA钠），99%以上级别，据公司称内毒素<0.01 EU/mg。通过Teranova获取产品资料、批次COA和样品。",
     "references": {
       "title": "生产商公开技术资料",
       "items": [
@@ -88,19 +84,22 @@
           "href": "https://helio-bio.com/weiyi-pdrn-quality-zh"
         }
       ]
-    }
+    },
+    "catalog_notes": [
+      "以雄性鲑鱼精巢为起始原料的天然来源PDRN。通过Teranova提供TDS、SDS、适用批次COA和评估样品。"
+    ]
   },
   "ui": {
     "profile_sup": "供应商档案",
     "about_h": "公司简介",
     "for_whom": "适用对象：",
-    "lines_h": "活性物分组",
+    "lines_h": "产品",
     "catalog_h": "产品目录",
-    "tech_h": "这里如何处理原料",
+    "tech_h": "关于原料",
     "products_h": "产品",
-    "products_note": "标准化植物活性物、维生素 E 与植物甾醇、精油与冷压油。每个品种均标示活性成分含量，并随附完整文件。",
+    "products_note": "用于化妆品配方的天然来源PDRN（DNA钠）粉末，附产品资料和适用批次COA。",
     "formats_h": "供货形态",
-    "export_h": "出口与认证",
+    "export_h": "供货与出口",
     "terms_h": "合作条件",
     "download_btn": "下载合作条件（PDF）",
     "pres_btn": "下载企业介绍（PDF）",

@@ -1,18 +1,39 @@
 [
   {
-    "line": "Helio PDRN — high-purity Sodium DNA",
+    "line": "Helio PDRN — Sodium DNA",
+    "lineI18n": {
+      "ru": "Helio PDRN — Sodium DNA",
+      "ko": "Helio PDRN — Sodium DNA",
+      "zh": "Helio PDRN — Sodium DNA",
+      "ja": "Helio PDRN — Sodium DNA",
+      "it": "Helio PDRN — Sodium DNA",
+      "de": "Helio PDRN — Sodium DNA",
+      "fr": "Helio PDRN — Sodium DNA",
+      "tr": "Helio PDRN — Sodium DNA",
+      "es": "Helio PDRN — Sodium DNA",
+      "pt": "Helio PDRN — Sodium DNA",
+      "he": "Helio PDRN — DNA נתרני (Sodium DNA)",
+      "hi": "Helio PDRN — सोडियम DNA (Sodium DNA)"
+    },
     "items": [
-      { "name": "Helio PDRN — Sodium DNA powder, cosmetic grade (≥99%)", "certs": ["ISO 22716 GMP"] },
-      { "name": "Customizable molecular weight, 50–800 kDa", "certs": [] },
-      { "name": "Sample and bulk grades: 10 g · 100 g · 1 kg", "certs": [] }
-    ]
-  },
-  {
-    "line": "Technology platforms",
-    "items": [
-      { "name": "PDRN raw-material preparation and molecular-weight control", "certs": [] },
-      { "name": "Nucleic-acid delivery — nanomicrospheres, liposome encapsulation, penetration systems", "certs": [] },
-      { "name": "Dual sourcing pathways: salmon-derived and recombinant", "certs": [] }
+      {
+        "name": "Helio PDRN — Sodium DNA powder",
+        "volume": "cosmetic grade, 99% or higher",
+        "volumeI18n": {
+          "ru": "косметическая градация, 99% и выше",
+          "ko": "화장품 등급, 99% 이상",
+          "zh": "化妆品级，99%以上",
+          "ja": "化粧品グレード、99%以上",
+          "it": "grado cosmetico, 99% o superiore",
+          "de": "Kosmetikqualität, 99 % oder höher",
+          "fr": "Qualité cosmétique, 99 % ou plus",
+          "tr": "kozmetik sınıf, %99 ve üzeri",
+          "es": "grado cosmético, 99% o superior",
+          "pt": "grau cosmético, 99% ou superior",
+          "he": "דרגה קוסמטית, 99% ומעלה",
+          "hi": "कॉस्मेटिक ग्रेड, 99% या उससे अधिक"
+        }
+      }
     ]
   }
 ]

@@ -2809,7 +2809,12 @@ export const suppliers: SupplierProfile[] = [
     country: 'cn',
     /* С 08.11.2026 публичное имя — Weiyi Biotech (为邑生物), без города, по
        письму компании (T-20261108-105). Адрес /catalog/veo-biotech сохранён;
-       юридические названия остаются в facts. */
+       юридические названия остаются в facts.
+       С 14.11.2026 (письмо sales@helio-bio.com от 09.11.2026) все разделы и PDF
+       выровнены по согласованной компанией сводке: юрназвания и города убраны из
+       публичного текста, нет HPLC-метки, скин-бустеров/мезотерапии, именных
+       сертификатов и рекомбинантного источника; сравнение цены и эндотоксина —
+       только как слова компании. */
     name: 'Weiyi Biotech (为邑生物)',
     brand: 'Helio PDRN',
     status: 'provided',
@@ -2820,9 +2825,9 @@ export const suppliers: SupplierProfile[] = [
        спецификации; цены, способы оплаты и функции как независимо проверённые не
        публикуются. Изображений сырья нет: фото на их сайте — сток, по правилу
        IMAGERY на страницу не идут; карточки показывают монограмму. */
-    catalog: veoBiotechCatalog as { line: string; items: { name: string; img?: string }[] }[],
-    termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf' },
-    presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf' },
+    catalog: veoBiotechCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>> }[] }[],
+    termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf', he: '/docs/veo-biotech-terms-he.pdf', hi: '/docs/veo-biotech-terms-hi.pdf' },
+    presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf', he: '/docs/veo-biotech-presentation-he.pdf', hi: '/docs/veo-biotech-presentation-hi.pdf' },
     i18n: {
       ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any), he: mk(veoBiotechHe as any), hi: mk(veoBiotechHi as any),
     },
