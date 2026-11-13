@@ -3026,6 +3026,15 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/ooznary/gallery/azelaic-cica-mask.jpg',
     ],
     logoUrl: '/img/suppliers/ooznary/brand/logo.png',
+    /* "Тканевые маски" (Sheet masks) has no catalog group of its own — its masks
+       are nested as items inside the Vita3 and Micro Oil Blender 37 groups — so
+       lineShot() found no photo and the line card fell back to the "SM" drawn
+       mark. VITA3 Sheet Mask is already an official DOTS/Ooznary packshot
+       (sku-11.jpg, from "Ooznary Product Images.zip") used elsewhere on this
+       same profile; reuse it here instead of adding a duplicate asset. Vita3
+       and Micro Oil Blender 37 already resolve to real catalog photos
+       (sku-1.jpg, sku-8.jpg) and need no override. */
+    lineShots: { 'Тканевые маски': '/img/suppliers/ooznary/products/sku-11.jpg' },
     catalog: ooznaryCatalog as { line: string; items: { name: string; img?: string; volume?: string; actives?: string[] }[] }[],
     /* Eleven localised, price-free terms, catalog and presentation PDFs. */
     termsFile: { ru: '/docs/ooznary-terms-ru.pdf', en: '/docs/ooznary-terms-en.pdf', ko: '/docs/ooznary-terms-ko.pdf', zh: '/docs/ooznary-terms-zh.pdf', ja: '/docs/ooznary-terms-ja.pdf', it: '/docs/ooznary-terms-it.pdf', de: '/docs/ooznary-terms-de.pdf', fr: '/docs/ooznary-terms-fr.pdf', tr: '/docs/ooznary-terms-tr.pdf', es: '/docs/ooznary-terms-es.pdf', pt: '/docs/ooznary-terms-pt.pdf' },
