@@ -38,5 +38,12 @@
       { "name": "Lab Laboratory Mask", "img": "/img/suppliers/agafar/products/lab-laboratory-mask.webp", "volume": "25ml x 5ea", "actives": ["Triple Hyaluronic Acid", "Betaine", "Panthenol"] },
       { "name": "Calming Sun Cream SPF50+ PA++++", "img": "/img/suppliers/agafar/products/calming-sun-cream.webp", "volume": "50ml", "actives": ["Panthenol", "Apple Leaf Extract", "Aloe Vera Leaf Extract"] }
     ]
+  },
+  {
+    "line": "NADXEN",
+    "items": [
+      { "name": "NADXEN Ampoule", "img": "/img/suppliers/agafar/products/nadxen-ampoule.webp", "volume": "30ml", "actives": ["NAD+", "NMN", "Glutathione", "PDRN"] },
+      { "name": "NADXEN Serum", "img": "/img/suppliers/agafar/products/nadxen-serum.webp", "volume": "50ml", "actives": ["NAD+", "NMN", "Glutathione", "PDRN"] }
+    ]
   }
 ]
