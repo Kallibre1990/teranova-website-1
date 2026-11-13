@@ -39,6 +39,9 @@ def lang_of(path):
     return m.group(1) if m and m.group(1) in ORIGINAL else 'en'
 
 
+# Публичное имя, если оно не совпадает со слагом файла (адрес сохранён, имя сменилось).
+DISPLAY = {'veo-biotech': 'WEIYI BIOTECH'}
+
 KIND = {'terms': 'Terms of cooperation', 'price': 'Price list', 'catalog': 'Catalog', 'presentation': 'Presentation'}
 
 
@@ -62,7 +65,7 @@ def clean_meta(doc, path):
     base = os.path.basename(path)[:-4]
     m = re.match(r'^(.+)-(terms|price|catalog|presentation)-([a-z]{2})$', base)
     if m:
-        supplier = m.group(1).replace('-', ' ').upper()
+        supplier = DISPLAY.get(m.group(1), m.group(1).replace('-', ' ').upper())
         title = f'Teranova Group · {supplier} · {KIND[m.group(2)]} ({m.group(3).upper()})'
     else:
         title = 'Teranova Group'
