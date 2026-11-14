@@ -1,100 +1,145 @@
 {
   "content": {
-    "tagline": "韩国化妆品制造商及其自有品牌 ARMING",
-    "descriptor": "Enveco Cosmetic 开发并生产头发、面部与身体护理产品；ARMING 是公司的自有产品系列",
-    "origin": "Republic of Korea",
+    "tagline": "来自金浦GMP工厂的韩国功能性护肤与护发产品",
+    "descriptor": "Enveco Cosmetic在韩国金浦生产护发、护肤及功能性化妆品，并为合作品牌开发产品（OEM/ODM）。ARMING是其自有品牌，包括七款MFDS功能性护肤产品和Cashmere护发系列。",
+    "origin": "大韩民国",
     "about": [
-      "Enveco Cosmetic 是一家韩国化妆品公司。供应商提供的官方公司资料介绍了配方开发、生产与 OEM/ODM 合作；具体能力范围与适用性按项目确认。",
-      "ARMING 被介绍为 Enveco Cosmetic 的自有头发、面部和身体护理系列。本页仅使用官方图片及中性产品名称，不作治疗或功能性功效承诺。"
+      "Enveco Cosmetic Co., Ltd.是一家韩国化妆品制造商，在京畿道金浦拥有自有工厂和研究所。公司自主完成配方研发、生产和包装，产品涵盖护发、头皮护理、护肤和身体护理，以及具有美白、改善皱纹、防晒和缓解脱发症状功效的功能性化妆品。其研究所自2016年起获得韩国产业技术振兴协会（KOITA）认定，生产遵循化妆品GMP标准ISO 22716，并于2019年首次获得认证。",
+      "ARMING是Enveco于2020年推出的自有品牌，品牌名寓意“美丽”，包装采用韩国传统窗棂图案。2026年1月，品牌新增了由七款产品组成的护肤系列。这七款产品均已作为功能性化妆品向韩国食品医药品安全处（MFDS）备案，具备皮肤美白（烟酰胺2%）和改善皱纹（腺苷0.04%）两项功效。防晒霜还增加了第三项功效，即SPF50+ PA++++防晒。",
+      "所有护肤配方均以9.8%积雪草叶水为基础，搭配肽、神经酰胺和视黄醇，每款产品还各有一种标志性成分：五种透明质酸、七种胶原蛋白复合物、人参与积雪草外泌体，或复合维生素。ARMING Cashmere护发系列（包括含81%扁柏水的头皮精华液）则让整个产品线更加完整。",
+      "面向合作品牌，Enveco既是按客户配方和品牌进行生产的OEM制造商，也是从产品企划、配方研发到生产、质量控制和发货全程负责的ODM开发商。公司曾为韩国电视购物品牌生产护发产品，并出口至东南亚、大中华区等市场。"
     ],
     "facts": [
-      "公司：Enveco Cosmetic Co., Ltd.",
-      "自有品牌：ARMING",
-      "类别：头发、面部与身体护理",
-      "价格与商务条件需询价"
+      "Enveco Cosmetic Co., Ltd.（엔베코코스메틱），在韩国京畿道金浦拥有自有工厂和研究所",
+      "韩国注册化妆品制造商及化妆品责任销售商；MFDS制造商注册号1809",
+      "按ISO 22716（化妆品GMP）生产，2019年首次获得认证；公司曾获ISO 9001和ISO 14001认证",
+      "7款ARMING护肤产品已向MFDS备案为功能性化妆品（2025–2026年）；ARMING防晒霜于2025年8月获MFDS批准",
+      "ARMING在新加坡、菲律宾、台湾和马来西亚签有出口合同（据公司介绍）",
+      "OEM与ODM：护发与头皮护理、功能性化妆品、染发产品、护肤及身体护理"
     ],
     "channels": [
-      "化妆品进口商与经销商",
-      "沙龙与专业渠道",
-      "零售连锁及电商"
+      "韩国化妆品进口商和经销商",
+      "药房、美发沙龙及专业渠道",
+      "连锁零售、电视购物和网店",
+      "在韩国寻找OEM/ODM制造商的品牌"
     ],
     "lines": [
       {
-        "name": "Hair Care",
-        "note": "洗发、护发及护发油产品。"
+        "name": "护肤",
+        "note": "七款具有美白与改善皱纹功效的MFDS功能性产品，包括爽肤水、乳液、安瓶精华、水感面霜、胶原蛋白面霜、眼霜和SPF50+ PA++++防晒霜。所有产品均含有9.8%积雪草叶水、2%烟酰胺和0.04%腺苷。"
       },
       {
-        "name": "Skin Care",
-        "note": "爽肤水、安瓶与日常面霜。"
+        "name": "护发",
+        "note": "Cashmere头皮与头发护理系列，包括采用椰子来源表面活性剂的修护洗发水、弱酸性护发素、含81%扁柏水的头皮精华液、受损发质修护发膜，以及免洗精华膏。"
       },
       {
-        "name": "Body Care",
-        "note": "身体与个人护理产品。"
+        "name": "OEM / ODM",
+        "note": "以客户品牌进行代工生产，涵盖护发与头皮护理、功能性化妆品（美白、改善皱纹、防晒、缓解脱发症状）、染发产品、护肤及身体护理。"
       }
     ],
     "tech": [
       {
-        "name": "Project-specific verification",
-        "note": "官方公司资料介绍配方研发与 OEM/ODM。技术要求、配方、测试和标签按项目另行确认。"
+        "name": "双重功效基底",
+        "note": "全部七款护肤产品均按照MFDS功能性化妆品标准规定的剂量，添加2%烟酰胺用于美白、0.04%腺苷用于改善皱纹。"
+      },
+      {
+        "name": "积雪草基底",
+        "note": "每款护肤配方都以9.8%的积雪草叶水替代部分水相，并搭配肽、神经酰胺和视黄醇。"
+      },
+      {
+        "name": "标志性复合成分",
+        "note": "各产品采用不同的复合成分：爽肤水、乳液和防晒霜含有从低分子到高分子的五种透明质酸；White Cream面霜和眼霜含有七种胶原蛋白；安瓶精华含有人参与积雪草外泌体；眼霜和防晒霜含有PDRN与NMN。"
+      },
+      {
+        "name": "自主研发",
+        "note": "获KOITA认定的研究所与韩国高校及原料企业合作，开发护发、头皮护理及功能性护肤配方。"
       }
     ],
     "formats": [
-      "Shampoo and treatment",
-      "Toner, ampoule and cream",
-      "Body and personal care"
+      "爽肤水",
+      "乳液",
+      "安瓶精华",
+      "面霜",
+      "眼霜",
+      "防晒霜 SPF50+",
+      "洗发水",
+      "护发素",
+      "头皮精华液",
+      "发膜与精华"
     ],
-    "exportNote": "Enveco Cosmetic 已书面授权为国际 B2B 合作方制作独立公司及 ARMING 档案。价目表、MOQ、直接联系方式和保密条件不公开。",
+    "exportNote": "本资料页由Teranova根据Enveco Cosmetic直接提供的资料编制，包括公司产品目录、ARMING护肤手册、MFDS功能性化妆品备案报告及产品技术资料。价格、最低起订量和公司的直接联系方式不予公开，采购商可通过Teranova申请获取。",
+    "consentNote": "Enveco Cosmetic于2026年9月14日书面同意发布本资料页，并于2026年9月30日提供了最新图片和文件。",
     "terms": [
       {
-        "label": "合作方式",
-        "value": "通过 Teranova 进行 B2B 供应和项目咨询。"
+        "label": "生产",
+        "value": "Enveco Cosmetic位于韩国京畿道金浦的自有工厂。"
       },
       {
-        "label": "产品范围",
-        "value": "根据当前需求评估 ARMING 产品及 Enveco 能力。"
+        "label": "功能性资质",
+        "value": "七款ARMING护肤产品均为MFDS功能性化妆品（美白与改善皱纹，防晒霜另具防晒功效）。Teranova已审阅MFDS备案报告和技术资料，副本将在交易阶段提供给采购商。"
       },
       {
-        "label": "价格",
-        "value": "询价提供；无公开价目表。"
+        "label": "合作形式",
+        "value": "ARMING成品、贴牌（自有品牌）以及OEM/ODM开发。"
+      },
+      {
+        "label": "最低起订量",
+        "value": "因产品和合作形式而异；ARMING产品可小批量试订。具体数量可应要求确认。"
+      },
+      {
+        "label": "批发价格",
+        "value": "可通过Teranova询价，无公开价目表。"
+      },
+      {
+        "label": "进口商文件",
+        "value": "可提供列明完整INCI成分和EAN-13条码的技术资料、MFDS备案报告以及英文手册。"
+      },
+      {
+        "label": "洽谈",
+        "value": "通过Teranova进行。"
       }
     ],
-    "consentNote": "Enveco Cosmetic / ARMING 官方资料依据 2026 年 9 月 14 日书面许可发布。价格、个人联系方式、治疗主张和未经核验的认证均未发布。",
-    "seoTitle": "Enveco Cosmetic / ARMING — 韩国化妆品与 OEM/ODM · Teranova",
-    "seoDesc": "Enveco Cosmetic 与 ARMING：韩国头发、面部及身体护理。B2B 通过 Teranova。",
+    "seoTitle": "Enveco Cosmetic / ARMING — 韩国MFDS功能性护肤、护发与OEM/ODM · Teranova",
+    "seoDesc": "Enveco Cosmetic（韩国金浦）：ARMING护肤系列含7款美白与改善皱纹的MFDS功能性产品及SPF50+ PA++++防晒霜，另有Cashmere护发系列和OEM/ODM代工。通过Teranova开展B2B合作。",
     "catalog_notes": [
-      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
-      "ARMING Cashmere Natural Clinic Treatment — official supplier image.",
-      "ARMING Cashmere Hair & Scalp Booster — official supplier image.",
-      "ARMING Cashmere Damage Care Hair Pack — official supplier image.",
-      "ARMING Cashmere Multi Balm Essence — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Emulsion — official supplier image.",
-      "ARMING Real Collagen Cica White Cream — official supplier image.",
-      "ARMING Real Collagen Cica White Eye Cream — official supplier image.",
-      "ARMING Multi Vita Cica Watery Cream — official supplier image."
+      "舒缓保湿爽肤水，含9.8%积雪草叶水、从低分子到高分子的五种透明质酸，以及神经酰胺和肽。MFDS美白与改善皱纹功能性化妆品。",
+      "轻盈乳液，锁住爽肤水带来的水润，含积雪草叶水、五种透明质酸、神经酰胺和肽。MFDS美白与改善皱纹功能性化妆品。",
+      "浓缩凝胶安瓶精华，含人参与积雪草外泌体（植物细胞外囊泡）、神经酰胺和肽，令肤色健康均匀。MFDS美白与改善皱纹功能性化妆品。",
+      "清爽水感面霜，含复合维生素（C、E、B5和B3）、积雪草叶水和神经酰胺，帮助肌肤保持弹性、提亮肤色。MFDS美白与改善皱纹功能性化妆品。",
+      "滋润面霜，含七种胶原蛋白复合物、乳木果油和神经酰胺，令肌肤紧致、柔软、透亮。MFDS美白与改善皱纹功能性化妆品。",
+      "眼霜，含七种胶原蛋白、三文鱼PDRN、NMN、泛醇和铜肽，呵护娇嫩的眼周肌肤。MFDS美白与改善皱纹功能性化妆品。",
+      "日常防晒霜，采用四种新型紫外线过滤剂，达到SPF50+ PA++++，涂抹顺滑不泛白，并含烟酰胺、腺苷、透明质酸、PDRN和NMN。MFDS功能性化妆品，具备防晒、美白和改善皱纹三重功效。不防水。",
+      "洗发水采用椰子来源表面活性剂，pH 5.0–6.0弱酸性配方，含扁柏精油，可同时清洁头皮和头发。",
+      "适合油性头皮的弱酸性液体护发素，可改善毛躁和干燥，令头发顺滑。",
+      "头皮喷雾以81%扁柏水代替普通水，含右泛醇、L-薄荷醇和水杨酸，令头皮清爽并去除异味。每日使用一次。",
+      "冲洗型发膜，含水解角蛋白、蚕丝、胶原蛋白和22种氨基酸，适用于受损发质。",
+      "免洗精华膏，可在因染发、烫发和热造型而受损的头发表面形成保护膜。"
     ]
   },
   "ui": {
-    "profile_sup": "供应商档案",
-    "about_h": "公司简介",
+    "profile_sup": "供应商资料",
+    "about_h": "关于公司",
     "for_whom": "适合对象：",
-    "lines_h": "产品线",
+    "lines_h": "产品系列",
     "catalog_h": "产品目录",
-    "tech_h": "技术",
+    "tech_h": "配方技术",
     "formats_h": "产品形态",
-    "export_h": "出口与市场",
+    "export_h": "出口与文件",
     "terms_h": "合作条件",
     "download_btn": "下载合作条件（PDF）",
     "pres_btn": "下载品牌介绍（PDF）",
-    "terms_disc": "询价提供；无公开价目表。",
+    "terms_disc": "价格请咨询，暂无公开价目表。供应商的直接联系方式不对外公开，洽谈、核查与供货均由Teranova Group负责。",
     "cta_h": "对这家供应商感兴趣？",
-    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
-    "cta_btn": "通过 Teranova 联系",
-    "more": "查看档案 →",
+    "cta_d": "欢迎联系我们——Teranova将从首次接触到交付全程安排洽谈、核实与交易支持。",
+    "cta_btn": "通过Teranova联系",
+    "more": "查看资料 →",
     "verified_suppliers": "已核实供应商",
-    "certs_h": "认证",
-    "certs_note": "",
+    "certs_h": "MFDS功能性化妆品与质量",
+    "certs_note": "全部七款ARMING护肤产品均已向韩国食品医药品安全处（MFDS）备案为美白（烟酰胺2%）和改善皱纹（腺苷0.04%）功能性化妆品，备案时间为2025年9月至2026年4月。防晒霜还具备SPF50+ PA++++防晒功效；ARMING防晒霜于2025年8月获MFDS批准，Teranova已在MFDS公开数据库中核实。Teranova已审阅备案报告和技术资料，副本将在交易阶段提供给采购商。",
     "products_h": "产品",
-    "products_note": "供应商资料中的十款 ARMING 产品官方图片。"
+    "products_note": "七款ARMING护肤产品和五款Cashmere护发产品，图片均为Enveco Cosmetic提供的官方图片。",
+    "gallery_h": "ARMING护肤",
+    "gallery_note": "Enveco Cosmetic提供的ARMING官方产品图。",
+    "price_btn": "产品目录（PDF）"
   }
 }

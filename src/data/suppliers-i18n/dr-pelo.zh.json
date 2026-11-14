@@ -1,90 +1,119 @@
 {
- "content": {
-  "tagline": "Dr.Pelo 韩国专业头皮护理与防脱发护理",
-  "descriptor": "Dr.Pelo — 韩国专业头皮护理及一条功能性防脱发产品线，品牌称其已获 KFDA 批准。所有方为 JRM Holdings。",
-  "origin": "大韩民国",
-  "about": [
-   "Dr.Pelo 是由 JRM Holdings 拥有的韩国专业头皮与头发护理品牌。它基于一个简单理念——头发问题始于头皮——并围绕清洁堆积物、舒缓头皮和养护发根来构建护理流程。",
-   "品牌称其防脱发配方已获 KFDA 批准，并与 Korea University Ansan Hospital 一同作为缓解脱发的功能性产品进行了临床研究。这些是公司自身的陈述；Teranova 仅为 B2B 合作方转述，不作独立核验。价格与商务条件不公开，仅应请求提供。"
-  ],
-  "facts": [
-   "品牌：Dr.Pelo，所有方 JRM Holdings",
-   "韩国专业头皮护理与防脱发产品线",
-   "据品牌称，该产品线为经 KFDA 批准、与 Korea University Ansan Hospital 一同研究的缓解脱发功能性产品",
-   "品牌所列主要活性成分：L-Menthol、Salicylic Acid 和 Dexpanthenol",
-   "价格与商务条件需询价"
-  ],
-  "channels": [
-   "专业美发护理经销商",
-   "沙龙与头皮护理中心",
-   "零售连锁及电商"
-  ],
-  "lines": [
-   {
-    "name": "头皮与头发护理",
-    "note": "以头皮为先的专注护理流程：用于防脱发护理的 Scalp Shampoo 与 Scalp Tonic，以及在两次洗发之间随时清洁的 Hair & Scalp Wipes。"
-   }
-  ],
-  "tech": [
-   {
-    "name": "头皮优先理念",
-    "note": "品牌将脱发描述为始于头皮——堆积物、炎症、营养供给不足与发根变弱——并致力于清洁并去除头皮角质、促进循环并平衡头皮 pH（约 4.5–5.5）。"
-   },
-   {
-    "name": "主要活性成分（据品牌说明）",
-    "note": "L-Menthol 令头皮清爽并去除堆积物，Salicylic Acid 温和去角质并疏通毛孔，Dexpanthenol 帮助头皮屏障锁住水分。按品牌所述呈现。"
-   }
-  ],
-  "formats": [
-   "头皮洗发水",
-   "头皮精华",
-   "头发与头皮湿巾"
-  ],
-  "exportNote": "Dr.Pelo 已授权通过 Teranova 为国际 B2B 合作方制作档案及精选产品页面。价格、MOQ 与保密商务条件不公开。",
-  "terms": [
-   {
-    "label": "合作方式",
-    "value": "通过 Teranova 进行 Dr.Pelo 成品的 B2B 批发供应。"
-   },
-   {
-    "label": "认证",
-    "value": "品牌称其为经 KFDA 批准、与 Korea University Ansan Hospital 一同研究的功能性防脱发产品线。按品牌所述呈现，未经 Teranova 独立核验。"
-   },
-   {
-    "label": "价格",
-    "value": "询价提供；无公开价目表。"
-   }
-  ],
-  "consentNote": "Dr.Pelo 官方资料——名称、标识与产品图片——依据 JRM Holdings 的书面许可发布。防脱发与临床相关陈述均按品牌所述呈现（经 KFDA 批准的功能性产品线）。价格与个人联系方式不公开。",
-  "seoTitle": "Dr.Pelo — 韩国专业头皮护理与防脱发护理 · Teranova",
-  "seoDesc": "Dr.Pelo（JRM Holdings）：韩国头皮洗发水、头皮精华与头发头皮湿巾——品牌称已获 KFDA 批准的功能性防脱发产品线。通过 Teranova 进行 B2B。",
-  "catalog_notes": [
-   "Dr.Pelo Scalp Shampoo — 品牌将其呈现为经 KFDA 批准的缓解脱发功能性产品的头皮护理洗发水：以 L-Menthol、Salicylic Acid 和 Dexpanthenol 清洁堆积物并令头皮清爽。",
-   "Dr.Pelo Scalp Tonic — 同一防脱发产品线中的免洗精华，品牌将其呈现为在两次洗发之间舒缓并养护头皮的经 KFDA 批准功能性产品。",
-   "Dr.Pelo Hair & Scalp Wipes — 无需清洗即可对头发与头皮进行滋养护理与深层清洁的随身湿巾；据品牌称每袋 17 ml。"
-  ]
- },
- "ui": {
-  "profile_sup": "供应商档案",
-  "about_h": "公司简介",
-  "for_whom": "适合对象：",
-  "lines_h": "产品线",
-  "catalog_h": "产品目录",
-  "tech_h": "技术",
-  "formats_h": "产品形态",
-  "export_h": "出口与市场",
-  "terms_h": "合作条件",
-  "download_btn": "下载合作条件（PDF）",
-  "pres_btn": "下载品牌介绍（PDF）",
-  "terms_disc": "询价提供；无公开价目表。",
-  "cta_h": "对这家供应商感兴趣？",
-  "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
-  "cta_btn": "通过 Teranova 联系",
-  "more": "查看档案 →",
-  "verified_suppliers": "已核实供应商",
-  "certs_h": "认证",
-  "certs_note": "",
-  "products_h": "产品",
-  "products_note": "Dr.Pelo 三款产品的官方产品照片：Scalp Shampoo、Scalp Tonic 和 Hair & Scalp Wipes。"
- }
+  "content": {
+    "tagline": "经韩国MFDS注册并完成临床研究、有助于缓解脱发症状的韩国功能性头皮护理",
+    "descriptor": "Dr.Pelo是JRM Holdings旗下的韩国头皮护理品牌，产品包括在韩国食品医药品安全处（MFDS）注册为有助于缓解脱发症状的功能性化妆品的Scalp Shampoo和Scalp Tonic，以及免冲洗的Hair & Scalp Wipes。",
+    "origin": "韩国",
+    "about": [
+      "Dr.Pelo是JRM Holdings旗下的韩国专业头皮与头发护理品牌。品牌理念很简单：健康丰盈的头发始于健康的头皮。Dr.Pelo将脱发、掉发和头屑视为头皮问题，其根源在于污垢堆积、炎症、营养不足和发根脆弱，因此品牌的护理流程围绕清洁头皮与去角质、促进头皮循环，以及将头皮维持在4.5–5.5的理想pH值来构建。",
+      "Dr.Pelo Scalp Shampoo和Scalp Tonic已在韩国食品医药品安全处（MFDS，原KFDA）注册为有助于缓解脱发症状的功能性化妆品。Teranova已在MFDS公开数据库中核实这两项注册：洗发水的报告编号为2018005699，头皮精华水为2018005723。三大核心活性成分为L-薄荷醇、水杨酸和右泛醇，并搭配十余种韩国草本提取物，包括何首乌和鱼腥草。",
+      "该配方经过临床研究。在高丽大学安山医院皮肤科开展的一项为期24周、50人参与的双盲安慰剂对照研究中，活性组的头发密度从每平方厘米75.3根增至89.4根（+18.7%），发丝粗细从0.062毫米增至0.079毫米（+27.4%），且未出现不良反应。P&K Skin Research Center针对头皮精华水配方开展的第二项24周安慰剂对照研究显示，80%的使用者头发密度有所增加，而安慰剂组为29.6%。",
+      "产品线还包括Dr.Pelo Hair & Scalp Wipes：这款无需用水、免冲洗的湿巾含有薄荷醇，可在两次洗发之间为头发和头皮带来即时清凉焕新感，适合所有发质，包括编发、脏辫和扭辫。Dr.Pelo产品均为韩国制造，男女通用，适合居家长期使用。"
+    ],
+    "facts": [
+      "Dr.Pelo品牌，隶属JRM Holdings，韩国制造",
+      "Scalp Shampoo与Scalp Tonic：在MFDS注册、有助于缓解脱发症状的功能性化妆品（报告编号2018005699和2018005723，已由Teranova在MFDS数据库中核实）",
+      "高丽大学安山医院临床研究：24周，双盲安慰剂对照，50名受试者，头发密度+18.7%，发丝粗细+27.4%",
+      "核心成分：L-薄荷醇、水杨酸、右泛醇，以及十余种韩国草本提取物",
+      "三款产品：Scalp Shampoo 300毫升、Scalp Tonic 150毫升、Hair & Scalp Wipes（20片）",
+      "保质期36个月；可供应巴西、拉丁美洲及其他市场"
+    ],
+    "channels": [
+      "专业美发及药房渠道分销商",
+      "美发沙龙、头发与头皮护理诊所",
+      "零售连锁与线上商店",
+      "健身房、旅游零售及便携场景（湿巾）"
+    ],
+    "lines": [
+      {
+        "name": "头皮与头发护理",
+        "note": "两步功能性护理流程：先用Scalp Shampoo清洁头皮并去角质，再用免洗的Scalp Tonic护理发根；另有Hair & Scalp Wipes，可在两次洗发之间免冲洗地清爽焕新。"
+      }
+    ],
+    "tech": [
+      {
+        "name": "三重活性成分复合配方",
+        "note": "L-薄荷醇为头皮带来清凉清爽感，并帮助清除污垢堆积；水杨酸温和去角质，疏通毛囊；右泛醇帮助头皮屏障锁住水分。"
+      },
+      {
+        "name": "韩国草本提取物",
+        "note": "十余种植物提取物，包括何首乌、鱼腥草、积雪草、绿茶和迷迭香，并搭配生物素、烟酰胺以及水解角蛋白、水解胶原蛋白和水解丝蛋白。"
+      },
+      {
+        "name": "临床研究",
+        "note": "两项为期24周的双盲安慰剂对照研究，分别在高丽大学安山医院（50名受试者）和P&K Skin Research Center（52名受试者完成头皮精华水研究）开展。"
+      }
+    ],
+    "formats": [
+      "头皮洗发水",
+      "免洗头皮精华水",
+      "免冲洗头发头皮湿巾"
+    ],
+    "exportNote": "本档案由Teranova依据Dr.Pelo直接提供的资料（产品技术资料、临床研究报告、品牌目录和官方图片）以及MFDS公开数据库编写。价格和最低起订量可应买家要求通过Teranova提供。",
+    "consentNote": "JRM Holdings于2026年9月14日确认了Dr.Pelo档案，并于2026年9月22日和30日发送了最新的图片和文件。",
+    "terms": [
+      {
+        "label": "生产",
+        "value": "韩国。"
+      },
+      {
+        "label": "功能性类别",
+        "value": "Scalp Shampoo与Scalp Tonic：在MFDS注册、有助于缓解脱发症状的功能性化妆品，已由Teranova在MFDS公开数据库中核实。Hair & Scalp Wipes为普通化妆品。"
+      },
+      {
+        "label": "临床文件",
+        "value": "高丽大学安山医院和P&K Skin Research Center 24周研究的最终报告；副本在交易阶段提供给买家。"
+      },
+      {
+        "label": "保质期",
+        "value": "三款产品均为自生产之日起36个月。"
+      },
+      {
+        "label": "最低起订量",
+        "value": "按产品设定，可合并多位买家的订单，具体数量应要求确认。"
+      },
+      {
+        "label": "批发价格",
+        "value": "通过Teranova询价，暂无公开价目表。"
+      },
+      {
+        "label": "贴牌（自有品牌）",
+        "value": "湿巾配方可根据买家品牌进行调整：洗发湿巾、编发与脏辫护理湿巾、清爽湿巾。"
+      }
+    ],
+    "seoTitle": "Dr.Pelo — 韩国MFDS注册功能性头皮护理，缓解脱发症状 · Teranova",
+    "seoDesc": "Dr.Pelo（JRM Holdings，韩国）：Scalp Shampoo与Scalp Tonic在MFDS注册为有助于缓解脱发症状的功能性化妆品，并经临床研究；另有Hair & Scalp Wipes。通过Teranova开展B2B合作。",
+    "catalog_notes": [
+      "头皮洗发水，在MFDS注册为有助于缓解脱发症状的功能性化妆品。L-薄荷醇、水杨酸和右泛醇清除污垢堆积、令头皮清爽，生物素、烟酰胺、六种水解蛋白和韩国草本提取物则呵护发根。取适量于湿发及头皮按摩后冲净；建议每周使用三次。",
+      "免洗头皮精华水，在MFDS注册为有助于缓解脱发症状的功能性化妆品。何首乌与鱼腥草提取物各占10%，与L-薄荷醇、水杨酸和右泛醇协同作用，在两次洗发之间持续护理头皮。使用前摇匀，每天一次涂抹于头皮，最好在睡前使用，并按摩至吸收。",
+      "预湿型免冲洗湿巾，为头发和头皮带来即时清凉焕新：薄荷醇、水杨酸、泛醇、迷迭香、绿茶和积雪草帮助去除多余油脂、汗液和异味。适合所有发质，包括编发、脏辫和扭辫，健身、旅行或两次洗发之间均可使用。"
+    ]
+  },
+  "ui": {
+    "profile_sup": "供应商资料",
+    "about_h": "关于公司",
+    "for_whom": "适合对象：",
+    "lines_h": "产品系列",
+    "catalog_h": "产品目录",
+    "tech_h": "配方与科学依据",
+    "formats_h": "产品形态",
+    "export_h": "出口与文件",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "价格请咨询，暂无公开价目表。供应商的直接联系方式不对外公开，洽谈、核查与供货均由Teranova Group负责。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "欢迎联系我们——Teranova将从首次接触到交付全程安排洽谈、核实与交易支持。",
+    "cta_btn": "通过Teranova联系",
+    "more": "查看资料 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "MFDS注册与临床研究",
+    "certs_note": "Dr.Pelo Scalp Shampoo（报告编号2018005699）和Scalp Tonic（报告编号2018005723）已在韩国食品医药品安全处（MFDS，原KFDA）注册为有助于缓解脱发症状的功能性化妆品，Teranova已在MFDS公开数据库中核实这两项注册。该配方在高丽大学安山医院和P&K Skin Research Center分别进行了为期24周的双盲安慰剂对照研究。报告副本在交易阶段提供给买家。",
+    "products_h": "产品",
+    "products_note": "Dr.Pelo三款产品：Scalp Shampoo、Scalp Tonic和Hair & Scalp Wipes。图片由Dr.Pelo官方提供。",
+    "gallery_h": "Dr.Pelo",
+    "gallery_note": "Dr.Pelo官方产品及品牌图片。",
+    "video_h": "Dr.Pelo头皮护理",
+    "video_note": "Dr.Pelo品牌视频。",
+    "price_btn": "产品目录（PDF）"
+  }
 }

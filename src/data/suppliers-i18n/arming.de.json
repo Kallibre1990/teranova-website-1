@@ -1,77 +1,119 @@
 {
   "content": {
-    "tagline": "Koreanischer Kosmetikhersteller mit eigener Marke ARMING",
-    "descriptor": "Enveco Cosmetic entwickelt und produziert Haar-, Gesichts- und Körperpflege; ARMING ist die eigene Produktlinie",
-    "origin": "Republic of Korea",
+    "tagline": "Koreanische funktionelle Hautpflege und Haarpflege von einem GMP-Hersteller aus Gimpo",
+    "descriptor": "Enveco Cosmetic stellt in Gimpo (Korea) Haarpflege, Hautpflege und funktionelle Kosmetik her und entwickelt Produkte für Partnermarken (OEM/ODM). ARMING ist die eigene Marke des Unternehmens: sieben funktionelle Hautpflegeprodukte mit MFDS-Status und die Haarpflegelinie Cashmere.",
+    "origin": "Republik Korea",
     "about": [
-      "Enveco Cosmetic is a Korean cosmetics company. Its official supplier presentation describes formulation development, manufacturing and OEM/ODM cooperation; the scope and suitability of each capability are confirmed for the individual project.",
-      "ARMING is presented as Enveco Cosmetic’s own range for hair, facial and body care. This page uses official images and neutral product names without therapeutic or functional promises."
+      "Enveco Cosmetic Co., Ltd. ist ein koreanischer Kosmetikhersteller mit eigenem Werk und eigenem Forschungsinstitut in Gimpo, Provinz Gyeonggi-do. Das Unternehmen entwickelt, produziert und verpackt Haar-, Kopfhaut-, Haut- und Körperpflege sowie funktionelle Kosmetik zur Aufhellung, zur Faltenminderung, zum UV-Schutz und zur Linderung von Haarausfallsymptomen. Das Forschungsinstitut ist seit 2016 von der Korea Industrial Technology Association (KOITA) anerkannt, und die Produktion folgt dem Kosmetik-GMP-Standard ISO 22716, nach dem das Werk 2019 erstmals zertifiziert wurde.",
+      "ARMING ist die eigene Marke von Enveco und wurde 2020 eingeführt. Der Name bedeutet „schön sein“, und die Verpackung zeigt das Motiv eines traditionellen koreanischen Fenstergitters. Im Januar 2026 kam eine Hautpflegelinie mit sieben Produkten hinzu. Jedes davon ist ein funktionelles Kosmetikprodukt, das beim koreanischen Ministerium für Lebensmittel- und Arzneimittelsicherheit (MFDS) für zwei Wirkungen gemeldet ist: Aufhellung der Haut (Niacinamid 2 %) und Faltenminderung (Adenosin 0,04 %). Die Sonnencreme bietet als dritte Wirkung UV-Schutz mit SPF50+ PA++++.",
+      "Alle Hautpflegeformeln basieren auf 9,8 % Centella-asiatica-Blattwasser, ergänzt um Peptide, Ceramide und Retinol, und jedes Produkt hat seinen eigenen Signature-Wirkstoff: fünf Formen von Hyaluronsäure, einen Komplex aus sieben Kollagenarten, Exosomen aus Ginseng und Centella oder einen Multivitaminkomplex. Die Haarpflegelinie ARMING Cashmere, zu der auch ein Kopfhaut-Booster mit 81 % Zypressenwasser gehört, rundet das Sortiment ab.",
+      "Für Partnermarken arbeitet Enveco als OEM-Hersteller (Ihre Rezeptur, Ihre Marke) und als ODM-Entwickler (von der Produktplanung und Formulierung über Produktion und Qualitätskontrolle bis zum Versand). Das Unternehmen hat Haarpflege für koreanische Teleshopping-Marken produziert und exportiert nach Südostasien, in den großchinesischen Raum und in weitere Märkte."
     ],
     "facts": [
-      "Company: Enveco Cosmetic Co., Ltd.",
-      "Own brand: ARMING",
-      "Categories: hair, facial and body care",
-      "Prices and commercial terms on request"
+      "Enveco Cosmetic Co., Ltd. (엔베코코스메틱), eigenes Werk und Forschungsinstitut in Gimpo, Gyeonggi-do, Korea",
+      "In Korea registrierter Kosmetikhersteller und verantwortlicher Inverkehrbringer; MFDS-Herstellerregistrierung Nr. 1809",
+      "Produktion nach ISO 22716 (Kosmetik-GMP), erstmals 2019 zertifiziert; ISO 9001 und ISO 14001 in der Unternehmensgeschichte",
+      "7 ARMING-Hautpflegeprodukte beim MFDS als funktionelle Kosmetik gemeldet (2025–2026); die ARMING-Sonnencreme im August 2025 vom MFDS zugelassen",
+      "Exportverträge für ARMING in Singapur, auf den Philippinen, in Taiwan und in Malaysia (nach Angaben des Unternehmens)",
+      "OEM und ODM: Haar- und Kopfhautpflege, funktionelle Kosmetik, Haarfarben, Haut- und Körperpflege"
     ],
     "channels": [
-      "Cosmetics importers and distributors",
-      "Salons and professional channels",
-      "Retail chains and online stores"
+      "Importeure und Distributoren koreanischer Kosmetik",
+      "Apotheken, Friseursalons und professionelle Kanäle",
+      "Handelsketten, Teleshopping und Onlineshops",
+      "Marken, die einen OEM/ODM-Hersteller in Korea suchen"
     ],
     "lines": [
       {
-        "name": "Hair Care",
-        "note": "Shampoos, conditioning care and hair oil."
+        "name": "Hautpflege",
+        "note": "Sieben funktionelle MFDS-Produkte zur Aufhellung und Faltenminderung: Toner, Emulsion, Ampulle, wässrige Creme, Kollagencreme, Augencreme und eine Sonnencreme mit SPF50+ PA++++. Allen gemeinsam sind 9,8 % Centella-Blattwasser, Niacinamid 2 % und Adenosin 0,04 %."
       },
       {
-        "name": "Skin Care",
-        "note": "Toner, ampoule and creams for daily skincare."
+        "name": "Haarpflege",
+        "note": "Die Linie Cashmere für Kopfhaut und Haar: ein Clinic-Shampoo mit Tensiden auf Kokosbasis, eine schwach saure Kur, ein Kopfhaut-Booster mit 81 % Zypressenwasser, eine Haarpackung für geschädigtes Haar und eine Leave-in-Balsam-Essenz."
       },
       {
-        "name": "Body Care",
-        "note": "Body-care and personal-care products."
+        "name": "OEM / ODM",
+        "note": "Lohnherstellung unter der Marke des Kunden: Haar- und Kopfhautpflege, funktionelle Kosmetik (Aufhellung, Faltenminderung, UV-Schutz, Linderung von Haarausfallsymptomen), Haarfarben, Haut- und Körperpflege."
       }
     ],
     "tech": [
       {
-        "name": "Project-specific verification",
-        "note": "The company describes formulation work and OEM/ODM in its official presentation. The brief, formula, tests and labelling are agreed separately for each project."
+        "name": "Basis mit Doppelwirkung",
+        "note": "Niacinamid 2 % zur Aufhellung und Adenosin 0,04 % zur Faltenminderung, in den Dosierungen, die der MFDS-Standard für funktionelle Kosmetik vorgibt, in allen sieben Hautpflegeprodukten."
+      },
+      {
+        "name": "Cica als Grundlage",
+        "note": "Centella-asiatica-Blattwasser mit 9,8 % ersetzt in jeder Hautpflegeformel einen Teil der Wasserphase und wird mit Peptiden, Ceramiden und Retinol kombiniert."
+      },
+      {
+        "name": "Signature-Komplexe",
+        "note": "Fünf Formen von Hyaluronsäure von niedrigem bis hohem Molekulargewicht (Toner, Emulsion, Sonnencreme); sieben Kollagenarten (Kollagencreme, Augencreme); Exosomen aus Ginseng und Centella (Ampulle); PDRN und NMN (Augencreme, Sonnencreme)."
+      },
+      {
+        "name": "Eigene Forschung und Entwicklung",
+        "note": "Ein von KOITA anerkanntes Forschungsinstitut entwickelt Rezepturen für Haar-, Kopfhaut- und funktionelle Hautpflege und arbeitet dabei mit koreanischen Universitäten und Rohstoffherstellern zusammen."
       }
     ],
     "formats": [
-      "Shampoo and treatment",
-      "Toner, ampoule and cream",
-      "Body and personal care"
+      "Toner",
+      "Emulsion",
+      "Ampulle",
+      "Cremes",
+      "Augencreme",
+      "Sonnencreme SPF50+",
+      "Shampoo",
+      "Kur",
+      "Kopfhaut-Booster",
+      "Haarpackung und Essenz"
     ],
-    "exportNote": "Enveco Cosmetic gave written permission for a separate company and ARMING profile for international B2B partners. Price sheets, MOQ, direct contacts and confidential commercial terms are not published.",
+    "exportNote": "Dieses Profil hat Teranova auf Grundlage von Materialien erstellt, die Enveco Cosmetic direkt zur Verfügung gestellt hat: dem Unternehmenskatalog, der ARMING-Hautpflegebroschüre, den MFDS-Meldungen für funktionelle Kosmetik und den technischen Produktdatenblättern. Preise, Mindestbestellmengen und die direkten Kontaktdaten des Unternehmens werden nicht veröffentlicht; Käufer erhalten sie auf Anfrage über Teranova.",
+    "consentNote": "Enveco Cosmetic hat diesem Profil am 14. September 2026 schriftlich zugestimmt und am 30. September 2026 die aktuellen Bilder und Unterlagen übermittelt.",
     "terms": [
       {
-        "label": "Cooperation",
-        "value": "B2B supply and project enquiries through Teranova."
+        "label": "Herstellung",
+        "value": "Im eigenen Werk von Enveco Cosmetic in Gimpo, Gyeonggi-do, Korea."
       },
       {
-        "label": "Range",
-        "value": "ARMING products and Enveco capabilities are considered against the current brief."
+        "label": "Funktioneller Status",
+        "value": "Alle sieben ARMING-Hautpflegeprodukte sind funktionelle Kosmetik nach MFDS (Aufhellung und Faltenminderung, die Sonnencreme zusätzlich UV-Schutz). Teranova hat die MFDS-Meldungen und technischen Datenblätter geprüft; Kopien erhalten Käufer in der Abschlussphase."
       },
       {
-        "label": "Price",
-        "value": "On request; no public price list."
+        "label": "Formen der Zusammenarbeit",
+        "value": "Fertige ARMING-Produkte, Private Label und OEM/ODM-Entwicklung."
+      },
+      {
+        "label": "Mindestbestellmenge",
+        "value": "Abhängig von Produkt und Format; ARMING-Produkte sind auch in kleinen Testmengen erhältlich. Bestätigung auf Anfrage."
+      },
+      {
+        "label": "Großhandelspreis",
+        "value": "Auf Anfrage über Teranova; es gibt keine öffentliche Preisliste."
+      },
+      {
+        "label": "Unterlagen für Importeure",
+        "value": "Verfügbar sind technische Datenblätter mit vollständigen INCI-Listen und EAN-13-Barcodes, die MFDS-Meldungen und eine englischsprachige Broschüre."
+      },
+      {
+        "label": "Verhandlungen",
+        "value": "Über Teranova."
       }
     ],
-    "consentNote": "Official Enveco Cosmetic / ARMING materials are published under written permission dated 14 September 2026. Prices, personal contacts, therapeutic claims and unverified certificates are excluded.",
-    "seoTitle": "Enveco Cosmetic / ARMING — Koreanischer Kosmetikhersteller mit eigener Marke ARMING · Teranova",
-    "seoDesc": "Enveco Cosmetic and its ARMING range: Korean hair, facial and body care. B2B enquiries through Teranova.",
+    "seoTitle": "Enveco Cosmetic / ARMING — funktionelle MFDS-Hautpflege, Haarpflege und OEM/ODM aus Korea · Teranova",
+    "seoDesc": "Enveco Cosmetic (Gimpo, Korea): ARMING-Hautpflege mit 7 funktionellen MFDS-Produkten zur Aufhellung und Faltenminderung, Sonnencreme SPF50+ PA++++, Haarpflege Cashmere und OEM/ODM. B2B über Teranova.",
     "catalog_notes": [
-      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
-      "ARMING Cashmere Natural Clinic Treatment — official supplier image.",
-      "ARMING Cashmere Hair & Scalp Booster — official supplier image.",
-      "ARMING Cashmere Damage Care Hair Pack — official supplier image.",
-      "ARMING Cashmere Multi Balm Essence — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Emulsion — official supplier image.",
-      "ARMING Real Collagen Cica White Cream — official supplier image.",
-      "ARMING Real Collagen Cica White Eye Cream — official supplier image.",
-      "ARMING Multi Vita Cica Watery Cream — official supplier image."
+      "Ein beruhigender, feuchtigkeitsspendender Toner mit 9,8 % Centella-Blattwasser und fünf Formen von Hyaluronsäure von niedrigem bis hohem Molekulargewicht, dazu Ceramide und Peptide. Funktionelle Kosmetik nach MFDS zur Aufhellung und Faltenminderung.",
+      "Eine leichte Emulsion, die die Feuchtigkeit des Toners in der Haut hält: Centella-Blattwasser, fünf Formen von Hyaluronsäure, Ceramide und Peptide. Funktionelle Kosmetik nach MFDS zur Aufhellung und Faltenminderung.",
+      "Eine konzentrierte Gel-Ampulle mit Exosomen aus Ginseng und Centella (extrazelluläre Vesikel aus Pflanzen), Ceramiden und Peptiden für einen gesunden, ebenmäßigen Teint. Funktionelle Kosmetik nach MFDS zur Aufhellung und Faltenminderung.",
+      "Eine frische, wässrige Creme mit einem Vitaminkomplex (C, E, B5 und B3), Centella-Blattwasser und Ceramiden für mehr Elastizität und einen helleren Teint. Funktionelle Kosmetik nach MFDS zur Aufhellung und Faltenminderung.",
+      "Eine reichhaltige Creme mit einem Komplex aus sieben Kollagenarten, Sheabutter und Ceramiden für straffe, geschmeidige und strahlende Haut. Funktionelle Kosmetik nach MFDS zur Aufhellung und Faltenminderung.",
+      "Eine Augencreme mit sieben Kollagenarten, Lachs-PDRN, NMN, Panthenol und einem Kupferpeptid für die zarte Haut rund um die Augen. Funktionelle Kosmetik nach MFDS zur Aufhellung und Faltenminderung.",
+      "Eine Sonnencreme für jeden Tag mit vier modernen UV-Filtern und SPF50+ PA++++, die sich geschmeidig und ohne Weißeleffekt verteilt, mit Niacinamid, Adenosin, Hyaluronsäure, PDRN und NMN. Funktionelle Kosmetik nach MFDS mit drei Wirkungen: UV-Schutz, Aufhellung und Faltenminderung. Nicht wasserfest.",
+      "Ein reinigendes Shampoo mit Tensiden auf Kokosbasis, einem schwach sauren pH-Wert von 5,0–6,0 und ätherischem Zypressenöl, das Kopfhaut und Haar zugleich pflegt.",
+      "Eine schwach saure, flüssige Kur für fettige Kopfhaut, die Frizz und Trockenheit bändigt und das Haar glatt hinterlässt.",
+      "Ein Kopfhautspray, in dem 81 % Zypressenwasser das übliche Wasser ersetzen, mit Dexpanthenol, L-Menthol und Salicylsäure; es erfrischt die Kopfhaut und neutralisiert Gerüche. Einmal täglich anzuwenden.",
+      "Eine Haarpackung zum Ausspülen mit hydrolysiertem Keratin, Seide, Kollagen und 22 Aminosäuren für geschädigtes Haar.",
+      "Eine Leave-in-Balsam-Essenz, die einen Schutzfilm auf Haar bildet, das durch Färben, Dauerwellen und Hitzestyling beansprucht ist."
     ]
   },
   "ui": {
@@ -80,21 +122,24 @@
     "for_whom": "Für wen geeignet:",
     "lines_h": "Produktlinien",
     "catalog_h": "Produktkatalog",
-    "tech_h": "Technologie",
+    "tech_h": "Rezepturtechnologie",
     "formats_h": "Produktformate",
-    "export_h": "Export und Märkte",
-    "terms_h": "Bedingungen der Zusammenarbeit",
+    "export_h": "Export und Unterlagen",
+    "terms_h": "Zusammenarbeitsbedingungen",
     "download_btn": "Bedingungen herunterladen (PDF)",
     "pres_btn": "Präsentation herunterladen (PDF)",
-    "terms_disc": "On request; no public price list.",
-    "cta_h": "Interessiert Sie dieser Lieferant?",
-    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "terms_disc": "Auf Anfrage; es gibt keine öffentliche Preisliste. Direkte Kontaktdaten des Lieferanten werden nicht veröffentlicht: Verhandlungen, Prüfung und Lieferung übernimmt Teranova Group.",
+    "cta_h": "Interesse an diesem Lieferanten?",
+    "cta_d": "Kontaktieren Sie uns — Teranova organisiert Verhandlungen, Prüfung und Abschlussbegleitung vom Erstkontakt bis zur Lieferung.",
     "cta_btn": "Über Teranova kontaktieren",
     "more": "Profil öffnen →",
     "verified_suppliers": "Geprüfte Lieferanten",
-    "certs_h": "Zertifizierungen",
-    "certs_note": "",
+    "certs_h": "Funktionelle MFDS-Kosmetik und Qualität",
+    "certs_note": "Alle sieben ARMING-Hautpflegeprodukte sind beim koreanischen Ministerium für Lebensmittel- und Arzneimittelsicherheit (MFDS) als funktionelle Kosmetik zur Aufhellung (Niacinamid 2 %) und Faltenminderung (Adenosin 0,04 %) gemeldet; die Meldungen stammen aus dem Zeitraum von September 2025 bis April 2026. Die Sonnencreme schützt zusätzlich vor UV-Strahlung mit SPF50+ PA++++; die ARMING-Sonnencreme wurde im August 2025 vom MFDS zugelassen, was Teranova in der öffentlichen MFDS-Datenbank überprüft hat. Teranova hat die Meldungen und technischen Datenblätter geprüft; Kopien erhalten Käufer in der Abschlussphase.",
     "products_h": "Produkte",
-    "products_note": "Offizielle Bilder von zehn ARMING Produkten aus Lieferantenunterlagen."
+    "products_note": "Sieben ARMING-Hautpflegeprodukte und fünf Produkte der Haarpflegelinie Cashmere. Offizielle Bilder von Enveco Cosmetic.",
+    "gallery_h": "ARMING-Hautpflege",
+    "gallery_note": "Offizielle ARMING-Produktfotos, bereitgestellt von Enveco Cosmetic.",
+    "price_btn": "Produktkatalog (PDF)"
   }
 }

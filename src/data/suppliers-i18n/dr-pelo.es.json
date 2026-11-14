@@ -1,90 +1,119 @@
 {
- "content": {
-  "tagline": "Cuidado profesional coreano del cuero cabelludo y anticaída de Dr.Pelo",
-  "descriptor": "Dr.Pelo — cuidado profesional coreano del cuero cabelludo y una línea funcional anticaída que la marca declara aprobada por la KFDA. Propiedad de JRM Holdings.",
-  "origin": "República de Corea",
-  "about": [
-   "Dr.Pelo es una marca coreana de cuidado profesional del cuero cabelludo y el cabello, propiedad de JRM Holdings. Parte de una idea sencilla — que los problemas del cabello comienzan en el cuero cabelludo — y construye su rutina en torno a la limpieza de residuos, la calma del cuero cabelludo y el apoyo a las raíces.",
-   "La marca declara que su formulación anticaída está aprobada por la KFDA y fue estudiada clínicamente con el Korea University Ansan Hospital como producto funcional para atenuar la caída del cabello. Son declaraciones de la propia empresa; Teranova las presenta para socios B2B y no las verifica de forma independiente. Los precios y las condiciones comerciales se comunican a petición, no se publican."
-  ],
-  "facts": [
-   "Marca: Dr.Pelo, propiedad de JRM Holdings",
-   "Cuidado profesional coreano del cuero cabelludo y línea anticaída",
-   "Según la marca, la línea es un producto funcional aprobado por la KFDA para atenuar la caída del cabello, estudiado con el Korea University Ansan Hospital",
-   "Activos indicados por la marca: L-Menthol, Salicylic Acid y Dexpanthenol",
-   "Precios y condiciones comerciales a petición"
-  ],
-  "channels": [
-   "Distribuidores de cuidado capilar profesional",
-   "Salones y centros de cuidado del cuero cabelludo",
-   "Cadenas minoristas y tiendas online"
-  ],
-  "lines": [
-   {
-    "name": "Cuidado del cuero cabelludo y el cabello",
-    "note": "Una rutina enfocada que empieza por el cuero cabelludo: el Scalp Shampoo y el Scalp Tonic para el cuidado anticaída, y las Hair & Scalp Wipes para una limpieza rápida entre lavados."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Enfoque «cuero cabelludo primero»",
-    "note": "La marca describe la caída del cabello como algo que empieza en el cuero cabelludo — residuos, inflamación, aporte insuficiente de nutrientes y raíces debilitadas — y trabaja para limpiar y exfoliar el cuero cabelludo, favorecer la circulación y equilibrar el pH del cuero cabelludo (alrededor de 4.5–5.5)."
-   },
-   {
-    "name": "Activos clave, según la marca",
-    "note": "L-Menthol para refrescar el cuero cabelludo y eliminar residuos, Salicylic Acid para exfoliar con suavidad y desobstruir los poros, y Dexpanthenol para ayudar a la barrera del cuero cabelludo a retener la hidratación. Presentados tal como los declara la marca."
-   }
-  ],
-  "formats": [
-   "Champú para el cuero cabelludo",
-   "Tónico para el cuero cabelludo",
-   "Toallitas para el cabello y el cuero cabelludo"
-  ],
-  "exportNote": "Dr.Pelo autorizó un perfil y productos seleccionados para socios B2B internacionales a través de Teranova. Los precios, el MOQ y las condiciones comerciales confidenciales no se publican.",
-  "terms": [
-   {
-    "label": "Cooperación",
-    "value": "Suministro mayorista B2B de productos terminados Dr.Pelo a través de Teranova."
-   },
-   {
-    "label": "Certificación",
-    "value": "La marca declara una línea funcional anticaída aprobada por la KFDA y estudiada con el Korea University Ansan Hospital. Presentada tal como la declara la marca, no verificada de forma independiente por Teranova."
-   },
-   {
-    "label": "Precio",
-    "value": "A petición; sin lista de precios pública."
-   }
-  ],
-  "consentNote": "Los materiales oficiales de Dr.Pelo — nombre, logotipo e imágenes de producto — se publican con el permiso escrito de JRM Holdings. Las declaraciones anticaída y clínicas se presentan tal como las declara la marca (una línea funcional aprobada por la KFDA). Los precios y contactos personales no se publican.",
-  "seoTitle": "Dr.Pelo — cuidado profesional coreano del cuero cabelludo y anticaída · Teranova",
-  "seoDesc": "Dr.Pelo (JRM Holdings): champú para el cuero cabelludo, tónico para el cuero cabelludo y toallitas para el cabello y el cuero cabelludo coreanos — una línea funcional anticaída que la marca declara aprobada por la KFDA. B2B a través de Teranova.",
-  "catalog_notes": [
-   "Dr.Pelo Scalp Shampoo — un champú para el cuero cabelludo que la marca presenta como producto funcional aprobado por la KFDA para atenuar la caída del cabello: limpia los residuos y refresca el cuero cabelludo con L-Menthol, Salicylic Acid y Dexpanthenol.",
-   "Dr.Pelo Scalp Tonic — un tónico sin aclarado de la misma línea anticaída, que la marca presenta como producto funcional aprobado por la KFDA para calmar y apoyar el cuero cabelludo entre lavados.",
-   "Dr.Pelo Hair & Scalp Wipes — toallitas para un cuidado nutritivo y una limpieza profunda del cabello y el cuero cabelludo sin lavado; 17 ml por sobre, según la marca."
-  ]
- },
- "ui": {
-  "profile_sup": "Perfil de proveedor",
-  "about_h": "Sobre la empresa",
-  "for_whom": "A quién le encaja:",
-  "lines_h": "Líneas de producto",
-  "catalog_h": "Catálogo de productos",
-  "tech_h": "Tecnología",
-  "formats_h": "Formatos de producto",
-  "export_h": "Exportación y mercados",
-  "terms_h": "Condiciones de cooperación",
-  "download_btn": "Descargar condiciones (PDF)",
-  "pres_btn": "Descargar presentación (PDF)",
-  "terms_disc": "On request; no public price list.",
-  "cta_h": "¿Le interesa este proveedor?",
-  "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
-  "cta_btn": "Contactar a través de Teranova",
-  "more": "Abrir perfil →",
-  "verified_suppliers": "Proveedores verificados",
-  "certs_h": "Certificaciones",
-  "certs_note": "",
-  "products_h": "Productos",
-  "products_note": "Fotos oficiales de los tres productos Dr.Pelo: Scalp Shampoo, Scalp Tonic y Hair & Scalp Wipes."
- }
+  "content": {
+    "tagline": "Cuidado coreano funcional del cuero cabelludo para la caída del cabello, registrado ante el MFDS y estudiado clínicamente",
+    "descriptor": "Dr.Pelo es una marca coreana de cuidado del cuero cabelludo propiedad de JRM Holdings: el Scalp Shampoo y el Scalp Tonic están registrados ante el MFDS de Corea como cosméticos funcionales que ayudan a aliviar los síntomas de la caída del cabello, y las Hair & Scalp Wipes son toallitas que no necesitan enjuague.",
+    "origin": "República de Corea",
+    "about": [
+      "Dr.Pelo es una marca coreana de cuidado profesional del cuero cabelludo y del cabello, propiedad de JRM Holdings. Su idea es sencilla: un cabello sano y abundante empieza por un cuero cabelludo sano. Dr.Pelo entiende la caída del cabello, la pérdida excesiva de cabello y la caspa como problemas del cuero cabelludo, asociados a la acumulación de residuos, la inflamación, la falta de nutrientes y las raíces debilitadas. Por eso construye su rutina en torno a limpiar y exfoliar el cuero cabelludo, favorecer la circulación y mantener su pH óptimo, entre 4,5 y 5,5.",
+      "El Scalp Shampoo y el Scalp Tonic de Dr.Pelo son cosméticos funcionales registrados ante el Ministerio de Seguridad de Alimentos y Medicamentos de Corea (MFDS, antes KFDA) como productos que ayudan a aliviar los síntomas de la caída del cabello. Teranova verificó ambos registros en la base de datos pública del MFDS: informe n.º 2018005699 para el champú y n.º 2018005723 para el tónico. Sus tres activos clave, L-mentol, ácido salicílico y dexpantenol, se combinan con más de diez extractos de plantas coreanas, entre ellos Polygonum multiflorum (hasuo) y Houttuynia cordata.",
+      "La fórmula se ha sometido a ensayos clínicos. En un estudio de 24 semanas, doble ciego y controlado con placebo, realizado en el Departamento de Dermatología del Korea University Ansan Hospital con 50 participantes, la densidad capilar del grupo activo pasó de 75,3 a 89,4 cabellos por cm² (+18,7%) y el grosor del cabello de 0,062 a 0,079 mm (+27,4%), sin reacciones adversas. Un segundo estudio de 24 semanas controlado con placebo, dedicado a la fórmula del tónico y realizado en el P&K Skin Research Center, registró un aumento de la densidad capilar en el 80% de los usuarios, frente al 29,6% del grupo placebo.",
+      "Completan la gama las Dr.Pelo Hair & Scalp Wipes, un formato sin agua y sin enjuague con mentol que refresca al instante el cabello y el cuero cabelludo entre lavados y sirve para todo tipo de cabello, incluidas trenzas, locs y twists. Los productos Dr.Pelo se fabrican en Corea, son unisex y están pensados para un uso regular en casa."
+    ],
+    "facts": [
+      "Marca Dr.Pelo, propiedad de JRM Holdings; fabricación en Corea",
+      "Scalp Shampoo y Scalp Tonic: cosméticos funcionales registrados ante el MFDS para aliviar los síntomas de la caída del cabello (informes 2018005699 y 2018005723, verificados por Teranova en la base de datos del MFDS)",
+      "Estudio clínico en el Korea University Ansan Hospital de 24 semanas, doble ciego y controlado con placebo, con 50 participantes: densidad capilar +18,7%, grosor del cabello +27,4%",
+      "Activos clave: L-mentol, ácido salicílico y dexpantenol, junto con más de diez extractos de plantas coreanas",
+      "Tres productos: Scalp Shampoo de 300 ml, Scalp Tonic de 150 ml y Hair & Scalp Wipes (20 toallitas)",
+      "Vida útil de 36 meses; la marca está abierta a Brasil, América Latina y otros mercados"
+    ],
+    "channels": [
+      "Distribuidores de cuidado capilar profesional y del canal farmacia",
+      "Salones, clínicas de tricología y centros de cuidado del cuero cabelludo",
+      "Cadenas minoristas y tiendas en línea",
+      "Gimnasios, travel retail y formatos para llevar (toallitas)"
+    ],
+    "lines": [
+      {
+        "name": "Cuidado del cuero cabelludo y del cabello",
+        "note": "Una rutina funcional en dos pasos, con el Scalp Shampoo para limpiar y exfoliar el cuero cabelludo y el Scalp Tonic sin enjuague para actuar sobre las raíces, más las Hair & Scalp Wipes para refrescarse sin enjuague entre lavados."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Complejo de tres activos",
+        "note": "El L-mentol refresca el cuero cabelludo y ayuda a eliminar los residuos; el ácido salicílico exfolia suavemente y desobstruye los folículos; el dexpantenol ayuda a la barrera del cuero cabelludo a retener la hidratación."
+      },
+      {
+        "name": "Extractos de plantas coreanas",
+        "note": "Más de diez extractos vegetales, entre ellos Polygonum multiflorum (hasuo), Houttuynia cordata, centella, té verde y romero, con biotina, niacinamida y proteínas hidrolizadas de queratina, colágeno y seda."
+      },
+      {
+        "name": "Estudiado clínicamente",
+        "note": "Dos estudios de 24 semanas, doble ciego y controlados con placebo: en el Korea University Ansan Hospital (50 participantes) y en el P&K Skin Research Center (52 participantes que completaron el estudio del tónico)."
+      }
+    ],
+    "formats": [
+      "Champú para el cuero cabelludo",
+      "Tónico capilar sin enjuague",
+      "Toallitas para cabello y cuero cabelludo sin enjuague"
+    ],
+    "exportNote": "Teranova elaboró este perfil a partir de los materiales que Dr.Pelo facilitó directamente (fichas técnicas de los productos, informes de los estudios clínicos, el catálogo de la marca e imágenes oficiales) y de la base de datos pública del MFDS. Los precios y las cantidades mínimas de pedido se facilitan a los compradores previa solicitud a través de Teranova.",
+    "consentNote": "JRM Holdings confirmó el perfil de Dr.Pelo el 14 de septiembre de 2026 y envió las imágenes y los documentos actualizados el 22 y el 30 de septiembre de 2026.",
+    "terms": [
+      {
+        "label": "Fabricación",
+        "value": "República de Corea."
+      },
+      {
+        "label": "Estatus funcional",
+        "value": "Scalp Shampoo y Scalp Tonic: cosméticos funcionales registrados ante el MFDS para aliviar los síntomas de la caída del cabello, verificados por Teranova en la base de datos pública del MFDS. Las Hair & Scalp Wipes son un cosmético general."
+      },
+      {
+        "label": "Documentación clínica",
+        "value": "Informes finales de los estudios de 24 semanas realizados en el Korea University Ansan Hospital y en el P&K Skin Research Center; las copias se comparten con los compradores en la etapa de cierre del acuerdo."
+      },
+      {
+        "label": "Vida útil",
+        "value": "36 meses desde la fabricación para los tres productos."
+      },
+      {
+        "label": "Pedido mínimo",
+        "value": "Se fija por producto; se pueden combinar pedidos de varios compradores. Se confirma previa solicitud."
+      },
+      {
+        "label": "Precio mayorista",
+        "value": "Previa solicitud a través de Teranova; no hay lista de precios pública."
+      },
+      {
+        "label": "Marca propia",
+        "value": "La fórmula de las toallitas puede adaptarse a la marca de un comprador: toallitas con champú, toallitas para trenzas y locs o toallitas refrescantes."
+      }
+    ],
+    "seoTitle": "Dr.Pelo — cuidado coreano del cuero cabelludo para la caída, registro MFDS · Teranova",
+    "seoDesc": "Dr.Pelo (JRM Holdings, Corea): Scalp Shampoo y Scalp Tonic registrados ante el MFDS como cosméticos funcionales para aliviar los síntomas de la caída del cabello, con estudios clínicos; Hair & Scalp Wipes. B2B vía Teranova.",
+    "catalog_notes": [
+      "Champú para el cuero cabelludo registrado ante el MFDS como cosmético funcional que ayuda a aliviar los síntomas de la caída del cabello. El L-mentol, el ácido salicílico y el dexpantenol eliminan los residuos y refrescan el cuero cabelludo, mientras que la biotina, la niacinamida, seis proteínas hidrolizadas y extractos de plantas coreanas cuidan las raíces. Masajear sobre el cabello y el cuero cabelludo húmedos y enjuagar; se recomienda usarlo tres veces por semana.",
+      "Tónico sin enjuague para el cuero cabelludo, registrado ante el MFDS como cosmético funcional que ayuda a aliviar los síntomas de la caída del cabello. Los extractos de hasuo (Polygonum multiflorum) y de Houttuynia cordata, al 10% cada uno, actúan sobre el cuero cabelludo entre lavados junto con el L-mentol, el ácido salicílico y el dexpantenol. Agitar, aplicar sobre el cuero cabelludo una vez al día, preferiblemente antes de dormir, y masajear.",
+      "Toallitas prehumedecidas sin enjuague que refrescan al instante el cabello y el cuero cabelludo: mentol, ácido salicílico, pantenol, romero, té verde y centella ayudan a eliminar el exceso de grasa, el sudor y el olor. Para todo tipo de cabello, incluidas trenzas, locs y twists, en el gimnasio, de viaje o entre lavados."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Perfil del proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién se dirige:",
+    "lines_h": "Línea de productos",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Fórmula y ciencia",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y documentación",
+    "terms_h": "Condiciones de colaboración",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Previa solicitud; no hay lista de precios pública. Los contactos directos del proveedor no se publican: las negociaciones, la verificación y el suministro los gestiona Teranova Group.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Contáctenos — Teranova organiza las negociaciones, la verificación y el acompañamiento de la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Registro MFDS y estudios clínicos",
+    "certs_note": "El Scalp Shampoo de Dr.Pelo (informe n.º 2018005699) y el Scalp Tonic (n.º 2018005723) están registrados ante el Ministerio de Seguridad de Alimentos y Medicamentos de Corea (MFDS, antes KFDA) como cosméticos funcionales que ayudan a aliviar los síntomas de la caída del cabello; Teranova verificó ambas entradas en la base de datos pública del MFDS. La fórmula se estudió durante 24 semanas en ensayos doble ciego y controlados con placebo en el Korea University Ansan Hospital y en el P&K Skin Research Center. Las copias de los informes se comparten con los compradores en la etapa de cierre del acuerdo.",
+    "products_h": "Productos",
+    "products_note": "Tres productos Dr.Pelo: Scalp Shampoo, Scalp Tonic y Hair & Scalp Wipes. Imágenes oficiales de Dr.Pelo.",
+    "gallery_h": "Dr.Pelo",
+    "gallery_note": "Fotografías oficiales de producto y de marca de Dr.Pelo.",
+    "video_h": "Cuidado del cuero cabelludo Dr.Pelo",
+    "video_note": "Material audiovisual de la marca Dr.Pelo.",
+    "price_btn": "Catálogo de productos (PDF)"
+  }
 }

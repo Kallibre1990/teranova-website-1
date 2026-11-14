@@ -2749,16 +2749,45 @@ export const suppliers: SupplierProfile[] = [
     slug: 'dr-pelo',
     category: 'cosmetics',
     country: 'kr',
+    /* H1 и карточка каталога — Dr.Pelo; JRM Holdings — владелец (в дескрипторе). */
     name: 'Dr.Pelo',
     brand: 'Dr.Pelo',
     status: 'provided',
-    brandColors: { deep: '#26382F', sky: '#A6B09A', accent: '#8B5E3C', bg: '#F6F3ED' },
+    /* Перламутрово-золотой флакон и сливово-пурпурная полоса логотипа — с
+       официальных пакшотов Dr.Pelo (папка Judy Kim, 30.09.2026). */
+    brandColors: { deep: '#2E2433', sky: '#E7D3C3', accent: '#7A2E6E', bg: '#FBF6F2' },
     voice: 'clinical',
-    /* JRM Holdings — владелец бренда. Enveco Cosmetic указывается только как
-       отдельный изготовитель по материалам поставщика; фабрика JRM не заявляется. */
+    /* Dr.Pelo — главный бренд, JRM Holdings — владелец (письма Judy Kim
+       16.09 и 22.09.2026). Связь с Enveco на странице не показываем — просьба
+       Judy 22.09.2026. Статус функциональной косметики MFDS подтверждён
+       документами, присланными 30.09.2026 (provenance:
+       AI_COORDINATION/Claude/evidence/judy-2026-11-14/). Цены и MOQ —
+       по запросу (рекомендация Teranova 01.11.2026, R-047). */
+    gallery: [
+      '/img/suppliers/dr-pelo/gallery/shampoo-box.jpg',
+      '/img/suppliers/dr-pelo/gallery/tonic-leaves.jpg',
+      '/img/suppliers/dr-pelo/gallery/foam.jpg',
+      '/img/suppliers/dr-pelo/gallery/shampoo-pair.jpg',
+      '/img/suppliers/dr-pelo/gallery/tonic-box.jpg',
+      '/img/suppliers/dr-pelo/gallery/comb.jpg',
+      '/img/suppliers/dr-pelo/gallery/shampoo-linen.jpg',
+      '/img/suppliers/dr-pelo/gallery/tonic-studio.jpg',
+      '/img/suppliers/dr-pelo/gallery/shampoo-mint.jpg',
+      '/img/suppliers/dr-pelo/gallery/wipes-pack.jpg',
+    ],
+    videos: [
+      { src: '/video/dr-pelo/scalp-care-routine.mp4', poster: '/video/dr-pelo/scalp-care-routine.jpg', name: 'Dr.Pelo' },
+    ],
+    /* Русские названия линеек не совпадают с английскими группами каталога —
+       фото линейки задаём явно. */
+    lineShots: {
+      'Уход за кожей головы и волосами': '/img/suppliers/dr-pelo/gallery/brand-set.jpg',
+    },
     catalog: drPeloCatalog as { line: string; items: { name: string; img: string }[] }[],
-    termsFile: { ru: '/docs/dr-pelo-terms-ru.pdf', en: '/docs/dr-pelo-terms-en.pdf', ko: '/docs/dr-pelo-terms-ko.pdf', zh: '/docs/dr-pelo-terms-zh.pdf', ja: '/docs/dr-pelo-terms-ja.pdf', it: '/docs/dr-pelo-terms-it.pdf', de: '/docs/dr-pelo-terms-de.pdf', fr: '/docs/dr-pelo-terms-fr.pdf', tr: '/docs/dr-pelo-terms-tr.pdf', es: '/docs/dr-pelo-terms-es.pdf', pt: '/docs/dr-pelo-terms-pt.pdf' },
-    presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf' },
+    certs: ['MFDS functional cosmetic · Scalp Shampoo', 'MFDS functional cosmetic · Scalp Tonic', 'Clinical study · Korea University Ansan Hospital'],
+    termsFile: { ru: '/docs/dr-pelo-terms-ru.pdf', en: '/docs/dr-pelo-terms-en.pdf', ko: '/docs/dr-pelo-terms-ko.pdf', zh: '/docs/dr-pelo-terms-zh.pdf', ja: '/docs/dr-pelo-terms-ja.pdf', it: '/docs/dr-pelo-terms-it.pdf', de: '/docs/dr-pelo-terms-de.pdf', fr: '/docs/dr-pelo-terms-fr.pdf', tr: '/docs/dr-pelo-terms-tr.pdf', es: '/docs/dr-pelo-terms-es.pdf', pt: '/docs/dr-pelo-terms-pt.pdf', he: '/docs/dr-pelo-terms-he.pdf', hi: '/docs/dr-pelo-terms-hi.pdf' },
+    priceFile: { ru: '/docs/dr-pelo-catalog-ru.pdf', en: '/docs/dr-pelo-catalog-en.pdf', ko: '/docs/dr-pelo-catalog-ko.pdf', zh: '/docs/dr-pelo-catalog-zh.pdf', ja: '/docs/dr-pelo-catalog-ja.pdf', it: '/docs/dr-pelo-catalog-it.pdf', de: '/docs/dr-pelo-catalog-de.pdf', fr: '/docs/dr-pelo-catalog-fr.pdf', tr: '/docs/dr-pelo-catalog-tr.pdf', es: '/docs/dr-pelo-catalog-es.pdf', pt: '/docs/dr-pelo-catalog-pt.pdf', he: '/docs/dr-pelo-catalog-he.pdf', hi: '/docs/dr-pelo-catalog-hi.pdf' },
+    presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf', he: '/docs/dr-pelo-presentation-he.pdf', hi: '/docs/dr-pelo-presentation-hi.pdf' },
     i18n: {
       ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any), he: mk(drPeloHe as any), hi: mk(drPeloHi as any),
     },
@@ -2770,15 +2799,31 @@ export const suppliers: SupplierProfile[] = [
     name: 'Enveco Cosmetic Co., Ltd.',
     brand: 'ARMING',
     status: 'provided',
-    brandColors: { deep: '#243B36', sky: '#A7BEB2', accent: '#486F63', bg: '#F3F6F3' },
+    brandColors: { deep: '#1F3350', sky: '#B9C8DD', accent: '#2F4F8A', bg: '#F4F7FB' },
     voice: 'clinical',
-    /* Письменное согласие от 14.09.2026 охватывает отдельный профиль Enveco
-       Cosmetic / ARMING. Официальный company profile — источник названий и
-       продуктовых изображений; цены, MOQ, прямые контакты, лечебные claims и
-       неподтверждённые сертификаты публично не размещаются. */
+    /* Письменное согласие 14.09.2026 на отдельный профиль Enveco Cosmetic /
+       ARMING. Правки Judy Kim 30.09.2026: новые изображения уходовой линии,
+       функциональные свойства по отчётам MFDS, ясные описания. Цены, MOQ и
+       прямые контакты не публикуются (provenance:
+       AI_COORDINATION/Claude/evidence/judy-2026-11-14/arming-facts.md). */
+    gallery: [
+      '/img/suppliers/arming/gallery/skincare-essentials.jpg',
+      '/img/suppliers/arming/gallery/white-cream.jpg',
+      '/img/suppliers/arming/gallery/eye-cream.jpg',
+      '/img/suppliers/arming/gallery/watery-cream.jpg',
+      '/img/suppliers/arming/gallery/suncream.jpg',
+      '/img/suppliers/arming/gallery/ampoule-front-back.jpg',
+    ],
+    lineShots: {
+      'Уход за кожей': '/img/suppliers/arming/gallery/skincare-essentials.jpg',
+      'Уход за волосами': '/img/suppliers/arming/products/cashmere-natural-clinic-shampoo.png',
+      'OEM / ODM': '/img/suppliers/arming/blog/haircare.jpg',
+    },
     catalog: armingCatalog as { line: string; items: { name: string; img: string }[] }[],
-    termsFile: { ru: '/docs/arming-terms-ru.pdf', en: '/docs/arming-terms-en.pdf', ko: '/docs/arming-terms-ko.pdf', zh: '/docs/arming-terms-zh.pdf', ja: '/docs/arming-terms-ja.pdf', it: '/docs/arming-terms-it.pdf', de: '/docs/arming-terms-de.pdf', fr: '/docs/arming-terms-fr.pdf', tr: '/docs/arming-terms-tr.pdf', es: '/docs/arming-terms-es.pdf', pt: '/docs/arming-terms-pt.pdf' },
-    presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf' },
+    certs: ['MFDS functional cosmetics · 7 skincare products', 'SPF50+ PA++++ · MFDS'],
+    termsFile: { ru: '/docs/arming-terms-ru.pdf', en: '/docs/arming-terms-en.pdf', ko: '/docs/arming-terms-ko.pdf', zh: '/docs/arming-terms-zh.pdf', ja: '/docs/arming-terms-ja.pdf', it: '/docs/arming-terms-it.pdf', de: '/docs/arming-terms-de.pdf', fr: '/docs/arming-terms-fr.pdf', tr: '/docs/arming-terms-tr.pdf', es: '/docs/arming-terms-es.pdf', pt: '/docs/arming-terms-pt.pdf', he: '/docs/arming-terms-he.pdf', hi: '/docs/arming-terms-hi.pdf' },
+    priceFile: { ru: '/docs/arming-catalog-ru.pdf', en: '/docs/arming-catalog-en.pdf', ko: '/docs/arming-catalog-ko.pdf', zh: '/docs/arming-catalog-zh.pdf', ja: '/docs/arming-catalog-ja.pdf', it: '/docs/arming-catalog-it.pdf', de: '/docs/arming-catalog-de.pdf', fr: '/docs/arming-catalog-fr.pdf', tr: '/docs/arming-catalog-tr.pdf', es: '/docs/arming-catalog-es.pdf', pt: '/docs/arming-catalog-pt.pdf', he: '/docs/arming-catalog-he.pdf', hi: '/docs/arming-catalog-hi.pdf' },
+    presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf', he: '/docs/arming-presentation-he.pdf', hi: '/docs/arming-presentation-hi.pdf' },
     i18n: {
       ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any), he: mk(armingHe as any), hi: mk(armingHi as any),
     },

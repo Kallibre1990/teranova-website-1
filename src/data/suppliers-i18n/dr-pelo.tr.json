@@ -1,90 +1,119 @@
 {
- "content": {
-  "tagline": "Dr.Pelo'dan Kore profesyonel saç derisi ve saç dökülmesine karşı bakım",
-  "descriptor": "Dr.Pelo — Kore profesyonel saç derisi bakımı ve markanın KFDA onaylı olduğunu belirttiği işlevsel bir saç dökülmesine karşı seri. Sahibi JRM Holdings.",
-  "origin": "Kore Cumhuriyeti",
-  "about": [
-   "Dr.Pelo, JRM Holdings'e ait bir Kore profesyonel saç derisi ve saç bakımı markasıdır. Basit bir fikirden yola çıkar — saç sorunlarının saç derisinde başladığı — ve rutinini kalıntıları temizlemek, saç derisini yatıştırmak ve kökleri desteklemek etrafında kurar.",
-   "Marka, saç dökülmesine karşı formülasyonunun KFDA tarafından onaylandığını ve saç dökülmesini hafifletmeye yönelik işlevsel bir ürün olarak Korea University Ansan Hospital ile klinik olarak incelendiğini belirtir. Bunlar şirketin kendi beyanlarıdır; Teranova bunları B2B ortakları için sunar ve bağımsız olarak doğrulamaz. Fiyatlar ve ticari koşullar yayımlanmaz, talep üzerine paylaşılır."
-  ],
-  "facts": [
-   "Marka: Dr.Pelo, sahibi JRM Holdings",
-   "Kore profesyonel saç derisi bakımı ve saç dökülmesine karşı seri",
-   "Markaya göre seri, Korea University Ansan Hospital ile incelenen, saç dökülmesini hafifletmeye yönelik KFDA onaylı işlevsel bir üründür",
-   "Markanın belirttiği başlıca etken maddeler: L-Menthol, Salicylic Acid ve Dexpanthenol",
-   "Fiyatlar ve ticari koşullar talep üzerine"
-  ],
-  "channels": [
-   "Profesyonel saç bakımı distribütörleri",
-   "Salonlar ve saç derisi bakım merkezleri",
-   "Perakende zincirleri ve çevrimiçi mağazalar"
-  ],
-  "lines": [
-   {
-    "name": "Saç derisi ve saç bakımı",
-    "note": "Saç derisinden başlayan odaklı bir rutin: saç dökülmesine karşı bakım için Scalp Shampoo ve Scalp Tonic ve yıkamalar arasında pratik temizlik için Hair & Scalp Wipes."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Önce saç derisi yaklaşımı",
-    "note": "Marka, saç dökülmesini saç derisinde başlayan bir durum olarak tanımlar — kalıntı birikimi, iltihaplanma, yetersiz besin desteği ve zayıflamış kökler — ve saç derisini temizlemeye ve arındırmaya, dolaşımı desteklemeye ve saç derisi pH'ını (yaklaşık 4.5–5.5) dengelemeye çalışır."
-   },
-   {
-    "name": "Başlıca etken maddeler, markaya göre",
-    "note": "Saç derisini ferahlatmak ve kalıntıları gidermek için L-Menthol, nazikçe arındırmak ve gözenekleri açmak için Salicylic Acid ve saç derisi bariyerinin nemi tutmasına yardımcı olmak için Dexpanthenol. Markanın belirttiği şekliyle sunulmuştur."
-   }
-  ],
-  "formats": [
-   "Saç derisi şampuanı",
-   "Saç derisi toniği",
-   "Saç ve saç derisi mendilleri"
-  ],
-  "exportNote": "Dr.Pelo, Teranova aracılığıyla uluslararası B2B ortakları için bir profil ve seçili ürünler yayımlanmasına izin verdi. Fiyatlar, MOQ ve gizli ticari koşullar yayımlanmaz.",
-  "terms": [
-   {
-    "label": "İş birliği",
-    "value": "Teranova aracılığıyla bitmiş Dr.Pelo ürünlerinin B2B toptan tedariki."
-   },
-   {
-    "label": "Sertifikasyon",
-    "value": "Marka, KFDA onaylı ve Korea University Ansan Hospital ile incelenmiş işlevsel bir saç dökülmesine karşı seri olduğunu belirtir. Markanın belirttiği şekliyle sunulur, Teranova tarafından bağımsız olarak doğrulanmamıştır."
-   },
-   {
-    "label": "Fiyat",
-    "value": "Talep üzerine; kamuya açık fiyat listesi yoktur."
-   }
-  ],
-  "consentNote": "Resmi Dr.Pelo materyalleri — ad, logo ve ürün görselleri — JRM Holdings'in yazılı izniyle yayımlanır. Saç dökülmesine karşı ve klinik beyanlar, markanın belirttiği şekliyle sunulur (KFDA onaylı işlevsel bir seri). Fiyatlar ve kişisel iletişim bilgileri yayımlanmaz.",
-  "seoTitle": "Dr.Pelo — Kore profesyonel saç derisi ve saç dökülmesine karşı bakım · Teranova",
-  "seoDesc": "Dr.Pelo (JRM Holdings): Kore saç derisi şampuanı, saç derisi toniği ve saç ve saç derisi mendilleri — markanın KFDA onaylı olduğunu belirttiği işlevsel bir saç dökülmesine karşı seri. Teranova aracılığıyla B2B.",
-  "catalog_notes": [
-   "Dr.Pelo Scalp Shampoo — markanın saç dökülmesini hafifletmeye yönelik KFDA onaylı işlevsel bir ürün olarak sunduğu bir saç derisi bakım şampuanı: L-Menthol, Salicylic Acid ve Dexpanthenol ile kalıntıları temizler ve saç derisini ferahlatır.",
-   "Dr.Pelo Scalp Tonic — aynı saç dökülmesine karşı serideki durulanmayan bir tonik olup, marka bunu yıkamalar arasında saç derisini yatıştıran ve destekleyen KFDA onaylı işlevsel bir ürün olarak sunar.",
-   "Dr.Pelo Hair & Scalp Wipes — yıkamadan saç ve saç derisine besleyici bakım ve derinlemesine temizlik sağlayan pratik mendiller; markaya göre poşet başına 17 ml."
-  ]
- },
- "ui": {
-  "profile_sup": "Tedarikçi profili",
-  "about_h": "Şirket hakkında",
-  "for_whom": "Kimlere uygun:",
-  "lines_h": "Ürün hatları",
-  "catalog_h": "Ürün kataloğu",
-  "tech_h": "Teknoloji",
-  "formats_h": "Ürün formatları",
-  "export_h": "İhracat ve pazarlar",
-  "terms_h": "İş birliği koşulları",
-  "download_btn": "Koşulları indir (PDF)",
-  "pres_btn": "Sunumu indir (PDF)",
-  "terms_disc": "On request; no public price list.",
-  "cta_h": "Bu tedarikçi ilginizi çekti mi?",
-  "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
-  "cta_btn": "Teranova üzerinden iletişime geçin",
-  "more": "Profili aç →",
-  "verified_suppliers": "Doğrulanmış tedarikçiler",
-  "certs_h": "Sertifikalar",
-  "certs_note": "",
-  "products_h": "Ürünler",
-  "products_note": "Üç Dr.Pelo ürününün resmi ürün fotoğrafları: Scalp Shampoo, Scalp Tonic ve Hair & Scalp Wipes."
- }
+  "content": {
+    "tagline": "Saç dökülmesine yönelik Kore fonksiyonel saç derisi bakımı: MFDS kayıtlı ve klinik olarak incelenmiş",
+    "descriptor": "Dr.Pelo, JRM Holdings'e ait bir Kore saç derisi bakım markasıdır. Ürün gamında, Kore'nin MFDS kurumuna saç dökülmesi belirtilerinin hafifletilmesine yardımcı olan fonksiyonel kozmetik olarak kayıtlı Scalp Shampoo ve Scalp Tonic ile durulama gerektirmeyen Hair & Scalp Wipes yer alır.",
+    "origin": "Kore Cumhuriyeti",
+    "about": [
+      "Dr.Pelo, JRM Holdings'e ait profesyonel bir Kore saç derisi ve saç bakım markasıdır. Markanın fikri basittir: sağlıklı ve gür saç, sağlıklı bir saç derisiyle başlar. Dr.Pelo saç dökülmesini, saç kaybını ve kepeği saç derisinin sorunları olarak ele alır; bu sorunların ardında kalıntı birikimi, iltihaplanma, besin eksikliği ve zayıflamış kökler vardır. Bu nedenle bakım rutinini saç derisini temizleyip arındırmak, kan dolaşımını desteklemek ve saç derisini 4,5–5,5 arasındaki ideal pH değerinde tutmak üzerine kurar.",
+      "Dr.Pelo Scalp Shampoo ve Scalp Tonic, Kore Gıda ve İlaç Güvenliği Bakanlığı'na (MFDS, eski adıyla KFDA) saç dökülmesi belirtilerinin hafifletilmesine yardımcı olan fonksiyonel kozmetikler olarak kayıtlıdır. Teranova her iki kaydı da MFDS'nin herkese açık veri tabanında doğrulamıştır: şampuan için 2018005699, tonik için 2018005723 numaralı bildirim. Üç temel etken madde L-mentol, salisilik asit ve dekspantenoldür; bunlara Polygonum multiflorum (hasuo) ve Houttuynia cordata dahil ondan fazla Kore bitki ekstraktı eşlik eder.",
+      "Formül klinik olarak test edilmiştir. Korea University Ansan Hospital Dermatoloji Bölümü'nde 50 katılımcıyla yürütülen 24 haftalık, çift kör, plasebo kontrollü bir çalışmada aktif gruptaki saç yoğunluğu cm² başına 75,3'ten 89,4 saç teline (%18,7 artış), saç kalınlığı ise 0,062 mm'den 0,079 mm'ye (%27,4 artış) yükselmiş, hiçbir advers reaksiyon görülmemiştir. Tonik formülüyle P&K Skin Research Center'da yapılan ikinci, 24 haftalık plasebo kontrollü çalışmada ise kullanıcıların %80'inde saç yoğunluğunun arttığı saptanmış; bu oran plasebo grubunda %29,6'da kalmıştır.",
+      "Seriyi Dr.Pelo Hair & Scalp Wipes tamamlar: su gerektirmeyen ve durulanmayan bu format, içerdiği mentol sayesinde yıkamalar arasında saça ve saç derisine anında serinletici bir ferahlık verir; örgü, rasta ve twist saçlar dahil her saç tipine uygundur. Dr.Pelo ürünleri Kore'de üretilir, uniseks olarak tasarlanmıştır ve evde düzenli kullanım içindir."
+    ],
+    "facts": [
+      "Marka Dr.Pelo, sahibi JRM Holdings; Kore'de üretim",
+      "Scalp Shampoo ve Scalp Tonic: saç dökülmesi belirtilerinin hafifletilmesine yönelik MFDS kayıtlı fonksiyonel kozmetikler (2018005699 ve 2018005723 numaralı bildirimler, Teranova tarafından MFDS veri tabanında doğrulandı)",
+      "Korea University Ansan Hospital'da klinik çalışma: 24 hafta, çift kör, plasebo kontrollü, 50 katılımcı; saç yoğunluğunda %18,7, saç kalınlığında %27,4 artış",
+      "Temel etken maddeler: L-mentol, salisilik asit, dekspantenol ve 10'dan fazla Kore bitki ekstraktı",
+      "Üç ürün: Scalp Shampoo 300 ml, Scalp Tonic 150 ml, Hair & Scalp Wipes (20 mendil)",
+      "Raf ömrü 36 ay; Brezilya, Latin Amerika ve diğer pazarlara açık"
+    ],
+    "channels": [
+      "Profesyonel saç bakımı ve eczane distribütörleri",
+      "Kuaför salonları, trikoloji ve saç derisi bakım klinikleri",
+      "Perakende zincirleri ve online mağazalar",
+      "Spor salonları, seyahat perakendesi ve yolda kullanım formatları (mendiller)"
+    ],
+    "lines": [
+      {
+        "name": "Saç Derisi ve Saç Bakımı",
+        "note": "İki adımlı fonksiyonel bir rutin: saç derisini temizleyip arındıran Scalp Shampoo ve saç derisinde bırakılarak köklere etki eden Scalp Tonic. Bunlara, yıkamalar arasında durulama gerektirmeden ferahlık veren Hair & Scalp Wipes eşlik eder."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Üç etken maddeli kompleks",
+        "note": "L-mentol saç derisini serinletip ferahlatır ve kalıntıların giderilmesine yardımcı olur; salisilik asit nazikçe arındırır ve tıkanmış folikülleri açar; dekspantenol ise saç derisi bariyerinin nemi korumasına yardımcı olur."
+      },
+      {
+        "name": "Kore bitki ekstraktları",
+        "note": "Polygonum multiflorum (hasuo), Houttuynia cordata, centella, yeşil çay ve biberiye dahil ondan fazla bitki ekstraktı; bunlara biyotin, niasinamid ve hidrolize keratin, kolajen ve ipek proteinleri eşlik eder."
+      },
+      {
+        "name": "Klinik olarak incelendi",
+        "note": "24 haftalık, çift kör, plasebo kontrollü iki çalışma: Korea University Ansan Hospital'da (50 katılımcı) ve P&K Skin Research Center'da (tonik çalışmasını tamamlayan 52 katılımcı)."
+      }
+    ],
+    "formats": [
+      "Saç derisi şampuanı",
+      "Durulanmayan saç derisi toniği",
+      "Durulama gerektirmeyen saç ve saç derisi mendilleri"
+    ],
+    "exportNote": "Bu profil Teranova tarafından, Dr.Pelo'nun doğrudan sağladığı materyaller (ürün teknik föyleri, klinik çalışma raporları, marka kataloğu ve resmî görseller) ile MFDS'nin herkese açık veri tabanı esas alınarak hazırlanmıştır. Fiyatlar ve minimum sipariş miktarları alıcılara talep üzerine Teranova aracılığıyla iletilir.",
+    "consentNote": "JRM Holdings, Dr.Pelo profilini 14 Eylül 2026'da onayladı; güncel görselleri ve belgeleri 22 ve 30 Eylül 2026'da gönderdi.",
+    "terms": [
+      {
+        "label": "Üretim",
+        "value": "Kore Cumhuriyeti."
+      },
+      {
+        "label": "Fonksiyonel statü",
+        "value": "Scalp Shampoo ve Scalp Tonic: saç dökülmesi belirtilerinin hafifletilmesine yönelik MFDS kayıtlı fonksiyonel kozmetikler; kayıtlar Teranova tarafından MFDS'nin herkese açık veri tabanında doğrulanmıştır. Hair & Scalp Wipes ise genel kozmetik ürün sınıfındadır."
+      },
+      {
+        "label": "Klinik belgeler",
+        "value": "Korea University Ansan Hospital ve P&K Skin Research Center'da yürütülen 24 haftalık çalışmaların nihai raporları; kopyaları anlaşma aşamasında alıcılarla paylaşılır."
+      },
+      {
+        "label": "Raf ömrü",
+        "value": "Üç ürünün tamamı için üretim tarihinden itibaren 36 ay."
+      },
+      {
+        "label": "Minimum sipariş",
+        "value": "Her ürün için ayrı belirlenir; birden fazla alıcının siparişleri birleştirilebilir. Talep üzerine teyit edilir."
+      },
+      {
+        "label": "Toptan fiyat",
+        "value": "Talep üzerine Teranova aracılığıyla; herkese açık bir fiyat listesi yoktur."
+      },
+      {
+        "label": "Özel marka (private label)",
+        "value": "Mendil formülü alıcının markası için uyarlanabilir: şampuanlı mendiller, örgü ve rasta saçlar için mendiller, ferahlatıcı mendiller."
+      }
+    ],
+    "seoTitle": "Dr.Pelo — saç dökülmesine yönelik Kore saç derisi bakımı, MFDS kayıtlı · Teranova",
+    "seoDesc": "Dr.Pelo (JRM Holdings, Kore): saç dökülmesi belirtilerine yönelik MFDS kayıtlı, klinik çalışmalı Scalp Shampoo ve Scalp Tonic; Hair & Scalp Wipes. Teranova ile B2B.",
+    "catalog_notes": [
+      "Saç dökülmesi belirtilerinin hafifletilmesine yardımcı olan fonksiyonel kozmetik olarak MFDS'ye kayıtlı saç derisi şampuanı. L-mentol, salisilik asit ve dekspantenol kalıntıları temizleyip saç derisini ferahlatırken biyotin, niasinamid, altı hidrolize protein ve Kore bitki ekstraktları köklere bakım yapar. Islak saça ve saç derisine masaj yaparak uygulayın, ardından durulayın; haftada üç kez kullanılması önerilir.",
+      "Saç dökülmesi belirtilerinin hafifletilmesine yardımcı olan fonksiyonel kozmetik olarak MFDS'ye kayıtlı, durulanmayan saç derisi toniği. Her biri %10 oranında hasuo (Polygonum multiflorum) ve Houttuynia cordata ekstraktları, L-mentol, salisilik asit ve dekspantenolle birlikte yıkamalar arasında saç derisi üzerinde etki gösterir. Çalkalayın, günde bir kez, tercihen yatmadan önce saç derisine uygulayın ve masaj yaparak yedirin.",
+      "Saça ve saç derisine anında serinletici ferahlık veren, önceden nemlendirilmiş, durulama gerektirmeyen mendiller: mentol, salisilik asit, pantenol, biberiye, yeşil çay ve centella fazla yağın, terin ve kokunun giderilmesine yardımcı olur. Örgü, rasta ve twist saçlar dahil tüm saç tiplerine uygundur; spor salonunda, seyahatte ya da yıkamalar arasında kullanılabilir."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün serisi",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Formül ve bilimsel temel",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve belgeler",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık bir fiyat listesi yoktur. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz: görüşmeleri, doğrulamayı ve tedariki Teranova Group yürütür.",
+    "cta_h": "Bu tedarikçiyle ilgileniyor musunuz?",
+    "cta_d": "Bize ulaşın — Teranova ilk temastan teslimata kadar görüşmeleri, doğrulamayı ve anlaşma desteğini düzenler.",
+    "cta_btn": "Teranova aracılığıyla iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "MFDS kaydı ve klinik çalışmalar",
+    "certs_note": "Dr.Pelo Scalp Shampoo (bildirim no. 2018005699) ve Scalp Tonic (no. 2018005723), Kore Gıda ve İlaç Güvenliği Bakanlığı'na (MFDS, eski adıyla KFDA) saç dökülmesi belirtilerinin hafifletilmesine yardımcı olan fonksiyonel kozmetikler olarak kayıtlıdır; Teranova her iki kaydı da MFDS'nin herkese açık veri tabanında doğrulamıştır. Formül, Korea University Ansan Hospital ve P&K Skin Research Center'da 24 hafta süren çift kör, plasebo kontrollü çalışmalarda incelenmiştir. Raporların kopyaları anlaşma aşamasında alıcılarla paylaşılır.",
+    "products_h": "Ürünler",
+    "products_note": "Üç Dr.Pelo ürünü: Scalp Shampoo, Scalp Tonic ve Hair & Scalp Wipes. Görseller Dr.Pelo'nun resmî görselleridir.",
+    "gallery_h": "Dr.Pelo",
+    "gallery_note": "Dr.Pelo'nun resmî ürün ve marka fotoğrafları.",
+    "video_h": "Dr.Pelo saç derisi bakımı",
+    "video_note": "Dr.Pelo marka görüntüleri.",
+    "price_btn": "Ürün kataloğu (PDF)"
+  }
 }

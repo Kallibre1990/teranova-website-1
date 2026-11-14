@@ -1,52 +1,1016 @@
 [
   {
-    "line": "Hair Care",
-    "items": [
-      {
-        "name": "ARMING Cashmere Natural Clinic Shampoo",
-        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-shampoo.png"
-      },
-      {
-        "name": "ARMING Cashmere Natural Clinic Treatment",
-        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-treatment.png"
-      },
-      {
-        "name": "ARMING Cashmere Hair & Scalp Booster",
-        "img": "/img/suppliers/arming/products/cashmere-hair-scalp-booster.png"
-      },
-      {
-        "name": "ARMING Cashmere Damage Care Hair Pack",
-        "img": "/img/suppliers/arming/products/cashmere-damage-care-hair-pack.png"
-      },
-      {
-        "name": "ARMING Cashmere Multi Balm Essence",
-        "img": "/img/suppliers/arming/products/cashmere-multi-balm-essence.png"
-      }
-    ]
-  },
-  {
     "line": "Skin Care",
     "items": [
       {
         "name": "ARMING Signature Hyaluronic Cica Toner",
-        "img": "/img/suppliers/arming/products/hyaluronic-cica-toner.png"
+        "img": "/img/suppliers/arming/products/hydra-soothing-cica-toner.webp",
+        "volume": "160 ml",
+        "certs": [
+          "MFDS functional: brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "Centella asiatica leaf water",
+          "5 forms of hyaluronic acid"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "Вода листьев центеллы",
+            "5 форм гиалуроновой кислоты"
+          ],
+          "ko": [
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "병풀잎수",
+            "5중 히알루론산"
+          ],
+          "zh": [
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "积雪草叶水",
+            "五种透明质酸"
+          ],
+          "ja": [
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "ツボクサ葉水",
+            "5種類のヒアルロン酸"
+          ],
+          "it": [
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "Acqua di foglie di centella asiatica",
+            "5 forme di acido ialuronico"
+          ],
+          "de": [
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "Centella-asiatica-Blattwasser",
+            "5 Formen von Hyaluronsäure"
+          ],
+          "fr": [
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "Eau de feuilles de centella asiatica",
+            "5 formes d'acide hyaluronique"
+          ],
+          "tr": [
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "Centella asiatica yaprak suyu",
+            "5 form hiyalüronik asit"
+          ],
+          "es": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Agua de hoja de centella asiática",
+            "5 formas de ácido hialurónico"
+          ],
+          "pt": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Água de folhas de centella asiática",
+            "5 formas de ácido hialurônico"
+          ],
+          "he": [
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "מי עלי סנטלה אסיאטיקה",
+            "5 צורות של חומצה היאלורונית"
+          ],
+          "hi": [
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "सेंटेला एशियाटिका पत्ती जल",
+            "हायलूरोनिक एसिड के 5 रूप"
+          ]
+        }
       },
       {
         "name": "ARMING Signature Hyaluronic Cica Emulsion",
-        "img": "/img/suppliers/arming/products/hyaluronic-cica-emulsion.png"
+        "img": "/img/suppliers/arming/products/moisture-balance-cica-emulsion.webp",
+        "volume": "120 ml",
+        "certs": [
+          "MFDS functional: brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "Centella asiatica leaf water",
+          "Ceramides"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "Вода листьев центеллы",
+            "Церамиды"
+          ],
+          "ko": [
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "병풀잎수",
+            "세라마이드"
+          ],
+          "zh": [
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "积雪草叶水",
+            "神经酰胺"
+          ],
+          "ja": [
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "ツボクサ葉水",
+            "セラミド"
+          ],
+          "it": [
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "Acqua di foglie di centella asiatica",
+            "Ceramidi"
+          ],
+          "de": [
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "Centella-asiatica-Blattwasser",
+            "Ceramide"
+          ],
+          "fr": [
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "Eau de feuilles de centella asiatica",
+            "Céramides"
+          ],
+          "tr": [
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "Centella asiatica yaprak suyu",
+            "Seramidler"
+          ],
+          "es": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Agua de hoja de centella asiática",
+            "Ceramidas"
+          ],
+          "pt": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Água de folhas de centella asiática",
+            "Ceramidas"
+          ],
+          "he": [
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "מי עלי סנטלה אסיאטיקה",
+            "סרמידים"
+          ],
+          "hi": [
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "सेंटेला एशियाटिका पत्ती जल",
+            "सेरामाइड"
+          ]
+        }
       },
       {
-        "name": "ARMING Real Collagen Cica White Cream",
-        "img": "/img/suppliers/arming/products/real-collagen-cica-white-cream.png"
-      },
-      {
-        "name": "ARMING Real Collagen Cica White Eye Cream",
-        "img": "/img/suppliers/arming/products/real-collagen-cica-white-eye-cream.png"
+        "name": "ARMING Phyto Exosome Cica Ampoule",
+        "img": "/img/suppliers/arming/products/phyto-exosome-cica-ampoule.webp",
+        "volume": "50 ml",
+        "certs": [
+          "MFDS functional: brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "Ginseng exosomes",
+          "Centella exosomes"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "Экзосомы женьшеня",
+            "Экзосомы центеллы"
+          ],
+          "ko": [
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "인삼 엑소좀",
+            "병풀 엑소좀"
+          ],
+          "zh": [
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "人参外泌体",
+            "积雪草外泌体"
+          ],
+          "ja": [
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "高麗人参エクソソーム",
+            "ツボクサエクソソーム"
+          ],
+          "it": [
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "Esosomi di ginseng",
+            "Esosomi di centella"
+          ],
+          "de": [
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "Ginseng-Exosomen",
+            "Centella-Exosomen"
+          ],
+          "fr": [
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "Exosomes de ginseng",
+            "Exosomes de centella"
+          ],
+          "tr": [
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "Ginseng eksozomları",
+            "Centella eksozomları"
+          ],
+          "es": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Exosomas de ginseng",
+            "Exosomas de centella"
+          ],
+          "pt": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Exossomos de ginseng",
+            "Exossomos de centella"
+          ],
+          "he": [
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "אקסוזומים של ג'ינסנג",
+            "אקסוזומים של סנטלה"
+          ],
+          "hi": [
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "जिनसेंग एक्सोसोम",
+            "सेंटेला एक्सोसोम"
+          ]
+        }
       },
       {
         "name": "ARMING Multi Vita Cica Watery Cream",
-        "img": "/img/suppliers/arming/products/multi-vita-cica-watery-cream.png"
+        "img": "/img/suppliers/arming/products/multi-vita-cica-watery-cream.webp",
+        "volume": "50 g",
+        "certs": [
+          "MFDS functional: brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "Vitamins C, E, B5",
+          "Centella asiatica leaf water"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "Витамины C, E, B5",
+            "Вода листьев центеллы"
+          ],
+          "ko": [
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "비타민 C, E, B5",
+            "병풀잎수"
+          ],
+          "zh": [
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "维生素C、E、B5",
+            "积雪草叶水"
+          ],
+          "ja": [
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "ビタミンC・E・B5",
+            "ツボクサ葉水"
+          ],
+          "it": [
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "Vitamine C, E, B5",
+            "Acqua di foglie di centella asiatica"
+          ],
+          "de": [
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "Vitamine C, E, B5",
+            "Centella-asiatica-Blattwasser"
+          ],
+          "fr": [
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "Vitamines C, E, B5",
+            "Eau de feuilles de centella asiatica"
+          ],
+          "tr": [
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "C, E, B5 vitaminleri",
+            "Centella asiatica yaprak suyu"
+          ],
+          "es": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Vitaminas C, E, B5",
+            "Agua de hoja de centella asiática"
+          ],
+          "pt": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "Vitaminas C, E, B5",
+            "Água de folhas de centella asiática"
+          ],
+          "he": [
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "ויטמינים C, E, B5",
+            "מי עלי סנטלה אסיאטיקה"
+          ],
+          "hi": [
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "विटामिन C, E, B5",
+            "सेंटेला एशियाटिका पत्ती जल"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Real Collagen Cica White Cream",
+        "img": "/img/suppliers/arming/products/real-collagen-cica-white-cream.webp",
+        "volume": "50 g",
+        "certs": [
+          "MFDS functional: brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "7 types of collagen",
+          "Shea butter"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "7 видов коллагена",
+            "Масло ши"
+          ],
+          "ko": [
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "7중 콜라겐",
+            "시어버터"
+          ],
+          "zh": [
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "七种胶原蛋白",
+            "乳木果油"
+          ],
+          "ja": [
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "7種類のコラーゲン",
+            "シアバター"
+          ],
+          "it": [
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "7 tipi di collagene",
+            "Burro di karité"
+          ],
+          "de": [
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "7 Kollagenarten",
+            "Sheabutter"
+          ],
+          "fr": [
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "7 types de collagène",
+            "Beurre de karité"
+          ],
+          "tr": [
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "7 tür kolajen",
+            "Shea yağı"
+          ],
+          "es": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "7 tipos de colágeno",
+            "Manteca de karité"
+          ],
+          "pt": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "7 tipos de colágeno",
+            "Manteiga de karité"
+          ],
+          "he": [
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "7 סוגי קולגן",
+            "חמאת שיאה"
+          ],
+          "hi": [
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "7 प्रकार के कोलेजन",
+            "शिया बटर"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Real Collagen Cica Care Eye Cream",
+        "img": "/img/suppliers/arming/products/real-collagen-cica-eye-cream.webp",
+        "volume": "30 g",
+        "certs": [
+          "MFDS functional: brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "7 types of collagen",
+          "PDRN · NMN"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "7 видов коллагена",
+            "PDRN · NMN"
+          ],
+          "ko": [
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "7중 콜라겐",
+            "PDRN · NMN"
+          ],
+          "zh": [
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "七种胶原蛋白",
+            "PDRN · NMN"
+          ],
+          "ja": [
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "7種類のコラーゲン",
+            "PDRN · NMN"
+          ],
+          "it": [
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "7 tipi di collagene",
+            "PDRN · NMN"
+          ],
+          "de": [
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "7 Kollagenarten",
+            "PDRN · NMN"
+          ],
+          "fr": [
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "7 types de collagène",
+            "PDRN · NMN"
+          ],
+          "tr": [
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "7 tür kolajen",
+            "PDRN · NMN"
+          ],
+          "es": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "7 tipos de colágeno",
+            "PDRN · NMN"
+          ],
+          "pt": [
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "7 tipos de colágeno",
+            "PDRN · NMN"
+          ],
+          "he": [
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "7 סוגי קולגן",
+            "PDRN · NMN"
+          ],
+          "hi": [
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "7 प्रकार के कोलेजन",
+            "PDRN · NMN"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Signature Hyaluronic Cica Sun Cream SPF50+ PA++++",
+        "img": "/img/suppliers/arming/products/signature-hyaluronic-cica-suncream.webp",
+        "volume": "60 g",
+        "certs": [
+          "MFDS functional: UV protection · brightening · anti-wrinkle"
+        ],
+        "actives": [
+          "SPF50+ · PA++++",
+          "Niacinamide 2%",
+          "Adenosine 0.04%",
+          "5 forms of hyaluronic acid"
+        ],
+        "activesI18n": {
+          "ru": [
+            "SPF50+ · PA++++",
+            "Ниацинамид 2 %",
+            "Аденозин 0,04 %",
+            "5 форм гиалуроновой кислоты"
+          ],
+          "ko": [
+            "SPF50+ · PA++++",
+            "나이아신아마이드 2%",
+            "아데노신 0.04%",
+            "5중 히알루론산"
+          ],
+          "zh": [
+            "SPF50+ · PA++++",
+            "烟酰胺 2%",
+            "腺苷 0.04%",
+            "五种透明质酸"
+          ],
+          "ja": [
+            "SPF50+ · PA++++",
+            "ナイアシンアミド 2%",
+            "アデノシン 0.04%",
+            "5種類のヒアルロン酸"
+          ],
+          "it": [
+            "SPF50+ · PA++++",
+            "Niacinamide 2%",
+            "Adenosina 0,04%",
+            "5 forme di acido ialuronico"
+          ],
+          "de": [
+            "SPF50+ · PA++++",
+            "Niacinamid 2 %",
+            "Adenosin 0,04 %",
+            "5 Formen von Hyaluronsäure"
+          ],
+          "fr": [
+            "SPF50+ · PA++++",
+            "Niacinamide 2 %",
+            "Adénosine 0,04 %",
+            "5 formes d'acide hyaluronique"
+          ],
+          "tr": [
+            "SPF50+ · PA++++",
+            "%2 niasinamid",
+            "%0,04 adenozin",
+            "5 form hiyalüronik asit"
+          ],
+          "es": [
+            "SPF50+ · PA++++",
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "5 formas de ácido hialurónico"
+          ],
+          "pt": [
+            "SPF50+ · PA++++",
+            "Niacinamida 2%",
+            "Adenosina 0,04%",
+            "5 formas de ácido hialurônico"
+          ],
+          "he": [
+            "SPF50+ · PA++++",
+            "ניאצינמיד 2%",
+            "אדנוזין 0.04%",
+            "5 צורות של חומצה היאלורונית"
+          ],
+          "hi": [
+            "SPF50+ · PA++++",
+            "नियासिनामाइड 2%",
+            "एडेनोसिन 0.04%",
+            "हायलूरोनिक एसिड के 5 रूप"
+          ]
+        }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Уход за кожей",
+      "ko": "스킨케어",
+      "zh": "护肤",
+      "ja": "スキンケア",
+      "it": "Skincare",
+      "de": "Hautpflege",
+      "fr": "Soins de la peau",
+      "tr": "Cilt Bakımı",
+      "es": "Cuidado facial",
+      "pt": "Skincare",
+      "he": "טיפוח עור",
+      "hi": "स्किनकेयर"
+    }
+  },
+  {
+    "line": "Hair Care",
+    "items": [
+      {
+        "name": "ARMING Cashmere Natural Clinic Shampoo",
+        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-shampoo.png",
+        "volume": "300 ml · 500 ml",
+        "actives": [
+          "Coconut-derived surfactants",
+          "pH 5.0–6.0",
+          "Cypress oil"
+        ],
+        "activesI18n": {
+          "ru": [
+            "ПАВ кокосового происхождения",
+            "pH 5,0–6,0",
+            "Масло кипариса"
+          ],
+          "ko": [
+            "코코넛 유래 계면활성제",
+            "pH 5.0–6.0",
+            "편백 오일"
+          ],
+          "zh": [
+            "椰子来源表面活性剂",
+            "pH 5.0–6.0",
+            "扁柏精油"
+          ],
+          "ja": [
+            "ココナッツ由来の洗浄成分",
+            "pH 5.0–6.0",
+            "ヒノキ油"
+          ],
+          "it": [
+            "Tensioattivi di origine cocco",
+            "pH 5,0–6,0",
+            "Olio di cipresso"
+          ],
+          "de": [
+            "Tenside auf Kokosbasis",
+            "pH 5,0–6,0",
+            "Zypressenöl"
+          ],
+          "fr": [
+            "Tensioactifs d'origine coco",
+            "pH 5,0–6,0",
+            "Huile de cyprès"
+          ],
+          "tr": [
+            "Hindistan cevizi kaynaklı yüzey aktif maddeler",
+            "pH 5,0–6,0",
+            "Servi yağı"
+          ],
+          "es": [
+            "Tensioactivos de origen coco",
+            "pH 5,0–6,0",
+            "Aceite de ciprés"
+          ],
+          "pt": [
+            "Tensoativos derivados do coco",
+            "pH 5,0–6,0",
+            "Óleo de cipreste"
+          ],
+          "he": [
+            "פעילי שטח מקוקוס",
+            "pH 5.0–6.0",
+            "שמן ברוש"
+          ],
+          "hi": [
+            "नारियल से प्राप्त सर्फ़ेक्टेंट",
+            "pH 5.0–6.0",
+            "सरू का तेल"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Cashmere Natural Clinic Treatment",
+        "img": "/img/suppliers/arming/products/cashmere-natural-clinic-treatment.png",
+        "volume": "200 ml",
+        "actives": [
+          "Weakly acidic",
+          "Scalp and hair"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Слабокислая формула",
+            "Кожа головы и волосы"
+          ],
+          "ko": [
+            "약산성",
+            "두피·모발 케어"
+          ],
+          "zh": [
+            "弱酸性",
+            "头皮与头发"
+          ],
+          "ja": [
+            "弱酸性",
+            "頭皮と髪に"
+          ],
+          "it": [
+            "Leggermente acido",
+            "Cuoio capelluto e capelli"
+          ],
+          "de": [
+            "Schwach sauer",
+            "Kopfhaut und Haar"
+          ],
+          "fr": [
+            "Légèrement acide",
+            "Cuir chevelu et cheveux"
+          ],
+          "tr": [
+            "Hafif asidik",
+            "Saç derisi ve saç için"
+          ],
+          "es": [
+            "Ligeramente ácido",
+            "Cuero cabelludo y cabello"
+          ],
+          "pt": [
+            "Levemente ácido",
+            "Couro cabeludo e cabelo"
+          ],
+          "he": [
+            "חומציות קלה",
+            "לקרקפת ולשיער"
+          ],
+          "hi": [
+            "हल्का अम्लीय",
+            "स्कैल्प और बाल"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Cashmere Hair & Scalp Booster",
+        "img": "/img/suppliers/arming/products/cashmere-hair-scalp-booster.png",
+        "volume": "150 ml",
+        "actives": [
+          "Cypress water 81%",
+          "Dexpanthenol",
+          "L-Menthol",
+          "Salicylic acid"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Вода кипариса 81 %",
+            "Декспантенол",
+            "L-ментол",
+            "Салициловая кислота"
+          ],
+          "ko": [
+            "편백수 81%",
+            "덱스판테놀",
+            "엘-멘톨",
+            "살리실릭애씨드"
+          ],
+          "zh": [
+            "扁柏水 81%",
+            "右泛醇",
+            "L-薄荷醇",
+            "水杨酸"
+          ],
+          "ja": [
+            "ヒノキ水 81%",
+            "デクスパンテノール",
+            "l-メントール",
+            "サリチル酸"
+          ],
+          "it": [
+            "Acqua di cipresso 81%",
+            "Dexpantenolo",
+            "L-mentolo",
+            "Acido salicilico"
+          ],
+          "de": [
+            "Zypressenwasser 81 %",
+            "Dexpanthenol",
+            "L-Menthol",
+            "Salicylsäure"
+          ],
+          "fr": [
+            "Eau de cyprès 81 %",
+            "Dexpanthénol",
+            "L-menthol",
+            "Acide salicylique"
+          ],
+          "tr": [
+            "%81 servi suyu",
+            "Dekspantenol",
+            "L-mentol",
+            "Salisilik asit"
+          ],
+          "es": [
+            "Agua de ciprés 81%",
+            "Dexpantenol",
+            "L-mentol",
+            "Ácido salicílico"
+          ],
+          "pt": [
+            "Água de cipreste 81%",
+            "Dexpantenol",
+            "L-mentol",
+            "Ácido salicílico"
+          ],
+          "he": [
+            "מי ברוש 81%",
+            "דקספנתנול",
+            "L-מנתול",
+            "חומצה סליצילית"
+          ],
+          "hi": [
+            "सरू जल 81%",
+            "डेक्सपैन्थेनॉल",
+            "L-मेन्थॉल",
+            "सैलिसिलिक एसिड"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Cashmere Damage Care Hair Pack",
+        "img": "/img/suppliers/arming/products/cashmere-damage-care-hair-pack.png",
+        "volume": "250 g",
+        "actives": [
+          "Hydrolyzed keratin",
+          "Silk",
+          "Collagen",
+          "22 amino acids"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Гидролизованный кератин",
+            "Шёлк",
+            "Коллаген",
+            "22 аминокислоты"
+          ],
+          "ko": [
+            "가수분해케라틴",
+            "실크",
+            "콜라겐",
+            "22종 아미노산"
+          ],
+          "zh": [
+            "水解角蛋白",
+            "蚕丝",
+            "胶原蛋白",
+            "22种氨基酸"
+          ],
+          "ja": [
+            "加水分解ケラチン",
+            "シルク",
+            "コラーゲン",
+            "22種類のアミノ酸"
+          ],
+          "it": [
+            "Cheratina idrolizzata",
+            "Seta",
+            "Collagene",
+            "22 aminoacidi"
+          ],
+          "de": [
+            "Hydrolysiertes Keratin",
+            "Seide",
+            "Kollagen",
+            "22 Aminosäuren"
+          ],
+          "fr": [
+            "Kératine hydrolysée",
+            "Soie",
+            "Collagène",
+            "22 acides aminés"
+          ],
+          "tr": [
+            "Hidrolize keratin",
+            "İpek",
+            "Kolajen",
+            "22 amino asit"
+          ],
+          "es": [
+            "Queratina hidrolizada",
+            "Seda",
+            "Colágeno",
+            "22 aminoácidos"
+          ],
+          "pt": [
+            "Queratina hidrolisada",
+            "Seda",
+            "Colágeno",
+            "22 aminoácidos"
+          ],
+          "he": [
+            "קרטין מוידרל",
+            "משי",
+            "קולגן",
+            "22 חומצות אמינו"
+          ],
+          "hi": [
+            "हाइड्रोलाइज़्ड केराटिन",
+            "सिल्क",
+            "कोलेजन",
+            "22 अमीनो एसिड"
+          ]
+        }
+      },
+      {
+        "name": "ARMING Cashmere Multi Balm Essence",
+        "img": "/img/suppliers/arming/products/cashmere-multi-balm-essence.png",
+        "volume": "200 g",
+        "actives": [
+          "Leave-in",
+          "Heat and colour protection"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Несмываемая",
+            "Защита от нагрева и окрашивания"
+          ],
+          "ko": [
+            "리브인",
+            "열·염색 손상 보호"
+          ],
+          "zh": [
+            "免洗型",
+            "热损伤与染后防护"
+          ],
+          "ja": [
+            "洗い流さないタイプ",
+            "熱・カラーから保護"
+          ],
+          "it": [
+            "Senza risciacquo",
+            "Protezione da calore e colore"
+          ],
+          "de": [
+            "Leave-in",
+            "Hitze- und Farbschutz"
+          ],
+          "fr": [
+            "Sans rinçage",
+            "Protection chaleur et couleur"
+          ],
+          "tr": [
+            "Durulanmaz",
+            "Isı ve boya koruması"
+          ],
+          "es": [
+            "Sin aclarado",
+            "Protección frente al calor y el color"
+          ],
+          "pt": [
+            "Sem enxágue",
+            "Proteção contra calor e coloração"
+          ],
+          "he": [
+            "ללא שטיפה",
+            "הגנה מחום ומצביעה"
+          ],
+          "hi": [
+            "लीव-इन",
+            "हीट और कलर से सुरक्षा"
+          ]
+        }
+      }
+    ],
+    "lineI18n": {
+      "ru": "Уход за волосами",
+      "ko": "헤어케어",
+      "zh": "护发",
+      "ja": "ヘアケア",
+      "it": "Haircare",
+      "de": "Haarpflege",
+      "fr": "Soins capillaires",
+      "tr": "Saç Bakımı",
+      "es": "Cuidado capilar",
+      "pt": "Cuidados capilares",
+      "he": "טיפוח שיער",
+      "hi": "हेयर केयर"
+    }
   }
 ]

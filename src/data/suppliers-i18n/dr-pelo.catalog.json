@@ -1,10 +1,282 @@
 [
   {
-    "line": "Scalp & hair care",
+    "line": "Scalp & Hair Care",
     "items": [
-      { "name": "Dr.Pelo Scalp Shampoo", "img": "/img/suppliers/dr-pelo/products/scalp-shampoo.jpg", "certs": ["KFDA functional"] },
-      { "name": "Dr.Pelo Scalp Tonic", "img": "/img/suppliers/dr-pelo/products/scalp-tonic.jpg", "certs": ["KFDA functional"] },
-      { "name": "Dr.Pelo Hair & Scalp Wipes", "img": "/img/suppliers/dr-pelo/products/hair-scalp-wipes.jpg", "volume": "17 ml × 24 pouches", "certs": [] }
-    ]
+      {
+        "name": "Dr.Pelo Scalp Shampoo",
+        "img": "/img/suppliers/dr-pelo/products/scalp-shampoo.jpg",
+        "volume": "300 ml",
+        "certs": [
+          "MFDS functional: hair-loss symptom relief"
+        ],
+        "actives": [
+          "L-Menthol",
+          "Salicylic acid",
+          "Dexpanthenol",
+          "Biotin · Niacinamide"
+        ],
+        "activesI18n": {
+          "ru": [
+            "L-ментол",
+            "Салициловая кислота",
+            "Декспантенол",
+            "Биотин · Ниацинамид"
+          ],
+          "ko": [
+            "L-멘톨",
+            "살리실릭애씨드",
+            "덱스판테놀",
+            "비오틴 · 나이아신아마이드"
+          ],
+          "zh": [
+            "L-薄荷醇",
+            "水杨酸",
+            "右泛醇",
+            "生物素 · 烟酰胺"
+          ],
+          "ja": [
+            "L-メントール",
+            "サリチル酸",
+            "デクスパンテノール",
+            "ビオチン · ナイアシンアミド"
+          ],
+          "it": [
+            "L-mentolo",
+            "Acido salicilico",
+            "Dexpantenolo",
+            "Biotina · Niacinamide"
+          ],
+          "de": [
+            "L-Menthol",
+            "Salicylsäure",
+            "Dexpanthenol",
+            "Biotin · Niacinamid"
+          ],
+          "fr": [
+            "L-menthol",
+            "Acide salicylique",
+            "Dexpanthénol",
+            "Biotine · Niacinamide"
+          ],
+          "tr": [
+            "L-mentol",
+            "Salisilik asit",
+            "Dekspantenol",
+            "Biyotin · Niasinamid"
+          ],
+          "es": [
+            "L-mentol",
+            "Ácido salicílico",
+            "Dexpantenol",
+            "Biotina · Niacinamida"
+          ],
+          "pt": [
+            "L-mentol",
+            "Ácido salicílico",
+            "Dexpantenol",
+            "Biotina · Niacinamida"
+          ],
+          "he": [
+            "L-מנטול",
+            "חומצה סליצילית",
+            "דקספנתנול",
+            "ביוטין · ניאצינמיד"
+          ],
+          "hi": [
+            "L-मेंथॉल",
+            "सैलिसिलिक एसिड",
+            "डेक्सपैंथेनॉल",
+            "बायोटिन · नियासिनामाइड"
+          ]
+        }
+      },
+      {
+        "name": "Dr.Pelo Scalp Tonic",
+        "img": "/img/suppliers/dr-pelo/products/scalp-tonic.jpg",
+        "volume": "150 ml",
+        "certs": [
+          "MFDS functional: hair-loss symptom relief"
+        ],
+        "actives": [
+          "L-Menthol",
+          "Salicylic acid",
+          "Dexpanthenol",
+          "Houttuynia · Polygonum multiflorum"
+        ],
+        "activesI18n": {
+          "ru": [
+            "L-ментол",
+            "Салициловая кислота",
+            "Декспантенол",
+            "Хауттюйния · Горец многоцветковый"
+          ],
+          "ko": [
+            "L-멘톨",
+            "살리실릭애씨드",
+            "덱스판테놀",
+            "어성초 · 하수오"
+          ],
+          "zh": [
+            "L-薄荷醇",
+            "水杨酸",
+            "右泛醇",
+            "鱼腥草 · 何首乌"
+          ],
+          "ja": [
+            "L-メントール",
+            "サリチル酸",
+            "デクスパンテノール",
+            "ドクダミ · ツルドクダミ（何首烏）"
+          ],
+          "it": [
+            "L-mentolo",
+            "Acido salicilico",
+            "Dexpantenolo",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "de": [
+            "L-Menthol",
+            "Salicylsäure",
+            "Dexpanthenol",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "fr": [
+            "L-menthol",
+            "Acide salicylique",
+            "Dexpanthénol",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "tr": [
+            "L-mentol",
+            "Salisilik asit",
+            "Dekspantenol",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "es": [
+            "L-mentol",
+            "Ácido salicílico",
+            "Dexpantenol",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "pt": [
+            "L-mentol",
+            "Ácido salicílico",
+            "Dexpantenol",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "he": [
+            "L-מנטול",
+            "חומצה סליצילית",
+            "דקספנתנול",
+            "Houttuynia · Polygonum multiflorum"
+          ],
+          "hi": [
+            "L-मेंथॉल",
+            "सैलिसिलिक एसिड",
+            "डेक्सपैंथेनॉल",
+            "Houttuynia · Polygonum multiflorum"
+          ]
+        }
+      },
+      {
+        "name": "Dr.Pelo Hair & Scalp Wipes",
+        "img": "/img/suppliers/dr-pelo/products/hair-scalp-wipes.jpg",
+        "volume": "20 wipes · 120 g",
+        "actives": [
+          "Menthol",
+          "Salicylic acid",
+          "Panthenol",
+          "Rosemary · Green tea · Centella"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Ментол",
+            "Салициловая кислота",
+            "Пантенол",
+            "Розмарин · Зелёный чай · Центелла"
+          ],
+          "ko": [
+            "멘톨",
+            "살리실릭애씨드",
+            "판테놀",
+            "로즈마리 · 녹차 · 병풀"
+          ],
+          "zh": [
+            "薄荷醇",
+            "水杨酸",
+            "泛醇",
+            "迷迭香 · 绿茶 · 积雪草"
+          ],
+          "ja": [
+            "メントール",
+            "サリチル酸",
+            "パンテノール",
+            "ローズマリー · 緑茶 · ツボクサ"
+          ],
+          "it": [
+            "Mentolo",
+            "Acido salicilico",
+            "Pantenolo",
+            "Rosmarino · Tè verde · Centella"
+          ],
+          "de": [
+            "Menthol",
+            "Salicylsäure",
+            "Panthenol",
+            "Rosmarin · Grüntee · Centella"
+          ],
+          "fr": [
+            "Menthol",
+            "Acide salicylique",
+            "Panthénol",
+            "Romarin · Thé vert · Centella"
+          ],
+          "tr": [
+            "Mentol",
+            "Salisilik asit",
+            "Pantenol",
+            "Biberiye · Yeşil çay · Centella"
+          ],
+          "es": [
+            "Mentol",
+            "Ácido salicílico",
+            "Pantenol",
+            "Romero · Té verde · Centella"
+          ],
+          "pt": [
+            "Mentol",
+            "Ácido salicílico",
+            "Pantenol",
+            "Alecrim · Chá-verde · Centella"
+          ],
+          "he": [
+            "מנטול",
+            "חומצה סליצילית",
+            "פנתנול",
+            "רוזמרין · תה ירוק · סנטלה"
+          ],
+          "hi": [
+            "मेंथॉल",
+            "सैलिसिलिक एसिड",
+            "पैंथेनॉल",
+            "रोज़मेरी · ग्रीन टी · सेंटेला"
+          ]
+        }
+      }
+    ],
+    "lineI18n": {
+      "ru": "Уход за кожей головы и волосами",
+      "ko": "두피·모발 케어",
+      "zh": "头皮与头发护理",
+      "ja": "スカルプ＆ヘアケア",
+      "it": "Cura del cuoio capelluto e dei capelli",
+      "de": "Kopfhaut- und Haarpflege",
+      "fr": "Soin du cuir chevelu et des cheveux",
+      "tr": "Saç Derisi ve Saç Bakımı",
+      "es": "Cuidado del cuero cabelludo y del cabello",
+      "pt": "Cuidados com o couro cabeludo e os cabelos",
+      "he": "טיפוח קרקפת ושיער",
+      "hi": "स्कैल्प और बालों की देखभाल"
+    }
   }
 ]

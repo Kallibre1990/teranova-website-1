@@ -1,100 +1,145 @@
 {
   "content": {
-    "tagline": "Korean cosmetics manufacturer and its ARMING brand",
-    "descriptor": "Enveco Cosmetic develops and manufactures hair, skincare and body-care products; ARMING is the company’s own range",
+    "tagline": "Korean functional skincare and hair care from a GMP manufacturer in Gimpo",
+    "descriptor": "Enveco Cosmetic manufactures hair care, skincare and functional cosmetics in Gimpo, Korea, and develops products for partner brands (OEM/ODM). ARMING is its own brand: seven MFDS functional skincare products and the Cashmere hair care line.",
     "origin": "Republic of Korea",
     "about": [
-      "Enveco Cosmetic is a Korean cosmetics company. Its official supplier presentation describes formulation development, manufacturing and OEM/ODM cooperation; the scope and suitability of each capability are confirmed for the individual project.",
-      "ARMING is presented as Enveco Cosmetic’s own range for hair, facial and body care. This page uses official images and neutral product names without therapeutic or functional promises."
+      "Enveco Cosmetic Co., Ltd. is a Korean cosmetics manufacturer with its own plant and research institute in Gimpo, Gyeonggi-do. The company formulates, produces and packs hair care, scalp care, skincare and body care, as well as functional cosmetics for brightening, wrinkle improvement, UV protection and the relief of hair-loss symptoms. Its research institute has been recognised by the Korea Industrial Technology Association (KOITA) since 2016, and production follows the ISO 22716 cosmetics GMP standard, first certified in 2019.",
+      "ARMING is Enveco's own brand, launched in 2020. The name means \"being beautiful\", and the packaging carries a motif of a traditional Korean window lattice. In January 2026 the brand added a skincare line of seven products. Each of them is a functional cosmetic reported to Korea's Ministry of Food and Drug Safety (MFDS) for two effects: skin brightening (niacinamide 2%) and wrinkle improvement (adenosine 0.04%). The sun cream adds a third: SPF50+ PA++++ UV protection.",
+      "Every skincare formula is built on 9.8% centella asiatica leaf water, with peptides, ceramides and retinol, and each product has its own signature component: five forms of hyaluronic acid, a seven-collagen complex, ginseng and centella exosomes, or a multivitamin complex. The ARMING Cashmere hair care line, including a scalp booster with 81% cypress water, completes the range.",
+      "For partner brands, Enveco works as an OEM manufacturer (your formula and brand) and an ODM developer (from product planning and formulation to production, quality control and shipping). The company has produced hair care for Korean TV-shopping brands and exports to Southeast Asia, Greater China and other markets."
     ],
     "facts": [
-      "Company: Enveco Cosmetic Co., Ltd.",
-      "Own brand: ARMING",
-      "Categories: hair, facial and body care",
-      "Prices and commercial terms on request"
+      "Enveco Cosmetic Co., Ltd. (엔베코코스메틱), own plant and research institute in Gimpo, Gyeonggi-do, Korea",
+      "Registered cosmetics manufacturer and responsible seller in Korea; MFDS manufacturer registration no. 1809",
+      "Production to ISO 22716 (cosmetics GMP), first certified in 2019; ISO 9001 and ISO 14001 in the company's history",
+      "7 ARMING skincare products reported to MFDS as functional cosmetics (2025–2026); the ARMING sun cream approved by MFDS in August 2025",
+      "ARMING export contracts in Singapore, the Philippines, Taiwan and Malaysia (per the company)",
+      "OEM and ODM: hair and scalp care, functional cosmetics, hair colour, skincare and body care"
     ],
     "channels": [
-      "Cosmetics importers and distributors",
-      "Salons and professional channels",
-      "Retail chains and online stores"
+      "Importers and distributors of Korean cosmetics",
+      "Pharmacies, salons and professional channels",
+      "Retail chains, TV shopping and online stores",
+      "Brands looking for an OEM/ODM manufacturer in Korea"
     ],
     "lines": [
       {
-        "name": "Hair Care",
-        "note": "Shampoos, conditioning care and hair oil."
-      },
-      {
         "name": "Skin Care",
-        "note": "Toner, ampoule and creams for daily skincare."
+        "note": "Seven MFDS functional products for brightening and wrinkle improvement: toner, emulsion, ampoule, watery cream, collagen cream, eye cream and an SPF50+ PA++++ sun cream. All share 9.8% centella leaf water, niacinamide 2% and adenosine 0.04%."
       },
       {
-        "name": "Body Care",
-        "note": "Body-care and personal-care products."
+        "name": "Hair Care",
+        "note": "The Cashmere line for the scalp and hair: a clinic shampoo on coconut-derived surfactants, a weakly acidic treatment, a scalp booster with 81% cypress water, a damage-care hair pack and a leave-in balm essence."
+      },
+      {
+        "name": "OEM / ODM",
+        "note": "Contract manufacturing under the client's brand: hair and scalp care, functional cosmetics (brightening, anti-wrinkle, UV protection, hair-loss symptom relief), hair colour, skincare and body care."
       }
     ],
     "tech": [
       {
-        "name": "Project-specific verification",
-        "note": "The company describes formulation work and OEM/ODM in its official presentation. The brief, formula, tests and labelling are agreed separately for each project."
+        "name": "Dual-function base",
+        "note": "Niacinamide 2% for brightening and adenosine 0.04% for wrinkle improvement, in the doses set by the MFDS functional-cosmetic standard, in all seven skincare products."
+      },
+      {
+        "name": "Cica foundation",
+        "note": "Centella asiatica leaf water at 9.8% replaces part of the water phase in every skincare formula, together with peptides, ceramides and retinol."
+      },
+      {
+        "name": "Signature complexes",
+        "note": "Five forms of hyaluronic acid from low to high molecular weight (toner, emulsion, sun cream); seven types of collagen (white cream, eye cream); ginseng and centella exosomes (ampoule); PDRN and NMN (eye cream, sun cream)."
+      },
+      {
+        "name": "In-house R&D",
+        "note": "A KOITA-recognised research institute develops formulas for hair, scalp and functional skincare, working with Korean universities and ingredient makers."
       }
     ],
     "formats": [
-      "Shampoo and treatment",
-      "Toner, ampoule and cream",
-      "Body and personal care"
+      "Toner",
+      "Emulsion",
+      "Ampoule",
+      "Creams",
+      "Eye cream",
+      "Sun cream SPF50+",
+      "Shampoo",
+      "Treatment",
+      "Scalp booster",
+      "Hair pack and essence"
     ],
-    "exportNote": "Enveco Cosmetic gave written permission for a separate company and ARMING profile for international B2B partners. Price sheets, MOQ, direct contacts and confidential commercial terms are not published.",
+    "exportNote": "This profile was prepared by Teranova from materials Enveco Cosmetic provided directly: the company catalogue, the ARMING skincare brochure, MFDS functional-cosmetic reports and product technical sheets. Prices, minimum order quantities and the company's direct contacts are not published; buyers receive them on request through Teranova.",
+    "consentNote": "Enveco Cosmetic gave written permission for this profile on 14 September 2026 and sent the current images and documents on 30 September 2026.",
     "terms": [
       {
-        "label": "Cooperation",
-        "value": "B2B supply and project enquiries through Teranova."
+        "label": "Manufacturing",
+        "value": "Enveco Cosmetic's own plant in Gimpo, Gyeonggi-do, Korea."
       },
       {
-        "label": "Range",
-        "value": "ARMING products and Enveco capabilities are considered against the current brief."
+        "label": "Functional status",
+        "value": "All seven ARMING skincare products are MFDS functional cosmetics (brightening and wrinkle improvement; the sun cream also UV protection). Teranova has reviewed the MFDS reports and technical sheets; copies are shared with buyers at the deal stage."
       },
       {
-        "label": "Price",
-        "value": "On request; no public price list."
+        "label": "Formats of cooperation",
+        "value": "Finished ARMING products, private label and OEM/ODM development."
+      },
+      {
+        "label": "Minimum order",
+        "value": "Depends on the product and format; ARMING products are available in small trial quantities. Confirmed on request."
+      },
+      {
+        "label": "Wholesale price",
+        "value": "On request through Teranova; there is no public price list."
+      },
+      {
+        "label": "Documents for importers",
+        "value": "Technical sheets with full INCI lists and EAN-13 barcodes, MFDS reports and an English brochure are available."
+      },
+      {
+        "label": "Negotiations",
+        "value": "Through Teranova."
       }
     ],
-    "consentNote": "Official Enveco Cosmetic / ARMING materials are published under written permission dated 14 September 2026. Prices, personal contacts, therapeutic claims and unverified certificates are excluded.",
-    "seoTitle": "Enveco Cosmetic / ARMING — Korean cosmetics and OEM/ODM · Teranova",
-    "seoDesc": "Enveco Cosmetic and its ARMING range: Korean hair, facial and body care. B2B enquiries through Teranova.",
+    "seoTitle": "Enveco Cosmetic / ARMING — Korean MFDS functional skincare, hair care and OEM/ODM · Teranova",
+    "seoDesc": "Enveco Cosmetic (Gimpo, Korea): ARMING skincare — 7 MFDS functional products for brightening and wrinkle improvement, SPF50+ PA++++ sun cream — Cashmere hair care, and OEM/ODM manufacturing. B2B via Teranova.",
     "catalog_notes": [
-      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
-      "ARMING Cashmere Natural Clinic Treatment — official supplier image.",
-      "ARMING Cashmere Hair & Scalp Booster — official supplier image.",
-      "ARMING Cashmere Damage Care Hair Pack — official supplier image.",
-      "ARMING Cashmere Multi Balm Essence — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Emulsion — official supplier image.",
-      "ARMING Real Collagen Cica White Cream — official supplier image.",
-      "ARMING Real Collagen Cica White Eye Cream — official supplier image.",
-      "ARMING Multi Vita Cica Watery Cream — official supplier image."
+      "A soothing, hydrating toner with 9.8% centella leaf water and five forms of hyaluronic acid, from low to high molecular weight, plus ceramides and peptides. MFDS functional cosmetic for brightening and wrinkle improvement.",
+      "A light emulsion that locks in the toner's hydration: centella leaf water, five forms of hyaluronic acid, ceramides and peptides. MFDS functional cosmetic for brightening and wrinkle improvement.",
+      "A concentrated gel ampoule with ginseng and centella exosomes (plant extracellular vesicles), ceramides and peptides for a healthy, even complexion. MFDS functional cosmetic for brightening and wrinkle improvement.",
+      "A fresh, watery cream with a vitamin complex (C, E, B5 and B3), centella leaf water and ceramides, for elasticity and a brighter tone. MFDS functional cosmetic for brightening and wrinkle improvement.",
+      "A rich cream with a complex of seven types of collagen, shea butter and ceramides, for firm, supple, radiant skin. MFDS functional cosmetic for brightening and wrinkle improvement.",
+      "An eye cream with seven types of collagen, salmon PDRN, NMN, panthenol and a copper peptide for the delicate skin around the eyes. MFDS functional cosmetic for brightening and wrinkle improvement.",
+      "A daily sun cream with four modern UV filters, SPF50+ PA++++, that spreads smoothly without a white cast, with niacinamide, adenosine, hyaluronic acid, PDRN and NMN. MFDS functional cosmetic with three effects: UV protection, brightening and wrinkle improvement. Not water-resistant.",
+      "A cleansing shampoo on coconut-derived surfactants with a weakly acidic pH of 5.0–6.0 and cypress essential oil, for the scalp and hair together.",
+      "A weakly acidic liquid treatment for oily scalps that controls frizz and dryness and leaves the hair smooth.",
+      "A scalp spray in which 81% cypress water replaces ordinary water, with dexpanthenol, L-menthol and salicylic acid; it refreshes the scalp and removes odour. Used once a day.",
+      "A rinse-off hair pack with hydrolyzed keratin, silk, collagen and 22 amino acids for damaged hair.",
+      "A leave-in balm essence that forms a protective film on hair stressed by colouring, perming and heat styling."
     ]
   },
   "ui": {
     "profile_sup": "Supplier profile",
     "about_h": "About the company",
-    "for_whom": "Who it's for:",
-    "lines_h": "Product range",
+    "for_whom": "Who it is for:",
+    "lines_h": "Product lines",
     "catalog_h": "Product catalog",
-    "tech_h": "Technology",
+    "tech_h": "Formula technology",
     "formats_h": "Product formats",
-    "export_h": "Export and terms",
+    "export_h": "Export and documents",
     "terms_h": "Terms of cooperation",
     "download_btn": "Download terms (PDF)",
     "pres_btn": "Download presentation (PDF)",
-    "terms_disc": "On request; no public price list.",
+    "terms_disc": "On request; there is no public price list. The supplier's direct contacts are not published: Teranova Group handles negotiations, verification and delivery.",
     "cta_h": "Interested in this supplier?",
-    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_d": "Reach out — Teranova arranges negotiations, verification and deal support from first contact through delivery.",
     "cta_btn": "Contact via Teranova",
     "more": "Open profile →",
     "verified_suppliers": "Verified suppliers",
-    "certs_h": "Certifications",
-    "certs_note": "",
+    "certs_h": "MFDS functional cosmetics and quality",
+    "certs_note": "All seven ARMING skincare products are reported to Korea's Ministry of Food and Drug Safety (MFDS) as functional cosmetics for brightening (niacinamide 2%) and wrinkle improvement (adenosine 0.04%), reports dated September 2025 to April 2026. The sun cream also protects against UV rays, SPF50+ PA++++; the ARMING sun cream was approved by MFDS in August 2025, which Teranova has confirmed in the public MFDS database. Teranova has reviewed the reports and technical sheets; copies are shared with buyers at the deal stage.",
     "products_h": "Products",
-    "products_note": "Official images of ten ARMING products from supplier materials."
+    "products_note": "Seven ARMING skincare products and five Cashmere hair care products. Official images from Enveco Cosmetic.",
+    "gallery_h": "ARMING skincare",
+    "gallery_note": "Official ARMING packshots provided by Enveco Cosmetic.",
+    "price_btn": "Product catalog (PDF)"
   }
 }

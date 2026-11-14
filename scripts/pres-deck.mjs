@@ -166,6 +166,10 @@ export function deckCSS(C, voice) {
   .prod__mono { font-size: 13pt; font-weight: 800; letter-spacing: .06em; color: ${deep}; opacity: .42; }
   .prod .n { font-size: 8.5pt; font-weight: 700; color: #1c2430; margin-top: 2mm; line-height: 1.35; }
   .prod .v { font-size: 8pt; color: #7b8593; margin-top: .8mm; }
+  .grid--few { margin-top: 5mm; }
+  .grid--few .prod__ph { height: 78mm; }
+  .grid--few .prod .n { font-size: 10.5pt; }
+  .grid--few .prod .d { font-size: 8.5pt; line-height: 1.5; color: #48525f; margin-top: 2mm; }
 
   .terms .lab { font-weight: 800; color: ${deep}; font-size: 10pt; }
   .terms .val { font-size: 9.5pt; color: #48525f; line-height: 1.5; margin-top: 1mm; }
@@ -306,6 +310,21 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
        пустоту внизу; на полном гриде (4 ряда) инлайн-стиль не добавляется —
        вид не меняется. */
     const fullRows = Math.ceil(maxPerPage / 3);
+    /* A catalogue of three or fewer products filled one short row and left
+       the rest of the page empty (Dr.Pelo, T-20261114-091). Such a page shows
+       each product large, with its catalogue note, instead of a stretched row. */
+    if (flat.length <= 3 && pages.length === 1) {
+      const notes = d.catalogNotes || [];
+      P.push(page(cfg, cfg.supplier, u.catalog_h || u.products_h || 'Product catalog',
+        (u.products_note ? `<p>${esc(u.products_note)}</p>` : '') +
+        `<div class="grid grid--few">${flat.map((it, k) => `
+          <div class="prod">
+            <div class="prod__ph">${it.abs ? `<img src="file://${it.abs}">` : `<span class="prod__mono">${T(monogram(it.name))}</span>`}</div>
+            <div class="n">${T(it.name)}</div>
+            ${it.volume ? `<div class="v">${T(it.volume)}</div>` : ''}
+            ${notes[k] ? `<div class="d">${esc(notes[k])}</div>` : ''}
+          </div>`).join('')}</div>`));
+    } else
     pages.forEach((items, i) => {
       const rows = Math.ceil(items.length / 3);
       const gridStyle = rows < fullRows ? ' style="flex:1;align-content:space-evenly"' : '';

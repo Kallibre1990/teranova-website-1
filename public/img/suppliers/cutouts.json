@@ -610,5 +610,40 @@
    "image64.png",
    "image65.png"
   ]
+ },
+ "arming": {
+  "clean": [
+   "hydra-soothing-cica-toner.webp",
+   "moisture-balance-cica-emulsion.webp",
+   "multi-vita-cica-watery-cream.webp",
+   "phyto-exosome-cica-ampoule.webp",
+   "real-collagen-cica-eye-cream.webp",
+   "real-collagen-cica-white-cream.webp",
+   "signature-hyaluronic-cica-suncream.webp"
+  ],
+  "all": [
+   "cashmere-damage-care-hair-pack.png",
+   "cashmere-hair-scalp-booster.png",
+   "cashmere-multi-balm-essence.png",
+   "cashmere-natural-clinic-shampoo.png",
+   "cashmere-natural-clinic-treatment.png",
+   "hydra-soothing-cica-toner.webp",
+   "moisture-balance-cica-emulsion.webp",
+   "multi-vita-cica-watery-cream.webp",
+   "phyto-exosome-cica-ampoule.webp",
+   "real-collagen-cica-eye-cream.webp",
+   "real-collagen-cica-white-cream.webp",
+   "signature-hyaluronic-cica-suncream.webp"
+  ]
+ },
+ "dr-pelo": {
+  "clean": [
+   "hair-scalp-wipes.webp"
+  ],
+  "all": [
+   "hair-scalp-wipes.jpg",
+   "scalp-shampoo.jpg",
+   "scalp-tonic.jpg"
+  ]
  }
 }

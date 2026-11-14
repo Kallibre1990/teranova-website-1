@@ -1,100 +1,145 @@
 {
   "content": {
-    "tagline": "Koreli kozmetik üreticisi ve ARMING markası",
-    "descriptor": "Enveco Cosmetic saç, yüz ve vücut bakım ürünleri geliştirip üretir; ARMING şirketin kendi ürün serisidir",
-    "origin": "Republic of Korea",
+    "tagline": "Gimpo'daki GMP üreticisinden Kore fonksiyonel cilt ve saç bakımı",
+    "descriptor": "Enveco Cosmetic, Kore'nin Gimpo kentinde saç bakım, cilt bakım ve fonksiyonel kozmetik ürünleri üretiyor ve iş ortağı markalar için ürün geliştiriyor (OEM/ODM). ARMING şirketin kendi markasıdır: yedi MFDS fonksiyonel cilt bakım ürünü ve Cashmere saç bakım serisi.",
+    "origin": "Kore Cumhuriyeti",
     "about": [
-      "Enveco Cosmetic is a Korean cosmetics company. Its official supplier presentation describes formulation development, manufacturing and OEM/ODM cooperation; the scope and suitability of each capability are confirmed for the individual project.",
-      "ARMING is presented as Enveco Cosmetic’s own range for hair, facial and body care. This page uses official images and neutral product names without therapeutic or functional promises."
+      "Enveco Cosmetic Co., Ltd., Gyeonggi eyaletinin Gimpo kentinde kendi fabrikası ve araştırma enstitüsü bulunan bir Kore kozmetik üreticisidir. Şirket saç, saç derisi, cilt ve vücut bakım ürünlerinin yanı sıra aydınlatma, kırışıklık iyileştirme, UV koruması ve saç dökülmesi belirtilerinin hafifletilmesine yönelik fonksiyonel kozmetikleri formüle ediyor, üretiyor ve ambalajlıyor. Araştırma enstitüsü 2016'dan bu yana Kore Endüstriyel Teknoloji Derneği (KOITA) tarafından tanınıyor; üretim ise ilk kez 2019'da belgelendirilen ISO 22716 kozmetik GMP standardına göre yürütülüyor.",
+      "ARMING, Enveco'nun 2020'de piyasaya sürdüğü kendi markasıdır. Adı \"güzel olmak\" anlamına gelir ve ambalajında geleneksel Kore pencere kafesinden alınmış bir motif yer alır. Marka, Ocak 2026'da yedi üründen oluşan bir cilt bakım serisi ekledi. Bu ürünlerin her biri, Kore Gıda ve İlaç Güvenliği Bakanlığı'na (MFDS) iki etki için bildirilmiş bir fonksiyonel kozmetiktir: cilt aydınlatma (%2 niasinamid) ve kırışıklık iyileştirme (%0,04 adenozin). Güneş kremi bunlara üçüncü bir etki ekler: SPF50+ PA++++ UV koruması.",
+      "Tüm cilt bakım formülleri %9,8 Centella asiatica yaprak suyu üzerine kuruludur; bunu peptitler, seramidler ve retinol tamamlar. Her ürünün ayrıca kendine özgü bir imza bileşeni vardır: beş form hiyalüronik asit, yedi kolajenden oluşan bir kompleks, ginseng ve centella eksozomları ya da bir multivitamin kompleksi. Ürün gamını, %81 servi suyu içeren saç derisi booster'ı da dahil olmak üzere ARMING Cashmere saç bakım serisi tamamlar.",
+      "Enveco, iş ortağı markalar için hem OEM üreticisi (sizin formülünüz ve markanız) hem de ODM geliştiricisi (ürün planlaması ve formülasyondan üretime, kalite kontrole ve sevkiyata kadar) olarak çalışır. Şirket, Kore'nin TV alışveriş markaları için saç bakım ürünleri üretmiştir ve Güneydoğu Asya, Büyük Çin bölgesi ile diğer pazarlara ihracat yapmaktadır."
     ],
     "facts": [
-      "Company: Enveco Cosmetic Co., Ltd.",
-      "Own brand: ARMING",
-      "Categories: hair, facial and body care",
-      "Prices and commercial terms on request"
+      "Enveco Cosmetic Co., Ltd. (엔베코코스메틱), Kore'nin Gyeonggi eyaletine bağlı Gimpo'da kendi fabrikası ve araştırma enstitüsü",
+      "Kore'de kayıtlı kozmetik üreticisi ve sorumlu satıcı; MFDS üretici kayıt no. 1809",
+      "ISO 22716'ya (kozmetik GMP) göre üretim, ilk belgelendirme 2019'da; şirket geçmişinde ISO 9001 ve ISO 14001",
+      "MFDS'ye fonksiyonel kozmetik olarak bildirilmiş 7 ARMING cilt bakım ürünü (2025–2026); ARMING güneş kremi Ağustos 2025'te MFDS onayı aldı",
+      "Singapur, Filipinler, Tayvan ve Malezya'da ARMING ihracat sözleşmeleri (şirketin verilerine göre)",
+      "OEM ve ODM: saç ve saç derisi bakımı, fonksiyonel kozmetikler, saç boyası, cilt ve vücut bakımı"
     ],
     "channels": [
-      "Cosmetics importers and distributors",
-      "Salons and professional channels",
-      "Retail chains and online stores"
+      "Kore kozmetiği ithalatçıları ve distribütörleri",
+      "Eczaneler, kuaför salonları ve profesyonel kanallar",
+      "Perakende zincirleri, TV alışverişi ve online mağazalar",
+      "Kore'de OEM/ODM üreticisi arayan markalar"
     ],
     "lines": [
       {
-        "name": "Hair Care",
-        "note": "Shampoos, conditioning care and hair oil."
+        "name": "Cilt Bakımı",
+        "note": "Aydınlatma ve kırışıklık iyileştirme için yedi MFDS fonksiyonel ürün: tonik, emülsiyon, ampul, sulu krem, kolajen krem, göz kremi ve SPF50+ PA++++ güneş kremi. Hepsinin ortak bileşenleri %9,8 centella yaprak suyu, %2 niasinamid ve %0,04 adenozindir."
       },
       {
-        "name": "Skin Care",
-        "note": "Toner, ampoule and creams for daily skincare."
+        "name": "Saç Bakımı",
+        "note": "Saç derisi ve saç için Cashmere serisi: hindistan cevizi kaynaklı yüzey aktif maddelerle hazırlanan bir klinik şampuan, hafif asidik bir bakım kremi, %81 servi suyu içeren bir saç derisi booster'ı, yıpranmış saçlar için bir saç maskesi ve durulanmayan bir balm esans."
       },
       {
-        "name": "Body Care",
-        "note": "Body-care and personal-care products."
+        "name": "OEM / ODM",
+        "note": "Müşterinin markasıyla fason üretim: saç ve saç derisi bakımı, fonksiyonel kozmetikler (aydınlatma, kırışıklık karşıtı, UV koruması, saç dökülmesi belirtilerinin hafifletilmesi), saç boyası, cilt ve vücut bakımı."
       }
     ],
     "tech": [
       {
-        "name": "Project-specific verification",
-        "note": "The company describes formulation work and OEM/ODM in its official presentation. The brief, formula, tests and labelling are agreed separately for each project."
+        "name": "Çift fonksiyonlu baz",
+        "note": "Yedi cilt bakım ürününün tamamında, MFDS fonksiyonel kozmetik standardının belirlediği dozlarda aydınlatma için %2 niasinamid ve kırışıklık iyileştirme için %0,04 adenozin bulunur."
+      },
+      {
+        "name": "Cica temeli",
+        "note": "Her cilt bakım formülünde su fazının bir kısmının yerini %9,8 oranında Centella asiatica yaprak suyu alır; ona peptitler, seramidler ve retinol eşlik eder."
+      },
+      {
+        "name": "İmza kompleksler",
+        "note": "Düşükten yükseğe farklı molekül ağırlıklarında beş form hiyalüronik asit (tonik, emülsiyon, güneş kremi); yedi tür kolajen (beyaz krem, göz kremi); ginseng ve centella eksozomları (ampul); PDRN ve NMN (göz kremi, güneş kremi)."
+      },
+      {
+        "name": "Şirket içi Ar-Ge",
+        "note": "KOITA tarafından tanınan araştırma enstitüsü, Kore üniversiteleri ve hammadde üreticileriyle birlikte çalışarak saç, saç derisi ve fonksiyonel cilt bakımı için formüller geliştirir."
       }
     ],
     "formats": [
-      "Shampoo and treatment",
-      "Toner, ampoule and cream",
-      "Body and personal care"
+      "Tonik",
+      "Emülsiyon",
+      "Ampul",
+      "Kremler",
+      "Göz kremi",
+      "SPF50+ güneş kremi",
+      "Şampuan",
+      "Saç bakım kremi",
+      "Saç derisi booster'ı",
+      "Saç maskesi ve esans"
     ],
-    "exportNote": "Enveco Cosmetic gave written permission for a separate company and ARMING profile for international B2B partners. Price sheets, MOQ, direct contacts and confidential commercial terms are not published.",
+    "exportNote": "Bu profil, Teranova tarafından Enveco Cosmetic'in doğrudan sağladığı materyallerden hazırlanmıştır: şirket kataloğu, ARMING cilt bakım broşürü, MFDS fonksiyonel kozmetik bildirimleri ve ürünlerin teknik föyleri. Fiyatlar, minimum sipariş miktarları ve şirketin doğrudan iletişim bilgileri yayımlanmaz; alıcılar bunları talep üzerine Teranova aracılığıyla alır.",
+    "consentNote": "Enveco Cosmetic bu profil için 14 Eylül 2026'da yazılı izin verdi ve güncel görselleri ve belgeleri 30 Eylül 2026'da gönderdi.",
     "terms": [
       {
-        "label": "Cooperation",
-        "value": "B2B supply and project enquiries through Teranova."
+        "label": "Üretim",
+        "value": "Enveco Cosmetic'in Kore'nin Gyeonggi eyaletindeki Gimpo'da bulunan kendi fabrikası."
       },
       {
-        "label": "Range",
-        "value": "ARMING products and Enveco capabilities are considered against the current brief."
+        "label": "Fonksiyonel statü",
+        "value": "Yedi ARMING cilt bakım ürününün tamamı MFDS fonksiyonel kozmetiğidir (aydınlatma ve kırışıklık iyileştirme; güneş kremi ayrıca UV koruması). Teranova MFDS bildirimlerini ve teknik föyleri incelemiştir; kopyaları anlaşma aşamasında alıcılarla paylaşılır."
       },
       {
-        "label": "Price",
-        "value": "On request; no public price list."
+        "label": "İş birliği biçimleri",
+        "value": "Hazır ARMING ürünleri, özel marka (private label) ve OEM/ODM geliştirme."
+      },
+      {
+        "label": "Minimum sipariş",
+        "value": "Ürüne ve formata göre değişir; ARMING ürünleri küçük deneme miktarlarında da temin edilebilir. Talep üzerine teyit edilir."
+      },
+      {
+        "label": "Toptan fiyat",
+        "value": "Talep üzerine Teranova aracılığıyla; herkese açık bir fiyat listesi yoktur."
+      },
+      {
+        "label": "İthalatçılar için belgeler",
+        "value": "Tam INCI listeleri ve EAN-13 barkodları içeren teknik föyler, MFDS bildirimleri ve İngilizce broşür mevcuttur."
+      },
+      {
+        "label": "Görüşmeler",
+        "value": "Teranova aracılığıyla."
       }
     ],
-    "consentNote": "Official Enveco Cosmetic / ARMING materials are published under written permission dated 14 September 2026. Prices, personal contacts, therapeutic claims and unverified certificates are excluded.",
-    "seoTitle": "Enveco Cosmetic / ARMING — Koreli kozmetik üreticisi ve ARMING markası · Teranova",
-    "seoDesc": "Enveco Cosmetic and its ARMING range: Korean hair, facial and body care. B2B enquiries through Teranova.",
+    "seoTitle": "Enveco Cosmetic / ARMING — Kore MFDS fonksiyonel cilt, saç bakımı ve OEM/ODM · Teranova",
+    "seoDesc": "Enveco Cosmetic (Gimpo, Kore): 7 MFDS fonksiyonel ARMING ürünü (aydınlatma, kırışıklık), SPF50+ PA++++ güneş kremi, Cashmere saç bakımı, OEM/ODM. B2B: Teranova.",
     "catalog_notes": [
-      "ARMING Cashmere Natural Clinic Shampoo — official supplier image.",
-      "ARMING Cashmere Natural Clinic Treatment — official supplier image.",
-      "ARMING Cashmere Hair & Scalp Booster — official supplier image.",
-      "ARMING Cashmere Damage Care Hair Pack — official supplier image.",
-      "ARMING Cashmere Multi Balm Essence — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Toner — official supplier image.",
-      "ARMING Signature Hyaluronic Cica Emulsion — official supplier image.",
-      "ARMING Real Collagen Cica White Cream — official supplier image.",
-      "ARMING Real Collagen Cica White Eye Cream — official supplier image.",
-      "ARMING Multi Vita Cica Watery Cream — official supplier image."
+      "%9,8 centella yaprak suyu, düşükten yükseğe molekül ağırlığında beş form hiyalüronik asit, seramidler ve peptitler içeren yatıştırıcı ve nemlendirici tonik. Aydınlatma ve kırışıklık iyileştirme için MFDS fonksiyonel kozmetiği.",
+      "Toniğin sağladığı nemi ciltte tutan hafif emülsiyon: centella yaprak suyu, beş form hiyalüronik asit, seramidler ve peptitler. Aydınlatma ve kırışıklık iyileştirme için MFDS fonksiyonel kozmetiği.",
+      "Sağlıklı ve eşit bir cilt tonu için ginseng ve centella eksozomları (bitkisel hücre dışı veziküller), seramidler ve peptitler içeren yoğun jel ampul. Aydınlatma ve kırışıklık iyileştirme için MFDS fonksiyonel kozmetiği.",
+      "Elastikiyet ve daha aydınlık bir ton için vitamin kompleksi (C, E, B5 ve B3), centella yaprak suyu ve seramidler içeren ferah, sulu krem. Aydınlatma ve kırışıklık iyileştirme için MFDS fonksiyonel kozmetiği.",
+      "Sıkı, esnek ve ışıltılı bir cilt için yedi tür kolajenden oluşan bir kompleks, shea yağı ve seramidler içeren zengin krem. Aydınlatma ve kırışıklık iyileştirme için MFDS fonksiyonel kozmetiği.",
+      "Göz çevresinin hassas cildi için yedi tür kolajen, somon PDRN'si, NMN, pantenol ve bakır peptit içeren göz kremi. Aydınlatma ve kırışıklık iyileştirme için MFDS fonksiyonel kozmetiği.",
+      "Dört modern UV filtresiyle SPF50+ PA++++ koruma sağlayan, beyaz iz bırakmadan kolayca yayılan günlük güneş kremi; niasinamid, adenozin, hiyalüronik asit, PDRN ve NMN içerir. Üç etkili MFDS fonksiyonel kozmetiği: UV koruması, aydınlatma ve kırışıklık iyileştirme. Suya dayanıklı değildir.",
+      "Saç derisine ve saça birlikte bakan, hindistan cevizi kaynaklı yüzey aktif maddeler, 5,0–6,0 aralığında hafif asidik pH ve servi uçucu yağı içeren arındırıcı şampuan.",
+      "Yağlı saç derileri için hafif asidik sıvı bakım kremi; kabarmayı ve kuruluğu kontrol altına alır, saçı pürüzsüz bırakır.",
+      "Sıradan suyun yerini %81 servi suyunun aldığı, dekspantenol, L-mentol ve salisilik asit içeren saç derisi spreyi; saç derisini ferahlatır ve kokuyu giderir. Günde bir kez kullanılır.",
+      "Yıpranmış saçlar için hidrolize keratin, ipek, kolajen ve 22 amino asit içeren, durulanan saç maskesi.",
+      "Boya, perma ve ısıyla şekillendirmeden yıpranan saçlarda koruyucu bir film oluşturan, durulanmayan balm esans."
     ]
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",
     "about_h": "Şirket hakkında",
     "for_whom": "Kimlere uygun:",
-    "lines_h": "Ürün hatları",
+    "lines_h": "Ürün serileri",
     "catalog_h": "Ürün kataloğu",
-    "tech_h": "Teknoloji",
+    "tech_h": "Formül teknolojisi",
     "formats_h": "Ürün formatları",
-    "export_h": "İhracat ve pazarlar",
+    "export_h": "İhracat ve belgeler",
     "terms_h": "İş birliği koşulları",
     "download_btn": "Koşulları indir (PDF)",
     "pres_btn": "Sunumu indir (PDF)",
-    "terms_disc": "On request; no public price list.",
-    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
-    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
-    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "terms_disc": "Talep üzerine; herkese açık bir fiyat listesi yoktur. Tedarikçinin doğrudan iletişim bilgileri yayımlanmaz: görüşmeleri, doğrulamayı ve tedariki Teranova Group yürütür.",
+    "cta_h": "Bu tedarikçiyle ilgileniyor musunuz?",
+    "cta_d": "Bize ulaşın — Teranova ilk temastan teslimata kadar görüşmeleri, doğrulamayı ve anlaşma desteğini düzenler.",
+    "cta_btn": "Teranova aracılığıyla iletişime geçin",
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
-    "certs_h": "Sertifikalar",
-    "certs_note": "",
+    "certs_h": "MFDS fonksiyonel kozmetikler ve kalite",
+    "certs_note": "Yedi ARMING cilt bakım ürününün tamamı, Kore Gıda ve İlaç Güvenliği Bakanlığı'na (MFDS) aydınlatma (%2 niasinamid) ve kırışıklık iyileştirme (%0,04 adenozin) için fonksiyonel kozmetik olarak bildirilmiştir; bildirimler Eylül 2025 ile Nisan 2026 arasına tarihlidir. Güneş kremi ayrıca SPF50+ PA++++ ile UV ışınlarına karşı koruma sağlar; ARMING güneş kremi Ağustos 2025'te MFDS onayı almıştır ve Teranova bunu MFDS'nin herkese açık veritabanında doğrulamıştır. Teranova bildirimleri ve teknik föyleri incelemiştir; kopyaları anlaşma aşamasında alıcılarla paylaşılır.",
     "products_h": "Ürünler",
-    "products_note": "Tedarikçi materyallerinden on ARMING ürününün resmî görselleri."
+    "products_note": "Yedi ARMING cilt bakım ürünü ve beş Cashmere saç bakım ürünü. Görseller Enveco Cosmetic'in resmî görselleridir.",
+    "gallery_h": "ARMING cilt bakımı",
+    "gallery_note": "Enveco Cosmetic tarafından sağlanan resmî ARMING ürün fotoğrafları.",
+    "price_btn": "Ürün kataloğu (PDF)"
   }
 }

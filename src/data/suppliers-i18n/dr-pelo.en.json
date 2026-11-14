@@ -1,90 +1,119 @@
 {
- "content": {
-  "tagline": "Korean professional scalp and anti-hair-loss care by Dr.Pelo",
-  "descriptor": "Dr.Pelo — Korean professional scalp care and a functional anti-hair-loss line the brand states is approved by the KFDA. Owned by JRM Holdings.",
-  "origin": "Republic of Korea",
-  "about": [
-   "Dr.Pelo is a Korean professional scalp- and hair-care brand, owned by JRM Holdings. It works from a simple idea — that hair problems begin at the scalp — and builds its routine around cleansing buildup, calming the scalp and supporting the roots.",
-   "The brand states that its anti-hair-loss formulation is approved by the KFDA and was studied clinically with Korea University Ansan Hospital as a functional product for relieving hair loss. These are the company's own statements; Teranova presents them for B2B partners and does not independently verify them. Prices and commercial terms are shared on request, not published."
-  ],
-  "facts": [
-   "Brand: Dr.Pelo, owned by JRM Holdings",
-   "Korean professional scalp care and anti-hair-loss line",
-   "The brand states the line is a KFDA-approved functional product for relieving hair loss, studied with Korea University Ansan Hospital",
-   "Key actives named by the brand: L-Menthol, Salicylic Acid and Dexpanthenol",
-   "Prices and commercial terms on request"
-  ],
-  "channels": [
-   "Professional hair-care distributors",
-   "Salons and scalp-care centres",
-   "Retail chains and online stores"
-  ],
-  "lines": [
-   {
-    "name": "Scalp & hair care",
-    "note": "A focused, scalp-first routine: the Scalp Shampoo and Scalp Tonic for anti-hair-loss care, and the Hair & Scalp Wipes for on-the-go cleansing between washes."
-   }
-  ],
-  "tech": [
-   {
-    "name": "Scalp-first approach",
-    "note": "The brand describes hair loss as starting at the scalp — buildup, inflammation, poor nutrient supply and weakened roots — and works to cleanse and exfoliate the scalp, support circulation and balance scalp pH (about 4.5–5.5)."
-   },
-   {
-    "name": "Key actives, per the brand",
-    "note": "L-Menthol to refresh the scalp and remove buildup, Salicylic Acid to gently exfoliate and unclog pores, and Dexpanthenol to help the scalp barrier hold moisture. Presented as the brand states them."
-   }
-  ],
-  "formats": [
-   "Scalp shampoo",
-   "Scalp tonic",
-   "Hair & scalp wipes"
-  ],
-  "exportNote": "Dr.Pelo authorised a profile and selected products for international B2B partners through Teranova. Prices, MOQ and confidential commercial terms are not published.",
-  "terms": [
-   {
-    "label": "Cooperation",
-    "value": "Wholesale B2B supply of finished Dr.Pelo products through Teranova."
-   },
-   {
-    "label": "Certification",
-    "value": "The brand states a KFDA-approved functional anti-hair-loss line, studied with Korea University Ansan Hospital. Presented as stated by the brand, not independently verified by Teranova."
-   },
-   {
-    "label": "Price",
-    "value": "On request; no public price list."
-   }
-  ],
-  "consentNote": "Official Dr.Pelo materials — name, logo and product images — are published under JRM Holdings' written permission. Anti-hair-loss and clinical statements are presented as stated by the brand (a KFDA-approved functional line). Prices and personal contacts are not published.",
-  "seoTitle": "Dr.Pelo — Korean professional scalp and anti-hair-loss care · Teranova",
-  "seoDesc": "Dr.Pelo (JRM Holdings): Korean scalp shampoo, scalp tonic and hair & scalp wipes — a functional anti-hair-loss line the brand states is KFDA-approved. B2B through Teranova.",
-  "catalog_notes": [
-   "Dr.Pelo Scalp Shampoo — a scalp-care shampoo the brand presents as a KFDA-approved functional product for relieving hair loss: it cleanses buildup and refreshes the scalp with L-Menthol, Salicylic Acid and Dexpanthenol.",
-   "Dr.Pelo Scalp Tonic — a leave-on tonic in the same anti-hair-loss line, which the brand presents as a KFDA-approved functional product to soothe and support the scalp between washes.",
-   "Dr.Pelo Hair & Scalp Wipes — on-the-go wipes for nourishing care and deep cleansing of hair and scalp without washing; 17 ml per pouch, per the brand."
-  ]
- },
- "ui": {
-  "profile_sup": "Supplier profile",
-  "about_h": "About the company",
-  "for_whom": "Who it's for:",
-  "lines_h": "Product range",
-  "catalog_h": "Product catalog",
-  "tech_h": "Technology",
-  "formats_h": "Product formats",
-  "export_h": "Export and terms",
-  "terms_h": "Terms of cooperation",
-  "download_btn": "Download terms (PDF)",
-  "pres_btn": "Download presentation (PDF)",
-  "terms_disc": "On request; no public price list.",
-  "cta_h": "Interested in this supplier?",
-  "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
-  "cta_btn": "Contact via Teranova",
-  "more": "Open profile →",
-  "verified_suppliers": "Verified suppliers",
-  "certs_h": "Certifications",
-  "certs_note": "",
-  "products_h": "Products",
-  "products_note": "Official product photos of the three Dr.Pelo products: Scalp Shampoo, Scalp Tonic and Hair & Scalp Wipes."
- }
+  "content": {
+    "tagline": "Korean functional scalp care for hair loss, registered with MFDS and clinically studied",
+    "descriptor": "Dr.Pelo is a Korean scalp-care brand owned by JRM Holdings: a Scalp Shampoo and Scalp Tonic registered with Korea's MFDS as functional cosmetics that help relieve hair-loss symptoms, and no-rinse Hair & Scalp Wipes.",
+    "origin": "Republic of Korea",
+    "about": [
+      "Dr.Pelo is a Korean professional scalp- and hair-care brand owned by JRM Holdings. Its idea is simple: healthy, full hair starts with a healthy scalp. Dr.Pelo treats hair loss, shedding and dandruff as scalp problems — build-up, inflammation, lack of nutrients and weakened roots — and builds its routine around cleansing and exfoliating the scalp, supporting circulation and keeping the scalp at its optimal pH of 4.5–5.5.",
+      "The Dr.Pelo Scalp Shampoo and Scalp Tonic are functional cosmetics registered with Korea's Ministry of Food and Drug Safety (MFDS, formerly KFDA) for helping to relieve hair-loss symptoms. Teranova has verified both registrations in the public MFDS database: report no. 2018005699 for the shampoo and no. 2018005723 for the tonic. Their three key actives are L-menthol, salicylic acid and dexpanthenol, combined with more than ten Korean herbal extracts, including Polygonum multiflorum (hasuo) and Houttuynia cordata.",
+      "The formula has been tested clinically. In a 24-week, double-blind, placebo-controlled study at the Department of Dermatology of Korea University Ansan Hospital with 50 participants, hair density in the active group rose from 75.3 to 89.4 hairs per cm² (+18.7%) and hair thickness from 0.062 to 0.079 mm (+27.4%), with no adverse reactions. A second 24-week placebo-controlled study of the tonic formula at the P&K Skin Research Center found increased hair density in 80% of users, against 29.6% in the placebo group.",
+      "The range is completed by the Dr.Pelo Hair & Scalp Wipes: a waterless, no-rinse format with menthol for instant cooling refreshment of the hair and scalp between washes, suitable for every hair type, including braids, locs and twists. Dr.Pelo products are made in Korea, gender-neutral and designed for regular home use."
+    ],
+    "facts": [
+      "Brand Dr.Pelo, owned by JRM Holdings; made in Korea",
+      "Scalp Shampoo and Scalp Tonic: MFDS-registered functional cosmetics for relieving hair-loss symptoms (reports 2018005699 and 2018005723, verified by Teranova in the MFDS database)",
+      "Clinical study at Korea University Ansan Hospital: 24 weeks, double-blind, placebo-controlled, 50 participants — hair density +18.7%, hair thickness +27.4%",
+      "Key actives: L-menthol, salicylic acid, dexpanthenol, plus 10+ Korean herbal extracts",
+      "Three products: Scalp Shampoo 300 ml, Scalp Tonic 150 ml, Hair & Scalp Wipes (20 wipes)",
+      "Shelf life 36 months; open to Brazil, Latin America and other markets"
+    ],
+    "channels": [
+      "Professional hair-care and pharmacy distributors",
+      "Salons, trichology and scalp-care clinics",
+      "Retail chains and online stores",
+      "Gyms, travel retail and on-the-go formats (wipes)"
+    ],
+    "lines": [
+      {
+        "name": "Scalp & Hair Care",
+        "note": "A two-step functional routine — the Scalp Shampoo to cleanse and exfoliate the scalp and the leave-on Scalp Tonic to work on the roots — and the Hair & Scalp Wipes for a no-rinse refresh between washes."
+      }
+    ],
+    "tech": [
+      {
+        "name": "Three-active complex",
+        "note": "L-menthol cools and refreshes the scalp and helps remove build-up; salicylic acid gently exfoliates and unclogs follicles; dexpanthenol helps the scalp barrier hold moisture."
+      },
+      {
+        "name": "Korean herbal extracts",
+        "note": "More than ten plant extracts, including Polygonum multiflorum (hasuo), Houttuynia cordata, centella, green tea and rosemary, with biotin, niacinamide and hydrolyzed keratin, collagen and silk proteins."
+      },
+      {
+        "name": "Clinically studied",
+        "note": "Two 24-week, double-blind, placebo-controlled studies: at Korea University Ansan Hospital (50 participants) and at the P&K Skin Research Center (52 participants who completed the tonic study)."
+      }
+    ],
+    "formats": [
+      "Scalp shampoo",
+      "Leave-on scalp tonic",
+      "No-rinse hair & scalp wipes"
+    ],
+    "exportNote": "This profile was prepared by Teranova from materials Dr.Pelo provided directly — product technical sheets, clinical study reports, the brand catalogue and official images — and from the MFDS public database. Prices and minimum order quantities are provided to buyers on request through Teranova.",
+    "consentNote": "JRM Holdings confirmed the Dr.Pelo profile on 14 September 2026 and sent the current images and documents on 22 and 30 September 2026.",
+    "terms": [
+      {
+        "label": "Manufacturing",
+        "value": "Republic of Korea."
+      },
+      {
+        "label": "Functional status",
+        "value": "Scalp Shampoo and Scalp Tonic: MFDS-registered functional cosmetics for relieving hair-loss symptoms, verified by Teranova in the public MFDS database. The Hair & Scalp Wipes are a general cosmetic."
+      },
+      {
+        "label": "Clinical documents",
+        "value": "Final reports of the 24-week studies at Korea University Ansan Hospital and the P&K Skin Research Center; copies are shared with buyers at the deal stage."
+      },
+      {
+        "label": "Shelf life",
+        "value": "36 months from manufacture for all three products."
+      },
+      {
+        "label": "Minimum order",
+        "value": "Set per product; orders from several buyers can be combined. Confirmed on request."
+      },
+      {
+        "label": "Wholesale price",
+        "value": "On request through Teranova; there is no public price list."
+      },
+      {
+        "label": "Private label",
+        "value": "The wipes formula can be adapted for a buyer's brand: shampoo wipes, braids and locs, refreshing wipes."
+      }
+    ],
+    "seoTitle": "Dr.Pelo — Korean functional scalp care for hair loss, MFDS-registered · Teranova",
+    "seoDesc": "Dr.Pelo (JRM Holdings, Korea): Scalp Shampoo and Scalp Tonic registered with MFDS as functional cosmetics for hair-loss symptom relief, clinically studied; Hair & Scalp Wipes. B2B via Teranova.",
+    "catalog_notes": [
+      "A scalp shampoo registered with MFDS as a functional cosmetic that helps relieve hair-loss symptoms. L-menthol, salicylic acid and dexpanthenol cleanse build-up and refresh the scalp, while biotin, niacinamide, six hydrolyzed proteins and Korean herbal extracts care for the roots. Massage into wet hair and scalp, then rinse; recommended three times a week.",
+      "A leave-on scalp tonic registered with MFDS as a functional cosmetic that helps relieve hair-loss symptoms. Extracts of hasuo (Polygonum multiflorum) and Houttuynia cordata, 10% each, work with L-menthol, salicylic acid and dexpanthenol on the scalp between washes. Shake, apply to the scalp once a day — ideally before bed — and massage in.",
+      "Pre-moistened, no-rinse wipes for an instant cooling refresh of the hair and scalp: menthol, salicylic acid, panthenol, rosemary, green tea and centella help remove excess oil, sweat and odour. For all hair types, including braids, locs and twists — at the gym, when travelling or between washes."
+    ]
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it is for:",
+    "lines_h": "Product line",
+    "catalog_h": "Product catalog",
+    "tech_h": "Formula and science",
+    "formats_h": "Product formats",
+    "export_h": "Export and documents",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; there is no public price list. The supplier's direct contacts are not published: Teranova Group handles negotiations, verification and delivery.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Reach out — Teranova arranges negotiations, verification and deal support from first contact through delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "MFDS registration and clinical studies",
+    "certs_note": "The Dr.Pelo Scalp Shampoo (report no. 2018005699) and Scalp Tonic (no. 2018005723) are registered with Korea's Ministry of Food and Drug Safety (MFDS, formerly KFDA) as functional cosmetics that help relieve hair-loss symptoms; Teranova has verified both entries in the public MFDS database. The formula was studied for 24 weeks in double-blind, placebo-controlled trials at Korea University Ansan Hospital and the P&K Skin Research Center. Copies of the reports are shared with buyers at the deal stage.",
+    "products_h": "Products",
+    "products_note": "Three Dr.Pelo products: Scalp Shampoo, Scalp Tonic and Hair & Scalp Wipes. Official images from Dr.Pelo.",
+    "gallery_h": "Dr.Pelo",
+    "gallery_note": "Official Dr.Pelo product and brand photography.",
+    "video_h": "Dr.Pelo scalp care",
+    "video_note": "Brand footage from Dr.Pelo.",
+    "price_btn": "Product catalog (PDF)"
+  }
 }

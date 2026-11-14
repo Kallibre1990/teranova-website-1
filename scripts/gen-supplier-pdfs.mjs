@@ -452,13 +452,16 @@ const SUPPLIERS = [
     certs: [],
   },
   {
-    /* JRM Holdings: письменное согласие на профиль Dr.Pelo от 14.09.2026.
-       Прайс и MOQ закрыты; anti-hair-loss claims без новой проверки не публикуются. */
-    id: 'dr-pelo', json: 'dr-pelo', supplier: 'Dr.Pelo', brand: 'Dr.Pelo',
-    basis: 'B2B · terms on request', noPrice: true,
-    colors: { deep: '#26382F', sky: '#A6B09A', bg: '#F6F3ED', line: '#DED8CC' },
+    /* JRM Holdings / Dr.Pelo: согласие 14.09.2026; правки Judy Kim 22.09 и
+       30.09.2026 (T-20261114-091). Цены и MOQ не публикуются — каталог без
+       цены с фото трёх позиций, условия и презентация. Статус функциональной
+       косметики MFDS подтверждён присланными документами. */
+    id: 'dr-pelo', json: 'dr-pelo', supplier: 'JRM Holdings', brand: 'Dr.Pelo',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#2E2433', sky: '#E7D3C3', accent: '#7A2E6E', bg: '#FBF6F2', line: '#EADBD0' },
     pres: true,
-    certs: [],
+    catalogPhotos: true,
+    certs: ['MFDS functional cosmetic · Scalp Shampoo', 'MFDS functional cosmetic · Scalp Tonic', 'Clinical study · Korea University Ansan Hospital'],
   },
   {
     /* ENS Korea / WHAMISA: подписанное согласие 21.09.2026 на профиль и
@@ -480,13 +483,15 @@ const SUPPLIERS = [
     certs: [],
   },
   {
-    /* Enveco Cosmetic / ARMING: отдельный профиль разрешён письменно 14.09.2026.
-       Прайсы, MOQ, контакты и закрытые условия не публикуются. */
+    /* Enveco Cosmetic / ARMING: согласие 14.09.2026; правки Judy Kim
+       30.09.2026 (T-20261114-091). Прайсы, MOQ и контакты не публикуются —
+       каталог без цены с фото, условия и презентация. */
     id: 'arming', json: 'arming', supplier: 'Enveco Cosmetic Co., Ltd.', brand: 'ARMING',
-    basis: 'B2B · terms on request', noPrice: true,
-    colors: { deep: '#243B36', sky: '#A7BEB2', bg: '#F3F6F3', line: '#D8E2DC' },
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#1F3350', sky: '#B9C8DD', accent: '#2F4F8A', bg: '#F4F7FB', line: '#D9E2EE' },
     pres: true,
-    certs: [],
+    catalogPhotos: true,
+    certs: ['MFDS functional cosmetics · 7 skincare products', 'SPF50+ PA++++ · MFDS'],
   },
   {
     /* THEMAQUEEN: согласие 16.09.2026 относится только к корпоративному
@@ -877,6 +882,7 @@ function presData(cfg, lang) {
   return {
     tagline: c.tagline, descriptor: c.descriptor, about: c.about, facts: c.facts, lines: linesWithPhotos(cfg, c.lines),
     tech: c.tech, formats: c.formats, exportNote: c.exportNote, certs: cfg.certs,
+    catalogNotes: c.catalog_notes || [],
     certs_note: u.certs_note || '', ui: { certs_h: 'Certifications', ...u },
   };
 }
