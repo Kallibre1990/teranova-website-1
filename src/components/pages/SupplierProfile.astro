@@ -640,7 +640,7 @@ function monogram(name: string): string {
             const ac = postContent(post, lang);
             return (
               <a class="sp-article" href={localizePath(`/blog/${post.slug}`, lang)}>
-                <span class="sp-article__img">
+                <span class={`sp-article__img${!articleCovers.get(post.slug)?.products.length && post.hero?.startsWith('/img/blog/art-') ? ' sp-article__img--photo' : ''}`}>
                   {articleCovers.get(post.slug)?.products.length ? (
                     <BrandCover
                       products={articleCovers.get(post.slug)!.products}
@@ -1005,6 +1005,13 @@ function monogram(name: string): string {
   .sp-article:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 14%, transparent); }
   .sp-article__img { display: flex; justify-content: center; align-items: center; background: linear-gradient(160deg, color-mix(in srgb, var(--ds-sky) 14%, #fff), #fff 80%); padding: 20px; min-height: 160px; }
   .sp-article__img img { max-height: 160px; max-width: 100%; width: auto; object-fit: contain; }
+  /* A generated blog-art cover (gen-blog-art.mjs, wide aspect, path
+     /img/blog/art-*) fills the card edge to edge. The padded/contain layout
+     above stays for the icon placeholder, the drawn BrandCover and real
+     supplier photos (collages, gallery shots) that were not framed for a
+     tight crop (T-20261116-012). */
+  .sp-article__img--photo { padding: 0; height: 160px; background: none; overflow: hidden; }
+  .sp-article__img--photo img { width: 100%; height: 100%; max-height: none; max-width: none; object-fit: cover; }
   .sp-article__ph { width: 56px; height: 56px; color: color-mix(in srgb, var(--ds-sky) 58%, #fff); }
   .sp-article__txt { display: flex; flex-direction: column; padding: 18px 20px 20px; flex: 1; }
   .sp-article__cat { align-self: flex-start; font-size: 0.64rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 3px 8px; margin-bottom: 10px; }

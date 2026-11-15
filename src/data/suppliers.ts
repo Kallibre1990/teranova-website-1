@@ -2871,13 +2871,21 @@ export const suppliers: SupplierProfile[] = [
     name: 'VEO Biotech (为邑生物)',
     brand: 'Helio PDRN',
     status: 'provided',
-    brandColors: { deep: '#12303A', sky: '#7FB0C4', accent: '#2F7D99', bg: '#EEF4F7' },
+    /* Точные цвета сняты пипеткой с логотипа поставщика
+       (_MAIL_CRM/contacts/helio-bio-com/files/image.png): навy «VEO»/«BIOTECH»
+       ≈ rgb(5,51,101), бирюзовый треугольник в «V» ≈ rgb(5,165,164).
+       sky/bg — светлые разбавления того же бирюзового, не своя гамма
+       (T-20261116-012). */
+    brandColors: { deep: '#053365', sky: '#76CECD', accent: '#05A5A4', bg: '#EEF9F9' },
+    logoUrl: '/img/suppliers/veo-biotech/logo.png',
     voice: 'clinical',
     /* Письменное согласие VEO Biotech от 22.09.2026 на профиль компании и сырья
        Helio PDRN / Sodium DNA. Полный COA публично не размещается — только сводка
        спецификации; цены, способы оплаты и функции как независимо проверённые не
-       публикуются. Изображений сырья нет: фото на их сайте — сток, по правилу
-       IMAGERY на страницу не идут; карточки показывают монограмму. */
+       публикуются. Фото сырья нет: снимки на их сайте — сток, по правилу
+       IMAGERY на страницу не идут. Карточка и шапка показывают собранную
+       кодом иллюстрацию (scripts/gen-veo-illustration.mjs — спираль ДНК,
+       фрагменты, порошок в цветах логотипа), не монограмму (T-20261116-012). */
     catalog: veoBiotechCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>> }[] }[],
     termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf', he: '/docs/veo-biotech-terms-he.pdf', hi: '/docs/veo-biotech-terms-hi.pdf' },
     presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf', he: '/docs/veo-biotech-presentation-he.pdf', hi: '/docs/veo-biotech-presentation-hi.pdf' },
