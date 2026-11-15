@@ -18,20 +18,20 @@
     "items": [
       {
         "name": "Helio PDRN — Sodium DNA powder",
-        "volume": "cosmetic grade, 99% or higher",
+        "volume": "cosmetic grade, purity 99.9%",
         "volumeI18n": {
-          "ru": "косметическая градация, 99% и выше",
-          "ko": "화장품 등급, 99% 이상",
-          "zh": "化妆品级，99%以上",
-          "ja": "化粧品グレード、99%以上",
-          "it": "grado cosmetico, 99% o superiore",
-          "de": "Kosmetikqualität, 99 % oder höher",
-          "fr": "Qualité cosmétique, 99 % ou plus",
-          "tr": "kozmetik sınıf, %99 ve üzeri",
-          "es": "grado cosmético, 99% o superior",
-          "pt": "grau cosmético, 99% ou superior",
-          "he": "דרגה קוסמטית, 99% ומעלה",
-          "hi": "कॉस्मेटिक ग्रेड, 99% या उससे अधिक"
+          "ru": "косметическая градация, чистота 99,9%",
+          "ko": "화장품 등급, 순도 99.9%",
+          "zh": "化妆品级，纯度99.9%",
+          "ja": "化粧品グレード、純度99.9%",
+          "it": "grado cosmetico, purezza 99,9%",
+          "de": "Kosmetikqualität, Reinheit 99,9 %",
+          "fr": "Qualité cosmétique, pureté 99,9 %",
+          "tr": "kozmetik sınıf, %99,9 saflık",
+          "es": "grado cosmético, pureza 99,9%",
+          "pt": "grau cosmético, pureza 99,9%",
+          "he": "דרגה קוסמטית, טוהר 99.9%",
+          "hi": "कॉस्मेटिक ग्रेड, 99.9% शुद्धता"
         }
       }
     ]

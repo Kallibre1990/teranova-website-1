@@ -40,7 +40,8 @@ def lang_of(path):
 
 
 # Публичное имя, если оно не совпадает со слагом файла (адрес сохранён, имя сменилось).
-DISPLAY = {'veo-biotech': 'WEIYI BIOTECH'}
+# veo-biotech: с 14.11.2026 публичное имя VEO Biotech совпадает со слагом, override не нужен.
+DISPLAY = {}
 
 KIND = {'terms': 'Terms of cooperation', 'price': 'Price list', 'catalog': 'Catalog', 'presentation': 'Presentation'}
 
