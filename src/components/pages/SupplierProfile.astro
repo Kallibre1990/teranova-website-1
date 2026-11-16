@@ -264,8 +264,8 @@ function monogram(name: string): string {
         <div class="sp-hero__main">
           <span class="sp-eyebrow">{c.ui.profile_sup}</span>
           <figure class="sp-logo">
-            {logo && <Image src={logo} alt={`${profile.brand}`} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
-            {!logo && profile.logoUrl && <img src={profile.logoUrl} alt={profile.brand} loading="eager" decoding="async" />}
+            {logo && <Image src={logo} alt={profile.logoAlt ?? profile.brand} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
+            {!logo && profile.logoUrl && <img src={profile.logoUrl} alt={profile.logoAlt ?? profile.brand} loading="eager" decoding="async" />}
           </figure>
           <h1 class="sp-name">{h1Name}</h1>
           <p class="sp-tagline">«{c.tagline}»</p>

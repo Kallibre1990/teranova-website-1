@@ -929,6 +929,9 @@ export interface SupplierProfile {
   gallery?: string[];
   /** Supplier-provided logo stored under /public when no Astro import is needed. */
   logoUrl?: string;
+  /** Alt text for logoUrl when it must name the company, not profile.brand
+   * (e.g. a product brand like "Helio PDRN" is not the company's name). */
+  logoAlt?: string;
   /* Ролики самого поставщика, лежащие на нашем домене. Не встраиваем чужой
      плеер: он приносит на страницу имя канала, кнопку «смотреть там» и витрину
      остальных роликов производителя — то есть прямой канал к нему, а прямые
@@ -2878,6 +2881,7 @@ export const suppliers: SupplierProfile[] = [
        (T-20261116-012). */
     brandColors: { deep: '#053365', sky: '#76CECD', accent: '#05A5A4', bg: '#EEF9F9' },
     logoUrl: '/img/suppliers/veo-biotech/logo.png',
+    logoAlt: 'VEO Biotech',
     voice: 'clinical',
     /* Письменное согласие VEO Biotech от 22.09.2026 на профиль компании и сырья
        Helio PDRN / Sodium DNA. Полный COA публично не размещается — только сводка
