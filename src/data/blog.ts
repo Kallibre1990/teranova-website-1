@@ -20,6 +20,7 @@ import { cellahealPosts } from './blog-cellaheal';
 import { drPeloPosts } from './blog-dr-pelo';
 import { armingPosts } from './blog-arming';
 import { veoBiotechPosts } from './blog-veo-biotech';
+import { agafarPosts } from './blog-agafar';
 
 export interface BlogSection {
   /** Optional section heading. */
@@ -71,7 +72,7 @@ export interface BlogPost {
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 
-export const posts: BlogPost[] = [...(blogData as BlogPost[]), ...cheon365Posts, ...dailycommaPosts, ...koyPosts, ...plkLiftPosts, ...agingTargetPosts, ...abeltyPosts, ...cellahealPosts, ...drPeloPosts, ...armingPosts, ...veoBiotechPosts];
+export const posts: BlogPost[] = [...(blogData as BlogPost[]), ...cheon365Posts, ...dailycommaPosts, ...koyPosts, ...plkLiftPosts, ...agingTargetPosts, ...abeltyPosts, ...cellahealPosts, ...drPeloPosts, ...armingPosts, ...veoBiotechPosts, ...agafarPosts];
 export const postBySlug = (slug: string): BlogPost | undefined => posts.find((p) => p.slug === slug);
 export const postContent = (p: BlogPost, lang: Lang): BlogPostContent => localizedContent(p.i18n, lang, `blog/${p.slug}`);
 /** Newest first, for the index listing. */
