@@ -732,7 +732,7 @@ export const veoBiotechPosts: BlogPost[] = [
     date: '2026-11-16',
     related: ['veo-biotech', 'chemical'],
     supplier: 'veo-biotech',
-    hero: '/img/blog/veo-pdrn-skincare-oem-odm.webp',
+    hero: '/img/blog/art-veo-pdrn-skincare-oem-odm.webp',
     i18n: i18nOem,
   },
 ];
