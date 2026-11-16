@@ -26,7 +26,7 @@ for (const post of postsByDate) {
   if (!sup) continue;
   const r = postContent(post, 'ru');
   const text = [r.title, r.excerpt, ...r.sections.flatMap((s) => [s.h ?? '', ...s.p])].join(' ');
-  covers.set(post.slug, { sup, plan: coverPlan(sup.slug, post.slug, post.hero, text) });
+  covers.set(post.slug, { sup, plan: coverPlan(sup.slug, post.slug, post.hero, text, 3, post.cover) });
 }
 ---
 

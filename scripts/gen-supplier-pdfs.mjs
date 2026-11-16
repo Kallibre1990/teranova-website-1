@@ -859,14 +859,35 @@ function catalogHTML(cfg, lang, groups) {
    названием линейки (`cat[].line` ловится по `lines[].name`). Совпадения нет —
    `.abs` просто не появляется, и карточка остаётся текстовой, как раньше:
    безопасно для всех поставщиков, не только для того, кто её запросил. */
+/* Explicit line photos the site sets in src/data/suppliers.ts (`lineShots`, keyed by
+   the Russian line name) — so a line with no catalog group of its own (Ooznary sheet
+   masks) gets the same photo in the PDF as on the website. */
+function siteLineShots(slug) {
+  const src = fs.readFileSync(path.join(ROOT, 'src/data/suppliers.ts'), 'utf8');
+  const at = src.indexOf(`slug: '${slug}',`);
+  if (at < 0) return {};
+  const m = src.slice(at, at + 6000).match(/\n    lineShots: \{([^}]*)\}/);
+  if (!m) return {};
+  return Object.fromEntries([...m[1].matchAll(/'([^']+)':\s*'([^']+)'/g)].map((x) => [x[1], x[2]]));
+}
+
 function linesWithPhotos(cfg, lines) {
   if (!lines || !lines.length) return lines;
   const cat = catalogOf(cfg);
   if (!cat) return lines;
   const byLine = new Map(cat.map((g) => [g.line, (g.items || []).find((it) => it.abs)]));
-  return lines.map((l) => {
+  const shots = siteLineShots(cfg.id);
+  let ruLines = [];
+  try { ruLines = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.ru.json`), 'utf8')).content.lines || []; } catch { ruLines = []; }
+  return lines.map((l, i) => {
     const it = byLine.get(l.name);
-    return it ? { ...l, abs: it.abs } : l;
+    if (it) return { ...l, abs: it.abs };
+    const given = shots[l.name] || shots[ruLines[i]?.name];
+    if (given) {
+      const abs = path.join(ROOT, 'public', given.replace(/^\//, ''));
+      if (fs.existsSync(abs)) return { ...l, abs };
+    }
+    return l;
   });
 }
 
