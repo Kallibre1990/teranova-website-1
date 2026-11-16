@@ -549,6 +549,8 @@ const SUPPLIERS = [
        documents must contain neither retail prices nor MOQ. */
     id: 'ooznary', json: 'ooznary', supplier: 'DOTS CORPORATION', brand: 'Ooznary',
     basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    /* The sheet-mask line has no catalog group of its own; use the site's lineShots photo. */
+    pdfLineShots: true,
     colors: { deep: '#1F2019', sky: '#DDE3B4', bg: '#F7F7EE', line: '#E2E4CC' },
     pres: true,
     certs: [],
@@ -866,7 +868,9 @@ function siteLineShots(slug) {
   const src = fs.readFileSync(path.join(ROOT, 'src/data/suppliers.ts'), 'utf8');
   const at = src.indexOf(`slug: '${slug}',`);
   if (at < 0) return {};
-  const m = src.slice(at, at + 6000).match(/\n    lineShots: \{([^}]*)\}/);
+  const next = src.indexOf("slug: '", at + 6);
+  const block = src.slice(at, next < 0 ? undefined : next);
+  const m = block.match(/\n    lineShots: \{([^}]*)\}/);
   if (!m) return {};
   return Object.fromEntries([...m[1].matchAll(/'([^']+)':\s*'([^']+)'/g)].map((x) => [x[1], x[2]]));
 }
@@ -876,7 +880,8 @@ function linesWithPhotos(cfg, lines) {
   const cat = catalogOf(cfg);
   if (!cat) return lines;
   const byLine = new Map(cat.map((g) => [g.line, (g.items || []).find((it) => it.abs)]));
-  const shots = siteLineShots(cfg.id);
+  /* Opt-in per supplier: other suppliers' PDFs keep their reviewed layout. */
+  const shots = cfg.pdfLineShots ? siteLineShots(cfg.id) : {};
   let ruLines = [];
   try { ruLines = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.ru.json`), 'utf8')).content.lines || []; } catch { ruLines = []; }
   return lines.map((l, i) => {
