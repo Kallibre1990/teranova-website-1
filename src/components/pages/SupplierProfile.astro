@@ -496,7 +496,7 @@ function monogram(name: string): string {
                   {grp.items.map((it, ii) => {
                     const note = c.catalog_notes?.[base + ii];
                     return (
-                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-name={it.name}>
+                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-name={catalogText(it.name, it.nameI18n, lang)}>
                         {/* Позиция без фотографии — не пустая рамка и не битая картинка,
                             а плашка с монограммой в цветах поставщика. Нужна там, где
                             товар физически не фотогеничен (сырьё в порошке) или снимков
