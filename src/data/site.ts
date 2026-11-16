@@ -26,8 +26,20 @@ export const site = {
 export const showFounder = false as boolean;
 export const showAia = false as boolean;
 export const showBusan = false as boolean;
+/* Головное юрлицо Teranova (D-939, 12.09.2026): 주식회사 테라노바그룹, Чеджу.
+   Английское название закреплено посимвольно (D-943) — по нему Apple, Google и
+   D&B сверяют сайт с заявками разработчика. Менять только вместе с записью D&B. */
+export const legalEntity = {
+  name: 'Teranova Group Co., Ltd.',
+  nameKo: '주식회사 테라노바그룹',
+  regNo: '787-86-03961',
+  street: '#302, 2 Gwangyang 1-gil',
+  city: 'Jeju-si',
+  region: 'Jeju Special Self-Governing Province',
+  country: 'Republic of Korea',
+} as const;
 /* Юрлицо, показываемое, когда AIA скрыт. */
-export const legalNameFallback = 'Teranova Group Ltd.';
+export const legalNameFallback = legalEntity.name;
 /* Метка фото основателя — по ней прячем его карточку в командных блоках. */
 export const founderPhoto = '/img/team/anton-madelkanov.jpg';
 

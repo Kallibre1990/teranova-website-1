@@ -3,7 +3,7 @@ import PageHead from './PageHead.astro';
 import Atmosphere from '../visual/Atmosphere.astro';
 import { anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
-import { site, contactEmails, contactOrder, showAia, legalNameFallback } from '../../data/site';
+import { site, contactEmails, contactOrder, showAia, legalNameFallback, legalEntity } from '../../data/site';
 interface Props {
   lang: Lang;
 }
@@ -40,6 +40,12 @@ const legalValue = showAia ? p.legal_value : legalNameFallback;
       <div class="icard">
         <span class="icard__label">{p.legal_label}</span>
         <span class="icard__big">{legalValue}</span>
+        {!showAia && (
+          <span class="icard__desc">
+            {legalEntity.nameKo} · Reg. No. {legalEntity.regNo}<br />
+            {legalEntity.street}, {legalEntity.city}, {legalEntity.region}, {legalEntity.country}
+          </span>
+        )}
       </div>
       <div class="icard">
         <span class="icard__label">{p.loc_label}</span>

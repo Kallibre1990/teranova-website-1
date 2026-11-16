@@ -1,4 +1,4 @@
-import { site, showAia, showBusan } from './site';
+import { site, showAia, showBusan, legalEntity } from './site';
 import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
 import { supplierContent, linePageContent, supplierBySlug, type SupplierProfile, type SupplierLinePage } from './suppliers';
@@ -27,7 +27,8 @@ export function organizationNode(lang: Lang) {
     // рег.номера (непроверенный чеджуский реквизит в разметку не ставим — он
     // закрепляется в ответах ИИ надолго; появится, когда юрлицо будет
     // зарегистрировано и у нас будет его номер). Пока Пусан скрыт — адрес город Чеджу.
-    ...(showAia ? { legalName: 'AIA Group Ltd.' } : {}),
+    // С 16.11.2026 юрлицо зарегистрировано (D-939): без AIA показываем чеджуское.
+    legalName: showAia ? 'AIA Group Ltd.' : legalEntity.name,
     url: site.domain + '/',
     logo: site.domain + '/brand/teranova-mark-dark-v2.svg',
     description: t.meta.home_desc,
@@ -40,7 +41,9 @@ export function organizationNode(lang: Lang) {
         }
       : {
           '@type': 'PostalAddress',
-          addressLocality: 'Jeju',
+          streetAddress: legalEntity.street,
+          addressLocality: legalEntity.city,
+          addressRegion: legalEntity.region,
           addressCountry: 'KR',
         },
     ...(showAia
@@ -55,7 +58,15 @@ export function organizationNode(lang: Lang) {
             },
           ],
         }
-      : {}),
+      : {
+          identifier: [
+            {
+              '@type': 'PropertyValue',
+              name: 'Business Registration Number (사업자등록번호)',
+              value: legalEntity.regNo,
+            },
+          ],
+        }),
     contactPoint: [
       {
         '@type': 'ContactPoint',
