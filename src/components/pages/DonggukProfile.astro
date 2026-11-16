@@ -6,7 +6,7 @@ import { donggukSummaries } from '../../data/dongguk-summaries';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const c = donggukContent(lang);
-const platforms = ['Imaging MS Platform', 'Imaging FACS Platform', 'Imaging HTS Platform'];
+const platforms = c.platformNames;
 const photos = ['imaging-ms', 'imaging-facs', 'imaging-hts'];
 ---
 
@@ -21,8 +21,8 @@ const photos = ['imaging-ms', 'imaging-facs', 'imaging-hts'];
         <a class="dg-link" href="#technologies">{c.browse}<span aria-hidden="true">↓</span></a>
       </div>
       <figure class="dg-hero__image">
-        <img src="/images/dongguk/imaging-ms.png" alt="Imaging MS Platform" width="560" height="560" fetchpriority="high" />
-        <figcaption>Imaging MS Platform</figcaption>
+        <img src="/images/dongguk/imaging-ms.png" alt={platforms[0]} width="560" height="560" fetchpriority="high" />
+        <figcaption>{platforms[0]}</figcaption>
       </figure>
     </div>
   </header>

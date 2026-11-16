@@ -151,7 +151,7 @@ const statusInfo = {
     </a>
 
     <div class="group__head">
-      <h2 class="lvl" style="margin:0">{g.products_title}</h2>
+      <h2 class="lvl" style="margin:0">{groupKey === 'research' ? donggukContent(lang).directions : g.products_title}</h2>
       {showDemo && suppliers.length > 0 && <span class="badge badge--provided">{g.demo_badge}</span>}
     </div>
     <div class="prod-grid">

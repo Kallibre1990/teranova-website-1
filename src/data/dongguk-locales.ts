@@ -3,7 +3,7 @@ import type { Lang } from '../i18n/ui';
 export interface DonggukCopy {
   category: string; headline: string; intro: string; source: string;
   overview: string; organization: string; directions: string; fields: string[];
-  infrastructure: string; platforms: string[]; equipment: string;
+  infrastructure: string; platformNames: [string, string, string]; platforms: string[]; equipment: string;
   portfolio: string; portfolioIntro: string; groups: string[];
   titles: string[]; stages: string[];
   stage: string; application: string; registration: string; notSpecified: string;
@@ -12,6 +12,7 @@ export interface DonggukCopy {
 }
 
 const ru: DonggukCopy = {
+  platformNames: ['Пространственный молекулярный анализ (MS)', 'Анализ и сортировка клеток (FACS)', 'Автоматизированный скрининг (HTS)'],
   category: 'Научно-исследовательские институты и разработки',
   headline: 'Исследования на стыке медицины, биологии и технологий',
   intro: 'Dongguk University Medical Center объединяет медицинское образование, клиническую базу и исследования. В присланных материалах представлены технологии для совместной разработки и дальнейшего изучения.',
@@ -38,6 +39,7 @@ const ru: DonggukCopy = {
 };
 
 const en: DonggukCopy = {
+  platformNames: ['Spatial molecular analysis (MS)', 'Cell analysis and sorting (FACS)', 'Automated screening (HTS)'],
   category: 'Research institutes and development', headline: 'Where medicine, biology and technology meet',
   intro: 'Dongguk University Medical Center brings together medical education, clinical facilities and research. Its supplied materials present technologies for joint development and further investigation.',
   source: 'Based on materials supplied by Dongguk: the medical center presentation, brochure and 15 SMK technology briefs. Research results, infrastructure and patent information are attributed to these materials and have not been independently verified.',
@@ -54,6 +56,7 @@ const en: DonggukCopy = {
 };
 
 const ko: DonggukCopy = {
+  platformNames: ['공간 분자 분석 (MS)', '세포 분석 및 분리 (FACS)', '자동화 스크리닝 (HTS)'],
   category: '연구기관 및 기술 개발', headline: '의학, 생물학, 기술을 잇는 연구',
   intro: '동국대학교 의료원은 의학교육, 임상 기반과 연구를 연결합니다. 제공된 자료에서는 공동 개발과 후속 연구를 위한 기술을 소개합니다.',
   source: '동국대학교 의료원이 제공한 소개 자료, 브로슈어와 SMK 기술소개서 15건을 바탕으로 작성했습니다. 연구 결과, 인프라와 특허 정보는 해당 자료의 설명이며 별도의 독립 검증은 진행하지 않았습니다.',
@@ -62,7 +65,7 @@ const ko: DonggukCopy = {
   infrastructure: '분자 분석에서 세포 모델까지', platforms: ['공간 단백체학, 지질체학, 대사체학, 바이오마커 탐색 및 약물 분포 연구를 다룹니다.', '세포 영상 분석, 면역 프로파일링, 희귀 세포와 단일 세포를 포함한 세포 분리를 다룹니다.', '독성, 살아 있는 세포, 오가노이드 및 표현형을 위한 자동 스크리닝과 영상 분석을 다룹니다.'], equipment: '동국대학교 의료원이 제공한 브로슈어의 장비 이미지입니다. Teranova의 연구실 방문 사진이 아닙니다.',
   portfolio: '기술 포트폴리오', portfolioIntro: '연구 목적에 따라 15건의 기술을 분류했습니다. 명칭은 연구 주제를 뜻하며 완제품이나 허가된 의학적 적응증을 뜻하지 않습니다. 단계는 서술형으로 표시하며 자료에서 수치형 TRL을 확정하지 않았습니다.',
   groups: ['생리활성 물질', '의료기기 및 약물 전달', 'AI 및 의료 영상', '세포 모델 및 평가 플랫폼'],
-  titles: ['인지기능 및 기억력 연구를 위한 아즈웨인 추출물', '수술대용 머리 및 어깨 지지 장치', '피부질환 환자를 위한 목욕 보조 시스템', '삼방 밸브 및 검체 흡인 장치', '대마 뿌리 추출물 분획의 항염증 및 항통각 활성 연구', '남가새와 오디 유래 화합물의 화장품 응용 연구', '공배양 기반 3차원 골관절염 모델', '캡슐내시경 데이터 준비 및 영상 분석을 위한 AI', '작약 및 목련 추출물의 난소 기능 보호 연구', '항암 후보물질 평가를 위한 BAG3 기능 상실 HeLa 세포 플랫폼', '독립형 수술용 머리 위치 제어 시스템', 'MRI 기반 백질변성 단계 평가 및 진행 패턴 예측', '상심자 발효 추출물의 알츠하이머 비임상 연구', '구내염 평가를 위한 구강점막 조직온칩 모델', '결막 접촉 기반 안과용 약물 전달'],
+  titles: ['인지기능 및 기억력 연구를 위한 아즈웨인 추출물', '수술대용 머리 및 어깨 지지 장치', '피부질환 환자를 위한 목욕 보조 시스템', '삼방 밸브 및 검체 흡인 장치', '대마 뿌리 추출물 분획의 항염증 및 항통각 활성 연구', '남가새와 뽕나무 유래 화합물의 화장품 응용 연구', '공배양 기반 3차원 골관절염 모델', '캡슐내시경 데이터 준비 및 영상 분석을 위한 AI', '작약 및 목련 추출물의 난소 기능 보호 연구', '항암 후보물질 평가를 위한 BAG3 기능 상실 HeLa 세포 플랫폼', '독립형 수술용 머리 위치 제어 시스템', 'MRI 기반 백질변성 단계 평가 및 진행 패턴 예측', '상심자 발효 추출물의 알츠하이머 비임상 연구', '구내염 평가를 위한 구강점막 조직온칩 모델', '결막 접촉 기반 안과용 약물 전달'],
   stages: ['세포 및 동물 비임상 검증', '장치 설계 및 구조 제시', '사용자 적용 관찰 결과 제시', '세포 기반 비임상 검증', '시험 플랫폼 구축 및 세포 기반 검증', 'AI 모델 및 영상 데이터 검증', '세포주 구축, 기전 및 후보물질 활성 연구', '장치 구조 및 위치 제어 구현', '영상 분석 모델 개발 및 검증', '동물 비임상 검증', '조직온칩 구축 및 약물 반응 검증', '장치, 제형 및 전달 구조 구현'],
   stage: '제공 자료상 연구 단계', application: '출원번호', registration: '등록번호', notSpecified: '자료에 기재되지 않았습니다',
   patents: '출원번호와 등록번호는 제공된 표에서 옮기고 SMK와 대조했습니다. 권리의 유효성과 적용 지역은 독립 검증하지 않았습니다. 특허 등록은 임상적 유효성, 안전성 또는 규제 승인을 입증하지 않습니다. 번호 미기재가 특허 부재를 뜻하지는 않습니다.', special15: '등록번호는 첫 번째 기술에 해당하며 두 번째 출원의 등록 여부는 자료에 기재되지 않았습니다.',
@@ -70,6 +73,7 @@ const ko: DonggukCopy = {
 };
 
 const de: DonggukCopy = {
+  platformNames: ['Räumliche Molekülanalyse (MS)', 'Zellanalyse und Zellsortierung (FACS)', 'Automatisiertes Screening (HTS)'],
   category: 'Forschungsinstitute und Entwicklung', headline: 'Forschung zwischen Medizin, Biologie und Technologie',
   intro: 'Das Dongguk University Medical Center verbindet medizinische Ausbildung, klinische Einrichtungen und Forschung. Die bereitgestellten Unterlagen stellen Technologien für gemeinsame Entwicklung und weitere Untersuchungen vor.',
   source: 'Grundlage sind die von Dongguk bereitgestellte Präsentation, Broschüre und 15 SMK-Technologieberichte. Angaben zu Forschung, Infrastruktur und Patenten stammen aus diesen Unterlagen und wurden nicht unabhängig überprüft.',
@@ -78,7 +82,7 @@ const de: DonggukCopy = {
   infrastructure: 'Vom Molekül zum Zellmodell', platforms: ['Räumliche Proteomik, Lipidomik und Metabolomik; Biomarkersuche und Untersuchung der Wirkstoffverteilung.', 'Zellbildanalyse, Immunprofilierung und Zellsortierung einschließlich seltener Zellen und Einzelzellen.', 'Automatisiertes Screening und Bildanalyse für Toxizität, lebende Zellen, Organoide und Phänotypen.'], equipment: 'Gerätebilder aus der Dongguk-Broschüre. Sie dokumentieren keinen Laborbesuch von Teranova.',
   portfolio: 'Technologieportfolio', portfolioIntro: '15 Entwicklungen nach Forschungsaufgabe geordnet. Die Titel beschreiben Forschungsthemen, keine fertigen Produkte oder zugelassenen Indikationen. Die Entwicklungsstadien sind beschreibend; ein numerischer TRL wurde nicht festgestellt.',
   groups: ['Bioaktive Substanzen', 'Medizinprodukte und Wirkstofftransport', 'KI und medizinische Bildgebung', 'Zellmodelle und Bewertungsplattformen'],
-  titles: ['Ajowan-Extrakt für die Erforschung von Kognition und Gedächtnis', 'Kopf- und Schulterstütze für Operationstische', 'Badeassistenzsystem für Patienten mit Hauterkrankungen', 'Dreiwegeventil und Gerät zur Probenaspiration', 'Hanfwurzelextrakt: Forschung zu entzündungshemmender und antinozizeptiver Aktivität', 'Tribulus- und Maulbeerverbindungen: kosmetische Anwendungsforschung', 'Dreidimensionales Arthrosemodell auf Kokulturbasis', 'KI zur Datenaufbereitung und Bildanalyse in der Kapselendoskopie', 'Pfingstrosen- und Magnolienextrakte: Forschung zum Schutz der Eierstockfunktion', 'HeLa-Plattform mit BAG3-Funktionsverlust zur Bewertung von Krebswirkstoffkandidaten', 'Unabhängiges System zur Kopfpositionierung bei Operationen', 'MRT: Bewertung von Veränderungen der weißen Substanz und Mustervorhersage', 'Fermentierter Maulbeerfruchtextrakt: präklinische Alzheimer-Forschung', 'Mundschleimhaut auf einem Chip zur Mukositisbewertung', 'Ophthalmischer Wirkstofftransport durch Bindehautkontakt'],
+  titles: ['Ajowan-Extrakt für die Erforschung von Kognition und Gedächtnis', 'Kopf- und Schulterstütze für Operationstische', 'Badeassistenzsystem für Patienten mit Hauterkrankungen', 'Dreiwegeventil und Gerät zur Probenaspiration', 'Hanfwurzelextraktfraktion: Forschung zu entzündungshemmender und antinozizeptiver Aktivität', 'Tribulus- und Maulbeerverbindungen: kosmetische Anwendungsforschung', 'Dreidimensionales Arthrosemodell auf Kokulturbasis', 'KI zur Datenaufbereitung und Bildanalyse in der Kapselendoskopie', 'Pfingstrosen- und Magnolienextrakte: Forschung zum Schutz der Eierstockfunktion', 'HeLa-Plattform mit BAG3-Funktionsverlust zur Bewertung von Krebswirkstoffkandidaten', 'Unabhängiges System zur Kopfpositionierung bei Operationen', 'MRT: Bewertung von Veränderungen der weißen Substanz und Mustervorhersage', 'Fermentierter Maulbeerfruchtextrakt: präklinische Alzheimer-Forschung', 'Mundschleimhaut auf einem Chip zur Mukositisbewertung', 'Ophthalmischer Wirkstofftransport durch Bindehautkontakt'],
   stages: ['Präklinische Zell- und Tierversuche', 'Geräteentwurf und Konstruktion vorgestellt', 'Beobachtungen bei der Anwendung vorgestellt', 'Präklinische Zellversuche', 'Testplattform aufgebaut; zellbasierte Prüfung', 'Prüfung von KI-Modell und Bilddaten', 'Zelllinie aufgebaut; Mechanismus und Kandidatenaktivität untersucht', 'Konstruktion und Positionssteuerung umgesetzt', 'Bildanalysemodell entwickelt und geprüft', 'Präklinische Tierversuche', 'Gewebechip aufgebaut; Wirkstoffantwort geprüft', 'Gerät, Formulierung und Transportmechanismus entwickelt'],
   stage: 'Stadium laut Dongguk', application: 'Anmeldungen', registration: 'Registrierungsnummern', notSpecified: 'In den Unterlagen nicht angegeben',
   patents: 'Anmelde- und Registrierungsnummern wurden aus der Tabelle übernommen und mit SMK abgeglichen. Rechtsbestand und räumlicher Schutz wurden nicht unabhängig geprüft. Eine Patentregistrierung belegt weder klinische Wirksamkeit noch Sicherheit oder behördliche Zulassung. Eine fehlende Nummer bedeutet nicht, dass kein Patent besteht.', special15: 'Die Registrierungsnummer betrifft die erste Entwicklung; für die zweite Anmeldung ist keine Registrierung angegeben.',
@@ -86,6 +90,7 @@ const de: DonggukCopy = {
 };
 
 const fr: DonggukCopy = {
+  platformNames: ['Analyse moléculaire spatiale (MS)', 'Analyse et tri cellulaires (FACS)', 'Criblage automatisé (HTS)'],
   category: 'Instituts de recherche et développement', headline: 'La recherche entre médecine, biologie et technologie',
   intro: 'Dongguk University Medical Center réunit formation médicale, structures cliniques et recherche. Les documents fournis présentent des technologies destinées au développement conjoint et à des études complémentaires.',
   source: 'Profil établi à partir de la présentation, de la brochure et de 15 fiches technologiques SMK fournies par Dongguk. Les résultats, les infrastructures et les informations sur les brevets sont attribués à ces documents, sans vérification indépendante.',
@@ -102,10 +107,11 @@ const fr: DonggukCopy = {
 };
 
 const it: DonggukCopy = {
+  platformNames: ['Analisi molecolare spaziale (MS)', 'Analisi e separazione cellulare (FACS)', 'Screening automatizzato (HTS)'],
   category: 'Istituti di ricerca e sviluppo', headline: 'Ricerca tra medicina, biologia e tecnologia',
   intro: 'Dongguk University Medical Center unisce formazione medica, strutture cliniche e ricerca. I materiali forniti presentano tecnologie per lo sviluppo congiunto e ulteriori studi.',
   source: 'Profilo basato sulla presentazione, sulla brochure e su 15 schede tecnologiche SMK fornite da Dongguk. Risultati, infrastrutture e informazioni brevettuali sono attribuiti a questi materiali e non sono stati verificati in modo indipendente.',
-  overview: 'Un centro medico universitario', organization: 'Dongguk University Medical Center (동국대학교 의료원) è presentato come il centro medico della Dongguk University, non come un istituto di ricerca autonomo. I materiali citano facoltà di medicina e medicina coreana, una scuola di specializzazione e una scuola professionale di medicina, cinque strutture mediche, due istituti di ricerca universitari e altre unità di ricerca.',
+  overview: 'Un centro medico universitario', organization: 'Dongguk University Medical Center (동국대학교 의료원) è presentato come il centro medico della Dongguk University, non come un istituto di ricerca autonomo. I materiali citano facoltà di medicina e medicina coreana, una scuola di studi post-laurea e una scuola professionale di medicina, cinque strutture mediche, due istituti di ricerca universitari e altre unità di ricerca.',
   directions: 'Aree di ricerca', fields: ['Terapia cellulare e tissutale', 'Farmaci della medicina coreana', 'Somministrazione di farmaci', 'Sistemi intelligenti di lettura e analisi', 'Sistemi informativi medici', 'Apparecchiature per analisi chimico-cliniche e biologiche'],
   infrastructure: 'Dalle molecole ai modelli cellulari', platforms: ['Proteomica, lipidomica e metabolomica spaziali; ricerca di biomarcatori e studio della distribuzione dei farmaci.', 'Analisi di immagini cellulari, profilazione immunitaria e separazione di cellule, incluse cellule rare e singole.', 'Screening automatizzato e analisi di immagini per tossicità, cellule vive, organoidi e fenotipi.'], equipment: 'Immagini delle apparecchiature tratte dalla brochure Dongguk. Non documentano una visita di Teranova al laboratorio.',
   portfolio: 'Portafoglio tecnologico', portfolioIntro: '15 sviluppi suddivisi per obiettivo di ricerca. I titoli descrivono temi di studio, non prodotti finiti o indicazioni mediche autorizzate. Gli stadi sono descrittivi; non è stato stabilito un TRL numerico.',
@@ -118,6 +124,7 @@ const it: DonggukCopy = {
 };
 
 const es: DonggukCopy = {
+  platformNames: ['Análisis molecular espacial (MS)', 'Análisis y separación celular (FACS)', 'Cribado automatizado (HTS)'],
   category: 'Institutos de investigación y desarrollo', headline: 'Investigación entre medicina, biología y tecnología',
   intro: 'Dongguk University Medical Center reúne formación médica, instalaciones clínicas e investigación. Los materiales facilitados presentan tecnologías para el desarrollo conjunto y estudios posteriores.',
   source: 'Perfil basado en la presentación, el folleto y 15 fichas tecnológicas SMK facilitadas por Dongguk. Los resultados, la infraestructura y los datos de patentes se atribuyen a esos materiales, sin verificación independiente.',
@@ -134,6 +141,7 @@ const es: DonggukCopy = {
 };
 
 const pt: DonggukCopy = {
+  platformNames: ['Análise molecular espacial (MS)', 'Análise e separação celular (FACS)', 'Triagem automatizada (HTS)'],
   category: 'Institutos de pesquisa e desenvolvimento', headline: 'Pesquisa entre medicina, biologia e tecnologia',
   intro: 'O Dongguk University Medical Center reúne formação médica, instalações clínicas e pesquisa. Os materiais fornecidos apresentam tecnologias para desenvolvimento conjunto e estudos posteriores.',
   source: 'Perfil baseado na apresentação, no folheto e em 15 fichas tecnológicas SMK fornecidos pela Dongguk. Resultados, infraestrutura e dados de patentes são atribuídos a esses materiais, sem verificação independente.',
@@ -150,6 +158,7 @@ const pt: DonggukCopy = {
 };
 
 const tr: DonggukCopy = {
+  platformNames: ['Mekânsal moleküler analiz (MS)', 'Hücre analizi ve ayırma (FACS)', 'Otomatik tarama (HTS)'],
   category: 'Araştırma enstitüleri ve geliştirme', headline: 'Tıp, biyoloji ve teknolojiyi buluşturan araştırma',
   intro: 'Dongguk University Medical Center, tıp eğitimini, klinik altyapıyı ve araştırmayı bir araya getirir. Sağlanan belgeler ortak geliştirme ve ileri araştırma için teknolojiler sunar.',
   source: 'Profil, Dongguk tarafından sağlanan sunum, broşür ve 15 SMK teknoloji özetine dayanır. Araştırma sonuçları, altyapı ve patent bilgileri bu belgelere atfedilir; bağımsız doğrulama yapılmamıştır.',
@@ -166,6 +175,7 @@ const tr: DonggukCopy = {
 };
 
 const zh: DonggukCopy = {
+  platformNames: ['空间分子分析（MS）', '细胞分析与分选（FACS）', '自动化筛选（HTS）'],
   category: '科研机构与技术开发', headline: '连接医学、生物学与技术的研究',
   intro: 'Dongguk University Medical Center 将医学教育、临床设施与研究相结合。所提供的材料介绍了用于联合开发和进一步研究的技术。',
   source: '本页根据东国大学医疗院提供的介绍、宣传册及15份SMK技术简介编写。研究结果、基础设施及专利信息均引自这些材料，未进行独立核实。',
@@ -174,7 +184,7 @@ const zh: DonggukCopy = {
   infrastructure: '从分子到细胞模型', platforms: ['空间蛋白质组学、脂质组学与代谢组学；生物标志物发现及药物分布研究。', '细胞图像分析、免疫特征分析和细胞分选，包括稀有细胞与单细胞。', '用于毒性、活细胞、类器官及表型研究的自动化筛选与图像分析。'], equipment: '设备图片来自东国大学医疗院提供的宣传册，并非Teranova实验室实地访问的记录。',
   portfolio: '技术组合', portfolioIntro: '按研究任务分为四类的15项技术。标题描述的是研究主题，并非成品或获批的医疗适应证。阶段采用文字描述，尚未根据材料确定数值型技术成熟度等级。',
   groups: ['生物活性物质', '医疗器械与药物递送', '人工智能与医学影像', '细胞模型与评价平台'],
-  titles: ['用于认知与记忆研究的阿育魏实提取物', '手术台头肩支撑装置', '皮肤疾病患者洗浴辅助系统', '三通阀与样本抽吸装置', '大麻根提取物组分的抗炎与抗伤害感受活性研究', '蒺藜与桑葚化合物的化妆品应用研究', '基于共培养的三维骨关节炎模型', '用于胶囊内镜数据准备及图像分析的人工智能', '芍药与木兰提取物的卵巢功能保护研究', '用于评价抗肿瘤候选物的BAG3功能缺失HeLa细胞平台', '独立式手术头部定位系统', '基于磁共振的脑白质变化分期评估与模式预测', '桑葚发酵提取物的阿尔茨海默病临床前研究', '用于黏膜炎评价的口腔黏膜芯片模型', '通过结膜接触递送眼科药物'],
+  titles: ['用于认知与记忆研究的阿育魏实提取物', '手术台头肩支撑装置', '皮肤疾病患者洗浴辅助系统', '三通阀与样本抽吸装置', '大麻根提取物组分的抗炎与抗伤害感受活性研究', '蒺藜与桑树化合物的化妆品应用研究', '基于共培养的三维骨关节炎模型', '用于胶囊内镜数据准备及图像分析的人工智能', '芍药与木兰提取物的卵巢功能保护研究', '用于评价抗肿瘤候选物的BAG3功能缺失HeLa细胞平台', '独立式手术头部定位系统', '基于磁共振的脑白质变化分期评估与模式预测', '桑葚发酵提取物的阿尔茨海默病临床前研究', '用于黏膜炎评价的口腔黏膜芯片模型', '通过结膜接触递送眼科药物'],
   stages: ['细胞与动物临床前验证', '已提出设备设计与结构', '已报告用户应用观察结果', '基于细胞的临床前验证', '已建立测试平台并进行细胞验证', '人工智能模型与影像数据验证', '已建立细胞系并研究机制与候选物活性', '已实现设备结构与位置控制', '图像分析模型开发与验证', '动物临床前验证', '已构建组织芯片并验证药物反应', '已开发设备、制剂及递送结构'],
   stage: '东国大学材料所述阶段', application: '申请编号', registration: '注册编号', notSpecified: '材料未注明',
   patents: '申请与注册编号摘自所提供的表格，并与SMK核对。权利的有效性及地域范围未经独立核实。专利注册不代表临床有效性、安全性或监管批准。未注明编号不代表不存在专利。', special15: '注册编号对应第一项开发；材料未注明第二项申请的注册情况。',
@@ -182,6 +192,7 @@ const zh: DonggukCopy = {
 };
 
 const ja: DonggukCopy = {
+  platformNames: ['空間分子解析（MS）', '細胞解析・分取（FACS）', '自動スクリーニング（HTS）'],
   category: '研究機関と技術開発', headline: '医学・生物学・技術をつなぐ研究',
   intro: 'Dongguk University Medical Centerは、医学教育、臨床施設、研究を結び付けています。提供資料では、共同開発と継続的な研究に向けた技術を紹介しています。',
   source: '東国大学医療院から提供された紹介資料、パンフレット、15件のSMK技術概要に基づいています。研究結果、設備、特許情報はこれらの資料によるもので、独立した検証は行っていません。',
@@ -198,6 +209,7 @@ const ja: DonggukCopy = {
 };
 
 const he: DonggukCopy = {
+  platformNames: ['ניתוח מולקולרי מרחבי (MS)', 'ניתוח ומיון תאים (FACS)', 'סריקה אוטומטית (HTS)'],
   category: 'מכוני מחקר ופיתוח', headline: 'מחקר במפגש בין רפואה, ביולוגיה וטכנולוגיה',
   intro: 'Dongguk University Medical Center משלב לימודי רפואה, תשתיות קליניות ומחקר. החומרים שסופקו מציגים טכנולוגיות לפיתוח משותף ולהמשך מחקר.',
   source: 'הפרופיל מבוסס על מצגת, עלון ו־15 תקצירי טכנולוגיה מסוג SMK שסופקו על ידי Dongguk. תוצאות המחקר, התשתיות ונתוני הפטנטים מיוחסים לחומרים אלה ולא אומתו באופן עצמאי.',
@@ -206,7 +218,7 @@ const he: DonggukCopy = {
   infrastructure: 'ממולקולות למודלים תאיים', platforms: ['פרוטאומיקה, ליפידומיקה ומטבולומיקה מרחביות; גילוי סמנים ביולוגיים וחקר פיזור תרופות.', 'ניתוח תמונות תאים, אפיון חיסוני ומיון תאים, לרבות תאים נדירים ויחידים.', 'סריקה אוטומטית וניתוח תמונות לחקר רעילות, תאים חיים, אורגנואידים ופנוטיפים.'], equipment: 'תמונות הציוד נלקחו מהעלון שסיפקה Dongguk. הן אינן תיעוד של ביקור Teranova במעבדה.',
   portfolio: 'פורטפוליו טכנולוגי', portfolioIntro: '15 פיתוחים המקובצים לפי משימת מחקר. הכותרות מתארות נושאי מחקר ולא מוצרים מוגמרים או התוויות רפואיות מאושרות. שלבי הפיתוח מתוארים במילים; לא נקבעה רמת TRL מספרית.',
   groups: ['תרכובות פעילות ביולוגית', 'מכשור רפואי והולכת תרופות', 'בינה מלאכותית ודימות רפואי', 'מודלים תאיים ופלטפורמות הערכה'],
-  titles: ['תמצית אג׳וואן לחקר קוגניציה וזיכרון', 'תמיכת ראש וכתפיים לשולחן ניתוחים', 'מערכת סיוע ברחצה לחולים במחלות עור', 'שסתום תלת־כיווני והתקן לשאיבת דגימות', 'מקטע תמצית שורש קנבוס: חקר פעילות נוגדת דלקת ותחושת כאב', 'תרכובות מטריבולוס ומתות עץ: חקר יישומים קוסמטיים', 'מודל תלת־ממדי של דלקת מפרקים ניוונית המבוסס על תרבית משותפת', 'בינה מלאכותית להכנת נתונים ולניתוח תמונות מאנדוסקופיית קפסולה', 'תמציות אדמונית ומגנוליה: מחקר להגנה על תפקוד השחלות', 'פלטפורמת תאי HeLa עם אובדן תפקוד BAG3 להערכת מועמדים נגד סרטן', 'מערכת עצמאית למיקום הראש בניתוח', 'MRI: הערכת שינויים בחומר הלבן וחיזוי דפוסים', 'תמצית מותססת של פירות תות עץ: מחקר קדם־קליני באלצהיימר', 'מודל רירית הפה על שבב להערכת מוקוזיטיס', 'הולכת תרופות לעיניים באמצעות מגע בלחמית'],
+  titles: ['תמצית אג׳וואן לחקר קוגניציה וזיכרון', 'תמיכת ראש וכתפיים לשולחן ניתוחים', 'מערכת סיוע ברחצה לחולים במחלות עור', 'שסתום תלת־כיווני והתקן לשאיבת דגימות', 'מקטע תמצית שורש קנבוס: חקר פעילות נוגדת דלקת ומעכבת תחושת כאב', 'תרכובות מטריבולוס ומתות עץ: חקר יישומים קוסמטיים', 'מודל תלת־ממדי של דלקת מפרקים ניוונית המבוסס על תרבית משותפת', 'בינה מלאכותית להכנת נתונים ולניתוח תמונות מאנדוסקופיית קפסולה', 'תמציות אדמונית ומגנוליה: מחקר להגנה על תפקוד השחלות', 'פלטפורמת תאי HeLa עם אובדן תפקוד BAG3 להערכת מועמדים נגד סרטן', 'מערכת עצמאית למיקום הראש בניתוח', 'MRI: הערכת שינויים בחומר הלבן וחיזוי דפוסים', 'תמצית מותססת של פירות תות עץ: מחקר קדם־קליני באלצהיימר', 'מודל רירית הפה על שבב להערכת מוקוזיטיס', 'הולכת תרופות לעיניים באמצעות מגע בלחמית'],
   stages: ['אימות קדם־קליני בתאים ובבעלי חיים', 'הוצגו תכנון ומבנה ההתקן', 'הוצגו תצפיות על שימוש', 'אימות קדם־קליני בתאים', 'הוקמה פלטפורמת בדיקה ובוצע אימות תאי', 'אימות מודל בינה מלאכותית ונתוני דימות', 'הוקם קו תאים ונחקרו המנגנון ופעילות המועמדים', 'מומשו מבנה ההתקן ובקרת המיקום', 'פיתוח ואימות מודל לניתוח תמונות', 'אימות קדם־קליני בבעלי חיים', 'נבנתה רקמה על שבב ונבדקה תגובה לתרופה', 'פותחו התקן, תכשיר ומנגנון הולכה'],
   stage: 'שלב לפי חומרי Dongguk', application: 'בקשות', registration: 'מספרי רישום', notSpecified: 'לא צוין בחומרים',
   patents: 'המספרים הועתקו מהטבלה שסופקה ונבדקו מול SMK. תוקף הזכויות והיקפן הטריטוריאלי לא אומתו באופן עצמאי. רישום פטנט אינו מעיד על יעילות קלינית, בטיחות או אישור רגולטורי. מספר שלא צוין אינו מעיד על היעדר פטנט.', special15: 'מספר הרישום מתייחס לפיתוח הראשון; רישום הבקשה השנייה לא צוין בחומרים.',
@@ -214,6 +226,7 @@ const he: DonggukCopy = {
 };
 
 const hi: DonggukCopy = {
+  platformNames: ['स्थानिक आणविक विश्लेषण (MS)', 'कोशिका विश्लेषण और पृथक्करण (FACS)', 'स्वचालित स्क्रीनिंग (HTS)'],
   category: 'अनुसंधान संस्थान और विकास', headline: 'चिकित्सा, जीवविज्ञान और प्रौद्योगिकी को जोड़ता अनुसंधान',
   intro: 'Dongguk University Medical Center चिकित्सा शिक्षा, नैदानिक सुविधाओं और अनुसंधान को एक साथ लाता है। उपलब्ध सामग्री में संयुक्त विकास और आगे के अध्ययन के लिए प्रौद्योगिकियाँ प्रस्तुत की गई हैं।',
   source: 'यह परिचय Dongguk द्वारा दी गई प्रस्तुति, विवरणिका और 15 SMK प्रौद्योगिकी सारांशों पर आधारित है। अनुसंधान परिणाम, बुनियादी ढाँचे और पेटेंट की जानकारी इन्हीं सामग्रियों से ली गई है; स्वतंत्र सत्यापन नहीं किया गया है।',
@@ -222,7 +235,7 @@ const hi: DonggukCopy = {
   infrastructure: 'अणुओं से कोशिका मॉडल तक', platforms: ['स्थानिक प्रोटिओमिक्स, लिपिडोमिक्स और मेटाबोलोमिक्स; जैवचिह्नों की खोज और दवा वितरण का अध्ययन।', 'कोशिका छवि विश्लेषण, प्रतिरक्षा प्रोफाइलिंग और दुर्लभ तथा एकल कोशिकाओं सहित कोशिकाओं का पृथक्करण।', 'विषाक्तता, जीवित कोशिकाओं, ऑर्गेनॉइड और फीनोटाइप के लिए स्वचालित स्क्रीनिंग और छवि विश्लेषण।'], equipment: 'उपकरणों की तस्वीरें Dongguk की दी गई विवरणिका से हैं। ये Teranova की प्रयोगशाला यात्रा का प्रमाण नहीं हैं।',
   portfolio: 'प्रौद्योगिकी पोर्टफोलियो', portfolioIntro: 'अनुसंधान कार्य के अनुसार समूहीकृत 15 विकास। शीर्षक अध्ययन के विषय बताते हैं, तैयार उत्पाद या स्वीकृत चिकित्सीय उपयोग नहीं। चरण विवरणात्मक हैं; संख्यात्मक TRL निर्धारित नहीं किया गया है।',
   groups: ['जैवसक्रिय यौगिक', 'चिकित्सा उपकरण और दवा वितरण', 'एआई और चिकित्सा इमेजिंग', 'कोशिका मॉडल और मूल्यांकन मंच'],
-  titles: ['संज्ञान और स्मृति अनुसंधान के लिए अजवाइन का अर्क', 'ऑपरेशन टेबल के लिए सिर और कंधे का सहारा', 'त्वचा रोगों वाले रोगियों के लिए स्नान सहायता प्रणाली', 'तीन-मार्गी वाल्व और नमूना चूषण उपकरण', 'हेम्प की जड़ के अर्क का अंश: सूजनरोधी और दर्द-संवेदना संबंधी अनुसंधान', 'Tribulus और शहतूत के यौगिक: सौंदर्य प्रसाधन उपयोगों का अनुसंधान', 'सह-संवर्धन आधारित त्रिआयामी ऑस्टियोआर्थराइटिस मॉडल', 'कैप्सूल एंडोस्कोपी के डेटा की तैयारी और छवि विश्लेषण के लिए एआई', 'पियोनी और मैग्नोलिया के अर्क: डिम्बग्रंथि कार्य की सुरक्षा का अनुसंधान', 'कैंसररोधी उम्मीदवारों के मूल्यांकन के लिए BAG3 कार्य-हानि वाला HeLa कोशिका मंच', 'सर्जरी के दौरान सिर की स्थिति नियंत्रित करने की स्वतंत्र प्रणाली', 'एमआरआई से श्वेत पदार्थ में परिवर्तनों का चरण मूल्यांकन और पैटर्न पूर्वानुमान', 'शहतूत के फल का किण्वित अर्क: अल्ज़ाइमर का पूर्व-नैदानिक अनुसंधान', 'म्यूकोसाइटिस मूल्यांकन के लिए चिप पर मुख श्लेष्मा मॉडल', 'कंजंक्टाइवा से संपर्क द्वारा नेत्र दवा वितरण'],
+  titles: ['संज्ञान और स्मृति अनुसंधान के लिए अजवाइन का अर्क', 'ऑपरेशन टेबल के लिए सिर और कंधे का सहारा', 'त्वचा रोगों वाले रोगियों के लिए स्नान सहायता प्रणाली', 'तीन-मार्गी वाल्व और नमूना चूषण उपकरण', 'हेम्प की जड़ के अर्क का अंश: सूजनरोधी और दर्द-संवेदना अवरोधी सक्रियता का अनुसंधान', 'Tribulus और शहतूत के यौगिक: सौंदर्य प्रसाधन उपयोगों का अनुसंधान', 'सह-संवर्धन आधारित त्रिआयामी ऑस्टियोआर्थराइटिस मॉडल', 'कैप्सूल एंडोस्कोपी के डेटा की तैयारी और छवि विश्लेषण के लिए एआई', 'पियोनी और मैग्नोलिया के अर्क: डिम्बग्रंथि कार्य की सुरक्षा का अनुसंधान', 'कैंसररोधी उम्मीदवारों के मूल्यांकन के लिए BAG3 कार्य-हानि वाला HeLa कोशिका मंच', 'सर्जरी के दौरान सिर की स्थिति नियंत्रित करने की स्वतंत्र प्रणाली', 'एमआरआई से श्वेत पदार्थ में परिवर्तनों का चरण मूल्यांकन और पैटर्न पूर्वानुमान', 'शहतूत के फल का किण्वित अर्क: अल्ज़ाइमर का पूर्व-नैदानिक अनुसंधान', 'म्यूकोसाइटिस मूल्यांकन के लिए चिप पर मुख श्लेष्मा मॉडल', 'कंजंक्टाइवा से संपर्क द्वारा नेत्र दवा वितरण'],
   stages: ['कोशिका और पशु आधारित पूर्व-नैदानिक सत्यापन', 'उपकरण की रूपरेखा और संरचना प्रस्तुत', 'उपयोग संबंधी अवलोकन प्रस्तुत', 'कोशिका आधारित पूर्व-नैदानिक सत्यापन', 'परीक्षण मंच स्थापित; कोशिका आधारित सत्यापन', 'एआई मॉडल और इमेजिंग डेटा का सत्यापन', 'कोशिका लाइन स्थापित; तंत्र और उम्मीदवारों की सक्रियता का अध्ययन', 'उपकरण संरचना और स्थिति नियंत्रण लागू', 'छवि विश्लेषण मॉडल का विकास और सत्यापन', 'पशु आधारित पूर्व-नैदानिक सत्यापन', 'चिप पर ऊतक स्थापित; दवा प्रतिक्रिया का सत्यापन', 'उपकरण, औषधि रूप और वितरण तंत्र विकसित'],
   stage: 'Dongguk की सामग्री में बताया गया चरण', application: 'आवेदन', registration: 'पंजीकरण संख्याएँ', notSpecified: 'सामग्री में निर्दिष्ट नहीं',
   patents: 'संख्याएँ दी गई तालिका से ली गईं और SMK से मिलाई गईं। अधिकारों की वैधता और क्षेत्रीय दायरे का स्वतंत्र सत्यापन नहीं हुआ है। पेटेंट पंजीकरण नैदानिक प्रभावशीलता, सुरक्षा या नियामक स्वीकृति का प्रमाण नहीं है। संख्या न दिए जाने का अर्थ पेटेंट का अभाव नहीं है।', special15: 'पंजीकरण संख्या पहले विकास से संबंधित है; दूसरे आवेदन का पंजीकरण सामग्री में निर्दिष्ट नहीं है।',
