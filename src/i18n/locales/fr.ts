@@ -84,6 +84,7 @@ const fr: DeepPartial<UIDict> = {
       { key: "transport", name: "Véhicules commerciaux et spéciaux", blurb: "Véhicules de transport de marchandises, de passagers et spéciaux avec pièces détachées.", items: ["camions et tracteurs routiers", "autobus", "engins de chantier", "machines agricoles", "véhicules spéciaux", "remorques, pneus, batteries"] },
       { key: "adjacent", name: "Secteurs connexes", blurb: "Large couverture des niches où la Corée excelle.", items: ["matériaux de construction", "agroalimentaire et emballage", "traitement de l'eau et écologie", "énergie et énergies renouvelables", "électronique industrielle et LED", "textiles techniques"] },
       { key: "chemical", name: "Chimie et matériaux", blurb: "Matières premières chimiques, polymères et matériaux industriels.", items: ["matières premières chimiques et réactifs", "plastiques et polymères", "caoutchouc", "peintures et revêtements", "adhésifs et mastics", "engrais et produits agrochimiques"] },
+      {"key": "research", "name": "Instituts de recherche et développement", "blurb": "Partenariats avec les universités et instituts de recherche coréens : transfert de technologies, recherche conjointe et équipements de laboratoire.", "items": ["instituts et laboratoires universitaires", "transfert de technologies et licences", "programmes de recherche conjoints", "recherche préclinique", "équipements de laboratoire et de recherche", "brevets et certification des développements"]},
     ],
   },
 

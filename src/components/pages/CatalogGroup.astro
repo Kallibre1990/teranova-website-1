@@ -8,6 +8,7 @@ import { localizePath, anchorHref } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
+import { donggukContent } from '../../data/dongguk';
 import { visibleSuppliers as realSuppliers, beautySuppliers, supplierContent, showcaseImages, showcaseFacts } from '../../data/suppliers';
 interface Props {
   lang: Lang;
@@ -150,8 +151,8 @@ const statusInfo = {
     </a>
 
     <div class="group__head">
-      <h2 class="lvl" style="margin:0">{g.products_title}</h2>
-      {showDemo && <span class="badge badge--provided">{g.demo_badge}</span>}
+      <h2 class="lvl" style="margin:0">{groupKey === 'research' ? donggukContent(lang).directions : g.products_title}</h2>
+      {showDemo && suppliers.length > 0 && <span class="badge badge--provided">{g.demo_badge}</span>}
     </div>
     <div class="prod-grid">
       {
@@ -165,6 +166,15 @@ const statusInfo = {
         ))
       }
     </div>
+
+    {groupKey === 'research' && <div class="sup-grid" style="margin-top:40px">
+      <a class="scard scard--real" href={localizePath('/catalog/dongguk', lang)}>
+        <img src="/images/dongguk/logo.png" alt="Dongguk University Medical Center" width="255" height="99" style="width: min(255px, 100%); height: auto; background: white; margin-bottom: 20px" loading="lazy" />
+        <h3 class="scard__nm">Dongguk University Medical Center</h3>
+        <p class="scard__role">{donggukContent(lang).intro}</p>
+        <span class="scard__foot"><span class="scard__more">{donggukContent(lang).browse}</span></span>
+      </a>
+    </div>}
 
     {!isCosmetics && realForCat.length > 0 && (
       <>

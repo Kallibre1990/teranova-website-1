@@ -113,6 +113,7 @@ export const en: UIDict = {
       { key: 'transport', name: 'Commercial & special vehicles', blurb: 'Freight, passenger and special vehicles with parts.', items: ['trucks & tractor units', 'buses', 'construction machinery', 'agricultural machinery', 'special vehicles', 'trailers, tires, batteries'] },
       { key: 'adjacent', name: 'Adjacent sectors', blurb: 'Broad coverage of niches where Korea is strong.', items: ['building materials', 'food & packaging', 'water treatment & ecology', 'energy & renewables', 'industrial electronics & LED', 'technical textiles'] },
       { key: 'chemical', name: 'Chemicals & materials', blurb: 'Chemical raw materials, polymers and industrial materials.', items: ['chemical raw materials & reagents', 'plastics & polymers', 'rubber', 'paints & coatings', 'adhesives & sealants', 'fertilizers & agrochemicals'] },
+      { key: 'research', name: 'Research institutes & R&D', blurb: 'Partnerships with Korean universities and research institutes: technology transfer, joint R&D and lab equipment.', items: ['university institutes & labs', 'technology transfer & licensing', 'joint R&D programs', 'preclinical research', 'lab & research equipment', 'patenting & certification of developments'] },
     ],
   },
 

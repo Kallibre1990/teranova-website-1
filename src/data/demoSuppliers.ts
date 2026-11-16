@@ -56,4 +56,8 @@ export const demoSuppliers: Record<CategoryKey, DemoSupplier[]> = {
      убраны из витрины — в разделе остаются только реальные поставщики
      (см. suppliers.ts: Sunpure Extracts, ZhengZhou VEO Biotech). */
   chemical: [],
+  /* Новая категория (T-20261116-048): структура только, без выдуманных карточек —
+     первым сюда встанет настоящий профиль (Dongguk University Medical Center, часть
+     T-20261116-049), поэтому демо-поставщиков не заводим. */
+  research: [],
 };

@@ -84,6 +84,7 @@ const de: DeepPartial<UIDict> = {
       { key: "transport", name: "Nutz- und Spezialfahrzeuge", blurb: "Fracht-, Personen- und Spezialfahrzeuge samt Teilen.", items: ["Lkw & Sattelzugmaschinen", "Busse", "Baumaschinen", "Landmaschinen", "Spezialfahrzeuge", "Anhänger, Reifen, Batterien"] },
       { key: "adjacent", name: "Angrenzende Branchen", blurb: "Breite Abdeckung von Nischen, in denen Korea stark ist.", items: ["Baustoffe", "Lebensmittel & Verpackung", "Wasseraufbereitung & Ökologie", "Energie & erneuerbare Energien", "Industrieelektronik & LED", "technische Textilien"] },
       { key: "chemical", name: "Chemie & Materialien", blurb: "Chemische Rohstoffe, Polymere und Industriematerialien.", items: ["chemische Rohstoffe & Reagenzien", "Kunststoffe & Polymere", "Gummi", "Lacke & Beschichtungen", "Klebstoffe & Dichtstoffe", "Düngemittel & Agrochemikalien"] },
+      {"key": "research", "name": "Forschungsinstitute und Entwicklung", "blurb": "Zusammenarbeit mit koreanischen Universitäten und Forschungsinstituten: Technologietransfer, gemeinsame Forschung und Laborausrüstung.", "items": ["Universitätsinstitute und Labore", "Technologietransfer und Lizenzierung", "gemeinsame Forschungsprogramme", "präklinische Forschung", "Labor- und Forschungsausrüstung", "Patente und Zertifizierung von Entwicklungen"]},
     ],
   },
 
