@@ -131,6 +131,8 @@ export function deckCSS(C, voice) {
   /* Без text-transform: в турецкой локали заглавные превращают i в İ и коверкают
      названия брендов (LICORNE -> LİCORNE). Разрядки и размера достаточно. */
   .eyebrow { font-size: 8.5pt; letter-spacing: .22em; opacity: .72; font-weight: 700; }
+  .cover__logo { display: inline-block; background: #fff; border-radius: 2mm; padding: 3mm 6mm; margin-bottom: 6mm; }
+  .cover__logo img { height: 10mm; display: block; }
   .cover h1 { font-size: 38pt; line-height: 1.02; margin: 9mm 0 0; font-weight: 800; letter-spacing: -.025em; }
   .cover .tag { font-size: 13pt; font-style: italic; opacity: .88; margin-top: 5mm; max-width: 150mm; }
   .cover .desc { font-size: 10.5pt; line-height: 1.6; opacity: .9; margin-top: 6mm; max-width: 150mm; }
@@ -225,8 +227,9 @@ const page = (cfg, lbl, title, body, extra = '') => `
  * @param t     данные условий (termsData): terms/terms_h/terms_disc
  * @param cat   каталог [{line, items:[{name, img, volume}]}] или null
  * @param hero  абсолютный путь к обложечному фото или null
+ * @param logo  абсолютный путь к логотипу поставщика на обложке или null
  */
-export function deckHTML(cfg, lang, d, t, cat, hero) {
+export function deckHTML(cfg, lang, d, t, cat, hero, logo) {
   const u = d.ui || {};
   const P = [];
   /* bidiSafe() isolates Latin/digit runs so they don't get word-reordered inside
@@ -244,6 +247,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero) {
   <div class="page cover">
     ${coverArt(cfg.voice, cfg.colors?.sky || '#4ca6fc', cfg.colors?.accent || '#ffffff')}
     <div class="cover__t">
+      ${logo ? `<div class="cover__logo"><img src="file://${logo}"></div>` : ''}
       <div class="eyebrow">Teranova · ${esc(u.profile_sup || 'Supplier profile')}</div>
       <h1>${esc(cfg.brand)}</h1>
       ${d.tagline ? `<div class="tag">${esc(d.tagline)}</div>` : ''}

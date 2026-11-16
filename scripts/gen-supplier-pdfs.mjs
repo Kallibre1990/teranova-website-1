@@ -478,6 +478,7 @@ const SUPPLIERS = [
        цены и способы оплаты не публикуются; только сводка спецификации. */
     id: 'veo-biotech', json: 'veo-biotech', supplier: 'VEO Biotech (为邑生物)', brand: 'Helio PDRN',
     basis: 'B2B · terms on request', noPrice: true,
+    logo: '/img/suppliers/veo-biotech/logo.png',
     colors: { deep: '#12303A', sky: '#7FB0C4', bg: '#EEF4F7', line: '#D3E2E9' },
     pres: true,
     certs: [],
@@ -977,6 +978,14 @@ function heroOf(cfg) {
   return null;
 }
 
+/* Логотип поставщика на обложке дека — опционально, `cfg.logo` хранит тот же
+   public-путь, что и `logoUrl` на сайте (src/data/suppliers.ts). */
+function logoOf(cfg) {
+  if (!cfg.logo) return null;
+  const p = path.join(ROOT, 'public', cfg.logo.replace(/^\//, ''));
+  return fs.existsSync(p) ? p : null;
+}
+
 /* Та же логика, что в src/i18n/strict-content.ts catalogText(): en всегда
    читает базовое (английское) поле, остальные языки — свою запись из *I18n
    или (если её нет) русскую. Здесь без строгого throw на he/hi — это сборка
@@ -1069,7 +1078,7 @@ for (const cfg of targets) {
       await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
       n += 1;
     }
-    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg, lang), heroOf(cfg)),
+    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg, lang), heroOf(cfg), logoOf(cfg)),
       path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`));
     n += 1;
     process.stdout.write(` ${lang}`);
