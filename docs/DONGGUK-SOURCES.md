@@ -71,3 +71,23 @@ Source comparison alone is not a visual verdict. The reviewer should inspect
 hero hierarchy, image quality, spacing, open technology details, all locales
 and mobile/RTL layouts. The prepared local browser script blocks external
 requests and records geometry, links, screenshots and browser errors.
+
+## ORG-03 erratum — 2026-11-16, T-20261116-095
+
+This correction supersedes only the narrowed educational term in the accepted
+[ORG-03 registry (facts.json:66)](../../../AI_COORDINATION/Codex/evidence/T-20261116-047/facts.json)
+and [facts.md:26](../../../AI_COORDINATION/Codex/evidence/T-20261116-047/facts.md)
+of T-20261116-047; the accepted registry and its history remain unchanged.
+The original INTRO, 핵심기술 (사업)분야, item 2, says
+“일반대학원, 의학전문대학원을 운영”. 일반대학원 denotes the Graduate School,
+including master's and doctoral study, rather than doctoral study alone.
+
+Official references, verified in the independent T-20261116-052 fact-check:
+[Dongguk University Graduate School](https://gs.dongguk.edu/eng/main) and
+[the Korean Graduate School site](https://gs.dongguk.edu/main).
+This pass uses that recorded verification and makes no external requests.
+
+The RU organization now uses “школа магистерской и докторской подготовки”
+instead of “аспирантура”; FR uses “école d’études supérieures” instead of
+“école doctorale”. Other organization claims and locales are unchanged.
+Evidence: `AI_COORDINATION/Codex/evidence/T-20261116-052/fact-checker.md`.
