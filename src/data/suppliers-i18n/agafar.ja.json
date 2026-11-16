@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "包装容量"
+    "pack_label": "包装容量",
+    "faq_h": "よくある質問",
+    "detail_card_label": "メーカー製品カード（英語）",
+    "faq": [
+      {"q": "AGAFAR Medical Beauty Groupにはどのようなブランドがありますか?", "a": "スキンケア3ブランドです。敏感肌向けのデイリーケアを行うAGAFAR、業務用ラインMeditive Formula 3Xを展開するagapharma、シートマスクと日焼け止めを提供するa'reivです。"},
+      {"q": "DERMA MODE PROGRAMコレクションには何が含まれますか?", "a": "3つのラインにまたがる20製品をまとめたコレクションで、洗顔料・化粧水、アンプル・ブースター、アイケア・クリーム、日焼け止め・シートマスクで構成されています。"},
+      {"q": "NADXENラインはCPNP登録を完了していますか?", "a": "公開時点で、NADXENのアンプルと美容液のCPNP登録手続きは進行中です。"},
+      {"q": "AGAFAR製品はどこで販売されていますか?", "a": "同社によると、韓国、香港、中国、タイ、日本、米国、フィリピン、マレーシア、英国、UAE、カナダなどで販売されています。特定の地域については、お問い合わせごとにTeranovaが現在の条件を確認します。"},
+      {"q": "Teranovaを通じてAGAFARはどのような相手と取引していますか?", "a": "化粧品の輸入・販売代理店、皮膚科・美容クリニック、小売・薬局チェーン、EC事業の担当者です。"}
+    ]
   }
 }

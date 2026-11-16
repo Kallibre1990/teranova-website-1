@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "Ambalaj boyutu"
+    "pack_label": "Ambalaj boyutu",
+    "faq_h": "Sık sorulan sorular",
+    "detail_card_label": "Üreticinin ürün kartı (İngilizce)",
+    "faq": [
+      {"q": "AGAFAR Medical Beauty Group çatısı altında hangi markalar var?", "a": "Üç cilt bakım markası: hassas ciltler için nazik günlük bakım sunan AGAFAR, profesyonel Meditive Formula 3X serisine sahip agapharma ve kağıt maske ile güneş kremi sunan a'reiv."},
+      {"q": "DERMA MODE PROGRAM koleksiyonunda neler var?", "a": "Koleksiyon, üç seriye ait 20 ürünü bir araya getiriyor: temizleyiciler ve tonik, ampuller ve güçlendiriciler, göz çevresi bakımı ve kremler, güneş bakım ürünleri ve kağıt maskeler."},
+      {"q": "NADXEN serisi CPNP kaydını tamamladı mı?", "a": "Yayın tarihi itibarıyla NADXEN ampul ve serumunun CPNP kayıt süreci devam ediyor."},
+      {"q": "AGAFAR ürünleri nerelerde satılıyor?", "a": "Şirketin verdiği bilgilere göre Kore, Hong Kong, Çin, Tayland, Japonya, ABD, Filipinler, Malezya, Birleşik Krallık, BAE ve Kanada dahil çeşitli pazarlarda. Belirli bir bölge için Teranova, her talepte güncel koşulları teyit ediyor."},
+      {"q": "AGAFAR, Teranova aracılığıyla kimlerle çalışıyor?", "a": "Kozmetik ithalatçıları ve distribütörleri, dermatoloji ve estetik klinikleri, mağaza ve eczane zincirleri ile e-ticaret ekipleriyle."}
+    ]
   }
 }

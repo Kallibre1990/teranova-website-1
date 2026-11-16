@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "Conditionnement"
+    "pack_label": "Conditionnement",
+    "faq_h": "Questions fréquentes",
+    "detail_card_label": "Fiche produit du fabricant (en anglais)",
+    "faq": [
+      {"q": "Quelles marques composent AGAFAR Medical Beauty Group?", "a": "Trois marques de soins de la peau : AGAFAR pour des soins quotidiens doux destinés aux peaux sensibles, agapharma avec sa gamme professionnelle Meditive Formula 3X, et a'reiv avec un masque en tissu et une crème solaire."},
+      {"q": "Que comprend la collection DERMA MODE PROGRAM?", "a": "La collection réunit 20 produits des trois gammes : nettoyants et lotion tonique, ampoules et boosters, soins du contour des yeux et crèmes, soins solaires et masques en tissu."},
+      {"q": "La gamme NADXEN a-t-elle terminé son enregistrement CPNP?", "a": "Au moment de la publication, l'enregistrement CPNP de l'ampoule et du sérum NADXEN est en cours."},
+      {"q": "Où les produits AGAFAR sont-ils vendus?", "a": "Selon l'entreprise, notamment en Corée, à Hong Kong, en Chine, en Thaïlande, au Japon, aux États-Unis, aux Philippines, en Malaisie, au Royaume-Uni, aux Émirats arabes unis et au Canada. Pour un territoire précis, Teranova vérifie les conditions en vigueur à chaque demande."},
+      {"q": "Avec qui AGAFAR travaille-t-il via Teranova?", "a": "Avec des importateurs et distributeurs de cosmétiques, des cliniques dermatologiques et esthétiques, des réseaux de magasins et de pharmacies, et des équipes de vente en ligne."}
+    ]
   }
 }
