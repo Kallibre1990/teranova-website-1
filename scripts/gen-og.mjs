@@ -77,6 +77,7 @@ async function render(name, opts) {
 const CATS = {
   marine: 'Marine supply', cosmetics: 'Cosmetics & care (OEM/ODM)', medical: 'Medical & aesthetics',
   industrial: 'Industrial equipment', transport: 'Commercial & special vehicles', adjacent: 'Adjacent sectors', chemical: 'Chemicals & materials',
+  research: 'Research institutes & R&D',
   /* Не категория каталога, а подборка внутри косметики — карточка ей нужна такая же. */
   'hair-scalp': 'Hair & scalp care',
 };
