@@ -159,7 +159,7 @@ const articleCovers = new Map(
   articles.map((post) => {
     const r = postContent(post, 'ru');
     const text = [r.title, r.excerpt, ...r.sections.flatMap((x) => [x.h ?? '', ...x.p])].join(' ');
-    return [post.slug, coverPlan(profile.slug, post.slug, post.hero, text)];
+    return [post.slug, coverPlan(profile.slug, post.slug, post.hero, text, 3, post.cover)];
   }),
 );
 /* Line names are translated, product names are not — so matching a line to a

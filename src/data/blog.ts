@@ -53,6 +53,10 @@ export interface BlogPost {
   supplier?: string;
   /** Optional hero image (path under /public), language-neutral. */
   hero?: string;
+  /** Optional exact product photos for the cover (paths under /public), in order.
+      Use when the supplier's photo file names carry no product names (sku-N.jpg),
+      so the automatic pick cannot tell which bottles the article is about. */
+  cover?: string[];
   /** Где действующее вещество применяется: компания и её позиции. Список ведём
       руками по данным поставщиков — вывести его из текста статьи нельзя, а
       ошибка здесь означала бы приписанный компании состав. Названия позиций
