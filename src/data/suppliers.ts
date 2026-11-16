@@ -856,6 +856,7 @@ export interface SupplierUI {
   gallery_note?: string;
   video_h?: string;
   video_note?: string;
+  faq_h?: string;
 }
 export interface SupplierContent {
   tagline: string;
@@ -872,6 +873,10 @@ export interface SupplierContent {
      request (CONTENT-RULES §7). Weiyi Biotech asked for two technical
      references on 08.11.2026 (T-20261108-105). */
   references?: { title: string; items: { label: string; href: string }[] };
+  /* Optional Q&A grounded only in the company's own confirmed materials
+     already used elsewhere in this profile (facts/tech/terms/exportNote) —
+     no new claims, prices, MOQ or contacts (T-20261116-002). */
+  faq?: { q: string; a: string }[];
   /* Source-attributed company outline; omitted where publishable leadership
      material is not available. */
   company?: {

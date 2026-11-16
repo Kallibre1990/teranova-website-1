@@ -91,6 +91,32 @@
     },
     "catalog_notes": [
       "PDRN d'origine naturelle issu de testicules de saumon mâle. TDS, SDS, certificat d'analyse du lot applicable et échantillons d'évaluation via Teranova."
+    ],
+    "faq": [
+      {
+        "q": "Qu'est-ce que Helio PDRN (Sodium DNA) ?",
+        "a": "Helio PDRN est la matière première PDRN d'origine naturelle de VEO Biotech, identifiée dans la documentation de matière première cosmétique sous le nom de Sodium DNA. Elle est produite à partir de testicules de saumon mâle par extraction, séparation, purification et séchage, et fournie sous forme de poudre hydrosoluble."
+      },
+      {
+        "q": "Quelle pureté et quel niveau d'endotoxine l'entreprise propose-t-elle ?",
+        "a": "Une pureté de 99,9 %, avec la méthode de dosage et la base de calcul indiquées dans les documents produit applicables. L'entreprise indique une endotoxine inférieure à 0,01 EU/mg."
+      },
+      {
+        "q": "Quels documents accompagnent la matière première ?",
+        "a": "La fiche technique (TDS), la fiche de données de sécurité (SDS) et le certificat d'analyse du lot applicable. À la demande de l'entreprise, le certificat d'analyse complet n'est pas publié."
+      },
+      {
+        "q": "Peut-on demander un échantillon d'évaluation ?",
+        "a": "Oui. Des échantillons d'évaluation et un approvisionnement en vrac sont disponibles par l'intermédiaire de Teranova ; les quantités sont discutées sur demande."
+      },
+      {
+        "q": "Existe-t-il un distributeur exclusif pour cette matière première ?",
+        "a": "Non. VEO Biotech n'a pas de distributeur exclusif et est ouverte aux distributeurs régionaux par l'intermédiaire de Teranova."
+      },
+      {
+        "q": "À quelles conditions la matière première est-elle fournie ?",
+        "a": "La coopération par l'intermédiaire de Teranova est proposée aux conditions FOB Hong Kong, CIF et DDP. Les prix et les conditions de paiement ne sont pas publiés et sont communiqués aux partenaires sur demande."
+      }
     ]
   },
   "ui": {
@@ -115,6 +141,7 @@
     "verified_suppliers": "Fournisseurs vérifiés",
     "certs_h": "Certificats et enregistrements",
     "gallery_h": "Matière première et production",
-    "gallery_note": "Les photographies du site de production et de la matière première ont été fournies par VEO Biotech (为邑生物) via son site officiel. Il ne s'agit pas d'une visite d'usine de notre part : le statut du fournisseur est « Informations fournies par l'entreprise »."
+    "gallery_note": "Les photographies du site de production et de la matière première ont été fournies par VEO Biotech (为邑生物) via son site officiel. Il ne s'agit pas d'une visite d'usine de notre part : le statut du fournisseur est « Informations fournies par l'entreprise ».",
+    "faq_h": "Questions fréquentes"
   }
 }

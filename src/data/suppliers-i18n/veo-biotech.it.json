@@ -91,7 +91,33 @@
           "href": "https://helio-bio.com/pdrn-ingredient-guide"
         }
       ]
-    }
+    },
+    "faq": [
+      {
+        "q": "Che cos'è Helio PDRN (Sodium DNA)?",
+        "a": "Helio PDRN è la materia prima PDRN di origine naturale di VEO Biotech, identificata nella documentazione della materia prima cosmetica come Sodium DNA. È ottenuto da testicoli di salmone maschio mediante estrazione, separazione, purificazione ed essiccazione e fornito come polvere idrosolubile."
+      },
+      {
+        "q": "Quale purezza e livello di endotossina offre l'azienda?",
+        "a": "Una purezza del 99,9%, con metodo di dosaggio e base di calcolo indicati nei documenti di prodotto applicabili. L'azienda dichiara un'endotossina inferiore a 0,01 EU/mg."
+      },
+      {
+        "q": "Quali documenti accompagnano la materia prima?",
+        "a": "La scheda tecnica (TDS), la scheda di sicurezza (SDS) e il certificato di analisi di lotto applicabile. Su richiesta dell'azienda, il certificato di analisi completo non è pubblicato."
+      },
+      {
+        "q": "È possibile richiedere un campione per valutazione?",
+        "a": "Sì. Campioni per valutazione e fornitura in volume sono disponibili tramite Teranova; le quantità si discutono su richiesta."
+      },
+      {
+        "q": "Esiste un distributore esclusivo per questa materia prima?",
+        "a": "No. VEO Biotech non ha un distributore esclusivo ed è aperta a distributori regionali tramite Teranova."
+      },
+      {
+        "q": "A quali condizioni viene fornita la materia prima?",
+        "a": "La collaborazione tramite Teranova è offerta a condizioni FOB Hong Kong, CIF e DDP. Prezzi e condizioni di pagamento non sono pubblicati e sono comunicati ai partner su richiesta."
+      }
+    ]
   },
   "ui": {
     "profile_sup": "Profilo del fornitore",
@@ -115,6 +141,7 @@
     "verified_suppliers": "Fornitori verificati",
     "certs_h": "Certificazioni e registrazioni",
     "gallery_h": "Materia prima e produzione",
-    "gallery_note": "Le fotografie del sito produttivo e della materia prima sono state fornite da VEO Biotech (为邑生物) tramite il suo sito ufficiale. Non si tratta di una nostra visita in fabbrica: lo stato del fornitore è «Informazioni fornite dall'azienda»."
+    "gallery_note": "Le fotografie del sito produttivo e della materia prima sono state fornite da VEO Biotech (为邑生物) tramite il suo sito ufficiale. Non si tratta di una nostra visita in fabbrica: lo stato del fornitore è «Informazioni fornite dall'azienda».",
+    "faq_h": "Domande frequenti"
   }
 }

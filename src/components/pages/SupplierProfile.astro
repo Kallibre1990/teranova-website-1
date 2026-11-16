@@ -631,6 +631,26 @@ function monogram(name: string): string {
     </section>
   )}
 
+  <!-- FAQ -->
+  {c.faq && c.faq.length > 0 && (
+    <section class="sp-sec">
+      <div class="wrap sp-narrow">
+        <span class="sp-lvl">{c.ui.faq_h}</span>
+        <div class="sp-faq">
+          {c.faq.map((item, i) => (
+            <details class="sp-faq__item" open={i === 0}>
+              <summary>
+                <span>{item.q}</span>
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </summary>
+              <p>{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   {articles.length > 0 && (
     <section class="sp-sec">
       <div class="wrap">
@@ -1049,6 +1069,15 @@ function monogram(name: string): string {
   .sp-terms__dl--alt:hover { background: var(--ds-deep); color: #fff; }
   .sp-terms__dl svg { width: 17px; height: 17px; }
   .sp-terms__disc { font-size: 0.82rem; color: #5a6a80; line-height: 1.6; margin-top: 16px; }
+
+  /* faq */
+  .sp-faq { display: grid; gap: 10px; }
+  .sp-faq__item { border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #e2e8f0); border-radius: 14px; background: var(--ds-bg); padding: 0 20px; }
+  .sp-faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; list-style: none; padding: 18px 0; font-size: 0.98rem; font-weight: 700; color: var(--ds-deep); }
+  .sp-faq__item summary::-webkit-details-marker { display: none; }
+  .sp-faq__item summary svg { flex: none; color: var(--ds-sky); transition: transform .25s var(--ease); }
+  .sp-faq__item[open] summary svg { transform: rotate(180deg); }
+  .sp-faq__item p { font-size: 0.92rem; color: #45576f; line-height: 1.65; padding: 0 0 18px; max-width: 70ch; }
 
   /* lines */
   .sp-lines { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }

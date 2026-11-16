@@ -91,6 +91,32 @@
     },
     "catalog_notes": [
       "PDRN natürlichen Ursprungs aus Lachshoden (männliche Tiere). TDS, SDS, das jeweils gültige chargenbezogene Analysenzertifikat und Evaluierungsmuster über Teranova."
+    ],
+    "faq": [
+      {
+        "q": "Was ist Helio PDRN (Sodium DNA)?",
+        "a": "Helio PDRN ist der PDRN-Rohstoff natürlichen Ursprungs von VEO Biotech, der in der Dokumentation zum kosmetischen Rohstoff als Sodium DNA bezeichnet wird. Er wird aus Lachshoden (männliche Tiere) durch Extraktion, Trennung, Reinigung und Trocknung gewonnen und als wasserlösliches Pulver geliefert."
+      },
+      {
+        "q": "Welche Reinheit und welchen Endotoxinwert bietet das Unternehmen an?",
+        "a": "Eine Reinheit von 99,9 %; Bestimmungsmethode und Berechnungsgrundlage ergeben sich aus den jeweiligen Produktunterlagen. Das Unternehmen gibt Endotoxin unter 0,01 EU/mg an."
+      },
+      {
+        "q": "Welche Unterlagen werden mit dem Rohstoff geliefert?",
+        "a": "Das Technische Datenblatt (TDS), das Sicherheitsdatenblatt (SDS) und das jeweils gültige chargenbezogene Analysenzertifikat. Auf Wunsch des Unternehmens wird das vollständige Analysenzertifikat nicht veröffentlicht."
+      },
+      {
+        "q": "Kann ein Evaluierungsmuster angefragt werden?",
+        "a": "Ja. Evaluierungsmuster und Großmengen sind über Teranova verfügbar; Mengen werden auf Anfrage besprochen."
+      },
+      {
+        "q": "Gibt es einen exklusiven Distributor für diesen Rohstoff?",
+        "a": "Nein. VEO Biotech hat keinen exklusiven Distributor und ist über Teranova offen für regionale Distributoren."
+      },
+      {
+        "q": "Zu welchen Bedingungen wird der Rohstoff geliefert?",
+        "a": "Die Zusammenarbeit über Teranova erfolgt zu FOB Hong Kong, CIF und DDP. Preise und Zahlungsbedingungen werden nicht veröffentlicht und Partnern auf Anfrage mitgeteilt."
+      }
     ]
   },
   "ui": {
@@ -115,6 +141,7 @@
     "verified_suppliers": "Geprüfte Lieferanten",
     "certs_h": "Zertifikate und Registrierungen",
     "gallery_h": "Rohstoff und Produktion",
-    "gallery_note": "Die Aufnahmen des Produktionsstandorts und des Rohstoffs wurden von VEO Biotech (为邑生物) über dessen offizielle Website bereitgestellt. Es handelt sich nicht um einen eigenen Werksbesuch: Der Status des Lieferanten lautet „Vom Unternehmen bereitgestellte Informationen“."
+    "gallery_note": "Die Aufnahmen des Produktionsstandorts und des Rohstoffs wurden von VEO Biotech (为邑生物) über dessen offizielle Website bereitgestellt. Es handelt sich nicht um einen eigenen Werksbesuch: Der Status des Lieferanten lautet „Vom Unternehmen bereitgestellte Informationen“.",
+    "faq_h": "Häufig gestellte Fragen"
   }
 }

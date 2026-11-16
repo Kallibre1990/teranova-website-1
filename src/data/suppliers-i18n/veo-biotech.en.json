@@ -91,6 +91,32 @@
     },
     "catalog_notes": [
       "Natural-source PDRN from male salmon testes. TDS, SDS, the applicable batch certificate of analysis and evaluation samples through Teranova."
+    ],
+    "faq": [
+      {
+        "q": "What is Helio PDRN (Sodium DNA)?",
+        "a": "Helio PDRN is VEO Biotech's natural-source PDRN raw material, identified in its cosmetic raw-material documentation as Sodium DNA. It is produced from male salmon testes through extraction, separation, purification and drying, and supplied as a water-soluble powder."
+      },
+      {
+        "q": "What purity and endotoxin level does the company offer?",
+        "a": "A purity of 99.9%, with the assay method and calculation basis given in the applicable product documents. The company reports endotoxin below 0.01 EU/mg."
+      },
+      {
+        "q": "What documents come with the material?",
+        "a": "The Technical Data Sheet, Safety Data Sheet and the applicable batch certificate of analysis. The full certificate of analysis is not published, at the company's request."
+      },
+      {
+        "q": "Can we request an evaluation sample?",
+        "a": "Yes. Evaluation samples and bulk supply are available through Teranova; quantities are discussed on request."
+      },
+      {
+        "q": "Is there an exclusive distributor for this material?",
+        "a": "No. VEO Biotech has no exclusive distributor and is open to regional distributors through Teranova."
+      },
+      {
+        "q": "On what terms is the material supplied?",
+        "a": "Cooperation through Teranova is offered on FOB Hong Kong, CIF and DDP terms. Prices and payment terms are not published and are shared with partners on request."
+      }
     ]
   },
   "ui": {
@@ -115,6 +141,7 @@
     "verified_suppliers": "Verified suppliers",
     "certs_h": "Certificates and registrations",
     "gallery_h": "Raw material and production",
-    "gallery_note": "Site and raw-material photographs were provided by VEO Biotech (为邑生物) via its official website. This is not our own factory visit: the supplier's status is \"Information provided by the company\"."
+    "gallery_note": "Site and raw-material photographs were provided by VEO Biotech (为邑生物) via its official website. This is not our own factory visit: the supplier's status is \"Information provided by the company\".",
+    "faq_h": "Frequently asked questions"
   }
 }

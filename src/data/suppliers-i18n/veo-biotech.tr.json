@@ -91,6 +91,32 @@
     },
     "catalog_notes": [
       "Erkek somon testislerinden doğal kaynaklı PDRN. TDS, SDS, geçerli parti analiz sertifikası (COA) ve değerlendirme numuneleri Teranova aracılığıyla."
+    ],
+    "faq": [
+      {
+        "q": "Helio PDRN (Sodium DNA) nedir?",
+        "a": "Helio PDRN, VEO Biotech'in doğal kaynaklı PDRN hammaddesidir ve kozmetik hammadde dokümantasyonunda Sodium DNA olarak tanımlanır. Erkek somon testislerinden ekstraksiyon, ayırma, saflaştırma ve kurutma yoluyla üretilir ve suda çözünen toz olarak sunulur."
+      },
+      {
+        "q": "Şirket hangi saflık ve endotoksin seviyesini sunuyor?",
+        "a": "%99,9 saflık; analiz yöntemi ve hesaplama esası geçerli ürün dokümanlarında belirtilmiştir. Şirket endotoksinin 0,01 EU/mg'ın altında olduğunu bildirmektedir."
+      },
+      {
+        "q": "Hammaddeyle birlikte hangi dokümanlar gelir?",
+        "a": "Teknik Veri Sayfası (TDS), Güvenlik Bilgi Formu (SDS) ve geçerli parti analiz sertifikası (COA). Şirketin talebi üzerine analiz sertifikasının tamamı yayımlanmaz."
+      },
+      {
+        "q": "Değerlendirme numunesi talep edilebilir mi?",
+        "a": "Evet. Teranova aracılığıyla değerlendirme numuneleri ve toplu tedarik mevcuttur; miktarlar talep üzerine görüşülür."
+      },
+      {
+        "q": "Bu hammadde için münhasır bir distribütör var mı?",
+        "a": "Hayır. VEO Biotech'in münhasır distribütörü yoktur ve Teranova aracılığıyla bölgesel distribütörlere açıktır."
+      },
+      {
+        "q": "Hammadde hangi koşullarda tedarik edilir?",
+        "a": "Teranova aracılığıyla iş birliği FOB Hong Kong, CIF ve DDP koşullarında sunulur. Fiyatlar ve ödeme koşulları yayımlanmaz, talep üzerine ortaklarla paylaşılır."
+      }
     ]
   },
   "ui": {
@@ -115,6 +141,7 @@
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Sertifikalar ve kayıtlar",
     "gallery_h": "Hammadde ve üretim",
-    "gallery_note": "Üretim sahası ve hammadde fotoğrafları VEO Biotech (为邑生物) tarafından resmi web sitesi üzerinden sağlanmıştır. Bu bizim fabrika ziyaretimiz değildir: tedarikçinin durumu «Şirket tarafından sağlanan bilgi»."
+    "gallery_note": "Üretim sahası ve hammadde fotoğrafları VEO Biotech (为邑生物) tarafından resmi web sitesi üzerinden sağlanmıştır. Bu bizim fabrika ziyaretimiz değildir: tedarikçinin durumu «Şirket tarafından sağlanan bilgi».",
+    "faq_h": "Sık sorulan sorular"
   }
 }
