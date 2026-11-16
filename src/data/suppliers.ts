@@ -957,7 +957,7 @@ export interface SupplierProfile {
   /* Product identities/assets stay shared; descriptive group/pack labels can be localized. */
   /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
      позиции может не быть вовсе. Карточка тогда показывает монограмму. */
-  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
+  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; nameI18n?: Partial<Record<Lang, string>>; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
@@ -2886,7 +2886,7 @@ export const suppliers: SupplierProfile[] = [
        IMAGERY на страницу не идут. Карточка и шапка показывают собранную
        кодом иллюстрацию (scripts/gen-veo-illustration.mjs — спираль ДНК,
        фрагменты, порошок в цветах логотипа), не монограмму (T-20261116-012). */
-    catalog: veoBiotechCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>> }[] }[],
+    catalog: veoBiotechCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; nameI18n?: Partial<Record<Lang, string>>; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>> }[] }[],
     termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf', he: '/docs/veo-biotech-terms-he.pdf', hi: '/docs/veo-biotech-terms-hi.pdf' },
     presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf', he: '/docs/veo-biotech-presentation-he.pdf', hi: '/docs/veo-biotech-presentation-hi.pdf' },
     i18n: {

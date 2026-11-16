@@ -503,11 +503,11 @@ function monogram(name: string): string {
                             от поставщика ещё нет. */}
                         <span class="sp-prod__ph">
                           {it.img
-                            ? <img src={it.img} alt={it.name} loading="lazy" decoding="async" />
+                            ? <img src={it.img} alt={catalogText(it.name, it.nameI18n, lang)} loading="lazy" decoding="async" />
                             : <span class="sp-prod__mono" aria-hidden="true">{monogram(it.name)}</span>}
                         </span>
                         <span class="sp-prod__body">
-                          <span class="sp-prod__nm">{it.name}{it.volume && <span class="sp-prod__vol"> · {catalogText(it.volume, it.volumeI18n, lang)}</span>}</span>
+                          <span class="sp-prod__nm">{catalogText(it.name, it.nameI18n, lang)}{it.volume && <span class="sp-prod__vol"> · {catalogText(it.volume, it.volumeI18n, lang)}</span>}</span>
                           {note && <span class="sp-prod__desc">{note}</span>}
                           {it.certs && it.certs.length > 0 && (
                             <span class="sp-prod__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>

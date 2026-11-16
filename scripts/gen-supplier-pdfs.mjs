@@ -977,14 +977,32 @@ function heroOf(cfg) {
   return null;
 }
 
+/* Та же логика, что в src/i18n/strict-content.ts catalogText(): en всегда
+   читает базовое (английское) поле, остальные языки — свою запись из *I18n
+   или (если её нет) русскую. Здесь без строгого throw на he/hi — это сборка
+   PDF, а не страница сайта, молчаливый откат к базовому полю безопаснее. */
+function localizeField(source, entries, lang) {
+  if (lang === 'en' || !entries) return source;
+  return entries[lang] ?? entries.ru ?? source;
+}
+
 /* Каталог для страницы с фото: к каждой позиции добавляем абсолютный путь —
-   Chrome читает картинки с диска по file://. */
-function catalogOf(cfg) {
+   Chrome читает картинки с диска по file://. С `lang` дополнительно переводит
+   название линейки/позиции/объёма по *I18n-картам каталога — без этого PDF
+   каждого языка показывал английские lineI18n/volumeI18n/nameI18n как есть
+   (T-20261116-044). Без `lang` (поиск фото по линейке в linesWithPhotos)
+   возвращает каталог как есть — именно по базовым английским именам идёт matching. */
+function catalogOf(cfg, lang) {
   const f = path.join(DATA, `${cfg.json}.catalog.json`);
   if (!fs.existsSync(f)) return null;
   const cat = JSON.parse(fs.readFileSync(f, 'utf8'));
   for (const g of cat) {
+    if (lang) g.line = localizeField(g.line, g.lineI18n, lang);
     for (const it of g.items) {
+      if (lang) {
+        it.name = localizeField(it.name, it.nameI18n, lang);
+        it.volume = localizeField(it.volume, it.volumeI18n, lang);
+      }
       /* У позиции может не быть снимка вовсе: у поставщика сырья товар — порошок,
          а у крупного каталога часть карточек идёт без пакшота. Тогда просто нет abs. */
       if (!it.img) { it.abs = null; continue; }
@@ -1044,14 +1062,14 @@ for (const cfg of targets) {
     await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
     n += 1;
     if (cfg.catalogOnly) {
-      await toPDF(catalogHTML(cfg, lang, catalogOf(cfg) || []), path.join(OUT, `${cfg.id}-catalog-${lang}.pdf`));
+      await toPDF(catalogHTML(cfg, lang, catalogOf(cfg, lang) || []), path.join(OUT, `${cfg.id}-catalog-${lang}.pdf`));
       n += 1;
     }
     if (priceLines) {
       await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
       n += 1;
     }
-    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg), heroOf(cfg)),
+    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg, lang), heroOf(cfg)),
       path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`));
     n += 1;
     process.stdout.write(` ${lang}`);

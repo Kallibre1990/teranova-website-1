@@ -18,6 +18,20 @@
     "items": [
       {
         "name": "Helio PDRN — Sodium DNA powder",
+        "nameI18n": {
+          "ru": "Helio PDRN — Sodium DNA powder",
+          "ko": "Helio PDRN — Sodium DNA powder",
+          "zh": "Helio PDRN — DNA钠（Sodium DNA）粉末",
+          "ja": "Helio PDRN — Sodium DNA powder",
+          "it": "Helio PDRN — Sodium DNA powder",
+          "de": "Helio PDRN — Sodium DNA powder",
+          "fr": "Helio PDRN — Sodium DNA powder",
+          "tr": "Helio PDRN — Sodium DNA powder",
+          "es": "Helio PDRN — Sodium DNA powder",
+          "pt": "Helio PDRN — Sodium DNA powder",
+          "he": "Helio PDRN — Sodium DNA powder",
+          "hi": "Helio PDRN — Sodium DNA powder"
+        },
         "img": "/img/suppliers/veo-biotech/catalog/helio-pdrn.png",
         "volume": "cosmetic grade, purity 99.9%",
         "volumeI18n": {
