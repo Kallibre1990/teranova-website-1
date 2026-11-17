@@ -11,8 +11,16 @@ const e = agafarEditorial(lang);
 const root = '/img/suppliers/agafar/';
 const catalog = profile.catalog!;
 let offset = 0;
+// The first 20 catalog items (groups AGAFAR/agapharma/EXOXEN/a'reiv) match, in the same
+// order, the 20 product cards extracted from the official DERMA MODE PROGRAM catalogue PDF
+// (see public/img/suppliers/agafar/SOURCES.md); NADXEN (group 4) has no matching card.
 const groups = catalog.map(group => {
-  const items = group.items.map((item) => ({ ...item, note: c.catalog_notes![offset++] }));
+  const items = group.items.map((item) => {
+    const detailIdx = offset;
+    const note = c.catalog_notes![offset++];
+    const detail = detailIdx < 20 ? `${root}products/derma-mode-${String(detailIdx + 1).padStart(2, '0')}.webp` : null;
+    return { ...item, note, detail };
+  });
   return { ...group, items };
 });
 // Exact language only: task 094 adds actual documents, never a fallback PDF.
@@ -59,6 +67,7 @@ const gallery = [
     <a href="#agafar-brands">{c.ui.lines_h}</a>
     <a href="#agafar-catalog">{c.ui.catalog_h}</a>
     <a href="#agafar-devices">{c.ui.tech_h}</a>
+    <a href="#agafar-faq">{e.faq_h}</a>
   </nav>
 
   <section class="ag-story ag-wrap ag-section" id="agafar-about">
@@ -102,6 +111,12 @@ const gallery = [
                   <h4 dir="auto">{item.name}</h4>
                   <p class="ag-size"><span class="sr-only">{e.pack_label}: </span><bdi>{item.volume?.replace(/(\d)ml/g, '$1 ml').replace(/ x /g, ' × ').replace(/ea/g, '')}</bdi></p>
                   <p>{item.note}</p>
+                  {item.detail && (
+                    <a class="ag-product__detail" href={item.detail} target="_blank" rel="noopener">
+                      <img src={item.detail} alt={item.name} width="1600" height="1067" loading="lazy" decoding="async" />
+                      <span dir="ltr">{e.detail_card_label}</span>
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
@@ -161,6 +176,21 @@ const gallery = [
         </a>); })}
     </div>
   </section>}
+
+  <section class="ag-faq ag-wrap ag-section" id="agafar-faq">
+    <h2>{e.faq_h}</h2>
+    <div class="ag-faq__list">
+      {e.faq.map((item: { q: string; a: string }, i: number) => (
+        <details class="ag-faq__item" open={i === 0}>
+          <summary>
+            <span>{item.q}</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p>{item.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
 
   <section class="ag-contact">
     <div class="ag-wrap">
@@ -295,4 +325,14 @@ const gallery = [
   .ag-article__more { color:var(--ag-blue); font-weight:600; font-size:.9rem; }
   @media (max-width:900px) { .ag-gallery__grid { grid-template-columns:repeat(2,1fr); } }
   @media (max-width:640px) { .ag-gallery__grid, .ag-articles__grid { grid-template-columns:1fr; } }
+  .ag-product__detail { display:flex; align-items:center; gap:10px; margin-block-start:14px; text-decoration:none; }
+  .ag-product__detail img { width:56px; height:auto; aspect-ratio:3/2; object-fit:cover; border:1px solid var(--ag-line); flex:none; }
+  .ag-product__detail span { font-size:.72rem; color:var(--ag-blue); text-decoration:underline; text-underline-offset:.2em; max-width:none; }
+  .ag-faq__list { max-width:860px; margin-block-start:36px; }
+  .ag-faq__item { border:1px solid var(--ag-line); border-radius:4px; background:#fff; margin-block-end:12px; padding-inline:22px; }
+  .ag-faq__item summary { display:flex; align-items:center; justify-content:space-between; gap:16px; cursor:pointer; list-style:none; padding-block:18px; font-weight:600; }
+  .ag-faq__item summary::-webkit-details-marker { display:none; }
+  .ag-faq__item summary svg { flex:none; color:var(--ag-blue); transition:transform .25s ease; }
+  .ag-faq__item[open] summary svg { transform:rotate(180deg); }
+  .ag-faq__item p { color:var(--ag-muted); padding-block-end:20px; max-width:70ch; }
 </style>

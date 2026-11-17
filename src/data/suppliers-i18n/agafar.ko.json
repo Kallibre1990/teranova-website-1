@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "포장 용량"
+    "pack_label": "포장 용량",
+    "faq_h": "자주 묻는 질문",
+    "detail_card_label": "제조사 제품 카드 (영문)",
+    "faq": [
+      {"q": "AGAFAR Medical Beauty Group에는 어떤 브랜드가 있나요?", "a": "스킨케어 브랜드 3개입니다: 민감성 피부를 위한 데일리 케어 AGAFAR, 전문가용 Meditive Formula 3X 라인의 agapharma, 시트 마스크와 선크림을 선보이는 a'reiv입니다."},
+      {"q": "DERMA MODE PROGRAM 컬렉션에는 무엇이 포함되나요?", "a": "세 라인에 걸쳐 제품 20개를 모은 컬렉션으로, 클렌저와 토너, 앰플과 부스터, 아이 케어와 크림, 자외선 차단제와 시트 마스크로 구성됩니다."},
+      {"q": "NADXEN 라인은 CPNP 등록을 마쳤나요?", "a": "공개 시점 기준으로 NADXEN 앰플과 세럼의 CPNP 등록 절차가 진행 중입니다."},
+      {"q": "AGAFAR 제품은 어디에서 판매되나요?", "a": "회사에 따르면 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. 특정 지역에 대해서는 Teranova가 문의별로 현재 조건을 확인합니다."},
+      {"q": "Teranova를 통해 AGAFAR는 누구와 협력하나요?", "a": "화장품 수입·유통업체, 피부과 및 미용 클리닉, 소매 및 약국 체인, 전자상거래 담당팀입니다."}
+    ]
   }
 }
