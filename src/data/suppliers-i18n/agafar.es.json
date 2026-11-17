@@ -93,13 +93,13 @@
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "Tamaño del envase",
     "faq_h": "Preguntas frecuentes",
-    "detail_card_label": "Ficha de producto del fabricante (en inglés)",
+    "detail_card_label": "Ficha de producto del catálogo de AGAFAR",
     "faq": [
       {"q": "¿Qué marcas forman AGAFAR Medical Beauty Group?", "a": "Tres marcas de cuidado de la piel: AGAFAR para el cuidado diario suave de pieles sensibles, agapharma con su línea profesional Meditive Formula 3X, y a'reiv con una mascarilla de tejido y una crema solar."},
-      {"q": "¿Qué incluye la colección DERMA MODE PROGRAM?", "a": "La colección reúne 20 productos de las tres líneas: limpiadores y tónico, ampollas y potenciadores, contorno de ojos y cremas, protección solar y mascarillas de tejido."},
+      {"q": "¿Qué incluye la colección DERMA MODE PROGRAM?", "a": "La colección reúne 20 productos: 12 de AGAFAR, 5 de agapharma Meditive Formula 3X, una mascarilla de tejido y una crema solar de a'reiv, y además EXOXEN Booster. Incluye limpiadores y tónico, ampollas y potenciadores, contorno de ojos y cremas, crema solar y mascarilla de tejido."},
       {"q": "¿La línea NADXEN completó el registro CPNP?", "a": "Al momento de la publicación, el registro CPNP de la ampolla y el sérum NADXEN está en curso."},
-      {"q": "¿Dónde se vende AGAFAR?", "a": "Según la empresa, en Corea, Hong Kong, China, Tailandia, Japón, Estados Unidos, Filipinas, Malasia, Reino Unido, Emiratos Árabes Unidos, Canadá y otros mercados. Para un territorio concreto, Teranova confirma las condiciones vigentes en cada consulta."},
-      {"q": "¿Con quién trabaja AGAFAR a través de Teranova?", "a": "Con importadores y distribuidores de cosméticos, clínicas dermatológicas y de estética, cadenas de tiendas y farmacias, y equipos de comercio electrónico."}
+      {"q": "¿Dónde se vende AGAFAR?", "a": "En Corea, Hong Kong, China, Tailandia, Japón, Estados Unidos, Filipinas, Malasia, Reino Unido, Emiratos Árabes Unidos, Canadá y otros mercados. Para un territorio concreto, Teranova confirma las condiciones vigentes en cada consulta."},
+      {"q": "¿Quién puede abastecerse de AGAFAR a través de Teranova?", "a": "Importadores y distribuidores de cosméticos, clínicas dermatológicas y de estética, cadenas de tiendas y farmacias, y equipos de comercio electrónico."}
     ]
   }
 }

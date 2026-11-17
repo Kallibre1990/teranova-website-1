@@ -93,13 +93,13 @@
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "Pack size",
     "faq_h": "Frequently asked questions",
-    "detail_card_label": "Manufacturer's product card (in English)",
+    "detail_card_label": "Product card from the AGAFAR catalogue",
     "faq": [
       {"q": "Which brands make up AGAFAR Medical Beauty Group?", "a": "Three skincare brands: AGAFAR for gentle daily care for sensitive skin, agapharma with its professional Meditive Formula 3X line, and a'reiv with a sheet mask and sun cream."},
-      {"q": "What's in the DERMA MODE PROGRAM collection?", "a": "The collection brings together 20 products across the three lines: cleansers and toner, ampoules and boosters, eye care and creams, sun care and sheet masks."},
+      {"q": "What's in the DERMA MODE PROGRAM collection?", "a": "The collection has 20 products: 12 from AGAFAR, 5 from agapharma Meditive Formula 3X, a sheet mask and a sun cream from a'reiv, plus the EXOXEN Booster. They cover cleansers and toner, ampoules and boosters, eye care and creams, sun cream and a sheet mask."},
       {"q": "Has the NADXEN line completed CPNP registration?", "a": "As of publication, CPNP registration for the NADXEN ampoule and serum is in progress."},
-      {"q": "Where is AGAFAR sold?", "a": "According to the company, in Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE, Canada and other markets. Teranova confirms current terms for each specific territory."},
-      {"q": "Who does AGAFAR work with through Teranova?", "a": "Cosmetics importers and distributors, dermatology and aesthetic clinics, retail and pharmacy chains, and e-commerce teams."}
+      {"q": "Where is AGAFAR sold?", "a": "In Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE, Canada and other markets. Teranova confirms current terms for each specific territory."},
+      {"q": "Who can source AGAFAR through Teranova?", "a": "Cosmetics importers and distributors, dermatology and aesthetic clinics, retail and pharmacy chains, and e-commerce teams."}
     ]
   }
 }

@@ -93,13 +93,13 @@
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
     "pack_label": "包装规格",
     "faq_h": "常见问题",
-    "detail_card_label": "厂商产品说明卡（英文）",
+    "detail_card_label": "AGAFAR 产品目录中的产品卡",
     "faq": [
       {"q": "AGAFAR Medical Beauty Group 旗下有哪些品牌？", "a": "共三个护肤品牌：面向敏感肌肤的日常护理品牌 AGAFAR、专业系列 Meditive Formula 3X 所属的 agapharma，以及提供片状面膜和防晒霜的 a'reiv。"},
-      {"q": "DERMA MODE PROGRAM 系列包含哪些产品？", "a": "该系列汇集三条产品线共 20 款产品：洁面产品与爽肤水、安瓶与精华加强液、眼部护理与面霜，以及防晒产品与片状面膜。"},
+      {"q": "DERMA MODE PROGRAM 系列包含哪些产品？", "a": "该系列共 20 款产品：AGAFAR 12 款，agapharma Meditive Formula 3X 5 款，a'reiv 片状面膜和防晒霜各一款，另有 EXOXEN Booster。涵盖洁面产品与爽肤水、安瓶与精华加强液、眼部护理与面霜，以及防晒霜与片状面膜。"},
       {"q": "NADXEN 系列是否已完成 CPNP 注册？", "a": "截至发布时，NADXEN 安瓶及精华的 CPNP 注册仍在办理中。"},
-      {"q": "AGAFAR 产品在哪些市场销售？", "a": "据公司介绍，产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。针对具体地区，Teranova 会在每次询问时确认现行条件。"},
-      {"q": "AGAFAR 通过 Teranova 与哪些客户合作？", "a": "化妆品进口商与分销商、皮肤科及美容诊所、零售与连锁药店，以及电商团队。"}
+      {"q": "AGAFAR 产品在哪些市场销售？", "a": "产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。针对具体地区，Teranova 会在每次询问时确认现行条件。"},
+      {"q": "哪些客户可以通过 Teranova 采购 AGAFAR 产品？", "a": "化妆品进口商与分销商、皮肤科及美容诊所、零售与连锁药店，以及电商团队。"}
     ]
   }
 }
