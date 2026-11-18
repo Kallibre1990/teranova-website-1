@@ -35,7 +35,14 @@ const headSub = isCosmetics ? t.pages.cosmetics.intro_body : group.blurb;
 const compareDisplayedName = new Intl.Collator(lang, { sensitivity: 'base', numeric: true });
 const byDisplayedName = <T extends { name: string; slug?: string }>(a: T, b: T) =>
   compareDisplayedName.compare(a.name, b.name) || (a.slug ?? '').localeCompare(b.slug ?? '');
-const realForCat = (groupKey === 'cosmetics' ? beautySuppliers : realSuppliers.filter((s) => s.category === groupKey))
+/* Прямая команда Ирины 18.11.2026 (T-20261118-059, R-046): показать AgingTarget
+   дополнительно в research, не создавая второй профиль/URL — его канонический
+   профиль (category: 'medical') остаётся единственным, страница research
+   просто подключает ту же карточку по slug. */
+const CROSS_CATEGORY_SLUGS: Partial<Record<CategoryKey, string[]>> = {
+  research: ['agingtarget'],
+};
+const realForCat = (groupKey === 'cosmetics' ? beautySuppliers : realSuppliers.filter((s) => s.category === groupKey || CROSS_CATEGORY_SLUGS[groupKey]?.includes(s.slug)))
   .slice()
   .sort(byDisplayedName);
 /* Решение Антона 20.08.2026: демонстрационные карточки живут в группе только
@@ -167,7 +174,12 @@ const statusInfo = {
       }
     </div>
 
-    {groupKey === 'research' && <div class="sup-grid" style="margin-top:40px">
+    {/* Dongguk — не SupplierProfile (карточка жёстко описана ниже, не в
+        suppliers.ts), поэтому его показ в medical не идёт через
+        CROSS_CATEGORY_SLUGS/realForCat, а через то же условие рендера карточки,
+        что и в его канонической категории research. Один URL на обе страницы:
+        /catalog/dongguk. R-046, T-20261118-059, 18.11.2026. */}
+    {(groupKey === 'research' || groupKey === 'medical') && <div class="sup-grid" style="margin-top:40px">
       <a class="scard scard--real" href={localizePath('/catalog/dongguk', lang)}>
         <img src="/images/dongguk/logo.png" alt="Dongguk University Medical Center" width="255" height="99" style="width: min(255px, 100%); height: auto; background: white; margin-bottom: 20px" loading="lazy" />
         <h3 class="scard__nm">Dongguk University Medical Center</h3>
