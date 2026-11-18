@@ -1,49 +1,44 @@
 {
   "content": {
-    "tagline": "针对缺水肌肤的护理：仙人掌、肽与精简分层步骤",
-    "descriptor": "韩国护肤品牌 DESERT FREE 的品牌方 BEAUTYBLVD：一款防晒霜与三款 Cactide 精华",
-    "origin": "韩国",
+    "tagline": "以仙人掌与肽为灵感的护肤系列，适合干燥和缺水肌肤",
+    "descriptor": "DESERT FREE 是 BEAUTYBLVD 旗下品牌。Cactide 系列包含一款防晒霜和三款精华。",
+    "origin": "",
     "about": [
-      "BEAUTYBLVD 成立于 2020 年 11 月 1 日，并围绕干燥、缺水肌肤开发于 2024 年 5 月 8 日推出的 DESERT FREE。",
-      "Cactide 系列包括 Barrier Sun Cream、Double Repair Serum、Aquagel First Serum 与 Glow C Serum。公司资料将 Kolmar Korea 与 Ancors 列为生产合作伙伴，并未将其表述为 BEAUTYBLVD 自有工厂。"
+      "BEAUTYBLVD 成立于 2020 年，于 2024 年 5 月推出 DESERT FREE 品牌。据公司介绍，其首席执行官拥有约 30 年的从业经验。",
+      "DESERT FREE 以 The Earth is Skin 为理念，在干燥和缺水肌肤的护理中考虑气候因素。品牌以 Less, but Essential 和 Easy-Step Skincare 为原则，提出以精华为核心的简洁分层护理。"
     ],
     "facts": [
       "2020 年成立",
-      "DESERT FREE 于 2024 年推出",
-      "四款 Cactide 产品",
-      "公司资料所列生产合作伙伴：Kolmar Korea 与 Ancors"
+      "DESERT FREE 于 2024 年 5 月推出",
+      "四款 Cactide 产品"
     ],
-    "channels": [
-      "护肤品进口商与经销商",
-      "美妆及药妆零售",
-      "电商与旅行零售"
-    ],
+    "channels": [],
     "lines": [
       {
         "name": "Cactide Barrier Sun Cream",
-        "note": "50 ml，SPF 50+ PA++++。官方资料未对本产品提出 CPNP 或 MoCRA 注册声明。"
+        "note": "50 ml 防晒霜，防晒指数 SPF50+ PA++++。配方含仙人掌和 β-葡聚糖，质地轻盈，像水感精华。"
       },
       {
         "name": "Cactide Double Repair Serum",
-        "note": "50 ml 精华；据 BEAUTYBLVD 资料含仙人掌、依克多因、肽-12 与甘蔗来源角鲨烷。"
+        "note": "50 ml 精华，质地浓稠。配方含仙人掌、依克多因、Peptide-12 和经发酵制得的植物来源角鲨烷。"
       },
       {
         "name": "Cactide Aquagel First Serum",
-        "note": "130 ml 果冻质地第一步精华化妆水；据公司资料含仙人掌与胶原肽。"
+        "note": "130 ml 精华化妆水，呈果冻质地，用于护肤的第一步。"
       },
       {
         "name": "Cactide Glow C Serum",
-        "note": "50 ml 精华；据公司资料含维生素 C、Vita-Peptide 与 2% 烟酰胺；资料冲突的上市月份不予发布。"
+        "note": "50 ml 精华，呈乳液质地，含维生素 C、Vita-Peptide 和 2% 烟酰胺。2025 年 9 月上市。"
       }
     ],
     "tech": [
       {
         "name": "Cactide",
-        "note": "名称由 cactus 与 peptide 组合，是品牌原料概念，并非单独认证。"
+        "note": "Cactide 由 cactus（仙人掌）和 peptide（肽）两词组合而成，体现了该系列的配方理念。"
       },
       {
-        "name": "精简分层步骤",
-        "note": "以防晒、第一步护理与针对性精华构成产品线。"
+        "name": "简洁的分层护理",
+        "note": "系列包括用于第一步护理的精华化妆水、另外两款精华和一款防晒霜。"
       }
     ],
     "formats": [
@@ -51,29 +46,25 @@
       "50 ml 精华",
       "130 ml 精华化妆水"
     ],
-    "exportNote": "BEAUTYBLVD 开展 B2B 合作。价格与保密商务条款不公开，通过 Teranova 询价。供应商称三款精华已完成 EU CPNP 与 US MoCRA 注册，相关文件在交易阶段核验。",
+    "exportNote": "据 BEAUTYBLVD 介绍，Cactide Double Repair Serum、Cactide Aquagel First Serum 和 Cactide Glow C Serum 已通过 CPNP 完成通报，并按 MoCRA 要求完成产品列名。CPNP 通报并非认证，按 MoCRA 列名也不代表获得 FDA 批准。",
     "terms": [
       {
-        "label": "合作形式",
-        "value": "通过 Teranova 开展 DESERT FREE 批发 B2B 合作。"
+        "label": "产品",
+        "value": "如需相关资料，请联系 Teranova。"
       },
       {
-        "label": "生产",
-        "value": "BEAUTYBLVD 将 Kolmar Korea 与 Ancors 列为生产合作伙伴。"
-      },
-      {
-        "label": "价格",
-        "value": "询价提供；不公开价目表、RRP、系数、MOQ 与付款条件。"
+        "label": "Cactide Glow C Serum",
+        "value": "50 ml 精华，呈乳液质地，含维生素 C、Vita-Peptide 和 2% 烟酰胺。2025 年 9 月上市。"
       }
     ],
-    "consentNote": "资料、标识与图片由 BEAUTYBLVD 提供，并依据 2026 年 9 月 17 日书面许可发布。产品、生产合作伙伴及注册信息均来自公司资料，并非 Teranova 的独立背书。",
-    "seoTitle": "BEAUTYBLVD DESERT FREE — 韩国 Cactide 护肤 · Teranova",
-    "seoDesc": "DESERT FREE：一款防晒与三款 Cactide 精华。通过 Teranova 进行批发采购与交易支持。",
+    "consentNote": "经 BEAUTYBLVD 于 2026 年 9 月 17 日书面授权，本页使用公司及品牌名称、标识、图片和官方描述。产品信息来自公司资料。",
+    "seoTitle": "BEAUTYBLVD 旗下 DESERT FREE Cactide 护肤系列 · Teranova",
+    "seoDesc": "DESERT FREE 的 Cactide 系列适合干燥和缺水肌肤，包含 Barrier 防晒霜和三款精华。",
     "catalog_notes": [
-      "50 ml，SPF 50+ PA++++。官方资料未对本产品提出 CPNP 或 MoCRA 注册声明。",
-      "50 ml 精华；据 BEAUTYBLVD 资料含仙人掌、依克多因、肽-12 与甘蔗来源角鲨烷。",
-      "130 ml 果冻质地第一步精华化妆水；据公司资料含仙人掌与胶原肽。",
-      "50 ml 精华；据公司资料含维生素 C、Vita-Peptide 与 2% 烟酰胺；资料冲突的上市月份不予发布。"
+      "50 ml 防晒霜，防晒指数 SPF50+ PA++++。配方含仙人掌和 β-葡聚糖，质地轻盈，像水感精华。",
+      "50 ml 精华，质地浓稠。配方含仙人掌、依克多因、Peptide-12 和经发酵制得的植物来源角鲨烷。",
+      "130 ml 精华化妆水，呈果冻质地，用于护肤的第一步。",
+      "50 ml 精华，呈乳液质地，含维生素 C、Vita-Peptide 和 2% 烟酰胺。2025 年 9 月上市。"
     ]
   },
   "ui": {
@@ -84,18 +75,18 @@
     "catalog_h": "产品目录",
     "tech_h": "技术",
     "formats_h": "产品形态",
-    "export_h": "出口与市场",
+    "export_h": "产品信息",
     "terms_h": "合作条件",
     "download_btn": "下载合作条件（PDF）",
     "pres_btn": "下载品牌介绍（PDF）",
-    "terms_disc": "价格与保密商务条款不公开；买家通过 Teranova 获取当前条件。",
+    "terms_disc": "如需相关资料，请联系 Teranova。",
     "cta_h": "对这家供应商感兴趣？",
-    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_d": "如需产品信息和相关资料，请联系 Teranova。",
     "cta_btn": "通过 Teranova 联系",
     "more": "查看档案 →",
     "verified_suppliers": "已核实供应商",
-    "certs_h": "认证",
-    "certs_note": "EU CPNP 与 US MoCRA 仅为供应商对三款精华所述的注册，不代表监管批准。",
+    "certs_h": "产品通报与列名",
+    "certs_note": "Cactide Double Repair Serum、Cactide Aquagel First Serum 和 Cactide Glow C Serum 的 CPNP 通报与 MoCRA 产品列名信息由 BEAUTYBLVD 提供。",
     "products_h": "产品",
     "products_note": "BEAUTYBLVD 媒体包中的四款 DESERT FREE 官方图片。"
   }

@@ -1,49 +1,44 @@
 {
   "content": {
-    "tagline": "Cuidado para piel deshidratada — cactus, péptidos y una rutina sencilla",
-    "descriptor": "BEAUTYBLVD, titular de la marca coreana DESERT FREE: un protector solar y tres sérums Cactide",
-    "origin": "Corea",
+    "tagline": "Cuidado para piel seca y deshidratada con cactus y péptidos",
+    "descriptor": "DESERT FREE, la marca de BEAUTYBLVD, ofrece un protector solar y tres sérums Cactide.",
+    "origin": "",
     "about": [
-      "BEAUTYBLVD se fundó el 1 de noviembre de 2020 y desarrolla DESERT FREE, lanzada el 8 de mayo de 2024, para piel seca y deshidratada.",
-      "La gama reúne cuatro productos. Kolmar Korea y Ancors figuran como socios de fabricación según la empresa, no como fábricas propias de BEAUTYBLVD."
+      "BEAUTYBLVD se fundó en 2020 y lanzó DESERT FREE en mayo de 2024. Su filosofía «The Earth is Skin» pone el foco en los efectos del clima sobre la piel y en el cuidado de la piel seca o deshidratada. Según la empresa, la persona que ocupa la dirección general cuenta con unos 30 años de experiencia.",
+      "Los principios «Less, but Essential» y «Easy-Step Skincare» se traducen en una rutina sencilla que da prioridad a la aplicación de sérums en capas. El nombre de la gama Cactide combina las palabras cactus y péptido."
     ],
     "facts": [
       "BEAUTYBLVD se fundó en 2020",
-      "DESERT FREE se lanzó en 2024",
-      "Cuatro productos Cactide",
-      "Kolmar Korea y Ancors: socios de fabricación según la empresa"
+      "DESERT FREE se lanzó en mayo de 2024",
+      "Cuatro productos Cactide"
     ],
-    "channels": [
-      "Importadores y distribuidores de skincare",
-      "Retail de belleza y farmacia",
-      "E-commerce y travel retail"
-    ],
+    "channels": [],
     "lines": [
       {
         "name": "Cactide Barrier Sun Cream",
-        "note": "Protector solar de 50 ml, SPF 50+ PA++++. Los materiales oficiales no declaran CPNP ni MoCRA para este producto."
+        "note": "Protector solar de 50 ml con SPF 50+ PA++++, cactus y beta-glucano. Tiene una textura acuosa y ligera, similar a la de un sérum."
       },
       {
         "name": "Cactide Double Repair Serum",
-        "note": "Sérum de 50 ml con cactus, ectoína, péptido-12 y escualano derivado de caña de azúcar, según BEAUTYBLVD."
+        "note": "Sérum de 50 ml de textura viscosa, con cactus, ectoína, Peptide-12 y escualano vegetal obtenido por fermentación."
       },
       {
         "name": "Cactide Aquagel First Serum",
-        "note": "Sérum-tónico gel de 130 ml con cactus y péptidos de colágeno, según la empresa."
+        "note": "Sérum tónico de 130 ml con textura gelatinosa, para el primer paso de la rutina."
       },
       {
         "name": "Cactide Glow C Serum",
-        "note": "Sérum de 50 ml con vitamina C, Vita-Peptide y 2 % de niacinamida, según la empresa; no se publica el mes de lanzamiento contradictorio."
+        "note": "Sérum de 50 ml de textura lechosa con vitamina C, Vita-Peptide y un 2 % de niacinamida. Se lanzó en septiembre de 2025."
       }
     ],
     "tech": [
       {
         "name": "Cactide",
-        "note": "El nombre une cactus y peptide: es el concepto de ingredientes de la marca, no una certificación."
+        "note": "El nombre de la gama combina las palabras cactus y péptido."
       },
       {
         "name": "Rutina sencilla",
-        "note": "La gama combina protección solar, primer paso y sérums específicos."
+        "note": "La rutina combina un sérum tónico como primer paso, sérums específicos y protección solar."
       }
     ],
     "formats": [
@@ -51,29 +46,25 @@
       "Sérums 50 ml",
       "Sérum-tónico 130 ml"
     ],
-    "exportNote": "Los precios y las condiciones confidenciales no se publican y se solicitan a través de Teranova. Según el proveedor, los tres sérums están registrados en EU CPNP y US MoCRA; la documentación se verifica durante la operación.",
+    "exportNote": "Según BEAUTYBLVD, los sérums Double Repair, Aquagel First y Glow C se notificaron en el CPNP y se incluyeron en la lista de productos que exige la MoCRA.",
     "terms": [
       {
-        "label": "Formato",
-        "value": "Cooperación B2B mayorista para DESERT FREE a través de Teranova."
+        "label": "Productos",
+        "value": "Puede solicitar la documentación a través de Teranova."
       },
       {
-        "label": "Fabricación",
-        "value": "BEAUTYBLVD indica a Kolmar Korea y Ancors como socios de fabricación."
-      },
-      {
-        "label": "Precios",
-        "value": "Bajo consulta; no se publican tarifa, RRP, MOQ ni condiciones de pago."
+        "label": "Cactide Glow C Serum",
+        "value": "Sérum de 50 ml de textura lechosa con vitamina C, Vita-Peptide y un 2 % de niacinamida. Se lanzó en septiembre de 2025."
       }
     ],
-    "consentNote": "Los datos, el logotipo y las imágenes fueron facilitados por BEAUTYBLVD y se publican con autorización escrita del 17 de septiembre de 2026. Las declaraciones proceden de los materiales de la empresa y no son una validación independiente de Teranova.",
-    "seoTitle": "DESERT FREE de BEAUTYBLVD — cuidado coreano Cactide · Teranova",
-    "seoDesc": "Un protector solar y tres sérums Cactide. Suministro mayorista y apoyo a la operación mediante Teranova.",
+    "consentNote": "BEAUTYBLVD facilitó los nombres de la empresa y de la marca, el logotipo, las imágenes y las descripciones oficiales. La empresa autorizó por escrito la publicación de estos materiales.",
+    "seoTitle": "DESERT FREE de BEAUTYBLVD | Cuidado Cactide · Teranova",
+    "seoDesc": "Un protector solar y tres sérums para piel seca o deshidratada. Descubra la gama Cactide de DESERT FREE.",
     "catalog_notes": [
-      "Protector solar de 50 ml, SPF 50+ PA++++. Los materiales oficiales no declaran CPNP ni MoCRA para este producto.",
-      "Sérum de 50 ml con cactus, ectoína, péptido-12 y escualano derivado de caña de azúcar, según BEAUTYBLVD.",
-      "Sérum-tónico gel de 130 ml con cactus y péptidos de colágeno, según la empresa.",
-      "Sérum de 50 ml con vitamina C, Vita-Peptide y 2 % de niacinamida, según la empresa; no se publica el mes de lanzamiento contradictorio."
+      "Protector solar de 50 ml con SPF 50+ PA++++, cactus y beta-glucano. Tiene una textura acuosa y ligera, similar a la de un sérum.",
+      "Sérum de 50 ml de textura viscosa, con cactus, ectoína, Peptide-12 y escualano vegetal obtenido por fermentación.",
+      "Sérum tónico de 130 ml con textura gelatinosa, para el primer paso de la rutina.",
+      "Sérum de 50 ml de textura lechosa con vitamina C, Vita-Peptide y un 2 % de niacinamida. Se lanzó en septiembre de 2025."
     ]
   },
   "ui": {
@@ -84,18 +75,18 @@
     "catalog_h": "Catálogo de productos",
     "tech_h": "Tecnología",
     "formats_h": "Formatos de producto",
-    "export_h": "Exportación y mercados",
+    "export_h": "Información de los productos",
     "terms_h": "Condiciones de cooperación",
     "download_btn": "Descargar condiciones (PDF)",
     "pres_btn": "Descargar presentación (PDF)",
-    "terms_disc": "Los precios y las condiciones comerciales confidenciales no se publican; las condiciones vigentes se facilitan a través de Teranova.",
+    "terms_disc": "Puede solicitar la documentación a través de Teranova.",
     "cta_h": "¿Le interesa este proveedor?",
-    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_d": "Solicite información sobre los productos a través de Teranova.",
     "cta_btn": "Contactar a través de Teranova",
     "more": "Abrir perfil →",
     "verified_suppliers": "Proveedores verificados",
-    "certs_h": "Certificaciones",
-    "certs_note": "EU CPNP y US MoCRA son registros declarados por el proveedor solo para los tres sérums, no aprobaciones regulatorias.",
+    "certs_h": "Notificaciones y registros",
+    "certs_note": "Según BEAUTYBLVD, los sérums Double Repair, Aquagel First y Glow C se notificaron en el CPNP y se incluyeron en la lista de productos que exige la MoCRA.",
     "products_h": "Productos",
     "products_note": "Fotografías oficiales de los cuatro productos DESERT FREE facilitadas por BEAUTYBLVD."
   }

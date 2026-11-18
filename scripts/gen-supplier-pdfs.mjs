@@ -446,7 +446,7 @@ const SUPPLIERS = [
        медиапакет от 17.09.2026. XLSX-прайс закрытый; цены, RRP, MOQ, платёжные
        условия и прямые контакты не публикуются. */
     id: 'desert-free', json: 'desert-free', supplier: 'BEAUTYBLVD', brand: 'DESERT FREE',
-    basis: 'B2B · terms on request', noPrice: true,
+    basis: 'BEAUTYBLVD · DESERT FREE', noPrice: true,
     colors: { deep: '#24201E', sky: '#D6C7A5', bg: '#FAF7EF', line: '#E8DDC8' },
     pres: true,
     certs: [],

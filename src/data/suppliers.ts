@@ -2728,6 +2728,8 @@ export const suppliers: SupplierProfile[] = [
   {
     slug: 'desert-free',
     category: 'cosmetics',
+    // Supplier restriction: omit country labels and the default JSON-LD address.
+    countryUnconfirmed: true,
     name: 'BEAUTYBLVD',
     brand: 'DESERT FREE',
     status: 'provided',
@@ -2739,8 +2741,8 @@ export const suppliers: SupplierProfile[] = [
        официальный логотип и предоставленный медиапакет. Закрытый XLSX-прайс,
        прямые контакты и коммерческие условия в публичные данные не входят. */
     catalog: desertFreeCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
-    termsFile: { ru: '/docs/desert-free-terms-ru.pdf', en: '/docs/desert-free-terms-en.pdf', ko: '/docs/desert-free-terms-ko.pdf', zh: '/docs/desert-free-terms-zh.pdf', ja: '/docs/desert-free-terms-ja.pdf', it: '/docs/desert-free-terms-it.pdf', de: '/docs/desert-free-terms-de.pdf', fr: '/docs/desert-free-terms-fr.pdf', tr: '/docs/desert-free-terms-tr.pdf', es: '/docs/desert-free-terms-es.pdf', pt: '/docs/desert-free-terms-pt.pdf' },
-    presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf' },
+    termsFile: { ru: '/docs/desert-free-terms-ru.pdf', en: '/docs/desert-free-terms-en.pdf', ko: '/docs/desert-free-terms-ko.pdf', zh: '/docs/desert-free-terms-zh.pdf', ja: '/docs/desert-free-terms-ja.pdf', it: '/docs/desert-free-terms-it.pdf', de: '/docs/desert-free-terms-de.pdf', fr: '/docs/desert-free-terms-fr.pdf', tr: '/docs/desert-free-terms-tr.pdf', es: '/docs/desert-free-terms-es.pdf', pt: '/docs/desert-free-terms-pt.pdf', he: '/docs/desert-free-terms-he.pdf', hi: '/docs/desert-free-terms-hi.pdf' },
+    presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf', he: '/docs/desert-free-presentation-he.pdf', hi: '/docs/desert-free-presentation-hi.pdf' },
     i18n: {
       ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any), he: mk(desertFreeHe as any), hi: mk(desertFreeHi as any),
     },

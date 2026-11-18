@@ -112,7 +112,8 @@ const SUPPLIERS = {
   'rnh-bio': { eyebrow: 'Supplier profile', title: 'RNH BIO · EXOLUNA — Korean exosomes made in-house, for scalp care and clinics', accent: '#67BE45' },
   agerin: { eyebrow: 'Supplier profile', title: 'AGERIN by AGERA BioTech — Korean derma-cosmetics on a patented Ageratum extract', accent: '#2E7D5B' },
   btf: { eyebrow: 'Supplier profile', title: 'BTF — Ultrasonic Duo, a Korean home HIFU + SDM beauty device', accent: '#E2691F' },
-  'desert-free': { eyebrow: 'Supplier profile', title: 'DESERT FREE by BEAUTYBLVD — Korean Cactide skincare', accent: '#F05B4F' },
+  // Use the official logo unchanged: no country or deal claims on this profile.
+  'desert-free': { officialAsset: '../src/assets/suppliers/desert-free/logo.png' },
   'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo — Korean functional scalp care for hair loss, MFDS-registered', accent: '#7A2E6E' },
   whamisa: { eyebrow: 'Supplier profile', title: 'WHAMISA by ENS Korea — organic fermented skincare, hair and body care', accent: '#5E7C3D' },
   'veo-biotech': { eyebrow: 'Supplier profile', title: 'Weiyi Biotech — Helio PDRN, natural-source Sodium DNA raw material', accent: '#2F7D99' },
@@ -140,7 +141,10 @@ const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.jso
 
 console.log('OG:');
 for (const [k, name] of Object.entries(CATS)) await render(`og-cat-${k}.png`, { eyebrow: 'Category', title: name });
-for (const [slug, s] of Object.entries(SUPPLIERS)) await render(`og-${slug}.png`, s);
+for (const [slug, s] of Object.entries(SUPPLIERS)) {
+  if (s.officialAsset) fs.copyFileSync(resolve(__dirname, s.officialAsset), resolve(OUT, `og-${slug}.png`));
+  else await render(`og-${slug}.png`, s);
+}
 for (const p of blog) {
   const en = p.i18n.en?.title || p.i18n.ru.title;
   await render(`og-blog-${p.slug}.png`, { eyebrow: p.category === 'overview' ? 'Insight' : 'Guide', title: en, accent: p.supplier === 'dreamcos' ? '#c9a15f' : '#3F7AE0' });

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/check-new-locales.mjs --public-only && node scripts/check-translator-notes.mjs && node scripts/check-confidential-prices.mjs",
+    "prebuild": "node scripts/check-new-locales.mjs --public-only && node scripts/check-translator-notes.mjs && node scripts/check-confidential-prices.mjs && node scripts/check-desert-free-public.mjs",
     "build": "astro build",
     "postbuild": "node scripts/verify-home-locale.mjs",
     "check:new-locales": "node scripts/check-new-locales.mjs --release",

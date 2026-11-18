@@ -1,49 +1,44 @@
 {
   "content": {
-    "tagline": "Susuz kalmış cilt için bakım — kaktüs, peptitler ve sade bir rutin",
-    "descriptor": "Koreli DESERT FREE markasının sahibi BEAUTYBLVD: bir güneş kremi ve üç Cactide serumu",
-    "origin": "Kore",
+    "tagline": "Kuru ve nemsiz ciltler için kaktüs ve peptit içeren bakım",
+    "descriptor": "BEAUTYBLVD’nin markası DESERT FREE, bir güneş kremi ve üç Cactide serumu sunar.",
+    "origin": "",
     "about": [
-      "BEAUTYBLVD 1 Kasım 2020’de kuruldu ve 8 Mayıs 2024’te piyasaya çıkan DESERT FREE’yi kuru ve susuz kalmış cilt için geliştiriyor.",
-      "Seri dört üründen oluşur. Kolmar Korea ve Ancors şirket tarafından üretim ortakları olarak belirtilir; BEAUTYBLVD’ye ait fabrikalar olarak sunulmaz."
+      "BEAUTYBLVD 2020’de kuruldu ve DESERT FREE markasını Mayıs 2024’te tanıttı. Marka, “The Earth is Skin” yaklaşımıyla iklim koşullarının cilde etkisine ve kuru ya da nemsiz cildin bakımına odaklanıyor. Şirketin verdiği bilgiye göre genel müdürünün yaklaşık 30 yıllık deneyimi var.",
+      "“Less, but Essential” ve “Easy-Step Skincare” ilkeleri, serumların kat kat uygulandığı basit bir bakım rutini önerir. Cactide serisinin adı, kaktüs ve peptit sözcüklerini bir araya getirir."
     ],
     "facts": [
       "BEAUTYBLVD 2020 yılında kuruldu",
-      "DESERT FREE 2024 yılında piyasaya çıktı",
-      "Dört Cactide ürünü",
-      "Şirket verisine göre üretim ortakları: Kolmar Korea ve Ancors"
+      "DESERT FREE Mayıs 2024’te tanıtıldı",
+      "Dört Cactide ürünü"
     ],
-    "channels": [
-      "Cilt bakımı ithalatçıları ve distribütörleri",
-      "Güzellik ve eczane perakendesi",
-      "E-ticaret ve travel retail"
-    ],
+    "channels": [],
     "lines": [
       {
         "name": "Cactide Barrier Sun Cream",
-        "note": "50 ml güneş koruyucu, SPF 50+ PA++++. Resmî materyaller bu ürün için CPNP veya MoCRA kaydı beyan etmez."
+        "note": "Kaktüs ve beta glukan içeren, SPF 50+ PA++++ korumalı 50 ml güneş kremi. Serum gibi hafif ve sulu bir dokusu vardır."
       },
       {
         "name": "Cactide Double Repair Serum",
-        "note": "BEAUTYBLVD verisine göre kaktüs, ektoin, peptit-12 ve şeker kamışı kaynaklı skualan içeren 50 ml serum."
+        "note": "Kaktüs, ektoin, Peptide-12 ve fermantasyonla elde edilen bitkisel skualan içeren, yoğun kıvamlı 50 ml serum."
       },
       {
         "name": "Cactide Aquagel First Serum",
-        "note": "Şirket verisine göre kaktüs ve kolajen peptitleri içeren 130 ml jel serum-tonik."
+        "note": "Cilt bakımının ilk adımında kullanılan, jöle kıvamında 130 ml serum-tonik."
       },
       {
         "name": "Cactide Glow C Serum",
-        "note": "Şirket verisine göre C vitamini, Vita-Peptide ve %2 niasinamid içeren 50 ml serum; çelişkili lansman ayı yayımlanmaz."
+        "note": "C vitamini, Vita-Peptide ve %2 niasinamid içeren, süt kıvamında 50 ml serum. Eylül 2025’te piyasaya çıktı."
       }
     ],
     "tech": [
       {
         "name": "Cactide",
-        "note": "Ad cactus ve peptide sözcüklerini birleştirir; marka bileşen konseptidir, sertifika değildir."
+        "note": "Serinin adı, kaktüs ve peptit sözcüklerini bir araya getirir."
       },
       {
         "name": "Sade rutin",
-        "note": "Seri güneş bakımı, ilk adım ve hedefli serumlardan oluşur."
+        "note": "Seri, ilk adımda kullanılan bir serum-tonik, ihtiyaca yönelik serumlar ve güneş koruyucu içerir."
       }
     ],
     "formats": [
@@ -51,29 +46,25 @@
       "50 ml serumlar",
       "130 ml serum-tonik"
     ],
-    "exportNote": "Fiyatlar ve gizli ticari koşullar yayımlanmaz; Teranova üzerinden talep edilir. Tedarikçiye göre üç serum EU CPNP ve US MoCRA kayıtlıdır; belgeler işlem aşamasında doğrulanır.",
+    "exportNote": "BEAUTYBLVD’ye göre Double Repair, Aquagel First ve Glow C serumları CPNP’ye bildirildi ve MoCRA kapsamında ürün listesine alındı.",
     "terms": [
       {
-        "label": "Format",
-        "value": "Teranova üzerinden DESERT FREE toptan B2B iş birliği."
+        "label": "Ürünler",
+        "value": "Belgelere ulaşmak için Teranova üzerinden talepte bulunabilirsiniz."
       },
       {
-        "label": "Üretim",
-        "value": "BEAUTYBLVD, Kolmar Korea ve Ancors’u üretim ortağı olarak belirtir."
-      },
-      {
-        "label": "Fiyatlar",
-        "value": "Talep üzerine; fiyat listesi, RRP, MOQ ve ödeme koşulları yayımlanmaz."
+        "label": "Cactide Glow C Serum",
+        "value": "C vitamini, Vita-Peptide ve %2 niasinamid içeren, süt kıvamında 50 ml serum. Eylül 2025’te piyasaya çıktı."
       }
     ],
-    "consentNote": "Veriler, logo ve görseller BEAUTYBLVD tarafından sağlanmış ve 17 Eylül 2026 tarihli yazılı izinle yayımlanmıştır. Beyanlar şirket materyallerine dayanır ve Teranova’nın bağımsız onayı değildir.",
-    "seoTitle": "BEAUTYBLVD DESERT FREE — Kore Cactide cilt bakımı · Teranova",
-    "seoDesc": "Bir güneş kremi ve üç Cactide serumu. Teranova üzerinden toptan tedarik ve işlem desteği.",
+    "consentNote": "Şirket ve marka adlarını, logoyu, görselleri ve resmî ürün açıklamalarını BEAUTYBLVD sağladı. Şirket, bu materyallerin yayımlanmasına yazılı izin verdi.",
+    "seoTitle": "BEAUTYBLVD’nin DESERT FREE markası | Cactide cilt bakımı · Teranova",
+    "seoDesc": "DESERT FREE’nin kuru ya da nemsiz ciltler için Cactide serisi bir güneş kremi ve üç serumdan oluşur.",
     "catalog_notes": [
-      "50 ml güneş koruyucu, SPF 50+ PA++++. Resmî materyaller bu ürün için CPNP veya MoCRA kaydı beyan etmez.",
-      "BEAUTYBLVD verisine göre kaktüs, ektoin, peptit-12 ve şeker kamışı kaynaklı skualan içeren 50 ml serum.",
-      "Şirket verisine göre kaktüs ve kolajen peptitleri içeren 130 ml jel serum-tonik.",
-      "Şirket verisine göre C vitamini, Vita-Peptide ve %2 niasinamid içeren 50 ml serum; çelişkili lansman ayı yayımlanmaz."
+      "Kaktüs ve beta glukan içeren, SPF 50+ PA++++ korumalı 50 ml güneş kremi. Serum gibi hafif ve sulu bir dokusu vardır.",
+      "Kaktüs, ektoin, Peptide-12 ve fermantasyonla elde edilen bitkisel skualan içeren, yoğun kıvamlı 50 ml serum.",
+      "Cilt bakımının ilk adımında kullanılan, jöle kıvamında 130 ml serum-tonik.",
+      "C vitamini, Vita-Peptide ve %2 niasinamid içeren, süt kıvamında 50 ml serum. Eylül 2025’te piyasaya çıktı."
     ]
   },
   "ui": {
@@ -84,18 +75,18 @@
     "catalog_h": "Ürün kataloğu",
     "tech_h": "Teknoloji",
     "formats_h": "Ürün formatları",
-    "export_h": "İhracat ve pazarlar",
+    "export_h": "Ürün bilgileri",
     "terms_h": "İş birliği koşulları",
     "download_btn": "Koşulları indir (PDF)",
     "pres_btn": "Sunumu indir (PDF)",
-    "terms_disc": "Fiyatlar ve gizli ticari koşullar yayımlanmaz; güncel koşullar Teranova üzerinden sağlanır.",
+    "terms_disc": "Belgelere ulaşmak için Teranova üzerinden talepte bulunabilirsiniz.",
     "cta_h": "Bu tedarikçi ilginizi çekti mi?",
-    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_d": "Ürünler hakkında bilgi almak için Teranova ile iletişime geçin.",
     "cta_btn": "Teranova üzerinden iletişime geçin",
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
-    "certs_h": "Sertifikalar",
-    "certs_note": "EU CPNP ve US MoCRA yalnızca üç serum için tedarikçi tarafından beyan edilen kayıtlardır; düzenleyici onayı değildir.",
+    "certs_h": "Bildirim ve kayıtlar",
+    "certs_note": "BEAUTYBLVD’ye göre Double Repair, Aquagel First ve Glow C serumları CPNP’ye bildirildi ve MoCRA kapsamında ürün listesine alındı.",
     "products_h": "Ürünler",
     "products_note": "BEAUTYBLVD tarafından sağlanan dört DESERT FREE ürününün resmî fotoğrafları."
   }
