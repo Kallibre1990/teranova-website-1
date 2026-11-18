@@ -102,7 +102,7 @@
           "direction": "ltr"
         },
         {
-          "value": "회사에 따르면 AGAFAR 제품은 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. Teranova는 문의별로 해당 지역의 공급 가능 여부와 현재 유통 계약 현황을 확인합니다.",
+          "value": "AGAFAR 제품은 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. Teranova는 문의별로 해당 지역의 공급 가능 여부와 현재 유통 계약 현황을 확인합니다.",
           "box": [
             42,
             369.4500026702881,
@@ -132,11 +132,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ko.json",
-      "sha256": "84dc1277cf4a7f9b357052ee11e6fc0d2e816f566082842ee8ab288726d2c60a"
+      "sha256": "217ec7b4e8103fd58b74d77f253b790ab5bfe174eac772590466351b1590396d"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -148,7 +148,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

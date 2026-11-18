@@ -476,8 +476,9 @@ const SUPPLIERS = [
   {
     /* VEO Biotech / Helio PDRN: письменное согласие 22.09.2026. Полный COA,
        цены и способы оплаты не публикуются; только сводка спецификации. */
-    id: 'veo-biotech', json: 'veo-biotech', supplier: 'Weiyi Biotech', brand: 'Helio PDRN',
+    id: 'veo-biotech', json: 'veo-biotech', supplier: 'VEO Biotech (为邑生物)', brand: 'Helio PDRN',
     basis: 'B2B · terms on request', noPrice: true,
+    logo: '/img/suppliers/veo-biotech/logo.png',
     colors: { deep: '#12303A', sky: '#7FB0C4', bg: '#EEF4F7', line: '#D3E2E9' },
     pres: true,
     certs: [],
@@ -549,6 +550,8 @@ const SUPPLIERS = [
        documents must contain neither retail prices nor MOQ. */
     id: 'ooznary', json: 'ooznary', supplier: 'DOTS CORPORATION', brand: 'Ooznary',
     basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    /* The sheet-mask line has no catalog group of its own; use the site's lineShots photo. */
+    pdfLineShots: true,
     colors: { deep: '#1F2019', sky: '#DDE3B4', bg: '#F7F7EE', line: '#E2E4CC' },
     pres: true,
     certs: [],
@@ -859,14 +862,38 @@ function catalogHTML(cfg, lang, groups) {
    названием линейки (`cat[].line` ловится по `lines[].name`). Совпадения нет —
    `.abs` просто не появляется, и карточка остаётся текстовой, как раньше:
    безопасно для всех поставщиков, не только для того, кто её запросил. */
+/* Explicit line photos the site sets in src/data/suppliers.ts (`lineShots`, keyed by
+   the Russian line name) — so a line with no catalog group of its own (Ooznary sheet
+   masks) gets the same photo in the PDF as on the website. */
+function siteLineShots(slug) {
+  const src = fs.readFileSync(path.join(ROOT, 'src/data/suppliers.ts'), 'utf8');
+  const at = src.indexOf(`slug: '${slug}',`);
+  if (at < 0) return {};
+  const next = src.indexOf("slug: '", at + 6);
+  const block = src.slice(at, next < 0 ? undefined : next);
+  const m = block.match(/\n    lineShots: \{([^}]*)\}/);
+  if (!m) return {};
+  return Object.fromEntries([...m[1].matchAll(/'([^']+)':\s*'([^']+)'/g)].map((x) => [x[1], x[2]]));
+}
+
 function linesWithPhotos(cfg, lines) {
   if (!lines || !lines.length) return lines;
   const cat = catalogOf(cfg);
   if (!cat) return lines;
   const byLine = new Map(cat.map((g) => [g.line, (g.items || []).find((it) => it.abs)]));
-  return lines.map((l) => {
+  /* Opt-in per supplier: other suppliers' PDFs keep their reviewed layout. */
+  const shots = cfg.pdfLineShots ? siteLineShots(cfg.id) : {};
+  let ruLines = [];
+  try { ruLines = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.ru.json`), 'utf8')).content.lines || []; } catch { ruLines = []; }
+  return lines.map((l, i) => {
     const it = byLine.get(l.name);
-    return it ? { ...l, abs: it.abs } : l;
+    if (it) return { ...l, abs: it.abs };
+    const given = shots[l.name] || shots[ruLines[i]?.name];
+    if (given) {
+      const abs = path.join(ROOT, 'public', given.replace(/^\//, ''));
+      if (fs.existsSync(abs)) return { ...l, abs };
+    }
+    return l;
   });
 }
 
@@ -951,14 +978,40 @@ function heroOf(cfg) {
   return null;
 }
 
+/* Логотип поставщика на обложке дека — опционально, `cfg.logo` хранит тот же
+   public-путь, что и `logoUrl` на сайте (src/data/suppliers.ts). */
+function logoOf(cfg) {
+  if (!cfg.logo) return null;
+  const p = path.join(ROOT, 'public', cfg.logo.replace(/^\//, ''));
+  return fs.existsSync(p) ? p : null;
+}
+
+/* Та же логика, что в src/i18n/strict-content.ts catalogText(): en всегда
+   читает базовое (английское) поле, остальные языки — свою запись из *I18n
+   или (если её нет) русскую. Здесь без строгого throw на he/hi — это сборка
+   PDF, а не страница сайта, молчаливый откат к базовому полю безопаснее. */
+function localizeField(source, entries, lang) {
+  if (lang === 'en' || !entries) return source;
+  return entries[lang] ?? entries.ru ?? source;
+}
+
 /* Каталог для страницы с фото: к каждой позиции добавляем абсолютный путь —
-   Chrome читает картинки с диска по file://. */
-function catalogOf(cfg) {
+   Chrome читает картинки с диска по file://. С `lang` дополнительно переводит
+   название линейки/позиции/объёма по *I18n-картам каталога — без этого PDF
+   каждого языка показывал английские lineI18n/volumeI18n/nameI18n как есть
+   (T-20261116-044). Без `lang` (поиск фото по линейке в linesWithPhotos)
+   возвращает каталог как есть — именно по базовым английским именам идёт matching. */
+function catalogOf(cfg, lang) {
   const f = path.join(DATA, `${cfg.json}.catalog.json`);
   if (!fs.existsSync(f)) return null;
   const cat = JSON.parse(fs.readFileSync(f, 'utf8'));
   for (const g of cat) {
+    if (lang) g.line = localizeField(g.line, g.lineI18n, lang);
     for (const it of g.items) {
+      if (lang) {
+        it.name = localizeField(it.name, it.nameI18n, lang);
+        it.volume = localizeField(it.volume, it.volumeI18n, lang);
+      }
       /* У позиции может не быть снимка вовсе: у поставщика сырья товар — порошок,
          а у крупного каталога часть карточек идёт без пакшота. Тогда просто нет abs. */
       if (!it.img) { it.abs = null; continue; }
@@ -1018,14 +1071,14 @@ for (const cfg of targets) {
     await toPDF(termsHTML(cfg, lang), path.join(OUT, `${cfg.id}-terms-${lang}.pdf`));
     n += 1;
     if (cfg.catalogOnly) {
-      await toPDF(catalogHTML(cfg, lang, catalogOf(cfg) || []), path.join(OUT, `${cfg.id}-catalog-${lang}.pdf`));
+      await toPDF(catalogHTML(cfg, lang, catalogOf(cfg, lang) || []), path.join(OUT, `${cfg.id}-catalog-${lang}.pdf`));
       n += 1;
     }
     if (priceLines) {
       await toPDF(priceHTML(cfg, lang, priceLines), path.join(OUT, `${cfg.id}-price-${lang}.pdf`));
       n += 1;
     }
-    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg), heroOf(cfg)),
+    await toPDF(deckHTML(cfg, lang, presData(cfg, lang), termsData(cfg, lang), catalogOf(cfg, lang), heroOf(cfg), logoOf(cfg)),
       path.join(OUT, `${cfg.id}-presentation-${lang}.pdf`));
     n += 1;
     process.stdout.write(` ${lang}`);

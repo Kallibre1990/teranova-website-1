@@ -4,9 +4,9 @@
     "descriptor": "AGAFAR Medical Beauty Group çatısı altında üç Kore cilt bakım markası ve profesyonel estetik cihazları.",
     "origin": "Kore",
     "about": [
-      "AGAFAR, dermatoloji kliniklerini, cilt bakım ürünlerini ve profesyonel estetik cihazlarını bir araya getiriyor. Grubun klinik geçmişi 2010 yılına uzanıyor. Kore'deki kliniklerin internet sitesinde altı şube listeleniyor: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang ve Juan.",
-      "Şirketin verdiği bilgilere göre AGAFAR Clinic ve AGAFAR Medi Lounge, Kore'de ve Hong Kong, Çin, Tayland, Kanada dahil yurt dışı pazarlarda 40'tan fazla şubeye sahip. Cilt bakım portföyü üç markadan oluşuyor: AGAFAR, agapharma ve a'reiv.",
-      "AGAFAR belgelerinde dermatoloji ve dermokozmetik alanında iki ayrı ödül yer alıyor: 2023 KPBA ödüllerinde birincilik ve 2026 KBEI ödülü. KBEI sertifikası 3 Nisan 2026 tarihini taşıyor ve organizatörün yanı sıra The JoongAng adını da içeriyor."
+      "AGAFAR, dermatoloji kliniklerini, cilt bakım ürünlerini ve profesyonel estetik cihazlarını bir araya getiriyor. Grubun klinik geçmişi 2010 yılına uzanıyor. AGAFAR Clinic'in Kore'de altı şubesi bulunuyor: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang ve Juan.",
+      "AGAFAR Clinic ve AGAFAR Medi Lounge, Kore'de ve Hong Kong, Çin, Tayland, Kanada dahil yurt dışı pazarlarda toplam 40'tan fazla şubeye sahip. Cilt bakım portföyü üç markadan oluşuyor: AGAFAR, agapharma ve a'reiv.",
+      "AGAFAR, dermatoloji ve dermokozmetik alanında iki ödül aldı: 2023 KPBA ödüllerinde birincilik ve 2026 KBEI ödülü. KBEI sertifikası 3 Nisan 2026 tarihini taşıyor ve organizatörün yanı sıra The JoongAng adını da içeriyor."
     ],
     "facts": ["Üç cilt bakım markası", "2010 yılına uzanan klinik geçmişi", "DERMA MODE PROGRAM kataloğunda 20 ürün"],
     "channels": ["Kozmetik ithalatçıları ve distribütörleri", "Dermatoloji ve estetik klinikleri", "Mağaza ve eczane zincirleri", "E-ticaret ekipleri"],
@@ -21,9 +21,9 @@
       "Yeşil çay, propolis, meyan kökü özü ve allantoin içeren jel.",
       "A, C ve E vitamin kompleksi içeren ampul.",
       "Sekiz peptitli kompleks ve hidrolize kolajen içeren ampul.",
-      "PDRN, hyalüronik asit ve 10.000 ppm somon DNA'sı içeren ampul.",
+      "PDRN (somon DNA'sı, 10.000 ppm) ve hyalüronik asit kompleksi içeren ampul.",
       "Vita K kompleksi, pantenol ve azulen içeren ampul.",
-      "Kırmızı yemiş kompleksi ve hidrolize kolajen içeren göz çevresi serumu.",
+      "Kırmızı meyve kompleksi ve hidrolize kolajen içeren göz çevresi serumu.",
       "Lactobacillus ferment lizatı ve peptitler içeren göz çevresi kremi.",
       "Madekassosid, Centella asiatica ve seramid kompleksi içeren, bölgesel uygulamaya yönelik krem.",
       "Seramid, kolesterol ve semizotu özü içeren nemlendirici krem.",
@@ -36,8 +36,8 @@
       "Her biri 3 ml olan on flakonda sunulan EXOXEN eksozom güçlendiricisi.",
       "Üçlü hyalüronik asit, betain ve pantenol içeren kağıt maske.",
       "Pantenol, elma yaprağı ve aloe vera yaprağı özleri içeren SPF50+ PA++++ güneş kremi.",
-      "NAD⁺, NMN, glutatyon ve PDRN içeren ampul. CPNP kaydı tedarikçi beyanına dayanmaktadır.",
-      "NAD⁺, NMN, glutatyon ve PDRN içeren serum. CPNP kaydı tedarikçi beyanına dayanmaktadır."
+      "NAD⁺, NMN, glutatyon ve PDRN içeren ampul. CPNP kayıt süreci devam ediyor.",
+      "NAD⁺, NMN, glutatyon ve PDRN içeren serum. CPNP kayıt süreci devam ediyor."
     ],
     "tech": [
       {"name": "Transfer", "note": "Ultrasonik temizleme spatulası, Sono el aparatı, Vitamin Clip ve Cooling & Heating el aparatı içeren çok işlevli sistem."},
@@ -45,13 +45,13 @@
       {"name": "agafar Point Plus Pro", "note": "2, 3 ve 4,5 mm yüz kartuşları ve 6 mm vücut kartuşuyla RF ve HIFU."},
       {"name": "agafar Line S", "note": "RF, kavitasyon, düşük yoğunluklu lazer, vakum ve LED özelliklerini birleştiren altı işlevli sistem. Thermal, Multi Cavi ve Multi el aparatları bulunuyor."},
       {"name": "agafar S", "note": "APP-1, APP-2 ve APP-3 el aparatlarıyla kavitasyon, ısı ve emiş işlevleri."},
-      {"name": "PLASMA", "note": "AIR Plasma ve RF Multi Plasma el aparatları."},
+      {"name": "PLASMA", "note": "AIR Plasma, RF Multi Plasma ve POINT Plasma el aparatları."},
       {"name": "agafar LED PDT Light", "note": "Kırmızı, yeşil, mavi ve birleşik ışık modlarına sahip LED sistemi."},
       {"name": "Face Fitness Turn Up", "note": "Değiştirilebilir dört el aparatı: P-POLAR (RF), P-CMS (CMS), PLASMA ve P-DUAL (RF + CMS)."},
       {"name": "PLAZION", "note": "AGAFAR, PLAZION cihazını cilt bakım ürünlerinin emilimini artırmak amacıyla sunuyor."}
     ],
     "formats": ["Temizleyiciler ve tonik", "Ampuller ve güçlendiriciler", "Göz çevresi bakımı ve kremler", "Güneş bakım ürünleri ve kağıt maskeler"],
-    "exportNote": "Şirketin verdiği bilgilere göre AGAFAR ürünleri Kore, Hong Kong, Çin, Tayland, Japonya, ABD, Filipinler, Malezya, Birleşik Krallık, BAE ve Kanada dahil çeşitli pazarlarda satılıyor. Teranova, her talep için ilgili bölgedeki tedarik imkanını ve mevcut dağıtım düzenlemelerini teyit ediyor.",
+    "exportNote": "AGAFAR ürünleri Kore, Hong Kong, Çin, Tayland, Japonya, ABD, Filipinler, Malezya, Birleşik Krallık, BAE ve Kanada dahil çeşitli pazarlarda satılıyor. Teranova, her talep için ilgili bölgedeki tedarik imkanını ve mevcut dağıtım düzenlemelerini teyit ediyor.",
     "terms": [],
     "consentNote": "AGAFAR profili için şirketin paylaştığı materyaller.",
     "seoTitle": "AGAFAR · Kore cilt bakımı ve estetik cihazları | Teranova",
@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "Ambalaj boyutu"
+    "pack_label": "Ambalaj boyutu",
+    "faq_h": "Sık sorulan sorular",
+    "detail_card_label": "AGAFAR kataloğundan ürün kartı",
+    "faq": [
+      {"q": "AGAFAR Medical Beauty Group çatısı altında hangi markalar var?", "a": "Üç cilt bakım markası: hassas ciltler için nazik günlük bakım sunan AGAFAR, profesyonel Meditive Formula 3X serisine sahip agapharma ve kağıt maske ile güneş kremi sunan a'reiv."},
+      {"q": "DERMA MODE PROGRAM koleksiyonunda neler var?", "a": "Koleksiyonda 20 ürün var: 12'si AGAFAR, 5'i agapharma Meditive Formula 3X, a'reiv'in kağıt maskesi ve güneş kremi, ayrıca EXOXEN Booster. Temizleyiciler ve tonik, ampuller ve güçlendiriciler, göz çevresi bakımı ve kremler, güneş kremi ve kağıt maske yer alıyor."},
+      {"q": "NADXEN serisi CPNP kaydını tamamladı mı?", "a": "Yayın tarihi itibarıyla NADXEN ampul ve serumunun CPNP kayıt süreci devam ediyor."},
+      {"q": "AGAFAR ürünleri nerelerde satılıyor?", "a": "Kore, Hong Kong, Çin, Tayland, Japonya, ABD, Filipinler, Malezya, Birleşik Krallık, BAE ve Kanada dahil çeşitli pazarlarda. Belirli bir bölge için Teranova, her talepte güncel koşulları teyit ediyor."},
+      {"q": "AGAFAR ürünlerini Teranova aracılığıyla kimler satın alabilir?", "a": "Kozmetik ithalatçıları ve distribütörleri, dermatoloji ve estetik klinikleri, mağaza ve eczane zincirleri ile e-ticaret ekipleri."}
+    ]
   }
 }

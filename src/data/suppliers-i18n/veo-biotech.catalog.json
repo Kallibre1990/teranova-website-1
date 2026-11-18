@@ -18,20 +18,320 @@
     "items": [
       {
         "name": "Helio PDRN — Sodium DNA powder",
-        "volume": "cosmetic grade, 99% or higher",
+        "nameI18n": {
+          "ru": "Helio PDRN — натриевая ДНК (Sodium DNA), порошок",
+          "ko": "Helio PDRN — 소듐 DNA(Sodium DNA) 파우더",
+          "zh": "Helio PDRN — DNA钠（Sodium DNA）粉末",
+          "ja": "Helio PDRN — ナトリウムDNA（Sodium DNA）パウダー",
+          "it": "Helio PDRN — DNA sodico (Sodium DNA) in polvere",
+          "de": "Helio PDRN — Natrium-DNA (Sodium DNA), Pulver",
+          "fr": "Helio PDRN — ADN sodique (Sodium DNA) en poudre",
+          "tr": "Helio PDRN — Sodyum DNA (Sodium DNA) tozu",
+          "es": "Helio PDRN — ADN sódico (Sodium DNA) en polvo",
+          "pt": "Helio PDRN — DNA sódico (Sodium DNA) em pó",
+          "he": "Helio PDRN — DNA נתרני (Sodium DNA), אבקה",
+          "hi": "Helio PDRN — सोडियम DNA (Sodium DNA) पाउडर"
+        },
+        "img": "/img/suppliers/veo-biotech/lines/powder.webp",
+        "volume": "cosmetic grade, purity 99.9%",
         "volumeI18n": {
-          "ru": "косметическая градация, 99% и выше",
-          "ko": "화장품 등급, 99% 이상",
-          "zh": "化妆品级，99%以上",
-          "ja": "化粧品グレード、99%以上",
-          "it": "grado cosmetico, 99% o superiore",
-          "de": "Kosmetikqualität, 99 % oder höher",
-          "fr": "Qualité cosmétique, 99 % ou plus",
-          "tr": "kozmetik sınıf, %99 ve üzeri",
-          "es": "grado cosmético, 99% o superior",
-          "pt": "grau cosmético, 99% ou superior",
-          "he": "דרגה קוסמטית, 99% ומעלה",
-          "hi": "कॉस्मेटिक ग्रेड, 99% या उससे अधिक"
+          "ru": "косметическая градация, чистота 99,9%",
+          "ko": "화장품 등급, 순도 99.9%",
+          "zh": "化妆品级，纯度99.9%",
+          "ja": "化粧品グレード、純度99.9%",
+          "it": "grado cosmetico, purezza 99,9%",
+          "de": "Kosmetikqualität, Reinheit 99,9 %",
+          "fr": "Qualité cosmétique, pureté 99,9 %",
+          "tr": "kozmetik sınıf, %99,9 saflık",
+          "es": "grado cosmético, pureza 99,9%",
+          "pt": "grau cosmético, pureza 99,9%",
+          "he": "דרגה קוסמטית, טוהר 99.9%",
+          "hi": "कॉस्मेटिक ग्रेड, 99.9% शुद्धता"
+        }
+      }
+    ]
+  },
+  {
+    "line": "HELIO PDRN cosmetics (OEM/ODM)",
+    "lineI18n": {
+      "ru": "Косметика HELIO PDRN (OEM/ODM)",
+      "ko": "HELIO PDRN 화장품 (OEM/ODM)",
+      "zh": "HELIO PDRN 化妆品（OEM/ODM）",
+      "ja": "HELIO PDRN コスメ（OEM/ODM）",
+      "it": "Cosmetici HELIO PDRN (OEM/ODM)",
+      "de": "HELIO PDRN Kosmetik (OEM/ODM)",
+      "fr": "Cosmétiques HELIO PDRN (OEM/ODM)",
+      "tr": "HELIO PDRN kozmetikleri (OEM/ODM)",
+      "es": "Cosmética HELIO PDRN (OEM/ODM)",
+      "pt": "Cosmética HELIO PDRN (OEM/ODM)",
+      "he": "קוסמטיקה HELIO PDRN (OEM/ODM)",
+      "hi": "HELIO PDRN कॉस्मेटिक्स (OEM/ODM)"
+    },
+    "items": [
+      {
+        "name": "HELIO PDRN Serum",
+        "img": "/img/suppliers/veo-biotech/lines/oem-serum.webp",
+        "volume": "OEM/ODM cosmetic, per company data",
+        "volumeI18n": {
+          "ru": "косметика OEM/ODM, по данным компании",
+          "ko": "OEM/ODM 화장품, 회사 제공 정보 기준",
+          "zh": "OEM/ODM化妆品，依据公司提供的数据",
+          "ja": "OEM/ODM化粧品、企業提供データに基づく",
+          "it": "cosmetico OEM/ODM, secondo i dati dell'azienda",
+          "de": "OEM/ODM-Kosmetik, laut Unternehmensangaben",
+          "fr": "cosmétique OEM/ODM, selon les données de l'entreprise",
+          "tr": "OEM/ODM kozmetik, şirket verilerine göre",
+          "es": "cosmético OEM/ODM, según datos de la empresa",
+          "pt": "cosmético OEM/ODM, conforme dados da empresa",
+          "he": "קוסמטיקה OEM/ODM, לפי נתוני החברה",
+          "hi": "OEM/ODM कॉस्मेटिक, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "HELIO PDRN Mask",
+        "img": "/img/suppliers/veo-biotech/lines/oem-mask.webp",
+        "volume": "OEM/ODM cosmetic, per company data",
+        "volumeI18n": {
+          "ru": "косметика OEM/ODM, по данным компании",
+          "ko": "OEM/ODM 화장품, 회사 제공 정보 기준",
+          "zh": "OEM/ODM化妆品，依据公司提供的数据",
+          "ja": "OEM/ODM化粧品、企業提供データに基づく",
+          "it": "cosmetico OEM/ODM, secondo i dati dell'azienda",
+          "de": "OEM/ODM-Kosmetik, laut Unternehmensangaben",
+          "fr": "cosmétique OEM/ODM, selon les données de l'entreprise",
+          "tr": "OEM/ODM kozmetik, şirket verilerine göre",
+          "es": "cosmético OEM/ODM, según datos de la empresa",
+          "pt": "cosmético OEM/ODM, conforme dados da empresa",
+          "he": "קוסמטיקה OEM/ODM, לפי נתוני החברה",
+          "hi": "OEM/ODM कॉस्मेटिक, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "HELIO PDRN Mist",
+        "img": "/img/suppliers/veo-biotech/lines/oem-mist.webp",
+        "volume": "OEM/ODM cosmetic, per company data",
+        "volumeI18n": {
+          "ru": "косметика OEM/ODM, по данным компании",
+          "ko": "OEM/ODM 화장품, 회사 제공 정보 기준",
+          "zh": "OEM/ODM化妆品，依据公司提供的数据",
+          "ja": "OEM/ODM化粧品、企業提供データに基づく",
+          "it": "cosmetico OEM/ODM, secondo i dati dell'azienda",
+          "de": "OEM/ODM-Kosmetik, laut Unternehmensangaben",
+          "fr": "cosmétique OEM/ODM, selon les données de l'entreprise",
+          "tr": "OEM/ODM kozmetik, şirket verilerine göre",
+          "es": "cosmético OEM/ODM, según datos de la empresa",
+          "pt": "cosmético OEM/ODM, conforme dados da empresa",
+          "he": "קוסמטיקה OEM/ODM, לפי נתוני החברה",
+          "hi": "OEM/ODM कॉस्मेटिक, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "HELIO PDRN Cream",
+        "img": "/img/suppliers/veo-biotech/lines/oem-cream.webp",
+        "volume": "OEM/ODM cosmetic, per company data",
+        "volumeI18n": {
+          "ru": "косметика OEM/ODM, по данным компании",
+          "ko": "OEM/ODM 화장품, 회사 제공 정보 기준",
+          "zh": "OEM/ODM化妆品，依据公司提供的数据",
+          "ja": "OEM/ODM化粧品、企業提供データに基づく",
+          "it": "cosmetico OEM/ODM, secondo i dati dell'azienda",
+          "de": "OEM/ODM-Kosmetik, laut Unternehmensangaben",
+          "fr": "cosmétique OEM/ODM, selon les données de l'entreprise",
+          "tr": "OEM/ODM kozmetik, şirket verilerine göre",
+          "es": "cosmético OEM/ODM, según datos de la empresa",
+          "pt": "cosmético OEM/ODM, conforme dados da empresa",
+          "he": "קוסמטיקה OEM/ODM, לפי נתוני החברה",
+          "hi": "OEM/ODM कॉस्मेटिक, कंपनी के आंकड़ों के अनुसार"
+        }
+      }
+    ]
+  },
+  {
+    "line": "Formats: vials & liquid ampoules",
+    "lineI18n": {
+      "ru": "Форматы: флаконы и жидкие ампулы",
+      "ko": "포맷: 바이알과 리퀴드 앰플",
+      "zh": "规格：西林瓶与液体安瓿",
+      "ja": "フォーマット：バイアルとリキッドアンプル",
+      "it": "Formati: flaconcini e fiale liquide",
+      "de": "Formate: Vials und Flüssigampullen",
+      "fr": "Formats : flacons et ampoules liquides",
+      "tr": "Formatlar: flakon ve sıvı ampuller",
+      "es": "Formatos: viales y ampollas líquidas",
+      "pt": "Formatos: frascos e ampolas líquidas",
+      "he": "פורמטים: בקבוקונים ואמפולות נוזליות",
+      "hi": "फॉर्मेट: वायल और लिक्विड एम्पुल"
+    },
+    "items": [
+      {
+        "name": "Vial format",
+        "img": "/img/suppliers/veo-biotech/lines/format-vials.webp",
+        "volume": "Liquid or powder-and-solution, per company data",
+        "volumeI18n": {
+          "ru": "формат флакона: жидкость или порошок с раствором, по данным компании",
+          "ko": "바이알 포맷: 액상 또는 분말과 용제, 회사 제공 정보 기준",
+          "zh": "西林瓶规格：液体或粉末加溶剂，依据公司提供的数据",
+          "ja": "バイアル形式：リキッドまたはパウダーと溶解液、企業提供データに基づく",
+          "it": "formato in flaconcino: liquido oppure polvere e solvente, secondo i dati dell'azienda",
+          "de": "Vial-Format: flüssig oder Pulver mit Lösungsmittel, laut Unternehmensangaben",
+          "fr": "format flacon : liquide ou poudre et solvant, selon les données de l'entreprise",
+          "tr": "flakon formatı: sıvı veya toz ve çözücü, şirket verilerine göre",
+          "es": "formato en vial: líquido o polvo con disolvente, según datos de la empresa",
+          "pt": "formato em frasco: líquido ou pó com solvente, conforme dados da empresa",
+          "he": "פורמט בקבוקון: נוזל או אבקה עם ממס, לפי נתוני החברה",
+          "hi": "वायल फॉर्मेट: लिक्विड या पाउडर और सॉल्वेंट, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "Liquid ampoule",
+        "img": "/img/suppliers/veo-biotech/lines/format-ampoules.webp",
+        "volume": "Ready-to-fill liquid ampoule, per company data",
+        "volumeI18n": {
+          "ru": "жидкая ампула, готовая к наполнению, по данным компании",
+          "ko": "충전 준비된 리퀴드 앰플, 회사 제공 정보 기준",
+          "zh": "可直接灌装的液体安瓿，依据公司提供的数据",
+          "ja": "充填対応済みのリキッドアンプル、企業提供データに基づく",
+          "it": "fiala liquida pronta per il riempimento, secondo i dati dell'azienda",
+          "de": "abfüllfertige Flüssigampulle, laut Unternehmensangaben",
+          "fr": "ampoule liquide prête au remplissage, selon les données de l'entreprise",
+          "tr": "doldurmaya hazır sıvı ampul, şirket verilerine göre",
+          "es": "ampolla líquida lista para llenado, según datos de la empresa",
+          "pt": "ampola líquida pronta para enchimento, conforme dados da empresa",
+          "he": "אמפולה נוזלית מוכנה למילוי, לפי נתוני החברה",
+          "hi": "भरने के लिए तैयार लिक्विड एम्पुल, कंपनी के आंकड़ों के अनुसार"
+        }
+      }
+    ]
+  },
+  {
+    "line": "Packaging development",
+    "lineI18n": {
+      "ru": "Разработка упаковки",
+      "ko": "패키징 개발",
+      "zh": "包装开发",
+      "ja": "パッケージ開発",
+      "it": "Sviluppo del packaging",
+      "de": "Verpackungsentwicklung",
+      "fr": "Développement de l'emballage",
+      "tr": "Ambalaj geliştirme",
+      "es": "Desarrollo de envases",
+      "pt": "Desenvolvimento de embalagens",
+      "he": "פיתוח אריזה",
+      "hi": "पैकेजिंग विकास"
+    },
+    "items": [
+      {
+        "name": "Dropper bottle",
+        "img": "/img/suppliers/veo-biotech/lines/packaging-dropper.webp",
+        "volume": "Packaging development, per company data",
+        "volumeI18n": {
+          "ru": "разработка упаковки, по данным компании",
+          "ko": "패키징 개발, 회사 제공 정보 기준",
+          "zh": "包装开发，依据公司提供的数据",
+          "ja": "パッケージ開発、企業提供データに基づく",
+          "it": "sviluppo del packaging, secondo i dati dell'azienda",
+          "de": "Verpackungsentwicklung, laut Unternehmensangaben",
+          "fr": "développement de l'emballage, selon les données de l'entreprise",
+          "tr": "ambalaj geliştirme, şirket verilerine göre",
+          "es": "desarrollo de envases, según datos de la empresa",
+          "pt": "desenvolvimento de embalagens, conforme dados da empresa",
+          "he": "פיתוח אריזה, לפי נתוני החברה",
+          "hi": "पैकेजिंग विकास, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "Airless pump",
+        "img": "/img/suppliers/veo-biotech/lines/packaging-pump.webp",
+        "volume": "Packaging development, per company data",
+        "volumeI18n": {
+          "ru": "разработка упаковки, по данным компании",
+          "ko": "패키징 개발, 회사 제공 정보 기준",
+          "zh": "包装开发，依据公司提供的数据",
+          "ja": "パッケージ開発、企業提供データに基づく",
+          "it": "sviluppo del packaging, secondo i dati dell'azienda",
+          "de": "Verpackungsentwicklung, laut Unternehmensangaben",
+          "fr": "développement de l'emballage, selon les données de l'entreprise",
+          "tr": "ambalaj geliştirme, şirket verilerine göre",
+          "es": "desarrollo de envases, según datos de la empresa",
+          "pt": "desenvolvimento de embalagens, conforme dados da empresa",
+          "he": "פיתוח אריזה, לפי נתוני החברה",
+          "hi": "पैकेजिंग विकास, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "Mist bottle",
+        "img": "/img/suppliers/veo-biotech/lines/packaging-mist.webp",
+        "volume": "Packaging development, per company data",
+        "volumeI18n": {
+          "ru": "разработка упаковки, по данным компании",
+          "ko": "패키징 개발, 회사 제공 정보 기준",
+          "zh": "包装开发，依据公司提供的数据",
+          "ja": "パッケージ開発、企業提供データに基づく",
+          "it": "sviluppo del packaging, secondo i dati dell'azienda",
+          "de": "Verpackungsentwicklung, laut Unternehmensangaben",
+          "fr": "développement de l'emballage, selon les données de l'entreprise",
+          "tr": "ambalaj geliştirme, şirket verilerine göre",
+          "es": "desarrollo de envases, según datos de la empresa",
+          "pt": "desenvolvimento de embalagens, conforme dados da empresa",
+          "he": "פיתוח אריזה, לפי נתוני החברה",
+          "hi": "पैकेजिंग विकास, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "Jar",
+        "img": "/img/suppliers/veo-biotech/lines/packaging-jar.webp",
+        "volume": "Packaging development, per company data",
+        "volumeI18n": {
+          "ru": "разработка упаковки, по данным компании",
+          "ko": "패키징 개발, 회사 제공 정보 기준",
+          "zh": "包装开发，依据公司提供的数据",
+          "ja": "パッケージ開発、企業提供データに基づく",
+          "it": "sviluppo del packaging, secondo i dati dell'azienda",
+          "de": "Verpackungsentwicklung, laut Unternehmensangaben",
+          "fr": "développement de l'emballage, selon les données de l'entreprise",
+          "tr": "ambalaj geliştirme, şirket verilerine göre",
+          "es": "desarrollo de envases, según datos de la empresa",
+          "pt": "desenvolvimento de embalagens, conforme dados da empresa",
+          "he": "פיתוח אריזה, לפי נתוני החברה",
+          "hi": "पैकेजिंग विकास, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "Tube",
+        "img": "/img/suppliers/veo-biotech/lines/packaging-tube.webp",
+        "volume": "Packaging development, per company data",
+        "volumeI18n": {
+          "ru": "разработка упаковки, по данным компании",
+          "ko": "패키징 개발, 회사 제공 정보 기준",
+          "zh": "包装开发，依据公司提供的数据",
+          "ja": "パッケージ開発、企業提供データに基づく",
+          "it": "sviluppo del packaging, secondo i dati dell'azienda",
+          "de": "Verpackungsentwicklung, laut Unternehmensangaben",
+          "fr": "développement de l'emballage, selon les données de l'entreprise",
+          "tr": "ambalaj geliştirme, şirket verilerine göre",
+          "es": "desarrollo de envases, según datos de la empresa",
+          "pt": "desenvolvimento de embalagens, conforme dados da empresa",
+          "he": "פיתוח אריזה, לפי נתוני החברה",
+          "hi": "पैकेजिंग विकास, कंपनी के आंकड़ों के अनुसार"
+        }
+      },
+      {
+        "name": "Packaging components",
+        "img": "/img/suppliers/veo-biotech/lines/packaging-components.webp",
+        "volume": "Packaging development, per company data",
+        "volumeI18n": {
+          "ru": "разработка упаковки, по данным компании",
+          "ko": "패키징 개발, 회사 제공 정보 기준",
+          "zh": "包装开发，依据公司提供的数据",
+          "ja": "パッケージ開発、企業提供データに基づく",
+          "it": "sviluppo del packaging, secondo i dati dell'azienda",
+          "de": "Verpackungsentwicklung, laut Unternehmensangaben",
+          "fr": "développement de l'emballage, selon les données de l'entreprise",
+          "tr": "ambalaj geliştirme, şirket verilerine göre",
+          "es": "desarrollo de envases, según datos de la empresa",
+          "pt": "desenvolvimento de embalagens, conforme dados da empresa",
+          "he": "פיתוח אריזה, לפי נתוני החברה",
+          "hi": "पैकेजिंग विकास, कंपनी के आंकड़ों के अनुसार"
         }
       }
     ]

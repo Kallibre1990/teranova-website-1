@@ -113,6 +113,7 @@ export const pt: UIDict = {
       { key: 'transport', name: 'Veículos comerciais e especiais', blurb: 'Veículos de carga, de passageiros e especiais, com peças.', items: ['caminhões e cavalos mecânicos', 'ônibus', 'máquinas de construção', 'máquinas agrícolas', 'veículos especiais', 'reboques, pneus, baterias'] },
       { key: 'adjacent', name: 'Setores adjacentes', blurb: 'Ampla cobertura de nichos em que a Coreia é forte.', items: ['materiais de construção', 'alimentos e embalagens', 'tratamento de água e ecologia', 'energia e renováveis', 'eletrônica industrial e LED', 'têxteis técnicos'] },
       { key: 'chemical', name: 'Química e materiais', blurb: 'Matérias-primas químicas, polímeros e materiais industriais.', items: ['matérias-primas químicas e reagentes', 'plásticos e polímeros', 'borracha', 'tintas e revestimentos', 'adesivos e selantes', 'fertilizantes e agroquímicos'] },
+      { key: 'research', name: 'Institutos de pesquisa e P&D', blurb: 'Parcerias com universidades e institutos de pesquisa coreanos: transferência de tecnologia, P&D conjunto e equipamentos de laboratório.', items: ['institutos e laboratórios universitários', 'transferência de tecnologia e licenciamento', 'programas conjuntos de P&D', 'pesquisa pré-clínica', 'equipamentos de laboratório e pesquisa', 'patenteamento e certificação de desenvolvimentos'] },
     ],
   },
 

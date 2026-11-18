@@ -156,7 +156,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AGAFAR 的业务涵盖皮肤科诊所、护肤产品和专业美容设备。集团的诊所运营历史始于 2010 年。其韩国诊所网站列有六家分院，分别位于弥阿、城南、光明、金浦、桂阳和朱安。",
+          "value": "AGAFAR 的业务涵盖皮肤科诊所、护肤产品和专业美容设备。集团的诊所运营历史始于 2010 年。AGAFAR Clinic 在韩国设有六家分院，分别位于弥阿、城南、光明、金浦、桂阳和朱安。",
           "box": [
             42,
             156,
@@ -168,7 +168,7 @@
           "direction": "ltr"
         },
         {
-          "value": "据公司介绍，AGAFAR Clinic 和 AGAFAR Medi Lounge 在韩国及海外拥有 40 多家分院，覆盖香港、中国、泰国和加拿大等地。其护肤产品组合包含三个品牌：AGAFAR、agapharma 和 a'reiv。",
+          "value": "AGAFAR Clinic 和 AGAFAR Medi Lounge 在韩国及海外共有 40 多家分院，覆盖香港、中国、泰国和加拿大等地。其护肤产品组合包含三个品牌：AGAFAR、agapharma 和 a'reiv。",
           "box": [
             42,
             228.6500015258789,
@@ -180,7 +180,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AGAFAR 的资料列出了皮肤科及皮肤科学护肤领域的两项独立奖项：2023 KPBA 第一名和 2026 KBEI 奖项。KBEI 证书日期为 2026 年 4 月 3 日，除主办方外，证书还列有 The JoongAng。",
+          "value": "AGAFAR 在皮肤科及皮肤科学护肤领域荣获两项奖项：2023 KPBA 第一名和 2026 KBEI 奖项。KBEI 证书日期为 2026 年 4 月 3 日，除主办方外，证书还列有 The JoongAng。",
           "box": [
             42,
             301.3000030517578,
@@ -188,43 +188,43 @@
             665
           ],
           "size": 13,
-          "bottom": 355.9500045776367,
+          "bottom": 338.4000053405762,
           "direction": "ltr"
         },
         {
           "value": "三个护肤品牌",
           "box": [
             42,
-            385.9500045776367,
+            368.4000053405762,
             553,
             783
           ],
           "size": 12,
-          "bottom": 404.1500053405762,
+          "bottom": 386.6000061035156,
           "direction": "ltr"
         },
         {
           "value": "始于 2010 年的诊所运营历史",
           "box": [
             42,
-            412.1500053405762,
+            394.6000061035156,
             553,
             783
           ],
           "size": 12,
-          "bottom": 430.3500061035156,
+          "bottom": 412.8000068664551,
           "direction": "ltr"
         },
         {
           "value": "DERMA MODE PROGRAM 目录收录 20 款产品",
           "box": [
             42,
-            438.3500061035156,
+            420.8000068664551,
             553,
             783
           ],
           "size": 12,
-          "bottom": 456.5500068664551,
+          "bottom": 439.00000762939453,
           "direction": "ltr"
         }
       ],
@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "含 PDRN、透明质酸及 10,000 ppm 鲑鱼 DNA 的安瓶。",
+          "value": "含 PDRN（鲑鱼 DNA，10,000 ppm）及透明质酸复合物的安瓶。",
           "box": [
             310,
             339.375,
@@ -1613,6 +1613,155 @@
           "direction": "ltr"
         },
         {
+          "value": "护肤产品系列",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "NADXEN Ampoule",
+          "box": [
+            42,
+            297,
+            285,
+            345
+          ],
+          "size": 12,
+          "bottom": 315.20000076293945,
+          "direction": "ltr"
+        },
+        {
+          "value": "30 ml",
+          "box": [
+            42,
+            319.20000076293945,
+            285,
+            343.20000076293945
+          ],
+          "size": 10.5,
+          "bottom": 335.375,
+          "direction": "ltr"
+        },
+        {
+          "value": "含 NAD⁺、NMN、谷胱甘肽及 PDRN 的安瓶。CPNP 注册正在办理中。",
+          "box": [
+            42,
+            339.375,
+            285,
+            455
+          ],
+          "size": 11.5,
+          "bottom": 372.4250030517578,
+          "direction": "ltr"
+        },
+        {
+          "value": "NADXEN Serum",
+          "box": [
+            310,
+            297,
+            553,
+            345
+          ],
+          "size": 12,
+          "bottom": 315.20000076293945,
+          "direction": "ltr"
+        },
+        {
+          "value": "50 ml",
+          "box": [
+            310,
+            319.20000076293945,
+            553,
+            343.20000076293945
+          ],
+          "size": 10.5,
+          "bottom": 335.375,
+          "direction": "ltr"
+        },
+        {
+          "value": "含 NAD⁺、NMN、谷胱甘肽及 PDRN 的精华。CPNP 注册正在办理中。",
+          "box": [
+            310,
+            339.375,
+            553,
+            455
+          ],
+          "size": 11.5,
+          "bottom": 372.4250030517578,
+          "direction": "ltr"
+        }
+      ],
+      "images": [
+        {
+          "path": "/img/suppliers/agafar/products/nadxen-ampoule.webp",
+          "sha256": "10de32699817d7161fe1f02962bc9668233f0bb2f249a5a7b5f59947746b2fde",
+          "box": [
+            42,
+            146,
+            285,
+            288
+          ],
+          "clip": null
+        },
+        {
+          "path": "/img/suppliers/agafar/products/nadxen-serum.webp",
+          "sha256": "2fa9bd027c73f5e571088d4b7ad303d734b3cb998b093b2af9ccacc694bcb1ba",
+          "box": [
+            310,
+            146,
+            553,
+            288
+          ],
+          "clip": null
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 10",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
           "value": "专业美容仪器",
           "box": [
             42,
@@ -1699,7 +1848,7 @@
       ]
     },
     {
-      "page": 10,
+      "page": 11,
       "text": [
         {
           "value": "AGAFAR",
@@ -1726,7 +1875,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 10",
+          "value": "Teranova Group · 11",
           "box": [
             42,
             808,
@@ -1824,7 +1973,7 @@
       ]
     },
     {
-      "page": 11,
+      "page": 12,
       "text": [
         {
           "value": "AGAFAR",
@@ -1851,7 +2000,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 11",
+          "value": "Teranova Group · 12",
           "box": [
             42,
             808,
@@ -1911,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "配备 AIR Plasma 和 RF Multi Plasma 手具。",
+          "value": "配备 AIR Plasma、RF Multi Plasma 和 POINT Plasma 手具。",
           "box": [
             292,
             547,
@@ -1919,7 +2068,7 @@
             730
           ],
           "size": 12,
-          "bottom": 565.2000007629395,
+          "bottom": 581.4000015258789,
           "direction": "ltr"
         }
       ],
@@ -1949,7 +2098,7 @@
       ]
     },
     {
-      "page": 12,
+      "page": 13,
       "text": [
         {
           "value": "AGAFAR",
@@ -1976,7 +2125,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 12",
+          "value": "Teranova Group · 13",
           "box": [
             42,
             808,
@@ -2074,7 +2223,7 @@
       ]
     },
     {
-      "page": 13,
+      "page": 14,
       "text": [
         {
           "value": "AGAFAR",
@@ -2101,7 +2250,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 13",
+          "value": "Teranova Group · 14",
           "box": [
             42,
             808,
@@ -2152,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2197,19 +2346,19 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
     },
     {
-      "page": 14,
+      "page": 15,
       "text": [
         {
           "value": "AGAFAR",
@@ -2236,7 +2385,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 14",
+          "value": "Teranova Group · 15",
           "box": [
             42,
             808,
@@ -2260,7 +2409,7 @@
           "direction": "ltr"
         },
         {
-          "value": "据公司介绍，AGAFAR 产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。Teranova 会根据每次询问确认目标地区的供货情况及现行分销安排。",
+          "value": "AGAFAR 产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。Teranova 会根据每次询问确认目标地区的供货情况及现行分销安排。",
           "box": [
             42,
             153,
@@ -2359,7 +2508,7 @@
       "images": []
     },
     {
-      "page": 15,
+      "page": 16,
       "text": [
         {
           "value": "AGAFAR",
@@ -2386,7 +2535,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 15",
+          "value": "Teranova Group · 16",
           "box": [
             42,
             808,
@@ -2410,7 +2559,7 @@
           "direction": "ltr"
         },
         {
-          "value": "产品组合还包括 EXOXEN Booster，以及含 NAD⁺ 和 NMN 的 NADXEN 安瓶与精华。这些是 AGAFAR 产品组合中的产品名称，与其三个护肤品牌并列展示。",
+          "value": "产品组合还包括 EXOXEN Booster，以及含 NAD⁺、NMN、谷胱甘肽及 PDRN 的 NADXEN 安瓶与精华。这些是 AGAFAR 产品组合中的产品名称，与其三个护肤品牌并列展示。",
           "box": [
             42,
             157,
@@ -2418,43 +2567,43 @@
             330
           ],
           "size": 13,
-          "bottom": 194.10000228881836,
+          "bottom": 211.6500015258789,
           "direction": "ltr"
         },
         {
           "value": "请告知您的目标市场、销售渠道，以及正在考虑的产品或设备。Teranova 将与公司协调您的询问。",
           "box": [
             42,
-            224.10000228881836,
+            241.6500015258789,
             553,
-            384.10000228881836
+            401.6500015258789
           ],
           "size": 15,
-          "bottom": 266.60000228881836,
+          "bottom": 284.1500015258789,
           "direction": "ltr"
         },
         {
           "value": "价格、最低订购量及交货条件可通过 Teranova 咨询。",
           "box": [
             42,
-            291.60000228881836,
+            309.1500015258789,
             553,
-            401.60000228881836
+            419.1500015258789
           ],
           "size": 12,
-          "bottom": 309.8000030517578,
+          "bottom": 327.35000228881836,
           "direction": "ltr"
         },
         {
           "value": "https://teranovagroup.com/zh/catalog/agafar/",
           "box": [
             42,
-            339.8000030517578,
+            357.35000228881836,
             553,
-            389.8000030517578
+            407.35000228881836
           ],
           "size": 11,
-          "bottom": 356.65000343322754,
+          "bottom": 374.2000026702881,
           "direction": "ltr"
         },
         {
@@ -2476,7 +2625,7 @@
           "sha256": "979b7b66a5b2e40b55250c0867e50a8cefb2f6bad8b2548943a0690e10845968",
           "box": [
             42,
-            411.8000030517578,
+            429.35000228881836,
             553,
             750
           ],
@@ -2488,11 +2637,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.zh.json",
-      "sha256": "77c0bc23194390641ed9d78e99c674d8a339afd88d4269856465af842cc5449c"
+      "sha256": "d7781040fbf96cb62c25007bc64e3c55471108a9e97788b34d259e2e78c4769f"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -2504,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

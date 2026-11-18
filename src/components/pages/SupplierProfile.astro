@@ -159,7 +159,7 @@ const articleCovers = new Map(
   articles.map((post) => {
     const r = postContent(post, 'ru');
     const text = [r.title, r.excerpt, ...r.sections.flatMap((x) => [x.h ?? '', ...x.p])].join(' ');
-    return [post.slug, coverPlan(profile.slug, post.slug, post.hero, text)];
+    return [post.slug, coverPlan(profile.slug, post.slug, post.hero, text, 3, post.cover)];
   }),
 );
 /* Line names are translated, product names are not — so matching a line to a
@@ -264,8 +264,8 @@ function monogram(name: string): string {
         <div class="sp-hero__main">
           <span class="sp-eyebrow">{c.ui.profile_sup}</span>
           <figure class="sp-logo">
-            {logo && <Image src={logo} alt={`${profile.brand}`} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
-            {!logo && profile.logoUrl && <img src={profile.logoUrl} alt={profile.brand} loading="eager" decoding="async" />}
+            {logo && <Image src={logo} alt={profile.logoAlt ?? profile.brand} widths={[220, 440]} sizes="220px" format="webp" loading="eager" decoding="async" />}
+            {!logo && profile.logoUrl && <img src={profile.logoUrl} alt={profile.logoAlt ?? profile.brand} loading="eager" decoding="async" />}
           </figure>
           <h1 class="sp-name">{h1Name}</h1>
           <p class="sp-tagline">«{c.tagline}»</p>
@@ -496,18 +496,18 @@ function monogram(name: string): string {
                   {grp.items.map((it, ii) => {
                     const note = c.catalog_notes?.[base + ii];
                     return (
-                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-name={it.name}>
+                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-name={catalogText(it.name, it.nameI18n, lang)}>
                         {/* Позиция без фотографии — не пустая рамка и не битая картинка,
                             а плашка с монограммой в цветах поставщика. Нужна там, где
                             товар физически не фотогеничен (сырьё в порошке) или снимков
                             от поставщика ещё нет. */}
                         <span class="sp-prod__ph">
                           {it.img
-                            ? <img src={it.img} alt={it.name} loading="lazy" decoding="async" />
+                            ? <img src={it.img} alt={catalogText(it.name, it.nameI18n, lang)} loading="lazy" decoding="async" />
                             : <span class="sp-prod__mono" aria-hidden="true">{monogram(it.name)}</span>}
                         </span>
                         <span class="sp-prod__body">
-                          <span class="sp-prod__nm">{it.name}{it.volume && <span class="sp-prod__vol"> · {catalogText(it.volume, it.volumeI18n, lang)}</span>}</span>
+                          <span class="sp-prod__nm">{catalogText(it.name, it.nameI18n, lang)}{it.volume && <span class="sp-prod__vol"> · {catalogText(it.volume, it.volumeI18n, lang)}</span>}</span>
                           {note && <span class="sp-prod__desc">{note}</span>}
                           {it.certs && it.certs.length > 0 && (
                             <span class="sp-prod__certs">{it.certs.map((cc) => <span>{cc}</span>)}</span>
@@ -631,6 +631,26 @@ function monogram(name: string): string {
     </section>
   )}
 
+  <!-- FAQ -->
+  {c.faq && c.faq.length > 0 && (
+    <section class="sp-sec">
+      <div class="wrap sp-narrow">
+        <span class="sp-lvl">{c.ui.faq_h}</span>
+        <div class="sp-faq">
+          {c.faq.map((item, i) => (
+            <details class="sp-faq__item" open={i === 0}>
+              <summary>
+                <span>{item.q}</span>
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              </summary>
+              <p>{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
   {articles.length > 0 && (
     <section class="sp-sec">
       <div class="wrap">
@@ -640,7 +660,7 @@ function monogram(name: string): string {
             const ac = postContent(post, lang);
             return (
               <a class="sp-article" href={localizePath(`/blog/${post.slug}`, lang)}>
-                <span class="sp-article__img">
+                <span class={`sp-article__img${!articleCovers.get(post.slug)?.products.length && post.hero?.startsWith('/img/blog/art-') ? ' sp-article__img--photo' : ''}`}>
                   {articleCovers.get(post.slug)?.products.length ? (
                     <BrandCover
                       products={articleCovers.get(post.slug)!.products}
@@ -1005,6 +1025,13 @@ function monogram(name: string): string {
   .sp-article:hover { transform: translateY(-3px); box-shadow: 0 14px 30px color-mix(in srgb, var(--ds-deep) 14%, transparent); }
   .sp-article__img { display: flex; justify-content: center; align-items: center; background: linear-gradient(160deg, color-mix(in srgb, var(--ds-sky) 14%, #fff), #fff 80%); padding: 20px; min-height: 160px; }
   .sp-article__img img { max-height: 160px; max-width: 100%; width: auto; object-fit: contain; }
+  /* A generated blog-art cover (gen-blog-art.mjs, wide aspect, path
+     /img/blog/art-*) fills the card edge to edge. The padded/contain layout
+     above stays for the icon placeholder, the drawn BrandCover and real
+     supplier photos (collages, gallery shots) that were not framed for a
+     tight crop (T-20261116-012). */
+  .sp-article__img--photo { padding: 0; height: 160px; background: none; overflow: hidden; }
+  .sp-article__img--photo img { width: 100%; height: 100%; max-height: none; max-width: none; object-fit: cover; }
   .sp-article__ph { width: 56px; height: 56px; color: color-mix(in srgb, var(--ds-sky) 58%, #fff); }
   .sp-article__txt { display: flex; flex-direction: column; padding: 18px 20px 20px; flex: 1; }
   .sp-article__cat { align-self: flex-start; font-size: 0.64rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ds-deep); background: color-mix(in srgb, var(--ds-sky) 12%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 26%, transparent); border-radius: 5px; padding: 3px 8px; margin-bottom: 10px; }
@@ -1042,6 +1069,15 @@ function monogram(name: string): string {
   .sp-terms__dl--alt:hover { background: var(--ds-deep); color: #fff; }
   .sp-terms__dl svg { width: 17px; height: 17px; }
   .sp-terms__disc { font-size: 0.82rem; color: #5a6a80; line-height: 1.6; margin-top: 16px; }
+
+  /* faq */
+  .sp-faq { display: grid; gap: 10px; }
+  .sp-faq__item { border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #e2e8f0); border-radius: 14px; background: var(--ds-bg); padding: 0 20px; }
+  .sp-faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; list-style: none; padding: 18px 0; font-size: 0.98rem; font-weight: 700; color: var(--ds-deep); }
+  .sp-faq__item summary::-webkit-details-marker { display: none; }
+  .sp-faq__item summary svg { flex: none; color: var(--ds-sky); transition: transform .25s var(--ease); }
+  .sp-faq__item[open] summary svg { transform: rotate(180deg); }
+  .sp-faq__item p { font-size: 0.92rem; color: #45576f; line-height: 1.65; padding: 0 0 18px; max-width: 70ch; }
 
   /* lines */
   .sp-lines { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }

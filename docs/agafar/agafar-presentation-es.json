@@ -156,7 +156,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AGAFAR reúne clínicas dermatológicas, productos para el cuidado de la piel y equipos de estética profesional. La trayectoria clínica del grupo se remonta a 2010. Su sitio web de clínicas en Corea enumera seis centros: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang y Juan.",
+          "value": "AGAFAR reúne clínicas dermatológicas, productos para el cuidado de la piel y equipos de estética profesional. La trayectoria clínica del grupo se remonta a 2010. En Corea, AGAFAR Clinic cuenta con seis centros: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang y Juan.",
           "box": [
             42,
             156,
@@ -168,7 +168,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Según la empresa, AGAFAR Clinic y AGAFAR Medi Lounge cuentan con más de 40 centros en Corea y otros mercados, entre ellos Hong Kong, China, Tailandia y Canadá. Su oferta de cuidado de la piel comprende tres marcas: AGAFAR, agapharma y a'reiv.",
+          "value": "En conjunto, AGAFAR Clinic y AGAFAR Medi Lounge cuentan con más de 40 centros en Corea y otros mercados, entre ellos Hong Kong, China, Tailandia y Canadá. Su oferta de cuidado de la piel comprende tres marcas: AGAFAR, agapharma y a'reiv.",
           "box": [
             42,
             246.20000457763672,
@@ -180,7 +180,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Los materiales de AGAFAR indican dos reconocimientos distintos en dermatología y dermocosmética: el primer puesto en los premios KPBA de 2023 y el premio KBEI de 2026. El certificado KBEI está fechado el 3 de abril de 2026 y menciona a The JoongAng junto con la entidad organizadora.",
+          "value": "AGAFAR ha recibido dos reconocimientos en dermatología y dermocosmética: el primer puesto en los premios KPBA de 2023 y el premio KBEI de 2026. El certificado KBEI está fechado el 3 de abril de 2026 y menciona a The JoongAng junto con la entidad organizadora.",
           "box": [
             42,
             318.8500061035156,
@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ampolla con PDRN, ácido hialurónico y ADN de salmón a 10.000 ppm.",
+          "value": "Ampolla con PDRN (ADN de salmón, 10.000 ppm) y un complejo de ácido hialurónico.",
           "box": [
             310,
             339.375,
@@ -1613,6 +1613,155 @@
           "direction": "ltr"
         },
         {
+          "value": "La colección de cuidado de la piel",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "NADXEN Ampoule",
+          "box": [
+            42,
+            297,
+            285,
+            345
+          ],
+          "size": 12,
+          "bottom": 315.20000076293945,
+          "direction": "ltr"
+        },
+        {
+          "value": "30 ml",
+          "box": [
+            42,
+            319.20000076293945,
+            285,
+            343.20000076293945
+          ],
+          "size": 10.5,
+          "bottom": 335.375,
+          "direction": "ltr"
+        },
+        {
+          "value": "Ampolla con NAD⁺, NMN, glutatión y PDRN. Registro CPNP en curso.",
+          "box": [
+            42,
+            339.375,
+            285,
+            455
+          ],
+          "size": 11.5,
+          "bottom": 372.4250030517578,
+          "direction": "ltr"
+        },
+        {
+          "value": "NADXEN Serum",
+          "box": [
+            310,
+            297,
+            553,
+            345
+          ],
+          "size": 12,
+          "bottom": 315.20000076293945,
+          "direction": "ltr"
+        },
+        {
+          "value": "50 ml",
+          "box": [
+            310,
+            319.20000076293945,
+            553,
+            343.20000076293945
+          ],
+          "size": 10.5,
+          "bottom": 335.375,
+          "direction": "ltr"
+        },
+        {
+          "value": "Sérum con NAD⁺, NMN, glutatión y PDRN. Registro CPNP en curso.",
+          "box": [
+            310,
+            339.375,
+            553,
+            455
+          ],
+          "size": 11.5,
+          "bottom": 372.4250030517578,
+          "direction": "ltr"
+        }
+      ],
+      "images": [
+        {
+          "path": "/img/suppliers/agafar/products/nadxen-ampoule.webp",
+          "sha256": "10de32699817d7161fe1f02962bc9668233f0bb2f249a5a7b5f59947746b2fde",
+          "box": [
+            42,
+            146,
+            285,
+            288
+          ],
+          "clip": null
+        },
+        {
+          "path": "/img/suppliers/agafar/products/nadxen-serum.webp",
+          "sha256": "2fa9bd027c73f5e571088d4b7ad303d734b3cb998b093b2af9ccacc694bcb1ba",
+          "box": [
+            310,
+            146,
+            553,
+            288
+          ],
+          "clip": null
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 10",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
           "value": "Equipos de estética profesional",
           "box": [
             42,
@@ -1699,7 +1848,7 @@
       ]
     },
     {
-      "page": 10,
+      "page": 11,
       "text": [
         {
           "value": "AGAFAR",
@@ -1726,7 +1875,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 10",
+          "value": "Teranova Group · 11",
           "box": [
             42,
             808,
@@ -1824,7 +1973,7 @@
       ]
     },
     {
-      "page": 11,
+      "page": 12,
       "text": [
         {
           "value": "AGAFAR",
@@ -1851,7 +2000,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 11",
+          "value": "Teranova Group · 12",
           "box": [
             42,
             808,
@@ -1911,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Piezas de mano AIR Plasma y RF Multi Plasma.",
+          "value": "Piezas de mano AIR Plasma, RF Multi Plasma y POINT Plasma.",
           "box": [
             292,
             547,
@@ -1919,7 +2068,7 @@
             730
           ],
           "size": 12,
-          "bottom": 565.2000007629395,
+          "bottom": 581.4000015258789,
           "direction": "ltr"
         }
       ],
@@ -1949,7 +2098,7 @@
       ]
     },
     {
-      "page": 12,
+      "page": 13,
       "text": [
         {
           "value": "AGAFAR",
@@ -1976,7 +2125,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 12",
+          "value": "Teranova Group · 13",
           "box": [
             42,
             808,
@@ -2074,7 +2223,7 @@
       ]
     },
     {
-      "page": 13,
+      "page": 14,
       "text": [
         {
           "value": "AGAFAR",
@@ -2101,7 +2250,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 13",
+          "value": "Teranova Group · 14",
           "box": [
             42,
             808,
@@ -2152,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2197,19 +2346,19 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
     },
     {
-      "page": 14,
+      "page": 15,
       "text": [
         {
           "value": "AGAFAR",
@@ -2236,7 +2385,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 14",
+          "value": "Teranova Group · 15",
           "box": [
             42,
             808,
@@ -2260,7 +2409,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Según la empresa, los productos AGAFAR se venden en Corea, Hong Kong, China, Tailandia, Japón, Estados Unidos, Filipinas, Malasia, Reino Unido, Emiratos Árabes Unidos y Canadá, entre otros mercados. Teranova confirma la disponibilidad territorial y los acuerdos de distribución vigentes para cada consulta.",
+          "value": "Los productos AGAFAR se venden en Corea, Hong Kong, China, Tailandia, Japón, Estados Unidos, Filipinas, Malasia, Reino Unido, Emiratos Árabes Unidos y Canadá, entre otros mercados. Teranova confirma la disponibilidad territorial y los acuerdos de distribución vigentes para cada consulta.",
           "box": [
             42,
             153,
@@ -2359,7 +2508,7 @@
       "images": []
     },
     {
-      "page": 15,
+      "page": 16,
       "text": [
         {
           "value": "AGAFAR",
@@ -2386,7 +2535,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 15",
+          "value": "Teranova Group · 16",
           "box": [
             42,
             808,
@@ -2410,7 +2559,7 @@
           "direction": "ltr"
         },
         {
-          "value": "La oferta también incluye EXOXEN Booster y la ampolla y el sérum NADXEN con NAD⁺ y NMN. Son nombres de productos de AGAFAR, junto a sus tres marcas de cuidado de la piel.",
+          "value": "La oferta también incluye EXOXEN Booster y la ampolla y el sérum NADXEN con NAD⁺, NMN, glutatión y PDRN. Son nombres de productos de AGAFAR, junto a sus tres marcas de cuidado de la piel.",
           "box": [
             42,
             157,
@@ -2488,11 +2637,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.es.json",
-      "sha256": "efbb44c116b71f781da94255143faba29f4a2e0363f889a8b103963af6552871"
+      "sha256": "31d7e11de571dc056d660e6b2cf830f001a4bae089a276d6e21833905fa83ca6"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -2504,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

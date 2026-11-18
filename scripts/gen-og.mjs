@@ -5,12 +5,32 @@
            og-blog-<slug>.png (articles). Language-neutral, EN text (Latin/Cyrillic
            safe for the bundled fonts). og-default.png stays as the fallback. */
 import sharp from 'sharp';
+import esbuild from 'esbuild';
 import fs from 'node:fs';
+import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(__dirname, '../public/brand');
+
+/* blog.json alone misses posts added via the per-supplier blog-*.ts extension
+   files (cellaheal, dr-pelo, arming, veo-biotech, …) merged in by blog.ts —
+   those posts rendered with a 404 og:image. Bundle blog.ts with esbuild so
+   every post, from either source, gets a card. */
+async function loadAllPosts() {
+  const result = await esbuild.build({
+    entryPoints: [resolve(__dirname, '../src/data/blog.ts')],
+    bundle: true, format: 'esm', platform: 'node', write: false,
+  });
+  const tmp = resolve(os.tmpdir(), `blog-bundle-${Date.now()}-${process.pid}.mjs`);
+  fs.writeFileSync(tmp, result.outputFiles[0].text);
+  try {
+    return (await import(tmp)).posts;
+  } finally {
+    fs.unlinkSync(tmp);
+  }
+}
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 /* naive word-wrap to N lines by max chars per line */
@@ -77,6 +97,7 @@ async function render(name, opts) {
 const CATS = {
   marine: 'Marine supply', cosmetics: 'Cosmetics & care (OEM/ODM)', medical: 'Medical & aesthetics',
   industrial: 'Industrial equipment', transport: 'Commercial & special vehicles', adjacent: 'Adjacent sectors', chemical: 'Chemicals & materials',
+  research: 'Research institutes & R&D',
   /* Не категория каталога, а подборка внутри косметики — карточка ей нужна такая же. */
   'hair-scalp': 'Hair & scalp care',
 };
@@ -116,7 +137,7 @@ const SUPPLIERS = {
   'desert-free': { officialAsset: '../src/assets/suppliers/desert-free/logo.png' },
   'dr-pelo': { eyebrow: 'Supplier profile', title: 'Dr.Pelo — Korean functional scalp care for hair loss, MFDS-registered', accent: '#7A2E6E' },
   whamisa: { eyebrow: 'Supplier profile', title: 'WHAMISA by ENS Korea — organic fermented skincare, hair and body care', accent: '#5E7C3D' },
-  'veo-biotech': { eyebrow: 'Supplier profile', title: 'Weiyi Biotech — Helio PDRN, natural-source Sodium DNA raw material', accent: '#2F7D99' },
+  'veo-biotech': { eyebrow: 'Supplier profile', title: 'VEO Biotech — Helio PDRN, natural-source Sodium DNA raw material', accent: '#2F7D99' },
   arming: { eyebrow: 'Supplier profile', title: 'Enveco Cosmetic / ARMING — MFDS functional skincare, hair care, OEM/ODM', accent: '#2F4F8A' },
   themaqueen: { eyebrow: 'Supplier profile', title: 'THEMAQUEEN — Korean cooling, cleansing and scalp-care accessories', accent: '#7A919B' },
   'vegan-nature': { eyebrow: 'Supplier profile', title: 'Vegan Nature — Korean solid shampoo and treatment bars', accent: '#7AC7A6' },
@@ -137,7 +158,7 @@ const SUPPLIERS = {
   cheon365: { eyebrow: 'Supplier profile', title: 'Scott Hamish (Cheon365) — Korean men’s grooming care brand', accent: '#2B4C7E' },
 };
 
-const blog = JSON.parse(fs.readFileSync(resolve(__dirname, '../src/data/blog.json'), 'utf8'));
+const blog = await loadAllPosts();
 
 console.log('OG:');
 for (const [k, name] of Object.entries(CATS)) await render(`og-cat-${k}.png`, { eyebrow: 'Category', title: name });

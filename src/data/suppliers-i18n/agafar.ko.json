@@ -4,9 +4,9 @@
     "descriptor": "AGAFAR Medical Beauty Group은 한국 스킨케어 브랜드 세 개와 전문가용 미용 기기를 선보입니다.",
     "origin": "한국",
     "about": [
-      "AGAFAR는 피부과 의원, 스킨케어 제품, 전문가용 미용 기기를 아우릅니다. 그룹의 의원 운영 역사는 2010년에 시작되었습니다. 한국 의원 웹사이트에는 미아, 성남, 광명, 김포, 계양, 주안의 여섯 지점이 안내되어 있습니다.",
-      "회사에 따르면 AGAFAR Clinic과 AGAFAR Medi Lounge는 한국과 홍콩, 중국, 태국, 캐나다를 포함한 해외 지역에서 40곳 이상의 지점을 운영합니다. 스킨케어 포트폴리오는 AGAFAR, agapharma, a'reiv의 세 브랜드로 구성됩니다.",
-      "AGAFAR 자료에는 피부과 및 더마 코스메틱 분야의 두 가지 별도 수상 내역이 기재되어 있습니다. 2023 KPBA 1위와 2026 KBEI 수상입니다. KBEI 인증서의 날짜는 2026년 4월 3일이며, 주최 기관과 함께 The JoongAng이 명시되어 있습니다."
+      "AGAFAR는 피부과 의원, 스킨케어 제품, 전문가용 미용 기기를 아우릅니다. 그룹의 의원 운영 역사는 2010년에 시작되었습니다. 한국 내 AGAFAR Clinic 지점은 미아, 성남, 광명, 김포, 계양, 주안의 여섯 곳입니다.",
+      "AGAFAR Clinic과 AGAFAR Medi Lounge는 함께 한국과 홍콩, 중국, 태국, 캐나다를 포함한 해외 지역에서 40곳 이상의 지점을 운영합니다. 스킨케어 포트폴리오는 AGAFAR, agapharma, a'reiv의 세 브랜드로 구성됩니다.",
+      "AGAFAR는 피부과 및 더마 코스메틱 분야에서 두 차례 수상했습니다. 2023 KPBA 1위와 2026 KBEI 수상입니다. KBEI 인증서의 날짜는 2026년 4월 3일이며, 주최 기관과 함께 The JoongAng이 명시되어 있습니다."
     ],
     "facts": ["스킨케어 브랜드 3개", "2010년부터 이어온 의원 운영 역사", "DERMA MODE PROGRAM 카탈로그에 수록된 제품 20개"],
     "channels": ["화장품 수입·유통업체", "피부과 및 미용 클리닉", "소매 및 약국 체인", "전자상거래 담당팀"],
@@ -21,7 +21,7 @@
       "녹차, 프로폴리스, 감초 뿌리 추출물, 알란토인을 함유한 젤입니다.",
       "비타민 A, C, E 복합체를 함유한 앰플입니다.",
       "8종 펩타이드 복합체와 가수분해 콜라겐을 함유한 앰플입니다.",
-      "PDRN, 히알루론산과 연어 DNA 10,000 ppm을 함유한 앰플입니다.",
+      "PDRN(연어 DNA, 10,000 ppm)과 히알루론산 복합체를 함유한 앰플입니다.",
       "Vita K 복합체, 판테놀, 아줄렌을 함유한 앰플입니다.",
       "레드 베리 복합체와 가수분해 콜라겐을 함유한 아이 세럼입니다.",
       "락토바실러스 발효 용해물과 펩타이드를 함유한 아이 크림입니다.",
@@ -36,8 +36,8 @@
       "EXOXEN 엑소좀 부스터로, 3 ml 바이알 10개로 구성됩니다.",
       "트리플 히알루론산, 베타인, 판테놀을 함유한 시트 마스크입니다.",
       "판테놀, 사과나무 잎 추출물, 알로에 베라 잎 추출물을 함유한 SPF50+ PA++++ 선크림입니다.",
-      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 앰플입니다. 공급사에 따르면 CPNP에 등록되어 있습니다.",
-      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 세럼입니다. 공급사에 따르면 CPNP에 등록되어 있습니다."
+      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 앰플입니다. CPNP 등록 절차가 진행 중입니다.",
+      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 세럼입니다. CPNP 등록 절차가 진행 중입니다."
     ],
     "tech": [
       {"name": "Transfer", "note": "초음파 스크러버, Sono 핸드피스, Vitamin Clip, Cooling & Heating 핸드피스를 갖춘 다기능 시스템입니다."},
@@ -45,13 +45,13 @@
       {"name": "agafar Point Plus Pro", "note": "RF와 HIFU를 결합하며 얼굴용 2, 3, 4.5 mm 카트리지와 바디용 6 mm 카트리지를 사용합니다."},
       {"name": "agafar Line S", "note": "RF, 캐비테이션, 저출력 레이저, 진공, LED를 결합한 6기능 시스템으로, Thermal, Multi Cavi, Multi 핸드피스를 갖추고 있습니다."},
       {"name": "agafar S", "note": "APP-1, APP-2, APP-3 핸드피스로 캐비테이션, 온열, 흡입 기능을 제공합니다."},
-      {"name": "PLASMA", "note": "AIR Plasma와 RF Multi Plasma 핸드피스를 갖추고 있습니다."},
+      {"name": "PLASMA", "note": "AIR Plasma, RF Multi Plasma, POINT Plasma 핸드피스를 갖추고 있습니다."},
       {"name": "agafar LED PDT Light", "note": "적색, 녹색, 청색 및 혼합광 모드를 갖춘 LED 시스템입니다."},
       {"name": "Face Fitness Turn Up", "note": "교체형 핸드피스 4종은 P-POLAR (RF), P-CMS (CMS), PLASMA, P-DUAL (RF + CMS)입니다."},
       {"name": "PLAZION", "note": "AGAFAR는 PLAZION을 스킨케어 제품의 흡수를 돕는 기기로 소개합니다."}
     ],
     "formats": ["클렌저 및 토너", "앰플 및 부스터", "아이 케어 및 크림", "자외선 차단제 및 시트 마스크"],
-    "exportNote": "회사에 따르면 AGAFAR 제품은 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. Teranova는 문의별로 해당 지역의 공급 가능 여부와 현재 유통 계약 현황을 확인합니다.",
+    "exportNote": "AGAFAR 제품은 한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. Teranova는 문의별로 해당 지역의 공급 가능 여부와 현재 유통 계약 현황을 확인합니다.",
     "terms": [],
     "consentNote": "AGAFAR 소개를 위해 회사가 제공한 자료입니다.",
     "seoTitle": "AGAFAR · 한국 스킨케어와 미용 기기 | Teranova",
@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "포장 용량"
+    "pack_label": "포장 용량",
+    "faq_h": "자주 묻는 질문",
+    "detail_card_label": "AGAFAR 카탈로그 제품 카드",
+    "faq": [
+      {"q": "AGAFAR Medical Beauty Group에는 어떤 브랜드가 있나요?", "a": "스킨케어 브랜드 3개입니다: 민감성 피부를 위한 데일리 케어 AGAFAR, 전문가용 Meditive Formula 3X 라인의 agapharma, 시트 마스크와 선크림을 선보이는 a'reiv입니다."},
+      {"q": "DERMA MODE PROGRAM 컬렉션에는 무엇이 포함되나요?", "a": "컬렉션은 20개 제품으로 구성됩니다: AGAFAR 12개, agapharma Meditive Formula 3X 5개, a'reiv 시트 마스크와 선크림, 그리고 EXOXEN Booster입니다. 클렌저와 토너, 앰플과 부스터, 아이 케어와 크림, 선크림과 시트 마스크가 포함됩니다."},
+      {"q": "NADXEN 라인은 CPNP 등록을 마쳤나요?", "a": "공개 시점 기준으로 NADXEN 앰플과 세럼의 CPNP 등록 절차가 진행 중입니다."},
+      {"q": "AGAFAR 제품은 어디에서 판매되나요?", "a": "한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. 특정 지역에 대해서는 Teranova가 문의별로 현재 조건을 확인합니다."},
+      {"q": "Teranova를 통해 누가 AGAFAR 제품을 공급받을 수 있나요?", "a": "화장품 수입·유통업체, 피부과 및 미용 클리닉, 소매 및 약국 체인, 전자상거래 팀입니다."}
+    ]
   }
 }

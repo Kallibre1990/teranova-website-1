@@ -52,10 +52,12 @@ export const demoSuppliers: Record<CategoryKey, DemoSupplier[]> = {
     { name: 'Daon Eco', initials: 'DE', role: 'exporter', status: 'provided', blurb: 2, tags: [2, 3], email: 'demo@daon-eco.example', phone: p('6013') },
     { name: 'Nuri Tech', initials: 'NT', role: 'maker', status: 'provided', blurb: 0, tags: [4, 3], email: 'demo@nuri-tech.example', phone: p('6014') },
   ],
-  chemical: [
-    { name: 'Cheonggu Chem', initials: 'CC', role: 'maker', status: 'provided', blurb: 0, tags: [0, 1], email: 'demo@cheonggu-chem.example', phone: p('7011') },
-    { name: 'Saemul Polymers', initials: 'SP', role: 'maker', status: 'provided', blurb: 0, tags: [1, 2], email: 'demo@saemul-polymers.example', phone: p('7012') },
-    { name: 'Hanseo Materials', initials: 'HM', role: 'exporter', status: 'provided', blurb: 2, tags: [3, 4], email: 'demo@hanseo-materials.example', phone: p('7013') },
-    { name: 'Boram Chemical', initials: 'BC', role: 'maker', status: 'provided', blurb: 3, tags: [0, 5], email: 'demo@boram-chemical.example', phone: p('7014') },
-  ],
+  /* Решением Иры 16.11.2026 вымышленные демо-карточки химии и материалов
+     убраны из витрины — в разделе остаются только реальные поставщики
+     (см. suppliers.ts: Sunpure Extracts, ZhengZhou VEO Biotech). */
+  chemical: [],
+  /* Новая категория (T-20261116-048): структура только, без выдуманных карточек —
+     первым сюда встанет настоящий профиль (Dongguk University Medical Center, часть
+     T-20261116-049), поэтому демо-поставщиков не заводим. */
+  research: [],
 };

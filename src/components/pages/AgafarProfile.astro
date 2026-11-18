@@ -1,6 +1,7 @@
 ---
-import type { Lang } from '../../i18n/ui';
-import { anchorHref } from '../../i18n/utils';
+import { ui, type Lang } from '../../i18n/ui';
+import { anchorHref, localizePath } from '../../i18n/utils';
+import { postsBySupplier, postContent } from '../../data/blog';
 import { agafarProfile as profile, agafarEditorial, agafarDeviceImages } from '../../data/agafar';
 import { supplierContent } from '../../data/suppliers';
 
@@ -10,8 +11,16 @@ const e = agafarEditorial(lang);
 const root = '/img/suppliers/agafar/';
 const catalog = profile.catalog!;
 let offset = 0;
+// The first 20 catalog items (groups AGAFAR/agapharma/EXOXEN/a'reiv) match, in the same
+// order, the 20 product cards extracted from the official DERMA MODE PROGRAM catalogue PDF
+// (see public/img/suppliers/agafar/SOURCES.md); NADXEN (group 4) has no matching card.
 const groups = catalog.map(group => {
-  const items = group.items.map((item) => ({ ...item, note: c.catalog_notes![offset++] }));
+  const items = group.items.map((item) => {
+    const detailIdx = offset;
+    const note = c.catalog_notes![offset++];
+    const detail = detailIdx < 20 ? `${root}products/derma-mode-${String(detailIdx + 1).padStart(2, '0')}.webp` : null;
+    return { ...item, note, detail };
+  });
   return { ...group, items };
 });
 // Exact language only: task 094 adds actual documents, never a fallback PDF.
@@ -20,6 +29,19 @@ const documents = [
   { href: profile.termsFile?.[lang], label: c.ui.download_btn },
 ].filter(doc => doc.href);
 const contact = anchorHref('ondemand', lang);
+const t = ui[lang];
+// Fixed reading order: company overview first, then the lines, then the devices.
+const articleOrder = ['agafar-medical-beauty-group', 'agafar-derma-mode-program', 'agapharma-meditive-formula-3x', 'agafar-professional-aesthetic-devices'];
+const articles = [...postsBySupplier('agafar')].sort((x, y) => (articleOrder.indexOf(x.slug) + 99) % 99 - (articleOrder.indexOf(y.slug) + 99) % 99);
+// Official company photography (see public/img/suppliers/agafar/SOURCES.md); product names are language-neutral.
+const gallery = [
+  { src: 'scenes/exoxen-booster-01.webp', w: 1600, h: 1067, alt: 'EXOXEN Booster' },
+  { src: 'products/agafar-site-01.webp', w: 1600, h: 1600, alt: 'NADXEN Ampoule' },
+  { src: 'scenes/calming-sun-cream-01.webp', w: 1600, h: 1067, alt: "a'reiv · Calming Sun Cream" },
+  { src: 'scenes/lab-laboratory-mask-01.webp', w: 1600, h: 1067, alt: "a'reiv · Lab Laboratory Mask" },
+  { src: 'products/agafar-site-02.webp', w: 1600, h: 1600, alt: 'NADXEN Serum' },
+  { src: 'scenes/exoxen-booster-02.webp', w: 1600, h: 1067, alt: 'EXOXEN Booster' },
+];
 ---
 
 <article class="agafar" aria-labelledby="agafar-title">
@@ -45,6 +67,7 @@ const contact = anchorHref('ondemand', lang);
     <a href="#agafar-brands">{c.ui.lines_h}</a>
     <a href="#agafar-catalog">{c.ui.catalog_h}</a>
     <a href="#agafar-devices">{c.ui.tech_h}</a>
+    <a href="#agafar-faq">{e.faq_h}</a>
   </nav>
 
   <section class="ag-story ag-wrap ag-section" id="agafar-about">
@@ -88,6 +111,12 @@ const contact = anchorHref('ondemand', lang);
                   <h4 dir="auto">{item.name}</h4>
                   <p class="ag-size"><span class="sr-only">{e.pack_label}: </span><bdi>{item.volume?.replace(/(\d)ml/g, '$1 ml').replace(/ x /g, ' × ').replace(/ea/g, '')}</bdi></p>
                   <p>{item.note}</p>
+                  {item.detail && (
+                    <a class="ag-product__detail" href={item.detail} target="_blank" rel="noopener">
+                      <img src={item.detail} alt={item.name} width="1600" height="1067" loading="lazy" decoding="async" />
+                      <span dir="auto">{e.detail_card_label}</span>
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
@@ -123,12 +152,45 @@ const contact = anchorHref('ondemand', lang);
     </div>
   </section>
 
+  <section class="ag-gallery ag-wrap ag-section" id="agafar-gallery">
+    <h2>{c.ui.gallery_h}</h2>
+    <div class="ag-gallery__grid">
+      {gallery.map(img => <figure><img src={root + img.src} alt={img.alt} width={img.w} height={img.h} loading="lazy" decoding="async" /><figcaption dir="ltr">{img.alt}</figcaption></figure>)}
+    </div>
+  </section>
+
   <section class="ag-business ag-wrap ag-section">
     <div><h2>{c.ui.export_h}</h2><p>{c.exportNote}</p><ul>{c.channels.map(channel => <li>{channel}</li>)}</ul></div>
     <div class="ag-recognition"><h3>{e.awards_h}</h3><p>{c.about[2]}</p></div>
   </section>
 
   {documents.length > 0 && <section class="ag-documents ag-wrap ag-section"><h2>{c.ui.terms_h}</h2><div class="ag-actions">{documents.map(doc => <a class="ag-button ag-button--outline" href={doc.href} download>{doc.label}</a>)}</div></section>}
+
+  {articles.length > 0 && <section class="ag-articles ag-wrap ag-section" id="agafar-articles">
+    <h2>{t.pages.blog.supplier_articles_h}</h2>
+    <div class="ag-articles__grid">
+      {articles.map(post => { const ac = postContent(post, lang); return (
+        <a class="ag-article" href={localizePath(`/blog/${post.slug}`, lang)}>
+          {post.hero && <span class={`ag-article__img${post.hero.includes('/products/') ? ' ag-article__img--product' : ''}`}><img src={post.hero} alt={ac.title} width="800" height="500" loading="lazy" decoding="async" /></span>}
+          <span class="ag-article__txt"><span class="ag-article__title">{ac.title}</span><span class="ag-article__excerpt">{ac.excerpt}</span><span class="ag-article__more">{t.pages.blog.read_more} →</span></span>
+        </a>); })}
+    </div>
+  </section>}
+
+  <section class="ag-faq ag-wrap ag-section" id="agafar-faq">
+    <h2>{e.faq_h}</h2>
+    <div class="ag-faq__list">
+      {e.faq.map((item: { q: string; a: string }, i: number) => (
+        <details class="ag-faq__item" open={i === 0}>
+          <summary>
+            <span>{item.q}</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p>{item.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
 
   <section class="ag-contact">
     <div class="ag-wrap">
@@ -199,13 +261,15 @@ const contact = anchorHref('ondemand', lang);
   .ag-device h3 { font-size:1.1rem; }
   .ag-device p { font-size:.88rem; color:var(--ag-muted); margin-block-start:12px; }
   .ag-device--turn-up { grid-column:1 / -1; }
-  .ag-turn-up-gallery { display:grid; grid-template-columns:1fr 1fr; align-items:start; gap:35px; margin-block-end:24px; }
+  .ag-turn-up-gallery { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:35px; margin-block-end:24px; }
   /* Preserve the original screenshot bytes; show only its supplied campaign frame. */
   .ag-turn-up__promo { position:relative; aspect-ratio:460 / 630; overflow:hidden; }
   .ag-turn-up__promo img { position:absolute; width:128.043478%; max-width:none; left:-12.826087%; top:-56.190476%; }
   /* The 737×1600 source has video bars outside rows 247–1352. Keep its bytes intact. */
-  .ag-turn-up__heads { position:relative; aspect-ratio:737 / 1106; overflow:hidden; }
-  .ag-turn-up__heads img { position:absolute; width:100%; height:auto; left:0; top:calc(-247 / 1106 * 100%); }
+  /* Viewport shows only the four-handpiece strip (source y 990-1350): the KC/CE logos above it
+     are not shown, because AGAFAR has no EU compliance documents for devices (mail 14.11.2026). */
+  .ag-turn-up__heads { position:relative; aspect-ratio:737 / 360; overflow:hidden; }
+  .ag-turn-up__heads img { position:absolute; width:100%; height:auto; left:0; top:calc(-990 / 360 * 100%); }
   .ag-business { display:grid; grid-template-columns:1.3fr 1fr; gap:90px; border-top:1px solid var(--ag-line); }
   .ag-business p { margin-block-start:25px; color:var(--ag-muted); }
   .ag-business ul { padding-inline-start:20px; margin-block-start:25px; }
@@ -250,4 +314,27 @@ const contact = anchorHref('ondemand', lang);
     .ag-hero .ag-text-link { align-self:flex-start; }
   }
   @media(prefers-reduced-motion:reduce) { .ag-button { transition:none; } }
+  .ag-gallery__grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-block-start:36px; }
+  .ag-gallery__grid img { aspect-ratio:4/3; object-fit:cover; background:#fff; }
+  .ag-articles__grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; margin-block-start:36px; }
+  .ag-article { display:flex; flex-direction:column; background:#fff; border:1px solid var(--ag-line); text-decoration:none; transition:transform .2s ease, box-shadow .2s ease; }
+  .ag-article:hover { transform:translateY(-3px); box-shadow:0 14px 30px oklch(28% .05 255 / .12); }
+  .ag-article__img img { aspect-ratio:16/10; object-fit:cover; }
+  .ag-article__img--product img { object-fit:contain; background:#fff; padding:16px; }
+  .ag-article__txt { display:flex; flex-direction:column; gap:10px; padding:22px 24px 26px; flex:1; }
+  .ag-article__title { font-size:1.2rem; line-height:1.3; font-weight:600; }
+  .ag-article__excerpt { color:var(--ag-muted); font-size:.95rem; flex:1; }
+  .ag-article__more { color:var(--ag-blue); font-weight:600; font-size:.9rem; }
+  @media (max-width:900px) { .ag-gallery__grid { grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:640px) { .ag-gallery__grid, .ag-articles__grid { grid-template-columns:1fr; } }
+  .ag-product__detail { display:flex; align-items:center; gap:10px; margin-block-start:14px; text-decoration:none; }
+  .ag-product__detail img { width:56px; height:auto; aspect-ratio:3/2; object-fit:cover; border:1px solid var(--ag-line); flex:none; }
+  .ag-product__detail span { font-size:.72rem; color:var(--ag-blue); text-decoration:underline; text-underline-offset:.2em; max-width:none; }
+  .ag-faq__list { max-width:860px; margin-block-start:36px; }
+  .ag-faq__item { border:1px solid var(--ag-line); border-radius:4px; background:#fff; margin-block-end:12px; padding-inline:22px; }
+  .ag-faq__item summary { display:flex; align-items:center; justify-content:space-between; gap:16px; cursor:pointer; list-style:none; padding-block:18px; font-weight:600; }
+  .ag-faq__item summary::-webkit-details-marker { display:none; }
+  .ag-faq__item summary svg { flex:none; color:var(--ag-blue); transition:transform .25s ease; }
+  .ag-faq__item[open] summary svg { transform:rotate(180deg); }
+  .ag-faq__item p { color:var(--ag-muted); padding-block-end:20px; max-width:70ch; }
 </style>

@@ -4,9 +4,9 @@
     "descriptor": "Tre marchi coreani per la cura della pelle e apparecchiature estetiche professionali riuniti da AGAFAR Medical Beauty Group.",
     "origin": "Corea",
     "about": [
-      "AGAFAR riunisce cliniche dermatologiche, prodotti per la cura della pelle e apparecchiature estetiche professionali. La storia delle cliniche del gruppo risale al 2010. Il sito coreano dedicato alle cliniche elenca sei sedi: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang e Juan.",
-      "Secondo l'azienda, AGAFAR Clinic e AGAFAR Medi Lounge contano oltre 40 sedi in Corea e all'estero, tra cui Hong Kong, Cina, Thailandia e Canada. Il portafoglio di prodotti per la cura della pelle comprende tre marchi: AGAFAR, agapharma e a'reiv.",
-      "I materiali di AGAFAR riportano due riconoscimenti distinti nell'ambito della dermatologia e della dermocosmesi: il primo posto ai KPBA Awards 2023 e il premio KBEI 2026. Il certificato KBEI è datato 3 aprile 2026 e cita The JoongAng insieme all'organizzatore."
+      "AGAFAR riunisce cliniche dermatologiche, prodotti per la cura della pelle e apparecchiature estetiche professionali. La storia delle cliniche del gruppo risale al 2010. In Corea, AGAFAR Clinic ha sei sedi: Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang e Juan.",
+      "Complessivamente, AGAFAR Clinic e AGAFAR Medi Lounge contano oltre 40 sedi in Corea e all'estero, tra cui Hong Kong, Cina, Thailandia e Canada. Il portafoglio di prodotti per la cura della pelle comprende tre marchi: AGAFAR, agapharma e a'reiv.",
+      "AGAFAR ha ottenuto due riconoscimenti nell'ambito della dermatologia e della dermocosmesi: il primo posto ai KPBA Awards 2023 e il premio KBEI 2026. Il certificato KBEI è datato 3 aprile 2026 e cita The JoongAng insieme all'organizzatore."
     ],
     "facts": ["Tre marchi per la cura della pelle", "Una storia clinica iniziata nel 2010", "20 prodotti nel catalogo DERMA MODE PROGRAM"],
     "channels": ["Importatori e distributori di cosmetici", "Cliniche dermatologiche ed estetiche", "Catene di negozi e farmacie", "Team di vendita online"],
@@ -21,7 +21,7 @@
       "Gel con tè verde, propoli, estratto di radice di liquirizia e allantoina.",
       "Fiala con un complesso di vitamine A, C ed E.",
       "Fiala con un complesso di otto peptidi e collagene idrolizzato.",
-      "Fiala con PDRN, acido ialuronico e DNA di salmone a 10.000 ppm.",
+      "Fiala con PDRN (DNA di salmone, 10.000 ppm) e un complesso di acido ialuronico.",
       "Fiala con un complesso Vita K, pantenolo e azulene.",
       "Siero contorno occhi con un complesso di bacche rosse e collagene idrolizzato.",
       "Crema contorno occhi con lisato di fermenti di Lactobacillus e peptidi.",
@@ -36,8 +36,8 @@
       "Booster agli esosomi EXOXEN, in dieci flaconcini da 3 ml.",
       "Maschera in tessuto con triplo acido ialuronico, betaina e pantenolo.",
       "Crema solare SPF50+ PA++++ con pantenolo ed estratti di foglie di melo e aloe vera.",
-      "Fiala con NAD⁺, NMN, glutatione e PDRN. Registrazione CPNP dichiarata dal fornitore.",
-      "Siero con NAD⁺, NMN, glutatione e PDRN. Registrazione CPNP dichiarata dal fornitore."
+      "Fiala con NAD⁺, NMN, glutatione e PDRN. Registrazione CPNP in corso.",
+      "Siero con NAD⁺, NMN, glutatione e PDRN. Registrazione CPNP in corso."
     ],
     "tech": [
       {"name": "Transfer", "note": "Sistema multifunzione con spatola a ultrasuoni, manipolo Sono, Vitamin Clip e manipolo Cooling & Heating."},
@@ -45,13 +45,13 @@
       {"name": "agafar Point Plus Pro", "note": "RF e HIFU con cartucce per il viso da 2, 3 e 4,5 mm e una cartuccia per il corpo da 6 mm."},
       {"name": "agafar Line S", "note": "Sistema a sei funzioni che combina RF, cavitazione, laser a bassa intensità, aspirazione e LED, con manipoli Thermal, Multi Cavi e Multi."},
       {"name": "agafar S", "note": "Funzioni di cavitazione, calore e aspirazione con manipoli APP-1, APP-2 e APP-3."},
-      {"name": "PLASMA", "note": "Manipoli AIR Plasma e RF Multi Plasma."},
+      {"name": "PLASMA", "note": "Manipoli AIR Plasma, RF Multi Plasma e POINT Plasma."},
       {"name": "agafar LED PDT Light", "note": "Sistema LED con modalità a luce rossa, verde, blu e combinata."},
       {"name": "Face Fitness Turn Up", "note": "Quattro manipoli intercambiabili: P-POLAR (RF), P-CMS (CMS), PLASMA e P-DUAL (RF + CMS)."},
       {"name": "PLAZION", "note": "AGAFAR presenta PLAZION per migliorare l'assorbimento dei prodotti per la cura della pelle."}
     ],
     "formats": ["Detergenti e tonico", "Fiale e booster", "Contorno occhi e creme", "Solari e maschere in tessuto"],
-    "exportNote": "Secondo l'azienda, i prodotti AGAFAR sono venduti in Corea, Hong Kong, Cina, Thailandia, Giappone, Stati Uniti, Filippine, Malaysia, Regno Unito, Emirati Arabi Uniti e Canada, oltre che in altri mercati. Per ogni richiesta, Teranova verifica la disponibilità nel territorio e gli accordi di distribuzione in vigore.",
+    "exportNote": "I prodotti AGAFAR sono venduti in Corea, Hong Kong, Cina, Thailandia, Giappone, Stati Uniti, Filippine, Malaysia, Regno Unito, Emirati Arabi Uniti e Canada, oltre che in altri mercati. Per ogni richiesta, Teranova verifica la disponibilità nel territorio e gli accordi di distribuzione in vigore.",
     "terms": [],
     "consentNote": "Materiali condivisi dall'azienda per il profilo AGAFAR.",
     "seoTitle": "AGAFAR · Cosmetici coreani e apparecchi estetici | Teranova",
@@ -91,6 +91,15 @@
     "range_caption": "Meditive Formula 3X · agapharma",
     "turn_up_caption": "Face Fitness Turn Up",
     "turn_up_heads_caption": "P-POLAR · P-CMS · PLASMA · P-DUAL",
-    "pack_label": "Formato della confezione"
+    "pack_label": "Formato della confezione",
+    "faq_h": "Domande frequenti",
+    "detail_card_label": "Scheda prodotto dal catalogo AGAFAR",
+    "faq": [
+      {"q": "Quali marchi fanno parte di AGAFAR Medical Beauty Group?", "a": "Tre marchi per la cura della pelle: AGAFAR per la cura quotidiana delicata delle pelli sensibili, agapharma con la linea professionale Meditive Formula 3X, e a'reiv con una maschera in tessuto e una crema solare."},
+      {"q": "Cosa comprende la collezione DERMA MODE PROGRAM?", "a": "La collezione comprende 20 prodotti: 12 di AGAFAR, 5 di agapharma Meditive Formula 3X, una maschera in tessuto e una crema solare di a'reiv, oltre a EXOXEN Booster. Include detergenti e tonico, fiale e booster, contorno occhi e creme, solari e maschera in tessuto."},
+      {"q": "La linea NADXEN ha completato la registrazione CPNP?", "a": "Al momento della pubblicazione, la registrazione CPNP della fiala e del siero NADXEN è in corso."},
+      {"q": "Dove viene venduto AGAFAR?", "a": "In Corea, Hong Kong, Cina, Thailandia, Giappone, Stati Uniti, Filippine, Malaysia, Regno Unito, Emirati Arabi Uniti, Canada e altri mercati. Per ogni territorio specifico, Teranova verifica le condizioni attuali a ogni richiesta."},
+      {"q": "Chi può acquistare AGAFAR tramite Teranova?", "a": "Importatori e distributori di cosmetici, cliniche dermatologiche ed estetiche, catene di negozi e farmacie, e team di vendita online."}
+    ]
   }
 }

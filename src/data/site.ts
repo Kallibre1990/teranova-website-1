@@ -26,8 +26,20 @@ export const site = {
 export const showFounder = false as boolean;
 export const showAia = false as boolean;
 export const showBusan = false as boolean;
+/* Головное юрлицо Teranova (D-939, 12.09.2026): 주식회사 테라노바그룹, Чеджу.
+   Английское название закреплено посимвольно (D-943) — по нему Apple, Google и
+   D&B сверяют сайт с заявками разработчика. Менять только вместе с записью D&B. */
+export const legalEntity = {
+  name: 'Teranova Group Co., Ltd.',
+  nameKo: '주식회사 테라노바그룹',
+  regNo: '787-86-03961',
+  street: '#302, 2 Gwangyang 1-gil',
+  city: 'Jeju-si',
+  region: 'Jeju Special Self-Governing Province',
+  country: 'Republic of Korea',
+} as const;
 /* Юрлицо, показываемое, когда AIA скрыт. */
-export const legalNameFallback = 'Teranova Group Ltd.';
+export const legalNameFallback = legalEntity.name;
 /* Метка фото основателя — по ней прячем его карточку в командных блоках. */
 export const founderPhoto = '/img/team/anton-madelkanov.jpg';
 
@@ -67,8 +79,12 @@ export const contactEmails = {
 export const contactOrder = ['info', 'buyers', 'suppliers', 'deals', 'tenders'] as const;
 export type ContactKey = (typeof contactOrder)[number];
 
-/* 7 category groups — full list, matches docs/CATEGORIES.md and the i18n dictionaries. */
-export const categoryKeys = ['marine', 'cosmetics', 'medical', 'industrial', 'transport', 'adjacent', 'chemical'] as const;
+/* 8 category groups — full list, matches docs/CATEGORIES.md and the i18n dictionaries.
+   'research' added 16.11.2026 (T-20261116-048): research institutes and R&D collaboration —
+   kept separate from 'medical' (clinic/aesthetic equipment) and 'industrial' (production
+   equipment) because the relationship is technology transfer and joint programs, not
+   buying a product. Structure only for now, no supplier content yet. */
+export const categoryKeys = ['marine', 'cosmetics', 'medical', 'industrial', 'transport', 'adjacent', 'chemical', 'research'] as const;
 export type CategoryKey = (typeof categoryKeys)[number];
 
 /* Sourcing countries. The catalog splits by country first: a buyer looking for
@@ -89,6 +105,7 @@ export const categoryIcon: Record<CategoryKey, string> = {
   transport: 'truck',
   adjacent: 'grid',
   chemical: 'flask',
+  research: 'microscope',
 };
 
 /* Lead-form category options — STABLE values sent to the leads endpoint, so the

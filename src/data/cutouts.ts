@@ -75,9 +75,13 @@ export type CoverPlan =
  * Decide how to build a cover for one article: which staging, and which of the
  * supplier's own photos to put in it — the ones the article is about first.
  */
-export function coverPlan(supplier: string, seed: string, hero?: string, text = '', count = 3): CoverPlan {
+export function coverPlan(supplier: string, seed: string, hero?: string, text = '', count = 3, pinned: string[] = []): CoverPlan {
   const s = shots[supplier];
   if (!s || !s.all.length) return { mode: 'none', products: [] };
+
+  /* The article names its own products explicitly — show exactly those. */
+  const own = pinned.filter((p) => p.startsWith(`/img/suppliers/${supplier}/products/`)).slice(0, count);
+  if (own.length) return { mode: 'cards', products: own };
 
   /* One lonely cut-out cannot carry a scene — it needs company on the shelf. */
   if (s.clean.length >= 2) {

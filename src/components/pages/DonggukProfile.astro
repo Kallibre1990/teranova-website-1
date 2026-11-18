@@ -1,0 +1,149 @@
+---
+import type { Lang } from '../../i18n/ui';
+import { localizePath } from '../../i18n/utils';
+import { donggukContent, donggukTechnologies } from '../../data/dongguk';
+import { donggukSummaries } from '../../data/dongguk-summaries';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const c = donggukContent(lang);
+const platforms = c.platformNames;
+const photos = ['imaging-ms', 'imaging-facs', 'imaging-hts'];
+---
+
+<article class="dg">
+  <header class="dg-hero">
+    <div class="wrap dg-hero__layout">
+      <div class="dg-hero__copy">
+        <a class="dg-back" href={localizePath('/catalog/research', lang)}>{c.category}</a>
+        <img class="dg-logo" src="/images/dongguk/logo.png" alt="Dongguk University Medical Center" width="850" height="330" />
+        <h1 lang="en">Dongguk University<br />Medical Center</h1>
+        <p class="dg-lead">{c.headline}</p>
+        <a class="dg-link" href="#technologies">{c.browse}<span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="dg-hero__image">
+        <img src="/images/dongguk/imaging-ms.png" alt={platforms[0]} width="560" height="560" fetchpriority="high" />
+        <figcaption>{platforms[0]}</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <section class="dg-section wrap dg-overview" aria-labelledby="dg-overview">
+    <h2 id="dg-overview">{c.overview}</h2>
+    <div class="dg-prose"><p class="dg-intro">{c.intro}</p><p>{c.organization}</p></div>
+    <div class="dg-fields"><h3>{c.directions}</h3><ul>{c.fields.map(field => <li>{field}</li>)}</ul></div>
+  </section>
+
+  <section class="dg-infra" aria-labelledby="dg-infra">
+    <div class="wrap dg-section">
+      <h2 id="dg-infra">{c.infrastructure}</h2>
+      <div class="dg-platforms">
+        {platforms.map((name, i) => <figure class="dg-platform">
+          <div class="dg-platform__photo"><img src={`/images/dongguk/${photos[i]}.png`} alt={name} width="560" height="560" loading="lazy" /></div>
+          <figcaption><h3>{name}</h3><p>{c.platforms[i]}</p></figcaption>
+        </figure>)}
+      </div>
+      <p class="dg-note">{c.equipment}</p>
+    </div>
+  </section>
+
+  <section id="technologies" class="wrap dg-section dg-portfolio" aria-labelledby="dg-portfolio">
+    <div class="dg-portfolio__head"><h2 id="dg-portfolio">{c.portfolio}</h2><p>{c.portfolioIntro}</p></div>
+    <nav class="dg-nav" aria-label={c.portfolio}>{c.groups.map((group, i) => <a href={`#research-${i}`}>{group}</a>)}</nav>
+    {c.groups.map((group, i) => <section id={`research-${i}`} class="dg-research" aria-labelledby={`research-title-${i}`}>
+      <h3 id={`research-title-${i}`}>{group}</h3>
+      <div class="dg-technologies">{donggukTechnologies.filter(t => t.group === i).map(t => {
+        const index = donggukTechnologies.indexOf(t);
+        return <details class="dg-tech" data-smk={t.id}>
+          <summary><span class="dg-tech__id" dir="ltr">{t.id}</span><span class="dg-tech__title">{c.titles[index]}<span class="dg-tech__stage">{c.stages[t.stage]}</span></span><span class="dg-plus" aria-hidden="true">+</span></summary>
+          <div class="dg-tech__body"><p class="dg-tech__summary">{donggukSummaries[lang][index]}</p><dl>
+            <div><dt>{c.stage}</dt><dd>{c.stages[t.stage]}</dd></div>
+            <div><dt>{c.application}</dt><dd dir="ltr">{t.applications}</dd></div>
+            <div><dt>{c.registration}</dt><dd dir={t.registrations ? 'ltr' : undefined}>{t.registrations ?? c.notSpecified}</dd></div>
+          </dl>{t.id === 'SMK-15' && <p class="dg-note">{c.special15}</p>}</div>
+        </details>;
+      })}</div>
+    </section>)}
+    <p class="dg-note dg-patents">{c.patents}</p>
+  </section>
+
+  <section class="dg-cooperation" aria-labelledby="dg-cooperation">
+    <div class="wrap dg-section dg-cooperation__layout"><div><h2 id="dg-cooperation">{c.cooperation}</h2><p>{c.cooperationNote}</p><a class="dg-link" href={localizePath('/contacts', lang)}>{c.discuss}<span aria-hidden="true">↗</span></a></div>
+      <ol>{c.steps.map(step => <li>{step}</li>)}</ol>
+    </div>
+  </section>
+  <footer class="wrap dg-source"><p>{c.source}</p></footer>
+</article>
+
+<style>
+  .dg { --dg-ink: oklch(27% .025 70); --dg-muted: oklch(46% .02 70); --dg-paper: oklch(98% .008 80); --dg-line: oklch(85% .014 75); --dg-accent: oklch(46% .11 50); color: var(--dg-ink); background: var(--dg-paper); font-size: 1rem; line-height: 1.75; }
+  .dg *, .dg *::before, .dg *::after { box-sizing: border-box; }
+  .dg :is(h1,h2,h3,p,figure) { margin: 0; }
+  .dg :is(h1,h2,h3) { color: var(--dg-ink); text-wrap: balance; overflow-wrap: anywhere; }
+  .dg h1 { font-size: clamp(2rem, 4vw, 4rem); line-height: 1.12; letter-spacing: -.035em; font-weight: 650; }
+  .dg h2 { font-size: clamp(1.7rem, 3vw, 2.7rem); line-height: 1.23; letter-spacing: -.025em; font-weight: 600; max-width: 26ch; }
+  .dg h3 { font-size: 1.2rem; line-height: 1.4; font-weight: 650; }
+  .dg a { color: inherit; }
+  .dg a:focus-visible, .dg summary:focus-visible { outline: 2px solid var(--dg-accent); outline-offset: 5px; }
+  .dg ::selection { color: white; background: var(--dg-accent); }
+  .dg-hero { padding-block: 54px 64px; border-bottom: 1px solid var(--dg-line); }
+  .dg-hero__layout { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 5%; }
+  .dg-hero__copy { min-width: 0; }
+  .dg-back { display: inline-block; font-size: .85rem; color: var(--dg-muted)!important; text-decoration: underline; text-underline-offset: 4px; margin-bottom: 26px; max-width: 48ch; }
+  .dg-logo { display: block; width: 210px; height: auto; max-width: 100%; margin-bottom: 24px; }
+  .dg-lead { margin-top: 24px!important; max-width: 42ch; font-size: 1.15rem; line-height: 1.6; }
+  .dg-link { display: inline-flex; align-items: center; gap: 20px; padding-block: 12px; border-bottom: 1px solid var(--dg-accent); margin-top: 22px; font-weight: 600; text-decoration: none; max-width: 100%; overflow-wrap: anywhere; }
+  .dg-link span { flex-shrink: 0; }
+  .dg-hero__image { padding: 24px; background: white; }
+  .dg-hero__image img { width: 100%; height: auto; display: block; }
+  .dg-hero__image figcaption { color: var(--dg-muted); font-size: .85rem; margin-top: 16px; }
+  .dg-section { padding-block: 88px; }
+  .dg-overview { display: grid; grid-template-columns: .8fr 1.2fr; gap: 40px 8%; }
+  .dg-prose p + p { margin-top: 20px; color: var(--dg-muted); }
+  .dg-intro { font-size: 1.15rem; }
+  .dg-fields { grid-column: 2; }
+  .dg-fields ul { margin: 20px 0 0; padding-inline-start: 20px; columns: 2; column-gap: 32px; }
+  .dg-fields li { break-inside: avoid; margin-bottom: 12px; padding-inline-start: 4px; }
+  .dg-infra { background: oklch(95% .012 80); }
+  .dg-platforms { margin-top: 44px; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 36px; }
+  .dg-platform__photo { background: white; aspect-ratio: 1; padding: 24px; display: flex; align-items: center; }
+  .dg-platform img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  .dg-platform h3 { margin-top: 22px; }
+  .dg-platform p { color: var(--dg-muted); margin-top: 12px; }
+  .dg-note { color: var(--dg-muted); font-size: .9rem; line-height: 1.7; max-width: 90ch; }
+  .dg-infra .dg-note { margin-top: 32px; }
+  .dg-portfolio__head { display: grid; grid-template-columns: .8fr 1.2fr; gap: 8%; }
+  .dg-portfolio__head p { color: var(--dg-muted); }
+  .dg-nav { display: flex; flex-wrap: wrap; gap: 10px 26px; padding-block: 30px; margin-top: 22px; border-bottom: 1px solid var(--dg-line); }
+  .dg-nav a { text-decoration: underline; text-underline-offset: 5px; font-size: .95rem; padding-block: 6px; }
+  .dg-research { padding-top: 44px; scroll-margin-top: 110px; }
+  .dg-research > h3 { margin-bottom: 18px; }
+  .dg-tech { border-top: 1px solid var(--dg-line); }
+  .dg-tech:last-child { border-bottom: 1px solid var(--dg-line); }
+  .dg-tech summary { display: grid; grid-template-columns: 72px 1fr 22px; gap: 24px; padding-block: 24px; cursor: pointer; list-style: none; }
+  .dg-tech summary::-webkit-details-marker { display: none; }
+  .dg-tech__id { color: var(--dg-muted); font-size: .8rem; padding-top: 4px; }
+  .dg-tech__title { font-size: 1.15rem; font-weight: 600; line-height: 1.5; overflow-wrap: anywhere; }
+  .dg-tech__stage { display: block; font-size: .9rem; color: var(--dg-muted); font-weight: 400; margin-top: 8px; }
+  .dg-plus { color: var(--dg-accent); font-size: 1.5rem; line-height: 1.2; }
+  .dg-tech[open] .dg-plus { transform: rotate(45deg); }
+  .dg-tech__body { padding: 0 46px 28px 96px; }
+  :global([dir=rtl]) .dg-tech__body { padding-inline: 96px 46px; }
+  .dg-tech dl { margin: 0; }
+  .dg-tech__summary { margin-bottom: 20px!important; max-width: 72ch; }
+  .dg-tech dl > div { display: grid; grid-template-columns: 1fr 2fr; gap: 24px; padding-block: 8px; }
+  .dg-tech dt { color: var(--dg-muted); font-size: .9rem; }
+  .dg-tech dd { margin: 0; overflow-wrap: anywhere; }
+  .dg-tech .dg-note { margin-top: 16px; }
+  .dg-patents { margin-top: 36px!important; }
+  .dg-cooperation { background: oklch(94% .018 80); }
+  .dg-cooperation__layout { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; }
+  .dg-cooperation p { margin-top: 24px; color: var(--dg-muted); max-width: 55ch; }
+  .dg-cooperation ol { margin: 0; padding-inline-start: 26px; }
+  .dg-cooperation li { padding-inline-start: 12px; margin-bottom: 22px; }
+  .dg-cooperation li::marker { color: var(--dg-accent); }
+  .dg-source { padding-block: 32px; color: var(--dg-muted); font-size: .85rem; }
+  #technologies { scroll-margin-top: 90px; }
+  @media (hover:hover) { .dg-link:hover, .dg-nav a:hover { color: var(--dg-accent); } .dg-tech summary:hover .dg-tech__title { color: var(--dg-accent); } }
+  @media (max-width: 840px) { .dg-hero__layout { gap: 24px; } .dg-platforms { gap: 24px; } .dg-overview, .dg-portfolio__head { gap: 30px 5%; } .dg-fields ul { columns: 1; } }
+  @media (max-width: 600px) { .dg-hero { padding-block: 28px 40px; } .dg-hero__layout, .dg-overview, .dg-portfolio__head, .dg-cooperation__layout { grid-template-columns: 1fr; gap: 28px; } .dg-hero__image { max-width: 380px; width: 100%; margin-top: 8px; } .dg-hero__image img { max-height: 280px; object-fit: contain; } .dg-logo { width: 170px; margin-bottom: 18px; } .dg-back { margin-bottom: 14px; } .dg-section { padding-block: 50px; } .dg-fields { grid-column: auto; } .dg-platforms { grid-template-columns: 1fr; gap: 36px; margin-top: 28px; } .dg-platform__photo { max-width: 360px; padding: 18px; } .dg-tech summary { grid-template-columns: 1fr 20px; gap: 8px 12px; } .dg-tech__id { grid-column: 1; } .dg-tech__title { grid-column: 1; } .dg-plus { grid-column: 2; grid-row: 2; } .dg-tech__body, :global([dir=rtl]) .dg-tech__body { padding: 0 0 24px; } .dg-tech dl > div { grid-template-columns: 1fr; gap: 4px; } .dg-tech__title { font-size: 1.05rem; } }
+</style>

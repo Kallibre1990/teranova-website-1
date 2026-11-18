@@ -102,7 +102,7 @@
           "direction": "ltr"
         },
         {
-          "value": "据公司介绍，AGAFAR 产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。Teranova 会根据每次询问确认目标地区的供货情况及现行分销安排。",
+          "value": "AGAFAR 产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。Teranova 会根据每次询问确认目标地区的供货情况及现行分销安排。",
           "box": [
             42,
             350.5500030517578,
@@ -132,11 +132,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.zh.json",
-      "sha256": "77c0bc23194390641ed9d78e99c674d8a339afd88d4269856465af842cc5449c"
+      "sha256": "d7781040fbf96cb62c25007bc64e3c55471108a9e97788b34d259e2e78c4769f"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -148,7 +148,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

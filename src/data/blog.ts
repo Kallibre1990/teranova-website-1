@@ -19,6 +19,8 @@ import { abeltyPosts } from './blog-abelty';
 import { cellahealPosts } from './blog-cellaheal';
 import { drPeloPosts } from './blog-dr-pelo';
 import { armingPosts } from './blog-arming';
+import { veoBiotechPosts } from './blog-veo-biotech';
+import { agafarPosts } from './blog-agafar';
 
 export interface BlogSection {
   /** Optional section heading. */
@@ -52,6 +54,10 @@ export interface BlogPost {
   supplier?: string;
   /** Optional hero image (path under /public), language-neutral. */
   hero?: string;
+  /** Optional exact product photos for the cover (paths under /public), in order.
+      Use when the supplier's photo file names carry no product names (sku-N.jpg),
+      so the automatic pick cannot tell which bottles the article is about. */
+  cover?: string[];
   /** Где действующее вещество применяется: компания и её позиции. Список ведём
       руками по данным поставщиков — вывести его из текста статьи нельзя, а
       ошибка здесь означала бы приписанный компании состав. Названия позиций
@@ -66,7 +72,7 @@ export interface BlogPost {
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 
-export const posts: BlogPost[] = [...(blogData as BlogPost[]), ...cheon365Posts, ...dailycommaPosts, ...koyPosts, ...plkLiftPosts, ...agingTargetPosts, ...abeltyPosts, ...cellahealPosts, ...drPeloPosts, ...armingPosts];
+export const posts: BlogPost[] = [...(blogData as BlogPost[]), ...cheon365Posts, ...dailycommaPosts, ...koyPosts, ...plkLiftPosts, ...agingTargetPosts, ...abeltyPosts, ...cellahealPosts, ...drPeloPosts, ...armingPosts, ...veoBiotechPosts, ...agafarPosts];
 export const postBySlug = (slug: string): BlogPost | undefined => posts.find((p) => p.slug === slug);
 export const postContent = (p: BlogPost, lang: Lang): BlogPostContent => localizedContent(p.i18n, lang, `blog/${p.slug}`);
 /** Newest first, for the index listing. */

@@ -206,10 +206,11 @@ def company(lang, j, catalog, images):
         d.box(line['note'], (238, top + 39, WIDTH - 42, top + 197), 11.5)
 
     items = [item for group in catalog for item in group['items']]
-    assert len(items) == len(c['catalog_notes']) == 20
+    # 22 = 20 DERMA MODE PROGRAM items + NADXEN Ampoule/Serum (T-20261113-035).
+    assert len(items) == len(c['catalog_notes']) == 22
     # The source has one group photo for agapharma, not five individual
     # packshots. Preserve that relationship instead of labelling it five ways.
-    for first, end in [(0, 4), (4, 8), (8, 12), (12, 17), (17, 20)]:
+    for first, end in [(0, 4), (4, 8), (8, 12), (12, 17), (17, 20), (20, 22)]:
         d.new_page(u['catalog_h'])
         grouped = first == 12
         if grouped:
@@ -240,9 +241,12 @@ def company(lang, j, catalog, images):
     d.new_page(item['name'])
     d.box(item['note'], (42, 146, WIDTH - 42, 220), 13)
     d.image('/img/suppliers/agafar/tech/face-fitness-turn-up-promo.jpg', (42, 247, 285, 635), [59, 354, 519, 984])
-    d.image('/img/suppliers/agafar/tech/face-fitness-turn-up.webp', (310, 247, WIDTH - 42, 635), [0, 247, 737, 1353])
+    # Only the four-handpiece strip: KC/CE logos above it stay outside the viewport,
+    # AGAFAR has no EU compliance documents for devices (mail 14.11.2026).
+    heads_bottom = 247 + (WIDTH - 42 - 310) * 360 / 737
+    d.image('/img/suppliers/agafar/tech/face-fitness-turn-up.webp', (310, 247, WIDTH - 42, heads_bottom), [0, 990, 737, 1350])
     d.box(e['turn_up_caption'], (42, 653, 285, 708), 11, ltr=True)
-    d.box(e['turn_up_heads_caption'], (310, 653, WIDTH - 42, 708), 11, ltr=True)
+    d.box(e['turn_up_heads_caption'], (310, heads_bottom + 14, WIDTH - 42, heads_bottom + 69), 11, ltr=True)
     d.box(u['tech_note'], (42, 730, WIDTH - 42, 787), 11.5)
 
     d.new_page(u['export_h'])

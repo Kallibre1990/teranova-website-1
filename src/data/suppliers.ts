@@ -856,6 +856,7 @@ export interface SupplierUI {
   gallery_note?: string;
   video_h?: string;
   video_note?: string;
+  faq_h?: string;
 }
 export interface SupplierContent {
   tagline: string;
@@ -872,6 +873,10 @@ export interface SupplierContent {
      request (CONTENT-RULES §7). Weiyi Biotech asked for two technical
      references on 08.11.2026 (T-20261108-105). */
   references?: { title: string; items: { label: string; href: string }[] };
+  /* Optional Q&A grounded only in the company's own confirmed materials
+     already used elsewhere in this profile (facts/tech/terms/exportNote) —
+     no new claims, prices, MOQ or contacts (T-20261116-002). */
+  faq?: { q: string; a: string }[];
   /* Source-attributed company outline; omitted where publishable leadership
      material is not available. */
   company?: {
@@ -929,6 +934,9 @@ export interface SupplierProfile {
   gallery?: string[];
   /** Supplier-provided logo stored under /public when no Astro import is needed. */
   logoUrl?: string;
+  /** Alt text for logoUrl when it must name the company, not profile.brand
+   * (e.g. a product brand like "Helio PDRN" is not the company's name). */
+  logoAlt?: string;
   /* Ролики самого поставщика, лежащие на нашем домене. Не встраиваем чужой
      плеер: он приносит на страницу имя канала, кнопку «смотреть там» и витрину
      остальных роликов производителя — то есть прямой канал к нему, а прямые
@@ -957,7 +965,7 @@ export interface SupplierProfile {
   /* Product identities/assets stay shared; descriptive group/pack labels can be localized. */
   /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
      позиции может не быть вовсе. Карточка тогда показывает монограмму. */
-  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
+  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; nameI18n?: Partial<Record<Lang, string>>; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */
@@ -2854,25 +2862,48 @@ export const suppliers: SupplierProfile[] = [
     slug: 'veo-biotech',
     category: 'chemical',
     country: 'cn',
-    /* С 08.11.2026 публичное имя — Weiyi Biotech (为邑生物), без города, по
-       письму компании (T-20261108-105). Адрес /catalog/veo-biotech сохранён;
-       юридические названия остаются в facts.
+    /* С 08.11.2026 публичное имя было Weiyi Biotech (为邑生物), без города, по
+       письму компании (T-20261108-105). 14.11.2026 компания поправила
+       английское название на VEO Biotech (为邑生物) — это не ребрендинг, а
+       исправление более раннего перевода (sales@helio-bio.com, 07:14 UTC);
+       адрес /catalog/veo-biotech и слаг сохранены, юридические названия
+       остаются только в facts/внутреннем учёте.
        С 14.11.2026 (письмо sales@helio-bio.com от 09.11.2026) все разделы и PDF
        выровнены по согласованной компанией сводке: юрназвания и города убраны из
        публичного текста, нет HPLC-метки, скин-бустеров/мезотерапии, именных
        сертификатов и рекомбинантного источника; сравнение цены и эндотоксина —
-       только как слова компании. */
-    name: 'Weiyi Biotech (为邑生物)',
+       только как слова компании. 15.11.2026 компания уточнила чистоту до
+       99,9% (без above/or higher/≥/HPLC) и добавила английский гид
+       pdrn-ingredient-guide; 14.11.2026 передала китайскую техзаметку о
+       распределении фрагментов PDRN — опубликована статьёй блога
+       veo-pdrn-fragment-distribution с атрибуцией и пометкой «технический
+       подход, не результаты испытаний» (T-20261116-002). */
+    name: 'VEO Biotech (为邑生物)',
     brand: 'Helio PDRN',
     status: 'provided',
-    brandColors: { deep: '#12303A', sky: '#7FB0C4', accent: '#2F7D99', bg: '#EEF4F7' },
+    /* Точные цвета сняты пипеткой с логотипа поставщика
+       (_MAIL_CRM/contacts/helio-bio-com/files/image.png): навy «VEO»/«BIOTECH»
+       ≈ rgb(5,51,101), бирюзовый треугольник в «V» ≈ rgb(5,165,164).
+       sky/bg — светлые разбавления того же бирюзового, не своя гамма
+       (T-20261116-012). */
+    brandColors: { deep: '#053365', sky: '#76CECD', accent: '#05A5A4', bg: '#EEF9F9' },
+    logoUrl: '/img/suppliers/veo-biotech/logo.png',
+    logoAlt: 'VEO Biotech',
     voice: 'clinical',
     /* Письменное согласие VEO Biotech от 22.09.2026 на профиль компании и сырья
        Helio PDRN / Sodium DNA. Полный COA публично не размещается — только сводка
        спецификации; цены, способы оплаты и функции как независимо проверённые не
-       публикуются. Изображений сырья нет: фото на их сайте — сток, по правилу
-       IMAGERY на страницу не идут; карточки показывают монограмму. */
-    catalog: veoBiotechCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>> }[] }[],
+       публикуются. С 16.11.2026 шапка и линейки показывают реальные веб-версии
+       фото с официального сайта поставщика (helio-bio.com, снято 16.11.2026,
+       надписи с городом/промыслом обрезаны HQ) вместо иллюстрации
+       (T-20261116-044); gen-veo-illustration.mjs больше не используется для
+       шапки. */
+    gallery: [
+      '/img/suppliers/veo-biotech/gallery/factory-facade.webp',
+      '/img/suppliers/veo-biotech/gallery/salmon-river.webp',
+      '/img/suppliers/veo-biotech/gallery/fishery-aerial.webp',
+    ],
+    catalog: veoBiotechCatalog as { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; nameI18n?: Partial<Record<Lang, string>>; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>> }[] }[],
     termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf', he: '/docs/veo-biotech-terms-he.pdf', hi: '/docs/veo-biotech-terms-hi.pdf' },
     presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf', he: '/docs/veo-biotech-presentation-he.pdf', hi: '/docs/veo-biotech-presentation-hi.pdf' },
     i18n: {
@@ -3084,9 +3115,9 @@ export const suppliers: SupplierProfile[] = [
     lineShots: { 'Тканевые маски': '/img/suppliers/ooznary/products/sku-11.jpg' },
     catalog: ooznaryCatalog as { line: string; items: { name: string; img?: string; volume?: string; actives?: string[] }[] }[],
     /* Eleven localised, price-free terms, catalog and presentation PDFs. */
-    termsFile: { ru: '/docs/ooznary-terms-ru.pdf', en: '/docs/ooznary-terms-en.pdf', ko: '/docs/ooznary-terms-ko.pdf', zh: '/docs/ooznary-terms-zh.pdf', ja: '/docs/ooznary-terms-ja.pdf', it: '/docs/ooznary-terms-it.pdf', de: '/docs/ooznary-terms-de.pdf', fr: '/docs/ooznary-terms-fr.pdf', tr: '/docs/ooznary-terms-tr.pdf', es: '/docs/ooznary-terms-es.pdf', pt: '/docs/ooznary-terms-pt.pdf' },
-    presFile: { ru: '/docs/ooznary-presentation-ru.pdf', en: '/docs/ooznary-presentation-en.pdf', ko: '/docs/ooznary-presentation-ko.pdf', zh: '/docs/ooznary-presentation-zh.pdf', ja: '/docs/ooznary-presentation-ja.pdf', it: '/docs/ooznary-presentation-it.pdf', de: '/docs/ooznary-presentation-de.pdf', fr: '/docs/ooznary-presentation-fr.pdf', tr: '/docs/ooznary-presentation-tr.pdf', es: '/docs/ooznary-presentation-es.pdf', pt: '/docs/ooznary-presentation-pt.pdf' },
-    priceFile: { ru: '/docs/ooznary-catalog-ru.pdf', en: '/docs/ooznary-catalog-en.pdf', ko: '/docs/ooznary-catalog-ko.pdf', zh: '/docs/ooznary-catalog-zh.pdf', ja: '/docs/ooznary-catalog-ja.pdf', it: '/docs/ooznary-catalog-it.pdf', de: '/docs/ooznary-catalog-de.pdf', fr: '/docs/ooznary-catalog-fr.pdf', tr: '/docs/ooznary-catalog-tr.pdf', es: '/docs/ooznary-catalog-es.pdf', pt: '/docs/ooznary-catalog-pt.pdf' },
+    termsFile: { ru: '/docs/ooznary-terms-ru.pdf', en: '/docs/ooznary-terms-en.pdf', ko: '/docs/ooznary-terms-ko.pdf', zh: '/docs/ooznary-terms-zh.pdf', ja: '/docs/ooznary-terms-ja.pdf', it: '/docs/ooznary-terms-it.pdf', de: '/docs/ooznary-terms-de.pdf', fr: '/docs/ooznary-terms-fr.pdf', tr: '/docs/ooznary-terms-tr.pdf', es: '/docs/ooznary-terms-es.pdf', pt: '/docs/ooznary-terms-pt.pdf', he: '/docs/ooznary-terms-he.pdf', hi: '/docs/ooznary-terms-hi.pdf' },
+    presFile: { ru: '/docs/ooznary-presentation-ru.pdf', en: '/docs/ooznary-presentation-en.pdf', ko: '/docs/ooznary-presentation-ko.pdf', zh: '/docs/ooznary-presentation-zh.pdf', ja: '/docs/ooznary-presentation-ja.pdf', it: '/docs/ooznary-presentation-it.pdf', de: '/docs/ooznary-presentation-de.pdf', fr: '/docs/ooznary-presentation-fr.pdf', tr: '/docs/ooznary-presentation-tr.pdf', es: '/docs/ooznary-presentation-es.pdf', pt: '/docs/ooznary-presentation-pt.pdf', he: '/docs/ooznary-presentation-he.pdf', hi: '/docs/ooznary-presentation-hi.pdf' },
+    priceFile: { ru: '/docs/ooznary-catalog-ru.pdf', en: '/docs/ooznary-catalog-en.pdf', ko: '/docs/ooznary-catalog-ko.pdf', zh: '/docs/ooznary-catalog-zh.pdf', ja: '/docs/ooznary-catalog-ja.pdf', it: '/docs/ooznary-catalog-it.pdf', de: '/docs/ooznary-catalog-de.pdf', fr: '/docs/ooznary-catalog-fr.pdf', tr: '/docs/ooznary-catalog-tr.pdf', es: '/docs/ooznary-catalog-es.pdf', pt: '/docs/ooznary-catalog-pt.pdf', he: '/docs/ooznary-catalog-he.pdf', hi: '/docs/ooznary-catalog-hi.pdf' },
     i18n: {
       ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
     },

@@ -80,3 +80,10 @@ as `f2c84df8-d005-478a-b7dc-51cc4ba639c6.bin` in the same receipt bundle.
 The embedded marketing text and KC/CE logos remain original company artwork;
 they are not transcribed as certifications or independently verified efficacy.
 Both frames still require browser visual inspection before acceptance.
+
+## 18.11.2026: Face Fitness Turn Up — viewport without KC/CE logos
+
+On the profile and in the PDF the `tech/face-fitness-turn-up.webp` viewport now shows
+only the four-handpiece strip (source y 990–1350). The KC/CE logos in the company
+artwork stay outside the viewport: in the mail of 14.11.2026 AGAFAR states it does not
+hold EU registration and compliance documentation for its devices. The raster is not edited.

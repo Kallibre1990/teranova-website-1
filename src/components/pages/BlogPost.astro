@@ -30,7 +30,7 @@ const ruText = sup
       return [r.title, r.excerpt, ...r.sections.flatMap((s) => [s.h ?? '', ...s.p])].join(' ');
     })()
   : '';
-const cover = sup ? coverPlan(sup.slug, post.slug, post.hero, ruText) : undefined;
+const cover = sup ? coverPlan(sup.slug, post.slug, post.hero, ruText, 3, post.cover) : undefined;
 const cosmeticsName = (t as any).categories?.groups?.find((g: any) => g.key === 'cosmetics')?.name ?? 'Cosmetics';
 const REL: Record<string, { href: string; label: string }> = {
   catalog: { href: localizePath('/catalog', lang), label: t.nav.catalog },

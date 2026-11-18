@@ -84,6 +84,7 @@ const tr: DeepPartial<UIDict> = {
       { key: "transport", name: "Ticari ve özel araçlar", blurb: "Yük, yolcu ve özel araçlar ile parçaları.", items: ["kamyonlar ve çekiciler", "otobüsler", "inşaat makineleri", "tarım makineleri", "özel araçlar", "römorklar, lastikler, aküler"] },
       { key: "adjacent", name: "İlgili sektörler", blurb: "Kore'nin güçlü olduğu nişlerde geniş kapsam.", items: ["yapı malzemeleri", "gıda ve ambalaj", "su arıtma ve ekoloji", "enerji ve yenilenebilir kaynaklar", "endüstriyel elektronik ve LED", "teknik tekstil"] },
       { key: "chemical", name: "Kimya ve malzemeler", blurb: "Kimyasal ham maddeler, polimerler ve endüstriyel malzemeler.", items: ["kimyasal ham maddeler ve reaktifler", "plastikler ve polimerler", "kauçuk", "boyalar ve kaplamalar", "yapıştırıcılar ve dolgu malzemeleri", "gübreler ve tarım kimyasalları"] },
+      {"key": "research", "name": "Araştırma enstitüleri ve Ar-Ge", "blurb": "Kore üniversiteleri ve araştırma enstitüleriyle iş birliği: teknoloji transferi, ortak Ar-Ge ve laboratuvar ekipmanları.", "items": ["üniversite enstitüleri ve laboratuvarları", "teknoloji transferi ve lisanslama", "ortak Ar-Ge programları", "klinik öncesi araştırmalar", "laboratuvar ve araştırma ekipmanları", "geliştirmelerin patentlenmesi ve belgelendirilmesi"]},
     ],
   },
 
