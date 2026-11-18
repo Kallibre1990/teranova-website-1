@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "PDRN、ヒアルロン酸、サーモンDNA 10,000 ppmを配合したアンプルです。",
+          "value": "PDRN（サーモンDNA、10,000 ppm）とヒアルロン酸複合体を配合したアンプルです。",
           "box": [
             310,
             339.375,
@@ -2060,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AIR PlasmaとRF Multi Plasmaのハンドピースを備えています。",
+          "value": "AIR Plasma、RF Multi Plasma、POINT Plasmaのハンドピースを備えています。",
           "box": [
             292,
             547,
@@ -2301,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2346,13 +2346,13 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ja.json",
-      "sha256": "a041e6d5997adf8a8599dd7f577f7065ae0daf26201576d6e0b9ca3c550edccc"
+      "sha256": "68d4e9b2879f739ab4365c54dcd0c5d348ca664f6572d9e6356e999d1f30edbc"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -2653,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

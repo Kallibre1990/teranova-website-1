@@ -266,8 +266,10 @@ const gallery = [
   .ag-turn-up__promo { position:relative; aspect-ratio:460 / 630; overflow:hidden; }
   .ag-turn-up__promo img { position:absolute; width:128.043478%; max-width:none; left:-12.826087%; top:-56.190476%; }
   /* The 737×1600 source has video bars outside rows 247–1352. Keep its bytes intact. */
-  .ag-turn-up__heads { position:relative; aspect-ratio:737 / 1106; overflow:hidden; }
-  .ag-turn-up__heads img { position:absolute; width:100%; height:auto; left:0; top:calc(-247 / 1106 * 100%); }
+  /* Viewport shows only the four-handpiece strip (source y 990-1350): the KC/CE logos above it
+     are not shown, because AGAFAR has no EU compliance documents for devices (mail 14.11.2026). */
+  .ag-turn-up__heads { position:relative; aspect-ratio:737 / 360; overflow:hidden; }
+  .ag-turn-up__heads img { position:absolute; width:100%; height:auto; left:0; top:calc(-990 / 360 * 100%); }
   .ag-business { display:grid; grid-template-columns:1.3fr 1fr; gap:90px; border-top:1px solid var(--ag-line); }
   .ag-business p { margin-block-start:25px; color:var(--ag-muted); }
   .ag-business ul { padding-inline-start:20px; margin-block-start:25px; }

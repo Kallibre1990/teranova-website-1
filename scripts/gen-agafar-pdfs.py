@@ -241,9 +241,12 @@ def company(lang, j, catalog, images):
     d.new_page(item['name'])
     d.box(item['note'], (42, 146, WIDTH - 42, 220), 13)
     d.image('/img/suppliers/agafar/tech/face-fitness-turn-up-promo.jpg', (42, 247, 285, 635), [59, 354, 519, 984])
-    d.image('/img/suppliers/agafar/tech/face-fitness-turn-up.webp', (310, 247, WIDTH - 42, 635), [0, 247, 737, 1353])
+    # Only the four-handpiece strip: KC/CE logos above it stay outside the viewport,
+    # AGAFAR has no EU compliance documents for devices (mail 14.11.2026).
+    heads_bottom = 247 + (WIDTH - 42 - 310) * 360 / 737
+    d.image('/img/suppliers/agafar/tech/face-fitness-turn-up.webp', (310, 247, WIDTH - 42, heads_bottom), [0, 990, 737, 1350])
     d.box(e['turn_up_caption'], (42, 653, 285, 708), 11, ltr=True)
-    d.box(e['turn_up_heads_caption'], (310, 653, WIDTH - 42, 708), 11, ltr=True)
+    d.box(e['turn_up_heads_caption'], (310, heads_bottom + 14, WIDTH - 42, heads_bottom + 69), 11, ltr=True)
     d.box(u['tech_note'], (42, 730, WIDTH - 42, 787), 11.5)
 
     d.new_page(u['export_h'])

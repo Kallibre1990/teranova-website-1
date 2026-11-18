@@ -21,7 +21,7 @@
       "Gel au thé vert, à la propolis, à l'extrait de racine de réglisse et à l'allantoïne.",
       "Ampoule contenant un complexe de vitamines A, C et E.",
       "Ampoule contenant un complexe de huit peptides et du collagène hydrolysé.",
-      "Ampoule au PDRN et à l'acide hyaluronique contenant 10 000 ppm d'ADN de saumon.",
+      "Ampoule au PDRN (ADN de saumon, 10 000 ppm) et à un complexe d'acide hyaluronique.",
       "Ampoule contenant un complexe Vita K, du panthénol et de l'azulène.",
       "Sérum contour des yeux contenant un complexe de baies rouges et du collagène hydrolysé.",
       "Crème contour des yeux au lysat de ferment de Lactobacillus et aux peptides.",
@@ -45,7 +45,7 @@
       {"name": "agafar Point Plus Pro", "note": "RF et HIFU avec des cartouches de 2, 3 et 4,5 mm pour le visage et une cartouche de 6 mm pour le corps."},
       {"name": "agafar Line S", "note": "Système à six fonctions associant RF, cavitation, laser de faible intensité, aspiration et LED, avec les pièces à main Thermal, Multi Cavi et Multi."},
       {"name": "agafar S", "note": "Fonctions de cavitation, de chaleur et d'aspiration avec les pièces à main APP-1, APP-2 et APP-3."},
-      {"name": "PLASMA", "note": "Pièces à main AIR Plasma et RF Multi Plasma."},
+      {"name": "PLASMA", "note": "Pièces à main AIR Plasma, RF Multi Plasma et POINT Plasma."},
       {"name": "agafar LED PDT Light", "note": "Système LED avec des modes de lumière rouge, verte, bleue et combinée."},
       {"name": "Face Fitness Turn Up", "note": "Quatre pièces à main interchangeables : P-POLAR (RF), P-CMS (CMS), PLASMA et P-DUAL (RF + CMS)."},
       {"name": "PLAZION", "note": "AGAFAR présente PLAZION pour améliorer l'absorption des produits de soin de la peau."}
@@ -82,7 +82,7 @@
   },
   "editorial": {
     "catalog_intro": "20 produits de soin dans la collection DERMA MODE PROGRAM, du nettoyage à la protection solaire.",
-    "additional": "Le portefeuille comprend également EXOXEN Booster ainsi que l'ampoule et le sérum NADXEN au NAD⁺, au NMN, au glutathion et au PDRN. Il s'agit de noms de produits du portefeuille AGAFAR, aux côtés de ses trois marques de soins.",
+    "additional": "Le portefeuille comprend également l'EXOXEN Booster ainsi que l'ampoule et le sérum NADXEN au NAD⁺, au NMN, au glutathion et au PDRN. Il s'agit de noms de produits du portefeuille AGAFAR, aux côtés de ses trois marques de soins.",
     "collection_cta": "Découvrir les soins",
     "devices_cta": "Voir les appareils",
     "meeting": "L'équipe Teranova a rencontré AGAFAR.",

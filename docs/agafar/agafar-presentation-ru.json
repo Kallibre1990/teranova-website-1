@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ампула с PDRN, гиалуроновой кислотой и ДНК лосося в концентрации 10 000 ppm.",
+          "value": "Ампула с PDRN (ДНК лосося, 10 000 ppm) и комплексом гиалуроновой кислоты.",
           "box": [
             310,
             339.375,
@@ -952,7 +952,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Крем для кожи вокруг глаз с лизатом фермента Lactobacillus и пептидами.",
+          "value": "Крем для кожи вокруг глаз с лизатом ферментата лактобактерий и пептидами.",
           "box": [
             42,
             339.375,
@@ -2060,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Насадки AIR Plasma и RF Multi Plasma.",
+          "value": "Насадки AIR Plasma, RF Multi Plasma и POINT Plasma.",
           "box": [
             292,
             547,
@@ -2068,7 +2068,7 @@
             730
           ],
           "size": 12,
-          "bottom": 565.2000007629395,
+          "bottom": 581.4000015258789,
           "direction": "ltr"
         }
       ],
@@ -2301,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2346,13 +2346,13 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ru.json",
-      "sha256": "8e13376bce93ff0ab50c0952426055ea5fa3e1f1a28dcd34577d2d60322c2cd4"
+      "sha256": "3b9729c93c243078336796c8ce598e2166bed33b4043f399356a13689b526bee"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -2653,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

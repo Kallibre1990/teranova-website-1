@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "PDRN and hyaluronic acid ampoule with Salmon DNA at 10,000 ppm.",
+          "value": "Ampoule with PDRN (salmon DNA, 10,000 ppm) and a hyaluronic acid complex.",
           "box": [
             310,
             339.375,
@@ -2060,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AIR Plasma and RF Multi Plasma handpieces.",
+          "value": "AIR Plasma, RF Multi Plasma and POINT Plasma handpieces.",
           "box": [
             292,
             547,
@@ -2068,7 +2068,7 @@
             730
           ],
           "size": 12,
-          "bottom": 565.2000007629395,
+          "bottom": 581.4000015258789,
           "direction": "ltr"
         }
       ],
@@ -2301,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2346,13 +2346,13 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.en.json",
-      "sha256": "a88072751497c242816411936d3befa1cbf81776cfe8426499160dec28325e73"
+      "sha256": "de07c33a3be6652eb341756cb510aaff1ff8cde5626d4fd91db27e5715a33d5e"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -2653,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

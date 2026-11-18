@@ -132,7 +132,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.he.json",
-      "sha256": "4d4e3d6fcb0285c16cc7c68aa017a5e6cf63da1f91b541556d905ac07ede68e2"
+      "sha256": "35679285d7bf5bc8aa1ca45ef717018e56d15e29516d8256c8d7f22e616982f6"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -148,7 +148,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

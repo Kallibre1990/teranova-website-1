@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "PDRN, 히알루론산과 연어 DNA 10,000 ppm을 함유한 앰플입니다.",
+          "value": "PDRN(연어 DNA, 10,000 ppm)과 히알루론산 복합체를 함유한 앰플입니다.",
           "box": [
             310,
             339.375,
@@ -2060,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AIR Plasma와 RF Multi Plasma 핸드피스를 갖추고 있습니다.",
+          "value": "AIR Plasma, RF Multi Plasma, POINT Plasma 핸드피스를 갖추고 있습니다.",
           "box": [
             292,
             547,
@@ -2301,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2346,13 +2346,13 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ko.json",
-      "sha256": "9a5479b438fc06877fa3a48f25bcc73800fd39793f7c494df1533fa3537fc6df"
+      "sha256": "217ec7b4e8103fd58b74d77f253b790ab5bfe174eac772590466351b1590396d"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -2653,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }

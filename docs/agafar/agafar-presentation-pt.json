@@ -745,7 +745,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ampola com PDRN, ácido hialurônico e DNA de salmão a 10.000 ppm.",
+          "value": "Ampola com PDRN (DNA de salmão, 10.000 ppm) e um complexo de ácido hialurônico.",
           "box": [
             310,
             339.375,
@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ampola com NAD⁺, NMN, glutationa e PDRN. Registo no CPNP em curso.",
+          "value": "Ampola com NAD⁺, NMN, glutationa e PDRN. Registro no CPNP em andamento.",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Sérum com NAD⁺, NMN, glutationa e PDRN. Registo no CPNP em curso.",
+          "value": "Sérum com NAD⁺, NMN, glutationa e PDRN. Registro no CPNP em andamento.",
           "box": [
             310,
             339.375,
@@ -2060,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Aplicadores AIR Plasma e RF Multi Plasma.",
+          "value": "Aplicadores AIR Plasma, RF Multi Plasma e POINT Plasma.",
           "box": [
             292,
             547,
@@ -2068,7 +2068,7 @@
             730
           ],
           "size": 12,
-          "bottom": 565.2000007629395,
+          "bottom": 581.4000015258789,
           "direction": "ltr"
         }
       ],
@@ -2301,12 +2301,12 @@
           "value": "P-POLAR · P-CMS · PLASMA · P-DUAL",
           "box": [
             310,
-            653,
+            379.6974219810041,
             553,
-            708
+            434.6974219810041
           ],
           "size": 11,
-          "bottom": 669.8500003814697,
+          "bottom": 396.5474223624738,
           "direction": "ltr"
         },
         {
@@ -2346,13 +2346,13 @@
             310,
             247,
             553,
-            635
+            365.6974219810041
           ],
           "clip": [
             0,
-            247,
+            990,
             737,
-            1353
+            1350
           ]
         }
       ]
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.pt.json",
-      "sha256": "34a52c87011c95b28b5c5296233a985cacb0a0dd44be436276c72e7731d2ae7e"
+      "sha256": "4a75c44741f0d879a9eeeabfabe81da32a4f45681c50beb3365f89f7fbed8c05"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -2653,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
+      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
     }
   ]
 }
