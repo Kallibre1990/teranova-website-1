@@ -102,7 +102,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Segundo a empresa, os produtos AGAFAR são vendidos na Coreia, em Hong Kong, na China, Tailândia, Japão, Estados Unidos, Filipinas, Malásia, Reino Unido, Emirados Árabes Unidos e Canadá, entre outros mercados. A Teranova confirma a disponibilidade por território e os acordos de distribuição vigentes para cada consulta.",
+          "value": "Os produtos AGAFAR são vendidos na Coreia, em Hong Kong, na China, Tailândia, Japão, Estados Unidos, Filipinas, Malásia, Reino Unido, Emirados Árabes Unidos e Canadá, entre outros mercados. A Teranova confirma a disponibilidade por território e os acordos de distribuição vigentes para cada consulta.",
           "box": [
             42,
             387.00000381469727,
@@ -132,11 +132,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.pt.json",
-      "sha256": "4b0be3b20e55f78594ea0771c9d7d9b43f042e0ee3c20000b4312ad48edf043b"
+      "sha256": "34a52c87011c95b28b5c5296233a985cacb0a0dd44be436276c72e7731d2ae7e"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -148,7 +148,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
     }
   ]
 }

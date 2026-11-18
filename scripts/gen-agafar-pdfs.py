@@ -206,10 +206,11 @@ def company(lang, j, catalog, images):
         d.box(line['note'], (238, top + 39, WIDTH - 42, top + 197), 11.5)
 
     items = [item for group in catalog for item in group['items']]
-    assert len(items) == len(c['catalog_notes']) == 20
+    # 22 = 20 DERMA MODE PROGRAM items + NADXEN Ampoule/Serum (T-20261113-035).
+    assert len(items) == len(c['catalog_notes']) == 22
     # The source has one group photo for agapharma, not five individual
     # packshots. Preserve that relationship instead of labelling it five ways.
-    for first, end in [(0, 4), (4, 8), (8, 12), (12, 17), (17, 20)]:
+    for first, end in [(0, 4), (4, 8), (8, 12), (12, 17), (17, 20), (20, 22)]:
         d.new_page(u['catalog_h'])
         grouped = first == 12
         if grouped:

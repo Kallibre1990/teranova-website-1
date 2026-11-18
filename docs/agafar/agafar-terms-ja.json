@@ -102,7 +102,7 @@
           "direction": "ltr"
         },
         {
-          "value": "同社によると、AGAFAR製品は韓国、香港、中国、タイ、日本、米国、フィリピン、マレーシア、英国、UAE、カナダなどで販売されています。Teranovaは、お問い合わせごとに対象地域への供給可否と現在の販売代理店契約の状況を確認します。",
+          "value": "AGAFAR製品は韓国、香港、中国、タイ、日本、米国、フィリピン、マレーシア、英国、UAE、カナダなどで販売されています。Teranovaは、お問い合わせごとに対象地域への供給可否と現在の販売代理店契約の状況を確認します。",
           "box": [
             42,
             369.4500026702881,
@@ -132,11 +132,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ja.json",
-      "sha256": "693bac71cedf2c4c7bba838871a3a53147fbfdf56d0c507585368ee0bbb5dbca"
+      "sha256": "a041e6d5997adf8a8599dd7f577f7065ae0daf26201576d6e0b9ca3c550edccc"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -148,7 +148,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
     }
   ]
 }

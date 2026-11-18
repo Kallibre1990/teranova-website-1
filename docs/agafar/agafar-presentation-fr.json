@@ -156,7 +156,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AGAFAR réunit des cliniques dermatologiques, des soins de la peau et des équipements esthétiques professionnels. L'histoire des cliniques du groupe remonte à 2010. Son site coréen consacré aux cliniques recense six établissements : Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang et Juan.",
+          "value": "AGAFAR réunit des cliniques dermatologiques, des soins de la peau et des équipements esthétiques professionnels. L'histoire des cliniques du groupe remonte à 2010. En Corée, AGAFAR Clinic compte six établissements : Mia, Seongnam, Gwangmyeong, Gimpo, Gyeyang et Juan.",
           "box": [
             42,
             156,
@@ -168,7 +168,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Selon l'entreprise, AGAFAR Clinic et AGAFAR Medi Lounge comptent plus de 40 établissements en Corée et à l'étranger, notamment à Hong Kong, en Chine, en Thaïlande et au Canada. Son portefeuille de soins comprend trois marques : AGAFAR, agapharma et a'reiv.",
+          "value": "Ensemble, AGAFAR Clinic et AGAFAR Medi Lounge comptent plus de 40 établissements en Corée et à l'étranger, notamment à Hong Kong, en Chine, en Thaïlande et au Canada. Son portefeuille de soins comprend trois marques : AGAFAR, agapharma et a'reiv.",
           "box": [
             42,
             246.20000457763672,
@@ -180,7 +180,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Les documents d'AGAFAR mentionnent deux récompenses distinctes dans les domaines de la dermatologie et de la dermocosmétique : la première place aux KPBA Awards 2023 et le prix KBEI 2026. Le certificat KBEI est daté du 3 avril 2026 et mentionne The JoongAng aux côtés de l'organisateur.",
+          "value": "AGAFAR a reçu deux récompenses dans les domaines de la dermatologie et de la dermocosmétique : la première place aux KPBA Awards 2023 et le prix KBEI 2026. Le certificat KBEI est daté du 3 avril 2026 et mentionne The JoongAng aux côtés de l'organisateur.",
           "box": [
             42,
             336.40000915527344,
@@ -1613,6 +1613,155 @@
           "direction": "ltr"
         },
         {
+          "value": "La collection de soins",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "NADXEN Ampoule",
+          "box": [
+            42,
+            297,
+            285,
+            345
+          ],
+          "size": 12,
+          "bottom": 315.20000076293945,
+          "direction": "ltr"
+        },
+        {
+          "value": "30 ml",
+          "box": [
+            42,
+            319.20000076293945,
+            285,
+            343.20000076293945
+          ],
+          "size": 10.5,
+          "bottom": 335.375,
+          "direction": "ltr"
+        },
+        {
+          "value": "Ampoule contenant du NAD⁺, du NMN, du glutathion et du PDRN. Enregistrement CPNP en cours.",
+          "box": [
+            42,
+            339.375,
+            285,
+            455
+          ],
+          "size": 11.5,
+          "bottom": 387.9500045776367,
+          "direction": "ltr"
+        },
+        {
+          "value": "NADXEN Serum",
+          "box": [
+            310,
+            297,
+            553,
+            345
+          ],
+          "size": 12,
+          "bottom": 315.20000076293945,
+          "direction": "ltr"
+        },
+        {
+          "value": "50 ml",
+          "box": [
+            310,
+            319.20000076293945,
+            553,
+            343.20000076293945
+          ],
+          "size": 10.5,
+          "bottom": 335.375,
+          "direction": "ltr"
+        },
+        {
+          "value": "Sérum contenant du NAD⁺, du NMN, du glutathion et du PDRN. Enregistrement CPNP en cours.",
+          "box": [
+            310,
+            339.375,
+            553,
+            455
+          ],
+          "size": 11.5,
+          "bottom": 387.9500045776367,
+          "direction": "ltr"
+        }
+      ],
+      "images": [
+        {
+          "path": "/img/suppliers/agafar/products/nadxen-ampoule.webp",
+          "sha256": "10de32699817d7161fe1f02962bc9668233f0bb2f249a5a7b5f59947746b2fde",
+          "box": [
+            42,
+            146,
+            285,
+            288
+          ],
+          "clip": null
+        },
+        {
+          "path": "/img/suppliers/agafar/products/nadxen-serum.webp",
+          "sha256": "2fa9bd027c73f5e571088d4b7ad303d734b3cb998b093b2af9ccacc694bcb1ba",
+          "box": [
+            310,
+            146,
+            553,
+            288
+          ],
+          "clip": null
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 10",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
           "value": "Appareils esthétiques professionnels",
           "box": [
             42,
@@ -1699,7 +1848,7 @@
       ]
     },
     {
-      "page": 10,
+      "page": 11,
       "text": [
         {
           "value": "AGAFAR",
@@ -1726,7 +1875,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 10",
+          "value": "Teranova Group · 11",
           "box": [
             42,
             808,
@@ -1824,7 +1973,7 @@
       ]
     },
     {
-      "page": 11,
+      "page": 12,
       "text": [
         {
           "value": "AGAFAR",
@@ -1851,7 +2000,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 11",
+          "value": "Teranova Group · 12",
           "box": [
             42,
             808,
@@ -1949,7 +2098,7 @@
       ]
     },
     {
-      "page": 12,
+      "page": 13,
       "text": [
         {
           "value": "AGAFAR",
@@ -1976,7 +2125,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 12",
+          "value": "Teranova Group · 13",
           "box": [
             42,
             808,
@@ -2074,7 +2223,7 @@
       ]
     },
     {
-      "page": 13,
+      "page": 14,
       "text": [
         {
           "value": "AGAFAR",
@@ -2101,7 +2250,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Teranova Group · 13",
+          "value": "Teranova Group · 14",
           "box": [
             42,
             808,
@@ -2209,156 +2358,6 @@
       ]
     },
     {
-      "page": 14,
-      "text": [
-        {
-          "value": "AGAFAR",
-          "box": [
-            42,
-            27,
-            285,
-            47
-          ],
-          "size": 9,
-          "bottom": 41.15000057220459,
-          "direction": "ltr"
-        },
-        {
-          "value": "TERANOVA GROUP",
-          "box": [
-            350,
-            27,
-            553,
-            47
-          ],
-          "size": 8,
-          "bottom": 39.80000019073486,
-          "direction": "ltr"
-        },
-        {
-          "value": "Teranova Group · 14",
-          "box": [
-            42,
-            808,
-            553,
-            825
-          ],
-          "size": 8,
-          "bottom": 820.8000001907349,
-          "direction": "ltr"
-        },
-        {
-          "value": "Travailler sur différents marchés",
-          "box": [
-            42,
-            65,
-            553,
-            137
-          ],
-          "size": 23,
-          "bottom": 98.05000305175781,
-          "direction": "ltr"
-        },
-        {
-          "value": "Selon l'entreprise, les produits AGAFAR sont vendus notamment en Corée, à Hong Kong, en Chine, en Thaïlande, au Japon, aux États-Unis, aux Philippines, en Malaisie, au Royaume-Uni, aux Émirats arabes unis et au Canada. Pour chaque demande, Teranova vérifie la disponibilité sur le territoire concerné et les accords de distribution en vigueur.",
-          "box": [
-            42,
-            153,
-            553,
-            340
-          ],
-          "size": 13,
-          "bottom": 242.75000762939453,
-          "direction": "ltr"
-        },
-        {
-          "value": "Pour votre activité",
-          "box": [
-            42,
-            269.75000762939453,
-            553,
-            325.75000762939453
-          ],
-          "size": 18,
-          "bottom": 296.0500087738037,
-          "direction": "ltr"
-        },
-        {
-          "value": "Importateurs et distributeurs de cosmétiques",
-          "box": [
-            42,
-            312.0500087738037,
-            553,
-            356.0500087738037
-          ],
-          "size": 12,
-          "bottom": 330.25000953674316,
-          "direction": "ltr"
-        },
-        {
-          "value": "Cliniques dermatologiques et esthétiques",
-          "box": [
-            42,
-            338.25000953674316,
-            553,
-            382.25000953674316
-          ],
-          "size": 12,
-          "bottom": 356.4500102996826,
-          "direction": "ltr"
-        },
-        {
-          "value": "Réseaux de magasins et de pharmacies",
-          "box": [
-            42,
-            364.4500102996826,
-            553,
-            408.4500102996826
-          ],
-          "size": 12,
-          "bottom": 382.65001106262207,
-          "direction": "ltr"
-        },
-        {
-          "value": "Équipes de vente en ligne",
-          "box": [
-            42,
-            390.65001106262207,
-            553,
-            434.65001106262207
-          ],
-          "size": 12,
-          "bottom": 408.8500118255615,
-          "direction": "ltr"
-        },
-        {
-          "value": "Formats des produits",
-          "box": [
-            42,
-            436.8500118255615,
-            553,
-            492.8500118255615
-          ],
-          "size": 18,
-          "bottom": 463.1500129699707,
-          "direction": "ltr"
-        },
-        {
-          "value": "Nettoyants et lotion tonique · Ampoules et boosters · Soins du contour des yeux et crèmes · Soins solaires et masques en tissu",
-          "box": [
-            42,
-            478.1500129699707,
-            553,
-            785
-          ],
-          "size": 12,
-          "bottom": 512.5500144958496,
-          "direction": "ltr"
-        }
-      ],
-      "images": []
-    },
-    {
       "page": 15,
       "text": [
         {
@@ -2398,6 +2397,156 @@
           "direction": "ltr"
         },
         {
+          "value": "Travailler sur différents marchés",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "ltr"
+        },
+        {
+          "value": "Les produits AGAFAR sont vendus notamment en Corée, à Hong Kong, en Chine, en Thaïlande, au Japon, aux États-Unis, aux Philippines, en Malaisie, au Royaume-Uni, aux Émirats arabes unis et au Canada. Pour chaque demande, Teranova vérifie la disponibilité sur le territoire concerné et les accords de distribution en vigueur.",
+          "box": [
+            42,
+            153,
+            553,
+            340
+          ],
+          "size": 13,
+          "bottom": 225.20000457763672,
+          "direction": "ltr"
+        },
+        {
+          "value": "Pour votre activité",
+          "box": [
+            42,
+            252.20000457763672,
+            553,
+            308.2000045776367
+          ],
+          "size": 18,
+          "bottom": 278.5000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "Importateurs et distributeurs de cosmétiques",
+          "box": [
+            42,
+            294.5000057220459,
+            553,
+            338.5000057220459
+          ],
+          "size": 12,
+          "bottom": 312.70000648498535,
+          "direction": "ltr"
+        },
+        {
+          "value": "Cliniques dermatologiques et esthétiques",
+          "box": [
+            42,
+            320.70000648498535,
+            553,
+            364.70000648498535
+          ],
+          "size": 12,
+          "bottom": 338.9000072479248,
+          "direction": "ltr"
+        },
+        {
+          "value": "Réseaux de magasins et de pharmacies",
+          "box": [
+            42,
+            346.9000072479248,
+            553,
+            390.9000072479248
+          ],
+          "size": 12,
+          "bottom": 365.10000801086426,
+          "direction": "ltr"
+        },
+        {
+          "value": "Équipes de vente en ligne",
+          "box": [
+            42,
+            373.10000801086426,
+            553,
+            417.10000801086426
+          ],
+          "size": 12,
+          "bottom": 391.3000087738037,
+          "direction": "ltr"
+        },
+        {
+          "value": "Formats des produits",
+          "box": [
+            42,
+            419.3000087738037,
+            553,
+            475.3000087738037
+          ],
+          "size": 18,
+          "bottom": 445.6000099182129,
+          "direction": "ltr"
+        },
+        {
+          "value": "Nettoyants et lotion tonique · Ampoules et boosters · Soins du contour des yeux et crèmes · Soins solaires et masques en tissu",
+          "box": [
+            42,
+            460.6000099182129,
+            553,
+            785
+          ],
+          "size": 12,
+          "bottom": 495.0000114440918,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    },
+    {
+      "page": 16,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 16",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
           "value": "Composez votre sélection AGAFAR",
           "box": [
             42,
@@ -2410,7 +2559,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Le portefeuille comprend également EXOXEN Booster ainsi que l'ampoule et le sérum NADXEN au NAD⁺ et au NMN. Il s'agit de noms de produits du portefeuille AGAFAR, aux côtés de ses trois marques de soins.",
+          "value": "Le portefeuille comprend également EXOXEN Booster ainsi que l'ampoule et le sérum NADXEN au NAD⁺, au NMN, au glutathion et au PDRN. Il s'agit de noms de produits du portefeuille AGAFAR, aux côtés de ses trois marques de soins.",
           "box": [
             42,
             157,
@@ -2488,11 +2637,11 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.fr.json",
-      "sha256": "44419b5225c6f1f3a28fbb62f67263be225f6d37c56fc9ab5df360a72dfcc7ca"
+      "sha256": "c946f05a3994d21a272d75ebb9f86373a688da63d0790d7583fa398283ddeb04"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
-      "sha256": "75fdb4fb412dc841b86dc428088abd432a653bdf5b6040dd34b374c34bbf14a3"
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
     },
     {
       "path": "src/data/agafar.ts",
@@ -2504,7 +2653,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "6daf8bd50efc9feb7051d1507a11856079e760ed9934377c017c0ab55d928a12"
+      "sha256": "123ae3ba74c45a25eb6c7c45f74be933e36af0ea9f5e72f5232e35873037e301"
     }
   ]
 }
