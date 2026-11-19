@@ -60,6 +60,9 @@ for (const s of suppliers) {
     };
 }
 const rels = post.related.map((r) => REL[r]).filter(Boolean);
+if (post.supplier) for (const product of post.productLinks ?? []) {
+  rels.push({ href: localizePath(`/catalog/${post.supplier}/${product.slug}`, lang), label: product.name });
+}
 /* Supplier-tied articles also link straight to that supplier's own PDF
    (presentation), same file and fallback label already shown on its profile
    page via pickDoc/pres_btn — not just to the profile/catalog page. */
@@ -83,7 +86,7 @@ const catLabel = post.category === 'guide' ? p.cat_guide : p.cat_overview;
 const art = (blogArt as Record<string, { artKey: string; insertAfterSectionIndex: number }>)[post.slug];
 ---
 
-<article class="bp">
+<article class="bp" data-supplier={post.supplier}>
   <section class="section">
     <div class="wrap bp__wrap">
       <nav class="bp__crumbs" aria-label="breadcrumb">
@@ -207,6 +210,9 @@ const art = (blogArt as Record<string, { artKey: string; insertAfterSectionIndex
 </article>
 
 <style>
+  .bp[data-supplier='tonever'] .bp__h,
+  .bp[data-supplier='tonever'] .bp__title { overflow-wrap: anywhere; }
+  .bp[data-supplier='tonever'] .bp__shots-credit { color: #45576f; }
   .bp__wrap { max-width: 760px; }
   .bp__crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; font-size: 0.84rem; font-weight: 600; color: #5a6a80; margin-bottom: 18px; }
   .bp__crumbs a { color: var(--cobalt); }

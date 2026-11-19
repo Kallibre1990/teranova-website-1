@@ -2,10 +2,42 @@
 import SupplierProfile from './SupplierProfile.astro';
 import type { SupplierProfile as Profile } from '../../data/suppliers';
 import type { Lang } from '../../i18n/ui';
+import { tonever2026, toneverEditorialPhotos } from '../../data/tonever-2026';
+import { localizePath } from '../../i18n/utils';
 interface Props { lang: Lang; profile: Profile }
 const { lang, profile } = Astro.props;
+const copy = tonever2026[lang];
 ---
-<SupplierProfile lang={lang} profile={profile} />
+<SupplierProfile lang={lang} profile={profile}>
+  <section slot="details" class="tn-editorial">
+    <div class="wrap">
+      <h2>{copy.galleryTitle}</h2>
+      <div class="tn-editorial__grid">
+        {toneverEditorialPhotos.map((photo) => (
+          <figure>
+            <a href={localizePath(`/catalog/tonever/${photo.product}`, lang)}>
+              <img src={photo.src} width={photo.w} height={photo.h} alt={copy.products[photo.product].format} loading="lazy" decoding="async" />
+              <figcaption>{copy.products[photo.product].format}</figcaption>
+            </a>
+          </figure>
+        ))}
+      </div>
+      <p class="tn-editorial__credit">{copy.credit}</p>
+    </div>
+  </section>
+</SupplierProfile>
+<style>
+  .tn-editorial { padding: 64px 0; background: oklch(98% 0.012 85); color: oklch(28% 0.015 75); }
+  .tn-editorial h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); max-width: 28ch; margin: 0 0 32px; }
+  .tn-editorial__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 28px; }
+  .tn-editorial figure { margin: 0; min-width: 0; }
+  .tn-editorial a { color: inherit; text-decoration: none; }
+  .tn-editorial a:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }
+  .tn-editorial img { display: block; width: 100%; height: auto; }
+  .tn-editorial figcaption { margin-top: 12px; font-size: 16px; line-height: 1.6; overflow-wrap: anywhere; }
+  .tn-editorial__credit { margin-top: 28px; font-size: 14px; }
+  @media (max-width: 720px) { .tn-editorial__grid { grid-template-columns: minmax(0, 1fr); } .tn-editorial { padding: 40px 0; } }
+</style>
 <style is:global>
   /* SupplierProfile's dynamic card element does not propagate Astro's image
      scope attribute. Constrain the actual supplied cut-outs for this profile. */
@@ -20,6 +52,7 @@ const { lang, profile } = Astro.props;
   /* No separate format taxonomy was supplied; do not show an empty heading. */
   .sp[data-supplier='tonever'] .sp-cols > div:first-child { display: none; }
   .sp[data-supplier='tonever'] .sp-cols { grid-template-columns: 1fr; max-width: 760px; }
+  .sp[data-supplier='tonever'] .sp-tech__src { font-size: 14px; color: var(--ds-deep); }
   @media (max-width: 820px) {
     .sp[data-supplier='tonever'] .sp-hero__art { width: min(440px, 100%); }
   }

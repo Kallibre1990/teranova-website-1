@@ -1,0 +1,55 @@
+{
+  "credit": "TONEVER 官方资料，2026 产品目录",
+  "ingredientsNote": "此处列出生产商目录中的主要成分，并非完整的 INCI 成分表。原料特性不能证明成品的功效。",
+  "profileIntro": "2026 产品目录详细介绍了四种护理方案：THE PAMIN 的双组分混合方式、REBELOOK 的分步涂抹方式、READY BOOSTER 泡沫爽肤水以及 72K 成膜安瓶。它们的剂型、成分和使用顺序各不相同。",
+  "galleryTitle": "产品剂型与护理顺序",
+  "tech": [
+    {"title": "植物原料处理", "note": "生产商介绍了植物原料的 PSM、增溶及蛋白组分处理方法。这些方法涉及成分的制备，不能代替成品测试。"},
+    {"title": "两种不同的专业护理方式", "note": "THE PAMIN 在涂抹前混合。REBELOOK 的 Gold Signature 与 Highlighter 则按顺序涂抹，无需相互混合。"},
+    {"title": "如何理解研究资料", "note": "成分细胞研究和使用照片属于不同类型的资料。目录未提供有关成品功效的完整临床报告，原料测试的数值不能直接套用于产品。"}
+  ],
+  "products": {
+    "the-pamin": {
+      "format": "Black Signature：500 mg 干燥组分；Black Enhancer：7 ml 液体组分",
+      "about": [
+        "THE PAMIN 由冻干的 Black Signature 和液态 Black Enhancer 组成。Black Signature 标注的 500 mg 是干燥内容物的质量；Black Enhancer 含有 7 ml 液体。这是两种不同的计量方式，并非单瓶或整套产品的容量。",
+        "Black Signature 列出的成分包括 Human Adipocyte Conditioned Media Extract、Sodium DNA（PDRN）、水解胶原、SH-Oligopeptide-1、Acetyl Hexapeptide-8 和 Palmitoyl Tetrapeptide-7。另列有烟酰胺、羟基积雪草苷、泛醇、Ceramide NP、甘油和丁二醇。",
+        "目录为 Black Enhancer 列出了红没药醇、补骨脂酚、透明质酸类成分、银耳、乳酸钠、九肽复合物、腺苷和 Anemarrhena 根提取物。这是依据生产商各项说明整理的主要成分列表，此处不声明混合后产品的成分浓度。",
+        "涂抹前，将全部 Black Enhancer 倒入 Black Signature，装上随附的锥形瓶盖，摇匀后使用。使用顺序为爽肤水之后、面霜之前。生产商建议将混合后的产品冷藏，并尽可能在一周内用完。这属于使用说明中的建议，并非经测试确认的储存期限。"
+      ]
+    },
+    "rebelook": {
+      "format": "先 Gold Signature，再 Highlighter",
+      "about": [
+        "REBELOOK 包含依次使用的两个步骤：Gold Signature 和 Highlighter。先涂抹 Gold Signature，待其吸收后，再用 Highlighter 完成护理。这与 THE PAMIN 的双组分混合方式不同。",
+        "Gold Signature 列有 Abelmoschus manihot 花提取物、九肽复合物、PDRN、胶原和透明质酸。生产商还列出外泌体类成分的四种来源：乳、积雪草、人参和乳杆菌。",
+        "Highlighter 列有 Abelmoschus manihot 提取物、九种肽、蜗牛黏液、八种透明质酸类成分、积雪草和羟基积雪草苷。目录所列的四种外泌体类成分来源与 Gold Signature 相同。",
+        "该方案用于改善肌肤光泽与外观的化妆品护理。成分说明并不能证明其能递送至皮肤深层或具有治疗作用。LUMILOOK 在资料中单独列示，未有资料证实其已更名为 REBELOOK。"
+      ]
+    },
+    "ready-booster": {
+      "format": "按压泵式泡沫爽肤水，200 ml",
+      "about": [
+        "Repair Ready Toner De Rose Bubble Booster 是一款 200 ml 按压泵式泡沫爽肤水。玫瑰花水与泡沫质地构成其特点，用于洁面后的第一步护理。",
+        "目录列有烟酰胺、腺苷、AQUA TECA 1000T、COOLIF、BIO Marine Summer、BIORAN EX Infla Care 和 CeraPlex 5。AQUA TECA 包含积雪草、羟基积雪草苷、羟基积雪草酸、积雪草苷和积雪草酸。CeraPlex 5 列有神经酰胺 NP、EOP、NS、AS 和 AP。",
+        "保湿成分组包括 HYAL 11、羟乙基脲、甜菜碱、Saccharide Isomerate、泛醇和尿囊素。HYAL 11 是复合物名称，不能仅凭该名称认定其中含有十一种不同形态的透明质酸。配方中还列有肽复合物 Matrixyl 3000。",
+        "植物类成分包括 Melia azadirachta 的花和叶、Coccinia 与茄子的果实、姜黄根、芦荟花、圣罗勒叶以及 Corallina officinalis。按照说明，按压泵头两至三次，将产品涂于肌肤，以手掌轻轻按压至吸收，再使用下一步产品。"
+      ]
+    },
+    "72k-film-ampoule": {
+      "format": "成膜安瓶，50 ml",
+      "about": [
+        "72K FILM AMPOULE 是一款 50 ml 家居护理产品，采用成膜质地。72K 属于产品名称，并不表示效果持续时间或黄金含量。",
+        "目录列有 Abelmoschus manihot 花提取物、薰衣草水、氨甲环酸、木槿、烟酰胺和腺苷。CENTELLA QUATRO 包含积雪草苷、羟基积雪草苷、羟基积雪草酸和积雪草酸；另列有甘草酸二钾。",
+        "保湿成分组包括透明质酸钠、水解透明质酸、甜菜碱、银耳、泛醇、芦荟叶提取物和尿囊素。肽类成分中列有 Dipeptide Diaminobutyroyl Benzylamide Diacetate。含有某种成分并不意味着产品具有类似医疗程序的作用。",
+        "使用爽肤水后，将产品涂于面部；说明允许在干燥部位再叠加一层。生产商 FAQ 介绍了每日使用方式，包括化妆前使用。爽肤水与安瓶分别用于不同护理步骤，将两者一同介绍并不构成联合使用的测试报告。"
+      ]
+    }
+  },
+  "articles": [
+    {"slug": "tonever-the-pamin-two-components", "title": "THE PAMIN：护理前混合的双组分系统", "excerpt": "了解 500 mg Black Signature 与 7 ml Black Enhancer 的区别、目录列出的成分以及使用顺序。", "heads": ["干燥组分的质量与液体的体积", "Black Signature", "Black Enhancer", "混合方式与护理步骤"]},
+    {"slug": "tonever-rebelook-two-step", "title": "REBELOOK：Gold Signature 与 Highlighter 的分步护理", "excerpt": "依据 TONEVER 2026 产品目录，了解 REBELOOK 专业护理方案中两款产品的独立成分与顺序涂抹方式。", "heads": ["两个步骤的使用顺序", "Gold Signature 的成分", "Highlighter 的成分", "方案的化妆品护理用途"]},
+    {"slug": "tonever-home-care-textures", "title": "TONEVER 家居护理：泡沫爽肤水与成膜安瓶", "excerpt": "READY BOOSTER 与 72K FILM AMPOULE 的剂型、成分和护理步骤各有不同。本文介绍使用说明与主要成分。", "heads": ["READY BOOSTER：第一步", "爽肤水的复合成分", "72K：成膜质地", "72K 的成分与涂抹方式"]},
+    {"slug": "tonever-botanical-processing", "title": "TONEVER 如何介绍植物原料处理", "excerpt": "PSM、增溶与蛋白组分处理：了解成分制备相关内容，以及如何阅读研究资料。", "heads": ["PSM 与植物原料", "增溶与蛋白组分", "原料研究与成品配方", "使用演示与临床报告"], "paragraphs": ["在 REBELOOK 和 72K 章节中，生产商介绍了针对 Abelmoschus manihot 植物原料的 PSM 方法。72K 章节还单独说明了多糖组分与成膜质地的关系。这些内容是在介绍生产商处理该成分的方法。", "目录提到在植物原料制备过程中进行增溶和蛋白组分处理。这些步骤有助于理解公司如何描述配方工作，但资料并未提供依据来比较其与竞品的渗透能力，或声称具有数值上的优势。", "部分幻灯片涉及单独成分的细胞测试。此类测试的对象是在特定条件下的原料，而非日常使用状态下的化妆品成品。结果不能自动套用于 REBELOOK、THE PAMIN、READY BOOSTER 或 72K。", "目录中的使用前后照片属于生产商的演示资料。所提供的目录中没有包含研究设计、样本及方法的成品配方完整临床报告。因此，此处介绍的是成分、剂型和使用说明，不作数值化的功效承诺。"]}
+  ]
+}

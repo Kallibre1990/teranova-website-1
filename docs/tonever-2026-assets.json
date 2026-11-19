@@ -1,0 +1,85 @@
+{
+  "task": "T-20261119-039",
+  "source_sha256": "8ea40d1d8df47aa5b7b3eda672f7475d388d648d8f509ee6384a4cc364ebe677",
+  "source": "TONEVER Product Catalog 2026, 88 pages",
+  "assets": [
+    {
+      "file": "public/img/suppliers/tonever/2026/the-pamin.webp",
+      "page": 1,
+      "xref": 99,
+      "source_sha256": "6f7f625d35cd69ff52420877af13d35a6cde64009c6c40b2a3d6ca77583d62cd",
+      "sha256": "aa49dc9a502be76f1e13b1224d0d56b97587a5e9ef2c5f6f2574625b874f648c",
+      "size": [
+        1560,
+        1154
+      ],
+      "operation": "direct embedded photograph; proportional resize; no compositing or retouching"
+    },
+    {
+      "file": "public/img/suppliers/tonever/2026/rebelook.webp",
+      "page": 29,
+      "xref": 826,
+      "source_sha256": "47f13b4811765fa4e4c1459d90dc5a791f3171afc0b37228091df2a8faaa3339",
+      "sha256": "6d02f9ddb96d4eb23d9698c784c7e34fdbb96925299b160cef96cb9331a9ed79",
+      "size": [
+        1560,
+        866
+      ],
+      "operation": "direct embedded photograph; proportional resize; no compositing or retouching"
+    },
+    {
+      "file": "public/img/suppliers/tonever/2026/ready-booster.webp",
+      "page": 67,
+      "xref": 1796,
+      "source_sha256": "2b0c568a7fe1ef4462086e76a450a8e4cbbcc85a42a2945dd2dad5ff80102165",
+      "sha256": "7b9d0e17fe784eb04b4c89604cabc6a4afc341c9c630d40fe4e18e6cd9a5d87e",
+      "size": [
+        1560,
+        1104
+      ],
+      "operation": "direct embedded photograph; proportional resize; no compositing or retouching"
+    },
+    {
+      "file": "public/img/suppliers/tonever/2026/72k-film-ampoule.webp",
+      "page": 49,
+      "xref": 1383,
+      "source_sha256": "b4e8224d82c8e93ee6dd7eb45fd008ec67f7f1fba74813fd971007ac0745d4a9",
+      "sha256": "17a5f42c0c5dc471a7e478a56f5744ff07c0a07a650f9ef4d95fe8b1100c5bfd",
+      "size": [
+        1560,
+        1100
+      ],
+      "operation": "direct embedded photograph; proportional resize; no compositing or retouching"
+    },
+    {
+      "file": "public/img/suppliers/tonever/2026/pamin-sequence.webp",
+      "page": 25,
+      "rect": [
+        65.0,
+        210.0,
+        802.0,
+        372.0
+      ],
+      "sha256": "ca7ed6a4473b8c7f7ee8bbdc9b7e98270443db7b79376ee2bd5c7207c1268222",
+      "size": [
+        1561,
+        344
+      ],
+      "operation": "render original vector instruction pictograms; prose remains localized in article"
+    }
+  ],
+  "excluded_pages": [
+    6,
+    7,
+    8,
+    9,
+    20,
+    21,
+    36,
+    37,
+    65,
+    80,
+    81
+  ],
+  "note": "No raw-material efficacy graph, clinical claim, before/after or full PDF is published. Existing consent stays in original supplier record."
+}

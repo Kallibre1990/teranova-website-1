@@ -1,0 +1,55 @@
+{
+  "credit": "Materiali ufficiali TONEVER, catalogo 2026",
+  "ingredientsNote": "Sono riportati gli ingredienti principali del catalogo del produttore, non l'elenco INCI completo. Le caratteristiche delle materie prime non dimostrano l'efficacia del prodotto finito.",
+  "profileIntro": "Il catalogo 2026 approfondisce quattro programmi: la miscelazione dei due componenti di THE PAMIN, l'applicazione in sequenza di REBELOOK, il tonico in schiuma READY BOOSTER e l'ampolla filmogena 72K. Formati, ingredienti e sequenze di applicazione sono diversi.",
+  "galleryTitle": "Formati e sequenze di trattamento",
+  "tech": [
+    {"title": "Lavorazione delle materie prime vegetali", "note": "Il produttore descrive PSM, solubilizzazione e lavorazione della frazione proteica delle materie prime vegetali. Questi approcci riguardano la preparazione degli ingredienti e non sostituiscono i test sulla formula finita."},
+    {"title": "Due formati professionali distinti", "note": "THE PAMIN si miscela prima dell'applicazione. Gold Signature e Highlighter di REBELOOK si applicano in sequenza; non è necessario versare l'uno nell'altro."},
+    {"title": "Come leggere i dati di ricerca", "note": "Gli studi cellulari sugli ingredienti e le fotografie di applicazione sono materiali di natura diversa. Il catalogo non fornisce una relazione clinica completa sull'efficacia delle formule finite; i risultati quantitativi dei test sulle materie prime non vengono attribuiti ai prodotti."}
+  ],
+  "products": {
+    "the-pamin": {
+      "format": "Black Signature: componente secco da 500 mg; Black Enhancer: componente liquido da 7 ml",
+      "about": [
+        "THE PAMIN è composto da Black Signature liofilizzato e Black Enhancer liquido. L'etichetta di Black Signature indica una massa del contenuto secco di 500 mg; Black Enhancer contiene 7 ml di liquido. Sono due misure diverse, non il volume di un singolo flacone o dell'intero set.",
+        "Per Black Signature sono indicati Human Adipocyte Conditioned Media Extract, Sodium DNA (PDRN), collagene idrolizzato, SH-Oligopeptide-1, Acetyl Hexapeptide-8 e Palmitoyl Tetrapeptide-7. Sono elencati anche niacinamide, madecassoside, pantenolo, Ceramide NP, glicerina e glicole butilenico.",
+        "Per Black Enhancer, il catalogo elenca bisabololo, bakuchiol, ingredienti ialuronici, tremella, lattato di sodio, un complesso di nove peptidi, adenosina ed estratto di radice di Anemarrhena. Si tratta degli ingredienti principali riportati nelle rispettive descrizioni del produttore; qui non vengono dichiarate concentrazioni nella miscela finale.",
+        "Prima dell'applicazione, versare tutto Black Enhancer in Black Signature, montare il tappo conico in dotazione e agitare fino a ottenere una miscela omogenea. Applicare dopo il tonico e prima della crema. Il produttore consiglia di conservare il prodotto miscelato in frigorifero e, se possibile, utilizzarlo entro una settimana; è una raccomandazione delle istruzioni, non un periodo di conservazione convalidato da test."
+      ]
+    },
+    "rebelook": {
+      "format": "Gold Signature, seguito da Highlighter",
+      "about": [
+        "REBELOOK combina due fasi in sequenza: Gold Signature e Highlighter. Applicare prima Gold Signature, lasciarlo assorbire e completare il trattamento con Highlighter. Questo programma è diverso dalla miscelazione dei componenti di THE PAMIN.",
+        "Gold Signature contiene estratto di fiori di Abelmoschus manihot, un complesso di nove peptidi, PDRN, collagene e acido ialuronico. Il produttore elenca anche quattro fonti di componenti esosomiali: latte, centella, ginseng e lattobacilli.",
+        "Per Highlighter sono indicati estratto di Abelmoschus manihot, nove peptidi, mucina di lumaca, otto ingredienti ialuronici, centella e madecassoside. Il catalogo riporta le stesse quattro fonti di componenti esosomiali indicate per Gold Signature.",
+        "Il programma è destinato al trattamento cosmetico della luminosità e dell'aspetto della pelle. Le descrizioni degli ingredienti non dimostrano il trasporto negli strati profondi della pelle né un'azione terapeutica. LUMILOOK è presentato separatamente; i materiali non confermano che sia stato rinominato REBELOOK."
+      ]
+    },
+    "ready-booster": {
+      "format": "Tonico in schiuma con erogatore a pompa, 200 ml",
+      "about": [
+        "Repair Ready Toner De Rose Bubble Booster è un tonico in schiuma da 200 ml con erogatore a pompa. L'acqua di rose e la consistenza schiumosa caratterizzano questa prima fase del trattamento dopo la detersione.",
+        "Il catalogo elenca niacinamide, adenosina, AQUA TECA 1000T, COOLIF, BIO Marine Summer, BIORAN EX Infla Care e CeraPlex 5. AQUA TECA combina centella, madecassoside, acido madecassico, asiaticoside e acido asiatico. Per CeraPlex 5 sono indicate le ceramidi NP, EOP, NS, AS e AP.",
+        "Il gruppo idratante comprende HYAL 11, idrossietilurea, betaina, Saccharide Isomerate, pantenolo e allantoina. HYAL 11 è il nome di un complesso, non una conferma indipendente della presenza di undici forme diverse di acido ialuronico. La formula indica anche il complesso peptidico Matrixyl 3000.",
+        "Tra gli ingredienti vegetali sono indicati fiori e foglie di Melia azadirachta, frutti di Coccinia e melanzana, radice di curcuma, fiori di aloe, foglie di basilico sacro e Corallina officinalis. Secondo le istruzioni, distribuire due o tre erogazioni sulla pelle, premere delicatamente con i palmi fino all'assorbimento, quindi passare al prodotto successivo."
+      ]
+    },
+    "72k-film-ampoule": {
+      "format": "Ampolla filmogena, 50 ml",
+      "about": [
+        "72K FILM AMPOULE è un trattamento domiciliare da 50 ml con consistenza filmogena. Il numero 72K fa parte del nome e non indica la durata dell'effetto o il contenuto d'oro.",
+        "Il catalogo elenca estratto di fiori di Abelmoschus manihot, acqua di lavanda, acido tranexamico, ibisco, niacinamide e adenosina. CENTELLA QUATRO combina asiaticoside, madecassoside, acido madecassico e acido asiatico; è indicato anche il glicirrizato dipotassico.",
+        "Il gruppo idratante comprende ialuronato di sodio, acido ialuronico idrolizzato, betaina, tremella, pantenolo, estratto di foglie di aloe e allantoina. Tra i peptidi è indicato Dipeptide Diaminobutyroyl Benzylamide Diacetate. La presenza di un ingrediente non implica un effetto paragonabile a una procedura medica.",
+        "Dopo il tonico, distribuire il prodotto sul viso; le istruzioni consentono uno strato aggiuntivo sulle zone secche. Le FAQ del produttore descrivono un uso quotidiano, anche prima del trucco. Tonico e ampolla occupano fasi diverse del trattamento; presentarli insieme non equivale a una relazione su un test della combinazione."
+      ]
+    }
+  },
+  "articles": [
+    {"slug": "tonever-the-pamin-two-components", "title": "THE PAMIN: due componenti da miscelare prima del trattamento", "excerpt": "Che cosa distingue i 500 mg di Black Signature dai 7 ml di Black Enhancer, quali ingredienti indica il catalogo e come si svolge l'applicazione.", "heads": ["Massa del componente secco e volume del liquido", "Black Signature", "Black Enhancer", "Miscelazione e posizione nella routine"]},
+    {"slug": "tonever-rebelook-two-step", "title": "REBELOOK: Gold Signature e Highlighter fase per fase", "excerpt": "Due formule distinte e applicazione in sequenza: il programma professionale REBELOOK nel catalogo TONEVER 2026.", "heads": ["La sequenza delle due fasi", "Ingredienti di Gold Signature", "Ingredienti di Highlighter", "Finalità cosmetica del programma"]},
+    {"slug": "tonever-home-care-textures", "title": "Trattamento domiciliare TONEVER: tonico in schiuma e ampolla filmogena", "excerpt": "READY BOOSTER e 72K FILM AMPOULE differiscono per formato, ingredienti e posizione nel trattamento. Esaminiamo le istruzioni e i componenti principali.", "heads": ["READY BOOSTER: la prima fase", "I complessi del tonico", "72K: consistenza filmogena", "Ingredienti e applicazione di 72K"]},
+    {"slug": "tonever-botanical-processing", "title": "Come TONEVER descrive la lavorazione delle materie prime vegetali", "excerpt": "PSM, solubilizzazione e lavorazione della frazione proteica: che cosa riguarda la preparazione degli ingredienti e come leggere i materiali di ricerca.", "heads": ["PSM e base vegetale", "Solubilizzazione e frazione proteica", "Ricerca sulla materia prima e formula finita", "Dimostrazione di applicazione e relazione clinica"], "paragraphs": ["Nelle sezioni REBELOOK e 72K, il produttore descrive l'approccio PSM alla materia prima vegetale Abelmoschus manihot. Per 72K, il rapporto tra la frazione polisaccaridica e la consistenza filmogena viene presentato separatamente. È una descrizione dell'approccio del produttore all'ingrediente.", "Il catalogo cita la solubilizzazione e la lavorazione della frazione proteica nella preparazione delle materie prime vegetali. Queste fasi aiutano a capire come l'azienda descrive il proprio lavoro sulla formula; il materiale non offre basi per confrontare la penetrazione con quella dei concorrenti o dichiarare una superiorità numerica.", "Alcune diapositive riguardano test cellulari di singoli ingredienti. L'oggetto di tali test è una materia prima in condizioni definite, non un cosmetico finito nel normale utilizzo. Il risultato non può essere automaticamente attribuito a REBELOOK, THE PAMIN, READY BOOSTER o 72K.", "Le fotografie prima e dopo presenti nel catalogo sono dimostrazioni del produttore. Il catalogo fornito non contiene una relazione clinica completa sulle formule finite con disegno dello studio, campione e metodi. Per questo vengono presentati ingredienti, formati e istruzioni senza promesse numeriche di efficacia."]}
+  ]
+}

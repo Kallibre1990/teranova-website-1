@@ -27,17 +27,31 @@ import copyhi from '../../docs/tonever-copy/hi.json';
 import type { SupplierProfile, SupplierLinePage, SupplierContent } from './suppliers';
 import type { Lang } from '../i18n/ui';
 import { publicLocaleCodes } from '../i18n/locale-policy.mjs';
+import { tonever2026, type Tonever2026Product } from './tonever-2026';
 
 // T-20261119-032: each document name keeps its own evidence. No inferred rename.
+const toneverItemsSlugs = ['the-pamin', 'lumilook', 'rebelook', 'ready-booster', 'axis-ampoule', '72k-film-ampoule', 'lumeniq-cream', 'nude-fixer', 'aurora-serum'];
 const payloads = {ru: profileru, en: profileen, ko: profileko, zh: profilezh, ja: profileja, it: profileit, de: profilede, fr: profilefr, tr: profiletr, es: profilees, pt: profilept, he: profilehe, hi: profilehi};
 const translations = Object.fromEntries(publicLocaleCodes.map((lang) => {
   const payload = payloads[lang as Lang] as { content: Omit<SupplierContent, 'ui'>; ui: SupplierContent['ui'] };
   if (!payload) throw new Error(`Missing TONEVER translation: ${lang}`);
-  return [lang, { ...payload.content, ui: payload.ui }];
+  const extension = tonever2026[lang as Lang];
+  const lines = payload.content.lines.map((line, index) => {
+    const product = extension.products[toneverItemsSlugs[index] as Tonever2026Product];
+    return product ? { ...line, note: product.about[0] } : line;
+  });
+  return [lang, {
+    ...payload.content,
+    about: [...payload.content.about.slice(0, 3), extension.profileIntro, ...payload.content.about.slice(3)],
+    lines,
+    catalog_notes: lines.map((line) => line.note),
+    tech: extension.tech.map((item) => ({ name: item.title, note: item.note })),
+    ui: { ...payload.ui, tech_note: extension.ingredientsNote },
+  }];
 })) as Record<Lang, SupplierContent>;
 
 export const toneverItems = [
-  { slug: 'the-pamin', name: 'THE PAMIN', volume: '500 mg + 7 ml', img: '/img/suppliers/tonever/the-pamin.png', actives: ['Human Adipocyte Conditioned Media', 'Sodium DNA', 'Hydrolyzed Collagen', 'Niacinamide', 'Madecassoside', 'Panthenol', 'Ceramide NP'] },
+  { slug: 'the-pamin', name: 'THE PAMIN', volume: tonever2026.en.products['the-pamin'].format, volumeI18n: Object.fromEntries(publicLocaleCodes.map((lang) => [lang, tonever2026[lang as Lang].products['the-pamin'].format])), img: '/img/suppliers/tonever/the-pamin.png', actives: ['Human Adipocyte Conditioned Media Extract', 'Sodium DNA', 'Hydrolyzed Collagen', 'Niacinamide', 'Madecassoside', 'Panthenol', 'Ceramide NP'] },
   { slug: 'lumilook', name: 'LUMILOOK', volume: '7 ml + 7 ml', img: '/img/suppliers/tonever/lumilook.png' },
   { slug: 'rebelook', name: 'REBELOOK', img: '/img/suppliers/tonever/rebelook.png' },
   { slug: 'ready-booster', name: 'READY BOOSTER', volume: '200 ml', img: '/img/suppliers/tonever/ready-booster.png' },
@@ -64,9 +78,12 @@ export const toneverLines: SupplierLinePage[] = toneverItems.map((item, index) =
     const copy = copies[lang as Lang] as { products: { slug: string; about: string[] }[] };
     const product = copy?.products[index];
     if (!product || product.slug !== item.slug) throw new Error(`TONEVER product mismatch: ${lang}/${item.slug}`);
+    const extension = tonever2026[lang as Lang];
+    const expanded = extension.products[item.slug as Tonever2026Product];
+    const about = expanded ? [...expanded.about, extension.ingredientsNote] : product.about;
     return [lang, {
-      seoTitle: `${item.name} · TONEVER · Teranova`, seoDesc: product.about[0],
-      tagline: product.about[0].split(/[.!?。]/)[0], about: product.about, itemNotes: [product.about[0]],
+      seoTitle: `${item.name} · TONEVER · Teranova`, seoDesc: about[0],
+      tagline: expanded?.format ?? product.about[0].split(/[.!?。]/)[0], about, itemNotes: expanded ? [] : [product.about[0]],
     }];
   })),
 }));

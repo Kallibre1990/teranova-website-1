@@ -3569,6 +3569,7 @@ export interface SupplierLineItem {
   name: string;
   img?: string;
   volume?: string;
+  volumeI18n?: Partial<Record<Lang, string>>;
   price?: string;
   certs?: string[];
 }

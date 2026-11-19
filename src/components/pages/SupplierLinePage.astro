@@ -3,6 +3,7 @@
    Products shown as cards; a photo is rendered when the item has one. */
 import { localizePath, anchorHref, pickDoc } from '../../i18n/utils';
 import { ui, type Lang } from '../../i18n/ui';
+import { catalogText } from '../../i18n/strict-content';
 import { linePageContent, supplierBySlug, type SupplierLinePage } from '../../data/suppliers';
 
 interface Props {
@@ -59,7 +60,7 @@ const priceDoc = pickDoc(supplier?.priceFile, lang);
             </div>
             <div class="sl-card__head">
               <h2 class="sl-card__nm">{it.name}</h2>
-              {it.volume && <span class="sl-card__vol">{it.volume}</span>}
+              {it.volume && <span class="sl-card__vol">{catalogText(it.volume, it.volumeI18n, lang)}</span>}
             </div>
             {c.itemNotes?.[i] && <p class="sl-card__note">{c.itemNotes[i]}</p>}
             <div class="sl-card__foot">
@@ -91,6 +92,8 @@ const priceDoc = pickDoc(supplier?.priceFile, lang);
 <style>
   .sl[data-supplier='tonever'] .sl-tagline,
   .sl[data-supplier='tonever'] .sl-eyebrow { color: var(--ds-deep); }
+  .sl[data-supplier='tonever'] .sl-card__head { flex-wrap: wrap; }
+  .sl[data-supplier='tonever'] .sl-card__vol { white-space: normal; overflow-wrap: anywhere; color: #45576f; }
   .sl { --ds-deep: #12306e; --ds-sky: #4ca6fc; --ds-accent: #ff2552; --ds-bg: #f3f8ff; background: #fff; color: #16233d; }
   .sl-hero {
     padding: clamp(30px, 6vw, 60px) 0 clamp(28px, 4vw, 44px);
