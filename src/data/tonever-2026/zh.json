@@ -5,8 +5,7 @@
   "galleryTitle": "产品剂型与护理顺序",
   "tech": [
     {"title": "植物原料处理", "note": "我们介绍了植物原料的 PSM、增溶及蛋白组分处理方法。这些方法涉及成分的制备，不能代替成品测试。"},
-    {"title": "两种不同的专业护理方式", "note": "THE PAMIN 在涂抹前混合。REBELOOK 的 Gold Signature 与 Highlighter 则按顺序涂抹，无需相互混合。"},
-    {"title": "如何理解研究资料", "note": "成分细胞研究和使用照片属于不同类型的资料。目录未提供有关成品功效的完整临床报告，原料测试的数值不能直接套用于产品。"}
+    {"title": "两种不同的专业护理方式", "note": "THE PAMIN 在涂抹前混合。REBELOOK 的 Gold Signature 与 Highlighter 则按顺序涂抹，无需相互混合。"}
   ],
   "products": {
     "the-pamin": {
