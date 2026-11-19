@@ -1,0 +1,70 @@
+{
+  "source": "Supplier-provided PDFs in _MAIL_CRM/contacts/tonever-co-kr/files",
+  "method": "PyMuPDF embedded-image extraction with original alpha masks; REBELOOK catalog p29 rendered without added content",
+  "brand_pdf_page": 3,
+  "xrefs": {
+    "the-pamin": [
+      82,
+      81
+    ],
+    "lumilook": [
+      85,
+      84
+    ],
+    "ready-booster": [
+      71,
+      70
+    ],
+    "axis-ampoule": [
+      91,
+      90
+    ],
+    "72k-film-ampoule": [
+      97,
+      96
+    ],
+    "lumeniq-cream": [
+      88,
+      87
+    ],
+    "nude-fixer": [
+      94,
+      93
+    ]
+  },
+  "aurora-serum": "No confirmed packshot supplied; no product image invented",
+  "assets": {
+    "rebelook.png": {
+      "sha256": "68a7fc7a6789c34bb356938d95442dad941d1d9324158b1b3efcd787267b9580",
+      "bytes": 720705
+    },
+    "ready-booster.png": {
+      "sha256": "54f5c1ebb6caaa2ffbd21194b1d75a0490acf56a6f0b2ae3a7bb27fdfbef7001",
+      "bytes": 135044
+    },
+    "axis-ampoule.png": {
+      "sha256": "bf43a97a68a7beb0e694b2450c4660ce0184f719a7c6434ff3866c10481c12bc",
+      "bytes": 137184
+    },
+    "the-pamin.png": {
+      "sha256": "57b367e2d980df56f0233ee89133aeb5567a7ee3bcd69e1f486a3c3c977e51bd",
+      "bytes": 2272885
+    },
+    "72k-film-ampoule.png": {
+      "sha256": "ef3225b42f501d972366428b06bcaa4249666b53109cced4e97425951010042a",
+      "bytes": 96966
+    },
+    "nude-fixer.png": {
+      "sha256": "d6fe5e133caa2b321aaf5e3cbca8624a1648147990a5f3c8a2409ece98a067a9",
+      "bytes": 99798
+    },
+    "lumilook.png": {
+      "sha256": "087e1f6a607db98d9d83d9f1aee98c2d39713c08f7a49851431d4bec03236ac7",
+      "bytes": 2114172
+    },
+    "lumeniq-cream.png": {
+      "sha256": "d076495e48c7ab00f8b6a0e9adcfc0a73ad4e2e9b45e1bde234a220aa18e2319",
+      "bytes": 190092
+    }
+  }
+}

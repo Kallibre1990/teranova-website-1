@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import SupplierProfile from '../../components/pages/ToneverProfile.astro';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+import { supplierJsonLd } from '../../data/jsonld';
+const lang = 'ru' as const;
+const profile = supplierBySlug('tonever')!;
+const c = supplierContent(profile, lang);
+---
+<Base lang={lang} path="/catalog/tonever" title={c.seoTitle} description={c.seoDesc} image="/img/suppliers/tonever/the-pamin.png" jsonLd={supplierJsonLd(lang, profile)}>
+  <SupplierProfile lang={lang} profile={profile} />
+</Base>

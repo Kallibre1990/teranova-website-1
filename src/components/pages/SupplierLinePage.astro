@@ -22,7 +22,7 @@ const brandStyle = `--ds-deep:${bc.deep};--ds-sky:${bc.sky};--ds-accent:${bc.acc
 const priceDoc = pickDoc(supplier?.priceFile, lang);
 ---
 
-<article class="sl" style={brandStyle}>
+<article class="sl" data-supplier={page.supplierSlug} style={brandStyle}>
   <section class="sl-hero">
     <div class="wrap">
       <nav class="sl-crumbs" aria-label="breadcrumb">
@@ -89,6 +89,8 @@ const priceDoc = pickDoc(supplier?.priceFile, lang);
 </article>
 
 <style>
+  .sl[data-supplier='tonever'] .sl-tagline,
+  .sl[data-supplier='tonever'] .sl-eyebrow { color: var(--ds-deep); }
   .sl { --ds-deep: #12306e; --ds-sky: #4ca6fc; --ds-accent: #ff2552; --ds-bg: #f3f8ff; background: #fff; color: #16233d; }
   .sl-hero {
     padding: clamp(30px, 6vw, 60px) 0 clamp(28px, 4vw, 44px);

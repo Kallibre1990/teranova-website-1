@@ -1,5 +1,6 @@
 import oanicRu from './suppliers-i18n/oanic.ru.json';
 import { agafarProfile } from './agafar';
+import { toneverProfile, toneverLines } from './tonever';
 import { localizedContent } from '../i18n/strict-content';
 import oanicEn from './suppliers-i18n/oanic.en.json';
 import oanicKo from './suppliers-i18n/oanic.ko.json';
@@ -1363,6 +1364,7 @@ const agingTargetEn: SupplierContent = {
 };
 
 export const suppliers: SupplierProfile[] = [
+  toneverProfile,
   agafarProfile,
   {
     slug: 'sante',
@@ -3592,6 +3594,7 @@ export const supplierBySlug = (slug: string): SupplierProfile | undefined => sup
 export const supplierSlugs = suppliers.map((s) => s.slug);
 
 export const linePages: SupplierLinePage[] = [
+  ...toneverLines,
   ...oanicLines,
   ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
   ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
