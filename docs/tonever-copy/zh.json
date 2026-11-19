@@ -5,24 +5,24 @@
   "origin": "韩国",
   "about": [
     "TONEVER 是面向专业护理方案与居家护理的韩国护肤品牌。据公司介绍，其理念源于 Tonup Aesthetic 二十余年的实践经验、专业人员培训，以及美容护理工作室的反馈。",
-    "品牌哲学围绕肌肤的自然平衡展开。公司将这一理念与自然循环以及护理的基础环节相联系，包括原料选择、温和加工和配方的舒适感。其资料提出三项原则：稳定性、纯净美妆与可持续发展。这些是公司所述的开发方向，并非产品认证。",
-    "TONEVER 关注成分来源、加工方式与使用形式。专业方案采用双组分系统，包括使用前混合的冻干安瓶，以及依次使用两种安瓶的护理程序。居家系列包括泡沫爽肤水、安瓶、屏障护理面霜和具有视觉均匀肤色效果的收尾面霜。",
-    "公司为合作伙伴介绍专业护理方案、培训、使用流程与产品组合发展规划。具体产品、文件及供货事宜通过 Teranova 协商。成分、标签以及产品可使用的宣称，需按照对应市场进行核查。"
+    "我们的理念围绕肌肤的自然平衡展开。我们将这一理念与自然循环以及护理的基础环节相联系，包括原料选择、温和加工和配方的舒适感。我们的资料提出三项原则：稳定性、纯净美妆与可持续发展。这些是我们提出的开发方向，并非产品认证。",
+    "我们关注成分来源、加工方式与使用形式。专业方案采用双组分系统，包括使用前混合的冻干安瓶，以及依次使用两种安瓶的护理程序。居家系列包括泡沫爽肤水、安瓶、屏障护理面霜和具有视觉均匀肤色效果的收尾面霜。",
+    "我们为合作伙伴介绍专业护理方案、培训、使用流程与产品组合发展规划。具体产品、文件及供货事宜通过 Teranova 协商。成分、标签以及产品可使用的宣称，需按照对应市场进行核查。"
   ],
   "products": [
     {
       "slug": "the-pamin",
       "name": "THE PAMIN",
       "about": [
-        "由冻干 Black Signature 与液态 Black Enhancer 组成的专业护理系统。公司将其介绍为针对肌肤水润度、弹性感及外观的密集护理。根据目录，干燥组分为每瓶 500 mg，液态组分为每瓶 7 ml；演示资料展示了由三对瓶装产品组成的套装。",
-        "使用前将 Black Enhancer 的内容物倒入 Black Signature 瓶中，摇匀后使用。公司在配方说明中列出 PDRN、肽、Hydrolyzed Collagen、Niacinamide 与 Bisabolol。"
+        "由冻干 Black Signature 与液态 Black Enhancer 组成的专业护理系统。我们将其介绍为针对肌肤水润度、弹性感及外观的密集护理。根据目录，干燥组分为每瓶 500 mg，液态组分为每瓶 7 ml；演示资料展示了由三对瓶装产品组成的套装。",
+        "使用前将 Black Enhancer 的内容物倒入 Black Signature 瓶中，摇匀后使用。我们在配方说明中列出 PDRN、肽、Hydrolyzed Collagen、Niacinamide 与 Bisabolol。"
       ]
     },
     {
       "slug": "lumilook",
       "name": "LUMILOOK",
       "about": [
-        "由 Signature 与 Highlighter 安瓶组成的两步专业护理方案。演示资料展示了第一步十瓶和第二步十瓶。品牌将该系列与肌肤光泽、视觉上均匀的肤色及弹性感护理相联系。",
+        "由 Signature 与 Highlighter 安瓶组成的两步专业护理方案。演示资料展示了第一步十瓶和第二步十瓶。我们将该系列与肌肤光泽、视觉上均匀的肤色及弹性感护理相联系。",
         "Brand Proposal 列有 Abelmoschus manihot 提取物、肽、Sodium DNA、Hyaluronic Acid 与 Hydrolyzed Collagen。PSM 技术被介绍为配方理念的一部分。这些信息反映制造商的描述。"
       ]
     },
@@ -30,7 +30,7 @@
       "slug": "rebelook",
       "name": "REBELOOK",
       "about": [
-        "2026 年目录中介绍的两步安瓶护理方案，其中分别展示了 Gold Signature 与 Highlighter。公司将该方案定位为改善肌肤外观、光泽与视觉均匀肤色的护理。",
+        "2026 年目录中介绍的两步安瓶护理方案，其中分别展示了 Gold Signature 与 Highlighter。我们将该方案定位为改善肌肤外观、光泽与视觉均匀肤色的护理。",
         "根据目录说明，先涂抹 Gold Signature 并待其吸收，再以 Highlighter 完成护理。两种安瓶依次涂抹。"
       ]
     },
@@ -38,7 +38,7 @@
       "slug": "ready-booster",
       "name": "READY BOOSTER",
       "about": [
-        "Repair Ready Toner De Rose Bubble Booster 是 200 ml 泵装泡沫爽肤水，适用于洁面后的第一步护理。轻盈泡沫质地与玫瑰花水构成其产品特点；公司将其描述为保湿护理，并为后续护肤步骤做好准备。",
+        "Repair Ready Toner De Rose Bubble Booster 是 200 ml 泵装泡沫爽肤水，适用于洁面后的第一步护理。轻盈泡沫质地与玫瑰花水构成其产品特点；我们将其描述为保湿护理，并为后续护肤步骤做好准备。",
         "Brand Proposal 列有 AQUA TECA 1000T、COOLIF、BIO Marine Summer、BIORAN EX Infla Care 与 CeraPlex 5。根据目录说明，按压泵头两至三次，将内容物均匀涂于肌肤，再用掌心轻拍至吸收。"
       ]
     },
@@ -47,14 +47,14 @@
       "name": "AXIS AMPOULE",
       "about": [
         "100 ml 居家护理安瓶产品。演示资料将其描述为多成分配方，旨在呈现水润、经过细致护理的肌肤外观。瓶身配有滴管。",
-        "公司列有 NMN、NAD、五种肽复合物、12GF 复合物、五种神经酰胺、Sodium DNA、Sodium Hyaluronate 与 Panthenol。所提供的页面未披露详细使用方法或完整 INCI。"
+        "我们的目录列有 NMN、NAD、五种肽复合物、12GF 复合物、五种神经酰胺、Sodium DNA、Sodium Hyaluronate 与 Panthenol。所提供的页面未披露详细使用方法或完整 INCI。"
       ]
     },
     {
       "slug": "72k-film-ampoule",
       "name": "72K FILM AMPOULE",
       "about": [
-        "50 ml 居家护理安瓶。品牌将其质地描述为可留下保湿膜，并将产品定位于干燥护理与肌肤外观护理。72K 是产品名称的一部分，并非效果持续时间的承诺。",
+        "50 ml 居家护理安瓶。我们将其质地描述为可留下保湿膜，并将产品定位于干燥护理与肌肤外观护理。72K 是产品名称的一部分，并非效果持续时间的承诺。",
         "演示资料列有 Abelmoschus manihot 花提取物、薰衣草水、Tranexamic Acid、Madecassoside、Centella Asiatica 与 Panthenol。根据目录，在爽肤水后均匀涂抹，必要时于干燥部位叠加一层。产品被介绍为适用于早晚护理，也可用于妆前。"
       ]
     },
@@ -63,7 +63,7 @@
       "name": "LUMENIQ CREAM",
       "about": [
         "100 ml 软管装居家护理面霜。演示资料将该系列与屏障护理、保湿及经过细致护理的肌肤外观相联系。其质地与产品形式适用于面霜护理步骤。",
-        "公司列有五种神经酰胺复合物、Cholesterol、脂肪酸、Ectoin、Anemarrhena asphodeloides 根提取物、Adenosine、Sodium Hyaluronate 与 Tocopherol。"
+        "我们的目录列有五种神经酰胺复合物、Cholesterol、脂肪酸、Ectoin、Anemarrhena asphodeloides 根提取物、Adenosine、Sodium Hyaluronate 与 Tocopherol。"
       ]
     },
     {
@@ -71,7 +71,7 @@
       "name": "NUDE FIXER",
       "about": [
         "Tone-Up Finish Cream 是 30 ml 泵装收尾面霜。演示资料将其用途与视觉均匀肤色以及更平滑、有光泽的肌肤外观相联系。这是护肤程序中的美容收尾步骤。",
-        "公司列有 Abelmoschus manihot 花提取物、九种肽复合物、Sodium DNA 与 Ceramide NP。该产品与专业安瓶护理方案分别介绍。"
+        "我们的目录列有 Abelmoschus manihot 花提取物、九种肽复合物、Sodium DNA 与 Ceramide NP。该产品与专业安瓶护理方案分别介绍。"
       ]
     },
     {
