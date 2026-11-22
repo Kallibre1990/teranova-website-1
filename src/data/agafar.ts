@@ -39,7 +39,6 @@ export const agafarDeviceImages: Record<string, string> = {
   'agafar Point Plus': 'scenes/agafar-point-plus.webp',
   'agafar Point Plus Pro': 'tech/point-plus-pro.webp',
   'agafar Line S': 'tech/line-s.webp',
-  'agafar S': 'tech/agafar-s.webp',
   'PLASMA': 'tech/plasma.webp',
   'agafar LED PDT Light': 'tech/led-pdt-light.webp',
   'Face Fitness Turn Up': 'tech/face-fitness-turn-up.webp',
