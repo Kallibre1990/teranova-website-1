@@ -185,20 +185,20 @@
       {
         "name": "Liquid ampoule",
         "img": "/img/suppliers/veo-biotech/lines/format-ampoules.webp",
-        "volume": "Ready-to-fill liquid ampoule, per company data",
+        "volume": "Liquid-ampoule product development, per company data. Formulation, filling and packaging are agreed per project.",
         "volumeI18n": {
-          "ru": "жидкая ампула, готовая к наполнению, по данным компании",
-          "ko": "충전 준비된 리퀴드 앰플, 회사 제공 정보 기준",
-          "zh": "可直接灌装的液体安瓿，依据公司提供的数据",
-          "ja": "充填対応済みのリキッドアンプル、企業提供データに基づく",
-          "it": "fiala liquida pronta per il riempimento, secondo i dati dell'azienda",
-          "de": "abfüllfertige Flüssigampulle, laut Unternehmensangaben",
-          "fr": "ampoule liquide prête au remplissage, selon les données de l'entreprise",
-          "tr": "doldurmaya hazır sıvı ampul, şirket verilerine göre",
-          "es": "ampolla líquida lista para llenado, según datos de la empresa",
-          "pt": "ampola líquida pronta para enchimento, conforme dados da empresa",
-          "he": "אמפולה נוזלית מוכנה למילוי, לפי נתוני החברה",
-          "hi": "भरने के लिए तैयार लिक्विड एम्पुल, कंपनी के आंकड़ों के अनुसार"
+          "ru": "разработка продукта в формате жидкой ампулы, по данным компании. Состав, наполнение и упаковка согласовываются отдельно по каждому проекту.",
+          "ko": "리퀴드 앰플 제품 개발, 회사 제공 정보 기준. 제형·충전·포장은 프로젝트별로 별도 협의합니다.",
+          "zh": "液体安瓿产品开发，依据公司提供的数据；配方、灌装和包装按项目单独商定。",
+          "ja": "リキッドアンプルの製品開発、企業提供データに基づく。処方・充填・包装はプロジェクトごとに別途協議します。",
+          "it": "sviluppo del prodotto in formato fiala liquida, secondo i dati dell'azienda. Formulazione, riempimento e packaging sono concordati per ciascun progetto.",
+          "de": "Flüssigampulle als Produktentwicklung, laut Unternehmensangaben. Formulierung, Abfüllung und Verpackung werden pro Projekt gesondert vereinbart.",
+          "fr": "développement produit au format ampoule liquide, selon les données de l'entreprise. La formulation, le remplissage et l'emballage sont convenus séparément pour chaque projet.",
+          "tr": "sıvı ampul formatında ürün geliştirme, şirket verilerine göre. Formülasyon, doldurma ve ambalaj her proje için ayrıca anlaşılır.",
+          "es": "desarrollo de producto en formato ampolla líquida, según datos de la empresa. La formulación, el llenado y el envasado se acuerdan por proyecto.",
+          "pt": "desenvolvimento de produto em formato de ampola líquida, conforme dados da empresa. A formulação, o enchimento e a embalagem são acordados por projeto.",
+          "he": "פיתוח מוצר בפורמט אמפולה נוזלית, לפי נתוני החברה. הפורמולציה, המילוי והאריזה מוסכמים בנפרד לכל פרויקט.",
+          "hi": "लिक्विड एम्पुल प्रारूप में उत्पाद विकास, कंपनी के आंकड़ों के अनुसार। फॉर्मूलेशन, भरना और पैकेजिंग प्रत्येक प्रोजेक्ट के लिए अलग से सहमत किए जाते हैं।"
         }
       }
     ]
