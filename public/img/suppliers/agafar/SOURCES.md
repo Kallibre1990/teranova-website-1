@@ -117,3 +117,26 @@ does not transcribe the poster's other claims (clinic counts, awards,
 
 Output: `cwebp -q 78` from a plain crop, no upscale (589×805, matching the
 source's native resolution). 63.6 KB.
+
+## T-20261122-040: NADXEN Ampoule / Serum catalog cards replaced with official studio photos
+
+Per a direct instruction from Irina (R-046 receipt `75940f58-e815-4f9b-91b9-f56d22edfea5`,
+relayed via Codex: "давай заменим верхние две фотографии, найди их в хорошем качестве и
+визуально, чтобы это более качественно смотрелось"), the two NADXEN catalog-card images
+were replaced:
+
+| Output | Replaces (previous content) | New content | Verification |
+| --- | --- | --- | --- |
+| `products/nadxen-ampoule.webp` | Unofficial customer/warehouse snapshot of the boxed product on a carpeted floor (330×715, SHA-256 `10de32699817d7161fe1f02962bc9668233f0bb2f249a5a7b5f59947746b2fde`) | Byte-identical copy of `products/agafar-site-01.webp` (1600×1600, SHA-256 `1a93d84389f043ef627c3a2688232f354607a031f1687c26f2a8ca465f8fc8f0`) | Same official agafar.com source as already documented above: local copy `site_agafar.com_2026-10-24/products/01-6a61bbefbaddcfc80bf743eda29fd73d.jpg` (SHA-256 `968c55fa1d40ac4d06fe17f4f11b51911c2acd923c4b5ffec6a549bc96f392f9`), URL `https://agafar.com/web/product/medium/202605/6a61bbefbaddcfc80bf743eda29fd73d.jpg`, catalogue name 나드센 앰플 30ml (NADXEN Ampoule 30 ml), per `_MATERIALY_POSTAVSHCHIKOV/AGAFAR/site_agafar.com_2026-10-24/SOURCES.md` |
+| `products/nadxen-serum.webp` | Unofficial customer/warehouse snapshot of the boxed product on a carpeted floor (320×985, SHA-256 `2fa9bd027c73f5e571088d4b7ad303d734b3cb998b093b2af9ccacc694bcb1ba`) | Byte-identical copy of `products/agafar-site-02.webp` (1600×1600, SHA-256 `7e6d19c5377458e20e6ea806c45cbdac5757afcfd82c57d5d41d0b7fc7d71e13`) | Same official agafar.com source: local copy `site_agafar.com_2026-10-24/products/02-e2b6d0ca081981648cb0c25f51330122.jpg` (SHA-256 `0199e224e11a011987d313f10d0335a09198afe12d7af29199a3f8756f5b55cb`), URL `https://agafar.com/web/product/medium/202605/e2b6d0ca081981648cb0c25f51330122.jpg`, catalogue name 나드센 세럼 50ml (NADXEN Serum 50 ml), per the same manifest |
+
+Both outputs now share the exact same canvas (1600×1600) and the same light studio
+backdrop as every other catalog card in this directory, replacing a mismatched vertical
+phone photo. No inpainting, stretching, or AI processing was applied — these are
+unmodified copies of already-accepted derived files, written in place under the same
+`nadxen-ampoule.webp` / `nadxen-serum.webp` filenames that
+`src/data/suppliers-i18n/agafar.catalog.json` already references, so no JSON change was
+needed. Originals remain under
+`_MATERIALY_POSTAVSHCHIKOV/AGAFAR/site_agafar.com_2026-10-24/products/`; the two replaced
+files remain recoverable from this repository's git history. Product identity, composition,
+CPNP status, prices, and MOQ were not touched.
