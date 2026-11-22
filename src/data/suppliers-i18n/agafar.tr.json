@@ -36,8 +36,8 @@
       "Her biri 3 ml olan on flakonda sunulan EXOXEN eksozom güçlendiricisi.",
       "Üçlü hyalüronik asit, betain ve pantenol içeren kağıt maske.",
       "Pantenol, elma yaprağı ve aloe vera yaprağı özleri içeren SPF50+ PA++++ güneş kremi.",
-      "NAD⁺, NMN, glutatyon ve PDRN içeren ampul. CPNP kayıt süreci devam ediyor.",
-      "NAD⁺, NMN, glutatyon ve PDRN içeren serum. CPNP kayıt süreci devam ediyor."
+      "NAD⁺, NMN, glutatyon ve PDRN içeren ampul. CPNP bildirimi (AB portalı) tamamlandı.",
+      "NAD⁺, NMN, glutatyon ve PDRN içeren serum. CPNP bildirimi (AB portalı) tamamlandı."
     ],
     "tech": [
       {"name": "Transfer", "note": "Ultrasonik temizleme spatulası, Sono el aparatı, Vitamin Clip ve Cooling & Heating el aparatı içeren çok işlevli sistem."},
@@ -94,10 +94,13 @@
     "pack_label": "Ambalaj boyutu",
     "faq_h": "Sık sorulan sorular",
     "detail_card_label": "AGAFAR kataloğundan ürün kartı",
+    "nadxen_cpnp_caption": "NADXEN · AB pazarına hazır",
+    "nadxen_cpnp_alt": "NADXEN serisini ve Avrupa Birliği pazarına hazırlığını tanıtan AGAFAR afişi",
+    "nadxen_cpnp_text": "NADXEN ampul 30 ml ve serum 50 ml için CPNP bildirimini — Avrupa Birliği'nin kozmetik ürün portalı — tamamladık. Bu bir sertifikasyon değildir ve Kore'de satışa izin vermez: bu durum yalnızca NADXEN serisindeki bu iki ürün için geçerlidir.",
     "faq": [
       {"q": "AGAFAR Medical Beauty Group çatısı altında hangi markalar var?", "a": "Üç cilt bakım markası: hassas ciltler için nazik günlük bakım sunan AGAFAR, profesyonel Meditive Formula 3X serisine sahip agapharma ve kağıt maske ile güneş kremi sunan a'reiv."},
       {"q": "DERMA MODE PROGRAM koleksiyonunda neler var?", "a": "Koleksiyonda 20 ürün var: 12'si AGAFAR, 5'i agapharma Meditive Formula 3X, a'reiv'in kağıt maskesi ve güneş kremi, ayrıca EXOXEN Booster. Temizleyiciler ve tonik, ampuller ve güçlendiriciler, göz çevresi bakımı ve kremler, güneş kremi ve kağıt maske yer alıyor."},
-      {"q": "NADXEN serisi CPNP kaydını tamamladı mı?", "a": "Yayın tarihi itibarıyla NADXEN ampul ve serumunun CPNP kayıt süreci devam ediyor."},
+      {"q": "NADXEN CPNP bildirimini tamamladı mı?", "a": "Evet. Kasım 2026 itibarıyla NADXEN ampul 30 ml ve serum 50 ml için CPNP bildirimini — Avrupa Birliği'nin kozmetik ürün portalı — tamamladık. Bu bir sertifikasyon değildir ve Kore'de satışa izin vermez; AB pazarı için bir bildirimdir ve bu durum yalnızca bu iki ürün için geçerlidir."},
       {"q": "AGAFAR ürünleri nerelerde satılıyor?", "a": "Kore, Hong Kong, Çin, Tayland, Japonya, ABD, Filipinler, Malezya, Birleşik Krallık, BAE ve Kanada dahil çeşitli pazarlarda. Belirli bir bölge için Teranova, her talepte güncel koşulları teyit ediyor."},
       {"q": "AGAFAR ürünlerini Teranova aracılığıyla kimler satın alabilir?", "a": "Kozmetik ithalatçıları ve distribütörleri, dermatoloji ve estetik klinikleri, mağaza ve eczane zincirleri ile e-ticaret ekipleri."}
     ]

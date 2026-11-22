@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺, NMN, glutatyon ve PDRN içeren ampul. CPNP kayıt süreci devam ediyor.",
+          "value": "NAD⁺, NMN, glutatyon ve PDRN içeren ampul. CPNP bildirimi (AB portalı) tamamlandı.",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺, NMN, glutatyon ve PDRN içeren serum. CPNP kayıt süreci devam ediyor.",
+          "value": "NAD⁺, NMN, glutatyon ve PDRN içeren serum. CPNP bildirimi (AB portalı) tamamlandı.",
           "box": [
             310,
             339.375,
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.tr.json",
-      "sha256": "765c5d916edddc0a41b1e9fe43c073ed53f5285133095f0a6f75224c21abc4ef"
+      "sha256": "85c0d5635c93160f63ee322f0b1175b51b68973cbdbf93f14f69a12bc8044d69"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

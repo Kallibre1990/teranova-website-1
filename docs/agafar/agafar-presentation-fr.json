@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ampoule contenant du NAD⁺, du NMN, du glutathion et du PDRN. Enregistrement CPNP en cours.",
+          "value": "Ampoule contenant du NAD⁺, du NMN, du glutathion et du PDRN. Notification CPNP (portail de l'UE) terminée.",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Sérum contenant du NAD⁺, du NMN, du glutathion et du PDRN. Enregistrement CPNP en cours.",
+          "value": "Sérum contenant du NAD⁺, du NMN, du glutathion et du PDRN. Notification CPNP (portail de l'UE) terminée.",
           "box": [
             310,
             339.375,
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.fr.json",
-      "sha256": "4f5de45cdd5152d1a4dcd0157b3331eb739efd1b0f713dae614f6c1e9f4744da"
+      "sha256": "4f2831fcb5d0debef4199d65cdc14a12535397a712d8b7c8bffbfec4b2136b7c"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

@@ -36,8 +36,8 @@
       "EXOXEN exosome booster, supplied as ten 3 ml vials.",
       "Sheet mask with triple hyaluronic acid, betaine and panthenol.",
       "Sun cream SPF50+ PA++++ with panthenol, apple leaf and aloe vera leaf extracts.",
-      "Ampoule with NAD⁺, NMN, glutathione and PDRN. CPNP registration in progress.",
-      "Serum with NAD⁺, NMN, glutathione and PDRN. CPNP registration in progress."
+      "Ampoule with NAD⁺, NMN, glutathione and PDRN. CPNP notification (EU portal) completed.",
+      "Serum with NAD⁺, NMN, glutathione and PDRN. CPNP notification (EU portal) completed."
     ],
     "tech": [
       {"name": "Transfer", "note": "A multifunction system with an ultrasonic scrubber, Sono handpiece, Vitamin Clip and Cooling & Heating handpiece."},
@@ -94,10 +94,13 @@
     "pack_label": "Pack size",
     "faq_h": "Frequently asked questions",
     "detail_card_label": "Product card from the AGAFAR catalogue",
+    "nadxen_cpnp_caption": "NADXEN · ready for the EU market",
+    "nadxen_cpnp_alt": "AGAFAR promotional poster about the NADXEN line and its readiness for the European Union market",
+    "nadxen_cpnp_text": "We have completed CPNP notification — the European Union's cosmetic product portal — for the NADXEN Ampoule 30 ml and NADXEN Serum 50 ml. This is not a certification and does not permit sales in Korea: the status applies only to these two products in the NADXEN line.",
     "faq": [
       {"q": "Which brands make up AGAFAR Medical Beauty Group?", "a": "Three skincare brands: AGAFAR for gentle daily care for sensitive skin, agapharma with its professional Meditive Formula 3X line, and a'reiv with a sheet mask and sun cream."},
       {"q": "What's in the DERMA MODE PROGRAM collection?", "a": "The collection has 20 products: 12 from AGAFAR, 5 from agapharma Meditive Formula 3X, a sheet mask and a sun cream from a'reiv, plus the EXOXEN Booster. They cover cleansers and toner, ampoules and boosters, eye care and creams, sun care and a sheet mask."},
-      {"q": "Has the NADXEN line completed CPNP registration?", "a": "As of publication, CPNP registration for the NADXEN ampoule and serum is in progress."},
+      {"q": "Has NADXEN completed CPNP notification?", "a": "Yes. As of November 2026, we have completed CPNP notification — the European Union's cosmetic product portal — for the NADXEN Ampoule 30 ml and NADXEN Serum 50 ml. This is not a certification and does not permit sales in Korea; it is an EU-market notification, and the status applies only to these two products."},
       {"q": "Where is AGAFAR sold?", "a": "In Korea, Hong Kong, China, Thailand, Japan, the US, the Philippines, Malaysia, the UK, the UAE, Canada and other markets. Teranova confirms current terms for each specific territory."},
       {"q": "Who can source AGAFAR through Teranova?", "a": "Cosmetics importers and distributors, dermatology and aesthetic clinics, retail and pharmacy chains, and e-commerce teams."}
     ]

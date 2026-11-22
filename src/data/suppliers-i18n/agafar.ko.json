@@ -36,8 +36,8 @@
       "EXOXEN 엑소좀 부스터로, 3 ml 바이알 10개로 구성됩니다.",
       "트리플 히알루론산, 베타인, 판테놀을 함유한 시트 마스크입니다.",
       "판테놀, 사과나무 잎 추출물, 알로에 베라 잎 추출물을 함유한 SPF50+ PA++++ 선크림입니다.",
-      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 앰플입니다. CPNP 등록 절차가 진행 중입니다.",
-      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 세럼입니다. CPNP 등록 절차가 진행 중입니다."
+      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 앰플입니다. CPNP 신고(유럽연합 포털) 완료.",
+      "NAD⁺, NMN, 글루타치온, PDRN을 함유한 세럼입니다. CPNP 신고(유럽연합 포털) 완료."
     ],
     "tech": [
       {"name": "Transfer", "note": "초음파 스크러버, Sono 핸드피스, Vitamin Clip, Cooling & Heating 핸드피스를 갖춘 다기능 시스템입니다."},
@@ -94,10 +94,13 @@
     "pack_label": "포장 용량",
     "faq_h": "자주 묻는 질문",
     "detail_card_label": "AGAFAR 카탈로그 제품 카드",
+    "nadxen_cpnp_caption": "NADXEN · EU 시장 준비 완료",
+    "nadxen_cpnp_alt": "NADXEN 라인과 유럽연합 시장 준비 상태를 소개하는 AGAFAR 홍보 포스터",
+    "nadxen_cpnp_text": "저희는 NADXEN 앰플 30ml와 세럼 50ml에 대해 CPNP 신고 — 유럽연합의 화장품 포털 — 를 완료했습니다. 이는 인증이 아니며 한국 판매 허가도 아닙니다. 이 상태는 NADXEN 라인 중 이 두 제품에만 해당합니다.",
     "faq": [
       {"q": "AGAFAR Medical Beauty Group에는 어떤 브랜드가 있나요?", "a": "스킨케어 브랜드 3개입니다: 민감성 피부를 위한 데일리 케어 AGAFAR, 전문가용 Meditive Formula 3X 라인의 agapharma, 시트 마스크와 선크림을 선보이는 a'reiv입니다."},
       {"q": "DERMA MODE PROGRAM 컬렉션에는 무엇이 포함되나요?", "a": "컬렉션은 20개 제품으로 구성됩니다: AGAFAR 12개, agapharma Meditive Formula 3X 5개, a'reiv 시트 마스크와 선크림, 그리고 EXOXEN Booster입니다. 클렌저와 토너, 앰플과 부스터, 아이 케어와 크림, 선크림과 시트 마스크가 포함됩니다."},
-      {"q": "NADXEN 라인은 CPNP 등록을 마쳤나요?", "a": "공개 시점 기준으로 NADXEN 앰플과 세럼의 CPNP 등록 절차가 진행 중입니다."},
+      {"q": "NADXEN은 CPNP 신고를 완료했나요?", "a": "네. 2026년 11월 기준으로 저희는 NADXEN 앰플 30ml와 세럼 50ml에 대해 CPNP 신고 — 유럽연합의 화장품 포털 — 를 완료했습니다. 이는 인증이 아니며 한국 판매를 허가하는 것도 아닙니다. EU 시장을 위한 신고이며, 이 상태는 이 두 제품에만 해당합니다."},
       {"q": "AGAFAR 제품은 어디에서 판매되나요?", "a": "한국, 홍콩, 중국, 태국, 일본, 미국, 필리핀, 말레이시아, 영국, 아랍에미리트, 캐나다 등 여러 시장에서 판매됩니다. 특정 지역에 대해서는 Teranova가 문의별로 현재 조건을 확인합니다."},
       {"q": "Teranova를 통해 누가 AGAFAR 제품을 공급받을 수 있나요?", "a": "화장품 수입·유통업체, 피부과 및 미용 클리닉, 소매 및 약국 체인, 전자상거래 팀입니다."}
     ]

@@ -87,3 +87,33 @@ On the profile and in the PDF the `tech/face-fitness-turn-up.webp` viewport now 
 only the four-handpiece strip (source y 990–1350). The KC/CE logos in the company
 artwork stay outside the viewport: in the mail of 14.11.2026 AGAFAR states it does not
 hold EU registration and compliance documentation for its devices. The raster is not edited.
+
+## T-20261122-016: NADXEN CPNP poster
+
+`scenes/nadxen-cpnp-poster.webp` is a crop of `1-Фото-1.jpg`, a 589×1280 iOS
+screenshot received from Irina in the Codex web-local receipt
+`e8ed368f-9cfa-46ef-b124-45c476530100` (2026-11-22), stored locally at
+`.ai-coordination` receipt time as
+`/tmp/codex-remote-attachments/01a201b5-ece5-7fe2-ae00-7915b832cd93/181560C9-96D9-4518-8242-7F3AB429BF60/1-Фото-1.jpg`.
+SHA-256 of the original screenshot:
+`7c047cecd140a4cef3b433ccd825150b808e18ab9760b595c81ee5f49c1101f6`.
+
+The crop keeps pixel rows 200–1005 (full 589 px width, no horizontal crop):
+this removes the iOS status bar and chat header above the poster and the
+Messages reaction/reply overlay that permanently covers the bottom-right
+corner of the poster's closing tagline bar in this screenshot. No pixel
+inside the kept region is edited, inpainted, or regenerated; the excluded
+tagline bar is dropped rather than reconstructed, per the no-generative-
+retouch rule in `docs/IMAGERY.md`.
+
+The poster is AGAFAR's own marketing artwork. It lists "CPNP Registration"
+as one checked item in a "EUROPEAN MARKET READY" group (alongside RP, CPSR,
+PIF, EU Label Compliance) for the NADXEN line. Per the same receipt, the
+accompanying site text restricts the CPNP-complete claim to NADXEN Ampoule
+30 ml and NADXEN Serum 50 ml only, names CPNP as the EU cosmetic-product
+notification portal (not a certification, not Korean market access), and
+does not transcribe the poster's other claims (clinic counts, awards,
+"COMPLIANT. TRUSTED.") as independently verified facts.
+
+Output: `cwebp -q 78` from a plain crop, no upscale (589×805, matching the
+source's native resolution). 63.6 KB.

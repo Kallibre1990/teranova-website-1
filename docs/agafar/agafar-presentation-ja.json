@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺・NMN・グルタチオン・PDRNを配合したアンプルです。CPNP登録手続き中です。",
+          "value": "NAD⁺・NMN・グルタチオン・PDRNを配合したアンプルです。CPNP届出（EUポータル）完了。",
           "box": [
             42,
             339.375,
@@ -1657,7 +1657,7 @@
             455
           ],
           "size": 11.5,
-          "bottom": 372.4250030517578,
+          "bottom": 387.9500045776367,
           "direction": "ltr"
         },
         {
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺・NMN・グルタチオン・PDRNを配合した美容液です。CPNP登録手続き中です。",
+          "value": "NAD⁺・NMN・グルタチオン・PDRNを配合した美容液です。CPNP届出（EUポータル）完了。",
           "box": [
             310,
             339.375,
@@ -1693,7 +1693,7 @@
             455
           ],
           "size": 11.5,
-          "bottom": 372.4250030517578,
+          "bottom": 387.9500045776367,
           "direction": "ltr"
         }
       ],
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ja.json",
-      "sha256": "68d4e9b2879f739ab4365c54dcd0c5d348ca664f6572d9e6356e999d1f30edbc"
+      "sha256": "299e4bb0ea4aaa5ade02d6e066264a97d2141e82477180517f84efbe817deeb2"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

@@ -36,8 +36,8 @@
       "EXOXEN 外泌体精华加强液，每套十瓶，每瓶 3 ml。",
       "含三重透明质酸、甜菜碱和泛醇的片状面膜。",
       "含泛醇、苹果叶提取物和芦荟叶提取物的 SPF50+ PA++++ 防晒霜。",
-      "含 NAD⁺、NMN、谷胱甘肽及 PDRN 的安瓶。CPNP 注册正在办理中。",
-      "含 NAD⁺、NMN、谷胱甘肽及 PDRN 的精华。CPNP 注册正在办理中。"
+      "含 NAD⁺、NMN、谷胱甘肽及 PDRN 的安瓶。CPNP 申报（欧盟平台）已完成。",
+      "含 NAD⁺、NMN、谷胱甘肽及 PDRN 的精华。CPNP 申报（欧盟平台）已完成。"
     ],
     "tech": [
       {"name": "Transfer", "note": "配备超声波洁肤铲、Sono 手具、Vitamin Clip 和 Cooling & Heating 手具的多功能系统。"},
@@ -94,10 +94,13 @@
     "pack_label": "包装规格",
     "faq_h": "常见问题",
     "detail_card_label": "AGAFAR 产品目录中的产品卡",
+    "nadxen_cpnp_caption": "NADXEN · 欧盟市场准备就绪",
+    "nadxen_cpnp_alt": "AGAFAR 宣传海报，介绍 NADXEN 系列及其欧盟市场准备情况",
+    "nadxen_cpnp_text": "我们已为 NADXEN 安瓶 30ml 和精华 50ml 完成 CPNP 申报——欧盟化妆品门户平台的申报。这不是认证，也不代表可在韩国销售：该状态仅适用于 NADXEN 系列中的这两款产品。",
     "faq": [
       {"q": "AGAFAR Medical Beauty Group 旗下有哪些品牌？", "a": "共三个护肤品牌：面向敏感肌肤的日常护理品牌 AGAFAR、专业系列 Meditive Formula 3X 所属的 agapharma，以及提供片状面膜和防晒霜的 a'reiv。"},
       {"q": "DERMA MODE PROGRAM 系列包含哪些产品？", "a": "该系列共 20 款产品：AGAFAR 12 款，agapharma Meditive Formula 3X 5 款，a'reiv 片状面膜和防晒霜各一款，另有 EXOXEN Booster。涵盖洁面产品与爽肤水、安瓶与精华加强液、眼部护理与面霜，以及防晒霜与片状面膜。"},
-      {"q": "NADXEN 系列是否已完成 CPNP 注册？", "a": "截至发布时，NADXEN 安瓶及精华的 CPNP 注册仍在办理中。"},
+      {"q": "NADXEN 是否已完成 CPNP 申报？", "a": "是的。截至2026年11月，我们已为 NADXEN 安瓶 30ml 和精华 50ml 完成 CPNP 申报——欧盟化妆品门户平台的申报。这不是认证，也不代表可在韩国销售；这只是面向欧盟市场的申报，且仅适用于这两款产品。"},
       {"q": "AGAFAR 产品在哪些市场销售？", "a": "产品销往韩国、香港、中国、泰国、日本、美国、菲律宾、马来西亚、英国、阿联酋、加拿大等市场。针对具体地区，Teranova 会在每次询问时确认现行条件。"},
       {"q": "哪些客户可以通过 Teranova 采购 AGAFAR 产品？", "a": "化妆品进口商与分销商、皮肤科及美容诊所、零售与连锁药店，以及电商团队。"}
     ]

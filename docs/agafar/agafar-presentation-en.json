@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ampoule with NAD⁺, NMN, glutathione and PDRN. CPNP registration in progress.",
+          "value": "Ampoule with NAD⁺, NMN, glutathione and PDRN. CPNP notification (EU portal) completed.",
           "box": [
             42,
             339.375,
@@ -1657,7 +1657,7 @@
             455
           ],
           "size": 11.5,
-          "bottom": 372.4250030517578,
+          "bottom": 387.9500045776367,
           "direction": "ltr"
         },
         {
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Serum with NAD⁺, NMN, glutathione and PDRN. CPNP registration in progress.",
+          "value": "Serum with NAD⁺, NMN, glutathione and PDRN. CPNP notification (EU portal) completed.",
           "box": [
             310,
             339.375,
@@ -1693,7 +1693,7 @@
             455
           ],
           "size": 11.5,
-          "bottom": 372.4250030517578,
+          "bottom": 387.9500045776367,
           "direction": "ltr"
         }
       ],
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.en.json",
-      "sha256": "de07c33a3be6652eb341756cb510aaff1ff8cde5626d4fd91db27e5715a33d5e"
+      "sha256": "21d7ca2793e0f38c45ec66256eaede0ee4b235887c24aa311482815a79353e50"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

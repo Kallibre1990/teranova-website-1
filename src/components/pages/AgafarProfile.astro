@@ -121,6 +121,17 @@ const gallery = [
               </article>
             ))}
           </div>
+          {index === 4 && (
+            <figure class="ag-nadxen-notice">
+              <a href={root + 'scenes/nadxen-cpnp-poster.webp'} target="_blank" rel="noopener">
+                <img src={root + 'scenes/nadxen-cpnp-poster.webp'} alt={e.nadxen_cpnp_alt} width="589" height="805" loading="lazy" decoding="async" />
+              </a>
+              <figcaption>
+                <span class="ag-nadxen-notice__label">{e.nadxen_cpnp_caption}</span>
+                <p>{e.nadxen_cpnp_text}</p>
+              </figcaption>
+            </figure>
+          )}
         </section>
       ))}
     </div>
@@ -255,6 +266,13 @@ const gallery = [
   .ag-group--range .ag-product { padding-block:18px; border-bottom:1px solid var(--ag-line); }
   .ag-group--range .ag-product:first-child { padding-block-start:0; }
   .ag-range-photo img { aspect-ratio:1; object-fit:contain; }
+  .ag-nadxen-notice { display:grid; grid-template-columns:260px 1fr; gap:40px; align-items:center; margin-block-start:48px; padding-block-start:48px; border-top:1px solid var(--ag-line); }
+  .ag-nadxen-notice a { display:block; }
+  .ag-nadxen-notice img { aspect-ratio:589/805; object-fit:contain; background:#fff; border:1px solid var(--ag-line); }
+  .ag-nadxen-notice figcaption { margin-block-start:0; }
+  .ag-nadxen-notice__label { display:block; font-size:.78rem; font-weight:600; color:var(--ag-blue); text-transform:uppercase; letter-spacing:.04em; margin-block-end:12px; }
+  .ag-nadxen-notice p { color:var(--ag-ink); font-size:.95rem; max-width:52ch; }
+  @media(max-width:700px) { .ag-nadxen-notice { grid-template-columns:1fr; gap:22px; margin-block-start:36px; padding-block-start:36px; } .ag-nadxen-notice img { max-width:260px; margin-inline:auto; } }
   .ag-devices { display:grid; grid-template-columns:repeat(3,1fr); gap:50px 35px; }
   .ag-device__image { background:white; margin-block-end:23px; padding:24px; }
   .ag-device__image img { aspect-ratio:1; object-fit:contain; }

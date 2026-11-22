@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺, NMN, ग्लूटाथियोन और PDRN वाला एम्प्यूल। CPNP पंजीकरण प्रक्रिया में है।",
+          "value": "NAD⁺, NMN, ग्लूटाथियोन और PDRN वाला एम्प्यूल। CPNP सूचना (EU पोर्टल) पूर्ण।",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺, NMN, ग्लूटाथियोन और PDRN वाला सीरम। CPNP पंजीकरण प्रक्रिया में है।",
+          "value": "NAD⁺, NMN, ग्लूटाथियोन और PDRN वाला सीरम। CPNP सूचना (EU पोर्टल) पूर्ण।",
           "box": [
             310,
             339.375,
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.hi.json",
-      "sha256": "242ca00cfe10a7da82d089c41910bf743bbee688519bda2c07994ccabd2e9d05"
+      "sha256": "a2e58c02c83e0616072307817c8e09bfd9892c0b09ca2147e282a322529e3180"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

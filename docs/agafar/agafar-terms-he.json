@@ -132,7 +132,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.he.json",
-      "sha256": "35679285d7bf5bc8aa1ca45ef717018e56d15e29516d8256c8d7f22e616982f6"
+      "sha256": "0faf0d51f6dac7dd376f8d5d39a4afe129f19eb1683b213668a2bfd0d7295b71"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

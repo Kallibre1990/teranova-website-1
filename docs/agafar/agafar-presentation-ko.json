@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺, NMN, 글루타치온, PDRN을 함유한 앰플입니다. CPNP 등록 절차가 진행 중입니다.",
+          "value": "NAD⁺, NMN, 글루타치온, PDRN을 함유한 앰플입니다. CPNP 신고(유럽연합 포털) 완료.",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "NAD⁺, NMN, 글루타치온, PDRN을 함유한 세럼입니다. CPNP 등록 절차가 진행 중입니다.",
+          "value": "NAD⁺, NMN, 글루타치온, PDRN을 함유한 세럼입니다. CPNP 신고(유럽연합 포털) 완료.",
           "box": [
             310,
             339.375,
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.ko.json",
-      "sha256": "217ec7b4e8103fd58b74d77f253b790ab5bfe174eac772590466351b1590396d"
+      "sha256": "1862f9f74ca59cae0ecda8a61d5571f4919aa5eae9882d1dca8ee700513c59f8"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

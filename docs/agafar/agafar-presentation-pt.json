@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Ampola com NAD⁺, NMN, glutationa e PDRN. Registro no CPNP em andamento.",
+          "value": "Ampola com NAD⁺, NMN, glutationa e PDRN. Notificação CPNP (portal da UE) concluída.",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Sérum com NAD⁺, NMN, glutationa e PDRN. Registro no CPNP em andamento.",
+          "value": "Sérum com NAD⁺, NMN, glutationa e PDRN. Notificação CPNP (portal da UE) concluída.",
           "box": [
             310,
             339.375,
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.pt.json",
-      "sha256": "4a75c44741f0d879a9eeeabfabe81da32a4f45681c50beb3365f89f7fbed8c05"
+      "sha256": "cdd1f32f397e35ab58ad2c5e690de948d8b43d784e501238ca4141978fc12094"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",

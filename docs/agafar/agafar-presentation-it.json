@@ -1649,7 +1649,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Fiala con NAD⁺, NMN, glutatione e PDRN. Registrazione CPNP in corso.",
+          "value": "Fiala con NAD⁺, NMN, glutatione e PDRN. Notifica CPNP (portale UE) completata.",
           "box": [
             42,
             339.375,
@@ -1685,7 +1685,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Siero con NAD⁺, NMN, glutatione e PDRN. Registrazione CPNP in corso.",
+          "value": "Siero con NAD⁺, NMN, glutatione e PDRN. Notifica CPNP (portale UE) completata.",
           "box": [
             310,
             339.375,
@@ -2637,7 +2637,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.it.json",
-      "sha256": "654ea877faf7084bc687f925a868a6d1ae9acac028676b554add8b5ae59bed60"
+      "sha256": "fc0e7aa5db7d5b6d8c258a4f48e100013d0815189bac32d0252d7b24edf726b3"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
