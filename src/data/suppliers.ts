@@ -694,6 +694,12 @@ import feelodyZh from './suppliers-i18n/feelody.zh.json';
 import feelodyJa from './suppliers-i18n/feelody.ja.json';
 import feelodyHe from './suppliers-i18n/feelody.he.json';
 import feelodyHi from './suppliers-i18n/feelody.hi.json';
+import feelodyIt from './suppliers-i18n/feelody.it.json';
+import feelodyDe from './suppliers-i18n/feelody.de.json';
+import feelodyFr from './suppliers-i18n/feelody.fr.json';
+import feelodyTr from './suppliers-i18n/feelody.tr.json';
+import feelodyEs from './suppliers-i18n/feelody.es.json';
+import feelodyPt from './suppliers-i18n/feelody.pt.json';
 import artfaceCatalog from './suppliers-i18n/artface.catalog.json';
 import artfaceRu from './suppliers-i18n/artface.ru.json';
 import artfaceEn from './suppliers-i18n/artface.en.json';
@@ -1493,6 +1499,8 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(feelodyRu), en: mk(feelodyEn), ko: mk(feelodyKo), zh: mk(feelodyZh),
       ja: mk(feelodyJa), he: mk(feelodyHe), hi: mk(feelodyHi),
+      it: mk(feelodyIt), de: mk(feelodyDe), fr: mk(feelodyFr),
+      tr: mk(feelodyTr), es: mk(feelodyEs), pt: mk(feelodyPt),
     },
   },
   {
