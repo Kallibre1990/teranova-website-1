@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T17:26:40Z",
+  "generated_at": "2026-11-23T17:45:01Z",
   "measurements": {
     "feelody": {
       "source_url": "https://teranovagroup.com/en/catalog/feelody/",
@@ -13,6 +13,29 @@
       ],
       "pdf": [],
       "blocks": [],
+      "block_measurement": {
+        "method": "local-section-role-inventory-v1",
+        "section_count": 1,
+        "recognized_roles": [],
+        "duplicate_roles": [],
+        "unknown_count": 1,
+        "ambiguous_count": 0,
+        "complete": false,
+        "reason": "http_status_404_not_profile",
+        "evidence": [
+          {
+            "index": 0,
+            "section_classes": [
+              "notice"
+            ],
+            "headings": [
+              "Страница скоро появится"
+            ],
+            "role": null,
+            "role_candidates": []
+          }
+        ]
+      },
       "http_status": 404,
       "snapshot_file": "feelody-404.html"
     },
@@ -90,7 +113,216 @@
           "type": "terms"
         }
       ],
-      "blocks": []
+      "blocks": [
+        "articles",
+        "brand_lines",
+        "catalog",
+        "certifications",
+        "cta",
+        "facts",
+        "formats",
+        "hero",
+        "selection",
+        "showcase",
+        "technology",
+        "terms",
+        "visit"
+      ],
+      "block_measurement": {
+        "method": "local-section-role-inventory-v1",
+        "section_count": 13,
+        "recognized_roles": [
+          "articles",
+          "brand_lines",
+          "catalog",
+          "certifications",
+          "cta",
+          "facts",
+          "formats",
+          "hero",
+          "selection",
+          "showcase",
+          "technology",
+          "terms",
+          "visit"
+        ],
+        "duplicate_roles": [],
+        "unknown_count": 0,
+        "ambiguous_count": 0,
+        "complete": true,
+        "reason": null,
+        "evidence": [
+          {
+            "index": 0,
+            "section_classes": [
+              "sp-hero"
+            ],
+            "headings": [
+              "DREAMCOS"
+            ],
+            "role": "hero",
+            "role_candidates": [
+              "hero"
+            ]
+          },
+          {
+            "index": 1,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "visit",
+            "role_candidates": [
+              "visit"
+            ]
+          },
+          {
+            "index": 2,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "facts",
+            "role_candidates": [
+              "facts"
+            ]
+          },
+          {
+            "index": 3,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [
+              "DUFT&DOFT",
+              "SALMON:LAB",
+              "RUDIA",
+              "LOVELYCC",
+              "LADYBIZ",
+              "NOLIE",
+              "CAMIHOUSE"
+            ],
+            "role": "brand_lines",
+            "role_candidates": [
+              "brand_lines"
+            ]
+          },
+          {
+            "index": 4,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [
+              "DUFT&DOFT",
+              "RUDIA",
+              "LOVELYCC",
+              "LADYBIZ",
+              "NOLIE"
+            ],
+            "role": "catalog",
+            "role_candidates": [
+              "catalog"
+            ]
+          },
+          {
+            "index": 5,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [
+              "Full-cycle OEM/ODM",
+              "Salmon-DNA PDRN",
+              "Fragrance development"
+            ],
+            "role": "technology",
+            "role_candidates": [
+              "technology"
+            ]
+          },
+          {
+            "index": 6,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "certifications",
+            "role_candidates": [
+              "certifications"
+            ]
+          },
+          {
+            "index": 7,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "showcase",
+            "role_candidates": [
+              "showcase"
+            ]
+          },
+          {
+            "index": 8,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "formats",
+            "role_candidates": [
+              "formats"
+            ]
+          },
+          {
+            "index": 9,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "terms",
+            "role_candidates": [
+              "terms"
+            ]
+          },
+          {
+            "index": 10,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "articles",
+            "role_candidates": [
+              "articles"
+            ]
+          },
+          {
+            "index": 11,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "selection",
+            "role_candidates": [
+              "selection"
+            ]
+          },
+          {
+            "index": 12,
+            "section_classes": [
+              "sp-cta"
+            ],
+            "headings": [
+              "Interested in this manufacturer?"
+            ],
+            "role": "cta",
+            "role_candidates": [
+              "cta"
+            ]
+          }
+        ]
+      }
     },
     "dongdonggurimoo": {
       "source_url": "https://teranovagroup.com/en/catalog/dongdonggurimoo/",
@@ -191,7 +423,213 @@
           "type": "terms"
         }
       ],
-      "blocks": []
+      "blocks": [
+        "articles",
+        "brand_lines",
+        "catalog",
+        "certifications",
+        "cta",
+        "facts",
+        "formats",
+        "hero",
+        "selection",
+        "showcase",
+        "technology",
+        "terms",
+        "visit"
+      ],
+      "block_measurement": {
+        "method": "local-section-role-inventory-v1",
+        "section_count": 13,
+        "recognized_roles": [
+          "articles",
+          "brand_lines",
+          "catalog",
+          "certifications",
+          "cta",
+          "facts",
+          "formats",
+          "hero",
+          "selection",
+          "showcase",
+          "technology",
+          "terms",
+          "visit"
+        ],
+        "duplicate_roles": [],
+        "unknown_count": 0,
+        "ambiguous_count": 0,
+        "complete": true,
+        "reason": null,
+        "evidence": [
+          {
+            "index": 0,
+            "section_classes": [
+              "sp-hero"
+            ],
+            "headings": [
+              "DONGDONGGURIMOO"
+            ],
+            "role": "hero",
+            "role_candidates": [
+              "hero"
+            ]
+          },
+          {
+            "index": 1,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "visit",
+            "role_candidates": [
+              "visit"
+            ]
+          },
+          {
+            "index": 2,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "facts",
+            "role_candidates": [
+              "facts"
+            ]
+          },
+          {
+            "index": 3,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [
+              "LEBELAGE",
+              "HEEYUL"
+            ],
+            "role": "brand_lines",
+            "role_candidates": [
+              "brand_lines"
+            ]
+          },
+          {
+            "index": 4,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [
+              "Dr. Derma Line",
+              "Cica & Centella Care",
+              "Truly Active Serums & Pads",
+              "Concentrated Ampoules & Serums",
+              "Sheet & Gel Masks",
+              "Sun Care & Cleansing",
+              "Value Sets & Make-up"
+            ],
+            "role": "catalog",
+            "role_candidates": [
+              "catalog"
+            ]
+          },
+          {
+            "index": 5,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [
+              "Functional actives in the formulas",
+              "A broad product matrix",
+              "Registrations for export markets"
+            ],
+            "role": "technology",
+            "role_candidates": [
+              "technology"
+            ]
+          },
+          {
+            "index": 6,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "certifications",
+            "role_candidates": [
+              "certifications"
+            ]
+          },
+          {
+            "index": 7,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "showcase",
+            "role_candidates": [
+              "showcase"
+            ]
+          },
+          {
+            "index": 8,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "formats",
+            "role_candidates": [
+              "formats"
+            ]
+          },
+          {
+            "index": 9,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "terms",
+            "role_candidates": [
+              "terms"
+            ]
+          },
+          {
+            "index": 10,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "articles",
+            "role_candidates": [
+              "articles"
+            ]
+          },
+          {
+            "index": 11,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "selection",
+            "role_candidates": [
+              "selection"
+            ]
+          },
+          {
+            "index": 12,
+            "section_classes": [
+              "sp-cta"
+            ],
+            "headings": [
+              "Interested in this manufacturer?"
+            ],
+            "role": "cta",
+            "role_candidates": [
+              "cta"
+            ]
+          }
+        ]
+      }
     }
   },
   "gaps": {
@@ -212,7 +650,21 @@
         "sha256": "861d374964b1fde1b46d992b2085d5b106588a1f062b963a7790205345340284"
       }
     ],
-    "missing_blocks": [],
+    "missing_blocks": [
+      "articles",
+      "brand_lines",
+      "catalog",
+      "certifications",
+      "cta",
+      "facts",
+      "formats",
+      "hero",
+      "selection",
+      "showcase",
+      "technology",
+      "terms",
+      "visit"
+    ],
     "blog_gap": 3,
     "image_counts": [
       3,
@@ -232,6 +684,11 @@
       "basis": "Применим: оба эталона публикуют статьи /blog/ (dreamcos=6, dongdonggurimoo=3 — подтверждено независимым grep по сохранённому HTML), у Feelody до сборки 0 (профиля нет, 404). Пробел закрыт позже тремя статьями (этап 4, commit 4c0e170) — эта запись фиксирует основание решения, а не текущее состояние сайта."
     },
     {
+      "gap": "missing_blocks",
+      "applicable": true,
+      "basis": "Применим: локальный разбор секций по структурным маркерам (не id — живой шаблон использует классы) нашёл у обоих эталонов все 13 канонических ролей (articles, brand_lines, catalog, certifications, cta, facts, formats, hero, selection, showcase, technology, terms, visit), block_measurement.complete=True для обоих (dreamcos, dongdonggurimoo), 0 unknown/duplicate/ambiguous. У снимка Feelody на момент замера (17:23 UTC, HTTP 404 — профиля ещё не существовало) секций профиля нет вовсе, block_measurement.reason=http_status_404_not_profile — пустой blocks здесь честно означает «страницы нет», а не недостаток парсера. Пробел зафиксирован как основание для этапов 2–3, а не как текущее состояние сайта."
+    },
+    {
       "gap": "missing_pdf_types:price",
       "applicable": true,
       "basis": "Неприменим по запрету поставщика: Feelody просил не публиковать FOB price list и коммерческие условия (переписка feelody.official@gmail.com, 23.11.2026). PDF с типом price исключён из сравнения (forbid_prices=True) и не создаётся ради количества файлов."
@@ -239,7 +696,7 @@
     {
       "gap": "missing_pdf_types:presentation,terms",
       "applicable": true,
-      "basis": "Применим, но не закрыт в этой части: presentation и terms — общий базовый набор по обоим эталонам (classify по имени файла из HTML, не угадано). У Feelody такого документа на сайте нет; создавать его сейчас не входит в объём этого замера — факт зафиксирован как открытый пробел, а не как решение добавить файл."
+      "basis": "Применим, но не закрыт в этой части: presentation и terms — общий базовый набор по обоим эталонам (classify по имени файла из HTML, не угадано). У Feelody такого документа на сайте нет; создавать его сейчас не входит в объём этого замера — факт зафиксирован как открытый пробел, а не как решение добавить файл. Отдельно от terms-HTML блока профиля (другое измерение, другой ключ в измерении — terms-PDF и terms-блок не смешиваются)."
     },
     {
       "gap": "image_counts:feelody=3",
