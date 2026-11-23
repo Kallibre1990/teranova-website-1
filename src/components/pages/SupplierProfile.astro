@@ -445,7 +445,9 @@ function monogram(name: string): string {
       <span class="sp-lvl">{c.ui.lines_h}</span>
       <div class="sp-lines">
         {c.lines.map((l, i) => {
-          const href = lineHref(l.name);
+          const href = profile.slug === 'two-tigers'
+            ? `#catalog-group-${[0, 1, 4, 5, 6, 7, 21, 27][i]}`
+            : lineHref(l.name);
           const shot = lineShot(ruLines[i]?.name ?? l.name);
           const El = href ? 'a' : 'article';
           return (
@@ -482,31 +484,32 @@ function monogram(name: string): string {
             const base = profile.catalog!.slice(0, gi).reduce((s, g) => s + g.items.length, 0);
             const groupLabel = catalogText(grp.line, grp.lineI18n, lang);
             return (
-              <div class="sp-catgrp">
+              <div class="sp-catgrp" id={profile.slug === 'two-tigers' ? `catalog-group-${gi}` : undefined}>
                 <div class="sp-catgrp__head">
                   <h3 class="sp-catgrp__nm">
-                    {lineHref(grp.line) ? <a class="sp-catgrp__lnk" href={lineHref(grp.line)}>{groupLabel}</a> : groupLabel}
+                    {profile.slug === 'two-tigers' ? <a class="sp-catgrp__lnk" href={`#catalog-items-${gi}`}>{groupLabel}</a> : lineHref(grp.line) ? <a class="sp-catgrp__lnk" href={lineHref(grp.line)}>{groupLabel}</a> : groupLabel}
                   </h3>
                   <div class="sp-catnav" hidden>
                     <button class="sp-catnav__b" type="button" data-dir="-1" aria-label={t.common.prev}>‹</button>
                     <button class="sp-catnav__b" type="button" data-dir="1" aria-label={t.common.next}>›</button>
                   </div>
                 </div>
-                <div class="sp-catgrp__grid">
+                <div class="sp-catgrp__grid" id={profile.slug === 'two-tigers' ? `catalog-items-${gi}` : undefined}>
                   {grp.items.map((it, ii) => {
                     const note = c.catalog_notes?.[base + ii];
                     return (
-                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-name={catalogText(it.name, it.nameI18n, lang)}>
+                      <button class={it.img ? 'sp-prod' : 'sp-prod sp-prod--nopic'} type="button" data-full={it.img} data-manifest-id={it.manifestId} data-name={[it.brand, catalogText(it.name, it.nameI18n, lang)].filter(Boolean).join(' · ')}>
                         {/* Позиция без фотографии — не пустая рамка и не битая картинка,
                             а плашка с монограммой в цветах поставщика. Нужна там, где
                             товар физически не фотогеничен (сырьё в порошке) или снимков
                             от поставщика ещё нет. */}
                         <span class="sp-prod__ph">
                           {it.img
-                            ? <img src={it.img} alt={catalogText(it.name, it.nameI18n, lang)} loading="lazy" decoding="async" />
+                            ? <img src={it.img} alt={[it.brand, catalogText(it.name, it.nameI18n, lang)].filter(Boolean).join(' · ')} loading="lazy" decoding="async" />
                             : <span class="sp-prod__mono" aria-hidden="true">{monogram(it.name)}</span>}
                         </span>
                         <span class="sp-prod__body">
+                          {it.brand && <span class="sp-prod__brand">{it.brand}</span>}
                           <span class="sp-prod__nm">{catalogText(it.name, it.nameI18n, lang)}{it.volume && <span class="sp-prod__vol"> · {catalogText(it.volume, it.volumeI18n, lang)}</span>}</span>
                           {note && <span class="sp-prod__desc">{note}</span>}
                           {it.certs && it.certs.length > 0 && (
@@ -957,6 +960,8 @@ function monogram(name: string): string {
   .sp-chips-inline li { font-size: 0.84rem; font-weight: 600; color: #45576f; background: color-mix(in srgb, var(--ds-sky) 10%, #fff); border: 1px solid color-mix(in srgb, var(--ds-sky) 24%, #d4dde9); border-radius: 100px; padding: 6px 13px; }
 
   .sp-catalog { display: flex; flex-direction: column; gap: 24px; }
+  .sp-prod__brand { display: block; font-size: .8rem; font-weight: 700; color: var(--ds-deep); margin-bottom: 6px; }
+  .sp-catgrp, .sp-catgrp__grid { scroll-margin-top: 100px; }
   .sp-catgrp__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
   .sp-catgrp__nm { font-size: 1.05rem; font-weight: 800; color: var(--ds-deep); margin: 0; display: flex; align-items: center; gap: 10px; }
   .sp-catgrp__nm::before { content: ''; width: 18px; height: 2px; background: var(--ds-sky); border-radius: 2px; }

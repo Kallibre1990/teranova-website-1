@@ -980,7 +980,7 @@ export interface SupplierProfile {
   /* Product identities/assets stay shared; descriptive group/pack labels can be localized. */
   /* img необязателен: у поставщика сырья товар — порошок или масло, и снимка
      позиции может не быть вовсе. Карточка тогда показывает монограмму. */
-  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; nameI18n?: Partial<Record<Lang, string>>; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
+  catalog?: { line: string; lineI18n?: Partial<Record<Lang, string>>; items: { name: string; brand?: string; manifestId?: string; nameI18n?: Partial<Record<Lang, string>>; img?: string; volume?: string; volumeI18n?: Partial<Record<Lang, string>>; price?: string; moq?: number; certs?: string[]; actives?: string[]; activesI18n?: Partial<Record<Lang, string[]>> }[] }[];
   /* Certifications/registrations declared by the company (shown with a caveat). */
   certs?: string[];
   /* Downloadable terms sheet (per language, path under /public). */

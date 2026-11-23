@@ -46,7 +46,9 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-3"
       },
       {
         "name": "Tea Tree Soothing Essence Micro Spicule 100",
@@ -92,12 +94,16 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-4"
       },
       {
         "name": "Propolis Essence Micro Spicule 100",
         "img": "/img/suppliers/two-tigers/products/wati-11-2.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-5"
       },
       {
         "name": "From CICA Essence Micro Spicule 100",
@@ -143,17 +149,23 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-6"
       },
       {
         "name": "Heartleaf Essence Micro Spicule 100",
         "img": "/img/suppliers/two-tigers/products/wati-09-3.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-7"
       },
       {
         "name": "Niacinamide Essence Micro Spicule 100",
         "img": "/img/suppliers/two-tigers/products/wati-08-2.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-8"
       },
       {
         "name": "Collagen Essence Micro Spicule 100",
@@ -199,12 +211,16 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-9"
       },
       {
         "name": "PDRN+ Biome Essence Micro Spicule 100",
         "img": "/img/suppliers/two-tigers/products/wati-11-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-10"
       },
       {
         "name": "Hyaluronic Acid Essence Micro Spicule 100",
@@ -250,12 +266,16 @@
           "hi": [
             "त्वचा जलयोजन"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-11"
       },
       {
         "name": "Vitamin Essence Micro Spicule 100",
         "img": "/img/suppliers/two-tigers/products/wati-09-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-12"
       },
       {
         "name": "RETI-A Essence Micro Spicule 100",
@@ -301,12 +321,16 @@
           "hi": [
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-13"
       },
       {
         "name": "Lifting Essence Micro Spicule 100",
         "img": "/img/suppliers/two-tigers/products/wati-08-3.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-14"
       }
     ]
   },
@@ -316,7 +340,9 @@
       {
         "name": "Glycolic Acid PDRN Micro Spicule Cream",
         "img": "/img/suppliers/two-tigers/products/wati-14-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-15"
       },
       {
         "name": "Niacinamide EGF Micro Spicule Cream",
@@ -362,7 +388,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-16"
       },
       {
         "name": "Retinol Vitamin Micro Spicule Cream",
@@ -408,7 +436,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-17"
       },
       {
         "name": "Bakuchiol Heartleaf Cica Micro Spicule Cream",
@@ -454,7 +484,9 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-18"
       },
       {
         "name": "Tranexamic Acid Collagen Micro Spicule Cream",
@@ -500,7 +532,9 @@
           "hi": [
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-19"
       },
       {
         "name": "Hyaluronic Squalane Micro Spicule Cream",
@@ -559,7 +593,9 @@
             "त्वचा की नमी",
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-20"
       }
     ]
   },
@@ -623,7 +659,9 @@
             "त्वचा की लोच",
             "त्वचा की नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-21"
       },
       {
         "name": "Vita Barrier Volufroshot Cream",
@@ -682,7 +720,9 @@
             "त्वचा की लोच",
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-22"
       },
       {
         "name": "Collagen Niacinamide Volufroshot Cream",
@@ -728,7 +768,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-23"
       },
       {
         "name": "Tea Tree Cica Blemish Soothing Volufroshot Cream",
@@ -787,7 +829,9 @@
             "त्वचा को शांत करना",
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-24"
       },
       {
         "name": "Panthenol Ceramide Volufroshot Cream",
@@ -859,7 +903,9 @@
             "त्वचा की नमी",
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-25"
       },
       {
         "name": "PDRN Biome Volufroshot Cream",
@@ -931,7 +977,9 @@
             "त्वचा की लोच",
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-26"
       }
     ]
   },
@@ -995,7 +1043,9 @@
             "त्वचा को शांत करना",
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-27"
       },
       {
         "name": "Glycolic Acid Squalane Volufroshot Ampoule",
@@ -1067,7 +1117,9 @@
             "त्वचा की नमी",
             "सीबम नियंत्रण"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-28"
       },
       {
         "name": "Collagen Retinol Volufroshot Ampoule",
@@ -1113,7 +1165,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-29"
       },
       {
         "name": "Tranexamic Acid Vitamin Volufroshot Ampoule",
@@ -1159,7 +1213,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-30"
       },
       {
         "name": "Hyaluronic Panthenol B5 Volufroshot Ampoule",
@@ -1244,7 +1300,9 @@
             "त्वचा की लोच",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-31"
       },
       {
         "name": "Adenosine EGF Volufroshot Ampoule",
@@ -1290,7 +1348,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-32"
       }
     ]
   },
@@ -1354,12 +1414,16 @@
             "त्वचा को शांत करना",
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-33"
       },
       {
         "name": "Glutathione Cica Blemish Exosome-B Ampoule",
         "img": "/img/suppliers/two-tigers/products/wati-18-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-34"
       },
       {
         "name": "Madecassoside Ceramide Exosome-B Ampoule",
@@ -1418,7 +1482,9 @@
             "त्वचा को शांत करना",
             "त्वचा की नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-35"
       },
       {
         "name": "Tea Tree Peptide Exosome-B Ampoule",
@@ -1464,7 +1530,9 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-36"
       },
       {
         "name": "Panthenol Caffeine Exosome-B Ampoule",
@@ -1523,7 +1591,9 @@
             "त्वचा की लोच",
             "त्वचा की नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-37"
       },
       {
         "name": "PDRN Zinc Biome Exosome-B Ampoule",
@@ -1582,7 +1652,9 @@
             "त्वचा की लोच",
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-38"
       }
     ]
   },
@@ -1592,12 +1664,16 @@
       {
         "name": "Heartleaf Vital Wrinkle Exosome-B Eye Cream",
         "img": "/img/suppliers/two-tigers/products/wati-24-2.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-39"
       },
       {
         "name": "Glutathione Niacinamide Exosome-B Eye Cream",
         "img": "/img/suppliers/two-tigers/products/wati-24-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-40"
       },
       {
         "name": "Collagen Retinol Exosome-B Eye Cream",
@@ -1643,12 +1719,16 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-41"
       },
       {
         "name": "EGF Ginseng Micro Spicule Eye Cream",
         "img": "/img/suppliers/two-tigers/products/wati-23-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-42"
       },
       {
         "name": "Glycolic Peptide Micro Spicule Eye Cream",
@@ -1694,7 +1774,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-43"
       },
       {
         "name": "PDRN Ceramide Micro Spicule Eye Cream",
@@ -1740,12 +1822,16 @@
           "hi": [
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-44"
       },
       {
         "name": "Snail Vitamin Skin Booster Eye Cream",
         "img": "/img/suppliers/two-tigers/products/wati-26-2.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-45"
       },
       {
         "name": "Super volume Hyaluronic Acid Skin Booster Eye Cream",
@@ -1817,7 +1903,9 @@
             "त्वचा की लोच",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-46"
       },
       {
         "name": "Avocado Bio Lifting Volufroshot Eye Cream",
@@ -1876,7 +1964,9 @@
             "त्वचा की लोच",
             "त्वचा की नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-47"
       },
       {
         "name": "Bakuchiol Barrier Volufroshot Eye Cream",
@@ -1948,7 +2038,9 @@
             "त्वचा की लोच",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-48"
       },
       {
         "name": "Panthenol Dark Circle Volufroshot Conceal Eye Cream",
@@ -2007,7 +2099,9 @@
             "त्वचा की लोच",
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-49"
       },
       {
         "name": "Squalane Caffeine Micro Spicule Conceal Eye Cream",
@@ -2066,7 +2160,9 @@
             "त्वचा की लोच",
             "त्वचा की नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-50"
       }
     ]
   },
@@ -2076,7 +2172,9 @@
       {
         "name": "PDRN 2X Biome Micro Spicule 100 Essence Mask Pack 10ea",
         "img": "/img/suppliers/two-tigers/products/wati-29-1.webp",
-        "volume": "27g*10ea"
+        "volume": "27g*10ea",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-51"
       },
       {
         "name": "Collagen Madecassoside Micro Spicule 100 Essence Mask Pack 10ea",
@@ -2135,12 +2233,16 @@
             "त्वचा को शांत करना",
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-52"
       },
       {
         "name": "Retinol Tea Tree Micro Spicule 100 Essence Mask Pack 10ea",
         "img": "/img/suppliers/two-tigers/products/wati-29-2.webp",
-        "volume": "27g*10ea"
+        "volume": "27g*10ea",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-53"
       },
       {
         "name": "Hyaluronic Acid NMN Micro Spicule 100 Essence Mask Pack 10ea",
@@ -2199,7 +2301,9 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-54"
       },
       {
         "name": "Vita Ceramide Micro Spicule 100 Essence Mask Pack 10ea",
@@ -2245,7 +2349,9 @@
           "hi": [
             "त्वचा अवरोध सुधार"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-55"
       },
       {
         "name": "Pink PDRN Collagen Exosome Serum Mask Pack",
@@ -2317,7 +2423,9 @@
             "त्वचा की लोच",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-56"
       },
       {
         "name": "CICA Soothing Heartleaf Exosome Serum Mask Pack",
@@ -2402,7 +2510,9 @@
             "त्वचा कंडीशनिंग",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-57"
       },
       {
         "name": "Panthenol Snail Pore Tightening Volufroshot Ampoule Mask Pack",
@@ -2487,7 +2597,9 @@
             "रोमछिद्रों की देखभाल",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-58"
       },
       {
         "name": "Melatonin Collagen PDRN Lifting Volufroshot Ampoule Mask Pack",
@@ -2533,7 +2645,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-59"
       },
       {
         "name": "Glutathione Liposome Sedum Hyaluron Skin Booster Essence Mask Pack",
@@ -2605,7 +2719,9 @@
             "त्वचा की नमी",
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-60"
       }
     ]
   },
@@ -2615,32 +2731,44 @@
       {
         "name": "Panthenol Squalane Volufroshot Berry Lip Sleeping Mask",
         "img": "/img/suppliers/two-tigers/products/wati-39-1.webp",
-        "volume": "20ml"
+        "volume": "20ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-61"
       },
       {
         "name": "Collagen PDRN Exosome Grapefruit Lip Sleeping Mask",
         "img": "/img/suppliers/two-tigers/products/wati-38-3.webp",
-        "volume": "20ml"
+        "volume": "20ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-62"
       },
       {
         "name": "Mango Seed Vita Volufroshot Lip Glowy Balm",
         "img": "/img/suppliers/two-tigers/products/wati-38-1.webp",
-        "volume": "20ml"
+        "volume": "20ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-63"
       },
       {
         "name": "Vanilla PDRN Hyaluronic Acid Volufroshot Lip Glowy Balm",
         "img": "/img/suppliers/two-tigers/products/wati-38-2.webp",
-        "volume": "20ml"
+        "volume": "20ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-64"
       },
       {
         "name": "PDRN Peptide Exosome Lip Essence",
         "img": "/img/suppliers/two-tigers/products/wati-39-3.webp",
-        "volume": "20ml"
+        "volume": "20ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-65"
       },
       {
         "name": "Jojoba Retinol Exosome Lip Essence",
         "img": "/img/suppliers/two-tigers/products/wati-39-2.webp",
-        "volume": "20ml"
+        "volume": "20ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-66"
       }
     ]
   },
@@ -2704,7 +2832,9 @@
             "त्वचा की लोच",
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-67"
       },
       {
         "name": "NMN Melatonin PDRN Liposome Eye Cream",
@@ -2763,7 +2893,9 @@
             "त्वचा अवरोध सुधार",
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-68"
       },
       {
         "name": "Propolis Snail Exosome Cream",
@@ -2809,7 +2941,9 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-69"
       },
       {
         "name": "Madecassoside PDRN Exosome Cream",
@@ -2881,7 +3015,9 @@
             "त्वचा अवरोध सुधार",
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-70"
       },
       {
         "name": "Centella Zinc Blemish Exosome Cream",
@@ -2927,7 +3063,9 @@
           "hi": [
             "त्वचा को शांत करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-71"
       },
       {
         "name": "NMN Melatonin PDRN Exosome Cream",
@@ -2973,7 +3111,9 @@
           "hi": [
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-72"
       }
     ]
   },
@@ -3024,7 +3164,9 @@
           "hi": [
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-73"
       },
       {
         "name": "Sea Grape PDRN Exosome Pore Serum",
@@ -3083,7 +3225,9 @@
             "त्वचा कंडीशनिंग",
             "रोमछिद्रों की देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-74"
       },
       {
         "name": "Yulmu Centella PDRN Exosome Serum",
@@ -3142,7 +3286,9 @@
             "त्वचा को शांत करना",
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-75"
       }
     ]
   },
@@ -3152,12 +3298,16 @@
       {
         "name": "PDRN Madecassoside Micro Spicule Pad",
         "img": "/img/suppliers/two-tigers/products/wati-43-1.webp",
-        "volume": "60매"
+        "volume": "60매",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-76"
       },
       {
         "name": "Collagen Heartleaf Exosome Mild Acidic Peeling Pad",
         "img": "/img/suppliers/two-tigers/products/wati-43-2.webp",
-        "volume": "60매"
+        "volume": "60매",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-77"
       },
       {
         "name": "Collagen Carrot Volufroshot Pad",
@@ -3203,7 +3353,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-78"
       }
     ]
   },
@@ -3254,7 +3406,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-79"
       },
       {
         "name": "Melatonin NMN Volufroshot Toner",
@@ -3300,12 +3454,16 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-80"
       },
       {
         "name": "Galactomyces Hyaluronic Acid Exosome Peeling Toner",
         "img": "/img/suppliers/two-tigers/products/wati-44-3.webp",
-        "volume": "200ml"
+        "volume": "200ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-81"
       }
     ]
   },
@@ -3315,12 +3473,16 @@
       {
         "name": "Rose AHA PHA Micro Spicule Glow Liquid Mask",
         "img": "/img/suppliers/two-tigers/products/wati-45-1.webp",
-        "volume": "200ml"
+        "volume": "200ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-82"
       },
       {
         "name": "Vitamin PDRN Exosome Liquid Mask",
         "img": "/img/suppliers/two-tigers/products/wati-45-2.webp",
-        "volume": "200ml"
+        "volume": "200ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-83"
       }
     ]
   },
@@ -3384,12 +3546,16 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-84"
       },
       {
         "name": "Glutathione NMN Micro Spicule Wrapping Mask",
         "img": "/img/suppliers/two-tigers/products/wati-47-3.webp",
-        "volume": "100ml"
+        "volume": "100ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-85"
       },
       {
         "name": "PDRN peptide Micro Spicule Peel-Off Pack",
@@ -3448,7 +3614,9 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-86"
       },
       {
         "name": "NMN PDRN Volufroshot Water Sleeping Mask",
@@ -3494,7 +3662,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-87"
       }
     ]
   },
@@ -3545,7 +3715,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-88"
       },
       {
         "name": "PDRN Melatonin Volufroshot Milky Tone Up Sunscreen SPF50+",
@@ -3591,7 +3763,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-89"
       }
     ]
   },
@@ -3601,12 +3775,16 @@
       {
         "name": "Mild Acidic Green Tea CICA Moisture Whipping Cleansing Foam",
         "img": "/img/suppliers/two-tigers/products/wati-41-2.webp",
-        "volume": "100ml"
+        "volume": "100ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-90"
       },
       {
         "name": "PDRN Collagen Deep Clean Whipping Cleansing Foam",
         "img": "/img/suppliers/two-tigers/products/wati-41-1.webp",
-        "volume": "100ml"
+        "volume": "100ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-91"
       }
     ]
   },
@@ -3657,7 +3835,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-92"
       },
       {
         "name": "Glow Cover PDRN Micro Spicule Foundation",
@@ -3703,7 +3883,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-93"
       },
       {
         "name": "PDRN Niacinamide Volufroshot brightening Tone up Cream",
@@ -3762,7 +3944,9 @@
             "कसावट देखभाल",
             "सीबम नियंत्रण"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-94"
       },
       {
         "name": "Retinol PDRN Volufroshot Pink Tone up Cream",
@@ -3808,7 +3992,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-95"
       }
     ]
   },
@@ -3872,7 +4058,9 @@
             "रोमछिद्रों की देखभाल",
             "सीबम नियंत्रण"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-96"
       },
       {
         "name": "Goat Milk PDRN Micro Spicule Perfumed Soap",
@@ -3944,7 +4132,9 @@
             "कसावट देखभाल",
             "नमी प्रदान करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-97"
       },
       {
         "name": "Collagen NMN Exosome Perfumed Soap",
@@ -4003,7 +4193,9 @@
             "त्वचा की लोच",
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-98"
       },
       {
         "name": "Calendula Lavender Volufroshot Perfumed Soap",
@@ -4049,12 +4241,16 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-99"
       },
       {
         "name": "Mild Acidic Black Soybean Beer Yeast Micro Spicule Shampoo Bar",
         "img": "/img/suppliers/two-tigers/products/wati-51-2.webp",
-        "volume": "100g"
+        "volume": "100g",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-100"
       }
     ]
   },
@@ -4064,7 +4260,9 @@
       {
         "name": "Truffle Squalane Exosome Oil Serum",
         "img": "/img/suppliers/two-tigers/products/wati-56-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-101"
       },
       {
         "name": "Melatonin Caffeine PDRN Eye Serum",
@@ -4123,22 +4321,30 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-102"
       },
       {
         "name": "TXA PDRN Glow Serum",
         "img": "/img/suppliers/two-tigers/products/wati-56-3.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-103"
       },
       {
         "name": "Snail Mucin PDRN Serum",
         "img": "/img/suppliers/two-tigers/products/wati-57-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-104"
       },
       {
         "name": "NMN PDRN Serum",
         "img": "/img/suppliers/two-tigers/products/wati-57-2.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-105"
       }
     ]
   },
@@ -4148,17 +4354,23 @@
       {
         "name": "TXA PDRN Relaxing Cream",
         "img": "/img/suppliers/two-tigers/products/wati-58-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-106"
       },
       {
         "name": "Snail Mucin PDRN Cream",
         "img": "/img/suppliers/two-tigers/products/wati-58-2.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-107"
       },
       {
         "name": "NMN Exosome PDRN Cream",
         "img": "/img/suppliers/two-tigers/products/wati-58-3.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-108"
       }
     ]
   },
@@ -4209,12 +4421,16 @@
           "hi": [
             "सीबम नियंत्रण"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-109"
       },
       {
         "name": "CICA Extra Plus Pore Cleaner",
         "img": "/img/suppliers/two-tigers/products/wati-59-2.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-110"
       }
     ]
   },
@@ -4224,12 +4440,16 @@
       {
         "name": "Biotin Protein Polyphenol Volume Shampoo",
         "img": "/img/suppliers/two-tigers/products/wati-61-1.webp",
-        "volume": "500ml"
+        "volume": "500ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-111"
       },
       {
         "name": "Biotin Protein Polyphenol Damage Care Treatment",
         "img": "/img/suppliers/two-tigers/products/wati-61-2.webp",
-        "volume": "500ml"
+        "volume": "500ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-112"
       }
     ]
   },
@@ -4293,22 +4513,30 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-113"
       },
       {
         "name": "Panthenol Ceramide Ato Moisture Lotion",
         "img": "/img/suppliers/two-tigers/products/wati-63-2.webp",
-        "volume": "500ml"
+        "volume": "500ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-114"
       },
       {
         "name": "Acne Clear Ceramide Body Wash",
         "img": "/img/suppliers/two-tigers/products/wati-62-1.webp",
-        "volume": "500ml"
+        "volume": "500ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-115"
       },
       {
         "name": "Panthenol Ceramide Ato Top To Toe Wash",
         "img": "/img/suppliers/two-tigers/products/wati-63-1.webp",
-        "volume": "500ml"
+        "volume": "500ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-116"
       }
     ]
   },
@@ -4318,12 +4546,16 @@
       {
         "name": "Vitamin NMN Deep Hydrogel Mask",
         "img": "/img/suppliers/two-tigers/products/wati-69-1.webp",
-        "volume": "34g*4ea"
+        "volume": "34g*4ea",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-117"
       },
       {
         "name": "Collagen PDRN Deep Capsule Hydrogel Mask",
         "img": "/img/suppliers/two-tigers/products/wati-69-2.webp",
-        "volume": "34g*4ea"
+        "volume": "34g*4ea",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-118"
       },
       {
         "name": "Hyaluronic Acid Volufroshot Deep Silk Volume Fit Hydrogel Mask",
@@ -4382,7 +4614,9 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-119"
       }
     ]
   },
@@ -4392,7 +4626,9 @@
       {
         "name": "Peptide EGF Rejuver Glow Porcelain Cream",
         "img": "/img/suppliers/two-tigers/products/wati-65-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-120"
       },
       {
         "name": "Panthenol Snail Rejuver Elastic Thread Cream",
@@ -4451,17 +4687,23 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-121"
       },
       {
         "name": "PDRN Ceramide Rejuver Vaseline Cream",
         "img": "/img/suppliers/two-tigers/products/wati-65-3.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-122"
       },
       {
         "name": "Collagen NMN Rejuver Water Glow Cream",
         "img": "/img/suppliers/two-tigers/products/wati-66-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-123"
       },
       {
         "name": "Centella Pore Care Rejuver Relaxing Cream",
@@ -4507,17 +4749,23 @@
           "hi": [
             "रोमछिद्रों की देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-124"
       },
       {
         "name": "TXA Rejuver Mela Care Cream",
         "img": "/img/suppliers/two-tigers/products/wati-66-3.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-125"
       },
       {
         "name": "Kojic Acid Volufroshot Rejuver Horse Oil Cream",
         "img": "/img/suppliers/two-tigers/products/wati-67-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-126"
       }
     ]
   },
@@ -4568,7 +4816,9 @@
           "hi": [
             "कसावट देखभाल"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-127"
       },
       {
         "name": "Recovery NMN Shea Butter Hand Cream",
@@ -4627,7 +4877,9 @@
             "गहरी नमी",
             "गहरी नमी"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-128"
       },
       {
         "name": "Moisture PDRN Chamomile Hand Cream",
@@ -4673,12 +4925,16 @@
           "hi": [
             "नमी प्रदान करना"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-129"
       },
       {
         "name": "Propolis PDRN Emu Oil Foot Cream",
         "img": "/img/suppliers/two-tigers/products/wati-72-1.webp",
-        "volume": "100ml"
+        "volume": "100ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-130"
       }
     ]
   },
@@ -4729,7 +4985,9 @@
           "hi": [
             "त्वचा कंडीशनिंग"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-131"
       },
       {
         "name": "Wati for Skin Vitamin Ectoin Micro Spicule Silk Ampoule",
@@ -4775,12 +5033,16 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-132"
       },
       {
         "name": "Wati for Skin NMN Retinol Micro Spicule Silk Ampoule",
         "img": "/img/suppliers/two-tigers/products/wati-74-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-133"
       },
       {
         "name": "Wati for Skin Hyaluronic Acid NAD Volufroshot Silk Ampoule",
@@ -4826,7 +5088,9 @@
           "hi": [
             "त्वचा की लोच"
           ]
-        }
+        },
+        "brand": "Wati for Skin",
+        "manifestId": "two-tigers-row-134"
       }
     ]
   },
@@ -4836,37 +5100,51 @@
       {
         "name": "Dr.papirub Vita PDRN Exosome All-in-One Lotion",
         "img": "/img/suppliers/two-tigers/products/dr-12-1.webp",
-        "volume": "150ml"
+        "volume": "150ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-136"
       },
       {
         "name": "Dr.papirub PDRN NMN Eye Cream",
         "img": "/img/suppliers/two-tigers/products/dr-11-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-137"
       },
       {
         "name": "Dr.papirub Collagen PDRN Cream",
         "img": "/img/suppliers/two-tigers/products/dr-13-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-138"
       },
       {
         "name": "Dr.papirub Mild Acidic Rice Ceramide Cleansing Foam",
         "img": "/img/suppliers/two-tigers/products/dr-08-1.webp",
-        "volume": "150ml"
+        "volume": "150ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-139"
       },
       {
         "name": "Dr.papirub Hyaluronic Acid Ceramide Dewy Toner",
         "img": "/img/suppliers/two-tigers/products/dr-09-1.webp",
-        "volume": "500ml"
+        "volume": "500ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-140"
       },
       {
         "name": "Dr. PapiRub PDRN Exosome Silk Ampoule",
         "img": "/img/suppliers/two-tigers/products/dr-15-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-142"
       },
       {
         "name": "Retinol Niacinamide Serum",
         "img": "/img/suppliers/two-tigers/products/dr-10-1.webp",
-        "volume": "30ml"
+        "volume": "30ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-dr-retinol-presentation"
       }
     ]
   },
@@ -4876,7 +5154,9 @@
       {
         "name": "Dr.papirub Woody & Forest Eau de Parfum",
         "img": "/img/suppliers/two-tigers/products/dr-14-1.webp",
-        "volume": "50ml"
+        "volume": "50ml",
+        "brand": "Dr.Papirub",
+        "manifestId": "two-tigers-row-141"
       }
     ]
   }
