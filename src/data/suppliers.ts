@@ -463,6 +463,20 @@ import cellahealPt from './suppliers-i18n/cellaheal.pt.json';
 import cellahealHe from './suppliers-i18n/cellaheal.he.json';
 import cellahealHi from './suppliers-i18n/cellaheal.hi.json';
 import cellahealCatalog from './suppliers-i18n/cellaheal.catalog.json';
+import twoTigersRu from './suppliers-i18n/two-tigers.ru.json';
+import twoTigersEn from './suppliers-i18n/two-tigers.en.json';
+import twoTigersKo from './suppliers-i18n/two-tigers.ko.json';
+import twoTigersZh from './suppliers-i18n/two-tigers.zh.json';
+import twoTigersJa from './suppliers-i18n/two-tigers.ja.json';
+import twoTigersIt from './suppliers-i18n/two-tigers.it.json';
+import twoTigersDe from './suppliers-i18n/two-tigers.de.json';
+import twoTigersFr from './suppliers-i18n/two-tigers.fr.json';
+import twoTigersTr from './suppliers-i18n/two-tigers.tr.json';
+import twoTigersEs from './suppliers-i18n/two-tigers.es.json';
+import twoTigersPt from './suppliers-i18n/two-tigers.pt.json';
+import twoTigersHe from './suppliers-i18n/two-tigers.he.json';
+import twoTigersHi from './suppliers-i18n/two-tigers.hi.json';
+import twoTigersCatalog from './suppliers-i18n/two-tigers.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -3555,6 +3569,40 @@ export const suppliers: SupplierProfile[] = [
     },
     i18n: {
       ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any),
+    },
+  },
+  {
+    slug: 'two-tigers',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Two Tigers Corp',
+    brand: 'Wati for Skin · Dr.Papirub',
+    status: 'provided',
+    /* Met at K-Beauty Expo 2026 (subject line of their own follow-up mail);
+       catalogue and brand deck sent directly by the company's sales team,
+       16 Sep - 23 Nov 2026 (_MAIL_CRM/contacts/twotigers2222-naver-com).
+       Placement confirmed: company's own "very interested in your platform"
+       (23.11.2026) + Irina's exact placement command (T-20261123-097
+       journal, 23.11.2026, R-046). Colours read off the brands' own
+       packshots (T-20261123-100 whitelist): Wati for Skin coral-red on
+       cream, Dr.Papirub black wordmark + amber accent on white — clinical
+       dermo-cosmetic look on both. No price/MOQ/lead time/contacts are
+       published anywhere on this profile (T-20261123-101 criterion #4). */
+    brandColors: { deep: '#241B19', sky: '#C8433A', accent: '#E3A62F', bg: '#FBF6F2' },
+    voice: 'clinical',
+    gallery: [
+      '/img/suppliers/two-tigers/products/wati-08-1.webp',
+      '/img/suppliers/two-tigers/products/wati-14-2.webp',
+      '/img/suppliers/two-tigers/products/wati-20-1.webp',
+      '/img/suppliers/two-tigers/products/wati-18-3.webp',
+      '/img/suppliers/two-tigers/products/wati-29-1.webp',
+      '/img/suppliers/two-tigers/products/wati-74-1.webp',
+      '/img/suppliers/two-tigers/products/dr-12-1.webp',
+      '/img/suppliers/two-tigers/products/dr-15-1.webp',
+    ],
+    catalog: twoTigersCatalog as SupplierProfile['catalog'],
+    i18n: {
+      ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any),
     },
   },
 ];

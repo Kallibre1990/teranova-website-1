@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tagline": "两个韩国护肤品牌，一份已确认的140款产品目录。",
+    "descriptor": "Two Tigers Corp（韩国）：Wati for Skin主打微针与PDRN护肤，Dr.Papirub主打PDRN与外泌体护理。",
+    "origin": "韩国",
+    "about": [
+      "Two Tigers Corp是一家韩国公司，旗下拥有Wati for Skin和Dr.Papirub两个护肤品牌。Teranova团队在2026年K-Beauty Expo上与该公司销售团队会面，并直接从Two Tigers Corp获得了品牌官方产品手册。",
+      "Wati for Skin系列围绕微针（Micro Spicule）和PDRN外泌体递送方式构建：精华、面霜、安瓶和面膜，涵盖二十多个产品系列，从标志性的Micro Spicule 100精华系列到眼部护理、唇部护理、发部与身体护理。Dr.Papirub则增加了精简的PDRN护肤系列和一款香水。本页所有产品名称、容量和功效均来自品牌自有目录；凡公司未注明的功效，我们不作推测，直接留空。"
+    ],
+    "facts": [
+      "两个品牌：Wati for Skin与Dr.Papirub（Two Tigers Corp，韩国）",
+      "两品牌合计140款已确认目录产品",
+      "公司命名的核心技术：Micro Spicule、Volufroshot与PDRN-Exosome",
+      "于2026年K-Beauty Expo会面；目录由公司直接提供"
+    ],
+    "channels": [
+      "韩国护肤品进口商与经销商",
+      "零售连锁、药妆店与电商平台",
+      "专营韩国护肤品的网店"
+    ],
+    "lines": [
+      {
+        "name": "Micro Spicule 100 Essence",
+        "note": "12款30毫升精华，采用品牌微针配方，分别以胶原蛋白、PDRN+微生态、烟酰胺、维生素、玻尿酸或类视黄醇RETI-A为核心成分。"
+      },
+      {
+        "name": "Volufroshot 与 Micro Spicule Cream",
+        "note": "Volufroshot与Micro Spicule Cream系列的50毫升面霜与安瓶，组合了甘醇酸、视黄醇、补骨脂酚、胶原蛋白、玻尿酸与PDRN。"
+      },
+      {
+        "name": "Exosome-B Ampoule",
+        "note": "以外泌体-B为基础的30毫升安瓶，搭配补骨脂酚、积雪草苷、茶树、泛醇与PDRN-锌。"
+      },
+      {
+        "name": "眼部护理",
+        "note": "12款眼霜，涵盖Exosome-B、Micro Spicule、Skin Booster与Volufroshot配方，含专门的遮瑕淡黑眼圈配方。"
+      },
+      {
+        "name": "Mask Pack",
+        "note": "10款面膜/安瓶面膜套装（27克×10片），配方涵盖PDRN、胶原蛋白、视黄醇、玻尿酸、外泌体与skin-booster。"
+      },
+      {
+        "name": "唇部护理",
+        "note": "PDRN、胶原蛋白与维生素配方的睡眠面膜、润泽唇膏与唇部精华，各20毫升。"
+      },
+      {
+        "name": "身体、头发与手部护理",
+        "note": "洗发水、护发素、身体乳与沐浴露、护手霜与护足霜，采用生物素蛋白、PDRN神经酰胺与泛醇神经酰胺配方。"
+      },
+      {
+        "name": "Dr.Papirub",
+        "note": "精简的PDRN护肤系列——乳液、眼霜、面霜、洁面泡沫、化妆水、精华与丝质安瓶——外加一款木质森林香水。"
+      }
+    ],
+    "formats": [
+      "精华与血清",
+      "面霜",
+      "安瓶",
+      "眼部护理",
+      "面膜与棉片",
+      "唇部护理",
+      "化妆水",
+      "洁面",
+      "防晒",
+      "身体与头发护理",
+      "香水"
+    ],
+    "exportNote": "在2026年9月16日至11月23日的往来邮件中，Two Tigers Corp销售团队确认了希望在Teranova平台上架两个品牌的意向，Irina Tutova于2026年11月23日确认了上架。本页面基于公司直接提供的官方产品手册编写；每张产品卡片上的名称、容量和简要功效均为品牌自有表述。本页不公布价格、最小起订量、交期及公司私人联系方式——买家可通过Teranova询价。",
+    "consentNote": "本档案基于Two Tigers Corp在2026年K-Beauty Expo会面后直接提供的Wati for Skin与Dr.Papirub官方产品目录编写。公司与Irina Tutova已于2026年11月23日确认在Teranova平台上架。产品描述为公司自有表述；除此处所示内容外，Teranova未独立核实其他成分功效声明。",
+    "seoTitle": "Two Tigers Corp — Wati for Skin与Dr.Papirub韩国护肤 · Teranova",
+    "seoDesc": "Two Tigers Corp档案：Wati for Skin微针/PDRN护肤与Dr.Papirub PDRN外泌体护理，140款已确认目录产品。通过Teranova进行B2B采购。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}

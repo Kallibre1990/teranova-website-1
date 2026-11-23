@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tagline": "Dos marcas coreanas de cuidado de la piel, un catálogo confirmado de 140 artículos.",
+    "descriptor": "Two Tigers Corp (Corea): Wati for Skin con cuidado de micro-spicule y PDRN, y Dr.Papirub con cuidado PDRN-exosoma.",
+    "origin": "Corea",
+    "about": [
+      "Two Tigers Corp es una empresa coreana detrás de dos marcas de cuidado de la piel, Wati for Skin y Dr.Papirub. El equipo de Teranova se reunió con el equipo comercial de la empresa en el K-Beauty Expo 2026 y recibió el dossier oficial de productos directamente de Two Tigers Corp.",
+      "La gama Wati for Skin se construye en torno a los formatos de administración micro-spicule y PDRN-exosoma: esencias, cremas, ampollas y mascarillas en más de veinte familias de producto, desde la línea insignia de esencias Micro Spicule 100 hasta el cuidado de ojos, labios, cabello y cuerpo. Dr.Papirub añade una gama compacta de cuidado PDRN y una fragancia. Cada nombre de producto, volumen y propiedad en esta página proviene del propio catálogo de la marca; donde la empresa no indicó una propiedad, se omite en lugar de suponerse."
+    ],
+    "facts": [
+      "Dos marcas: Wati for Skin y Dr.Papirub (Two Tigers Corp, Corea)",
+      "140 artículos confirmados en catálogo entre ambas marcas",
+      "Tecnologías clave nombradas por la empresa: Micro Spicule, Volufroshot y PDRN-Exosome",
+      "Encuentro en el K-Beauty Expo 2026; catálogo recibido directamente de la empresa"
+    ],
+    "channels": [
+      "Importadores y distribuidores de cuidado de la piel coreano",
+      "Cadenas minoristas, farmacias y marketplaces",
+      "Tiendas en línea especializadas en cuidado de la piel coreano"
+    ],
+    "lines": [
+      {
+        "name": "Micro Spicule 100 Essence",
+        "note": "Doce esencias de 30 ml en el formato micro-spicule de la marca, cada una construida en torno a un activo: colágeno, PDRN+ bioma, niacinamida, vitamina, ácido hialurónico o el tipo retinol RETI-A."
+      },
+      {
+        "name": "Volufroshot y Micro Spicule Cream",
+        "note": "Cremas y ampollas de 50 ml de las familias Volufroshot y Micro Spicule Cream: combinaciones de ácido glicólico, retinol, bakuchiol, colágeno, ácido hialurónico y PDRN."
+      },
+      {
+        "name": "Exosome-B Ampoule",
+        "note": "Ampollas de 30 ml sobre base de exosoma-B, combinadas con bakuchiol, madecassósido, árbol del té, pantenol y PDRN-zinc."
+      },
+      {
+        "name": "Cuidado de ojos",
+        "note": "Doce cremas de ojos en los formatos Exosome-B, Micro Spicule, Skin Booster y Volufroshot, incluidas fórmulas dedicadas a cubrir ojeras."
+      },
+      {
+        "name": "Mask Pack",
+        "note": "Diez packs de mascarillas en tela y ampolla (27 g x 10) en fórmulas PDRN, colágeno, retinol, ácido hialurónico, exosoma y skin-booster."
+      },
+      {
+        "name": "Cuidado de labios",
+        "note": "Mascarillas de noche, bálsamos de brillo y esencias labiales en fórmulas PDRN, colágeno y vitamina, de 20 ml cada una."
+      },
+      {
+        "name": "Cuidado corporal, capilar y de manos",
+        "note": "Champú, tratamiento, loción y gel corporal, cremas de manos y pies sobre fórmulas de biotina-proteína, PDRN-ceramida y pantenol-ceramida."
+      },
+      {
+        "name": "Dr.Papirub",
+        "note": "Una gama compacta de cuidado PDRN —loción, crema de ojos, crema, espuma limpiadora, tónico, sérum y una ampolla silk— más una eau de parfum de madera y bosque."
+      }
+    ],
+    "formats": [
+      "Esencias y sérums",
+      "Cremas",
+      "Ampollas",
+      "Cuidado de ojos",
+      "Mascarillas y discos",
+      "Cuidado de labios",
+      "Tónicos",
+      "Limpieza",
+      "Protección solar",
+      "Cuidado corporal y capilar",
+      "Fragancia"
+    ],
+    "exportNote": "El equipo comercial de Two Tigers Corp confirmó su interés en listar ambas marcas en la plataforma Teranova en correspondencia del 16 de septiembre al 23 de noviembre de 2026, e Irina Tutova confirmó la incorporación el 23 de noviembre de 2026. Esta página se construye a partir del dossier oficial de productos de la marca, recibido directamente de la empresa; los nombres de producto, volúmenes y las breves propiedades en cada ficha son la propia redacción de la marca. Precios, cantidades mínimas de pedido, plazos de entrega y los datos de contacto privados de la empresa no se publican aquí: el comprador los solicita a través de Teranova.",
+    "consentNote": "Este perfil se construye a partir del catálogo oficial de productos de Wati for Skin y Dr.Papirub, enviado directamente por Two Tigers Corp tras un encuentro en el K-Beauty Expo 2026. La incorporación a la plataforma Teranova fue confirmada por la empresa y por Irina Tutova el 23 de noviembre de 2026. Las descripciones de producto son redacción propia de la empresa; Teranova no ha verificado de forma independiente afirmaciones sobre ingredientes más allá de lo mostrado aquí.",
+    "seoTitle": "Two Tigers Corp — Cuidado de la piel coreano Wati for Skin y Dr.Papirub · Teranova",
+    "seoDesc": "Perfil de Two Tigers Corp: cuidado micro-spicule/PDRN de Wati for Skin y cuidado PDRN-exosoma de Dr.Papirub, 140 artículos confirmados en catálogo. Sourcing B2B vía Teranova."
+  },
+  "ui": {
+    "profile_sup": "Perfil de proveedor",
+    "about_h": "Sobre la empresa",
+    "for_whom": "A quién le encaja:",
+    "lines_h": "Líneas de producto",
+    "catalog_h": "Catálogo de productos",
+    "tech_h": "Tecnología",
+    "formats_h": "Formatos de producto",
+    "export_h": "Exportación y mercados",
+    "terms_h": "Condiciones de cooperación",
+    "download_btn": "Descargar condiciones (PDF)",
+    "pres_btn": "Descargar presentación (PDF)",
+    "terms_disc": "Bajo consulta; no hay lista pública de precios.",
+    "cta_h": "¿Le interesa este proveedor?",
+    "cta_d": "Escríbanos — Teranova organiza la negociación, las verificaciones y toda la operación desde el primer contacto hasta la entrega.",
+    "cta_btn": "Contactar a través de Teranova",
+    "more": "Abrir perfil →",
+    "verified_suppliers": "Proveedores verificados",
+    "certs_h": "Certificaciones",
+    "certs_note": "",
+    "products_h": "Productos",
+    "products_note": ""
+  }
+}

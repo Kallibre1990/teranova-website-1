@@ -1,0 +1,4883 @@
+[
+  {
+    "line": "Micro Spicule 100 Essence",
+    "items": [
+      {
+        "name": "Original Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-11-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "Tea Tree Soothing Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-10-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "Propolis Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-11-2.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "From CICA Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-09-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "Heartleaf Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-09-3.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Niacinamide Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-08-2.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Collagen Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-08-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "PDRN+ Biome Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-11-1.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Hyaluronic Acid Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-10-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Увлажнение кожи"
+          ],
+          "ko": [
+            "피부 수분 공급"
+          ],
+          "zh": [
+            "肌肤水润"
+          ],
+          "ja": [
+            "肌の水分補給"
+          ],
+          "it": [
+            "Idratazione della pelle"
+          ],
+          "de": [
+            "Hautfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation de la peau"
+          ],
+          "tr": [
+            "Cilt nemlendirme"
+          ],
+          "es": [
+            "Hidratación de la piel"
+          ],
+          "pt": [
+            "Hidratação da pele"
+          ],
+          "he": [
+            "לחות העור"
+          ],
+          "hi": [
+            "त्वचा जलयोजन"
+          ]
+        }
+      },
+      {
+        "name": "Vitamin Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-09-1.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "RETI-A Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-10-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌バリア改善"
+          ],
+          "it": [
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "Lifting Essence Micro Spicule 100",
+        "img": "/img/suppliers/two-tigers/products/wati-08-3.webp",
+        "volume": "30ml"
+      }
+    ]
+  },
+  {
+    "line": "Micro Spicule Cream",
+    "items": [
+      {
+        "name": "Glycolic Acid PDRN Micro Spicule Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-14-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Niacinamide EGF Micro Spicule Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-13-3.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Retinol Vitamin Micro Spicule Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-14-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Bakuchiol Heartleaf Cica Micro Spicule Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-14-3.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "Tranexamic Acid Collagen Micro Spicule Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-13-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌バリア改善"
+          ],
+          "it": [
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "Hyaluronic Squalane Micro Spicule Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-13-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin moisturization",
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Увлажнённость кожи",
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 수분",
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "肌肤滋润",
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌のうるおい",
+            "肌バリア改善"
+          ],
+          "it": [
+            "Idratazione cutanea",
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Hautfeuchtigkeitsversorgung",
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Hydratation cutanée",
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt nemlenmesi",
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Humectación de la piel",
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Humectação da pele",
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "הידרציה של העור",
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा की नमी",
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Volufroshot Cream",
+    "items": [
+      {
+        "name": "Glutathione Squalane Volufroshot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-16-3.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी"
+          ]
+        }
+      },
+      {
+        "name": "Vita Barrier Volufroshot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-15-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity",
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌バリア改善"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "Collagen Niacinamide Volufroshot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-16-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Tea Tree Cica Blemish Soothing Volufroshot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-15-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin soothing",
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 탄력"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌の弾力"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Panthenol Ceramide Volufroshot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-15-3.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization",
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи",
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분",
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润",
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい",
+            "肌バリア改善"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea",
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung",
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée",
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi",
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel",
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele",
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור",
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी",
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "PDRN Biome Volufroshot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-16-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin soothing",
+          "Skin elasticity",
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Эластичность кожи",
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 탄력",
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤弹性",
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌の弾力",
+            "肌バリア改善"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Elasticità della pelle",
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautelastizität",
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Élasticité de la peau",
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt elastikiyeti",
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Elasticidad de la piel",
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Elasticidade da pele",
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "אלסטיות העור",
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा की लोच",
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Volufroshot Ampoule",
+    "items": [
+      {
+        "name": "Niacinamide Heartleaf Volufroshot Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-20-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing",
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 탄력"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌の弾力"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Glycolic Acid Squalane Volufroshot Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-20-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization",
+          "Sebum control"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи",
+            "Контроль себума"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분",
+            "피지 조절"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润",
+            "控油"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい",
+            "皮脂コントロール"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea",
+            "Controllo del sebo"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung",
+            "Talgkontrolle"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée",
+            "Contrôle du sébum"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi",
+            "Sebum kontrolü"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel",
+            "Control del sebo"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele",
+            "Controle de sebo"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור",
+            "ויסות חלב חלבון"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी",
+            "सीबम नियंत्रण"
+          ]
+        }
+      },
+      {
+        "name": "Collagen Retinol Volufroshot Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-20-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Tranexamic Acid Vitamin Volufroshot Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-21-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Hyaluronic Panthenol B5 Volufroshot Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-21-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing",
+          "Deep hydration",
+          "Skin elasticity",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Глубокое увлажнение",
+            "Эластичность кожи",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "피부 진정",
+            "딥 하이드레이션",
+            "피부 탄력",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "深层保湿",
+            "肌肤弹性",
+            "深层保湿"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "ディープ保湿",
+            "肌の弾力",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Idratazione profonda",
+            "Elasticità della pelle",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Tiefenfeuchtigkeit",
+            "Hautelastizität",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Hydratation profonde",
+            "Élasticité de la peau",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Derin nemlendirme",
+            "Cilt elastikiyeti",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Hidratación profunda",
+            "Elasticidad de la piel",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Hidratação profunda",
+            "Elasticidade da pele",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "הרגעת העור",
+            "לחות עמוקה",
+            "אלסטיות העור",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "गहरी नमी",
+            "त्वचा की लोच",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Adenosine EGF Volufroshot Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-21-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Exosome-B Ampoule",
+    "items": [
+      {
+        "name": "Bakuchiol Barrier Cica Exosome-B Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-18-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing",
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 탄력"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌の弾力"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Glutathione Cica Blemish Exosome-B Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-18-1.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Madecassoside Ceramide Exosome-B Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-18-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing",
+          "Skin moisturization"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Увлажнённость кожи"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 수분"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤滋润"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌のうるおい"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Idratazione cutanea"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautfeuchtigkeitsversorgung"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Hydratation cutanée"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt nemlenmesi"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Humectación de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Humectação da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "הידרציה של העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा की नमी"
+          ]
+        }
+      },
+      {
+        "name": "Tea Tree Peptide Exosome-B Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-19-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "Panthenol Caffeine Exosome-B Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-19-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी"
+          ]
+        }
+      },
+      {
+        "name": "PDRN Zinc Biome Exosome-B Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-19-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity",
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌バリア改善"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Eye Care",
+    "items": [
+      {
+        "name": "Heartleaf Vital Wrinkle Exosome-B Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-24-2.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Glutathione Niacinamide Exosome-B Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-24-1.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Collagen Retinol Exosome-B Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-24-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "EGF Ginseng Micro Spicule Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-23-1.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Glycolic Peptide Micro Spicule Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-23-3.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "PDRN Ceramide Micro Spicule Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-23-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌バリア改善"
+          ],
+          "it": [
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "Snail Vitamin Skin Booster Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-26-2.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Super volume Hyaluronic Acid Skin Booster Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-26-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Deep hydration",
+          "Skin elasticity",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Эластичность кожи",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "피부 탄력",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "肌肤弹性",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "肌の弾力",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Elasticità della pelle",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Hautelastizität",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Élasticité de la peau",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Cilt elastikiyeti",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Elasticidad de la piel",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Elasticidade da pele",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "אלסטיות העור",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "त्वचा की लोच",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Avocado Bio Lifting Volufroshot Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-25-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी"
+          ]
+        }
+      },
+      {
+        "name": "Bakuchiol Barrier Volufroshot Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-25-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Deep hydration",
+          "Skin elasticity",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Эластичность кожи",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "피부 탄력",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "肌肤弹性",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "肌の弾力",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Elasticità della pelle",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Hautelastizität",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Élasticité de la peau",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Cilt elastikiyeti",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Elasticidad de la piel",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Elasticidade da pele",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "אלסטיות העור",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "त्वचा की लोच",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Panthenol Dark Circle Volufroshot Conceal Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-27-2.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity",
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌バリア改善"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "Squalane Caffeine Micro Spicule Conceal Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-27-1.webp",
+        "volume": "30ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Mask Pack",
+    "items": [
+      {
+        "name": "PDRN 2X Biome Micro Spicule 100 Essence Mask Pack 10ea",
+        "img": "/img/suppliers/two-tigers/products/wati-29-1.webp",
+        "volume": "27g*10ea"
+      },
+      {
+        "name": "Collagen Madecassoside Micro Spicule 100 Essence Mask Pack 10ea",
+        "img": "/img/suppliers/two-tigers/products/wati-29-3.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Skin soothing",
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 탄력"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌の弾力"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Retinol Tea Tree Micro Spicule 100 Essence Mask Pack 10ea",
+        "img": "/img/suppliers/two-tigers/products/wati-29-2.webp",
+        "volume": "27g*10ea"
+      },
+      {
+        "name": "Hyaluronic Acid NMN Micro Spicule 100 Essence Mask Pack 10ea",
+        "img": "/img/suppliers/two-tigers/products/wati-30-1.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Vita Ceramide Micro Spicule 100 Essence Mask Pack 10ea",
+        "img": "/img/suppliers/two-tigers/products/wati-30-2.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Barrier improvement"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Укрепление барьера кожи"
+          ],
+          "ko": [
+            "피부 장벽 개선"
+          ],
+          "zh": [
+            "改善肌肤屏障"
+          ],
+          "ja": [
+            "肌バリア改善"
+          ],
+          "it": [
+            "Miglioramento della barriera cutanea"
+          ],
+          "de": [
+            "Verbesserung der Hautbarriere"
+          ],
+          "fr": [
+            "Amélioration de la barrière cutanée"
+          ],
+          "tr": [
+            "Cilt bariyerini güçlendirme"
+          ],
+          "es": [
+            "Mejora de la barrera cutánea"
+          ],
+          "pt": [
+            "Melhora da barreira da pele"
+          ],
+          "he": [
+            "שיפור מחסום העור"
+          ],
+          "hi": [
+            "त्वचा अवरोध सुधार"
+          ]
+        }
+      },
+      {
+        "name": "Pink PDRN Collagen Exosome Serum Mask Pack",
+        "img": "/img/suppliers/two-tigers/products/wati-31-2.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Deep hydration",
+          "Skin elasticity",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Эластичность кожи",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "피부 탄력",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "肌肤弹性",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "肌の弾力",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Elasticità della pelle",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Hautelastizität",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Élasticité de la peau",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Cilt elastikiyeti",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Elasticidad de la piel",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Elasticidade da pele",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "אלסטיות העור",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "त्वचा की लोच",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "CICA Soothing Heartleaf Exosome Serum Mask Pack",
+        "img": "/img/suppliers/two-tigers/products/wati-31-3.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Skin soothing",
+          "Deep hydration",
+          "Skin conditioning",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Глубокое увлажнение",
+            "Уход за кожей",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "피부 진정",
+            "딥 하이드레이션",
+            "피부 컨디셔닝",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "深层保湿",
+            "肌肤调理",
+            "深层保湿"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "ディープ保湿",
+            "肌のコンディショニング",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Idratazione profonda",
+            "Condizionamento della pelle",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Tiefenfeuchtigkeit",
+            "Hautpflege",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Hydratation profonde",
+            "Soin conditionnant de la peau",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Derin nemlendirme",
+            "Cilt bakımı",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Hidratación profunda",
+            "Acondicionamiento de la piel",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Hidratação profunda",
+            "Condicionamento da pele",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "הרגעת העור",
+            "לחות עמוקה",
+            "טיפוח העור",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "गहरी नमी",
+            "त्वचा कंडीशनिंग",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Panthenol Snail Pore Tightening Volufroshot Ampoule Mask Pack",
+        "img": "/img/suppliers/two-tigers/products/wati-32-1.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Deep hydration",
+          "Skin elasticity",
+          "Pore care",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Эластичность кожи",
+            "Уход за порами",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "피부 탄력",
+            "모공 케어",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "肌肤弹性",
+            "毛孔护理",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "肌の弾力",
+            "毛穴ケア",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Elasticità della pelle",
+            "Cura dei pori",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Hautelastizität",
+            "Porenpflege",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Élasticité de la peau",
+            "Soin des pores",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Cilt elastikiyeti",
+            "Gözenek bakımı",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Elasticidad de la piel",
+            "Cuidado de los poros",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Elasticidade da pele",
+            "Cuidado dos poros",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "אלסטיות העור",
+            "טיפוח נקבוביות",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "त्वचा की लोच",
+            "रोमछिद्रों की देखभाल",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Melatonin Collagen PDRN Lifting Volufroshot Ampoule Mask Pack",
+        "img": "/img/suppliers/two-tigers/products/wati-32-2.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Glutathione Liposome Sedum Hyaluron Skin Booster Essence Mask Pack",
+        "img": "/img/suppliers/two-tigers/products/wati-31-1.webp",
+        "volume": "27g*10ea",
+        "actives": [
+          "Skin elasticity",
+          "Skin moisturization",
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Увлажнённость кожи",
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 수분",
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤滋润",
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のうるおい",
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Idratazione cutanea",
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautfeuchtigkeitsversorgung",
+            "Hautpflege"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Hydratation cutanée",
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt nemlenmesi",
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Humectación de la piel",
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Humectação da pele",
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "הידרציה של העור",
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा की नमी",
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Lip Care",
+    "items": [
+      {
+        "name": "Panthenol Squalane Volufroshot Berry Lip Sleeping Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-39-1.webp",
+        "volume": "20ml"
+      },
+      {
+        "name": "Collagen PDRN Exosome Grapefruit Lip Sleeping Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-38-3.webp",
+        "volume": "20ml"
+      },
+      {
+        "name": "Mango Seed Vita Volufroshot Lip Glowy Balm",
+        "img": "/img/suppliers/two-tigers/products/wati-38-1.webp",
+        "volume": "20ml"
+      },
+      {
+        "name": "Vanilla PDRN Hyaluronic Acid Volufroshot Lip Glowy Balm",
+        "img": "/img/suppliers/two-tigers/products/wati-38-2.webp",
+        "volume": "20ml"
+      },
+      {
+        "name": "PDRN Peptide Exosome Lip Essence",
+        "img": "/img/suppliers/two-tigers/products/wati-39-3.webp",
+        "volume": "20ml"
+      },
+      {
+        "name": "Jojoba Retinol Exosome Lip Essence",
+        "img": "/img/suppliers/two-tigers/products/wati-39-2.webp",
+        "volume": "20ml"
+      }
+    ]
+  },
+  {
+    "line": "Exosome Cream & Neck Care",
+    "items": [
+      {
+        "name": "NMN PDRN Exosome Neck cream",
+        "img": "/img/suppliers/two-tigers/products/wati-36-3.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin elasticity",
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 탄력",
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌の弾力",
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Hautpflege"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      },
+      {
+        "name": "NMN Melatonin PDRN Liposome Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-36-2.webp",
+        "volume": "20ml",
+        "actives": [
+          "Barrier improvement",
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Укрепление барьера кожи",
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 장벽 개선",
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "改善肌肤屏障",
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌バリア改善",
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Miglioramento della barriera cutanea",
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Verbesserung der Hautbarriere",
+            "Hautpflege"
+          ],
+          "fr": [
+            "Amélioration de la barrière cutanée",
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt bariyerini güçlendirme",
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Mejora de la barrera cutánea",
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Melhora da barreira da pele",
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "שיפור מחסום העור",
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा अवरोध सुधार",
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      },
+      {
+        "name": "Propolis Snail Exosome Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-36-1.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "Madecassoside PDRN Exosome Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-35-3.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin soothing",
+          "Barrier improvement",
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Укрепление барьера кожи",
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 장벽 개선",
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "改善肌肤屏障",
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌バリア改善",
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Miglioramento della barriera cutanea",
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Verbesserung der Hautbarriere",
+            "Hautpflege"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Amélioration de la barrière cutanée",
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt bariyerini güçlendirme",
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Mejora de la barrera cutánea",
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Melhora da barreira da pele",
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "שיפור מחסום העור",
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा अवरोध सुधार",
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      },
+      {
+        "name": "Centella Zinc Blemish Exosome Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-35-2.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin soothing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи"
+          ],
+          "ko": [
+            "피부 진정"
+          ],
+          "zh": [
+            "舒缓肌肤"
+          ],
+          "ja": [
+            "肌の鎮静"
+          ],
+          "it": [
+            "Lenitivo per la pelle"
+          ],
+          "de": [
+            "Hautberuhigung"
+          ],
+          "fr": [
+            "Apaisement de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma"
+          ],
+          "es": [
+            "Calmante para la piel"
+          ],
+          "pt": [
+            "Calmante para a pele"
+          ],
+          "he": [
+            "הרגעת העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना"
+          ]
+        }
+      },
+      {
+        "name": "NMN Melatonin PDRN Exosome Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-35-1.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautpflege"
+          ],
+          "fr": [
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Exosome Serum",
+    "items": [
+      {
+        "name": "NMN Melatonin Arbutin Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-34-3.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautpflege"
+          ],
+          "fr": [
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      },
+      {
+        "name": "Sea Grape PDRN Exosome Pore Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-34-2.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin conditioning",
+          "Pore care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход за кожей",
+            "Уход за порами"
+          ],
+          "ko": [
+            "피부 컨디셔닝",
+            "모공 케어"
+          ],
+          "zh": [
+            "肌肤调理",
+            "毛孔护理"
+          ],
+          "ja": [
+            "肌のコンディショニング",
+            "毛穴ケア"
+          ],
+          "it": [
+            "Condizionamento della pelle",
+            "Cura dei pori"
+          ],
+          "de": [
+            "Hautpflege",
+            "Porenpflege"
+          ],
+          "fr": [
+            "Soin conditionnant de la peau",
+            "Soin des pores"
+          ],
+          "tr": [
+            "Cilt bakımı",
+            "Gözenek bakımı"
+          ],
+          "es": [
+            "Acondicionamiento de la piel",
+            "Cuidado de los poros"
+          ],
+          "pt": [
+            "Condicionamento da pele",
+            "Cuidado dos poros"
+          ],
+          "he": [
+            "טיפוח העור",
+            "טיפוח נקבוביות"
+          ],
+          "hi": [
+            "त्वचा कंडीशनिंग",
+            "रोमछिद्रों की देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Yulmu Centella PDRN Exosome Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-34-1.webp",
+        "volume": "20ml",
+        "actives": [
+          "Skin soothing",
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Успокоение кожи",
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 진정",
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "舒缓肌肤",
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌の鎮静",
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Lenitivo per la pelle",
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautberuhigung",
+            "Hautpflege"
+          ],
+          "fr": [
+            "Apaisement de la peau",
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt yatıştırma",
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Calmante para la piel",
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Calmante para a pele",
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "הרגעת העור",
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा को शांत करना",
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Pad",
+    "items": [
+      {
+        "name": "PDRN Madecassoside Micro Spicule Pad",
+        "img": "/img/suppliers/two-tigers/products/wati-43-1.webp",
+        "volume": "60매"
+      },
+      {
+        "name": "Collagen Heartleaf Exosome Mild Acidic Peeling Pad",
+        "img": "/img/suppliers/two-tigers/products/wati-43-2.webp",
+        "volume": "60매"
+      },
+      {
+        "name": "Collagen Carrot Volufroshot Pad",
+        "img": "/img/suppliers/two-tigers/products/wati-43-3.webp",
+        "volume": "60매",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Toner",
+    "items": [
+      {
+        "name": "Collagen PDRN Micro Spicule Gel Toner",
+        "img": "/img/suppliers/two-tigers/products/wati-44-1.webp",
+        "volume": "200ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Melatonin NMN Volufroshot Toner",
+        "img": "/img/suppliers/two-tigers/products/wati-44-2.webp",
+        "volume": "200ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Galactomyces Hyaluronic Acid Exosome Peeling Toner",
+        "img": "/img/suppliers/two-tigers/products/wati-44-3.webp",
+        "volume": "200ml"
+      }
+    ]
+  },
+  {
+    "line": "Liquid Mask",
+    "items": [
+      {
+        "name": "Rose AHA PHA Micro Spicule Glow Liquid Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-45-1.webp",
+        "volume": "200ml"
+      },
+      {
+        "name": "Vitamin PDRN Exosome Liquid Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-45-2.webp",
+        "volume": "200ml"
+      }
+    ]
+  },
+  {
+    "line": "Sleeping & Wrapping Mask",
+    "items": [
+      {
+        "name": "Hyaluronic Acid PDRN Exosome Wrapping Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-47-2.webp",
+        "volume": "100ml",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Glutathione NMN Micro Spicule Wrapping Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-47-3.webp",
+        "volume": "100ml"
+      },
+      {
+        "name": "PDRN peptide Micro Spicule Peel-Off Pack",
+        "img": "/img/suppliers/two-tigers/products/wati-48-1.webp",
+        "volume": "100ml",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "NMN PDRN Volufroshot Water Sleeping Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-47-1.webp",
+        "volume": "100ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Sun Care",
+    "items": [
+      {
+        "name": "PDRN NMN Exosome Mild Sunscreen SPF50+",
+        "img": "/img/suppliers/two-tigers/products/wati-54-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "PDRN Melatonin Volufroshot Milky Tone Up Sunscreen SPF50+",
+        "img": "/img/suppliers/two-tigers/products/wati-54-3.webp",
+        "volume": "50ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Cleansing Foam",
+    "items": [
+      {
+        "name": "Mild Acidic Green Tea CICA Moisture Whipping Cleansing Foam",
+        "img": "/img/suppliers/two-tigers/products/wati-41-2.webp",
+        "volume": "100ml"
+      },
+      {
+        "name": "PDRN Collagen Deep Clean Whipping Cleansing Foam",
+        "img": "/img/suppliers/two-tigers/products/wati-41-1.webp",
+        "volume": "100ml"
+      }
+    ]
+  },
+  {
+    "line": "BB & Tone-up Cream",
+    "items": [
+      {
+        "name": "Super Recovery Collagen Exosome Serum BB Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-54-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Glow Cover PDRN Micro Spicule Foundation",
+        "img": "/img/suppliers/two-tigers/products/wati-53-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "PDRN Niacinamide Volufroshot brightening Tone up Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-53-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Firming care",
+          "Sebum control"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости",
+            "Контроль себума"
+          ],
+          "ko": [
+            "탄력 케어",
+            "피지 조절"
+          ],
+          "zh": [
+            "紧致护理",
+            "控油"
+          ],
+          "ja": [
+            "ハリケア",
+            "皮脂コントロール"
+          ],
+          "it": [
+            "Cura rassodante",
+            "Controllo del sebo"
+          ],
+          "de": [
+            "Straffende Pflege",
+            "Talgkontrolle"
+          ],
+          "fr": [
+            "Soin raffermissant",
+            "Contrôle du sébum"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım",
+            "Sebum kontrolü"
+          ],
+          "es": [
+            "Cuidado reafirmante",
+            "Control del sebo"
+          ],
+          "pt": [
+            "Cuidado firmador",
+            "Controle de sebo"
+          ],
+          "he": [
+            "טיפוח מחטב",
+            "ויסות חלב חלבון"
+          ],
+          "hi": [
+            "कसावट देखभाल",
+            "सीबम नियंत्रण"
+          ]
+        }
+      },
+      {
+        "name": "Retinol PDRN Volufroshot Pink Tone up Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-53-3.webp",
+        "volume": "50ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Soap & Shampoo Bar",
+    "items": [
+      {
+        "name": "Heartleaf Niacinamide Micro Spicule Perfumed Soap",
+        "img": "/img/suppliers/two-tigers/products/wati-50-1.webp",
+        "volume": "100g",
+        "actives": [
+          "Pore care",
+          "Sebum control"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход за порами",
+            "Контроль себума"
+          ],
+          "ko": [
+            "모공 케어",
+            "피지 조절"
+          ],
+          "zh": [
+            "毛孔护理",
+            "控油"
+          ],
+          "ja": [
+            "毛穴ケア",
+            "皮脂コントロール"
+          ],
+          "it": [
+            "Cura dei pori",
+            "Controllo del sebo"
+          ],
+          "de": [
+            "Porenpflege",
+            "Talgkontrolle"
+          ],
+          "fr": [
+            "Soin des pores",
+            "Contrôle du sébum"
+          ],
+          "tr": [
+            "Gözenek bakımı",
+            "Sebum kontrolü"
+          ],
+          "es": [
+            "Cuidado de los poros",
+            "Control del sebo"
+          ],
+          "pt": [
+            "Cuidado dos poros",
+            "Controle de sebo"
+          ],
+          "he": [
+            "טיפוח נקבוביות",
+            "ויסות חלב חלבון"
+          ],
+          "hi": [
+            "रोमछिद्रों की देखभाल",
+            "सीबम नियंत्रण"
+          ]
+        }
+      },
+      {
+        "name": "Goat Milk PDRN Micro Spicule Perfumed Soap",
+        "img": "/img/suppliers/two-tigers/products/wati-50-2.webp",
+        "volume": "100g",
+        "actives": [
+          "Skin elasticity",
+          "Firming care",
+          "Moisturizing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Уход для упругости",
+            "Увлажнение"
+          ],
+          "ko": [
+            "피부 탄력",
+            "탄력 케어",
+            "보습"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "紧致护理",
+            "保湿"
+          ],
+          "ja": [
+            "肌の弾力",
+            "ハリケア",
+            "保湿"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Cura rassodante",
+            "Idratante"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Straffende Pflege",
+            "Feuchtigkeitsspendend"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Soin raffermissant",
+            "Hydratant"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Sıkılaştırıcı bakım",
+            "Nemlendirici"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Cuidado reafirmante",
+            "Hidratante"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Cuidado firmador",
+            "Hidratante"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "טיפוח מחטב",
+            "לחות"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "कसावट देखभाल",
+            "नमी प्रदान करना"
+          ]
+        }
+      },
+      {
+        "name": "Collagen NMN Exosome Perfumed Soap",
+        "img": "/img/suppliers/two-tigers/products/wati-50-3.webp",
+        "volume": "100g",
+        "actives": [
+          "Skin elasticity",
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи",
+            "Уход для упругости"
+          ],
+          "ko": [
+            "피부 탄력",
+            "탄력 케어"
+          ],
+          "zh": [
+            "肌肤弹性",
+            "紧致护理"
+          ],
+          "ja": [
+            "肌の弾力",
+            "ハリケア"
+          ],
+          "it": [
+            "Elasticità della pelle",
+            "Cura rassodante"
+          ],
+          "de": [
+            "Hautelastizität",
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Élasticité de la peau",
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Cilt elastikiyeti",
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Elasticidad de la piel",
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Elasticidade da pele",
+            "Cuidado firmador"
+          ],
+          "he": [
+            "אלסטיות העור",
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "त्वचा की लोच",
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Calendula Lavender Volufroshot Perfumed Soap",
+        "img": "/img/suppliers/two-tigers/products/wati-51-1.webp",
+        "volume": "100g",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Mild Acidic Black Soybean Beer Yeast Micro Spicule Shampoo Bar",
+        "img": "/img/suppliers/two-tigers/products/wati-51-2.webp",
+        "volume": "100g"
+      }
+    ]
+  },
+  {
+    "line": "Serum",
+    "items": [
+      {
+        "name": "Truffle Squalane Exosome Oil Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-56-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Melatonin Caffeine PDRN Eye Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-56-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "TXA PDRN Glow Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-56-3.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Snail Mucin PDRN Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-57-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "NMN PDRN Serum",
+        "img": "/img/suppliers/two-tigers/products/wati-57-2.webp",
+        "volume": "50ml"
+      }
+    ]
+  },
+  {
+    "line": "Relaxing Cream",
+    "items": [
+      {
+        "name": "TXA PDRN Relaxing Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-58-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Snail Mucin PDRN Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-58-2.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "NMN Exosome PDRN Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-58-3.webp",
+        "volume": "50ml"
+      }
+    ]
+  },
+  {
+    "line": "Spot & Pore Care",
+    "items": [
+      {
+        "name": "Tea Tree CICA Retinol Spot Calming Care Gel",
+        "img": "/img/suppliers/two-tigers/products/wati-59-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Sebum control"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Контроль себума"
+          ],
+          "ko": [
+            "피지 조절"
+          ],
+          "zh": [
+            "控油"
+          ],
+          "ja": [
+            "皮脂コントロール"
+          ],
+          "it": [
+            "Controllo del sebo"
+          ],
+          "de": [
+            "Talgkontrolle"
+          ],
+          "fr": [
+            "Contrôle du sébum"
+          ],
+          "tr": [
+            "Sebum kontrolü"
+          ],
+          "es": [
+            "Control del sebo"
+          ],
+          "pt": [
+            "Controle de sebo"
+          ],
+          "he": [
+            "ויסות חלב חלבון"
+          ],
+          "hi": [
+            "सीबम नियंत्रण"
+          ]
+        }
+      },
+      {
+        "name": "CICA Extra Plus Pore Cleaner",
+        "img": "/img/suppliers/two-tigers/products/wati-59-2.webp",
+        "volume": "50ml"
+      }
+    ]
+  },
+  {
+    "line": "Hair Care",
+    "items": [
+      {
+        "name": "Biotin Protein Polyphenol Volume Shampoo",
+        "img": "/img/suppliers/two-tigers/products/wati-61-1.webp",
+        "volume": "500ml"
+      },
+      {
+        "name": "Biotin Protein Polyphenol Damage Care Treatment",
+        "img": "/img/suppliers/two-tigers/products/wati-61-2.webp",
+        "volume": "500ml"
+      }
+    ]
+  },
+  {
+    "line": "Body Lotion & Wash",
+    "items": [
+      {
+        "name": "PDRN Ceramide Body Lotion",
+        "img": "/img/suppliers/two-tigers/products/wati-62-2.webp",
+        "volume": "500ml",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Panthenol Ceramide Ato Moisture Lotion",
+        "img": "/img/suppliers/two-tigers/products/wati-63-2.webp",
+        "volume": "500ml"
+      },
+      {
+        "name": "Acne Clear Ceramide Body Wash",
+        "img": "/img/suppliers/two-tigers/products/wati-62-1.webp",
+        "volume": "500ml"
+      },
+      {
+        "name": "Panthenol Ceramide Ato Top To Toe Wash",
+        "img": "/img/suppliers/two-tigers/products/wati-63-1.webp",
+        "volume": "500ml"
+      }
+    ]
+  },
+  {
+    "line": "Hydrogel Mask",
+    "items": [
+      {
+        "name": "Vitamin NMN Deep Hydrogel Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-69-1.webp",
+        "volume": "34g*4ea"
+      },
+      {
+        "name": "Collagen PDRN Deep Capsule Hydrogel Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-69-2.webp",
+        "volume": "34g*4ea"
+      },
+      {
+        "name": "Hyaluronic Acid Volufroshot Deep Silk Volume Fit Hydrogel Mask",
+        "img": "/img/suppliers/two-tigers/products/wati-69-3.webp",
+        "volume": "34g*4ea",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Rejuver Cream",
+    "items": [
+      {
+        "name": "Peptide EGF Rejuver Glow Porcelain Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-65-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Panthenol Snail Rejuver Elastic Thread Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-65-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "PDRN Ceramide Rejuver Vaseline Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-65-3.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Collagen NMN Rejuver Water Glow Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-66-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Centella Pore Care Rejuver Relaxing Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-66-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Pore care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход за порами"
+          ],
+          "ko": [
+            "모공 케어"
+          ],
+          "zh": [
+            "毛孔护理"
+          ],
+          "ja": [
+            "毛穴ケア"
+          ],
+          "it": [
+            "Cura dei pori"
+          ],
+          "de": [
+            "Porenpflege"
+          ],
+          "fr": [
+            "Soin des pores"
+          ],
+          "tr": [
+            "Gözenek bakımı"
+          ],
+          "es": [
+            "Cuidado de los poros"
+          ],
+          "pt": [
+            "Cuidado dos poros"
+          ],
+          "he": [
+            "טיפוח נקבוביות"
+          ],
+          "hi": [
+            "रोमछिद्रों की देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "TXA Rejuver Mela Care Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-66-3.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Kojic Acid Volufroshot Rejuver Horse Oil Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-67-1.webp",
+        "volume": "50ml"
+      }
+    ]
+  },
+  {
+    "line": "Hand & Foot Cream",
+    "items": [
+      {
+        "name": "Firming Care Melatonin Apple&Strawberry Hand Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-71-1.webp",
+        "volume": "100ml",
+        "actives": [
+          "Firming care"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход для упругости"
+          ],
+          "ko": [
+            "탄력 케어"
+          ],
+          "zh": [
+            "紧致护理"
+          ],
+          "ja": [
+            "ハリケア"
+          ],
+          "it": [
+            "Cura rassodante"
+          ],
+          "de": [
+            "Straffende Pflege"
+          ],
+          "fr": [
+            "Soin raffermissant"
+          ],
+          "tr": [
+            "Sıkılaştırıcı bakım"
+          ],
+          "es": [
+            "Cuidado reafirmante"
+          ],
+          "pt": [
+            "Cuidado firmador"
+          ],
+          "he": [
+            "טיפוח מחטב"
+          ],
+          "hi": [
+            "कसावट देखभाल"
+          ]
+        }
+      },
+      {
+        "name": "Recovery NMN Shea Butter Hand Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-71-2.webp",
+        "volume": "100ml",
+        "actives": [
+          "Deep hydration",
+          "Deep hydration"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Глубокое увлажнение",
+            "Глубокое увлажнение"
+          ],
+          "ko": [
+            "딥 하이드레이션",
+            "딥 하이드레이션"
+          ],
+          "zh": [
+            "深层保湿",
+            "深层保湿"
+          ],
+          "ja": [
+            "ディープ保湿",
+            "ディープ保湿"
+          ],
+          "it": [
+            "Idratazione profonda",
+            "Idratazione profonda"
+          ],
+          "de": [
+            "Tiefenfeuchtigkeit",
+            "Tiefenfeuchtigkeit"
+          ],
+          "fr": [
+            "Hydratation profonde",
+            "Hydratation profonde"
+          ],
+          "tr": [
+            "Derin nemlendirme",
+            "Derin nemlendirme"
+          ],
+          "es": [
+            "Hidratación profunda",
+            "Hidratación profunda"
+          ],
+          "pt": [
+            "Hidratação profunda",
+            "Hidratação profunda"
+          ],
+          "he": [
+            "לחות עמוקה",
+            "לחות עמוקה"
+          ],
+          "hi": [
+            "गहरी नमी",
+            "गहरी नमी"
+          ]
+        }
+      },
+      {
+        "name": "Moisture PDRN Chamomile Hand Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-71-3.webp",
+        "volume": "100ml",
+        "actives": [
+          "Moisturizing"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Увлажнение"
+          ],
+          "ko": [
+            "보습"
+          ],
+          "zh": [
+            "保湿"
+          ],
+          "ja": [
+            "保湿"
+          ],
+          "it": [
+            "Idratante"
+          ],
+          "de": [
+            "Feuchtigkeitsspendend"
+          ],
+          "fr": [
+            "Hydratant"
+          ],
+          "tr": [
+            "Nemlendirici"
+          ],
+          "es": [
+            "Hidratante"
+          ],
+          "pt": [
+            "Hidratante"
+          ],
+          "he": [
+            "לחות"
+          ],
+          "hi": [
+            "नमी प्रदान करना"
+          ]
+        }
+      },
+      {
+        "name": "Propolis PDRN Emu Oil Foot Cream",
+        "img": "/img/suppliers/two-tigers/products/wati-72-1.webp",
+        "volume": "100ml"
+      }
+    ]
+  },
+  {
+    "line": "Silk Ampoule",
+    "items": [
+      {
+        "name": "Wati for Skin Collagen PDRN CICA Exosome Silk Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-75-1.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin conditioning"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Уход за кожей"
+          ],
+          "ko": [
+            "피부 컨디셔닝"
+          ],
+          "zh": [
+            "肌肤调理"
+          ],
+          "ja": [
+            "肌のコンディショニング"
+          ],
+          "it": [
+            "Condizionamento della pelle"
+          ],
+          "de": [
+            "Hautpflege"
+          ],
+          "fr": [
+            "Soin conditionnant de la peau"
+          ],
+          "tr": [
+            "Cilt bakımı"
+          ],
+          "es": [
+            "Acondicionamiento de la piel"
+          ],
+          "pt": [
+            "Condicionamento da pele"
+          ],
+          "he": [
+            "טיפוח העור"
+          ],
+          "hi": [
+            "त्वचा कंडीशनिंग"
+          ]
+        }
+      },
+      {
+        "name": "Wati for Skin Vitamin Ectoin Micro Spicule Silk Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-74-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      },
+      {
+        "name": "Wati for Skin NMN Retinol Micro Spicule Silk Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-74-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Wati for Skin Hyaluronic Acid NAD Volufroshot Silk Ampoule",
+        "img": "/img/suppliers/two-tigers/products/wati-75-2.webp",
+        "volume": "50ml",
+        "actives": [
+          "Skin elasticity"
+        ],
+        "activesI18n": {
+          "ru": [
+            "Эластичность кожи"
+          ],
+          "ko": [
+            "피부 탄력"
+          ],
+          "zh": [
+            "肌肤弹性"
+          ],
+          "ja": [
+            "肌の弾力"
+          ],
+          "it": [
+            "Elasticità della pelle"
+          ],
+          "de": [
+            "Hautelastizität"
+          ],
+          "fr": [
+            "Élasticité de la peau"
+          ],
+          "tr": [
+            "Cilt elastikiyeti"
+          ],
+          "es": [
+            "Elasticidad de la piel"
+          ],
+          "pt": [
+            "Elasticidade da pele"
+          ],
+          "he": [
+            "אלסטיות העור"
+          ],
+          "hi": [
+            "त्वचा की लोच"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Dr.Papirub Skincare",
+    "items": [
+      {
+        "name": "Dr.papirub Vita PDRN Exosome All-in-One Lotion",
+        "img": "/img/suppliers/two-tigers/products/dr-12-1.webp",
+        "volume": "150ml"
+      },
+      {
+        "name": "Dr.papirub PDRN NMN Eye Cream",
+        "img": "/img/suppliers/two-tigers/products/dr-11-1.webp",
+        "volume": "30ml"
+      },
+      {
+        "name": "Dr.papirub Collagen PDRN Cream",
+        "img": "/img/suppliers/two-tigers/products/dr-13-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Dr.papirub Mild Acidic Rice Ceramide Cleansing Foam",
+        "img": "/img/suppliers/two-tigers/products/dr-08-1.webp",
+        "volume": "150ml"
+      },
+      {
+        "name": "Dr.papirub Hyaluronic Acid Ceramide Dewy Toner",
+        "img": "/img/suppliers/two-tigers/products/dr-09-1.webp",
+        "volume": "500ml"
+      },
+      {
+        "name": "Dr. PapiRub PDRN Exosome Silk Ampoule",
+        "img": "/img/suppliers/two-tigers/products/dr-15-1.webp",
+        "volume": "50ml"
+      },
+      {
+        "name": "Retinol Niacinamide Serum",
+        "img": "/img/suppliers/two-tigers/products/dr-10-1.webp",
+        "volume": "30ml"
+      }
+    ]
+  },
+  {
+    "line": "Dr.Papirub Fragrance",
+    "items": [
+      {
+        "name": "Dr.papirub Woody & Forest Eau de Parfum",
+        "img": "/img/suppliers/two-tigers/products/dr-14-1.webp",
+        "volume": "50ml"
+      }
+    ]
+  }
+]
