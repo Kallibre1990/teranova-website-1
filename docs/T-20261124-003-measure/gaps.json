@@ -1,0 +1,30 @@
+dreamcos blog: 6 images: 46 pdf: [{'url': 'https://teranovagroup.com/docs/dreamcos-presentation-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dreamcos-price-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dreamcos-terms-en.pdf', 'type': 'unknown'}] blocks: []
+dongdonggurimoo blog: 3 images: 74 pdf: [{'url': 'https://teranovagroup.com/docs/dongdonggurimoo-presentation-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dongdonggurimoo-price-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dongdonggurimoo-terms-en.pdf', 'type': 'unknown'}] blocks: []
+{
+  "sources": [
+    {
+      "source_url": "https://teranovagroup.com/en/catalog/feelody/ (404 — not created)",
+      "observed_at": "2026-11-23T16:19:25Z",
+      "sha256": "f70b370debd085dd9e9fb6495c796cdccf41c44574cc185dbe124f3ea8237623"
+    },
+    {
+      "source_url": "https://teranovagroup.com/en/catalog/dreamcos/",
+      "observed_at": "2026-11-23T16:19:25Z",
+      "sha256": "7c8d81357520496d292402439165724f1bb14024ca13213d0b6eaec39a92c52c"
+    },
+    {
+      "source_url": "https://teranovagroup.com/en/catalog/dongdonggurimoo/",
+      "observed_at": "2026-11-23T16:19:25Z",
+      "sha256": "861d374964b1fde1b46d992b2085d5b106588a1f062b963a7790205345340284"
+    }
+  ],
+  "missing_blocks": [],
+  "blog_gap": 3,
+  "image_counts": [
+    0,
+    46,
+    74
+  ],
+  "missing_pdf_types": [],
+  "needs_pdf_classification": true
+}
