@@ -1,30 +1,255 @@
-dreamcos blog: 6 images: 46 pdf: [{'url': 'https://teranovagroup.com/docs/dreamcos-presentation-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dreamcos-price-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dreamcos-terms-en.pdf', 'type': 'unknown'}] blocks: []
-dongdonggurimoo blog: 3 images: 74 pdf: [{'url': 'https://teranovagroup.com/docs/dongdonggurimoo-presentation-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dongdonggurimoo-price-en.pdf', 'type': 'unknown'}, {'url': 'https://teranovagroup.com/docs/dongdonggurimoo-terms-en.pdf', 'type': 'unknown'}] blocks: []
 {
-  "sources": [
-    {
-      "source_url": "https://teranovagroup.com/en/catalog/feelody/ (404 — not created)",
-      "observed_at": "2026-11-23T16:19:25Z",
-      "sha256": "f70b370debd085dd9e9fb6495c796cdccf41c44574cc185dbe124f3ea8237623"
+  "generated_at": "2026-11-23T17:26:40Z",
+  "measurements": {
+    "feelody": {
+      "source_url": "https://teranovagroup.com/en/catalog/feelody/",
+      "observed_at": "2026-11-23T17:23:23Z",
+      "sha256": "9e60ea363d988350a7434dbe0742585148bbd61e62cb2a5a7901e5b5c9cca5a5",
+      "blog": [],
+      "images": [
+        "https://teranovagroup.com/brand/teranova-mark-light-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-dark-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-light-v2.svg"
+      ],
+      "pdf": [],
+      "blocks": [],
+      "http_status": 404,
+      "snapshot_file": "feelody-404.html"
     },
-    {
+    "dreamcos": {
       "source_url": "https://teranovagroup.com/en/catalog/dreamcos/",
       "observed_at": "2026-11-23T16:19:25Z",
-      "sha256": "7c8d81357520496d292402439165724f1bb14024ca13213d0b6eaec39a92c52c"
+      "sha256": "7c8d81357520496d292402439165724f1bb14024ca13213d0b6eaec39a92c52c",
+      "blog": [
+        "https://teranovagroup.com/en/blog/caffeine-in-hair-tonics-what-to-ask/",
+        "https://teranovagroup.com/en/blog/dreamcos-oem-odm-group/",
+        "https://teranovagroup.com/en/blog/duft-doft-perfumed-care/",
+        "https://teranovagroup.com/en/blog/lovelycc-cc-cream-genz/",
+        "https://teranovagroup.com/en/blog/rudia-2026-relaunch/",
+        "https://teranovagroup.com/en/blog/salmon-lab-pdrn/"
+      ],
+      "images": [
+        "https://teranovagroup.com/_astro/dreamcos-logo.DrSI_vaP_2kiKJ4.webp",
+        "https://teranovagroup.com/_astro/drops.DUXZztos_Z7kO9q.webp",
+        "https://teranovagroup.com/_astro/hero.B1RAT6uJ_Z87WRQ.webp",
+        "https://teranovagroup.com/_astro/products.DLm-g_YS_17gqsh.webp",
+        "https://teranovagroup.com/brand/teranova-mark-light-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-dark-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-light-v2.svg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-body-perfume-mist.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-caffeine-hair-tonic.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-clean-peeling-mist.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-hair-body-mist.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-perfume-hair-rinse.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-perfume-hair-shampoo.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-perfumed-body-lotion.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-perfumed-body-wash.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-relaxing-spa-body-wash.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-signature-body-scrub.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-signature-perfume-hand-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/duftndoft-water-barrier-hand-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/ladybiz-concealer-cushion.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/ladybiz-glossy-tint.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/ladybiz-pdrn-sunscreen.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/lovelycc-eyeshadow-palette.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/lovelycc-magic-cover-cc-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/lovelycc-magic-cover-concealer.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/lovelycc-pink-cover-sun-cushion.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/lovelycc-sweet-candy-blusher.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/lovelycc-sweet-lip-oil.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/nolie-body-spirit.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/nolie-fresh-flash-body-cleaner.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/nolie-womens-wash-ampoule-shot.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-bakuchiol-repair-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-crown-carrot-vitamin-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-crown-collagen-egf-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-crown-master-benone-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-crown-panthenol-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-glutathione-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/products/rudia-pore-care-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-1.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-2.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-3.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-4.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-5.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-6.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-7.jpg",
+        "https://teranovagroup.com/img/suppliers/dreamcos/visit/visit-8.jpg"
+      ],
+      "pdf": [
+        {
+          "url": "https://teranovagroup.com/docs/dreamcos-presentation-en.pdf",
+          "type": "presentation"
+        },
+        {
+          "url": "https://teranovagroup.com/docs/dreamcos-price-en.pdf",
+          "type": "price"
+        },
+        {
+          "url": "https://teranovagroup.com/docs/dreamcos-terms-en.pdf",
+          "type": "terms"
+        }
+      ],
+      "blocks": []
     },
-    {
+    "dongdonggurimoo": {
       "source_url": "https://teranovagroup.com/en/catalog/dongdonggurimoo/",
       "observed_at": "2026-11-23T16:19:25Z",
-      "sha256": "861d374964b1fde1b46d992b2085d5b106588a1f062b963a7790205345340284"
+      "sha256": "861d374964b1fde1b46d992b2085d5b106588a1f062b963a7790205345340284",
+      "blog": [
+        "https://teranovagroup.com/en/blog/korean-makeup-suncare-wholesale/",
+        "https://teranovagroup.com/en/blog/korean-scalp-care-category/",
+        "https://teranovagroup.com/en/blog/korean-sheet-masks-wholesale/"
+      ],
+      "images": [
+        "https://teranovagroup.com/_astro/drops.C6hyoXUr_Z2qny15.webp",
+        "https://teranovagroup.com/_astro/hero.CezuGNRV_Z1b5huT.webp",
+        "https://teranovagroup.com/_astro/products.DI0aDCDH_Z1WwmnY.webp",
+        "https://teranovagroup.com/brand/teranova-mark-light-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-dark-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-light-v2.svg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/charcoal-pore-clay-cleansing-foam.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/deep-cica-facial-mist.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/dr-ceramide-cure-cream.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/dr-snail-cure-cream.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/dr-vitamin-c-derma-ampoule.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/im-hand-cream-set-of-3.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/truly-glutathione-serum.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/truly-panthenol-toner-pad.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/truly-retinol-toner-pad.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/cutout/waterproof-to-go-sun-care.webp",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/all-day-shield-to-go-sun-care.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/aloe-solution-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/capsule-cica-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/centella-moisture-lotion.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/centella-moisture-set-of-2.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/centella-moisture-skin.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/charcoal-pore-clay-cleansing-foam.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-madecassoside-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-madecassoside-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-madecassoside-set-of-4.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-madecassoside-toner.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-propolis-myrrh-ampoule-set.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-propolis-myrrh-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/cica-solution-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/collagen-no-sebum-foundation.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/deep-cica-facial-mist.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-ceramide-cure-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-ceramide-derma-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-cica-cure-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-cica-derma-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-collagen-derma-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-collagen-hydrogel-eye-patch.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-snail-cure-cream.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/dr-vitamin-c-derma-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/everyday-vitamin-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/green-tea-cleansing-foam.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/green-tea-solution-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/hyaluronic-5-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/im-hand-cream-set-of-3.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/madecassoside-solution-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/mega-cooling-sun-cushion.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/panthenol-7-ampoule.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/perfect-care-cica-soothing-sun.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/snail-cleansing-foam.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/snail-solution-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/super-aqua-moisture-set-of-2.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-centella-hc-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-centella-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-centella-toner-pad.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-glutathione-hc-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-glutathione-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-glutathione-toner-pad.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-panthenol-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-panthenol-toner-pad.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-pdrn-hc-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-retinol-serum.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/truly-retinol-toner-pad.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/uv-sun-ultra-shield-sun-stick.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/vitamin-solution-mask-pack.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/products/waterproof-to-go-sun-care.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-1.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-2.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-3.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-4.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-5.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-6.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-7.jpg",
+        "https://teranovagroup.com/img/suppliers/dongdonggurimoo/visit/visit-8.jpg"
+      ],
+      "pdf": [
+        {
+          "url": "https://teranovagroup.com/docs/dongdonggurimoo-presentation-en.pdf",
+          "type": "presentation"
+        },
+        {
+          "url": "https://teranovagroup.com/docs/dongdonggurimoo-price-en.pdf",
+          "type": "price"
+        },
+        {
+          "url": "https://teranovagroup.com/docs/dongdonggurimoo-terms-en.pdf",
+          "type": "terms"
+        }
+      ],
+      "blocks": []
     }
-  ],
-  "missing_blocks": [],
-  "blog_gap": 3,
-  "image_counts": [
-    0,
-    46,
-    74
-  ],
-  "missing_pdf_types": [],
-  "needs_pdf_classification": true
+  },
+  "gaps": {
+    "sources": [
+      {
+        "source_url": "https://teranovagroup.com/en/catalog/feelody/",
+        "observed_at": "2026-11-23T17:23:23Z",
+        "sha256": "9e60ea363d988350a7434dbe0742585148bbd61e62cb2a5a7901e5b5c9cca5a5"
+      },
+      {
+        "source_url": "https://teranovagroup.com/en/catalog/dreamcos/",
+        "observed_at": "2026-11-23T16:19:25Z",
+        "sha256": "7c8d81357520496d292402439165724f1bb14024ca13213d0b6eaec39a92c52c"
+      },
+      {
+        "source_url": "https://teranovagroup.com/en/catalog/dongdonggurimoo/",
+        "observed_at": "2026-11-23T16:19:25Z",
+        "sha256": "861d374964b1fde1b46d992b2085d5b106588a1f062b963a7790205345340284"
+      }
+    ],
+    "missing_blocks": [],
+    "blog_gap": 3,
+    "image_counts": [
+      3,
+      46,
+      74
+    ],
+    "missing_pdf_types": [
+      "presentation",
+      "terms"
+    ],
+    "needs_pdf_classification": false
+  },
+  "notes": [
+    {
+      "gap": "blog_gap",
+      "applicable": true,
+      "basis": "Применим: оба эталона публикуют статьи /blog/ (dreamcos=6, dongdonggurimoo=3 — подтверждено независимым grep по сохранённому HTML), у Feelody до сборки 0 (профиля нет, 404). Пробел закрыт позже тремя статьями (этап 4, commit 4c0e170) — эта запись фиксирует основание решения, а не текущее состояние сайта."
+    },
+    {
+      "gap": "missing_pdf_types:price",
+      "applicable": true,
+      "basis": "Неприменим по запрету поставщика: Feelody просил не публиковать FOB price list и коммерческие условия (переписка feelody.official@gmail.com, 23.11.2026). PDF с типом price исключён из сравнения (forbid_prices=True) и не создаётся ради количества файлов."
+    },
+    {
+      "gap": "missing_pdf_types:presentation,terms",
+      "applicable": true,
+      "basis": "Применим, но не закрыт в этой части: presentation и terms — общий базовый набор по обоим эталонам (classify по имени файла из HTML, не угадано). У Feelody такого документа на сайте нет; создавать его сейчас не входит в объём этого замера — факт зафиксирован как открытый пробел, а не как решение добавить файл."
+    },
+    {
+      "gap": "image_counts:feelody=3",
+      "applicable": true,
+      "basis": "Не показатель: 3 изображения у Feelody — это картинки типового шаблона страницы 404 (профиля не существует), а не контент профиля. Сравнивать с эталонами по счётчику изображений нельзя, пока профиль не собран."
+    },
+    {
+      "gap": "needs_pdf_classification",
+      "applicable": false,
+      "basis": "False: все 6 PDF у эталонов классифицированы по имени файла в href (price/presentation/terms), ни один не остался unknown."
+    }
+  ]
 }
