@@ -70,6 +70,7 @@ def check_document(record):
         assert doc.extract_font(xref)[3], f'Unembedded font: {lang} xref{xref}'
     assert norm(data['content']['consentNote']) not in all_text, 'Internal consent note exposed'
     assert not re.search(r'\b(?:RPO|USD|Botox)\b|\$', all_text), 'Forbidden legacy content'
+    assert 'agafarS' not in all_text, 'agafar S device still present'
     if record['kind'] == 'presentation':
         c = data['content']
         # Verify all public profile prose rather than trusting a page count.

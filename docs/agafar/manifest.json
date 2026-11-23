@@ -1,7 +1,7 @@
 [
   {
     "path": "public/docs/agafar-presentation-ru.pdf",
-    "sha256": "348ce2a2b1d0666c9e5678b5fbc2e9653d26a71e6d7effab6edac15b5023b937",
+    "sha256": "1d102b6c0d2d8e9f14380631f81df84b45c9c67556e1f619c56dc8d244d92e5b",
     "pages": 16,
     "language": "ru",
     "kind": "presentation"
@@ -15,7 +15,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-en.pdf",
-    "sha256": "c59bd9eddc61361c2d43e01f0df2d355b24dee453b01acf6bd580fc2046e61fe",
+    "sha256": "9c7e2391bcec7d916168e330967b9d3c005bc199d162de803869b829ab65a16e",
     "pages": 16,
     "language": "en",
     "kind": "presentation"
@@ -29,7 +29,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-ko.pdf",
-    "sha256": "8b341a25e36a304cdf25f2e83d99cf9f954117b80f359e632df27bce66911fbc",
+    "sha256": "8f8f2416883a38dbf2112356775c5a76998653cdc00f0b8930274e495f7b9872",
     "pages": 16,
     "language": "ko",
     "kind": "presentation"
@@ -43,7 +43,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-zh.pdf",
-    "sha256": "160b02bd8c30add5d5b20fd46e378feffe16d059f6145bdf8f81b5b8c5bea51d",
+    "sha256": "29046d7b433672e3f91248b14f26bc4a7837c30b6b6941ef5bcaa4745533cce3",
     "pages": 16,
     "language": "zh",
     "kind": "presentation"
@@ -57,7 +57,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-ja.pdf",
-    "sha256": "c9dd5b9b7cadae0819b13485446308c80b8bf8d89869b01a092e0ee1a371c97d",
+    "sha256": "4f38f403b6d0ba51e0314f478b32df73fb00393bd51bfd650718e72c50bf6aa3",
     "pages": 16,
     "language": "ja",
     "kind": "presentation"
@@ -71,7 +71,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-it.pdf",
-    "sha256": "6367141b1bd0b92964a6784d3c2f9408f83812ba253fa8694f504c20fcdb35c8",
+    "sha256": "5b9ec3e27c3a74cc5512b8b651a113284df29e5835819f99e630b04e8f2f0398",
     "pages": 16,
     "language": "it",
     "kind": "presentation"
@@ -85,7 +85,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-de.pdf",
-    "sha256": "67817e25ec8d291871689db030952be7762ec73cd9a447f5b26061ebdd4590ea",
+    "sha256": "222e65efd29db6e5b8c0a310bfc9399c692d2845c5519395f79091ad75b5147b",
     "pages": 16,
     "language": "de",
     "kind": "presentation"
@@ -99,7 +99,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-fr.pdf",
-    "sha256": "b9f4e1d379163b6f36a4e79006bca02b3f2a9e150c0b2e1422b17f5ac8529c5b",
+    "sha256": "154424a54dfa03650daeaa6eaf2367098c956d3eb7a4c2f2efffca7d69c54fa2",
     "pages": 16,
     "language": "fr",
     "kind": "presentation"
@@ -113,7 +113,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-tr.pdf",
-    "sha256": "b0b24d3b2a330531990a42c70f6834cd541a1dd237ac329b5de24934e0afa3c5",
+    "sha256": "4b43a621ecb0a39f9cc2f71c9de364d30c4370b70788af8639b159b79e4762c2",
     "pages": 16,
     "language": "tr",
     "kind": "presentation"
@@ -127,7 +127,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-es.pdf",
-    "sha256": "3cca302568b0922b42a5a7e51d2948b68c3b404dd88acb2f0799c735cee57b3a",
+    "sha256": "1b88216c4550273d53d3914386f619763a7324873f52d5ff4d7570bba0e3276f",
     "pages": 16,
     "language": "es",
     "kind": "presentation"
@@ -141,7 +141,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-pt.pdf",
-    "sha256": "87d66807f555c448fe4d2df52ba0e89b2bba1a8800962731b87f146f03a4e652",
+    "sha256": "e2af5c7a83c64aab2dd3eea934d4fa471540ac00aedcf70cb7aeddb4dbe0fe60",
     "pages": 16,
     "language": "pt",
     "kind": "presentation"
@@ -155,7 +155,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-he.pdf",
-    "sha256": "5391b5a517bd018bb234b65eb62c751e8bec1815ab2acc1bd89de23bf0573654",
+    "sha256": "52f11d4b7e9761cf155f796425a60dccaaf1fecf117f4670a3fb09bc8f434005",
     "pages": 16,
     "language": "he",
     "kind": "presentation"
@@ -169,7 +169,7 @@
   },
   {
     "path": "public/docs/agafar-presentation-hi.pdf",
-    "sha256": "fc186c79c018c5abf78bffdf22ba6567bc09cb1e1b6e54311f0e6fe665c6f9c2",
+    "sha256": "9b20591bcb520b4147f869be3765a479c6f83d73bc01ec26ad03a15a53035277",
     "pages": 16,
     "language": "hi",
     "kind": "presentation"

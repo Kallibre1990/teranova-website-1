@@ -292,7 +292,7 @@ def main():
     device_source = (ROOT / 'src/data/agafar.ts').read_text()
     block = device_source.split('export const agafarDeviceImages:')[1]
     images = dict(re.findall(r"'([^']+)': '([^']+)'", block))
-    assert len(images) == 9
+    assert len(images) == 8
     catalog = json.loads((DATA / 'agafar.catalog.json').read_text())
     manifest = []
     for lang in locales():

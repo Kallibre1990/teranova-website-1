@@ -1700,7 +1700,7 @@
       "images": [
         {
           "path": "/img/suppliers/agafar/products/nadxen-ampoule.webp",
-          "sha256": "10de32699817d7161fe1f02962bc9668233f0bb2f249a5a7b5f59947746b2fde",
+          "sha256": "1a93d84389f043ef627c3a2688232f354607a031f1687c26f2a8ca465f8fc8f0",
           "box": [
             42,
             146,
@@ -1711,7 +1711,7 @@
         },
         {
           "path": "/img/suppliers/agafar/products/nadxen-serum.webp",
-          "sha256": "2fa9bd027c73f5e571088d4b7ad303d734b3cb998b093b2af9ccacc694bcb1ba",
+          "sha256": "7e6d19c5377458e20e6ea806c45cbdac5757afcfd82c57d5d41d0b7fc7d71e13",
           "box": [
             310,
             146,
@@ -2024,7 +2024,7 @@
           "direction": "ltr"
         },
         {
-          "value": "agafar S",
+          "value": "PLASMA",
           "box": [
             292,
             160,
@@ -2036,7 +2036,7 @@
           "direction": "ltr"
         },
         {
-          "value": "Cavitation, thermal and suction functions with APP-1, APP-2 and APP-3 handpieces.",
+          "value": "AIR Plasma, RF Multi Plasma and POINT Plasma handpieces.",
           "box": [
             292,
             237,
@@ -2048,7 +2048,7 @@
           "direction": "ltr"
         },
         {
-          "value": "PLASMA",
+          "value": "agafar LED PDT Light",
           "box": [
             292,
             470,
@@ -2060,7 +2060,7 @@
           "direction": "ltr"
         },
         {
-          "value": "AIR Plasma, RF Multi Plasma and POINT Plasma handpieces.",
+          "value": "An LED system with red, green, blue and combined-light modes.",
           "box": [
             292,
             547,
@@ -2074,8 +2074,8 @@
       ],
       "images": [
         {
-          "path": "/img/suppliers/agafar/tech/agafar-s.webp",
-          "sha256": "af36305a5843daa8f41bc18c27eae3c617384d5aea59ddf68564f2ba2c50dd72",
+          "path": "/img/suppliers/agafar/tech/plasma.webp",
+          "sha256": "9c2c3aa068058cebeb778f27aca9986f12155b4dca1f1fcc92556d34b1b62f02",
           "box": [
             42,
             155,
@@ -2085,8 +2085,8 @@
           "clip": null
         },
         {
-          "path": "/img/suppliers/agafar/tech/plasma.webp",
-          "sha256": "9c2c3aa068058cebeb778f27aca9986f12155b4dca1f1fcc92556d34b1b62f02",
+          "path": "/img/suppliers/agafar/tech/led-pdt-light.webp",
+          "sha256": "db0480b5162f2f6fab9ed54b612903bae83799292b00cfecb6e88bc1e91f1470",
           "box": [
             42,
             465,
@@ -2149,7 +2149,7 @@
           "direction": "ltr"
         },
         {
-          "value": "agafar LED PDT Light",
+          "value": "PLAZION",
           "box": [
             292,
             160,
@@ -2161,7 +2161,7 @@
           "direction": "ltr"
         },
         {
-          "value": "An LED system with red, green, blue and combined-light modes.",
+          "value": "AGAFAR presents PLAZION for enhanced absorption of skincare products.",
           "box": [
             292,
             237,
@@ -2171,52 +2171,17 @@
           "size": 12,
           "bottom": 271.4000015258789,
           "direction": "ltr"
-        },
-        {
-          "value": "PLAZION",
-          "box": [
-            292,
-            470,
-            553,
-            534
-          ],
-          "size": 17,
-          "bottom": 494.95000076293945,
-          "direction": "ltr"
-        },
-        {
-          "value": "AGAFAR presents PLAZION for enhanced absorption of skincare products.",
-          "box": [
-            292,
-            547,
-            553,
-            730
-          ],
-          "size": 12,
-          "bottom": 581.4000015258789,
-          "direction": "ltr"
         }
       ],
       "images": [
-        {
-          "path": "/img/suppliers/agafar/tech/led-pdt-light.webp",
-          "sha256": "db0480b5162f2f6fab9ed54b612903bae83799292b00cfecb6e88bc1e91f1470",
-          "box": [
-            42,
-            155,
-            265,
-            420
-          ],
-          "clip": null
-        },
         {
           "path": "/img/suppliers/agafar/scenes/plazion.webp",
           "sha256": "ebc94242c93cdc80434f7c162658e52c735f276dfb27cfda6672ee027fe4824b",
           "box": [
             42,
-            465,
+            155,
             265,
-            730
+            420
           ],
           "clip": null
         }
@@ -2637,7 +2602,7 @@
   "inputs": [
     {
       "path": "src/data/suppliers-i18n/agafar.en.json",
-      "sha256": "21d7ca2793e0f38c45ec66256eaede0ee4b235887c24aa311482815a79353e50"
+      "sha256": "f6f67cce3eb570f328421bf18e54061216f5ff2c1559410aefd29da922e67e31"
     },
     {
       "path": "src/data/suppliers-i18n/agafar.catalog.json",
@@ -2645,7 +2610,7 @@
     },
     {
       "path": "src/data/agafar.ts",
-      "sha256": "e6bce20ab30dff24e20364147f4929edf389c6c47c622c2ef45ced239f7f563e"
+      "sha256": "a9f4058528e1923936ef978a2dc64497bbe6aee7c94ae398fe5d8d460ccffcb5"
     },
     {
       "path": "src/i18n/locale-policy.mjs",
@@ -2653,7 +2618,7 @@
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "fb01ef157bc66106f93fc4531e80e4ce159ac2a40f64630b9187c1e77601fca1"
+      "sha256": "2657a6b96eebf18b5bd0f463eb56360dd3277ebaa31c3472536b22366ddb7713"
     }
   ]
 }
