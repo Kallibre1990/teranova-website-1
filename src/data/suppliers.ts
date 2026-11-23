@@ -685,6 +685,15 @@ import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
 import dreamcosHe from './suppliers-i18n/dreamcos.he.json';
 import dreamcosHi from './suppliers-i18n/dreamcos.hi.json';
+import feelodyCatalog from './suppliers-i18n/feelody.catalog.json';
+import feelodyLines from './suppliers-i18n/feelody.lines.json';
+import feelodyRu from './suppliers-i18n/feelody.ru.json';
+import feelodyEn from './suppliers-i18n/feelody.en.json';
+import feelodyKo from './suppliers-i18n/feelody.ko.json';
+import feelodyZh from './suppliers-i18n/feelody.zh.json';
+import feelodyJa from './suppliers-i18n/feelody.ja.json';
+import feelodyHe from './suppliers-i18n/feelody.he.json';
+import feelodyHi from './suppliers-i18n/feelody.hi.json';
 import artfaceCatalog from './suppliers-i18n/artface.catalog.json';
 import artfaceRu from './suppliers-i18n/artface.ru.json';
 import artfaceEn from './suppliers-i18n/artface.en.json';
@@ -1466,6 +1475,24 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(dreamcosTr),
       es: mk(dreamcosEs),
       pt: mk(dreamcosPt), he: mk(dreamcosHe), hi: mk(dreamcosHi),
+    },
+  },
+  {
+    /* FEELODY — Korean skincare brand (Teen + Derma lines). Published with the
+       company's written consent (correspondence Oct–Nov 2026, feelody.official@gmail.com).
+       FOB price list and MOQ stay confidential at the company's request — no priceFile,
+       no price fields in catalog/lines. Source: Feelody Introduction_202611_Eng_revised.pdf. */
+    slug: 'feelody',
+    category: 'cosmetics',
+    name: 'Feelody',
+    brand: 'Feelody',
+    status: 'provided',
+    brandColors: { deep: '#0e6b5c', sky: '#5fc9b0', accent: '#ff5a8a', bg: '#f1faf7' },
+    voice: 'natural',
+    catalog: feelodyCatalog as { line: string; items: { name: string; img: string }[] }[],
+    i18n: {
+      ru: mk(feelodyRu), en: mk(feelodyEn), ko: mk(feelodyKo), zh: mk(feelodyZh),
+      ja: mk(feelodyJa), he: mk(feelodyHe), hi: mk(feelodyHi),
     },
   },
   {
@@ -3598,6 +3625,7 @@ export const linePages: SupplierLinePage[] = [
   ...toneverLines,
   ...oanicLines,
   ...santeLines, ...dongdonggurimooLines, ...pineworldLines, ...dreamcosLines,
+  ...(feelodyLines as SupplierLinePage[]),
   ...jetsglobalLines, ...kiftLines, ...ckRegeonLines, ...(btfLines as SupplierLinePage[]),
   ...(desertFreeLines as SupplierLinePage[]),
   ...(veganNatureLines as SupplierLinePage[]),

@@ -1,0 +1,37 @@
+[
+  {
+    "line": "Feelody",
+    "items": [
+      {
+        "name": "Day Supreme Multi Essence Sunscreen",
+        "img": "/img/suppliers/feelody/day-supreme.webp",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Night Flex Calming Ampoule",
+        "img": "/img/suppliers/feelody/night-flex.webp",
+        "volume": "50 ml",
+        "certs": []
+      },
+      {
+        "name": "Acne Wonder Bubble Foam Cleansing",
+        "img": "/img/suppliers/feelody/acne-wonder.webp",
+        "volume": "150 ml",
+        "certs": []
+      },
+      {
+        "name": "Vital Surge Skin Booster",
+        "img": "/img/suppliers/feelody/vital-surge.webp",
+        "volume": "150 ml",
+        "certs": []
+      },
+      {
+        "name": "All Day Shield Barrier Cream",
+        "img": "/img/suppliers/feelody/all-day-shield.webp",
+        "volume": "50 ml",
+        "certs": []
+      }
+    ]
+  }
+]
