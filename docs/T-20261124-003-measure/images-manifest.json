@@ -1,0 +1,13 @@
+{
+  "source": "Feelody Introduction_202611_Eng_revised.pdf (official presentation, _MAIL_CRM/contacts/feelody-official-gmail-com/files/)",
+  "processing": "lossless crop from presentation page render + webp re-encode; no retouch, no added/removed elements, product unchanged (docs/IMAGERY.md class 1)",
+  "images": [
+    {"slug": "day-supreme", "file": "public/img/suppliers/feelody/day-supreme.webp", "product": "Day Supreme Multi Essence Sunscreen", "px": "600x600"},
+    {"slug": "night-flex", "file": "public/img/suppliers/feelody/night-flex.webp", "product": "Night Flex Calming Ampoule", "px": "600x600"},
+    {"slug": "acne-wonder", "file": "public/img/suppliers/feelody/acne-wonder.webp", "product": "Acne Wonder Bubble Foam Cleansing", "px": "600x600"},
+    {"slug": "vital-surge", "file": "public/img/suppliers/feelody/vital-surge.webp", "product": "Vital Surge Skin Booster", "px": "1239x1239"},
+    {"slug": "all-day-shield", "file": "public/img/suppliers/feelody/all-day-shield.webp", "product": "All Day Shield Barrier Cream", "px": "1238x1238"}
+  ],
+  "verified_visually": true,
+  "verified_at": "2026-11-24T01:40:00+09:00"
+}
