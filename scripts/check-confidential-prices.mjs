@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const CONFIDENTIAL = ['cellaheal', 'cheon365', 'feelody'];
+export const CONFIDENTIAL = ['cellaheal', 'cheon365', 'feelody'];
 const DATA = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'src/data/suppliers-i18n');
 const bad = [];
 for (const slug of CONFIDENTIAL) {

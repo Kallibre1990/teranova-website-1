@@ -90,4 +90,7 @@ export const ui: Record<Lang, UIDict> = {
   fr: build('fr', fr),
   tr: build('tr', tr),
   es: build('es', es),
+  // Staged (T-20261124-068): no Arabic strings yet, pure English fallback.
+  // Not in publicLocaleCodes, so this never creates a public /ar/ route.
+  ar: build('ar', {}),
 };
