@@ -185,6 +185,16 @@ const SUPPLIERS = [
       ],
     },
   },
+  {
+    /* noPrice: Feelody 23.11.2026 попросила держать FOB-прайс и MOQ
+       конфиденциальными (переписка с feelody.official@gmail.com) — прайс-PDF
+       не собираем, только presentation и terms. */
+    id: 'feelody', json: 'feelody', supplier: 'Feelody', brand: 'Feelody',
+    basis: '', noPrice: true,
+    colors: { deep: '#0e6b5c', sky: '#5fc9b0', bg: '#f1faf7', line: '#dcf0ea' },
+    pres: true,
+    certs: ['CGMP', 'ISO 9001', 'ISO 14001', 'ISO 22716'],
+  },
   /* Newer suppliers ship their ru copy as <slug>.ru.json, so no inline ruTerms/ruPres. */
   {
     id: 'dongdonggurimoo', json: 'dongdonggurimoo', supplier: 'DONGDONGGURIMOO', brand: 'LEBELAGE · HEEYUL',
