@@ -25,16 +25,23 @@ export async function compareLocale(baseline, locale, distRoot) {
   const baselineLogicalPages = baseline.pages.list.map(logicalPath);
   const targetLogicalPages = target.pages.list.map(logicalPath);
 
-  const families = pdfFamilies(resolve(distRoot, 'docs'));
-  const baselineFamilies = [...families.entries()].filter(([, f]) => f.langs.has(baseline.locale)).map(([name]) => name);
-  const targetFamilyNames = new Set([...families.entries()].filter(([, f]) => f.langs.has(locale)).map(([name]) => name));
+  /* Baseline PDF families come from the saved opis (baseline.pdf.families),
+     never recomputed from the current dist/docs: a family that existed when
+     the baseline was measured and later disappears must still show up as a
+     gap, not silently vanish from both sides of the diff. Only the target
+     side is read live, since the target locale has no saved opis yet. */
+  if (!baseline.pdf?.families) throw new Error('Baseline must include pdf.families (regenerate with current inventory-locale.mjs)');
+  const baselineFamilyInfo = new Map(baseline.pdf.families.map((f) => [f.family, f]));
+  const baselineFamilies = [...baselineFamilyInfo.keys()];
+  const currentFamilies = pdfFamilies(resolve(distRoot, 'docs'));
+  const targetFamilyNames = new Set([...currentFamilies.entries()].filter(([, f]) => f.langs.has(locale)).map(([name]) => name));
   const missingPdfFamilies = baselineFamilies.filter((name) => {
     if (targetFamilyNames.has(name)) return false;
-    const info = families.get(name);
+    const info = baselineFamilyInfo.get(name);
     return !(info.type === 'price' && PRICE_FORBIDDEN_SUPPLIERS.includes(info.slug));
   });
   const excludedPriceFamilies = baselineFamilies.filter((name) => {
-    const info = families.get(name);
+    const info = baselineFamilyInfo.get(name);
     return info.type === 'price' && PRICE_FORBIDDEN_SUPPLIERS.includes(info.slug) && !targetFamilyNames.has(name);
   });
 
@@ -58,9 +65,14 @@ export async function compareLocale(baseline, locale, distRoot) {
     pdfFamilies: { baseline: baselineFamilies.length, target: targetFamilyNames.size,
       missing: missingPdfFamilies, excludedPriceForbidden: excludedPriceFamilies },
     dictionaryKeys: { baseline: baselineDictKeys.length, target: targetDictKeys.length,
-      missingCount: missingDictKeys.length, missingSample: missingDictKeys.slice(0, 20) },
+      missingCount: missingDictKeys.length, missing: missingDictKeys },
     supplierDataFiles: { baseline: baselineSuppliers.length, target: targetSuppliers.length,
       missing: missingSupplierData },
+    images: { baselineTotal: baseline.images.total, baselineMissingAlt: baseline.images.missingAlt,
+      targetTotal: target.images.total, targetMissingAlt: target.images.missingAlt },
+    jsonLdPages: { baseline: baseline.jsonLdPages, target: target.jsonLdPages },
+    ogPages: { baseline: baseline.ogPages, target: target.ogPages },
+    metaPages: { baseline: baseline.metaPages, target: target.metaPages },
     llmsTxt: { baseline: baseline.llmsTxt, target: target.llmsTxt },
     sitemap: { baseline: baseline.sitemap, target: target.sitemap },
   };

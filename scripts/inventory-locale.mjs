@@ -45,7 +45,8 @@ export function inventoryLocale(locale, distRoot) {
   if (!existsSync(distRoot)) {
     return { locale, pages: { count: 0, list: [] }, blog: { count: 0, list: [] },
       catalogProfiles: { count: 0, list: [] }, images: { total: 0, missingAlt: 0 },
-      jsonLdPages: 0, ogPages: 0 };
+      jsonLdPages: 0, ogPages: 0, metaPages: 0,
+      llmsTxt: false, sitemap: false };
   }
   const all = walkHtml(distRoot);
   const pages = [];
@@ -55,7 +56,7 @@ export function inventoryLocale(locale, distRoot) {
   const blog = pages.filter((p) => /\/blog\/[^/]+\/$/.test(p));
   const catalogProfiles = pages.filter((p) => /\/catalog\/[^/]+\/$/.test(p) && !/\/catalog\/[^/]+\/[^/]+\/$/.test(p));
 
-  let imgTotal = 0, imgMissingAlt = 0, jsonLdPages = 0, ogPages = 0;
+  let imgTotal = 0, imgMissingAlt = 0, jsonLdPages = 0, ogPages = 0, metaPages = 0;
   for (const urlPath of pages) {
     const html = all.get(urlPath);
     const imgs = tags(html, 'img');
@@ -64,6 +65,9 @@ export function inventoryLocale(locale, distRoot) {
     if (/<script[^>]*application\/ld\+json/i.test(html)) jsonLdPages++;
     const metas = tags(html, 'meta');
     if (metas.some((m) => m.property === 'og:title') && metas.some((m) => m.property === 'og:description')) ogPages++;
+    const hasTitle = /<title>[^<]+<\/title>/i.test(html);
+    const hasDescription = metas.some((m) => m.name === 'description' && m.content && m.content.trim());
+    if (hasTitle && hasDescription) metaPages++;
   }
 
   return {
@@ -72,7 +76,9 @@ export function inventoryLocale(locale, distRoot) {
     blog: { count: blog.length, list: blog.map(logicalPath) },
     catalogProfiles: { count: catalogProfiles.length, list: catalogProfiles.map(logicalPath) },
     images: { total: imgTotal, missingAlt: imgMissingAlt },
-    jsonLdPages, ogPages,
+    jsonLdPages, ogPages, metaPages,
+    llmsTxt: existsSync(resolve(distRoot, 'llms.txt')),
+    sitemap: existsSync(resolve(distRoot, 'sitemap-index.xml')),
   };
 }
 
@@ -128,8 +134,6 @@ async function main() {
   report.dictionaryKeyCount = dictCount;
   if (!process.argv.includes('--full-keys')) delete report.dictionaryKeys;
   report.supplierDataFiles = { count: supplierDataFiles(locale).length, list: supplierDataFiles(locale) };
-  report.llmsTxt = existsSync(resolve(distRoot, 'llms.txt'));
-  report.sitemap = existsSync(resolve(distRoot, 'sitemap-index.xml'));
   console.log(JSON.stringify(report, null, 2));
 }
 
