@@ -1,0 +1,672 @@
+[
+  {
+    "slug": "refillable-face-care",
+    "supplierSlug": "jellyko",
+    "category": "cosmetics",
+    "lineName": "Refillable face care",
+    "items": [
+      {
+        "name": "Bubble Tea Steam Cream",
+        "img": "/img/suppliers/jellyko/products/bubble-tea-steam-cream.png",
+        "volume": "50 g"
+      },
+      {
+        "name": "Bubble Tea Steam Cream Refill",
+        "img": "/img/suppliers/jellyko/products/bubble-tea-steam-cream-refill.png",
+        "volume": "50 g"
+      },
+      {
+        "name": "Cherry Blossom Sleeping Mask",
+        "img": "/img/suppliers/jellyko/products/cherry-blossom-sleeping-mask.jpg",
+        "volume": "90 g"
+      },
+      {
+        "name": "Dewy Glaze Toner",
+        "img": "/img/suppliers/jellyko/products/dewy-glaze-toner.png",
+        "volume": "155 g"
+      },
+      {
+        "name": "Dewy Glaze Toner Refill",
+        "img": "/img/suppliers/jellyko/products/dewy-glaze-toner-refill.png",
+        "volume": "155 g"
+      },
+      {
+        "name": "Cinnamon Toast Sugar Scrub Foam",
+        "img": "/img/suppliers/jellyko/products/cinnamon-toast-sugar-scrub-foam.png",
+        "volume": "100 g"
+      },
+      {
+        "name": "White Truffle Soufflé Serum",
+        "img": "/img/suppliers/jellyko/products/white-truffle-souffle-serum.png",
+        "volume": "50 ml"
+      },
+      {
+        "name": "White Truffle Soufflé Serum Refill",
+        "img": "/img/suppliers/jellyko/products/white-truffle-souffle-serum-refill.jpg",
+        "volume": "50 ml"
+      },
+      {
+        "name": "Be Jelly Overnight Dream Serum",
+        "img": "/img/suppliers/jellyko/products/be-jelly-overnight-dream-serum.jpg",
+        "volume": "50 ml"
+      },
+      {
+        "name": "Be Jelly Overnight Dream Serum Refill",
+        "img": "/img/suppliers/jellyko/products/be-jelly-overnight-dream-serum-refill.jpg",
+        "volume": "50 ml"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Уход со сменными блоками (Jelly Ko) · Teranova",
+        "seoDesc": "Базовая линейка: стим-крем, тонер, две сыворотки, ночная маска и скраб-пенка — каждый продукт построен вокруг короткого списка активных ингредиентов. У четырёх позиций — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum и Be Jelly Overnight Dream Serum — есть сменный блок или дорожный формат. Прямая оптовая закупка; B2B-запросы через Teranova.",
+        "tagline": "Уход со сменными блоками",
+        "about": [
+          "Базовая линейка: стим-крем, тонер, две сыворотки, ночная маска и скраб-пенка — каждый продукт построен вокруг короткого списка активных ингредиентов. У четырёх позиций — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum и Be Jelly Overnight Dream Serum — есть сменный блок или дорожный формат."
+        ],
+        "itemNotes": [
+          "3-в-1 масло + сыворотка + крем с ниацинамидом 2%, аденозином, пантенолом, витамином E, бета-глюканом и скваланом; для ежедневного использования утром и вечером. По данным компании, самый продаваемый продукт линейки.",
+          "Сменный блок для Bubble Tea Steam Cream, с маслом виноградных косточек, бета-глюканом, ниацинамидом 2% и аденозином; по данным компании, получил награду Prevention «Best of Beauty» за сменную упаковку.",
+          "Ночная маска с патентованным комплексом MOISTBOOM, экстрактом цветков вишни, ниацинамидом 2%, пантенолом, эктоином 1%, бетаином, аллантоином и аденозином; тонкий слой за 20 минут до сна, смыть утром, либо лёгкий дневной увлажняющий крем.",
+          "Эссенция и тонер в одном шаге: 84% берёзового сока, многослойный комплекс гиалуроновых кислот, аргинин, пантенол и ягодные экстракты; после очищения — ватным диском, затем ещё слой руками для впитывания.",
+          "Сменный блок для Dewy Glaze Toner того же объёма; по данным компании, сокращает расход одноразового пластика более чем на 90%, также продаётся как дорожный формат с крышкой.",
+          "Многофункциональный скраб, превращается в пену при контакте с водой; глицерин, сахароза и мульти-керамидный комплекс; как очищающее средство или, оставленный на влажной коже, как эксфолиант.",
+          "Сыворотка текстуры суфле для очень сухой, чувствительной и повреждённой кожи: европейский белый трюфель, масло ши, солодка, центелла азиатская, гиалуронат натрия и аденозин, без добавленных красителей, отдушек и эфирных масел; 1–2 нажатия перед кремом.",
+          "Сменный блок для White Truffle Soufflé Serum того же объёма; по данным компании, сокращает расход одноразового пластика и стекла более чем на 80%, также продаётся как дорожный формат.",
+          "Ночная сыворотка гелевой текстуры с ретинолом, коллагеном, пантенолом, скваланом и четырьмя видами гиалуроновой кислоты — для текстуры и тона кожи; тонкий слой перед ночным кремом, начиная с 1–2 раз в неделю с постепенным увеличением частоты.",
+          "Сменный блок и дорожный формат для Be Jelly Overnight Dream Serum того же объёма и с тем же способом применения."
+        ]
+      },
+      "en": {
+        "seoTitle": "Refillable face care (Jelly Ko) · Teranova",
+        "seoDesc": "The core range: a steam cream, a toner, two serums, a sleeping mask and a scrub foam, each built around a short list of active ingredients. Four items — the Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum and Be Jelly Overnight Dream Serum — have a matching refill or travel pack. Direct wholesale purchase; B2B inquiries through Teranova.",
+        "tagline": "Refillable face care",
+        "about": [
+          "The core range: a steam cream, a toner, two serums, a sleeping mask and a scrub foam, each built around a short list of active ingredients. Four items — the Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum and Be Jelly Overnight Dream Serum — have a matching refill or travel pack."
+        ],
+        "itemNotes": [
+          "A 3-in-1 oil, serum and cream with niacinamide 2%, adenosine, panthenol, vitamin E, beta-glucan and squalane, for daily use morning and evening; the top-selling product in the range, according to the company.",
+          "The matching refill pouch for the Bubble Tea Steam Cream, with grape seed oil, beta-glucan, niacinamide 2% and adenosine; winner of a Prevention magazine 'Best of Beauty' award for refillable skincare, according to the company.",
+          "A night mask with a patented MOISTBOOM complex, cherry blossom extract, niacinamide 2%, panthenol, ectoin 1%, betaine, allantoin and adenosine; a thin layer 20 minutes before bed, rinsed off in the morning, or used as a lightweight day moisturizer.",
+          "A combined essence-and-toner step with 84% birch sap, a layered hyaluronic acid complex, arginine, panthenol and berry extracts; applied after cleansing with a cotton pad, then pressed in by hand for a second layer.",
+          "The matching refill for the Dewy Glaze Toner, in the same volume; cuts single-use plastic by more than 90%, according to the company, also sold as a travel pack with a cap.",
+          "A multi-functional scrub that turns into foam on contact with water, with glycerin, sucrose and a multi-ceramide complex; used either as a cleanser or, left on damp skin, as an exfoliant.",
+          "A soufflé-textured serum for very dry, sensitive and compromised skin, with European white truffle, shea butter, licorice, centella asiatica, sodium hyaluronate and adenosine, without added dyes, fragrance or essential oils; one to two pumps before a moisturizer.",
+          "The matching refill for the White Truffle Soufflé Serum, in the same volume; cuts single-use plastic and glass by more than 80%, according to the company, also sold as a travel pack.",
+          "A gel-textured night serum with retinol, collagen, panthenol, squalane and four types of hyaluronic acid, for texture and tone; a thin layer before night cream, starting at one to two times a week and building up gradually.",
+          "The matching refill and travel pack for the Be Jelly Overnight Dream Serum, in the same volume and with the same use."
+        ]
+      },
+      "ko": {
+        "seoTitle": "리필형 페이스 케어 (Jelly Ko) · Teranova",
+        "seoDesc": "스팀 크림, 토너, 세럼 2종, 슬리핑 마스크, 스크럽 폼으로 구성된 핵심 라인으로, 각각 소수의 핵심 성분을 중심으로 설계했습니다. Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum, Be Jelly Overnight Dream Serum 네 가지 제품은 전용 리필이나 트래블 팩을 갖추고 있습니다. 직접 도매 구매; B2B 문의는 Teranova를 통해 진행합니다.",
+        "tagline": "리필형 페이스 케어",
+        "about": [
+          "스팀 크림, 토너, 세럼 2종, 슬리핑 마스크, 스크럽 폼으로 구성된 핵심 라인으로, 각각 소수의 핵심 성분을 중심으로 설계했습니다. Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum, Be Jelly Overnight Dream Serum 네 가지 제품은 전용 리필이나 트래블 팩을 갖추고 있습니다."
+        ],
+        "itemNotes": [
+          "나이아신아마이드 2%, 아데노신, 판테놀, 비타민 E, 베타글루칸, 스쿠알란을 담은 오일+세럼+크림 3-in-1 제품이며 아침저녁 매일 사용합니다. 브랜드에 따르면 라인의 베스트셀러 제품입니다.",
+          "Bubble Tea Steam Cream의 전용 리필 파우치로, 포도씨 오일, 베타글루칸, 나이아신아마이드 2%, 아데노신을 담고 있습니다. 자체 소개에 따르면 Prevention 매거진 'Best of Beauty'에서 리필형 스킨케어 부문 상을 받았습니다.",
+          "MOISTBOOM 콤플렉스와 체리블로섬 추출물, 나이아신아마이드 2%, 판테놀, 엑토인 1%, 베타인, 알란토인, 아데노신을 담은 나이트 마스크입니다. 잠들기 20분 전 얇게 바르고 아침에 씻어내거나, 가벼운 데이 모이스처라이저로도 사용할 수 있습니다.",
+          "자작나무 수액 84%, 레이어드 히알루론산 콤플렉스, 아르기닌, 판테놀, 베리 추출물을 담은 에센스 겸 토너 단계로, 클렌징 후 코튼 패드로 바른 다음 손으로 한 번 더 눌러 흡수시킵니다.",
+          "Dewy Glaze Toner와 동일한 용량의 전용 리필로, 브랜드에 따르면 일회용 플라스틱 사용량을 90% 이상 줄여줍니다. 캡이 있는 트래블 팩으로도 판매합니다.",
+          "물에 닿으면 거품으로 변하는 다용도 스크럽으로, 글리세린, 수크로스, 멀티 세라마이드 콤플렉스를 담고 있습니다. 클렌저로 사용하거나, 젖은 피부에 잠시 올려두어 각질 제거용으로도 사용할 수 있습니다.",
+          "매우 건조하고 민감하며 손상된 피부를 위한 수플레 텍스처 세럼으로, 유럽 화이트 트러플, 시어버터, 감초, 센텔라 아시아티카, 히알루론산나트륨, 아데노신을 담았으며 색소, 향료, 에센셜 오일을 첨가하지 않았습니다. 모이스처라이저 전에 1~2번 펌핑해 사용합니다.",
+          "White Truffle Soufflé Serum과 동일한 용량의 전용 리필로, 브랜드에 따르면 일회용 플라스틱과 유리 사용량을 80% 이상 줄여줍니다. 트래블 팩으로도 판매합니다.",
+          "레티놀, 콜라겐, 판테놀, 스쿠알란, 4종의 히알루론산을 담은 젤 텍스처 나이트 세럼으로 피부 결과 톤을 가꿔줍니다. 나이트 크림 전에 얇게 바르며, 주 1~2회로 시작해 점차 사용 빈도를 늘려갑니다.",
+          "Be Jelly Overnight Dream Serum과 동일한 용량, 동일한 사용법의 전용 리필 및 트래블 팩입니다."
+        ]
+      },
+      "zh": {
+        "seoTitle": "可补充装面部护理 (Jelly Ko) · Teranova",
+        "seoDesc": "核心产品线：一款蒸汽面霜、一款爽肤水、两款精华、一款晚安面膜和一款洁面泡沫，每款都围绕少量活性成分设计。其中Bubble Tea Steam Cream、Dewy Glaze Toner、White Truffle Soufflé Serum和Be Jelly Overnight Dream Serum四款均配有相应的补充装或旅行装。 直接批发采购；B2B询盘通过Teranova进行。",
+        "tagline": "可补充装面部护理",
+        "about": [
+          "核心产品线：一款蒸汽面霜、一款爽肤水、两款精华、一款晚安面膜和一款洁面泡沫，每款都围绕少量活性成分设计。其中Bubble Tea Steam Cream、Dewy Glaze Toner、White Truffle Soufflé Serum和Be Jelly Overnight Dream Serum四款均配有相应的补充装或旅行装。"
+        ],
+        "itemNotes": [
+          "三合一油+精华+面霜，含2%烟酰胺、腺苷、泛醇、维生素E、β-葡聚糖和角鲨烷，可早晚日常使用；据品牌介绍，是该系列中最畅销的产品。",
+          "Bubble Tea Steam Cream的配套补充装，含葡萄籽油、β-葡聚糖、2%烟酰胺和腺苷；据品牌介绍，曾获《Prevention》杂志“Best of Beauty”可补充装护肤奖项。",
+          "一款晚安面膜，含品牌专利MOISTBOOM复合物、樱花提取物、2%烟酰胺、泛醇、1%依克多因、甜菜碱、尿囊素和腺苷；睡前20分钟薄涂一层，早晨洗净，也可作为清爽日间保湿霜使用。",
+          "一款兼具精华与爽肤水功能的产品，含84%白桦树汁、多层透明质酸复合物、精氨酸、泛醇和多种浆果提取物；洁面后用棉片涂抹，再用手轻拍叠加第二层。",
+          "Dewy Glaze Toner的配套补充装，容量相同；据品牌估计，可减少一次性塑料用量90%以上，同时也以带盖旅行装形式出售。",
+          "一款多功能磨砂产品，接触水即化为泡沫，含甘油、蔗糖和多重神经酰胺复合物；可作为洁面产品使用，也可在湿润肌肤上停留后作为去角质产品使用。",
+          "一款慕斯质地精华，专为极度干燥、敏感及受损肌肤设计，含欧洲白松露、乳木果油、甘草、积雪草、透明质酸钠和腺苷，不添加染料、香精或精油；使用1-2泵，涂于面霜之前。",
+          "White Truffle Soufflé Serum的配套补充装，容量相同；据品牌估计，可减少一次性塑料和玻璃用量80%以上，同时也以旅行装形式出售。",
+          "一款凝胶质地晚间精华，含视黄醇、胶原蛋白、泛醇、角鲨烷和四种透明质酸，用于改善肌肤质地和肤色；在晚霜前薄涂一层，建议从每周1-2次开始，逐步增加使用频率。",
+          "Be Jelly Overnight Dream Serum的配套补充装与旅行装，容量和用法相同。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "リフィル式フェイスケア (Jelly Ko) · Teranova",
+        "seoDesc": "中心となるラインで、スチームクリーム、トナー、セラム2種、スリーピングマスク、スクラブフォームからなり、いずれも少数の有効成分を軸に処方しています。Bubble Tea Steam Cream、Dewy Glaze Toner、White Truffle Soufflé Serum、Be Jelly Overnight Dream Serumの4品には、対応するリフィルまたはトラベルパックがあります。 直接の卸売買取。B2Bのお問い合わせはTeranova経由。",
+        "tagline": "リフィル式フェイスケア",
+        "about": [
+          "中心となるラインで、スチームクリーム、トナー、セラム2種、スリーピングマスク、スクラブフォームからなり、いずれも少数の有効成分を軸に処方しています。Bubble Tea Steam Cream、Dewy Glaze Toner、White Truffle Soufflé Serum、Be Jelly Overnight Dream Serumの4品には、対応するリフィルまたはトラベルパックがあります。"
+        ],
+        "itemNotes": [
+          "オイル＋セラム＋クリームの3in1で、ナイアシンアミド2%、アデノシン、パンテノール、ビタミンE、ベータグルカン、スクワランを配合。朝晩毎日使用。同社によると、ライン中最も売れている製品。",
+          "Bubble Tea Steam Cream用のリフィルパウチ。グレープシードオイル、ベータグルカン、ナイアシンアミド2%、アデノシンを配合。同社によると、リフィル式スキンケアとしてPrevention誌「Best of Beauty」awardを受賞。",
+          "同社の特許MOISTBOOM複合成分、桜エキス、ナイアシンアミド2%、パンテノール、エクトイン1%、ベタイン、アラントイン、アデノシンを配合したナイトマスク。就寝20分前に薄く塗り、朝に洗い流すか、軽めのデイモイスチャライザーとしても使用可能。",
+          "84%のバーチサップ（白樺樹液）、重層型ヒアルロン酸複合成分、アルギニン、パンテノール、ベリーエキスを配合したエッセンス兼トナー。洗顔後にコットンパッドでなじませ、さらに手で押し込むように重ね付け。",
+          "Dewy Glaze Toner用の同容量リフィル。同社の見積もりでは使い捨てプラスチックを90%以上削減。キャップ付きトラベルパックとしても販売。",
+          "水に触れると泡状になる多機能スクラブ。グリセリン、スクロース、マルチセラミド複合成分を配合。クレンザーとして、または湿った肌にのせて角質ケアとしても使用可能。",
+          "非常に乾燥した敏感肌・バリア機能が低下した肌向けのスフレ状セラム。ヨーロッパ産ホワイトトリュフ、シアバター、甘草、ツボクサ、ヒアルロン酸Na、アデノシンを配合し、着色料・香料・精油は無添加。モイスチャライザーの前に1〜2プッシュ。",
+          "White Truffle Soufflé Serum用の同容量リフィル。同社の見積もりでは使い捨てプラスチックとガラスを80%以上削減。トラベルパックとしても販売。",
+          "レチノール、コラーゲン、パンテノール、スクワラン、4種のヒアルロン酸を配合したジェル状ナイトセラム。肌のキメとトーンのために。ナイトクリームの前に薄く塗布し、週1〜2回から始めて徐々に頻度を増やす。",
+          "Be Jelly Overnight Dream Serum用の、同容量・同じ使い方のリフィルおよびトラベルパック。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cura del viso ricaricabile (Jelly Ko) · Teranova",
+        "seoDesc": "La gamma principale: una steam cream, un tonico, due sieri, una maschera notte e una schiuma scrub, ciascuno costruito attorno a un breve elenco di principi attivi. Quattro prodotti — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum e Be Jelly Overnight Dream Serum — hanno una ricarica o un travel pack dedicati. Acquisto all'ingrosso diretto; richieste B2B tramite Teranova.",
+        "tagline": "Cura del viso ricaricabile",
+        "about": [
+          "La gamma principale: una steam cream, un tonico, due sieri, una maschera notte e una schiuma scrub, ciascuno costruito attorno a un breve elenco di principi attivi. Quattro prodotti — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum e Be Jelly Overnight Dream Serum — hanno una ricarica o un travel pack dedicati."
+        ],
+        "itemNotes": [
+          "Un 3-in-1 olio + siero + crema con niacinamide al 2%, adenosina, pantenolo, vitamina E, beta-glucano e squalano, per un uso quotidiano mattina e sera; secondo l'azienda, il prodotto più venduto della gamma.",
+          "La busta di ricarica corrispondente per la Bubble Tea Steam Cream, con olio di semi d'uva, beta-glucano, niacinamide al 2% e adenosina; vincitrice, secondo l'azienda, di un premio 'Best of Beauty' della rivista Prevention per la skincare ricaricabile.",
+          "Una maschera notte con un complesso brevettato MOISTBOOM, estratto di fiori di ciliegio, niacinamide al 2%, pantenolo, ectoina all'1%, betaina, allantoina e adenosina; uno strato sottile 20 minuti prima di dormire, da sciacquare al mattino, oppure da usare come idratante leggero da giorno.",
+          "Un passaggio combinato essenza-tonico con l'84% di linfa di betulla, un complesso stratificato di acido ialuronico, arginina, pantenolo ed estratti di frutti di bosco; applicato dopo la detersione con un dischetto di cotone, poi tamponato a mano per un secondo strato.",
+          "La ricarica corrispondente per il Dewy Glaze Toner, nello stesso volume; secondo l'azienda riduce la plastica a uso unico di oltre il 90%, venduta anche come travel pack con tappo.",
+          "Uno scrub multifunzionale che si trasforma in schiuma a contatto con l'acqua, con glicerina, saccarosio e un complesso multi-ceramide; utilizzabile come detergente oppure, lasciato sulla pelle umida, come esfoliante.",
+          "Un siero con texture soufflé per pelle molto secca, sensibile e compromessa, con tartufo bianco europeo, burro di karité, liquirizia, centella asiatica, sodio ialuronato e adenosina, senza coloranti, profumo o oli essenziali aggiunti; una o due pompate prima della crema idratante.",
+          "La ricarica corrispondente per il White Truffle Soufflé Serum, nello stesso volume; secondo l'azienda riduce di oltre l'80% la plastica e il vetro a uso unico, venduta anche come travel pack.",
+          "Un siero notte con texture gel, con retinolo, collagene, pantenolo, squalano e quattro tipi di acido ialuronico, per texture e tono della pelle; uno strato sottile prima della crema notte, iniziando con una o due applicazioni a settimana e aumentando gradualmente.",
+          "La ricarica e il travel pack corrispondenti per il Be Jelly Overnight Dream Serum, nello stesso volume e con lo stesso utilizzo."
+        ]
+      },
+      "de": {
+        "seoTitle": "Nachfüllbare Gesichtspflege (Jelly Ko) · Teranova",
+        "seoDesc": "Das Kernsortiment: eine Steam Cream, ein Toner, zwei Seren, eine Schlafmaske und ein Peeling-Schaum, jeweils aufgebaut auf einer kurzen Liste von Wirkstoffen. Vier Produkte — die Bubble Tea Steam Cream, der Dewy Glaze Toner, das White Truffle Soufflé Serum und das Be Jelly Overnight Dream Serum — haben ein passendes Nachfüll- oder Reisepack. Direkter Großhandelskauf; B2B-Anfragen über Teranova.",
+        "tagline": "Nachfüllbare Gesichtspflege",
+        "about": [
+          "Das Kernsortiment: eine Steam Cream, ein Toner, zwei Seren, eine Schlafmaske und ein Peeling-Schaum, jeweils aufgebaut auf einer kurzen Liste von Wirkstoffen. Vier Produkte — die Bubble Tea Steam Cream, der Dewy Glaze Toner, das White Truffle Soufflé Serum und das Be Jelly Overnight Dream Serum — haben ein passendes Nachfüll- oder Reisepack."
+        ],
+        "itemNotes": [
+          "Ein 3-in-1 aus Öl, Serum und Creme mit 2 % Niacinamid, Adenosin, Panthenol, Vitamin E, Beta-Glucan und Squalan, für den täglichen Gebrauch morgens und abends; laut Unternehmen das meistverkaufte Produkt der Linie.",
+          "Der passende Nachfüllbeutel für die Bubble Tea Steam Cream, mit Traubenkernöl, Beta-Glucan, 2 % Niacinamid und Adenosin; nach eigenen Angaben Gewinner einer „Best of Beauty“-Auszeichnung des Magazins Prevention für nachfüllbare Hautpflege.",
+          "Eine Nachtmaske mit dem patentierten MOISTBOOM-Komplex, Kirschblütenextrakt, 2 % Niacinamid, Panthenol, 1 % Ectoin, Betain, Allantoin und Adenosin; dünn aufgetragen 20 Minuten vor dem Schlafengehen und morgens abgewaschen, oder als leichte Tagesfeuchtigkeitspflege verwendet.",
+          "Ein kombinierter Essenz-und-Toner-Schritt mit 84 % Birkensaft, einem mehrschichtigen Hyaluronsäure-Komplex, Arginin, Panthenol und Beerenextrakten; nach der Reinigung mit einem Wattepad aufgetragen und anschließend für eine zweite Schicht von Hand einmassiert.",
+          "Die passende Nachfüllung für den Dewy Glaze Toner, im gleichen Volumen; laut Unternehmen senkt sie den Einweg-Plastikverbrauch um mehr als 90 %, auch als Reisepack mit Verschlusskappe erhältlich.",
+          "Ein multifunktionales Peeling, das bei Kontakt mit Wasser zu Schaum wird, mit Glycerin, Saccharose und einem Multi-Ceramid-Komplex; verwendbar als Reiniger oder, auf feuchter Haut belassen, als Peeling.",
+          "Ein Serum mit Soufflé-Textur für sehr trockene, empfindliche und beanspruchte Haut, mit europäischem weißem Trüffel, Sheabutter, Süßholz, Centella Asiatica, Natriumhyaluronat und Adenosin, ohne zugesetzte Farbstoffe, Duftstoffe oder ätherische Öle; ein bis zwei Pumpstöße vor der Feuchtigkeitspflege.",
+          "Die passende Nachfüllung für das White Truffle Soufflé Serum, im gleichen Volumen; laut Unternehmen senkt sie den Einweg-Plastik- und Glasverbrauch um mehr als 80 %, auch als Reisepack erhältlich.",
+          "Ein Nachtserum mit Gel-Textur, mit Retinol, Kollagen, Panthenol, Squalan und vier Arten von Hyaluronsäure, für Hautstruktur und -ton; dünn vor der Nachtcreme aufgetragen, anfangs ein- bis zweimal pro Woche, dann schrittweise gesteigert.",
+          "Die passende Nachfüllung und der Reisepack für das Be Jelly Overnight Dream Serum, im gleichen Volumen und mit der gleichen Anwendung."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Soins du visage rechargeables (Jelly Ko) · Teranova",
+        "seoDesc": "La gamme principale : une crème vapeur, un tonique, deux sérums, un masque de nuit et une mousse exfoliante, chacun construit autour d'une courte liste d'ingrédients actifs. Quatre produits — la Bubble Tea Steam Cream, le Dewy Glaze Toner, le White Truffle Soufflé Serum et le Be Jelly Overnight Dream Serum — disposent d'une recharge ou d'un format voyage assorti. Achat direct en gros ; demandes B2B via Teranova.",
+        "tagline": "Soins du visage rechargeables",
+        "about": [
+          "La gamme principale : une crème vapeur, un tonique, deux sérums, un masque de nuit et une mousse exfoliante, chacun construit autour d'une courte liste d'ingrédients actifs. Quatre produits — la Bubble Tea Steam Cream, le Dewy Glaze Toner, le White Truffle Soufflé Serum et le Be Jelly Overnight Dream Serum — disposent d'une recharge ou d'un format voyage assorti."
+        ],
+        "itemNotes": [
+          "Un 3-en-1 huile + sérum + crème avec 2 % de niacinamide, de l'adénosine, du panthénol, de la vitamine E, du bêta-glucane et du squalane, pour un usage quotidien matin et soir ; le produit le plus vendu de la gamme, selon l'entreprise.",
+          "La poche de recharge assortie pour la Bubble Tea Steam Cream, avec huile de pépins de raisin, bêta-glucane, 2 % de niacinamide et adénosine ; lauréate, selon l'entreprise, d'un prix « Best of Beauty » du magazine Prevention pour les soins rechargeables.",
+          "Un masque de nuit avec le complexe breveté MOISTBOOM, de l'extrait de fleur de cerisier, 2 % de niacinamide, du panthénol, 1 % d'ectoïne, de la bétaïne, de l'allantoïne et de l'adénosine ; une fine couche 20 minutes avant le coucher, rincée le matin, ou utilisée comme hydratant léger de jour.",
+          "Une étape combinée essence-tonique avec 84 % de sève de bouleau, un complexe d'acide hyaluronique en plusieurs poids moléculaires, de l'arginine, du panthénol et des extraits de baies ; appliquée après le nettoyage avec un coton, puis pressée à la main pour une seconde couche.",
+          "La recharge assortie pour le Dewy Glaze Toner, dans le même volume ; selon l'entreprise, elle réduit le plastique à usage unique de plus de 90 %, également vendue en format voyage avec bouchon.",
+          "Un gommage multifonction qui se transforme en mousse au contact de l'eau, avec glycérine, sucrose et un complexe multi-céramides ; utilisé soit comme nettoyant, soit, laissé sur peau humide, comme exfoliant.",
+          "Un sérum à texture soufflée pour les peaux très sèches, sensibles et fragilisées, avec truffe blanche européenne, beurre de karité, réglisse, centella asiatica, hyaluronate de sodium et adénosine, sans colorants, parfum ni huiles essentielles ajoutés ; une à deux pressions avant un hydratant.",
+          "La recharge assortie pour le White Truffle Soufflé Serum, dans le même volume ; selon l'entreprise, elle réduit de plus de 80 % le plastique et le verre à usage unique, également vendue en format voyage.",
+          "Un sérum de nuit à texture gel avec rétinol, collagène, panthénol, squalane et quatre types d'acide hyaluronique, pour le grain de peau et le teint ; une fine couche avant la crème de nuit, en commençant à une à deux fois par semaine puis en augmentant progressivement.",
+          "La recharge et le format voyage assortis pour le Be Jelly Overnight Dream Serum, dans le même volume et avec le même usage."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Yeniden doldurulabilir yüz bakımı (Jelly Ko) · Teranova",
+        "seoDesc": "Temel ürün grubu: bir steam cream, bir tonik, iki serum, bir gece maskesi ve bir köpük peeling; her biri kısa bir etkin madde listesine dayanır. Dört ürünün — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum ve Be Jelly Overnight Dream Serum — kendine ait bir yedek veya seyahat paketi vardır. Doğrudan toptan satın alma; B2B talepleri Teranova üzerinden.",
+        "tagline": "Yeniden doldurulabilir yüz bakımı",
+        "about": [
+          "Temel ürün grubu: bir steam cream, bir tonik, iki serum, bir gece maskesi ve bir köpük peeling; her biri kısa bir etkin madde listesine dayanır. Dört ürünün — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum ve Be Jelly Overnight Dream Serum — kendine ait bir yedek veya seyahat paketi vardır."
+        ],
+        "itemNotes": [
+          "Niasinamid %2, adenozin, pantenol, E vitamini, beta-glukan ve skualan içeren, sabah akşam günlük kullanım için 3'ü 1 arada yağ + serum + krem; şirkete göre, en çok satan üründür.",
+          "Bubble Tea Steam Cream'in uyumlu yedek paketi; üzüm çekirdeği yağı, beta-glukan, niasinamid %2 ve adenozin içerir; şirkete göre yeniden doldurulabilir cilt bakımı kategorisinde Prevention dergisinin 'Best of Beauty' ödülünü kazanmıştır.",
+          "MOISTBOOM kompleksi, kiraz çiçeği özütü, niasinamid %2, pantenol, ektoin %1, betain, allantoin ve adenozin içeren bir gece maskesi; yatmadan 20 dakika önce ince bir tabaka halinde uygulanır, sabah yıkanır veya hafif bir gündüz nemlendiricisi olarak kullanılır.",
+          "%84 huş ağacı özsuyu, katmanlı hyalüronik asit kompleksi, arginin, pantenol ve orman meyvesi özütleri içeren birleşik esans ve tonik adımı; temizlikten sonra pamuklu pedle uygulanır, ardından ikinci bir tabaka olarak elle bastırılarak emdirilir.",
+          "Dewy Glaze Toner'ın aynı hacimdeki uyumlu yedeği; şirkete göre tek kullanımlık plastik kullanımını %90'dan fazla azaltır, kapaklı bir seyahat paketi olarak da satılır.",
+          "Suyla temas ettiğinde köpüğe dönüşen, gliserin, sükroz ve çoklu seramid kompleksi içeren çok fonksiyonlu bir peeling; hem temizleyici olarak hem de nemli ciltte bırakılarak eksfoliant olarak kullanılabilir.",
+          "Çok kuru, hassas ve bariyeri zayıflamış ciltler için, Avrupa beyaz yer mantarı, shea yağı, meyan kökü, centella asiatica, sodyum hyaluronat ve adenozin içeren, ilave boya, parfüm veya esansiyel yağ içermeyen souffle dokulu bir serum; nemlendiriciden önce bir veya iki pompa.",
+          "White Truffle Soufflé Serum'un aynı hacimdeki uyumlu yedeği; şirkete göre tek kullanımlık plastik ve cam kullanımını %80'den fazla azaltır, bir seyahat paketi olarak da satılır.",
+          "Retinol, kolajen, pantenol, skualan ve dört tip hyalüronik asit içeren, doku ve ton için jel dokulu bir gece serumu; gece kreminden önce ince bir tabaka halinde, haftada bir veya iki kez başlanıp kademeli olarak artırılarak kullanılır.",
+          "Be Jelly Overnight Dream Serum'un aynı hacim ve kullanımdaki uyumlu yedeği ve seyahat paketi."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cuidado facial rellenable (Jelly Ko) · Teranova",
+        "seoDesc": "La gama principal: una crema al vapor, un tónico, dos sérums, una mascarilla de noche y una espuma exfoliante, cada uno construido alrededor de una lista corta de ingredientes activos. Cuatro productos —la Bubble Tea Steam Cream, el Dewy Glaze Toner, el White Truffle Soufflé Serum y el Be Jelly Overnight Dream Serum— tienen un recambio o un pack de viaje correspondiente. Compra directa al por mayor; consultas B2B a través de Teranova.",
+        "tagline": "Cuidado facial rellenable",
+        "about": [
+          "La gama principal: una crema al vapor, un tónico, dos sérums, una mascarilla de noche y una espuma exfoliante, cada uno construido alrededor de una lista corta de ingredientes activos. Cuatro productos —la Bubble Tea Steam Cream, el Dewy Glaze Toner, el White Truffle Soufflé Serum y el Be Jelly Overnight Dream Serum— tienen un recambio o un pack de viaje correspondiente."
+        ],
+        "itemNotes": [
+          "Un 3 en 1 de aceite + sérum + crema con niacinamida al 2%, adenosina, pantenol, vitamina E, beta-glucano y escualano, para uso diario por la mañana y por la noche; el producto más vendido de la gama, según la empresa.",
+          "La bolsa de recambio correspondiente para la Bubble Tea Steam Cream, con aceite de semilla de uva, beta-glucano, niacinamida al 2% y adenosina; ganadora de un premio 'Best of Beauty' de la revista Prevention para cosmética rellenable, según la empresa.",
+          "Una mascarilla de noche con el complejo patentado MOISTBOOM, extracto de flor de cerezo, niacinamida al 2%, pantenol, ectoína al 1%, betaína, alantoína y adenosina; una capa fina 20 minutos antes de dormir, que se retira por la mañana, o se usa como hidratante ligero de día.",
+          "Un paso combinado de esencia y tónico con 84% de savia de abedul, un complejo de ácido hialurónico en capas, arginina, pantenol y extractos de bayas; se aplica después de la limpieza con un disco de algodón y luego se presiona a mano para una segunda capa.",
+          "El recambio correspondiente para el Dewy Glaze Toner, en el mismo volumen; según la empresa reduce el plástico de un solo uso en más de un 90%, también se vende como pack de viaje con tapón.",
+          "Un exfoliante multifuncional que se convierte en espuma al contacto con el agua, con glicerina, sacarosa y un complejo multi-ceramida; se usa como limpiador o, dejado sobre la piel húmeda, como exfoliante.",
+          "Un sérum de textura soufflé para piel muy seca, sensible y comprometida, con trufa blanca europea, manteca de karité, regaliz, centella asiática, hialuronato de sodio y adenosina, sin colorantes, fragancia ni aceites esenciales añadidos; una o dos pulsaciones antes de un hidratante.",
+          "El recambio correspondiente para el White Truffle Soufflé Serum, en el mismo volumen; según la empresa reduce el plástico y el vidrio de un solo uso en más de un 80%, también se vende como pack de viaje.",
+          "Un sérum de noche de textura gel con retinol, colágeno, pantenol, escualano y cuatro tipos de ácido hialurónico, para textura y tono; una capa fina antes de la crema de noche, empezando con una o dos veces por semana y aumentando gradualmente.",
+          "El recambio y pack de viaje correspondiente para el Be Jelly Overnight Dream Serum, en el mismo volumen y con el mismo uso."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cuidado facial reabastecível (Jelly Ko) · Teranova",
+        "seoDesc": "A linha principal: um steam cream, um tônico, dois sérums, uma máscara noturna e uma espuma esfoliante, cada um construído em torno de uma lista curta de ingredientes ativos. Quatro itens — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum e Be Jelly Overnight Dream Serum — têm um refil ou versão de viagem correspondente. Compra direta no atacado; consultas B2B por meio da Teranova.",
+        "tagline": "Cuidado facial reabastecível",
+        "about": [
+          "A linha principal: um steam cream, um tônico, dois sérums, uma máscara noturna e uma espuma esfoliante, cada um construído em torno de uma lista curta de ingredientes ativos. Quatro itens — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum e Be Jelly Overnight Dream Serum — têm um refil ou versão de viagem correspondente."
+        ],
+        "itemNotes": [
+          "Um 3 em 1 óleo + sérum + creme com niacinamida 2%, adenosina, pantenol, vitamina E, beta-glucana e esqualano, para uso diário de manhã e à noite; o produto mais vendido da linha, segundo a empresa.",
+          "A embalagem de refil correspondente ao Bubble Tea Steam Cream, com óleo de semente de uva, beta-glucana, niacinamida 2% e adenosina; vencedora, segundo a empresa, de um prêmio «Best of Beauty» da revista Prevention para skincare reabastecível.",
+          "Uma máscara noturna com o complexo patenteado MOISTBOOM, extrato de flor de cerejeira, niacinamida 2%, pantenol, ectoína 1%, betaína, alantoína e adenosina; uma camada fina 20 minutos antes de dormir, removida de manhã, ou usada como hidratante diurno leve.",
+          "Uma etapa combinada de essência e tônico com 84% de seiva de bétula, um complexo de ácido hialurônico em camadas, arginina, pantenol e extratos de frutas vermelhas; aplicada após a limpeza com um disco de algodão, e depois pressionada com as mãos para uma segunda camada.",
+          "O refil correspondente ao Dewy Glaze Toner, no mesmo volume; segundo a empresa, reduz o uso de plástico descartável em mais de 90%, também vendido como pacote de viagem com tampa.",
+          "Um esfoliante multifuncional que se transforma em espuma ao contato com a água, com glicerina, sacarose e um complexo multiceramida; usado como limpador ou, deixado sobre a pele úmida, como esfoliante.",
+          "Um sérum de textura soufflé para peles muito secas, sensíveis e comprometidas, com trufa branca europeia, manteiga de karité, alcaçuz, centella asiática, hialuronato de sódio e adenosina, sem corantes, fragrância ou óleos essenciais adicionados; uma a duas bombeadas antes do hidratante.",
+          "O refil correspondente ao White Truffle Soufflé Serum, no mesmo volume; segundo a empresa, reduz o uso de plástico e vidro descartável em mais de 80%, também vendido como pacote de viagem.",
+          "Um sérum noturno de textura em gel com retinol, colágeno, pantenol, esqualano e quatro tipos de ácido hialurônico, para textura e tom da pele; uma camada fina antes do creme noturno, começando com uma a duas vezes por semana e aumentando gradualmente.",
+          "O refil e o pacote de viagem correspondentes ao Be Jelly Overnight Dream Serum, no mesmo volume e com o mesmo uso."
+        ]
+      },
+      "he": {
+        "seoTitle": "טיפוח פנים עם מילוי חוזר (Jelly Ko) · Teranova",
+        "seoDesc": "הסדרה המרכזית: קרם קיטור, טונר, שני סרומים, מסכת לילה וקצף פילינג, כל אחד בנוי סביב רשימה קצרה של רכיבים פעילים. לארבעה פריטים — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum ו-Be Jelly Overnight Dream Serum — יש מילוי חוזר מתאים או אריזת נסיעות. רכישה סיטונאית ישירה; פניות B2B דרך Teranova.",
+        "tagline": "טיפוח פנים עם מילוי חוזר",
+        "about": [
+          "הסדרה המרכזית: קרם קיטור, טונר, שני סרומים, מסכת לילה וקצף פילינג, כל אחד בנוי סביב רשימה קצרה של רכיבים פעילים. לארבעה פריטים — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum ו-Be Jelly Overnight Dream Serum — יש מילוי חוזר מתאים או אריזת נסיעות."
+        ],
+        "itemNotes": [
+          "שמן + סרום + קרם משולש (3-in-1) עם ניאצינאמיד 2%, אדנוזין, פנתנול, ויטמין E, בטא-גלוקאן וסקוואלן, לשימוש יומי בבוקר ובערב; לפי החברה, המוצר הנמכר ביותר בסדרה.",
+          "שקית המילוי החוזר המתאימה ל-Bubble Tea Steam Cream, עם שמן גרעיני ענבים, בטא-גלוקאן, ניאצינאמיד 2% ואדנוזין; זוכה בפרס 'Best of Beauty' של מגזין Prevention לטיפוח עור עם מילוי חוזר, לפי החברה.",
+          "מסכת לילה עם התרכובת הפטנטית MOISTBOOM, תמצית פריחת דובדבן, ניאצינאמיד 2%, פנתנול, אקטואין 1%, בטאין, אלנטואין ואדנוזין; שכבה דקה 20 דקות לפני השינה, נשטפת בבוקר, או משמשת כקרם יום קליל.",
+          "שלב משולב של אסנס וטונר עם 84% מיץ ליבנה, תרכובת שכבתית של חומצה היאלורונית, ארגינין, פנתנול ותמציות פירות יער; מיושם אחרי הניקוי עם פד כותנה, ולאחר מכן נספג בעזרת הידיים לשכבה שנייה.",
+          "המילוי החוזר המתאים ל-Dewy Glaze Toner, באותו נפח; לפי החברה הוא מפחית את השימוש בפלסטיק חד-פעמי בלמעלה מ-90%, ונמכר גם כאריזת נסיעות עם מכסה.",
+          "פילינג רב-תכליתי שהופך לקצף במגע עם מים, עם גליצרין, סוכרוז ותרכובת מולטי-סרמידים; משמש גם כסבון ניקוי וגם, כשמשאירים אותו על עור רטוב, כפילינג.",
+          "סרום בטקסטורת סופלה לעור יבש מאוד, רגיש ופגוע, עם כמהין לבן אירופי, חמאת שיאה, שוש (ליקריץ), סנטלה אסיאטיקה, סודיום היאלורונאט ואדנוזין, ללא צבעים, בשמים או שמנים אתריים מוספים; אחת עד שתי משיכות לפני קרם לחות.",
+          "המילוי החוזר המתאים ל-White Truffle Soufflé Serum, באותו נפח; לפי החברה הוא מפחית את השימוש בפלסטיק וזכוכית חד-פעמיים בלמעלה מ-80%, ונמכר גם כאריזת נסיעות.",
+          "סרום לילה בטקסטורת ג'ל עם רטינול, קולגן, פנתנול, סקוואלן וארבעה סוגים של חומצה היאלורונית, לטקסטורת ולגוון העור; שכבה דקה לפני קרם הלילה, תוך התחלה בפעם עד פעמיים בשבוע והעלאה הדרגתית.",
+          "המילוי החוזר ואריזת הנסיעות המתאימים ל-Be Jelly Overnight Dream Serum, באותו נפח ובאותו שימוש."
+        ]
+      },
+      "hi": {
+        "seoTitle": "रीफ़िलेबल फ़ेस केयर (Jelly Ko) · Teranova",
+        "seoDesc": "मुख्य रेंज: एक स्टीम क्रीम, एक टोनर, दो सीरम, एक स्लीपिंग मास्क और एक स्क्रब फोम, हर एक सक्रिय तत्वों की एक छोटी सूची पर आधारित। चार उत्पादों — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum और Be Jelly Overnight Dream Serum — के साथ मैचिंग रीफ़िल या ट्रैवल पैक उपलब्ध है। सीधी थोक ख़रीद; B2B पूछताछ Teranova के माध्यम से।",
+        "tagline": "रीफ़िलेबल फ़ेस केयर",
+        "about": [
+          "मुख्य रेंज: एक स्टीम क्रीम, एक टोनर, दो सीरम, एक स्लीपिंग मास्क और एक स्क्रब फोम, हर एक सक्रिय तत्वों की एक छोटी सूची पर आधारित। चार उत्पादों — Bubble Tea Steam Cream, Dewy Glaze Toner, White Truffle Soufflé Serum और Be Jelly Overnight Dream Serum — के साथ मैचिंग रीफ़िल या ट्रैवल पैक उपलब्ध है।"
+        ],
+        "itemNotes": [
+          "एक 3-इन-1 ऑयल + सीरम + क्रीम, जिसमें 2% नियासिनामाइड, एडेनोसिन, पैन्थेनॉल, विटामिन E, बीटा-ग्लूकन और स्क्वेलेन है, सुबह-शाम रोज़ाना उपयोग के लिए; कंपनी के अनुसार, रेंज का सबसे ज़्यादा बिकने वाला उत्पाद।",
+          "Bubble Tea Steam Cream के लिए मैचिंग रीफ़िल पाउच, जिसमें ग्रेप सीड ऑयल, बीटा-ग्लूकन, 2% नियासिनामाइड और एडेनोसिन है; रीफ़िलेबल स्किनकेयर के लिए Prevention पत्रिका के 'Best of Beauty' अवॉर्ड का विजेता, कंपनी के अनुसार।",
+          "एक पेटेंट MOISTBOOM कॉम्प्लेक्स, चेरी ब्लॉसम एक्सट्रैक्ट, 2% नियासिनामाइड, पैन्थेनॉल, 1% एक्टोइन, बीटाइन, एलांटोइन और एडेनोसिन वाला एक नाइट मास्क; सोने से 20 मिनट पहले एक पतली परत लगाएं, सुबह धो लें, या एक हल्के डे मॉइस्चराइज़र के रूप में इस्तेमाल करें।",
+          "84% बर्च सैप, लेयर्ड हायलूरोनिक एसिड कॉम्प्लेक्स, आर्जिनिन, पैन्थेनॉल और बेरी एक्सट्रैक्ट वाला एक कॉम्बाइंड एसेंस-एंड-टोनर स्टेप; क्लींज़िंग के बाद कॉटन पैड से लगाएं, फिर दूसरी परत के लिए हाथ से दबाकर अब्ज़ॉर्ब करें।",
+          "Dewy Glaze Toner के लिए मैचिंग रीफ़िल, वही वॉल्यूम में; कंपनी के अनुमान के अनुसार यह सिंगल-यूज़ प्लास्टिक को 90% से अधिक कम करता है, इसे कैप के साथ ट्रैवल पैक के रूप में भी बेचा जाता है।",
+          "ग्लिसरीन, सुक्रोज़ और मल्टी-सेरामाइड कॉम्प्लेक्स वाला एक मल्टी-फंक्शनल स्क्रब, जो पानी के संपर्क में आने पर फोम में बदल जाता है; इसे क्लींज़र के रूप में, या नम त्वचा पर छोड़कर एक्सफ़ोलिएटर के रूप में इस्तेमाल किया जाता है।",
+          "बहुत ड्राई, संवेदनशील और कमज़ोर त्वचा के लिए एक सूफ़ले-टेक्सचर सीरम, जिसमें यूरोपियन व्हाइट ट्रफ़ल, शिया बटर, लिकोरिस, सेंटेला एशियाटिका, सोडियम हायलूरोनेट और एडेनोसिन है, बिना किसी अतिरिक्त डाई, फ़्रेग्रेंस या एसेंशियल ऑयल के; मॉइस्चराइज़र से पहले एक से दो पंप।",
+          "White Truffle Soufflé Serum के लिए मैचिंग रीफ़िल, वही वॉल्यूम में; कंपनी के अनुमान के अनुसार यह सिंगल-यूज़ प्लास्टिक और ग्लास को 80% से अधिक कम करता है, इसे ट्रैवल पैक के रूप में भी बेचा जाता है।",
+          "रेटिनॉल, कोलाजेन, पैन्थेनॉल, स्क्वेलेन और चार प्रकार के हायलूरोनिक एसिड वाला एक जेल-टेक्सचर नाइट सीरम, टेक्सचर और टोन के लिए; नाइट क्रीम से पहले एक पतली परत, हफ़्ते में एक से दो बार शुरू करें और धीरे-धीरे बढ़ाएं।",
+          "Be Jelly Overnight Dream Serum के लिए मैचिंग रीफ़िल और ट्रैवल पैक, वही वॉल्यूम और वही उपयोग के साथ।"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "lip-and-spot-care",
+    "supplierSlug": "jellyko",
+    "category": "cosmetics",
+    "lineName": "Lip & spot care",
+    "items": [
+      {
+        "name": "Gelato Glaze Lip Mask",
+        "img": "/img/suppliers/jellyko/products/gelato-glaze-lip-mask.png",
+        "volume": "20 g"
+      },
+      {
+        "name": "Jelly Shield Pimple Patches",
+        "img": "/img/suppliers/jellyko/products/jelly-shield-pimple-patches.png",
+        "volume": "54 patches"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Уход за губами и точечный уход (Jelly Ko) · Teranova",
+        "seoDesc": "Ночная маска для губ, наносится входящей в комплект цинковой ложкой, и патчи от воспалений без лекарственных веществ. Прямая оптовая закупка; B2B-запросы через Teranova.",
+        "tagline": "Уход за губами и точечный уход",
+        "about": [
+          "Ночная маска для губ, наносится входящей в комплект цинковой ложкой, и патчи от воспалений без лекарственных веществ."
+        ],
+        "itemNotes": [
+          "Ночная маска для губ с 9 незаменимыми аминокислотами, маслом ши, маслом семян подсолнечника, маслом жожоба и маслом семян моринги; наносится входящей в комплект цинковой ложкой, которая также работает как мини-гуаша; днём — тонкий слой, на ночь — плотный.",
+          "Ультратонкие гидроколлоидные патчи от воспалений без лекарственных веществ; наносятся на чистую сухую кожу точечно, оставляются на 6–12 часов или на ночь."
+        ]
+      },
+      "en": {
+        "seoTitle": "Lip & spot care (Jelly Ko) · Teranova",
+        "seoDesc": "A lip sleeping mask applied with an included zinc scoop, and drug-free hydrocolloid patches for blemish spots. Direct wholesale purchase; B2B inquiries through Teranova.",
+        "tagline": "Lip & spot care",
+        "about": [
+          "A lip sleeping mask applied with an included zinc scoop, and drug-free hydrocolloid patches for blemish spots."
+        ],
+        "itemNotes": [
+          "A lip sleeping mask with 9 essential amino acids, shea butter, sunflower seed oil, jojoba seed oil and moringa seed oil, applied with an included zinc scoop that doubles as a mini gua sha tool; a thin layer by day, a thicker layer overnight.",
+          "Ultra-thin, drug-free hydrocolloid patches for blemish spots, applied to clean dry skin and left on for 6–12 hours or overnight."
+        ]
+      },
+      "ko": {
+        "seoTitle": "립 & 트러블 케어 (Jelly Ko) · Teranova",
+        "seoDesc": "동봉된 징크 스쿱으로 바르는 립 슬리핑 마스크와, 트러블 부위용 무약물 하이드로콜로이드 패치입니다. 직접 도매 구매; B2B 문의는 Teranova를 통해 진행합니다.",
+        "tagline": "립 & 트러블 케어",
+        "about": [
+          "동봉된 징크 스쿱으로 바르는 립 슬리핑 마스크와, 트러블 부위용 무약물 하이드로콜로이드 패치입니다."
+        ],
+        "itemNotes": [
+          "9가지 필수 아미노산, 시어버터, 해바라기씨 오일, 호호바씨 오일, 모링가씨 오일을 담은 립 슬리핑 마스크로, 동봉된 징크 스쿱으로 바르며 이 스쿱은 미니 가샤 도구로도 사용할 수 있습니다. 낮에는 얇게, 밤에는 더 두껍게 바릅니다.",
+          "트러블 부위용 초박형 무약물 하이드로콜로이드 패치로, 깨끗하고 건조한 피부에 붙여 6~12시간 또는 밤새 유지합니다."
+        ]
+      },
+      "zh": {
+        "seoTitle": "唇部与痘痘护理 (Jelly Ko) · Teranova",
+        "seoDesc": "一款唇部晚安面膜，附赠锌制勺子涂抹；以及不含药物成分的水胶体祛痘贴。 直接批发采购；B2B询盘通过Teranova进行。",
+        "tagline": "唇部与痘痘护理",
+        "about": [
+          "一款唇部晚安面膜，附赠锌制勺子涂抹；以及不含药物成分的水胶体祛痘贴。"
+        ],
+        "itemNotes": [
+          "一款唇部晚安面膜，含9种必需氨基酸、乳木果油、葵花籽油、荷荷巴籽油和辣木籽油，随附的锌制勺子还可作为迷你刮痧工具；日间薄涂一层，夜间可厚涂使用。",
+          "超薄、不含药物成分的水胶体祛痘贴，用于清洁干燥的肌肤，贴敷6-12小时或整夜。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "リップ＆スポットケア (Jelly Ko) · Teranova",
+        "seoDesc": "付属の亜鉛製スプーンで使うリップスリーピングマスクと、ニキビ跡用の薬剤無添加ハイドロコロイドパッチです。 直接の卸売買取。B2Bのお問い合わせはTeranova経由。",
+        "tagline": "リップ＆スポットケア",
+        "about": [
+          "付属の亜鉛製スプーンで使うリップスリーピングマスクと、ニキビ跡用の薬剤無添加ハイドロコロイドパッチです。"
+        ],
+        "itemNotes": [
+          "9種の必須アミノ酸、シアバター、ひまわり種子油、ホホバ種子油、モリンガ種子油を配合したリップスリーピングマスク。付属の亜鉛製スプーンはミニグアシャツールとしても使用可能。日中は薄く、夜は厚めに塗布。",
+          "ニキビ跡用の極薄・薬剤無添加ハイドロコロイドパッチ。清潔で乾いた肌に貼り、6〜12時間または一晩そのままにする。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Cura labbra e imperfezioni (Jelly Ko) · Teranova",
+        "seoDesc": "Una maschera labbra notte applicata con un misurino in zinco incluso, e cerotti idrocolloidali senza principi farmacologici per le imperfezioni. Acquisto all'ingrosso diretto; richieste B2B tramite Teranova.",
+        "tagline": "Cura labbra e imperfezioni",
+        "about": [
+          "Una maschera labbra notte applicata con un misurino in zinco incluso, e cerotti idrocolloidali senza principi farmacologici per le imperfezioni."
+        ],
+        "itemNotes": [
+          "Una maschera labbra notte con 9 aminoacidi essenziali, burro di karité, olio di semi di girasole, olio di semi di jojoba e olio di semi di moringa, applicata con un misurino in zinco incluso che funge anche da mini strumento gua sha; uno strato sottile di giorno, uno strato più spesso durante la notte.",
+          "Cerotti idrocolloidali ultra-sottili e senza principi farmacologici per le imperfezioni, applicati su pelle pulita e asciutta e lasciati in posa per 6–12 ore o durante la notte."
+        ]
+      },
+      "de": {
+        "seoTitle": "Lippen- und Pickelpflege (Jelly Ko) · Teranova",
+        "seoDesc": "Eine Lippen-Schlafmaske, aufgetragen mit einem mitgelieferten Zink-Löffel, sowie wirkstofffreie Hydrokolloid-Patches für Pickelstellen. Direkter Großhandelskauf; B2B-Anfragen über Teranova.",
+        "tagline": "Lippen- und Pickelpflege",
+        "about": [
+          "Eine Lippen-Schlafmaske, aufgetragen mit einem mitgelieferten Zink-Löffel, sowie wirkstofffreie Hydrokolloid-Patches für Pickelstellen."
+        ],
+        "itemNotes": [
+          "Eine Lippen-Schlafmaske mit 9 essenziellen Aminosäuren, Sheabutter, Sonnenblumenkernöl, Jojobakernöl und Moringasamenöl, aufgetragen mit einem mitgelieferten Zink-Löffel, der auch als Mini-Gua-Sha-Werkzeug dient; tagsüber dünn, über Nacht dicker aufgetragen.",
+          "Ultradünne, wirkstofffreie Hydrokolloid-Patches für Pickelstellen, aufgetragen auf saubere, trockene Haut und 6–12 Stunden oder über Nacht belassen."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Soin des lèvres et des imperfections (Jelly Ko) · Teranova",
+        "seoDesc": "Un masque de nuit pour les lèvres, appliqué avec une cuillère en zinc incluse, et des patchs hydrocolloïdes sans principe actif médicamenteux pour les imperfections. Achat direct en gros ; demandes B2B via Teranova.",
+        "tagline": "Soin des lèvres et des imperfections",
+        "about": [
+          "Un masque de nuit pour les lèvres, appliqué avec une cuillère en zinc incluse, et des patchs hydrocolloïdes sans principe actif médicamenteux pour les imperfections."
+        ],
+        "itemNotes": [
+          "Un masque de nuit pour les lèvres avec 9 acides aminés essentiels, du beurre de karité, de l'huile de graines de tournesol, de l'huile de graines de jojoba et de l'huile de graines de moringa, appliqué avec une cuillère en zinc incluse qui fait aussi office de mini-outil gua sha ; une fine couche de jour, une couche plus épaisse la nuit.",
+          "Des patchs hydrocolloïdes ultra-fins, sans principe actif médicamenteux, pour les imperfections, appliqués sur peau propre et sèche et laissés en place 6 à 12 heures ou toute la nuit."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Dudak ve sivilce bakımı (Jelly Ko) · Teranova",
+        "seoDesc": "Ürünle gelen çinko kaşıkla uygulanan bir dudak gece maskesi ve sivilce bölgeleri için ilaç içermeyen hidrokolloid bantlar. Doğrudan toptan satın alma; B2B talepleri Teranova üzerinden.",
+        "tagline": "Dudak ve sivilce bakımı",
+        "about": [
+          "Ürünle gelen çinko kaşıkla uygulanan bir dudak gece maskesi ve sivilce bölgeleri için ilaç içermeyen hidrokolloid bantlar."
+        ],
+        "itemNotes": [
+          "9 esansiyel amino asit, shea yağı, ayçiçeği tohumu yağı, jojoba tohumu yağı ve moringa tohumu yağı içeren bir dudak gece maskesi; ürünle gelen, aynı zamanda mini bir gua sha aracı olarak da kullanılan çinko kaşıkla uygulanır; gündüz ince, gece daha kalın bir tabaka halinde.",
+          "Sivilce bölgeleri için ultra ince, ilaç içermeyen hidrokolloid bantlar; temiz ve kuru cilde uygulanır ve 6–12 saat veya gece boyunca bırakılır."
+        ]
+      },
+      "es": {
+        "seoTitle": "Cuidado labial y de granos (Jelly Ko) · Teranova",
+        "seoDesc": "Una mascarilla labial de noche que se aplica con una cucharilla de zinc incluida, y parches de hidrocoloide sin fármacos para las zonas con granos. Compra directa al por mayor; consultas B2B a través de Teranova.",
+        "tagline": "Cuidado labial y de granos",
+        "about": [
+          "Una mascarilla labial de noche que se aplica con una cucharilla de zinc incluida, y parches de hidrocoloide sin fármacos para las zonas con granos."
+        ],
+        "itemNotes": [
+          "Una mascarilla labial de noche con 9 aminoácidos esenciales, manteca de karité, aceite de semilla de girasol, aceite de semilla de jojoba y aceite de semilla de moringa, que se aplica con una cucharilla de zinc incluida que también funciona como mini herramienta de gua sha; una capa fina de día, una capa más gruesa por la noche.",
+          "Parches de hidrocoloide ultrafinos, sin fármacos, para las zonas con granos, que se aplican sobre piel limpia y seca y se dejan puestos de 6 a 12 horas o toda la noche."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Cuidado para lábios e espinhas (Jelly Ko) · Teranova",
+        "seoDesc": "Uma máscara noturna para os lábios, aplicada com uma colher de zinco incluída, e adesivos de hidrocoloide sem medicamento para espinhas. Compra direta no atacado; consultas B2B por meio da Teranova.",
+        "tagline": "Cuidado para lábios e espinhas",
+        "about": [
+          "Uma máscara noturna para os lábios, aplicada com uma colher de zinco incluída, e adesivos de hidrocoloide sem medicamento para espinhas."
+        ],
+        "itemNotes": [
+          "Uma máscara noturna para os lábios com 9 aminoácidos essenciais, manteiga de karité, óleo de semente de girassol, óleo de semente de jojoba e óleo de semente de moringa, aplicada com uma colher de zinco incluída que também funciona como mini ferramenta de gua sha; uma camada fina durante o dia, uma camada mais espessa durante a noite.",
+          "Adesivos de hidrocoloide ultrafinos e sem medicamento para espinhas, aplicados sobre a pele limpa e seca e mantidos por 6–12 horas ou durante a noite."
+        ]
+      },
+      "he": {
+        "seoTitle": "טיפוח שפתיים ופצעונים (Jelly Ko) · Teranova",
+        "seoDesc": "מסכת לילה לשפתיים המיושמת בעזרת כפית אבץ כלולה, ופלסטרים הידרוקולואידיים ללא תרופות לטיפול בפצעונים. רכישה סיטונאית ישירה; פניות B2B דרך Teranova.",
+        "tagline": "טיפוח שפתיים ופצעונים",
+        "about": [
+          "מסכת לילה לשפתיים המיושמת בעזרת כפית אבץ כלולה, ופלסטרים הידרוקולואידיים ללא תרופות לטיפול בפצעונים."
+        ],
+        "itemNotes": [
+          "מסכת לילה לשפתיים עם 9 חומצות אמינו חיוניות, חמאת שיאה, שמן גרעיני חמנייה, שמן גרעיני יוג'ובה ושמן גרעיני מורינגה, המיושמת בעזרת כפית אבץ כלולה המשמשת גם ככלי גואה-שה מיני; שכבה דקה ביום, שכבה עבה יותר ללילה.",
+          "פלסטרים הידרוקולואידיים דקים במיוחד, ללא תרופות, לטיפול בפצעונים; מודבקים על עור נקי ויבש ונשארים למשך 6–12 שעות או ללילה."
+        ]
+      },
+      "hi": {
+        "seoTitle": "लिप और स्पॉट केयर (Jelly Ko) · Teranova",
+        "seoDesc": "एक लिप स्लीपिंग मास्क, जिसे शामिल ज़िंक स्कूप से लगाया जाता है, और ब्लेमिश स्पॉट के लिए दवा-मुक्त हाइड्रोकोलॉइड पैच। सीधी थोक ख़रीद; B2B पूछताछ Teranova के माध्यम से।",
+        "tagline": "लिप और स्पॉट केयर",
+        "about": [
+          "एक लिप स्लीपिंग मास्क, जिसे शामिल ज़िंक स्कूप से लगाया जाता है, और ब्लेमिश स्पॉट के लिए दवा-मुक्त हाइड्रोकोलॉइड पैच।"
+        ],
+        "itemNotes": [
+          "9 ज़रूरी अमीनो एसिड, शिया बटर, सनफ़्लावर सीड ऑयल, जोजोबा सीड ऑयल और मोरिंगा सीड ऑयल वाला एक लिप स्लीपिंग मास्क, जिसे शामिल ज़िंक स्कूप से लगाया जाता है, जो एक मिनी गुआ शा टूल का भी काम करता है; दिन में एक पतली परत, रात भर के लिए एक मोटी परत।",
+          "ब्लेमिश स्पॉट के लिए अल्ट्रा-थिन, दवा-मुक्त हाइड्रोकोलॉइड पैच, जिन्हें साफ़ और सूखी त्वचा पर लगाकर 6–12 घंटे या रात भर के लिए छोड़ा जाता है।"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "accessories",
+    "supplierSlug": "jellyko",
+    "category": "cosmetics",
+    "lineName": "Accessories",
+    "items": [
+      {
+        "name": "Cherry On Top Scrunchies",
+        "img": "/img/suppliers/jellyko/products/cherry-on-top-scrunchies.png"
+      },
+      {
+        "name": "Silicone Mask Brush",
+        "img": "/img/suppliers/jellyko/products/jellybrush-silicone-brush.png"
+      }
+    ],
+    "i18n": {
+      "ru": {
+        "seoTitle": "Аксессуары (Jelly Ko) · Teranova",
+        "seoDesc": "Силиконовая кисть для нанесения средств из банок и набор резинок для волос в оформлении линии Cherry Blossom. Прямая оптовая закупка; B2B-запросы через Teranova.",
+        "tagline": "Аксессуары",
+        "about": [
+          "Силиконовая кисть для нанесения средств из банок и набор резинок для волос в оформлении линии Cherry Blossom."
+        ],
+        "itemNotes": [
+          "Набор резинок для волос в оформлении линии Cherry Blossom. Teranova не нашла в материалах Jelly Ko страницу с составом или инструкцией по уходу для этого аксессуара.",
+          "Силиконовая кисть для нанесения кремов и масок из банок без пальцев, снижает расход средства; моется тёплой водой."
+        ]
+      },
+      "en": {
+        "seoTitle": "Accessories (Jelly Ko) · Teranova",
+        "seoDesc": "A silicone application brush for jar-packed products, and a hair-tie set that matches the Cherry Blossom packaging. Direct wholesale purchase; B2B inquiries through Teranova.",
+        "tagline": "Accessories",
+        "about": [
+          "A silicone application brush for jar-packed products, and a hair-tie set that matches the Cherry Blossom packaging."
+        ],
+        "itemNotes": [
+          "A hair-tie set matching the Cherry Blossom packaging. Teranova has not identified an ingredient or care-instruction page for this accessory in Jelly Ko's materials.",
+          "A silicone brush for applying jar-packed creams and masks without fingers, reducing product waste; rinses clean with warm water."
+        ]
+      },
+      "ko": {
+        "seoTitle": "액세서리 (Jelly Ko) · Teranova",
+        "seoDesc": "자(jar) 타입 제품에 쓰는 실리콘 브러시와, Cherry Blossom 패키지와 어울리는 헤어타이 세트입니다. 직접 도매 구매; B2B 문의는 Teranova를 통해 진행합니다.",
+        "tagline": "액세서리",
+        "about": [
+          "자(jar) 타입 제품에 쓰는 실리콘 브러시와, Cherry Blossom 패키지와 어울리는 헤어타이 세트입니다."
+        ],
+        "itemNotes": [
+          "Cherry Blossom 패키지와 어울리는 헤어타이 세트입니다. 이 액세서리에 대한 성분표나 사용 안내 페이지는 Jelly Ko 자료에서 Teranova가 확인하지 못했습니다.",
+          "자(jar) 타입 크림과 마스크를 손가락 없이 바를 수 있는 실리콘 브러시로, 제품 낭비를 줄여줍니다. 따뜻한 물로 깨끗이 씻어 사용합니다."
+        ]
+      },
+      "zh": {
+        "seoTitle": "配件 (Jelly Ko) · Teranova",
+        "seoDesc": "一款用于罐装产品的硅胶涂抹刷，以及与Cherry Blossom包装配套的发圈套装。 直接批发采购；B2B询盘通过Teranova进行。",
+        "tagline": "配件",
+        "about": [
+          "一款用于罐装产品的硅胶涂抹刷，以及与Cherry Blossom包装配套的发圈套装。"
+        ],
+        "itemNotes": [
+          "一款与Cherry Blossom包装配套的发圈套装。Teranova未在Jelly Ko的资料中找到该配件的成分或护理说明页面。",
+          "一款硅胶刷，用于涂抹罐装面霜和面膜，无需用手指接触，减少产品浪费；温水冲洗即可清洁。"
+        ]
+      },
+      "ja": {
+        "seoTitle": "アクセサリー (Jelly Ko) · Teranova",
+        "seoDesc": "ジャー容器製品用のシリコン塗布ブラシと、Cherry Blossomパッケージに合わせたヘアタイセットです。 直接の卸売買取。B2Bのお問い合わせはTeranova経由。",
+        "tagline": "アクセサリー",
+        "about": [
+          "ジャー容器製品用のシリコン塗布ブラシと、Cherry Blossomパッケージに合わせたヘアタイセットです。"
+        ],
+        "itemNotes": [
+          "Cherry Blossomパッケージに合わせたヘアタイセット。Teranovaは、Jelly Koの資料内にこのアクセサリーの成分表示やケア方法のページを確認できていません。",
+          "ジャー容器入りのクリームやマスクを指を使わずに塗布できるシリコンブラシ。製品のムダを減らし、お湯で簡単に洗える。"
+        ]
+      },
+      "it": {
+        "seoTitle": "Accessori (Jelly Ko) · Teranova",
+        "seoDesc": "Un pennello in silicone per applicare i prodotti in vasetto, e un set di elastici per capelli coordinato alla confezione Cherry Blossom. Acquisto all'ingrosso diretto; richieste B2B tramite Teranova.",
+        "tagline": "Accessori",
+        "about": [
+          "Un pennello in silicone per applicare i prodotti in vasetto, e un set di elastici per capelli coordinato alla confezione Cherry Blossom."
+        ],
+        "itemNotes": [
+          "Un set di elastici per capelli coordinato alla confezione Cherry Blossom. Teranova non ha individuato nei materiali di Jelly Ko una pagina con ingredienti o istruzioni per la cura di questo accessorio.",
+          "Un pennello in silicone per applicare creme e maschere in vasetto senza usare le dita, riducendo lo spreco di prodotto; si risciacqua con acqua tiepida."
+        ]
+      },
+      "de": {
+        "seoTitle": "Zubehör (Jelly Ko) · Teranova",
+        "seoDesc": "Eine Silikonbürste zum Auftragen von Produkten aus Tiegeln sowie ein Haargummi-Set, das zur Cherry-Blossom-Verpackung passt. Direkter Großhandelskauf; B2B-Anfragen über Teranova.",
+        "tagline": "Zubehör",
+        "about": [
+          "Eine Silikonbürste zum Auftragen von Produkten aus Tiegeln sowie ein Haargummi-Set, das zur Cherry-Blossom-Verpackung passt."
+        ],
+        "itemNotes": [
+          "Ein Haargummi-Set, das zur Cherry-Blossom-Verpackung passt. Teranova hat in den Materialien von Jelly Ko keine Seite mit Inhaltsstoffen oder Pflegehinweisen für dieses Zubehör gefunden.",
+          "Eine Silikonbürste zum fingerfreien Auftragen von Cremes und Masken aus Tiegeln, die Produktverschwendung reduziert; lässt sich mit warmem Wasser sauber ausspülen."
+        ]
+      },
+      "fr": {
+        "seoTitle": "Accessoires (Jelly Ko) · Teranova",
+        "seoDesc": "Un pinceau en silicone pour appliquer les produits conditionnés en pot, et un set d'élastiques à cheveux assorti à l'emballage Cherry Blossom. Achat direct en gros ; demandes B2B via Teranova.",
+        "tagline": "Accessoires",
+        "about": [
+          "Un pinceau en silicone pour appliquer les produits conditionnés en pot, et un set d'élastiques à cheveux assorti à l'emballage Cherry Blossom."
+        ],
+        "itemNotes": [
+          "Un set d'élastiques à cheveux assorti à l'emballage Cherry Blossom. Teranova n'a pas identifié de fiche d'ingrédients ou d'instructions d'entretien pour cet accessoire dans les documents de Jelly Ko.",
+          "Un pinceau en silicone pour appliquer sans les doigts les crèmes et masques conditionnés en pot, réduisant le gaspillage de produit ; se rince à l'eau tiède."
+        ]
+      },
+      "tr": {
+        "seoTitle": "Aksesuarlar (Jelly Ko) · Teranova",
+        "seoDesc": "Kavanoz ambalajlı ürünler için silikon uygulama fırçası ve Cherry Blossom ambalajıyla uyumlu bir saç lastiği seti. Doğrudan toptan satın alma; B2B talepleri Teranova üzerinden.",
+        "tagline": "Aksesuarlar",
+        "about": [
+          "Kavanoz ambalajlı ürünler için silikon uygulama fırçası ve Cherry Blossom ambalajıyla uyumlu bir saç lastiği seti."
+        ],
+        "itemNotes": [
+          "Cherry Blossom ambalajıyla uyumlu bir saç lastiği seti. Teranova, Jelly Ko'nun materyallerinde bu aksesuar için bir içerik veya kullanım talimatı sayfası bulamamıştır.",
+          "Kavanoz ambalajlı krem ve maskeleri parmak kullanmadan uygulamak için silikon fırça; ürün kaybını azaltır, ılık suyla kolayca durulanır."
+        ]
+      },
+      "es": {
+        "seoTitle": "Accesorios (Jelly Ko) · Teranova",
+        "seoDesc": "Un cepillo de aplicación de silicona para productos envasados en tarro, y un set de coleteros a juego con el envase Cherry Blossom. Compra directa al por mayor; consultas B2B a través de Teranova.",
+        "tagline": "Accesorios",
+        "about": [
+          "Un cepillo de aplicación de silicona para productos envasados en tarro, y un set de coleteros a juego con el envase Cherry Blossom."
+        ],
+        "itemNotes": [
+          "Un set de coleteros a juego con el envase Cherry Blossom. Teranova no ha identificado una página de ingredientes o instrucciones de cuidado para este accesorio en los materiales de Jelly Ko.",
+          "Un cepillo de silicona para aplicar cremas y mascarillas envasadas en tarro sin usar los dedos, reduciendo el desperdicio de producto; se limpia con agua tibia."
+        ]
+      },
+      "pt": {
+        "seoTitle": "Acessórios (Jelly Ko) · Teranova",
+        "seoDesc": "Um pincel de silicone para aplicar produtos em pote, e um conjunto de elásticos de cabelo que combina com a embalagem Cherry Blossom. Compra direta no atacado; consultas B2B por meio da Teranova.",
+        "tagline": "Acessórios",
+        "about": [
+          "Um pincel de silicone para aplicar produtos em pote, e um conjunto de elásticos de cabelo que combina com a embalagem Cherry Blossom."
+        ],
+        "itemNotes": [
+          "Um conjunto de elásticos de cabelo que combina com a embalagem Cherry Blossom. A Teranova não identificou, nos materiais da Jelly Ko, uma página de ingredientes ou instruções de cuidado para este acessório.",
+          "Um pincel de silicone para aplicar cremes e máscaras em pote sem usar os dedos, reduzindo o desperdício de produto; enxágua facilmente com água morna."
+        ]
+      },
+      "he": {
+        "seoTitle": "אביזרים (Jelly Ko) · Teranova",
+        "seoDesc": "מברשת סיליקון למריחת מוצרים הבאים בצנצנת, וסט גומיות לשיער בעיצוב שמתאים לאריזת Cherry Blossom. רכישה סיטונאית ישירה; פניות B2B דרך Teranova.",
+        "tagline": "אביזרים",
+        "about": [
+          "מברשת סיליקון למריחת מוצרים הבאים בצנצנת, וסט גומיות לשיער בעיצוב שמתאים לאריזת Cherry Blossom."
+        ],
+        "itemNotes": [
+          "סט גומיות לשיער בעיצוב שמתאים לאריזת Cherry Blossom. Teranova לא מצאה בחומרי Jelly Ko עמוד רכיבים או הוראות טיפוח לאביזר הזה.",
+          "מברשת סיליקון למריחת קרמים ומסכות הבאים בצנצנת בלי להשתמש באצבעות, המפחיתה בזבוז מוצר; נשטפת בקלות במים חמימים."
+        ]
+      },
+      "hi": {
+        "seoTitle": "एक्सेसरीज़ (Jelly Ko) · Teranova",
+        "seoDesc": "जार में पैक उत्पादों के लिए एक सिलिकॉन एप्लीकेशन ब्रश, और Cherry Blossom पैकेजिंग से मेल खाता एक हेयर-टाई सेट। सीधी थोक ख़रीद; B2B पूछताछ Teranova के माध्यम से।",
+        "tagline": "एक्सेसरीज़",
+        "about": [
+          "जार में पैक उत्पादों के लिए एक सिलिकॉन एप्लीकेशन ब्रश, और Cherry Blossom पैकेजिंग से मेल खाता एक हेयर-टाई सेट।"
+        ],
+        "itemNotes": [
+          "Cherry Blossom पैकेजिंग से मेल खाता एक हेयर-टाई सेट। Teranova को Jelly Ko की सामग्री में इस एक्सेसरी के लिए कोई इनग्रेडिएंट या केयर-इंस्ट्रक्शन पेज नहीं मिला है।",
+          "जार में पैक क्रीम और मास्क को उंगलियों के बिना लगाने के लिए एक सिलिकॉन ब्रश, जो प्रोडक्ट की बर्बादी कम करता है; गर्म पानी से साफ़ धोया जा सकता है।"
+        ]
+      }
+    }
+  }
+]
