@@ -1059,7 +1059,7 @@ async function toPDF(html, outfile) {
     { stdio: 'ignore', detached: true });
   const t0 = Date.now();
   let last = -1, stable = 0, ok = false;
-  while (Date.now() - t0 < 25000) {
+  while (Date.now() - t0 < 70000) {
     await sleep(350);
     if (fs.existsSync(outfile)) {
       const sz = fs.statSync(outfile).size;
