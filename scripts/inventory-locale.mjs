@@ -44,8 +44,8 @@ function pageLocale(urlPath) {
 export function inventoryLocale(locale, distRoot) {
   if (!existsSync(distRoot)) {
     return { locale, pages: { count: 0, list: [] }, blog: { count: 0, list: [] },
-      catalogProfiles: { count: 0, list: [] }, images: { total: 0, missingAlt: 0 },
-      jsonLdPages: 0, ogPages: 0, metaPages: 0,
+      catalogProfiles: { count: 0, list: [] }, images: { total: 0, missingAlt: 0, pages: [] },
+      jsonLdPages: { count: 0, list: [] }, ogPages: { count: 0, list: [] }, metaPages: { count: 0, list: [] },
       llmsTxt: false, sitemap: false };
   }
   const all = walkHtml(distRoot);
@@ -56,18 +56,27 @@ export function inventoryLocale(locale, distRoot) {
   const blog = pages.filter((p) => /\/blog\/[^/]+\/$/.test(p));
   const catalogProfiles = pages.filter((p) => /\/catalog\/[^/]+\/$/.test(p) && !/\/catalog\/[^/]+\/[^/]+\/$/.test(p));
 
-  let imgTotal = 0, imgMissingAlt = 0, jsonLdPages = 0, ogPages = 0, metaPages = 0;
+  /* Per-page detail, not just site-wide aggregates: lets compare-locale-opis.mjs
+     name exactly which page/image a gap is in, and tell a pre-existing en
+     defect (missingAlt on a baseline image that still exists in the target)
+     apart from a real target-locale gap (the baseline image has no match in
+     the target page at all). */
+  let imgTotal = 0, imgMissingAlt = 0;
+  const jsonLdList = [], ogList = [], metaList = [], imagesByPage = [];
   for (const urlPath of pages) {
     const html = all.get(urlPath);
+    const path = logicalPath(urlPath);
     const imgs = tags(html, 'img');
     imgTotal += imgs.length;
     imgMissingAlt += imgs.filter((img) => !img.alt || !img.alt.trim()).length;
-    if (/<script[^>]*application\/ld\+json/i.test(html)) jsonLdPages++;
+    if (imgs.length) imagesByPage.push({ path, images: imgs.map((img, i) => ({
+      key: `${img.src ?? '(no-src)'}#${i}`, hasAlt: Boolean(img.alt && img.alt.trim()) })) });
+    if (/<script[^>]*application\/ld\+json/i.test(html)) jsonLdList.push(path);
     const metas = tags(html, 'meta');
-    if (metas.some((m) => m.property === 'og:title') && metas.some((m) => m.property === 'og:description')) ogPages++;
+    if (metas.some((m) => m.property === 'og:title') && metas.some((m) => m.property === 'og:description')) ogList.push(path);
     const hasTitle = /<title>[^<]+<\/title>/i.test(html);
     const hasDescription = metas.some((m) => m.name === 'description' && m.content && m.content.trim());
-    if (hasTitle && hasDescription) metaPages++;
+    if (hasTitle && hasDescription) metaList.push(path);
   }
 
   return {
@@ -75,8 +84,10 @@ export function inventoryLocale(locale, distRoot) {
     pages: { count: pages.length, list: pages },
     blog: { count: blog.length, list: blog.map(logicalPath) },
     catalogProfiles: { count: catalogProfiles.length, list: catalogProfiles.map(logicalPath) },
-    images: { total: imgTotal, missingAlt: imgMissingAlt },
-    jsonLdPages, ogPages, metaPages,
+    images: { total: imgTotal, missingAlt: imgMissingAlt, pages: imagesByPage },
+    jsonLdPages: { count: jsonLdList.length, list: jsonLdList },
+    ogPages: { count: ogList.length, list: ogList },
+    metaPages: { count: metaList.length, list: metaList },
     llmsTxt: existsSync(resolve(distRoot, 'llms.txt')),
     sitemap: existsSync(resolve(distRoot, 'sitemap-index.xml')),
   };

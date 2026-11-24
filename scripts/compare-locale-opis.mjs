@@ -20,6 +20,27 @@ function diffList(baseline, target) {
   return baseline.filter((item) => !targetSet.has(item));
 }
 
+/* Per-page image gaps, split into two causes that must not be merged:
+   - preexistingDefect: baseline image already has no alt — an en authoring
+     defect, not something the target locale is missing.
+   - missingImage / regressedAlt: a baseline image that DOES have alt either
+     has no match on the target's same page (page/image gap) or exists but
+     lost its alt in translation (regression). Both are real target gaps. */
+function imageGaps(baselineImages, targetImages) {
+  const targetByPath = new Map(targetImages.map((p) => [p.path, new Map(p.images.map((img) => [img.key, img.hasAlt]))]));
+  const preexistingDefect = [], missingImage = [], regressedAlt = [];
+  for (const page of baselineImages) {
+    const targetPage = targetByPath.get(page.path);
+    for (const img of page.images) {
+      const id = `${page.path}::${img.key}`;
+      if (!img.hasAlt) { preexistingDefect.push(id); continue; }
+      if (!targetPage || !targetPage.has(img.key)) { missingImage.push(id); continue; }
+      if (!targetPage.get(img.key)) regressedAlt.push(id);
+    }
+  }
+  return { preexistingDefect, missingImage, regressedAlt };
+}
+
 export async function compareLocale(baseline, locale, distRoot) {
   const target = inventoryLocale(locale, distRoot);
   const baselineLogicalPages = baseline.pages.list.map(logicalPath);
@@ -69,10 +90,14 @@ export async function compareLocale(baseline, locale, distRoot) {
     supplierDataFiles: { baseline: baselineSuppliers.length, target: targetSuppliers.length,
       missing: missingSupplierData },
     images: { baselineTotal: baseline.images.total, baselineMissingAlt: baseline.images.missingAlt,
-      targetTotal: target.images.total, targetMissingAlt: target.images.missingAlt },
-    jsonLdPages: { baseline: baseline.jsonLdPages, target: target.jsonLdPages },
-    ogPages: { baseline: baseline.ogPages, target: target.ogPages },
-    metaPages: { baseline: baseline.metaPages, target: target.metaPages },
+      targetTotal: target.images.total, targetMissingAlt: target.images.missingAlt,
+      ...imageGaps(baseline.images.pages, target.images.pages) },
+    jsonLdPages: { baseline: baseline.jsonLdPages.count, target: target.jsonLdPages.count,
+      missing: diffList(baseline.jsonLdPages.list, target.jsonLdPages.list) },
+    ogPages: { baseline: baseline.ogPages.count, target: target.ogPages.count,
+      missing: diffList(baseline.ogPages.list, target.ogPages.list) },
+    metaPages: { baseline: baseline.metaPages.count, target: target.metaPages.count,
+      missing: diffList(baseline.metaPages.list, target.metaPages.list) },
     llmsTxt: { baseline: baseline.llmsTxt, target: target.llmsTxt },
     sitemap: { baseline: baseline.sitemap, target: target.sitemap },
   };
