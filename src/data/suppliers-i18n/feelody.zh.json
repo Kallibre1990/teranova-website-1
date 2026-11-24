@@ -6,13 +6,12 @@
     "about": [
       "我们是Feelody，一个由韩医师、两个孩子的母亲创立的韩国护肤品牌。据公司介绍，品牌理念源于她自己孩子的肌肤问题，这也成为我们最初的目标：护肤品既要足够温和、适合青少年使用，又要足够有效，可供各个年龄段日常使用。",
       "我们的产品线将五款产品整合为两大系列。Feelody Teen系列涵盖日常三步护理：Day Supreme Multi Essence Sunscreen防晒精华、Night Flex Calming Ampoule舒缓安瓶和Acne Wonder Bubble Foam Cleansing泡沫洁面乳。Feelody Derma系列新增两款居家护理产品，适合更深层的护理：Vital Surge Skin Booster肌肤精华和All Day Shield Barrier Cream屏障霜。每款产品均采用多效合一配方，因此简短的护理流程也能同时解决多种肌肤问题。",
-      "我们的Teen系列由COSMAX Inc.生产，我们将其称为符合CGMP、ISO 9001、ISO 14001、ISO 22716等全球标准生产的OEM合作伙伴；Derma系列由Ire Cosmetics（ISO 22716）生产。根据我们的临床测试资料，五款产品均完成了人体皮肤原发性刺激或刺激性测试，平均反应率为0.00%。"
+      "我们的Teen系列按照CGMP、ISO 9001、ISO 14001、ISO 22716等全球标准生产；Derma系列按照ISO 22716标准生产。根据我们的临床测试资料，五款产品均完成了人体皮肤原发性刺激或刺激性测试，平均反应率为0.00%。"
     ],
     "facts": [
       "由韩医师创立",
       "两大系列，五款多效合一产品",
-      "由COSMAX Inc.和Ire Cosmetics生产",
-      "据公司介绍已出口至15个国家"
+      "按照CGMP、ISO 9001、ISO 14001和ISO 22716标准生产"
     ],
     "channels": [
       "化妆品进口商及经销商",
@@ -44,12 +43,12 @@
     ],
     "tech": [
       {
-        "name": "COSMAX Inc.",
-        "note": "Feelody Teen系列（防晒、安瓶、泡沫洁面乳）的生产合作伙伴。据公司介绍，生产符合CGMP、ISO 9001、ISO 14001和ISO 22716标准。"
+        "name": "Teen 系列",
+        "note": "涵盖Feelody Teen系列（防晒、安瓶、泡沫洁面乳）。据公司介绍，生产符合CGMP、ISO 9001、ISO 14001和ISO 22716标准。"
       },
       {
-        "name": "Ire Cosmetics",
-        "note": "Feelody Derma系列（肌肤精华、屏障霜）的生产合作伙伴。据公司介绍，生产符合ISO 22716标准。"
+        "name": "Derma 系列",
+        "note": "涵盖Feelody Derma系列（肌肤精华、屏障霜）。据公司介绍，生产符合ISO 22716标准。"
       }
     ],
     "formats": [
@@ -59,16 +58,12 @@
       "精华肌肤精华",
       "屏障霜"
     ],
-    "exportNote": "据公司介绍，Feelody目前已出口至15个国家，并在印度尼西亚、巴西和西班牙拥有独家经销合作伙伴。在韩国，品牌通过十余家线下美妆门店、约100家药妆店以及仁川机场免税店销售；公司列出的海外零售合作伙伴包括日本的唐吉诃德、马来西亚的Lalaport百货和Curve购物中心，以及泰国和缅甸的Dookn Dookn。公司表示对巴西以外的拉丁美洲、北美、西班牙以外的欧洲以及独联体地区尤为关注——这些正是Teranova协调引荐合作伙伴的市场。",
+    "exportNote": "据公司介绍，Feelody已在海外销售，并在韩国境内通过线下美妆门店、药妆店和免税零售渠道销售。",
     "consentNote": "相关资料、产品描述及图片由Feelody提供，并经公司同意（2026年10月至11月的往来邮件）发布。FOB价格表及其他商业条款应公司要求保密。Teranova负责协调并支持交易。",
     "terms": [
       {
         "label": "合作形式",
         "value": "以Feelody品牌批发供应成品。"
-      },
-      {
-        "label": "独家市场",
-        "value": "据公司介绍，印度尼西亚、巴西和西班牙已有独家经销合作伙伴。"
       },
       {
         "label": "价格及最小起订量",
@@ -87,7 +82,7 @@
       "含PDRN、外泌体和澳洲坚果油的屏障霜，50毫升。"
     ],
     "seoTitle": "Feelody — 韩国Teen与Derma护肤系列 · Teranova",
-    "seoDesc": "Feelody是一个拥有两大系列的韩国护肤品牌：Teen（防晒、安瓶、泡沫洁面乳）与Derma（肌肤精华、屏障霜）。由COSMAX Inc.和Ire Cosmetics生产。"
+    "seoDesc": "Feelody是一个拥有两大系列的韩国护肤品牌：Teen（防晒、安瓶、泡沫洁面乳）与Derma（肌肤精华、屏障霜）。按照CGMP、ISO 9001、ISO 14001和ISO 22716标准生产。"
   },
   "ui": {
     "profile_sup": "供应商简介",
@@ -95,7 +90,7 @@
     "for_whom": "适用对象：",
     "lines_h": "产品",
     "catalog_h": "产品目录",
-    "tech_h": "生产合作伙伴",
+    "tech_h": "生产标准",
     "products_h": "产品",
     "products_note": "两大系列，五款适合日常护理的多效合一护肤产品。",
     "formats_h": "产品形态",

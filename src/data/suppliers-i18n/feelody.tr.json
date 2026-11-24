@@ -6,13 +6,12 @@
     "about": [
       "Biz Feelody'yiz; iki çocuk annesi bir Kore tıbbı doktoru tarafından kurulmuş Koreli bir cilt bakımı markasıyız. Şirkete göre bu fikir, kendi çocuklarının cilt sorunlarından doğmuş ve bu da başlangıç hedefimizi şekillendirmiştir: bir genç için yeterince yumuşak, her yaşta her gün kullanılabilecek kadar etkili bir cilt bakımı.",
       "Ürün serimiz beş ürünü iki seride birleştiriyor. Feelody Teen serisi günlük üç adımlı bir rutini kapsar: Day Supreme Multi Essence Sunscreen, Night Flex Calming Ampoule ve Acne Wonder Bubble Foam Cleansing. Feelody Derma serisi, daha gelişmiş bir rutin için iki ev bakım ürünü ekler: Vital Surge Skin Booster ve All Day Shield Barrier Cream. Her ürün hepsi bir arada formül olarak tasarlanmıştır, böylece kısa bir rutin bile birden fazla cilt sorununu aynı anda ele alır.",
-      "Teen serimiz, küresel standartlarda üretim (CGMP, ISO 9001, ISO 14001, ISO 22716) için OEM ortağımız olarak tanımladığımız COSMAX Inc. tarafından üretilmektedir; Derma serisi ise Ire Cosmetics (ISO 22716) tarafından üretilmektedir. Klinik test materyallerimize göre, beş ürünün tümü ortalama %0,00 tepki oranıyla insan derisinde birincil tahriş veya uyarım testini tamamlamıştır."
+      "Teen serimiz küresel standartlarda (CGMP, ISO 9001, ISO 14001, ISO 22716) üretilmektedir; Derma serisi ise ISO 22716 standardına göre üretilmektedir. Klinik test materyallerimize göre, beş ürünün tümü ortalama %0,00 tepki oranıyla insan derisinde birincil tahriş veya uyarım testini tamamlamıştır."
     ],
     "facts": [
       "Bir Kore tıbbı doktoru tarafından kuruldu",
       "İki seri, beş hepsi bir arada ürün",
-      "COSMAX Inc. ve Ire Cosmetics tarafından üretiliyor",
-      "Şirkete göre 15 ülkeye ihracat yapıyor"
+      "CGMP, ISO 9001, ISO 14001 ve ISO 22716 standartlarına göre üretiliyor"
     ],
     "channels": [
       "Kozmetik ithalatçıları ve distribütörleri",
@@ -44,12 +43,12 @@
     ],
     "tech": [
       {
-        "name": "COSMAX Inc.",
-        "note": "Feelody Teen serisi için üretim ortağı — güneş koruyucu, ampul ve köpük temizleyici. Şirkete göre, üretim CGMP, ISO 9001, ISO 14001 ve ISO 22716 uygulamalarına uygundur."
+        "name": "Teen serisi",
+        "note": "Feelody Teen serisini kapsar — güneş koruyucu, ampul ve köpük temizleyici. Şirkete göre, üretim CGMP, ISO 9001, ISO 14001 ve ISO 22716 uygulamalarına uygundur."
       },
       {
-        "name": "Ire Cosmetics",
-        "note": "Feelody Derma serisi için üretim ortağı — skin booster ve bariyer kremi. Şirkete göre, üretim ISO 22716 uygulamasına uygundur."
+        "name": "Derma serisi",
+        "note": "Feelody Derma serisini kapsar — skin booster ve bariyer kremi. Şirkete göre, üretim ISO 22716 uygulamasına uygundur."
       }
     ],
     "formats": [
@@ -59,16 +58,12 @@
       "Skin booster esansı",
       "Bariyer kremi"
     ],
-    "exportNote": "Şirkete göre Feelody şu anda 15 ülkeye ihracat yapmakta olup Endonezya, Brezilya ve İspanya'da münhasır dağıtım ortaklarına sahiptir. Kore'de marka, ondan fazla fiziksel kozmetik mağazası, yaklaşık 100 eczane zinciri ve Incheon Havalimanı gümrüksüz satış mağazası üzerinden satılmaktadır; listelenen uluslararası perakende ortakları arasında Japonya'da Don Quijote, Malezya'da Lalaport Department Store ve Curve Shopping Mall, Tayland ve Myanmar'da Dookn Dookn bulunmaktadır. Şirket özellikle Brezilya dışındaki Latin Amerika, Kuzey Amerika, İspanya dışındaki Avrupa ve BDT ile ilgilenmektedir — Teranova'nın tanıştırmaları koordine ettiği pazarlar.",
+    "exportNote": "Şirkete göre Feelody, yurt dışında ve Kore'de fiziksel kozmetik mağazaları, eczane zincirleri ve gümrüksüz satış kanalları üzerinden zaten satılmaktadır.",
     "consentNote": "Materyaller, ürün açıklamaları ve görseller Feelody tarafından sağlanmakta ve şirketin onayıyla (Ekim–Kasım 2026 yazışmaları) yayınlanmaktadır. FOB fiyat listesi ve diğer ticari şartlar şirketin talebi üzerine gizli tutulmaktadır. Teranova anlaşmayı koordine eder ve destekler.",
     "terms": [
       {
         "label": "İşbirliği formatı",
         "value": "Feelody markası altında bitmiş ürünlerin toptan tedariki."
-      },
-      {
-        "label": "Münhasır pazarlar",
-        "value": "Şirkete göre Endonezya, Brezilya ve İspanya'da zaten münhasır dağıtım ortakları bulunmaktadır."
       },
       {
         "label": "Fiyatlar ve minimum sipariş",
@@ -87,7 +82,7 @@
       "PDRN, ekzozom ve Queensland fındık yağı içeren bariyer kremi; 50 ml."
     ],
     "seoTitle": "Feelody — Koreli Teen ve Derma cilt bakımı · Teranova",
-    "seoDesc": "Feelody, iki seriye sahip Koreli bir cilt bakımı markasıdır: Teen (güneş koruyucu, ampul, köpük temizleyici) ve Derma (skin booster, bariyer kremi). COSMAX Inc. ve Ire Cosmetics tarafından üretilmektedir."
+    "seoDesc": "Feelody, iki seriye sahip Koreli bir cilt bakımı markasıdır: Teen (güneş koruyucu, ampul, köpük temizleyici) ve Derma (skin booster, bariyer kremi). CGMP, ISO 9001, ISO 14001 ve ISO 22716 standartlarına göre üretilmektedir."
   },
   "ui": {
     "profile_sup": "Tedarikçi profili",
@@ -95,7 +90,7 @@
     "for_whom": "En uygun olduğu durum:",
     "lines_h": "Ürünler",
     "catalog_h": "Ürün kataloğu",
-    "tech_h": "Üretim ortakları",
+    "tech_h": "Üretim standartları",
     "products_h": "Ürünler",
     "products_note": "Günlük rutin için iki seri, beş hepsi bir arada cilt bakım ürünü.",
     "formats_h": "Ürün formatları",

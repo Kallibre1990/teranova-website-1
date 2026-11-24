@@ -6,13 +6,12 @@
     "about": [
       "Feelody는 한의사이자 두 아이의 어머니인 저희가 설립한 한국 스킨케어 브랜드입니다. 회사에 따르면 브랜드 아이디어는 자신의 아이들이 겪은 피부 고민에서 시작되었으며, 이는 청소년에게도 순하면서 모든 연령이 매일 사용할 수 있을 만큼 효과적인 스킨케어라는 저희의 출발점이 되었습니다.",
       "저희 라인업은 다섯 가지 제품을 두 개의 라인으로 묶습니다. Feelody Teen 라인은 Day Supreme Multi Essence Sunscreen, Night Flex Calming Ampoule, Acne Wonder Bubble Foam Cleansing로 하루 3단계 루틴을 구성합니다. Feelody Derma 라인은 더 집중적인 홈케어를 위해 Vital Surge Skin Booster와 All Day Shield Barrier Cream 두 제품을 더합니다. 각 제품은 올인원 포뮬러로 설계되어, 짧은 루틴만으로도 여러 피부 고민을 한 번에 다룰 수 있습니다.",
-      "저희가 CGMP, ISO 9001, ISO 14001, ISO 22716 기준의 글로벌 스탠다드 생산을 담당하는 OEM 파트너라고 설명하는 COSMAX Inc.가 Teen 라인을 생산하며, Derma 라인은 Ire Cosmetics(ISO 22716)가 생산합니다. 저희 임상 자료에 따르면 다섯 제품 모두 인체 피부 1차 자극 또는 자극성 시험을 완료했으며 평균 반응률은 0.00%입니다."
+      "Teen 라인은 CGMP, ISO 9001, ISO 14001, ISO 22716 기준의 글로벌 스탠다드 생산 방식으로, Derma 라인은 ISO 22716 기준으로 생산됩니다. 저희 임상 자료에 따르면 다섯 제품 모두 인체 피부 1차 자극 또는 자극성 시험을 완료했으며 평균 반응률은 0.00%입니다."
     ],
     "facts": [
       "한의사가 설립",
       "두 라인, 다섯 가지 올인원 제품",
-      "COSMAX Inc.와 Ire Cosmetics가 생산",
-      "회사에 따르면 15개국에 수출"
+      "CGMP, ISO 9001, ISO 14001, ISO 22716 기준으로 생산"
     ],
     "channels": [
       "화장품 수입업체 및 유통업체",
@@ -44,12 +43,12 @@
     ],
     "tech": [
       {
-        "name": "COSMAX Inc.",
-        "note": "Feelody Teen 라인(선크림, 앰플, 폼클렌저)의 생산 파트너입니다. 회사에 따르면 생산은 CGMP, ISO 9001, ISO 14001, ISO 22716 기준을 충족합니다."
+        "name": "Teen 라인",
+        "note": "Feelody Teen 라인(선크림, 앰플, 폼클렌저)에 해당합니다. 회사에 따르면 생산은 CGMP, ISO 9001, ISO 14001, ISO 22716 기준을 충족합니다."
       },
       {
-        "name": "Ire Cosmetics",
-        "note": "Feelody Derma 라인(스킨 부스터, 배리어 크림)의 생산 파트너입니다. 회사에 따르면 생산은 ISO 22716 기준을 충족합니다."
+        "name": "Derma 라인",
+        "note": "Feelody Derma 라인(스킨 부스터, 배리어 크림)에 해당합니다. 회사에 따르면 생산은 ISO 22716 기준을 충족합니다."
       }
     ],
     "formats": [
@@ -59,16 +58,12 @@
       "부스터 에센스",
       "배리어 크림"
     ],
-    "exportNote": "회사에 따르면 Feelody는 현재 15개국에 수출되며 인도네시아, 브라질, 스페인에는 이미 독점 유통 파트너가 있습니다. 한국에서는 10여 개 오프라인 화장품 매장과 약 100개 드럭스토어, 인천공항 면세점을 통해 판매되며, 해외 리테일 파트너로는 일본 돈키호테, 말레이시아 Lalaport 백화점과 Curve Shopping Mall, 태국·미얀마의 Dookn Dookn을 꼽습니다. 회사는 브라질을 제외한 중남미, 북미, 스페인을 제외한 유럽, CIS 지역에 특히 관심이 있다고 밝혔으며, Teranova는 이들 시장에서 파트너 소개를 조율합니다.",
+    "exportNote": "회사에 따르면 Feelody는 이미 해외에서, 그리고 한국에서는 오프라인 화장품 매장, 드럭스토어, 면세점을 통해 판매되고 있습니다.",
     "consentNote": "자료, 제품 설명 및 이미지는 Feelody가 제공했으며 회사의 동의(2026년 10~11월 서신 교환)를 받아 게재합니다. FOB 가격표 및 기타 상업적 조건은 회사의 요청에 따라 비공개로 유지됩니다. Teranova가 거래를 조율하고 지원합니다.",
     "terms": [
       {
         "label": "협력 형태",
         "value": "Feelody 브랜드 완제품의 도매 공급."
-      },
-      {
-        "label": "독점 시장",
-        "value": "회사에 따르면 인도네시아, 브라질, 스페인에는 이미 독점 유통 파트너가 있습니다."
       },
       {
         "label": "가격 및 최소 주문량",
@@ -87,7 +82,7 @@
       "PDRN, 엑소좀, 퀸즐랜드 너트 오일을 담은 배리어 크림, 50ml."
     ],
     "seoTitle": "Feelody — 한국 Teen & Derma 스킨케어 · Teranova",
-    "seoDesc": "Feelody는 Teen(선크림, 앰플, 폼클렌저)과 Derma(스킨 부스터, 배리어 크림) 두 라인을 갖춘 한국 스킨케어 브랜드입니다. COSMAX Inc.와 Ire Cosmetics가 생산합니다."
+    "seoDesc": "Feelody는 Teen(선크림, 앰플, 폼클렌저)과 Derma(스킨 부스터, 배리어 크림) 두 라인을 갖춘 한국 스킨케어 브랜드입니다. CGMP, ISO 9001, ISO 14001, ISO 22716 기준으로 생산됩니다."
   },
   "ui": {
     "profile_sup": "공급사 프로필",
@@ -95,7 +90,7 @@
     "for_whom": "추천 대상:",
     "lines_h": "제품",
     "catalog_h": "제품 카탈로그",
-    "tech_h": "생산 파트너",
+    "tech_h": "생산 표준",
     "products_h": "제품",
     "products_note": "매일의 루틴을 위한 두 라인, 다섯 가지 올인원 스킨케어 제품.",
     "formats_h": "제품 포맷",

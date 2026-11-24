@@ -6,13 +6,12 @@
     "about": [
       "Somos a Feelody, uma marca coreana de skincare fundada por uma médica de medicina coreana, mãe de dois filhos. Segundo a empresa, a ideia surgiu das próprias questões de pele dos filhos, o que moldou nosso objetivo inicial: um skincare suave o suficiente para um adolescente e eficaz o suficiente para ser usado todos os dias, em qualquer idade.",
       "Nossa linha reúne cinco produtos em duas linhas. A linha Feelody Teen cobre uma rotina diária de três passos: Day Supreme Multi Essence Sunscreen, Night Flex Calming Ampoule e Acne Wonder Bubble Foam Cleansing. A linha Feelody Derma adiciona dois produtos de cuidados em casa para uma rotina mais avançada: Vital Surge Skin Booster e All Day Shield Barrier Cream. Cada produto é formulado como all-in-one, para que uma rotina curta ainda cubra várias necessidades da pele ao mesmo tempo.",
-      "Nossa linha Teen é fabricada pela COSMAX Inc., que descrevemos como nossa parceira OEM para produção segundo padrões globais (CGMP, ISO 9001, ISO 14001, ISO 22716); a linha Derma é fabricada pela Ire Cosmetics (ISO 22716). Segundo nossos materiais de testes clínicos, os cinco produtos concluíram um teste de irritação ou estimulação primária na pele humana com uma taxa média de resposta de 0,00%."
+      "Nossa linha Teen é fabricada segundo padrões globais (CGMP, ISO 9001, ISO 14001, ISO 22716); a linha Derma segundo a prática ISO 22716. Segundo nossos materiais de testes clínicos, os cinco produtos concluíram um teste de irritação ou estimulação primária na pele humana com uma taxa média de resposta de 0,00%."
     ],
     "facts": [
       "Fundada por uma médica de medicina coreana",
       "Duas linhas, cinco produtos all-in-one",
-      "Fabricado pela COSMAX Inc. e Ire Cosmetics",
-      "Exporta para 15 países, segundo a empresa"
+      "Fabricado de acordo com os padrões CGMP, ISO 9001, ISO 14001 e ISO 22716"
     ],
     "channels": [
       "Importadores e distribuidores de cosméticos",
@@ -44,12 +43,12 @@
     ],
     "tech": [
       {
-        "name": "COSMAX Inc.",
-        "note": "Parceira de fabricação da linha Feelody Teen — protetor solar, ampola e limpador em espuma. Segundo a empresa, a produção atende às práticas CGMP, ISO 9001, ISO 14001 e ISO 22716."
+        "name": "Linha Teen",
+        "note": "Cobre a linha Feelody Teen — protetor solar, ampola e limpador em espuma. Segundo a empresa, a produção atende às práticas CGMP, ISO 9001, ISO 14001 e ISO 22716."
       },
       {
-        "name": "Ire Cosmetics",
-        "note": "Parceira de fabricação da linha Feelody Derma — skin booster e creme de barreira. Segundo a empresa, a produção atende à prática ISO 22716."
+        "name": "Linha Derma",
+        "note": "Cobre a linha Feelody Derma — skin booster e creme de barreira. Segundo a empresa, a produção atende à prática ISO 22716."
       }
     ],
     "formats": [
@@ -59,16 +58,12 @@
       "Essência skin booster",
       "Creme de barreira"
     ],
-    "exportNote": "Segundo a empresa, a Feelody atualmente exporta para 15 países e tem parceiros de distribuição exclusivos na Indonésia, no Brasil e na Espanha. Na Coreia, a marca é vendida em mais de dez lojas físicas de cosméticos, cerca de 100 drogarias e na loja duty-free do Aeroporto de Incheon; entre os parceiros de varejo internacionais citados estão a Don Quijote no Japão, a Lalaport Department Store e o Curve Shopping Mall na Malásia, e a Dookn Dookn na Tailândia e em Myanmar. A empresa tem interesse especial na América Latina fora do Brasil, na América do Norte, na Europa fora da Espanha e na CEI — mercados para os quais a Teranova coordena apresentações.",
+    "exportNote": "Segundo a empresa, a Feelody já é vendida no exterior e, na Coreia, por meio de lojas físicas de cosméticos, drogarias e varejo duty-free.",
     "consentNote": "Materiais, descrições de produtos e imagens são fornecidos pela Feelody e publicados com o consentimento da empresa (correspondência de outubro–novembro de 2026). A lista de preços FOB e outras condições comerciais permanecem confidenciais a pedido da empresa. A Teranova coordena e apoia a negociação.",
     "terms": [
       {
         "label": "Formato de cooperação",
         "value": "Fornecimento no varejo de produtos acabados sob a marca Feelody."
-      },
-      {
-        "label": "Mercados exclusivos",
-        "value": "Indonésia, Brasil e Espanha já têm parceiros de distribuição exclusivos, segundo a empresa."
       },
       {
         "label": "Preços e pedido mínimo",
@@ -87,7 +82,7 @@
       "Creme de barreira com PDRN, exossomos e óleo de noz de Queensland; 50 ml."
     ],
     "seoTitle": "Feelody — Skincare coreano Teen e Derma · Teranova",
-    "seoDesc": "A Feelody é uma marca coreana de skincare com duas linhas: Teen (protetor solar, ampola, limpador em espuma) e Derma (skin booster, creme de barreira). Fabricado pela COSMAX Inc. e Ire Cosmetics."
+    "seoDesc": "A Feelody é uma marca coreana de skincare com duas linhas: Teen (protetor solar, ampola, limpador em espuma) e Derma (skin booster, creme de barreira). Fabricado de acordo com os padrões CGMP, ISO 9001, ISO 14001 e ISO 22716."
   },
   "ui": {
     "profile_sup": "Perfil do fornecedor",
@@ -95,7 +90,7 @@
     "for_whom": "Ideal para:",
     "lines_h": "Produtos",
     "catalog_h": "Catálogo de produtos",
-    "tech_h": "Parceiras de fabricação",
+    "tech_h": "Padrões de fabricação",
     "products_h": "Produtos",
     "products_note": "Duas linhas, cinco produtos de skincare all-in-one para uma rotina diária.",
     "formats_h": "Formatos de produto",
