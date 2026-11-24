@@ -421,6 +421,7 @@ import jellykoPt from './suppliers-i18n/jellyko.pt.json';
 import jellykoHe from './suppliers-i18n/jellyko.he.json';
 import jellykoHi from './suppliers-i18n/jellyko.hi.json';
 import jellykoCatalog from './suppliers-i18n/jellyko.catalog.json';
+import jellykoLines from './suppliers-i18n/jellyko.lines.json';
 import cheon365Ru from './suppliers-i18n/cheon365.ru.json';
 import cheon365En from './suppliers-i18n/cheon365.en.json';
 import cheon365Ko from './suppliers-i18n/cheon365.ko.json';
@@ -3774,6 +3775,7 @@ export const linePages: SupplierLinePage[] = [
   ...(desertFreeLines as SupplierLinePage[]),
   ...(veganNatureLines as SupplierLinePage[]),
   ...(chaewunLines as SupplierLinePage[]),
+  ...(jellykoLines as SupplierLinePage[]),
 ] as SupplierLinePage[];
 /** Lines of one supplier, in catalog order — used to link them from the profile. */
 export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>
