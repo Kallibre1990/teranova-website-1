@@ -596,6 +596,20 @@ const SUPPLIERS = [
     certs: [],
   },
   {
+    /* Jelly Ko: written consent from Lauren Lee, 24.11.2026. The wholesale price
+       list and MOQ are Teranova-internal only (same letter) — public documents
+       stay a price-free catalog, terms and presentation, same as koy/cellaheal. */
+    id: 'jellyko', json: 'jellyko', supplier: 'Jelly Ko', brand: 'Jelly Ko',
+    basis: 'B2B · terms on request', noPrice: true, catalogOnly: true,
+    colors: { deep: '#9C5542', sky: '#F3C9B7', bg: '#FDF4EF', line: '#F2DCD1' },
+    pres: true,
+    /* catalogPhotos stays off: the brand's original packshots run 1.7-27MB each
+       (full-resolution camera exports) — embedding them via file:// timed out
+       toPDF's 25s budget and would ship an oversized PDF. Plain name/volume
+       table instead, same as koy. */
+    certs: ['Prevention Best of Beauty', '1% for the Planet'],
+  },
+  {
     /* AD International Corp. / DAILY COMMA. Price list and wholesale basis were
        not approved for publication (T-20261106-044) — public documents stay a
        price-free catalog, terms and presentation only. */

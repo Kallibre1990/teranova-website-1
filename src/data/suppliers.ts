@@ -407,6 +407,20 @@ import koyPt from './suppliers-i18n/koy.pt.json';
 import koyHe from './suppliers-i18n/koy.he.json';
 import koyHi from './suppliers-i18n/koy.hi.json';
 import koyCatalog from './suppliers-i18n/koy.catalog.json';
+import jellykoRu from './suppliers-i18n/jellyko.ru.json';
+import jellykoEn from './suppliers-i18n/jellyko.en.json';
+import jellykoKo from './suppliers-i18n/jellyko.ko.json';
+import jellykoZh from './suppliers-i18n/jellyko.zh.json';
+import jellykoJa from './suppliers-i18n/jellyko.ja.json';
+import jellykoIt from './suppliers-i18n/jellyko.it.json';
+import jellykoDe from './suppliers-i18n/jellyko.de.json';
+import jellykoFr from './suppliers-i18n/jellyko.fr.json';
+import jellykoTr from './suppliers-i18n/jellyko.tr.json';
+import jellykoEs from './suppliers-i18n/jellyko.es.json';
+import jellykoPt from './suppliers-i18n/jellyko.pt.json';
+import jellykoHe from './suppliers-i18n/jellyko.he.json';
+import jellykoHi from './suppliers-i18n/jellyko.hi.json';
+import jellykoCatalog from './suppliers-i18n/jellyko.catalog.json';
 import cheon365Ru from './suppliers-i18n/cheon365.ru.json';
 import cheon365En from './suppliers-i18n/cheon365.en.json';
 import cheon365Ko from './suppliers-i18n/cheon365.ko.json';
@@ -3447,6 +3461,64 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/koy-presentation-ru.pdf', en: '/docs/koy-presentation-en.pdf', ko: '/docs/koy-presentation-ko.pdf', zh: '/docs/koy-presentation-zh.pdf', ja: '/docs/koy-presentation-ja.pdf', it: '/docs/koy-presentation-it.pdf', de: '/docs/koy-presentation-de.pdf', fr: '/docs/koy-presentation-fr.pdf', tr: '/docs/koy-presentation-tr.pdf', es: '/docs/koy-presentation-es.pdf', pt: '/docs/koy-presentation-pt.pdf' },
     i18n: {
       ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any),
+    },
+  },
+  {
+    slug: 'jellyko',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Jelly Ko',
+    brand: 'Jelly Ko',
+    status: 'provided',
+    /* Персиковый с их же этикеток и логотипа (Jelly Ko Logo 1.png, Bubble Tea
+       Steam Cream). Отдельные линейки держат свой оттенок (Cherry Blossom —
+       розовый), но общий бренд-цвет — персиковый/кремовый. */
+    brandColors: { deep: '#9c5542', sky: '#f3c9b7', accent: '#e8927a', bg: '#fdf4ef' },
+    voice: 'minimal',
+    /* Согласие Lauren Lee (jellyko.com.au) письмом Ирине 24.11.2026 17:39 KST
+       («We'd be very happy to explore a Jelly Ko profile and product pages
+       with Teranova Group. You're welcome to use and translate our official
+       brand and product materials.»), ящик Ирины msg 1a20cb5b31682447, копия
+       у Антона msg 1a20cb5b243161d8. Ограничение из того же письма: прайс —
+       только для внутренней проверки Teranova, на сайт не выносится, как и
+       MOQ (первый заказ 500$, письмо 23.11 — тоже не публикуется). Страна
+       бренда — Корея, определена цитатами из собственных брошюры и
+       бренд-дека (_profile_plan/country_label.md): «4 x Award Winning
+       Refillable Korean Skincare», «Made in Korea», юридический адрес Сеул —
+       Австралия в этих материалах названа только рынком сбыта. ТЗ:
+       AI_COORDINATION/SPECS/TZ_JELLYKO_PROFIL_2026-11-24.md. По словам
+       Антона — публикуем, потом ссылка Лорен (R-013, без предпоказа). */
+    logoUrl: '/img/suppliers/jellyko/brand/logo.png',
+    gallery: [
+      '/img/suppliers/jellyko/gallery/lifestyle-bathroom.png',
+      '/img/suppliers/jellyko/gallery/lifestyle-comfort-at-home.png',
+      '/img/suppliers/jellyko/gallery/lifestyle-dew-not-disturb.png',
+      '/img/suppliers/jellyko/gallery/dewy-glaze-toners-in-a-row.png',
+      '/img/suppliers/jellyko/gallery/cinnamon-toast-ice-cream-shot.png',
+      '/img/suppliers/jellyko/gallery/gelato-glaze-trio.jpg',
+    ],
+    catalog: jellykoCatalog as { line: string; items: { name: string; img: string; volume?: string }[] }[],
+    /* Награды со слов бренда (брошюра/дек): Prevention Best of Beauty 2023
+       («Best Sleep Mask») и 2025 («Best Refillable Skincare», «Best Pimple
+       Patches»), членство 1% for the Planet с 2023. Сертификатов
+       производства (ISO/GMP) в материалах бренда нет — значок не даём. */
+    certs: ["Prevention Best of Beauty", '1% for the Planet'],
+    termsFile: { ru: '/docs/jellyko-terms-ru.pdf', en: '/docs/jellyko-terms-en.pdf', ko: '/docs/jellyko-terms-ko.pdf', zh: '/docs/jellyko-terms-zh.pdf', ja: '/docs/jellyko-terms-ja.pdf', it: '/docs/jellyko-terms-it.pdf', de: '/docs/jellyko-terms-de.pdf', fr: '/docs/jellyko-terms-fr.pdf', tr: '/docs/jellyko-terms-tr.pdf', es: '/docs/jellyko-terms-es.pdf', pt: '/docs/jellyko-terms-pt.pdf', he: '/docs/jellyko-terms-he.pdf', hi: '/docs/jellyko-terms-hi.pdf' },
+    /* Price-free catalog by the brand's own written constraint (price list is Teranova-internal only). */
+    priceFile: { ru: '/docs/jellyko-catalog-ru.pdf', en: '/docs/jellyko-catalog-en.pdf', ko: '/docs/jellyko-catalog-ko.pdf', zh: '/docs/jellyko-catalog-zh.pdf', ja: '/docs/jellyko-catalog-ja.pdf', it: '/docs/jellyko-catalog-it.pdf', de: '/docs/jellyko-catalog-de.pdf', fr: '/docs/jellyko-catalog-fr.pdf', tr: '/docs/jellyko-catalog-tr.pdf', es: '/docs/jellyko-catalog-es.pdf', pt: '/docs/jellyko-catalog-pt.pdf', he: '/docs/jellyko-catalog-he.pdf', hi: '/docs/jellyko-catalog-hi.pdf' },
+    presFile: { ru: '/docs/jellyko-presentation-ru.pdf', en: '/docs/jellyko-presentation-en.pdf', ko: '/docs/jellyko-presentation-ko.pdf', zh: '/docs/jellyko-presentation-zh.pdf', ja: '/docs/jellyko-presentation-ja.pdf', it: '/docs/jellyko-presentation-it.pdf', de: '/docs/jellyko-presentation-de.pdf', fr: '/docs/jellyko-presentation-fr.pdf', tr: '/docs/jellyko-presentation-tr.pdf', es: '/docs/jellyko-presentation-es.pdf', pt: '/docs/jellyko-presentation-pt.pdf', he: '/docs/jellyko-presentation-he.pdf', hi: '/docs/jellyko-presentation-hi.pdf' },
+    i18n: {
+      ru: mk(jellykoRu as any),
+      en: mk(jellykoEn as any),
+      ko: mk(jellykoKo as any),
+      zh: mk(jellykoZh as any),
+      ja: mk(jellykoJa as any),
+      it: mk(jellykoIt as any),
+      de: mk(jellykoDe as any),
+      fr: mk(jellykoFr as any),
+      tr: mk(jellykoTr as any),
+      es: mk(jellykoEs as any),
+      pt: mk(jellykoPt as any), he: mk(jellykoHe as any), hi: mk(jellykoHi as any),
     },
   },
   {
