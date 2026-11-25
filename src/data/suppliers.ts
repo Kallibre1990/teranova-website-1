@@ -141,6 +141,7 @@ import bioptEs from './suppliers-i18n/biopt.es.json';
 import bioptPt from './suppliers-i18n/biopt.pt.json';
 import bioptHe from './suppliers-i18n/biopt.he.json';
 import bioptHi from './suppliers-i18n/biopt.hi.json';
+import bioptAr from './suppliers-i18n/biopt.ar.json';
 import bioptCatalog from './suppliers-i18n/biopt.catalog.json';
 import loobeeRu from './suppliers-i18n/loobee.ru.json';
 import loobeeEn from './suppliers-i18n/loobee.en.json';
@@ -183,6 +184,7 @@ import abEs from './suppliers-i18n/aberede.es.json';
 import abPt from './suppliers-i18n/aberede.pt.json';
 import abHe from './suppliers-i18n/aberede.he.json';
 import abHi from './suppliers-i18n/aberede.hi.json';
+import abAr from './suppliers-i18n/aberede.ar.json';
 import abCatalog from './suppliers-i18n/aberede.catalog.json';
 import aoiRu from './suppliers-i18n/aoi.ru.json';
 import aoiEn from './suppliers-i18n/aoi.en.json';
@@ -197,6 +199,7 @@ import aoiEs from './suppliers-i18n/aoi.es.json';
 import aoiPt from './suppliers-i18n/aoi.pt.json';
 import aoiHe from './suppliers-i18n/aoi.he.json';
 import aoiHi from './suppliers-i18n/aoi.hi.json';
+import aoiAr from './suppliers-i18n/aoi.ar.json';
 import aoiCatalog from './suppliers-i18n/aoi.catalog.json';
 import fauRu from './suppliers-i18n/fau.ru.json';
 import fauEn from './suppliers-i18n/fau.en.json';
@@ -225,6 +228,7 @@ import agerinEs from './suppliers-i18n/agerin.es.json';
 import agerinPt from './suppliers-i18n/agerin.pt.json';
 import agerinHe from './suppliers-i18n/agerin.he.json';
 import agerinHi from './suppliers-i18n/agerin.hi.json';
+import agerinAr from './suppliers-i18n/agerin.ar.json';
 import agerinCatalog from './suppliers-i18n/agerin.catalog.json';
 import sprxRu from './suppliers-i18n/sprx.ru.json';
 import sprxEn from './suppliers-i18n/sprx.en.json';
@@ -253,6 +257,7 @@ import btfEs from './suppliers-i18n/btf.es.json';
 import btfPt from './suppliers-i18n/btf.pt.json';
 import btfHe from './suppliers-i18n/btf.he.json';
 import btfHi from './suppliers-i18n/btf.hi.json';
+import btfAr from './suppliers-i18n/btf.ar.json';
 import btfCatalog from './suppliers-i18n/btf.catalog.json';
 import btfLines from './suppliers-i18n/btf.lines.json';
 import desertFreeRu from './suppliers-i18n/desert-free.ru.json';
@@ -297,6 +302,7 @@ import armingEs from './suppliers-i18n/arming.es.json';
 import armingPt from './suppliers-i18n/arming.pt.json';
 import armingHe from './suppliers-i18n/arming.he.json';
 import armingHi from './suppliers-i18n/arming.hi.json';
+import armingAr from './suppliers-i18n/arming.ar.json';
 import armingCatalog from './suppliers-i18n/arming.catalog.json';
 import whamisaRu from './suppliers-i18n/whamisa.ru.json';
 import whamisaEn from './suppliers-i18n/whamisa.en.json';
@@ -352,6 +358,7 @@ import acfitEs from './suppliers-i18n/acfit.es.json';
 import acfitPt from './suppliers-i18n/acfit.pt.json';
 import acfitHe from './suppliers-i18n/acfit.he.json';
 import acfitHi from './suppliers-i18n/acfit.hi.json';
+import acfitAr from './suppliers-i18n/acfit.ar.json';
 import acfitCatalog from './suppliers-i18n/acfit.catalog.json';
 import plkLiftRu from './suppliers-i18n/plk-lift.ru.json';
 import plkLiftEn from './suppliers-i18n/plk-lift.en.json';
@@ -393,6 +400,7 @@ import aromaflavumEs from './suppliers-i18n/aromaflavum.es.json';
 import aromaflavumPt from './suppliers-i18n/aromaflavum.pt.json';
 import aromaflavumHe from './suppliers-i18n/aromaflavum.he.json';
 import aromaflavumHi from './suppliers-i18n/aromaflavum.hi.json';
+import aromaflavumAr from './suppliers-i18n/aromaflavum.ar.json';
 import koyRu from './suppliers-i18n/koy.ru.json';
 import koyEn from './suppliers-i18n/koy.en.json';
 import koyKo from './suppliers-i18n/koy.ko.json';
@@ -463,6 +471,7 @@ import abeltyEs from './suppliers-i18n/abelty.es.json';
 import abeltyPt from './suppliers-i18n/abelty.pt.json';
 import abeltyHe from './suppliers-i18n/abelty.he.json';
 import abeltyHi from './suppliers-i18n/abelty.hi.json';
+import abeltyAr from './suppliers-i18n/abelty.ar.json';
 import abeltyCatalog from './suppliers-i18n/abelty.catalog.json';
 import cellahealRu from './suppliers-i18n/cellaheal.ru.json';
 import cellahealEn from './suppliers-i18n/cellaheal.en.json';
@@ -477,6 +486,7 @@ import cellahealEs from './suppliers-i18n/cellaheal.es.json';
 import cellahealPt from './suppliers-i18n/cellaheal.pt.json';
 import cellahealHe from './suppliers-i18n/cellaheal.he.json';
 import cellahealHi from './suppliers-i18n/cellaheal.hi.json';
+import cellahealAr from './suppliers-i18n/cellaheal.ar.json';
 import cellahealCatalog from './suppliers-i18n/cellaheal.catalog.json';
 import twoTigersRu from './suppliers-i18n/two-tigers.ru.json';
 import twoTigersEn from './suppliers-i18n/two-tigers.en.json';
@@ -599,6 +609,7 @@ import chaewunEs from './suppliers-i18n/chaewun.es.json';
 import chaewunPt from './suppliers-i18n/chaewun.pt.json';
 import chaewunHe from './suppliers-i18n/chaewun.he.json';
 import chaewunHi from './suppliers-i18n/chaewun.hi.json';
+import chaewunAr from './suppliers-i18n/chaewun.ar.json';
 import chaewunCatalog from './suppliers-i18n/chaewun.catalog.json';
 import chaewunLines from './suppliers-i18n/chaewun.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
@@ -690,6 +701,7 @@ import caycllyEs from './suppliers-i18n/cayclly.es.json';
 import caycllyPt from './suppliers-i18n/cayclly.pt.json';
 import caycllyHe from './suppliers-i18n/cayclly.he.json';
 import caycllyHi from './suppliers-i18n/cayclly.hi.json';
+import caycllyAr from './suppliers-i18n/cayclly.ar.json';
 import cayclyCatalog from './suppliers-i18n/cayclly.catalog.json';
 import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
 import tdlCatalog from './suppliers-i18n/three-days-love.catalog.json';
@@ -743,6 +755,7 @@ import artfaceEs from './suppliers-i18n/artface.es.json';
 import artfacePt from './suppliers-i18n/artface.pt.json';
 import artfaceHe from './suppliers-i18n/artface.he.json';
 import artfaceHi from './suppliers-i18n/artface.hi.json';
+import artfaceAr from './suppliers-i18n/artface.ar.json';
 import dongEn from './suppliers-i18n/dongdonggurimoo.en.json';
 import dongKo from './suppliers-i18n/dongdonggurimoo.ko.json';
 import dongZh from './suppliers-i18n/dongdonggurimoo.zh.json';
@@ -856,6 +869,7 @@ import agingTargetEs from './suppliers-i18n/agingtarget.es.json';
 import agingTargetPt from './suppliers-i18n/agingtarget.pt.json';
 import agingTargetHe from './suppliers-i18n/agingtarget.he.json';
 import agingTargetHi from './suppliers-i18n/agingtarget.hi.json';
+import agingTargetAr from './suppliers-i18n/agingtarget.ar.json';
 
 export interface SupplierLine {
   name: string;
@@ -1578,7 +1592,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(artfaceFr),
       tr: mk(artfaceTr),
       es: mk(artfaceEs),
-      pt: mk(artfacePt), he: mk(artfaceHe), hi: mk(artfaceHi),
+      pt: mk(artfacePt), he: mk(artfaceHe), hi: mk(artfaceHi), ar: mk(artfaceAr),
     },
   },
   {
@@ -1836,7 +1850,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(caycllyFr as any),
       tr: mk(caycllyTr as any),
       es: mk(caycllyEs as any),
-      pt: mk(caycllyPt as any), he: mk(caycllyHe as any), hi: mk(caycllyHi as any),
+      pt: mk(caycllyPt as any), he: mk(caycllyHe as any), hi: mk(caycllyHi as any), ar: mk(caycllyAr as any),
     },
   },
   {
@@ -2468,7 +2482,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(bioptFr as any),
       tr: mk(bioptTr as any),
       es: mk(bioptEs as any),
-      pt: mk(bioptPt as any), he: mk(bioptHe as any), hi: mk(bioptHi as any),
+      pt: mk(bioptPt as any), he: mk(bioptHe as any), hi: mk(bioptHi as any), ar: mk(bioptAr as any),
     },
     catalog: bioptCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
   },
@@ -2601,7 +2615,7 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(abRu as any), en: mk(abEn as any), ko: mk(abKo as any), zh: mk(abZh as any),
       ja: mk(abJa as any), it: mk(abIt as any), de: mk(abDe as any), fr: mk(abFr as any),
-      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any), he: mk(abHe as any), hi: mk(abHi as any),
+      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any), he: mk(abHe as any), hi: mk(abHi as any), ar: mk(abAr as any),
     },
   },
   {
@@ -2641,7 +2655,7 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(aoiRu as any), en: mk(aoiEn as any), ko: mk(aoiKo as any), zh: mk(aoiZh as any),
       ja: mk(aoiJa as any), it: mk(aoiIt as any), de: mk(aoiDe as any), fr: mk(aoiFr as any),
-      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any), he: mk(aoiHe as any), hi: mk(aoiHi as any),
+      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any), he: mk(aoiHe as any), hi: mk(aoiHi as any), ar: mk(aoiAr as any),
     },
   },
   {
@@ -2681,7 +2695,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(agerinEn as any),
       ko: mk(agerinKo as any), zh: mk(agerinZh as any), ja: mk(agerinJa as any),
       it: mk(agerinIt as any), de: mk(agerinDe as any), fr: mk(agerinFr as any),
-      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any), he: mk(agerinHe as any), hi: mk(agerinHi as any),
+      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any), he: mk(agerinHe as any), hi: mk(agerinHi as any), ar: mk(agerinAr as any),
     },
   },
   {
@@ -2812,7 +2826,7 @@ export const suppliers: SupplierProfile[] = [
        нет: письмо Teranova 03.09.2026 согласовало «price on request». */
     certs: ['KC · Ultrasonic Duo', 'CE · Ultrasonic Duo'],
     i18n: {
-      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any), he: mk(btfHe as any), hi: mk(btfHi as any),
+      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any), he: mk(btfHe as any), hi: mk(btfHi as any), ar: mk(btfAr as any),
     },
   },
   {
@@ -2917,7 +2931,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/arming-catalog-ru.pdf', en: '/docs/arming-catalog-en.pdf', ko: '/docs/arming-catalog-ko.pdf', zh: '/docs/arming-catalog-zh.pdf', ja: '/docs/arming-catalog-ja.pdf', it: '/docs/arming-catalog-it.pdf', de: '/docs/arming-catalog-de.pdf', fr: '/docs/arming-catalog-fr.pdf', tr: '/docs/arming-catalog-tr.pdf', es: '/docs/arming-catalog-es.pdf', pt: '/docs/arming-catalog-pt.pdf', he: '/docs/arming-catalog-he.pdf', hi: '/docs/arming-catalog-hi.pdf' },
     presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf', he: '/docs/arming-presentation-he.pdf', hi: '/docs/arming-presentation-hi.pdf' },
     i18n: {
-      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any), he: mk(armingHe as any), hi: mk(armingHi as any),
+      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any), he: mk(armingHe as any), hi: mk(armingHi as any), ar: mk(armingAr as any),
     },
   },
   {
@@ -3054,7 +3068,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/chaewun-terms-ru.pdf', en: '/docs/chaewun-terms-en.pdf', ko: '/docs/chaewun-terms-ko.pdf', zh: '/docs/chaewun-terms-zh.pdf', ja: '/docs/chaewun-terms-ja.pdf', it: '/docs/chaewun-terms-it.pdf', de: '/docs/chaewun-terms-de.pdf', fr: '/docs/chaewun-terms-fr.pdf', tr: '/docs/chaewun-terms-tr.pdf', es: '/docs/chaewun-terms-es.pdf', pt: '/docs/chaewun-terms-pt.pdf' },
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
-      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any), ar: mk(chaewunAr as any),
     },
   },
   {
@@ -3135,7 +3149,7 @@ export const suppliers: SupplierProfile[] = [
       es: '/docs/acfit-presentation-es.pdf', pt: '/docs/acfit-presentation-pt.pdf',
     },
     i18n: {
-      ru: mk(acfitRu as any), en: mk(acfitEn as any), ko: mk(acfitKo as any), zh: mk(acfitZh as any), ja: mk(acfitJa as any), it: mk(acfitIt as any), de: mk(acfitDe as any), fr: mk(acfitFr as any), tr: mk(acfitTr as any), es: mk(acfitEs as any), pt: mk(acfitPt as any), he: mk(acfitHe as any), hi: mk(acfitHi as any),
+      ru: mk(acfitRu as any), en: mk(acfitEn as any), ko: mk(acfitKo as any), zh: mk(acfitZh as any), ja: mk(acfitJa as any), it: mk(acfitIt as any), de: mk(acfitDe as any), fr: mk(acfitFr as any), tr: mk(acfitTr as any), es: mk(acfitEs as any), pt: mk(acfitPt as any), he: mk(acfitHe as any), hi: mk(acfitHi as any), ar: mk(acfitAr as any),
     },
   },
   {
@@ -3330,7 +3344,7 @@ export const suppliers: SupplierProfile[] = [
       en: agingTargetEn,
       ko: mk(agingTargetKo as any), zh: mk(agingTargetZh as any), ja: mk(agingTargetJa as any), it: mk(agingTargetIt as any),
       de: mk(agingTargetDe as any), fr: mk(agingTargetFr as any), tr: mk(agingTargetTr as any), es: mk(agingTargetEs as any),
-      pt: mk(agingTargetPt as any), he: mk(agingTargetHe as any), hi: mk(agingTargetHi as any),
+      pt: mk(agingTargetPt as any), he: mk(agingTargetHe as any), hi: mk(agingTargetHi as any), ar: mk(agingTargetAr as any),
     },
   },
   {
@@ -3418,7 +3432,7 @@ export const suppliers: SupplierProfile[] = [
        резервуаров, «лучшая цена», имя руководителя, контакты, адреса и фото
        не публикуются; карточка показывает монограмму. */
     i18n: {
-      ru: mk(aromaflavumRu as any), en: mk(aromaflavumEn as any), ko: mk(aromaflavumKo as any), zh: mk(aromaflavumZh as any), ja: mk(aromaflavumJa as any), it: mk(aromaflavumIt as any), de: mk(aromaflavumDe as any), fr: mk(aromaflavumFr as any), tr: mk(aromaflavumTr as any), es: mk(aromaflavumEs as any), pt: mk(aromaflavumPt as any), he: mk(aromaflavumHe as any), hi: mk(aromaflavumHi as any),
+      ru: mk(aromaflavumRu as any), en: mk(aromaflavumEn as any), ko: mk(aromaflavumKo as any), zh: mk(aromaflavumZh as any), ja: mk(aromaflavumJa as any), it: mk(aromaflavumIt as any), de: mk(aromaflavumDe as any), fr: mk(aromaflavumFr as any), tr: mk(aromaflavumTr as any), es: mk(aromaflavumEs as any), pt: mk(aromaflavumPt as any), he: mk(aromaflavumHe as any), hi: mk(aromaflavumHi as any), ar: mk(aromaflavumAr as any),
     },
   },
   {
@@ -3644,7 +3658,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/abelty-presentation-ru.pdf', en: '/docs/abelty-presentation-en.pdf', ko: '/docs/abelty-presentation-ko.pdf', zh: '/docs/abelty-presentation-zh.pdf', ja: '/docs/abelty-presentation-ja.pdf', it: '/docs/abelty-presentation-it.pdf', de: '/docs/abelty-presentation-de.pdf', fr: '/docs/abelty-presentation-fr.pdf', tr: '/docs/abelty-presentation-tr.pdf', es: '/docs/abelty-presentation-es.pdf', pt: '/docs/abelty-presentation-pt.pdf', he: '/docs/abelty-presentation-he.pdf', hi: '/docs/abelty-presentation-hi.pdf',
     },
     i18n: {
-      ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any),
+      ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any), ar: mk(abeltyAr as any),
     },
   },
   {
@@ -3692,7 +3706,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/cellaheal-presentation-ru.pdf', en: '/docs/cellaheal-presentation-en.pdf', ko: '/docs/cellaheal-presentation-ko.pdf', zh: '/docs/cellaheal-presentation-zh.pdf', ja: '/docs/cellaheal-presentation-ja.pdf', it: '/docs/cellaheal-presentation-it.pdf', de: '/docs/cellaheal-presentation-de.pdf', fr: '/docs/cellaheal-presentation-fr.pdf', tr: '/docs/cellaheal-presentation-tr.pdf', es: '/docs/cellaheal-presentation-es.pdf', pt: '/docs/cellaheal-presentation-pt.pdf', he: '/docs/cellaheal-presentation-he.pdf', hi: '/docs/cellaheal-presentation-hi.pdf',
     },
     i18n: {
-      ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any),
+      ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any), ar: mk(cellahealAr as any),
     },
   },
   {
