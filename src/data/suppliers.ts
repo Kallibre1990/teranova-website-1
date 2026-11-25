@@ -42,6 +42,7 @@ import doobomTr from './suppliers-i18n/doobom.tr.json';
 import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
 import doobomHe from './suppliers-i18n/doobom.he.json';
+import doobomAr from './suppliers-i18n/doobom.ar.json';
 import doobomHi from './suppliers-i18n/doobom.hi.json';
 import doobomCatalog from './suppliers-i18n/doobom.catalog.json';
 import cocoRu from './suppliers-i18n/cocospack.ru.json';
@@ -57,6 +58,7 @@ import cocoTr from './suppliers-i18n/cocospack.tr.json';
 import cocoEs from './suppliers-i18n/cocospack.es.json';
 import cocoPt from './suppliers-i18n/cocospack.pt.json';
 import cocoHe from './suppliers-i18n/cocospack.he.json';
+import cocoAr from './suppliers-i18n/cocospack.ar.json';
 import cocoHi from './suppliers-i18n/cocospack.hi.json';
 import sunpureRu from './suppliers-i18n/sunpure.ru.json';
 import sunpureEn from './suppliers-i18n/sunpure.en.json';
@@ -213,6 +215,7 @@ import fauTr from './suppliers-i18n/fau.tr.json';
 import fauEs from './suppliers-i18n/fau.es.json';
 import fauPt from './suppliers-i18n/fau.pt.json';
 import fauHe from './suppliers-i18n/fau.he.json';
+import fauAr from './suppliers-i18n/fau.ar.json';
 import fauHi from './suppliers-i18n/fau.hi.json';
 import fauCatalog from './suppliers-i18n/fau.catalog.json';
 import agerinRu from './suppliers-i18n/agerin.ru.json';
@@ -272,6 +275,7 @@ import desertFreeTr from './suppliers-i18n/desert-free.tr.json';
 import desertFreeEs from './suppliers-i18n/desert-free.es.json';
 import desertFreePt from './suppliers-i18n/desert-free.pt.json';
 import desertFreeHe from './suppliers-i18n/desert-free.he.json';
+import desertFreeAr from './suppliers-i18n/desert-free.ar.json';
 import desertFreeHi from './suppliers-i18n/desert-free.hi.json';
 import desertFreeCatalog from './suppliers-i18n/desert-free.catalog.json';
 import desertFreeLines from './suppliers-i18n/desert-free.lines.json';
@@ -287,6 +291,7 @@ import drPeloTr from './suppliers-i18n/dr-pelo.tr.json';
 import drPeloEs from './suppliers-i18n/dr-pelo.es.json';
 import drPeloPt from './suppliers-i18n/dr-pelo.pt.json';
 import drPeloHe from './suppliers-i18n/dr-pelo.he.json';
+import drPeloAr from './suppliers-i18n/dr-pelo.ar.json';
 import drPeloHi from './suppliers-i18n/dr-pelo.hi.json';
 import drPeloCatalog from './suppliers-i18n/dr-pelo.catalog.json';
 import armingRu from './suppliers-i18n/arming.ru.json';
@@ -442,6 +447,7 @@ import cheon365Tr from './suppliers-i18n/cheon365.tr.json';
 import cheon365Es from './suppliers-i18n/cheon365.es.json';
 import cheon365Pt from './suppliers-i18n/cheon365.pt.json';
 import cheon365He from './suppliers-i18n/cheon365.he.json';
+import cheon365Ar from './suppliers-i18n/cheon365.ar.json';
 import cheon365Hi from './suppliers-i18n/cheon365.hi.json';
 import cheon365Catalog from './suppliers-i18n/cheon365.catalog.json';
 import dailycommaRu from './suppliers-i18n/dailycomma.ru.json';
@@ -456,6 +462,7 @@ import dailycommaTr from './suppliers-i18n/dailycomma.tr.json';
 import dailycommaEs from './suppliers-i18n/dailycomma.es.json';
 import dailycommaPt from './suppliers-i18n/dailycomma.pt.json';
 import dailycommaHe from './suppliers-i18n/dailycomma.he.json';
+import dailycommaAr from './suppliers-i18n/dailycomma.ar.json';
 import dailycommaHi from './suppliers-i18n/dailycomma.hi.json';
 import dailycommaCatalog from './suppliers-i18n/dailycomma.catalog.json';
 import abeltyRu from './suppliers-i18n/abelty.ru.json';
@@ -529,6 +536,7 @@ import duCosmeticTr from './suppliers-i18n/du-cosmetic.tr.json';
 import duCosmeticEs from './suppliers-i18n/du-cosmetic.es.json';
 import duCosmeticPt from './suppliers-i18n/du-cosmetic.pt.json';
 import duCosmeticHe from './suppliers-i18n/du-cosmetic.he.json';
+import duCosmeticAr from './suppliers-i18n/du-cosmetic.ar.json';
 import duCosmeticHi from './suppliers-i18n/du-cosmetic.hi.json';
 import ooznaryRu from './suppliers-i18n/ooznary.ru.json';
 import ooznaryEn from './suppliers-i18n/ooznary.en.json';
@@ -569,6 +577,7 @@ import dachenTr from './suppliers-i18n/dachen.tr.json';
 import dachenEs from './suppliers-i18n/dachen.es.json';
 import dachenPt from './suppliers-i18n/dachen.pt.json';
 import dachenHe from './suppliers-i18n/dachen.he.json';
+import dachenAr from './suppliers-i18n/dachen.ar.json';
 import dachenHi from './suppliers-i18n/dachen.hi.json';
 import toptrendRu from './suppliers-i18n/toptrend.ru.json';
 import toptrendEn from './suppliers-i18n/toptrend.en.json';
@@ -624,6 +633,7 @@ import glowPumpkinTr from './suppliers-i18n/glow-pumpkin.tr.json';
 import glowPumpkinEs from './suppliers-i18n/glow-pumpkin.es.json';
 import glowPumpkinPt from './suppliers-i18n/glow-pumpkin.pt.json';
 import glowPumpkinHe from './suppliers-i18n/glow-pumpkin.he.json';
+import glowPumpkinAr from './suppliers-i18n/glow-pumpkin.ar.json';
 import glowPumpkinHi from './suppliers-i18n/glow-pumpkin.hi.json';
 import glowPumpkinCatalog from './suppliers-i18n/glow-pumpkin.catalog.json';
 import rnhBioRu from './suppliers-i18n/rnh-bio.ru.json';
@@ -668,6 +678,7 @@ import cubecapTr from './suppliers-i18n/cubecap.tr.json';
 import cubecapEs from './suppliers-i18n/cubecap.es.json';
 import cubecapPt from './suppliers-i18n/cubecap.pt.json';
 import cubecapHe from './suppliers-i18n/cubecap.he.json';
+import cubecapAr from './suppliers-i18n/cubecap.ar.json';
 import cubecapHi from './suppliers-i18n/cubecap.hi.json';
 import type { Lang } from '../i18n/ui';
 import santeEn from './suppliers-i18n/sante.en.json';
@@ -725,6 +736,7 @@ import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
 import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
 import dreamcosHe from './suppliers-i18n/dreamcos.he.json';
+import dreamcosAr from './suppliers-i18n/dreamcos.ar.json';
 import dreamcosHi from './suppliers-i18n/dreamcos.hi.json';
 import feelodyCatalog from './suppliers-i18n/feelody.catalog.json';
 import feelodyLines from './suppliers-i18n/feelody.lines.json';
@@ -734,6 +746,7 @@ import feelodyKo from './suppliers-i18n/feelody.ko.json';
 import feelodyZh from './suppliers-i18n/feelody.zh.json';
 import feelodyJa from './suppliers-i18n/feelody.ja.json';
 import feelodyHe from './suppliers-i18n/feelody.he.json';
+import feelodyAr from './suppliers-i18n/feelody.ar.json';
 import feelodyHi from './suppliers-i18n/feelody.hi.json';
 import feelodyIt from './suppliers-i18n/feelody.it.json';
 import feelodyDe from './suppliers-i18n/feelody.de.json';
@@ -767,6 +780,7 @@ import dongTr from './suppliers-i18n/dongdonggurimoo.tr.json';
 import dongEs from './suppliers-i18n/dongdonggurimoo.es.json';
 import dongPt from './suppliers-i18n/dongdonggurimoo.pt.json';
 import dongHe from './suppliers-i18n/dongdonggurimoo.he.json';
+import dongAr from './suppliers-i18n/dongdonggurimoo.ar.json';
 import dongHi from './suppliers-i18n/dongdonggurimoo.hi.json';
 import ckrEn from './suppliers-i18n/ck-regeon.en.json';
 import ckrKo from './suppliers-i18n/ck-regeon.ko.json';
@@ -779,6 +793,7 @@ import ckrTr from './suppliers-i18n/ck-regeon.tr.json';
 import ckrEs from './suppliers-i18n/ck-regeon.es.json';
 import ckrPt from './suppliers-i18n/ck-regeon.pt.json';
 import ckrHe from './suppliers-i18n/ck-regeon.he.json';
+import ckrAr from './suppliers-i18n/ck-regeon.ar.json';
 import ckrHi from './suppliers-i18n/ck-regeon.hi.json';
 import jetsRu from './suppliers-i18n/jetsglobal.ru.json';
 import jetsEn from './suppliers-i18n/jetsglobal.en.json';
@@ -1523,7 +1538,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(dreamcosFr),
       tr: mk(dreamcosTr),
       es: mk(dreamcosEs),
-      pt: mk(dreamcosPt), he: mk(dreamcosHe), hi: mk(dreamcosHi),
+      pt: mk(dreamcosPt), he: mk(dreamcosHe), hi: mk(dreamcosHi), ar: mk(dreamcosAr),
     },
   },
   {
@@ -1557,7 +1572,7 @@ export const suppliers: SupplierProfile[] = [
     },
     i18n: {
       ru: mk(feelodyRu), en: mk(feelodyEn), ko: mk(feelodyKo), zh: mk(feelodyZh),
-      ja: mk(feelodyJa), he: mk(feelodyHe), hi: mk(feelodyHi),
+      ja: mk(feelodyJa), he: mk(feelodyHe), hi: mk(feelodyHi), ar: mk(feelodyAr),
       it: mk(feelodyIt), de: mk(feelodyDe), fr: mk(feelodyFr),
       tr: mk(feelodyTr), es: mk(feelodyEs), pt: mk(feelodyPt),
     },
@@ -1673,7 +1688,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(dongFr as any),
       tr: mk(dongTr as any),
       es: mk(dongEs as any),
-      pt: mk(dongPt as any), he: mk(dongHe as any), hi: mk(dongHi as any),
+      pt: mk(dongPt as any), he: mk(dongHe as any), hi: mk(dongHi as any), ar: mk(dongAr as any),
     },
   },
   {
@@ -1723,7 +1738,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(ckrFr as any),
       tr: mk(ckrTr as any),
       es: mk(ckrEs as any),
-      pt: mk(ckrPt as any), he: mk(ckrHe as any), hi: mk(ckrHi as any),
+      pt: mk(ckrPt as any), he: mk(ckrHe as any), hi: mk(ckrHi as any), ar: mk(ckrAr as any),
     },
   },
   {
@@ -2038,7 +2053,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(cubecapFr as any),
       tr: mk(cubecapTr as any),
       es: mk(cubecapEs as any),
-      pt: mk(cubecapPt as any), he: mk(cubecapHe as any), hi: mk(cubecapHi as any),
+      pt: mk(cubecapPt as any), he: mk(cubecapHe as any), hi: mk(cubecapHi as any), ar: mk(cubecapAr as any),
     },
   },
   {
@@ -2072,7 +2087,7 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(doobomTr as any),
       es: mk(doobomEs as any),
       pt: mk(doobomPt as any),
-      he: mk(doobomHe as any),
+      he: mk(doobomHe as any), ar: mk(doobomAr as any),
       hi: mk(doobomHi as any),
     },
   },
@@ -2108,7 +2123,7 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(cocoTr as any),
       es: mk(cocoEs as any),
       pt: mk(cocoPt as any),
-      he: mk(cocoHe as any),
+      he: mk(cocoHe as any), ar: mk(cocoAr as any),
       hi: mk(cocoHi as any),
     },
   },
@@ -2723,7 +2738,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(fauEn as any),
       ko: mk(fauKo as any), zh: mk(fauZh as any), ja: mk(fauJa as any),
       it: mk(fauIt as any), de: mk(fauDe as any), fr: mk(fauFr as any),
-      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any), he: mk(fauHe as any), hi: mk(fauHi as any),
+      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any), he: mk(fauHe as any), hi: mk(fauHi as any), ar: mk(fauAr as any),
     },
   },
   {
@@ -2745,7 +2760,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(glowPumpkinEn as any),
       ko: mk(glowPumpkinKo as any), zh: mk(glowPumpkinZh as any), ja: mk(glowPumpkinJa as any),
       it: mk(glowPumpkinIt as any), de: mk(glowPumpkinDe as any), fr: mk(glowPumpkinFr as any),
-      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any), he: mk(glowPumpkinHe as any), hi: mk(glowPumpkinHi as any),
+      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any), he: mk(glowPumpkinHe as any), hi: mk(glowPumpkinHi as any), ar: mk(glowPumpkinAr as any),
     },
   },
   {
@@ -2848,7 +2863,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/desert-free-terms-ru.pdf', en: '/docs/desert-free-terms-en.pdf', ko: '/docs/desert-free-terms-ko.pdf', zh: '/docs/desert-free-terms-zh.pdf', ja: '/docs/desert-free-terms-ja.pdf', it: '/docs/desert-free-terms-it.pdf', de: '/docs/desert-free-terms-de.pdf', fr: '/docs/desert-free-terms-fr.pdf', tr: '/docs/desert-free-terms-tr.pdf', es: '/docs/desert-free-terms-es.pdf', pt: '/docs/desert-free-terms-pt.pdf', he: '/docs/desert-free-terms-he.pdf', hi: '/docs/desert-free-terms-hi.pdf' },
     presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf', he: '/docs/desert-free-presentation-he.pdf', hi: '/docs/desert-free-presentation-hi.pdf' },
     i18n: {
-      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any), he: mk(desertFreeHe as any), hi: mk(desertFreeHi as any),
+      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any), he: mk(desertFreeHe as any), hi: mk(desertFreeHi as any), ar: mk(desertFreeAr as any),
     },
   },
   {
@@ -2895,7 +2910,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/dr-pelo-catalog-ru.pdf', en: '/docs/dr-pelo-catalog-en.pdf', ko: '/docs/dr-pelo-catalog-ko.pdf', zh: '/docs/dr-pelo-catalog-zh.pdf', ja: '/docs/dr-pelo-catalog-ja.pdf', it: '/docs/dr-pelo-catalog-it.pdf', de: '/docs/dr-pelo-catalog-de.pdf', fr: '/docs/dr-pelo-catalog-fr.pdf', tr: '/docs/dr-pelo-catalog-tr.pdf', es: '/docs/dr-pelo-catalog-es.pdf', pt: '/docs/dr-pelo-catalog-pt.pdf', he: '/docs/dr-pelo-catalog-he.pdf', hi: '/docs/dr-pelo-catalog-hi.pdf' },
     presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf', he: '/docs/dr-pelo-presentation-he.pdf', hi: '/docs/dr-pelo-presentation-hi.pdf' },
     i18n: {
-      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any), he: mk(drPeloHe as any), hi: mk(drPeloHi as any),
+      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any), he: mk(drPeloHe as any), hi: mk(drPeloHi as any), ar: mk(drPeloAr as any),
     },
   },
   {
@@ -3170,7 +3185,7 @@ export const suppliers: SupplierProfile[] = [
        per-SKU specifications have not been received yet. */
     gallery: ['/img/suppliers/du-cosmetic/gallery/line.jpg'],
     i18n: {
-      ru: mk(duCosmeticRu as any), en: mk(duCosmeticEn as any), ko: mk(duCosmeticKo as any), zh: mk(duCosmeticZh as any), ja: mk(duCosmeticJa as any), it: mk(duCosmeticIt as any), de: mk(duCosmeticDe as any), fr: mk(duCosmeticFr as any), tr: mk(duCosmeticTr as any), es: mk(duCosmeticEs as any), pt: mk(duCosmeticPt as any), he: mk(duCosmeticHe as any), hi: mk(duCosmeticHi as any),
+      ru: mk(duCosmeticRu as any), en: mk(duCosmeticEn as any), ko: mk(duCosmeticKo as any), zh: mk(duCosmeticZh as any), ja: mk(duCosmeticJa as any), it: mk(duCosmeticIt as any), de: mk(duCosmeticDe as any), fr: mk(duCosmeticFr as any), tr: mk(duCosmeticTr as any), es: mk(duCosmeticEs as any), pt: mk(duCosmeticPt as any), he: mk(duCosmeticHe as any), hi: mk(duCosmeticHi as any), ar: mk(duCosmeticAr as any),
     },
   },
   {
@@ -3259,7 +3274,7 @@ export const suppliers: SupplierProfile[] = [
        category 'industrial' follows the legal name ("Intelligent Equipment").
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/10_DACHEN.md. */
     i18n: {
-      ru: mk(dachenRu as any), en: mk(dachenEn as any), ko: mk(dachenKo as any), zh: mk(dachenZh as any), ja: mk(dachenJa as any), it: mk(dachenIt as any), de: mk(dachenDe as any), fr: mk(dachenFr as any), tr: mk(dachenTr as any), es: mk(dachenEs as any), pt: mk(dachenPt as any), he: mk(dachenHe as any), hi: mk(dachenHi as any),
+      ru: mk(dachenRu as any), en: mk(dachenEn as any), ko: mk(dachenKo as any), zh: mk(dachenZh as any), ja: mk(dachenJa as any), it: mk(dachenIt as any), de: mk(dachenDe as any), fr: mk(dachenFr as any), tr: mk(dachenTr as any), es: mk(dachenEs as any), pt: mk(dachenPt as any), he: mk(dachenHe as any), hi: mk(dachenHi as any), ar: mk(dachenAr as any),
     },
   },
   {
@@ -3575,7 +3590,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/cheon365-presentation-ru.pdf', en: '/docs/cheon365-presentation-en.pdf', ko: '/docs/cheon365-presentation-ko.pdf', zh: '/docs/cheon365-presentation-zh.pdf', ja: '/docs/cheon365-presentation-ja.pdf', it: '/docs/cheon365-presentation-it.pdf', de: '/docs/cheon365-presentation-de.pdf', fr: '/docs/cheon365-presentation-fr.pdf', tr: '/docs/cheon365-presentation-tr.pdf', es: '/docs/cheon365-presentation-es.pdf', pt: '/docs/cheon365-presentation-pt.pdf',
     },
     i18n: {
-      ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any),
+      ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any), ar: mk(cheon365Ar as any),
     },
   },
   {
@@ -3612,7 +3627,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/dailycomma-presentation-ru.pdf', en: '/docs/dailycomma-presentation-en.pdf', ko: '/docs/dailycomma-presentation-ko.pdf', zh: '/docs/dailycomma-presentation-zh.pdf', ja: '/docs/dailycomma-presentation-ja.pdf', it: '/docs/dailycomma-presentation-it.pdf', de: '/docs/dailycomma-presentation-de.pdf', fr: '/docs/dailycomma-presentation-fr.pdf', tr: '/docs/dailycomma-presentation-tr.pdf', es: '/docs/dailycomma-presentation-es.pdf', pt: '/docs/dailycomma-presentation-pt.pdf', he: '/docs/dailycomma-presentation-he.pdf', hi: '/docs/dailycomma-presentation-hi.pdf',
     },
     i18n: {
-      ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any),
+      ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any), ar: mk(dailycommaAr as any),
     },
   },
   {
