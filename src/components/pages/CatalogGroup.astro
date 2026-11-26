@@ -9,6 +9,7 @@ import { ui, type Lang } from '../../i18n/ui';
 import type { CategoryKey } from '../../data/site';
 import { demoSuppliers } from '../../data/demoSuppliers';
 import { donggukContent } from '../../data/dongguk';
+import { exsoluContent, exsoluDraftLocales, type ExsoluLocale } from '../../data/exsolu';
 import { visibleSuppliers as realSuppliers, beautySuppliers, supplierContent, showcaseImages, showcaseFacts } from '../../data/suppliers';
 interface Props {
   lang: Lang;
@@ -45,6 +46,14 @@ const CROSS_CATEGORY_SLUGS: Partial<Record<CategoryKey, string[]>> = {
 const realForCat = (groupKey === 'cosmetics' ? beautySuppliers : realSuppliers.filter((s) => s.category === groupKey || CROSS_CATEGORY_SLUGS[groupKey]?.includes(s.slug)))
   .slice()
   .sort(byDisplayedName);
+// EXSOLU has a dedicated profile renderer, rather than SupplierProfile data.
+// Include it in the same alphabetical list only where its translation exists.
+const exsolu = isCosmetics && exsoluDraftLocales.includes(lang as ExsoluLocale)
+  ? exsoluContent(lang as ExsoluLocale) : null;
+const beautyEntries = [
+  ...realForCat.map(supplier => ({ name: supplier.name, supplier })),
+  ...(exsolu ? [{ name: 'EXSOLU', supplier: null }] : []),
+].sort(byDisplayedName);
 /* Решение Антона 20.08.2026: демонстрационные карточки живут в группе только
    пока она пустая. Как только в направлении набирается три настоящих
    поставщика, выдуманные компании рядом с ними уже не заполняют витрину, а
@@ -261,7 +270,21 @@ const statusInfo = {
         <h2 class="lvl" style="margin:0">{supplierContent(realForCat[0], lang).ui.verified_suppliers}</h2>
       </div>
       <div class="sup-grid">
-        {realForCat.map((s) => {
+        {beautyEntries.map(({ supplier: s }) => {
+          if (!s && exsolu) return (
+            <a class="scard scard--real" href={localizePath('/catalog/exsolu', lang)}>
+              <h3 class="scard__nm">EXSOLU</h3>
+              <p class="scard__role">{exsolu.company}</p>
+              <p class="scard__blurb">{exsolu.about}</p>
+              <span class="scard__shots">
+                {exsolu.skincareProducts.slice(0, 3).map(product => (
+                  <span class="scard__pad"><img src={product.image} alt={product.name} loading="lazy" decoding="async" /></span>
+                ))}
+              </span>
+              <span class="scard__more">{supplierContent(realForCat[0], lang).ui.more}</span>
+            </a>
+          );
+          if (!s) return null;
           const sc = supplierContent(s, lang);
           return (
             <a class="scard scard--real" href={localizePath(`/catalog/${s.slug}`, lang)}>
