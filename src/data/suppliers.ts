@@ -3278,16 +3278,16 @@ export const suppliers: SupplierProfile[] = [
     name: 'Moz Science Co., Ltd.',
     brand: 'Moz Science (모즈사이언스)',
     status: 'provided',
-    brandColors: { deep: '#1C2B3A', sky: '#E1E8EF', accent: '#4F6E8C', bg: '#F4F7FA' },
+    brandColors: { deep: '#1C2B3A', sky: '#4F6E8C', accent: '#4F6E8C', bg: '#F4F7FA' },
     voice: 'minimal',
-    /* Indirect consent only: on 06.10.2026 the company described itself as a
-       distributor (not a manufacturer) of laboratory equipment and solutions from
-       Korean and international brands, and asked for a profile form. No written
-       permission and no materials yet, so the page carries only that description.
-       The Labconco official dealer status is the company's own claim without an
-       independent source and is intentionally absent; so are brands, images,
-       prices, MOQ, certificates and contacts.
-       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/12_MOZ_SCIENCE.md. */
+    logoUrl: '/img/suppliers/moz-science/logo.png',
+    logoAlt: 'Moz Science',
+    /* Consent and supplier presentation: 24.11.2026, messages
+       1a20b54a6306d5be / 1a20badf8f54b4d6 in the local mail archive.
+       Labconco authorised distributor status remains explicitly attributed.
+       Only company information, broad equipment categories, domestic services
+       and the supplier logo are used. No Aleris/Logic product materials,
+       product pages, prices, MOQ, lead times or personal contacts. */
     i18n: {
       ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any),
     },

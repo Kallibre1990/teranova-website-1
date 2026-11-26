@@ -4,21 +4,41 @@
     "descriptor": "Moz Science, Koreli ve uluslararası markaların laboratuvar ekipmanı ve çözümlerini dağıtan Koreli bir şirkettir",
     "origin": "Kore",
     "about": [
-      "Moz Science (Moz Science Co., Ltd.), Koreli ve uluslararası markaların laboratuvar ekipmanı ve çözümlerini dağıtan Koreli bir distribütördür. Şirket ekipmanı kendisi üretmez.",
-      "Şirket kendisini 6 Ekim 2026'da Teranova'ya bu şekilde tanıttı. Marka listesi, ekipman ve ticari koşullar hakkında henüz teyit edilmiş bilgi bulunmadığından bu sayfada yer almıyor."
+      "Kore’de laboratuvar ekipmanları ve araştırma ortamı çözümleri tedarik eden bir distribütörüz. Biyoteknoloji, yaşam bilimleri, ilaç ve tıp alanlarındaki kuruluşlara ve araştırma kurumlarına hizmet veriyoruz.",
+      "Moz Science’ın beyanına göre Kore’de Labconco’nun yetkili distribütörüyüz. Bu rol, şirketin Teranova’ya sunduğu belgelerde belirtilmiştir."
     ],
     "facts": [
       "Kore",
-      "Üretici değil, distribütör",
-      "Markalar ve çözümler talep üzerine"
+      "Üretici değil, distribütör"
     ],
     "channels": [],
-    "lines": [],
+    "lines": [
+      {
+        "name": "Biyolojik güvenlik kabinleri",
+        "note": ""
+      },
+      {
+        "name": "Dondurarak kurutucular",
+        "note": ""
+      },
+      {
+        "name": "Laboratuvar cam malzemesi yıkama makineleri",
+        "note": ""
+      },
+      {
+        "name": "Santrifüjlü konsantratörler",
+        "note": ""
+      },
+      {
+        "name": "Laboratuvar havalandırma ekipmanları",
+        "note": ""
+      }
+    ],
     "tech": [],
     "formats": [
-      "Laboratuvar ekipmanı ve çözümleri Teranova aracılığıyla talep üzerine"
+      "Kore’deki müşterilere ekipman seçimi, teknik danışmanlık, tedarik, kurulum, ilk ayarlar, bakım ve satış sonrası teknik destek sunuyoruz."
     ],
-    "exportNote": "Marka listesi, ekipman, sertifikalar, fiyatlar ve minimum sipariş burada yayımlanmaz; alıcının talebi üzerine şirketle teyit edilir.",
+    "exportNote": "Burada açıklanan tedarik ve hizmetler Kore’deki müşterilere yöneliktir. Kore dışındaki iş birliği olanakları Teranova aracılığıyla ayrıca görüşülür.",
     "terms": [
       {
         "label": "İş birliği",
@@ -29,7 +49,7 @@
         "value": "Talep üzerine; yayımlanmaz."
       }
     ],
-    "consentNote": "Şirket 6 Ekim 2026'da Teranova ile yazışmasında kendisini Koreli ve uluslararası markaların laboratuvar ekipmanı ve çözümlerinin distribütörü olarak tanıttı. Teranova şirketten henüz materyal almadı; bu nedenle bu sayfada yalnızca bu tanım yer alıyor. Markalar ve çözümler, şirket materyal sağlayıp onayladığında eklenecek.",
+    "consentNote": "Moz Science, 24 Kasım 2026 tarihli e-postasında şirket ve hizmet bilgilerinin Teranova profilinde kullanılmasına, çevrilmesine ve yayımlanmasına izin verdi. Açıklama şirketin sunduğu tanıtım belgesine dayanır; Labconco distribütörü statüsü Moz Science’ın beyanıdır.",
     "seoTitle": "Moz Science — laboratuvar ekipmanı, Kore · Teranova",
     "seoDesc": "Koreli ve uluslararası markaların laboratuvar ekipmanı ve çözümlerini dağıtan Koreli distribütör Moz Science profili. Koşullar Teranova aracılığıyla talep üzerine."
   },
@@ -37,11 +57,11 @@
     "profile_sup": "Tedarikçi profili",
     "about_h": "Şirket hakkında",
     "for_whom": "Kimlere uygun:",
-    "lines_h": "Ürün hatları",
+    "lines_h": "Ekipman kategorileri",
     "catalog_h": "Ürün kataloğu",
     "tech_h": "Teknoloji",
-    "formats_h": "Ürün formatları",
-    "export_h": "İhracat ve pazarlar",
+    "formats_h": "Kore’de sunulan hizmetler",
+    "export_h": "Hizmet bölgesi",
     "terms_h": "İş birliği koşulları",
     "download_btn": "Koşulları indir (PDF)",
     "pres_btn": "Sunumu indir (PDF)",

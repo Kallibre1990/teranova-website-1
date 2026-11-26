@@ -61,7 +61,6 @@ export const hiddenSupplierSlugs = [
   'du-cosmetic',
   'hiyo',
   'toptrend',
-  'moz-science',
 ] as const;
 export const isHiddenSupplier = (slug: string): boolean =>
   (hiddenSupplierSlugs as readonly string[]).includes(slug);

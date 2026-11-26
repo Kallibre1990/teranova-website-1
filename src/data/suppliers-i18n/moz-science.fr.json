@@ -4,21 +4,41 @@
     "descriptor": "Moz Science est un distributeur coréen d'équipements et de solutions de laboratoire de marques coréennes et internationales",
     "origin": "Corée",
     "about": [
-      "Moz Science (Moz Science Co., Ltd.) est un distributeur coréen d'équipements et de solutions de laboratoire de marques coréennes et internationales. L'entreprise ne fabrique pas elle-même d'équipements.",
-      "C'est ainsi que l'entreprise s'est présentée à Teranova le 6 octobre 2026. Aucune information confirmée n'est encore disponible sur la liste des marques, les équipements et les conditions commerciales ; ils ne figurent donc pas sur cette page."
+      "Nous distribuons des équipements de laboratoire et des solutions pour les environnements de recherche en Corée. Nous accompagnons les entreprises de biotechnologie, des sciences de la vie, de la pharmacie et du secteur médical, ainsi que les instituts de recherche.",
+      "Selon les informations de Moz Science, nous sommes distributeur agréé de Labconco en Corée. Ce rôle est déclaré par la société dans les documents transmis à Teranova."
     ],
     "facts": [
       "Corée",
-      "Distributeur, pas fabricant",
-      "Marques et solutions sur demande"
+      "Distributeur, pas fabricant"
     ],
     "channels": [],
-    "lines": [],
+    "lines": [
+      {
+        "name": "Postes de sécurité microbiologique",
+        "note": ""
+      },
+      {
+        "name": "Lyophilisateurs",
+        "note": ""
+      },
+      {
+        "name": "Laveurs de verrerie de laboratoire",
+        "note": ""
+      },
+      {
+        "name": "Concentrateurs centrifuges",
+        "note": ""
+      },
+      {
+        "name": "Équipements de ventilation de laboratoire",
+        "note": ""
+      }
+    ],
     "tech": [],
     "formats": [
-      "Équipements et solutions de laboratoire sur demande via Teranova"
+      "Nous accompagnons les clients en Corée pour le choix des équipements, le conseil technique, la fourniture, l’installation, la configuration initiale, la maintenance et l’assistance technique après-vente."
     ],
-    "exportNote": "La liste des marques, les équipements, les certifications, les prix et la commande minimale ne sont pas publiés ici et sont vérifiés auprès de l'entreprise à la demande de l'acheteur.",
+    "exportNote": "Les fournitures et services décrits ici sont destinés aux clients en Corée. Toute coopération hors de Corée fait l’objet d’un échange distinct par l’intermédiaire de Teranova.",
     "terms": [
       {
         "label": "Coopération",
@@ -29,7 +49,7 @@
         "value": "Sur demande ; non publiés."
       }
     ],
-    "consentNote": "Le 6 octobre 2026, dans sa correspondance avec Teranova, l'entreprise s'est présentée comme distributeur d'équipements et de solutions de laboratoire de marques coréennes et internationales. Teranova n'a pas encore reçu de documents de l'entreprise ; cette page ne reprend donc que cette présentation. La liste des marques et des solutions sera ajoutée lorsque l'entreprise aura fourni et approuvé des documents.",
+    "consentNote": "Le 24 novembre 2026, Moz Science a autorisé par courriel l’utilisation, la traduction et la publication des informations sur la société et ses services dans son profil Teranova. Cette description repose sur la présentation fournie par la société ; le statut de distributeur Labconco est attribué à Moz Science.",
     "seoTitle": "Moz Science — équipements de laboratoire, Corée · Teranova",
     "seoDesc": "Profil de Moz Science, distributeur coréen d'équipements et de solutions de laboratoire de marques coréennes et internationales. Conditions sur demande via Teranova."
   },
@@ -37,11 +57,11 @@
     "profile_sup": "Profil du fournisseur",
     "about_h": "L'entreprise",
     "for_whom": "À qui cela convient :",
-    "lines_h": "Lignes de produits",
+    "lines_h": "Catégories d’équipements",
     "catalog_h": "Catalogue produits",
     "tech_h": "Technologie",
-    "formats_h": "Formats de produits",
-    "export_h": "Export et marchés",
+    "formats_h": "Services en Corée",
+    "export_h": "Zone de service",
     "terms_h": "Conditions de coopération",
     "download_btn": "Télécharger les conditions (PDF)",
     "pres_btn": "Télécharger la présentation (PDF)",

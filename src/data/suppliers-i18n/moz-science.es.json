@@ -4,21 +4,41 @@
     "descriptor": "Moz Science es un distribuidor coreano de equipos y soluciones de laboratorio de marcas coreanas e internacionales",
     "origin": "Corea",
     "about": [
-      "Moz Science (Moz Science Co., Ltd.) es un distribuidor coreano de equipos y soluciones de laboratorio de marcas coreanas e internacionales. La empresa no fabrica equipos por sí misma.",
-      "Así se describió la empresa ante Teranova el 6 de octubre de 2026. Todavía no hay información confirmada sobre la lista de marcas, los equipos y las condiciones comerciales, por lo que no aparecen en esta página."
+      "Distribuimos equipos de laboratorio y soluciones para entornos de investigación en Corea. Trabajamos con empresas de biotecnología, ciencias de la vida, farmacia y medicina, así como con instituciones de investigación.",
+      "Según la información de Moz Science, somos un distribuidor autorizado de Labconco en Corea. La empresa declara esta función en los materiales facilitados a Teranova."
     ],
     "facts": [
       "Corea",
-      "Distribuidor, no fabricante",
-      "Marcas y soluciones a consultar"
+      "Distribuidor, no fabricante"
     ],
     "channels": [],
-    "lines": [],
+    "lines": [
+      {
+        "name": "Cabinas de seguridad biológica",
+        "note": ""
+      },
+      {
+        "name": "Liofilizadores",
+        "note": ""
+      },
+      {
+        "name": "Lavadoras de material de vidrio de laboratorio",
+        "note": ""
+      },
+      {
+        "name": "Concentradores centrífugos",
+        "note": ""
+      },
+      {
+        "name": "Equipos de ventilación de laboratorio",
+        "note": ""
+      }
+    ],
     "tech": [],
     "formats": [
-      "Equipos y soluciones de laboratorio a consultar a través de Teranova"
+      "Apoyamos a los clientes en Corea en la selección de equipos, el asesoramiento técnico, el suministro, la instalación, la configuración inicial, el mantenimiento y el soporte técnico posventa."
     ],
-    "exportNote": "La lista de marcas, los equipos, las certificaciones, los precios y el pedido mínimo no se publican aquí y se confirman con la empresa a petición del comprador.",
+    "exportNote": "El suministro y los servicios descritos se dirigen a clientes en Corea. La cooperación fuera de Corea se trata por separado a través de Teranova.",
     "terms": [
       {
         "label": "Cooperación",
@@ -29,7 +49,7 @@
         "value": "A consultar; no se publican."
       }
     ],
-    "consentNote": "El 6 de octubre de 2026, en su correspondencia con Teranova, la empresa se describió como distribuidor de equipos y soluciones de laboratorio de marcas coreanas e internacionales. Teranova aún no ha recibido materiales de la empresa, por lo que esta página solo recoge esa descripción. La lista de marcas y soluciones se añadirá cuando la empresa facilite y apruebe materiales.",
+    "consentNote": "El 24 de noviembre de 2026, Moz Science autorizó por correo el uso, la traducción y la publicación de información sobre la empresa y sus servicios en su perfil de Teranova. La descripción se basa en la presentación facilitada por la empresa; la condición de distribuidor de Labconco se atribuye a Moz Science.",
     "seoTitle": "Moz Science — equipos de laboratorio, Corea · Teranova",
     "seoDesc": "Perfil de Moz Science, distribuidor coreano de equipos y soluciones de laboratorio de marcas coreanas e internacionales. Condiciones a consultar a través de Teranova."
   },
@@ -37,11 +57,11 @@
     "profile_sup": "Perfil de proveedor",
     "about_h": "Sobre la empresa",
     "for_whom": "A quién le encaja:",
-    "lines_h": "Líneas de producto",
+    "lines_h": "Categorías de equipos",
     "catalog_h": "Catálogo de productos",
     "tech_h": "Tecnología",
-    "formats_h": "Formatos de producto",
-    "export_h": "Exportación y mercados",
+    "formats_h": "Servicios en Corea",
+    "export_h": "Ámbito geográfico",
     "terms_h": "Condiciones de cooperación",
     "download_btn": "Descargar condiciones (PDF)",
     "pres_btn": "Descargar presentación (PDF)",
