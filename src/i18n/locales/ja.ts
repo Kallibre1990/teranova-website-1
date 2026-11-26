@@ -183,6 +183,7 @@ const ja: DeepPartial<UIDict> = {
       related_h: "関連記事",
       supplier_articles_h: "役立つ記事",
       uses_h: "どこで使われているか",
+      sources_h: "出典",
     },
     cosmetics: {
       intro_sup: "化粧品 · K-BEAUTY",
