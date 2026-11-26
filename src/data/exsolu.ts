@@ -1,12 +1,14 @@
 // Internal draft: routes must wait for all 11 reviewed translations.
 import source from '../../docs/exsolu/products.json';
 import images from '../../docs/exsolu/image-manifest.json';
+import { koreanCopy, koreanBoosters, koreanSkincare } from './exsolu-ko';
 
-export const exsoluDraftLocales = ['en', 'ru'] as const;
+export const exsoluDraftLocales = ['en', 'ru', 'ko'] as const;
 export type ExsoluLocale = typeof exsoluDraftLocales[number];
 export type ExsoluView = 'company' | 'skin-boosters' | 'skincare';
 
 const copy = {
+  ko: koreanCopy,
   en: {
     company: 'NOVAMEDINTL / EXSOLU', professionalTitle: 'Professional cosmetic care', skincare: 'Everyday skincare',
     about: 'We develop and manufacture professional cosmetic products and everyday skincare under our EXSOLU brand. Our work includes formulation research, customized OEM/ODM development and production quality control.',
@@ -65,6 +67,7 @@ function imageFor(id: string) {
 
 function localPack(pack: string, lang: ExsoluLocale) {
   if (lang === 'en') return pack.replace(/ea/g, 'units');
+  if (lang === 'ko') return pack.replace(/vials/g, '바이알').replace(/vial/g, '바이알').replace(/box/g, '상자').replace(/ea/g, '개');
   return pack.replace(/mL/g, 'мл').replace(/mg/g, 'мг').replace(/vials/g, 'флаконов').replace(/vial/g, 'флакон').replace(/box/g, 'коробка').replace(/ea/g, 'шт.');
 }
 
@@ -78,14 +81,15 @@ export function exsoluContent(lang: ExsoluLocale) {
     const p = product as unknown as Record<string, string>;
     return {
       id, name: product.name, image: imageFor(id), pack: localPack(product.pack, lang),
-      description: pair[index], ingredients: p[`ingredients_${lang}`] ?? p[`design_${lang}`] ?? '',
+      description: lang === 'ko' ? koreanBoosters[product.name].description : pair[index],
+      ingredients: lang === 'ko' ? koreanBoosters[product.name].ingredients : p[`ingredients_${lang}`] ?? p[`design_${lang}`] ?? '',
       caution: id === 'nad-air-shot' ? copy[lang].nad : '',
     };
   }));
   const skincare = source.lines.skincare.products.map((product) => ({
-    id: product.code.toLowerCase(), name: product[`name_${lang}`], image: imageFor(product.code.toLowerCase()),
-    pack: localPack(product.pack, lang), description: product[`directions_${lang}`],
-    ingredients: product[`key_ingredients_${lang}`], caution: '',
+    id: product.code.toLowerCase(), name: lang === 'ko' ? koreanSkincare[product.code].name : product[`name_${lang}`], image: imageFor(product.code.toLowerCase()),
+    pack: localPack(product.pack, lang), description: lang === 'ko' ? koreanSkincare[product.code].description : product[`directions_${lang}`],
+    ingredients: lang === 'ko' ? koreanSkincare[product.code].ingredients : product[`key_ingredients_${lang}`], caution: '',
   }));
   return { ...copy[lang], boosters, skincareProducts: skincare };
 }
