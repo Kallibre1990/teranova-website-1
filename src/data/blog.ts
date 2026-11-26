@@ -76,6 +76,11 @@ export interface BlogPost {
       порядок и файлы — здесь, потому что они одни для всех языков.
       insertAfter — после какой секции показать блок. */
   photos?: { insertAfter: number; items: { src: string; w: number; h: number }[] };
+  /** Независимые внешние источники, на которые опирается статья (не продукция
+      поставщика и не внутренние страницы сайта) — заголовок и прямая ссылка.
+      Названия изданий language-neutral, поэтому поле лежит рядом со slug, а
+      не внутри i18n; рендерится как список настоящих <a href>, а не текстом. */
+  sources?: { title: string; url: string }[];
   i18n: Partial<Record<Lang, BlogPostContent>>;
 }
 

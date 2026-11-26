@@ -184,6 +184,19 @@ const art = (blogArt as Record<string, { artKey: string; insertAfterSectionIndex
         </aside>
       )}
 
+      {post.sources && post.sources.length > 0 && (
+        <aside class="bp__sources">
+          <h3 class="bp__sources-h">{p.sources_h}</h3>
+          <ul class="bp__sources-list">
+            {post.sources.map((s) => (
+              <li>
+                <a href={s.url} target="_blank" rel="noopener noreferrer">{s.title}</a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+
       <div class="bp__cta">
         <a class="btn btn--primary btn--lg" href={anchorHref('ondemand', lang)}>{t.common.cta_request}</a>
       </div>
@@ -249,6 +262,12 @@ const art = (blogArt as Record<string, { artKey: string; insertAfterSectionIndex
   .bp__uses-nm:hover { color: #12306e; }
   .bp__uses-items { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
   .bp__uses-items span { font-size: 0.78rem; font-weight: 600; color: #55637a; background: #f3f7fb; border: 1px solid #e4ebf3; border-radius: 100px; padding: 4px 11px; }
+
+  .bp__sources { border-top: 1px solid #e4ebf3; padding-top: 24px; margin-bottom: 30px; }
+  .bp__sources-h { font-size: 0.78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #7c8aa0; margin-bottom: 14px; }
+  .bp__sources-list { display: grid; gap: 10px; list-style: none; padding: 0; }
+  .bp__sources-list a { font-size: 0.92rem; font-weight: 600; color: var(--cobalt); word-break: break-word; }
+  .bp__sources-list a:hover { color: #12306e; }
 
   .bp__related { border-top: 1px solid #e4ebf3; padding-top: 24px; }
   .bp__related-h { font-size: 0.78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #7c8aa0; margin-bottom: 14px; }
