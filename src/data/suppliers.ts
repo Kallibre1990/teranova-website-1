@@ -103,6 +103,7 @@ import skinroomEs from './suppliers-i18n/skinroom.es.json';
 import skinroomPt from './suppliers-i18n/skinroom.pt.json';
 import skinroomHe from './suppliers-i18n/skinroom.he.json';
 import skinroomHi from './suppliers-i18n/skinroom.hi.json';
+import skinroomAr from './suppliers-i18n/skinroom.ar.json';
 import skinroomCatalog from './suppliers-i18n/skinroom.catalog.json';
 import joycosRu from './suppliers-i18n/joycos.ru.json';
 import joycosEn from './suppliers-i18n/joycos.en.json';
@@ -177,6 +178,7 @@ import slEs from './suppliers-i18n/slow-lounge.es.json';
 import slPt from './suppliers-i18n/slow-lounge.pt.json';
 import slHe from './suppliers-i18n/slow-lounge.he.json';
 import slHi from './suppliers-i18n/slow-lounge.hi.json';
+import slAr from './suppliers-i18n/slow-lounge.ar.json';
 import slCatalog from './suppliers-i18n/slow-lounge.catalog.json';
 import abRu from './suppliers-i18n/aberede.ru.json';
 import abEn from './suppliers-i18n/aberede.en.json';
@@ -2365,7 +2367,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(skinroomFr as any),
       tr: mk(skinroomTr as any),
       es: mk(skinroomEs as any),
-      pt: mk(skinroomPt as any), he: mk(skinroomHe as any), hi: mk(skinroomHi as any),
+      pt: mk(skinroomPt as any), he: mk(skinroomHe as any), hi: mk(skinroomHi as any), ar: mk(skinroomAr as any),
     },
   },
 {
@@ -2604,7 +2606,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(slFr as any),
       tr: mk(slTr as any),
       es: mk(slEs as any),
-      pt: mk(slPt as any), he: mk(slHe as any), hi: mk(slHi as any),
+      pt: mk(slPt as any), he: mk(slHe as any), hi: mk(slHi as any), ar: mk(slAr as any),
     },
   },
   {
