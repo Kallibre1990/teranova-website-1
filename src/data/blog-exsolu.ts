@@ -34,9 +34,9 @@ export const exsoluPosts: BlogPost[] = [
     i18n: {
       ru: {
         title: 'NOVAMEDINTL и бренд EXSOLU: от профессиональной эстетики до домашнего ухода',
-        excerpt: 'NOVAMEDINTL разрабатывает и производит профессиональные косметические бустеры для кожи и повседневный уход под собственным брендом EXSOLU — 22 позиции в двух линейках и собственные OEM/ODM решения. Разбираем портфель компании и то, почему профессиональная линейка остаётся косметикой, а не медицинским изделием.',
+        excerpt: 'NOVAMEDINTL разрабатывает и производит профессиональные косметические бустеры для кожи и повседневный уход под собственным брендом EXSOLU — 22 позиции в двух линейках и собственные OEM/ODM решения. Разбираем портфель компании и то, почему мы описываем профессиональную линейку как косметику, а не медицинское изделие.',
         seoTitle: 'NOVAMEDINTL и EXSOLU: профиль корейского производителя косметики · Teranova',
-        seoDesc: 'NOVAMEDINTL и бренд EXSOLU: R&D, OEM/ODM и 22 продукта в двух линейках. Почему профессиональные косметические бустеры EXSOLU — не медицинское изделие. Как отправить запрос через Teranova.',
+        seoDesc: 'NOVAMEDINTL и бренд EXSOLU: R&D, OEM/ODM и 22 продукта в двух линейках. Почему мы описываем профессиональные бустеры EXSOLU как косметику, а не медицинское изделие. Как отправить запрос через Teranova.',
         sections: [
           {
             h: 'Компания и бренд EXSOLU',
@@ -71,9 +71,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       en: {
         title: 'NOVAMEDINTL and the EXSOLU brand: from professional aesthetics to home care',
-        excerpt: 'NOVAMEDINTL develops and manufactures professional cosmetic skin boosters and everyday skincare under its own EXSOLU brand — 22 products across two ranges, plus its own OEM/ODM capability. We walk through the company’s portfolio and why the professional range stays cosmetic, not a medical device.',
+        excerpt: 'NOVAMEDINTL develops and manufactures professional cosmetic skin boosters and everyday skincare under its own EXSOLU brand — 22 products across two ranges, plus its own OEM/ODM capability. We walk through the company’s portfolio and why we describe the professional range as cosmetic, not a medical device.',
         seoTitle: 'NOVAMEDINTL and EXSOLU: profile of a Korean cosmetics manufacturer · Teranova',
-        seoDesc: 'NOVAMEDINTL and the EXSOLU brand: R&D, OEM/ODM and 22 products across two ranges. Why EXSOLU’s professional cosmetic skin boosters are not a medical device. How to send a request through Teranova.',
+        seoDesc: 'NOVAMEDINTL and the EXSOLU brand: R&D, OEM/ODM and 22 products across two ranges. Why we describe EXSOLU’s professional skin boosters as cosmetic, not a medical device. How to send a request through Teranova.',
         sections: [
           {
             h: 'The company and the EXSOLU brand',
@@ -108,9 +108,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       ko: {
         title: 'NOVAMEDINTL과 EXSOLU 브랜드: 전문 에스테틱에서 홈케어까지',
-        excerpt: 'NOVAMEDINTL은 자체 브랜드 EXSOLU로 전문가용 화장품 스킨 부스터와 데일리 스킨케어를 개발하고 제조합니다 — 두 제품군에 걸친 22개 제품과 자체 OEM/ODM 역량을 갖추고 있습니다. 회사의 포트폴리오와 전문가용 제품군이 왜 의료기기가 아닌 화장품으로 유지되는지 살펴봅니다.',
+        excerpt: 'NOVAMEDINTL은 자체 브랜드 EXSOLU로 전문가용 화장품 스킨 부스터와 데일리 스킨케어를 개발하고 제조합니다 — 두 제품군에 걸친 22개 제품과 자체 OEM/ODM 역량을 갖추고 있습니다. 회사의 포트폴리오와 저희가 전문가용 제품군을 왜 의료기기가 아닌 화장품으로 설명하는지 살펴봅니다.',
         seoTitle: 'NOVAMEDINTL과 EXSOLU: 한국 화장품 제조사 프로필 · Teranova',
-        seoDesc: 'NOVAMEDINTL과 EXSOLU 브랜드: R&D, OEM/ODM, 두 제품군 22개 제품. EXSOLU 전문가용 화장품 스킨 부스터가 의료기기가 아닌 이유. Teranova를 통한 문의 방법.',
+        seoDesc: 'NOVAMEDINTL과 EXSOLU 브랜드: R&D, OEM/ODM, 두 제품군 22개 제품. EXSOLU 전문가용 스킨 부스터를 의료기기가 아닌 화장품으로 설명하는 이유. Teranova를 통한 문의 방법.',
         sections: [
           {
             h: '회사와 EXSOLU 브랜드',
@@ -145,9 +145,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       ja: {
         title: 'NOVAMEDINTLとEXSOLUブランド：プロフェッショナル美容からホームケアまで',
-        excerpt: 'NOVAMEDINTLは自社ブランドEXSOLUのもと、プロフェッショナル向け化粧品スキンブースターと日常スキンケアを開発・製造しています — 2つのラインにわたる22製品と、自社のOEM/ODM体制を備えています。同社のポートフォリオと、プロフェッショナルラインが医療機器ではなく化粧品であり続ける理由を見ていきます。',
+        excerpt: 'NOVAMEDINTLは自社ブランドEXSOLUのもと、プロフェッショナル向け化粧品スキンブースターと日常スキンケアを開発・製造しています — 2つのラインにわたる22製品と、自社のOEM/ODM体制を備えています。同社のポートフォリオと、プロフェッショナルラインを医療機器ではなく化粧品として説明する理由を見ていきます。',
         seoTitle: 'NOVAMEDINTLとEXSOLU：韓国化粧品メーカーのプロフィール · Teranova',
-        seoDesc: 'NOVAMEDINTLとEXSOLUブランド：R&D、OEM/ODM、2ラインにわたる22製品。EXSOLUのプロフェッショナル向け化粧品スキンブースターが医療機器でない理由。Teranova経由での問い合わせ方法。',
+        seoDesc: 'NOVAMEDINTLとEXSOLUブランド：R&D、OEM/ODM、2ラインにわたる22製品。EXSOLUのプロフェッショナル向けスキンブースターを医療機器ではなく化粧品として説明する理由。Teranova経由での問い合わせ方法。',
         sections: [
           {
             h: '企業とEXSOLUブランド',
@@ -182,9 +182,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       zh: {
         title: 'NOVAMEDINTL与EXSOLU品牌：从专业美容到居家护理',
-        excerpt: 'NOVAMEDINTL以自有品牌EXSOLU开发和生产专业化妆品皮肤助推器及日常护肤产品——两条产品线共22款产品，并具备自有OEM/ODM能力。本文梳理公司的产品组合，并解释为何其专业产品线始终定位为化妆品，而非医疗器械。',
+        excerpt: 'NOVAMEDINTL以自有品牌EXSOLU开发和生产专业化妆品皮肤助推器及日常护肤产品——两条产品线共22款产品，并具备自有OEM/ODM能力。本文梳理公司的产品组合，并解释我们为何将其专业产品线描述为化妆品，而非医疗器械。',
         seoTitle: 'NOVAMEDINTL与EXSOLU：韩国化妆品制造商简介 · Teranova',
-        seoDesc: 'NOVAMEDINTL与EXSOLU品牌：研发、OEM/ODM及两条产品线共22款产品。为什么EXSOLU的专业化妆品皮肤助推器不是医疗器械。如何通过Teranova发送询价。',
+        seoDesc: 'NOVAMEDINTL与EXSOLU品牌：研发、OEM/ODM及两条产品线共22款产品。为什么我们将EXSOLU的专业皮肤助推器描述为化妆品，而非医疗器械。如何通过Teranova发送询价。',
         sections: [
           {
             h: '公司与EXSOLU品牌',
@@ -219,9 +219,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       de: {
         title: 'NOVAMEDINTL und die Marke EXSOLU: von der professionellen Ästhetik bis zur Heimpflege',
-        excerpt: 'NOVAMEDINTL entwickelt und produziert professionelle kosmetische Skin-Booster und tägliche Pflegeprodukte unter der eigenen Marke EXSOLU — 22 Produkte in zwei Linien sowie eigene OEM/ODM-Kompetenz. Wir beleuchten das Portfolio des Unternehmens und erklären, warum die professionelle Linie kosmetisch bleibt und kein Medizinprodukt ist.',
+        excerpt: 'NOVAMEDINTL entwickelt und produziert professionelle kosmetische Skin-Booster und tägliche Pflegeprodukte unter der eigenen Marke EXSOLU — 22 Produkte in zwei Linien sowie eigene OEM/ODM-Kompetenz. Wir beleuchten das Portfolio des Unternehmens und erklären, warum wir die professionelle Linie als Kosmetikprodukt und nicht als Medizinprodukt beschreiben.',
         seoTitle: 'NOVAMEDINTL und EXSOLU: Profil eines koreanischen Kosmetikherstellers · Teranova',
-        seoDesc: 'NOVAMEDINTL und die Marke EXSOLU: F&E, OEM/ODM und 22 Produkte in zwei Linien. Warum die professionellen kosmetischen Skin-Booster von EXSOLU kein Medizinprodukt sind. So senden Sie eine Anfrage über Teranova.',
+        seoDesc: 'NOVAMEDINTL und die Marke EXSOLU: F&E, OEM/ODM und 22 Produkte in zwei Linien. Warum wir die professionellen Skin-Booster von EXSOLU als Kosmetikprodukt und nicht als Medizinprodukt beschreiben. So senden Sie eine Anfrage über Teranova.',
         sections: [
           {
             h: 'Das Unternehmen und die Marke EXSOLU',
@@ -256,9 +256,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       fr: {
         title: 'NOVAMEDINTL et la marque EXSOLU : de l’esthétique professionnelle aux soins à domicile',
-        excerpt: 'NOVAMEDINTL conçoit et fabrique des boosters cosmétiques professionnels pour la peau et des soins quotidiens sous sa propre marque EXSOLU — 22 produits répartis en deux gammes, avec sa propre capacité OEM/ODM. Nous présentons le portefeuille de l’entreprise et expliquons pourquoi la gamme professionnelle reste cosmétique et non un dispositif médical.',
+        excerpt: 'NOVAMEDINTL conçoit et fabrique des boosters cosmétiques professionnels pour la peau et des soins quotidiens sous sa propre marque EXSOLU — 22 produits répartis en deux gammes, avec sa propre capacité OEM/ODM. Nous présentons le portefeuille de l’entreprise et expliquons pourquoi nous décrivons la gamme professionnelle comme cosmétique, et non comme un dispositif médical.',
         seoTitle: 'NOVAMEDINTL et EXSOLU : profil d’un fabricant coréen de cosmétiques · Teranova',
-        seoDesc: 'NOVAMEDINTL et la marque EXSOLU : R&D, OEM/ODM et 22 produits en deux gammes. Pourquoi les boosters cosmétiques professionnels EXSOLU ne sont pas un dispositif médical. Comment envoyer une demande via Teranova.',
+        seoDesc: 'NOVAMEDINTL et la marque EXSOLU : R&D, OEM/ODM et 22 produits en deux gammes. Pourquoi nous décrivons les boosters professionnels EXSOLU comme cosmétiques, et non comme un dispositif médical. Comment envoyer une demande via Teranova.',
         sections: [
           {
             h: 'L’entreprise et la marque EXSOLU',
@@ -293,9 +293,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       it: {
         title: 'NOVAMEDINTL e il marchio EXSOLU: dall’estetica professionale alla cura domiciliare',
-        excerpt: 'NOVAMEDINTL sviluppa e produce booster cosmetici professionali per la pelle e prodotti per la cura quotidiana con il proprio marchio EXSOLU — 22 prodotti in due linee, oltre a una propria capacità OEM/ODM. Presentiamo il portafoglio dell’azienda e spieghiamo perché la linea professionale resta un prodotto cosmetico e non un dispositivo medico.',
+        excerpt: 'NOVAMEDINTL sviluppa e produce booster cosmetici professionali per la pelle e prodotti per la cura quotidiana con il proprio marchio EXSOLU — 22 prodotti in due linee, oltre a una propria capacità OEM/ODM. Presentiamo il portafoglio dell’azienda e spieghiamo perché descriviamo la linea professionale come prodotto cosmetico e non come dispositivo medico.',
         seoTitle: 'NOVAMEDINTL ed EXSOLU: profilo di un produttore coreano di cosmetici · Teranova',
-        seoDesc: 'NOVAMEDINTL e il marchio EXSOLU: R&S, OEM/ODM e 22 prodotti in due linee. Perché i booster cosmetici professionali EXSOLU non sono un dispositivo medico. Come inviare una richiesta tramite Teranova.',
+        seoDesc: 'NOVAMEDINTL e il marchio EXSOLU: R&S, OEM/ODM e 22 prodotti in due linee. Perché descriviamo i booster professionali EXSOLU come prodotti cosmetici e non come dispositivo medico. Come inviare una richiesta tramite Teranova.',
         sections: [
           {
             h: 'L’azienda e il marchio EXSOLU',
@@ -330,9 +330,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       es: {
         title: 'NOVAMEDINTL y la marca EXSOLU: de la estética profesional al cuidado en casa',
-        excerpt: 'NOVAMEDINTL desarrolla y fabrica boosters cosméticos profesionales para la piel y productos de cuidado diario bajo su propia marca EXSOLU — 22 productos en dos líneas, además de su propia capacidad OEM/ODM. Repasamos el portafolio de la empresa y explicamos por qué la línea profesional sigue siendo cosmética y no un dispositivo médico.',
+        excerpt: 'NOVAMEDINTL desarrolla y fabrica boosters cosméticos profesionales para la piel y productos de cuidado diario bajo su propia marca EXSOLU — 22 productos en dos líneas, además de su propia capacidad OEM/ODM. Repasamos el portafolio de la empresa y explicamos por qué describimos la línea profesional como cosmética, y no como un dispositivo médico.',
         seoTitle: 'NOVAMEDINTL y EXSOLU: perfil de un fabricante coreano de cosméticos · Teranova',
-        seoDesc: 'NOVAMEDINTL y la marca EXSOLU: I+D, OEM/ODM y 22 productos en dos líneas. Por qué los boosters cosméticos profesionales de EXSOLU no son un dispositivo médico. Cómo enviar una solicitud a través de Teranova.',
+        seoDesc: 'NOVAMEDINTL y la marca EXSOLU: I+D, OEM/ODM y 22 productos en dos líneas. Por qué describimos los boosters profesionales de EXSOLU como cosméticos, y no como un dispositivo médico. Cómo enviar una solicitud a través de Teranova.',
         sections: [
           {
             h: 'La empresa y la marca EXSOLU',
@@ -367,9 +367,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       tr: {
         title: 'NOVAMEDINTL ve EXSOLU markası: profesyonel estetikten ev bakımına',
-        excerpt: 'NOVAMEDINTL, kendi EXSOLU markası altında profesyonel kozmetik cilt boosterları ve günlük cilt bakım ürünleri geliştiriyor ve üretiyor — iki seri genelinde 22 ürün, ayrıca kendi OEM/ODM kapasitesi. Şirketin ürün portföyünü ve profesyonel serinin neden tıbbi cihaz değil, kozmetik ürün olarak kaldığını ele alıyoruz.',
+        excerpt: 'NOVAMEDINTL, kendi EXSOLU markası altında profesyonel kozmetik cilt boosterları ve günlük cilt bakım ürünleri geliştiriyor ve üretiyor — iki seri genelinde 22 ürün, ayrıca kendi OEM/ODM kapasitesi. Şirketin ürün portföyünü ve profesyonel seriyi neden tıbbi cihaz değil, kozmetik ürün olarak tanımladığımızı ele alıyoruz.',
         seoTitle: 'NOVAMEDINTL ve EXSOLU: Koreli bir kozmetik üreticisinin profili · Teranova',
-        seoDesc: 'NOVAMEDINTL ve EXSOLU markası: Ar-Ge, OEM/ODM ve iki seride 22 ürün. EXSOLU’nun profesyonel kozmetik cilt boosterları neden tıbbi cihaz değildir. Teranova üzerinden nasıl talep gönderilir.',
+        seoDesc: 'NOVAMEDINTL ve EXSOLU markası: Ar-Ge, OEM/ODM ve iki seride 22 ürün. EXSOLU’nun profesyonel cilt boosterlarını neden tıbbi cihaz değil, kozmetik ürün olarak tanımladığımız. Teranova üzerinden nasıl talep gönderilir.',
         sections: [
           {
             h: 'Şirket ve EXSOLU markası',
@@ -404,9 +404,9 @@ export const exsoluPosts: BlogPost[] = [
       },
       pt: {
         title: 'A NOVAMEDINTL e a marca EXSOLU: da estética profissional aos cuidados em casa',
-        excerpt: 'A NOVAMEDINTL desenvolve e fabrica boosters cosméticos profissionais para a pele e produtos de cuidado diário sob a sua própria marca EXSOLU — 22 produtos em duas linhas, além da sua própria capacidade OEM/ODM. Apresentamos o portefólio da empresa e explicamos por que razão a linha profissional continua a ser cosmética, e não um dispositivo médico.',
+        excerpt: 'A NOVAMEDINTL desenvolve e fabrica boosters cosméticos profissionais para a pele e produtos de cuidado diário sob a sua própria marca EXSOLU — 22 produtos em duas linhas, além da sua própria capacidade OEM/ODM. Apresentamos o portefólio da empresa e explicamos por que descrevemos a linha profissional como cosmética, e não como um dispositivo médico.',
         seoTitle: 'NOVAMEDINTL e EXSOLU: perfil de um fabricante coreano de cosméticos · Teranova',
-        seoDesc: 'NOVAMEDINTL e a marca EXSOLU: I&D, OEM/ODM e 22 produtos em duas linhas. Por que os boosters cosméticos profissionais EXSOLU não são um dispositivo médico. Como enviar um pedido através da Teranova.',
+        seoDesc: 'NOVAMEDINTL e a marca EXSOLU: I&D, OEM/ODM e 22 produtos em duas linhas. Por que descrevemos os boosters profissionais EXSOLU como cosméticos, e não como um dispositivo médico. Como enviar um pedido através da Teranova.',
         sections: [
           {
             h: 'A empresa e a marca EXSOLU',
