@@ -14,6 +14,7 @@ import oanicPt from './suppliers-i18n/oanic.pt.json';
 import oanicHe from './suppliers-i18n/oanic.he.json';
 import oanicHi from './suppliers-i18n/oanic.hi.json';
 import oanicTr from './suppliers-i18n/oanic.tr.json';
+import oanicAr from './suppliers-i18n/oanic.ar.json';
 import oanicCatalog from './suppliers-i18n/oanic.catalog.json';
 import oanicLines from './suppliers-i18n/oanic.lines.json';
 /* Real suppliers published WITH written consent — the opposite of demoSuppliers.
@@ -673,6 +674,7 @@ import multifitEs from './suppliers-i18n/multifit.es.json';
 import multifitPt from './suppliers-i18n/multifit.pt.json';
 import multifitHe from './suppliers-i18n/multifit.he.json';
 import multifitHi from './suppliers-i18n/multifit.hi.json';
+import multifitAr from './suppliers-i18n/multifit.ar.json';
 import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
 import cubecapRu from './suppliers-i18n/cubecap.ru.json';
 import cubecapEn from './suppliers-i18n/cubecap.en.json';
@@ -1597,7 +1599,7 @@ export const suppliers: SupplierProfile[] = [
     voice: 'clinical', catalog: oanicCatalog,
     termsFile: { ru: '/docs/oanic-terms-ru.pdf', en: '/docs/oanic-terms-en.pdf', ko: '/docs/oanic-terms-ko.pdf', zh: '/docs/oanic-terms-zh.pdf', ja: '/docs/oanic-terms-ja.pdf', it: '/docs/oanic-terms-it.pdf', de: '/docs/oanic-terms-de.pdf', fr: '/docs/oanic-terms-fr.pdf', es: '/docs/oanic-terms-es.pdf', pt: '/docs/oanic-terms-pt.pdf', tr: '/docs/oanic-terms-tr.pdf' },
     presFile: { ru: '/docs/oanic-presentation-ru.pdf', en: '/docs/oanic-presentation-en.pdf', ko: '/docs/oanic-presentation-ko.pdf', zh: '/docs/oanic-presentation-zh.pdf', ja: '/docs/oanic-presentation-ja.pdf', it: '/docs/oanic-presentation-it.pdf', de: '/docs/oanic-presentation-de.pdf', fr: '/docs/oanic-presentation-fr.pdf', es: '/docs/oanic-presentation-es.pdf', pt: '/docs/oanic-presentation-pt.pdf', tr: '/docs/oanic-presentation-tr.pdf' },
-    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), he: mk(oanicHe), hi: mk(oanicHi), tr: mk(oanicTr) },
+    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), he: mk(oanicHe), hi: mk(oanicHi), tr: mk(oanicTr), ar: mk(oanicAr) },
   },
   {
     slug: 'artface',
@@ -2210,7 +2212,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(multifitFr as any),
       tr: mk(multifitTr as any),
       es: mk(multifitEs as any),
-      pt: mk(multifitPt as any), he: mk(multifitHe as any), hi: mk(multifitHi as any),
+      pt: mk(multifitPt as any), he: mk(multifitHe as any), hi: mk(multifitHi as any), ar: mk(multifitAr as any),
     },
   },
 {
