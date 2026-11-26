@@ -74,6 +74,7 @@ import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
 import sunpureHe from './suppliers-i18n/sunpure.he.json';
 import sunpureHi from './suppliers-i18n/sunpure.hi.json';
+import sunpureAr from './suppliers-i18n/sunpure.ar.json';
 import sunpureCatalog from './suppliers-i18n/sunpure.catalog.json';
 import maoomRu from './suppliers-i18n/maoom.ru.json';
 import maoomEn from './suppliers-i18n/maoom.en.json';
@@ -253,6 +254,7 @@ import sprxEs from './suppliers-i18n/sprx.es.json';
 import sprxPt from './suppliers-i18n/sprx.pt.json';
 import sprxHe from './suppliers-i18n/sprx.he.json';
 import sprxHi from './suppliers-i18n/sprx.hi.json';
+import sprxAr from './suppliers-i18n/sprx.ar.json';
 import sprxCatalog from './suppliers-i18n/sprx.catalog.json';
 import btfRu from './suppliers-i18n/btf.ru.json';
 import btfEn from './suppliers-i18n/btf.en.json';
@@ -2468,7 +2470,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(sunpureFr as any),
       tr: mk(sunpureTr as any),
       es: mk(sunpureEs as any),
-      pt: mk(sunpurePt as any), he: mk(sunpureHe as any), hi: mk(sunpureHi as any),
+      pt: mk(sunpurePt as any), he: mk(sunpureHe as any), hi: mk(sunpureHi as any), ar: mk(sunpureAr as any),
     },
   },
   {
@@ -2838,7 +2840,7 @@ export const suppliers: SupplierProfile[] = [
        повторно 2026-09-14 (плохо читалась на фото упаковки) — ответа пока
        нет, на странице оставлена честная формулировка «неподтверждено». */
     i18n: {
-      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any), he: mk(sprxHe as any), hi: mk(sprxHi as any),
+      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any), he: mk(sprxHe as any), hi: mk(sprxHi as any), ar: mk(sprxAr as any),
     },
   },
   {
