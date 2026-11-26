@@ -522,6 +522,7 @@ import twoTigersEs from './suppliers-i18n/two-tigers.es.json';
 import twoTigersPt from './suppliers-i18n/two-tigers.pt.json';
 import twoTigersHe from './suppliers-i18n/two-tigers.he.json';
 import twoTigersHi from './suppliers-i18n/two-tigers.hi.json';
+import twoTigersAr from './suppliers-i18n/two-tigers.ar.json';
 import twoTigersCatalog from './suppliers-i18n/two-tigers.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
@@ -3782,7 +3783,7 @@ export const suppliers: SupplierProfile[] = [
     ],
     catalog: twoTigersCatalog as SupplierProfile['catalog'],
     i18n: {
-      ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any),
+      ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any), ar: mk(twoTigersAr as any),
     },
   },
 ];
