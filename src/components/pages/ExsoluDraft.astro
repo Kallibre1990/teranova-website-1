@@ -1,0 +1,58 @@
+---
+/* Draft component only: deliberately not registered as public routes yet. */
+import { exsoluContent, type ExsoluLocale, type ExsoluView } from '../../data/exsolu';
+interface Props { lang: ExsoluLocale; view: ExsoluView }
+const { lang, view } = Astro.props;
+const c = exsoluContent(lang);
+const company = view === 'company';
+const products = view === 'skin-boosters' ? c.boosters : c.skincareProducts;
+---
+
+<article class="exsolu">
+  <header>
+    <h1>{company ? c.company : view === 'skin-boosters' ? c.professionalTitle : c.skincare}</h1>
+    <p class="intro">{company ? c.about : view === 'skin-boosters' ? c.professional : c.daily}</p>
+  </header>
+  {company ? <>
+    <p>{c.story}</p>
+    <section><h2>{c.professionalTitle}</h2><p>{c.professional}</p></section>
+    <section><h2>{c.skincare}</h2><p>{c.daily}</p></section>
+  </> : <>
+    <p class="note">{c.attribution}</p>
+    <p class="note">{c.compositionNote}</p>
+    <div class="products">
+      {products.map((product) => <section class="product" id={product.id}>
+        <figure><img src={product.image} alt={product.name} loading="lazy" decoding="async" /></figure>
+        <div>
+          <h2>{product.name}</h2>
+          <p>{product.description}</p>
+          <dl>
+            {product.ingredients && <><dt>{c.ingredients}</dt><dd>{product.ingredients}</dd></>}
+            <dt>{c.pack}</dt><dd>{product.pack}</dd>
+          </dl>
+          {product.caution && <p class="caution">{product.caution}</p>}
+        </div>
+      </section>)}
+    </div>
+  </>}
+  <aside><p>{view === 'skincare' ? c.notice : c.caution}</p></aside>
+</article>
+
+<style>
+  .exsolu { max-width: 1120px; margin: auto; padding: 64px 24px; overflow-wrap: anywhere; }
+  header { max-width: 780px; margin-bottom: 48px; }
+  h1 { font-size: clamp(2rem, 5vw, 4rem); line-height: 1.12; letter-spacing: -.025em; }
+  h2 { font-size: clamp(1.35rem, 3vw, 2rem); line-height: 1.25; }
+  p, dd { line-height: 1.7; max-width: 70ch; }
+  .intro { font-size: 1.125rem; }
+  .note { font-size: .95rem; }
+  .product { display: grid; grid-template-columns: minmax(0, 280px) minmax(0, 1fr); gap: 48px; padding-block: 40px; border-top: 1px solid var(--line, #d8d3ca); }
+  .product > div { min-width: 0; }
+  figure { margin: 0; display: flex; align-items: flex-start; justify-content: center; }
+  img { display: block; max-width: 100%; width: auto; height: auto; max-height: 380px; object-fit: contain; }
+  /* Small originals remain at their native size, including 155×140 clips. */
+  dt { font-weight: 650; margin-top: 16px; } dd { margin: 4px 0 0; }
+  aside { border-top: 1px solid var(--line, #d8d3ca); margin-top: 40px; padding-top: 24px; }
+  .caution { font-weight: 650; }
+  @media (max-width: 640px) { .exsolu { padding: 40px 20px; } .product { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
+</style>
