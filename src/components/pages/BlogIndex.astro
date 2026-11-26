@@ -9,6 +9,7 @@ import { ui, type Lang } from '../../i18n/ui';
 import { postsByDate, postContent } from '../../data/blog';
 import { supplierBySlug } from '../../data/suppliers';
 import { coverPlan, type CoverPlan } from '../../data/cutouts';
+import { pageLocaleCodes } from '../../i18n/locale-policy.mjs';
 import BrandCover from '../visual/BrandCover.astro';
 import BlogHeroArt from '../visual/BlogHeroArt.astro';
 interface Props {
@@ -18,6 +19,9 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const p = t.pages.blog;
 const catLabel = (c: string) => (c === 'guide' ? p.cat_guide : p.cat_overview);
+/* Some posts (e.g. EXSOLU, see locale-policy.mjs pageLocaleCodes) are staged
+   without he/hi — skip them for locales where they have no translation. */
+const visiblePosts = postsByDate.filter((post) => (pageLocaleCodes(`/blog/${post.slug}`) as string[]).includes(lang));
 
 /* Same choice of products as the article page, so the card and the page agree. */
 const covers = new Map<string, { sup: ReturnType<typeof supplierBySlug>; plan: CoverPlan }>();
@@ -36,7 +40,7 @@ for (const post of postsByDate) {
   <div class="wrap">
     <div class="blog-grid">
       {
-        postsByDate.map((post) => {
+        visiblePosts.map((post) => {
           const c = postContent(post, lang);
           const cover = covers.get(post.slug);
           const b = cover?.sup?.brandColors;

@@ -5,11 +5,14 @@ import BlogPostView from '../../../components/pages/BlogPost.astro';
 import { posts, postContent, type BlogPost } from '../../../data/blog';
 import { blogPostJsonLd } from '../../../data/jsonld';
 import { defaultLang, languages, type Lang } from '../../../i18n/ui';
+import { pageLocaleCodes } from '../../../i18n/locale-policy.mjs';
 
 export function getStaticPaths() {
   return (Object.keys(languages) as Lang[])
     .filter((l) => l !== defaultLang)
-    .flatMap((lang) => posts.map((post) => ({ params: { lang, post: post.slug }, props: { lang, post } })));
+    .flatMap((lang) => posts
+      .filter((post) => (pageLocaleCodes(`/blog/${post.slug}`) as string[]).includes(lang))
+      .map((post) => ({ params: { lang, post: post.slug }, props: { lang, post } })));
 }
 
 const { lang, post } = Astro.props as { lang: Lang; post: BlogPost };
