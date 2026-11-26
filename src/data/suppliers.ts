@@ -397,6 +397,7 @@ import oavoEs from './suppliers-i18n/oavo.es.json';
 import oavoPt from './suppliers-i18n/oavo.pt.json';
 import oavoHe from './suppliers-i18n/oavo.he.json';
 import oavoHi from './suppliers-i18n/oavo.hi.json';
+import oavoAr from './suppliers-i18n/oavo.ar.json';
 import aromaflavumRu from './suppliers-i18n/aromaflavum.ru.json';
 import aromaflavumEn from './suppliers-i18n/aromaflavum.en.json';
 import aromaflavumKo from './suppliers-i18n/aromaflavum.ko.json';
@@ -558,6 +559,7 @@ import ooznaryEs from './suppliers-i18n/ooznary.es.json';
 import ooznaryPt from './suppliers-i18n/ooznary.pt.json';
 import ooznaryHe from './suppliers-i18n/ooznary.he.json';
 import ooznaryHi from './suppliers-i18n/ooznary.hi.json';
+import ooznaryAr from './suppliers-i18n/ooznary.ar.json';
 import ooznaryCatalog from './suppliers-i18n/ooznary.catalog.json';
 import hiyoRu from './suppliers-i18n/hiyo.ru.json';
 import hiyoEn from './suppliers-i18n/hiyo.en.json';
@@ -3244,7 +3246,7 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/ooznary-presentation-ru.pdf', en: '/docs/ooznary-presentation-en.pdf', ko: '/docs/ooznary-presentation-ko.pdf', zh: '/docs/ooznary-presentation-zh.pdf', ja: '/docs/ooznary-presentation-ja.pdf', it: '/docs/ooznary-presentation-it.pdf', de: '/docs/ooznary-presentation-de.pdf', fr: '/docs/ooznary-presentation-fr.pdf', tr: '/docs/ooznary-presentation-tr.pdf', es: '/docs/ooznary-presentation-es.pdf', pt: '/docs/ooznary-presentation-pt.pdf', he: '/docs/ooznary-presentation-he.pdf', hi: '/docs/ooznary-presentation-hi.pdf' },
     priceFile: { ru: '/docs/ooznary-catalog-ru.pdf', en: '/docs/ooznary-catalog-en.pdf', ko: '/docs/ooznary-catalog-ko.pdf', zh: '/docs/ooznary-catalog-zh.pdf', ja: '/docs/ooznary-catalog-ja.pdf', it: '/docs/ooznary-catalog-it.pdf', de: '/docs/ooznary-catalog-de.pdf', fr: '/docs/ooznary-catalog-fr.pdf', tr: '/docs/ooznary-catalog-tr.pdf', es: '/docs/ooznary-catalog-es.pdf', pt: '/docs/ooznary-catalog-pt.pdf', he: '/docs/ooznary-catalog-he.pdf', hi: '/docs/ooznary-catalog-hi.pdf' },
     i18n: {
-      ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
+      ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any), ar: mk(ooznaryAr as any),
     },
   },
   {
@@ -3439,7 +3441,7 @@ export const suppliers: SupplierProfile[] = [
        применение» экстракта, имя основательницы, цены, объёмы, сертификаты,
        контакты и фото не публикуются; карточка показывает монограмму. */
     i18n: {
-      ru: mk(oavoRu as any), en: mk(oavoEn as any), ko: mk(oavoKo as any), zh: mk(oavoZh as any), ja: mk(oavoJa as any), it: mk(oavoIt as any), de: mk(oavoDe as any), fr: mk(oavoFr as any), tr: mk(oavoTr as any), es: mk(oavoEs as any), pt: mk(oavoPt as any), he: mk(oavoHe as any), hi: mk(oavoHi as any),
+      ru: mk(oavoRu as any), en: mk(oavoEn as any), ko: mk(oavoKo as any), zh: mk(oavoZh as any), ja: mk(oavoJa as any), it: mk(oavoIt as any), de: mk(oavoDe as any), fr: mk(oavoFr as any), tr: mk(oavoTr as any), es: mk(oavoEs as any), pt: mk(oavoPt as any), he: mk(oavoHe as any), hi: mk(oavoHi as any), ar: mk(oavoAr as any),
     },
   },
   {
