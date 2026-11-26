@@ -1,0 +1,38 @@
+[
+  {
+    "path": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_EN ①.pdf",
+    "sha256": "93fa52edc150aa88205e118323057b0f02aed857c71820a0dc808a2b70cfd768",
+    "pages": 3,
+    "language": "en",
+    "kind": "presentation",
+    "size_bytes": 116466,
+    "source_email": "_MAIL_CRM/_raw/messages/irina-1a15e6aa245ecb84.json",
+    "source_date": "2026-10-21T21:23:07+09:00",
+    "text_extractable": true,
+    "note": "Company profile: NOVAMEDINTL capabilities (R&D, OEM/ODM, QC), EXSOLU brand intro, 22-product portfolio table (17 skin boosters + 5 skincare), 5 EXSOLU skincare products with descriptions, contact links."
+  },
+  {
+    "path": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_KR_SKINCARE ②.pdf",
+    "sha256": "b5bbd2c3d553a78359ac0712e89b82940b139227e84caeba5d930909dcf71185",
+    "pages": 4,
+    "language": "ko",
+    "kind": "presentation",
+    "size_bytes": 25135808,
+    "source_email": "_MAIL_CRM/_raw/messages/irina-1a15e6aa245ecb84.json",
+    "source_date": "2026-10-21T21:23:07+09:00",
+    "text_extractable": false,
+    "note": "Illustrator-exported pamphlet “[팔퓰릿]스킨케어(윤괽선)”, Korean skincare line; text is outlined/vector art, no extractable text layer — needs visual review or OCR before use as a source for copy."
+  },
+  {
+    "path": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+    "sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+    "pages": 5,
+    "language": "en",
+    "kind": "presentation",
+    "size_bytes": 1434585,
+    "source_email": "_MAIL_CRM/_raw/messages/irina-1a20d7e5f1ca6a82.json",
+    "source_date": "2026-11-24T21:18:00+09:00",
+    "text_extractable": false,
+    "note": "Professional Skin Booster lineup leaflet; graphic/vector layout, no extractable text layer — needs visual review or OCR before use as a source for copy."
+  }
+]
