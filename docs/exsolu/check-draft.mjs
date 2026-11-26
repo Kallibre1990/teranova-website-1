@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 
 const result = await build({ entryPoints: ['src/data/exsolu.ts'], bundle: true, platform: 'node', format: 'esm', write: false });
 const { exsoluContent } = await import('data:text/javascript;base64,' + Buffer.from(result.outputFiles[0].text).toString('base64'));
-for (const lang of ['en', 'ru', 'ko']) {
+for (const lang of ['en', 'ru', 'ko', 'ja']) {
   const c = exsoluContent(lang);
   assert.equal(c.boosters.length, 17);
   assert.equal(c.skincareProducts.length, 5);
@@ -17,7 +17,16 @@ for (const lang of ['en', 'ru', 'ko']) {
     await readFile('public' + p.image);
   }
   assert.doesNotMatch(JSON.stringify(c), /hormonal|pain|tissue rebuilding|гормональ|при боли|восстановление тканей|\bMOQ\b|\bprice\b/i);
-  assert.match(c.boosters.find(p => p.id === 'nad-air-shot').caution, { en: /Do not inject/, ru: /не вводить инъекционно/, ko: /주입하지 마십시오/ }[lang]);
+  assert.match(c.boosters.find(p => p.id === 'nad-air-shot').caution, { en: /Do not inject/, ru: /не вводить инъекционно/, ko: /주입하지 마십시오/, ja: /注射しないでください/ }[lang]);
+  if (lang === 'ja') {
+    for (const p of products) {
+      assert.match(p.description, /[ぁ-んァ-ヶ]/);
+      assert.doesNotMatch(p.description + p.ingredients + p.pack, /[А-Яа-яЁё가-힣]|\b(?:vials?|box|ea|with|and|care)\b/);
+    }
+    for (const [key, value] of Object.entries(c)) {
+      if (typeof value === 'string' && key !== 'company') assert.match(value, /[ぁ-んァ-ヶ一-龯]/);
+    }
+  }
   if (lang === 'ko') {
     for (const p of products) {
       assert.match(p.description, /[가-힣]/);
