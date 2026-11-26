@@ -1,5 +1,35 @@
 # EXSOLU — локальная проверка UI, 26.11.2026 19:56 KST
 
+## Продолжение FR/IT/ES, проход после 19:57 KST
+
+В прежней ветке после `1032ef97` переведены три ключа footer.marine_*
+для FR/IT/ES (девять строк). Бренд Teranova Marine сохранён.
+FR: Nos autres activités / Pièces pour yachts et bateaux.
+IT: Le nostre altre attività / Ricambi per yacht e imbarcazioni.
+ES: Nuestras otras actividades / Repuestos para yates y embarcaciones.
+Все строки перечитаны отдельным редакторским проходом; новых фактов нет.
+Graphify не нашёл src/i18n/locales/fr.ts; применение ключей проверено
+чтением Footer и поиском в словарях. Изменение общего подвала действует
+также на другие страницы этих трёх языков.
+
+После завершения build: check-routes.py PASS для 33 страниц,
+check-draft.mjs PASS для 11 языков/22 товаров, validate-images.py PASS
+включая три негативных контроля; git diff --check PASS.
+Read-back девяти собранных страниц FR/IT/ES подтвердил обе локализованные
+подписи и отсутствие английского Parts for yachts and boats.
+Build exit 0, postbuild home-locale OK; лог
+`/private/tmp/T-20261126-025-ui2-build.log`.
+Parity: `/private/tmp/T-20261126-025-ui2-parity.json`.
+Прежний общий test:i18n FAIL не устранён и не повторялся ради девяти строк.
+Первый запуск проверки маршрутов во время build попал в ещё не созданный dist;
+повтор после окончания build прошёл. Это не дефект маршрута.
+
+Далее TR, затем короткие UI/aria-label по всем страницам. Браузерный QA
+320/390/600/680/1280 и клики не выполнены; прежнее ограничение запуска
+Chromium не устранено. Независимый языковой review и fixes_needed открыты.
+Этапы 3–5 не закрыты, родитель T-20261126-023 прочитан: blocked.
+Внешних действий, preview/deploy и новой внешней https-ссылки нет.
+
 Продолжена ветка `claude/T-20261126-024-exsolu-manifest` после `00dadab3`.
 Только локальные файлы; внешнего preview и новой https-ссылки нет.
 

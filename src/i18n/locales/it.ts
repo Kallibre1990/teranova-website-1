@@ -455,6 +455,9 @@ const it: DeepPartial<UIDict> = {
   },
 
   footer: {
+    marine_title: "Le nostre altre attività",
+    marine_name: "Teranova Marine",
+    marine_desc: "Ricambi per yacht e imbarcazioni",
     blurb: "Colleghiamo produttori coreani verificati con acquirenti di tutto il mondo e seguiamo l'intera trattativa.",
     nav_title: "Navigazione",
     contact_title: "Contatti",
