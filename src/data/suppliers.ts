@@ -612,6 +612,7 @@ import mozScienceEs from './suppliers-i18n/moz-science.es.json';
 import mozSciencePt from './suppliers-i18n/moz-science.pt.json';
 import mozScienceHe from './suppliers-i18n/moz-science.he.json';
 import mozScienceHi from './suppliers-i18n/moz-science.hi.json';
+import mozScienceAr from './suppliers-i18n/moz-science.ar.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -3329,7 +3330,7 @@ export const suppliers: SupplierProfile[] = [
        prices, MOQ, certificates and contacts.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/12_MOZ_SCIENCE.md. */
     i18n: {
-      ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any),
+      ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any), ar: mk(mozScienceAr as any),
     },
   },
   {
