@@ -87,6 +87,7 @@ import maoomEs from './suppliers-i18n/maoom.es.json';
 import maoomPt from './suppliers-i18n/maoom.pt.json';
 import maoomHe from './suppliers-i18n/maoom.he.json';
 import maoomHi from './suppliers-i18n/maoom.hi.json';
+import maoomAr from './suppliers-i18n/maoom.ar.json';
 import maoomCatalog from './suppliers-i18n/maoom.catalog.json';
 import skinroomRu from './suppliers-i18n/skinroom.ru.json';
 import skinroomEn from './suppliers-i18n/skinroom.en.json';
@@ -160,6 +161,7 @@ import loobeeEs from './suppliers-i18n/loobee.es.json';
 import loobeePt from './suppliers-i18n/loobee.pt.json';
 import loobeeHe from './suppliers-i18n/loobee.he.json';
 import loobeeHi from './suppliers-i18n/loobee.hi.json';
+import loobeeAr from './suppliers-i18n/loobee.ar.json';
 import loobeeCatalog from './suppliers-i18n/loobee.catalog.json';
 import slRu from './suppliers-i18n/slow-lounge.ru.json';
 import slEn from './suppliers-i18n/slow-lounge.en.json';
@@ -881,6 +883,7 @@ import licorneEs from './suppliers-i18n/licorne.es.json';
 import licornePt from './suppliers-i18n/licorne.pt.json';
 import licorneHe from './suppliers-i18n/licorne.he.json';
 import licorneHi from './suppliers-i18n/licorne.hi.json';
+import licorneAr from './suppliers-i18n/licorne.ar.json';
 import agingTargetKo from './suppliers-i18n/agingtarget.ko.json';
 import agingTargetZh from './suppliers-i18n/agingtarget.zh.json';
 import agingTargetJa from './suppliers-i18n/agingtarget.ja.json';
@@ -2028,7 +2031,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(licorneFr as any),
       tr: mk(licorneTr as any),
       es: mk(licorneEs as any),
-      pt: mk(licornePt as any), he: mk(licorneHe as any), hi: mk(licorneHi as any),
+      pt: mk(licornePt as any), he: mk(licorneHe as any), hi: mk(licorneHi as any), ar: mk(licorneAr as any),
     },
   },
   {
@@ -2313,7 +2316,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(maoomFr as any),
       tr: mk(maoomTr as any),
       es: mk(maoomEs as any),
-      pt: mk(maoomPt as any), he: mk(maoomHe as any), hi: mk(maoomHi as any),
+      pt: mk(maoomPt as any), he: mk(maoomHe as any), hi: mk(maoomHi as any), ar: mk(maoomAr as any),
     },
   },
 {
@@ -2543,7 +2546,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(loobeeFr as any),
       tr: mk(loobeeTr as any),
       es: mk(loobeeEs as any),
-      pt: mk(loobeePt as any), he: mk(loobeeHe as any), hi: mk(loobeeHi as any),
+      pt: mk(loobeePt as any), he: mk(loobeeHe as any), hi: mk(loobeeHi as any), ar: mk(loobeeAr as any),
     },
   },
   {
