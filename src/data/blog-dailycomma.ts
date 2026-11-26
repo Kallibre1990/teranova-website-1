@@ -201,14 +201,14 @@ export const dailycommaPosts: BlogPost[] = [
       },
       "ar": {
         "title": "DAILY COMMA: 14 خطاً للمنتجات",
-        "excerpt": "تغطّي DAILY COMMA رذاذات العطور، والعطور، والعطور الصلبة، والعناية باليدين والجسم، وعطر الشعر، ومعطّرات المنزل.",
+        "excerpt": "نغطّي رذاذات العطور، والعطور، والعطور الصلبة، والعناية باليدين والجسم، وعطر الشعر، ومعطّرات المنزل.",
         "seoTitle": "DAILY COMMA: 14 خطاً للمنتجات · Teranova",
         "seoDesc": "نظرة عامة على 14 خطاً من DAILY COMMA.",
         "sections": [
           {
             "h": "ماذا تشمل التشكيلة",
             "p": [
-              "تقدّم DAILY COMMA 14 خطاً: رذاذ Aroma Perfume Mist بحجم 15 مل، وخطَّي عطور بحجم 30 مل (Most Eau de Parfum وEau de Parfum)، وكريم يدين Most Perfume Hand Cream بحجم 50 مل، ومجموعة Bello de Perfume (غسول ولوشن يدين بحجم 300 مل، غسول ولوشن جسم بحجم 500 مل، كريم يدين بحجم 50 مل، عطر صلب بحجم 4.7 غرام وبلسم بحجم 5.5 غرام)، وطقم استكشاف Signature Perfume Discovery Set بحجم 3.3 مل، وعطر شعر Most Hair Perfume بحجم 30 مل، ورذاذ مزيل رائحة Perfume Deodorant Mist بحجم 50 مل، ومعطّرَي منزل — Crystal Edition Diffuser بحجم 100 مل وAurora Diffuser بحجم 200 مل. وينبغي تأكيد التوفّر الحالي للمنتجات المحددة والنفحات لسوق معيّنة على نحو منفصل."
+              "نقدّم 14 خطاً: رذاذ Aroma Perfume Mist بحجم 15 مل، وخطَّي عطور بحجم 30 مل (Most Eau de Parfum وEau de Parfum)، وكريم يدين Most Perfume Hand Cream بحجم 50 مل، ومجموعة Bello de Perfume (غسول ولوشن يدين بحجم 300 مل، غسول ولوشن جسم بحجم 500 مل، كريم يدين بحجم 50 مل، عطر صلب بحجم 4.7 غرام وبلسم بحجم 5.5 غرام)، وطقم استكشاف Signature Perfume Discovery Set بحجم 3.3 مل، وعطر شعر Most Hair Perfume بحجم 30 مل، ورذاذ مزيل رائحة Perfume Deodorant Mist بحجم 50 مل، ومعطّرَي منزل — Crystal Edition Diffuser بحجم 100 مل وAurora Diffuser بحجم 200 مل. وينبغي تأكيد التوفّر الحالي للمنتجات المحددة والنفحات لسوق معيّنة على نحو منفصل."
             ]
           }
         ]
@@ -410,14 +410,14 @@ export const dailycommaPosts: BlogPost[] = [
       },
       "ar": {
         "title": "أربع صيغ عطرية من DAILY COMMA",
-        "excerpt": "إلى جانب عطرَيها، تشمل DAILY COMMA رذاذ عطر وطقم استكشاف.",
+        "excerpt": "إلى جانب عطرَينا، نشمل رذاذ عطر وطقم استكشاف.",
         "seoTitle": "خطوط عطور DAILY COMMA · Teranova",
         "seoDesc": "صيغ عطور DAILY COMMA.",
         "sections": [
           {
             "h": "أربع صيغ عطرية",
             "p": [
-              "إلى جانب خطَّي العطور (Eau de Parfum)، تشمل DAILY COMMA رذاذ Aroma Perfume Mist بحجم 15 مل، وهو رذاذ محمول يُعرَض بعشر نفحات للاستخدام اليومي، وطقم استكشاف Signature Perfume Discovery Set بحجم 3.3 مل يضمّ أربعاً من نفحات العلامة المميّزة. وكلا خطَّي Most Eau de Parfum وEau de Parfum عطران بحجم 30 مل بزيوت أساسية فرنسية، ويُعرَض كل منهما بست نفحات؛ ويُوصَف Eau de Parfum بأنه موحَّد الجنس (unisex) ومبني حول زيت اللافندر الفرنسي. وينبغي تأكيد تشكيلة النفحات المحددة للطلب على نحو منفصل."
+              "إلى جانب خطَّي العطور (Eau de Parfum)، نشمل رذاذ Aroma Perfume Mist بحجم 15 مل، وهو رذاذ محمول يُعرَض بعشر نفحات للاستخدام اليومي، وطقم استكشاف Signature Perfume Discovery Set بحجم 3.3 مل يضمّ أربعاً من نفحاتنا المميّزة. وكلا خطَّي Most Eau de Parfum وEau de Parfum عطران بحجم 30 مل بزيوت أساسية فرنسية، ويُعرَض كل منهما بست نفحات؛ ويُوصَف Eau de Parfum بأنه موحَّد الجنس (unisex) ومبني حول زيت اللافندر الفرنسي. وينبغي تأكيد تشكيلة النفحات المحددة للطلب على نحو منفصل."
             ]
           }
         ]
@@ -828,14 +828,14 @@ export const dailycommaPosts: BlogPost[] = [
       },
       "ar": {
         "title": "معطّرات المنزل من DAILY COMMA: Crystal Edition وAurora",
-        "excerpt": "تقدّم DAILY COMMA معطّرين بالقضبان الخشبية — Crystal Edition الزخرفي وAurora بزجاجته المتدرّجة اللون.",
+        "excerpt": "نقدّم معطّرين بالقضبان الخشبية — Crystal Edition الزخرفي وAurora بزجاجته المتدرّجة اللون.",
         "seoTitle": "معطّرات منزل DAILY COMMA · Teranova",
         "seoDesc": "معطّران منزليان من DAILY COMMA.",
         "sections": [
           {
             "h": "صيغتان للمنزل",
             "p": [
-              "تقدّم DAILY COMMA معطّرَين منزليَين بالقضبان الخشبية: معطّر Crystal Edition الزخرفي بحجم 100 مل، ويُعرَض بعدة نفحات، ومعطّر Aurora بحجم 200 مل في زجاجة متدرّجة اللون، ويُعرَض بنفحتَي Clean Cotton وBlack Cherry. وهذان هما العنصران الوحيدان المعروضان حالياً من عطور المنزل؛ وتظهر خط عطور منفصل للأقمشة والمخدات فقط كمعاينة، لا كمنتج متوفّر للطلب."
+              "نقدّم معطّرَين منزليَين بالقضبان الخشبية: معطّر Crystal Edition الزخرفي بحجم 100 مل، ويُعرَض بعدة نفحات، ومعطّر Aurora بحجم 200 مل في زجاجة متدرّجة اللون، ويُعرَض بنفحتَي Clean Cotton وBlack Cherry. وهذان هما العنصران الوحيدان المعروضان حالياً من عطور المنزل؛ وتظهر خط عطور منفصل للأقمشة والمخدات فقط كمعاينة، لا كمنتج متوفّر للطلب."
             ]
           }
         ]
