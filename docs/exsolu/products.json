@@ -1,0 +1,406 @@
+{
+  "_note": "T-20261126-025 stage 1 — texts and product data extracted from the three manifest PDFs (docs/exsolu/source-manifest.json). All facts are manufacturer claims, attributed to file+page. No prices, no MOQ, no enhanced medical claims. Skin-booster line (17 products) is sold by the supplier strictly as cosmetic documentation (README.md §4.3) — copy must stay in cosmetic/aesthetic framing, never 'inject'/'injection'/'medical device', except quoting the NAD+ Air Shot prohibition 'do not inject'. RU is a professional translation of the EN source, not machine-literal.",
+  "company": {
+    "name": "NOVAMEDINTL",
+    "brand": "EXSOLU",
+    "tagline_en": "Professional Aesthetic / Skincare Solutions — For a Healthier Tomorrow",
+    "tagline_ru": "Профессиональные эстетические и косметические решения — для здорового будущего кожи",
+    "about_en": "NOVAMEDINTL specializes in the research, development, and manufacturing of professional skin boosters and premium skincare products. The company develops differentiated products with premium ingredients and advanced technologies, offering customized OEM and ODM solutions. Its portfolio spans professional aesthetics and everyday home care as it expands into global markets.",
+    "about_ru": "NOVAMEDINTL специализируется на разработке и производстве профессиональных косметических бустеров для кожи и премиальных средств по уходу. Компания создаёт продукты с премиальными ингредиентами и современными технологиями, предлагая индивидуальные решения OEM и ODM. Портфель охватывает профессиональную эстетику и повседневный домашний уход в рамках выхода на глобальные рынки.",
+    "capabilities": [
+      { "key": "rd", "en": "Research & Development — ingredients, formulations, and delivery technology", "ru": "Исследования и разработки — ингредиенты, рецептуры и технологии доставки" },
+      { "key": "oem_odm", "en": "OEM / ODM — customized product development and manufacturing", "ru": "OEM / ODM — индивидуальная разработка и производство продукции" },
+      { "key": "qc", "en": "Quality Control — production oversight, testing, and quality management", "ru": "Контроль качества — контроль производства, тестирование и управление качеством" }
+    ],
+    "divisions": [
+      { "key": "aesthetics", "en": "Professional Aesthetics / Advanced Skin Boosters — Biomaterials / Functional Care / Exosome Solutions / Wellness", "ru": "Профессиональная эстетика / косметические бустеры для кожи — биоматериалы, функциональный уход, экзосомальные решения, велнес" },
+      { "key": "skincare", "en": "Premium Skincare / Everyday Home Care", "ru": "Премиальный уход за кожей / домашний уход на каждый день" }
+    ],
+    "brand_story_en": "EXSOLU is NOVAMEDINTL's proprietary brand, combining \"Extraordinary\" and \"Solution.\" Through carefully selected premium ingredients and distinctive formulations, it brings the value of professional skin care into everyday home care — from clinic to home.",
+    "brand_story_ru": "EXSOLU — собственный бренд NOVAMEDINTL, название которого соединяет слова «Extraordinary» (исключительный) и «Solution» (решение). Благодаря тщательно отобранным премиальным ингредиентам и отличительным рецептурам бренд переносит ценность профессионального ухода за кожей в повседневный домашний уход — «от клиники до дома».",
+    "portfolio_summary": { "total": 22, "skin_boosters": 17, "skincare": 5 },
+    "contact": {
+      "website": "exsolukorea.co.kr",
+      "email": "exsolukorea@naver.com",
+      "note_en": "Separate WhatsApp contacts are maintained for skincare and skin-booster inquiries (numbers not published on manifest PDFs as text — logos/QR only).",
+      "note_ru": "Для вопросов по уходу за кожей и по косметическим бустерам поставщик ведёт раздельные контакты WhatsApp (номера на страницах даны как QR-коды, не как текст)."
+    },
+    "sources": [
+      { "file": "NOVAMEDINTL_EN ①.pdf", "pages": "1-3" },
+      { "file": "EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf", "pages": "1-5" },
+      { "file": "NOVAMEDINTL_KR_SKINCARE ②.pdf", "pages": "2,4" }
+    ]
+  },
+  "compliance_notes": [
+    "Price list (EXSOLU_DISTRIBUTOR PRICE LIST.pdf) is confidential and excluded from every language and PDF (README.md §4.1).",
+    "Skin-booster line: supplier provides cosmetic documentation only; medical/injectable dossiers not supported at this stage (README.md §4.3). Copy must describe vials/ampoules as professional-use cosmetic products, never claim injectable/medical-device status.",
+    "NAD+ Air Shot is explicitly a nebulizer-format product with the manufacturer's own instruction 'Do not inject' — state this prohibition as-is, do not omit it.",
+    "US and South Korea have a separate supplier-requested retail-price policy; not relevant to site copy (site publishes no prices) but must be passed to the commercial process if a US/KR buyer appears."
+  ],
+  "lines": {
+    "skin_boosters": {
+      "name_en": "EXSOLU Professional Skin Boosters",
+      "name_ru": "Профессиональные косметические бустеры EXSOLU",
+      "count": 17,
+      "groups": [
+        {
+          "key": "filling",
+          "name_en": "Filling Line",
+          "name_ru": "Линия Filling (моделирование объёма)",
+          "tagline_en": "Structure. Density. Natural fullness.",
+          "tagline_ru": "Структура. Плотность. Естественный объём.",
+          "intro_en": "Two complementary biopolymers: PCL reinforces the skin's framework, dPLLA restores density through collagen generation.",
+          "intro_ru": "Два взаимодополняющих биополимера: PCL укрепляет структурную основу кожи, dPLLA восстанавливает плотность за счёт стимуляции выработки коллагена.",
+          "source": { "file": "EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf", "page": 2 },
+          "products": [
+            {
+              "item_no": 9,
+              "name": "PCL",
+              "subtitle_en": "Structural Booster",
+              "subtitle_ru": "Структурный бустер",
+              "pack": "2 mL / vial, 4 vials / box",
+              "design_en": "Particle-free PCL colloid + HA",
+              "design_ru": "Безчастичный коллоид PCL + гиалуроновая кислота",
+              "core_role_en": "Reinforce weakened skin structure.",
+              "core_role_ru": "Укрепляет ослабленную структуру кожи.",
+              "key_benefits_en": "Firmness, density and structural stability.",
+              "key_benefits_ru": "Упругость, плотность и структурная стабильность.",
+              "best_suited_en": "Loose, fragile or poorly supported skin.",
+              "best_suited_ru": "Для дряблой, ослабленной кожи с недостаточной поддержкой.",
+              "volume_profile_en": "Support without intended volume augmentation.",
+              "volume_profile_ru": "Обеспечивает поддержку без выраженного увеличения объёма."
+            },
+            {
+              "item_no": 11,
+              "name": "dPLLA",
+              "subtitle_en": "Redermis Firm / 17 kDa",
+              "subtitle_ru": "Redermis Firm / 17 кДа",
+              "pack": "50 mg / vial, 4 vials / box",
+              "design_en": "Low-molecular-weight dPLLA",
+              "design_ru": "Низкомолекулярный dPLLA",
+              "core_role_en": "Collagen-driven tissue rebuilding.",
+              "core_role_ru": "Восстановление тканей за счёт стимуляции коллагена.",
+              "key_benefits_en": "Dermal thickness, density and resilience.",
+              "key_benefits_ru": "Толщина дермы, плотность и упругость.",
+              "best_suited_en": "Thinned skin and mild volume loss.",
+              "best_suited_ru": "Для истончённой кожи и лёгкой потери объёма.",
+              "volume_profile_en": "Gradual, subtle fullness through tissue renewal.",
+              "volume_profile_ru": "Постепенное, деликатное восполнение объёма за счёт обновления тканей."
+            }
+          ]
+        },
+        {
+          "key": "firming",
+          "name_en": "Firming Line",
+          "name_ru": "Линия Firming (укрепление)",
+          "tagline_en": "Tissue environment. Muscle. Dermis.",
+          "tagline_ru": "Тканевая среда. Мышцы. Дерма.",
+          "intro_en": "Three-step concept: DAEMU prepares, YURI activates, PP reinforces — tissue readiness, muscle balance and dermal strength.",
+          "intro_ru": "Концепция из трёх шагов: DAEMU подготавливает, YURI активирует, PP укрепляет — готовность тканей, мышечный баланс и прочность дермы.",
+          "source": { "file": "EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf", "page": 3 },
+          "products": [
+            {
+              "item_no": 3,
+              "name": "DAEMU",
+              "subtitle_en": "Biological Reset",
+              "subtitle_ru": "Биологический сброс",
+              "pack": "2 mL / vial, 10 vials / box",
+              "target_en": "Tissue environment",
+              "target_ru": "Тканевая среда",
+              "core_role_en": "Prepare tissue to respond to subsequent care.",
+              "core_role_ru": "Подготавливает ткани к восприятию последующего ухода.",
+              "key_focus_en": "Congestion, microcirculation and tissue balance.",
+              "key_focus_ru": "Застойные явления, микроциркуляция и баланс тканей.",
+              "positioning_en": "Reset the foundation before activation.",
+              "positioning_ru": "Подготавливает основу перед этапом активации."
+            },
+            {
+              "item_no": 1,
+              "name": "YURI",
+              "subtitle_en": "Muscle Conditioning",
+              "subtitle_ru": "Кондиционирование мышц",
+              "pack": "2 mL / vial, 10 vials / box",
+              "target_en": "Facial muscles",
+              "target_ru": "Мимические мышцы",
+              "core_role_en": "Support muscle responsiveness and balance.",
+              "core_role_ru": "Поддерживает мышечный тонус и баланс.",
+              "key_focus_en": "Natural movement, lift and contour definition.",
+              "key_focus_ru": "Естественность движений, лифтинг-эффект и чёткость контура.",
+              "positioning_en": "Create lifting support through muscle conditioning.",
+              "positioning_ru": "Создаёт лифтинг-поддержку за счёт кондиционирования мышц."
+            },
+            {
+              "item_no": 10,
+              "name": "PP",
+              "subtitle_en": "Dermal Density Reinforcement",
+              "subtitle_ru": "Укрепление плотности дермы",
+              "pack": "3 mL / vial, 4 vials / box",
+              "target_en": "Dermal support structure",
+              "target_ru": "Опорная структура дермы",
+              "core_role_en": "Reinforce skin density and elasticity.",
+              "core_role_ru": "Укрепляет плотность и эластичность кожи.",
+              "key_focus_en": "Firmness, resilience and structural skin support.",
+              "key_focus_ru": "Упругость, прочность и структурная поддержка кожи.",
+              "positioning_en": "Strengthen the skin structure that supports lift.",
+              "positioning_ru": "Укрепляет структуру кожи, обеспечивающую лифтинг-эффект."
+            }
+          ]
+        },
+        {
+          "key": "exosome",
+          "name_en": "Exosome Line",
+          "name_ru": "Линия Exosome (экзосомальный уход)",
+          "tagline_en": "Skin renewal. Brightening. Scalp & hair vitality.",
+          "tagline_ru": "Обновление кожи. Сияние. Жизненная сила кожи головы и волос.",
+          "intro_en": "5 purpose-based exosome solutions for skin and scalp/hair.",
+          "intro_ru": "5 целевых решений на основе экзосом для кожи, а также кожи головы и волос.",
+          "source": { "file": "EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf", "page": 4 },
+          "products": [
+            {
+              "item_no": 12,
+              "name": "BOOST SOLUTION",
+              "subtitle_en": "Structural Renewal",
+              "subtitle_ru": "Структурное обновление",
+              "pack": "3 mL / vial, 4 vials / box",
+              "ingredients_en": "Exosomes + collagen tripeptide + HA",
+              "ingredients_ru": "Экзосомы + коллагеновый трипептид + гиалуроновая кислота",
+              "description_en": "Supports tissue structure, hydration and elasticity.",
+              "description_ru": "Поддерживает структуру тканей, увлажнение и эластичность.",
+              "application_en": "Skin / Scalp & Hair",
+              "application_ru": "Кожа / кожа головы и волосы"
+            },
+            {
+              "item_no": 13,
+              "name": "HYDRO-WHITE",
+              "subtitle_en": "Hydration & Brightening",
+              "subtitle_ru": "Увлажнение и сияние",
+              "pack": "3 mL / vial, 4 vials / box",
+              "ingredients_en": "Exosomes + HA + tranexamic acid",
+              "ingredients_ru": "Экзосомы + гиалуроновая кислота + транексамовая кислота",
+              "description_en": "Targets dryness, dark spots and uneven-looking skin tone.",
+              "description_ru": "Направлен на сухость, пигментные пятна и неровный тон кожи.",
+              "application_en": "Skin",
+              "application_ru": "Кожа"
+            },
+            {
+              "item_no": 14,
+              "name": "EXO-PLUS",
+              "subtitle_en": "Intensive Scalp Care",
+              "subtitle_ru": "Интенсивный уход за кожей головы",
+              "pack": "3 mL / vial, 4 vials / box",
+              "ingredients_en": "1 billion nanoparticles / PDRN-coated exosomes",
+              "ingredients_ru": "1 миллиард наночастиц / экзосомы с PDRN-покрытием",
+              "description_en": "Intensive care for scalp and follicular vitality.",
+              "description_ru": "Интенсивный уход для жизненной силы кожи головы и волосяных фолликулов.",
+              "application_en": "Scalp & Hair",
+              "application_ru": "Кожа головы и волосы"
+            },
+            {
+              "item_no": 15,
+              "name": "EXOBENE-S",
+              "subtitle_en": "Skin Rejuvenation & Firming",
+              "subtitle_ru": "Омоложение и укрепление кожи",
+              "pack": "3 mL / vial, 4 vials / box",
+              "ingredients_en": "Exosomes + HA + amino acids",
+              "ingredients_ru": "Экзосомы + гиалуроновая кислота + аминокислоты",
+              "description_en": "Supports smoother, firmer, hydrated-looking skin.",
+              "description_ru": "Поддерживает более гладкую, упругую и увлажнённую на вид кожу.",
+              "application_en": "Skin",
+              "application_ru": "Кожа"
+            },
+            {
+              "item_no": 16,
+              "name": "EXOBENE-H",
+              "subtitle_en": "Scalp & Hair Vitality",
+              "subtitle_ru": "Жизненная сила кожи головы и волос",
+              "pack": "3 mL / vial, 4 vials / box",
+              "ingredients_en": "Exosomes + niacinamide + biotin + copper peptide",
+              "ingredients_ru": "Экзосомы + ниацинамид + биотин + медный пептид",
+              "description_en": "Supports scalp nourishment, hair strength and resilience.",
+              "description_ru": "Поддерживает питание кожи головы, прочность и устойчивость волос.",
+              "application_en": "Scalp & Hair",
+              "application_ru": "Кожа головы и волосы"
+            }
+          ]
+        },
+        {
+          "key": "wellness",
+          "name_en": "Wellness Line",
+          "name_ru": "Линия Wellness",
+          "tagline_en": "7 products / Targeted wellness care.",
+          "tagline_ru": "7 продуктов / целевой wellness-уход.",
+          "source": { "file": "EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf", "page": 5 },
+          "products": [
+            {
+              "item_no": 2,
+              "name": "SOSU",
+              "subtitle_en": "Metabolic Contour Care",
+              "subtitle_ru": "Метаболический уход за контуром тела",
+              "pack": "2 mL / vial, 10 vials / box",
+              "description_en": "Wild ginseng-based care for body contour and circulation support.",
+              "description_ru": "Уход на основе дикого женьшеня для поддержки контура тела и кровообращения.",
+              "application_en": "Face & Body / Wellness",
+              "application_ru": "Лицо и тело / wellness"
+            },
+            {
+              "item_no": 4,
+              "name": "SAMSHIN",
+              "subtitle_en": "Hormonal Balance",
+              "subtitle_ru": "Гормональный баланс",
+              "pack": "2 mL / vial, 10 vials / box",
+              "description_en": "Herbal wellness care focused on hormonal balance and everyday vitality.",
+              "description_ru": "Растительный wellness-уход, направленный на гормональный баланс и повседневную жизненную силу.",
+              "application_en": "Wellness",
+              "application_ru": "Wellness"
+            },
+            {
+              "item_no": 5,
+              "name": "NOPA",
+              "subtitle_en": "Pain & Discomfort Care",
+              "subtitle_ru": "Уход при боли и дискомфорте",
+              "pack": "2 mL / vial, 10 vials / box",
+              "description_en": "Herbal care focused on pain, inflammation and muscular discomfort.",
+              "description_ru": "Растительный уход, направленный на боль, воспаление и мышечный дискомфорт.",
+              "application_en": "Wellness",
+              "application_ru": "Wellness"
+            },
+            {
+              "item_no": 6,
+              "name": "DANGUN-S",
+              "subtitle_en": "Foundational Vitality",
+              "subtitle_ru": "Базовая жизненная сила",
+              "pack": "2 mL / vial, 10 vials / box",
+              "description_en": "Ginseng-based wellness care for vitality and recovery.",
+              "description_ru": "Wellness-уход на основе женьшеня для поддержки жизненной силы и восстановления.",
+              "application_en": "Wellness",
+              "application_ru": "Wellness"
+            },
+            {
+              "item_no": 7,
+              "name": "DANGUN-SS",
+              "subtitle_en": "Intensive Vitality",
+              "subtitle_ru": "Интенсивная жизненная сила",
+              "pack": "2 mL / vial, 4 vials / box",
+              "description_en": "An alternative concentration within the DANGUN range for intensive wellness care.",
+              "description_ru": "Альтернативная концентрация в линейке DANGUN для интенсивного wellness-ухода.",
+              "application_en": "Wellness",
+              "application_ru": "Wellness"
+            },
+            {
+              "item_no": 8,
+              "name": "DANGUN-SM",
+              "subtitle_en": "Vitality & Recovery",
+              "subtitle_ru": "Жизненная сила и восстановление",
+              "pack": "2 mL / vial, 4 vials / box",
+              "description_en": "A distinct formulation option within the DANGUN wellness family.",
+              "description_ru": "Отдельная рецептура в семействе wellness-продуктов DANGUN.",
+              "application_en": "Wellness",
+              "application_ru": "Wellness"
+            },
+            {
+              "item_no": 17,
+              "name": "NAD+ AIR SHOT",
+              "subtitle_en": "Dual NAD+ System",
+              "subtitle_ru": "Двойная система NAD+",
+              "pack": "4 mL / vial, 4 vials / box",
+              "description_en": "NAD+ 100 mg + NMN 40 mg per vial. Nebulizer format. Do not inject.",
+              "description_ru": "NAD+ 100 мг + NMN 40 мг на флакон. Формат для небулайзера. Не предназначен для инъекций.",
+              "application_en": "Personal Wellness",
+              "application_ru": "Персональный wellness"
+            }
+          ]
+        }
+      ]
+    },
+    "skincare": {
+      "name_en": "EXSOLU Skincare",
+      "name_ru": "Линия ухода EXSOLU Skincare",
+      "count": 5,
+      "intro_en": "EXSOLU skincare extends professional skin-care expertise into daily home care. The range includes an overnight mask, PDRN serums, and broccoli-derived extracellular-vesicle serums for hydration, barrier care, firmness, brightening and targeted conditioning.",
+      "intro_ru": "Линия EXSOLU Skincare переносит экспертизу профессионального ухода за кожей в повседневный домашний формат. В линейку входят ночная маска, сыворотки с PDRN и сыворотки с внеклеточными везикулами брокколи для увлажнения, укрепления барьера, упругости, сияния и точечного ухода.",
+      "source": { "file": "NOVAMEDINTL_EN ①.pdf", "page": 3 },
+      "products": [
+        {
+          "code": "S0",
+          "stage_name_en": "Signature",
+          "stage_name_ru": "Signature",
+          "name_en": "Spider Silk Chitosan Super Mask",
+          "name_ru": "Spider Silk Chitosan Super Mask",
+          "name_kr": "스파이더 실크 키토산 슈퍼 마스크",
+          "pack": "5 mL × 4 ea",
+          "category_en": "Overnight Hydration · Skin Barrier Care · Skin Conditioning",
+          "category_ru": "Ночное увлажнение · уход за барьером кожи · кондиционирование кожи",
+          "key_ingredients_en": "Chitosan (40,000 ppm), Spider Silk-Derived Biopeptide (SR-PEPTIDE), Niacinamide, Tranexamic Acid, Multi-Collagen Complex",
+          "key_ingredients_ru": "Хитозан (40 000 ppm), биопептид на основе паучьего шёлка (SR-PEPTIDE), ниацинамид, транексамовая кислота, мульти-коллагеновый комплекс",
+          "directions_en": "Apply to the skin at night and rinse off the following morning. Formulated with Chitosan (40,000 ppm) and Spider Silk-Derived Biopeptide, it forms a soft moisturizing layer on the skin, providing overnight hydration and helping maintain healthy-looking, well-conditioned skin.",
+          "directions_ru": "Нанести на кожу на ночь, смыть утром. Рецептура с хитозаном (40 000 ppm) и биопептидом на основе паучьего шёлка образует мягкую увлажняющую плёнку на коже, обеспечивает ночное увлажнение и помогает поддерживать здоровый на вид, ухоженный тон кожи.",
+          "source_page": 2
+        },
+        {
+          "code": "S1",
+          "stage_name_en": "Entry",
+          "stage_name_ru": "Entry",
+          "name_en": "EXSOLU Rose Firming Serum",
+          "name_ru": "EXSOLU Rose Firming Serum",
+          "name_kr": "로즈 퍼밍 세럼",
+          "pack": "30 mL",
+          "category_en": "Firming · Elasticity Care · Hydration · Skin Conditioning",
+          "category_ru": "Укрепление · уход за эластичностью · увлажнение · кондиционирование кожи",
+          "key_ingredients_en": "Rose PDRN (Hydrolyzed DNA), CICA-Derived Extracellular Vesicles, Vitamin B12, Adenosine, Glutathione, Hyaluronic Acid, 9-Type Collagen Complex",
+          "key_ingredients_ru": "Розовый PDRN (гидролизованная ДНК), внеклеточные везикулы на основе центеллы азиатской (CICA), витамин B12, аденозин, глутатион, гиалуроновая кислота, 9-компонентный коллагеновый комплекс",
+          "directions_en": "A daily serum developed with Rose PDRN at its core for daily hydration, firmness, and skin conditioning. Formulated with Rose PDRN (Hydrolyzed DNA), CICA-Derived Extracellular Vesicles, Vitamin B12, Adenosine, Glutathione, Hyaluronic Acid, and a 9-Type Collagen Complex. It provides hydration and helps leave skin looking firm, elastic, smooth, and fresh.",
+          "directions_ru": "Сыворотка для ежедневного применения на основе розового PDRN — для увлажнения, упругости и ухода за кожей каждый день. Рецептура с розовым PDRN (гидролизованная ДНК), внеклеточными везикулами CICA, витамином B12, аденозином, глутатионом, гиалуроновой кислотой и 9-компонентным коллагеновым комплексом. Обеспечивает увлажнение и помогает коже выглядеть упругой, эластичной, гладкой и свежей.",
+          "source_page": 2
+        },
+        {
+          "code": "S2",
+          "stage_name_en": "Upgrade",
+          "stage_name_ru": "Upgrade",
+          "name_en": "EXSOLU Ginseng Brightening Serum",
+          "name_ru": "EXSOLU Ginseng Brightening Serum",
+          "name_kr": "진생 브라이트닝 세럼",
+          "pack": "30 mL",
+          "category_en": "Brightening Care · Radiance Care · Skin Conditioning",
+          "category_ru": "Уход за сиянием · осветление · кондиционирование кожи",
+          "key_ingredients_en": "Ginseng PDRN, Niacinamide, Tranexamic Acid, Glutathione, Vitamin C, 9-Type Collagen Complex",
+          "key_ingredients_ru": "PDRN женьшеня, ниацинамид, транексамовая кислота, глутатион, витамин C, 9-компонентный коллагеновый комплекс",
+          "directions_en": "A daily serum developed to promote a brighter, more radiant, and revitalized-looking complexion. Formulated with Ginseng PDRN, Niacinamide, Tranexamic Acid, Glutathione, and Vitamin C. Hyaluronic Acid, Tremella Fuciformis Polysaccharide, and a 9-Type Collagen Complex provide hydration and help leave the skin looking radiant, smooth, and moisturized.",
+          "directions_ru": "Сыворотка для ежедневного применения, разработанная для более сияющего, свежего и обновлённого на вид тона кожи. Рецептура с PDRN женьшеня, ниацинамидом, транексамовой кислотой, глутатионом и витамином C. Гиалуроновая кислота, полисахарид тремеллы (снежного гриба) и 9-компонентный коллагеновый комплекс обеспечивают увлажнение и помогают коже выглядеть сияющей, гладкой и увлажнённой.",
+          "source_page": 3
+        },
+        {
+          "code": "S3",
+          "stage_name_en": "Special Intensive",
+          "stage_name_ru": "Special Intensive",
+          "name_en": "EXSOLU Vesicles Brightening Serum — Intensive",
+          "name_ru": "EXSOLU Vesicles Brightening Serum — Intensive",
+          "name_kr": "엑솔루 베시클즈 브라이트닝 세럼 - 인텐시브",
+          "pack": "10 mL",
+          "category_en": "Intensive Care · Targeted Care · Skin Conditioning",
+          "category_ru": "Интенсивный уход · точечный уход · кондиционирование кожи",
+          "key_ingredients_en": "Broccoli-Derived Extracellular Vesicles, Vitamin B12, Reprosome™ Delivery System",
+          "key_ingredients_ru": "Внеклеточные везикулы на основе брокколи, витамин B12, система доставки Reprosome™",
+          "directions_en": "A premium targeted-care serum developed for intensive care of specific areas, from around the eyes and lips to delicate areas such as the underarms and bikini line. Intensive 10 mL, Special Care. For times when more focused care is desired, it provides hydration to targeted areas and helps leave the skin looking smooth, radiant, and healthy.",
+          "directions_ru": "Премиальная сыворотка точечного действия для интенсивного ухода за отдельными зонами — от области вокруг глаз и губ до деликатных зон, таких как подмышки и зона бикини. Формат Intensive 10 мл, специальный уход. Для случаев, когда нужен более сфокусированный уход: обеспечивает увлажнение целевых зон и помогает коже выглядеть гладкой, сияющей и здоровой.",
+          "source_page": 3
+        },
+        {
+          "code": "S4",
+          "stage_name_en": "Special Daily",
+          "stage_name_ru": "Special Daily",
+          "name_en": "EXSOLU Vesicles Brightening Serum — Daily",
+          "name_ru": "EXSOLU Vesicles Brightening Serum — Daily",
+          "name_kr": "엑솔루 베시클즈 브라이트닝 세럼 - 데일리",
+          "pack": "30 mL",
+          "category_en": "Daily Care · Hydration · Skin Conditioning",
+          "category_ru": "Ежедневный уход · увлажнение · кондиционирование кожи",
+          "key_ingredients_en": "Premium Serum with Broccoli-Derived Extracellular Vesicles, Vitamin B12, Reprosome™ Delivery System",
+          "key_ingredients_ru": "Премиальная сыворотка с внеклеточными везикулами брокколи, витамином B12, системой доставки Reprosome™",
+          "directions_en": "A daily-care serum designed for easy incorporation into everyday routine, from around the eyes and lips to delicate areas such as the underarms and bikini line. Daily 30 mL, Routine Care. Designed for gentle everyday care of targeted areas; the generous 30 mL size can be applied over larger areas. Use \"Daily\" every day to provide hydration and maintain healthy-looking skin, and add \"Intensive\" to areas where more focused care is desired.",
+          "directions_ru": "Сыворотка для ежедневного ухода, созданная для лёгкого включения в повседневный ритуал — от области вокруг глаз и губ до деликатных зон, таких как подмышки и зона бикини. Формат Daily 30 мл, регулярный уход. Рассчитана на бережный ежедневный уход за целевыми зонами; увеличенный объём 30 мл позволяет наносить и на более крупные участки. Использовать «Daily» каждый день для увлажнения и поддержания здорового вида кожи, дополняя уход сывороткой «Intensive» на участках, где нужен более сфокусированный уход.",
+          "source_page": 4
+        }
+      ]
+    }
+  }
+}
