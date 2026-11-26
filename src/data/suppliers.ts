@@ -383,6 +383,7 @@ import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
 import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
 import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
 import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
+import plkLiftAr from './suppliers-i18n/plk-lift.ar.json';
 import plkLiftCatalog from './suppliers-i18n/plk-lift.catalog.json';
 import oavoRu from './suppliers-i18n/oavo.ru.json';
 import oavoEn from './suppliers-i18n/oavo.en.json';
@@ -660,6 +661,7 @@ import rnhBioEs from './suppliers-i18n/rnh-bio.es.json';
 import rnhBioPt from './suppliers-i18n/rnh-bio.pt.json';
 import rnhBioHe from './suppliers-i18n/rnh-bio.he.json';
 import rnhBioHi from './suppliers-i18n/rnh-bio.hi.json';
+import rnhBioAr from './suppliers-i18n/rnh-bio.ar.json';
 import rnhBioCatalog from './suppliers-i18n/rnh-bio.catalog.json';
 
 import multifitRu from './suppliers-i18n/multifit.ru.json';
@@ -705,6 +707,7 @@ import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
 import santeHe from './suppliers-i18n/sante.he.json';
 import santeHi from './suppliers-i18n/sante.hi.json';
+import santeAr from './suppliers-i18n/sante.ar.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
 import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
@@ -834,6 +837,7 @@ import pineEs from './suppliers-i18n/pineworld.es.json';
 import pinePt from './suppliers-i18n/pineworld.pt.json';
 import pineHe from './suppliers-i18n/pineworld.he.json';
 import pineHi from './suppliers-i18n/pineworld.hi.json';
+import pineAr from './suppliers-i18n/pineworld.ar.json';
 import kiftRu from './suppliers-i18n/kift.ru.json';
 import kiftEn from './suppliers-i18n/kift.en.json';
 import kiftKo from './suppliers-i18n/kift.ko.json';
@@ -1368,7 +1372,7 @@ const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierCo
 const confirmedPlk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => {
   const content = mk(j) as SupplierContent & Record<string, any>;
   const ranges = /(?:1\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*8|14\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*52)/iu;
-  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|человек|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|लोग|명|人)/iu.test(text));
+  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|человек|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|लोग|명|人|موظف)/iu.test(text));
   content.facts = content.facts.filter((text: string) => !ranges.test(text));
   content.lines = content.lines.map((line: any) => ranges.test(line.note) ? ({ ...line, note: line.name }) : line);
   content.seoDesc = 'Jinan PLK Machinery: lifting equipment shown in the company catalogue, including GTBZ-22J telescopic boom lift.';
@@ -1501,7 +1505,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(santeFr),
       tr: mk(santeTr),
       es: mk(santeEs),
-      pt: mk(santePt), he: mk(santeHe), hi: mk(santeHi),
+      pt: mk(santePt), he: mk(santeHe), hi: mk(santeHi), ar: mk(santeAr as any),
     },
   },
   {
@@ -1851,7 +1855,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(pineFr as any),
       tr: mk(pineTr as any),
       es: mk(pineEs as any),
-      pt: mk(pinePt as any), he: mk(pineHe as any), hi: mk(pineHi as any),
+      pt: mk(pinePt as any), he: mk(pineHe as any), hi: mk(pineHi as any), ar: mk(pineAr as any),
     },
   },
   {
@@ -2795,7 +2799,7 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/rnh-bio-presentation-ru.pdf', en: '/docs/rnh-bio-presentation-en.pdf', ko: '/docs/rnh-bio-presentation-ko.pdf', zh: '/docs/rnh-bio-presentation-zh.pdf', ja: '/docs/rnh-bio-presentation-ja.pdf', it: '/docs/rnh-bio-presentation-it.pdf', de: '/docs/rnh-bio-presentation-de.pdf', fr: '/docs/rnh-bio-presentation-fr.pdf', tr: '/docs/rnh-bio-presentation-tr.pdf', es: '/docs/rnh-bio-presentation-es.pdf', pt: '/docs/rnh-bio-presentation-pt.pdf' },
     certs: ['MoCRA'],
     i18n: {
-      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any), he: mk(rnhBioHe as any), hi: mk(rnhBioHi as any),
+      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any), he: mk(rnhBioHe as any), hi: mk(rnhBioHi as any), ar: mk(rnhBioAr as any),
     },
   },
   {
@@ -3420,7 +3424,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/plk-lift-catalog-ru.pdf', en: '/docs/plk-lift-catalog-en.pdf', ko: '/docs/plk-lift-catalog-ko.pdf', zh: '/docs/plk-lift-catalog-zh.pdf', ja: '/docs/plk-lift-catalog-ja.pdf', it: '/docs/plk-lift-catalog-it.pdf', de: '/docs/plk-lift-catalog-de.pdf', fr: '/docs/plk-lift-catalog-fr.pdf', tr: '/docs/plk-lift-catalog-tr.pdf', es: '/docs/plk-lift-catalog-es.pdf', pt: '/docs/plk-lift-catalog-pt.pdf' },
     presFile: { ru: '/docs/plk-lift-presentation-ru.pdf', en: '/docs/plk-lift-presentation-en.pdf', ko: '/docs/plk-lift-presentation-ko.pdf', zh: '/docs/plk-lift-presentation-zh.pdf', ja: '/docs/plk-lift-presentation-ja.pdf', it: '/docs/plk-lift-presentation-it.pdf', de: '/docs/plk-lift-presentation-de.pdf', fr: '/docs/plk-lift-presentation-fr.pdf', tr: '/docs/plk-lift-presentation-tr.pdf', es: '/docs/plk-lift-presentation-es.pdf', pt: '/docs/plk-lift-presentation-pt.pdf' },
     i18n: {
-      ru: confirmedPlk(plkLiftRu as any), en: confirmedPlk(plkLiftEn as any), ko: confirmedPlk(plkLiftKo as any), zh: confirmedPlk(plkLiftZh as any), ja: confirmedPlk(plkLiftJa as any), it: confirmedPlk(plkLiftIt as any), de: confirmedPlk(plkLiftDe as any), fr: confirmedPlk(plkLiftFr as any), tr: confirmedPlk(plkLiftTr as any), es: confirmedPlk(plkLiftEs as any), pt: confirmedPlk(plkLiftPt as any), he: confirmedPlk(plkLiftHe as any), hi: confirmedPlk(plkLiftHi as any),
+      ru: confirmedPlk(plkLiftRu as any), en: confirmedPlk(plkLiftEn as any), ko: confirmedPlk(plkLiftKo as any), zh: confirmedPlk(plkLiftZh as any), ja: confirmedPlk(plkLiftJa as any), it: confirmedPlk(plkLiftIt as any), de: confirmedPlk(plkLiftDe as any), fr: confirmedPlk(plkLiftFr as any), tr: confirmedPlk(plkLiftTr as any), es: confirmedPlk(plkLiftEs as any), pt: confirmedPlk(plkLiftPt as any), he: confirmedPlk(plkLiftHe as any), hi: confirmedPlk(plkLiftHi as any), ar: confirmedPlk(plkLiftAr as any),
     },
   },
   {
