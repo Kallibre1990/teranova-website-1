@@ -331,6 +331,7 @@ import whamisaEs from './suppliers-i18n/whamisa.es.json';
 import whamisaPt from './suppliers-i18n/whamisa.pt.json';
 import whamisaHe from './suppliers-i18n/whamisa.he.json';
 import whamisaHi from './suppliers-i18n/whamisa.hi.json';
+import whamisaAr from './suppliers-i18n/whamisa.ar.json';
 import whamisaCatalog from './suppliers-i18n/whamisa.catalog.json';
 import veoBiotechRu from './suppliers-i18n/veo-biotech.ru.json';
 import veoBiotechEn from './suppliers-i18n/veo-biotech.en.json';
@@ -345,6 +346,7 @@ import veoBiotechEs from './suppliers-i18n/veo-biotech.es.json';
 import veoBiotechPt from './suppliers-i18n/veo-biotech.pt.json';
 import veoBiotechHe from './suppliers-i18n/veo-biotech.he.json';
 import veoBiotechHi from './suppliers-i18n/veo-biotech.hi.json';
+import veoBiotechAr from './suppliers-i18n/veo-biotech.ar.json';
 import veoBiotechCatalog from './suppliers-i18n/veo-biotech.catalog.json';
 import themaqueenRu from './suppliers-i18n/themaqueen.ru.json';
 import themaqueenEn from './suppliers-i18n/themaqueen.en.json';
@@ -887,6 +889,7 @@ import tdlEs from './suppliers-i18n/three-days-love.es.json';
 import tdlPt from './suppliers-i18n/three-days-love.pt.json';
 import tdlHe from './suppliers-i18n/three-days-love.he.json';
 import tdlHi from './suppliers-i18n/three-days-love.hi.json';
+import tdlAr from './suppliers-i18n/three-days-love.ar.json';
 import licorneRu from './suppliers-i18n/licorne.ru.json';
 import licorneEn from './suppliers-i18n/licorne.en.json';
 import licorneKo from './suppliers-i18n/licorne.ko.json';
@@ -1985,6 +1988,7 @@ export const suppliers: SupplierProfile[] = [
       'RETURN 10 — домашний MTS и пептидный уход': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
       'RETURN 10 — ホームMTSおよびペプチドケア': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
       'RETURN 10 — 홈 MTS 및 펩타이드 케어': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — عناية منزلية بالـMTS والببتيد': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
     },
     catalog: tdlCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
@@ -2008,7 +2012,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(tdlFr as any),
       tr: mk(tdlTr as any),
       es: mk(tdlEs as any),
-      pt: mk(tdlPt as any), he: mk(tdlHe as any), hi: mk(tdlHi as any),
+      pt: mk(tdlPt as any), he: mk(tdlHe as any), hi: mk(tdlHi as any), ar: mk(tdlAr as any),
     },
   },
   {
@@ -2994,7 +2998,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/whamisa-terms-ru.pdf', en: '/docs/whamisa-terms-en.pdf', ko: '/docs/whamisa-terms-ko.pdf', zh: '/docs/whamisa-terms-zh.pdf', ja: '/docs/whamisa-terms-ja.pdf', it: '/docs/whamisa-terms-it.pdf', de: '/docs/whamisa-terms-de.pdf', fr: '/docs/whamisa-terms-fr.pdf', tr: '/docs/whamisa-terms-tr.pdf', es: '/docs/whamisa-terms-es.pdf', pt: '/docs/whamisa-terms-pt.pdf' },
     presFile: { ru: '/docs/whamisa-presentation-ru.pdf', en: '/docs/whamisa-presentation-en.pdf', ko: '/docs/whamisa-presentation-ko.pdf', zh: '/docs/whamisa-presentation-zh.pdf', ja: '/docs/whamisa-presentation-ja.pdf', it: '/docs/whamisa-presentation-it.pdf', de: '/docs/whamisa-presentation-de.pdf', fr: '/docs/whamisa-presentation-fr.pdf', tr: '/docs/whamisa-presentation-tr.pdf', es: '/docs/whamisa-presentation-es.pdf', pt: '/docs/whamisa-presentation-pt.pdf' },
     i18n: {
-      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any), he: mk(whamisaHe as any), hi: mk(whamisaHi as any),
+      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any), he: mk(whamisaHe as any), hi: mk(whamisaHi as any), ar: mk(whamisaAr as any),
     },
   },
   {
@@ -3046,7 +3050,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf', he: '/docs/veo-biotech-terms-he.pdf', hi: '/docs/veo-biotech-terms-hi.pdf' },
     presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf', he: '/docs/veo-biotech-presentation-he.pdf', hi: '/docs/veo-biotech-presentation-hi.pdf' },
     i18n: {
-      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any), he: mk(veoBiotechHe as any), hi: mk(veoBiotechHi as any),
+      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any), he: mk(veoBiotechHe as any), hi: mk(veoBiotechHi as any), ar: mk(veoBiotechAr as any),
     },
   },
   {
