@@ -100,7 +100,7 @@ function localPack(pack: string, lang: ExsoluLocale) {
   if (lang === 'en') return pack.replace(/ea/g, 'units');
   if (lang === 'ja') return pack.replace(/vials/g, 'バイアル').replace(/vial/g, 'バイアル').replace(/box/g, '箱').replace(/ea/g, '個');
   if (lang === 'ko') return pack.replace(/vials/g, '바이알').replace(/vial/g, '바이알').replace(/box/g, '상자').replace(/ea/g, '개');
-  return pack.replace(/mL/g, 'мл').replace(/mg/g, 'мг').replace(/vials/g, 'флаконов').replace(/vial/g, 'флакон').replace(/box/g, 'коробка').replace(/ea/g, 'шт.');
+  return pack.replace(/mL/g, 'мл').replace(/mg/g, 'мг').replace(/\b4 vials\b/g, '4 флакона').replace(/vials/g, 'флаконов').replace(/vial/g, 'флакон').replace(/box/g, 'коробка').replace(/ea/g, 'шт.');
 }
 
 export function exsoluContent(lang: ExsoluLocale) {
