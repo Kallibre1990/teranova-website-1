@@ -50,3 +50,16 @@ SupplierLinePage.astro: оба узла отсутствуют. Структур
 DOM/layout (этап 5). Этап 3 не закрыт. Независимый fixes_needed сохраняется.
 Внешних действий в этом проходе нет. Родитель T-20261126-023 прочитан:
 blocked, не закрыт, что соответствует открытой части.
+
+## Результаты проверки этого прохода
+
+- `node docs/exsolu/check-draft.mjs`: PASS, EN/RU по 22 продукта.
+- `python3 docs/exsolu/validate-images.py`: PASS, 22 изображения, три негативных контроля.
+- `npm run build`: exit 0, включая postbuild home-locale check.
+- `npm run test:i18n`: FAIL в test-dist-verifier.mjs:24, baseline.snapshot,
+  ошибки canonical/lang/hreflang существующих страниц, например
+  /zh/catalog/dachen/ и /zh/catalog/oavo/. Новые EXSOLU маршруты отсутствуют.
+  Общие файлы локализации и маршрутов не изменены; сбой сохранён, не исправлялся
+  в обход объёма этой карточки. Полный лог: /private/tmp/T-20261126-025-tests.log.
+- `node scripts/test-home-locale.mjs`: PASS, включая негативный контроль.
+- DOM/layout QA не выполнен: компонент ещё не подключён к маршрутам.
