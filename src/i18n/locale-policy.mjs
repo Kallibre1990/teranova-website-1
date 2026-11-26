@@ -28,10 +28,11 @@ export const publicLocaleCodes = Object.keys(localeDefinitions)
 export const sectionDefaultLocale = 'ru';
 export const homeDefaultLocale = 'en';
 
-/** EXSOLU's approved task scope contains eleven translations, not he/hi. */
+/** EXSOLU's approved task scope contains eleven translations, not he/hi —
+ * covers both the catalog profile/line pages and its blog articles. */
 export function pageLocaleCodes(path) {
   const clean = '/' + path.replace(/^\/+|\/+$/g, '');
-  return /^\/catalog\/exsolu(?:\/|$)/.test(clean)
+  return /^\/catalog\/exsolu(?:\/|$)/.test(clean) || /^\/blog\/exsolu-/.test(clean)
     ? publicLocaleCodes.filter(code => code !== 'he' && code !== 'hi')
     : publicLocaleCodes;
 }

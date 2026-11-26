@@ -1,8 +1,7 @@
-/* EXSOLU / NOVAMEDINTL blog articles (T-20261126-026). Staged draft: NOT yet
-   imported into blog.ts — wait for all 11 locales (ru/en/ko/zh/ja/it/de/fr/
-   tr/es/pt — EXSOLU's approved scope per locale-policy.mjs pageLocaleCodes()
-   excludes he/hi, matching exsoluDraftLocales in src/data/exsolu.ts) plus
-   independent fact-check before wiring in.
+/* EXSOLU / NOVAMEDINTL blog articles (T-20261126-026). Imported into blog.ts
+   with all 11 locales (ru/en/ko/zh/ja/it/de/fr/tr/es/pt — EXSOLU's approved
+   scope per locale-policy.mjs pageLocaleCodes() excludes he/hi, matching
+   exsoluDraftLocales in src/data/exsolu.ts) after an independent fact-check.
    RU is the source of truth (defaultLang). Facts come only from the three
    source PDFs (docs/exsolu/source-manifest.json / products.json) and from
    the already-reviewed public profile copy in src/data/exsolu.ts (accepted
