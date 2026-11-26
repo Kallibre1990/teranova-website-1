@@ -11,11 +11,14 @@ import { germanCopy, germanBoosters, germanSkincare } from './exsolu-de';
 
 import { frenchCopy, frenchBoosters, frenchSkincare } from './exsolu-fr';
 
-export const exsoluDraftLocales = ['en', 'ru', 'ko', 'ja', 'zh', 'de', 'fr'] as const;
+import { italianCopy, italianBoosters, italianSkincare } from './exsolu-it';
+
+export const exsoluDraftLocales = ['en', 'ru', 'ko', 'ja', 'zh', 'de', 'fr', 'it'] as const;
 export type ExsoluLocale = typeof exsoluDraftLocales[number];
 export type ExsoluView = 'company' | 'skin-boosters' | 'skincare';
 
 const copy = {
+  it: italianCopy,
   fr: frenchCopy,
   de: germanCopy,
   ko: koreanCopy,
@@ -78,6 +81,7 @@ function imageFor(id: string) {
 }
 
 function localPack(pack: string, lang: ExsoluLocale) {
+  if (lang === 'it') return pack.replace(/vials/g, 'flaconcini').replace(/vial/g, 'flaconcino').replace(/box/g, 'confezione').replace(/ea/g, 'unità');
   if (lang === 'fr') return pack.replace(/vials/g, 'flacons').replace(/vial/g, 'flacon').replace(/box/g, 'boîte').replace(/ea/g, 'unités');
   if (lang === 'de') return pack.replace(/vials/g, 'Fläschchen').replace(/vial/g, 'Fläschchen').replace(/box/g, 'Packung').replace(/ea/g, 'Stück');
   if (lang === 'zh') return pack.replace(/vials/g, '瓶').replace(/vial/g, '瓶').replace(/box/g, '盒').replace(/ea/g, '件');
@@ -97,15 +101,15 @@ export function exsoluContent(lang: ExsoluLocale) {
     const p = product as unknown as Record<string, string>;
     return {
       id, name: product.name, image: imageFor(id), pack: localPack(product.pack, lang),
-      description: lang === 'fr' ? frenchBoosters[product.name].description : lang === 'de' ? germanBoosters[product.name].description : lang === 'zh' ? chineseBoosters[product.name].description : lang === 'ja' ? japaneseBoosters[product.name].description : lang === 'ko' ? koreanBoosters[product.name].description : pair[index],
-      ingredients: lang === 'fr' ? frenchBoosters[product.name].ingredients : lang === 'de' ? germanBoosters[product.name].ingredients : lang === 'zh' ? chineseBoosters[product.name].ingredients : lang === 'ja' ? japaneseBoosters[product.name].ingredients : lang === 'ko' ? koreanBoosters[product.name].ingredients : p[`ingredients_${lang}`] ?? p[`design_${lang}`] ?? '',
+      description: lang === 'it' ? italianBoosters[product.name].description : lang === 'fr' ? frenchBoosters[product.name].description : lang === 'de' ? germanBoosters[product.name].description : lang === 'zh' ? chineseBoosters[product.name].description : lang === 'ja' ? japaneseBoosters[product.name].description : lang === 'ko' ? koreanBoosters[product.name].description : pair[index],
+      ingredients: lang === 'it' ? italianBoosters[product.name].ingredients : lang === 'fr' ? frenchBoosters[product.name].ingredients : lang === 'de' ? germanBoosters[product.name].ingredients : lang === 'zh' ? chineseBoosters[product.name].ingredients : lang === 'ja' ? japaneseBoosters[product.name].ingredients : lang === 'ko' ? koreanBoosters[product.name].ingredients : p[`ingredients_${lang}`] ?? p[`design_${lang}`] ?? '',
       caution: id === 'nad-air-shot' ? copy[lang].nad : '',
     };
   }));
   const skincare = source.lines.skincare.products.map((product) => ({
-    id: product.code.toLowerCase(), name: lang === 'fr' ? frenchSkincare[product.code].name : lang === 'de' ? germanSkincare[product.code].name : lang === 'zh' ? chineseSkincare[product.code].name : lang === 'ja' ? japaneseSkincare[product.code].name : lang === 'ko' ? koreanSkincare[product.code].name : product[`name_${lang}`], image: imageFor(product.code.toLowerCase()),
-    pack: localPack(product.pack, lang), description: lang === 'fr' ? frenchSkincare[product.code].description : lang === 'de' ? germanSkincare[product.code].description : lang === 'zh' ? chineseSkincare[product.code].description : lang === 'ja' ? japaneseSkincare[product.code].description : lang === 'ko' ? koreanSkincare[product.code].description : product[`directions_${lang}`],
-    ingredients: lang === 'fr' ? frenchSkincare[product.code].ingredients : lang === 'de' ? germanSkincare[product.code].ingredients : lang === 'zh' ? chineseSkincare[product.code].ingredients : lang === 'ja' ? japaneseSkincare[product.code].ingredients : lang === 'ko' ? koreanSkincare[product.code].ingredients : product[`key_ingredients_${lang}`], caution: '',
+    id: product.code.toLowerCase(), name: lang === 'it' ? italianSkincare[product.code].name : lang === 'fr' ? frenchSkincare[product.code].name : lang === 'de' ? germanSkincare[product.code].name : lang === 'zh' ? chineseSkincare[product.code].name : lang === 'ja' ? japaneseSkincare[product.code].name : lang === 'ko' ? koreanSkincare[product.code].name : product[`name_${lang}`], image: imageFor(product.code.toLowerCase()),
+    pack: localPack(product.pack, lang), description: lang === 'it' ? italianSkincare[product.code].description : lang === 'fr' ? frenchSkincare[product.code].description : lang === 'de' ? germanSkincare[product.code].description : lang === 'zh' ? chineseSkincare[product.code].description : lang === 'ja' ? japaneseSkincare[product.code].description : lang === 'ko' ? koreanSkincare[product.code].description : product[`directions_${lang}`],
+    ingredients: lang === 'it' ? italianSkincare[product.code].ingredients : lang === 'fr' ? frenchSkincare[product.code].ingredients : lang === 'de' ? germanSkincare[product.code].ingredients : lang === 'zh' ? chineseSkincare[product.code].ingredients : lang === 'ja' ? japaneseSkincare[product.code].ingredients : lang === 'ko' ? koreanSkincare[product.code].ingredients : product[`key_ingredients_${lang}`], caution: '',
   }));
   return { ...copy[lang], boosters, skincareProducts: skincare };
 }
