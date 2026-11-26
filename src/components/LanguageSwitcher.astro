@@ -1,6 +1,7 @@
 ---
 import { localizePath } from '../i18n/utils';
 import { languages, ui, type Lang } from '../i18n/ui';
+import { pageLocaleCodes } from '../i18n/locale-policy.mjs';
 
 interface Props {
   lang: Lang;
@@ -8,7 +9,7 @@ interface Props {
 }
 const { lang, path } = Astro.props;
 const t = ui[lang];
-const items = (Object.keys(languages) as Lang[]).map((l) => ({
+const items = (Object.keys(languages) as Lang[]).filter(l => pageLocaleCodes(path).includes(l)).map((l) => ({
   code: l,
   label: languages[l],
   short: l.toUpperCase(),

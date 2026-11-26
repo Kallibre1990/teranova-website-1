@@ -1,0 +1,10 @@
+---
+import ExsoluPage from '../../../../components/pages/ExsoluPage.astro';
+import { exsoluDraftLocales } from '../../../../data/exsolu';
+export function getStaticPaths() {
+  return exsoluDraftLocales.filter(lang => lang !== 'ru').flatMap(lang =>
+    ['skin-boosters', 'skincare'].map(view => ({ params: { lang, view }, props: { lang, view } })));
+}
+const { lang, view } = Astro.props;
+---
+<ExsoluPage lang={lang} view={view} />
