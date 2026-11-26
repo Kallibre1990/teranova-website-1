@@ -251,6 +251,117 @@ export const exsoluPosts: BlogPost[] = [
           },
         ],
       },
+      fr: {
+        title: 'NOVAMEDINTL et la marque EXSOLU : de l’esthétique professionnelle aux soins à domicile',
+        excerpt: 'NOVAMEDINTL conçoit et fabrique des boosters cosmétiques professionnels pour la peau et des soins quotidiens sous sa propre marque EXSOLU — 22 produits répartis en deux gammes, avec sa propre capacité OEM/ODM. Nous présentons le portefeuille de l’entreprise et expliquons pourquoi la gamme professionnelle reste cosmétique et non un dispositif médical.',
+        seoTitle: 'NOVAMEDINTL et EXSOLU : profil d’un fabricant coréen de cosmétiques · Teranova',
+        seoDesc: 'NOVAMEDINTL et la marque EXSOLU : R&D, OEM/ODM et 22 produits en deux gammes. Pourquoi les boosters cosmétiques professionnels EXSOLU ne sont pas un dispositif médical. Comment envoyer une demande via Teranova.',
+        sections: [
+          {
+            h: 'L’entreprise et la marque EXSOLU',
+            p: [
+              'NOVAMEDINTL est une entreprise coréenne spécialisée dans la recherche, le développement et la fabrication de boosters cosmétiques professionnels pour la peau et de produits de soin quotidien haut de gamme. L’entreprise élabore des formulations à base d’ingrédients premium et de technologies de délivrance modernes, propose des solutions OEM et ODM sur mesure, et contrôle la qualité de production tout en développant sa présence sur les marchés mondiaux (NOVAMEDINTL_EN①.pdf, p. 1).',
+              'La marque propre de l’entreprise est EXSOLU : le nom associe « Extraordinary » (extraordinaire) et « Solution ». Grâce à des ingrédients soigneusement sélectionnés et à des formulations propriétaires, la marque transpose la valeur des soins professionnels de la peau dans un format quotidien à domicile — « de la clinique à la maison » (NOVAMEDINTL_EN①.pdf, p. 1). Le portefeuille EXSOLU compte 22 produits : 17 dans la gamme professionnelle de boosters cosmétiques pour la peau et 5 dans la gamme de soins quotidiens EXSOLU Skincare (NOVAMEDINTL_EN①.pdf, p. 2).',
+            ],
+          },
+          {
+            h: 'La gamme professionnelle : quatre orientations dans un même cadre cosmétique',
+            p: [
+              'La gamme professionnelle réunit 17 produits. Deux d’entre eux — PCL et dPLLA — sont décrits sur la page de profil EXSOLU comme une « formulation cosmétique à base de colloïde PCL sans particules et d’acide hyaluronique » et une « formulation à base de dPLLA de faible poids moléculaire » ; tous deux visent le soin de la fermeté et de la densité de la peau. Trois autres produits — DAEMU, YURI et PP — relèvent du soin cosmétique professionnel : DAEMU est présenté comme une étape préparatoire avant un soin ultérieur, YURI pour un contour du visage d’aspect plus ferme, et PP pour la fermeté et l’élasticité de la peau (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 2-3).',
+              'Cinq produits sont construits autour des exosomes : BOOST SOLUTION (exosomes, tripeptide de collagène et acide hyaluronique — pour l’hydratation et l’élasticité), HYDRO-WHITE (exosomes, acides hyaluronique et tranexamique — pour l’hydratation et un teint d’aspect plus uniforme), EXO-PLUS (soin professionnel du cuir chevelu à base d’exosomes enrobés de PDRN), EXOBENE-S (exosomes, acide hyaluronique et acides aminés — pour une peau d’aspect plus lisse, plus ferme et plus hydratée) et EXOBENE-H (soin du cuir chevelu et des cheveux à base d’exosomes, de niacinamide, de biotine et de peptide de cuivre) (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 4). Ce que les revues scientifiques indépendantes disent des exosomes en cosmétique est développé dans un article de blog séparé.',
+              'Les autres produits relèvent de l’orientation bien-être : SOSU est un produit à base de ginseng, SAMSHIN et NOPA sont des produits d’origine végétale, et DANGUN-S, DANGUN-SS et DANGUN-SM sont des formulations à base de ginseng à différentes concentrations au sein de la gamme DANGUN (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 5). NAD+ AIR SHOT se distingue à part : NAD+ 100 mg et NMN 40 mg par flacon, en format pour nébuliseur — le fabricant précise explicitement : ne pas injecter, suivre les instructions du fabricant.',
+            ],
+          },
+          {
+            h: 'Pourquoi c’est un produit cosmétique et non un dispositif médical',
+            p: [
+              'La page de profil EXSOLU sur le site Teranova indique explicitement : « Pour la gamme professionnelle, nous fournissons une documentation cosmétique standard. La classification du produit et son usage autorisé dépendent du marché de destination » — c’est la formulation propre du fabricant, non notre interprétation. C’est pourquoi, dans tous les contenus de Teranova, la gamme professionnelle EXSOLU est décrite uniquement comme un produit cosmétique à usage professionnel — sans les termes « injection » ou « dispositif médical », sauf dans la citation directe de l’avertissement du NAD+ AIR SHOT.',
+              'Cette frontière correspond à la logique de la réglementation coréenne. En Corée, les produits injectables esthétiques et les produits à base de tissus humains suivent des procédures d’autorisation distinctes en tant que dispositifs médicaux, tandis que les produits cosmétiques sont réglementés différemment et, à l’exception de la cosmétique fonctionnelle, ne nécessitent généralement pas d’autorisation produit par produit. En mars 2026, le ministère coréen de la Sécurité des aliments et des médicaments (MFDS) a annoncé son intention de renforcer spécifiquement le contrôle des boosters à base de tissus humains — une catégorie distincte qui ne recoupe pas la cosmétique classique (The Korea Economic Daily, 29.03.2026). C’est une confirmation indépendante que la frontière « cosmétique / dispositif médical », sur laquelle insiste le fabricant d’EXSOLU, est réelle et effective, et non une simple formalité.',
+            ],
+          },
+          {
+            h: 'EXSOLU Skincare — cinq soins pour l’usage quotidien',
+            p: [
+              'La gamme EXSOLU Skincare transpose la même expertise dans un format pour la maison : cinq produits pour l’hydratation, le renforcement de la barrière cutanée, la fermeté, l’éclat et le soin ciblé (NOVAMEDINTL_EN①.pdf, p. 3). Le masque de nuit Spider Silk Chitosan Super Mask est construit autour du chitosane (40 000 ppm) et d’un biopeptide dérivé de soie d’araignée ; les sérums Rose Firming et Ginseng Brightening sont à base de PDRN de rose et de ginseng avec vitamines et acide hyaluronique ; et la paire Vesicles Brightening Serum (Intensive et Daily) utilise des vésicules extracellulaires de brocoli et le système de délivrance Reprosome™ (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2-4).',
+              'Ce que la science indépendante dit réellement du chitosane, du PDRN et du ginseng — et où les affirmations du fabricant dépassent le niveau des preuves cliniques — fait l’objet de l’article suivant. La liste complète des produits, les compositions et la documentation figurent sur la page EXSOLU du site Teranova.',
+            ],
+          },
+        ],
+      },
+      it: {
+        title: 'NOVAMEDINTL e il marchio EXSOLU: dall’estetica professionale alla cura domiciliare',
+        excerpt: 'NOVAMEDINTL sviluppa e produce booster cosmetici professionali per la pelle e prodotti per la cura quotidiana con il proprio marchio EXSOLU — 22 prodotti in due linee, oltre a una propria capacità OEM/ODM. Presentiamo il portafoglio dell’azienda e spieghiamo perché la linea professionale resta un prodotto cosmetico e non un dispositivo medico.',
+        seoTitle: 'NOVAMEDINTL ed EXSOLU: profilo di un produttore coreano di cosmetici · Teranova',
+        seoDesc: 'NOVAMEDINTL e il marchio EXSOLU: R&S, OEM/ODM e 22 prodotti in due linee. Perché i booster cosmetici professionali EXSOLU non sono un dispositivo medico. Come inviare una richiesta tramite Teranova.',
+        sections: [
+          {
+            h: 'L’azienda e il marchio EXSOLU',
+            p: [
+              'NOVAMEDINTL è un’azienda coreana impegnata nella ricerca, nello sviluppo e nella produzione di booster cosmetici professionali per la pelle e di prodotti premium per la cura quotidiana. L’azienda realizza formulazioni con ingredienti premium e tecnologie di veicolazione moderne, offre soluzioni OEM e ODM su misura e controlla la qualità della produzione, ampliando al contempo la propria presenza sui mercati globali (NOVAMEDINTL_EN①.pdf, p. 1).',
+              'Il marchio proprio dell’azienda è EXSOLU: il nome unisce “Extraordinary” (straordinario) e “Solution” (soluzione). Attraverso ingredienti selezionati con cura e formulazioni proprietarie, il marchio trasferisce il valore della cura professionale della pelle in un formato quotidiano per la casa — “dalla clinica a casa” (NOVAMEDINTL_EN①.pdf, p. 1). Il portafoglio EXSOLU comprende 22 prodotti: 17 nella linea professionale di booster cosmetici per la pelle e 5 nella linea di cura quotidiana EXSOLU Skincare (NOVAMEDINTL_EN①.pdf, p. 2).',
+            ],
+          },
+          {
+            h: 'La linea professionale: quattro direzioni in un’unica cornice cosmetica',
+            p: [
+              'La linea professionale riunisce 17 prodotti. Due di essi — PCL e dPLLA — sono descritti nella pagina di profilo EXSOLU come una “formulazione cosmetica con colloide PCL privo di particelle e acido ialuronico” e una “formulazione a base di dPLLA a basso peso molecolare”; entrambi sono destinati alla cura della compattezza e della densità della pelle. Altri tre prodotti — DAEMU, YURI e PP — rientrano nella cura cosmetica professionale: DAEMU è presentato come fase preparatoria prima di un trattamento successivo, YURI per un contorno del viso di aspetto più tonico, e PP per compattezza ed elasticità della pelle (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 2-3).',
+              'Cinque prodotti sono costruiti sugli esosomi: BOOST SOLUTION (esosomi, tripeptide di collagene e acido ialuronico — per idratazione ed elasticità), HYDRO-WHITE (esosomi, acido ialuronico e acido tranexamico — per idratazione e un tono della pelle di aspetto più uniforme), EXO-PLUS (cura professionale del cuoio capelluto con esosomi rivestiti di PDRN), EXOBENE-S (esosomi, acido ialuronico e aminoacidi — per una pelle di aspetto più liscio, compatto e idratato) ed EXOBENE-H (cura del cuoio capelluto e dei capelli con esosomi, niacinamide, biotina e peptide di rame) (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 4). Ciò che le revisioni scientifiche indipendenti affermano sugli esosomi in cosmetica è approfondito in un articolo del blog separato.',
+              'Gli altri prodotti rientrano nell’orientamento wellness: SOSU è un prodotto a base di ginseng, SAMSHIN e NOPA sono prodotti di origine vegetale, mentre DANGUN-S, DANGUN-SS e DANGUN-SM sono formulazioni a base di ginseng a diverse concentrazioni all’interno della linea DANGUN (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 5). A parte si colloca NAD+ AIR SHOT: NAD+ 100 mg e NMN 40 mg per flaconcino, in formato per nebulizzatore — il produttore indica espressamente: non iniettare, seguire le istruzioni del produttore.',
+            ],
+          },
+          {
+            h: 'Perché è un prodotto cosmetico e non un dispositivo medico',
+            p: [
+              'La pagina di profilo EXSOLU sul sito Teranova afferma espressamente: “Per la linea professionale forniamo documentazione cosmetica standard. La classificazione del prodotto e l’uso consentito dipendono dal mercato di destinazione” — questa è la formulazione propria del produttore, non una nostra interpretazione. Per questo, in tutti i materiali Teranova, la linea professionale EXSOLU è descritta esclusivamente come prodotto cosmetico per uso professionale — senza i termini “iniezione” o “dispositivo medico”, salvo nella citazione diretta dell’avvertenza relativa a NAD+ AIR SHOT.',
+              'Questo confine corrisponde alla logica della normativa coreana. In Corea, i prodotti iniettabili estetici e i prodotti a base di tessuto umano seguono procedure di autorizzazione separate come dispositivi medici, mentre i prodotti cosmetici sono regolati diversamente e, salvo la cosmetica funzionale, di norma non richiedono un’autorizzazione per singolo prodotto. Nel marzo 2026 il Ministero della Sicurezza di Alimenti e Farmaci della Corea (MFDS) ha annunciato l’intenzione di rafforzare la vigilanza specificamente sui booster a base di tessuto umano — una categoria distinta che non coincide con la cosmetica classica (The Korea Economic Daily, 29.03.2026). Si tratta di una conferma indipendente che il confine “cosmetico / dispositivo medico”, su cui insiste il produttore di EXSOLU, è reale ed effettivo, e non una semplice formalità.',
+            ],
+          },
+          {
+            h: 'EXSOLU Skincare — cinque prodotti per la cura quotidiana',
+            p: [
+              'La linea EXSOLU Skincare trasferisce la stessa competenza in un formato per la casa: cinque prodotti per idratazione, rinforzo della barriera cutanea, compattezza, luminosità e cura mirata (NOVAMEDINTL_EN①.pdf, p. 3). La maschera notte Spider Silk Chitosan Super Mask è costruita su chitosano (40.000 ppm) e un biopeptide derivato da seta di ragno; i sieri Rose Firming e Ginseng Brightening si basano su PDRN di rosa e di ginseng con vitamine e acido ialuronico; e la coppia Vesicles Brightening Serum (Intensive e Daily) utilizza vesicole extracellulari di broccolo e il sistema di veicolazione Reprosome™ (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2-4).',
+              'Ciò che la scienza indipendente afferma realmente su chitosano, PDRN e ginseng — e dove le affermazioni del produttore superano il livello delle evidenze cliniche — è l’oggetto dell’articolo successivo. L’elenco completo dei prodotti, le composizioni e la documentazione sono disponibili sulla pagina EXSOLU del sito Teranova.',
+            ],
+          },
+        ],
+      },
+      es: {
+        title: 'NOVAMEDINTL y la marca EXSOLU: de la estética profesional al cuidado en casa',
+        excerpt: 'NOVAMEDINTL desarrolla y fabrica boosters cosméticos profesionales para la piel y productos de cuidado diario bajo su propia marca EXSOLU — 22 productos en dos líneas, además de su propia capacidad OEM/ODM. Repasamos el portafolio de la empresa y explicamos por qué la línea profesional sigue siendo cosmética y no un dispositivo médico.',
+        seoTitle: 'NOVAMEDINTL y EXSOLU: perfil de un fabricante coreano de cosméticos · Teranova',
+        seoDesc: 'NOVAMEDINTL y la marca EXSOLU: I+D, OEM/ODM y 22 productos en dos líneas. Por qué los boosters cosméticos profesionales de EXSOLU no son un dispositivo médico. Cómo enviar una solicitud a través de Teranova.',
+        sections: [
+          {
+            h: 'La empresa y la marca EXSOLU',
+            p: [
+              'NOVAMEDINTL es una empresa coreana dedicada a la investigación, el desarrollo y la fabricación de boosters cosméticos profesionales para la piel y productos premium de cuidado diario. La empresa desarrolla formulaciones con ingredientes premium y tecnologías de administración modernas, ofrece soluciones OEM y ODM a medida, y controla la calidad de producción mientras amplía su presencia en los mercados globales (NOVAMEDINTL_EN①.pdf, p. 1).',
+              'La marca propia de la empresa es EXSOLU: el nombre combina “Extraordinary” (extraordinario) y “Solution” (solución). Mediante ingredientes cuidadosamente seleccionados y formulaciones propias, la marca traslada el valor del cuidado profesional de la piel a un formato cotidiano para el hogar — “de la clínica a casa” (NOVAMEDINTL_EN①.pdf, p. 1). El portafolio de EXSOLU abarca 22 productos: 17 en la línea profesional de boosters cosméticos para la piel y 5 en la línea de cuidado diario EXSOLU Skincare (NOVAMEDINTL_EN①.pdf, p. 2).',
+            ],
+          },
+          {
+            h: 'La línea profesional: cuatro orientaciones dentro de un mismo marco cosmético',
+            p: [
+              'La línea profesional reúne 17 productos. Dos de ellos — PCL y dPLLA — se describen en la página de perfil de EXSOLU como una “formulación cosmética con coloide PCL sin partículas y ácido hialurónico” y una “formulación a base de dPLLA de bajo peso molecular”; ambos están orientados al cuidado de la firmeza y la densidad de la piel. Otros tres productos — DAEMU, YURI y PP — son cuidado cosmético profesional: DAEMU se presenta como un paso preparatorio antes de un cuidado posterior, YURI para un contorno facial de aspecto más firme, y PP para la firmeza y elasticidad de la piel (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 2-3).',
+              'Cinco productos están construidos a partir de exosomas: BOOST SOLUTION (exosomas, tripéptido de colágeno y ácido hialurónico, para hidratación y elasticidad), HYDRO-WHITE (exosomas, ácido hialurónico y ácido tranexámico, para hidratación y un tono de piel de aspecto más uniforme), EXO-PLUS (cuidado profesional del cuero cabelludo con exosomas recubiertos de PDRN), EXOBENE-S (exosomas, ácido hialurónico y aminoácidos, para una piel de aspecto más liso, firme e hidratado) y EXOBENE-H (cuidado del cuero cabelludo y el cabello con exosomas, niacinamida, biotina y péptido de cobre) (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 4). Lo que las revisiones científicas independientes dicen sobre los exosomas en cosmética se trata en un artículo de blog aparte.',
+              'El resto de los productos corresponden a la orientación wellness: SOSU es un producto a base de ginseng, SAMSHIN y NOPA son productos de origen vegetal, y DANGUN-S, DANGUN-SS y DANGUN-SM son formulaciones a base de ginseng en distintas concentraciones dentro de la línea DANGUN (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 5). Aparte se encuentra NAD+ AIR SHOT: NAD+ 100 mg y NMN 40 mg por frasco, en formato para nebulizador — el fabricante indica expresamente: no inyectar, seguir las instrucciones del fabricante.',
+            ],
+          },
+          {
+            h: 'Por qué es un producto cosmético y no un dispositivo médico',
+            p: [
+              'La página de perfil de EXSOLU en el sitio de Teranova indica expresamente: “Para la línea profesional proporcionamos documentación cosmética estándar. La clasificación del producto y su uso permitido dependen del mercado de destino” — esta es la formulación propia del fabricante, no nuestra interpretación. Por eso, en todos los materiales de Teranova, la línea profesional de EXSOLU se describe únicamente como un producto cosmético de uso profesional — sin los términos “inyección” o “dispositivo médico”, salvo en la cita directa de la advertencia del NAD+ AIR SHOT.',
+              'Este límite coincide con la lógica de la regulación coreana. En Corea, los productos inyectables estéticos y los productos derivados de tejido humano siguen procedimientos de autorización independientes como dispositivos médicos, mientras que los productos cosméticos se regulan de otra manera y, salvo la cosmética funcional, por lo general no requieren autorización producto por producto. En marzo de 2026, el Ministerio de Seguridad de Alimentos y Medicamentos de Corea (MFDS) anunció su intención de reforzar específicamente la vigilancia sobre los boosters a base de tejido humano — una categoría aparte que no coincide con la cosmética clásica (The Korea Economic Daily, 29.03.2026). Esta es una confirmación independiente de que el límite “cosmético / dispositivo médico”, en el que insiste el fabricante de EXSOLU, es real y efectivo, y no una mera formalidad.',
+            ],
+          },
+          {
+            h: 'EXSOLU Skincare — cinco productos para el cuidado diario',
+            p: [
+              'La línea EXSOLU Skincare traslada la misma experiencia a un formato para el hogar: cinco productos para hidratación, refuerzo de la barrera cutánea, firmeza, luminosidad y cuidado puntual (NOVAMEDINTL_EN①.pdf, p. 3). La mascarilla de noche Spider Silk Chitosan Super Mask se basa en quitosano (40.000 ppm) y un biopéptido derivado de seda de araña; los sueros Rose Firming y Ginseng Brightening se basan en PDRN de rosa y de ginseng con vitaminas y ácido hialurónico; y el dúo Vesicles Brightening Serum (Intensive y Daily) utiliza vesículas extracelulares de brócoli y el sistema de administración Reprosome™ (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2-4).',
+              'Lo que la ciencia independiente dice realmente sobre el quitosano, el PDRN y el ginseng — y dónde las afirmaciones del fabricante superan el nivel de evidencia clínica — se aborda en el siguiente artículo. El listado completo de productos, las composiciones y la documentación están disponibles en la página de EXSOLU del sitio de Teranova.',
+            ],
+          },
+        ],
+      },
     },
   },
   {
@@ -474,6 +585,114 @@ export const exsoluPosts: BlogPost[] = [
             p: [
               'Alle Beschreibungen und Wirkungen in diesem Artikel sind Aussagen von NOVAMEDINTL in seinen Produktunterlagen; es handelt sich um Beschreibungen kosmetischer Produkte, nicht um unabhängig bestätigte klinische Ergebnisse (dieselbe Zuordnung, die auf der EXSOLU-Profilseite verwendet wird). Die genannten Inhaltsstoffe sind nur teilweise offengelegt und ersetzen keine vollständige INCI-Zusammensetzung.',
               'Die unabhängige Wissenschaft bestätigt für jeden Schlüsselinhaltsstoff einen plausiblen Mechanismus — den feuchtigkeitsspendenden Film von Chitosan, das dermatologische Interesse an PDRN, die antioxidative Aktivität von Ginsenosiden —, jedoch in unterschiedlichem Ausmaß und häufiger auf der Ebene des Inhaltsstoffs oder einer Laborstudie als auf der des fertigen EXSOLU-Produkts. Vollständige Zusammensetzungsunterlagen und marktspezifische Beschränkungen können über die EXSOLU-Seite der Teranova-Website angefragt werden.',
+            ],
+          },
+        ],
+      },
+      fr: {
+        title: 'PDRN, chitosane et ginseng dans EXSOLU Skincare : ce que dit la science sur ces ingrédients',
+        excerpt: 'Les cinq produits de la gamme EXSOLU Skincare sont construits autour du chitosane, du PDRN et du ginseng. Nous examinons ce que les revues scientifiques indépendantes disent de ces ingrédients — et où les affirmations du fabricant dépassent le niveau des preuves cliniques, et où elles s’y alignent.',
+        seoTitle: 'PDRN, chitosane, ginseng : les ingrédients d’EXSOLU Skincare et la science · Teranova',
+        seoDesc: 'Ce que l’on sait du chitosane, du PDRN et du ginseng en cosmétique : revues scientifiques indépendantes et usage de ces ingrédients dans la gamme EXSOLU Skincare de NOVAMEDINTL.',
+        sections: [
+          {
+            h: 'Le chitosane et le biopeptide de soie d’araignée dans le masque de nuit',
+            p: [
+              'Le Spider Silk Chitosan Super Mask (S0) est un masque de nuit construit autour du chitosane (40 000 ppm) et d’un biopeptide dérivé de soie d’araignée (SR-PEPTIDE), avec niacinamide, acide tranexamique et un complexe multi-collagène. Selon la description du fabricant, la formule s’applique le soir et se rince le matin : elle forme un film hydratant doux sur la peau, assure une hydratation nocturne et aide à préserver un teint d’aspect sain et soigné (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2).',
+              'Le chitosane est l’un des polymères les plus étudiés en cosmétique : une revue de Kulka et Sionkowska (Molecules, 2023) le décrit comme un humectant naturel et un composant filmogène qui, par attraction électrostatique avec la surface de la peau, forme une couche hydratante et réduit la perte d’eau — exactement le mécanisme auquel renvoie la description du masque. Le biopeptide dérivé de soie d’araignée (SR-PEPTIDE), en revanche, est une appellation d’ingrédient propriétaire du fabricant ; nous n’avons trouvé aucune étude indépendante sur ce peptide brevété spécifique dans la littérature ouverte, si bien que son effet reste une affirmation de NOVAMEDINTL et non un fait confirmé de manière indépendante.',
+            ],
+          },
+          {
+            h: 'Le PDRN dans les sérums Rose Firming et Ginseng Brightening',
+            p: [
+              'Le sérum EXSOLU Rose Firming Serum (S1) est construit autour du PDRN de rose (ADN hydrolysé), de vésicules extracellulaires dérivées de CICA, de vitamine B12, d’adénosine, de glutathion, d’acide hyaluronique et d’un complexe de collagène à 9 composants — pour une hydratation et une fermeté quotidiennes. Le EXSOLU Ginseng Brightening Serum (S2) utilise du PDRN de ginseng avec niacinamide, acide tranexamique, glutathion et vitamine C — pour un teint plus éclatant et plus frais (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2-3).',
+              'Le PDRN (polydésoxyribonucléotide) est un ingrédient à base de fragments d’ADN, traditionnellement extrait du saumon. Les revues scientifiques indépendantes de 2025 (Pharmaceutics ; Applied Sciences) font état d’une base de preuves croissante en dermatologie, avec une réserve importante : les données cliniques les plus solides concernent l’usage injectable en clinique, tandis que les preuves pour les sérums à usage domestique sont moins développées et dépendent fortement de la concentration, de la stabilité de la formule et du système de délivrance. Cela n’invalide pas l’usage du PDRN dans un sérum, mais signifie que les affirmations sur son effet restent une description cosmétique du fabricant, et non un résultat clinique confirmé de manière indépendante — exactement comme le formule l’attribution propre d’EXSOLU.',
+            ],
+          },
+          {
+            h: 'Le ginseng : ce que montrent les études en laboratoire',
+            p: [
+              'Le ginseng dans le EXSOLU Ginseng Brightening Serum n’est pas seulement présent sous forme de PDRN : les ginsénosides de la plante, des saponines actives, ont été étudiés séparément et se divisent en deux types — protopanaxadiol (PPD) et protopanaxatriol (PPT). Une revue systématique sur les ginsénosides et l’état de la peau montre que le type PPD est principalement lié à une activité antioxydante et anti-inflammatoire, tandis que le type PPT est lié à la synthèse du collagène et au renouvellement de la matrice extracellulaire.',
+              'Une étude de laboratoire distincte sur des extraits de ginseng rouge (MDPI, Molecules, 2022) a montré une activité antioxydante marquée et un effet éclaircissant pour un extrait à l’acétate d’éthyle — in vitro, c’est-à-dire en éprouvette, pas chez l’humain. Cela concorde avec la conclusion générale des revues indépendantes : l’activité antioxydante et éclaircissante des ginsénosides est confirmée au niveau du laboratoire, tandis que les données cliniques sur l’éclaircissement de la peau chez l’humain restent moins complètes.',
+            ],
+          },
+          {
+            h: 'Ce que cela signifie pour l’acheteur',
+            p: [
+              'Toutes les descriptions et effets de cet article sont des affirmations de NOVAMEDINTL dans ses documents produits ; il s’agit de descriptions de produits cosmétiques, et non de résultats cliniques confirmés de manière indépendante (la même attribution que celle adoptée sur la page de profil EXSOLU). Les ingrédients mentionnés ne sont divulgués que partiellement et ne remplacent pas une composition INCI complète.',
+              'La science indépendante confirme un mécanisme plausible pour chaque ingrédient clé — le film hydratant du chitosane, l’intérêt dermatologique pour le PDRN, l’activité antioxydante des ginsénosides — mais à des degrés variables et le plus souvent au niveau de l’ingrédient ou d’une étude de laboratoire plutôt qu’au niveau du produit EXSOLU fini. La documentation complète sur la composition et les restrictions spécifiques au marché peut être demandée via la page EXSOLU du site Teranova.',
+            ],
+          },
+        ],
+      },
+      it: {
+        title: 'PDRN, chitosano e ginseng in EXSOLU Skincare: cosa dice la scienza su questi ingredienti',
+        excerpt: 'I cinque prodotti della linea EXSOLU Skincare sono costruiti attorno a chitosano, PDRN e ginseng. Analizziamo cosa dicono le revisioni scientifiche indipendenti su questi ingredienti — e dove le affermazioni del produttore superano il livello delle evidenze cliniche, e dove invece coincidono con esso.',
+        seoTitle: 'PDRN, chitosano, ginseng: gli ingredienti di EXSOLU Skincare e la scienza · Teranova',
+        seoDesc: 'Cosa si sa di chitosano, PDRN e ginseng in cosmetica: revisioni scientifiche indipendenti e come questi ingredienti sono usati nella linea EXSOLU Skincare di NOVAMEDINTL.',
+        sections: [
+          {
+            h: 'Chitosano e il biopeptide di seta di ragno nella maschera notte',
+            p: [
+              'La Spider Silk Chitosan Super Mask (S0) è una maschera notte costruita su chitosano (40.000 ppm) e un biopeptide derivato da seta di ragno (SR-PEPTIDE), con niacinamide, acido tranexamico e un complesso multi-collagene. Secondo la descrizione del produttore, la formula si applica di notte e si rimuove al mattino: forma una pellicola idratante delicata sulla pelle, garantisce idratazione notturna e aiuta a mantenere un tono della pelle di aspetto sano e curato (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2).',
+              'Il chitosano è uno dei polimeri più studiati in cosmetica: una revisione di Kulka e Sionkowska (Molecules, 2023) lo descrive come un umettante naturale e un componente filmogeno che, per attrazione elettrostatica con la superficie della pelle, forma uno strato idratante e riduce la perdita d’acqua — esattamente il meccanismo a cui rinvia la descrizione della maschera. Il biopeptide derivato da seta di ragno (SR-PEPTIDE), invece, è una denominazione proprietaria dell’ingrediente del produttore; non abbiamo trovato studi indipendenti su questo specifico peptide brevettato nella letteratura aperta, per cui il suo effetto resta un’affermazione di NOVAMEDINTL e non un fatto confermato in modo indipendente.',
+            ],
+          },
+          {
+            h: 'Il PDRN nei sieri Rose Firming e Ginseng Brightening',
+            p: [
+              'Il siero EXSOLU Rose Firming Serum (S1) è costruito su PDRN di rosa (DNA idrolizzato), vesicole extracellulari derivate da CICA, vitamina B12, adenosina, glutatione, acido ialuronico e un complesso di collagene a 9 componenti — per idratazione e compattezza quotidiane. Il EXSOLU Ginseng Brightening Serum (S2) utilizza PDRN di ginseng con niacinamide, acido tranexamico, glutatione e vitamina C — per un tono della pelle più luminoso e fresco (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2-3).',
+              'Il PDRN (polidesossiribonucleotide) è un ingrediente a base di frammenti di DNA, tradizionalmente estratto dal salmone. Le revisioni scientifiche indipendenti del 2025 (Pharmaceutics; Applied Sciences) registrano una base di evidenze crescente in dermatologia, con una riserva importante: i dati clinici più solidi riguardano l’uso iniettabile in clinica, mentre le evidenze per i sieri ad uso domestico sono meno sviluppate e dipendono fortemente da concentrazione, stabilità della formulazione e sistema di veicolazione. Ciò non invalida l’uso del PDRN in un siero, ma significa che le affermazioni sul suo effetto restano una descrizione cosmetica del produttore, non un risultato clinico confermato in modo indipendente — esattamente come formulato nella stessa attribuzione di EXSOLU.',
+            ],
+          },
+          {
+            h: 'Il ginseng: cosa mostrano gli studi di laboratorio',
+            p: [
+              'Il ginseng nel EXSOLU Ginseng Brightening Serum non è presente solo come PDRN: i ginsenosidi della pianta, saponine attive, sono stati studiati separatamente e si dividono in due tipi — protopanaxadiolo (PPD) e protopanaxatriolo (PPT). Una revisione sistematica su ginsenosidi e condizione della pelle mostra che il tipo PPD è principalmente legato ad attività antiossidante e antinfiammatoria, mentre il tipo PPT è legato alla sintesi del collagene e al turnover della matrice extracellulare.',
+              'Uno studio di laboratorio separato su estratti di ginseng rosso (MDPI, Molecules, 2022) ha mostrato una marcata attività antiossidante e un effetto schiarente per un estratto in acetato di etile — in vitro, cioè in provetta, non sull’uomo. Ciò è coerente con la conclusione generale delle revisioni indipendenti: l’attività antiossidante e schiarente dei ginsenosidi è confermata a livello di laboratorio, mentre i dati clinici sulla schiaritura della pelle nell’uomo restano meno completi.',
+            ],
+          },
+          {
+            h: 'Cosa significa questo per l’acquirente',
+            p: [
+              'Tutte le descrizioni e gli effetti di questo articolo sono affermazioni di NOVAMEDINTL nei suoi materiali di prodotto; si tratta di descrizioni di prodotti cosmetici, non di risultati clinici confermati in modo indipendente (la stessa attribuzione adottata nella pagina di profilo EXSOLU). Gli ingredienti elencati sono divulgati solo parzialmente e non sostituiscono una composizione INCI completa.',
+              'La scienza indipendente conferma un meccanismo plausibile per ciascun ingrediente chiave — la pellicola idratante del chitosano, l’interesse dermatologico per il PDRN, l’attività antiossidante dei ginsenosidi — ma in misura variabile e più spesso a livello dell’ingrediente o di uno studio di laboratorio che del prodotto EXSOLU finito. La documentazione completa sulla composizione e le restrizioni specifiche di mercato possono essere richieste tramite la pagina EXSOLU del sito Teranova.',
+            ],
+          },
+        ],
+      },
+      es: {
+        title: 'PDRN, quitosano y ginseng en EXSOLU Skincare: qué dice la ciencia sobre estos ingredientes',
+        excerpt: 'Los cinco productos de la línea EXSOLU Skincare están construidos alrededor del quitosano, el PDRN y el ginseng. Analizamos qué dicen las revisiones científicas independientes sobre estos ingredientes — y dónde las afirmaciones del fabricante se adelantan al nivel de evidencia clínica, y dónde coinciden con él.',
+        seoTitle: 'PDRN, quitosano, ginseng: los ingredientes de EXSOLU Skincare y la ciencia · Teranova',
+        seoDesc: 'Qué se sabe del quitosano, el PDRN y el ginseng en cosmética: revisiones científicas independientes y cómo se usan estos ingredientes en la línea EXSOLU Skincare de NOVAMEDINTL.',
+        sections: [
+          {
+            h: 'El quitosano y el biopéptido de seda de araña en la mascarilla de noche',
+            p: [
+              'La Spider Silk Chitosan Super Mask (S0) es una mascarilla de noche construida sobre quitosano (40.000 ppm) y un biopéptido derivado de seda de araña (SR-PEPTIDE), con niacinamida, ácido tranexámico y un complejo multicolágeno. Según la descripción del fabricante, la fórmula se aplica por la noche y se enjuaga por la mañana: forma una película hidratante suave sobre la piel, aporta hidratación nocturna y ayuda a mantener un tono de piel de aspecto sano y cuidado (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2).',
+              'El quitosano es uno de los polímeros más estudiados en cosmética: una revisión de Kulka y Sionkowska (Molecules, 2023) lo describe como un humectante natural y un componente formador de película que, por atracción electrostática con la superficie de la piel, forma una capa hidratante y reduce la pérdida de agua — exactamente el mecanismo al que remite la descripción de la mascarilla. El biopéptido derivado de seda de araña (SR-PEPTIDE), en cambio, es una denominación de ingrediente propia del fabricante; no encontramos estudios independientes sobre este péptido patentado específico en la literatura abierta, por lo que su efecto sigue siendo una afirmación de NOVAMEDINTL y no un hecho confirmado de forma independiente.',
+            ],
+          },
+          {
+            h: 'El PDRN en los sueros Rose Firming y Ginseng Brightening',
+            p: [
+              'El sérum EXSOLU Rose Firming Serum (S1) está construido sobre PDRN de rosa (ADN hidrolizado), vesículas extracelulares derivadas de CICA, vitamina B12, adenosina, glutatión, ácido hialurónico y un complejo de colágeno de 9 componentes — para hidratación y firmeza diarias. El EXSOLU Ginseng Brightening Serum (S2) utiliza PDRN de ginseng con niacinamida, ácido tranexámico, glutatión y vitamina C — para un tono de piel más luminoso y fresco (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 2-3).',
+              'El PDRN (polidesoxirribonucleótido) es un ingrediente a base de fragmentos de ADN, tradicionalmente obtenido del salmón. Las revisiones científicas independientes de 2025 (Pharmaceutics; Applied Sciences) registran una base de evidencia creciente en dermatología, con una salvedad importante: los datos clínicos más sólidos corresponden al uso inyectable en clínica, mientras que la evidencia para sueros de uso doméstico está menos desarrollada y depende en gran medida de la concentración, la estabilidad de la formulación y el sistema de administración. Esto no invalida el uso del PDRN en un sérum, pero significa que las afirmaciones sobre su efecto siguen siendo una descripción cosmética del fabricante, y no un resultado clínico confirmado de forma independiente — exactamente como lo formula la propia atribución de EXSOLU.',
+            ],
+          },
+          {
+            h: 'El ginseng: qué muestran los estudios de laboratorio',
+            p: [
+              'El ginseng en el EXSOLU Ginseng Brightening Serum no está presente solo como PDRN: los ginsenósidos de la planta, saponinas activas, se han estudiado por separado y se dividen en dos tipos — protopanaxadiol (PPD) y protopanaxatriol (PPT). Una revisión sistemática sobre ginsenósidos y estado de la piel muestra que el tipo PPD está principalmente vinculado a actividad antioxidante y antiinflamatoria, mientras que el tipo PPT está vinculado a la síntesis de colágeno y la renovación de la matriz extracelular.',
+              'Un estudio de laboratorio independiente sobre extractos de ginseng rojo (MDPI, Molecules, 2022) mostró una marcada actividad antioxidante y un efecto aclarante para un extracto en acetato de etilo — in vitro, es decir, en un tubo de ensayo, no en personas. Esto es coherente con la conclusión general de las revisiones independientes: la actividad antioxidante y aclarante de los ginsenósidos está confirmada a nivel de laboratorio, mientras que los datos clínicos sobre el aclarado de la piel en humanos siguen siendo menos completos.',
+            ],
+          },
+          {
+            h: 'Qué significa esto para el comprador',
+            p: [
+              'Todas las descripciones y efectos de este artículo son afirmaciones de NOVAMEDINTL en sus materiales de producto; son descripciones de productos cosméticos, no resultados clínicos confirmados de forma independiente (la misma atribución adoptada en la página de perfil de EXSOLU). Los ingredientes mencionados se divulgan solo parcialmente y no sustituyen una composición INCI completa.',
+              'La ciencia independiente confirma un mecanismo plausible para cada ingrediente clave — la película hidratante del quitosano, el interés dermatológico por el PDRN, la actividad antioxidante de los ginsenósidos — pero en distinto grado y, con mayor frecuencia, a nivel del ingrediente o de un estudio de laboratorio más que del producto EXSOLU terminado. La documentación completa sobre composición y las restricciones específicas de cada mercado pueden solicitarse a través de la página de EXSOLU en el sitio de Teranova.',
             ],
           },
         ],
@@ -704,6 +923,114 @@ export const exsoluPosts: BlogPost[] = [
             p: [
               'Die Schlussfolgerung unabhängiger Übersichtsarbeiten ist einheitlich: Exosomen und extrazelluläre Vesikel in Kosmetika besitzen plausibles mechanistisches Potenzial, doch klinische Studien sind rar, eine Standardisierung fehlt, und kein exosomales Kosmetikprodukt hat bislang eine gesonderte regulatorische Zulassung als solches erhalten. Deshalb sind die Wirkungsbeschreibungen für BOOST SOLUTION, HYDRO-WHITE, EXO-PLUS, EXOBENE-S, EXOBENE-H und die Vesicles-Brightening-Seren Behauptungen von NOVAMEDINTL über seine eigenen kosmetischen Produkte, kein unabhängig bestätigtes klinisches Ergebnis.',
               'Das macht die Linie für den Käufer nicht weniger interessant — es setzt ehrliche Erwartungen und erklärt, warum der Hersteller selbst die Unterlagen für diese Linie auf kosmetischem Niveau hält. Vollständige Zusammensetzungsangaben und marktspezifische Unterlagen sind auf der EXSOLU-Seite der Teranova-Website erhältlich.',
+            ],
+          },
+        ],
+      },
+      fr: {
+        title: 'Exosomes et vésicules extracellulaires en cosmétique : ce qui est prouvé, et ce qui ne l’est pas',
+        excerpt: 'La gamme EXSOLU Exosome et les sérums Vesicles Brightening sont construits autour des exosomes et des vésicules extracellulaires. Nous examinons ce que disent les revues scientifiques indépendantes de 2024-2025 sur cette classe d’ingrédients — et pourquoi le fabricant les décrit strictement en termes cosmétiques.',
+        seoTitle: 'Les exosomes en cosmétique : la science et la gamme EXSOLU Exosome · Teranova',
+        seoDesc: 'Ce que la science sait des exosomes et des vésicules extracellulaires en cosmétique : revues indépendantes de 2024-2025 et usage de cet ingrédient dans la gamme professionnelle et les sérums EXSOLU de NOVAMEDINTL.',
+        sections: [
+          {
+            h: 'La ligne Exosome dans le soin professionnel EXSOLU',
+            p: [
+              'Cinq produits de la gamme professionnelle EXSOLU sont construits autour des exosomes. BOOST SOLUTION combine exosomes, tripeptide de collagène et acide hyaluronique pour l’hydratation et l’élasticité. HYDRO-WHITE ajoute de l’acide tranexamique — pour l’hydratation et un teint d’aspect plus uniforme. EXO-PLUS est un soin professionnel du cuir chevelu à base d’exosomes enrobés de PDRN (1 milliard de nanoparticules). EXOBENE-S combine exosomes, acide hyaluronique et acides aminés pour une peau d’aspect plus lisse, plus ferme et plus hydratée, tandis qu’EXOBENE-H est un soin du cuir chevelu et des cheveux à base d’exosomes, de niacinamide, de biotine et de peptide de cuivre (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 4).',
+              'Comme le reste de l’assortiment professionnel EXSOLU, cette ligne est décrite par le fabricant strictement comme un produit cosmétique : l’entreprise fournit pour elle une documentation cosmétique standard, sans dossier médical ou injectable proposé à ce stade (attribution EXSOLU, page de profil sur le site Teranova). C’est pourquoi, ci-dessous, nous traitons les exosomes comme un ingrédient de formulations cosmétiques, et non comme une procédure médicale.',
+            ],
+          },
+          {
+            h: 'Vesicles Brightening Serum : vésicules extracellulaires de brocoli',
+            p: [
+              'Dans la gamme EXSOLU Skincare, la même idée est transposée à la maison : le Vesicles Brightening Serum, en formats Intensive (10 ml) et Daily (30 ml), est construit autour de vésicules extracellulaires dérivées de brocoli, de vitamine B12 et du système de délivrance Reprosome™. Le fabricant les décrit comme des sérums haut de gamme à usage ciblé et quotidien pour les zones autour des yeux, des lèvres et les zones de peau délicates (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 3-4).',
+              'L’origine végétale de ces vésicules n’est pas un détail accessoire : elle s’inscrit dans une tendance notable du domaine scientifique lui-même — un glissement des vésicules d’origine animale et humaine vers des vésicules d’origine végétale, motivé en partie par des considérations réglementaires et de consommation.',
+            ],
+          },
+          {
+            h: 'Ce que disent les revues scientifiques indépendantes',
+            p: [
+              'Une revue complète des applications des exosomes en dermatologie (International Journal of Dermatology, 2025) relève un potentiel mécanistique contre les rides et pour l’amélioration de l’hydratation et de l’élasticité de la peau — le domaine se développe rapidement : le nombre de publications sur les exosomes en cosmétique a augmenté de façon exponentielle entre 2014 et 2024.',
+              'Dans le même temps, une revue systématique de Villarreal-Gómez et coauteurs (Cosmetics, 2025) désigne directement la limite : le domaine manque encore de validation clinique et de normalisation suffisantes, et les exosomes seuls pourraient ne pas expliquer l’intégralité de l’effet revendiqué sans protéines extracellulaires supplémentaires — une évaluation plus large est nécessaire avant de parler d’approbation réglementaire spécifiquement pour les produits cosmétiques exosomaux. Les revues signalent aussi l’absence de normes unifiées de caractérisation des vésicules (critères MISEV) — c’est-à-dire que même la confirmation formelle qu’un produit contient réellement les vésicules revendiquées n’est pas toujours normalisée entre fabricants.',
+            ],
+          },
+          {
+            h: 'Ce qu’il faut retenir pour l’acheteur',
+            p: [
+              'La conclusion des revues indépendantes est cohérente : les exosomes et les vésicules extracellulaires en cosmétique présentent un potentiel mécanistique plausible, mais les essais cliniques sont rares, la normalisation fait défaut, et aucun produit cosmétique exosomal n’a encore reçu d’approbation réglementaire distincte en tant que tel. C’est pourquoi les descriptions d’effets de BOOST SOLUTION, HYDRO-WHITE, EXO-PLUS, EXOBENE-S, EXOBENE-H et des sérums Vesicles Brightening sont des affirmations de NOVAMEDINTL sur ses propres produits cosmétiques, et non un résultat clinique confirmé de manière indépendante.',
+              'Cela ne rend pas la gamme moins intéressante pour l’acheteur — cela fixe des attentes honnêtes et explique pourquoi le fabricant lui-même maintient la documentation de cette ligne au niveau cosmétique. La composition complète et la documentation spécifique au marché sont disponibles sur la page EXSOLU du site Teranova.',
+            ],
+          },
+        ],
+      },
+      it: {
+        title: 'Esosomi e vesicole extracellulari in cosmetica: cosa è dimostrato e cosa no',
+        excerpt: 'La linea EXSOLU Exosome e i sieri Vesicles Brightening sono costruiti su esosomi e vesicole extracellulari. Analizziamo cosa dicono le revisioni scientifiche indipendenti 2024-2025 su questa classe di ingredienti — e perché il produttore le descrive rigorosamente in termini cosmetici.',
+        seoTitle: 'Gli esosomi in cosmetica: la scienza e la linea EXSOLU Exosome · Teranova',
+        seoDesc: 'Cosa sa la scienza sugli esosomi e le vesicole extracellulari in cosmetica: revisioni indipendenti 2024-2025 e come questo ingrediente è usato nella linea professionale e nei sieri EXSOLU di NOVAMEDINTL.',
+        sections: [
+          {
+            h: 'La linea Exosome nella cura professionale EXSOLU',
+            p: [
+              'Cinque prodotti della linea professionale EXSOLU sono costruiti sugli esosomi. BOOST SOLUTION combina esosomi, tripeptide di collagene e acido ialuronico per idratazione ed elasticità. HYDRO-WHITE aggiunge acido tranexamico — per idratazione e un tono della pelle di aspetto più uniforme. EXO-PLUS è una cura professionale del cuoio capelluto con esosomi rivestiti di PDRN (1 miliardo di nanoparticelle). EXOBENE-S combina esosomi con acido ialuronico e aminoacidi per una pelle di aspetto più liscio, compatto e idratato, mentre EXOBENE-H è cura del cuoio capelluto e dei capelli con esosomi, niacinamide, biotina e peptide di rame (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 4).',
+              'Come il resto dell’assortimento professionale EXSOLU, questa linea è descritta dal produttore rigorosamente come prodotto cosmetico: l’azienda fornisce per essa documentazione cosmetica standard, senza alcun dossier medico o iniettabile offerto in questa fase (attribuzione EXSOLU, pagina di profilo sul sito Teranova). Per questo, di seguito, trattiamo gli esosomi come un ingrediente di formulazioni cosmetiche, non come una procedura medica.',
+            ],
+          },
+          {
+            h: 'Vesicles Brightening Serum: vesicole extracellulari di broccolo',
+            p: [
+              'Nella linea EXSOLU Skincare, la stessa idea viene trasferita a casa: il Vesicles Brightening Serum, nei formati Intensive (10 ml) e Daily (30 ml), è costruito su vesicole extracellulari derivate da broccolo, vitamina B12 e il sistema di veicolazione Reprosome™. Il produttore le descrive come sieri premium per uso mirato e quotidiano nelle zone attorno agli occhi, alle labbra e nelle aree di pelle delicate (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 3-4).',
+              'L’origine vegetale di queste vesicole non è un dettaglio accessorio: coincide con una tendenza rilevante nello stesso ambito scientifico — uno spostamento dalle vesicole di origine animale e umana verso vesicole di origine vegetale, motivato in parte da considerazioni regolatorie e di consumo.',
+            ],
+          },
+          {
+            h: 'Cosa dicono le revisioni scientifiche indipendenti',
+            p: [
+              'Una revisione completa delle applicazioni degli esosomi in dermatologia (International Journal of Dermatology, 2025) registra un potenziale meccanicistico contro le rughe e per il miglioramento dell’idratazione e dell’elasticità della pelle — il campo cresce rapidamente: il numero di pubblicazioni sugli esosomi in cosmetica è cresciuto in modo esponenziale tra il 2014 e il 2024.',
+              'Allo stesso tempo, una revisione sistematica di Villarreal-Gómez e coautori (Cosmetics, 2025) indica direttamente il limite: al campo manca ancora una validazione clinica e una standardizzazione sufficienti, e gli esosomi da soli potrebbero non spiegare l’intero effetto dichiarato senza proteine extracellulari aggiuntive — è necessaria una valutazione più ampia prima di parlare di approvazione regolatoria specificamente per i prodotti cosmetici esosomiali. Le revisioni segnalano anche l’assenza di standard unificati per la caratterizzazione delle vesicole (criteri MISEV) — ossia anche la conferma formale che un prodotto contenga realmente le vesicole dichiarate non è sempre standardizzata tra i produttori.',
+            ],
+          },
+          {
+            h: 'Cosa significa per l’acquirente',
+            p: [
+              'La conclusione delle revisioni indipendenti è coerente: esosomi e vesicole extracellulari in cosmetica hanno un potenziale meccanicistico plausibile, ma gli studi clinici sono scarsi, manca la standardizzazione, e nessun prodotto cosmetico esosomiale ha ancora ricevuto un’approvazione regolatoria separata come tale. Per questo le descrizioni degli effetti di BOOST SOLUTION, HYDRO-WHITE, EXO-PLUS, EXOBENE-S, EXOBENE-H e dei sieri Vesicles Brightening sono affermazioni di NOVAMEDINTL sui propri prodotti cosmetici, non un risultato clinico confermato in modo indipendente.',
+              'Ciò non rende la linea meno interessante per l’acquirente — definisce aspettative oneste e spiega perché il produttore stesso mantiene la documentazione di questa linea a livello cosmetico. La composizione completa e la documentazione specifica di mercato sono disponibili sulla pagina EXSOLU del sito Teranova.',
+            ],
+          },
+        ],
+      },
+      es: {
+        title: 'Exosomas y vesículas extracelulares en cosmética: qué está demostrado y qué no',
+        excerpt: 'La línea EXSOLU Exosome y los sueros Vesicles Brightening están construidos sobre exosomas y vesículas extracelulares. Analizamos qué dicen las revisiones científicas independientes de 2024-2025 sobre esta clase de ingredientes — y por qué el fabricante los describe estrictamente en términos cosméticos.',
+        seoTitle: 'Los exosomas en cosmética: la ciencia y la línea EXSOLU Exosome · Teranova',
+        seoDesc: 'Qué sabe la ciencia sobre los exosomas y las vesículas extracelulares en cosmética: revisiones independientes de 2024-2025 y cómo se usa este ingrediente en la línea profesional y los sueros EXSOLU de NOVAMEDINTL.',
+        sections: [
+          {
+            h: 'La línea Exosome en el cuidado profesional EXSOLU',
+            p: [
+              'Cinco productos de la línea profesional EXSOLU están construidos sobre exosomas. BOOST SOLUTION combina exosomas, tripéptido de colágeno y ácido hialurónico para hidratación y elasticidad. HYDRO-WHITE añade ácido tranexámico — para hidratación y un tono de piel de aspecto más uniforme. EXO-PLUS es un cuidado profesional del cuero cabelludo con exosomas recubiertos de PDRN (1.000 millones de nanopartículas). EXOBENE-S combina exosomas con ácido hialurónico y aminoácidos para una piel de aspecto más liso, firme e hidratado, mientras que EXOBENE-H es cuidado del cuero cabelludo y el cabello con exosomas, niacinamida, biotina y péptido de cobre (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, p. 4).',
+              'Como el resto del surtido profesional de EXSOLU, esta línea es descrita por el fabricante estrictamente como producto cosmético: la empresa proporciona para ella documentación cosmética estándar, sin ningún expediente médico o inyectable ofrecido en esta etapa (atribución de EXSOLU, página de perfil en el sitio de Teranova). Por eso, a continuación, tratamos los exosomas como un ingrediente de formulaciones cosméticas, no como un procedimiento médico.',
+            ],
+          },
+          {
+            h: 'Vesicles Brightening Serum: vesículas extracelulares de brócoli',
+            p: [
+              'En la línea EXSOLU Skincare, la misma idea se traslada al hogar: el Vesicles Brightening Serum, en formatos Intensive (10 ml) y Daily (30 ml), está construido sobre vesículas extracelulares derivadas de brócoli, vitamina B12 y el sistema de administración Reprosome™. El fabricante los describe como sueros premium de uso puntual y diario para las zonas alrededor de los ojos, los labios y las áreas de piel delicada (NOVAMEDINTL_KR_SKINCARE②.pdf, p. 3-4).',
+              'El origen vegetal de estas vesículas no es un detalle accesorio: coincide con una tendencia notable en el propio campo científico — un desplazamiento de las vesículas de origen animal y humano hacia vesículas de origen vegetal, motivado en parte por consideraciones regulatorias y de los consumidores.',
+            ],
+          },
+          {
+            h: 'Qué dicen las revisiones científicas independientes',
+            p: [
+              'Una revisión exhaustiva de las aplicaciones de los exosomas en dermatología (International Journal of Dermatology, 2025) registra un potencial mecanístico contra las arrugas y para mejorar la hidratación y la elasticidad de la piel — el campo crece rápidamente: el número de publicaciones sobre exosomas en cosmética creció de forma exponencial entre 2014 y 2024.',
+              'Al mismo tiempo, una revisión sistemática de Villarreal-Gómez y coautores (Cosmetics, 2025) señala directamente la limitación: al campo todavía le falta suficiente validación clínica y estandarización, y los exosomas por sí solos podrían no explicar la totalidad del efecto declarado sin proteínas extracelulares adicionales — se necesita una evaluación más amplia antes de hablar de aprobación regulatoria específicamente para los productos cosméticos exosomales. Las revisiones también señalan la ausencia de estándares unificados de caracterización de vesículas (los criterios MISEV) — es decir, incluso la confirmación formal de que un producto realmente contiene las vesículas declaradas no siempre está estandarizada entre fabricantes.',
+            ],
+          },
+          {
+            h: 'Qué significa esto para el comprador',
+            p: [
+              'La conclusión de las revisiones independientes es coherente: los exosomas y las vesículas extracelulares en cosmética tienen un potencial mecanístico plausible, pero los ensayos clínicos son escasos, falta estandarización, y ningún producto cosmético exosomal ha recibido aún una aprobación regulatoria separada como tal. Por eso las descripciones de los efectos de BOOST SOLUTION, HYDRO-WHITE, EXO-PLUS, EXOBENE-S, EXOBENE-H y los sueros Vesicles Brightening son afirmaciones de NOVAMEDINTL sobre sus propios productos cosméticos, no un resultado clínico confirmado de forma independiente.',
+              'Esto no hace que la línea sea menos interesante para el comprador — establece expectativas honestas y explica por qué el propio fabricante mantiene la documentación de esta línea a nivel cosmético. La composición completa y la documentación específica de cada mercado pueden solicitarse en la página de EXSOLU del sitio de Teranova.',
             ],
           },
         ],
