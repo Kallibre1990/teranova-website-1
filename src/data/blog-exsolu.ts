@@ -103,6 +103,43 @@ export const exsoluPosts: BlogPost[] = [
           },
         ],
       },
+      ko: {
+        title: 'NOVAMEDINTL과 EXSOLU 브랜드: 전문 에스테틱에서 홈케어까지',
+        excerpt: 'NOVAMEDINTL은 자체 브랜드 EXSOLU로 전문가용 화장품 스킨 부스터와 데일리 스킨케어를 개발하고 제조합니다 — 두 제품군에 걸친 22개 제품과 자체 OEM/ODM 역량을 갖추고 있습니다. 회사의 포트폴리오와 전문가용 제품군이 왜 의료기기가 아닌 화장품으로 유지되는지 살펴봅니다.',
+        seoTitle: 'NOVAMEDINTL과 EXSOLU: 한국 화장품 제조사 프로필 · Teranova',
+        seoDesc: 'NOVAMEDINTL과 EXSOLU 브랜드: R&D, OEM/ODM, 두 제품군 22개 제품. EXSOLU 전문가용 화장품 스킨 부스터가 의료기기가 아닌 이유. Teranova를 통한 문의 방법.',
+        sections: [
+          {
+            h: '회사와 EXSOLU 브랜드',
+            p: [
+              'NOVAMEDINTL은 전문가용 화장품 스킨 부스터와 프리미엄 데일리 케어 제품의 연구, 개발, 제조를 담당하는 한국 기업입니다. 프리미엄 성분과 최신 전달 기술로 처방을 설계하고, 맞춤형 OEM·ODM 솔루션을 제공하며, 생산 품질을 관리하면서 글로벌 시장에서의 입지를 넓히고 있습니다 (NOVAMEDINTL_EN①.pdf, 1쪽).',
+              '자체 브랜드명은 EXSOLU로, Extraordinary(탁월한)와 Solution(해결책)을 결합한 이름입니다. 엄선된 성분과 자체 처방을 통해 전문적인 피부 관리의 가치를 일상적인 홈케어 형태로 전달합니다 — "클리닉에서 집으로" (NOVAMEDINTL_EN①.pdf, 1쪽). EXSOLU 포트폴리오는 22개 제품으로 구성되며, 전문가용 화장품 스킨 부스터 라인 17개와 데일리 스킨케어 라인 EXSOLU Skincare 5개로 나뉩니다 (NOVAMEDINTL_EN①.pdf, 2쪽).',
+            ],
+          },
+          {
+            h: '전문가용 라인: 하나의 화장품 체계 안의 네 가지 방향',
+            p: [
+              '전문가용 라인은 17개 제품으로 구성됩니다. 그중 PCL과 dPLLA 두 제품은 Teranova 사이트의 EXSOLU 프로필 페이지에 "입자가 없는 PCL 콜로이드와 히알루론산을 함유한 화장품 처방"과 "저분자 dPLLA 처방"으로 소개되어 있으며, 두 제품 모두 피부 탄력과 밀도 관리를 위한 것입니다. 추가로 DAEMU, YURI, PP 세 제품은 전문가용 화장품으로, DAEMU는 후속 관리 전 준비 단계, YURI는 얼굴 윤곽을 더욱 탄력 있어 보이게 관리, PP는 피부 탄력과 유연함 관리로 소개됩니다 (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, 2~3쪽).',
+              '다섯 제품은 엑소좀을 기반으로 합니다: BOOST SOLUTION(엑소좀, 콜라겐 트리펩타이드, 히알루론산 — 보습과 탄력), HYDRO-WHITE(엑소좀, 히알루론산, 트라넥삼산 — 보습과 균일해 보이는 피부 톤), EXO-PLUS(PDRN 코팅 엑소좀을 함유한 전문가용 두피 관리), EXOBENE-S(엑소좀, 히알루론산, 아미노산 — 매끄럽고 탄력 있으며 촉촉해 보이는 피부), EXOBENE-H(엑소좀, 나이아신아마이드, 바이오틴, 구리 펩타이드를 함유한 두피·모발 관리) (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, 4쪽). 엑소좀에 대해 독립적인 과학 리뷰가 말하는 내용은 별도의 블로그 글에서 자세히 다룹니다.',
+              '나머지 제품은 웰니스 방향입니다: SOSU는 인삼 기반 제품, SAMSHIN과 NOPA는 식물 기반 제품이며, DANGUN-S, DANGUN-SS, DANGUN-SM은 DANGUN 라인 안에서 농도를 달리한 인삼 기반 처방입니다 (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, 5쪽). NAD+ AIR SHOT은 별도로, 바이알당 NAD+ 100 mg과 NMN 40 mg을 함유한 네뷸라이저용 제품으로 — 제조사는 주입하지 말고 제조사의 사용 설명서를 따르라고 명확히 안내합니다.',
+            ],
+          },
+          {
+            h: '왜 의료기기가 아닌 화장품인가',
+            p: [
+              'Teranova 사이트의 EXSOLU 프로필 페이지에는 다음과 같이 명시되어 있습니다: "전문가용 제품군에 대해 일반적인 화장품 서류를 제공합니다. 제품 분류와 허용되는 사용 범위는 수출 대상 시장에 따라 다릅니다" — 이는 저희의 해석이 아니라 제조사 자신의 표현입니다. 그래서 Teranova의 모든 자료는 EXSOLU 전문가용 라인을 전문가용 화장품으로만 설명하며, NAD+ AIR SHOT에 대한 주의사항을 직접 인용하는 경우를 제외하고는 "주사"나 "의료기기"라는 표현을 사용하지 않습니다.',
+              '이 경계는 한국의 규제 논리와도 일치합니다. 한국에서는 미용 주사제와 인체 유래 조직 제품이 의료기기로서 별도의 허가 절차를 거치는 반면, 화장품은 다른 방식으로 규제되며 기능성 화장품을 제외하면 제품별 개별 허가가 일반적으로 필요하지 않습니다. 2026년 3월 식품의약품안전처(MFDS)는 인체 조직 기반 스킨 부스터에 대한 감독을 강화할 계획을 발표했는데, 이는 일반 화장품과는 별개의 카테고리입니다 (The Korea Economic Daily, 2026.03.29.). 이는 EXSOLU 제조사가 강조하는 "화장품/의료기기" 구분이 형식적인 것이 아니라 실제로 작동하는 경계라는 독립적인 근거입니다.',
+            ],
+          },
+          {
+            h: 'EXSOLU Skincare — 데일리 케어 다섯 가지 제품',
+            p: [
+              'EXSOLU Skincare 라인은 같은 전문성을 홈케어 형태로 옮겨왔습니다: 보습, 피부 장벽 강화, 탄력, 광채, 부위별 집중 관리를 위한 다섯 제품입니다 (NOVAMEDINTL_EN①.pdf, 3쪽). 나이트 마스크 Spider Silk Chitosan Super Mask는 키토산(40,000 ppm)과 거미줄 유래 바이오펩타이드를 기반으로 하며, Rose Firming과 Ginseng Brightening 세럼은 로즈·인삼 PDRN과 비타민, 히알루론산을 함유하고, Vesicles Brightening Serum(Intensive·Daily)은 브로콜리 유래 세포외 소포와 Reprosome™ 전달 시스템을 사용합니다 (NOVAMEDINTL_KR_SKINCARE②.pdf, 2~4쪽).',
+              '키토산, PDRN, 인삼에 대해 독립적인 과학이 실제로 무엇을 말하는지, 그리고 제조사의 주장이 임상적 증거 수준과 어디에서 차이를 보이는지는 다음 글에서 다룹니다. 전체 제품 목록과 성분, 서류는 Teranova 사이트의 EXSOLU 페이지에서 확인할 수 있습니다.',
+            ],
+          },
+        ],
+      },
     },
   },
   {
@@ -182,6 +219,42 @@ export const exsoluPosts: BlogPost[] = [
             p: [
               'All the descriptions and effects in this article are claims made by NOVAMEDINTL in its product materials; they are descriptions of cosmetic products, not independently confirmed clinical outcomes (the same attribution adopted on the EXSOLU profile page). The ingredients listed are partial disclosures and do not replace a full INCI composition.',
               'Independent science confirms a plausible mechanism for each key ingredient — chitosan’s hydrating film, dermatological interest in PDRN, the antioxidant activity of ginsenosides — but to varying degrees, and more often at the level of the ingredient or a laboratory study than the finished EXSOLU product. Full composition documentation and market-specific restrictions can be requested through the EXSOLU page on the Teranova website.',
+            ],
+          },
+        ],
+      },
+      ko: {
+        title: 'EXSOLU Skincare의 PDRN, 키토산, 인삼: 이 성분들에 대해 과학은 무엇을 말하는가',
+        excerpt: 'EXSOLU Skincare 라인의 다섯 제품은 키토산, PDRN, 인삼을 중심으로 구성되어 있습니다. 독립적인 과학 리뷰가 이 성분들에 대해 무엇을 말하는지, 그리고 제조사의 주장이 임상적 증거 수준을 앞서는 부분과 일치하는 부분을 살펴봅니다.',
+        seoTitle: 'PDRN, 키토산, 인삼: EXSOLU Skincare 성분과 과학 · Teranova',
+        seoDesc: '화장품 속 키토산, PDRN, 인삼에 대해 알려진 것: 독립적인 과학 리뷰와 NOVAMEDINTL의 EXSOLU Skincare 라인에서 이 성분들이 사용되는 방식.',
+        sections: [
+          {
+            h: '나이트 마스크 속 키토산과 거미줄 바이오펩타이드',
+            p: [
+              'Spider Silk Chitosan Super Mask(S0)는 키토산(40,000 ppm)과 거미줄 유래 바이오펩타이드(SR-PEPTIDE)를 기반으로 하며, 나이아신아마이드, 트라넥삼산, 복합 콜라겐을 함유한 나이트 마스크입니다. 제조사의 설명에 따르면 밤에 바르고 다음 날 아침 씻어내는 처방으로, 피부에 부드러운 보습막을 형성하고 밤사이 수분을 공급하며 건강하고 정돈되어 보이는 피부 톤을 유지하도록 돕습니다 (NOVAMEDINTL_KR_SKINCARE②.pdf, 2쪽).',
+              '키토산은 화장품에서 가장 많이 연구된 고분자 중 하나입니다: Kulka와 Sionkowska의 리뷰(Molecules, 2023)는 키토산을 천연 보습제이자 피막 형성 성분으로 설명하며, 피부 표면과의 정전기적 인력을 통해 보습막을 형성하고 수분 손실을 줄인다고 밝힙니다 — 이는 마스크 설명이 언급하는 바로 그 메커니즘입니다. 반면 거미줄 유래 바이오펩타이드(SR-PEPTIDE)는 제조사 고유의 성분명으로, 이 특정 특허 성분에 대한 독립적인 공개 연구는 찾지 못했습니다. 따라서 그 효과는 독립적으로 입증된 사실이 아니라 NOVAMEDINTL의 주장으로 남습니다.',
+            ],
+          },
+          {
+            h: 'Rose Firming과 Ginseng Brightening 세럼 속 PDRN',
+            p: [
+              'EXSOLU Rose Firming Serum(S1)은 로즈 PDRN(가수분해 DNA), 병풀 유래 세포외 소포, 비타민 B12, 아데노신, 글루타티온, 히알루론산, 9종 콜라겐 복합체를 기반으로 하며 일상적인 보습과 탄력을 위한 제품입니다. EXSOLU Ginseng Brightening Serum(S2)은 인삼 PDRN에 나이아신아마이드, 트라넥삼산, 글루타티온, 비타민 C를 더해 더 밝고 생기 있어 보이는 피부 톤을 위한 제품입니다 (NOVAMEDINTL_KR_SKINCARE②.pdf, 2~3쪽).',
+              'PDRN(폴리데옥시리보뉴클레오타이드)은 전통적으로 연어에서 추출하는 DNA 조각 기반 성분입니다. 2025년 독립 과학 리뷰(Pharmaceutics; Applied Sciences)는 피부과학 분야에서 증거 기반이 늘고 있다고 밝히지만, 중요한 전제가 있습니다: 가장 확실한 임상 데이터는 임상 현장에서의 주사 시술에 관한 것이며, 가정용 세럼에 대한 증거는 상대적으로 적고 농도, 제형 안정성, 전달 시스템에 크게 좌우됩니다. 이는 세럼에 PDRN을 사용하는 것 자체를 반박하는 것은 아니지만, 그 효과에 대한 주장이 독립적으로 입증된 임상 결과가 아니라 제조사의 화장품 설명으로 남는다는 의미입니다 — 이는 EXSOLU 자체의 표기 방식과도 일치합니다.',
+            ],
+          },
+          {
+            h: '인삼: 실험 연구가 보여주는 것',
+            p: [
+              'EXSOLU Ginseng Brightening Serum 속 인삼은 PDRN 형태로만 존재하는 것이 아닙니다: 이 식물의 활성 사포닌인 진세노사이드는 별도로 연구되어 왔으며, protopanaxadiol(PPD)형과 protopanaxatriol(PPT)형 두 가지로 나뉩니다. 진세노사이드와 피부 상태에 관한 체계적 리뷰에 따르면 PPD형은 주로 항산화 및 항염 활성과, PPT형은 콜라겐 합성 및 세포외 기질 대사와 관련이 있습니다.',
+              '홍삼 추출물에 대한 별도의 실험 연구(MDPI, Molecules, 2022)는 에틸아세테이트 추출물에서 뚜렷한 항산화 활성과 미백 효과를 확인했습니다 — 다만 이는 인체가 아닌 시험관(in vitro) 연구입니다. 이는 독립적인 리뷰들의 전반적인 결론과 일치합니다: 진세노사이드의 항산화 및 미백 활성은 실험 단계에서 확인되었지만, 인체에서의 피부 미백에 관한 임상 데이터는 아직 충분하지 않습니다.',
+            ],
+          },
+          {
+            h: '구매자에게 의미하는 것',
+            p: [
+              '이 글의 모든 설명과 효과는 NOVAMEDINTL이 제품 자료에서 밝힌 주장입니다. 이는 화장품에 대한 설명이며, 독립적으로 입증된 임상 결과가 아닙니다 (EXSOLU 프로필 페이지에서 채택한 것과 동일한 표기 방식입니다). 언급된 성분은 부분적으로만 공개된 것이며 전체 INCI 성분표를 대체하지 않습니다.',
+              '독립적인 과학은 각 핵심 성분에 대해 — 키토산의 보습막, PDRN에 대한 피부과학적 관심, 진세노사이드의 항산화 활성 — 그럴듯한 메커니즘을 확인해 주지만, 그 정도는 서로 다르며 대부분 완제품인 EXSOLU가 아니라 성분 또는 실험 연구 수준에서 확인된 것입니다. 성분과 수출 시장별 제한에 대한 전체 서류는 Teranova 사이트의 EXSOLU 페이지를 통해 요청할 수 있습니다.',
             ],
           },
         ],
@@ -268,6 +341,42 @@ export const exsoluPosts: BlogPost[] = [
             p: [
               'The conclusion of independent reviews is consistent: exosomes and extracellular vesicles in cosmetics have plausible mechanistic potential, but clinical trials are scarce, standardization is lacking, and no exosomal cosmetic product has yet received separate regulatory approval as such. That is why the effect descriptions for BOOST SOLUTION, HYDRO-WHITE, EXO-PLUS, EXOBENE-S, EXOBENE-H and the Vesicles Brightening serums are NOVAMEDINTL’s claims about its own cosmetic products, not an independently confirmed clinical outcome.',
               'That does not make the range less interesting to a buyer — it sets honest expectations and explains why the manufacturer itself keeps the documentation for this line at the cosmetic level. Full composition details and market-specific documentation are available on the EXSOLU page on the Teranova website.',
+            ],
+          },
+        ],
+      },
+      ko: {
+        title: '화장품 속 엑소좀과 세포외 소포: 이미 입증된 것과 아직 아닌 것',
+        excerpt: 'EXSOLU Exosome 라인과 Vesicles Brightening 세럼은 엑소좀과 세포외 소포를 기반으로 합니다. 2024~2025년 독립 과학 리뷰가 이 성분군에 대해 말하는 내용과, 제조사가 이를 철저히 화장품 용어로 설명하는 이유를 살펴봅니다.',
+        seoTitle: '화장품 속 엑소좀: 과학과 EXSOLU Exosome 라인 · Teranova',
+        seoDesc: '화장품 속 엑소좀과 세포외 소포에 대해 과학이 아는 것: 2024~2025년 독립 리뷰와 NOVAMEDINTL의 EXSOLU 전문가용 라인·세럼에서의 사용 방식.',
+        sections: [
+          {
+            h: 'EXSOLU 전문가용 케어 속 Exosome 라인',
+            p: [
+              'EXSOLU 전문가용 라인의 다섯 제품은 엑소좀을 기반으로 합니다. BOOST SOLUTION은 엑소좀, 콜라겐 트리펩타이드, 히알루론산을 결합해 보습과 탄력을 관리합니다. HYDRO-WHITE는 트라넥삼산을 더해 보습과 균일해 보이는 피부 톤을 관리합니다. EXO-PLUS는 PDRN 코팅 엑소좀(나노입자 10억 개)을 함유한 전문가용 두피 관리 제품입니다. EXOBENE-S는 엑소좀, 히알루론산, 아미노산을 결합해 매끄럽고 탄력 있으며 촉촉해 보이는 피부를 관리하고, EXOBENE-H는 엑소좀, 나이아신아마이드, 바이오틴, 구리 펩타이드를 함유한 두피·모발 관리 제품입니다 (EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf, 4쪽).',
+              'EXSOLU 전문가용 제품군 전체와 마찬가지로, 이 라인 역시 제조사에 의해 철저히 화장품으로 설명됩니다: 회사는 이 라인에 대해 표준 화장품 서류를 제공하며, 현재 단계에서 의료용이나 주사용 자료는 제공하지 않습니다 (EXSOLU 표기, Teranova 사이트 프로필 페이지). 그래서 아래에서는 엑소좀을 의료 시술이 아니라 화장품 처방의 성분으로 다룹니다.',
+            ],
+          },
+          {
+            h: 'Vesicles Brightening Serum: 브로콜리 유래 세포외 소포',
+            p: [
+              'EXSOLU Skincare 라인에서는 같은 아이디어가 가정용으로 구현되었습니다: Vesicles Brightening Serum은 Intensive(10 mL)와 Daily(30 mL) 형태로, 브로콜리에서 추출한 세포외 소포, 비타민 B12, Reprosome™ 전달 시스템을 기반으로 합니다. 제조사는 이를 눈가, 입가 등 민감한 부위를 위한 집중·데일리 케어용 프리미엄 세럼으로 설명합니다 (NOVAMEDINTL_KR_SKINCARE②.pdf, 3~4쪽).',
+              '여기서 소포의 식물 유래라는 점은 우연한 세부사항이 아닙니다: 이는 과학 분야 자체의 뚜렷한 흐름과도 일치합니다 — 규제 및 소비자 측면의 이유로 동물·인체 유래 소포에서 식물 유래 소포로 이동하는 경향입니다.',
+            ],
+          },
+          {
+            h: '독립적인 과학 리뷰가 말하는 것',
+            p: [
+              '피부과학 분야의 엑소좀 적용에 관한 종합 리뷰(International Journal of Dermatology, 2025)는 주름 개선, 수분 공급, 피부 탄력 향상에 대한 메커니즘적 가능성을 기록합니다 — 이 분야는 빠르게 성장하고 있으며, 화장품 속 엑소좀에 관한 논문 수는 2014년부터 2024년까지 기하급수적으로 증가했습니다.',
+              '동시에 Villarreal-Gómez 등의 체계적 리뷰(Cosmetics, 2025)는 한계를 분명히 밝힙니다: 이 분야는 아직 충분한 임상적 검증과 표준화를 갖추지 못했으며, 엑소좀만으로는 추가적인 세포외 단백질 없이 주장된 효과 전체를 설명하지 못할 수 있습니다 — 엑소좀 화장품 자체에 대한 규제 승인을 논하기 전에 더 광범위한 평가가 필요합니다. 리뷰들은 또한 소포 특성 분석에 대한 통일된 기준(MISEV 기준)이 없다는 점도 지적합니다 — 즉 제품에 실제로 주장된 소포가 들어 있는지에 대한 형식적 확인조차 제조사마다 표준화되어 있지 않습니다.',
+            ],
+          },
+          {
+            h: '구매자를 위한 결론',
+            p: [
+              '독립적인 리뷰들의 결론은 일관됩니다: 화장품 속 엑소좀과 세포외 소포는 그럴듯한 메커니즘적 가능성을 갖고 있지만, 임상 시험은 적고 표준화는 부족하며, 엑소좀 화장품 제품이 그 자체로 별도의 규제 승인을 받은 사례는 아직 없습니다. 그래서 BOOST SOLUTION, HYDRO-WHITE, EXO-PLUS, EXOBENE-S, EXOBENE-H와 Vesicles Brightening 세럼의 효과 설명은 NOVAMEDINTL이 자사 화장품에 대해 밝힌 주장이며, 독립적으로 입증된 임상 결과가 아닙니다.',
+              '이것이 구매자에게 이 라인의 매력을 떨어뜨리는 것은 아닙니다 — 오히려 정직한 기대치를 설정하고, 제조사가 왜 이 라인의 서류를 화장품 수준으로 스스로 제한하는지를 설명해 줍니다. 전체 성분과 수출 시장별 서류는 Teranova 사이트의 EXSOLU 페이지에서 확인할 수 있습니다.',
             ],
           },
         ],
