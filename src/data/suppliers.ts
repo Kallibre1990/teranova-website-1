@@ -359,6 +359,7 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import themaqueenAr from './suppliers-i18n/themaqueen.ar.json';
 import acfitRu from './suppliers-i18n/acfit.ru.json';
 import acfitEn from './suppliers-i18n/acfit.en.json';
 import acfitKo from './suppliers-i18n/acfit.ko.json';
@@ -535,6 +536,7 @@ import veganNatureEs from './suppliers-i18n/vegan-nature.es.json';
 import veganNaturePt from './suppliers-i18n/vegan-nature.pt.json';
 import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
 import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
+import veganNatureAr from './suppliers-i18n/vegan-nature.ar.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
 import duCosmeticRu from './suppliers-i18n/du-cosmetic.ru.json';
@@ -607,6 +609,7 @@ import toptrendEs from './suppliers-i18n/toptrend.es.json';
 import toptrendPt from './suppliers-i18n/toptrend.pt.json';
 import toptrendHe from './suppliers-i18n/toptrend.he.json';
 import toptrendHi from './suppliers-i18n/toptrend.hi.json';
+import toptrendAr from './suppliers-i18n/toptrend.ar.json';
 import mozScienceRu from './suppliers-i18n/moz-science.ru.json';
 import mozScienceEn from './suppliers-i18n/moz-science.en.json';
 import mozScienceKo from './suppliers-i18n/moz-science.ko.json';
@@ -3061,7 +3064,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/themaqueen-terms-ru.pdf', en: '/docs/themaqueen-terms-en.pdf', ko: '/docs/themaqueen-terms-ko.pdf', zh: '/docs/themaqueen-terms-zh.pdf', ja: '/docs/themaqueen-terms-ja.pdf', it: '/docs/themaqueen-terms-it.pdf', de: '/docs/themaqueen-terms-de.pdf', fr: '/docs/themaqueen-terms-fr.pdf', tr: '/docs/themaqueen-terms-tr.pdf', es: '/docs/themaqueen-terms-es.pdf', pt: '/docs/themaqueen-terms-pt.pdf' },
     presFile: { ru: '/docs/themaqueen-presentation-ru.pdf', en: '/docs/themaqueen-presentation-en.pdf', ko: '/docs/themaqueen-presentation-ko.pdf', zh: '/docs/themaqueen-presentation-zh.pdf', ja: '/docs/themaqueen-presentation-ja.pdf', it: '/docs/themaqueen-presentation-it.pdf', de: '/docs/themaqueen-presentation-de.pdf', fr: '/docs/themaqueen-presentation-fr.pdf', tr: '/docs/themaqueen-presentation-tr.pdf', es: '/docs/themaqueen-presentation-es.pdf', pt: '/docs/themaqueen-presentation-pt.pdf' },
     i18n: {
-      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any), he: mk(themaqueenHe as any), hi: mk(themaqueenHi as any),
+      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any), he: mk(themaqueenHe as any), hi: mk(themaqueenHi as any), ar: mk(themaqueenAr as any),
     },
   },
   {
@@ -3081,7 +3084,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/vegan-nature-terms-ru.pdf', en: '/docs/vegan-nature-terms-en.pdf', ko: '/docs/vegan-nature-terms-ko.pdf', zh: '/docs/vegan-nature-terms-zh.pdf', ja: '/docs/vegan-nature-terms-ja.pdf', it: '/docs/vegan-nature-terms-it.pdf', de: '/docs/vegan-nature-terms-de.pdf', fr: '/docs/vegan-nature-terms-fr.pdf', tr: '/docs/vegan-nature-terms-tr.pdf', es: '/docs/vegan-nature-terms-es.pdf', pt: '/docs/vegan-nature-terms-pt.pdf' },
     presFile: { ru: '/docs/vegan-nature-presentation-ru.pdf', en: '/docs/vegan-nature-presentation-en.pdf', ko: '/docs/vegan-nature-presentation-ko.pdf', zh: '/docs/vegan-nature-presentation-zh.pdf', ja: '/docs/vegan-nature-presentation-ja.pdf', it: '/docs/vegan-nature-presentation-it.pdf', de: '/docs/vegan-nature-presentation-de.pdf', fr: '/docs/vegan-nature-presentation-fr.pdf', tr: '/docs/vegan-nature-presentation-tr.pdf', es: '/docs/vegan-nature-presentation-es.pdf', pt: '/docs/vegan-nature-presentation-pt.pdf' },
     i18n: {
-      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any), he: mk(veganNatureHe as any), hi: mk(veganNatureHi as any),
+      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any), he: mk(veganNatureHe as any), hi: mk(veganNatureHi as any), ar: mk(veganNatureAr as any),
     },
   },
   {
@@ -3321,7 +3324,7 @@ export const suppliers: SupplierProfile[] = [
        and are intentionally absent; so are images, prices, MOQ and contacts.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/11_TOPTREND.md. */
     i18n: {
-      ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any),
+      ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any), ar: mk(toptrendAr as any),
     },
   },
   {
