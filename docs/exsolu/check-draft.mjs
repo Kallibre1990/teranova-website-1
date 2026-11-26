@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 
 const result = await build({ entryPoints: ['src/data/exsolu.ts'], bundle: true, platform: 'node', format: 'esm', write: false });
 const { exsoluContent } = await import('data:text/javascript;base64,' + Buffer.from(result.outputFiles[0].text).toString('base64'));
-for (const lang of ['en', 'ru', 'ko', 'ja', 'zh']) {
+for (const lang of ['en', 'ru', 'ko', 'ja', 'zh', 'de']) {
   const c = exsoluContent(lang);
   assert.equal(c.boosters.length, 17);
   assert.equal(c.skincareProducts.length, 5);
@@ -17,7 +17,15 @@ for (const lang of ['en', 'ru', 'ko', 'ja', 'zh']) {
     await readFile('public' + p.image);
   }
   assert.doesNotMatch(JSON.stringify(c), /hormonal|pain|tissue rebuilding|гормональ|при боли|восстановление тканей|\bMOQ\b|\bprice\b/i);
-  assert.match(c.boosters.find(p => p.id === 'nad-air-shot').caution, { en: /Do not inject/, ru: /не вводить инъекционно/, ko: /주입하지 마십시오/, ja: /注射しないでください/, zh: /禁止注射/ }[lang]);
+  assert.match(c.boosters.find(p => p.id === 'nad-air-shot').caution, { en: /Do not inject/, ru: /не вводить инъекционно/, ko: /주입하지 마십시오/, ja: /注射しないでください/, zh: /禁止注射/, de: /Nicht injizieren/ }[lang]);
+  if (lang === 'de') {
+    for (const p of products) {
+      assert.doesNotMatch(p.description + p.ingredients + p.pack, /[А-Яа-яЁё一-龯가-힣ぁ-んァ-ヶ]|\b(?:vials?|box|ea|with|and|care)\b/i);
+    }
+    assert.match(c.about, /Wir entwickeln/);
+    assert.match(c.compositionNote, /keine vollständige INCI/);
+    assert.doesNotMatch(JSON.stringify(c), /Preis|Mindestbestell|heilt|Schmerzlinderung|Geweberegeneration|garantiert/i);
+  }
   if (lang === 'zh') {
     for (const p of products) {
       assert.match(p.description, /[一-龯]/);
@@ -47,7 +55,7 @@ for (const lang of ['en', 'ru', 'ko', 'ja', 'zh']) {
   }
   console.log(`${lang}: 22 products, unique existing images, restricted claims absent, NAD prohibition present`);
 }
-assert.throws(() => exsoluContent('de'), /translation unavailable/);
+assert.throws(() => exsoluContent('fr'), /translation unavailable/);
 const compiled = await transform(await readFile('src/components/pages/ExsoluDraft.astro', 'utf8'), { filename: 'ExsoluDraft.astro' });
 assert.equal(compiled.diagnostics.filter(d => d.severity === 1).length, 0);
 console.log('Astro component compiles; unsupported locale fails closed');
