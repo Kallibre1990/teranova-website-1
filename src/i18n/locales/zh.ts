@@ -455,6 +455,9 @@ const zh: DeepPartial<UIDict> = {
   },
 
   footer: {
+    marine_title: "其他业务",
+    marine_name: "Teranova Marine",
+    marine_desc: "游艇和快艇零配件",
     blurb: "我们将经核验的韩国制造商与全球买家对接，并全程支持交易。",
     nav_title: "导航",
     contact_title: "联系方式",
