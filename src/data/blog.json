@@ -1,62 +1,638 @@
 [
   {
-    "slug": "ooznary-vita3-product-range", "cover": ["/img/suppliers/ooznary/products/sku-1.jpg", "/img/suppliers/ooznary/products/sku-5.jpg", "/img/suppliers/ooznary/products/sku-6.jpg"],
+    "slug": "ooznary-vita3-product-range",
+    "cover": [
+      "/img/suppliers/ooznary/products/sku-1.jpg",
+      "/img/suppliers/ooznary/products/sku-5.jpg",
+      "/img/suppliers/ooznary/products/sku-6.jpg"
+    ],
     "category": "overview",
     "date": "2026-10-26",
-    "related": ["ooznary", "cosmetics"],
+    "related": [
+      "ooznary",
+      "cosmetics"
+    ],
     "supplier": "ooznary",
     "i18n": {
-      "ru":{"title":"Линия Ooznary Vita3: шесть позиций каталога","excerpt":"Тонер, сыворотка, крем, мист и два формата тканевой маски из материалов DOTS CORPORATION.","seoTitle":"Ooznary Vita3: каталог позиций · Teranova","seoDesc":"Обзор шести позиций Vita3 из материалов DOTS CORPORATION.","sections":[{"h":"Что входит в линейку","p":["В каталоге Ooznary Vita3 представлены сыворотка 50 мл, тонер 200 мл, крем 50 мл, мист 60 мл, тканевая маска 25 мл и упаковка из десяти масок. Для каждой позиции на странице есть фотография и указанный компанией объём.","Компания описывает основу линейки как витаминный комплекс. Детали состава и применимость для конкретного рынка нужно подтверждать до сделки."]}]},
-      "en":{"title":"Ooznary Vita3: six catalog products","excerpt":"Toner, serum, cream, mist and two sheet-mask formats from DOTS CORPORATION materials.","seoTitle":"Ooznary Vita3 catalog · Teranova","seoDesc":"An overview of six Vita3 products from DOTS CORPORATION materials.","sections":[{"h":"What the line includes","p":["The Ooznary Vita3 catalog lists a 50 ml serum, 200 ml toner, 50 ml cream, 60 ml mist, 25 ml sheet mask and a ten-mask pack. Each item has a product photo and the volume stated by the company.","The company describes the line as based on a vitamin complex. Formula details and suitability for a specific market should be confirmed before a deal."]}]},
-      "ko":{"title":"Ooznary Vita3 라인: 카탈로그 6개 품목","excerpt":"DOTS CORPORATION 자료의 토너, 세럼, 크림, 미스트, 시트 마스크 두 가지 구성입니다.","seoTitle":"Ooznary Vita3 카탈로그 · Teranova","seoDesc":"DOTS CORPORATION 자료에 따른 Vita3 6개 품목 안내.","sections":[{"h":"라인 구성","p":["Ooznary Vita3 카탈로그에는 50 ml 세럼, 200 ml 토너, 50 ml 크림, 60 ml 미스트, 25 ml 시트 마스크와 10매 구성 마스크가 있습니다. 각 품목에는 제품 사진과 회사가 제시한 용량이 있습니다.","회사는 이 라인을 비타민 콤플렉스 기반으로 설명합니다. 특정 시장의 성분 정보와 적용 가능성은 거래 전에 확인해야 합니다."]}]},
-      "zh":{"title":"Ooznary Vita3：目录中的六款产品","excerpt":"来自 DOTS CORPORATION 资料的爽肤水、精华、面霜、喷雾和两种面膜规格。","seoTitle":"Ooznary Vita3 产品目录 · Teranova","seoDesc":"DOTS CORPORATION 资料中的六款 Vita3 产品。","sections":[{"h":"产品线包括什么","p":["Ooznary Vita3 目录列出 50 ml 精华、200 ml 爽肤水、50 ml 面霜、60 ml 喷雾、25 ml 面膜和十片装面膜。每款产品均有照片及公司提供的容量信息。","公司将该系列描述为以维生素复合物为基础。配方细节和具体市场的适用性应在交易前确认。"]}]},
-      "ja":{"title":"Ooznary Vita3：カタログの6製品","excerpt":"DOTS CORPORATIONの資料に基づくトナー、セラム、クリーム、ミスト、2種のシートマスクです。","seoTitle":"Ooznary Vita3 カタログ · Teranova","seoDesc":"DOTS CORPORATION資料に基づくVita3の6製品。","sections":[{"h":"ラインアップ","p":["Ooznary Vita3のカタログには、50 mlセラム、200 mlトナー、50 mlクリーム、60 mlミスト、25 mlシートマスク、10枚入りマスクがあります。各製品には写真と会社提示の容量があります。","会社はこのラインをビタミン複合体を基盤と説明しています。処方の詳細と市場ごとの適合性は取引前に確認が必要です。"]}]},
-      "it":{"title":"Ooznary Vita3: sei prodotti in catalogo","excerpt":"Tonico, siero, crema, mist e due formati di maschera dai materiali DOTS CORPORATION.","seoTitle":"Catalogo Ooznary Vita3 · Teranova","seoDesc":"Sei prodotti Vita3 dai materiali DOTS CORPORATION.","sections":[{"h":"Cosa include la linea","p":["Il catalogo Ooznary Vita3 comprende siero da 50 ml, tonico da 200 ml, crema da 50 ml, mist da 60 ml, maschera da 25 ml e confezione da dieci maschere. Ogni articolo ha foto e volume indicato dall'azienda.","L'azienda descrive la linea come basata su un complesso vitaminico. Formula e idoneità al mercato vanno confermate prima della trattativa."]}]},
-      "de":{"title":"Ooznary Vita3: sechs Katalogprodukte","excerpt":"Toner, Serum, Creme, Mist und zwei Tuchmaskenformate aus den Unterlagen von DOTS CORPORATION.","seoTitle":"Ooznary Vita3 Katalog · Teranova","seoDesc":"Sechs Vita3-Produkte aus den Unterlagen von DOTS CORPORATION.","sections":[{"h":"Inhalt der Linie","p":["Der Ooznary-Vita3-Katalog führt ein 50-ml-Serum, 200-ml-Toner, 50-ml-Creme, 60-ml-Mist, eine 25-ml-Tuchmaske und eine Zehnerpackung. Jeder Artikel hat ein Produktfoto und die vom Unternehmen angegebene Menge.","Das Unternehmen beschreibt die Linie als vitaminbasiert. Rezepturdetails und Eignung für den jeweiligen Markt sind vor einem Geschäft zu bestätigen."]}]},
-      "fr":{"title":"Ooznary Vita3 : six produits au catalogue","excerpt":"Toner, sérum, crème, brume et deux formats de masques des documents DOTS CORPORATION.","seoTitle":"Catalogue Ooznary Vita3 · Teranova","seoDesc":"Six produits Vita3 issus des documents DOTS CORPORATION.","sections":[{"h":"Contenu de la ligne","p":["Le catalogue Ooznary Vita3 présente un sérum de 50 ml, un toner de 200 ml, une crème de 50 ml, une brume de 60 ml, un masque de 25 ml et un lot de dix masques. Chaque produit a une photo et le volume indiqué par l'entreprise.","L'entreprise décrit cette ligne comme fondée sur un complexe vitaminé. La formule et l'adéquation au marché sont à confirmer avant une transaction."]}]},
-      "tr":{"title":"Ooznary Vita3: katalogda altı ürün","excerpt":"DOTS CORPORATION materyallerinden tonik, serum, krem, mist ve iki maske formatı.","seoTitle":"Ooznary Vita3 kataloğu · Teranova","seoDesc":"DOTS CORPORATION materyallerindeki altı Vita3 ürünü.","sections":[{"h":"Seride neler var","p":["Ooznary Vita3 kataloğunda 50 ml serum, 200 ml tonik, 50 ml krem, 60 ml mist, 25 ml maske ve onlu maske paketi yer alır. Her üründe fotoğraf ve şirketin belirttiği hacim bulunur.","Şirket seriyi vitamin kompleksi temelli olarak tanımlar. Formül ayrıntıları ve belirli pazar uygunluğu işlem öncesinde doğrulanmalıdır."]}]},
-      "es":{"title":"Ooznary Vita3: seis productos del catálogo","excerpt":"Tónico, sérum, crema, mist y dos formatos de mascarilla de los materiales de DOTS CORPORATION.","seoTitle":"Catálogo Ooznary Vita3 · Teranova","seoDesc":"Seis productos Vita3 de los materiales de DOTS CORPORATION.","sections":[{"h":"Qué incluye la línea","p":["El catálogo Ooznary Vita3 incluye sérum de 50 ml, tónico de 200 ml, crema de 50 ml, mist de 60 ml, mascarilla de 25 ml y paquete de diez mascarillas. Cada artículo tiene foto y volumen indicado por la empresa.","La empresa describe la línea como basada en un complejo vitamínico. La fórmula y la adecuación a cada mercado deben confirmarse antes de una operación."]}]},
-      "pt":{"title":"Ooznary Vita3: seis produtos no catálogo","excerpt":"Tónico, sérum, creme, bruma e dois formatos de máscara dos materiais da DOTS CORPORATION.","seoTitle":"Catálogo Ooznary Vita3 · Teranova","seoDesc":"Seis produtos Vita3 dos materiais da DOTS CORPORATION.","sections":[{"h":"O que a linha inclui","p":["O catálogo Ooznary Vita3 reúne sérum de 50 ml, tónico de 200 ml, creme de 50 ml, bruma de 60 ml, máscara de 25 ml e embalagem de dez máscaras. Cada item tem foto e volume indicado pela empresa.","A empresa descreve a linha como baseada num complexo vitamínico. A fórmula e a adequação a cada mercado devem ser confirmadas antes de um negócio."]}]},
-      "he":{"title":"Ooznary Vita3: שישה מוצרים בקטלוג","excerpt":"טונר, סרום, קרם, מיסט ושני פורמטי מסכות מחומרי DOTS CORPORATION.","seoTitle":"קטלוג Ooznary Vita3 · Teranova","seoDesc":"שישה מוצרי Vita3 מחומרי DOTS CORPORATION.","sections":[{"h":"מה כולל הקו","p":["קטלוג Ooznary Vita3 כולל סרום 50 מ״ל, טונר 200 מ״ל, קרם 50 מ״ל, מיסט 60 מ״ל, מסכה 25 מ״ל ומארז של עשר מסכות. לכל פריט צילום ונפח שנמסר על ידי החברה.","החברה מתארת את הקו כמבוסס על קומפלקס ויטמינים. יש לאשר פרטי נוסחה והתאמה לשוק מסוים לפני עסקה."]}]},
-      "hi":{"title":"Ooznary Vita3: कैटलॉग में छह उत्पाद","excerpt":"DOTS CORPORATION सामग्री से टोनर, सीरम, क्रीम, मिस्ट और दो मास्क प्रारूप।","seoTitle":"Ooznary Vita3 कैटलॉग · Teranova","seoDesc":"DOTS CORPORATION सामग्री में छह Vita3 उत्पाद।","sections":[{"h":"लाइन में क्या है","p":["Ooznary Vita3 कैटलॉग में 50 ml सीरम, 200 ml टोनर, 50 ml क्रीम, 60 ml मिस्ट, 25 ml शीट मास्क और दस मास्क का पैक है। हर उत्पाद में फोटो और कंपनी द्वारा दिया गया वॉल्यूम है।","कंपनी इस लाइन को विटामिन कॉम्प्लेक्स पर आधारित बताती है। फॉर्मूला और बाजार-उपयुक्तता की पुष्टि सौदे से पहले होनी चाहिए।"]}]}
+      "ru": {
+        "title": "Линия Ooznary Vita3: шесть позиций каталога",
+        "excerpt": "Тонер, сыворотка, крем, мист и два формата тканевой маски из материалов DOTS CORPORATION.",
+        "seoTitle": "Ooznary Vita3: каталог позиций · Teranova",
+        "seoDesc": "Обзор шести позиций Vita3 из материалов DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "Что входит в линейку",
+            "p": [
+              "В каталоге Ooznary Vita3 представлены сыворотка 50 мл, тонер 200 мл, крем 50 мл, мист 60 мл, тканевая маска 25 мл и упаковка из десяти масок. Для каждой позиции на странице есть фотография и указанный компанией объём.",
+              "Компания описывает основу линейки как витаминный комплекс. Детали состава и применимость для конкретного рынка нужно подтверждать до сделки."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Ooznary Vita3: six catalog products",
+        "excerpt": "Toner, serum, cream, mist and two sheet-mask formats from DOTS CORPORATION materials.",
+        "seoTitle": "Ooznary Vita3 catalog · Teranova",
+        "seoDesc": "An overview of six Vita3 products from DOTS CORPORATION materials.",
+        "sections": [
+          {
+            "h": "What the line includes",
+            "p": [
+              "The Ooznary Vita3 catalog lists a 50 ml serum, 200 ml toner, 50 ml cream, 60 ml mist, 25 ml sheet mask and a ten-mask pack. Each item has a product photo and the volume stated by the company.",
+              "The company describes the line as based on a vitamin complex. Formula details and suitability for a specific market should be confirmed before a deal."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "Ooznary Vita3 라인: 카탈로그 6개 품목",
+        "excerpt": "DOTS CORPORATION 자료의 토너, 세럼, 크림, 미스트, 시트 마스크 두 가지 구성입니다.",
+        "seoTitle": "Ooznary Vita3 카탈로그 · Teranova",
+        "seoDesc": "DOTS CORPORATION 자료에 따른 Vita3 6개 품목 안내.",
+        "sections": [
+          {
+            "h": "라인 구성",
+            "p": [
+              "Ooznary Vita3 카탈로그에는 50 ml 세럼, 200 ml 토너, 50 ml 크림, 60 ml 미스트, 25 ml 시트 마스크와 10매 구성 마스크가 있습니다. 각 품목에는 제품 사진과 회사가 제시한 용량이 있습니다.",
+              "회사는 이 라인을 비타민 콤플렉스 기반으로 설명합니다. 특정 시장의 성분 정보와 적용 가능성은 거래 전에 확인해야 합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "Ooznary Vita3：目录中的六款产品",
+        "excerpt": "来自 DOTS CORPORATION 资料的爽肤水、精华、面霜、喷雾和两种面膜规格。",
+        "seoTitle": "Ooznary Vita3 产品目录 · Teranova",
+        "seoDesc": "DOTS CORPORATION 资料中的六款 Vita3 产品。",
+        "sections": [
+          {
+            "h": "产品线包括什么",
+            "p": [
+              "Ooznary Vita3 目录列出 50 ml 精华、200 ml 爽肤水、50 ml 面霜、60 ml 喷雾、25 ml 面膜和十片装面膜。每款产品均有照片及公司提供的容量信息。",
+              "公司将该系列描述为以维生素复合物为基础。配方细节和具体市场的适用性应在交易前确认。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "Ooznary Vita3：カタログの6製品",
+        "excerpt": "DOTS CORPORATIONの資料に基づくトナー、セラム、クリーム、ミスト、2種のシートマスクです。",
+        "seoTitle": "Ooznary Vita3 カタログ · Teranova",
+        "seoDesc": "DOTS CORPORATION資料に基づくVita3の6製品。",
+        "sections": [
+          {
+            "h": "ラインアップ",
+            "p": [
+              "Ooznary Vita3のカタログには、50 mlセラム、200 mlトナー、50 mlクリーム、60 mlミスト、25 mlシートマスク、10枚入りマスクがあります。各製品には写真と会社提示の容量があります。",
+              "会社はこのラインをビタミン複合体を基盤と説明しています。処方の詳細と市場ごとの適合性は取引前に確認が必要です。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Ooznary Vita3: sei prodotti in catalogo",
+        "excerpt": "Tonico, siero, crema, mist e due formati di maschera dai materiali DOTS CORPORATION.",
+        "seoTitle": "Catalogo Ooznary Vita3 · Teranova",
+        "seoDesc": "Sei prodotti Vita3 dai materiali DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "Cosa include la linea",
+            "p": [
+              "Il catalogo Ooznary Vita3 comprende siero da 50 ml, tonico da 200 ml, crema da 50 ml, mist da 60 ml, maschera da 25 ml e confezione da dieci maschere. Ogni articolo ha foto e volume indicato dall'azienda.",
+              "L'azienda descrive la linea come basata su un complesso vitaminico. Formula e idoneità al mercato vanno confermate prima della trattativa."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Ooznary Vita3: sechs Katalogprodukte",
+        "excerpt": "Toner, Serum, Creme, Mist und zwei Tuchmaskenformate aus den Unterlagen von DOTS CORPORATION.",
+        "seoTitle": "Ooznary Vita3 Katalog · Teranova",
+        "seoDesc": "Sechs Vita3-Produkte aus den Unterlagen von DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "Inhalt der Linie",
+            "p": [
+              "Der Ooznary-Vita3-Katalog führt ein 50-ml-Serum, 200-ml-Toner, 50-ml-Creme, 60-ml-Mist, eine 25-ml-Tuchmaske und eine Zehnerpackung. Jeder Artikel hat ein Produktfoto und die vom Unternehmen angegebene Menge.",
+              "Das Unternehmen beschreibt die Linie als vitaminbasiert. Rezepturdetails und Eignung für den jeweiligen Markt sind vor einem Geschäft zu bestätigen."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Ooznary Vita3 : six produits au catalogue",
+        "excerpt": "Toner, sérum, crème, brume et deux formats de masques des documents DOTS CORPORATION.",
+        "seoTitle": "Catalogue Ooznary Vita3 · Teranova",
+        "seoDesc": "Six produits Vita3 issus des documents DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "Contenu de la ligne",
+            "p": [
+              "Le catalogue Ooznary Vita3 présente un sérum de 50 ml, un toner de 200 ml, une crème de 50 ml, une brume de 60 ml, un masque de 25 ml et un lot de dix masques. Chaque produit a une photo et le volume indiqué par l'entreprise.",
+              "L'entreprise décrit cette ligne comme fondée sur un complexe vitaminé. La formule et l'adéquation au marché sont à confirmer avant une transaction."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Ooznary Vita3: katalogda altı ürün",
+        "excerpt": "DOTS CORPORATION materyallerinden tonik, serum, krem, mist ve iki maske formatı.",
+        "seoTitle": "Ooznary Vita3 kataloğu · Teranova",
+        "seoDesc": "DOTS CORPORATION materyallerindeki altı Vita3 ürünü.",
+        "sections": [
+          {
+            "h": "Seride neler var",
+            "p": [
+              "Ooznary Vita3 kataloğunda 50 ml serum, 200 ml tonik, 50 ml krem, 60 ml mist, 25 ml maske ve onlu maske paketi yer alır. Her üründe fotoğraf ve şirketin belirttiği hacim bulunur.",
+              "Şirket seriyi vitamin kompleksi temelli olarak tanımlar. Formül ayrıntıları ve belirli pazar uygunluğu işlem öncesinde doğrulanmalıdır."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Ooznary Vita3: seis productos del catálogo",
+        "excerpt": "Tónico, sérum, crema, mist y dos formatos de mascarilla de los materiales de DOTS CORPORATION.",
+        "seoTitle": "Catálogo Ooznary Vita3 · Teranova",
+        "seoDesc": "Seis productos Vita3 de los materiales de DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "Qué incluye la línea",
+            "p": [
+              "El catálogo Ooznary Vita3 incluye sérum de 50 ml, tónico de 200 ml, crema de 50 ml, mist de 60 ml, mascarilla de 25 ml y paquete de diez mascarillas. Cada artículo tiene foto y volumen indicado por la empresa.",
+              "La empresa describe la línea como basada en un complejo vitamínico. La fórmula y la adecuación a cada mercado deben confirmarse antes de una operación."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Ooznary Vita3: seis produtos no catálogo",
+        "excerpt": "Tónico, sérum, creme, bruma e dois formatos de máscara dos materiais da DOTS CORPORATION.",
+        "seoTitle": "Catálogo Ooznary Vita3 · Teranova",
+        "seoDesc": "Seis produtos Vita3 dos materiais da DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "O que a linha inclui",
+            "p": [
+              "O catálogo Ooznary Vita3 reúne sérum de 50 ml, tónico de 200 ml, creme de 50 ml, bruma de 60 ml, máscara de 25 ml e embalagem de dez máscaras. Cada item tem foto e volume indicado pela empresa.",
+              "A empresa descreve a linha como baseada num complexo vitamínico. A fórmula e a adequação a cada mercado devem ser confirmadas antes de um negócio."
+            ]
+          }
+        ]
+      },
+      "he": {
+        "title": "Ooznary Vita3: שישה מוצרים בקטלוג",
+        "excerpt": "טונר, סרום, קרם, מיסט ושני פורמטי מסכות מחומרי DOTS CORPORATION.",
+        "seoTitle": "קטלוג Ooznary Vita3 · Teranova",
+        "seoDesc": "שישה מוצרי Vita3 מחומרי DOTS CORPORATION.",
+        "sections": [
+          {
+            "h": "מה כולל הקו",
+            "p": [
+              "קטלוג Ooznary Vita3 כולל סרום 50 מ״ל, טונר 200 מ״ל, קרם 50 מ״ל, מיסט 60 מ״ל, מסכה 25 מ״ל ומארז של עשר מסכות. לכל פריט צילום ונפח שנמסר על ידי החברה.",
+              "החברה מתארת את הקו כמבוסס על קומפלקס ויטמינים. יש לאשר פרטי נוסחה והתאמה לשוק מסוים לפני עסקה."
+            ]
+          }
+        ]
+      },
+      "hi": {
+        "title": "Ooznary Vita3: कैटलॉग में छह उत्पाद",
+        "excerpt": "DOTS CORPORATION सामग्री से टोनर, सीरम, क्रीम, मिस्ट और दो मास्क प्रारूप।",
+        "seoTitle": "Ooznary Vita3 कैटलॉग · Teranova",
+        "seoDesc": "DOTS CORPORATION सामग्री में छह Vita3 उत्पाद।",
+        "sections": [
+          {
+            "h": "लाइन में क्या है",
+            "p": [
+              "Ooznary Vita3 कैटलॉग में 50 ml सीरम, 200 ml टोनर, 50 ml क्रीम, 60 ml मिस्ट, 25 ml शीट मास्क और दस मास्क का पैक है। हर उत्पाद में फोटो और कंपनी द्वारा दिया गया वॉल्यूम है।",
+              "कंपनी इस लाइन को विटामिन कॉम्प्लेक्स पर आधारित बताती है। फॉर्मूला और बाजार-उपयुक्तता की पुष्टि सौदे से पहले होनी चाहिए।"
+            ]
+          }
+        ]
+      }
     }
   },
   {
-    "slug":"ooznary-micro-oil-blender-37", "cover": ["/img/suppliers/ooznary/products/sku-8.jpg", "/img/suppliers/ooznary/products/sku-9.jpg", "/img/suppliers/ooznary/products/sku-10.jpg"],
-    "category":"overview","date":"2026-10-26","related":["ooznary","cosmetics"],"supplier":"ooznary",
-    "i18n":{
-      "ru":{"title":"Micro Oil Blender 37: три двухфазные сыворотки Ooznary","excerpt":"В каталоге представлены варианты с азелаиновой кислотой, центеллой и PDRN, а также ретинолом.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Три двухфазные сыворотки Ooznary из материалов компании.","sections":[{"h":"Линейка","p":["Micro Oil Blender 37 — серия двухфазных сывороток Ooznary объёмом 30 мл. Компания указывает соотношение масляной и водной фаз 3:7 и рекомендует встряхнуть флакон перед применением.","В каталоге есть варианты с азелаиновой кислотой, центеллой и PDRN, а также ретинолом. Для рынка и проекта состав и маркировку следует подтверждать отдельно."]}]},
-      "en":{"title":"Micro Oil Blender 37: three Ooznary two-phase serums","excerpt":"The catalog lists variants with azelaic acid, centella and PDRN, and retinol.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Three Ooznary two-phase serums from company materials.","sections":[{"h":"The range","p":["Micro Oil Blender 37 is Ooznary’s range of 30 ml two-phase serums. The company states a 3:7 oil-to-water ratio and recommends shaking the bottle before use.","The catalog lists variants with azelaic acid, centella and PDRN, and retinol. Formula and labelling for a particular market should be confirmed separately."]}]},
-      "ko":{"title":"Micro Oil Blender 37: Ooznary 2층 세럼 3종","excerpt":"카탈로그에는 아젤라익애씨드, 센텔라·PDRN, 레티놀 버전이 있습니다.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"회사 자료에 따른 Ooznary 2층 세럼 3종.","sections":[{"h":"라인업","p":["Micro Oil Blender 37은 Ooznary의 30 ml 2층 세럼 라인입니다. 회사는 오일과 수분의 비율을 3:7로 안내하며 사용 전 흔들 것을 권장합니다.","카탈로그에는 아젤라익애씨드, 센텔라·PDRN, 레티놀 버전이 있습니다. 특정 시장의 성분과 라벨은 별도로 확인해야 합니다."]}]},
-      "zh":{"title":"Micro Oil Blender 37：三款 Ooznary 双相精华","excerpt":"目录列有壬二酸、积雪草与 PDRN、视黄醇三种版本。","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"公司资料中的三款 Ooznary 双相精华。","sections":[{"h":"产品线","p":["Micro Oil Blender 37 是 Ooznary 的 30 ml 双相精华系列。公司说明油相与水相比例为 3:7，并建议使用前摇匀。","目录列有壬二酸、积雪草与 PDRN、视黄醇版本。具体市场的配方和标签应另行确认。"]}]},
-      "ja":{"title":"Micro Oil Blender 37：Ooznaryの二層式セラム3種","excerpt":"アゼライン酸、センテラとPDRN、レチノールのバリエーションを掲載しています。","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"会社資料に基づくOoznaryの二層式セラム3種。","sections":[{"h":"ラインアップ","p":["Micro Oil Blender 37は、Ooznaryの30 ml二層式セラムです。会社はオイル相と水相を3:7と説明し、使用前に振るよう案内しています。","カタログにはアゼライン酸、センテラとPDRN、レチノールの製品があります。市場ごとの処方と表示は別途確認が必要です。"]}]},
-      "it":{"title":"Micro Oil Blender 37: tre sieri bifasici Ooznary","excerpt":"Il catalogo presenta varianti con acido azelaico, centella e PDRN, e retinolo.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Tre sieri bifasici Ooznary dai materiali aziendali.","sections":[{"h":"La linea","p":["Micro Oil Blender 37 è la linea Ooznary di sieri bifasici da 30 ml. L'azienda indica un rapporto olio-acqua di 3:7 e raccomanda di agitare il flacone prima dell'uso.","Il catalogo include varianti con acido azelaico, centella e PDRN, e retinolo. Formula ed etichettatura per ogni mercato vanno confermate separatamente."]}]},
-      "de":{"title":"Micro Oil Blender 37: drei Zwei-Phasen-Seren von Ooznary","excerpt":"Der Katalog führt Varianten mit Azelainsäure, Centella und PDRN sowie Retinol.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Drei Zwei-Phasen-Seren von Ooznary aus Unternehmensunterlagen.","sections":[{"h":"Die Linie","p":["Micro Oil Blender 37 ist Ooznarys Reihe von Zwei-Phasen-Seren mit 30 ml. Das Unternehmen nennt ein Öl-Wasser-Verhältnis von 3:7 und empfiehlt, die Flasche vor Gebrauch zu schütteln.","Der Katalog führt Varianten mit Azelainsäure, Centella und PDRN sowie Retinol. Formel und Kennzeichnung für den jeweiligen Markt sind gesondert zu bestätigen."]}]},
-      "fr":{"title":"Micro Oil Blender 37 : trois sérums biphasés Ooznary","excerpt":"Le catalogue présente des versions à l'acide azélaïque, à la centella et au PDRN, et au rétinol.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Trois sérums biphasés Ooznary issus des documents de l'entreprise.","sections":[{"h":"La ligne","p":["Micro Oil Blender 37 est la gamme Ooznary de sérums biphasés de 30 ml. L'entreprise indique un ratio huile-eau de 3:7 et recommande d'agiter le flacon avant utilisation.","Le catalogue présente des versions à l'acide azélaïque, à la centella et au PDRN, et au rétinol. La formule et l'étiquetage sont à confirmer pour chaque marché."]}]},
-      "tr":{"title":"Micro Oil Blender 37: üç Ooznary çift fazlı serum","excerpt":"Katalogda azelaik asit, centella ve PDRN ile retinol çeşitleri bulunur.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Şirket materyallerinden üç Ooznary çift fazlı serum.","sections":[{"h":"Seri","p":["Micro Oil Blender 37, Ooznary'nin 30 ml çift fazlı serum serisidir. Şirket yağ-su oranını 3:7 olarak belirtir ve kullanımdan önce şişenin çalkalanmasını önerir.","Katalogda azelaik asit, centella ve PDRN ile retinol çeşitleri bulunur. Her pazar için formül ve etiketleme ayrıca doğrulanmalıdır."]}]},
-      "es":{"title":"Micro Oil Blender 37: tres sérums bifásicos Ooznary","excerpt":"El catálogo presenta variantes con ácido azelaico, centella y PDRN, y retinol.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Tres sérums bifásicos Ooznary de materiales de la empresa.","sections":[{"h":"La línea","p":["Micro Oil Blender 37 es la gama Ooznary de sérums bifásicos de 30 ml. La empresa indica una proporción aceite-agua de 3:7 y recomienda agitar el frasco antes de usarlo.","El catálogo presenta variantes con ácido azelaico, centella y PDRN, y retinol. La fórmula y el etiquetado para cada mercado deben confirmarse por separado."]}]},
-      "pt":{"title":"Micro Oil Blender 37: três séruns bifásicos Ooznary","excerpt":"O catálogo apresenta variantes com ácido azelaico, centella e PDRN, e retinol.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"Três séruns bifásicos Ooznary dos materiais da empresa.","sections":[{"h":"A linha","p":["Micro Oil Blender 37 é a linha Ooznary de séruns bifásicos de 30 ml. A empresa indica uma proporção óleo-água de 3:7 e recomenda agitar o frasco antes de usar.","O catálogo apresenta variantes com ácido azelaico, centella e PDRN, e retinol. A fórmula e a rotulagem para cada mercado devem ser confirmadas separadamente."]}]},
-      "he":{"title":"Micro Oil Blender 37: שלושה סרומים דו-פאזיים של Ooznary","excerpt":"בקטלוג מופיעות גרסאות עם חומצה אזלאית, סנטלה ו־PDRN, ורטינול.","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"שלושה סרומים דו-פאזיים של Ooznary מחומרי החברה.","sections":[{"h":"הסדרה","p":["Micro Oil Blender 37 היא סדרת סרומים דו-פאזיים של Ooznary בנפח 30 מ״ל. החברה מציינת יחס שמן-מים של 3:7 וממליצה לנער את הבקבוק לפני השימוש.","בקטלוג מופיעות גרסאות עם חומצה אזלאית, סנטלה ו־PDRN, ורטינול. יש לאשר בנפרד נוסחה וסימון לכל שוק."]}]},
-      "hi":{"title":"Micro Oil Blender 37: Ooznary के तीन दो-चरण सीरम","excerpt":"कैटलॉग में एज़ेलिक एसिड, सेंटेला और PDRN, तथा रेटिनॉल संस्करण हैं।","seoTitle":"Ooznary Micro Oil Blender 37 · Teranova","seoDesc":"कंपनी सामग्री से तीन Ooznary दो-चरण सीरम।","sections":[{"h":"लाइन","p":["Micro Oil Blender 37, Ooznary की 30 ml दो-चरण सीरम श्रृंखला है। कंपनी तेल और पानी का अनुपात 3:7 बताती है और उपयोग से पहले बोतल हिलाने की सलाह देती है।","कैटलॉग में एज़ेलिक एसिड, सेंटेला और PDRN, तथा रेटिनॉल संस्करण हैं। हर बाजार के लिए फॉर्मूला और लेबलिंग अलग से सत्यापित होनी चाहिए।"]}]}
+    "slug": "ooznary-micro-oil-blender-37",
+    "cover": [
+      "/img/suppliers/ooznary/products/sku-8.jpg",
+      "/img/suppliers/ooznary/products/sku-9.jpg",
+      "/img/suppliers/ooznary/products/sku-10.jpg"
+    ],
+    "category": "overview",
+    "date": "2026-10-26",
+    "related": [
+      "ooznary",
+      "cosmetics"
+    ],
+    "supplier": "ooznary",
+    "i18n": {
+      "ru": {
+        "title": "Micro Oil Blender 37: три двухфазные сыворотки Ooznary",
+        "excerpt": "В каталоге представлены варианты с азелаиновой кислотой, центеллой и PDRN, а также ретинолом.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Три двухфазные сыворотки Ooznary из материалов компании.",
+        "sections": [
+          {
+            "h": "Линейка",
+            "p": [
+              "Micro Oil Blender 37 — серия двухфазных сывороток Ooznary объёмом 30 мл. Компания указывает соотношение масляной и водной фаз 3:7 и рекомендует встряхнуть флакон перед применением.",
+              "В каталоге есть варианты с азелаиновой кислотой, центеллой и PDRN, а также ретинолом. Для рынка и проекта состав и маркировку следует подтверждать отдельно."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Micro Oil Blender 37: three Ooznary two-phase serums",
+        "excerpt": "The catalog lists variants with azelaic acid, centella and PDRN, and retinol.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Three Ooznary two-phase serums from company materials.",
+        "sections": [
+          {
+            "h": "The range",
+            "p": [
+              "Micro Oil Blender 37 is Ooznary’s range of 30 ml two-phase serums. The company states a 3:7 oil-to-water ratio and recommends shaking the bottle before use.",
+              "The catalog lists variants with azelaic acid, centella and PDRN, and retinol. Formula and labelling for a particular market should be confirmed separately."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "Micro Oil Blender 37: Ooznary 2층 세럼 3종",
+        "excerpt": "카탈로그에는 아젤라익애씨드, 센텔라·PDRN, 레티놀 버전이 있습니다.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "회사 자료에 따른 Ooznary 2층 세럼 3종.",
+        "sections": [
+          {
+            "h": "라인업",
+            "p": [
+              "Micro Oil Blender 37은 Ooznary의 30 ml 2층 세럼 라인입니다. 회사는 오일과 수분의 비율을 3:7로 안내하며 사용 전 흔들 것을 권장합니다.",
+              "카탈로그에는 아젤라익애씨드, 센텔라·PDRN, 레티놀 버전이 있습니다. 특정 시장의 성분과 라벨은 별도로 확인해야 합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "Micro Oil Blender 37：三款 Ooznary 双相精华",
+        "excerpt": "目录列有壬二酸、积雪草与 PDRN、视黄醇三种版本。",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "公司资料中的三款 Ooznary 双相精华。",
+        "sections": [
+          {
+            "h": "产品线",
+            "p": [
+              "Micro Oil Blender 37 是 Ooznary 的 30 ml 双相精华系列。公司说明油相与水相比例为 3:7，并建议使用前摇匀。",
+              "目录列有壬二酸、积雪草与 PDRN、视黄醇版本。具体市场的配方和标签应另行确认。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "Micro Oil Blender 37：Ooznaryの二層式セラム3種",
+        "excerpt": "アゼライン酸、センテラとPDRN、レチノールのバリエーションを掲載しています。",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "会社資料に基づくOoznaryの二層式セラム3種。",
+        "sections": [
+          {
+            "h": "ラインアップ",
+            "p": [
+              "Micro Oil Blender 37は、Ooznaryの30 ml二層式セラムです。会社はオイル相と水相を3:7と説明し、使用前に振るよう案内しています。",
+              "カタログにはアゼライン酸、センテラとPDRN、レチノールの製品があります。市場ごとの処方と表示は別途確認が必要です。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Micro Oil Blender 37: tre sieri bifasici Ooznary",
+        "excerpt": "Il catalogo presenta varianti con acido azelaico, centella e PDRN, e retinolo.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Tre sieri bifasici Ooznary dai materiali aziendali.",
+        "sections": [
+          {
+            "h": "La linea",
+            "p": [
+              "Micro Oil Blender 37 è la linea Ooznary di sieri bifasici da 30 ml. L'azienda indica un rapporto olio-acqua di 3:7 e raccomanda di agitare il flacone prima dell'uso.",
+              "Il catalogo include varianti con acido azelaico, centella e PDRN, e retinolo. Formula ed etichettatura per ogni mercato vanno confermate separatamente."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Micro Oil Blender 37: drei Zwei-Phasen-Seren von Ooznary",
+        "excerpt": "Der Katalog führt Varianten mit Azelainsäure, Centella und PDRN sowie Retinol.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Drei Zwei-Phasen-Seren von Ooznary aus Unternehmensunterlagen.",
+        "sections": [
+          {
+            "h": "Die Linie",
+            "p": [
+              "Micro Oil Blender 37 ist Ooznarys Reihe von Zwei-Phasen-Seren mit 30 ml. Das Unternehmen nennt ein Öl-Wasser-Verhältnis von 3:7 und empfiehlt, die Flasche vor Gebrauch zu schütteln.",
+              "Der Katalog führt Varianten mit Azelainsäure, Centella und PDRN sowie Retinol. Formel und Kennzeichnung für den jeweiligen Markt sind gesondert zu bestätigen."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Micro Oil Blender 37 : trois sérums biphasés Ooznary",
+        "excerpt": "Le catalogue présente des versions à l'acide azélaïque, à la centella et au PDRN, et au rétinol.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Trois sérums biphasés Ooznary issus des documents de l'entreprise.",
+        "sections": [
+          {
+            "h": "La ligne",
+            "p": [
+              "Micro Oil Blender 37 est la gamme Ooznary de sérums biphasés de 30 ml. L'entreprise indique un ratio huile-eau de 3:7 et recommande d'agiter le flacon avant utilisation.",
+              "Le catalogue présente des versions à l'acide azélaïque, à la centella et au PDRN, et au rétinol. La formule et l'étiquetage sont à confirmer pour chaque marché."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Micro Oil Blender 37: üç Ooznary çift fazlı serum",
+        "excerpt": "Katalogda azelaik asit, centella ve PDRN ile retinol çeşitleri bulunur.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Şirket materyallerinden üç Ooznary çift fazlı serum.",
+        "sections": [
+          {
+            "h": "Seri",
+            "p": [
+              "Micro Oil Blender 37, Ooznary'nin 30 ml çift fazlı serum serisidir. Şirket yağ-su oranını 3:7 olarak belirtir ve kullanımdan önce şişenin çalkalanmasını önerir.",
+              "Katalogda azelaik asit, centella ve PDRN ile retinol çeşitleri bulunur. Her pazar için formül ve etiketleme ayrıca doğrulanmalıdır."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Micro Oil Blender 37: tres sérums bifásicos Ooznary",
+        "excerpt": "El catálogo presenta variantes con ácido azelaico, centella y PDRN, y retinol.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Tres sérums bifásicos Ooznary de materiales de la empresa.",
+        "sections": [
+          {
+            "h": "La línea",
+            "p": [
+              "Micro Oil Blender 37 es la gama Ooznary de sérums bifásicos de 30 ml. La empresa indica una proporción aceite-agua de 3:7 y recomienda agitar el frasco antes de usarlo.",
+              "El catálogo presenta variantes con ácido azelaico, centella y PDRN, y retinol. La fórmula y el etiquetado para cada mercado deben confirmarse por separado."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Micro Oil Blender 37: três séruns bifásicos Ooznary",
+        "excerpt": "O catálogo apresenta variantes com ácido azelaico, centella e PDRN, e retinol.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "Três séruns bifásicos Ooznary dos materiais da empresa.",
+        "sections": [
+          {
+            "h": "A linha",
+            "p": [
+              "Micro Oil Blender 37 é a linha Ooznary de séruns bifásicos de 30 ml. A empresa indica uma proporção óleo-água de 3:7 e recomenda agitar o frasco antes de usar.",
+              "O catálogo apresenta variantes com ácido azelaico, centella e PDRN, e retinol. A fórmula e a rotulagem para cada mercado devem ser confirmadas separadamente."
+            ]
+          }
+        ]
+      },
+      "he": {
+        "title": "Micro Oil Blender 37: שלושה סרומים דו-פאזיים של Ooznary",
+        "excerpt": "בקטלוג מופיעות גרסאות עם חומצה אזלאית, סנטלה ו־PDRN, ורטינול.",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "שלושה סרומים דו-פאזיים של Ooznary מחומרי החברה.",
+        "sections": [
+          {
+            "h": "הסדרה",
+            "p": [
+              "Micro Oil Blender 37 היא סדרת סרומים דו-פאזיים של Ooznary בנפח 30 מ״ל. החברה מציינת יחס שמן-מים של 3:7 וממליצה לנער את הבקבוק לפני השימוש.",
+              "בקטלוג מופיעות גרסאות עם חומצה אזלאית, סנטלה ו־PDRN, ורטינול. יש לאשר בנפרד נוסחה וסימון לכל שוק."
+            ]
+          }
+        ]
+      },
+      "hi": {
+        "title": "Micro Oil Blender 37: Ooznary के तीन दो-चरण सीरम",
+        "excerpt": "कैटलॉग में एज़ेलिक एसिड, सेंटेला और PDRN, तथा रेटिनॉल संस्करण हैं।",
+        "seoTitle": "Ooznary Micro Oil Blender 37 · Teranova",
+        "seoDesc": "कंपनी सामग्री से तीन Ooznary दो-चरण सीरम।",
+        "sections": [
+          {
+            "h": "लाइन",
+            "p": [
+              "Micro Oil Blender 37, Ooznary की 30 ml दो-चरण सीरम श्रृंखला है। कंपनी तेल और पानी का अनुपात 3:7 बताती है और उपयोग से पहले बोतल हिलाने की सलाह देती है।",
+              "कैटलॉग में एज़ेलिक एसिड, सेंटेला और PDRN, तथा रेटिनॉल संस्करण हैं। हर बाजार के लिए फॉर्मूला और लेबलिंग अलग से सत्यापित होनी चाहिए।"
+            ]
+          }
+        ]
+      }
     }
   },
   {
-    "slug":"ooznary-sheet-masks-catalog", "cover": ["/img/suppliers/ooznary/products/sku-11.jpg", "/img/suppliers/ooznary/products/sku-12.jpg", "/img/suppliers/ooznary/products/sku-13.jpg"],
-    "category":"overview","date":"2026-10-26","related":["ooznary","cosmetics"],"supplier":"ooznary",
-    "i18n":{
-      "ru":{"title":"Тканевые маски Ooznary: четыре вида и наборы по десять штук","excerpt":"Витаминные, азелаиновые, центелла-PDRN и ретинол-AHA маски доступны по данным каталога.","seoTitle":"Тканевые маски Ooznary · Teranova","seoDesc":"Четыре вида тканевых масок Ooznary и наборы по десять штук в каталоге компании.","sections":[{"h":"Позиции каталога","p":["В каталоге Ooznary есть Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask и Retinol AHA Blender Mask. Для Vita3, Centella PDRN и Retinol AHA также указаны упаковки по десять масок.","Объём одиночных масок указан в каталоге как 20 или 25 мл. Подбор ассортимента, документы и требования конкретного рынка согласуются до сделки."]}]},
-      "en":{"title":"Ooznary sheet masks: four types and ten-mask packs","excerpt":"The catalog lists vitamin, azelaic, centella-PDRN and retinol-AHA masks.","seoTitle":"Ooznary sheet masks · Teranova","seoDesc":"Four types of Ooznary sheet masks and ten-mask packs in the company catalog.","sections":[{"h":"Catalog items","p":["The Ooznary catalog includes Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask and Retinol AHA Blender Mask. Ten-mask packs are also listed for Vita3, Centella PDRN and Retinol AHA.","Single-mask volumes are listed as 20 or 25 ml. Range selection, documents and requirements for a particular market are agreed before a deal."]}]},
-      "ko":{"title":"Ooznary 시트 마스크: 4종과 10매 구성","excerpt":"카탈로그에는 비타민, 아젤라익, 센텔라-PDRN, 레티놀-AHA 마스크가 있습니다.","seoTitle":"Ooznary 시트 마스크 · Teranova","seoDesc":"회사 카탈로그의 Ooznary 시트 마스크 4종과 10매 구성.","sections":[{"h":"카탈로그 품목","p":["Ooznary 카탈로그에는 Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask, Retinol AHA Blender Mask가 있습니다. Vita3, Centella PDRN, Retinol AHA는 10매 구성도 안내됩니다.","단일 마스크 용량은 20 또는 25 ml로 표시됩니다. 구성, 문서, 특정 시장의 요건은 거래 전에 협의합니다."]}]},
-      "zh":{"title":"Ooznary面膜：四种面膜及十片装","excerpt":"目录列有维生素、壬二酸、积雪草-PDRN 和视黄醇-AHA 面膜。","seoTitle":"Ooznary 面膜 · Teranova","seoDesc":"公司目录中的四种Ooznary面膜及十片装。","sections":[{"h":"目录产品","p":["Ooznary 目录包括 Vita3、Azelaic Cica、Centella PDRN 和 Retinol AHA 面膜；Vita3、Centella PDRN 和 Retinol AHA 也有十片装。","单片面膜容量标为 20 或 25 ml。产品选择、文件和具体市场要求在交易前确认。"]}]},
-      "ja":{"title":"Ooznaryシートマスク：4種類と10枚入り","excerpt":"ビタミン、アゼライン酸、センテラ-PDRN、レチノール-AHAのマスクを掲載しています。","seoTitle":"Ooznary シートマスク · Teranova","seoDesc":"会社カタログに掲載のOoznaryシートマスク4種類と10枚入り。","sections":[{"h":"カタログ製品","p":["OoznaryのカタログにはVita3、Azelaic Cica、Centella PDRN、Retinol AHAのマスクがあります。Vita3、Centella PDRN、Retinol AHAには10枚入りもあります。","1枚の容量は20または25 mlと記載されています。品揃え、書類、各市場の要件は取引前に確認します。"]}]},
-      "it":{"title":"Maschere in tessuto Ooznary: quattro tipi e confezioni da dieci","excerpt":"Il catalogo elenca maschere con vitamine, acido azelaico, centella-PDRN e retinolo-AHA.","seoTitle":"Maschere Ooznary · Teranova","seoDesc":"Quattro tipi di maschere in tessuto Ooznary e confezioni da dieci nel catalogo aziendale.","sections":[{"h":"Voci del catalogo","p":["Il catalogo Ooznary comprende Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask e Retinol AHA Blender Mask. Per Vita3, Centella PDRN e Retinol AHA sono indicati anche pacchi da dieci.","Le maschere singole sono indicate da 20 o 25 ml. Gamma, documenti e requisiti del mercato sono concordati prima della trattativa."]}]},
-      "de":{"title":"Ooznary-Tuchmasken: vier Sorten und Zehnerpackungen","excerpt":"Der Katalog führt Masken mit Vitaminen, Azelainsäure, Centella-PDRN und Retinol-AHA.","seoTitle":"Ooznary-Tuchmasken · Teranova","seoDesc":"Vier Sorten Ooznary-Tuchmasken und Zehnerpackungen im Unternehmenskatalog.","sections":[{"h":"Katalogartikel","p":["Der Ooznary-Katalog umfasst Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask und Retinol AHA Blender Mask. Für Vita3, Centella PDRN und Retinol AHA sind auch Zehnerpackungen angegeben.","Einzelmasken sind mit 20 oder 25 ml angegeben. Sortiment, Dokumente und Marktanforderungen werden vor einem Geschäft abgestimmt."]}]},
-      "fr":{"title":"Masques en tissu Ooznary : quatre types et lots de dix","excerpt":"Le catalogue présente des masques aux vitamines, à l'acide azélaïque, à la centella-PDRN et au rétinol-AHA.","seoTitle":"Masques Ooznary · Teranova","seoDesc":"Quatre types de masques en tissu Ooznary et lots de dix au catalogue de l'entreprise.","sections":[{"h":"Références du catalogue","p":["Le catalogue Ooznary comprend Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask et Retinol AHA Blender Mask. Des lots de dix sont également indiqués pour Vita3, Centella PDRN et Retinol AHA.","Les masques unitaires sont indiqués à 20 ou 25 ml. La sélection, les documents et les exigences du marché sont convenus avant une transaction."]}]},
-      "tr":{"title":"Ooznary maskeleri: dört çeşit ve onlu paketler","excerpt":"Katalogda vitaminli, azelaik, centella-PDRN ve retinol-AHA maskeleri bulunur.","seoTitle":"Ooznary kağıt maskeleri · Teranova","seoDesc":"Şirket kataloğunda dört çeşit Ooznary maskesi ve onlu paketler.","sections":[{"h":"Katalog ürünleri","p":["Ooznary kataloğunda Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask ve Retinol AHA Blender Mask vardır. Vita3, Centella PDRN ve Retinol AHA için onlu paketler de listelenir.","Tekli maskelerin hacmi 20 veya 25 ml olarak belirtilir. Ürün seçimi, belgeler ve pazar gereklilikleri işlemden önce kararlaştırılır."]}]},
-      "es":{"title":"Mascarillas Ooznary: cuatro tipos y paquetes de diez","excerpt":"El catálogo incluye mascarillas con vitaminas, ácido azelaico, centella-PDRN y retinol-AHA.","seoTitle":"Mascarillas Ooznary · Teranova","seoDesc":"Cuatro tipos de mascarillas Ooznary y paquetes de diez en el catálogo de la empresa.","sections":[{"h":"Referencias del catálogo","p":["El catálogo Ooznary incluye Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask y Retinol AHA Blender Mask. También se indican paquetes de diez para Vita3, Centella PDRN y Retinol AHA.","Las mascarillas individuales figuran con 20 o 25 ml. La selección, los documentos y los requisitos de cada mercado se acuerdan antes de una operación."]}]},
-      "pt":{"title":"Máscaras Ooznary: quatro tipos e embalagens de dez","excerpt":"O catálogo inclui máscaras com vitaminas, ácido azelaico, centella-PDRN e retinol-AHA.","seoTitle":"Máscaras Ooznary · Teranova","seoDesc":"Quatro tipos de máscaras Ooznary e embalagens de dez no catálogo da empresa.","sections":[{"h":"Referências do catálogo","p":["O catálogo Ooznary inclui Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask e Retinol AHA Blender Mask. Também há embalagens de dez para Vita3, Centella PDRN e Retinol AHA.","As máscaras individuais são indicadas com 20 ou 25 ml. A seleção, os documentos e os requisitos de mercado são acordados antes de um negócio."]}]},
-      "he":{"title":"מסכות Ooznary: ארבעה סוגים ומארזים של עשר","excerpt":"הקטלוג כולל מסכות עם ויטמינים, חומצה אזלאית, סנטלה-PDRN ורטינול-AHA.","seoTitle":"מסכות Ooznary · Teranova","seoDesc":"ארבעה סוגי מסכות Ooznary ומארזים של עשר בקטלוג החברה.","sections":[{"h":"פריטי הקטלוג","p":["קטלוג Ooznary כולל Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask ו־Retinol AHA Blender Mask. עבור Vita3, Centella PDRN ו־Retinol AHA יש גם מארזים של עשר מסכות.","נפח המסכות הבודדות מצוין כ־20 או 25 ml. בחירת המגוון, המסמכים ודרישות השוק מוסכמים לפני עסקה."]}]},
-      "hi":{"title":"Ooznary शीट मास्क: चार प्रकार और दस के पैक","excerpt":"कैटलॉग में विटामिन, एज़ेलिक, सेंटेला-PDRN और रेटिनॉल-AHA मास्क हैं।","seoTitle":"Ooznary शीट मास्क · Teranova","seoDesc":"कंपनी कैटलॉग में चार प्रकार के Ooznary शीट मास्क और दस के पैक।","sections":[{"h":"कैटलॉग उत्पाद","p":["Ooznary कैटलॉग में Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask और Retinol AHA Blender Mask हैं। Vita3, Centella PDRN और Retinol AHA के लिए दस-मास्क पैक भी सूचीबद्ध हैं।","एकल मास्क का वॉल्यूम 20 या 25 ml है। चयन, दस्तावेज और बाजार की आवश्यकताएं सौदे से पहले तय होती हैं।"]}]}
+    "slug": "ooznary-sheet-masks-catalog",
+    "cover": [
+      "/img/suppliers/ooznary/products/sku-11.jpg",
+      "/img/suppliers/ooznary/products/sku-12.jpg",
+      "/img/suppliers/ooznary/products/sku-13.jpg"
+    ],
+    "category": "overview",
+    "date": "2026-10-26",
+    "related": [
+      "ooznary",
+      "cosmetics"
+    ],
+    "supplier": "ooznary",
+    "i18n": {
+      "ru": {
+        "title": "Тканевые маски Ooznary: четыре вида и наборы по десять штук",
+        "excerpt": "Витаминные, азелаиновые, центелла-PDRN и ретинол-AHA маски доступны по данным каталога.",
+        "seoTitle": "Тканевые маски Ooznary · Teranova",
+        "seoDesc": "Четыре вида тканевых масок Ooznary и наборы по десять штук в каталоге компании.",
+        "sections": [
+          {
+            "h": "Позиции каталога",
+            "p": [
+              "В каталоге Ooznary есть Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask и Retinol AHA Blender Mask. Для Vita3, Centella PDRN и Retinol AHA также указаны упаковки по десять масок.",
+              "Объём одиночных масок указан в каталоге как 20 или 25 мл. Подбор ассортимента, документы и требования конкретного рынка согласуются до сделки."
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Ooznary sheet masks: four types and ten-mask packs",
+        "excerpt": "The catalog lists vitamin, azelaic, centella-PDRN and retinol-AHA masks.",
+        "seoTitle": "Ooznary sheet masks · Teranova",
+        "seoDesc": "Four types of Ooznary sheet masks and ten-mask packs in the company catalog.",
+        "sections": [
+          {
+            "h": "Catalog items",
+            "p": [
+              "The Ooznary catalog includes Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask and Retinol AHA Blender Mask. Ten-mask packs are also listed for Vita3, Centella PDRN and Retinol AHA.",
+              "Single-mask volumes are listed as 20 or 25 ml. Range selection, documents and requirements for a particular market are agreed before a deal."
+            ]
+          }
+        ]
+      },
+      "ko": {
+        "title": "Ooznary 시트 마스크: 4종과 10매 구성",
+        "excerpt": "카탈로그에는 비타민, 아젤라익, 센텔라-PDRN, 레티놀-AHA 마스크가 있습니다.",
+        "seoTitle": "Ooznary 시트 마스크 · Teranova",
+        "seoDesc": "회사 카탈로그의 Ooznary 시트 마스크 4종과 10매 구성.",
+        "sections": [
+          {
+            "h": "카탈로그 품목",
+            "p": [
+              "Ooznary 카탈로그에는 Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask, Retinol AHA Blender Mask가 있습니다. Vita3, Centella PDRN, Retinol AHA는 10매 구성도 안내됩니다.",
+              "단일 마스크 용량은 20 또는 25 ml로 표시됩니다. 구성, 문서, 특정 시장의 요건은 거래 전에 협의합니다."
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "Ooznary面膜：四种面膜及十片装",
+        "excerpt": "目录列有维生素、壬二酸、积雪草-PDRN 和视黄醇-AHA 面膜。",
+        "seoTitle": "Ooznary 面膜 · Teranova",
+        "seoDesc": "公司目录中的四种Ooznary面膜及十片装。",
+        "sections": [
+          {
+            "h": "目录产品",
+            "p": [
+              "Ooznary 目录包括 Vita3、Azelaic Cica、Centella PDRN 和 Retinol AHA 面膜；Vita3、Centella PDRN 和 Retinol AHA 也有十片装。",
+              "单片面膜容量标为 20 或 25 ml。产品选择、文件和具体市场要求在交易前确认。"
+            ]
+          }
+        ]
+      },
+      "ja": {
+        "title": "Ooznaryシートマスク：4種類と10枚入り",
+        "excerpt": "ビタミン、アゼライン酸、センテラ-PDRN、レチノール-AHAのマスクを掲載しています。",
+        "seoTitle": "Ooznary シートマスク · Teranova",
+        "seoDesc": "会社カタログに掲載のOoznaryシートマスク4種類と10枚入り。",
+        "sections": [
+          {
+            "h": "カタログ製品",
+            "p": [
+              "OoznaryのカタログにはVita3、Azelaic Cica、Centella PDRN、Retinol AHAのマスクがあります。Vita3、Centella PDRN、Retinol AHAには10枚入りもあります。",
+              "1枚の容量は20または25 mlと記載されています。品揃え、書類、各市場の要件は取引前に確認します。"
+            ]
+          }
+        ]
+      },
+      "it": {
+        "title": "Maschere in tessuto Ooznary: quattro tipi e confezioni da dieci",
+        "excerpt": "Il catalogo elenca maschere con vitamine, acido azelaico, centella-PDRN e retinolo-AHA.",
+        "seoTitle": "Maschere Ooznary · Teranova",
+        "seoDesc": "Quattro tipi di maschere in tessuto Ooznary e confezioni da dieci nel catalogo aziendale.",
+        "sections": [
+          {
+            "h": "Voci del catalogo",
+            "p": [
+              "Il catalogo Ooznary comprende Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask e Retinol AHA Blender Mask. Per Vita3, Centella PDRN e Retinol AHA sono indicati anche pacchi da dieci.",
+              "Le maschere singole sono indicate da 20 o 25 ml. Gamma, documenti e requisiti del mercato sono concordati prima della trattativa."
+            ]
+          }
+        ]
+      },
+      "de": {
+        "title": "Ooznary-Tuchmasken: vier Sorten und Zehnerpackungen",
+        "excerpt": "Der Katalog führt Masken mit Vitaminen, Azelainsäure, Centella-PDRN und Retinol-AHA.",
+        "seoTitle": "Ooznary-Tuchmasken · Teranova",
+        "seoDesc": "Vier Sorten Ooznary-Tuchmasken und Zehnerpackungen im Unternehmenskatalog.",
+        "sections": [
+          {
+            "h": "Katalogartikel",
+            "p": [
+              "Der Ooznary-Katalog umfasst Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask und Retinol AHA Blender Mask. Für Vita3, Centella PDRN und Retinol AHA sind auch Zehnerpackungen angegeben.",
+              "Einzelmasken sind mit 20 oder 25 ml angegeben. Sortiment, Dokumente und Marktanforderungen werden vor einem Geschäft abgestimmt."
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "title": "Masques en tissu Ooznary : quatre types et lots de dix",
+        "excerpt": "Le catalogue présente des masques aux vitamines, à l'acide azélaïque, à la centella-PDRN et au rétinol-AHA.",
+        "seoTitle": "Masques Ooznary · Teranova",
+        "seoDesc": "Quatre types de masques en tissu Ooznary et lots de dix au catalogue de l'entreprise.",
+        "sections": [
+          {
+            "h": "Références du catalogue",
+            "p": [
+              "Le catalogue Ooznary comprend Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask et Retinol AHA Blender Mask. Des lots de dix sont également indiqués pour Vita3, Centella PDRN et Retinol AHA.",
+              "Les masques unitaires sont indiqués à 20 ou 25 ml. La sélection, les documents et les exigences du marché sont convenus avant une transaction."
+            ]
+          }
+        ]
+      },
+      "tr": {
+        "title": "Ooznary maskeleri: dört çeşit ve onlu paketler",
+        "excerpt": "Katalogda vitaminli, azelaik, centella-PDRN ve retinol-AHA maskeleri bulunur.",
+        "seoTitle": "Ooznary kağıt maskeleri · Teranova",
+        "seoDesc": "Şirket kataloğunda dört çeşit Ooznary maskesi ve onlu paketler.",
+        "sections": [
+          {
+            "h": "Katalog ürünleri",
+            "p": [
+              "Ooznary kataloğunda Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask ve Retinol AHA Blender Mask vardır. Vita3, Centella PDRN ve Retinol AHA için onlu paketler de listelenir.",
+              "Tekli maskelerin hacmi 20 veya 25 ml olarak belirtilir. Ürün seçimi, belgeler ve pazar gereklilikleri işlemden önce kararlaştırılır."
+            ]
+          }
+        ]
+      },
+      "es": {
+        "title": "Mascarillas Ooznary: cuatro tipos y paquetes de diez",
+        "excerpt": "El catálogo incluye mascarillas con vitaminas, ácido azelaico, centella-PDRN y retinol-AHA.",
+        "seoTitle": "Mascarillas Ooznary · Teranova",
+        "seoDesc": "Cuatro tipos de mascarillas Ooznary y paquetes de diez en el catálogo de la empresa.",
+        "sections": [
+          {
+            "h": "Referencias del catálogo",
+            "p": [
+              "El catálogo Ooznary incluye Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask y Retinol AHA Blender Mask. También se indican paquetes de diez para Vita3, Centella PDRN y Retinol AHA.",
+              "Las mascarillas individuales figuran con 20 o 25 ml. La selección, los documentos y los requisitos de cada mercado se acuerdan antes de una operación."
+            ]
+          }
+        ]
+      },
+      "pt": {
+        "title": "Máscaras Ooznary: quatro tipos e embalagens de dez",
+        "excerpt": "O catálogo inclui máscaras com vitaminas, ácido azelaico, centella-PDRN e retinol-AHA.",
+        "seoTitle": "Máscaras Ooznary · Teranova",
+        "seoDesc": "Quatro tipos de máscaras Ooznary e embalagens de dez no catálogo da empresa.",
+        "sections": [
+          {
+            "h": "Referências do catálogo",
+            "p": [
+              "O catálogo Ooznary inclui Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask e Retinol AHA Blender Mask. Também há embalagens de dez para Vita3, Centella PDRN e Retinol AHA.",
+              "As máscaras individuais são indicadas com 20 ou 25 ml. A seleção, os documentos e os requisitos de mercado são acordados antes de um negócio."
+            ]
+          }
+        ]
+      },
+      "he": {
+        "title": "מסכות Ooznary: ארבעה סוגים ומארזים של עשר",
+        "excerpt": "הקטלוג כולל מסכות עם ויטמינים, חומצה אזלאית, סנטלה-PDRN ורטינול-AHA.",
+        "seoTitle": "מסכות Ooznary · Teranova",
+        "seoDesc": "ארבעה סוגי מסכות Ooznary ומארזים של עשר בקטלוג החברה.",
+        "sections": [
+          {
+            "h": "פריטי הקטלוג",
+            "p": [
+              "קטלוג Ooznary כולל Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask ו־Retinol AHA Blender Mask. עבור Vita3, Centella PDRN ו־Retinol AHA יש גם מארזים של עשר מסכות.",
+              "נפח המסכות הבודדות מצוין כ־20 או 25 ml. בחירת המגוון, המסמכים ודרישות השוק מוסכמים לפני עסקה."
+            ]
+          }
+        ]
+      },
+      "hi": {
+        "title": "Ooznary शीट मास्क: चार प्रकार और दस के पैक",
+        "excerpt": "कैटलॉग में विटामिन, एज़ेलिक, सेंटेला-PDRN और रेटिनॉल-AHA मास्क हैं।",
+        "seoTitle": "Ooznary शीट मास्क · Teranova",
+        "seoDesc": "कंपनी कैटलॉग में चार प्रकार के Ooznary शीट मास्क और दस के पैक।",
+        "sections": [
+          {
+            "h": "कैटलॉग उत्पाद",
+            "p": [
+              "Ooznary कैटलॉग में Vita3 Sheet Mask, Azelaic Cica Blender Mask, Centella PDRN Blender Mask और Retinol AHA Blender Mask हैं। Vita3, Centella PDRN और Retinol AHA के लिए दस-मास्क पैक भी सूचीबद्ध हैं।",
+              "एकल मास्क का वॉल्यूम 20 या 25 ml है। चयन, दस्तावेज और बाजार की आवश्यकताएं सौदे से पहले तय होती हैं।"
+            ]
+          }
+        ]
+      }
     }
   },
   {
@@ -6014,45 +6590,45 @@
         ]
       },
       "ar": {
-          "title": "العناية بمكافحة علامات التقدّم في السن: الشدّ والترطيب العميق",
-          "excerpt": "ما يعمل فعلاً في العناية بمكافحة علامات التقدّم في السن، وكيف تُجمَع نتائج الشدّ مع الترطيب — بصدق، باستخدام خطوط Dr.SANTE كمثال.",
-          "seoTitle": "العناية بمكافحة علامات التقدّم: دليل الشدّ والترطيب · Teranova",
-          "seoDesc": "العناية بمكافحة علامات التقدّم في السن: ماذا يقدّم الكولاجين وحمض الهيالورونيك فعلاً، وكيف تُجمَع نتائج الشدّ مع الترطيب العميق.",
-          "sections": [
-            {
-              "p": [
-                "تحيط بالعناية بمكافحة علامات التقدّم في السن وعود مبالَغ فيها. لنستعرض بصدق ما يعمل فعلاً في مستحضرات العناية الموضعية للبشرة الناضجة، وكيف تُجمَع نتائج الشدّ مع الترطيب."
-              ]
-            },
-            {
-              "h": "ماذا يقدّم الكولاجين فعلاً",
-              "p": [
-                "لا يتخلّل الكولاجين الموضعي طبقة الأدمة ولا يعيد بناء كولاجين البشرة الذاتي. فهو يعمل على السطح كمكوّن مُشكّل للغشاء ومُرطِّب: يحتفظ بالرطوبة، ويُنعّم موقّتاً، ويجعل البشرة تبدو أكثر امتلاءً بصرياً. ويُستخدم الكولاجين المحلَّل (الببتيدات) للترطيب والملمس.",
-                "والنتيجة المتوقَّعة بصدق هي الترطيب والنعومة والمظهر العنائي — لا التجديد البنائي. وهذا النوع من الصياغة يبني ثقة العميل."
-              ]
-            },
-            {
-              "h": "الترطيب كأساس",
-              "p": [
-                "مع التقدّم في السن، تفقد البشرة الرطوبة بسهولة أكبر. يحتفظ حمض الهيالورونيك بالماء، وتُرطِّب مركّبات الأوزان الجزيئية المختلفة على عدة مستويات (حسب المصنّعين). والبشرة المرطّبة جيداً تبدو أكثر شدّاً ونعومة.",
-                "ومن المنطقي الجمع بين خط Collagen Leader وخط Hyalquad Core المرطِّب."
-              ]
-            },
-            {
-              "h": "دعم الحاجز",
-              "p": [
-                "تدعم النياسيناميد والبانثينول والسيراميدات الحاجز والحالة العامة للبشرة الناضجة. ويعمل النياسيناميد (فيتامين B3) أيضاً على درجة اللون والتصبّغ.",
-                "المكوّنات المهدِّئة (الأزولين) مفيدة إذا كانت البشرة الناضجة معرَّضة للحساسية."
-              ]
-            },
-            {
-              "h": "بناء الروتين",
-              "p": [
-                "مجموعة أساسية: التنظيف، تونر مرطِّب، أمبول (كولاجين أو حمض هيالورونيك)، كريم، طقس قناع. والتوقّعات الواقعية هي مفتاح رضا العميل.",
-                "خطّا Collagen Leader وHyalquad Core والأسعار التقريبية موجودة على صفحة Dr.SANTE. وستساعد Teranova في تجميع الروتين وترتيب التسليم."
-              ]
-            }
-          ]
+        "title": "العناية بمكافحة علامات التقدّم في السن: الشدّ والترطيب العميق",
+        "excerpt": "ما يعمل فعلاً في العناية بمكافحة علامات التقدّم في السن، وكيف تُجمَع نتائج الشدّ مع الترطيب — بصدق، باستخدام خطوط Dr.SANTE كمثال.",
+        "seoTitle": "العناية بمكافحة علامات التقدّم: دليل الشدّ والترطيب · Teranova",
+        "seoDesc": "العناية بمكافحة علامات التقدّم في السن: ماذا يقدّم الكولاجين وحمض الهيالورونيك فعلاً، وكيف تُجمَع نتائج الشدّ مع الترطيب العميق.",
+        "sections": [
+          {
+            "p": [
+              "تحيط بالعناية بمكافحة علامات التقدّم في السن وعود مبالَغ فيها. لنستعرض بصدق ما يعمل فعلاً في مستحضرات العناية الموضعية للبشرة الناضجة، وكيف تُجمَع نتائج الشدّ مع الترطيب."
+            ]
+          },
+          {
+            "h": "ماذا يقدّم الكولاجين فعلاً",
+            "p": [
+              "لا يتخلّل الكولاجين الموضعي طبقة الأدمة ولا يعيد بناء كولاجين البشرة الذاتي. فهو يعمل على السطح كمكوّن مُشكّل للغشاء ومُرطِّب: يحتفظ بالرطوبة، ويُنعّم موقّتاً، ويجعل البشرة تبدو أكثر امتلاءً بصرياً. ويُستخدم الكولاجين المحلَّل (الببتيدات) للترطيب والملمس.",
+              "والنتيجة المتوقَّعة بصدق هي الترطيب والنعومة والمظهر العنائي — لا التجديد البنائي. وهذا النوع من الصياغة يبني ثقة العميل."
+            ]
+          },
+          {
+            "h": "الترطيب كأساس",
+            "p": [
+              "مع التقدّم في السن، تفقد البشرة الرطوبة بسهولة أكبر. يحتفظ حمض الهيالورونيك بالماء، وتُرطِّب مركّبات الأوزان الجزيئية المختلفة على عدة مستويات (حسب المصنّعين). والبشرة المرطّبة جيداً تبدو أكثر شدّاً ونعومة.",
+              "ومن المنطقي الجمع بين خط Collagen Leader وخط Hyalquad Core المرطِّب."
+            ]
+          },
+          {
+            "h": "دعم الحاجز",
+            "p": [
+              "تدعم النياسيناميد والبانثينول والسيراميدات الحاجز والحالة العامة للبشرة الناضجة. ويعمل النياسيناميد (فيتامين B3) أيضاً على درجة اللون والتصبّغ.",
+              "المكوّنات المهدِّئة (الأزولين) مفيدة إذا كانت البشرة الناضجة معرَّضة للحساسية."
+            ]
+          },
+          {
+            "h": "بناء الروتين",
+            "p": [
+              "مجموعة أساسية: التنظيف، تونر مرطِّب، أمبول (كولاجين أو حمض هيالورونيك)، كريم، طقس قناع. والتوقّعات الواقعية هي مفتاح رضا العميل.",
+              "خطّا Collagen Leader وHyalquad Core والأسعار التقريبية موجودة على صفحة Dr.SANTE. وستساعد Teranova في تجميع الروتين وترتيب التسليم."
+            ]
+          }
+        ]
       }
     },
     "hero": "/img/blog/art-anti-age-hydration.png"
@@ -8941,6 +9517,53 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "العناية المعطَّرة بالجسم كفئة متخصّصة: نظرة على DUFT&DOFT (مجموعة Dreamcos)",
+        "excerpt": "العناية المعطَّرة بالجسم فئة متنامية بمتوسط إنفاق أعلى من العناية الأساسية بالبشرة. نُفكِّك التصنيف ومنطق هذه الفئة المتخصّصة من خلال العلامة الكورية DUFT&DOFT.",
+        "seoTitle": "DUFT&DOFT: العناية المعطَّرة بالجسم · Teranova",
+        "seoDesc": "العناية المعطَّرة بالجسم من منظور DUFT&DOFT (Dreamcos): التصنيف، ومنطق الفئة المتخصّصة للمشترين، والتوريد من كوريا عبر Teranova.",
+        "sections": [
+          {
+            "p": [
+              "العناية الأساسية بالجسم رفّ وظيفي بمنافسة شديدة وهوامش ضئيلة. لكن للفئة طبقة إضافية تغيّر معادلتها الاقتصادية: فالعناية المعطَّرة بالجسم تجمع بين الوظيفة المعروفة للعناية بالبشرة وبصمة عطرية — رائحة كقيمة بذاتها. وبالنسبة للمستورد أو المشتري، يعني ذلك شريحة سعرية مختلفة وسيناريو شراء مختلف. فلنستعرض منطق هذه الفئة المتخصّصة من خلال مثال ملموس — العلامة الكورية DUFT&DOFT، العلامة الرائدة لمجموعة Dreamcos."
+            ]
+          },
+          {
+            "h": "ما هي العناية المعطَّرة بالجسم ولماذا تنمو",
+            "p": [
+              "تُباع العناية التقليدية بالبشرة على أساس الوظيفة: فهي ترطّب وتنعّم وتُجدِّد. وتضيف العناية المعطَّرة محفّزاً ثانياً للشراء — رائحة يرتديها الشخص طوال اليوم. ويتوقّف كريم اليدين أو بخّاخ الجسم عن كونه مستهلكاً ويصبح جزءاً من الأسلوب الشخصي، أقرب إلى العطور من النظافة.",
+              "وهذا تحوّل مهمّ للتجزئة. فالمكوّن العطري يرفع القيمة المتصوَّرة للمنتج، وبالتبعية متوسط الإنفاق المقبول: فالمتسوّق يدفع ثمن شعور لا ثمن عناية بشرة فقط. وتبني الرائحة أيضاً ولاءً للخط — فالناس يعودون لنفس النفحة المألوفة. وهذا يجعل الفئة جاذبة للموزّعين الباحثين لا عن دورانٍ قائم على التخفيضات بل عن هامش ربح ومشتريات متكرّرة."
+            ]
+          },
+          {
+            "h": "تصنيف DUFT&DOFT: من أي تُبنى الفئة",
+            "p": [
+              "تغطّي DUFT&DOFT الفئة كاملة بدلاً من الاعتماد على منتج رائد واحد. ويشمل الخط عناية معطَّرة للجسم واليدين والشعر إضافة إلى عطور متخصّصة: كريمات يدين، وبخّاخات جسم، وجِل استحمام معطَّر، وصيغة «عطر فستان»، وطقم سبا. وتصل قائمة الأسعار إلى نحو 73 منتجاً، مما يعطي المشتري مساحة لبناء رفّ كامل يلائم صيغته — من المنتجات الأكثر مبيعاً المحدَّدة إلى عرض مُصغَّر.",
+              "وتغطّي هذه السعة نقاطاً سعرية مختلفة وحالات استخدام مختلفة. فكريمات اليدين وبخّاخ الجسم تعمل كشراء آني وهدايا، وجِل الاستحمام كاستهلاك منتظم مع طبقة عطرية، والأطقم كعرض جاهز للمواسم والهدايا. وتعطي الأطقم بشكل خاص المشتري نفوذاً إضافياً — فهي ترفع متوسط الإنفاق حول الأعياد والمواسم وتُبسّط عرض المنتجات."
+            ]
+          },
+          {
+            "h": "لماذا تستحق العلامة اهتمام المشتري",
+            "p": [
+              "تملك DUFT&DOFT حضوراً واسعاً في تجزئة كوريا، بما فيها سلسلة Olive Young بمئات المتاجر. والحضور في شبكة تجزئة الجمال الرئيسية في كوريا إشارة غير مباشرة إلى أن العلامة قد تجاوزت فحص جهة التجزئة وتملك تعرّفاً في سوقها المحلية، وهذا يقلّل خطر إدخال اسم غير مألوف إلى تصنيفك.",
+              "وقاعدة التصنيع الخاصة بالمجموعة تدعم أيضاً توريداً قابلاً للتنبّؤ. فالمنتجات تُصنَّع في مصنع OEM/ODM الخاص بالمجموعة، Atoz International في كوريا، الحاصل على شهادتَي ISO 9001 وISO 22716 (GMP لمستحضرات التجميل)، مع خبرة عطرية داخلية. وبالنسبة للمستورد، يعني ذلك جودة مضبوطة وإمكانية طلبات متكرّرة مستقرّة، لا دفعة واحدة من وسيط."
+            ]
+          },
+          {
+            "h": "كيف يتمّ التوريد عبر Teranova",
+            "p": [
+              "تعمل Teranova كوسيط موثوق بين المورّد الكوري والمستورد: ننسّق الصفقة وندعمها — التفاوض على الشروط، والمساعدة في اللوجستيات والتخليص الجمركي. ولا نَنشر قائمة الأسعار الكاملة أو شروط البيع بالجملة الدقيقة (EXW) — فهي تُقدَّم مباشرة، عند الطلب، لحجم وسوق محددين.",
+              "وتُزيل هذه الصيغة حاجة المشتري إلى مخاطبة المصنع مباشرة وفكّ تفاصيل الشحن الكوري. فأنت تحدّد الموجز — الفئات المهمّة، والحجم، وقناة البيع المستهدفة — ونُعدّ حول ذلك عرضاً تجارياً وندير الصفقة حتى التسليم. وإذا بدت DUFT&DOFT مناسبة لنشاطك، اطلب شروط البيع بالجملة عبر Teranova."
+            ]
+          },
+          {
+            "h": "المصادر",
+            "p": [
+              "مصادر مفتوحة وبيانات الشركة: مواد رسمية لـDUFT&DOFT / مجموعة Dreamcos؛ وبيانات تجزئة Olive Young. والشروط الدقيقة وأسعار البيع بالجملة متوفّرة عند الطلب عبر Teranova."
+            ]
+          }
+        ]
       }
     },
     "hero": "/img/suppliers/dreamcos/products/duftndoft-perfumed-body-lotion.jpg"
@@ -11502,6 +12125,60 @@
             "h": "स्रोत",
             "p": [
               "सार्वजनिक स्रोत और कंपनी के आँकड़े: Dreamcos समूह की कॉर्पोरेट सामग्री, Atoz International कारख़ाने के ISO प्रमाणपत्र, K-beauty पर उद्योग प्रेस। सटीक शर्तें और थोक क़ीमतें — Teranova के माध्यम से अनुरोध पर।"
+            ]
+          }
+        ]
+      },
+      "ar": {
+        "title": "كيف تعمل مجموعة K-Beauty الكاملة الدورة: تفكيك نموذج Dreamcos",
+        "excerpt": "نظرة عامة على مجموعة التجميل الكورية Dreamcos: أربعة أقسام، وسبع علامات تجارية، ومصنع داخلي حاصل على شهادتَي ISO وGMP، ودورة كاملة من OEM/ODM — من التركيبة إلى الشحن. ما الذي يغيّره هذا للمستوردين.",
+        "seoTitle": "نموذج Dreamcos: K-Beauty كامل الدورة · Teranova",
+        "seoDesc": "تفكيك مجموعة Dreamcos: تصنيع كامل الدورة بنظام OEM/ODM، وأربعة أقسام، وسبع علامات تجارية، ومصنع Atoz الخاص بها الحاصل على شهادتَي ISO 9001 وISO 22716 (GMP).",
+        "sections": [
+          {
+            "p": [
+              "عندما يدخل مستورد أو صاحب علامة خاصة إلى السوق الكورية، يُجمّع التوريد غالباً من أيدٍ مختلفة عديدة: شركة تطوّر التركيبة، وأخرى تصنّع، وثالثة تطبع التغليف، ورابعة تتولى التصدير. وكل تسليم بين هذه الأيدي عقد مستقل، وخطر مستقل، ووقت ضائع. والنموذج الذي بنته مجموعة Dreamcos يعمل بطريقة مختلفة: فهو منصّة كاملة الدورة يجتمع فيها تطوير التركيبة والعينات والتصنيع والتغليف والتصدير والتسويق/التجارة الإلكترونية في حلقة واحدة. وفيما يلي كيف يعمل وماذا يقدّم للمشتري."
+            ]
+          },
+          {
+            "h": "OEM مقابل ODM: ما الفرق",
+            "p": [
+              "يختلط الصيغتان الأساسيتان للتصنيع بالعقود كثيراً، مع أن الفرق بينهما جوهري. يعني OEM (التصنيع بالمواصفات الأصلية) الإنتاج بحسب مواصفات العميل: تأتي بتركيبتك ومتطلباتك الخاصة، ويُنتج المصنع المنتج تحت علامتك التجارية. وتقع مسؤولية التطوير عليك؛ ويتحمّل المصنع مسؤولية الإعادة الدقيقة للتصنيع.",
+              "ويعمل ODM (التصنيع بالتصميم الأصلي) بالاتجاه المعاكس: يعرض المصنع منتجاً مُطوَّراً مسبقاً تأخذه كعلامة خاصة بك. وهذا أسرع وأقل تكلفة في البداية، لأن التركيبة والاختبار والثبات أُعِدَّت مسبقاً، ولا يبقى لك إلا الهوية التجارية والتغليف. وتغطي مجموعة تجميل قوية كلا الصيغتين، وDreamcos هي بالضبط هذه الحالة: فبحسب موجز المشتري، يمكنها أن تعرض إنتاجاً بمواصفاته أو تطويراً جاهزاً تحت علامته."
+            ]
+          },
+          {
+            "h": "أقسام المجموعة الأربعة",
+            "p": [
+              "تُبنى المجموعة من أربعة أقسام كورية، لكل منها مجال مسؤوليته الخاص. والشركة الأم، Dreamcos، تُشغّل المنصّة نفسها، والتسويق، والتجارة، والتجارة الإلكترونية، وهي مرتبطة بمنصّة التجزئة والتسريع CAMIHOUSE — أي أنها لا تغطي إنتاج المنتج فقط بل وصوله إلى الرفوف والإنترنت أيضاً.",
+              "وتُقسِّم ثلاثة أقسام للتصنيع والعلامات التجارية المحفظة بحسب الفئة. فـGeneral Brands تدير العناية بالبشرة والعناية الشخصية والعطور — وتضمّ العلامات DUFT&DOFT وSALMON:LAB وNOLIE. وتتولى Celebritykorea المكياج والتنظيف بعلامات LOVELYCC وLADYBIZ وRUDIA. وAtoz International هي مصنع OEM/ODM الخاص بالمجموعة. وبالإجمال فذلك سبع علامات تجارية عبر الأقسام ونقطة دخول واحدة للتطوير والتصنيع ومحفظة علامات تجارية جاهزة."
+            ]
+          },
+          {
+            "h": "التصنيع الداخلي لدى Atoz",
+            "p": [
+              "الفرق الأساسي في هذا النموذج هو وجود مصنع داخلي، لا شبكة من المتعاقدين فقط. وAtoz International هو موقع التصنيع الخاص بالمجموعة في كوريا (منطقة سيجونغ)، بمساحة نحو 5,000 متر مربع. ويُنتج المصنع العناية بالبشرة، ومستحضرات التلوين السائلة، والأقنعة، ويعمل بمعايير دولية: فهو حاصل على شهادة ISO 9001 (نظام إدارة الجودة) وISO 22716 — معيار ممارسات التصنيع الجيدة (GMP) لمستحضرات التجميل.",
+              "وتشمل القدرة التصنيعية للمجموعة مستحلِبات وخلاّطات تجانس، وعدة خطوط تغليف، ومعهد بحث وتطوير خاص بها، وبنية تحتية للمستودعات، ورقابة جودة. وبالنسبة للمشتري، يعني وجود مصنع داخلي حاصل على شهادتَي ISO/GMP إمكانية التتبّع: فمن الواضح أين وبأي معايير صُنِع المنتج، لا من يحمل اسمه على العلبة فقط. ويُلاحَظ أن حالات التحقق التي تقدّمها Teranova حقيقة موثّقة عن المورّد، لا وعداً بالنتيجة."
+            ]
+          },
+          {
+            "h": "ماذا يقدّم هذا للمشتري",
+            "p": [
+              "بالنسبة للمستورد أو الموزّع أو سلسلة التجزئة أو صاحب العلامة الخاصة، الفائدة الأساسية هي نقطة دخول واحدة. فبدلاً من البحث بشكل منفصل عن مطوّر تركيبة ومصنع وتغليف ومُصدِّر، تتعامل مع حلقة واحدة كاملة الدورة: اختيار التركيبة ← العينة ← اختبار التغليف ← العقد ← التصنيع ← الشحن. وهذا يقلّص عدد الوسطاء ونقاط التسليم التي يُفقَد فيها الوقت والجودة عادةً.",
+              "وتُظهر محفظة من سبع علامات تجارية وصادرات إلى أسواق في آسيا وأمريكا الشمالية وأوروبا أن المجموعة تعمل فعلاً في أسواق خارجية، لا في السوق المحلية فقط. وبالنسبة لعلامة خاصة، يعني ذلك الوصول إلى تطويرات ODM مُجرَّبة؛ وبالنسبة لمن يملك تركيبته الخاصة، يعني تصنيع OEM في منشأة معتمدة."
+            ]
+          },
+          {
+            "h": "دور Teranova في الصفقة",
+            "p": [
+              "تعمل Teranova كمنسّق موثوق للصفقة بين المشتري والمجموعة الكورية. وندعم العملية في كل مرحلة: التفاوض على الشروط، واللوجستيات، والتخليص الجمركي، والدفع. ولا نحل محل المورّد ولا نقدّم وعوداً بالنيابة عنه — بل نرفع عن المشتري العبء التشغيلي واللغوي ونُبقي الصفقة ضمن حلقة واحدة مُدارة.",
+              "ولا نُنشر جهات الاتصال المباشرة للمورّد علناً: فهي تُكشَف للمشتري في مرحلة الصفقة، حين ينتقل الطرفان إلى شروط محددة. وإذا كان نموذج Dreamcos يلائم حاجاتك — من منتج ODM جاهز تحت علامة خاصة إلى تصنيع OEM بمواصفاتك الخاصة — فتُناقَش الكميات والمواعيد والأسعار بشكل فردي عبر Teranova."
+            ]
+          },
+          {
+            "h": "المصادر",
+            "p": [
+              "مصادر مفتوحة وبيانات الشركة: مواد مؤسسية لمجموعة Dreamcos، وشهادات ISO لمصنع Atoz International، والصحافة التجارية المتخصّصة في K-beauty. والشروط الدقيقة وأسعار البيع بالجملة متوفّرة عند الطلب عبر Teranova."
             ]
           }
         ]
@@ -29100,6 +29777,46 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "من صناعة الآلات إلى التجميل: لماذا تُشكّل CUBE CAP كبسولات بأي شكل لعلامتك التجارية",
+        "excerpt": "نشأت CUBE CAP من شركة لتصنيع آلات التغليف بالكبسولات: معداتها الخاصة، وقوالبها الخاصة، ومواد خام الغلاف الخاصة بها. ما الذي يعنيه هذا لعلامة تجارية تطلب تصنيعاً بنظام OEM/ODM.",
+        "seoTitle": "CUBE CAP: آلات التغليف بالكبسولات والتصنيع بنظام OEM · Teranova",
+        "seoDesc": "قصة CUBE CAP: من آلات التغليف بالكبسولات في DCM KOREA إلى مستحضرات COCAPS. قوالب داخلية تُصمَّم شكل الكبسولة وحجم التعبئة واللون بما يلائم علامتك التجارية.",
+        "sections": [
+          {
+            "p": [
+              "بالنسبة لمعظم مصنّعي التجميل بالعقود، تبدأ سلسلة الإنتاج بمعدات مُشتراة. أما بالنسبة لشركة CUBE CAP CO., LTD. الكورية، فتبدأ بالمعدات نفسها: فالشركة نشأت من قطاع صناعة الآلات ودخلت مجال التجميل بآلات تغليف بالكبسولات خاصة بها. وبالنسبة لعميل OEM/ODM، يحمل هذا الفرق نتائج عملية، نوضّحها أدناه."
+            ]
+          },
+          {
+            "h": "مسار الشركة",
+            "p": [
+              "منذ عام 2007 أنتجت DCM KOREA، الشركة السابقة، خطوط تغليف للكبسولات الرخوة. وفي عام 2011 حصلت على وضع شركة ناشئة (venture) وطوّرت آلة T-150V للكبسولات الرخوة النباتية. ثم، وفقاً للشركة: تأسست CUBE GROUP في عام 2013، وبُني مصنع جديد في عام 2014، وفي عام 2019 غيّرت الشركة اسمها إلى CUBE GEL، وفي عام 2024 سُجِّل الكيان القانوني CUBE CAP CO., LTD. مع موقع إنتاج يجمع بين تصنيع مواد خام الأغلفة النباتية (CBVM) وتصنيع مستحضرات التجميل."
+            ]
+          },
+          {
+            "h": "ما تقدّمه المعدات الداخلية",
+            "p": [
+              "تُنتج آلة المصنع كبسولات رخوة نباتية وأخرى بالجيلاتين على السواء، مع ضبط معايير العملية من لوحة تحكم باللمس. ويُحضَّر الغلاف في خزّان منفصل، يليه التجفيف بالطبل وغرفة تجفيف بوضعية مصمَّمة للكبسولات الرخوة. وتجري العملية كاملة، من الغشاء إلى الكبسولة النهائية، داخل موقع الشركة.",
+              "وعندما يكون المصنّع قد بنى خطّه الخاص، يمكنه إعادة ضبطه بما يلائم مهمة العميل بدل تكييف الطلب مع قيود آلة مُشتراة."
+            ]
+          },
+          {
+            "h": "كبسولة لعلامتك التجارية: الشكل والحجم واللون",
+            "p": [
+              "من خلال شركتها الأم CUBE GEL، يصنع المصنع قوالبه الخاصة. وبذلك يمكن ضبط شكل الكبسولة وحجم التعبئة واللون لعلامة تجارية محددة بدل اختيارها من مجموعة قياسية. وفي سوق التصنيع بالعقود لمستحضرات الكبسولات، تُعدّ هذه القدرة نادرة.",
+              "وبالنسبة للعلامة التجارية، هذه طريقة للحصول على منتج مميّز: فكبسولة بشكل غير مألوف تُميّز المنتج على الرفّ أكثر من الملصق نفسه."
+            ]
+          },
+          {
+            "h": "ماذا تطلب وكيف تتحقق",
+            "p": [
+              "تعمل الشركة بنمطين: توريد خط COCAPS الجاهز والتصنيع بالعقود تحت علامة العميل. ويبدأ الحد الأدنى للطلب من المنتجات الجاهزة من 100 زجاجة، وهذا يسمح باختبار الصيغة قبل دفعة كبيرة.",
+              "صفحة CUBE CAP على منصة Teranova مُجمَّعة من مواد المصنّع؛ وحالة الشركة هي «معلومات مقدَّمة من الشركة». ونتولى تنسيق طلبات العينات والشروط بالنيابة عن المشتري."
+            ]
+          }
+        ]
       }
     }
   },
@@ -29631,6 +30348,46 @@
             "h": "उत्पाद लाइन कहाँ देखें",
             "p": [
               "चौदह उत्पादों के कैटलॉग के साथ DOOBOM की प्रोफ़ाइल Teranova प्लेटफ़ॉर्म पर प्रकाशित है। हम प्रत्येक विशिष्ट अनुरोध के लिए निर्माता से नमूने, कीमतें और आपूर्ति की शर्तें मँगाते हैं और पूरे सौदे का समन्वय करते हैं।"
+            ]
+          }
+        ]
+      },
+      "ar": {
+        "title": "مستخلص فول الصويا البرّي بدلاً من الماء: القاعدة وراء تركيبات DOOBOM المهنية",
+        "excerpt": "يتصدّر الماء المنقّى قائمة مكوّنات معظم المنتجات. وتستبدله DOOBOM بمستخلص فول الصويا البرّي الكوري، فتحمل قاعدة التركيبة نفسها مكوّنات فعّالة.",
+        "seoTitle": "قاعدة فول الصويا البرّي في مستحضرات DOOBOM · Teranova",
+        "seoDesc": "كيف تبني العلامة الكورية DOOBOM تركيباتها المهنية: مستخلص فول الصويا البرّي بدلاً من الماء، وبيانات من عيادات التجميل، وتركيز على بنية البشرة.",
+        "sections": [
+          {
+            "p": [
+              "خذ أي علبة من الرفّ واقرأ السطر الأول في قائمة المكوّنات: في الغالب تكون الماء المنقّى. وهو يشكّل معظم الحجم ولا يعمل إلا كمذيب. وتبني العلامة الكورية للتجميل المهني DOOBOM تركيباتها بطريقة مختلفة: فبدلاً من الماء، القاعدة هي مستخلص فول الصويا البرّي الكوري — 돌콩수 (ماء فول الصويا البرّي). وفي هذا المقال نستعرض ما يغيّره ذلك ومن أين ينشأ نهج العلامة."
+            ]
+          },
+          {
+            "h": "قاعدة تعمل من ذاتها",
+            "p": [
+              "يحمل ماء فول الصويا مواداً فعّالة خاصة به، فيبدأ المنتج العمل من قاعدة نافعة لا من ناقل حيادي. والهدف الذي تصرّح به العلامة ليس الترطيب المؤقت أو الشدّ اللحظي، بل العمل على بنية البشرة: من الحاجز إلى الطبقات الأعمق.",
+              "وهذا التركيز في الصياغة ليس عفوياً. فمستحضرات التجميل المهنية تُقيَّم بنتيجة العلاج، ولا تعود عميلة العيادة إلا إذا استمرّ الأثر لفترة أطول من أول تنظيف."
+            ]
+          },
+          {
+            "h": "تركيبات من غرفة العلاج، لا من التسويق",
+            "p": [
+              "تُعرِّف DOOBOM Co., Ltd. نفسها كشركة بحث وتطوير، وتجمع بيانات من المواقع الشريكة: ما الطلبات التي تتلقّاها أخصائيات التجميل وما الذي يحقّق نتائج فعلاً خلال العلاج. وتنشأ التركيبة كإجابة عن مهمة متكرّرة في غرفة العلاج، لا كاستجابة لمكوّن رائج في الموسم.",
+              "ويعتمد الجزء الفعّال من التركيبات على أربع مجموعات: إكسوسومات الجينسنغ وPDRN للترميم والإشراق، وسبيكولات طبيعية عالية النقاء ومسجَّلة ببراءة، وببتيد سريع المفعول للكولاجين والإيلاستين، ومركّب تفتيح قائم على النياسيناميد والأربوتين وفيتامينَي C وK والكافيين وحمض الهيالورونيك."
+            ]
+          },
+          {
+            "h": "ماذا يعني هذا للمشتري",
+            "p": [
+              "بالنسبة لموزّع مستحضرات التجميل المهنية، من المهمّ أن تملك العلامة قصّة واضحة لأخصائية التجميل: كيف يختلف المنتج ولماذا يستحق مكاناً في غرفة العلاج. وتوفّر قاعدة فول الصويا البرّي والتركيبات المستندة إلى بيانات ميدانية هذه القصّة دون مبالغة.",
+              "والشهادات التي تُصرِّح بها الشركة هي FDA وCPNP الأوروبية وMoCRA. وتُجمَّع المنتجات في برامج صالونات جاهزة، فلا تحتاج العيادة إلى بناء بروتوكول بنفسها."
+            ]
+          },
+          {
+            "h": "أين تشاهد المجموعة",
+            "p": [
+              "صفحة DOOBOM مع كتالوج من أربعة عشر منتجاً منشورة على منصة Teranova. ونطلب العينات والأسعار وشروط التوريد من المصنّع لكل استفسار محدد وندعم الصفقة من البداية إلى النهاية."
             ]
           }
         ]
@@ -30168,6 +30925,46 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "إكسوسومات الجينسنغ وPDRN والسبيكولات: كيف توصّل DOOBOM المكوّنات الفعّالة إلى البشرة",
+        "excerpt": "لا تفيد المادة الفعّالة إن بقيت على السطح. نستعرض ثلاث تقنيات توصيل في خطوط DOOBOM: إكسوسومات الجينسنغ وPDRN والسبيكولات الطبيعية ذات البنية القنوية.",
+        "seoTitle": "إكسوسومات وPDRN وسبيكولات DOOBOM · Teranova",
+        "seoDesc": "تقنيات توصيل المكوّنات الفعّالة في مستحضرات DOOBOM المهنية: إكسوسومات الجينسنغ وPDRN لتعافي البشرة.",
+        "sections": [
+          {
+            "p": [
+              "في مستحضرات التجميل المهنية، لا يكمن السؤال في المكوّنات الفعّالة المُدرجة في التركيبة فقط، بل في وصولها إلى الموضع الذي تعمل فيه. وتجيب العلامة الكورية DOOBOM عن هذا السؤال بثلاث وسائل: إكسوسومات الجينسنغ وPDRN والسبيكولات الطبيعية. ونستعرض كل واحدة منها بالاستناد إلى مواد المصنّع."
+            ]
+          },
+          {
+            "h": "إكسوسومات الجينسنغ وPDRN",
+            "p": [
+              "يُبنى خط Exosome & PDRN على مكوّنين للتعافي. وتعمل الإكسوسومات المستخلصة من الجينسنغ وPDRN على استعادة نشاط البشرة ذاته، وتعزيز الإشراق، والعناية بمنطقة العين — وهكذا يُحدّد المصنّع نفسه الغرض من الخط.",
+              "وفي الكتالوج، يتمثّل هذا الاتجاه في مركّزات أمبولية وقناع: والصيغة مصمَّمة لإجراء داخل الصالون مع استكمال للبرنامج في المنزل."
+            ]
+          },
+          {
+            "h": "السبيكولات: بنية قنوية بدلاً من الإبرة",
+            "p": [
+              "يستخدم خط Spicule MTS سبيكولات طبيعية عالية النقاء ومسجَّلة ببراءة. وتخضع السبيكولات لتنقية متعددة المراحل وتعمل كنظام توصيل: فبنيتها القنوية الدقيقة توصّل المكوّنات الفعّالة إلى عمق أكبر من التطبيق التقليدي. وتعرف أخصائيات التجميل هذه التقنية من إجراءات MTS.",
+              "وبالنسبة لغرفة العلاج، هذه طريقة لتعزيز تغلغل المكوّنات الفعّالة دون تدخّل بواسطة جهاز؛ وبالنسبة للموزّع، هي فئة تفهم فيها عميلة أخصائية التجميل غرض المنتج فوراً."
+            ]
+          },
+          {
+            "h": "ببتيد سريع المفعول ومركّب تفتيح",
+            "p": [
+              "وتُكمِل مجموعتان أخريان من المكوّنات الفعّالة الصورة. يعمل الببتيد سريع المفعول على الكولاجين والإيلاستين وتنعيم خطوط التعبير. ويجمع مركّب التفتيح بين الكافيين وفيتامين K والنياسيناميد وفيتامين C ومشتقاته والأربوتين وحمض الهيالورونيك.",
+              "ويشمل خط الأمبولات معزّز نياسيناميد لضبط الزهم والمسام وملمس البشرة — وهو طلب متكرّر في الصالونات التي تعمل مع البشرة الشابة."
+            ]
+          },
+          {
+            "h": "كيف تطلب",
+            "p": [
+              "يعرض كتالوج DOOBOM على منصة Teranova أربعة عشر منتجاً مع صور وتركيبات الخطوط. ونطلب العينات والأسعار من المصنّع لكل استفسار محدد، وننسّق اللوجستيات وندعم الصفقة حتى التسليم."
+            ]
+          }
+        ]
       }
     }
   },
@@ -30699,6 +31496,46 @@
             "h": "अगला कदम",
             "p": [
               "कैटलॉग और प्रस्तुति के साथ DOOBOM की प्रोफ़ाइल Teranova प्लेटफ़ॉर्म पर प्रकाशित है। यदि आपको क्लीनिक की किसी खास ज़रूरत के लिए प्रक्रिया चाहिए, तो हमें अनुरोध भेजें: हम निर्माता से कार्यक्रम की संरचना, कीमतें और समयसीमा स्पष्ट करेंगे और पूरे सौदे का समन्वय करेंगे।"
+            ]
+          }
+        ]
+      },
+      "ar": {
+        "title": "بروتوكول بدلاً من رفّ من العلب: برامج صالونات DOOBOM وأجهزتها",
+        "excerpt": "لا توفّر DOOBOM منتجات منفردة بل بروتوكولات جاهزة داخل الصالون وأجهزة Vol-New-Up وSlim Ultra Max، المرتبطة بخط العناية بالبشرة الخاص بها. ما الذي يقدّمه هذا للصالونات والموزّعين.",
+        "seoTitle": "برامج وأجهزة صالونات DOOBOM · Teranova",
+        "seoDesc": "بروتوكولات DOOBOM الجاهزة داخل الصالون، إضافة إلى جهاز الوجه Vol-New-Up وجهاز الجسم Slim Ultra Max.",
+        "sections": [
+          {
+            "p": [
+              "نادراً ما يحتاج الصالون إلى علبة أخرى: بل يحتاج إلى علاج يمكنه إضافته إلى قائمة أسعاره. وتُجمِّع العلامة الكورية DOOBOM منتجاتها في بروتوكولات جاهزة داخل الصالون وتُكمّلها بأجهزة. وفيما يلي كيفية بناء العرض ومن يناسبه."
+            ]
+          },
+          {
+            "h": "برامج صالونات جاهزة",
+            "p": [
+              "يتكوّن خط Salon Programs من تسلسلات منتجات مبنية حول طلب محدد للعميلة، لا من عناصر منفردة. وتُجمَّع البروتوكولات من بيانات الصالونات الشريكة: فالعلامة ترى المهام المتكرّرة في غرف العلاج وتُغلّف الحل بشكل متكامل.",
+              "وهذا يوفّر للصالون أندر موارده — الوقت الذي يُصرَف في تصميم بروتوكولاته الخاصة واختبارها. وبالنسبة للموزّع، يُباع البرنامج أفضل من علبة منفردة لأنه يحلّ مهمة بدل أن يُضاف إلى المخزون فقط."
+            ]
+          },
+          {
+            "h": "جهازا Vol-New-Up وSlim Ultra Max",
+            "p": [
+              "تشمل مجموعة الأجهزة جهازين للاستخدام داخل الصالون: Vol-New-Up للوجه والعنق، وSlim Ultra Max للجسم. وكل جهاز مرتبط بخط العناية بالبشرة: فيستمرّ العلاج بمنتجات داخل الصالون وعناية منزلية، لتبقى عميلة الصالون ضمن نظام واحد.",
+              "وهذا الربط يحمي عائدات الصالون: فعلاج الجهاز يجذب العميلة، في حين تُمدِّد المنتجات الأثر وتجعلها تعود للبرنامج التالي."
+            ]
+          },
+          {
+            "h": "ماذا يشمل التوريد",
+            "p": [
+              "وفقاً للشركة، يغطّي التوريد أربع فئات: مستحضرات التجميل، والأجهزة، والتدريب، وبرامج تشغيل الصالونات. وتتعامل العلامة مع موزّعي مستحضرات التجميل المهنية، وصالونات التجميل والسبا، وعيادات الطب التجميلي للعناية بعد الإجراءات، وكذلك مراكز التدريب ومدارس التجميل.",
+              "والشهادات المُصرَّح بها هي FDA وCPNP الأوروبية وMoCRA."
+            ]
+          },
+          {
+            "h": "الخطوة التالية",
+            "p": [
+              "صفحة DOOBOM مع كتالوجها وعرضها التقديمي منشورة على منصة Teranova. وإذا كنت بحاجة إلى علاج لطلب محدد في صالونك، أرسل إلينا استفساراً: سنوضّح تركيبة البرنامج والأسعار والمواعيد مع المصنّع وندعم الصفقة من البداية إلى النهاية."
             ]
           }
         ]
@@ -35237,6 +36074,47 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "الإكسوسومات في العناية بالبشرة: ما هي وماذا تسأل المصنّع",
+        "excerpt": "تُدرَج كلمة «إكسوسومات» الآن على عشرات الملصقات الكورية، لكنها تغطّي أموراً مختلفة جداً. ما هي فعلاً، ولماذا تهمّ، والأسئلة الأربعة التي تُطرح على المصنع قبل الطلب.",
+        "seoTitle": "الإكسوسومات في العناية بالبشرة: ماذا تسأل المصنّع · Teranova",
+        "seoDesc": "ما هي الإكسوسومات في العناية بالبشرة، وكيف تختلف عن المكوّنات الفعّالة العادية، والأسئلة الأربعة التي تُطرح على مصنّع كوري قبل الطلب.",
+        "sections": [
+          {
+            "p": [
+              "على مدى السنوات الثلاث الماضية، أصبحت كلمة «إكسوسومات» الكلمة البارزة على ملصقات مستحضرات التجميل الكورية. والمشكلة أن الكلمة نفسها تغطّي منتجات بجودة مختلفة جداً، ولا يرى المشتري في الطرف الآخر من الصفقة إلا سطراً في قائمة المكوّنات."
+            ]
+          },
+          {
+            "h": "ما هي الإكسوسومات، ببساطة",
+            "p": [
+              "الإكسوسومات حويصلات دقيقة تستخدمها الخلايا للتواصل مع بعضها. وتحمل في داخلها جزيئات إشارات. وتُستخدَم في مستحضرات التجميل كناقل: فهي تحمل المكوّن الفعّال إلى خلية البشرة وتحميه من التحلّل في الطريق.",
+              "وهذا يُعطي النقطة العملية. فالإكسوسوم لا «يعمل» من ذاته — بل يرفع دقّة وصول أي مكوّن فعّال يُحمَّل فيه وبقاءه. فالسؤال «هل يحتوي على إكسوسومات» أقل فائدة بكثير من السؤال «أي إكسوسومات، وتحمل ماذا»."
+            ]
+          },
+          {
+            "h": "مستخلصة من النبات، لا من الإنسان",
+            "p": [
+              "تستخدم مستحضرات التجميل الكورية في الغالب إكسوسومات نباتية وفطرية: من السنتيلا، ومن الجينسنغ، ومن الفطريات. وهي عادةً أسهل في التوحيد وفي استكمال التسجيل من الإكسوسومات ذات المصدر الحيواني أو البشري، التي تتعامل معها الجهات التنظيمية بصرامة أكبر بكثير.",
+              "وإذا لم يُحدّد المورّد المصدر بوضوح، فهذا هو أول ما يجب الإصرار عليه. فالمصدر يحدّد التركيبة والتسجيل وما يُسمح لك بطباعته على التغليف في بلدك."
+            ]
+          },
+          {
+            "h": "أربعة أسئلة قبل الطلب",
+            "p": [
+              "أولاً: ممّ تُستخلَص الإكسوسومات ومن يُنتجها — المصنع نفسه أم شريك مواد خام. وثانياً: التركيز في المنتج النهائي، لا في المادة الخام؛ فهذان رقمان مختلفان وكثيراً ما تُدمِجهما العروض التقديمية.",
+              "وثالثاً: كيف يُبرَهن على الثبات — فالإكسوسومات حساسة للحرارة وللأس الهيدروجيني، ومدة صلاحية الدفعة تنتج عن ذلك. ورابعاً: أي مستندات تُصاحب البضاعة — تقارير الاختبار، وقائمة INCI، وشهادة التحليل."
+            ]
+          },
+          {
+            "h": "كيف تبدو الإجابة الجيدة",
+            "p": [
+              "فالشركة الكورية BIOPT، على سبيل المثال، تُشغِّل خطّين بموادّ خام مختلفة: إكسوسومات السنتيلا في سلسلة Red Calming المهدِّئة، وإكسوسومات فطر Sparassis crispa في خط EXO REJUVA لمكافحة علامات التقدّم في السن. وجانب المادة الخام مشترك مع منتج المواد الحيوية OptBio، وقُدِّم طلب براءة عن مركّب من الفطر.",
+              "وهذا مثال مفيد لما تبدو عليه الإجابة الواضحة: المادة مُحدَّدة بالاسم، والخط مُحدَّد بالاسم، والجهة المسؤولة عن المادة مُحدَّدة بالاسم. وكل ما عداه — الأرقام والبروتوكولات والمستندات — يُطلَب في مرحلة الصفقة، ويجب أن يُطلَب دائماً."
+            ]
+          }
+        ]
       }
     }
   },
@@ -36880,45 +37758,45 @@
         ]
       },
       "ar": {
-          "title": "خط للبشرة المعرَّضة لحب الشباب: كيف يختلف الديرما الكوري عن العناية العادية",
-          "excerpt": "تبيع كل علامة شيئاً \"لحب الشباب\"، لكن خط الديرما يُبنى بشكل مختلف. ما يميّزه في التركيب والاختبار ومنطق الاستخدام — وما يهمّ المشتري من ذلك.",
-          "seoTitle": "خط ديرما كوري للبشرة المعرَّضة لحب الشباب · Teranova",
-          "seoDesc": "كيف يختلف خط الديرما الكوري للبشرة المعرَّضة لحب الشباب عن العناية السائدة: التركيب، اختبار الملاءمة للبشرة المعرَّضة لحب الشباب، روتين كامل.",
-          "sections": [
-            {
-              "p": [
-                "رفّ \"المعرَّض لحب الشباب\" من أكثر الأرفف ازدحاماً في مستحضرات التجميل، ونادراً ما يستطيع المشتري من الوصف وحده تمييز منتج عن آخر. والفرق عادة لا يكمن في مكوّن واحد رائج، بل في طريقة بناء الخط كله."
-              ]
-            },
-            {
-              "h": "ليس فعّالاً واحداً بل مجموعة",
-              "p": [
-                "يُبنى المنتج السائد غالباً حول مكوّن واحد ظاهر: حمض الساليسيليك، الزنك، شجرة الشاي. أما خط الديرما فيجمع عادة مجموعة بوظائف مختلفة: تهدئة البشرة، خفض النشاط البكتيري، تضييق المسام، إعادة بناء الحاجز.",
-                "في خط Red Calming الكوري من BIOPT، على سبيل المثال، يعني ذلك إكسوزومات العرن (سنتيلا)، والكبريت، ومستخلص جذر الإسكوتيلاريا البايكالية، وعشبة اليوبار (Houttuynia cordata) وبندق الساحرة، بالإضافة إلى أربعة زيوت أساسية. كل مكوّن يغطّي جزءه الخاص من المهمة، وتعمل معاً."
-              ]
-            },
-            {
-              "h": "الاختبار كجزء من المنتج",
-              "p": [
-                "الفرق الثاني هو الدليل. يحمل خط الديرما عادة اختبار ملاءمة للبشرة المعرَّضة لحب الشباب واختبار تهيّج على البشرة الحسّاسة. وهذا ليس مثل عبارة \"مثبت إكلينيكياً\" المطبوعة على العلبة: فالاختبار له بروتوكول وعدد مشاركين ومدة.",
-                "يجدر بالمشتري أن يسأل ليس عن إجراء الاختبار بل عن ظروفه. كم عدد الأشخاص، كم أسبوعاً، وماذا قِيس بالضبط. المصنّع المسؤول يسلّم ذلك دون تعقيد."
-              ]
-            },
-            {
-              "h": "خط لا تشكيلة متفرقة",
-              "p": [
-                "الفرق الثالث عملي. تحتاج البشرة المعرَّضة لحب الشباب إلى استمرارية، لذا يُبنى خط الديرما كروتين كامل: تنظيف، تونر، معالجة موضعية، كريم، حماية من الشمس. وأي خطوة ناقصة تكسر النتيجة — الحماية من الشمس أولاً، التي بدونها تزداد آثار ما بعد حب الشباب قتامة.",
-                "وهذا أيضاً حجة تجارية للتجزئة: فالخط يُباع بشكل أفضل كمجموعة لا كمنتجات متفرقة. ولهذا توجد أطقم برامج لأسبوعين — فهي تتيح للعميل تجربة التسلسل كاملاً."
-              ]
-            },
-            {
-              "h": "ماذا يُفحَص عند اختيار المورّد",
-              "p": [
-                "القائمة العملية قصيرة. هل يضمّ الخط حماية من الشمس، وبأي مستوى. هل توجد منتجات نباتية (فيغان) — يسأل المشترون عنها بشكل متزايد. أي تقارير اختبار تأتي مع البضاعة. وهل إقليمك متاح.",
-                "الإجابة عن هذه الأربعة أسئلة تستبعد معظم الخيارات أسرع من مقارنة قوائم المكوّنات سطراً بسطر."
-              ]
-            }
-          ]
+        "title": "خط للبشرة المعرَّضة لحب الشباب: كيف يختلف الديرما الكوري عن العناية العادية",
+        "excerpt": "تبيع كل علامة شيئاً \"لحب الشباب\"، لكن خط الديرما يُبنى بشكل مختلف. ما يميّزه في التركيب والاختبار ومنطق الاستخدام — وما يهمّ المشتري من ذلك.",
+        "seoTitle": "خط ديرما كوري للبشرة المعرَّضة لحب الشباب · Teranova",
+        "seoDesc": "كيف يختلف خط الديرما الكوري للبشرة المعرَّضة لحب الشباب عن العناية السائدة: التركيب، اختبار الملاءمة للبشرة المعرَّضة لحب الشباب، روتين كامل.",
+        "sections": [
+          {
+            "p": [
+              "رفّ \"المعرَّض لحب الشباب\" من أكثر الأرفف ازدحاماً في مستحضرات التجميل، ونادراً ما يستطيع المشتري من الوصف وحده تمييز منتج عن آخر. والفرق عادة لا يكمن في مكوّن واحد رائج، بل في طريقة بناء الخط كله."
+            ]
+          },
+          {
+            "h": "ليس فعّالاً واحداً بل مجموعة",
+            "p": [
+              "يُبنى المنتج السائد غالباً حول مكوّن واحد ظاهر: حمض الساليسيليك، الزنك، شجرة الشاي. أما خط الديرما فيجمع عادة مجموعة بوظائف مختلفة: تهدئة البشرة، خفض النشاط البكتيري، تضييق المسام، إعادة بناء الحاجز.",
+              "في خط Red Calming الكوري من BIOPT، على سبيل المثال، يعني ذلك إكسوزومات العرن (سنتيلا)، والكبريت، ومستخلص جذر الإسكوتيلاريا البايكالية، وعشبة اليوبار (Houttuynia cordata) وبندق الساحرة، بالإضافة إلى أربعة زيوت أساسية. كل مكوّن يغطّي جزءه الخاص من المهمة، وتعمل معاً."
+            ]
+          },
+          {
+            "h": "الاختبار كجزء من المنتج",
+            "p": [
+              "الفرق الثاني هو الدليل. يحمل خط الديرما عادة اختبار ملاءمة للبشرة المعرَّضة لحب الشباب واختبار تهيّج على البشرة الحسّاسة. وهذا ليس مثل عبارة \"مثبت إكلينيكياً\" المطبوعة على العلبة: فالاختبار له بروتوكول وعدد مشاركين ومدة.",
+              "يجدر بالمشتري أن يسأل ليس عن إجراء الاختبار بل عن ظروفه. كم عدد الأشخاص، كم أسبوعاً، وماذا قِيس بالضبط. المصنّع المسؤول يسلّم ذلك دون تعقيد."
+            ]
+          },
+          {
+            "h": "خط لا تشكيلة متفرقة",
+            "p": [
+              "الفرق الثالث عملي. تحتاج البشرة المعرَّضة لحب الشباب إلى استمرارية، لذا يُبنى خط الديرما كروتين كامل: تنظيف، تونر، معالجة موضعية، كريم، حماية من الشمس. وأي خطوة ناقصة تكسر النتيجة — الحماية من الشمس أولاً، التي بدونها تزداد آثار ما بعد حب الشباب قتامة.",
+              "وهذا أيضاً حجة تجارية للتجزئة: فالخط يُباع بشكل أفضل كمجموعة لا كمنتجات متفرقة. ولهذا توجد أطقم برامج لأسبوعين — فهي تتيح للعميل تجربة التسلسل كاملاً."
+            ]
+          },
+          {
+            "h": "ماذا يُفحَص عند اختيار المورّد",
+            "p": [
+              "القائمة العملية قصيرة. هل يضمّ الخط حماية من الشمس، وبأي مستوى. هل توجد منتجات نباتية (فيغان) — يسأل المشترون عنها بشكل متزايد. أي تقارير اختبار تأتي مع البضاعة. وهل إقليمك متاح.",
+              "الإجابة عن هذه الأربعة أسئلة تستبعد معظم الخيارات أسرع من مقارنة قوائم المكوّنات سطراً بسطر."
+            ]
+          }
+        ]
       }
     }
   },
@@ -42628,6 +43506,49 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "براءة التركيبة: ماذا تقدّم للمشتري وماذا لا تقدّم",
+        "excerpt": "كلمة «مسجَّل ببراءة» في عرض تقديمي تبدو مثيرة للإعجاب ولا تقول شيئاً تقريباً. ما الذي يُسجَّل فعلاً ببراءة في مستحضرات التجميل، وأي جزء منه مفيد لك، وكيف تتحقق في دقيقة من وجود البراءة.",
+        "seoTitle": "براءات تركيبات مستحضرات التجميل · Teranova",
+        "seoDesc": "ما الذي يُسجَّل ببراءة في مستحضرات التجميل، وكيف تختلف البراءة عن العلامة التجارية وعن نتائج الاختبار، ولماذا يهمّ ذلك المشتري.",
+        "sections": [
+          {
+            "p": [
+              "في عروض المصنّعين الكوريين، تظهر كلمة «مسجَّل ببراءة» بقدر ما تظهر كلمة «ممتاز». وبالقدر نفسه تقريباً لا تعني شيئاً محدداً، لأنه لا يُذكَر ما الذي سُجِّل ببراءة ومن قبل من."
+            ]
+          },
+          {
+            "h": "ما الذي يُسجَّل ببراءة فعلاً في مستحضرات التجميل",
+            "p": [
+              "في الغالب تركيبة: مزيج من المواد بنسب محددة لمهمة محددة. وأقل شيوعاً طريقة إنتاج أو توصيل مكوّن. وأحياناً جهاز تغليف.",
+              "لا تُمنَح البراءة على كريم ولا تُمنَح على علامة تجارية. وإذا قال العرض كلمة «براءة» فقط، فهذا عنوان لا بيان. ويبدأ البيان حيث يُذكَر رقم وتاريخ وموضوع."
+            ]
+          },
+          {
+            "h": "ثلاثة أمور يُخلَط بينها",
+            "p": [
+              "البراءة ليست علامة تجارية. فالعلامة تحمي الاسم، والبراءة تحمي حلاً تقنياً. ويمكن أن تملك الشركة إحداهما دون الأخرى.",
+              "والبراءة ليست نتيجة اختبار. فهي تقول أن الحل اعتُبر جديداً، لا أنه يعمل أفضل من غيره. وفعالية المنتج تُدعَم بالتقارير، لا بالبراءات.",
+              "والبراءة ليست رخصة استيراد. فتسجيل مستحضرات التجميل في بلدك لا يعتمد عليها على الإطلاق."
+            ]
+          },
+          {
+            "h": "فلماذا يهمّ ذلك المشتري",
+            "p": [
+              "لأمرين. أولاً، تعني البراءة أنه لا يمكن لمنافس أن يُعيد إنتاج التركيبة قانونياً في البلد التي تسري فيه البراءة. والكلمات المفتاحية هي «في البلد». فالبراءة الممنوحة في كوريا لا تعني شيئاً بذاتها في سوقك، لذا فأول ما يُسأل هو هل التركيبة محمية في المكان الذي تنوي البيع فيه.",
+              "وثانياً، البراءة إشارة غير مباشرة إلى أن الشركة تطوّر تركيباتها الخاصة بدل إعادة تعبئة تركيبات غيرها. ليست دليلاً، بل إشارة."
+            ]
+          },
+          {
+            "h": "كيف تتحقق في دقيقة",
+            "p": [
+              "اطلب الرقم والتاريخ. ويُدخَل الرقم بعدها في قاعدة البيانات المفتوحة للجهة المُصدِرة — وهي في كوريا KIPRIS، والبحث فيها مجاني ويعمل بالإنجليزية.",
+              "انظر إلى ثلاثة حقول: هل البراءة سارية الآن، وبأي اسم هي مسجَّلة، وهل الموضوع يطابق ما يُباع لك. والحقل الثالث هو الأقل فحصاً والأكثر أهمية: فبراءة على تركيبة لمكافحة التصبّغ لا تقول شيئاً عن كريم للعين.",
+              "فعلى سبيل المثال، تُصرِّح شركة ABEREDE الكورية بوجود براءتين، كلتاهما بتاريخ 29 أغسطس 2023: تركيبة لتحسين الكلف وفرط التصبّغ، وتركيبة بوظيفة إزالة البقع والتبييض. وتتعلّق كلتاهما بالعمل على التصبّغ، وهكذا نعرضهما على الصفحة — إلى جانب المنتجات التي تكون مهمتها التصبّغ."
+            ]
+          }
+        ]
       }
     }
   },
@@ -46167,52 +47088,52 @@
         ]
       },
       "ar": {
-          "title": "النسب على العبوة: كيف يقرأ المشتري أمبولاً كورياً",
-          "excerpt": "تطبع العلامة الكورية aoi تركيزات المواد الفعّالة على العبوة نفسها، بالنسبة المئوية وبوحدة ppm معاً. ما وراء ذلك، وماذا يعني مؤشّر تهيّج قدره 0.00، وماذا تسأل المورّد.",
-          "seoTitle": "كيف تقرأ تركيزات المواد الفعّالة في العناية الكورية · Teranova",
-          "seoDesc": "ماذا تعني النسبة المئوية وppm على أمبول كوري فعلياً، وكيف تُقرَأ قراءة مؤشّر تهيّج 0.00، وماذا تسأل المورّد. عبر مثال سلسلة Drop من aoi.",
-          "sections": [
-            {
-              "p": [
-                "تطبع معظم العلامات اسم المادة الفعّالة ولا تقول شيئاً عن كميتها. يرى المشتري \"يحتوي على نياسيناميد\" ولا يستطيع معرفة إن كانت هذه نسبة خمسة بالمئة أو نصف واحد بالمئة — والفرق بين هذين الرقمين هو الفرق بين منتج فعّال وتسويق.",
-                "فعلت العلامة الكورية aoi، التي تصنعها Red Purple Blue، العكس: تطبع تركيز المادة الفعّالة الأساسية على العبوة نفسها، بالنسبة المئوية وبوحدة ppm معاً. وهذا يجعلها حالة مناسبة لتوضيح ما تعنيه هذه الأرقام فعلياً."
-              ]
-            },
-            {
-              "h": "لماذا تندر طباعة التركيزات",
-              "p": [
-                "ذكر تركيز ما غير جاذب عندما يكون منخفضاً، وخطير عندما يكون مرتفعاً: فالمصنّع يتحمّل تعهّداً يمكن لمعمل فحصه. لذا يتوقّف معظمهم عند قائمة INCI، التي تُرتَّب المكوّنات فيها تنازلياً دون أرقام.",
-                "وحين يُذكَر رقم، يكتسب وظيفة ثانية: فهو يحدّد إطار الحوار. مع علامة كتبت \"نياسيناميد 5%\" يمكنك مناقشة التركيب والمعادلات والتكيّف مع السوق مباشرة. ومع علامة كتبت \"يحتوي على نياسيناميد\" يبدأ الحوار بمعرفة ما بالداخل أصلاً."
-              ]
-            },
-            {
-              "h": "النسبة المئوية وppm هما نفس الشيء مكتوباً مرتين",
-              "p": [
-                "واحد بالمئة يساوي عشرة آلاف ppm. فنياسيناميد بنسبة 5% هو 50,000 ppm؛ وهيالورونات الصوديوم بنسبة 0.5% هي 5,008 ppm في هذه الصيغة المحدَّدة. ويكتسب الترميز الثاني مكانته حيث تكون المادة الفعّالة صغيرة بالوزن لكنها غالية الثمن: فـ\"0.0015%\" صيغة محرجة، بينما \"15,000 ppm\" تُقرَأ بوضوح.",
-                "وتطبّق aoi ذلك باستمرار. يذكر Lumi Drop نياسيناميد 5% وماء نخالة الأرز 41%؛ ويذكر Regen Drop حمض DNA الصوديوم 1.5% وماء جذر الجينسنغ 42%؛ ويذكر Hydra Drop هيالورونات الصوديوم 0.5% وماء الكاميليا الصينية 45%. الرقم الأول يحمل الفعل، والثاني يُظهر أساس القاعدة."
-              ]
-            },
-            {
-              "h": "مؤشّر تهيّج 0.00 — ماذا يعني وماذا لا يعني",
-              "p": [
-                "يأتي مؤشّر التهيّج من اختبار لصقة مغلق: يُطبَّق المنتج تحت الانسداد، عادة لأربع وعشرين ساعة، ثم يُقيِّم طبيب الاستجابة على مقياس. والصفر يعني أنه لم تُسجَّل استجابة عند أي مشارك. وتذكر الأمبولات الثلاثة من aoi جميعها مؤشّر 0.00 من اختبار أجراه معهد كوريا لعلوم الأمراض الجلدية، نوفمبر 2025.",
-                "وما لا يعنيه ذلك: إنه ليس دليل فعالية ولا شهادة. إنه اختبار تحمّل، لا اختبار نتائج. وهو مهم في الأسواق الحسّاسة لمزاعم البشرة المتضرّرة — تجزئة الصيدليات في المقام الأول."
-              ]
-            },
-            {
-              "h": "ماذا يجب سؤال المورّد",
-              "p": [
-                "أولاً، هل التقرير موجود على الورق وأي منتجات يغطّيها: فالاختبار يُجرى لكل منتج، لا لكل علامة. ثانياً، كم عدد المشاركين وبأي طريقة جرى التقييم. ثالثاً، هل الصيغة في التقرير مطابقة للدفعة الحالية، لأن الصيغة قد تكون نُقِّحت منذ ذلك الحين.",
-                "وسؤال واحد بشأن التركيزات بالتحديد: هل الرقم هو نسبة المادة الفعّالة نفسها، أم نسبة المحلول الذي تُورَّد فيه؟ هذا هو المصدر الأكثر شيوعاً للتباين بين العبوة وورقة المواصفات."
-              ]
-            },
-            {
-              "h": "المصادر",
-              "p": [
-                "أُعدّ المقال بالاستناد إلى بيانات قدّمتها شركة Red Purple Blue Co., Ltd. (علامة aoi) ونُشر بموافقتها الخطية للعرض على منصة مجموعة Teranova. والخصائص والصيغ والتركيزات المذكورة هي كما قدّمتها الشركة."
-              ]
-            }
-          ]
+        "title": "النسب على العبوة: كيف يقرأ المشتري أمبولاً كورياً",
+        "excerpt": "تطبع العلامة الكورية aoi تركيزات المواد الفعّالة على العبوة نفسها، بالنسبة المئوية وبوحدة ppm معاً. ما وراء ذلك، وماذا يعني مؤشّر تهيّج قدره 0.00، وماذا تسأل المورّد.",
+        "seoTitle": "كيف تقرأ تركيزات المواد الفعّالة في العناية الكورية · Teranova",
+        "seoDesc": "ماذا تعني النسبة المئوية وppm على أمبول كوري فعلياً، وكيف تُقرَأ قراءة مؤشّر تهيّج 0.00، وماذا تسأل المورّد. عبر مثال سلسلة Drop من aoi.",
+        "sections": [
+          {
+            "p": [
+              "تطبع معظم العلامات اسم المادة الفعّالة ولا تقول شيئاً عن كميتها. يرى المشتري \"يحتوي على نياسيناميد\" ولا يستطيع معرفة إن كانت هذه نسبة خمسة بالمئة أو نصف واحد بالمئة — والفرق بين هذين الرقمين هو الفرق بين منتج فعّال وتسويق.",
+              "فعلت العلامة الكورية aoi، التي تصنعها Red Purple Blue، العكس: تطبع تركيز المادة الفعّالة الأساسية على العبوة نفسها، بالنسبة المئوية وبوحدة ppm معاً. وهذا يجعلها حالة مناسبة لتوضيح ما تعنيه هذه الأرقام فعلياً."
+            ]
+          },
+          {
+            "h": "لماذا تندر طباعة التركيزات",
+            "p": [
+              "ذكر تركيز ما غير جاذب عندما يكون منخفضاً، وخطير عندما يكون مرتفعاً: فالمصنّع يتحمّل تعهّداً يمكن لمعمل فحصه. لذا يتوقّف معظمهم عند قائمة INCI، التي تُرتَّب المكوّنات فيها تنازلياً دون أرقام.",
+              "وحين يُذكَر رقم، يكتسب وظيفة ثانية: فهو يحدّد إطار الحوار. مع علامة كتبت \"نياسيناميد 5%\" يمكنك مناقشة التركيب والمعادلات والتكيّف مع السوق مباشرة. ومع علامة كتبت \"يحتوي على نياسيناميد\" يبدأ الحوار بمعرفة ما بالداخل أصلاً."
+            ]
+          },
+          {
+            "h": "النسبة المئوية وppm هما نفس الشيء مكتوباً مرتين",
+            "p": [
+              "واحد بالمئة يساوي عشرة آلاف ppm. فنياسيناميد بنسبة 5% هو 50,000 ppm؛ وهيالورونات الصوديوم بنسبة 0.5% هي 5,008 ppm في هذه الصيغة المحدَّدة. ويكتسب الترميز الثاني مكانته حيث تكون المادة الفعّالة صغيرة بالوزن لكنها غالية الثمن: فـ\"0.0015%\" صيغة محرجة، بينما \"15,000 ppm\" تُقرَأ بوضوح.",
+              "وتطبّق aoi ذلك باستمرار. يذكر Lumi Drop نياسيناميد 5% وماء نخالة الأرز 41%؛ ويذكر Regen Drop حمض DNA الصوديوم 1.5% وماء جذر الجينسنغ 42%؛ ويذكر Hydra Drop هيالورونات الصوديوم 0.5% وماء الكاميليا الصينية 45%. الرقم الأول يحمل الفعل، والثاني يُظهر أساس القاعدة."
+            ]
+          },
+          {
+            "h": "مؤشّر تهيّج 0.00 — ماذا يعني وماذا لا يعني",
+            "p": [
+              "يأتي مؤشّر التهيّج من اختبار لصقة مغلق: يُطبَّق المنتج تحت الانسداد، عادة لأربع وعشرين ساعة، ثم يُقيِّم طبيب الاستجابة على مقياس. والصفر يعني أنه لم تُسجَّل استجابة عند أي مشارك. وتذكر الأمبولات الثلاثة من aoi جميعها مؤشّر 0.00 من اختبار أجراه معهد كوريا لعلوم الأمراض الجلدية، نوفمبر 2025.",
+              "وما لا يعنيه ذلك: إنه ليس دليل فعالية ولا شهادة. إنه اختبار تحمّل، لا اختبار نتائج. وهو مهم في الأسواق الحسّاسة لمزاعم البشرة المتضرّرة — تجزئة الصيدليات في المقام الأول."
+            ]
+          },
+          {
+            "h": "ماذا يجب سؤال المورّد",
+            "p": [
+              "أولاً، هل التقرير موجود على الورق وأي منتجات يغطّيها: فالاختبار يُجرى لكل منتج، لا لكل علامة. ثانياً، كم عدد المشاركين وبأي طريقة جرى التقييم. ثالثاً، هل الصيغة في التقرير مطابقة للدفعة الحالية، لأن الصيغة قد تكون نُقِّحت منذ ذلك الحين.",
+              "وسؤال واحد بشأن التركيزات بالتحديد: هل الرقم هو نسبة المادة الفعّالة نفسها، أم نسبة المحلول الذي تُورَّد فيه؟ هذا هو المصدر الأكثر شيوعاً للتباين بين العبوة وورقة المواصفات."
+            ]
+          },
+          {
+            "h": "المصادر",
+            "p": [
+              "أُعدّ المقال بالاستناد إلى بيانات قدّمتها شركة Red Purple Blue Co., Ltd. (علامة aoi) ونُشر بموافقتها الخطية للعرض على منصة مجموعة Teranova. والخصائص والصيغ والتركيزات المذكورة هي كما قدّمتها الشركة."
+            ]
+          }
+        ]
       }
     }
   },
@@ -46853,52 +47774,52 @@
         ]
       },
       "ar": {
-          "title": "مادة من الحقل: ماذا يقدّم اتفاق العلامة مع مزرعة للمشتري",
-          "excerpt": "يكتب الكثيرون \"مزروع في كوريا\". ما الذي يفرّق بين الزعم واتفاق مع مزرعة مسمّاة، وماذا يغطّي مذكّرة تفاهم عبر السلسلة كاملة، وما الأسئلة الثلاثة التي يجب طرحها على المورّد.",
-          "seoTitle": "مكوّنات نباتية مزروعة في كوريا: ماذا تقدّم للمشتري · Teranova",
-          "seoDesc": "كيف يختلف اتفاق العلامة مع شركة زراعية عن خط \"مزروع في كوريا\"، وماذا يغيّر ذلك في الدفعة، وماذا تسأل المورّد. عبر مثال علامة aoi.",
-          "sections": [
-            {
-              "p": [
-                "تظهر عبارة \"مزروع في كوريا\" على العبوات بشكل متزايد، وهي بمفردها لا تقول شيئاً كثيراً. فالمادة النباتية لمستحضرات التجميل تُشترى غالباً عبر وسطاء: تأخذ العلامة مستخلصاً من مورّد مكوّنات، الذي يأخذه من معالج، الذي يأخذه من مزرعة. وحين يصل المكوّن إلى الصيغة، يكون الحقل متخلّفاً بثلاث حلقات.",
-                "أحياناً تعمل علامة ضد هذا المنطق وتتعاقد مباشرة مع مزرعة. وقّعت العلامة الكورية aoi مذكّرة تفاهم مع شركة زراعية في تشورون، وهذا يصنع حالة مناسبة لتوضيح ما يقدّمه اتفاق كهذا للمشتري عملياً — وما لا يقدّمه."
-              ]
-            },
-            {
-              "h": "ماذا يغطّي اتفاق السلسلة الكاملة",
-              "p": [
-                "تمتد مذكّرة aoi على خمس مراحل: الزراعة، التوريد، ضبط الجودة، تحليل المكوّن، وتطوير المنتج. والمهم ليس عدد المراحل بل أنها موجودة في وثيقة واحدة. فالعلامة تحصل على نصيب في كيفية نمو المادة وما يحدث لها قبل دخول الإنتاج، لا على تسليم لمرة واحدة.",
-                "ولهذا يتحدّث وصف الشركة نفسه عن \"أين وكيف يُزرَع\". وهذا ليس شعراً في مستحضرات التجميل: فمستوى المواد الفعّالة في النبات يعتمد على التربة والموسم وطريقة التجفيف، وقد يتجاوز التفاوت بين الدفعات الفرق بين المورّدين."
-              ]
-            },
-            {
-              "h": "ماذا يغيّر ذلك في دفعة حقيقية",
-              "p": [
-                "أولاً، الثبات. فعندما تأتي المادة من مزرعة واحدة بطريقة متفَق عليها، تكون قابلية تكرار الدفعة أعلى، ويقل احتمال أن يجد المشتري أن الشحنة الثانية تختلف رائحةً ومظهراً عن الأولى.",
-                "ثانياً، سرعة الإجابة عن سؤال المنشأ. فالعلامة ذات الاتفاق المباشر لا تحتاج إلى الكتابة لثلاثة وسطاء لمعرفة من أين جاء مستخلص معيّن. وفي الأسواق التي تتطلّب ذكر مصدر المكوّن على الملصق، يوفّر ذلك أسابيع."
-              ]
-            },
-            {
-              "h": "ماذا لا يقدّمه ذلك",
-              "p": [
-                "إنه ليس شهادة. فمذكّرة التفاهم مع مزرعة ترتيب تجاري، لا معيار عضوي ولا دليل على المنشأ بالمعنى القانوني. وإذا احتاج المستورد إلى وثيقة عن بلد منشأ المادة الخام، لا تُصدِرها العلامة ولا المزرعة.",
-                "كما أنه لا يغطّي الصيغة كاملة. فكل صيغة تضمّ قاعدة ومستحلبات ومواد حافظة إلى جانب المكوّن النباتي الأساسي، وهذه تُشترى بالطريقة العادية. اتفاق المزرعة يتحدّث عن الأرز والشاي الأخضر والجينسنغ، لا عن قائمة المكوّنات كاملة."
-              ]
-            },
-            {
-              "h": "ماذا يجب سؤال المورّد",
-              "p": [
-                "أولاً، أي المنتجات تستخدم فعلاً مادة بموجب هذا الاتفاق وأيها لا تستخدمها. فصياغة الموقع عادة عامة، بينما قد يشمل الاتفاق في الكتالوج منتجين من عشرة.",
-                "ثانياً، هل الوثيقة موجودة على الورق ولأي مدة وُقِّعت. ثالثاً، ماذا يحدث في موسم حصاد ضعيف: من أين تحصل العلامة على المادة إذا لم تستطع المزرعة تغطية الكمية، وهل تتغيّر الصيغة نتيجة لذلك. الإجابة عن السؤال الثالث تقول أكثر عن نضج المورّد من الإجابتين الأوليين."
-              ]
-            },
-            {
-              "h": "المصادر",
-              "p": [
-                "أُعدّ المقال بالاستناد إلى بيانات قدّمتها شركة Red Purple Blue Co., Ltd. (علامة aoi) ونُشر بموافقتها الخطية للعرض على منصة مجموعة Teranova. والتصريحات حول اتفاق المزرعة ومنشأ المادة هي كما قدّمتها الشركة."
-              ]
-            }
-          ]
+        "title": "مادة من الحقل: ماذا يقدّم اتفاق العلامة مع مزرعة للمشتري",
+        "excerpt": "يكتب الكثيرون \"مزروع في كوريا\". ما الذي يفرّق بين الزعم واتفاق مع مزرعة مسمّاة، وماذا يغطّي مذكّرة تفاهم عبر السلسلة كاملة، وما الأسئلة الثلاثة التي يجب طرحها على المورّد.",
+        "seoTitle": "مكوّنات نباتية مزروعة في كوريا: ماذا تقدّم للمشتري · Teranova",
+        "seoDesc": "كيف يختلف اتفاق العلامة مع شركة زراعية عن خط \"مزروع في كوريا\"، وماذا يغيّر ذلك في الدفعة، وماذا تسأل المورّد. عبر مثال علامة aoi.",
+        "sections": [
+          {
+            "p": [
+              "تظهر عبارة \"مزروع في كوريا\" على العبوات بشكل متزايد، وهي بمفردها لا تقول شيئاً كثيراً. فالمادة النباتية لمستحضرات التجميل تُشترى غالباً عبر وسطاء: تأخذ العلامة مستخلصاً من مورّد مكوّنات، الذي يأخذه من معالج، الذي يأخذه من مزرعة. وحين يصل المكوّن إلى الصيغة، يكون الحقل متخلّفاً بثلاث حلقات.",
+              "أحياناً تعمل علامة ضد هذا المنطق وتتعاقد مباشرة مع مزرعة. وقّعت العلامة الكورية aoi مذكّرة تفاهم مع شركة زراعية في تشورون، وهذا يصنع حالة مناسبة لتوضيح ما يقدّمه اتفاق كهذا للمشتري عملياً — وما لا يقدّمه."
+            ]
+          },
+          {
+            "h": "ماذا يغطّي اتفاق السلسلة الكاملة",
+            "p": [
+              "تمتد مذكّرة aoi على خمس مراحل: الزراعة، التوريد، ضبط الجودة، تحليل المكوّن، وتطوير المنتج. والمهم ليس عدد المراحل بل أنها موجودة في وثيقة واحدة. فالعلامة تحصل على نصيب في كيفية نمو المادة وما يحدث لها قبل دخول الإنتاج، لا على تسليم لمرة واحدة.",
+              "ولهذا يتحدّث وصف الشركة نفسه عن \"أين وكيف يُزرَع\". وهذا ليس شعراً في مستحضرات التجميل: فمستوى المواد الفعّالة في النبات يعتمد على التربة والموسم وطريقة التجفيف، وقد يتجاوز التفاوت بين الدفعات الفرق بين المورّدين."
+            ]
+          },
+          {
+            "h": "ماذا يغيّر ذلك في دفعة حقيقية",
+            "p": [
+              "أولاً، الثبات. فعندما تأتي المادة من مزرعة واحدة بطريقة متفَق عليها، تكون قابلية تكرار الدفعة أعلى، ويقل احتمال أن يجد المشتري أن الشحنة الثانية تختلف رائحةً ومظهراً عن الأولى.",
+              "ثانياً، سرعة الإجابة عن سؤال المنشأ. فالعلامة ذات الاتفاق المباشر لا تحتاج إلى الكتابة لثلاثة وسطاء لمعرفة من أين جاء مستخلص معيّن. وفي الأسواق التي تتطلّب ذكر مصدر المكوّن على الملصق، يوفّر ذلك أسابيع."
+            ]
+          },
+          {
+            "h": "ماذا لا يقدّمه ذلك",
+            "p": [
+              "إنه ليس شهادة. فمذكّرة التفاهم مع مزرعة ترتيب تجاري، لا معيار عضوي ولا دليل على المنشأ بالمعنى القانوني. وإذا احتاج المستورد إلى وثيقة عن بلد منشأ المادة الخام، لا تُصدِرها العلامة ولا المزرعة.",
+              "كما أنه لا يغطّي الصيغة كاملة. فكل صيغة تضمّ قاعدة ومستحلبات ومواد حافظة إلى جانب المكوّن النباتي الأساسي، وهذه تُشترى بالطريقة العادية. اتفاق المزرعة يتحدّث عن الأرز والشاي الأخضر والجينسنغ، لا عن قائمة المكوّنات كاملة."
+            ]
+          },
+          {
+            "h": "ماذا يجب سؤال المورّد",
+            "p": [
+              "أولاً، أي المنتجات تستخدم فعلاً مادة بموجب هذا الاتفاق وأيها لا تستخدمها. فصياغة الموقع عادة عامة، بينما قد يشمل الاتفاق في الكتالوج منتجين من عشرة.",
+              "ثانياً، هل الوثيقة موجودة على الورق ولأي مدة وُقِّعت. ثالثاً، ماذا يحدث في موسم حصاد ضعيف: من أين تحصل العلامة على المادة إذا لم تستطع المزرعة تغطية الكمية، وهل تتغيّر الصيغة نتيجة لذلك. الإجابة عن السؤال الثالث تقول أكثر عن نضج المورّد من الإجابتين الأوليين."
+            ]
+          },
+          {
+            "h": "المصادر",
+            "p": [
+              "أُعدّ المقال بالاستناد إلى بيانات قدّمتها شركة Red Purple Blue Co., Ltd. (علامة aoi) ونُشر بموافقتها الخطية للعرض على منصة مجموعة Teranova. والتصريحات حول اتفاق المزرعة ومنشأ المادة هي كما قدّمتها الشركة."
+            ]
+          }
+        ]
       }
     }
   },
@@ -50080,6 +51001,50 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "إشعار CPNP: ماذا يثبت وماذا لا يثبت",
+        "excerpt": "كثيراً ما يُقدَّم إشعار CPNP كعلامة جودة. فهو إشعار لا شهادة، والفرق بينهما مهم قبل إصدار الطلب.",
+        "seoTitle": "CPNP: ماذا يعني الإشعار لمشتري مستحضرات التجميل",
+        "seoDesc": "كيف يختلف إشعار CPNP عن الشهادة، وماذا يقدّمه لك فعلاً عند شراء مستحضرات تجميل كورية، وما المستندات الكامنة خلفه.",
+        "sections": [
+          {
+            "p": [
+              "يرد ذكر CPNP باستمرار في المراسلات مع المصنّعين الكوريين، وغالباً كحجة في صالح المنتج. وهي حجة حقيقية، لكنها ليست الحجة التي يُفهم منها عادةً. يستحق الأمر التوضيح مبكراً: فهو يؤثر على السعر وعلى ما يُسمح لك بكتابته على رفّك الخاص."
+            ]
+          },
+          {
+            "h": "ما هو CPNP فعلاً",
+            "p": [
+              "CPNP هو البوّابة الأوروبية للإشعار عن منتجات التجميل. وقبل وصول المنتج إلى سوق الاتحاد الأوروبي، يُقدِّم الشخص المسؤول بياناته من خلالها: التركيبة، والفئة، وبيانات المصنّع، وجهة اتصال للحالات الطارئة.",
+              "والكلمة المفتاحية هي الإشعار. فلا أحد يمنح موافقة ولا أحد يفحص المنتج قبل التقديم. النظام يستقبل البيانات ويوفّرها لمراكز السموم."
+            ]
+          },
+          {
+            "h": "ماذا يقدّم الإشعار فعلاً للمشتري",
+            "p": [
+              "يعني أن للمنتج شخصاً مسؤولاً في الاتحاد الأوروبي وأن مجموعة من البيانات قُدِّمت فعلاً. ويقول بشكل غير مباشر أن المصنّع قد مرّ بالفعل بالمتطلبات الأوروبية ويحمل تقييم أمان، وهو ما لا يُقدَّم الإشعار عادةً من دونه.",
+              "وهذا يعني للمشتري توفيراً في الوقت. فالمنتج المُشعَر به مسبقاً يتطلب عملاً أقل من منتج يبدأ من الصفر. وإذا كنت تُجمّع طلبك الأول، فهذه هي العناصر المنطقية للانطلاق منها."
+            ]
+          },
+          {
+            "h": "ماذا لا يثبت",
+            "p": [
+              "لا يثبت الفعالية. فالادعاءات مثل التفتيح أو التنعيم لا يفحصها CPNP على الإطلاق.",
+              "ولا يثبت جودة التصنيع. فهذا ما وُجِد من أجله معيار ISO 22716 وتدقيق الموقع، وليس بوّابة إشعار.",
+              "ولا ينتقل أثره إلى ما وراء الاتحاد الأوروبي. فلأمريكا اللاتينية والشرق الأوسط وآسيا إجراءاتها الخاصة بكل منها؛ والملف المُقدَّم لـCPNP لا يفيد إلا في تسهيل إعدادها."
+            ]
+          },
+          {
+            "h": "ماذا تطلب",
+            "p": [
+              "قائمة بالعناصر مع أرقامها المرجعية في CPNP: فكل تقديم يحمل رقماً، ويمكن التحقق منه.",
+              "تقرير أمان المنتج، إذا كان المصنّع مستعداً لتمريره عبر سلسلة التوريد.",
+              "اسم الشخص المسؤول في الاتحاد الأوروبي، وتأكيد أنه يبقى نفسه عند انتقال البضائع عبرك.",
+              "والسؤال المباشر الذي يُنسى غالباً: هل قُدِّم الإشعار عن النسخة الحالية من التركيبة أم عن نسخة سابقة."
+            ]
+          }
+        ]
       }
     }
   },
@@ -53114,6 +54079,54 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "الحد الأدنى للدفعة الأولى: ما الذي تحسبه قبل التفاوض عليه",
+        "excerpt": "حد أدنى من بضعة آلاف الوحدات يبدو حاجزاً. وهو في الغالب لا يرتكز على الكريم بل على التغليف، وهذا يغيّر طبيعة النقاش.",
+        "seoTitle": "الحد الأدنى للطلب في إطلاق علامة خاصة: كيف تحسب الأرقام",
+        "seoDesc": "من أين يأتي الحد الأدنى عند مصنّع كوري، وما الذي تحسبه قبل التفاوض، وكيف تخفّض الحد الأدنى دون طلب تخفيض في السعر.",
+        "sections": [
+          {
+            "p": [
+              "عندما يذكر مصنع حداً أدنى من بضعة آلاف الوحدات، يكون ردّ الفعل الأول عادةً طلب كمية أقل. والأفضل أن تبدأ من موضع آخر: بفهم من أين يأتي هذا الرقم. فيصبح الطلب بعدها أكثر دقّة."
+            ]
+          },
+          {
+            "h": "من أين يأتي الحد الأدنى",
+            "p": [
+              "المنتج نفسه هو أقل القيود شيوعاً. فيمكن إنتاج دفعة أصغر من المادة الأساسية (bulk)؛ وتكلفة الوحدة فقط ترتفع.",
+              "وفي الغالب يحدّد التغليف الحد الأدنى. فلمورّد الزجاجات حدّه الأدنى الخاص، ولطباعة الملصقات حدّ آخر، ولعلبة الكرتون حدّ ثالث. ومجموعها يُنتج الرقم الذي يعرضه المصنع عليك.",
+              "والثالث هو تبديل الخط. فتعبئة دفعة صغيرة تستغرق وقتاً يقارب تعبئة دفعة كبيرة، فيكلّف الطلب الصغير أكثر للوحدة حتى عند قبوله."
+            ]
+          },
+          {
+            "h": "ما الذي تحسبه قبل التفاوض",
+            "p": [
+              "تكلفة الوحدة عند الحد الأدنى وعند ضعف الحد الأدنى. فالفرق كثيراً ما يكون أصغر من المتوقع، ويصبح الجدال حول الحد الأدنى بلا معنى.",
+              "معدّل البيع. فثلاثة آلاف وحدة بمعدل مئة شهرياً تعني عامين ونصفاً، ومدة صلاحية مستحضرات التجميل أقصر من ذلك عادةً. وهنا يقيّد الحد الأدنى الصلاحية، لا المحفظة.",
+              "وتكلفة رأس المال. فدفعة تبقى راكدة لعام كاملة رأس مال مجمَّد، ويجب حسابها إلى جانب سعر الشراء."
+            ]
+          },
+          {
+            "h": "كيف تخفّض الحد الأدنى دون طلب تخفيض",
+            "p": [
+              "قلّل عدد المنتجات وتعمَّق في كل واحد منها. فثلاثة منتجات بألف وحدة لكل منها تكلّف في الغالب أكثر من منتج واحد بثلاثة آلاف وحدة.",
+              "اختر تغليفاً جاهزاً بدل شكل مخصَّص. فذلك يُزيل القيد الأساسي دفعة واحدة.",
+              "صَنِّع نسختين من مادة أساسية واحدة: نفس الكريم بحجمَي تعبئة مختلفين، مثلاً. فتُصنَّع المادة الأساسية مرة واحدة؛ ولا يختلف إلا التعبئة.",
+              "واقبل الغطاء أو المضخّة القياسية للمصنع. أمر صغير، لكن الحد الأدنى كثيراً ما يتعلّق به بالضبط."
+            ]
+          },
+          {
+            "h": "ماذا تسأل المصنّع",
+            "p": [
+              "هل يُحسَب الحد الأدنى لكل منتج أم للطلب كاملاً.",
+              "أي عنصر يحدّد القيد: المادة الأساسية، أو الزجاجة، أو الغطاء، أو الكرتون، أو عدد نسخ الطباعة.",
+              "سعر الوحدة عند مستويَي حجم، لترى الفارق بينهما.",
+              "مدة الصلاحية من تاريخ الإنتاج، لا من تاريخ الشحن: فهما مختلفان، والفارق بينهما قد يمتدّ إلى عدة أشهر.",
+              "وهل يمكن الاحتفاظ بجزء من الدفعة في المصنع والإفراج عنها على دفعات."
+            ]
+          }
+        ]
       }
     }
   },
@@ -54991,51 +56004,51 @@
         ]
       },
       "ar": {
-          "title": "آلاف الصيغ في المكتبة: ماذا يقدّم هذا الرقم للمشتري وماذا لا يقدّم",
-          "excerpt": "تُسرّع مكتبة الصيغ المتراكمة عملية الإطلاق وتخفّض تكلفة التطوير. وهذا يعني أيضاً أن الصيغة كانت موجودة قبلك وقد تُقدَّم لشخص آخر.",
-          "seoTitle": "مكتبة صيغ المصنع الكوري: ماذا تقدّم للعميل",
-          "seoDesc": "ماذا يعني امتلاك مكتبة متراكمة من الصيغ عند طلب علامة خاصة، وأين يوفّر ذلك الوقت والمال، وما أسئلة الحصرية التي يجب طرحها قبل التوقيع.",
-          "sections": [
-            {
-              "p": [
-                "كثيراً ما يذكر المصنّعون الكوريون عدد الصيغ التي يملكونها: خمسة آلاف، ثلاثة آلاف، أو هذا العدد منذ سنة معيّنة. يُقرأ الرقم كمقياس للحجم، وهو كذلك جزئياً. لكن الأهم للعميل هو أمر آخر: أيّ من هذه الصيغ سيُقدَّم له شخصياً، وبأي شروط."
-              ]
-            },
-            {
-              "h": "ما تقدّمه المكتبة فعلاً",
-              "p": [
-                "السرعة. أخذ نموذج من صيغة موجودة يستغرق أياماً لا شهوراً. في مشروع مدته ثلاثة أشهر، هذا هو الفرق بين إنجاز المهمة وتفويتها.",
-                "التوفير في التطوير. أنت لا تدفع ثمن عمل معملي من الصفر، بل ثمن تكييف، وهذا رقم من فئة مختلفة.",
-                "وأمر لا يُقدَّر حقّ قدره: غياب مفاجآت التوسّع الصناعي. صيغة سبق تصنيعها على نطاق صناعي تتصرّف بشكل متوقَّع، أما التطوير الجديد فقد يبدأ بالتصرف بشكل غير منضبط عند الانتقال من الكأس المعملي إلى المفاعل."
-              ]
-            },
-            {
-              "h": "ما لا تقدّمه المكتبة",
-              "p": [
-                "الحصرية. الصيغة كانت موجودة قبلك، ولا شيء يمنع افتراضياً تقديمها للعميل التالي. هذا ليس خداعاً، بل هو طريقة عمل هذا النموذج، والسعر يعكس ذلك.",
-                "التفرّد على الرف. إذا كان منافسك يتعامل مع المصنع نفسه، فقد ينتهي بك الأمر إلى المنتج نفسه في عبوات مختلفة. المستهلك لن يلاحظ، أما الموزّع فسيلاحظ بسرعة."
-              ]
-            },
-            {
-              "h": "ثلاثة عروض مختلفة تبدو متطابقة",
-              "p": [
-                "الصيغة الأساسية دون تغيير. الأسرع والأرخص، بلا حصرية.",
-                "الصيغة الأساسية مع تعديل: عطر مختلف، ملمس مختلف، نسبة معدَّلة من مادة فعّالة. أغلى وأبطأ، وتصبح الحصرية مسألة تعاقدية — وقد تُحجَز نسختك المحدّدة لك وحدك في بعض الأحيان.",
-                "التطوير من الصفر. الأغلى والأبطأ، وفيه وحده يمكن أن تكون الحصرية كاملة.",
-                "في المراسلات، تُسمّى الثلاثة غالباً \"تطويراً\". يستحق الأمر تحديد أيّها المقصود قبل مناقشة السعر."
-              ]
-            },
-            {
-              "h": "ما يجب سؤال المصنع عنه",
-              "p": [
-                "أيّ من الثلاثة يُعرَض: الأساسية، الأساسية المعدَّلة، أم تطوير جديد.",
-                "هل توجد حصرية، ولأي مدة ولأي إقليم، وما يحدث عند انتهائها.",
-                "هل صُنّعت هذه الصيغة على نطاق صناعي من قبل، وكم مرة: هذا هو أفضل جواب عن سؤال الثبات.",
-                "من يملك حقوق التعديل الذي دفعت ثمنه.",
-                "ومدة تسليم نموذج من هذه الصيغة — فهي تُظهر مدى جاهزية المكتبة فعلياً."
-              ]
-            }
-          ]
+        "title": "آلاف الصيغ في المكتبة: ماذا يقدّم هذا الرقم للمشتري وماذا لا يقدّم",
+        "excerpt": "تُسرّع مكتبة الصيغ المتراكمة عملية الإطلاق وتخفّض تكلفة التطوير. وهذا يعني أيضاً أن الصيغة كانت موجودة قبلك وقد تُقدَّم لشخص آخر.",
+        "seoTitle": "مكتبة صيغ المصنع الكوري: ماذا تقدّم للعميل",
+        "seoDesc": "ماذا يعني امتلاك مكتبة متراكمة من الصيغ عند طلب علامة خاصة، وأين يوفّر ذلك الوقت والمال، وما أسئلة الحصرية التي يجب طرحها قبل التوقيع.",
+        "sections": [
+          {
+            "p": [
+              "كثيراً ما يذكر المصنّعون الكوريون عدد الصيغ التي يملكونها: خمسة آلاف، ثلاثة آلاف، أو هذا العدد منذ سنة معيّنة. يُقرأ الرقم كمقياس للحجم، وهو كذلك جزئياً. لكن الأهم للعميل هو أمر آخر: أيّ من هذه الصيغ سيُقدَّم له شخصياً، وبأي شروط."
+            ]
+          },
+          {
+            "h": "ما تقدّمه المكتبة فعلاً",
+            "p": [
+              "السرعة. أخذ نموذج من صيغة موجودة يستغرق أياماً لا شهوراً. في مشروع مدته ثلاثة أشهر، هذا هو الفرق بين إنجاز المهمة وتفويتها.",
+              "التوفير في التطوير. أنت لا تدفع ثمن عمل معملي من الصفر، بل ثمن تكييف، وهذا رقم من فئة مختلفة.",
+              "وأمر لا يُقدَّر حقّ قدره: غياب مفاجآت التوسّع الصناعي. صيغة سبق تصنيعها على نطاق صناعي تتصرّف بشكل متوقَّع، أما التطوير الجديد فقد يبدأ بالتصرف بشكل غير منضبط عند الانتقال من الكأس المعملي إلى المفاعل."
+            ]
+          },
+          {
+            "h": "ما لا تقدّمه المكتبة",
+            "p": [
+              "الحصرية. الصيغة كانت موجودة قبلك، ولا شيء يمنع افتراضياً تقديمها للعميل التالي. هذا ليس خداعاً، بل هو طريقة عمل هذا النموذج، والسعر يعكس ذلك.",
+              "التفرّد على الرف. إذا كان منافسك يتعامل مع المصنع نفسه، فقد ينتهي بك الأمر إلى المنتج نفسه في عبوات مختلفة. المستهلك لن يلاحظ، أما الموزّع فسيلاحظ بسرعة."
+            ]
+          },
+          {
+            "h": "ثلاثة عروض مختلفة تبدو متطابقة",
+            "p": [
+              "الصيغة الأساسية دون تغيير. الأسرع والأرخص، بلا حصرية.",
+              "الصيغة الأساسية مع تعديل: عطر مختلف، ملمس مختلف، نسبة معدَّلة من مادة فعّالة. أغلى وأبطأ، وتصبح الحصرية مسألة تعاقدية — وقد تُحجَز نسختك المحدّدة لك وحدك في بعض الأحيان.",
+              "التطوير من الصفر. الأغلى والأبطأ، وفيه وحده يمكن أن تكون الحصرية كاملة.",
+              "في المراسلات، تُسمّى الثلاثة غالباً \"تطويراً\". يستحق الأمر تحديد أيّها المقصود قبل مناقشة السعر."
+            ]
+          },
+          {
+            "h": "ما يجب سؤال المصنع عنه",
+            "p": [
+              "أيّ من الثلاثة يُعرَض: الأساسية، الأساسية المعدَّلة، أم تطوير جديد.",
+              "هل توجد حصرية، ولأي مدة ولأي إقليم، وما يحدث عند انتهائها.",
+              "هل صُنّعت هذه الصيغة على نطاق صناعي من قبل، وكم مرة: هذا هو أفضل جواب عن سؤال الثبات.",
+              "من يملك حقوق التعديل الذي دفعت ثمنه.",
+              "ومدة تسليم نموذج من هذه الصيغة — فهي تُظهر مدى جاهزية المكتبة فعلياً."
+            ]
+          }
+        ]
       }
     }
   },
@@ -58085,50 +59098,50 @@
         ]
       },
       "ar": {
-          "title": "تقشير حمضي في صورة مسحوق: لماذا يُصنَع بهذا الشكل وماذا يغيّر",
-          "excerpt": "يبدو المسحوق كعائق: فأنت مضطر لمزجه. في الواقع، هو يحلّ مشكلة تجعل المنتجات الحمضية الجاهزة تفقد قوتها قبل تاريخ انتهاء صلاحيتها بكثير.",
-          "seoTitle": "تقشير حمضي بصيغة المسحوق: ما يجب توضيحه عند الشراء",
-          "seoDesc": "لماذا تُصنَع المقشّرات الحمضية والإنزيمية في صورة مسحوق، وماذا يقدّم ذلك من ثبات وسهولة تخزين، وماذا تسأل المصنّع.",
-          "sections": [
-            {
-              "p": [
-                "يتطلّب التقشير بالمسحوق خطوة إضافية: القياس، المزج بالماء، التطبيق. والتجزئة بشكل عام لا تحبّذ الخطوات الإضافية. ومع ذلك، تختار الشركات الكورية المسحوق عمداً، والسبب تقني لا تسويقي."
-              ]
-            },
-            {
-              "h": "ماذا يحدث لحمض في الماء",
-              "p": [
-                "يعمل الحمض فقط عند درجة حموضة معيّنة. وفي صيغة جاهزة قائمة على الماء، يجب الحفاظ على هذا المستوى لأشهر، وهو ينحرف لا محالة: تتفاعل مكوّنات أخرى، وللتعبئة دورها، ولدرجة حرارة التخزين تأثيرها.",
-                "والإنزيمات أصعب من ذلك: فالإنزيم في الماء يفقد نشاطه تدريجياً، ولا يُبطل أي نظام حفظ هذا التراجع.",
-                "المسحوق يزيل المسألة كلياً. فمن دون ماء، لا يحدث تفاعل. يظهر النشاط لحظة المزج ويستمر فقط الدقيقة التي يُحتاج إليها فيها."
-              ]
-            },
-            {
-              "h": "ماذا يقدّم ذلك للمشتري",
-              "p": [
-                "القابلية للتوقّع. فعلبة بقيت في المستودع سنة كاملة تعمل مثل علبة طازجة، لأن شيئاً لم يحدث بداخلها.",
-                "مواد حافظة أقل. فالمنتج الجاف هادئ من الناحية الميكروبيولوجية، وهذا حجة لصالح المشتري الذي يستهدف جمهوراً ذا بشرة حسّاسة.",
-                "والوزن. فالمسحوق أخفّ من مستحلب مائي يقدّم عدد الاستخدامات نفسه، وهذا ينعكس في الشحن الجوي."
-              ]
-            },
-            {
-              "h": "ماذا يكلّفك ذلك",
-              "p": [
-                "التعليمات. فالمسحوق يعمل بشكل صحيح فقط عند نسبة الماء الصحيحة، وإذا قدّرها المستهلك تقديراً فسيختلف النتيجة. والتجزئة تشعر بذلك في التقييمات.",
-                "الملمس. فالمعجون الجاهز يبدو أغلى ثمناً وأفضل في اليد. والمسحوق يحتاج إلى شرح، والشرح يكلّف مساحة على الرف.",
-                "والتعبئة. فيجب حماية المسحوق من الرطوبة، وهذا يعني أكياساً أحادية الاستخدام أو علبة بغطاء محكم مع ملعقة قياس."
-              ]
-            },
-            {
-              "h": "ماذا يجب سؤال المصنّع عنه",
-              "p": [
-                "نسبة الماء الدقيقة ومدة بقاء المزيج نشطاً بعد تحضيره.",
-                "درجة حموضة المزيج المحضَّر: فهذا هو الرقم الأساسي في تقشير حمضي ويجب ذكره.",
-                "متطلبات التعبئة والرطوبة للتخزين والنقل.",
-                "وهل توجد نسخة جاهزة من الصيغة نفسها. فقد يقدّم المصنّع النسختين معاً أحياناً، وبذلك تأخذ التجزئة النسخة الجاهزة بينما تأخذ القناة المهنية المسحوق."
-              ]
-            }
-          ]
+        "title": "تقشير حمضي في صورة مسحوق: لماذا يُصنَع بهذا الشكل وماذا يغيّر",
+        "excerpt": "يبدو المسحوق كعائق: فأنت مضطر لمزجه. في الواقع، هو يحلّ مشكلة تجعل المنتجات الحمضية الجاهزة تفقد قوتها قبل تاريخ انتهاء صلاحيتها بكثير.",
+        "seoTitle": "تقشير حمضي بصيغة المسحوق: ما يجب توضيحه عند الشراء",
+        "seoDesc": "لماذا تُصنَع المقشّرات الحمضية والإنزيمية في صورة مسحوق، وماذا يقدّم ذلك من ثبات وسهولة تخزين، وماذا تسأل المصنّع.",
+        "sections": [
+          {
+            "p": [
+              "يتطلّب التقشير بالمسحوق خطوة إضافية: القياس، المزج بالماء، التطبيق. والتجزئة بشكل عام لا تحبّذ الخطوات الإضافية. ومع ذلك، تختار الشركات الكورية المسحوق عمداً، والسبب تقني لا تسويقي."
+            ]
+          },
+          {
+            "h": "ماذا يحدث لحمض في الماء",
+            "p": [
+              "يعمل الحمض فقط عند درجة حموضة معيّنة. وفي صيغة جاهزة قائمة على الماء، يجب الحفاظ على هذا المستوى لأشهر، وهو ينحرف لا محالة: تتفاعل مكوّنات أخرى، وللتعبئة دورها، ولدرجة حرارة التخزين تأثيرها.",
+              "والإنزيمات أصعب من ذلك: فالإنزيم في الماء يفقد نشاطه تدريجياً، ولا يُبطل أي نظام حفظ هذا التراجع.",
+              "المسحوق يزيل المسألة كلياً. فمن دون ماء، لا يحدث تفاعل. يظهر النشاط لحظة المزج ويستمر فقط الدقيقة التي يُحتاج إليها فيها."
+            ]
+          },
+          {
+            "h": "ماذا يقدّم ذلك للمشتري",
+            "p": [
+              "القابلية للتوقّع. فعلبة بقيت في المستودع سنة كاملة تعمل مثل علبة طازجة، لأن شيئاً لم يحدث بداخلها.",
+              "مواد حافظة أقل. فالمنتج الجاف هادئ من الناحية الميكروبيولوجية، وهذا حجة لصالح المشتري الذي يستهدف جمهوراً ذا بشرة حسّاسة.",
+              "والوزن. فالمسحوق أخفّ من مستحلب مائي يقدّم عدد الاستخدامات نفسه، وهذا ينعكس في الشحن الجوي."
+            ]
+          },
+          {
+            "h": "ماذا يكلّفك ذلك",
+            "p": [
+              "التعليمات. فالمسحوق يعمل بشكل صحيح فقط عند نسبة الماء الصحيحة، وإذا قدّرها المستهلك تقديراً فسيختلف النتيجة. والتجزئة تشعر بذلك في التقييمات.",
+              "الملمس. فالمعجون الجاهز يبدو أغلى ثمناً وأفضل في اليد. والمسحوق يحتاج إلى شرح، والشرح يكلّف مساحة على الرف.",
+              "والتعبئة. فيجب حماية المسحوق من الرطوبة، وهذا يعني أكياساً أحادية الاستخدام أو علبة بغطاء محكم مع ملعقة قياس."
+            ]
+          },
+          {
+            "h": "ماذا يجب سؤال المصنّع عنه",
+            "p": [
+              "نسبة الماء الدقيقة ومدة بقاء المزيج نشطاً بعد تحضيره.",
+              "درجة حموضة المزيج المحضَّر: فهذا هو الرقم الأساسي في تقشير حمضي ويجب ذكره.",
+              "متطلبات التعبئة والرطوبة للتخزين والنقل.",
+              "وهل توجد نسخة جاهزة من الصيغة نفسها. فقد يقدّم المصنّع النسختين معاً أحياناً، وبذلك تأخذ التجزئة النسخة الجاهزة بينما تأخذ القناة المهنية المسحوق."
+            ]
+          }
+        ]
       }
     }
   },
@@ -67365,6 +68378,41 @@
             ]
           }
         ]
+      },
+      "ar": {
+        "title": "التجفيف بالتجميد مع المُنشِّط: كم يكلّف هذا التنسيق المشتري",
+        "excerpt": "قنّينتان بدلاً من واحدة تبدو تعقيداً. نستعرض لماذا تُجفَّف التركيبة، وماذا يحقّق ذلك، وأي تكاليف يضيفها هذا التنسيق إلى عملية الشراء.",
+        "seoTitle": "تنسيق الجزأين في مستحضرات التجميل — كم يكلّف المشتري",
+        "seoDesc": "مسحوق مجفَّف بالتجميد مع أمبولة تنشيط: لماذا التجفيف، وماذا تسأل عن الثبات، وأي تكاليف يضيفها هذا التنسيق للموزّع.",
+        "sections": [
+          {
+            "p": [
+              "عند رؤية المشتري طقماً بقنّينتين لأول مرة، يطرح السؤال نفسه عادةً: لماذا هذا التعقيد. والإجابة هي نفسها في الغالب، وليست إجابة تسويقية. فالتركيبة نفسها التي يوجد المنتج من أجلها لا تدوم طويلاً بعد تحضيرها، لكنها تدوم جيداً عند تجفيفها. ونستعرض هذا التنسيق من خلال مثالين كوريين يستخدمانه، RNH BIO وCK Regeon."
+            ]
+          },
+          {
+            "h": "لماذا تُجفَّف",
+            "p": [
+              "التجفيف بالتجميد (Lyophilisation) هو تجفيف في حالة التجمّد تحت تفريغ هوائي. فتخرج المياه بينما تبقى بنية المادة بحالة أفضل من التجفيف العادي. وبالنسبة للمكوّنات غير المستقرّة، هذه هي الطريقة التي تدوم بها لفترة كافية للوصول إلى الزبون: فكمسحوق تدوم لأشهر، وكمحلول لأسابيع أو أيام.",
+              "ومن هنا تأتي القنّينة الثانية. فالمُنشِّط هو الطور السائل، يُدخَل إلى المسحوق مباشرة قبل الاستخدام. وعند RNH BIO يُبنى بهذه الطريقة كلّ من طقم العيادات RX PRO وأمبولة فروة الرأس للبيع بالتجزئة. وعند CK Regeon يتبع المعزّز المهني المبدأ نفسه."
+            ]
+          },
+          {
+            "h": "ماذا يضيف هذا التنسيق للشراء",
+            "p": [
+              "أولاً، تكلفة التغليف. فقنّينتان، وخطّا تعبئة، وعلبة كرتون منفصلة، ونشرة، تكلّف دائماً أكثر من زجاجة واحدة بنفس الحجم. وهذا الفرق لا يذهب إلى المصنّع بل إلى التغليف، ونادراً ما يُخفَّض عبر التفاوض.",
+              "ثانياً، التدريب. فيجب على طاقم الصالون أو العيادة المزج بشكل صحيح ومعرفة المدة التي تدوم فيها التركيبة بعد التنشيط. والخطأ هنا يكلّف أكثر من المنتج العادي: فما يُفسَد ليس علاجاً بل طقماً مكلفاً. اسأل إن كان المصنّع يملك مواد تدريبية وبأي لغات.",
+              "ثالثاً، اللوجستيات. فقد يحتاج المجفَّف والطور السائل متطلبات حرارة مختلفة، وتُحسَب مدة صلاحية الطقم بحسب الأقصر من الاثنين."
+            ]
+          },
+          {
+            "h": "ماذا تسأل المورّد",
+            "p": [
+              "مدة صلاحية الطقم ومدة صلاحية كل مكوّن على حدة. ومدة صلاحية الاستخدام بعد المزج — بالساعات أو الدقائق. وشروط التخزين قبل الفتح. وماذا يحدث إذا نُشِّط الطقم عرضاً قبل وقته. وتوفّر التعليمات والمواد التدريبية. والحد الأدنى للطلب للطقم، لا للقنّينة.",
+              "وتحقق على نحو منفصل من كيفية تصنيف هذا التنسيق في سوقك. فبعض البلدان تُدرج المنتجات ثنائية الجزء التي تُطبَّق بعد الإجراءات تحت متطلبات ملصقات أكثر صرامة، ومن الأفضل تسوية هذا الأمر قبل الطلب لا عند الجمارك."
+            ]
+          }
+        ]
       }
     }
   },
@@ -68384,6 +69432,47 @@
             "p": [
               "हर वस्तु की शेल्फ़ लाइफ़ और शिपमेंट के समय शेष अवधि। नंबरों और तारीखों के साथ प्रमाणपत्रों की पूरी सूची। न्यूनतम खेप हर SKU के लिए अलग से, पूरे ऑर्डर के लिए नहीं। डिलीवरी की शर्तें और कीमत का आधार। आपके बाज़ार की भाषा में पाठ लगाने की संभावना और लेआउट को दोबारा बनाने का खर्च कौन उठाता है।",
               "और अलग से — इस श्रेणी के लिए आपके बाज़ार में प्रभाव के कौन से दावे अनुमत हैं। कोरियाई लेबल लगभग हमेशा उससे अधिक कहता है जितना यूरोपीय या लैटिन अमेरिकी रेगुलेटर अनुमति देता है, और पाठ में सुधार उत्पादन से पहले करना बेहतर है, कंटेनर आने के बाद नहीं।"
+            ]
+          }
+        ]
+      },
+      "ar": {
+        "title": "المكمّلات الغذائية من كوريا: ماذا تسأل الصانع قبل الطلب الأول",
+        "excerpt": "المكوّنات المسجَّلة ببراءة، ونسب التورّم، وغرامات الدهون المرتبطة تبدو مقنعة في عرض المبيعات. وفيما يلي ما تعنيه هذه العبارات فعلاً، والأسئلة التي تُطرح قبل إصدار الطلب.",
+        "seoTitle": "المكمّلات الغذائية الكورية: ماذا تسأل قبل الطلب",
+        "seoDesc": "ماذا تعني عبارة «الغارسينيا المسجَّلة ببراءة» ونسبة تورّم 2,110% و20.7 غراماً من الدهون المرتبطة في عروض المبيعات الكورية، وماذا تسأل المصنع قبل الطلب الأول.",
+        "sections": [
+          {
+            "p": [
+              "عروض الأغذية الوظيفية الصحية الكورية مكثَّفة إلى حدّ بعيد: فصفحة واحدة تحمل التركيبة والنسب والغرامات والوسوم التي تَعِد بنتيجة. تُقرَأ بسهولة، لكن لا يمكن الشراء بالاعتماد عليها فقط، لأن كل عبارة فيها تقريباً تحتمل أكثر من قراءة. ونستعرض هذا الأمر بالاستناد إلى مواد SPRX — علامة كورية تعمل في فئة إدارة الوزن منذ عام 2011 وشاركتنا كتالوجها لعام 2026."
+            ]
+          },
+          {
+            "h": "«المكوّن المسجَّل ببراءة» يتحدّث عن براءة، لا عن تأثير",
+            "p": [
+              "في تركيبة Watermix Zero وThree Out تُشير الشركة إلى أن الغارسينيا كامبوجيا والمالتوديكسترين المقاوم مسجَّلان ببراءة، وفي الكبسولات تُدرَج البروبيوتيك أيضاً على أنها مسجَّلة ببراءة. وهذه ممارسة كورية شائعة: فالبراءة تخصّ عادةً مورّد المكوّن نفسه وتحمي طريقة إنتاج أو سلالة محددة، لا أنها تثبت نتيجة للمشتري.",
+              "لذا فالسؤال الأول الموجَّه للمصنع هو رقم البراءة وصاحبها. والثاني هو ما إذا كانت بلدك مشمولة بتغطيتها. والثالث، وهو الأكثر عملية، هو ما إذا كان مسموحاً لك بطباعة كلمة «مسجَّل ببراءة» في سوقك وعلى تغليفك. وإجابات هذه الأسئلة الثلاثة كثيراً ما تتناقض مع بعضها، ومن الأفضل معرفة ذلك قبل طباعة الملصقات."
+            ]
+          },
+          {
+            "h": "أرقام العرض يجب أن تُقرَأ بالشكل الصحيح",
+            "p": [
+              "تذكر SPRX أرقاماً محددة لمنتجاتها. فبالنسبة لمخفوق Poman، تورّم التركيبة بنسبة 2,110% وشعور بالامتلاء يدوم حتى 240 دقيقة؛ وبالنسبة لـAlpha CD Calozero، ارتباط بما يصل إلى 20.7 غراماً من الدهون في الحصّة الواحدة، تحوّلها الشركة إلى نحو 186 سعرة حرارية. وهذه الأرقام تُستخلَص في الغالب من نموذج معملي لا من أشخاص يتناولون طعامهم بشكل طبيعي.",
+              "والشيء الذي يستحقّ السؤال ليس الأرقام نفسها بل الشروط الكامنة خلفها: على أي نموذج، وبأي جرعة، ومن أجرى الاختبار، وهل يوجد بروتوكول يمكن عرضه على الجهة التنظيمية في بلدك. فمن دون بروتوكول، يبقى الرقم ادعاءً تسويقياً، ولا ينتقل في معظم البلدان إلى التغليف."
+            ]
+          },
+          {
+            "h": "وفّق حجم العبوة بين كل المصادر",
+            "p": [
+              "الوصف في العرض، والنص على العبوة، وقائمة الأسعار، لا تتوافق دائماً مع بعضها — في الحجم أو حجم العبوة أو الوزن الصافي. وقبل الطلب يستحق الأمر التوفيق بين هذه المصادر، وحيث تتباين الأرقام، التحقق منها مع المصنّع بدل اختيار نسخة بنفسك.",
+              "وهذا مهم للمشتري: فالوزن الصافي وعدد الوحدات في العبوة يحدّدان تكلفة الشحن والتصريح الجمركي وحساب السعر للغرام. لذا يُؤكَّد حجم العبوة مع الشركة قبل الطلب، لا بعد وصول الدفعة."
+            ]
+          },
+          {
+            "h": "ماذا تسأل قبل إصدار الطلب",
+            "p": [
+              "مدة صلاحية كل منتج والمدة المتبقية منها عند لحظة الشحن. قائمة كاملة بالشهادات مع الأرقام والتواريخ. الحد الأدنى للدفعة لكل رمز منتج (SKU) على حدة، لا للطلب كاملاً. شروط التسليم وأساس التسعير. إمكانية طباعة النص بلغة سوقك، ومن يتحمّل تكلفة إعادة تصميم التغليف.",
+              "وعلى نحو منفصل — ما هي ادعاءات التأثير المسموح بها في سوقك لهذه الفئة. فالملصق الكوري يذكر في الغالب أكثر مما تسمح به جهة تنظيمية أوروبية أو في أمريكا اللاتينية، ومن الأفضل تصحيح النص قبل الإنتاج لا بعد وصول العبوة."
             ]
           }
         ]
@@ -73662,45 +74751,45 @@
         ]
       },
       "ar": {
-          "title": "ACFIT: علامة عناية بالبشرة نشأت من صالون التجميل V-Medi Spa",
-          "excerpt": "كيف حوّل صالون تجميل كوري، V-Medi Spa، 27 عاماً من الممارسة العملية إلى خط عناية مهني خاص به، ACFIT — ولماذا بُنيت العلامة حول ثلاث خطوات: تبريد، استعادة، توازن.",
-          "seoTitle": "ACFIT: قصة العلامة من V-Medi Spa · Teranova",
-          "seoDesc": "قصة العلامة الكورية ACFIT: صالون التجميل V-Medi Spa، 27 عاماً من الممارسة، خط V-SANG BETA-G، فلسفة التبريد-الاستعادة-التوازن. معلومات من مصدرها الشركة.",
-          "sections": [
-            {
-              "p": [
-                "ACFIT ليست علامة اخترعت صيغاً أولاً وباعتها بعد ذلك. وحسب رواية الشركة نفسها، وُلدت داخل V-Medi Spa، مركز تجميل مهني في بوبيونغ، إنتشون (كوريا الجنوبية)، حيث قضى الطاقم سنوات في العناية ببشرة صعبة: حسّاسة، معرَّضة لحب الشباب، محتقنة، وذات حاجز متضرّر."
-              ]
-            },
-            {
-              "h": "27 عاماً من الممارسة قبل أول صيغة",
-              "p": [
-                "حسب الشركة، وصلت مؤسِّسة V-Medi Spa ومديرتها التنفيذية، هيون-جو لي، إلى خط المنتجات ليس عبر معمل بل عبر 27 عاماً من العمل المباشر مع العملاء. وعند تجربة العلامات التجارية القائمة، واجه الصالون باستمرار العائق نفسه: عجز المنتجات عن التعامل مع بشرة تحتقن وتتهيّج وتعود للانتكاس بعد تحسّن قصير.",
-                "والسؤال \"هل يمكننا صنع منتجات نثق بها في ممارستنا الخاصة\" هو، حسب ACFIT، نقطة انطلاق العلامة فعلياً — لا خطة طرح في السوق."
-              ]
-            },
-            {
-              "h": "من غرفة العلاج إلى السوق",
-              "p": [
-                "قبل الوصول إلى المستهلك النهائي، تقول الشركة إن كل صيغة اختُبرت في بروتوكولات العلاج الخاصة بالصالون — فقد صُقل الملمس وطريقة التطبيق وإجراءات المزج على عملاء حقيقيين، لا على الورق فقط.",
-                "واليوم، حسب ACFIT، تستخدم العلامة من قبل متخصصين في نحو 250 مركز تجميل وأمراض جلدية في كوريا — وهو رقم تصفه الشركة ليس فقط كعدد نقاط توزيع، بل كدليل على أن الممارسين يختارون ACFIT لعلاجات فعلية."
-              ]
-            },
-            {
-              "h": "فلسفة من ثلاث خطوات: تبريد، استعادة، توازن",
-              "p": [
-                "تصف ACFIT نهجها بثلاث خطوات متتالية: أولاً تبريد البشرة المتهيّجة (Cool the Skin)، ثم استعادة حاجز البشرة (Restore the Skin Barrier)، وفقط بعد ذلك دعم توازن الميكروبيوم (Balance the Microbiome).",
-                "يستمد خط V-SANG المميَّز للعلامة اسمه من الكلمة الكورية 비상 (bisang)، \"حالة طارئة\" — وهي طريقة الشركة في وصف وظيفة الخط: تهدئة البشرة سريعاً خلال نوبة تهيّج، قبل الانتقال إلى عناية أكثر كثافة."
-              ]
-            },
-            {
-              "h": "14 منتجاً عبر الروتين الكامل",
-              "p": [
-                "حتى الآن، تقول الشركة إن تشكيلة ACFIT تضم 14 منتجاً: 11 منها يمكن استخدامها في غرفة العلاج وفي المنزل على حدّ سواء، و3 مخصَّصة للمتخصصين المدرَّبين في مراكز التجميل والعيادات.",
-                "الكتالوج الكامل بالصور والأحجام وحالة التسجيل موجود على صفحة ملف ACFIT. راجعت Teranova تقديم الشركة وقائمة أسعارها دون أن تتحقق بشكل مستقل من مزاعم العلامة؛ كل رقم في هذا المقال هو من الشركة نفسها."
-              ]
-            }
-          ]
+        "title": "ACFIT: علامة عناية بالبشرة نشأت من صالون التجميل V-Medi Spa",
+        "excerpt": "كيف حوّل صالون تجميل كوري، V-Medi Spa، 27 عاماً من الممارسة العملية إلى خط عناية مهني خاص به، ACFIT — ولماذا بُنيت العلامة حول ثلاث خطوات: تبريد، استعادة، توازن.",
+        "seoTitle": "ACFIT: قصة العلامة من V-Medi Spa · Teranova",
+        "seoDesc": "قصة العلامة الكورية ACFIT: صالون التجميل V-Medi Spa، 27 عاماً من الممارسة، خط V-SANG BETA-G، فلسفة التبريد-الاستعادة-التوازن. معلومات من مصدرها الشركة.",
+        "sections": [
+          {
+            "p": [
+              "ACFIT ليست علامة اخترعت صيغاً أولاً وباعتها بعد ذلك. وحسب رواية الشركة نفسها، وُلدت داخل V-Medi Spa، مركز تجميل مهني في بوبيونغ، إنتشون (كوريا الجنوبية)، حيث قضى الطاقم سنوات في العناية ببشرة صعبة: حسّاسة، معرَّضة لحب الشباب، محتقنة، وذات حاجز متضرّر."
+            ]
+          },
+          {
+            "h": "27 عاماً من الممارسة قبل أول صيغة",
+            "p": [
+              "حسب الشركة، وصلت مؤسِّسة V-Medi Spa ومديرتها التنفيذية، هيون-جو لي، إلى خط المنتجات ليس عبر معمل بل عبر 27 عاماً من العمل المباشر مع العملاء. وعند تجربة العلامات التجارية القائمة، واجه الصالون باستمرار العائق نفسه: عجز المنتجات عن التعامل مع بشرة تحتقن وتتهيّج وتعود للانتكاس بعد تحسّن قصير.",
+              "والسؤال \"هل يمكننا صنع منتجات نثق بها في ممارستنا الخاصة\" هو، حسب ACFIT، نقطة انطلاق العلامة فعلياً — لا خطة طرح في السوق."
+            ]
+          },
+          {
+            "h": "من غرفة العلاج إلى السوق",
+            "p": [
+              "قبل الوصول إلى المستهلك النهائي، تقول الشركة إن كل صيغة اختُبرت في بروتوكولات العلاج الخاصة بالصالون — فقد صُقل الملمس وطريقة التطبيق وإجراءات المزج على عملاء حقيقيين، لا على الورق فقط.",
+              "واليوم، حسب ACFIT، تستخدم العلامة من قبل متخصصين في نحو 250 مركز تجميل وأمراض جلدية في كوريا — وهو رقم تصفه الشركة ليس فقط كعدد نقاط توزيع، بل كدليل على أن الممارسين يختارون ACFIT لعلاجات فعلية."
+            ]
+          },
+          {
+            "h": "فلسفة من ثلاث خطوات: تبريد، استعادة، توازن",
+            "p": [
+              "تصف ACFIT نهجها بثلاث خطوات متتالية: أولاً تبريد البشرة المتهيّجة (Cool the Skin)، ثم استعادة حاجز البشرة (Restore the Skin Barrier)، وفقط بعد ذلك دعم توازن الميكروبيوم (Balance the Microbiome).",
+              "يستمد خط V-SANG المميَّز للعلامة اسمه من الكلمة الكورية 비상 (bisang)، \"حالة طارئة\" — وهي طريقة الشركة في وصف وظيفة الخط: تهدئة البشرة سريعاً خلال نوبة تهيّج، قبل الانتقال إلى عناية أكثر كثافة."
+            ]
+          },
+          {
+            "h": "14 منتجاً عبر الروتين الكامل",
+            "p": [
+              "حتى الآن، تقول الشركة إن تشكيلة ACFIT تضم 14 منتجاً: 11 منها يمكن استخدامها في غرفة العلاج وفي المنزل على حدّ سواء، و3 مخصَّصة للمتخصصين المدرَّبين في مراكز التجميل والعيادات.",
+              "الكتالوج الكامل بالصور والأحجام وحالة التسجيل موجود على صفحة ملف ACFIT. راجعت Teranova تقديم الشركة وقائمة أسعارها دون أن تتحقق بشكل مستقل من مزاعم العلامة؛ كل رقم في هذا المقال هو من الشركة نفسها."
+            ]
+          }
+        ]
       }
     }
   },
@@ -74223,43 +75312,43 @@
         ]
       },
       "ar": {
-          "title": "Beta-G في صيغ ACFIT: كيف تتعامل العلامة مع حاجز البشرة",
-          "excerpt": "ماذا تعني علامة \"Beta-G\" الموجودة في اسم كل منتج تقريباً من ACFIT، وكيف يرتبط البيتا-غلوكان بفلسفة العلامة المعلنة — تبريد، استعادة، توازن.",
-          "seoTitle": "ACFIT Beta-G: البيتا-غلوكان وحاجز البشرة · Teranova",
-          "seoDesc": "ACFIT Beta-G: ما تقوله الشركة عن البيتا-غلوكان في صيغها، وكيف يرتبط ذلك بفلسفة التبريد-الاستعادة-التوازن وخط V-SANG.",
-          "sections": [
-            {
-              "p": [
-                "يحمل اسم كل منتج من ACFIT تقريباً كلمة \"Beta-G\" — Secure Cleansing Beta-G، وV-SANG Beta-G Gel، وLacto Care Cream Beta-G. وحسب الشركة، هذه ليست علامة تسويقية بل مكوّن مشترك: البيتا-غلوكان، الذي تُدرجه ACFIT في الصيغ الأساسية عبر الخط بالكامل."
-              ]
-            },
-            {
-              "h": "لماذا يحتاج حاجز البشرة إلى البيتا-غلوكان",
-              "p": [
-                "حاجز البشرة هو ما يحافظ على الرطوبة بالداخل ويمنع المهيّجات من الدخول. وحسب ACFIT، عندما يضعف الحاجز، يصعب على البشرة تحمّل حتى المنتجات ذات المكوّنات المفيدة — فتلسع، وتحمرّ، وأي تحسّن من العناية يميل إلى أن يكون مؤقتاً.",
-                "تصف الشركة نهجها بأنه تثبيت الحاجز أولاً، قبل إدخال تغييرات فعّالة أكبر — بدلاً من إخفاء المشكلة بقوام ثقيل أو تأثير قصير الأمد."
-              ]
-            },
-            {
-              "h": "ثلاث خطوات في الفلسفة، وموضع Beta-G فيها",
-              "p": [
-                "تقسّم ACFIT روتينها إلى ثلاث مراحل: تبريد البشرة المتهيّجة، استعادة الحاجز، وفقط بعد ذلك دعم توازن الميكروبيوم. والبيتا-غلوكان، حسب الشركة، يعمل في الخطوة الثانية — استعادة الحاجز — ويوجد في الصيغ الأساسية لمعظم منتجات الخط بدلاً من أن يكون في منتج واحد مستقل.",
-                "هذا يحدّد طريقة بناء الشركة لتشكيلتها: بدلاً من عشرات المنتجات الموجَّهة بدقة، تقدّم ACFIT تشكيلة مُركَّزة نسبياً مبنية على أساس مكوّن مشترك يتكرّر من منتج إلى آخر."
-              ]
-            },
-            {
-              "h": "V-SANG: خط اللحظة الحادة",
-              "p": [
-                "عندما يكون الحاجز متهيّجاً فعلاً وتكون الاستجابة السريعة مطلوبة، يأتي دور خط V-SANG المميَّز — والاسم مستوحى من الكلمة الكورية 비상 (\"حالة طارئة\"). وحسب ACFIT، يحمل V-SANG تركيزاً أعلى من مكوّنات الحاجز والتهدئة، وقد صُمّم الخط للاستجابة السريعة لنوبة تهيّج لا للعناية اليومية الروتينية."
-              ]
-            },
-            {
-              "h": "ماذا يعني ذلك للمشتري",
-              "p": [
-                "لا يمكن لـ Teranova التحقق بشكل مستقل من التركيب الدقيق أو تركيز البيتا-غلوكان في كل صيغة — هذا وصف الشركة نفسها، بناءً على تقديم ACFIT. القائمة الكاملة للمكوّنات الفعّالة لكل منتج موجودة في بطاقات الكتالوج على صفحة ملف ACFIT، إلى جانب حالة تسجيل كل منتج في CPNP/SCPN/MoCRA."
-              ]
-            }
-          ]
+        "title": "Beta-G في صيغ ACFIT: كيف تتعامل العلامة مع حاجز البشرة",
+        "excerpt": "ماذا تعني علامة \"Beta-G\" الموجودة في اسم كل منتج تقريباً من ACFIT، وكيف يرتبط البيتا-غلوكان بفلسفة العلامة المعلنة — تبريد، استعادة، توازن.",
+        "seoTitle": "ACFIT Beta-G: البيتا-غلوكان وحاجز البشرة · Teranova",
+        "seoDesc": "ACFIT Beta-G: ما تقوله الشركة عن البيتا-غلوكان في صيغها، وكيف يرتبط ذلك بفلسفة التبريد-الاستعادة-التوازن وخط V-SANG.",
+        "sections": [
+          {
+            "p": [
+              "يحمل اسم كل منتج من ACFIT تقريباً كلمة \"Beta-G\" — Secure Cleansing Beta-G، وV-SANG Beta-G Gel، وLacto Care Cream Beta-G. وحسب الشركة، هذه ليست علامة تسويقية بل مكوّن مشترك: البيتا-غلوكان، الذي تُدرجه ACFIT في الصيغ الأساسية عبر الخط بالكامل."
+            ]
+          },
+          {
+            "h": "لماذا يحتاج حاجز البشرة إلى البيتا-غلوكان",
+            "p": [
+              "حاجز البشرة هو ما يحافظ على الرطوبة بالداخل ويمنع المهيّجات من الدخول. وحسب ACFIT، عندما يضعف الحاجز، يصعب على البشرة تحمّل حتى المنتجات ذات المكوّنات المفيدة — فتلسع، وتحمرّ، وأي تحسّن من العناية يميل إلى أن يكون مؤقتاً.",
+              "تصف الشركة نهجها بأنه تثبيت الحاجز أولاً، قبل إدخال تغييرات فعّالة أكبر — بدلاً من إخفاء المشكلة بقوام ثقيل أو تأثير قصير الأمد."
+            ]
+          },
+          {
+            "h": "ثلاث خطوات في الفلسفة، وموضع Beta-G فيها",
+            "p": [
+              "تقسّم ACFIT روتينها إلى ثلاث مراحل: تبريد البشرة المتهيّجة، استعادة الحاجز، وفقط بعد ذلك دعم توازن الميكروبيوم. والبيتا-غلوكان، حسب الشركة، يعمل في الخطوة الثانية — استعادة الحاجز — ويوجد في الصيغ الأساسية لمعظم منتجات الخط بدلاً من أن يكون في منتج واحد مستقل.",
+              "هذا يحدّد طريقة بناء الشركة لتشكيلتها: بدلاً من عشرات المنتجات الموجَّهة بدقة، تقدّم ACFIT تشكيلة مُركَّزة نسبياً مبنية على أساس مكوّن مشترك يتكرّر من منتج إلى آخر."
+            ]
+          },
+          {
+            "h": "V-SANG: خط اللحظة الحادة",
+            "p": [
+              "عندما يكون الحاجز متهيّجاً فعلاً وتكون الاستجابة السريعة مطلوبة، يأتي دور خط V-SANG المميَّز — والاسم مستوحى من الكلمة الكورية 비상 (\"حالة طارئة\"). وحسب ACFIT، يحمل V-SANG تركيزاً أعلى من مكوّنات الحاجز والتهدئة، وقد صُمّم الخط للاستجابة السريعة لنوبة تهيّج لا للعناية اليومية الروتينية."
+            ]
+          },
+          {
+            "h": "ماذا يعني ذلك للمشتري",
+            "p": [
+              "لا يمكن لـ Teranova التحقق بشكل مستقل من التركيب الدقيق أو تركيز البيتا-غلوكان في كل صيغة — هذا وصف الشركة نفسها، بناءً على تقديم ACFIT. القائمة الكاملة للمكوّنات الفعّالة لكل منتج موجودة في بطاقات الكتالوج على صفحة ملف ACFIT، إلى جانب حالة تسجيل كل منتج في CPNP/SCPN/MoCRA."
+            ]
+          }
+        ]
       }
     }
   },
@@ -74795,44 +75884,44 @@
         ]
       },
       "ar": {
-          "title": "بروتوكول المزج من ACFIT: مطابقة العناية لنوع البشرة والمناخ",
-          "excerpt": "بدلاً من توسيع تشكيلتها، تجمع ACFIT مجموعة صغيرة من المنتجات لحالة بشرة ومناخ محدَّدين — وتسمّي الشركة ذلك بروتوكول مزج المنتجات.",
-          "seoTitle": "بروتوكول مزج ACFIT: العناية حسب نوع البشرة · Teranova",
-          "seoDesc": "كيف يعمل نظام مزج ACFIT: Azulene Focus Oil وSkin Booster وV-SANG Gel وCream تُجمع حسب نوع البشرة والمناخ. معلومات من مصدرها الشركة.",
-          "sections": [
-            {
-              "p": [
-                "تتعامل ACFIT مع مشكلة شائعة في العناية المهنية بالبشرة — مخزون مليء بمنتجات محدودة الوظيفة — بطريقة مختلفة. وحسب الشركة، بدلاً من توسيع التشكيلة مع كل تغيّر موسمي جديد في البشرة، يُجمَع عدد قليل من المنتجات الأساسية في الخط لمعالجة المهمة المطروحة."
-              ]
-            },
-            {
-              "h": "مما يُبنى البروتوكول",
-              "p": [
-                "يرتكز النظام، حسب ACFIT، على أربعة منتجات: Azulene Focus Oil (زيت قائم على الغوايازولين)، وV-SANG Beta-G Infusing Skin Booster، وV-SANG Gel، وV-SANG Cream. ويجمع المتخصص بينها بنسب مختلفة حسب حالة بشرة العميل والمناخ الحالي.",
-                "تصف الشركة هذا صراحةً بأنه \"بروتوكول مزج مرن\" وليس روتيناً ثابتاً خطوة بخطوة: فترتيب المنتجات ونسبها تتغيّر مع المهمة بدلاً من أن تبقى ثابتة للجميع."
-              ]
-            },
-            {
-              "h": "أربعة سيناريوهات تصفها الشركة",
-              "p": [
-                "يسرد تقديم ACFIT أربعة تركيبات نموذجية: تهدئة البشرة المحتقنة، الترطيب والعناية بالحاجز، العناية بالبشرة الجافة الحسّاسة، والعناية بالبشرة الدهنية المعرَّضة للاحتقان في الحر.",
-                "لتهدئة البشرة المحتقنة، تقترح الشركة Azulene Focus Oil مع V-SANG Gel، أو IMMUCA مع V-SANG Gel. للترطيب والعناية بالحاجز — Azulene Focus Oil مع Skin Booster وLacto Care Ampoule. للبشرة الجافة الحسّاسة — Azulene Focus Oil مع Gel وCream. للبشرة الدهنية المعرَّضة للاحتقان — IMMUCA مع Gel أو Cream."
-              ]
-            },
-            {
-              "h": "لماذا يهمّ ذلك المتخصص والعلامة",
-              "p": [
-                "حسب ACFIT، يبسّط هذا النهج إدارة المخزون في غرفة العلاج: بدلاً من خطوط متخصصة كثيرة، يحتفظ المتخصص بمجموعة مُركَّزة ويبني بروتوكولاً لكل عميل وموسم عند الحاجة.",
-                "تصف الشركة أيضاً تكيّفاً مناخياً: في المناخ الحار الرطب، تُوضَع صيغ الخط كخفيفة وغير مسدّدة للمسام، وفي المناخ البارد الجاف تقدّم تركيبات أكثف مع تركيز أكبر على مكوّنات الحاجز."
-              ]
-            },
-            {
-              "h": "أين يمكن التحقق من ذلك",
-              "p": [
-                "حسب ACFIT، تُسلَّم بروتوكولات المزج والتدريب المهني إلى المراكز الشريكة بشكل منفصل وليست وثيقة عامة. الأساس الوقائعي لهذا المقال هو مواد تقديم ACFIT نفسها؛ وتنقل Teranova وصف الشركة دون أن تتحقق بشكل مستقل من التأثير الإكلينيكي."
-              ]
-            }
-          ]
+        "title": "بروتوكول المزج من ACFIT: مطابقة العناية لنوع البشرة والمناخ",
+        "excerpt": "بدلاً من توسيع تشكيلتها، تجمع ACFIT مجموعة صغيرة من المنتجات لحالة بشرة ومناخ محدَّدين — وتسمّي الشركة ذلك بروتوكول مزج المنتجات.",
+        "seoTitle": "بروتوكول مزج ACFIT: العناية حسب نوع البشرة · Teranova",
+        "seoDesc": "كيف يعمل نظام مزج ACFIT: Azulene Focus Oil وSkin Booster وV-SANG Gel وCream تُجمع حسب نوع البشرة والمناخ. معلومات من مصدرها الشركة.",
+        "sections": [
+          {
+            "p": [
+              "تتعامل ACFIT مع مشكلة شائعة في العناية المهنية بالبشرة — مخزون مليء بمنتجات محدودة الوظيفة — بطريقة مختلفة. وحسب الشركة، بدلاً من توسيع التشكيلة مع كل تغيّر موسمي جديد في البشرة، يُجمَع عدد قليل من المنتجات الأساسية في الخط لمعالجة المهمة المطروحة."
+            ]
+          },
+          {
+            "h": "مما يُبنى البروتوكول",
+            "p": [
+              "يرتكز النظام، حسب ACFIT، على أربعة منتجات: Azulene Focus Oil (زيت قائم على الغوايازولين)، وV-SANG Beta-G Infusing Skin Booster، وV-SANG Gel، وV-SANG Cream. ويجمع المتخصص بينها بنسب مختلفة حسب حالة بشرة العميل والمناخ الحالي.",
+              "تصف الشركة هذا صراحةً بأنه \"بروتوكول مزج مرن\" وليس روتيناً ثابتاً خطوة بخطوة: فترتيب المنتجات ونسبها تتغيّر مع المهمة بدلاً من أن تبقى ثابتة للجميع."
+            ]
+          },
+          {
+            "h": "أربعة سيناريوهات تصفها الشركة",
+            "p": [
+              "يسرد تقديم ACFIT أربعة تركيبات نموذجية: تهدئة البشرة المحتقنة، الترطيب والعناية بالحاجز، العناية بالبشرة الجافة الحسّاسة، والعناية بالبشرة الدهنية المعرَّضة للاحتقان في الحر.",
+              "لتهدئة البشرة المحتقنة، تقترح الشركة Azulene Focus Oil مع V-SANG Gel، أو IMMUCA مع V-SANG Gel. للترطيب والعناية بالحاجز — Azulene Focus Oil مع Skin Booster وLacto Care Ampoule. للبشرة الجافة الحسّاسة — Azulene Focus Oil مع Gel وCream. للبشرة الدهنية المعرَّضة للاحتقان — IMMUCA مع Gel أو Cream."
+            ]
+          },
+          {
+            "h": "لماذا يهمّ ذلك المتخصص والعلامة",
+            "p": [
+              "حسب ACFIT، يبسّط هذا النهج إدارة المخزون في غرفة العلاج: بدلاً من خطوط متخصصة كثيرة، يحتفظ المتخصص بمجموعة مُركَّزة ويبني بروتوكولاً لكل عميل وموسم عند الحاجة.",
+              "تصف الشركة أيضاً تكيّفاً مناخياً: في المناخ الحار الرطب، تُوضَع صيغ الخط كخفيفة وغير مسدّدة للمسام، وفي المناخ البارد الجاف تقدّم تركيبات أكثف مع تركيز أكبر على مكوّنات الحاجز."
+            ]
+          },
+          {
+            "h": "أين يمكن التحقق من ذلك",
+            "p": [
+              "حسب ACFIT، تُسلَّم بروتوكولات المزج والتدريب المهني إلى المراكز الشريكة بشكل منفصل وليست وثيقة عامة. الأساس الوقائعي لهذا المقال هو مواد تقديم ACFIT نفسها؛ وتنقل Teranova وصف الشركة دون أن تتحقق بشكل مستقل من التأثير الإكلينيكي."
+            ]
+          }
+        ]
       }
     }
   },
@@ -75382,45 +76471,45 @@
         ]
       },
       "ar": {
-          "title": "ACFIT للمتخصصين: خط المتخصص المدرَّب وحالة التسجيل",
-          "excerpt": "ثلاثة منتجات من ACFIT تُباع فقط للمتخصصين المدرَّبين في مراكز التجميل والعيادات. ما هي، وحالة تسجيل الخط في CPNP/SCPN/MoCRA، وأين تتعامل الشركة فعلاً مع موزّعين.",
-          "seoTitle": "ACFIT: الخط المهني وحالة التسجيل · Teranova",
-          "seoDesc": "ACFIT: 3 منتجات للاستخدام المهني فقط، حالة تسجيل CPNP/SCPN/MoCRA لـ14 منتجاً، الأسواق الحصرية والموزّعون. معلومات من مصدرها الشركة.",
-          "sections": [
-            {
-              "p": [
-                "من بين 14 منتجاً في خط ACFIT، تُباع ثلاثة منتجات فقط للمتخصصين المدرَّبين في مراكز العناية بالبشرة والتجميل والعيادات — وتسمّيها الشركة \"للاستخدام المهني فقط\" وتقيّد بيعها عبر الإنترنت للمستهلك المباشر."
-              ]
-            },
-            {
-              "h": "ماذا يضمّ الخط المهني",
-              "p": [
-                "حسب الشركة، هي: V-SANG Beta-G Secure Solution، أمبول تهدئة مكثّف للبشرة ذات المشاكل؛ وV-SANG Beta-G Freeze-Dried Solution، مركَّز مجمَّد بالتجميد يحتوي فيتامين C ومستخلص نبات العرن (Centella asiatica) وحمض الهيالورونيك والكولاجين؛ وV-SANG Beta-G Blue Peel Solution، أمبول تقشير لتجديد ملمس البشرة.",
-                "تذكر ACFIT أن هذه المنتجات مصمّمة لتُستخدم مع علاجات مهنية — MTS وMCS/SDM وما شابه — ولا تُقصَد للاستخدام المنزلي بمفردها."
-              ]
-            },
-            {
-              "h": "حالة التسجيل الدولي",
-              "p": [
-                "حسب تقديم الشركة، يحمل 13 من أصل 14 منتجاً في الخط تسجيل CPNP (الاتحاد الأوروبي) وSCPN (المملكة المتحدة) وMoCRA (الولايات المتحدة) — الثلاث حالات معاً. والاستثناء هو Lacto Sun Cream Beta-G: فحسب ACFIT، كان تسجيله لا يزال قيد الإجراء عند إعداد المواد.",
-                "الحالة الراهنة لكل منتج وحجم محدَّد مذكورة في بطاقة الكتالوج الخاصة به على صفحة ملف ACFIT؛ وتنقل Teranova بيانات الشركة دون أن تطلب أو تنشر وثائق التسجيل نفسها."
-              ]
-            },
-            {
-              "h": "أين توجد للعلامة موزّعون فعلاً",
-              "p": [
-                "تذكر الشركة في تقديمها تايوان واليابان والصين والولايات المتحدة وكندا كأسواق يملك فيها شركاء محليون حقوقاً حصرية للعلامة، وأوزبكستان وقيرغيزستان وكازاخستان كدول تملك فيها ACFIT موزّعين نشطين فعلاً.",
-                "وهذا يعني أن Teranova لا تعرض صفقات ACFIT في تلك الدول — فشركاء الشركة أنفسهم يغطّون تلك الأسواق. وفي الأسواق الأخرى، حسب ACFIT، يُناقَش سعر التصدير بشكل فردي على أساس FOB."
-              ]
-            },
-            {
-              "h": "ماذا يجب تأكيده قبل الطلب",
-              "p": [
-                "لم تقدّم ACFIT لـ Teranova شروط الدفع أو مدة التصنيع أو الحد الأدنى لكمية الطلب (MOQ) أو التركيب الكامل (INCI) لكل منتج — تناقش الشركة هذه النقاط مباشرة مقابل طلب محدَّد.",
-                "يمكن ترك طلب تعاون، بما في ذلك أسئلة حول التسجيل والخط المهني، عبر صفحة ملف ACFIT؛ وتحيله Teranova إلى الشركة وتدعم المفاوضات التي تليه."
-              ]
-            }
-          ]
+        "title": "ACFIT للمتخصصين: خط المتخصص المدرَّب وحالة التسجيل",
+        "excerpt": "ثلاثة منتجات من ACFIT تُباع فقط للمتخصصين المدرَّبين في مراكز التجميل والعيادات. ما هي، وحالة تسجيل الخط في CPNP/SCPN/MoCRA، وأين تتعامل الشركة فعلاً مع موزّعين.",
+        "seoTitle": "ACFIT: الخط المهني وحالة التسجيل · Teranova",
+        "seoDesc": "ACFIT: 3 منتجات للاستخدام المهني فقط، حالة تسجيل CPNP/SCPN/MoCRA لـ14 منتجاً، الأسواق الحصرية والموزّعون. معلومات من مصدرها الشركة.",
+        "sections": [
+          {
+            "p": [
+              "من بين 14 منتجاً في خط ACFIT، تُباع ثلاثة منتجات فقط للمتخصصين المدرَّبين في مراكز العناية بالبشرة والتجميل والعيادات — وتسمّيها الشركة \"للاستخدام المهني فقط\" وتقيّد بيعها عبر الإنترنت للمستهلك المباشر."
+            ]
+          },
+          {
+            "h": "ماذا يضمّ الخط المهني",
+            "p": [
+              "حسب الشركة، هي: V-SANG Beta-G Secure Solution، أمبول تهدئة مكثّف للبشرة ذات المشاكل؛ وV-SANG Beta-G Freeze-Dried Solution، مركَّز مجمَّد بالتجميد يحتوي فيتامين C ومستخلص نبات العرن (Centella asiatica) وحمض الهيالورونيك والكولاجين؛ وV-SANG Beta-G Blue Peel Solution، أمبول تقشير لتجديد ملمس البشرة.",
+              "تذكر ACFIT أن هذه المنتجات مصمّمة لتُستخدم مع علاجات مهنية — MTS وMCS/SDM وما شابه — ولا تُقصَد للاستخدام المنزلي بمفردها."
+            ]
+          },
+          {
+            "h": "حالة التسجيل الدولي",
+            "p": [
+              "حسب تقديم الشركة، يحمل 13 من أصل 14 منتجاً في الخط تسجيل CPNP (الاتحاد الأوروبي) وSCPN (المملكة المتحدة) وMoCRA (الولايات المتحدة) — الثلاث حالات معاً. والاستثناء هو Lacto Sun Cream Beta-G: فحسب ACFIT، كان تسجيله لا يزال قيد الإجراء عند إعداد المواد.",
+              "الحالة الراهنة لكل منتج وحجم محدَّد مذكورة في بطاقة الكتالوج الخاصة به على صفحة ملف ACFIT؛ وتنقل Teranova بيانات الشركة دون أن تطلب أو تنشر وثائق التسجيل نفسها."
+            ]
+          },
+          {
+            "h": "أين توجد للعلامة موزّعون فعلاً",
+            "p": [
+              "تذكر الشركة في تقديمها تايوان واليابان والصين والولايات المتحدة وكندا كأسواق يملك فيها شركاء محليون حقوقاً حصرية للعلامة، وأوزبكستان وقيرغيزستان وكازاخستان كدول تملك فيها ACFIT موزّعين نشطين فعلاً.",
+              "وهذا يعني أن Teranova لا تعرض صفقات ACFIT في تلك الدول — فشركاء الشركة أنفسهم يغطّون تلك الأسواق. وفي الأسواق الأخرى، حسب ACFIT، يُناقَش سعر التصدير بشكل فردي على أساس FOB."
+            ]
+          },
+          {
+            "h": "ماذا يجب تأكيده قبل الطلب",
+            "p": [
+              "لم تقدّم ACFIT لـ Teranova شروط الدفع أو مدة التصنيع أو الحد الأدنى لكمية الطلب (MOQ) أو التركيب الكامل (INCI) لكل منتج — تناقش الشركة هذه النقاط مباشرة مقابل طلب محدَّد.",
+              "يمكن ترك طلب تعاون، بما في ذلك أسئلة حول التسجيل والخط المهني، عبر صفحة ملف ACFIT؛ وتحيله Teranova إلى الشركة وتدعم المفاوضات التي تليه."
+            ]
+          }
+        ]
       }
     }
   }
