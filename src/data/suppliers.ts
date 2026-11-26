@@ -115,6 +115,7 @@ import joycosEs from './suppliers-i18n/joycos.es.json';
 import joycosPt from './suppliers-i18n/joycos.pt.json';
 import joycosHe from './suppliers-i18n/joycos.he.json';
 import joycosHi from './suppliers-i18n/joycos.hi.json';
+import joycosAr from './suppliers-i18n/joycos.ar.json';
 import joycosCatalog from './suppliers-i18n/joycos.catalog.json';
 import hanscosRu from './suppliers-i18n/hanscos.ru.json';
 import hanscosEn from './suppliers-i18n/hanscos.en.json';
@@ -129,6 +130,7 @@ import hanscosEs from './suppliers-i18n/hanscos.es.json';
 import hanscosPt from './suppliers-i18n/hanscos.pt.json';
 import hanscosHe from './suppliers-i18n/hanscos.he.json';
 import hanscosHi from './suppliers-i18n/hanscos.hi.json';
+import hanscosAr from './suppliers-i18n/hanscos.ar.json';
 import hanscosCatalog from './suppliers-i18n/hanscos.catalog.json';
 import bioptRu from './suppliers-i18n/biopt.ru.json';
 import bioptEn from './suppliers-i18n/biopt.en.json';
@@ -419,6 +421,7 @@ import koyEs from './suppliers-i18n/koy.es.json';
 import koyPt from './suppliers-i18n/koy.pt.json';
 import koyHe from './suppliers-i18n/koy.he.json';
 import koyHi from './suppliers-i18n/koy.hi.json';
+import koyAr from './suppliers-i18n/koy.ar.json';
 import koyCatalog from './suppliers-i18n/koy.catalog.json';
 import jellykoRu from './suppliers-i18n/jellyko.ru.json';
 import jellykoEn from './suppliers-i18n/jellyko.en.json';
@@ -433,6 +436,7 @@ import jellykoEs from './suppliers-i18n/jellyko.es.json';
 import jellykoPt from './suppliers-i18n/jellyko.pt.json';
 import jellykoHe from './suppliers-i18n/jellyko.he.json';
 import jellykoHi from './suppliers-i18n/jellyko.hi.json';
+import jellykoAr from './suppliers-i18n/jellyko.ar.json';
 import jellykoCatalog from './suppliers-i18n/jellyko.catalog.json';
 import jellykoLines from './suppliers-i18n/jellyko.lines.json';
 import cheon365Ru from './suppliers-i18n/cheon365.ru.json';
@@ -565,6 +569,7 @@ import hiyoEs from './suppliers-i18n/hiyo.es.json';
 import hiyoPt from './suppliers-i18n/hiyo.pt.json';
 import hiyoHe from './suppliers-i18n/hiyo.he.json';
 import hiyoHi from './suppliers-i18n/hiyo.hi.json';
+import hiyoAr from './suppliers-i18n/hiyo.ar.json';
 import dachenRu from './suppliers-i18n/dachen.ru.json';
 import dachenEn from './suppliers-i18n/dachen.en.json';
 import dachenKo from './suppliers-i18n/dachen.ko.json';
@@ -808,6 +813,7 @@ import jetsEs from './suppliers-i18n/jetsglobal.es.json';
 import jetsPt from './suppliers-i18n/jetsglobal.pt.json';
 import jetsHe from './suppliers-i18n/jetsglobal.he.json';
 import jetsHi from './suppliers-i18n/jetsglobal.hi.json';
+import jetsAr from './suppliers-i18n/jetsglobal.ar.json';
 import pineRu from './suppliers-i18n/pineworld.ru.json';
 import pineEn from './suppliers-i18n/pineworld.en.json';
 import pineKo from './suppliers-i18n/pineworld.ko.json';
@@ -834,6 +840,7 @@ import kiftEs from './suppliers-i18n/kift.es.json';
 import kiftPt from './suppliers-i18n/kift.pt.json';
 import kiftHe from './suppliers-i18n/kift.he.json';
 import kiftHi from './suppliers-i18n/kift.hi.json';
+import kiftAr from './suppliers-i18n/kift.ar.json';
 import icelmediRu from './suppliers-i18n/icelmedi.ru.json';
 import icelmediEn from './suppliers-i18n/icelmedi.en.json';
 import icelmediKo from './suppliers-i18n/icelmedi.ko.json';
@@ -847,6 +854,7 @@ import icelmediEs from './suppliers-i18n/icelmedi.es.json';
 import icelmediPt from './suppliers-i18n/icelmedi.pt.json';
 import icelmediHe from './suppliers-i18n/icelmedi.he.json';
 import icelmediHi from './suppliers-i18n/icelmedi.hi.json';
+import icelmediAr from './suppliers-i18n/icelmedi.ar.json';
 import tdlRu from './suppliers-i18n/three-days-love.ru.json';
 import tdlEn from './suppliers-i18n/three-days-love.en.json';
 import tdlKo from './suppliers-i18n/three-days-love.ko.json';
@@ -1787,7 +1795,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(jetsFr as any),
       tr: mk(jetsTr as any),
       es: mk(jetsEs as any),
-      pt: mk(jetsPt as any), he: mk(jetsHe as any), hi: mk(jetsHi as any),
+      pt: mk(jetsPt as any), he: mk(jetsHe as any), hi: mk(jetsHi as any), ar: mk(jetsAr as any),
     },
   },
   {
@@ -1898,7 +1906,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(kiftFr as any),
       tr: mk(kiftTr as any),
       es: mk(kiftEs as any),
-      pt: mk(kiftPt as any), he: mk(kiftHe as any), hi: mk(kiftHi as any),
+      pt: mk(kiftPt as any), he: mk(kiftHe as any), hi: mk(kiftHi as any), ar: mk(kiftAr as any),
     },
   },
   {
@@ -1931,7 +1939,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(icelmediFr as any),
       tr: mk(icelmediTr as any),
       es: mk(icelmediEs as any),
-      pt: mk(icelmediPt as any), he: mk(icelmediHe as any), hi: mk(icelmediHi as any),
+      pt: mk(icelmediPt as any), he: mk(icelmediHe as any), hi: mk(icelmediHi as any), ar: mk(icelmediAr as any),
     },
   },
   {
@@ -2262,7 +2270,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(hanscosFr as any),
       tr: mk(hanscosTr as any),
       es: mk(hanscosEs as any),
-      pt: mk(hanscosPt as any), he: mk(hanscosHe as any), hi: mk(hanscosHi as any),
+      pt: mk(hanscosPt as any), he: mk(hanscosHe as any), hi: mk(hanscosHi as any), ar: mk(hanscosAr as any),
     },
   },
 {
@@ -2406,7 +2414,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(joycosFr as any),
       tr: mk(joycosTr as any),
       es: mk(joycosEs as any),
-      pt: mk(joycosPt as any), he: mk(joycosHe as any), hi: mk(joycosHi as any),
+      pt: mk(joycosPt as any), he: mk(joycosHe as any), hi: mk(joycosHi as any), ar: mk(joycosAr as any),
     },
   },
 {
@@ -3254,7 +3262,7 @@ export const suppliers: SupplierProfile[] = [
        MOQ, certificates and contacts are intentionally absent.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/09_HIYO.md. */
     i18n: {
-      ru: mk(hiyoRu as any), en: mk(hiyoEn as any), ko: mk(hiyoKo as any), zh: mk(hiyoZh as any), ja: mk(hiyoJa as any), it: mk(hiyoIt as any), de: mk(hiyoDe as any), fr: mk(hiyoFr as any), tr: mk(hiyoTr as any), es: mk(hiyoEs as any), pt: mk(hiyoPt as any), he: mk(hiyoHe as any), hi: mk(hiyoHi as any),
+      ru: mk(hiyoRu as any), en: mk(hiyoEn as any), ko: mk(hiyoKo as any), zh: mk(hiyoZh as any), ja: mk(hiyoJa as any), it: mk(hiyoIt as any), de: mk(hiyoDe as any), fr: mk(hiyoFr as any), tr: mk(hiyoTr as any), es: mk(hiyoEs as any), pt: mk(hiyoPt as any), he: mk(hiyoHe as any), hi: mk(hiyoHi as any), ar: mk(hiyoAr as any),
     },
   },
   {
@@ -3490,7 +3498,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/koy-catalog-ru.pdf', en: '/docs/koy-catalog-en.pdf', ko: '/docs/koy-catalog-ko.pdf', zh: '/docs/koy-catalog-zh.pdf', ja: '/docs/koy-catalog-ja.pdf', it: '/docs/koy-catalog-it.pdf', de: '/docs/koy-catalog-de.pdf', fr: '/docs/koy-catalog-fr.pdf', tr: '/docs/koy-catalog-tr.pdf', es: '/docs/koy-catalog-es.pdf', pt: '/docs/koy-catalog-pt.pdf' },
     presFile: { ru: '/docs/koy-presentation-ru.pdf', en: '/docs/koy-presentation-en.pdf', ko: '/docs/koy-presentation-ko.pdf', zh: '/docs/koy-presentation-zh.pdf', ja: '/docs/koy-presentation-ja.pdf', it: '/docs/koy-presentation-it.pdf', de: '/docs/koy-presentation-de.pdf', fr: '/docs/koy-presentation-fr.pdf', tr: '/docs/koy-presentation-tr.pdf', es: '/docs/koy-presentation-es.pdf', pt: '/docs/koy-presentation-pt.pdf' },
     i18n: {
-      ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any),
+      ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any), ar: mk(koyAr as any),
     },
   },
   {
@@ -3548,7 +3556,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(jellykoFr as any),
       tr: mk(jellykoTr as any),
       es: mk(jellykoEs as any),
-      pt: mk(jellykoPt as any), he: mk(jellykoHe as any), hi: mk(jellykoHi as any),
+      pt: mk(jellykoPt as any), he: mk(jellykoHe as any), hi: mk(jellykoHi as any), ar: mk(jellykoAr as any),
     },
   },
   {
