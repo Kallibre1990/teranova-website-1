@@ -1,0 +1,89 @@
+{
+  "content": {
+    "tagline": "韩国护肤品牌, 已确认目录产品132款.",
+    "descriptor": "Two Tigers Corp（韩国）：Wati for Skin主打微针与PDRN护肤。",
+    "origin": "韩国",
+    "about": [
+      "Wati for Skin 是我们 Two Tigers Corp 旗下的护肤品牌。我们的目录收录132款产品，包括精华液、面霜、安瓶、面膜、眼部和唇部护理、清洁、防晒、身体及头发护理产品。"
+    ],
+    "facts": [
+      "品牌：Wati for Skin（Two Tigers Corp，韩国）",
+      "已确认目录产品132款",
+      "Micro Spicule · Volufroshot · PDRN-Exosome"
+    ],
+    "channels": [
+      "韩国护肤品进口商与经销商",
+      "零售连锁、药妆店与电商平台",
+      "专营韩国护肤品的网店"
+    ],
+    "lines": [
+      {
+        "name": "Micro Spicule 100 Essence",
+        "note": "12款精华液，每款30 ml。"
+      },
+      {
+        "name": "Volufroshot 与 Micro Spicule Cream",
+        "note": "6款Micro Spicule面霜和6款Volufroshot面霜，每款50 ml；6款Volufroshot安瓶，每款30 ml。"
+      },
+      {
+        "name": "Exosome-B Ampoule",
+        "note": "6款安瓶，每款30 ml。"
+      },
+      {
+        "name": "眼部护理",
+        "note": "12款眼部护理产品。"
+      },
+      {
+        "name": "Mask Pack",
+        "note": "10款面膜产品。"
+      },
+      {
+        "name": "唇部护理",
+        "note": "6款唇部护理产品，每款20 ml。"
+      },
+      {
+        "name": "身体、头发与手部护理",
+        "note": "2款头发护理产品、4款身体乳和沐浴产品，以及4款手足霜。"
+      }
+    ],
+    "formats": [
+      "精华与血清",
+      "面霜",
+      "安瓶",
+      "眼部护理",
+      "面膜与棉片",
+      "唇部护理",
+      "化妆水",
+      "洁面",
+      "防晒",
+      "身体与头发护理"
+    ],
+    "exportNote": "询价提供；无公开价目表。",
+    "consentNote": "产品特性信息由公司提供。",
+    "seoTitle": "Wati for Skin — 韩国护肤 (Two Tigers Corp) · Teranova",
+    "seoDesc": "Two Tigers Corp档案：Two Tigers Corp（韩国）：Wati for Skin主打微针与PDRN护肤。 已确认目录产品132款. 通过Teranova进行B2B采购。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}

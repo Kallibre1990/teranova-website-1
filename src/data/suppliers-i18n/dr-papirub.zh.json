@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "韩国护肤品牌，已确认目录产品7款。",
+    "descriptor": "Two Tigers Corp（韩国）：Dr.Papirub主打PDRN与外泌体护理。",
+    "origin": "韩国",
+    "about": [
+      "Dr.Papirub是我们Two Tigers Corp旗下的品牌。我们的目录包含七款产品：六款面部及颈部护理产品和一款香水。"
+    ],
+    "facts": [
+      "品牌：Dr.Papirub（Two Tigers Corp，韩国）",
+      "已确认目录产品7款：6款面部与颈部护理产品及1款香水"
+    ],
+    "channels": [
+      "韩国护肤品进口商与经销商",
+      "零售连锁、药妆店与电商平台",
+      "专营韩国护肤品的网店"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub 护肤",
+        "note": "6款面部与颈部护理产品。"
+      },
+      {
+        "name": "Dr.Papirub 香水",
+        "note": "1款香水，Woody & Forest Eau de Parfum，50毫升。"
+      }
+    ],
+    "formats": [
+      "面部与颈部护理",
+      "香水"
+    ],
+    "exportNote": "询价提供；无公开价目表。",
+    "consentNote": "产品特性信息由公司提供。",
+    "seoTitle": "Dr.Papirub — 韩国护肤 (Two Tigers Corp) · Teranova",
+    "seoDesc": "Dr.Papirub目录包含6款面部及颈部护理产品和1款香水。通过Teranova进行B2B采购。"
+  },
+  "ui": {
+    "profile_sup": "供应商档案",
+    "about_h": "公司简介",
+    "for_whom": "适合对象：",
+    "lines_h": "产品线",
+    "catalog_h": "产品目录",
+    "tech_h": "技术",
+    "formats_h": "产品形态",
+    "export_h": "出口与市场",
+    "terms_h": "合作条件",
+    "download_btn": "下载合作条件（PDF）",
+    "pres_btn": "下载品牌介绍（PDF）",
+    "terms_disc": "询价提供；无公开价目表。",
+    "cta_h": "对这家供应商感兴趣？",
+    "cta_d": "请与我们联系 — Teranova 负责谈判、核查以及从首次接触到交付的整个交易流程。",
+    "cta_btn": "通过 Teranova 联系",
+    "more": "查看档案 →",
+    "verified_suppliers": "已核实供应商",
+    "certs_h": "认证",
+    "certs_note": "",
+    "products_h": "产品",
+    "products_note": ""
+  }
+}

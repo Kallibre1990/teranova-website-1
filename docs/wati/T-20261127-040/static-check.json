@@ -1,0 +1,100 @@
+{
+  "products": 132,
+  "groups": 27,
+  "verified_images": 132,
+  "source_sha256": "128ed561c1605a92eea0d5e9429281580ee077c3587cfa705fdac7fe402bd99b",
+  "pages": [
+    {
+      "lang": "ru",
+      "path": "/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "en",
+      "path": "/en/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/en/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "ko",
+      "path": "/ko/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/ko/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "zh",
+      "path": "/zh/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/zh/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "ja",
+      "path": "/ja/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/ja/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "it",
+      "path": "/it/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/it/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "de",
+      "path": "/de/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/de/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "fr",
+      "path": "/fr/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/fr/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "tr",
+      "path": "/tr/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/tr/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "es",
+      "path": "/es/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/es/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "pt",
+      "path": "/pt/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/pt/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "he",
+      "path": "/he/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/he/catalog/wati-for-skin/",
+      "alternates": 14
+    },
+    {
+      "lang": "hi",
+      "path": "/hi/catalog/wati-for-skin/",
+      "cards": 132,
+      "canonical": "https://teranovagroup.com/hi/catalog/wati-for-skin/",
+      "alternates": 14
+    }
+  ],
+  "layout": "not measured; browser sandbox denies Chromium launch"
+}
