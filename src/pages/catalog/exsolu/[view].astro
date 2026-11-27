@@ -1,0 +1,8 @@
+---
+import ExsoluPage from '../../../components/pages/ExsoluPage.astro';
+export function getStaticPaths() {
+  return ['skin-boosters', 'skincare'].map(view => ({ params: { view }, props: { view } }));
+}
+const { view } = Astro.props;
+---
+<ExsoluPage lang="ru" view={view} />

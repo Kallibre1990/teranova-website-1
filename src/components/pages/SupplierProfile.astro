@@ -171,7 +171,9 @@ const ruLines = supplierContent(profile, 'ru').lines ?? [];
 /* ABELTY's page goes to the brand itself for review — the big H1 should read
    the brand they recognise (ABELTY), with the manufacturing legal entity kept
    as a fact lower down (already in c.facts[0]), not the other way around. */
-const h1Name = profile.slug === 'abelty' ? profile.brand : profile.name;
+// Separate brand routes keep the legal owner in their about/facts and JSON-LD.
+const h1Name = ['abelty', 'wati-for-skin', 'dr-papirub'].includes(profile.slug)
+  ? profile.brand : profile.name;
 
 const brandStyle = `--ds-deep:${profile.brandColors.deep};--ds-sky:${profile.brandColors.sky};--ds-accent:${profile.brandColors.accent};--ds-bg:${profile.brandColors.bg};`;
 /* The brand's own manner on top of our layout — motif, shapes, serif headings. */

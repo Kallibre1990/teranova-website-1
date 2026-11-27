@@ -1,0 +1,373 @@
+{
+  "task": "T-20261126-025",
+  "images": [
+    {
+      "product": "pcl",
+      "file": "/images/exsolu/pcl.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 2,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        110,
+        515,
+        515,
+        715
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "9f28596dba330ad95ca0bc5b4c3314d0b184f915e180a5d8a65e582adb7304b6",
+      "bytes": 103424
+    },
+    {
+      "product": "dplla",
+      "file": "/images/exsolu/dplla.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 2,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        110,
+        1360,
+        515,
+        710
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "313dbb0b8ac35e4e8543d75cfb93a4e88fc048a9ef28b5b01f05606216ee3cb3",
+      "bytes": 106632
+    },
+    {
+      "product": "daemu",
+      "file": "/images/exsolu/daemu.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 3,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        110,
+        500,
+        430,
+        470
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "7298e626c67356bc5b25cdcc1313b96cb582ac160e5f587218e5fedccfb532ca",
+      "bytes": 81699
+    },
+    {
+      "product": "yuri",
+      "file": "/images/exsolu/yuri.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 3,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        110,
+        1065,
+        430,
+        470
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "8e9b5eeebd3e2af2d9312a2b5c383f928cb0590cb6ad9601452dad69151342e9",
+      "bytes": 79812
+    },
+    {
+      "product": "pp",
+      "file": "/images/exsolu/pp.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 3,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        110,
+        1630,
+        430,
+        470
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "a5186f0b7f9dab14c4f5d93614d5d6cf83d095c3fd01f19b41fd4bfbd48ee72a",
+      "bytes": 66180
+    },
+    {
+      "product": "boost-solution",
+      "file": "/images/exsolu/boost-solution.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 4,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        105,
+        485,
+        315,
+        275
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "a8e627ac830cbee41e3f06e0cf62053ae77421668803c4eb0107d96b4f023d2a",
+      "bytes": 37189
+    },
+    {
+      "product": "hydro-white",
+      "file": "/images/exsolu/hydro-white.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 4,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        105,
+        835,
+        315,
+        275
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "2bdd4e20d13ab872253324827f4779291ba92ec809f67b419f8c2fb80a4668cf",
+      "bytes": 38452
+    },
+    {
+      "product": "exo-plus",
+      "file": "/images/exsolu/exo-plus.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 4,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        105,
+        1185,
+        315,
+        275
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "42f5753d2eb0acebf0763bfbb8087d1b4711c63d6fdbe5b8bfaeea301d44339a",
+      "bytes": 33658
+    },
+    {
+      "product": "exobene-s",
+      "file": "/images/exsolu/exobene-s.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 4,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        105,
+        1535,
+        315,
+        275
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "70b599ab51a1626f19f9121b6a2ceb3674fbfe62a202889aa00d58ec23eec25f",
+      "bytes": 35794
+    },
+    {
+      "product": "exobene-h",
+      "file": "/images/exsolu/exobene-h.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 4,
+      "method": "native-pdf-page-clip",
+      "page_width": 1800,
+      "clip": [
+        105,
+        1885,
+        315,
+        275
+      ],
+      "quality_note": "Manufacturer page image; no retouching.",
+      "sha256": "b01e77b7e637120c69f50f845bff4ac7c333be4eeb4aeb3ecb3cf9464708728f",
+      "bytes": 35846
+    },
+    {
+      "product": "sosu",
+      "file": "/images/exsolu/sosu.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        248,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "abfccf0043253eb99a578138c395a2bba4e1a246a2a4be5dda4225f5b59ea18e",
+      "bytes": 13351
+    },
+    {
+      "product": "samshin",
+      "file": "/images/exsolu/samshin.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        412,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "b7bc9cb44db2d26bf0b6c0cd740285cdc092c2bfc4acf3446598cfa8ef485270",
+      "bytes": 12217
+    },
+    {
+      "product": "nopa",
+      "file": "/images/exsolu/nopa.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        576,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "8b63c155c299b221ac87643b082a12b5c4098fda13832b1d8adc35c3779618a3",
+      "bytes": 12814
+    },
+    {
+      "product": "dangun-s",
+      "file": "/images/exsolu/dangun-s.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        740,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "a68f9b6fd27bf85c7fa08dff91b53f3e9d93033579203b512f6db03e1cdaf951",
+      "bytes": 12627
+    },
+    {
+      "product": "dangun-ss",
+      "file": "/images/exsolu/dangun-ss.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        904,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "008bb35228e16f2a8e7545e326845ddb20e593a85a330b26cbe19454f53ec4e3",
+      "bytes": 13673
+    },
+    {
+      "product": "dangun-sm",
+      "file": "/images/exsolu/dangun-sm.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        1068,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "4c7f6e71dfe9f334b91568ac52313306c095b8456990a2abd5c926e670eb4670",
+      "bytes": 12927
+    },
+    {
+      "product": "nad-air-shot",
+      "file": "/images/exsolu/nad-air-shot.png",
+      "source": "_MAIL_CRM/contacts/sales-novamed-gmail-com/files/EXSOLU MESO-COSMETICS FULL LEAFLET_FIN.pdf",
+      "source_sha256": "9748b262e89403849adef734a9381a19639a2c8fafaece69ccf25bc7bbef9d11",
+      "page": 5,
+      "method": "native-pdf-page-clip",
+      "page_width": 1055,
+      "clip": [
+        60,
+        1232,
+        155,
+        140
+      ],
+      "quality_note": "Small source image; do not enlarge beyond native size.",
+      "sha256": "ecab1f2663af0a4fd54df4a6e4eabaa463907445da9eef10b42f377214127f7d",
+      "bytes": 13778
+    },
+    {
+      "product": "s0",
+      "file": "/images/exsolu/s0.png",
+      "source": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_KR_SKINCARE ②.pdf",
+      "source_sha256": "b5bbd2c3d553a78359ac0712e89b82940b139227e84caeba5d930909dcf71185",
+      "page": 2,
+      "method": "embedded-image-extraction",
+      "pdf_object_id": 1013,
+      "quality_note": "Original image, Poppler CMYK-to-RGB conversion; no crop or retouching.",
+      "sha256": "98adefad3bd81f7ab0ae9559043f507931ea4c67b4bebc0d17b4447488c0ab5e",
+      "bytes": 796672
+    },
+    {
+      "product": "s1",
+      "file": "/images/exsolu/s1.png",
+      "source": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_KR_SKINCARE ②.pdf",
+      "source_sha256": "b5bbd2c3d553a78359ac0712e89b82940b139227e84caeba5d930909dcf71185",
+      "page": 2,
+      "method": "embedded-image-extraction",
+      "pdf_object_id": 1012,
+      "quality_note": "Original image, Poppler CMYK-to-RGB conversion; no crop or retouching.",
+      "sha256": "0dc9f80672b73539cd46f0a0235c382f26cb17b359f52f49ba45ba595c595e92",
+      "bytes": 988161
+    },
+    {
+      "product": "s2",
+      "file": "/images/exsolu/s2.png",
+      "source": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_KR_SKINCARE ②.pdf",
+      "source_sha256": "b5bbd2c3d553a78359ac0712e89b82940b139227e84caeba5d930909dcf71185",
+      "page": 3,
+      "method": "embedded-image-extraction",
+      "pdf_object_id": 1018,
+      "quality_note": "Original image, Poppler CMYK-to-RGB conversion; no crop or retouching.",
+      "sha256": "8ceb7c33656bd9a2153f11f665b3f13c03c4d52fd9937571fe6c63619d93a6ec",
+      "bytes": 824165
+    },
+    {
+      "product": "s3",
+      "file": "/images/exsolu/s3.png",
+      "source": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_KR_SKINCARE ②.pdf",
+      "source_sha256": "b5bbd2c3d553a78359ac0712e89b82940b139227e84caeba5d930909dcf71185",
+      "page": 3,
+      "method": "embedded-image-extraction",
+      "pdf_object_id": 1019,
+      "quality_note": "Original image, Poppler CMYK-to-RGB conversion; no crop or retouching.",
+      "sha256": "e11abdd0a4d01dccb10585e7b0bdb2e37a99d9ea26462819ce5396888e3eabe4",
+      "bytes": 454123
+    },
+    {
+      "product": "s4",
+      "file": "/images/exsolu/s4.png",
+      "source": "_MAIL_CRM/contacts/novamed-nana-gmail-com/files/NOVAMEDINTL_KR_SKINCARE ②.pdf",
+      "source_sha256": "b5bbd2c3d553a78359ac0712e89b82940b139227e84caeba5d930909dcf71185",
+      "page": 4,
+      "method": "embedded-image-extraction",
+      "pdf_object_id": 1023,
+      "quality_note": "Original image, Poppler CMYK-to-RGB conversion; no crop or retouching.",
+      "sha256": "90a00a355ad307d36a95fa32c4f0e739a4cdc4998e1ad7935bf905b9b02d2419",
+      "bytes": 908892
+    }
+  ],
+  "status": "prepared; visual review required before stage 2 completion",
+  "restrictions": "No prices, no commercial PDFs; no AI reconstruction or product distortion."
+}

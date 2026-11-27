@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "Koreli cilt bakım markası, 7 doğrulanmış katalog ürünü.",
+    "descriptor": "PDRN-eksozom bakımlı Dr.Papirub.",
+    "origin": "Kore",
+    "about": [
+      "Dr.Papirub, Two Tigers Corp bünyesindeki markamızdır. Kataloğumuzda yüz ve boyun bakımı için altı ürün ve bir parfüm olmak üzere yedi ürün bulunur."
+    ],
+    "facts": [
+      "Marka: Dr.Papirub (Two Tigers Corp, Kore)",
+      "7 doğrulanmış katalog ürünü: yüz ve boyun için 6 ürün ve 1 parfüm"
+    ],
+    "channels": [
+      "Kore cilt bakımı ithalatçıları ve distribütörleri",
+      "Perakende zincirleri, eczaneler ve pazaryerleri",
+      "Kore cilt bakımına özel online mağazalar"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub Cilt bakımı",
+        "note": "Yüz ve boyun için 6 ürün."
+      },
+      {
+        "name": "Dr.Papirub Parfüm",
+        "note": "1 parfüm, Woody & Forest Eau de Parfum, 50 ml."
+      }
+    ],
+    "formats": [
+      "Yüz ve boyun bakımı",
+      "Parfüm"
+    ],
+    "exportNote": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "consentNote": "Ürün özellikleri şirketin beyanına dayanmaktadır.",
+    "seoTitle": "Dr.Papirub — Kore cilt bakımı (Two Tigers Corp) · Teranova",
+    "seoDesc": "Two Tigers Corp profili: PDRN-eksozom bakımlı Dr.Papirub. 7 doğrulanmış katalog ürünü. Teranova üzerinden B2B tedarik."
+  },
+  "ui": {
+    "profile_sup": "Tedarikçi profili",
+    "about_h": "Şirket hakkında",
+    "for_whom": "Kimlere uygun:",
+    "lines_h": "Ürün hatları",
+    "catalog_h": "Ürün kataloğu",
+    "tech_h": "Teknoloji",
+    "formats_h": "Ürün formatları",
+    "export_h": "İhracat ve pazarlar",
+    "terms_h": "İş birliği koşulları",
+    "download_btn": "Koşulları indir (PDF)",
+    "pres_btn": "Sunumu indir (PDF)",
+    "terms_disc": "Talep üzerine; herkese açık fiyat listesi yoktur.",
+    "cta_h": "Bu tedarikçi ilginizi çekti mi?",
+    "cta_d": "Bize yazın — Teranova ilk temastan teslimata kadar görüşmeyi, kontrolleri ve tüm işlemi düzenler.",
+    "cta_btn": "Teranova üzerinden iletişime geçin",
+    "more": "Profili aç →",
+    "verified_suppliers": "Doğrulanmış tedarikçiler",
+    "certs_h": "Sertifikalar",
+    "certs_note": "",
+    "products_h": "Ürünler",
+    "products_note": ""
+  }
+}

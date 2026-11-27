@@ -101,7 +101,7 @@
     "seoTitle": "SLOW LOUNGE — Kore yapımı el, vücut ve dudak bakımı · Teranova",
     "seoDesc": "TeamPass markası SLOW LOUNGE: çantanın dışında taşınan zincirli Kore el balmı, Stressfree, Waterdrop ve Sun Off serileri, vücut ve dudak bakımı.",
     "catalog_notes": [
-      "Balm for Hand, Stressfree — işte o anahtarlık balmı: kilit ve zincir sayesinde çantanın dışında taşınıyor. Yoğun balm dokusu, içinde yüzde 3 B-Circadin™, NAD+, NMN, adenozin ve niasinamid. Şirket yedi parametrede klinik test bildiriyor.",
+      "Balm for Hand, Stressfree — işte o anahtarlık balmı: kilit ve zincir sayesinde çantanın dışında taşınıyor. Yoğun balm dokusu, içinde yüzde 3 B-Circadin™, NAD+, NMN, adenozin ve niasinamid. Şirket yedi parametrede klinik test bildiriyor. Şirket ayrıca Balm for Hand'in yaşlanma karşıtı etkisine dair bir klinik test raporuna da sahip; bu rapor yayımlanmıyor, talep üzerine alıcılara iletiliyor.",
       "Balm for Body, Stressfree — aynı patentli bileşenle yapılmış vücut balmı. Şirket kokuyu aromatik odunsu olarak tanımlıyor.",
       "Wash for Body, Stressfree — aynı serinin duş jeli, jelden köpüğe geçiyor. Koku, balmda olduğu gibi aromatik odunsu.",
       "Balm for Hand, Waterdrop — nemlendirici serinin anahtarlık balmı. Doku, sürüldüğünde suya dönüşen jöle olarak anlatılıyor; içinde İtalyan termal suyu, beş seramit ve nem kapsülleri var.",
@@ -109,7 +109,8 @@
       "Wash for Body, Waterdrop — Waterdrop serisinin duş jeli, jelden köpüğe geçiyor. Koku suda müge.",
       "Balm for Hand, Sun Off — SPF 15 PA++ günlük güneş korumalı anahtarlık balmı. İçinde UMF 20+ Yeni Zelanda manuka balı ve B-Circadin™ var.",
       "Balm for Lip, Sun Off — SPF 10 PA++ kare dudak balmı. Şirket bunu plaj ürünü olarak değil, günlük dudak koruması olarak konumluyor.",
-      "Balm for Lip, Nude — kare kavanozda renkli balm: doğal renk ve bakım bir arada. Markanın telefon tutucusuyla birlikte sunduğu biçim budur."
+      "Balm for Lip, Nude — kare kavanozda renkli balm: doğal renk ve bakım bir arada. Markanın telefon tutucusuyla birlikte sunduğu biçim budur.",
+      "Balm for Lip, Phone grip — aynı kare dudak balmı, telefon tutucuyla birlikte. Şirket balmın telefona sabit kalması için bu kombinasyonu öneriyor."
     ]
   },
   "ui": {
@@ -133,7 +134,7 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Bildirilen işaretler",
-    "certs_note": "Vegan sertifikası belgeyle doğrulanmıştır: Korea Agency of Vegan Certification and Services, numara C 1221-001, 12 Ocak 2026 – 11 Ocak 2028 arası geçerli, TeamPass Co., Ltd. adına. Sertifikada tek bir ürün adı geçiyor — Balm for Hand — ve serinin geri kalanına kendiliğinden uzanmıyor. EWG Green puanı ve dermatolojik test şirketin beyanıdır; kopyalar işlem aşamasında verilir.",
+    "certs_note": "Vegan sertifikası beş ürün için belgeyle doğrulanmıştır: Balm for Hand (Stressfree ve Waterdrop), Balm for Body ve Wash for Body (Waterdrop), ve Balm for Lip (Nude). Sun Off serisi bu sertifikaya dahil değildir — içeriğindeki manuka balı nedeniyle. EWG Green puanı ve dermatolojik test şirketin beyanıdır; kopyalar işlem aşamasında verilir.",
     "gallery_h": "Nasıl taşınıyor",
     "gallery_note": "Ürün fotoğrafları TeamPass tarafından sağlandı. Anahtarlık biçiminin ne işe yaradığını gösteriyorlar: balm çantanın dibinde kalmak yerine kulaklık ve gözlüğün yanında asılı duruyor. Bunlar şirketin kendi materyalleri, bizim fabrika ziyaretimiz değil: tedarikçi durumu «Bilgi şirket tarafından sağlandı»."
   }

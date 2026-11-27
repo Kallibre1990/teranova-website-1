@@ -1,7 +1,7 @@
 import { build } from 'esbuild';
 import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
-import { publicLocaleCodes } from '../src/i18n/locale-policy.mjs';
+import { publicLocaleCodes, pageLocaleCodes } from '../src/i18n/locale-policy.mjs';
 import { parity, hasErrors } from './locale-coverage.mjs';
 import { catalogCopyIssues } from './catalog-copy-coverage.mjs';
 
@@ -29,7 +29,9 @@ for (const lang of ['he', 'hi']) {
   const content = [
     ...suppliers.map((entry) => ({ path: `/catalog/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
     ...lines.map((entry) => ({ path: `/catalog/${entry.supplierSlug}/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
-    ...data.posts.map((entry) => ({ path: `/blog/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
+    ...data.posts
+      .filter((entry) => pageLocaleCodes(`/blog/${entry.slug}`).includes(lang))
+      .map((entry) => ({ path: `/blog/${entry.slug}/`, ...parity(entry.i18n.ru, entry.i18n[lang]) })),
     { path: '/solar-care/', ...parity(data.solarCopy.ru, data.solarCopy[lang]) },
   ];
   const missingPages = content.filter(hasErrors);

@@ -300,6 +300,7 @@ export const ru = {
       related_h: "Читайте также",
       supplier_articles_h: "Полезные статьи",
       uses_h: "Где это применяется",
+      sources_h: "Источники",
     },
     catalog: {
       title: 'Каталог направлений',

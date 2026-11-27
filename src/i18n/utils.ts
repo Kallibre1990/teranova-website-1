@@ -1,5 +1,5 @@
 import { defaultLang, homeDefaultLang, languages, verifiedLocales, ui, type Lang } from './ui';
-import { localizedPath } from './locale-policy.mjs';
+import { localizedPath, pageLocaleCodes } from './locale-policy.mjs';
 
 export const locales = Object.keys(languages) as Lang[];
 
@@ -75,7 +75,7 @@ export function primaryNav(lang: Lang) {
 
 /** hreflang alternates — one per indexed locale (all locales are indexed). */
 export function getAlternates(path: string) {
-  return verifiedLocales.map((l) => ({ hreflang: l, href: localizePath(path, l) }));
+  return verifiedLocales.filter(l => pageLocaleCodes(path).includes(l)).map((l) => ({ hreflang: l, href: localizePath(path, l) }));
 }
 
 /**

@@ -1,0 +1,59 @@
+{
+  "_note": "T-20261126-026 stage 1/2. Independent sources for the three EXSOLU blog articles, found by web search 26.11.2026. These support general ingredient/regulatory background, not claims about any specific EXSOLU product's efficacy. Producer facts are cited separately to source-manifest.json / products.json page numbers or to the already-reviewed public copy in src/data/exsolu.ts (accepted in T-20261126-025).",
+  "independent_sources": [
+    {
+      "id": "pdrn-pharmaceutics-2025",
+      "title": "Pharmaceutics (2025) — PDRN vs PN review, dermatology applications",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12388916/",
+      "used_for": "PDRN is a DNA-fragment ingredient (traditionally salmon-derived); dermatology research base; used in exsolu-skincare-pdrn-chitosan-ginseng"
+    },
+    {
+      "id": "pdrn-applied-sciences-2025",
+      "title": "Applied Sciences (2025) — PDRN clinical/pharmacological review (in vitro, animal, human)",
+      "url": "https://mdpi.com/2076-3417/15/19/10437",
+      "used_for": "Scope of PDRN evidence; used in exsolu-skincare-pdrn-chitosan-ginseng to note most robust evidence is injectable/clinic use, topical/skincare evidence is less established"
+    },
+    {
+      "id": "chitosan-molecules-2023",
+      "title": "Kulka & Sionkowska — \"Chitosan Based Materials in Cosmetic Applications: A Review\" (Molecules)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9959028/",
+      "used_for": "Chitosan as humectant/moisturizer/film-forming polymer in cosmetics; used in exsolu-skincare-pdrn-chitosan-ginseng for S0 mask"
+    },
+    {
+      "id": "ginseng-skin-disorders-review",
+      "title": "Systematic review of ginsenosides and skin disorders (antioxidant/anti-aging, PPD vs PPT subtypes)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10499590",
+      "used_for": "Ginsenoside antioxidant/anti-melanogenic activity; used in exsolu-skincare-pdrn-chitosan-ginseng for S2 ginseng serum"
+    },
+    {
+      "id": "ginseng-whitening-mdpi-2022",
+      "title": "MDPI Molecules (2022) — red ginseng by-products antioxidant/whitening in vitro study",
+      "url": "https://www.mdpi.com/1420-3049/27/23/8202",
+      "used_for": "In-vitro antioxidant/whitening evidence for ginseng extracts; used in exsolu-skincare-pdrn-chitosan-ginseng"
+    },
+    {
+      "id": "exosomes-dermatology-review-2025",
+      "title": "International Journal of Dermatology (2025) — \"Exosomes in Dermatology: A Comprehensive Review of Current Applications, Clinical Evidence, and Future Directions\"",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40533901/",
+      "used_for": "Mechanistic promise of exosomes across dermatology; used in exsolu-exosomes-extracellular-vesicles-cosmetics"
+    },
+    {
+      "id": "exosomes-cosmetics-systematic-review-2025",
+      "title": "Villarreal-Gómez et al. (2025) — systematic review, exosomes in cosmetics (Cosmetics journal)",
+      "url": "https://www.mdpi.com/2079-9284/12/1/9/html",
+      "used_for": "Lack of clinical validation/standardization for cosmetic exosome products; growing interest in plant-derived vesicles; used in exsolu-exosomes-extracellular-vesicles-cosmetics to frame honestly and to connect to broccoli-derived EVs in S3/S4"
+    },
+    {
+      "id": "mfds-skin-booster-oversight-2026",
+      "title": "The Korea Economic Daily / sedaily — \"Government to Tighten Oversight of Human Tissue-Based Skin Boosters\" (29.03.2026)",
+      "url": "https://en.sedaily.com/news/2026/03/29/government-to-tighten-oversight-of-human-tissue-based-skin",
+      "used_for": "Korean regulatory context distinguishing medical devices / human-tissue products from cosmetics; used in exsolu-novamedintl-company-profile to explain why the professional line stays cosmetic-only"
+    },
+    {
+      "id": "mfds-official",
+      "title": "Ministry of Food and Drug Safety (Korea), official English portal",
+      "url": "https://www.mfds.go.kr/eng/index.do",
+      "used_for": "Named as the regulator in exsolu-novamedintl-company-profile; no specific claim attributed beyond being the relevant authority"
+    }
+  ]
+}

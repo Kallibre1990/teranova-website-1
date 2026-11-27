@@ -3,6 +3,7 @@ import { localizePath } from '../i18n/utils';
 import { ui, type Lang } from '../i18n/ui';
 import { supplierContent, linePageContent, supplierBySlug, type SupplierProfile, type SupplierLinePage } from './suppliers';
 import { postContent, postsByDate, type BlogPost } from './blog';
+import { pageLocaleCodes } from '../i18n/locale-policy.mjs';
 
 /** Stable identifier for the one Teranova Organization node, referenced by
     `{'@id': ORG_ID}` from blog authorship/publisher so search/AI systems can
@@ -234,10 +235,12 @@ export function blogJsonLd(lang: Lang) {
       url: base + localizePath('/blog', lang),
       inLanguage: t.htmlLang,
       publisher: { '@id': ORG_ID },
-      blogPost: postsByDate.map((post) => {
-        const c = postContent(post, lang);
-        return { '@type': 'BlogPosting', headline: c.title, url: base + localizePath(`/blog/${post.slug}`, lang), datePublished: post.date };
-      }),
+      blogPost: postsByDate
+        .filter((post) => (pageLocaleCodes(`/blog/${post.slug}`) as string[]).includes(lang))
+        .map((post) => {
+          const c = postContent(post, lang);
+          return { '@type': 'BlogPosting', headline: c.title, url: base + localizePath(`/blog/${post.slug}`, lang), datePublished: post.date };
+        }),
     },
     {
       '@context': 'https://schema.org',
@@ -270,7 +273,10 @@ export function blogPostJsonLd(lang: Lang, post: BlogPost) {
       url,
       mainEntityOfPage: url,
       ...(post.hero ? { image: base + post.hero } : {}),
-      author: { '@id': ORG_ID },
+      author: post.brandAuthor ? {
+        '@type': 'Organization', name: post.brandAuthor,
+        url: base + localizePath(`/catalog/${post.supplier}`, lang),
+      } : { '@id': ORG_ID },
       publisher: { '@id': ORG_ID },
     },
     {

@@ -1,0 +1,89 @@
+{
+  "content": {
+    "tagline": "한국 스킨케어 브랜드, 확인된 카탈로그 132개 품목.",
+    "descriptor": "마이크로 스피큘·PDRN 기반의 Wati for Skin.",
+    "origin": "한국",
+    "about": [
+      "Wati for Skin은 Two Tigers Corp의 스킨케어 브랜드입니다. 저희 카탈로그에는 에센스, 크림, 앰플, 마스크, 눈가 및 입술 관리, 클렌징, 자외선 차단, 바디 및 헤어 케어 제품 등 132개 품목이 있습니다."
+    ],
+    "facts": [
+      "브랜드: Wati for Skin (투타이거즈, 한국)",
+      "확인된 카탈로그 132개 품목",
+      "Micro Spicule · Volufroshot · PDRN-Exosome"
+    ],
+    "channels": [
+      "한국 스킨케어 수입·유통사",
+      "리테일 체인, 약국, 마켓플레이스",
+      "한국 스킨케어 전문 온라인 스토어"
+    ],
+    "lines": [
+      {
+        "name": "Micro Spicule 100 Essence",
+        "note": "30 ml 에센스 12종."
+      },
+      {
+        "name": "Volufroshot & Micro Spicule Cream",
+        "note": "50 ml Micro Spicule 크림 6종과 Volufroshot 크림 6종, 30 ml Volufroshot 앰플 6종."
+      },
+      {
+        "name": "Exosome-B Ampoule",
+        "note": "30 ml 앰플 6종."
+      },
+      {
+        "name": "아이케어",
+        "note": "눈가 케어 제품 12종."
+      },
+      {
+        "name": "Mask Pack",
+        "note": "마스크 제품 10종."
+      },
+      {
+        "name": "립케어",
+        "note": "20 ml 립 케어 제품 6종."
+      },
+      {
+        "name": "바디·헤어·핸드케어",
+        "note": "헤어 케어 2종, 바디 로션 및 워시 4종, 핸드 및 풋 크림 4종."
+      }
+    ],
+    "formats": [
+      "에센스·세럼",
+      "크림",
+      "앰플",
+      "아이케어",
+      "마스크·패드",
+      "립케어",
+      "토너",
+      "클렌징",
+      "선케어",
+      "바디·헤어케어"
+    ],
+    "exportNote": "문의 제공; 공개 가격표 없음.",
+    "consentNote": "제품 특성은 회사가 제공한 정보입니다.",
+    "seoTitle": "Wati for Skin — 한국 스킨케어 (Two Tigers Corp) · Teranova",
+    "seoDesc": "투타이거즈 프로필: 투타이거즈(한국): 마이크로 스피큘·PDRN 기반의 Wati for Skin. 확인된 카탈로그 132개 품목. Teranova를 통한 B2B 소싱."
+  },
+  "ui": {
+    "profile_sup": "공급업체 프로필",
+    "about_h": "회사 소개",
+    "for_whom": "이런 곳에 적합합니다:",
+    "lines_h": "제품 라인",
+    "catalog_h": "제품 카탈로그",
+    "tech_h": "기술",
+    "formats_h": "제품 형태",
+    "export_h": "수출과 시장",
+    "terms_h": "협력 조건",
+    "download_btn": "협력 조건 내려받기 (PDF)",
+    "pres_btn": "브랜드 소개서 내려받기 (PDF)",
+    "terms_disc": "문의 제공; 공개 가격표 없음.",
+    "cta_h": "이 공급업체에 관심이 있으신가요?",
+    "cta_d": "연락 주십시오. Teranova가 첫 연락부터 납품까지 협상과 검증, 거래 전 과정을 진행합니다.",
+    "cta_btn": "Teranova를 통해 문의",
+    "more": "프로필 열기 →",
+    "verified_suppliers": "검증된 공급업체",
+    "certs_h": "인증",
+    "certs_note": "",
+    "products_h": "제품",
+    "products_note": ""
+  }
+}

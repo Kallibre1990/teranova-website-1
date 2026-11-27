@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "韓国のスキンケアブランド。確認済みのカタログ製品7品。",
+    "descriptor": "PDRNとエクソソームのDr.Papirub。",
+    "origin": "韓国",
+    "about": [
+      "Dr.Papirubは、私たちTwo Tigers Corpのブランドです。カタログには、顔と首のケア製品6品と香水1品の計7品を掲載しています。"
+    ],
+    "facts": [
+      "ブランド：Dr.Papirub（Two Tigers Corp、韓国）",
+      "確認済みカタログ7品目：フェイス・ネックケア製品6品と香水1点"
+    ],
+    "channels": [
+      "韓国スキンケアの輸入業者・卸業者",
+      "小売チェーン、ドラッグストア、マーケットプレイス",
+      "韓国スキンケア専門のオンラインストア"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub スキンケア",
+        "note": "フェイス・ネックケア製品6品。"
+      },
+      {
+        "name": "Dr.Papirub 香水",
+        "note": "香水1点、Woody & Forest Eau de Parfum、50ml。"
+      }
+    ],
+    "formats": [
+      "フェイス・ネックケア",
+      "香水"
+    ],
+    "exportNote": "要問い合わせ。公開価格表はありません。",
+    "consentNote": "製品の特性は会社の説明に基づきます。",
+    "seoTitle": "Dr.Papirub — 韓国スキンケア (Two Tigers Corp) · Teranova",
+    "seoDesc": "Dr.Papirubのカタログには、顔と首のケア製品6品と香水1品を掲載しています。Teranova経由のB2B調達。"
+  },
+  "ui": {
+    "profile_sup": "サプライヤープロフィール",
+    "about_h": "会社について",
+    "for_whom": "こんな方に:",
+    "lines_h": "製品ライン",
+    "catalog_h": "製品カタログ",
+    "tech_h": "技術",
+    "formats_h": "製品の形態",
+    "export_h": "輸出と市場",
+    "terms_h": "協業条件",
+    "download_btn": "協業条件をダウンロード (PDF)",
+    "pres_btn": "ブランド資料をダウンロード (PDF)",
+    "terms_disc": "要問い合わせ。公開価格表はありません。",
+    "cta_h": "このサプライヤーにご関心がありますか？",
+    "cta_d": "ご連絡ください — Teranova が初回の接触から納品まで、交渉と確認、取引全体を進めます。",
+    "cta_btn": "Teranova を通じて問い合わせる",
+    "more": "プロフィールを開く →",
+    "verified_suppliers": "確認済みサプライヤー",
+    "certs_h": "認証",
+    "certs_note": "",
+    "products_h": "製品",
+    "products_note": ""
+  }
+}

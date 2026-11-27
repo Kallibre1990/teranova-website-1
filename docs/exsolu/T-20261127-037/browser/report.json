@@ -1,0 +1,10 @@
+{
+  "started": "2026-11-27T04:39:56.644Z",
+  "status": "incomplete",
+  "pages": [],
+  "clicks": [],
+  "errors": [
+    "browserType.launch: Executable doesn't exist at /Users/madelkanov/Library/Caches/ms-playwright/chromium_headless_shell-1255/chrome-headless-shell-mac-arm64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝\n    at /Users/madelkanov/teranovagroup/.worktrees/codex-T-20261127-037/docs/exsolu/browser-qa.mjs:20:28"
+  ],
+  "finished": "2026-11-27T04:39:56.814Z"
+}

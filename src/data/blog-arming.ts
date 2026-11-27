@@ -407,7 +407,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Фирменный компонент в каждом средстве",
       "p": [
-       "Тонер, эмульсия и солнцезащитный крем содержат пять форм гиалуроновой кислоты, от низко- до высокомолекулярной, чтобы удерживать влагу на разных уровнях поверхности кожи. В коллагеновом креме и креме для век — комплекс из семи видов коллагена; крем для век дополнен PDRN из лосося, NMN и пантенолом. Ампула построена на экзосомах — растительных внеклеточных везикулах из придаточного корня женьшеня и каллуса центеллы. В лёгком креме сочетаются витамины C, E, B5 и B3."
+       "Тонер, эмульсия и солнцезащитный крем содержат пять форм гиалуроновой кислоты, от низко- до высокомолекулярной, которые помогают влаге проникать в кожу, впитываться и увлажнять её глубокие слои. В коллагеновом креме и креме для век — комплекс из семи видов коллагена; крем для век дополнен PDRN из лосося, NMN и пантенолом. Ампула построена на экзосомах — растительных внеклеточных везикулах из придаточного корня женьшеня и каллуса центеллы. В лёгком креме сочетаются витамины C, E, B5 и B3."
       ]
      },
      {
@@ -433,7 +433,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "A signature component in each product",
       "p": [
-       "The toner, emulsion and sun cream contain five forms of hyaluronic acid, from low to high molecular weight, so moisture is held at different levels of the skin surface. The white cream and the eye cream use a complex of seven types of collagen; the eye cream adds salmon PDRN, NMN and panthenol. The ampoule is built on exosomes, plant extracellular vesicles from ginseng adventitious root and centella callus. The watery cream combines vitamins C, E, B5 and B3."
+       "The toner, emulsion and sun cream contain five forms of hyaluronic acid, from low to high molecular weight, which help moisture penetrate and absorb into the skin and hydrate its deeper layers. The white cream and the eye cream use a complex of seven types of collagen; the eye cream adds salmon PDRN, NMN and panthenol. The ampoule is built on exosomes, plant extracellular vesicles from ginseng adventitious root and centella callus. The watery cream combines vitamins C, E, B5 and B3."
       ]
      },
      {
@@ -459,7 +459,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "제품마다 담긴 시그니처 성분",
       "p": [
-       "토너, 에멀전, 선크림에는 저분자부터 고분자까지 5중 히알루론산이 들어 있어 피부 표면의 여러 층에서 수분을 붙잡아 줍니다. 화이트 크림과 아이크림에는 7중 콜라겐 콤플렉스를 적용했고, 아이크림에는 연어 PDRN, NMN, 판테놀을 더했습니다. 앰플은 인삼 부정근과 병풀 캘러스에서 얻은 식물 세포외소포체, 즉 엑소좀을 바탕으로 합니다. 워터리 크림에는 비타민 C, E, B5, B3를 함께 담았습니다."
+       "토너, 에멀전, 선크림에는 저분자부터 고분자까지 5중 히알루론산이 들어 있어 수분이 피부에 침투하고 흡수되어 깊은 층까지 촉촉하게 합니다. 화이트 크림과 아이크림에는 7중 콜라겐 콤플렉스를 적용했고, 아이크림에는 연어 PDRN, NMN, 판테놀을 더했습니다. 앰플은 인삼 부정근과 병풀 캘러스에서 얻은 식물 세포외소포체, 즉 엑소좀을 바탕으로 합니다. 워터리 크림에는 비타민 C, E, B5, B3를 함께 담았습니다."
       ]
      },
      {
@@ -485,7 +485,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "每款产品的标志性成分",
       "p": [
-       "爽肤水、乳液和防晒霜含有从低分子到高分子的五种透明质酸，在肌肤表面的不同层次锁住水分。White Cream面霜和眼霜采用七种胶原蛋白复合物，眼霜还添加了三文鱼PDRN、NMN和泛醇。安瓶精华以外泌体为核心，即来自人参不定根和积雪草愈伤组织的植物细胞外囊泡。水感面霜则融合了维生素C、E、B5和B3。"
+       "爽肤水、乳液和防晒霜含有从低分子到高分子的五种透明质酸，帮助水分渗透、吸收进肌肤并滋润其深层。White Cream面霜和眼霜采用七种胶原蛋白复合物，眼霜还添加了三文鱼PDRN、NMN和泛醇。安瓶精华以外泌体为核心，即来自人参不定根和积雪草愈伤组织的植物细胞外囊泡。水感面霜则融合了维生素C、E、B5和B3。"
       ]
      },
      {
@@ -511,7 +511,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "製品ごとのシグネチャー成分",
       "p": [
-       "化粧水、乳液、サンクリームには、低分子から高分子まで5種類のヒアルロン酸が含まれ、肌表面の異なる層でうるおいを保ちます。ホワイトクリームとアイクリームには7種類のコラーゲンコンプレックスを採用し、アイクリームにはさらにサーモンPDRN、NMN、パンテノールを加えています。アンプルは、高麗人参の不定根とツボクサのカルスから得た植物由来の細胞外小胞、つまりエクソソームをベースにしています。ウォータリークリームにはビタミンC、E、B5、B3を組み合わせています。"
+       "化粧水、乳液、サンクリームには、低分子から高分子まで5種類のヒアルロン酸が含まれ、うるおいが肌に浸透・吸収され、深い層までうるおいを与えます。ホワイトクリームとアイクリームには7種類のコラーゲンコンプレックスを採用し、アイクリームにはさらにサーモンPDRN、NMN、パンテノールを加えています。アンプルは、高麗人参の不定根とツボクサのカルスから得た植物由来の細胞外小胞、つまりエクソソームをベースにしています。ウォータリークリームにはビタミンC、E、B5、B3を組み合わせています。"
       ]
      },
      {
@@ -537,7 +537,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Un componente distintivo in ogni prodotto",
       "p": [
-       "Tonico, emulsione e crema solare contengono cinque forme di acido ialuronico, dal basso all'alto peso molecolare, così l'idratazione viene trattenuta a diversi livelli della superficie cutanea. La crema al collagene e la crema contorno occhi si basano su un complesso di sette tipi di collagene; la crema contorno occhi aggiunge PDRN di salmone, NMN e pantenolo. La fiala è costruita sugli esosomi, vescicole extracellulari vegetali ricavate dalle radici avventizie del ginseng e dal callo di centella. La crema acquosa combina le vitamine C, E, B5 e B3."
+       "Tonico, emulsione e crema solare contengono cinque forme di acido ialuronico, dal basso all'alto peso molecolare, che aiutano l'idratazione a penetrare e assorbirsi nella pelle e a idratarne gli strati più profondi. La crema al collagene e la crema contorno occhi si basano su un complesso di sette tipi di collagene; la crema contorno occhi aggiunge PDRN di salmone, NMN e pantenolo. La fiala è costruita sugli esosomi, vescicole extracellulari vegetali ricavate dalle radici avventizie del ginseng e dal callo di centella. La crema acquosa combina le vitamine C, E, B5 e B3."
       ]
      },
      {
@@ -563,7 +563,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Ein Signature-Wirkstoff in jedem Produkt",
       "p": [
-       "Toner, Emulsion und Sonnencreme enthalten fünf Formen von Hyaluronsäure von niedrigem bis hohem Molekulargewicht, sodass die Feuchtigkeit auf verschiedenen Ebenen der Hautoberfläche gebunden wird. Die Kollagencreme und die Augencreme setzen auf einen Komplex aus sieben Kollagenarten; die Augencreme enthält zusätzlich Lachs-PDRN, NMN und Panthenol. Die Ampulle basiert auf Exosomen, also extrazellulären Vesikeln aus Pflanzen, die aus Adventivwurzeln des Ginsengs und aus Centella-Kallus gewonnen werden. Die wässrige Creme kombiniert die Vitamine C, E, B5 und B3."
+       "Toner, Emulsion und Sonnencreme enthalten fünf Formen von Hyaluronsäure von niedrigem bis hohem Molekulargewicht, die der Feuchtigkeit helfen, in die Haut einzudringen, einzuziehen und ihre tieferen Schichten zu hydratisieren. Die Kollagencreme und die Augencreme setzen auf einen Komplex aus sieben Kollagenarten; die Augencreme enthält zusätzlich Lachs-PDRN, NMN und Panthenol. Die Ampulle basiert auf Exosomen, also extrazellulären Vesikeln aus Pflanzen, die aus Adventivwurzeln des Ginsengs und aus Centella-Kallus gewonnen werden. Die wässrige Creme kombiniert die Vitamine C, E, B5 und B3."
       ]
      },
      {
@@ -589,7 +589,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Un composant signature dans chaque produit",
       "p": [
-       "La lotion tonique, l'émulsion et la crème solaire contiennent cinq formes d'acide hyaluronique, du bas au haut poids moléculaire, afin de retenir l'hydratation à différents niveaux de la surface de la peau. La crème au collagène et la crème contour des yeux s'appuient sur un complexe de sept types de collagène ; la crème contour des yeux y ajoute du PDRN de saumon, du NMN et du panthénol. L'ampoule est construite autour d'exosomes, des vésicules extracellulaires végétales issues de racines adventives de ginseng et de cals de centella. La crème aqueuse associe les vitamines C, E, B5 et B3."
+       "La lotion tonique, l'émulsion et la crème solaire contiennent cinq formes d'acide hyaluronique, du bas au haut poids moléculaire, qui aident l'hydratation à pénétrer et à s'absorber dans la peau et à hydrater ses couches profondes. La crème au collagène et la crème contour des yeux s'appuient sur un complexe de sept types de collagène ; la crème contour des yeux y ajoute du PDRN de saumon, du NMN et du panthénol. L'ampoule est construite autour d'exosomes, des vésicules extracellulaires végétales issues de racines adventives de ginseng et de cals de centella. La crème aqueuse associe les vitamines C, E, B5 et B3."
       ]
      },
      {
@@ -615,7 +615,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Her üründe bir imza bileşen",
       "p": [
-       "Tonik, emülsiyon ve güneş kremi düşükten yükseğe molekül ağırlığında beş form hiyalüronik asit içerir; böylece nem cilt yüzeyinin farklı katmanlarında tutulur. Beyaz krem ve göz kremi yedi tür kolajenden oluşan bir kompleks kullanır; göz kremine ayrıca somon PDRN'si, NMN ve pantenol eklenmiştir. Ampul, ginseng adventif kökünden ve centella kallusundan elde edilen bitkisel hücre dışı veziküller, yani eksozomlar üzerine kuruludur. Sulu krem ise C, E, B5 ve B3 vitaminlerini bir araya getirir."
+       "Tonik, emülsiyon ve güneş kremi düşükten yükseğe molekül ağırlığında beş form hiyalüronik asit içerir; bunlar nemin cilde geçmesine, emilmesine ve derin tabakalarını nemlendirmesine yardımcı olur. Beyaz krem ve göz kremi yedi tür kolajenden oluşan bir kompleks kullanır; göz kremine ayrıca somon PDRN'si, NMN ve pantenol eklenmiştir. Ampul, ginseng adventif kökünden ve centella kallusundan elde edilen bitkisel hücre dışı veziküller, yani eksozomlar üzerine kuruludur. Sulu krem ise C, E, B5 ve B3 vitaminlerini bir araya getirir."
       ]
      },
      {
@@ -641,7 +641,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Un componente distintivo en cada producto",
       "p": [
-       "El tónico, la emulsión y la crema solar contienen cinco formas de ácido hialurónico, de bajo a alto peso molecular, de modo que la hidratación se retiene en distintos niveles de la superficie de la piel. La crema de colágeno y el contorno de ojos se basan en un complejo de siete tipos de colágeno; el contorno de ojos añade PDRN de salmón, NMN y pantenol. La ampolla se construye sobre exosomas, vesículas extracelulares vegetales obtenidas de raíces adventicias de ginseng y de callo de centella. La crema acuosa combina las vitaminas C, E, B5 y B3."
+       "El tónico, la emulsión y la crema solar contienen cinco formas de ácido hialurónico, de bajo a alto peso molecular, que ayudan a que la hidratación penetre y se absorba en la piel e hidrate sus capas más profundas. La crema de colágeno y el contorno de ojos se basan en un complejo de siete tipos de colágeno; el contorno de ojos añade PDRN de salmón, NMN y pantenol. La ampolla se construye sobre exosomas, vesículas extracelulares vegetales obtenidas de raíces adventicias de ginseng y de callo de centella. La crema acuosa combina las vitaminas C, E, B5 y B3."
       ]
      },
      {
@@ -667,7 +667,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "Um componente de assinatura em cada produto",
       "p": [
-       "O tônico, a emulsão e o protetor solar contêm cinco formas de ácido hialurônico, de baixo a alto peso molecular, para que a hidratação seja retida em diferentes níveis da superfície da pele. O creme de colágeno e o creme para a área dos olhos usam um complexo de sete tipos de colágeno; o creme para a área dos olhos acrescenta PDRN de salmão, NMN e pantenol. A ampola é construída sobre exossomos, vesículas extracelulares vegetais obtidas de raízes adventícias de ginseng e de calo de centella. O creme aquoso combina as vitaminas C, E, B5 e B3."
+       "O tônico, a emulsão e o protetor solar contêm cinco formas de ácido hialurônico, de baixo a alto peso molecular, que ajudam a hidratação a penetrar e ser absorvida pela pele e a hidratar suas camadas mais profundas. O creme de colágeno e o creme para a área dos olhos usam um complexo de sete tipos de colágeno; o creme para a área dos olhos acrescenta PDRN de salmão, NMN e pantenol. A ampola é construída sobre exossomos, vesículas extracelulares vegetais obtidas de raízes adventícias de ginseng e de calo de centella. O creme aquoso combina as vitaminas C, E, B5 e B3."
       ]
      },
      {
@@ -693,7 +693,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "רכיב ייחודי בכל מוצר",
       "p": [
-       "הטונר, האמולסיה וקרם ההגנה מכילים חמש צורות של חומצה היאלורונית, ממשקל מולקולרי נמוך ועד גבוה, כך שהלחות נשמרת ברבדים שונים של פני העור. הקרם הלבן וקרם העיניים מבוססים על קומפלקס של שבעה סוגי קולגן, וקרם העיניים מוסיף PDRN מסלמון, NMN ופנתנול. האמפולה בנויה על אקסוזומים, שלפוחיות חוץ-תאיות צמחיות המופקות משורש אדוונטיבי של ג'ינסנג ומקאלוס של סנטלה. הקרם המימי משלב ויטמינים C, E, B5 ו-B3."
+       "הטונר, האמולסיה וקרם ההגנה מכילים חמש צורות של חומצה היאלורונית, ממשקל מולקולרי נמוך ועד גבוה, המסייעות ללחות לחלחל ולהיספג בעור ולהעניק לחות לשכבותיו העמוקות. הקרם הלבן וקרם העיניים מבוססים על קומפלקס של שבעה סוגי קולגן, וקרם העיניים מוסיף PDRN מסלמון, NMN ופנתנול. האמפולה בנויה על אקסוזומים, שלפוחיות חוץ-תאיות צמחיות המופקות משורש אדוונטיבי של ג'ינסנג ומקאלוס של סנטלה. הקרם המימי משלב ויטמינים C, E, B5 ו-B3."
       ]
      },
      {
@@ -719,7 +719,7 @@ export const armingPosts: BlogPost[] = [
      {
       "h": "हर उत्पाद में एक सिग्नेचर घटक",
       "p": [
-       "टोनर, इमल्शन और सन क्रीम में कम से उच्च आणविक भार तक हायलूरोनिक एसिड के पाँच रूप हैं, ताकि त्वचा की सतह के अलग-अलग स्तरों पर नमी बनी रहे। व्हाइट क्रीम और आई क्रीम में सात प्रकार के कोलेजन का कॉम्प्लेक्स है; आई क्रीम में सैल्मन PDRN, NMN और पैन्थेनॉल भी जोड़े गए हैं। एम्पूल एक्सोसोम पर आधारित है, जो जिनसेंग की अपस्थानिक जड़ और सेंटेला कैलस से प्राप्त पौधों के एक्स्ट्रासेल्युलर वेसिकल हैं। वॉटरी क्रीम में विटामिन C, E, B5 और B3 एक साथ हैं।"
+       "टोनर, इमल्शन और सन क्रीम में कम से उच्च आणविक भार तक हायलूरोनिक एसिड के पाँच रूप हैं, जो त्वचा में नमी के प्रवेश और अवशोषण में मदद करते हैं और उसकी गहरी परतों को नमी देते हैं। व्हाइट क्रीम और आई क्रीम में सात प्रकार के कोलेजन का कॉम्प्लेक्स है; आई क्रीम में सैल्मन PDRN, NMN और पैन्थेनॉल भी जोड़े गए हैं। एम्पूल एक्सोसोम पर आधारित है, जो जिनसेंग की अपस्थानिक जड़ और सेंटेला कैलस से प्राप्त पौधों के एक्स्ट्रासेल्युलर वेसिकल हैं। वॉटरी क्रीम में विटामिन C, E, B5 और B3 एक साथ हैं।"
       ]
      },
      {

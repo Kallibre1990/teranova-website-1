@@ -252,6 +252,7 @@ export const en: UIDict = {
       related_h: "Related",
       supplier_articles_h: "Useful articles",
       uses_h: "Where it is used",
+      sources_h: "Sources",
     },
     catalog: {
       title: 'Catalog of directions',

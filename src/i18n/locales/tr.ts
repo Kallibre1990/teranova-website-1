@@ -191,6 +191,7 @@ const tr: DeepPartial<UIDict> = {
       related_h: "İlgili içerikler",
       supplier_articles_h: "Faydalı içerikler",
       uses_h: "Nerede kullanılıyor",
+      sources_h: "Kaynaklar",
     },
     cosmetics: {
       intro_sup: "KOZMETİK · K-BEAUTY",
@@ -455,6 +456,9 @@ const tr: DeepPartial<UIDict> = {
   },
 
   footer: {
+    marine_title: "Diğer faaliyetlerimiz",
+    marine_name: "Teranova Marine",
+    marine_desc: "Yatlar ve tekneler için yedek parçalar",
     blurb: "Doğrulanmış Koreli üreticileri dünya çapındaki alıcılarla buluşturuyor ve anlaşmanın tamamını destekliyoruz.",
     nav_title: "Navigasyon",
     contact_title: "İletişim",

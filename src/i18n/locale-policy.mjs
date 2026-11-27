@@ -28,6 +28,15 @@ export const publicLocaleCodes = Object.keys(localeDefinitions)
 export const sectionDefaultLocale = 'ru';
 export const homeDefaultLocale = 'en';
 
+/** EXSOLU's approved task scope contains eleven translations, not he/hi —
+ * covers both the catalog profile/line pages and its blog articles. */
+export function pageLocaleCodes(path) {
+  const clean = '/' + path.replace(/^\/+|\/+$/g, '');
+  return /^\/catalog\/exsolu(?:\/|$)/.test(clean) || /^\/blog\/exsolu-/.test(clean)
+    ? publicLocaleCodes.filter(code => code !== 'he' && code !== 'hi')
+    : publicLocaleCodes;
+}
+
 /** Sections that follow the home page's English-root exception: the printed
  * fix for T-20261016-054 (medical catalog group was serving Russian at its
  * English-looking root with no /ru/ alternate). Keep this list short — it is
@@ -60,7 +69,7 @@ export function languageAlternates(path, site) {
   const clean = cleanPath(path);
   const xDefaultLocale = (clean === '/' || rootEnglishPaths.includes(clean)) ? homeDefaultLocale : sectionDefaultLocale;
   return [
-    ...publicLocaleCodes.map((lang) => ({ lang, url: new URL(localizedPath(path, lang), site).href })),
+    ...pageLocaleCodes(path).map((lang) => ({ lang, url: new URL(localizedPath(path, lang), site).href })),
     { lang: 'x-default', url: new URL(localizedPath(path, xDefaultLocale), site).href },
   ];
 }

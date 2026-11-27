@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import ExsoluDraft from './ExsoluDraft.astro';
+import { exsoluContent, type ExsoluLocale, type ExsoluView } from '../../data/exsolu';
+import { localizePath } from '../../i18n/utils';
+import { rejectedProductImages } from '../../data/exsolu-storefront';
+interface Props { lang: ExsoluLocale; view: ExsoluView }
+const { lang, view } = Astro.props;
+const c = exsoluContent(lang);
+const path = '/catalog/exsolu' + (view === 'company' ? '' : '/' + view);
+const title = view === 'company' ? c.company : view === 'skin-boosters' ? c.professionalTitle : c.skincare;
+const description = view === 'company' ? c.about : view === 'skin-boosters' ? c.professional : c.daily;
+const links = [
+  { view: 'company', path: '/catalog/exsolu', label: c.company },
+  { view: 'skin-boosters', path: '/catalog/exsolu/skin-boosters', label: c.professionalTitle },
+  { view: 'skincare', path: '/catalog/exsolu/skincare', label: c.skincare },
+];
+const site = 'https://teranovagroup.com';
+const absoluteUrl = (path: string) => site + localizePath(path, lang).replace(/\/?$/, '/');
+const url = absoluteUrl(path);
+const companyUrl = absoluteUrl('/catalog/exsolu');
+const organization = {
+  '@context': 'https://schema.org', '@type': 'Organization',
+  '@id': companyUrl + '#organization', name: 'NOVAMEDINTL',
+  brand: { '@type': 'Brand', name: 'EXSOLU' }, url: companyUrl,
+  ...(view === 'company' ? { description: c.about } : {}),
+};
+const breadcrumb = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: (view === 'company' ? [links[0]] : [links[0], links.find(link => link.view === view)!])
+    .map((link, i) => ({ '@type': 'ListItem', position: i + 1, name: link.label, item: absoluteUrl(link.path) })),
+};
+const products = view === 'company' ? [] : (view === 'skin-boosters' ? c.boosters : c.skincareProducts)
+  .map(product => ({
+    '@context': 'https://schema.org', '@type': 'Product',
+    '@id': url + '#' + product.id, name: product.name,
+    description: product.description,
+    ...(!rejectedProductImages.has(product.id) ? { image: site + product.image } : {}),
+    brand: { '@type': 'Brand', name: 'EXSOLU' },
+    manufacturer: { '@id': companyUrl + '#organization' },
+  }));
+const jsonLd = [organization, breadcrumb, ...products];
+---
+<Base lang={lang} path={path} title={title + ' | EXSOLU'} description={description} theme="beauty" jsonLd={jsonLd}>
+  <nav class="exsolu-nav">
+    {links.map(link => <a href={localizePath(link.path, lang)} aria-current={link.view === view ? 'page' : undefined}>{link.label}</a>)}
+  </nav>
+  <ExsoluDraft lang={lang} view={view} />
+</Base>
+<style>
+  .exsolu-nav { max-width:1120px; margin:0 auto; padding:40px 24px 0; display:flex; flex-wrap:wrap; gap:16px 32px; overflow-wrap:anywhere; }
+  a { text-underline-offset: .25em; max-width:100%; }
+  a[aria-current] { font-weight:700; }
+</style>

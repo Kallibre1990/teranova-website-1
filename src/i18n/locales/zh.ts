@@ -191,6 +191,7 @@ const zh: DeepPartial<UIDict> = {
       related_h: "相关内容",
       supplier_articles_h: "实用文章",
       uses_h: "用在哪些产品里",
+      sources_h: "资料来源",
     },
     catalog: {
       title: "业务方向目录",
@@ -455,6 +456,9 @@ const zh: DeepPartial<UIDict> = {
   },
 
   footer: {
+    marine_title: "其他业务",
+    marine_name: "Teranova Marine",
+    marine_desc: "游艇和快艇零配件",
     blurb: "我们将经核验的韩国制造商与全球买家对接，并全程支持交易。",
     nav_title: "导航",
     contact_title: "联系方式",

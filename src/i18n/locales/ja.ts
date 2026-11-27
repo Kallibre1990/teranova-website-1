@@ -183,6 +183,7 @@ const ja: DeepPartial<UIDict> = {
       related_h: "関連記事",
       supplier_articles_h: "役立つ記事",
       uses_h: "どこで使われているか",
+      sources_h: "出典",
     },
     cosmetics: {
       intro_sup: "化粧品 · K-BEAUTY",
@@ -447,6 +448,9 @@ const ja: DeepPartial<UIDict> = {
   },
 
   footer: {
+    marine_title: "その他の事業",
+    marine_name: "Teranova Marine",
+    marine_desc: "ヨット・ボート用の部品",
     blurb: "検証済みの韓国メーカーと世界中のバイヤーをつなぎ、取引全体をサポートいたします。",
     nav_title: "ナビゲーション",
     contact_title: "お問い合わせ",

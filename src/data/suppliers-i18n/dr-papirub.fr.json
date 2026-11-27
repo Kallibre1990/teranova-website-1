@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "Marque coréenne de soin de la peau, 7 références confirmées au catalogue.",
+    "descriptor": "Dr.Papirub, soin PDRN-exosome.",
+    "origin": "Corée",
+    "about": [
+      "Dr.Papirub est notre marque chez Two Tigers Corp. Notre catalogue comprend sept produits : six soins pour le visage et le cou et un parfum."
+    ],
+    "facts": [
+      "Marque : Dr.Papirub (Two Tigers Corp, Corée)",
+      "7 références confirmées au catalogue : 6 produits pour le visage et le cou et 1 parfum"
+    ],
+    "channels": [
+      "Importateurs et distributeurs de soins coréens",
+      "Chaînes de distribution, pharmacies et marketplaces",
+      "Boutiques en ligne spécialisées dans le soin coréen"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub Soins de la peau",
+        "note": "6 soins pour le visage et le cou."
+      },
+      {
+        "name": "Dr.Papirub Parfums",
+        "note": "1 parfum, Woody & Forest Eau de Parfum, 50 ml."
+      }
+    ],
+    "formats": [
+      "Soin du visage et du cou",
+      "Parfum"
+    ],
+    "exportNote": "Sur demande ; aucun tarif public.",
+    "consentNote": "Les propriétés sont déclarées par l’entreprise.",
+    "seoTitle": "Dr.Papirub — soin coréen (Two Tigers Corp) · Teranova",
+    "seoDesc": "Profil Two Tigers Corp : Dr.Papirub, soin PDRN-exosome. 7 références confirmées au catalogue. Sourcing B2B via Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profil du fournisseur",
+    "about_h": "L'entreprise",
+    "for_whom": "À qui cela convient :",
+    "lines_h": "Lignes de produits",
+    "catalog_h": "Catalogue produits",
+    "tech_h": "Technologie",
+    "formats_h": "Formats de produits",
+    "export_h": "Export et marchés",
+    "terms_h": "Conditions de coopération",
+    "download_btn": "Télécharger les conditions (PDF)",
+    "pres_btn": "Télécharger la présentation (PDF)",
+    "terms_disc": "Sur demande ; aucun tarif public.",
+    "cta_h": "Ce fournisseur vous intéresse ?",
+    "cta_d": "Écrivez-nous — Teranova organise la négociation, les vérifications et toute l'opération, du premier contact à la livraison.",
+    "cta_btn": "Contacter via Teranova",
+    "more": "Ouvrir le profil →",
+    "verified_suppliers": "Fournisseurs vérifiés",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Produits",
+    "products_note": ""
+  }
+}

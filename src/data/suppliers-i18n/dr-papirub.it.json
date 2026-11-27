@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "Marchio coreano di skincare, 7 referenze confermate a catalogo.",
+    "descriptor": "Dr.Papirub, cura su PDRN ed esosomi.",
+    "origin": "Corea",
+    "about": [
+      "Dr.Papirub è il nostro marchio di Two Tigers Corp. Il nostro catalogo comprende sette prodotti: sei per la cura di viso e collo e una fragranza."
+    ],
+    "facts": [
+      "Marchio: Dr.Papirub (Two Tigers Corp, Corea)",
+      "7 referenze confermate a catalogo: 6 prodotti per viso e collo e 1 fragranza"
+    ],
+    "channels": [
+      "Importatori e distributori di skincare coreana",
+      "Catene retail, farmacie e marketplace",
+      "Negozi online specializzati in skincare coreana"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub Cura della pelle",
+        "note": "6 prodotti per il viso e il collo."
+      },
+      {
+        "name": "Dr.Papirub Profumi",
+        "note": "1 fragranza, Woody & Forest Eau de Parfum, 50 ml."
+      }
+    ],
+    "formats": [
+      "Cura del viso e del collo",
+      "Fragranza"
+    ],
+    "exportNote": "Su richiesta; nessun listino pubblico.",
+    "consentNote": "Le proprietà sono dichiarate dall’azienda.",
+    "seoTitle": "Dr.Papirub — skincare coreana (Two Tigers Corp) · Teranova",
+    "seoDesc": "Profilo Two Tigers Corp: Dr.Papirub, cura su PDRN ed esosomi. 7 referenze confermate a catalogo. Sourcing B2B tramite Teranova."
+  },
+  "ui": {
+    "profile_sup": "Profilo del fornitore",
+    "about_h": "L'azienda",
+    "for_whom": "A chi si rivolge:",
+    "lines_h": "Linee di prodotto",
+    "catalog_h": "Catalogo prodotti",
+    "tech_h": "Tecnologia",
+    "formats_h": "Formati di prodotto",
+    "export_h": "Export e mercati",
+    "terms_h": "Condizioni di collaborazione",
+    "download_btn": "Scarica le condizioni (PDF)",
+    "pres_btn": "Scarica la presentazione (PDF)",
+    "terms_disc": "Su richiesta; nessun listino pubblico.",
+    "cta_h": "Le interessa questo fornitore?",
+    "cta_d": "Ci scriva — Teranova organizza la trattativa, le verifiche e l'intera operazione dal primo contatto alla consegna.",
+    "cta_btn": "Contattare tramite Teranova",
+    "more": "Apri il profilo →",
+    "verified_suppliers": "Fornitori verificati",
+    "certs_h": "Certificazioni",
+    "certs_note": "",
+    "products_h": "Prodotti",
+    "products_note": ""
+  }
+}

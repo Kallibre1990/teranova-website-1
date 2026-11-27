@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import { teranovaDeckHTML } from './teranova-deck.mjs';
 import { TEXTS } from './teranova-deck-text.mjs';
+import { langCount } from './deck-lang-list.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -30,7 +31,7 @@ function stats() {
   /* country отсутствует = Корея (см. комментарий к полю в suppliers.ts), поэтому
      считаем корейскими и записи без поля, и записи с 'kr'. */
   const korea = rows.filter((r) => !r[3] || r[3] === 'kr').length;
-  return { total, korea, abroad: total - korea };
+  return { total, korea, abroad: total - korea, langs: langCount };
 }
 
 async function toPDF(html, outfile) {

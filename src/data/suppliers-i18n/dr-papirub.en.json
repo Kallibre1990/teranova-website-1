@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "A Korean skincare brand, 7 confirmed catalogue items.",
+    "descriptor": "Dr.Papirub PDRN-exosome care.",
+    "origin": "Korea",
+    "about": [
+      "Dr.Papirub is our brand at Two Tigers Corp. Our catalogue contains seven products: six for face and neck care and one fragrance."
+    ],
+    "facts": [
+      "Brand: Dr.Papirub (Two Tigers Corp, Korea)",
+      "7 confirmed catalogue items: 6 face and neck care products and 1 fragrance"
+    ],
+    "channels": [
+      "Importers and distributors of Korean skincare",
+      "Retail chains, pharmacies and marketplaces",
+      "Online stores specialising in Korean skincare"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub Skincare",
+        "note": "6 face and neck care products."
+      },
+      {
+        "name": "Dr.Papirub Fragrance",
+        "note": "1 fragrance, Woody & Forest Eau de Parfum, 50 ml."
+      }
+    ],
+    "formats": [
+      "Face & neck care",
+      "Fragrance"
+    ],
+    "exportNote": "On request; no public price list.",
+    "consentNote": "Properties are stated by the company.",
+    "seoTitle": "Dr.Papirub — Korean skincare (Two Tigers Corp) · Teranova",
+    "seoDesc": "Two Tigers Corp profile: Dr.Papirub PDRN-exosome care. 7 confirmed catalogue items. B2B sourcing through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": ""
+  }
+}

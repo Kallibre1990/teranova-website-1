@@ -101,7 +101,7 @@
     "seoTitle": "SLOW LOUNGE — cuidado de mãos, corpo e lábios · Teranova",
     "seoDesc": "SLOW LOUNGE da TeamPass: bálsamo de mãos coreano com corrente para levar por fora da mala, linhas Stressfree, Waterdrop e Sun Off, cuidado corporal e labial.",
     "catalog_notes": [
-      "Balm for Hand, Stressfree — o próprio bálsamo porta-chaves: mosquetão e corrente permitem levá-lo por fora da mala. Textura de bálsamo rica, com B-Circadin™ a 3 por cento, NAD+, NMN, adenosina e niacinamida. A empresa declara ensaios clínicos em sete parâmetros.",
+      "Balm for Hand, Stressfree — o próprio bálsamo porta-chaves: mosquetão e corrente permitem levá-lo por fora da mala. Textura de bálsamo rica, com B-Circadin™ a 3 por cento, NAD+, NMN, adenosina e niacinamida. A empresa declara ensaios clínicos em sete parâmetros. A empresa também possui um relatório de teste clínico sobre o efeito antienvelhecimento do Balm for Hand; não é publicado e é fornecido aos compradores mediante solicitação.",
       "Balm for Body, Stressfree — bálsamo corporal com o mesmo ingrediente patenteado. A empresa descreve a fragrância como amadeirada aromática.",
       "Wash for Body, Stressfree — o gel de banho da mesma linha, um gel que passa a espuma. A fragrância é amadeirada aromática, como no bálsamo.",
       "Balm for Hand, Waterdrop — o bálsamo porta-chaves da linha hidratante. A textura é descrita como uma geleia que se torna água ao aplicar; contém água termal italiana, cinco ceramidas e cápsulas de água.",
@@ -109,7 +109,8 @@
       "Wash for Body, Waterdrop — o gel de banho da linha Waterdrop, de gel a espuma. A fragrância é lírio-do-vale aquático.",
       "Balm for Hand, Sun Off — o bálsamo porta-chaves com proteção solar diária SPF 15 PA++. Contém mel de Manuka da Nova Zelândia UMF 20+ e B-Circadin™.",
       "Balm for Lip, Sun Off — bálsamo labial quadrado com SPF 10 PA++. A empresa posiciona-o como proteção diária dos lábios e não como produto de praia.",
-      "Balm for Lip, Nude — bálsamo com cor em boião quadrado: tom natural e cuidado ao mesmo tempo. É o formato que a marca combina com o anel para telemóvel."
+      "Balm for Lip, Nude — bálsamo com cor em boião quadrado: tom natural e cuidado ao mesmo tempo. É o formato que a marca combina com o anel para telemóvel.",
+      "Balm for Lip, Phone grip — o mesmo bálsamo labial quadrado combinado com um suporte para telemóvel. A empresa propõe essa combinação para que o bálsamo fique sempre preso ao telefone."
     ]
   },
   "ui": {
@@ -133,7 +134,7 @@
     "more": "Abrir perfil →",
     "verified_suppliers": "Fornecedores verificados",
     "certs_h": "Marcas declaradas",
-    "certs_note": "A certificação vegana está documentada: Korea Agency of Vegan Certification and Services, número C 1221-001, válida de 12 de janeiro de 2026 a 11 de janeiro de 2028, em nome da TeamPass Co., Ltd. O certificado nomeia uma só referência — Balm for Hand — e não se estende automaticamente ao resto da gama. A classificação EWG Green e os testes dermatológicos são declarados pela empresa; as cópias são fornecidas na fase de negócio.",
+    "certs_note": "A certificação vegana está documentada para cinco referências: Balm for Hand (Stressfree e Waterdrop), Balm for Body e Wash for Body (Waterdrop), e Balm for Lip (Nude). A linha Sun Off não está incluída, por causa do mel de manuka presente na fórmula. A classificação EWG Green e os testes dermatológicos são declarados pela empresa; as cópias são fornecidas na fase de negócio.",
     "gallery_h": "Como se usa",
     "gallery_note": "As fotografias de produto foram fornecidas pela TeamPass. Mostram para que serve o formato porta-chaves: o bálsamo fica pendurado na mala ao lado dos auriculares e dos óculos, em vez de ficar no fundo. São materiais da empresa e não uma visita nossa à fábrica: o estado do fornecedor é «Informação fornecida pela empresa»."
   }

@@ -101,7 +101,7 @@
     "seoTitle": "SLOW LOUNGE（TeamPass）— 韩国手部、身体与唇部护理 · Teranova",
     "seoDesc": "TeamPass 旗下 SLOW LOUNGE：挂在包外的韩国链条护手霜，Stressfree、Waterdrop 与 Sun Off 系列，身体与唇部护理。通过 Teranova 批发供应与出口。",
     "catalog_notes": [
-      "Balm for Hand, Stressfree — 就是那款钥匙扣护手霜：锁扣与链条让它挂在包外。厚润的膏体质地，含 3 % B-Circadin™、NAD+、NMN、腺苷与烟酰胺。公司说明其完成了七项指标的临床测试。",
+      "Balm for Hand, Stressfree — 就是那款钥匙扣护手霜：锁扣与链条让它挂在包外。厚润的膏体质地，含 3 % B-Circadin™、NAD+、NMN、腺苷与烟酰胺。公司说明其完成了七项指标的临床测试。公司还持有 Balm for Hand 抗老化功效的人体临床测试报告，该报告不对外公开，按买家要求提供。",
       "Balm for Body, Stressfree — 采用同一专利成分的身体乳。公司将香调描述为芳香木质。",
       "Wash for Body, Stressfree — 同系列沐浴露，由啫喱转为泡沫。香调与身体乳一致，为芳香木质。",
       "Balm for Hand, Waterdrop — 保湿系列的钥匙扣护手霜。质地被描述为涂抹时由啫喱化为水，含意大利温泉水、五种神经酰胺与水分胶囊。",
@@ -109,7 +109,8 @@
       "Wash for Body, Waterdrop — Waterdrop 系列沐浴露，由啫喱转为泡沫。香调为水感铃兰。",
       "Balm for Hand, Sun Off — 带 SPF 15 PA++ 日常防晒的钥匙扣护手霜。含新西兰麦卢卡蜂蜜 UMF 20+ 与 B-Circadin™。",
       "Balm for Lip, Sun Off — SPF 10 PA++ 的方形唇膏。公司把它定位为日常唇部防护，而不是海滩产品。",
-      "Balm for Lip, Nude — 方形罐装的有色唇膏，自然唇色与护理合一。这正是品牌与手机指环扣搭配的形态。"
+      "Balm for Lip, Nude — 方形罐装的有色唇膏，自然唇色与护理合一。这正是品牌与手机指环扣搭配的形态。",
+      "Balm for Lip, Phone grip——同款方形唇膏搭配手机支架。公司建议这样组合，让唇膏始终固定在手机上。"
     ]
   },
   "ui": {
@@ -133,7 +134,7 @@
     "more": "查看简介 →",
     "verified_suppliers": "已核验的供应商",
     "certs_h": "公司声明的标识",
-    "certs_note": "纯素认证有文件为证：韩国纯素认证院（KAVCS），认证编号 C 1221-001，有效期自 2026 年 1 月 12 日至 2028 年 1 月 11 日，持证方为 TeamPass Co., Ltd.。证书载明的品项为一款——Balm for Hand，并不自动延及其余产品。EWG Green 评级与皮肤科测试为公司陈述；副本在交易阶段提供。",
+    "certs_note": "纯素认证现有文件覆盖五个品项：Balm for Hand（Stressfree 与 Waterdrop）、Balm for Body 与 Wash for Body（Waterdrop）、以及 Balm for Lip（Nude）。Sun Off 系列不在纯素认证范围内，因为配方中含有麦卢卡蜂蜜。EWG Green 评级与皮肤科测试为公司陈述；副本在交易阶段提供。",
     "gallery_h": "人们这样带着它",
     "gallery_note": "静物照片由 TeamPass 提供。它们说明了钥匙扣形态的用意：护手霜挂在包上，和耳机、眼镜放在一起，而不是躺在包底。这些是公司的自有资料，不是我们的工厂探访：供应商状态为「公司提供的信息」。"
   }

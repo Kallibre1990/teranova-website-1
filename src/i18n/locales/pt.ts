@@ -252,6 +252,7 @@ export const pt: UIDict = {
       related_h: "Relacionados",
       supplier_articles_h: "Artigos úteis",
       uses_h: "Onde é aplicado",
+      sources_h: "Fontes",
     },
     catalog: {
       title: 'Catálogo de frentes',

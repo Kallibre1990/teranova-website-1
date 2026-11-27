@@ -247,6 +247,7 @@ export const he: UIDict = {
       related_h: 'מאמרים נוספים',
       supplier_articles_h: 'מאמרים שימושיים',
       uses_h: 'תחומי שימוש',
+      sources_h: 'מקורות',
     },
     catalog: {
       title: 'קטלוג התחומים',

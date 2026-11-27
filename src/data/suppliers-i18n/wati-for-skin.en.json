@@ -1,0 +1,89 @@
+{
+  "content": {
+    "tagline": "A Korean skincare brand, 132 confirmed catalogue items.",
+    "descriptor": "Wati for Skin micro-spicule and PDRN skincare.",
+    "origin": "Korea",
+    "about": [
+      "Wati for Skin is our skincare brand at Two Tigers Corp. Our catalogue contains 132 products: essences, creams, ampoules, masks, eye and lip care, cleansing, sun care, body and hair care."
+    ],
+    "facts": [
+      "Brand: Wati for Skin (Two Tigers Corp, Korea)",
+      "132 confirmed catalogue items",
+      "Micro Spicule · Volufroshot · PDRN-Exosome"
+    ],
+    "channels": [
+      "Importers and distributors of Korean skincare",
+      "Retail chains, pharmacies and marketplaces",
+      "Online stores specialising in Korean skincare"
+    ],
+    "lines": [
+      {
+        "name": "Micro Spicule 100 Essence",
+        "note": "12 essences, 30 ml each."
+      },
+      {
+        "name": "Volufroshot & Micro Spicule Cream",
+        "note": "6 Micro Spicule creams and 6 Volufroshot creams, 50 ml each; 6 Volufroshot ampoules, 30 ml each."
+      },
+      {
+        "name": "Exosome-B Ampoule",
+        "note": "6 ampoules, 30 ml each."
+      },
+      {
+        "name": "Eye Care",
+        "note": "12 products for the eye area."
+      },
+      {
+        "name": "Mask Pack",
+        "note": "10 mask products."
+      },
+      {
+        "name": "Lip Care",
+        "note": "6 lip care products, 20 ml each."
+      },
+      {
+        "name": "Body, Hair & Hand Care",
+        "note": "2 hair care products, 4 body lotions and washes, and 4 hand and foot creams."
+      }
+    ],
+    "formats": [
+      "Essences & serums",
+      "Creams",
+      "Ampoules",
+      "Eye care",
+      "Masks & pads",
+      "Lip care",
+      "Toners",
+      "Cleansing",
+      "Sun care",
+      "Body & hair care"
+    ],
+    "exportNote": "On request; no public price list.",
+    "consentNote": "Properties are stated by the company.",
+    "seoTitle": "Wati for Skin — Korean skincare (Two Tigers Corp) · Teranova",
+    "seoDesc": "Two Tigers Corp profile: Wati for Skin micro-spicule and PDRN skincare. 132 confirmed catalogue items. B2B sourcing through Teranova."
+  },
+  "ui": {
+    "profile_sup": "Supplier profile",
+    "about_h": "About the company",
+    "for_whom": "Who it's for:",
+    "lines_h": "Product range",
+    "catalog_h": "Product catalog",
+    "tech_h": "Technology",
+    "formats_h": "Product formats",
+    "export_h": "Export and terms",
+    "terms_h": "Terms of cooperation",
+    "download_btn": "Download terms (PDF)",
+    "pres_btn": "Download presentation (PDF)",
+    "terms_disc": "On request; no public price list.",
+    "cta_h": "Interested in this supplier?",
+    "cta_d": "Get in touch — Teranova arranges negotiations, due diligence and deal support from first contact to delivery.",
+    "cta_btn": "Contact via Teranova",
+    "more": "Open profile →",
+    "verified_suppliers": "Verified suppliers",
+    "certs_h": "Certifications",
+    "certs_note": "",
+    "products_h": "Products",
+    "products_note": ""
+  }
+}

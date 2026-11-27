@@ -1,3 +1,31 @@
+import drPapirubRu from './suppliers-i18n/dr-papirub.ru.json';
+import drPapirubEn from './suppliers-i18n/dr-papirub.en.json';
+import drPapirubKo from './suppliers-i18n/dr-papirub.ko.json';
+import drPapirubZh from './suppliers-i18n/dr-papirub.zh.json';
+import drPapirubJa from './suppliers-i18n/dr-papirub.ja.json';
+import drPapirubIt from './suppliers-i18n/dr-papirub.it.json';
+import drPapirubDe from './suppliers-i18n/dr-papirub.de.json';
+import drPapirubFr from './suppliers-i18n/dr-papirub.fr.json';
+import drPapirubTr from './suppliers-i18n/dr-papirub.tr.json';
+import drPapirubEs from './suppliers-i18n/dr-papirub.es.json';
+import drPapirubPt from './suppliers-i18n/dr-papirub.pt.json';
+import drPapirubHe from './suppliers-i18n/dr-papirub.he.json';
+import drPapirubHi from './suppliers-i18n/dr-papirub.hi.json';
+import drPapirubCatalog from './suppliers-i18n/dr-papirub.catalog.json';
+import watiForSkinRu from './suppliers-i18n/wati-for-skin.ru.json';
+import watiForSkinEn from './suppliers-i18n/wati-for-skin.en.json';
+import watiForSkinKo from './suppliers-i18n/wati-for-skin.ko.json';
+import watiForSkinZh from './suppliers-i18n/wati-for-skin.zh.json';
+import watiForSkinJa from './suppliers-i18n/wati-for-skin.ja.json';
+import watiForSkinIt from './suppliers-i18n/wati-for-skin.it.json';
+import watiForSkinDe from './suppliers-i18n/wati-for-skin.de.json';
+import watiForSkinFr from './suppliers-i18n/wati-for-skin.fr.json';
+import watiForSkinTr from './suppliers-i18n/wati-for-skin.tr.json';
+import watiForSkinEs from './suppliers-i18n/wati-for-skin.es.json';
+import watiForSkinPt from './suppliers-i18n/wati-for-skin.pt.json';
+import watiForSkinHe from './suppliers-i18n/wati-for-skin.he.json';
+import watiForSkinHi from './suppliers-i18n/wati-for-skin.hi.json';
+import watiForSkinCatalog from './suppliers-i18n/wati-for-skin.catalog.json';
 import oanicRu from './suppliers-i18n/oanic.ru.json';
 import { agafarProfile } from './agafar';
 import { toneverProfile, toneverLines } from './tonever';
@@ -525,7 +553,6 @@ import twoTigersPt from './suppliers-i18n/two-tigers.pt.json';
 import twoTigersHe from './suppliers-i18n/two-tigers.he.json';
 import twoTigersHi from './suppliers-i18n/two-tigers.hi.json';
 import twoTigersAr from './suppliers-i18n/two-tigers.ar.json';
-import twoTigersCatalog from './suppliers-i18n/two-tigers.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -1468,6 +1495,63 @@ const agingTargetEn: SupplierContent = {
 };
 
 export const suppliers: SupplierProfile[] = [
+  {
+    slug: 'dr-papirub', category: 'cosmetics', country: 'kr',
+    name: 'Two Tigers Corp', brand: 'Dr.Papirub', status: 'provided',
+    // T-041: seven available identities and official packshots from accepted T-100.
+    brandColors: { deep: '#141414', sky: '#1A1A1A', accent: '#E3A62F', bg: '#FAFAFA' },
+    voice: 'clinical',
+    catalog: drPapirubCatalog as SupplierProfile['catalog'],
+    // Fixed Russian line keys bypass lossy ASCII matching in SupplierProfile.
+    lineShots: {
+      'Dr.Papirub Уход за кожей': '/img/suppliers/two-tigers/products/dr-12-1.webp',
+      'Dr.Papirub Парфюмерия': '/img/suppliers/two-tigers/products/dr-14-1.webp',
+    },
+    i18n: {
+      ru: mk(drPapirubRu as any),
+      en: mk(drPapirubEn as any),
+      ko: mk(drPapirubKo as any),
+      zh: mk(drPapirubZh as any),
+      ja: mk(drPapirubJa as any),
+      it: mk(drPapirubIt as any),
+      de: mk(drPapirubDe as any),
+      fr: mk(drPapirubFr as any),
+      tr: mk(drPapirubTr as any),
+      es: mk(drPapirubEs as any),
+      pt: mk(drPapirubPt as any),
+      he: mk(drPapirubHe as any),
+      hi: mk(drPapirubHi as any)
+    },
+  },
+
+  {
+    slug: 'wati-for-skin',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Two Tigers Corp',
+    brand: 'Wati For Skin',
+    status: 'provided',
+    // T-20261127-040: identities, properties and packshots from accepted T-100 manifest.
+    brandColors: { deep: '#241B19', sky: '#C8433A', accent: '#C8433A', bg: '#FBF6F2' },
+    voice: 'clinical',
+    catalog: watiForSkinCatalog as SupplierProfile['catalog'],
+    i18n: {
+      ru: mk(watiForSkinRu as any),
+      en: mk(watiForSkinEn as any),
+      ko: mk(watiForSkinKo as any),
+      zh: mk(watiForSkinZh as any),
+      ja: mk(watiForSkinJa as any),
+      it: mk(watiForSkinIt as any),
+      de: mk(watiForSkinDe as any),
+      fr: mk(watiForSkinFr as any),
+      tr: mk(watiForSkinTr as any),
+      es: mk(watiForSkinEs as any),
+      pt: mk(watiForSkinPt as any),
+      he: mk(watiForSkinHe as any),
+      hi: mk(watiForSkinHi as any)
+    },
+  },
+
   toneverProfile,
   agafarProfile,
   {
@@ -3339,16 +3423,16 @@ export const suppliers: SupplierProfile[] = [
     name: 'Moz Science Co., Ltd.',
     brand: 'Moz Science (모즈사이언스)',
     status: 'provided',
-    brandColors: { deep: '#1C2B3A', sky: '#E1E8EF', accent: '#4F6E8C', bg: '#F4F7FA' },
+    brandColors: { deep: '#1C2B3A', sky: '#4F6E8C', accent: '#4F6E8C', bg: '#F4F7FA' },
     voice: 'minimal',
-    /* Indirect consent only: on 06.10.2026 the company described itself as a
-       distributor (not a manufacturer) of laboratory equipment and solutions from
-       Korean and international brands, and asked for a profile form. No written
-       permission and no materials yet, so the page carries only that description.
-       The Labconco official dealer status is the company's own claim without an
-       independent source and is intentionally absent; so are brands, images,
-       prices, MOQ, certificates and contacts.
-       Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/12_MOZ_SCIENCE.md. */
+    logoUrl: '/img/suppliers/moz-science/logo.png',
+    logoAlt: 'Moz Science',
+    /* Consent and supplier presentation: 24.11.2026, messages
+       1a20b54a6306d5be / 1a20badf8f54b4d6 in the local mail archive.
+       Labconco authorised distributor status remains explicitly attributed.
+       Only company information, broad equipment categories, domestic services
+       and the supplier logo are used. No Aleris/Logic product materials,
+       product pages, prices, MOQ, lead times or personal contacts. */
     i18n: {
       ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any), ar: mk(mozScienceAr as any),
     },
@@ -3773,19 +3857,14 @@ export const suppliers: SupplierProfile[] = [
        cream, Dr.Papirub black wordmark + amber accent on white — clinical
        dermo-cosmetic look on both. No price/MOQ/lead time/contacts are
        published anywhere on this profile (T-20261123-101 criterion #4). */
+    /* T-20261127-042: the combined catalog moved into the two standalone
+       profiles below (wati-for-skin, dr-papirub) so counts aren't published
+       twice. This entry stays only as the brand-family hub for the old URL:
+       no catalog/gallery of its own (isHiddenSupplier in site.ts keeps it
+       out of catalog grids and counters), rendered by TwoTigersHub.astro
+       instead of the generic SupplierProfile. */
     brandColors: { deep: '#241B19', sky: '#C8433A', accent: '#E3A62F', bg: '#FBF6F2' },
     voice: 'clinical',
-    gallery: [
-      '/img/suppliers/two-tigers/products/wati-08-1.webp',
-      '/img/suppliers/two-tigers/products/wati-14-2.webp',
-      '/img/suppliers/two-tigers/products/wati-20-1.webp',
-      '/img/suppliers/two-tigers/products/wati-18-3.webp',
-      '/img/suppliers/two-tigers/products/wati-29-1.webp',
-      '/img/suppliers/two-tigers/products/wati-74-1.webp',
-      '/img/suppliers/two-tigers/products/dr-12-1.webp',
-      '/img/suppliers/two-tigers/products/dr-15-1.webp',
-    ],
-    catalog: twoTigersCatalog as SupplierProfile['catalog'],
     i18n: {
       ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any), ar: mk(twoTigersAr as any),
     },

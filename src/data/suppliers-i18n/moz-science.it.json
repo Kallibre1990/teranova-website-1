@@ -4,21 +4,41 @@
     "descriptor": "Moz Science è un distributore coreano di attrezzature e soluzioni da laboratorio di marchi coreani e internazionali",
     "origin": "Corea",
     "about": [
-      "Moz Science (Moz Science Co., Ltd.) è un distributore coreano di attrezzature e soluzioni da laboratorio di marchi coreani e internazionali. L'azienda non produce direttamente le attrezzature.",
-      "Così l'azienda si è descritta a Teranova il 6 ottobre 2026. Non ci sono ancora informazioni confermate sull'elenco dei marchi, sulle attrezzature e sulle condizioni commerciali, perciò non compaiono in questa pagina."
+      "Distribuiamo apparecchiature da laboratorio e soluzioni per gli ambienti di ricerca in Corea. Ci rivolgiamo ad aziende biotecnologiche, delle scienze della vita, farmaceutiche e del settore medico, oltre che a istituti di ricerca.",
+      "Secondo quanto dichiarato da Moz Science, siamo un distributore autorizzato Labconco in Corea. Questo ruolo è indicato dall’azienda nei materiali forniti a Teranova."
     ],
     "facts": [
       "Corea",
-      "Distributore, non produttore",
-      "Marchi e soluzioni su richiesta"
+      "Distributore, non produttore"
     ],
     "channels": [],
-    "lines": [],
+    "lines": [
+      {
+        "name": "Cabine di sicurezza biologica",
+        "note": ""
+      },
+      {
+        "name": "Liofilizzatori",
+        "note": ""
+      },
+      {
+        "name": "Lavatrici per vetreria da laboratorio",
+        "note": ""
+      },
+      {
+        "name": "Concentratori centrifughi",
+        "note": ""
+      },
+      {
+        "name": "Apparecchiature di ventilazione da laboratorio",
+        "note": ""
+      }
+    ],
     "tech": [],
     "formats": [
-      "Attrezzature e soluzioni da laboratorio su richiesta tramite Teranova"
+      "Assistiamo i clienti in Corea nella selezione delle apparecchiature, nella consulenza tecnica, nella fornitura, nell’installazione, nella configurazione iniziale, nella manutenzione e nel supporto tecnico post-vendita."
     ],
-    "exportNote": "Elenco dei marchi, attrezzature, certificazioni, prezzi e ordine minimo non sono pubblicati qui e vengono verificati con l'azienda su richiesta dell'acquirente.",
+    "exportNote": "Le forniture e i servizi descritti sono destinati ai clienti in Corea. Le possibilità di collaborazione fuori dalla Corea vengono discusse separatamente tramite Teranova.",
     "terms": [
       {
         "label": "Collaborazione",
@@ -29,7 +49,7 @@
         "value": "Su richiesta; non pubblicati."
       }
     ],
-    "consentNote": "Il 6 ottobre 2026, nella corrispondenza con Teranova, l'azienda si è descritta come distributore di attrezzature e soluzioni da laboratorio di marchi coreani e internazionali. Teranova non ha ancora ricevuto materiali dall'azienda, quindi questa pagina riporta solo tale descrizione. L'elenco dei marchi e delle soluzioni sarà aggiunto quando l'azienda fornirà e approverà i materiali.",
+    "consentNote": "Il 24 novembre 2026 Moz Science ha autorizzato via e-mail l’uso, la traduzione e la pubblicazione delle informazioni sull’azienda e sui servizi nel proprio profilo Teranova. La descrizione si basa sulla presentazione fornita dall’azienda; lo status di distributore Labconco è dichiarato da Moz Science.",
     "seoTitle": "Moz Science — attrezzature da laboratorio, Corea · Teranova",
     "seoDesc": "Profilo di Moz Science, distributore coreano di attrezzature e soluzioni da laboratorio di marchi coreani e internazionali. Condizioni su richiesta tramite Teranova."
   },
@@ -37,11 +57,11 @@
     "profile_sup": "Profilo del fornitore",
     "about_h": "L'azienda",
     "for_whom": "A chi si rivolge:",
-    "lines_h": "Linee di prodotto",
+    "lines_h": "Categorie di apparecchiature",
     "catalog_h": "Catalogo prodotti",
     "tech_h": "Tecnologia",
-    "formats_h": "Formati di prodotto",
-    "export_h": "Export e mercati",
+    "formats_h": "Servizi in Corea",
+    "export_h": "Area di servizio",
     "terms_h": "Condizioni di collaborazione",
     "download_btn": "Scarica le condizioni (PDF)",
     "pres_btn": "Scarica la presentazione (PDF)",

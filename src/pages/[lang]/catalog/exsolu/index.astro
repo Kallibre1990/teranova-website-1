@@ -1,0 +1,9 @@
+---
+import ExsoluPage from '../../../../components/pages/ExsoluPage.astro';
+import { exsoluDraftLocales } from '../../../../data/exsolu';
+export function getStaticPaths() {
+  return exsoluDraftLocales.filter(lang => lang !== 'ru').map(lang => ({ params: { lang }, props: { lang } }));
+}
+const { lang } = Astro.props;
+---
+<ExsoluPage lang={lang} view="company" />

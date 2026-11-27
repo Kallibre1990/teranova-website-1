@@ -4,21 +4,41 @@
     "descriptor": "Moz Science is a Korean distributor of laboratory equipment and solutions from Korean and international brands",
     "origin": "Korea",
     "about": [
-      "Moz Science (Moz Science Co., Ltd.) is a Korean distributor of laboratory equipment and solutions from Korean and international brands. The company does not manufacture equipment itself.",
-      "This is how the company described itself to Teranova on 6 October 2026. There is no confirmed information yet on its brand list, equipment or commercial terms, so they are not shown on this page."
+      "We distribute laboratory equipment and research environment solutions in Korea. We serve biotechnology, life science, pharmaceutical and medical organisations, as well as research institutions.",
+      "According to Moz Science, we are an authorised Labconco distributor in Korea. This role is stated by the company in the materials supplied to Teranova."
     ],
     "facts": [
       "Korea",
-      "Distributor, not a manufacturer",
-      "Brands and solutions on request"
+      "Distributor, not a manufacturer"
     ],
     "channels": [],
-    "lines": [],
+    "lines": [
+      {
+        "name": "Biological safety cabinets",
+        "note": ""
+      },
+      {
+        "name": "Freeze dryers",
+        "note": ""
+      },
+      {
+        "name": "Laboratory glassware washers",
+        "note": ""
+      },
+      {
+        "name": "Centrifugal concentrators",
+        "note": ""
+      },
+      {
+        "name": "Laboratory ventilation equipment",
+        "note": ""
+      }
+    ],
     "tech": [],
     "formats": [
-      "Laboratory equipment and solutions on request via Teranova"
+      "We support customers in Korea with equipment selection, technical consultation, supply, installation, initial setup, maintenance and after-sales technical support."
     ],
-    "exportNote": "Brand list, equipment, certificates, prices and minimum order are not published here and are confirmed with the company on a buyer's request.",
+    "exportNote": "The supply and services described here are for customers in Korea. Cooperation outside Korea is discussed separately through Teranova.",
     "terms": [
       {
         "label": "Cooperation",
@@ -29,7 +49,7 @@
         "value": "On request; not published."
       }
     ],
-    "consentNote": "On 6 October 2026, in correspondence with Teranova, the company described itself as a distributor of laboratory equipment and solutions from Korean and international brands. Teranova has not yet received materials from the company, so this page carries only that description. The list of brands and solutions will be added once the company provides and approves materials.",
+    "consentNote": "In correspondence dated 24 November 2026, Moz Science permitted the use, translation and publication of company and service information in its Teranova profile. This description is based on the company presentation supplied to Teranova; the Labconco distributor status is attributed to Moz Science.",
     "seoTitle": "Moz Science — laboratory equipment, Korea · Teranova",
     "seoDesc": "Profile of Moz Science, a Korean distributor of laboratory equipment and solutions from Korean and international brands. Terms on request via Teranova."
   },
@@ -37,11 +57,11 @@
     "profile_sup": "Supplier profile",
     "about_h": "About the company",
     "for_whom": "Who it's for:",
-    "lines_h": "Product range",
+    "lines_h": "Equipment categories",
     "catalog_h": "Product catalog",
     "tech_h": "Technology",
-    "formats_h": "Product formats",
-    "export_h": "Export and terms",
+    "formats_h": "Services in Korea",
+    "export_h": "Service territory",
     "terms_h": "Terms of cooperation",
     "download_btn": "Download terms (PDF)",
     "pres_btn": "Download presentation (PDF)",

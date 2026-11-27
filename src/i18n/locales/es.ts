@@ -228,6 +228,7 @@ const es: DeepPartial<UIDict> = {
       related_h: "Relacionados",
       supplier_articles_h: "Artículos útiles",
       uses_h: "Dónde se utiliza",
+      sources_h: "Fuentes",
     },
     catalog: {
       title: "Catálogo de áreas",
@@ -492,6 +493,9 @@ const es: DeepPartial<UIDict> = {
   },
 
   footer: {
+    marine_title: "Nuestras otras actividades",
+    marine_name: "Teranova Marine",
+    marine_desc: "Repuestos para yates y embarcaciones",
     blurb: "Conectamos a fabricantes coreanos verificados con compradores de todo el mundo y acompañamos toda la operación.",
     nav_title: "Navegación",
     contact_title: "Contacto",

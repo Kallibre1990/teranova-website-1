@@ -1,0 +1,60 @@
+{
+  "content": {
+    "tagline": "Koreanische Hautpflegemarke, 7 bestätigte Katalogartikel.",
+    "descriptor": "Dr.Papirub mit PDRN-Exosom-Pflege.",
+    "origin": "Korea",
+    "about": [
+      "Dr.Papirub ist unsere Marke bei Two Tigers Corp. Unser Katalog umfasst sieben Produkte: sechs für die Gesichts- und Halspflege und einen Duft."
+    ],
+    "facts": [
+      "Marke: Dr.Papirub (Two Tigers Corp, Korea)",
+      "7 bestätigte Katalogartikel: 6 Produkte für Gesicht und Hals und 1 Duft"
+    ],
+    "channels": [
+      "Importeure und Distributoren koreanischer Hautpflege",
+      "Einzelhandelsketten, Apotheken und Marktplätze",
+      "Onlineshops mit Spezialisierung auf koreanische Hautpflege"
+    ],
+    "lines": [
+      {
+        "name": "Dr.Papirub Hautpflege",
+        "note": "6 Produkte für Gesicht und Hals."
+      },
+      {
+        "name": "Dr.Papirub Düfte",
+        "note": "1 Duft, Woody & Forest Eau de Parfum, 50 ml."
+      }
+    ],
+    "formats": [
+      "Gesichts- und Halspflege",
+      "Duft"
+    ],
+    "exportNote": "Auf Anfrage; keine öffentliche Preisliste.",
+    "consentNote": "Die Eigenschaften beruhen auf Angaben des Unternehmens.",
+    "seoTitle": "Dr.Papirub — koreanische Hautpflege (Two Tigers Corp) · Teranova",
+    "seoDesc": "Two-Tigers-Corp-Profil: Dr.Papirub mit PDRN-Exosom-Pflege. 7 bestätigte Katalogartikel. B2B-Sourcing über Teranova."
+  },
+  "ui": {
+    "profile_sup": "Lieferantenprofil",
+    "about_h": "Über das Unternehmen",
+    "for_whom": "Für wen geeignet:",
+    "lines_h": "Produktlinien",
+    "catalog_h": "Produktkatalog",
+    "tech_h": "Technologie",
+    "formats_h": "Produktformate",
+    "export_h": "Export und Märkte",
+    "terms_h": "Bedingungen der Zusammenarbeit",
+    "download_btn": "Bedingungen herunterladen (PDF)",
+    "pres_btn": "Präsentation herunterladen (PDF)",
+    "terms_disc": "Auf Anfrage; keine öffentliche Preisliste.",
+    "cta_h": "Interessiert Sie dieser Lieferant?",
+    "cta_d": "Schreiben Sie uns — Teranova organisiert Verhandlung, Prüfung und das gesamte Geschäft vom ersten Kontakt bis zur Lieferung.",
+    "cta_btn": "Über Teranova kontaktieren",
+    "more": "Profil öffnen →",
+    "verified_suppliers": "Geprüfte Lieferanten",
+    "certs_h": "Zertifizierungen",
+    "certs_note": "",
+    "products_h": "Produkte",
+    "products_note": ""
+  }
+}
