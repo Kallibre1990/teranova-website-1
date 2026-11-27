@@ -1399,6 +1399,11 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#141414', sky: '#1A1A1A', accent: '#E3A62F', bg: '#FAFAFA' },
     voice: 'clinical',
     catalog: drPapirubCatalog as SupplierProfile['catalog'],
+    // Fixed Russian line keys bypass lossy ASCII matching in SupplierProfile.
+    lineShots: {
+      'Dr.Papirub Уход за кожей': '/img/suppliers/two-tigers/products/dr-12-1.webp',
+      'Dr.Papirub Парфюмерия': '/img/suppliers/two-tigers/products/dr-14-1.webp',
+    },
     i18n: {
       ru: mk(drPapirubRu as any),
       en: mk(drPapirubEn as any),
