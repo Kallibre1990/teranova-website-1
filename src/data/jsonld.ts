@@ -21,6 +21,7 @@ export function organizationNode(lang: Lang) {
     '@type': 'Organization',
     '@id': ORG_ID,
     name: 'Teranova Group',
+    inLanguage: t.htmlLang,
     // Решение Антона 21.09.2026: пока СКРЫТЬ AIA Group Ltd. (флаг showAia) и
     // пусанский адрес (флаг showBusan) из разметки. Всё сохранено в true-ветках —
     // вернуть = поставить нужный флаг в true. Пока AIA скрыт: без legalName и без
@@ -116,6 +117,7 @@ export function faqJsonLd(lang: Lang) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    inLanguage: t.htmlLang,
     mainEntity: t.pages.faq.items.map((it) => ({
       '@type': 'Question',
       name: it.q,
@@ -127,6 +129,7 @@ export function faqJsonLd(lang: Lang) {
 /** BreadcrumbList for a simple second-level page (Home › Page). */
 export function pageBreadcrumbJsonLd(lang: Lang, name: string, path: string) {
   const base = site.domain;
+  const t = ui[lang];
   const crumbs = [
     { name: 'Teranova Group', path: '/' },
     { name, path },
@@ -134,6 +137,7 @@ export function pageBreadcrumbJsonLd(lang: Lang, name: string, path: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
+    inLanguage: t.htmlLang,
     itemListElement: crumbs.map((c, i) => ({
       '@type': 'ListItem',
       position: i + 1,
@@ -157,6 +161,7 @@ export function supplierJsonLd(lang: Lang, profile: SupplierProfile) {
       name: profile.name,
       alternateName: profile.brand,
       url,
+      inLanguage: t.htmlLang,
       description: `${c.descriptor.replace(/[.。]\s*$/, '')}. ${c.about[0] ?? ''}`,
       // Country comes from the profile, not a constant: suppliers outside Korea
       // (cn, in) must not be published as Korean companies. Omitted means Korea.
@@ -171,6 +176,7 @@ export function supplierJsonLd(lang: Lang, profile: SupplierProfile) {
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
+      inLanguage: t.htmlLang,
       itemListElement: [
         { name: 'Teranova Group', path: '/' },
         { name: t.nav.catalog, path: '/catalog' },
@@ -193,6 +199,7 @@ export function supplierLineJsonLd(lang: Lang, page: SupplierLinePage) {
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
+      inLanguage: t.htmlLang,
       itemListElement: [
         { name: 'Teranova Group', path: '/' },
         { name: t.nav.catalog, path: '/catalog' },
@@ -207,6 +214,7 @@ export function supplierLineJsonLd(lang: Lang, page: SupplierLinePage) {
       name: supplier ? `${lineName} — ${supplier.brand}` : lineName,
       description: c.seoDesc,
       url: base + localizePath(`/catalog/${page.supplierSlug}/${page.slug}`, lang),
+      inLanguage: t.htmlLang,
       hasPart: page.items.map((it) => ({ '@type': 'Product', name: it.name, brand: { '@type': 'Brand', name: supplier?.brand ?? page.supplierSlug }, category: catName })),
     },
   ];
@@ -234,6 +242,7 @@ export function blogJsonLd(lang: Lang) {
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
+      inLanguage: t.htmlLang,
       itemListElement: [
         { name: 'Teranova Group', path: '/' },
         { name: t.nav.blog, path: '/blog' },
@@ -267,6 +276,7 @@ export function blogPostJsonLd(lang: Lang, post: BlogPost) {
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
+      inLanguage: t.htmlLang,
       itemListElement: [
         { name: 'Teranova Group', path: '/' },
         { name: t.nav.blog, path: '/blog' },
@@ -288,6 +298,7 @@ export function breadcrumbJsonLd(lang: Lang, group: { key: string; name: string 
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
+    inLanguage: t.htmlLang,
     itemListElement: crumbs.map((c, i) => ({
       '@type': 'ListItem',
       position: i + 1,
