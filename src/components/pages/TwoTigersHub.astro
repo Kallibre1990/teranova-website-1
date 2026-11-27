@@ -1,0 +1,69 @@
+---
+/* Two Tigers Corp used to be one combined profile covering both of its
+   brands. Split into two standalone profiles on 27.11.2026 (T-20261127-021,
+   -040, -041) so each brand's catalog and counts stand on their own. This
+   hub keeps the old /catalog/two-tigers/ URL alive without a 404 and
+   without re-publishing either brand's catalog here — it only carries the
+   company-level description and links onward (T-20261127-042). */
+import type { Lang } from '../../i18n/ui';
+import { localizePath } from '../../i18n/utils';
+import { supplierBySlug, supplierContent } from '../../data/suppliers';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const hub = supplierBySlug('two-tigers')!;
+const hc = supplierContent(hub, lang);
+
+const brands = (['wati-for-skin', 'dr-papirub'] as const).map((slug) => {
+  const profile = supplierBySlug(slug)!;
+  const c = supplierContent(profile, lang);
+  return {
+    slug,
+    brand: profile.brand,
+    descriptor: c.descriptor,
+    more: c.ui.more,
+    img: profile.catalog?.[0]?.items?.[0]?.img,
+  };
+});
+---
+
+<article class="tt">
+  <header class="tt-hero wrap">
+    <h1>Two Tigers Corp</h1>
+    <p class="tt-lead">{hc.descriptor}</p>
+    <p class="tt-about">{hc.about[0]}</p>
+  </header>
+
+  <section class="tt-brands wrap" aria-label={hc.ui.about_h}>
+    {brands.map((b) => (
+      <a class="tt-card" href={localizePath(`/catalog/${b.slug}`, lang)}>
+        {b.img && <img class="tt-card__img" src={b.img} alt={b.brand} width="320" height="320" loading="lazy" />}
+        <div class="tt-card__body">
+          <h2 lang="en">{b.brand}</h2>
+          <p>{b.descriptor}</p>
+          <span class="tt-card__more">{b.more}</span>
+        </div>
+      </a>
+    ))}
+  </section>
+</article>
+
+<style>
+  .tt { --tt-ink: oklch(24% .03 35); --tt-muted: oklch(46% .02 40); --tt-paper: #FBF6F2; --tt-line: oklch(88% .02 40); --tt-accent: #C8433A; color: var(--tt-ink); background: var(--tt-paper); font-size: 1rem; line-height: 1.7; }
+  .tt *, .tt *::before, .tt *::after { box-sizing: border-box; }
+  .tt :is(h1, h2, p) { margin: 0; }
+  .tt a { color: inherit; text-decoration: none; }
+  .tt-hero { padding-block: 64px 48px; max-width: 70ch; }
+  .tt-hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.1; letter-spacing: -.03em; font-weight: 650; }
+  .tt-lead { margin-top: 20px; font-size: 1.15rem; font-weight: 600; color: var(--tt-accent); }
+  .tt-about { margin-top: 16px; color: var(--tt-muted); max-width: 62ch; }
+  .tt-brands { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding-block: 0 72px; }
+  .tt-card { display: flex; flex-direction: column; background: white; border: 1px solid var(--tt-line); border-radius: 18px; overflow: hidden; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+  .tt-card:hover { transform: translateY(-3px); border-color: var(--tt-accent); box-shadow: 0 14px 30px oklch(24% .03 35 / 12%); }
+  .tt-card__img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--tt-paper); }
+  .tt-card__body { padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .tt-card__body h2 { font-size: 1.3rem; font-weight: 650; letter-spacing: -.01em; }
+  .tt-card__body p { color: var(--tt-muted); font-size: .95rem; flex: 1; }
+  .tt-card__more { margin-top: auto; font-weight: 600; color: var(--tt-accent); font-size: .9rem; }
+  @media (max-width: 640px) { .tt-hero { padding-block: 40px 32px; } .tt-brands { grid-template-columns: 1fr; padding-block: 0 48px; } }
+</style>

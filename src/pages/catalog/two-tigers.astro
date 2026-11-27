@@ -1,17 +1,27 @@
 ---
-/* Профиль поставщика: two-tigers — Two Tigers Corp, бренды Wati for Skin и Dr.Papirub.
-   Размещение подтверждено компанией (23.11.2026) и прямой командой Ирины (T-20261123-097). */
+/* Two Tigers Corp — brand-family hub. The combined profile split into
+   wati-for-skin and dr-papirub on 27.11.2026 (T-20261127-021/040/041); this
+   keeps the old URL answering (no 404) without re-publishing either brand's
+   catalog or product count here (T-20261127-042). */
 import Base from '../../layouts/Base.astro';
-import SupplierProfile from '../../components/pages/SupplierProfile.astro';
+import TwoTigersHub from '../../components/pages/TwoTigersHub.astro';
 import { supplierBySlug, supplierContent } from '../../data/suppliers';
-import { supplierJsonLd } from '../../data/jsonld';
+import { site } from '../../data/site';
+import { localizePath } from '../../i18n/utils';
 
 const lang = 'ru' as const;
 const profile = supplierBySlug('two-tigers')!;
 const c = supplierContent(profile, lang);
-const jsonLd = supplierJsonLd(lang, profile);
+const url = site.domain + localizePath(`/catalog/${profile.slug}`, lang);
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: profile.name,
+  url,
+  description: c.descriptor,
+}];
 ---
 
-<Base lang={lang} path={`/catalog/${profile.slug}`} title={c.seoTitle} description={c.seoDesc} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd}>
-  <SupplierProfile lang={lang} profile={profile} />
+<Base lang={lang} path={`/catalog/${profile.slug}`} title="Two Tigers Corp — Wati for Skin & Dr.Papirub · Teranova" description={c.descriptor} image={`/brand/og-${profile.slug}.png`} jsonLd={jsonLd} noindex={true}>
+  <TwoTigersHub lang={lang} />
 </Base>

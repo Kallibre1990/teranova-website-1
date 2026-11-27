@@ -519,7 +519,6 @@ import twoTigersEs from './suppliers-i18n/two-tigers.es.json';
 import twoTigersPt from './suppliers-i18n/two-tigers.pt.json';
 import twoTigersHe from './suppliers-i18n/two-tigers.he.json';
 import twoTigersHi from './suppliers-i18n/two-tigers.hi.json';
-import twoTigersCatalog from './suppliers-i18n/two-tigers.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
 import veganNatureKo from './suppliers-i18n/vegan-nature.ko.json';
@@ -3797,19 +3796,14 @@ export const suppliers: SupplierProfile[] = [
        cream, Dr.Papirub black wordmark + amber accent on white — clinical
        dermo-cosmetic look on both. No price/MOQ/lead time/contacts are
        published anywhere on this profile (T-20261123-101 criterion #4). */
+    /* T-20261127-042: the combined catalog moved into the two standalone
+       profiles below (wati-for-skin, dr-papirub) so counts aren't published
+       twice. This entry stays only as the brand-family hub for the old URL:
+       no catalog/gallery of its own (isHiddenSupplier in site.ts keeps it
+       out of catalog grids and counters), rendered by TwoTigersHub.astro
+       instead of the generic SupplierProfile. */
     brandColors: { deep: '#241B19', sky: '#C8433A', accent: '#E3A62F', bg: '#FBF6F2' },
     voice: 'clinical',
-    gallery: [
-      '/img/suppliers/two-tigers/products/wati-08-1.webp',
-      '/img/suppliers/two-tigers/products/wati-14-2.webp',
-      '/img/suppliers/two-tigers/products/wati-20-1.webp',
-      '/img/suppliers/two-tigers/products/wati-18-3.webp',
-      '/img/suppliers/two-tigers/products/wati-29-1.webp',
-      '/img/suppliers/two-tigers/products/wati-74-1.webp',
-      '/img/suppliers/two-tigers/products/dr-12-1.webp',
-      '/img/suppliers/two-tigers/products/dr-15-1.webp',
-    ],
-    catalog: twoTigersCatalog as SupplierProfile['catalog'],
     i18n: {
       ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any),
     },

@@ -61,6 +61,9 @@ export const hiddenSupplierSlugs = [
   'du-cosmetic',
   'hiyo',
   'toptrend',
+  // Split into wati-for-skin + dr-papirub (T-20261127-042); kept only as the
+  // brand-family hub at its old URL, out of catalog grids/counters.
+  'two-tigers',
 ] as const;
 export const isHiddenSupplier = (slug: string): boolean =>
   (hiddenSupplierSlugs as readonly string[]).includes(slug);

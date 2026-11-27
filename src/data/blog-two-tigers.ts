@@ -1,7 +1,8 @@
-/* Two Tigers Corp articles. Facts come from the brand's own catalogue, confirmed in
-   T-20261123-100/101/108 (sources.json, catalog-manifest.json, two-tigers.catalog.json,
-   two-tigers.*.json). No ingredient, clinical or formula claim beyond what the brand's
-   catalogue states; prices, MOQ, lead time and private contacts are excluded. */
+/* Retired (T-20261127-042): unpublished from blog.ts. Written before the brand
+   split for the old combined catalogue — counts (140 total, 8 Dr.Papirub) and
+   the dr-papirub-range article's product list are stale, and that article
+   still names the discontinued Retinol Niacinamide Serum. Do not re-publish
+   as-is; T-20261127-022 writes the correct per-brand articles from scratch. */
 import type { BlogPost } from './blog';
 
 type Copy = { title: string; excerpt: string; seoTitle: string; seoDesc: string; h: string; p: string };
