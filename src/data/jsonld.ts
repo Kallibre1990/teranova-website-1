@@ -264,7 +264,10 @@ export function blogPostJsonLd(lang: Lang, post: BlogPost) {
       url,
       mainEntityOfPage: url,
       ...(post.hero ? { image: base + post.hero } : {}),
-      author: { '@id': ORG_ID },
+      author: post.brandAuthor ? {
+        '@type': 'Organization', name: post.brandAuthor,
+        url: base + localizePath(`/catalog/${post.supplier}`, lang),
+      } : { '@id': ORG_ID },
       publisher: { '@id': ORG_ID },
     },
     {
