@@ -1469,7 +1469,7 @@ export const suppliers: SupplierProfile[] = [
     category: 'cosmetics',
     country: 'kr',
     name: 'Two Tigers Corp',
-    brand: 'Wati for Skin',
+    brand: 'Wati For Skin',
     status: 'provided',
     // T-20261127-040: identities, properties and packshots from accepted T-100 manifest.
     brandColors: { deep: '#241B19', sky: '#C8433A', accent: '#C8433A', bg: '#FBF6F2' },
