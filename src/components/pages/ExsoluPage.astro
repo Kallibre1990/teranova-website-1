@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import ExsoluDraft from './ExsoluDraft.astro';
 import { exsoluContent, type ExsoluLocale, type ExsoluView } from '../../data/exsolu';
 import { localizePath } from '../../i18n/utils';
+import { rejectedProductImages } from '../../data/exsolu-storefront';
 interface Props { lang: ExsoluLocale; view: ExsoluView }
 const { lang, view } = Astro.props;
 const c = exsoluContent(lang);
@@ -15,8 +16,9 @@ const links = [
   { view: 'skincare', path: '/catalog/exsolu/skincare', label: c.skincare },
 ];
 const site = 'https://teranovagroup.com';
-const url = site + localizePath(path, lang);
-const companyUrl = site + localizePath('/catalog/exsolu', lang);
+const absoluteUrl = (path: string) => site + localizePath(path, lang).replace(/\/?$/, '/');
+const url = absoluteUrl(path);
+const companyUrl = absoluteUrl('/catalog/exsolu');
 const organization = {
   '@context': 'https://schema.org', '@type': 'Organization',
   '@id': companyUrl + '#organization', name: 'NOVAMEDINTL',
@@ -26,13 +28,14 @@ const organization = {
 const breadcrumb = {
   '@context': 'https://schema.org', '@type': 'BreadcrumbList',
   itemListElement: (view === 'company' ? [links[0]] : [links[0], links.find(link => link.view === view)!])
-    .map((link, i) => ({ '@type': 'ListItem', position: i + 1, name: link.label, item: site + localizePath(link.path, lang) })),
+    .map((link, i) => ({ '@type': 'ListItem', position: i + 1, name: link.label, item: absoluteUrl(link.path) })),
 };
 const products = view === 'company' ? [] : (view === 'skin-boosters' ? c.boosters : c.skincareProducts)
   .map(product => ({
     '@context': 'https://schema.org', '@type': 'Product',
     '@id': url + '#' + product.id, name: product.name,
-    description: product.description, image: site + product.image,
+    description: product.description,
+    ...(!rejectedProductImages.has(product.id) ? { image: site + product.image } : {}),
     brand: { '@type': 'Brand', name: 'EXSOLU' },
     manufacturer: { '@id': companyUrl + '#organization' },
   }));

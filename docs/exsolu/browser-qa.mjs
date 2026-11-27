@@ -17,7 +17,7 @@ try {
     throw Error('PLAYWRIGHT_MODULE must name an already installed absolute module path');
   }
   const { chromium } = await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE).href);
-  browser = await chromium.launch(); // Fresh temporary profile; no user's browser/account.
+  browser = await chromium.launch({ ...(process.env.PLAYWRIGHT_EXECUTABLE ? { executablePath: process.env.PLAYWRIGHT_EXECUTABLE } : {}) }); // Fresh temporary profile; no user's browser/account.
   const context = await browser.newContext();
   await context.route('**/*', route => {
     const url = new URL(route.request().url());
@@ -34,7 +34,7 @@ try {
   const langs = ['ru', 'en', 'ko', 'ja', 'zh', 'de', 'fr', 'it', 'es', 'pt', 'tr'];
   const routeFor = (lang, view = '') => `${lang === 'ru' ? '' : '/' + lang}/catalog/exsolu/${view ? view + '/' : ''}`;
   for (const lang of langs) for (const view of ['', 'skin-boosters', 'skincare']) {
-    for (const width of [320, 390, 600, 680, 1280]) {
+    for (const width of [320, 390, 600, 680, 860, 940, 1280]) {
       runtime.length = 0;
       await page.setViewportSize({ width, height: width === 320 ? 568 : 900 });
       const response = await page.goto(base + routeFor(lang, view), { waitUntil: 'networkidle' });
