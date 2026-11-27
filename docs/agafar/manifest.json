@@ -180,5 +180,19 @@
     "pages": 1,
     "language": "hi",
     "kind": "terms"
+  },
+  {
+    "path": "public/docs/agafar-presentation-ar.pdf",
+    "sha256": "b6fbdcc7ed6b30beee42d156f51fa00be301fd2434bbb33737293a2abf822d6f",
+    "pages": 16,
+    "language": "ar",
+    "kind": "presentation"
+  },
+  {
+    "path": "public/docs/agafar-terms-ar.pdf",
+    "sha256": "02ffd10ea1aa5524c3ed3bad67b4fc08eecc67140af18fd2777ae556bfe29deb",
+    "pages": 1,
+    "language": "ar",
+    "kind": "terms"
   }
 ]

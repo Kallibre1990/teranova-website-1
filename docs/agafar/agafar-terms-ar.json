@@ -1,0 +1,154 @@
+{
+  "language": "ar",
+  "kind": "terms",
+  "pages": [
+    {
+      "page": 1,
+      "text": [
+        {
+          "value": "AGAFAR",
+          "box": [
+            42,
+            27,
+            285,
+            47
+          ],
+          "size": 9,
+          "bottom": 41.15000057220459,
+          "direction": "ltr"
+        },
+        {
+          "value": "TERANOVA GROUP",
+          "box": [
+            350,
+            27,
+            553,
+            47
+          ],
+          "size": 8,
+          "bottom": 39.80000019073486,
+          "direction": "ltr"
+        },
+        {
+          "value": "Teranova Group · 01",
+          "box": [
+            42,
+            808,
+            553,
+            825
+          ],
+          "size": 8,
+          "bottom": 820.8000001907349,
+          "direction": "ltr"
+        },
+        {
+          "value": "كيف نعمل",
+          "box": [
+            42,
+            65,
+            553,
+            137
+          ],
+          "size": 23,
+          "bottom": 98.05000305175781,
+          "direction": "rtl"
+        },
+        {
+          "value": "تجمع AGAFAR Medical Beauty Group ثلاث علامات كورية للعناية بالبشرة وأجهزة تجميل متخصّصة.",
+          "box": [
+            42,
+            154,
+            553,
+            265
+          ],
+          "size": 14,
+          "bottom": 193.79999923706055,
+          "direction": "rtl"
+        },
+        {
+          "value": "اختاروا منتجات AGAFAR",
+          "box": [
+            42,
+            219.79999923706055,
+            553,
+            307.79999923706055
+          ],
+          "size": 20,
+          "bottom": 248.79999923706055,
+          "direction": "rtl"
+        },
+        {
+          "value": "أخبرونا عن سوقكم وقناة بيعكم والمنتجات أو الأجهزة التي تهمّكم. تنسّق Teranova الطلب مع شركتنا.",
+          "box": [
+            42,
+            264.79999923706055,
+            553,
+            414.79999923706055
+          ],
+          "size": 13,
+          "bottom": 284.3500003814697,
+          "direction": "rtl"
+        },
+        {
+          "value": "الأسعار والكميات الدنيا للطلب وشروط التوريد متاحة عند الطلب عبر Teranova.",
+          "box": [
+            42,
+            308.3500003814697,
+            553,
+            418.3500003814697
+          ],
+          "size": 13,
+          "bottom": 327.9000015258789,
+          "direction": "rtl"
+        },
+        {
+          "value": "تُباع منتجاتنا في كوريا وهونغ كونغ والصين وتايلاند واليابان والولايات المتحدة والفلبين وماليزيا والمملكة المتحدة والإمارات العربية المتحدة وكندا وأسواق أخرى. تؤكّد Teranova مع كل طلب توفّر المنتج للمنطقة المطلوبة وترتيبات التوزيع المعمول بها.",
+          "box": [
+            42,
+            351.9000015258789,
+            553,
+            740
+          ],
+          "size": 11.5,
+          "bottom": 400.4750061035156,
+          "direction": "rtl"
+        },
+        {
+          "value": "https://teranovagroup.com/ar/catalog/agafar/",
+          "box": [
+            42,
+            418.4750061035156,
+            553,
+            789
+          ],
+          "size": 10,
+          "bottom": 433.9750061035156,
+          "direction": "ltr"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "inputs": [
+    {
+      "path": "src/data/suppliers-i18n/agafar.ar.json",
+      "sha256": "180a584ea55e5ed8d1f0990f8711fb1518488d41d67623e6f89b3ebfa6609981"
+    },
+    {
+      "path": "src/data/suppliers-i18n/agafar.catalog.json",
+      "sha256": "5ae3b1f6800baf97fb4d01c13dbe010b5310e508c72386ea772bd9e01bc0bcd7"
+    },
+    {
+      "path": "src/data/agafar.ts",
+      "sha256": "a39c0793ba9c4ef2dec2ce41c30b914eeddfc131303c1a2c3284f26976f987ed"
+    },
+    {
+      "path": "src/i18n/locale-policy.mjs",
+      "sha256": "ec1bc120ea64bd989e59f7998341be38ebc9fe716aa244886c84226c15efe163"
+    },
+    {
+      "path": "scripts/gen-agafar-pdfs.py",
+      "sha256": "0756857b4d92f99f986eedbf0d2d3f0141a293e0def67f80fcb8242f9a882992"
+    }
+  ]
+}

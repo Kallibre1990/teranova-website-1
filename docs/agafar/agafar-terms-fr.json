@@ -140,15 +140,15 @@
     },
     {
       "path": "src/data/agafar.ts",
-      "sha256": "a9f4058528e1923936ef978a2dc64497bbe6aee7c94ae398fe5d8d460ccffcb5"
+      "sha256": "a39c0793ba9c4ef2dec2ce41c30b914eeddfc131303c1a2c3284f26976f987ed"
     },
     {
       "path": "src/i18n/locale-policy.mjs",
-      "sha256": "53aaf875684b455b1a6c0bac059dae6f3865732286b72015647f0cc8a28f0719"
+      "sha256": "ec1bc120ea64bd989e59f7998341be38ebc9fe716aa244886c84226c15efe163"
     },
     {
       "path": "scripts/gen-agafar-pdfs.py",
-      "sha256": "2657a6b96eebf18b5bd0f463eb56360dd3277ebaa31c3472536b22366ddb7713"
+      "sha256": "0756857b4d92f99f986eedbf0d2d3f0141a293e0def67f80fcb8242f9a882992"
     }
   ]
 }
