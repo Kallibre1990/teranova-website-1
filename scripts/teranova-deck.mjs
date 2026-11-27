@@ -23,7 +23,7 @@ const page = (lbl, title, body, extra = '') => `
     <div class="rule"></div>
     ${body}
     ${extra}
-    <div class="foot"><span>Teranova Group · AIA Group Ltd.</span><span>teranovagroup.com</span></div>
+    <div class="foot"><span>Teranova Group Co., Ltd.</span><span>teranovagroup.com</span></div>
   </div></div>`;
 
 const cards = (arr) =>
@@ -46,7 +46,7 @@ export function teranovaDeckHTML(lang, T, stats) {
       <div class="desc">${esc(T.descriptor)}</div>
     </div>
     <div class="cover__t" style="flex:0 0 auto;padding-bottom:20mm;opacity:.9">
-      <div class="desc" style="margin-top:0;font-weight:700">Teranova Group · AIA Group Ltd. · Korea</div>
+      <div class="desc" style="margin-top:0;font-weight:700">Teranova Group Co., Ltd. · Korea</div>
       <div class="desc" style="margin-top:2mm">info@teranovagroup.com · teranovagroup.com</div>
     </div>
   </div>`);

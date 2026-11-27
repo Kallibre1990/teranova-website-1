@@ -12,6 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import { companyDeckHTML } from './company-deck.mjs';
 import { TEXTS } from './company-deck-text.mjs';
+import { langCount } from './deck-lang-list.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -41,7 +42,7 @@ function stats() {
       if (e.isDirectory()) walk(path.join(d, e.name)); else if (e.name === 'index.html') pages++; } };
     walk(dist);
   }
-  return { total, korea, posts, pdfs, pages };
+  return { total, korea, posts, pdfs, pages, langs: langCount };
 }
 
 async function toPDF(html, outfile) {

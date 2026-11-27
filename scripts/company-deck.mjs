@@ -176,7 +176,7 @@ export function companyDeckCSS() {
   `;
 }
 
-const foot = () => `<div class="foot"><span>Teranova Group · AIA Group Ltd.</span><span>teranovagroup.com</span></div>`;
+const foot = () => `<div class="foot"><span>Teranova Group Co., Ltd.</span><span>teranovagroup.com</span></div>`;
 
 const page = (lbl, title, body, opts = {}) => `
   <div class="page${opts.dark ? ' dark' : ''}">

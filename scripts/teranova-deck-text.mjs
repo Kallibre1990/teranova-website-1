@@ -2,7 +2,13 @@
    цифра производителей приходила из данных, а не из памяти автора.
 
    Источники текста: страницы сайта «О компании», «Поставщикам», «Как мы
-   проверяем», «Вопросы» и Teranova_CHARTER. Ничего сверх них не добавлено. */
+   проверяем», «Вопросы» и Teranova_CHARTER. Ничего сверх них не добавлено.
+
+   Юридическое лицо — Teranova Group Co., Ltd.; основатель на публике не
+   называется (решение по сайту: Антон скрыт). Визиты на производство
+   атрибутируются команде, не лично основателю — как на живом сайте
+   (card_visited_t/visit_body в src/i18n/locales). */
+import { langNamesList } from './deck-lang-list.mjs';
 
 export const TEXTS = {
   ko: (s) => ({
@@ -12,16 +18,16 @@ export const TEXTS = {
 
     who_h: '저희는 누구인가',
     who: [
-      'Teranova Group은 한국에 등록된 무역 플랫폼입니다. 법인은 AIA Group Ltd.이며 창업자는 안톤 마델카노프입니다. 저희는 바이어 측에서 일합니다. 파트너가 요구 사항을 가져오면 실제로 그 조건에 맞는 제조사를 찾고, 협상·서류·물류·통관·번역까지 거래 전 과정을 진행합니다.',
+      'Teranova Group은 한국에 등록된 무역 플랫폼입니다. 법인은 Teranova Group Co., Ltd.입니다. 저희는 바이어 측에서 일합니다. 파트너가 요구 사항을 가져오면 실제로 그 조건에 맞는 제조사를 찾고, 협상·서류·물류·통관·번역까지 거래 전 과정을 진행합니다.',
       '재고를 보유하지 않으며 재판매도 하지 않습니다. 성사된 거래에 대한 수수료로 보수를 받기 때문에 특정 제조사를 무리하게 밀 이유가 없습니다. 요구 사항이 제조사의 실제 생산 범위와 맞지 않으면 그대로 말씀드립니다.',
-      `현재 플랫폼에는 ${s.total}개 제조사가 게재되어 있으며 그중 ${s.korea}곳이 한국 기업입니다. 각 제조사마다 회사 프로필과 제품 페이지가 11개 언어로 있으며, 제조사가 제공한 자료로 제작하고 서면 동의를 받은 뒤에만 게재합니다.`,
+      `현재 플랫폼에는 ${s.total}개 제조사가 게재되어 있으며 그중 ${s.korea}곳이 한국 기업입니다. 각 제조사마다 회사 프로필과 제품 페이지가 ${s.langs}개 언어로 있으며, 제조사가 제공한 자료로 제작하고 서면 동의를 받은 뒤에만 게재합니다.`,
     ],
-    who_facts: ['한국 등록 법인', '재고 없음, 재판매 없음', '성사된 거래에 대한 수수료', '11개 언어'],
+    who_facts: ['한국 등록 법인', '재고 없음, 재판매 없음', '성사된 거래에 대한 수수료', `${s.langs}개 언어`],
 
     listing_h: '게재가 제조사에 주는 것',
     listing_lead: '게재는 제조사에 무료이며, 어떤 의무도 발생하지 않습니다.',
     listing: [
-      { n: '11개 언어 프로필', d: '영어, 한국어, 중국어, 일본어, 러시아어, 스페인어, 포르투갈어, 독일어, 프랑스어, 이탈리아어, 터키어로 된 회사 페이지와 제품 페이지. 바이어가 자기 언어로 귀사를 읽습니다.' },
+      { n: `${s.langs}개 언어 프로필`, d: `${langNamesList('ko')}로 된 회사 페이지와 제품 페이지. 바이어가 자기 언어로 귀사를 읽습니다.` },
       { n: '귀사 자료로 만든 문서', d: '페이지와 같은 데이터로 생성되는 거래 조건서와 소개 자료. 바이어가 내려받아 사내에서 회람할 수 있습니다.' },
       { n: '카드가 아니라 이야기', d: '제품 뒤에 있는 기술을 글로 설명합니다. 브랜드를 처음 접한 바이어도 무엇이 다른지 이해하게 됩니다.' },
       { n: '연락처는 공개하지 않습니다', d: '제조사의 직접 연락처는 게재하지 않습니다. 문의는 먼저 저희에게 오고, 저희가 확인한 뒤 전달합니다.' },
@@ -31,7 +37,7 @@ export const TEXTS = {
     verify_h: '제조사를 어떻게 소개하는가',
     verify_lead: '바이어는 정보의 출처를 알아야 합니다. 저희는 두 가지 표시만 사용하며 그 경계를 흐리지 않습니다.',
     verify: [
-      { n: '확인함 — 직접 방문', d: '창업자가 사무실이나 공장을 직접 찾아가 경영진을 만나고 사진을 촬영한 경우입니다. 페이지에 날짜와 사진이 함께 실립니다. 전시회에서의 만남은 방문으로 보지 않습니다.' },
+      { n: '확인함 — 직접 방문', d: '저희 직원이 사무실이나 공장을 직접 찾아가 경영진을 만나고 사진을 촬영한 경우입니다. 페이지에 날짜와 사진이 함께 실립니다. 전시회에서의 만남은 방문으로 보지 않습니다.' },
       { n: '회사 제공 정보', d: '기본 표시입니다. 페이지의 모든 내용이 제조사가 제공한 자료에서 나왔음을 페이지에 그대로 밝힙니다.' },
     ],
     verify_note: '방문은 저희가 직접 본 것에 대한 기록입니다. 인증과 등록은 회사가 밝힌 내용으로 표시하며, 사본은 거래 단계에서 바이어에게 제공됩니다.',
@@ -84,16 +90,16 @@ export const TEXTS = {
 
     who_h: 'Who we are',
     who: [
-      'Teranova Group is a trade platform registered in Korea. The legal entity behind it is AIA Group Ltd.; the founder is Anton Madelkanov. We work on the buyer’s side: a partner brings us a requirement, we find the manufacturer who genuinely fits it, and then carry the deal through — negotiation, documents, logistics, customs clearance and translation.',
+      'Teranova Group is a trade platform registered in Korea. The legal entity behind it is Teranova Group Co., Ltd. We work on the buyer’s side: a partner brings us a requirement, we find the manufacturer who genuinely fits it, and then carry the deal through — negotiation, documents, logistics, customs clearance and translation.',
       'We hold no stock and we do not resell. We are paid a commission on a completed deal, which is why we have no reason to push one manufacturer over another. It also means we say plainly when a requirement does not fit what a manufacturer actually makes.',
-      `Today ${s.total} manufacturers are published on the platform — ${s.korea} of them in Korea. Each has a company profile and product pages in eleven languages, built from the materials the manufacturer provided and published only with written consent.`,
+      `Today ${s.total} manufacturers are published on the platform — ${s.korea} of them in Korea. Each has a company profile and product pages in ${s.langs} languages, built from the materials the manufacturer provided and published only with written consent.`,
     ],
-    who_facts: ['Registered in Korea', 'No stock, no resale', 'Paid on a completed deal', 'Eleven languages'],
+    who_facts: ['Registered in Korea', 'No stock, no resale', 'Paid on a completed deal', `${s.langs} languages`],
 
     listing_h: 'What a listing gives you',
     listing_lead: 'Publication is free for the manufacturer and creates no obligation on your side.',
     listing: [
-      { n: 'A profile in eleven languages', d: 'Company page and product pages in English, Korean, Chinese, Japanese, Russian, Spanish, Portuguese, German, French, Italian and Turkish. A buyer reads about you in their own language.' },
+      { n: `A profile in ${s.langs} languages`, d: `Company page and product pages in ${langNamesList('en')}. A buyer reads about you in their own language.` },
       { n: 'Documents built from your data', d: 'A terms sheet and a presentation, generated from the same data as the page, so a buyer can download them and circulate them internally.' },
       { n: 'Articles, not just a card', d: 'We write about the technology behind your products, so a buyer who has never heard of the brand understands what makes it different.' },
       { n: 'Your contacts stay closed', d: 'Direct contact details are not published. Enquiries come to us first, and we qualify them before they reach you.' },
@@ -103,7 +109,7 @@ export const TEXTS = {
     verify_h: 'How we present a manufacturer',
     verify_lead: 'A buyer needs to know where a fact came from. We use exactly two statuses and never blur the line between them.',
     verify: [
-      { n: 'Verified — personal visit', d: 'The founder has been to the office or the plant, met management and taken photographs. The page carries the date and the photographs. A meeting at a trade show does not count as a visit.' },
+      { n: 'Verified — personal visit', d: 'Our team member has been to the office or the plant, met management and taken photographs. The page carries the date and the photographs. A meeting at a trade show does not count as a visit.' },
       { n: 'Information provided by the company', d: 'The default. Everything on the page comes from the manufacturer’s own materials, and the page says so plainly.' },
     ],
     verify_note: 'A visit is a documented fact about what we saw. Certificates and registrations are shown as stated by the company; copies are provided to a buyer at the deal stage.',
@@ -156,16 +162,16 @@ export const TEXTS = {
 
     who_h: 'Кто мы',
     who: [
-      'Teranova Group — торговая платформа, зарегистрированная в Корее. Юридическое лицо — AIA Group Ltd., основатель — Антон Мадельканов. Мы работаем на стороне покупателя: партнёр приносит нам требование, мы находим производителя, который действительно ему отвечает, и дальше ведём сделку целиком — переговоры, документы, логистику, таможенное оформление и перевод.',
+      'Teranova Group — торговая платформа, зарегистрированная в Корее. Юридическое лицо — Teranova Group Co., Ltd. Мы работаем на стороне покупателя: партнёр приносит нам требование, мы находим производителя, который действительно ему отвечает, и дальше ведём сделку целиком — переговоры, документы, логистику, таможенное оформление и перевод.',
       'Мы не держим склад и ничего не перепродаём. Наше вознаграждение — комиссия с состоявшейся сделки, поэтому нам незачем продвигать одного производителя в ущерб другому. По той же причине мы прямо говорим, когда требование не совпадает с тем, что производитель на самом деле выпускает.',
-      `Сегодня на платформе размещено ${s.total} производителей, из них ${s.korea} корейских. У каждого есть профиль компании и страницы продукции на одиннадцати языках. Мы собираем их из материалов, которые прислал сам производитель, и публикуем только после письменного согласия.`,
+      `Сегодня на платформе размещено ${s.total} производителей, из них ${s.korea} корейских. У каждого есть профиль компании и страницы продукции на ${s.langs} языках. Мы собираем их из материалов, которые прислал сам производитель, и публикуем только после письменного согласия.`,
     ],
-    who_facts: ['Зарегистрированы в Корее', 'Без склада и перепродажи', 'Оплата с состоявшейся сделки', 'Одиннадцать языков'],
+    who_facts: ['Зарегистрированы в Корее', 'Без склада и перепродажи', 'Оплата с состоявшейся сделки', `${s.langs} языков`],
 
     listing_h: 'Что даёт размещение',
     listing_lead: 'Публикация бесплатна для производителя и не создаёт для вас никаких обязательств.',
     listing: [
-      { n: 'Профиль на одиннадцати языках', d: 'Страница компании и страницы продукции на английском, корейском, китайском, японском, русском, испанском, португальском, немецком, французском, итальянском и турецком. Покупатель читает о вас на своём языке.' },
+      { n: `Профиль на ${s.langs} языках`, d: `Страница компании и страницы продукции на ${langNamesList('ru')}. Покупатель читает о вас на своём языке.` },
       { n: 'Документы из ваших же данных', d: 'Условия сотрудничества и презентация собираются из тех же данных, что и страница, поэтому покупатель может скачать их и показать внутри своей компании.' },
       { n: 'Не карточка, а рассказ', d: 'Мы пишем о технологии, которая стоит за вашей продукцией, чтобы покупатель, впервые услышавший о бренде, понял, чем он отличается.' },
       { n: 'Ваши контакты закрыты', d: 'Прямые контакты производителя мы не публикуем. Запросы приходят сначала к нам, мы их проверяем и только потом передаём вам.' },
@@ -175,7 +181,7 @@ export const TEXTS = {
     verify_h: 'Как мы представляем производителя',
     verify_lead: 'Покупатель должен понимать, откуда взят каждый факт. У нас ровно два статуса, и границу между ними мы не размываем.',
     verify: [
-      { n: 'Проверено — личный визит', d: 'Основатель был в офисе или на производстве, встречался с руководством и делал фотографии. На странице стоят дата и снимки. Встреча на выставке визитом не считается.' },
+      { n: 'Проверено — личный визит', d: 'Наш сотрудник был в офисе или на производстве, встречался с руководством и делал фотографии. На странице стоят дата и снимки. Встреча на выставке визитом не считается.' },
       { n: 'Информация предоставлена компанией', d: 'Статус по умолчанию. Всё на странице взято из материалов производителя, и страница говорит об этом прямо.' },
     ],
     verify_note: 'Визит — это задокументированный факт о том, что мы видели сами. Сертификаты и регистрации показываются так, как их заявила компания; копии передаются покупателю на стадии сделки.',
