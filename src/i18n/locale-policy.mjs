@@ -20,9 +20,9 @@ export const localeDefinitions = {
   ar: { name: 'العربية', direction: 'rtl', og: 'ar_AR' },
 };
 
-/** T-20261124-067/068: ar staged while translation (069), PDFs (070) and
- * RTL/hreflang (071) are built out; opened to publicLocaleCodes only by 072. */
-export const stagedLocaleCodes = ['ar'];
+/** T-20261124-067/068: ar was staged while translation (069), PDFs (070) and
+ * RTL/hreflang (071) were built out; opened to publicLocaleCodes by 072. */
+export const stagedLocaleCodes = [];
 export const publicLocaleCodes = Object.keys(localeDefinitions)
   .filter((code) => !stagedLocaleCodes.includes(code));
 export const sectionDefaultLocale = 'ru';
