@@ -30,18 +30,25 @@
         "img": "/img/suppliers/slow-lounge/products/balm-hand-waterdrop.jpg",
         "volume": "45 ml",
         "certs": [
+          "Vegan",
           "EWG Green"
         ]
       },
       {
         "name": "Balm for Body, Waterdrop",
         "img": "/img/suppliers/slow-lounge/products/balm-body-waterdrop.jpg",
-        "volume": "200 ml"
+        "volume": "200 ml",
+        "certs": [
+          "Vegan"
+        ]
       },
       {
         "name": "Wash for Body, Waterdrop",
         "img": "/img/suppliers/slow-lounge/products/wash-body-waterdrop.jpg",
-        "volume": "200 ml"
+        "volume": "200 ml",
+        "certs": [
+          "Vegan"
+        ]
       }
     ]
   },
@@ -71,7 +78,16 @@
     "items": [
       {
         "name": "Balm for Lip, Nude",
-        "img": "/img/suppliers/slow-lounge/products/balm-lip-nude.jpg"
+        "img": "/img/suppliers/slow-lounge/products/balm-lip-nude.jpg",
+        "volume": "7 g",
+        "certs": [
+          "Vegan"
+        ]
+      },
+      {
+        "name": "Balm for Lip, Phone grip",
+        "img": "/img/suppliers/slow-lounge/products/balm-lip-phonegrip.jpg",
+        "volume": "7 g"
       }
     ]
   }
