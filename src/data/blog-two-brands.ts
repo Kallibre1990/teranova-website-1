@@ -128,7 +128,6 @@ export const twoBrandPosts: BlogPost[] = definitions.map((definition, index) => 
         title: c.titles[index], seoTitle: `${c.titles[index]} · Teranova`,
         excerpt: c.intros[index], seoDesc: c.intros[index],
         sections: [
-          { p: [c.intros[index]] },
           { h: c.selection, p: products.map(p => `${lang === 'en' ? p.name : p.nameI18n[lang]} · ${p.volume}`) },
           { h: c.reading, p: [c.notes[index]] },
         ],
