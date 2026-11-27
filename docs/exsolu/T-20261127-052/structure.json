@@ -1,0 +1,212 @@
+{
+  "structural_pages": [
+    {
+      "path": "catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "en/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "en/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "en/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "ko/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "ko/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "ko/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "ja/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "ja/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "ja/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "zh/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "zh/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "zh/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "de/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "de/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "de/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "fr/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "fr/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "fr/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "it/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "it/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "it/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "es/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "es/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "es/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "pt/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "pt/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "pt/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "tr/catalog/exsolu/",
+      "products": 0,
+      "articles": 3,
+      "failures": []
+    },
+    {
+      "path": "tr/catalog/exsolu/skin-boosters/",
+      "products": 17,
+      "articles": 0,
+      "failures": []
+    },
+    {
+      "path": "tr/catalog/exsolu/skincare/",
+      "products": 5,
+      "articles": 0,
+      "failures": []
+    }
+  ],
+  "negative_controls": {
+    "text-hub": true,
+    "missing-17": true,
+    "missing-5": true,
+    "missing-official-photos": true,
+    "placeholder-for-official-photo": true,
+    "new-home-structure": true
+  },
+  "visual_qa": "separate browser report",
+  "acceptance": "structural only; seven official photographs required; visual QA separate"
+}

@@ -37,7 +37,7 @@ try {
     for (const width of [320, 390, 600, 680, 860, 940, 1280]) {
       runtime.length = 0;
       await page.setViewportSize({ width, height: width === 320 ? 568 : 900 });
-      const response = await page.goto(base + routeFor(lang, view), { waitUntil: 'networkidle' });
+      const response = await page.goto(base + routeFor(lang, view), { waitUntil: 'load' });
       await page.evaluate(async () => {
         await document.fonts.ready;
         // Trigger lazy images before measuring and return to the first screen.
@@ -76,10 +76,11 @@ try {
         return { viewport: vw, scrollWidth: document.documentElement.scrollWidth,
           lang: document.documentElement.lang, h1: document.querySelector('h1')?.textContent.trim(),
           overflow, overlaps, outsideCard,
+          imageSizes: [...document.querySelectorAll('.exsolu img')].map(img => ({src: img.getAttribute('src'), natural: [img.naturalWidth, img.naturalHeight], rendered: [img.getBoundingClientRect().width, img.getBoundingClientRect().height]})),
           brokenImages: [...document.images].filter(img => !img.complete || img.naturalWidth === 0).map(img => img.getAttribute('src')) };
       });
       const screenshot = `${lang}-${view || 'company'}-${width}.png`;
-      await page.screenshot({ path: path.join(output, screenshot), fullPage: true });
+      if (lang === 'ru' && [320, 390, 1280].includes(width)) await page.screenshot({ path: path.join(output, screenshot), fullPage: true });
       report.pages.push({ route: routeFor(lang, view), width, http: response.status(), ...result,
         runtime: [...runtime], screenshot });
       // Persist each measurement; interrupted runs never look complete.
@@ -89,18 +90,27 @@ try {
   // Real clicks on local navigation and a language change; no forms submitted.
   for (const target of [routeFor('ru', 'skin-boosters'), routeFor('ru', 'skincare'), routeFor('en')]) {
     await page.setViewportSize({ width: 1280, height: 900 });
-    await page.goto(base + routeFor('ru'), { waitUntil: 'networkidle' });
+    await page.goto(base + routeFor('ru'), { waitUntil: 'load' });
     if (target === routeFor('en')) await page.locator('.langswitch summary').first().click();
     const link = page.locator(`a[href="${target}"], a[href="${target.replace(/\/$/, '')}"]`).filter({ visible: true }).first();
     const label = await link.innerText();
     await link.click();
     await page.waitForURL(base + target);
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState('load');
     report.clicks.push({ label, expected: target, actual: new URL(page.url()).pathname,
       h1: await page.locator('h1').innerText(), lang: await page.locator('html').getAttribute('lang') });
   }
+  for (const selector of ['.preview', '.article-card']) {
+    await page.goto(base + routeFor('ru'), { waitUntil: 'load' });
+    const link = page.locator(selector).first();
+    const label = await link.innerText();
+    const expected = await link.getAttribute('href');
+    await link.click();
+    await page.waitForURL(base + expected);
+    report.clicks.push({label, expected, actual: new URL(page.url()).pathname + new URL(page.url()).hash, h1: await page.locator('h1').innerText()});
+  }
   report.status = report.pages.every(p => p.http === 200 && p.h1 && p.scrollWidth <= p.viewport &&
-    !p.overflow.length && !p.overlaps.length && !p.outsideCard.length && !p.brokenImages.length && !p.runtime.length)
+    p.imageSizes.every(i => i.rendered[0] <= i.natural[0] + 1 && i.rendered[1] <= i.natural[1] + 1) && !p.overflow.length && !p.overlaps.length && !p.outsideCard.length && !p.brokenImages.length && !p.runtime.length)
     ? 'automated-pass-manual-review-required' : 'fail';
   // Screenshots, CTA/menu interactions and contrast still need a human/agent browser review.
 } catch (error) {

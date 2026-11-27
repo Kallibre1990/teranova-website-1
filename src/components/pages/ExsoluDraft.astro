@@ -64,6 +64,7 @@ const products = view === 'skin-boosters' ? c.boosters : c.skincareProducts;
 </article>
 
 <style>
+  .exsolu, .exsolu * { box-sizing: border-box; }
   .exsolu { max-width: 1200px; margin: auto; padding: 48px 32px 72px; overflow-wrap: anywhere; }
   .hero { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); align-items: center; gap: 56px; padding-block: 24px 56px; }
   .brand { font-size: .8rem; letter-spacing: .08em; font-weight: 650; }
@@ -79,33 +80,33 @@ const products = view === 'skin-boosters' ? c.boosters : c.skincareProducts;
   .range-links span, .count { font-weight: 650; }
   figure { margin: 0; display: flex; align-items: center; justify-content: center; min-width: 0; background: #fff; }
   img { display: block; max-width: 100%; width: auto; height: auto; object-fit: contain; }
-  .hero-image { padding: 24px; min-height: 400px; }
-  .hero-image img { max-height: 420px; }
+  .hero-image { padding: 16px; height: 256px; }
+  .hero-image img { max-height: 224px; }
   .story { padding-block: 32px; font-size: 1.15rem; }
   .ranges { display: grid; gap: 72px; }
   .range { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 32px 56px; border-top: 1px solid var(--line, #d8d3ca); padding-top: 40px; }
-  .range-visual { display: flex; justify-content: center; align-items: center; background: white; min-height: 320px; padding: 24px; }
-  .range-visual img { max-height: 300px; }
+  .range-visual { display: flex; justify-content: center; align-items: center; background: white; height: 224px; padding: 16px; }
+  .range-visual img { max-height: 192px; }
   .range-copy { align-self: center; }
   .range-copy h2 a { text-decoration: none; }
   .previews { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
   .preview { text-decoration: none; }
-  .preview figure { height: 220px; padding: 16px; }
-  .preview img { max-height: 188px; }
+  .preview figure { height: 168px; padding: 12px; }
+  .preview img { max-height: 144px; }
   .preview p { font-size: .95rem; }
   .products { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 28px; }
   .product { min-width: 0; border-top: 1px solid var(--line, #d8d3ca); padding-top: 24px; scroll-margin-top: 100px; }
   .product > div { min-width: 0; }
-  .product figure { height: 240px; padding: 20px; }
-  .product img { max-height: 200px; }
+  .product figure { height: 172px; padding: 16px; }
+  .product img { max-height: 140px; }
   dt { font-weight: 650; margin-top: 16px; } dd { margin: 4px 0 0; }
   .note { font-size: .95rem; }
   .photo-pending { border: 1px solid var(--line, #d8d3ca); background: transparent; color: #58554f; text-align: center; }
   .articles { margin-top: 72px; padding-top: 32px; border-top: 1px solid var(--line, #d8d3ca); }
   .article-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
   .article-card { text-decoration: none; }
-  .article-card figure { height: 200px; padding: 16px; }
-  .article-card img { max-height: 168px; }
+  .article-card figure { height: 160px; padding: 12px; }
+  .article-card img { max-height: 136px; }
   aside { border-top: 1px solid var(--line, #d8d3ca); margin-top: 56px; padding-top: 24px; }
   .caution { font-weight: 650; }
   @media (max-width: 900px) { .products { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hero, .range { gap: 28px; } }
@@ -113,11 +114,11 @@ const products = view === 'skin-boosters' ? c.boosters : c.skincareProducts;
     .exsolu { padding: 32px 20px 48px; }
     .hero, .range { grid-template-columns: minmax(0, 1fr); }
     .hero { padding-top: 0; }
-    .hero-image { min-height: 280px; }
-    .hero-image img { max-height: 280px; }
+    .hero-image { height: 208px; }
+    .hero-image img { max-height: 176px; }
     .products, .previews, .article-grid { grid-template-columns: minmax(0, 1fr); }
-    .range-visual { min-height: 260px; }
-    .range-visual img { max-height: 240px; }
+    .range-visual { height: 192px; }
+    .range-visual img { max-height: 160px; }
     .story { padding-top: 0; }
     .ranges { gap: 48px; }
   }

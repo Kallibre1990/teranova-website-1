@@ -6,7 +6,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[2]
 LOCALES = ['ru', 'en', 'ko', 'ja', 'zh', 'de', 'fr', 'it', 'es', 'pt', 'tr']
-REJECTED = ['sosu', 'samshin', 'nopa', 'dangun-s', 'dangun-ss', 'dangun-sm', 'nad-air-shot']
+OFFICIAL = ['sosu', 'samshin', 'nopa', 'dangun-s', 'dangun-ss', 'dangun-sm', 'nad-air-shot']
 
 class Page(HTMLParser):
     def __init__(self, html):
@@ -20,9 +20,9 @@ class Page(HTMLParser):
 
 def storefront_failures(html, view):
     p = Page(html)
-    rejected = any(t == 'img' and a.get('src', '').split('?')[0] in [f'/images/exsolu/{x}.png' for x in REJECTED] for t, a in p.tags)
+    images = {a.get('src', '').split('?')[0] for t, a in p.tags if t == 'img'}
     if not view:
-        return (['rejected-low-quality-photo'] if rejected else []) + [name for name, ok in {
+        return [name for name, ok in {
             'visual-ranges': len(p.classes('range')) == 2,
             'previews': len(p.classes('preview')) == 6,
             'articles': len(p.classes('article-card')) == 3,
@@ -33,11 +33,12 @@ def storefront_failures(html, view):
     failures = []
     if len(p.classes('product')) != count:
         failures.append('product-count')
-    expected_missing = 7 if view == 'skin-boosters' else 0
-    if len(p.classes('photo-pending')) != expected_missing:
+    if p.classes('photo-pending'):
         failures.append('undocumented-missing-photos')
-    if rejected:
-        failures.append('rejected-low-quality-photo')
+    if view == 'skin-boosters':
+        for sku in OFFICIAL:
+            if f'/images/exsolu/{sku}.png' not in images:
+                failures.append('missing-official-photo:' + sku)
     return failures
 
 results = []
@@ -66,14 +67,14 @@ negative = {
     'text-hub': bool(storefront_failures('<main><h1>EXSOLU</h1><p>17 / 5</p></main>', '')),
     'missing-17': 'product-count' in storefront_failures(line.replace('class="product"', 'class="removed"', 1), 'skin-boosters'),
     'missing-5': 'product-count' in storefront_failures('<main></main>', 'skincare'),
-    'low-quality-photo': 'rejected-low-quality-photo' in storefront_failures(line.replace('class="photo-pending"', 'class="unavailable"') + '<img src="/images/exsolu/sosu.png">', 'skin-boosters'),
-    'undocumented-missing-photos': 'undocumented-missing-photos' in storefront_failures(line.replace('class="photo-pending"', 'class="unavailable"', 1), 'skin-boosters'),
-    'bad-photo-on-home': 'rejected-low-quality-photo' in storefront_failures(home + '<img src="/images/exsolu/sosu.png">', ''),
+    'missing-official-photos': all('missing-official-photo:' + sku in storefront_failures(line.replace('/images/exsolu/' + sku + '.png', '/removed.png'), 'skin-boosters') for sku in OFFICIAL),
+    'placeholder-for-official-photo': 'undocumented-missing-photos' in storefront_failures(line + '<figure class="photo-pending"></figure>', 'skin-boosters'),
     'new-home-structure': not storefront_failures(home, ''),
 }
 assert all(negative.values()), negative
 assert all(not r['failures'] for r in results), results
-report = {'structural_pages': results, 'negative_controls': negative, 'visual_qa': 'not performed; browser unavailable', 'acceptance': 'structural only; seven unavailable photographs documented per HQ; visual QA incomplete'}
-out = ROOT / 'docs/exsolu/T-20261127-037/structure.json'
+report = {'structural_pages': results, 'negative_controls': negative, 'visual_qa': 'separate browser report', 'acceptance': 'structural only; seven official photographs required; visual QA separate'}
+out = ROOT / 'docs/exsolu/T-20261127-052/structure.json'
+out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({'pages': len(results), 'controls': negative, 'acceptance': report['acceptance']}))

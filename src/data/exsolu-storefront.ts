@@ -13,6 +13,5 @@ export const storefront = {
   tr: { products: 'ürün', explore: 'Ürün serisini inceleyin', articles: 'EXSOLU yazıları', catalogue: 'Ürün yelpazesi', unavailable: 'Ürün fotoğrafı mevcut değil' },
 } as const;
 
-// Diagnostic manifest T-20261127-036 rejects these 155×140 thumbnails.
-// No substitute SKU or AI reconstruction may conceal the missing originals.
-export const rejectedProductImages = new Set(['sosu', 'samshin', 'nopa', 'dangun-s', 'dangun-ss', 'dangun-sm', 'nad-air-shot']);
+// Official supplier thumbnails are valid at their natural size (T-20261127-052).
+export const rejectedProductImages = new Set<string>();
