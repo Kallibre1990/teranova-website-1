@@ -11,8 +11,15 @@
 
     python3 scripts/watermark_pdfs.py                 # все PDF в public/docs
     python3 scripts/watermark_pdfs.py licorne sante   # только эти slug'и
+    PDF_LANGS=ar python3 scripts/watermark_pdfs.py arming  # только ar-файлы arming
+
+PDF_LANGS (та же переменная, что у gen-supplier-pdfs.mjs/gen-agafar-pdfs.py)
+сужает набор файлов и по языку, не только по slug'у. Без неё точечный прогон
+по одному языку (например, добавление ar) находил по slug'у и переподписывал
+заодно все остальные языки того же поставщика — уже корректные de/en/... PDF
+открывались и пересохранялись без надобности (D-9644).
 """
-import sys, os, glob, re, hashlib
+import sys, os, glob, re, hashlib, subprocess
 
 import fitz  # PyMuPDF
 
@@ -112,7 +119,24 @@ def strip_old(doc):
     """Обнулить потоки прежних знаков/подвалов.
 
     Штамп всегда крошечный поток с одним блоком BT…ET. Основное содержимое
-    страницы из Chrome — десятки килобайт, под порог не попадает."""
+    страницы из Chrome — десятки килобайт, под порог не попадает.
+
+    После обнуления стрима из Resources/Font page-объекта убирается ссылка
+    /AUni: обнуление стрима её не трогает, она продолжает указывать на
+    урезанный прошлым subset_fonts() шрифт прежнего знака. Если её оставить,
+    следующий stamp() находит шрифт с тем же именем 'AUni' и переиспользует
+    его объект вместо вшивания нового — новый текст подвала получает коды
+    глиф от исходного TTF, которые не совпадают с перенумерованными ID в
+    урезанном шрифте, и рендерится tofu-квадратами без текстового слоя
+    (D-9644): pdftotext на выходе подвала не находит вовсе.
+
+    Снимается запись заменой значения на null через xref_set_key, НЕ через
+    page.clean_contents(sanitize=True): тот пересобирает (sanitize) весь
+    контент страницы и этим может сдвинуть границы слов реального текста —
+    поймано на arming-terms-tr.pdf, где «aracılığıyla» после sanitize
+    расползалось на «aracılığ»+«ıyla» и ложно срабатывала защита lost() в
+    process(). Точечная правка одного ключа Resources/Font содержимое не
+    трогает вообще."""
     removed = 0
     for page in doc:
         for xref in page.get_contents():
@@ -120,6 +144,8 @@ def strip_old(doc):
             if len(raw) < 600 and b'Tf' in raw and b'TJ' in raw:
                 doc.update_stream(xref, b' ')
                 removed += 1
+        if any(f[4] == 'AUni' for f in page.get_fonts()):
+            doc.xref_set_key(page.xref, 'Resources/Font/AUni', 'null')
     return removed
 
 
@@ -213,6 +239,28 @@ for _lang, _v in ORIGINAL.items():
         OWN.update(_v[::-1].split())
 
 
+FOOTER_MARK = '© Teranova Group · teranovagroup.com'
+
+
+def footer_readable(path, page_count):
+    """Внешняя проверка подвала тем же инструментом, что ловит дефект на практике.
+
+    fitz.Page.get_text() здесь не годится: он отдаёт текст, который сам же
+    вставил insert_textbox(), не глядя, уцелело ли сопоставление глиф→Unicode
+    во вшитом шрифте после сохранения — ровно поэтому T-20261107-034/D-9644
+    годами проходили мимо внутренних проверок скрипта. pdftotext читает
+    готовый файл как внешний потребитель (ровно как покупатель открывший
+    PDF) и находит tofu-подвал пустым — так дефект и был пойман вручную."""
+    try:
+        out = subprocess.run(['pdftotext', '-layout', path, '-'],
+                              capture_output=True, text=True, timeout=60)
+    except FileNotFoundError:
+        raise RuntimeError('pdftotext не найден (poppler) — проверка подвала невозможна, прогон остановлен')
+    if out.returncode != 0:
+        return False
+    return out.stdout.count(FOOTER_MARK) >= page_count
+
+
 def process(path):
     doc = fitz.open(path)
     before = words(doc)
@@ -237,6 +285,7 @@ def process(path):
         return 'ПРОПУЩЕН (старый знак слился с текстом — пересобрать PDF из чистого источника)'
     stamp(doc, lang_of(path))
     clean_meta(doc, path)
+    page_count = doc.page_count
     # Полное пересохранение со сборкой мусора и сжатием: после урезания шрифтов
     # инкрементальная запись только добавила бы объём.
     # clean=False: иначе PyMuPDF сливает знак и содержимое страницы в один
@@ -246,6 +295,11 @@ def process(path):
     doc.save(path + '.tmp', garbage=4, deflate=True, clean=False)
     doc.close()
     stable_id(path + '.tmp')
+    # Проверка перед заменой боевого файла: не читается подвал — выходной файл
+    # отбрасывается, исходный остаётся нетронутым (D-9644, п.2 проверки).
+    if not footer_readable(path + '.tmp', page_count):
+        os.remove(path + '.tmp')
+        return 'ОШИБКА (подвал не читается после подписи — файл не изменён)'
     os.replace(path + '.tmp', path)
     return 'ok'
 
@@ -255,14 +309,32 @@ def main():
     files = sorted(glob.glob(os.path.join(DOCS, '*.pdf')))
     if slugs:
         files = [f for f in files if any(os.path.basename(f).startswith(s + '-') for s in slugs)]
+    # PDF_LANGS сужает и по языку — та же переменная, что у gen-supplier-pdfs.mjs
+    # и gen-agafar-pdfs.py. Без неё точечная пересборка одного языка находила
+    # по slug'у и переподписывала заодно все остальные языки того же
+    # поставщика (D-9644): уже корректные файлы открывались и пересохранялись
+    # без необходимости. Явно неизвестный суффикс (не 2 латинские буквы перед
+    # .pdf) не фильтруется — это не язык, а часть имени файла.
+    langs_env = os.environ.get('PDF_LANGS')
+    if langs_env:
+        wanted = {l.strip() for l in langs_env.split(',') if l.strip()}
+        files = [f for f in files
+                 if (m := re.search(r'-([a-z]{2})\.pdf$', os.path.basename(f))) is None
+                 or m.group(1) in wanted]
     ok = 0
+    errors = 0
     for f in files:
         res = process(f)
         if res == 'ok':
             ok += 1
         else:
             print(f'  {os.path.basename(f)}: {res}')
+            if res.startswith('ОШИБКА'):
+                errors += 1
     print(f'Готово: знак под текстом на {ok}/{len(files)} PDF')
+    if errors:
+        print(f'ОШИБКА: {errors} файл(ов) не прошли проверку подвала — см. список выше', file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == '__main__':
