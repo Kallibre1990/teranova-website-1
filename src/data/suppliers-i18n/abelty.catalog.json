@@ -12,6 +12,10 @@
           "Squalane"
         ],
         "activesI18n": {
+          "ar": [
+            "ماء نخالة الأرز",
+            "السكوالان"
+          ],
           "de": [
             "Reiskleiewasser",
             "Squalan"
@@ -72,6 +76,10 @@
           "Niacinamide"
         ],
         "activesI18n": {
+          "ar": [
+            "ماء نخالة الأرز",
+            "النياسيناميد"
+          ],
           "de": [
             "Reiskleiewasser",
             "Niacinamid"
@@ -132,6 +140,10 @@
           "Hyaluronic acid"
         ],
         "activesI18n": {
+          "ar": [
+            "مسحوق الأرز",
+            "حمض الهيالورونيك"
+          ],
           "de": [
             "Reispulver",
             "Hyaluronsäure"
@@ -184,6 +196,7 @@
       }
     ],
     "lineI18n": {
+      "ar": "خط الأرز",
       "de": "Reislinie",
       "es": "Línea de arroz",
       "fr": "Ligne riz",
@@ -211,6 +224,10 @@
           "Patented plant extract"
         ],
         "activesI18n": {
+          "ar": [
+            "بروبيوتيك Weissella cibaria",
+            "مستخلص نباتي حاصل على براءة اختراع"
+          ],
           "de": [
             "Weissella-cibaria-Probiotika",
             "Patentierter Pflanzenextrakt"

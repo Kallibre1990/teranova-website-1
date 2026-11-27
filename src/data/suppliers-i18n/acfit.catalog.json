@@ -1,7 +1,7 @@
 [
   {
     "line": "Cleansing & Toning",
-    "lineI18n": { "he": "ניקוי וטונינג", "hi": "क्लींजिंग और टोनिंग" },
+    "lineI18n": { "ar": "التنظيف والتونر", "he": "ניקוי וטונינג", "hi": "क्लींजिंग और टोनिंग" },
     "items": [
       {
         "name": "ACFIT V-SANG Beta-G Secure Cleansing",
@@ -20,7 +20,7 @@
   },
   {
     "line": "Gels & Creams",
-    "lineI18n": { "he": "ג'לים וקרמים", "hi": "जेल और क्रीम" },
+    "lineI18n": { "ar": "الجل والكريمات", "he": "ג'לים וקרמים", "hi": "जेल और क्रीम" },
     "items": [
       {
         "name": "ACFIT V-SANG Gel",
@@ -46,7 +46,7 @@
   },
   {
     "line": "Booster, Ampoule & Oil",
-    "lineI18n": { "he": "בוסטר, אמפולה ושמן", "hi": "बूस्टर, एम्पूल और ऑयल" },
+    "lineI18n": { "ar": "البوستر والأمبولات والزيوت", "he": "בוסטר, אמפולה ושמן", "hi": "बूस्टर, एम्पूल और ऑयल" },
     "items": [
       {
         "name": "ACFIT V-SANG Beta-G Infusing Skin Booster",
@@ -71,7 +71,7 @@
   },
   {
     "line": "Masks",
-    "lineI18n": { "he": "מסכות", "hi": "मास्क" },
+    "lineI18n": { "ar": "الأقنعة", "he": "מסכות", "hi": "मास्क" },
     "items": [
       {
         "name": "ACFIT V-SANG Pack",
