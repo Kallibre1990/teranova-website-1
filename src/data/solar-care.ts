@@ -7,6 +7,7 @@
 
 import type { Lang } from '../i18n/ui';
 import { solarHe, solarHi } from './solar-care-he-hi';
+import { solarAr } from './solar-care-ar';
 
 /* Раздел живёт на всех языках сайта: список языков берём из i18n, чтобы при
    добавлении новой локали расхождение вылезло на сборке, а не в выдаче. */
@@ -71,6 +72,7 @@ export interface SolarCopy {
 export const solarCopy: Record<Lang, SolarCopy> = {
   he: solarHe,
   hi: solarHi,
+  ar: solarAr,
   ru: {
     meta: {
       title: 'Солнечные станции: обслуживание и очистка модулей — Teranova',
