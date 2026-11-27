@@ -12,7 +12,7 @@
     python3 scripts/watermark_pdfs.py                 # все PDF в public/docs
     python3 scripts/watermark_pdfs.py licorne sante   # только эти slug'и
 """
-import sys, os, glob, re, hashlib
+import sys, os, glob, re, hashlib, html
 
 import fitz  # PyMuPDF
 
@@ -30,7 +30,7 @@ ORIGINAL = {
     'zh': '原始文件', 'ja': '原本書類', 'it': 'documento originale',
     'de': 'Originaldokument', 'fr': 'document original', 'tr': 'orijinal belge',
     'es': 'documento original', 'pt': 'documento original',
-    'he': 'מסמך מקורי', 'hi': 'मूल दस्तावेज़',
+    'he': 'מסמך מקורי', 'hi': 'मूल दस्तावेज़', 'ar': 'مستند أصلي',
 }
 
 
@@ -176,7 +176,14 @@ def stamp(doc, lang):
     insert_textbox не делает bidi-переупорядочивание: он кладёт символы строки
     слева направо в их логическом порядке. Для иврита это читается наоборот
     («מסמך מקורי» превращалось в «ירוקמ ךמסמ»), поэтому иврит передаём уже
-    отзеркаленным — тогда левый-направо проход даёт верный визуальный порядок."""
+    отзеркаленным — тогда левый-направо проход даёт верный визуальный порядок.
+    Для арабского реверс символов не подходит: арабские буквы курсивные и
+    меняют форму (начальная/серединная/конечная) в зависимости от соседей —
+    простой разворот строки ломает соединение букв (проверено визуально,
+    T-20261125-014). Поэтому для 'ar' подвал рисуется через insert_htmlbox
+    с dir="rtl": движок HTML/bidi у PyMuPDF сам и соединяет буквы, и ставит
+    арабский фрагмент на правильное (правое) место рядом с латинским текстом —
+    тот же движок уже используется для body-текста AGAFAR (gen-agafar-pdfs.py)."""
     original = ORIGINAL[lang][::-1] if lang == 'he' else ORIGINAL[lang]
     foot = f'© Teranova Group · teranovagroup.com · {original}'
     for page in doc:
@@ -187,11 +194,22 @@ def stamp(doc, lang):
             CENTER, fontsize=CENTER_SIZE, fontname='helv',
             color=CENTER_GRAY, align=fitz.TEXT_ALIGN_CENTER, overlay=False,
         )
-        page.insert_textbox(
-            fitz.Rect(r.x0, r.y1 - 26, r.x1, r.y1 - 8),
-            foot, fontsize=FOOT_SIZE, fontfile=FONT, fontname='AUni',
-            color=FOOT_GRAY, align=fitz.TEXT_ALIGN_CENTER, overlay=False,
-        )
+        if lang == 'ar':
+            markup = '<div dir="rtl">' + html.escape(foot) + '</div>'
+            css = ('@font-face{font-family:Complete;src:url("Arial Unicode.ttf");}'
+                   f'body{{font-family:Complete,sans-serif;font-size:{FOOT_SIZE}pt;'
+                   f'text-align:center;color:rgb({int(FOOT_GRAY[0]*255)},{int(FOOT_GRAY[1]*255)},{int(FOOT_GRAY[2]*255)});}}')
+            archive = fitz.Archive(os.path.dirname(FONT))
+            page.insert_htmlbox(
+                fitz.Rect(r.x0, r.y1 - 26, r.x1, r.y1 - 8),
+                markup, css=css, archive=archive, overlay=False,
+            )
+        else:
+            page.insert_textbox(
+                fitz.Rect(r.x0, r.y1 - 26, r.x1, r.y1 - 8),
+                foot, fontsize=FOOT_SIZE, fontfile=FONT, fontname='AUni',
+                color=FOOT_GRAY, align=fitz.TEXT_ALIGN_CENTER, overlay=False,
+            )
     try:
         doc.subset_fonts(verbose=False)
     except Exception:

@@ -41,9 +41,9 @@ const OUT = process.env.PDF_OUT || path.join(ROOT, 'public/docs');
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
 /* PDF_LANGS=tr,de — пересобрать только эти языки (точечная починка без полного прогона). */
-const ALL_LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt', 'he', 'hi'];
-/* he — RTL для корректного порядка слов/таблиц в сгенерированном PDF. */
-const RTL_LANGS = new Set(['he']);
+const ALL_LANGS = ['ru', 'en', 'ko', 'zh', 'ja', 'it', 'de', 'fr', 'tr', 'es', 'pt', 'he', 'hi', 'ar'];
+/* he, ar — RTL для корректного порядка слов/таблиц в сгенерированном PDF. */
+const RTL_LANGS = new Set(['he', 'ar']);
 const LANGS = process.env.PDF_LANGS ? process.env.PDF_LANGS.split(',').filter((l) => ALL_LANGS.includes(l)) : ALL_LANGS;
 
 const SIGN = 'Teranova Group · info@teranovagroup.com · teranovagroup.com · 2026';
@@ -666,6 +666,7 @@ const PRICE_H = {
   pt: { title: 'Lista de preços indicativa', product: 'Produto', volume: 'Volume', price: 'Atacado' },
   he: { title: 'מחירון לדוגמה', product: 'מוצר', volume: 'נפח', price: 'מחיר סיטונאי' },
   hi: { title: 'सांकेतिक मूल्य सूची', product: 'उत्पाद', volume: 'मात्रा', price: 'थोक मूल्य' },
+  ar: { title: 'قائمة أسعار إرشادية', product: 'المنتج', volume: 'الحجم', price: 'سعر الجملة' },
 };
 
 /* Per-item logistics labels for the photo catalog (cfg.catalogPhotos — T-20261106-097):
@@ -676,32 +677,39 @@ const BOX_H = {
   ru: 'Кол-во в коробке', en: 'Qty / carton', ko: '박스당 수량', zh: '每箱数量', ja: '箱入数',
   it: 'Pz / scatola', de: 'Stk / Karton', fr: 'Pcs / carton', tr: 'Koli / adet',
   es: 'Uds / caja', pt: 'Unid / caixa', he: 'יח׳ לקרטון', hi: 'प्रति बॉक्स मात्रा',
+  ar: 'العدد في الكرتون',
 };
 const SHELF_H = {
   ru: 'Срок годности', en: 'Shelf life', ko: '유통기한', zh: '保质期', ja: '使用期限',
   it: 'Validità', de: 'Haltbarkeit', fr: 'Durée de conservation', tr: 'Raf ömrü',
   es: 'Caducidad', pt: 'Validade', he: 'תוקף', hi: 'शेल्फ लाइफ',
+  ar: 'مدة الصلاحية',
 };
 const SHELF_UNIT = {
   ru: 'мес.', en: 'months', ko: '개월', zh: '个月', ja: 'ヶ月', it: 'mesi', de: 'Monate',
   fr: 'mois', tr: 'ay', es: 'meses', pt: 'meses', he: 'חודשים', hi: 'महीने',
+  ar: 'شهرًا',
 };
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const dirAttr = (lang) => (RTL_LANGS.has(lang) ? 'rtl' : 'ltr');
 
 /* Chrome's own bidi algorithm reorders a Latin/digit run by WORD when it sits
-   inside an RTL paragraph with no Hebrew letter to anchor it — "50 ml" prints
-   as "ml 50", "SPF50+ PA++++" prints as "++++Rice ... SPF50+ PA" (the trailing
-   run of bare "+" has no strong direction to anchor on either). Isolating each
-   non-Hebrew run in its own <bdi dir="ltr"> keeps it in its typed order
-   regardless of the surrounding paragraph's direction. Runs made only of
-   spaces/punctuation (no Latin letter or digit) are left as plain escaped
-   text — wrapping them buys nothing and adds noise. */
+   inside an RTL paragraph with no Hebrew/Arabic letter to anchor it — "50 ml"
+   prints as "ml 50", "SPF50+ PA++++" prints as "++++Rice ... SPF50+ PA" (the
+   trailing run of bare "+" has no strong direction to anchor on either).
+   Isolating each non-RTL-script run in its own <bdi dir="ltr"> keeps it in its
+   typed order regardless of the surrounding paragraph's direction. Runs made
+   only of spaces/punctuation (no Latin letter or digit) are left as plain
+   escaped text — wrapping them buys nothing and adds noise.
+   Range covers Hebrew (U+0590–05FF) and Arabic script (main block, Supplement,
+   Extended-A, Presentation Forms A/B) — one shared regex is safe for both
+   RTL_LANGS entries because a given string only ever carries one of the two
+   scripts' strong characters. */
 const bidiSafe = (s, lang) => {
   const str = String(s);
   if (!RTL_LANGS.has(lang)) return esc(str);
-  return str.split(/([^֐-׿]+)/).map((run) => (
+  return str.split(/([^֐-׿؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]+)/).map((run) => (
     run && /[A-Za-z0-9]/.test(run) ? `<bdi dir="ltr">${esc(run)}</bdi>` : esc(run)
   )).join('');
 };
@@ -727,7 +735,7 @@ function termsData(cfg, lang) {
   };
 }
 
-const FONT = "'Noto Sans CJK JP','Noto Sans CJK SC','Noto Sans CJK KR','Hiragino Sans','PingFang SC','Apple SD Gothic Neo','Helvetica Neue',Arial,sans-serif";
+const FONT = "'Noto Sans CJK JP','Noto Sans CJK SC','Noto Sans CJK KR','Hiragino Sans','PingFang SC','Apple SD Gothic Neo','Geeza Pro','Helvetica Neue',Arial,sans-serif";
 
 const baseCSS = (C) => `
   @page { size: A4; margin: 16mm 16mm 14mm; }
@@ -780,7 +788,7 @@ function priceHTML(cfg, lang, priceLines) {
     const grpLine = (grp.lineI18n && grp.lineI18n[lang]) || grp.line;
     body += `<tr class="grp"><td colspan="3">${T(grpLine)}</td></tr>`;
     for (const it of grp.items) {
-      const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta', he: 'לפי בקשה', hi: 'अनुरोध पर' };
+      const REQ = { ru: 'по запросу', en: 'on request', ko: '문의', zh: '询价', ja: '応相談', it: 'su richiesta', de: 'auf Anfrage', fr: 'sur demande', tr: 'talep üzerine', es: 'a consultar', pt: 'sob consulta', he: 'לפי בקשה', hi: 'अनुरोध पर', ar: 'عند الطلب' };
       const priceCell = it.price === 'REQUEST' ? `<span class="req">${T(REQ[lang])}</span>` : `<bdi dir="ltr">$${esc(money(it.price))}</bdi>`;
       body += `<tr><td class="nm">${T(it.name)}</td><td class="vol">${T(it.volume)}</td><td class="pr">${priceCell}</td></tr>`;
     }
@@ -820,8 +828,8 @@ function catalogHTML(cfg, lang, groups) {
   const C = cfg.colors;
   const j = JSON.parse(fs.readFileSync(path.join(DATA, `${cfg.json}.${lang}.json`), 'utf8'));
   const title = j.ui.catalog_h || 'Product catalog';
-  const product = { ru: 'Продукт', en: 'Product', ko: '제품', zh: '产品', ja: '製品', it: 'Prodotto', de: 'Produkt', fr: 'Produit', tr: 'Ürün', es: 'Producto', pt: 'Produto', he: 'מוצר', hi: 'उत्पाद' }[lang] || 'Product';
-  const volume = { ru: 'Объём', en: 'Volume', ko: '용량', zh: '规格', ja: '容量', it: 'Formato', de: 'Größe', fr: 'Format', tr: 'Hacim', es: 'Volumen', pt: 'Volume', he: 'נפח', hi: 'मात्रा' }[lang] || 'Volume';
+  const product = { ru: 'Продукт', en: 'Product', ko: '제품', zh: '产品', ja: '製品', it: 'Prodotto', de: 'Produkt', fr: 'Produit', tr: 'Ürün', es: 'Producto', pt: 'Produto', he: 'מוצר', hi: 'उत्पाद', ar: 'المنتج' }[lang] || 'Product';
+  const volume = { ru: 'Объём', en: 'Volume', ko: '용량', zh: '规格', ja: '容量', it: 'Formato', de: 'Größe', fr: 'Format', tr: 'Hacim', es: 'Volumen', pt: 'Volume', he: 'נפח', hi: 'मात्रा', ar: 'الحجم' }[lang] || 'Volume';
   /* Research companies may publish programs rather than SKUs. Reuse each
      locale's approved program copy instead of inventing a product list. */
   const catalogGroups = groups.length ? groups : [{
