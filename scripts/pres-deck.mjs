@@ -13,16 +13,18 @@ export const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 /* Chrome's own bidi algorithm reorders a Latin/digit run by WORD when it sits
-   inside an RTL (he) paragraph with no Hebrew letter to anchor it — "150 ml"
-   prints as "ml 150", "SPF50+ PA++++" scrambles against the product name next
-   to it. Isolating each non-Hebrew run in its own <bdi dir="ltr"> keeps it in
-   its typed order regardless of the surrounding paragraph's direction.
+   inside an RTL (he, ar) paragraph with no Hebrew/Arabic letter to anchor it —
+   "150 ml" prints as "ml 150", "SPF50+ PA++++" scrambles against the product
+   name next to it. Isolating each non-RTL-script run in its own
+   <bdi dir="ltr"> keeps it in its typed order regardless of the surrounding
+   paragraph's direction.
    Same fix as scripts/gen-supplier-pdfs.mjs bidiSafe(); kept local here since
-   this file has its own esc() and no RTL_LANGS set beyond 'he'. */
+   this file has its own esc() and its own RTL_LANGS set ('he', 'ar'). */
+const RTL_LANGS = new Set(['he', 'ar']);
 export const bidiSafe = (s, lang) => {
   const str = String(s ?? '');
-  if (lang !== 'he') return esc(str);
-  return str.split(/([^֐-׿]+)/).map((run) => (
+  if (!RTL_LANGS.has(lang)) return esc(str);
+  return str.split(/([^֐-׿؀-ۿݐ-ݿࢠ-ࣿﭐ-﷿ﹰ-﻿]+)/).map((run) => (
     run && /[A-Za-z0-9]/.test(run) ? `<bdi dir="ltr">${esc(run)}</bdi>` : esc(run)
   )).join('');
 };
@@ -377,7 +379,7 @@ export function deckHTML(cfg, lang, d, t, cat, hero, logo) {
     });
   }
 
-  const dir = lang === 'he' ? 'rtl' : 'ltr';
+  const dir = RTL_LANGS.has(lang) ? 'rtl' : 'ltr';
   return `<!doctype html><html lang="${lang}" dir="${dir}"><head><meta charset="utf-8">
     <style>${deckCSS(cfg.colors || {}, cfg.voice)}${dir === 'rtl' ? 'body{direction:rtl;text-align:right}.foot{flex-direction:row-reverse}' : ''}</style></head><body>${P.join('')}</body></html>`;
 }

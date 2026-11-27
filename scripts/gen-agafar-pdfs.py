@@ -54,13 +54,18 @@ def atomic(path, data):
 def locales():
     result = subprocess.run(
         ['node', '--input-type=module', '-e',
-         "import {publicLocaleCodes} from './src/i18n/locale-policy.mjs';"
-         'console.log(JSON.stringify(publicLocaleCodes))'],
+         "import {publicLocaleCodes, stagedLocaleCodes} from './src/i18n/locale-policy.mjs';"
+         'console.log(JSON.stringify({public: publicLocaleCodes, staged: stagedLocaleCodes}))'],
         cwd=ROOT, check=True, capture_output=True, text=True)
-    all_langs = json.loads(result.stdout)
+    policy = json.loads(result.stdout)
+    all_langs = policy['public']
     chosen = os.environ.get('PDF_LANGS', '').split(',') if os.environ.get('PDF_LANGS') else all_langs
-    if not chosen or set(chosen) - set(all_langs):
-        raise ValueError('PDF_LANGS must contain only public locales')
+    # T-20261125-014: ar is staged (opens to publicLocaleCodes only via 072), but an
+    # explicit PDF_LANGS=ar one-off build is allowed ahead of that — the default
+    # (no PDF_LANGS) still excludes it, so a full unattended run stays public-only.
+    allowed = set(all_langs) | (set(policy['staged']) if os.environ.get('PDF_LANGS') else set())
+    if not chosen or set(chosen) - allowed:
+        raise ValueError('PDF_LANGS must contain only public (or, if explicit, staged) locales')
     return chosen
 
 
@@ -74,7 +79,7 @@ class Document:
     def box(self, text, rect, size=12, color=INK, bold=False, ltr=False):
         if not text:
             return rect[1]
-        direction = 'rtl' if self.lang == 'he' and not ltr else 'ltr'
+        direction = 'rtl' if self.lang in {'he', 'ar'} and not ltr else 'ltr'
         align = 'right' if direction == 'rtl' else 'left'
         display = text
         if direction == 'rtl':
@@ -88,7 +93,7 @@ class Document:
                f'line-height:1.35;color:{color};text-align:{align};'
                f'font-weight:{"bold" if bold else "normal"};}}')
         archive = None
-        if self.lang in {'hi', 'ja', 'he'}:
+        if self.lang in {'hi', 'ja', 'he', 'ar'}:
             # Explicit complete faces cover mixed-script punctuation too:
             # danda beside Latin, Japanese middle dot, and NAD superscript +.
             font = Path(os.environ.get('AGAFAR_HINDI_FONT', '/System/Library/Fonts/Kohinoor.ttc')) if self.lang == 'hi' else Path(

@@ -1,0 +1,31 @@
+[
+  {
+    "line": "Refillable face care",
+    "items": [
+      { "name": "Bubble Tea Steam Cream", "img": "/img/suppliers/jellyko/products/bubble-tea-steam-cream.png", "volume": "50 g" },
+      { "name": "Bubble Tea Steam Cream Refill", "img": "/img/suppliers/jellyko/products/bubble-tea-steam-cream-refill.png", "volume": "50 g" },
+      { "name": "Cherry Blossom Sleeping Mask", "img": "/img/suppliers/jellyko/products/cherry-blossom-sleeping-mask.jpg", "volume": "90 g" },
+      { "name": "Dewy Glaze Toner", "img": "/img/suppliers/jellyko/products/dewy-glaze-toner.png", "volume": "155 g" },
+      { "name": "Dewy Glaze Toner Refill", "img": "/img/suppliers/jellyko/products/dewy-glaze-toner-refill.png", "volume": "155 g" },
+      { "name": "Cinnamon Toast Sugar Scrub Foam", "img": "/img/suppliers/jellyko/products/cinnamon-toast-sugar-scrub-foam.png", "volume": "100 g" },
+      { "name": "White Truffle Soufflé Serum", "img": "/img/suppliers/jellyko/products/white-truffle-souffle-serum.png", "volume": "50 ml" },
+      { "name": "White Truffle Soufflé Serum Refill", "img": "/img/suppliers/jellyko/products/white-truffle-souffle-serum-refill.jpg", "volume": "50 ml" },
+      { "name": "Be Jelly Overnight Dream Serum", "img": "/img/suppliers/jellyko/products/be-jelly-overnight-dream-serum.jpg", "volume": "50 ml" },
+      { "name": "Be Jelly Overnight Dream Serum Refill", "img": "/img/suppliers/jellyko/products/be-jelly-overnight-dream-serum-refill.jpg", "volume": "50 ml" }
+    ]
+  },
+  {
+    "line": "Lip & spot care",
+    "items": [
+      { "name": "Gelato Glaze Lip Mask", "img": "/img/suppliers/jellyko/products/gelato-glaze-lip-mask.png", "volume": "20 g" },
+      { "name": "Jelly Shield Pimple Patches", "img": "/img/suppliers/jellyko/products/jelly-shield-pimple-patches.png", "volume": "54 patches" }
+    ]
+  },
+  {
+    "line": "Accessories",
+    "items": [
+      { "name": "Cherry On Top Scrunchies", "img": "/img/suppliers/jellyko/products/cherry-on-top-scrunchies.png" },
+      { "name": "Silicone Mask Brush", "img": "/img/suppliers/jellyko/products/jellybrush-silicone-brush.png" }
+    ]
+  }
+]

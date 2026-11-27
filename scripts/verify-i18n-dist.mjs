@@ -36,6 +36,20 @@ if (!pages.size) throw new Error(`No built pages in ${root}`);
 
 for (const [url, page] of pages) {
   const { html, links, metas, urlPath, noindex } = page;
+  // Hidden/retired supplier slugs (src/data/site.ts hiddenSupplierSlugs) render
+  // a bare Astro.redirect() stub with no <html> wrapper at all, on every
+  // locale — pre-existing on production (confirmed live on
+  // teranovagroup.com/ru/... 27.11.2026), not introduced by any single
+  // locale's rollout. It carries no title/og/hreflang cluster by design, and
+  // its canonical intentionally points at the live /catalog/ page, not at
+  // itself — so it is checked separately, not against the full-page rules.
+  if (!tags(html, 'html').length) {
+    const stubCanonical = links.filter((link) => link.rel === 'canonical');
+    if (stubCanonical.length !== 1) fail(urlPath, 'redirect stub: canonical must point to exactly one page');
+    else if (!pages.has(stubCanonical[0].href)) fail(urlPath, `redirect stub: canonical target missing: ${stubCanonical[0].href}`);
+    if (!noindex) fail(urlPath, 'redirect stub: must be noindex');
+    continue;
+  }
   const canonical = links.filter((link) => link.rel === 'canonical');
   if (canonical.length !== 1 || canonical[0].href !== url) fail(urlPath, 'canonical must point to this exact page once');
   const firstSegment = urlPath.split('/')[1];

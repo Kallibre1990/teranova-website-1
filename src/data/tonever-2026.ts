@@ -13,15 +13,20 @@ import es from './tonever-2026/es.json';
 import pt from './tonever-2026/pt.json';
 import he from './tonever-2026/he.json';
 import hi from './tonever-2026/hi.json';
+import ar from './tonever-2026/ar.json';
 import { publicLocaleCodes } from '../i18n/locale-policy.mjs';
 
 export type Tonever2026 = typeof master;
-const files = { ru, en, ko, zh, ja, it, de, fr, tr, es, pt, he, hi };
+const files = { ru, en, ko, zh, ja, it, de, fr, tr, es, pt, he, hi, ar };
 export const tonever2026 = Object.fromEntries(publicLocaleCodes.map((lang) => {
   const copy = files[lang as Lang];
   if (!copy) throw new Error(`Missing TONEVER 2026 locale: ${lang}`);
   return [lang, copy];
 })) as Record<Lang, Tonever2026>;
+
+/* 'ar' is staged (not yet in publicLocaleCodes, opened only by T-20261124-072),
+   but its translated content already exists and blog-tonever.ts needs it. */
+export const tonever2026Ar: Tonever2026 = ar;
 
 export const tonever2026Products = ['the-pamin', 'rebelook', 'ready-booster', '72k-film-ampoule'] as const;
 export type Tonever2026Product = typeof tonever2026Products[number];

@@ -1,6 +1,6 @@
 /* ============================================================
-   i18n assembler — 11 public languages plus staged he/hi.
-   Source of truth: ru. Full dictionaries: ru, en, ko, pt, he, hi (used directly).
+   i18n assembler — 11 public languages plus staged he/hi/ar.
+   Source of truth: ru. Full dictionaries: ru, en, ko, pt, he, hi, ar (used directly).
    Machine-translated (merged OVER English): zh, ja, it, de, fr, tr, es.
    All locales are indexed (index/follow) and get hreflang + sitemap
    entries — HQ directive to index every language version.
@@ -13,6 +13,7 @@ import { ko } from './locales/ko';
 import { pt } from './locales/pt';
 import { he } from './locales/he';
 import { hi } from './locales/hi';
+import { ar } from './locales/ar';
 import { localeDefinitions, publicLocaleCodes } from './locale-policy.mjs';
 import zh from './locales/zh';
 import ja from './locales/ja';
@@ -83,6 +84,10 @@ export const ui: Record<Lang, UIDict> = {
   pt,
   he,
   hi,
+  // Staged (T-20261124-068/069): full UI dictionary translated to MSA
+  // Arabic. Not in publicLocaleCodes, so this never creates a public
+  // /ar/ route or switcher entry.
+  ar,
   zh: build('zh', zh),
   ja: build('ja', ja),
   it: build('it', it),
@@ -90,7 +95,4 @@ export const ui: Record<Lang, UIDict> = {
   fr: build('fr', fr),
   tr: build('tr', tr),
   es: build('es', es),
-  // Staged (T-20261124-068): no Arabic strings yet, pure English fallback.
-  // Not in publicLocaleCodes, so this never creates a public /ar/ route.
-  ar: build('ar', {}),
 };

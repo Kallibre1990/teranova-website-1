@@ -3,13 +3,13 @@ import Base from '../../../layouts/Base.astro';
 import DonggukProfile from '../../../components/pages/DonggukProfile.astro';
 import { donggukContent } from '../../../data/dongguk';
 import { publicLocaleCodes, sectionDefaultLocale } from '../../../i18n/locale-policy.mjs';
-import type { Lang } from '../../../i18n/ui';
+import { ui, type Lang } from '../../../i18n/ui';
 export function getStaticPaths() {
   return publicLocaleCodes.filter(lang => lang !== sectionDefaultLocale).map(lang => ({ params: { lang }, props: { lang } }));
 }
 const { lang } = Astro.props as { lang: Lang };
 const c = donggukContent(lang);
 ---
-<Base lang={lang} path="/catalog/dongguk" title={`Dongguk University Medical Center — ${c.portfolio} | Teranova`} description={c.intro} image="/images/dongguk/imaging-ms.png" jsonLd={{ '@context': 'https://schema.org', '@type': 'MedicalOrganization', name: 'Dongguk University Medical Center', alternateName: '동국대학교 의료원' }}>
+<Base lang={lang} path="/catalog/dongguk" title={`Dongguk University Medical Center — ${c.portfolio} | Teranova`} description={c.intro} image="/images/dongguk/imaging-ms.png" jsonLd={{ '@context': 'https://schema.org', '@type': 'MedicalOrganization', name: 'Dongguk University Medical Center', alternateName: '동국대학교 의료원', inLanguage: ui[lang].htmlLang }}>
   <DonggukProfile lang={lang} />
 </Base>

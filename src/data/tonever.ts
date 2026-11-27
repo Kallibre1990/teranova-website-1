@@ -24,6 +24,8 @@ import profilehe from './suppliers-i18n/tonever.he.json';
 import copyhe from '../../docs/tonever-copy/he.json';
 import profilehi from './suppliers-i18n/tonever.hi.json';
 import copyhi from '../../docs/tonever-copy/hi.json';
+import profilear from './suppliers-i18n/tonever.ar.json';
+import copyar from '../../docs/tonever-copy/ar.json';
 import type { SupplierProfile, SupplierLinePage, SupplierContent } from './suppliers';
 import type { Lang } from '../i18n/ui';
 import { publicLocaleCodes } from '../i18n/locale-policy.mjs';
@@ -31,7 +33,7 @@ import { tonever2026, type Tonever2026Product } from './tonever-2026';
 
 // T-20261119-032: each document name keeps its own evidence. No inferred rename.
 const toneverItemsSlugs = ['the-pamin', 'lumilook', 'rebelook', 'ready-booster', 'axis-ampoule', '72k-film-ampoule', 'lumeniq-cream', 'nude-fixer', 'aurora-serum'];
-const payloads = {ru: profileru, en: profileen, ko: profileko, zh: profilezh, ja: profileja, it: profileit, de: profilede, fr: profilefr, tr: profiletr, es: profilees, pt: profilept, he: profilehe, hi: profilehi};
+const payloads = {ru: profileru, en: profileen, ko: profileko, zh: profilezh, ja: profileja, it: profileit, de: profilede, fr: profilefr, tr: profiletr, es: profilees, pt: profilept, he: profilehe, hi: profilehi, ar: profilear};
 const translations = Object.fromEntries(publicLocaleCodes.map((lang) => {
   const payload = payloads[lang as Lang] as { content: Omit<SupplierContent, 'ui'>; ui: SupplierContent['ui'] };
   if (!payload) throw new Error(`Missing TONEVER translation: ${lang}`);
@@ -71,7 +73,7 @@ export const toneverProfile: SupplierProfile = {
   i18n: translations,
 };
 
-const copies = {ru: copyru, en: copyen, ko: copyko, zh: copyzh, ja: copyja, it: copyit, de: copyde, fr: copyfr, tr: copytr, es: copyes, pt: copypt, he: copyhe, hi: copyhi};
+const copies = {ru: copyru, en: copyen, ko: copyko, zh: copyzh, ja: copyja, it: copyit, de: copyde, fr: copyfr, tr: copytr, es: copyes, pt: copypt, he: copyhe, hi: copyhi, ar: copyar};
 export const toneverLines: SupplierLinePage[] = toneverItems.map((item, index) => ({
   slug: item.slug, supplierSlug: 'tonever', category: 'cosmetics', lineName: item.name, items: [item],
   i18n: Object.fromEntries(publicLocaleCodes.map((lang) => {

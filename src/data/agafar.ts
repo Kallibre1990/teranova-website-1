@@ -15,8 +15,9 @@ import es from './suppliers-i18n/agafar.es.json';
 import pt from './suppliers-i18n/agafar.pt.json';
 import he from './suppliers-i18n/agafar.he.json';
 import hi from './suppliers-i18n/agafar.hi.json';
+import ar from './suppliers-i18n/agafar.ar.json';
 
-const translations = { ru, en, ko, zh, ja, it, de, fr, tr, es, pt, he, hi };
+const translations = { ru, en, ko, zh, ja, it, de, fr, tr, es, pt, he, hi, ar };
 for (const lang of publicLocaleCodes) {
   if (!translations[lang as Lang]) throw new Error(`Missing AGAFAR locale: ${lang}`);
 }

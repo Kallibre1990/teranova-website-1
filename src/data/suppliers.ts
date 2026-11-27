@@ -14,6 +14,7 @@ import oanicPt from './suppliers-i18n/oanic.pt.json';
 import oanicHe from './suppliers-i18n/oanic.he.json';
 import oanicHi from './suppliers-i18n/oanic.hi.json';
 import oanicTr from './suppliers-i18n/oanic.tr.json';
+import oanicAr from './suppliers-i18n/oanic.ar.json';
 import oanicCatalog from './suppliers-i18n/oanic.catalog.json';
 import oanicLines from './suppliers-i18n/oanic.lines.json';
 /* Real suppliers published WITH written consent — the opposite of demoSuppliers.
@@ -42,6 +43,7 @@ import doobomTr from './suppliers-i18n/doobom.tr.json';
 import doobomEs from './suppliers-i18n/doobom.es.json';
 import doobomPt from './suppliers-i18n/doobom.pt.json';
 import doobomHe from './suppliers-i18n/doobom.he.json';
+import doobomAr from './suppliers-i18n/doobom.ar.json';
 import doobomHi from './suppliers-i18n/doobom.hi.json';
 import doobomCatalog from './suppliers-i18n/doobom.catalog.json';
 import cocoRu from './suppliers-i18n/cocospack.ru.json';
@@ -57,6 +59,7 @@ import cocoTr from './suppliers-i18n/cocospack.tr.json';
 import cocoEs from './suppliers-i18n/cocospack.es.json';
 import cocoPt from './suppliers-i18n/cocospack.pt.json';
 import cocoHe from './suppliers-i18n/cocospack.he.json';
+import cocoAr from './suppliers-i18n/cocospack.ar.json';
 import cocoHi from './suppliers-i18n/cocospack.hi.json';
 import sunpureRu from './suppliers-i18n/sunpure.ru.json';
 import sunpureEn from './suppliers-i18n/sunpure.en.json';
@@ -71,6 +74,7 @@ import sunpureEs from './suppliers-i18n/sunpure.es.json';
 import sunpurePt from './suppliers-i18n/sunpure.pt.json';
 import sunpureHe from './suppliers-i18n/sunpure.he.json';
 import sunpureHi from './suppliers-i18n/sunpure.hi.json';
+import sunpureAr from './suppliers-i18n/sunpure.ar.json';
 import sunpureCatalog from './suppliers-i18n/sunpure.catalog.json';
 import maoomRu from './suppliers-i18n/maoom.ru.json';
 import maoomEn from './suppliers-i18n/maoom.en.json';
@@ -85,6 +89,7 @@ import maoomEs from './suppliers-i18n/maoom.es.json';
 import maoomPt from './suppliers-i18n/maoom.pt.json';
 import maoomHe from './suppliers-i18n/maoom.he.json';
 import maoomHi from './suppliers-i18n/maoom.hi.json';
+import maoomAr from './suppliers-i18n/maoom.ar.json';
 import maoomCatalog from './suppliers-i18n/maoom.catalog.json';
 import skinroomRu from './suppliers-i18n/skinroom.ru.json';
 import skinroomEn from './suppliers-i18n/skinroom.en.json';
@@ -99,6 +104,7 @@ import skinroomEs from './suppliers-i18n/skinroom.es.json';
 import skinroomPt from './suppliers-i18n/skinroom.pt.json';
 import skinroomHe from './suppliers-i18n/skinroom.he.json';
 import skinroomHi from './suppliers-i18n/skinroom.hi.json';
+import skinroomAr from './suppliers-i18n/skinroom.ar.json';
 import skinroomCatalog from './suppliers-i18n/skinroom.catalog.json';
 import joycosRu from './suppliers-i18n/joycos.ru.json';
 import joycosEn from './suppliers-i18n/joycos.en.json';
@@ -113,6 +119,7 @@ import joycosEs from './suppliers-i18n/joycos.es.json';
 import joycosPt from './suppliers-i18n/joycos.pt.json';
 import joycosHe from './suppliers-i18n/joycos.he.json';
 import joycosHi from './suppliers-i18n/joycos.hi.json';
+import joycosAr from './suppliers-i18n/joycos.ar.json';
 import joycosCatalog from './suppliers-i18n/joycos.catalog.json';
 import hanscosRu from './suppliers-i18n/hanscos.ru.json';
 import hanscosEn from './suppliers-i18n/hanscos.en.json';
@@ -127,6 +134,7 @@ import hanscosEs from './suppliers-i18n/hanscos.es.json';
 import hanscosPt from './suppliers-i18n/hanscos.pt.json';
 import hanscosHe from './suppliers-i18n/hanscos.he.json';
 import hanscosHi from './suppliers-i18n/hanscos.hi.json';
+import hanscosAr from './suppliers-i18n/hanscos.ar.json';
 import hanscosCatalog from './suppliers-i18n/hanscos.catalog.json';
 import bioptRu from './suppliers-i18n/biopt.ru.json';
 import bioptEn from './suppliers-i18n/biopt.en.json';
@@ -141,6 +149,7 @@ import bioptEs from './suppliers-i18n/biopt.es.json';
 import bioptPt from './suppliers-i18n/biopt.pt.json';
 import bioptHe from './suppliers-i18n/biopt.he.json';
 import bioptHi from './suppliers-i18n/biopt.hi.json';
+import bioptAr from './suppliers-i18n/biopt.ar.json';
 import bioptCatalog from './suppliers-i18n/biopt.catalog.json';
 import loobeeRu from './suppliers-i18n/loobee.ru.json';
 import loobeeEn from './suppliers-i18n/loobee.en.json';
@@ -155,6 +164,7 @@ import loobeeEs from './suppliers-i18n/loobee.es.json';
 import loobeePt from './suppliers-i18n/loobee.pt.json';
 import loobeeHe from './suppliers-i18n/loobee.he.json';
 import loobeeHi from './suppliers-i18n/loobee.hi.json';
+import loobeeAr from './suppliers-i18n/loobee.ar.json';
 import loobeeCatalog from './suppliers-i18n/loobee.catalog.json';
 import slRu from './suppliers-i18n/slow-lounge.ru.json';
 import slEn from './suppliers-i18n/slow-lounge.en.json';
@@ -169,6 +179,7 @@ import slEs from './suppliers-i18n/slow-lounge.es.json';
 import slPt from './suppliers-i18n/slow-lounge.pt.json';
 import slHe from './suppliers-i18n/slow-lounge.he.json';
 import slHi from './suppliers-i18n/slow-lounge.hi.json';
+import slAr from './suppliers-i18n/slow-lounge.ar.json';
 import slCatalog from './suppliers-i18n/slow-lounge.catalog.json';
 import abRu from './suppliers-i18n/aberede.ru.json';
 import abEn from './suppliers-i18n/aberede.en.json';
@@ -183,6 +194,7 @@ import abEs from './suppliers-i18n/aberede.es.json';
 import abPt from './suppliers-i18n/aberede.pt.json';
 import abHe from './suppliers-i18n/aberede.he.json';
 import abHi from './suppliers-i18n/aberede.hi.json';
+import abAr from './suppliers-i18n/aberede.ar.json';
 import abCatalog from './suppliers-i18n/aberede.catalog.json';
 import aoiRu from './suppliers-i18n/aoi.ru.json';
 import aoiEn from './suppliers-i18n/aoi.en.json';
@@ -197,6 +209,7 @@ import aoiEs from './suppliers-i18n/aoi.es.json';
 import aoiPt from './suppliers-i18n/aoi.pt.json';
 import aoiHe from './suppliers-i18n/aoi.he.json';
 import aoiHi from './suppliers-i18n/aoi.hi.json';
+import aoiAr from './suppliers-i18n/aoi.ar.json';
 import aoiCatalog from './suppliers-i18n/aoi.catalog.json';
 import fauRu from './suppliers-i18n/fau.ru.json';
 import fauEn from './suppliers-i18n/fau.en.json';
@@ -210,6 +223,7 @@ import fauTr from './suppliers-i18n/fau.tr.json';
 import fauEs from './suppliers-i18n/fau.es.json';
 import fauPt from './suppliers-i18n/fau.pt.json';
 import fauHe from './suppliers-i18n/fau.he.json';
+import fauAr from './suppliers-i18n/fau.ar.json';
 import fauHi from './suppliers-i18n/fau.hi.json';
 import fauCatalog from './suppliers-i18n/fau.catalog.json';
 import agerinRu from './suppliers-i18n/agerin.ru.json';
@@ -225,6 +239,7 @@ import agerinEs from './suppliers-i18n/agerin.es.json';
 import agerinPt from './suppliers-i18n/agerin.pt.json';
 import agerinHe from './suppliers-i18n/agerin.he.json';
 import agerinHi from './suppliers-i18n/agerin.hi.json';
+import agerinAr from './suppliers-i18n/agerin.ar.json';
 import agerinCatalog from './suppliers-i18n/agerin.catalog.json';
 import sprxRu from './suppliers-i18n/sprx.ru.json';
 import sprxEn from './suppliers-i18n/sprx.en.json';
@@ -239,6 +254,7 @@ import sprxEs from './suppliers-i18n/sprx.es.json';
 import sprxPt from './suppliers-i18n/sprx.pt.json';
 import sprxHe from './suppliers-i18n/sprx.he.json';
 import sprxHi from './suppliers-i18n/sprx.hi.json';
+import sprxAr from './suppliers-i18n/sprx.ar.json';
 import sprxCatalog from './suppliers-i18n/sprx.catalog.json';
 import btfRu from './suppliers-i18n/btf.ru.json';
 import btfEn from './suppliers-i18n/btf.en.json';
@@ -253,6 +269,7 @@ import btfEs from './suppliers-i18n/btf.es.json';
 import btfPt from './suppliers-i18n/btf.pt.json';
 import btfHe from './suppliers-i18n/btf.he.json';
 import btfHi from './suppliers-i18n/btf.hi.json';
+import btfAr from './suppliers-i18n/btf.ar.json';
 import btfCatalog from './suppliers-i18n/btf.catalog.json';
 import btfLines from './suppliers-i18n/btf.lines.json';
 import desertFreeRu from './suppliers-i18n/desert-free.ru.json';
@@ -267,6 +284,7 @@ import desertFreeTr from './suppliers-i18n/desert-free.tr.json';
 import desertFreeEs from './suppliers-i18n/desert-free.es.json';
 import desertFreePt from './suppliers-i18n/desert-free.pt.json';
 import desertFreeHe from './suppliers-i18n/desert-free.he.json';
+import desertFreeAr from './suppliers-i18n/desert-free.ar.json';
 import desertFreeHi from './suppliers-i18n/desert-free.hi.json';
 import desertFreeCatalog from './suppliers-i18n/desert-free.catalog.json';
 import desertFreeLines from './suppliers-i18n/desert-free.lines.json';
@@ -282,6 +300,7 @@ import drPeloTr from './suppliers-i18n/dr-pelo.tr.json';
 import drPeloEs from './suppliers-i18n/dr-pelo.es.json';
 import drPeloPt from './suppliers-i18n/dr-pelo.pt.json';
 import drPeloHe from './suppliers-i18n/dr-pelo.he.json';
+import drPeloAr from './suppliers-i18n/dr-pelo.ar.json';
 import drPeloHi from './suppliers-i18n/dr-pelo.hi.json';
 import drPeloCatalog from './suppliers-i18n/dr-pelo.catalog.json';
 import armingRu from './suppliers-i18n/arming.ru.json';
@@ -297,6 +316,7 @@ import armingEs from './suppliers-i18n/arming.es.json';
 import armingPt from './suppliers-i18n/arming.pt.json';
 import armingHe from './suppliers-i18n/arming.he.json';
 import armingHi from './suppliers-i18n/arming.hi.json';
+import armingAr from './suppliers-i18n/arming.ar.json';
 import armingCatalog from './suppliers-i18n/arming.catalog.json';
 import whamisaRu from './suppliers-i18n/whamisa.ru.json';
 import whamisaEn from './suppliers-i18n/whamisa.en.json';
@@ -311,6 +331,7 @@ import whamisaEs from './suppliers-i18n/whamisa.es.json';
 import whamisaPt from './suppliers-i18n/whamisa.pt.json';
 import whamisaHe from './suppliers-i18n/whamisa.he.json';
 import whamisaHi from './suppliers-i18n/whamisa.hi.json';
+import whamisaAr from './suppliers-i18n/whamisa.ar.json';
 import whamisaCatalog from './suppliers-i18n/whamisa.catalog.json';
 import veoBiotechRu from './suppliers-i18n/veo-biotech.ru.json';
 import veoBiotechEn from './suppliers-i18n/veo-biotech.en.json';
@@ -325,6 +346,7 @@ import veoBiotechEs from './suppliers-i18n/veo-biotech.es.json';
 import veoBiotechPt from './suppliers-i18n/veo-biotech.pt.json';
 import veoBiotechHe from './suppliers-i18n/veo-biotech.he.json';
 import veoBiotechHi from './suppliers-i18n/veo-biotech.hi.json';
+import veoBiotechAr from './suppliers-i18n/veo-biotech.ar.json';
 import veoBiotechCatalog from './suppliers-i18n/veo-biotech.catalog.json';
 import themaqueenRu from './suppliers-i18n/themaqueen.ru.json';
 import themaqueenEn from './suppliers-i18n/themaqueen.en.json';
@@ -339,6 +361,7 @@ import themaqueenEs from './suppliers-i18n/themaqueen.es.json';
 import themaqueenPt from './suppliers-i18n/themaqueen.pt.json';
 import themaqueenHe from './suppliers-i18n/themaqueen.he.json';
 import themaqueenHi from './suppliers-i18n/themaqueen.hi.json';
+import themaqueenAr from './suppliers-i18n/themaqueen.ar.json';
 import acfitRu from './suppliers-i18n/acfit.ru.json';
 import acfitEn from './suppliers-i18n/acfit.en.json';
 import acfitKo from './suppliers-i18n/acfit.ko.json';
@@ -352,6 +375,7 @@ import acfitEs from './suppliers-i18n/acfit.es.json';
 import acfitPt from './suppliers-i18n/acfit.pt.json';
 import acfitHe from './suppliers-i18n/acfit.he.json';
 import acfitHi from './suppliers-i18n/acfit.hi.json';
+import acfitAr from './suppliers-i18n/acfit.ar.json';
 import acfitCatalog from './suppliers-i18n/acfit.catalog.json';
 import plkLiftRu from './suppliers-i18n/plk-lift.ru.json';
 import plkLiftEn from './suppliers-i18n/plk-lift.en.json';
@@ -366,6 +390,7 @@ import plkLiftEs from './suppliers-i18n/plk-lift.es.json';
 import plkLiftPt from './suppliers-i18n/plk-lift.pt.json';
 import plkLiftHe from './suppliers-i18n/plk-lift.he.json';
 import plkLiftHi from './suppliers-i18n/plk-lift.hi.json';
+import plkLiftAr from './suppliers-i18n/plk-lift.ar.json';
 import plkLiftCatalog from './suppliers-i18n/plk-lift.catalog.json';
 import oavoRu from './suppliers-i18n/oavo.ru.json';
 import oavoEn from './suppliers-i18n/oavo.en.json';
@@ -380,6 +405,7 @@ import oavoEs from './suppliers-i18n/oavo.es.json';
 import oavoPt from './suppliers-i18n/oavo.pt.json';
 import oavoHe from './suppliers-i18n/oavo.he.json';
 import oavoHi from './suppliers-i18n/oavo.hi.json';
+import oavoAr from './suppliers-i18n/oavo.ar.json';
 import aromaflavumRu from './suppliers-i18n/aromaflavum.ru.json';
 import aromaflavumEn from './suppliers-i18n/aromaflavum.en.json';
 import aromaflavumKo from './suppliers-i18n/aromaflavum.ko.json';
@@ -393,6 +419,7 @@ import aromaflavumEs from './suppliers-i18n/aromaflavum.es.json';
 import aromaflavumPt from './suppliers-i18n/aromaflavum.pt.json';
 import aromaflavumHe from './suppliers-i18n/aromaflavum.he.json';
 import aromaflavumHi from './suppliers-i18n/aromaflavum.hi.json';
+import aromaflavumAr from './suppliers-i18n/aromaflavum.ar.json';
 import koyRu from './suppliers-i18n/koy.ru.json';
 import koyEn from './suppliers-i18n/koy.en.json';
 import koyKo from './suppliers-i18n/koy.ko.json';
@@ -406,7 +433,24 @@ import koyEs from './suppliers-i18n/koy.es.json';
 import koyPt from './suppliers-i18n/koy.pt.json';
 import koyHe from './suppliers-i18n/koy.he.json';
 import koyHi from './suppliers-i18n/koy.hi.json';
+import koyAr from './suppliers-i18n/koy.ar.json';
 import koyCatalog from './suppliers-i18n/koy.catalog.json';
+import jellykoRu from './suppliers-i18n/jellyko.ru.json';
+import jellykoEn from './suppliers-i18n/jellyko.en.json';
+import jellykoKo from './suppliers-i18n/jellyko.ko.json';
+import jellykoZh from './suppliers-i18n/jellyko.zh.json';
+import jellykoJa from './suppliers-i18n/jellyko.ja.json';
+import jellykoIt from './suppliers-i18n/jellyko.it.json';
+import jellykoDe from './suppliers-i18n/jellyko.de.json';
+import jellykoFr from './suppliers-i18n/jellyko.fr.json';
+import jellykoTr from './suppliers-i18n/jellyko.tr.json';
+import jellykoEs from './suppliers-i18n/jellyko.es.json';
+import jellykoPt from './suppliers-i18n/jellyko.pt.json';
+import jellykoHe from './suppliers-i18n/jellyko.he.json';
+import jellykoHi from './suppliers-i18n/jellyko.hi.json';
+import jellykoAr from './suppliers-i18n/jellyko.ar.json';
+import jellykoCatalog from './suppliers-i18n/jellyko.catalog.json';
+import jellykoLines from './suppliers-i18n/jellyko.lines.json';
 import cheon365Ru from './suppliers-i18n/cheon365.ru.json';
 import cheon365En from './suppliers-i18n/cheon365.en.json';
 import cheon365Ko from './suppliers-i18n/cheon365.ko.json';
@@ -419,6 +463,7 @@ import cheon365Tr from './suppliers-i18n/cheon365.tr.json';
 import cheon365Es from './suppliers-i18n/cheon365.es.json';
 import cheon365Pt from './suppliers-i18n/cheon365.pt.json';
 import cheon365He from './suppliers-i18n/cheon365.he.json';
+import cheon365Ar from './suppliers-i18n/cheon365.ar.json';
 import cheon365Hi from './suppliers-i18n/cheon365.hi.json';
 import cheon365Catalog from './suppliers-i18n/cheon365.catalog.json';
 import dailycommaRu from './suppliers-i18n/dailycomma.ru.json';
@@ -433,6 +478,7 @@ import dailycommaTr from './suppliers-i18n/dailycomma.tr.json';
 import dailycommaEs from './suppliers-i18n/dailycomma.es.json';
 import dailycommaPt from './suppliers-i18n/dailycomma.pt.json';
 import dailycommaHe from './suppliers-i18n/dailycomma.he.json';
+import dailycommaAr from './suppliers-i18n/dailycomma.ar.json';
 import dailycommaHi from './suppliers-i18n/dailycomma.hi.json';
 import dailycommaCatalog from './suppliers-i18n/dailycomma.catalog.json';
 import abeltyRu from './suppliers-i18n/abelty.ru.json';
@@ -448,6 +494,7 @@ import abeltyEs from './suppliers-i18n/abelty.es.json';
 import abeltyPt from './suppliers-i18n/abelty.pt.json';
 import abeltyHe from './suppliers-i18n/abelty.he.json';
 import abeltyHi from './suppliers-i18n/abelty.hi.json';
+import abeltyAr from './suppliers-i18n/abelty.ar.json';
 import abeltyCatalog from './suppliers-i18n/abelty.catalog.json';
 import cellahealRu from './suppliers-i18n/cellaheal.ru.json';
 import cellahealEn from './suppliers-i18n/cellaheal.en.json';
@@ -462,6 +509,7 @@ import cellahealEs from './suppliers-i18n/cellaheal.es.json';
 import cellahealPt from './suppliers-i18n/cellaheal.pt.json';
 import cellahealHe from './suppliers-i18n/cellaheal.he.json';
 import cellahealHi from './suppliers-i18n/cellaheal.hi.json';
+import cellahealAr from './suppliers-i18n/cellaheal.ar.json';
 import cellahealCatalog from './suppliers-i18n/cellaheal.catalog.json';
 import twoTigersRu from './suppliers-i18n/two-tigers.ru.json';
 import twoTigersEn from './suppliers-i18n/two-tigers.en.json';
@@ -476,6 +524,7 @@ import twoTigersEs from './suppliers-i18n/two-tigers.es.json';
 import twoTigersPt from './suppliers-i18n/two-tigers.pt.json';
 import twoTigersHe from './suppliers-i18n/two-tigers.he.json';
 import twoTigersHi from './suppliers-i18n/two-tigers.hi.json';
+import twoTigersAr from './suppliers-i18n/two-tigers.ar.json';
 import twoTigersCatalog from './suppliers-i18n/two-tigers.catalog.json';
 import veganNatureRu from './suppliers-i18n/vegan-nature.ru.json';
 import veganNatureEn from './suppliers-i18n/vegan-nature.en.json';
@@ -490,6 +539,7 @@ import veganNatureEs from './suppliers-i18n/vegan-nature.es.json';
 import veganNaturePt from './suppliers-i18n/vegan-nature.pt.json';
 import veganNatureHe from './suppliers-i18n/vegan-nature.he.json';
 import veganNatureHi from './suppliers-i18n/vegan-nature.hi.json';
+import veganNatureAr from './suppliers-i18n/vegan-nature.ar.json';
 import veganNatureCatalog from './suppliers-i18n/vegan-nature.catalog.json';
 import veganNatureLines from './suppliers-i18n/vegan-nature.lines.json';
 import duCosmeticRu from './suppliers-i18n/du-cosmetic.ru.json';
@@ -504,6 +554,7 @@ import duCosmeticTr from './suppliers-i18n/du-cosmetic.tr.json';
 import duCosmeticEs from './suppliers-i18n/du-cosmetic.es.json';
 import duCosmeticPt from './suppliers-i18n/du-cosmetic.pt.json';
 import duCosmeticHe from './suppliers-i18n/du-cosmetic.he.json';
+import duCosmeticAr from './suppliers-i18n/du-cosmetic.ar.json';
 import duCosmeticHi from './suppliers-i18n/du-cosmetic.hi.json';
 import ooznaryRu from './suppliers-i18n/ooznary.ru.json';
 import ooznaryEn from './suppliers-i18n/ooznary.en.json';
@@ -518,6 +569,7 @@ import ooznaryEs from './suppliers-i18n/ooznary.es.json';
 import ooznaryPt from './suppliers-i18n/ooznary.pt.json';
 import ooznaryHe from './suppliers-i18n/ooznary.he.json';
 import ooznaryHi from './suppliers-i18n/ooznary.hi.json';
+import ooznaryAr from './suppliers-i18n/ooznary.ar.json';
 import ooznaryCatalog from './suppliers-i18n/ooznary.catalog.json';
 import hiyoRu from './suppliers-i18n/hiyo.ru.json';
 import hiyoEn from './suppliers-i18n/hiyo.en.json';
@@ -532,6 +584,7 @@ import hiyoEs from './suppliers-i18n/hiyo.es.json';
 import hiyoPt from './suppliers-i18n/hiyo.pt.json';
 import hiyoHe from './suppliers-i18n/hiyo.he.json';
 import hiyoHi from './suppliers-i18n/hiyo.hi.json';
+import hiyoAr from './suppliers-i18n/hiyo.ar.json';
 import dachenRu from './suppliers-i18n/dachen.ru.json';
 import dachenEn from './suppliers-i18n/dachen.en.json';
 import dachenKo from './suppliers-i18n/dachen.ko.json';
@@ -544,6 +597,7 @@ import dachenTr from './suppliers-i18n/dachen.tr.json';
 import dachenEs from './suppliers-i18n/dachen.es.json';
 import dachenPt from './suppliers-i18n/dachen.pt.json';
 import dachenHe from './suppliers-i18n/dachen.he.json';
+import dachenAr from './suppliers-i18n/dachen.ar.json';
 import dachenHi from './suppliers-i18n/dachen.hi.json';
 import toptrendRu from './suppliers-i18n/toptrend.ru.json';
 import toptrendEn from './suppliers-i18n/toptrend.en.json';
@@ -558,6 +612,7 @@ import toptrendEs from './suppliers-i18n/toptrend.es.json';
 import toptrendPt from './suppliers-i18n/toptrend.pt.json';
 import toptrendHe from './suppliers-i18n/toptrend.he.json';
 import toptrendHi from './suppliers-i18n/toptrend.hi.json';
+import toptrendAr from './suppliers-i18n/toptrend.ar.json';
 import mozScienceRu from './suppliers-i18n/moz-science.ru.json';
 import mozScienceEn from './suppliers-i18n/moz-science.en.json';
 import mozScienceKo from './suppliers-i18n/moz-science.ko.json';
@@ -571,6 +626,7 @@ import mozScienceEs from './suppliers-i18n/moz-science.es.json';
 import mozSciencePt from './suppliers-i18n/moz-science.pt.json';
 import mozScienceHe from './suppliers-i18n/moz-science.he.json';
 import mozScienceHi from './suppliers-i18n/moz-science.hi.json';
+import mozScienceAr from './suppliers-i18n/moz-science.ar.json';
 import chaewunRu from './suppliers-i18n/chaewun.ru.json';
 import chaewunEn from './suppliers-i18n/chaewun.en.json';
 import chaewunKo from './suppliers-i18n/chaewun.ko.json';
@@ -584,6 +640,7 @@ import chaewunEs from './suppliers-i18n/chaewun.es.json';
 import chaewunPt from './suppliers-i18n/chaewun.pt.json';
 import chaewunHe from './suppliers-i18n/chaewun.he.json';
 import chaewunHi from './suppliers-i18n/chaewun.hi.json';
+import chaewunAr from './suppliers-i18n/chaewun.ar.json';
 import chaewunCatalog from './suppliers-i18n/chaewun.catalog.json';
 import chaewunLines from './suppliers-i18n/chaewun.lines.json';
 import glowPumpkinRu from './suppliers-i18n/glow-pumpkin.ru.json';
@@ -598,6 +655,7 @@ import glowPumpkinTr from './suppliers-i18n/glow-pumpkin.tr.json';
 import glowPumpkinEs from './suppliers-i18n/glow-pumpkin.es.json';
 import glowPumpkinPt from './suppliers-i18n/glow-pumpkin.pt.json';
 import glowPumpkinHe from './suppliers-i18n/glow-pumpkin.he.json';
+import glowPumpkinAr from './suppliers-i18n/glow-pumpkin.ar.json';
 import glowPumpkinHi from './suppliers-i18n/glow-pumpkin.hi.json';
 import glowPumpkinCatalog from './suppliers-i18n/glow-pumpkin.catalog.json';
 import rnhBioRu from './suppliers-i18n/rnh-bio.ru.json';
@@ -613,6 +671,7 @@ import rnhBioEs from './suppliers-i18n/rnh-bio.es.json';
 import rnhBioPt from './suppliers-i18n/rnh-bio.pt.json';
 import rnhBioHe from './suppliers-i18n/rnh-bio.he.json';
 import rnhBioHi from './suppliers-i18n/rnh-bio.hi.json';
+import rnhBioAr from './suppliers-i18n/rnh-bio.ar.json';
 import rnhBioCatalog from './suppliers-i18n/rnh-bio.catalog.json';
 
 import multifitRu from './suppliers-i18n/multifit.ru.json';
@@ -629,6 +688,7 @@ import multifitEs from './suppliers-i18n/multifit.es.json';
 import multifitPt from './suppliers-i18n/multifit.pt.json';
 import multifitHe from './suppliers-i18n/multifit.he.json';
 import multifitHi from './suppliers-i18n/multifit.hi.json';
+import multifitAr from './suppliers-i18n/multifit.ar.json';
 import cubecapCatalog from './suppliers-i18n/cubecap.catalog.json';
 import cubecapRu from './suppliers-i18n/cubecap.ru.json';
 import cubecapEn from './suppliers-i18n/cubecap.en.json';
@@ -642,6 +702,7 @@ import cubecapTr from './suppliers-i18n/cubecap.tr.json';
 import cubecapEs from './suppliers-i18n/cubecap.es.json';
 import cubecapPt from './suppliers-i18n/cubecap.pt.json';
 import cubecapHe from './suppliers-i18n/cubecap.he.json';
+import cubecapAr from './suppliers-i18n/cubecap.ar.json';
 import cubecapHi from './suppliers-i18n/cubecap.hi.json';
 import type { Lang } from '../i18n/ui';
 import santeEn from './suppliers-i18n/sante.en.json';
@@ -656,6 +717,7 @@ import santeEs from './suppliers-i18n/sante.es.json';
 import santePt from './suppliers-i18n/sante.pt.json';
 import santeHe from './suppliers-i18n/sante.he.json';
 import santeHi from './suppliers-i18n/sante.hi.json';
+import santeAr from './suppliers-i18n/sante.ar.json';
 import santeCatalog from './suppliers-i18n/sante.catalog.json';
 import dongdonggurimooCatalog from './suppliers-i18n/dongdonggurimoo.catalog.json';
 import ckRegeonCatalog from './suppliers-i18n/ck-regeon.catalog.json';
@@ -675,6 +737,7 @@ import caycllyEs from './suppliers-i18n/cayclly.es.json';
 import caycllyPt from './suppliers-i18n/cayclly.pt.json';
 import caycllyHe from './suppliers-i18n/cayclly.he.json';
 import caycllyHi from './suppliers-i18n/cayclly.hi.json';
+import caycllyAr from './suppliers-i18n/cayclly.ar.json';
 import cayclyCatalog from './suppliers-i18n/cayclly.catalog.json';
 import icelmediCatalog from './suppliers-i18n/icelmedi.catalog.json';
 import tdlCatalog from './suppliers-i18n/three-days-love.catalog.json';
@@ -698,6 +761,7 @@ import dreamcosTr from './suppliers-i18n/dreamcos.tr.json';
 import dreamcosEs from './suppliers-i18n/dreamcos.es.json';
 import dreamcosPt from './suppliers-i18n/dreamcos.pt.json';
 import dreamcosHe from './suppliers-i18n/dreamcos.he.json';
+import dreamcosAr from './suppliers-i18n/dreamcos.ar.json';
 import dreamcosHi from './suppliers-i18n/dreamcos.hi.json';
 import feelodyCatalog from './suppliers-i18n/feelody.catalog.json';
 import feelodyLines from './suppliers-i18n/feelody.lines.json';
@@ -707,6 +771,7 @@ import feelodyKo from './suppliers-i18n/feelody.ko.json';
 import feelodyZh from './suppliers-i18n/feelody.zh.json';
 import feelodyJa from './suppliers-i18n/feelody.ja.json';
 import feelodyHe from './suppliers-i18n/feelody.he.json';
+import feelodyAr from './suppliers-i18n/feelody.ar.json';
 import feelodyHi from './suppliers-i18n/feelody.hi.json';
 import feelodyIt from './suppliers-i18n/feelody.it.json';
 import feelodyDe from './suppliers-i18n/feelody.de.json';
@@ -728,6 +793,7 @@ import artfaceEs from './suppliers-i18n/artface.es.json';
 import artfacePt from './suppliers-i18n/artface.pt.json';
 import artfaceHe from './suppliers-i18n/artface.he.json';
 import artfaceHi from './suppliers-i18n/artface.hi.json';
+import artfaceAr from './suppliers-i18n/artface.ar.json';
 import dongEn from './suppliers-i18n/dongdonggurimoo.en.json';
 import dongKo from './suppliers-i18n/dongdonggurimoo.ko.json';
 import dongZh from './suppliers-i18n/dongdonggurimoo.zh.json';
@@ -739,6 +805,7 @@ import dongTr from './suppliers-i18n/dongdonggurimoo.tr.json';
 import dongEs from './suppliers-i18n/dongdonggurimoo.es.json';
 import dongPt from './suppliers-i18n/dongdonggurimoo.pt.json';
 import dongHe from './suppliers-i18n/dongdonggurimoo.he.json';
+import dongAr from './suppliers-i18n/dongdonggurimoo.ar.json';
 import dongHi from './suppliers-i18n/dongdonggurimoo.hi.json';
 import ckrEn from './suppliers-i18n/ck-regeon.en.json';
 import ckrKo from './suppliers-i18n/ck-regeon.ko.json';
@@ -751,6 +818,7 @@ import ckrTr from './suppliers-i18n/ck-regeon.tr.json';
 import ckrEs from './suppliers-i18n/ck-regeon.es.json';
 import ckrPt from './suppliers-i18n/ck-regeon.pt.json';
 import ckrHe from './suppliers-i18n/ck-regeon.he.json';
+import ckrAr from './suppliers-i18n/ck-regeon.ar.json';
 import ckrHi from './suppliers-i18n/ck-regeon.hi.json';
 import jetsRu from './suppliers-i18n/jetsglobal.ru.json';
 import jetsEn from './suppliers-i18n/jetsglobal.en.json';
@@ -765,6 +833,7 @@ import jetsEs from './suppliers-i18n/jetsglobal.es.json';
 import jetsPt from './suppliers-i18n/jetsglobal.pt.json';
 import jetsHe from './suppliers-i18n/jetsglobal.he.json';
 import jetsHi from './suppliers-i18n/jetsglobal.hi.json';
+import jetsAr from './suppliers-i18n/jetsglobal.ar.json';
 import pineRu from './suppliers-i18n/pineworld.ru.json';
 import pineEn from './suppliers-i18n/pineworld.en.json';
 import pineKo from './suppliers-i18n/pineworld.ko.json';
@@ -778,6 +847,7 @@ import pineEs from './suppliers-i18n/pineworld.es.json';
 import pinePt from './suppliers-i18n/pineworld.pt.json';
 import pineHe from './suppliers-i18n/pineworld.he.json';
 import pineHi from './suppliers-i18n/pineworld.hi.json';
+import pineAr from './suppliers-i18n/pineworld.ar.json';
 import kiftRu from './suppliers-i18n/kift.ru.json';
 import kiftEn from './suppliers-i18n/kift.en.json';
 import kiftKo from './suppliers-i18n/kift.ko.json';
@@ -791,6 +861,7 @@ import kiftEs from './suppliers-i18n/kift.es.json';
 import kiftPt from './suppliers-i18n/kift.pt.json';
 import kiftHe from './suppliers-i18n/kift.he.json';
 import kiftHi from './suppliers-i18n/kift.hi.json';
+import kiftAr from './suppliers-i18n/kift.ar.json';
 import icelmediRu from './suppliers-i18n/icelmedi.ru.json';
 import icelmediEn from './suppliers-i18n/icelmedi.en.json';
 import icelmediKo from './suppliers-i18n/icelmedi.ko.json';
@@ -804,6 +875,7 @@ import icelmediEs from './suppliers-i18n/icelmedi.es.json';
 import icelmediPt from './suppliers-i18n/icelmedi.pt.json';
 import icelmediHe from './suppliers-i18n/icelmedi.he.json';
 import icelmediHi from './suppliers-i18n/icelmedi.hi.json';
+import icelmediAr from './suppliers-i18n/icelmedi.ar.json';
 import tdlRu from './suppliers-i18n/three-days-love.ru.json';
 import tdlEn from './suppliers-i18n/three-days-love.en.json';
 import tdlKo from './suppliers-i18n/three-days-love.ko.json';
@@ -817,6 +889,7 @@ import tdlEs from './suppliers-i18n/three-days-love.es.json';
 import tdlPt from './suppliers-i18n/three-days-love.pt.json';
 import tdlHe from './suppliers-i18n/three-days-love.he.json';
 import tdlHi from './suppliers-i18n/three-days-love.hi.json';
+import tdlAr from './suppliers-i18n/three-days-love.ar.json';
 import licorneRu from './suppliers-i18n/licorne.ru.json';
 import licorneEn from './suppliers-i18n/licorne.en.json';
 import licorneKo from './suppliers-i18n/licorne.ko.json';
@@ -830,6 +903,7 @@ import licorneEs from './suppliers-i18n/licorne.es.json';
 import licornePt from './suppliers-i18n/licorne.pt.json';
 import licorneHe from './suppliers-i18n/licorne.he.json';
 import licorneHi from './suppliers-i18n/licorne.hi.json';
+import licorneAr from './suppliers-i18n/licorne.ar.json';
 import agingTargetKo from './suppliers-i18n/agingtarget.ko.json';
 import agingTargetZh from './suppliers-i18n/agingtarget.zh.json';
 import agingTargetJa from './suppliers-i18n/agingtarget.ja.json';
@@ -841,6 +915,7 @@ import agingTargetEs from './suppliers-i18n/agingtarget.es.json';
 import agingTargetPt from './suppliers-i18n/agingtarget.pt.json';
 import agingTargetHe from './suppliers-i18n/agingtarget.he.json';
 import agingTargetHi from './suppliers-i18n/agingtarget.hi.json';
+import agingTargetAr from './suppliers-i18n/agingtarget.ar.json';
 
 export interface SupplierLine {
   name: string;
@@ -1308,7 +1383,7 @@ const mk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierCo
 const confirmedPlk = (j: { content: Record<string, unknown>; ui: SupplierUI }): SupplierContent => {
   const content = mk(j) as SupplierContent & Record<string, any>;
   const ranges = /(?:1\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*8|14\s*(?:[–-]|to|до|a|à|bis|から|至|에서|से|إلى)\s*52)/iu;
-  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|человек|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|लोग|명|人)/iu.test(text));
+  content.about = content.about.filter((text: string) => !/(?:500|５００).*(?:people|employees|staff|сотруд|человек|empleados|Mitarbeit|mitarbeitende|dipendenti|colaboradores|çalışan|funcionários|עובדים|कर्मचारी|लोग|명|人|موظف)/iu.test(text));
   content.facts = content.facts.filter((text: string) => !ranges.test(text));
   content.lines = content.lines.map((line: any) => ranges.test(line.note) ? ({ ...line, note: line.name }) : line);
   content.seoDesc = 'Jinan PLK Machinery: lifting equipment shown in the company catalogue, including GTBZ-22J telescopic boom lift.';
@@ -1441,7 +1516,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(santeFr),
       tr: mk(santeTr),
       es: mk(santeEs),
-      pt: mk(santePt), he: mk(santeHe), hi: mk(santeHi),
+      pt: mk(santePt), he: mk(santeHe), hi: mk(santeHi), ar: mk(santeAr as any),
     },
   },
   {
@@ -1494,7 +1569,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(dreamcosFr),
       tr: mk(dreamcosTr),
       es: mk(dreamcosEs),
-      pt: mk(dreamcosPt), he: mk(dreamcosHe), hi: mk(dreamcosHi),
+      pt: mk(dreamcosPt), he: mk(dreamcosHe), hi: mk(dreamcosHi), ar: mk(dreamcosAr),
     },
   },
   {
@@ -1528,7 +1603,7 @@ export const suppliers: SupplierProfile[] = [
     },
     i18n: {
       ru: mk(feelodyRu), en: mk(feelodyEn), ko: mk(feelodyKo), zh: mk(feelodyZh),
-      ja: mk(feelodyJa), he: mk(feelodyHe), hi: mk(feelodyHi),
+      ja: mk(feelodyJa), he: mk(feelodyHe), hi: mk(feelodyHi), ar: mk(feelodyAr),
       it: mk(feelodyIt), de: mk(feelodyDe), fr: mk(feelodyFr),
       tr: mk(feelodyTr), es: mk(feelodyEs), pt: mk(feelodyPt),
     },
@@ -1541,7 +1616,7 @@ export const suppliers: SupplierProfile[] = [
     voice: 'clinical', catalog: oanicCatalog,
     termsFile: { ru: '/docs/oanic-terms-ru.pdf', en: '/docs/oanic-terms-en.pdf', ko: '/docs/oanic-terms-ko.pdf', zh: '/docs/oanic-terms-zh.pdf', ja: '/docs/oanic-terms-ja.pdf', it: '/docs/oanic-terms-it.pdf', de: '/docs/oanic-terms-de.pdf', fr: '/docs/oanic-terms-fr.pdf', es: '/docs/oanic-terms-es.pdf', pt: '/docs/oanic-terms-pt.pdf', tr: '/docs/oanic-terms-tr.pdf' },
     presFile: { ru: '/docs/oanic-presentation-ru.pdf', en: '/docs/oanic-presentation-en.pdf', ko: '/docs/oanic-presentation-ko.pdf', zh: '/docs/oanic-presentation-zh.pdf', ja: '/docs/oanic-presentation-ja.pdf', it: '/docs/oanic-presentation-it.pdf', de: '/docs/oanic-presentation-de.pdf', fr: '/docs/oanic-presentation-fr.pdf', es: '/docs/oanic-presentation-es.pdf', pt: '/docs/oanic-presentation-pt.pdf', tr: '/docs/oanic-presentation-tr.pdf' },
-    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), he: mk(oanicHe), hi: mk(oanicHi), tr: mk(oanicTr) },
+    i18n: { ru: mk(oanicRu), en: mk(oanicEn), ko: mk(oanicKo), zh: mk(oanicZh), ja: mk(oanicJa), it: mk(oanicIt), de: mk(oanicDe), fr: mk(oanicFr), es: mk(oanicEs), pt: mk(oanicPt), he: mk(oanicHe), hi: mk(oanicHi), tr: mk(oanicTr), ar: mk(oanicAr) },
   },
   {
     slug: 'artface',
@@ -1563,7 +1638,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(artfaceFr),
       tr: mk(artfaceTr),
       es: mk(artfaceEs),
-      pt: mk(artfacePt), he: mk(artfaceHe), hi: mk(artfaceHi),
+      pt: mk(artfacePt), he: mk(artfaceHe), hi: mk(artfaceHi), ar: mk(artfaceAr),
     },
   },
   {
@@ -1644,7 +1719,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(dongFr as any),
       tr: mk(dongTr as any),
       es: mk(dongEs as any),
-      pt: mk(dongPt as any), he: mk(dongHe as any), hi: mk(dongHi as any),
+      pt: mk(dongPt as any), he: mk(dongHe as any), hi: mk(dongHi as any), ar: mk(dongAr as any),
     },
   },
   {
@@ -1694,7 +1769,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(ckrFr as any),
       tr: mk(ckrTr as any),
       es: mk(ckrEs as any),
-      pt: mk(ckrPt as any), he: mk(ckrHe as any), hi: mk(ckrHi as any),
+      pt: mk(ckrPt as any), he: mk(ckrHe as any), hi: mk(ckrHi as any), ar: mk(ckrAr as any),
     },
   },
   {
@@ -1743,7 +1818,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(jetsFr as any),
       tr: mk(jetsTr as any),
       es: mk(jetsEs as any),
-      pt: mk(jetsPt as any), he: mk(jetsHe as any), hi: mk(jetsHi as any),
+      pt: mk(jetsPt as any), he: mk(jetsHe as any), hi: mk(jetsHi as any), ar: mk(jetsAr as any),
     },
   },
   {
@@ -1791,7 +1866,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(pineFr as any),
       tr: mk(pineTr as any),
       es: mk(pineEs as any),
-      pt: mk(pinePt as any), he: mk(pineHe as any), hi: mk(pineHi as any),
+      pt: mk(pinePt as any), he: mk(pineHe as any), hi: mk(pineHi as any), ar: mk(pineAr as any),
     },
   },
   {
@@ -1821,7 +1896,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(caycllyFr as any),
       tr: mk(caycllyTr as any),
       es: mk(caycllyEs as any),
-      pt: mk(caycllyPt as any), he: mk(caycllyHe as any), hi: mk(caycllyHi as any),
+      pt: mk(caycllyPt as any), he: mk(caycllyHe as any), hi: mk(caycllyHi as any), ar: mk(caycllyAr as any),
     },
   },
   {
@@ -1854,7 +1929,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(kiftFr as any),
       tr: mk(kiftTr as any),
       es: mk(kiftEs as any),
-      pt: mk(kiftPt as any), he: mk(kiftHe as any), hi: mk(kiftHi as any),
+      pt: mk(kiftPt as any), he: mk(kiftHe as any), hi: mk(kiftHi as any), ar: mk(kiftAr as any),
     },
   },
   {
@@ -1887,7 +1962,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(icelmediFr as any),
       tr: mk(icelmediTr as any),
       es: mk(icelmediEs as any),
-      pt: mk(icelmediPt as any), he: mk(icelmediHe as any), hi: mk(icelmediHi as any),
+      pt: mk(icelmediPt as any), he: mk(icelmediHe as any), hi: mk(icelmediHi as any), ar: mk(icelmediAr as any),
     },
   },
   {
@@ -1913,6 +1988,7 @@ export const suppliers: SupplierProfile[] = [
       'RETURN 10 — домашний MTS и пептидный уход': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
       'RETURN 10 — ホームMTSおよびペプチドケア': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
       'RETURN 10 — 홈 MTS 및 펩타이드 케어': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
+      'RETURN 10 — عناية منزلية بالـMTS والببتيد': '/img/suppliers/three-days-love/products/return10-peptide-3type-mts-set.jpg',
     },
     catalog: tdlCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
@@ -1936,7 +2012,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(tdlFr as any),
       tr: mk(tdlTr as any),
       es: mk(tdlEs as any),
-      pt: mk(tdlPt as any), he: mk(tdlHe as any), hi: mk(tdlHi as any),
+      pt: mk(tdlPt as any), he: mk(tdlHe as any), hi: mk(tdlHi as any), ar: mk(tdlAr as any),
     },
   },
   {
@@ -1976,7 +2052,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(licorneFr as any),
       tr: mk(licorneTr as any),
       es: mk(licorneEs as any),
-      pt: mk(licornePt as any), he: mk(licorneHe as any), hi: mk(licorneHi as any),
+      pt: mk(licornePt as any), he: mk(licorneHe as any), hi: mk(licorneHi as any), ar: mk(licorneAr as any),
     },
   },
   {
@@ -2009,7 +2085,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(cubecapFr as any),
       tr: mk(cubecapTr as any),
       es: mk(cubecapEs as any),
-      pt: mk(cubecapPt as any), he: mk(cubecapHe as any), hi: mk(cubecapHi as any),
+      pt: mk(cubecapPt as any), he: mk(cubecapHe as any), hi: mk(cubecapHi as any), ar: mk(cubecapAr as any),
     },
   },
   {
@@ -2043,7 +2119,7 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(doobomTr as any),
       es: mk(doobomEs as any),
       pt: mk(doobomPt as any),
-      he: mk(doobomHe as any),
+      he: mk(doobomHe as any), ar: mk(doobomAr as any),
       hi: mk(doobomHi as any),
     },
   },
@@ -2079,7 +2155,7 @@ export const suppliers: SupplierProfile[] = [
       tr: mk(cocoTr as any),
       es: mk(cocoEs as any),
       pt: mk(cocoPt as any),
-      he: mk(cocoHe as any),
+      he: mk(cocoHe as any), ar: mk(cocoAr as any),
       hi: mk(cocoHi as any),
     },
   },
@@ -2154,7 +2230,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(multifitFr as any),
       tr: mk(multifitTr as any),
       es: mk(multifitEs as any),
-      pt: mk(multifitPt as any), he: mk(multifitHe as any), hi: mk(multifitHi as any),
+      pt: mk(multifitPt as any), he: mk(multifitHe as any), hi: mk(multifitHi as any), ar: mk(multifitAr as any),
     },
   },
 {
@@ -2218,7 +2294,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(hanscosFr as any),
       tr: mk(hanscosTr as any),
       es: mk(hanscosEs as any),
-      pt: mk(hanscosPt as any), he: mk(hanscosHe as any), hi: mk(hanscosHi as any),
+      pt: mk(hanscosPt as any), he: mk(hanscosHe as any), hi: mk(hanscosHi as any), ar: mk(hanscosAr as any),
     },
   },
 {
@@ -2261,7 +2337,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(maoomFr as any),
       tr: mk(maoomTr as any),
       es: mk(maoomEs as any),
-      pt: mk(maoomPt as any), he: mk(maoomHe as any), hi: mk(maoomHi as any),
+      pt: mk(maoomPt as any), he: mk(maoomHe as any), hi: mk(maoomHi as any), ar: mk(maoomAr as any),
     },
   },
 {
@@ -2301,7 +2377,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(skinroomFr as any),
       tr: mk(skinroomTr as any),
       es: mk(skinroomEs as any),
-      pt: mk(skinroomPt as any), he: mk(skinroomHe as any), hi: mk(skinroomHi as any),
+      pt: mk(skinroomPt as any), he: mk(skinroomHe as any), hi: mk(skinroomHi as any), ar: mk(skinroomAr as any),
     },
   },
 {
@@ -2362,7 +2438,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(joycosFr as any),
       tr: mk(joycosTr as any),
       es: mk(joycosEs as any),
-      pt: mk(joycosPt as any), he: mk(joycosHe as any), hi: mk(joycosHi as any),
+      pt: mk(joycosPt as any), he: mk(joycosHe as any), hi: mk(joycosHi as any), ar: mk(joycosAr as any),
     },
   },
 {
@@ -2402,7 +2478,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(sunpureFr as any),
       tr: mk(sunpureTr as any),
       es: mk(sunpureEs as any),
-      pt: mk(sunpurePt as any), he: mk(sunpureHe as any), hi: mk(sunpureHi as any),
+      pt: mk(sunpurePt as any), he: mk(sunpureHe as any), hi: mk(sunpureHi as any), ar: mk(sunpureAr as any),
     },
   },
   {
@@ -2453,7 +2529,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(bioptFr as any),
       tr: mk(bioptTr as any),
       es: mk(bioptEs as any),
-      pt: mk(bioptPt as any), he: mk(bioptHe as any), hi: mk(bioptHi as any),
+      pt: mk(bioptPt as any), he: mk(bioptHe as any), hi: mk(bioptHi as any), ar: mk(bioptAr as any),
     },
     catalog: bioptCatalog as { line: string; items: { name: string; img: string; volume?: string; certs?: string[] }[] }[],
   },
@@ -2491,7 +2567,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(loobeeFr as any),
       tr: mk(loobeeTr as any),
       es: mk(loobeeEs as any),
-      pt: mk(loobeePt as any), he: mk(loobeeHe as any), hi: mk(loobeeHi as any),
+      pt: mk(loobeePt as any), he: mk(loobeeHe as any), hi: mk(loobeeHi as any), ar: mk(loobeeAr as any),
     },
   },
   {
@@ -2540,7 +2616,7 @@ export const suppliers: SupplierProfile[] = [
       fr: mk(slFr as any),
       tr: mk(slTr as any),
       es: mk(slEs as any),
-      pt: mk(slPt as any), he: mk(slHe as any), hi: mk(slHi as any),
+      pt: mk(slPt as any), he: mk(slHe as any), hi: mk(slHi as any), ar: mk(slAr as any),
     },
   },
   {
@@ -2586,7 +2662,7 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(abRu as any), en: mk(abEn as any), ko: mk(abKo as any), zh: mk(abZh as any),
       ja: mk(abJa as any), it: mk(abIt as any), de: mk(abDe as any), fr: mk(abFr as any),
-      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any), he: mk(abHe as any), hi: mk(abHi as any),
+      tr: mk(abTr as any), es: mk(abEs as any), pt: mk(abPt as any), he: mk(abHe as any), hi: mk(abHi as any), ar: mk(abAr as any),
     },
   },
   {
@@ -2626,7 +2702,7 @@ export const suppliers: SupplierProfile[] = [
     i18n: {
       ru: mk(aoiRu as any), en: mk(aoiEn as any), ko: mk(aoiKo as any), zh: mk(aoiZh as any),
       ja: mk(aoiJa as any), it: mk(aoiIt as any), de: mk(aoiDe as any), fr: mk(aoiFr as any),
-      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any), he: mk(aoiHe as any), hi: mk(aoiHi as any),
+      tr: mk(aoiTr as any), es: mk(aoiEs as any), pt: mk(aoiPt as any), he: mk(aoiHe as any), hi: mk(aoiHi as any), ar: mk(aoiAr as any),
     },
   },
   {
@@ -2666,7 +2742,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(agerinEn as any),
       ko: mk(agerinKo as any), zh: mk(agerinZh as any), ja: mk(agerinJa as any),
       it: mk(agerinIt as any), de: mk(agerinDe as any), fr: mk(agerinFr as any),
-      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any), he: mk(agerinHe as any), hi: mk(agerinHi as any),
+      tr: mk(agerinTr as any), es: mk(agerinEs as any), pt: mk(agerinPt as any), he: mk(agerinHe as any), hi: mk(agerinHi as any), ar: mk(agerinAr as any),
     },
   },
   {
@@ -2694,7 +2770,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(fauEn as any),
       ko: mk(fauKo as any), zh: mk(fauZh as any), ja: mk(fauJa as any),
       it: mk(fauIt as any), de: mk(fauDe as any), fr: mk(fauFr as any),
-      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any), he: mk(fauHe as any), hi: mk(fauHi as any),
+      tr: mk(fauTr as any), es: mk(fauEs as any), pt: mk(fauPt as any), he: mk(fauHe as any), hi: mk(fauHi as any), ar: mk(fauAr as any),
     },
   },
   {
@@ -2716,7 +2792,7 @@ export const suppliers: SupplierProfile[] = [
       en: mk(glowPumpkinEn as any),
       ko: mk(glowPumpkinKo as any), zh: mk(glowPumpkinZh as any), ja: mk(glowPumpkinJa as any),
       it: mk(glowPumpkinIt as any), de: mk(glowPumpkinDe as any), fr: mk(glowPumpkinFr as any),
-      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any), he: mk(glowPumpkinHe as any), hi: mk(glowPumpkinHi as any),
+      tr: mk(glowPumpkinTr as any), es: mk(glowPumpkinEs as any), pt: mk(glowPumpkinPt as any), he: mk(glowPumpkinHe as any), hi: mk(glowPumpkinHi as any), ar: mk(glowPumpkinAr as any),
     },
   },
   {
@@ -2735,7 +2811,7 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/rnh-bio-presentation-ru.pdf', en: '/docs/rnh-bio-presentation-en.pdf', ko: '/docs/rnh-bio-presentation-ko.pdf', zh: '/docs/rnh-bio-presentation-zh.pdf', ja: '/docs/rnh-bio-presentation-ja.pdf', it: '/docs/rnh-bio-presentation-it.pdf', de: '/docs/rnh-bio-presentation-de.pdf', fr: '/docs/rnh-bio-presentation-fr.pdf', tr: '/docs/rnh-bio-presentation-tr.pdf', es: '/docs/rnh-bio-presentation-es.pdf', pt: '/docs/rnh-bio-presentation-pt.pdf' },
     certs: ['MoCRA'],
     i18n: {
-      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any), he: mk(rnhBioHe as any), hi: mk(rnhBioHi as any),
+      ru: mk(rnhBioRu as any), en: mk(rnhBioEn as any), ko: mk(rnhBioKo as any), zh: mk(rnhBioZh as any), ja: mk(rnhBioJa as any), it: mk(rnhBioIt as any), de: mk(rnhBioDe as any), fr: mk(rnhBioFr as any), tr: mk(rnhBioTr as any), es: mk(rnhBioEs as any), pt: mk(rnhBioPt as any), he: mk(rnhBioHe as any), hi: mk(rnhBioHi as any), ar: mk(rnhBioAr as any),
     },
   },
   {
@@ -2772,7 +2848,7 @@ export const suppliers: SupplierProfile[] = [
        повторно 2026-09-14 (плохо читалась на фото упаковки) — ответа пока
        нет, на странице оставлена честная формулировка «неподтверждено». */
     i18n: {
-      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any), he: mk(sprxHe as any), hi: mk(sprxHi as any),
+      ru: mk(sprxRu as any), en: mk(sprxEn as any), ko: mk(sprxKo as any), zh: mk(sprxZh as any), ja: mk(sprxJa as any), it: mk(sprxIt as any), de: mk(sprxDe as any), fr: mk(sprxFr as any), tr: mk(sprxTr as any), es: mk(sprxEs as any), pt: mk(sprxPt as any), he: mk(sprxHe as any), hi: mk(sprxHi as any), ar: mk(sprxAr as any),
     },
   },
   {
@@ -2797,7 +2873,7 @@ export const suppliers: SupplierProfile[] = [
        нет: письмо Teranova 03.09.2026 согласовало «price on request». */
     certs: ['KC · Ultrasonic Duo', 'CE · Ultrasonic Duo'],
     i18n: {
-      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any), he: mk(btfHe as any), hi: mk(btfHi as any),
+      ru: mk(btfRu as any), en: mk(btfEn as any), ko: mk(btfKo as any), zh: mk(btfZh as any), ja: mk(btfJa as any), it: mk(btfIt as any), de: mk(btfDe as any), fr: mk(btfFr as any), tr: mk(btfTr as any), es: mk(btfEs as any), pt: mk(btfPt as any), he: mk(btfHe as any), hi: mk(btfHi as any), ar: mk(btfAr as any),
     },
   },
   {
@@ -2819,7 +2895,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/desert-free-terms-ru.pdf', en: '/docs/desert-free-terms-en.pdf', ko: '/docs/desert-free-terms-ko.pdf', zh: '/docs/desert-free-terms-zh.pdf', ja: '/docs/desert-free-terms-ja.pdf', it: '/docs/desert-free-terms-it.pdf', de: '/docs/desert-free-terms-de.pdf', fr: '/docs/desert-free-terms-fr.pdf', tr: '/docs/desert-free-terms-tr.pdf', es: '/docs/desert-free-terms-es.pdf', pt: '/docs/desert-free-terms-pt.pdf', he: '/docs/desert-free-terms-he.pdf', hi: '/docs/desert-free-terms-hi.pdf' },
     presFile: { ru: '/docs/desert-free-presentation-ru.pdf', en: '/docs/desert-free-presentation-en.pdf', ko: '/docs/desert-free-presentation-ko.pdf', zh: '/docs/desert-free-presentation-zh.pdf', ja: '/docs/desert-free-presentation-ja.pdf', it: '/docs/desert-free-presentation-it.pdf', de: '/docs/desert-free-presentation-de.pdf', fr: '/docs/desert-free-presentation-fr.pdf', tr: '/docs/desert-free-presentation-tr.pdf', es: '/docs/desert-free-presentation-es.pdf', pt: '/docs/desert-free-presentation-pt.pdf', he: '/docs/desert-free-presentation-he.pdf', hi: '/docs/desert-free-presentation-hi.pdf' },
     i18n: {
-      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any), he: mk(desertFreeHe as any), hi: mk(desertFreeHi as any),
+      ru: mk(desertFreeRu as any), en: mk(desertFreeEn as any), ko: mk(desertFreeKo as any), zh: mk(desertFreeZh as any), ja: mk(desertFreeJa as any), it: mk(desertFreeIt as any), de: mk(desertFreeDe as any), fr: mk(desertFreeFr as any), tr: mk(desertFreeTr as any), es: mk(desertFreeEs as any), pt: mk(desertFreePt as any), he: mk(desertFreeHe as any), hi: mk(desertFreeHi as any), ar: mk(desertFreeAr as any),
     },
   },
   {
@@ -2866,7 +2942,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/dr-pelo-catalog-ru.pdf', en: '/docs/dr-pelo-catalog-en.pdf', ko: '/docs/dr-pelo-catalog-ko.pdf', zh: '/docs/dr-pelo-catalog-zh.pdf', ja: '/docs/dr-pelo-catalog-ja.pdf', it: '/docs/dr-pelo-catalog-it.pdf', de: '/docs/dr-pelo-catalog-de.pdf', fr: '/docs/dr-pelo-catalog-fr.pdf', tr: '/docs/dr-pelo-catalog-tr.pdf', es: '/docs/dr-pelo-catalog-es.pdf', pt: '/docs/dr-pelo-catalog-pt.pdf', he: '/docs/dr-pelo-catalog-he.pdf', hi: '/docs/dr-pelo-catalog-hi.pdf' },
     presFile: { ru: '/docs/dr-pelo-presentation-ru.pdf', en: '/docs/dr-pelo-presentation-en.pdf', ko: '/docs/dr-pelo-presentation-ko.pdf', zh: '/docs/dr-pelo-presentation-zh.pdf', ja: '/docs/dr-pelo-presentation-ja.pdf', it: '/docs/dr-pelo-presentation-it.pdf', de: '/docs/dr-pelo-presentation-de.pdf', fr: '/docs/dr-pelo-presentation-fr.pdf', tr: '/docs/dr-pelo-presentation-tr.pdf', es: '/docs/dr-pelo-presentation-es.pdf', pt: '/docs/dr-pelo-presentation-pt.pdf', he: '/docs/dr-pelo-presentation-he.pdf', hi: '/docs/dr-pelo-presentation-hi.pdf' },
     i18n: {
-      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any), he: mk(drPeloHe as any), hi: mk(drPeloHi as any),
+      ru: mk(drPeloRu as any), en: mk(drPeloEn as any), ko: mk(drPeloKo as any), zh: mk(drPeloZh as any), ja: mk(drPeloJa as any), it: mk(drPeloIt as any), de: mk(drPeloDe as any), fr: mk(drPeloFr as any), tr: mk(drPeloTr as any), es: mk(drPeloEs as any), pt: mk(drPeloPt as any), he: mk(drPeloHe as any), hi: mk(drPeloHi as any), ar: mk(drPeloAr as any),
     },
   },
   {
@@ -2902,7 +2978,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/arming-catalog-ru.pdf', en: '/docs/arming-catalog-en.pdf', ko: '/docs/arming-catalog-ko.pdf', zh: '/docs/arming-catalog-zh.pdf', ja: '/docs/arming-catalog-ja.pdf', it: '/docs/arming-catalog-it.pdf', de: '/docs/arming-catalog-de.pdf', fr: '/docs/arming-catalog-fr.pdf', tr: '/docs/arming-catalog-tr.pdf', es: '/docs/arming-catalog-es.pdf', pt: '/docs/arming-catalog-pt.pdf', he: '/docs/arming-catalog-he.pdf', hi: '/docs/arming-catalog-hi.pdf' },
     presFile: { ru: '/docs/arming-presentation-ru.pdf', en: '/docs/arming-presentation-en.pdf', ko: '/docs/arming-presentation-ko.pdf', zh: '/docs/arming-presentation-zh.pdf', ja: '/docs/arming-presentation-ja.pdf', it: '/docs/arming-presentation-it.pdf', de: '/docs/arming-presentation-de.pdf', fr: '/docs/arming-presentation-fr.pdf', tr: '/docs/arming-presentation-tr.pdf', es: '/docs/arming-presentation-es.pdf', pt: '/docs/arming-presentation-pt.pdf', he: '/docs/arming-presentation-he.pdf', hi: '/docs/arming-presentation-hi.pdf' },
     i18n: {
-      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any), he: mk(armingHe as any), hi: mk(armingHi as any),
+      ru: mk(armingRu as any), en: mk(armingEn as any), ko: mk(armingKo as any), zh: mk(armingZh as any), ja: mk(armingJa as any), it: mk(armingIt as any), de: mk(armingDe as any), fr: mk(armingFr as any), tr: mk(armingTr as any), es: mk(armingEs as any), pt: mk(armingPt as any), he: mk(armingHe as any), hi: mk(armingHi as any), ar: mk(armingAr as any),
     },
   },
   {
@@ -2922,7 +2998,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/whamisa-terms-ru.pdf', en: '/docs/whamisa-terms-en.pdf', ko: '/docs/whamisa-terms-ko.pdf', zh: '/docs/whamisa-terms-zh.pdf', ja: '/docs/whamisa-terms-ja.pdf', it: '/docs/whamisa-terms-it.pdf', de: '/docs/whamisa-terms-de.pdf', fr: '/docs/whamisa-terms-fr.pdf', tr: '/docs/whamisa-terms-tr.pdf', es: '/docs/whamisa-terms-es.pdf', pt: '/docs/whamisa-terms-pt.pdf' },
     presFile: { ru: '/docs/whamisa-presentation-ru.pdf', en: '/docs/whamisa-presentation-en.pdf', ko: '/docs/whamisa-presentation-ko.pdf', zh: '/docs/whamisa-presentation-zh.pdf', ja: '/docs/whamisa-presentation-ja.pdf', it: '/docs/whamisa-presentation-it.pdf', de: '/docs/whamisa-presentation-de.pdf', fr: '/docs/whamisa-presentation-fr.pdf', tr: '/docs/whamisa-presentation-tr.pdf', es: '/docs/whamisa-presentation-es.pdf', pt: '/docs/whamisa-presentation-pt.pdf' },
     i18n: {
-      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any), he: mk(whamisaHe as any), hi: mk(whamisaHi as any),
+      ru: mk(whamisaRu as any), en: mk(whamisaEn as any), ko: mk(whamisaKo as any), zh: mk(whamisaZh as any), ja: mk(whamisaJa as any), it: mk(whamisaIt as any), de: mk(whamisaDe as any), fr: mk(whamisaFr as any), tr: mk(whamisaTr as any), es: mk(whamisaEs as any), pt: mk(whamisaPt as any), he: mk(whamisaHe as any), hi: mk(whamisaHi as any), ar: mk(whamisaAr as any),
     },
   },
   {
@@ -2974,7 +3050,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/veo-biotech-terms-ru.pdf', en: '/docs/veo-biotech-terms-en.pdf', ko: '/docs/veo-biotech-terms-ko.pdf', zh: '/docs/veo-biotech-terms-zh.pdf', ja: '/docs/veo-biotech-terms-ja.pdf', it: '/docs/veo-biotech-terms-it.pdf', de: '/docs/veo-biotech-terms-de.pdf', fr: '/docs/veo-biotech-terms-fr.pdf', tr: '/docs/veo-biotech-terms-tr.pdf', es: '/docs/veo-biotech-terms-es.pdf', pt: '/docs/veo-biotech-terms-pt.pdf', he: '/docs/veo-biotech-terms-he.pdf', hi: '/docs/veo-biotech-terms-hi.pdf' },
     presFile: { ru: '/docs/veo-biotech-presentation-ru.pdf', en: '/docs/veo-biotech-presentation-en.pdf', ko: '/docs/veo-biotech-presentation-ko.pdf', zh: '/docs/veo-biotech-presentation-zh.pdf', ja: '/docs/veo-biotech-presentation-ja.pdf', it: '/docs/veo-biotech-presentation-it.pdf', de: '/docs/veo-biotech-presentation-de.pdf', fr: '/docs/veo-biotech-presentation-fr.pdf', tr: '/docs/veo-biotech-presentation-tr.pdf', es: '/docs/veo-biotech-presentation-es.pdf', pt: '/docs/veo-biotech-presentation-pt.pdf', he: '/docs/veo-biotech-presentation-he.pdf', hi: '/docs/veo-biotech-presentation-hi.pdf' },
     i18n: {
-      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any), he: mk(veoBiotechHe as any), hi: mk(veoBiotechHi as any),
+      ru: mk(veoBiotechRu as any), en: mk(veoBiotechEn as any), ko: mk(veoBiotechKo as any), zh: mk(veoBiotechZh as any), ja: mk(veoBiotechJa as any), it: mk(veoBiotechIt as any), de: mk(veoBiotechDe as any), fr: mk(veoBiotechFr as any), tr: mk(veoBiotechTr as any), es: mk(veoBiotechEs as any), pt: mk(veoBiotechPt as any), he: mk(veoBiotechHe as any), hi: mk(veoBiotechHi as any), ar: mk(veoBiotechAr as any),
     },
   },
   {
@@ -2993,7 +3069,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/themaqueen-terms-ru.pdf', en: '/docs/themaqueen-terms-en.pdf', ko: '/docs/themaqueen-terms-ko.pdf', zh: '/docs/themaqueen-terms-zh.pdf', ja: '/docs/themaqueen-terms-ja.pdf', it: '/docs/themaqueen-terms-it.pdf', de: '/docs/themaqueen-terms-de.pdf', fr: '/docs/themaqueen-terms-fr.pdf', tr: '/docs/themaqueen-terms-tr.pdf', es: '/docs/themaqueen-terms-es.pdf', pt: '/docs/themaqueen-terms-pt.pdf' },
     presFile: { ru: '/docs/themaqueen-presentation-ru.pdf', en: '/docs/themaqueen-presentation-en.pdf', ko: '/docs/themaqueen-presentation-ko.pdf', zh: '/docs/themaqueen-presentation-zh.pdf', ja: '/docs/themaqueen-presentation-ja.pdf', it: '/docs/themaqueen-presentation-it.pdf', de: '/docs/themaqueen-presentation-de.pdf', fr: '/docs/themaqueen-presentation-fr.pdf', tr: '/docs/themaqueen-presentation-tr.pdf', es: '/docs/themaqueen-presentation-es.pdf', pt: '/docs/themaqueen-presentation-pt.pdf' },
     i18n: {
-      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any), he: mk(themaqueenHe as any), hi: mk(themaqueenHi as any),
+      ru: mk(themaqueenRu as any), en: mk(themaqueenEn as any), ko: mk(themaqueenKo as any), zh: mk(themaqueenZh as any), ja: mk(themaqueenJa as any), it: mk(themaqueenIt as any), de: mk(themaqueenDe as any), fr: mk(themaqueenFr as any), tr: mk(themaqueenTr as any), es: mk(themaqueenEs as any), pt: mk(themaqueenPt as any), he: mk(themaqueenHe as any), hi: mk(themaqueenHi as any), ar: mk(themaqueenAr as any),
     },
   },
   {
@@ -3013,7 +3089,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/vegan-nature-terms-ru.pdf', en: '/docs/vegan-nature-terms-en.pdf', ko: '/docs/vegan-nature-terms-ko.pdf', zh: '/docs/vegan-nature-terms-zh.pdf', ja: '/docs/vegan-nature-terms-ja.pdf', it: '/docs/vegan-nature-terms-it.pdf', de: '/docs/vegan-nature-terms-de.pdf', fr: '/docs/vegan-nature-terms-fr.pdf', tr: '/docs/vegan-nature-terms-tr.pdf', es: '/docs/vegan-nature-terms-es.pdf', pt: '/docs/vegan-nature-terms-pt.pdf' },
     presFile: { ru: '/docs/vegan-nature-presentation-ru.pdf', en: '/docs/vegan-nature-presentation-en.pdf', ko: '/docs/vegan-nature-presentation-ko.pdf', zh: '/docs/vegan-nature-presentation-zh.pdf', ja: '/docs/vegan-nature-presentation-ja.pdf', it: '/docs/vegan-nature-presentation-it.pdf', de: '/docs/vegan-nature-presentation-de.pdf', fr: '/docs/vegan-nature-presentation-fr.pdf', tr: '/docs/vegan-nature-presentation-tr.pdf', es: '/docs/vegan-nature-presentation-es.pdf', pt: '/docs/vegan-nature-presentation-pt.pdf' },
     i18n: {
-      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any), he: mk(veganNatureHe as any), hi: mk(veganNatureHi as any),
+      ru: mk(veganNatureRu as any), en: mk(veganNatureEn as any), ko: mk(veganNatureKo as any), zh: mk(veganNatureZh as any), ja: mk(veganNatureJa as any), it: mk(veganNatureIt as any), de: mk(veganNatureDe as any), fr: mk(veganNatureFr as any), tr: mk(veganNatureTr as any), es: mk(veganNatureEs as any), pt: mk(veganNaturePt as any), he: mk(veganNatureHe as any), hi: mk(veganNatureHi as any), ar: mk(veganNatureAr as any),
     },
   },
   {
@@ -3039,7 +3115,7 @@ export const suppliers: SupplierProfile[] = [
     termsFile: { ru: '/docs/chaewun-terms-ru.pdf', en: '/docs/chaewun-terms-en.pdf', ko: '/docs/chaewun-terms-ko.pdf', zh: '/docs/chaewun-terms-zh.pdf', ja: '/docs/chaewun-terms-ja.pdf', it: '/docs/chaewun-terms-it.pdf', de: '/docs/chaewun-terms-de.pdf', fr: '/docs/chaewun-terms-fr.pdf', tr: '/docs/chaewun-terms-tr.pdf', es: '/docs/chaewun-terms-es.pdf', pt: '/docs/chaewun-terms-pt.pdf' },
     presFile: { ru: '/docs/chaewun-presentation-ru.pdf', en: '/docs/chaewun-presentation-en.pdf', ko: '/docs/chaewun-presentation-ko.pdf', zh: '/docs/chaewun-presentation-zh.pdf', ja: '/docs/chaewun-presentation-ja.pdf', it: '/docs/chaewun-presentation-it.pdf', de: '/docs/chaewun-presentation-de.pdf', fr: '/docs/chaewun-presentation-fr.pdf', tr: '/docs/chaewun-presentation-tr.pdf', es: '/docs/chaewun-presentation-es.pdf', pt: '/docs/chaewun-presentation-pt.pdf' },
     i18n: {
-      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any),
+      ru: mk(chaewunRu as any), en: mk(chaewunEn as any), ko: mk(chaewunKo as any), zh: mk(chaewunZh as any), ja: mk(chaewunJa as any), it: mk(chaewunIt as any), de: mk(chaewunDe as any), fr: mk(chaewunFr as any), tr: mk(chaewunTr as any), es: mk(chaewunEs as any), pt: mk(chaewunPt as any), he: mk(chaewunHe as any), hi: mk(chaewunHi as any), ar: mk(chaewunAr as any),
     },
   },
   {
@@ -3120,7 +3196,7 @@ export const suppliers: SupplierProfile[] = [
       es: '/docs/acfit-presentation-es.pdf', pt: '/docs/acfit-presentation-pt.pdf',
     },
     i18n: {
-      ru: mk(acfitRu as any), en: mk(acfitEn as any), ko: mk(acfitKo as any), zh: mk(acfitZh as any), ja: mk(acfitJa as any), it: mk(acfitIt as any), de: mk(acfitDe as any), fr: mk(acfitFr as any), tr: mk(acfitTr as any), es: mk(acfitEs as any), pt: mk(acfitPt as any), he: mk(acfitHe as any), hi: mk(acfitHi as any),
+      ru: mk(acfitRu as any), en: mk(acfitEn as any), ko: mk(acfitKo as any), zh: mk(acfitZh as any), ja: mk(acfitJa as any), it: mk(acfitIt as any), de: mk(acfitDe as any), fr: mk(acfitFr as any), tr: mk(acfitTr as any), es: mk(acfitEs as any), pt: mk(acfitPt as any), he: mk(acfitHe as any), hi: mk(acfitHi as any), ar: mk(acfitAr as any),
     },
   },
   {
@@ -3141,7 +3217,7 @@ export const suppliers: SupplierProfile[] = [
        per-SKU specifications have not been received yet. */
     gallery: ['/img/suppliers/du-cosmetic/gallery/line.jpg'],
     i18n: {
-      ru: mk(duCosmeticRu as any), en: mk(duCosmeticEn as any), ko: mk(duCosmeticKo as any), zh: mk(duCosmeticZh as any), ja: mk(duCosmeticJa as any), it: mk(duCosmeticIt as any), de: mk(duCosmeticDe as any), fr: mk(duCosmeticFr as any), tr: mk(duCosmeticTr as any), es: mk(duCosmeticEs as any), pt: mk(duCosmeticPt as any), he: mk(duCosmeticHe as any), hi: mk(duCosmeticHi as any),
+      ru: mk(duCosmeticRu as any), en: mk(duCosmeticEn as any), ko: mk(duCosmeticKo as any), zh: mk(duCosmeticZh as any), ja: mk(duCosmeticJa as any), it: mk(duCosmeticIt as any), de: mk(duCosmeticDe as any), fr: mk(duCosmeticFr as any), tr: mk(duCosmeticTr as any), es: mk(duCosmeticEs as any), pt: mk(duCosmeticPt as any), he: mk(duCosmeticHe as any), hi: mk(duCosmeticHi as any), ar: mk(duCosmeticAr as any),
     },
   },
   {
@@ -3186,7 +3262,7 @@ export const suppliers: SupplierProfile[] = [
     presFile: { ru: '/docs/ooznary-presentation-ru.pdf', en: '/docs/ooznary-presentation-en.pdf', ko: '/docs/ooznary-presentation-ko.pdf', zh: '/docs/ooznary-presentation-zh.pdf', ja: '/docs/ooznary-presentation-ja.pdf', it: '/docs/ooznary-presentation-it.pdf', de: '/docs/ooznary-presentation-de.pdf', fr: '/docs/ooznary-presentation-fr.pdf', tr: '/docs/ooznary-presentation-tr.pdf', es: '/docs/ooznary-presentation-es.pdf', pt: '/docs/ooznary-presentation-pt.pdf', he: '/docs/ooznary-presentation-he.pdf', hi: '/docs/ooznary-presentation-hi.pdf' },
     priceFile: { ru: '/docs/ooznary-catalog-ru.pdf', en: '/docs/ooznary-catalog-en.pdf', ko: '/docs/ooznary-catalog-ko.pdf', zh: '/docs/ooznary-catalog-zh.pdf', ja: '/docs/ooznary-catalog-ja.pdf', it: '/docs/ooznary-catalog-it.pdf', de: '/docs/ooznary-catalog-de.pdf', fr: '/docs/ooznary-catalog-fr.pdf', tr: '/docs/ooznary-catalog-tr.pdf', es: '/docs/ooznary-catalog-es.pdf', pt: '/docs/ooznary-catalog-pt.pdf', he: '/docs/ooznary-catalog-he.pdf', hi: '/docs/ooznary-catalog-hi.pdf' },
     i18n: {
-      ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any),
+      ru: mk(ooznaryRu as any), en: mk(ooznaryEn as any), ko: mk(ooznaryKo as any), zh: mk(ooznaryZh as any), ja: mk(ooznaryJa as any), it: mk(ooznaryIt as any), de: mk(ooznaryDe as any), fr: mk(ooznaryFr as any), tr: mk(ooznaryTr as any), es: mk(ooznaryEs as any), pt: mk(ooznaryPt as any), he: mk(ooznaryHe as any), hi: mk(ooznaryHi as any), ar: mk(ooznaryAr as any),
     },
   },
   {
@@ -3210,7 +3286,7 @@ export const suppliers: SupplierProfile[] = [
        MOQ, certificates and contacts are intentionally absent.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/09_HIYO.md. */
     i18n: {
-      ru: mk(hiyoRu as any), en: mk(hiyoEn as any), ko: mk(hiyoKo as any), zh: mk(hiyoZh as any), ja: mk(hiyoJa as any), it: mk(hiyoIt as any), de: mk(hiyoDe as any), fr: mk(hiyoFr as any), tr: mk(hiyoTr as any), es: mk(hiyoEs as any), pt: mk(hiyoPt as any), he: mk(hiyoHe as any), hi: mk(hiyoHi as any),
+      ru: mk(hiyoRu as any), en: mk(hiyoEn as any), ko: mk(hiyoKo as any), zh: mk(hiyoZh as any), ja: mk(hiyoJa as any), it: mk(hiyoIt as any), de: mk(hiyoDe as any), fr: mk(hiyoFr as any), tr: mk(hiyoTr as any), es: mk(hiyoEs as any), pt: mk(hiyoPt as any), he: mk(hiyoHe as any), hi: mk(hiyoHi as any), ar: mk(hiyoAr as any),
     },
   },
   {
@@ -3230,7 +3306,7 @@ export const suppliers: SupplierProfile[] = [
        category 'industrial' follows the legal name ("Intelligent Equipment").
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/10_DACHEN.md. */
     i18n: {
-      ru: mk(dachenRu as any), en: mk(dachenEn as any), ko: mk(dachenKo as any), zh: mk(dachenZh as any), ja: mk(dachenJa as any), it: mk(dachenIt as any), de: mk(dachenDe as any), fr: mk(dachenFr as any), tr: mk(dachenTr as any), es: mk(dachenEs as any), pt: mk(dachenPt as any), he: mk(dachenHe as any), hi: mk(dachenHi as any),
+      ru: mk(dachenRu as any), en: mk(dachenEn as any), ko: mk(dachenKo as any), zh: mk(dachenZh as any), ja: mk(dachenJa as any), it: mk(dachenIt as any), de: mk(dachenDe as any), fr: mk(dachenFr as any), tr: mk(dachenTr as any), es: mk(dachenEs as any), pt: mk(dachenPt as any), he: mk(dachenHe as any), hi: mk(dachenHi as any), ar: mk(dachenAr as any),
     },
   },
   {
@@ -3253,7 +3329,7 @@ export const suppliers: SupplierProfile[] = [
        and are intentionally absent; so are images, prices, MOQ and contacts.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/11_TOPTREND.md. */
     i18n: {
-      ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any),
+      ru: mk(toptrendRu as any), en: mk(toptrendEn as any), ko: mk(toptrendKo as any), zh: mk(toptrendZh as any), ja: mk(toptrendJa as any), it: mk(toptrendIt as any), de: mk(toptrendDe as any), fr: mk(toptrendFr as any), tr: mk(toptrendTr as any), es: mk(toptrendEs as any), pt: mk(toptrendPt as any), he: mk(toptrendHe as any), hi: mk(toptrendHi as any), ar: mk(toptrendAr as any),
     },
   },
   {
@@ -3274,7 +3350,7 @@ export const suppliers: SupplierProfile[] = [
        prices, MOQ, certificates and contacts.
        Source-to-claim: AI_COORDINATION/Claude/evidence/T-20261015-015/12_MOZ_SCIENCE.md. */
     i18n: {
-      ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any),
+      ru: mk(mozScienceRu as any), en: mk(mozScienceEn as any), ko: mk(mozScienceKo as any), zh: mk(mozScienceZh as any), ja: mk(mozScienceJa as any), it: mk(mozScienceIt as any), de: mk(mozScienceDe as any), fr: mk(mozScienceFr as any), tr: mk(mozScienceTr as any), es: mk(mozScienceEs as any), pt: mk(mozSciencePt as any), he: mk(mozScienceHe as any), hi: mk(mozScienceHi as any), ar: mk(mozScienceAr as any),
     },
   },
   {
@@ -3315,7 +3391,7 @@ export const suppliers: SupplierProfile[] = [
       en: agingTargetEn,
       ko: mk(agingTargetKo as any), zh: mk(agingTargetZh as any), ja: mk(agingTargetJa as any), it: mk(agingTargetIt as any),
       de: mk(agingTargetDe as any), fr: mk(agingTargetFr as any), tr: mk(agingTargetTr as any), es: mk(agingTargetEs as any),
-      pt: mk(agingTargetPt as any), he: mk(agingTargetHe as any), hi: mk(agingTargetHi as any),
+      pt: mk(agingTargetPt as any), he: mk(agingTargetHe as any), hi: mk(agingTargetHi as any), ar: mk(agingTargetAr as any),
     },
   },
   {
@@ -3360,7 +3436,7 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/plk-lift-catalog-ru.pdf', en: '/docs/plk-lift-catalog-en.pdf', ko: '/docs/plk-lift-catalog-ko.pdf', zh: '/docs/plk-lift-catalog-zh.pdf', ja: '/docs/plk-lift-catalog-ja.pdf', it: '/docs/plk-lift-catalog-it.pdf', de: '/docs/plk-lift-catalog-de.pdf', fr: '/docs/plk-lift-catalog-fr.pdf', tr: '/docs/plk-lift-catalog-tr.pdf', es: '/docs/plk-lift-catalog-es.pdf', pt: '/docs/plk-lift-catalog-pt.pdf' },
     presFile: { ru: '/docs/plk-lift-presentation-ru.pdf', en: '/docs/plk-lift-presentation-en.pdf', ko: '/docs/plk-lift-presentation-ko.pdf', zh: '/docs/plk-lift-presentation-zh.pdf', ja: '/docs/plk-lift-presentation-ja.pdf', it: '/docs/plk-lift-presentation-it.pdf', de: '/docs/plk-lift-presentation-de.pdf', fr: '/docs/plk-lift-presentation-fr.pdf', tr: '/docs/plk-lift-presentation-tr.pdf', es: '/docs/plk-lift-presentation-es.pdf', pt: '/docs/plk-lift-presentation-pt.pdf' },
     i18n: {
-      ru: confirmedPlk(plkLiftRu as any), en: confirmedPlk(plkLiftEn as any), ko: confirmedPlk(plkLiftKo as any), zh: confirmedPlk(plkLiftZh as any), ja: confirmedPlk(plkLiftJa as any), it: confirmedPlk(plkLiftIt as any), de: confirmedPlk(plkLiftDe as any), fr: confirmedPlk(plkLiftFr as any), tr: confirmedPlk(plkLiftTr as any), es: confirmedPlk(plkLiftEs as any), pt: confirmedPlk(plkLiftPt as any), he: confirmedPlk(plkLiftHe as any), hi: confirmedPlk(plkLiftHi as any),
+      ru: confirmedPlk(plkLiftRu as any), en: confirmedPlk(plkLiftEn as any), ko: confirmedPlk(plkLiftKo as any), zh: confirmedPlk(plkLiftZh as any), ja: confirmedPlk(plkLiftJa as any), it: confirmedPlk(plkLiftIt as any), de: confirmedPlk(plkLiftDe as any), fr: confirmedPlk(plkLiftFr as any), tr: confirmedPlk(plkLiftTr as any), es: confirmedPlk(plkLiftEs as any), pt: confirmedPlk(plkLiftPt as any), he: confirmedPlk(plkLiftHe as any), hi: confirmedPlk(plkLiftHi as any), ar: confirmedPlk(plkLiftAr as any),
     },
   },
   {
@@ -3381,7 +3457,7 @@ export const suppliers: SupplierProfile[] = [
        применение» экстракта, имя основательницы, цены, объёмы, сертификаты,
        контакты и фото не публикуются; карточка показывает монограмму. */
     i18n: {
-      ru: mk(oavoRu as any), en: mk(oavoEn as any), ko: mk(oavoKo as any), zh: mk(oavoZh as any), ja: mk(oavoJa as any), it: mk(oavoIt as any), de: mk(oavoDe as any), fr: mk(oavoFr as any), tr: mk(oavoTr as any), es: mk(oavoEs as any), pt: mk(oavoPt as any), he: mk(oavoHe as any), hi: mk(oavoHi as any),
+      ru: mk(oavoRu as any), en: mk(oavoEn as any), ko: mk(oavoKo as any), zh: mk(oavoZh as any), ja: mk(oavoJa as any), it: mk(oavoIt as any), de: mk(oavoDe as any), fr: mk(oavoFr as any), tr: mk(oavoTr as any), es: mk(oavoEs as any), pt: mk(oavoPt as any), he: mk(oavoHe as any), hi: mk(oavoHi as any), ar: mk(oavoAr as any),
     },
   },
   {
@@ -3403,7 +3479,7 @@ export const suppliers: SupplierProfile[] = [
        резервуаров, «лучшая цена», имя руководителя, контакты, адреса и фото
        не публикуются; карточка показывает монограмму. */
     i18n: {
-      ru: mk(aromaflavumRu as any), en: mk(aromaflavumEn as any), ko: mk(aromaflavumKo as any), zh: mk(aromaflavumZh as any), ja: mk(aromaflavumJa as any), it: mk(aromaflavumIt as any), de: mk(aromaflavumDe as any), fr: mk(aromaflavumFr as any), tr: mk(aromaflavumTr as any), es: mk(aromaflavumEs as any), pt: mk(aromaflavumPt as any), he: mk(aromaflavumHe as any), hi: mk(aromaflavumHi as any),
+      ru: mk(aromaflavumRu as any), en: mk(aromaflavumEn as any), ko: mk(aromaflavumKo as any), zh: mk(aromaflavumZh as any), ja: mk(aromaflavumJa as any), it: mk(aromaflavumIt as any), de: mk(aromaflavumDe as any), fr: mk(aromaflavumFr as any), tr: mk(aromaflavumTr as any), es: mk(aromaflavumEs as any), pt: mk(aromaflavumPt as any), he: mk(aromaflavumHe as any), hi: mk(aromaflavumHi as any), ar: mk(aromaflavumAr as any),
     },
   },
   {
@@ -3446,7 +3522,65 @@ export const suppliers: SupplierProfile[] = [
     priceFile: { ru: '/docs/koy-catalog-ru.pdf', en: '/docs/koy-catalog-en.pdf', ko: '/docs/koy-catalog-ko.pdf', zh: '/docs/koy-catalog-zh.pdf', ja: '/docs/koy-catalog-ja.pdf', it: '/docs/koy-catalog-it.pdf', de: '/docs/koy-catalog-de.pdf', fr: '/docs/koy-catalog-fr.pdf', tr: '/docs/koy-catalog-tr.pdf', es: '/docs/koy-catalog-es.pdf', pt: '/docs/koy-catalog-pt.pdf' },
     presFile: { ru: '/docs/koy-presentation-ru.pdf', en: '/docs/koy-presentation-en.pdf', ko: '/docs/koy-presentation-ko.pdf', zh: '/docs/koy-presentation-zh.pdf', ja: '/docs/koy-presentation-ja.pdf', it: '/docs/koy-presentation-it.pdf', de: '/docs/koy-presentation-de.pdf', fr: '/docs/koy-presentation-fr.pdf', tr: '/docs/koy-presentation-tr.pdf', es: '/docs/koy-presentation-es.pdf', pt: '/docs/koy-presentation-pt.pdf' },
     i18n: {
-      ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any),
+      ru: mk(koyRu as any), en: mk(koyEn as any), ko: mk(koyKo as any), zh: mk(koyZh as any), ja: mk(koyJa as any), it: mk(koyIt as any), de: mk(koyDe as any), fr: mk(koyFr as any), tr: mk(koyTr as any), es: mk(koyEs as any), pt: mk(koyPt as any), he: mk(koyHe as any), hi: mk(koyHi as any), ar: mk(koyAr as any),
+    },
+  },
+  {
+    slug: 'jellyko',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Jelly Ko',
+    brand: 'Jelly Ko',
+    status: 'provided',
+    /* Персиковый с их же этикеток и логотипа (Jelly Ko Logo 1.png, Bubble Tea
+       Steam Cream). Отдельные линейки держат свой оттенок (Cherry Blossom —
+       розовый), но общий бренд-цвет — персиковый/кремовый. */
+    brandColors: { deep: '#9c5542', sky: '#f3c9b7', accent: '#e8927a', bg: '#fdf4ef' },
+    voice: 'minimal',
+    /* Согласие Lauren Lee (jellyko.com.au) письмом Ирине 24.11.2026 17:39 KST
+       («We'd be very happy to explore a Jelly Ko profile and product pages
+       with Teranova Group. You're welcome to use and translate our official
+       brand and product materials.»), ящик Ирины msg 1a20cb5b31682447, копия
+       у Антона msg 1a20cb5b243161d8. Ограничение из того же письма: прайс —
+       только для внутренней проверки Teranova, на сайт не выносится, как и
+       MOQ (первый заказ 500$, письмо 23.11 — тоже не публикуется). Страна
+       бренда — Корея, определена цитатами из собственных брошюры и
+       бренд-дека (_profile_plan/country_label.md): «4 x Award Winning
+       Refillable Korean Skincare», «Made in Korea», юридический адрес Сеул —
+       Австралия в этих материалах названа только рынком сбыта. ТЗ:
+       AI_COORDINATION/SPECS/TZ_JELLYKO_PROFIL_2026-11-24.md. По словам
+       Антона — публикуем, потом ссылка Лорен (R-013, без предпоказа). */
+    logoUrl: '/img/suppliers/jellyko/brand/logo.png',
+    gallery: [
+      '/img/suppliers/jellyko/gallery/lifestyle-bathroom.png',
+      '/img/suppliers/jellyko/gallery/lifestyle-comfort-at-home.png',
+      '/img/suppliers/jellyko/gallery/lifestyle-dew-not-disturb.png',
+      '/img/suppliers/jellyko/gallery/dewy-glaze-toners-in-a-row.png',
+      '/img/suppliers/jellyko/gallery/cinnamon-toast-ice-cream-shot.png',
+      '/img/suppliers/jellyko/gallery/gelato-glaze-trio.jpg',
+    ],
+    catalog: jellykoCatalog as { line: string; items: { name: string; img: string; volume?: string }[] }[],
+    /* Награды со слов бренда (брошюра/дек): Prevention Best of Beauty 2023
+       («Best Sleep Mask») и 2025 («Best Refillable Skincare», «Best Pimple
+       Patches»), членство 1% for the Planet с 2023. Сертификатов
+       производства (ISO/GMP) в материалах бренда нет — значок не даём. */
+    certs: ["Prevention Best of Beauty", '1% for the Planet'],
+    termsFile: { ru: '/docs/jellyko-terms-ru.pdf', en: '/docs/jellyko-terms-en.pdf', ko: '/docs/jellyko-terms-ko.pdf', zh: '/docs/jellyko-terms-zh.pdf', ja: '/docs/jellyko-terms-ja.pdf', it: '/docs/jellyko-terms-it.pdf', de: '/docs/jellyko-terms-de.pdf', fr: '/docs/jellyko-terms-fr.pdf', tr: '/docs/jellyko-terms-tr.pdf', es: '/docs/jellyko-terms-es.pdf', pt: '/docs/jellyko-terms-pt.pdf', he: '/docs/jellyko-terms-he.pdf', hi: '/docs/jellyko-terms-hi.pdf' },
+    /* Price-free catalog by the brand's own written constraint (price list is Teranova-internal only). */
+    priceFile: { ru: '/docs/jellyko-catalog-ru.pdf', en: '/docs/jellyko-catalog-en.pdf', ko: '/docs/jellyko-catalog-ko.pdf', zh: '/docs/jellyko-catalog-zh.pdf', ja: '/docs/jellyko-catalog-ja.pdf', it: '/docs/jellyko-catalog-it.pdf', de: '/docs/jellyko-catalog-de.pdf', fr: '/docs/jellyko-catalog-fr.pdf', tr: '/docs/jellyko-catalog-tr.pdf', es: '/docs/jellyko-catalog-es.pdf', pt: '/docs/jellyko-catalog-pt.pdf', he: '/docs/jellyko-catalog-he.pdf', hi: '/docs/jellyko-catalog-hi.pdf' },
+    presFile: { ru: '/docs/jellyko-presentation-ru.pdf', en: '/docs/jellyko-presentation-en.pdf', ko: '/docs/jellyko-presentation-ko.pdf', zh: '/docs/jellyko-presentation-zh.pdf', ja: '/docs/jellyko-presentation-ja.pdf', it: '/docs/jellyko-presentation-it.pdf', de: '/docs/jellyko-presentation-de.pdf', fr: '/docs/jellyko-presentation-fr.pdf', tr: '/docs/jellyko-presentation-tr.pdf', es: '/docs/jellyko-presentation-es.pdf', pt: '/docs/jellyko-presentation-pt.pdf', he: '/docs/jellyko-presentation-he.pdf', hi: '/docs/jellyko-presentation-hi.pdf' },
+    i18n: {
+      ru: mk(jellykoRu as any),
+      en: mk(jellykoEn as any),
+      ko: mk(jellykoKo as any),
+      zh: mk(jellykoZh as any),
+      ja: mk(jellykoJa as any),
+      it: mk(jellykoIt as any),
+      de: mk(jellykoDe as any),
+      fr: mk(jellykoFr as any),
+      tr: mk(jellykoTr as any),
+      es: mk(jellykoEs as any),
+      pt: mk(jellykoPt as any), he: mk(jellykoHe as any), hi: mk(jellykoHi as any), ar: mk(jellykoAr as any),
     },
   },
   {
@@ -3488,7 +3622,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/cheon365-presentation-ru.pdf', en: '/docs/cheon365-presentation-en.pdf', ko: '/docs/cheon365-presentation-ko.pdf', zh: '/docs/cheon365-presentation-zh.pdf', ja: '/docs/cheon365-presentation-ja.pdf', it: '/docs/cheon365-presentation-it.pdf', de: '/docs/cheon365-presentation-de.pdf', fr: '/docs/cheon365-presentation-fr.pdf', tr: '/docs/cheon365-presentation-tr.pdf', es: '/docs/cheon365-presentation-es.pdf', pt: '/docs/cheon365-presentation-pt.pdf',
     },
     i18n: {
-      ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any),
+      ru: mk(cheon365Ru as any), en: mk(cheon365En as any), ko: mk(cheon365Ko as any), zh: mk(cheon365Zh as any), ja: mk(cheon365Ja as any), it: mk(cheon365It as any), de: mk(cheon365De as any), fr: mk(cheon365Fr as any), tr: mk(cheon365Tr as any), es: mk(cheon365Es as any), pt: mk(cheon365Pt as any), he: mk(cheon365He as any), hi: mk(cheon365Hi as any), ar: mk(cheon365Ar as any),
     },
   },
   {
@@ -3525,7 +3659,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/dailycomma-presentation-ru.pdf', en: '/docs/dailycomma-presentation-en.pdf', ko: '/docs/dailycomma-presentation-ko.pdf', zh: '/docs/dailycomma-presentation-zh.pdf', ja: '/docs/dailycomma-presentation-ja.pdf', it: '/docs/dailycomma-presentation-it.pdf', de: '/docs/dailycomma-presentation-de.pdf', fr: '/docs/dailycomma-presentation-fr.pdf', tr: '/docs/dailycomma-presentation-tr.pdf', es: '/docs/dailycomma-presentation-es.pdf', pt: '/docs/dailycomma-presentation-pt.pdf', he: '/docs/dailycomma-presentation-he.pdf', hi: '/docs/dailycomma-presentation-hi.pdf',
     },
     i18n: {
-      ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any),
+      ru: mk(dailycommaRu as any), en: mk(dailycommaEn as any), ko: mk(dailycommaKo as any), zh: mk(dailycommaZh as any), ja: mk(dailycommaJa as any), it: mk(dailycommaIt as any), de: mk(dailycommaDe as any), fr: mk(dailycommaFr as any), tr: mk(dailycommaTr as any), es: mk(dailycommaEs as any), pt: mk(dailycommaPt as any), he: mk(dailycommaHe as any), hi: mk(dailycommaHi as any), ar: mk(dailycommaAr as any),
     },
   },
   {
@@ -3571,7 +3705,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/abelty-presentation-ru.pdf', en: '/docs/abelty-presentation-en.pdf', ko: '/docs/abelty-presentation-ko.pdf', zh: '/docs/abelty-presentation-zh.pdf', ja: '/docs/abelty-presentation-ja.pdf', it: '/docs/abelty-presentation-it.pdf', de: '/docs/abelty-presentation-de.pdf', fr: '/docs/abelty-presentation-fr.pdf', tr: '/docs/abelty-presentation-tr.pdf', es: '/docs/abelty-presentation-es.pdf', pt: '/docs/abelty-presentation-pt.pdf', he: '/docs/abelty-presentation-he.pdf', hi: '/docs/abelty-presentation-hi.pdf',
     },
     i18n: {
-      ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any),
+      ru: mk(abeltyRu as any), en: mk(abeltyEn as any), ko: mk(abeltyKo as any), zh: mk(abeltyZh as any), ja: mk(abeltyJa as any), it: mk(abeltyIt as any), de: mk(abeltyDe as any), fr: mk(abeltyFr as any), tr: mk(abeltyTr as any), es: mk(abeltyEs as any), pt: mk(abeltyPt as any), he: mk(abeltyHe as any), hi: mk(abeltyHi as any), ar: mk(abeltyAr as any),
     },
   },
   {
@@ -3619,7 +3753,7 @@ export const suppliers: SupplierProfile[] = [
       ru: '/docs/cellaheal-presentation-ru.pdf', en: '/docs/cellaheal-presentation-en.pdf', ko: '/docs/cellaheal-presentation-ko.pdf', zh: '/docs/cellaheal-presentation-zh.pdf', ja: '/docs/cellaheal-presentation-ja.pdf', it: '/docs/cellaheal-presentation-it.pdf', de: '/docs/cellaheal-presentation-de.pdf', fr: '/docs/cellaheal-presentation-fr.pdf', tr: '/docs/cellaheal-presentation-tr.pdf', es: '/docs/cellaheal-presentation-es.pdf', pt: '/docs/cellaheal-presentation-pt.pdf', he: '/docs/cellaheal-presentation-he.pdf', hi: '/docs/cellaheal-presentation-hi.pdf',
     },
     i18n: {
-      ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any),
+      ru: mk(cellahealRu as any), en: mk(cellahealEn as any), ko: mk(cellahealKo as any), zh: mk(cellahealZh as any), ja: mk(cellahealJa as any), it: mk(cellahealIt as any), de: mk(cellahealDe as any), fr: mk(cellahealFr as any), tr: mk(cellahealTr as any), es: mk(cellahealEs as any), pt: mk(cellahealPt as any), he: mk(cellahealHe as any), hi: mk(cellahealHi as any), ar: mk(cellahealAr as any),
     },
   },
   {
@@ -3653,7 +3787,7 @@ export const suppliers: SupplierProfile[] = [
     ],
     catalog: twoTigersCatalog as SupplierProfile['catalog'],
     i18n: {
-      ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any),
+      ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any), ar: mk(twoTigersAr as any),
     },
   },
 ];
@@ -3702,6 +3836,7 @@ export const linePages: SupplierLinePage[] = [
   ...(desertFreeLines as SupplierLinePage[]),
   ...(veganNatureLines as SupplierLinePage[]),
   ...(chaewunLines as SupplierLinePage[]),
+  ...(jellykoLines as SupplierLinePage[]),
 ] as SupplierLinePage[];
 /** Lines of one supplier, in catalog order — used to link them from the profile. */
 export const linePagesBySupplier = (slug: string): SupplierLinePage[] =>
