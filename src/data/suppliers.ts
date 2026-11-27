@@ -1,3 +1,17 @@
+import watiForSkinRu from './suppliers-i18n/wati-for-skin.ru.json';
+import watiForSkinEn from './suppliers-i18n/wati-for-skin.en.json';
+import watiForSkinKo from './suppliers-i18n/wati-for-skin.ko.json';
+import watiForSkinZh from './suppliers-i18n/wati-for-skin.zh.json';
+import watiForSkinJa from './suppliers-i18n/wati-for-skin.ja.json';
+import watiForSkinIt from './suppliers-i18n/wati-for-skin.it.json';
+import watiForSkinDe from './suppliers-i18n/wati-for-skin.de.json';
+import watiForSkinFr from './suppliers-i18n/wati-for-skin.fr.json';
+import watiForSkinTr from './suppliers-i18n/wati-for-skin.tr.json';
+import watiForSkinEs from './suppliers-i18n/wati-for-skin.es.json';
+import watiForSkinPt from './suppliers-i18n/wati-for-skin.pt.json';
+import watiForSkinHe from './suppliers-i18n/wati-for-skin.he.json';
+import watiForSkinHi from './suppliers-i18n/wati-for-skin.hi.json';
+import watiForSkinCatalog from './suppliers-i18n/wati-for-skin.catalog.json';
 import oanicRu from './suppliers-i18n/oanic.ru.json';
 import { agafarProfile } from './agafar';
 import { toneverProfile, toneverLines } from './tonever';
@@ -1364,6 +1378,34 @@ const agingTargetEn: SupplierContent = {
 };
 
 export const suppliers: SupplierProfile[] = [
+  {
+    slug: 'wati-for-skin',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'Two Tigers Corp',
+    brand: 'Wati for Skin',
+    status: 'provided',
+    // T-20261127-040: identities, properties and packshots from accepted T-100 manifest.
+    brandColors: { deep: '#241B19', sky: '#C8433A', accent: '#C8433A', bg: '#FBF6F2' },
+    voice: 'clinical',
+    catalog: watiForSkinCatalog as SupplierProfile['catalog'],
+    i18n: {
+      ru: mk(watiForSkinRu as any),
+      en: mk(watiForSkinEn as any),
+      ko: mk(watiForSkinKo as any),
+      zh: mk(watiForSkinZh as any),
+      ja: mk(watiForSkinJa as any),
+      it: mk(watiForSkinIt as any),
+      de: mk(watiForSkinDe as any),
+      fr: mk(watiForSkinFr as any),
+      tr: mk(watiForSkinTr as any),
+      es: mk(watiForSkinEs as any),
+      pt: mk(watiForSkinPt as any),
+      he: mk(watiForSkinHe as any),
+      hi: mk(watiForSkinHi as any)
+    },
+  },
+
   toneverProfile,
   agafarProfile,
   {
