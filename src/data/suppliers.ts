@@ -1,3 +1,17 @@
+import drPapirubRu from './suppliers-i18n/dr-papirub.ru.json';
+import drPapirubEn from './suppliers-i18n/dr-papirub.en.json';
+import drPapirubKo from './suppliers-i18n/dr-papirub.ko.json';
+import drPapirubZh from './suppliers-i18n/dr-papirub.zh.json';
+import drPapirubJa from './suppliers-i18n/dr-papirub.ja.json';
+import drPapirubIt from './suppliers-i18n/dr-papirub.it.json';
+import drPapirubDe from './suppliers-i18n/dr-papirub.de.json';
+import drPapirubFr from './suppliers-i18n/dr-papirub.fr.json';
+import drPapirubTr from './suppliers-i18n/dr-papirub.tr.json';
+import drPapirubEs from './suppliers-i18n/dr-papirub.es.json';
+import drPapirubPt from './suppliers-i18n/dr-papirub.pt.json';
+import drPapirubHe from './suppliers-i18n/dr-papirub.he.json';
+import drPapirubHi from './suppliers-i18n/dr-papirub.hi.json';
+import drPapirubCatalog from './suppliers-i18n/dr-papirub.catalog.json';
 import watiForSkinRu from './suppliers-i18n/wati-for-skin.ru.json';
 import watiForSkinEn from './suppliers-i18n/wati-for-skin.en.json';
 import watiForSkinKo from './suppliers-i18n/wati-for-skin.ko.json';
@@ -1378,6 +1392,30 @@ const agingTargetEn: SupplierContent = {
 };
 
 export const suppliers: SupplierProfile[] = [
+  {
+    slug: 'dr-papirub', category: 'cosmetics', country: 'kr',
+    name: 'Two Tigers Corp', brand: 'Dr.Papirub', status: 'provided',
+    // T-041: seven available identities and official packshots from accepted T-100.
+    brandColors: { deep: '#141414', sky: '#1A1A1A', accent: '#E3A62F', bg: '#FAFAFA' },
+    voice: 'clinical',
+    catalog: drPapirubCatalog as SupplierProfile['catalog'],
+    i18n: {
+      ru: mk(drPapirubRu as any),
+      en: mk(drPapirubEn as any),
+      ko: mk(drPapirubKo as any),
+      zh: mk(drPapirubZh as any),
+      ja: mk(drPapirubJa as any),
+      it: mk(drPapirubIt as any),
+      de: mk(drPapirubDe as any),
+      fr: mk(drPapirubFr as any),
+      tr: mk(drPapirubTr as any),
+      es: mk(drPapirubEs as any),
+      pt: mk(drPapirubPt as any),
+      he: mk(drPapirubHe as any),
+      hi: mk(drPapirubHi as any)
+    },
+  },
+
   {
     slug: 'wati-for-skin',
     category: 'cosmetics',
