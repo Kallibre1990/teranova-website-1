@@ -10,6 +10,12 @@ html:lang(hi) :is(h1, h2, h3, .h-section, .eyebrow) {
   letter-spacing: normal;
 }
 html:lang(he) :is(h1, h2, h3, .eyebrow) { letter-spacing: normal; }
+/* Arabic joins letters within a word: Latin tracking must not split them.
+   Use the system Arabic face without fetching fonts from an external CDN. */
+html:lang(ar) { --font: 'Manrope Variable', 'Geeza Pro', 'Noto Sans Arabic', Tahoma, Arial, sans-serif; }
+html:lang(ar) body { font-family: var(--font); }
+html:lang(ar) body * { letter-spacing: normal !important; }
+html:lang(ar) :is(h1, h2, h3, .h-section, .eyebrow) { line-height: 1.5; }
 /* Tracking splits Devanagari conjuncts and the headline bar; components set
    their own letter-spacing on many classes, so reset it for the whole page. */
 html:lang(hi) body * { letter-spacing: normal !important; }

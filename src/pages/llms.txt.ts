@@ -1,9 +1,16 @@
-# Teranova Group
+import type { APIRoute } from 'astro';
+import { publicLocaleCodes } from '../i18n/locale-policy.mjs';
+
+// The same locale policy controls routes, sitemap and this discovery file.
+export const GET: APIRoute = () => {
+  const text = `# Teranova Group
 
 > B2B-платформа, которая находит, проверяет и сопровождает поставки от проверенных
 > корейских производителей до международных покупателей. Юридическое лицо — Teranova Group Ltd.
-> (Корея). Сайт на 11 языках: русский на корневых путях, остальные — под префиксом
-> `/{lang}/` (en, ko, zh, ja, it, de, fr, tr, es, pt).
+> (Корея). Языковые версии: ${publicLocaleCodes.join(', ')}.
+> Английская главная находится в корне, русская — под /ru/.
+> Русские разделы находятся в корне, остальные версии — под /{lang}/.
+> Исключение: /catalog/medical/ находится в корне на английском языке.
 
 ## Основные страницы
 
@@ -28,3 +35,6 @@
 ## Прочее
 
 - [Карта сайта](https://teranovagroup.com/sitemap-index.xml)
+`;
+  return new Response(text, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+};
