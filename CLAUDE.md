@@ -58,7 +58,7 @@ and Teranova Group Ltd".
 - Source in `src/` (pages / components / layouts / i18n / styles / scripts). Brand assets in `public/brand/`.
 
 ## Routing & languages
-- **Real paths** via Astro i18n (no hash routing). **11 languages**: ru (`/`), en, ko, zh, ja, it, de, fr, tr, es, pt.
+- **Real paths** via Astro i18n (no hash routing). **14 languages** (source of truth: `src/i18n/locale-policy.mjs`): ru (`/`), en, ko, zh, ja, it, de, fr, tr, es, pt, he, hi, ar. he and ar are RTL; ar opened 28.11.2026.
 - All 11 are in hreflang + sitemap (translations went through the curated pipeline in `scripts_build/`).
 - Strings live in `src/i18n/locales/*` (ru = source of truth). **RU = Russian only.**
 
