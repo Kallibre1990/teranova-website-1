@@ -41,8 +41,8 @@
     "exportNote": "Questo profilo è stato preparato da Teranova sulla base dei materiali propri di ABELTY (catalogo, listino prezzi, presentazione del marchio) e del sito ufficiale en.abelty.com. I prezzi indicati in questo profilo e nel listino prezzi (PDF) seguono il listino export (FOB) dell'azienda; i termini esatti di consegna, pagamento e tempi di produzione vengono confermati prima dell'ordine tramite Teranova.",
     "consentNote": "Il nome del marchio, il logo e i materiali si basano sulle informazioni fornite da UNIC Cosmetic (Sunny Jung), ottobre–novembre 2026. Prezzi e certificati sono confermati nella fase di trattativa tramite Teranova.",
     "catalog_notes": [
-      "Applicato come primo passaggio della routine dopo la detersione: un siero illuminante a doppio strato a base di acqua di crusca di riso (77% essenza + 23% crema) per luminosità e uniformità del tono; secondo il marchio, ha completato test di ipoallergenicità e test per la riduzione delle macchie scure.",
-      "Applicato come ultimo passaggio ogni mattina: un siero solare SPF50+ PA++++ con acqua di crusca di riso e niacinamide, con una texture leggera che non lascia residuo bianco; secondo il marchio, ha completato test di ipoallergenicità e test per la riduzione delle macchie scure. Presente nel listino prezzi export del marchio.",
+      "Applicato come primo passaggio della routine dopo la detersione: un siero illuminante a doppio strato a base di acqua di crusca di riso (77% essenza + 23% crema) per luminosità e uniformità del tono; secondo il marchio, ha completato test di ipoallergenicità e, in un test clinico indipendente (Korea Bio Research Center, 22 soggetti, 4 settimane), la pigmentazione è migliorata dell'11,97% (p<.05).",
+      "Applicato come ultimo passaggio ogni mattina: un siero solare SPF50+ PA++++ con acqua di crusca di riso e niacinamide, con una texture leggera che non lascia residuo bianco; secondo il marchio, ha completato test di ipoallergenicità e, in un test clinico indipendente (Korea Bio Research Center, 22 soggetti, 4 settimane), la pigmentazione è migliorata dell'11,85% (p<.05). Presente nel listino prezzi export del marchio.",
       "Utilizzata mattina e sera per detergere il viso: una schiuma con 0,7% di polvere di riso e acido ialuronico — detersione delicata senza sensazione di tirare la pelle.",
       "Applicata come idratante quotidiano per pelli sensibili o reattive: una crema con probiotici Weissella cibaria da kimchi di tempio e un estratto vegetale brevettato — supporto alla barriera cutanea e azione lenitiva."
     ],
@@ -57,7 +57,11 @@
       },
       {
         "label": "Confezionamento e quantità per cartone",
-        "value": "Fornito per cartone secondo il listino prezzi del marchio; l'ordine minimo esatto viene confermato con ABELTY tramite Teranova."
+        "value": "Fornito per cartone secondo il listino prezzi del marchio; secondo il marchio (7 novembre 2026), l'ordine minimo è di 1 cartone per prodotto."
+      },
+      {
+        "label": "Territorio ed esclusività",
+        "value": "Secondo il marchio (7 novembre 2026), al momento non vi sono regioni di vendita soggette a restrizioni né distributori esclusivi."
       },
       {
         "label": "Prezzo all'ingrosso",
@@ -101,7 +105,7 @@
     "more": "Apri il profilo →",
     "verified_suppliers": "Fornitori verificati",
     "certs_h": "Test e dichiarazioni",
-    "certs_note": "ABELTY non ha fornito certificazioni internazionali formali. Secondo il marchio: dicitura propria del marchio (non certificata) \"vegan\" sui due sieri; entrambi i sieri hanno completato test di ipoallergenicità e test per la riduzione delle macchie scure (il marchio non pubblica dati clinici in percentuale); il kimchi usato nella crema è preparato a mano dal venerabile Jigyeon, maestro della cucina dei templi coreani (secondo il marchio); un estratto vegetale presente nella crema è protetto dal Brevetto coreano n. 10-2669645 (secondo il marchio). Copie di eventuali documenti vengono fornite in fase di trattativa tramite Teranova.",
+    "certs_note": "ABELTY non ha fornito certificazioni internazionali formali. Secondo il marchio: dicitura propria del marchio (non certificata) \"vegan\" sui due sieri; entrambi i sieri hanno completato test di ipoallergenicità (il marchio non pubblica dati clinici in percentuale) e un test clinico indipendente per la riduzione dell'iperpigmentazione e del melasma — Korea Bio Research Center, rapporti KBRC-250117-CE25027-1 e KBRC-250117-CE25027-2 (22 soggetti, 4 settimane): la pigmentazione è migliorata dell'11,97% per il Rice Squalane Glow Double Serum e dell'11,85% per il Rice Niacinamide Moisture Sun Serum (p<.05 per entrambi), senza reazioni cutanee avverse; il kimchi usato nella crema è preparato a mano dal venerabile Jigyeon, maestro della cucina dei templi coreani (secondo il marchio); un estratto vegetale presente nella crema è protetto dal Brevetto coreano n. 10-2669645 (secondo il marchio). Copie di eventuali documenti vengono fornite in fase di trattativa tramite Teranova.",
     "gallery_h": "Prodotti",
     "gallery_note": "Le foto dei prodotti provengono dal sito ufficiale en.abelty.com e dai materiali inviati dall'azienda il 22 ottobre 2026."
   }

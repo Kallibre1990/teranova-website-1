@@ -41,8 +41,8 @@
     "exportNote": "Este perfil foi preparado pela Teranova a partir dos próprios materiais da ABELTY (catálogo, lista de preços, apresentação da marca) e do site oficial en.abelty.com. Os preços deste perfil e da lista de preços (PDF) seguem a lista de preços de exportação (FOB) da empresa; os termos exatos de entrega, pagamento e prazo são confirmados antes do pedido através da Teranova.",
     "consentNote": "O nome da marca, o logotipo e os materiais se baseiam em informações fornecidas pela UNIC Cosmetic (Sunny Jung), outubro–novembro de 2026. Preços e certificados são confirmados na etapa de negociação pela Teranova.",
     "catalog_notes": [
-      "Aplicado como primeiro passo da rotina após a limpeza: um sérum de água de farelo de arroz em duas camadas (77% essência + 23% creme) para brilho e uniformização do tom; segundo a marca, já concluiu testes hipoalergênicos e testes de redução de manchas escuras.",
-      "Aplicado como último passo todas as manhãs: um sérum solar SPF50+ PA++++ com água de farelo de arroz e niacinamida, de textura leve e sem efeito esbranquiçado; segundo a marca, já concluiu testes hipoalergênicos e testes de redução de manchas escuras. Consta na lista de preços de exportação da marca.",
+      "Aplicado como primeiro passo da rotina após a limpeza: um sérum de água de farelo de arroz em duas camadas (77% essência + 23% creme) para brilho e uniformização do tom; segundo a marca, já concluiu testes hipoalergênicos e, em um teste clínico independente (Korea Bio Research Center, 22 participantes, 4 semanas), a pigmentação melhorou 11,97% (p<.05).",
+      "Aplicado como último passo todas as manhãs: um sérum solar SPF50+ PA++++ com água de farelo de arroz e niacinamida, de textura leve e sem efeito esbranquiçado; segundo a marca, já concluiu testes hipoalergênicos e, em um teste clínico independente (Korea Bio Research Center, 22 participantes, 4 semanas), a pigmentação melhorou 11,85% (p<.05). Consta na lista de preços de exportação da marca.",
       "Usado de manhã e à noite para limpar o rosto: uma espuma com 0,7% de pó de arroz e ácido hialurônico — limpeza suave, sem sensação de aperto depois.",
       "Aplicado como hidratante diário para pele sensível ou reativa: um creme com probióticos Weissella cibaria de kimchi de templo e um extrato vegetal patenteado — suporte à barreira cutânea e efeito calmante."
     ],
@@ -57,7 +57,11 @@
       },
       {
         "label": "Embalagem e quantidade por caixa",
-        "value": "Fornecido por caixa, conforme a lista de preços da marca; o pedido mínimo exato é confirmado com a ABELTY através da Teranova."
+        "value": "Fornecido por caixa, conforme a lista de preços da marca; segundo a marca (7 de novembro de 2026), o pedido mínimo é de 1 caixa por produto."
+      },
+      {
+        "label": "Território e exclusividade",
+        "value": "Segundo a marca (7 de novembro de 2026), atualmente não há regiões de venda restritas nem distribuidores exclusivos."
       },
       {
         "label": "Preço no atacado",
@@ -101,7 +105,7 @@
     "more": "Abrir perfil →",
     "verified_suppliers": "Fornecedores verificados",
     "certs_h": "Testes e alegações",
-    "certs_note": "A ABELTY não apresentou certificações internacionais formais. Segundo a marca: denominação própria \"vegan\" (não certificada, denominação própria da marca) nos dois séruns; ambos os séruns já concluíram testes hipoalergênicos e testes de redução de manchas escuras (a marca não publica os números clínicos); o kimchi usado no creme é preparado à mão pelo venerável Jigyeon, mestre da cozinha de templo coreana (segundo a marca); um extrato vegetal no creme está abrangido pela patente coreana n.º 10-2669645 (segundo a marca). Cópias de quaisquer documentos são fornecidas na etapa do negócio através da Teranova.",
+    "certs_note": "A ABELTY não apresentou certificações internacionais formais. Segundo a marca: denominação própria \"vegan\" (não certificada, denominação própria da marca) nos dois séruns; ambos os séruns já concluíram testes hipoalergênicos (a marca não publica os números clínicos) e um teste clínico independente de redução de hiperpigmentação e melasma — Korea Bio Research Center, relatórios KBRC-250117-CE25027-1 e KBRC-250117-CE25027-2 (22 participantes, 4 semanas): a pigmentação melhorou 11,97% no Rice Squalane Glow Double Serum e 11,85% no Rice Niacinamide Moisture Sun Serum (p<.05 em ambos), sem reações cutâneas adversas; o kimchi usado no creme é preparado à mão pelo venerável Jigyeon, mestre da cozinha de templo coreana (segundo a marca); um extrato vegetal no creme está abrangido pela patente coreana n.º 10-2669645 (segundo a marca). Cópias de quaisquer documentos são fornecidas na etapa do negócio através da Teranova.",
     "gallery_h": "Produtos",
     "gallery_note": "As fotografias dos produtos são do site oficial en.abelty.com e de materiais enviados pela empresa em 22 de outubro de 2026."
   }

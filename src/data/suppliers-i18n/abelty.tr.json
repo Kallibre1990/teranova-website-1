@@ -41,8 +41,8 @@
     "exportNote": "Bu profil, Teranova tarafından ABELTY'nin kendi materyallerinden (katalog, fiyat listesi, marka sunumu) ve resmi site en.abelty.com'dan hazırlanmıştır. Bu profildeki ve fiyat listesindeki (PDF) fiyatlar şirketin ihracat (FOB) fiyat listesine dayanmaktadır; kesin teslimat, ödeme ve termin koşulları sipariş öncesinde Teranova aracılığıyla teyit edilir.",
     "consentNote": "Marka adı, logo ve materyaller, UNIC Cosmetic (Sunny Jung) tarafından Ekim–Kasım 2026'da sağlanan bilgilere dayanmaktadır. Fiyatlar ve sertifikalar, Teranova üzerinden anlaşma aşamasında teyit edilir.",
     "catalog_notes": [
-      "Temizlikten sonra bakım rutininin ilk adımı olarak uygulanır: parlaklık ve eşit ton için çift katmanlı bir pirinç kepeği suyu serumu (%77 esans + %23 krem); markaya göre hipoalerjenik testler ve koyu leke azaltma testleri tamamlanmıştır.",
-      "Her sabah bakımın son adımı olarak uygulanır: pirinç kepeği suyu ve niasinamid içeren, hafif dokulu ve beyazlık bırakmayan bir SPF50+ PA++++ güneş serumu; markaya göre hipoalerjenik testler ve koyu leke azaltma testleri tamamlanmıştır. Markanın ihracat fiyat listesinde yer almaktadır.",
+      "Temizlikten sonra bakım rutininin ilk adımı olarak uygulanır: parlaklık ve eşit ton için çift katmanlı bir pirinç kepeği suyu serumu (%77 esans + %23 krem); markaya göre hipoalerjenik testler tamamlanmıştır; bağımsız bir klinik testte (Korea Bio Research Center, 22 katılımcı, 4 hafta) pigmentasyon %11,97 iyileşmiştir (p<.05).",
+      "Her sabah bakımın son adımı olarak uygulanır: pirinç kepeği suyu ve niasinamid içeren, hafif dokulu ve beyazlık bırakmayan bir SPF50+ PA++++ güneş serumu; markaya göre hipoalerjenik testler tamamlanmıştır; bağımsız bir klinik testte (Korea Bio Research Center, 22 katılımcı, 4 hafta) pigmentasyon %11,85 iyileşmiştir (p<.05). Markanın ihracat fiyat listesinde yer almaktadır.",
       "Yüzü temizlemek için sabah ve akşam kullanılır: %0,7 pirinç tozu ve hiyalüronik asit içeren bir köpük — gerdirme hissi bırakmayan nazik bir temizlik.",
       "Hassas veya reaktif ciltler için günlük nemlendirici olarak uygulanır: tapınak kimçisinden elde edilen Weissella cibaria probiyotikleri ve patentli bir bitki özü içeren bir krem — bariyer desteği ve yatıştırma."
     ],
@@ -57,7 +57,11 @@
       },
       {
         "label": "Ambalaj ve koli miktarı",
-        "value": "Markanın fiyat listesine göre koli halinde tedarik edilir; kesin minimum sipariş miktarı Teranova aracılığıyla ABELTY ile teyit edilir."
+        "value": "Markanın fiyat listesine göre koli halinde tedarik edilir; markaya göre (7 Kasım 2026), minimum sipariş ürün başına 1 kolidir."
+      },
+      {
+        "label": "Bölge ve münhasırlık",
+        "value": "Markaya göre (7 Kasım 2026), şu anda kısıtlı satış bölgesi veya münhasır distribütör bulunmamaktadır."
       },
       {
         "label": "Toptan fiyat",
@@ -101,7 +105,7 @@
     "more": "Profili aç →",
     "verified_suppliers": "Doğrulanmış tedarikçiler",
     "certs_h": "Testler ve iddialar",
-    "certs_note": "ABELTY resmi uluslararası sertifikalar sunmamıştır. Markaya göre: iki serum üzerinde markanın kendi vegan ifadesi (sertifikalı değil, markanın kendi ifadesi); her iki serum için hipoalerjenik testler ve koyu leke azaltma testleri tamamlanmıştır (klinik rakamlar marka tarafından yayımlanmamıştır); kremde kullanılan kimçi, Kore tapınak mutfağının ustası Saygıdeğer Jigyeon tarafından elle hazırlanır (markaya göre); kremdeki bitki özü Kore Patenti No. 10-2669645 kapsamındadır (markaya göre). Herhangi bir belgenin kopyaları, anlaşma aşamasında Teranova aracılığıyla sağlanır.",
+    "certs_note": "ABELTY resmi uluslararası sertifikalar sunmamıştır. Markaya göre: iki serum üzerinde markanın kendi vegan ifadesi (sertifikalı değil, markanın kendi ifadesi); her iki serum için hipoalerjenik testler tamamlanmıştır (klinik rakamlar marka tarafından yayımlanmamıştır); ayrıca bağımsız bir klinik test — Korea Bio Research Center, raporlar KBRC-250117-CE25027-1 ve KBRC-250117-CE25027-2 (22 katılımcı, 4 hafta) — Rice Squalane Glow Double Serum için pigmentasyonda %11,97, Rice Niacinamide Moisture Sun Serum için %11,85 iyileşme göstermiştir (her ikisi için p<.05), cilt yan etkisi gözlenmemiştir; kremde kullanılan kimçi, Kore tapınak mutfağının ustası Saygıdeğer Jigyeon tarafından elle hazırlanır (markaya göre); kremdeki bitki özü Kore Patenti No. 10-2669645 kapsamındadır (markaya göre). Herhangi bir belgenin kopyaları, anlaşma aşamasında Teranova aracılığıyla sağlanır.",
     "gallery_h": "Ürünler",
     "gallery_note": "Ürün fotoğrafları resmi site en.abelty.com'dan ve şirketin 22 Ekim 2026'da gönderdiği materyallerden alınmıştır."
   }

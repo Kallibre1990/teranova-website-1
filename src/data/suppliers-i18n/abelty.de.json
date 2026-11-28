@@ -41,8 +41,8 @@
     "exportNote": "Dieses Profil wurde von Teranova auf Basis der eigenen Materialien von ABELTY (Katalog, Preisliste, Markenpräsentation) und der offiziellen Website en.abelty.com erstellt. Die Preise in diesem Profil und in der Preisliste (PDF) folgen der Export-Preisliste (FOB) des Unternehmens; genaue Liefer-, Zahlungs- und Vorlaufzeitbedingungen werden vor der Bestellung über Teranova bestätigt.",
     "consentNote": "Markenname, Logo und Materialien basieren auf Angaben von UNIC Cosmetic (Sunny Jung), Oktober–November 2026. Preise und Zertifikate werden in der Verhandlungsphase über Teranova bestätigt.",
     "catalog_notes": [
-      "Wird als erster Schritt der Pflegeroutine nach der Reinigung aufgetragen: ein zweischichtiges Reiskleiewasser-Serum (77% Essenz + 23% Creme) für Glow und einen ebenmäßigen Teint; laut Marke wurden ein Hypoallergenitätstest und ein Test zur Reduktion dunkler Flecken abgeschlossen.",
-      "Wird morgens als letzter Schritt aufgetragen: ein Sonnenserum mit LSF50+ PA++++, Reiskleiewasser und Niacinamid, mit leichter Textur ohne Weißschleier; laut Marke wurden ein Hypoallergenitätstest und ein Test zur Reduktion dunkler Flecken abgeschlossen. In der Export-Preisliste der Marke aufgeführt.",
+      "Wird als erster Schritt der Pflegeroutine nach der Reinigung aufgetragen: ein zweischichtiges Reiskleiewasser-Serum (77% Essenz + 23% Creme) für Glow und einen ebenmäßigen Teint; laut Marke wurde ein Hypoallergenitätstest abgeschlossen, und ein unabhängiger klinischer Test (Korea Bio Research Center, 22 Probanden, 4 Wochen) ergab eine Verbesserung der Pigmentierung um 11,97% (p<.05).",
+      "Wird morgens als letzter Schritt aufgetragen: ein Sonnenserum mit LSF50+ PA++++, Reiskleiewasser und Niacinamid, mit leichter Textur ohne Weißschleier; laut Marke wurde ein Hypoallergenitätstest abgeschlossen, und ein unabhängiger klinischer Test (Korea Bio Research Center, 22 Probanden, 4 Wochen) ergab eine Verbesserung der Pigmentierung um 11,85% (p<.05). In der Export-Preisliste der Marke aufgeführt.",
       "Wird morgens und abends zur Gesichtsreinigung verwendet: ein Schaum mit 0,7% Reispulver und Hyaluronsäure — sanfte Reinigung ohne Spannungsgefühl danach.",
       "Wird als tägliche Feuchtigkeitspflege für empfindliche oder reaktive Haut aufgetragen: eine Creme mit Weissella-cibaria-Probiotika aus Tempel-Kimchi und einem patentierten Pflanzenextrakt — zur Unterstützung der Hautbarriere und Beruhigung."
     ],
@@ -57,7 +57,11 @@
       },
       {
         "label": "Verpackung und Kartonmenge",
-        "value": "Lieferung je Karton laut Preisliste der Marke; die genaue Mindestbestellmenge wird mit ABELTY über Teranova bestätigt."
+        "value": "Lieferung je Karton laut Preisliste der Marke; laut Marke (7. November 2026) beträgt die Mindestbestellmenge 1 Karton pro Produkt."
+      },
+      {
+        "label": "Gebiet und Exklusivität",
+        "value": "Laut Marke (7. November 2026) gibt es derzeit keine eingeschränkten Vertriebsregionen und keine exklusiven Vertriebspartner."
       },
       {
         "label": "Großhandelspreis",
@@ -101,7 +105,7 @@
     "more": "Profil öffnen →",
     "verified_suppliers": "Geprüfte Lieferanten",
     "certs_h": "Tests und Angaben",
-    "certs_note": "ABELTY hat keine formellen internationalen Zertifizierungen vorgelegt. Laut Marke: eine markeneigene (nicht zertifizierte) Vegan-Kennzeichnung auf den beiden Seren; bei beiden Seren wurden ein Hypoallergenitätstest und ein Test zur Reduktion dunkler Flecken abgeschlossen (klinische Zahlen werden von der Marke nicht veröffentlicht); das in der Creme verwendete Kimchi wird vom Ehrwürdigen Jigyeon, einem Meister der koreanischen Tempelküche, handgefertigt (laut Marke); ein Pflanzenextrakt in der Creme ist durch das koreanische Patent Nr. 10-2669645 geschützt (laut Marke). Kopien etwaiger Dokumente werden in der Abschlussphase über Teranova zur Verfügung gestellt.",
+    "certs_note": "ABELTY hat keine formellen internationalen Zertifizierungen vorgelegt. Laut Marke: eine markeneigene (nicht zertifizierte) Vegan-Kennzeichnung auf den beiden Seren; bei beiden Seren wurde ein Hypoallergenitätstest abgeschlossen (klinische Zahlen werden von der Marke nicht veröffentlicht), außerdem ein unabhängiger klinischer Test zur Reduktion von Hyperpigmentierung und Melasma — Korea Bio Research Center, Berichte KBRC-250117-CE25027-1 und KBRC-250117-CE25027-2 (22 Probanden, 4 Wochen): Die Pigmentierung verbesserte sich beim Rice Squalane Glow Double Serum um 11,97% und beim Rice Niacinamide Moisture Sun Serum um 11,85% (p<.05 für beide), ohne beobachtete Hautreaktionen; das in der Creme verwendete Kimchi wird vom Ehrwürdigen Jigyeon, einem Meister der koreanischen Tempelküche, handgefertigt (laut Marke); ein Pflanzenextrakt in der Creme ist durch das koreanische Patent Nr. 10-2669645 geschützt (laut Marke). Kopien etwaiger Dokumente werden in der Abschlussphase über Teranova zur Verfügung gestellt.",
     "gallery_h": "Produkte",
     "gallery_note": "Die Produktfotos stammen von der offiziellen Website en.abelty.com und aus Materialien, die das Unternehmen am 22. Oktober 2026 übermittelt hat."
   }

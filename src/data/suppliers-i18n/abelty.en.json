@@ -41,8 +41,8 @@
     "exportNote": "This profile was prepared by Teranova from ABELTY's own materials (catalog, price list, brand presentation) and the official site en.abelty.com. Prices in this profile and in the price list (PDF) follow the company's export (FOB) price list; exact delivery, payment and lead-time terms are confirmed before ordering through Teranova.",
     "consentNote": "Brand name, logo and materials are based on information provided by UNIC Cosmetic (Sunny Jung), October–November 2026. Prices and certificates are confirmed at the deal stage through Teranova.",
     "catalog_notes": [
-      "Applied as the first step of a routine after cleansing: a two-layer rice-bran-water serum (77% essence + 23% cream) for glow and even tone; per the brand, it has completed hypoallergenic testing and testing for dark-spot reduction.",
-      "Applied as the last step each morning: an SPF50+ PA++++ sun serum with rice bran water and niacinamide, with a lightweight no-white-cast texture; per the brand, it has completed hypoallergenic testing and testing for dark-spot reduction. Listed in the brand's export price list.",
+      "Applied as the first step of a routine after cleansing: a two-layer rice-bran-water serum (77% essence + 23% cream) for glow and even tone; per the brand, it has completed hypoallergenic testing, and an independent clinical test (Korea Bio Research Center, 22 subjects, 4 weeks) found an 11.97% reduction in pigmentation (p<.05).",
+      "Applied as the last step each morning: an SPF50+ PA++++ sun serum with rice bran water and niacinamide, with a lightweight no-white-cast texture; per the brand, it has completed hypoallergenic testing, and an independent clinical test (Korea Bio Research Center, 22 subjects, 4 weeks) found an 11.85% reduction in pigmentation (p<.05). Listed in the brand's export price list.",
       "Used morning and evening to cleanse the face: a foam with 0.7% rice powder and hyaluronic acid — gentle cleansing without a tight after-feel.",
       "Applied as a daily moisturizer for sensitive or reactive skin: a cream with Weissella cibaria probiotics from temple kimchi and a patented plant extract — barrier support and soothing."
     ],
@@ -57,7 +57,11 @@
       },
       {
         "label": "Packaging and carton quantity",
-        "value": "Supplied by carton per the brand's price list; the exact minimum order is confirmed with ABELTY through Teranova."
+        "value": "Supplied by carton per the brand's price list; per the brand (7 November 2026), the minimum order is 1 carton per product."
+      },
+      {
+        "label": "Territory and exclusivity",
+        "value": "Per the brand (7 November 2026), there are currently no restricted sales regions and no exclusive distributors."
       },
       {
         "label": "Wholesale price",
@@ -101,7 +105,7 @@
     "more": "Open profile →",
     "verified_suppliers": "Verified suppliers",
     "certs_h": "Testing and claims",
-    "certs_note": "ABELTY has not provided formal international certifications. Per the brand: its own vegan label (uncertified, brand's own wording) on the two serums; both serums have completed hypoallergenic testing and testing for dark-spot reduction (clinical figures are not published by the brand); the kimchi used in the cream is temple kimchi handcrafted by Venerable Jigyeon, a master of Korean temple cuisine (per the brand); a plant extract in the cream is covered by Korea Patent No. 10-2669645 (per the brand). Copies of any documents are provided at the deal stage through Teranova.",
+    "certs_note": "ABELTY has not provided formal international certifications. Per the brand: its own vegan label (uncertified, brand's own wording) on the two serums; both serums have completed hypoallergenic testing (clinical figures are not published by the brand) and an independent clinical test for the reduction of hyperpigmentation and melasma — Korea Bio Research Center, reports KBRC-250117-CE25027-1 and KBRC-250117-CE25027-2 (22 subjects, 4 weeks): pigmentation improved by 11.97% for the Rice Squalane Glow Double Serum and by 11.85% for the Rice Niacinamide Moisture Sun Serum (p<.05 for both), with no skin adverse reactions observed; the kimchi used in the cream is temple kimchi handcrafted by Venerable Jigyeon, a master of Korean temple cuisine (per the brand); a plant extract in the cream is covered by Korea Patent No. 10-2669645 (per the brand). Copies of any documents are provided at the deal stage through Teranova.",
     "gallery_h": "Products",
     "gallery_note": "Product photography is from the official site en.abelty.com and materials sent by the company on 22 October 2026."
   }

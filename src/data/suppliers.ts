@@ -3799,10 +3799,14 @@ export const suppliers: SupplierProfile[] = [
        пакшотов (рисовые колосья, кремовая упаковка) — фирменных цветов в
        векторе бренд не присылал. Профиль собран по поручению Антона
        06.11.2026 из присланных материалов (каталог, прайс-лист, Canva-презентация,
-       сайт en.abelty.com); письменное разрешение на публикацию логотипа и
-       материалов в полном объёме не получено — страница на закрытом превью. */
+       сайт en.abelty.com), опубликован 06.11.2026 (ссылки отправлены контакту
+       Sunny Jung). 07.11.2026 компания в ответ на наш запрос прислала логотип,
+       4 продуктовых фото, 2 клинических отчёта о тестах (KBRC) и подтвердила:
+       ограничений по регионам продаж и эксклюзивных дистрибьюторов нет, MOQ —
+       1 картонная коробка на позицию. */
     brandColors: { deep: '#4A3826', sky: '#C9A86B', accent: '#C99A5B', bg: '#FAF4E9' },
     voice: 'natural',
+    logoUrl: '/img/suppliers/abelty/logo-black.png',
     catalog: abeltyCatalog,
     /* The Russian line name ("Рисовая линейка") shares no word with the
        English catalog group ("Rice line") or its product names, so the
@@ -3816,11 +3820,14 @@ export const suppliers: SupplierProfile[] = [
       '/img/suppliers/abelty/gallery/full-range.jpg',
       '/img/suppliers/abelty/gallery/rice-hydrating-cleansing-foam-alt.jpg',
     ],
-    /* certs: [] намеренно — формальных международных сертификатов бренд не
-       предоставил. Испытания (гипоаллергенность, снижение пигментации) и
-       собственная (несертифицированная) маркировка vegan описаны текстом в
-       ui.certs_note, без цифр клинического теста — по разбору HQ 06.11.2026. */
-    certs: [],
+    /* Формальных международных сертификатов (EU CPNP, FDA и т.п.) бренд не
+       предоставил — badge для них не добавляется. 07.11.2026 компания
+       прислала 2 отчёта независимой лаборатории (Korea Bio Research Center,
+       KBRC-250117-CE25027-1/-2) с числовыми результатами по двум сывороткам;
+       единственный badge ниже открывает ui.certs_note, где эти цифры
+       приведены полностью (прежде — пустой certs: [] и нерендерящаяся
+       секция, разбор HQ 06.11.2026, обновлено 29.11.2026). */
+    certs: ['Clinical study · Korea Bio Research Center'],
     termsFile: {
       ru: '/docs/abelty-terms-ru.pdf', en: '/docs/abelty-terms-en.pdf', ko: '/docs/abelty-terms-ko.pdf', zh: '/docs/abelty-terms-zh.pdf', ja: '/docs/abelty-terms-ja.pdf', it: '/docs/abelty-terms-it.pdf', de: '/docs/abelty-terms-de.pdf', fr: '/docs/abelty-terms-fr.pdf', tr: '/docs/abelty-terms-tr.pdf', es: '/docs/abelty-terms-es.pdf', pt: '/docs/abelty-terms-pt.pdf', he: '/docs/abelty-terms-he.pdf', hi: '/docs/abelty-terms-hi.pdf',
     },
