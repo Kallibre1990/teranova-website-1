@@ -12,13 +12,14 @@ const cleanup = () => { for (const f of [linesFixture, catalogFixture]) rmSync(f
 cleanup();
 
 try {
-  // Positive control: real repo data on 2026-11-28, before T-20261128-043..047
-  // land, must show the exact gap T-20261128-041 found — proving the check
-  // detects a real, already-known regression without a human reading pages.
+  // Smoke control: must run over real repo data without throwing, whatever
+  // its current translation state is. Real ar gaps get fixed by other parts
+  // over time (T-20261128-043..047 etc.) — this check must not regress when
+  // that happens, so it asserts shape, not specific still-open slugs.
   const realLines = linePageI18nGaps('ar');
-  assert.ok(realLines.missing.includes('feelody/day-supreme'), 'known ar gap must be caught');
+  assert.ok(realLines.total > 0 && Array.isArray(realLines.missing));
   const realCatalog = catalogI18nGaps('ar');
-  assert.ok(realCatalog.missing.includes('veo-biotech.catalog[0].lineI18n'), 'known ar gap must be caught');
+  assert.ok(realCatalog.total > 0 && Array.isArray(realCatalog.missing));
 
   // Negative control: *.lines.json i18n blocks (seoTitle/tagline/about —
   // real translated page copy) carry an explicit `en` entry everywhere, so
@@ -50,13 +51,18 @@ try {
       { name: 'D' },
     ] },
     { line: 'Untranslated group', items: [{ name: 'E' }] },
+    // Reproduces the exact shape of the known T-20261128-041 regression
+    // (veo-biotech.catalog[0].lineI18n: field present, ar absent) in an
+    // isolated fixture, so detection of that shape stays proven even once
+    // the real supplier data gets translated and no longer carries this gap.
+    { line: 'Group no ar', lineI18n: { ru: 'Группа без ar' }, items: [] },
   ]));
   const fixtureCatalog = catalogI18nGaps('ar');
   const slug = '__fixture-048__';
   // Scope to this fixture's own entries: the real suppliers scanned alongside
-  // it legitimately have their own items[3]/catalog[1] gaps (see the known-
-  // regression assertion above), so a bare .some() over the whole list would
-  // pass or fail on unrelated real data instead of this fixture.
+  // it legitimately have their own translation gaps (whatever they currently
+  // are), so a bare .some() over the whole list would pass or fail on
+  // unrelated real data instead of this fixture.
   const ownGaps = fixtureCatalog.missing.filter((m) => m.startsWith(`${slug}.`));
   assert.equal(ownGaps.includes(`${slug}.catalog[0].lineI18n`), false);
   assert.ok(ownGaps.includes(`${slug}.catalog[0].items[0].nameI18n`));
@@ -64,9 +70,10 @@ try {
   assert.equal(ownGaps.includes(`${slug}.catalog[0].items[2].activesI18n`), false);
   assert.equal(ownGaps.some((m) => m.includes('items[3]')), false);
   assert.equal(ownGaps.some((m) => m.includes('catalog[1]')), false);
-  assert.equal(ownGaps.length, 2);
+  assert.ok(ownGaps.includes(`${slug}.catalog[2].lineI18n`), 'group-level lineI18n missing ar must be caught (T-20261128-041 shape)');
+  assert.equal(ownGaps.length, 3);
 
-  console.log('compare-locale-opis ar i18n gaps: known regression, negative control, field-level fixture PASS');
+  console.log('compare-locale-opis ar i18n gaps: smoke control, negative control, field-level fixture (incl. T-041-shaped regression) PASS');
 } finally {
   cleanup();
 }
