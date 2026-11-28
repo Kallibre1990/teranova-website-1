@@ -6,7 +6,7 @@
    invented one. Never creates content; read-only comparison. */
 import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { inventoryLocale, pdfFamilies, dictionaryKeys, supplierDataFiles } from './inventory-locale.mjs';
+import { inventoryLocale, pdfFamilies, dictionaryKeys, supplierDataFiles, linePageI18nGaps, catalogI18nGaps } from './inventory-locale.mjs';
 import { logicalPath } from '../src/i18n/locale-policy.mjs';
 
 /* Kept in sync by hand with scripts/check-confidential-prices.mjs CONFIDENTIAL.
@@ -74,6 +74,14 @@ export async function compareLocale(baseline, locale, distRoot) {
   const targetSuppliers = supplierDataFiles(locale);
   const missingSupplierData = diffList(baselineSuppliers, targetSuppliers);
 
+  /* Source-data completeness, not a baseline/target diff: a line or catalog
+     field either has `locale` in its i18n map or it doesn't. This is what
+     catches the T-20261128-041 class of gap (locale key absent entirely, so
+     the live render silently falls back to ru) before a human has to spot
+     it on the page. */
+  const linePagesI18n = linePageI18nGaps(locale);
+  const catalogFieldsI18n = catalogI18nGaps(locale);
+
   return {
     baselineLocale: baseline.locale,
     targetLocale: locale,
@@ -89,6 +97,10 @@ export async function compareLocale(baseline, locale, distRoot) {
       missingCount: missingDictKeys.length, missing: missingDictKeys },
     supplierDataFiles: { baseline: baselineSuppliers.length, target: targetSuppliers.length,
       missing: missingSupplierData },
+    linePagesI18n: { total: linePagesI18n.total, missingCount: linePagesI18n.missing.length,
+      missing: linePagesI18n.missing },
+    catalogFieldsI18n: { total: catalogFieldsI18n.total, missingCount: catalogFieldsI18n.missing.length,
+      missing: catalogFieldsI18n.missing },
     images: { baselineTotal: baseline.images.total, baselineMissingAlt: baseline.images.missingAlt,
       targetTotal: target.images.total, targetMissingAlt: target.images.missingAlt,
       ...imageGaps(baseline.images.pages, target.images.pages) },

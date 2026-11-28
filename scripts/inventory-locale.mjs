@@ -131,6 +131,66 @@ export function supplierDataFiles(locale) {
   return readdirSync(dir).filter((f) => f.endsWith(`.${locale}.json`)).map((f) => f.slice(0, -(`.${locale}.json`.length)));
 }
 
+/* A locale key that is absent, null, an empty string or an empty array is
+   the same gap as having no translation at all: the render path falls back
+   to ru either way (src/i18n/strict-content.ts localizedContent). */
+function hasLocaleContent(value) {
+  if (value === undefined || value === null) return false;
+  if (Array.isArray(value)) return value.length > 0;
+  if (typeof value === 'string') return value.trim().length > 0;
+  if (typeof value === 'object') return Object.keys(value).length > 0;
+  return true;
+}
+
+/** Scans every `*.lines.json` line entry for a missing `i18n[locale]` block.
+    Source-only: reads src/data directly, independent of any dist build or
+    baseline locale, since a line's own i18n map either has the locale or
+    doesn't — there is nothing to diff against. */
+export function linePageI18nGaps(locale) {
+  const dir = resolve(root, 'src/data/suppliers-i18n');
+  if (!existsSync(dir)) return { total: 0, missing: [] };
+  let total = 0;
+  const missing = [];
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.lines.json'))) {
+    const lines = JSON.parse(readFileSync(resolve(dir, file), 'utf8'));
+    for (const line of lines) {
+      total += 1;
+      if (!hasLocaleContent(line.i18n?.[locale])) missing.push(`${line.supplierSlug}/${line.slug}`);
+    }
+  }
+  return { total, missing: missing.sort() };
+}
+
+/** Scans every `*.catalog.json` group/item for a missing `[locale]` entry in
+    lineI18n / nameI18n / volumeI18n / activesI18n — only where that field
+    exists at all (not every catalog translates these), matching the same
+    "field present but locale missing" gap caught by strict-content.ts. */
+export function catalogI18nGaps(locale) {
+  const dir = resolve(root, 'src/data/suppliers-i18n');
+  if (!existsSync(dir)) return { total: 0, missing: [] };
+  let total = 0;
+  const missing = [];
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.catalog.json'))) {
+    const slug = file.slice(0, -'.catalog.json'.length);
+    const groups = JSON.parse(readFileSync(resolve(dir, file), 'utf8'));
+    groups.forEach((group, gi) => {
+      if (group.lineI18n) {
+        total += 1;
+        if (!hasLocaleContent(group.lineI18n[locale])) missing.push(`${slug}.catalog[${gi}].lineI18n`);
+      }
+      (group.items ?? []).forEach((item, ii) => {
+        for (const field of ['nameI18n', 'volumeI18n', 'activesI18n']) {
+          if (item[field]) {
+            total += 1;
+            if (!hasLocaleContent(item[field][locale])) missing.push(`${slug}.catalog[${gi}].items[${ii}].${field}`);
+          }
+        }
+      });
+    });
+  }
+  return { total, missing: missing.sort() };
+}
+
 async function main() {
   const locale = process.argv[2];
   if (!locale) { console.error('Usage: inventory-locale.mjs <locale> [distDir]'); process.exitCode = 64; return; }
