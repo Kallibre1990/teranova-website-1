@@ -2027,6 +2027,12 @@ export const suppliers: SupplierProfile[] = [
     status: 'provided',
     brandColors: { deep: '#2a2350', sky: '#8f86e0', accent: '#f5c518', bg: '#f4f2fd' },
     voice: 'playful',
+    /* "All-in-One Cream" names two SKUs at once (Miracle Mask Cream + Air Glow
+       Cream); the auto-matched shot showed only the first. KIFT sent this photo
+       of both jars together on 7 Sep 2026 asking for exactly this fix. */
+    lineShots: {
+      'All-in-One Cream': '/img/suppliers/kift/lines/all-in-one-cream.jpg',
+    },
     catalog: kiftCatalog as { line: string; items: { name: string; img: string }[] }[],
     termsFile: {
       ru: '/docs/kift-terms-ru.pdf', en: '/docs/kift-terms-en.pdf', ko: '/docs/kift-terms-ko.pdf', zh: '/docs/kift-terms-zh.pdf', ja: '/docs/kift-terms-ja.pdf', it: '/docs/kift-terms-it.pdf', de: '/docs/kift-terms-de.pdf', fr: '/docs/kift-terms-fr.pdf', tr: '/docs/kift-terms-tr.pdf', es: '/docs/kift-terms-es.pdf', pt: '/docs/kift-terms-pt.pdf',
