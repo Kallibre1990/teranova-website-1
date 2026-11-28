@@ -4,7 +4,7 @@
     "descriptor": "Marque coréenne de soins de la peau avec les gammes Teen et Derma",
     "origin": "Corée",
     "about": [
-      "Nous sommes Feelody, une marque coréenne de soins de la peau fondée par une docteure en médecine coréenne, mère de deux enfants. Selon l'entreprise, l'idée est née des préoccupations cutanées de ses propres enfants, ce qui a façonné notre objectif initial : des soins assez doux pour un adolescent et assez efficaces pour être utilisés chaque jour, à tout âge.",
+      "Nous sommes Feelody, une marque coréenne de soins de la peau fondée par une docteure en médecine coréenne, mère de deux enfants. L'idée est née des préoccupations cutanées de ses propres enfants, ce qui a façonné notre objectif initial : des soins assez doux pour un adolescent et assez efficaces pour être utilisés chaque jour, à tout âge.",
       "Notre gamme réunit cinq produits en deux lignes. La ligne Feelody Teen couvre une routine quotidienne en trois étapes : Day Supreme Multi Essence Sunscreen, Night Flex Calming Ampoule et Acne Wonder Bubble Foam Cleansing. La ligne Feelody Derma ajoute deux produits de soin à domicile pour une routine plus avancée : Vital Surge Skin Booster et All Day Shield Barrier Cream. Chaque produit est formulé comme une formule tout-en-un, afin qu'une routine courte couvre quand même plusieurs préoccupations cutanées à la fois.",
       "Notre ligne Teen est fabriquée selon les standards internationaux (CGMP, ISO 9001, ISO 14001, ISO 22716) ; la ligne Derma selon la pratique ISO 22716. Selon nos documents d'essais cliniques, les cinq produits ont réussi un test d'irritation ou de stimulation primaire sur peau humaine avec un taux de réponse moyen de 0,00 %."
     ],
@@ -14,7 +14,7 @@
       "Fabriqué selon les pratiques CGMP, ISO 9001, ISO 14001 et ISO 22716"
     ],
     "channels": [
-      "Importateurs et distributeurs de cosmétiques",
+      "Importateurs et chaînes de vente de cosmétiques",
       "Drugstores et vente duty-free",
       "Places de marché et e-commerce",
       "Pop-up stores et chaînes de cosmétiques"
@@ -22,15 +22,15 @@
     "lines": [
       {
         "name": "Day Supreme Multi Essence Sunscreen",
-        "note": "Une essence solaire SPF50+ PA++++ de la ligne Teen qui fait aussi office d'étape éclaircissante et hydratante. Selon l'entreprise, la texture d'essence étalable ne laisse aucun film blanc, et le produit a réussi un test d'irritation primaire sur peau humaine et un test d'aptitude pour peau sensible avec un taux de réponse moyen de 0,00 %. Ingrédients clés : acide hyaluronique, niacinamide, huile de jojoba, extraits d'aloe barbadensis et de melia azadirachta."
+        "note": "Une essence solaire SPF50+ PA++++ de la ligne Teen qui fait aussi office d'étape éclaircissante et hydratante. La texture d'essence étalable ne laisse aucun film blanc. Selon les essais cliniques de l'entreprise, le produit a réussi un test d'irritation primaire sur peau humaine et un test d'aptitude pour peau sensible avec un taux de réponse moyen de 0,00 %. Ingrédients clés : acide hyaluronique, niacinamide, huile de jojoba, extraits d'aloe barbadensis et de melia azadirachta."
       },
       {
         "name": "Night Flex Calming Ampoule",
-        "note": "Une ampoule cinq-en-un de la ligne Teen pour hydrater, apaiser, éclaircir, soigner les pores et soutenir la barrière cutanée en une seule étape du soir. Selon l'entreprise, elle a réussi un test d'irritation primaire sur peau humaine et un test d'aptitude pour peau sensible avec un taux de réponse moyen de 0,00 %. Ingrédients clés : acide hyaluronique, niacinamide, panthénol, complexe de centella asiatica et bétaïne."
+        "note": "Une ampoule cinq-en-un de la ligne Teen pour hydrater, apaiser, éclaircir, soigner les pores et soutenir la barrière cutanée en une seule étape du soir. Selon les essais cliniques de l'entreprise, elle a réussi un test d'irritation primaire sur peau humaine et un test d'aptitude pour peau sensible avec un taux de réponse moyen de 0,00 %. Ingrédients clés : acide hyaluronique, niacinamide, panthénol, complexe de centella asiatica et bétaïne."
       },
       {
         "name": "Acne Wonder Bubble Foam Cleansing",
-        "note": "Un nettoyant mousse dense de la ligne Teen à base d'un complexe AHA, BHA et PHA pour le soin des pores et des peaux à tendance acnéique, équilibré à un pH légèrement acide de 4,5. Selon l'entreprise, il a réussi un test de stimulation primaire sur peau humaine avec un taux de réponse moyen de 0,00 %. Ingrédients clés : complexe de centella asiatica, vitamine C et vitamines B12/E."
+        "note": "Un nettoyant mousse dense de la ligne Teen à base d'un complexe AHA, BHA et PHA pour le soin des pores et des peaux à tendance acnéique, équilibré à un pH légèrement acide de 4,5. Selon les essais cliniques de l'entreprise, il a réussi un test de stimulation primaire sur peau humaine avec un taux de réponse moyen de 0,00 %. Ingrédients clés : complexe de centella asiatica, vitamine C et vitamines B12/E."
       },
       {
         "name": "Vital Surge Skin Booster",
@@ -44,11 +44,11 @@
     "tech": [
       {
         "name": "Ligne Teen",
-        "note": "Concerne la ligne Feelody Teen — protection solaire, ampoule et nettoyant moussant. Selon l'entreprise, la production respecte les pratiques CGMP, ISO 9001, ISO 14001 et ISO 22716."
+        "note": "Concerne la ligne Feelody Teen — protection solaire, ampoule et nettoyant moussant. La production respecte les pratiques CGMP, ISO 9001, ISO 14001 et ISO 22716."
       },
       {
         "name": "Ligne Derma",
-        "note": "Concerne la ligne Feelody Derma — skin booster et crème barrière. Selon l'entreprise, la production respecte la pratique ISO 22716."
+        "note": "Concerne la ligne Feelody Derma — skin booster et crème barrière. La production respecte la pratique ISO 22716."
       }
     ],
     "formats": [
@@ -58,7 +58,7 @@
       "Essence skin booster",
       "Crème barrière"
     ],
-    "exportNote": "Selon l'entreprise, Feelody est déjà vendue à l'étranger et, en Corée, via des magasins de cosmétiques hors ligne, des drugstores et la vente duty-free.",
+    "exportNote": "En Corée, Feelody est vendue via des magasins de cosmétiques hors ligne, des drugstores et la vente duty-free.",
     "consentNote": "Les documents, descriptions de produits et images sont fournis par Feelody et publiés avec le consentement de l'entreprise (correspondance d'octobre–novembre 2026). La liste de prix FOB et les autres conditions commerciales restent confidentielles à la demande de l'entreprise. Teranova coordonne et accompagne la transaction.",
     "terms": [
       {
@@ -102,7 +102,7 @@
     "more": "Ouvrir le profil →",
     "verified_suppliers": "Fournisseurs vérifiés",
     "certs_h": "Enregistrements et normes par marché",
-    "certs_note": "Déclarés par l'entreprise pour des marchés d'exportation spécifiques ; la couverture varie selon le produit (voir les pages produit). Des copies des documents justificatifs sont fournies au stade de la transaction.",
+    "certs_note": "L'ensemble des certificats et enregistrements varie selon le produit — voir les pages produit. Des copies des documents justificatifs sont fournies au stade de la transaction.",
     "terms_disc": "Les prix et la commande minimale sont confidentiels à la demande de l'entreprise et ne sont communiqués que sur demande, via Teranova. Les coordonnées directes du fabricant ne sont pas publiées. Les résultats des essais cliniques sont rapportés par l'entreprise à partir de ses propres documents et ne sont pas vérifiés de manière indépendante par Teranova."
   }
 }
