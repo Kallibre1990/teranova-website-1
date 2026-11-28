@@ -1,15 +1,15 @@
 # Черновик ответа CETERA / JCOSLAB — НЕ ОТПРАВЛЕН
 
-Статус: ждёт (1) публикации профиля и (2) явного «отправь» Антона (R-004).
+Статус: профиль опубликован на живом сайте 29.11.2026 (ход T-20261129-009); ждёт явного «отправь» Антона (R-004).
 Один составленный полностью ответ, без досылов вдогонку (R-067): отвечает на
 вопрос компании, сообщает о публикации (ссылка подставляется после мержа) и
 сразу просит второе согласие — на использование материалов в соцсетях
 Teranova. Получатель: ceterakorea@naver.com, копия: tutova@teranovagroup.com
 (как в предыдущих письмах по этой цепочке).
 
-Перед отправкой: заменить `{{PROFILE_LINK}}` на живую ссылку
-`https://teranovagroup.com/ko/catalog/cosmetics/cetera/` (или итоговый slug)
-после фактической публикации.
+Ссылки на живой профиль уже подставлены: https://teranovagroup.com/ko/catalog/cetera/
+(корейская версия) и https://teranovagroup.com/en/catalog/cetera/ (английская
+версия) — обе проверены (HTTP 200) после выката 29.11.2026.
 
 ## Для Антона (суть по-русски)
 
@@ -29,7 +29,7 @@ CETERA (JCOSLAB) согласилась на профиль и спросила:
 관심을 가지고 회신해 주셔서 감사합니다. CETERA 기업·브랜드 프로필과 제품
 페이지를 Teranova Group 플랫폼에 제작하여 게재했습니다:
 
-{{PROFILE_LINK}}
+https://teranovagroup.com/ko/catalog/cetera/
 
 문의하신 두 가지에 답변드립니다.
 
@@ -64,7 +64,7 @@ Thank you for your reply and for your interest. We have created and published
 the CETERA company and brand profile, together with product pages, on the
 Teranova Group platform:
 
-{{PROFILE_LINK}}
+https://teranovagroup.com/en/catalog/cetera/
 
 In answer to your two questions:
 

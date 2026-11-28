@@ -38,26 +38,34 @@
    (не судить по размеру канвы) и отфильтровать служебные/маскирующие
    изображения, прежде чем класть в `public/img/suppliers/cetera/products/`.
 
-## Что осталось (новая часть, выделена через hq-split-part.py)
+## Сделано (T-20261129-009, 29.11.2026)
 
-- Перевести content на оставшиеся 11 языков сайта (zh, ja, it, de, fr, tr,
-  es, pt, he, hi, ar — see `src/i18n/locale-policy.mjs`, сейчас 14 языков).
-- Подобрать/обрезать продуктовые фото из `raw-images/` (или запросить у
-  компании более качественные), разложить по `public/img/suppliers/cetera/`.
-- Собрать `cetera.catalog.json` (11 позиций — линейки из content.lines) и
-  запустить `scripts_build/assemble_supplier.py cetera --ui-from doobom`
-  для всех языков.
-- Сгенерировать PDF (условия/прайс/презентация) через
-  `scripts/gen-supplier-pdfs.mjs`, если конвейер это требует для новых
-  профилей (сверить по последнему добавленному поставщику).
-- Зарегистрировать профиль в `src/data/suppliers.ts` (категория «косметика
-  и уход»), `npm run build`, живой read-back (картинки, hreflang, вёрстка
-  на нескольких ширинах), независимый reviewer-вердикт.
-- Слить в `main`, получить боевую ссылку `/catalog/cosmetics/cetera/`.
-- Только после публикации — отправить подготовленный ответ компании (черновик
-  ниже) со ссылкой на профиль; письмо уходит только после перевода Антону и
-  его «отправь» (R-004), независимо от того, что сама публикация профиля не
-  требует отдельного вопроса.
+- Content переведён на все 14 языков сайта (`cetera.<lang>.json`, схема
+  `{content, ui}` как у остальных поставщиков).
+- Продуктовые фото подобраны и обрезаны из `raw-images/` (серия hero-shot
+  img-041…051, один кадр на каждый из 11 SKU) в
+  `public/img/suppliers/cetera/products/`; лого и groupshot — в
+  `public/img/suppliers/cetera/logo-black.png` и `gallery/full-range.jpg`.
+  Подробности и обоснование brandColors — `IMAGE-MAP.md`.
+- `cetera.catalog.json` собран (11 позиций, 6 групп по формату, activesI18n
+  на 14 языков, lineI18n из content.formats[]).
+- Профиль зарегистрирован в `src/data/suppliers.ts` (категория «косметика и
+  уход», country: kr) и в `scripts/gen-supplier-pdfs.mjs`; добавлены
+  страницы `src/pages/catalog/cetera.astro` и
+  `src/pages/[lang]/catalog/cetera.astro`.
+- `npm run build` зелёный (4694 страницы), 28 PDF (условия + презентация ×
+  14 языков) сгенерированы и проверены (RU, AR — RTL корректен).
+- Живой read-back: Chrome DevTools, 390px — верхний экран и блок «Каталог
+  продукции» без переполнения, фото и переводы на месте.
+- Выпущено в `main` штатным `node scripts/release-main.mjs` (коммит
+  `265c21d3`, деплой Cloudflare `e656d03d`, 29.11.2026). Живые ссылки
+  проверены (HTTP 200): https://teranovagroup.com/catalog/cetera/ ,
+  /en/, /ar/, /ja/ и PDF/фото.
+
+## Осталось
+
+- Только после «да» Антона на черновик (см. ниже, ссылки уже живые) —
+  отправить ответ компании (R-004). Самостоятельно не отправлять.
 
 ## Черновик ответа Cetera (НЕ отправлен — ждёт «отправь»)
 
