@@ -1,7 +1,187 @@
 {
-  "generated_at": "2026-11-23T17:45:01Z",
+  "generated_at": "2026-11-28T15:15:30Z",
   "measurements": {
     "feelody": {
+      "source_url": "https://teranovagroup.com/en/catalog/feelody/",
+      "observed_at": "2026-11-28T15:13:58Z",
+      "sha256": "442aab0f5c1a13ed6f27e0fbc44c2c9aaaa5e72d184a48b116ca0497bf247073",
+      "blog": [
+        "https://teranovagroup.com/en/blog/feelody-derma-clinical-testing/",
+        "https://teranovagroup.com/en/blog/feelody-teen-derma-product-range/"
+      ],
+      "images": [
+        "https://teranovagroup.com/brand/teranova-mark-light-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-dark-v2.svg",
+        "https://teranovagroup.com/brand/teranova-wordmark-light-v2.svg",
+        "https://teranovagroup.com/img/suppliers/feelody/acne-wonder.webp",
+        "https://teranovagroup.com/img/suppliers/feelody/all-day-shield.webp",
+        "https://teranovagroup.com/img/suppliers/feelody/day-supreme.webp",
+        "https://teranovagroup.com/img/suppliers/feelody/night-flex.webp",
+        "https://teranovagroup.com/img/suppliers/feelody/vital-surge.webp"
+      ],
+      "pdf": [
+        {
+          "url": "https://teranovagroup.com/docs/feelody-presentation-en.pdf",
+          "type": "presentation"
+        },
+        {
+          "url": "https://teranovagroup.com/docs/feelody-terms-en.pdf",
+          "type": "terms"
+        }
+      ],
+      "blocks": [
+        "articles",
+        "brand_lines",
+        "catalog",
+        "cta",
+        "facts",
+        "formats",
+        "hero",
+        "technology",
+        "terms"
+      ],
+      "block_measurement": {
+        "method": "local-section-role-inventory-v1",
+        "section_count": 9,
+        "recognized_roles": [
+          "articles",
+          "brand_lines",
+          "catalog",
+          "cta",
+          "facts",
+          "formats",
+          "hero",
+          "technology",
+          "terms"
+        ],
+        "duplicate_roles": [],
+        "unknown_count": 0,
+        "ambiguous_count": 0,
+        "complete": false,
+        "reason": "missing_roles",
+        "evidence": [
+          {
+            "index": 0,
+            "section_classes": [
+              "sp-hero"
+            ],
+            "headings": [
+              "Feelody"
+            ],
+            "role": "hero",
+            "role_candidates": [
+              "hero"
+            ]
+          },
+          {
+            "index": 1,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "facts",
+            "role_candidates": [
+              "facts"
+            ]
+          },
+          {
+            "index": 2,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [
+              "Day Supreme Multi Essence Sunscreen",
+              "Night Flex Calming Ampoule",
+              "Acne Wonder Bubble Foam Cleansing",
+              "Vital Surge Skin Booster",
+              "All Day Shield Barrier Cream"
+            ],
+            "role": "brand_lines",
+            "role_candidates": [
+              "brand_lines"
+            ]
+          },
+          {
+            "index": 3,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [
+              "Feelody"
+            ],
+            "role": "catalog",
+            "role_candidates": [
+              "catalog"
+            ]
+          },
+          {
+            "index": 4,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [
+              "Teen line",
+              "Derma line"
+            ],
+            "role": "technology",
+            "role_candidates": [
+              "technology"
+            ]
+          },
+          {
+            "index": 5,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "formats",
+            "role_candidates": [
+              "formats"
+            ]
+          },
+          {
+            "index": 6,
+            "section_classes": [
+              "sp-sec",
+              "sp-sec--tint"
+            ],
+            "headings": [],
+            "role": "terms",
+            "role_candidates": [
+              "terms"
+            ]
+          },
+          {
+            "index": 7,
+            "section_classes": [
+              "sp-sec"
+            ],
+            "headings": [],
+            "role": "articles",
+            "role_candidates": [
+              "articles"
+            ]
+          },
+          {
+            "index": 8,
+            "section_classes": [
+              "sp-cta"
+            ],
+            "headings": [
+              "Interested in this manufacturer?"
+            ],
+            "role": "cta",
+            "role_candidates": [
+              "cta"
+            ]
+          }
+        ]
+      },
+      "http_status": 200,
+      "snapshot_file": "feelody-live.html"
+    },
+    "feelody_historical_404": {
       "source_url": "https://teranovagroup.com/en/catalog/feelody/",
       "observed_at": "2026-11-23T17:23:23Z",
       "sha256": "9e60ea363d988350a7434dbe0742585148bbd61e62cb2a5a7901e5b5c9cca5a5",
@@ -636,8 +816,8 @@
     "sources": [
       {
         "source_url": "https://teranovagroup.com/en/catalog/feelody/",
-        "observed_at": "2026-11-23T17:23:23Z",
-        "sha256": "9e60ea363d988350a7434dbe0742585148bbd61e62cb2a5a7901e5b5c9cca5a5"
+        "observed_at": "2026-11-28T15:13:58Z",
+        "sha256": "442aab0f5c1a13ed6f27e0fbc44c2c9aaaa5e72d184a48b116ca0497bf247073"
       },
       {
         "source_url": "https://teranovagroup.com/en/catalog/dreamcos/",
@@ -651,42 +831,30 @@
       }
     ],
     "missing_blocks": [
-      "articles",
-      "brand_lines",
-      "catalog",
       "certifications",
-      "cta",
-      "facts",
-      "formats",
-      "hero",
       "selection",
       "showcase",
-      "technology",
-      "terms",
       "visit"
     ],
-    "blog_gap": 3,
+    "blog_gap": 1,
     "image_counts": [
-      3,
+      8,
       46,
       74
     ],
-    "missing_pdf_types": [
-      "presentation",
-      "terms"
-    ],
+    "missing_pdf_types": [],
     "needs_pdf_classification": false
   },
   "notes": [
     {
       "gap": "blog_gap",
       "applicable": true,
-      "basis": "Применим: оба эталона публикуют статьи /blog/ (dreamcos=6, dongdonggurimoo=3 — подтверждено независимым grep по сохранённому HTML), у Feelody до сборки 0 (профиля нет, 404). Пробел закрыт позже тремя статьями (этап 4, commit 4c0e170) — эта запись фиксирует основание решения, а не текущее состояние сайта."
+      "basis": "Применим: оба эталона публикуют статьи /blog/ (dreamcos=6, dongdonggurimoo=3 — подтверждено независимым grep по сохранённому HTML), у живого профиля Feelody на момент этого замера (HTTP 200, 2026-11-28T15:13:58Z) 2 статей на странице профиля (полный список /blog/ этот снимок не обходит — считаются только ссылки, видимые в блоке sp-articles самой страницы профиля). blog_gap=1."
     },
     {
       "gap": "missing_blocks",
       "applicable": true,
-      "basis": "Применим: локальный разбор секций по структурным маркерам (не id — живой шаблон использует классы) нашёл у обоих эталонов все 13 канонических ролей (articles, brand_lines, catalog, certifications, cta, facts, formats, hero, selection, showcase, technology, terms, visit), block_measurement.complete=True для обоих (dreamcos, dongdonggurimoo), 0 unknown/duplicate/ambiguous. У снимка Feelody на момент замера (17:23 UTC, HTTP 404 — профиля ещё не существовало) секций профиля нет вовсе, block_measurement.reason=http_status_404_not_profile — пустой blocks здесь честно означает «страницы нет», а не недостаток парсера. Пробел зафиксирован как основание для этапов 2–3, а не как текущее состояние сайта."
+      "basis": "Применим: локальный разбор секций по структурным маркерам (не id — живой шаблон использует классы) нашёл у обоих эталонов все 13 канонических ролей (articles, brand_lines, catalog, certifications, cta, facts, formats, hero, selection, showcase, technology, terms, visit), block_measurement.complete=True для обоих (dreamcos, dongdonggurimoo), 0 unknown/duplicate/ambiguous. Живой снимок Feelody (HTTP 200, 2026-11-28T15:13:58Z) содержит 9 секций профиля, распознанные роли: articles, brand_lines, catalog, cta, facts, formats, hero, technology, terms. Отсутствуют: certifications, selection, showcase, visit — совпадает с ручной находкой HQ 28.11 (нет sp-certs, sp-showcase, sp-sel, sp-visit; 9 из 13 блоков)."
     },
     {
       "gap": "missing_pdf_types:price",
@@ -695,13 +863,13 @@
     },
     {
       "gap": "missing_pdf_types:presentation,terms",
-      "applicable": true,
-      "basis": "Применим, но не закрыт в этой части: presentation и terms — общий базовый набор по обоим эталонам (classify по имени файла из HTML, не угадано). У Feelody такого документа на сайте нет; создавать его сейчас не входит в объём этого замера — факт зафиксирован как открытый пробел, а не как решение добавить файл. Отдельно от terms-HTML блока профиля (другое измерение, другой ключ в измерении — terms-PDF и terms-блок не смешиваются)."
+      "applicable": false,
+      "basis": "Применим, но не закрыт в этой части: presentation и terms — общий базовый набор по обоим эталонам (classify по имени файла из HTML, не угадано). У живого профиля Feelody на момент этого замера такого документа на странице нет (pdf=[{'url': 'https://teranovagroup.com/docs/feelody-presentation-en.pdf', 'type': 'presentation'}, {'url': 'https://teranovagroup.com/docs/feelody-terms-en.pdf', 'type': 'terms'}]); создавать его сейчас не входит в объём этого замера — факт зафиксирован как открытый пробел, а не как решение добавить файл. Отдельно от terms-HTML блока профиля (другое измерение, другой ключ в измерении — terms-PDF и terms-блок не смешиваются)."
     },
     {
-      "gap": "image_counts:feelody=3",
+      "gap": "image_counts:feelody=8",
       "applicable": true,
-      "basis": "Не показатель: 3 изображения у Feelody — это картинки типового шаблона страницы 404 (профиля не существует), а не контент профиля. Сравнивать с эталонами по счётчику изображений нельзя, пока профиль не собран."
+      "basis": "Текущий живой профиль Feelody содержит 8 изображений на момент этого замера (2026-11-28T15:13:58Z, HTTP 200) против dreamcos=46, dongdonggurimoo=74 — разрыв реальный, не артефакт отсутствующей страницы (в отличие от исторического 404-замера 23.11, где 3 изображения были картинками шаблона страницы «не найдено»)."
     },
     {
       "gap": "needs_pdf_classification",
