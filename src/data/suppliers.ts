@@ -1673,12 +1673,17 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#0e6b5c', sky: '#5fc9b0', accent: '#ff5a8a', bg: '#f1faf7' },
     voice: 'natural',
     catalog: feelodyCatalog as { line: string; items: { name: string; img: string }[] }[],
+    /* Agregate of per-product certs below (feelody.lines.json/feelody.catalog.json),
+       sourced from Feelody's letter of 23.11.2026 (feelody.official@gmail.com,
+       message 1a208621ce0264ab). No registration numbers — company's word only,
+       not independently verified. */
+    certs: ['CPNP', 'MoCRA', 'Japan/Malaysia/Thailand/Singapore/Indonesia/Myanmar FDA', 'CGMP', 'ISO 9001', 'ISO 14001', 'ISO 22716', 'FSC'],
     termsFile: {
       ru: '/docs/feelody-terms-ru.pdf', en: '/docs/feelody-terms-en.pdf', ko: '/docs/feelody-terms-ko.pdf',
       zh: '/docs/feelody-terms-zh.pdf', ja: '/docs/feelody-terms-ja.pdf', he: '/docs/feelody-terms-he.pdf',
       hi: '/docs/feelody-terms-hi.pdf', it: '/docs/feelody-terms-it.pdf', de: '/docs/feelody-terms-de.pdf',
       fr: '/docs/feelody-terms-fr.pdf', tr: '/docs/feelody-terms-tr.pdf', es: '/docs/feelody-terms-es.pdf',
-      pt: '/docs/feelody-terms-pt.pdf',
+      pt: '/docs/feelody-terms-pt.pdf', ar: '/docs/feelody-terms-ar.pdf',
     },
     /* Прайс не публикуется: условие Feelody из переписки — FOB-цены и MOQ
        остаются закрытыми. Прайс-файла нет и не создаётся. */
@@ -1687,7 +1692,7 @@ export const suppliers: SupplierProfile[] = [
       zh: '/docs/feelody-presentation-zh.pdf', ja: '/docs/feelody-presentation-ja.pdf', he: '/docs/feelody-presentation-he.pdf',
       hi: '/docs/feelody-presentation-hi.pdf', it: '/docs/feelody-presentation-it.pdf', de: '/docs/feelody-presentation-de.pdf',
       fr: '/docs/feelody-presentation-fr.pdf', tr: '/docs/feelody-presentation-tr.pdf', es: '/docs/feelody-presentation-es.pdf',
-      pt: '/docs/feelody-presentation-pt.pdf',
+      pt: '/docs/feelody-presentation-pt.pdf', ar: '/docs/feelody-presentation-ar.pdf',
     },
     i18n: {
       ru: mk(feelodyRu), en: mk(feelodyEn), ko: mk(feelodyKo), zh: mk(feelodyZh),

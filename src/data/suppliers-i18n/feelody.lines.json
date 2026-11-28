@@ -9,7 +9,15 @@
         "name": "Day Supreme Multi Essence Sunscreen",
         "img": "/img/suppliers/feelody/day-supreme.webp",
         "volume": "50 ml",
-        "certs": []
+        "certs": [
+          "CPNP",
+          "Japan/Malaysia/Thailand/Singapore/Indonesia/Myanmar FDA",
+          "CGMP",
+          "ISO 9001",
+          "ISO 14001",
+          "ISO 22716",
+          "FSC"
+        ]
       }
     ],
     "i18n": {
@@ -181,7 +189,16 @@
         "name": "Night Flex Calming Ampoule",
         "img": "/img/suppliers/feelody/night-flex.webp",
         "volume": "50 ml",
-        "certs": []
+        "certs": [
+          "MoCRA",
+          "CPNP",
+          "Japan/Malaysia/Thailand/Singapore/Indonesia/Myanmar FDA",
+          "CGMP",
+          "ISO 9001",
+          "ISO 14001",
+          "ISO 22716",
+          "FSC"
+        ]
       }
     ],
     "i18n": {
@@ -353,7 +370,15 @@
         "name": "Acne Wonder Bubble Foam Cleansing",
         "img": "/img/suppliers/feelody/acne-wonder.webp",
         "volume": "150 ml",
-        "certs": []
+        "certs": [
+          "CPNP",
+          "Japan/Malaysia/Thailand/Singapore/Indonesia/Myanmar FDA",
+          "CGMP",
+          "ISO 9001",
+          "ISO 14001",
+          "ISO 22716",
+          "FSC"
+        ]
       }
     ],
     "i18n": {
@@ -525,7 +550,11 @@
         "name": "Vital Surge Skin Booster",
         "img": "/img/suppliers/feelody/vital-surge.webp",
         "volume": "150 ml",
-        "certs": []
+        "certs": [
+          "CPNP",
+          "Japan/Malaysia/Thailand/Singapore/Indonesia/Myanmar FDA",
+          "ISO 22716"
+        ]
       }
     ],
     "i18n": {
@@ -697,7 +726,11 @@
         "name": "All Day Shield Barrier Cream",
         "img": "/img/suppliers/feelody/all-day-shield.webp",
         "volume": "50 ml",
-        "certs": []
+        "certs": [
+          "CPNP",
+          "Japan/Malaysia/Thailand/Singapore/Indonesia/Myanmar FDA",
+          "ISO 22716"
+        ]
       }
     ],
     "i18n": {
