@@ -2810,7 +2810,8 @@
       "es": "Cuidado de ojos",
       "pt": "Cuidados dos olhos",
       "he": "טיפוח העיניים",
-      "hi": "आंखों की देखभाल"
+      "hi": "आंखों की देखभाल",
+      "ar": "العناية بمحيط العين"
     }
   },
   {
@@ -3471,7 +3472,8 @@
       "es": "Mascarillas",
       "pt": "Máscaras",
       "he": "מסכות",
-      "hi": "मास्क"
+      "hi": "मास्क",
+      "ar": "أقنعة الوجه"
     }
   },
   {
@@ -3616,7 +3618,8 @@
       "es": "Cuidado de labios",
       "pt": "Cuidados dos lábios",
       "he": "טיפוח השפתיים",
-      "hi": "होंठों की देखभाल"
+      "hi": "होंठों की देखभाल",
+      "ar": "العناية بالشفاه"
     }
   },
   {
@@ -4059,7 +4062,8 @@
       "es": "Cremas Exosome y cuidado del cuello",
       "pt": "Cremes Exosome e cuidados do pescoço",
       "he": "קרמי Exosome וטיפוח הצוואר",
-      "hi": "Exosome क्रीम और गर्दन की देखभाल"
+      "hi": "Exosome क्रीम और गर्दन की देखभाल",
+      "ar": "كريمات الإكسوزوم والعناية بالرقبة"
     }
   },
   {
@@ -4399,7 +4403,8 @@
       "es": "Discos de cuidado",
       "pt": "Discos de cuidado",
       "he": "פדים לטיפוח",
-      "hi": "केयर पैड"
+      "hi": "केयर पैड",
+      "ar": "وسادات التونر"
     }
   },
   {
@@ -4563,7 +4568,8 @@
       "es": "Tónicos",
       "pt": "Tónicos",
       "he": "טונרים",
-      "hi": "टोनर"
+      "hi": "टोनर",
+      "ar": "التونر"
     }
   },
   {
@@ -4624,7 +4630,8 @@
       "es": "Mascarillas líquidas",
       "pt": "Máscaras líquidas",
       "he": "מסכות נוזליות",
-      "hi": "तरल मास्क"
+      "hi": "तरल मास्क",
+      "ar": "الأقنعة السائلة"
     }
   },
   {
@@ -4850,7 +4857,8 @@
       "es": "Mascarillas de noche y envolventes",
       "pt": "Máscaras noturnas e envolventes",
       "he": "מסכות לילה ועיטוף",
-      "hi": "नाइट और रैपिंग मास्क"
+      "hi": "नाइट और रैपिंग मास्क",
+      "ar": "أقنعة الليل والتغليف"
     }
   },
   {
@@ -4993,7 +5001,8 @@
       "es": "Protección solar",
       "pt": "Proteção solar",
       "he": "הגנה מהשמש",
-      "hi": "धूप से सुरक्षा"
+      "hi": "धूप से सुरक्षा",
+      "ar": "الحماية من الشمس"
     }
   },
   {
@@ -5054,7 +5063,8 @@
       "es": "Espumas limpiadoras",
       "pt": "Espumas de limpeza",
       "he": "קצפי ניקוי",
-      "hi": "क्लींजिंग फोम"
+      "hi": "क्लींजिंग फोम",
+      "ar": "رغوة التنظيف"
     }
   },
   {
@@ -5334,7 +5344,8 @@
       "es": "Cremas BB y tone-up",
       "pt": "Cremes BB e tone-up",
       "he": "קרמי BB וקרמי טון-אפ",
-      "hi": "BB और टोन-अप क्रीम"
+      "hi": "BB और टोन-अप क्रीम",
+      "ar": "كريمات BB وتون-أب"
     }
   },
   {
@@ -5674,7 +5685,8 @@
       "es": "Jabones y champús sólidos",
       "pt": "Sabonetes e champôs sólidos",
       "he": "סבונים ושמפו מוצק",
-      "hi": "साबुन और ठोस शैम्पू"
+      "hi": "साबुन और ठोस शैम्पू",
+      "ar": "الصابون وقوالب الشامبو"
     }
   },
   {
@@ -5839,7 +5851,8 @@
       "es": "Sérums",
       "pt": "Séruns",
       "he": "סרומים",
-      "hi": "सीरम"
+      "hi": "सीरम",
+      "ar": "الأمصال"
     }
   },
   {
@@ -5921,7 +5934,8 @@
       "es": "Cremas Relaxing",
       "pt": "Cremes Relaxing",
       "he": "קרמי Relaxing",
-      "hi": "रिलैक्सिंग क्रीम"
+      "hi": "रिलैक्सिंग क्रीम",
+      "ar": "كريمات Relaxing"
     }
   },
   {
@@ -6023,7 +6037,8 @@
       "es": "Cuidado localizado y de poros",
       "pt": "Cuidados localizados e dos poros",
       "he": "טיפוח נקודתי ונקבוביות",
-      "hi": "स्पॉट और रोमछिद्रों की देखभाल"
+      "hi": "स्पॉट और रोमछिद्रों की देखभाल",
+      "ar": "العناية بالبقع والمسام"
     }
   },
   {
@@ -6084,7 +6099,8 @@
       "es": "Cuidado capilar",
       "pt": "Cuidados do cabelo",
       "he": "טיפוח השיער",
-      "hi": "बालों की देखभाल"
+      "hi": "बालों की देखभाल",
+      "ar": "العناية بالشعر"
     }
   },
   {
@@ -6228,7 +6244,8 @@
       "es": "Lociones y limpiadores corporales",
       "pt": "Loções e produtos de lavagem corporal",
       "he": "תחליבים וסבוני גוף",
-      "hi": "बॉडी लोशन और वॉश"
+      "hi": "बॉडी लोशन और वॉश",
+      "ar": "لوشن ومنتجات غسل الجسم"
     }
   },
   {
@@ -6351,7 +6368,8 @@
       "es": "Mascarillas de hidrogel",
       "pt": "Máscaras de hidrogel",
       "he": "מסכות הידרוג׳ל",
-      "hi": "हाइड्रोजेल मास्क"
+      "hi": "हाइड्रोजेल मास्क",
+      "ar": "أقنعة الهيدروجيل"
     }
   },
   {
@@ -6811,7 +6829,8 @@
       "es": "Cremas de manos y pies",
       "pt": "Cremes de mãos e pés",
       "he": "קרמים לידיים ולרגליים",
-      "hi": "हाथों और पैरों की क्रीम"
+      "hi": "हाथों और पैरों की क्रीम",
+      "ar": "كريمات اليدين والقدمين"
     }
   },
   {
@@ -7037,7 +7056,8 @@
       "es": "Ampollas Silk",
       "pt": "Ampolas Silk",
       "he": "אמפולות Silk",
-      "hi": "Silk एम्पूल"
+      "hi": "Silk एम्पूल",
+      "ar": "أمبولات Silk"
     }
   }
 ]

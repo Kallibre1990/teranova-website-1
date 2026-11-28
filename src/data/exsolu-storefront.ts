@@ -11,6 +11,7 @@ export const storefront = {
   es: { products: 'productos', explore: 'Ver la línea', articles: 'Artículos sobre EXSOLU', catalogue: 'Gama de productos', unavailable: 'Fotografía del producto no disponible' },
   pt: { products: 'produtos', explore: 'Conheça a linha', articles: 'Artigos sobre EXSOLU', catalogue: 'Gama de produtos', unavailable: 'Fotografia do produto indisponível' },
   tr: { products: 'ürün', explore: 'Ürün serisini inceleyin', articles: 'EXSOLU yazıları', catalogue: 'Ürün yelpazesi', unavailable: 'Ürün fotoğrafı mevcut değil' },
+  ar: { products: 'منتجات', explore: 'استعرض الخط', articles: 'مقالات عن EXSOLU', catalogue: 'تشكيلة المنتجات', unavailable: 'صورة المنتج غير متوفرة' },
 } as const;
 
 // Official supplier thumbnails are valid at their natural size (T-20261127-052).
