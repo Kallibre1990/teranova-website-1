@@ -11,6 +11,7 @@ import drPapirubEs from './suppliers-i18n/dr-papirub.es.json';
 import drPapirubPt from './suppliers-i18n/dr-papirub.pt.json';
 import drPapirubHe from './suppliers-i18n/dr-papirub.he.json';
 import drPapirubHi from './suppliers-i18n/dr-papirub.hi.json';
+import drPapirubAr from './suppliers-i18n/dr-papirub.ar.json';
 import drPapirubCatalog from './suppliers-i18n/dr-papirub.catalog.json';
 import watiForSkinRu from './suppliers-i18n/wati-for-skin.ru.json';
 import watiForSkinEn from './suppliers-i18n/wati-for-skin.en.json';
@@ -25,6 +26,7 @@ import watiForSkinEs from './suppliers-i18n/wati-for-skin.es.json';
 import watiForSkinPt from './suppliers-i18n/wati-for-skin.pt.json';
 import watiForSkinHe from './suppliers-i18n/wati-for-skin.he.json';
 import watiForSkinHi from './suppliers-i18n/wati-for-skin.hi.json';
+import watiForSkinAr from './suppliers-i18n/wati-for-skin.ar.json';
 import watiForSkinCatalog from './suppliers-i18n/wati-for-skin.catalog.json';
 import oanicRu from './suppliers-i18n/oanic.ru.json';
 import { agafarProfile } from './agafar';
@@ -1520,7 +1522,8 @@ export const suppliers: SupplierProfile[] = [
       es: mk(drPapirubEs as any),
       pt: mk(drPapirubPt as any),
       he: mk(drPapirubHe as any),
-      hi: mk(drPapirubHi as any)
+      hi: mk(drPapirubHi as any),
+      ar: mk(drPapirubAr as any)
     },
   },
 
@@ -1548,7 +1551,8 @@ export const suppliers: SupplierProfile[] = [
       es: mk(watiForSkinEs as any),
       pt: mk(watiForSkinPt as any),
       he: mk(watiForSkinHe as any),
-      hi: mk(watiForSkinHi as any)
+      hi: mk(watiForSkinHi as any),
+      ar: mk(watiForSkinAr as any)
     },
   },
 

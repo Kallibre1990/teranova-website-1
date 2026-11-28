@@ -247,6 +247,7 @@ export const ar: UIDict = {
       related_h: "مقالات ذات صلة",
       supplier_articles_h: "مقالات مفيدة",
       uses_h: "أين يُستخدم",
+      sources_h: "المصادر",
     },
     catalog: {
       title: "كتالوج الاتجاهات",
