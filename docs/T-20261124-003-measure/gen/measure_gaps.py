@@ -215,45 +215,60 @@ dongdonggurimoo = measure_file(f"{BASE}/dongdonggurimoo.html",
                                 "https://teranovagroup.com/en/catalog/dongdonggurimoo/",
                                 "2026-11-23T16:19:25Z")
 
-feelody = measure_file(f"{BASE}/feelody-404.html",
+# Historical record only (2026-11-23T17:23:23Z): the profile did not exist
+# yet at that moment (HTTP 404). Kept for the audit trail, never used as the
+# current-state measurement — a 404 snapshot cannot prove today's gaps.
+feelody_historical_404 = measure_file(f"{BASE}/feelody-404.html",
+                                       "https://teranovagroup.com/en/catalog/feelody/",
+                                       "2026-11-23T17:23:23Z",
+                                       http_status=404)
+feelody_historical_404["http_status"] = 404
+feelody_historical_404["snapshot_file"] = "feelody-404.html"
+
+# Current-state measurement: live profile, fetched fresh (HTTP 200).
+feelody = measure_file(f"{BASE}/feelody-live.html",
                         "https://teranovagroup.com/en/catalog/feelody/",
-                        "2026-11-23T17:23:23Z",
-                        http_status=404)
-feelody["http_status"] = 404
-feelody["snapshot_file"] = "feelody-404.html"
+                        "2026-11-28T15:13:58Z",
+                        http_status=200)
+feelody["http_status"] = 200
+feelody["snapshot_file"] = "feelody-live.html"
 
 gaps = measured_gaps(feelody, [dreamcos, dongdonggurimoo], forbid_prices=True)
 
 notes = [
     ("blog_gap", gaps["blog_gap"] > 0,
-     "Применим: оба эталона публикуют статьи /blog/ (dreamcos=6, dongdonggurimoo=3 — "
-     "подтверждено независимым grep по сохранённому HTML), у Feelody до сборки 0 (профиля "
-     "нет, 404). Пробел закрыт позже тремя статьями (этап 4, commit 4c0e170) — эта запись "
-     "фиксирует основание решения, а не текущее состояние сайта."),
+     f"Применим: оба эталона публикуют статьи /blog/ (dreamcos={len(dreamcos['blog'])}, "
+     f"dongdonggurimoo={len(dongdonggurimoo['blog'])} — подтверждено независимым grep по "
+     f"сохранённому HTML), у живого профиля Feelody на момент этого замера (HTTP 200, "
+     f"{feelody['observed_at']}) {len(feelody['blog'])} статей на странице профиля "
+     f"(полный список /blog/ этот снимок не обходит — считаются только ссылки, видимые в "
+     f"блоке sp-articles самой страницы профиля). blog_gap={gaps['blog_gap']}."),
     ("missing_blocks", bool(gaps["missing_blocks"]),
      "Применим: локальный разбор секций по структурным маркерам (не id — живой шаблон "
      "использует классы) нашёл у обоих эталонов все 13 канонических ролей "
      f"({', '.join(sorted(CANONICAL_ROLES))}), block_measurement.complete=True для обоих "
-     "(dreamcos, dongdonggurimoo), 0 unknown/duplicate/ambiguous. У снимка Feelody на момент "
-     "замера (17:23 UTC, HTTP 404 — профиля ещё не существовало) секций профиля нет вовсе, "
-     "block_measurement.reason=http_status_404_not_profile — пустой blocks здесь честно "
-     "означает «страницы нет», а не недостаток парсера. Пробел зафиксирован как основание "
-     "для этапов 2–3, а не как текущее состояние сайта."),
+     "(dreamcos, dongdonggurimoo), 0 unknown/duplicate/ambiguous. Живой снимок Feelody "
+     f"(HTTP 200, {feelody['observed_at']}) содержит {feelody['block_measurement']['section_count']} "
+     f"секций профиля, распознанные роли: {', '.join(feelody['block_measurement']['recognized_roles'])}. "
+     f"Отсутствуют: {', '.join(sorted(gaps['missing_blocks']))} — совпадает с ручной находкой HQ "
+     "28.11 (нет sp-certs, sp-showcase, sp-sel, sp-visit; 9 из 13 блоков)."),
     ("missing_pdf_types:price", True,
      "Неприменим по запрету поставщика: Feelody просил не публиковать FOB price list и "
      "коммерческие условия (переписка feelody.official@gmail.com, 23.11.2026). PDF с типом "
      "price исключён из сравнения (forbid_prices=True) и не создаётся ради количества файлов."),
     ("missing_pdf_types:presentation,terms", "presentation" in gaps["missing_pdf_types"],
      "Применим, но не закрыт в этой части: presentation и terms — общий базовый набор по "
-     "обоим эталонам (classify по имени файла из HTML, не угадано). У Feelody такого "
-     "документа на сайте нет; создавать его сейчас не входит в объём этого замера — факт "
-     "зафиксирован как открытый пробел, а не как решение добавить файл. Отдельно от terms-HTML "
-     "блока профиля (другое измерение, другой ключ в измерении — terms-PDF и terms-блок не "
-     "смешиваются)."),
-    ("image_counts:feelody=3", True,
-     "Не показатель: 3 изображения у Feelody — это картинки типового шаблона страницы "
-     "404 (профиля не существует), а не контент профиля. Сравнивать с эталонами по счётчику "
-     "изображений нельзя, пока профиль не собран."),
+     "обоим эталонам (classify по имени файла из HTML, не угадано). У живого профиля Feelody "
+     f"на момент этого замера такого документа на странице нет (pdf={feelody['pdf']}); "
+     "создавать его сейчас не входит в объём этого замера — факт зафиксирован как открытый "
+     "пробел, а не как решение добавить файл. Отдельно от terms-HTML блока профиля (другое "
+     "измерение, другой ключ в измерении — terms-PDF и terms-блок не смешиваются)."),
+    (f"image_counts:feelody={len(feelody['images'])}", True,
+     f"Текущий живой профиль Feelody содержит {len(feelody['images'])} изображений на момент "
+     f"этого замера ({feelody['observed_at']}, HTTP 200) против dreamcos={len(dreamcos['images'])}, "
+     "dongdonggurimoo=" + str(len(dongdonggurimoo['images'])) + " — разрыв реальный, не "
+     "артефакт отсутствующей страницы (в отличие от исторического 404-замера 23.11, где "
+     "3 изображения были картинками шаблона страницы «не найдено»)."),
     ("needs_pdf_classification", gaps["needs_pdf_classification"],
      "False: все 6 PDF у эталонов классифицированы по имени файла в href (price/"
      "presentation/terms), ни один не остался unknown."),
@@ -263,6 +278,7 @@ out = {
     "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     "measurements": {
         "feelody": feelody,
+        "feelody_historical_404": feelody_historical_404,
         "dreamcos": dreamcos,
         "dongdonggurimoo": dongdonggurimoo,
     },
