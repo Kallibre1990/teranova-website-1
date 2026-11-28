@@ -526,6 +526,21 @@ import abeltyHe from './suppliers-i18n/abelty.he.json';
 import abeltyHi from './suppliers-i18n/abelty.hi.json';
 import abeltyAr from './suppliers-i18n/abelty.ar.json';
 import abeltyCatalog from './suppliers-i18n/abelty.catalog.json';
+import ceteraRu from './suppliers-i18n/cetera.ru.json';
+import ceteraEn from './suppliers-i18n/cetera.en.json';
+import ceteraKo from './suppliers-i18n/cetera.ko.json';
+import ceteraZh from './suppliers-i18n/cetera.zh.json';
+import ceteraJa from './suppliers-i18n/cetera.ja.json';
+import ceteraIt from './suppliers-i18n/cetera.it.json';
+import ceteraDe from './suppliers-i18n/cetera.de.json';
+import ceteraFr from './suppliers-i18n/cetera.fr.json';
+import ceteraTr from './suppliers-i18n/cetera.tr.json';
+import ceteraEs from './suppliers-i18n/cetera.es.json';
+import ceteraPt from './suppliers-i18n/cetera.pt.json';
+import ceteraHe from './suppliers-i18n/cetera.he.json';
+import ceteraHi from './suppliers-i18n/cetera.hi.json';
+import ceteraAr from './suppliers-i18n/cetera.ar.json';
+import ceteraCatalog from './suppliers-i18n/cetera.catalog.json';
 import cellahealRu from './suppliers-i18n/cellaheal.ru.json';
 import cellahealEn from './suppliers-i18n/cellaheal.en.json';
 import cellahealKo from './suppliers-i18n/cellaheal.ko.json';
@@ -3916,6 +3931,37 @@ export const suppliers: SupplierProfile[] = [
     voice: 'clinical',
     i18n: {
       ru: mk(twoTigersRu as any), en: mk(twoTigersEn as any), ko: mk(twoTigersKo as any), zh: mk(twoTigersZh as any), ja: mk(twoTigersJa as any), it: mk(twoTigersIt as any), de: mk(twoTigersDe as any), fr: mk(twoTigersFr as any), tr: mk(twoTigersTr as any), es: mk(twoTigersEs as any), pt: mk(twoTigersPt as any), he: mk(twoTigersHe as any), hi: mk(twoTigersHi as any), ar: mk(twoTigersAr as any),
+    },
+  },
+  {
+    slug: 'cetera',
+    category: 'cosmetics',
+    country: 'kr',
+    name: 'JCOSLAB Co., Ltd. (주식회사 제이코스랩)',
+    brand: 'CETERA',
+    status: 'provided',
+    /* Профиль собран по письму JCOSLAB от 11.11.2026 (принципиальное согласие
+       на создание и публикацию профиля и товарных страниц на основе
+       Company Introduction и продуктового леафлета). Цвета — с реальных
+       пакшотов компании (чёрный корпус, тёплый серебристо-бежевый металлик
+       крышки, кремово-золотистые флаконы); фирменной палитры компания не
+       присылала. T-20261129-009. */
+    brandColors: { deep: '#1A1A1A', sky: '#B9B2A6', accent: '#C9A876', bg: '#F7F4EF' },
+    voice: 'natural',
+    logoUrl: '/img/suppliers/cetera/logo-black.png',
+    catalog: ceteraCatalog,
+    gallery: [
+      '/img/suppliers/cetera/gallery/full-range.jpg',
+    ],
+    certs: [],
+    termsFile: {
+      ru: '/docs/cetera-terms-ru.pdf', en: '/docs/cetera-terms-en.pdf', ko: '/docs/cetera-terms-ko.pdf', zh: '/docs/cetera-terms-zh.pdf', ja: '/docs/cetera-terms-ja.pdf', it: '/docs/cetera-terms-it.pdf', de: '/docs/cetera-terms-de.pdf', fr: '/docs/cetera-terms-fr.pdf', tr: '/docs/cetera-terms-tr.pdf', es: '/docs/cetera-terms-es.pdf', pt: '/docs/cetera-terms-pt.pdf', he: '/docs/cetera-terms-he.pdf', hi: '/docs/cetera-terms-hi.pdf',
+    },
+    presFile: {
+      ru: '/docs/cetera-presentation-ru.pdf', en: '/docs/cetera-presentation-en.pdf', ko: '/docs/cetera-presentation-ko.pdf', zh: '/docs/cetera-presentation-zh.pdf', ja: '/docs/cetera-presentation-ja.pdf', it: '/docs/cetera-presentation-it.pdf', de: '/docs/cetera-presentation-de.pdf', fr: '/docs/cetera-presentation-fr.pdf', tr: '/docs/cetera-presentation-tr.pdf', es: '/docs/cetera-presentation-es.pdf', pt: '/docs/cetera-presentation-pt.pdf', he: '/docs/cetera-presentation-he.pdf', hi: '/docs/cetera-presentation-hi.pdf',
+    },
+    i18n: {
+      ru: mk(ceteraRu as any), en: mk(ceteraEn as any), ko: mk(ceteraKo as any), zh: mk(ceteraZh as any), ja: mk(ceteraJa as any), it: mk(ceteraIt as any), de: mk(ceteraDe as any), fr: mk(ceteraFr as any), tr: mk(ceteraTr as any), es: mk(ceteraEs as any), pt: mk(ceteraPt as any), he: mk(ceteraHe as any), hi: mk(ceteraHi as any), ar: mk(ceteraAr as any),
     },
   },
 ];

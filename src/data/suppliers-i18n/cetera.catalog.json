@@ -64,7 +64,22 @@
           ]
         }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Кушоны и тональные средства",
+      "ko": "쿠션·베이스 메이크업",
+      "zh": "气垫与底妆",
+      "ja": "クッション・ベースメイク",
+      "it": "Cushion e trucco base",
+      "de": "Cushions und Make-up-Basis",
+      "fr": "Coussins et fonds de teint",
+      "tr": "Kuşon ve fondöten ürünleri",
+      "es": "Cojines y productos de tono",
+      "pt": "Coxins e produtos de tom",
+      "he": "קושנים ומוצרי טון",
+      "hi": "कुशन और टोन-अप उत्पाद",
+      "ar": "كوشن ومنتجات توحيد اللون"
+    }
   },
   {
     "line": "Ampoules & ampoule lotions",
@@ -193,7 +208,22 @@
           ]
         }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Ампулы и ампульные лосьоны",
+      "ko": "앰플·앰플 로션",
+      "zh": "安瓶与安瓶乳液",
+      "ja": "アンプル・アンプルローション",
+      "it": "Fiale e lozioni in fiala",
+      "de": "Ampullen und Ampullen-Lotionen",
+      "fr": "Ampoules et lotions ampoule",
+      "tr": "Ampul ve ampul losyonları",
+      "es": "Ampollas y lociones ampolla",
+      "pt": "Ampolas e loções ampola",
+      "he": "אמפולות ותחליבי אמפולה",
+      "hi": "एम्पुल और एम्पुल लोशन",
+      "ar": "أمبولات ولوشنات أمبولة"
+    }
   },
   {
     "line": "Masks & SOS gel",
@@ -322,7 +352,22 @@
           ]
         }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Маски и гелевые SOS-средства",
+      "ko": "마스크·SOS 젤",
+      "zh": "面膜与SOS急救凝胶",
+      "ja": "マスク・SOSジェルケア",
+      "it": "Maschere e trattamenti gel SOS",
+      "de": "Masken und SOS-Gel-Treatments",
+      "fr": "Masques et soins gel SOS",
+      "tr": "Maske ve SOS jel ürünleri",
+      "es": "Mascarillas y cuidados en gel SOS",
+      "pt": "Máscaras e cuidados em gel SOS",
+      "he": "מסכות ומוצרי ג'ל SOS",
+      "hi": "मास्क और SOS जेल उत्पाद",
+      "ar": "أقنعة ومنتجات جل SOS"
+    }
   },
   {
     "line": "Sun care",
@@ -389,7 +434,22 @@
           ]
         }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Солнцезащитные средства",
+      "ko": "선케어",
+      "zh": "防晒产品",
+      "ja": "サンケア",
+      "it": "Protezione solare",
+      "de": "Sonnenschutz",
+      "fr": "Protection solaire",
+      "tr": "Güneşten koruyucu ürünler",
+      "es": "Protección solar",
+      "pt": "Proteção solar",
+      "he": "מוצרי הגנה מהשמש",
+      "hi": "सन-केयर उत्पाद",
+      "ar": "منتجات الحماية من الشمس"
+    }
   },
   {
     "line": "Cleansing milk, foam & toner",
@@ -580,7 +640,22 @@
           ]
         }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Очищающие молочко, пенки и тонеры",
+      "ko": "클렌징 밀크·폼 클렌저·토너",
+      "zh": "卸妆乳、洁面泡沫与化妆水",
+      "ja": "クレンジングミルク・洗顔フォーム・トナー",
+      "it": "Latte detergente, schiume detergenti e tonici",
+      "de": "Reinigungsmilch, Schaumreiniger und Toner",
+      "fr": "Lait, mousse et tonique nettoyants",
+      "tr": "Temizleme sütü, köpük ve tonikler",
+      "es": "Leche, espuma y tónico limpiadores",
+      "pt": "Leite, espuma e tônico de limpeza",
+      "he": "חלב ניקוי, קצפים וטונרים",
+      "hi": "क्लींज़िंग मिल्क, फोम और टोनर",
+      "ar": "حليب التنظيف والمنظفات الرغوية والتونر"
+    }
   },
   {
     "line": "Barrier creams",
@@ -709,6 +784,21 @@
           ]
         }
       }
-    ]
+    ],
+    "lineI18n": {
+      "ru": "Кремы для барьерного ухода",
+      "ko": "장벽 케어 크림",
+      "zh": "屏障护理面霜",
+      "ja": "バリアケアクリーム",
+      "it": "Creme per la cura della barriera",
+      "de": "Barrierepflege-Cremes",
+      "fr": "Crèmes pour la barrière cutanée",
+      "tr": "Bariyer bakım kremleri",
+      "es": "Cremas para la barrera cutánea",
+      "pt": "Cremes para a barreira cutânea",
+      "he": "קרמים לטיפוח המחסום",
+      "hi": "बैरियर-केयर क्रीम",
+      "ar": "كريمات العناية بالحاجز"
+    }
   }
 ]

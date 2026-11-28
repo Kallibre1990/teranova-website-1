@@ -283,6 +283,13 @@ const SUPPLIERS = [
     certs: ['FDA', 'EU CPNP', 'MoCRA'],
   },
   {
+    // noPrice: прайс/розничные цены из леафлета не публикуются (R-047/R-082 — компания не просила).
+    id: 'cetera', json: 'cetera', supplier: 'JCOSLAB Co., Ltd.', brand: 'CETERA', noPrice: true,
+    colors: { deep: '#1A1A1A', sky: '#B9B2A6', bg: '#F7F4EF', line: '#E5DFD4' },
+    pres: true,
+    certs: [],
+  },
+  {
     id: 'cocospack', json: 'cocospack', supplier: 'COCOSPACK Co., Ltd.', brand: 'COCOSPACK', noPrice: true,
     colors: { deep: '#14294d', sky: '#5b7fb0', bg: '#f1f6fb', line: '#dde7f2' },
     pres: true,
