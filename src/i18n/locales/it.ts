@@ -530,6 +530,7 @@ const it: DeepPartial<UIDict> = {
     carousel_prev: "Schede precedenti",
     carousel_next: "Schede successive",
   },
+  supplierDocs: { download_terms: 'Scarica le condizioni (PDF)', download_presentation: 'Scarica la presentazione (PDF)' },
 };
 
 export default it;

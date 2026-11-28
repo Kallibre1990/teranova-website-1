@@ -560,4 +560,5 @@ export const pt: UIDict = {
     carousel_prev: 'Cartões anteriores',
     carousel_next: 'Próximos cartões',
   },
+  supplierDocs: { download_terms: 'Baixar condições (PDF)', download_presentation: 'Baixar apresentação (PDF)' },
 };

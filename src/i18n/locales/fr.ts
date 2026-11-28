@@ -522,6 +522,7 @@ const fr: DeepPartial<UIDict> = {
     carousel_prev: "Fiches précédentes",
     carousel_next: "Fiches suivantes",
   },
+  supplierDocs: { download_terms: 'Télécharger les conditions (PDF)', download_presentation: 'Télécharger la présentation (PDF)' },
 };
 
 export default fr;

@@ -530,6 +530,7 @@ const tr: DeepPartial<UIDict> = {
     carousel_prev: "Önceki kartlar",
     carousel_next: "Sonraki kartlar",
   },
+  supplierDocs: { download_terms: 'Koşulları indir (PDF)', download_presentation: 'Sunumu indir (PDF)' },
 };
 
 export default tr;

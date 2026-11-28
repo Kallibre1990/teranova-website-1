@@ -530,6 +530,7 @@ const zh: DeepPartial<UIDict> = {
     carousel_prev: "上一组卡片",
     carousel_next: "下一组卡片",
   },
+  supplierDocs: { download_terms: '下载合作条件 (PDF)', download_presentation: '下载公司介绍 (PDF)' },
 };
 
 export default zh;

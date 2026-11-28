@@ -522,6 +522,7 @@ const ja: DeepPartial<UIDict> = {
     carousel_prev: "前のカード",
     carousel_next: "次のカード",
   },
+  supplierDocs: { download_terms: '協業条件をダウンロード (PDF)', download_presentation: '会社案内をダウンロード (PDF)' },
 };
 
 export default ja;

@@ -1673,6 +1673,33 @@ export const suppliers: SupplierProfile[] = [
     brandColors: { deep: '#0e6b5c', sky: '#5fc9b0', accent: '#ff5a8a', bg: '#f1faf7' },
     voice: 'natural',
     catalog: feelodyCatalog as { line: string; items: { name: string; img: string }[] }[],
+    /* Official presentation photography (Feelody Introduction_202611_Eng_revised.pdf),
+       lossless crops from the presentation's own embedded images / page renders —
+       product unchanged (docs/IMAGERY.md class 1). No status change to 'visited':
+       no one from Teranova has been to Feelody's site or a trade-show booth, so no
+       visitGallery/visitDate is added (see aoi.ru.json gallery_note for the same
+       pattern: supplier-provided material, not a personal visit). Booth/pop-up-store
+       and influencer/celebrity pages from the deck are excluded — people's image
+       rights are not ours (HQ instruction 28.11.2026). */
+    gallery: [
+      '/img/suppliers/feelody/gallery/teen-line-group.webp',
+      '/img/suppliers/feelody/gallery/derma-line-group.webp',
+      '/img/suppliers/feelody/gallery/day-supreme-tray.webp',
+      '/img/suppliers/feelody/gallery/day-supreme-sky.webp',
+      '/img/suppliers/feelody/gallery/day-supreme-drip.webp',
+      '/img/suppliers/feelody/gallery/night-flex-styled.webp',
+      '/img/suppliers/feelody/gallery/night-flex-boxed.webp',
+      '/img/suppliers/feelody/gallery/night-flex-texture.webp',
+      '/img/suppliers/feelody/gallery/acne-wonder-tray.webp',
+      '/img/suppliers/feelody/gallery/acne-wonder-foam.webp',
+      '/img/suppliers/feelody/gallery/acne-wonder-boxed.webp',
+      '/img/suppliers/feelody/gallery/vital-surge-boxed.webp',
+      '/img/suppliers/feelody/gallery/vital-surge-fur.webp',
+      '/img/suppliers/feelody/gallery/vital-surge-drip.webp',
+      '/img/suppliers/feelody/gallery/all-day-shield-texture.webp',
+      '/img/suppliers/feelody/gallery/all-day-shield-cream.webp',
+      '/img/suppliers/feelody/gallery/all-day-shield-boxed.webp',
+    ],
     /* Agregate of per-product certs below (feelody.lines.json/feelody.catalog.json),
        sourced from Feelody's letter of 23.11.2026 (feelody.official@gmail.com,
        message 1a208621ce0264ab). No registration numbers — company's word only,

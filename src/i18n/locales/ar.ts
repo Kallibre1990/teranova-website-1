@@ -551,4 +551,5 @@ export const ar: UIDict = {
     carousel_prev: "البطاقات السابقة",
     carousel_next: "البطاقات التالية",
   },
+  supplierDocs: { download_terms: 'تنزيل الشروط (PDF)', download_presentation: 'تنزيل العرض التقديمي (PDF)' },
 };

@@ -560,4 +560,5 @@ export const en: UIDict = {
     carousel_prev: 'Previous cards',
     carousel_next: 'Next cards',
   },
+  supplierDocs: { download_terms: 'Download terms (PDF)', download_presentation: 'Download presentation (PDF)' },
 };

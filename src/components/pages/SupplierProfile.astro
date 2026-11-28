@@ -77,6 +77,9 @@ import acfitHero from '../../assets/suppliers/acfit/hero.jpg';
 import agingTargetHero from '../../assets/suppliers/agingtarget/hero.jpg';
 import cheon365Hero from '../../assets/suppliers/cheon365/hero.jpg';
 import cellahealHero from '../../assets/suppliers/cellaheal/hero.jpg';
+import feelodyHero from '../../assets/suppliers/feelody/hero.jpg';
+import feelodyProducts from '../../assets/suppliers/feelody/products.jpg';
+import feelodyDrops from '../../assets/suppliers/feelody/drops.jpg';
 
 interface Props {
   lang: Lang;
@@ -109,6 +112,7 @@ const media: Record<string, { hero: ImageMetadata; products: ImageMetadata; drop
   agingtarget: { hero: agingTargetHero, products: agingTargetHero, drops: agingTargetHero },
   cheon365: { hero: cheon365Hero, products: cheon365Hero, drops: cheon365Hero },
   cellaheal: { hero: cellahealHero, products: cellahealHero, drops: cellahealHero },
+  feelody: { hero: feelodyHero, products: feelodyProducts, drops: feelodyDrops },
 };
 const m = media[profile.slug];
 /* Some supplied-material profiles keep their optimised cut-outs in /public
@@ -124,8 +128,8 @@ const presDoc = pickDoc(profile.presFile, lang);
 const profileTerms = c.terms?.length ? c.terms : ((termsDoc || priceDoc || presDoc)
   ? c.lines.map((line) => ({ label: line.name, value: line.note })) : []);
 const termsTitle = c.ui.terms_h || c.ui.export_h;
-const documentLabel = c.ui.download_btn || 'PDF';
-const presentationLabel = c.ui.pres_btn || 'PDF';
+const documentLabel = c.ui.download_btn || t.supplierDocs.download_terms;
+const presentationLabel = c.ui.pres_btn || t.supplierDocs.download_presentation;
 const priceLabel = c.ui.price_btn ?? ((profile.slug === 'cheon365' || profile.slug === 'koy' || profile.slug === 'acfit' || profile.slug === 'agingtarget' || profile.slug === 'ooznary' || profile.slug === 'plk-lift' || profile.slug === 'dailycomma' || profile.slug === 'cellaheal') ? `${c.ui.catalog_h} (PDF)` : undefined);
 /* AgingTarget's documents are the useful evidence here. Keep the closing
    invitation quiet and free of a decorative slide, whose text would compete

@@ -619,6 +619,7 @@ export const ru = {
     carousel_prev: 'Предыдущие карточки',
     carousel_next: 'Следующие карточки',
   },
+  supplierDocs: { download_terms: 'Скачать условия (PDF)', download_presentation: 'Скачать презентацию (PDF)' },
 };
 
 export type UIDict = typeof ru;

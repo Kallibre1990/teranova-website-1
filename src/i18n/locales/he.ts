@@ -551,4 +551,5 @@ export const he: UIDict = {
     carousel_prev: 'הכרטיסים הקודמים',
     carousel_next: 'הכרטיסים הבאים',
   },
+  supplierDocs: { download_terms: 'הורדת התנאים (PDF)', download_presentation: 'הורדת המצגת (PDF)' },
 };

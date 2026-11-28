@@ -547,4 +547,5 @@ export const ko: UIDict = {
     carousel_prev: '이전 카드',
     carousel_next: '다음 카드',
   },
+  supplierDocs: { download_terms: '협력 조건 다운로드 (PDF)', download_presentation: '회사 소개서 다운로드 (PDF)' },
 };

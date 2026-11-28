@@ -9,5 +9,37 @@
     {"slug": "all-day-shield", "file": "public/img/suppliers/feelody/all-day-shield.webp", "product": "All Day Shield Barrier Cream", "px": "1238x1238"}
   ],
   "verified_visually": true,
-  "verified_at": "2026-11-24T01:40:00+09:00"
+  "verified_at": "2026-11-24T01:40:00+09:00",
+  "gallery_added_20261129": {
+    "source": "Feelody Introduction_202611_Eng_revised.pdf, pages 6-7, 9, 11, 13-14, 16 (official presentation; 202512 revision checked and contains the same photography, not re-sourced)",
+    "processing": "two methods, both lossless, no retouch, no added/removed elements, product unchanged (docs/IMAGERY.md class 1): (a) group shots (teen-line-group, derma-line-group) are crops of the page render (pdftoppm 300dpi) with the text header removed; (b) all other files are the PDF's own embedded photographs extracted at native resolution (pdfimages), re-encoded to webp with no recompression artifacts beyond the format change",
+    "excluded_on_purpose": "page 22 (EXPO Korea / Suwon Beauty Festa booths, AEON Mall and Beauty Play pop-up stores) and pages 23-27 (K-celebrity sponsorship, global/local influencer collaboration) were reviewed and excluded: booth/crowd photography and any image of an identifiable person — bystander, model, celebrity or influencer — is not published, because rights to people's images are not confirmed in writing (same standard as aoi.*.json gallery_note). This is also why profile.status stays 'provided' and no visitGallery/visitDate was added: no one from Teranova has physically visited Feelody or a Feelody trade-show stand, so claiming a 'visited' status would misrepresent the relationship.",
+    "images": [
+      {"file": "public/img/suppliers/feelody/gallery/teen-line-group.webp", "desc": "Teen line — 3-step set, group product shot", "px": "3509x1881", "source": "page 6 render crop"},
+      {"file": "public/img/suppliers/feelody/gallery/derma-line-group.webp", "desc": "Derma line — Vital Surge + All Day Shield, group product shot", "px": "3509x1851", "source": "page 13 render crop"},
+      {"file": "public/img/suppliers/feelody/gallery/day-supreme-tray.webp", "desc": "Day Supreme — box + bottle on tray", "px": "600x600", "source": "page 7 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/day-supreme-sky.webp", "desc": "Day Supreme — bottle on pedestal, blue sky backdrop", "px": "600x600", "source": "page 7 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/day-supreme-drip.webp", "desc": "Day Supreme — texture drip close-up", "px": "600x600", "source": "page 7 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/night-flex-styled.webp", "desc": "Night Flex — styled still life", "px": "600x600", "source": "page 9 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/night-flex-boxed.webp", "desc": "Night Flex — bottle + box", "px": "600x600", "source": "page 9 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/night-flex-texture.webp", "desc": "Night Flex — texture close-up", "px": "600x600", "source": "page 9 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/acne-wonder-tray.webp", "desc": "Acne Wonder — bottle + box on tray", "px": "600x600", "source": "page 11 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/acne-wonder-foam.webp", "desc": "Acne Wonder — foam texture close-up", "px": "600x600", "source": "page 11 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/acne-wonder-boxed.webp", "desc": "Acne Wonder — bottle + box", "px": "600x600", "source": "page 11 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/vital-surge-boxed.webp", "desc": "Vital Surge — bottle + box", "px": "1238x1238", "source": "page 14 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/vital-surge-fur.webp", "desc": "Vital Surge — styled still life", "px": "1239x1239", "source": "page 14 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/vital-surge-drip.webp", "desc": "Vital Surge — texture drip close-up", "px": "1239x1239", "source": "page 14 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/all-day-shield-texture.webp", "desc": "All Day Shield — texture close-up", "px": "1236x1236", "source": "page 16 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/all-day-shield-cream.webp", "desc": "All Day Shield — cream close-up", "px": "1237x1237", "source": "page 16 embedded image"},
+      {"file": "public/img/suppliers/feelody/gallery/all-day-shield-boxed.webp", "desc": "All Day Shield — jar + box", "px": "1237x1237", "source": "page 16 embedded image"}
+    ],
+    "showcase_assets": [
+      {"file": "src/assets/suppliers/feelody/hero.jpg", "reused_from": "derma-line-group.webp source crop"},
+      {"file": "src/assets/suppliers/feelody/products.jpg", "reused_from": "teen-line-group.webp source crop"},
+      {"file": "src/assets/suppliers/feelody/drops.jpg", "reused_from": "day-supreme-drip.webp source image"}
+    ],
+    "total_images_in_profile_after_this_change": "5 catalog cutouts + 17 new gallery photographs = 22 distinct product/brand photographs on the page (not counting the 3 site-brand SVGs, or the showcase hero/products/drops slot, which reuses 3 of the 22 files already counted). Live-page recount after deploy is the authoritative check, not this manifest.",
+    "verified_visually": true,
+    "verified_at": "2026-11-29T00:55:00+09:00"
+  }
 }
