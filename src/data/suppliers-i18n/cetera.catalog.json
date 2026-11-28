@@ -1,0 +1,714 @@
+[
+  {
+    "line": "Cushions & tinted sun care",
+    "items": [
+      {
+        "name": "THETHERAPY — Regenerating Cushion",
+        "img": "/img/suppliers/cetera/products/thetherapy.jpg",
+        "actives": [
+          "PDRN",
+          "Exosomes"
+        ],
+        "activesI18n": {
+          "ar": [
+            "PDRN",
+            "إكسوسومات"
+          ],
+          "de": [
+            "PDRN",
+            "Exosomen"
+          ],
+          "es": [
+            "PDRN",
+            "Exosomas"
+          ],
+          "fr": [
+            "PDRN",
+            "Exosomes"
+          ],
+          "he": [
+            "PDRN",
+            "אקסוזומים"
+          ],
+          "hi": [
+            "PDRN",
+            "एक्सोसोम"
+          ],
+          "it": [
+            "PDRN",
+            "Esosomi"
+          ],
+          "ja": [
+            "PDRN",
+            "エクソソーム"
+          ],
+          "ko": [
+            "PDRN",
+            "엑소좀"
+          ],
+          "pt": [
+            "PDRN",
+            "Exossomos"
+          ],
+          "ru": [
+            "PDRN",
+            "Экзосомы"
+          ],
+          "tr": [
+            "PDRN",
+            "Ekzozomlar"
+          ],
+          "zh": [
+            "PDRN",
+            "外泌体"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Ampoules & ampoule lotions",
+    "items": [
+      {
+        "name": "ONEDROPP — Ampoule",
+        "img": "/img/suppliers/cetera/products/onedropp.jpg",
+        "actives": [
+          "Exosomes",
+          "PDRN"
+        ],
+        "activesI18n": {
+          "ar": [
+            "إكسوسومات",
+            "PDRN"
+          ],
+          "de": [
+            "Exosomen",
+            "PDRN"
+          ],
+          "es": [
+            "Exosomas",
+            "PDRN"
+          ],
+          "fr": [
+            "Exosomes",
+            "PDRN"
+          ],
+          "he": [
+            "אקסוזומים",
+            "PDRN"
+          ],
+          "hi": [
+            "एक्सोसोम",
+            "PDRN"
+          ],
+          "it": [
+            "Esosomi",
+            "PDRN"
+          ],
+          "ja": [
+            "エクソソーム",
+            "PDRN"
+          ],
+          "ko": [
+            "엑소좀",
+            "PDRN"
+          ],
+          "pt": [
+            "Exossomos",
+            "PDRN"
+          ],
+          "ru": [
+            "Экзосомы",
+            "PDRN"
+          ],
+          "tr": [
+            "Ekzozomlar",
+            "PDRN"
+          ],
+          "zh": [
+            "外泌体",
+            "PDRN"
+          ]
+        }
+      },
+      {
+        "name": "LOPLEMIXO — Ampoule Lotion",
+        "img": "/img/suppliers/cetera/products/loplemixo.jpg",
+        "actives": [
+          "Centella asiatica water",
+          "Moisture balance complex"
+        ],
+        "activesI18n": {
+          "ar": [
+            "ماء السنتيلا الآسيوية",
+            "مجمع توازن الرطوبة"
+          ],
+          "de": [
+            "Centella-asiatica-Wasser",
+            "Feuchtigkeitsbalance-Komplex"
+          ],
+          "es": [
+            "Agua de centella asiática",
+            "Complejo de equilibrio de humedad"
+          ],
+          "fr": [
+            "Eau de centella asiatica",
+            "Complexe d'équilibre hydrique"
+          ],
+          "he": [
+            "מי סנטלה אסיאתית",
+            "קומפלקס איזון לחות"
+          ],
+          "hi": [
+            "सेंटेला एशियाटिका जल",
+            "मॉइस्चर बैलेंस कॉम्प्लेक्स"
+          ],
+          "it": [
+            "Acqua di centella asiatica",
+            "Complesso di equilibrio idrico"
+          ],
+          "ja": [
+            "ツボクサ水",
+            "水分バランス複合成分"
+          ],
+          "ko": [
+            "병풀수",
+            "수분 밸런스 컴플렉스"
+          ],
+          "pt": [
+            "Água de centela asiática",
+            "Complexo de equilíbrio de hidratação"
+          ],
+          "ru": [
+            "Вода азиатской центеллы",
+            "Комплекс баланса влаги"
+          ],
+          "tr": [
+            "Centella asiatica suyu",
+            "Nem dengesi kompleksi"
+          ],
+          "zh": [
+            "积雪草水",
+            "水油平衡复合物"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Masks & SOS gel",
+    "items": [
+      {
+        "name": "TERADROP — Mask Pack",
+        "img": "/img/suppliers/cetera/products/teradrop.jpg",
+        "actives": [
+          "Exosomes",
+          "PDRN"
+        ],
+        "activesI18n": {
+          "ar": [
+            "إكسوسومات",
+            "PDRN"
+          ],
+          "de": [
+            "Exosomen",
+            "PDRN"
+          ],
+          "es": [
+            "Exosomas",
+            "PDRN"
+          ],
+          "fr": [
+            "Exosomes",
+            "PDRN"
+          ],
+          "he": [
+            "אקסוזומים",
+            "PDRN"
+          ],
+          "hi": [
+            "एक्सोसोम",
+            "PDRN"
+          ],
+          "it": [
+            "Esosomi",
+            "PDRN"
+          ],
+          "ja": [
+            "エクソソーム",
+            "PDRN"
+          ],
+          "ko": [
+            "엑소좀",
+            "PDRN"
+          ],
+          "pt": [
+            "Exossomos",
+            "PDRN"
+          ],
+          "ru": [
+            "Экзосомы",
+            "PDRN"
+          ],
+          "tr": [
+            "Ekzozomlar",
+            "PDRN"
+          ],
+          "zh": [
+            "外泌体",
+            "PDRN"
+          ]
+        }
+      },
+      {
+        "name": "CEMEDIC GEL — SOS Gel Mask",
+        "img": "/img/suppliers/cetera/products/cemedic-gel.jpg",
+        "actives": [
+          "Soothing complex",
+          "Barrier repair complex"
+        ],
+        "activesI18n": {
+          "ar": [
+            "مجمع مهدئ",
+            "مجمع إصلاح الحاجز الجلدي"
+          ],
+          "de": [
+            "Beruhigungskomplex",
+            "Barriere-Reparatur-Komplex"
+          ],
+          "es": [
+            "Complejo calmante",
+            "Complejo reparador de barrera"
+          ],
+          "fr": [
+            "Complexe apaisant",
+            "Complexe réparateur de barrière"
+          ],
+          "he": [
+            "קומפלקס מרגיע",
+            "קומפלקס לשיקום מחסום העור"
+          ],
+          "hi": [
+            "सूदिंग कॉम्प्लेक्स",
+            "बैरियर रिपेयर कॉम्प्लेक्स"
+          ],
+          "it": [
+            "Complesso lenitivo",
+            "Complesso riparatore della barriera"
+          ],
+          "ja": [
+            "鎮静複合成分",
+            "バリア修復複合成分"
+          ],
+          "ko": [
+            "진정 컴플렉스",
+            "장벽 재생 컴플렉스"
+          ],
+          "pt": [
+            "Complexo calmante",
+            "Complexo reparador de barreira"
+          ],
+          "ru": [
+            "Успокаивающий комплекс",
+            "Комплекс восстановления барьера"
+          ],
+          "tr": [
+            "Yatıştırıcı kompleks",
+            "Bariyer onarım kompleksi"
+          ],
+          "zh": [
+            "舒缓复合成分",
+            "屏障修护复合成分"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Sun care",
+    "items": [
+      {
+        "name": "SOLARTONING — Sun Cream SPF50+ PA++++",
+        "img": "/img/suppliers/cetera/products/solartoning.jpg",
+        "actives": [
+          "PDRN",
+          "Exosomes"
+        ],
+        "activesI18n": {
+          "ar": [
+            "PDRN",
+            "إكسوسومات"
+          ],
+          "de": [
+            "PDRN",
+            "Exosomen"
+          ],
+          "es": [
+            "PDRN",
+            "Exosomas"
+          ],
+          "fr": [
+            "PDRN",
+            "Exosomes"
+          ],
+          "he": [
+            "PDRN",
+            "אקסוזומים"
+          ],
+          "hi": [
+            "PDRN",
+            "एक्सोसोम"
+          ],
+          "it": [
+            "PDRN",
+            "Esosomi"
+          ],
+          "ja": [
+            "PDRN",
+            "エクソソーム"
+          ],
+          "ko": [
+            "PDRN",
+            "엑소좀"
+          ],
+          "pt": [
+            "PDRN",
+            "Exossomos"
+          ],
+          "ru": [
+            "PDRN",
+            "Экзосомы"
+          ],
+          "tr": [
+            "PDRN",
+            "Ekzozomlar"
+          ],
+          "zh": [
+            "PDRN",
+            "外泌体"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Cleansing milk, foam & toner",
+    "items": [
+      {
+        "name": "MILKENCREME — Cleansing Milk",
+        "img": "/img/suppliers/cetera/products/milkencreme.jpg",
+        "actives": [
+          "Hyaluronic acid",
+          "Centella asiatica water"
+        ],
+        "activesI18n": {
+          "ar": [
+            "حمض الهيالورونيك",
+            "ماء السنتيلا الآسيوية"
+          ],
+          "de": [
+            "Hyaluronsäure",
+            "Centella-asiatica-Wasser"
+          ],
+          "es": [
+            "Ácido hialurónico",
+            "Agua de centella asiática"
+          ],
+          "fr": [
+            "Acide hyaluronique",
+            "Eau de centella asiatica"
+          ],
+          "he": [
+            "חומצה היאלורונית",
+            "מי סנטלה אסיאתית"
+          ],
+          "hi": [
+            "हायलूरोनिक एसिड",
+            "सेंटेला एशियाटिका जल"
+          ],
+          "it": [
+            "Acido ialuronico",
+            "Acqua di centella asiatica"
+          ],
+          "ja": [
+            "ヒアルロン酸",
+            "ツボクサ水"
+          ],
+          "ko": [
+            "히알루론산",
+            "병풀수"
+          ],
+          "pt": [
+            "Ácido hialurônico",
+            "Água de centela asiática"
+          ],
+          "ru": [
+            "Гиалуроновая кислота",
+            "Вода азиатской центеллы"
+          ],
+          "tr": [
+            "Hiyalüronik asit",
+            "Centella asiatica suyu"
+          ],
+          "zh": [
+            "透明质酸",
+            "积雪草水"
+          ]
+        }
+      },
+      {
+        "name": "BRIENO — Cleansing Foam",
+        "img": "/img/suppliers/cetera/products/brieno.jpg",
+        "actives": [
+          "Centella asiatica water",
+          "Mild cleansing base"
+        ],
+        "activesI18n": {
+          "ar": [
+            "ماء السنتيلا الآسيوية",
+            "أساس تنظيف لطيف"
+          ],
+          "de": [
+            "Centella-asiatica-Wasser",
+            "Milde Reinigungsbasis"
+          ],
+          "es": [
+            "Agua de centella asiática",
+            "Base limpiadora suave"
+          ],
+          "fr": [
+            "Eau de centella asiatica",
+            "Base nettoyante douce"
+          ],
+          "he": [
+            "מי סנטלה אסיאתית",
+            "בסיס ניקוי עדין"
+          ],
+          "hi": [
+            "सेंटेला एशियाटिका जल",
+            "माइल्ड क्लींजिंग बेस"
+          ],
+          "it": [
+            "Acqua di centella asiatica",
+            "Base detergente delicata"
+          ],
+          "ja": [
+            "ツボクサ水",
+            "低刺激クレンジングベース"
+          ],
+          "ko": [
+            "병풀수",
+            "저자극 클렌징 베이스"
+          ],
+          "pt": [
+            "Água de centela asiática",
+            "Base de limpeza suave"
+          ],
+          "ru": [
+            "Вода азиатской центеллы",
+            "Мягкая очищающая основа"
+          ],
+          "tr": [
+            "Centella asiatica suyu",
+            "Yumuşak temizleyici baz"
+          ],
+          "zh": [
+            "积雪草水",
+            "温和洁净配方"
+          ]
+        }
+      },
+      {
+        "name": "RETONIQUE — Toner",
+        "img": "/img/suppliers/cetera/products/retonique.jpg",
+        "actives": [
+          "Centella asiatica water",
+          "Ampoule-grade actives"
+        ],
+        "activesI18n": {
+          "ar": [
+            "ماء السنتيلا الآسيوية",
+            "مكونات فعالة بتركيز الأمبولة"
+          ],
+          "de": [
+            "Centella-asiatica-Wasser",
+            "Wirkstoffe in Ampullenkonzentration"
+          ],
+          "es": [
+            "Agua de centella asiática",
+            "Activos de concentración ampolla"
+          ],
+          "fr": [
+            "Eau de centella asiatica",
+            "Actifs de concentration ampoule"
+          ],
+          "he": [
+            "מי סנטלה אסיאתית",
+            "רכיבים פעילים בריכוז אמפולה"
+          ],
+          "hi": [
+            "सेंटेला एशियाटिका जल",
+            "एम्पूल-ग्रेड सक्रिय तत्व"
+          ],
+          "it": [
+            "Acqua di centella asiatica",
+            "Attivi concentrazione ampolla"
+          ],
+          "ja": [
+            "ツボクサ水",
+            "アンプルグレード成分"
+          ],
+          "ko": [
+            "병풀수",
+            "앰플급 액티브 성분"
+          ],
+          "pt": [
+            "Água de centela asiática",
+            "Ativos de concentração ampola"
+          ],
+          "ru": [
+            "Вода азиатской центеллы",
+            "Активы ампульной концентрации"
+          ],
+          "tr": [
+            "Centella asiatica suyu",
+            "Ampul yoğunluğunda aktifler"
+          ],
+          "zh": [
+            "积雪草水",
+            "安瓶级活性成分"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "line": "Barrier creams",
+    "items": [
+      {
+        "name": "HYALEXO — Balancing Cream",
+        "img": "/img/suppliers/cetera/products/hyalexo.jpg",
+        "actives": [
+          "Hyaluronic acid",
+          "Mineral complex"
+        ],
+        "activesI18n": {
+          "ar": [
+            "حمض الهيالورونيك",
+            "مجمع معدني"
+          ],
+          "de": [
+            "Hyaluronsäure",
+            "Mineralkomplex"
+          ],
+          "es": [
+            "Ácido hialurónico",
+            "Complejo mineral"
+          ],
+          "fr": [
+            "Acide hyaluronique",
+            "Complexe minéral"
+          ],
+          "he": [
+            "חומצה היאלורונית",
+            "קומפלקס מינרלים"
+          ],
+          "hi": [
+            "हायलूरोनिक एसिड",
+            "मिनरल कॉम्प्लेक्स"
+          ],
+          "it": [
+            "Acido ialuronico",
+            "Complesso minerale"
+          ],
+          "ja": [
+            "ヒアルロン酸",
+            "ミネラル複合成分"
+          ],
+          "ko": [
+            "히알루론산",
+            "미네랄 컴플렉스"
+          ],
+          "pt": [
+            "Ácido hialurônico",
+            "Complexo mineral"
+          ],
+          "ru": [
+            "Гиалуроновая кислота",
+            "Минеральный комплекс"
+          ],
+          "tr": [
+            "Hiyalüronik asit",
+            "Mineral kompleksi"
+          ],
+          "zh": [
+            "透明质酸",
+            "矿物质复合成分"
+          ]
+        }
+      },
+      {
+        "name": "CERADERMA — Nourishing Repair Cream",
+        "img": "/img/suppliers/cetera/products/ceraderma.jpg",
+        "actives": [
+          "Mineral complex",
+          "Barrier repair complex"
+        ],
+        "activesI18n": {
+          "ar": [
+            "مجمع معدني",
+            "مجمع إصلاح الحاجز الجلدي"
+          ],
+          "de": [
+            "Mineralkomplex",
+            "Barriere-Reparatur-Komplex"
+          ],
+          "es": [
+            "Complejo mineral",
+            "Complejo reparador de barrera"
+          ],
+          "fr": [
+            "Complexe minéral",
+            "Complexe réparateur de barrière"
+          ],
+          "he": [
+            "קומפלקס מינרלים",
+            "קומפלקס לשיקום מחסום העור"
+          ],
+          "hi": [
+            "मिनरल कॉम्प्लेक्स",
+            "बैरियर रिपेयर कॉम्प्लेक्स"
+          ],
+          "it": [
+            "Complesso minerale",
+            "Complesso riparatore della barriera"
+          ],
+          "ja": [
+            "ミネラル複合成分",
+            "バリア修復複合成分"
+          ],
+          "ko": [
+            "미네랄 컴플렉스",
+            "장벽 재생 컴플렉스"
+          ],
+          "pt": [
+            "Complexo mineral",
+            "Complexo reparador de barreira"
+          ],
+          "ru": [
+            "Минеральный комплекс",
+            "Комплекс восстановления барьера"
+          ],
+          "tr": [
+            "Mineral kompleksi",
+            "Bariyer onarım kompleksi"
+          ],
+          "zh": [
+            "矿物质复合成分",
+            "屏障修护复合成分"
+          ]
+        }
+      }
+    ]
+  }
+]
