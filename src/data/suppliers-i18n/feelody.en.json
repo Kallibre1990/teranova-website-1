@@ -4,7 +4,7 @@
     "descriptor": "Korean skincare brand with Teen and Derma product lines",
     "origin": "Korea",
     "about": [
-      "We are Feelody, a Korean skincare brand founded by a Korean medicine doctor and mother of two. According to the company, the idea came from her own children's skin concerns, which shaped our starting goal: skincare gentle enough for a teenager and effective enough to use every day at any age.",
+      "We are Feelody, a Korean skincare brand founded by a Korean medicine doctor and mother of two. The idea came from her own children's skin concerns, which shaped our starting goal: skincare gentle enough for a teenager and effective enough to use every day at any age.",
       "Our range brings five products together in two lines. The Feelody Teen line covers a daily three-step routine: Day Supreme Multi Essence Sunscreen, Night Flex Calming Ampoule and Acne Wonder Bubble Foam Cleansing. The Feelody Derma line adds two home-care products for a more advanced routine: Vital Surge Skin Booster and All Day Shield Barrier Cream. Each product is built as an all-in-one formula, so a short routine still covers several skin concerns at once.",
       "Our Teen line is manufactured to global-standard production practice (CGMP, ISO 9001, ISO 14001, ISO 22716); the Derma line to ISO 22716 practice. According to our clinical testing materials, all five products completed a human skin primary irritation or stimulation test with an average response rate of 0.00%."
     ],
@@ -14,7 +14,7 @@
       "Manufactured to CGMP, ISO 9001, ISO 14001 and ISO 22716 practice"
     ],
     "channels": [
-      "Cosmetics importers and distributors",
+      "Cosmetics importers and retail chains",
       "Drugstore and duty-free retail",
       "Marketplaces and e-commerce",
       "Pop-up stores and beauty retail chains"
@@ -22,15 +22,15 @@
     "lines": [
       {
         "name": "Day Supreme Multi Essence Sunscreen",
-        "note": "An SPF50+ PA++++ sun essence from the Teen line that also works as a brightening, moisturizing step. According to the company, the spreadable essence texture leaves no white cast, and the product completed a human skin primary irritation test and a sensitive-skin suitability test with an average response rate of 0.00%. Key ingredients: hyaluronic acid, niacinamide, jojoba oil, aloe barbadensis and melia azadirachta extracts."
+        "note": "An SPF50+ PA++++ sun essence from the Teen line that also works as a brightening, moisturizing step. The spreadable essence texture leaves no white cast. According to the company's clinical testing, the product completed a human skin primary irritation test and a sensitive-skin suitability test with an average response rate of 0.00%. Key ingredients: hyaluronic acid, niacinamide, jojoba oil, aloe barbadensis and melia azadirachta extracts."
       },
       {
         "name": "Night Flex Calming Ampoule",
-        "note": "A five-in-one ampoule from the Teen line for moisturizing, calming, brightening, pore care and skin-barrier support in one evening step. According to the company, it completed a human skin primary irritation test and a sensitive-skin suitability test with an average response rate of 0.00%. Key ingredients: hyaluronic acid, niacinamide, panthenol, centella asiatica complex and betaine."
+        "note": "A five-in-one ampoule from the Teen line for moisturizing, calming, brightening, pore care and skin-barrier support in one evening step. According to the company's clinical testing, it completed a human skin primary irritation test and a sensitive-skin suitability test with an average response rate of 0.00%. Key ingredients: hyaluronic acid, niacinamide, panthenol, centella asiatica complex and betaine."
       },
       {
         "name": "Acne Wonder Bubble Foam Cleansing",
-        "note": "A dense bubble foam cleanser from the Teen line built on an AHA, BHA and PHA complex for pore and acne-prone skin care, balanced to a slightly acidic pH 4.5. According to the company, it completed a human skin primary stimulation test with an average response rate of 0.00%. Key ingredients: centella asiatica complex, vitamin C and vitamins B12/E."
+        "note": "A dense bubble foam cleanser from the Teen line built on an AHA, BHA and PHA complex for pore and acne-prone skin care, balanced to a slightly acidic pH 4.5. According to the company's clinical testing, it completed a human skin primary stimulation test with an average response rate of 0.00%. Key ingredients: centella asiatica complex, vitamin C and vitamins B12/E."
       },
       {
         "name": "Vital Surge Skin Booster",
@@ -44,11 +44,11 @@
     "tech": [
       {
         "name": "Teen line",
-        "note": "Covers the Feelody Teen line — sunscreen, ampoule and foam cleanser. According to the company, production meets CGMP, ISO 9001, ISO 14001 and ISO 22716 practice."
+        "note": "Covers the Feelody Teen line — sunscreen, ampoule and foam cleanser. Production meets CGMP, ISO 9001, ISO 14001 and ISO 22716 practice."
       },
       {
         "name": "Derma line",
-        "note": "Covers the Feelody Derma line — skin booster and barrier cream. According to the company, production meets ISO 22716 practice."
+        "note": "Covers the Feelody Derma line — skin booster and barrier cream. Production meets ISO 22716 practice."
       }
     ],
     "formats": [
@@ -58,7 +58,7 @@
       "Skin booster essence",
       "Barrier cream"
     ],
-    "exportNote": "According to the company, Feelody already sells internationally and, in Korea, through offline cosmetics stores, drugstores and duty-free retail.",
+    "exportNote": "In Korea, Feelody is sold through offline cosmetics stores, drugstores and duty-free retail.",
     "consentNote": "Materials, product descriptions and images are provided by Feelody and published with the company’s consent (correspondence of October–November 2026). The FOB price list and other commercial terms stay confidential at the company’s request. Teranova coordinates and supports the deal.",
     "terms": [
       {
@@ -102,7 +102,7 @@
     "more": "Open profile →",
     "verified_suppliers": "Verified suppliers",
     "certs_h": "Registrations and standards by market",
-    "certs_note": "Declared by the company for specific export markets; coverage varies by product (see product pages). Copies of supporting documents are provided at the deal stage.",
+    "certs_note": "The certificate and registration set varies by product — see the product pages. Copies of supporting documents are provided at the deal stage.",
     "terms_disc": "Prices and minimum order are confidential at the company's request and are shared only on inquiry, through Teranova. The manufacturer's direct contacts are not published. Clinical test results are reported by the company from its own materials and are not independently verified by Teranova."
   }
 }
